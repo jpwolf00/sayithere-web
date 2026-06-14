@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SayItHere — French Phrases for Travelers</title>
-  <meta name="description" content="The right words, right where you are. SayItHere detects nearby places and gives you the perfect French phrase for every moment.">
+  <title>SayItHere — Phrases for Travelers</title>
+  <meta name="description" content="The right words, right where you are. SayItHere detects nearby places and gives you the perfect phrase — in French, Italian, Spanish, German, or Portuguese.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,300&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -154,15 +154,29 @@
       animation: fadeUp 0.8s 0.1s ease both;
     }
 
-    .hero-language {
-      display: inline-block;
-      font-family: 'Fraunces', serif;
-      font-style: italic;
-      font-size: 1rem;
-      color: rgba(255,255,255,0.55);
+    .hero-flags {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
       margin-bottom: 48px;
       position: relative; z-index: 1;
       animation: fadeUp 0.8s 0.2s ease both;
+    }
+
+    .hero-flag {
+      font-size: 1.6rem;
+      line-height: 1;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,0.2));
+      transition: transform 0.2s;
+    }
+
+    .hero-flags-label {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.5);
+      margin-left: 4px;
     }
 
     .btn-store {
@@ -278,10 +292,77 @@
       color: var(--muted);
     }
 
+    /* ── LANGUAGES ── */
+    .languages {
+      background: var(--surface);
+      padding: 100px 24px;
+    }
+
+    .languages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .lang-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px 20px 28px;
+      text-align: center;
+      transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+      cursor: default;
+    }
+
+    .lang-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 60px rgba(99,102,241,0.1);
+      border-color: rgba(99,102,241,0.3);
+    }
+
+    .lang-flag-large {
+      font-size: 2.8rem;
+      line-height: 1;
+      display: block;
+      margin-bottom: 14px;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,0.12));
+    }
+
+    .lang-card h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .lang-card p {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .lang-badge {
+      display: inline-block;
+      margin-top: 14px;
+      background: linear-gradient(135deg, rgba(99,102,241,0.1) 0%, rgba(139,92,246,0.1) 100%);
+      color: var(--indigo);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 100px;
+      border: 1px solid rgba(99,102,241,0.15);
+    }
+
     /* ── SCENARIOS ── */
     .scenarios {
       padding: 100px 24px;
-      background: var(--surface);
+      background: white;
     }
 
     .scenarios-grid {
@@ -293,7 +374,7 @@
     }
 
     .scenario-pill {
-      background: white;
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 14px;
       padding: 20px 12px;
@@ -413,6 +494,7 @@
       footer { padding: 24px 20px; flex-direction: column; text-align: center; }
       .footer-right { justify-content: center; }
       .scenarios-grid { grid-template-columns: repeat(3, 1fr); }
+      .languages-grid { grid-template-columns: repeat(2, 1fr); }
     }
   </style>
 </head>
@@ -428,36 +510,33 @@
   <section class="hero">
     <div class="hero-orb"></div>
 
-    <!-- App Icon (CSS + SVG) -->
+    <!-- App Icon -->
     <div class="app-icon">
       <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <!-- Speech bubble -->
+        <!-- Speech bubble body -->
         <ellipse cx="37" cy="30" rx="26" ry="20" fill="white"/>
-        <polygon points="20,46 14,56 28,48" fill="white"/>
-        <!-- Eiffel Tower silhouette -->
-        <g fill="#2D3A8C" opacity="0.85">
-          <!-- Base arch -->
-          <path d="M25 45 Q25 38 37 38 Q49 38 49 45 L47 45 Q47 40 37 40 Q27 40 27 45Z"/>
-          <!-- Lower section -->
-          <rect x="27" y="37" width="4" height="8"/>
-          <rect x="43" y="37" width="4" height="8"/>
-          <!-- Middle platform -->
-          <rect x="28" y="33" width="18" height="2.5" rx="1"/>
-          <!-- Middle legs -->
-          <path d="M30 33 L34 24 L40 24 L44 33Z" fill="#2D3A8C"/>
-          <!-- Upper platform -->
-          <rect x="32" y="21" width="10" height="2" rx="1"/>
-          <!-- Upper section -->
-          <rect x="34.5" y="15" width="5" height="6" rx="1"/>
-          <!-- Spire -->
-          <polygon points="37,8 35.5,15 38.5,15"/>
-        </g>
+        <polygon points="20,46 14,57 30,48" fill="white"/>
+        <!-- Location pin -->
+        <circle cx="37" cy="27" r="7" fill="#2D3A8C" opacity="0.9"/>
+        <path d="M37 34 C37 34 30 42 30 46" stroke="#2D3A8C" stroke-width="0" fill="none"/>
+        <!-- Pin point -->
+        <path d="M33 33 Q37 40 41 33" fill="#2D3A8C" opacity="0.9"/>
+        <!-- Inner dot -->
+        <circle cx="37" cy="27" r="3" fill="white"/>
       </svg>
     </div>
 
     <h1>SayItHere</h1>
     <p class="hero-sub">The right words, right where you are.</p>
-    <p class="hero-language">French Phrases for Travelers in France</p>
+
+    <div class="hero-flags">
+      <span class="hero-flag">🇫🇷</span>
+      <span class="hero-flag">🇮🇹</span>
+      <span class="hero-flag">🇪🇸</span>
+      <span class="hero-flag">🇩🇪</span>
+      <span class="hero-flag">🇵🇹</span>
+      <span class="hero-flags-label">Five languages</span>
+    </div>
 
     <a href="#" class="btn-store">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -484,12 +563,47 @@
       <div class="feature-card reveal" style="transition-delay:0.1s">
         <div class="feature-icon">📖</div>
         <h3>Practice Mode</h3>
-        <p>Browse all scenarios before your trip. Tap any phrase to hear it spoken aloud in natural French, or use Slow mode to learn at your own pace.</p>
+        <p>Browse all scenarios before your trip. Tap any phrase to hear it spoken aloud in your chosen language, or use Slow mode to build confidence at your own pace.</p>
       </div>
       <div class="feature-card reveal" style="transition-delay:0.2s">
         <div class="feature-icon">⌚</div>
         <h3>Lock Screen Widget</h3>
-        <p>A new phrase on your Lock Screen throughout the day. French stays fresh without even opening the app.</p>
+        <p>A new phrase on your Lock Screen throughout the day. Your travel language stays fresh without even opening the app.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section class="languages">
+    <p class="section-label reveal">Languages</p>
+    <h2 class="section-title reveal">Five languages,<br><em style="font-style:italic; font-weight:300;">perfectly prepared</em></h2>
+
+    <div class="languages-grid">
+      <div class="lang-card reveal">
+        <span class="lang-flag-large">🇫🇷</span>
+        <h3>French</h3>
+        <p>France & French-speaking destinations</p>
+        <span class="lang-badge">Most Complete</span>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.08s">
+        <span class="lang-flag-large">🇮🇹</span>
+        <h3>Italian</h3>
+        <p>Italy — from Rome to the Italian Lakes</p>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.16s">
+        <span class="lang-flag-large">🇪🇸</span>
+        <h3>Spanish</h3>
+        <p>Spain — cities, coasts & rural towns</p>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.24s">
+        <span class="lang-flag-large">🇩🇪</span>
+        <h3>German</h3>
+        <p>Germany, Austria & Switzerland</p>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.32s">
+        <span class="lang-flag-large">🇵🇹</span>
+        <h3>Portuguese</h3>
+        <p>Portugal & the Algarve coast</p>
       </div>
     </div>
   </section>
@@ -497,7 +611,7 @@
   <!-- SCENARIOS -->
   <section class="scenarios">
     <p class="section-label reveal">Coverage</p>
-    <h2 class="section-title reveal">Every place you'll visit</h2>
+    <h2 class="section-title reveal">Every place you'll need it</h2>
 
     <div class="scenarios-grid">
       <div class="scenario-pill reveal"><span class="scenario-emoji">☕</span><span>Café</span></div>
