@@ -1,0 +1,144 @@
+{
+  "id": "kyoto_kinkaku_ji_golden_pavilion",
+  "name_en": "Kinkaku-ji (Golden Pavilion)",
+  "name_local": "金閣寺",
+  "icon": "building.columns",
+  "lat": 35.0395293,
+  "lon": 135.7295373,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kyoto_kinkaku_ji_golden_pavilion_001",
+      "intent_en": "Do I need a ticket for Sekkatei?",
+      "text_local": "せっかていに はいるには チケットが いりますか？",
+      "pronunciation": "sEHkktehEEnee-hEEoonEEh-tEEkehttOHg-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Sekkatei is a historic teahouse within the garden. The matcha tea service often requires an additional small fee beyond the main entrance ticket.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、べつの おちゃの けんが いります。",
+        "pronunciation": "hEEbehtsOOnoh-ohtNoh-kEHngg-EEeemSoo",
+        "translation_en": "Yes, you need a separate tea ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, you need a separate tea ticket.",
+          "phonetic": "hEEbehtsOOnoh-ohtNoh-kEHngg-EEeemSoo",
+          "french": "はい、べつの おちゃの けんが いります。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kinkaku_ji_golden_pavilion_002",
+      "intent_en": "How do I get the goshuin stamp?",
+      "text_local": "しゅいんを もらうには どうすれば いいですか？",
+      "pronunciation": "OOeeOH-mOHoonEEh-dOHoosooEHb-EEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "You must present a dedicated goshuincho book. The monk will carefully brush the temple's name, date, and seal directly onto a blank page.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "しゅいんちょうを わたして、300えん はらいます。",
+        "pronunciation": "OOeentohOOoh-wTEEtehsnkhKoo-EH-hEEmSoo",
+        "translation_en": "Hand over your stamp book and pay 300 yen."
+      },
+      "responses": [
+        {
+          "english": "Hand over your stamp book and pay 300 yen.",
+          "phonetic": "OOeentohOOoh-wTEEtehsnkhKoo-EH-hEEmSoo",
+          "french": "しゅいんちょうを わたして、300えん はらいます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kinkaku_ji_golden_pavilion_003",
+      "intent_en": "Where do I pay for parking?",
+      "text_local": "ちゅうしゃりょうは どこで はらいますか？",
+      "pronunciation": "tOOooOHOOh-dohkOHdeh-hEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Parking fees at temples are often paid at automated machines before returning to your car, not to an attendant.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いりぐちの ちかくの せいさんきです。",
+        "pronunciation": "EEeegootEEnoh-tEEkkOOnoh-sEHeesNGkeedEHsoo",
+        "translation_en": "At the payment machine near the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the payment machine near the entrance.",
+          "phonetic": "EEeegootEEnoh-tEEkkOOnoh-sEHeesNGkeedEHsoo",
+          "french": "いりぐちの ちかくの せいさんきです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kinkaku_ji_golden_pavilion_004",
+      "intent_en": "Where do I buy omamori charms?",
+      "text_local": "おまもりは どこで かえますか？",
+      "pronunciation": "OHmmohEEh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Omamori are protective amulets for various blessings like traffic safety, health, or academic success. They should be returned to the temple after one year.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "しゅいんじょの となりです。",
+        "pronunciation": "OOeedOHnoh-tOHneedEHsoo",
+        "translation_en": "It's next to the stamp office."
+      },
+      "responses": [
+        {
+          "english": "It's next to the stamp office.",
+          "phonetic": "OOeedOHnoh-tOHneedEHsoo",
+          "french": "しゅいんじょの となりです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kinkaku_ji_golden_pavilion_005",
+      "intent_en": "Is the Fudo Hall open to visitors?",
+      "text_local": "ふどうどうは みに はいれますか？",
+      "pronunciation": "OOdohOOdohOOh-mEEnee-hEEEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Fudo Hall is a smaller temple building on the grounds often dedicated to Fudo Myoo, a protective deity. It's typically open for prayers and viewing.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、なかには はいれますよ。",
+        "pronunciation": "hEEnKnEEh-hEEEHmsOOyoh",
+        "translation_en": "Yes, you can go inside."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can go inside.",
+          "phonetic": "hEEnKnEEh-hEEEHmsOOyoh",
+          "french": "はい、なかには はいれますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kinkaku_ji_golden_pavilion_006",
+      "intent_en": "Where is the goshuin stamp booth?",
+      "text_local": "しゅいんじょは どこですか？",
+      "pronunciation": "OOeedOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Goshuin are temple seal stamps collected in a special accordion book. They are usually handwritten by a monk or staff member for a small fee.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ほんどうの よこです。",
+        "pronunciation": "hOHndohOOnoh-yOHkohdEHsoo",
+        "translation_en": "It's beside the main hall."
+      },
+      "responses": [
+        {
+          "english": "It's beside the main hall.",
+          "phonetic": "hOHndohOOnoh-yOHkohdEHsoo",
+          "french": "ほんどうの よこです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

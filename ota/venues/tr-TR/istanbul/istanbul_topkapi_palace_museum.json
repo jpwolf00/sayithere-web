@@ -1,0 +1,100 @@
+{
+  "id": "istanbul_topkapi_palace_museum",
+  "name_en": "Topkapi Palace Museum",
+  "name_local": "Topkapı Sarayı Müzesi",
+  "icon": "building.columns",
+  "lat": 41.011344,
+  "lon": 28.9832034,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "istanbul_topkapi_palace_museum_001",
+      "intent_en": "Ask when Treasury opens in morning",
+      "text_local": "Hazine sabah kaçta açılıyor?",
+      "pronunciation": "hahzeenEH-sahbAHh-kahtshtAH-ahtshooOOyawr",
+      "formality": "standard",
+      "cultural_note": "Opening times for specific sections can vary seasonally; the main information desk will have the official schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saat dokuzda açılıyor.",
+        "pronunciation": "sahAHt-dOHkuhzdah-ahtshooOOyawr",
+        "translation_en": "It opens at nine o'clock."
+      },
+      "responses": [
+        {
+          "english": "It opens at nine o'clock.",
+          "phonetic": "sahAHt-dOHkuhzdah-ahtshooOOyawr",
+          "french": "Saat dokuzda açılıyor."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_topkapi_palace_museum_002",
+      "intent_en": "Ask where Harem ticket booth is",
+      "text_local": "Harem gişesi nerede?",
+      "pronunciation": "hahrAHm-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish museums often have separate ticketing; staff may direct you to the main information point for precise locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin sağında.",
+        "pronunciation": "eereeshIHn-sahoondAH",
+        "translation_en": "On the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the right of the entrance.",
+          "phonetic": "eereeshIHn-sahoondAH",
+          "french": "Girişin sağında."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_topkapi_palace_museum_003",
+      "intent_en": "Ask if audio guide includes harem section",
+      "text_local": "Sesli rehber Harem bölümünü kapsıyor mu?",
+      "pronunciation": "sehslIH-rehhbEHr-hahrAHm-buhluemuenUH-kahpsOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Content of audio guides can change; staff at the rental desk have the most current information.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, Harem dahil.",
+        "pronunciation": "ehvEHthahrAHm-dahhIHl",
+        "translation_en": "Yes, Harem is included."
+      },
+      "responses": [
+        {
+          "english": "Yes, Harem is included.",
+          "phonetic": "ehvEHthahrAHm-dahhIHl",
+          "french": "Evet, Harem dahil."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_topkapi_palace_museum_004",
+      "intent_en": "Ask where to leave large bags",
+      "text_local": "Büyük valizleri nereye bırakabilirim?",
+      "pronunciation": "bueyUHk-vahlihzlehrIH-nEHrehyeh-boorahkahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Museums may have a cloakroom or luggage storage; the location is best confirmed at the information desk upon arrival.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişten sonra soldaki emanete.",
+        "pronunciation": "eerihshtAHn-sawnrAH-sawdahkIH-ehmahnehtEH",
+        "translation_en": "To the cloakroom on the left after the entrance."
+      },
+      "responses": [
+        {
+          "english": "To the cloakroom on the left after the entrance.",
+          "phonetic": "eerihshtAHn-sawnrAH-sawdahkIH-ehmahnehtEH",
+          "french": "Girişten sonra soldaki emanete."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

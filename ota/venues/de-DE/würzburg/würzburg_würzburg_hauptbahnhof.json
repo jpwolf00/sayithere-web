@@ -1,0 +1,144 @@
+{
+  "id": "würzburg_würzburg_hauptbahnhof",
+  "name_en": "Würzburg Hauptbahnhof",
+  "name_local": "Würzburg Hauptbahnhof",
+  "icon": "tram",
+  "lat": 49.8015215,
+  "lon": 9.9359849,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "würzburg_würzburg_hauptbahnhof_001",
+      "intent_en": "Ask where the Reisezentrum counter is",
+      "text_local": "Wo finde ich das Reisezentrum?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dahs-rEYEzehtsEHntruhm",
+      "formality": "standard",
+      "cultural_note": "Direktes Nachfragen am Schalter ist üblich, keine Umwege nötig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_hauptbahnhof_002",
+      "intent_en": "Ask how to buy ticket from machine",
+      "text_local": "Wie kaufe ich am Automaten ein Ticket?",
+      "pronunciation": "vee-kOWfuh-ihkh-ahm-OWtohmAHtuhn-eyen-tIHkuht",
+      "formality": "standard",
+      "cultural_note": "Deutsche Fahrkartenautomaten sind selbsterklärend, Anleitung meist auf Deutsch/Englisch.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Anleitung auf dem Bildschirm.",
+        "pronunciation": "AHnlEYEtuhng-owf-dehm-bIHltshihrm",
+        "translation_en": "Follow screen instructions."
+      },
+      "responses": [
+        {
+          "english": "Follow screen instructions.",
+          "phonetic": "AHnlEYEtuhng-owf-dehm-bIHltshihrm",
+          "french": "Anleitung auf dem Bildschirm."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_hauptbahnhof_003",
+      "intent_en": "Ask where Bahnhofsmission help desk is",
+      "text_local": "Wo ist die Bahnhofsmission?",
+      "pronunciation": "vOH-ihst-dee-bAHnhawfsmihsyOHn",
+      "formality": "standard",
+      "cultural_note": "Bahnhofsmission ist eine etablierte Serviceeinrichtung in deutschen Bahnhöfen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gegenüber Gleis 1.",
+        "pronunciation": "gEHguhnUEb-glEYEs-EYEns",
+        "translation_en": "Opposite platform 1."
+      },
+      "responses": [
+        {
+          "english": "Opposite platform 1.",
+          "phonetic": "gEHguhnUEb-glEYEs-EYEns",
+          "french": "Gegenüber Gleis 1."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_hauptbahnhof_004",
+      "intent_en": "Ask when the next ICE on Bahnsteig 1 departs",
+      "text_local": "Wann fährt der nächste ICE auf Bahnsteig 1?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-EEtsEHEH-owf-bAHnsteyek-EYEns",
+      "formality": "standard",
+      "cultural_note": "Abfahrtszeiten werden digital an Bahnsteigen angezeigt, kein Personal nötig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In fünf Minuten.",
+        "pronunciation": "ihn-fUEnf-meenOOtuhn",
+        "translation_en": "In five minutes."
+      },
+      "responses": [
+        {
+          "english": "In five minutes.",
+          "phonetic": "ihn-fUEnf-meenOOtuhn",
+          "french": "In fünf Minuten."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_hauptbahnhof_005",
+      "intent_en": "Ask how to reach Mittelbahnsteige from here",
+      "text_local": "Wie komme ich zu den Mittelbahnsteigen?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoo-dehn-mIHtuhlbAHnsteyeuhn",
+      "formality": "casual",
+      "cultural_note": "Mittelbahnsteige sind zentrale Bahnsteige, Beschilderung ist üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Mittelbahnsteige sind über die Unterführung.",
+        "pronunciation": "dee-mIHtuhlbAHnsteyeguh-zihnt-UEb-dee-UHntfUEruhng",
+        "translation_en": "The middle platforms are via the underpass."
+      },
+      "responses": [
+        {
+          "english": "The middle platforms are via the underpass.",
+          "phonetic": "dee-mIHtuhlbAHnsteyeguh-zihnt-UEb-dee-UHntfUEruhng",
+          "french": "Die Mittelbahnsteige sind über die Unterführung."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_hauptbahnhof_006",
+      "intent_en": "Ask if 9-Euro-Ticket successor is available",
+      "text_local": "Gibt es das 9-Euro-Ticket noch?",
+      "pronunciation": "EEpt-ehs-dahs-nAWuhnAWuhrohtIHkuht-nawkh",
+      "formality": "standard",
+      "cultural_note": "Preisgestaltung des Deutschlandtickets ist aktuelles Thema in Deutschland.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur noch 49-Euro-Ticket.",
+        "pronunciation": "nEYEnnOOr-nawkh-nAWuhn-uhntfIHrtsihAWuhrohtIHkuht",
+        "translation_en": "No, only 49-Euro-Ticket now."
+      },
+      "responses": [
+        {
+          "english": "No, only 49-Euro-Ticket now.",
+          "phonetic": "nEYEnnOOr-nawkh-nAWuhn-uhntfIHrtsihAWuhrohtIHkuht",
+          "french": "Nein, nur noch 49-Euro-Ticket."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "vienna_belvedere_museum",
+  "name_en": "Belvedere Museum",
+  "name_local": "Österreichische Galerie Belvedere",
+  "icon": "building.columns",
+  "lat": 48.1857971,
+  "lon": 16.3838491,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "vienna_belvedere_museum_001",
+      "intent_en": "Where is The Kiss by Klimt in Upper Belvedere?",
+      "text_local": "Wo finde ich Klimts Bild „Der Kuss“?",
+      "pronunciation": "vOH-fIHnduh-ihkh-klIHmts-bIHlt-dehr-kUHs",
+      "formality": "standard",
+      "cultural_note": "In Austrian museums, Klimt’s works are typically displayed in prominent rooms on the main floors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Oberen Belvedere, im ersten Stock.",
+        "pronunciation": "ihm-OHbuhruhn-bEHlvehduhruhihm-EHrstuhn-shtAWk",
+        "translation_en": "In the Upper Belvedere, on the first floor."
+      },
+      "responses": [
+        {
+          "english": "In the Upper Belvedere, on the first floor.",
+          "phonetic": "ihm-OHbuhruhn-bEHlvehduhruhihm-EHrstuhn-shtAWk",
+          "french": "Im Oberen Belvedere, im ersten Stock."
+        }
+      ]
+    },
+    {
+      "id": "vienna_belvedere_museum_002",
+      "intent_en": "Where do I get the special exhibition tickets?",
+      "text_local": "Wo gibt es Tickets für Sonderausstellungen?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fuer-zAWndehrOWsshtuhlUHnguhn",
+      "formality": "standard",
+      "cultural_note": "Special exhibition tickets are typically sold at the main ticket counters in the Upper Belvedere; combined tickets may be available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kartenverkauf im Oberen Belvedere.",
+        "pronunciation": "ahm-kAHrtuhnfkOWf-ihm-OHbuhruhn-bEHlvehduhruh",
+        "translation_en": "At the ticket desk in the Upper Belvedere."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk in the Upper Belvedere.",
+          "phonetic": "ahm-kAHrtuhnfkOWf-ihm-OHbuhruhn-bEHlvehduhruh",
+          "french": "Am Kartenverkauf im Oberen Belvedere."
+        }
+      ]
+    },
+    {
+      "id": "vienna_belvedere_museum_003",
+      "intent_en": "Is the Orangery open for visitors today?",
+      "text_local": "Ist die Orangerie heute geöffnet?",
+      "pronunciation": "ihst-dee-OHrahngehrEE-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Austrian museums and their ancillary buildings (like the Orangery) often have separate opening hours; visitors should check the official site for daily updates.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, geöffnet.",
+        "pronunciation": "yAHuhUHfnuht",
+        "translation_en": "Yes, open."
+      },
+      "responses": [
+        {
+          "english": "Yes, open.",
+          "phonetic": "yAHuhUHfnuht",
+          "french": "Ja, geöffnet."
+        }
+      ]
+    },
+    {
+      "id": "vienna_belvedere_museum_004",
+      "intent_en": "Are gallery walkers allowed in the Lower Belvedere?",
+      "text_local": "Dürfen Besucher mit Gehhilfen in den Unteren Belvedere?",
+      "pronunciation": "dUErfuhn-buhzOOkh-miht-uhhIHlfuhn-ihn-dehn-UHntuhruhn-bEHlvehduhruh",
+      "formality": "casual",
+      "cultural_note": "Austrian museums strive for accessibility; the Lower Belvedere, as a historic palace, has limited accessibility but offers support where possible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, barrierefrei möglich.",
+        "pronunciation": "yAHbAHrihEHrehfrEYE-mUHklihkh",
+        "translation_en": "Yes, accessible."
+      },
+      "responses": [
+        {
+          "english": "Yes, accessible.",
+          "phonetic": "yAHbAHrihEHrehfrEYE-mUHklihkh",
+          "french": "Ja, barrierefrei möglich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

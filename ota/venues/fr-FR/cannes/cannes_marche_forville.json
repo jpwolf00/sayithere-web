@@ -1,0 +1,118 @@
+{
+  "id": "cannes_marche_forville",
+  "name_en": "Marché Forville",
+  "name_local": "Marché Forville",
+  "icon": "bag",
+  "lat": 43.552,
+  "lon": 7.0141,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "cannes_forville_001",
+      "intent_en": "Ask what time the market opens",
+      "text_local": "À quelle heure ouvre le Marché Forville le matin ?",
+      "pronunciation": "ah kel UHR OO-vreh leh mar-SHAY for-VEEL leh mah-TAN",
+      "formality": "polite",
+      "cultural_note": "Marché Forville opens at 7am Tuesday–Sunday. Monday is flea market day (brocante). It closes around 1pm.",
+      "responses": [
+        {
+          "english": "At 7 AM.",
+          "phonetic": "ah set UHR doo mah-TEHN",
+          "french": "À sept heures du matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_forville_002",
+      "intent_en": "Ask where to find fresh Provençal herbs",
+      "text_local": "Où puis-je trouver des herbes de Provence fraîches sur ce marché ?",
+      "pronunciation": "oo PWEE-zheh troo-VAY day ZEHRB deh pro-VANS FRESH soor seh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "Vendors at Forville sell bunches of thyme, rosemary, lavender and herbes de Provence directly from local farms.",
+      "responses": [
+        {
+          "english": "At the back, on the right.",
+          "phonetic": "oh FOHN, soor lah DRWAHT",
+          "french": "Au fond, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_forville_003",
+      "intent_en": "Ask if there are any truffle vendors at the market",
+      "text_local": "Y a-t-il des vendeurs de truffes sur ce marché ?",
+      "pronunciation": "ee ah-TEEL day van-DUHR deh TROOFF soor seh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "Black truffles from Var and white truffles from Provence appear at Forville in season (winter for black, autumn for white).",
+      "responses": [
+        {
+          "english": "Yes, in season, around December.",
+          "phonetic": "wee, ahn seh-ZOHN, vehr day-SAHM-bruh",
+          "french": "Oui, en saison, vers décembre."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_forville_004",
+      "intent_en": "Ask which local cheeses are recommended",
+      "text_local": "Quels fromages locaux me recommandez-vous de goûter ?",
+      "pronunciation": "kel fro-MAZH lo-KOH meh reh-ko-man-DAY voo deh goo-TAY",
+      "formality": "polite",
+      "cultural_note": "Look for Banon (wrapped in chestnut leaves), Brousse and Tome de Provence — all made in nearby hill villages.",
+      "responses": [
+        {
+          "english": "Try the Banon, it's local.",
+          "phonetic": "goo-TAY luh bah-NOHN, seh loh-KAL",
+          "french": "Goûtez le Banon, c'est local."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_forville_005",
+      "intent_en": "Ask if the market is covered in case of rain",
+      "text_local": "Le marché est-il couvert en cas de pluie ?",
+      "pronunciation": "leh mar-SHAY eh-TEEL koo-VEHR an KAH deh PLWEE",
+      "formality": "polite",
+      "cultural_note": "Forville is a covered market hall — you can shop whatever the weather, a rarity on the Riviera.",
+      "responses": [
+        {
+          "english": "Yes, it's covered.",
+          "phonetic": "wee, seh koo-VEHR",
+          "french": "Oui, c'est couvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Provençal herbs",
+      "word_local": "les herbes de Provence",
+      "pronunciation": "lay ZEHRB deh pro-VANS"
+    },
+    {
+      "word_en": "truffle",
+      "word_local": "la truffe",
+      "pronunciation": "lah TROOFF"
+    },
+    {
+      "word_en": "covered market",
+      "word_local": "le marché couvert",
+      "pronunciation": "leh mar-SHAY koo-VEHR"
+    },
+    {
+      "word_en": "flea market",
+      "word_local": "la brocante",
+      "pronunciation": "lah bro-KANT"
+    }
+  ]
+}

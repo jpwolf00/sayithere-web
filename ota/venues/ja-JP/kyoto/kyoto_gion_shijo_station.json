@@ -1,0 +1,122 @@
+{
+  "id": "kyoto_gion_shijo_station",
+  "name_en": "Gion-Shijo Station",
+  "name_local": "祇園四条駅",
+  "icon": "tram",
+  "lat": 35.0032326,
+  "lon": 135.7719309,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kyoto_gion_shijo_station_001",
+      "intent_en": "When is next express train?",
+      "text_local": "つぎの とっきゅうは なんじですか？",
+      "pronunciation": "tsoogEEnoh-tOHkkooOOh-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple, direct time is the most common reply for this question. The time given is a plausible example.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "14じ 32ぷんです。",
+        "pronunciation": "dzOOsee-dEE-sn-dzOOnee-poondEHsoo",
+        "translation_en": "It's at 14:32."
+      },
+      "responses": [
+        {
+          "english": "It's at 14:32.",
+          "phonetic": "dzOOsee-dEE-sn-dzOOnee-poondEHsoo",
+          "french": "14じ 32ぷんです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_gion_shijo_station_002",
+      "intent_en": "Where to recharge IC card?",
+      "text_local": "ICカードの チャージは どこで できますか？",
+      "pronunciation": "ehnEYE-sEEyah-k-EHndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-nOH-tdEEh-dohkOHdeh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Recharge machines are typically located right by the ticket gates for easy access before tapping in.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいさつぐちの よこの きかいです。",
+        "pronunciation": "kEEsTsoogootEEnoh-yohkOHnoh-kEEkeedEHsoo",
+        "translation_en": "It's the machine next to the ticket gates."
+      },
+      "responses": [
+        {
+          "english": "It's the machine next to the ticket gates.",
+          "phonetic": "kEEsTsoogootEEnoh-yohkOHnoh-kEEkeedEHsoo",
+          "french": "かいさつぐちの よこの きかいです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_gion_shijo_station_003",
+      "intent_en": "How to add fare?",
+      "text_local": "のりこしの せいさんは どうすれば いいですか？",
+      "pronunciation": "nOHeekohEEnoh-sEHeesH-dOHoosooEHb-EEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Fare adjustment machines are commonly called 'のりこし せいさんき'. The process is straightforward with an IC card.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "せいさんきで できます。ICカードを いれて ください。",
+        "pronunciation": "sEHeesngkEEdeh-dEHkeemSooehnEYE-sEEyah-k-EHndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-OH-eeEHteh-kOOdsEE",
+        "translation_en": "You can do it at the adjustment machine. Please insert your IC card."
+      },
+      "responses": [
+        {
+          "english": "You can do it at the adjustment machine. Please insert your IC card.",
+          "phonetic": "sEHeesngkEEdeh-dEHkeemSooehnEYE-sEEyah-k-EHndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-OH-eeEHteh-kOOdsEE",
+          "french": "せいさんきで できます。ICカードを いれて ください。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_gion_shijo_station_004",
+      "intent_en": "Which exit for Kawaramachi?",
+      "text_local": "かわらまちへは どの でぐちから でますか？",
+      "pronunciation": "kWMteehEHh-dOHnoh-dEHgooteek-DEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Station exits are often referred to by cardinal directions. 'まっすぐ' (straight) is a simple, clear instruction.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ひがしの でぐちです。まっすぐ どうぞ。",
+        "pronunciation": "khEEgEEnoh-dEHgooteedEHsoomssOOgoo-dohOOzoh",
+        "translation_en": "It's the east exit. Straight ahead, please."
+      },
+      "responses": [
+        {
+          "english": "It's the east exit. Straight ahead, please.",
+          "phonetic": "khEEgEEnoh-dEHgooteedEHsoomssOOgoo-dohOOzoh",
+          "french": "ひがしの でぐちです。まっすぐ どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_gion_shijo_station_005",
+      "intent_en": "Where is Platform 2?",
+      "text_local": "2ばんホームは どこですか？",
+      "pronunciation": "nEE-bHohohmOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Station staff often use 'あちら' for a direction slightly farther away, and specifying stairs is common for platform access.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あちらの かいだんを のぼって ください。",
+        "pronunciation": "TeeNoh-kEEdOH-nohbOHtteh-kOOdsEE",
+        "translation_en": "Please go up those stairs over there."
+      },
+      "responses": [
+        {
+          "english": "Please go up those stairs over there.",
+          "phonetic": "TeeNoh-kEEdOH-nohbOHtteh-kOOdsEE",
+          "french": "あちらの かいだんを のぼって ください。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

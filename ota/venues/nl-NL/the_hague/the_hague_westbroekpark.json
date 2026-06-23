@@ -1,0 +1,56 @@
+{
+  "id": "the_hague_westbroekpark",
+  "name_en": "Westbroekpark",
+  "name_local": "Westbroekpark",
+  "icon": "leaf",
+  "lat": 52.104216,
+  "lon": 4.2907934,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "the_hague_westbroekpark_001",
+      "intent_en": "Is there a cafe near the roses",
+      "text_local": "Is er een cafeetje bij de rozen?",
+      "pronunciation": "ihs-uhr-uhn-kAHfehtuh-behih-duh-rOHzuhn",
+      "formality": "casual",
+      "cultural_note": "Dutch parks often have small cafes or kiosks near popular attractions like rose gardens.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de rozentuin.",
+        "pronunciation": "yAHbehih-duh-rOHzuhntUHuen",
+        "translation_en": "Yes, near the rose garden."
+      },
+      "responses": [
+        {
+          "english": "Yes, near the rose garden.",
+          "phonetic": "yAHbehih-duh-rOHzuhntUHuen",
+          "french": "Ja, bij de rozentuin."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_westbroekpark_002",
+      "intent_en": "How do I pay for parking nearby",
+      "text_local": "Hoe betaal je hier parkeren?",
+      "pronunciation": "hOO-buhtAHl-yuh-hEEr-pahrkIHruhn",
+      "formality": "casual",
+      "cultural_note": "Street-side parking in Dutch urban parks often requires payment via parking meters or apps.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Parkeren betaal je aan de rand.",
+        "pronunciation": "pahrkIHruhn-buhtAHl-yuh-ahn-duh-rAHnt",
+        "translation_en": "Parking payment at the edge streets."
+      },
+      "responses": [
+        {
+          "english": "Parking payment at the edge streets.",
+          "phonetic": "pahrkIHruhn-buhtAHl-yuh-ahn-duh-rAHnt",
+          "french": "Parkeren betaal je aan de rand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

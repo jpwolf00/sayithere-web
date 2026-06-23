@@ -1,0 +1,115 @@
+{
+  "id": "lyon_place_des_terreaux",
+  "name_en": "Place des Terreaux",
+  "name_local": "Place des Terreaux",
+  "icon": "water.waves",
+  "phrases": [
+    {
+      "id": "lyon_terreaux_001",
+      "intent_en": "Ask where the fountain on the square is",
+      "text_local": "Où est la fontaine sur la place ?",
+      "pronunciation": "oo eh lah fon-TEN soor lah PLAHS",
+      "formality": "polite",
+      "cultural_note": "The Bartholdi fountain sits in the centre of the Place des Terreaux, in front of the Hôtel de Ville.",
+      "responses": [
+        {
+          "english": "There, in the centre of the square.",
+          "phonetic": "LAH, oh SAHN-truh duh lah PLAHS",
+          "french": "Là, au centre de la place."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_terreaux_002",
+      "intent_en": "Ask for directions to the Hôtel de Ville",
+      "text_local": "Où se trouve l'Hôtel de Ville, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV loh-TEL duh VEEL, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Lyon's ornate Hôtel de Ville (city hall) faces the Place des Terreaux directly. Its baroque facade is especially beautiful when illuminated during the Fête des Lumières.",
+      "responses": [
+        {
+          "english": "Right across, the large building.",
+          "phonetic": "zhoost ahn FAHSS, luh grahn bah-tee-MAHN",
+          "french": "Juste en face, le grand bâtiment."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_terreaux_003",
+      "intent_en": "Ask a café waiter for a table on the terrace",
+      "text_local": "Avez-vous une table en terrasse, s'il vous plaît ?",
+      "pronunciation": "ah-VAY-voo oon TAH-bluh ahn tay-RAS, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The cafés bordering Place des Terreaux are excellent for people-watching. Prices are a little higher than side streets but the setting is unbeatable.",
+      "responses": [
+        {
+          "english": "Yes, take a seat.",
+          "phonetic": "wee, ehn-stah-LAY voo",
+          "french": "Oui, installez-vous."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_terreaux_004",
+      "intent_en": "Ask when the Fête des Lumières takes place",
+      "text_local": "La Fête des Lumières, c'est quand ?",
+      "pronunciation": "lah FET day loo-MYEHR, seh KAHN",
+      "formality": "standard",
+      "cultural_note": "The Fête des Lumières takes place annually in early December over four nights.",
+      "responses": [
+        {
+          "english": "In December, for four days.",
+          "phonetic": "ahn day-SAHM-bruh, pahn-DAHN KAH-truh ZHOOR",
+          "french": "En décembre, pendant quatre jours."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_terreaux_005",
+      "intent_en": "Ask where the entrance to the Musée des Beaux-Arts is",
+      "text_local": "Où est l'entrée du Musée des Beaux-Arts depuis la place ?",
+      "pronunciation": "oo eh lahn-TRAY doo moo-ZAY day boh-ZAR duh-PWEE lah PLAS",
+      "formality": "polite",
+      "cultural_note": "The Musée des Beaux-Arts de Lyon occupies an entire side of Place des Terreaux, housed in a 17th-century former abbey. The entrance is clearly marked on the north side of the square.",
+      "responses": [
+        {
+          "english": "Through the cloister, on the right.",
+          "phonetic": "par luh KLWAH-truh, soor lah DRWAHT",
+          "french": "Par le cloître, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fountain",
+      "word_local": "la fontaine",
+      "pronunciation": "lah fohn-TEHN"
+    },
+    {
+      "word_en": "city hall",
+      "word_local": "l'Hôtel de Ville",
+      "pronunciation": "loh-TEL duh VEEL"
+    },
+    {
+      "word_en": "terrace seating",
+      "word_local": "la terrasse",
+      "pronunciation": "lah tay-RAS"
+    },
+    {
+      "word_en": "light festival",
+      "word_local": "la Fête des Lumières",
+      "pronunciation": "lah FET day loo-MYAIR"
+    }
+  ]
+}

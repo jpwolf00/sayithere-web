@@ -1,0 +1,122 @@
+{
+  "id": "maastricht_wyck_historic_district",
+  "name_en": "Wyck Historic District",
+  "name_local": "Wyck",
+  "icon": "map",
+  "lat": 50.8472896,
+  "lon": 5.7025267,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "maastricht_wyck_historic_district_001",
+      "intent_en": "Ask where to find market vendors today",
+      "text_local": "Waar staan de marktkramen vandaag?",
+      "pronunciation": "vAHr-stAHn-duh-mahrktkrAHmuhn-vahndAHkh",
+      "formality": "standard",
+      "cultural_note": "Marktkramen in Wyck staan op vaste plekken in het centrum, zoals een plein.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Op het plein.",
+        "pronunciation": "awp-huht-plEHihn",
+        "translation_en": "On the square."
+      },
+      "responses": [
+        {
+          "english": "On the square.",
+          "phonetic": "awp-huht-plEHihn",
+          "french": "Op het plein."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_wyck_historic_district_002",
+      "intent_en": "Ask where Rechtstraat cafes start",
+      "text_local": "Waar beginnen de cafés aan de Rechtstraat?",
+      "pronunciation": "vAHr-buhghIHnuhn-duh-kahfEHs-ahn-rEHkhtstraht",
+      "formality": "standard",
+      "cultural_note": "Cafés in Wyck zijn geconcentreerd langs de Rechtstraat; de straat zelf is het antwoord.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De cafés beginnen na de Sint-Martinuskerk, richting het Stadspark.",
+        "pronunciation": "duh-kahfEHs-buhghIHnuhn-nah-duh-sIHntmAHrteenSkehrkrIHkhting-huht-stAHtspAHrk",
+        "translation_en": "The cafes start after the Sint-Martinuskerk, towards the Stadspark."
+      },
+      "responses": [
+        {
+          "english": "The cafes start after the Sint-Martinuskerk, towards the Stadspark.",
+          "phonetic": "duh-kahfEHs-buhghIHnuhn-nah-duh-sIHntmAHrteenSkehrkrIHkhting-huht-stAHtspAHrk",
+          "french": "De cafés beginnen na de Sint-Martinuskerk, richting het Stadspark."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_wyck_historic_district_003",
+      "intent_en": "Ask if Stationsplein boutiques are open Sundays",
+      "text_local": "Zijn de winkels op Stationsplein zondags open?",
+      "pronunciation": "zehihn-duh-vINGkuhls-awp-stAHshawnsplEHihn-zAWndahkhs-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "Zondagse openingstijden kunnen per winkel verschillen; de winkelbediende heeft de actuele informatie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, de meeste boetieks zijn zondags open, maar niet allemaal.",
+        "pronunciation": "yAHduh-mEHstuh-bootEEk-sehihn-zAWndahkhs-OHpuhnmahr-nEEt-AHluhmAHl",
+        "translation_en": "Yes, most boutiques are open on Sundays, but not all."
+      },
+      "responses": [
+        {
+          "english": "Yes, most boutiques are open on Sundays, but not all.",
+          "phonetic": "yAHduh-mEHstuh-bootEEk-sehihn-zAWndahkhs-OHpuhnmahr-nEEt-AHluhmAHl",
+          "french": "Ja, de meeste boetieks zijn zondags open, maar niet allemaal."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_wyck_historic_district_004",
+      "intent_en": "Ask if parking meters cover this zone",
+      "text_local": "Dekt de parkeermeter deze zone?",
+      "pronunciation": "dEHk-tuh-pAHrkihrmEHtuhr-dEHzuh-zOHnuh",
+      "formality": "standard",
+      "cultural_note": "Parkeren in Wyck kan regels hebben die niet direct zichtbaar zijn; een balie is de juiste plek voor bevestiging.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nee, parkeermeters gelden niet in de gehele wijk. Kijk naar de borden bij het Stadspark of de Rechtstraat.",
+        "pronunciation": "nEHpAHrkihrmEHtuhrs-ghEHlduhn-nEEt-ihn-duh-ghuhhEHluh-vEHihkkEHihk-nahr-duh-bAWrduhn-behih-huht-stAHtspAHrk-awf-duh-rEHkhtstraht",
+        "translation_en": "No, parking meters do not cover the entire district. Check the signs near Stadspark or Rechtstraat."
+      },
+      "responses": [
+        {
+          "english": "No, parking meters do not cover the entire district. Check the signs near Stadspark or Rechtstraat.",
+          "phonetic": "nEHpAHrkihrmEHtuhrs-ghEHlduhn-nEEt-ihn-duh-ghuhhEHluh-vEHihkkEHihk-nahr-duh-bAWrduhn-behih-huht-stAHtspAHrk-awf-duh-rEHkhtstraht",
+          "french": "Nee, parkeermeters gelden niet in de gehele wijk. Kijk naar de borden bij het Stadspark of de Rechtstraat."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_wyck_historic_district_005",
+      "intent_en": "Ask where the Maas riverside path is",
+      "text_local": "Waar loopt het pad langs de Maas?",
+      "pronunciation": "vAHr-lOHpt-huht-pAHt-lAHngs-duh-mAHs",
+      "formality": "standard",
+      "cultural_note": "Het Maas riverside pad is een algemene route; specifieke startpunten zijn niet gedetailleerd in de beschikbare informatie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Het pad loopt langs de rivierzijde van het Stadspark, richting de Sint-Martinuskerk.",
+        "pronunciation": "huht-pAHt-lOHpt-lAHngs-duh-rEEveerzEHihduh-vahn-huht-stAHtspAHrkrIHkhting-duh-sIHntmAHrteenSkehrk",
+        "translation_en": "The path runs along the river side of Stadspark, towards the Sint-Martinuskerk."
+      },
+      "responses": [
+        {
+          "english": "The path runs along the river side of Stadspark, towards the Sint-Martinuskerk.",
+          "phonetic": "huht-pAHt-lOHpt-lAHngs-duh-rEEveerzEHihduh-vahn-huht-stAHtspAHrkrIHkhting-duh-sIHntmAHrteenSkehrk",
+          "french": "Het pad loopt langs de rivierzijde van het Stadspark, richting de Sint-Martinuskerk."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "strasbourg_barrage_vauban",
+  "name_en": "Barrage Vauban",
+  "name_local": "Barrage Vauban",
+  "icon": "building.2",
+  "lat": 48.5821,
+  "lon": 7.7388,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "strasbourg_vauban_001",
+      "intent_en": "Ask about the covered bridges",
+      "text_local": "Que sont les ponts couverts ?",
+      "pronunciation": "keh son lay pon KOO-VEHR",
+      "formality": "polite",
+      "cultural_note": "The Vauban system includes several covered bridges (ponts couverts). They were designed to protect the city from attacks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Right next to the dam, you can see them from here.",
+          "phonetic": "",
+          "french": "Juste à côté du barrage, vous les voyez d'ici."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_vauban_002",
+      "intent_en": "How do we get up to the terrace?",
+      "text_local": "Comment monte-t-on à la terrasse ?",
+      "pronunciation": "koh-MON mont-ON ah lah te-RASS",
+      "formality": "polite",
+      "cultural_note": "The covered terrace walkway is the main reason most visitors stop here.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "By the staircase inside, on the left.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "Par l'escalier à l'intérieur, sur la gauche."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_vauban_003",
+      "intent_en": "Is the panoramic terrace open today?",
+      "text_local": "La terrasse panoramique est ouverte aujourd'hui ?",
+      "pronunciation": "lah te-RASS pah-noh-rah-MEEK eh oo-VAIRT oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Access can change with maintenance hours or weather, so it is worth confirming on site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, free access. Go up by the stairs.",
+          "phonetic": "wee, say tun pwahn an-por-TANT duh lees-TWAR loh-KAL",
+          "french": "Oui, en accès libre. Montez par l'escalier."
+        }
+      ]
+    },
+    {
+      "id": "fr_vb_str_x1",
+      "intent_en": "Ask if the rooftop terrace is open",
+      "text_local": "La terrasse panoramique est-elle ouverte ?",
+      "pronunciation": "lah teh-RAHS pah-noh-rah-MEEK ay-TEL oo-VAIR",
+      "formality": "polite",
+      "cultural_note": "The Barrage Vauban is a 17th-century weir designed by Vauban that offers a panoramic terrace over the petite France quarter and the covered bridges.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, access is free and open all day.",
+          "phonetic": "wee, lak-SAY ay grah-TWEET ay LEEBR toot lah zhoor-NAY.",
+          "french": "Oui, l'accès est gratuit et libre toute la journée."
+        }
+      ]
+    },
+    {
+      "id": "fr_vb_str_x2",
+      "intent_en": "Ask where the Ponts Couverts are from here",
+      "text_local": "Où se trouvent les Ponts Couverts depuis le barrage ?",
+      "pronunciation": "oo suh TROOV lay PON koo-VAIR duh-PWEE luh bah-RAHZH",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Right in front, they're perfectly visible from here.",
+          "phonetic": "zhoos tahn FAHS, on lay vwah par-FAY-tuh-MAHN dee-SEE.",
+          "french": "Juste en face, on les voit parfaitement d'ici."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "dam",
+      "word_local": "le barrage",
+      "pronunciation": "leh bah-RAHZH"
+    },
+    {
+      "word_en": "bridge",
+      "word_local": "le pont",
+      "pronunciation": "leh PON"
+    },
+    {
+      "word_en": "engineer",
+      "word_local": "l'ingénieur",
+      "pronunciation": "lan-zhay-NYUHR"
+    },
+    {
+      "word_en": "view",
+      "word_local": "la vue",
+      "pronunciation": "lah VOO"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "kyoto_kyoto_station",
+  "name_en": "Kyoto Station",
+  "name_local": "京都駅",
+  "icon": "tram",
+  "lat": 34.9867004,
+  "lon": 135.7586957,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kyoto_kyoto_station_001",
+      "intent_en": "Does the Skyway connect to Isetan?",
+      "text_local": "スカイウェイは いせたんに つながってますか？",
+      "pronunciation": "sOOkEEwehEEh-EEsehtNnee-tsOOngTtehmsOOk",
+      "formality": "standard",
+      "cultural_note": "The Skyway is a known walkway at Kyoto Station that provides direct access to the Isetan department store.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、いせたんの なかに はいれます。",
+        "pronunciation": "hEEEEsehtNnoh-nkNee-hEEehmSoo",
+        "translation_en": "Yes, you can enter Isetan from it."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can enter Isetan from it.",
+          "phonetic": "hEEEEsehtNnoh-nkNee-hEEehmSoo",
+          "french": "はい、いせたんの なかに はいれます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_station_002",
+      "intent_en": "How do I charge my ICOCA card?",
+      "text_local": "イコカカードに チャージしたいです。",
+      "pronunciation": "EEkohkKdOHnee-tDeeEEteedEHsoo",
+      "formality": "standard",
+      "cultural_note": "Staff often refer to ticket machines by color. ICOCA-compatible machines are typically blue in JR West areas.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あおい きかいで できますよ。",
+        "pronunciation": "OHee-kEEkEEdeh-dEHkeemsOOyoh",
+        "translation_en": "You can do it at the blue machine."
+      },
+      "responses": [
+        {
+          "english": "You can do it at the blue machine.",
+          "phonetic": "OHee-kEEkEEdeh-dEHkeemsOOyoh",
+          "french": "あおい きかいで できますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_station_003",
+      "intent_en": "Can I check in to my hotel here?",
+      "text_local": "ここで ホテルのチェックインが できますか？",
+      "pronunciation": "kohkOHdeh-hOHtehOOnohtEHkkooEEngg-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Major stations like Kyoto Station often have hotel check-in counters right inside the building for partner hotels.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、こちらの カウンターで できます。",
+        "pronunciation": "hEEkOHteeNoh-kOOntDeh-dEHkeemSoo",
+        "translation_en": "Yes, you can do it at this counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can do it at this counter.",
+          "phonetic": "hEEkOHteeNoh-kOOntDeh-dEHkeemSoo",
+          "french": "はい、こちらの カウンターで できます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_station_004",
+      "intent_en": "Where is the Porta underground mall entrance?",
+      "text_local": "ポルタちかがいの いりぐちは どこですか？",
+      "pronunciation": "pOHootTeekGEEnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Using a major landmark like the bus terminal is a natural way to guide someone to the underground entrance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "バスのりばの ちかくに かいだんが あります。",
+        "pronunciation": "bSoonOHeebNoh-tEEkkOOnee-kEEdNGg-EEmSoo",
+        "translation_en": "There are stairs near the bus terminal."
+      },
+      "responses": [
+        {
+          "english": "There are stairs near the bus terminal.",
+          "phonetic": "bSoonOHeebNoh-tEEkkOOnee-kEEdNGg-EEmSoo",
+          "french": "バスのりばの ちかくに かいだんが あります。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_station_005",
+      "intent_en": "Where is the Shinkansen reserved seat counter?",
+      "text_local": "しんかんせんの していせきカウンターは どこですか？",
+      "pronunciation": "EEngksEHnnoh-EEtehEEsehkEEkoontH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often name the floor and nearby landmark (gates) when giving directions inside a station.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "2かいの しんかんせんのりば ちかくです。",
+        "pronunciation": "nEE-kEEnoh-EEngkSehnnohEEb-tEEkkoodEHsoo",
+        "translation_en": "On the 2nd floor, near the Shinkansen gates."
+      },
+      "responses": [
+        {
+          "english": "On the 2nd floor, near the Shinkansen gates.",
+          "phonetic": "nEE-kEEnoh-EEngkSehnnohEEb-tEEkkoodEHsoo",
+          "french": "2かいの しんかんせんのりば ちかくです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_station_006",
+      "intent_en": "Where is the Isetan tax-free counter?",
+      "text_local": "いせたんの めんぜいカウンターは どこですか？",
+      "pronunciation": "EEsehtNnoh-mEHzEHeekOOntH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "For a counter inside a named department store, the floor number is the standard precise answer.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いせたんの 3かいです。",
+        "pronunciation": "EEsehtNnoh-sN-kEEdEHsoo",
+        "translation_en": "It's on the 3rd floor of Isetan."
+      },
+      "responses": [
+        {
+          "english": "It's on the 3rd floor of Isetan.",
+          "phonetic": "EEsehtNnoh-sN-kEEdEHsoo",
+          "french": "いせたんの 3かいです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

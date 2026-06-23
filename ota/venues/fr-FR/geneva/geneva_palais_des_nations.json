@@ -1,0 +1,110 @@
+{
+  "id": "geneva_palais_des_nations",
+  "name_en": "Palace of Nations (UN Geneva)",
+  "name_local": "Palais des Nations",
+  "icon": "globe.europe.africa",
+  "phrases": [
+    {
+      "id": "geneva_un_001",
+      "intent_en": "Ask how to book a tour of the Palace of Nations",
+      "text_local": "Comment réserver une visite guidée du Palais des Nations ?",
+      "pronunciation": "koh-MOHN ray-zair-VAY oon vee-ZEET gee-DAY doo pah-LAY day nah-SYOHN",
+      "formality": "polite",
+      "cultural_note": "Tours of the Palais des Nations must be booked online in advance. Visitors must bring a valid photo ID; the site has strict security measures.",
+      "responses": [
+        {
+          "english": "You need to book online.",
+          "phonetic": "eel foh ray-zer-VAY ahn LEE-nyuh",
+          "french": "Il faut réserver en ligne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_un_002",
+      "intent_en": "Ask where the entrance for visitors is",
+      "text_local": "Où se trouve l'entrée pour les visiteurs du Palais des Nations ?",
+      "pronunciation": "oo suh TROOV lon-TRAY poor lay vee-zee-TUR doo pah-LAY day nah-SYOHN",
+      "formality": "polite",
+      "cultural_note": "The public entrance is on Avenue de la Paix. Allow extra time for the security check, especially during major international conferences.",
+      "responses": [
+        {
+          "english": "Pregny Gate, Avenue de la Paix.",
+          "phonetic": "PORT preh-NYEE, av-NOO duh lah PEH",
+          "french": "Porte Pregny, avenue de la Paix."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_un_003",
+      "intent_en": "Ask how long the guided tour takes",
+      "text_local": "La visite guidée dure combien de temps ?",
+      "pronunciation": "lah vee-ZEET ghee-DAY DOOR kohm-BYEHN duh TAHN",
+      "formality": "polite",
+      "cultural_note": "Guided tours of the Palais des Nations last about one hour and are available in multiple languages.",
+      "responses": [
+        {
+          "english": "About one hour.",
+          "phonetic": "ahn-vee-ROHN oon UHR",
+          "french": "Environ une heure."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_un_004",
+      "intent_en": "Ask if a passport or ID is needed for the visit",
+      "text_local": "Faut-il une pièce d'identité pour la visite ?",
+      "pronunciation": "foh-TEEL oon PYES dee-dahn-tee-TAY poor lah vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "A valid passport or national ID card is required for all visitors to the Palais des Nations.",
+      "responses": [
+        {
+          "english": "Yes, bring your passport.",
+          "phonetic": "wee, ah-por-TAY voh-truh pass-POR",
+          "french": "Oui, apportez votre passeport."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_un_005",
+      "intent_en": "Ask if there is a gift shop at the Palais des Nations",
+      "text_local": "Y a-t-il une boutique de souvenirs ?",
+      "pronunciation": "ee ah-TEEL oon boo-TEEK duh soov-NEER",
+      "formality": "polite",
+      "cultural_note": "The UN gift shop sells official UN merchandise, stamps, and postcards.",
+      "responses": [
+        {
+          "english": "Yes, at the end of the tour.",
+          "phonetic": "wee, ah lah sor-TEE duh lah vee-ZEET",
+          "french": "Oui, à la sortie de la visite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "United Nations",
+      "word_local": "les Nations Unies",
+      "pronunciation": "lay nah-SYOHN oo-NEE"
+    },
+    {
+      "word_en": "diplomacy",
+      "word_local": "la diplomatie",
+      "pronunciation": "lah dee-ploh-mah-SEE"
+    },
+    {
+      "word_en": "identity document",
+      "word_local": "la pièce d'identité",
+      "pronunciation": "lah PYESS dee-don-tee-TAY"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "linz_st_marys_cathedral",
+  "name_en": "St. Mary's Cathedral",
+  "name_local": "Neuer Dom",
+  "icon": "building.columns",
+  "lat": 48.3002504,
+  "lon": 14.2860903,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "linz_st_marys_cathedral_001",
+      "intent_en": "Is the organ being played today?",
+      "text_local": "Wird heute die Orgel gespielt?",
+      "pronunciation": "vIHrt-hAWuhtuh-dee-AWruhl-uhshpEElt",
+      "formality": "standard",
+      "cultural_note": "Organ performances in German churches are often scheduled for services or special events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Heute nicht.",
+        "pronunciation": "hAWuhtuh-nIHkht",
+        "translation_en": "Not today."
+      },
+      "responses": [
+        {
+          "english": "Not today.",
+          "phonetic": "hAWuhtuh-nIHkht",
+          "french": "Heute nicht."
+        }
+      ]
+    },
+    {
+      "id": "linz_st_marys_cathedral_002",
+      "intent_en": "Where is the stained glass window view?",
+      "text_local": "Wo sind die Buntglasfenster zu sehen?",
+      "pronunciation": "vOH-kAHn-mahn-dee-fEHnst-AHnshOW-uhn",
+      "formality": "standard",
+      "cultural_note": "Stained glass windows in churches are typically highlighted in visitor routes or marked on maps.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hauptschiff auf beiden Seiten.",
+        "pronunciation": "ihm-hOWptshihf-owf-bEYEduhn-zEYEtuhn",
+        "translation_en": "In the main nave on both sides."
+      },
+      "responses": [
+        {
+          "english": "In the main nave on both sides.",
+          "phonetic": "ihm-hOWptshihf-owf-bEYEduhn-zEYEtuhn",
+          "french": "Im Hauptschiff auf beiden Seiten."
+        }
+      ]
+    },
+    {
+      "id": "linz_st_marys_cathedral_003",
+      "intent_en": "Where is the north tower entrance?",
+      "text_local": "Wo ist der Eingang zum Nordturm?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-nAWrtuhuhm",
+      "formality": "standard",
+      "cultural_note": "In German-speaking churches, tower entrances are often marked with signs like 'Nordturm' or 'Turmaufstieg'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links vom Hauptportal.",
+        "pronunciation": "lINGks-fawm-hOWptpawrtAHl",
+        "translation_en": "To the left of the main portal."
+      },
+      "responses": [
+        {
+          "english": "To the left of the main portal.",
+          "phonetic": "lINGks-fawm-hOWptpawrtAHl",
+          "french": "Links vom Hauptportal."
+        }
+      ]
+    },
+    {
+      "id": "linz_st_marys_cathedral_004",
+      "intent_en": "Is the south tower open for climbing?",
+      "text_local": "Ist der Südturm zum Besteigen offen?",
+      "pronunciation": "ihst-dehr-zUEtuhuhm-tsuhm-buhshtEYEuhn-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "In German-speaking regions, tower access may depend on weather or maintenance. Staff will clarify.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

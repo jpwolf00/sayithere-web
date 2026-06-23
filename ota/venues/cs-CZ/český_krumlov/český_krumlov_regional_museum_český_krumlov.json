@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_regional_museum_český_krumlov",
+  "name_en": "Regional Museum Český Krumlov",
+  "name_local": "Regionální muzeum v Českém Krumlově",
+  "icon": "building.columns",
+  "lat": 48.8106866,
+  "lon": 14.3177915,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "český_krumlov_regional_museum_český_krumlov_001",
+      "intent_en": "Where is museum shop?",
+      "text_local": "Kde je muzejní obchod?",
+      "pronunciation": "kdEH-yeh-mOOzaynyee-OHpkhoht",
+      "formality": "standard",
+      "cultural_note": "Czech museums often place the shop near the entrance or ticket counter for visitor convenience.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V přízemí, hned naproti pokladně.",
+        "pronunciation": "v-prEEzehmeehnEHd-nAHprohee-pOHklahdnyeh",
+        "translation_en": "On the ground floor, right opposite the cash desk."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, right opposite the cash desk.",
+          "phonetic": "v-prEEzehmeehnEHd-nAHprohee-pOHklahdnyeh",
+          "french": "V přízemí, hned naproti pokladně."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_regional_museum_český_krumlov_002",
+      "intent_en": "Do you have English tours?",
+      "text_local": "Máte prohlídky v angličtině?",
+      "pronunciation": "mAHteh-prOHhleetkee-v-AHnggleetshEEnyeh",
+      "formality": "standard",
+      "cultural_note": "Smaller regional museums may offer tours in major languages only at specific times, not on demand.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, v jednu hodinu odpoledne.",
+        "pronunciation": "AHnohv-yEHdnoo-hOHeenoo-OHtpohlEHdneh",
+        "translation_en": "Yes, at one o'clock in the afternoon."
+      },
+      "responses": [
+        {
+          "english": "Yes, at one o'clock in the afternoon.",
+          "phonetic": "AHnohv-yEHdnoo-hOHeenoo-OHtpohlEHdneh",
+          "french": "Ano, v jednu hodinu odpoledne."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_regional_museum_český_krumlov_003",
+      "intent_en": "How do I get castle complex tickets?",
+      "text_local": "Jak se dostanu k lístkům na hradní areál?",
+      "pronunciation": "yAHk-seh-dOHstahnoo-k-lEEstkoom-nAHhrahdnyee-AHrehahl",
+      "formality": "standard",
+      "cultural_note": "In many Czech museums, the main ticket desk also sells tickets for affiliated historical sites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kupte je tady u mě na pokladně.",
+        "pronunciation": "kOOpteh-yeh-tAHdee-OO-mnyEH-nAHpohklAHdnyeh",
+        "translation_en": "Buy them here at my cash desk."
+      },
+      "responses": [
+        {
+          "english": "Buy them here at my cash desk.",
+          "phonetic": "kOOpteh-yeh-tAHdee-OO-mnyEH-nAHpohklAHdnyeh",
+          "french": "Kupte je tady u mě na pokladně."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_regional_museum_český_krumlov_004",
+      "intent_en": "Where are ceramic souvenirs?",
+      "text_local": "Kde jsou keramické suvenýry?",
+      "pronunciation": "kdEH-ysoh-kEHrahmEEtskeh-sOOvehnEEree",
+      "formality": "standard",
+      "cultural_note": "Hand-painted ceramics are a popular regional souvenir in South Bohemia.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V obchodě, vlevo od vchodu.",
+        "pronunciation": "v-OHpkhohehvlEHvoh-OHdfkhohdoo",
+        "translation_en": "In the shop, to the left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "In the shop, to the left of the entrance.",
+          "phonetic": "v-OHpkhohehvlEHvoh-OHdfkhohdoo",
+          "french": "V obchodě, vlevo od vchodu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

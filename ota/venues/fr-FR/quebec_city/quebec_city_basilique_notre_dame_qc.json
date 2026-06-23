@@ -1,0 +1,118 @@
+{
+  "id": "quebec_city_basilique_notre_dame",
+  "name_en": "Notre-Dame de Québec Basilica-Cathedral",
+  "name_local": "Basilique-Cathédrale Notre-Dame de Québec",
+  "icon": "building.columns.fill",
+  "lat": 46.813,
+  "lon": -71.2078,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "qc_bnd_001",
+      "intent_en": "Ask to attend a mass",
+      "text_local": "À quelle heure est la prochaine messe ?",
+      "pronunciation": "ah kel UR ay lah pro-SHEN MESS",
+      "formality": "polite",
+      "cultural_note": "The basilica is the oldest parish in North America north of Mexico, founded in 1664. Masses are celebrated daily and visitors are welcome to attend.",
+      "responses": [
+        {
+          "english": "Mass is at ten thirty.",
+          "phonetic": "lah MESS eh tah DEE-ZUR TRAHNT",
+          "french": "La messe est à dix heures trente."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_bnd_002",
+      "intent_en": "Ask if the basilica is wheelchair accessible",
+      "text_local": "Est-ce que la basilique est accessible en fauteuil roulant ?",
+      "pronunciation": "ess kuh lah bah-zee-LEEK eh tak-ses-EEBL ahn foh-TUY roo-LAHN",
+      "formality": "polite",
+      "cultural_note": "Many historic churches in Quebec City have been adapted for accessibility, though older sections may still have steps.",
+      "responses": [
+        {
+          "english": "Yes, there is a ramp at the entrance.",
+          "phonetic": "wee eel ee ah oon RAHMP ah lahn-TRAY",
+          "french": "Oui, il y a une rampe à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_bnd_003",
+      "intent_en": "Ask about the sound and light show inside",
+      "text_local": "Le spectacle son et lumière à l'intérieur, c'est à quelle heure ?",
+      "pronunciation": "luh spek-TAHKL son ay loom-YAIR ah lan-tay-RYUR say ah kel UR",
+      "formality": "polite",
+      "cultural_note": "A multimedia sound and light presentation inside the basilica brings the history of Québec City to life. Very popular with visitors in summer evenings.",
+      "responses": [
+        {
+          "english": "Tickets are on sale at reception.",
+          "phonetic": "lay bee-YAY sohn tahn VAHNT ah lah-KUY",
+          "french": "Les billets sont en vente à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_bnd_004",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Est-ce qu'on peut prendre des photos à l'intérieur ?",
+      "pronunciation": "ess kohn PUH PRAHN-druh day foh-TOH ah lahn-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "Most churches in Quebec allow photography without flash.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_bnd_005",
+      "intent_en": "Ask where the gift shop is",
+      "text_local": "Où est la boutique de souvenirs ?",
+      "pronunciation": "oo eh lah boo-TEEK duh soov-NEER",
+      "formality": "polite",
+      "cultural_note": "The basilica's gift shop sells religious items, postcards, and books about Quebec's heritage.",
+      "responses": [
+        {
+          "english": "At the exit, on your right.",
+          "phonetic": "ah lah sor-TEE soor VOH-truh DRWAHT",
+          "french": "À la sortie, sur votre droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah KRIPT"
+    },
+    {
+      "word_en": "altar",
+      "word_local": "l'autel",
+      "pronunciation": "loh-TEL"
+    },
+    {
+      "word_en": "pamphlet / brochure",
+      "word_local": "le dépliant",
+      "pronunciation": "luh day-plee-YAH"
+    },
+    {
+      "word_en": "canopy / baldachin",
+      "word_local": "le baldaquin",
+      "pronunciation": "luh bahl-dah-KAN"
+    }
+  ]
+}

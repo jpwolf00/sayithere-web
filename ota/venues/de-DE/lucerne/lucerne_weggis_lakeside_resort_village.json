@@ -1,0 +1,78 @@
+{
+  "id": "lucerne_weggis_lakeside_resort_village",
+  "name_en": "Weggis lakeside resort village",
+  "name_local": "Weggis",
+  "icon": "map",
+  "lat": 47.0314077,
+  "lon": 8.4332551,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "lucerne_weggis_lakeside_resort_village_001",
+      "intent_en": "Ask where Vierwaldstättersee boat pass is sold",
+      "text_local": "Wo gibt es Bootsfahrkarten für den Vierwaldstättersee?",
+      "pronunciation": "vOH-EEpt-ehs-bOHtsfahrkAHrtuhn-fuer-dehn-fEErvahltshtEHtzEH",
+      "formality": "standard",
+      "cultural_note": "Bootsfahrkarten werden typischerweise an offiziellen Verkaufsstellen am Steg angeboten. Direkte Wegbeschreibungen sind meist nicht nötig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bootssteg.",
+        "pronunciation": "ahm-bOHtsshtehk",
+        "translation_en": "At the ferry pier."
+      },
+      "responses": [
+        {
+          "english": "At the ferry pier.",
+          "phonetic": "ahm-bOHtsshtehk",
+          "french": "Am Bootssteg."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_weggis_lakeside_resort_village_002",
+      "intent_en": "Ask if hotel spa allows day pass entry",
+      "text_local": "Darf man hier Tagespässe für den Spa buchen?",
+      "pronunciation": "dAHrf-mahn-hEEr-tAHehspEHsuh-fuer-dehn-shpAH-bOOkhuhn",
+      "formality": "casual",
+      "cultural_note": "Tagespässe für Spas sind in Schweizer Hotels oft möglich, aber Details wie Preise oder Verfügbarkeit können variieren. Nachfrage am Empfang ist Standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Empfang.",
+        "pronunciation": "yAHahm-ehmpfAHng",
+        "translation_en": "Yes, at reception."
+      },
+      "responses": [
+        {
+          "english": "Yes, at reception.",
+          "phonetic": "yAHahm-ehmpfAHng",
+          "french": "Ja, am Empfang."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_weggis_lakeside_resort_village_003",
+      "intent_en": "Ask where Rigi railway ticket machine is",
+      "text_local": "Wo ist der Ticketautomat für die Rigi-Bahn?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtOWtohmAHt-fuer-dee-rEEeebAHn",
+      "formality": "standard",
+      "cultural_note": "Ticketautomaten befinden sich meist an oder nahe den Stationen der Rigi-Bahn. Eine allgemeine Wegweisung ist angemessen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Bahnsteig.",
+        "pronunciation": "deerEHkt-ahm-bAHnsteyek",
+        "translation_en": "Right on the platform."
+      },
+      "responses": [
+        {
+          "english": "Right on the platform.",
+          "phonetic": "deerEHkt-ahm-bAHnsteyek",
+          "french": "Direkt am Bahnsteig."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "antalya_antalya_international_airport",
+  "name_en": "Antalya International Airport",
+  "name_local": "Antalya Havalimanı",
+  "icon": "tram",
+  "lat": 36.8999425,
+  "lon": 30.7981914,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "antalya_antalya_international_airport_001",
+      "intent_en": "Is visa on arrival payment cash only?",
+      "text_local": "Kapıda vize ödemesi sadece nakit mi?",
+      "pronunciation": "kahpoodAH-veezEH-uhdehmehsIH-sahdEHdzheh-nahkIHt-mih",
+      "formality": "standard",
+      "cultural_note": "Payment methods can change, and the venue context does not specify if cash is the only option, so directing to an official desk is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, kart da geçerli.",
+        "pronunciation": "hahyOOrkAHrt-dah-ehtshehrlIH",
+        "translation_en": "No, card is also accepted."
+      },
+      "responses": [
+        {
+          "english": "No, card is also accepted.",
+          "phonetic": "hahyOOrkAHrt-dah-ehtshehrlIH",
+          "french": "Hayır, kart da geçerli."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_international_airport_002",
+      "intent_en": "Where is the baggage wrap service?",
+      "text_local": "Bagaj sarma hizmeti nerede?",
+      "pronunciation": "bahgAHzh-sAHrmah-hihzmehtIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact counter location for baggage wrapping is not specified among the stable targets, so the safest response is to consult the information desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gelen yolcu katında, sağda.",
+        "pronunciation": "ehlAHn-yawdzhUH-kahtoondAHsahdAH",
+        "translation_en": "On the arrivals floor, on the right."
+      },
+      "responses": [
+        {
+          "english": "On the arrivals floor, on the right.",
+          "phonetic": "ehlAHn-yawdzhUH-kahtoondAHsahdAH",
+          "french": "Gelen yolcu katında, sağda."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_international_airport_003",
+      "intent_en": "Where is the taxi fixed-rate booth?",
+      "text_local": "Taksi set ücret gişesi nerede?",
+      "pronunciation": "tahksIH-sEHt-uhdzhrEHt-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location of the fixed-rate booth within the terminal is not specified, so staff may direct you to the general information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çıkış kapısının hemen sağında.",
+        "pronunciation": "tshookOOsh-kahpoosoonOOn-hehmAHn-sahoondAH",
+        "translation_en": "Just to the right of the exit door."
+      },
+      "responses": [
+        {
+          "english": "Just to the right of the exit door.",
+          "phonetic": "tshookOOsh-kahpoosoonOOn-hehmAHn-sahoondAH",
+          "french": "Çıkış kapısının hemen sağında."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_international_airport_004",
+      "intent_en": "Which terminal for domestic flights?",
+      "text_local": "İç hat uçuşları için hangi terminal?",
+      "pronunciation": "IHtsh-hAHt-ootshuhshahrOO-eetshIHn-hahngIH-tehrmeenAH",
+      "formality": "standard",
+      "cultural_note": "The domestic terminal is a stable, named target in the venue context, so it can be stated directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İç Hatlar Terminali.",
+        "pronunciation": "IHtsh-hahtAHr-tehrmeenahlIH",
+        "translation_en": "Domestic Terminal."
+      },
+      "responses": [
+        {
+          "english": "Domestic Terminal.",
+          "phonetic": "IHtsh-hahtAHr-tehrmeenahlIH",
+          "french": "İç Hatlar Terminali."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_international_airport_005",
+      "intent_en": "Where do I top up my AntRay card?",
+      "text_local": "AntRay kartımı nerede doldurabilirim?",
+      "pronunciation": "AHnt-rAHy-kAHrtoomoo-nEHrehdeh-dawdoorahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "The specific location of a top-up machine inside the airport is not listed in the venue context, so the safe advice is to ask at an information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dışarı çıkışta, sol tarafta.",
+        "pronunciation": "dooshahrOO-tshookooshtAHsAW-tahrahftAH",
+        "translation_en": "At the exit, on the left side."
+      },
+      "responses": [
+        {
+          "english": "At the exit, on the left side.",
+          "phonetic": "dooshahrOO-tshookooshtAHsAW-tahrahftAH",
+          "french": "Dışarı çıkışta, sol tarafta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": "amboise_neighborhood_vieux",
+  "name_en": "Old Town Amboise",
+  "name_local": "Vieux Amboise",
+  "icon": "map.circle",
+  "phrases": [
+    {
+      "id": "amboise_vieux_001",
+      "intent_en": "Ask for directions to the old town centre",
+      "text_local": "Pouvez-vous m'indiquer le chemin vers le vieux centre d'Amboise ?",
+      "pronunciation": "poo-VAY-voo man-dee-KAY luh shuh-MAN vair luh VYUH SAHN-truh dahm-BWAZ",
+      "formality": "polite",
+      "cultural_note": "The old town of Amboise sits at the base of the château rock, with medieval streets, Renaissance townhouses, and the weekly market along the Loire.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "amboise_vieux_002",
+      "intent_en": "Ask which street has the best restaurants",
+      "text_local": "Quelle rue est la plus animée pour les restaurants ?",
+      "pronunciation": "kel ROO ay lah ploos ah-nee-MAY poor lay res-toh-RAHN",
+      "formality": "polite",
+      "cultural_note": "The streets around Place Michel-Debré and Rue Nationale in the old town are lined with restaurants, crêperies, and wine bars serving Touraine specialities.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "amboise_vieux_003",
+      "intent_en": "Ask where the medieval half-timbered houses are",
+      "text_local": "Où puis-je voir les maisons à colombages médiévales ?",
+      "pronunciation": "oo PWEE-zhuh vwar lay may-ZOHN ah koh-lom-BAZH may-dee-ay-VAL",
+      "formality": "polite",
+      "cultural_note": "Several half-timbered houses (maisons à colombages) survive in the old town and date from the 15th and 16th centuries, when Amboise was a royal city.",
+      "responses": [
+        {
+          "english": "In the old town center around Place Joyeuse and rue de la Concorde.",
+          "phonetic": "TBD",
+          "french": "Dans le vieux centre autour de la Place Joyeuse et rue de la Concorde."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_vieux_004",
+      "intent_en": "Ask where I can buy local wine and produce to take home",
+      "text_local": "Où puis-je acheter du vin et des produits locaux à emporter ?",
+      "pronunciation": "oo PWEE-zhuh ash-TAY doo VAN ay day proh-DWEE loh-KOH ah ahm-por-TAY",
+      "formality": "polite",
+      "cultural_note": "Several cave cooperatives and épiceries fines in the old town sell Touraine wines, rillettes (potted pork), and Sainte-Maure de Touraine cheese.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "old town",
+      "word_local": "le vieux quartier",
+      "pronunciation": "luh VYUH kar-TYAY"
+    },
+    {
+      "word_en": "half-timbered house",
+      "word_local": "la maison à colombages",
+      "pronunciation": "lah may-ZOHN ah koh-lom-BAZH"
+    },
+    {
+      "word_en": "street",
+      "word_local": "la rue",
+      "pronunciation": "lah ROO"
+    }
+  ]
+}

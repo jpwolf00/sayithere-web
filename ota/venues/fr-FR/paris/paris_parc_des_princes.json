@@ -1,0 +1,152 @@
+{
+  "id": "venue_parc_des_princes",
+  "name_en": "Parc des Princes (PSG)",
+  "name_local": "Parc des Princes (PSG)",
+  "icon": "sportscourt.fill",
+  "phrases": [
+    {
+      "id": "venue_pdp_001",
+      "intent_en": "Ask which gate to enter for your section",
+      "text_local": "C'est quelle porte pour ma tribune ?",
+      "pronunciation": "seh kel port poor mah tree-BOON",
+      "formality": "polite",
+      "cultural_note": "Check your ticket for the gate number before arriving. Staff can redirect you if needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is gate H, follow the signs.",
+          "phonetic": "seh lah port ahsh, swee-VAY lay pah-NOH",
+          "french": "C'est la porte H, suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "venue_pdp_002",
+      "intent_en": "Ask where to buy match tickets",
+      "text_local": "Où acheter des billets pour le match ?",
+      "pronunciation": "oo ahsh-TAY day bee-YEH poor luh MATCH",
+      "formality": "standard",
+      "cultural_note": "Buy on the official PSG website or app. Big matches (Marseille, Champions League) sell out fast. Resale sites are expensive — the billetterie at the stadium sometimes has last-minute tickets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Tickets are on sale online or at the stadium box office.",
+          "phonetic": "lay bee-YAY sohn tahn vahnt ahn LEEN-yuh oo oh gee-SHAY doo stad",
+          "french": "Les billets sont en vente en ligne ou au guichet du stade."
+        }
+      ]
+    },
+    {
+      "id": "venue_pdp_003",
+      "intent_en": "Ask if food and drinks are available inside",
+      "text_local": "Il y a des points de restauration à l'intérieur ?",
+      "pronunciation": "eel ee ah day pwahn duh res-toh-rah-SYOHN ah lan-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Concession stands are available inside the stadium but lines can be long at halftime.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are refreshment stands on every level.",
+          "phonetic": "wee, eel ee ah day boo-VET ah shahk nee-VOH",
+          "french": "Oui, il y a des buvettes à chaque niveau."
+        }
+      ]
+    },
+    {
+      "id": "venue_pdp_004",
+      "intent_en": "Ask about the stadium tour",
+      "text_local": "Est-ce qu'il y a des visites guidées du stade ?",
+      "pronunciation": "ess keel ee ah day vee-ZEET ghee-DAY doo STAHD",
+      "formality": "polite",
+      "cultural_note": "Stadium tours run on non-match days and include the locker rooms, tunnel, and pitch-side access. Book on the PSG website. The club museum showcases PSG's history.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Stadium tours are on Tuesdays and Saturdays. Book online.",
+          "phonetic": "lay vee-ZEET doo stad sohn luh mar-DEE ay luh sahm-DEE. ray-zehr-VAY ahn LEEN-yuh",
+          "french": "Les visites du stade sont le mardi et le samedi. Réservez en ligne."
+        }
+      ]
+    },
+    {
+      "id": "venue_pdp_005",
+      "intent_en": "Ask where the PSG merchandise shop is",
+      "text_local": "Où est la boutique officielle du PSG ?",
+      "pronunciation": "oo eh lah boo-TEEK oh-fee-SYEL doo pay-ess-ZHAY",
+      "formality": "standard",
+      "cultural_note": "The main boutique is at the stadium. There's also a megastore on the Champs-Élysées. Match-day prices are the same, but expect long lines after the game.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The PSG shop is outside the stadium, on the Paris stand side.",
+          "phonetic": "lah boo-TEEK pay-ess-ZHAY eh tah lex-tay-RYUHR doo stad, koh-TAY tree-BOON pah-REE",
+          "french": "La boutique PSG est à l'extérieur du stade, côté tribune Paris."
+        }
+      ]
+    },
+    {
+      "id": "venue_pdp_006",
+      "intent_en": "Ask which metro station is closest to the stadium",
+      "text_local": "Quelle est la station de métro la plus proche ?",
+      "pronunciation": "kel eh lah stah-SYOHN duh may-TROH lah ploo prosh",
+      "formality": "polite",
+      "cultural_note": "Porte de Saint-Cloud (line 9) is the closest metro station to Parc des Princes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Porte de Saint-Cloud, it is a five-minute walk.",
+          "phonetic": "port duh san KLOOD, seh tah sank mee-NOOT ah pyay",
+          "french": "Porte de Saint-Cloud, c'est à cinq minutes à pied."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Match/Game",
+      "word_local": "Match",
+      "pronunciation": "match"
+    },
+    {
+      "word_en": "Goal!",
+      "word_local": "But !",
+      "pronunciation": "boot"
+    },
+    {
+      "word_en": "Stadium",
+      "word_local": "Stade",
+      "pronunciation": "stahd"
+    },
+    {
+      "word_en": "Team",
+      "word_local": "Équipe",
+      "pronunciation": "ay-KEEP"
+    },
+    {
+      "word_en": "Jersey/Kit",
+      "word_local": "Maillot",
+      "pronunciation": "my-YOH"
+    },
+    {
+      "word_en": "Fans/Supporters",
+      "word_local": "Supporters",
+      "pronunciation": "soo-por-TEHR"
+    },
+    {
+      "word_en": "Scarf",
+      "word_local": "Écharpe",
+      "pronunciation": "ay-SHARP"
+    },
+    {
+      "word_en": "Halftime",
+      "word_local": "Mi-temps",
+      "pronunciation": "mee-TAHN"
+    }
+  ]
+}

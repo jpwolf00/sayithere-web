@@ -1,0 +1,122 @@
+{
+  "id": "hydra_takis_psaras_taverna",
+  "name_en": "Takis Psaras Taverna",
+  "name_local": "Ταβέρνα Τάκης Ψαράς",
+  "icon": "fork.knife",
+  "lat": 37.3321076,
+  "lon": 23.4664237,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "hydra_takis_psaras_taverna_001",
+      "intent_en": "Do I wait to be seated or seat myself?",
+      "text_local": "Περιμένω να με καθίσουν ή κάθομαι μόνος μου;",
+      "pronunciation": "pEHreemEHnoh-nah-meh-OHtheeyEEsoon-ee-kAHthohmEH-mOHnohz-moo",
+      "formality": "standard",
+      "cultural_note": "Στην Ελλάδα, στις παραδοσιακές ταβέρνες συνήθως ο υπάλληλος οδηγεί τους πελάτες στον χώρο τους.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Περιμένετε να σας καθίσουν.",
+        "pronunciation": "pEHreemEHnehtEH-nah-sahs-kahthEEsoon",
+        "translation_en": "Wait to be seated."
+      },
+      "responses": [
+        {
+          "english": "Wait to be seated.",
+          "phonetic": "pEHreemEHnehtEH-nah-sahs-kahthEEsoon",
+          "french": "Περιμένετε να σας καθίσουν."
+        }
+      ]
+    },
+    {
+      "id": "hydra_takis_psaras_taverna_002",
+      "intent_en": "Can I pay at the counter after eating?",
+      "text_local": "Μπορώ να πληρώσω στον πάγκο μετά το φαγητό;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-stohm-bAHnggoh-mehtAH-toh-fAHyeetOH",
+      "formality": "standard",
+      "cultural_note": "Στις περισσότερες ταβέρνες της Ελλάδας, η πληρωμή γίνεται στον πάγκο μετά το τέλος του γεύματος.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον πάγκο.",
+        "pronunciation": "nEHstohm-bAHnggoh",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "nEHstohm-bAHnggoh",
+          "french": "Ναι, στον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "hydra_takis_psaras_taverna_003",
+      "intent_en": "Where is the fresh fish display?",
+      "text_local": "Πού είναι η βιτρίνα με το φρέσκο ψάρι;",
+      "pronunciation": "pOO-EEneh-ee-veetrEEnah-meh-toh-frEHskoh-psAHree",
+      "formality": "standard",
+      "cultural_note": "Οι περισσότερες ταβέρνες έχουν την βιτρίνα με το φρέσκο ψάρι κοντά στην είσοδο για εύκολη προβολή στους πελάτες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο.",
+        "pronunciation": "steen-EEsohthOH",
+        "translation_en": "At the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the entrance.",
+          "phonetic": "steen-EEsohthOH",
+          "french": "Στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "hydra_takis_psaras_taverna_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Ξηραίνεται χταπόδι σήμερα;",
+      "pronunciation": "kseerEHnehtEH-khtahpOHthee-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Το ξηραμένο χταπόδι αποτελεί μέρος της διακόσμησης και συχνά παρασκευάζεται επί τόπου στις ψαροταβέρνες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, το έχουν απλωμένο έξω τώρα.",
+        "pronunciation": "nEHtoh-EHkhoon-AHplohmEHnoh-EHksoh-tOHrah",
+        "translation_en": "Yes, they have it drying outside now."
+      },
+      "responses": [
+        {
+          "english": "Yes, they have it drying outside now.",
+          "phonetic": "nEHtoh-EHkhoon-AHplohmEHnoh-EHksoh-tOHrah",
+          "french": "Ναι, το έχουν απλωμένο έξω τώρα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_takis_psaras_taverna_005",
+      "intent_en": "Do you have tsipouro options?",
+      "text_local": "Έχετε τσίπουρο;",
+      "pronunciation": "EHkhehtEH-tsEEpoorOH",
+      "formality": "standard",
+      "cultural_note": "Το τσίπουρο είναι παραδοσιακός οινοπνευματώδης οπός στη χώρα και συχνά προσφέρεται στις ταβέρνες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στην μπάρα.",
+        "pronunciation": "nEHsteen-bAHrah",
+        "translation_en": "Yes, at the bar."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the bar.",
+          "phonetic": "nEHsteen-bAHrah",
+          "french": "Ναι, στην μπάρα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

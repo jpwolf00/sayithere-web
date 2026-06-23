@@ -1,0 +1,100 @@
+{
+  "id": "hiroshima_hiroshima_central_market",
+  "name_en": "Hiroshima Central Market",
+  "name_local": "広島中央卸売市場",
+  "icon": "cart",
+  "lat": 34.9636431,
+  "lon": 135.731884,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "hiroshima_hiroshima_central_market_001",
+      "intent_en": "Is the ATM outside working?",
+      "text_local": "外のATM、使えますか？",
+      "pronunciation": "ehntshEYEneezyahlEHtuh-nOH-ehnAY-tEE-EHmyahEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "ATMs at markets may have limited hours or fees, so asking if it's currently working is a practical question.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、使えますよ。",
+        "pronunciation": "hEEEHmsOOyoh",
+        "translation_en": "Yes, you can use it."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can use it.",
+          "phonetic": "hEEEHmsOOyoh",
+          "french": "はい、使えますよ。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_central_market_002",
+      "intent_en": "Is the morning market still open?",
+      "text_local": "朝市はまだやってますか？",
+      "pronunciation": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-M-T-EHndzhAHpuhneezyahlEHtuh-y-tEH-m-SOO-k",
+      "formality": "standard",
+      "cultural_note": "Morning markets in Hiroshima often start very early and wind down by noon, so asking if it's 'still' going is common.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、まだ大丈夫ですよ。",
+        "pronunciation": "hEEm-T-EHndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-yOH",
+        "translation_en": "Yes, it's still fine."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's still fine.",
+          "phonetic": "hEEm-T-EHndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-yOH",
+          "french": "はい、まだ大丈夫ですよ。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_central_market_003",
+      "intent_en": "Where is the produce hall?",
+      "text_local": "青果棟はどこですか？",
+      "pronunciation": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-TOH-ehndzhAHpuhneezyahlEHtuh-kOH-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-k",
+      "formality": "standard",
+      "cultural_note": "青果棟 (seika-tō) is the fresh produce hall, distinct from the fish and prepared food halls.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ行って、左側です。",
+        "pronunciation": "m-sOO-kOO-ehndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEHehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-sOO",
+        "translation_en": "Straight ahead, on the left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the left.",
+          "phonetic": "m-sOO-kOO-ehndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEHehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-sOO",
+          "french": "まっすぐ行って、左側です。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_central_market_004",
+      "intent_en": "Where is the oyster hut?",
+      "text_local": "かき小屋はどこですか？",
+      "pronunciation": "k-KEE-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-TOH-ehndzhAHpuhneezyahlEHtuh-kOH-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-k",
+      "formality": "standard",
+      "cultural_note": "かき小屋 (oyster huts) are often temporary outdoor setups with tents, especially during peak season.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "右のほう、外のテントです。",
+        "pronunciation": "nohhOHoonOHtehntohdEHsoo",
+        "translation_en": "To the right, the tent outside."
+      },
+      "responses": [
+        {
+          "english": "To the right, the tent outside.",
+          "phonetic": "nohhOHoonOHtehntohdEHsoo",
+          "french": "右のほう、外のテントです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

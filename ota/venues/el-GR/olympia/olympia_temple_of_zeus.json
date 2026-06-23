@@ -1,0 +1,122 @@
+{
+  "id": "olympia_temple_of_zeus",
+  "name_en": "Temple of Zeus",
+  "name_local": "Ναός του Διός",
+  "icon": "building.columns",
+  "lat": 37.63789,
+  "lon": 21.6303163,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "olympia_temple_of_zeus_001",
+      "intent_en": "How to reach the Altar of Zeus?",
+      "text_local": "Πού βρίσκεται ο βωμός του Διός;",
+      "pronunciation": "pOHz-nah-vrOH-tohn-vohmOH-too-theeOHs",
+      "formality": "standard",
+      "cultural_note": "Ο Βωμός του Διός είναι γνωστό χαρακτηριστικό του ιερού της Ολυμπίας. Η ερώτηση αναφέρεται συγκεκριμένα σε γνωστό χαρακτηριστικό του χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά τον ναό, στο κέντρο.",
+        "pronunciation": "AHreestehrAH-mehtAH-tohn-nahOHstoh-EHdroh",
+        "translation_en": "Follow the signs to the Altar of Zeus."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Altar of Zeus.",
+          "phonetic": "AHreestehrAH-mehtAH-tohn-nahOHstoh-EHdroh",
+          "french": "Αριστερά μετά τον ναό, στο κέντρο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_temple_of_zeus_002",
+      "intent_en": "Archaeological site combo ticket here?",
+      "text_local": "Υπάρχει συνδυαστικό εισιτήριο εδώ;",
+      "pronunciation": "eepAHrkhee-sEEntheeAHsteekOH-EEseetEEreeOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Τα συνδυαστικά εισιτήρια είναι κοινή πρακτική σε αρχαιολογικούς χώρους για την επίσκεψη σε μουσείο και χώρο. Η ερώτηση αναφέρεται συγκεκριμένα στην υπηρεσία που προσφέρεται στον χώρο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον υπάλληλο.",
+        "pronunciation": "nEHstohn-eepAHleelOH",
+        "translation_en": "Yes, at the clerk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the clerk.",
+          "phonetic": "nEHstohn-eepAHleelOH",
+          "french": "Ναι, στον υπάλληλο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_temple_of_zeus_003",
+      "intent_en": "Where are the surviving Doric columns?",
+      "text_local": "Πού βρίσκονται οι σωζόμενοι δωρικοί κίονες;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-sohzOHmehnEHz-thOHreeEE-EEohnEHs",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν συγκεκριμένα χαρακτηριστικά του χώρου. Η ερώτηση αναφέρεται απευθείας σε χαρακτηριστικό γνωστό του χώρου (δωρικοί κίονες).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κέντρο του ναού, δεξιά σας.",
+        "pronunciation": "stoh-EHdroh-too-nahOOthEHkseeAH-sahs",
+        "translation_en": "Follow the signs to the Doric columns ruins."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Doric columns ruins.",
+          "phonetic": "stoh-EHdroh-too-nahOOthEHkseeAH-sahs",
+          "french": "Στο κέντρο του ναού, δεξιά σας."
+        }
+      ]
+    },
+    {
+      "id": "olympia_temple_of_zeus_004",
+      "intent_en": "Audio guide rental available now?",
+      "text_local": "Υπάρχει ενοικίαση ξενάγησης τώρα;",
+      "pronunciation": "eepAHrkhee-EHneeEEahsEE-ksehnAHyeesEEs-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγήσεις με audio guides είναι κοινή υπηρεσία σε αρχαιολογικούς χώρους. Η ερώτηση αναφέρεται συγκεκριμένα στην υπηρεσία που προσφέρεται στον χώρο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, εδώ.",
+        "pronunciation": "nEHehthOH",
+        "translation_en": "Yes, here."
+      },
+      "responses": [
+        {
+          "english": "Yes, here.",
+          "phonetic": "nEHehthOH",
+          "french": "Ναι, εδώ."
+        }
+      ]
+    },
+    {
+      "id": "olympia_temple_of_zeus_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Τα γλυπτά του αετώματος είναι ακόμα εδώ;",
+      "pronunciation": "ee-ghleeptAH-too-AHehtOHmahtOHs-EEneh-ahkOHmah-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Τα γλυπτά του αετώματος είναι χαρακτηριστικό στοιχείο του ναού. Η ερώτηση αναφέρεται απευθείας σε γνωστό χαρακτηριστικό του χώρου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Στο Αρχαιολογικό Μουσείο Ολυμπίας.",
+        "pronunciation": "stoh-AHrkhehOHlohyeekOH-moosEEoh-OHleebEEahs",
+        "translation_en": "No, most of the sculptures are in the museum."
+      },
+      "responses": [
+        {
+          "english": "No, most of the sculptures are in the museum.",
+          "phonetic": "stoh-AHrkhehOHlohyeekOH-moosEEoh-OHleebEEahs",
+          "french": "Στο Αρχαιολογικό Μουσείο Ολυμπίας."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

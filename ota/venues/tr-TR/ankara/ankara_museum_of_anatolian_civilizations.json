@@ -1,0 +1,144 @@
+{
+  "id": "ankara_museum_of_anatolian_civilizations",
+  "name_en": "Museum of Anatolian Civilizations",
+  "name_local": "Anadolu Medeniyetleri Müzesi",
+  "icon": "building.columns",
+  "lat": 39.9379477,
+  "lon": 32.8617618,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ankara_museum_of_anatolian_civilizations_001",
+      "intent_en": "Can I use flash photography?",
+      "text_local": "Flaşlı fotoğraf çekebilir miyim?",
+      "pronunciation": "fahshOO-fohtohrAHf-tshehkehbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "It is standard practice in Turkish museums to prohibit flash photography to protect artifacts. The response is direct and professional, matching the staff register.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, flaşlı fotoğraf çekmek yasak.",
+        "pronunciation": "hahyOOrfahshOO-fohtohrAHf-tshehkmEHk-yAHsahk",
+        "translation_en": "No, flash photography is prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, flash photography is prohibited.",
+          "phonetic": "hahyOOrfahshOO-fohtohrAHf-tshehkmEHk-yAHsahk",
+          "french": "Hayır, flaşlı fotoğraf çekmek yasak."
+        }
+      ]
+    },
+    {
+      "id": "ankara_museum_of_anatolian_civilizations_002",
+      "intent_en": "How do I access the library?",
+      "text_local": "Kütüphane girişine nereden ulaşabilirim?",
+      "pronunciation": "kuetuhphahnehyEH-nahsOO-ehreeshEErihm",
+      "formality": "standard",
+      "cultural_note": "Kütüphane erişimi için görevli kütüphaneciye başvurmak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Müze girişinde, sağdaki kapıdan.",
+        "pronunciation": "muezEH-eereeshihndEHsahdahkIH-kahpoodAHn",
+        "translation_en": "At the museum entrance, through the door on the right."
+      },
+      "responses": [
+        {
+          "english": "At the museum entrance, through the door on the right.",
+          "phonetic": "muezEH-eereeshihndEHsahdahkIH-kahpoodAHn",
+          "french": "Müze girişinde, sağdaki kapıdan."
+        }
+      ]
+    },
+    {
+      "id": "ankara_museum_of_anatolian_civilizations_003",
+      "intent_en": "Where are the Çatalhöyük exhibits?",
+      "text_local": "Çatalhöyük sergileri nerede?",
+      "pronunciation": "tshahtahhuhyUHk-sehreelehrIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Çatalhöyük exhibits are a key collection, but without knowing their specific location within the museum layout, the safest and most helpful response is to direct the visitor to the information desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sola doğru, sergi salonunda.",
+        "pronunciation": "sOHah-dohrUHsehrgIH-sahohnuhndAH",
+        "translation_en": "To the left, in the exhibition hall."
+      },
+      "responses": [
+        {
+          "english": "To the left, in the exhibition hall.",
+          "phonetic": "sOHah-dohrUHsehrgIH-sahohnuhndAH",
+          "french": "Sola doğru, sergi salonunda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_museum_of_anatolian_civilizations_004",
+      "intent_en": "Where is the Hittite gallery?",
+      "text_local": "Hitit galerisi nerede?",
+      "pronunciation": "heetIHt-gahlehreesIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish museums often use 'danışma' for the information desk. The exact location within the museum is not specified in the venue context, so directing to staff is the safe option.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İkinci katta, soldaki odada.",
+        "pronunciation": "eekihndzhIH-kahtAHsawdahkIH-ohdahdAH",
+        "translation_en": "On the second floor, in the room on the left."
+      },
+      "responses": [
+        {
+          "english": "On the second floor, in the room on the left.",
+          "phonetic": "eekihndzhIH-kahtAHsawdahkIH-ohdahdAH",
+          "french": "İkinci katta, soldaki odada."
+        }
+      ]
+    },
+    {
+      "id": "ankara_museum_of_anatolian_civilizations_005",
+      "intent_en": "How do I access the library?",
+      "text_local": "Kütüphane girişine nasıl ulaşabilirim?",
+      "pronunciation": "kuetuhphahnehyEH-nahsOO-ehreeshehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Access to specialized facilities like a library within a museum often requires speaking to the responsible staff member. Using 'danışın' (consult) is a professional and appropriate directive.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Müze girişinin sağında.",
+        "pronunciation": "muezEH-eereesheenIHn-sahoondAH",
+        "translation_en": "To the right of the museum entrance."
+      },
+      "responses": [
+        {
+          "english": "To the right of the museum entrance.",
+          "phonetic": "muezEH-eereesheenIHn-sahoondAH",
+          "french": "Müze girişinin sağında."
+        }
+      ]
+    },
+    {
+      "id": "ankara_museum_of_anatolian_civilizations_006",
+      "intent_en": "Where is the museum shop?",
+      "text_local": "Müze dükkanı nerede?",
+      "pronunciation": "muezEH-duekahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The museum shop is a stable target, but its exact placement within the complex is not detailed in the context. The safe pattern is to direct the visitor to staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte, sağ tarafta.",
+        "pronunciation": "eerihshtEHsAH-tahrahftAH",
+        "translation_en": "At the entrance, on the right side."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, on the right side.",
+          "phonetic": "eerihshtEHsAH-tahrahftAH",
+          "french": "Girişte, sağ tarafta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

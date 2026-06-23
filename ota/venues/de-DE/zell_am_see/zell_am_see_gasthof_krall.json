@@ -1,0 +1,100 @@
+{
+  "id": "zell_am_see_gasthof_krall",
+  "name_en": "Gasthof Krall",
+  "name_local": "Gasthof Krall",
+  "icon": "fork.knife",
+  "lat": 47.3239636,
+  "lon": 12.7963165,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zell_am_see_gasthof_krall_001",
+      "intent_en": "Ask where Biergarten seating is",
+      "text_local": "Wo ist der Biergarten?",
+      "pronunciation": "vOH-ihst-dehr-bEErahrtuhn",
+      "formality": "standard",
+      "cultural_note": "Biergarten seating is typically outdoors; 'draußen' suffices for rural venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Draußen vorne.",
+        "pronunciation": "drOWsuhn-fAWrnuh",
+        "translation_en": "Outside in front."
+      },
+      "responses": [
+        {
+          "english": "Outside in front.",
+          "phonetic": "drOWsuhn-fAWrnuh",
+          "french": "Draußen vorne."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_gasthof_krall_002",
+      "intent_en": "Ask if Kraller Schnitzel is available tonight",
+      "text_local": "Haben Sie heute Kraller Schnitzel?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-krAHl-shnIHtsuhl",
+      "formality": "standard",
+      "cultural_note": "Speaking directly to staff is common in rural Austrian inns; 'Haben Sie' is natural.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute verfügbar.",
+        "pronunciation": "yAHhAWuhtuh-fehrfUEkbahr",
+        "translation_en": "Yes, available today."
+      },
+      "responses": [
+        {
+          "english": "Yes, available today.",
+          "phonetic": "yAHhAWuhtuh-fehrfUEkbahr",
+          "french": "Ja, heute verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_gasthof_krall_003",
+      "intent_en": "Ask if Stammtisch regulars' table is free",
+      "text_local": "Ist der Stammtisch frei?",
+      "pronunciation": "ihst-dehr-shtAHmtihsh-frEYE",
+      "formality": "standard",
+      "cultural_note": "Respect Stammtisch norms; staff may direct seating.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nehmen Sie Platz.",
+        "pronunciation": "yAHnEHmuhn-zee-plAHts",
+        "translation_en": "Yes, take a seat."
+      },
+      "responses": [
+        {
+          "english": "Yes, take a seat.",
+          "phonetic": "yAHnEHmuhn-zee-plAHts",
+          "french": "Ja, nehmen Sie Platz."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_gasthof_krall_004",
+      "intent_en": "Ask how to pay at Gasthof Krall",
+      "text_local": "Wo wird bezahlt?",
+      "pronunciation": "vOH-vIHrt-buhtsAHlt",
+      "formality": "standard",
+      "cultural_note": "Cash is preferred; staff may specify where to pay.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch oder am Schalter.",
+        "pronunciation": "ahm-tIHsh-OHd-ahm-shAHlt",
+        "translation_en": "At the table or counter."
+      },
+      "responses": [
+        {
+          "english": "At the table or counter.",
+          "phonetic": "ahm-tIHsh-OHd-ahm-shAHlt",
+          "french": "Am Tisch oder am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

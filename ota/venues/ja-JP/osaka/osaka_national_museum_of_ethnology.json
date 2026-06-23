@@ -1,0 +1,100 @@
+{
+  "id": "osaka_national_museum_of_ethnology",
+  "name_en": "National Museum of Ethnology",
+  "name_local": "国立民族学博物館",
+  "icon": "building.columns",
+  "lat": 34.8128223,
+  "lon": 135.528938,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "osaka_national_museum_of_ethnology_001",
+      "intent_en": "Is the research reading room open today",
+      "text_local": "きょう、けんきゅう しりょうしつは あいていますか？",
+      "pronunciation": "kOHookehngkOOoo-EEOHooeetsOOh-EEtEHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "The reading room is for research purposes and may require a simple registration. A quiet atmosphere is expected.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ごご5じまで あいています。",
+        "pronunciation": "hEEgOHgoh-gOH-deemDeh-EEtEHeemSoo",
+        "translation_en": "Yes, it's open until 5 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open until 5 PM.",
+          "phonetic": "hEEgOHgoh-gOH-deemDeh-EEtEHeemSoo",
+          "french": "はい、ごご5じまで あいています。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_national_museum_of_ethnology_002",
+      "intent_en": "Where is the Minpaku museum entrance",
+      "text_local": "みんぱくの いりぐちは どこですか？",
+      "pronunciation": "mEEpkOOnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The museum is known locally by its nickname 'Minpaku'. The entrance is inside Expo Park, not directly on the street.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ すすむと、みぎがわです。",
+        "pronunciation": "mssOOgoo-sOOsoomOOtohmEEgeegWdEHsoo",
+        "translation_en": "Go straight ahead, it's on the right."
+      },
+      "responses": [
+        {
+          "english": "Go straight ahead, it's on the right.",
+          "phonetic": "mssOOgoo-sOOsoomOOtohmEEgeegWdEHsoo",
+          "french": "まっすぐ すすむと、みぎがわです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_national_museum_of_ethnology_003",
+      "intent_en": "Where do I request research materials",
+      "text_local": "けんきゅうしりょうの せいきゅうは どこで できますか？",
+      "pronunciation": "kEHngkooOOeeOHOOnoh-sEHeekooOOh-dohkOHdeh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Requesting materials often involves filling out a form. A curator or researcher may assist you.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "2かいの カウンターです。",
+        "pronunciation": "nEE-kEEnoh-kOOntdEHsoo",
+        "translation_en": "At the counter on the 2nd floor."
+      },
+      "responses": [
+        {
+          "english": "At the counter on the 2nd floor.",
+          "phonetic": "nEE-kEEnoh-kOOntdEHsoo",
+          "french": "2かいの カウンターです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_national_museum_of_ethnology_004",
+      "intent_en": "Is there a gift shop in the museum",
+      "text_local": "はくぶつかんの なかに みやげものやは ありますか？",
+      "pronunciation": "hKoobOOtsookNnoh-nkNee-mEEygEHmohnohyH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "The shop sells unique items related to the museum's global collections, books, and crafts.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、1かいに あります。",
+        "pronunciation": "hEEEEtsee-kEEnee-EEmSoo",
+        "translation_en": "Yes, it's on the 1st floor."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's on the 1st floor.",
+          "phonetic": "hEEEEtsee-kEEnee-EEmSoo",
+          "french": "はい、1かいに あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

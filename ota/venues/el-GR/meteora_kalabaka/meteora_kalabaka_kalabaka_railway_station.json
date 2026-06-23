@@ -1,0 +1,232 @@
+{
+  "id": "meteora_kalabaka_kalabaka_railway_station",
+  "name_en": "Kalabaka Railway Station",
+  "name_local": "Σιδηροδρομικός Σταθμός Καλαμπάκας",
+  "icon": "tram",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_001",
+      "intent_en": "When does the Athens train leave",
+      "text_local": "Πότε αναχωρεί το τρένο για Αθήνα;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-trEHnoh-yAH-ahthEEnah",
+      "formality": "standard",
+      "cultural_note": "Στις αγροτικές περιοχές, οι ακριβείς ώρες αναχώρησης συχνά ανακοινώνονται μόνο από τον υπάλληλο του σταθμού λόγω συχνών αλλαγών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις 11:15 το πρωί.",
+        "pronunciation": "stees-EHnthehkAH-thEHkahpEHnteh-toh-prohEE",
+        "translation_en": "At 11:15 in the morning."
+      },
+      "responses": [
+        {
+          "english": "At 11:15 in the morning.",
+          "phonetic": "stees-EHnthehkAH-thEHkahpEHnteh-toh-prohEE",
+          "french": "Στις 11:15 το πρωί."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_002",
+      "intent_en": "How do I reach Platform 1 from the entrance?",
+      "text_local": "Πώς φτάνω στην Πλατφόρμα 1 από την είσοδο;",
+      "pronunciation": "pOHs-pAHoh-steem-blahtfOHrmah-EHn-ahpOH-teen-EEsohthOH",
+      "formality": "standard",
+      "cultural_note": "Οι κύριοι προορισμοί εντός του σταθμού επισημαίνονται με πινακίδες ακολουθώντας την ελάχιστη σήμανση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περάστε την αίθουσα αναμονής, αριστερά.",
+        "pronunciation": "pehrAHsteh-teen-EHthoos-AHnahmohnEEsAHreestehrAH",
+        "translation_en": "Follow the signs to Platform 1."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to Platform 1.",
+          "phonetic": "pehrAHsteh-teen-EHthoos-AHnahmohnEEsAHreestehrAH",
+          "french": "Περάστε την αίθουσα αναμονής, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_003",
+      "intent_en": "Where does the bus replacement stand?",
+      "text_local": "Πού είναι η στάση των λεωφορείων αντικατάστασης;",
+      "pronunciation": "pOO-EEneh-ee-stAHsee-tohn-lEHohfohrEEohn-AHdeekahtAHstahsEEs",
+      "formality": "standard",
+      "cultural_note": "Οι αντικαταστάσεις λεωφορείων αποτελούν τυπική υπηρεσία του ΟΣΕ στα σημεία τερματικών γραμμών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Έξω από τον σταθμό, δεξιά.",
+        "pronunciation": "EHksoh-ahpOH-tohn-stahthmOHthEHkseeAH",
+        "translation_en": "Follow the signs to the Meteora exit."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Meteora exit.",
+          "phonetic": "EHksoh-ahpOH-tohn-stahthmOHthEHkseeAH",
+          "french": "Έξω από τον σταθμό, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_004",
+      "intent_en": "Can I buy tickets on the train",
+      "text_local": "Μπορώ να αγοράσω εισιτήριο μέσα στο τρένο;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-EEseetEEreeOH-mEHsah-stoh-trEHnoh",
+      "formality": "standard",
+      "cultural_note": "Στο δίκτυο ΟΣΕ, η αγορά εισιτηρίων κατά την διάρκεια του ταξιδιού δεν είναι συνήθης πρακτική στις γραμμές αυτής της κατηγορίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, μόνο στο γκισέ.",
+        "pronunciation": "OHkheemOHnoh-stoh-geesEH",
+        "translation_en": "No, only at the counter."
+      },
+      "responses": [
+        {
+          "english": "No, only at the counter.",
+          "phonetic": "OHkheemOHnoh-stoh-geesEH",
+          "french": "Όχι, μόνο στο γκισέ."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Το τρένο για Αθήνα είναι στην ώρα του;",
+      "pronunciation": "toh-trEHnoh-yAH-ahthEEnah-EHkhee-kAHtheestEHreesEE",
+      "formality": "standard",
+      "cultural_note": "Οι επιβάτες συνήθως απευθύνονται στον σταθμάρχη ή τον εισιτηριοδόκο για πληροφορίες ακρίβειας δρομολογίων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στην αποβάθρα 1.",
+        "pronunciation": "nEHsteen-AHpohvAHthrah-EHnah",
+        "translation_en": "Yes, so far it is on time."
+      },
+      "responses": [
+        {
+          "english": "Yes, so far it is on time.",
+          "phonetic": "nEHsteen-AHpohvAHthrah-EHnah",
+          "french": "Ναι, στην αποβάθρα 1."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_006",
+      "intent_en": "Can I pay for the train-bus connection here?",
+      "text_local": "Μπορώ να πληρώσω εδώ για τη σύνδεση τρένου-λεωφορείου;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-ehthOH-yAH-tee-sEEnthehsEE-trEHnoolEHohfohrEEoo",
+      "formality": "standard",
+      "cultural_note": "Οι κινήσεις αντικατάστασης τρένου-λεωφορείου διαχειρίζονται από τον εισιτηριοδόκο του σταθμού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, εδώ μπορείτε.",
+        "pronunciation": "nEHehthOH-bohrEEteh",
+        "translation_en": "Yes, you can here."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can here.",
+          "phonetic": "nEHehthOH-bohrEEteh",
+          "french": "Ναι, εδώ μπορείτε."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_007",
+      "intent_en": "Where is the bus replacement stand",
+      "text_local": "Πού είναι ο χώρος των λεωφορείων αντικατάστασης;",
+      "pronunciation": "pOO-EEneh-oh-khOHrohs-tohn-lEHohfohrEEohn-AHdeekahtAHstahsEEs",
+      "formality": "standard",
+      "cultural_note": "Στα περισσότερα ελληνικά σταθμούς, οι υποδείξεις για λεωφορεία αντικατάστασης βρίσκονται κοντά στο σημείο αναχώρησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Έξω από την πλατφόρμα 1.",
+        "pronunciation": "EHksoh-ahpOH-teem-blahtfOHrmah-EHnah",
+        "translation_en": "Outside platform 1."
+      },
+      "responses": [
+        {
+          "english": "Outside platform 1.",
+          "phonetic": "EHksoh-ahpOH-teem-blahtfOHrmah-EHnah",
+          "french": "Έξω από την πλατφόρμα 1."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_008",
+      "intent_en": "Is Platform 1 for Palaiofarsalos trains",
+      "text_local": "Είναι η πλατφόρμα 1 για το τρένο του Παλαιοφάρσαλου;",
+      "pronunciation": "toh-trEHnoh-yAH-pAHlehohfAHrsahlOH-EEneh-steem-blahtfOHrmah-EHnah",
+      "formality": "standard",
+      "cultural_note": "Στις μικρές αγροτικές γραμμές, οι πλατφόρμες συχνά χρησιμοποιούνται αποκλειστικά από μία συγκεκριμένη γραμμή προς αποφυγή σύγχυσης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, εδώ είναι.",
+        "pronunciation": "nEHehthOH-EEneh",
+        "translation_en": "Yes, it's here."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's here.",
+          "phonetic": "nEHehthOH-EEneh",
+          "french": "Ναι, εδώ είναι."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει αίθουσα αναμονής με καθίσματα;",
+      "pronunciation": "eepAHrkhee-EHthoos-AHnahmohnEEz-meh-kahthEEsmahtAH",
+      "formality": "standard",
+      "cultural_note": "Στους αγροτικούς σιδηροδρομικούς σταθμούς η προσφερόμενη ανέσεις μπορεί να περιορίζονται, επομένως η επιβεβαίωση γίνεται αποκλειστικά από τον αρμόδιο υπάλληλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δίπλα στην αποβάθρα 1.",
+        "pronunciation": "nEHthEEplah-steen-AHpohvAHthrah-EHnah",
+        "translation_en": "Yes, there is a waiting room at the station, next to platform 1. It has seats, and tickets are issued at the counter next to it."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a waiting room at the station, next to platform 1. It has seats, and tickets are issued at the counter next to it.",
+          "phonetic": "nEHthEEplah-steen-AHpohvAHthrah-EHnah",
+          "french": "Ναι, δίπλα στην αποβάθρα 1."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_railway_station_010",
+      "intent_en": "How do I swap to the bus",
+      "text_local": "Πώς γίνεται η μετάβαση στο λεωφορείο;",
+      "pronunciation": "pOHs-kAHnoh-mEHtahfohrAH-stoh-lEHohfohrEEoh",
+      "formality": "standard",
+      "cultural_note": "Στις μεταφορές μέσω ΟΣΕ, η διαδικασία αντικατάστασης συχνά ανακοινώνεται και ελέγχεται από τον υπάλληλο εισιτηρίων λόγω φορμαλιστικών απαιτήσεων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το λεωφορείο περιμένει στην έξοδο, αριστερά.",
+        "pronunciation": "toh-lEHohfohrEEoh-pEHreemEHnee-steen-EHksohthOHAHreestehrAH",
+        "translation_en": "The bus is waiting at the exit, on the left."
+      },
+      "responses": [
+        {
+          "english": "The bus is waiting at the exit, on the left.",
+          "phonetic": "toh-lEHohfohrEEoh-pEHreemEHnee-steen-EHksohthOHAHreestehrAH",
+          "french": "Το λεωφορείο περιμένει στην έξοδο, αριστερά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

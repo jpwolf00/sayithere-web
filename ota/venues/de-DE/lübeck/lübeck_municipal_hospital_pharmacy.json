@@ -1,0 +1,100 @@
+{
+  "id": "lübeck_municipal_hospital_pharmacy",
+  "name_en": "Municipal Hospital Pharmacy",
+  "name_local": "Stadtapotheke am Kolk",
+  "icon": "info.circle",
+  "lat": 53.866444,
+  "lon": 10.684738,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lübeck_municipal_hospital_pharmacy_001",
+      "intent_en": "Drop off statutory prescription here",
+      "text_local": "Wo gebe ich mein Kassenrezept ab?",
+      "pronunciation": "vOH-EHbuh-ihkh-meyen-kAHsuhnrehtsEHpt-AHp",
+      "formality": "standard",
+      "cultural_note": "In deutschen Apotheken ist die Rezeptannahme oft zentral und durch Schilder gekennzeichnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Rezeptannahme.",
+        "pronunciation": "ahn-dehr-rEHtsehptAHnahmuh",
+        "translation_en": "At the prescription counter."
+      },
+      "responses": [
+        {
+          "english": "At the prescription counter.",
+          "phonetic": "ahn-dehr-rEHtsehptAHnahmuh",
+          "french": "An der Rezeptannahme."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_municipal_hospital_pharmacy_002",
+      "intent_en": "Pick up queue number for prescriptions",
+      "text_local": "Wo bekomme ich die Wartenummer?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dee-vAHrtuhnUHm",
+      "formality": "casual",
+      "cultural_note": "In deutschen Apotheken sind Wartenummern-Automaten oft am Eingang oder im Wartebereich platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten am Eingang.",
+        "pronunciation": "ahm-OWtohmAHtuhn-ahm-EYEnAHng",
+        "translation_en": "At the machine by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the machine by the entrance.",
+          "phonetic": "ahm-OWtohmAHtuhn-ahm-EYEnAHng",
+          "french": "Am Automaten am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_municipal_hospital_pharmacy_003",
+      "intent_en": "Self-payer pay at which register",
+      "text_local": "Wo zahle ich als Selbstzahler?",
+      "pronunciation": "vOH-tsAHluh-ihkh-ahls-zEHlpstsahl",
+      "formality": "standard",
+      "cultural_note": "Selbstzahler-Schalter sind in deutschen Apotheken oft separat gekennzeichnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für Selbstzahler.",
+        "pronunciation": "ahm-shAHlt-fuer-zEHlpstsahl",
+        "translation_en": "At the self-payer counter."
+      },
+      "responses": [
+        {
+          "english": "At the self-payer counter.",
+          "phonetic": "ahm-shAHlt-fuer-zEHlpstsahl",
+          "french": "Am Schalter für Selbstzahler."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_municipal_hospital_pharmacy_004",
+      "intent_en": "Book consultation appointment for tomorrow",
+      "text_local": "Gibt es morgen einen Beratungstermin?",
+      "pronunciation": "EEpt-ehs-mAWruhn-EYEnuhn-buhrAHtuhngstmEEn",
+      "formality": "standard",
+      "cultural_note": "Terminvereinbarungen in Apotheken sind oft spontan möglich, besonders für kurze Beratungen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, morgen um 12 Uhr.",
+        "pronunciation": "yAHmAWruhn-uhm-tsvUHlf-OOr",
+        "translation_en": "Yes, at 12 PM tomorrow."
+      },
+      "responses": [
+        {
+          "english": "Yes, at 12 PM tomorrow.",
+          "phonetic": "yAHmAWruhn-uhm-tsvUHlf-OOr",
+          "french": "Ja, morgen um 12 Uhr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

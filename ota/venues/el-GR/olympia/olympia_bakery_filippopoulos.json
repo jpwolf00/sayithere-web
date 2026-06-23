@@ -1,0 +1,122 @@
+{
+  "id": "olympia_bakery_filippopoulos",
+  "name_en": "Bakery Filippopoulos",
+  "name_local": "Αρτοποιείο Φιλιππόπουλος",
+  "icon": "fork.knife",
+  "lat": 37.6382503,
+  "lon": 21.630566,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "olympia_bakery_filippopoulos_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ακόμη ζεστή η σπανακόπιτα;",
+      "pronunciation": "EEneh-ahkOHmee-zehstEE-ee-spAHnahkOHpeetAH",
+      "formality": "standard",
+      "cultural_note": "Spanakopita is often freshly baked in the morning and may remain warm throughout the day. Exact freshness is better confirmed with staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόλις βγήκε από τον φούρνο.",
+        "pronunciation": "nEHmOHleez-vyEEeh-ahpOH-tohn-fOOrnoh",
+        "translation_en": "Yes, it’s still warm."
+      },
+      "responses": [
+        {
+          "english": "Yes, it’s still warm.",
+          "phonetic": "nEHmOHleez-vyEEeh-ahpOH-tohn-fOOrnoh",
+          "french": "Ναι, μόλις βγήκε από τον φούρνο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_bakery_filippopoulos_002",
+      "intent_en": "Do you have child-size portions",
+      "text_local": "Έχετε μικρές μερίδες για παιδιά;",
+      "pronunciation": "EHkhehtEH-mehrEEthyah-yAH-pEHtheeAH",
+      "formality": "standard",
+      "cultural_note": "In Greece, portion sizes for pastries are often standard and may not be labeled as child-specific. Staff may offer smaller servings upon request.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στα τυροπιτάκια μας.",
+        "pronunciation": "nEHstah-tEErohpeetAHah-mahs",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEHstah-tEErohpeetAHah-mahs",
+          "french": "Ναι, στα τυροπιτάκια μας."
+        }
+      ]
+    },
+    {
+      "id": "olympia_bakery_filippopoulos_003",
+      "intent_en": "How do I order coffee with pastry",
+      "text_local": "Πώς παραγγέλνω καφέ με γλυκό;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-kahfEH-meh-ghleekOH",
+      "formality": "standard",
+      "cultural_note": "In Greek bakeries, pastries are typically selected from the case first, then ordered with coffee at the register.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Παίρνετε πρώτα το γλυκό και μετά τον καφέ",
+        "pronunciation": "pEHrnehtEH-prOHtah-toh-ghleekOH-keh-mehtAH-tohng-gahfEH",
+        "translation_en": "Take the pastry first and then the coffee"
+      },
+      "responses": [
+        {
+          "english": "Take the pastry first and then the coffee",
+          "phonetic": "pEHrnehtEH-prOHtah-toh-ghleekOH-keh-mehtAH-tohng-gahfEH",
+          "french": "Παίρνετε πρώτα το γλυκό και μετά τον καφέ"
+        }
+      ]
+    },
+    {
+      "id": "olympia_bakery_filippopoulos_004",
+      "intent_en": "Where do I pay for whole loaves",
+      "text_local": "Πού πληρώνω για τις φρατζόλες;",
+      "pronunciation": "pOO-pleerOHnoh-yAH-tees-frahdzOHlehs",
+      "formality": "standard",
+      "cultural_note": "Whole loaves are typically handled at a dedicated counter separate from pastries and sweets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον ξεχωριστό πάγκο των φρατζολών",
+        "pronunciation": "stohng-gzEHkhohreestOH-pAHnggoh-tohn-frAHdzohlOHn",
+        "translation_en": "At the separate loaf counter"
+      },
+      "responses": [
+        {
+          "english": "At the separate loaf counter",
+          "phonetic": "stohng-gzEHkhohreestOH-pAHnggoh-tohn-frAHdzohlOHn",
+          "french": "Στον ξεχωριστό πάγκο των φρατζολών"
+        }
+      ]
+    },
+    {
+      "id": "olympia_bakery_filippopoulos_005",
+      "intent_en": "Do you take card at the register",
+      "text_local": "Δέχεστε κάρτα στο ταμείο;",
+      "pronunciation": "thEHkhehstEH-kAHrtah-stoh-tahmEEoh",
+      "formality": "standard",
+      "cultural_note": "Many traditional bakeries in Greece, especially smaller ones, prefer cash payments. Card acceptance is less common.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά στο ταμείο",
+        "pronunciation": "mOHnoh-mEHtreetAH-stoh-tahmEEoh",
+        "translation_en": "Cash only at the register"
+      },
+      "responses": [
+        {
+          "english": "Cash only at the register",
+          "phonetic": "mOHnoh-mEHtreetAH-stoh-tahmEEoh",
+          "french": "Μόνο μετρητά στο ταμείο"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

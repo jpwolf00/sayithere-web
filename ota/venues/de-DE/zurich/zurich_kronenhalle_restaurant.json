@@ -1,0 +1,100 @@
+{
+  "id": "zurich_kronenhalle_restaurant",
+  "name_en": "Kronenhalle Restaurant",
+  "name_local": "Kronenhalle",
+  "icon": "fork.knife",
+  "lat": 47.3675511,
+  "lon": 8.5457188,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zurich_kronenhalle_restaurant_001",
+      "intent_en": "Where is the Kronenhalle Bar?",
+      "text_local": "Wo finde ich die Kronenhalle Bar?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-krOHnuhnhAHluh-bAHr",
+      "formality": "standard",
+      "cultural_note": "The bar is a distinct area from the dining room but easily accessible from the foyer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Bar ist links vom Eingang.",
+        "pronunciation": "dee-bAHr-ihst-lINGks-fawm-EYEngAHng",
+        "translation_en": "The bar is to the left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "The bar is to the left of the entrance.",
+          "phonetic": "dee-bAHr-ihst-lINGks-fawm-EYEngAHng",
+          "french": "Die Bar ist links vom Eingang."
+        }
+      ]
+    },
+    {
+      "id": "zurich_kronenhalle_restaurant_002",
+      "intent_en": "Can I pay the bar tab separately?",
+      "text_local": "Kann die Barrechnung separat beglichen werden?",
+      "pronunciation": "kAHn-dee-bAHrehkhnUHng-zEHpahrAHt-buhlIHkhuhn-vEHrduhn",
+      "formality": "standard",
+      "cultural_note": "Separate settlement is standard practice for bar tabs at Kronenhalle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Empfang möglich.",
+        "pronunciation": "yAHahm-ehmpfAHng-mUHklihkh",
+        "translation_en": "Yes, at the reception desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the reception desk.",
+          "phonetic": "yAHahm-ehmpfAHng-mUHklihkh",
+          "french": "Ja, am Empfang möglich."
+        }
+      ]
+    },
+    {
+      "id": "zurich_kronenhalle_restaurant_003",
+      "intent_en": "Is there a dress code for dinner?",
+      "text_local": "Darf man hier in Jeans essen?",
+      "pronunciation": "dAHrf-mahn-hEEr-ihn-ehndzhEEnzdeh-EHsuhn",
+      "formality": "casual",
+      "cultural_note": "Kronenhalle expects formal dinner attire after 18:00, aligning with its Belle Epoque heritage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Abends elegante Kleidung empfohlen.",
+        "pronunciation": "AHbuhnts-EHlehAHntuh-klEYEduhng-ehmpfOHluhn",
+        "translation_en": "Evening: smart attire recommended."
+      },
+      "responses": [
+        {
+          "english": "Evening: smart attire recommended.",
+          "phonetic": "AHbuhnts-EHlehAHntuh-klEYEduhng-ehmpfOHluhn",
+          "french": "Abends elegante Kleidung empfohlen."
+        }
+      ]
+    },
+    {
+      "id": "zurich_kronenhalle_restaurant_004",
+      "intent_en": "Where can I inquire about art purchases?",
+      "text_local": "Wo erfahre ich mehr über Kunstkäufe?",
+      "pronunciation": "vOH-ehrfAHruh-ihkh-mEHr-UEb-kUHnstkawuhfuh",
+      "formality": "standard",
+      "cultural_note": "Art inquiries are handled at the main reception, linked to the Zumsteg family legacy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie am Empfang nach.",
+        "pronunciation": "frAHuhn-zee-ahm-ehmpfAHng-nAHkh",
+        "translation_en": "Ask at the reception desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the reception desk.",
+          "phonetic": "frAHuhn-zee-ahm-ehmpfAHng-nAHkh",
+          "french": "Fragen Sie am Empfang nach."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

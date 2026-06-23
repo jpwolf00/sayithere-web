@@ -1,0 +1,122 @@
+{
+  "id": "plzeň_plzeň_central_bus_station",
+  "name_en": "Plzeň Central Bus Station",
+  "name_local": "Centrální autobusové nádraží Plzeň",
+  "icon": "tram",
+  "lat": 49.7467118,
+  "lon": 13.3630947,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "plzeň_plzeň_central_bus_station_001",
+      "intent_en": "When does the next bus to Prague leave?",
+      "text_local": "Kdy jede další autobus do Prahy?",
+      "pronunciation": "kdEE-yEHdeh-dAHlshee-OWtohbooz-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Staff often add the platform number automatically when giving departure times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za patnáct minut, z nástupiště sedm.",
+        "pronunciation": "zAHpahtnahtst-mEEnoots-nAHstoopEEsheh-sEHdm",
+        "translation_en": "In fifteen minutes, from platform seven."
+      },
+      "responses": [
+        {
+          "english": "In fifteen minutes, from platform seven.",
+          "phonetic": "zAHpahtnahtst-mEEnoots-nAHstoopEEsheh-sEHdm",
+          "french": "Za patnáct minut, z nástupiště sedm."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_central_bus_station_002",
+      "intent_en": "Is the ticket machine working?",
+      "text_local": "Funguje automat na jízdenky?",
+      "pronunciation": "fOOnggooyeh-OWtohmaht-nAHyeezdEHngkee",
+      "formality": "standard",
+      "cultural_note": "Multiple machines exist; specifying location helps avoid confusion if one is out of order.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, ten u vchodu funguje.",
+        "pronunciation": "AHnohtEHn-OO-fkhOHdoo-fOOnggooyeh",
+        "translation_en": "Yes, the one by the entrance is working."
+      },
+      "responses": [
+        {
+          "english": "Yes, the one by the entrance is working.",
+          "phonetic": "AHnohtEHn-OO-fkhOHdoo-fOOnggooyeh",
+          "french": "Ano, ten u vchodu funguje."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_central_bus_station_003",
+      "intent_en": "Where is the RegioJet counter?",
+      "text_local": "Kde je přepážka RegioJet?",
+      "pronunciation": "kdEH-yeh-prEHpahshkah-rEHgeeyoh-yEHt",
+      "formality": "standard",
+      "cultural_note": "RegioJet is a private carrier with its own counter, often separate from the main ČSAD ticket windows.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V hlavní hale, vpravo vedle informací.",
+        "pronunciation": "v-hlAHvnyee-hAHlehfprAHvoh-vEHdleh-EEnfohrmAHtsee",
+        "translation_en": "In the main hall, on the right next to the information desk."
+      },
+      "responses": [
+        {
+          "english": "In the main hall, on the right next to the information desk.",
+          "phonetic": "v-hlAHvnyee-hAHlehfprAHvoh-vEHdleh-EEnfohrmAHtsee",
+          "french": "V hlavní hale, vpravo vedle informací."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_central_bus_station_004",
+      "intent_en": "Can I pay the driver in cash?",
+      "text_local": "Můžu zaplatit řidiči v hotovosti?",
+      "pronunciation": "mOOzhoo-zAHplaheet-rEEeetshee-v-hOHtohvOHsee",
+      "formality": "standard",
+      "cultural_note": "Drivers usually accept cash but prefer exact change or small bills to avoid delays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, drobnými prosím.",
+        "pronunciation": "AHnohdrOHbneemee-prOHseem",
+        "translation_en": "Yes, with small change please."
+      },
+      "responses": [
+        {
+          "english": "Yes, with small change please.",
+          "phonetic": "AHnohdrOHbneemee-prOHseem",
+          "french": "Ano, drobnými prosím."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_central_bus_station_005",
+      "intent_en": "Where is platform three?",
+      "text_local": "Kde je nástupiště číslo tři?",
+      "pronunciation": "kdEH-yeh-nAHstoopEEsheh-tshEEsloh-trEE",
+      "formality": "standard",
+      "cultural_note": "Platform numbering can be inconsistent; giving a landmark like the underpass helps orientation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně, pak doleva za podchodem.",
+        "pronunciation": "rOHvnyehpAHk-dOHlehvah-zAHpohtkhOHdehm",
+        "translation_en": "Straight, then left after the underpass."
+      },
+      "responses": [
+        {
+          "english": "Straight, then left after the underpass.",
+          "phonetic": "rOHvnyehpAHk-dOHlehvah-zAHpohtkhOHdehm",
+          "french": "Rovně, pak doleva za podchodem."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

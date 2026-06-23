@@ -1,0 +1,188 @@
+{
+  "id": "hydra_hydra_tourist_information_office",
+  "name_en": "Hydra Tourist Information Office",
+  "name_local": "Γραφείο Τουριστικής Πληροφόρησης",
+  "icon": "info.circle",
+  "lat": 37.3321076,
+  "lon": 23.4664237,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "hydra_hydra_tourist_information_office_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πότε είναι το επόμενο πλοίο για Πειραιά σήμερα;",
+      "pronunciation": "pOHteh-EEneh-toh-ehpOHmehnOH-plEEoh-yAH-pEErehAH-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Οι ώρες αναχώρησης βρίσκονται στον πίνακα δρομολογίων στο λιμάνι.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το επόμενο φεύγει σε μισή ώρα.",
+        "pronunciation": "toh-ehpOHmehnOH-fEHvyee-seh-meesEE-OHrah",
+        "translation_en": "The next one departs in half an hour."
+      },
+      "responses": [
+        {
+          "english": "The next one departs in half an hour.",
+          "phonetic": "toh-ehpOHmehnOH-fEHvyee-seh-meesEE-OHrah",
+          "french": "Το επόμενο φεύγει σε μισή ώρα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_tourist_information_office_002",
+      "intent_en": "Can you arrange a boat tour from here?",
+      "text_local": "Μπορείτε να κανονίσετε ξενάγηση με βάρκα;",
+      "pronunciation": "bohrEEteh-nah-kAHnohnEEsehtEH-ksehnAHyeesEE-meh-vAHrkah",
+      "formality": "polite",
+      "cultural_note": "Οι οργανωμένες ξεναγήσεις με βάρκα διατίθενται μέσω του γραφείου πληροφόρησης.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes, we can."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_tourist_information_office_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει ξενοδοχείο με θέα στο λιμάνι;",
+      "pronunciation": "eepAHrkhee-ksEHnohthohkhEEoh-meh-thEHah-stoh-leemAHnee",
+      "formality": "standard",
+      "cultural_note": "Οι προτάσεις ξενοδοχείων γίνονται μέσω της υπηρεσίας πληροφόρησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στην προκυμαία.",
+        "pronunciation": "nEHsteem-brOHeemEHah",
+        "translation_en": "Yes, on the waterfront."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the waterfront.",
+          "phonetic": "nEHsteem-brOHeemEHah",
+          "french": "Ναι, στην προκυμαία."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_tourist_information_office_004",
+      "intent_en": "Are trail maps available for free?",
+      "text_local": "Υπάρχουν δωρεάν χάρτες μονοπατιών;",
+      "pronunciation": "eepAHrkhoon-thOHrehAHn-khAHrtehz-mOHnohpAHteeOHn",
+      "formality": "standard",
+      "cultural_note": "Οι χάρτες μονοπατιών διανέμονται δωρεάν στο γραφείο πληροφόρησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δωρεάν.",
+        "pronunciation": "nEHthOHrehAHn",
+        "translation_en": "Yes, free of charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, free of charge.",
+          "phonetic": "nEHthOHrehAHn",
+          "french": "Ναι, δωρεάν."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_tourist_information_office_005",
+      "intent_en": "Water taxi to Mandraki bay",
+      "text_local": "Υπάρχει ταξί νερό για Μανδράκι;",
+      "pronunciation": "eepAHrkhee-tahksEE-nehrOH-yAH-mahnthrAHee",
+      "formality": "standard",
+      "cultural_note": "Οι κρατήσεις για ταξί νερό γίνονται στο σημείο πληροφοριών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει.",
+        "pronunciation": "nEHeepAHrkhee",
+        "translation_en": "Yes, there is."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is.",
+          "phonetic": "nEHeepAHrkhee",
+          "french": "Ναι, υπάρχει."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_tourist_information_office_006",
+      "intent_en": "Where can I buy ferry tickets here?",
+      "text_local": "Πού μπορώ να αγοράσω εισιτήρια πλοίου;",
+      "pronunciation": "pOO-bohrOH-n-AHghohrAHsoh-EEseetEEreeAH-plEEoo",
+      "formality": "polite",
+      "cultural_note": "Οι υπηρεσίες πλοίων βρίσκονται στο ίδιο κτίριο με το γραφείο πληροφόρησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην υπηρεσία πλοίων.",
+        "pronunciation": "steen-EEpeerehsEEah-plEEohn",
+        "translation_en": "At the ferry ticket service."
+      },
+      "responses": [
+        {
+          "english": "At the ferry ticket service.",
+          "phonetic": "steen-EEpeerehsEEah-plEEohn",
+          "french": "Στην υπηρεσία πλοίων."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_tourist_information_office_007",
+      "intent_en": "Trail map for Vlychos hike",
+      "text_local": "Χάρτης για τη διαδρομή προς Βλυχό;",
+      "pronunciation": "khAHrteez-yAH-tee-thEEahthrohmEE-prOHz-vleekhOH",
+      "formality": "standard",
+      "cultural_note": "Οι χάρτες μονοπατιών βρίσκονται στο γραφείο πληροφόρησης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Πάρτε έναν από εδώ.",
+        "pronunciation": "pAHrteh-EHnahn-ahpOH-ehthOH",
+        "translation_en": "Take one from here."
+      },
+      "responses": [
+        {
+          "english": "Take one from here.",
+          "phonetic": "pAHrteh-EHnahn-ahpOH-ehthOH",
+          "french": "Πάρτε έναν από εδώ."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_tourist_information_office_008",
+      "intent_en": "How do I book a water taxi?",
+      "text_local": "Πώς κάνω κράτηση για ταξί νερό;",
+      "pronunciation": "pOHs-kAHnoh-krAHteesEE-yAH-tahksEE-nehrOH",
+      "formality": "standard",
+      "cultural_note": "Οι κρατήσεις γίνονται στο γραφείο πληροφόρησης ή στο σημείο πληροφοριών ταξί νερού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κάντε κράτηση στο γκισέ.",
+        "pronunciation": "kAHdeh-krAHteesEE-stoh-geesEH",
+        "translation_en": "Book at the counter."
+      },
+      "responses": [
+        {
+          "english": "Book at the counter.",
+          "phonetic": "kAHdeh-krAHteesEE-stoh-geesEH",
+          "french": "Κάντε κράτηση στο γκισέ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

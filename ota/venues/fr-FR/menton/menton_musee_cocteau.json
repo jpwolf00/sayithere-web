@@ -1,0 +1,115 @@
+{
+  "id": "menton_musee_cocteau",
+  "name_en": "Jean Cocteau Museum",
+  "name_local": "Musée Jean Cocteau",
+  "icon": "paintpalette",
+  "phrases": [
+    {
+      "id": "cocteau_open",
+      "intent_en": "Is the museum open this afternoon?",
+      "text_local": "Le musée est ouvert cet après-midi ?",
+      "pronunciation": "luh myoo-ZAY eh oo-VAIR set ah-preh mee-DEE",
+      "formality": "polite",
+      "cultural_note": "Hours and special closures can change with exhibition turnover.",
+      "responses": [
+        {
+          "english": "Yes, until 6 PM.",
+          "phonetic": "wee, zhoos-KAH deez-weet UHR",
+          "french": "Oui, jusqu'à dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cocteau_ticket",
+      "intent_en": "How much is one adult ticket?",
+      "text_local": "C'est combien pour un billet adulte ?",
+      "pronunciation": "say kom-BYAN poor uhn bee-YAY ah-DULT",
+      "formality": "polite",
+      "cultural_note": "Ask for reduced rates if eligible—many museums have discount categories.",
+      "responses": [
+        {
+          "english": "Eight euros.",
+          "phonetic": "weet uh-ROH",
+          "french": "Huit euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cocteau_expo",
+      "intent_en": "Which exhibition is on right now?",
+      "text_local": "Quelle exposition est en cours en ce moment ?",
+      "pronunciation": "kel eks-poh-zee-SYON eh on koor on suh moh-MON",
+      "formality": "polite",
+      "cultural_note": "Temporary exhibitions may change the suggested visit route.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cocteau_photo",
+      "intent_en": "Are photos allowed inside?",
+      "text_local": "Les photos sont autorisées à l'intérieur ?",
+      "pronunciation": "lay FOH-to son oh-toh-ree-ZAY ah lan-tay-ree-UHR",
+      "formality": "polite",
+      "cultural_note": "If allowed, avoid flash and respect posted restrictions.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cocteau_duration",
+      "intent_en": "How long should I plan for the visit?",
+      "text_local": "Je prévois combien de temps pour la visite ?",
+      "pronunciation": "zhuh pray-VWA kom-BYAN duh tahn poor lah vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "Plan about 45–60 minutes for a standard museum visit.",
+      "responses": [
+        {
+          "english": "About one hour.",
+          "phonetic": "ahn-vee-ROHN oon UHR",
+          "french": "Environ une heure."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "luh myoo-ZAY"
+    },
+    {
+      "word_en": "exhibition",
+      "word_local": "l’exposition",
+      "pronunciation": "lek-spoh-zee-SYON"
+    },
+    {
+      "word_en": "ticket office",
+      "word_local": "la billetterie",
+      "pronunciation": "lah bee-yet-REE"
+    },
+    {
+      "word_en": "audio guide",
+      "word_local": "l’audioguide",
+      "pronunciation": "loh-dee-oh-GEED"
+    }
+  ]
+}

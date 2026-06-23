@@ -1,0 +1,100 @@
+{
+  "id": "kanazawa_katani_kobo_bakery",
+  "name_en": "Katani Kobo Bakery",
+  "name_local": "カタニ工房",
+  "icon": "fork.knife",
+  "lat": 36.5649759,
+  "lon": 136.65717495,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kanazawa_katani_kobo_bakery_001",
+      "intent_en": "Is shokupan available now?",
+      "text_local": "しょくパン、いま ありますか？",
+      "pronunciation": "ohkOOpEEm-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Small bakeries often sell out of popular items like shokupan early; asking with 'ima' (now) is natural.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、まだ ありますよ。",
+        "pronunciation": "hEEmD-EEmsOOyoh",
+        "translation_en": "Yes, we still have some."
+      },
+      "responses": [
+        {
+          "english": "Yes, we still have some.",
+          "phonetic": "hEEmD-EEmsOOyoh",
+          "french": "はい、まだ ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_katani_kobo_bakery_002",
+      "intent_en": "Is seating inside?",
+      "text_local": "なかで すわれますか？",
+      "pronunciation": "nkDeh-sOOwEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small artisanal bakeries in Japan, especially those attached to a workshop, are takeout-only with no eat-in space.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "すみません、テイクアウトのみです。",
+        "pronunciation": "sOOmeemSehtEHeekOOOOtohnOHmeedEHsoo",
+        "translation_en": "Sorry, it's takeout only."
+      },
+      "responses": [
+        {
+          "english": "Sorry, it's takeout only.",
+          "phonetic": "sOOmeemSehtEHeekOOOOtohnOHmeedEHsoo",
+          "french": "すみません、テイクアウトのみです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_katani_kobo_bakery_003",
+      "intent_en": "How long for fresh anpan?",
+      "text_local": "あんパンの やきたては どのくらい まちますか？",
+      "pronunciation": "PNnoh-yKeettEHh-dOHnohkooEE-mTeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Customers often ask about 'yakitate' (freshly baked) items. Staff give approximate wait times that can change.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あと 5ふんほどで でますよ。",
+        "pronunciation": "Toh-gOH-OOhohdOHdeh-dEHmsOOyoh",
+        "translation_en": "They'll be out in about 5 minutes."
+      },
+      "responses": [
+        {
+          "english": "They'll be out in about 5 minutes.",
+          "phonetic": "Toh-gOH-OOhohdOHdeh-dEHmsOOyoh",
+          "french": "あと 5ふんほどで でますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_katani_kobo_bakery_004",
+      "intent_en": "Do I order at counter?",
+      "text_local": "ちゅうもんは カウンターで しますか？",
+      "pronunciation": "tOOoomohH-kOOntDeh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At counter-service bakeries, you typically pick items yourself and bring them to the cashier, or point at what you want.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、カウンターで どうぞ。",
+        "pronunciation": "hEEkOOntDeh-dohOOzoh",
+        "translation_en": "Yes, please come to the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, please come to the counter.",
+          "phonetic": "hEEkOOntDeh-dohOOzoh",
+          "french": "はい、カウンターで どうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

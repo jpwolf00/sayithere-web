@@ -1,0 +1,118 @@
+{
+  "id": "nice_musee_massena",
+  "name_en": "Masséna Museum",
+  "name_local": "Musée Masséna",
+  "icon": "building.columns",
+  "lat": 43.6952,
+  "lon": 7.2647,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "nice_massena_museum_001",
+      "intent_en": "Ask if the museum is free to enter",
+      "text_local": "L'entrée du musée est gratuite ?",
+      "pronunciation": "lahn-TRAY doo moo-ZAY eh grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Many municipal museums in Nice are free for all visitors. The Masséna Museum is one of them.",
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "wee lahn-TRAY eh grah-TWEET",
+          "french": "Oui, l'entrée est gratuite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_massena_museum_002",
+      "intent_en": "Ask if the museum garden is open today",
+      "text_local": "Le jardin du musée est ouvert aujourd'hui ?",
+      "pronunciation": "luh zhar-DAHN doo moo-ZAY eh too-VAIR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The Masséna Museum gardens face the Promenade des Anglais and are a pleasant spot to rest between visits.",
+      "responses": [
+        {
+          "english": "Yes, the garden is accessible.",
+          "phonetic": "wee luh zhar-DAHN eh tak-sess-EEBL",
+          "french": "Oui, le jardin est accessible."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_massena_museum_003",
+      "intent_en": "Ask where the coat check is",
+      "text_local": "Où est le vestiaire, s'il vous plaît ?",
+      "pronunciation": "oo eh luh ves-TYAIR seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Most museums in Nice have a coat check or locker area near the entrance.",
+      "responses": [
+        {
+          "english": "On the ground floor, on the left.",
+          "phonetic": "oh ray-duh-shoh-SAY ah GOHSH",
+          "french": "Au rez-de-chaussée, à gauche."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_massena_museum_004",
+      "intent_en": "Ask if there is a guided tour today",
+      "text_local": "Une visite guidée est-elle prévue aujourd'hui ?",
+      "pronunciation": "oon vee-ZEET gee-DAY eh-TEL pray-VYOO oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The museum offers free guided tours — check at the reception for today's schedule as times vary.",
+      "responses": [
+        {
+          "english": "Yes, at two thirty.",
+          "phonetic": "wee ah kah-TORZ UR TRAHNT",
+          "french": "Oui, à quatorze heures trente."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_massena_museum_005",
+      "intent_en": "Ask if the museum garden is open outside of museum hours",
+      "text_local": "Le jardin de la villa est-il accessible en dehors des heures d'ouverture du musée ?",
+      "pronunciation": "leh zhar-DAN deh lah VEE-lah eh-TEEL ak-se-SEEBL an deh-OR day ZUH-reh doo-vehr-TOOR doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The garden is often accessible separately — a tranquil retreat between the Promenade and the Jardin Albert 1er.",
+      "responses": [
+        {
+          "english": "Yes, the garden is accessible outside museum hours.",
+          "phonetic": "wee luh zhar-DAHN eh tak-ses-EEBL ahn duh-OR day ZUR doo moo-ZAY",
+          "french": "Oui, le jardin est accessible en dehors des heures du musée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "villa",
+      "word_local": "la villa",
+      "pronunciation": "lah VEE-lah"
+    },
+    {
+      "word_en": "Belle Époque",
+      "word_local": "la Belle Époque",
+      "pronunciation": "lah bel ay-POK"
+    },
+    {
+      "word_en": "history museum",
+      "word_local": "le musée d'histoire",
+      "pronunciation": "leh moo-ZAY dees-TWAHR"
+    },
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "leh zhar-DAN"
+    }
+  ]
+}

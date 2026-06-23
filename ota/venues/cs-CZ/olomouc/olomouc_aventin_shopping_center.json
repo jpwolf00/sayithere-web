@@ -1,0 +1,122 @@
+{
+  "id": "olomouc_aventin_shopping_center",
+  "name_en": "Aventin Shopping Center",
+  "name_local": "Obchodní centrum Aventin",
+  "icon": "bag",
+  "lat": 49.5940567,
+  "lon": 17.251143,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "olomouc_aventin_shopping_center_001",
+      "intent_en": "How do I pay for parking",
+      "text_local": "Jak zaplatím parkování?",
+      "pronunciation": "yAHk-zAHplaheem-pAHrkohvAHnyee",
+      "formality": "standard",
+      "cultural_note": "Parking payment machines in Czech shopping centers typically accept both cards and coins.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V automatu před výtahem, karta nebo mince.",
+        "pronunciation": "v-OWtohmAHtoo-prEHdveetAHhehmkAHrtah-nEHboh-mEEntseh",
+        "translation_en": "At the machine before the elevator, card or coins."
+      },
+      "responses": [
+        {
+          "english": "At the machine before the elevator, card or coins.",
+          "phonetic": "v-OWtohmAHtoo-prEHdveetAHhehmkAHrtah-nEHboh-mEEntseh",
+          "french": "V automatu před výtahem, karta nebo mince."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_aventin_shopping_center_002",
+      "intent_en": "Where do I buy gift cards",
+      "text_local": "Kde koupím dárkové poukázky?",
+      "pronunciation": "kdEH-kOHpeem-dAHrkohveh-pOHkahskee",
+      "formality": "standard",
+      "cultural_note": "Gift cards ('dárkové poukázky') are usually sold at a dedicated desk near the main entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U přepážky vpravo od vchodu.",
+        "pronunciation": "OO-prEHpahshkee-fprAHvoh-OHdfkhohdoo",
+        "translation_en": "At the counter to the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the counter to the right of the entrance.",
+          "phonetic": "OO-prEHpahshkee-fprAHvoh-OHdfkhohdoo",
+          "french": "U přepážky vpravo od vchodu."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_aventin_shopping_center_003",
+      "intent_en": "Is the customer service desk open now",
+      "text_local": "Je teď otevřené zákaznické centrum?",
+      "pronunciation": "yeh-tEH-OHtehvrEHneh-zAHkahznyEEtskeh-tsEHntroom",
+      "formality": "standard",
+      "cultural_note": "Customer service desks in Czech malls often close at 19:00 or 20:00.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, do sedmi večer.",
+        "pronunciation": "AHnohdOHsehdmee-vEHtshehr",
+        "translation_en": "Yes, until seven in the evening."
+      },
+      "responses": [
+        {
+          "english": "Yes, until seven in the evening.",
+          "phonetic": "AHnohdOHsehdmee-vEHtshehr",
+          "french": "Ano, do sedmi večer."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_aventin_shopping_center_004",
+      "intent_en": "Where is the hypermarket checkout",
+      "text_local": "Kde jsou pokladny hypermarketu?",
+      "pronunciation": "kdEH-ysoh-pOHklahdnee-hEEpehrmAHrkehtoo",
+      "formality": "standard",
+      "cultural_note": "Staff often use compass-like directions (rovně=straight) combined with floor levels.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a pak doleva do přízemí.",
+        "pronunciation": "rOHvnyeh-ah-pAHk-dOHlehvah-dOHpreezEHmee",
+        "translation_en": "Straight ahead and then left on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead and then left on the ground floor.",
+          "phonetic": "rOHvnyeh-ah-pAHk-dOHlehvah-dOHpreezEHmee",
+          "french": "Rovně a pak doleva do přízemí."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_aventin_shopping_center_005",
+      "intent_en": "Where is the ATM in the main lobby",
+      "text_local": "Kde je bankomat ve vestibulu?",
+      "pronunciation": "kdEH-yeh-bAHngkohmaht-vEH-vEHseebOOloo",
+      "formality": "standard",
+      "cultural_note": "Czech ATMs are commonly called 'bankomat' and are often placed near escalators or entrances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V rohu vedle eskalátorů.",
+        "pronunciation": "v-rOHhoo-vEHdleh-EHskahlAHtohroo",
+        "translation_en": "In the corner next to the escalators."
+      },
+      "responses": [
+        {
+          "english": "In the corner next to the escalators.",
+          "phonetic": "v-rOHhoo-vEHdleh-EHskahlAHtohroo",
+          "french": "V rohu vedle eskalátorů."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

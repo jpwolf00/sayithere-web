@@ -1,0 +1,100 @@
+{
+  "id": "prague_václav_havel_airport_prague",
+  "name_en": "Václav Havel Airport Prague",
+  "name_local": "Letiště Václava Havla Praha",
+  "icon": "tram",
+  "lat": 50.1020451,
+  "lon": 14.2705663,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "prague_václav_havel_airport_prague_001",
+      "intent_en": "Ask where to buy public transit tickets",
+      "text_local": "Kde koupím lístky na MHD?",
+      "pronunciation": "kdEH-kOHpeem-lEEstkee-nAHmht",
+      "formality": "standard",
+      "cultural_note": "Public transport tickets are sold at yellow machines or information counters in the arrivals area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V příletové hale, žluté automaty vlevo.",
+        "pronunciation": "v-prEElehtOHveh-hAHlehzhlOOteh-OWtohmAHtee-vlEHvoh",
+        "translation_en": "In the arrivals hall, yellow machines on the left."
+      },
+      "responses": [
+        {
+          "english": "In the arrivals hall, yellow machines on the left.",
+          "phonetic": "v-prEElehtOHveh-hAHlehzhlOOteh-OWtohmAHtee-vlEHvoh",
+          "french": "V příletové hale, žluté automaty vlevo."
+        }
+      ]
+    },
+    {
+      "id": "prague_václav_havel_airport_prague_002",
+      "intent_en": "Ask where the Eurowings baggage drop is",
+      "text_local": "Kde je odbavení zavazadel pro Eurowings?",
+      "pronunciation": "kdEH-yeh-OHdbahvEHnyee-zAHvahzAHdehl-prOHehuhrOHveengks",
+      "formality": "standard",
+      "cultural_note": "Czech airport staff use přepážka (counter) with numbers for precise locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Přepážky 120 až 125, vpravo.",
+        "pronunciation": "prEHpahshkee-stOH-dvAHtseht-AHsh-stOH-dvAHtsehtpyEHtfprAHvoh",
+        "translation_en": "Counters 120 to 125, on the right."
+      },
+      "responses": [
+        {
+          "english": "Counters 120 to 125, on the right.",
+          "phonetic": "prEHpahshkee-stOH-dvAHtseht-AHsh-stOH-dvAHtsehtpyEHtfprAHvoh",
+          "french": "Přepážky 120 až 125, vpravo."
+        }
+      ]
+    },
+    {
+      "id": "prague_václav_havel_airport_prague_003",
+      "intent_en": "Ask if Ryanair boarding pass needs stamp",
+      "text_local": "Musím si nechat orazítkovat palubní lístek Ryanair?",
+      "pronunciation": "mOOseem-see-nEHkhaht-OHrahzEEtkohvaht-pAHloobnyee-lEEstehk-rEEahnAHeer",
+      "formality": "standard",
+      "cultural_note": "Non-EU carriers like Ryanair often require a document check stamp at the airport desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u přepážky Ryanair před kontrolou.",
+        "pronunciation": "AHnohOO-prEHpahshkee-rEEahnAHeer-prEHtkohntrOHloh",
+        "translation_en": "Yes, at the Ryanair counter before security."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the Ryanair counter before security.",
+          "phonetic": "AHnohOO-prEHpahshkee-rEEahnAHeer-prEHtkohntrOHloh",
+          "french": "Ano, u přepážky Ryanair před kontrolou."
+        }
+      ]
+    },
+    {
+      "id": "prague_václav_havel_airport_prague_004",
+      "intent_en": "Ask when the Airport Express bus departs",
+      "text_local": "Kdy odjíždí autobus Airport Express?",
+      "pronunciation": "kdEE-OHdyeezhee-OWtohboos-AHeerpohrt-EHksprehs",
+      "formality": "standard",
+      "cultural_note": "Airport Express (AE) buses depart from clearly marked stops outside the terminals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za deset minut od stanoviště C.",
+        "pronunciation": "zAHdehseht-mEEnoot-oht-stAHnohvEEsheh-tsEH",
+        "translation_en": "In ten minutes from stop C."
+      },
+      "responses": [
+        {
+          "english": "In ten minutes from stop C.",
+          "phonetic": "zAHdehseht-mEEnoot-oht-stAHnohvEEsheh-tsEH",
+          "french": "Za deset minut od stanoviště C."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

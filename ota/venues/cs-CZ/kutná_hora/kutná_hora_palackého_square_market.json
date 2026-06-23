@@ -1,0 +1,56 @@
+{
+  "id": "kutná_hora_palackého_square_market",
+  "name_en": "Palackého Square Market",
+  "name_local": "Trhy na Palackého náměstí",
+  "icon": "cart",
+  "lat": 49.9486561,
+  "lon": 15.2681123,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "kutná_hora_palackého_square_market_001",
+      "intent_en": "Do vendors accept cards or only cash",
+      "text_local": "Berete karty, nebo jen hotovost?",
+      "pronunciation": "bEHrehteh-kAHrteenEHboh-yEHn-hOHtohvohst",
+      "formality": "casual",
+      "cultural_note": "Small market vendors in Czech towns often prefer cash, but some may have terminals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Většinou jen hotovost, karty jen občas.",
+        "pronunciation": "vyEHtsheenoh-yEHn-hOHtohvohstkAHrtee-yEHn-OHptshahs",
+        "translation_en": "Mostly cash only, cards sometimes."
+      },
+      "responses": [
+        {
+          "english": "Mostly cash only, cards sometimes.",
+          "phonetic": "vyEHtsheenoh-yEHn-hOHtohvohstkAHrtee-yEHn-OHptshahs",
+          "french": "Většinou jen hotovost, karty jen občas."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_palackého_square_market_002",
+      "intent_en": "Where is the Slavkov Castle stall",
+      "text_local": "Kde tady prodávají lístky na Slavkov?",
+      "pronunciation": "kdEH-tAHdee-prOHdahvAHyee-lEEstkee-nAHslahfkohv",
+      "formality": "standard",
+      "cultural_note": "Market directions often use nearby landmarks like fountains or statues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tam vzadu, u kašny.",
+        "pronunciation": "tAHm-vzAHdooOO-kAHshnee",
+        "translation_en": "Back there, by the fountain."
+      },
+      "responses": [
+        {
+          "english": "Back there, by the fountain.",
+          "phonetic": "tAHm-vzAHdooOO-kAHshnee",
+          "french": "Tam vzadu, u kašny."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

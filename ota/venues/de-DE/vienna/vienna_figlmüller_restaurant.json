@@ -1,0 +1,100 @@
+{
+  "id": "vienna_figlmüller_restaurant",
+  "name_en": "Figlmüller Restaurant",
+  "name_local": "Figlmüller",
+  "icon": "fork.knife",
+  "lat": 48.2092948,
+  "lon": 16.3755253,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "vienna_figlmüller_restaurant_001",
+      "intent_en": "Can two people share one Figlmüller Originalschnitzel?",
+      "text_local": "Kann man sich ein Figlmüller Originalschnitzel teilen?",
+      "pronunciation": "kAHn-mahn-zihkh-eyen-fIHlmuel-OHrihEEnahlshnIHtsuhl-tEYEluhn",
+      "formality": "standard",
+      "cultural_note": "Das Originalschnitzel ist bekannt für seine Größe; Teilen ist üblich und wird nicht als ungewöhnlich empfunden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, es ist sehr groß.",
+        "pronunciation": "yAHehsihst-zEHr-rOHs",
+        "translation_en": "Yes, it is very large."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is very large.",
+          "phonetic": "yAHehsihst-zEHr-rOHs",
+          "french": "Ja, es ist sehr groß."
+        }
+      ]
+    },
+    {
+      "id": "vienna_figlmüller_restaurant_002",
+      "intent_en": "Where do I pay the bill?",
+      "text_local": "Wo bezahle ich die Rechnung?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-dee-rEHkhnuhng",
+      "formality": "standard",
+      "cultural_note": "In Wiener Restaurants wird die Rechnung meist am Tisch bezahlt; Bargeld oder Karte wird vom Kellner entgegengenommen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Kellner kommt zu Ihnen.",
+        "pronunciation": "dehr-kEHln-kAWmt-tsoo-EEnuhn",
+        "translation_en": "The waiter will come to you."
+      },
+      "responses": [
+        {
+          "english": "The waiter will come to you.",
+          "phonetic": "dehr-kEHln-kAWmt-tsoo-EEnuhn",
+          "french": "Der Kellner kommt zu Ihnen."
+        }
+      ]
+    },
+    {
+      "id": "vienna_figlmüller_restaurant_003",
+      "intent_en": "How do I eat the Schnitzel properly?",
+      "text_local": "Wie isst man das Schnitzel richtig?",
+      "pronunciation": "vee-IHst-mahn-dahs-shnIHtsuhl-rIHkhtihkh",
+      "formality": "standard",
+      "cultural_note": "In Wiener Gasthäusern gilt das Wiener Schnitzel als Fingerfood; formelle Bestecknutzung ist unüblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Mit Messer und Gabel.",
+        "pronunciation": "miht-mEHs-uhnt-gAHbuhl",
+        "translation_en": "With a knife and fork."
+      },
+      "responses": [
+        {
+          "english": "With a knife and fork.",
+          "phonetic": "miht-mEHs-uhnt-gAHbuhl",
+          "french": "Mit Messer und Gabel."
+        }
+      ]
+    },
+    {
+      "id": "vienna_figlmüller_restaurant_004",
+      "intent_en": "Is the Wiener Schnitzel too large for one?",
+      "text_local": "Ist das Wiener Schnitzel zu groß für eine Person?",
+      "pronunciation": "ihst-dahs-vEEn-shnIHtsuhl-tsoo-rOHs-fuer-EYEnuh-pehrzOHn",
+      "formality": "standard",
+      "cultural_note": "Portionen in traditionellen Wiener Restaurants sind oft üppig bemessen; das Personal kennt diese Eigenschaft.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, für eine Person.",
+        "pronunciation": "yAHfuer-EYEnuh-pehrzOHn",
+        "translation_en": "Yes, for one person."
+      },
+      "responses": [
+        {
+          "english": "Yes, for one person.",
+          "phonetic": "yAHfuer-EYEnuh-pehrzOHn",
+          "french": "Ja, für eine Person."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

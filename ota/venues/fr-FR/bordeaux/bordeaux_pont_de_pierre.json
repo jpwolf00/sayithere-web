@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_pont_de_pierre",
+  "name_en": "Pont de Pierre",
+  "name_local": "Pont de Pierre",
+  "icon": "building.2",
+  "lat": 44.8371,
+  "lon": -0.5594,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "bordeaux_pontpierre_001",
+      "intent_en": "Ask for the best spot to photograph the bridge",
+      "text_local": "Quel est le meilleur endroit pour photographier le pont ?",
+      "pronunciation": "kel eh luh may-YUR ahn-DRWAH poor foh-toh-grah-FYAY luh POHN",
+      "formality": "polite",
+      "cultural_note": "The Pont de Pierre, commissioned by Napoleon, was the first permanent bridge over the Garonne in Bordeaux.",
+      "responses": [
+        {
+          "english": "From the quay, across the way.",
+          "phonetic": "duh-PWEE luh KEH, ahn FAHSS",
+          "french": "Depuis le quai, en face."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_pontpierre_002",
+      "intent_en": "Ask if it is safe to walk across the bridge",
+      "text_local": "Est-il sécurisé de traverser le pont à pied ?",
+      "pronunciation": "eh-TEEL say-kyoo-ree-ZAY duh trah-vair-SAY luh POHN ah PYAY",
+      "formality": "polite",
+      "cultural_note": "The Pont de Pierre has a dedicated pedestrian walkway alongside car lanes; cyclists are also permitted.",
+      "responses": [
+        {
+          "english": "Yes, it's pedestrian.",
+          "phonetic": "wee, seh pyay-TOHN",
+          "french": "Oui, c'est piéton."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_pontpierre_003",
+      "intent_en": "Ask if the bridge is lit up at night",
+      "text_local": "Le pont est-il illuminé le soir ?",
+      "pronunciation": "luh POHN eh-TEEL ee-loo-mee-NAY luh SWAHR",
+      "formality": "polite",
+      "cultural_note": "The Pont de Pierre is beautifully illuminated at night, making for excellent evening photography from the quays.",
+      "responses": [
+        {
+          "english": "Yes, it's very beautiful at night.",
+          "phonetic": "wee, seh treh BOH luh SWAHR",
+          "french": "Oui, c'est très beau le soir."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_pontpierre_004",
+      "intent_en": "Ask a local if the view is better from this side or the other bank",
+      "text_local": "Selon vous, la vue est-elle plus belle de ce côté ou de l'autre rive ?",
+      "pronunciation": "suh-LOHN voo lah VYU eh-TEL plyoo BEL duh suh koh-TAY oo duh LOH-truh REEV",
+      "formality": "polite",
+      "cultural_note": "The right bank (Rive Droite) offers a panoramic view of the Bordeaux classical waterfront skyline.",
+      "responses": [
+        {
+          "english": "The other side, the view is prettier.",
+          "phonetic": "LOH-truh koh-TAY, lah VOO eh ploo BEL",
+          "french": "L'autre côté, la vue est plus belle."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_pontpierre_005",
+      "intent_en": "Ask what time sunset is today",
+      "text_local": "À quelle heure est le coucher du soleil aujourd'hui ?",
+      "pronunciation": "ah kel ur eh luh koo-SHAY doo soh-LAY oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Sunsets over the Garonne from the Pont de Pierre are particularly dramatic when the sky is reflected in the wide tidal river.",
+      "responses": [
+        {
+          "english": "Around 8 PM this evening.",
+          "phonetic": "vehr VEHN-tuh UHR suh SWAHR",
+          "french": "Vers vingt heures ce soir."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "bridge",
+      "word_local": "le pont",
+      "pronunciation": "luh POHN"
+    },
+    {
+      "word_en": "arch",
+      "word_local": "l'arche",
+      "pronunciation": "LARSH"
+    },
+    {
+      "word_en": "river bank",
+      "word_local": "la rive",
+      "pronunciation": "lah REEV"
+    },
+    {
+      "word_en": "sunset",
+      "word_local": "le coucher du soleil",
+      "pronunciation": "luh koo-SHAY doo soh-LAY"
+    }
+  ]
+}

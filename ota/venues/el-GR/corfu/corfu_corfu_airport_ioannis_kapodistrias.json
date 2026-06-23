@@ -1,0 +1,56 @@
+{
+  "id": "corfu_corfu_airport_ioannis_kapodistrias",
+  "name_en": "Corfu Airport Ioannis Kapodistrias",
+  "name_local": "Κρατικός Αερολιμένας Κέρκυρας «Ιωάννης Καποδίστριας»",
+  "icon": "tram",
+  "lat": 39.6019011,
+  "lon": 19.9140363,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "corfu_corfu_airport_ioannis_kapodistrias_001",
+      "intent_en": "Where is baggage wrap service?",
+      "text_local": "Πού είναι η συσκευασία αποσκευών;",
+      "pronunciation": "pOO-EEneh-ee-EEpeerehsEEah-sEEsehvahsEEahs-AHpohsehvOHn",
+      "formality": "standard",
+      "cultural_note": "Baggage wrapping services are often provided at a dedicated kiosk near check-in or security areas in Greek airports.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά, δίπλα στην είσοδο.",
+        "pronunciation": "AHreestehrAHthEEplah-steen-EEsohthOH",
+        "translation_en": "On the left, next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the left, next to the entrance.",
+          "phonetic": "AHreestehrAHthEEplah-steen-EEsohthOH",
+          "french": "Αριστερά, δίπλα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_corfu_airport_ioannis_kapodistrias_002",
+      "intent_en": "Is duty-free after passport control?",
+      "text_local": "Το duty-free είναι μετά τον έλεγχο διαβατηρίων;",
+      "pronunciation": "toh-ehndyOOteefrEEehl-EEneh-mehtAH-tohn-EHlehngkhOH-thEEahvAHteerEEohn",
+      "formality": "standard",
+      "cultural_note": "Duty-free shops are commonly located in the departure area after passport control in Greek airports.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μετά τον έλεγχο.",
+        "pronunciation": "nEHmehtAH-tohn-EHlehngkhOH",
+        "translation_en": "Yes, after passport control."
+      },
+      "responses": [
+        {
+          "english": "Yes, after passport control.",
+          "phonetic": "nEHmehtAH-tohn-EHlehngkhOH",
+          "french": "Ναι, μετά τον έλεγχο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

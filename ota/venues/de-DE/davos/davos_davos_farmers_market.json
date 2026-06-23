@@ -1,0 +1,100 @@
+{
+  "id": "davos_davos_farmers_market",
+  "name_en": "Davos Farmers' Market",
+  "name_local": "Wochenmarkt Davos",
+  "icon": "cart",
+  "lat": 46.8096654,
+  "lon": 9.841969,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "davos_davos_farmers_market_001",
+      "intent_en": "Which row has season vegetables today",
+      "text_local": "In welcher Reihe ist heute das Saisongemüse?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dahs-uhmUEzuh-dehr-zehzAW",
+      "formality": "standard",
+      "cultural_note": "Seasonal vegetables are often grouped in a dedicated row with clear signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In der dritten Reihe von links.",
+        "pronunciation": "ihn-dehr-drIHtuhn-rEYE-UH-fawn-lINGks",
+        "translation_en": "In the third row from the left."
+      },
+      "responses": [
+        {
+          "english": "In the third row from the left.",
+          "phonetic": "ihn-dehr-drIHtuhn-rEYE-UH-fawn-lINGks",
+          "french": "In der dritten Reihe von links."
+        }
+      ]
+    },
+    {
+      "id": "davos_davos_farmers_market_002",
+      "intent_en": "Do you slice bulk sausage to order",
+      "text_local": "Wird die Wurst am Stück geschnitten?",
+      "pronunciation": "vIHrt-dee-vOOrst-ahm-shtUEk-uhshnIHtuhn",
+      "formality": "standard",
+      "cultural_note": "Bulk sausage is typically sliced to order by the butcher.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, beim Metzger.",
+        "pronunciation": "yAHbeyem-mEHts",
+        "translation_en": "Yes, at the butcher."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the butcher.",
+          "phonetic": "yAHbeyem-mEHts",
+          "french": "Ja, beim Metzger."
+        }
+      ]
+    },
+    {
+      "id": "davos_davos_farmers_market_003",
+      "intent_en": "Where is the cheese sampling stand",
+      "text_local": "Wo gibt es Käse zum Probieren?",
+      "pronunciation": "vOH-EEpt-ehs-kEHzuh-tsuhm-prohbEEruhn",
+      "formality": "standard",
+      "cultural_note": "Cheese sampling is typically done at the cheesemonger's stall rather than a dedicated stand.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei den Käserständen.",
+        "pronunciation": "beye-dehn-kEHzshtEHnduhn",
+        "translation_en": "At the cheese stalls."
+      },
+      "responses": [
+        {
+          "english": "At the cheese stalls.",
+          "phonetic": "beye-dehn-kEHzshtEHnduhn",
+          "french": "Bei den Käserständen."
+        }
+      ]
+    },
+    {
+      "id": "davos_davos_farmers_market_004",
+      "intent_en": "Can I weigh tomatoes before buying",
+      "text_local": "Darf ich Tomaten selbst wiegen?",
+      "pronunciation": "dAHrf-ihkh-tohmAHtuhn-zEHlpst-vEEuhn",
+      "formality": "standard",
+      "cultural_note": "Self-weighing scales are common for produce in Swiss markets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an den Waagen.",
+        "pronunciation": "yAHahn-dehn-vAHuhn",
+        "translation_en": "Yes, at the scales."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the scales.",
+          "phonetic": "yAHahn-dehn-vAHuhn",
+          "french": "Ja, an den Waagen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

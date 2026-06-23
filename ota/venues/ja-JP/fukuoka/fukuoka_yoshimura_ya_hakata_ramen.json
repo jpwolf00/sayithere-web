@@ -1,0 +1,78 @@
+{
+  "id": "fukuoka_yoshimura_ya_hakata_ramen",
+  "name_en": "Yoshimura-ya Hakata Ramen",
+  "name_local": "吉村家",
+  "icon": "fork.knife",
+  "lat": 33.5417713,
+  "lon": 130.3334782,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "fukuoka_yoshimura_ya_hakata_ramen_001",
+      "intent_en": "How do I order kaedama?",
+      "text_local": "かえだまの ちゅうもんは どうすればいいですか？",
+      "pronunciation": "kEHdmNoh-tOOoomohH-dOHoosOOehbEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Kaedama is ordered mid-meal, not at the start or after finishing. A simple 'Kaedama onegaishimasu' is enough.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "たべおわるまえに、こえをかけてください。",
+        "pronunciation": "tBehOHwOOmEHneekOHehOHkkEHtehkOOdsEE",
+        "translation_en": "Call out before you finish eating."
+      },
+      "responses": [
+        {
+          "english": "Call out before you finish eating.",
+          "phonetic": "tBehOHwOOmEHneekOHehOHkkEHtehkOOdsEE",
+          "french": "たべおわるまえに、こえをかけてください。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_yoshimura_ya_hakata_ramen_002",
+      "intent_en": "Do I pay at the vending machine first?",
+      "text_local": "さきに けんばいきで しはらいますか？",
+      "pronunciation": "skEEnee-kEHbEEkEEdeh-EEhEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many ramen shops use a ticket vending machine. Purchase your ticket before sitting down, then hand it to the staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、さきにけんばいきでかってください。",
+        "pronunciation": "hEEsKeenEEkehBEEkeedEHkttEHkoodsEE",
+        "translation_en": "Yes, buy it at the vending machine first."
+      },
+      "responses": [
+        {
+          "english": "Yes, buy it at the vending machine first.",
+          "phonetic": "hEEsKeenEEkehBEEkeedEHkttEHkoodsEE",
+          "french": "はい、さきにけんばいきでかってください。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_yoshimura_ya_hakata_ramen_003",
+      "intent_en": "Is counter seating available?",
+      "text_local": "カウンターせきは ありますか？",
+      "pronunciation": "kOOntSehkEEh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many traditional ramen shops, especially in Fukuoka, only have counter seating for quick turnover and an intimate atmosphere.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、カウンターせきのみです。",
+        "pronunciation": "hEEkOOntSehkEEnohmeedEHsoo",
+        "translation_en": "Yes, only counter seats."
+      },
+      "responses": [
+        {
+          "english": "Yes, only counter seats.",
+          "phonetic": "hEEkOOntSehkEEnohmeedEHsoo",
+          "french": "はい、カウンターせきのみです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

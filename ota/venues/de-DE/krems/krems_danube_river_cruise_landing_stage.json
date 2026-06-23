@@ -1,0 +1,100 @@
+{
+  "id": "krems_danube_river_cruise_landing_stage",
+  "name_en": "Danube River Cruise Landing Stage",
+  "name_local": "Anlegestelle Krems",
+  "icon": "tram",
+  "lat": 48.4108382,
+  "lon": 15.6003717,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "krems_danube_river_cruise_landing_stage_001",
+      "intent_en": "Where can I get the Wachau Pass",
+      "text_local": "Wo gibt es den Wachau Pass?",
+      "pronunciation": "vOH-EEpt-ehs-dehn-vAHkhow-pAHs",
+      "formality": "standard",
+      "cultural_note": "Tourist offices are the standard point for local passes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Fremdenverkehrsamt.",
+        "pronunciation": "ihm-frEHmduhnfkEHrzahmt",
+        "translation_en": "At the tourist office."
+      },
+      "responses": [
+        {
+          "english": "At the tourist office.",
+          "phonetic": "ihm-frEHmduhnfkEHrzahmt",
+          "french": "Im Fremdenverkehrsamt."
+        }
+      ]
+    },
+    {
+      "id": "krems_danube_river_cruise_landing_stage_002",
+      "intent_en": "When does the next cruise depart",
+      "text_local": "Wann fährt die nächste Schifffahrt?",
+      "pronunciation": "vAHn-fEHrt-dee-nEHkhstuh-shIHfahrt",
+      "formality": "casual",
+      "cultural_note": "Departure times are typically posted on boards near the dock.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In einer halben Stunde.",
+        "pronunciation": "ihn-EYEn-hAHlbuhn-shtUHnduh",
+        "translation_en": "In half an hour."
+      },
+      "responses": [
+        {
+          "english": "In half an hour.",
+          "phonetic": "ihn-EYEn-hAHlbuhn-shtUHnduh",
+          "french": "In einer halben Stunde."
+        }
+      ]
+    },
+    {
+      "id": "krems_danube_river_cruise_landing_stage_003",
+      "intent_en": "Where is the DDSG ticket booth",
+      "text_local": "Wo ist der DDSG-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-dEHdEHEHsEHshAHlt",
+      "formality": "standard",
+      "cultural_note": "Ticket counters are typically behind signage for services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter nach den Plakaten.",
+        "pronunciation": "ahm-shAHlt-nahkh-dehn-plahkAHtuhn",
+        "translation_en": "At the counter behind the signs."
+      },
+      "responses": [
+        {
+          "english": "At the counter behind the signs.",
+          "phonetic": "ahm-shAHlt-nahkh-dehn-plahkAHtuhn",
+          "french": "Am Schalter nach den Plakaten."
+        }
+      ]
+    },
+    {
+      "id": "krems_danube_river_cruise_landing_stage_004",
+      "intent_en": "How do I negotiate cycle tariffs",
+      "text_local": "Wie verhandle ich Fahrradtarife?",
+      "pronunciation": "vee-fehrhAHntlEH-ihkh-fAHrahtAHreefuh",
+      "formality": "standard",
+      "cultural_note": "Tariff negotiation is handled at ticket counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie direkt am Schalter.",
+        "pronunciation": "frAHuhn-zee-deerEHkt-ahm-shAHlt",
+        "translation_en": "Ask at the counter directly."
+      },
+      "responses": [
+        {
+          "english": "Ask at the counter directly.",
+          "phonetic": "frAHuhn-zee-deerEHkt-ahm-shAHlt",
+          "french": "Fragen Sie direkt am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

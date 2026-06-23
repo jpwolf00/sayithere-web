@@ -1,0 +1,78 @@
+{
+  "id": "rothenburg_ob_der_tauber_medieval_crime_and_justice_museum",
+  "name_en": "Medieval Crime and Justice Museum",
+  "name_local": "Mittelalterliches Kriminalmuseum",
+  "icon": "building.columns",
+  "lat": 49.3756407,
+  "lon": 10.1791961,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "rothenburg_ob_der_tauber_medieval_crime_and_justice_museum_001",
+      "intent_en": "Where is the shame masks display",
+      "text_local": "Wo sind die Schandmasken ausgestellt?",
+      "pronunciation": "vOH-zihnt-dee-shAHndmahskuhn-OWsuhshtEHlt",
+      "formality": "standard",
+      "cultural_note": "Staff-directed navigation is standard in German museums with historic layouts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Oben im ersten Stock.",
+        "pronunciation": "OHbuhn-ihm-EHrstuhn-shtAWk",
+        "translation_en": "Upstairs on the first floor."
+      },
+      "responses": [
+        {
+          "english": "Upstairs on the first floor.",
+          "phonetic": "OHbuhn-ihm-EHrstuhn-shtAWk",
+          "french": "Oben im ersten Stock."
+        }
+      ]
+    },
+    {
+      "id": "rothenburg_ob_der_tauber_medieval_crime_and_justice_museum_002",
+      "intent_en": "Where is the Chamber of Horrors",
+      "text_local": "Wo finde ich die Greuwelkammer?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-rAWuhvuhlkAHm",
+      "formality": "standard",
+      "cultural_note": "Visitors expect immediate visibility of major exhibits; responders may point or gesture.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Greuwelkammer gleich hier.",
+        "pronunciation": "rAWuhvuhlkAHm-lEYEkh-hEEr",
+        "translation_en": "Chamber of Horrors right here."
+      },
+      "responses": [
+        {
+          "english": "Chamber of Horrors right here.",
+          "phonetic": "rAWuhvuhlkAHm-lEYEkh-hEEr",
+          "french": "Greuwelkammer gleich hier."
+        }
+      ]
+    },
+    {
+      "id": "rothenburg_ob_der_tauber_medieval_crime_and_justice_museum_003",
+      "intent_en": "Can I use photo in torture room",
+      "text_local": "Darf ich hier fotografieren?",
+      "pronunciation": "dAHrf-ihkh-hEEr-fOHtohrahfEEruhn",
+      "formality": "casual",
+      "cultural_note": "German museums often ban photography in sensitive exhibit areas; clear signage or staff will state this.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, hier nicht erlaubt.",
+        "pronunciation": "nEYEnhEEr-nIHkht-ehrlOWpt",
+        "translation_en": "No, not allowed here."
+      },
+      "responses": [
+        {
+          "english": "No, not allowed here.",
+          "phonetic": "nEYEnhEEr-nIHkht-ehrlOWpt",
+          "french": "Nein, hier nicht erlaubt."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "trier_moselle_river_embankment",
+  "name_en": "Moselle River Embankment",
+  "name_local": "Moseluferpromenade",
+  "icon": "map",
+  "lat": 49.7518803,
+  "lon": 6.6267306,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "trier_moselle_river_embankment_001",
+      "intent_en": "Where is the Mosel Radweg access?",
+      "text_local": "Wo ist der Zugang zum Mosel Radweg?",
+      "pronunciation": "vOH-EHt-ehs-tsuhm-mOHzuhl-rAHdvehk",
+      "formality": "standard",
+      "cultural_note": "In German-speaking regions, cycle paths like the Mosel Radweg are typically well-marked with consistent signage (e.g., 'Mosel Radweg' or 'Mosel-Radweg' with arrow symbols).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf der anderen Seite der Brücke.",
+        "pronunciation": "owf-dehr-AHnduhruhn-zEYEtuh-dehr-brUEkuh",
+        "translation_en": "On the other side of the bridge."
+      },
+      "responses": [
+        {
+          "english": "On the other side of the bridge.",
+          "phonetic": "owf-dehr-AHnduhruhn-zEYEtuh-dehr-brUEkuh",
+          "french": "Auf der anderen Seite der Brücke."
+        }
+      ]
+    },
+    {
+      "id": "trier_moselle_river_embankment_002",
+      "intent_en": "Where do I buy cruise tickets?",
+      "text_local": "Wo bekomme ich Tickets für eine Schifffahrt?",
+      "pronunciation": "vOH-EEpt-ehs-shIHfstihkuhts",
+      "formality": "casual",
+      "cultural_note": "In Germany, ticket offices for boat cruises are often located near the docks or embankments and may be operated by the Schifffahrtsassistent (boat crew) or staff at a designated counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt an der Anlegestelle.",
+        "pronunciation": "deerEHkt-ahn-dehr-AHnlEHgehshtEHluh",
+        "translation_en": "Right at the dock."
+      },
+      "responses": [
+        {
+          "english": "Right at the dock.",
+          "phonetic": "deerEHkt-ahn-dehr-AHnlEHgehshtEHluh",
+          "french": "Direkt an der Anlegestelle."
+        }
+      ]
+    },
+    {
+      "id": "trier_moselle_river_embankment_003",
+      "intent_en": "Is the Römerbrücke walkable from here?",
+      "text_local": "Kann man zur Römerbrücke zu Fuß gehen?",
+      "pronunciation": "kAHn-mahn-tsoor-rUHmbrUEkuh-tsoo-fOOs-EHuhn",
+      "formality": "standard",
+      "cultural_note": "The Römerbrücke (Roman Bridge) in Trier is a prominent historic landmark located in the city center. It is generally walkable from most embankment areas, with clear pedestrian routes along the main streets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, folgen Sie der Hauptstraße.",
+        "pronunciation": "yAHfAWluhn-zee-dehr-hOWptstrAHsuh",
+        "translation_en": "Yes, follow the main road."
+      },
+      "responses": [
+        {
+          "english": "Yes, follow the main road.",
+          "phonetic": "yAHfAWluhn-zee-dehr-hOWptstrAHsuh",
+          "french": "Ja, folgen Sie der Hauptstraße."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

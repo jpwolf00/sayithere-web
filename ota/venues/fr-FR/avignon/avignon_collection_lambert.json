@@ -1,0 +1,118 @@
+{
+  "id": "avignon_collection_lambert",
+  "name_en": "Collection Lambert",
+  "name_local": "Collection Lambert",
+  "icon": "building.columns",
+  "lat": 43.9461,
+  "lon": 4.7948,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "avignon_lambert_001",
+      "intent_en": "Ask about the ticket price",
+      "text_local": "Combien coûte l'entrée ?",
+      "pronunciation": "kom-BYAN koot lahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The Collection Lambert charges a standard entry fee with discounts for students and children.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Ten euros full price, seven euros reduced.",
+          "phonetic": "dee zuhr-OH plan tah-REEF, set uhr-OH ahn tah-REEF ray-DWEE",
+          "french": "Dix euros plein tarif, sept euros en tarif réduit."
+        }
+      ]
+    },
+    {
+      "id": "avignon_lambert_002",
+      "intent_en": "Ask where the temporary exhibitions are",
+      "text_local": "Où sont les expositions temporaires ?",
+      "pronunciation": "oo son layz eks-poh-zee-SYON tahn-poh-RAIR",
+      "formality": "polite",
+      "cultural_note": "The Collection Lambert regularly rotates temporary exhibitions alongside its permanent contemporary art collection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the ground floor, left after the entrance.",
+          "phonetic": "oh ray-duh-shoh-SAY, ah gohsh ah-PREH lahn-TRAY",
+          "french": "Au rez-de-chaussée, à gauche après l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "avignon_lambert_003",
+      "intent_en": "Ask if there is wheelchair access",
+      "text_local": "Le musée est-il accessible en fauteuil roulant ?",
+      "pronunciation": "luh myoo-ZAY eh-TEEL ak-seh-SEEBL ahn foh-TUY roo-LAHN",
+      "formality": "polite",
+      "cultural_note": "The museum is in a converted 17th-century mansion and has been adapted for wheelchair access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there is an elevator and access ramps.",
+          "phonetic": "wee, eel ee ah uhn ah-sahn-SUHR ay day rahmp dak-SEH",
+          "french": "Oui, il y a un ascenseur et des rampes d'accès."
+        }
+      ]
+    },
+    {
+      "id": "fr_lamb_av_x1",
+      "intent_en": "Ask if there is a guided tour today",
+      "text_local": "Y a-t-il une visite guidée aujourd'hui ?",
+      "pronunciation": "ee ah-TEEL oon vee-ZEET ghee-DAY oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The Collection Lambert is one of France's leading contemporary art museums, housed in two 18th-century mansions in Avignon's historic centre.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, at 2 pm.",
+          "phonetic": "wee, ah kah-TORZ UR.",
+          "french": "Oui, à quatorze heures."
+        }
+      ]
+    },
+    {
+      "id": "fr_lamb_av_x2",
+      "intent_en": "Ask what the current exhibition is",
+      "text_local": "Quelle est l'exposition en ce moment ?",
+      "pronunciation": "kel ay leks-poh-ZEE-syon ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's shown at the reception.",
+          "phonetic": "say tan-dee-KAY ah lah-KUY.",
+          "french": "C'est indiqué à l'accueil."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "collection",
+      "word_local": "la collection",
+      "pronunciation": "lah koh-lek-SYON"
+    },
+    {
+      "word_en": "contemporary",
+      "word_local": "contemporain",
+      "pronunciation": "kon-tan-puh-RAN"
+    },
+    {
+      "word_en": "art",
+      "word_local": "l'art",
+      "pronunciation": "LAR"
+    },
+    {
+      "word_en": "gallery",
+      "word_local": "la galerie",
+      "pronunciation": "lah gah-luh-REE"
+    }
+  ]
+}

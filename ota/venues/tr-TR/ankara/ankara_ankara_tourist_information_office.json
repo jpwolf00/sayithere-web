@@ -1,0 +1,100 @@
+{
+  "id": "ankara_ankara_tourist_information_office",
+  "name_en": "Ankara Tourist Information Office",
+  "name_local": "Ankara Turizm Danışma Bürosu",
+  "icon": "info.circle",
+  "lat": 39.9207759,
+  "lon": 32.8540497,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "ankara_ankara_tourist_information_office_001",
+      "intent_en": "Can I buy Museum Pass Turkey here?",
+      "text_local": "Museum Pass Turkey buradan alabilir miyim?",
+      "pronunciation": "mOOsehuhm-pAHss-tuhrkEHy-bOOrahdahn-ahahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Turkish staff typically give direct, short confirmations for service availability.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, Museum Pass satışı yapıyoruz.",
+        "pronunciation": "ehvEHtmOOsehuhm-pAHss-sahtooshOO-yahpOOyohruhz",
+        "translation_en": "Yes, we sell Museum Passes."
+      },
+      "responses": [
+        {
+          "english": "Yes, we sell Museum Passes.",
+          "phonetic": "ehvEHtmOOsehuhm-pAHss-sahtooshOO-yahpOOyohruhz",
+          "french": "Evet, Museum Pass satışı yapıyoruz."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_tourist_information_office_002",
+      "intent_en": "Can I buy Museum Pass Turkey here?",
+      "text_local": "Museum Pass Turkey’i buradan alabilir miyim?",
+      "pronunciation": "mOOsehuhm-pAHss-tuhrkehyIH-bOOrahdahn-ahahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Staff respond with a direct confirmation; no elaborate politeness formulas are expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, Museum Pass satışı yapıyoruz.",
+        "pronunciation": "ehvEHtmOOsehuhm-pAHss-sahtooshOO-yahpOOyohruhz",
+        "translation_en": "Yes, we sell Museum Passes."
+      },
+      "responses": [
+        {
+          "english": "Yes, we sell Museum Passes.",
+          "phonetic": "ehvEHtmOOsehuhm-pAHss-sahtooshOO-yahpOOyohruhz",
+          "french": "Evet, Museum Pass satışı yapıyoruz."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_tourist_information_office_003",
+      "intent_en": "Where is the Kızılay office?",
+      "text_local": "Kızılay ofisi nerede?",
+      "pronunciation": "koozooAHy-ohfeesIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "In Turkish offices, it's common to be directed to a staff member rather than given static directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Cadde üzerinde, aşağıda.",
+        "pronunciation": "dzhahdEH-uezehrihndEHahshahoodAH",
+        "translation_en": "On the avenue, down below."
+      },
+      "responses": [
+        {
+          "english": "On the avenue, down below.",
+          "phonetic": "dzhahdEH-uezehrihndEHahshahoodAH",
+          "french": "Cadde üzerinde, aşağıda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_tourist_information_office_004",
+      "intent_en": "How do I reload my bus card?",
+      "text_local": "Otobüs kartıma nasıl yükleme yapabilirim?",
+      "pronunciation": "ohtohbUHs-kahrtOOmah-nahsOO-yUHklehmeh-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Service desks in Turkish tourism offices often assist with practical local tasks like transport card reloads.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişeden yapabilirsiniz.",
+        "pronunciation": "eeshehdAHn-yahpahbeelIHrseenihz",
+        "translation_en": "You can do it at the counter."
+      },
+      "responses": [
+        {
+          "english": "You can do it at the counter.",
+          "phonetic": "eeshehdAHn-yahpahbeelIHrseenihz",
+          "french": "Gişeden yapabilirsiniz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

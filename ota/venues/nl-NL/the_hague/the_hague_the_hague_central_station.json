@@ -1,0 +1,232 @@
+{
+  "id": "the_hague_the_hague_central_station",
+  "name_en": "The Hague Central Station",
+  "name_local": "Den Haag Centraal",
+  "icon": "tram",
+  "lat": 52.0808443,
+  "lon": 4.3245487,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "the_hague_the_hague_central_station_001",
+      "intent_en": "Where is OV-chipkaart top-up machine",
+      "text_local": "Waar kan ik mijn OV-chipkaart opladen?",
+      "pronunciation": "vAHr-stAH-tuh-OHfEHtshIHpkahrtlAHduhuhtohmAHt",
+      "formality": "standard",
+      "cultural_note": "OV-chipkaart machines are often grouped together near ticket counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ga naar de automaat bij de ingang van het busstation, onderaan de trap.",
+        "pronunciation": "ghAH-nahr-duh-UHuhtohmAHt-behih-duh-IHnghAHng-vahn-huht-bStahshAWnAWnduhrAHn-duh-trAHp",
+        "translation_en": "Go to the machine at the entrance of the bus station, at the bottom of the stairs."
+      },
+      "responses": [
+        {
+          "english": "Go to the machine at the entrance of the bus station, at the bottom of the stairs.",
+          "phonetic": "ghAH-nahr-duh-UHuhtohmAHt-behih-duh-IHnghAHng-vahn-huht-bStahshAWnAWnduhrAHn-duh-trAHp",
+          "french": "Ga naar de automaat bij de ingang van het busstation, onderaan de trap."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_002",
+      "intent_en": "When is the next train to Rotterdam",
+      "text_local": "Wanneer gaat de volgende trein naar Rotterdam?",
+      "pronunciation": "vahnIHr-ghAH-tuh-vAWlghuhnduh-trEHihn-nahr-rAWtuhrdAHm",
+      "formality": "standard",
+      "cultural_note": "Dutch travelers expect platform numbers and departure times to be announced on screens and by conductors. Exact times vary by schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Over 5 minuten, perron 3.",
+        "pronunciation": "OHvuhr-vEHihf-mEEnuetuhnpehrrAWn-drEE",
+        "translation_en": "In 5 minutes, platform 3."
+      },
+      "responses": [
+        {
+          "english": "In 5 minutes, platform 3.",
+          "phonetic": "OHvuhr-vEHihf-mEEnuetuhnpehrrAWn-drEE",
+          "french": "Over 5 minuten, perron 3."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_003",
+      "intent_en": "Where is underground bus station entrance",
+      "text_local": "Waar is de ingang van het ondergrondse busstation?",
+      "pronunciation": "vAHr-ihs-duh-IHnghAHng-vahn-huht-AWnduhrghrAWndsuh-bStahshAWn",
+      "formality": "standard",
+      "cultural_note": "Underground bus station entrance is signposted separately.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden busstation.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-bStahshAWn",
+        "translation_en": "Follow the bus station signs."
+      },
+      "responses": [
+        {
+          "english": "Follow the bus station signs.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-bStahshAWn",
+          "french": "Volg de borden busstation."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_004",
+      "intent_en": "How do I validate HTM tram ticket",
+      "text_local": "Hoe valideer ik mijn HTM-tramticket?",
+      "pronunciation": "hOO-vAHleedIHr-ihk-mehihn-hAHtEHEHmtrAHmtihkEHt",
+      "formality": "standard",
+      "cultural_note": "HTM tram tickets must be validated before boarding.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de tramvalidator.",
+        "pronunciation": "behih-duh-trAHmvahleedAHtawr",
+        "translation_en": "At the tram validator."
+      },
+      "responses": [
+        {
+          "english": "At the tram validator.",
+          "phonetic": "behih-duh-trAHmvahleedAHtawr",
+          "french": "Bij de tramvalidator."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_005",
+      "intent_en": "Where is the underground bus station",
+      "text_local": "Waar is de ondergrondse bushalte?",
+      "pronunciation": "vAHr-ihs-duh-AWnduhrghrAWndsuh-bShahltuh",
+      "formality": "standard",
+      "cultural_note": "Dutch stations often use escalators to access underground bus stations. Signs are typically labeled 'Bushalte' or 'Bussen'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Neem de roltrap naar beneden.",
+        "pronunciation": "nEHm-duh-rAWltrahp-nahr-buhnEHduhn",
+        "translation_en": "Take the escalator down."
+      },
+      "responses": [
+        {
+          "english": "Take the escalator down.",
+          "phonetic": "nEHm-duh-rAWltrahp-nahr-buhnEHduhn",
+          "french": "Neem de roltrap naar beneden."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_006",
+      "intent_en": "How do I rent a locker",
+      "text_local": "Hoe huur ik een kluis?",
+      "pronunciation": "hOO-hUEr-ihk-uhn-klUHues",
+      "formality": "standard",
+      "cultural_note": "Locker rental kiosks in Dutch stations are often near exits or main walkways, accessible via payment machines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gebruik de automaat bij de uitgang.",
+        "pronunciation": "ghuhbrUHuek-duh-UHuhtohmAHt-behih-duh-UHuetghAHng",
+        "translation_en": "Use the machine near the exit."
+      },
+      "responses": [
+        {
+          "english": "Use the machine near the exit.",
+          "phonetic": "ghuhbrUHuek-duh-UHuhtohmAHt-behih-duh-UHuetghAHng",
+          "french": "Gebruik de automaat bij de uitgang."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_007",
+      "intent_en": "How do I top up my OV-chipkaart",
+      "text_local": "Hoe laad ik mijn OV-chipkaart op?",
+      "pronunciation": "hOO-lAHt-ihk-mehihn-OHfEHtshIHpkahrt-AWp",
+      "formality": "standard",
+      "cultural_note": "OV-chipkaart top-up machines are commonly located near the entry gates (OV-chipkaart poortjes) in Dutch stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ga naar de automaat bij de poortjes.",
+        "pronunciation": "ghAH-nahr-duh-UHuhtohmAHt-behih-duh-pAWrtuhs",
+        "translation_en": "Go to the machine by the gates."
+      },
+      "responses": [
+        {
+          "english": "Go to the machine by the gates.",
+          "phonetic": "ghAH-nahr-duh-UHuhtohmAHt-behih-duh-pAWrtuhs",
+          "french": "Ga naar de automaat bij de poortjes."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_008",
+      "intent_en": "When does next train to Rotterdam leave",
+      "text_local": "Wanneer vertrekt de volgende trein naar Rotterdam?",
+      "pronunciation": "vahnIHr-vuhrtrEHk-tuh-IHrstvawlghuhnduh-trEHihn-nahr-rAWtuhrdAHm",
+      "formality": "standard",
+      "cultural_note": "Departure times are typically shown on electronic display boards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De trein naar Rotterdam vertrekt over 5 minuten van spoor 8.",
+        "pronunciation": "duh-trEHihn-nahr-rAWtuhrdAHm-vuhrtrEHkt-OHvuhr-vEHihf-mEEnuetuhn-vahn-spOHr-AHkht",
+        "translation_en": "The train to Rotterdam departs in 5 minutes from platform 8."
+      },
+      "responses": [
+        {
+          "english": "The train to Rotterdam departs in 5 minutes from platform 8.",
+          "phonetic": "duh-trEHihn-nahr-rAWtuhrdAHm-vuhrtrEHkt-OHvuhr-vEHihf-mEEnuetuhn-vahn-spOHr-AHkht",
+          "french": "De trein naar Rotterdam vertrekt over 5 minuten van spoor 8."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_009",
+      "intent_en": "Is there passenger assistance desk for disabled",
+      "text_local": "Is er een assistentiebalie voor reizigers met een beperking?",
+      "pronunciation": "ihs-uhr-uhn-AHsihstEHnteebahlEE-vawr-rEHihzuhghuhrs-meht-uhn-buhpEHrking",
+      "formality": "standard",
+      "cultural_note": "Information desk can redirect to available services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de NS Informatiebalie in de centrale hal.",
+        "pronunciation": "yAHbehih-duh-EHnEHs-IHnfawrmAHtseebahlEE-ihn-duh-sehntrAHluh-hAHl",
+        "translation_en": "Yes, at the NS information desk in the central hall."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the NS information desk in the central hall.",
+          "phonetic": "yAHbehih-duh-EHnEHs-IHnfawrmAHtseebahlEE-ihn-duh-sehntrAHluh-hAHl",
+          "french": "Ja, bij de NS Informatiebalie in de centrale hal."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_central_station_010",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar haal ik een OV-fiets af?",
+      "pronunciation": "vAHr-hAHl-ihk-uhn-OHfEHfEEts-AHf",
+      "formality": "standard",
+      "cultural_note": "OV-fietsen staan bij de fietsenstalling nabij de perrons.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de fietsenstalling naast spoor 1.",
+        "pronunciation": "behih-duh-fEEtsuhnstAHling-nAHst-spOHr-EHn",
+        "translation_en": "At the bike storage next to track 1."
+      },
+      "responses": [
+        {
+          "english": "At the bike storage next to track 1.",
+          "phonetic": "behih-duh-fEEtsuhnstAHling-nAHst-spOHr-EHn",
+          "french": "Bij de fietsenstalling naast spoor 1."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

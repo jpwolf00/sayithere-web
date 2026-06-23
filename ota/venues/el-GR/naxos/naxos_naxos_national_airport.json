@@ -1,0 +1,122 @@
+{
+  "id": "naxos_naxos_national_airport",
+  "name_en": "Naxos National Airport",
+  "name_local": "Αεροδρόμιο Νάξου",
+  "icon": "tram",
+  "lat": 37.0810792,
+  "lon": 25.3683504,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "naxos_naxos_national_airport_001",
+      "intent_en": "Is the flight on time?",
+      "text_local": "Είναι στην ώρα η πτήση;",
+      "pronunciation": "ee-ptEEsee-EEneh-steen-OHrah",
+      "formality": "standard",
+      "cultural_note": "Standard polite professional response for uncertain info.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι στην ώρα.",
+        "pronunciation": "nEHEEneh-steen-OHrah",
+        "translation_en": "Yes, it is on time."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is on time.",
+          "phonetic": "nEHEEneh-steen-OHrah",
+          "french": "Ναι, είναι στην ώρα."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_national_airport_002",
+      "intent_en": "How do I declare checked baggage?",
+      "text_local": "Πώς δηλώνω τις αποσκευές μου;",
+      "pronunciation": "pOHz-theelOHnoh-ehnsihrIHlihkbEH-sihrIHlihkAH-sihrIHlihkgEH-sihrIHlihkAH-sihrIHlihkzhEH-sihrIHlihkIHehl-OHmeekrohntOHnohs",
+      "formality": "standard",
+      "cultural_note": "Greek uses ' багажиό ' for checked baggage in airports.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο check-in της αεροπορικής σας.",
+        "pronunciation": "stohm-bAHnggoh-ehntshEHkihnehl-tees-AHehrOHpohreeEEs-sahs",
+        "translation_en": "At the check-in counter."
+      },
+      "responses": [
+        {
+          "english": "At the check-in counter.",
+          "phonetic": "stohm-bAHnggoh-ehntshEHkihnehl-tees-AHehrOHpohreeEEs-sahs",
+          "french": "Στον πάγκο check-in της αεροπορικής σας."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_national_airport_003",
+      "intent_en": "Where is the taxi rank?",
+      "text_local": "Πού είναι η στάση ταξί;",
+      "pronunciation": "pOO-EEneh-ee-stAHsee-tahksEE",
+      "formality": "standard",
+      "cultural_note": "Local term 'στάση' acceptable for rank.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Έξω από το κτίριο του τερματικού.",
+        "pronunciation": "EHksoh-ahpOH-toh-ktEEreeOH-too-tEHrmahteekOO",
+        "translation_en": "Outside the terminal building."
+      },
+      "responses": [
+        {
+          "english": "Outside the terminal building.",
+          "phonetic": "EHksoh-ahpOH-toh-ktEEreeOH-too-tEHrmahteekOO",
+          "french": "Έξω από το κτίριο του τερματικού."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_national_airport_004",
+      "intent_en": "Can I buy tickets here?",
+      "text_local": "Μπορώ να αγοράσω εισιτήρια εδώ;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-EEseetEEreeAH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Standard professional phrasing for service desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο γραφείο πωλήσεων.",
+        "pronunciation": "nEHstoh-ghrahfEEoh-pohlEEsehOHn",
+        "translation_en": "Hello, yes."
+      },
+      "responses": [
+        {
+          "english": "Hello, yes.",
+          "phonetic": "nEHstoh-ghrahfEEoh-pohlEEsehOHn",
+          "french": "Ναι, στο γραφείο πωλήσεων."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_national_airport_005",
+      "intent_en": "Where is the check-in counter?",
+      "text_local": "Πού είναι το ταμείο εγγραφής;",
+      "pronunciation": "pOO-EEneh-ee-ehnkOWntuh-tshEHkIHnehl",
+      "formality": "standard",
+      "cultural_note": "Shortened local phrasing acceptable in informal Greek airport context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά την είσοδο, στο βάθος.",
+        "pronunciation": "AHreestehrAH-mehtAH-teen-EEsohthOHstoh-vAHthohs",
+        "translation_en": "Follow the signs to the check-in counter."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the check-in counter.",
+          "phonetic": "AHreestehrAH-mehtAH-teen-EEsohthOHstoh-vAHthohs",
+          "french": "Αριστερά μετά την είσοδο, στο βάθος."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

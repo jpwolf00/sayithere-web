@@ -1,0 +1,122 @@
+{
+  "id": "olomouc_palacký_university_botanical_garden",
+  "name_en": "Palacký University Botanical Garden",
+  "name_local": "Botanická zahrada Univerzity Palackého",
+  "icon": "leaf",
+  "lat": 49.5860836,
+  "lon": 17.2497573,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "olomouc_palacký_university_botanical_garden_001",
+      "intent_en": "Where is the tropical greenhouse?",
+      "text_local": "Kde je tropický skleník?",
+      "pronunciation": "kdEH-yeh-trOHpeetskee-sklEHnyeek",
+      "formality": "standard",
+      "cultural_note": "Czech directions often use landmarks like 'druhý skleník' (second greenhouse) instead of precise distances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a pak druhý skleník vlevo.",
+        "pronunciation": "rOHvnyeh-ah-pAHk-drOOhee-sklEHnyeek-vlEHvoh",
+        "translation_en": "Straight ahead and then the second greenhouse on the left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead and then the second greenhouse on the left.",
+          "phonetic": "rOHvnyeh-ah-pAHk-drOOhee-sklEHnyeek-vlEHvoh",
+          "french": "Rovně a pak druhý skleník vlevo."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_palacký_university_botanical_garden_002",
+      "intent_en": "Is entry cash-only today?",
+      "text_local": "Platí se dnes jen v hotovosti?",
+      "pronunciation": "plAHee-seh-dnEHs-yEHn-v-hOHtohvOHsee",
+      "formality": "standard",
+      "cultural_note": "Smaller attractions in Czechia may have card terminals but disable them on weekends due to fees or staffing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, o víkendu bereme jen hotovost.",
+        "pronunciation": "AHnohOHveekEHndoo-bEHrehmeh-yEHn-hOHtohvohst",
+        "translation_en": "Yes, on weekends we only take cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, on weekends we only take cash.",
+          "phonetic": "AHnohOHveekEHndoo-bEHrehmeh-yEHn-hOHtohvohst",
+          "french": "Ano, o víkendu bereme jen hotovost."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_palacký_university_botanical_garden_003",
+      "intent_en": "Where is the plant shop?",
+      "text_local": "Kde je prodejna rostlin?",
+      "pronunciation": "kdEH-yeh-prOHdaynah-rOHstleen",
+      "formality": "standard",
+      "cultural_note": "Plant shops in Czech botanical gardens are commonly placed near the entrance/exit for convenience.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vedle hlavní brány, u východu.",
+        "pronunciation": "vEHdleh-hlAHvnyee-brAHneeOO-vEEkhohdoo",
+        "translation_en": "Next to the main gate, by the exit."
+      },
+      "responses": [
+        {
+          "english": "Next to the main gate, by the exit.",
+          "phonetic": "vEHdleh-hlAHvnyee-brAHneeOO-vEEkhohdoo",
+          "french": "Vedle hlavní brány, u východu."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_palacký_university_botanical_garden_004",
+      "intent_en": "Can I buy annual pass here?",
+      "text_local": "Mohu si tady koupit roční vstupenku?",
+      "pronunciation": "mOHhoo-see-tAHdee-kOHpeet-rOHtshnyee-fstOOpehngkoo",
+      "formality": "standard",
+      "cultural_note": "Staff typically handle annual pass sales at the main entrance pokladna (ticket office).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, vystavím vám ji u pokladny.",
+        "pronunciation": "AHnohvEEstahveem-vAHm-yEE-OO-pOHklahdnee",
+        "translation_en": "Yes, I can issue it for you at the ticket office."
+      },
+      "responses": [
+        {
+          "english": "Yes, I can issue it for you at the ticket office.",
+          "phonetic": "AHnohvEEstahveem-vAHm-yEE-OO-pOHklahdnee",
+          "french": "Ano, vystavím vám ji u pokladny."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_palacký_university_botanical_garden_005",
+      "intent_en": "How do I get to Japanese garden?",
+      "text_local": "Jak se dostanu do japonské zahrady?",
+      "pronunciation": "yAHk-seh-dOHstahnoo-dOHyahpOHnskeh-zAHhrahdee",
+      "formality": "standard",
+      "cultural_note": "Using the informal name 'alpín' for the Alpine garden is common in casual spoken Czech.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za alpínem doprava, u jezírka.",
+        "pronunciation": "zAHahlpEEnehm-dOHprahvahOO-yEHzeerkah",
+        "translation_en": "Past the Alpine garden on the right, by the pond."
+      },
+      "responses": [
+        {
+          "english": "Past the Alpine garden on the right, by the pond.",
+          "phonetic": "zAHahlpEEnehm-dOHprahvahOO-yEHzeerkah",
+          "french": "Za alpínem doprava, u jezírka."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

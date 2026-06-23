@@ -1,0 +1,122 @@
+{
+  "id": "heraklion_daedalou_street_shopping_precinct",
+  "name_en": "Daedalou Street shopping precinct",
+  "name_local": "Οδός Δαιδάλου",
+  "icon": "bag",
+  "lat": 35.33908,
+  "lon": 25.1332843,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "heraklion_daedalou_street_shopping_precinct_001",
+      "intent_en": "Ask how to reach the crossing from here",
+      "text_local": "Πώς φτάνω στη διασταύρωση της 25ης Αυγούστου;",
+      "pronunciation": "pOHs-ftAHnoh-stee-thEEahstAHvrohsEE-tees-EEkohseepEHnteh-EEs-ahvghOOstoo",
+      "formality": "standard",
+      "cultural_note": "Η διασταύρωση βρίσκεται στο σημείο όπου τελειώνει η πεζοδρομημένη περιοχή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε τον δρόμο μέχρι το τέλος.",
+        "pronunciation": "AHkohloothEEsteh-tohn-thrOHmoh-mEHkhree-toh-tEHlohs",
+        "translation_en": "Follow the pedestrian strip to its end."
+      },
+      "responses": [
+        {
+          "english": "Follow the pedestrian strip to its end.",
+          "phonetic": "AHkohloothEEsteh-tohn-thrOHmoh-mEHkhree-toh-tEHlohs",
+          "french": "Ακολουθήστε τον δρόμο μέχρι το τέλος."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_daedalou_street_shopping_precinct_002",
+      "intent_en": "Ask which end has the leather sandal stalls",
+      "text_local": "Πού βρίσκονται τα πάγκοι με τα χειροποίητα σανδάλια;",
+      "pronunciation": "pOO-vrEEskohdEH-tah-pAHnggee-meh-tah-khEErohpEEeetAH-sahnthAHlyah",
+      "formality": "standard",
+      "cultural_note": "Οι πάγκοι βρίσκονται στις δύο άκρες του δρόμου, χωρίς ακριβή αρίθμηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στα δύο άκρα του δρόμου.",
+        "pronunciation": "stah-thEEoh-AHkrah-too-thrOHmoo",
+        "translation_en": "At the two ends of the street."
+      },
+      "responses": [
+        {
+          "english": "At the two ends of the street.",
+          "phonetic": "stah-thEEoh-AHkrah-too-thrOHmoo",
+          "french": "Στα δύο άκρα του δρόμου."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_daedalou_street_shopping_precinct_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε έκπτωση για πολλές εικόνες;",
+      "pronunciation": "kAHnoon-EHkptohsEE-yAH-pohlEHs-eekOHnehs",
+      "formality": "standard",
+      "cultural_note": "Οι τιμές είναι διαπραγματεύσιμες, αλλά δεν υπάρχουν σταθερές εκπτώσεις ανακοινωμένες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, για πολλά κομμάτια μπορούμε να δούμε καλύτερη τιμή.",
+        "pronunciation": "nEHyAH-pohlAH-kohmAHteeAH-bohrOOmeh-nah-thOOmeh-kahlEEtehrEE-teemEE",
+        "translation_en": "Yes, for many pieces we can look at a better price."
+      },
+      "responses": [
+        {
+          "english": "Yes, for many pieces we can look at a better price.",
+          "phonetic": "nEHyAH-pohlAH-kohmAHteeAH-bohrOOmeh-nah-thOOmeh-kahlEEtehrEE-teemEE",
+          "french": "Ναι, για πολλά κομμάτια μπορούμε να δούμε καλύτερη τιμή."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_daedalou_street_shopping_precinct_004",
+      "intent_en": "Ask if souvlaki kiosks take euros only",
+      "text_local": "Δέχονται μόνο μετρητά η καντίνα με σουβλάκι;",
+      "pronunciation": "thEHkhohdEH-mOHnoh-mEHtreetAH-ee-kahdEEnah-meh-soovlAHee",
+      "formality": "standard",
+      "cultural_note": "Οι καντίνα λειτουργούν αποκλειστικά με μετρητά, χωρίς άλλες επιλογές πληρωμής.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_daedalou_street_shopping_precinct_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μέχρι πού φτάνουν τα τραπέζια του καφέ;",
+      "pronunciation": "mEHkhree-pOO-ftAHnoon-dah-trahpEHzyah-too-kahfEH",
+      "formality": "standard",
+      "cultural_note": "Τα τραπέζια εκτείνονται προς τη γειτονιά του ναού χωρίς συγκεκριμένο σημείο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Τα τραπέζια είναι έξω στο πεζοδρόμιο, μέχρι τη γωνία.",
+        "pronunciation": "tah-trahpEHzyah-EEneh-EHksoh-stoh-pEHzohthrOHmeeOHmEHkhree-tee-ghohnEEah",
+        "translation_en": "The tables are outside on the sidewalk, up to the corner."
+      },
+      "responses": [
+        {
+          "english": "The tables are outside on the sidewalk, up to the corner.",
+          "phonetic": "tah-trahpEHzyah-EEneh-EHksoh-stoh-pEHzohthrOHmeeOHmEHkhree-tee-ghohnEEah",
+          "french": "Τα τραπέζια είναι έξω στο πεζοδρόμιο, μέχρι τη γωνία."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

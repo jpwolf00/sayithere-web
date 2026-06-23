@@ -1,0 +1,118 @@
+{
+  "id": "antibes_fort_carree",
+  "name_en": "Fort Carré",
+  "name_local": "Fort Carré",
+  "icon": "building.2",
+  "lat": 43.63,
+  "lon": 7.098,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "antibes_fort_001",
+      "intent_en": "Ask if guided tours are available",
+      "text_local": "Y a-t-il des visites guidées du fort ?",
+      "pronunciation": "ee ah-TEEL day vee-ZEET gee-DAY doo FOR",
+      "formality": "polite",
+      "cultural_note": "Fort Carré offers guided tours during summer months. Check times at the entrance or the tourist office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, in summer. Ask at the reception.",
+          "phonetic": "wee, ahn ay-TAY. rahn-say-nyay-VOO ah lah-KUY",
+          "french": "Oui, en été. Renseignez-vous à l'accueil."
+        }
+      ]
+    },
+    {
+      "id": "antibes_fort_002",
+      "intent_en": "Ask if there is an entry fee to visit the fort",
+      "text_local": "Y a-t-il un droit d'entrée pour visiter le fort ?",
+      "pronunciation": "ee ah-TEEL un drwah dahn-TRAY poor vee-zee-TAY luh FOR",
+      "formality": "polite",
+      "cultural_note": "The fort is managed by the municipality. Entry is usually free or very inexpensive, but hours are limited outside summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's free. Hours vary by season.",
+          "phonetic": "say grah-TWEE. layz oh-REHR vah-REE suh-LON lah say-ZON",
+          "french": "C'est gratuit. Les horaires varient selon la saison."
+        }
+      ]
+    },
+    {
+      "id": "antibes_fort_003",
+      "intent_en": "Ask for the best viewpoint over Antibes from the fort",
+      "text_local": "Quel est le meilleur point de vue sur Antibes depuis le fort ?",
+      "pronunciation": "kel eh luh may-YOR pwan duh VYOO soor an-TEEB duh-PWEE luh FOR",
+      "formality": "polite",
+      "cultural_note": "Fort Carré offers panoramic views of the Riviera: the old town, the port, Cap d'Antibes, and on clear days, the snow-capped Alps.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go up to the ramparts, the view is magnificent.",
+          "phonetic": "mon-TAY ahn oh day rahn-PAR, lah vyoo eh mah-nyee-FEEK",
+          "french": "Montez en haut des remparts, la vue est magnifique."
+        }
+      ]
+    },
+    {
+      "id": "antibes_fort_004",
+      "intent_en": "Ask if the fort is open on Sundays",
+      "text_local": "Le fort est-il ouvert le dimanche ?",
+      "pronunciation": "luh FOR eh-TEEL oo-VAIR luh dee-MANSH",
+      "formality": "polite",
+      "cultural_note": "French municipal sites often have reduced hours on Sundays and Mondays. Check locally before making a special trip.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, but hours are reduced. Check at the entrance.",
+          "phonetic": "wee, may layz oh-REHR son ray-DWEE. vay-ree-fee-AY ah lahn-TRAY",
+          "french": "Oui, mais les horaires sont réduits. Vérifiez à l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "antibes_fort_005",
+      "intent_en": "Ask how long it takes to walk from the old town to the fort",
+      "text_local": "Combien de temps faut-il pour marcher du vieil Antibes au fort ?",
+      "pronunciation": "kom-BYAN duh tahn fo-TEEL poor mar-SHAY doo vyee-lan-TEEB oh FOR",
+      "formality": "polite",
+      "cultural_note": "The walk from the old town to Fort Carré takes about 15 minutes uphill. Wear comfortable shoes, especially in summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About fifteen minutes on foot.",
+          "phonetic": "ahn-vee-RON kanz mee-NOOT ah pyay",
+          "french": "Environ quinze minutes à pied."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fort",
+      "word_local": "le fort",
+      "pronunciation": "leh FOR"
+    },
+    {
+      "word_en": "rampart",
+      "word_local": "les remparts",
+      "pronunciation": "lay rahn-PAR"
+    },
+    {
+      "word_en": "viewpoint",
+      "word_local": "le point de vue",
+      "pronunciation": "leh pwan duh VYOO"
+    },
+    {
+      "word_en": "citadel",
+      "word_local": "la citadelle",
+      "pronunciation": "lah see-tah-DEL"
+    }
+  ]
+}

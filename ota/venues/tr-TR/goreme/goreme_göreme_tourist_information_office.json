@@ -1,0 +1,188 @@
+{
+  "id": "goreme_göreme_tourist_information_office",
+  "name_en": "Göreme Tourist Information Office",
+  "name_local": "Göreme Turizm Danışma Bürosu",
+  "icon": "info.circle",
+  "lat": 38.642089,
+  "lon": 34.8296234,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "goreme_göreme_tourist_information_office_001",
+      "intent_en": "Where do I get hiking maps?",
+      "text_local": "Yürüyüş rotaları hakkında bilgi alabilir miyim?",
+      "pronunciation": "yuerueyUHsh-hahreetahahroonOO-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Turkish information offices often keep free materials behind the counter; asking staff directly is standard.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Danışmada bir broşür var.",
+        "pronunciation": "dahnOOshmahdah-bihr-brohshUHr-vAHr",
+        "translation_en": "There is a brochure at the information desk."
+      },
+      "responses": [
+        {
+          "english": "There is a brochure at the information desk.",
+          "phonetic": "dahnOOshmahdah-bihr-brohshUHr-vAHr",
+          "french": "Danışmada bir broşür var."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_tourist_information_office_002",
+      "intent_en": "Is otogar timetable current?",
+      "text_local": "Otogar tarifesi güncel mi?",
+      "pronunciation": "ohtohgAHr-tahreefehsIH-uhndzhAHl-mih",
+      "formality": "standard",
+      "cultural_note": "Bus timetables in Turkish tourism offices are generally kept up to date.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, panodaki tarifeye bakın.",
+        "pronunciation": "ehvEHtpahnohdahkIH-tahreefehyEH-bahkOOn",
+        "translation_en": "Yes, check the timetable on the board."
+      },
+      "responses": [
+        {
+          "english": "Yes, check the timetable on the board.",
+          "phonetic": "ehvEHtpahnohdahkIH-tahreefehyEH-bahkOOn",
+          "french": "Evet, panodaki tarifeye bakın."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_tourist_information_office_003",
+      "intent_en": "Where is Museum Pass counter?",
+      "text_local": "Müzekart satış gişesi nerede?",
+      "pronunciation": "muezehkAHrt-sahtOOsh-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish tourism offices often have multiple service points; asking staff is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin sağında, danışmanın yanında.",
+        "pronunciation": "eereeshIHn-sahoondAHdahnOOshmahnoon-yahnoondAH",
+        "translation_en": "To the right of the entrance, next to the information desk."
+      },
+      "responses": [
+        {
+          "english": "To the right of the entrance, next to the information desk.",
+          "phonetic": "eereeshIHn-sahoondAHdahnOOshmahnoon-yahnoondAH",
+          "french": "Girişin sağında, danışmanın yanında."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_tourist_information_office_004",
+      "intent_en": "Can I book shuttle to airport?",
+      "text_local": "Havaalanına servis rezervasyonu yapabilir miyim?",
+      "pronunciation": "hahvahahahnoonAH-sehrvIHs-rehzehrvahsyohnUH-yahpahbeelIHr-mEEyihm",
+      "formality": "polite",
+      "cultural_note": "Direct yes/no answers are common in Turkish service interactions when a service is available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tur rezervasyon elemanına danışın.",
+        "pronunciation": "ehvEHttUHr-rehzehrvahsyAWn-ehlehmahnoonAH-dahnooshOOn",
+        "translation_en": "Yes, ask the tour reservation staff."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the tour reservation staff.",
+          "phonetic": "ehvEHttUHr-rehzehrvahsyAWn-ehlehmahnoonAH-dahnooshOOn",
+          "french": "Evet, tur rezervasyon elemanına danışın."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_tourist_information_office_005",
+      "intent_en": "Is otogar timetable current?",
+      "text_local": "Otogar saatleri güncel mi?",
+      "pronunciation": "ohtohgAHr-sahahtlehrIH-uhndzhAHl-mih",
+      "formality": "standard",
+      "cultural_note": "Bus timetable boards in Turkish tourism offices are generally kept up to date by staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, panodaki saatler günceldir.",
+        "pronunciation": "ehvEHtpahnohdahkIH-sahahtlEHr-uhndzhAHldihr",
+        "translation_en": "Yes, the times on the board are current."
+      },
+      "responses": [
+        {
+          "english": "Yes, the times on the board are current.",
+          "phonetic": "ehvEHtpahnohdahkIH-sahahtlEHr-uhndzhAHldihr",
+          "french": "Evet, panodaki saatler günceldir."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_tourist_information_office_006",
+      "intent_en": "Can I book shuttle to airport?",
+      "text_local": "Havalimanına servis rezervasyonu yapabilir miyim?",
+      "pronunciation": "hahvahleemahnoonAH-sehrvIHs-rehzehrvahsyohnUH-yahpahbeelIHr-mEEyihm",
+      "formality": "polite",
+      "cultural_note": "Booking shuttles through tourism offices is common in Cappadocia; staff handle the ledger.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tur rezervasyon elemanına danışın.",
+        "pronunciation": "ehvEHttUHr-rehzehrvahsyAWn-ehlehmahnoonAH-dahnooshOOn",
+        "translation_en": "Yes, ask the tour reservation staff."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the tour reservation staff.",
+          "phonetic": "ehvEHttUHr-rehzehrvahsyAWn-ehlehmahnoonAH-dahnooshOOn",
+          "french": "Evet, tur rezervasyon elemanına danışın."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_tourist_information_office_007",
+      "intent_en": "Where do I get hiking maps?",
+      "text_local": "Ücretsiz tur broşürlerini nereden alabilirim?",
+      "pronunciation": "uhdzhrEHtsihz-yuerueyUHsh-hahreetahahroonOO-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Turkish information offices expect you to ask staff directly for free materials.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmanın yanındaki raftan alabilirsiniz.",
+        "pronunciation": "dahnOOshmahnoon-yahnoondahkIH-rahftAHn-ahahbeelIHrseenihz",
+        "translation_en": "You can get them from the shelf next to the information desk."
+      },
+      "responses": [
+        {
+          "english": "You can get them from the shelf next to the information desk.",
+          "phonetic": "dahnOOshmahnoon-yahnoondahkIH-rahftAHn-ahahbeelIHrseenihz",
+          "french": "Danışmanın yanındaki raftan alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_tourist_information_office_008",
+      "intent_en": "Where is Museum Pass counter?",
+      "text_local": "Müzekart gişesi nerede?",
+      "pronunciation": "muezehkAHrt-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Museum Pass sales points can be a specific counter or handled at the main desk; asking first is polite.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin sağında.",
+        "pronunciation": "eereeshIHn-sahoondAH",
+        "translation_en": "On the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the right of the entrance.",
+          "phonetic": "eereeshIHn-sahoondAH",
+          "french": "Girişin sağında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

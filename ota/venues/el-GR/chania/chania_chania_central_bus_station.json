@@ -1,0 +1,78 @@
+{
+  "id": "chania_chania_central_bus_station",
+  "name_en": "Chania Central Bus Station",
+  "name_local": "ΚΤΕΛ Χανίων",
+  "icon": "tram",
+  "lat": 35.5118362,
+  "lon": 24.0168896,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "chania_chania_central_bus_station_001",
+      "intent_en": "Where is the ticket counter for Rethymno?",
+      "text_local": "Πού είναι το ταμείο για Ρέθυμνο;",
+      "pronunciation": "pOO-EEneh-oh-mEHtreetEEz-yAH-rEHtheemnOH",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναμένεται να ακολουθούν τις επίσημες πινακίδες για τους χώρους των υπηρεσιών μεταφορών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Απέναντι, στο δεύτερο κτήριο.",
+        "pronunciation": "ahpEHnahdEEstoh-thEHftehrOH-ktEEreeOH",
+        "translation_en": "Opposite, in the second building."
+      },
+      "responses": [
+        {
+          "english": "Opposite, in the second building.",
+          "phonetic": "ahpEHnahdEEstoh-thEHftehrOH-ktEEreeOH",
+          "french": "Απέναντι, στο δεύτερο κτήριο."
+        }
+      ]
+    },
+    {
+      "id": "chania_chania_central_bus_station_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει χρέωση για μεγάλες αποσκευές;",
+      "pronunciation": "eepAHrkhee-khrEHohsEE-yAH-mehghAHlehs-AHpohsehvEHs",
+      "formality": "standard",
+      "cultural_note": "Σε υπηρεσίες μεταφορών, οι μεγάλες αποσκευές συχνά υπόκεινται σε επιπλέον χρέωση. Οι ταξιδιώτες πρέπει να ενημερώνονται από τον αρμόδιο υπάλληλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει επιπλέον χρέωση.",
+        "pronunciation": "nEHeepAHrkhee-EHpeeplEHohn-khrEHohsEE",
+        "translation_en": "Yes, there is an extra charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is an extra charge.",
+          "phonetic": "nEHeepAHrkhee-EHpeeplEHohn-khrEHohsEE",
+          "french": "Ναι, υπάρχει επιπλέον χρέωση."
+        }
+      ]
+    },
+    {
+      "id": "chania_chania_central_bus_station_003",
+      "intent_en": "Where do I queue for the Heraklion express?",
+      "text_local": "Πού είναι η ουρά για το Ηράκλειο;",
+      "pronunciation": "pOO-yEEnehtEH-ee-oorAH-yAH-tohn-eerAHklyoh",
+      "formality": "standard",
+      "cultural_note": "Οι ουρές για τις υπεραστικές γραμμές όπως ο Ηράκλειο οργανώνονται σύμφωνα με τις επίσημες πινακίδες και οδηγίες του σταθμού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην αποβάθρα δύο.",
+        "pronunciation": "steen-AHpohvAHthrah-thEEoh",
+        "translation_en": "At platform two."
+      },
+      "responses": [
+        {
+          "english": "At platform two.",
+          "phonetic": "steen-AHpohvAHthrah-thEEoh",
+          "french": "Στην αποβάθρα δύο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

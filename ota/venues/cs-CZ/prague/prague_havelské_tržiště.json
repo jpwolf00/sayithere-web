@@ -1,0 +1,100 @@
+{
+  "id": "prague_havelské_tržiště",
+  "name_en": "Havelské tržiště",
+  "name_local": "Havelské tržiště",
+  "icon": "cart",
+  "lat": 50.0847723,
+  "lon": 14.4209935,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "prague_havelské_tržiště_001",
+      "intent_en": "Where is the street food section",
+      "text_local": "Kde je tady pouliční občerstvení?",
+      "pronunciation": "kdEH-yeh-tAHdee-pOHleetshnyee-OHptshehrstvEHnyee",
+      "formality": "standard",
+      "cultural_note": "The market is linear, so using other stalls as landmarks is a natural way to give directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Uprostřed tržnice, hned za stánky s ovocem.",
+        "pronunciation": "OOprohstreht-tRzhnyeetsehhnEHd-zAHstahngkee-s-OHvohtsehm",
+        "translation_en": "In the middle of the market, right behind the fruit stalls."
+      },
+      "responses": [
+        {
+          "english": "In the middle of the market, right behind the fruit stalls.",
+          "phonetic": "OOprohstreht-tRzhnyeetsehhnEHd-zAHstahngkee-s-OHvohtsehm",
+          "french": "Uprostřed tržnice, hned za stánky s ovocem."
+        }
+      ]
+    },
+    {
+      "id": "prague_havelské_tržiště_002",
+      "intent_en": "Can I sample the fruit before buying",
+      "text_local": "Můžu ochutnat to ovoce?",
+      "pronunciation": "mOOzhoo-OHkhootnaht-tOH-OHvohtseh",
+      "formality": "standard",
+      "cultural_note": "It's common for vendors to offer a sample, especially at fruit and produce stands.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, klidně ochutnejte.",
+        "pronunciation": "AHnohklEEdnyeh-OHkhootnAYteh",
+        "translation_en": "Yes, go ahead and taste."
+      },
+      "responses": [
+        {
+          "english": "Yes, go ahead and taste.",
+          "phonetic": "AHnohklEEdnyeh-OHkhootnAYteh",
+          "french": "Ano, klidně ochutnejte."
+        }
+      ]
+    },
+    {
+      "id": "prague_havelské_tržiště_003",
+      "intent_en": "Is haggling expected at produce stands",
+      "text_local": "Smlouvá se tady na zelenině?",
+      "pronunciation": "smlOHvah-seh-tAHdee-nah-zEHlehnyEEnyeh",
+      "formality": "standard",
+      "cultural_note": "Haggling is not typical at Prague's permanent city markets, unlike some touristy souvenir spots.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Spíš ne, ceny jsou pevné.",
+        "pronunciation": "spEEsh-nEHtsEHnee-ysoh-pEHvneh",
+        "translation_en": "Not really, prices are fixed."
+      },
+      "responses": [
+        {
+          "english": "Not really, prices are fixed.",
+          "phonetic": "spEEsh-nEHtsEHnee-ysoh-pEHvneh",
+          "french": "Spíš ne, ceny jsou pevné."
+        }
+      ]
+    },
+    {
+      "id": "prague_havelské_tržiště_004",
+      "intent_en": "Which stalls accept cards",
+      "text_local": "Které stánky berou karty?",
+      "pronunciation": "ktEHreh-stAHngkee-bEHroh-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "Many smaller market stalls are cash-only, so it's good to have coins and small bills ready.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Většinou jen ty s občerstvením, jinak hotovost.",
+        "pronunciation": "vyEHtsheenoh-yEHn-tEE-s-OHptshehrstvEHnyeemyEEnahk-hOHtohvohst",
+        "translation_en": "Mostly only the refreshment ones, otherwise cash."
+      },
+      "responses": [
+        {
+          "english": "Mostly only the refreshment ones, otherwise cash.",
+          "phonetic": "vyEHtsheenoh-yEHn-tEE-s-OHptshehrstvEHnyeemyEEnahk-hOHtohvohst",
+          "french": "Většinou jen ty s občerstvením, jinak hotovost."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

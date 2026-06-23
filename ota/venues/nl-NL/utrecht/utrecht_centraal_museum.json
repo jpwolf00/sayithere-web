@@ -1,0 +1,78 @@
+{
+  "id": "utrecht_centraal_museum",
+  "name_en": "Centraal Museum",
+  "name_local": "Centraal Museum",
+  "icon": "building.columns",
+  "lat": 52.0836118,
+  "lon": 5.1256638,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "utrecht_centraal_museum_001",
+      "intent_en": "How do I buy a membership?",
+      "text_local": "Hoe koop ik een lidmaatschap?",
+      "pronunciation": "hOO-kOHp-ihk-uhn-lIHdmahtskhAHp",
+      "formality": "standard",
+      "cultural_note": "Memberships are processed at the cash desk with immediate issuance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de balie betalen en inschrijven.",
+        "pronunciation": "behih-duh-bahlEE-buhtAHluhn-ehn-IHnskhrEHihvuhn",
+        "translation_en": "Pay and register at the desk."
+      },
+      "responses": [
+        {
+          "english": "Pay and register at the desk.",
+          "phonetic": "behih-duh-bahlEE-buhtAHluhn-ehn-IHnskhrEHihvuhn",
+          "french": "Bij de balie betalen en inschrijven."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_centraal_museum_002",
+      "intent_en": "Is flash photography allowed?",
+      "text_local": "Mag ik met flitsfotografie?",
+      "pronunciation": "mahkh-ihk-meht-flIHtsfohtAWghrahfEE",
+      "formality": "polite",
+      "cultural_note": "Common museum policy; guards will remind visitors.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nee, geen flits.",
+        "pronunciation": "nEHghEHn-flIHts",
+        "translation_en": "No flash."
+      },
+      "responses": [
+        {
+          "english": "No flash.",
+          "phonetic": "nEHghEHn-flIHts",
+          "french": "Nee, geen flits."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_centraal_museum_003",
+      "intent_en": "Can I rent an audio guide?",
+      "text_local": "Mag ik een audiotour huren?",
+      "pronunciation": "mahkh-ihk-uhn-UHuhdeeOHtoor-hUEruhn",
+      "formality": "polite",
+      "cultural_note": "Audio guides are a common service; staff will hand over device and map.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de balie.",
+        "pronunciation": "yAHbehih-duh-bahlEE",
+        "translation_en": "Yes, at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the desk.",
+          "phonetic": "yAHbehih-duh-bahlEE",
+          "french": "Ja, bij de balie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chania_kalamaki_beach",
+  "name_en": "Kalamaki Beach",
+  "name_local": "Παραλία Καλαμάκι",
+  "icon": "leaf",
+  "lat": 35.5134711,
+  "lon": 23.9690824,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "chania_kalamaki_beach_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να παραγγείλω ποτά;",
+      "pronunciation": "pOO-pAHrahnggEHlnoh-pohtAH-stoh-ehnbEEtsh-bAHehl",
+      "formality": "polite",
+      "cultural_note": "Beach bars are typically visible along the shoreline and serve as the primary point for drink orders.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο beach bar, δίπλα στις ξαπλώστρες.",
+        "pronunciation": "stoh-ehnbEEtsh-bAHehlthEEplah-stees-ksahplOHstrehs",
+        "translation_en": "At the beach bar, next to the sunbeds."
+      },
+      "responses": [
+        {
+          "english": "At the beach bar, next to the sunbeds.",
+          "phonetic": "stoh-ehnbEEtsh-bAHehlthEEplah-stees-ksahplOHstrehs",
+          "french": "Στο beach bar, δίπλα στις ξαπλώστρες."
+        }
+      ]
+    },
+    {
+      "id": "chania_kalamaki_beach_002",
+      "intent_en": "Where do I rent sunbeds on this beach?",
+      "text_local": "Πού ενοικιάζονται οι ξαπλώστρες στην παραλία;",
+      "pronunciation": "pOO-EHneeAHzohdEH-ee-ksahplOHstrehs-steem-bAHrahlEEah",
+      "formality": "standard",
+      "cultural_note": "On beaches, sunbed rental typically involves asking the designated attendant rather than a fixed counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην ταβέρνα δίπλα.",
+        "pronunciation": "steen-dahvEHrnah-thEEplah",
+        "translation_en": "At the taverna next door."
+      },
+      "responses": [
+        {
+          "english": "At the taverna next door.",
+          "phonetic": "steen-dahvEHrnah-thEEplah",
+          "french": "Στην ταβέρνα δίπλα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

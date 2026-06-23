@@ -1,0 +1,115 @@
+{
+  "id": "geneva_gare_cornavin",
+  "name_en": "Geneva Cornavin Station",
+  "name_local": "Gare de Genève-Cornavin",
+  "icon": "tram.fill",
+  "phrases": [
+    {
+      "id": "geneva_gare_001",
+      "intent_en": "Ask for the next train to Lausanne",
+      "text_local": "À quelle heure part le prochain train pour Lausanne ?",
+      "pronunciation": "ah kel UR par luh proh-SHAN TRAN poor loh-ZAN",
+      "formality": "polite",
+      "cultural_note": "Trains between Geneva and Lausanne run very frequently — roughly every 20 minutes — and the journey takes about 33 to 50 minutes depending on the service.",
+      "responses": [
+        {
+          "english": "In twenty minutes, platform three.",
+          "phonetic": "dahn VEHN mee-NOOT, vwah TRWAH",
+          "french": "Dans vingt minutes, voie trois."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_gare_002",
+      "intent_en": "Ask where to buy a ticket",
+      "text_local": "Où puis-je acheter un billet de train ?",
+      "pronunciation": "oo PWEEZH ash-TAY un bee-YAY duh TRAN",
+      "formality": "polite",
+      "cultural_note": "CFF/SBB tickets can be bought at the machines, the ticket counter, or via the SBB Mobile app. Buying in advance online often yields cheaper fares.",
+      "responses": [
+        {
+          "english": "At the machines or at the counter.",
+          "phonetic": "oh oh-toh-MAT oo oh ghee-SHEH",
+          "french": "Aux automates ou au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_gare_003",
+      "intent_en": "Ask which platform the train leaves from",
+      "text_local": "De quel quai part le train pour Berne ?",
+      "pronunciation": "duh kel KAY par luh TRAN poor BAIRN",
+      "formality": "polite",
+      "cultural_note": "Platform information is displayed on large screens throughout the station. Swiss trains are famously punctual — the departure time shown is when the train moves.",
+      "responses": [
+        {
+          "english": "Platform number five.",
+          "phonetic": "vwah noo-may-ROH SEHNK",
+          "french": "Voie numéro cinq."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_gare_004",
+      "intent_en": "Ask about the free public transport included with hotel stay",
+      "text_local": "Où puis-je obtenir mon laissez-passer de transports gratuits avec mon hôtel ?",
+      "pronunciation": "oo PWEEZH ob-tuh-NEER mohn leh-SAY-pah-SAY duh trohnss-POR grah-TWEE ah-VEK mohn oh-TEL",
+      "formality": "polite",
+      "cultural_note": "The Geneva Transport Card (Transport Card Genève) gives hotel guests free use of all public transport in the canton — ask for it at check-in.",
+      "responses": [
+        {
+          "english": "Ask for the Geneva Transport Card at your hotel.",
+          "phonetic": "duh-mahn-DAY lah zhuh-NEV trans-PORT KARD ah voh-truh oh-TEL",
+          "french": "Demandez la Geneva Transport Card à votre hôtel."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_gare_005",
+      "intent_en": "Ask where the tram stop is outside the station",
+      "text_local": "Où se trouve l'arrêt de tram devant la gare ?",
+      "pronunciation": "oo suh TROOV lah-REH duh TRAM duh-VOHN lah GAR",
+      "formality": "polite",
+      "cultural_note": "Geneva's tram network is extensive and reliable; multiple tram lines stop directly in front of Cornavin station, connecting the city centre, airport and suburbs.",
+      "responses": [
+        {
+          "english": "Just at the exit, on the right.",
+          "phonetic": "zhoost ah lah sor-TEE, soor lah DRWAHT",
+          "french": "Juste à la sortie, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "train station",
+      "word_local": "la gare",
+      "pronunciation": "lah GAR"
+    },
+    {
+      "word_en": "ticket",
+      "word_local": "le billet",
+      "pronunciation": "luh bee-YAY"
+    },
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "luh KAY"
+    },
+    {
+      "word_en": "timetable",
+      "word_local": "l'horaire",
+      "pronunciation": "loh-RAIR"
+    }
+  ]
+}

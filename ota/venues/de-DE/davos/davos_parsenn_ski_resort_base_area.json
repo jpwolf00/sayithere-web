@@ -1,0 +1,100 @@
+{
+  "id": "davos_parsenn_ski_resort_base_area",
+  "name_en": "Parsenn Ski Resort Base Area",
+  "name_local": "Parsennbahnen Talstation",
+  "icon": "map",
+  "lat": 46.796198,
+  "lon": 9.8236892,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "davos_parsenn_ski_resort_base_area_001",
+      "intent_en": "Where is Parsennbahnen Talstation ticket office",
+      "text_local": "Wo ist die Kasse der Parsennbahnen Talstation?",
+      "pronunciation": "vOH-ihst-dee-kAHsuh-dehr-pAHrzuhnbAHnuhn-tAHlstahtsyOHn",
+      "formality": "standard",
+      "cultural_note": "In Swiss ski resorts, ticket offices are typically centrally located in the main building of the base station, often near the entrance or main lobby.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hauptgebäude der Talstation.",
+        "pronunciation": "ihm-hOWptuhbAWuhduh-dehr-tAHlstahtsyOHn",
+        "translation_en": "In the main building of the base station."
+      },
+      "responses": [
+        {
+          "english": "In the main building of the base station.",
+          "phonetic": "ihm-hOWptuhbAWuhduh-dehr-tAHlstahtsyOHn",
+          "french": "Im Hauptgebäude der Talstation."
+        }
+      ]
+    },
+    {
+      "id": "davos_parsenn_ski_resort_base_area_002",
+      "intent_en": "Can I buy gondola upgrade at mid-station",
+      "text_local": "Kann ich an der Mittelstation ein Gondel-Upgrade kaufen?",
+      "pronunciation": "kAHn-ihkh-ahm-mIHtuhlstahtsyOHnUHprahduh-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "In Swiss ski resorts, gondola or lift upgrades are typically only available for purchase at the base station ticket offices, not at mid-stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur an der Talstation.",
+        "pronunciation": "nEYEnnOOr-ahn-dehr-tAHlstahtsyOHn",
+        "translation_en": "No, only at the base station."
+      },
+      "responses": [
+        {
+          "english": "No, only at the base station.",
+          "phonetic": "nEYEnnOOr-ahn-dehr-tAHlstahtsyOHn",
+          "french": "Nein, nur an der Talstation."
+        }
+      ]
+    },
+    {
+      "id": "davos_parsenn_ski_resort_base_area_003",
+      "intent_en": "Where does Schatzalp funicular leave from",
+      "text_local": "Wo fährt die Schatzalp-Bahn ab?",
+      "pronunciation": "vOH-fEHrt-dee-shAHtsahlpbAHn-AHp",
+      "formality": "standard",
+      "cultural_note": "In Davos, the Schatzalp funicular departs from a clearly marked valley station near the Parsennbahnen area, accessible via signposted routes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links unten, neben der Kasse.",
+        "pronunciation": "lINGks-UHntuhnnEHbuhn-dehr-kAHsuh",
+        "translation_en": "Down to the left, next to the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Down to the left, next to the ticket counter.",
+          "phonetic": "lINGks-UHntuhnnEHbuhn-dehr-kAHsuh",
+          "french": "Links unten, neben der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "davos_parsenn_ski_resort_base_area_004",
+      "intent_en": "How to get deposit back from ski rental",
+      "text_local": "Wie bekomme ich meine Kaution vom Ski-Verleih zurück?",
+      "pronunciation": "vee-buhkAWmuh-ihkh-mEYEnuh-kowtsyOHn-fawm-shEEfehrlEYE-tsoorUEk",
+      "formality": "casual",
+      "cultural_note": "In Swiss ski resorts, ski rental deposits are typically returned upon returning the equipment with the receipt provided at rental.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Reichen Sie den Bon am Schalter ein.",
+        "pronunciation": "rEYEkhuhn-zee-dehn-bOHn-ahm-shAHlt-EYEn",
+        "translation_en": "Submit the receipt at the counter."
+      },
+      "responses": [
+        {
+          "english": "Submit the receipt at the counter.",
+          "phonetic": "rEYEkhuhn-zee-dehn-bOHn-ahm-shAHlt-EYEn",
+          "french": "Reichen Sie den Bon am Schalter ein."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

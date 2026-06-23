@@ -1,0 +1,100 @@
+{
+  "id": "liberec_oc_forum_liberec",
+  "name_en": "OC Forum Liberec",
+  "name_local": "OC Forum Liberec",
+  "icon": "bag",
+  "lat": 50.7702648,
+  "lon": 15.0583947,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "liberec_oc_forum_liberec_001",
+      "intent_en": "How do I pay for parking here",
+      "text_local": "Jak tady můžu zaplatit parkování?",
+      "pronunciation": "yAHk-tAHdee-mOOzhoo-zAHplaheet-pAHrkohvAHnyee",
+      "formality": "standard",
+      "cultural_note": "Parking machines in Czech malls usually accept both cards and cash.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U automatu kartou nebo hotově.",
+        "pronunciation": "OO-OWtohmAHtoo-kAHrtoh-nEHboh-hOHtohvyeh",
+        "translation_en": "At the machine by card or cash."
+      },
+      "responses": [
+        {
+          "english": "At the machine by card or cash.",
+          "phonetic": "OO-OWtohmAHtoo-kAHrtoh-nEHboh-hOHtohvyeh",
+          "french": "U automatu kartou nebo hotově."
+        }
+      ]
+    },
+    {
+      "id": "liberec_oc_forum_liberec_002",
+      "intent_en": "Where is the nearest ATM",
+      "text_local": "Kde je nejbližší bankomat?",
+      "pronunciation": "kdEH-yeh-nAYbleeshshee-bAHngkohmaht",
+      "formality": "standard",
+      "cultural_note": "ATMs in Czech malls are commonly found near main entrances or on the ground floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dole u hlavního vchodu.",
+        "pronunciation": "dOHleh-OO-hlAHvnyeehoh-fkhOHdoo",
+        "translation_en": "Downstairs by the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Downstairs by the main entrance.",
+          "phonetic": "dOHleh-OO-hlAHvnyeehoh-fkhOHdoo",
+          "french": "Dole u hlavního vchodu."
+        }
+      ]
+    },
+    {
+      "id": "liberec_oc_forum_liberec_003",
+      "intent_en": "Where is the food court checkout",
+      "text_local": "Kde je pokladna ve food courtu?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-vEH-fOHoht-tsOHrtoo",
+      "formality": "standard",
+      "cultural_note": "In Czech food courts, you usually pay directly at the individual food stall, not at a central checkout.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Každý stánek má svou vlastní pokladnu.",
+        "pronunciation": "kAHzhdee-stAHnehk-mah-svOH-vlAHstnyee-pOHklahdnoo",
+        "translation_en": "Each stall has its own cash register."
+      },
+      "responses": [
+        {
+          "english": "Each stall has its own cash register.",
+          "phonetic": "kAHzhdee-stAHnehk-mah-svOH-vlAHstnyee-pOHklahdnoo",
+          "french": "Každý stánek má svou vlastní pokladnu."
+        }
+      ]
+    },
+    {
+      "id": "liberec_oc_forum_liberec_004",
+      "intent_en": "Is the Cinema City ticket counter open now",
+      "text_local": "Je teď otevřená pokladna Cinema City?",
+      "pronunciation": "yeh-tEH-OHtehvrEHnah-pOHklahdnah-tsEEnehmah-tsEEtee",
+      "formality": "casual",
+      "cultural_note": "Cinema ticket counters typically open about 30 minutes before the first screening.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, pokladna je otevřená.",
+        "pronunciation": "AHnohpOHklahdnah-yeh-OHtehvrEHnah",
+        "translation_en": "Yes, the ticket counter is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, the ticket counter is open.",
+          "phonetic": "AHnohpOHklahdnah-yeh-OHtehvrEHnah",
+          "french": "Ano, pokladna je otevřená."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

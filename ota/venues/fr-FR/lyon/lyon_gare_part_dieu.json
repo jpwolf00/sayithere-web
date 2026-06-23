@@ -1,0 +1,115 @@
+{
+  "id": "lyon_gare_part_dieu",
+  "name_en": "Part-Dieu Train Station",
+  "name_local": "Gare Part-Dieu",
+  "icon": "tram.fill",
+  "phrases": [
+    {
+      "id": "lyon_part_dieu_001",
+      "intent_en": "Ask which platform the TGV to Paris departs from",
+      "text_local": "De quel quai part le TGV pour Paris, s'il vous plaît ?",
+      "pronunciation": "duh kel KAY par luh tay-zhay-VAY poor pah-REE, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Lyon Part-Dieu is France's second busiest station. TGVs to Paris Saint-Exupéry Airport and Paris Gare de Lyon depart frequently, with journey times of around two hours.",
+      "responses": [
+        {
+          "english": "Check the display board. Platforms vary by schedule.",
+          "phonetic": "vwah noo-may-ROH SET",
+          "french": "Vérifiez l'affichage. Les quais varient selon l'horaire."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_part_dieu_002",
+      "intent_en": "Ask where to validate a train ticket",
+      "text_local": "Où faut-il composter mon billet avant de monter dans le train ?",
+      "pronunciation": "oo foh-TEEL kohm-pos-TAY mohn bee-YEH ah-VAHN duh mohn-TAY dahn luh TREHN",
+      "formality": "polite",
+      "cultural_note": "All French train tickets must be composted (validated) in the yellow machines on the platform before boarding. Failing to do so can result on-the-spot fines even with a valid ticket.",
+      "responses": [
+        {
+          "english": "It's no longer necessary with electronic tickets.",
+          "phonetic": "suh neh PLOO nay-seh-SEHR ah-VEK lay bee-YEH ay-lek-troh-NEEK",
+          "french": "Ce n'est plus nécessaire avec les billets électroniques."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_part_dieu_003",
+      "intent_en": "Ask where to find left luggage",
+      "text_local": "Où se trouve la consigne à bagages, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV lah kohn-SEENY ah bah-GAZH, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Left luggage (consigne) is available at the station. Automated lockers and staffed storage are both options. This is useful if you want to explore the city before your train.",
+      "responses": [
+        {
+          "english": "On level zero, near the south exit.",
+          "phonetic": "oh nee-VOH ZAY-roh, preh duh lah sor-TEE SOOD",
+          "french": "Au niveau zéro, près de la sortie sud."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_part_dieu_004",
+      "intent_en": "Ask about connections to the tram network",
+      "text_local": "Comment rejoindre le réseau de tramway depuis la gare ?",
+      "pronunciation": "koh-MAHN ruh-ZHWANDR luh ray-ZOH duh tram-WAY duh-PWEE lah GAR",
+      "formality": "polite",
+      "cultural_note": "Lyon has an extensive tram network. Tram lines T1, T3, and T4 stop directly in front of Gare Part-Dieu, making onward connections straightforward.",
+      "responses": [
+        {
+          "english": "The tram stop is in front of the station.",
+          "phonetic": "lah stah-SYOHN duh TRAM eh duh-VAHN lah GAR",
+          "french": "La station de tram est devant la gare."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_part_dieu_005",
+      "intent_en": "Ask where to buy a ticket to Lyon Saint-Exupéry Airport",
+      "text_local": "Où acheter un billet pour l'aéroport Saint-Exupéry ?",
+      "pronunciation": "oo ash-TAY uhn bee-YEH poor lay-roh-POR sahn-teg-zoo-pay-REE",
+      "formality": "polite",
+      "cultural_note": "The Rhônexpress tram-train connects Lyon Part-Dieu to Lyon Saint-Exupéry Airport in about 30 minutes. Tickets can be bought at the Rhônexpress desks or online.",
+      "responses": [
+        {
+          "english": "At the counter or the machine.",
+          "phonetic": "oh ghee-SHEH oo ah loh-toh-MAT",
+          "french": "Au guichet ou à l'automate."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "luh KAY"
+    },
+    {
+      "word_en": "to validate a ticket",
+      "word_local": "composter le billet",
+      "pronunciation": "kohm-pos-TAY luh bee-YEH"
+    },
+    {
+      "word_en": "left luggage",
+      "word_local": "la consigne à bagages",
+      "pronunciation": "lah kohn-SEENY ah bah-GAZH"
+    },
+    {
+      "word_en": "high-speed train",
+      "word_local": "le TGV",
+      "pronunciation": "luh tay-zhay-VAY"
+    }
+  ]
+}

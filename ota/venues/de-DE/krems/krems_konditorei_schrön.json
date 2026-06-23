@@ -1,0 +1,100 @@
+{
+  "id": "krems_konditorei_schrön",
+  "name_en": "Konditorei Schrön",
+  "name_local": "Konditorei Schrön",
+  "icon": "fork.knife",
+  "lat": 48.4108382,
+  "lon": 15.6003717,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "krems_konditorei_schrön_001",
+      "intent_en": "Can I get takeaway packaging",
+      "text_local": "Gibt es Takeaway-Verpackungen?",
+      "pronunciation": "EEpt-ehs-tAHkehAHvehihfehrpAHkuhnguhn",
+      "formality": "standard",
+      "cultural_note": "Brief confirmation; staff will provide packaging without further explanation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, gibt es.",
+        "pronunciation": "yAHgEEpt-ehs",
+        "translation_en": "Yes, there are."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are.",
+          "phonetic": "yAHgEEpt-ehs",
+          "french": "Ja, gibt es."
+        }
+      ]
+    },
+    {
+      "id": "krems_konditorei_schrön_002",
+      "intent_en": "Is the Sachertorte available today",
+      "text_local": "Haben Sie heute Sachertorte?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-zAHkhtAWrtuh",
+      "formality": "standard",
+      "cultural_note": "Direct inquiry about availability; staff will confirm or deny without excessive politeness.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vorhanden.",
+        "pronunciation": "yAHfOHrhAHnduhn",
+        "translation_en": "Yes, available."
+      },
+      "responses": [
+        {
+          "english": "Yes, available.",
+          "phonetic": "yAHfOHrhAHnduhn",
+          "french": "Ja, vorhanden."
+        }
+      ]
+    },
+    {
+      "id": "krems_konditorei_schrön_003",
+      "intent_en": "Where do I settle my table bill",
+      "text_local": "Wo zahle ich meine Rechnung?",
+      "pronunciation": "vOH-tsAHluh-ihkh-mEYEnuh-rEHkhnuhng",
+      "formality": "standard",
+      "cultural_note": "Table service implies payment at the table unless otherwise requested.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch.",
+        "pronunciation": "ahm-tIHsh",
+        "translation_en": "At the table."
+      },
+      "responses": [
+        {
+          "english": "At the table.",
+          "phonetic": "ahm-tIHsh",
+          "french": "Am Tisch."
+        }
+      ]
+    },
+    {
+      "id": "krems_konditorei_schrön_004",
+      "intent_en": "Where do I pay for coffee",
+      "text_local": "Wo zahle ich meinen Kaffee?",
+      "pronunciation": "vOH-tsAHluh-ihkh-mEYEnuhn-kAHfeh",
+      "formality": "standard",
+      "cultural_note": "Counter payment is standard for beverages in Austrian cafés.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen.",
+        "pronunciation": "ahm-trEHzuhn",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-trEHzuhn",
+          "french": "Am Tresen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

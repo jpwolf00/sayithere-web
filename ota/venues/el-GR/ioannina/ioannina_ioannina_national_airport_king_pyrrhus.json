@@ -1,0 +1,144 @@
+{
+  "id": "ioannina_ioannina_national_airport_king_pyrrhus",
+  "name_en": "Ioannina National Airport King Pyrrhus",
+  "name_local": "Κρατικός Αερολιμένας Ιωαννίνων Βασιλεύς Πύρρος",
+  "icon": "tram",
+  "lat": 39.6978416,
+  "lon": 20.8202934,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ioannina_ioannina_national_airport_king_pyrrhus_001",
+      "intent_en": "Where is the Pyrrhus statue in the terminal",
+      "text_local": "Πού βρίσκεται η ανάγλυφη μορφή του Βασιλιά Πύρρου;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-ahnAHghleefEE-mohrfEE-too-vAHseelyAH-pEEroo",
+      "formality": "standard",
+      "cultural_note": "Ελάχιστα αεροδρόμια έχουν μόνιμες εκθέσεις τέτοιου τύπου, συχνά αναφέρεται ως στοιχείο εσωτερικής διακόσμησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στον κεντρικό διάδρομο του τερματικού.",
+        "pronunciation": "EEneh-stohng-gEHdreekOH-theeAHthrohmOH-too-tEHrmahteekOO",
+        "translation_en": "It is in the main corridor of the terminal."
+      },
+      "responses": [
+        {
+          "english": "It is in the main corridor of the terminal.",
+          "phonetic": "EEneh-stohng-gEHdreekOH-theeAHthrohmOH-too-tEHrmahteekOO",
+          "french": "Είναι στον κεντρικό διάδρομο του τερματικού."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_national_airport_king_pyrrhus_002",
+      "intent_en": "How do I find the taxi rank outside?",
+      "text_local": "Πώς βρίσκω την στάση ταξί έξω;",
+      "pronunciation": "pOHz-vrEEskoh-teen-stAHsee-tahksEE-ehktOHs-kteerEEoo",
+      "formality": "standard",
+      "cultural_note": "Σε μικρά αεροδρόμια η στάση ταξί είναι πάντα πολύ κοντά στην έξοδο των αφίξεων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακριβώς έξω από την πόρτα.",
+        "pronunciation": "AHkreevOHs-EHksoh-ahpOH-teem-bOHrtah",
+        "translation_en": "Right outside the door."
+      },
+      "responses": [
+        {
+          "english": "Right outside the door.",
+          "phonetic": "AHkreevOHs-EHksoh-ahpOH-teem-bOHrtah",
+          "french": "Ακριβώς έξω από την πόρτα."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_national_airport_king_pyrrhus_003",
+      "intent_en": "Is there a cafe past security?",
+      "text_local": "Υπάρχει καφετέρια μετά τον έλεγχο ασφαλείας;",
+      "pronunciation": "eepAHrkhee-kAHfehtEHreeAH-mehtAH-tohn-EHlehngkhOH-AHsfahlEEahs",
+      "formality": "standard",
+      "cultural_note": "Τα περισσότερα μικρά αεροδρόμια έχουν τουλάχιστον μία καφετέρια επί της πύλης αναχώρησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει.",
+        "pronunciation": "nEHeepAHrkhee",
+        "translation_en": "Yes, there is."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is.",
+          "phonetic": "nEHeepAHrkhee",
+          "french": "Ναι, υπάρχει."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_national_airport_king_pyrrhus_004",
+      "intent_en": "How do I rent a car here now?",
+      "text_local": "Πώς νοικιάζω αυτοκίνητο τώρα;",
+      "pronunciation": "pOHz-neeAHzoh-tOHr-ahmAHksee-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Τα γραφεία ενοικίασης αυτοκινήτων είναι πάντα προσβάσιμα στον χώρο του αεροδρομίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Εκεί στο γραφείο ενοικίασης.",
+        "pronunciation": "ehEE-stoh-ghrahfEEoh-EHneeEEahsEEs",
+        "translation_en": "There at the rental desk."
+      },
+      "responses": [
+        {
+          "english": "There at the rental desk.",
+          "phonetic": "ehEE-stoh-ghrahfEEoh-EHneeEEahsEEs",
+          "french": "Εκεί στο γραφείο ενοικίασης."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_national_airport_king_pyrrhus_005",
+      "intent_en": "Where do I wait after security screening",
+      "text_local": "Πού περιμένω μετά τον έλεγχο ασφαλείας;",
+      "pronunciation": "pOO-prEHpee-nah-pEHreemEHnoh-mehtAH-tohn-EHlehngkhOH-AHsfahlEEahs",
+      "formality": "standard",
+      "cultural_note": "Τα μικρά αεροδρόμια έχουν μία μόνο πύλη αναχώρησης, συχνά αναφερόμενη από τοπικό όνομα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περιμένετε κοντά στην πύλη.",
+        "pronunciation": "pEHreemEHnehtEH-kohdAH-steem-bEElee",
+        "translation_en": "Wait near the gate."
+      },
+      "responses": [
+        {
+          "english": "Wait near the gate.",
+          "phonetic": "pEHreemEHnehtEH-kohdAH-steem-bEElee",
+          "french": "Περιμένετε κοντά στην πύλη."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_national_airport_king_pyrrhus_006",
+      "intent_en": "Where is the Olympic Air check-in counter",
+      "text_local": "Πού είναι η θυρίδα check-in της Olympic Air;",
+      "pronunciation": "pOO-EEneh-ee-theerEEthah-ehntshEHkihnehl-tees-ehnuhlIHmpihk-EHuhehl",
+      "formality": "standard",
+      "cultural_note": "Σε μικρά αεροδρόμια οι ταμπέλες συχνά οδηγούν απευθείας στους αντίστοιχους πάγκους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι αριστερά, μετά την είσοδο.",
+        "pronunciation": "EEneh-AHreestehrAHmehtAH-teen-EEsohthOH",
+        "translation_en": "It's to the left, after the entrance."
+      },
+      "responses": [
+        {
+          "english": "It's to the left, after the entrance.",
+          "phonetic": "EEneh-AHreestehrAHmehtAH-teen-EEsohthOH",
+          "french": "Είναι αριστερά, μετά την είσοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,144 @@
+{
+  "id": "weimar_weimar_tourist_information_center",
+  "name_en": "Weimar Tourist Information Center",
+  "name_local": "Tourist-Information Weimar",
+  "icon": "info.circle",
+  "lat": 50.9796643,
+  "lon": 11.3297854,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "weimar_weimar_tourist_information_center_001",
+      "intent_en": "Ask where to purchase the WeimarCard",
+      "text_local": "Wo kaufe ich die WeimarCard?",
+      "pronunciation": "vOH-kOWfuh-ihkh-dee-vEYEmahr-kAHrt",
+      "formality": "standard",
+      "cultural_note": "In Germany, city passes like the WeimarCard are typically sold at official information counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_tourist_information_center_002",
+      "intent_en": "Ask if guided tour spots remain today",
+      "text_local": "Gibt es heute noch Führungen?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-nawkh-fUEruhnguhn",
+      "formality": "standard",
+      "cultural_note": "Guided tours in German cultural sites are often bookable on the same day if not fully booked.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Plätze sind verfügbar.",
+        "pronunciation": "yAHplEHtsuh-zihnt-fehrfUEkbahr",
+        "translation_en": "Yes, spots are available."
+      },
+      "responses": [
+        {
+          "english": "Yes, spots are available.",
+          "phonetic": "yAHplEHtsuh-zihnt-fehrfUEkbahr",
+          "french": "Ja, Plätze sind verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_tourist_information_center_003",
+      "intent_en": "Ask when Park an der Ilm opens mornings",
+      "text_local": "Wann öffnet der Park an der Ilm morgens?",
+      "pronunciation": "vAHn-UHfnuht-dehr-pAHrk-ahn-dehr-IHlm-mAWruhns",
+      "formality": "standard",
+      "cultural_note": "Public parks in Germany generally open early in the morning.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 6 Uhr.",
+        "pronunciation": "uhm-zEHks-OOr",
+        "translation_en": "At 6 AM."
+      },
+      "responses": [
+        {
+          "english": "At 6 AM.",
+          "phonetic": "uhm-zEHks-OOr",
+          "french": "Um 6 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_tourist_information_center_004",
+      "intent_en": "Ask if event tickets are sold here",
+      "text_local": "Verkaufen Sie hier Veranstaltungstickets?",
+      "pronunciation": "fehrkOWfuhn-zee-hEEr-fehrAHnshtAHltuhngstIHkuhts",
+      "formality": "casual",
+      "cultural_note": "Tourist information centers often sell tickets for local events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_tourist_information_center_005",
+      "intent_en": "Ask where the Bauhaus-Museum is from here",
+      "text_local": "Wo ist das Bauhaus-Museum?",
+      "pronunciation": "vOH-ihst-dahs-bOWhowsmoozEHuhm",
+      "formality": "standard",
+      "cultural_note": "Museums in German cities are typically well-signposted in pedestrian zones.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Das ist etwa zehn Minuten zu Fuß.",
+        "pronunciation": "dahs-ihst-EHtvah-tsEHn-meenOOtuhn-tsoo-fOOs",
+        "translation_en": "That is about a ten-minute walk."
+      },
+      "responses": [
+        {
+          "english": "That is about a ten-minute walk.",
+          "phonetic": "dahs-ihst-EHtvah-tsEHn-meenOOtuhn-tsoo-fOOs",
+          "french": "Das ist etwa zehn Minuten zu Fuß."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_tourist_information_center_006",
+      "intent_en": "Ask how to book Schillerhaus entry tickets",
+      "text_local": "Wie buche ich Tickets fürs Schillerhaus?",
+      "pronunciation": "vee-bOOkhuh-ihkh-tIHkuhts-fUErs-shIHlhOWs",
+      "formality": "casual",
+      "cultural_note": "Tickets for historic sites like Schillerhaus are usually sold at the venue's ticket counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie am Schalter.",
+        "pronunciation": "frAHuhn-zee-ahm-shAHlt",
+        "translation_en": "Ask at the counter."
+      },
+      "responses": [
+        {
+          "english": "Ask at the counter.",
+          "phonetic": "frAHuhn-zee-ahm-shAHlt",
+          "french": "Fragen Sie am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

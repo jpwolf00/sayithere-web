@@ -1,0 +1,118 @@
+{
+  "id": "antibes_musee_picasso",
+  "name_en": "Picasso Museum",
+  "name_local": "Musée Picasso",
+  "icon": "building.columns",
+  "lat": 43.6234,
+  "lon": 7.11,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "antibes_picasso_001",
+      "intent_en": "Ask where the Picasso exhibition is located",
+      "text_local": "Où se trouve l'exposition Picasso dans ce musée ?",
+      "pronunciation": "oo suh TROOV lex-poh-zee-SYON pee-KAH-soh dan suh myoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The Musée Picasso is housed in the Château Grimaldi, the 14th-century fortress where Picasso worked in 1946. The museum holds many works from his Antibes period.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the first floor, follow the signs.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH, swee-VAY lay pah-NOH",
+          "french": "Au premier étage, suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "antibes_picasso_002",
+      "intent_en": "Ask if photography is allowed in the museum",
+      "text_local": "La photographie est-elle autorisée dans le musée ?",
+      "pronunciation": "lah foh-toh-grah-FEE eh-tel oh-toh-ree-ZAY dan luh myoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "Non-flash photography is generally allowed in permanent collections, but special exhibitions often prohibit it. Check at the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, but without flash please.",
+          "phonetic": "wee, meh san flash seel voo PLAY",
+          "french": "Oui, mais sans flash s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "antibes_picasso_003",
+      "intent_en": "Ask if there is an audio guide in English",
+      "text_local": "Y a-t-il un audio-guide en anglais ?",
+      "pronunciation": "ee ah-TEEL un oh-dee-oh GEED an ahng-GLAY",
+      "formality": "polite",
+      "cultural_note": "Most major French museums offer audio guides in multiple languages including English. They're usually included with the ticket or available for a small fee.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, ask at the reception. It's three euros.",
+          "phonetic": "wee, duh-mahn-DAY ah lah-KUY. say trwah uh-ROH",
+          "french": "Oui, demandez à l'accueil. C'est trois euros."
+        }
+      ]
+    },
+    {
+      "id": "antibes_picasso_004",
+      "intent_en": "Ask about the opening hours for today",
+      "text_local": "Quelles sont les horaires d'ouverture aujourd'hui ?",
+      "pronunciation": "kel son lay oh-ree-AIR doo-vair-TYOR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "French museums often close for lunch between 12pm and 2pm, and are closed on Mondays or Tuesdays. Always check before visiting.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From 10am to 6pm. Check at the entrance.",
+          "phonetic": "duh dee zuhr ah dee-zweet uhr. vay-ree-fee-AY ah lahn-TRAY",
+          "french": "De dix heures à dix-huit heures. Vérifiez à l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "antibes_picasso_005",
+      "intent_en": "Ask where the museum shop is",
+      "text_local": "Où se trouve la boutique du musée ?",
+      "pronunciation": "oo suh TROOV lah boo-TEEK doo myoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "Museum shops in France often stock excellent art books, prints, and unique souvenirs. They're usually near the exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Near the exit, on the ground floor.",
+          "phonetic": "preh duh lah sor-TEE, oh ray-duh-shoh-SAY",
+          "french": "Près de la sortie, au rez-de-chaussée."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "leh myoo-ZAY"
+    },
+    {
+      "word_en": "exhibition",
+      "word_local": "l'exposition",
+      "pronunciation": "lex-poh-zee-SYON"
+    },
+    {
+      "word_en": "painting",
+      "word_local": "la peinture",
+      "pronunciation": "lah pahn-TYUR"
+    },
+    {
+      "word_en": "art gallery",
+      "word_local": "la galerie",
+      "pronunciation": "lah gal-REE"
+    }
+  ]
+}

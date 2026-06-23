@@ -1,0 +1,152 @@
+{
+  "id": "venue_versailles",
+  "name_en": "Palace of Versailles",
+  "name_local": "Château de Versailles",
+  "icon": "crown.fill",
+  "phrases": [
+    {
+      "id": "venue_versailles_001",
+      "intent_en": "Ask how to get to the Hall of Mirrors",
+      "text_local": "Pour aller à la Galerie des Glaces, s'il vous plaît ?",
+      "pronunciation": "poor ah-LAY ah lah gah-leh-REE day GLAHS, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The Hall of Mirrors (357 mirrors facing 357 windows) is the palace's crown jewel. It's on the first floor of the main palace and is included in the basic ticket.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Hall of Mirrors is on the first floor, straight ahead.",
+          "phonetic": "lah gah-luh-REE day glahs eh toh pruh-MYAY ay-TAHZH, too drwah",
+          "french": "La Galerie des Glaces est au premier étage, tout droit."
+        }
+      ]
+    },
+    {
+      "id": "venue_versailles_002",
+      "intent_en": "Ask about the garden fountain shows",
+      "text_local": "À quelle heure commencent les Grandes Eaux ?",
+      "pronunciation": "ah kel UHR koh-MAHNSS lay grahndz OH",
+      "formality": "standard",
+      "cultural_note": "The Musical Fountains (Grandes Eaux Musicales) run on weekends and Tuesdays from April to October. The gardens require a separate ticket on fountain show days.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The fountain shows are on weekends and Tuesdays, starting at eleven.",
+          "phonetic": "lay grahndz oh sohn luh wee-KEND ay luh mar-DEE, ah par-TEER donz uhr",
+          "french": "Les Grandes Eaux sont le weekend et le mardi, à partir d'onze heures."
+        }
+      ]
+    },
+    {
+      "id": "venue_versailles_003",
+      "intent_en": "Ask about Marie Antoinette's estate",
+      "text_local": "Comment aller au Petit Trianon et au hameau ?",
+      "pronunciation": "koh-MAHN ah-LAY oh puh-TEE tree-ah-NOHN ay oh ah-MOH",
+      "formality": "standard",
+      "cultural_note": "The Petit Trianon and Marie Antoinette's hamlet are a 20-minute walk from the palace. Rent a golf cart or take the petit train to save energy for exploring.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Follow the signs to the Petit Trianon, it is a twenty-minute walk.",
+          "phonetic": "swee-VAY lay pah-NOH vehr luh puh-TEE tree-ah-NOHN, seh tah van mee-NOOT ah pyay",
+          "french": "Suivez les panneaux vers le Petit Trianon, c'est à vingt minutes à pied."
+        }
+      ]
+    },
+    {
+      "id": "venue_versailles_004",
+      "intent_en": "Ask about the ticket that includes everything",
+      "text_local": "Quel billet donne accès à tout le domaine ?",
+      "pronunciation": "kel bee-YEH dohn ahk-SEH ah too luh doh-MEN",
+      "formality": "polite",
+      "cultural_note": "The 'Passport' ticket includes the palace, gardens (on fountain days), Trianon palaces, and Marie Antoinette's estate. It's the best value for a full-day visit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Passport ticket gives access to everything. It is twenty-two euros.",
+          "phonetic": "luh bee-YAY pahs-POR dohn ahk-SEH ah too. seh vant-duh uh-ROH",
+          "french": "Le billet Passeport donne accès à tout. C'est vingt-deux euros."
+        }
+      ]
+    },
+    {
+      "id": "venue_versailles_005",
+      "intent_en": "Ask about the gardens when fountains aren't running",
+      "text_local": "Les jardins sont gratuits aujourd'hui ?",
+      "pronunciation": "lay zhar-DAHN sohn grah-TWEET oh-zhoor-DWEE",
+      "formality": "standard",
+      "cultural_note": "On non-fountain days, the gardens are free to enter. It's a lovely way to enjoy Versailles without crowds. The estate covers 800 hectares — bring comfortable shoes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the gardens are free today.",
+          "phonetic": "wee, lay zhar-DAN sohn grah-TWEET oh-zhoor-DWEE",
+          "french": "Oui, les jardins sont gratuits aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "venue_versailles_006",
+      "intent_en": "Ask where to rent a boat on the Grand Canal",
+      "text_local": "Où peut-on louer une barque sur le Grand Canal ?",
+      "pronunciation": "oo puh-TOHN loo-AY oon BARK soor luh grahn kah-NAL",
+      "formality": "standard",
+      "cultural_note": "Row boats are available at the Grand Canal from spring through fall. It's a relaxing way to experience the gardens from a royal perspective.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The boat rental is at the end of the Grand Canal.",
+          "phonetic": "lah loh-kah-SYOHN duh bark eh toh boo doo grahn kah-NAL",
+          "french": "La location de barques est au bout du Grand Canal."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Palace/Castle",
+      "word_local": "Château",
+      "pronunciation": "shah-TOH"
+    },
+    {
+      "word_en": "Hall of Mirrors",
+      "word_local": "Galerie des Glaces",
+      "pronunciation": "gah-leh-REE day GLAHS"
+    },
+    {
+      "word_en": "Gardens",
+      "word_local": "Jardins",
+      "pronunciation": "zhar-DAHN"
+    },
+    {
+      "word_en": "Fountain",
+      "word_local": "Fontaine",
+      "pronunciation": "fohn-TEN"
+    },
+    {
+      "word_en": "Estate/Domain",
+      "word_local": "Domaine",
+      "pronunciation": "doh-MEN"
+    },
+    {
+      "word_en": "Hamlet",
+      "word_local": "Hameau",
+      "pronunciation": "ah-MOH"
+    },
+    {
+      "word_en": "Passport ticket",
+      "word_local": "Billet Passeport",
+      "pronunciation": "bee-YEH pahs-POR"
+    },
+    {
+      "word_en": "Golf cart",
+      "word_local": "Voiturette",
+      "pronunciation": "vwah-too-RET"
+    }
+  ]
+}

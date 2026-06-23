@@ -1,0 +1,115 @@
+{
+  "id": "amboise_marche",
+  "name_en": "Market of Amboise",
+  "name_local": "Marché d'Amboise",
+  "icon": "basket",
+  "phrases": [
+    {
+      "id": "amboise_marche_001",
+      "intent_en": "Ask what days the market takes place",
+      "text_local": "Quels jours le marché a-t-il lieu ?",
+      "pronunciation": "kel ZHOOR luh mar-SHAY ah-TEEL lyuh",
+      "formality": "polite",
+      "cultural_note": "The main market in Amboise takes place on Friday and Sunday mornings along the banks of the Loire, selling local produce, charcuterie, and regional specialities.",
+      "responses": [
+        {
+          "english": "Friday and Sunday morning.",
+          "phonetic": "luh vahn-druh-DEE ay luh dee-MAHNSH mah-TEHN",
+          "french": "Le vendredi et le dimanche matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_marche_002",
+      "intent_en": "Ask where I can find local goat cheese",
+      "text_local": "Où puis-je trouver du fromage de chèvre local ?",
+      "pronunciation": "oo PWEE-zhuh troo-VAY doo froh-MAZH duh SHEV-ruh loh-KAL",
+      "formality": "polite",
+      "cultural_note": "Touraine goat cheeses such as Sainte-Maure de Touraine (AOC) are a speciality of the region and widely available at the market.",
+      "responses": [
+        {
+          "english": "At the back of the market, on the left.",
+          "phonetic": "oh FOHN doo mar-SHAY, soor lah GOHSH",
+          "french": "Au fond du marché, sur la gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_marche_003",
+      "intent_en": "Ask for the price of a kilo of strawberries",
+      "text_local": "Quel est le prix du kilo de fraises ?",
+      "pronunciation": "kel ay luh PREE doo KEE-loh duh FREZ",
+      "formality": "polite",
+      "cultural_note": "Strawberries from the Loire Valley, especially the Mara des Bois variety, are a seasonal highlight at markets from May through July.",
+      "responses": [
+        {
+          "english": "Five euros per kilo.",
+          "phonetic": "sehnk uh-ROH luh KEE-loh",
+          "french": "Cinq euros le kilo."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_marche_004",
+      "intent_en": "Ask a vendor if I can taste before buying",
+      "text_local": "Est-ce que je peux goûter avant d'acheter ?",
+      "pronunciation": "es-kuh zhuh PUH goo-TAY ah-VAHN dah-shuh-TAY",
+      "formality": "polite",
+      "cultural_note": "Tasting before buying is common and expected at French produce markets. Vendors are usually happy to offer samples.",
+      "responses": [
+        {
+          "english": "Yes, here, taste.",
+          "phonetic": "wee, tuh-NAY, goo-TAY",
+          "french": "Oui, tenez, goûtez."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_marche_005",
+      "intent_en": "Ask if the vendor accepts card payment",
+      "text_local": "Acceptez-vous le paiement par carte bancaire ?",
+      "pronunciation": "ak-sep-TAY-voo luh pay-MAHN par KART ban-KAIR",
+      "formality": "polite",
+      "cultural_note": "Many market stalls in smaller French towns still prefer cash. It is wise to have some euros available when visiting a marché.",
+      "responses": [
+        {
+          "english": "Yes, from ten euros.",
+          "phonetic": "wee, ah par-TEER duh deez uh-ROH",
+          "french": "Oui, à partir de dix euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "market",
+      "word_local": "le marché",
+      "pronunciation": "luh mar-SHAY"
+    },
+    {
+      "word_en": "goat cheese",
+      "word_local": "le fromage de chèvre",
+      "pronunciation": "luh froh-MAZH duh SHEV-ruh"
+    },
+    {
+      "word_en": "strawberry",
+      "word_local": "la fraise",
+      "pronunciation": "lah FREZ"
+    },
+    {
+      "word_en": "to taste",
+      "word_local": "goûter",
+      "pronunciation": "goo-TAY"
+    }
+  ]
+}

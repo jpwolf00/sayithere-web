@@ -1,0 +1,115 @@
+{
+  "id": "monaco_port_hercule",
+  "name_en": "Port Hercules",
+  "name_local": "Port Hercule",
+  "icon": "ferry",
+  "phrases": [
+    {
+      "id": "monaco_ph_001",
+      "intent_en": "Ask about superyacht viewing",
+      "text_local": "Où peut-on voir les super-yachts ?",
+      "pronunciation": "oo puh-TOHN vwar lay soo-pair-yot",
+      "formality": "polite",
+      "cultural_note": "Port Hercules is one of the world's most prestigious superyacht harbors. During Monaco Yacht Show (late September), over 100 mega-yachts are on display.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Along the docks. The best view is from the port terrace.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "Le long des quais. La meilleure vue est depuis la terrasse du port."
+        }
+      ]
+    },
+    {
+      "id": "monaco_ph_002",
+      "intent_en": "Ask about the Formula 1 harbor section",
+      "text_local": "Quelle est la partie du port utilisée pour le Grand Prix ?",
+      "pronunciation": "kel eh lah par-TEE doo por ee-tee-lee-ZAY poor luh grahn PREE",
+      "formality": "polite",
+      "cultural_note": "The harbor forms part of the Monaco F1 circuit — the tunnel section and harborfront straight are among the most dramatic race moments.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The port straight and the tunnel are part of the circuit.",
+          "phonetic": "",
+          "french": "La ligne droite du port et le tunnel font partie du circuit."
+        }
+      ]
+    },
+    {
+      "id": "monaco_ph_003",
+      "intent_en": "Ask about waterfront restaurants",
+      "text_local": "Y a-t-il de bons restaurants au bord du port ?",
+      "pronunciation": "ee-ah-TEEL duh bonz res-toh-RAHN oh bor doo por",
+      "formality": "polite",
+      "cultural_note": "The waterfront has several upscale restaurants and cafés. Prices are high (this is Monaco), but the setting is unparalleled.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are several restaurants along the dock.",
+          "phonetic": "wee, eel ee ahn plu-ZYUR dahn luh kar-TYAY",
+          "french": "Oui, il y a plusieurs restaurants le long du quai."
+        }
+      ]
+    },
+    {
+      "id": "monaco_ph_004",
+      "intent_en": "Ask about the nautical exposition",
+      "text_local": "Où se tient l'exposition nautique ?",
+      "pronunciation": "oo seh tee-NAYN leks-poh-zee-SYOHN noh-TEEK",
+      "formality": "polite",
+      "cultural_note": "The Monaco Yacht Show (September) is the premier superyacht exhibition. Visits are by invitation only for most displays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Monaco Yacht Show is in September. Check online.",
+          "phonetic": "",
+          "french": "Le Monaco Yacht Show a lieu en septembre. Il faut vérifier en ligne."
+        }
+      ]
+    },
+    {
+      "id": "monaco_ph_005",
+      "intent_en": "Ask about the passenger ferry to other cities",
+      "text_local": "Où peut-on prendre un ferry vers d'autres villes ?",
+      "pronunciation": "oo puh-TOHN prondr un fer-EE vair dah-truh VEEL",
+      "formality": "polite",
+      "cultural_note": "Ferries connect Monaco to Nice, Cannes, and other French Riviera destinations. Check theTMS (Transports Monégasques) schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the bus station on Avenue de la Porte Neuve, near downtown.",
+          "phonetic": "eel foh oon VEST ay oon krah-VAHT poor lay may-SYUR",
+          "french": "À la gare routière, Avenue de la Porte Neuve, près du centre-ville."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "harbor / port",
+      "word_local": "le port",
+      "pronunciation": "luh por"
+    },
+    {
+      "word_en": "superyacht",
+      "word_local": "le super-yacht",
+      "pronunciation": "luh soo-pair-yot"
+    },
+    {
+      "word_en": "marina",
+      "word_local": "la marina",
+      "pronunciation": "lah mah-ree-NAH"
+    },
+    {
+      "word_en": "yacht show",
+      "word_local": "le salon du yacht",
+      "pronunciation": "luh sah-LOHN doo yot"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_smetanovy_sady_city_park",
+  "name_en": "Smetanovy sady City Park",
+  "name_local": "Smetanovy sady",
+  "icon": "leaf",
+  "lat": 49.5881871,
+  "lon": 17.2492235,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "olomouc_smetanovy_sady_city_park_001",
+      "intent_en": "Where is Smetana statue?",
+      "text_local": "Kde je Smetanův pomník?",
+      "pronunciation": "kdEH-yeh-smEHtahnoof-pOHmnyeek",
+      "formality": "standard",
+      "cultural_note": "The statue is a key landmark; it's common for concerts to be held nearby.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nalevo od kolonády, u hlavní cesty.",
+        "pronunciation": "nAHlehvoh-oht-kOHlohnAHdeeOO-hlAHvnyee-tsEHstee",
+        "translation_en": "To the left of the colonnade, by the main path."
+      },
+      "responses": [
+        {
+          "english": "To the left of the colonnade, by the main path.",
+          "phonetic": "nAHlehvoh-oht-kOHlohnAHdeeOO-hlAHvnyee-tsEHstee",
+          "french": "Nalevo od kolonády, u hlavní cesty."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_smetanovy_sady_city_park_002",
+      "intent_en": "How do I pay at park café?",
+      "text_local": "Jak můžu platit v parkové kavárně?",
+      "pronunciation": "yAHk-mOOzhoo-plAHeet-v-pAHrkohveh-kAHvahrnyeh",
+      "formality": "standard",
+      "cultural_note": "Pavilion cafés in Czech parks are casual; both payment methods are usually fine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kartou i hotově, jak chcete.",
+        "pronunciation": "kAHrtoh-ee-hOHtohvyehyAHk-khtsEHteh",
+        "translation_en": "By card or cash, as you like."
+      },
+      "responses": [
+        {
+          "english": "By card or cash, as you like.",
+          "phonetic": "kAHrtoh-ee-hOHtohvyehyAHk-khtsEHteh",
+          "french": "Kartou i hotově, jak chcete."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_smetanovy_sady_city_park_003",
+      "intent_en": "Are there event tickets at entrance?",
+      "text_local": "Jsou lístky na akci u vchodu?",
+      "pronunciation": "ysoh-lEEstkee-nAHahktsee-OO-fkhOHdoo",
+      "formality": "standard",
+      "cultural_note": "For park events, a temporary ticket point is often set up at the main entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, přímo u brány z ulice.",
+        "pronunciation": "AHnohprEEmoh-OO-brAHnee-s-OOleetseh",
+        "translation_en": "Yes, right at the gate from the street."
+      },
+      "responses": [
+        {
+          "english": "Yes, right at the gate from the street.",
+          "phonetic": "AHnohprEEmoh-OO-brAHnee-s-OOleetseh",
+          "french": "Ano, přímo u brány z ulice."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_smetanovy_sady_city_park_004",
+      "intent_en": "Where is the musical fountain?",
+      "text_local": "Kde je hudební fontána?",
+      "pronunciation": "kdEH-yeh-hOOdehbnyee-fOHntahnah",
+      "formality": "standard",
+      "cultural_note": "The fountain is a popular meeting point; locals often just say 'u fontány'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně, za růžovou zahradou.",
+        "pronunciation": "rOHvnyehzAHroozhOHvoh-zAHhrahdoh",
+        "translation_en": "Straight ahead, behind the rose garden."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, behind the rose garden.",
+          "phonetic": "rOHvnyehzAHroozhOHvoh-zAHhrahdoh",
+          "french": "Rovně, za růžovou zahradou."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

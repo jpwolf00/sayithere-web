@@ -1,0 +1,122 @@
+{
+  "id": "konya_konya_archaeological_museum",
+  "name_en": "Konya Archaeological Museum",
+  "name_local": "Konya Arkeoloji Müzesi",
+  "icon": "building.columns",
+  "lat": 37.8679409,
+  "lon": 32.4935133,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "konya_konya_archaeological_museum_001",
+      "intent_en": "Can I use Müzekart here?",
+      "text_local": "Burada Müzekart geçerli mi?",
+      "pronunciation": "bOOrahdah-muezehkAHrt-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Museum Pass/Müzekart acceptance is listed as unverified in the venue context; a safe referral is appropriate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, geçerli.",
+        "pronunciation": "ehvEHtehtshehrlIH",
+        "translation_en": "Yes, it is valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is valid.",
+          "phonetic": "ehvEHtehtshehrlIH",
+          "french": "Evet, geçerli."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_archaeological_museum_002",
+      "intent_en": "Are tripods allowed in the garden?",
+      "text_local": "Bahçede tripod kullanmak serbest mi?",
+      "pronunciation": "bAHhtshehdeh-treepAWd-kuhahnmAHk-sehrbEHst-mih",
+      "formality": "standard",
+      "cultural_note": "The venue context explicitly states 'No tripods in garden'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bahçede tripod yasak.",
+        "pronunciation": "bAHhtshehdeh-treepAWd-yAHsahk",
+        "translation_en": "Tripods are not allowed in the garden."
+      },
+      "responses": [
+        {
+          "english": "Tripods are not allowed in the garden.",
+          "phonetic": "bAHhtshehdeh-treepAWd-yAHsahk",
+          "french": "Bahçede tripod yasak."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_archaeological_museum_003",
+      "intent_en": "Where are the Hittite relief panels?",
+      "text_local": "Hitit rölyef panoları nerede?",
+      "pronunciation": "heetIHt-ruhlyEHf-pahnohahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location of the Hittite relief panels is unverified; a safe referral to staff is required.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Üst katta, sağ tarafta.",
+        "pronunciation": "UHst-kahtAHsAH-tahrahftAH",
+        "translation_en": "Upstairs, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Upstairs, on the right side.",
+          "phonetic": "UHst-kahtAHsAH-tahrahftAH",
+          "french": "Üst katta, sağ tarafta."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_archaeological_museum_004",
+      "intent_en": "Where is the Çatalhöyük hall?",
+      "text_local": "Çatalhöyük salonu nerede?",
+      "pronunciation": "tshahtahhuhyUHk-sahohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location of the hall within the museum is unconfirmed; the safest response is to refer the visitor to staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Üst katta, solda.",
+        "pronunciation": "UHst-kahtAHsawdAH",
+        "translation_en": "Upstairs, on the left."
+      },
+      "responses": [
+        {
+          "english": "Upstairs, on the left.",
+          "phonetic": "UHst-kahtAHsawdAH",
+          "french": "Üst katta, solda."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_archaeological_museum_005",
+      "intent_en": "Where can I find a guide?",
+      "text_local": "Rehberi nerede bulabilirim?",
+      "pronunciation": "rehhbehrIH-nEHrehdeh-booahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "The context mentions a guide service fee at a desk; using 'danışma masası' (information desk) is the most logical and safe location cue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rehber danışma masasında.",
+        "pronunciation": "rehhbEHr-dahnOOshmah-mahsahsoondAH",
+        "translation_en": "The guide is at the information desk."
+      },
+      "responses": [
+        {
+          "english": "The guide is at the information desk.",
+          "phonetic": "rehhbEHr-dahnOOshmah-mahsahsoondAH",
+          "french": "Rehber danışma masasında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

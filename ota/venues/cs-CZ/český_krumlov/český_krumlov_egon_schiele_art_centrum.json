@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_egon_schiele_art_centrum",
+  "name_en": "Egon Schiele Art Centrum",
+  "name_local": "Egon Schiele Art Centrum",
+  "icon": "building.columns",
+  "lat": 48.8105715,
+  "lon": 14.313418,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "český_krumlov_egon_schiele_art_centrum_001",
+      "intent_en": "Is Klimt collection on display now?",
+      "text_local": "Je teď vystavená sbírka Klimta?",
+      "pronunciation": "yeh-tEH-vEEstahvEHnah-zbEErkah-klEEmtah",
+      "formality": "standard",
+      "cultural_note": "Responses confirming availability often include the location as a helpful addition.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, v prvním patře.",
+        "pronunciation": "AHnohv-pRvnyeem-pAHtreh",
+        "translation_en": "Yes, on the first floor."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the first floor.",
+          "phonetic": "AHnohv-pRvnyeem-pAHtreh",
+          "french": "Ano, v prvním patře."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_egon_schiele_art_centrum_002",
+      "intent_en": "Where is the graphic works room?",
+      "text_local": "Kde je místnost s grafikou?",
+      "pronunciation": "kdEH-yeh-mEEstnohst-s-grAHfeekoh",
+      "formality": "standard",
+      "cultural_note": "Czech directional responses are typically short and precise, often omitting the subject.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nahoře, první dveře vlevo.",
+        "pronunciation": "nAHhohrehpRvnyee-dvEHreh-vlEHvoh",
+        "translation_en": "Upstairs, first door on the left."
+      },
+      "responses": [
+        {
+          "english": "Upstairs, first door on the left.",
+          "phonetic": "nAHhohrehpRvnyee-dvEHreh-vlEHvoh",
+          "french": "Nahoře, první dveře vlevo."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_egon_schiele_art_centrum_003",
+      "intent_en": "How do I book group visit?",
+      "text_local": "Jak si můžu rezervovat skupinovou prohlídku?",
+      "pronunciation": "yAHk-see-mOOzhoo-rEHzehrvOHvaht-skOOpeenOHvoh-prOHhleetkoo",
+      "formality": "standard",
+      "cultural_note": "Advance bookings for groups in Czech museums are typically handled via email rather than over the phone.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pošlete nám e-mail prosím.",
+        "pronunciation": "pOHshlehteh-nAHm-EHmAYl-prOHseem",
+        "translation_en": "Please send us an email."
+      },
+      "responses": [
+        {
+          "english": "Please send us an email.",
+          "phonetic": "pOHshlehteh-nAHm-EHmAYl-prOHseem",
+          "french": "Pošlete nám e-mail prosím."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_egon_schiele_art_centrum_004",
+      "intent_en": "Where do I rent audio guide?",
+      "text_local": "Kde si můžu půjčit audio průvodce?",
+      "pronunciation": "kdEH-see-mOOzhoo-pOOytsheet-OWdeeoh-prOOvohttseh",
+      "formality": "standard",
+      "cultural_note": "It is common for audio guides to be available directly at the ticket counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned u pokladny, vlevo.",
+        "pronunciation": "hnEHd-OO-pOHklahdneevlEHvoh",
+        "translation_en": "Right at the ticket desk, on the left."
+      },
+      "responses": [
+        {
+          "english": "Right at the ticket desk, on the left.",
+          "phonetic": "hnEHd-OO-pOHklahdneevlEHvoh",
+          "french": "Hned u pokladny, vlevo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

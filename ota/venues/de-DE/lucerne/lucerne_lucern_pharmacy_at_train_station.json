@@ -1,0 +1,78 @@
+{
+  "id": "lucerne_lucern_pharmacy_at_train_station",
+  "name_en": "Lucern pharmacy at train station",
+  "name_local": "Bahnhof Apotheke Luzern",
+  "icon": "info.circle",
+  "lat": 47.052144,
+  "lon": 8.3058123,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lucerne_lucern_pharmacy_at_train_station_001",
+      "intent_en": "Prescription with Krankenkasse card",
+      "text_local": "Rezept mit Krankenkassenkarte abgeben?",
+      "pronunciation": "rehtsEHpt-miht-krAHnkuhnkAHsuhnkAHrtuh-AHpEHbuhn",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz ist die Krankenkassenkarte für verschreibungspflichtige Medikamente zwingend erforderlich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Rezeptannahme.",
+        "pronunciation": "yAHahn-dehr-rEHtsehptAHnahmuh",
+        "translation_en": "Yes, at prescription intake."
+      },
+      "responses": [
+        {
+          "english": "Yes, at prescription intake.",
+          "phonetic": "yAHahn-dehr-rEHtsehptAHnahmuh",
+          "french": "Ja, an der Rezeptannahme."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucern_pharmacy_at_train_station_002",
+      "intent_en": "Reiseapotheke travel kit contents",
+      "text_local": "Was enthält die Reiseapotheke?",
+      "pronunciation": "vAHs-ehnthEHlt-dee-rEYEzehAHpohtEHkuh",
+      "formality": "standard",
+      "cultural_note": "Reiseapotheken in Schweizer Apotheken sind standardisiert und enthalten typische Basismedikamente für Reisende.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pflaster, Schmerztabletten, Desinfektion.",
+        "pronunciation": "pflAHstshmEHrtstahblEHtuhndEHzihnfehktsyOHn",
+        "translation_en": "Bandages, painkillers, disinfectant."
+      },
+      "responses": [
+        {
+          "english": "Bandages, painkillers, disinfectant.",
+          "phonetic": "pflAHstshmEHrtstahblEHtuhndEHzihnfehktsyOHn",
+          "french": "Pflaster, Schmerztabletten, Desinfektion."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucern_pharmacy_at_train_station_003",
+      "intent_en": "Duty-free export limits Germany",
+      "text_local": "Wie viel Medikament darf ich nach Deutschland ausführen?",
+      "pronunciation": "vee-fEEl-mEHdeekahmEHnt-dAHrf-ihkh-nahkh-dAWuhtshlahnt-OWsfUEruhn",
+      "formality": "standard",
+      "cultural_note": "Deutsche Zollbestimmungen erlauben nur begrenzte Mengen an verschreibungspflichtigen Medikamenten für den persönlichen Bedarf.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Maximal 1 Monat Vorrat.",
+        "pronunciation": "mAHkseemAHl-EYEns-mOHnaht-fOHrrAHt",
+        "translation_en": "Maximum 1-month supply."
+      },
+      "responses": [
+        {
+          "english": "Maximum 1-month supply.",
+          "phonetic": "mAHkseemAHl-EYEns-mOHnaht-fOHrrAHt",
+          "french": "Maximal 1 Monat Vorrat."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

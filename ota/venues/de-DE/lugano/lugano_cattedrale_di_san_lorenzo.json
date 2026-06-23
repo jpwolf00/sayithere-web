@@ -1,0 +1,78 @@
+{
+  "id": "lugano_cattedrale_di_san_lorenzo",
+  "name_en": "Cattedrale di San Lorenzo",
+  "name_local": "Cattedrale di San Lorenzo",
+  "icon": "building.columns",
+  "lat": 46.0046301,
+  "lon": 8.9485764,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "lugano_cattedrale_di_san_lorenzo_001",
+      "intent_en": "Ask where to buy devotional items",
+      "text_local": "Wo kann ich Andenken kaufen?",
+      "pronunciation": "vOH-EEpt-ehs-AHndEHngkuhn-tsoo-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Devotional items in Swiss churches are often sold near the entrance or in a designated shop; staff at the counter will direct.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Souvenirladen am Eingang.",
+        "pronunciation": "ihm-zOOvehnIHrlahduhn-ahm-EYEngAHng",
+        "translation_en": "In the souvenir shop at the entrance."
+      },
+      "responses": [
+        {
+          "english": "In the souvenir shop at the entrance.",
+          "phonetic": "ihm-zOOvehnIHrlahduhn-ahm-EYEngAHng",
+          "french": "Im Souvenirladen am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "lugano_cattedrale_di_san_lorenzo_002",
+      "intent_en": "Ask where the Romanesque naves are",
+      "text_local": "Wo sind die romanischen Schiffe?",
+      "pronunciation": "vOH-zihnt-dee-rohmAHnihshuhn-shIHfuh",
+      "formality": "casual",
+      "cultural_note": "In German-speaking contexts, 'Schiffe' (naves) implies the main longitudinal sections; 'romanisch' may be unfamiliar to visitors—local staff will clarify.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links vorne in der Kathedrale.",
+        "pronunciation": "lINGks-fAWrnuh-ihn-dehr-kAHtehdrAHluh",
+        "translation_en": "Left at the front in the cathedral."
+      },
+      "responses": [
+        {
+          "english": "Left at the front in the cathedral.",
+          "phonetic": "lINGks-fAWrnuh-ihn-dehr-kAHtehdrAHluh",
+          "french": "Links vorne in der Kathedrale."
+        }
+      ]
+    },
+    {
+      "id": "lugano_cattedrale_di_san_lorenzo_003",
+      "intent_en": "Ask when mass is held today",
+      "text_local": "Wann ist heute Messe?",
+      "pronunciation": "vAHn-ihst-hAWuhtuh-mEHsuh",
+      "formality": "standard",
+      "cultural_note": "Mass times in Swiss churches are typically posted near the entrance or altar; exact times may vary by season—confirm with staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "10:00 und 18:00 Uhr.",
+        "pronunciation": "tsEHn-oor-nUHl-nUHl-uhnt-AHkhtsehn-oor-nUHl-nUHl-OOr",
+        "translation_en": "10:00 and 18:00."
+      },
+      "responses": [
+        {
+          "english": "10:00 and 18:00.",
+          "phonetic": "tsEHn-oor-nUHl-nUHl-uhnt-AHkhtsehn-oor-nUHl-nUHl-OOr",
+          "french": "10:00 und 18:00 Uhr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

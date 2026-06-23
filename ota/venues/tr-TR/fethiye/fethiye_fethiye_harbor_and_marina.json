@@ -1,0 +1,100 @@
+{
+  "id": "fethiye_fethiye_harbor_and_marina",
+  "name_en": "Fethiye Harbor and Marina",
+  "name_local": "Fethiye Limani",
+  "icon": "map",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_harbor_and_marina_001",
+      "intent_en": "Ask where water taxi to Göcek departs",
+      "text_local": "Göcek su taksisi nereden kalkıyor?",
+      "pronunciation": "uhdzhEHk-sUH-tahkseesIH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Water taxi departure points are informal and may shift; a marina görevlisi or tour guide can direct you to the current spot.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Marina girişindeki iskeleden.",
+        "pronunciation": "mahreenAH-eereeshihndehkIH-ihskEHlehdahn",
+        "translation_en": "From the dock at the marina entrance."
+      },
+      "responses": [
+        {
+          "english": "From the dock at the marina entrance.",
+          "phonetic": "mahreenAH-eereeshihndehkIH-ihskEHlehdahn",
+          "french": "Marina girişindeki iskeleden."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_harbor_and_marina_002",
+      "intent_en": "Ask which booth has boat to Butterfly Valley",
+      "text_local": "Kelebekler Vadisi teknesi hangi gişeden kalkıyor?",
+      "pronunciation": "kehlehbehklEHr-vahdeesIH-tehknehsIH-hahngIH-eeshehdAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Turkish boat tour operators often cluster informally along harbor promenades rather than at fixed numbered booths.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Limanın solundaki gişe.",
+        "pronunciation": "lEEmahnoon-sohuhndahkIH-eeshEH",
+        "translation_en": "The booth on the left of the harbor."
+      },
+      "responses": [
+        {
+          "english": "The booth on the left of the harbor.",
+          "phonetic": "lEEmahnoon-sohuhndahkIH-eeshEH",
+          "french": "Limanın solundaki gişe."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_harbor_and_marina_003",
+      "intent_en": "Ask which booth has boat to Butterfly Valley",
+      "text_local": "Kelebekler Vadisi'ne giden tekne hangi gişede?",
+      "pronunciation": "kehlehbehklEHr-vahdeeseenEH-eedAHn-tehknEH-hahngIH-eeshehdEH",
+      "formality": "standard",
+      "cultural_note": "Boat tour docks are scattered along the coast; there is no single booth for Butterfly Valley.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İkinci iskeledeki gişelerden biri.",
+        "pronunciation": "eekihndzhIH-ihskehlehdehkIH-eeshehlehrdAHn-beerIH",
+        "translation_en": "One of the booths at the second dock."
+      },
+      "responses": [
+        {
+          "english": "One of the booths at the second dock.",
+          "phonetic": "eekihndzhIH-ihskehlehdehkIH-eeshehlehrdAHn-beerIH",
+          "french": "İkinci iskeledeki gişelerden biri."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_harbor_and_marina_004",
+      "intent_en": "Ask dolmuş fare to Ölüdeniz from harbor",
+      "text_local": "Limandan Ölüdeniz dolmuş ücreti ne kadar?",
+      "pronunciation": "leemahndAHn-uhluedEHnihz-dawmUHsh-uhdzhrehtIH-nEH-kahdAHr",
+      "formality": "standard",
+      "cultural_note": "Dolmuş fares are subject to periodic municipal adjustments and are best confirmed at the stop or with the driver.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Şu an 30 lira civarı.",
+        "pronunciation": "shuh-AHn-ohtOOz-leerAH-dzheevahrOO",
+        "translation_en": "Around 30 lira now."
+      },
+      "responses": [
+        {
+          "english": "Around 30 lira now.",
+          "phonetic": "shuh-AHn-ohtOOz-leerAH-dzheevahrOO",
+          "french": "Şu an 30 lira civarı."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

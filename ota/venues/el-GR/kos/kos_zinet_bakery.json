@@ -1,0 +1,210 @@
+{
+  "id": "kos_zinet_bakery",
+  "name_en": "Zinet Bakery",
+  "name_local": "Αρτοποιείο Ζινέτ",
+  "icon": "fork.knife",
+  "lat": 36.7936933,
+  "lon": 27.0848266,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kos_zinet_bakery_001",
+      "intent_en": "Is fresh baklava available right now?",
+      "text_local": "Έχει φρέσκο μπακλαβά τώρα;",
+      "pronunciation": "EHkhee-frEHskoh-bAHklahvAH-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Fresh pastries are typically made daily; if not available, it is rare to find stock from the previous day.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ζητήστε στον ψήλο.",
+        "pronunciation": "nEHzeetEEsteh-stohm-bzEEloh",
+        "translation_en": "Yes, ask the baker."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the baker.",
+          "phonetic": "nEHzeetEEsteh-stohm-bzEEloh",
+          "french": "Ναι, ζητήστε στον ψήλο."
+        }
+      ]
+    },
+    {
+      "id": "kos_zinet_bakery_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι ο δίσκος με το μπακλαβά;",
+      "pronunciation": "pOO-EEneh-oh-thEEskohz-meh-toh-bAHklahvAH",
+      "formality": "standard",
+      "cultural_note": "Display trays are typically behind the counter, managed by the baker.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο με τα γλυκά, δεξιά.",
+        "pronunciation": "stohm-bAHnggoh-meh-tah-ghleekAHthEHkseeAH",
+        "translation_en": "The baklava is behind the counter, in the display case."
+      },
+      "responses": [
+        {
+          "english": "The baklava is behind the counter, in the display case.",
+          "phonetic": "stohm-bAHnggoh-meh-tah-ghleekAHthEHkseeAH",
+          "french": "Στον πάγκο με τα γλυκά, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "kos_zinet_bakery_003",
+      "intent_en": "Ask if spanakopita is fresh today",
+      "text_local": "Η σπανακόπιτα είναι φρέσκια σήμερα;",
+      "pronunciation": "ee-spAHnahkOHpeetAH-EEneh-frEHsah-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Spinach pies are typically prepared fresh daily in Greek bakeries.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, φρέσκια από το φούρνο μας.",
+        "pronunciation": "nEHfrEHs-ahpOH-toh-fOOrnoh-mahs",
+        "translation_en": "Hello, yes."
+      },
+      "responses": [
+        {
+          "english": "Hello, yes.",
+          "phonetic": "nEHfrEHs-ahpOH-toh-fOOrnoh-mahs",
+          "french": "Ναι, φρέσκια από το φούρνο μας."
+        }
+      ]
+    },
+    {
+      "id": "kos_zinet_bakery_004",
+      "intent_en": "Ask if credit cards are accepted",
+      "text_local": "Δέχεστε κάρτες;",
+      "pronunciation": "thEHkhehstEH-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "Many small Greek bakeries accept cash primarily; card acceptance varies.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, όλες τις κάρτες.",
+        "pronunciation": "nEHOHlehs-tees-kAHrtehs",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nEHOHlehs-tees-kAHrtehs",
+          "french": "Ναι, όλες τις κάρτες."
+        }
+      ]
+    },
+    {
+      "id": "kos_zinet_bakery_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς παραγγέλνω τυροπιτάκια στον πάγκο;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-tEErohpeetAHah-stohm-bAHnggoh",
+      "formality": "standard",
+      "cultural_note": "In small bakeries, customers often point or name items directly to the baker rather than placing a formal order.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πείτε «τυροπιτάκια» και δείξτε στον πάγκο.",
+        "pronunciation": "pEEteh-tEErohpeetAHah-keh-thEEksteh-stohm-bAHnggoh",
+        "translation_en": "Say 'one tyropitaki, please' and point to what you want."
+      },
+      "responses": [
+        {
+          "english": "Say 'one tyropitaki, please' and point to what you want.",
+          "phonetic": "pEEteh-tEErohpeetAHah-keh-thEEksteh-stohm-bAHnggoh",
+          "french": "Πείτε «τυροπιτάκια» και δείξτε στον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "kos_zinet_bakery_006",
+      "intent_en": "Ask if coffee to go is available",
+      "text_local": "Έχετε καφέ για το γύρισμα;",
+      "pronunciation": "EHkhehtEH-kahfEH-yAH-ehnehmpAWtehl",
+      "formality": "standard",
+      "cultural_note": "Takeaway coffee is commonly available in Greek bakeries.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, we have coffee in a paper cup at the register."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have coffee in a paper cup at the register.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "kos_zinet_bakery_007",
+      "intent_en": "Where do I pay for my order?",
+      "text_local": "Πού πληρώνω την παραγγελία μου;",
+      "pronunciation": "pOO-pleerOHnoh-teem-bAHrahnggehlEEah-moo",
+      "formality": "standard",
+      "cultural_note": "Payment is always at the designated cashier area, separate from the counter where orders are placed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο εκεί.",
+        "pronunciation": "stoh-tahmEEoh-ehEE",
+        "translation_en": "At the register over there."
+      },
+      "responses": [
+        {
+          "english": "At the register over there.",
+          "phonetic": "stoh-tahmEEoh-ehEE",
+          "french": "Στο ταμείο εκεί."
+        }
+      ]
+    },
+    {
+      "id": "kos_zinet_bakery_008",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να καθίσω μέσα με τον καφέ μου;",
+      "pronunciation": "bohrOH-nah-kahthEEsoh-mEHsah-meh-tohng-gahfEH-moo",
+      "formality": "standard",
+      "cultural_note": "Small bakeries often prioritize takeaway; indoor seating may be limited or unavailable.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, πίσω από το ταμείο.",
+        "pronunciation": "nEHpEEsoh-ahpOH-toh-tahmEEoh",
+        "translation_en": "Yes, there are seats next to the fournos display, behind the cash register."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are seats next to the fournos display, behind the cash register.",
+          "phonetic": "nEHpEEsoh-ahpOH-toh-tahmEEoh",
+          "french": "Ναι, πίσω από το ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "kos_zinet_bakery_009",
+      "intent_en": "Ask how to order at the counter",
+      "text_local": "Πώς παραγγέλνω από τον πάγκο;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-ahpOH-tohm-bAHnggoh",
+      "formality": "standard",
+      "cultural_note": "Ordering by pointing or naming items is standard in small bakeries with no displayed menu.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πείτε τι θέλετε ή δείξτε.",
+        "pronunciation": "pEEteh-tEE-thEHlehtEH-ee-thEEksteh",
+        "translation_en": "Point to what you want to the staff member."
+      },
+      "responses": [
+        {
+          "english": "Point to what you want to the staff member.",
+          "phonetic": "pEEteh-tEE-thEHlehtEH-ee-thEEksteh",
+          "french": "Πείτε τι θέλετε ή δείξτε."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

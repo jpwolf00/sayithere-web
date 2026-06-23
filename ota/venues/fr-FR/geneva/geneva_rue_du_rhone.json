@@ -1,0 +1,115 @@
+{
+  "id": "geneva_rue_du_rhone",
+  "name_en": "Rue du Rhône (luxury shopping)",
+  "name_local": "Rue du Rhône",
+  "icon": "bag",
+  "phrases": [
+    {
+      "id": "geneva_rdr_001",
+      "intent_en": "Ask where the main luxury shopping street is",
+      "text_local": "Où se trouve la rue commerçante principale pour les boutiques de luxe ?",
+      "pronunciation": "oo suh TROOV lah ROO koh-mair-SONT pran-see-PAL poor lay boo-TEEK duh LOKS",
+      "formality": "polite",
+      "cultural_note": "The Rue du Rhône is Geneva's premier luxury shopping street, lined with high-end watchmakers, jewellers and fashion houses between Place Bel-Air and the lake.",
+      "responses": [
+        {
+          "english": "You're here, this is it.",
+          "phonetic": "voo zee ET, seh ee-SEE",
+          "french": "Vous y êtes, c'est ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_rdr_002",
+      "intent_en": "Ask about Swiss watch boutiques",
+      "text_local": "Y a-t-il des boutiques de montres suisses dans cette rue ?",
+      "pronunciation": "ee-ah-TEEL day boo-TEEK duh MON-truh SWEES don SET ROO",
+      "formality": "polite",
+      "cultural_note": "The Rue du Rhône and adjacent streets host flagship stores for Rolex, Patek Philippe, Omega and other Swiss watch brands — Geneva is the world capital of watchmaking.",
+      "responses": [
+        {
+          "english": "There are several along the street.",
+          "phonetic": "eel ee ahn ah ploo-ZYUHR luh LOHN duh lah ROO",
+          "french": "Il y en a plusieurs le long de la rue."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_rdr_003",
+      "intent_en": "Ask about tax refund for tourists",
+      "text_local": "Est-il possible d'obtenir un remboursement de TVA en tant que touriste ?",
+      "pronunciation": "eh-TEEL poh-SEE-bluh dob-tuh-NEER un rom-boors-MON duh TAY-VAY on TOHN kuh too-REEST",
+      "formality": "polite",
+      "cultural_note": "Switzerland is not in the EU, so tourists from outside Switzerland can claim a VAT refund (7.7%) on purchases above CHF 300 at the airport on departure.",
+      "responses": [
+        {
+          "english": "At the checkout, with your passport.",
+          "phonetic": "ah lah KESS, ah-VEK voh-truh pass-POR",
+          "french": "À la caisse, avec votre passeport."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_rdr_004",
+      "intent_en": "Ask if a store does watch repairs",
+      "text_local": "Faites-vous les réparations de montres ?",
+      "pronunciation": "FET-voo lay ray-pah-rah-SYOHN duh MON-truh",
+      "formality": "polite",
+      "cultural_note": "Many watchmakers on the Rue du Rhône offer in-house repair services, though turnaround times for complex pieces can take several weeks.",
+      "responses": [
+        {
+          "english": "Yes, on the first floor.",
+          "phonetic": "wee, oh pruh-MYAY ay-TAHZH",
+          "french": "Oui, au premier étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_rdr_005",
+      "intent_en": "Ask if they accept credit cards",
+      "text_local": "Acceptez-vous les cartes de crédit ?",
+      "pronunciation": "ak-sep-TAY-voo lay KART duh kray-DEE",
+      "formality": "polite",
+      "cultural_note": "Most luxury boutiques accept all major credit cards. Switzerland uses the Swiss franc (CHF), not the euro, though many tourist shops do accept euros at a poor exchange rate.",
+      "responses": [
+        {
+          "english": "Yes, no problem.",
+          "phonetic": "wee, sahn proh-BLEM",
+          "french": "Oui, sans problème."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "watchmaker",
+      "word_local": "l'horloger",
+      "pronunciation": "lor-loh-ZHAY"
+    },
+    {
+      "word_en": "luxury boutique",
+      "word_local": "la boutique de luxe",
+      "pronunciation": "lah boo-TEEK duh LOKS"
+    },
+    {
+      "word_en": "Swiss franc",
+      "word_local": "le franc suisse",
+      "pronunciation": "luh FROHN SWEES"
+    },
+    {
+      "word_en": "VAT / sales tax",
+      "word_local": "la TVA",
+      "pronunciation": "lah TAY-VAY-AH"
+    }
+  ]
+}

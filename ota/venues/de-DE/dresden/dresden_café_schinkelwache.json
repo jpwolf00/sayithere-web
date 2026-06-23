@@ -1,0 +1,100 @@
+{
+  "id": "dresden_café_schinkelwache",
+  "name_en": "Café Schinkelwache",
+  "name_local": "Café Schinkelwache",
+  "icon": "fork.knife",
+  "lat": 51.0493286,
+  "lon": 13.7381437,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "dresden_café_schinkelwache_001",
+      "intent_en": "Do I pay at the counter?",
+      "text_local": "Zahlt man an der Kasse?",
+      "pronunciation": "tsAHlt-mahn-ahn-dehr-kAHsuh",
+      "formality": "standard",
+      "cultural_note": "Implicit assumption that counter payment is standard unless stated otherwise.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Kasse.",
+        "pronunciation": "yAHahn-dehr-kAHsuh",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahn-dehr-kAHsuh",
+          "french": "Ja, an der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "dresden_café_schinkelwache_002",
+      "intent_en": "Where do I pick up my tray?",
+      "text_local": "Wo hole ich mein Tablett ab?",
+      "pronunciation": "vOH-hOHluh-ihkh-meyen-tahblEHt-AHp",
+      "formality": "standard",
+      "cultural_note": "Self-service tray pickup is a standard process in German cafés.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ausgabetresen.",
+        "pronunciation": "ahm-OWsAHbuhtrEHzuhn",
+        "translation_en": "At the pickup counter."
+      },
+      "responses": [
+        {
+          "english": "At the pickup counter.",
+          "phonetic": "ahm-OWsAHbuhtrEHzuhn",
+          "french": "Am Ausgabetresen."
+        }
+      ]
+    },
+    {
+      "id": "dresden_café_schinkelwache_003",
+      "intent_en": "Is the Eierschcke available today?",
+      "text_local": "Haben Sie heute Eierschcke?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-EYEshkuh",
+      "formality": "standard",
+      "cultural_note": "Direct question about daily availability of a specific dish.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute verfügbar.",
+        "pronunciation": "yAHhAWuhtuh-fehrfUEkbahr",
+        "translation_en": "Yes, available today."
+      },
+      "responses": [
+        {
+          "english": "Yes, available today.",
+          "phonetic": "yAHhAWuhtuh-fehrfUEkbahr",
+          "french": "Ja, heute verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "dresden_café_schinkelwache_004",
+      "intent_en": "Is cash preferred here?",
+      "text_local": "Wird hier Bargeld bevorzugt?",
+      "pronunciation": "vIHrt-hEEr-bAHrehlt-buhfOHrtsOOkt",
+      "formality": "casual",
+      "cultural_note": "Cash preference is common in smaller German cafés.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, meistens.",
+        "pronunciation": "yAHmEYEstuhns",
+        "translation_en": "Yes, mostly."
+      },
+      "responses": [
+        {
+          "english": "Yes, mostly.",
+          "phonetic": "yAHmEYEstuhns",
+          "french": "Ja, meistens."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

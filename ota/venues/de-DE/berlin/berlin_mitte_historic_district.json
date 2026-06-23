@@ -1,0 +1,122 @@
+{
+  "id": "berlin_mitte_historic_district",
+  "name_en": "Mitte historic district",
+  "name_local": "Berlin-Mitte",
+  "icon": "map",
+  "lat": 52.5162699,
+  "lon": 13.3777034,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "berlin_mitte_historic_district_001",
+      "intent_en": "Where is Fernsehturm ticket office",
+      "text_local": "Wo ist die Fernsehturm-Kasse?",
+      "pronunciation": "vOH-ihst-dee-fEHrnzehtUHuhmkAHsuh",
+      "formality": "standard",
+      "cultural_note": "Kasse is the standard German term for ticket office, commonly used for attractions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Fernsehturm-Eingang.",
+        "pronunciation": "ahm-fEHrnzehtUHuhmEYEnAHng",
+        "translation_en": "At Fernsehturm entrance."
+      },
+      "responses": [
+        {
+          "english": "At Fernsehturm entrance.",
+          "phonetic": "ahm-fEHrnzehtUHuhmEYEnAHng",
+          "french": "Am Fernsehturm-Eingang."
+        }
+      ]
+    },
+    {
+      "id": "berlin_mitte_historic_district_002",
+      "intent_en": "Is there a cafe on Unter den Linden",
+      "text_local": "Gibt es ein Café an der Straße Unter den Linden?",
+      "pronunciation": "EEpt-ehs-eyen-kahfEH-ahn-dehr-shtrAHsuh-UHnt-dehn-lIHnduhn",
+      "formality": "standard",
+      "cultural_note": "Unter den Linden is a major boulevard with numerous cafés; generic response suffices.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, viele Cafés.",
+        "pronunciation": "yAHfEEluh-kAHfehs",
+        "translation_en": "Yes, many cafés."
+      },
+      "responses": [
+        {
+          "english": "Yes, many cafés.",
+          "phonetic": "yAHfEEluh-kAHfehs",
+          "french": "Ja, viele Cafés."
+        }
+      ]
+    },
+    {
+      "id": "berlin_mitte_historic_district_003",
+      "intent_en": "Where is timed entry queue for Fernsehturm",
+      "text_local": "Wo ist die Warteschlange für die Fernsehturm-Zeitkarten?",
+      "pronunciation": "vOH-ihst-dee-vAHrtehshlAHnguh-fuer-dee-fEHrnzehtUHuhmtsEYEtkAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Zeitkarten refers to timed entry tickets; Warteschlange is the standard term for queue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Fernsehturm-Eingang.",
+        "pronunciation": "fAWr-dehm-fEHrnzehtUHuhmEYEnAHng",
+        "translation_en": "In front of Fernsehturm entrance."
+      },
+      "responses": [
+        {
+          "english": "In front of Fernsehturm entrance.",
+          "phonetic": "fAWr-dehm-fEHrnzehtUHuhmEYEnAHng",
+          "french": "Vor dem Fernsehturm-Eingang."
+        }
+      ]
+    },
+    {
+      "id": "berlin_mitte_historic_district_004",
+      "intent_en": "Where is nearest S-Bahn ticket machine",
+      "text_local": "Wo ist der nächste S-Bahn-Automat?",
+      "pronunciation": "vOH-ihst-dehr-nEHkhstuh-EHsbAHnOWtohmAHt",
+      "formality": "standard",
+      "cultural_note": "S-Bahn-Automat is the standard term for ticket machine; signage is reliable in Berlin transport hubs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In der S-Bahn-Station am Bahnsteig.",
+        "pronunciation": "ihn-dehr-EHsbAHnshtahtsyOHn-ahm-bAHnsteyek",
+        "translation_en": "In the S-Bahn station on the platform."
+      },
+      "responses": [
+        {
+          "english": "In the S-Bahn station on the platform.",
+          "phonetic": "ihn-dehr-EHsbAHnshtahtsyOHn-ahm-bAHnsteyek",
+          "french": "In der S-Bahn-Station am Bahnsteig."
+        }
+      ]
+    },
+    {
+      "id": "berlin_mitte_historic_district_005",
+      "intent_en": "How do I buy Museum Island combo ticket",
+      "text_local": "Wie bekomme ich Museum Island Kombi-Ticket?",
+      "pronunciation": "vee-buhkAWmuh-ihkh-moozEHuhm-IHslahnt-kAWmbeetIHkuht",
+      "formality": "casual",
+      "cultural_note": "Kombi-Ticket implies bundled tickets for multiple museums; Infoschalter is a common staff service point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kaufen Sie am Infoschalter.",
+        "pronunciation": "kOWfuhn-zee-ahm-IHnfawshAHlt",
+        "translation_en": "Buy at info desk."
+      },
+      "responses": [
+        {
+          "english": "Buy at info desk.",
+          "phonetic": "kOWfuhn-zee-ahm-IHnfawshAHlt",
+          "french": "Kaufen Sie am Infoschalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

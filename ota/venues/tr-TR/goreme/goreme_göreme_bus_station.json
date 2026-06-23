@@ -1,0 +1,144 @@
+{
+  "id": "goreme_göreme_bus_station",
+  "name_en": "Göreme Bus Station",
+  "name_local": "Göreme Otogarı",
+  "icon": "tram",
+  "lat": 38.6435271,
+  "lon": 34.829613,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "goreme_göreme_bus_station_001",
+      "intent_en": "Where do airport shuttles leave from?",
+      "text_local": "Havaalanı servisleri nereden kalkıyor?",
+      "pronunciation": "hahvahahahnOO-sehrvihslehrIH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Merkezi bir danışma masası olmadığı için yönlendirme yapılamıyor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peron 4'ten.",
+        "pronunciation": "pehrAWn-dUHrt-tAHn",
+        "translation_en": "From platform 4."
+      },
+      "responses": [
+        {
+          "english": "From platform 4.",
+          "phonetic": "pehrAWn-dUHrt-tAHn",
+          "french": "Peron 4'ten."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_bus_station_002",
+      "intent_en": "When is the next bus to Ürgüp?",
+      "text_local": "Ürgüp'e bir sonraki otobüs ne zaman?",
+      "pronunciation": "uhruepEH-bihr-sawnrahkIH-ohtohbUHs-nEH-zahmAHn",
+      "formality": "standard",
+      "cultural_note": "Peron numaraları ve saatler sıkça değiştiği için net bilgi verilemiyor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "On dakika sonra kalkıyor.",
+        "pronunciation": "AWn-dahkeekAH-sawnrAH-kahkOOyawr",
+        "translation_en": "It departs in ten minutes."
+      },
+      "responses": [
+        {
+          "english": "It departs in ten minutes.",
+          "phonetic": "AWn-dahkeekAH-sawnrAH-kahkOOyawr",
+          "french": "On dakika sonra kalkıyor."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_bus_station_003",
+      "intent_en": "How do I get a refund?",
+      "text_local": "Bilet iadesi nasıl yapabilirim?",
+      "pronunciation": "beelEHt-eeahdehsIH-nahsOO-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Refund processes are handled directly by the ticket seller at bus company counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Biletinizi aldığınız gişeye gidin.",
+        "pronunciation": "beelEHteeneezih-ahdOOoooonooz-eeshehyEH-eedIHn",
+        "translation_en": "Go to the counter where you bought your ticket."
+      },
+      "responses": [
+        {
+          "english": "Go to the counter where you bought your ticket.",
+          "phonetic": "beelEHteeneezih-ahdOOoooonooz-eeshehyEH-eedIHn",
+          "french": "Biletinizi aldığınız gişeye gidin."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_bus_station_004",
+      "intent_en": "Where is the luggage storage?",
+      "text_local": "Bagaj emanet nerede?",
+      "pronunciation": "bahvUH-kahyOOt-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Merkezi bir danışma masası olmadığı için yönlendirme yapılamıyor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bilet gişesinin arkasında.",
+        "pronunciation": "beelEHt-eeshehseenIHn-ahrkahsoondAH",
+        "translation_en": "Behind the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Behind the ticket counter.",
+          "phonetic": "beelEHt-eeshehseenIHn-ahrkahsoondAH",
+          "french": "Bilet gişesinin arkasında."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_bus_station_005",
+      "intent_en": "Where do airport shuttles leave from?",
+      "text_local": "Havalimanı servisleri nereden kalkıyor?",
+      "pronunciation": "hahvahleemahnOO-sehrvihslehrIH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Shuttle departure points change frequently; platform staff provide the most current information.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peronların başında.",
+        "pronunciation": "pehrawnahrOOn-bahshoondAH",
+        "translation_en": "At the start of the platforms."
+      },
+      "responses": [
+        {
+          "english": "At the start of the platforms.",
+          "phonetic": "pehrawnahrOOn-bahshoondAH",
+          "french": "Peronların başında."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_bus_station_006",
+      "intent_en": "How do I get a refund?",
+      "text_local": "Bilet iadesi nasıl yapılır?",
+      "pronunciation": "beelEHt-eeahdehsIH-nahsOO-yahpooOOr",
+      "formality": "standard",
+      "cultural_note": "İade işlemi için doğrudan bilet satıcısına yönlendirilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Firmanızın gişesine gidin.",
+        "pronunciation": "fihrmAHnoozoon-eeshehseenEH-eedIHn",
+        "translation_en": "Go to your company's counter."
+      },
+      "responses": [
+        {
+          "english": "Go to your company's counter.",
+          "phonetic": "fihrmAHnoozoon-eeshehseenEH-eedIHn",
+          "french": "Firmanızın gişesine gidin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

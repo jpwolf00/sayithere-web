@@ -1,0 +1,115 @@
+{
+  "id": "amboise_cave_vignerons",
+  "name_en": "Cave of the Winemakers",
+  "name_local": "Cave des Vignerons d'Amboise",
+  "icon": "wineglass",
+  "phrases": [
+    {
+      "id": "amboise_cave_001",
+      "intent_en": "Ask to taste the local Touraine Amboise wine",
+      "text_local": "Je voudrais goûter le Touraine-Amboise, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY goo-TAY luh too-REN ahm-BWAZ, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Touraine-Amboise is a local AOC wine appellation. The cave is carved into the limestone cliffs (tuffeau) beneath the town.",
+      "responses": [
+        {
+          "english": "Here's a glass. Cheers!",
+          "phonetic": "vwah-SEE uhn VEHR. sahn-TAY",
+          "french": "Voici un verre. Santé !"
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_cave_002",
+      "intent_en": "Ask the difference between the red and the rosé",
+      "text_local": "Quelle est la différence entre le rouge et le rosé ?",
+      "pronunciation": "kel ay lah dee-fay-RAHNS AHN-truh luh ROOZH ay luh roh-ZAY",
+      "formality": "polite",
+      "cultural_note": "Touraine-Amboise reds are primarily Côt (Malbec) or Cabernet Franc; the rosés are lighter and often pétillant (slightly sparkling).",
+      "responses": [
+        {
+          "english": "The red is fuller-bodied, the rosé lighter.",
+          "phonetic": "luh ROOZH eh ploo kor-SAY, luh roh-ZAY ploo lay-ZHAY",
+          "french": "Le rouge est plus corsé, le rosé plus léger."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_cave_003",
+      "intent_en": "Ask if they ship wine to the United States",
+      "text_local": "Livrez-vous du vin aux États-Unis ?",
+      "pronunciation": "lee-VRAY-voo doo VAN oh zay-tah-ZOO-nee",
+      "formality": "polite",
+      "cultural_note": "Many Loire Valley caves sell wine to export, but international shipping regulations vary. They can advise on purchasing for travel.",
+      "responses": [
+        {
+          "english": "No, but you can carry it in your suitcase.",
+          "phonetic": "nohn, meh voo poo-VAY ahm-por-TAY ahn vah-LEEZ",
+          "french": "Non, mais vous pouvez emporter en valise."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_cave_004",
+      "intent_en": "Ask what temperature the wine cellar is",
+      "text_local": "Quelle température fait-il dans la cave ?",
+      "pronunciation": "kel tahm-pay-rah-TOOR feh-TEEL dahn lah KAHV",
+      "formality": "polite",
+      "cultural_note": "The caves (caves troglodytiques) maintain a constant temperature of around 12°C, ideal for wine storage.",
+      "responses": [
+        {
+          "english": "About twelve degrees all year round.",
+          "phonetic": "ahn-vee-ROHN dooz duh-GRAY toot lah-NAY",
+          "french": "Environ douze degrés toute l'année."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_cave_005",
+      "intent_en": "Ask for a bottle recommendation to pair with cheese",
+      "text_local": "Pouvez-vous me recommander une bouteille pour accompagner un plateau de fromages ?",
+      "pronunciation": "poo-VAY-voo muh ruh-koh-mahn-DAY oon boo-TAY poor ah-kom-pahn-YAY un plah-TOH duh froh-MAZH",
+      "formality": "polite",
+      "cultural_note": "Touraine whites (Chenin Blanc) pair beautifully with local goat cheeses. Vendors are accustomed to giving pairing advice.",
+      "responses": [
+        {
+          "english": "I recommend the Chenin Blanc.",
+          "phonetic": "zhuh voo kohn-SAY luh shuh-NAN BLAHN",
+          "french": "Je vous conseille le Chenin Blanc."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "wine cellar / cave",
+      "word_local": "la cave",
+      "pronunciation": "lah KAHV"
+    },
+    {
+      "word_en": "wine tasting",
+      "word_local": "la dégustation",
+      "pronunciation": "lah day-goos-tah-SYON"
+    },
+    {
+      "word_en": "bottle",
+      "word_local": "la bouteille",
+      "pronunciation": "lah boo-TAY"
+    },
+    {
+      "word_en": "winemaker",
+      "word_local": "le vigneron",
+      "pronunciation": "luh veen-yuh-RON"
+    }
+  ]
+}

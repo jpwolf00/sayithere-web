@@ -1,0 +1,210 @@
+{
+  "id": "ankara_ankara_castle",
+  "name_en": "Ankara Castle",
+  "name_local": "Ankara Kalesi",
+  "icon": "building.columns",
+  "lat": 39.9414931,
+  "lon": 32.865427,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "ankara_ankara_castle_001",
+      "intent_en": "Where do I pay for castle parking?",
+      "text_local": "Kale otoparkı için nerede ödeme yapıyorum?",
+      "pronunciation": "kAHleh-ohtohpahrkOO-eetshIHn-nEHrehdeh-uhdEHmeh-yahpOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "Parking fee is paid near the entrance, not inside.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişe yakın ödeme noktası var.",
+        "pronunciation": "eereeshEH-yahkOOn-uhdEHmeh-nawktahsOO-vAHr",
+        "translation_en": "There is a payment point near the entrance."
+      },
+      "responses": [
+        {
+          "english": "There is a payment point near the entrance.",
+          "phonetic": "eereeshEH-yahkOOn-uhdEHmeh-nawktahsOO-vAHr",
+          "french": "Girişe yakın ödeme noktası var."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_castle_002",
+      "intent_en": "Where do I pay for castle parking?",
+      "text_local": "Kale otoparkı için nereye ödeme yapıyorum?",
+      "pronunciation": "kAHleh-ohtohpahrkOO-eetshIHn-nEHrehyeh-uhdEHmeh-yahpOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "Parking is managed by municipal workers collecting fees directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişe yakın park yerinde belediye görevlisine ödeyin.",
+        "pronunciation": "eereeshEH-yahkOOn-pAHrk-yehrihndEH-behlehdeeyEH-uhrehvleeseenEH-uhdehyIHn",
+        "translation_en": "Pay the municipal worker at the parking near the entrance."
+      },
+      "responses": [
+        {
+          "english": "Pay the municipal worker at the parking near the entrance.",
+          "phonetic": "eereeshEH-yahkOOn-pAHrk-yehrihndEH-behlehdeeyEH-uhrehvleeseenEH-uhdehyIHn",
+          "french": "Girişe yakın park yerinde belediye görevlisine ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_castle_003",
+      "intent_en": "Where is Parmak Kapı entrance?",
+      "text_local": "Parmak Kapı girişi nerede?",
+      "pronunciation": "pahrmAHk-kahpOO-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The castle has multiple unmarked gates; don't assume one main entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kağnı Sokak'tan içeriye doğru.",
+        "pronunciation": "kahnOO-sohkahktAHn-eetshehreeyEH-dohrUH",
+        "translation_en": "From Kağnı Sokak, go inward."
+      },
+      "responses": [
+        {
+          "english": "From Kağnı Sokak, go inward.",
+          "phonetic": "kahnOO-sohkahktAHn-eetshehreeyEH-dohrUH",
+          "french": "Kağnı Sokak'tan içeriye doğru."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_castle_004",
+      "intent_en": "How do I find unofficial guides?",
+      "text_local": "Resmi olmayan rehberleri nasıl bulurum?",
+      "pronunciation": "rehsmIH-awmahyAHn-rehhbehrlehrIH-nahsOO-booOOruhm",
+      "formality": "standard",
+      "cultural_note": "Unofficial guides are often volunteers who offer tips for a fee.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gönüllü rehber girişte olur.",
+        "pronunciation": "uhnuhllUH-rehhbEHr-eerihshtEH-ohUHr",
+        "translation_en": "Volunteer guides are at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Volunteer guides are at the entrance.",
+          "phonetic": "uhnuhllUH-rehhbEHr-eerihshtEH-ohUHr",
+          "french": "Gönüllü rehber girişte olur."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_castle_005",
+      "intent_en": "How do I find unofficial guides?",
+      "text_local": "Gönüllü rehberleri nasıl bulurum?",
+      "pronunciation": "uhnuhllUH-rehhbehrlehrIH-nahsOO-booOOruhm",
+      "formality": "standard",
+      "cultural_note": "Unofficial guides often approach visitors near the main entrances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gönüllü rehberler genelde ana kapıların civarında bekler.",
+        "pronunciation": "uhnuhllUH-rehhbehrlEHr-ehnahldEH-ahnAH-kahpooahrOOn-dzheevahroondAH-behklEHr",
+        "translation_en": "Volunteer guides usually wait around the main gates."
+      },
+      "responses": [
+        {
+          "english": "Volunteer guides usually wait around the main gates.",
+          "phonetic": "uhnuhllUH-rehhbehrlEHr-ehnahldEH-ahnAH-kahpooahrOOn-dzheevahroondAH-behklEHr",
+          "french": "Gönüllü rehberler genelde ana kapıların civarında bekler."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_castle_006",
+      "intent_en": "Where is Kağnı Sokak from here?",
+      "text_local": "Buradan Kağnı Sokak nerede?",
+      "pronunciation": "bOOrahdahn-kahnOO-sohkAHk-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The area is a mix of residential and ruins with no clear signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Parmak Kapı'nın yanından geçin.",
+        "pronunciation": "pahrmAHk-kahpoonOOn-yahnoondAHn-ehtshIHn",
+        "translation_en": "Pass by Parmak Kapı."
+      },
+      "responses": [
+        {
+          "english": "Pass by Parmak Kapı.",
+          "phonetic": "pahrmAHk-kahpoonOOn-yahnoondAHn-ehtshIHn",
+          "french": "Parmak Kapı'nın yanından geçin."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_castle_007",
+      "intent_en": "Is Şark Kulesi open to climb?",
+      "text_local": "Şark Kulesi'ne çıkmak mümkün mü?",
+      "pronunciation": "shAHrk-koolehseenEH-tshookmAHk-muhmkUHn-muh",
+      "formality": "standard",
+      "cultural_note": "Opening times for the towers can be erratic.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, çıkılabilir.",
+        "pronunciation": "ehvEHttshookooahbeelIHr",
+        "translation_en": "Yes, you can go up."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can go up.",
+          "phonetic": "ehvEHttshookooahbeelIHr",
+          "french": "Evet, çıkılabilir."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_castle_008",
+      "intent_en": "Where is Kağnı Sokak from here?",
+      "text_local": "Kağnı Sokak buradan nerede?",
+      "pronunciation": "kahnOO-sohkAHk-bOOrahdahn-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Signage inside the castle is notoriously poor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dış Kale’ye inince solda.",
+        "pronunciation": "dOOsh-kahlehyEH-eenIHndzheh-sawdAH",
+        "translation_en": "When you go down to Dış Kale, it's on the left."
+      },
+      "responses": [
+        {
+          "english": "When you go down to Dış Kale, it's on the left.",
+          "phonetic": "dOOsh-kahlehyEH-eenIHndzheh-sawdAH",
+          "french": "Dış Kale’ye inince solda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_castle_009",
+      "intent_en": "Is Şark Kulesi open to climb?",
+      "text_local": "Şark Kulesi'ne çıkmak serbest mi?",
+      "pronunciation": "shAHrk-koolehseenEH-tshookmAHk-sehrbEHst-mih",
+      "formality": "standard",
+      "cultural_note": "Access can change; it's best to check with staff on site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, açık.",
+        "pronunciation": "ehvEHtahtshOOk",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "ehvEHtahtshOOk",
+          "french": "Evet, açık."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

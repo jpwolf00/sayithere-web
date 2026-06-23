@@ -1,0 +1,100 @@
+{
+  "id": "heidelberg_café_knösel",
+  "name_en": "Café Knösel",
+  "name_local": "Café Knösel",
+  "icon": "fork.knife",
+  "lat": 49.4123626,
+  "lon": 8.7090338,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "heidelberg_café_knösel_001",
+      "intent_en": "Can I pay by card at the cake counter?",
+      "text_local": "Kann ich am Kuchenbuffet mit Karte zahlen?",
+      "pronunciation": "kAHn-ihkh-ahm-kUHkhuhnbUHfuht-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "German cafés increasingly accept card payments, but cash is still common. Direct inquiry avoids assumption.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Karten werden akzeptiert.",
+        "pronunciation": "yAHkAHrtuhn-vEHrduhn-AHktsehptEErt",
+        "translation_en": "Yes, cards are accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, cards are accepted.",
+          "phonetic": "yAHkAHrtuhn-vEHrduhn-AHktsehptEErt",
+          "french": "Ja, Karten werden akzeptiert."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_café_knösel_002",
+      "intent_en": "How do I order the Studentenkuss?",
+      "text_local": "Wie bestelle ich den Studentenkuss?",
+      "pronunciation": "vee-buhshtEHluh-ihkh-dehn-shtOOduhntEHnkuhs",
+      "formality": "standard",
+      "cultural_note": "Ordering at the counter without prior seating is standard in German cafés. Staff expect concise requests.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Theke mit Namen nennen.",
+        "pronunciation": "ahn-dehr-tEHkuh-miht-nAHmuhn-nEHnuhn",
+        "translation_en": "At the counter, state your order."
+      },
+      "responses": [
+        {
+          "english": "At the counter, state your order.",
+          "phonetic": "ahn-dehr-tEHkuh-miht-nAHmuhn-nEHnuhn",
+          "french": "An der Theke mit Namen nennen."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_café_knösel_003",
+      "intent_en": "Where do I sit after ordering?",
+      "text_local": "Wo setze ich mich nach der Bestellung hin?",
+      "pronunciation": "vOH-zEHtsuh-ihkh-mihkh-nahkh-dehr-buhshtEHluhng-hIHn",
+      "formality": "casual",
+      "cultural_note": "Self-seating is common in casual cafés. Staff may guide if tables are reserved.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Setzen Sie sich an einen freien Platz.",
+        "pronunciation": "zEHtsuhn-zee-zihkh-ahn-EYEnuhn-frEYE-UHn-plAHts",
+        "translation_en": "Take a seat at an available spot."
+      },
+      "responses": [
+        {
+          "english": "Take a seat at an available spot.",
+          "phonetic": "zEHtsuhn-zee-zihkh-ahn-EYEnuhn-frEYE-UHn-plAHts",
+          "french": "Setzen Sie sich an einen freien Platz."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_café_knösel_004",
+      "intent_en": "Is the Schlossblick terrace free now?",
+      "text_local": "Ist die Schlossblick-Terrasse frei?",
+      "pronunciation": "ihst-dee-shlAWsblihktEHrahsuh-frEYE",
+      "formality": "standard",
+      "cultural_note": "Terrasse availability is typically confirmed by staff or signage. Direct inquiry aligns with German service culture.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die Terrasse ist frei.",
+        "pronunciation": "yAHdee-tEHrahsuh-ihst-frEYE",
+        "translation_en": "Yes, the terrace is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, the terrace is free.",
+          "phonetic": "yAHdee-tEHrahsuh-ihst-frEYE",
+          "french": "Ja, die Terrasse ist frei."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

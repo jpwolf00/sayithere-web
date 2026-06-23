@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_špičák_bus_station",
+  "name_en": "Špičák Bus Station",
+  "name_local": "Autobusové nádraží Špičák",
+  "icon": "tram",
+  "lat": 48.8106526,
+  "lon": 14.3150586,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "český_krumlov_špičák_bus_station_001",
+      "intent_en": "Where is Bayerisch Eisenstein bus stop",
+      "text_local": "Kde je zastávka do Bayerisch Eisenstein?",
+      "pronunciation": "kdEH-yeh-zAHstahfkah-doh-bAHeeEHreeskh-EHeesEHnsteheen",
+      "formality": "standard",
+      "cultural_note": "At smaller Czech stations, bus stops may be integrated into the bus/train platform area rather than a separate bus station.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nástupiště 1, vpravo za pokladnou.",
+        "pronunciation": "nAHstoopEEsheh-yEHdehnfprAHvoh-zAHpohklAHdnoh",
+        "translation_en": "Platform 1, right past the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Platform 1, right past the ticket counter.",
+          "phonetic": "nAHstoopEEsheh-yEHdehnfprAHvoh-zAHpohklAHdnoh",
+          "french": "Nástupiště 1, vpravo za pokladnou."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_špičák_bus_station_002",
+      "intent_en": "Is cash required for border fare",
+      "text_local": "Musím platit za hraniční pásmo hotově?",
+      "pronunciation": "mOOseem-plAHeed-zAHhrahnyEEtshnyee-pAHsmoh-hOHtohvyeh",
+      "formality": "standard",
+      "cultural_note": "Rural Czech bus stations and some cross-border services may not have card terminals, making cash necessary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, jen hotovost.",
+        "pronunciation": "AHnohyEHn-hOHtohvohst",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "AHnohyEHn-hOHtohvohst",
+          "french": "Ano, jen hotovost."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_špičák_bus_station_003",
+      "intent_en": "When does last bus to Zwiesel leave",
+      "text_local": "Kdy jede poslední autobus do Zwieselu?",
+      "pronunciation": "kdEE-yEHdeh-pOHslehdnyee-OWtohboos-doh-zveeEHsehloo",
+      "formality": "standard",
+      "cultural_note": "Czech transport staff typically answer departure times concisely with the platform number.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ve 20:15 z nástupiště 2.",
+        "pronunciation": "vEH-dvAHtseht-pAHtnahtst-s-nAHstoopEEsheh-dvAH",
+        "translation_en": "At 8:15 PM from platform 2."
+      },
+      "responses": [
+        {
+          "english": "At 8:15 PM from platform 2.",
+          "phonetic": "vEH-dvAHtseht-pAHtnahtst-s-nAHstoopEEsheh-dvAH",
+          "french": "Ve 20:15 z nástupiště 2."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_špičák_bus_station_004",
+      "intent_en": "Can I buy ticket to Prague here",
+      "text_local": "Můžu si tady koupit lístek do Prahy?",
+      "pronunciation": "mOOzhoo-see-tAHdee-kOHpeet-lEEstehk-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Even small Czech bus stations often sell through-tickets for major domestic routes like Prague.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u pokladny.",
+        "pronunciation": "AHnohOO-pOHklahdnee",
+        "translation_en": "Yes, at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket counter.",
+          "phonetic": "AHnohOO-pOHklahdnee",
+          "french": "Ano, u pokladny."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

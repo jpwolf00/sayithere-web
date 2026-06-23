@@ -1,0 +1,122 @@
+{
+  "id": "innsbruck_tyrolean_state_museum_ferdinandeum",
+  "name_en": "Tyrolean State Museum Ferdinandeum",
+  "name_local": "Tiroler Landesmuseum Ferdinandeum",
+  "icon": "building.columns",
+  "lat": 47.2672129,
+  "lon": 11.3977146,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "innsbruck_tyrolean_state_museum_ferdinandeum_001",
+      "intent_en": "Ask when museum closes today",
+      "text_local": "Wann schließt das Museum heute?",
+      "pronunciation": "vAHn-shlEEst-dahs-moozEHuhm-hAWuhtuh",
+      "formality": "standard",
+      "cultural_note": "Closing times may vary; staff will confirm exact hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 18 Uhr.",
+        "pronunciation": "uhm-AHkhtsehn-OOr",
+        "translation_en": "At 6 PM."
+      },
+      "responses": [
+        {
+          "english": "At 6 PM.",
+          "phonetic": "uhm-AHkhtsehn-OOr",
+          "french": "Um 18 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_tyrolean_state_museum_ferdinandeum_002",
+      "intent_en": "Ask where to store coats and bags",
+      "text_local": "Wo kann ich Mantel und Tasche abgeben?",
+      "pronunciation": "vOH-kAHn-ihkh-mAHntuhl-uhnt-tAHshuh-AHpEHbuhn",
+      "formality": "standard",
+      "cultural_note": "Locker area is commonly located near the main entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kleiderablage am Eingang.",
+        "pronunciation": "klEYEdehrAHblahuh-ahm-EYEnAHng",
+        "translation_en": "Cloakroom at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Cloakroom at the entrance.",
+          "phonetic": "klEYEdehrAHblahuh-ahm-EYEnAHng",
+          "french": "Kleiderablage am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_tyrolean_state_museum_ferdinandeum_003",
+      "intent_en": "Ask if combined Tyrolean museums ticket available",
+      "text_local": "Gibt es ein Kombi-Ticket für die Landesmuseen?",
+      "pronunciation": "EEpt-ehs-eyen-kAWmbeetIHkuht-fuer-dee-lAHnduhsmoozEHuhn",
+      "formality": "standard",
+      "cultural_note": "Tickets are typically sold at the main entrance; staff will confirm availability.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket desk.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_tyrolean_state_museum_ferdinandeum_004",
+      "intent_en": "Ask where Jakob Stainer instruments are",
+      "text_local": "Wo sind die Jakob-Stainer-Instrumente?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-yAHkohpshtEYEnuhrIHnstroomEHntuh",
+      "formality": "standard",
+      "cultural_note": "The collection is a stable target; signage will guide visitors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Musiksaal im ersten Stock.",
+        "pronunciation": "ihm-moozEEkzahl-ihm-EHrstuhn-shtAWk",
+        "translation_en": "In the music room on the first floor."
+      },
+      "responses": [
+        {
+          "english": "In the music room on the first floor.",
+          "phonetic": "ihm-moozEEkzahl-ihm-EHrstuhn-shtAWk",
+          "french": "Im Musiksaal im ersten Stock."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_tyrolean_state_museum_ferdinandeum_005",
+      "intent_en": "Ask if photography allowed in special exhibitions",
+      "text_local": "Darf man hier in den Sonderausstellungen fotografieren?",
+      "pronunciation": "dAHrf-mahn-hEEr-ihn-dehn-zAWndehrOWsshtuhlUHnguhn-fOHtohrahfEEruhn",
+      "formality": "casual",
+      "cultural_note": "Staff will enforce the no-photography rule strictly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, verboten.",
+        "pronunciation": "nEYEnfehrbOHtuhn",
+        "translation_en": "No, prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, prohibited.",
+          "phonetic": "nEYEnfehrbOHtuhn",
+          "french": "Nein, verboten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "lübeck_krönchenhaus_pharmacy",
+  "name_en": "Krönchenhaus Pharmacy",
+  "name_local": "Apotheke am Krönchenhaus",
+  "icon": "info.circle",
+  "lat": 53.866444,
+  "lon": 10.684738,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lübeck_krönchenhaus_pharmacy_001",
+      "intent_en": "Where do I drop off my prescription",
+      "text_local": "Wo gebe ich mein Rezept ab?",
+      "pronunciation": "vOH-EHbuh-ihkh-meyen-rehtsEHpt-AHp",
+      "formality": "standard",
+      "cultural_note": "Apotheken in Deutschland haben oft einen separaten Schalter für Rezeptabgaben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Rezeptschalter.",
+        "pronunciation": "ahm-rEHtsehptshAHlt",
+        "translation_en": "At the prescription counter."
+      },
+      "responses": [
+        {
+          "english": "At the prescription counter.",
+          "phonetic": "ahm-rEHtsehptshAHlt",
+          "french": "Am Rezeptschalter."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_krönchenhaus_pharmacy_002",
+      "intent_en": "How long until my prescription is ready",
+      "text_local": "Wie lange dauert die Zubereitung?",
+      "pronunciation": "vee-lAHnguh-dOWt-dee-tsoobuhrEYEtuhng",
+      "formality": "standard",
+      "cultural_note": "Die Wartezeit hängt von der Art des Rezeptes ab.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ca. 30 Minuten.",
+        "pronunciation": "kAHdrEYEsihkh-meenOOtuhn",
+        "translation_en": "About 30 minutes."
+      },
+      "responses": [
+        {
+          "english": "About 30 minutes.",
+          "phonetic": "kAHdrEYEsihkh-meenOOtuhn",
+          "french": "Ca. 30 Minuten."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_krönchenhaus_pharmacy_003",
+      "intent_en": "Can I pay without German insurance",
+      "text_local": "Zahlt das auch ohne Krankenkasse?",
+      "pronunciation": "tsAHlt-dahs-OWkh-OHnuh-krAHnkuhnkAHsuh",
+      "formality": "standard",
+      "cultural_note": "Selbstzahler werden in deutschen Apotheken standardmäßig bedient.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bar oder Karte.",
+        "pronunciation": "yAHbAHr-OHd-kAHrtuh",
+        "translation_en": "Yes, cash or card."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash or card.",
+          "phonetic": "yAHbAHr-OHd-kAHrtuh",
+          "french": "Ja, bar oder Karte."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

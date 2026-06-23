@@ -1,0 +1,56 @@
+{
+  "id": "utrecht_twijnstraat_shopping_street",
+  "name_en": "Twijnstraat shopping street",
+  "name_local": "Twijnstraat",
+  "icon": "bag",
+  "lat": 52.0824174,
+  "lon": 5.1235245,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "utrecht_twijnstraat_shopping_street_001",
+      "intent_en": "How do I pay for parking at the garage",
+      "text_local": "Hoe betaal ik in de parkeergarage?",
+      "pronunciation": "hOO-buhtAHl-ihk-ihn-duh-pAHrkihrghahrAHzhuh",
+      "formality": "standard",
+      "cultural_note": "Dutch parking garages typically use automated payment at exit; no human interaction.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Automaat bij uitgang.",
+        "pronunciation": "UHuhtohmAHt-behih-UHuetghAHng",
+        "translation_en": "Machine at exit."
+      },
+      "responses": [
+        {
+          "english": "Machine at exit.",
+          "phonetic": "UHuhtohmAHt-behih-UHuetghAHng",
+          "french": "Automaat bij uitgang."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_twijnstraat_shopping_street_002",
+      "intent_en": "Where is De Zakkendrager shoe store",
+      "text_local": "Waar is De Zakkendrager schoenen?",
+      "pronunciation": "vAHr-ihs-duh-zAHkuhndrAHghuhr-skhOOnuhn",
+      "formality": "standard",
+      "cultural_note": "Dutch shoppers often give a general location cue like 'between X and Y' for small shops on a street.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tussen Bijenkorf en Hema.",
+        "pronunciation": "tSuhn-bEHee-uhngkAWrf-ehn-hEHmah",
+        "translation_en": "Between Bijenkorf and Hema."
+      },
+      "responses": [
+        {
+          "english": "Between Bijenkorf and Hema.",
+          "phonetic": "tSuhn-bEHee-uhngkAWrf-ehn-hEHmah",
+          "french": "Tussen Bijenkorf en Hema."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

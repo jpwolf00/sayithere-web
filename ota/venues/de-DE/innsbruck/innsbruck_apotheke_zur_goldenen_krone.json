@@ -1,0 +1,100 @@
+{
+  "id": "innsbruck_apotheke_zur_goldenen_krone",
+  "name_en": "Apotheke zur Goldenen Krone",
+  "name_local": "Apotheke zur Goldenen Krone",
+  "icon": "info.circle",
+  "lat": 47.2818976,
+  "lon": 11.5065702,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "innsbruck_apotheke_zur_goldenen_krone_001",
+      "intent_en": "Do you have herbal remedies without prescription?",
+      "text_local": "Haben Sie rezeptfreie pflanzliche Mittel?",
+      "pronunciation": "hAHbuhn-zee-rEHtsehptfrEYE-uh-pflAHntslihkhuh-mIHtuhl",
+      "formality": "standard",
+      "cultural_note": "In deutschen Apotheken sind viele pflanzliche Arzneimittel rezeptfrei erhältlich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Regal hinten links.",
+        "pronunciation": "yAHihm-rehAHl-hIHntuhn-lINGks",
+        "translation_en": "Yes, at the back shelf left."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the back shelf left.",
+          "phonetic": "yAHihm-rehAHl-hIHntuhn-lINGks",
+          "french": "Ja, im Regal hinten links."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_apotheke_zur_goldenen_krone_002",
+      "intent_en": "Can you scan my EU insurance card?",
+      "text_local": "Können Sie meine EU-Gesundheitskarte scannen?",
+      "pronunciation": "kUHnuhn-zee-mEYEnuh-EHOOuhzUHntheyetskAHrtuh-skAHnuhn",
+      "formality": "standard",
+      "cultural_note": "EU-Gesundheitskarten sind in Apotheken in Österreich für die Abrechnung üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_apotheke_zur_goldenen_krone_003",
+      "intent_en": "Where is the prescription counter?",
+      "text_local": "Wo ist der Rezeptschalter?",
+      "pronunciation": "vOH-ihst-dehr-rEHtsehptshAHlt",
+      "formality": "standard",
+      "cultural_note": "Apotheken in Österreich haben oft einen deutlich gekennzeichneten Rezeptschalter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_apotheke_zur_goldenen_krone_004",
+      "intent_en": "Where are the historic apothecary jars?",
+      "text_local": "Wo stehen die historischen Apothekergefäße?",
+      "pronunciation": "vOH-zihnt-dee-hihstOHrihshuhn-AHpohtEHkEHfehsuh",
+      "formality": "casual",
+      "cultural_note": "Historische Apothekergefäße sind in traditionellen Apotheken oft als Blickfang platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im vorderen Ausstellungsbereich.",
+        "pronunciation": "ihm-fAWrduhn-OWsshtEHluhngsbuhrEYEkh",
+        "translation_en": "In the front exhibition area."
+      },
+      "responses": [
+        {
+          "english": "In the front exhibition area.",
+          "phonetic": "ihm-fAWrduhn-OWsshtEHluhngsbuhrEYEkh",
+          "french": "Im vorderen Ausstellungsbereich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "honfleur_musee_eugene_boudin",
+  "name_en": "Eugène Boudin Museum",
+  "name_local": "Musée Eugène Boudin",
+  "icon": "building.columns",
+  "lat": 49.4197,
+  "lon": 0.232,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "honfleur_boudin_001",
+      "intent_en": "Ask where the Boudin beach scene paintings are",
+      "text_local": "Où se trouvent les tableaux de Boudin représentant les plages de Normandie ?",
+      "pronunciation": "oo suh TROOV lay tah-BLOH duh boo-DAHN ruh-pray-zahn-TAHN lay PLAHJ duh nor-mahn-DEE",
+      "formality": "polite",
+      "cultural_note": "Eugène Boudin (1824–1898) was born in Honfleur and is celebrated for his breezy beach scenes at Trouville and Deauville — the first painter to consistently work outdoors en plein air. He became Monet's first teacher and mentor.",
+      "responses": [
+        {
+          "english": "On the first floor, room three.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH, SAL TRWAH",
+          "french": "Au premier étage, salle trois."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_boudin_002",
+      "intent_en": "Ask if the museum also has works by Monet and Courbet",
+      "text_local": "Est-ce que le musée possède aussi des œuvres de Monet et de Courbet ?",
+      "pronunciation": "ess kuh luh moo-ZAY poh-SED oh-SEE day ZUV-ruh duh moh-NAY ay duh koor-BAY",
+      "formality": "polite",
+      "cultural_note": "The museum holds a rich collection beyond Boudin, including works by Corot, Courbet, Monet, Dufy, and Léger. Honfleur's artistic legacy spans from the Barbizon school to early Cubism.",
+      "responses": [
+        {
+          "english": "Yes, on the second floor.",
+          "phonetic": "wee, oh duh-ZYEM ay-TAHZH",
+          "french": "Oui, au deuxième étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_boudin_003",
+      "intent_en": "Ask if photos are allowed in the museum",
+      "text_local": "Peut-on prendre des photos dans le musée ?",
+      "pronunciation": "puh-TOHN PRAHN-druh day foh-TOH dahn luh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "Photography rules vary by exhibition at the Musée Eugène Boudin.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_boudin_004",
+      "intent_en": "Ask for an audio guide",
+      "text_local": "Avez-vous un audioguide pour la visite du musée ?",
+      "pronunciation": "ah-vay-VOO uhn oh-dee-oh-GEED poor lah vee-ZEET doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum offers audio guides in French and English. Given the richness of the Impressionist collection and the biographical story of Boudin's influence on Monet, the audio commentary significantly enhances the visit.",
+      "responses": [
+        {
+          "english": "Yes, at reception. Three euros.",
+          "phonetic": "wee, ah lah-KUHY. trwah uh-ROH",
+          "french": "Oui, à l'accueil. Trois euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_boudin_005",
+      "intent_en": "Ask if there is a student discount",
+      "text_local": "Y a-t-il un tarif réduit pour les étudiants ?",
+      "pronunciation": "ee ah-TEEL uhn tah-REEF ray-DWEE poor lay zay-too-DYAHN",
+      "formality": "polite",
+      "cultural_note": "The Musée Eugène Boudin offers reduced rates for students with valid ID.",
+      "responses": [
+        {
+          "english": "Yes, with a student card.",
+          "phonetic": "wee, ah-VEK oon kart ay-too-DYAHNT",
+          "french": "Oui, avec une carte étudiante."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "plein air painting",
+      "word_local": "la peinture en plein air",
+      "pronunciation": "lah pahn-TOOR ahn PLAHN air"
+    },
+    {
+      "word_en": "beach scene",
+      "word_local": "la scène de plage",
+      "pronunciation": "lah SEN duh PLAHJ"
+    },
+    {
+      "word_en": "folk art",
+      "word_local": "l'art populaire",
+      "pronunciation": "lar poh-poo-LAIR"
+    },
+    {
+      "word_en": "headdress",
+      "word_local": "la coiffe normande",
+      "pronunciation": "lah KWAHF nor-MAHND"
+    }
+  ]
+}

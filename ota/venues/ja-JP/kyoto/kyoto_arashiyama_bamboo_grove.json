@@ -1,0 +1,100 @@
+{
+  "id": "kyoto_arashiyama_bamboo_grove",
+  "name_en": "Arashiyama Bamboo Grove",
+  "name_local": "嵐山竹林の小径",
+  "icon": "leaf",
+  "lat": 35.0167419,
+  "lon": 135.6711482,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "kyoto_arashiyama_bamboo_grove_001",
+      "intent_en": "Is bamboo grove path open now?",
+      "text_local": "ちくりんの こみちは いま あるけますか？",
+      "pronunciation": "tEEkooEEnnoh-kOHmeetEEh-EEm-OOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "The path is a public walkway, so it is generally open, but it's polite to ask if there are temporary closures.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいています。",
+        "pronunciation": "hEEEEtEHeemSoo",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "hEEEEtEHeemSoo",
+          "french": "はい、あいています。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_arashiyama_bamboo_grove_002",
+      "intent_en": "Where is Tenryu-ji entrance?",
+      "text_local": "てんりゅうじの いりぐちは どこですか？",
+      "pronunciation": "tEHnOOoodEEnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Temple entrances often have multiple gates; specifying north gate is a common directional cue.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "きたがわの もんから はいれます。",
+        "pronunciation": "kEEtgwNoh-mohngk-HEEehmSoo",
+        "translation_en": "You can enter from the north gate."
+      },
+      "responses": [
+        {
+          "english": "You can enter from the north gate.",
+          "phonetic": "kEEtgwNoh-mohngk-HEEehmSoo",
+          "french": "きたがわの もんから はいれます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_arashiyama_bamboo_grove_003",
+      "intent_en": "Where to find rickshaw stand?",
+      "text_local": "じんりきしゃの のりばは どこですか？",
+      "pronunciation": "dEEneekeeNoh-nOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Rickshaw pullers in Arashiyama often wait near train stations for arriving tourists.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきの まえに います。",
+        "pronunciation": "ehkEEnoh-mEHnee-eemSoo",
+        "translation_en": "They are in front of the station."
+      },
+      "responses": [
+        {
+          "english": "They are in front of the station.",
+          "phonetic": "ehkEEnoh-mEHnee-eemSoo",
+          "french": "えきの まえに います。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_arashiyama_bamboo_grove_004",
+      "intent_en": "Where to buy bamboo souvenirs?",
+      "text_local": "たけの おみやげは どこで かえますか？",
+      "pronunciation": "tkEHnoh-OHmeeygEHh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "The main shopping street near the grove has many vendors selling local bamboo crafts.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "しょうてんがいに おみせが あります。",
+        "pronunciation": "OHootEHnggEEnee-OHmeesEHg-EEmSoo",
+        "translation_en": "There are shops in the shopping street."
+      },
+      "responses": [
+        {
+          "english": "There are shops in the shopping street.",
+          "phonetic": "OHootEHnggEEnee-OHmeesEHg-EEmSoo",
+          "french": "しょうてんがいに おみせが あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

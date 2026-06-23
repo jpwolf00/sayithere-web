@@ -1,0 +1,100 @@
+{
+  "id": "sapporo_former_hokkaido_government_office",
+  "name_en": "Former Hokkaido Government Office",
+  "name_local": "北海道庁旧本庁舎",
+  "icon": "building.columns",
+  "lat": 43.0639656,
+  "lon": 141.3480242,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "sapporo_former_hokkaido_government_office_001",
+      "intent_en": "Where is the museum shop?",
+      "text_local": "ミュージアムショップは どこですか？",
+      "pronunciation": "mOOoodeeMooohppOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Museum shops are typically placed near the exit so visitors pass through them at the end of their tour.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "でぐちの ちかくです。",
+        "pronunciation": "dEHgootEEnoh-tEEkkoodEHsoo",
+        "translation_en": "It's near the exit."
+      },
+      "responses": [
+        {
+          "english": "It's near the exit.",
+          "phonetic": "dEHgootEEnoh-tEEkkoodEHsoo",
+          "french": "でぐちの ちかくです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_former_hokkaido_government_office_002",
+      "intent_en": "Is entry free?",
+      "text_local": "にゅうじょうは むりょうですか？",
+      "pronunciation": "nOOoodohOOh-mOOOHoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many public historical buildings in Japan offer free admission to promote cultural heritage.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、むりょうです。",
+        "pronunciation": "hEEmOOOHoodEHsoo",
+        "translation_en": "Yes, it's free."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's free.",
+          "phonetic": "hEEmOOOHoodEHsoo",
+          "french": "はい、むりょうです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_former_hokkaido_government_office_003",
+      "intent_en": "Do I need to take off my shoes?",
+      "text_local": "くつを ぬぐひつようは ありますか？",
+      "pronunciation": "kootsOOoh-nOOgookhEEtsooyohOOh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "It is customary to remove shoes before entering traditional tatami mat rooms or some historical areas. Slippers are often provided.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ここでは ぬいでください。",
+        "pronunciation": "hEEkOHkohdEHh-nOOeedEHkoodsEE",
+        "translation_en": "Yes, please take them off here."
+      },
+      "responses": [
+        {
+          "english": "Yes, please take them off here.",
+          "phonetic": "hEEkOHkohdEHh-nOOeedEHkoodsEE",
+          "french": "はい、ここでは ぬいでください。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_former_hokkaido_government_office_004",
+      "intent_en": "Where is the tourist information desk?",
+      "text_local": "かんこうあんないじょは どこですか？",
+      "pronunciation": "kNGkohOOnnEEdOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many public buildings in Japan place the information desk just inside the main entrance or in a central lobby area.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "1かい おくです。",
+        "pronunciation": "EEtsee-kEE-OHkoodEHsoo",
+        "translation_en": "It's at the back on the 1st floor."
+      },
+      "responses": [
+        {
+          "english": "It's at the back on the 1st floor.",
+          "phonetic": "EEtsee-kEE-OHkoodEHsoo",
+          "french": "1かい おくです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

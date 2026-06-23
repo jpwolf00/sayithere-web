@@ -1,0 +1,106 @@
+{
+  "id": "nice_neighborhood_cimiez",
+  "name_en": "Cimiez",
+  "name_local": "Cimiez",
+  "icon": "building.2",
+  "lat": 43.7198,
+  "lon": 7.2763,
+  "radius_m": 700,
+  "phrases": [
+    {
+      "id": "nice_nbhd_cimiez_001",
+      "intent_en": "Ask about the Roman ruins in the neighbourhood",
+      "text_local": "Où se trouvent les vestiges romains de Cimiez ?",
+      "pronunciation": "oo seh TROOV lay ves-TEEZH ro-MAN deh see-MYAY",
+      "formality": "polite",
+      "cultural_note": "Cimiez was the Roman town of Cemenelum — its amphitheatre and thermal baths are still visible in the archaeological park.",
+      "responses": [
+        {
+          "english": "They are right behind the museum, in the park.",
+          "phonetic": "OO suh TROOV lay ves-TEEZH ro-MAN duh see-MYAY",
+          "french": "Ils sont juste derrière le musée, dans le parc."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_cimiez_002",
+      "intent_en": "Ask which bus goes to Cimiez from the city centre",
+      "text_local": "Quel bus faut-il prendre pour monter à Cimiez depuis le centre-ville ?",
+      "pronunciation": "kel BOOS foh-TEEL PRAN-dreh poor mon-TAY ah see-MYAY deh-PWEE leh SAN-treh-VEEL",
+      "formality": "polite",
+      "cultural_note": "Buses 15, 17 and 20 serve Cimiez from the centre. The neighbourhood sits on a hill above Nice with cooler air in summer.",
+      "responses": [
+        {
+          "english": "You must take line 15 or 17.",
+          "phonetic": "KEL boos zhuh PRAHN poor mawn-TAY ah see-MYAY duh-PWEE luh SAHN-truh VEEL",
+          "french": "Vous devez prendre la ligne 15 ou la 17."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_cimiez_003",
+      "intent_en": "Ask if the Cimiez Jazz Festival takes place in the summer",
+      "text_local": "Le Festival de Jazz de Nice se déroule-t-il bien à Cimiez en été ?",
+      "pronunciation": "leh fes-tee-VAL deh JAZZ deh NEES seh day-ROOL-teel BYAN ah see-MYAY an ay-TAY",
+      "formality": "polite",
+      "cultural_note": "The Nice Jazz Festival in July is held in the Cimiez arena — one of the world's oldest jazz festivals, founded in 1948.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "nice_nbhd_cimiez_004",
+      "intent_en": "Ask about the monastery and its rose garden",
+      "text_local": "Le monastère de Cimiez possède-t-il un jardin de roses accessible au public ?",
+      "pronunciation": "leh mo-nas-TEHR deh see-MYAY po-SED-teel un zhar-DAN deh ROHZ ak-se-SEEBL oh poo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "The Franciscan monastery garden is famous for its roses and offers a stunning panorama over Nice — entry is free.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "nice_nbhd_cimiez_005",
+      "intent_en": "Ask for directions to the Matisse Museum from the Roman ruins",
+      "text_local": "Comment se rendre au Musée Matisse depuis les arènes romaines ?",
+      "pronunciation": "kuh-MAN seh RAN-dreh oh moo-ZAY mah-TEES deh-PWEE lay ah-REN ro-MEN",
+      "formality": "polite",
+      "cultural_note": "The Matisse Museum is directly adjacent to the Roman arena and the monastery — all three can be visited in one visit.",
+      "responses": [
+        {
+          "english": "From the arenas, it's five minutes on foot, follow the signs.",
+          "phonetic": "kaw-MAHN suh RAHND-ruh oh moo-ZAY ma-TEES duh-PWEE lay ah-REN roh-MEN",
+          "french": "Depuis les arènes, c'est cinq minutes à pied, suivez les panneaux."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Roman ruins",
+      "word_local": "les vestiges romains",
+      "pronunciation": "lay ves-TEEZH ro-MAN"
+    },
+    {
+      "word_en": "amphitheatre",
+      "word_local": "l'amphithéâtre",
+      "pronunciation": "lam-fee-tay-AT-reh"
+    },
+    {
+      "word_en": "monastery",
+      "word_local": "le monastère",
+      "pronunciation": "leh mo-nas-TEHR"
+    },
+    {
+      "word_en": "rose garden",
+      "word_local": "la roseraie",
+      "pronunciation": "lah rohz-RAY"
+    }
+  ]
+}

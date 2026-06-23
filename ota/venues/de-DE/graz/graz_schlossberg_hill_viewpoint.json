@@ -1,0 +1,100 @@
+{
+  "id": "graz_schlossberg_hill_viewpoint",
+  "name_en": "Schlossberg Hill & Viewpoint",
+  "name_local": "Schlossberg",
+  "icon": "leaf",
+  "lat": 47.0765398,
+  "lon": 15.4376074,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "graz_schlossberg_hill_viewpoint_001",
+      "intent_en": "Where is the Schlossberglift vertical lift?",
+      "text_local": "Wo ist der Schlossberglift?",
+      "pronunciation": "vOH-ihst-dehr-shlAWsblIHft",
+      "formality": "standard",
+      "cultural_note": "In Austrian tourist settings, lift locations are typically indicated by staff counters or signs near the boarding area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rechts neben dem Uhrturm.",
+        "pronunciation": "rEHkhts-nEHbuhn-dehm-OOrtuhuhm",
+        "translation_en": "To the right of the clock tower."
+      },
+      "responses": [
+        {
+          "english": "To the right of the clock tower.",
+          "phonetic": "rEHkhts-nEHbuhn-dehm-OOrtuhuhm",
+          "french": "Rechts neben dem Uhrturm."
+        }
+      ]
+    },
+    {
+      "id": "graz_schlossberg_hill_viewpoint_002",
+      "intent_en": "Where can I get evening event wristbands?",
+      "text_local": "Wo gibt es Abendveranstaltungs-Armbänder?",
+      "pronunciation": "vOH-EEpt-ehs-AHbuhndfEHrahnstAHltuhngsAHrmbehnd",
+      "formality": "standard",
+      "cultural_note": "Evening event wristbands are typically distributed at a staffed counter before entry.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Abend am Schalter.",
+        "pronunciation": "ahm-AHbuhnt-ahm-shAHlt",
+        "translation_en": "At the counter in the evening."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the evening.",
+          "phonetic": "ahm-AHbuhnt-ahm-shAHlt",
+          "french": "Am Abend am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "graz_schlossberg_hill_viewpoint_003",
+      "intent_en": "Where is the Stadtwiese meadow viewpoint?",
+      "text_local": "Wo ist der Aussichtspunkt auf der Stadtwiese?",
+      "pronunciation": "vOH-ihst-dee-shtAHtveezuh",
+      "formality": "standard",
+      "cultural_note": "Open meadows like Stadtwiese are accessible via main paths; no precise micro-location cues are supported.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter der Uhr links.",
+        "pronunciation": "hIHnt-dehr-OOr-lINGks",
+        "translation_en": "Behind the clock to the left."
+      },
+      "responses": [
+        {
+          "english": "Behind the clock to the left.",
+          "phonetic": "hIHnt-dehr-OOr-lINGks",
+          "french": "Hinter der Uhr links."
+        }
+      ]
+    },
+    {
+      "id": "graz_schlossberg_hill_viewpoint_004",
+      "intent_en": "Where is the Kasematten café inside the casemates?",
+      "text_local": "Wo finde ich das Café in den Kasematten?",
+      "pronunciation": "vOH-ihst-dahs-kahfEH-kAHzehmAHtuhn",
+      "formality": "standard",
+      "cultural_note": "Cafés in historic casemates are usually signposted along the main pathways.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Inneren der Burgruine.",
+        "pronunciation": "ihm-IHnuhruhn-dehr-bUHuhgrooEEnuh",
+        "translation_en": "Inside the castle ruins."
+      },
+      "responses": [
+        {
+          "english": "Inside the castle ruins.",
+          "phonetic": "ihm-IHnuhruhn-dehr-bUHuhgrooEEnuh",
+          "french": "Im Inneren der Burgruine."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

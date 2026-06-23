@@ -1,0 +1,101 @@
+{
+  "id": "marseille_notre_dame_garde",
+  "name_en": "Basilique Notre-Dame de la Garde",
+  "name_local": "Basilique Notre-Dame de la Garde",
+  "icon": "building.columns.fill",
+  "lat": 43.2847,
+  "lon": 5.4048,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "marseille_garde_001",
+      "intent_en": "Ask how to get to the basilica on the hill",
+      "text_local": "Comment monter à la basilique Notre-Dame de la Garde à pied ?",
+      "pronunciation": "kuh-MAN mon-TAY ah lah bah-zee-LEEK not-ruh-DAMD lah GARD ah pyay",
+      "formality": "polite",
+      "cultural_note": "The walk up from the Vieux-Port takes about 20-30 minutes. Alternatively, bus #60 goes directly to the basilica from Place Castellane.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On foot, twenty minutes from the Vieux-Port. Or take bus 60.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "À pied, vingt minutes depuis le Vieux-Port. Ou prenez le bus 60."
+        }
+      ]
+    },
+    {
+      "id": "marseille_garde_002",
+      "intent_en": "Ask if entry is free",
+      "text_local": "L'entrée de la basilique est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY duh lah bah-zee-LEEK eh-tel grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Entry to the basilica is free, as with most churches in France.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "wee, lahn-TRAY eh grah-TWEET",
+          "french": "Oui, l'entrée est gratuite."
+        }
+      ]
+    },
+    {
+      "id": "marseille_garde_003",
+      "intent_en": "Ask about the best viewpoint over the city",
+      "text_local": "D'où peut-on voir toute la ville ?",
+      "pronunciation": "oo puh-TON vwar too lah VEEL",
+      "formality": "polite",
+      "cultural_note": "The terrace offers 360-degree views over Marseille, the port, the Frioul islands, and on clear days, the Calanques cliffs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the terrace, a 360-degree view of the whole city.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "Depuis la terrasse, vue à 360 degrés sur toute la ville."
+        }
+      ]
+    },
+    {
+      "id": "marseille_garde_004",
+      "intent_en": "Ask about opening hours",
+      "text_local": "Quelles sont les heures d'ouverture ?",
+      "pronunciation": "kel son layz UHR doo-vair-TYOR",
+      "formality": "polite",
+      "cultural_note": "The basilica has generous opening hours and is open daily year-round.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The hours are posted at the entrance.",
+          "phonetic": "layz oh-REHR son ah-fee-SHAY ah lahn-TRAY",
+          "french": "Les horaires sont affichés à l'entrée."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "basilica",
+      "word_local": "la basilique",
+      "pronunciation": "lah bah-zee-LEEK"
+    },
+    {
+      "word_en": "golden statue",
+      "word_local": "la statue dorée",
+      "pronunciation": "lah stat-oo doh-RAY"
+    },
+    {
+      "word_en": "viewpoint",
+      "word_local": "le point de vue",
+      "pronunciation": "leh pwan duh VOO"
+    },
+    {
+      "word_en": "good mother",
+      "word_local": "la bonne mère",
+      "pronunciation": "lah bon MEHR"
+    }
+  ]
+}

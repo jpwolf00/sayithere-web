@@ -1,0 +1,100 @@
+{
+  "id": "zurich_swiss_national_museum",
+  "name_en": "Swiss National Museum",
+  "name_local": "Landesmuseum Zürich",
+  "icon": "building.columns",
+  "lat": 47.3784378,
+  "lon": 8.540275,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zurich_swiss_national_museum_001",
+      "intent_en": "Can I pay at café by card?",
+      "text_local": "Kann ich im Café mit Karte zahlen?",
+      "pronunciation": "kAHn-ihkh-ihm-kahfEH-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Swiss cafés in public institutions generally accept card payments at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tresen.",
+        "pronunciation": "yAHahm-trEHzuhn",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-trEHzuhn",
+          "french": "Ja, am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "zurich_swiss_national_museum_002",
+      "intent_en": "Where is Hauptbahnhof exit?",
+      "text_local": "Wo geht's zum Hauptbahnhof?",
+      "pronunciation": "vOH-EHts-tsuhm-hOWptbAHnhohf",
+      "formality": "standard",
+      "cultural_note": "Swiss museums near main stations typically direct to public transport via signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, am Ende des Gangs.",
+        "pronunciation": "guhrAHdehOWsahm-EHnduh-dehs-gAHngs",
+        "translation_en": "Straight ahead, at the end of the hallway."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, at the end of the hallway.",
+          "phonetic": "guhrAHdehOWsahm-EHnduh-dehs-gAHngs",
+          "french": "Geradeaus, am Ende des Gangs."
+        }
+      ]
+    },
+    {
+      "id": "zurich_swiss_national_museum_003",
+      "intent_en": "Where is the archaeology section?",
+      "text_local": "Wo ist die Archäologie-Ausstellung?",
+      "pronunciation": "vOH-ihst-dee-AHrkhehOHlohEEOWsshtEHluhng",
+      "formality": "standard",
+      "cultural_note": "In Swiss museums, archaeological sections are typically on the ground floor accessible by signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss, folgen Sie den Schildern.",
+        "pronunciation": "ihm-ehrdEHshawsfAWluhn-zee-dehn-shIHldn",
+        "translation_en": "Ground floor, follow the signs."
+      },
+      "responses": [
+        {
+          "english": "Ground floor, follow the signs.",
+          "phonetic": "ihm-ehrdEHshawsfAWluhn-zee-dehn-shIHldn",
+          "french": "Im Erdgeschoss, folgen Sie den Schildern."
+        }
+      ]
+    },
+    {
+      "id": "zurich_swiss_national_museum_004",
+      "intent_en": "Must I check my backpack?",
+      "text_local": "Muss ich meinen Rucksack abgeben?",
+      "pronunciation": "mUHs-ihkh-mEYEnuhn-rUHkzahk-AHpEHbuhn",
+      "formality": "standard",
+      "cultural_note": "Swiss museums often require large backpacks to be checked for safety and space reasons.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

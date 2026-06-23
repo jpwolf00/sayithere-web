@@ -1,0 +1,78 @@
+{
+  "id": "krems_krems_tourist_information_center",
+  "name_en": "Krems Tourist Information Center",
+  "name_local": "Tourismusverband Krems",
+  "icon": "info.circle",
+  "lat": 48.4108382,
+  "lon": 15.6003717,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "krems_krems_tourist_information_center_001",
+      "intent_en": "Ask how to book wine cellar tour",
+      "text_local": "Wie buche ich eine Weinhof-Führung?",
+      "pronunciation": "vee-bOOkhuh-ihkh-EYEnuh-vEYEnhohffUEruhng",
+      "formality": "standard",
+      "cultural_note": "Weinhof-Führungen werden oft zentral über die Weinstraße Wachau vermittelt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie beim Weinstraße Wachau Schalter nach.",
+        "pronunciation": "frAHuhn-zee-beyem-vEYEnstrAHsuh-vAHkhow-shAHlt-nAHkh",
+        "translation_en": "Ask at the Weinstraße Wachau desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the Weinstraße Wachau desk.",
+          "phonetic": "frAHuhn-zee-beyem-vEYEnstrAHsuh-vAHkhow-shAHlt-nAHkh",
+          "french": "Fragen Sie beim Weinstraße Wachau Schalter nach."
+        }
+      ]
+    },
+    {
+      "id": "krems_krems_tourist_information_center_002",
+      "intent_en": "Ask where to buy Wachau visitors pass",
+      "text_local": "Wo gibt es die Wachau Welterbe Besucherpässe?",
+      "pronunciation": "vOH-EEpt-ehs-dee-vAHkhow-vEHltbuh-buhzOOkhpEHsuh",
+      "formality": "standard",
+      "cultural_note": "Wachau Welterbe-Pässe werden oft an der Kulturinfotheke oder beim Kulturschatz Wachau Berater ausgegeben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für Kulturangebote.",
+        "pronunciation": "ahm-shAHlt-fuer-kUHltoorAHngehbOHtuh",
+        "translation_en": "At the culture desk."
+      },
+      "responses": [
+        {
+          "english": "At the culture desk.",
+          "phonetic": "ahm-shAHlt-fuer-kUHltoorAHngehbOHtuh",
+          "french": "Am Schalter für Kulturangebote."
+        }
+      ]
+    },
+    {
+      "id": "krems_krems_tourist_information_center_003",
+      "intent_en": "Ask where to get Danube bike trail maps",
+      "text_local": "Wo bekomme ich Radwanderkarten für den Donauradweg?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-rAHdvahndkAHrtuhn-fuer-dehn-dOHnowrAHdvehk",
+      "formality": "casual",
+      "cultural_note": "Karten für den Donauradweg sind ein Standardangebot an Touristeninfostellen entlang der Route.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Empfang.",
+        "pronunciation": "deerEHkt-ahm-ehmpfAHng",
+        "translation_en": "Directly at the reception."
+      },
+      "responses": [
+        {
+          "english": "Directly at the reception.",
+          "phonetic": "deerEHkt-ahm-ehmpfAHng",
+          "french": "Direkt am Empfang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "karlovy_vary_karlovy_vary_tourist_information_center",
+  "name_en": "Karlovy Vary Tourist Information Center",
+  "name_local": "Infocentrum Karlovy Vary",
+  "icon": "info.circle",
+  "lat": 50.2188442,
+  "lon": 12.8811559,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "karlovy_vary_karlovy_vary_tourist_information_center_001",
+      "intent_en": "Where can I book a spa treatment?",
+      "text_local": "Kde si mohu rezervovat lázeňskou proceduru?",
+      "pronunciation": "kdEH-see-mOHhoo-rEHzehrvOHvaht-lAHzehnyskoh-prOHtsehdOOroo",
+      "formality": "standard",
+      "cultural_note": "Czech staff in tourist centers often use short, direct directions without a greeting.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U přepážky vlevo.",
+        "pronunciation": "OO-prEHpahshkee-vlEHvoh",
+        "translation_en": "At the counter on the left."
+      },
+      "responses": [
+        {
+          "english": "At the counter on the left.",
+          "phonetic": "OO-prEHpahshkee-vlEHvoh",
+          "french": "U přepážky vlevo."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_karlovy_vary_tourist_information_center_002",
+      "intent_en": "How do I rent a mineral water cup?",
+      "text_local": "Jak si mohu půjčit lázeňský pohárek?",
+      "pronunciation": "yAHk-see-mOHhoo-pOOytsheet-lAHzehnyskee-pOHhahrehk",
+      "formality": "standard",
+      "cultural_note": "A deposit system is standard for renting spa cups in Karlovy Vary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zaplaťte zálohu 100 korun a vyberte si.",
+        "pronunciation": "zAHplahteh-zAHlohhoo-stOH-kOHroon-ah-vEEbehrteh-see",
+        "translation_en": "Pay a deposit of 100 crowns and choose one."
+      },
+      "responses": [
+        {
+          "english": "Pay a deposit of 100 crowns and choose one.",
+          "phonetic": "zAHplahteh-zAHlohhoo-stOH-kOHroon-ah-vEEbehrteh-see",
+          "french": "Zaplaťte zálohu 100 korun a vyberte si."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_karlovy_vary_tourist_information_center_003",
+      "intent_en": "Do you sell public transport tickets?",
+      "text_local": "Prodáváte jízdenky na MHD?",
+      "pronunciation": "prOHdahvAHteh-yEEzdehngkee-nAHmht",
+      "formality": "standard",
+      "cultural_note": "A simple affirmative is a common and expected response in Czech service interactions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, prodáváme.",
+        "pronunciation": "AHnohprOHdahvAHmeh",
+        "translation_en": "Yes, we sell them."
+      },
+      "responses": [
+        {
+          "english": "Yes, we sell them.",
+          "phonetic": "AHnohprOHdahvAHmeh",
+          "french": "Ano, prodáváme."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_karlovy_vary_tourist_information_center_004",
+      "intent_en": "Where is Goethe's Lookout?",
+      "text_local": "Kde je Goethova vyhlídka?",
+      "pronunciation": "kdEH-yeh-gOHehthOHvah-vEEhleetkah",
+      "formality": "standard",
+      "cultural_note": "Directions from the center often reference the uphill forest path rather than a street address.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nahoru lesem, asi 20 minut pěšky.",
+        "pronunciation": "nAHhohroo-lEHsehmAHsee-dvAHtseht-mEEnoot-pyEHshkee",
+        "translation_en": "Up through the forest, about a 20-minute walk."
+      },
+      "responses": [
+        {
+          "english": "Up through the forest, about a 20-minute walk.",
+          "phonetic": "nAHhohroo-lEHsehmAHsee-dvAHtseht-mEEnoot-pyEHshkee",
+          "french": "Nahoru lesem, asi 20 minut pěšky."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

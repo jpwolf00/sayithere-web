@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_hanácká_koláč_bakery",
+  "name_en": "Hanácká Koláč Bakery",
+  "name_local": "Hanácká Koláč",
+  "icon": "fork.knife",
+  "lat": 49.5940567,
+  "lon": 17.251143,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "olomouc_hanácká_koláč_bakery_001",
+      "intent_en": "Do I pay at the counter before seating",
+      "text_local": "Platí se u pultu před usednutím?",
+      "pronunciation": "plAHee-seh-OO-pOOltoo-prehd-OOsehdnOOeem",
+      "formality": "standard",
+      "cultural_note": "Many Czech bakeries and casual eateries operate on a pay-at-counter system.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, objednejte a zaplaťte u pultu.",
+        "pronunciation": "AHnohOHbyehdnAYteh-ah-zAHplahteh-OO-pOOltoo",
+        "translation_en": "Yes, order and pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, order and pay at the counter.",
+          "phonetic": "AHnohOHbyehdnAYteh-ah-zAHplahteh-OO-pOOltoo",
+          "french": "Ano, objednejte a zaplaťte u pultu."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_hanácká_koláč_bakery_002",
+      "intent_en": "Do you have olomoucké tvarůžky pastries today",
+      "text_local": "Máte dnes pečivo s olomouckými tvarůžky?",
+      "pronunciation": "mAHteh-dnEHs-pEHtsheevoh-s-OHlohmOHtskeemee-tvAHrooshkee",
+      "formality": "standard",
+      "cultural_note": "Olomoucké tvarůžky are a pungent local cheese, often baked into pastries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, máme tvarůžkový koláč i loupák.",
+        "pronunciation": "AHnohmAHmeh-tvAHrooshkOHvee-kOHlahtsh-ee-lOHpahk",
+        "translation_en": "Yes, we have tvarůžky koláč and loupák."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have tvarůžky koláč and loupák.",
+          "phonetic": "AHnohmAHmeh-tvAHrooshkOHvee-kOHlahtsh-ee-lOHpahk",
+          "french": "Ano, máme tvarůžkový koláč i loupák."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_hanácká_koláč_bakery_003",
+      "intent_en": "Do you have seating inside the bakery",
+      "text_local": "Máte uvnitř pekárny místo k sezení?",
+      "pronunciation": "mAHteh-OOvnyeetr-pEHkahrnee-mEEstoh-k-sEHzehnyee",
+      "formality": "standard",
+      "cultural_note": "Small bakeries in the Czech Republic often have limited indoor seating.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, vzadu je pár stolů.",
+        "pronunciation": "AHnohvzAHdoo-yeh-pAHr-stOHloo",
+        "translation_en": "Yes, there are a few tables in the back."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are a few tables in the back.",
+          "phonetic": "AHnohvzAHdoo-yeh-pAHr-stOHloo",
+          "french": "Ano, vzadu je pár stolů."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_hanácká_koláč_bakery_004",
+      "intent_en": "Is there an extra charge for takeaway boxes",
+      "text_local": "Platí se za krabičku na odnos zvlášť?",
+      "pronunciation": "plAHee-seh-zAHkrahbEEtshkoo-nAHohdnohz-zvlAHsh",
+      "formality": "standard",
+      "cultural_note": "A small surcharge for disposable packaging is common in some Czech bakeries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, krabička je za pět korun.",
+        "pronunciation": "AHnohkrAHbeetshkah-yeh-zAHpyeht-kOHroon",
+        "translation_en": "Yes, the box is five crowns."
+      },
+      "responses": [
+        {
+          "english": "Yes, the box is five crowns.",
+          "phonetic": "AHnohkrAHbeetshkah-yeh-zAHpyeht-kOHroon",
+          "french": "Ano, krabička je za pět korun."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

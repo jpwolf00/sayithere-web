@@ -1,0 +1,122 @@
+{
+  "id": "weimar_weimar_weekly_market",
+  "name_en": "Weimar Weekly Market",
+  "name_local": "Wochenmarkt Weimar",
+  "icon": "cart",
+  "lat": 50.9793301,
+  "lon": 11.3297921,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "weimar_weimar_weekly_market_001",
+      "intent_en": "Ask if cheese vendors allow tasting first",
+      "text_local": "Darf ich den Käse probieren?",
+      "pronunciation": "dAHrf-ihkh-dehn-kEHzuh-prohbEEruhn",
+      "formality": "standard",
+      "cultural_note": "Sampling cheese before buying is common and expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor dem Kauf.",
+        "pronunciation": "yAHfAWr-dehm-kOWf",
+        "translation_en": "Yes, before purchase."
+      },
+      "responses": [
+        {
+          "english": "Yes, before purchase.",
+          "phonetic": "yAHfAWr-dehm-kOWf",
+          "french": "Ja, vor dem Kauf."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_weekly_market_002",
+      "intent_en": "Ask where the Thuringian sausage stands are",
+      "text_local": "Wo finde ich die Thüringer Würste?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-tUEring-vUErstuh",
+      "formality": "standard",
+      "cultural_note": "Customers expect to see the sausage stands grouped near the market entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hier vorne, folgen Sie den Ständen.",
+        "pronunciation": "hEEr-fAWrnuhfAWluhn-zee-dehn-shtEHnduhn",
+        "translation_en": "Up front, follow the stalls."
+      },
+      "responses": [
+        {
+          "english": "Up front, follow the stalls.",
+          "phonetic": "hEEr-fAWrnuhfAWluhn-zee-dehn-shtEHnduhn",
+          "french": "Hier vorne, folgen Sie den Ständen."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_weekly_market_003",
+      "intent_en": "Ask where to pay deposit on glass bottles",
+      "text_local": "Wo gibt es Pfand für Flaschen?",
+      "pronunciation": "vOH-EEpt-ehs-pfAHnt-fuer-flAHshuhn",
+      "formality": "standard",
+      "cultural_note": "Deposit return is available at vendor stalls or central refund counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder bei den Ständen.",
+        "pronunciation": "ahm-shAHlt-OHd-beye-dehn-shtEHnduhn",
+        "translation_en": "At the counter or stalls."
+      },
+      "responses": [
+        {
+          "english": "At the counter or stalls.",
+          "phonetic": "ahm-shAHlt-OHd-beye-dehn-shtEHnduhn",
+          "french": "Am Schalter oder bei den Ständen."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_weekly_market_004",
+      "intent_en": "Ask when fresh bread section opens",
+      "text_local": "Wann hat die Bäckerei auf?",
+      "pronunciation": "vAHn-haht-dee-bEHkehrEYE-OWf",
+      "formality": "standard",
+      "cultural_note": "Bakeries open early; fresh bread sells out by late morning.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ab 7 Uhr.",
+        "pronunciation": "ahp-zEEbuhn-OOr",
+        "translation_en": "From 7 am."
+      },
+      "responses": [
+        {
+          "english": "From 7 am.",
+          "phonetic": "ahp-zEEbuhn-OOr",
+          "french": "Ab 7 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_weekly_market_005",
+      "intent_en": "Ask if Saale-Unstrut wine samples are free",
+      "text_local": "Kostet die Weinprobe Geld?",
+      "pronunciation": "kAWstuht-dee-vEYEnprohbuh-EHlt",
+      "formality": "standard",
+      "cultural_note": "Tasting is free but requires a bottle deposit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur Glas Pfand.",
+        "pronunciation": "nEYEnnOOr-lAHs-pfAHnt",
+        "translation_en": "No, only glass deposit."
+      },
+      "responses": [
+        {
+          "english": "No, only glass deposit.",
+          "phonetic": "nEYEnnOOr-lAHs-pfAHnt",
+          "french": "Nein, nur Glas Pfand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "cologne_cologne_tourist_information_center",
+  "name_en": "Cologne Tourist Information Center",
+  "name_local": "KölnTourismus Service Center",
+  "icon": "info.circle",
+  "lat": 50.938361,
+  "lon": 6.959974,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "cologne_cologne_tourist_information_center_001",
+      "intent_en": "Can I book a cathedral tour here",
+      "text_local": "Kann ich hier eine Domführung buchen?",
+      "pronunciation": "kAHn-ihkh-hEEr-EYEnuh-dAWmfuerUHng-bOOkhuhn",
+      "formality": "casual",
+      "cultural_note": "Direct yes/no answers are expected for reservation questions at service desks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_tourist_information_center_002",
+      "intent_en": "Where do I buy the KölnCard",
+      "text_local": "Wo kaufe ich die KölnCard?",
+      "pronunciation": "vOH-kOWfuh-ihkh-dee-kUHln-kAHrt",
+      "formality": "standard",
+      "cultural_note": "Schalter (counter) is the standard term for ticket/service desks in German public venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am KölnTourismus Schalter.",
+        "pronunciation": "ahm-kUHln-toorIHsmuhs-shAHlt",
+        "translation_en": "At the KölnTourismus counter."
+      },
+      "responses": [
+        {
+          "english": "At the KölnTourismus counter.",
+          "phonetic": "ahm-kUHln-toorIHsmuhs-shAHlt",
+          "french": "Am KölnTourismus Schalter."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_tourist_information_center_003",
+      "intent_en": "Do you sell Farina museum tickets",
+      "text_local": "Verkaufen Sie Tickets fürs Duftmuseum?",
+      "pronunciation": "fehrkOWfuhn-zee-tIHkuhts-fUErs-duhftmOOzehUHm",
+      "formality": "casual",
+      "cultural_note": "Direct yes/no answers are expected for ticket sales questions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_tourist_information_center_004",
+      "intent_en": "Where is the river cruise ticket counter",
+      "text_local": "Wo ist der Rheinschifffahrtskiosk?",
+      "pronunciation": "vOH-ihst-dehr-rEYEnshihfAHrtskihOHsk",
+      "formality": "casual",
+      "cultural_note": "Schalter (counter) is the standard term for ticket/service desks in German public venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Haupteingang links.",
+        "pronunciation": "ahm-hOWptEYEngAHng-lINGks",
+        "translation_en": "At the main entrance on the left."
+      },
+      "responses": [
+        {
+          "english": "At the main entrance on the left.",
+          "phonetic": "ahm-hOWptEYEngAHng-lINGks",
+          "french": "Am Haupteingang links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

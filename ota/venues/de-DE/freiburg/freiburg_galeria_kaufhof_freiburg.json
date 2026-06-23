@@ -1,0 +1,100 @@
+{
+  "id": "freiburg_galeria_kaufhof_freiburg",
+  "name_en": "Galeria Kaufhof Freiburg",
+  "name_local": "Galeria Kaufhof",
+  "icon": "bag",
+  "lat": 47.9960901,
+  "lon": 7.8494005,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "freiburg_galeria_kaufhof_freiburg_001",
+      "intent_en": "Where do I pick up Click and Collect?",
+      "text_local": "Wo hole ich Click & Collect ab?",
+      "pronunciation": "vOH-hOHluh-ihkh-klIHk-UHnt-kAWlehkt-AHp",
+      "formality": "standard",
+      "cultural_note": "Click & Collect is typically processed at a service counter. Staff will direct to the correct location if not immediately visible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Click & Collect am Schalter",
+        "pronunciation": "klIHk-UHnt-kAWlehkt-ahm-shAHlt",
+        "translation_en": "Click & Collect at the counter."
+      },
+      "responses": [
+        {
+          "english": "Click & Collect at the counter.",
+          "phonetic": "klIHk-UHnt-kAWlehkt-ahm-shAHlt",
+          "french": "Click & Collect am Schalter"
+        }
+      ]
+    },
+    {
+      "id": "freiburg_galeria_kaufhof_freiburg_002",
+      "intent_en": "Is the LOOK department on this floor?",
+      "text_local": "Ist die LOOK-Abteilung hier?",
+      "pronunciation": "ihst-dee-ehnlUHkdehAHptEYEluhng-hEEr",
+      "formality": "casual",
+      "cultural_note": "Department stores in Germany often have beauty sections (like LOOK) on upper floors. Staff may guide customers accordingly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "LOOK im ersten Stock.",
+        "pronunciation": "ehnlUHkdeh-ihm-EHrstuhn-shtAWk",
+        "translation_en": "LOOK on the first floor."
+      },
+      "responses": [
+        {
+          "english": "LOOK on the first floor.",
+          "phonetic": "ehnlUHkdeh-ihm-EHrstuhn-shtAWk",
+          "french": "LOOK im ersten Stock."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_galeria_kaufhof_freiburg_003",
+      "intent_en": "Where do I register Kaufhof-Card points?",
+      "text_local": "Wo kann ich Kaufhof-Card-Punkte eintragen?",
+      "pronunciation": "vOH-kAHn-ihkh-kOWfhohfkAHrtpUHngktuh-EYEntrAHuhn",
+      "formality": "standard",
+      "cultural_note": "Point registration is typically handled at service counters. Staff will assist with the process.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Information.",
+        "pronunciation": "ahn-dehr-IHnfawrmahtsyOHn",
+        "translation_en": "At the information desk."
+      },
+      "responses": [
+        {
+          "english": "At the information desk.",
+          "phonetic": "ahn-dehr-IHnfawrmahtsyOHn",
+          "french": "An der Information."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_galeria_kaufhof_freiburg_004",
+      "intent_en": "Where is the Global Blue desk?",
+      "text_local": "Wo ist der Global Blue-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-lohbAHl-ehnblOOdehshAHlt",
+      "formality": "standard",
+      "cultural_note": "In Germany, tax-free desks are often marked with 'Global Blue' signage. Staff typically point to the customer service area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss.",
+        "pronunciation": "ihm-ehrdgEHshaws",
+        "translation_en": "On the ground floor."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor.",
+          "phonetic": "ihm-ehrdgEHshaws",
+          "french": "Im Erdgeschoss."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

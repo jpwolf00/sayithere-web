@@ -1,0 +1,106 @@
+{
+  "id": "nice_neighborhood_vieux_nice",
+  "name_en": "Old Nice",
+  "name_local": "Vieux-Nice",
+  "icon": "building.2",
+  "lat": 43.696,
+  "lon": 7.279,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "nice_nbhd_vieux_001",
+      "intent_en": "Ask a local for the best bakery in the neighbourhood",
+      "text_local": "Pourriez-vous me conseiller la meilleure boulangerie du quartier ?",
+      "pronunciation": "poo-RYAY voo meh kon-say-YAY lah may-YUHR boo-lan-ZHREE doo kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Vieux-Nice has several excellent boulangeries — look for fougasse, the local olive and herb flatbread.",
+      "responses": [
+        {
+          "english": "Yes, the Boulangerie du Cours is excellent, right here.",
+          "phonetic": "BON-zhoor poor-YAY voo muh kon-say-YAY la may-YUR boo-lahn-zhuh-REE dyoo kar-TYAY",
+          "french": "Oui, la Boulangerie du Cours est excellente, juste ici."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_vieux_002",
+      "intent_en": "Ask if the neighbourhood is safe to walk at night",
+      "text_local": "Le quartier est-il sûr pour se promener le soir ?",
+      "pronunciation": "leh kar-TYAY eh-TEEL SOOR poor seh pro-meh-NAY leh SWAR",
+      "formality": "polite",
+      "cultural_note": "Vieux-Nice is lively and generally safe at night, especially around Cours Saleya which becomes a bar and café strip.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "nice_nbhd_vieux_003",
+      "intent_en": "Ask what the colourful street name signs mean",
+      "text_local": "Que signifient ces plaques de rue bilingues en niçois et en français ?",
+      "pronunciation": "keh seen-YEE-fyan say PLAK deh ROO bee-LAN-gweh an nee-SWAH ay an fran-SAY",
+      "formality": "polite",
+      "cultural_note": "Street signs in Vieux-Nice appear in both French and Niçard — the local Occitan language, closely related to Italian.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "nice_nbhd_vieux_004",
+      "intent_en": "Ask for a recommendation for an evening apéritif bar",
+      "text_local": "Auriez-vous une adresse à me recommander pour prendre l'apéritif ce soir ?",
+      "pronunciation": "oh-RYAY voo oon ah-DRES ah meh reh-ko-man-DAY poor PRAN-dreh lah-pay-ree-TEEF seh SWAR",
+      "formality": "polite",
+      "cultural_note": "The streets around Rue de la Préfecture come alive at aperitivo hour — a tradition with strong Italian roots in Nice.",
+      "responses": [
+        {
+          "english": "The Bar du Cours is perfect, two streets from here.",
+          "phonetic": "bawn-ZHOOR oh-RYAY voo uun ah-DRES ah muh ruh-kaw-mawnd POOR prawn-DR lah-pay-ree-TEEF suh SWAHR",
+          "french": "Le Bar du Cours est parfait, à deux rues d'ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_vieux_005",
+      "intent_en": "Ask how to get back to Place Masséna from here",
+      "text_local": "Comment regagner la Place Masséna depuis ce quartier, s'il vous plaît ?",
+      "pronunciation": "kuh-MAN reh-gah-NYAY lah PLAS mah-SAY-nah deh-PWEE seh kar-TYAY seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Place Masséna is a 5-minute walk west from Vieux-Nice along the Promenade du Paillon.",
+      "responses": [
+        {
+          "english": "Go straight towards the promenade, then left.",
+          "phonetic": "kaw-MAHN a-LAY a la PLAHS ma-say-NAH duh-PWEE ee-SEE, seel voo PLEH",
+          "french": "Allez tout droit vers la promenade, puis gauche."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "neighbourhood",
+      "word_local": "le quartier",
+      "pronunciation": "leh kar-TYAY"
+    },
+    {
+      "word_en": "street sign",
+      "word_local": "la plaque de rue",
+      "pronunciation": "lah PLAK deh ROO"
+    },
+    {
+      "word_en": "aperitif",
+      "word_local": "l'apéritif",
+      "pronunciation": "lah-pay-ree-TEEF"
+    },
+    {
+      "word_en": "flatbread",
+      "word_local": "la fougasse",
+      "pronunciation": "lah foo-GAS"
+    }
+  ]
+}

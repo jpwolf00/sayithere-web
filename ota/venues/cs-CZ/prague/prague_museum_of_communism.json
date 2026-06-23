@@ -1,0 +1,100 @@
+{
+  "id": "prague_museum_of_communism",
+  "name_en": "Museum of Communism",
+  "name_local": "Muzeum komunismu",
+  "icon": "building.columns",
+  "lat": 50.0878515,
+  "lon": 14.4300109,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "prague_museum_of_communism_001",
+      "intent_en": "Is photography permitted in interrogation room",
+      "text_local": "Můžu fotit v místnosti s výslechem?",
+      "pronunciation": "mOOzhoo-fOHeet-v-mEEstnohsee-s-vEEslehkhehm",
+      "formality": "standard",
+      "cultural_note": "Adding a condition like 'without flash' is a very common museum response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, ale bez blesku.",
+        "pronunciation": "AHnohAHleh-bEHzblehskoo",
+        "translation_en": "Yes, but without flash."
+      },
+      "responses": [
+        {
+          "english": "Yes, but without flash.",
+          "phonetic": "AHnohAHleh-bEHzblehskoo",
+          "french": "Ano, ale bez blesku."
+        }
+      ]
+    },
+    {
+      "id": "prague_museum_of_communism_002",
+      "intent_en": "Where is the ticket desk at entrance",
+      "text_local": "Kde je pokladna u vchodu?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-OO-fkhOHdoo",
+      "formality": "standard",
+      "cultural_note": "Czech directions are often very concise, using landmarks like 'the door'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned za dveřmi, vlevo.",
+        "pronunciation": "hnEHd-zAHdvehrmeevlEHvoh",
+        "translation_en": "Just behind the door, on the left."
+      },
+      "responses": [
+        {
+          "english": "Just behind the door, on the left.",
+          "phonetic": "hnEHd-zAHdvehrmeevlEHvoh",
+          "french": "Hned za dveřmi, vlevo."
+        }
+      ]
+    },
+    {
+      "id": "prague_museum_of_communism_003",
+      "intent_en": "Are group bookings handled at separate desk",
+      "text_local": "Máte pro skupiny jinou přepážku?",
+      "pronunciation": "mAHteh-prOHskoopEEnee-yEEnoh-prEHpahshkoo",
+      "formality": "standard",
+      "cultural_note": "The staff member confirms and immediately gives the location, which is helpful and direct.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, ta je vlevo vzadu.",
+        "pronunciation": "AHnohtAH-yeh-vlEHvoh-vzAHdoo",
+        "translation_en": "Yes, it's on the left at the back."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's on the left at the back.",
+          "phonetic": "AHnohtAH-yeh-vlEHvoh-vzAHdoo",
+          "french": "Ano, ta je vlevo vzadu."
+        }
+      ]
+    },
+    {
+      "id": "prague_museum_of_communism_004",
+      "intent_en": "Is the gift shop before or after exit",
+      "text_local": "Je obchod se suvenýry před východem?",
+      "pronunciation": "yeh-OHpkhoht-seh-sOOvehnEEree-prEHdveekhOHdehm",
+      "formality": "standard",
+      "cultural_note": "The response directly answers the 'before or after' question, using 'až za' for 'just after'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, až za východem.",
+        "pronunciation": "nEHAHzh-zAHveekhOHdehm",
+        "translation_en": "No, just after the exit."
+      },
+      "responses": [
+        {
+          "english": "No, just after the exit.",
+          "phonetic": "nEHAHzh-zAHveekhOHdehm",
+          "french": "Ne, až za východem."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

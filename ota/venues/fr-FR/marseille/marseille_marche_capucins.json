@@ -1,0 +1,113 @@
+{
+  "id": "marseille_marche_capucins",
+  "name_en": "Marché des Capucins",
+  "name_local": "Marché des Capucins",
+  "icon": "basket",
+  "lat": 43.3022,
+  "lon": 5.3857,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "marseille_capuc_001",
+      "intent_en": "Ask when the market is open",
+      "text_local": "À quelles heures est ouvert le marché ?",
+      "pronunciation": "ah kelz UHR eh voo-VEHR leh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "The market is open Tuesday to Sunday, 6am to 1pm. It's closed on Mondays. The best time is early morning for fresh produce.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Tuesday to Sunday, from 6 AM to 1 PM.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "Du mardi au dimanche, de six heures à treize heures."
+        }
+      ]
+    },
+    {
+      "id": "marseille_capuc_002",
+      "intent_en": "Ask where to find the best olive oil",
+      "text_local": "Où trouver la meilleure huile d'olive ?",
+      "pronunciation": "oo troo-VAY lah may-YUHR weel doh-LEEV",
+      "formality": "polite",
+      "cultural_note": "Provence produces some of France's best olive oils. Look for 'huile d'olive de Provence' with the AOC label.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Look for the stalls with the AOC Provence label, over there.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Cherchez les étals avec le label AOC Provence, par là."
+        }
+      ]
+    },
+    {
+      "id": "marseille_capuc_003",
+      "intent_en": "Ask for a sample of pastis",
+      "text_local": "Puis-je avoir un échantillon de pastis ?",
+      "pronunciation": "pwee-zhuh ah-VWAR uhn ay-kahn-tee-YON duh pahs-TEEF",
+      "formality": "polite",
+      "cultural_note": "Many vendors offer samples. Pastis is an anise-flavored spirit — it's traditionally drunk as an apéritif with water.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, taste it. Here you go.",
+          "phonetic": "byan sewr, zhuh voo ah-PROHNT sah too deh SWEET",
+          "french": "Oui, goûtez. Voilà."
+        }
+      ]
+    },
+    {
+      "id": "fr_cap_ma_x1",
+      "intent_en": "Ask what kinds of products are sold here",
+      "text_local": "Quels produits vend-on principalement ici ?",
+      "pronunciation": "kel proh-DWEE vahn-TON prans-ee-pal-MAHN ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Marché des Capucins is one of Marseille's most diverse markets, specialising in African and North African spices, produce and fabric.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Spices, vegetables and fabrics from around the world.",
+          "phonetic": "day zay-PEES, lay-GOOM ay tee-SOO doo mond ahn-TYAY.",
+          "french": "Des épices, légumes et tissus du monde entier."
+        }
+      ]
+    },
+    {
+      "id": "fr_cap_ma_x2",
+      "intent_en": "Ask what time the market closes",
+      "text_local": "Le marché ferme à quelle heure ?",
+      "pronunciation": "luh mar-SHAY fairm ah kel UR",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Around 1 pm, Tuesday to Saturday.",
+          "phonetic": "VAIR TREZ UR, doo MAR-dee oh sam-DEE.",
+          "french": "Vers treize heures, du mardi au samedi."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "market",
+      "word_local": "le marché",
+      "pronunciation": "leh mar-SHAY"
+    },
+    {
+      "word_en": "produce",
+      "word_local": "les fruits et légumes",
+      "pronunciation": "lay frwee ay lay-GOOM"
+    },
+    {
+      "word_en": "olive oil",
+      "word_local": "l'huile d'olive",
+      "pronunciation": "lweel doh-LEEV"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "davos_promenade",
+  "name_en": "Promenade",
+  "name_local": "Promenade",
+  "icon": "map",
+  "lat": 46.8001375,
+  "lon": 9.8266863,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "davos_promenade_001",
+      "intent_en": "Is ice rink Davos open for skating",
+      "text_local": "Ist die Eisbahn Davos offen?",
+      "pronunciation": "ihst-dee-EYEsbahn-dAHvohs-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Short yes/no answers are standard for operational questions; avoid additional explanations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "davos_promenade_002",
+      "intent_en": "Where is Schatzalp funicular valley booth",
+      "text_local": "Wo ist der Schalter für die Schatzalp-Bahn?",
+      "pronunciation": "vOH-ihst-dehr-shAHlt-fuer-dee-shAHtsahlpbAHn",
+      "formality": "standard",
+      "cultural_note": "Schalter is the local term for ticket booth; avoid misleading directions like 'behind hotels'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Schalter am Talbahnhof.",
+        "pronunciation": "shAHlt-ahm-tAHlbahnhOHf",
+        "translation_en": "Ticket booth at valley station."
+      },
+      "responses": [
+        {
+          "english": "Ticket booth at valley station.",
+          "phonetic": "shAHlt-ahm-tAHlbahnhOHf",
+          "french": "Schalter am Talbahnhof."
+        }
+      ]
+    },
+    {
+      "id": "davos_promenade_003",
+      "intent_en": "Where to store skis at hotel concierge",
+      "text_local": "Wie komme ich zur Skiaufbewahrung im Hotel?",
+      "pronunciation": "vOH-kAHn-ihkh-shEE-ahm-hOHtuhl-lAHn",
+      "formality": "casual",
+      "cultural_note": "Hotel concierge services are typically handled at reception; avoid inventing storage locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Rezeption nimmt sie an.",
+        "pronunciation": "dee-rEHtsehptsyOHn-nIHmt-zee-AHn",
+        "translation_en": "The reception will take them."
+      },
+      "responses": [
+        {
+          "english": "The reception will take them.",
+          "phonetic": "dee-rEHtsehptsyOHn-nIHmt-zee-AHn",
+          "french": "Die Rezeption nimmt sie an."
+        }
+      ]
+    },
+    {
+      "id": "davos_promenade_004",
+      "intent_en": "Which bus serves Jakobshorn cable car",
+      "text_local": "Welcher Bus fährt zum Jakobshorn?",
+      "pronunciation": "vEHlkh-bUHs-fEHrt-tsuhm-yAHkawpshAWrn",
+      "formality": "standard",
+      "cultural_note": "Bus lines in Davos use simple numbering; avoid route details not supported by context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Linie 6.",
+        "pronunciation": "lEEnee-uh-zEHks",
+        "translation_en": "Line 6."
+      },
+      "responses": [
+        {
+          "english": "Line 6.",
+          "phonetic": "lEEnee-uh-zEHks",
+          "french": "Linie 6."
+        }
+      ]
+    },
+    {
+      "id": "davos_promenade_005",
+      "intent_en": "How to reach Kongresszentrum on foot",
+      "text_local": "Wie komme ich zu Fuß zum Kongresszentrum?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoo-fOOs-tsuhm-kawngrEHstsuhntrUHm",
+      "formality": "casual",
+      "cultural_note": "Signage is the standard cue for pedestrian navigation in public areas; avoid micro-directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie geradeaus die Promenade entlang.",
+        "pronunciation": "gEHuhn-zee-guhrAHdehOWs-dee-prohmEHnahduh-ehntlAHng",
+        "translation_en": "Go straight ahead along the promenade."
+      },
+      "responses": [
+        {
+          "english": "Go straight ahead along the promenade.",
+          "phonetic": "gEHuhn-zee-guhrAHdehOWs-dee-prohmEHnahduh-ehntlAHng",
+          "french": "Gehen Sie geradeaus die Promenade entlang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

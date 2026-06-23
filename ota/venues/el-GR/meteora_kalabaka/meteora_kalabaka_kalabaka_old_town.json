@@ -1,0 +1,210 @@
+{
+  "id": "meteora_kalabaka_kalabaka_old_town",
+  "name_en": "Kalabaka Old Town",
+  "name_local": "Παλιά Πόλη Καλαμπάκας",
+  "icon": "map",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_001",
+      "intent_en": "Do you sell monastery tickets here",
+      "text_local": "Πωλούνται εδώ εισιτήρια για τα μοναστήρια;",
+      "pronunciation": "pohlEEteh-EEseetEEreeAH-yAH-tah-mOHnahstEEreeAH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Τα εισιτήρια για τα μοναστήρια των Μετεώρων συνήθως πωλούνται μόνο στις εισόδους των μοναστηριών ή σε συγκεκριμένα σημεία ελέγχου. Δεν υπάρχουν πάντα διαθέσιμα σε καταστήματα της παλιάς πόλης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, στο γραφείο πληροφοριών.",
+        "pronunciation": "OHkheestoh-ghrahfEEoh-plEErohfOHreeOHn",
+        "translation_en": "No, ask the staff."
+      },
+      "responses": [
+        {
+          "english": "No, ask the staff.",
+          "phonetic": "OHkheestoh-ghrahfEEoh-plEErohfOHreeOHn",
+          "french": "Όχι, στο γραφείο πληροφοριών."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_002",
+      "intent_en": "Where is the Sarakina Gorge trailhead",
+      "text_local": "Πού είναι η είσοδος στο φαράγγι της Σαρακίνας;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-stohn-fahrAHnggee-tees-sAHrahEEnahs",
+      "formality": "standard",
+      "cultural_note": "Οι πινακίδες συχνά αναφέρονται ως 'Φαράγγι Σαρακίνας' ή 'Δρόμος προς Σαραντάπορο'. Οι ντόπιοι χρησιμοποιούν και τον όρο 'Φαράγγι' χωρίς περαιτέρω διευκρίνιση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Απέναντι από τον παλιό δρόμο.",
+        "pronunciation": "ahpEHnahdEE-ahpOH-tohm-bahlyOH-thrOHmoh",
+        "translation_en": "Across from the old road."
+      },
+      "responses": [
+        {
+          "english": "Across from the old road.",
+          "phonetic": "ahpEHnahdEE-ahpOH-tohm-bahlyOH-thrOHmoh",
+          "french": "Απέναντι από τον παλιό δρόμο."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς πληρώνω τον λογαριασμό;",
+      "pronunciation": "pOHs-pleerOHnoh-tohn-lOHghahrEEahsmOH",
+      "formality": "standard",
+      "cultural_note": "Στα ταβερνάκια της περιοχής, συνήθως πληρώνεις στον ιδιοκτήτη (νικοκίρης) είτε στο τραπέζι είτε στο ταμείο. Δεν υπάρχουν αυτόματες ταμειακές μηχανές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο δίπλα στην έξοδο.",
+        "pronunciation": "stoh-tahmEEoh-thEEplah-steen-EHksohthOH",
+        "translation_en": "At the table or at the counter, to the owner."
+      },
+      "responses": [
+        {
+          "english": "At the table or at the counter, to the owner.",
+          "phonetic": "stoh-tahmEEoh-thEEplah-steen-EHksohthOH",
+          "french": "Στο ταμείο δίπλα στην έξοδο."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η Βυζαντινή Εκκλησία της Κοιμήσεως;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-vEEzahdeenEE-EHkleesEEah-tees-eemEEsehOHs",
+      "formality": "standard",
+      "cultural_note": "In Kalabaka Old Town, churches are often clustered in alleys without clear signage. Locals typically direct visitors to staff at tavernas, pensions, or the monastery ticket booths for precise directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά την πλατεία Ρήγα Φεραίου.",
+        "pronunciation": "AHreestehrAH-mehtAH-teem-blahtEEah-rEEghah-fehrEHoo",
+        "translation_en": "Hello, next to the path toward Sarakina Gorge."
+      },
+      "responses": [
+        {
+          "english": "Hello, next to the path toward Sarakina Gorge.",
+          "phonetic": "AHreestehrAH-mehtAH-teem-blahtEEah-rEEghah-fehrEHoo",
+          "french": "Αριστερά μετά την πλατεία Ρήγα Φεραίου."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_005",
+      "intent_en": "Can I get a taxi to the monasteries here?",
+      "text_local": "Μπορώ να πάρω ταξί για τα μοναστήρια εδώ;",
+      "pronunciation": "bohrOH-nah-pAHroh-tahksEE-yAH-tah-mOHnahstEEreeAH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Taxis are a common transport option in Meteora, especially for visitors to the monasteries. Locals expect taxi ranks to be available in the Old Town area near tavernas or hotels.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχουν ταξί εδώ.",
+        "pronunciation": "nEHeepAHrkhoon-dahksEE-ehthOH",
+        "translation_en": "Yes, there are taxis here."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are taxis here.",
+          "phonetic": "nEHeepAHrkhoon-dahksEE-ehthOH",
+          "french": "Ναι, υπάρχουν ταξί εδώ."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_006",
+      "intent_en": "Are old stone houses open to enter?",
+      "text_local": "Είναι ανοιχτά τα παλιά σπίτια για να μπω;",
+      "pronunciation": "EEneh-AHneekhtAH-tah-pahlyAH-spEEteeAH-yahnAH-bOH",
+      "formality": "standard",
+      "cultural_note": "Old stone houses in Kalabaka Old Town are privately owned and access varies. Visitors typically need to inquire locally as opening hours are not standardized or widely advertised.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κάποια είναι.",
+        "pronunciation": "kAHpeeAH-EEneh",
+        "translation_en": "Some are."
+      },
+      "responses": [
+        {
+          "english": "Some are.",
+          "phonetic": "kAHpeeAH-EEneh",
+          "french": "Κάποια είναι."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πότε φεύγει το επόμενο λεωφορείο για Μετέωρα;",
+      "pronunciation": "pOHteh-fEHvyee-toh-ehpOHmehnOH-lEHohfohrEEoh-yAH-mehtEHohrAH",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια των τοπικών λεωφορείων προς Μετέωρα δεν είναι σταθερά γραμμένα στις στάσεις. Οι ντόπιοι συνηθίζουν να ρωτούν απευθείας τον υπάλληλο ή τον οδηγό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από τον σταθμό Θεσσαλίας, κάθε ώρα.",
+        "pronunciation": "ahpOH-tohn-stahthmOH-thEHssahlEEahskAHtheh-OHrah",
+        "translation_en": "From Thessaly station, every hour."
+      },
+      "responses": [
+        {
+          "english": "From Thessaly station, every hour.",
+          "phonetic": "ahpOH-tohn-stahthmOH-thEHssahlEEahskAHtheh-OHrah",
+          "french": "Από τον σταθμό Θεσσαλίας, κάθε ώρα."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_008",
+      "intent_en": "Where does the Kastraki village path start?",
+      "text_local": "Πού ξεκινάει το μονοπάτι προς το Κάστρακι;",
+      "pronunciation": "pOO-ksEHeenAHee-toh-mOHnohpAHtee-prOHs-toh-kAHstrahEE",
+      "formality": "standard",
+      "cultural_note": "The Kastraki village path is commonly associated with starting near accommodations or guesthouses in the Old Town, as the area lacks a single central trailhead. Staff at pensions or tavernas often guide guests to the nearest trail access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πίσω από την εκκλησία.",
+        "pronunciation": "pEEsoh-ahpOH-teen-EHkleesEEah",
+        "translation_en": "Behind the church."
+      },
+      "responses": [
+        {
+          "english": "Behind the church.",
+          "phonetic": "pEEsoh-ahpOH-teen-EHkleesEEah",
+          "french": "Πίσω από την εκκλησία."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_old_town_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού αγοράζω εισιτήρια για τα μοναστήρια;",
+      "pronunciation": "pOO-AHghohrAHzoh-EEseetEEreeAH-yAH-tah-mOHnahstEEreeAH",
+      "formality": "standard",
+      "cultural_note": "Monastery ticket purchases in Kalabaka Old Town are typically handled by staff at tavernas, pensions, or dedicated ticket booths. Exact locations vary due to the scattered nature of services in the Old Town.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο κάθε μοναστηριού.",
+        "pronunciation": "steen-EEsohthOH-kAHtheh-mOHnahstEEreeOO",
+        "translation_en": "Hello, you get the tickets at the entrance of each monastery. There is no central ticket office in the village, but you can ask your guide or taxi driver for help."
+      },
+      "responses": [
+        {
+          "english": "Hello, you get the tickets at the entrance of each monastery. There is no central ticket office in the village, but you can ask your guide or taxi driver for help.",
+          "phonetic": "steen-EEsohthOH-kAHtheh-mOHnahstEEreeOO",
+          "french": "Στην είσοδο κάθε μοναστηριού."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

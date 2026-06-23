@@ -1,0 +1,118 @@
+{
+  "id": "paris_gare_de_lyon",
+  "name_en": "Gare de Lyon",
+  "name_local": "Gare de Lyon",
+  "icon": "tram.fill",
+  "lat": 48.8443,
+  "lon": 2.373,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "paris_gdl_001",
+      "intent_en": "Ask where Hall 1 departures are",
+      "text_local": "Les départs Hall 1 sont où ?",
+      "pronunciation": "lay day-PAR ol uhn son oo",
+      "formality": "polite",
+      "cultural_note": "Gare de Lyon uses multiple halls; check hall and letter range.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Hall 1 departures are on level 0, toward the Lyon street side.",
+          "phonetic": "lay day-PAR ol uhn son oh nee-VOH zero, koh-TAY roo duh lee-ON",
+          "french": "Les départs Hall 1 sont au niveau 0, côté rue de Lyon."
+        }
+      ]
+    },
+    {
+      "id": "paris_gdl_002",
+      "intent_en": "Ask if this train is for Lyon Part-Dieu",
+      "text_local": "Ce train va bien à Lyon Part-Dieu ?",
+      "pronunciation": "suh trahn vah byan ah lee-ON par-DYUH",
+      "formality": "polite",
+      "cultural_note": "High-frequency routes still require platform confirmation before boarding.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, this is the train for Lyon Part-Dieu. Platform 12.",
+          "phonetic": "wee, say byan leh trahn poor lee-ON par-DYUH. vwah dooz",
+          "french": "Oui, c'est bien le train pour Lyon Part-Dieu. Voie 12."
+        }
+      ]
+    },
+    {
+      "id": "paris_gdl_003",
+      "intent_en": "Ask where left-luggage office is",
+      "text_local": "Le service bagages est ouvert ?",
+      "pronunciation": "leh sair-VEES bah-GAZH eh oo-VAIR",
+      "formality": "polite",
+      "cultural_note": "Left-luggage hours are limited; verify cutoff times for pickup.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Luggage service is open from 7 AM to 9 PM, on level 0.",
+          "phonetic": "leh sair-VEES bah-GAZH eh oo-VAIR duh set-oor ah van-tee-oo-NAHR, oh nee-VOH zero",
+          "french": "Le service bagages est ouvert de 7h à 21h, au niveau 0."
+        }
+      ]
+    },
+    {
+      "id": "paris_gdl_004",
+      "intent_en": "Ask how early to arrive for TGV",
+      "text_local": "Vous conseillez d'arriver combien de minutes avant le TGV ?",
+      "pronunciation": "voo kon-say-YAY dah-ree-VAY kom-BYAN duh mee-NEWT ah-VON leh tay-zhay-VAY",
+      "formality": "polite",
+      "cultural_note": "For TGV, 20–30 minutes early is safer during busy periods.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Arrive at least thirty minutes before departure.",
+          "phonetic": "ah-ree-VAY oh mwahn trahnt mee-NOOT ah-VAHN luh day-PAR",
+          "french": "Arrivez au moins trente minutes avant le départ."
+        }
+      ]
+    },
+    {
+      "id": "paris_gdl_005",
+      "intent_en": "Ask where Le Train Bleu restaurant is",
+      "text_local": "Le Train Bleu est dans quelle partie de la gare ?",
+      "pronunciation": "leh trahn bluh eh dahn kel par-TEE duh lah gar",
+      "formality": "polite",
+      "cultural_note": "Le Train Bleu is inside the station complex and popular for classic dining.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Le Train Bleu is on the first floor, toward the Place de la Bastille side.",
+          "phonetic": "leh trahn bluh eh oh pruh-MYEHR ay-TAZH, koh-TAY plas duh lah bass-tee-Y",
+          "french": "Le Train Bleu est au premier étage, côté place de la Bastille."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "hall",
+      "word_local": "le hall",
+      "pronunciation": "leh ol"
+    },
+    {
+      "word_en": "high-speed train",
+      "word_local": "le TGV",
+      "pronunciation": "leh tay-zhay-VAY"
+    },
+    {
+      "word_en": "left luggage",
+      "word_local": "la consigne",
+      "pronunciation": "lah kon-SEEN"
+    },
+    {
+      "word_en": "departure",
+      "word_local": "le départ",
+      "pronunciation": "leh day-PAR"
+    }
+  ]
+}

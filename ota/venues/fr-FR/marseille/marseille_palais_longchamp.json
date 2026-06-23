@@ -1,0 +1,101 @@
+{
+  "id": "marseille_palais_longchamp",
+  "name_en": "Palais Longchamp",
+  "name_local": "Palais Longchamp",
+  "icon": "crown",
+  "lat": 43.2969,
+  "lon": 5.4085,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "marseille_longchamp_001",
+      "intent_en": "Ask about the museums in the palace",
+      "text_local": "Quelles musées y a-t-il au Palais Longchamp ?",
+      "pronunciation": "kel moo-ZAY ee ah-TEEL oh pah-LAY lon-SHAN",
+      "formality": "polite",
+      "cultural_note": "The palace houses the Musée des Beaux-Arts (fine arts) and the Musée d'Histoire Naturelle (natural history).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Fine Arts Museum and the Natural History Museum.",
+          "phonetic": "wee, say tah lay-TAZH, dahn lay sal doo oh",
+          "french": "Le Musée des Beaux-Arts et le Musée d'Histoire Naturelle."
+        }
+      ]
+    },
+    {
+      "id": "marseille_longchamp_002",
+      "intent_en": "Ask about the ticket price for the museums",
+      "text_local": "Combien coûte l'entrée des musées ?",
+      "pronunciation": "kom-BYAN KOOT lahn-TRAY day moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museums inside Palais Longchamp have separate admission fees.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's indicated at the ticket office, at the museum entrance.",
+          "phonetic": "say an-dee-KAY oh gee-SHAY, ah lahn-TRAY doo moo-ZAY",
+          "french": "C'est indiqué au guichet, à l'entrée du musée."
+        }
+      ]
+    },
+    {
+      "id": "marseille_longchamp_003",
+      "intent_en": "Ask about the gardens",
+      "text_local": "Le jardin est-il ouvert aujourd'hui ?",
+      "pronunciation": "leh zhar-DAN eh-TEEL oo-VEHR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The formal gardens are free to enter and perfect for a stroll. The park is open daily until sunset.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, open until sunset. Free entry.",
+          "phonetic": "",
+          "french": "Oui, ouvert jusqu'au coucher du soleil. Entrée gratuite."
+        }
+      ]
+    },
+    {
+      "id": "marseille_longchamp_004",
+      "intent_en": "Ask where the toilets are",
+      "text_local": "Où sont les toilettes, s'il vous plaît ?",
+      "pronunciation": "oo son lay twah-LET, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Public facilities are available inside the palace complex.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Inside the museum, on the ground floor.",
+          "phonetic": "ah lan-tay-RYUHR doo moo-ZAY, oh ray-duh-shoh-SAY",
+          "french": "À l'intérieur du musée, au rez-de-chaussée."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "palace",
+      "word_local": "le palais",
+      "pronunciation": "leh pah-LAY"
+    },
+    {
+      "word_en": "fountain",
+      "word_local": "la fontaine",
+      "pronunciation": "lah fon-TEN"
+    },
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "leh moo-ZAY"
+    },
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "leh zhar-DAN"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "chania_bougatsopoleio_iordanis",
+  "name_en": "Bougatsopoleio Iordanis",
+  "name_local": "Μπουγατσοπολείο Ιορδάνης",
+  "icon": "fork.knife",
+  "lat": 35.5120831,
+  "lon": 24.0191544,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "chania_bougatsopoleio_iordanis_001",
+      "intent_en": "Do I pay at the counter before eating?",
+      "text_local": "Πληρώνω στον πάγκο πριν φάω;",
+      "pronunciation": "pleerOHnoh-stohm-bAHnggoh-prEEn-fAHoh",
+      "formality": "standard",
+      "cultural_note": "At a counter-service food spot like this, payment is expected immediately at the counter before consuming food, aligning with typical Greek fast-food or street-food culture.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στον πάγκο.",
+        "pronunciation": "nEHstohm-bAHnggoh",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "nEHstohm-bAHnggoh",
+          "french": "Ναι, στον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "chania_bougatsopoleio_iordanis_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει χώρος για να καθίσετε εδώ;",
+      "pronunciation": "eepAHrkhee-mEHrohz-nah-kahthEEsoh-mEHsah",
+      "formality": "standard",
+      "cultural_note": "Given the likely limited indoor space, seating availability is not advertised openly; staff typically guide customers based on real-time conditions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ο χώρος είναι μικρός. Μπορείτε να φάτε όρθιοι έξω ή να πάρετε σε πακέτο.",
+        "pronunciation": "oh-khOHrohs-EEneh-meekrOHsbohrEEteh-nah-fAHteh-OHrtheeEE-EHksoh-ee-nah-pAHrehtEH-seh-pahEHtoh",
+        "translation_en": "The space is small. You can eat standing outside or get takeaway."
+      },
+      "responses": [
+        {
+          "english": "The space is small. You can eat standing outside or get takeaway.",
+          "phonetic": "oh-khOHrohs-EEneh-meekrOHsbohrEEteh-nah-fAHteh-OHrtheeEE-EHksoh-ee-nah-pAHrehtEH-seh-pahEHtoh",
+          "french": "Ο χώρος είναι μικρός. Μπορείτε να φάτε όρθιοι έξω ή να πάρετε σε πακέτο."
+        }
+      ]
+    },
+    {
+      "id": "chania_bougatsopoleio_iordanis_003",
+      "intent_en": "Do you have warm bougatsa now?",
+      "text_local": "Έχετε ζεστή μπουγάτσα τώρα;",
+      "pronunciation": "EHkhehtEH-zehstEE-booghAHtsah-tOHrah",
+      "formality": "standard",
+      "cultural_note": "In a fast-paced food counter setting, staff typically respond directly about current availability without over-explaining, often directing the customer to check at the point of service.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Γεια σας, ναι, έχουμε ζεστή μπουγάτσα.",
+        "pronunciation": "yAH-sahsnEHEHkhoomEH-zehstEE-booghAHtsah",
+        "translation_en": "Hello, yes, we have warm bougatsa."
+      },
+      "responses": [
+        {
+          "english": "Hello, yes, we have warm bougatsa.",
+          "phonetic": "yAH-sahsnEHEHkhoomEH-zehstEE-booghAHtsah",
+          "french": "Γεια σας, ναι, έχουμε ζεστή μπουγάτσα."
+        }
+      ]
+    },
+    {
+      "id": "chania_bougatsopoleio_iordanis_004",
+      "intent_en": "Do you accept credit cards?",
+      "text_local": "Δέχεστε πιστωτικές κάρτες;",
+      "pronunciation": "thEHkhehstEH-pEEstohteeEHs-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "In traditional Greek food counters, especially smaller or older establishments, cash is often preferred due to simplicity and lower transaction fees.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

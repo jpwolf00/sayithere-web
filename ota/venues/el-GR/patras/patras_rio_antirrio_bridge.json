@@ -1,0 +1,100 @@
+{
+  "id": "patras_rio_antirrio_bridge",
+  "name_en": "Rio-Antirrio Bridge",
+  "name_local": "Γέφυρα Ρίου-Αντιρίου",
+  "icon": "building.columns",
+  "lat": 38.3200179,
+  "lon": 21.7735495,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "patras_rio_antirrio_bridge_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Ποια λωρίδα είναι για ηλεκτρονική διέλευση;",
+      "pronunciation": "pEEah-lohrEEthah-yAH-EElehktrOHneeEE-thEEohthEEohn",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι βρίσκονται στον διοδίων σταθμό. Οι ταξιδιώτες συνήθως αναγνωρίζουν τους υπαλλήλους από την ειδική τους στολή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Η δεξιά λωρίδα, μπλε πινακίδα.",
+        "pronunciation": "ee-thEHkseeAH-lohrEEthahblEH-pEEnahEEthah",
+        "translation_en": "The right lane with the blue sign 'Electronic Toll'."
+      },
+      "responses": [
+        {
+          "english": "The right lane with the blue sign 'Electronic Toll'.",
+          "phonetic": "ee-thEHkseeAH-lohrEEthahblEH-pEEnahEEthah",
+          "french": "Η δεξιά λωρίδα, μπλε πινακίδα."
+        }
+      ]
+    },
+    {
+      "id": "patras_rio_antirrio_bridge_002",
+      "intent_en": "What vehicle class is my camper van?",
+      "text_local": "Τι κατηγορία έχει το camping μου;",
+      "pronunciation": "tEE-kAHteeghohrEEah-EHkhee-toh-ehnkAHmpingehl-moo",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι διοδίων διαθέτουν οδηγίες για την κατάταξη των οχημάτων βάσει χαρακτηριστικών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι κατηγορία 2.",
+        "pronunciation": "EEneh-kAHteeghohrEEah-thEEoh",
+        "translation_en": "It is category 2."
+      },
+      "responses": [
+        {
+          "english": "It is category 2.",
+          "phonetic": "EEneh-kAHteeghohrEEah-thEEoh",
+          "french": "Είναι κατηγορία 2."
+        }
+      ]
+    },
+    {
+      "id": "patras_rio_antirrio_bridge_003",
+      "intent_en": "Where can I stop for bridge photos?",
+      "text_local": "Πού μπορώ να σταθώ για φωτογραφίες της γέφυρας;",
+      "pronunciation": "pOO-bohrOH-nah-stahthOH-yAH-fOHtohghrahfEEehs-teez-yEHfeerAHs",
+      "formality": "polite",
+      "cultural_note": "Το προσωπικό συντήρησης γνωρίζει τις κατάλληλες θέσεις φωτογράφησης κοντά στους πυλώνες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον χώρο στάθμευσης πριν τα διόδια Ρίου.",
+        "pronunciation": "stohn-khOHroh-stAHthmehfsEEs-prEEn-dah-theeOHthyah-rEEoo",
+        "translation_en": "Before the Rio tolls, there is a parking area on the right."
+      },
+      "responses": [
+        {
+          "english": "Before the Rio tolls, there is a parking area on the right.",
+          "phonetic": "stohn-khOHroh-stAHthmehfsEEs-prEEn-dah-theeOHthyah-rEEoo",
+          "french": "Στον χώρο στάθμευσης πριν τα διόδια Ρίου."
+        }
+      ]
+    },
+    {
+      "id": "patras_rio_antirrio_bridge_004",
+      "intent_en": "Is the bridge closed for high winds?",
+      "text_local": "Κλείνει η γέφυρα Ρίου-Αντιρρίου λόγω ισχυρών ανέμων;",
+      "pronunciation": "klEEnee-ee-yEHfeer-ahpOH-thEEnahtOOs-ahnEHmoos",
+      "formality": "standard",
+      "cultural_note": "Οι χειριστές της γέφυρας ενημερώνουν για κλεισίματα λόγω ανέμων βάσει οδηγιών ασφαλείας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, κλείνει πάνω από 7 μποφόρ.",
+        "pronunciation": "nEHklEEnee-pAHnoh-ahpOH-ehptAH-bohfOHr",
+        "translation_en": "Yes, it closes."
+      },
+      "responses": [
+        {
+          "english": "Yes, it closes.",
+          "phonetic": "nEHklEEnee-pAHnoh-ahpOH-ehptAH-bohfOHr",
+          "french": "Ναι, κλείνει πάνω από 7 μποφόρ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

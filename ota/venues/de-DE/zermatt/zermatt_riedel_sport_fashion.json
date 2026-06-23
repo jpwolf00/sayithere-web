@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_riedel_sport_fashion",
+  "name_en": "Riedel Sport & Fashion",
+  "name_local": "Riedel Sport",
+  "icon": "bag",
+  "lat": 46.0212076,
+  "lon": 7.749254,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zermatt_riedel_sport_fashion_001",
+      "intent_en": "How do I get tax-free forms here",
+      "text_local": "Wo bekomme ich Steuererstattungsformulare?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-EYEnuh-shtAWuhehrstAHtuhngsfAWrmoolAHr",
+      "formality": "casual",
+      "cultural_note": "Tax-free forms in Switzerland are typically handled at the checkout counter (Kassierer) where purchases are finalized. No additional steps are usually required beyond asking.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Kasse, bitte.",
+        "pronunciation": "ahn-dehr-kAHsuhbIHtuh",
+        "translation_en": "At the cash register, please."
+      },
+      "responses": [
+        {
+          "english": "At the cash register, please.",
+          "phonetic": "ahn-dehr-kAHsuhbIHtuh",
+          "french": "An der Kasse, bitte."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_riedel_sport_fashion_002",
+      "intent_en": "Where is the boot fitting room located",
+      "text_local": "Wo ist der Boot fitting room?",
+      "pronunciation": "vOH-ihst-dehr-bOHt-fIHting-rOOm",
+      "formality": "standard",
+      "cultural_note": "In Swiss retail, fitting services are often located upstairs or in a dedicated section. Staff may direct customers to a specific area without precise micro-directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Obergeschoss, Bereich Schuhmacher.",
+        "pronunciation": "ihm-OHbuhshAWsbuhrEYEkh-shOOmahkh",
+        "translation_en": "Upstairs, by the boot fitter."
+      },
+      "responses": [
+        {
+          "english": "Upstairs, by the boot fitter.",
+          "phonetic": "ihm-OHbuhshAWsbuhrEYEkh-shOOmahkh",
+          "french": "Im Obergeschoss, Bereich Schuhmacher."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_riedel_sport_fashion_003",
+      "intent_en": "Is the Mammut collection currently in stock",
+      "text_local": "Haben Sie die Mammut Kollektion vorrätig?",
+      "pronunciation": "hAHbuhn-zee-dee-mAHmoot-kAWlehktsyOHn-fOHrrEHtihkh",
+      "formality": "standard",
+      "cultural_note": "In Swiss retail, stock status for branded collections is often confirmed by directing customers to the relevant floor or section where the brand is displayed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Obergeschoss.",
+        "pronunciation": "yAHihm-OHbuhshAWs",
+        "translation_en": "Yes, upstairs."
+      },
+      "responses": [
+        {
+          "english": "Yes, upstairs.",
+          "phonetic": "yAHihm-OHbuhshAWs",
+          "french": "Ja, im Obergeschoss."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_riedel_sport_fashion_004",
+      "intent_en": "Where do I pay the ski rental deposit",
+      "text_local": "Wo zahle ich die Ski-Verleihkaution?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dee-shEEfehrlEYEhkowtsyOHn",
+      "formality": "standard",
+      "cultural_note": "Deposits for ski rentals are typically handled at a dedicated counter or desk managed by ski technicians (Skibetreuer) near the rental area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Skibetreuer.",
+        "pronunciation": "ahm-shAHlt-dehr-skEEbehtrAWuh",
+        "translation_en": "At the ski tech counter."
+      },
+      "responses": [
+        {
+          "english": "At the ski tech counter.",
+          "phonetic": "ahm-shAHlt-dehr-skEEbehtrAWuh",
+          "french": "Am Schalter der Skibetreuer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

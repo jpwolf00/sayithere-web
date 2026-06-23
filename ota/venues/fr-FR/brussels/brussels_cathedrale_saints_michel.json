@@ -1,0 +1,98 @@
+{
+  "id": "brussels_cathedrale_saints_michel",
+  "name_en": "St. Michael and St. Gudula Cathedral",
+  "name_local": "Cathédrale Saints-Michel-et-Gudule",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "brussels_csm_001",
+      "intent_en": "Ask about the opening hours of the cathedral",
+      "text_local": "Quelles sont les heures d'ouverture de la cathédrale ?",
+      "pronunciation": "kel son lay zuhr doo-vair-TOOR duh lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The cathedral is open daily for visitors but closes during services. Entry is free.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "7am to 6pm on weekdays. Closed during services.",
+          "phonetic": "duh set uhr ah dee-zweet uhr ahn suh-MEN. fair-MAY pahn-DAHN lay zoh-FEES",
+          "french": "De sept heures à dix-huit heures en semaine. Fermé pendant les offices."
+        }
+      ]
+    },
+    {
+      "id": "brussels_csm_002",
+      "intent_en": "Ask about the stained glass windows",
+      "text_local": "Où sont les vitraux ?",
+      "pronunciation": "oo son lay vee-TROH",
+      "formality": "polite",
+      "cultural_note": "The modern stained glass windows (1993) were created by Francis Duyff. They replaced wartime losses with abstract contemporary designs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the choir and transepts. Look up high.",
+          "phonetic": "dahn luh KUHR ay lay trahn-SEP. ruh-gar-DAY ahn oh-TUHR",
+          "french": "Dans le choeur et les transepts. Regardez en hauteur."
+        }
+      ]
+    },
+    {
+      "id": "brussels_csm_003",
+      "intent_en": "Ask if there is an entry fee",
+      "text_local": "L'entrée est-elle payante ?",
+      "pronunciation": "lahn-TRAY eh-TEL pay-AHNT",
+      "formality": "polite",
+      "cultural_note": "Entry to the cathedral is free. The treasury requires a small separate fee.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Entry is free. The treasury visit costs three euros.",
+          "phonetic": "lahn-TRAY eh grah-TWEET. lah vee-ZEET doo tray-ZOR koot trwah uh-ROH",
+          "french": "L'entrée est gratuite. La visite du trésor coûte trois euros."
+        }
+      ]
+    },
+    {
+      "id": "brussels_csm_004",
+      "intent_en": "Ask if photos are allowed inside",
+      "text_local": "Les photos sont-elles autorisées à l'intérieur ?",
+      "pronunciation": "lay foh-TOH son-tel oh-toh-ree-ZAY ah lan-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Photography is generally allowed inside the cathedral, but flash photography is not permitted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, but without flash.",
+          "phonetic": "wee, may sahn FLASH",
+          "french": "Oui, mais sans flash."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "Gothic style",
+      "word_local": "le style gothique",
+      "pronunciation": "luh steel goh-TEEK"
+    },
+    {
+      "word_en": "stained glass",
+      "word_local": "le vitrail",
+      "pronunciation": "luh vee-TRAY"
+    },
+    {
+      "word_en": "organ",
+      "word_local": "l'orgue",
+      "pronunciation": "lorg"
+    }
+  ]
+}

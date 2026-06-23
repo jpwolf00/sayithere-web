@@ -1,0 +1,115 @@
+{
+  "id": "lyon_theatres_romains",
+  "name_en": "Roman Theatres of Fourvière",
+  "name_local": "Théâtres Romains de Fourvière",
+  "icon": "theatermasks",
+  "phrases": [
+    {
+      "id": "lyon_theatres_001",
+      "intent_en": "Ask if the Roman theatres are free to visit",
+      "text_local": "L'entrée des théâtres romains est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY day tay-AH-truh roh-MEHN eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The Roman theatres on Fourvière hill are free to visit and open daily.",
+      "responses": [
+        {
+          "english": "Yes, it's free and open every day.",
+          "phonetic": "wee, seh grah-TWEE ay oo-VEHR too lay ZHOOR",
+          "french": "Oui, c'est gratuit et ouvert tous les jours."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_theatres_002",
+      "intent_en": "Ask about summer festival performances",
+      "text_local": "Y a-t-il des spectacles en été dans les théâtres ?",
+      "pronunciation": "ee ah-TEEL day spek-TAKL ahn ay-TAY dahn lay tay-AHT-ruh",
+      "formality": "polite",
+      "cultural_note": "The Nuits de Fourvière festival transforms these ancient theatres into live performance venues every summer. Opera, theatre, dance, and concerts take place from June to August.",
+      "responses": [
+        {
+          "english": "Nuits de Fourvière, in summer.",
+          "phonetic": "lay NWEE duh foor-VYEHR, ahn ay-TAY",
+          "french": "Les Nuits de Fourvière, en été."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_theatres_003",
+      "intent_en": "Ask where to buy tickets for the festival",
+      "text_local": "Où peut-on acheter des billets pour les Nuits de Fourvière ?",
+      "pronunciation": "oo puh-TOHN ash-TAY day bee-YEH poor lay NWEE duh for-VYAIR",
+      "formality": "polite",
+      "cultural_note": "Tickets for Nuits de Fourvière sell out quickly. Book online at nuitsdefourviere.fr well in advance, especially for opera and popular concerts.",
+      "responses": [
+        {
+          "english": "Online or at the ticket office.",
+          "phonetic": "ahn LEE-nyuh oo oh ghee-SHEH",
+          "french": "En ligne ou au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_theatres_004",
+      "intent_en": "Ask whether the site is free to visit",
+      "text_local": "Est-ce que l'entrée sur le site est gratuite ?",
+      "pronunciation": "es-kuh lahn-TRAY soor luh SEET eh grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The archaeological site is free to visit during the day. The adjacent Musée Gallo-Romain de Fourvière charges a modest entry fee and offers superb context for the ruins.",
+      "responses": [
+        {
+          "english": "Yes, it's free.",
+          "phonetic": "wee, seh grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_theatres_005",
+      "intent_en": "Ask about the view of Lyon from the site",
+      "text_local": "Est-ce qu'on a une belle vue sur Lyon depuis le site ?",
+      "pronunciation": "es-kohn ah oon BEL voo soor lyohn duh-PWEE luh SEET",
+      "formality": "polite",
+      "cultural_note": "The theatres are set on the Fourvière hillside and offer sweeping views across Lyon's rooftops toward the Rhône valley. The view is best on clear days in autumn.",
+      "responses": [
+        {
+          "english": "Yes, the view is magnificent.",
+          "phonetic": "wee, lah VOO eh mah-nyee-FEEK",
+          "french": "Oui, la vue est magnifique."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Roman theatre",
+      "word_local": "le théâtre romain",
+      "pronunciation": "luh tay-AHT-ruh roh-MEHN"
+    },
+    {
+      "word_en": "archaeological site",
+      "word_local": "le site archéologique",
+      "pronunciation": "luh SEET ar-shay-oh-loh-ZHEEK"
+    },
+    {
+      "word_en": "festival",
+      "word_local": "le festival",
+      "pronunciation": "luh fes-tee-VAL"
+    },
+    {
+      "word_en": "ruins",
+      "word_local": "les ruines",
+      "pronunciation": "lay RWEEHN"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "hallstatt_hallstatt_ferry_pier",
+  "name_en": "Hallstatt Ferry Pier",
+  "name_local": "Schiffstation Hallstatt",
+  "icon": "tram",
+  "lat": 47.5630962,
+  "lon": 13.6498701,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hallstatt_hallstatt_ferry_pier_001",
+      "intent_en": "Where do I validate my bus ticket",
+      "text_local": "Wo muss ich mein Busticket entwerten?",
+      "pronunciation": "vOH-mUHs-ihkh-meyen-bUHstihkuht-ehntvEHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Bus tickets for L547 must be validated immediately upon boarding.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bus oder beim Schaffner.",
+        "pronunciation": "ahm-bUHs-OHd-beyem-shAHfn",
+        "translation_en": "On the bus or with the conductor."
+      },
+      "responses": [
+        {
+          "english": "On the bus or with the conductor.",
+          "phonetic": "ahm-bUHs-OHd-beyem-shAHfn",
+          "french": "Am Bus oder beim Schaffner."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ferry_pier_002",
+      "intent_en": "Where is the ferry ticket kiosk",
+      "text_local": "Wo ist der Ticketverkauf für die Fähre?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtfkOWf-fuer-dee-fEHruh",
+      "formality": "standard",
+      "cultural_note": "Ferry tickets are sold at a dedicated kiosk near the boarding area; no additional context is needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Pier, beim Kiosk.",
+        "pronunciation": "ahm-pEErbeyem-kIHohsk",
+        "translation_en": "At the pier, by the kiosk."
+      },
+      "responses": [
+        {
+          "english": "At the pier, by the kiosk.",
+          "phonetic": "ahm-pEErbeyem-kIHohsk",
+          "french": "Am Pier, beim Kiosk."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ferry_pier_003",
+      "intent_en": "Is the ferry cash-only this morning",
+      "text_local": "Akzeptiert die Fähre heute Morgen nur Bargeld?",
+      "pronunciation": "AHktsehptEErt-dee-fEHruh-hAWuhtuh-mAWruhn-nOOr-bAHrehlt",
+      "formality": "standard",
+      "cultural_note": "Payment methods at the pier can vary seasonally; cash-only queues are common in peak months.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nur Bargeld.",
+        "pronunciation": "yAHnOOr-bAHrehlt",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "yAHnOOr-bAHrehlt",
+          "french": "Ja, nur Bargeld."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ferry_pier_004",
+      "intent_en": "Where is parking payment machine P2",
+      "text_local": "Wo steht der Parkautomat P2?",
+      "pronunciation": "vOH-shtEHt-dehr-pAHrkowtohmAHt-pEH-tsvEYE",
+      "formality": "standard",
+      "cultural_note": "P2 is a designated parking payment machine near the lakeside promenade.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei der Seelände.",
+        "pronunciation": "beye-dehr-zEHlehnduh",
+        "translation_en": "By the Seelände."
+      },
+      "responses": [
+        {
+          "english": "By the Seelände.",
+          "phonetic": "beye-dehr-zEHlehnduh",
+          "french": "Bei der Seelände."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ferry_pier_005",
+      "intent_en": "When does the next ferry to Obertraun leave",
+      "text_local": "Wann fährt die nächste Fähre nach Obertraun ab?",
+      "pronunciation": "vAHn-fEHrt-dee-nEHkhstuh-fEHruh-nahkh-OHbtrOWn-AHp",
+      "formality": "standard",
+      "cultural_note": "Ferry schedules are displayed at the pier; times may vary by season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 10:30 Uhr.",
+        "pronunciation": "uhm-tsEHn-oor-drEYEsihkh-OOr",
+        "translation_en": "At 10:30."
+      },
+      "responses": [
+        {
+          "english": "At 10:30.",
+          "phonetic": "uhm-tsEHn-oor-drEYEsihkh-OOr",
+          "french": "Um 10:30 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ferry_pier_006",
+      "intent_en": "Does my ÖBB Vorteilscard cover the ferry",
+      "text_local": "Gilt meine ÖBB Vorteilscard für die Fähre?",
+      "pronunciation": "IHlt-mEYEnuh-UHbEHbEH-fOHrtEYElskahrt-fuer-dee-fEHruh",
+      "formality": "standard",
+      "cultural_note": "ÖBB Vorteilscard applies to ÖBB services, not local ferries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur für Züge.",
+        "pronunciation": "nEYEnnOOr-fuer-tsUEuh",
+        "translation_en": "No, only for trains."
+      },
+      "responses": [
+        {
+          "english": "No, only for trains.",
+          "phonetic": "nEYEnnOOr-fuer-tsUEuh",
+          "french": "Nein, nur für Züge."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

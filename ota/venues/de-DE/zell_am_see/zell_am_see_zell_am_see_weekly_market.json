@@ -1,0 +1,100 @@
+{
+  "id": "zell_am_see_zell_am_see_weekly_market",
+  "name_en": "Zell am See Weekly Market",
+  "name_local": "Wochenmarkt Zell am See",
+  "icon": "cart",
+  "lat": 47.3239636,
+  "lon": 12.7963165,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "zell_am_see_zell_am_see_weekly_market_001",
+      "intent_en": "Do you take card or only cash",
+      "text_local": "Kann man auch mit Karte zahlen?",
+      "pronunciation": "kAHn-mahn-OWkh-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Cash is preferred in many rural markets; card acceptance is rare.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Barzahlung möglich.",
+        "pronunciation": "nOOr-bAHrtsahlUHng-mUHklihkh",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHrtsahlUHng-mUHklihkh",
+          "french": "Nur Barzahlung möglich."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_weekly_market_002",
+      "intent_en": "Is the bio-markt surcharge still applied",
+      "text_local": "Gibt es den Bio-Zuschlag noch?",
+      "pronunciation": "EEpt-ehs-dehn-bIHohtsooshlAHk-nawkh",
+      "formality": "standard",
+      "cultural_note": "Organic surcharges are common in Austrian farmers' markets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, 10 Cent Aufschlag.",
+        "pronunciation": "yAHtsEHn-sEHnt-OWfshlAHk",
+        "translation_en": "Yes, 10 cents extra."
+      },
+      "responses": [
+        {
+          "english": "Yes, 10 cents extra.",
+          "phonetic": "yAHtsEHn-sEHnt-OWfshlAHk",
+          "french": "Ja, 10 Cent Aufschlag."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_weekly_market_003",
+      "intent_en": "Where do I return the Glühwein cup",
+      "text_local": "Wo gebe ich den Pfandbecher zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-dehn-pfAHndbehkh-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Deposit cups are usually returned where purchased.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Stand zurückgeben.",
+        "pronunciation": "ahm-shtAHnt-tsoorUEkEHbuhn",
+        "translation_en": "Return at the stand."
+      },
+      "responses": [
+        {
+          "english": "Return at the stand.",
+          "phonetic": "ahm-shtAHnt-tsoorUEkEHbuhn",
+          "french": "Am Stand zurückgeben."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_weekly_market_004",
+      "intent_en": "Which stall sells Pinzgauer cheese",
+      "text_local": "Wo gibt es Pinzgauer Käse?",
+      "pronunciation": "vOH-EEpt-ehs-pIHntsow-kEHzuh",
+      "formality": "standard",
+      "cultural_note": "Vendors are typically addressed with 'Grüß Gott' upon approaching.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Käse-Stand dort vorne.",
+        "pronunciation": "ahm-kEHzuhshtAHnt-dAWrt-fAWrnuh",
+        "translation_en": "At the cheese stall over there."
+      },
+      "responses": [
+        {
+          "english": "At the cheese stall over there.",
+          "phonetic": "ahm-kEHzuhshtAHnt-dAWrt-fAWrnuh",
+          "french": "Am Käse-Stand dort vorne."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

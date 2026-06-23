@@ -1,0 +1,100 @@
+{
+  "id": "corfu_rosalias_bakery",
+  "name_en": "Rosalia's Bakery",
+  "name_local": "Αρτοποιείο Ροζαλία",
+  "icon": "fork.knife",
+  "lat": 39.591337,
+  "lon": 19.8596189,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "corfu_rosalias_bakery_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πρέπει να προπληρώσω για παραγγελία κουραμπιέδων σε μεγάλη ποσότητα;",
+      "pronunciation": "khrkhAHzehtEH-prOHpleerohmEE-yAH-pohlEHs-kOOrahbkhEHthehs",
+      "formality": "standard",
+      "cultural_note": "Οι μεγάλες παραγγελίες ειδών ζαχαροπλαστικής μπορεί να ακολουθούν διαφορετική διαδικασία πληρωμής, επομένως η οδηγία προς τον υπάλληλο είναι η πιο ασφαλής.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, για μεγάλες παραγγελίες ζητάμε προκαταβολή.",
+        "pronunciation": "nEHyAH-mehghAHlehs-pAHrahnggehlEEehz-zeetAHmeh-prOHkahtAHvohlEE",
+        "translation_en": "Yes, for large orders we ask for a deposit."
+      },
+      "responses": [
+        {
+          "english": "Yes, for large orders we ask for a deposit.",
+          "phonetic": "nEHyAH-mehghAHlehs-pAHrahnggehlEEehz-zeetAHmeh-prOHkahtAHvohlEE",
+          "french": "Ναι, για μεγάλες παραγγελίες ζητάμε προκαταβολή."
+        }
+      ]
+    },
+    {
+      "id": "corfu_rosalias_bakery_002",
+      "intent_en": "Can I get a VAT form for kumquat?",
+      "text_local": "Έχετε έντυπο ΦΠΑ για το κουμκουάτ;",
+      "pronunciation": "EHkhehtEH-EHdeepOH-fEEpEEAHlfah-yAH-toh-kOOmkooAHt",
+      "formality": "standard",
+      "cultural_note": "Τα ειδικά έντυπα ΦΠΑ για τοπικά προϊόντα ζητούνται συχνότερα από ξένους επισκέπτες, επομένως η οδηγία προς τον υπάλληλο είναι τυπική.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_rosalias_bakery_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε τώρα πίτα παστίτσας;",
+      "pronunciation": "eepAHrkhee-tOHrah-pEEtah-pahstEEtsahs",
+      "formality": "standard",
+      "cultural_note": "Τα φρεσκοψημένα προϊόντα μπορεί να περιορίζονται ανά ώρα, επομένως η ερώτηση προς τον υπάλληλο είναι αναμενόμενη.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόλις βγήκε φρέσκια.",
+        "pronunciation": "nEHmOHleez-vyEEeh-frEHsah",
+        "translation_en": "Yes, it just came out fresh."
+      },
+      "responses": [
+        {
+          "english": "Yes, it just came out fresh.",
+          "phonetic": "nEHmOHleez-vyEEeh-frEHsah",
+          "french": "Ναι, μόλις βγήκε φρέσκια."
+        }
+      ]
+    },
+    {
+      "id": "corfu_rosalias_bakery_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει εσωτερικός χώρος για να φάω γλυκά;",
+      "pronunciation": "eepAHrkhee-EHsohtEHreekOHs-khOHrohz-yahnAH-fAHoh-ghleekAH",
+      "formality": "standard",
+      "cultural_note": "Σε παραδοσιακά αρτοποιεία, η κατανάλωση επί τόπου δεν είναι πάντα προφανής, επομένως η οδηγία προς τον υπάλληλο είναι η πιο κατάλληλη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, έχουμε καθίσματα μέσα.",
+        "pronunciation": "nEHEHkhoomEH-kahthEEsmahtAH-mEHsah",
+        "translation_en": "Yes, we have indoor seating."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have indoor seating.",
+          "phonetic": "nEHEHkhoomEH-kahthEEsmahtAH-mEHsah",
+          "french": "Ναι, έχουμε καθίσματα μέσα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

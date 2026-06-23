@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_canal_du_midi",
+  "name_en": "Canal du Midi",
+  "name_local": "Canal du Midi",
+  "icon": "leaf",
+  "lat": 43.5993,
+  "lon": 1.4445,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "toulouse_canal_001",
+      "intent_en": "Ask where to hire a canal boat for the day",
+      "text_local": "Où puis-je louer une péniche pour la journée sur le canal ?",
+      "pronunciation": "oo PWEE-zhuh loo-AY yoon pay-NEESH poor lah zhoor-NAY soor luh kah-NAL",
+      "formality": "polite",
+      "cultural_note": "The Canal du Midi, a UNESCO World Heritage site built by Pierre-Paul Riquet in the 17th century, links the Atlantic to the Mediterranean.",
+      "responses": [
+        {
+          "english": "At Port Saint-Sauveur, near the bridge.",
+          "phonetic": "oh POR sahn-soh-VUR pray doo POHN",
+          "french": "Au port Saint-Sauveur, près du pont."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_canal_002",
+      "intent_en": "Ask if cycling along the canal towpath is allowed",
+      "text_local": "Est-il permis de faire du vélo sur le chemin de halage du canal ?",
+      "pronunciation": "eh-TEEL pair-MEE duh FAIR doo VAY-loh soor luh shuh-MAN duh ah-LAZH doo kah-NAL",
+      "formality": "polite",
+      "cultural_note": "The towpath (chemin de halage) along the Canal du Midi is one of France's most scenic cycling routes, shaded by centuries-old plane trees.",
+      "responses": [
+        {
+          "english": "Yes, the path is open to bikes.",
+          "phonetic": "wee lah PEEST eh too-VAIR oh VAY-loh",
+          "french": "Oui, la piste est ouverte aux vélos."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_canal_003",
+      "intent_en": "Ask how long the cruise to the first lock takes",
+      "text_local": "Combien de temps dure la croisière jusqu'à la première écluse ?",
+      "pronunciation": "kohm-BYAN duh TAHN DYOOR lah krwah-ZYAIR zhoos-KAH lah pruh-MYAIR ay-KLYOZ",
+      "formality": "polite",
+      "cultural_note": "The Canal du Midi passes through numerous locks (écluses); watching a boat navigate through is a classic canal experience.",
+      "responses": [
+        {
+          "english": "About forty-five minutes.",
+          "phonetic": "ahn-vee-ROHN kah-RAHNT-SAHNK mee-NOOT",
+          "french": "Environ quarante-cinq minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_canal_004",
+      "intent_en": "Ask if there are boat trips departing from Port Saint-Sauveur",
+      "text_local": "Y a-t-il des excursions en bateau au départ du Port Saint-Sauveur ?",
+      "pronunciation": "ee-ah-TEEL day ex-kyoor-SYON ahn bah-TOH oh day-PAR doo por san-soh-VUR",
+      "formality": "polite",
+      "cultural_note": "Port Saint-Sauveur is Toulouse's main canal port, offering pleasure cruises and hire boats on the Canal du Midi and the Canal de Brienne.",
+      "responses": [
+        {
+          "english": "Yes, departures are over there.",
+          "phonetic": "wee lay day-PAR sohn lah-BAH",
+          "french": "Oui, les départs sont là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_canal_005",
+      "intent_en": "Ask where to buy a picnic to enjoy along the canal",
+      "text_local": "Où puis-je acheter de quoi pique-niquer le long du canal ?",
+      "pronunciation": "oo PWEE-zhuh ash-TAY duh KWAH peek-nee-KAY luh LOHN doo kah-NAL",
+      "formality": "polite",
+      "cultural_note": "The banks of the Canal du Midi under the plane trees are a favourite Toulousain spot for a relaxed picnic lunch.",
+      "responses": [
+        {
+          "english": "There is a bakery on the corner.",
+          "phonetic": "eel ee ah oon boo-lahn-zhuh-REE oh KWAHN duh lah ROO",
+          "french": "Il y a une boulangerie au coin de la rue."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "canal boat / barge",
+      "word_local": "la péniche",
+      "pronunciation": "lah pay-NEESH"
+    },
+    {
+      "word_en": "lock (on a canal)",
+      "word_local": "l'écluse",
+      "pronunciation": "lay-KLYOZ"
+    },
+    {
+      "word_en": "towpath",
+      "word_local": "le chemin de halage",
+      "pronunciation": "luh shuh-MAN duh ah-LAZH"
+    },
+    {
+      "word_en": "cruise / boat trip",
+      "word_local": "la croisière",
+      "pronunciation": "lah krwah-ZYAIR"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "saint_malo_intramuros",
+  "name_en": "Intra-Muros / City Walls",
+  "name_local": "Intra-Muros",
+  "icon": "building.2",
+  "lat": 48.649,
+  "lon": -1.993,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "saintmalo_walls_001",
+      "intent_en": "Ask how long it takes to walk the complete circuit of the walls",
+      "text_local": "Combien de temps faut-il pour faire le tour complet des remparts ?",
+      "pronunciation": "kom-BYAN duh tahn fo-TEEL poor FAIR luh toor kom-PLAY day rahn-PAR",
+      "formality": "polite",
+      "cultural_note": "Walking the complete circuit of Saint-Malo's walls takes about 45 minutes. The views of the sea and Channel Islands are spectacular.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About forty-five minutes for the full circuit.",
+          "phonetic": "sah prahn ahn-vee-ROHN kah-RAHN-sank mee-NOOT. lah voo eh man-YEE-feek",
+          "french": "Environ quarante-cinq minutes pour le tour complet."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_walls_002",
+      "intent_en": "Ask where to access the rampart walk",
+      "text_local": "Où peut-on monter sur les remparts ?",
+      "pronunciation": "oo puh-TON mon-TAY soor lay rahn-PAR",
+      "formality": "polite",
+      "cultural_note": "There are several access points to the ramparts. The main stairway is near Porte Saint-Vincent.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The main stairway is near Porte Saint-Vincent.",
+          "phonetic": "less-kah-LYAY prahn-see-PAL eh preh duh lah PORT san-van-SAHN",
+          "french": "L'escalier principal est près de la porte Saint-Vincent."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_walls_003",
+      "intent_en": "Ask where the main gate into the walled city is",
+      "text_local": "Où se trouve la porte principale pour entrer dans la ville close ?",
+      "pronunciation": "oo suh TROOV lah port prahn-SEE-pal poor ahn-TRAY dan lah VEEL kloz",
+      "formality": "polite",
+      "cultural_note": "The main gate is the Porte Saint-Vincent, on the south side facing the harbor. There's also the smaller Porte de la Vielle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Porte Saint-Vincent, on the south side, facing the port.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "La porte Saint-Vincent, côté sud, face au port."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_walls_004",
+      "intent_en": "Ask about the Grand Bé gate and island",
+      "text_local": "Pouvez-vous me parler de la porte du Grand Bé et de l'île ?",
+      "pronunciation": "poo-VAY voo muh par-LAY duh lah port doo grahn BAY ay duh LEEL",
+      "formality": "polite",
+      "cultural_note": "Grand Bé is a tidal island with the tomb of the writer Chateaubriand. It's only accessible on foot at low tide — check the tide times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The island is only accessible at low tide. Check the times.",
+          "phonetic": "leel eh-tahk-seess-SEEB-lah mah-RAY bahs seul-MAHN. vay-ree-fee-AY layz oh-REHR",
+          "french": "L'île est accessible à marée basse seulement. Vérifiez les horaires."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_walls_005",
+      "intent_en": "Ask about the casemate tunnels under the walls",
+      "text_local": "Y a-t-il des tunnels sous les remparts ?",
+      "pronunciation": "ee ah-TEEL day TOO-nel soo lay rahn-PAR",
+      "formality": "polite",
+      "cultural_note": "The casemates are bomb-proof tunnels under the walls, built in the 18th century. Some are open to visitors and offer exhibits on the history.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, some casemates are open with exhibits.",
+          "phonetic": "wee, sair-TEN kahz-MAHT soo too-VER ah-VEK dayz eks-poh-zee-SYOHN",
+          "french": "Oui, certaines casemates sont ouvertes avec des expositions."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "city walls",
+      "word_local": "les remparts",
+      "pronunciation": "lay rahn-PAR"
+    },
+    {
+      "word_en": "walled city",
+      "word_local": "la ville close",
+      "pronunciation": "lah VEEL kloz"
+    },
+    {
+      "word_en": "gate",
+      "word_local": "la porte",
+      "pronunciation": "lah port"
+    },
+    {
+      "word_en": "bastion",
+      "word_local": "le bastion",
+      "pronunciation": "leh bas-TYON"
+    }
+  ]
+}

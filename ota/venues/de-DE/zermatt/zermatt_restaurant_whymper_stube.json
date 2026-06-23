@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_restaurant_whymper_stube",
+  "name_en": "Restaurant Whymper-Stube",
+  "name_local": "Whymper-Stube",
+  "icon": "fork.knife",
+  "lat": 46.0203302,
+  "lon": 7.7462344,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zermatt_restaurant_whymper_stube_001",
+      "intent_en": "Is the Matterhorn terrace currently available",
+      "text_local": "Ist die Matterhorn-Terrasse frei?",
+      "pronunciation": "ihst-dee-mAHthAWrntEHrahsuh-frEYE",
+      "formality": "standard",
+      "cultural_note": "Terassenplätze sind in Schweizer Bergrestaurants oft wetterabhängig; bei gutem Wetter wird der Außenbereich priorisiert genutzt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, sie ist verfügbar.",
+        "pronunciation": "yAHzee-ihst-fehrfUEkbahr",
+        "translation_en": "Yes, it is available."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is available.",
+          "phonetic": "yAHzee-ihst-fehrfUEkbahr",
+          "french": "Ja, sie ist verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_restaurant_whymper_stube_002",
+      "intent_en": "Do I wait to be seated or seat myself",
+      "text_local": "Warten auf Platzierung?",
+      "pronunciation": "vAHrtuhn-owf-plahtsEEruhng",
+      "formality": "standard",
+      "cultural_note": "In Schweizer Restaurants wird Service oft persönlich durch den Wirt organisiert; Selbstsetzung ist selten und gilt als unhöflich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Wirt führt Sie hin.",
+        "pronunciation": "dehr-vIHrt-fUErt-zee-hIHn",
+        "translation_en": "The host will seat you."
+      },
+      "responses": [
+        {
+          "english": "The host will seat you.",
+          "phonetic": "dehr-vIHrt-fUErt-zee-hIHn",
+          "french": "Der Wirt führt Sie hin."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_restaurant_whymper_stube_003",
+      "intent_en": "How do I order the Alpskaese fondue",
+      "text_local": "Wie bestelle ich das Alpskaese-Fondue?",
+      "pronunciation": "vee-buhshtEHluh-ihkh-dahs-AHlpskehzuhfawndUE",
+      "formality": "casual",
+      "cultural_note": "Im Schweizer Alpenraum ist Fondue oft ein ritualisiertes Essen; Gäste bestellen beim Käse-Meister, der das Fondue zubereitet und serviert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sagen Sie einfach dem Kellner 'Alpskaese-Fondue'.",
+        "pronunciation": "zAHguhn-zee-EYEnfAHkh-dehm-kEHln-AHlpskehzuhfawndUE",
+        "translation_en": "Just tell the waiter 'Alpskaese fondue'."
+      },
+      "responses": [
+        {
+          "english": "Just tell the waiter 'Alpskaese fondue'.",
+          "phonetic": "zAHguhn-zee-EYEnfAHkh-dehm-kEHln-AHlpskehzuhfawndUE",
+          "french": "Sagen Sie einfach dem Kellner 'Alpskaese-Fondue'."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_restaurant_whymper_stube_004",
+      "intent_en": "Where do I pay in CHF without EUR conversion",
+      "text_local": "Wo zahle ich in CHF?",
+      "pronunciation": "vOH-tsAHluh-ihkh-ihn-tsEHhAHEHf",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz wird Bargeld zunehmend durch Kartenzahlung ersetzt, aber CHF-Münzen und -Scheine bleiben Standard für direkte Bezahlung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

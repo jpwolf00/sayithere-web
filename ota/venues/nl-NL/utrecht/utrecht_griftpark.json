@@ -1,0 +1,34 @@
+{
+  "id": "utrecht_griftpark",
+  "name_en": "Griftpark",
+  "name_local": "Griftpark",
+  "icon": "leaf",
+  "lat": 52.1008983,
+  "lon": 5.1264891,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "utrecht_griftpark_001",
+      "intent_en": "Can I buy Parktheater tickets here?",
+      "text_local": "Mag ik hier Parktheaterkaartjes kopen?",
+      "pronunciation": "mahkh-ihk-hEEr-pAHrktuhAHtuhrkAHrtuhs-kOHpuhn",
+      "formality": "casual",
+      "cultural_note": "Staff politely redirect to the dedicated ticket booth service point, using a specific staff title from the venue context.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nee, vraag het bij de Parktheaterbalie.",
+        "pronunciation": "nEHvrAHkh-huht-behih-duh-pAHrktuhAHtuhrbahlEE",
+        "translation_en": "No, ask at the Parktheater ticket booth."
+      },
+      "responses": [
+        {
+          "english": "No, ask at the Parktheater ticket booth.",
+          "phonetic": "nEHvrAHkh-huht-behih-duh-pAHrktuhAHtuhrbahlEE",
+          "french": "Nee, vraag het bij de Parktheaterbalie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

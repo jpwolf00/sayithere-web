@@ -1,0 +1,4642 @@
+{
+  "scenarios": [
+    {
+      "id": "general",
+      "name_en": "General Phrases",
+      "name_local": "Frases generales",
+      "icon": "globe",
+      "phrases": [
+        {
+          "id": "general_001",
+          "intent_en": "Ask if someone speaks English",
+          "text_local": "Disculpe, ¿habla inglés?",
+          "pronunciation": "dees-KOOL-peh, AHB-lah een-GLÉS",
+          "formality": "polite",
+          "cultural_note": "Always open with 'Disculpe' or 'Buenos días' — Spaniards value the courtesy of a proper greeting before any request.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, a little.",
+              "phonetic": "SEE, oon POH-koh",
+              "local": "Sí, un poco."
+            },
+            {
+              "english": "No, I'm sorry.",
+              "phonetic": "NOH, loh see-EHN-toh",
+              "local": "No, lo siento."
+            },
+            {
+              "english": "Yes, how can I help you?",
+              "phonetic": "SEE, ehn keh leh PWEH-doh ah-yoo-DAR",
+              "local": "Sí, ¿en qué le puedo ayudar?"
+            }
+          ]
+        },
+        {
+          "id": "general_002",
+          "intent_en": "Say you don't understand",
+          "text_local": "No entiendo. ¿Puede repetir más despacio?",
+          "pronunciation": "NOH ehn-tee-EHN-doh. PWEH-deh reh-peh-TEER MÁS deh-spah-THYOH",
+          "formality": "polite",
+          "cultural_note": "Spaniards often speak quickly — asking to slow down is entirely normal and will be met with patience.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, like this?",
+              "phonetic": "KLAH-roh, ah-SEE",
+              "local": "Claro, ¿así?"
+            },
+            {
+              "english": "Shall I write it down?",
+              "phonetic": "loh ehs-KREE-boh",
+              "local": "¿Lo escribo?"
+            }
+          ]
+        },
+        {
+          "id": "general_003",
+          "intent_en": "Ask where the bathroom is",
+          "text_local": "Disculpe, ¿dónde están los servicios?",
+          "pronunciation": "dees-KOOL-peh, DON-deh ehs-TÁN lohs sehr-BEE-thyohs",
+          "formality": "polite",
+          "cultural_note": "In Spain say 'los servicios' or 'el baño'. Cafés and bars are usually happy to let customers use the facilities.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "At the back on the right.",
+              "phonetic": "ahl FOHN-doh ah lah deh-REH-chah",
+              "local": "Al fondo a la derecha."
+            },
+            {
+              "english": "Go down the stairs.",
+              "phonetic": "BAH-heh lahs ehs-kah-LEH-rahs",
+              "local": "Baje las escaleras."
+            }
+          ]
+        },
+        {
+          "id": "general_004",
+          "intent_en": "Say please and thank you",
+          "text_local": "Por favor. Muchas gracias.",
+          "pronunciation": "por fah-BOR. MOO-chahs GRAH-thyahs",
+          "formality": "polite",
+          "cultural_note": "These two phrases open every door. Spaniards are warm and respond well to genuine courtesy.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "You're welcome.",
+              "phonetic": "deh NAH-dah",
+              "local": "De nada."
+            },
+            {
+              "english": "With pleasure!",
+              "phonetic": "kohn MOO-choh GOOS-toh",
+              "local": "¡Con mucho gusto!"
+            }
+          ]
+        },
+        {
+          "id": "general_005",
+          "intent_en": "Ask for directions",
+          "text_local": "Disculpe, ¿cómo llego a…?",
+          "pronunciation": "dees-KOOL-peh, KOH-moh YEH-goh ah",
+          "formality": "polite",
+          "cultural_note": "Spaniards are genuinely helpful with directions. If they don't know, they'll often ask someone nearby on your behalf.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Straight ahead then left.",
+              "phonetic": "TOH-doh REHK-toh ee LWEH-goh ah lah ees-KYEHR-dah",
+              "local": "Todo recto y luego a la izquierda."
+            },
+            {
+              "english": "It's five minutes on foot.",
+              "phonetic": "ehs-TÁ ah THEEN-koh mee-NOO-tohs ah PYEH",
+              "local": "Está a cinco minutos a pie."
+            }
+          ]
+        },
+        {
+          "id": "general_006",
+          "intent_en": "Ask for help in an emergency",
+          "text_local": "¡Ayuda! Necesito ayuda, por favor.",
+          "pronunciation": "ah-YOO-dah. neh-seh-SEE-toh ah-YOO-dah, por fah-BOR",
+          "formality": "urgent",
+          "cultural_note": "Emergency number in Spain: 112. Police: 091. Medical: 061.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "What happened?",
+              "phonetic": "keh ah pah-SAH-doh",
+              "local": "¿Qué ha pasado?"
+            },
+            {
+              "english": "I'm calling the police.",
+              "phonetic": "YAH-moh ah lah poh-lee-THEE-ah",
+              "local": "Llamo a la policía."
+            }
+          ]
+        },
+        {
+          "id": "general_007",
+          "intent_en": "Ask someone to speak more slowly",
+          "text_local": "Más despacio, por favor.",
+          "pronunciation": "MÁS deh-spah-THYOH, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Perfectly natural to ask. Spaniards tend to speak fast and will happily slow down when asked.",
+          "speech_act": "request",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Of course, is this better?",
+              "phonetic": "KLAH-roh, ah-SEE meh-HOR",
+              "local": "Claro, ¿así mejor?"
+            },
+            {
+              "english": "Sorry, do you understand now?",
+              "phonetic": "pehr-DOH-nah, loh ehn-tee-EHN-dehs ah-OH-rah",
+              "local": "Perdona, ¿lo entiendes ahora?"
+            }
+          ]
+        },
+        {
+          "id": "general_008",
+          "intent_en": "Say you don't speak Spanish",
+          "text_local": "No hablo español, solo un poco.",
+          "pronunciation": "NOH AH-bloh ehs-pah-NYOL, SOH-loh oon POH-koh",
+          "formality": "polite",
+          "cultural_note": "Even a little Spanish goes a long way in Spain. Locals appreciate any effort and will often switch to English or use gestures to help.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Don't worry, I'll help you.",
+              "phonetic": "NOH teh preh-oh-KOO-pehs, teh ah-YOO-doh",
+              "local": "No te preocupes, te ayudo."
+            },
+            {
+              "english": "I can try in English.",
+              "phonetic": "PWEH-doh een-tehn-TAR-loh ehn een-GLÉS",
+              "local": "Puedo intentarlo en inglés."
+            }
+          ]
+        },
+        {
+          "id": "general_009",
+          "intent_en": "Greet someone (hello / good morning)",
+          "text_local": "¡Buenos días! / ¡Buenas tardes! / ¡Buenas noches!",
+          "pronunciation": "BWEH-nohs DEE-ahs / BWEH-nahs TAR-dehs / BWEH-nahs NOH-chehs",
+          "formality": "polite",
+          "cultural_note": "Use 'Buenos días' until noon, 'Buenas tardes' until dusk, 'Buenas noches' in the evening. 'Buenas' alone works informally any time of day.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Good morning!",
+              "phonetic": "BWEH-nohs DEE-ahs",
+              "local": "¡Buenos días!"
+            },
+            {
+              "english": "Hi, hello!",
+              "phonetic": "OH-lah, BWEH-nahs",
+              "local": "¡Hola, buenas!"
+            }
+          ]
+        },
+        {
+          "id": "general_010",
+          "intent_en": "Say goodbye",
+          "text_local": "¡Adiós! ¡Que tenga un buen día!",
+          "pronunciation": "ah-DYOHS. keh TEHN-gah oon BWEHN DEE-ah",
+          "formality": "polite",
+          "cultural_note": "'Adiós' is standard. 'Hasta luego' (see you later) is warmer. Always say goodbye when leaving a shop — it's good manners in Spain.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Same to you!",
+              "phonetic": "ee-gwal-MEHN-teh",
+              "local": "¡Igualmente!"
+            },
+            {
+              "english": "See you later!",
+              "phonetic": "AHS-tah LWEH-goh",
+              "local": "¡Hasta luego!"
+            }
+          ]
+        },
+        {
+          "id": "general_011",
+          "intent_en": "Apologise / excuse me",
+          "text_local": "¡Perdona! / Disculpe.",
+          "pronunciation": "pehr-DOH-nah / dees-KOOL-peh",
+          "formality": "polite",
+          "cultural_note": "'Perdona' (informal) or 'Perdone' (formal) to get attention or apologise. 'Disculpe' is more formal. Both are used constantly in daily Spanish life.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Don't worry.",
+              "phonetic": "NOH seh preh-oh-KOO-peh",
+              "local": "No se preocupe."
+            },
+            {
+              "english": "No problem!",
+              "phonetic": "seen proh-BLEH-mah",
+              "local": "¡Sin problema!"
+            }
+          ]
+        },
+        {
+          "id": "general_012",
+          "intent_en": "Ask how much something costs",
+          "text_local": "¿Cuánto cuesta esto, por favor?",
+          "pronunciation": "KWAHN-toh KWEHS-tah EHS-toh, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Point at the item if you're unsure of the name. Most vendors are happy to show you the price on a screen or write it down.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "That's three euros fifty.",
+              "phonetic": "SOHN TREHS EH-oo-rohs kohn theen-KWEHN-tah",
+              "local": "Son tres euros con cincuenta."
+            },
+            {
+              "english": "The price is here.",
+              "phonetic": "ehl PREH-thyoh ehs-TÁ ah-KEE",
+              "local": "El precio está aquí."
+            }
+          ]
+        },
+        {
+          "id": "general_013",
+          "intent_en": "Ask where something is",
+          "text_local": "¿Dónde está… por favor?",
+          "pronunciation": "DON-deh ehs-TÁ... por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "All-purpose location question. Show the name on your phone if you can't pronounce it — Spaniards are always happy to help.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's over there.",
+              "phonetic": "ehs-TÁ por ah-YEE",
+              "local": "Está por allí."
+            },
+            {
+              "english": "I don't know, sorry.",
+              "phonetic": "NOH loh SEH, loh see-EHN-toh",
+              "local": "No lo sé, lo siento."
+            }
+          ]
+        },
+        {
+          "id": "general_014",
+          "intent_en": "Say yes / no / maybe",
+          "text_local": "Sí. / No. / Quizás.",
+          "pronunciation": "SEE. / NOH. / kee-SAHS",
+          "formality": "standard",
+          "cultural_note": "'Claro' (of course) and '¡Por supuesto!' (absolutely!) are strong affirmatives. 'Quizás' or 'A lo mejor' are the polite maybes.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Agreed.",
+              "phonetic": "deh ah-KWEHR-doh",
+              "local": "De acuerdo."
+            },
+            {
+              "english": "Perfect.",
+              "phonetic": "pehr-FEHK-toh",
+              "local": "Perfecto."
+            }
+          ]
+        },
+        {
+          "id": "general_015",
+          "intent_en": "Say you don't know",
+          "text_local": "No lo sé.",
+          "pronunciation": "NOH loh SEH",
+          "formality": "standard",
+          "cultural_note": "Simple and clear. Add 'lo siento' (sorry) to soften. Spaniards who don't know the answer will often ask a colleague on your behalf.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Understood.",
+              "phonetic": "ehn-tehn-DEE-doh",
+              "local": "Entendido."
+            },
+            {
+              "english": "I'll ask someone.",
+              "phonetic": "BOY ah preh-goon-TAR",
+              "local": "Voy a preguntar."
+            }
+          ]
+        },
+        {
+          "id": "general_016",
+          "intent_en": "Ask someone to write it down",
+          "text_local": "¿Puede escribirlo, por favor?",
+          "pronunciation": "PWEH-deh ehs-kree-BEER-loh, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Invaluable for names, addresses, and prices. People will happily write it down or show you on their phone.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, here you go.",
+              "phonetic": "KLAH-roh, ah-KEE loh TYEH-neh",
+              "local": "Claro, aquí lo tiene."
+            },
+            {
+              "english": "I don't have paper, but I'll show you on my phone.",
+              "phonetic": "NOH TEHN-goh pah-PEHL, PEH-roh seh loh MWEHS-troh ehn ehl MOH-beel",
+              "local": "No tengo papel, pero se lo muestro en el móvil."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "0",
+          "word_local": "cero",
+          "pronunciation": "THEH-roh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "1",
+          "word_local": "uno / una",
+          "pronunciation": "OO-noh / OO-nah",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "2",
+          "word_local": "dos",
+          "pronunciation": "DOS",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "3",
+          "word_local": "tres",
+          "pronunciation": "TREHS",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "4",
+          "word_local": "cuatro",
+          "pronunciation": "KWAH-troh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "5",
+          "word_local": "cinco",
+          "pronunciation": "THEEN-koh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "6",
+          "word_local": "seis",
+          "pronunciation": "SAYS",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "7",
+          "word_local": "siete",
+          "pronunciation": "SYEH-teh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "8",
+          "word_local": "ocho",
+          "pronunciation": "OH-choh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "9",
+          "word_local": "nueve",
+          "pronunciation": "NWEH-beh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "10",
+          "word_local": "diez",
+          "pronunciation": "DYETH",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "11",
+          "word_local": "once",
+          "pronunciation": "OHN-theh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "12",
+          "word_local": "doce",
+          "pronunciation": "DOH-theh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "13",
+          "word_local": "trece",
+          "pronunciation": "TREH-theh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "14",
+          "word_local": "catorce",
+          "pronunciation": "kah-TOR-theh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "15",
+          "word_local": "quince",
+          "pronunciation": "KEEN-theh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "16",
+          "word_local": "dieciséis",
+          "pronunciation": "dyeh-thee-SAYS",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "17",
+          "word_local": "diecisiete",
+          "pronunciation": "dyeh-thee-SYEH-teh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "18",
+          "word_local": "dieciocho",
+          "pronunciation": "dyeh-thee-OH-choh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "19",
+          "word_local": "diecinueve",
+          "pronunciation": "dyeh-thee-NWEH-beh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "20",
+          "word_local": "veinte",
+          "pronunciation": "BEYN-teh",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "30",
+          "word_local": "treinta",
+          "pronunciation": "TREYN-tah",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "40",
+          "word_local": "cuarenta",
+          "pronunciation": "kwah-REHN-tah",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "50",
+          "word_local": "cincuenta",
+          "pronunciation": "theen-KWEHN-tah",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "60",
+          "word_local": "sesenta",
+          "pronunciation": "seh-SEHN-tah",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "70",
+          "word_local": "setenta",
+          "pronunciation": "seh-TEHN-tah",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "80",
+          "word_local": "ochenta",
+          "pronunciation": "oh-CHEHN-tah",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "90",
+          "word_local": "noventa",
+          "pronunciation": "noh-BEHN-tah",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "100",
+          "word_local": "cien",
+          "pronunciation": "THYEHN",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "1000",
+          "word_local": "mil",
+          "pronunciation": "MEEL",
+          "section": "Numbers"
+        },
+        {
+          "word_en": "First",
+          "word_local": "primero / primera",
+          "pronunciation": "pree-MEH-roh",
+          "section": "Ordinals"
+        },
+        {
+          "word_en": "Second",
+          "word_local": "segundo / segunda",
+          "pronunciation": "seh-GOON-doh",
+          "section": "Ordinals"
+        },
+        {
+          "word_en": "Third",
+          "word_local": "tercero / tercera",
+          "pronunciation": "tehr-THEH-roh",
+          "section": "Ordinals"
+        },
+        {
+          "word_en": "Last",
+          "word_local": "último / última",
+          "pronunciation": "OOL-tee-moh",
+          "section": "Ordinals"
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name_en": "Restaurant",
+      "name_local": "Restaurante",
+      "icon": "fork.knife",
+      "phrases": [
+        {
+          "id": "restaurant_001",
+          "intent_en": "Ask for a table",
+          "text_local": "Buenas noches, ¿tienen una mesa para dos?",
+          "pronunciation": "BWEH-nahs NOH-chehs, TYEH-nehn OO-nah MEH-sah PAH-rah dos",
+          "formality": "polite",
+          "cultural_note": "Always greet with 'Buenas noches' (evening) or 'Buenas tardes' (afternoon). Dinner in Spain starts late — restaurants often don't fill up until 9 or 10pm.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, this way.",
+              "phonetic": "SEE, por ah-KEE",
+              "local": "Sí, por aquí."
+            },
+            {
+              "english": "Do you have a reservation?",
+              "phonetic": "TYEH-nehn reh-SEHR-bah",
+              "local": "¿Tienen reserva?"
+            },
+            {
+              "english": "Sorry, we're fully booked.",
+              "phonetic": "loh see-EHN-toh, ehs-TAH-mohs kohm-PLEH-tohs",
+              "local": "Lo siento, estamos completos."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_002",
+          "intent_en": "Ask for the menu",
+          "text_local": "La carta, por favor.",
+          "pronunciation": "lah KAR-tah, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "'La carta' is the full menu. 'El menú del día' is the fixed-price lunch (starter + main + dessert + drink) — usually excellent value and typically available 1–4pm.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Here you go.",
+              "phonetic": "ah-KEE TYEH-neh",
+              "local": "Aquí tiene."
+            },
+            {
+              "english": "Shall I explain the set menu?",
+              "phonetic": "leh eks-PLEE-koh ehl meh-NOO dehl DEE-ah",
+              "local": "¿Le explico el menú del día?"
+            }
+          ]
+        },
+        {
+          "id": "restaurant_003",
+          "intent_en": "Ask for the dish of the day",
+          "text_local": "¿Cuál es el plato del día?",
+          "pronunciation": "KWAHL ehs ehl PLAH-toh dehl DEE-ah",
+          "formality": "polite",
+          "cultural_note": "The 'plato del día' rotates daily and uses fresh seasonal produce. It's often the best and freshest option on the menu.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Today we have Madrid stew.",
+              "phonetic": "OY teh-NEH-mohs koh-THEE-doh mah-dree-LEH-nyoh",
+              "local": "Hoy tenemos cocido madrileño."
+            },
+            {
+              "english": "Today's fish is hake.",
+              "phonetic": "ehl pehs-KAH-doh dehl DEE-ah ehs mehr-LOO-thah",
+              "local": "El pescado del día es merluza."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_004",
+          "intent_en": "Say you have an allergy",
+          "text_local": "Soy alérgico a los frutos secos.",
+          "pronunciation": "SOY ah-LEHR-hee-koh ah lohs FROO-tohs SEH-kohs",
+          "formality": "polite",
+          "cultural_note": "Swap 'frutos secos' (nuts) for your allergen: gluten, lácteos (dairy), huevos (eggs), mariscos (shellfish). Spanish kitchens take allergies seriously.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "OK, I'll mention it to the kitchen.",
+              "phonetic": "deh ah-KWEHR-doh, loh koh-MEHN-toh ehn koh-THEE-nah",
+              "local": "De acuerdo, lo comento en cocina."
+            },
+            {
+              "english": "No problem, we'll adapt it.",
+              "phonetic": "seen proh-BLEH-mah, loh ah-dahp-TAH-mohs",
+              "local": "Sin problema, lo adaptamos."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_005",
+          "intent_en": "Ask for tap water",
+          "text_local": "Una jarra de agua del grifo, por favor.",
+          "pronunciation": "OO-nah HA-rrah deh AH-gwah dehl GREE-foh, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Tap water is safe and free in Spain. Some restaurants will push bottled water — you're perfectly entitled to ask for 'agua del grifo'. In some regions it tastes better than others.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, right away.",
+              "phonetic": "KLAH-roh, ah-OH-rah MEES-moh",
+              "local": "Claro, ahora mismo."
+            },
+            {
+              "english": "Would you prefer mineral water?",
+              "phonetic": "preh-FYEH-reh AH-gwah mee-neh-RAHL",
+              "local": "¿Prefiere agua mineral?"
+            }
+          ]
+        },
+        {
+          "id": "restaurant_006",
+          "intent_en": "Ask for the bill",
+          "text_local": "La cuenta, por favor.",
+          "pronunciation": "lah KWEHN-tah, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "The waiter won't bring the bill unless asked — this is normal. Tips are not obligatory in Spain but rounding up or leaving 5–10% for good service is appreciated.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I'll bring it right away.",
+              "phonetic": "ah-OH-rah MEES-moh seh lah TRAH-ee-goh",
+              "local": "Ahora mismo se la traigo."
+            },
+            {
+              "english": "Are you paying together or separately?",
+              "phonetic": "PAH-gahn HOON-tohs oh por seh-pah-RAH-doh",
+              "local": "¿Pagan juntos o por separado?"
+            }
+          ]
+        },
+        {
+          "id": "restaurant_007",
+          "intent_en": "Say you are vegetarian",
+          "text_local": "Soy vegetariano. ¿Tienen opciones sin carne?",
+          "pronunciation": "SOY beh-heh-tah-RYAH-noh. TYEH-nehn ohp-THYOH-nehs seen KAR-neh",
+          "formality": "polite",
+          "cultural_note": "Spain is increasingly vegetarian-friendly in cities. Traditional dishes to look for: gazpacho, pisto, patatas bravas, tortilla española. Rural areas have fewer options.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, we have several vegetarian dishes.",
+              "phonetic": "SEE, teh-NEH-mohs BAH-ryohs PLAH-tohs beh-heh-tah-RYAH-nohs",
+              "local": "Sí, tenemos varios platos vegetarianos."
+            },
+            {
+              "english": "Do you eat fish?",
+              "phonetic": "KOH-meh pehs-KAH-doh",
+              "local": "¿Come pescado?"
+            }
+          ]
+        },
+        {
+          "id": "restaurant_008",
+          "intent_en": "Say you're still looking at the menu",
+          "text_local": "Todavía estamos mirando la carta, gracias.",
+          "pronunciation": "toh-dah-BEE-ah ehs-TAH-mohs mee-RAHN-doh lah KAR-tah, GRAH-thyahs",
+          "formality": "polite",
+          "cultural_note": "Spanish waiters are attentive — this phrase gives you space without being rude.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Of course, no rush.",
+              "phonetic": "KLAH-roh, seen PREE-sah",
+              "local": "Claro, sin prisa."
+            },
+            {
+              "english": "Whenever you're ready.",
+              "phonetic": "KWAHN-doh KYEH-rahn",
+              "local": "Cuando quieran."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_009",
+          "intent_en": "Say you're ready to order",
+          "text_local": "Ya estamos listos para pedir.",
+          "pronunciation": "YAH ehs-TAH-mohs LEES-tohs PAH-rah peh-DEER",
+          "formality": "polite",
+          "cultural_note": "Catching a waiter's eye or a gentle 'Perdona' (excuse me) works well in Spanish restaurants.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Perfect, what will you have?",
+              "phonetic": "pehr-FEHK-toh, keh bahn ah toh-MAR",
+              "local": "Perfecto, ¿qué van a tomar?"
+            },
+            {
+              "english": "Coming now!",
+              "phonetic": "ah-OH-rah BOY",
+              "local": "¡Ahora voy!"
+            }
+          ]
+        },
+        {
+          "id": "restaurant_010",
+          "intent_en": "Ask what the waiter recommends",
+          "text_local": "¿Qué nos recomienda?",
+          "pronunciation": "keh nohs reh-koh-MYEHN-dah",
+          "formality": "polite",
+          "cultural_note": "Spanish waiters are proud of their food and will give genuine, enthusiastic recommendations — especially for local or seasonal specialities.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I recommend the suckling pig, it's our speciality.",
+              "phonetic": "leh reh-koh-MYEHN-doh ehl koh-chee-NEE-yoh, ehs NWEHS-trah ehs-peh-thyah-lee-DAHD",
+              "local": "Le recomiendo el cochinillo, es nuestra especialidad."
+            },
+            {
+              "english": "The dish of the day is very good today.",
+              "phonetic": "ehl PLAH-toh dehl DEE-ah ehs-TÁ mwee BWEH-noh OY",
+              "local": "El plato del día está muy bueno hoy."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_011",
+          "intent_en": "Ask what a dish is",
+          "text_local": "¿En qué consiste este plato?",
+          "pronunciation": "ehn keh kohn-SEES-teh EHS-teh PLAH-toh",
+          "formality": "polite",
+          "cultural_note": "Spanish menus often use regional names. Don't hesitate to ask — waiters enjoy explaining their dishes.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's a meat stew with seasonal vegetables.",
+              "phonetic": "ehs oon GHEE-soh deh KAR-neh kohn behr-DOO-rahs deh tehm-poh-RAH-dah",
+              "local": "Es un guiso de carne con verduras de temporada."
+            },
+            {
+              "english": "It's a regional speciality.",
+              "phonetic": "ehs OO-nah ehs-peh-thyah-lee-DAHD deh lah reh-HYOHN",
+              "local": "Es una especialidad de la región."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_012",
+          "intent_en": "Ask if a dish is spicy",
+          "text_local": "¿Este plato es picante?",
+          "pronunciation": "EHS-teh PLAH-toh ehs pee-KAHN-teh",
+          "formality": "casual",
+          "cultural_note": "Most Spanish cuisine is not hot-spicy. Exceptions: some Canarian dishes with mojo picón, patatas bravas sauce varies by bar. 'Picante' in Spain means chilli-hot.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "No, it's very mild.",
+              "phonetic": "NOH, ehs mwee SWAH-beh",
+              "local": "No, es muy suave."
+            },
+            {
+              "english": "A little, but not too much.",
+              "phonetic": "oon POH-koh, PEH-roh noh deh-mah-SYAH-doh",
+              "local": "Un poco, pero no demasiado."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_013",
+          "intent_en": "Ask for a dish without an ingredient",
+          "text_local": "Sin [ingrediente], por favor.",
+          "pronunciation": "SEEN [...], por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Swap with: cebolla (onion/theh-BOH-yah), ajo (garlic/AH-hoh), queso (cheese/KEH-soh), nata (cream/NAH-tah), sal (salt/SAHL).",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, I'll note it.",
+              "phonetic": "por soo-PWEHS-toh, loh ah-NOH-toh",
+              "local": "Por supuesto, lo anoto."
+            },
+            {
+              "english": "I'll check with the kitchen.",
+              "phonetic": "loh kohn-SOOL-toh kohn koh-THEE-nah",
+              "local": "Lo consulto con cocina."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_014",
+          "intent_en": "Ask to pay separately",
+          "text_local": "¿Podemos pagar por separado?",
+          "pronunciation": "poh-DEH-mohs pah-GAR por seh-pah-RAH-doh",
+          "formality": "casual",
+          "cultural_note": "Splitting bills is common in Spain among friends. Ask before the check arrives to make it easier for the server.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, how many people?",
+              "phonetic": "KLAH-roh, KWAHN-tahs pehr-SOH-nahs",
+              "local": "Claro, ¿cuántas personas?"
+            },
+            {
+              "english": "No problem.",
+              "phonetic": "seen proh-BLEH-mah",
+              "local": "Sin problema."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_015",
+          "intent_en": "Ask to split the bill evenly",
+          "text_local": "A partes iguales, por favor.",
+          "pronunciation": "ah PAR-tehs ee-GWAH-lehs, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "The waiter will do the maths. You can also say 'hacemos a escote' — the informal Spanish term for splitting equally.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "OK, that's twenty euros each.",
+              "phonetic": "deh ah-KWEHR-doh, sohn BEYN-teh EH-oo-rohs KAH-dah OO-noh",
+              "local": "De acuerdo, son veinte euros cada uno."
+            },
+            {
+              "english": "Perfectly.",
+              "phonetic": "pehr-fehk-tah-MEHN-teh",
+              "local": "Perfectamente."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_016",
+          "intent_en": "Pay all on one bill",
+          "text_local": "Todo junto en una sola cuenta.",
+          "pronunciation": "TOH-doh HOON-toh ehn OO-nah SOH-lah KWEHN-tah",
+          "formality": "polite",
+          "cultural_note": "Say this before anyone else tries to pay — it avoids confusion.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Very good, I'll bring the bill now.",
+              "phonetic": "mwee BYEHN, ah-OH-rah leh TRAH-ee-goh lah KWEHN-tah",
+              "local": "Muy bien, ahora le traigo la cuenta."
+            },
+            {
+              "english": "Understood, all together.",
+              "phonetic": "deh ah-KWEHR-doh, TOH-doh HOON-toh",
+              "local": "De acuerdo, todo junto."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_017",
+          "intent_en": "Ask for a takeaway box",
+          "text_local": "¿Tienen un tupper para llevar lo que sobra?",
+          "pronunciation": "TYEH-nehn oon TOO-pehr PAH-rah yeh-BAR loh keh SOH-brah",
+          "formality": "casual",
+          "cultural_note": "Doggy bags are becoming more common in Spain. 'Para llevar' (to take away) is the phrase to know. Not all restaurants have containers — worth asking.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, I'll bring something.",
+              "phonetic": "SEE, ah-OH-rah leh TRAH-ee-goh AHL-goh",
+              "local": "Sí, ahora le traigo algo."
+            },
+            {
+              "english": "Sorry, we don't have any.",
+              "phonetic": "loh see-EHN-toh, NOH teh-NEH-mohs",
+              "local": "Lo siento, no tenemos."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_018",
+          "intent_en": "Ask for a table outside",
+          "text_local": "¿Tienen mesa en la terraza?",
+          "pronunciation": "TYEH-nehn MEH-sah ehn lah teh-RAH-thah",
+          "formality": "polite",
+          "cultural_note": "Terrace dining is a Spanish institution — locals spend hours at outdoor tables. In summer, ask for shade ('a la sombra'). Terraces often have separate menus or small surcharges.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, follow me please.",
+              "phonetic": "SEE, SEE-gahn-meh por fah-BOR",
+              "local": "Sí, síganme por favor."
+            },
+            {
+              "english": "The terrace is full, would you prefer inside?",
+              "phonetic": "lah teh-RAH-thah ehs-TÁ YEH-nah, preh-FYEH-rehn DEHN-troh",
+              "local": "La terraza está llena, ¿prefieren dentro?"
+            }
+          ]
+        },
+        {
+          "id": "restaurant_019",
+          "intent_en": "Ask for a table inside",
+          "text_local": "Preferimos dentro, por favor.",
+          "pronunciation": "preh-feh-REE-mohs DEHN-troh, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Indoor seating is quieter and cooler in summer. In winter, Spanish terraces are often heated with gas heaters — specify if you want to be inside.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, I'll accompany you.",
+              "phonetic": "por soo-PWEHS-toh, lehs ah-kohm-PAH-nyoh",
+              "local": "Por supuesto, les acompaño."
+            },
+            {
+              "english": "We have a free table at the back.",
+              "phonetic": "teh-NEH-mohs OO-nah MEH-sah LEE-breh ahl FOHN-doh",
+              "local": "Tenemos una mesa libre al fondo."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_020",
+          "intent_en": "Say you have no reservation and ask about space",
+          "text_local": "No tenemos reserva, ¿tienen alguna mesa libre?",
+          "pronunciation": "NOH teh-NEH-mohs reh-SEHR-bah, TYEH-nehn ahl-GOO-nah MEH-sah LEE-breh",
+          "formality": "casual",
+          "cultural_note": "Without a reservation, try arriving at 9pm sharp or on a weekday. Popular restaurants in Madrid and Barcelona fill up fast on weekends.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, I'll seat you right now.",
+              "phonetic": "SEE, ah-OH-rah MEES-moh lehs POHN-goh ehn OO-nah",
+              "local": "Sí, ahora mismo les pongo en una."
+            },
+            {
+              "english": "Sorry, we're fully booked tonight.",
+              "phonetic": "loh see-EHN-toh, ehs-TAH-mohs kohm-PLEH-tohs EHS-tah NOH-cheh",
+              "local": "Lo siento, estamos completos esta noche."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_021",
+          "intent_en": "Ask for more bread",
+          "text_local": "¿Nos puede traer más pan?",
+          "pronunciation": "nohs PWEH-deh trah-EHR MÁS PAHN",
+          "formality": "polite",
+          "cultural_note": "Bread is complimentary at most Spanish restaurants. Don't hesitate to ask for more — it's expected.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, right away.",
+              "phonetic": "KLAH-roh, ah-OH-rah MEES-moh",
+              "local": "Claro, ahora mismo."
+            },
+            {
+              "english": "Here's more bread.",
+              "phonetic": "ah-KEE TYEH-neh MÁS PAHN",
+              "local": "Aquí tiene más pan."
+            }
+          ]
+        },
+        {
+          "id": "restaurant_022",
+          "intent_en": "Say this isn't what you ordered",
+          "text_local": "Esto no es lo que pedí.",
+          "pronunciation": "EHS-toh NOH ehs loh keh peh-DEE",
+          "formality": "polite",
+          "cultural_note": "Say this calmly and point to the menu. Spanish staff will correct mistakes promptly and apologetically.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Sorry, I'll correct it right now.",
+              "phonetic": "dees-KOOL-peh, loh koh-REE-hoh ah-OH-rah MEES-moh",
+              "local": "Disculpe, lo corrijo ahora mismo."
+            },
+            {
+              "english": "Pardon the confusion.",
+              "phonetic": "pehr-DOH-neh lah kohn-foo-SYOHN",
+              "local": "Perdone la confusión."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Red wine",
+          "word_local": "Vino tinto",
+          "pronunciation": "BEE-noh TEEN-toh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "White wine",
+          "word_local": "Vino blanco",
+          "pronunciation": "BEE-noh BLAHN-koh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "Rosé wine",
+          "word_local": "Vino rosado",
+          "pronunciation": "BEE-noh roh-SAH-doh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "Sparkling wine",
+          "word_local": "Cava / vino espumoso",
+          "pronunciation": "KAH-bah / BEE-noh ehs-poo-MOH-soh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "House wine",
+          "word_local": "Vino de la casa",
+          "pronunciation": "BEE-noh deh lah KAH-sah",
+          "section": "Wine"
+        },
+        {
+          "word_en": "Dry",
+          "word_local": "Seco",
+          "pronunciation": "SEH-koh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "Sweet",
+          "word_local": "Dulce",
+          "pronunciation": "DOOL-theh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "A glass",
+          "word_local": "Una copa",
+          "pronunciation": "OO-nah KOH-pah",
+          "section": "Wine"
+        },
+        {
+          "word_en": "A bottle",
+          "word_local": "Una botella",
+          "pronunciation": "OO-nah boh-TEH-yah",
+          "section": "Wine"
+        },
+        {
+          "word_en": "A carafe",
+          "word_local": "Una jarra",
+          "pronunciation": "OO-nah HA-rrah",
+          "section": "Wine"
+        },
+        {
+          "word_en": "Beer",
+          "word_local": "Una cerveza",
+          "pronunciation": "OO-nah thehr-BEH-thah",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Draft beer",
+          "word_local": "Una caña",
+          "pronunciation": "OO-nah KAH-nyah",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Large beer",
+          "word_local": "Un tercio",
+          "pronunciation": "oon TEHR-thyoh",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Lager",
+          "word_local": "Cerveza rubia",
+          "pronunciation": "thehr-BEH-thah ROO-byah",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Dark beer",
+          "word_local": "Cerveza negra",
+          "pronunciation": "thehr-BEH-thah NEH-grah",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Whisky",
+          "word_local": "Un whisky",
+          "pronunciation": "oon WEES-kee",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Gin",
+          "word_local": "Un gin",
+          "pronunciation": "oon HEEN",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Vodka",
+          "word_local": "Una vodka",
+          "pronunciation": "OO-nah BOD-kah",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Rum",
+          "word_local": "Un ron",
+          "pronunciation": "oon ROHN",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Brandy",
+          "word_local": "Un brandy",
+          "pronunciation": "oon BRAHN-dee",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Tap water",
+          "word_local": "Agua del grifo",
+          "pronunciation": "AH-gwah dehl GREE-foh",
+          "section": "Water"
+        },
+        {
+          "word_en": "Still water",
+          "word_local": "Agua sin gas",
+          "pronunciation": "AH-gwah seen GAHS",
+          "section": "Water"
+        },
+        {
+          "word_en": "Sparkling water",
+          "word_local": "Agua con gas",
+          "pronunciation": "AH-gwah kohn GAHS",
+          "section": "Water"
+        },
+        {
+          "word_en": "Outside / terrace",
+          "word_local": "En la terraza",
+          "pronunciation": "ehn lah teh-RAH-thah",
+          "section": "Seating"
+        },
+        {
+          "word_en": "Inside",
+          "word_local": "Dentro",
+          "pronunciation": "DEHN-troh",
+          "section": "Seating"
+        },
+        {
+          "word_en": "In the shade",
+          "word_local": "A la sombra",
+          "pronunciation": "ah lah SOHM-brah",
+          "section": "Seating"
+        },
+        {
+          "word_en": "By the window",
+          "word_local": "Junto a la ventana",
+          "pronunciation": "HOON-toh ah lah behn-TAH-nah",
+          "section": "Seating"
+        },
+        {
+          "word_en": "Vegetarian",
+          "word_local": "Vegetariano/a",
+          "pronunciation": "beh-heh-tah-RYAH-noh",
+          "section": "Dietary"
+        },
+        {
+          "word_en": "Vegan",
+          "word_local": "Vegano/a",
+          "pronunciation": "beh-GAH-noh",
+          "section": "Dietary"
+        },
+        {
+          "word_en": "Gluten-free",
+          "word_local": "Sin gluten",
+          "pronunciation": "seen GLOO-tehn",
+          "section": "Dietary"
+        },
+        {
+          "word_en": "Dairy-free",
+          "word_local": "Sin lácteos",
+          "pronunciation": "seen LAK-teh-ohs",
+          "section": "Dietary"
+        },
+        {
+          "word_en": "Rare (meat)",
+          "word_local": "Poco hecho",
+          "pronunciation": "POH-koh EH-choh",
+          "section": "Cooking"
+        },
+        {
+          "word_en": "Medium",
+          "word_local": "Al punto",
+          "pronunciation": "ahl POON-toh",
+          "section": "Cooking"
+        },
+        {
+          "word_en": "Well done",
+          "word_local": "Muy hecho",
+          "pronunciation": "mwee EH-choh",
+          "section": "Cooking"
+        },
+        {
+          "word_en": "On the side",
+          "word_local": "Aparte",
+          "pronunciation": "ah-PAR-teh",
+          "section": "Cooking"
+        },
+        {
+          "word_en": "Starter",
+          "word_local": "Un entrante",
+          "pronunciation": "oon ehn-TRAHN-teh",
+          "section": "Course"
+        },
+        {
+          "word_en": "Main course",
+          "word_local": "El plato principal",
+          "pronunciation": "ehl PLAH-toh preen-thee-PAHL",
+          "section": "Course"
+        },
+        {
+          "word_en": "Dessert",
+          "word_local": "El postre",
+          "pronunciation": "ehl POHS-treh",
+          "section": "Course"
+        },
+        {
+          "word_en": "The bill",
+          "word_local": "La cuenta",
+          "pronunciation": "lah KWEHN-tah",
+          "section": "Bill"
+        },
+        {
+          "word_en": "Tip",
+          "word_local": "La propina",
+          "pronunciation": "lah proh-PEE-nah",
+          "section": "Bill"
+        },
+        {
+          "word_en": "Receipt",
+          "word_local": "Un recibo",
+          "pronunciation": "oon reh-THEE-boh",
+          "section": "Bill"
+        },
+        {
+          "word_en": "Card payment",
+          "word_local": "Con tarjeta",
+          "pronunciation": "kohn tar-HEH-tah",
+          "section": "Bill"
+        },
+        {
+          "word_en": "Cash",
+          "word_local": "En efectivo",
+          "pronunciation": "ehn eh-fehk-TEE-boh",
+          "section": "Bill"
+        }
+      ]
+    },
+    {
+      "id": "bar",
+      "name_en": "Bar",
+      "name_local": "Bar",
+      "icon": "wineglass.fill",
+      "phrases": [
+        {
+          "id": "bar_001",
+          "intent_en": "Order a beer",
+          "text_local": "Una caña, por favor.",
+          "pronunciation": "OO-nah KAH-nyah, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "'Una caña' is a small draft beer — the classic Spanish bar order. For a larger glass ask for 'un tercio'. In the Basque Country ask for 'un zurito'.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Right away!",
+              "phonetic": "ah-OH-rah MEES-moh",
+              "local": "¡Ahora mismo!"
+            },
+            {
+              "english": "Small or large?",
+              "phonetic": "KAH-nyah oh TEHR-thyoh",
+              "local": "¿Caña o tercio?"
+            }
+          ]
+        },
+        {
+          "id": "bar_002",
+          "intent_en": "Order a glass of wine",
+          "text_local": "Una copa de vino tinto, por favor.",
+          "pronunciation": "OO-nah KOH-pah deh BEE-noh TEEN-toh, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "Swap 'tinto' (red) for 'blanco' (white) or 'rosado' (rosé). Spain produces excellent regional wines — ask about local options.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Rioja or house wine?",
+              "phonetic": "deh lah RYOH-hah oh deh lah KAH-sah",
+              "local": "¿De la Rioja o de la casa?"
+            },
+            {
+              "english": "Here you go, cheers!",
+              "phonetic": "ah-KEE TYEH-neh, sah-LOOD",
+              "local": "Aquí tiene, ¡salud!"
+            }
+          ]
+        },
+        {
+          "id": "bar_003",
+          "intent_en": "Ask what beers they have on tap",
+          "text_local": "¿Qué cervezas tienen de barril?",
+          "pronunciation": "keh thehr-BEH-thahs TYEH-nehn deh bah-REEL",
+          "formality": "casual",
+          "cultural_note": "Most Spanish bars have one or two draft options. The barman may point to the taps. Mahou and Estrella are the most common national brands.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "We have Mahou and Estrella.",
+              "phonetic": "teh-NEH-mohs mah-OO ee ehs-TREH-yah",
+              "local": "Tenemos Mahou y Estrella."
+            },
+            {
+              "english": "We only have Mahou on draft.",
+              "phonetic": "SOH-loh teh-NEH-mohs mah-OO deh bah-REEL",
+              "local": "Solo tenemos Mahou de barril."
+            }
+          ]
+        },
+        {
+          "id": "bar_004",
+          "intent_en": "Order a cocktail",
+          "text_local": "¿Hacen cócteles?",
+          "pronunciation": "AH-thehn KOK-teh-lehs",
+          "formality": "casual",
+          "cultural_note": "Traditional Spanish bars focus on beer and wine. Look for 'bar de copas' or 'coctelería' for mixed drinks. Gin-tonic is enormously popular in Spain.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, what can I get you?",
+              "phonetic": "SEE, keh leh POHN-goh",
+              "local": "Sí, ¿qué le pongo?"
+            },
+            {
+              "english": "We only do gin-tonic and spirits with mixer.",
+              "phonetic": "SOH-loh ah-THEH-mohs HEEN-TOH-neek ee kohm-bee-NAH-dohs",
+              "local": "Solo hacemos gin-tonic y combinados."
+            }
+          ]
+        },
+        {
+          "id": "bar_005",
+          "intent_en": "Ask for the bill",
+          "text_local": "La cuenta, por favor.",
+          "pronunciation": "lah KWEHN-tah, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "In Spanish bars you often pay when you leave, not per drink. Tipping is not expected but leaving small change or rounding up is appreciated.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "That's eight euros in total.",
+              "phonetic": "SOHN OH-choh EH-oo-rohs ehn toh-TAHL",
+              "local": "Son ocho euros en total."
+            },
+            {
+              "english": "Cash or card?",
+              "phonetic": "PAH-gah ehn eh-fehk-TEE-boh oh kohn tar-HEH-tah",
+              "local": "¿Paga en efectivo o con tarjeta?"
+            }
+          ]
+        },
+        {
+          "id": "bar_006",
+          "intent_en": "Order another round of the same",
+          "text_local": "Lo mismo para todos, por favor.",
+          "pronunciation": "loh MEES-moh PAH-rah TOH-dohs, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "The classic way to order a round in Spain. You can also say 'Otra ronda' (another round) or just 'Lo mismo' for your own drink.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Another round coming up!",
+              "phonetic": "mar-CHAHN-doh OH-trah ROHN-dah",
+              "local": "¡Marchando otra ronda!"
+            },
+            {
+              "english": "How many people?",
+              "phonetic": "KWAHN-tahs pehr-SOH-nahs",
+              "local": "¿Cuántas personas?"
+            }
+          ]
+        },
+        {
+          "id": "bar_007",
+          "intent_en": "Ask to open a tab",
+          "text_local": "¿Podemos abrir una cuenta?",
+          "pronunciation": "poh-DEH-mohs ah-BREER OO-nah KWEHN-tah",
+          "formality": "casual",
+          "cultural_note": "Running a tab is common at bars with table service. At a crowded bar counter, paying per drink is more usual — always ask first.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, what name?",
+              "phonetic": "KLAH-roh, ah keh NOHM-breh",
+              "local": "Claro, ¿a qué nombre?"
+            },
+            {
+              "english": "We prefer to charge per drink.",
+              "phonetic": "preh-feh-REE-mohs koh-BRAR ehn KAH-dah kohn-soo-mee-THYOHN",
+              "local": "Preferimos cobrar en cada consumición."
+            }
+          ]
+        },
+        {
+          "id": "bar_008",
+          "intent_en": "Ask what time they close",
+          "text_local": "¿A qué hora cierran?",
+          "pronunciation": "ah keh OH-rah THYEH-rahn",
+          "formality": "casual",
+          "cultural_note": "Spanish bars keep late hours — many stay open until 2–3am. Nightclubs open at midnight and run until 6am. Licensing hours vary by region.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "We close at 2am.",
+              "phonetic": "theh-RAH-mohs ah lahs DOS",
+              "local": "Cerramos a las dos."
+            },
+            {
+              "english": "Tonight we close at 1am.",
+              "phonetic": "OY theh-RAH-mohs ah lah OO-nah",
+              "local": "Hoy cerramos a la una."
+            }
+          ]
+        },
+        {
+          "id": "bar_009",
+          "intent_en": "Order a non-alcoholic drink",
+          "text_local": "Algo sin alcohol, por favor.",
+          "pronunciation": "AHL-goh seen ahl-koh-OHL, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Common non-alcoholic options in Spanish bars: agua con gas, zumo (juice), Kas naranja (fizzy orange), mosto (grape juice), horchata (tiger nut drink, Valencia).",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "We have juices, Kas, sparkling water…",
+              "phonetic": "teh-NEH-mohs THOO-mohs, KAHS, AH-gwah kohn GAHS",
+              "local": "Tenemos zumos, Kas, agua con gas…"
+            },
+            {
+              "english": "Shall I get you a grape juice?",
+              "phonetic": "leh POHN-goh oon MOHS-toh",
+              "local": "¿Le pongo un mosto?"
+            }
+          ]
+        },
+        {
+          "id": "bar_010",
+          "intent_en": "Ask if they have bar snacks",
+          "text_local": "¿Tienen algo para picar?",
+          "pronunciation": "TYEH-nehn AHL-goh PAH-rah pee-KAR",
+          "formality": "casual",
+          "cultural_note": "Many Spanish bars serve free tapas with each drink — a tradition especially strong in Granada, León, and Almería. Elsewhere you may pay for 'pinchos' or 'montaditos'.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, we have olives, crisps and ham.",
+              "phonetic": "SEE, teh-NEH-mohs ah-thay-TOO-nahs, pah-TAH-tahs ee hah-MOHN",
+              "local": "Sí, tenemos aceitunas, patatas y jamón."
+            },
+            {
+              "english": "The tapa comes with the drink.",
+              "phonetic": "lah TAH-pah BYEH-neh kohn lah beh-BEE-dah",
+              "local": "La tapa viene con la bebida."
+            }
+          ]
+        },
+        {
+          "id": "bar_011",
+          "intent_en": "Ask to close the tab",
+          "text_local": "¿Nos cierra la cuenta?",
+          "pronunciation": "nohs THYEH-rrah lah KWEHN-tah",
+          "formality": "casual",
+          "cultural_note": "Use this to settle up your tab. The bartender will total everything. Rounding up or leaving small change as a tip is appreciated.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, that's thirty-two euros.",
+              "phonetic": "KLAH-roh, SOHN TREYN-tah ee DOS EH-oo-rohs",
+              "local": "Claro, son treinta y dos euros."
+            },
+            {
+              "english": "Card or cash?",
+              "phonetic": "PAH-gahn kohn tar-HEH-tah oh ehn eh-fehk-TEE-boh",
+              "local": "¿Pagan con tarjeta o en efectivo?"
+            }
+          ]
+        },
+        {
+          "id": "bar_012",
+          "intent_en": "Order a bottle of wine",
+          "text_local": "Una botella de vino, por favor.",
+          "pronunciation": "OO-nah boh-TEH-yah deh BEE-noh, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "Ordering a bottle is great value in Spanish bars. Ask for 'vino de la casa' for the most affordable option — often a well-chosen regional wine.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Red, white, or rosé?",
+              "phonetic": "TEEN-toh, BLAHN-koh oh roh-SAH-doh",
+              "local": "¿Tinto, blanco o rosado?"
+            },
+            {
+              "english": "Denominación de origen or house wine?",
+              "phonetic": "kohn deh-noh-mee-nah-THYOHN deh oh-REE-hehn oh deh lah KAH-sah",
+              "local": "¿Con denominación de origen o de la casa?"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Draft beer (small)",
+          "word_local": "Una caña",
+          "pronunciation": "OO-nah KAH-nyah",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Large beer",
+          "word_local": "Un tercio",
+          "pronunciation": "oon TEHR-thyoh",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Lager",
+          "word_local": "Cerveza rubia",
+          "pronunciation": "thehr-BEH-thah ROO-byah",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Dark beer",
+          "word_local": "Cerveza negra",
+          "pronunciation": "thehr-BEH-thah NEH-grah",
+          "section": "Beer"
+        },
+        {
+          "word_en": "IPA",
+          "word_local": "Una IPA",
+          "pronunciation": "OO-nah ee-peh-AH",
+          "section": "Beer"
+        },
+        {
+          "word_en": "Red wine",
+          "word_local": "Vino tinto",
+          "pronunciation": "BEE-noh TEEN-toh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "White wine",
+          "word_local": "Vino blanco",
+          "pronunciation": "BEE-noh BLAHN-koh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "Rosé",
+          "word_local": "Vino rosado",
+          "pronunciation": "BEE-noh roh-SAH-doh",
+          "section": "Wine"
+        },
+        {
+          "word_en": "House wine",
+          "word_local": "Vino de la casa",
+          "pronunciation": "BEE-noh deh lah KAH-sah",
+          "section": "Wine"
+        },
+        {
+          "word_en": "A glass",
+          "word_local": "Una copa",
+          "pronunciation": "OO-nah KOH-pah",
+          "section": "Wine"
+        },
+        {
+          "word_en": "A bottle",
+          "word_local": "Una botella",
+          "pronunciation": "OO-nah boh-TEH-yah",
+          "section": "Wine"
+        },
+        {
+          "word_en": "Whisky",
+          "word_local": "Un whisky",
+          "pronunciation": "oon WEES-kee",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Gin",
+          "word_local": "Un gin",
+          "pronunciation": "oon HEEN",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Vodka",
+          "word_local": "Una vodka",
+          "pronunciation": "OO-nah BOD-kah",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Rum",
+          "word_local": "Un ron",
+          "pronunciation": "oon ROHN",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Brandy",
+          "word_local": "Un brandy",
+          "pronunciation": "oon BRAHN-dee",
+          "section": "Spirits"
+        },
+        {
+          "word_en": "Sparkling water",
+          "word_local": "Agua con gas",
+          "pronunciation": "AH-gwah kohn GAHS",
+          "section": "Non-alcoholic"
+        },
+        {
+          "word_en": "Juice",
+          "word_local": "Un zumo",
+          "pronunciation": "oon THOO-moh",
+          "section": "Non-alcoholic"
+        },
+        {
+          "word_en": "Grape juice",
+          "word_local": "Mosto",
+          "pronunciation": "MOHS-toh",
+          "section": "Non-alcoholic"
+        },
+        {
+          "word_en": "Fizzy orange",
+          "word_local": "Kas naranja",
+          "pronunciation": "KAHS nah-RAHN-hah",
+          "section": "Non-alcoholic"
+        },
+        {
+          "word_en": "Cheers!",
+          "word_local": "¡Salud!",
+          "pronunciation": "sah-LOOD",
+          "section": null
+        },
+        {
+          "word_en": "Tab",
+          "word_local": "Una cuenta",
+          "pronunciation": "OO-nah KWEHN-tah",
+          "section": null
+        },
+        {
+          "word_en": "Free tapa",
+          "word_local": "La tapa",
+          "pronunciation": "lah TAH-pah",
+          "section": null
+        },
+        {
+          "word_en": "Gin and tonic",
+          "word_local": "Un gin-tonic",
+          "pronunciation": "oon HEEN-TOH-neek",
+          "section": null
+        }
+      ]
+    },
+    {
+      "id": "cafe",
+      "name_en": "Café",
+      "name_local": "Cafetería",
+      "icon": "cup.and.saucer.fill",
+      "phrases": [
+        {
+          "id": "cafe_001",
+          "intent_en": "Order a coffee",
+          "text_local": "Un café solo, por favor.",
+          "pronunciation": "oon kah-FEH SOH-loh, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "'Café solo' is a short black espresso. 'Café con leche' (half coffee half hot milk) is the classic Spanish morning coffee. 'Cortado' is espresso with a dash of milk.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Right away!",
+              "phonetic": "ah-OH-rah MEES-moh",
+              "local": "¡Ahora mismo!"
+            },
+            {
+              "english": "Black or with milk?",
+              "phonetic": "SOH-loh oh kohn LEH-cheh",
+              "local": "¿Solo o con leche?"
+            }
+          ]
+        },
+        {
+          "id": "cafe_002",
+          "intent_en": "Order a coffee with milk",
+          "text_local": "Un café con leche, por favor.",
+          "pronunciation": "oon kah-FEH kohn LEH-cheh, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "The most popular morning coffee in Spain — equal parts espresso and hot milk. Usually served in a glass or large cup.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Right away.",
+              "phonetic": "ehn-seh-GEE-dah",
+              "local": "Enseguida."
+            },
+            {
+              "english": "Hot or warm?",
+              "phonetic": "kah-LYEHN-teh oh tehm-PLAH-doh",
+              "local": "¿Caliente o templado?"
+            }
+          ]
+        },
+        {
+          "id": "cafe_003",
+          "intent_en": "Ask if there's a table free",
+          "text_local": "¿Hay alguna mesa libre?",
+          "pronunciation": "AY ahl-GOO-nah MEH-sah LEE-breh",
+          "formality": "casual",
+          "cultural_note": "In busy Spanish cafés it's fine to share a table with strangers — just ask 'permiso' before sitting.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, that one over there is free.",
+              "phonetic": "SEE, EH-sah deh ah-YEE ehs-TÁ LEE-breh",
+              "local": "Sí, esa de allí está libre."
+            },
+            {
+              "english": "We're full, please wait a moment.",
+              "phonetic": "ehs-TAH-mohs YEH-nohs, ehs-PEH-reh oon moh-MEHN-toh",
+              "local": "Estamos llenos, espere un momento."
+            }
+          ]
+        },
+        {
+          "id": "cafe_004",
+          "intent_en": "Ask for the bill",
+          "text_local": "¿Cuánto es, por favor?",
+          "pronunciation": "KWAHN-toh ehs, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "In cafés you can also say 'La cuenta' or simply catch the waiter's eye and mime signing. Pay at the counter in many smaller cafés.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "That's two euros fifty.",
+              "phonetic": "SOHN DOS EH-oo-rohs kohn theen-KWEHN-tah",
+              "local": "Son dos euros con cincuenta."
+            },
+            {
+              "english": "Pay at the counter.",
+              "phonetic": "PAH-gah ehn lah BAH-rrah",
+              "local": "Paga en la barra."
+            }
+          ]
+        },
+        {
+          "id": "cafe_005",
+          "intent_en": "Order a pastry",
+          "text_local": "Un croissant / una napolitana, por favor.",
+          "pronunciation": "oon KRWAH-sahn / OO-nah nah-poh-lee-TAH-nah, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "'Napolitana de chocolate' (chocolate puff pastry) is a Spanish café staple. Also popular: 'churros con chocolate' for breakfast, especially in winter.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Would you like it warmed?",
+              "phonetic": "loh KYEH-reh kah-LYEHN-teh",
+              "local": "¿Lo quiere caliente?"
+            },
+            {
+              "english": "Here you go.",
+              "phonetic": "ah-KEE TYEH-neh",
+              "local": "Aquí tiene."
+            }
+          ]
+        },
+        {
+          "id": "cafe_006",
+          "intent_en": "Ask for the WiFi password",
+          "text_local": "¿Tienen la contraseña del WiFi?",
+          "pronunciation": "TYEH-nehn lah kohn-trah-SEH-nyah dehl WEE-fee",
+          "formality": "polite",
+          "cultural_note": "Most Spanish cafés and bars have free WiFi. Just ask at the bar and they'll usually write it on a napkin or point you to a sign. In tourist areas it may be on the menu.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, it's 'cafemadrid2024'.",
+              "phonetic": "SEE, ehs",
+              "local": "Sí, es 'cafemadrid2024'."
+            },
+            {
+              "english": "It's on the sign.",
+              "phonetic": "ehs-TÁ ehn ehl kar-TEHL",
+              "local": "Está en el cartel."
+            }
+          ]
+        },
+        {
+          "id": "cafe_007",
+          "intent_en": "Order to take away",
+          "text_local": "Para llevar, por favor.",
+          "pronunciation": "PAH-rah yeh-BAR, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Takeaway coffee is becoming more common in Spanish cities, especially with younger locals. Traditional bars may serve it in a small plastic cup. 'Para tomar aquí' means you'd like to sit and have it there instead.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Of course, right away.",
+              "phonetic": "KLAH-roh, ah-OH-rah MEES-moh",
+              "local": "Claro, ahora mismo."
+            },
+            {
+              "english": "We only do it in a glass.",
+              "phonetic": "SOH-loh loh ah-THEH-mohs ehn BAH-soh",
+              "local": "Solo lo hacemos en vaso."
+            }
+          ]
+        },
+        {
+          "id": "cafe_008",
+          "intent_en": "Ask for sugar or sweetener",
+          "text_local": "¿Tienen azúcar, por favor?",
+          "pronunciation": "TYEH-nehn ah-THOO-kar, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Sugar sachets and stirrers are standard on Spanish café tables. Sweetener ('edulcorante' or brand name 'sacarina') is widely available. Just ask if you can't see it on the table.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, it's on the table.",
+              "phonetic": "SEE, ehs-TÁ ehn lah MEH-sah",
+              "local": "Sí, está en la mesa."
+            },
+            {
+              "english": "Here you go.",
+              "phonetic": "ah-KEE TYEH-neh",
+              "local": "Aquí tiene."
+            }
+          ]
+        },
+        {
+          "id": "cafe_009",
+          "intent_en": "Order a fresh orange juice",
+          "text_local": "Un zumo de naranja natural, por favor.",
+          "pronunciation": "oon THOO-moh deh nah-RAHN-hah nah-too-RAHL, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Spain is famous for its oranges, and a freshly squeezed orange juice ('zumo natural') is a breakfast staple. Most cafés squeeze it fresh in front of you. The word 'natural' is the key — without it you might get a carton.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "We'll squeeze it now.",
+              "phonetic": "ah-OH-rah loh eks-pree-MEE-mohs",
+              "local": "Ahora lo exprimimos."
+            },
+            {
+              "english": "That's two euros.",
+              "phonetic": "SOHN DOHS EH-oo-rohs",
+              "local": "Son dos euros."
+            }
+          ]
+        },
+        {
+          "id": "cafe_010",
+          "intent_en": "Ask for a glass of water",
+          "text_local": "Un vaso de agua, por favor.",
+          "pronunciation": "oon BAH-soh deh AH-gwah, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Tap water in Spain is generally safe to drink and free to ask for ('agua del grifo'). Cafés will usually bring a small glass alongside your coffee if you ask. Bottled water ('agua embotellada') costs extra.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Of course, still or sparkling?",
+              "phonetic": "KLAH-roh, kohn GAHS oh seen GAHS",
+              "local": "Claro, ¿con gas o sin gas?"
+            },
+            {
+              "english": "Right away.",
+              "phonetic": "ah-OH-rah MEES-moh",
+              "local": "Ahora mismo."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Black coffee",
+          "word_local": "Un café solo",
+          "pronunciation": "oon ka-FEH SOH-loh",
+          "section": "Coffee"
+        },
+        {
+          "word_en": "Coffee with milk",
+          "word_local": "Un café con leche",
+          "pronunciation": "oon ka-FEH kohn LEH-cheh",
+          "section": "Coffee"
+        },
+        {
+          "word_en": "Short coffee with milk",
+          "word_local": "Un cortado",
+          "pronunciation": "oon kor-TAH-doh",
+          "section": "Coffee"
+        },
+        {
+          "word_en": "Americano",
+          "word_local": "Un café americano",
+          "pronunciation": "oon ka-FEH ah-meh-ree-KAH-noh",
+          "section": "Coffee"
+        },
+        {
+          "word_en": "Iced coffee",
+          "word_local": "Un café con hielo",
+          "pronunciation": "oon ka-FEH kohn HYEH-loh",
+          "section": "Coffee"
+        },
+        {
+          "word_en": "Decaf",
+          "word_local": "Un descafeinado",
+          "pronunciation": "oon des-kah-feh-ee-NAH-doh",
+          "section": "Coffee"
+        },
+        {
+          "word_en": "Tea",
+          "word_local": "Un té",
+          "pronunciation": "oon TEH",
+          "section": "Tea"
+        },
+        {
+          "word_en": "Chamomile",
+          "word_local": "Una manzanilla",
+          "pronunciation": "OO-nah mahn-thah-NEE-yah",
+          "section": "Tea"
+        },
+        {
+          "word_en": "Herbal tea",
+          "word_local": "Una infusión",
+          "pronunciation": "OO-nah een-foo-SYOHN",
+          "section": "Tea"
+        },
+        {
+          "word_en": "Water",
+          "word_local": "Un agua",
+          "pronunciation": "oon AH-gwah",
+          "section": "Cold Drinks"
+        },
+        {
+          "word_en": "Fresh orange juice",
+          "word_local": "Un zumo de naranja natural",
+          "pronunciation": "oon THOO-moh deh nah-RAHN-hah nah-too-RAHL",
+          "section": "Cold Drinks"
+        },
+        {
+          "word_en": "Horchata",
+          "word_local": "Una horchata",
+          "pronunciation": "OO-nah or-CHAH-tah",
+          "section": "Cold Drinks"
+        },
+        {
+          "word_en": "Soft drink",
+          "word_local": "Un refresco",
+          "pronunciation": "oon reh-FRES-koh",
+          "section": "Cold Drinks"
+        },
+        {
+          "word_en": "Croissant",
+          "word_local": "Un cruasán / media luna",
+          "pronunciation": "oon kroo-ah-SAHN / MEH-dyah LOO-nah",
+          "section": "Food"
+        },
+        {
+          "word_en": "Chocolate pastry",
+          "word_local": "Una napolitana",
+          "pronunciation": "OO-nah nah-poh-lee-TAH-nah",
+          "section": "Food"
+        },
+        {
+          "word_en": "Toast",
+          "word_local": "Una tostada",
+          "pronunciation": "OO-nah tohs-TAH-dah",
+          "section": "Food"
+        },
+        {
+          "word_en": "Palmier",
+          "word_local": "Una palmera",
+          "pronunciation": "OO-nah pahl-MEH-rah",
+          "section": "Food"
+        },
+        {
+          "word_en": "The bill",
+          "word_local": "La cuenta",
+          "pronunciation": "lah KWEHN-tah",
+          "section": "Other"
+        },
+        {
+          "word_en": "Sugar",
+          "word_local": "Azúcar",
+          "pronunciation": "ah-THOO-kar",
+          "section": "Other"
+        },
+        {
+          "word_en": "Sweetener",
+          "word_local": "Edulcorante",
+          "pronunciation": "eh-dool-koh-RAHN-teh",
+          "section": "Other"
+        },
+        {
+          "word_en": "WiFi",
+          "word_local": "El WiFi",
+          "pronunciation": "ehl WEE-fee",
+          "section": "Other"
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "name_en": "Hotel",
+      "name_local": "Hotel",
+      "icon": "bed.double.fill",
+      "phrases": [
+        {
+          "id": "hotel_001",
+          "intent_en": "Check in",
+          "text_local": "Tengo una reserva a nombre de…",
+          "pronunciation": "TEHN-goh OO-nah reh-SEHR-bah ah NOHM-breh deh",
+          "formality": "polite",
+          "cultural_note": "Have your passport and booking confirmation ready. Spanish hotels typically check in from 2–3pm.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "One moment, I'll look up your reservation.",
+              "phonetic": "oon moh-MEHN-toh, BOY ah boos-KAR soo reh-SEHR-bah",
+              "local": "Un momento, voy a buscar su reserva."
+            },
+            {
+              "english": "Can I have your passport?",
+              "phonetic": "meh PWEH-deh dar soo pah-sah-POR-teh",
+              "local": "¿Me puede dar su pasaporte?"
+            }
+          ]
+        },
+        {
+          "id": "hotel_002",
+          "intent_en": "Ask for the WiFi password",
+          "text_local": "¿Cuál es la contraseña del WiFi?",
+          "pronunciation": "KWAHL ehs lah kohn-trah-SEH-nyah dehl WEE-fee",
+          "formality": "casual",
+          "cultural_note": "WiFi is standard in Spanish hotels. The password is often on a card in your room or at the front desk.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The password is hotel2024.",
+              "phonetic": "lah kohn-trah-SEH-nyah ehs oh-TEL dohs-meel-beh-TEEN-tee-KWAH-troh",
+              "local": "La contraseña es hotel2024."
+            },
+            {
+              "english": "It's on the card on the desk.",
+              "phonetic": "ehs-TÁ ehn lah tar-heh-TEE-tah SOH-breh ehl ehs-kree-TOH-ryoh",
+              "local": "Está en la tarjetita sobre el escritorio."
+            }
+          ]
+        },
+        {
+          "id": "hotel_003",
+          "intent_en": "Ask what time breakfast is",
+          "text_local": "¿A qué hora es el desayuno?",
+          "pronunciation": "ah keh OH-rah ehs ehl deh-sah-YOO-noh",
+          "formality": "polite",
+          "cultural_note": "Breakfast in Spanish hotels is typically 7–10am. The 'desayuno' spread usually includes pan con tomate, jamón, pastries, and coffee.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "From seven to ten in the dining room.",
+              "phonetic": "deh SYEH-teh ah DYETH ehn ehl koh-meh-DOR",
+              "local": "De siete a diez en el comedor."
+            },
+            {
+              "english": "Breakfast is included in your booking.",
+              "phonetic": "ehl deh-sah-YOO-noh ehs-TÁ een-kloo-EE-doh ehn soo reh-SEHR-bah",
+              "local": "El desayuno está incluido en su reserva."
+            }
+          ]
+        },
+        {
+          "id": "hotel_004",
+          "intent_en": "Ask for a late checkout",
+          "text_local": "¿Es posible hacer un check-out tardío?",
+          "pronunciation": "ehs poh-SEE-bleh ah-THEHR oon CHEK-owt tar-DEE-oh",
+          "formality": "polite",
+          "cultural_note": "Standard checkout in Spain is noon. Late checkout is often possible for a fee or if the hotel has availability — always ask the evening before.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "We can offer you until 2pm.",
+              "phonetic": "poh-DEH-mohs oh-freh-THEHR-leh AHS-tah lahs DOS",
+              "local": "Podemos ofrecerle hasta las dos."
+            },
+            {
+              "english": "Sorry, the hotel is fully booked.",
+              "phonetic": "loh see-EHN-toh, ehl oh-TEHL ehs-TÁ kohm-PLEH-toh",
+              "local": "Lo siento, el hotel está completo."
+            }
+          ]
+        },
+        {
+          "id": "hotel_005",
+          "intent_en": "Report a problem with the room",
+          "text_local": "Hay un problema en la habitación.",
+          "pronunciation": "AY oon proh-BLEH-mah ehn lah ah-bee-tah-THYOHN",
+          "formality": "polite",
+          "cultural_note": "Report issues promptly — Spanish hotel staff are generally responsive. For noise complaints, the front desk can often call the other room directly.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I'll send someone right away.",
+              "phonetic": "ehn-seh-GEE-dah MAHN-doh ah ahl-GYEHN",
+              "local": "Enseguida mando a alguien."
+            },
+            {
+              "english": "What kind of problem is it?",
+              "phonetic": "keh TEE-poh deh proh-BLEH-mah ehs",
+              "local": "¿Qué tipo de problema es?"
+            }
+          ]
+        },
+        {
+          "id": "hotel_006",
+          "intent_en": "Ask to store luggage",
+          "text_local": "¿Pueden guardar el equipaje hasta más tarde?",
+          "pronunciation": "PWEH-dehn gwar-DAR ehl eh-kee-PAH-heh AHS-tah MÁS TAR-deh",
+          "formality": "polite",
+          "cultural_note": "Most hotels offer free luggage storage after checkout. Ask at reception — they'll give you a tag for your bags.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, we'll give you a receipt.",
+              "phonetic": "por soo-PWEHS-toh, leh DAH-mohs oon rehs-GWAR-doh",
+              "local": "Por supuesto, le damos un resguardo."
+            },
+            {
+              "english": "You can collect it whenever you like.",
+              "phonetic": "PWEH-deh reh-koh-HEHR-loh KWAHN-doh KYEH-rah",
+              "local": "Puede recogerlo cuando quiera."
+            }
+          ]
+        },
+        {
+          "id": "hotel_007",
+          "intent_en": "Request a wake-up call",
+          "text_local": "¿Pueden despertarme a las siete?",
+          "pronunciation": "PWEH-dehn dehs-pehr-TAR-meh ah lahs SYEH-teh",
+          "formality": "polite",
+          "cultural_note": "Wake-up calls are standard in Spanish hotels. Give a specific time — the front desk will call your room.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, we'll call you at seven.",
+              "phonetic": "por soo-PWEHS-toh, leh yah-MAH-mohs ah lahs SYEH-teh",
+              "local": "Por supuesto, le llamamos a las siete."
+            },
+            {
+              "english": "At what time exactly?",
+              "phonetic": "ah keh OH-rah ex-ak-tah-MEHN-teh",
+              "local": "¿A qué hora exactamente?"
+            }
+          ]
+        },
+        {
+          "id": "hotel_008",
+          "intent_en": "Request housekeeping",
+          "text_local": "¿Pueden limpiar la habitación hoy?",
+          "pronunciation": "PWEH-dehn leem-PYAR lah ah-bee-tah-THYOHN OY",
+          "formality": "polite",
+          "cultural_note": "Many Spanish hotels skip daily cleaning unless requested. Use the room card or ask reception.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, we'll come in the afternoon.",
+              "phonetic": "KLAH-roh, pah-SAH-mohs por lah TAR-deh",
+              "local": "Claro, pasamos por la tarde."
+            },
+            {
+              "english": "The room will be ready at two.",
+              "phonetic": "lah ah-bee-tah-THYOHN ehs-tah-RAH LEES-tah ah lahs DOS",
+              "local": "La habitación estará lista a las dos."
+            }
+          ]
+        },
+        {
+          "id": "hotel_009",
+          "intent_en": "Complain about noise",
+          "text_local": "Hay mucho ruido en la habitación de al lado.",
+          "pronunciation": "AY MOO-choh RWEE-doh ehn lah ah-bee-tah-THYOHN deh ahl LAH-doh",
+          "formality": "polite",
+          "cultural_note": "Report noise to reception — they can call the neighbouring room. Spanish hotels typically observe quiet hours after 11pm.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "We'll sort it right away.",
+              "phonetic": "loh soh-loo-thyoh-NAH-mohs ehn-seh-GEE-dah",
+              "local": "Lo solucionamos enseguida."
+            },
+            {
+              "english": "Would you like us to move you to another room?",
+              "phonetic": "KYEH-reh keh leh kahm-BYEH-mohs deh ah-bee-tah-THYOHN",
+              "local": "¿Quiere que le cambiemos de habitación?"
+            }
+          ]
+        },
+        {
+          "id": "hotel_010",
+          "intent_en": "Report a plumbing issue",
+          "text_local": "La ducha no funciona. / No hay agua caliente.",
+          "pronunciation": "lah DOO-chah NOH foonk-THYOH-nah. / NOH AY AH-gwah kah-LYEHN-teh",
+          "formality": "polite",
+          "cultural_note": "Report issues promptly — Spanish hotel maintenance responds quickly. If unfixable, request a room change.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I'll send someone right now.",
+              "phonetic": "MAHN-doh ah ahl-GYEHN ah-OH-rah MEES-moh",
+              "local": "Mando a alguien ahora mismo."
+            },
+            {
+              "english": "Shall we move you to another room?",
+              "phonetic": "leh kahm-BYAH-mohs deh ah-bee-tah-THYOHN",
+              "local": "¿Le cambiamos de habitación?"
+            }
+          ]
+        },
+        {
+          "id": "hotel_011",
+          "intent_en": "Ask to check out",
+          "text_local": "Quiero hacer el check-out, por favor.",
+          "pronunciation": "KYEH-roh ah-THEHR ehl CHEK-owt, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Standard checkout in Spain is noon. Hand in your key card at reception. Ask for a 'factura' if you need a receipt for expenses.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I'll prepare your bill now.",
+              "phonetic": "ah-OH-rah leh preh-PAH-roh lah fahk-TOO-rah",
+              "local": "Ahora le preparo la factura."
+            },
+            {
+              "english": "Did you use the minibar?",
+              "phonetic": "ah kohn-soo-MEE-doh AHL-goh dehl mee-nee-BAR",
+              "local": "¿Ha consumido algo del minibar?"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Room key",
+          "word_local": "La llave",
+          "pronunciation": "lah YAH-beh",
+          "section": null
+        },
+        {
+          "word_en": "Reception",
+          "word_local": "La recepción",
+          "pronunciation": "lah reh-thehp-THYOHN",
+          "section": null
+        },
+        {
+          "word_en": "Checkout",
+          "word_local": "La salida",
+          "pronunciation": "lah sah-LEE-dah",
+          "section": null
+        },
+        {
+          "word_en": "Breakfast included",
+          "word_local": "Desayuno incluido",
+          "pronunciation": "deh-sah-YOO-noh een-kloo-EE-doh",
+          "section": null
+        },
+        {
+          "word_en": "Double room",
+          "word_local": "Habitación doble",
+          "pronunciation": "ah-bee-tah-THYOHN DOH-bleh",
+          "section": "Room type"
+        },
+        {
+          "word_en": "Single room",
+          "word_local": "Habitación individual",
+          "pronunciation": "ah-bee-tah-THYOHN een-dee-bee-DWAHL",
+          "section": "Room type"
+        },
+        {
+          "word_en": "Twin room",
+          "word_local": "Habitación con dos camas",
+          "pronunciation": "ah-bee-tah-THYOHN kohn DOS KAH-mahs",
+          "section": "Room type"
+        },
+        {
+          "word_en": "Air conditioning",
+          "word_local": "El aire acondicionado",
+          "pronunciation": "ehl AY-reh ah-kohn-dee-thyoh-NAH-doh",
+          "section": "In room"
+        },
+        {
+          "word_en": "Towels",
+          "word_local": "Las toallas",
+          "pronunciation": "lahs toh-AH-yahs",
+          "section": "In room"
+        }
+      ]
+    },
+    {
+      "id": "airport",
+      "name_en": "Airport",
+      "name_local": "Aeropuerto",
+      "icon": "airplane",
+      "phrases": [
+        {
+          "id": "airport_001",
+          "intent_en": "Ask where the check-in desk is",
+          "text_local": "¿Dónde está el mostrador de facturación?",
+          "pronunciation": "DON-deh ehs-TÁ ehl mohs-trah-DOR deh fahk-too-rah-THYOHN",
+          "formality": "polite",
+          "cultural_note": "Spain's main airports: Madrid Barajas (MAD), Barcelona El Prat (BCN), Málaga (AGP), Palma (PMI). Check-in desks are usually numbered by airline.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The desks are in terminal T4.",
+              "phonetic": "lohs mohs-trah-DOH-rehs ehs-TÁN ehn lah tehr-mee-NAHL teh-KWAH-troh",
+              "local": "Los mostradores están en la terminal T4."
+            },
+            {
+              "english": "Follow the signs for your airline.",
+              "phonetic": "SEE-gah lohs kar-TEH-lehs deh soo ah-eh-roh-LEE-neh-ah",
+              "local": "Siga los carteles de su aerolínea."
+            }
+          ]
+        },
+        {
+          "id": "airport_002",
+          "intent_en": "Ask where the departure gate is",
+          "text_local": "¿Dónde está la puerta de embarque?",
+          "pronunciation": "DON-deh ehs-TÁ lah PWEHR-tah deh ehm-BAR-keh",
+          "formality": "polite",
+          "cultural_note": "Gates in Spanish airports are announced about 30–45 minutes before departure. Check the departures board ('salidas') regularly.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Gate D42 is at the back on the right.",
+              "phonetic": "lah PWEHR-tah deh-KWAH-rehn-tah-ee-DOS ehs-TÁ ahl FOHN-doh ah lah deh-REH-chah",
+              "local": "La puerta D42 está al fondo a la derecha."
+            },
+            {
+              "english": "No gate has been assigned yet.",
+              "phonetic": "toh-dah-BEE-ah NOH seh ah ah-seeg-NAH-doh PWEHR-tah",
+              "local": "Todavía no se ha asignado puerta."
+            }
+          ]
+        },
+        {
+          "id": "airport_003",
+          "intent_en": "Ask where baggage claim is",
+          "text_local": "¿Dónde es la recogida de equipajes?",
+          "pronunciation": "DON-deh ehs lah reh-koh-HEE-dah deh eh-kee-PAH-hehs",
+          "formality": "polite",
+          "cultural_note": "Follow signs for 'Recogida de equipajes'. If your bag doesn't appear, report it immediately to the airline desk — don't leave the baggage area.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's on the ground floor, belt number three.",
+              "phonetic": "ehs ehn lah PLAHN-tah BAH-hah, THEEN-tah NOO-meh-roh TREHS",
+              "local": "Es en la planta baja, cinta número tres."
+            },
+            {
+              "english": "Follow the arrivals signs.",
+              "phonetic": "SEE-gah lohs kar-TEH-lehs deh yeh-GAH-dahs",
+              "local": "Siga los carteles de llegadas."
+            }
+          ]
+        },
+        {
+          "id": "airport_004",
+          "intent_en": "Ask if the flight is on time",
+          "text_local": "¿El vuelo lleva retraso?",
+          "pronunciation": "ehl BWEH-loh YEH-bah reh-TRAH-soh",
+          "formality": "polite",
+          "cultural_note": "Key terms: 'en hora' (on time), 'retrasado' (delayed), 'cancelado' (cancelled), 'embarcando' (boarding).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The flight is on time.",
+              "phonetic": "ehl BWEH-loh SAH-leh ah soo OH-rah",
+              "local": "El vuelo sale a su hora."
+            },
+            {
+              "english": "There's a forty-minute delay.",
+              "phonetic": "AY oon reh-TRAH-soh deh kwah-REHN-tah mee-NOO-tohs",
+              "local": "Hay un retraso de cuarenta minutos."
+            }
+          ]
+        },
+        {
+          "id": "airport_005",
+          "intent_en": "Ask where the taxi rank is",
+          "text_local": "¿Dónde está la parada de taxis?",
+          "pronunciation": "DON-deh ehs-TÁ lah pah-RAH-dah deh TAK-sees",
+          "formality": "polite",
+          "cultural_note": "Official airport taxis in Spain have regulated fares. In Madrid there's a flat rate from Barajas to the city centre. Avoid unofficial drivers inside the terminal.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "When you exit, turn right.",
+              "phonetic": "ahl sah-LEER, HEE-reh ah lah deh-REH-chah",
+              "local": "Al salir, gire a la derecha."
+            },
+            {
+              "english": "The taxi rank is on the ground floor.",
+              "phonetic": "lah pah-RAH-dah deh TAK-sees ehs ehn lah PLAHN-tah BAH-hah",
+              "local": "La parada de taxis es en la planta baja."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Departure",
+          "word_local": "Salida",
+          "pronunciation": "sah-LEE-dah",
+          "section": null
+        },
+        {
+          "word_en": "Arrival",
+          "word_local": "Llegada",
+          "pronunciation": "yeh-GAH-dah",
+          "section": null
+        },
+        {
+          "word_en": "Gate",
+          "word_local": "La puerta",
+          "pronunciation": "lah PWEHR-tah",
+          "section": null
+        },
+        {
+          "word_en": "Boarding",
+          "word_local": "Embarque",
+          "pronunciation": "ehm-BAR-keh",
+          "section": null
+        },
+        {
+          "word_en": "Delayed",
+          "word_local": "Retrasado",
+          "pronunciation": "reh-trah-SAH-doh",
+          "section": null
+        },
+        {
+          "word_en": "Cancelled",
+          "word_local": "Cancelado",
+          "pronunciation": "kahn-theh-LAH-doh",
+          "section": null
+        },
+        {
+          "word_en": "Baggage claim",
+          "word_local": "Recogida de equipajes",
+          "pronunciation": "reh-koh-HEE-dah deh eh-kee-PAH-hehs",
+          "section": null
+        },
+        {
+          "word_en": "Passport control",
+          "word_local": "Control de pasaportes",
+          "pronunciation": "kohn-TROHL deh pah-sah-POR-tehs",
+          "section": null
+        }
+      ]
+    },
+    {
+      "id": "train_station",
+      "name_en": "Train Station",
+      "name_local": "Estación de tren",
+      "icon": "tram.fill",
+      "phrases": [
+        {
+          "id": "train_001",
+          "intent_en": "Buy a ticket",
+          "text_local": "Un billete a Barcelona, por favor.",
+          "pronunciation": "oon bee-YEH-teh ah bar-theh-LOH-nah, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Spain has excellent high-speed rail (AVE). Buy tickets in advance on Renfe.com — prices rise sharply close to departure. Validate regional train tickets before boarding.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "For what date?",
+              "phonetic": "PAH-rah keh FEH-chah",
+              "local": "¿Para qué fecha?"
+            },
+            {
+              "english": "One-way or return?",
+              "phonetic": "EE-dah oh EE-dah ee BWEHL-tah",
+              "local": "¿Ida o ida y vuelta?"
+            }
+          ]
+        },
+        {
+          "id": "train_002",
+          "intent_en": "Ask which platform",
+          "text_local": "¿En qué andén sale el tren?",
+          "pronunciation": "ehn keh ahn-DEHN SAH-leh ehl TREHN",
+          "formality": "polite",
+          "cultural_note": "Platform numbers appear on the departures board ('salidas') about 15 minutes before departure for high-speed trains.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It departs from platform five.",
+              "phonetic": "SAH-leh dehl ahn-DEHN NOO-meh-roh THEEN-koh",
+              "local": "Sale del andén número cinco."
+            },
+            {
+              "english": "The platform isn't confirmed yet.",
+              "phonetic": "toh-dah-BEE-ah NOH seh SAH-beh ehl ahn-DEHN",
+              "local": "Todavía no se sabe el andén."
+            }
+          ]
+        },
+        {
+          "id": "train_003",
+          "intent_en": "Ask if the train is direct",
+          "text_local": "¿Este tren es directo o hay que hacer transbordo?",
+          "pronunciation": "EHS-teh TREHN ehs dee-REHK-toh oh AY keh ah-THEHR trans-BOR-doh",
+          "formality": "polite",
+          "cultural_note": "'Transbordo' means a change of train. AVE high-speed trains are usually direct between major cities. Regional trains often require changes.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's direct, no stops.",
+              "phonetic": "ehs dee-REHK-toh, seen pah-RAH-dahs",
+              "local": "Es directo, sin paradas."
+            },
+            {
+              "english": "You need to change in Zaragoza.",
+              "phonetic": "AY keh kahm-BYAR ehn thah-rah-GOH-thah",
+              "local": "Hay que cambiar en Zaragoza."
+            }
+          ]
+        },
+        {
+          "id": "train_004",
+          "intent_en": "Ask about a delay",
+          "text_local": "¿Lleva retraso el tren?",
+          "pronunciation": "YEH-bah reh-TRAH-soh ehl TREHN",
+          "formality": "polite",
+          "cultural_note": "Renfe AVE trains have a punctuality guarantee — if delayed more than 15 minutes, you may be entitled to a refund.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's about twenty minutes late.",
+              "phonetic": "YEH-bah OO-nohs BEYN-teh mee-NOO-tohs deh reh-TRAH-soh",
+              "local": "Lleva unos veinte minutos de retraso."
+            },
+            {
+              "english": "It's on time.",
+              "phonetic": "SAH-leh ah soo OH-rah",
+              "local": "Sale a su hora."
+            }
+          ]
+        },
+        {
+          "id": "train_005",
+          "intent_en": "Ask where to validate the ticket",
+          "text_local": "¿Dónde hay que validar el billete?",
+          "pronunciation": "DON-deh AY keh bah-lee-DAR ehl bee-YEH-teh",
+          "formality": "polite",
+          "cultural_note": "AVE tickets don't need validation — just show them at the gate. Regional Cercanías and some local trains require validation at yellow machines on the platform.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "In the yellow machines on the platform.",
+              "phonetic": "ehn lahs MAH-kee-nahs ah-mah-REE-yahs dehl ahn-DEHN",
+              "local": "En las máquinas amarillas del andén."
+            },
+            {
+              "english": "The AVE doesn't need validation.",
+              "phonetic": "ehl ah-BEH-eh NOH neh-theh-SEE-tah bah-lee-dah-THYOHN",
+              "local": "El AVE no necesita validación."
+            }
+          ]
+        },
+        {
+          "id": "train_006",
+          "intent_en": "Buy a return ticket",
+          "text_local": "Un billete de ida y vuelta a…, por favor.",
+          "pronunciation": "oon bee-YEH-teh deh EE-dah ee BWEHL-tah ah..., por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Return tickets on Spanish AVE and long-distance trains can be significantly cheaper than two singles, especially booked in advance. Specify your return date and train preference. Renfe's 'tarifa flexible' allows changes; cheaper fares are non-refundable.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "For what date would you like to return?",
+              "phonetic": "PAH-rah keh FEH-chah KYEH-reh bohl-BEHR",
+              "local": "¿Para qué fecha quiere volver?"
+            },
+            {
+              "english": "First class or standard?",
+              "phonetic": "pree-MEH-rah oh too-REES-tah",
+              "local": "¿Primera o turista?"
+            }
+          ]
+        },
+        {
+          "id": "train_007",
+          "intent_en": "Ask if seat reservation is required",
+          "text_local": "¿Es obligatorio reservar asiento?",
+          "pronunciation": "ehs oh-blee-gah-TOH-ryoh reh-sehr-BAR ah-SYEHN-toh",
+          "formality": "polite",
+          "cultural_note": "On Spanish AVE and long-distance trains (Alvia, Intercity), seat reservation is compulsory and included in the ticket price. On shorter regional trains ('cercanías'), it is not. Always clarify when buying your ticket.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, the seat is included in the ticket.",
+              "phonetic": "SEE, ehl ah-SYEHN-toh BYEH-neh een-kloo-EE-doh ehn ehl bee-YEH-teh",
+              "local": "Sí, el asiento viene incluido en el billete."
+            },
+            {
+              "english": "No, you can sit wherever you like.",
+              "phonetic": "NOH, PWEH-deh sehn-TAR-seh DON-deh KYEH-rah",
+              "local": "No, puede sentarse donde quiera."
+            }
+          ]
+        },
+        {
+          "id": "train_008",
+          "intent_en": "Ask where the left-luggage lockers are",
+          "text_local": "¿Dónde están las consignas automáticas?",
+          "pronunciation": "DON-deh ehs-TAHN lahs kohn-SEEG-nahs ow-toh-MAH-tee-kahs",
+          "formality": "polite",
+          "cultural_note": "Automated luggage lockers ('consignas') are available at most major Spanish stations (Atocha, Barcelona Sants, Valencia). They charge by the hour and accept card payment. Staffed left-luggage offices are less common.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The lockers are on the ground floor, near the exit.",
+              "phonetic": "lahs kohn-SEEG-nahs ehs-TAHN ehn lah PLAHN-tah BAH-hah, HOON-toh ah lah sah-LEE-dah",
+              "local": "Las consignas están en la planta baja, junto a la salida."
+            },
+            {
+              "english": "This station doesn't have lockers.",
+              "phonetic": "ehn EHS-tah ehs-tah-THYOHN NOH AY kohn-SEEG-nahs",
+              "local": "En esta estación no hay consignas."
+            }
+          ]
+        },
+        {
+          "id": "train_009",
+          "intent_en": "Ask about the next trains to your destination",
+          "text_local": "¿Cuáles son los próximos trenes a…?",
+          "pronunciation": "KWAH-lehs SOHN lohs PROHK-see-mohs TREH-nehs ah",
+          "formality": "polite",
+          "cultural_note": "Real-time departure boards are displayed at all Spanish stations. Renfe's app gives live train times and allows seat selection. Staff at the information desk ('información') can print timetables and check availability.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The next one leaves at quarter past twelve, platform five.",
+              "phonetic": "ehl PROHK-see-moh SAH-leh ah lahs DOH-theh ee KWAR-toh, ahn-DEHN THEEN-koh",
+              "local": "El próximo sale a las doce y cuarto, andén cinco."
+            },
+            {
+              "english": "Check the departures board.",
+              "phonetic": "kohn-SOOL-teh ehl pah-NEHL deh sah-LEE-dahs",
+              "local": "Consulte el panel de salidas."
+            }
+          ]
+        },
+        {
+          "id": "train_010",
+          "intent_en": "Tell the staff about a connection you need to make",
+          "text_local": "Tengo un enlace en… ¿llegaré a tiempo?",
+          "pronunciation": "TEHN-goh oon ehn-LAH-theh ehn... yeh-gah-REH ah TYEHM-poh",
+          "formality": "polite",
+          "cultural_note": "Spanish train staff can check connection times in real time. If your train is delayed and you miss a reserved connection, report immediately to the 'atención al cliente' desk. Renfe will usually rebook you on the next available service.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, you have plenty of time.",
+              "phonetic": "SEE, TYEH-neh TYEHM-poh deh SOH-brah",
+              "local": "Sí, tiene tiempo de sobra."
+            },
+            {
+              "english": "It's very tight. If there's a delay, tell the inspector.",
+              "phonetic": "ehs mooy HWOOS-toh. see AY reh-TRAH-soh, ah-BEE-seh ahl reh-bee-SOR",
+              "local": "Es muy justo. Si hay retraso, avise al revisor."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "One-way",
+          "word_local": "Ida",
+          "pronunciation": "EE-dah",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "Return",
+          "word_local": "Ida y vuelta",
+          "pronunciation": "EE-dah ee BWEHL-tah",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "First class",
+          "word_local": "Primera clase",
+          "pronunciation": "pree-MEH-rah KLAH-seh",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "Standard class",
+          "word_local": "Clase turista",
+          "pronunciation": "KLAH-seh too-REES-tah",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "Seat reservation",
+          "word_local": "La reserva de asiento",
+          "pronunciation": "lah reh-SEHR-bah deh ah-SYEHN-toh",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "Departure",
+          "word_local": "La salida",
+          "pronunciation": "lah sah-LEE-dah",
+          "section": "Travel"
+        },
+        {
+          "word_en": "Arrival",
+          "word_local": "La llegada",
+          "pronunciation": "lah yeh-GAH-dah",
+          "section": "Travel"
+        },
+        {
+          "word_en": "Platform",
+          "word_local": "El andén",
+          "pronunciation": "ehl ahn-DEHN",
+          "section": "Travel"
+        },
+        {
+          "word_en": "Delay",
+          "word_local": "El retraso",
+          "pronunciation": "ehl reh-TRAH-soh",
+          "section": "Travel"
+        },
+        {
+          "word_en": "Connection",
+          "word_local": "El enlace",
+          "pronunciation": "ehl ehn-LAH-theh",
+          "section": "Travel"
+        },
+        {
+          "word_en": "High-speed train",
+          "word_local": "El AVE",
+          "pronunciation": "ehl AH-beh",
+          "section": "Travel"
+        },
+        {
+          "word_en": "Luggage lockers",
+          "word_local": "La consigna",
+          "pronunciation": "lah kohn-SEEG-nah",
+          "section": "Facilities"
+        },
+        {
+          "word_en": "Waiting room",
+          "word_local": "La sala de espera",
+          "pronunciation": "lah SAH-lah deh es-PEH-rah",
+          "section": "Facilities"
+        },
+        {
+          "word_en": "Timetable",
+          "word_local": "Los horarios",
+          "pronunciation": "lohs oh-RAH-ryohs",
+          "section": "Facilities"
+        },
+        {
+          "word_en": "Ticket office",
+          "word_local": "La taquilla",
+          "pronunciation": "lah tah-KEE-yah",
+          "section": "Facilities"
+        }
+      ]
+    },
+    {
+      "id": "metro",
+      "name_en": "Metro / Bus",
+      "name_local": "Metro / Autobús",
+      "icon": "tram",
+      "phrases": [
+        {
+          "id": "metro_001",
+          "intent_en": "Ask where the nearest metro station is",
+          "text_local": "¿Dónde está la estación de metro más cercana?",
+          "pronunciation": "DON-deh ehs-TÁ lah ehs-tah-THYOHN deh MEH-troh MÁS thehr-KAH-nah",
+          "formality": "polite",
+          "cultural_note": "Madrid and Barcelona have excellent metro networks. Madrid Metro is open until 1:30am. Look for the red 'M' sign (Madrid) or red diamond (Barcelona).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Two blocks away, straight ahead.",
+              "phonetic": "ah DOS mahn-THAH-nahs, TOH-doh REHK-toh",
+              "local": "A dos manzanas, todo recto."
+            },
+            {
+              "english": "There's a metro entrance right across.",
+              "phonetic": "AY OO-nah BOH-kah deh MEH-troh ah-KEE ehn-FREHN-teh",
+              "local": "Hay una boca de metro aquí enfrente."
+            }
+          ]
+        },
+        {
+          "id": "metro_002",
+          "intent_en": "Ask how to buy a ticket",
+          "text_local": "¿Cómo se saca el billete?",
+          "pronunciation": "KOH-moh seh SAH-kah ehl bee-YEH-teh",
+          "formality": "casual",
+          "cultural_note": "Buy a 10-trip 'Metrobús' card for best value — it works on metro and bus. Single tickets cost more. Machines have English language option.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "At the machines, they take card.",
+              "phonetic": "ehn lahs MAH-kee-nahs ow-toh-MAH-tee-kahs, ahk-THEHP-tahn tar-HEH-tah",
+              "local": "En las máquinas automáticas, aceptan tarjeta."
+            },
+            {
+              "english": "Do you want a single or a 10-trip card?",
+              "phonetic": "KYEH-reh oon bee-YEH-teh sehn-THEE-yoh oh OO-nah tar-HEH-tah deh DYETH BYAH-hehs",
+              "local": "¿Quiere un billete sencillo o una tarjeta de diez viajes?"
+            }
+          ]
+        },
+        {
+          "id": "metro_003",
+          "intent_en": "Ask which line to take",
+          "text_local": "¿Qué línea tengo que coger?",
+          "pronunciation": "keh LEE-neh-ah TEHN-goh keh koh-HEHR",
+          "formality": "casual",
+          "cultural_note": "Metro lines in Spain are numbered and colour-coded. Show the station name on your phone if you're not sure how to pronounce it.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Take line 2 towards Cuatro Caminos.",
+              "phonetic": "KOH-heh lah LEE-neh-ah DOS dee-rehk-THYOHN KWAH-troh kah-MEE-nohs",
+              "local": "Coge la línea dos dirección Cuatro Caminos."
+            },
+            {
+              "english": "You need to change at Sol.",
+              "phonetic": "AY keh ah-THEHR trans-BOR-doh ehn SOHL",
+              "local": "Hay que hacer transbordo en Sol."
+            }
+          ]
+        },
+        {
+          "id": "metro_004",
+          "intent_en": "Ask how many stops",
+          "text_local": "¿Cuántas paradas hay hasta…?",
+          "pronunciation": "KWAHN-tahs pah-RAH-dahs AY AHS-tah",
+          "formality": "casual",
+          "cultural_note": "Metro maps are available at every station. Download the city's official metro app for live journey planning.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's five stops.",
+              "phonetic": "SOHN THEEN-koh pah-RAH-dahs",
+              "local": "Son cinco paradas."
+            },
+            {
+              "english": "About ten stops.",
+              "phonetic": "OO-nahs DYETH pah-RAH-dahs ah-prohk-see-mah-dah-MEHN-teh",
+              "local": "Unas diez paradas aproximadamente."
+            }
+          ]
+        },
+        {
+          "id": "metro_005",
+          "intent_en": "Ask when the last train is",
+          "text_local": "¿A qué hora es el último metro?",
+          "pronunciation": "ah keh OH-rah ehs ehl OOL-tee-moh MEH-troh",
+          "formality": "casual",
+          "cultural_note": "Madrid Metro closes around 1:30am on weekdays, 2:30am on weekends. Barcelona Metro runs 24 hours on Fridays and Saturdays.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The last one is at 1:30am.",
+              "phonetic": "ehl OOL-tee-moh ehs lah OO-nah ee MEH-dyah",
+              "local": "El último es la una y media."
+            },
+            {
+              "english": "On Fridays the metro doesn't close.",
+              "phonetic": "lohs BYEHR-nehs ehl MEH-troh NOH THYEH-rrah",
+              "local": "Los viernes el metro no cierra."
+            }
+          ]
+        },
+        {
+          "id": "metro_006",
+          "intent_en": "Ask where to transfer to another line",
+          "text_local": "¿Dónde hago el transbordo para la línea…?",
+          "pronunciation": "DON-deh AH-goh ehl trans-BOR-doh PAH-rah lah LEE-neh-ah",
+          "formality": "polite",
+          "cultural_note": "Madrid has one of Europe's largest metro networks with 13 lines. Most major interchanges are clearly signed with the line number and colour. Sol, Nuevos Ministerios, and Atocha are the main interchange hubs.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The transfer is at Sol.",
+              "phonetic": "ehl trans-BOR-doh ehs ehn SOHL",
+              "local": "El transbordo es en Sol."
+            },
+            {
+              "english": "Follow the yellow signs.",
+              "phonetic": "SEE-gah lohs kar-TEH-les ah-mah-REE-yohs",
+              "local": "Siga los carteles amarillos."
+            }
+          ]
+        },
+        {
+          "id": "metro_007",
+          "intent_en": "Ask about a tourist pass or multi-trip card",
+          "text_local": "¿Hay algún abono turístico o bono de transporte?",
+          "pronunciation": "AY ahl-GOON ah-BOH-noh too-REES-tee-koh oh BOH-noh deh trans-POR-teh",
+          "formality": "polite",
+          "cultural_note": "Madrid's 'Tourist Travel Pass' (Abono Turístico) covers 1–7 days on all metro, bus, and commuter rail within a chosen zone. Available at airport metro machines and main stations. Great value for a multi-day visit.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, there's a tourist pass for one to seven days.",
+              "phonetic": "SEE, AY oon PAH-seh too-REES-tee-koh deh OO-noh ah SYEH-teh DEE-ahs",
+              "local": "Sí, hay un pase turístico de uno a siete días."
+            },
+            {
+              "english": "You can buy it at the machines at the entrance.",
+              "phonetic": "PWEH-deh kohm-PRAR-loh ehn lahs MAH-kee-nahs deh lah ehn-TRAH-dah",
+              "local": "Puede comprarlo en las máquinas de la entrada."
+            }
+          ]
+        },
+        {
+          "id": "metro_008",
+          "intent_en": "Ask how many stops to your destination",
+          "text_local": "¿Cuántas paradas hay hasta…?",
+          "pronunciation": "KWAHN-tahs pah-RAH-dahs AY AHS-tah",
+          "formality": "polite",
+          "cultural_note": "Counting stops is the most reliable way to navigate, especially with unfamiliar station names. Show the stop name on your phone screen if needed — other passengers or station staff are nearly always happy to help.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's five stops.",
+              "phonetic": "SOHN THEEN-koh pah-RAH-dahs",
+              "local": "Son cinco paradas."
+            },
+            {
+              "english": "You need to transfer at Nuevos Ministerios.",
+              "phonetic": "TYEH-neh keh ah-THEHR trans-BOR-doh ehn NWEH-bohs mee-nees-TEH-ryohs",
+              "local": "Tiene que hacer transbordo en Nuevos Ministerios."
+            }
+          ]
+        },
+        {
+          "id": "metro_009",
+          "intent_en": "Ask which exit to take for a street or landmark",
+          "text_local": "¿Qué salida cojo para…?",
+          "pronunciation": "KEH sah-LEE-dah KOH-hoh PAH-rah",
+          "formality": "polite",
+          "cultural_note": "Madrid metro stations are large and can have many exits. The exits are labelled with street names or landmarks — taking the right one can save you several minutes of reorientation on the surface.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Exit 3 is the closest.",
+              "phonetic": "lah sah-LEE-dah TREHS ehs lah mahs thehr-KAH-nah",
+              "local": "La salida 3 es la más cercana."
+            },
+            {
+              "english": "Follow the signs for the Prado Museum.",
+              "phonetic": "SEE-gah lohs kar-TEH-les dehl moo-SEH-oh dehl PRAH-doh",
+              "local": "Siga los carteles del Museo del Prado."
+            }
+          ]
+        },
+        {
+          "id": "metro_010",
+          "intent_en": "Ask if the station has an elevator / lift",
+          "text_local": "¿Hay ascensor en esta estación?",
+          "pronunciation": "AY ah-thehn-SOR ehn EHS-tah ehs-tah-THYOHN",
+          "formality": "polite",
+          "cultural_note": "Accessibility in Spanish metro stations varies. Madrid has been upgrading lifts ('ascensores') across the network but some older stations still lack them. The Metro de Madrid app shows which stations are step-free.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, it's at the end of the platform.",
+              "phonetic": "SEE, ehs-TÁ ahl fee-NAHL dehl ahn-DEHN",
+              "local": "Sí, está al final del andén."
+            },
+            {
+              "english": "No, there are only stairs in this station.",
+              "phonetic": "NOH, SOH-loh AY es-kah-LEH-rahs ehn EHS-tah ehs-tah-THYOHN",
+              "local": "No, solo hay escaleras en esta estación."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Single ticket",
+          "word_local": "Un billete sencillo",
+          "pronunciation": "oon bee-YEH-teh sehn-THEE-yoh",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "10-trip card",
+          "word_local": "Un bono de 10 viajes",
+          "pronunciation": "oon BOH-noh deh DYETH BYAH-hes",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "Tourist pass",
+          "word_local": "Un abono turístico",
+          "pronunciation": "oon ah-BOH-noh too-REES-tee-koh",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "Monthly pass",
+          "word_local": "Un abono mensual",
+          "pronunciation": "oon ah-BOH-noh mehn-SWAHL",
+          "section": "Tickets"
+        },
+        {
+          "word_en": "Transfer",
+          "word_local": "El transbordo",
+          "pronunciation": "ehl trans-BOR-doh",
+          "section": "Navigation"
+        },
+        {
+          "word_en": "Direction",
+          "word_local": "La dirección",
+          "pronunciation": "lah dee-rehk-THYOHN",
+          "section": "Navigation"
+        },
+        {
+          "word_en": "End of line",
+          "word_local": "El final de línea",
+          "pronunciation": "ehl fee-NAHL deh LEE-neh-ah",
+          "section": "Navigation"
+        },
+        {
+          "word_en": "Last train",
+          "word_local": "El último tren",
+          "pronunciation": "ehl OOL-tee-moh TREHN",
+          "section": "Navigation"
+        },
+        {
+          "word_en": "Exit",
+          "word_local": "La salida",
+          "pronunciation": "lah sah-LEE-dah",
+          "section": "Facilities"
+        },
+        {
+          "word_en": "Elevator",
+          "word_local": "El ascensor",
+          "pronunciation": "ehl ah-thehn-SOR",
+          "section": "Facilities"
+        },
+        {
+          "word_en": "Escalator",
+          "word_local": "Las escaleras mecánicas",
+          "pronunciation": "lahs es-kah-LEH-rahs meh-KAH-nee-kahs",
+          "section": "Facilities"
+        },
+        {
+          "word_en": "Metro map",
+          "word_local": "El plano del metro",
+          "pronunciation": "ehl PLAH-noh dehl MEH-troh",
+          "section": "Facilities"
+        }
+      ]
+    },
+    {
+      "id": "taxi",
+      "name_en": "Taxi",
+      "name_local": "Taxi",
+      "icon": "car.fill",
+      "phrases": [
+        {
+          "id": "taxi_001",
+          "intent_en": "Give your destination",
+          "text_local": "Al hotel Palacio, por favor.",
+          "pronunciation": "ahl oh-TEHL pah-LAH-thyoh, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Spanish taxis are metered and regulated. Show the address on your phone if unsure of pronunciation. Night rates ('tarifa nocturna') apply after 9pm.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "OK, we'll be there soon.",
+              "phonetic": "deh ah-KWEHR-doh, ehn-seh-GEE-dah yeh-GAH-mohs",
+              "local": "De acuerdo, enseguida llegamos."
+            },
+            {
+              "english": "Which route do you prefer?",
+              "phonetic": "por keh ROO-tah preh-FYEH-reh",
+              "local": "¿Por qué ruta prefiere?"
+            }
+          ]
+        },
+        {
+          "id": "taxi_002",
+          "intent_en": "Ask the fare in advance",
+          "text_local": "¿Cuánto cuesta más o menos ir a…?",
+          "pronunciation": "KWAHN-toh KWEHS-tah MÁS oh MEH-nohs eer ah",
+          "formality": "casual",
+          "cultural_note": "Taxis in Spain are metered — drivers can give an estimate but the meter is the official fare. Airport flat rates exist in some cities (e.g., Madrid: €30 fixed to/from Barajas).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "About twelve euros, depends on traffic.",
+              "phonetic": "OO-nohs DOH-theh EH-oo-rohs, deh-PEHN-deh dehl TRÁH-fee-koh",
+              "local": "Unos doce euros, depende del tráfico."
+            },
+            {
+              "english": "There's a fixed rate to the airport.",
+              "phonetic": "AY tah-REE-fah FEE-hah ahl ah-eh-roh-PWEHR-toh",
+              "local": "Hay tarifa fija al aeropuerto."
+            }
+          ]
+        },
+        {
+          "id": "taxi_003",
+          "intent_en": "Ask for a receipt",
+          "text_local": "¿Me puede dar un recibo?",
+          "pronunciation": "meh PWEH-deh dar oon reh-THEE-boh",
+          "formality": "polite",
+          "cultural_note": "Taxis in Spain are required to provide receipts on request. Useful for expense claims — ask before paying.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, here you go.",
+              "phonetic": "SEE, ah-KEE TYEH-neh",
+              "local": "Sí, aquí tiene."
+            },
+            {
+              "english": "The machine is broken, sorry.",
+              "phonetic": "lah MAH-kee-nah ehs-TÁ ROH-tah, loh see-EHN-toh",
+              "local": "La máquina está rota, lo siento."
+            }
+          ]
+        },
+        {
+          "id": "taxi_004",
+          "intent_en": "Ask to stop here",
+          "text_local": "Aquí está bien, gracias.",
+          "pronunciation": "ah-KEE ehs-TÁ BYEHN, GRAH-thyahs",
+          "formality": "casual",
+          "cultural_note": "Say this clearly when approaching your stop. The driver will pull over safely.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "OK.",
+              "phonetic": "deh ah-KWEHR-doh",
+              "local": "De acuerdo."
+            },
+            {
+              "english": "That's eight forty.",
+              "phonetic": "SOHN OH-choh kohn kwah-REHN-tah",
+              "local": "Son ocho con cuarenta."
+            }
+          ]
+        },
+        {
+          "id": "taxi_005",
+          "intent_en": "Ask the driver to turn on the meter",
+          "text_local": "¿Puede poner el taxímetro?",
+          "pronunciation": "PWEH-deh poh-NEHR ehl tak-SEE-meh-troh",
+          "formality": "polite",
+          "cultural_note": "All licensed Spanish taxis must use the meter. If you're going to/from an airport, there may be a fixed fare — ask first. In Madrid and Barcelona, a minimum fare applies regardless of distance.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, it's already running.",
+              "phonetic": "SEE, yah ehs-TÁ PWEHS-toh",
+              "local": "Sí, ya está puesto."
+            },
+            {
+              "english": "To the airport there's a fixed fare.",
+              "phonetic": "ahl ah-eh-roh-PWEHR-toh AY tah-REE-fah FEE-hah",
+              "local": "Al aeropuerto hay tarifa fija."
+            }
+          ]
+        },
+        {
+          "id": "taxi_006",
+          "intent_en": "Ask to take the fastest route",
+          "text_local": "Vaya por la ruta más rápida, por favor.",
+          "pronunciation": "BAH-yah por lah ROO-tah mahs RAH-pee-dah, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Spanish drivers respond well to this. Most use navigation apps and will know alternate routes. In Madrid, the M-30 ring road can be fastest at certain times; in Barcelona, asking to avoid the Ramblas area helps.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "OK, I'll use the GPS.",
+              "phonetic": "deh ah-KWEHR-doh, OO-soh ehl heh-peh-EHS",
+              "local": "De acuerdo, uso el GPS."
+            },
+            {
+              "english": "There's quite a bit of traffic, we'll take a little longer.",
+              "phonetic": "AY bahs-TAHN-teh TRÁH-fee-koh",
+              "local": "Hay bastante tráfico, tardaremos un poco más."
+            }
+          ]
+        },
+        {
+          "id": "taxi_007",
+          "intent_en": "Ask for air conditioning",
+          "text_local": "¿Puede poner el aire acondicionado?",
+          "pronunciation": "PWEH-deh poh-NEHR ehl AY-reh ah-kohn-dee-thyoh-NAH-doh",
+          "formality": "polite",
+          "cultural_note": "AC is standard in Spanish licensed taxis. In summer (especially in Seville or Madrid where temperatures regularly exceed 40°C) this is a very normal request. You can also ask to open the window — '¿puede bajar la ventanilla?'",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, of course.",
+              "phonetic": "SEE, KLAH-roh",
+              "local": "Sí, claro."
+            },
+            {
+              "english": "It's already on.",
+              "phonetic": "yah ehs-TÁ ehn-thehn-DEE-doh",
+              "local": "Ya está encendido."
+            }
+          ]
+        },
+        {
+          "id": "taxi_008",
+          "intent_en": "Say you need to be somewhere by a specific time",
+          "text_local": "Necesito estar allí a las… ¿llegamos a tiempo?",
+          "pronunciation": "neh-theh-SEE-toh ehs-TAR ah-YEE ah lahs... yeh-GAH-mohs ah TYEHM-poh",
+          "formality": "polite",
+          "cultural_note": "Spanish drivers appreciate honesty about time pressure and will tell you straight whether it's realistic. State the time clearly and show your watch or phone screen if needed. 'Tengo prisa' (I'm in a hurry) reinforces the urgency.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, we'll just make it.",
+              "phonetic": "SEE, yeh-GAH-mohs HOOS-tohs",
+              "local": "Sí, llegamos justos."
+            },
+            {
+              "english": "It'll be tough with this traffic.",
+              "phonetic": "bah ah sehr dee-FEE-theel kohn EHS-teh TRÁH-fee-koh",
+              "local": "Va a ser difícil con este tráfico."
+            }
+          ]
+        },
+        {
+          "id": "taxi_009",
+          "intent_en": "Ask if card payment is accepted",
+          "text_local": "¿Acepta tarjeta de crédito?",
+          "pronunciation": "ah-THEHP-tah tar-HEH-tah deh KREH-dee-toh",
+          "formality": "polite",
+          "cultural_note": "Card payment is widely accepted in Spanish taxis but it's always worth confirming before you start the journey. Most taxis in Madrid and Barcelona have card readers. In smaller cities, cash may be preferred.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, contactless too.",
+              "phonetic": "SEE, tahm-BYEHN kohn-TAHKT-les",
+              "local": "Sí, también contactless."
+            },
+            {
+              "english": "I'm sorry, cash only.",
+              "phonetic": "loh see-EHN-toh, SOH-loh eh-fehk-TEE-boh",
+              "local": "Lo siento, solo efectivo."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Straight ahead",
+          "word_local": "Todo recto",
+          "pronunciation": "TOH-doh REHK-toh",
+          "section": "Instructions"
+        },
+        {
+          "word_en": "Turn left",
+          "word_local": "Gire a la izquierda",
+          "pronunciation": "HEE-reh ah lah ees-KYEHR-dah",
+          "section": "Instructions"
+        },
+        {
+          "word_en": "Turn right",
+          "word_local": "Gire a la derecha",
+          "pronunciation": "HEE-reh ah lah deh-REH-chah",
+          "section": "Instructions"
+        },
+        {
+          "word_en": "Stop here",
+          "word_local": "Pare aquí",
+          "pronunciation": "PAH-reh ah-KEE",
+          "section": "Instructions"
+        },
+        {
+          "word_en": "Wait",
+          "word_local": "Espere",
+          "pronunciation": "es-PEH-reh",
+          "section": "Instructions"
+        },
+        {
+          "word_en": "Card",
+          "word_local": "Tarjeta",
+          "pronunciation": "tar-HEH-tah",
+          "section": "Payment"
+        },
+        {
+          "word_en": "Cash",
+          "word_local": "Efectivo",
+          "pronunciation": "eh-fehk-TEE-boh",
+          "section": "Payment"
+        },
+        {
+          "word_en": "Receipt",
+          "word_local": "El recibo",
+          "pronunciation": "ehl reh-THEE-boh",
+          "section": "Payment"
+        },
+        {
+          "word_en": "Tip",
+          "word_local": "La propina",
+          "pronunciation": "lah proh-PEE-nah",
+          "section": "Payment"
+        },
+        {
+          "word_en": "Address",
+          "word_local": "La dirección",
+          "pronunciation": "lah dee-rehk-THYOHN",
+          "section": "Navigation"
+        },
+        {
+          "word_en": "Meter",
+          "word_local": "El taxímetro",
+          "pronunciation": "ehl tak-SEE-meh-troh",
+          "section": "Navigation"
+        },
+        {
+          "word_en": "Fastest route",
+          "word_local": "La ruta más rápida",
+          "pronunciation": "lah ROO-tah mahs RAH-pee-dah",
+          "section": "Navigation"
+        },
+        {
+          "word_en": "Traffic",
+          "word_local": "El tráfico",
+          "pronunciation": "ehl TRAH-fee-koh",
+          "section": "Navigation"
+        },
+        {
+          "word_en": "Air conditioning",
+          "word_local": "El aire acondicionado",
+          "pronunciation": "ehl AY-reh ah-kohn-dee-thyoh-NAH-doh",
+          "section": "Navigation"
+        }
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "name_en": "Pharmacy",
+      "name_local": "Farmacia",
+      "icon": "cross.fill",
+      "phrases": [
+        {
+          "id": "pharmacy_001",
+          "intent_en": "Describe a symptom",
+          "text_local": "Me duele la cabeza. ¿Qué me recomienda?",
+          "pronunciation": "meh DWEH-leh lah kah-BEH-thah. keh meh reh-koh-MYEHN-dah",
+          "formality": "polite",
+          "cultural_note": "Pharmacists in Spain are highly trained and can dispense advice and many medications without a prescription. The green cross sign marks all pharmacies.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I recommend ibuprofen.",
+              "phonetic": "leh reh-koh-MYEHN-doh oon ee-boo-proh-FEH-noh",
+              "local": "Le recomiendo un ibuprofeno."
+            },
+            {
+              "english": "Are you allergic to any medication?",
+              "phonetic": "TYEH-neh ah-LEHR-hyah ah ahl-GOON meh-dee-kah-MEHN-toh",
+              "local": "¿Tiene alergia a algún medicamento?"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_002",
+          "intent_en": "Ask for something for a stomach ache",
+          "text_local": "Necesito algo para el dolor de estómago.",
+          "pronunciation": "neh-theh-SEE-toh AHL-goh PAH-rah ehl doh-LOR deh ehs-TOH-mah-goh",
+          "formality": "polite",
+          "cultural_note": "Common options: 'Almax' (antacid), 'Fortasec' (for diarrhoea), 'Espasmofor' (for cramps). Pharmacists will ask about your symptoms before recommending.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Is it heartburn, diarrhoea, or nausea?",
+              "phonetic": "ehs ah-thee-DEHTH, dyah-RREH-ah oh NAH-oo-seh-ahs",
+              "local": "¿Es acidez, diarrea o náuseas?"
+            },
+            {
+              "english": "Take this three times a day.",
+              "phonetic": "TOH-meh EHS-toh TREHS BEH-thehs ahl DEE-ah",
+              "local": "Tome esto tres veces al día."
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_003",
+          "intent_en": "Ask for sunscreen",
+          "text_local": "¿Tienen protector solar factor cincuenta?",
+          "pronunciation": "TYEH-nehn proh-tehk-TOR soh-LAR fahk-TOR theen-KWEHN-tah",
+          "formality": "polite",
+          "cultural_note": "Spain's sun is strong — factor 50 is recommended, especially in Andalusia and the Canary Islands in summer. Pharmacies stock a wide range of sun protection.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, we have several brands.",
+              "phonetic": "SEE, teh-NEH-mohs BAH-ryahs MAR-kahs",
+              "local": "Sí, tenemos varias marcas."
+            },
+            {
+              "english": "For face or body?",
+              "phonetic": "PAH-rah KAH-rah oh PAH-rah ehl KWEHR-poh",
+              "local": "¿Para cara o para el cuerpo?"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_004",
+          "intent_en": "Ask if you need a prescription",
+          "text_local": "¿Necesito receta para esto?",
+          "pronunciation": "neh-theh-SEE-toh reh-THEH-tah PAH-rah EHS-toh",
+          "formality": "polite",
+          "cultural_note": "Many medicines available only on prescription in other countries are over-the-counter in Spain. Pharmacists can advise on what's available without a prescription.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, you need a prescription for that.",
+              "phonetic": "SEE, PAH-rah EH-soh neh-theh-SEE-tah reh-THEH-tah MEH-dee-kah",
+              "local": "Sí, para eso necesita receta médica."
+            },
+            {
+              "english": "No, it's sold without a prescription.",
+              "phonetic": "NOH, seh BEHN-deh seen reh-THEH-tah",
+              "local": "No, se vende sin receta."
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_005",
+          "intent_en": "Ask for something for a cold",
+          "text_local": "Estoy resfriado. ¿Qué me recomienda?",
+          "pronunciation": "ehs-TOY rehs-free-AH-doh. keh meh reh-koh-MYEHN-dah",
+          "formality": "polite",
+          "cultural_note": "Common cold remedies in Spain: 'Frenadol' (multi-symptom), 'Couldina', 'Gelocatil' (paracetamol). Pharmacists will ask about specific symptoms.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I recommend this cold medicine.",
+              "phonetic": "leh reh-koh-MYEHN-doh EHS-teh ahn-tee-gree-PAHL",
+              "local": "Le recomiendo este antigripal."
+            },
+            {
+              "english": "Do you have a fever?",
+              "phonetic": "TYEH-neh FYEH-breh",
+              "local": "¿Tiene fiebre?"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_006",
+          "intent_en": "Ask for something for a fever",
+          "text_local": "Tengo fiebre. ¿Qué me recomienda?",
+          "pronunciation": "TEHN-goh FYEH-breh. keh meh reh-koh-MYEHN-dah",
+          "formality": "polite",
+          "cultural_note": "Paracetamol (Paracetamol, Gelocatil, Apiretal) is the standard first choice in Spain. Ibuprofen (Nurofen, Espidifen) is also widely available without a prescription.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I recommend paracetamol every eight hours.",
+              "phonetic": "leh reh-koh-MYEHN-doh pah-rah-seh-tah-MOHL KAH-dah OH-choh OH-rahs",
+              "local": "Le recomiendo paracetamol cada ocho horas."
+            },
+            {
+              "english": "What's your temperature?",
+              "phonetic": "KWAHN-tah FYEH-breh TYEH-neh",
+              "local": "¿Cuánta fiebre tiene?"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_007",
+          "intent_en": "Ask for something for diarrhoea or nausea",
+          "text_local": "Tengo diarrea / náuseas. ¿Qué me recomienda?",
+          "pronunciation": "TEHN-goh dyah-RREH-ah / NAH-oo-seh-ahs. keh meh reh-koh-MYEHN-dah",
+          "formality": "polite",
+          "cultural_note": "For diarrhoea: Fortasec (loperamide) or Smecta. For nausea: Primperan. Stay hydrated — 'suero oral' (oral rehydration salts) are available at all pharmacies.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I'll give you Fortasec and rehydration salts.",
+              "phonetic": "leh DOY for-tah-SEK ee AH-gwah deh SAH-lehs",
+              "local": "Le doy Fortasec y agua de sales."
+            },
+            {
+              "english": "How long have you had these symptoms?",
+              "phonetic": "DEHS-deh KWAHN-doh TYEH-neh EHS-tohs SEEN-toh-mahs",
+              "local": "¿Desde cuándo tiene estos síntomas?"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_008",
+          "intent_en": "Ask for wound care supplies",
+          "text_local": "Necesito tiritas y antiséptico.",
+          "pronunciation": "neh-theh-SEE-toh tee-REE-tahs ee ahn-tee-SEP-tee-koh",
+          "formality": "polite",
+          "cultural_note": "Spanish pharmacies stock full wound care. Common items: Betadine or Clorhexidina (antiseptic), tiritas (plasters), gasas (gauze), vendas (bandages).",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Here's what you need.",
+              "phonetic": "ah-KEE TYEH-neh loh keh neh-theh-SEE-tah",
+              "local": "Aquí tiene lo que necesita."
+            },
+            {
+              "english": "Is the wound deep?",
+              "phonetic": "lah eh-REE-dah ehs proh-FOON-dah",
+              "local": "¿La herida es profunda?"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_009",
+          "intent_en": "Ask for antihistamine / allergy medicine",
+          "text_local": "Tengo una reacción alérgica. ¿Tienen antihistamínico?",
+          "pronunciation": "TEHN-goh OO-nah reh-ak-THYOHN ah-LEHR-hee-kah. TYEH-nehn ahn-tee-ees-tah-MEE-nee-koh",
+          "formality": "polite",
+          "cultural_note": "Common antihistamines in Spain: Zyrtec (cetirizina), Loratadina, Aerius. Available without prescription. Pharmacists advise on non-drowsy ('no somnoliento') options.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I recommend this antihistamine, one a day.",
+              "phonetic": "leh reh-koh-MYEHN-doh EHS-teh ahn-tee-ees-tah-MEE-nee-koh, OO-noh ahl DEE-ah",
+              "local": "Le recomiendo este antihistamínico, uno al día."
+            },
+            {
+              "english": "What are your symptoms?",
+              "phonetic": "KWAH-lehs SOHN soos SEEN-toh-mahs",
+              "local": "¿Cuáles son sus síntomas?"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy_010",
+          "intent_en": "Ask how to take a medicine",
+          "text_local": "¿Cómo se toma este medicamento?",
+          "pronunciation": "KOH-moh seh TOH-mah EHS-teh meh-dee-kah-MEHN-toh",
+          "formality": "polite",
+          "cultural_note": "Spanish pharmacists always explain dosage. Key words: 'comprimido' (tablet), 'cápsula' (capsule), 'veces al día' (times per day), 'con el estómago lleno' (with food), 'con agua' (with water).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "One tablet three times a day, with water.",
+              "phonetic": "oon kohm-pree-MEE-doh TREHS BEH-thehs ahl DEE-ah, kohn AH-gwah",
+              "local": "Un comprimido tres veces al día, con agua."
+            },
+            {
+              "english": "Take it with meals.",
+              "phonetic": "TOH-meh-loh kohn lahs koh-MEE-dahs",
+              "local": "Tómelo con las comidas."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Headache",
+          "word_local": "Dolor de cabeza",
+          "pronunciation": "doh-LOR deh kah-BEH-thah",
+          "section": "Symptoms"
+        },
+        {
+          "word_en": "Fever",
+          "word_local": "Fiebre",
+          "pronunciation": "FYEH-breh",
+          "section": "Symptoms"
+        },
+        {
+          "word_en": "Stomach ache",
+          "word_local": "Dolor de estómago",
+          "pronunciation": "doh-LOR deh ehs-TOH-mah-goh",
+          "section": "Symptoms"
+        },
+        {
+          "word_en": "Sore throat",
+          "word_local": "Dolor de garganta",
+          "pronunciation": "doh-LOR deh gar-GAHN-tah",
+          "section": "Symptoms"
+        },
+        {
+          "word_en": "Cold",
+          "word_local": "Resfriado",
+          "pronunciation": "rehs-free-AH-doh",
+          "section": "Symptoms"
+        },
+        {
+          "word_en": "Sunburn",
+          "word_local": "Quemadura solar",
+          "pronunciation": "keh-mah-DOO-rah soh-LAR",
+          "section": "Symptoms"
+        },
+        {
+          "word_en": "Insect bite",
+          "word_local": "Picadura de insecto",
+          "pronunciation": "pee-kah-DOO-rah deh een-SEHK-toh",
+          "section": "Symptoms"
+        },
+        {
+          "word_en": "Tablets",
+          "word_local": "Comprimidos",
+          "pronunciation": "kohm-pree-MEE-dohs",
+          "section": "Medicine"
+        },
+        {
+          "word_en": "Cream",
+          "word_local": "Crema",
+          "pronunciation": "KREH-mah",
+          "section": "Medicine"
+        },
+        {
+          "word_en": "Prescription",
+          "word_local": "Receta",
+          "pronunciation": "reh-THEH-tah",
+          "section": "Medicine"
+        }
+      ]
+    },
+    {
+      "id": "museum",
+      "name_en": "Museum",
+      "name_local": "Museo",
+      "icon": "building.columns.fill",
+      "phrases": [
+        {
+          "id": "museum_001",
+          "intent_en": "Buy a ticket",
+          "text_local": "Una entrada, por favor.",
+          "pronunciation": "OO-nah ehn-TRAH-dah, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Spain's top museums: Prado and Reina Sofía (Madrid), Guggenheim (Bilbao), MACBA (Barcelona). Many offer free entry in the last 2 hours of the day — check before buying.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Full price or reduced?",
+              "phonetic": "tah-REE-fah heh-neh-RAHL oh reh-doo-THEE-dah",
+              "local": "¿Tarifa general o reducida?"
+            },
+            {
+              "english": "That's fifteen euros.",
+              "phonetic": "SOHN KEEN-theh EH-oo-rohs",
+              "local": "Son quince euros."
+            }
+          ]
+        },
+        {
+          "id": "museum_002",
+          "intent_en": "Ask about the photography policy",
+          "text_local": "¿Se pueden hacer fotos?",
+          "pronunciation": "seh PWEH-dehn ah-THEHR FOH-tohs",
+          "formality": "polite",
+          "cultural_note": "Many Spanish museums allow photos without flash. Some temporary exhibitions prohibit it. Always check signs or ask — rules vary room by room.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, but no flash.",
+              "phonetic": "SEE, PEH-roh seen FLAHSH",
+              "local": "Sí, pero sin flash."
+            },
+            {
+              "english": "Photography is not permitted.",
+              "phonetic": "NOH seh pehr-MEE-tehn foh-toh-GRAH-fee-ahs",
+              "local": "No se permiten fotografías."
+            }
+          ]
+        },
+        {
+          "id": "museum_003",
+          "intent_en": "Ask where to store bags",
+          "text_local": "¿Dónde puedo dejar la mochila?",
+          "pronunciation": "DON-deh PWEH-doh deh-HAR lah moh-CHEE-lah",
+          "formality": "casual",
+          "cultural_note": "Most Spanish museums require you to leave large bags at the cloakroom ('guardarropa'). It's usually free.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "At the cloakroom, on your right.",
+              "phonetic": "ehn ehl gwar-dah-RROH-pah, ah soo deh-REH-chah",
+              "local": "En el guardarropa, a su derecha."
+            },
+            {
+              "english": "It's free and it's at the entrance.",
+              "phonetic": "ehs grah-TWEE-toh ee ehs-TÁ ehn lah ehn-TRAH-dah",
+              "local": "Es gratuito y está en la entrada."
+            }
+          ]
+        },
+        {
+          "id": "museum_004",
+          "intent_en": "Ask about the audio guide",
+          "text_local": "¿Tienen audioguía en inglés?",
+          "pronunciation": "TYEH-nehn ow-dyoh-GEE-ah ehn een-GLÉS",
+          "formality": "polite",
+          "cultural_note": "Audio guides are available in most major Spanish museums. Many now offer app-based guides you can download on your phone for free — ask at reception.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, the audio guide costs five euros.",
+              "phonetic": "SEE, lah ow-dyoh-GEE-ah KWEHS-tah THEEN-koh EH-oo-rohs",
+              "local": "Sí, la audioguía cuesta cinco euros."
+            },
+            {
+              "english": "You can download the app for free.",
+              "phonetic": "PWEH-deh dehs-kar-GAR-seh lah AHP grah-twee-tah-MEHN-teh",
+              "local": "Puede descargarse la app gratuitamente."
+            }
+          ]
+        },
+        {
+          "id": "museum_005",
+          "intent_en": "Ask about opening hours",
+          "text_local": "¿Cuál es el horario de apertura?",
+          "pronunciation": "KWAHL ehs ehl oh-RAH-ryoh deh ah-pehr-TOO-rah",
+          "formality": "polite",
+          "cultural_note": "Many Spanish museums close on Mondays. The Prado and Reina Sofía are open Tuesday–Sunday. Most offer free or reduced entry in the last two hours of the day.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "We're open from 10am to 8pm.",
+              "phonetic": "ah-BREE-mohs deh DYETH ah OH-choh",
+              "local": "Abrimos de diez a ocho."
+            },
+            {
+              "english": "We're closed on Mondays.",
+              "phonetic": "lohs LOO-nehs ehs-TAH-mohs theh-RRAH-dohs",
+              "local": "Los lunes estamos cerrados."
+            }
+          ]
+        },
+        {
+          "id": "museum_006",
+          "intent_en": "Ask about discounts",
+          "text_local": "¿Hay tarifas reducidas?",
+          "pronunciation": "AY tah-REE-fahs reh-doo-THEE-dahs",
+          "formality": "polite",
+          "cultural_note": "Spanish museums offer discounts for students, seniors, and the unemployed. EU citizens under 18 often enter free. Many offer free entry on certain days — check before buying.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, with a student card it's half price.",
+              "phonetic": "SEE, kohn kar-NEH deh ehs-too-DYAHN-teh ehs lah mee-TAHD",
+              "local": "Sí, con carné de estudiante es la mitad."
+            },
+            {
+              "english": "Entry is free on Sundays.",
+              "phonetic": "lohs doh-MEEN-gohs lah ehn-TRAH-dah ehs grah-TWEE-tah",
+              "local": "Los domingos la entrada es gratuita."
+            }
+          ]
+        },
+        {
+          "id": "museum_007",
+          "intent_en": "Ask about guided tours",
+          "text_local": "¿Ofrecen visitas guiadas?",
+          "pronunciation": "oh-FREH-thehn bee-SEE-tahs ghee-AH-dahs",
+          "formality": "polite",
+          "cultural_note": "Guided tours at major Spanish museums (Prado, Guggenheim) often sell out — book online. English tours are common in big cities, less so in smaller regional museums.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, the next one is at four o'clock.",
+              "phonetic": "SEE, lah PROHK-see-mah ehs ah lahs KWAH-troh",
+              "local": "Sí, la próxima es a las cuatro."
+            },
+            {
+              "english": "English guided tours are at eleven.",
+              "phonetic": "lahs bee-SEE-tahs ghee-AH-dahs ehn een-GLÉS SOHN ah lahs OHN-theh",
+              "local": "Las visitas guiadas en inglés son a las once."
+            }
+          ]
+        },
+        {
+          "id": "museum_008",
+          "intent_en": "Ask where a specific exhibit is",
+          "text_local": "¿Dónde está la colección de…?",
+          "pronunciation": "DON-deh ehs-TÁ lah koh-lehk-THYOHN deh",
+          "formality": "polite",
+          "cultural_note": "Show the name on your phone or brochure if pronunciation is tricky. Free maps are usually available at the ticket desk.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's on the second floor, right wing.",
+              "phonetic": "ehs-TÁ ehn lah seh-GOON-dah PLAHN-tah, AH-lah deh-REH-chah",
+              "local": "Está en la segunda planta, ala derecha."
+            },
+            {
+              "english": "Here's the museum map.",
+              "phonetic": "ah-KEE TYEH-neh ehl PLAH-noh dehl moo-SEH-oh",
+              "local": "Aquí tiene el plano del museo."
+            }
+          ]
+        },
+        {
+          "id": "museum_009",
+          "intent_en": "Ask about accessibility",
+          "text_local": "¿El museo es accesible para sillas de ruedas?",
+          "pronunciation": "ehl moo-SEH-oh ehs ak-theh-SEE-bleh PAH-rah SEE-yahs deh RWEH-dahs",
+          "formality": "polite",
+          "cultural_note": "Spanish museums are required to provide accessibility. Lifts and ramps are standard in major museums. Wheelchairs are often available to borrow free of charge at the entrance.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, there are lifts and ramps on all floors.",
+              "phonetic": "SEE, AY ah-thehn-SOR ee RRAHM-pahs ehn TOH-dahs lahs PLAHN-tahs",
+              "local": "Sí, hay ascensor y rampas en todas las plantas."
+            },
+            {
+              "english": "You can request a wheelchair at reception.",
+              "phonetic": "PWEH-deh soh-lee-thee-TAR OO-nah SEE-yah deh RWEH-dahs ehn reh-thehp-THYOHN",
+              "local": "Puede solicitar una silla de ruedas en recepción."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Ticket",
+          "word_local": "La entrada",
+          "pronunciation": "lah ehn-TRAH-dah",
+          "section": null
+        },
+        {
+          "word_en": "Reduced price",
+          "word_local": "Tarifa reducida",
+          "pronunciation": "tah-REE-fah reh-doo-THEE-dah",
+          "section": null
+        },
+        {
+          "word_en": "Audio guide",
+          "word_local": "Audioguía",
+          "pronunciation": "ow-dyoh-GEE-ah",
+          "section": null
+        },
+        {
+          "word_en": "Cloakroom",
+          "word_local": "Guardarropa",
+          "pronunciation": "gwar-dah-RROH-pah",
+          "section": null
+        },
+        {
+          "word_en": "Exhibition",
+          "word_local": "La exposición",
+          "pronunciation": "lah eks-poh-see-THYOHN",
+          "section": null
+        },
+        {
+          "word_en": "Free entry",
+          "word_local": "Entrada gratuita",
+          "pronunciation": "ehn-TRAH-dah grah-TWEE-tah",
+          "section": null
+        }
+      ]
+    },
+    {
+      "id": "supermarket",
+      "name_en": "Supermarket",
+      "name_local": "Supermercado",
+      "icon": "cart.fill",
+      "phrases": [
+        {
+          "id": "supermarket_001",
+          "intent_en": "Ask where something is",
+          "text_local": "Disculpe, ¿dónde está la sección de…?",
+          "pronunciation": "dees-KOOL-peh, DON-deh ehs-TÁ lah sehk-THYOHN deh",
+          "formality": "polite",
+          "cultural_note": "Major Spanish supermarket chains: Mercadona, Carrefour, El Corte Inglés, Lidl, Día. Staff are generally helpful with directions inside the store.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "At the back on the left.",
+              "phonetic": "ahl FOHN-doh ah lah ees-KYEHR-dah",
+              "local": "Al fondo a la izquierda."
+            },
+            {
+              "english": "Aisle number three.",
+              "phonetic": "pah-SEE-yoh NOO-meh-roh TREHS",
+              "local": "Pasillo número tres."
+            }
+          ]
+        },
+        {
+          "id": "supermarket_002",
+          "intent_en": "Ask for a bag",
+          "text_local": "¿Me da una bolsa, por favor?",
+          "pronunciation": "meh dah OO-nah BOHL-sah, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Plastic bags cost a small fee in Spain (usually 5–25 cents) under anti-plastic legislation. Bring a reusable bag or ask for a paper one ('bolsa de papel').",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "That's five cents.",
+              "phonetic": "SOHN THEEN-koh THEHN-tee-mohs",
+              "local": "Son cinco céntimos."
+            },
+            {
+              "english": "Here you go.",
+              "phonetic": "ah-KEE TYEH-neh",
+              "local": "Aquí tiene."
+            }
+          ]
+        },
+        {
+          "id": "supermarket_003",
+          "intent_en": "Ask if they accept card payment",
+          "text_local": "¿Aceptan tarjeta?",
+          "pronunciation": "ahk-THEHP-tahn tar-HEH-tah",
+          "formality": "casual",
+          "cultural_note": "Card payment is widely accepted in Spanish supermarkets. Contactless is standard. Some smaller local shops may still prefer cash.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, we accept all cards.",
+              "phonetic": "SEE, ahk-thehp-TAH-mohs TOH-dahs lahs tar-HEH-tahs",
+              "local": "Sí, aceptamos todas las tarjetas."
+            },
+            {
+              "english": "Cash only, sorry.",
+              "phonetic": "SOH-loh eh-fehk-TEE-boh, loh see-EHN-toh",
+              "local": "Solo efectivo, lo siento."
+            }
+          ]
+        },
+        {
+          "id": "supermarket_004",
+          "intent_en": "Ask where the fresh produce is",
+          "text_local": "¿Dónde está la fruta y la verdura?",
+          "pronunciation": "DON-deh ehs-TÁ lah FROO-tah ee lah behr-DOO-rah",
+          "formality": "casual",
+          "cultural_note": "Spanish supermarkets have excellent fresh produce sections. Markets ('mercados') are even better — try Mercado de la Boqueria (Barcelona) or Mercado de San Miguel (Madrid).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "When you enter, on the left.",
+              "phonetic": "ahl ehn-TRAR, ah MAH-noh ees-KYEHR-dah",
+              "local": "Al entrar, a mano izquierda."
+            },
+            {
+              "english": "It's at the back of the supermarket.",
+              "phonetic": "ehs-TÁ ahl FOHN-doh dehl soo-pehr-mehr-KAH-doh",
+              "local": "Está al fondo del supermercado."
+            }
+          ]
+        },
+        {
+          "id": "supermarket_005",
+          "intent_en": "Ask where the checkout is",
+          "text_local": "¿Dónde está la caja?",
+          "pronunciation": "DON-deh ehs-TÁ lah KAH-hah",
+          "formality": "polite",
+          "cultural_note": "Spanish supermarkets ('supermercados') typically have staffed tills ('cajas') and an increasing number of self-service checkouts ('cajas automáticas'). Express lanes for few items are common in larger stores.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The checkout is at the back on the right.",
+              "phonetic": "lah KAH-hah ehs-TÁ ahl FOHN-doh ah lah deh-REH-chah",
+              "local": "La caja está al fondo a la derecha."
+            },
+            {
+              "english": "The self-checkouts are near the entrance.",
+              "phonetic": "lahs KAH-hahs ow-toh-MAH-tee-kahs ehs-TAHN ah lah ehn-TRAH-dah",
+              "local": "Las cajas automáticas están a la entrada."
+            }
+          ]
+        },
+        {
+          "id": "supermarket_006",
+          "intent_en": "Say you don't need a bag",
+          "text_local": "No, gracias, no necesito bolsa.",
+          "pronunciation": "NOH, GRAH-thyahs, noh neh-theh-SEE-toh BOHL-sah",
+          "formality": "polite",
+          "cultural_note": "Single-use plastic bags are charged for in Spain (around 5–10 cents). Most shoppers bring their own reusable bag ('bolsa reutilizable') or buy one at the till. Saying this is normal and appreciated.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Very good, thank you.",
+              "phonetic": "mooy BYEHN, GRAH-thyahs",
+              "local": "Muy bien, gracias."
+            },
+            {
+              "english": "Do you have your own bag?",
+              "phonetic": "TRAH-eh BOHL-sah PROH-pyah",
+              "local": "¿Trae bolsa propia?"
+            }
+          ]
+        },
+        {
+          "id": "supermarket_007",
+          "intent_en": "Ask for a price check",
+          "text_local": "¿Cuánto cuesta esto?",
+          "pronunciation": "KWAHN-toh KWEHS-tah EHS-toh",
+          "formality": "standard",
+          "cultural_note": "If a price tag is missing, ask a member of staff ('empleado/a') or take the item to the customer service desk. In Spanish supermarkets, the till price always overrides the shelf label if there's a discrepancy — knowing this is useful.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "That's two euros ninety.",
+              "phonetic": "SOHN DOHS EH-oo-rohs kohn noh-BEHN-tah",
+              "local": "Son dos euros con noventa."
+            },
+            {
+              "english": "I'll scan it.",
+              "phonetic": "BOY ah es-kah-neh-AR-loh",
+              "local": "Voy a escanearlo."
+            }
+          ]
+        },
+        {
+          "id": "supermarket_008",
+          "intent_en": "Ask about returning or exchanging something",
+          "text_local": "Quiero hacer una devolución.",
+          "pronunciation": "KYEH-roh ah-THEHR OO-nah deh-boh-loo-THYOHN",
+          "formality": "polite",
+          "cultural_note": "Returns ('devoluciones') in Spain require a receipt ('ticket'). Large chains like Mercadona and El Corte Inglés have clear return policies. Go to the customer service desk ('atención al cliente') near the entrance.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Do you have the receipt?",
+              "phonetic": "TYEH-neh ehl tee-KEHT deh KOHM-prah",
+              "local": "¿Tiene el ticket de compra?"
+            },
+            {
+              "english": "Please go to the customer service desk.",
+              "phonetic": "dee-REE-hah-seh ah ah-tehn-THYOHN ahl KLYEHN-teh",
+              "local": "Diríjase a atención al cliente."
+            }
+          ]
+        },
+        {
+          "id": "supermarket_009",
+          "intent_en": "Ask where the organic or fresh produce section is",
+          "text_local": "¿Dónde está la sección de productos ecológicos?",
+          "pronunciation": "DON-deh ehs-TÁ lah sehk-THYOHN deh proh-DOOK-tohs eh-koh-LOH-hee-kohs",
+          "formality": "polite",
+          "cultural_note": "Organic products ('ecológicos') are clearly labelled in Spanish supermarkets. Mercadona, Eroski, and Carrefour all have dedicated organic sections. The EU organic logo (green leaf) appears on all certified products.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The organic products are in aisle four.",
+              "phonetic": "lohs proh-DOOK-tohs eh-koh-LOH-hee-kohs ehs-TAHN ehn ehl pah-SEE-yoh KWAH-troh",
+              "local": "Los productos ecológicos están en el pasillo cuatro."
+            },
+            {
+              "english": "There's an organic section at the back.",
+              "phonetic": "AY OO-nah sehk-THYOHN BEE-oh ahl FOHN-doh",
+              "local": "Hay una sección bio al fondo."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Water",
+          "word_local": "El agua",
+          "pronunciation": "ehl AH-gwah",
+          "section": "Products"
+        },
+        {
+          "word_en": "Milk",
+          "word_local": "La leche",
+          "pronunciation": "lah LEH-cheh",
+          "section": "Products"
+        },
+        {
+          "word_en": "Bread",
+          "word_local": "El pan",
+          "pronunciation": "ehl PAHN",
+          "section": "Products"
+        },
+        {
+          "word_en": "Cheese",
+          "word_local": "El queso",
+          "pronunciation": "ehl KEH-soh",
+          "section": "Products"
+        },
+        {
+          "word_en": "Fruit",
+          "word_local": "La fruta",
+          "pronunciation": "lah FROO-tah",
+          "section": "Products"
+        },
+        {
+          "word_en": "Vegetables",
+          "word_local": "La verdura",
+          "pronunciation": "lah behr-DOO-rah",
+          "section": "Products"
+        },
+        {
+          "word_en": "Organic",
+          "word_local": "Ecológico",
+          "pronunciation": "eh-koh-LOH-hee-koh",
+          "section": "Products"
+        },
+        {
+          "word_en": "Cart",
+          "word_local": "El carrito",
+          "pronunciation": "ehl kah-RREE-toh",
+          "section": "Shopping"
+        },
+        {
+          "word_en": "Basket",
+          "word_local": "La cesta",
+          "pronunciation": "lah THES-tah",
+          "section": "Shopping"
+        },
+        {
+          "word_en": "Aisle",
+          "word_local": "El pasillo",
+          "pronunciation": "ehl pah-SEE-yoh",
+          "section": "Shopping"
+        },
+        {
+          "word_en": "Checkout",
+          "word_local": "La caja",
+          "pronunciation": "lah KAH-hah",
+          "section": "Shopping"
+        },
+        {
+          "word_en": "Self-checkout",
+          "word_local": "La caja automática",
+          "pronunciation": "lah KAH-hah ow-toh-MAH-tee-kah",
+          "section": "Shopping"
+        },
+        {
+          "word_en": "Bag",
+          "word_local": "La bolsa",
+          "pronunciation": "lah BOHL-sah",
+          "section": "Shopping"
+        },
+        {
+          "word_en": "Card",
+          "word_local": "La tarjeta",
+          "pronunciation": "lah tar-HEH-tah",
+          "section": "Payment"
+        },
+        {
+          "word_en": "Cash",
+          "word_local": "El efectivo",
+          "pronunciation": "ehl eh-fehk-TEE-boh",
+          "section": "Payment"
+        },
+        {
+          "word_en": "Receipt",
+          "word_local": "El ticket / recibo",
+          "pronunciation": "ehl tee-KEHT / reh-THEE-boh",
+          "section": "Payment"
+        },
+        {
+          "word_en": "Loyalty card",
+          "word_local": "La tarjeta de puntos",
+          "pronunciation": "lah tar-HEH-tah deh POON-tohs",
+          "section": "Payment"
+        }
+      ]
+    },
+    {
+      "id": "bakery",
+      "name_en": "Bakery",
+      "name_local": "Panadería",
+      "icon": "birthday.cake.fill",
+      "phrases": [
+        {
+          "id": "bakery_001",
+          "intent_en": "Ask for a loaf of bread",
+          "text_local": "Una barra de pan, por favor.",
+          "pronunciation": "OO-nah BAH-rrah deh PAHN, por fah-BOR",
+          "formality": "casual",
+          "cultural_note": "'Una barra' is the classic Spanish white bread loaf, similar to a baguette. Also popular: 'pan de pueblo' (rustic round loaf), 'pan de centeno' (rye bread).",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Do you want it whole or half?",
+              "phonetic": "lah KYEH-reh ehn-TEH-rah oh ah mee-TAHD",
+              "local": "¿La quiere entera o a mitad?"
+            },
+            {
+              "english": "Here you go, fresh from the oven.",
+              "phonetic": "ah-KEE TYEH-neh, reh-THYEHN sah-LEE-dah dehl OR-noh",
+              "local": "Aquí tiene, recién salida del horno."
+            }
+          ]
+        },
+        {
+          "id": "bakery_002",
+          "intent_en": "Ask for pastries",
+          "text_local": "¿Qué bollería tienen hoy?",
+          "pronunciation": "keh boh-yeh-REE-ah TYEH-nehn OY",
+          "formality": "casual",
+          "cultural_note": "Spanish bakeries ('panaderías') are also pastry shops. Look for: 'ensaimada' (Mallorca), 'polvorón' (Andalusia), 'xuixo' (Catalonia), 'croissant de mantequilla'.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "We have croissants, chocolate pastries, and palmiers.",
+              "phonetic": "teh-NEH-mohs KRWAH-sahns, nah-poh-lee-TAH-nahs ee pahl-MEH-rahs",
+              "local": "Tenemos croissants, napolitanas y palmeras."
+            },
+            {
+              "english": "The churros run out in half an hour.",
+              "phonetic": "lohs CHOO-rrohs seh ah-KAH-bahn ehn MEH-dyah OH-rah",
+              "local": "Los churros se acaban en media hora."
+            }
+          ]
+        },
+        {
+          "id": "bakery_003",
+          "intent_en": "Ask the price",
+          "text_local": "¿Cuánto cuesta?",
+          "pronunciation": "KWAHN-toh KWEHS-tah",
+          "formality": "casual",
+          "cultural_note": "Bread is very affordable in Spain — a barra costs around 60–90 cents. Artisan bakeries charge more but quality is noticeably higher.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "That's eighty cents.",
+              "phonetic": "SOHN oh-CHEHN-tah THEHN-tee-mohs",
+              "local": "Son ochenta céntimos."
+            },
+            {
+              "english": "All together that's two twenty.",
+              "phonetic": "TOH-doh HOON-toh SOHN DOS kohn BEYN-teh",
+              "local": "Todo junto son dos con veinte."
+            }
+          ]
+        },
+        {
+          "id": "bakery_004",
+          "intent_en": "Ask if they accept card payment",
+          "text_local": "¿Aceptan tarjeta o solo efectivo?",
+          "pronunciation": "ahk-THEHP-tahn tar-HEH-tah oh SOH-loh eh-fehk-TEE-boh",
+          "formality": "casual",
+          "cultural_note": "Smaller bakeries in Spain often prefer cash, especially for small purchases. Many now have card terminals but it's worth asking.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, we accept card.",
+              "phonetic": "SEE, ahk-thehp-TAH-mohs tar-HEH-tah",
+              "local": "Sí, aceptamos tarjeta."
+            },
+            {
+              "english": "Cash only, sorry.",
+              "phonetic": "SOH-loh eh-fehk-TEE-boh, loh see-EHN-toh",
+              "local": "Solo efectivo, lo siento."
+            }
+          ]
+        },
+        {
+          "id": "bakery_005",
+          "intent_en": "Ask for the bread to be sliced",
+          "text_local": "¿Me lo puede cortar en rebanadas?",
+          "pronunciation": "meh loh PWEH-deh kor-TAR ehn reh-bah-NAH-dahs",
+          "formality": "polite",
+          "cultural_note": "Many Spanish bakeries have a bread slicer. If you're buying for a picnic or sandwich, ask — it's a common and easy request.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course, right now.",
+              "phonetic": "KLAH-roh, ah-OH-rah MEES-moh",
+              "local": "Claro, ahora mismo."
+            },
+            {
+              "english": "Thick or thin?",
+              "phonetic": "GRWEH-soh oh FEE-noh",
+              "local": "¿Grueso o fino?"
+            }
+          ]
+        },
+        {
+          "id": "bakery_006",
+          "intent_en": "Ask for two of something",
+          "text_local": "Dos de esos, por favor.",
+          "pronunciation": "DOHS deh EH-sohs, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "Point at the item and hold up two fingers — this combination works in any Spanish panadería. Staff are very used to pointing-and-smiling navigation. 'De esas' is the feminine form if the item (like 'napolitana') is feminine.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Two chocolate pastries?",
+              "phonetic": "DOHS nah-poh-lee-TAH-nahs",
+              "local": "¿Dos napolitanas?"
+            },
+            {
+              "english": "Here you go, one euro eighty.",
+              "phonetic": "ah-KEE TYEH-neh, oon EH-oo-roh kohn oh-CHEHN-tah",
+              "local": "Aquí tiene, un euro con ochenta."
+            }
+          ]
+        },
+        {
+          "id": "bakery_007",
+          "intent_en": "Ask what is freshest today",
+          "text_local": "¿Qué tienen fresco hoy?",
+          "pronunciation": "KEH TYEH-nehn FRES-koh OY",
+          "formality": "polite",
+          "cultural_note": "Spanish panaderías typically bake bread in the morning and early afternoon. This question often results in a warm recommendation — the staff are proud of what's just come out. In the afternoon, ask specifically about 'pan del día' (bread of the day).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The country loaf just came out of the oven.",
+              "phonetic": "lah oh-GAH-thah ah-KAH-bah deh sah-LEER dehl OR-noh",
+              "local": "La hogaza acaba de salir del horno."
+            },
+            {
+              "english": "The croissants are freshly made.",
+              "phonetic": "lohs kroo-ah-SAH-nehs ehs-TAHN reh-THYEHN EH-chohs",
+              "local": "Los cruasanes están recién hechos."
+            }
+          ]
+        },
+        {
+          "id": "bakery_008",
+          "intent_en": "Order a ham sandwich",
+          "text_local": "Un bocadillo de jamón, por favor.",
+          "pronunciation": "oon boh-kah-DEE-yoh deh hah-MOHN, por fah-BOR",
+          "formality": "polite",
+          "cultural_note": "The bocadillo (bread roll sandwich) is a Spanish staple, not just for panaderías. Jamón serrano is the most common filling; in quality delis, jamón ibérico is available for more. You can also try 'queso' (cheese), 'tortilla' (Spanish omelette), or 'lomo' (pork loin).",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With tomato and oil?",
+              "phonetic": "kohn toh-MAH-teh ee ah-THAY-teh",
+              "local": "¿Con tomate y aceite?"
+            },
+            {
+              "english": "Serrano or ibérico?",
+              "phonetic": "seh-RRAH-noh oh ee-BEH-ree-koh",
+              "local": "¿Serrano o ibérico?"
+            }
+          ]
+        },
+        {
+          "id": "bakery_009",
+          "intent_en": "Ask if there are gluten-free options",
+          "text_local": "¿Tienen algo sin gluten?",
+          "pronunciation": "TYEH-nehn AHL-goh seen GLOO-tehn",
+          "formality": "polite",
+          "cultural_note": "Gluten-free ('sin gluten') awareness has grown significantly in Spain. Specialist gluten-free bakeries and sections in larger supermarkets are now common in cities. Show this phrase on your phone if you're unsure — cross-contamination can be a concern in traditional bakeries.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, we have gluten-free bread and pastries.",
+              "phonetic": "SEE, teh-NEH-mohs PAHN ee boh-yeh-REE-ah seen GLOO-tehn",
+              "local": "Sí, tenemos pan y bollería sin gluten."
+            },
+            {
+              "english": "I'm sorry, we don't have gluten-free products.",
+              "phonetic": "loh see-EHN-toh, NOH teh-NEH-mohs proh-DOOK-tohs seen GLOO-tehn",
+              "local": "Lo siento, no tenemos productos sin gluten."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "Baguette",
+          "word_local": "Una barra de pan",
+          "pronunciation": "OO-nah BAH-rrah deh PAHN",
+          "section": "Bread"
+        },
+        {
+          "word_en": "Country loaf",
+          "word_local": "Una hogaza",
+          "pronunciation": "OO-nah oh-GAH-thah",
+          "section": "Bread"
+        },
+        {
+          "word_en": "Sliced loaf",
+          "word_local": "Pan de molde",
+          "pronunciation": "PAHN deh MOHL-deh",
+          "section": "Bread"
+        },
+        {
+          "word_en": "Wholemeal",
+          "word_local": "Pan integral",
+          "pronunciation": "PAHN een-teh-GRAHL",
+          "section": "Bread"
+        },
+        {
+          "word_en": "Rye bread",
+          "word_local": "Pan de centeno",
+          "pronunciation": "PAHN deh thehn-TEH-noh",
+          "section": "Bread"
+        },
+        {
+          "word_en": "Roll",
+          "word_local": "Un panecillo",
+          "pronunciation": "oon pah-neh-THEE-yoh",
+          "section": "Bread"
+        },
+        {
+          "word_en": "Croissant",
+          "word_local": "Un cruasán",
+          "pronunciation": "oon kroo-ah-SAHN",
+          "section": "Pastries"
+        },
+        {
+          "word_en": "Chocolate pastry",
+          "word_local": "Una napolitana",
+          "pronunciation": "OO-nah nah-poh-lee-TAH-nah",
+          "section": "Pastries"
+        },
+        {
+          "word_en": "Palmier",
+          "word_local": "Una palmera",
+          "pronunciation": "OO-nah pahl-MEH-rah",
+          "section": "Pastries"
+        },
+        {
+          "word_en": "Ensaimada",
+          "word_local": "Una ensaimada",
+          "pronunciation": "OO-nah ehn-sah-ee-MAH-dah",
+          "section": "Pastries"
+        },
+        {
+          "word_en": "Tart",
+          "word_local": "Una tarta",
+          "pronunciation": "OO-nah TAR-tah",
+          "section": "Pastries"
+        },
+        {
+          "word_en": "Churros",
+          "word_local": "Los churros",
+          "pronunciation": "lohs CHOO-rrohs",
+          "section": "Pastries"
+        },
+        {
+          "word_en": "Two of these",
+          "word_local": "Dos de esos",
+          "pronunciation": "DOHS deh EH-sohs",
+          "section": "Orders"
+        },
+        {
+          "word_en": "Sliced",
+          "word_local": "En rebanadas",
+          "pronunciation": "ehn reh-bah-NAH-dahs",
+          "section": "Orders"
+        },
+        {
+          "word_en": "Gluten-free",
+          "word_local": "Sin gluten",
+          "pronunciation": "seen GLOO-tehn",
+          "section": "Orders"
+        },
+        {
+          "word_en": "A sandwich",
+          "word_local": "Un bocadillo",
+          "pronunciation": "oon boh-kah-DEE-yoh",
+          "section": "Orders"
+        }
+      ]
+    }
+  ]
+}

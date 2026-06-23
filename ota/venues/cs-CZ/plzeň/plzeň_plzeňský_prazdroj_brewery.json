@@ -1,0 +1,122 @@
+{
+  "id": "plzeň_plzeňský_prazdroj_brewery",
+  "name_en": "Plzeňský Prazdroj Brewery",
+  "name_local": "Plzeňský Prazdroj",
+  "icon": "building.columns",
+  "lat": 49.7477002,
+  "lon": 13.3878644,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "plzeň_plzeňský_prazdroj_brewery_001",
+      "intent_en": "How do I redeem beer vouchers?",
+      "text_local": "Jak uplatním pivní vouchery?",
+      "pronunciation": "yAHk-OOplahtnyeem-pEEvnyee-vOHkhehree",
+      "formality": "standard",
+      "cultural_note": "Vouchers are typically exchanged directly with the 'výčepní' (tapster) who pours the beer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U výčepního v degustační místnosti.",
+        "pronunciation": "OO-vEEtshehpnyEEhoh-v-dEHgoostAHtshnyee-mEEstnohsee",
+        "translation_en": "At the tapster in the tasting room."
+      },
+      "responses": [
+        {
+          "english": "At the tapster in the tasting room.",
+          "phonetic": "OO-vEEtshehpnyEEhoh-v-dEHgoostAHtshnyee-mEEstnohsee",
+          "french": "U výčepního v degustační místnosti."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeňský_prazdroj_brewery_002",
+      "intent_en": "Where is the tasting room?",
+      "text_local": "Kde je degustační místnost?",
+      "pronunciation": "kdEH-yeh-dEHgoostAHtshnyee-mEEstnohst",
+      "formality": "standard",
+      "cultural_note": "Czech directions are often terse and rely on landmarks like 'pokladny' (ticket desks).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vpravo za pokladnami.",
+        "pronunciation": "fprAHvoh-zah-pOHklahdnAHmee",
+        "translation_en": "To the right behind the ticket desks."
+      },
+      "responses": [
+        {
+          "english": "To the right behind the ticket desks.",
+          "phonetic": "fprAHvoh-zah-pOHklahdnAHmee",
+          "french": "Vpravo za pokladnami."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeňský_prazdroj_brewery_003",
+      "intent_en": "Where is the historic cellar entrance?",
+      "text_local": "Kde je vstup do historických sklepů?",
+      "pronunciation": "kdEH-yeh-fstOOp-doh-hEEstohrEEtskeekh-sklEHpoo",
+      "formality": "standard",
+      "cultural_note": "The cellars are underground and only accessible with a tour guide.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Schody dolů za průvodcem.",
+        "pronunciation": "skhOHdee-dOHloo-zAHproovOHttsehm",
+        "translation_en": "Stairs down behind the guide."
+      },
+      "responses": [
+        {
+          "english": "Stairs down behind the guide.",
+          "phonetic": "skhOHdee-dOHloo-zAHproovOHttsehm",
+          "french": "Schody dolů za průvodcem."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeňský_prazdroj_brewery_004",
+      "intent_en": "Can I book the tour on site?",
+      "text_local": "Můžu si prohlídku rezervovat na místě?",
+      "pronunciation": "mOOzhoo-see-prOHhleetkoo-rEHzehrvOHvaht-nAHmeeseh",
+      "formality": "standard",
+      "cultural_note": "On-site booking is standard at the visitor center, not the main gate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u pokladny v návštěvnickém centru.",
+        "pronunciation": "AHnohOO-pOHklahdnee-v-nAHfshehvnyEEtskehm-tsEHntroo",
+        "translation_en": "Yes, at the ticket desk in the visitor center."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket desk in the visitor center.",
+          "phonetic": "AHnohOO-pOHklahdnee-v-nAHfshehvnyEEtskehm-tsEHntroo",
+          "french": "Ano, u pokladny v návštěvnickém centru."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeňský_prazdroj_brewery_005",
+      "intent_en": "Is the brew house open today?",
+      "text_local": "Je dnes varna otevřená?",
+      "pronunciation": "yeh-dnEHs-vAHrnah-OHtehvrEHnah",
+      "formality": "standard",
+      "cultural_note": "The brew house is typically visited as part of a guided tour, so its accessibility is tied to the tour schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, prohlídky probíhají celý den.",
+        "pronunciation": "AHnohprOHhleetkee-prOHbeehAHyee-tsEHlee-dEHn",
+        "translation_en": "Yes, tours are running all day."
+      },
+      "responses": [
+        {
+          "english": "Yes, tours are running all day.",
+          "phonetic": "AHnohprOHhleetkee-prOHbeehAHyee-tsEHlee-dEHn",
+          "french": "Ano, prohlídky probíhají celý den."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

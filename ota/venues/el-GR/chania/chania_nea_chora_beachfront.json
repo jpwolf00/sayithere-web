@@ -1,0 +1,100 @@
+{
+  "id": "chania_nea_chora_beachfront",
+  "name_en": "Nea Chora Beachfront",
+  "name_local": "Παραλία Νέας Χώρας",
+  "icon": "map",
+  "lat": 35.5120831,
+  "lon": 24.0191544,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "chania_nea_chora_beachfront_001",
+      "intent_en": "Where do I pay for parking?",
+      "text_local": "Πού πληρώνω το πάρκινγκ;",
+      "pronunciation": "pOO-pleerOHnoh-toh-pAHreeng",
+      "formality": "standard",
+      "cultural_note": "Port parking often has a designated payment point, typically near the entrance or a staffed booth.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο παρκόμετρο μπροστά από την παραλία, δίπλα στην Ιχθυόσκαλα.",
+        "pronunciation": "stoh-pahrkOHmehtrOH-brohstAH-ahpOH-teem-bAHrahlEEahthEEplah-steen-EEkhtheeOHskahlAH",
+        "translation_en": "At the parking meter in front of the beach, next to the fish auction hall."
+      },
+      "responses": [
+        {
+          "english": "At the parking meter in front of the beach, next to the fish auction hall.",
+          "phonetic": "stoh-pahrkOHmehtrOH-brohstAH-ahpOH-teem-bAHrahlEEahthEEplah-steen-EEkhtheeOHskahlAH",
+          "french": "Στο παρκόμετρο μπροστά από την παραλία, δίπλα στην Ιχθυόσκαλα."
+        }
+      ]
+    },
+    {
+      "id": "chania_nea_chora_beachfront_002",
+      "intent_en": "Where does the fish auction start?",
+      "text_local": "Πού αρχίζει η ιχθυόσκαλα;",
+      "pronunciation": "pOO-ahrkhEEzee-ee-EEkhtheeOHskahlAH",
+      "formality": "standard",
+      "cultural_note": "In Greek fish auction halls, the auction often starts near the pier where fishermen unload their catch. Directing to the fisherman is a common practice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην προβλήτα, πίσω από τις βάρκες.",
+        "pronunciation": "steem-brohvlEEtahpEEsoh-ahpOH-teez-vAHrehs",
+        "translation_en": "At the pier, behind the boats."
+      },
+      "responses": [
+        {
+          "english": "At the pier, behind the boats.",
+          "phonetic": "steem-brohvlEEtahpEEsoh-ahpOH-teez-vAHrehs",
+          "french": "Στην προβλήτα, πίσω από τις βάρκες."
+        }
+      ]
+    },
+    {
+      "id": "chania_nea_chora_beachfront_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να νοικιάσω ομπρέλα εδώ;",
+      "pronunciation": "bohrOH-nah-neeAHsoh-ohbrEHlah-ehthOH",
+      "formality": "casual",
+      "cultural_note": "On Greek beaches, lifeguards or designated rental staff are typically responsible for managing umbrella and sunbed rentals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δίπλα στις ξαπλώστρες γίνεται η ενοικίαση.",
+        "pronunciation": "nEHthEEplah-stees-ksahplOHstrehz-yEEnehtEH-ee-EHneeEEahsEE",
+        "translation_en": "Yes, the rental is done next to the sunbeds."
+      },
+      "responses": [
+        {
+          "english": "Yes, the rental is done next to the sunbeds.",
+          "phonetic": "nEHthEEplah-stees-ksahplOHstrehz-yEEnehtEH-ee-EHneeEEahsEE",
+          "french": "Ναι, δίπλα στις ξαπλώστρες γίνεται η ενοικίαση."
+        }
+      ]
+    },
+    {
+      "id": "chania_nea_chora_beachfront_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι αυτή η θέση κρατημένη;",
+      "pronunciation": "ahftEE-ee-thEHsee-EEneh-yAH-kAHlehsmEHnoos-ksEHnohthohkhEEoo",
+      "formality": "standard",
+      "cultural_note": "In Greek tavernas, especially near beaches, it is common to ask the owner or waiter directly about reserved tables rather than assume based on appearance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, είναι ελεύθερη.",
+        "pronunciation": "OHkheeEEneh-ehlEHfthehrEE",
+        "translation_en": "No, it is free."
+      },
+      "responses": [
+        {
+          "english": "No, it is free.",
+          "phonetic": "OHkheeEEneh-ehlEHfthehrEE",
+          "french": "Όχι, είναι ελεύθερη."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "quebec_city_musee_civilisation",
+  "name_en": "Museum of Civilization",
+  "name_local": "Musée de la Civilisation",
+  "icon": "building.columns",
+  "lat": 46.8146,
+  "lon": -71.2023,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "qc_mc_001",
+      "intent_en": "Ask what the current featured exhibitions are",
+      "text_local": "Quelles sont les expositions temporaires en ce moment ?",
+      "pronunciation": "kel son lay ex-po-zee-SYON tahm-po-RAIR ahn suh mo-MAH",
+      "formality": "polite",
+      "cultural_note": "The Musée de la Civilisation is one of Canada's top museums with creative, thought-provoking exhibitions on society, culture, and history.",
+      "responses": [
+        {
+          "english": "It is posted at the entrance.",
+          "phonetic": "say tah-fee-SHAY ah lahn-TRAY",
+          "french": "C'est affiché à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_mc_002",
+      "intent_en": "Ask if there is a permanent exhibit on First Nations",
+      "text_local": "Y'a-tu une exposition permanente sur les Premières Nations ?",
+      "pronunciation": "yah-TOO OON ex-po-zee-SYON pair-mah-NAHT soor lay pruh-MYAIR nah-SYON",
+      "formality": "neutral",
+      "cultural_note": "The museum's 'This Is Our Story' exhibit is one of the most important Indigenous permanent exhibitions in Canada, presented in partnership with 11 First Nations.",
+      "responses": [
+        {
+          "english": "Yes, on the second floor.",
+          "phonetic": "wee oh duh-ZYEM ay-TAHZH",
+          "french": "Oui, au deuxième étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_mc_003",
+      "intent_en": "Ask about the sunken ship visible through the floor",
+      "text_local": "L'épave qu'on peut voir sous le plancher, c'est quoi exactement ?",
+      "pronunciation": "lay-PAHV kon puh VWAHR soo luh plahn-SHAY say KWAH ex-ak-tuh-MAH",
+      "formality": "neutral",
+      "cultural_note": "A 17th-century merchant ship (La Dauphine) was discovered during construction and is now visible through a glass floor in the entrance hall — stunning.",
+      "responses": [
+        {
+          "english": "It is on the ground floor, in the first room.",
+          "phonetic": "say toh ray-duh-shoh-SAY dahn lah pruh-MYAIR SAHL",
+          "french": "C'est au rez-de-chaussée, dans la première salle."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_mc_004",
+      "intent_en": "Ask for a family pass",
+      "text_local": "Est-ce que vous avez un tarif famille ?",
+      "pronunciation": "ess-KUH voo zah-VAY un tah-REEF fah-MEE",
+      "formality": "polite",
+      "cultural_note": "The museum offers family pricing. Children under 12 are free. The building itself is a masterpiece of modern architecture by Moshe Safdie.",
+      "responses": [
+        {
+          "english": "Yes, at the ticket desk.",
+          "phonetic": "wee oh gee-SHAY",
+          "french": "Oui, au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_mc_005",
+      "intent_en": "Ask if photography is allowed in exhibits",
+      "text_local": "On peut prendre des photos dans les salles d'exposition ?",
+      "pronunciation": "on puh PRAHN-druh day fo-TOH dahn lay SAHL dex-po-zee-SYON",
+      "formality": "neutral",
+      "cultural_note": "Photography policies vary by exhibition. Personal non-flash photography is usually permitted in permanent galleries but may be restricted in temporary shows.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "temporary exhibition",
+      "word_local": "l'exposition temporaire",
+      "pronunciation": "lex-po-zee-SYON tahm-po-RAIR"
+    },
+    {
+      "word_en": "First Nations",
+      "word_local": "les Premières Nations",
+      "pronunciation": "lay pruh-MYAIR nah-SYON"
+    },
+    {
+      "word_en": "shipwreck",
+      "word_local": "l'épave",
+      "pronunciation": "lay-PAHV"
+    },
+    {
+      "word_en": "family ticket",
+      "word_local": "le tarif famille",
+      "pronunciation": "luh tah-REEF fah-MEE"
+    }
+  ]
+}

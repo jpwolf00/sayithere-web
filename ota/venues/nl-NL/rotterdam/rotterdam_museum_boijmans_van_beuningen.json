@@ -1,0 +1,34 @@
+{
+  "id": "rotterdam_museum_boijmans_van_beuningen",
+  "name_en": "Museum Boijmans Van Beuningen",
+  "name_local": "Museum Boijmans Van Beuningen",
+  "icon": "building.columns",
+  "lat": 51.9143648,
+  "lon": 4.4730006,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "rotterdam_museum_boijmans_van_beuningen_001",
+      "intent_en": "Is Depot admission ticket required?",
+      "text_local": "Is toegang tot het Depot betaald?",
+      "pronunciation": "ihs-tOOghAHng-tawt-huh-tEHpawt-buhtAHlt",
+      "formality": "standard",
+      "cultural_note": "Directe bevestiging van betaalde toegang voor het Depot, geen verdere uitleg.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, verplicht.",
+        "pronunciation": "yAHvuhrplIHkht",
+        "translation_en": "Yes, required."
+      },
+      "responses": [
+        {
+          "english": "Yes, required.",
+          "phonetic": "yAHvuhrplIHkht",
+          "french": "Ja, verplicht."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

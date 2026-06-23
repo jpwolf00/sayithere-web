@@ -1,0 +1,78 @@
+{
+  "id": "kalambaka_kalambaka_saturday_market",
+  "name_en": "Kalambaka Saturday Market",
+  "name_local": "Λαϊκή Αγορά Καλαμπάκας",
+  "icon": "cart",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "kalambaka_kalambaka_saturday_market_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται ο πάγκος με το μέλι;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-pAHnggohz-meh-toh-mEHlee",
+      "formality": "standard",
+      "cultural_note": "In Greek markets, local honey is often sold by vendors who may not have fixed stalls. Staff at a central point (like an info desk) can guide visitors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετά τον πάγκο με τα τυριά, αριστερά.",
+        "pronunciation": "mehtAH-tohm-bAHnggoh-meh-tah-tEEreeAHAHreestehrAH",
+        "translation_en": "In the center of the market, next to the stalls with local products."
+      },
+      "responses": [
+        {
+          "english": "In the center of the market, next to the stalls with local products.",
+          "phonetic": "mehtAH-tohm-bAHnggoh-meh-tah-tEEreeAHAHreestehrAH",
+          "french": "Μετά τον πάγκο με τα τυριά, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_kalambaka_saturday_market_002",
+      "intent_en": "Do you have Meteora herb tea?",
+      "text_local": "Έχετε τσάι βοτάνων Μετέωρα;",
+      "pronunciation": "EHkhehtEH-tsEYE-vohtAHnohn-mehtEHohrAH",
+      "formality": "standard",
+      "cultural_note": "Herbal teas are commonly sold in Greek markets, but specific varieties (like Meteora-branded) may require staff confirmation due to seasonal or vendor-specific availability.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο πάγκο με τα τοπικά προϊόντα.",
+        "pronunciation": "nEHstoh-pAHnggoh-meh-tah-tOHpeekAH-prohihOHdah",
+        "translation_en": "Yes, we do."
+      },
+      "responses": [
+        {
+          "english": "Yes, we do.",
+          "phonetic": "nEHstoh-pAHnggoh-meh-tah-tOHpeekAH-prohihOHdah",
+          "french": "Ναι, στο πάγκο με τα τοπικά προϊόντα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_kalambaka_saturday_market_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού ζυγίζω τα λαχανικά μου;",
+      "pronunciation": "pOO-zeeyEEzoh-tah-lAHkhahneekAH-moo",
+      "formality": "standard",
+      "cultural_note": "Produce weighing stations in Greek markets are typically supervised by staff to ensure fairness and accuracy. Visitors often need guidance to locate them.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στον πάγκο με τα ντομάτες.",
+        "pronunciation": "thEEplah-stohm-bAHnggoh-meh-tah-dohmAHtehs",
+        "translation_en": "The scale is over there, next to the vegetable stall."
+      },
+      "responses": [
+        {
+          "english": "The scale is over there, next to the vegetable stall.",
+          "phonetic": "thEEplah-stohm-bAHnggoh-meh-tah-dohmAHtehs",
+          "french": "Δίπλα στον πάγκο με τα ντομάτες."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

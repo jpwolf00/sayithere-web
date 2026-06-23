@@ -1,0 +1,78 @@
+{
+  "id": "plzeň_patton_memorial_pilsen",
+  "name_en": "Patton Memorial Pilsen",
+  "name_local": "Památník generála Pattona",
+  "icon": "building.columns",
+  "lat": 49.7462249,
+  "lon": 13.3735017,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "plzeň_patton_memorial_pilsen_001",
+      "intent_en": "How do I buy the guidebook?",
+      "text_local": "Jak si můžu koupit průvodce?",
+      "pronunciation": "yAHk-see-mOOzhoo-kOHpeet-prOOvohttseh",
+      "formality": "standard",
+      "cultural_note": "Guidebooks are often sold at the entry cashier desk in smaller museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U pokladny, stojí sto padesát korun.",
+        "pronunciation": "OO-pOHklahdneestOHyee-stOH-pAHdehsaht-kOHroon",
+        "translation_en": "At the cashier, it costs one hundred and fifty crowns."
+      },
+      "responses": [
+        {
+          "english": "At the cashier, it costs one hundred and fifty crowns.",
+          "phonetic": "OO-pOHklahdneestOHyee-stOH-pAHdehsaht-kOHroon",
+          "french": "U pokladny, stojí sto padesát korun."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_patton_memorial_pilsen_002",
+      "intent_en": "Where is the donation box?",
+      "text_local": "Kde je kasička na příspěvky?",
+      "pronunciation": "kdEH-yeh-kAHseetshkah-nAHpreespyEHfkee",
+      "formality": "standard",
+      "cultural_note": "Donation boxes are common in smaller Czech museums for voluntary upkeep contributions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned u vchodu, vedle pokladny.",
+        "pronunciation": "hnEHd-OO-fkhOHdoovEHdleh-pOHklahdnee",
+        "translation_en": "Right at the entrance, next to the cashier."
+      },
+      "responses": [
+        {
+          "english": "Right at the entrance, next to the cashier.",
+          "phonetic": "hnEHd-OO-fkhOHdoovEHdleh-pOHklahdnee",
+          "french": "Hned u vchodu, vedle pokladny."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_patton_memorial_pilsen_003",
+      "intent_en": "Are military souvenirs available today?",
+      "text_local": "Jsou dnes k dispozici vojenské suvenýry?",
+      "pronunciation": "ysoh-dnEHs-k-dEEspohzEEtsee-vOHyehnskeh-sOOvehnEEree",
+      "formality": "standard",
+      "cultural_note": "Military-themed souvenirs like patches and model tanks are typical for this memorial.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, v obchodě se suvenýry.",
+        "pronunciation": "AHnohv-OHpkhoheh-seh-sOOvehnEEree",
+        "translation_en": "Yes, in the gift shop."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the gift shop.",
+          "phonetic": "AHnohv-OHpkhoheh-seh-sOOvehnEEree",
+          "french": "Ano, v obchodě se suvenýry."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

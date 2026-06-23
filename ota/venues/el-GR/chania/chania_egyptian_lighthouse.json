@@ -1,0 +1,78 @@
+{
+  "id": "chania_egyptian_lighthouse",
+  "name_en": "Egyptian Lighthouse",
+  "name_local": "Αιγυπτιακός Φάρος",
+  "icon": "building.columns",
+  "lat": 35.5120831,
+  "lon": 24.0191544,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "chania_egyptian_lighthouse_001",
+      "intent_en": "Where is the Maritime Museum from here?",
+      "text_local": "Πού είναι το Ναυτικό Μουσείο από εδώ;",
+      "pronunciation": "pOO-EEneh-toh-nAHfteekOH-moosEEoh-ahpOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Το Ναυτικό Μουσείο βρίσκεται κοντά στο φρούριο Φιρκάς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε την προκυμαία.",
+        "pronunciation": "AHkohloothEEsteh-teem-brOHeemEHah",
+        "translation_en": "Follow the waterfront promenade."
+      },
+      "responses": [
+        {
+          "english": "Follow the waterfront promenade.",
+          "phonetic": "AHkohloothEEsteh-teem-brOHeemEHah",
+          "french": "Ακολουθήστε την προκυμαία."
+        }
+      ]
+    },
+    {
+      "id": "chania_egyptian_lighthouse_002",
+      "intent_en": "Can I walk around the lighthouse base?",
+      "text_local": "Μπορώ να περπατήσω γύρω από τη βάση του φάρου;",
+      "pronunciation": "bohrOH-nah-pEHrpahtEEsoh-yEEroh-ahpOH-tee-vAHsee-too-fAHroo",
+      "formality": "standard",
+      "cultural_note": "Απαγορεύεται η πρόσβαση στη βάση του μνημείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Παρακαλώ μείνετε μακριά από τη βάση.",
+        "pronunciation": "pAHrahkahlOH-mEEnehtEH-mAHkreeAH-ahpOH-tee-vAHsee",
+        "translation_en": "Please stay off the monument base."
+      },
+      "responses": [
+        {
+          "english": "Please stay off the monument base.",
+          "phonetic": "pAHrahkahlOH-mEEnehtEH-mAHkreeAH-ahpOH-tee-vAHsee",
+          "french": "Παρακαλώ μείνετε μακριά από τη βάση."
+        }
+      ]
+    },
+    {
+      "id": "chania_egyptian_lighthouse_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού αγοράζω εισιτήρια για εκδρομές με βάρκα κοντά;",
+      "pronunciation": "pOO-AHghohrAHzoh-EEseetEEreeAH-yAH-EHkthrohmEHz-meh-vAHrkah",
+      "formality": "standard",
+      "cultural_note": "Οι πωλητές εισιτηρίων είναι πιθανόν στους γύρω χώρους του λιμανιού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από τους πωλητές στην προκυμαία, κοντά στο Φρούριο Φιρκά.",
+        "pronunciation": "ahpOH-toos-pOHleetEHs-steem-brOHeemEHahkohdAH-stoh-frOOreeOH-feerkAH",
+        "translation_en": "From the vendors on the waterfront, near Firkas Fortress."
+      },
+      "responses": [
+        {
+          "english": "From the vendors on the waterfront, near Firkas Fortress.",
+          "phonetic": "ahpOH-toos-pOHleetEHs-steem-brOHeemEHahkohdAH-stoh-frOOreeOH-feerkAH",
+          "french": "Από τους πωλητές στην προκυμαία, κοντά στο Φρούριο Φιρκά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

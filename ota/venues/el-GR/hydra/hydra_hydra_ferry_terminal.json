@@ -1,0 +1,166 @@
+{
+  "id": "hydra_hydra_ferry_terminal",
+  "name_en": "Hydra Ferry Terminal",
+  "name_local": "Ακτοπλοϊκό Λιμάνι Ύδρας",
+  "icon": "tram",
+  "lat": 37.3508044,
+  "lon": 23.4667279,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hydra_hydra_ferry_terminal_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτό το καφέ Παπαδόπουλος;",
+      "pronunciation": "EEneh-AHneekhtOH-toh-kahfEH-pAHpahthOHpoolOHs",
+      "formality": "standard",
+      "cultural_note": "Το Παπαδόπουλος είναι καφετέρια του λιμανιού.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτό, αλλά καλό είναι να πληρώσετε πριν επιβιβαστείτε.",
+        "pronunciation": "nEHEEneh-AHneekhtOHahlAH-kahlOH-EEneh-nah-pleerOHsehtEH-prEEn-EHpeevEEvahstEEteh",
+        "translation_en": "Yes, it is open, but it is best to pay before boarding."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open, but it is best to pay before boarding.",
+          "phonetic": "nEHEEneh-AHneekhtOHahlAH-kahlOH-EEneh-nah-pleerOHsehtEH-prEEn-EHpeevEEvahstEEteh",
+          "french": "Ναι, είναι ανοιχτό, αλλά καλό είναι να πληρώσετε πριν επιβιβαστείτε."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_ferry_terminal_002",
+      "intent_en": "Do I need port police stamp on ticket?",
+      "text_local": "Χρειάζεται σφραγίδα Λιμενικού στο εισιτήριο;",
+      "pronunciation": "khrkhAHzehtEH-sfrahyEEthah-lEEmehneekOO-stoh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Η σφραγίδα ελέγχεται από τον Λιμενικό.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_ferry_terminal_003",
+      "intent_en": "Do I need a police stamp?",
+      "text_local": "Χρειάζεται σφραγίδα ασφαλείας;",
+      "pronunciation": "khrkhAHzehtEH-sfrahyEEth-AHsfahlEEahs",
+      "formality": "standard",
+      "cultural_note": "Η σφραγίδα ελέγχεται από τον Λιμενικό.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο του Λιμενικού.",
+        "pronunciation": "nEHstoh-tahmEEoh-too-lEEmehneekOO",
+        "translation_en": "Yes, at the coast guard ticket booth."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the coast guard ticket booth.",
+          "phonetic": "nEHstoh-tahmEEoh-too-lEEmehneekOO",
+          "french": "Ναι, στο ταμείο του Λιμενικού."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_ferry_terminal_004",
+      "intent_en": "Do I queue by destination?",
+      "text_local": "Περιμένουμε ανά προορισμό;",
+      "pronunciation": "pEHreemEHnoomEH-ahnAH-prOHohreesmOH",
+      "formality": "standard",
+      "cultural_note": "Η σειρά γίνεται σύμφωνα με τον προορισμό σας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ανά προορισμό.",
+        "pronunciation": "nEHahnAH-prOHohreesmOH",
+        "translation_en": "Yes, by destination."
+      },
+      "responses": [
+        {
+          "english": "Yes, by destination.",
+          "phonetic": "nEHahnAH-prOHohreesmOH",
+          "french": "Ναι, ανά προορισμό."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_ferry_terminal_005",
+      "intent_en": "Where is the donkey station?",
+      "text_local": "Πού είναι ο σταθμός γαϊδουριών;",
+      "pronunciation": "pOO-EEneh-oh-stahthmOHz-ghEYEthooreeOHn",
+      "formality": "standard",
+      "cultural_note": "Οι γαϊδούρες χρησιμοποιούνται για μεταφορά αποσκευών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακριβώς μπροστά, δεξιά σας.",
+        "pronunciation": "AHkreevOHz-brohstAHthEHkseeAH-sahs",
+        "translation_en": "Straight ahead, on your right."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on your right.",
+          "phonetic": "AHkreevOHz-brohstAHthEHkseeAH-sahs",
+          "french": "Ακριβώς μπροστά, δεξιά σας."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_ferry_terminal_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Δέχονται μόνο μετρητά στο ταμείο;",
+      "pronunciation": "toh-tahmEEoh-thEHkhehtEH-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Οι τρόποι πληρωμής ελέγχονται από τον Ναύλο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόνο μετρητά στο ταμείο.",
+        "pronunciation": "nEHmOHnoh-mEHtreetAH-stoh-tahmEEoh",
+        "translation_en": "Yes, they only accept cash at the booth for the ferry ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, they only accept cash at the booth for the ferry ticket.",
+          "phonetic": "nEHmOHnoh-mEHtreetAH-stoh-tahmEEoh",
+          "french": "Ναι, μόνο μετρητά στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_ferry_terminal_007",
+      "intent_en": "Where do I queue for Piraeus ferry?",
+      "text_local": "Πού περιμένω για το πλοίο του Πειραιά;",
+      "pronunciation": "pOO-pEHreemEHnoh-yAH-toh-plEEoh-too-pEErehAH",
+      "formality": "standard",
+      "cultural_note": "Οι επιβάτες προσανατολίζονται βάσει προορισμού, όχι ώρας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην προβλήτα δύο.",
+        "pronunciation": "steem-brohvlEEtah-thEEoh",
+        "translation_en": "At dock two."
+      },
+      "responses": [
+        {
+          "english": "At dock two.",
+          "phonetic": "steem-brohvlEEtah-thEEoh",
+          "french": "Στην προβλήτα δύο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

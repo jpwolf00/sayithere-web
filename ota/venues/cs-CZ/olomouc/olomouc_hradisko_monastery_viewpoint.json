@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_hradisko_monastery_viewpoint",
+  "name_en": "Hradisko Monastery Viewpoint",
+  "name_local": "Hradisko",
+  "icon": "leaf",
+  "lat": 49.6060072,
+  "lon": 17.2657675,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "olomouc_hradisko_monastery_viewpoint_001",
+      "intent_en": "Where can I rent a bike in the park",
+      "text_local": "Kde si můžu v parku půjčit kolo?",
+      "pronunciation": "kdEH-see-mOOzhoo-v-pAHrkoo-pOOytsheet-kOHloh",
+      "formality": "standard",
+      "cultural_note": "Bike rentals in Czech parks are often found near main gates or information points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Půjčovna je u hlavního vstupu do sadů.",
+        "pronunciation": "pOOytshohvnah-yeh-OO-hlAHvnyeehoh-fstOOpoo-dOHsahdoo",
+        "translation_en": "The rental is at the main entrance to the park."
+      },
+      "responses": [
+        {
+          "english": "The rental is at the main entrance to the park.",
+          "phonetic": "pOOytshohvnah-yeh-OO-hlAHvnyeehoh-fstOOpoo-dOHsahdoo",
+          "french": "Půjčovna je u hlavního vstupu do sadů."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_hradisko_monastery_viewpoint_002",
+      "intent_en": "Is there a fee to enter the viewpoint",
+      "text_local": "Platí se za vstup na vyhlídku?",
+      "pronunciation": "plAHee-seh-zAHfstoop-nAHveehlEEtkoo",
+      "formality": "standard",
+      "cultural_note": "Many Czech outdoor viewpoints and ruin sites are freely accessible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, je to zdarma.",
+        "pronunciation": "nEHyeh-tOH-zdAHrmah",
+        "translation_en": "No, it's free."
+      },
+      "responses": [
+        {
+          "english": "No, it's free.",
+          "phonetic": "nEHyeh-tOH-zdAHrmah",
+          "french": "Ne, je to zdarma."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_hradisko_monastery_viewpoint_003",
+      "intent_en": "Where is the zoo entrance from here",
+      "text_local": "Kudy se odsud dostanu ke vstupu do zoo?",
+      "pronunciation": "kOOdee-seh-OHtsood-dOHstahnoo-kEH-fstOOpoo-dOHzohoh",
+      "formality": "standard",
+      "cultural_note": "Directions in Czech parks often use simple landmarks like paths and turns.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dolů po cestě, pak doleva.",
+        "pronunciation": "dOHloo-pOHtsehsehpAHk-dOHlehvah",
+        "translation_en": "Down the path, then left."
+      },
+      "responses": [
+        {
+          "english": "Down the path, then left.",
+          "phonetic": "dOHloo-pOHtsehsehpAHk-dOHlehvah",
+          "french": "Dolů po cestě, pak doleva."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_hradisko_monastery_viewpoint_004",
+      "intent_en": "Is there a café at the zoo exit nearby",
+      "text_local": "Je u východu ze zoo poblíž kavárna?",
+      "pronunciation": "yeh-OO-vEEkhohdoo-zEHzohoh-pOHbleesh-kAHvahrnah",
+      "formality": "standard",
+      "cultural_note": "Czech zoos commonly have a café or refreshment stand near the exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, hned u východu je kavárna.",
+        "pronunciation": "AHnohhnEHd-OO-vEEkhohdoo-yeh-kAHvahrnah",
+        "translation_en": "Yes, there's a cafe right by the exit."
+      },
+      "responses": [
+        {
+          "english": "Yes, there's a cafe right by the exit.",
+          "phonetic": "AHnohhnEHd-OO-vEEkhohdoo-yeh-kAHvahrnah",
+          "french": "Ano, hned u východu je kavárna."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

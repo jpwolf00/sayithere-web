@@ -1,0 +1,122 @@
+{
+  "id": "leiden_leiden_central_station",
+  "name_en": "Leiden Central Station",
+  "name_local": "Leiden Centraal",
+  "icon": "tram",
+  "lat": 52.166319,
+  "lon": 4.482286,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "leiden_leiden_central_station_001",
+      "intent_en": "How do I pay for P+R parking?",
+      "text_local": "Hoe betaal ik voor P+R parkeren?",
+      "pronunciation": "hOO-buhtAHl-ihk-vawr-pEH-plS-EHr-pahrkIHruhn",
+      "formality": "standard",
+      "cultural_note": "Parking payment is handled via machines at P+R locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Betaal bij de parkeerautomaat.",
+        "pronunciation": "buhtAHl-behih-duh-pAHrkihrUHuhtohmAHt",
+        "translation_en": "Pay at the parking machine."
+      },
+      "responses": [
+        {
+          "english": "Pay at the parking machine.",
+          "phonetic": "buhtAHl-behih-duh-pAHrkihrUHuhtohmAHt",
+          "french": "Betaal bij de parkeerautomaat."
+        }
+      ]
+    },
+    {
+      "id": "leiden_leiden_central_station_002",
+      "intent_en": "Which platform for Leiden Bio Science Park?",
+      "text_local": "Welk perron voor de bus naar Leiden Bio Science Park?",
+      "pronunciation": "vEHlk-pehrrAWn-vawr-duh-bS-nahr-lEHihduhn-bEEoh-sEYE-UHns-pAHrk",
+      "formality": "standard",
+      "cultural_note": "Platforms are indicated with signs; directions are signposted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar het busstation voor de bus richting Leiden Bio Science Park.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-huht-bStahshAWn-vawr-duh-bS-rIHkhting-lEHihduhn-bEEoh-sEYE-UHns-pAHrk",
+        "translation_en": "Follow the signs to the bus station for the bus towards Leiden Bio Science Park."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the bus station for the bus towards Leiden Bio Science Park.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-huht-bStahshAWn-vawr-duh-bS-rIHkhting-lEHihduhn-bEEoh-sEYE-UHns-pAHrk",
+          "french": "Volg de borden naar het busstation voor de bus richting Leiden Bio Science Park."
+        }
+      ]
+    },
+    {
+      "id": "leiden_leiden_central_station_003",
+      "intent_en": "Is there a direct bus to Oude Rijn?",
+      "text_local": "Gaat er een directe bus naar Oude Rijn?",
+      "pronunciation": "ghAHt-uhr-uhn-dEErehktuh-bS-nahr-UHuhduh-rEHihn",
+      "formality": "standard",
+      "cultural_note": "Bus services to specific destinations are managed by Arriva staff.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ja, bus 1 en 4 gaan direct naar Oude Rijn vanaf de Arriva bushalte voor het station.",
+        "pronunciation": "yAHbS-EHn-ehn-vEEr-ghAHn-dEErehkt-nahr-UHuhduh-rEHihn-vahnAHf-duh-ahrrEEvah-bShahltuh-vawr-huht-stahshAWn",
+        "translation_en": "Yes, buses 1 and 4 go directly to Oude Rijn from the Arriva bus stop in front of the station."
+      },
+      "responses": [
+        {
+          "english": "Yes, buses 1 and 4 go directly to Oude Rijn from the Arriva bus stop in front of the station.",
+          "phonetic": "yAHbS-EHn-ehn-vEEr-ghAHn-dEErehkt-nahr-UHuhduh-rEHihn-vahnAHf-duh-ahrrEEvah-bShahltuh-vawr-huht-stahshAWn",
+          "french": "Ja, bus 1 en 4 gaan direct naar Oude Rijn vanaf de Arriva bushalte voor het station."
+        }
+      ]
+    },
+    {
+      "id": "leiden_leiden_central_station_004",
+      "intent_en": "Where is the bike rental location?",
+      "text_local": "Waar kan ik een fiets huren?",
+      "pronunciation": "vAHr-kahn-ihk-uhn-fEEts-hUEruhn",
+      "formality": "standard",
+      "cultural_note": "Bike rental is managed by station staff; ask for assistance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar de fietsenstalling naast het station.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-duh-fEEtsuhnstAHling-nAHst-huht-stahshAWn",
+        "translation_en": "Follow the signs to the bike parking next to the station."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the bike parking next to the station.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-duh-fEEtsuhnstAHling-nAHst-huht-stahshAWn",
+          "french": "Volg de borden naar de fietsenstalling naast het station."
+        }
+      ]
+    },
+    {
+      "id": "leiden_leiden_central_station_005",
+      "intent_en": "How do I top up my OV-chipkaart?",
+      "text_local": "Hoe laad ik mijn OV-chipkaart op?",
+      "pronunciation": "hOO-lAHt-ihk-mehihn-OHfEHtshIHpkahrt-AWp",
+      "formality": "standard",
+      "cultural_note": "OV-chipkaart top-up machines are available at the station for quick top-ups.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ga naar de oplaadautomaten naast de NS-kaartautomaten van Leiden Centraal.",
+        "pronunciation": "ghAH-nahr-duh-AWplAHduhuhtohmAHtuhn-nAHs-tuh-EHnEHskAHrtuhuhtohmAHtuhn-vahn-lEHihduhn-sehntrAHl",
+        "translation_en": "Go to the top-up machines next to the NS ticket machines at Leiden Central."
+      },
+      "responses": [
+        {
+          "english": "Go to the top-up machines next to the NS ticket machines at Leiden Central.",
+          "phonetic": "ghAH-nahr-duh-AWplAHduhuhtohmAHtuhn-nAHs-tuh-EHnEHskAHrtuhuhtohmAHtuhn-vahn-lEHihduhn-sehntrAHl",
+          "french": "Ga naar de oplaadautomaten naast de NS-kaartautomaten van Leiden Centraal."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

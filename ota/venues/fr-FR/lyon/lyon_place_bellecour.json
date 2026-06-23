@@ -1,0 +1,110 @@
+{
+  "id": "lyon_place_bellecour",
+  "name_en": "Place Bellecour",
+  "name_local": "Place Bellecour",
+  "icon": "mappin.circle",
+  "phrases": [
+    {
+      "id": "lyon_bellecour_001",
+      "intent_en": "Ask where the Petit Prince statue is located",
+      "text_local": "Où se trouve la statue du Petit Prince, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV lah stah-TOO doo puh-TEE PRANSE, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Antoine de Saint-Exupéry, author of The Little Prince, was born in Lyon. A bronze statue of him and the Petit Prince stands on Place Bellecour.",
+      "responses": [
+        {
+          "english": "At the south-west corner of the square.",
+          "phonetic": "oh KWEHN sood-WEST duh lah PLAHS",
+          "french": "Au coin sud-ouest de la place."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_bellecour_002",
+      "intent_en": "Ask how to get to the Presqu'île from here",
+      "text_local": "Comment rejoindre la Presqu'île depuis ici ?",
+      "pronunciation": "koh-MAHN ruh-ZHWANDR lah presk-EEL duh-PWEE ee-SEE",
+      "formality": "polite",
+      "cultural_note": "Place Bellecour sits at the heart of the Presqu'île, the peninsula between the Saône and the Rhône. Most of the city's main shopping and dining streets radiate from here.",
+      "responses": [
+        {
+          "english": "Straight ahead, it's five minutes.",
+          "phonetic": "too DRWAH, seh ah sehnk mee-NOOT",
+          "french": "Tout droit, c'est à cinq minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_bellecour_003",
+      "intent_en": "Ask for the nearest tourist information office",
+      "text_local": "Où se trouve l'office de tourisme le plus proche ?",
+      "pronunciation": "oo suh TROOV loh-FEES duh too-REEZM luh ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "The main Lyon tourist office is located on Place Bellecour itself — very convenient for maps, Lyon City Cards, and guided tour bookings.",
+      "responses": [
+        {
+          "english": "At the corner of the square, over there.",
+          "phonetic": "oh KWEHN duh lah PLAHS, lah-BAH",
+          "french": "Au coin de la place, là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_bellecour_004",
+      "intent_en": "Ask about the Christmas market held here",
+      "text_local": "Quand a lieu le marché de Noël sur la place ?",
+      "pronunciation": "kahn ah lyuh luh mar-SHAY duh noh-EL soor lah PLAS",
+      "formality": "polite",
+      "cultural_note": "The Lyon Christmas market runs throughout December on Place Bellecour. The square is also the launch point for the famous Fête des Lumières light festival each 8 December.",
+      "responses": [
+        {
+          "english": "In December, for a month.",
+          "phonetic": "ahn day-SAHM-bruh, pahn-DAHN uhn MWAH",
+          "french": "En décembre, pendant un mois."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_bellecour_005",
+      "intent_en": "Ask a taxi driver to take you here",
+      "text_local": "Conduisez-moi à la Place Bellecour, s'il vous plaît.",
+      "pronunciation": "kohn-dwee-ZAY-mwah ah lah PLAS bel-KOOR, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Place Bellecour is the central reference point of Lyon. Taxi drivers will know it immediately — it is the largest pedestrian square in France.",
+      "responses": [
+        {
+          "english": "Place Bellecour, please.",
+          "phonetic": "PLAHS bel-KOOR, seel voo PLEH",
+          "french": "Place Bellecour, s'il vous plaît."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "square / plaza",
+      "word_local": "la place",
+      "pronunciation": "lah PLAS"
+    },
+    {
+      "word_en": "equestrian statue",
+      "word_local": "la statue équestre",
+      "pronunciation": "lah stah-TOO ay-KESTR"
+    },
+    {
+      "word_en": "tourist office",
+      "word_local": "l'office de tourisme",
+      "pronunciation": "loh-FEES duh too-REEZM"
+    }
+  ]
+}

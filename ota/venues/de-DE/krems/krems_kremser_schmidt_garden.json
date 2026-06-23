@@ -1,0 +1,78 @@
+{
+  "id": "krems_kremser_schmidt_garden",
+  "name_en": "Kremser Schmidt Garden",
+  "name_local": "Kremser Schmidt Garten",
+  "icon": "leaf",
+  "lat": 48.4108382,
+  "lon": 15.6003717,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "krems_kremser_schmidt_garden_001",
+      "intent_en": "Ask where the Kremser Tor gate is",
+      "text_local": "Wo finde ich das Kremser Tor?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dahs-krEHmz-tOHr",
+      "formality": "standard",
+      "cultural_note": "Das Kremser Tor ist ein markantes Stadttor und dient als Orientierungspunkt in Krems. Direkte Wegbeschreibungen sind oft unnötig, da es an einer Hauptstraße liegt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, am Ende der Straße.",
+        "pronunciation": "guhrAHdehOWsahm-EHnduh-dehr-shtrAHsuh",
+        "translation_en": "Straight ahead, at the end of the street."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, at the end of the street.",
+          "phonetic": "guhrAHdehOWsahm-EHnduh-dehr-shtrAHsuh",
+          "french": "Geradeaus, am Ende der Straße."
+        }
+      ]
+    },
+    {
+      "id": "krems_kremser_schmidt_garden_002",
+      "intent_en": "Ask where the Danube cycle path connects",
+      "text_local": "Wo geht der Donau-Radweg weiter?",
+      "pronunciation": "vOH-EHt-dehr-dOHnowrAHdvehk-vEYEt",
+      "formality": "standard",
+      "cultural_note": "Der Donau-Radweg ist gut ausgeschildert. An Flusskreuzungen oder Abzweigungen sind meist Schilder vorhanden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Richtung Kremser Tor.",
+        "pronunciation": "rIHkhtuhng-krEHmz-tOHr",
+        "translation_en": "Toward Kremser Gate."
+      },
+      "responses": [
+        {
+          "english": "Toward Kremser Gate.",
+          "phonetic": "rIHkhtuhng-krEHmz-tOHr",
+          "french": "Richtung Kremser Tor."
+        }
+      ]
+    },
+    {
+      "id": "krems_kremser_schmidt_garden_003",
+      "intent_en": "Ask if Gottweigerhof is nearby",
+      "text_local": "Ist der Gottweigerhof in der Nähe?",
+      "pronunciation": "ihst-dehr-AWtveyehOHf-ihn-dehr-nEHuh",
+      "formality": "standard",
+      "cultural_note": "Der Gottweigerhof liegt außerhalb des Stadtkerns, aber in Krems-Stein. Mitarbeiter vor Ort kennen die beste Route.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, gleich um die Ecke.",
+        "pronunciation": "yAHglEYEkh-uhm-dee-EHkuh",
+        "translation_en": "Yes, just around the corner."
+      },
+      "responses": [
+        {
+          "english": "Yes, just around the corner.",
+          "phonetic": "yAHglEYEkh-uhm-dee-EHkuh",
+          "french": "Ja, gleich um die Ecke."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

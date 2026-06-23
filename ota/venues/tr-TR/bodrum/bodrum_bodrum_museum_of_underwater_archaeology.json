@@ -1,0 +1,166 @@
+{
+  "id": "bodrum_bodrum_museum_of_underwater_archaeology",
+  "name_en": "Bodrum Museum of Underwater Archaeology",
+  "name_local": "Bodrum Sualtı Arkeoloji Müzesi",
+  "icon": "building.columns",
+  "lat": 37.0317966,
+  "lon": 27.429581,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bodrum_bodrum_museum_of_underwater_archaeology_001",
+      "intent_en": "Where is the guided tour meeting point?",
+      "text_local": "Rehberli turun başlangıç noktası burası mı?",
+      "pronunciation": "rehhbehrlIH-tUHr-booUHshmah-nawktahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Buluşma noktasının kesin konumu belirtilmediğinden, en güvenli yanıt danışmaya yönlendirmektir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin sağındaki bankta.",
+        "pronunciation": "eereeshIHn-sahoondahkIH-bahnktAH",
+        "translation_en": "On the bench to the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the bench to the right of the entrance.",
+          "phonetic": "eereeshIHn-sahoondahkIH-bahnktAH",
+          "french": "Girişin sağındaki bankta."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_museum_of_underwater_archaeology_002",
+      "intent_en": "Where is the gift shop in the courtyard?",
+      "text_local": "Avludaki hediyelik eşya dükkanı nerede?",
+      "pronunciation": "ahvoodahkIH-hehdeeyehlIHk-ehshyAH-duekahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Bağlamda 'iç avlu' olarak belirtildiği için yanıt bu şekilde verilmiştir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İç avluda.",
+        "pronunciation": "IHtsh-ahvoodAH",
+        "translation_en": "In the inner courtyard."
+      },
+      "responses": [
+        {
+          "english": "In the inner courtyard.",
+          "phonetic": "IHtsh-ahvoodAH",
+          "french": "İç avluda."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_museum_of_underwater_archaeology_003",
+      "intent_en": "Is the Salmakis Inscription on display?",
+      "text_local": "Salmakis Yazıtı sergileniyor mu?",
+      "pronunciation": "sahmahkIHs-yahzootOO-sehreelehnEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Eserin anlık sergi durumu kesin olarak bilinemediğinden, danışmaya yönlendirme yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, ana salonda.",
+        "pronunciation": "ehvEHtahnAH-sahawndAH",
+        "translation_en": "Yes, in the main hall."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the main hall.",
+          "phonetic": "ehvEHtahnAH-sahawndAH",
+          "french": "Evet, ana salonda."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_museum_of_underwater_archaeology_004",
+      "intent_en": "Where do I buy a photography permit?",
+      "text_local": "Fotoğraf iznini nereden alabilirim?",
+      "pronunciation": "fohtohrAHf-ihzneenIH-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Fotoğraf izni satış noktasının kesin konumu belirtilmediğinden, danışmaya yönlendirme yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bilet gişesinde alabilirsiniz.",
+        "pronunciation": "beelEHt-eeshehsihndEH-ahahbeelIHrseenihz",
+        "translation_en": "You can get it at the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "You can get it at the ticket booth.",
+          "phonetic": "beelEHt-eeshehsihndEH-ahahbeelIHrseenihz",
+          "french": "Bilet gişesinde alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_museum_of_underwater_archaeology_005",
+      "intent_en": "Where is the Uluburun Shipwreck exhibit?",
+      "text_local": "Uluburun Batığı sergisi nerede?",
+      "pronunciation": "ooooboorUHn-bahtooooOO-sehreesIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Sergiler kale kulelerine yayıldığından, tam konumu teyit etmek için danışmaya yönlendirmek en güvenlisidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana avludaki cam salonda.",
+        "pronunciation": "ahnAH-ahvoodahkIH-dzhAHm-sahawndAH",
+        "translation_en": "In the glass hall in the main courtyard."
+      },
+      "responses": [
+        {
+          "english": "In the glass hall in the main courtyard.",
+          "phonetic": "ahnAH-ahvoodahkIH-dzhAHm-sahawndAH",
+          "french": "Ana avludaki cam salonda."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_museum_of_underwater_archaeology_006",
+      "intent_en": "Where is the guided tour meeting point?",
+      "text_local": "Rehberli tura katılmak için nerede buluşuyoruz?",
+      "pronunciation": "rehhbehrlIH-toorUHn-booUHshmah-nawktahsOO-nehrehsIH",
+      "formality": "standard",
+      "cultural_note": "Tur buluşma noktaları değişebildiği için personel sizi bilgi danışmaya yönlendirecektir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişenin yanında.",
+        "pronunciation": "eeshehnIHn-yahnoondAH",
+        "translation_en": "Next to the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "Next to the ticket booth.",
+          "phonetic": "eeshehnIHn-yahnoondAH",
+          "french": "Gişenin yanında."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_museum_of_underwater_archaeology_007",
+      "intent_en": "Where is the gift shop in the courtyard?",
+      "text_local": "İç avludaki hediyelik eşya dükkanı nerede?",
+      "pronunciation": "IHtsh-ahvoodahkIH-hehdeeyehlIHk-ehshyAH-duekahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Avlu girişleri kolayca gözden kaçabildiği için personel danışmaya yönlendirir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Avlunun sağ tarafında.",
+        "pronunciation": "ahvoonUHn-sAH-tahrahfoondAH",
+        "translation_en": "On the right side of the courtyard."
+      },
+      "responses": [
+        {
+          "english": "On the right side of the courtyard.",
+          "phonetic": "ahvoonUHn-sAH-tahrahfoondAH",
+          "french": "Avlunun sağ tarafında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

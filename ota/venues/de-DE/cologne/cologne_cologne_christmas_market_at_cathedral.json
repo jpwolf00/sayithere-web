@@ -1,0 +1,100 @@
+{
+  "id": "cologne_cologne_christmas_market_at_cathedral",
+  "name_en": "Cologne Christmas Market at Cathedral",
+  "name_local": "Kölner Weihnachtsmarkt am Dom",
+  "icon": "cart",
+  "lat": 50.938361,
+  "lon": 6.959974,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "cologne_cologne_christmas_market_at_cathedral_001",
+      "intent_en": "Do the wooden stalls take cards",
+      "text_local": "Nehmen die Stände Karte?",
+      "pronunciation": "nEHmuhn-dee-shtEHnduh-kAHrtuh",
+      "formality": "standard",
+      "cultural_note": "German Christmas markets often emphasize cash transactions, especially at smaller wooden stalls.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Nur Barzahlung.",
+        "pronunciation": "nOOr-bAHrtsahlUHng",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHrtsahlUHng",
+          "french": "Nur Barzahlung."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_christmas_market_at_cathedral_002",
+      "intent_en": "Where do I return the mulled wine mug",
+      "text_local": "Wo gebe ich den Glühwein-Becher zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-dehn-lUEveyenbEHkh-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Pfand refers to the deposit system for reusable mugs, common at German Christmas markets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Pfandschalter.",
+        "pronunciation": "ahm-pfAHntshahlt",
+        "translation_en": "At the deposit counter."
+      },
+      "responses": [
+        {
+          "english": "At the deposit counter.",
+          "phonetic": "ahm-pfAHntshahlt",
+          "french": "Am Pfandschalter."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_christmas_market_at_cathedral_003",
+      "intent_en": "Which way to the potato pancake stand",
+      "text_local": "Wo finde ich den Reibekuchen-Stand?",
+      "pronunciation": "vOH-EEpt-ehs-rEYEbehkUHkhuhn",
+      "formality": "standard",
+      "cultural_note": "Reibekuchen are a traditional German potato dish, often sold at Christmas markets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links vom Dom, hinter der Pyramide.",
+        "pronunciation": "lINGks-fawm-dOHmhIHnt-dehr-pUErahmEEduh",
+        "translation_en": "To the left of the cathedral, behind the pyramid."
+      },
+      "responses": [
+        {
+          "english": "To the left of the cathedral, behind the pyramid.",
+          "phonetic": "lINGks-fawm-dOHmhIHnt-dehr-pUErahmEEduh",
+          "french": "Links vom Dom, hinter der Pyramide."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_christmas_market_at_cathedral_004",
+      "intent_en": "When is the pyramid lighting ceremony",
+      "text_local": "Wann ist die Pyramiden-Zeremonie?",
+      "pronunciation": "vAHn-ihst-dee-pUErahmEEduhntsEHrehmohnEE",
+      "formality": "standard",
+      "cultural_note": "Pyramid lighting ceremonies are a highlight at German Christmas markets, often held in the evening.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 18 Uhr.",
+        "pronunciation": "uhm-AHkhtsehn-OOr",
+        "translation_en": "At 6 PM."
+      },
+      "responses": [
+        {
+          "english": "At 6 PM.",
+          "phonetic": "uhm-AHkhtsehn-OOr",
+          "french": "Um 18 Uhr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

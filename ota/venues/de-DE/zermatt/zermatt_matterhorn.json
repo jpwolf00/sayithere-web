@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_matterhorn",
+  "name_en": "Matterhorn",
+  "name_local": "Matterhorn",
+  "icon": "building.columns",
+  "lat": 46.0395551,
+  "lon": 7.7788869,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "zermatt_matterhorn_001",
+      "intent_en": "Is the Furggen Ridge route currently open",
+      "text_local": "Ist die Route über den Furggengrat derzeit begehbar?",
+      "pronunciation": "ihst-dee-fUHuhuhnrAHtrOOtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Kletterroutenstatus hängt von Wetter und Lawinenlage ab; aktuelle Info am Schalter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Heute ja.",
+        "pronunciation": "hAWuhtuh-yAH",
+        "translation_en": "Yes, today it is."
+      },
+      "responses": [
+        {
+          "english": "Yes, today it is.",
+          "phonetic": "hAWuhtuh-yAH",
+          "french": "Heute ja."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_matterhorn_002",
+      "intent_en": "Where is the Theodul Pass border crossing",
+      "text_local": "Wo ist der Grenzübergang am Theodulpass?",
+      "pronunciation": "vOH-ihst-dehr-rEHntsuebAHng-ahm-tEHohdUHlpahs",
+      "formality": "casual",
+      "cultural_note": "Grenzübergänge sind oft nicht direkt am Matterhorn sichtbar; lokale Infos sind entscheidend.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der ist oben an der Passhöhe.",
+        "pronunciation": "dehr-ihst-OHbuhn-ahn-dehr-pAHshuhuh",
+        "translation_en": "It is up at the pass summit."
+      },
+      "responses": [
+        {
+          "english": "It is up at the pass summit.",
+          "phonetic": "dehr-ihst-OHbuhn-ahn-dehr-pAHshuhuh",
+          "french": "Der ist oben an der Passhöhe."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_matterhorn_003",
+      "intent_en": "How do I book the Hörnli hut for ascent",
+      "text_local": "Wie buche ich die Hörnlihütte für die Besteigung?",
+      "pronunciation": "vee-bOOkhuh-ihkh-dee-hUHrnleeUEtuh-fuer-dee-buhshtEYEuhng",
+      "formality": "standard",
+      "cultural_note": "Hüttenbuchungen erfolgen oft direkt bei der Hüttenverwaltung oder über offizielle Bergverein-Websites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder online.",
+        "pronunciation": "ahm-shAHlt-OHd-ehnNleyendeh",
+        "translation_en": "At the counter or online."
+      },
+      "responses": [
+        {
+          "english": "At the counter or online.",
+          "phonetic": "ahm-shAHlt-OHd-ehnNleyendeh",
+          "french": "Am Schalter oder online."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_matterhorn_004",
+      "intent_en": "Where do I hire a certified mountain guide",
+      "text_local": "Wo kann ich einen Bergführer mieten?",
+      "pronunciation": "vOH-kAHn-ihkh-EYEnuhn-bEHrkfuer-mEEtuhn",
+      "formality": "standard",
+      "cultural_note": "Zertifizierte Bergführer werden in Zermatt über lokale Bergführerbüros vermittelt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Bergführervermittlung.",
+        "pronunciation": "ahm-shAHlt-dehr-bEHrkfuerEHrfmIHtluhng",
+        "translation_en": "At the mountain guide counter."
+      },
+      "responses": [
+        {
+          "english": "At the mountain guide counter.",
+          "phonetic": "ahm-shAHlt-dehr-bEHrkfuerEHrfmIHtluhng",
+          "french": "Am Schalter der Bergführervermittlung."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

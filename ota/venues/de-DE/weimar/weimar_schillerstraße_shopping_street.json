@@ -1,0 +1,100 @@
+{
+  "id": "weimar_schillerstraße_shopping_street",
+  "name_en": "Schillerstraße Shopping Street",
+  "name_local": "Schillerstraße",
+  "icon": "bag",
+  "lat": 50.9791514,
+  "lon": 11.3271511,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "weimar_schillerstraße_shopping_street_001",
+      "intent_en": "Where is Goethe-Schiller statue from here?",
+      "text_local": "Wo steht das Goethe-Schiller-Denkmal?",
+      "pronunciation": "vOH-shtEHt-dahs-UHtuhshIHldEHngkmahl",
+      "formality": "casual",
+      "cultural_note": "The Goethe-Schiller-Denkmal is a prominent landmark in Weimar, often highlighted by city guides or on local maps.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Denkmal steht auf dem Goetheplatz.",
+        "pronunciation": "dEHngkmahl-shtEHt-owf-dehm-gUHtehplAHts",
+        "translation_en": "The monument is on Goetheplatz."
+      },
+      "responses": [
+        {
+          "english": "The monument is on Goetheplatz.",
+          "phonetic": "dEHngkmahl-shtEHt-owf-dehm-gUHtehplAHts",
+          "french": "Denkmal steht auf dem Goetheplatz."
+        }
+      ]
+    },
+    {
+      "id": "weimar_schillerstraße_shopping_street_002",
+      "intent_en": "Do shops take cards or cash only?",
+      "text_local": "Wird hier mit Karte oder nur bar bezahlt?",
+      "pronunciation": "vIHrt-hEEr-miht-kAHrtuh-OHd-nOOr-bAHr-buhtsAHlt",
+      "formality": "casual",
+      "cultural_note": "In German retail, especially smaller shops or market stalls, cash is still widely preferred. Larger stores often accept cards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meist bar, manche Karten.",
+        "pronunciation": "mEYEst-bAHrmAHnkhuh-kAHrtuhn",
+        "translation_en": "Mostly cash, some cards."
+      },
+      "responses": [
+        {
+          "english": "Mostly cash, some cards.",
+          "phonetic": "mEYEst-bAHrmAHnkhuh-kAHrtuhn",
+          "french": "Meist bar, manche Karten."
+        }
+      ]
+    },
+    {
+      "id": "weimar_schillerstraße_shopping_street_003",
+      "intent_en": "Which parking garage is closest?",
+      "text_local": "Wo ist die nächste Parkgarage?",
+      "pronunciation": "vOH-ihst-dee-nEHkhstuh-pAHrkahrAHuh",
+      "formality": "standard",
+      "cultural_note": "Parking garages in German cities are often named after landmarks or central locations. 'Parkhaus' is the standard term.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Parkhaus Römer.",
+        "pronunciation": "ahm-pAHrkhows-rUHm",
+        "translation_en": "At the Römer parking garage."
+      },
+      "responses": [
+        {
+          "english": "At the Römer parking garage.",
+          "phonetic": "ahm-pAHrkhows-rUHm",
+          "french": "Am Parkhaus Römer."
+        }
+      ]
+    },
+    {
+      "id": "weimar_schillerstraße_shopping_street_004",
+      "intent_en": "Where is the nearest ATM?",
+      "text_local": "Wo gibt es einen Geldautomaten?",
+      "pronunciation": "vOH-EEpt-ehs-EYEnuhn-EHldowtohmAHtuhn",
+      "formality": "standard",
+      "cultural_note": "ATMs are typically found in or near banks, department stores, or shopping malls. In German-speaking regions, 'Geldautomat' is the common term.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Kaufhaus oder bei der Sparkasse.",
+        "pronunciation": "ihm-kOWfhows-OHd-beye-dehr-shpAHrkahsuh",
+        "translation_en": "In the department store or at the savings bank."
+      },
+      "responses": [
+        {
+          "english": "In the department store or at the savings bank.",
+          "phonetic": "ihm-kOWfhows-OHd-beye-dehr-shpAHrkahsuh",
+          "french": "Im Kaufhaus oder bei der Sparkasse."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,144 @@
+{
+  "id": "bodrum_bodrum_bus_terminal",
+  "name_en": "Bodrum Bus Terminal",
+  "name_local": "Bodrum Otogar",
+  "icon": "tram",
+  "lat": 37.0638715,
+  "lon": 27.4636158,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bodrum_bodrum_bus_terminal_001",
+      "intent_en": "Where is the Milas airport bus counter?",
+      "text_local": "Milas-Bodrum Havalimanı otobüsü nereden kalkıyor?",
+      "pronunciation": "meeAHsbAWdruhm-hahvahleemahnOO-ohtohbuesuenUHn-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Multiple private company counters exist with no central ticket hall. Counters and bay numbers change frequently.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dışarıda, peron 4.",
+        "pronunciation": "dooshahroodAHpehrAWn-dUHrt",
+        "translation_en": "Outside, platform 4."
+      },
+      "responses": [
+        {
+          "english": "Outside, platform 4.",
+          "phonetic": "dooshahroodAHpehrAWn-dUHrt",
+          "french": "Dışarıda, peron 4."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_bus_terminal_002",
+      "intent_en": "When is the last bus to İzmir?",
+      "text_local": "İzmir'e son otobüs kaçta?",
+      "pronunciation": "ihzmeerEH-sAWn-ohtohbUHs-kahtshtAH",
+      "formality": "standard",
+      "cultural_note": "İzmir buses are run by multiple private companies, each with their own schedule. No unified timetable exists.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saat on bir gibi.",
+        "pronunciation": "sahAHt-AWn-bihr-eebIH",
+        "translation_en": "Around eleven o'clock."
+      },
+      "responses": [
+        {
+          "english": "Around eleven o'clock.",
+          "phonetic": "sahAHt-AWn-bihr-eebIH",
+          "french": "Saat on bir gibi."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_bus_terminal_003",
+      "intent_en": "When is the last bus to İzmir?",
+      "text_local": "İzmir'e son otobüs saat kaçta?",
+      "pronunciation": "ihzmeerEH-sAWn-ohtohbUHs-sahAHt-kahtshtAH",
+      "formality": "standard",
+      "cultural_note": "Türkiye'de otogarlarda birden çok özel otobüs firması bulunur ve her birinin tarifesi değişiklik gösterebilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saat akşam dokuzu çeyrek geçe.",
+        "pronunciation": "sahAHt-ahkshAHm-dOHkoozuh-tshehyrEHk-EHtsheh",
+        "translation_en": "At quarter past nine in the evening."
+      },
+      "responses": [
+        {
+          "english": "At quarter past nine in the evening.",
+          "phonetic": "sahAHt-ahkshAHm-dOHkoozuh-tshehyrEHk-EHtsheh",
+          "french": "Saat akşam dokuzu çeyrek geçe."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_bus_terminal_004",
+      "intent_en": "Where do I pay dolmuş driver?",
+      "text_local": "Dolmuş şoförüne nerede ödeme yapıyorum?",
+      "pronunciation": "dawmUHsh-shohfuhruenEH-nEHrehdeh-uhdEHmeh-yahpOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "Türkiye'de dolmuşlarda ödeme genellikle yolculuk sırasında şoföre nakit olarak yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Araç içinde, şoföre elden nakit ödersiniz.",
+        "pronunciation": "ahrAHtsh-eetshihndEHshohfuhrEH-ahldAHn-nahkIHt-uhdEHrseenihz",
+        "translation_en": "Inside the vehicle, you pay the driver in cash."
+      },
+      "responses": [
+        {
+          "english": "Inside the vehicle, you pay the driver in cash.",
+          "phonetic": "ahrAHtsh-eetshihndEHshohfuhrEH-ahldAHn-nahkIHt-uhdEHrseenihz",
+          "french": "Araç içinde, şoföre elden nakit ödersiniz."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_bus_terminal_005",
+      "intent_en": "Is there a passenger waiting lounge?",
+      "text_local": "Yolcu bekleme salonu var mı?",
+      "pronunciation": "yawdzhUH-bEHklehmeh-sahohnUH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "The otogar has separate intercity and local areas. Waiting facilities depend on individual bus companies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, var.",
+        "pronunciation": "ehvEHtvAHr",
+        "translation_en": "Yes, there is."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is.",
+          "phonetic": "ehvEHtvAHr",
+          "french": "Evet, var."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_bus_terminal_006",
+      "intent_en": "Where is the Milas airport bus counter?",
+      "text_local": "Milas-Bodrum Havalimanı otobüsünün bilet gişesi nerede?",
+      "pronunciation": "meeAHsbAWdruhm-hahvahleemahnOO-ohtohbuesuenUHn-beelEHt-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Otogarda merkezi bir bilet holü yoktur; her firmanın kendi bölümü bulunur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşınızda, Havaş yazıyor.",
+        "pronunciation": "kAHrshoonoozdahhahvAHsh-yahzOOyawr",
+        "translation_en": "Across from you, it says Havaş."
+      },
+      "responses": [
+        {
+          "english": "Across from you, it says Havaş.",
+          "phonetic": "kAHrshoonoozdahhahvAHsh-yahzOOyawr",
+          "french": "Karşınızda, Havaş yazıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "dresden_pulverturm_restaurant",
+  "name_en": "Pulverturm Restaurant",
+  "name_local": "Pulverturm an der Frauenkirche",
+  "icon": "fork.knife",
+  "lat": 51.0522475,
+  "lon": 13.7424847,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "dresden_pulverturm_restaurant_001",
+      "intent_en": "Can we split the bill by person?",
+      "text_local": "Kann man pro Person zahlen?",
+      "pronunciation": "kAHn-mahn-proh-pehrzOHn-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Germany, splitting bills is common and expected in restaurants. Staff will often accommodate this without additional cost.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, das geht.",
+        "pronunciation": "yAHdahs-EHt",
+        "translation_en": "Yes, that works."
+      },
+      "responses": [
+        {
+          "english": "Yes, that works.",
+          "phonetic": "yAHdahs-EHt",
+          "french": "Ja, das geht."
+        }
+      ]
+    },
+    {
+      "id": "dresden_pulverturm_restaurant_002",
+      "intent_en": "Do I pay at the table or bar?",
+      "text_local": "Zahlt man am Tisch oder an der Theke?",
+      "pronunciation": "tsAHlt-mahn-ahm-tIHsh-OHd-ahn-dehr-tEHkuh",
+      "formality": "standard",
+      "cultural_note": "In German restaurants, payment at the table is standard unless otherwise specified. The staff will bring the bill to your table.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch.",
+        "pronunciation": "ahm-tIHsh",
+        "translation_en": "At the table."
+      },
+      "responses": [
+        {
+          "english": "At the table.",
+          "phonetic": "ahm-tIHsh",
+          "french": "Am Tisch."
+        }
+      ]
+    },
+    {
+      "id": "dresden_pulverturm_restaurant_003",
+      "intent_en": "Where do we wait to be seated?",
+      "text_local": "Wo warten wir auf Platz?",
+      "pronunciation": "vOH-vAHrtuhn-veer-owf-plAHts",
+      "formality": "standard",
+      "cultural_note": "In many traditional restaurants, guests are greeted at the entrance and guided to their seats by staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eingang.",
+        "pronunciation": "ahm-EYEnAHng",
+        "translation_en": "At the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the entrance.",
+          "phonetic": "ahm-EYEnAHng",
+          "french": "Am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "dresden_pulverturm_restaurant_004",
+      "intent_en": "Is cellar seating available tonight?",
+      "text_local": "Gibt es heute Abend Kellerplätze?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-AHbuhnt-kEHlplEHtsuh",
+      "formality": "standard",
+      "cultural_note": "Keller seating refers to the traditional vaulted cellar area, which is a notable feature of this restaurant and adds to the dining experience.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Keller.",
+        "pronunciation": "yAHihm-kEHl",
+        "translation_en": "Yes, in the cellar."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the cellar.",
+          "phonetic": "yAHihm-kEHl",
+          "french": "Ja, im Keller."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

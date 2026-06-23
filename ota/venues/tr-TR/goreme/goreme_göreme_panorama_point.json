@@ -1,0 +1,100 @@
+{
+  "id": "goreme_göreme_panorama_point",
+  "name_en": "Göreme Panorama Point",
+  "name_local": "Görome Panorama",
+  "icon": "leaf",
+  "lat": 38.642089,
+  "lon": 34.8296234,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "goreme_göreme_panorama_point_001",
+      "intent_en": "Can I pay tour guide in cash?",
+      "text_local": "Rehbere bahşiş için nakit uygun mu?",
+      "pronunciation": "tUHr-rehhbehreenEH-nahkIHt-uhdehyehbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Ödeme yöntemi rehbere bağlıdır; doğrudan rehbere sormak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tercih ederler.",
+        "pronunciation": "ehvEHttehrdzhIHh-ehdehrlEHr",
+        "translation_en": "Yes, they prefer it."
+      },
+      "responses": [
+        {
+          "english": "Yes, they prefer it.",
+          "phonetic": "ehvEHttehrdzhIHh-ehdehrlEHr",
+          "french": "Evet, tercih ederler."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_panorama_point_002",
+      "intent_en": "Do I pay National Park fee here?",
+      "text_local": "Milli Park giriş ücretini burada mı ödüyorum?",
+      "pronunciation": "mihllIH-pAHrk-eerIHsh-uhdzhrehteenIH-bOOrahdah-moo-uhdUEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Açık alanlarda ödeme noktaları belirsizdir; park bekçisine sormak en güvenlisidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ücretsiz, hayır.",
+        "pronunciation": "uhdzhrEHtsihzhahyOOr",
+        "translation_en": "Free, no."
+      },
+      "responses": [
+        {
+          "english": "Free, no.",
+          "phonetic": "uhdzhrEHtsihzhahyOOr",
+          "french": "Ücretsiz, hayır."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_panorama_point_003",
+      "intent_en": "Can I pay tour guide in cash?",
+      "text_local": "Tur rehberine nakit ödeme yapılabilir mi?",
+      "pronunciation": "tUHr-rehhbehreenEH-nahkIHt-uhdEHmeh-yahpahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Payment methods vary per guide; it's best to confirm directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, nakit kabul edilir.",
+        "pronunciation": "ehvEHtnahkIHt-kahbUH-ehdeelIHr",
+        "translation_en": "Yes, cash is accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash is accepted.",
+          "phonetic": "ehvEHtnahkIHt-kahbUH-ehdeelIHr",
+          "french": "Evet, nakit kabul edilir."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_panorama_point_004",
+      "intent_en": "Where are the painted churches from here?",
+      "text_local": "Boyalı kiliseler buradan nerede?",
+      "pronunciation": "bohyahOO-keelEEsehlehr-bOOrahdahn-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Vadi ağı geniştir ve yollar işaretsizdir; bir rehbere danışmak gereklidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Patika soldan başlıyor.",
+        "pronunciation": "pahteekAH-sawdAHn-bahshlOOyawr",
+        "translation_en": "The trail starts from the left."
+      },
+      "responses": [
+        {
+          "english": "The trail starts from the left.",
+          "phonetic": "pahteekAH-sawdAHn-bahshlOOyawr",
+          "french": "Patika soldan başlıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

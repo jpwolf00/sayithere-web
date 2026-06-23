@@ -1,0 +1,115 @@
+{
+  "id": "aix_cathedrale_saint_sauveur",
+  "name_en": "Cathédrale Saint-Sauveur",
+  "name_local": "Cathédrale Saint-Sauveur",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "aix_stsauveur_001",
+      "intent_en": "Ask if the cathedral is open to visitors now",
+      "text_local": "La cathédrale est-elle ouverte aux visiteurs en ce moment ?",
+      "pronunciation": "lah kah-tay-DRAL eh-TEL oo-VEHRT oh vee-zee-TUHR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "Saint-Sauveur is an active place of worship and visiting hours may differ from service times. Entry is free.",
+      "responses": [
+        {
+          "english": "Yes, it's open until 6 PM.",
+          "phonetic": "wee, seh oo-VEHR zhoos-KAH deez-weet UHR",
+          "french": "Oui, c'est ouvert jusqu'à dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_stsauveur_002",
+      "intent_en": "Ask to see the famous Burning Bush triptych",
+      "text_local": "Où se trouve le triptyque du Buisson Ardent ?",
+      "pronunciation": "oo suh TROOV luh treep-TEEK doo bwee-SOHN ar-DAHN",
+      "formality": "polite",
+      "cultural_note": "The Burning Bush triptych (1476) by Nicolas Froment depicts King René of Anjou and his queen kneeling before the Virgin. It is usually kept closed and only opened on special occasions — ask the sacristan if a viewing is possible.",
+      "responses": [
+        {
+          "english": "Entry is free. Tower visits cost around 5-7 euros.",
+          "phonetic": "dahn lah NEF, soor lah GOHSH",
+          "french": "L'entrée est gratuite. La visite des tours coûte environ 5-7 euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_stsauveur_003",
+      "intent_en": "Ask if the baptistery is open to visitors",
+      "text_local": "Le baptistère paléochrétien est-il ouvert aux visiteurs ?",
+      "pronunciation": "luh bap-tees-TEHR pay-lay-oh-kray-TYEHN eh-TEEL oo-VEHR oh vee-zee-TUHR",
+      "formality": "polite",
+      "cultural_note": "The 5th-century baptistery is one of the oldest in France and still has its original Roman columns. The octagonal font in the centre was used for full-immersion baptism in early Christian times.",
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "wee, seh oo-VEHR",
+          "french": "Oui, c'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_stsauveur_004",
+      "intent_en": "Ask when the next mass is",
+      "text_local": "À quelle heure est la prochaine messe, s'il vous plaît ?",
+      "pronunciation": "ah kel UHR eh lah proh-SHEHN mes, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The cathedral is an active place of worship. Masses take place throughout the week. Visitor entry is free but respectful dress is expected. Photography inside during services is not permitted.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_stsauveur_005",
+      "intent_en": "Ask how to access the cloister",
+      "text_local": "Comment accède-t-on au cloître ?",
+      "pronunciation": "koh-MAHN ak-SED-tohn oh KLWAH-truh",
+      "formality": "polite",
+      "cultural_note": "The 12th-century Romanesque cloister is one of the loveliest in Provence. Access may require asking the sacristan.",
+      "responses": [
+        {
+          "english": "The entrance is through the cathedral, on the right.",
+          "phonetic": "lahn-TRAY eh par lah kah-tay-DRAL, soor lah DRWAHT",
+          "french": "L'entrée est par la cathédrale, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Cathedral",
+      "word_local": "La cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "Cloister",
+      "word_local": "Le cloître",
+      "pronunciation": "luh KLWAH-truh"
+    },
+    {
+      "word_en": "Baptistery",
+      "word_local": "Le baptistère",
+      "pronunciation": "luh bap-tees-TEHR"
+    },
+    {
+      "word_en": "Triptych",
+      "word_local": "Le triptyque",
+      "pronunciation": "luh treep-TEEK"
+    }
+  ]
+}

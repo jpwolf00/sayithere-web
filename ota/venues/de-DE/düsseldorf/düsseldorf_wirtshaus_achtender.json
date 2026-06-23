@@ -1,0 +1,100 @@
+{
+  "id": "düsseldorf_wirtshaus_achtender",
+  "name_en": "Wirtshaus Achtender",
+  "name_local": "Wirtshaus Achtender",
+  "icon": "fork.knife",
+  "lat": 51.2254018,
+  "lon": 6.7763137,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "düsseldorf_wirtshaus_achtender_001",
+      "intent_en": "Is the Biergarten open today?",
+      "text_local": "Hat der Biergarten heute auf?",
+      "pronunciation": "haht-dehr-bEErahrtuhn-hAWuhtuh-OWf",
+      "formality": "standard",
+      "cultural_note": "German beer gardens often depend on weather conditions for seasonal operation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, wenn das Wetter es zulässt.",
+        "pronunciation": "yAHvEHn-dahs-vEHt-ehs-tsoolEHst",
+        "translation_en": "Yes, if weather permits."
+      },
+      "responses": [
+        {
+          "english": "Yes, if weather permits.",
+          "phonetic": "yAHvEHn-dahs-vEHt-ehs-tsoolEHst",
+          "french": "Ja, wenn das Wetter es zulässt."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_wirtshaus_achtender_002",
+      "intent_en": "How do I order at the bar?",
+      "text_local": "Wie bestelle ich an der Theke?",
+      "pronunciation": "vee-buhshtEHluh-ihkh-ahn-dehr-tEHkuh",
+      "formality": "standard",
+      "cultural_note": "At German bar counters, customers typically order directly and pay immediately.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Einfach bestellen und zahlen.",
+        "pronunciation": "EYEnfAHkh-buhshtEHluhn-uhnt-tsAHluhn",
+        "translation_en": "Just order and pay."
+      },
+      "responses": [
+        {
+          "english": "Just order and pay.",
+          "phonetic": "EYEnfAHkh-buhshtEHluhn-uhnt-tsAHluhn",
+          "french": "Einfach bestellen und zahlen."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_wirtshaus_achtender_003",
+      "intent_en": "Do you have Achtender Dunkel on tap?",
+      "text_local": "Gibt es Achtender Dunkel vom Fass?",
+      "pronunciation": "EEpt-ehs-AHkhtuhnd-dUHnkuhl-fawm-fAHs",
+      "formality": "casual",
+      "cultural_note": "In German beer halls, 'vom Fass' commonly refers to draught beer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, haben wir.",
+        "pronunciation": "yAHhAHbuhn-veer",
+        "translation_en": "Yes, we have."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have.",
+          "phonetic": "yAHhAHbuhn-veer",
+          "french": "Ja, haben wir."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_wirtshaus_achtender_004",
+      "intent_en": "Can we get separate checks?",
+      "text_local": "Können wir getrennt zahlen?",
+      "pronunciation": "kUHnuhn-veer-uhtrEHnt-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Germany, separate checks for groups are widely accommodated in restaurants.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, wir machen das gerne.",
+        "pronunciation": "yAHveer-mAHkhuhn-dahs-EHrnuh",
+        "translation_en": "Yes, we can do that."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can do that.",
+          "phonetic": "yAHveer-mAHkhuhn-dahs-EHrnuh",
+          "french": "Ja, wir machen das gerne."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

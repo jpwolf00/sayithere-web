@@ -1,0 +1,122 @@
+{
+  "id": "mayrhofen_hippach_village_district",
+  "name_en": "Hippach Village District",
+  "name_local": "Dorf Hippach",
+  "icon": "map",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "mayrhofen_hippach_village_district_001",
+      "intent_en": "Where to buy local guest card",
+      "text_local": "Wo bekomme ich die Gästekarte?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dee-EHstehkAHrtuh",
+      "formality": "casual",
+      "cultural_note": "Gästekarten are typically sold at tourism offices or by local innkeepers. These locations are widely known in Alpine tourist villages.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Tourismusbüro oder beim Gastwirt.",
+        "pronunciation": "ihm-tOOrihsmUHsbuerOH-OHd-beyem-AHstvihrt",
+        "translation_en": "At the tourism office or with the innkeeper."
+      },
+      "responses": [
+        {
+          "english": "At the tourism office or with the innkeeper.",
+          "phonetic": "ihm-tOOrihsmUHsbuerOH-OHd-beyem-AHstvihrt",
+          "french": "Im Tourismusbüro oder beim Gastwirt."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_village_district_002",
+      "intent_en": "Where to get regional bus to Innsbruck",
+      "text_local": "Wo fährt der Bus nach Innsbruck ab?",
+      "pronunciation": "vOH-fEHrt-dehr-bUHs-nahkh-IHnsbruhk-AHp",
+      "formality": "standard",
+      "cultural_note": "Regional buses to Innsbruck depart from the main bus station in Mayrhofen, not directly from Dorf Hippach. Travelers may need assistance locating the correct stop.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Dorfplatz in Hippach.",
+        "pronunciation": "ahm-dAWrfplahts-ihn-hIHpahkh",
+        "translation_en": "At the village square in Hippach."
+      },
+      "responses": [
+        {
+          "english": "At the village square in Hippach.",
+          "phonetic": "ahm-dAWrfplahts-ihn-hIHpahkh",
+          "french": "Am Dorfplatz in Hippach."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_village_district_003",
+      "intent_en": "Where to buy valley ski bus tickets",
+      "text_local": "Wo bekomme ich Skipässe fürs Tal?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-skEEpehsuh-fUErs-tAHl",
+      "formality": "casual",
+      "cultural_note": "Skipässe fürs Tal refers to ski bus tickets for the valley routes. Ticket counters are typically located in village centers or near bus stops.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Dorf Hippach.",
+        "pronunciation": "ahm-shAHlt-ihm-dAWrf-hIHpahkh",
+        "translation_en": "At the ticket counter in Dorf Hippach."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter in Dorf Hippach.",
+          "phonetic": "ahm-shAHlt-ihm-dAWrf-hIHpahkh",
+          "french": "Am Schalter im Dorf Hippach."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_village_district_004",
+      "intent_en": "Where is Dorf Hippach center",
+      "text_local": "Wo ist das Zentrum von Dorf Hippach?",
+      "pronunciation": "vOH-ihst-dahs-tsEHntruhm-fawn-dAWrf-hIHpahkh",
+      "formality": "casual",
+      "cultural_note": "Dorf Hippach center is a small village core with a church as a landmark. Directions should guide to this central area rather than a specific building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Dorfkern bei der Kirche.",
+        "pronunciation": "ihm-dAWrfkn-beye-dehr-kIHrkhuh",
+        "translation_en": "In the village core near the church."
+      },
+      "responses": [
+        {
+          "english": "In the village core near the church.",
+          "phonetic": "ihm-dAWrfkn-beye-dehr-kIHrkhuh",
+          "french": "Im Dorfkern bei der Kirche."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_village_district_005",
+      "intent_en": "Where is Zillertaler Höhenstraße toll",
+      "text_local": "Wo ist die Mautstelle Zillertaler Höhenstraße?",
+      "pronunciation": "vOH-ihst-dee-mOWtshtehluh-tsIHltAHl-hUHuhnstrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Mautstelle implies a toll booth, often located at the start of scenic mountain roads. Directions should guide travelers to the access point, not the road itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei der Auffahrt zur Höhenstraße.",
+        "pronunciation": "beye-dehr-OWffAHrt-tsoor-hUHuhnstrAHsuh",
+        "translation_en": "At the entrance to the Höhenstraße."
+      },
+      "responses": [
+        {
+          "english": "At the entrance to the Höhenstraße.",
+          "phonetic": "beye-dehr-OWffAHrt-tsoor-hUHuhnstrAHsuh",
+          "french": "Bei der Auffahrt zur Höhenstraße."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

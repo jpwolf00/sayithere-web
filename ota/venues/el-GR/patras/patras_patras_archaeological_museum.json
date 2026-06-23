@@ -1,0 +1,122 @@
+{
+  "id": "patras_patras_archaeological_museum",
+  "name_en": "Patras Archaeological Museum",
+  "name_local": "Αρχαιολογικό Μουσείο Πάτρας",
+  "icon": "building.columns",
+  "lat": 38.246242,
+  "lon": 21.7350847,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "patras_patras_archaeological_museum_001",
+      "intent_en": "Where is the Saint Andrew artifacts room",
+      "text_local": "Πού βρίσκονται τα εκθέματα του Αγίου Ανδρέα;",
+      "pronunciation": "pOO-vrEEskohdEH-tah-ehkthEHmahtAH-too-ahyEEoo-ahnthrEHah",
+      "formality": "standard",
+      "cultural_note": "Η αναφορά στον Άγιο Ανδρέα ως προστάτη της πόλης των Πατρών αναδεικνύει την τοπική θρησκευτική και ιστορική σημασία του.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην αίθουσα των χριστιανικών ευρημάτων.",
+        "pronunciation": "steen-EHthoosAH-tohn-khrEEsteeAHneekOHn-EHvreemAHtohn",
+        "translation_en": "In the Christian artifacts hall."
+      },
+      "responses": [
+        {
+          "english": "In the Christian artifacts hall.",
+          "phonetic": "steen-EHthoosAH-tohn-khrEEsteeAHneekOHn-EHvreemAHtohn",
+          "french": "Στην αίθουσα των χριστιανικών ευρημάτων."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_archaeological_museum_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να νοικιάσω οπτικοακουστικό οδηγό;",
+      "pronunciation": "pOO-bohrOH-nah-neeAHsoh-ksEHnahghOH",
+      "formality": "polite",
+      "cultural_note": "Η εστίαση στη χρήση του όρου 'ξεναγός' αντί για 'audio guide' αποτελεί ένδειξη της προτίμησης του μουσείου για προσωπική ξενάγηση, διατηρώντας τον ανθρωποκεντρικό χαρακτήρα της εμπειρίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο της εισόδου, αριστερά.",
+        "pronunciation": "stoh-tahmEEoh-tees-eesOHthooAHreestehrAH",
+        "translation_en": "At the ticket desk, next to the entrance, you can get an audio guide."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk, next to the entrance, you can get an audio guide.",
+          "phonetic": "stoh-tahmEEoh-tees-eesOHthooAHreestehrAH",
+          "french": "Στο ταμείο της εισόδου, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_archaeological_museum_003",
+      "intent_en": "Is combined ticket available",
+      "text_local": "Υπάρχει δυνατότητα συνδυαστικής εισόδου;",
+      "pronunciation": "eepAHrkhee-thEEnahtOHteetAH-sEEntheeAHsteeEEs-eesOHthoo",
+      "formality": "standard",
+      "cultural_note": "Η χρήση του όρου 'συνδυαστική εισιτήριο' αντικατοπτρίζει την πρακτική πολλών μουσείων να προσφέρουν εισιτήρια σε προσιτές τιμές για πολλαπλές επισκέψεις εντός μιας χρονικής περιόδου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ρωτήστε στον Ταμία.",
+        "pronunciation": "nEHrohtEEsteh-stohn-dahmEEah",
+        "translation_en": "Yes, ask at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask at the cashier.",
+          "phonetic": "nEHrohtEEsteh-stohn-dahmEEah",
+          "french": "Ναι, ρωτήστε στον Ταμία."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_archaeological_museum_004",
+      "intent_en": "Is EU student entry free",
+      "text_local": "Η είσοδος είναι δωρεάν για φοιτητές ΕΕ;",
+      "pronunciation": "ee-EEsohthOHs-EEneh-thOHrehAHn-yAH-fEEteetEHs-EHpseelOHnEHpseelOHn",
+      "formality": "standard",
+      "cultural_note": "Η πολιτική δωρεάν εισόδου για φοιτητές εντός της ΕΕ αποτελεί κοινή πρακτική στα περισσότερα μουσεία της Ευρώπης, προωθώντας την εκπαιδευτική προσβασιμότητα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, με επίδειξη φοιτητικής ταυτότητας.",
+        "pronunciation": "nEHmeh-ehpEEtheeksEE-fEEteeteeEEs-tahftOHteetAHs",
+        "translation_en": "Yes, with student ID."
+      },
+      "responses": [
+        {
+          "english": "Yes, with student ID.",
+          "phonetic": "nEHmeh-ehpEEtheeksEE-fEEteeteeEEs-tahftOHteetAHs",
+          "french": "Ναι, με επίδειξη φοιτητικής ταυτότητας."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_archaeological_museum_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η μυκηναϊκή αίθουσα;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-sEElohyEE-teez-mEEeeneyeEEs-EHpohkhEEs",
+      "formality": "standard",
+      "cultural_note": "Οι πολιτιστικές αναφορές στη συλλογή της μυκηναϊκής εποχής δίνουν έμφαση στην ιστορική συνέχεια, καθώς η συγκεκριμένη συλλογή αποτελεί σημαντικό κεφάλαιο της ελληνικής προϊστορίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά της εισόδου, μετά την προϊστορική.",
+        "pronunciation": "AHreestehrAH-tees-eesOHthoomehtAH-teem-brOHihstohreeEE",
+        "translation_en": "The Mycenaean gallery is next to the prehistoric collection, to the left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "The Mycenaean gallery is next to the prehistoric collection, to the left of the entrance.",
+          "phonetic": "AHreestehrAH-tees-eesOHthoomehtAH-teem-brOHihstohreeEE",
+          "french": "Αριστερά της εισόδου, μετά την προϊστορική."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

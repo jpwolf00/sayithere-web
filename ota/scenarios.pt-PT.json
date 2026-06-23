@@ -1,0 +1,4193 @@
+{
+  "scenarios": [
+    {
+      "id": "general",
+      "name_en": "General Phrases",
+      "name_local": "Frases gerais",
+      "icon": "globe",
+      "phrases": [
+        {
+          "id": "pt_gen_001",
+          "intent_en": "Say hello politely",
+          "text_local": "Olá, bom dia.",
+          "pronunciation": "oh-LAH, bohm DEE-ah.",
+          "formality": "standard",
+          "cultural_note": "Use bom dia in the morning; boa tarde later.",
+          "speech_act": "statement",
+          "expects_reply": false
+        },
+        {
+          "id": "pt_gen_002",
+          "intent_en": "Ask for help politely",
+          "text_local": "Pode ajudar-me, por favor?",
+          "pronunciation": "POH-deh ah-zhoo-DAR-meh, por fah-VOR?",
+          "formality": "polite",
+          "cultural_note": "A polite opener works well with staff and service desks.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Claro, diga.",
+            "pronunciation": "KLAH-roh, DEE-gah.",
+            "translation_en": "Of course, go ahead."
+          }
+        },
+        {
+          "id": "pt_gen_003",
+          "intent_en": "Ask where the bathroom is",
+          "text_local": "Onde fica a casa de banho?",
+          "pronunciation": "OHN-deh FEE-kah ah KAH-zah deh BAH-nyoh?",
+          "formality": "polite",
+          "cultural_note": "This is the standard everyday phrase in Portugal.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "À direita, no fundo.",
+            "pronunciation": "ah dee-RYE-tah, noh FOON-doh.",
+            "translation_en": "To the right, at the back."
+          }
+        },
+        {
+          "id": "pt_gen_004",
+          "intent_en": "Ask if staff speak English",
+          "text_local": "Fala inglês?",
+          "pronunciation": "FAH-lah een-GLESH?",
+          "formality": "standard",
+          "cultural_note": "Short and common when you need to switch languages quickly.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Só um pouco.",
+            "pronunciation": "SOH oom POO-koh.",
+            "translation_en": "Just a little."
+          }
+        },
+        {
+          "id": "pt_gen_005",
+          "intent_en": "Say thank you",
+          "text_local": "Muito obrigado.",
+          "pronunciation": "MOY-toh oh-bree-GAH-doo.",
+          "formality": "standard",
+          "cultural_note": "Men say obrigado; women say obrigada.",
+          "speech_act": "statement",
+          "expects_reply": false
+        },
+        {
+          "id": "pt_gen_006",
+          "intent_en": "Say please",
+          "text_local": "Por favor.",
+          "pronunciation": "por fah-VOR.",
+          "formality": "standard",
+          "cultural_note": "Used in almost every polite request.",
+          "speech_act": "statement",
+          "expects_reply": false
+        },
+        {
+          "id": "pt_gen_007",
+          "intent_en": "Say sorry / excuse me",
+          "text_local": "Desculpe.",
+          "pronunciation": "deh-SKOOL-peh.",
+          "formality": "standard",
+          "cultural_note": "Use to get attention or apologize.",
+          "speech_act": "statement",
+          "expects_reply": false
+        },
+        {
+          "id": "pt_gen_008",
+          "intent_en": "Ask how much something costs",
+          "text_local": "Quanto custa isto?",
+          "pronunciation": "KWAN-too KOOSH-tah EE-sh-too?",
+          "formality": "standard",
+          "cultural_note": "Isto means 'this' — point to what you're asking about.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Custa cinco euros.",
+            "pronunciation": "KOOSH-tah SEEN-koo OH-roosh.",
+            "translation_en": "It costs five euros."
+          }
+        },
+        {
+          "id": "pt_gen_009",
+          "intent_en": "Say I don't understand",
+          "text_local": "Não percebo.",
+          "pronunciation": "now peh-SEH-boo.",
+          "formality": "standard",
+          "cultural_note": "Use não percebo or não entendo interchangeably.",
+          "speech_act": "statement",
+          "expects_reply": false
+        },
+        {
+          "id": "pt_gen_010",
+          "intent_en": "Ask someone to speak slowly",
+          "text_local": "Pode falar mais devagar?",
+          "pronunciation": "POH-deh fah-LAR mysh deh-vah-GAR?",
+          "formality": "polite",
+          "cultural_note": "Portuguese can sound fast to non-native ears.",
+          "speech_act": "request",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_gen_011",
+          "intent_en": "Say I speak a little Portuguese",
+          "text_local": "Falo um pouco de português.",
+          "pronunciation": "FAH-loo oom POO-koh deh pohr-too-GEZ.",
+          "formality": "standard",
+          "cultural_note": "Locals appreciate the effort.",
+          "speech_act": "statement",
+          "expects_reply": false
+        },
+        {
+          "id": "pt_gen_012",
+          "intent_en": "Ask for the bill",
+          "text_local": "A conta, por favor.",
+          "pronunciation": "ah KOHN-tah, por fah-VOR.",
+          "formality": "polite",
+          "cultural_note": "Tipping is not mandatory but appreciated.",
+          "speech_act": "request",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_gen_013",
+          "intent_en": "Say it's delicious",
+          "text_local": "Está delicioso.",
+          "pronunciation": "es-TAH deh-lee-see-OH-zoo.",
+          "formality": "standard",
+          "cultural_note": "Portuguese food is a point of pride.",
+          "speech_act": "statement",
+          "expects_reply": false
+        },
+        {
+          "id": "pt_gen_014",
+          "intent_en": "Ask if card is accepted",
+          "text_local": "Aceitam cartão?",
+          "pronunciation": "ah-seh-EYTAM kar-TAHN?",
+          "formality": "standard",
+          "cultural_note": "Most places accept cards, but small shops may not.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Sim, aceitamos.",
+            "pronunciation": "seeng, ah-seh-EE-tah-moosh.",
+            "translation_en": "Yes, we accept."
+          }
+        },
+        {
+          "id": "pt_gen_015",
+          "intent_en": "Ask someone to speak more slowly",
+          "text_local": "Pode falar mais devagar, por favor?",
+          "pronunciation": "poo-deh FAH-lar mysh deh-VAH-gahr, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Portuguese speakers are generally patient with language learners.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Of course! I'll repeat more slowly.",
+              "phonetic": "KLAR-ooh! vooh reh-peh-TEER mysh deh-VAH-gahr",
+              "local": "Claro! Vou repetir mais devagar."
+            },
+            {
+              "english": "No problem, I'll speak quieter.",
+              "phonetic": "sem proh-BLEH-mah, FAH-looh mysh BYY-shoo",
+              "local": "Sem problema, falo mais baixo."
+            }
+          ]
+        },
+        {
+          "id": "pt_gen_016",
+          "intent_en": "Ask someone to repeat or write it down",
+          "text_local": "Pode repetir? Ou escrever?",
+          "pronunciation": "poo-deeh reh-peh-TEER? oo es-kreh-VER",
+          "formality": "polite",
+          "cultural_note": "Asking someone to write down prices, addresses, or names is very effective.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Sure, here you go.",
+              "phonetic": "KLAR-ooh, ah-KEE ES-tah",
+              "local": "Claro, aqui está."
+            },
+            {
+              "english": "I'll write it down for you.",
+              "phonetic": "vooh es-kreh-VER PAH-rah see",
+              "local": "Vou escrever para si."
+            }
+          ]
+        },
+        {
+          "id": "pt_gen_017",
+          "intent_en": "Ask if credit cards are accepted",
+          "text_local": "Aceitam cartões?",
+          "pronunciation": "ah-say-TAYM Kahr-toensh",
+          "formality": "standard",
+          "cultural_note": "Portugal is increasingly card-friendly, but small shops may be cash-only.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, all cards.",
+              "phonetic": "seeng, TOH-dooz osh Kahr-toensh",
+              "local": "Sim, todos os cartões."
+            },
+            {
+              "english": "No, cash only.",
+              "phonetic": "nowng, soh dee-nyay-roo",
+              "local": "Não, só dinheiro."
+            }
+          ]
+        },
+        {
+          "id": "pt_gen_018",
+          "intent_en": "Say you're just looking",
+          "text_local": "Estou só a olhar.",
+          "pronunciation": "es-TOH soh ah oh-LAR",
+          "formality": "polite",
+          "cultural_note": "Useful in shops when a salesperson approaches.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Sure, tell me if you need help.",
+              "phonetic": "KLAR-ooh, DEE-gah seh preh-see-ZAR deh AH-oo-dah",
+              "local": "Claro, diga se precisar de ajuda."
+            },
+            {
+              "english": "I'm at your service.",
+              "phonetic": "es-TOH ah dis-poh-zee-SHOWNG",
+              "local": "Estou à disposição."
+            }
+          ]
+        },
+        {
+          "id": "pt_gen_019",
+          "intent_en": "Ask what time it is",
+          "text_local": "Que horas são?",
+          "pronunciation": "keh OR-ash sowng",
+          "formality": "standard",
+          "cultural_note": "Portuguese use 24-hour time formally. Punctuality varies.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's three o'clock.",
+              "phonetic": "sowng traysh OR-ash",
+              "local": "São três horas."
+            },
+            {
+              "english": "It's half past one.",
+              "phonetic": "sowng ey MYEH-yah",
+              "local": "São e meia."
+            }
+          ]
+        },
+        {
+          "id": "pt_gen_020",
+          "intent_en": "Ask for the WiFi password",
+          "text_local": "Qual é a password do WiFi?",
+          "pronunciation": "kwal eh ah pahs-SWORD doh WY-fy",
+          "formality": "standard",
+          "cultural_note": "WiFi is widely available in Portuguese cafés and hotels.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "It's on the receipt.",
+              "phonetic": "ESHTAH nooh reh-SEE-booh",
+              "local": "Está no recibo."
+            },
+            {
+              "english": "I'll tell you now.",
+              "phonetic": "DEE-goo-lyeh ah-GOH-rah",
+              "local": "Digo-lhe agora."
+            }
+          ]
+        },
+        {
+          "id": "pt_gen_021",
+          "intent_en": "Ask if dogs are allowed",
+          "text_local": "Podem entrar cães?",
+          "pronunciation": "POH-dem en-TRAHR kayensh",
+          "formality": "polite",
+          "cultural_note": "Portugal is increasingly dog-friendly, especially in coastal areas.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, sure! Your dog is welcome.",
+              "phonetic": "seeng, KLAR-ooh! oh KOWNG ay byeng-VEEN-doo",
+              "local": "Sim, claro! O cão é bem-vindo."
+            },
+            {
+              "english": "Sorry not inside, but outside is okay.",
+              "phonetic": "een-fohr-too-nah-DAH-men-tee nowng ah-KEE, mahsh lah FORAH ESHTAH byeng",
+              "local": "Infelizmente não aqui, mas lá fora está bem."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "hello",
+          "word_local": "olá",
+          "pronunciation": "oh-LAH"
+        },
+        {
+          "word_en": "good morning",
+          "word_local": "bom dia",
+          "pronunciation": "bohm DEE-ah"
+        },
+        {
+          "word_en": "good afternoon",
+          "word_local": "boa tarde",
+          "pronunciation": "BOH-ah TAR-dzh"
+        },
+        {
+          "word_en": "good evening",
+          "word_local": "boa noite",
+          "pronunciation": "BOH-ah NOY-chee"
+        },
+        {
+          "word_en": "thank you",
+          "word_local": "obrigado/obrigada",
+          "pronunciation": "oh-bree-GAH-doo/oh-bree-GAH-dah"
+        },
+        {
+          "word_en": "please",
+          "word_local": "por favor",
+          "pronunciation": "por fah-VOR"
+        },
+        {
+          "word_en": "sorry",
+          "word_local": "desculpe",
+          "pronunciation": "deh-SKOOL-peh"
+        },
+        {
+          "word_en": "yes",
+          "word_local": "sim",
+          "pronunciation": "seeng"
+        },
+        {
+          "word_en": "no",
+          "word_local": "não",
+          "pronunciation": "nowng"
+        },
+        {
+          "word_en": "water",
+          "word_local": "água",
+          "pronunciation": "AH-gwah"
+        },
+        {
+          "word_en": "bread",
+          "word_local": "pão",
+          "pronunciation": "pahng"
+        },
+        {
+          "word_en": "beer",
+          "word_local": "cerveja",
+          "pronunciation": "sehr-VAY-zhah"
+        },
+        {
+          "word_en": "wine",
+          "word_local": "vinho",
+          "pronunciation": "VEEN-yoo"
+        },
+        {
+          "word_en": "coffee",
+          "word_local": "café",
+          "pronunciation": "kah-FEH"
+        },
+        {
+          "word_en": "fish",
+          "word_local": "peixe",
+          "pronunciation": "PEY-shih"
+        },
+        {
+          "word_en": "meat",
+          "word_local": "carne",
+          "pronunciation": "KAR-nih"
+        },
+        {
+          "word_en": "rice",
+          "word_local": "arroz",
+          "pronunciation": "ah-HOysh"
+        },
+        {
+          "word_en": "one",
+          "word_local": "um/uma",
+          "pronunciation": "oom/OO-mah"
+        },
+        {
+          "word_en": "two",
+          "word_local": "dois/duas",
+          "pronunciation": "doysh/DOO-ahsh"
+        },
+        {
+          "word_en": "three",
+          "word_local": "três",
+          "pronunciation": "trehsh"
+        },
+        {
+          "word_en": "four",
+          "word_local": "quatro",
+          "pronunciation": "KWAH-troo"
+        },
+        {
+          "word_en": "five",
+          "word_local": "cinco",
+          "pronunciation": "SEEN-koo"
+        },
+        {
+          "word_en": "left",
+          "word_local": "esquerda",
+          "pronunciation": "es-KEHR-dah"
+        },
+        {
+          "word_en": "right",
+          "word_local": "direita",
+          "pronunciation": "dee-RYE-tah"
+        },
+        {
+          "word_en": "street",
+          "word_local": "rua",
+          "pronunciation": "ROO-ah"
+        },
+        {
+          "word_en": "beach",
+          "word_local": "praia",
+          "pronunciation": "PRAI-ah"
+        },
+        {
+          "word_en": "train",
+          "word_local": "comboio",
+          "pronunciation": "kohm-BOY-oo"
+        },
+        {
+          "word_en": "taxi",
+          "word_local": "táxi",
+          "pronunciation": "TAK-sheesh"
+        },
+        {
+          "word": "WiFi",
+          "english": "WiFi",
+          "phonetic": "WY-fy"
+        },
+        {
+          "word": "Cão",
+          "english": "Dog",
+          "phonetic": "kowng"
+        },
+        {
+          "word": "Horas",
+          "english": "Hours/Time",
+          "phonetic": "OR-ash"
+        },
+        {
+          "word": "Cartão",
+          "english": "Card",
+          "phonetic": "Kahr-towng"
+        },
+        {
+          "word": "Dinheiro",
+          "english": "Money",
+          "phonetic": "dee-nyay-roo"
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name_en": "Restaurant",
+      "name_local": "Restaurante",
+      "icon": "fork.knife",
+      "phrases": [
+        {
+          "id": "pt_res_001",
+          "intent_en": "Ask for a table",
+          "text_local": "Uma mesa para duas pessoas, por favor.",
+          "pronunciation": "OO-mah MEH-zah PAH-rah DOO-ahsh peh-SOH-ahsh, por fah-VOR.",
+          "formality": "polite",
+          "cultural_note": "Reservations are recommended for dinner.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Claro, siga-me.",
+            "pronunciation": "KLAH-roh, SEE-gah-meh.",
+            "translation_en": "Of course, follow me."
+          }
+        },
+        {
+          "id": "pt_res_002",
+          "intent_en": "Ask for the menu",
+          "text_local": "Podia ver a ementa, por favor?",
+          "pronunciation": "POH-dee-ah vehr ah eh-MEN-tah, por fah-VOR?",
+          "formality": "polite",
+          "cultural_note": "Ementa is the Portuguese word for menu.",
+          "speech_act": "request",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_res_003",
+          "intent_en": "Ask for the daily special",
+          "text_local": "Qual é a prata da casa?",
+          "pronunciation": "Kwahl eh ah PRAH-tah dah KAH-zah?",
+          "formality": "standard",
+          "cultural_note": "Prata da casa means 'house specialty'.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_res_004",
+          "intent_en": "Order a drink",
+          "text_local": "Queria uma cerveja, por favor.",
+          "pronunciation": "keh-REE-ah OO-mah sehr-VAY-zhah, por fah-VOR.",
+          "formality": "polite",
+          "cultural_note": "Cerveja is beer; vinho is wine.",
+          "speech_act": "request",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_res_005",
+          "intent_en": "Ask about allergies",
+          "text_local": "Este prato contém glúten?",
+          "pronunciation": "ES-cheh PRAH-too kohm-TEHN GLOO-tehn?",
+          "formality": "polite",
+          "cultural_note": "Allergy awareness is growing but not universal.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_res_006",
+          "intent_en": "Compliment the chef",
+          "text_local": "Podia elogiar o chef, por favor?",
+          "pronunciation": "POH-dee-ah eh-loo-zh-YAR oo shef, por fah-VOR?",
+          "formality": "polite",
+          "cultural_note": "Portuguese chefs take great pride in their food.",
+          "speech_act": "request",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_res_007",
+          "intent_en": "Order a beer with your meal",
+          "text_local": "Uma cerveja para a refeição, por favor.",
+          "pronunciation": "OO-mah sehr-VAY-zhah PAH-rah ah reh-fay-SHOWNG, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Beer ('cerveja') with food is common in Portugal. Super Bock and Sagres are local favorites.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Super Bock or Sagres?",
+              "phonetic": "soo-PER bokh oo SAH-gresh",
+              "local": "Super Bock ou Sagres?"
+            },
+            {
+              "english": "Half or a full glass?",
+              "phonetic": "MYEH-yah oo oom KOH-poo",
+              "local": "Meia ou um copo?"
+            }
+          ]
+        },
+        {
+          "id": "pt_res_008",
+          "intent_en": "Order wine",
+          "text_local": "Um vinho verde, por favor.",
+          "pronunciation": "oom VEEN-yoo VER-deh, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Vinho Verde is Portugal's signature wine — light, slightly sparkling, and refreshing.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Red or white?",
+              "phonetic": "TEEN-toh oo BRAN-koo",
+              "local": "Tinto ou branco?"
+            },
+            {
+              "english": "House wine or by the bottle?",
+              "phonetic": "dah KAH-zah oo dah gah-RAH-fah",
+              "local": "Da casa ou da garrafa?"
+            }
+          ]
+        },
+        {
+          "id": "pt_res_009",
+          "intent_en": "Ask for tap water",
+          "text_local": "Posso pedir água da torneira?",
+          "pronunciation": "POH-sooh peh-DEER AH-gwah dah tor-NAY-rah",
+          "formality": "polite",
+          "cultural_note": "Free tap water is NOT standard in Portugal. You'll get bottled water (paid).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With or without carbonation?",
+              "phonetic": "komh oo sem gash",
+              "local": "Com ou sem gás?"
+            },
+            {
+              "english": "Only bottled water.",
+              "phonetic": "soh AH-gwah en-gah-rah-FAH-dah",
+              "local": "Só água engarrafada."
+            }
+          ]
+        },
+        {
+          "id": "pt_res_010",
+          "intent_en": "Ask for the bill",
+          "text_local": "A conta, por favor.",
+          "pronunciation": "ah KOO-tah, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "In Portugal, you must ask for the bill. They won't bring it until you ask.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I'll bring it right away.",
+              "phonetic": "zhah vooh trah-ZEHR",
+              "local": "Já vou trazer."
+            },
+            {
+              "english": "Together or separate?",
+              "phonetic": "noo-ME-roosh oo seh-pah-RAH-doo",
+              "local": "Numeros ou separado?"
+            }
+          ]
+        },
+        {
+          "id": "pt_res_011",
+          "intent_en": "Ask about tipping",
+          "text_local": "A gorjeta está incluída?",
+          "pronunciation": "ah gor-ZHEH-tah ESHTAH een-kloo-EEDAH",
+          "formality": "standard",
+          "cultural_note": "Tipping in Portugal: 5-10% is appreciated but not mandatory. Round up or leave small change.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Not mandatory, but appreciated.",
+              "phonetic": "nowng ay oh-bree-gah-TOH-ree-oo, mahsh ay ah-preh-see-AH-doo",
+              "local": "Não é obrigatório, mas é apreciado."
+            },
+            {
+              "english": "Whatever you prefer.",
+              "phonetic": "KOH-moo preh-feh-REER",
+              "local": "Como preferir."
+            }
+          ]
+        },
+        {
+          "id": "pt_res_012",
+          "intent_en": "Compliment the meal",
+          "text_local": "Estava delicioso! Muito obrigado.",
+          "pronunciation": "eshtah-VAH deh-lee-see-OH-zoo! MOY-toh oh-bree-GAH-doo",
+          "formality": "polite",
+          "cultural_note": "Portuguese are proud of their cuisine. A genuine compliment will be appreciated.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Thanks! I'll pass it to the chef.",
+              "phonetic": "oh-bree-GAH-doo! vooh trans-mee-TEER ow koh-zee-NYAY-roo",
+              "local": "Obrigado! Vou transmitir ao cozinheiro."
+            },
+            {
+              "english": "Glad you liked it!",
+              "phonetic": "keh bom keh gos-TOH",
+              "local": "Que bom que gostou!"
+            }
+          ]
+        },
+        {
+          "id": "pt_res_013",
+          "intent_en": "Ask about regional specialties",
+          "text_local": "O que é típico desta região?",
+          "pronunciation": "oh keh eh TEE-pee-koo DESHTAH reh-zhyOWNG",
+          "formality": "polite",
+          "cultural_note": "Portugal has incredible regional cuisine. Bacalhau (cod), pastéis de nata, and cataplana are must-tries.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Cod à Brás is the most famous.",
+              "phonetic": "bah-kah-LYOW ah BRAHSH ay oh mysh fah-MOH-zoo",
+              "local": "Bacalhau à Brás é o mais famoso."
+            },
+            {
+              "english": "Seafood cataplana!",
+              "phonetic": "kah-tah-PLAH-nah deh mah-REES-koo",
+              "local": "Cataplana de marisco!"
+            }
+          ]
+        },
+        {
+          "id": "pt_res_014",
+          "intent_en": "Ask for children's menu",
+          "text_local": "Têm algo para crianças?",
+          "pronunciation": "taym AH-goo PAH-rah kree-AHN-sash",
+          "formality": "polite",
+          "cultural_note": "Many Portuguese restaurants are family-friendly, especially in tourist areas.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Chicken nuggets with fries.",
+              "phonetic": "NAH-kooz komh bah-TAH-tash FREETAHS",
+              "local": "Nacos com batatas fritas."
+            },
+            {
+              "english": "We have a children's menu.",
+              "phonetic": "TEH-moosh MEH-noo een-fan-TEEL",
+              "local": "Temos menu infantil."
+            }
+          ]
+        },
+        {
+          "id": "pt_res_015",
+          "intent_en": "Ask about dessert",
+          "text_local": "O que têm de sobremesa?",
+          "pronunciation": "oh keh taym deh soh-breh-MEH-zah",
+          "formality": "polite",
+          "cultural_note": "Portuguese desserts are legendary: pastéis de nata, arroz doce, and pudim abade de Priscos.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Pastéis de nata, of course!",
+              "phonetic": "pahs-TEYSH deh NAH-tah, KLAR-ooh",
+              "local": "Pastéis de nata, claro!"
+            },
+            {
+              "english": "House rice pudding.",
+              "phonetic": "ah-ROZ DOH-seh dah KAH-zah",
+              "local": "Arroz doce da casa."
+            }
+          ]
+        },
+        {
+          "id": "pt_res_016",
+          "intent_en": "Ask about hot chocolate",
+          "text_local": "Um chocolate quente, por favor.",
+          "pronunciation": "oom shoh-koh-LAH-teh KEN-teh, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Portuguese hot chocolate is thick and rich, especially in Lisbon's historic cafés.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With or without cream?",
+              "phonetic": "komh oo sem NAHT-ash",
+              "local": "Com ou sem natas?"
+            },
+            {
+              "english": "With toast!",
+              "phonetic": "komh toh-RAH-dash",
+              "local": "Com torradas!"
+            }
+          ]
+        },
+        {
+          "id": "pt_res_017",
+          "intent_en": "Ask if you can pay by card",
+          "text_local": "Posso pagar com cartão?",
+          "pronunciation": "POH-sooh pah-GAR komh Kahr-towng",
+          "formality": "standard",
+          "cultural_note": "Most Portuguese restaurants accept cards now, but smaller ones may prefer cash.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, all cards.",
+              "phonetic": "seeng, TOH-dooz osh Kahr-toensh",
+              "local": "Sim, todos os cartões."
+            },
+            {
+              "english": "Cash only, sorry.",
+              "phonetic": "soh dee-nyay-roo, des-KOOL-peh",
+              "local": "Só dinheiro, desculpe."
+            }
+          ]
+        },
+        {
+          "id": "pt_res_018",
+          "intent_en": "Ask for a high chair",
+          "text_local": "Têm cadeira alta para bebé?",
+          "pronunciation": "taym kah-DAY-rah AL-tah PAH-rah BEH-beh",
+          "formality": "polite",
+          "cultural_note": "Portuguese restaurants are generally family-friendly.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, I'll get one.",
+              "phonetic": "seeng, vooh boos-KAR OO-mah",
+              "local": "Sim, vou buscar uma."
+            },
+            {
+              "english": "Sorry, we don't have one.",
+              "phonetic": "een-fohr-too-nah-DAH-men-tee nowng TEH-moosh",
+              "local": "Infelizmente não temos."
+            }
+          ]
+        },
+        {
+          "id": "pt_res_019",
+          "intent_en": "Ask about the soup of the day",
+          "text_local": "Qual é a sopa de hoje?",
+          "pronunciation": "kwal eh ah SOH-pah deh OH-zh-eh",
+          "formality": "standard",
+          "cultural_note": "Many Portuguese restaurants serve a daily soup ('sopa do dia') — often caldo verde.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Caldo verde today.",
+              "phonetic": "KAL-doo VER-deh OH-zh-eh",
+              "local": "Caldo verde hoje."
+            },
+            {
+              "english": "Vegetable soup.",
+              "phonetic": "SOH-pah deh leh-GOO-mesh",
+              "local": "Sopa de legumes."
+            }
+          ]
+        },
+        {
+          "id": "pt_res_020",
+          "intent_en": "Ask for extra bread",
+          "text_local": "Mais pão, por favor.",
+          "pronunciation": "mysh pawng, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Portuguese bread is excellent. Most restaurants serve bread with olives and cheese.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Sure, I'll bring more.",
+              "phonetic": "KLAR-ooh, TRAH-goo mysh",
+              "local": "Claro, trago mais."
+            },
+            {
+              "english": "With olive oil and olives?",
+              "phonetic": "komh ah-ZAY-teh ey ah-zay-TOH-nash",
+              "local": "Com azeite e azeitonas?"
+            }
+          ]
+        },
+        {
+          "id": "pt_res_021",
+          "intent_en": "Ask if a dish is vegetarian",
+          "text_local": "Isto é vegetariano?",
+          "pronunciation": "EES-toh ay veh-zheh-tah-ree-AH-noo",
+          "formality": "standard",
+          "cultural_note": "Vegetarian options are growing in Portugal, but traditional cuisine is meat-heavy.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, completely vegetarian.",
+              "phonetic": "seeng, kom-pleh-tah-men-tee veh-zheh-tah-ree-AH-noo",
+              "local": "Sim, completamente vegetariano."
+            },
+            {
+              "english": "No, it has cod.",
+              "phonetic": "nowng, LEH-vah bah-kah-LYOW",
+              "local": "Não, leva bacalhau."
+            }
+          ]
+        },
+        {
+          "id": "pt_res_022",
+          "intent_en": "Say the meal was delicious",
+          "text_local": "Estava fantástico! Muito obrigado.",
+          "pronunciation": "eshtah-VAH fahn-TAS-tee-koo! MOY-toh oh-bree-GAH-doo",
+          "formality": "polite",
+          "cultural_note": "Portuguese take pride in their food. A compliment will make their day.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Thanks! I'll tell the chef.",
+              "phonetic": "oh-bree-GAH-doo! vooh deh-ZEER ow koh-zee-NYAY-roo",
+              "local": "Obrigado! Vou dizer ao cozinheiro."
+            },
+            {
+              "english": "Glad you appreciated it!",
+              "phonetic": "keh bom keh ah-preh-see-OH",
+              "local": "Que bom que apreciou!"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "menu",
+          "word_local": "ementa",
+          "pronunciation": "eh-MEN-tah"
+        },
+        {
+          "word_en": "water",
+          "word_local": "água",
+          "pronunciation": "AH-gwah"
+        },
+        {
+          "word_en": "bread",
+          "word_local": "pão",
+          "pronunciation": "pahng"
+        },
+        {
+          "word_en": "beer",
+          "word_local": "cerveja",
+          "pronunciation": "sehr-VAY-zhah"
+        },
+        {
+          "word_en": "wine",
+          "word_local": "vinho",
+          "pronunciation": "VEEN-yoo"
+        },
+        {
+          "word_en": "fish",
+          "word_local": "peixe",
+          "pronunciation": "PEY-shih"
+        },
+        {
+          "word_en": "meat",
+          "word_local": "carne",
+          "pronunciation": "KAR-nih"
+        },
+        {
+          "word_en": "rice",
+          "word_local": "arroz",
+          "pronunciation": "ah-HOysh"
+        },
+        {
+          "word_en": "bill",
+          "word_local": "conta",
+          "pronunciation": "KOHN-tah"
+        },
+        {
+          "word_en": "tip",
+          "word_local": "gorjeta",
+          "pronunciation": "gor-ZHEH-tah"
+        },
+        {
+          "word": "Cerveja",
+          "english": "Beer",
+          "phonetic": "sehr-VAY-zhah"
+        },
+        {
+          "word": "Vinho Verde",
+          "english": "Green wine",
+          "phonetic": "VEEN-yoo VER-deh"
+        },
+        {
+          "word": "Conta",
+          "english": "Bill",
+          "phonetic": "KOO-tah"
+        },
+        {
+          "word": "Gorjeta",
+          "english": "Tip",
+          "phonetic": "gor-ZHEH-tah"
+        },
+        {
+          "word": "Vegetariano",
+          "english": "Vegetarian",
+          "phonetic": "veh-zheh-tah-ree-AH-noo"
+        },
+        {
+          "word": "Sobremesa",
+          "english": "Dessert",
+          "phonetic": "soh-breh-MEH-zah"
+        },
+        {
+          "word": "Sopa",
+          "english": "Soup",
+          "phonetic": "SOH-pah"
+        },
+        {
+          "word": "Pão",
+          "english": "Bread",
+          "phonetic": "powng"
+        },
+        {
+          "word": "Azeite",
+          "english": "Olive oil",
+          "phonetic": "ah-ZAY-teh"
+        },
+        {
+          "word": "Bacalhau",
+          "english": "Cod",
+          "phonetic": "bah-kah-LYOW"
+        },
+        {
+          "word": "Cataplana",
+          "english": "Seafood stew",
+          "phonetic": "kah-tah-PLAH-nah"
+        },
+        {
+          "word": "Pastel de nata",
+          "english": "Egg tart",
+          "phonetic": "pahs-TEEL deh NAH-tah"
+        },
+        {
+          "word": "Criança",
+          "english": "Child",
+          "phonetic": "kree-AHN-sah"
+        },
+        {
+          "word": "Cadeira alta",
+          "english": "High chair",
+          "phonetic": "kah-DAY-rah AL-tah"
+        },
+        {
+          "word": "Cozinheiro",
+          "english": "Chef",
+          "phonetic": "koh-zee-NYAY-roo"
+        },
+        {
+          "word": "Tinto",
+          "english": "Red (wine)",
+          "phonetic": "TEEN-toh"
+        },
+        {
+          "word": "Branco",
+          "english": "White (wine)",
+          "phonetic": "BRAN-koo"
+        },
+        {
+          "word": "Garrafa",
+          "english": "Bottle",
+          "phonetic": "gah-RAH-fah"
+        },
+        {
+          "word": "Copos",
+          "english": "Glasses",
+          "phonetic": "KOH-pooz"
+        },
+        {
+          "word": "Prato",
+          "english": "Plate/Dish",
+          "phonetic": "PRAH-tooh"
+        }
+      ]
+    },
+    {
+      "id": "cafe",
+      "name_en": "Café",
+      "name_local": "Café",
+      "icon": "cup.and.saucer",
+      "phrases": [
+        {
+          "id": "pt_caf_001",
+          "intent_en": "Order a coffee",
+          "text_local": "Um café, por favor.",
+          "pronunciation": "oom kah-FEH, por fah-VOR.",
+          "formality": "standard",
+          "cultural_note": "A 'café' in Portugal is an espresso.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Mais alguma coisa?",
+            "pronunciation": "mysh ah-GOO-mah KOY-zah?",
+            "translation_en": "Anything else?"
+          }
+        },
+        {
+          "id": "pt_caf_002",
+          "intent_en": "Order a milk coffee",
+          "text_local": "Um galão, por favor.",
+          "pronunciation": "oom gah-LOWNG, por fah-VOR.",
+          "formality": "standard",
+          "cultural_note": "A galão is a tall glass of coffee with milk — a Lisbon classic.",
+          "speech_act": "request",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_caf_003",
+          "intent_en": "Ask for a pastry",
+          "text_local": "Tem um pastel de nata?",
+          "pronunciation": "tehm oom pahs-TEHL deh NAH-tah?",
+          "formality": "casual",
+          "cultural_note": "Pastéis de nata are Portugal's iconic custard tarts.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_caf_004",
+          "intent_en": "Ask to sit inside or outside",
+          "text_local": "Posso sentar aqui dentro ou fora?",
+          "pronunciation": "POH-soo sehN-TAR ah-KEE DEHN-troo oo FOH-rah?",
+          "formality": "casual",
+          "cultural_note": "Outside seats are often cheaper.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_caf_005",
+          "intent_en": "Ask if WiFi is available",
+          "text_local": "Tem WiFi aqui?",
+          "pronunciation": "tehm WY-FY ah-KEE?",
+          "formality": "casual",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_caf_006",
+          "intent_en": "Ask what they recommend",
+          "text_local": "O que recomenda?",
+          "pronunciation": "oh keh reh-koh-MEN-dah",
+          "formality": "polite",
+          "cultural_note": "Portuguese cafés often have daily specials. Ask for recommendations!",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The chocolate cake is fresh.",
+              "phonetic": "oh BOH-loo deh shoh-koh-LAH-teh ay FREH-shoo",
+              "local": "O bolo de chocolate é fresco."
+            },
+            {
+              "english": "The apple tart is special.",
+              "phonetic": "ah TAR-teh deh mah-SYNG ay es-peh-see-AHL",
+              "local": "A tarte de maçã é especial."
+            }
+          ]
+        },
+        {
+          "id": "pt_caf_007",
+          "intent_en": "Ask if they have tea",
+          "text_local": "Têm chá?",
+          "pronunciation": "taym SHAH",
+          "formality": "polite",
+          "cultural_note": "Tea is less common than coffee in Portugal, but most cafés offer it.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Chamomile, mint or black?",
+              "phonetic": "kah-moh-MEE-lah, or-teh-LYNG oo PREH-tooh",
+              "local": "Camomila, hortelã ou preto?"
+            },
+            {
+              "english": "Only black.",
+              "phonetic": "soh PREH-tooh",
+              "local": "Só preto."
+            }
+          ]
+        },
+        {
+          "id": "pt_caf_008",
+          "intent_en": "Ask if they have non-dairy milk",
+          "text_local": "Têm leite de aveia?",
+          "pronunciation": "taym LEY-teh deh AH-vay-ah",
+          "formality": "polite",
+          "cultural_note": "Oat milk is increasingly available in Portuguese cafés.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, oat and soy.",
+              "phonetic": "seeng, AH-vay-ah eh SOH-zhah",
+              "local": "Sim, aveia e soja."
+            },
+            {
+              "english": "Sorry, only regular.",
+              "phonetic": "een-fohr-too-nah-DAH-men-tee soh nor-MAHL",
+              "local": "Infelizmente só normal."
+            }
+          ]
+        },
+        {
+          "id": "pt_caf_009",
+          "intent_en": "Ask about opening hours",
+          "text_local": "A que horas abrem?",
+          "pronunciation": "ah keh OR-ash AH-bren",
+          "formality": "casual",
+          "cultural_note": "Portuguese cafés typically open around 7-8am and close by 7-8pm.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "From 7 to 8pm.",
+              "phonetic": "dash SET ahsh VIN-teh OR-ash",
+              "local": "Das 7 às 20 horas."
+            },
+            {
+              "english": "Sundays from 9 to 7pm.",
+              "phonetic": "ow dee-MEEN-goo dahsh Noyng ahsh dee-NOWSH",
+              "local": "Ao domingo das 9 às 19."
+            }
+          ]
+        },
+        {
+          "id": "pt_caf_010",
+          "intent_en": "Compliment the coffee",
+          "text_local": "O café está excelente!",
+          "pronunciation": "oh kah-FEH ESHTAH ex-seh-LEN-teh",
+          "formality": "casual",
+          "cultural_note": "Portuguese appreciate compliments about their coffee.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Thanks! Brazilian beans.",
+              "phonetic": "oh-bree-GAH-doo! GRAY-oens brah-zee-LAY-roosh",
+              "local": "Obrigado! Grãos brasileiros."
+            },
+            {
+              "english": "Glad you liked it!",
+              "phonetic": "keh bom keh gos-TOH",
+              "local": "Que bom que gostou!"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "espresso",
+          "word_local": "café",
+          "pronunciation": "kah-FEH"
+        },
+        {
+          "word_en": "milk coffee",
+          "word_local": "galão",
+          "pronunciation": "gah-LOWNG"
+        },
+        {
+          "word_en": "double espresso",
+          "word_local": "café duplo",
+          "pronunciation": "kah-FEH DOO-ploo"
+        },
+        {
+          "word_en": "pastry",
+          "word_local": "pastel",
+          "pronunciation": "pahs-TEHL"
+        },
+        {
+          "word_en": "sugar",
+          "word_local": "açúcar",
+          "pronunciation": "ah-SOO-kar"
+        },
+        {
+          "word": "Chá",
+          "english": "Tea",
+          "phonetic": "shah"
+        },
+        {
+          "word": "Leite",
+          "english": "Milk",
+          "phonetic": "LEY-teh"
+        },
+        {
+          "word": "Aveia",
+          "english": "Oat",
+          "phonetic": "AH-vay-ah"
+        },
+        {
+          "word": "Bolo",
+          "english": "Cake",
+          "phonetic": "BOH-loo"
+        },
+        {
+          "word": "Horário",
+          "english": "Schedule/Hours",
+          "phonetic": "oh-RAH-ree-ooh"
+        }
+      ]
+    },
+    {
+      "id": "airport",
+      "name_en": "Airport",
+      "name_local": "Aeroporto",
+      "icon": "airplane",
+      "phrases": [
+        {
+          "id": "pt_air_001",
+          "intent_en": "Ask where to check in",
+          "text_local": "Onde é o balcão de check-in?",
+          "pronunciation": "OHN-deh eh oo bal-SOWNG deh shek-IN?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Fica no piso térreo.",
+            "pronunciation": "FEE-kah noo PEE-zoo TEHR-roo.",
+            "translation_en": "It's on the ground floor."
+          }
+        },
+        {
+          "id": "pt_air_002",
+          "intent_en": "Ask about the boarding gate",
+          "text_local": "Qual é o portão de embarque?",
+          "pronunciation": "Kwahl eh oo pohr-TOWNG deh eh-BAR-keh?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_air_003",
+          "intent_en": "Ask where to get a taxi",
+          "text_local": "Onde ficam os táxis?",
+          "pronunciation": "OHN-deh FEE-kam owsh TAK-sheesh?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_air_004",
+          "intent_en": "Ask about currency exchange",
+          "text_local": "Onde posso trocar dinheiro?",
+          "pronunciation": "OHN-deh POH-soh tro-KAR dee-NEY-roo?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_air_005",
+          "intent_en": "Ask about the metro to the city",
+          "text_local": "O metro vai ao centro?",
+          "pronunciation": "oo MEH-troo VY ow SEHN-troo?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "airport",
+          "word_local": "aeroporto",
+          "pronunciation": "ah-eh-roh-POOR-too"
+        },
+        {
+          "word_en": "flight",
+          "word_local": "voo",
+          "pronunciation": "voo"
+        },
+        {
+          "word_en": "gate",
+          "word_local": "portão",
+          "pronunciation": "pohr-TOWNG"
+        },
+        {
+          "word_en": "baggage",
+          "word_local": "bagagem",
+          "pronunciation": "bah-GAH-zhemo"
+        },
+        {
+          "word_en": "passport",
+          "word_local": "passaporte",
+          "pronunciation": "pah-sah-POOR-teh"
+        }
+      ]
+    },
+    {
+      "id": "train_station",
+      "name_en": "Train Station",
+      "name_local": "Estação de Comboio",
+      "icon": "tram",
+      "phrases": [
+        {
+          "id": "pt_train_001",
+          "intent_en": "Ask where to buy tickets",
+          "text_local": "Onde posso comprar bilhetes?",
+          "pronunciation": "OHN-deh POH-soh kohm-PRAHR bee-YEHT-esh?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Na bilheteira, à sua esquerda.",
+            "pronunciation": "nah bee-yeh-TEY-rah, ah sooh ah es-KEHR-dah.",
+            "translation_en": "At the ticket window, on your left."
+          }
+        },
+        {
+          "id": "pt_train_002",
+          "intent_en": "Ask about the next train to Lisbon",
+          "text_local": "Quando é o próximo comboio para Lisboa?",
+          "pronunciation": "KWAN-doo eh oo PROK-see-moo kohm-BOY-oo PAH-rah lee-ZBOH-ah?",
+          "formality": "standard",
+          "cultural_note": "Lisbon is the capital, served by frequent trains.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_train_003",
+          "intent_en": "Ask which platform",
+          "text_local": "De que plataforma parte o comboio?",
+          "pronunciation": "deh keh plah-tah-FOR-mah PAR-cheh oo kohm-BOY-oo?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_train_004",
+          "intent_en": "Ask about luggage storage",
+          "text_local": "Há cacifos para bagagens?",
+          "pronunciation": "ah kah-SEE-foosh PAH-rah bah-GAH-zhemoosh?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_train_005",
+          "intent_en": "Ask about the first class upgrade",
+          "text_local": "Posso subir para a primeira classe?",
+          "pronunciation": "POH-soo soo-BEER PAH-rah ah pree-MAY-rah KLAHSH?",
+          "formality": "polite",
+          "cultural_note": "First class is called 'primera classe'.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_train_006",
+          "intent_en": "Ask about the day pass",
+          "text_local": "Têm bilhete diário?",
+          "pronunciation": "taym BEE-yeh-teh dee-AH-ree-ooh",
+          "formality": "standard",
+          "cultural_note": "Day passes offer unlimited travel on certain routes.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, 10 euros for the whole day.",
+              "phonetic": "seeng, DZEH ooh-rosh PAH-rah oh dee-ah TOH-doo",
+              "local": "Sim, 10 euros para o dia todo."
+            },
+            {
+              "english": "Valid until midnight.",
+              "phonetic": "VAH-lee-doo ah-TEH MYEH-yah-NOY-teh",
+              "local": "Válido até meia-noite."
+            }
+          ]
+        },
+        {
+          "id": "pt_train_007",
+          "intent_en": "Ask where to buy a snack",
+          "text_local": "Onde posso comprar comida?",
+          "pronunciation": "ON-deh POH-sooh kom-PRAHR koh-MEE-dah",
+          "formality": "standard",
+          "cultural_note": "Portuguese train stations have bakeries and snack shops.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "On the ground floor, right.",
+              "phonetic": "nooh PEE-zoo TEH-roo, ah dey-SHEY-tah",
+              "local": "No piso térreo, à direita."
+            },
+            {
+              "english": "Next to the ticket office.",
+              "phonetic": "ow LAH-doo dah BEE-yeh-TAY-rah",
+              "local": "Ao lado da bilheteira."
+            }
+          ]
+        },
+        {
+          "id": "pt_train_008",
+          "intent_en": "Ask if you need to reserve a seat",
+          "text_local": "Preciso reservar lugar?",
+          "pronunciation": "preh-SEE-zoo reh-sehr-VAR LOO-gar",
+          "formality": "standard",
+          "cultural_note": "Seat reservations are optional on most Portuguese trains but recommended for long journeys.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Not required, but recommended.",
+              "phonetic": "nowng ay oh-bree-gah-TOH-ree-oo, mahsh reh-koh-mehn-DAH-doo",
+              "local": "Não é obrigatório, mas recomendado."
+            },
+            {
+              "english": "2 euros extra.",
+              "phonetic": "doosh ooh-rosh EK-STRA",
+              "local": "2 euros extra."
+            }
+          ]
+        },
+        {
+          "id": "pt_train_009",
+          "intent_en": "Ask about bike transport",
+          "text_local": "Posso levar a bicicleta no comboio?",
+          "pronunciation": "POH-sooh leh-VAR ah bee-see-KLEH-tah nooh kom-BOY-ooh",
+          "formality": "polite",
+          "cultural_note": "Bikes need a separate ticket on Portuguese trains. Book in advance.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, with a bike ticket.",
+              "phonetic": "seeng, komh BEE-yeh-teh deh bee-see-KLEH-tah",
+              "local": "Sim, com bilhete de bicicleta."
+            },
+            {
+              "english": "No, not during rush hour.",
+              "phonetic": "nowng nahsh OR-ash deh POHN-tah",
+              "local": "Não nas horas de ponta."
+            }
+          ]
+        },
+        {
+          "id": "pt_train_010",
+          "intent_en": "Ask about the lounge",
+          "text_local": "Onde é a sala de espera?",
+          "pronunciation": "ON-deh ay SAH-lah deh es-PEH-rah",
+          "formality": "standard",
+          "cultural_note": "Some Portuguese train stations have waiting lounges for first-class passengers.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "On platform 1, upstairs.",
+              "phonetic": "nah plah-tah-FOR-mah oon, em SEE-mah",
+              "local": "Na plataforma 1, em cima."
+            },
+            {
+              "english": "Only for first class.",
+              "phonetic": "soh PAH-rah pree-MAY-rah KLAH-seh",
+              "local": "Só para primeira classe."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "train",
+          "word_local": "comboio",
+          "pronunciation": "kohm-BOY-oo"
+        },
+        {
+          "word_en": "station",
+          "word_local": "estação",
+          "pronunciation": "es-tah-SOWNG"
+        },
+        {
+          "word_en": "ticket",
+          "word_local": "bilhete",
+          "pronunciation": "bee-YEHT-cheh"
+        },
+        {
+          "word_en": "platform",
+          "word_local": "plataforma",
+          "pronunciation": "plah-tah-FOR-mah"
+        },
+        {
+          "word_en": "schedule",
+          "word_local": "horário",
+          "pronunciation": "aw-RAH-ree-ooh"
+        },
+        {
+          "word": "Bilhete diário",
+          "english": "Day pass",
+          "phonetic": "BEE-yeh-teh dee-AH-ree-ooh"
+        },
+        {
+          "word": "Comboio regional",
+          "english": "Regional train",
+          "phonetic": "kom-BOY-ooh reh-zhyoh-NAHL"
+        },
+        {
+          "word": "Plataforma",
+          "english": "Platform",
+          "phonetic": "plah-tah-FOR-mah"
+        },
+        {
+          "word": "Lugar",
+          "english": "Seat",
+          "phonetic": "LOO-gar"
+        },
+        {
+          "word": "Bicicleta",
+          "english": "Bicycle",
+          "phonetic": "bee-see-KLEH-tah"
+        },
+        {
+          "word": "Primeira classe",
+          "english": "First class",
+          "phonetic": "pree-MAY-rah KLAH-seh"
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "name_en": "Hotel",
+      "name_local": "Hotel",
+      "icon": "bed.double",
+      "phrases": [
+        {
+          "id": "pt_hot_001",
+          "intent_en": "Check in",
+          "text_local": "Tenho uma reserva em nome de...",
+          "pronunciation": "TEHN-yoo OO-mah heh-ZEHR-vah ehm NOH-meh deh...",
+          "formality": "polite",
+          "cultural_note": "Have your passport ready.",
+          "speech_act": "statement",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Claro, o seu passaporte, por favor.",
+            "pronunciation": "KLAH-roh, oo sehoo pah-sah-POOR-teh, por fah-VOR.",
+            "translation_en": "Of course, your passport please."
+          }
+        },
+        {
+          "id": "pt_hot_002",
+          "intent_en": "Ask about breakfast",
+          "text_local": "A que horas é o pequeno-almoço?",
+          "pronunciation": "ah keh OH-rahsh eh oo peh-KEH-noo-AL-moh-soo?",
+          "formality": "standard",
+          "cultural_note": "Pequeno-almoço is Portuguese for breakfast.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_hot_003",
+          "intent_en": "Ask about WiFi",
+          "text_local": "Qual é a password do WiFi?",
+          "pronunciation": "Kwahl eh ah pah-SOO-oor-dooh doh WY-FY?",
+          "formality": "casual",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_hot_004",
+          "intent_en": "Ask for a later checkout",
+          "text_local": "Posso fazer checkout mais tarde?",
+          "pronunciation": "POH-sooh feh-ZER shek-OWT mysh TAR-dzh?",
+          "formality": "polite",
+          "cultural_note": "Late checkout may incur an extra charge.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_hot_005",
+          "intent_en": "Report a problem with the room",
+          "text_local": "Há um problema no meu quarto.",
+          "pronunciation": "ah oom proh-BLEH-mah noh mehoo KWAHR-too.",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "statement",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_hot_006",
+          "intent_en": "Ask for an extra towel",
+          "text_local": "Preciso de uma toalha extra, por favor.",
+          "pronunciation": "preh-SEE-zoo deh OO-mah toh-LYAH ek-STRA, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Portuguese hotel towels are thick and high quality.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I'll bring it right away.",
+              "phonetic": "zhah vooh leh-VAR",
+              "local": "Já vou levar."
+            },
+            {
+              "english": "Coming right up.",
+              "phonetic": "zhah kah-mee-NYOO",
+              "local": "Já caminho."
+            }
+          ]
+        },
+        {
+          "id": "pt_hot_007",
+          "intent_en": "Ask about parking",
+          "text_local": "Têm estacionamento?",
+          "pronunciation": "taym eshtah-see-oh-nah-MEN-tooh",
+          "formality": "standard",
+          "cultural_note": "Many Portuguese hotels have parking, but it may cost extra.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, in the underground garage.",
+              "phonetic": "seeng, nooh soob-SOH-looh",
+              "local": "Sim, no subsolo."
+            },
+            {
+              "english": "8 euros per night.",
+              "phonetic": "oh-toh ooh-rosh por NOY-teh",
+              "local": "8 euros por noite."
+            }
+          ]
+        },
+        {
+          "id": "pt_hot_008",
+          "intent_en": "Ask for a wake-up call",
+          "text_local": "Posso pedir um despertar?",
+          "pronunciation": "POH-sooh peh-DEER oom des-pahr-TAR",
+          "formality": "polite",
+          "cultural_note": "Portuguese hotels offer wake-up calls. Specify the time clearly.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "At what time?",
+              "phonetic": "ah keh OR-ash",
+              "local": "A que horas?"
+            },
+            {
+              "english": "Done.",
+              "phonetic": "FAY-tooh",
+              "local": "Feito."
+            }
+          ]
+        },
+        {
+          "id": "pt_hot_009",
+          "intent_en": "Ask about laundry service",
+          "text_local": "Têm serviço de lavandaria?",
+          "pronunciation": "taym ser-VEE-sooh deh lah-van-dah-REE-ah",
+          "formality": "polite",
+          "cultural_note": "Most hotels offer laundry, but it can be expensive.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, drop off by 9am.",
+              "phonetic": "seeng, en-treh-GAR ah-TEH ahsh Noyng",
+              "local": "Sim, entregar até às 9."
+            },
+            {
+              "english": "Sorry, no.",
+              "phonetic": "een-fohr-too-nah-DAH-men-tee nowng",
+              "local": "Infelizmente não."
+            }
+          ]
+        },
+        {
+          "id": "pt_hot_010",
+          "intent_en": "Ask about nearby restaurants",
+          "text_local": "Que restaurantes há por perto?",
+          "pronunciation": "keh res-toh-RAHN-teez ah por PER-tooh",
+          "formality": "polite",
+          "cultural_note": "Hotel staff can recommend local restaurants.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "The restaurant on the corner is great.",
+              "phonetic": "oh res-toh-RAHN-teh dah es-KEE-nah ay oh-TEEMoo",
+              "local": "O restaurante da esquina é ótimo."
+            },
+            {
+              "english": "I'll write down the address.",
+              "phonetic": "es-KREH-vooh en-dreh-SOH",
+              "local": "Escrevo o endereço."
+            }
+          ]
+        },
+        {
+          "id": "pt_hot_011",
+          "intent_en": "Check out",
+          "text_local": "Quero fazer o check-out, por favor.",
+          "pronunciation": "KEH-rooh feh-ZEHR oh CHEK-owt, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Standard checkout is 11am. Settle any charges at the same time.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Everything okay?",
+              "phonetic": "TOO-doo byeng",
+              "local": "Tudo bem?"
+            },
+            {
+              "english": "The bill, please.",
+              "phonetic": "ah KOO-tah, por fah-VOR",
+              "local": "A conta, por favor."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "room",
+          "word_local": "quarto",
+          "pronunciation": "KWAHR-too"
+        },
+        {
+          "word_en": "breakfast",
+          "word_local": "pequeno-almoço",
+          "pronunciation": "peh-KEH-noo-AL-moh-soo"
+        },
+        {
+          "word_en": "key",
+          "word_local": "chave",
+          "pronunciation": "SHAH-vih"
+        },
+        {
+          "word_en": "reception",
+          "word_local": "receção",
+          "pronunciation": "heh-seh-SOWNG"
+        },
+        {
+          "word_en": "towel",
+          "word_local": "toalha",
+          "pronunciation": "toh-AH-lyah"
+        },
+        {
+          "word": "Elevador",
+          "english": "Elevator",
+          "phonetic": "eh-leh-vah-DOR"
+        },
+        {
+          "word": "Escadas",
+          "english": "Stairs",
+          "phonetic": "esh-KAH-dash"
+        },
+        {
+          "word": "Casa de banho",
+          "english": "Bathroom",
+          "phonetic": "KAH-zah deh BAN-yoo"
+        },
+        {
+          "word": "Duche",
+          "english": "Shower",
+          "phonetic": "DOO-sh-eh"
+        },
+        {
+          "word": "Minibar",
+          "english": "Minibar",
+          "phonetic": "mee-nee-BAR"
+        },
+        {
+          "word": "Noite",
+          "english": "Night",
+          "phonetic": "NOY-teh"
+        }
+      ]
+    },
+    {
+      "id": "museum",
+      "name_en": "Museum",
+      "name_local": "Museu",
+      "icon": "building.columns",
+      "phrases": [
+        {
+          "id": "pt_mus_001",
+          "intent_en": "Ask about opening hours",
+          "text_local": "A que horas abre o museu?",
+          "pronunciation": "ah keh OH-rahsh AH-breh oo moo-ZEH-ooh?",
+          "formality": "polite",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Abre das dez às seis.",
+            "pronunciation": "AH-breh dahsh dehz ahsh seysh.",
+            "translation_en": "It opens from ten to six."
+          }
+        },
+        {
+          "id": "pt_mus_002",
+          "intent_en": "Ask about guided tours",
+          "text_local": "Há visitas guiadas em inglês?",
+          "pronunciation": "ah vee-ZEE-tahsh gee-AH-dahsh ehm een-GLEHSH?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_mus_003",
+          "intent_en": "Ask about free entry times",
+          "text_local": "Há entrada gratuita em algum horário?",
+          "pronunciation": "ah ehN-TRAH-dah gra-TOO-ee-tah ehm ah-GOOm aw-RAH-ree-ooh?",
+          "formality": "polite",
+          "cultural_note": "Many museums offer free entry on Sunday mornings.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_mus_004",
+          "intent_en": "Ask where the gift shop is",
+          "text_local": "Onde fica a loja de recordações?",
+          "pronunciation": "OHN-deh FEE-kah ah LOH-zhah deh heh-kawr-dah-SHOYNGsh?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_mus_005",
+          "intent_en": "Ask about guided tours",
+          "text_local": "Têm visitas guiadas?",
+          "pronunciation": "taym vee-ZEE-tash GEE-ah-dash",
+          "formality": "standard",
+          "cultural_note": "Guided tours are usually included in the ticket price at Portuguese museums.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Every hour, at 2pm.",
+              "phonetic": "ah KAH-dah ORAH, ahsh CHAY-toh-rseh",
+              "local": "A cada hora, às 14h."
+            },
+            {
+              "english": "Only in Portuguese.",
+              "phonetic": "soh em por-too-GESH",
+              "local": "Só em português."
+            }
+          ]
+        },
+        {
+          "id": "pt_mus_006",
+          "intent_en": "Ask if there's free admission",
+          "text_local": "A entrada é gratuita?",
+          "pronunciation": "ah en-TRAH-dah ay grah-TOO-ee-tah",
+          "formality": "standard",
+          "cultural_note": "Some Portuguese museums have free admission on certain days.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, Sunday mornings free.",
+              "phonetic": "seeng, dee-MEEN-gooz deh MA-NYANG GRREH-tish",
+              "local": "Sim, domingos de manhã grátis."
+            },
+            {
+              "english": "First Sunday of the month.",
+              "phonetic": "pree-MAY-roo dee-MEEN-goo dooh MES",
+              "local": "Primeiro domingo do mês."
+            }
+          ]
+        },
+        {
+          "id": "pt_mus_007",
+          "intent_en": "Ask about the museum shop",
+          "text_local": "Onde é a loja do museu?",
+          "pronunciation": "ON-deh ay LOH-zhah dooh moo-ZEH-ooh",
+          "formality": "standard",
+          "cultural_note": "Portuguese museum shops are excellent — great for azulejos (tiles) and crafts.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "On the ground floor, left.",
+              "phonetic": "nooh PEE-zoo TEH-roo, ah es-KER-dah",
+              "local": "No piso térreo, à esquerda."
+            },
+            {
+              "english": "Next to the exit.",
+              "phonetic": "ow LAH-doo dah SY-dah",
+              "local": "Ao lado da saída."
+            }
+          ]
+        },
+        {
+          "id": "pt_mus_008",
+          "intent_en": "Ask about cloakroom",
+          "text_local": "Têm guarda-volumes?",
+          "pronunciation": "taym GWAR-dah-voo-LYOENS",
+          "formality": "standard",
+          "cultural_note": "Large bags and coats must often be checked at Portuguese museums.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, in the basement.",
+              "phonetic": "seeng, nooh poh-RYOWNG",
+              "local": "Sim, no porão."
+            },
+            {
+              "english": "Small bag is fine.",
+              "phonetic": "MAH-lah peh-KEH-nah POH-deh leh-VAR",
+              "local": "Mala pequena pode levar."
+            }
+          ]
+        },
+        {
+          "id": "pt_mus_009",
+          "intent_en": "Ask about audio guide",
+          "text_local": "Têm audioguia em inglês?",
+          "pronunciation": "taym ow-dee-OH-gyeh em een-GLEHSH",
+          "formality": "standard",
+          "cultural_note": "Most major Portuguese museums offer audioguides in English.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, 3 euros extra.",
+              "phonetic": "seeng, treysh ooh-rosh EK-STRA",
+              "local": "Sim, 3 euros extra."
+            },
+            {
+              "english": "No, only in Portuguese.",
+              "phonetic": "nowng, soh em por-too-GESH",
+              "local": "Não, só em português."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "museum",
+          "word_local": "museu",
+          "pronunciation": "moo-ZEH-ooh"
+        },
+        {
+          "word_en": "exhibition",
+          "word_local": "exposição",
+          "pronunciation": "ex-poo-zee-SOWNG"
+        },
+        {
+          "word_en": "ticket",
+          "word_local": "bilhete",
+          "pronunciation": "bee-YEHT-cheh"
+        },
+        {
+          "word_en": "guide",
+          "word_local": "guia",
+          "pronunciation": "GEE-ah"
+        },
+        {
+          "word_en": "art",
+          "word_local": "arte",
+          "pronunciation": "AR-chee"
+        },
+        {
+          "word": "Sala",
+          "english": "Hall/Room",
+          "phonetic": "SAH-lah"
+        },
+        {
+          "word": "Entrada",
+          "english": "Entrance",
+          "phonetic": "en-TRAH-dah"
+        },
+        {
+          "word": "Saída",
+          "english": "Exit",
+          "phonetic": "SY-dah"
+        },
+        {
+          "word": "Loja",
+          "english": "Shop",
+          "phonetic": "LOH-zhah"
+        },
+        {
+          "word": "Arte",
+          "english": "Art",
+          "phonetic": "AR-teh"
+        },
+        {
+          "word": "Pintura",
+          "english": "Painting",
+          "phonetic": "peen-TOO-rah"
+        },
+        {
+          "word": "Azulejo",
+          "english": "Tile (decorative)",
+          "phonetic": "ah-zoo-LEH-zhoo"
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "name_en": "Market",
+      "name_local": "Mercado",
+      "icon": "cart",
+      "phrases": [
+        {
+          "id": "pt_mkt_001",
+          "intent_en": "Ask about local products",
+          "text_local": "O que é típico desta região?",
+          "pronunciation": "oo keh eh TEE-pee-koo DEHS-tah heh-zh-YOWNG?",
+          "formality": "standard",
+          "cultural_note": "Portuguese markets are full of local specialties.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "O queijo da serra é muito bom.",
+            "pronunciation": "oo keh-EH-zhoo dah SEH-rah eh MOY-toh bohm.",
+            "translation_en": "The Serra cheese is very good."
+          }
+        },
+        {
+          "id": "pt_mkt_002",
+          "intent_en": "Ask about the price per kilo",
+          "text_local": "Quanto custa por quilo?",
+          "pronunciation": "KWAN-too KOOSH-tah pohr KEH-loo?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_mkt_003",
+          "intent_en": "Ask to try before buying",
+          "text_local": "Posso provar antes de comprar?",
+          "pronunciation": "POH-soo proo-VAR AHN-cheh deh kohm-PRAHR?",
+          "formality": "polite",
+          "cultural_note": "Vendors are usually happy to let you sample.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_mkt_004",
+          "intent_en": "Ask about opening hours",
+          "text_local": "A que horas fecha o mercado?",
+          "pronunciation": "ah keh OH-rahsh FEH-zhah oo meh-KAR-doo?",
+          "formality": "standard",
+          "cultural_note": "Markets often close by early afternoon.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_mkt_005",
+          "intent_en": "Ask about local products",
+          "text_local": "O que é típico desta região?",
+          "pronunciation": "oh keh eh TEE-pee-koo DESHTAH reh-zhyOWNG",
+          "formality": "polite",
+          "cultural_note": "Portuguese markets are full of local specialties. Ask vendors for recommendations.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Serra cheese is the best.",
+              "phonetic": "KAY-zhoo dah SEH-rah ay oh MEH-lyoor",
+              "local": "Queijo da serra é o melhor."
+            },
+            {
+              "english": "Olives from the region.",
+              "phonetic": "ah-zay-TOH-nash dah reh-zhyOWNG",
+              "local": "Azeitonas da região."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "market",
+          "word_local": "mercado",
+          "pronunciation": "meh-KAR-doo"
+        },
+        {
+          "word_en": "cheese",
+          "word_local": "queijo",
+          "pronunciation": "keh-EH-zhoo"
+        },
+        {
+          "word_en": "ham",
+          "word_local": "presunto",
+          "pronunciation": "preh-ZOO-too"
+        },
+        {
+          "word_en": "fruit",
+          "word_local": "fruta",
+          "pronunciation": "FROO-tah"
+        },
+        {
+          "word_en": "kilo",
+          "word_local": "quilo",
+          "pronunciation": "KEH-loo"
+        }
+      ]
+    },
+    {
+      "id": "taxi",
+      "name_en": "Taxi",
+      "name_local": "Táxi",
+      "icon": "car",
+      "phrases": [
+        {
+          "id": "pt_tax_001",
+          "intent_en": "Ask to go to a specific place",
+          "text_local": "Queria ir para...",
+          "pronunciation": "keh-REE-ah eer PAH-rah...",
+          "formality": "polite",
+          "cultural_note": "Have the address written down.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Claro, entre.",
+            "pronunciation": "KLAH-roo, EH-tray.",
+            "translation_en": "Of course, get in."
+          }
+        },
+        {
+          "id": "pt_tax_002",
+          "intent_en": "Ask about the fare",
+          "text_local": "Quanto custa até ao centro?",
+          "pronunciation": "KWAN-too KOOSH-tah ah-TEH ow SEHN-troo?",
+          "formality": "standard",
+          "cultural_note": "Taxis should use the meter.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_tax_003",
+          "intent_en": "Ask to stop here",
+          "text_local": "Pode parar aqui, por favor.",
+          "pronunciation": "POH-deh pah-RAHR ah-KEE, por fah-VOR.",
+          "formality": "polite",
+          "cultural_note": "",
+          "speech_act": "request",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_tax_004",
+          "intent_en": "Ask if they accept cards",
+          "text_local": "Aceitam cartão?",
+          "pronunciation": "ah-seh-EYTAM kar-TAHN?",
+          "formality": "standard",
+          "cultural_note": "Not all taxis accept cards.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_tax_005",
+          "intent_en": "Ask about tipping",
+          "text_local": "A gorjeta está incluída?",
+          "pronunciation": "ah gor-ZHEH-tah ESHTAH een-kloo-EEDAH",
+          "formality": "standard",
+          "cultural_note": "Tipping Portuguese taxi drivers: round up 5-10%.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "10 percent is normal.",
+              "phonetic": "DZEH por SEN-tooh ay nor-MAHL",
+              "local": "10 por cento é normal."
+            },
+            {
+              "english": "Whatever you prefer.",
+              "phonetic": "KOH-moo preh-feh-REER",
+              "local": "Como preferir."
+            }
+          ]
+        },
+        {
+          "id": "pt_tax_006",
+          "intent_en": "Ask for a receipt",
+          "text_local": "Preciso de um recibo, por favor.",
+          "pronunciation": "preh-SEE-zoo deh oom reh-SEE-booh, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Portuguese taxis must provide receipts on request.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Sure, here you go.",
+              "phonetic": "KLAR-ooh, ah-KEE ESHTAH",
+              "local": "Claro, aqui está."
+            },
+            {
+              "english": "With stamp?",
+              "phonetic": "komh kah-REEN-booh",
+              "local": "Com carimbo?"
+            }
+          ]
+        },
+        {
+          "id": "pt_tax_007",
+          "intent_en": "Ask to call a taxi",
+          "text_local": "Pode chamar-me um táxi?",
+          "pronunciation": "POH-deh shahr-MAIR oom TAK-see",
+          "formality": "polite",
+          "cultural_note": "Hotel staff, restaurant servers, or anyone can call a taxi for you.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Sure, I'll call right away.",
+              "phonetic": "KLAR-ooh, zhah LEE-goo",
+              "local": "Claro, já ligo."
+            },
+            {
+              "english": "The taxi will be here in 5 minutes.",
+              "phonetic": "oh TAK-see ESHTAH ah kah-mee-NYOO em SEEM-koo mee-NOO-toosh",
+              "local": "O táxi está a caminho em 5 minutos."
+            }
+          ]
+        },
+        {
+          "id": "pt_tax_008",
+          "intent_en": "Ask about the fare",
+          "text_local": "Quanto custa a viagem mais ou menos?",
+          "pronunciation": "KWAN-tooh KOOSH-tah ah vee-AH-zhemysh maysh oo MEH-noosh",
+          "formality": "standard",
+          "cultural_note": "Portuguese taxis are metered. Ask for an estimate.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Approximately 15 euros.",
+              "phonetic": "ah-prok-see-mah-dah-MEN-teh VIN-teh ooh-rosh",
+              "local": "Aproximadamente 15 euros."
+            },
+            {
+              "english": "Depends on traffic.",
+              "phonetic": "deh-PEN-deh dooh TROON-zee-toosh",
+              "local": "Depende do trânsito."
+            }
+          ]
+        },
+        {
+          "id": "pt_tax_009",
+          "intent_en": "Thank the driver",
+          "text_local": "Muito obrigado. Boa viagem!",
+          "pronunciation": "MOY-toh oh-bree-GAH-doo. BOH-ah vee-AH-zhemysh",
+          "formality": "polite",
+          "cultural_note": "'Boa viagem' means 'have a good trip'.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Thanks! See you next time.",
+              "phonetic": "oh-bree-GAH-doo! ah-TEH ah prook-SEE-mah",
+              "local": "Obrigado! Até à próxima."
+            },
+            {
+              "english": "Good night!",
+              "phonetic": "BOH-ah NOY-teh",
+              "local": "Boa noite!"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "taxi",
+          "word_local": "táxi",
+          "pronunciation": "TAK-sheesh"
+        },
+        {
+          "word_en": "meter",
+          "word_local": "taxímetro",
+          "pronunciation": "tah-SEE-meh-troo"
+        },
+        {
+          "word_en": "stop",
+          "word_local": "parar",
+          "pronunciation": "pah-RAHR"
+        },
+        {
+          "word_en": "fare",
+          "word_local": "tarifa",
+          "pronunciation": "tah-REE-fah"
+        },
+        {
+          "word": "Recibo",
+          "english": "Receipt",
+          "phonetic": "reh-SEE-booh"
+        },
+        {
+          "word": "Gorjeta",
+          "english": "Tip",
+          "phonetic": "gor-ZHEH-tah"
+        },
+        {
+          "word": "Trânsito",
+          "english": "Traffic",
+          "phonetic": "TROON-zee-toosh"
+        },
+        {
+          "word": "Autoestrada",
+          "english": "Highway",
+          "phonetic": "ow-toh-esht-RAH-dah"
+        },
+        {
+          "word": "Taxímetro",
+          "english": "Meter",
+          "phonetic": "tah-ZEE-meh-trooh"
+        }
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "name_en": "Pharmacy",
+      "name_local": "Farmácia",
+      "icon": "cross.case",
+      "phrases": [
+        {
+          "id": "pt_pharm_001",
+          "intent_en": "Ask for a pharmacy",
+          "text_local": "Onde fica a farmácia mais próxima?",
+          "pronunciation": "OHN-deh FEE-kah ah far-MAH-see-ah mysh PROK-see-mah?",
+          "formality": "polite",
+          "cultural_note": "Pharmacies are marked with a green cross.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Fica na rua ao lado.",
+            "pronunciation": "FEE-kah nah ROO-ah ow LAH-doo.",
+            "translation_en": "It's on the street next door."
+          }
+        },
+        {
+          "id": "pt_pharm_002",
+          "intent_en": "Ask for painkillers",
+          "text_local": "Preciso de analgésicos.",
+          "pronunciation": "preh-SEE-zoo deh ah-nal-ZHEH-zee-koosh.",
+          "formality": "standard",
+          "cultural_note": "Portuguese pharmacists can recommend OTC medication.",
+          "speech_act": "statement",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_pharm_003",
+          "intent_en": "Ask for sunscreen",
+          "text_local": "Tem protetor solar?",
+          "pronunciation": "tehm proo-teh-TOHR soh-LAR?",
+          "formality": "casual",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_pharm_004",
+          "intent_en": "Ask about opening hours",
+          "text_local": "A que horas abre a farmácia?",
+          "pronunciation": "ah keh OH-rahsh AH-breh ah far-MAH-see-ah?",
+          "formality": "standard",
+          "cultural_note": "Some pharmacies stay open late on rotation.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_pharm_005",
+          "intent_en": "Ask for stomach medicine",
+          "text_local": "Preciso de algo para dores de estômago.",
+          "pronunciation": "preh-SEE-zoo deh AH-goo PAH-rah DOH-reysh deh esht-OH-mah-goo",
+          "formality": "polite",
+          "cultural_note": "Portuguese pharmacists are highly trained and can advise on many conditions.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Stomach tablets.",
+              "phonetic": "kom-pree-MEE-dooz PAH-rah oh esht-OH-mah-goo",
+              "local": "Comprimidos para o estômago."
+            },
+            {
+              "english": "Chamomile tea also helps.",
+              "phonetic": "SHAH deh kah-moh-MEE-lah tam-BYENG ah-OO-dah",
+              "local": "Chá de camomila também ajuda."
+            }
+          ]
+        },
+        {
+          "id": "pt_pharm_006",
+          "intent_en": "Ask for allergy medicine",
+          "text_local": "Preciso de algo para alergias.",
+          "pronunciation": "preh-SEE-zoo deh AH-goo PAH-rah ah-LEHR-zhyahsh",
+          "formality": "standard",
+          "cultural_note": "Allergy season in Portugal is intense (April-September).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Cetirizine or Loratadine.",
+              "phonetic": "seh-tee-ree-ZEE-nah oo loh-rah-tah-DEE-nah",
+              "local": "Cetirizina ou Loratadina."
+            },
+            {
+              "english": "Nasal spray works fast.",
+              "phonetic": "shpray nah-ZAHL ah-OO-dah RAH-pee-doo",
+              "local": "Spray nasal ajuda rápido."
+            }
+          ]
+        },
+        {
+          "id": "pt_pharm_007",
+          "intent_en": "Ask for a prescription refill",
+          "text_local": "Quero renovar a receita médica.",
+          "pronunciation": "KEH-rooh reh-noh-VAR ah reh-SAY-tah MEH-dee-kah",
+          "formality": "polite",
+          "cultural_note": "Portuguese prescriptions are paper-based. Bring the paper form to any pharmacy.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With health card?",
+              "phonetic": "komh Kahr-towng deh saw-DEH",
+              "local": "Com cartão de saúde?"
+            },
+            {
+              "english": "It takes 10 minutes.",
+              "phonetic": "deh-MOH-rah DZEH mee-NOO-toosh",
+              "local": "Demora 10 minutos."
+            }
+          ]
+        },
+        {
+          "id": "pt_pharm_008",
+          "intent_en": "Ask for band-aids",
+          "text_local": "Têm pensos adesivos?",
+          "pronunciation": "taym PEN-soosh ah-deh-ZEE-vooz",
+          "formality": "standard",
+          "cultural_note": "Band-aids are available in various sizes.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Various sizes.",
+              "phonetic": "VAH-ree-oosh tah-MA-NYOOZ",
+              "local": "Vários tamanhos."
+            },
+            {
+              "english": "Waterproof too.",
+              "phonetic": "reh-zisht-EN-teez ah AH-gwah tam-BYENG",
+              "local": "Resistentes à água também."
+            }
+          ]
+        },
+        {
+          "id": "pt_pharm_009",
+          "intent_en": "Ask for cold medicine",
+          "text_local": "Estou constipado. Têm algo?",
+          "pronunciation": "eshtOW kon-stee-PAH-doo. TAYM AH-goo",
+          "formality": "standard",
+          "cultural_note": "Colds are common. Portuguese pharmacies have excellent cold remedies.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Aspirin Complex helps.",
+              "phonetic": "ash-pee-REE-nah kom-PLEKS ah-OO-dah",
+              "local": "Aspirina Complex ajuda."
+            },
+            {
+              "english": "Throat lozenges too?",
+              "phonetic": "pahs-TEE-yash PAH-rah ah gar-GAN-tah",
+              "local": "Pastilhas para a garganta?"
+            }
+          ]
+        },
+        {
+          "id": "pt_pharm_010",
+          "intent_en": "Ask for the nearest 24-hour pharmacy",
+          "text_local": "Onde é a farmácia de serviço 24 horas?",
+          "pronunciation": "ON-deh ay fahr-MAH-see-ah deh ser-VEE-sooh VIN-teh kwah-troo OR-ash",
+          "formality": "polite",
+          "cultural_note": "Some Portuguese pharmacies operate 24/7 ('farmácia de serviço'). Look for the green cross.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "In the city center, 24 hours.",
+              "phonetic": "nooh SEN-trooh, VIN-teh kwah-troo OR-ash",
+              "local": "No centro, 24 horas."
+            },
+            {
+              "english": "I'll give you the address.",
+              "phonetic": "DAY-shoo-lyeh en-dreh-SOH",
+              "local": "Deixo-lhe o endereço."
+            }
+          ]
+        },
+        {
+          "id": "pt_pharm_011",
+          "intent_en": "Ask for insect repellent",
+          "text_local": "Preciso de repelente de mosquitos.",
+          "pronunciation": "preh-SEE-zoo deh reh-peh-LEN-teh deh moosh-KEE-toosh",
+          "formality": "standard",
+          "cultural_note": "Insect repellent is useful in Portuguese summers, especially near water.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With DEET or natural?",
+              "phonetic": "komh DEET oo nah-too-RAHL",
+              "local": "Com DEET ou natural?"
+            },
+            {
+              "english": "Autan is very effective.",
+              "phonetic": "OW-tan ay MOY-tooh eh-fee-KAHSH",
+              "local": "Autan é muito eficaz."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "pharmacy",
+          "word_local": "farmácia",
+          "pronunciation": "far-MAH-see-ah"
+        },
+        {
+          "word_en": "medicine",
+          "word_local": "medicamento",
+          "pronunciation": "meh-dee-kah-MEN-too"
+        },
+        {
+          "word_en": "painkiller",
+          "word_local": "analgésico",
+          "pronunciation": "ah-nal-ZHEH-zee-koo"
+        },
+        {
+          "word_en": "sunscreen",
+          "word_local": "protetor solar",
+          "pronunciation": "proo-teh-TOHR soh-LAR"
+        },
+        {
+          "word_en": "prescription",
+          "word_local": "receita",
+          "pronunciation": "heh-SAY-tah"
+        },
+        {
+          "word": "Febre",
+          "english": "Fever",
+          "phonetic": "FEH-breh"
+        },
+        {
+          "word": "Constipação",
+          "english": "Cold",
+          "phonetic": "kon-stee-pah-SHOWNG"
+        },
+        {
+          "word": "Alergia",
+          "english": "Allergy",
+          "phonetic": "ah-LEHR-zhyah"
+        },
+        {
+          "word": "Protetor solar",
+          "english": "Sunscreen",
+          "phonetic": "proh-teh-TOR soh-LAR"
+        },
+        {
+          "word": "Farmácia de serviço",
+          "english": "24-hour pharmacy",
+          "phonetic": "fahr-MAH-see-ah deh ser-VEE-sooh"
+        },
+        {
+          "word": "Farmacêutico",
+          "english": "Pharmacist",
+          "phonetic": "fahr-mah-seh-OO-tee-koo"
+        },
+        {
+          "word": "Sintoma",
+          "english": "Symptom",
+          "phonetic": "seen-TOH-mah"
+        },
+        {
+          "word": "Dor",
+          "english": "Pain",
+          "phonetic": "dor"
+        }
+      ]
+    },
+    {
+      "id": "supermarket",
+      "name_en": "Supermarket",
+      "name_local": "Supermercado",
+      "icon": "bag",
+      "phrases": [
+        {
+          "id": "pt_sup_001",
+          "intent_en": "Ask where to find a specific item",
+          "text_local": "Onde encontro o...?",
+          "pronunciation": "OHN-deh ehN-KOHN-troo oo...?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "Fica no corredor ao lado.",
+            "pronunciation": "FEE-kah noo koh-reh-DOHR ow LAH-doo.",
+            "translation_en": "It's in the aisle next door."
+          }
+        },
+        {
+          "id": "pt_sup_002",
+          "intent_en": "Ask about the checkout",
+          "text_local": "Onde é o caixa?",
+          "pronunciation": "OHN-deh eh oo KY-shah?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_sup_003",
+          "intent_en": "Ask about opening hours",
+          "text_local": "A que horas fecha o supermercado?",
+          "pronunciation": "ah keh OH-rahsh FEH-zhah oo soo-pehr-meh-KAR-doo?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_sup_004",
+          "intent_en": "Ask if they accept cards",
+          "text_local": "Aceitam cartão?",
+          "pronunciation": "ah-seh-EYTAM kar-TAHN?",
+          "formality": "standard",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_sup_005",
+          "intent_en": "Ask about opening hours",
+          "text_local": "A que horas fecha o supermercado?",
+          "pronunciation": "ah keh OR-ash FEH-shah oh soo-per-mer-KAH-doo",
+          "formality": "standard",
+          "cultural_note": "Portuguese supermarkets typically open 8am-9pm on weekdays. Some close Sundays.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Until 9pm.",
+              "phonetic": "ah-TEH ahsh VIN-teh oo-NOH OR-ash",
+              "local": "Até às 21 horas."
+            },
+            {
+              "english": "Closed on Sundays.",
+              "phonetic": "ow dee-MEEN-goo feh-SHAH-doo",
+              "local": "Ao domingo fechado."
+            }
+          ]
+        },
+        {
+          "id": "pt_sup_006",
+          "intent_en": "Ask about organic products",
+          "text_local": "Têm produtos biológicos?",
+          "pronunciation": "taym proh-DOO-toosh bee-oh-LOH-zhee-kooz",
+          "formality": "polite",
+          "cultural_note": "'Bio' (organic) is increasingly available in Portuguese supermarkets.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, aisle 1, shelf B.",
+              "phonetic": "seeng, koh-reh-DOR oon, prah-teh-LAY-rah beh",
+              "local": "Sim, corredor 1, prateleira B."
+            },
+            {
+              "english": "We have an organic section.",
+              "phonetic": "TEH-moosh sehk-SHOWNG bee-oh-LOH-zhee-kah",
+              "local": "Temos secção biológica."
+            }
+          ]
+        },
+        {
+          "id": "pt_sup_007",
+          "intent_en": "Ask about discounts",
+          "text_local": "Têm promoções hoje?",
+          "pronunciation": "taym proh-moh-SOENS OH-zh-eh",
+          "formality": "standard",
+          "cultural_note": "Portuguese supermarkets have weekly specials. Look for yellow price tags.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, this week: beer and bread.",
+              "phonetic": "seeng, ESHTAH seh-MAH-nah: sehr-VAY-zhah eh powng",
+              "local": "Sim, esta semana: cerveja e pão."
+            },
+            {
+              "english": "Look at the yellow tags.",
+              "phonetic": "OH-lyeh PAH-rah osh Kahr-toensh ah-mah-REH-loosh",
+              "local": "Olhe para os cartões amarelos."
+            }
+          ]
+        },
+        {
+          "id": "pt_sup_008",
+          "intent_en": "Ask about self-checkout",
+          "text_local": "Têm caixas automáticas?",
+          "pronunciation": "taym KYY-shash ow-toh-MAH-tee-kash",
+          "formality": "standard",
+          "cultural_note": "Self-checkout is available in larger Portuguese supermarkets.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, over there in the back.",
+              "phonetic": "seeng, lah ow FOON-doo",
+              "local": "Sim, lá ao fundo."
+            },
+            {
+              "english": "Sorry, only at regular checkout.",
+              "phonetic": "een-fohr-too-nah-DAH-men-tee soh nahsh KAY-shash nor-MYysh",
+              "local": "Infelizmente só nas caixas normais."
+            }
+          ]
+        },
+        {
+          "id": "pt_sup_009",
+          "intent_en": "Ask if they have bags",
+          "text_local": "Têm sacos?",
+          "pronunciation": "taym SAH-kooz",
+          "formality": "standard",
+          "cultural_note": "Portuguese supermarkets charge for bags. Bring your own or pay 5-10 cents.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, 10 cents per bag.",
+              "phonetic": "seeng, DZEH SEN-tee-moosh por SAH-koo",
+              "local": "Sim, 10 cêntimos por saco."
+            },
+            {
+              "english": "Do you have one?",
+              "phonetic": "TRAHZ oh say-ooh",
+              "local": "Traz o seu?"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "supermarket",
+          "word_local": "supermercado",
+          "pronunciation": "soo-pehr-meh-KAR-doo"
+        },
+        {
+          "word_en": "checkout",
+          "word_local": "caixa",
+          "pronunciation": "KY-shah"
+        },
+        {
+          "word_en": "bag",
+          "word_local": "saco",
+          "pronunciation": "SAH-koo"
+        },
+        {
+          "word_en": "aisle",
+          "word_local": "corredor",
+          "pronunciation": "koh-reh-DOHR"
+        },
+        {
+          "word": "Bio",
+          "english": "Organic",
+          "phonetic": "BEE-oo"
+        },
+        {
+          "word": "Promoção",
+          "english": "Special offer",
+          "phonetic": "proh-moh-SHOWNG"
+        },
+        {
+          "word": "Corredor",
+          "english": "Aisle",
+          "phonetic": "koh-reh-DOR"
+        },
+        {
+          "word": "Prateleira",
+          "english": "Shelf",
+          "phonetic": "prah-teh-LAY-rah"
+        },
+        {
+          "word": "Saco",
+          "english": "Bag",
+          "phonetic": "SAH-koo"
+        }
+      ]
+    },
+    {
+      "id": "beach",
+      "name_en": "Beach",
+      "name_local": "Praia",
+      "icon": "sun.max",
+      "phrases": [
+        {
+          "id": "pt_beach_001",
+          "intent_en": "Ask about the best beach nearby",
+          "text_local": "Qual é a melhor praia aqui perto?",
+          "pronunciation": "Kwahl eh ah meh-LYOR PRAI-ah ah-KEE PEHR-too?",
+          "formality": "standard",
+          "cultural_note": "Portugal has some of Europe's best beaches.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "likely_response": {
+            "local": "A Praia da Rocha é linda.",
+            "pronunciation": "ah PRAI-ah dah ROH-shah eh LEEN-dah.",
+            "translation_en": "Praia da Rocha is beautiful."
+          }
+        },
+        {
+          "id": "pt_beach_002",
+          "intent_en": "Ask about lifeguard on duty",
+          "text_local": "Há um nadador-salvador na praia?",
+          "pronunciation": "ah oom nah-dah-DOHR-sal-vah-DOHR nah PRAI-ah?",
+          "formality": "standard",
+          "cultural_note": "Only swim at beaches with lifeguards.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_beach_003",
+          "intent_en": "Ask about renting sunbeds",
+          "text_local": "Posso alugar uma espreguiçadeira?",
+          "pronunciation": "POH-soo ah-loo-GAR OO-mah es-preh-gwee-sah-DEY-rah?",
+          "formality": "polite",
+          "cultural_note": "",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_beach_004",
+          "intent_en": "Ask about swimming conditions",
+          "text_local": "O mar está bom para nadar?",
+          "pronunciation": "oo MAHR es-TAH bohm PAH-rah nah-DAR?",
+          "formality": "casual",
+          "cultural_note": "The Atlantic can be cold even in summer.",
+          "speech_act": "question",
+          "expects_reply": true
+        },
+        {
+          "id": "pt_beach_005",
+          "intent_en": "Ask about water temperature",
+          "text_local": "A água está fria ou quente?",
+          "pronunciation": "ah AH-gwah ESHTAH FEE-ree-ah oo KEN-teh",
+          "formality": "standard",
+          "cultural_note": "Portuguese Atlantic water is cold year-round. Summer water temp: 18-20°C.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Cold but refreshing!",
+              "phonetic": "FEE-ree-ah mahsh reh-fresh-KAN-teh",
+              "local": "Fria mas refrescante!"
+            },
+            {
+              "english": "It's good for swimming.",
+              "phonetic": "ESHTAH BOH-ah PAH-rah nah-DAR",
+              "local": "Está boa para nadar."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word_en": "beach",
+          "word_local": "praia",
+          "pronunciation": "PRAI-ah"
+        },
+        {
+          "word_en": "sea",
+          "word_local": "mar",
+          "pronunciation": "MAHR"
+        },
+        {
+          "word_en": "sun",
+          "word_local": "sol",
+          "pronunciation": "sohl"
+        },
+        {
+          "word_en": "sand",
+          "word_local": "areia",
+          "pronunciation": "ah-RAY-ah"
+        },
+        {
+          "word_en": "wave",
+          "word_local": "onda",
+          "pronunciation": "OHN-dah"
+        }
+      ]
+    },
+    {
+      "id": "bar",
+      "name_en": "Bar / Pub",
+      "name_local": "Tasca / Bar",
+      "icon": "bar",
+      "phrases": [
+        {
+          "id": "pt_bar_001",
+          "intent_en": "Order a beer",
+          "text_local": "Uma cerveja, por favor.",
+          "pronunciation": "OO-mah sehr-VAY-zhah, por fah-VOR",
+          "formality": "standard",
+          "cultural_note": "Portugal's main beers are Super Bock and Sagres. 'Uma cerveja' works everywhere.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Lager or stout?",
+              "phonetic": "LAH-ger oo PREH-tah",
+              "local": "Lager ou preta?"
+            },
+            {
+              "english": "Half or a full glass?",
+              "phonetic": "MYEH-yah oo oom KOH-poo",
+              "local": "Meia ou um copo?"
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_002",
+          "intent_en": "Ask for the bill",
+          "text_local": "A conta, por favor.",
+          "pronunciation": "ah KOO-tah, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "In Portugal, you need to ask for the bill — they won't bring it automatically.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "I'll bring it right away.",
+              "phonetic": "zhah vooh trah-ZEHR",
+              "local": "Já vou trazer."
+            },
+            {
+              "english": "Together or separate?",
+              "phonetic": "ZOON-toosh oo seh-pah-RAH-doo",
+              "local": "Juntos ou separado?"
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_003",
+          "intent_en": "Ask what beer they recommend",
+          "text_local": "Que cerveja recomenda?",
+          "pronunciation": "keh sehr-VAY-zhah reh-koh-MEN-dah",
+          "formality": "casual",
+          "cultural_note": "Portuguese take beer seriously. Ask for a recommendation — they'll be happy to help.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Super Bock is the classic.",
+              "phonetic": "soo-PER bokh ay oh KLAH-see-koo",
+              "local": "Super Bock é o clássico."
+            },
+            {
+              "english": "Try the Sagres!",
+              "phonetic": "ex-peh-ree-MEN-tah ah SAH-gresh",
+              "local": "Experimenta a Sagres!"
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_004",
+          "intent_en": "Order a glass of wine",
+          "text_local": "Um copo de vinho, por favor.",
+          "pronunciation": "oom KOH-poo deh VEEN-yoo, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Portuguese wine is excellent, especially from Douro, Alentejo, and Dão regions.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Red or white?",
+              "phonetic": "TEEN-toh oo BRAN-koo",
+              "local": "Tinto ou branco?"
+            },
+            {
+              "english": "House wine or by the bottle?",
+              "phonetic": "dah KAH-zah oo dah gah-RAH-fah",
+              "local": "Da casa ou da garrafa?"
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_005",
+          "intent_en": "Ask about local specialties",
+          "text_local": "O que é típico por aqui?",
+          "pronunciation": "oh keh eh TEE-pee-koo por ah-KEE",
+          "formality": "polite",
+          "cultural_note": "Every region has its own drinks. Ask locals for recommendations!",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Ginjinha (cherry liqueur) is the classic!",
+              "phonetic": "zhee-NYEE-nyah ay oh KLAH-see-koo",
+              "local": "Ginjinha é o clássico!"
+            },
+            {
+              "english": "Green wine!",
+              "phonetic": "VEEN-yoo VER-deh",
+              "local": "Vinho verde!"
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_006",
+          "intent_en": "Ask if they serve food",
+          "text_local": "Servem comida aqui?",
+          "pronunciation": "SER-vem koh-MEE-dah ah-KEE",
+          "formality": "standard",
+          "cultural_note": "Many Portuguese bars ('tasca') serve food, especially petiscos (tapas).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, tapas and sandwiches.",
+              "phonetic": "seeng, peh-TEE-shkooz eh SAN-deesh",
+              "local": "Sim, petiscos e sandes."
+            },
+            {
+              "english": "Drinks only today.",
+              "phonetic": "soh beh-BEE-dash OH-zh-eh",
+              "local": "Só bebidas hoje."
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_007",
+          "intent_en": "Order a ginjinha",
+          "text_local": "Uma ginjinha, por favor.",
+          "pronunciation": "OO-mah zhee-NYEE-nyah, por fah-VOR",
+          "formality": "standard",
+          "cultural_note": "Ginjinha is a traditional Portuguese cherry liqueur, especially popular in Lisbon.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With or without chocolate?",
+              "phonetic": "komh oo sem shoh-koh-LAH-teh",
+              "local": "Com ou sem chocolate?"
+            },
+            {
+              "english": "Cheers!",
+              "phonetic": "SAW-oo-deh",
+              "local": "Saúde!"
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_008",
+          "intent_en": "Toast / Cheers",
+          "text_local": "Saúde! / À tua!",
+          "pronunciation": "SAW-oo-deh! / ah TOO-ah",
+          "formality": "casual",
+          "cultural_note": "'Saúde' (health) is the standard toast. 'À tua' is casual (to you).",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Cheers!",
+              "phonetic": "SAW-oo-deh",
+              "local": "Saúde!"
+            },
+            {
+              "english": "To you!",
+              "phonetic": "ah TOO-ah",
+              "local": "À tua!"
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_009",
+          "intent_en": "Ask where to sit",
+          "text_local": "Esta cadeira está livre?",
+          "pronunciation": "ESHTAH kah-DAY-rah ESHTAH LEE-vreh",
+          "formality": "polite",
+          "cultural_note": "In busy Portuguese bars, sharing tables is common. Always ask first.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, sit down!",
+              "phonetic": "seeng, SEN-tah-teh",
+              "local": "Sim, senta-te!"
+            },
+            {
+              "english": "Sorry, it's taken.",
+              "phonetic": "een-fohr-too-nah-DAH-men-tee ESHTAH oh-koo-PAH-dah",
+              "local": "Infelizmente está ocupada."
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_010",
+          "intent_en": "Ask about happy hour",
+          "text_local": "Têm happy hour?",
+          "pronunciation": "taym HAP-ee AWR",
+          "formality": "standard",
+          "cultural_note": "Some bars have happy hour. Ask about daily specials.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "From 5 to 7pm.",
+              "phonetic": "dahsh DZEH-sset-eh ahsh dee-NOWSH OR-ash",
+              "local": "Das 17 às 19 horas."
+            },
+            {
+              "english": "Not today.",
+              "phonetic": "OH-zh-eh nowng TEH-moosh",
+              "local": "Hoje não temos."
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_011",
+          "intent_en": "Ask if they accept cards",
+          "text_local": "Aceitam cartões?",
+          "pronunciation": "ah-say-TAYM Kahr-toensh",
+          "formality": "standard",
+          "cultural_note": "Many Portuguese bars are still cash-only. Always ask before ordering.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, all.",
+              "phonetic": "seeng, TOH-dooz",
+              "local": "Sim, todos."
+            },
+            {
+              "english": "No, cash only.",
+              "phonetic": "nowng, soh dee-nyay-roo",
+              "local": "Não, só dinheiro."
+            }
+          ]
+        },
+        {
+          "id": "pt_bar_012",
+          "intent_en": "Ask when they close",
+          "text_local": "A que horas fecham?",
+          "pronunciation": "ah keh OR-ash FEH-sham",
+          "formality": "casual",
+          "cultural_note": "Portuguese bars often stay open late, especially in cities and coastal areas.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Until midnight.",
+              "phonetic": "ah-TEH ah MYEH-yah-NOY-teh",
+              "local": "Até à meia-noite."
+            },
+            {
+              "english": "Until 2am.",
+              "phonetic": "ah-TEH ahsh DOOH OR-ash",
+              "local": "Até às 2 horas."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Cerveja",
+          "english": "Beer",
+          "phonetic": "sehr-VAY-zhah"
+        },
+        {
+          "word": "Vinho",
+          "english": "Wine",
+          "phonetic": "VEEN-yoo"
+        },
+        {
+          "word": "Ginjinha",
+          "english": "Cherry liqueur",
+          "phonetic": "zhee-NYEE-nyah"
+        },
+        {
+          "word": "Conta",
+          "english": "Bill",
+          "phonetic": "KOO-tah"
+        },
+        {
+          "word": "Saúde",
+          "english": "Cheers",
+          "phonetic": "SAW-oo-deh"
+        },
+        {
+          "word": "Tasca",
+          "english": "Traditional pub",
+          "phonetic": "TAH-skah"
+        },
+        {
+          "word": "Petiscos",
+          "english": "Tapas",
+          "phonetic": "peh-TEE-shkooz"
+        },
+        {
+          "word": "Copo",
+          "english": "Glass",
+          "phonetic": "KOH-poo"
+        },
+        {
+          "word": "Bebida",
+          "english": "Drink",
+          "phonetic": "beh-BEE-dah"
+        },
+        {
+          "word": "Especialidade",
+          "english": "Specialty",
+          "phonetic": "es-peh-see-ah-lee-DAH-dah"
+        },
+        {
+          "word": "Tinto",
+          "english": "Red (wine)",
+          "phonetic": "TEEN-toh"
+        },
+        {
+          "word": "Branco",
+          "english": "White (wine)",
+          "phonetic": "BRAN-koo"
+        },
+        {
+          "word": "Garrafa",
+          "english": "Bottle",
+          "phonetic": "gah-RAH-fah"
+        },
+        {
+          "word": "Taberneiro",
+          "english": "Bartender",
+          "phonetic": "tah-behr-NAY-roo"
+        },
+        {
+          "word": "Balcão",
+          "english": "Bar counter",
+          "phonetic": "bal-SOWNG"
+        },
+        {
+          "word": "Freguês",
+          "english": "Regular customer",
+          "phonetic": "freh-GESH"
+        }
+      ]
+    },
+    {
+      "id": "bakery",
+      "name_en": "Bakery",
+      "name_local": "Padaria",
+      "icon": "bakery",
+      "phrases": [
+        {
+          "id": "pt_pad_001",
+          "intent_en": "Greet the baker",
+          "text_local": "Bom dia! O que recomenda hoje?",
+          "pronunciation": "bom dee-ah! oh keh reh-koh-MEN-dah OH-zh-eh",
+          "formality": "polite",
+          "cultural_note": "Portuguese bakeries ('padarias') are excellent. Start with a greeting.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Fresh bread today!",
+              "phonetic": "powng FREH-shoo OH-zh-eh",
+              "local": "Pão fresco hoje!"
+            },
+            {
+              "english": "The rice cake is special.",
+              "phonetic": "oh BOH-loo deh ah-ROZ ay es-peh-see-AHL",
+              "local": "O bolo de arroz é especial."
+            }
+          ]
+        },
+        {
+          "id": "pt_pad_002",
+          "intent_en": "Ask for a bread roll",
+          "text_local": "Um pãozinho, por favor.",
+          "pronunciation": "oom pown-ZEE-nyoo, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Portuguese bread rolls ('pãezinhos') are crispy outside, soft inside.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Whole wheat or white?",
+              "phonetic": "een-teh-GRAHL oo BRAN-koo",
+              "local": "Integral ou branco?"
+            },
+            {
+              "english": "With or without seeds?",
+              "phonetic": "komh oo sem seh-MEN-toosh",
+              "local": "Com ou sem sementes?"
+            }
+          ]
+        },
+        {
+          "id": "pt_pad_003",
+          "intent_en": "Ask what's inside a cake",
+          "text_local": "O que tem neste bolo?",
+          "pronunciation": "oh keh tem NES-teh BOH-looh",
+          "formality": "standard",
+          "cultural_note": "Portuguese cakes ('bolos') are diverse. Ask if you have allergies.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With apples and cinnamon.",
+              "phonetic": "komh mah-SYNG eh kah-NEL-ah",
+              "local": "Com maçã e canela."
+            },
+            {
+              "english": "Chocolate and nuts.",
+              "phonetic": "shoh-koh-LAH-teh eh NOZ-esh",
+              "local": "Chocolate e nozes."
+            }
+          ]
+        },
+        {
+          "id": "pt_pad_004",
+          "intent_en": "Ask for whole grain bread",
+          "text_local": "Têm pão integral?",
+          "pronunciation": "taym powng een-teh-GRAHL",
+          "formality": "polite",
+          "cultural_note": "Portuguese whole grain bread ('pão integral') is a staple.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, just out of the oven.",
+              "phonetic": "seeng, ah-kah-BAH-doo deh see-EER doo FOR-nooh",
+              "local": "Sim, acabado de sair do forno."
+            },
+            {
+              "english": "Sliced or whole?",
+              "phonetic": "em FAH-tee-ahsh oo een-TAY-roo",
+              "local": "Em fatias ou inteiro?"
+            }
+          ]
+        },
+        {
+          "id": "pt_pad_005",
+          "intent_en": "Order a pastel de nata",
+          "text_local": "Dois pastéis de nata, por favor.",
+          "pronunciation": "doysh pahs-TEYSH deh NAH-tah, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Pastéis de nata are Portugal's most famous pastry — crispy outside, creamy inside. Eat them warm with cinnamon.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With cinnamon and sugar?",
+              "phonetic": "komh kah-NEL-ah eh ah-SOO-kar",
+              "local": "Com canela e açúcar?"
+            },
+            {
+              "english": "Warm, of course!",
+              "phonetic": "KEN-teesh, KLAR-ooh",
+              "local": "Quentes, claro!"
+            }
+          ]
+        },
+        {
+          "id": "pt_pad_006",
+          "intent_en": "Ask for a baguette",
+          "text_local": "Uma baguete, por favor.",
+          "pronunciation": "OO-mah bah-GEE-teh, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Baguettes are popular in Portugal too. Say 'baguete' — they'll know.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Crispy or soft?",
+              "phonetic": "kro-KAN-teh oo MOH-leh",
+              "local": "Crocante ou mole?"
+            },
+            {
+              "english": "With cheese or ham?",
+              "phonetic": "komh KAY-zhoo oo fee-AHM-breh",
+              "local": "Com queijo ou fiambre?"
+            }
+          ]
+        },
+        {
+          "id": "pt_pad_007",
+          "intent_en": "Ask when they close",
+          "text_local": "A que horas fecham?",
+          "pronunciation": "ah keh OR-ash FEH-sham",
+          "formality": "standard",
+          "cultural_note": "Portuguese bakeries often close by 7pm and may close Sunday afternoons.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Until 7pm.",
+              "phonetic": "ah-TEH ahsh dee-NOWSH OR-ash",
+              "local": "Até às 19 horas."
+            },
+            {
+              "english": "Sundays we close at lunchtime.",
+              "phonetic": "ow dee-MEEN-goo feh-SHAH-moosh ow ah-LOO-sooh",
+              "local": "Ao domingo fechamos ao almoço."
+            }
+          ]
+        },
+        {
+          "id": "pt_pad_008",
+          "intent_en": "Ask for something sweet",
+          "text_local": "O que têm de doce?",
+          "pronunciation": "oh keh taym deh DOH-seh",
+          "formality": "polite",
+          "cultural_note": "Portuguese pastries ('doces') are legendary. Try pastéis de nata, ovos moles, or sericaia.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Pastéis de nata are the best.",
+              "phonetic": "pahs-TEYSH deh NAH-tah sowng osh meh-LYOO-reysh",
+              "local": "Pastéis de nata são os melhores."
+            },
+            {
+              "english": "Sericaia with egg yolk!",
+              "phonetic": "seh-ree-KYAH komh OH-voo sheek",
+              "local": "Sericaia com ovo chic!"
+            }
+          ]
+        },
+        {
+          "id": "pt_pad_009",
+          "intent_en": "Pay and say thanks",
+          "text_local": "Isso dá 6 euros, por favor.",
+          "pronunciation": "EE-soo dah SHES ooh-rosh, por fah-VOR",
+          "formality": "standard",
+          "cultural_note": "Portuguese bakeries accept cash and increasingly cards.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Thank you, enjoy!",
+              "phonetic": "oh-bree-GAH-doo, bom ah-peh-TEE-teh",
+              "local": "Obrigado, bom apetite!"
+            },
+            {
+              "english": "God bless you!",
+              "phonetic": "FEE-koo komh DEH-oosh",
+              "local": "Fique com Deus!"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Padaria",
+          "english": "Bakery",
+          "phonetic": "pah-dah-REE-ah"
+        },
+        {
+          "word": "Pão",
+          "english": "Bread",
+          "phonetic": "powng"
+        },
+        {
+          "word": "Pãozinho",
+          "english": "Bread roll",
+          "phonetic": "pown-ZEE-nyoo"
+        },
+        {
+          "word": "Integral",
+          "english": "Whole grain",
+          "phonetic": "een-teh-GRAHL"
+        },
+        {
+          "word": "Bolo",
+          "english": "Cake",
+          "phonetic": "BOH-loo"
+        },
+        {
+          "word": "Pastel de nata",
+          "english": "Egg tart",
+          "phonetic": "pahs-TEEL deh NAH-tah"
+        },
+        {
+          "word": "Doce",
+          "english": "Sweet",
+          "phonetic": "DOH-seh"
+        },
+        {
+          "word": "Pão branco",
+          "english": "White bread",
+          "phonetic": "powng BRAN-koo"
+        },
+        {
+          "word": "Pão integral",
+          "english": "Whole grain bread",
+          "phonetic": "powng een-teh-GRAHL"
+        },
+        {
+          "word": "Queijo",
+          "english": "Cheese",
+          "phonetic": "KAY-zhoo"
+        },
+        {
+          "word": "Fiambre",
+          "english": "Ham",
+          "phonetic": "fee-AHM-breh"
+        },
+        {
+          "word": "Manteiga",
+          "english": "Butter",
+          "phonetic": "man-TAY-gah"
+        },
+        {
+          "word": "Açúcar",
+          "english": "Sugar",
+          "phonetic": "ah-SOO-kar"
+        },
+        {
+          "word": "Canela",
+          "english": "Cinnamon",
+          "phonetic": "kah-NEL-ah"
+        },
+        {
+          "word": "Nozes",
+          "english": "Nuts",
+          "phonetic": "NOZ-esh"
+        },
+        {
+          "word": "Sericaia",
+          "english": "Portuguese dessert",
+          "phonetic": "seh-ree-KYAH"
+        },
+        {
+          "word": "Ovos moles",
+          "english": "Egg sweets",
+          "phonetic": "OH-vooz MOH-leysh"
+        },
+        {
+          "word": "Confeitaria",
+          "english": "Pastry shop",
+          "phonetic": "kon-fay-tee-AH-ree-ah"
+        }
+      ]
+    },
+    {
+      "id": "metro",
+      "name_en": "Metro / Subway",
+      "name_local": "Metro",
+      "icon": "metro",
+      "phrases": [
+        {
+          "id": "pt_met_001",
+          "intent_en": "Ask where to buy a ticket",
+          "text_local": "Onde posso comprar um bilhete?",
+          "pronunciation": "ON-deh POH-sooh kom-PRAHR oom BEE-yeh-teh",
+          "formality": "polite",
+          "cultural_note": "Buy tickets at machines ('máquinas') before boarding. No ticket = fine.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "At the machine over there.",
+              "phonetic": "nah MAH-kee-nah ah-LEE",
+              "local": "Na máquina ali."
+            },
+            {
+              "english": "With the app too.",
+              "phonetic": "komh ah app tam-BYENG",
+              "local": "Com a app também."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_002",
+          "intent_en": "Ask which platform the train leaves from",
+          "text_local": "De qual plataforma sai o metro?",
+          "pronunciation": "deh kwahl plah-tah-FOR-mah sye ooh MEH-troo",
+          "formality": "standard",
+          "cultural_note": "Lisbon metro has 4 lines (blue, yellow, green, red). Check electronic displays.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Platform 2, straight ahead.",
+              "phonetic": "plah-tah-FOR-mah doosh, em FREN-teh",
+              "local": "Plataforma 2, em frente."
+            },
+            {
+              "english": "Stairs down, left.",
+              "phonetic": "esh-KAH-dash ah-BY-shoo, ah es-KER-dah",
+              "local": "Escadas abaixo, à esquerda."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_003",
+          "intent_en": "Ask if you need to transfer",
+          "text_local": "Preciso mudar de linha para o museu?",
+          "pronunciation": "preh-SEE-zoo moo-DAR deh LEE-nyah PAH-rah oh moo-ZEH-ooh",
+          "formality": "standard",
+          "cultural_note": "Lisbon metro is compact. Transfers are common but well-signposted.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, at Baixa station.",
+              "phonetic": "seeng, nah eshtah-SOWNG BYY-shah",
+              "local": "Sim, na estação Baixa."
+            },
+            {
+              "english": "No, direct to the end.",
+              "phonetic": "nowng, dee-REH-tooh ah-TEH ow feem",
+              "local": "Não, direto até ao fim."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_004",
+          "intent_en": "Ask which line goes to a destination",
+          "text_local": "Qual linha vai para...?",
+          "pronunciation": "kwahl LEE-nyah vyee PAH-rah",
+          "formality": "standard",
+          "cultural_note": "Lisbon metro has 4 color-coded lines. Check the map for your route.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Blue line, direction São Sebastião.",
+              "phonetic": "LEE-nyah ah-ZOOL, deh-ree-SOWNG sowng seh-bash-tee-AWNG",
+              "local": "Linha azul, direção São Sebastião."
+            },
+            {
+              "english": "Yellow line to Rossio.",
+              "phonetic": "ah-mah-REH-lah ah-TEH ow ROH-see-ooh",
+              "local": "Amarela até ao Rossio."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_005",
+          "intent_en": "Ask about the day pass",
+          "text_local": "Têm bilhete diário?",
+          "pronunciation": "taym BEE-yeh-teh dee-AH-ree-ooh",
+          "formality": "standard",
+          "cultural_note": "Day passes ('passe diário') are great value if you're making 3+ trips.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "6 euros for the whole day.",
+              "phonetic": "shesh ooh-rosh PAH-rah oh dee-ah TOH-doo",
+              "local": "6 euros para o dia todo."
+            },
+            {
+              "english": "Valid for the entire zone.",
+              "phonetic": "VAH-lee-doo PAH-rah TOH-dah ah ZO-nah",
+              "local": "Válido para toda a zona."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_006",
+          "intent_en": "Ask if this is the right platform",
+          "text_local": "Esta é a plataforma certa?",
+          "pronunciation": "ESHTAH ay ah plah-tah-FOR-mah SER-tah",
+          "formality": "standard",
+          "cultural_note": "Double-check the platform — Lisbon metro trains run frequently.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, that's correct.",
+              "phonetic": "seeng, ESHTAH koh-REH-tooh",
+              "local": "Sim, está correto."
+            },
+            {
+              "english": "No, platform 3, other side.",
+              "phonetic": "nowng, plah-tah-FOR-mah treysh, LAH-doo oh-POH-stoo",
+              "local": "Não, plataforma 3, lado oposto."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_007",
+          "intent_en": "Ask about the next train",
+          "text_local": "Quando vem o próximo metro?",
+          "pronunciation": "KWAN-doo vem ooh proh-KSEE-moo MEH-troo",
+          "formality": "standard",
+          "cultural_note": "Lisbon metro runs every 4-6 minutes during the day.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "In 2 minutes.",
+              "phonetic": "em DOOSH mee-NOO-toosh",
+              "local": "Em 2 minutos."
+            },
+            {
+              "english": "It's already here.",
+              "phonetic": "zhah ESHTAH ah-KEE",
+              "local": "Já está aqui."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_008",
+          "intent_en": "Ask about the last train",
+          "text_local": "A que horas é o último metro?",
+          "pronunciation": "ah keh OR-ash ay ooh OOL-tee-moo MEH-troo",
+          "formality": "standard",
+          "cultural_note": "Lisbon metro typically runs until 1am. Less frequent on weekends.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "At 1am.",
+              "phonetic": "ahsh OON dah MA-NYANG",
+              "local": "Às 1 da manhã."
+            },
+            {
+              "english": "Saturdays until 2am.",
+              "phonetic": "SAH-bah-dooz ah-TEH ahsh DOOH OR-ash",
+              "local": "Sábados até às 2 horas."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_009",
+          "intent_en": "Ask if bikes are allowed on the train",
+          "text_local": "Podem levar bicicletas no metro?",
+          "pronunciation": "POH-dem leh-VAR bee-see-KLEH-tash nooh MEH-troo",
+          "formality": "polite",
+          "cultural_note": "Bikes are allowed on Lisbon metro during off-peak hours.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, outside rush hour.",
+              "phonetic": "seeng, FORAH dahsh OR-ash deh POHN-tah",
+              "local": "Sim, fora das horas de ponta."
+            },
+            {
+              "english": "No, not during rush hour.",
+              "phonetic": "nowng nahsh OR-ash deh POHN-tah",
+              "local": "Não nas horas de ponta."
+            }
+          ]
+        },
+        {
+          "id": "pt_met_010",
+          "intent_en": "Ask if you need to validate your ticket",
+          "text_local": "Preciso validar o bilhete?",
+          "pronunciation": "preh-SEE-zoo vah-lee-DAR oh BEE-yeh-teh",
+          "formality": "standard",
+          "cultural_note": "You must validate paper tickets before boarding Lisbon metro. Look for yellow machines.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, at the yellow machine.",
+              "phonetic": "seeng, nah MAH-kee-nah ah-mah-REH-lah",
+              "local": "Sim, na máquina amarela."
+            },
+            {
+              "english": "No, it's already validated.",
+              "phonetic": "nowng, zhah ESHTAH vah-lee-DAH-doo",
+              "local": "Não, já está validado."
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Metro",
+          "english": "Metro/Subway",
+          "phonetic": "MEH-troo"
+        },
+        {
+          "word": "Bilhete",
+          "english": "Ticket",
+          "phonetic": "BEE-yeh-teh"
+        },
+        {
+          "word": "Plataforma",
+          "english": "Platform",
+          "phonetic": "plah-tah-FOR-mah"
+        },
+        {
+          "word": "Linha",
+          "english": "Line",
+          "phonetic": "LEE-nyah"
+        },
+        {
+          "word": "Estação",
+          "english": "Station",
+          "phonetic": "eshtah-SOWNG"
+        },
+        {
+          "word": "Mudar",
+          "english": "Transfer/Change",
+          "phonetic": "MOO-dar"
+        },
+        {
+          "word": "Direção",
+          "english": "Direction",
+          "phonetic": "deh-ree-SOWNG"
+        },
+        {
+          "word": "Bilhete diário",
+          "english": "Day pass",
+          "phonetic": "BEE-yeh-teh dee-AH-ree-ooh"
+        },
+        {
+          "word": "Último",
+          "english": "Last",
+          "phonetic": "OOL-tee-moo"
+        },
+        {
+          "word": "Próximo",
+          "english": "Next",
+          "phonetic": "proh-KSEE-moo"
+        },
+        {
+          "word": "Bicicleta",
+          "english": "Bicycle",
+          "phonetic": "bee-see-KLEH-tah"
+        },
+        {
+          "word": "Validar",
+          "english": "Validate",
+          "phonetic": "vah-lee-DAR"
+        }
+      ]
+    },
+    {
+      "id": "winery",
+      "name_en": "Winery",
+      "name_local": "Quinta / Vinícola",
+      "icon": "winery",
+      "phrases": [
+        {
+          "id": "pt_win_001",
+          "intent_en": "Ask about the wine tour",
+          "text_local": "Têm visita à adega hoje?",
+          "pronunciation": "taym vee-ZEE-tah ah ah-DEH-gah OH-zh-eh",
+          "formality": "polite",
+          "cultural_note": "Portugal's wine regions (Douro, Alentejo, Dão) offer incredible tours. Book ahead.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, at 2pm and 4pm.",
+              "phonetic": "seeng, ahsh CHAY-toh-rseh eh ahsh DZEH-sset-eh",
+              "local": "Sim, às 14h e às 16h."
+            },
+            {
+              "english": "Reservation recommended.",
+              "phonetic": "reh-ZER-vah reh-koh-mehn-DAH-dah",
+              "local": "Reserva recomendada."
+            }
+          ]
+        },
+        {
+          "id": "pt_win_002",
+          "intent_en": "Ask about Port wine",
+          "text_local": "O que é especial neste vinho do Porto?",
+          "pronunciation": "oh keh eh es-peh-see-AHL nes-teh VEEN-yoo doo POR-tooh",
+          "formality": "polite",
+          "cultural_note": "Port wine is world-famous, produced only in the Douro Valley. Tawny and Ruby are the main types.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Tawny or Ruby?",
+              "phonetic": "TAW-nee oo ROO-bee",
+              "local": "Tawny ou Ruby?"
+            },
+            {
+              "english": "From the Douro Valley.",
+              "phonetic": "doo VAH-leh dooh DOH-roo",
+              "local": "Do Vale do Douro."
+            }
+          ]
+        },
+        {
+          "id": "pt_win_003",
+          "intent_en": "Ask about the vineyard tour",
+          "text_local": "Fazem visitas às vinhas?",
+          "pronunciation": "FAH-zem vee-ZEE-tash ahsh VEEN-yash",
+          "formality": "polite",
+          "cultural_note": "Vineyard tours give you a sense of the Douro's stunning terraced landscape.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, every hour.",
+              "phonetic": "seeng, ah KAH-dah ORAH",
+              "local": "Sim, a cada hora."
+            },
+            {
+              "english": "Meeting point at the cellar.",
+              "phonetic": "POHN-tooh deh en-KOHN-troo nah ah-DEH-gah",
+              "local": "Ponto de encontro na adega."
+            }
+          ]
+        },
+        {
+          "id": "pt_win_004",
+          "intent_en": "Ask about food pairing",
+          "text_local": "O que combina bem com este vinho?",
+          "pronunciation": "oh keh koh-MEE-nah byeng komh ES-teh VEEN-yoo",
+          "formality": "polite",
+          "cultural_note": "Portuguese wine pairs beautifully with local food. Port + cheese, Vinho Verde + seafood.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Serra cheese!",
+              "phonetic": "KAY-zhoo dah SEH-rah",
+              "local": "Queijo da serra!"
+            },
+            {
+              "english": "Tapas is perfect.",
+              "phonetic": "peh-TEE-shkooz ay per-FAY-tooh",
+              "local": "Petiscos é perfeito."
+            }
+          ]
+        },
+        {
+          "id": "pt_win_005",
+          "intent_en": "Order a tasting",
+          "text_local": "Queremos uma prova de vinhos, por favor.",
+          "pronunciation": "keh-reh-MOOZ OO-mah PROH-vah deh VEEN-yooz, por fah-VOR",
+          "formality": "polite",
+          "cultural_note": "Wine tastings typically include 4-6 wines. Cost: 8-15 euros.",
+          "speech_act": "request",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "With six wines.",
+              "phonetic": "komh shesh VEEN-yooz",
+              "local": "Com seis vinhos."
+            },
+            {
+              "english": "With bread and cheese?",
+              "phonetic": "komh powng eh KAY-zhoo",
+              "local": "Com pão e queijo?"
+            }
+          ]
+        },
+        {
+          "id": "pt_win_006",
+          "intent_en": "Ask about buying bottles to take home",
+          "text_local": "Posso comprar garrafas para levar?",
+          "pronunciation": "POH-sooh kom-PRAHR gah-RAH-fahsh PAH-rah leh-VAR",
+          "formality": "standard",
+          "cultural_note": "Most Portuguese wineries sell bottles directly. Prices are often lower than in shops.",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Yes, 10 euros per bottle.",
+              "phonetic": "seeng, DZEH ooh-rosh por gah-RAH-fah",
+              "local": "Sim, 10 euros por garrafa."
+            },
+            {
+              "english": "Case of 6 bottles, cheaper.",
+              "phonetic": "KY-shah deh SHES gah-RAH-fahsh, mysh bah-RAH-tooh",
+              "local": "Caixa de 6 garrafas, mais barato."
+            }
+          ]
+        },
+        {
+          "id": "pt_win_007",
+          "intent_en": "Ask about the wine region",
+          "text_local": "Que castas cultivam aqui?",
+          "pronunciation": "keh KASHTash kool-tee-VAHM ah-KEE",
+          "formality": "polite",
+          "cultural_note": "Portugal's main grape varieties: Touriga Nacional (red), Alvarinho (white), Arinto (white).",
+          "speech_act": "question",
+          "expects_reply": true,
+          "responses": [
+            {
+              "english": "Touriga Nacional is our star.",
+              "phonetic": "tooh-REE-gah nah-see-oh-NAHL ay ah NOH-sah esht-REH-lah",
+              "local": "Touriga Nacional é a nossa estrela."
+            },
+            {
+              "english": "Alvarinho and Arinto too.",
+              "phonetic": "ahl-vah-REE-nyoo eh ah-REEN-tooh tam-BYENG",
+              "local": "Alvarinho e Arinto também."
+            }
+          ]
+        },
+        {
+          "id": "pt_win_008",
+          "intent_en": "Compliment the wine",
+          "text_local": "Este vinho é fantástico!",
+          "pronunciation": "ES-teh VEEN-yoo ay fahn-TAS-tee-koo",
+          "formality": "polite",
+          "cultural_note": "Portuguese winemakers are passionate. A genuine compliment will be appreciated.",
+          "speech_act": "statement",
+          "expects_reply": false,
+          "responses": [
+            {
+              "english": "Thanks! 2019 vintage.",
+              "phonetic": "oh-bree-GAH-doo! KOL-ay-tah deh dohz-mil e dee-NOWSH",
+              "local": "Obrigado! Colheita de 2019."
+            },
+            {
+              "english": "Glad you appreciated it!",
+              "phonetic": "keh bom keh ah-preh-see-OH",
+              "local": "Que bom que apreciou!"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Vinho",
+          "english": "Wine",
+          "phonetic": "VEEN-yoo"
+        },
+        {
+          "word": "Vinho do Porto",
+          "english": "Port wine",
+          "phonetic": "VEEN-yoo doo POR-tooh"
+        },
+        {
+          "word": "Vinho Verde",
+          "english": "Green wine",
+          "phonetic": "VEEN-yoo VER-deh"
+        },
+        {
+          "word": "Quinta",
+          "english": "Wine estate",
+          "phonetic": "KEEN-tah"
+        },
+        {
+          "word": "Adega",
+          "english": "Wine cellar",
+          "phonetic": "ah-DEH-gah"
+        },
+        {
+          "word": "Vinha",
+          "english": "Vineyard",
+          "phonetic": "VEEN-yah"
+        },
+        {
+          "word": "Prova",
+          "english": "Tasting",
+          "phonetic": "PROH-vah"
+        },
+        {
+          "word": "Garrafa",
+          "english": "Bottle",
+          "phonetic": "gah-RAH-fah"
+        },
+        {
+          "word": "Colheita",
+          "english": "Vintage/Harvest",
+          "phonetic": "KOL-ay-tah"
+        },
+        {
+          "word": "Castas",
+          "english": "Grape varieties",
+          "phonetic": "KASHTash"
+        },
+        {
+          "word": "Tawny",
+          "english": "Tawny (Port)",
+          "phonetic": "TAW-nee"
+        },
+        {
+          "word": "Ruby",
+          "english": "Ruby (Port)",
+          "phonetic": "ROO-bee"
+        },
+        {
+          "word": "Douro",
+          "english": "Douro (wine region)",
+          "phonetic": "DOH-roo"
+        },
+        {
+          "word": "Alentejo",
+          "english": "Alentejo (wine region)",
+          "phonetic": "ah-len-TAY-zhoo"
+        }
+      ]
+    }
+  ]
+}

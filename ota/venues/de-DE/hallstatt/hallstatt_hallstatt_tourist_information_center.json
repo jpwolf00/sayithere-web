@@ -1,0 +1,122 @@
+{
+  "id": "hallstatt_hallstatt_tourist_information_center",
+  "name_en": "Hallstatt Tourist Information Center",
+  "name_local": "Tourismusverband Hallstatt",
+  "icon": "info.circle",
+  "lat": 47.5347939,
+  "lon": 13.5988875,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "hallstatt_hallstatt_tourist_information_center_001",
+      "intent_en": "Ask when the lake ferry departs",
+      "text_local": "Wann fährt die Fähre ab?",
+      "pronunciation": "vAHn-fEHrt-dee-fEHruh-AHp",
+      "formality": "standard",
+      "cultural_note": "Fährplan am Schalter oder am Anleger einsehbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Alle 30 Minuten ab Anleger.",
+        "pronunciation": "AHluh-drEYEsihkh-meenOOtuhn-ahp-AHnlEH",
+        "translation_en": "Every 30 minutes from the dock."
+      },
+      "responses": [
+        {
+          "english": "Every 30 minutes from the dock.",
+          "phonetic": "AHluh-drEYEsihkh-meenOOtuhn-ahp-AHnlEH",
+          "french": "Alle 30 Minuten ab Anleger."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_tourist_information_center_002",
+      "intent_en": "Ask how to book a salt mine tour",
+      "text_local": "Wie buche ich eine Salzbergwerk-Tour?",
+      "pronunciation": "vee-bOOkhuh-ihkh-EYEnuh-zAHltsbvEHrktOOr",
+      "formality": "standard",
+      "cultural_note": "Tickets werden vor Ort oder online verkauft; Barzahlung üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder online.",
+        "pronunciation": "ahm-shAHlt-OHd-ehnNleyendeh",
+        "translation_en": "At the counter or online."
+      },
+      "responses": [
+        {
+          "english": "At the counter or online.",
+          "phonetic": "ahm-shAHlt-OHd-ehnNleyendeh",
+          "french": "Am Schalter oder online."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_tourist_information_center_003",
+      "intent_en": "Ask if Dachstein glacier cable car runs today",
+      "text_local": "Fährt die Dachstein-Seilbahn heute?",
+      "pronunciation": "fEHrt-dee-dAHkhshteyenzEYElbahn-hAWuhtuh",
+      "formality": "standard",
+      "cultural_note": "Betrieb wetterabhängig; aktuelle Infos am Schalter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bei gutem Wetter.",
+        "pronunciation": "yAHbeye-OOtuhm-vEHt",
+        "translation_en": "Yes, if weather permits."
+      },
+      "responses": [
+        {
+          "english": "Yes, if weather permits.",
+          "phonetic": "yAHbeye-OOtuhm-vEHt",
+          "french": "Ja, bei gutem Wetter."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_tourist_information_center_004",
+      "intent_en": "Ask for a Salzkammergut region map",
+      "text_local": "Haben Sie eine Salzkammergut-Karte?",
+      "pronunciation": "hAHbuhn-zee-EYEnuh-zAHltskahmOOtkAHrtuh",
+      "formality": "standard",
+      "cultural_note": "Kostenlose Karten an Info-Stellen verbreitet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hier am Schalter.",
+        "pronunciation": "hEEr-ahm-shAHlt",
+        "translation_en": "Here at the counter."
+      },
+      "responses": [
+        {
+          "english": "Here at the counter.",
+          "phonetic": "hEEr-ahm-shAHlt",
+          "french": "Hier am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_tourist_information_center_005",
+      "intent_en": "Ask where Five Fingers viewing platform is",
+      "text_local": "Wo ist die Aussichtsplattform Five Fingers?",
+      "pronunciation": "vOH-ihst-dee-OWszIHkhtsplahtfAWrm-fEEvuh-fINGs",
+      "formality": "standard",
+      "cultural_note": "Aussichtspunkt auf dem Dachstein; Beschilderung klar sichtbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gegenüber vom Info-Büro.",
+        "pronunciation": "gEHguhnUEb-fawm-IHnfohbUEroh",
+        "translation_en": "Opposite the information office."
+      },
+      "responses": [
+        {
+          "english": "Opposite the information office.",
+          "phonetic": "gEHguhnUEb-fawm-IHnfohbUEroh",
+          "french": "Gegenüber vom Info-Büro."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "berlin_brandenburg_gate",
+  "name_en": "Brandenburg Gate",
+  "name_local": "Brandenburger Tor",
+  "icon": "building.columns",
+  "lat": 52.5162699,
+  "lon": 13.3777034,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "berlin_brandenburg_gate_001",
+      "intent_en": "Which way to Unter den Linden?",
+      "text_local": "Wo geht es zur Straße Unter den Linden?",
+      "pronunciation": "vOH-EHt-ehs-tsoor-shtrAHsuh-UHnt-dehn-lIHnduhn",
+      "formality": "standard",
+      "cultural_note": "Unter den Linden ist eine der bekanntesten Prachtstraßen Berlins und führt direkt vom Brandenburger Tor nach Osten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie in Richtung Osten.",
+        "pronunciation": "EHuhn-zee-ihn-rIHkhtuhng-AWstuhn",
+        "translation_en": "Go in an easterly direction."
+      },
+      "responses": [
+        {
+          "english": "Go in an easterly direction.",
+          "phonetic": "EHuhn-zee-ihn-rIHkhtuhng-AWstuhn",
+          "french": "Gehen Sie in Richtung Osten."
+        }
+      ]
+    },
+    {
+      "id": "berlin_brandenburg_gate_002",
+      "intent_en": "Can I walk under the gate freely?",
+      "text_local": "Darf ich frei unter dem Tor durchgehen?",
+      "pronunciation": "dAHrf-ihkh-frEYE-UHnt-dehm-tOHr-dUHuhkhEHuhn",
+      "formality": "casual",
+      "cultural_note": "Das Brandenburger Tor ist ein öffentliches Denkmal und steht für Fußgänger jederzeit offen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, jederzeit.",
+        "pronunciation": "yAHyEHdtsEYEt",
+        "translation_en": "Yes, anytime."
+      },
+      "responses": [
+        {
+          "english": "Yes, anytime.",
+          "phonetic": "yAHyEHdtsEYEt",
+          "french": "Ja, jederzeit."
+        }
+      ]
+    },
+    {
+      "id": "berlin_brandenburg_gate_003",
+      "intent_en": "Where do guided tours start?",
+      "text_local": "Wo starten die Führungen?",
+      "pronunciation": "vOH-shtAHrtuhn-dee-fUEruhnguhn",
+      "formality": "standard",
+      "cultural_note": "Führungen werden oft an definierten Ständen oder markierten Punkten angeboten, die von offiziellen Fremdenführern betreut werden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Fremdenführer-Stand.",
+        "pronunciation": "ahm-frEHmduhnfUErshtAHnt",
+        "translation_en": "At the licensed guide stand."
+      },
+      "responses": [
+        {
+          "english": "At the licensed guide stand.",
+          "phonetic": "ahm-frEHmduhnfUErshtAHnt",
+          "french": "Am Fremdenführer-Stand."
+        }
+      ]
+    },
+    {
+      "id": "berlin_brandenburg_gate_004",
+      "intent_en": "Where are bus tour ticket kiosks?",
+      "text_local": "Wo finde ich Kioske für Stadtrundfahrten?",
+      "pronunciation": "vOH-fIHnduh-ihkh-kIHohskuh-fuer-shtAHtruhntfAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Bus-Tour-Kioske sind oft an touristischen Hauptplätzen oder Verkehrsknotenpunkten konzentriert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kreisel gibt es Kioske.",
+        "pronunciation": "ahm-krEYEzuhl-gEEpt-ehs-kIHohskuh",
+        "translation_en": "There are kiosks on the roundabout."
+      },
+      "responses": [
+        {
+          "english": "There are kiosks on the roundabout.",
+          "phonetic": "ahm-krEYEzuhl-gEEpt-ehs-kIHohskuh",
+          "french": "Am Kreisel gibt es Kioske."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

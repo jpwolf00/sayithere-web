@@ -1,0 +1,122 @@
+{
+  "id": "konya_mevlana_cultural_center_district",
+  "name_en": "Mevlana Cultural Center district",
+  "name_local": "Mevlana Kültür Merkezi Bölgesi",
+  "icon": "map",
+  "lat": 37.869398,
+  "lon": 32.5160045,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "konya_mevlana_cultural_center_district_001",
+      "intent_en": "Is the shrine donation box here?",
+      "text_local": "Türbe bağış kutusu burada mı?",
+      "pronunciation": "tuhrbEH-bahOOsh-kootoosUH-bOOrahdah-moo",
+      "formality": "standard",
+      "cultural_note": "Donation boxes at the mosque are listed as a common traveler task.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, camide bağış kutuları var.",
+        "pronunciation": "ehvEHtdzhahmeedEH-bahOOsh-kootooahrOO-vAHr",
+        "translation_en": "Yes, there are donation boxes at the mosque."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are donation boxes at the mosque.",
+          "phonetic": "ehvEHtdzhahmeedEH-bahOOsh-kootooahrOO-vAHr",
+          "french": "Evet, camide bağış kutuları var."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_cultural_center_district_002",
+      "intent_en": "Where is the Whirling Dervish hall?",
+      "text_local": "Sema salonu nerede?",
+      "pronunciation": "sEHmah-sahohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location of the Sema hall within the Mevlana Cultural Center is not specified in the venue context, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kültür Merkezi'nin sol tarafı.",
+        "pronunciation": "kuhltUHr-mehrkehzeenIHn-sAW-tahrahfOO",
+        "translation_en": "Left side of the Cultural Centre."
+      },
+      "responses": [
+        {
+          "english": "Left side of the Cultural Centre.",
+          "phonetic": "kuhltUHr-mehrkehzeenIHn-sAW-tahrahfOO",
+          "french": "Kültür Merkezi'nin sol tarafı."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_cultural_center_district_003",
+      "intent_en": "Where is Selimiye Mosque?",
+      "text_local": "Selimiye Camii nerede?",
+      "pronunciation": "sehleemeeyEH-dzhahmeeIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Selimiye Mosque is a stable target, but its exact location relative to the inquirer is not given, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Caminin girişi ileride, sağda.",
+        "pronunciation": "dzhahmeenIHn-eereeshIH-eelehreedEHsahdAH",
+        "translation_en": "The mosque entrance is ahead, on the right."
+      },
+      "responses": [
+        {
+          "english": "The mosque entrance is ahead, on the right.",
+          "phonetic": "dzhahmeenIHn-eereeshIH-eelehreedEHsahdAH",
+          "french": "Caminin girişi ileride, sağda."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_cultural_center_district_004",
+      "intent_en": "Where can I buy festival tickets?",
+      "text_local": "Festival biletlerini nereden alabilirim?",
+      "pronunciation": "fehsteevAH-beelehtlehreenIH-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Festival ticket booths are explicitly mentioned in the venue context as a common traveler task.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Mevlana Festival alanındaki bilet gişelerinden.",
+        "pronunciation": "mehvahnAH-fehsteevAH-ahahnoondahkIH-beelEHt-eeshehlehrihndAHn",
+        "translation_en": "At the ticket booths in the Mevlana Festival grounds."
+      },
+      "responses": [
+        {
+          "english": "At the ticket booths in the Mevlana Festival grounds.",
+          "phonetic": "mehvahnAH-fehsteevAH-ahahnoondahkIH-beelEHt-eeshehlehrihndAHn",
+          "french": "Mevlana Festival alanındaki bilet gişelerinden."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_cultural_center_district_005",
+      "intent_en": "Do food vendors take cards?",
+      "text_local": "Yemek satıcıları kart kabul ediyor mu?",
+      "pronunciation": "yehmEHk-sahtoodzhooahrOO-kAHrt-kahbUH-ehdEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "The venue context explicitly states food vendors are cash only.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sadece nakit.",
+        "pronunciation": "sahdEHdzheh-nahkIHt",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "sahdEHdzheh-nahkIHt",
+          "french": "Sadece nakit."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

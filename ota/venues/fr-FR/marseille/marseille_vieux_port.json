@@ -1,0 +1,118 @@
+{
+  "id": "marseille_vieux_port",
+  "name_en": "Vieux-Port de Marseille",
+  "name_local": "Vieux-Port de Marseille",
+  "icon": "ferry",
+  "lat": 43.2965,
+  "lon": 5.3698,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "marseille_vport_001",
+      "intent_en": "Ask where the fish market is",
+      "text_local": "Où se trouve le marché aux poissons, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV leh mar-SHAY oh pwah-SOHN, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The fish market (la criée) runs every morning on the quayside — arrive before 9am for the best selection. It's been Marseille's fishing hub for centuries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the Quai des Belges, right there. Open in the morning.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Sur le quai des Belges, juste là. Ouvert le matin."
+        }
+      ]
+    },
+    {
+      "id": "marseille_vport_002",
+      "intent_en": "Ask about the navette boat taxi to Frioul",
+      "text_local": "Comment prendre la navette pour les îles du Frioul ?",
+      "pronunciation": "kuh-MAN PRAN-dreh lah nah-VET poor layz EEL doo free-OOL",
+      "formality": "polite",
+      "cultural_note": "The navette (shuttle boat) runs every 15-20 minutes to the Frioul islands. A round trip costs about €8.50 and takes 10 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the Quai des Belges, about every twenty minutes.",
+          "phonetic": "toot lay kah-NEEZ ah vahn mee-NOOT",
+          "french": "Au Quai des Belges, toutes les vingt minutes environ."
+        }
+      ]
+    },
+    {
+      "id": "marseille_vport_003",
+      "intent_en": "Ask for a recommendation for a bouillabaisse restaurant",
+      "text_local": "Pouvez-vous me recommander un restaurant où l'on sert une bonne bouillabaisse ?",
+      "pronunciation": "poo-VAY voo meh reh-ko-man-DAY un res-to-RAN oo luhn sehr oon bon boo-yah-BES",
+      "formality": "polite",
+      "cultural_note": "True bouillabaisse is a complex dish — expect to pay €25-40 for a proper serving. The traditional version uses at least five types of Mediterranean fish.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Ask the locals, there are several good places around the port.",
+          "phonetic": "zhuh ray-ko-MAHN-duh luh spay-see-ah-lee-TAY loh-KAL, say tek-seh-LAHN",
+          "french": "Demandez aux locaux, il y a plusieurs bonnes adresses autour du port."
+        }
+      ]
+    },
+    {
+      "id": "marseille_vport_004",
+      "intent_en": "Ask where the ferry to Château d'If departs",
+      "text_local": "D'où part le ferry pour le Château d'If ?",
+      "pronunciation": "doo PAR leh FEH-ree poor leh shah-TOH deef",
+      "formality": "polite",
+      "cultural_note": "Ferries to Château d'If depart from the Vieux-Port. The 15-minute crossing offers views of the fortress made famous by Alexandre Dumas' 'The Count of Monte Cristo'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the Quai de la Fraternité, in front of the City Hall.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Du quai de la Fraternité, devant l'Hôtel de Ville."
+        }
+      ]
+    },
+    {
+      "id": "marseille_vport_005",
+      "intent_en": "Ask to order a pastis",
+      "text_local": "Un pastis, s'il vous plaît !",
+      "pronunciation": "uhn pahs-TEEF, seel voo PLAY",
+      "formality": "neutral",
+      "cultural_note": "Pastis is the quintessential Marseille drink — an anise-flavored aperitif. Add water to cloud it. It's traditionally served with ice and a glass of water.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Right away, sir.",
+          "phonetic": "byan sewr, zhuh voo ah-PROHNT sah too deh SWEET",
+          "french": "Tout de suite, monsieur."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "old port",
+      "word_local": "le vieux port",
+      "pronunciation": "leh VYUH por"
+    },
+    {
+      "word_en": "fish market",
+      "word_local": "la criée",
+      "pronunciation": "lah kree-AY"
+    },
+    {
+      "word_en": "boat taxi",
+      "word_local": "la navette",
+      "pronunciation": "lah nah-VET"
+    },
+    {
+      "word_en": "anchovies",
+      "word_local": "les anchois",
+      "pronunciation": "layz ahn-SHWAH"
+    }
+  ]
+}

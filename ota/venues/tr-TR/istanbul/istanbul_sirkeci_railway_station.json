@@ -1,0 +1,122 @@
+{
+  "id": "istanbul_sirkeci_railway_station",
+  "name_en": "Sirkeci Railway Station",
+  "name_local": "Sirkeci Garı",
+  "icon": "tram",
+  "lat": 41.0136066,
+  "lon": 28.9771437,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "istanbul_sirkeci_railway_station_001",
+      "intent_en": "Ask when last Marmaray train departs",
+      "text_local": "Son Marmaray treni saat kaçta kalkıyor?",
+      "pronunciation": "sAWn-mahrmahrAHy-trehnIH-sahAHt-kahtshtAH-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Exact departure times are variable and not listed in the stable venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saat 00.15'te kalkıyor.",
+        "pronunciation": "sahAHt-soofOOr-soofOOr-nawktAH-OHnbEHsh-tEH-kahkOOyawr",
+        "translation_en": "It departs at 00:15."
+      },
+      "responses": [
+        {
+          "english": "It departs at 00:15.",
+          "phonetic": "sahAHt-soofOOr-soofOOr-nawktAH-OHnbEHsh-tEH-kahkOOyawr",
+          "french": "Saat 00.15'te kalkıyor."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_sirkeci_railway_station_002",
+      "intent_en": "Ask where to top up Istanbulkart",
+      "text_local": "İstanbulkart bakiye yükleme nerede var?",
+      "pronunciation": "ihstahnbuhkahrtAH-bahkeeyEH-yuhklehmEHk-eetshIHn-nEHrehyeh-ihtmehlEEyihm",
+      "formality": "standard",
+      "cultural_note": "The term 'bakiye yüklemek' is the standard phrase for loading credit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki makinelerden yükleyin.",
+        "pronunciation": "eerihshtehkIH-mahkeenehlehrdAHn-yuhklehyIHn",
+        "translation_en": "Load it from the machines at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Load it from the machines at the entrance.",
+          "phonetic": "eerihshtehkIH-mahkeenehlehrdAHn-yuhklehyIHn",
+          "french": "Girişteki makinelerden yükleyin."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_sirkeci_railway_station_003",
+      "intent_en": "Ask how to validate T6 tram ticket",
+      "text_local": "T6 tramvay biletini nasıl valide ediyorum?",
+      "pronunciation": "tEH-ahtOO-trahmvAHy-beelehteenIH-nahsOO-vahleedEH-ehdEEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Fare validation is commonly done at turnstiles ('turnike'). The term 'okutmak' means to have it read/scanned.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Turnikede kartınızı okutun.",
+        "pronunciation": "tuhrneekehdEH-kAHrtoonoozoo-ohkootUHn",
+        "translation_en": "Tap your card at the turnstile."
+      },
+      "responses": [
+        {
+          "english": "Tap your card at the turnstile.",
+          "phonetic": "tuhrneekehdEH-kAHrtoonoozoo-ohkootUHn",
+          "french": "Turnikede kartınızı okutun."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_sirkeci_railway_station_004",
+      "intent_en": "Ask which platform for Marmaray to Üsküdar",
+      "text_local": "Marmaray Üsküdar hangi perondan kalkıyor?",
+      "pronunciation": "uhskuedAHr-yuhnuenEH-eedAHn-mahrmahrAHy-hahngIH-pehrawndAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Turkish station staff often use the verb 'kalkmak' (to depart) for trains.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yeraltı katındaki peron.",
+        "pronunciation": "yehrahtOO-kahtoondahkIH-pehrAWn",
+        "translation_en": "The platform on the underground level."
+      },
+      "responses": [
+        {
+          "english": "The platform on the underground level.",
+          "phonetic": "yehrahtOO-kahtoondahkIH-pehrAWn",
+          "french": "Yeraltı katındaki peron."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_sirkeci_railway_station_005",
+      "intent_en": "Ask if T6 tram connects to Eminönü ferry",
+      "text_local": "T6 tramvayı Eminönü vapur iskelesine bağlanıyor mu?",
+      "pronunciation": "tEH-ahtOO-trahmvahyOO-ehmeenuhnUH-vahpUHr-ihskehlehseenEH-bahahnOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "When a direct connection is not a listed stable target, the safest response is to direct to staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bağlantı var.",
+        "pronunciation": "ehvEHtbahahntOO-vAHr",
+        "translation_en": "Yes, there is a connection."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a connection.",
+          "phonetic": "ehvEHtbahahntOO-vAHr",
+          "french": "Evet, bağlantı var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

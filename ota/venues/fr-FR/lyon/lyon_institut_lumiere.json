@@ -1,0 +1,115 @@
+{
+  "id": "lyon_institut_lumiere",
+  "name_en": "Lumière Institute",
+  "name_local": "Institut Lumière",
+  "icon": "film",
+  "phrases": [
+    {
+      "id": "lyon_lumiere_001",
+      "intent_en": "Ask if the museum is open today",
+      "text_local": "Le musée est-il ouvert aujourd'hui ?",
+      "pronunciation": "luh moo-ZAY eh-TEEL oo-VEHR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The Institut Lumière is housed in the family villa of the Lumière brothers, pioneers of cinema.",
+      "responses": [
+        {
+          "english": "Yes, until 6 PM.",
+          "phonetic": "wee, zhoos-KAH deez-weet UHR",
+          "french": "Oui, jusqu'à dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_lumiere_002",
+      "intent_en": "Ask for two tickets to the museum",
+      "text_local": "Deux billets pour le musée, s'il vous plaît.",
+      "pronunciation": "duh bee-YEH poor luh moo-ZAY, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The museum displays original Cinématographe cameras, early film reels, and photographs. The adjacent Villa Lumière (the family home) can also be visited.",
+      "responses": [
+        {
+          "english": "Sixteen euros for two.",
+          "phonetic": "sez uh-ROH poor DUH",
+          "french": "Seize euros pour deux."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_lumiere_003",
+      "intent_en": "Ask whether there is a cinema screening original Lumière films",
+      "text_local": "Y a-t-il des projections de films des frères Lumière ?",
+      "pronunciation": "ee ah-TEEL day pro-zhek-SYOHN duh FEELM day frair loo-MYAIR",
+      "formality": "polite",
+      "cultural_note": "The institute operates a cinema that screens early Lumière films alongside classic and contemporary world cinema. L'Arrivée d'un train en gare is always a crowd favourite.",
+      "responses": [
+        {
+          "english": "Yes, in the room at the back.",
+          "phonetic": "wee, dahn lah SAL oh FOHN",
+          "french": "Oui, dans la salle au fond."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_lumiere_004",
+      "intent_en": "Ask if there is an audio guide available",
+      "text_local": "Y a-t-il un audioguide disponible ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dee-oh-GHEED dees-poh-NEE-bluh",
+      "formality": "polite",
+      "cultural_note": "The Institut Lumière offers audio guides in several languages to accompany the visit.",
+      "responses": [
+        {
+          "english": "Yes, at reception. Three euros.",
+          "phonetic": "wee, ah lah-KUHY. trwah uh-ROH",
+          "french": "Oui, à l'accueil. Trois euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_lumiere_005",
+      "intent_en": "Buy a souvenir related to the history of cinema",
+      "text_local": "Avez-vous des souvenirs liés à l'histoire du cinéma ?",
+      "pronunciation": "ah-VAY-voo day soov-NEER lyay ah lees-TWAR doo see-nay-MAH",
+      "formality": "polite",
+      "cultural_note": "The museum shop sells prints, books, posters, and replicas of original equipment. It is an excellent place to find thoughtful gifts related to film history.",
+      "responses": [
+        {
+          "english": "Yes, in the shop.",
+          "phonetic": "wee, ah lah boo-TEEK",
+          "french": "Oui, à la boutique."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cinema / film",
+      "word_local": "le cinéma",
+      "pronunciation": "luh see-nay-MAH"
+    },
+    {
+      "word_en": "film screening",
+      "word_local": "la projection",
+      "pronunciation": "lah pro-zhek-SYOHN"
+    },
+    {
+      "word_en": "invention",
+      "word_local": "l'invention",
+      "pronunciation": "lahn-vahn-SYOHN"
+    },
+    {
+      "word_en": "brothers",
+      "word_local": "les frères",
+      "pronunciation": "lay FRAIR"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "montreal_neighborhood_mile_end",
+  "name_en": "Mile End",
+  "name_local": "Mile End",
+  "icon": "building.2",
+  "lat": 45.527,
+  "lon": -73.5985,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "mtl_mileend_001",
+      "intent_en": "Ask where to find the best bagels in Montréal",
+      "text_local": "C'est où les meilleurs bagels de Montréal ?",
+      "pronunciation": "say OO lay may-YUR BAY-gel duh mon-ray-AHL",
+      "formality": "neutral",
+      "cultural_note": "Montréal bagels are boiled in honey water then wood-fired — smaller, sweeter, and denser than New York bagels. Fairmount and St-Viateur bakeries have been rivals for decades.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "mtl_mileend_002",
+      "intent_en": "Ask for a sesame bagel with cream cheese",
+      "text_local": "Un bagel au sésame avec du fromage à la crème, s'il vous plaît.",
+      "pronunciation": "un BAY-gel oh say-ZAHM ah-VEK doo fro-MAHZH ah lah KREM seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Freshly baked bagels from the wood-fired oven are sold all night long at both St-Viateur and Fairmount. The neighbourhood smells incredible.",
+      "responses": [
+        {
+          "english": "Right away! Do you want it hot?",
+          "phonetic": "U(N) buh-ZHEL oh seh-ZAM ah-VEK dyoo froh-MAZH ah lah KREM, seel voo PLEH",
+          "french": "Tout de suite ! Vous le voulez chaud ?"
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mileend_003",
+      "intent_en": "Ask for directions to Bernard Avenue",
+      "text_local": "L'avenue Bernard, c'est par là ?",
+      "pronunciation": "lah-vuh-NOO bair-NAR say par LAH",
+      "formality": "neutral",
+      "cultural_note": "Avenue Bernard is Mile End's charming main street with indie boutiques, coffee shops, and the legendary Café Olimpico frequented by locals for decades.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "mtl_mileend_004",
+      "intent_en": "Ask about the neighbourhood's artistic scene",
+      "text_local": "C'est vrai que le Mile End, c'est le quartier des artistes ?",
+      "pronunciation": "say VREH kuh luh myl END say luh kar-tee-YAY day zar-TEEST",
+      "formality": "informal",
+      "cultural_note": "Mile End has been home to artists, musicians, and writers for decades. Arcade Fire recorded their debut album here. Many studios and galleries exist on side streets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "mtl_mileend_005",
+      "intent_en": "Ask where the Jewish deli is",
+      "text_local": "La charcuterie juive traditionnelle, c'est dans quel coin ?",
+      "pronunciation": "lah shar-koo-tuh-REE zhweev trah-dee-syo-NEL say dahn kel KWAN",
+      "formality": "neutral",
+      "cultural_note": "Mile End has deep Jewish roots — several traditional Jewish delis and bakeries remain from its early 20th-century immigrant community.",
+      "responses": [
+        {
+          "english": "It's on Saint-Laurent, near Prince-Arthur Street.",
+          "phonetic": "lah shar-koo-tuh-REE ZHWEEV trah-dee-syo-NEL, say DAHN kel KWAN",
+          "french": "C'est sur Saint-Laurent, près de la rue Prince-Arthur."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "bagel",
+      "word_local": "le bagel",
+      "pronunciation": "luh BAY-gel"
+    },
+    {
+      "word_en": "cream cheese",
+      "word_local": "le fromage à la crème",
+      "pronunciation": "luh fro-MAHZH ah lah KREM"
+    },
+    {
+      "word_en": "wood-fired oven",
+      "word_local": "le four à bois",
+      "pronunciation": "luh FOOR ah BWAH"
+    },
+    {
+      "word_en": "artist / studio",
+      "word_local": "l'artiste / l'atelier",
+      "pronunciation": "lar-TEEST / lah-tuh-lee-YAY"
+    }
+  ]
+}

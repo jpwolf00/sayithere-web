@@ -1,0 +1,78 @@
+{
+  "id": "kanazawa_teramachi_temple_district",
+  "name_en": "Teramachi Temple District",
+  "name_local": "寺町寺院群",
+  "icon": "leaf",
+  "lat": 34.6293733,
+  "lon": 135.704387,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "kanazawa_teramachi_temple_district_001",
+      "intent_en": "Is temple parking lot open?",
+      "text_local": "てらの ちゅうしゃじょうは あいていますか？",
+      "pronunciation": "tehNoh-tOOooDohOOh-EEtEHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Temple parking lots may have limited hours, especially in historic districts. It's polite to confirm availability before entering.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、 いま あいています。",
+        "pronunciation": "hEEEEm-EEtEHeemSoo",
+        "translation_en": "Yes, it's open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open now.",
+          "phonetic": "hEEEEm-EEtEHeemSoo",
+          "french": "はい、 いま あいています。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_teramachi_temple_district_002",
+      "intent_en": "Where is Gansho-ji temple?",
+      "text_local": "がんしょうじは どこですか？",
+      "pronunciation": "gOHoodEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In temple districts, directions often use nearby streets or landmarks rather than exact addresses.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このみちを まっすぐ、 ひだりがわです。",
+        "pronunciation": "kOHnohmeetEEoh-mssOOgookhEEdEEgwdEHsoo",
+        "translation_en": "Straight down this road, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Straight down this road, on the left side.",
+          "phonetic": "kOHnohmeetEEoh-mssOOgookhEEdEEgwdEHsoo",
+          "french": "このみちを まっすぐ、 ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_teramachi_temple_district_003",
+      "intent_en": "Where to buy omamori charms?",
+      "text_local": "おまもりは どこで かえますか？",
+      "pronunciation": "OHmmohEEh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Omamori are typically sold at a dedicated counter or window near the main hall, not inside the worship area itself.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ほんどうの よこに うりばが あります。",
+        "pronunciation": "hOHndohOOnoh-yohkOHnee-OOeebG-EEmSoo",
+        "translation_en": "There's a sales counter beside the main hall."
+      },
+      "responses": [
+        {
+          "english": "There's a sales counter beside the main hall.",
+          "phonetic": "hOHndohOOnoh-yohkOHnee-OOeebG-EEmSoo",
+          "french": "ほんどうの よこに うりばが あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

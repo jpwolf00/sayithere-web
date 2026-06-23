@@ -1,0 +1,118 @@
+{
+  "id": "rouen_eglise_saint_maclou",
+  "name_en": "Church of Saint-Maclou",
+  "name_local": "Église Saint-Maclou",
+  "icon": "building.columns.fill",
+  "lat": 49.441,
+  "lon": 1.097,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "rouen_smaclou_001",
+      "intent_en": "Ask if the church is open for visitors now",
+      "text_local": "L'église est ouverte aux visiteurs en ce moment ?",
+      "pronunciation": "lay-GLEEZ eh too-VAIR oh veez-ee-TUR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "Saint-Maclou may be closed for restoration works periodically.",
+      "responses": [
+        {
+          "english": "Yes, come in.",
+          "phonetic": "wee ahn-TRAY",
+          "french": "Oui, entrez."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_smaclou_002",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Est-ce qu'on peut prendre des photos à l'intérieur ?",
+      "pronunciation": "ess kohn PUH PRAHN-druh day foh-TOH ah lahn-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "Photography without flash is generally allowed in French churches.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_smaclou_003",
+      "intent_en": "Ask if the church is being restored",
+      "text_local": "Est-ce que l'église est en cours de restauration en ce moment ?",
+      "pronunciation": "ess kuh lay-GLEEZ eh ahn KOOR duh res-toh-rah-SYOHN ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "Saint-Maclou, like many Norman Gothic churches, requires ongoing restoration due to weathering of its intricate stonework. Even with scaffolding, the interior and much of the exterior are usually accessible.",
+      "responses": [
+        {
+          "english": "Yes, some parts are under restoration.",
+          "phonetic": "wee sair-TEN par-TEE sohn tahn trah-VOH",
+          "french": "Oui, certaines parties sont en travaux."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_smaclou_004",
+      "intent_en": "Ask for the best spot to photograph the church",
+      "text_local": "D'où recommandez-vous de photographier la façade de l'église ?",
+      "pronunciation": "DOO ruh-koh-mahn-DAY-voo duh foh-toh-grah-FYAY lah fah-SAHD duh lay-GLEEZ",
+      "formality": "polite",
+      "cultural_note": "The church stands in a small square at the end of a narrow medieval street. Back up toward the Rue Martainville for the best wide-angle view of the five-porch facade.",
+      "responses": [
+        {
+          "english": "From the square, opposite.",
+          "phonetic": "duh-PWEE lah PLAHSS ahn FAHSS",
+          "french": "Depuis la place, en face."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_smaclou_005",
+      "intent_en": "Ask about organ concerts in the church",
+      "text_local": "Y a-t-il des concerts d'orgue dans cette église ?",
+      "pronunciation": "ee ah-TEEL day kohn-SAIR DOR-guh dahn set ay-GLEEZ",
+      "formality": "polite",
+      "cultural_note": "Saint-Maclou has a fine historic organ and occasionally hosts recitals, particularly during the summer festival season. The tourist office can provide a current programme.",
+      "responses": [
+        {
+          "english": "You need to check the programme on the website.",
+          "phonetic": "eel foh vay-ree-FYAY luh proh-GRAM soor luh SEET",
+          "french": "Il faut vérifier le programme sur le site."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Gothic",
+      "word_local": "gothique",
+      "pronunciation": "goh-TEEK"
+    },
+    {
+      "word_en": "facade",
+      "word_local": "la façade",
+      "pronunciation": "lah fah-SAHD"
+    },
+    {
+      "word_en": "tracery",
+      "word_local": "le remplage",
+      "pronunciation": "luh rahn-PLAHJ"
+    },
+    {
+      "word_en": "organ",
+      "word_local": "l'orgue",
+      "pronunciation": "LOR-guh"
+    }
+  ]
+}

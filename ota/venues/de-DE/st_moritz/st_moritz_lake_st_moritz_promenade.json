@@ -1,0 +1,122 @@
+{
+  "id": "st_moritz_lake_st_moritz_promenade",
+  "name_en": "Lake St. Moritz Promenade",
+  "name_local": "Promenade am St. Moritzersee",
+  "icon": "leaf",
+  "lat": 46.4978958,
+  "lon": 9.8392428,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "st_moritz_lake_st_moritz_promenade_001",
+      "intent_en": "Where is the boat rental station?",
+      "text_local": "Wo ist der Bootsverleih?",
+      "pronunciation": "vOH-ihst-dehr-bOHtsflEYE",
+      "formality": "standard",
+      "cultural_note": "Directions in German-speaking regions often use landmarks like 'Seeufer' (lakeside) for open-air venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Seesteg, unterhalb der Promenade.",
+        "pronunciation": "ahm-zEHstehkUHnthAHlp-dehr-prohmEHnahduh",
+        "translation_en": "At the lake jetty, below the promenade."
+      },
+      "responses": [
+        {
+          "english": "At the lake jetty, below the promenade.",
+          "phonetic": "ahm-zEHstehkUHnthAHlp-dehr-prohmEHnahduh",
+          "french": "Am Seesteg, unterhalb der Promenade."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_lake_st_moritz_promenade_002",
+      "intent_en": "Are boat rentals open today?",
+      "text_local": "Bootsverleih heute geöffnet?",
+      "pronunciation": "bOHtsflEYE-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Short, direct answers are common in German service interactions, especially for seasonal operations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis 18 Uhr.",
+        "pronunciation": "yAHbihs-AHkhtsehn-OOr",
+        "translation_en": "Yes, until 6 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 6 PM.",
+          "phonetic": "yAHbihs-AHkhtsehn-OOr",
+          "french": "Ja, bis 18 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_lake_st_moritz_promenade_003",
+      "intent_en": "Which side to walk on bidirectional path?",
+      "text_local": "Auf welcher Seite gehen?",
+      "pronunciation": "owf-vEHlkh-zEYEtuh-EHuhn",
+      "formality": "standard",
+      "cultural_note": "Clear, concise rules for shared paths are typical in German-speaking pedestrian zones.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rechts bleiben.",
+        "pronunciation": "rEHkhts-blEYEbuhn",
+        "translation_en": "Stay right."
+      },
+      "responses": [
+        {
+          "english": "Stay right.",
+          "phonetic": "rEHkhts-blEYEbuhn",
+          "french": "Rechts bleiben."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_lake_st_moritz_promenade_004",
+      "intent_en": "Where is the Bellaval peninsula from here?",
+      "text_local": "Wo liegt die Bellaval-Halbinsel?",
+      "pronunciation": "vOH-lEEkt-dee-bEHlahvAHlhAHlbihnzuhl",
+      "formality": "standard",
+      "cultural_note": "Landmarks like 'northern lakeside' are commonly used in regional descriptions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am nördlichen Seeufer.",
+        "pronunciation": "ahm-nUHrtlihkhuhn-zEHoof",
+        "translation_en": "On the northern lakeside."
+      },
+      "responses": [
+        {
+          "english": "On the northern lakeside.",
+          "phonetic": "ahm-nUHrtlihkhuhn-zEHoof",
+          "french": "Am nördlichen Seeufer."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_lake_st_moritz_promenade_005",
+      "intent_en": "Where is the Signalbahn cable car?",
+      "text_local": "Wo ist die Signalbahn?",
+      "pronunciation": "vOH-ihst-dee-zIHnahlbAHn",
+      "formality": "standard",
+      "cultural_note": "Signage-based directions are standard in German-speaking tourist areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Seilbahn ist oben an der Promenade.",
+        "pronunciation": "dee-zEYElbahn-ihst-OHbuhn-ahn-dehr-prohmEHnahduh",
+        "translation_en": "The cable car is up at the promenade."
+      },
+      "responses": [
+        {
+          "english": "The cable car is up at the promenade.",
+          "phonetic": "dee-zEYElbahn-ihst-OHbuhn-ahn-dehr-prohmEHnahduh",
+          "french": "Die Seilbahn ist oben an der Promenade."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "zell_am_see_zell_am_see_kaprun_castle",
+  "name_en": "Zell am See-Kaprun Castle",
+  "name_local": "Schloss Rosenberg",
+  "icon": "building.columns",
+  "lat": 47.2744182,
+  "lon": 12.7708114,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "zell_am_see_zell_am_see_kaprun_castle_001",
+      "intent_en": "Is the chapel area open for quiet visit",
+      "text_local": "Darf ich die Kapelle in Ruhe besichtigen?",
+      "pronunciation": "dAHrf-ihkh-dee-kahpEHluh-ihn-rOOuh-buhzIHkhtihuhn",
+      "formality": "standard",
+      "cultural_note": "German visitors respect quiet zones in chapels, expecting no guided tours or loud activities.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, in Ruhe.",
+        "pronunciation": "yAHihn-rOOuh",
+        "translation_en": "Yes, quietly."
+      },
+      "responses": [
+        {
+          "english": "Yes, quietly.",
+          "phonetic": "yAHihn-rOOuh",
+          "french": "Ja, in Ruhe."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_kaprun_castle_002",
+      "intent_en": "Where can I buy castle event tickets",
+      "text_local": "Wo gibt es Tickets für Burgveranstaltungen?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fuer-bUHuhfehrAHnstahltUHnguhn",
+      "formality": "standard",
+      "cultural_note": "Castle events in Austria typically require ticket purchase at a dedicated counter or office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_kaprun_castle_003",
+      "intent_en": "Where is the Burgmuseum entrance",
+      "text_local": "Wo ist der Eingang zum Burgmuseum?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-buhuhmOOzehUHm",
+      "formality": "standard",
+      "cultural_note": "Visitors expect clear signage for museum entrances at castles in German-speaking regions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Eingang ist auf der linken Seite.",
+        "pronunciation": "dehr-EYEngAHng-ihst-owf-dehr-lINGkuhn-zEYEtuh",
+        "translation_en": "The entrance is on the left side."
+      },
+      "responses": [
+        {
+          "english": "The entrance is on the left side.",
+          "phonetic": "dehr-EYEngAHng-ihst-owf-dehr-lINGkuhn-zEYEtuh",
+          "french": "Der Eingang ist auf der linken Seite."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

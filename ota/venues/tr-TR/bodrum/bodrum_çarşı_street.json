@@ -1,0 +1,144 @@
+{
+  "id": "bodrum_çarşı_street",
+  "name_en": "Çarşı Street",
+  "name_local": "Çarşı Caddesi",
+  "icon": "bag",
+  "lat": 37.0345827,
+  "lon": 27.4302211,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bodrum_çarşı_street_001",
+      "intent_en": "Is bargaining expected at garment shops?",
+      "text_local": "Giyim mağazalarında pazarlık yapılır mı?",
+      "pronunciation": "EEyihm-mahzahahroondAH-pahzahrOOk-yahpooOOr-moo",
+      "formality": "standard",
+      "cultural_note": "Haggling is a known part of the garment shop culture here, as noted in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, pazarlık yaygındır.",
+        "pronunciation": "ehvEHtpahzahrOOk-yahygOOndoor",
+        "translation_en": "Yes, bargaining is common."
+      },
+      "responses": [
+        {
+          "english": "Yes, bargaining is common.",
+          "phonetic": "ehvEHtpahzahrOOk-yahygOOndoor",
+          "french": "Evet, pazarlık yaygındır."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_çarşı_street_002",
+      "intent_en": "Where is the fish market entrance?",
+      "text_local": "Balık pazarının girişi nerede?",
+      "pronunciation": "bahOOk-pahzahroonOOn-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The fish market is a stable target but its exact entrance placement is not specified in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sokak başında, sola dönün.",
+        "pronunciation": "sohkAHk-bahshoondAHsOHah-duhnUHn",
+        "translation_en": "At the corner of the street, turn left."
+      },
+      "responses": [
+        {
+          "english": "At the corner of the street, turn left.",
+          "phonetic": "sohkAHk-bahshoondAHsOHah-duhnUHn",
+          "french": "Sokak başında, sola dönün."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_çarşı_street_003",
+      "intent_en": "Is bargaining expected at garment shops?",
+      "text_local": "Giyim mağazalarında pazarlık beklenir mi?",
+      "pronunciation": "EEyihm-mahzahahroondAH-pahzahrOOk-behklehnIHr-mih",
+      "formality": "standard",
+      "cultural_note": "Garment shop haggling is a common traveler task here. The response avoids absolute claims.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Esnafa sorun, genelde olur.",
+        "pronunciation": "ehsnahfAH-sohrUHnehnahldEH-ohUHr",
+        "translation_en": "Ask the shopkeeper, usually yes."
+      },
+      "responses": [
+        {
+          "english": "Ask the shopkeeper, usually yes.",
+          "phonetic": "ehsnahfAH-sohrUHnehnahldEH-ohUHr",
+          "french": "Esnafa sorun, genelde olur."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_çarşı_street_004",
+      "intent_en": "How do we split the bill at meyhanes?",
+      "text_local": "Meyhanelerde hesabı nasıl bölüşüyoruz?",
+      "pronunciation": "mehyhahnehlehrdEH-hehsahbOO-nahsOO-buhlueshUEyohruhz",
+      "formality": "standard",
+      "cultural_note": "Bill splitting at meyhanes is a known practice. The response points to the waiter as the process facilitator.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Garsona söyleyin, hesabı böler.",
+        "pronunciation": "gahrsohnAH-suhylehyIHnhehsahbOO-buhlEHr",
+        "translation_en": "Tell the waiter, they will split the bill."
+      },
+      "responses": [
+        {
+          "english": "Tell the waiter, they will split the bill.",
+          "phonetic": "gahrsohnAH-suhylehyIHnhehsahbOO-buhlEHr",
+          "french": "Garsona söyleyin, hesabı böler."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_çarşı_street_005",
+      "intent_en": "Is Mercan Caddesi for pedestrians only?",
+      "text_local": "Mercan Caddesi sadece yayalara mı açık?",
+      "pronunciation": "mehrdzhAHn-dzhahdehsIH-sahdEHdzheh-yahyahahrAH-moo-ahtshOOk",
+      "formality": "standard",
+      "cultural_note": "Mercan Caddesi is a stable target, but its vehicle access rules are not detailed. The response defaults to safety.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, araç trafiğine kapalı.",
+        "pronunciation": "ehvEHtahrAHtsh-trahfeeyeenEH-kahpahOO",
+        "translation_en": "Yes, it's closed to vehicle traffic."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's closed to vehicle traffic.",
+          "phonetic": "ehvEHtahrAHtsh-trahfeeyeenEH-kahpahOO",
+          "french": "Evet, araç trafiğine kapalı."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_çarşı_street_006",
+      "intent_en": "How do we split the bill at meyhanes?",
+      "text_local": "Meyhanede hesabı nasıl bölüşürüz?",
+      "pronunciation": "mehyhahnehdEH-hehsahbOO-nahsOO-buhlueshUEruhz",
+      "formality": "standard",
+      "cultural_note": "It is common to ask the waiter to handle bill splitting in Turkish meyhanes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Garsona söyleyin, o bölüştürür.",
+        "pronunciation": "gahrsohnAH-suhylehyIHnaw-buhluhshtuerUHr",
+        "translation_en": "Tell the waiter, he will split it."
+      },
+      "responses": [
+        {
+          "english": "Tell the waiter, he will split it.",
+          "phonetic": "gahrsohnAH-suhylehyIHnaw-buhluhshtuerUHr",
+          "french": "Garsona söyleyin, o bölüştürür."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "reims_gare",
+  "name_en": "Reims Train Station",
+  "name_local": "Gare de Reims",
+  "icon": "tram.fill",
+  "phrases": [
+    {
+      "id": "gare_quai",
+      "intent_en": "Which platform is the next train to Paris?",
+      "text_local": "Le prochain train pour Paris part de quel quai ?",
+      "pronunciation": "luh pro-SHEN trahn poor pah-REE par duh kel kay",
+      "formality": "polite",
+      "cultural_note": "Check both platform number and departure time; TER and TGV services can depart from different tracks.",
+      "responses": [
+        {
+          "english": "Platform two.",
+          "phonetic": "VWAH DUH",
+          "french": "Voie deux."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "gare_compostage",
+      "intent_en": "Do I need to validate this ticket before boarding?",
+      "text_local": "Je dois composter ce billet avant de monter ?",
+      "pronunciation": "zhuh dwah kom-pos-TAY suh bee-YAY ah-VON duh mon-TAY",
+      "formality": "polite",
+      "cultural_note": "Validation rules depend on ticket type and operator; asking avoids penalties.",
+      "responses": [
+        {
+          "english": "No, it is an electronic ticket.",
+          "phonetic": "nohn say tuhn bee-YAY ay-lek-troh-NEEK",
+          "french": "Non, c'est un billet électronique."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "gare_correspondance",
+      "intent_en": "Is this the right connection for Champagne-Ardenne TGV?",
+      "text_local": "C'est la bonne correspondance pour Champagne-Ardenne TGV ?",
+      "pronunciation": "say lah bon kor-es-pon-DONS poor sham-PANY ar-DEN tay-zhay-VAY",
+      "formality": "polite",
+      "cultural_note": "Some routes require switching between Reims centre and Champagne-Ardenne TGV station.",
+      "responses": [
+        {
+          "english": "Yes, it is the right platform.",
+          "phonetic": "wee say luh bohn KAY",
+          "french": "Oui, c'est le bon quai."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "gare_taxi",
+      "intent_en": "Where is the official taxi queue?",
+      "text_local": "Où est la file des taxis officiels ?",
+      "pronunciation": "oo eh lah feel day tak-SEE oh-fee-syel",
+      "formality": "polite",
+      "cultural_note": "Use marked taxi stands outside the station to avoid unofficial solicitations.",
+      "responses": [
+        {
+          "english": "At the main exit, to the right.",
+          "phonetic": "ah lah sor-TEE prahn-see-PAHL ah DRWAHT",
+          "french": "À la sortie principale, à droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "gare_consigne",
+      "intent_en": "Is there luggage storage nearby?",
+      "text_local": "Il y a une consigne bagages à proximité ?",
+      "pronunciation": "eel yah oon kon-SEEN bah-GAZH ah prok-see-mee-TAY",
+      "formality": "polite",
+      "cultural_note": "Storage options can vary by station size and day/time.",
+      "responses": [
+        {
+          "english": "Yes, there are lockers in the hall.",
+          "phonetic": "wee eel ee ah day kohn-SEE-nyuh dahn luh OHL",
+          "french": "Oui, il y a des consignes dans le hall."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "luh kay"
+    },
+    {
+      "word_en": "connection",
+      "word_local": "la correspondance",
+      "pronunciation": "lah kor-es-pon-DONS"
+    },
+    {
+      "word_en": "validate ticket",
+      "word_local": "composter",
+      "pronunciation": "kom-pos-TAY"
+    },
+    {
+      "word_en": "station hall",
+      "word_local": "le hall de gare",
+      "pronunciation": "luh ol duh gar"
+    }
+  ]
+}

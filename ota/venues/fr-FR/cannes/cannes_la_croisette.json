@@ -1,0 +1,118 @@
+{
+  "id": "cannes_la_croisette",
+  "name_en": "La Croisette",
+  "name_local": "Boulevard de la Croisette",
+  "icon": "figure.walk",
+  "lat": 43.5513,
+  "lon": 7.0274,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "cannes_croisette_001",
+      "intent_en": "Ask if the Palais des Festivals is visible from here",
+      "text_local": "Peut-on voir le Palais des Festivals depuis cet endroit ?",
+      "pronunciation": "puh-TON VWAR leh pah-LAY day fes-tee-VAL deh-PWEE set an-DRWAH",
+      "formality": "polite",
+      "cultural_note": "La Croisette stretches 1.5km east of the Palais — the iconic building is at the western end near the old port.",
+      "responses": [
+        {
+          "english": "Yes, just at the end of the promenade.",
+          "phonetic": "wee, zhoost oh BOO duh lah proh-muh-NAD",
+          "french": "Oui, juste au bout de la promenade."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_croisette_002",
+      "intent_en": "Ask if the private beach clubs are open to the public",
+      "text_local": "Les plages privées de La Croisette sont-elles accessibles sans réservation ?",
+      "pronunciation": "lay PLAZH pree-VAY deh lah kwah-ZET son-TEL ak-se-SEEBL san ray-zehr-vah-SYON",
+      "formality": "polite",
+      "cultural_note": "Most Croisette beach clubs allow walk-ins for a fee — expect to pay for a sunlounger and parasol in high season.",
+      "responses": [
+        {
+          "english": "Yes, with a minimum purchase.",
+          "phonetic": "wee, ah-VEK oon kohn-soh-mah-SYOHN",
+          "french": "Oui, avec une consommation."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_croisette_003",
+      "intent_en": "Ask where the nearest public beach is on La Croisette",
+      "text_local": "Où est la plage publique la plus proche ?",
+      "pronunciation": "oo eh lah PLAHZH poo-BLEEK lah ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "Between the private beach clubs on La Croisette there are free public beach sections. Look for the signs saying 'plage publique'.",
+      "responses": [
+        {
+          "english": "A bit further, past the beach club.",
+          "phonetic": "uhn puh ploo LWEHN, ah-PREH luh KLOOB",
+          "french": "Un peu plus loin, après le club."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_croisette_004",
+      "intent_en": "Ask when the Cannes Film Festival takes place",
+      "text_local": "À quelle période de l'année se tient le Festival de Cannes ?",
+      "pronunciation": "ah kel pay-ryod deh lah-NAY seh TYAN leh fes-tee-VAL deh KAN",
+      "formality": "polite",
+      "cultural_note": "The Cannes Film Festival takes place every May. During the festival, La Croisette is transformed with red carpets and star sightings.",
+      "responses": [
+        {
+          "english": "In May, for two weeks.",
+          "phonetic": "ahn MEH, pahn-DAHN duh suh-MEN",
+          "french": "En mai, pendant deux semaines."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_croisette_005",
+      "intent_en": "Ask for a table at a café with a sea view",
+      "text_local": "Auriez-vous une table en terrasse avec vue sur la mer ?",
+      "pronunciation": "oh-RYAY voo oon TAB-leh an teh-RAS ah-VEK vyoo soor lah MEHR",
+      "formality": "polite",
+      "cultural_note": "The grand hotels along La Croisette — Majestic, Carlton, Martinez — all have terrace cafés open to non-guests.",
+      "responses": [
+        {
+          "english": "Yes, take a seat.",
+          "phonetic": "wee, ehn-stah-LAY voo",
+          "french": "Oui, installez-vous."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "boulevard",
+      "word_local": "le boulevard",
+      "pronunciation": "leh boo-leh-VAR"
+    },
+    {
+      "word_en": "private beach",
+      "word_local": "la plage privée",
+      "pronunciation": "lah PLAZH pree-VAY"
+    },
+    {
+      "word_en": "film festival",
+      "word_local": "le festival de cinéma",
+      "pronunciation": "leh fes-tee-VAL deh see-nay-MAH"
+    },
+    {
+      "word_en": "sunlounger",
+      "word_local": "le transat",
+      "pronunciation": "leh tran-SAH"
+    }
+  ]
+}

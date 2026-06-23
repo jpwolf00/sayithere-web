@@ -1,0 +1,100 @@
+{
+  "id": "chania_skrydlof_street_leatherworkers_lane",
+  "name_en": "Skrydlof Street Leatherworkers' Lane",
+  "name_local": "Οδός Σκρυδλόφ",
+  "icon": "bag",
+  "lat": 35.5120831,
+  "lon": 24.0191544,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "chania_skrydlof_street_leatherworkers_lane_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι ο τσαροχιάς;",
+      "pronunciation": "pOO-EEneh-oh-tsAHrohkhAHs",
+      "formality": "standard",
+      "cultural_note": "The 'τσαροχιάς' is a local term for a craftsman specializing in tsarouchia (traditional Cretan boots/sandals). The 'τσαλγάς' refers to the leather worker who may handle such items.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι πιο κάτω, στη δεξιά πλευρά του δρόμου.",
+        "pronunciation": "EEneh-pkhOH-kAHtohstee-thEHkseeAH-plehvrAH-too-thrOHmoo",
+        "translation_en": "It is further down, on the right side of the street."
+      },
+      "responses": [
+        {
+          "english": "It is further down, on the right side of the street.",
+          "phonetic": "EEneh-pkhOH-kAHtohstee-thEHkseeAH-plehvrAH-too-thrOHmoo",
+          "french": "Είναι πιο κάτω, στη δεξιά πλευρά του δρόμου."
+        }
+      ]
+    },
+    {
+      "id": "chania_skrydlof_street_leatherworkers_lane_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να δοκιμάσω το μέγεθος;",
+      "pronunciation": "pOO-thOHeemAHzoh",
+      "formality": "polite",
+      "cultural_note": "Fitting for leather goods like boots or sandals is typically handled by the salesperson ('πωλητής' or 'pwlhtas' in local dialect) at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο μαγαζί, δοκιμάστε από τον πάγκο.",
+        "pronunciation": "stoh-mAHghahzEEthOHeemAHsteh-ahpOH-tohm-bAHnggoh",
+        "translation_en": "In the shop, try them at the counter."
+      },
+      "responses": [
+        {
+          "english": "In the shop, try them at the counter.",
+          "phonetic": "stoh-mAHghahzEEthOHeemAHsteh-ahpOH-tohm-bAHnggoh",
+          "french": "Στο μαγαζί, δοκιμάστε από τον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "chania_skrydlof_street_leatherworkers_lane_003",
+      "intent_en": "Can I pay card at this shop?",
+      "text_local": "Παίρνετε κάρτα;",
+      "pronunciation": "pEHrnehtEH-kAHrtah",
+      "formality": "standard",
+      "cultural_note": "Cash is preferred in small workshops, but larger shops may accept credit cards. The term 'μεγάλους' refers to larger establishments, while smaller vendors typically use 'μικρούς'.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δεχόμαστε κάρτα.",
+        "pronunciation": "nEHthehkhOHmahstEH-kAHrtah",
+        "translation_en": "Yes, we accept cards."
+      },
+      "responses": [
+        {
+          "english": "Yes, we accept cards.",
+          "phonetic": "nEHthehkhOHmahstEH-kAHrtah",
+          "french": "Ναι, δεχόμαστε κάρτα."
+        }
+      ]
+    },
+    {
+      "id": "chania_skrydlof_street_leatherworkers_lane_004",
+      "intent_en": "Do you take orders for silver buckles?",
+      "text_local": "Κάνετε παραγγελίες για ασημένιες πόρπες;",
+      "pronunciation": "kAHnoom-bAHrahnggehlEEehz-yAH-AHseemEHnyah-pOHrpehs",
+      "formality": "standard",
+      "cultural_note": "Custom orders, especially for detailed work like silver buckles, are typically handled by the master craftsman ('μαστόρας'). The term 'πόρπες' refers to buckles.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ρωτήστε τον μάστορα.",
+        "pronunciation": "nEHrohtEEsteh-tohn-mAHstohrAH",
+        "translation_en": "Yes, ask the master craftsman."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the master craftsman.",
+          "phonetic": "nEHrohtEEsteh-tohn-mAHstohrAH",
+          "french": "Ναι, ρωτήστε τον μάστορα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

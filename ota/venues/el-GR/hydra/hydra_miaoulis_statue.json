@@ -1,0 +1,122 @@
+{
+  "id": "hydra_miaoulis_statue",
+  "name_en": "Miaoulis Statue",
+  "name_local": "Άγαλμα Ανδρέα Μιαούλη",
+  "icon": "building.columns",
+  "lat": 37.4445695,
+  "lon": 24.9429416,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "hydra_miaoulis_statue_001",
+      "intent_en": "Donation box at statue base?",
+      "text_local": "Υπάρχει κουτί δωρεών εδώ;",
+      "pronunciation": "eepAHrkhee-kootEE-thOHrehOHn-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Οι δωρεές συχνά συγκεντρώνονται από τις αρχές του λιμανιού ή τις δημόσιες υπηρεσίες. Δεν υπάρχει ορατό κουτί στους μόνιμους στόχους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεν υπάρχει.",
+        "pronunciation": "thEHn-eepAHrkhee",
+        "translation_en": "There is none."
+      },
+      "responses": [
+        {
+          "english": "There is none.",
+          "phonetic": "thEHn-eepAHrkhee",
+          "french": "Δεν υπάρχει."
+        }
+      ]
+    },
+    {
+      "id": "hydra_miaoulis_statue_002",
+      "intent_en": "Climb onto the pedestal?",
+      "text_local": "Επιτρέπεται να ανέβω στο βάθρο;",
+      "pronunciation": "EHpeetrEHpehtEH-n-ahnEHvoh-stoh-vAHthroh",
+      "formality": "standard",
+      "cultural_note": "Η άνοδος στο βάθρο δεν αποτελεί μέρος των μόνιμων υπηρεσιών του αγάλματος. Απαιτείται έγκριση από τις αρχές.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, it is prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, it is prohibited.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "hydra_miaoulis_statue_003",
+      "intent_en": "Boat tour tickets sold here?",
+      "text_local": "Πωλούνται εδώ εισιτήρια για βόλτα με βάρκα;",
+      "pronunciation": "pohlOOdeh-ehthOH-EEseetEEreeAH-yAH-vOHltah-meh-vAHrkah",
+      "formality": "standard",
+      "cultural_note": "Τα εισιτήρια για βόλτες με βάρκα πωλούνται από τους επικεφαλής των τοπικών τουριστικών σκαφών στους επισκέπτες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στους γειτονικούς πρατηριούχους βαρκάδων.",
+        "pronunciation": "nEHstooz-yEEtohneekOOs-prAHteereeOOkhooz-vahrkAHthohn",
+        "translation_en": "Yes, ask the boat tour captains nearby."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the boat tour captains nearby.",
+          "phonetic": "nEHstooz-yEEtohneekOOs-prAHteereeOOkhooz-vahrkAHthohn",
+          "french": "Ναι, στους γειτονικούς πρατηριούχους βαρκάδων."
+        }
+      ]
+    },
+    {
+      "id": "hydra_miaoulis_statue_004",
+      "intent_en": "Best angle for statue photo?",
+      "text_local": "Από ποια πλευρά φωτογραφίζεται καλύτερα το άγαλμα;",
+      "pronunciation": "ahpOH-pEEah-plehvrAH-fOHtohghrahfEEzehtEH-kahlEEtehrAH-toh-AHghahlmAH",
+      "formality": "standard",
+      "cultural_note": "Το άγαλμα απεικονίζεται στραμμένο προς τη θάλασσα, παρέχοντας την καλύτερη οπτική εμπρός.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Από μπροστά προς τη θάλασσα.",
+        "pronunciation": "ahpOH-brohstAH-prOHs-tee-thAHlahssAH",
+        "translation_en": "From the front facing the water."
+      },
+      "responses": [
+        {
+          "english": "From the front facing the water.",
+          "phonetic": "ahpOH-brohstAH-prOHs-tee-thAHlahssAH",
+          "french": "Από μπροστά προς τη θάλασσα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_miaoulis_statue_005",
+      "intent_en": "Where is harbor cafe near statue?",
+      "text_local": "Πού βρίσκεται καφετέρια κοντά στο άγαλμα;",
+      "pronunciation": "pOO-vrEEsehtEH-kAHfehtEHreeAH-kohdAH-stoh-AHghahlmAH",
+      "formality": "standard",
+      "cultural_note": "Οι καφετέριες του λιμανιού βρίσκονται κατά μήκος της προκυμαίας, κοντά στο σημείο προσέλευσης των φέρι.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε την προκυμαία προς το λιμάνι.",
+        "pronunciation": "AHkohloothEEsteh-teem-brOHeemEHah-prOHs-toh-leemAHnee",
+        "translation_en": "Follow the harborfront promenade toward the port."
+      },
+      "responses": [
+        {
+          "english": "Follow the harborfront promenade toward the port.",
+          "phonetic": "AHkohloothEEsteh-teem-brOHeemEHah-prOHs-toh-leemAHnee",
+          "french": "Ακολουθήστε την προκυμαία προς το λιμάνι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

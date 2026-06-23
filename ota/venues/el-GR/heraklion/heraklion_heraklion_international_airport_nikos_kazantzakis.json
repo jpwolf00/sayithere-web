@@ -1,0 +1,122 @@
+{
+  "id": "heraklion_heraklion_international_airport_nikos_kazantzakis",
+  "name_en": "Heraklion International Airport Nikos Kazantzakis",
+  "name_local": "Αεροδρόμιο Ηρακλείου Νίκος Καζαντζάκης",
+  "icon": "tram",
+  "lat": 35.337058,
+  "lon": 25.180972,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "heraklion_heraklion_international_airport_nikos_kazantzakis_001",
+      "intent_en": "Where are the car rental desks?",
+      "text_local": "Πού βρίσκονται τα γραφεία ενοικίασης αυτοκινήτων;",
+      "pronunciation": "pOO-vrEEskohdEH-tah-ghrahfEEah-EHneeEEahsEEs-AHftoheenEEtohn",
+      "formality": "standard",
+      "cultural_note": "Car rental desks are typically in the arrivals hall area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην αίθουσα αφίξεων, δίπλα στην έξοδο.",
+        "pronunciation": "steen-EHthoos-ahfEEksehOHnthEEplah-steen-EHksohthOH",
+        "translation_en": "In the arrivals hall, next to the exit."
+      },
+      "responses": [
+        {
+          "english": "In the arrivals hall, next to the exit.",
+          "phonetic": "steen-EHthoos-ahfEEksehOHnthEEplah-steen-EHksohthOH",
+          "french": "Στην αίθουσα αφίξεων, δίπλα στην έξοδο."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_international_airport_nikos_kazantzakis_002",
+      "intent_en": "Where is the Nikos Kazantzakis statue?",
+      "text_local": "Πού βρίσκεται το άγαλμα του Νίκου Καζαντζάκη;",
+      "pronunciation": "pOO-vrEEsehtEH-toh-AHghahlmAH-too-nEEkoo-kAHzahdzAHee",
+      "formality": "standard",
+      "cultural_note": "The statue is located in a stable target area within the airport premises.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στην αίθουσα αναχωρήσεων.",
+        "pronunciation": "EEneh-steen-EHthoos-AHnahkhohrEEsehOHn",
+        "translation_en": "It is in the departures hall."
+      },
+      "responses": [
+        {
+          "english": "It is in the departures hall.",
+          "phonetic": "EEneh-steen-EHthoos-AHnahkhohrEEsehOHn",
+          "french": "Είναι στην αίθουσα αναχωρήσεων."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_international_airport_nikos_kazantzakis_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Η αίθουσα Καζαντζάκης είναι για όλους;",
+      "pronunciation": "ee-EHthoosAH-kAHzahdzAHees-EEneh-yAH-OHloos",
+      "formality": "standard",
+      "cultural_note": "Premium lounge access is typically restricted to certain ticket classes.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, μόνο για επιβάτες με πρόσβαση.",
+        "pronunciation": "OHkheemOHnoh-yAH-EHpeevAHtehz-meh-prOHsvahsEE",
+        "translation_en": "No, only for passengers with access."
+      },
+      "responses": [
+        {
+          "english": "No, only for passengers with access.",
+          "phonetic": "OHkheemOHnoh-yAH-EHpeevAHtehz-meh-prOHsvahsEE",
+          "french": "Όχι, μόνο για επιβάτες με πρόσβαση."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_international_airport_nikos_kazantzakis_004",
+      "intent_en": "Is duty-free available for EU flights?",
+      "text_local": "Υπάρχει duty-free για πτήσεις εντός ΕΕ;",
+      "pronunciation": "eepAHrkhee-ehndyOOteefrEEehl-yAH-ptEEsees-ehdOHs-EHpseelOHnEHpseelOHn",
+      "formality": "standard",
+      "cultural_note": "Duty-free shopping is typically available for all international departures, including EU.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στις εξόδους αναχώρησης.",
+        "pronunciation": "nEHstees-ehksOHthoos-AHnahkhOHreesEEs",
+        "translation_en": "Yes, at the departures hall."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the departures hall.",
+          "phonetic": "nEHstees-ehksOHthoos-AHnahkhOHreesEEs",
+          "french": "Ναι, στις εξόδους αναχώρησης."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_international_airport_nikos_kazantzakis_005",
+      "intent_en": "Do I buy the bus ticket before boarding?",
+      "text_local": "Πρέπει να αγοράσω εισιτήριο για το λεωφορείο πριν επιβιβαστώ;",
+      "pronunciation": "prEHpee-n-AHghohrAHsoh-EEseetEEreeOH-yAH-toh-lEHohfohrEEoh-prEEn-EHpeevEEvahstOH",
+      "formality": "standard",
+      "cultural_note": "Bus tickets are usually purchased before boarding at designated points.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, αγοράστε πριν επιβιβαστείτε.",
+        "pronunciation": "nEHAHghohrAHsteh-prEEn-EHpeevEEvahstEEteh",
+        "translation_en": "Yes, buy it before boarding."
+      },
+      "responses": [
+        {
+          "english": "Yes, buy it before boarding.",
+          "phonetic": "nEHAHghohrAHsteh-prEEn-EHpeevEEvahstEEteh",
+          "french": "Ναι, αγοράστε πριν επιβιβαστείτε."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

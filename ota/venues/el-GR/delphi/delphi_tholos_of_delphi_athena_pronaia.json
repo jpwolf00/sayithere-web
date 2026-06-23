@@ -1,0 +1,100 @@
+{
+  "id": "delphi_tholos_of_delphi_athena_pronaia",
+  "name_en": "Tholos of Delphi (Athena Pronaia)",
+  "name_local": "Θόλος Δελφών",
+  "icon": "building.columns",
+  "lat": 38.4801575,
+  "lon": 22.5078688,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "delphi_tholos_of_delphi_athena_pronaia_001",
+      "intent_en": "Is the Gymnasium included in this ticket?",
+      "text_local": "Είναι το Γυμνάσιο μέσα στο εισιτήριο;",
+      "pronunciation": "EEneh-toh-yeemnAHsyoh-mEHsah-stoh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Το Γυμνάσιο αποτελεί τμήμα του αρχαιολογικού χώρου των Δελφών και υπάγεται στο συνδυασμένο εισιτήριο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, περιλαμβάνεται.",
+        "pronunciation": "nEHpEHreelahmvAHnehtEH",
+        "translation_en": "Yes, included."
+      },
+      "responses": [
+        {
+          "english": "Yes, included.",
+          "phonetic": "nEHpEHreelahmvAHnehtEH",
+          "french": "Ναι, περιλαμβάνεται."
+        }
+      ]
+    },
+    {
+      "id": "delphi_tholos_of_delphi_athena_pronaia_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να πλησιάσω τις ανασκαφές;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-prohsEHnggeesEE-stees-AHnahskahfEHs",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες πρέπει να αποφεύγουν περιοχές όπου υπάρχουν πινακίδες ή προσωπικό που επιβλέπει ανασκαφές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, μόνο από απόσταση και όπου επιτρέπεται η πρόσβαση.",
+        "pronunciation": "OHkheemOHnoh-ahpOH-ahpOHstahsEE-keh-OHpoo-EHpeetrEHpehtEH-ee-prOHsvahsEE",
+        "translation_en": "No, only from a distance and where access is allowed."
+      },
+      "responses": [
+        {
+          "english": "No, only from a distance and where access is allowed.",
+          "phonetic": "OHkheemOHnoh-ahpOH-ahpOHstahsEE-keh-OHpoo-EHpeetrEHpehtEH-ee-prOHsvahsEE",
+          "french": "Όχι, μόνο από απόσταση και όπου επιτρέπεται η πρόσβαση."
+        }
+      ]
+    },
+    {
+      "id": "delphi_tholos_of_delphi_athena_pronaia_003",
+      "intent_en": "How do I reach the tholos from main sanctuary?",
+      "text_local": "Πώς πάω στον Θόλο από τον κύριο ιερό χώρο;",
+      "pronunciation": "pOHs-pAHoh-stohn-thOHloh-ahpOH-tohng-gEEreeOH-EEehrOH-khOHroh",
+      "formality": "standard",
+      "cultural_note": "Ο Θόλος βρίσκεται σε μικρή απόσταση ανατολικά του κύριου ιερού χώρου των Δελφών, κατά μήκος ενός σηματοδοτημένου μονοπατιού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε το μονοπάτι ανατολικά για περίπου ένα χιλιόμετρο.",
+        "pronunciation": "AHkohloothEEsteh-toh-mOHnohpAHtee-AHnahtOHleekAH-yAH-pehrEEpoo-EHnah-kheelyOHmehtrOH",
+        "translation_en": "Follow the path east for about a kilometer."
+      },
+      "responses": [
+        {
+          "english": "Follow the path east for about a kilometer.",
+          "phonetic": "AHkohloothEEsteh-toh-mOHnohpAHtee-AHnahtOHleekAH-yAH-pehrEEpoo-EHnah-kheelyOHmehtrOH",
+          "french": "Ακολουθήστε το μονοπάτι ανατολικά για περίπου ένα χιλιόμετρο."
+        }
+      ]
+    },
+    {
+      "id": "delphi_tholos_of_delphi_athena_pronaia_004",
+      "intent_en": "Where is the Castalian Spring path?",
+      "text_local": "Πού βρίσκεται το μονοπάτι για την Κασταλία πηγή;",
+      "pronunciation": "pOO-EEneh-ee-thEEahthrohmEE-prOHs-teeng-gAHstahlEEah-peeyEE",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναμένεται να ακολουθούν τις επίσημες πινακίδες οδηγιών εντός του αρχαιολογικού χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι κάτω από τον κεντρικό δρόμο.",
+        "pronunciation": "EEneh-kAHtoh-ahpOH-tohng-gEHdreekOH-thrOHmoh",
+        "translation_en": "It's down from the main road."
+      },
+      "responses": [
+        {
+          "english": "It's down from the main road.",
+          "phonetic": "EEneh-kAHtoh-ahpOH-tohng-gEHdreekOH-thrOHmoh",
+          "french": "Είναι κάτω από τον κεντρικό δρόμο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

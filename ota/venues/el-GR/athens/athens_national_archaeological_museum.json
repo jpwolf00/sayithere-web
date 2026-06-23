@@ -1,0 +1,122 @@
+{
+  "id": "athens_national_archaeological_museum",
+  "name_en": "National Archaeological Museum",
+  "name_local": "Εθνικό Αρχαιολογικό Μουσείο",
+  "icon": "building.columns",
+  "lat": 37.9890123,
+  "lon": 23.7329577,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "athens_national_archaeological_museum_001",
+      "intent_en": "Is Antikythera Mechanism currently on display",
+      "text_local": "Είναι ο Μηχανισμός των Αντικυθήρων εκτεθειμένος τώρα;",
+      "pronunciation": "EEneh-oh-mEEkhahneesmOHs-tohn-AHdeeeethEErohn-EHktehtheemEHnohs-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Το έκθεμα αναφέρεται ως μέρος της μόνιμης συλλογής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στη μόνιμη συλλογή.",
+        "pronunciation": "nEHstee-mOHneemEE-sEElohyEE",
+        "translation_en": "Yes, in the permanent collection."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the permanent collection.",
+          "phonetic": "nEHstee-mOHneemEE-sEElohyEE",
+          "french": "Ναι, στη μόνιμη συλλογή."
+        }
+      ]
+    },
+    {
+      "id": "athens_national_archaeological_museum_002",
+      "intent_en": "How do I book special exhibition tickets",
+      "text_local": "Πώς κλείνω εισιτήρια για ειδική έκθεση;",
+      "pronunciation": "pOHs-klEEnoh-EEseetEEreeAH-yAH-EHkthehsEE",
+      "formality": "standard",
+      "cultural_note": "Οι ειδικές εκθέσεις αναφέρονται ως ξεχωριστό σύστημα εισιτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο ειδικών εκθέσεων.",
+        "pronunciation": "stoh-tahmEEoh-EEtheekOHn-ehkthEHsehOHn",
+        "translation_en": "At the special exhibitions ticket desk."
+      },
+      "responses": [
+        {
+          "english": "At the special exhibitions ticket desk.",
+          "phonetic": "stoh-tahmEEoh-EEtheekOHn-ehkthEHsehOHn",
+          "french": "Στο ταμείο ειδικών εκθέσεων."
+        }
+      ]
+    },
+    {
+      "id": "athens_national_archaeological_museum_003",
+      "intent_en": "Is guided tour payment separate from entry",
+      "text_local": "Η ξενάγηση πληρώνεται ξεχωριστά;",
+      "pronunciation": "ee-ksehnAHyeesEE-pleerOHnehtEH-ksEHkhohreestAH",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγοί αναφέρεται ότι χειρίζονται την πληρωμή ξεχωριστών υπηρεσιών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ξεχωριστά.",
+        "pronunciation": "nEHksEHkhohreestAH",
+        "translation_en": "Yes, separately."
+      },
+      "responses": [
+        {
+          "english": "Yes, separately.",
+          "phonetic": "nEHksEHkhohreestAH",
+          "french": "Ναι, ξεχωριστά."
+        }
+      ]
+    },
+    {
+      "id": "athens_national_archaeological_museum_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το ταμείο για την ενοικίαση οπτικοακουστικού;",
+      "pronunciation": "pOO-EEneh-ee-EHneeEEahsEE-ksEHnahghOO",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγοί αναφέρονται ως ο υπάλληλος που παρέχει τις συσκευές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ισόγειο, δίπλα στο ταμείο.",
+        "pronunciation": "stoh-eesOHyohthEEplah-stoh-tahmEEoh",
+        "translation_en": "On the ground floor, next to the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, next to the ticket desk.",
+          "phonetic": "stoh-eesOHyohthEEplah-stoh-tahmEEoh",
+          "french": "Στο ισόγειο, δίπλα στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "athens_national_archaeological_museum_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η αιγυπτιακή συλλογή;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-EHyeeptEEahEE-sEElohyEE",
+      "formality": "standard",
+      "cultural_note": "Η συλλογή αναφέρεται ως ξεχωριστή μονάδα εντός του μουσείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στον πρώτο όροφο.",
+        "pronunciation": "EEneh-stohm-brOHtoh-OHrohfOH",
+        "translation_en": "It's on the first floor."
+      },
+      "responses": [
+        {
+          "english": "It's on the first floor.",
+          "phonetic": "EEneh-stohm-brOHtoh-OHrohfOH",
+          "french": "Είναι στον πρώτο όροφο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,144 @@
+{
+  "id": "corfu_old_fortress_of_corfu",
+  "name_en": "Old Fortress of Corfu",
+  "name_local": "Παλαιό Φρούριο",
+  "icon": "building.columns",
+  "lat": 39.6234142,
+  "lon": 19.9295061,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "corfu_old_fortress_of_corfu_001",
+      "intent_en": "Ask where the Contrafossa moat crossing starts",
+      "text_local": "Πού ξεκινάει η διάβαση της τάφρου;",
+      "pronunciation": "pOO-ksEHeenAHee-ee-theeAHvahsEE-tees-tAHfroo",
+      "formality": "standard",
+      "cultural_note": "Η γέφυρα πάνω από την τάφρο αποτελεί τη μοναδική είσοδο στο φρούριο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στη γέφυρα πάνω από την τάφρο.",
+        "pronunciation": "stee-yEHfeerAH-pAHnoh-ahpOH-teen-dAHfroh",
+        "translation_en": "At the bridge over the moat."
+      },
+      "responses": [
+        {
+          "english": "At the bridge over the moat.",
+          "phonetic": "stee-yEHfeerAH-pAHnoh-ahpOH-teen-dAHfroh",
+          "french": "Στη γέφυρα πάνω από την τάφρο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_old_fortress_of_corfu_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η είσοδος του μουσείου μέσα στο φρούριο;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-too-moosEEoo-mEHsah-stoh-frOOreeOH",
+      "formality": "standard",
+      "cultural_note": "Το μουσείο αποτελεί μέρος των εσωτερικών εγκαταστάσεων του φρουρίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Η είσοδος του μουσείου είναι στην κορυφή, κοντά στο εκκλησάκι του Αγίου Γεωργίου.",
+        "pronunciation": "ee-EEsohthOHs-too-moosEEoo-EEneh-steeng-gOHreefEEkohdAH-stoh-EHkleesAHee-too-ahyEEoo-yohryEEoo",
+        "translation_en": "The museum entrance is at the top, near St. George's chapel."
+      },
+      "responses": [
+        {
+          "english": "The museum entrance is at the top, near St. George's chapel.",
+          "phonetic": "ee-EEsohthOHs-too-moosEEoo-EEneh-steeng-gOHreefEEkohdAH-stoh-EHkleesAHee-too-ahyEEoo-yohryEEoo",
+          "french": "Η είσοδος του μουσείου είναι στην κορυφή, κοντά στο εκκλησάκι του Αγίου Γεωργίου."
+        }
+      ]
+    },
+    {
+      "id": "corfu_old_fortress_of_corfu_003",
+      "intent_en": "Ask how to reach St. George's chapel inside",
+      "text_local": "Πώς πάω στο εκκλησάκι του Αγίου Γεωργίου;",
+      "pronunciation": "pOHs-pAHoh-steen-EHkleesEEah-too-ahyEEoo-yohryEEoo",
+      "formality": "standard",
+      "cultural_note": "Η εκκλησία αποτελεί σταθερό στόχο εντός του φρουρίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πάνω στο ψηλότερο λόφο.",
+        "pronunciation": "pAHnoh-stoh-pseelOHtehrOH-lOHfoh",
+        "translation_en": "Up on the highest hill."
+      },
+      "responses": [
+        {
+          "english": "Up on the highest hill.",
+          "phonetic": "pAHnoh-stoh-pseelOHtehrOH-lOHfoh",
+          "french": "Πάνω στο ψηλότερο λόφο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_old_fortress_of_corfu_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού νοικιάζω οπτικοακουστικό;",
+      "pronunciation": "pOO-neeAHzohdEH-ee-ksEHnahyEE",
+      "formality": "standard",
+      "cultural_note": "Η ενοικίαση ξεναγών πραγματοποιείται από τον υπάλληλο εισιτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από το ταμείο στην είσοδο.",
+        "pronunciation": "ahpOH-toh-tahmEEoh-steen-EEsohthOH",
+        "translation_en": "From the ticket desk at the entrance."
+      },
+      "responses": [
+        {
+          "english": "From the ticket desk at the entrance.",
+          "phonetic": "ahpOH-toh-tahmEEoh-steen-EEsohthOH",
+          "french": "Από το ταμείο στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_old_fortress_of_corfu_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτό το μονοπάτι για τις βυζαντινές ερείπια;",
+      "pronunciation": "EEneh-AHneekhtOHs-oh-thrOHmohz-yAH-teez-vEEzahdeenEHz-rohghmEHs",
+      "formality": "standard",
+      "cultural_note": "Η πρόσβαση στις βυζαντινές ρωγμές ελέγχεται από τον φύλακα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτό αυτή την ώρα.",
+        "pronunciation": "nEHEEneh-AHneekhtOH-ahftEE-teen-OHrah",
+        "translation_en": "Yes, it is open at this time."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open at this time.",
+          "phonetic": "nEHEEneh-AHneekhtOH-ahftEE-teen-OHrah",
+          "french": "Ναι, είναι ανοιχτό αυτή την ώρα."
+        }
+      ]
+    },
+    {
+      "id": "corfu_old_fortress_of_corfu_006",
+      "intent_en": "Ask if today's concert tickets still available",
+      "text_local": "Είναι ακόμα διαθέσιμα εισιτήρια για την σημερινή συναυλία;",
+      "pronunciation": "EHkhoon-EEseetEEreeAH-yAH-teen-sEEmehreenEE-sEEnahvlEEah",
+      "formality": "standard",
+      "cultural_note": "Η πώληση εισιτηρίων πραγματοποιείται αποκλειστικά από τον υπάλληλο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, υπάρχουν ακόμα.",
+        "pronunciation": "nEHeepAHrkhoon-ahkOHmah",
+        "translation_en": "Yes, there are still some."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are still some.",
+          "phonetic": "nEHeepAHrkhoon-ahkOHmah",
+          "french": "Ναι, υπάρχουν ακόμα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

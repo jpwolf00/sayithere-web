@@ -1,0 +1,115 @@
+{
+  "id": "biarritz_centre_hood",
+  "name_en": "Centre-ville / Town Center",
+  "name_local": "Centre-ville de Biarritz",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "biarritz_centre_001",
+      "intent_en": "Ask where the main shopping street is",
+      "text_local": "Où est la rue commerçante principale ?",
+      "pronunciation": "oo eh lah roo ko-mair-SAHNT prahn-SEE-pal",
+      "formality": "polite",
+      "cultural_note": "The main shopping street is Avenue du Maréchal Foch, connecting Place Bellevue to the casino area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Hello, it's Avenue du Maréchal Foch, straight ahead.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "La rue commerçante principale est l'Avenue du Maréchal Foch. Continuez tout droit 200 mètres, vous la verrez sur votre gauche."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_centre_002",
+      "intent_en": "Ask about the covered market",
+      "text_local": "Où se trouve le marché couvert ?",
+      "pronunciation": "oo suh TROOV luh mar-SHAY koo-VAIR",
+      "formality": "polite",
+      "cultural_note": "Les Halles (covered market) is in the center of town, open Tuesday to Sunday, with the best selection Saturday morning.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is at Clemenceau Square, open every morning except Monday.",
+          "phonetic": "say luh week-END proh-SHAN",
+          "french": "Les Halles centrales de Biarritz se trouvent sur la place du marché. Elles sont ouvertes du mardi au dimanche."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_centre_003",
+      "intent_en": "Ask about the casino",
+      "text_local": "Où se trouve le casino ?",
+      "pronunciation": "oo suh TROOV luh kah-ZEE-noh",
+      "formality": "polite",
+      "cultural_note": "The casino (Casino Barrière) is on the main beach, with gaming tables, slot machines, and entertainment shows.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is just behind the Hotel du Palais, on the beach.",
+          "phonetic": "",
+          "french": "Le Casino Barrière est situé sur la plage principale, à côté de la Grande Plage. Vous y trouverez des tables de jeu, des machines à sous et des spectacles."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_centre_004",
+      "intent_en": "Ask about the church of Saint-Ethienne",
+      "text_local": "Pouvez-vous me parler de l'église Saint-Étienne ?",
+      "pronunciation": "poo-VAY voo muh par-LAY duh lay-GLEEZ san-tay-TYEN",
+      "formality": "polite",
+      "cultural_note": "The Church of Saint-Étienne is in the town center, built in the 19th century in neo-Gothic style. The bell tower offers views.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "",
+          "french": "Biarritz est devenue célèbre au XIXe siècle grâce à l'impératrice Eugénie, épouse de Napoléon III, qui y a construit une résidence estivale."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_centre_005",
+      "intent_en": "Ask about the best ice cream in town",
+      "text_local": "Où est la meilleure glacier ?",
+      "pronunciation": "oo eh lah may-YUR gla-SYAY",
+      "formality": "polite",
+      "cultural_note": "Look for artisan glacier shops near the main square. Basque flavors like almond (amande) and cherry (cerise) are local favorites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try *Glaces de Biarritz* near Place Clemenceau.",
+          "phonetic": "",
+          "french": "Essayez la glacerie *Glaces de Biarritz* près de la Place Clemenceau, elle est très réputée !"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "town center",
+      "word_local": "le centre-ville",
+      "pronunciation": "leh san-treh-VEEL"
+    },
+    {
+      "word_en": "shopping",
+      "word_local": "les courses",
+      "pronunciation": "lay KOORS"
+    },
+    {
+      "word_en": "casino",
+      "word_local": "le casino",
+      "pronunciation": "leh kah-ZEE-noh"
+    },
+    {
+      "word_en": "ice cream",
+      "word_local": "la glace",
+      "pronunciation": "lah GLAS"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "olympia_olympia_train_station",
+  "name_en": "Olympia Train Station",
+  "name_local": "Σιδηροδρομικός Σταθμός Ολυμπίας",
+  "icon": "tram",
+  "lat": 37.6455928,
+  "lon": 21.6265033,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "olympia_olympia_train_station_001",
+      "intent_en": "Where is the shuttle to Ancient Olympia site?",
+      "text_local": "Πού είναι η μεταφορά για τον αρχαιολογικό χώρο της Αρχαίας Ολυμπίας;",
+      "pronunciation": "pOO-EEneh-toh-lEHohfohrEEoh-yAH-ahrkhEHah-OHleebEEah",
+      "formality": "standard",
+      "cultural_note": "The shuttle departs from the rear of the station; signs are in Greek only.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Απέναντι από την είσοδο του σταθμού.",
+        "pronunciation": "ahpEHnahdEE-ahpOH-teen-EEsohthOH-too-stahthmOO",
+        "translation_en": "The shuttle leaves from the stop across the street, not adjacent here."
+      },
+      "responses": [
+        {
+          "english": "The shuttle leaves from the stop across the street, not adjacent here.",
+          "phonetic": "ahpEHnahdEE-ahpOH-teen-EEsohthOH-too-stahthmOO",
+          "french": "Απέναντι από την είσοδο του σταθμού."
+        }
+      ]
+    },
+    {
+      "id": "olympia_olympia_train_station_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πότε αναχωρεί το επόμενο τραίνο για Πύργο;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-ehpOHmehnOH-trEHnoh-yAH-pEErghoh",
+      "formality": "standard",
+      "cultural_note": "Departure times are usually not displayed on boards; passengers must ask staff or check posted schedules.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αποβάθρα 1, σε 15 λεπτά.",
+        "pronunciation": "AHpohvAHthrah-EHnahseh-thEHkahpEHnteh-lehptAH",
+        "translation_en": "The next train to Pyrgos departs in 15 minutes from platform 1. Validate your ticket at the machine next to the counter—cash only."
+      },
+      "responses": [
+        {
+          "english": "The next train to Pyrgos departs in 15 minutes from platform 1. Validate your ticket at the machine next to the counter—cash only.",
+          "phonetic": "AHpohvAHthrah-EHnahseh-thEHkahpEHnteh-lehptAH",
+          "french": "Αποβάθρα 1, σε 15 λεπτά."
+        }
+      ]
+    },
+    {
+      "id": "olympia_olympia_train_station_003",
+      "intent_en": "Waiting area with Olympic murals open?",
+      "text_local": "Η αίθουσα αναμονής με τους Ολυμπιακούς πίνακες λειτουργεί;",
+      "pronunciation": "ee-EHthoos-AHnahmohnEEz-meh-toos-OHleebkhahkOOs-pEEnahEHz-lEEtooryEE",
+      "formality": "standard",
+      "cultural_note": "The waiting area is a stable feature of the station hall and typically accessible during operating hours.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ανοιχτή.",
+        "pronunciation": "nEHAHneekhtEE",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "nEHAHneekhtEE",
+          "french": "Ναι, ανοιχτή."
+        }
+      ]
+    },
+    {
+      "id": "olympia_olympia_train_station_004",
+      "intent_en": "Student fare with ID card accepted?",
+      "text_local": "Το εισιτήριο φοιτητή γίνεται δεκτό;",
+      "pronunciation": "toh-EEseetEEreeOH-fEEteetEE-yEEnehtEH-thehktOH",
+      "formality": "standard",
+      "cultural_note": "Student fares are commonly offered, but ID must be presented upon request.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, με φοιτητική ταυτότητα.",
+        "pronunciation": "nEHmeh-fEEteeteeEE-tahftOHteetAH",
+        "translation_en": "Yes, with student ID."
+      },
+      "responses": [
+        {
+          "english": "Yes, with student ID.",
+          "phonetic": "nEHmeh-fEEteeteeEE-tahftOHteetAH",
+          "french": "Ναι, με φοιτητική ταυτότητα."
+        }
+      ]
+    },
+    {
+      "id": "olympia_olympia_train_station_005",
+      "intent_en": "Which platform for Pyrgos train?",
+      "text_local": "Σε ποια αποβάθρα για Πύργο;",
+      "pronunciation": "seh-pEE-AHpohvAHthrah-yAH-pEErghoh",
+      "formality": "standard",
+      "cultural_note": "Platform numbers are typically displayed on small signs near the platform edge in Greek and not always accompanied by English translations.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Αποβάθρα 1.",
+        "pronunciation": "AHpohvAHthrah-EHnah",
+        "translation_en": "Platform 1."
+      },
+      "responses": [
+        {
+          "english": "Platform 1.",
+          "phonetic": "AHpohvAHthrah-EHnah",
+          "french": "Αποβάθρα 1."
+        }
+      ]
+    },
+    {
+      "id": "olympia_olympia_train_station_006",
+      "intent_en": "How to validate ticket before boarding?",
+      "text_local": "Πώς επισφραγίζεται το εισιτήριο;",
+      "pronunciation": "pOHs-EHpeesfrahyEEzehtEH-toh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Ticket validation machines are usually placed near platform entrances; no English instructions are provided.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στη μηχανή επικύρωσης.",
+        "pronunciation": "stee-mEEkhahnEE-EHpeeEErohsEEs",
+        "translation_en": "At the validation machine."
+      },
+      "responses": [
+        {
+          "english": "At the validation machine.",
+          "phonetic": "stee-mEEkhahnEE-EHpeeEErohsEEs",
+          "french": "Στη μηχανή επικύρωσης."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

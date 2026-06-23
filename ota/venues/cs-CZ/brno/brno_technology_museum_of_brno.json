@@ -1,0 +1,122 @@
+{
+  "id": "brno_technology_museum_of_brno",
+  "name_en": "Technology Museum of Brno",
+  "name_local": "Technické muzeum v Brně",
+  "icon": "building.columns",
+  "lat": 49.1922443,
+  "lon": 16.6113382,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "brno_technology_museum_of_brno_001",
+      "intent_en": "Can I buy tickets for just the fire engine hall?",
+      "text_local": "Můžu si koupit vstupenku jenom do hasičské haly?",
+      "pronunciation": "mOOzhoo-see-kOHpeet-fstOOpehngkoo-yEHnohm-dOHhahsEEtshskeh-hAHlee",
+      "formality": "standard",
+      "cultural_note": "It is plausible for a large museum with separate halls to offer single-hall tickets. The answer is kept very short.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, jen do hasičské haly.",
+        "pronunciation": "AHnohyEHn-dOHhahsEEtshskeh-hAHlee",
+        "translation_en": "Yes, just for the fire engine hall."
+      },
+      "responses": [
+        {
+          "english": "Yes, just for the fire engine hall.",
+          "phonetic": "AHnohyEHn-dOHhahsEEtshskeh-hAHlee",
+          "french": "Ano, jen do hasičské haly."
+        }
+      ]
+    },
+    {
+      "id": "brno_technology_museum_of_brno_002",
+      "intent_en": "Where is the agriculture machinery hall?",
+      "text_local": "Kde je hala se zemědělskými stroji?",
+      "pronunciation": "kdEH-yeh-hAHlah-seh-zEHmnyehEHlskeemee-strOHyee",
+      "formality": "standard",
+      "cultural_note": "Using landmarks like 'hlavní hala' (main hall) is a natural way to give directions in a sprawling museum complex.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Je to samostatná budova vlevo za hlavní halou.",
+        "pronunciation": "yeh-tOH-sAHmohstAHtnah-bOOdohvah-vlEHvoh-zAHhlahvnyee-hAHloh",
+        "translation_en": "It's a separate building on the left behind the main hall."
+      },
+      "responses": [
+        {
+          "english": "It's a separate building on the left behind the main hall.",
+          "phonetic": "yeh-tOH-sAHmohstAHtnah-bOOdohvah-vlEHvoh-zAHhlahvnyee-hAHloh",
+          "french": "Je to samostatná budova vlevo za hlavní halou."
+        }
+      ]
+    },
+    {
+      "id": "brno_technology_museum_of_brno_003",
+      "intent_en": "Does the café take cards at the counter?",
+      "text_local": "Berete v kavárně na baru karty?",
+      "pronunciation": "bEHrehteh-v-kAHvahrnyeh-nAHbahroo-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "A simple confirmation is the most natural response. 'Na baru' is a common way to say 'at the counter'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, karty bereme.",
+        "pronunciation": "AHnohkAHrtee-bEHrehmeh",
+        "translation_en": "Yes, we take cards."
+      },
+      "responses": [
+        {
+          "english": "Yes, we take cards.",
+          "phonetic": "AHnohkAHrtee-bEHrehmeh",
+          "french": "Ano, karty bereme."
+        }
+      ]
+    },
+    {
+      "id": "brno_technology_museum_of_brno_004",
+      "intent_en": "Is the water mill exhibit running today?",
+      "text_local": "Je dneska v provozu výstava vodního mlýna?",
+      "pronunciation": "yeh-dnEHskah-v-prOHvohzoo-vEEstahvah-vOHdnyeehoh-mlEEnah",
+      "formality": "standard",
+      "cultural_note": "Responses on exhibit status are typically brief and direct. 'V provozu' means operational/running.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, je v provozu.",
+        "pronunciation": "AHnohyeh-v-prOHvohzoo",
+        "translation_en": "Yes, it is in operation."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is in operation.",
+          "phonetic": "AHnohyeh-v-prOHvohzoo",
+          "french": "Ano, je v provozu."
+        }
+      ]
+    },
+    {
+      "id": "brno_technology_museum_of_brno_005",
+      "intent_en": "Where do I book a guided tour?",
+      "text_local": "Kde si mohu rezervovat prohlídku s průvodcem?",
+      "pronunciation": "kdEH-see-mOHhoo-rEHzehrvOHvaht-prOHhleetkoo-s-prOOvohttsehm",
+      "formality": "standard",
+      "cultural_note": "Czech museums often have a dedicated 'pokladna' or information desk for tours; 'hlavní budova' (main building) is a common reference for multi-building sites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V hlavní budově, u přepážky naproti vchodu.",
+        "pronunciation": "v-hlAHvnyee-bOOdohvyehOO-prEHpahshkee-nAHprohee-fkhOHdoo",
+        "translation_en": "In the main building, at the counter opposite the entrance."
+      },
+      "responses": [
+        {
+          "english": "In the main building, at the counter opposite the entrance.",
+          "phonetic": "v-hlAHvnyee-bOOdohvyehOO-prEHpahshkee-nAHprohee-fkhOHdoo",
+          "french": "V hlavní budově, u přepážky naproti vchodu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

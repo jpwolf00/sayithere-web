@@ -1,0 +1,188 @@
+{
+  "id": "kalambaka_triantafyllidis_bakery",
+  "name_en": "Triantafyllidis Bakery",
+  "name_local": "Αρτοποιείο Τριανταφυλλίδη",
+  "icon": "fork.knife",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kalambaka_triantafyllidis_bakery_001",
+      "intent_en": "Buy tiropita by kilo weight",
+      "text_local": "Πόσο κάνει η τυρόπιτα το κιλό;",
+      "pronunciation": "pOHsoh-kAHnee-ee-teerOHpeetAH-toh-eelOH",
+      "formality": "standard",
+      "cultural_note": "Pricing by weight is standard for baked goods in traditional bakeries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δύο ευρώ το κιλό.",
+        "pronunciation": "thEEoh-ehvrOH-toh-eelOH",
+        "translation_en": "Two euros per kilo."
+      },
+      "responses": [
+        {
+          "english": "Two euros per kilo.",
+          "phonetic": "thEEoh-ehvrOH-toh-eelOH",
+          "french": "Δύο ευρώ το κιλό."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_triantafyllidis_bakery_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Βγήκε φρέσκο κουλούρι τώρα;",
+      "pronunciation": "vyEEeh-frEHskoh-koolOOree-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Morning batches of koulouri are highly anticipated by locals and visitors.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο μπροστινό ράφι.",
+        "pronunciation": "nEHstoh-brOHsteenOH-rAHfee",
+        "translation_en": "Yes, it just came out."
+      },
+      "responses": [
+        {
+          "english": "Yes, it just came out.",
+          "phonetic": "nEHstoh-brOHsteenOH-rAHfee",
+          "french": "Ναι, στο μπροστινό ράφι."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_triantafyllidis_bakery_003",
+      "intent_en": "Pay cash with no card accepted",
+      "text_local": "Δέχονται κάρτες;",
+      "pronunciation": "thEHkhohdEH-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "Cash-only operations are typical in smaller traditional bakeries.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά στο ταμείο, κύριε/κυρία.",
+        "pronunciation": "mOHnoh-mEHtreetAH-stoh-tahmEEohEEreeEH-ehnslAHshehl-eerEEah",
+        "translation_en": "No, here we only take cash, we don't accept cards."
+      },
+      "responses": [
+        {
+          "english": "No, here we only take cash, we don't accept cards.",
+          "phonetic": "mOHnoh-mEHtreetAH-stoh-tahmEEohEEreeEH-ehnslAHshehl-eerEEah",
+          "french": "Μόνο μετρητά στο ταμείο, κύριε/κυρία."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_triantafyllidis_bakery_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει χώρος για να πιω καφέ;",
+      "pronunciation": "eepAHrkhee-mEHrohz-nah-kahthEEsoh-yAH-kahfEH",
+      "formality": "standard",
+      "cultural_note": "Counter-only service is typical; seating is not standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μόνο όρθιος ή για έξω.",
+        "pronunciation": "mOHnoh-OHrtheeOHs-ee-yAH-EHksoh",
+        "translation_en": "Only standing or for takeaway."
+      },
+      "responses": [
+        {
+          "english": "Only standing or for takeaway.",
+          "phonetic": "mOHnoh-OHrtheeOHs-ee-yAH-EHksoh",
+          "french": "Μόνο όρθιος ή για έξω."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_triantafyllidis_bakery_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε ακόμα ψωμί Μετέωρα;",
+      "pronunciation": "mEHnoom-bzOHmeeAH-mehtEHohrAH-toh-prohEE",
+      "formality": "standard",
+      "cultural_note": "Fresh-baked Meteora bread loaves are a morning specialty.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ράφι πίσω αριστερά.",
+        "pronunciation": "nEHstoh-rAHfee-pEEsoh-AHreestehrAH",
+        "translation_en": "Yes, we still have some. Would you like a whole loaf or half?"
+      },
+      "responses": [
+        {
+          "english": "Yes, we still have some. Would you like a whole loaf or half?",
+          "phonetic": "nEHstoh-rAHfee-pEEsoh-AHreestehrAH",
+          "french": "Ναι, στο ράφι πίσω αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_triantafyllidis_bakery_006",
+      "intent_en": "Ask how to pre-order large spanakopita box",
+      "text_local": "Πώς γίνεται η παραγγελία μεγάλου κουτιού σπανακόπιτας;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-pAHrahnggehlEEah-mehghAHloo-kOOteeOO-spAHnahkOHpeetAHs",
+      "formality": "standard",
+      "cultural_note": "Group pre-orders require direct staff coordination.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Παραγγέλνεις ένα μέρα πριν στο ταμείο.",
+        "pronunciation": "pAHrahnggEHlnees-EHnah-mEHrah-prEEn-stoh-tahmEEoh",
+        "translation_en": "You order one day in advance at the counter."
+      },
+      "responses": [
+        {
+          "english": "You order one day in advance at the counter.",
+          "phonetic": "pAHrahnggEHlnees-EHnah-mEHrah-prEEn-stoh-tahmEEoh",
+          "french": "Παραγγέλνεις ένα μέρα πριν στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_triantafyllidis_bakery_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να κάτσω εδώ;",
+      "pronunciation": "pOO-bohrOH-nah-kahthEEsoh-meh-booghAHtsah-keh-kahfEH",
+      "formality": "polite",
+      "cultural_note": "Counter-only service is standard; seating is not provided.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Έξω, στα τραπεζάκια του πεζοδρομίου.",
+        "pronunciation": "EHksohstah-trAHpehzAHah-too-pEHzohthrohmEEoo",
+        "translation_en": "Takeaway only; the tables are outside."
+      },
+      "responses": [
+        {
+          "english": "Takeaway only; the tables are outside.",
+          "phonetic": "EHksohstah-trAHpehzAHah-too-pEHzohthrohmEEoo",
+          "french": "Έξω, στα τραπεζάκια του πεζοδρομίου."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_triantafyllidis_bakery_008",
+      "intent_en": "Pre-order Meteora bread group box",
+      "text_local": "Μπορώ να παραγγείλω μεγάλο κουτί ψωμί Μετέωρα;",
+      "pronunciation": "bohrOH-nah-pAHrahnggEEloh-mehghAHloh-kootEE-mehtEHohrAH-psohmEE",
+      "formality": "standard",
+      "cultural_note": "Group pre-orders are common for large bakery items in tourist-heavy areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, πες το δύο μέρες πριν.",
+        "pronunciation": "nEHpEHs-toh-thEEoh-mEHrehs-prEEn",
+        "translation_en": "Yes, say it two days in advance."
+      },
+      "responses": [
+        {
+          "english": "Yes, say it two days in advance.",
+          "phonetic": "nEHpEHs-toh-thEEoh-mEHrehs-prEEn",
+          "french": "Ναι, πες το δύο μέρες πριν."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

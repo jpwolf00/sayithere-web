@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_olomouc_covered_market_hall",
+  "name_en": "Olomouc Covered Market Hall",
+  "name_local": "Olomoucká tržnice",
+  "icon": "cart",
+  "lat": 49.5940567,
+  "lon": 17.251143,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "olomouc_olomouc_covered_market_hall_001",
+      "intent_en": "Do stalls here accept cards or cash only",
+      "text_local": "Berou tady stánky karty, nebo jen hotovost?",
+      "pronunciation": "bEHroh-tAHdee-stAHngkee-kAHrteenEHboh-yEHn-hOHtohvohst",
+      "formality": "casual",
+      "cultural_note": "Cash is still dominant in Czech market halls, though some vendors now have terminals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Většinou jen hotovost, bankomat je venku.",
+        "pronunciation": "vyEHtsheenoh-yEHn-hOHtohvohstbAHngkohmaht-yeh-vEHngkoo",
+        "translation_en": "Mostly cash only, ATM is outside."
+      },
+      "responses": [
+        {
+          "english": "Mostly cash only, ATM is outside.",
+          "phonetic": "vyEHtsheenoh-yEHn-hOHtohvohstbAHngkohmaht-yeh-vEHngkoo",
+          "french": "Většinou jen hotovost, bankomat je venku."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_covered_market_hall_002",
+      "intent_en": "Can I sample cheese before buying",
+      "text_local": "Můžu ochutnat sýr před koupí?",
+      "pronunciation": "mOOzhoo-OHkhootnaht-sEEr-prEHtkohpee",
+      "formality": "standard",
+      "cultural_note": "At Moravian cheese stalls, offering a small taste is common and expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, malý vzorek dám.",
+        "pronunciation": "AHnohmAHlee-vzOHrehk-dAHm",
+        "translation_en": "Yes, I'll give a small sample."
+      },
+      "responses": [
+        {
+          "english": "Yes, I'll give a small sample.",
+          "phonetic": "AHnohmAHlee-vzOHrehk-dAHm",
+          "french": "Ano, malý vzorek dám."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_covered_market_hall_003",
+      "intent_en": "Where is the parking validation machine",
+      "text_local": "Kde je parkovací automat?",
+      "pronunciation": "kdEH-yeh-pAHrkohvAHtsee-OWtohmaht",
+      "formality": "standard",
+      "cultural_note": "Validation machines are typically near parking exits, not at the main entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U východu do podzemního parkoviště.",
+        "pronunciation": "OO-vEEkhohdoo-doh-pOHdehmnyEEhoh-pAHrkohvEEsheh",
+        "translation_en": "At the exit to the underground parking."
+      },
+      "responses": [
+        {
+          "english": "At the exit to the underground parking.",
+          "phonetic": "OO-vEEkhohdoo-doh-pOHdehmnyEEhoh-pAHrkohvEEsheh",
+          "french": "U východu do podzemního parkoviště."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_covered_market_hall_004",
+      "intent_en": "Where are the Moravian cheese stands",
+      "text_local": "Kde jsou stánky s moravskými sýry?",
+      "pronunciation": "kdEH-ysoh-stAHngkee-s-mOHrahfskEEmee-sEEree",
+      "formality": "standard",
+      "cultural_note": "Czech directions often use landmarks like the glass roof rather than aisle numbers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně, pak doprava k prosklené střeše.",
+        "pronunciation": "rOHvnyehpAHk-dOHprahvah-k-prOHsklehneh-strEHsheh",
+        "translation_en": "Straight ahead, then right by the glass roof."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, then right by the glass roof.",
+          "phonetic": "rOHvnyehpAHk-dOHprahvah-k-prOHsklehneh-strEHsheh",
+          "french": "Rovně, pak doprava k prosklené střeše."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

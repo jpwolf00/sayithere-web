@@ -1,0 +1,118 @@
+{
+  "id": "antibes_juan_les_pins",
+  "name_en": "Juan-les-Pins Beach",
+  "name_local": "Plage de Juan-les-Pins",
+  "icon": "sun.horizon",
+  "lat": 43.57,
+  "lon": 7.115,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "antibes_juan_001",
+      "intent_en": "Ask when the jazz festival takes place",
+      "text_local": "Le festival de jazz, c'est quand ?",
+      "pronunciation": "luh fees-tee-VAL duh JAHZ, say KAHN",
+      "formality": "polite",
+      "cultural_note": "The Jazz à Juan festival takes place every July. Book accommodation early as the town fills up quickly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's in July. Check the program online.",
+          "phonetic": "say ahn zhwee-YAY. kon-sul-TAY luh proh-GRAM ahn leen",
+          "french": "C'est en juillet. Consultez le programme en ligne."
+        }
+      ]
+    },
+    {
+      "id": "antibes_juan_002",
+      "intent_en": "Ask if there's a beach club nearby",
+      "text_local": "Y a-t-il un club de plage près d'ici ?",
+      "pronunciation": "ee ah-TEEL un kloob duh PLAZH preh dee-SEE",
+      "formality": "polite",
+      "cultural_note": "Juan-les-Pins has many private beach clubs (plages privées) with loungers, umbrellas, restaurants, and sometimes pools.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are several in the area.",
+          "phonetic": "wee, eel ee ahn plu-ZYUR dahn luh kar-TYAY",
+          "french": "Oui, il y en a plusieurs dans le quartier."
+        }
+      ]
+    },
+    {
+      "id": "antibes_juan_003",
+      "intent_en": "Ask if dogs are allowed on the beach",
+      "text_local": "Les chiens sont-ils autorisés sur la plage ?",
+      "pronunciation": "lay shyen son-TEEL oh-toh-ree-ZAY soor lah PLAZH",
+      "formality": "polite",
+      "cultural_note": "Most French Riviera beaches ban dogs from June to September. Outside summer, they may be allowed on certain sections.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, dogs are not allowed on the beach in summer.",
+          "phonetic": "nohn, lay shyen son ahn-tehr-DEE ahn ay-TAY soor lah PLAZH",
+          "french": "Non, les chiens sont interdits en été sur la plage."
+        }
+      ]
+    },
+    {
+      "id": "antibes_juan_004",
+      "intent_en": "Ask where the nearest public beach is",
+      "text_local": "Où se trouve la plage publique la plus proche ?",
+      "pronunciation": "oo suh TROOV lah PLAZH poo-BLEEK lah ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "Public beaches in Juan-les-Pins are limited. Most of the coastline is private beach clubs with paid access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The public beach is right there, at the end of the promenade.",
+          "phonetic": "lah PLAZH poo-BLEEK eh zhoost lah, oh boo duh lah proh-muh-NAD",
+          "french": "La plage publique est juste là, au bout de la promenade."
+        }
+      ]
+    },
+    {
+      "id": "antibes_juan_005",
+      "intent_en": "Ask about water sports rental options",
+      "text_local": "Où puis-je louer du matériel de sports nautiques ?",
+      "pronunciation": "oo PWEE-zhuh loo-AY doo mah-tay-REEHL duh spor noh-TEEK",
+      "formality": "polite",
+      "cultural_note": "Water sports available include jet skiing, paddleboarding, kayaking, and sailing. Equipment rental shops cluster near the main beach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are rental stands on the main beach.",
+          "phonetic": "eel ee ah day stahn duh lo-kah-SYON soor lah plazh pran-see-PAL",
+          "french": "Il y a des stands de location sur la plage principale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "beach club",
+      "word_local": "le club de plage",
+      "pronunciation": "leh kloob duh PLAZH"
+    },
+    {
+      "word_en": "jazz festival",
+      "word_local": "le festival de jazz",
+      "pronunciation": "leh fees-tee-VAL duh JAHZ"
+    },
+    {
+      "word_en": "sunbed",
+      "word_local": "le transat",
+      "pronunciation": "leh trahn-ZAH"
+    },
+    {
+      "word_en": "lifeguard",
+      "word_local": "le maître-nageur",
+      "pronunciation": "leh met-ruh-nah-ZHUR"
+    }
+  ]
+}

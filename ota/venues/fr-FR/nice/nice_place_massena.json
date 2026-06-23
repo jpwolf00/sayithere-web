@@ -1,0 +1,118 @@
+{
+  "id": "nice_place_massena",
+  "name_en": "Place Masséna",
+  "name_local": "Place Masséna",
+  "icon": "figure.walk",
+  "lat": 43.6971,
+  "lon": 7.271,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "nice_massena_001",
+      "intent_en": "Ask where the nearest tram stop is",
+      "text_local": "Où est l'arrêt de tram le plus proche ?",
+      "pronunciation": "oo eh lah-RAY duh TRAM luh ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "The Nice tramway runs through Place Masséna. The Masséna stop is centrally located and connects to the airport and train station.",
+      "responses": [
+        {
+          "english": "The Masséna stop is right there.",
+          "phonetic": "lah-RAY mah-say-NAH eh ZHOOST LAH",
+          "french": "L'arrêt Masséna est juste là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_massena_002",
+      "intent_en": "Ask where the tram stop is on the square",
+      "text_local": "Où se trouve l'arrêt du tramway sur la place Masséna ?",
+      "pronunciation": "oo seh TROOV lah-RAY doo tram-WAY soor lah PLAS mah-SAY-nah",
+      "formality": "polite",
+      "cultural_note": "Place Masséna is a major tram hub — both Lines 1 and 2 stop here, making it the best transfer point in Nice.",
+      "responses": [
+        {
+          "english": "The stop is in the centre of the square.",
+          "phonetic": "lah-RAY eh toh SAHN-truh duh lah PLAHSS",
+          "french": "L'arrêt est au centre de la place."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_massena_003",
+      "intent_en": "Ask if there are public toilets nearby",
+      "text_local": "Il y a des toilettes publiques à proximité ?",
+      "pronunciation": "eel ee ah day twah-LET poob-LEEK ah prok-see-mee-TAY",
+      "formality": "polite",
+      "cultural_note": "Public toilets in Nice are often located near major squares and parks.",
+      "responses": [
+        {
+          "english": "Yes, on the other side of the square.",
+          "phonetic": "wee duh LOH-truh koh-TAY duh lah PLAHSS",
+          "french": "Oui, de l'autre côté de la place."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_massena_004",
+      "intent_en": "Ask if this is where the Carnival parade takes place",
+      "text_local": "Est-ce ici que se déroulent les défilés du Carnaval de Nice ?",
+      "pronunciation": "es-SEE-see keh seh day-ROOL lay day-fee-LAY doo kar-nah-VAL deh NEES",
+      "formality": "polite",
+      "cultural_note": "Nice Carnival is one of the world's biggest, held every February. Place Masséna is the centrepiece of the parades.",
+      "responses": [
+        {
+          "english": "Yes, the parade passes here.",
+          "phonetic": "wee luh day-fee-LAY PAHSS ee-SEE",
+          "french": "Oui, le défilé passe ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_massena_005",
+      "intent_en": "Ask for directions to the Promenade des Anglais on foot",
+      "text_local": "Quel est le chemin à pied pour rejoindre la Promenade des Anglais ?",
+      "pronunciation": "kel eh leh sheh-MAN ah PYAY poor reh-ZHWAN-dreh lah pro-meh-NAHD day zon-GLAY",
+      "formality": "polite",
+      "cultural_note": "Place Masséna is just two minutes' walk from the seafront — head south through the Jardin Albert 1er.",
+      "responses": [
+        {
+          "english": "Straight south, five minutes on foot.",
+          "phonetic": "too DRWAH vair luh SOOD SAHNK mee-NOOT ah PYAY",
+          "french": "Tout droit vers le sud, cinq minutes à pied."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "square / plaza",
+      "word_local": "la place",
+      "pronunciation": "lah PLAS"
+    },
+    {
+      "word_en": "tram stop",
+      "word_local": "l'arrêt de tramway",
+      "pronunciation": "lah-RAY deh tram-WAY"
+    },
+    {
+      "word_en": "carnival",
+      "word_local": "le carnaval",
+      "pronunciation": "leh kar-nah-VAL"
+    },
+    {
+      "word_en": "arcade / covered walkway",
+      "word_local": "l'arcade",
+      "pronunciation": "lar-KAHD"
+    }
+  ]
+}

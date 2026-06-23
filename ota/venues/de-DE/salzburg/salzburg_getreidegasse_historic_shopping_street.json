@@ -1,0 +1,122 @@
+{
+  "id": "salzburg_getreidegasse_historic_shopping_street",
+  "name_en": "Getreidegasse Historic Shopping Street",
+  "name_local": "Getreidegasse",
+  "icon": "map",
+  "lat": 47.799943,
+  "lon": 13.0435536,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "salzburg_getreidegasse_historic_shopping_street_001",
+      "intent_en": "Find the Mozart Birthplace ticket desk",
+      "text_local": "Wo ist der Kartenschalter für Mozarts Geburtshaus?",
+      "pronunciation": "vOH-ihst-dehr-kAHrtuhnshAHlt-fuer-mOHtsahrts-uhbUHuhtshows",
+      "formality": "standard",
+      "cultural_note": "Schalter sind oft in Eingangsnähe; direkte Antwort ohne detaillierte Wegbeschreibung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich hier.",
+        "pronunciation": "lEYEkh-hEEr",
+        "translation_en": "Right here."
+      },
+      "responses": [
+        {
+          "english": "Right here.",
+          "phonetic": "lEYEkh-hEEr",
+          "french": "Gleich hier."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_getreidegasse_historic_shopping_street_002",
+      "intent_en": "Get change for street performer tips",
+      "text_local": "Haben Sie Wechselgeld für Trinkgeld?",
+      "pronunciation": "hAHbuhn-zee-vEHksuhlEHlt-fuer-trINGkehlt",
+      "formality": "standard",
+      "cultural_note": "Trinkgeldwechsel oft an Kassen oder Infostellen; keine Mikro-Lage erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_getreidegasse_historic_shopping_street_003",
+      "intent_en": "Reach Altstadt Old Town from here",
+      "text_local": "Wie komme ich in die Altstadt?",
+      "pronunciation": "vee-kAWmuh-ihkh-ihn-dee-AHltstaht",
+      "formality": "casual",
+      "cultural_note": "Altstadt ist das historische Zentrum; generische Wegweisung ohne Mikro-Navigation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Folgen Sie der Getreidegasse bis zum Ende.",
+        "pronunciation": "fAWlguhn-zee-dehr-guhtrEYEdehgAHsuh-bihs-tsuhm-EHnduh",
+        "translation_en": "Follow Getreidegasse to the end."
+      },
+      "responses": [
+        {
+          "english": "Follow Getreidegasse to the end.",
+          "phonetic": "fAWlguhn-zee-dehr-guhtrEYEdehgAHsuh-bihs-tsuhm-EHnduh",
+          "french": "Folgen Sie der Getreidegasse bis zum Ende."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_getreidegasse_historic_shopping_street_004",
+      "intent_en": "Pay at this cafe table or counter",
+      "text_local": "Wo kann ich bezahlen?",
+      "pronunciation": "vOH-kAHn-ihkh-buhtsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Cafés üblich: Tischservice oder separate Kasse; keine feste Platzierung erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch oder an der Kasse.",
+        "pronunciation": "ahm-tIHsh-OHd-ahn-dehr-kAHsuh",
+        "translation_en": "At your table or at the counter."
+      },
+      "responses": [
+        {
+          "english": "At your table or at the counter.",
+          "phonetic": "ahm-tIHsh-OHd-ahn-dehr-kAHsuh",
+          "french": "Am Tisch oder an der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_getreidegasse_historic_shopping_street_005",
+      "intent_en": "See original wrought iron guild signs",
+      "text_local": "Wo finde ich die alten Schmiedeschilder?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-AHltuhn-shmEEdehshIHld",
+      "formality": "casual",
+      "cultural_note": "Typisch für Getreidegasse: Schmiedearbeiten an historischen Häusern; keine feste Blickrichtung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Hausfassaden.",
+        "pronunciation": "ahn-dehn-hOWsfAHsahduhn",
+        "translation_en": "On the building facades."
+      },
+      "responses": [
+        {
+          "english": "On the building facades.",
+          "phonetic": "ahn-dehn-hOWsfAHsahduhn",
+          "french": "An den Hausfassaden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

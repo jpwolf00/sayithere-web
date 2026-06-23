@@ -1,0 +1,132 @@
+{
+  "id": "geneva_cern",
+  "name_en": "CERN",
+  "name_local": "CERN",
+  "icon": "atom",
+  "phrases": [
+    {
+      "id": "geneva_cern_001",
+      "intent_en": "Ask how to visit CERN",
+      "text_local": "Comment peut-on visiter le CERN ?",
+      "pronunciation": "koh-MOHN puh-TOHN vee-zee-TAY luh SAIRN",
+      "formality": "polite",
+      "cultural_note": "CERN offers free guided tours that must be booked well in advance online. The Science Gateway visitor centre is open to the public without reservation.",
+      "responses": [
+        {
+          "english": "You need to book online.",
+          "phonetic": "eel foh ray-zer-VAY ahn LEE-nyuh",
+          "french": "Il faut réserver en ligne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_cern_002",
+      "intent_en": "Ask where the visitor entrance is",
+      "text_local": "Où se trouve l'entrée pour les visiteurs ?",
+      "pronunciation": "oo suh TROOV lon-TRAY poor lay vee-zee-TUR",
+      "formality": "polite",
+      "cultural_note": "The main public entrance for visitors is at Reception Building 33, near the Globe of Science and Innovation on Route de Meyrin.",
+      "responses": [
+        {
+          "english": "Across the way, through the main gate.",
+          "phonetic": "ahn FAHSS, par luh por-TYE prehn-see-PAL",
+          "french": "En face, par le portail principal."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_cern_003",
+      "intent_en": "Ask how long the CERN visit takes",
+      "text_local": "La visite dure combien de temps ?",
+      "pronunciation": "lah vee-ZEET DOOR kohm-BYEHN duh TAHN",
+      "formality": "polite",
+      "cultural_note": "CERN visits typically last between one and three hours depending on the tour type.",
+      "responses": [
+        {
+          "english": "About two hours.",
+          "phonetic": "ahn-vee-ROHN duhz UHR",
+          "french": "Environ deux heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_cern_004",
+      "intent_en": "Ask about public transport to CERN",
+      "text_local": "Comment venir au CERN en transports en commun ?",
+      "pronunciation": "koh-MOHN vuh-NEER oh SAIRN on trohnss-POR on koh-MUN",
+      "formality": "polite",
+      "cultural_note": "Tram line 18 runs from Geneva city centre directly to the CERN stop, making it an easy 30-minute journey.",
+      "responses": [
+        {
+          "english": "Take tram eighteen.",
+          "phonetic": "pruh-NAY luh TRAM deez-WEET",
+          "french": "Prenez le tram dix-huit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_cern_005",
+      "intent_en": "Ask about the Science Gateway",
+      "text_local": "Qu'est-ce que le Science Gateway propose au public ?",
+      "pronunciation": "kes-KUH luh SY-onss GAYT-way proh-POHZ oh poo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "Opened in 2023, the Science Gateway is CERN's free public facility with interactive exhibitions about particle physics for all ages.",
+      "responses": [
+        {
+          "english": "It's right at the entrance, free.",
+          "phonetic": "seh zhoost ah lahn-TRAY, grah-TWEE",
+          "french": "C'est juste à l'entrée, gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_cern_006",
+      "intent_en": "Express excitement about visiting CERN",
+      "text_local": "C'est incroyable de visiter l'endroit où le World Wide Web a été inventé !",
+      "pronunciation": "seh tan-krwa-YAH-bluh duh vee-zee-TAY lon-DRWA oo luh WURLD WYD WEB ah ay-TAY an-von-TAY",
+      "formality": "casual",
+      "cultural_note": "Tim Berners-Lee invented the World Wide Web at CERN in 1989 — a fact that surprises many visitors who associate CERN only with particle physics.",
+      "responses": [
+        {
+          "english": "Enjoy your visit!",
+          "phonetic": "bon vee-ZEET",
+          "french": "Bonne visite !"
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "particle physics",
+      "word_local": "la physique des particules",
+      "pronunciation": "lah fee-ZEEK day par-TEE-kyool"
+    },
+    {
+      "word_en": "accelerator",
+      "word_local": "l'accélérateur",
+      "pronunciation": "lahk-say-lay-rah-TUR"
+    },
+    {
+      "word_en": "guided tour",
+      "word_local": "la visite guidée",
+      "pronunciation": "lah vee-ZEET gee-DAY"
+    },
+    {
+      "word_en": "scientist",
+      "word_local": "le/la scientifique",
+      "pronunciation": "luh/lah syohn-tee-FEEK"
+    }
+  ]
+}

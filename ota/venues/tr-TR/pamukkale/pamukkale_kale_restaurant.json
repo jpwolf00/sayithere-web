@@ -1,0 +1,56 @@
+{
+  "id": "pamukkale_kale_restaurant",
+  "name_en": "Kale Restaurant",
+  "name_local": "Kale Restoran",
+  "icon": "fork.knife",
+  "lat": 37.7542016,
+  "lon": 29.0994127,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "pamukkale_kale_restaurant_001",
+      "intent_en": "Where to pay after meal?",
+      "text_local": "Yemekten sonra nerede ödeme yapabilirim?",
+      "pronunciation": "yehmehktAHn-sawnrAH-nEHrehdeh-uhdEHmeh-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "In Turkish restaurants, payment is often made at a dedicated cashier desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kasadaki arkadaşa ödeyin.",
+        "pronunciation": "kahsahdahkIH-ahrkahdahshAH-uhdehyIHn",
+        "translation_en": "Pay the person at the cash register."
+      },
+      "responses": [
+        {
+          "english": "Pay the person at the cash register.",
+          "phonetic": "kahsahdahkIH-ahrkahdahshAH-uhdehyIHn",
+          "french": "Kasadaki arkadaşa ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_kale_restaurant_002",
+      "intent_en": "Is terrace travertine view open?",
+      "text_local": "Teras traverten manzarası açık mı?",
+      "pronunciation": "tehrAHs-trahvehrtAHn-mahnzahrahsOO-ahtshOOk-moo",
+      "formality": "casual",
+      "cultural_note": "Turkish venues may use 'Danışma' as a general inquiry point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, teras açık.",
+        "pronunciation": "ehvEHttehrAHs-ahtshOOk",
+        "translation_en": "Yes, the terrace is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, the terrace is open.",
+          "phonetic": "ehvEHttehrAHs-ahtshOOk",
+          "french": "Evet, teras açık."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "athens_attica_department_store",
+  "name_en": "Attica Department Store",
+  "name_local": "Attica",
+  "icon": "bag",
+  "lat": 37.9775585,
+  "lon": 23.7349415,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "athens_attica_department_store_001",
+      "intent_en": "How do I get to Ermou Street exit",
+      "text_local": "Πώς βγαίνω προς την οδό Ερμού;",
+      "pronunciation": "pOHz-vyEHnoh-prOHs-teen-ohthOH-ehrmOO",
+      "formality": "standard",
+      "cultural_note": "Ermou Street is a major pedestrian zone; the store provides clear signage to the exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Βγείτε από την κύρια έξοδο στο ισόγειο.",
+        "pronunciation": "vyEEteh-ahpOH-teeng-gEEreeAH-EHksohthOH-stoh-eesOHyoh",
+        "translation_en": "Follow the exit signs."
+      },
+      "responses": [
+        {
+          "english": "Follow the exit signs.",
+          "phonetic": "vyEEteh-ahpOH-teeng-gEEreeAH-EHksohthOH-stoh-eesOHyoh",
+          "french": "Βγείτε από την κύρια έξοδο στο ισόγειο."
+        }
+      ]
+    },
+    {
+      "id": "athens_attica_department_store_002",
+      "intent_en": "Is the gift wrapping service at checkout",
+      "text_local": "Η υπηρεσία τυλίγματος δώρων είναι στο ταμείο;",
+      "pronunciation": "ee-EEpeerehsEEah-teelEEghmahtOHz-thOHrohn-EEneh-stoh-tahmEEoh",
+      "formality": "standard",
+      "cultural_note": "Gift wrapping is a standard service, often offered at a dedicated station near checkout.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο τμήμα τυλίγματος.",
+        "pronunciation": "nEHstoh-tmEEmah-teelEEghmahtOHs",
+        "translation_en": "Yes, at the wrapping desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the wrapping desk.",
+          "phonetic": "nEHstoh-tmEEmah-teelEEghmahtOHs",
+          "french": "Ναι, στο τμήμα τυλίγματος."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

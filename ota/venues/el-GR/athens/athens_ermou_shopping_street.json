@@ -1,0 +1,78 @@
+{
+  "id": "athens_ermou_shopping_street",
+  "name_en": "Ermou shopping street",
+  "name_local": "Οδός Ερμού",
+  "icon": "bag",
+  "lat": 39.1102882,
+  "lon": 26.5576092,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "athens_ermou_shopping_street_001",
+      "intent_en": "Where is the nearest Kerameikos entrance",
+      "text_local": "Πού είναι η είσοδος για το Κεραμεικό;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHz-yAH-toh-EHrahmeekOH",
+      "formality": "standard",
+      "cultural_note": "Η πρόσβαση στον αρχαιολογικό χώρο του Κεραμεικού δεν είναι άμεσα ορατή από την Οδό Ερμού, επομένως η πληροφορία πρέπει να ζητηθεί από το προσωπικό πληροφοριών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πίσω από τη Μοναστηράκι, 5 λεπτά περπάτημα.",
+        "pronunciation": "pEEsoh-ahpOH-tee-mOHnahsteerAHeepEHnteh-lehptAH-pehrpAHteemAH",
+        "translation_en": "Ask at the information desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the information desk.",
+          "phonetic": "pEEsoh-ahpOH-tee-mOHnahsteerAHeepEHnteh-lehptAH-pehrpAHteemAH",
+          "french": "Πίσω από τη Μοναστηράκι, 5 λεπτά περπάτημα."
+        }
+      ]
+    },
+    {
+      "id": "athens_ermou_shopping_street_002",
+      "intent_en": "Is the Holy Archangels Church marked on maps",
+      "text_local": "Υπάρχει σήμα για την εκκλησία των Αγίων Αρχαγγέλων;",
+      "pronunciation": "eepAHrkhee-sEEmah-yAH-teen-EHkleesEEah-tohn-ahyEEohn-AHrkhahnggEHlohn",
+      "formality": "standard",
+      "cultural_note": "Οι εκκλησίες στον εμπορικό δρόμο συχνά σημειώνονται σε χάρτες πληροφορίας προς διευκόλυνση των επισκεπτών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον χάρτη του δρόμου.",
+        "pronunciation": "nEHstohn-khAHrtee-too-thrOHmoo",
+        "translation_en": "Yes, on the street map."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the street map.",
+          "phonetic": "nEHstohn-khAHrtee-too-thrOHmoo",
+          "french": "Ναι, στον χάρτη του δρόμου."
+        }
+      ]
+    },
+    {
+      "id": "athens_ermou_shopping_street_003",
+      "intent_en": "Where is the Attica department store entrance",
+      "text_local": "Πού είναι η είσοδος του Attica;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-too-ehnAHtihkuhehl",
+      "formality": "standard",
+      "cultural_note": "Οι εισόδους μεγάλων πολυκαταστημάτων στους εμπορικούς δρόμους είναι εύκολα αναγνωρίσιμες από τις μεγάλες πινακίδες στην πρόσοψη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην οδό Πανεπιστημίου.",
+        "pronunciation": "steen-ohthOH-pAHnehpEEsteemEEoo",
+        "translation_en": "On Panepistimiou street."
+      },
+      "responses": [
+        {
+          "english": "On Panepistimiou street.",
+          "phonetic": "steen-ohthOH-pAHnehpEEsteemEEoo",
+          "french": "Στην οδό Πανεπιστημίου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

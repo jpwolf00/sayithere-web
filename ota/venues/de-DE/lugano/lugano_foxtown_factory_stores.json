@@ -1,0 +1,56 @@
+{
+  "id": "lugano_foxtown_factory_stores",
+  "name_en": "FoxTown Factory Stores",
+  "name_local": "FoxTown Factory Stores",
+  "icon": "bag",
+  "lat": 46.0038007,
+  "lon": 8.9512275,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "lugano_foxtown_factory_stores_001",
+      "intent_en": "Ask where the VAT refund desk is",
+      "text_local": "Wo ist die Mehrwertsteuer-Rückerstattung?",
+      "pronunciation": "vOH-ihst-dee-mEHrvtstAWuhrUEkstAHtuhng",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz wird die Mehrwertsteuer (VAT) oft bei Ausfuhr erstattet; der Schalter sollte klar ausgeschildert sein.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am VAT-Schalter.",
+        "pronunciation": "ahm-fOWAHtEHshAHlt",
+        "translation_en": "At the VAT refund desk."
+      },
+      "responses": [
+        {
+          "english": "At the VAT refund desk.",
+          "phonetic": "ahm-fOWAHtEHshAHlt",
+          "french": "Am VAT-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lugano_foxtown_factory_stores_002",
+      "intent_en": "Ask where the food court payment goes",
+      "text_local": "Wo bezahle ich im Food Court?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-ihm-fOHt-kOOrt",
+      "formality": "standard",
+      "cultural_note": "In Schweizer Einkaufszentren sind Zahlstellen für Gastronomie oft zentral ausgeschildert oder direkt beim Eingang zum Food Court.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Food-Court-Schalter.",
+        "pronunciation": "ahm-fOHtkOOrtshAHlt",
+        "translation_en": "At the food court counter."
+      },
+      "responses": [
+        {
+          "english": "At the food court counter.",
+          "phonetic": "ahm-fOHtkOOrtshAHlt",
+          "french": "Am Food-Court-Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

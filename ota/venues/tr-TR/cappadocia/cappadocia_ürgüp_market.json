@@ -1,0 +1,78 @@
+{
+  "id": "cappadocia_ürgüp_market",
+  "name_en": "Ürgüp Market",
+  "name_local": "Ürgüp Pazarı",
+  "icon": "cart",
+  "lat": 38.6386124,
+  "lon": 34.8455184,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "cappadocia_ürgüp_market_001",
+      "intent_en": "Can I pay with card here?",
+      "text_local": "Burada kartla ödeme yapabilir miyim?",
+      "pronunciation": "bOOrahdah-kAHrtah-uhdEHmeh-yahpahbeelIHr-mEEyihm",
+      "formality": "polite",
+      "cultural_note": "Small vendors often prefer cash; always ask before assuming card is accepted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çoğu tezgahta sadece nakit geçer.",
+        "pronunciation": "tshohUH-tehzgahhtAH-sahdEHdzheh-nahkIHt-ehtshEHr",
+        "translation_en": "Cash only at most stalls."
+      },
+      "responses": [
+        {
+          "english": "Cash only at most stalls.",
+          "phonetic": "tshohUH-tehzgahhtAH-sahdEHdzheh-nahkIHt-ehtshEHr",
+          "french": "Çoğu tezgahta sadece nakit geçer."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_market_002",
+      "intent_en": "Where is the weighing scale?",
+      "text_local": "Terazi nerede?",
+      "pronunciation": "tehrahzIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location of the weigher is not specified in the venue details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte, sağ tarafta.",
+        "pronunciation": "eerihshtEHsAH-tahrahftAH",
+        "translation_en": "At the entrance, on the right side."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, on the right side.",
+          "phonetic": "eerihshtEHsAH-tahrahftAH",
+          "french": "Girişte, sağ tarafta."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_market_003",
+      "intent_en": "Where is the dried apricot stall?",
+      "text_local": "Kuru kayısı tezgahı nerede?",
+      "pronunciation": "koorUH-kahyoosOO-tehzgahhOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Stalls change weekly positions so exact directions are not possible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İçeri girdikten sonra sol tarafta.",
+        "pronunciation": "eetshehrIH-ihrdihktAHn-sawnrAH-sAW-tahrahftAH",
+        "translation_en": "On the left after you enter."
+      },
+      "responses": [
+        {
+          "english": "On the left after you enter.",
+          "phonetic": "eetshehrIH-ihrdihktAHn-sawnrAH-sAW-tahrahftAH",
+          "french": "İçeri girdikten sonra sol tarafta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

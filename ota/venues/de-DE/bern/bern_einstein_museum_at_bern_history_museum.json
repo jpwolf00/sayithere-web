@@ -1,0 +1,100 @@
+{
+  "id": "bern_einstein_museum_at_bern_history_museum",
+  "name_en": "Einstein Museum at Bern History Museum",
+  "name_local": "Einstein Museum im Historischen Museum Bern",
+  "icon": "building.columns",
+  "lat": 46.9484742,
+  "lon": 7.4521749,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bern_einstein_museum_at_bern_history_museum_001",
+      "intent_en": "Pay Einstein Museum surcharge",
+      "text_local": "Was kostet der Einstein-Zuschlag?",
+      "pronunciation": "vAHs-kAWstuht-dehr-EYEnshtEYEntsooshlAHk",
+      "formality": "standard",
+      "cultural_note": "Preisangabe in Schweizer Franken, typisch für Bern. Direkte Nennung ohne Floskeln.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "4 Franken extra.",
+        "pronunciation": "fEEr-frAHngkuhn-EHkstrah",
+        "translation_en": "4 francs extra."
+      },
+      "responses": [
+        {
+          "english": "4 francs extra.",
+          "phonetic": "fEEr-frAHngkuhn-EHkstrah",
+          "french": "4 Franken extra."
+        }
+      ]
+    },
+    {
+      "id": "bern_einstein_museum_at_bern_history_museum_002",
+      "intent_en": "Photograph Einstein manuscript desk",
+      "text_local": "Darf ich hier fotografieren?",
+      "pronunciation": "dAHrf-ihkh-hEEr-fOHtohrahfEEruhn",
+      "formality": "casual",
+      "cultural_note": "Klare Regel ohne Einschränkungen, typisch für deutsche Museumsschild- oder Aufsichtskommunikation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, im Manuskriptraum verboten.",
+        "pronunciation": "nEYEnihm-mAHnuhskrIHptrowm-fehrbOHtuhn",
+        "translation_en": "No, photography banned in manuscript room."
+      },
+      "responses": [
+        {
+          "english": "No, photography banned in manuscript room.",
+          "phonetic": "nEYEnihm-mAHnuhskrIHptrowm-fehrbOHtuhn",
+          "french": "Nein, im Manuskriptraum verboten."
+        }
+      ]
+    },
+    {
+      "id": "bern_einstein_museum_at_bern_history_museum_003",
+      "intent_en": "Find Einstein's writing desk exhibit",
+      "text_local": "Wo finde ich Einsteins Schreibtisch?",
+      "pronunciation": "vOH-fIHnduh-ihkh-EYEnshtEYEns-shrEYEptihsh",
+      "formality": "standard",
+      "cultural_note": "Standardweise wird bei unbekannten Ausstellungsorten in deutschen Museen zur Information verwiesen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Obergeschoss, links.",
+        "pronunciation": "ihm-OHbguhshAWslINGks",
+        "translation_en": "Upstairs, on the left."
+      },
+      "responses": [
+        {
+          "english": "Upstairs, on the left.",
+          "phonetic": "ihm-OHbguhshAWslINGks",
+          "french": "Im Obergeschoss, links."
+        }
+      ]
+    },
+    {
+      "id": "bern_einstein_museum_at_bern_history_museum_004",
+      "intent_en": "Rent audio guide for Einstein wing",
+      "text_local": "Wo bekomme ich einen Audioguide für den Einstein-Bereich?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-EYEnuhn-ehnAWdihUHuheyeddeh-fuer-dehn-EYEnshtEYEnbuhrEYEkh",
+      "formality": "casual",
+      "cultural_note": "Audioguide-Schalter ist die korrekte, professionelle Bezeichnung in deutschen Museen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Audioguide-Schalter.",
+        "pronunciation": "ahm-ehnAWdihUHuheyeddehshAHlt",
+        "translation_en": "At the audio guide desk."
+      },
+      "responses": [
+        {
+          "english": "At the audio guide desk.",
+          "phonetic": "ahm-ehnAWdihUHuheyeddehshAHlt",
+          "french": "Am Audioguide-Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

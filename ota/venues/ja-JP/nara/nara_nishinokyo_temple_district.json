@@ -1,0 +1,78 @@
+{
+  "id": "nara_nishinokyo_temple_district",
+  "name_en": "Nishinokyo temple district",
+  "name_local": "西ノ京",
+  "icon": "map",
+  "lat": 34.68444444,
+  "lon": 135.81550000000001,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "nara_nishinokyo_temple_district_001",
+      "intent_en": "Where can I rent a bicycle?",
+      "text_local": "レンタサイクルは どこですか？",
+      "pronunciation": "EHntsEEkooOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Bicycle rental near the station is common for exploring this spread-out area.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきの きたぐちを でて、すぐ みぎです。",
+        "pronunciation": "ehkEEnoh-kEEtgootEEoh-dEHtehsOOgoo-mEEgeedEHsoo",
+        "translation_en": "Exit the station's north exit, it's immediately on the right."
+      },
+      "responses": [
+        {
+          "english": "Exit the station's north exit, it's immediately on the right.",
+          "phonetic": "ehkEEnoh-kEEtgootEEoh-dEHtehsOOgoo-mEEgeedEHsoo",
+          "french": "えきの きたぐちを でて、すぐ みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nishinokyo_temple_district_002",
+      "intent_en": "Where is Yakushi-ji entrance?",
+      "text_local": "やくしじの いりぐちは どこですか？",
+      "pronunciation": "yKooeedEEnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Temple entrances are usually marked by a large gate, often to the south.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みなみの もんから おはいりください。",
+        "pronunciation": "mEEnmEEnoh-mohngk-OHHEEeekOOdsEE",
+        "translation_en": "Please enter from the south gate."
+      },
+      "responses": [
+        {
+          "english": "Please enter from the south gate.",
+          "phonetic": "mEEnmEEnoh-mohngk-OHHEEeekOOdsEE",
+          "french": "みなみの もんから おはいりください。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nishinokyo_temple_district_003",
+      "intent_en": "Is there parking at Heijo Palace?",
+      "text_local": "へいじょうきゅうに ちゅうしゃじょうは ありますか？",
+      "pronunciation": "hEHeedOHookooOOnee-tOOooDohOOh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Heijo Palace is a vast, open historical site with a dedicated parking area.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、むりょうの ちゅうしゃじょうが あります。",
+        "pronunciation": "hEEmOOohOOnoh-tOOooDohOOg-EEmSoo",
+        "translation_en": "Yes, there is a free parking lot."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a free parking lot.",
+          "phonetic": "hEEmOOohOOnoh-tOOooDohOOg-EEmSoo",
+          "french": "はい、むりょうの ちゅうしゃじょうが あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

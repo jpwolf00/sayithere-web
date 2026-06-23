@@ -1,0 +1,122 @@
+{
+  "id": "naxos_portara",
+  "name_en": "Portara",
+  "name_local": "Πορτάρα",
+  "icon": "building.columns",
+  "lat": 37.1102122,
+  "lon": 25.3723004,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "naxos_portara_001",
+      "intent_en": "Is the islet accessible now?",
+      "text_local": "Είναι προσβάσιμο το νησάκι τώρα;",
+      "pronunciation": "EEneh-prohsvAHseemOH-toh-neesAHee-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Η πρόσβαση στο νησάκι εξαρτάται από τις παλίρροιες και τις οδηγίες των αρχών, οι οποίες ενημερώνονται τακτικά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτό.",
+        "pronunciation": "nEHEEneh-AHneekhtOH",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "nEHEEneh-AHneekhtOH",
+          "french": "Ναι, είναι ανοιχτό."
+        }
+      ]
+    },
+    {
+      "id": "naxos_portara_002",
+      "intent_en": "Where is the causeway entrance?",
+      "text_local": "Πού είναι η είσοδος του δρόμου για την Πορτάρα;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-tees-prohvlEEtahs",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν την είσοδο της προβλήτας μέσω ενός μοναδικού μονοπατιού, καθώς δεν υπάρχουν πινακίδες εντός του χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την προβλήτα, αριστερά.",
+        "pronunciation": "ahpOH-teem-brohvlEEtahAHreestehrAH",
+        "translation_en": "From the causeway, on the left."
+      },
+      "responses": [
+        {
+          "english": "From the causeway, on the left.",
+          "phonetic": "ahpOH-teem-brohvlEEtahAHreestehrAH",
+          "french": "Από την προβλήτα, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "naxos_portara_003",
+      "intent_en": "Where is the best sunset view?",
+      "text_local": "Πού βλέπω καλύτερα το ηλιοβασίλεμα;",
+      "pronunciation": "pOO-vlEHpoh-kahlEEtehrAH-toh-EElyohvahsEElehmAH",
+      "formality": "standard",
+      "cultural_note": "Η περιοχή γύρω από την Πορτάρα προσφέρει μοναδικές απόψεις για το ηλιοβασίλεμα, ιδιαίτερα από τη θάλασσα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακριβώς πίσω από το Πόρταρα.",
+        "pronunciation": "AHkreevOHs-pEEsoh-ahpOH-toh-pOHrtahrAH",
+        "translation_en": "From the Portara."
+      },
+      "responses": [
+        {
+          "english": "From the Portara.",
+          "phonetic": "AHkreevOHs-pEEsoh-ahpOH-toh-pOHrtahrAH",
+          "french": "Ακριβώς πίσω από το Πόρταρα."
+        }
+      ]
+    },
+    {
+      "id": "naxos_portara_004",
+      "intent_en": "Are boat tours available nearby?",
+      "text_local": "Υπάρχουν διαθέσιμες βαρκάδες για τουρ;",
+      "pronunciation": "eepAHrkhoon-thEEahthEHseemEHz-vahrkAHthehz-yAH-tOOr",
+      "formality": "standard",
+      "cultural_note": "Οι βαρκάδες προσφέρουν περιηγήσεις γύρω από την Πορτάρα και το νησάκι Παλάτια, συχνά συνδυασμένες με ηλιοβασίλεμα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δίπλα στο λιμάνι.",
+        "pronunciation": "nEHthEEplah-stoh-leemAHnee",
+        "translation_en": "Yes, by the harbor."
+      },
+      "responses": [
+        {
+          "english": "Yes, by the harbor.",
+          "phonetic": "nEHthEEplah-stoh-leemAHnee",
+          "french": "Ναι, δίπλα στο λιμάνι."
+        }
+      ]
+    },
+    {
+      "id": "naxos_portara_005",
+      "intent_en": "Do I need to pay admission?",
+      "text_local": "Χρειάζεται να πληρώσω εισιτήριο;",
+      "pronunciation": "khrkhAHzehtEH-nah-pleerOHsoh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Στην περιοχή δεν υπάρχουν ταμεία ή μόνιμο προσωπικό, οπότε η πληρωμή γίνεται μέσω μιας ανώνυμης κάλπης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Δωρεάν πρόσβαση, μόνο δωρεές.",
+        "pronunciation": "thOHrehAHm-brOHsvahsEEmOHnoh-thOHrehEHs",
+        "translation_en": "Free entry, donations welcome."
+      },
+      "responses": [
+        {
+          "english": "Free entry, donations welcome.",
+          "phonetic": "thOHrehAHm-brOHsvahsEEmOHnoh-thOHrehEHs",
+          "french": "Δωρεάν πρόσβαση, μόνο δωρεές."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,144 @@
+{
+  "id": "tokyo_tokyo_skytree",
+  "name_en": "Tokyo Skytree",
+  "name_local": "東京スカイツリー",
+  "icon": "building.columns",
+  "lat": 35.7100543,
+  "lon": 139.8107141,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "tokyo_tokyo_skytree_001",
+      "intent_en": "Ask where to buy Tembo Deck tickets",
+      "text_local": "てんぼうデッキの きっぷは どこで かいますか？",
+      "pronunciation": "tEHbOHoodehkkEEnoh-keeppOOh-dohkOHdeh-kEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff tend to give the floor number along with the location name at large vertical attractions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "4かいの チケットカウンターです。",
+        "pronunciation": "sEE-kEEnoh-tEEkehttOHkOOntdEHsoo",
+        "translation_en": "At the ticket counter on the 4th floor."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter on the 4th floor.",
+          "phonetic": "sEE-kEEnoh-tEEkehttOHkOOntdEHsoo",
+          "french": "4かいの チケットカウンターです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_skytree_002",
+      "intent_en": "Ask if Galleria needs a separate ticket",
+      "text_local": "ガレリアは べつの きっぷが いりますか？",
+      "pronunciation": "gEHeeH-behtsOOnoh-keeppOOg-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "It's common for observation decks with multiple levels to require an additional ticket for the highest point.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、てんぼうデッキとは べつの けんです。",
+        "pronunciation": "hEEtEHbOHoodEHkkeetOHh-behtsOOnoh-kehndEHsoo",
+        "translation_en": "Yes, it's a separate ticket from the Tembo Deck."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's a separate ticket from the Tembo Deck.",
+          "phonetic": "hEEtEHbOHoodEHkkeetOHh-behtsOOnoh-kehndEHsoo",
+          "french": "はい、てんぼうデッキとは べつの けんです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_skytree_003",
+      "intent_en": "Ask if restaurant reservations are needed",
+      "text_local": "レストランは よやくが いりますか？",
+      "pronunciation": "EHsootOHH-yOHykOOg-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Popular restaurants in entertainment complexes often recommend reservations, especially on weekends.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おみせに よりますが、よやくが あんしんです。",
+        "pronunciation": "OHmeesEHnee-yOHeemsOOgyOHykOOg-EEndEHsoo",
+        "translation_en": "It depends on the restaurant, but a reservation is safer."
+      },
+      "responses": [
+        {
+          "english": "It depends on the restaurant, but a reservation is safer.",
+          "phonetic": "OHmeesEHnee-yOHeemsOOgyOHykOOg-EEndEHsoo",
+          "french": "おみせに よりますが、よやくが あんしんです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_skytree_004",
+      "intent_en": "Ask if coin lockers are available",
+      "text_local": "コインロッカーは ありますか？",
+      "pronunciation": "kOHeenohkkH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Large tourist attractions in Japan almost always provide coin lockers, and staff can pinpoint the floor.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、1かい エントランスに あります。",
+        "pronunciation": "hEEEEtsee-kEE-EHntohSOOnee-EEmSoo",
+        "translation_en": "Yes, they're at the 1st floor entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, they're at the 1st floor entrance.",
+          "phonetic": "hEEEEtsee-kEE-EHntohSOOnee-EEmSoo",
+          "french": "はい、1かい エントランスに あります。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_skytree_005",
+      "intent_en": "Ask if re-entry is allowed",
+      "text_local": "さいにゅうじょうは できますか？",
+      "pronunciation": "sEEnOOoodohOOh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Most observation decks in Japan do not allow re-entry on the same ticket to manage crowd flow.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、さいにゅうじょうは できません。",
+        "pronunciation": "EEehsEEnOOoodohOOh-dEHkeemSeh",
+        "translation_en": "No, re-entry is not allowed."
+      },
+      "responses": [
+        {
+          "english": "No, re-entry is not allowed.",
+          "phonetic": "EEehsEEnOOoodohOOh-dEHkeemSeh",
+          "french": "いいえ、さいにゅうじょうは できません。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_skytree_006",
+      "intent_en": "Ask how long the elevator wait is",
+      "text_local": "エレベーターの まちじかんは どのくらいですか？",
+      "pronunciation": "EHehbehehtNoh-mTeedEEkH-dOHnohkOOEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often give an approximate wait time using 'kurai' (about) during peak hours.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いまは だいたい 20ぷんくらいです。",
+        "pronunciation": "eemH-dEEtEE-nEE-dzoo-pOOngkooEEdEHsoo",
+        "translation_en": "Right now it's about 20 minutes."
+      },
+      "responses": [
+        {
+          "english": "Right now it's about 20 minutes.",
+          "phonetic": "eemH-dEEtEE-nEE-dzoo-pOOngkooEEdEHsoo",
+          "french": "いまは だいたい 20ぷんくらいです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "kutná_hora_kutná_hora_main_train_station",
+  "name_en": "Kutná Hora main train station",
+  "name_local": "Kutná Hora hlavní nádraží",
+  "icon": "tram",
+  "lat": 49.9619429,
+  "lon": 15.3005986,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kutná_hora_kutná_hora_main_train_station_001",
+      "intent_en": "When does the next train to Prague leave",
+      "text_local": "Kdy jede další vlak do Prahy?",
+      "pronunciation": "kdEE-yEHdeh-dAHlshee-vlAHk-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Czech speakers often use 'kolej' (track) interchangeably with 'nástupiště' (platform) in casual speech.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za dvanáct minut z druhé koleje.",
+        "pronunciation": "zAHdvahnahtst-mEEnoot-s-drOOheh-kOHlehyeh",
+        "translation_en": "In twelve minutes from platform two."
+      },
+      "responses": [
+        {
+          "english": "In twelve minutes from platform two.",
+          "phonetic": "zAHdvahnahtst-mEEnoot-s-drOOheh-kOHlehyeh",
+          "french": "Za dvanáct minut z druhé koleje."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_kutná_hora_main_train_station_002",
+      "intent_en": "How do I validate my ticket before boarding",
+      "text_local": "Jak si mám označit jízdenku před nástupem?",
+      "pronunciation": "yAHk-see-mahm-OHznahtsheet-yEEzdehngkoo-prEHdnahstOOpehm",
+      "formality": "standard",
+      "cultural_note": "Validation machines are typically yellow and located before the platform area. Failing to stamp a ticket can result in a fine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V tom žlutém stroji u vchodu do podchodu.",
+        "pronunciation": "v-tOHm-zhlOOtehm-strOHyee-OO-fkhOHdoo-dOHpohtkhOHdoo",
+        "translation_en": "In the yellow machine at the entrance to the underpass."
+      },
+      "responses": [
+        {
+          "english": "In the yellow machine at the entrance to the underpass.",
+          "phonetic": "v-tOHm-zhlOOtehm-strOHyee-OO-fkhOHdoo-dOHpohtkhOHdoo",
+          "french": "V tom žlutém stroji u vchodu do podchodu."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_kutná_hora_main_train_station_003",
+      "intent_en": "Where do I buy the separate Sedlec line ticket",
+      "text_local": "Kde koupím lístek na Sedlec?",
+      "pronunciation": "kdEH-kOHpeem-lEEstehk-nAHsehdlehts",
+      "formality": "standard",
+      "cultural_note": "For a local line, staff will direct you to the main ticket sources. The Sedlec line is a short local journey.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U pokladny, nebo v automatu u vchodu.",
+        "pronunciation": "OO-pOHklahdneenEHboh-v-OWtohmAHtoo-OO-fkhOHdoo",
+        "translation_en": "At the counter, or at the machine by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the counter, or at the machine by the entrance.",
+          "phonetic": "OO-pOHklahdneenEHboh-v-OWtohmAHtoo-OO-fkhOHdoo",
+          "french": "U pokladny, nebo v automatu u vchodu."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_kutná_hora_main_train_station_004",
+      "intent_en": "Is the cash-only counter still open",
+      "text_local": "Je ještě otevřená pokladna, co bere jen hotovost?",
+      "pronunciation": "yeh-yEHsheh-OHtehvrEHnah-pOHklahdnahtsOH-bEHreh-yEHn-hOHtohvohst",
+      "formality": "standard",
+      "cultural_note": "Smaller Czech station counters often close in the early evening and may be cash-only, especially outside major cities.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, ale jen do šesti hodin.",
+        "pronunciation": "AHnohAHleh-yEHn-dOHshehsee-hOHeen",
+        "translation_en": "Yes, but only until six o'clock."
+      },
+      "responses": [
+        {
+          "english": "Yes, but only until six o'clock.",
+          "phonetic": "AHnohAHleh-yEHn-dOHshehsee-hOHeen",
+          "french": "Ano, ale jen do šesti hodin."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_kutná_hora_main_train_station_005",
+      "intent_en": "Where is platform two for Prague trains",
+      "text_local": "Kde je druhé nástupiště na vlaky do Prahy?",
+      "pronunciation": "kdEH-yeh-drOOheh-nAHstoopEEsheh-nAHvlahkee-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Czech stations often use podchod (underpass) to reach platforms. Simple directional cues are common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Podchodem, pak doprava po schodech nahoru.",
+        "pronunciation": "pOHtkhohdehmpAHk-dOHprahvah-pOHskhohdehkh-nAHhohroo",
+        "translation_en": "Through the underpass, then right up the stairs."
+      },
+      "responses": [
+        {
+          "english": "Through the underpass, then right up the stairs.",
+          "phonetic": "pOHtkhohdehmpAHk-dOHprahvah-pOHskhohdehkh-nAHhohroo",
+          "french": "Podchodem, pak doprava po schodech nahoru."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

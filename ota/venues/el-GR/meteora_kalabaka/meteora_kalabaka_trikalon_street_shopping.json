@@ -1,0 +1,210 @@
+{
+  "id": "meteora_kalabaka_trikalon_street_shopping",
+  "name_en": "Trikalon Street Shopping",
+  "name_local": "Οδός Τρικάλων",
+  "icon": "bag",
+  "lat": 39.6228257,
+  "lon": 21.7100142,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_001",
+      "intent_en": "Should I greet the owner before browsing?",
+      "text_local": "Χρειάζεται να χαιρετήσω τον ιδιοκτήτη πριν δω τα είδη;",
+      "pronunciation": "khrkhAHzehtEH-nah-khEHrehtEEsoh-tohn-EEtheeohktEEtee-prEEn-thOH-tah-EEthee",
+      "formality": "standard",
+      "cultural_note": "Στην τοπική αγορά, η ευγένεια και η προσωπική σχέση θεωρούνται σημαντικές πριν ξεκινήσετε το ψώνιμο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, χαιρετήστε πρώτα.",
+        "pronunciation": "nEHkhEHrehtEEsteh-prOHtah",
+        "translation_en": "Yes, greet first."
+      },
+      "responses": [
+        {
+          "english": "Yes, greet first.",
+          "phonetic": "nEHkhEHrehtEEsteh-prOHtah",
+          "french": "Ναι, χαιρετήστε πρώτα."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε χειροποίητα δερμάτινα σανδάλια στο νούμερό μου;",
+      "pronunciation": "EHkhehtEH-khEErohpEEeetAH-thehrmAHteenAH-sahnthAHlyah-stoh-nOOmehrOH-moo",
+      "formality": "standard",
+      "cultural_note": "Τα χειροποίητα δερμάτινα σανδάλια είναι συχνά προσαρμοσμένα στο μέγεθος του πελάτη μετά από ειδική παραγγελία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο πίσω μέρος αριστερά.",
+        "pronunciation": "nEHstoh-pEEsoh-mEHrohs-AHreestehrAH",
+        "translation_en": "Yes, we do. Tell me your size."
+      },
+      "responses": [
+        {
+          "english": "Yes, we do. Tell me your size.",
+          "phonetic": "nEHstoh-pEEsoh-mEHrohs-AHreestehrAH",
+          "french": "Ναι, στο πίσω μέρος αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_003",
+      "intent_en": "Cash required for small shops?",
+      "text_local": "Δέχονται μετρητά στα μικρά μαγαζιά;",
+      "pronunciation": "tah-meekrAH-kAHtahstEEmahtAH-thEHkhohdEH-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Small shops on Trikalon Street are typically cash-only. Card acceptance is uncommon.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, όλα δέχονται μετρητά.",
+        "pronunciation": "nEHOHlah-thEHkhohdEH-mEHtreetAH",
+        "translation_en": "Yes, usually."
+      },
+      "responses": [
+        {
+          "english": "Yes, usually.",
+          "phonetic": "nEHOHlah-thEHkhohdEH-mEHtreetAH",
+          "french": "Ναι, όλα δέχονται μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να δοκιμάσω τσίπουρο πριν αγοράσω;",
+      "pronunciation": "pOO-thOHeemAHzoh-tsEEpoorOH-prEEn-AHghohrAHsoh",
+      "formality": "polite",
+      "cultural_note": "Tsipouro samples are often offered by the shopkeeper as a gesture of hospitality. Accepting a sample is polite.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στα μαγαζιά με τσίπουρο στη σκάλα.",
+        "pronunciation": "stah-mAHghahzyAH-meh-tsEEpoorOH-stee-skAHlah",
+        "translation_en": "Usually shops selling local wines and tsipouro on Trikalon Street offer free samples. Don’t hesitate to ask for a taste before deciding."
+      },
+      "responses": [
+        {
+          "english": "Usually shops selling local wines and tsipouro on Trikalon Street offer free samples. Don’t hesitate to ask for a taste before deciding.",
+          "phonetic": "stah-mAHghahzyAH-meh-tsEEpoorOH-stee-skAHlah",
+          "french": "Στα μαγαζιά με τσίπουρο στη σκάλα."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω χειροποίητα κομπολόια;",
+      "pronunciation": "pOO-vrEEskoh-khehrAHee-khEErohpEEeetOH-ehnkMbuhlOYehl",
+      "formality": "polite",
+      "cultural_note": "In small shops, komboloi are often displayed near the counter or handcrafted items. Haggling may be expected, but the price is typically shown openly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά μετά το μαγαζί με τις εικόνες.",
+        "pronunciation": "thEHkseeAH-mehtAH-toh-mAHghahzEE-meh-tees-eekOHnehs",
+        "translation_en": "At the icon shop, they have rosewood there too."
+      },
+      "responses": [
+        {
+          "english": "At the icon shop, they have rosewood there too.",
+          "phonetic": "thEHkseeAH-mehtAH-toh-mAHghahzEE-meh-tees-eekOHnehs",
+          "french": "Δεξιά μετά το μαγαζί με τις εικόνες."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_006",
+      "intent_en": "Do small shops here only take cash?",
+      "text_local": "Τα μικρά μαγαζιά εδώ δέχονται μόνο μετρητά;",
+      "pronunciation": "tah-meekrAH-mAHghahzyAH-ehthOH-thEHkhohdEH-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Στις μικρές τοπικές επιχειρήσεις και καταστήματα αναμνηστικών, η χρήση μετρητών είναι συνηθισμένη λόγω περιορισμένωνPOS.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Τα περισσότερα μόνο μετρητά.",
+        "pronunciation": "tah-pEHreessOHtehrAH-mOHnoh-mEHtreetAH",
+        "translation_en": "Mostly cash only."
+      },
+      "responses": [
+        {
+          "english": "Mostly cash only.",
+          "phonetic": "tah-pEHreessOHtehrAH-mOHnoh-mEHtreetAH",
+          "french": "Τα περισσότερα μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_007",
+      "intent_en": "Is haggling expected for Byzantine icons?",
+      "text_local": "Γίνεται κάτι στη τιμή για τις βυζαντινές εικόνες;",
+      "pronunciation": "yEEnehtEH-kAHtee-stee-teemEE-yAH-teez-vEEzahdeenEHs-eekOHnehs",
+      "formality": "standard",
+      "cultural_note": "Στις μικρές καταστήματα πώλησης αναμνηστικών, η διαπραγμάτευση είναι συνηθισμένη πρακτική για σουβενίρ υψηλής αξίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μπορείτε να συζητήσετε.",
+        "pronunciation": "bohrEEteh-nah-sEEzeetEEsehtEH",
+        "translation_en": "You can discuss."
+      },
+      "responses": [
+        {
+          "english": "You can discuss.",
+          "phonetic": "bohrEEteh-nah-sEEzeetEEsehtEH",
+          "french": "Μπορείτε να συζητήσετε."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_008",
+      "intent_en": "Is it rude to refuse offered coffee?",
+      "text_local": "Είναι αγενές να αρνηθώ τον καφέ;",
+      "pronunciation": "EEneh-AHyehnEHz-n-AHrneethOH-tohng-gahfEH-poo-prohsfEHrehtEH",
+      "formality": "standard",
+      "cultural_note": "Η προσφορά δείγματος καφέ αποτελεί ένδειξη φιλοξενίας και η άρνηση δεν θεωρείται προσβολή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, δεν πειράζει καθόλου.",
+        "pronunciation": "OHkheethEHm-beerAHzee-kahthOHloo",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "OHkheethEHm-beerAHzee-kahthOHloo",
+          "french": "Όχι, δεν πειράζει καθόλου."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_trikalon_street_shopping_009",
+      "intent_en": "Is haggling acceptable for icons?",
+      "text_local": "Γίνεται παζάρι για τις εικόνες;",
+      "pronunciation": "bohrOH-nah-pAHzahrEHpsoh-yAH-tees-eekOHnehs",
+      "formality": "standard",
+      "cultural_note": "Haggling is culturally expected for souvenirs like Byzantine icons in small shops. Prices are often flexible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συνηθίζεται.",
+        "pronunciation": "nEHsEEneethEEzehtEH",
+        "translation_en": "Yes, it's common."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's common.",
+          "phonetic": "nEHsEEneethEEzehtEH",
+          "french": "Ναι, συνηθίζεται."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

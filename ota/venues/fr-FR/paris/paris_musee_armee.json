@@ -1,0 +1,152 @@
+{
+  "id": "venue_musee_armee",
+  "name_en": "Army Museum & Les Invalides",
+  "name_local": "Musée de l'Armée",
+  "icon": "shield.fill",
+  "phrases": [
+    {
+      "id": "venue_musee_armee_001",
+      "intent_en": "Ask where Napoleon's tomb is",
+      "text_local": "Où se trouve le tombeau de Napoléon, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV luh tohm-BOH duh nah-poh-LAY-ohn, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Napoleon's tomb is inside the Église du Dôme, which requires a separate area of the complex from the main Musée de l'Armée galleries. Follow signs for 'Tombeau de Napoléon'. The sarcophagus is made of red quartzite from Finland.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Napoleon's tomb is under the dome, straight ahead.",
+          "phonetic": "luh tohm-BOH duh nah-poh-lay-OHN eh soo luh dohm, too drwah",
+          "french": "Le tombeau de Napoléon est sous le dôme, tout droit."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_armee_002",
+      "intent_en": "Ask for one ticket that covers both the museum and the tomb",
+      "text_local": "Un billet pour le musée et le tombeau, s'il vous plaît.",
+      "pronunciation": "uhn bee-YEH poor luh moo-ZAY ay luh tohm-BOH, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "A single ticket covers both the Musée de l'Armée and the Église du Dôme with Napoleon's tomb. The museum is one of the largest military museums in the world, spanning multiple wings across different centuries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the ticket includes the museum and the tomb.",
+          "phonetic": "wee, luh bee-YAY ahn-KLOO luh moo-ZAY ay luh tohm-BOH",
+          "french": "Oui, le billet inclut le musée et le tombeau."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_armee_003",
+      "intent_en": "Ask if an audio guide is available in English",
+      "text_local": "Est-ce qu'il y a un audioguide disponible en anglais ?",
+      "pronunciation": "ess keel ee ah uhn oh-dee-oh-GHEED dees-poh-NEE-bluh ahn ahn-GLEH",
+      "formality": "polite",
+      "cultural_note": "Audio guides are available in several languages including English. The museum's modern wing on World Wars I and II is particularly well presented and very moving.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the audio guide is available in English at the ticket counter.",
+          "phonetic": "wee, loh-dee-oh-GEED eh dees-poh-NEE-bluh ahn ahn-GLEH oh gee-SHAY",
+          "french": "Oui, l'audioguide est disponible en anglais au guichet."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_armee_004",
+      "intent_en": "Ask where the golden dome is visible from outside",
+      "text_local": "D'où peut-on voir le dôme doré de l'extérieur ?",
+      "pronunciation": "doo puh-TOHN vwar luh DOHM doh-RAY duh lex-tay-RYUR",
+      "formality": "standard",
+      "cultural_note": "The golden dome of Les Invalides is one of the most recognizable sights in Paris. It is best viewed from the Alexandre III bridge or along the Esplanade des Invalides. The dome was last re-gilded in 1989 using 12 kg of gold leaf.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The dome is visible from the Esplanade des Invalides.",
+          "phonetic": "luh dohm eh vee-ZEE-bluh duh-PWEE les-plah-NAHD dayz ahn-vah-LEED",
+          "french": "Le dôme est visible depuis l'esplanade des Invalides."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_armee_005",
+      "intent_en": "Ask which wing has the medieval armor collection",
+      "text_local": "Quelle aile contient la collection d'armures médiévales ?",
+      "pronunciation": "kel EL kohn-TYEHN lah koh-lek-SYOHN dar-MOOR may-dee-AY-val",
+      "formality": "standard",
+      "cultural_note": "The Aile Occident (west wing) houses an impressive collection of medieval armor, swords, and weapons. The royal armor of Francis I and Henry II is among the highlights — some pieces date to the 14th century.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The armor collection is in the west wing, on the ground floor.",
+          "phonetic": "layz ar-MOOR sohn dahn lel west, oh ray-duh-shoh-SAY",
+          "french": "Les armures sont dans l'aile ouest, au rez-de-chaussée."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_armee_006",
+      "intent_en": "Ask how long it takes to visit the whole complex",
+      "text_local": "Combien de temps faut-il prévoir pour visiter tout le complexe ?",
+      "pronunciation": "kohm-BYEHN duh tahn foh-TEEL pray-VWAR poor vee-zee-TAY too luh kohm-PLEX",
+      "formality": "polite",
+      "cultural_note": "Allow at least 3-4 hours to see the main highlights, or a full day if you want to explore every wing. The complex includes the tomb, medieval arms, WWI/WWII galleries, and the Musée des Plans-Reliefs with its large-scale city models.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Allow at least two hours for the whole complex.",
+          "phonetic": "kohn-TAY oh mwahn duh zuhr poor lahn-SAHM-bluh",
+          "french": "Comptez au moins deux heures pour l'ensemble."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Tomb",
+      "word_local": "Tombeau",
+      "pronunciation": "tohm-BOH"
+    },
+    {
+      "word_en": "Dome",
+      "word_local": "Dôme",
+      "pronunciation": "DOHM"
+    },
+    {
+      "word_en": "Armor",
+      "word_local": "Armure",
+      "pronunciation": "ar-MOOR"
+    },
+    {
+      "word_en": "Sword",
+      "word_local": "Épée",
+      "pronunciation": "ay-PAY"
+    },
+    {
+      "word_en": "Military",
+      "word_local": "Militaire",
+      "pronunciation": "mee-lee-TEHR"
+    },
+    {
+      "word_en": "Wing (of museum)",
+      "word_local": "Aile",
+      "pronunciation": "el"
+    },
+    {
+      "word_en": "Medal",
+      "word_local": "Médaille",
+      "pronunciation": "may-DI-yuh"
+    },
+    {
+      "word_en": "Cannon",
+      "word_local": "Canon",
+      "pronunciation": "kah-NOHN"
+    }
+  ]
+}

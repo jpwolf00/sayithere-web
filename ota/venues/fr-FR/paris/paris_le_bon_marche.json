@@ -1,0 +1,135 @@
+{
+  "id": "venue_le_bon_marche",
+  "name_en": "Le Bon Marché",
+  "name_local": "Le Bon Marché",
+  "icon": "bag.fill",
+  "phrases": [
+    {
+      "id": "venue_le_bon_marche_001",
+      "intent_en": "Ask where La Grande Épicerie food hall is",
+      "text_local": "Où se trouve La Grande Épicerie, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV lah GRAHND ay-pee-suh-REE, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "La Grande Épicerie de Paris is the luxury food hall adjacent to Le Bon Marché on Rue de Sèvres. It sells exceptional French and international products — cheeses, charcuterie, pastries, wine, and prepared foods. It's one of the best food halls in the world and worth visiting even if you're not buying.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "La Grande Épicerie is in the building across the street.",
+          "phonetic": "lah grahnd ay-pee-suh-REE eh dahn luh bah-tee-MAHN dahn fass, duh loh-tr koh-TAY duh lah roo",
+          "french": "La Grande Épicerie est dans le bâtiment d'en face, de l'autre côté de la rue."
+        }
+      ]
+    },
+    {
+      "id": "venue_le_bon_marche_002",
+      "intent_en": "Ask where the women's designer section is",
+      "text_local": "Où se trouve le rayon mode femme créateurs ?",
+      "pronunciation": "oo suh TROOV luh ray-YOHN mohd FAM kray-ah-TUR",
+      "formality": "polite",
+      "cultural_note": "Le Bon Marché was founded in 1852 and is the oldest department store in Paris. It's less touristy than Galeries Lafayette or Printemps, with a more curated, Left Bank aesthetic. The store carries a discerning selection of luxury French and international designers across multiple floors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Women's designers are on the first floor.",
+          "phonetic": "lay kray-ah-TUHR fam sohn toh pruh-MYAY ay-TAHZH",
+          "french": "Les créateurs femme sont au premier étage."
+        }
+      ]
+    },
+    {
+      "id": "venue_le_bon_marche_003",
+      "intent_en": "Ask about the tax refund process for non-EU visitors",
+      "text_local": "Comment fonctionne le remboursement de TVA pour les visiteurs hors UE ?",
+      "pronunciation": "koh-MAHN fohnk-SYOHN luh ruhm-boors-MAHN duh tay-vay-AH poor lay vee-zee-TUR OR oo-AY",
+      "formality": "polite",
+      "cultural_note": "Non-EU visitors can claim a VAT refund (détaxe) on purchases over €100.01 in a single store. Le Bon Marché has a dedicated tax refund desk. You need your passport and the refund forms (bordereau de vente à l'exportation) completed by the store, then validated at the airport.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The tax refund desk is on the ground floor. Bring your passport.",
+          "phonetic": "luh boo-ROH duh day-TAHKS eh toh ray-duh-shoh-SAY. ah-por-TAY votr pahs-POR",
+          "french": "Le bureau de détaxe est au rez-de-chaussée. Apportez votre passeport."
+        }
+      ]
+    },
+    {
+      "id": "venue_le_bon_marche_004",
+      "intent_en": "Ask if there is a personal shopping service",
+      "text_local": "Proposez-vous un service de personal shopping ?",
+      "pronunciation": "proh-poh-ZAY voo uhn sehr-VEES duh per-soh-NAL shop-PEENG",
+      "formality": "polite",
+      "cultural_note": "Le Bon Marché offers a complimentary personal shopping service where a stylist helps you navigate the store and find items that match your needs and budget. This is particularly useful for the luxury goods and designer sections and available in multiple languages.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, personal shopping is by appointment on the second floor.",
+          "phonetic": "wee, luh pehr-soh-NAL shoh-PEENG eh soor rahn-day-VOO oh duh-ZYEM ay-TAHZH",
+          "french": "Oui, le personal shopping est sur rendez-vous au deuxième étage."
+        }
+      ]
+    },
+    {
+      "id": "venue_le_bon_marche_005",
+      "intent_en": "Ask if they can ship purchases to a hotel",
+      "text_local": "Pouvez-vous livrer mes achats à mon hôtel ?",
+      "pronunciation": "poo-VAY voo lee-VRAY may ah-SHAH ah mohn oh-TEL",
+      "formality": "polite",
+      "cultural_note": "Le Bon Marché offers same-day delivery within Paris and can ship purchases to hotels or internationally. Larger luxury purchases can also be gift-wrapped in the store's distinctive signature packaging, which has become an icon of Parisian style in itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, we can send your purchases. Ask at customer service.",
+          "phonetic": "wee, ohn puh ahn-vwah-YAY voz ah-SHAH. duh-mahn-DAY oh sehr-VEES klee-AHN",
+          "french": "Oui, on peut envoyer vos achats. Demandez au service client."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Department store",
+      "word_local": "Grand magasin",
+      "pronunciation": "grahn mah-gah-ZEHN"
+    },
+    {
+      "word_en": "Food hall",
+      "word_local": "Grande épicerie",
+      "pronunciation": "GRAHND ay-pee-suh-REE"
+    },
+    {
+      "word_en": "Department / Section",
+      "word_local": "Rayon",
+      "pronunciation": "ray-YOHN"
+    },
+    {
+      "word_en": "Tax refund",
+      "word_local": "Détaxe",
+      "pronunciation": "day-TAKS"
+    },
+    {
+      "word_en": "Designer",
+      "word_local": "Créateur",
+      "pronunciation": "kray-ah-TUR"
+    },
+    {
+      "word_en": "Personal shopper",
+      "word_local": "Personal shopper",
+      "pronunciation": "per-soh-NAL shop-UR"
+    },
+    {
+      "word_en": "Gift wrapping",
+      "word_local": "Emballage cadeau",
+      "pronunciation": "ahm-bah-LAHZH kah-DOH"
+    },
+    {
+      "word_en": "Fitting room",
+      "word_local": "Cabine d'essayage",
+      "pronunciation": "kah-BEEN des-eh-YAHZH"
+    }
+  ]
+}

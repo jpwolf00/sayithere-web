@@ -1,0 +1,122 @@
+{
+  "id": "bern_kornhausplatz_metro_stop",
+  "name_en": "Kornhausplatz Metro Stop",
+  "name_local": "Kornhausplatz",
+  "icon": "tram",
+  "lat": 46.9487177,
+  "lon": 7.447563,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bern_kornhausplatz_metro_stop_001",
+      "intent_en": "Group discount for multiple tickets",
+      "text_local": "Gibt es einen Gruppentarif?",
+      "pronunciation": "EEpt-ehs-rUHpuhnstAHtuhng",
+      "formality": "standard",
+      "cultural_note": "Group discounts in Swiss public transport are typically confirmed at staffed counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter gibt es Rabatte.",
+        "pronunciation": "ahm-shAHlt-gEEpt-ehs-rAHbahtuh",
+        "translation_en": "At the counter there are discounts."
+      },
+      "responses": [
+        {
+          "english": "At the counter there are discounts.",
+          "phonetic": "ahm-shAHlt-gEEpt-ehs-rAHbahtuh",
+          "french": "Am Schalter gibt es Rabatte."
+        }
+      ]
+    },
+    {
+      "id": "bern_kornhausplatz_metro_stop_002",
+      "intent_en": "Catch tram line 5 to main station",
+      "text_local": "Wo fährt die Linie 5 ab?",
+      "pronunciation": "vOH-fEHrt-dee-lEEnee-uh-fUEnf-AHp",
+      "formality": "standard",
+      "cultural_note": "Swiss tram stations rely on signage for line-specific platforms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 3.",
+        "pronunciation": "glEYEs-drEYE",
+        "translation_en": "Platform 3."
+      },
+      "responses": [
+        {
+          "english": "Platform 3.",
+          "phonetic": "glEYEs-drEYE",
+          "french": "Gleis 3."
+        }
+      ]
+    },
+    {
+      "id": "bern_kornhausplatz_metro_stop_003",
+      "intent_en": "Validate ticket at BernTicket machine",
+      "text_local": "Wo kann ich das BernTicket entwerten?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtOWtohmAHt",
+      "formality": "standard",
+      "cultural_note": "Automaten are typically grouped near entrances or platform access points in Swiss transport hubs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten auf dem Bahnsteig.",
+        "pronunciation": "ahm-OWtohmAHtuhn-owf-dehm-bAHnsteyek",
+        "translation_en": "At the machine on the platform."
+      },
+      "responses": [
+        {
+          "english": "At the machine on the platform.",
+          "phonetic": "ahm-OWtohmAHtuhn-owf-dehm-bAHnsteyek",
+          "french": "Am Automaten auf dem Bahnsteig."
+        }
+      ]
+    },
+    {
+      "id": "bern_kornhausplatz_metro_stop_004",
+      "intent_en": "Tap contactless at platform reader",
+      "text_local": "Wo ist der Kontaktlosleser?",
+      "pronunciation": "vOH-ihst-dehr-kawntAHktlawsluhs",
+      "formality": "standard",
+      "cultural_note": "Contactless readers in Swiss tram stations are usually mounted on pillars near platform edges.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Säulen.",
+        "pronunciation": "ahn-dehn-zAWuhluhn",
+        "translation_en": "At the pillars."
+      },
+      "responses": [
+        {
+          "english": "At the pillars.",
+          "phonetic": "ahn-dehn-zAWuhluhn",
+          "french": "An den Säulen."
+        }
+      ]
+    },
+    {
+      "id": "bern_kornhausplatz_metro_stop_005",
+      "intent_en": "Check Swiss Travel Pass acceptance",
+      "text_local": "Wird der Swiss Travel Pass akzeptiert?",
+      "pronunciation": "vIHrt-dehr-svIHs-trAHvuhl-pAHs-AHktsehptEErt",
+      "formality": "standard",
+      "cultural_note": "Swiss Travel Pass validity is checked at staffed counters or with controllers, not machines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "olympia_praxitelous_street_shops",
+  "name_en": "Praxitelous Street Shops",
+  "name_local": "Καταστήματα Οδού Πραξιτέλους",
+  "icon": "bag",
+  "lat": 37.6382503,
+  "lon": 21.630566,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "olympia_praxitelous_street_shops_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς ζυγίζω τα προϊόντα;",
+      "pronunciation": "pOHz-zeeyEEzoh-tah-prohihOHdah",
+      "formality": "standard",
+      "cultural_note": "Self-service scales are common in grocery sections of shops.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στα μέλια, κοντά στο ταμείο.",
+        "pronunciation": "thEEplah-stah-mEHlyahkohdAH-stoh-tahmEEoh",
+        "translation_en": "Hello, the scale is at the back next to the local honeys, near the cash register counter."
+      },
+      "responses": [
+        {
+          "english": "Hello, the scale is at the back next to the local honeys, near the cash register counter.",
+          "phonetic": "thEEplah-stah-mEHlyahkohdAH-stoh-tahmEEoh",
+          "french": "Δίπλα στα μέλια, κοντά στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_praxitelous_street_shops_002",
+      "intent_en": "Cash or card for handwoven textiles?",
+      "text_local": "Πληρώνω με μετρητά ή κάρτα για τα υφαντά;",
+      "pronunciation": "pleerOHnoh-meh-mEHtreetAH-ee-kAHrtah-yAH-tah-EEfahdAH",
+      "formality": "standard",
+      "cultural_note": "Payment methods vary by shop size; haggling may be expected for crafts.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Κάρτα στα μεγάλα, μετρητά στα μικρά.",
+        "pronunciation": "kAHrtah-stah-mehghAHlahmEHtreetAH-stah-meekrAH",
+        "translation_en": "Card at large shops, cash at small ones."
+      },
+      "responses": [
+        {
+          "english": "Card at large shops, cash at small ones.",
+          "phonetic": "kAHrtah-stah-mehghAHlahmEHtreetAH-stah-meekrAH",
+          "french": "Κάρτα στα μεγάλα, μετρητά στα μικρά."
+        }
+      ]
+    },
+    {
+      "id": "olympia_praxitelous_street_shops_003",
+      "intent_en": "Is tax refund form available at this shop?",
+      "text_local": "Έχετε έντυπο επιστροφής φόρου;",
+      "pronunciation": "EHkhehtEH-EHdeepOH-EHpeestrohfEEs-fOHroo",
+      "formality": "standard",
+      "cultural_note": "Tax refund forms are typically provided upon request at larger shops.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ζητήστε στον υπάλληλο.",
+        "pronunciation": "nEHzeetEEsteh-stohn-eepAHleelOH",
+        "translation_en": "Yes, ask the shop assistant."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the shop assistant.",
+          "phonetic": "nEHzeetEEsteh-stohn-eepAHleelOH",
+          "french": "Ναι, ζητήστε στον υπάλληλο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_praxitelous_street_shops_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το κατάστημα με τα ελαιοξύλα;",
+      "pronunciation": "pOO-EEneh-toh-kahtAHsteemAH-meh-tah-EHlehohksEElah",
+      "formality": "standard",
+      "cultural_note": "Stores may not have signage in a foreign language. Staff assistance is expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στο κατάστημα με τα κοσμήματα.",
+        "pronunciation": "thEEplah-stoh-kahtAHsteemAH-meh-tah-kohsmEEmahtAH",
+        "translation_en": "The shop with the olive wood carvings is a little farther down, on the same side of the street."
+      },
+      "responses": [
+        {
+          "english": "The shop with the olive wood carvings is a little farther down, on the same side of the street.",
+          "phonetic": "thEEplah-stoh-kahtAHsteemAH-meh-tah-kohsmEEmahtAH",
+          "french": "Δίπλα στο κατάστημα με τα κοσμήματα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

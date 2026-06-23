@@ -1,0 +1,78 @@
+{
+  "id": "amsterdam_kalverstraat_shopping_street",
+  "name_en": "Kalverstraat Shopping Street",
+  "name_local": "Kalverstraat",
+  "icon": "bag",
+  "lat": 52.3698825,
+  "lon": 4.891307,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "amsterdam_kalverstraat_shopping_street_001",
+      "intent_en": "Ask if Munttoren flower market takes cash",
+      "text_local": "Neemt de Bloemenmarkt pinpas aan?",
+      "pronunciation": "nEHm-tuh-blOOmuhnmAHrkt-pIHnpahs-AHn",
+      "formality": "standard",
+      "cultural_note": "Bloemenmarkt near Muntplein is a traditional market where both cash and card payments are common.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Cash en pin mogelijk.",
+        "pronunciation": "kAHsh-ehn-pIHn-mOHghuhluhk",
+        "translation_en": "Cash and pin accepted."
+      },
+      "responses": [
+        {
+          "english": "Cash and pin accepted.",
+          "phonetic": "kAHsh-ehn-pIHn-mOHghuhluhk",
+          "french": "Cash en pin mogelijk."
+        }
+      ]
+    },
+    {
+      "id": "amsterdam_kalverstraat_shopping_street_002",
+      "intent_en": "Ask how flagship store queue works",
+      "text_local": "Hoe werkt de rij bij de flagship store?",
+      "pronunciation": "hOO-vEHrk-tuh-rEHih-behih-duh-flAHkhshihp-stOHruh",
+      "formality": "standard",
+      "cultural_note": "Flagship stores in Kalverstraat often prioritize in-store browsing before proceeding to checkout.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Eerst binnen, dan aan de kassa.",
+        "pronunciation": "IHrst-bIHnuhndAHn-ahn-duh-kAHsah",
+        "translation_en": "First in-store, then at the till."
+      },
+      "responses": [
+        {
+          "english": "First in-store, then at the till.",
+          "phonetic": "IHrst-bIHnuhndAHn-ahn-duh-kAHsah",
+          "french": "Eerst binnen, dan aan de kassa."
+        }
+      ]
+    },
+    {
+      "id": "amsterdam_kalverstraat_shopping_street_003",
+      "intent_en": "Ask where Amsterdam Museum entrance is",
+      "text_local": "Waar is de ingang van het Amsterdam Museum?",
+      "pronunciation": "vAHr-ihs-duh-IHnghAHng-vahn-huht-AHmstuhrdAHm-mUEzEHm",
+      "formality": "standard",
+      "cultural_note": "Amsterdam Museum's entrance is often marked by a distinctive canal-side door in a historic building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Voor de grote deur aan de gracht.",
+        "pronunciation": "vawr-duh-ghrOHtuh-dUHr-ahn-duh-ghrAHkht",
+        "translation_en": "In front of the large door by the canal."
+      },
+      "responses": [
+        {
+          "english": "In front of the large door by the canal.",
+          "phonetic": "vawr-duh-ghrOHtuh-dUHr-ahn-duh-ghrAHkht",
+          "french": "Voor de grote deur aan de gracht."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

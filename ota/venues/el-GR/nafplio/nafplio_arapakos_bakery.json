@@ -1,0 +1,100 @@
+{
+  "id": "nafplio_arapakos_bakery",
+  "name_en": "Arapakos Bakery",
+  "name_local": "Αρτάκος",
+  "icon": "fork.knife",
+  "lat": 37.5659229,
+  "lon": 22.8068782,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "nafplio_arapakos_bakery_001",
+      "intent_en": "Can I get a take-away bag for phyllo pastries?",
+      "text_local": "Μπορώ να πάρω σακούλα για τα φύλλα;",
+      "pronunciation": "EHkhehtEH-sahkOOlah-yAH-fEElah",
+      "formality": "standard",
+      "cultural_note": "Take-away bags are standard at Greek bakeries but may need to be requested explicitly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στην άκρη, πάρε μία.",
+        "pronunciation": "nEHsteen-AHkreepAHreh-mEEah",
+        "translation_en": "Yes, at the side, take one."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the side, take one.",
+          "phonetic": "nEHsteen-AHkreepAHreh-mEEah",
+          "french": "Ναι, στην άκρη, πάρε μία."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_arapakos_bakery_002",
+      "intent_en": "How do I point-order at the counter?",
+      "text_local": "Πώς παραγγέλνω δείχνοντας;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-thEEkhnohdAHs",
+      "formality": "standard",
+      "cultural_note": "Point-and-choose is common in Greek bakeries. Staff expect customers to point at items and name them.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δείξτε και πείτε στον υπάλληλο.",
+        "pronunciation": "thEEksteh-keh-pEEteh-stohn-eepAHleelOH",
+        "translation_en": "Point and tell the baker."
+      },
+      "responses": [
+        {
+          "english": "Point and tell the baker.",
+          "phonetic": "thEEksteh-keh-pEEteh-stohn-eepAHleelOH",
+          "french": "Δείξτε και πείτε στον υπάλληλο."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_arapakos_bakery_003",
+      "intent_en": "Is bougatsa cream pie still available now?",
+      "text_local": "Υπάρχει ακόμα μπουγάτσα;",
+      "pronunciation": "eepAHrkhee-ahkOHmah-booghAHtsah",
+      "formality": "standard",
+      "cultural_note": "In small local bakeries, staff may confirm availability by checking behind the counter or in the display case.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει.",
+        "pronunciation": "nEHeepAHrkhee",
+        "translation_en": "Yes, it's available."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's available.",
+          "phonetic": "nEHeepAHrkhee",
+          "french": "Ναι, υπάρχει."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_arapakos_bakery_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει χώρος για να φάω το κουλούρι;",
+      "pronunciation": "EHkhehtEH-mEHrohz-nah-fAHoh-toh-koolOOree",
+      "formality": "standard",
+      "cultural_note": "Many Greek bakeries are take-away only. Seating may be limited or require confirmation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δίπλα στον πάγκο των γλυκών.",
+        "pronunciation": "nEHthEEplah-stohm-bAHnggoh-tohn-ghleekOHn",
+        "translation_en": "Hello, yes, there is a small table next to the dessert counter, but in the morning there is a queue and you may need to wait a bit."
+      },
+      "responses": [
+        {
+          "english": "Hello, yes, there is a small table next to the dessert counter, but in the morning there is a queue and you may need to wait a bit.",
+          "phonetic": "nEHthEEplah-stohm-bAHnggoh-tohn-ghleekOHn",
+          "french": "Ναι, δίπλα στον πάγκο των γλυκών."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "rouen_aitre_saint_maclou",
+  "name_en": "Aître Saint-Maclou (Black Death Ossuary)",
+  "name_local": "Aître Saint-Maclou",
+  "icon": "building.columns",
+  "lat": 49.4407,
+  "lon": 1.0975,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "rouen_aitre_001",
+      "intent_en": "Ask what time the site opens",
+      "text_local": "À quelle heure ouvre le site ?",
+      "pronunciation": "ah kel UR OOV-ruh luh SEET",
+      "formality": "polite",
+      "cultural_note": "The Aître Saint-Maclou is a unique medieval courtyard that has been restored.",
+      "responses": [
+        {
+          "english": "The hours are posted at the entrance.",
+          "phonetic": "lay zoh-RAIR sohn tah-fee-SHAY ah lahn-TRAY",
+          "french": "Les horaires sont affichés à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_aitre_002",
+      "intent_en": "Ask if entry is free",
+      "text_local": "L'entrée est gratuite ?",
+      "pronunciation": "lahn-TRAY eh grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The Aître Saint-Maclou courtyard is free to visit.",
+      "responses": [
+        {
+          "english": "Yes, it is free.",
+          "phonetic": "wee say grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_aitre_003",
+      "intent_en": "Ask if the site is currently used as an art school",
+      "text_local": "Est-ce que ce bâtiment abrite toujours une école des beaux-arts ?",
+      "pronunciation": "ess kuh suh bah-tee-MAHN ah-BREET too-ZHOOR oon ay-KOL day boh-ZAR",
+      "formality": "polite",
+      "cultural_note": "The Aître today houses Rouen's regional school of art. The quiet courtyard is accessible to visitors during the day, creating an unusual contrast between student art works and the medieval ossuary carvings.",
+      "responses": [
+        {
+          "english": "Yes, there are artisan workshops.",
+          "phonetic": "wee eel ee ah day zah-tuh-LYAY dar-tee-ZAHN",
+          "french": "Oui, il y a des ateliers d'artisans."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_aitre_004",
+      "intent_en": "Ask where to find the mummified cat",
+      "text_local": "Où se trouve le chat momifié exposé dans ce lieu ?",
+      "pronunciation": "oo suh TROOV luh SHAH moh-mee-FYAY ex-poh-ZAY dahn suh LYUH",
+      "formality": "polite",
+      "cultural_note": "A naturally mummified cat and rat, walled in during construction, were discovered during 20th-century restoration. Cats were sometimes deliberately sealed into buildings as talismans to ward off plague or evil spirits.",
+      "responses": [
+        {
+          "english": "In the gallery at the back, top left.",
+          "phonetic": "dahn lah gah-luh-REE doo FOHN ahn OH ah GOHSH",
+          "french": "Dans la galerie du fond, en haut à gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_aitre_005",
+      "intent_en": "Ask about opening hours",
+      "text_local": "Quels sont les horaires d'ouverture de l'Aître Saint-Maclou ?",
+      "pronunciation": "kel sohn lay oh-RAIR doo-vair-TOOR duh lET-ruh san-mah-KLOO",
+      "formality": "polite",
+      "cultural_note": "Entry to the courtyard is free and access is generally possible during school hours on weekdays. The site is one of Rouen's most unique and haunting attractions — often missed by visitors focused on the cathedral area.",
+      "responses": [
+        {
+          "english": "The hours are posted at the entrance.",
+          "phonetic": "lay zoh-RAIR sohn tah-fee-SHAY ah lahn-TRAY",
+          "french": "Les horaires sont affichés à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Black Death",
+      "word_local": "la Peste Noire",
+      "pronunciation": "lah PEST NWAHR"
+    },
+    {
+      "word_en": "skull",
+      "word_local": "le crâne",
+      "pronunciation": "luh KRAHN"
+    },
+    {
+      "word_en": "charnel house",
+      "word_local": "le charnier",
+      "pronunciation": "luh shar-NYAY"
+    },
+    {
+      "word_en": "carved wood",
+      "word_local": "le bois sculpté",
+      "pronunciation": "luh BWAH skoolp-TAY"
+    }
+  ]
+}

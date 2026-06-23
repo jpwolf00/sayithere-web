@@ -1,0 +1,115 @@
+{
+  "id": "menton_gare",
+  "name_en": "Menton Train Station",
+  "name_local": "Gare de Menton",
+  "icon": "tram",
+  "phrases": [
+    {
+      "id": "menton_gare_italie",
+      "intent_en": "Is this train going to Ventimiglia?",
+      "text_local": "Ce train va à Vintimille ?",
+      "pronunciation": "suh trahn va ah van-tee-MEEL",
+      "formality": "polite",
+      "cultural_note": "Menton–Ventimiglia crossings are common; verify destination and stops before boarding.",
+      "responses": [
+        {
+          "english": "Yes, direction Ventimiglia.",
+          "phonetic": "wee, dee-rek-SYOHN vehn-tee-MEE-yuh",
+          "french": "Oui, direction Vintimille."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "menton_gare_nice",
+      "intent_en": "What time is the next train to Nice?",
+      "text_local": "À quelle heure est le prochain train pour Nice ?",
+      "pronunciation": "ah kel UR eh luh pro-SHEN trahn poor neess",
+      "formality": "polite",
+      "cultural_note": "Regional trains to Nice run frequently but can get crowded in peak beach hours.",
+      "responses": [
+        {
+          "english": "In thirty minutes.",
+          "phonetic": "dahn TRAHNT mee-NOOT",
+          "french": "Dans trente minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "menton_gare_ticket",
+      "intent_en": "Where can I buy a TER ticket?",
+      "text_local": "Où puis-je acheter un billet TER ?",
+      "pronunciation": "oo pwee-zh ah-shuh-TAY uhn bee-YAY tay-air",
+      "formality": "polite",
+      "cultural_note": "Ticket machines may have language options; counters can have limited hours.",
+      "responses": [
+        {
+          "english": "At the machine, on the platform.",
+          "phonetic": "ah loh-toh-MAT, soor luh KEH",
+          "french": "À l'automate, sur le quai."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "menton_gare_quai",
+      "intent_en": "Which platform should I use?",
+      "text_local": "Je dois aller sur quel quai ?",
+      "pronunciation": "zhuh dwah zah-LAY sur kel kay",
+      "formality": "polite",
+      "cultural_note": "Platform changes can happen close to departure time—watch screens and announcements.",
+      "responses": [
+        {
+          "english": "Platform number one.",
+          "phonetic": "vwah noo-may-ROH UHN",
+          "french": "Voie numéro un."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "menton_gare_bus",
+      "intent_en": "Where is the bus stop for old town?",
+      "text_local": "L'arrêt de bus pour la vieille ville est où ?",
+      "pronunciation": "lah-RAY duh bewss poor lah vee-EY veel eh oo",
+      "formality": "polite",
+      "cultural_note": "Old town access often combines short bus ride + uphill walk.",
+      "responses": [
+        {
+          "english": "At the exit, turn right.",
+          "phonetic": "ah lah sor-TEE, toor-NAY ah DRWAHT",
+          "french": "À la sortie, tournez à droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "train station",
+      "word_local": "la gare",
+      "pronunciation": "lah gar"
+    },
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "luh kay"
+    },
+    {
+      "word_en": "regional train",
+      "word_local": "le TER",
+      "pronunciation": "luh tay-air"
+    },
+    {
+      "word_en": "old town",
+      "word_local": "la vieille ville",
+      "pronunciation": "lah vee-EY veel"
+    }
+  ]
+}

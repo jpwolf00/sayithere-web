@@ -1,0 +1,56 @@
+{
+  "id": "corfu_archaeological_museum_of_corfu",
+  "name_en": "Archaeological Museum of Corfu",
+  "name_local": "Αρχαιολογικό Μουσείο Κέρκυρας",
+  "icon": "building.columns",
+  "lat": 39.6189423,
+  "lon": 19.922085,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "corfu_archaeological_museum_of_corfu_001",
+      "intent_en": "Is flash photography allowed inside?",
+      "text_local": "Επιτρέπεται η φωτογράφιση με φλας;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-fOHtohghrAHfeesEE-meh-flAHs",
+      "formality": "standard",
+      "cultural_note": "Museums in Greece typically enforce no-flash photography to protect artifacts. The rule aligns with standard conservation practices.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, forbidden."
+      },
+      "responses": [
+        {
+          "english": "No, forbidden.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "corfu_archaeological_museum_of_corfu_002",
+      "intent_en": "Where can I buy guided tour tickets?",
+      "text_local": "Πού μπορώ να αγοράσω εισιτήρια ξενάγησης;",
+      "pronunciation": "pOO-bohrOH-n-AHghohrAHsoh-EEseetEEreeAH-ksehnAHyeesEEs",
+      "formality": "polite",
+      "cultural_note": "The cashier (ταμίας) handles ticket sales, including guided tours. Avoid assuming a separate booking desk unless specified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον ταμία.",
+        "pronunciation": "rohtEEsteh-stohn-dahmEEah",
+        "translation_en": "Ask the cashier."
+      },
+      "responses": [
+        {
+          "english": "Ask the cashier.",
+          "phonetic": "rohtEEsteh-stohn-dahmEEah",
+          "french": "Ρωτήστε στον ταμία."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

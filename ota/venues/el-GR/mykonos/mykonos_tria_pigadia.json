@@ -1,0 +1,78 @@
+{
+  "id": "mykonos_tria_pigadia",
+  "name_en": "Tria Pigadia",
+  "name_local": "Τρία Πηγάδια",
+  "icon": "map",
+  "lat": 36.7301822,
+  "lon": 24.5365655,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "mykonos_tria_pigadia_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να κλείσω ξενάγηση εδώ;",
+      "pronunciation": "bohrOH-nah-klEEsoh-ksehnAHyeesEE-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Tour guides are the designated point for booking walking tours in the area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο γραφείο δεξιά της εισόδου.",
+        "pronunciation": "nEHstoh-ghrahfEEoh-thEHkseeAH-tees-eesOHthoo",
+        "translation_en": "Yes, speak with the guide in the square."
+      },
+      "responses": [
+        {
+          "english": "Yes, speak with the guide in the square.",
+          "phonetic": "nEHstoh-ghrahfEEoh-thEHkseeAH-tees-eesOHthoo",
+          "french": "Ναι, στο γραφείο δεξιά της εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_tria_pigadia_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω πόσιμο νερό εδώ;",
+      "pronunciation": "pOO-bohrOH-nah-vrOH-pOHseemOH-nehrOH-ehthOH",
+      "formality": "polite",
+      "cultural_note": "Historic wells are cultural landmarks; locals advise against dropping coins and can direct to safe drinking water sources.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κέντρο, από τη βρύση στην πλατεία.",
+        "pronunciation": "stoh-EHdrohahpOH-tee-vrEEsee-steem-blahtEEah",
+        "translation_en": "The only safe water is from the taps in the center, toward the square. The three wells are for display only."
+      },
+      "responses": [
+        {
+          "english": "The only safe water is from the taps in the center, toward the square. The three wells are for display only.",
+          "phonetic": "stoh-EHdrohahpOH-tee-vrEEsee-steem-blahtEEah",
+          "french": "Στο κέντρο, από τη βρύση στην πλατεία."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_tria_pigadia_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η είσοδος του Ναυτικού Μουσείου Αιγαίου;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-too-nAHfteekOO-moosEEoo-ehyEHoo",
+      "formality": "standard",
+      "cultural_note": "Local staff are expected to provide straightforward directions to the museum entrance without additional elaboration.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα μας, στην πλατεία Τριών Πηγαδιών.",
+        "pronunciation": "thEEplah-mahssteem-blahtEEah-treeOHm-bEEghahtheeOHn",
+        "translation_en": "Up on the corner, next to Tria Pigadia."
+      },
+      "responses": [
+        {
+          "english": "Up on the corner, next to Tria Pigadia.",
+          "phonetic": "thEEplah-mahssteem-blahtEEah-treeOHm-bEEghahtheeOHn",
+          "french": "Δίπλα μας, στην πλατεία Τριών Πηγαδιών."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

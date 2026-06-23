@@ -1,0 +1,122 @@
+{
+  "id": "athens_mount_lycabettus",
+  "name_en": "Mount Lycabettus",
+  "name_local": "Λυκαβηττός",
+  "icon": "leaf",
+  "lat": 37.9818701,
+  "lon": 23.7432387,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "athens_mount_lycabettus_001",
+      "intent_en": "Can I reserve summit restaurant table tonight",
+      "text_local": "Μπορώ να κλείσω τραπέζι στο εστιατόριο σήμερα βράδυ;",
+      "pronunciation": "bohrOH-nah-klEEsoh-trahpEHzee-stoh-EHsteeahtOHreeOH-sEEmehrAH-vrAHthee",
+      "formality": "standard",
+      "cultural_note": "Οι κρατήσεις εστιατορίου στο Λυκαβηττό συχνά γίνονται επί τόπου λόγω περιορισμένου χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, τηλεφωνήστε στο εστιατόριο.",
+        "pronunciation": "nEHtEElehfohnEEsteh-stoh-EHsteeahtOHreeOH",
+        "translation_en": "Ask the restaurant server."
+      },
+      "responses": [
+        {
+          "english": "Ask the restaurant server.",
+          "phonetic": "nEHtEElehfohnEEsteh-stoh-EHsteeahtOHreeOH",
+          "french": "Ναι, τηλεφωνήστε στο εστιατόριο."
+        }
+      ]
+    },
+    {
+      "id": "athens_mount_lycabettus_002",
+      "intent_en": "Where does funicular ascend from Kolonaki",
+      "text_local": "Πού ξεκινά το τελεφερίκ από την Κολονάκι;",
+      "pronunciation": "pOO-ksEHeenAH-toh-tEHlehfehrEEk-ahpOH-teeng-gOHlohnAHee",
+      "formality": "standard",
+      "cultural_note": "Οι ταξιδιώτες συχνά αναζητούν την είσοδο του τελεφερίκ στην περιοχή Κολονάκι, ωστόσο η ακριβής τοποθεσία δεν αναφέρεται στον χώρο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την οδό Αριστίππου, στη βάση του λόφου.",
+        "pronunciation": "ahpOH-teen-ohthOH-AHreestEEpoostee-vAHsee-too-lOHfoo",
+        "translation_en": "From Aristippou Street, at the base of the hill."
+      },
+      "responses": [
+        {
+          "english": "From Aristippou Street, at the base of the hill.",
+          "phonetic": "ahpOH-teen-ohthOH-AHreestEEpoostee-vAHsee-too-lOHfoo",
+          "french": "Από την οδό Αριστίππου, στη βάση του λόφου."
+        }
+      ]
+    },
+    {
+      "id": "athens_mount_lycabettus_003",
+      "intent_en": "Where is Chapel of St George donation box",
+      "text_local": "Πού είναι το κουτί εισφορών της Εκκλησίας του Αγίου Γεωργίου;",
+      "pronunciation": "pOO-EEneh-toh-kootEE-EEsfohrOHn-dees-EHkleesEEahs-too-ahyEEoo-yohryEEoo",
+      "formality": "standard",
+      "cultural_note": "Η παράδοση θέλει τις εισφορές μέσα στον Ναό, αλλά η τοποθέτηση δεν αναφέρεται συγκεκριμένα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μέσα στον Ναό.",
+        "pronunciation": "mEHsah-stohn-nahOH",
+        "translation_en": "Inside the chapel."
+      },
+      "responses": [
+        {
+          "english": "Inside the chapel.",
+          "phonetic": "mEHsah-stohn-nahOH",
+          "french": "Μέσα στον Ναό."
+        }
+      ]
+    },
+    {
+      "id": "athens_mount_lycabettus_004",
+      "intent_en": "How do I walk up instead of funicular",
+      "text_local": "Πώς μπορώ να ανέβω με τα πόδια;",
+      "pronunciation": "pOHz-bohrOH-n-ahnEHvoh-meh-tah-pOHthyah",
+      "formality": "standard",
+      "cultural_note": "Οι πεζοπορικοί δρόμοι στο Λυκαβηττό δεν είναι σαφώς σηματοδοτημένοι, οδηγώντας σε αβεβαιότητα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πάρτε το μονοπάτι πίσω από τον σταθμό.",
+        "pronunciation": "pAHrteh-toh-mOHnohpAHtee-pEEsoh-ahpOH-tohn-stahthmOH",
+        "translation_en": "Take the trail behind the station."
+      },
+      "responses": [
+        {
+          "english": "Take the trail behind the station.",
+          "phonetic": "pAHrteh-toh-mOHnohpAHtee-pEEsoh-ahpOH-tohn-stahthmOH",
+          "french": "Πάρτε το μονοπάτι πίσω από τον σταθμό."
+        }
+      ]
+    },
+    {
+      "id": "athens_mount_lycabettus_005",
+      "intent_en": "Is theatre showing performances this month",
+      "text_local": "Παίζεται το θέατρο αυτό τον μήνα;",
+      "pronunciation": "pEHzehtEH-toh-thEHahtrOH-ahftOH-tohn-mEEnah",
+      "formality": "standard",
+      "cultural_note": "Το θέατρο λειτουργεί κυρίως τους θερινούς μήνες, αλλά η ακριβής λειτουργία δεν αναφέρεται.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο υπαίθριο θέατρο Λυκαβηττού.",
+        "pronunciation": "nEHstoh-eepEHthreeOH-thEHahtrOH-lEEkahveetOO",
+        "translation_en": "Ask theatre staff."
+      },
+      "responses": [
+        {
+          "english": "Ask theatre staff.",
+          "phonetic": "nEHstoh-eepEHthreeOH-thEHahtrOH-lEEkahveetOO",
+          "french": "Ναι, στο υπαίθριο θέατρο Λυκαβηττού."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

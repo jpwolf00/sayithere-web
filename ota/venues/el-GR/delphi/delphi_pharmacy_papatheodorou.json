@@ -1,0 +1,78 @@
+{
+  "id": "delphi_pharmacy_papatheodorou",
+  "name_en": "Pharmacy Papatheodorou",
+  "name_local": "Φαρμακείο Παπαθεοδώρου",
+  "icon": "info.circle",
+  "lat": 41.1502706,
+  "lon": 24.1471537,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "delphi_pharmacy_papatheodorou_001",
+      "intent_en": "Where do I submit my prescription",
+      "text_local": "Πού παραδίδω την συνταγή;",
+      "pronunciation": "pOO-pAHrahthEEthoh-teen-sEEdahyEE",
+      "formality": "standard",
+      "cultural_note": "In Greek pharmacies, prescriptions are typically submitted at a dedicated counter where the pharmacist can process them.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο υποβολής συνταγών.",
+        "pronunciation": "stohm-bAHnggoh-EEpohvohlEEs-sEEdahghOHn",
+        "translation_en": "At the prescription counter."
+      },
+      "responses": [
+        {
+          "english": "At the prescription counter.",
+          "phonetic": "stohm-bAHnggoh-EEpohvohlEEs-sEEdahghOHn",
+          "french": "Στον πάγκο υποβολής συνταγών."
+        }
+      ]
+    },
+    {
+      "id": "delphi_pharmacy_papatheodorou_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Επιστρέφουν τα χρήματα για φάρμακα;",
+      "pronunciation": "bohrOH-nah-zeetEEsoh-EHpeestrohfEE-yAH-ahftOH-toh-fAHrmahkOH",
+      "formality": "standard",
+      "cultural_note": "Reimbursement processes in Greek pharmacies often require interaction with a dedicated desk or staff member, especially for social security-covered medications.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Αν είναι με ασφάλεια, ναι. Για επιστροφή χρημάτων χρειάζεται συνήθως απόδειξη.",
+        "pronunciation": "ahn-EEneh-meh-ahsfAHlyahnEHyAH-EHpeestrohfEE-khreemAHtohn-khrkhAHzehtEH-seenEEthohs-ahpOHtheeksEE",
+        "translation_en": "If it’s covered by insurance, yes. For a refund, you usually need the receipt."
+      },
+      "responses": [
+        {
+          "english": "If it’s covered by insurance, yes. For a refund, you usually need the receipt.",
+          "phonetic": "ahn-EEneh-meh-ahsfAHlyahnEHyAH-EHpeestrohfEE-khreemAHtohn-khrkhAHzehtEH-seenEEthohs-ahpOHtheeksEE",
+          "french": "Αν είναι με ασφάλεια, ναι. Για επιστροφή χρημάτων χρειάζεται συνήθως απόδειξη."
+        }
+      ]
+    },
+    {
+      "id": "delphi_pharmacy_papatheodorou_003",
+      "intent_en": "Where is the sunscreen section",
+      "text_local": "Πού είναι η γωνία των αντιηλιακών;",
+      "pronunciation": "pOO-EEneh-ee-ghohnEEah-tohn-AHdeeEElyahkOHn",
+      "formality": "standard",
+      "cultural_note": "Sunscreen and cosmetics are typically grouped together in Greek pharmacies for convenience.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην αίθουσα καλλυντικών.",
+        "pronunciation": "steen-EHthoosAH-kAHleedeekOHn",
+        "translation_en": "In the cosmetics section."
+      },
+      "responses": [
+        {
+          "english": "In the cosmetics section.",
+          "phonetic": "steen-EHthoosAH-kAHleedeekOHn",
+          "french": "Στην αίθουσα καλλυντικών."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

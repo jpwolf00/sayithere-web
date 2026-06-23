@@ -1,0 +1,97 @@
+{
+  "id": "florence_uffizi",
+  "name_en": "Uffizi Gallery",
+  "name_local": "Galleria degli Uffizi",
+  "icon": "building.columns",
+  "lat": 43.7683129,
+  "lon": 11.2558009,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "florence_uffizi_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, dov'è l'ingresso principale, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, doh-VEH ling-GRES-so preen-chee-PAH-leh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the main entrance, on the right.",
+          "phonetic": "ahll-'eenj-REH-ssoh preen-chee-PAH-leh AH DEH-strah",
+          "french": "All'ingresso principale, a destra."
+        }
+      ]
+    },
+    {
+      "id": "florence_uffizi_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, quanto costa il biglietto intero, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, KWAN-toh COS-tah eel bee-LYET-toh in-TEH-roh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is indicated at the ticket office.",
+          "phonetic": "È een-dee-KAH-toh AHL-lah beej-lee-eht-teh-REE-ah",
+          "french": "È indicato alla biglietteria."
+        }
+      ]
+    },
+    {
+      "id": "florence_uffizi_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, è necessaria la prenotazione per entrare?",
+      "pronunciation": "bwon-JOR-noh, eh nech-ess-SAH-ryah lah preh-no-tah-TSYOH-neh per en-TRAH-reh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, booking is mandatory.",
+          "phonetic": "SÌ LAH preh-noh-tah-tsee-OH-neh È ohbb-lee-gah-toh-REE-ah",
+          "french": "Sì, la prenotazione è obbligatoria."
+        }
+      ]
+    },
+    {
+      "id": "it_uff_fi_x1",
+      "intent_en": "Ask which room has Botticelli's Birth of Venus",
+      "text_local": "Scusi, in quale sala si trova la Nascita di Venere?",
+      "pronunciation": "SKOO-zee, een KWAH-leh SAH-lah see TROH-vah lah nah-SHEE-tah dee VEH-neh-reh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In rooms ten and eleven, second corridor.",
+          "phonetic": "NEL-lah SAH-lah DYEH-chee eh OON-dee-chee, seh-KON-doh kor-ree-DOH-yoh.",
+          "french": "Nella Sala dieci e undici, secondo corridoio."
+        }
+      ]
+    },
+    {
+      "id": "it_uff_fi_x2",
+      "intent_en": "Ask how long a visit typically takes",
+      "text_local": "Scusi, quanto tempo ci vuole mediamente per visitare gli Uffizi?",
+      "pronunciation": "SKOO-zee, KWAN-toh TEM-poh chee VWOH-leh meh-dyah-MEN-teh per vee-zee-TAH-reh lyee oof-FEE-tsee?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About three hours for a complete visit.",
+          "phonetic": "treh OH-reh CHEER-kah per OO-nah VEE-zee-tah kom-PLEH-tah.",
+          "french": "Tre ore circa per una visita completa."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

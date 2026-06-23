@@ -1,0 +1,78 @@
+{
+  "id": "hydra_pharmacy_of_eleni_papadopoulou",
+  "name_en": "Pharmacy of Eleni Papadopoulou",
+  "name_local": "Φαρμακείο Ελένης Παπαδοπούλου",
+  "icon": "info.circle",
+  "lat": 37.3321076,
+  "lon": 23.4664237,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "hydra_pharmacy_of_eleni_papadopoulou_001",
+      "intent_en": "Can I get a VAT receipt",
+      "text_local": "Έχετε απόδειξη με ΦΠΑ;",
+      "pronunciation": "thah-pAHroh-ahpOHtheeksEE-meh-fEEpEEAHlfah",
+      "formality": "standard",
+      "cultural_note": "Τα ελληνικά φαρμακεία εκδίδουν αποδείξεις με ΦΠΑ όταν ζητηθεί, αλλά η έκδοση μπορεί να ελέγχεται κατά περίπτωση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "hydra_pharmacy_of_eleni_papadopoulou_002",
+      "intent_en": "Do you accept card payment",
+      "text_local": "Δεχόσαστε κάρτα;",
+      "pronunciation": "thehkhOHsahstEH-kAHrtah",
+      "formality": "standard",
+      "cultural_note": "Τα περισσότερα μικρά φαρμακεία στην Ελλάδα προτιμούν μετρητά, αλλά κάποια αποδέχονται κάρτα. Είναι σύνηθες να ρωτάει ο πελάτης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "hydra_pharmacy_of_eleni_papadopoulou_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Ποια φάρμακα χρειάζονται συνταγή;",
+      "pronunciation": "pEEah-prohihOHdah-khrkhAHzohdEH-sEEdahyEE",
+      "formality": "standard",
+      "cultural_note": "Τα φαρμακεία στην Ελλάδα ακολουθούν αυστηρές οδηγίες για προϊόντα που απαιτούν συνταγή. Ο φαρμακοποιός είναι υπεύθυνος για τον έλεγχο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Τα αντιβιοτικά και αρκετά δυνατά παυσίπονα χρειάζονται συνταγή.",
+        "pronunciation": "t-AHdeevEEohteekAH-keh-AHrehtAH-thEEnahtAH-pahfsEEpohnAH-khrkhAHzohdEH-sEEdahyEE",
+        "translation_en": "Antibiotics and many strong painkillers require a prescription."
+      },
+      "responses": [
+        {
+          "english": "Antibiotics and many strong painkillers require a prescription.",
+          "phonetic": "t-AHdeevEEohteekAH-keh-AHrehtAH-thEEnahtAH-pahfsEEpohnAH-khrkhAHzohdEH-sEEdahyEE",
+          "french": "Τα αντιβιοτικά και αρκετά δυνατά παυσίπονα χρειάζονται συνταγή."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

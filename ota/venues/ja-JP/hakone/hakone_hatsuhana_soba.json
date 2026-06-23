@@ -1,0 +1,100 @@
+{
+  "id": "hakone_hatsuhana_soba",
+  "name_en": "Hatsuhana Soba",
+  "name_local": "初花そば",
+  "icon": "fork.knife",
+  "lat": 35.6442868,
+  "lon": 139.6181666,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "hakone_hatsuhana_soba_001",
+      "intent_en": "Can I order takeout soba?",
+      "text_local": "そばの もちかえりは できますか？",
+      "pronunciation": "sohbNoh-mOHteekEHEEh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "A casual, friendly 'yo' at the end makes the response feel natural from a small shop's counter staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、できますよ。",
+        "pronunciation": "hEEdEHkeemsOOyoh",
+        "translation_en": "Yes, you can."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can.",
+          "phonetic": "hEEdEHkeemsOOyoh",
+          "french": "はい、できますよ。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hatsuhana_soba_002",
+      "intent_en": "How do I use ticket machine?",
+      "text_local": "けんばいきの つかいかたを おしえてください。",
+      "pronunciation": "kEHbEEkEEnoh-tsOOkEEktOH-OHeeEHtehkOOdsEE",
+      "formality": "standard",
+      "cultural_note": "At many soba shops, you first insert cash into the machine, then select your meal button. The machine issues a ticket which you hand to the staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おさきに おかねを いれて、 ボタンを おしてください。",
+        "pronunciation": "OHskEEnee-OHknEHoh-eeEHtehbOHtOH-OHeetEHkoodsEE",
+        "translation_en": "Put the money in first, then press the button."
+      },
+      "responses": [
+        {
+          "english": "Put the money in first, then press the button.",
+          "phonetic": "OHskEEnee-OHknEHoh-eeEHtehbOHtOH-OHeetEHkoodsEE",
+          "french": "おさきに おかねを いれて、 ボタンを おしてください。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hatsuhana_soba_003",
+      "intent_en": "Where is the soba-making counter?",
+      "text_local": "そばうちの カウンターは どこですか？",
+      "pronunciation": "sOHbootEEnoh-kOOntH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Soba-making demonstrations are often at a visible counter. Staff give clear, simple directions to a specific spot in the restaurant.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おくの みぎがわです。",
+        "pronunciation": "ohkOOnoh-mEEgeegWdEHsoo",
+        "translation_en": "It's on the right side at the back."
+      },
+      "responses": [
+        {
+          "english": "It's on the right side at the back.",
+          "phonetic": "ohkOOnoh-mEEgeegWdEHsoo",
+          "french": "おくの みぎがわです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hatsuhana_soba_004",
+      "intent_en": "Is yuba soba available now?",
+      "text_local": "ゆばそばは いま ありますか？",
+      "pronunciation": "yOObsohbH-EEm-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple, direct confirmation is the most natural staff response for a specialty item like yuba soba.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ございます。",
+        "pronunciation": "hEEgOHzeemSoo",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "hEEgOHzeemSoo",
+          "french": "はい、ございます。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

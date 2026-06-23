@@ -1,0 +1,100 @@
+{
+  "id": "nara_kofuku_ji_temple",
+  "name_en": "Kōfuku-ji Temple",
+  "name_local": "興福寺",
+  "icon": "building.columns",
+  "lat": 34.68444444,
+  "lon": 135.8015,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "nara_kofuku_ji_temple_001",
+      "intent_en": "Is the Central Golden Hall open?",
+      "text_local": "ちゅうこんどうは あいていますか。",
+      "pronunciation": "tOOookOHndohOOh-EEtEHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Hall opening hours can vary. The response gives a simple yes/no answer, which is typical for staff at the entrance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいています。",
+        "pronunciation": "hEEEEtEHeemSoo",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "hEEEEtEHeemSoo",
+          "french": "はい、あいています。"
+        }
+      ]
+    },
+    {
+      "id": "nara_kofuku_ji_temple_002",
+      "intent_en": "Where do I get goshuin at Nan'endō?",
+      "text_local": "なんえんどうで ごしゅいんは どこで もらえますか。",
+      "pronunciation": "nEHndohOOdeh-gOHooeeH-dohkOHdeh-mOHEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Goshuin are calligraphic stamps. Look for a small window or desk inside the hall, often with a sample book displayed.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おくの まどぐちです。",
+        "pronunciation": "ohkOOnoh-mDohgOOteedEHsoo",
+        "translation_en": "At the window in the back."
+      },
+      "responses": [
+        {
+          "english": "At the window in the back.",
+          "phonetic": "ohkOOnoh-mDohgOOteedEHsoo",
+          "french": "おくの まどぐちです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_kofuku_ji_temple_003",
+      "intent_en": "Where is the Five-Story Pagoda entrance?",
+      "text_local": "ごじゅうのとうの いりぐちは どこですか。",
+      "pronunciation": "gOHdooOOnohtohOOnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The pagoda is usually viewed from outside, but if there's a special opening, the ticket booth is nearby.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐです。ひだりに いりぐちが あります。",
+        "pronunciation": "mSsoogoodEHsookhEEdEEnee-EEeegootEEg-EEmSoo",
+        "translation_en": "Straight ahead. The entrance is on the left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead. The entrance is on the left.",
+          "phonetic": "mSsoogoodEHsookhEEdEEnee-EEeegootEEg-EEmSoo",
+          "french": "まっすぐです。ひだりに いりぐちが あります。"
+        }
+      ]
+    },
+    {
+      "id": "nara_kofuku_ji_temple_004",
+      "intent_en": "Where do I put parking money?",
+      "text_local": "ちゅうしゃりょうは どこに いれますか。",
+      "pronunciation": "tOOooOHOOh-dohkOHnee-EEehmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many temple parking lots in Nara use automated payment machines rather than staffed booths. The attendant points to the machine.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あおい せいさんきに いれてください。",
+        "pronunciation": "OHee-sEHeesngkEEnee-EEehtEHkoodsEE",
+        "translation_en": "Please put it in the blue payment machine."
+      },
+      "responses": [
+        {
+          "english": "Please put it in the blue payment machine.",
+          "phonetic": "OHee-sEHeesngkEEnee-EEehtEHkoodsEE",
+          "french": "あおい せいさんきに いれてください。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

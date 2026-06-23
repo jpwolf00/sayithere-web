@@ -1,0 +1,122 @@
+{
+  "id": "nafplio_ta_skalakia_taverna",
+  "name_en": "Ta Skalakia Taverna",
+  "name_local": "Τα Σκαλάκια",
+  "icon": "fork.knife",
+  "lat": 37.5659229,
+  "lon": 22.8068782,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "nafplio_ta_skalakia_taverna_001",
+      "intent_en": "Where is staircase seating entrance",
+      "text_local": "Πού είναι η είσοδος για τα σκαλοπάτια;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHz-yAH-tah-skAHlohpAHteeAH",
+      "formality": "standard",
+      "cultural_note": "Τα 'Σκαλάκια' αναφέρεται στη μοναδική θέση καθίσματος με θέα στην παλιά πόλη του Ναυπλίου, προσβάσιμη μέσω συγκεκριμένου διαδρόμου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στριψτε δεξιά μόλις μπείτε.",
+        "pronunciation": "strEEpsteh-thEHkseeAH-mOHleez-bEEteh",
+        "translation_en": "Turn right as soon as you enter."
+      },
+      "responses": [
+        {
+          "english": "Turn right as soon as you enter.",
+          "phonetic": "strEEpsteh-thEHkseeAH-mOHleez-bEEteh",
+          "french": "Στριψτε δεξιά μόλις μπείτε."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_ta_skalakia_taverna_002",
+      "intent_en": "Can bill be split by person count",
+      "text_local": "Μπορώ να χωρίσω τον λογαριασμό ανά άτομα;",
+      "pronunciation": "bohrOH-nah-khohrEEsoh-tohn-lOHghahrEEahsmOH-ahnAH-AHtohmAH",
+      "formality": "standard",
+      "cultural_note": "Η πρακτική του χωρισμού του λογαριασμού ανά άτομα είναι κοινή στις ελληνικές ταβέρνες, ιδιαίτερα όταν ζητηθεί.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ανά άτομα.",
+        "pronunciation": "nEHahnAH-AHtohmAH",
+        "translation_en": "Yes, per person."
+      },
+      "responses": [
+        {
+          "english": "Yes, per person.",
+          "phonetic": "nEHahnAH-AHtohmAH",
+          "french": "Ναι, ανά άτομα."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_ta_skalakia_taverna_003",
+      "intent_en": "How to order wine by carafe here",
+      "text_local": "Πώς παραγγέλνω κρασί με καράφα;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-krahsEE-meh-kahrAHfah",
+      "formality": "standard",
+      "cultural_note": "Στην Τα Σκαλάκια, ο 'κrasi expert' είναι υπεύθυνος για τις παραγγελίες κρασιού, ιδίως όταν ζητούνται από καράφα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πείτε «ένα καράφι κρασί» στον σερβιτόρο σας.",
+        "pronunciation": "pEEteh-EHnah-kahrAHfee-krahsEE-stohn-sEHrveetOHroh-sahs",
+        "translation_en": "Tell the waiter: 'I would like a carafe of wine.'"
+      },
+      "responses": [
+        {
+          "english": "Tell the waiter: 'I would like a carafe of wine.'",
+          "phonetic": "pEEteh-EHnah-kahrAHfee-krahsEE-stohn-sEHrveetOHroh-sahs",
+          "french": "Πείτε «ένα καράφι κρασί» στον σερβιτόρο σας."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_ta_skalakia_taverna_004",
+      "intent_en": "How to join toast with geia mas",
+      "text_local": "Πώς συμμετέχω στο 'γεια μας';",
+      "pronunciation": "pOHs-sEEmehtEHkhoh-stoh-yAH-mahs",
+      "formality": "casual",
+      "cultural_note": "Το 'γεια μας' είναι μία ελληνική παράδοση κατά την έναρξη ενός toast, όπου όλοι συμμετέχουν πριν πιουν.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περιμένετε το 'γεια μας' πριν πιείτε.",
+        "pronunciation": "pEHreemEHnehtEH-toh-yAH-mahs-prEEm-bkhEEteh",
+        "translation_en": "Wait for 'geia mas' before drinking."
+      },
+      "responses": [
+        {
+          "english": "Wait for 'geia mas' before drinking.",
+          "phonetic": "pEHreemEHnehtEH-toh-yAH-mahs-prEEm-bkhEEteh",
+          "french": "Περιμένετε το 'γεια μας' πριν πιείτε."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_ta_skalakia_taverna_005",
+      "intent_en": "Is moussaka portion for two to share",
+      "text_local": "Η μουσακάς είναι για δύο άτομα;",
+      "pronunciation": "ee-mOOsahkAHs-EEneh-yAH-thEEoh-AHtohmAH",
+      "formality": "standard",
+      "cultural_note": "Η μουσακάς αποτελεί κλασικό ελληνικό πιάτο μεγάλου όγκου, συχνά παραγγέλνεται για δύο άτομα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, αρκεί για δύο.",
+        "pronunciation": "nEHahrEE-yAH-thEEoh",
+        "translation_en": "Yes, enough for two."
+      },
+      "responses": [
+        {
+          "english": "Yes, enough for two.",
+          "phonetic": "nEHahrEE-yAH-thEEoh",
+          "french": "Ναι, αρκεί για δύο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

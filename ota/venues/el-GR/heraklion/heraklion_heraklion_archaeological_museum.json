@@ -1,0 +1,100 @@
+{
+  "id": "heraklion_heraklion_archaeological_museum",
+  "name_en": "Heraklion Archaeological Museum",
+  "name_local": "Αρχαιολογικό Μουσείο Ηρακλείου",
+  "icon": "building.columns",
+  "lat": 35.3391377,
+  "lon": 25.1374187,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "heraklion_heraklion_archaeological_museum_001",
+      "intent_en": "Where is the audio guide desk?",
+      "text_local": "Πού είναι η υπηρεσία ενοικίασης ακουστικών οδηγών;",
+      "pronunciation": "pOO-EEneh-ee-EEpeerehsEEah-EHneeEEahsEEs-AHkoosteekOHn-OHtheeghOHn",
+      "formality": "standard",
+      "cultural_note": "Directs to official service point without fabricating location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον Ταμία.",
+        "pronunciation": "rohtEEsteh-stohn-dahmEEah",
+        "translation_en": "Ask at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Ask at the cashier.",
+          "phonetic": "rohtEEsteh-stohn-dahmEEah",
+          "french": "Ρωτήστε στον Ταμία."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_archaeological_museum_002",
+      "intent_en": "Do you accept credit cards at the counter?",
+      "text_local": "Δέχονται πιστωτικές κάρτες στο ταμείο;",
+      "pronunciation": "thEHkhohdEH-pEEstohteeEHs-kAHrtehs-stoh-tahmEEoh",
+      "formality": "standard",
+      "cultural_note": "Avoids absolute claim; directs to official service point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, όλες οι κάρτες στο ταμείο.",
+        "pronunciation": "nEHOHlehs-ee-kAHrtehs-stoh-tahmEEoh",
+        "translation_en": "Hello, yes."
+      },
+      "responses": [
+        {
+          "english": "Hello, yes.",
+          "phonetic": "nEHOHlehs-ee-kAHrtehs-stoh-tahmEEoh",
+          "french": "Ναι, όλες οι κάρτες στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_archaeological_museum_003",
+      "intent_en": "Do you sell combined Knossos tickets?",
+      "text_local": "Πωλείτε συνδυαστικά εισιτήρια για την Κνωσό;",
+      "pronunciation": "pohlEEteh-sEEntheeAHsteekAH-EEseetEEreeAH-yAH-teeng-gnohsOH",
+      "formality": "standard",
+      "cultural_note": "Short, direct confirmation of service availability; avoids absolute language.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket counter.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_archaeological_museum_004",
+      "intent_en": "Is the Prince of the Lilies on display?",
+      "text_local": "Είναι ο Πρίγκιπας των Κρίνων εκτεθειμένος;",
+      "pronunciation": "EEneh-oh-prEEnggeepAHs-tohng-grEEnohn-EHktehtheemEHnohs",
+      "formality": "standard",
+      "cultural_note": "Uses generic location cue to avoid unverified specifics.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στην αίθουσα των τοιχογραφιών.",
+        "pronunciation": "nEHsteen-EHthoosAH-tohn-dEEkhohghrAHfeeOHn",
+        "translation_en": "Yes, in the fresco room."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the fresco room.",
+          "phonetic": "nEHsteen-EHthoosAH-tohn-dEEkhohghrAHfeeOHn",
+          "french": "Ναι, στην αίθουσα των τοιχογραφιών."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

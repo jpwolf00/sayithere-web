@@ -1,0 +1,118 @@
+{
+  "id": "nice_promenade_anglais",
+  "name_en": "Promenade des Anglais",
+  "name_local": "Promenade des Anglais",
+  "icon": "figure.walk",
+  "lat": 43.6953,
+  "lon": 7.2655,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "nice_promenade_001",
+      "intent_en": "Ask how far the beach access is from here",
+      "text_local": "Où se trouve l'accès à la plage le plus proche ?",
+      "pronunciation": "oo seh TROOV lak-SEH ah lah PLAZH leh ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "The Promenade stretches 7km along the Baie des Anges. Most sections have direct beach access via small ramps.",
+      "responses": [
+        {
+          "english": "Just down the stairs.",
+          "phonetic": "zhoost ahn BAH day zes-kah-LYAY",
+          "french": "Juste en bas des escaliers."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_promenade_002",
+      "intent_en": "Ask if the beach chairs are free or for rent",
+      "text_local": "Les transats sont-ils gratuits ou payants sur cette plage ?",
+      "pronunciation": "leh tran-SAH son-TEEL gra-TWEE oo pay-AN soor SET plazh",
+      "formality": "polite",
+      "cultural_note": "Nice has both public (free, pebbly) and private (paid, with loungers) beach sections side by side.",
+      "responses": [
+        {
+          "english": "The beach chairs are for rent.",
+          "phonetic": "lay trahn-ZAH sohn tahn loh-kah-SYOHN",
+          "french": "Les transats sont en location."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_promenade_003",
+      "intent_en": "Ask where the nearest bike rental is",
+      "text_local": "Où puis-je louer un vélo près d'ici ?",
+      "pronunciation": "oo PWEE-zheh loo-AY un VAY-lo preh dee-SEE",
+      "formality": "polite",
+      "cultural_note": "Vélo Bleu is Nice's bike-share system with stations all along the Promenade.",
+      "responses": [
+        {
+          "english": "There is one at the end of the promenade.",
+          "phonetic": "eel ee ahn ah uhn oh BOO duh lah proh-muh-NAHD",
+          "french": "Il y en a un au bout de la promenade."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_promenade_004",
+      "intent_en": "Ask if there are showers on the beach",
+      "text_local": "Il y a des douches sur la plage ?",
+      "pronunciation": "eel ee ah day DOOSH soor lah PLAHZH",
+      "formality": "polite",
+      "cultural_note": "Public beaches along the Promenade des Anglais typically have free outdoor shower posts for rinsing off after swimming.",
+      "responses": [
+        {
+          "english": "Yes, there are free showers.",
+          "phonetic": "wee eel ee ah day DOOSH grah-TWEET",
+          "french": "Oui, il y a des douches gratuites."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_promenade_005",
+      "intent_en": "Ask which direction leads to the old town",
+      "text_local": "Dans quelle direction se trouve le Vieux-Nice ?",
+      "pronunciation": "dan KEL dee-rek-SYON seh TROOV leh vyuh-NEES",
+      "formality": "polite",
+      "cultural_note": "Vieux-Nice is at the eastern end of the Promenade, near Castle Hill.",
+      "responses": [
+        {
+          "english": "That way, to the east.",
+          "phonetic": "par LAH vair LEST",
+          "french": "Par là, vers l'est."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "beach",
+      "word_local": "la plage",
+      "pronunciation": "lah PLAZH"
+    },
+    {
+      "word_en": "promenade / seafront",
+      "word_local": "le front de mer",
+      "pronunciation": "leh fron deh MEHR"
+    },
+    {
+      "word_en": "pebbles",
+      "word_local": "les galets",
+      "pronunciation": "leh gah-LAY"
+    },
+    {
+      "word_en": "sun lounger",
+      "word_local": "le transat",
+      "pronunciation": "leh tran-SAH"
+    }
+  ]
+}

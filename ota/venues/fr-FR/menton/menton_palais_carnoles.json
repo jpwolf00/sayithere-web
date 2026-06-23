@@ -1,0 +1,105 @@
+{
+  "id": "menton_palais_carnoles",
+  "name_en": "Palais Carnolès – Museum of Fine Arts",
+  "name_local": "Palais Carnolès – Musée des Beaux-Arts",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "carnoles_entree",
+      "intent_en": "Is entry free?",
+      "text_local": "L'entrée est-elle gratuite ?",
+      "pronunciation": "lon-TRAY eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The permanent collection is free. The palace was the summer residence of the Princes of Monaco and sits in a citrus garden.",
+      "responses": [
+        {
+          "english": "Yes, it's free.",
+          "phonetic": "wee, seh grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "carnoles_jardin",
+      "intent_en": "Where is the entrance to the citrus garden?",
+      "text_local": "Où est l'entrée du jardin d'agrumes ?",
+      "pronunciation": "oo eh lon-TRAY doo zhar-DAN dah-GROOM",
+      "formality": "polite",
+      "cultural_note": "The citrus garden is part of the visit and also works well as a short stop even if you skip the museum.",
+      "responses": [
+        {
+          "english": "On the side, through the gate.",
+          "phonetic": "soor luh koh-TAY, par luh por-TYE",
+          "french": "Sur le côté, par le portail."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_car_men_x1",
+      "intent_en": "Ask what the museum specialises in",
+      "text_local": "Quelle est la spécialité du musée ?",
+      "pronunciation": "kel ay lah spay-syah-lee-TAY doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The Palais Carnolès houses Menton's fine arts museum in an 18th-century summer palace of the Grimaldi princes, surrounded by a citrus garden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Old-master painting and the citrus garden.",
+          "phonetic": "lah pan-TOOR ahn-SYEN ay luh zhar-DAN dah-GROOM.",
+          "french": "La peinture ancienne et le jardin d'agrumes."
+        }
+      ]
+    },
+    {
+      "id": "fr_car_men_x2",
+      "intent_en": "Ask if the garden is free to visit",
+      "text_local": "Le jardin est-il accessible gratuitement ?",
+      "pronunciation": "luh zhar-DAN ay-TEEL ak-ses-EEBL grah-tweet-MAHN",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the garden is always freely accessible.",
+          "phonetic": "wee, luh zhar-DAN ay too-ZHOOR ahn ak-SAY LEEBR.",
+          "french": "Oui, le jardin est toujours en accès libre."
+        }
+      ]
+    },
+    {
+      "id": "fr_car_men_x3",
+      "intent_en": "Ask which bus stops nearby",
+      "text_local": "Quel bus s'arrête à proximité ?",
+      "pronunciation": "kel boos sah-RET ah prok-see-mee-TAY",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Line seven, Carnolès stop.",
+          "phonetic": "lah LEEN-yuh SET, ah-RAY kar-noh-LES.",
+          "french": "La ligne sept, arrêt Carnolès."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "palace",
+      "word_local": "le palais",
+      "pronunciation": "luh pah-LAY"
+    },
+    {
+      "word_en": "free (of charge)",
+      "word_local": "gratuit / gratuite",
+      "pronunciation": "grah-TWEE / grah-TWEET"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "montreal_centre_bell",
+  "name_en": "Bell Centre (Canadiens de Montréal)",
+  "name_local": "Centre Bell",
+  "icon": "building.columns",
+  "lat": 45.4961,
+  "lon": -73.5693,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "mtl_cb_001",
+      "intent_en": "Ask if there are any Canadiens tickets available",
+      "text_local": "Est-ce qu'il reste des billets pour le match du Canadien ?",
+      "pronunciation": "ess-KEEL rest day bee-YEH poor luh MAHSH doo kah-nad-YAN",
+      "formality": "polite",
+      "cultural_note": "The Canadiens (le Canadien) are religion in Montréal. Locals say 'le Canadien' (singular) when referring to the team. Games sell out fast.",
+      "responses": [
+        {
+          "english": "You need to check online.",
+          "phonetic": "eel foh vay-ree-FYAY ahn LEE-nyuh",
+          "french": "Il faut vérifier en ligne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_cb_002",
+      "intent_en": "Ask where Section 100 seats are located",
+      "text_local": "Les sièges de la section cent, c'est par où ?",
+      "pronunciation": "lay see-YEZH duh lah sek-SYON SAH say par OO",
+      "formality": "neutral",
+      "cultural_note": "Centre Bell holds over 21,000 fans for hockey. The lower bowl (sections 100s) is closest to the ice and most sought-after.",
+      "responses": [
+        {
+          "english": "On the lower level, that way.",
+          "phonetic": "oh nee-VOH ahn-fay-RYUR par LAH",
+          "french": "Au niveau inférieur, par là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_cb_003",
+      "intent_en": "Order a poutine and a beer at the concession",
+      "text_local": "Une poutine et une bière, s'il vous plaît.",
+      "pronunciation": "OON poo-TEEN ay OON bee-AIR seel voo PLEH",
+      "formality": "neutral",
+      "cultural_note": "Poutine — fries with cheese curds and gravy — is the quintessential Québec comfort food and a staple at Canadiens games.",
+      "responses": [
+        {
+          "english": "The poutine, ten dollars. The beer, nine.",
+          "phonetic": "lah poo-TEEN DEE doh-LAR lah BYAIR NUHF",
+          "french": "La poutine, dix dollars. La bière, neuf."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_cb_004",
+      "intent_en": "Ask where the team merchandise store is",
+      "text_local": "La boutique officielle du Canadien, c'est où ?",
+      "pronunciation": "lah boo-TEEK oh-fee-see-EL doo kah-nad-YAN say OO",
+      "formality": "neutral",
+      "cultural_note": "The official Canadiens store sells jerseys, caps, and memorabilia. The CH (Club de Hockey) logo is one of sport's most iconic.",
+      "responses": [
+        {
+          "english": "On the ground floor, near the main entrance.",
+          "phonetic": "oh ray-duh-shoh-SAY pray duh lahn-TRAY prahn-see-PAHL",
+          "french": "Au rez-de-chaussée, près de l'entrée principale."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_cb_005",
+      "intent_en": "Cheer with the crowd during the game",
+      "text_local": "Allez le Canadien ! Lâchez pas !",
+      "pronunciation": "ah-LAY luh kah-nad-YAN! lah-SHAY PAH!",
+      "formality": "informal",
+      "cultural_note": "'Lâchez pas' (don't give up / keep it up) is a quintessential Québécois rallying cry. Using it will earn instant approval from locals.",
+      "responses": [
+        {
+          "english": "Go Habs Go!",
+          "phonetic": "GOH HABZ GOH",
+          "french": "Go Habs Go !"
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "hockey game",
+      "word_local": "le match de hockey",
+      "pronunciation": "luh MAHSH duh oh-KAY"
+    },
+    {
+      "word_en": "poutine",
+      "word_local": "la poutine",
+      "pronunciation": "lah poo-TEEN"
+    },
+    {
+      "word_en": "jersey",
+      "word_local": "le chandail / le jersey",
+      "pronunciation": "luh shahn-DIGH / luh zhair-ZAY"
+    },
+    {
+      "word_en": "ice rink",
+      "word_local": "la patinoire",
+      "pronunciation": "lah pah-tee-NWAHR"
+    }
+  ]
+}

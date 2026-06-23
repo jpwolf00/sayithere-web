@@ -1,0 +1,100 @@
+{
+  "id": "st_wolfgang_rathaus_arkaden",
+  "name_en": "Rathaus Arkaden",
+  "name_local": "Rathaus Arkaden",
+  "icon": "bag",
+  "lat": 47.6104372,
+  "lon": 15.9973675,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "st_wolfgang_rathaus_arkaden_001",
+      "intent_en": "Where do I pay at the souvenir shop",
+      "text_local": "Wo wird im Souvenirladen bezahlt?",
+      "pronunciation": "vOH-vIHrt-ihm-zOOvehnIHrlahduhn-buhtsAHlt",
+      "formality": "standard",
+      "cultural_note": "Souvenir shops in German towns usually have a single checkout counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kassenbereich.",
+        "pronunciation": "ahm-kAHsuhnbuhrEYEkh",
+        "translation_en": "At the checkout area."
+      },
+      "responses": [
+        {
+          "english": "At the checkout area.",
+          "phonetic": "ahm-kAHsuhnbuhrEYEkh",
+          "french": "Am Kassenbereich."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_rathaus_arkaden_002",
+      "intent_en": "Where is the Arkaden-Cafe",
+      "text_local": "Wo ist das Arkaden-Cafe?",
+      "pronunciation": "vOH-ihst-dahs-AHrkahduhnkAHfuh",
+      "formality": "standard",
+      "cultural_note": "Cafes in German shopping arcades are typically centrally located with clear signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Arkadenbereich.",
+        "pronunciation": "ihm-AHrkahdEHnbuhrEYEkh",
+        "translation_en": "In the arcade area."
+      },
+      "responses": [
+        {
+          "english": "In the arcade area.",
+          "phonetic": "ihm-AHrkahdEHnbuhrEYEkh",
+          "french": "Im Arkadenbereich."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_rathaus_arkaden_003",
+      "intent_en": "Can I buy event tickets at the booth",
+      "text_local": "Kann ich hier Eventtickets kaufen?",
+      "pronunciation": "kAHn-ihkh-hEEr-EHvuhntIHkuhts-kOWfuhn",
+      "formality": "casual",
+      "cultural_note": "Event ticket booths in German town halls typically handle local event sales.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_rathaus_arkaden_004",
+      "intent_en": "Where is the tourist information desk",
+      "text_local": "Wo ist die Touristeninformation?",
+      "pronunciation": "vOH-ihst-dee-tOOrihstEHnihnfAWrmahtsyOHn",
+      "formality": "standard",
+      "cultural_note": "Tourist information desks in German municipalities are usually located near the town hall entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Rathausplatz.",
+        "pronunciation": "ahm-rAHtowsplAHts",
+        "translation_en": "At the Rathausplatz."
+      },
+      "responses": [
+        {
+          "english": "At the Rathausplatz.",
+          "phonetic": "ahm-rAHtowsplAHts",
+          "french": "Am Rathausplatz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

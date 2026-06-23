@@ -1,0 +1,118 @@
+{
+  "id": "dijon_jardin_darcy",
+  "name_en": "Jardin Darcy",
+  "name_local": "Jardin Darcy",
+  "icon": "leaf",
+  "lat": 47.326,
+  "lon": 5.033,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "dijon_darcy_001",
+      "intent_en": "Ask about the opening hours of the garden",
+      "text_local": "À quelle heure ouvre le jardin ?",
+      "pronunciation": "ah kel uhr OOV-ruh luh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "Jardin Darcy is a public garden in the center of Dijon, open from early morning to dusk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The garden is open from 7am until sunset.",
+          "phonetic": "luh zhar-DAN eh oo-VAIR duh set uhr oh koo-SHAY doo soh-LAY",
+          "french": "Le jardin est ouvert de sept heures au coucher du soleil."
+        }
+      ]
+    },
+    {
+      "id": "dijon_darcy_002",
+      "intent_en": "Ask if entry to the garden is free",
+      "text_local": "L'entrée est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Jardin Darcy is a free public garden maintained by the city of Dijon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "wee, lahn-TRAY eh grah-TWEET",
+          "french": "Oui, l'entrée est gratuite."
+        }
+      ]
+    },
+    {
+      "id": "dijon_darcy_003",
+      "intent_en": "Ask if there is a playground for children",
+      "text_local": "Y a-t-il une aire de jeux pour enfants ?",
+      "pronunciation": "ee ah-TEEL oon AIR duh ZHOO poor ahn-FAHN",
+      "formality": "polite",
+      "cultural_note": "The garden has a small playground area. It's a popular spot for families, especially on weekend afternoons.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there's a playground at the back of the garden.",
+          "phonetic": "wee, eel ee ah oon AIR duh ZHOO oh fohn doo zhar-DAN",
+          "french": "Oui, il y a une aire de jeux au fond du jardin."
+        }
+      ]
+    },
+    {
+      "id": "dijon_darcy_004",
+      "intent_en": "Ask about the entrance to the park from Rue de la Liberté",
+      "text_local": "Où est l'entrée du jardin depuis la Rue de la Liberté ?",
+      "pronunciation": "oo eh lahn-TRAY doo zhar-DAN duh-PWEE lah roo duh lah lee-bay-rah-SYON",
+      "formality": "polite",
+      "cultural_note": "There are several entrances to Jardin Darcy, with the main one on Rue de la Liberté near the shopping district.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The main entrance is on Place Darcy, right in front of you.",
+          "phonetic": "lahn-TRAY prahn-see-PAL eh soor lah plahs dar-SEE, zhoost duh-VAHN voo",
+          "french": "L'entrée principale est sur la place Darcy, juste devant vous."
+        }
+      ]
+    },
+    {
+      "id": "dijon_darcy_005",
+      "intent_en": "Ask if there are benches to sit on",
+      "text_local": "Y a-t-il des bancs pour s'asseoir ?",
+      "pronunciation": "ee ah-TEEL day BAHN poor sah-SWAHR",
+      "formality": "polite",
+      "cultural_note": "The garden has plenty of benches and shaded areas. It's a popular rest stop in the city center.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are benches throughout the garden.",
+          "phonetic": "wee, eel ee ah day BAHN par-TOO dahn luh zhar-DAN",
+          "french": "Oui, il y a des bancs partout dans le jardin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "leh zhar-DAN"
+    },
+    {
+      "word_en": "bridge",
+      "word_local": "le pont",
+      "pronunciation": "leh pon"
+    },
+    {
+      "word_en": "fountain",
+      "word_local": "la fontaine",
+      "pronunciation": "lah fan-TEN"
+    },
+    {
+      "word_en": "playground",
+      "word_local": "l'aire de jeux",
+      "pronunciation": "lair duh ZHOO"
+    }
+  ]
+}

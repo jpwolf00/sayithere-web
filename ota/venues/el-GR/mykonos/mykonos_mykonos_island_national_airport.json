@@ -1,0 +1,100 @@
+{
+  "id": "mykonos_mykonos_island_national_airport",
+  "name_en": "Mykonos Island National Airport",
+  "name_local": "Αερολιμένας Μυκόνου",
+  "icon": "tram",
+  "lat": 37.4349929,
+  "lon": 25.3473265,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mykonos_mykonos_island_national_airport_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η θυρίδα πληρωμής τέλους αναχώρησης;",
+      "pronunciation": "pOO-EEneh-ee-theerEEthah-plEErohmEEs-tEHloos-AHnahkhOHreesEEs",
+      "formality": "standard",
+      "cultural_note": "Οι ταξιδιώτες συχνά αναζητούν τον τελωνειακό για πληρωμές τελών λόγω της επικύρωσης εγγράφων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά τον έλεγχο διαβατηρίων.",
+        "pronunciation": "AHreestehrAH-mehtAH-tohn-EHlehngkhOH-thEEahvAHteerEEohn",
+        "translation_en": "Hello, the payment counter is in the departure hall. Follow the signs to 'Departure Tax'."
+      },
+      "responses": [
+        {
+          "english": "Hello, the payment counter is in the departure hall. Follow the signs to 'Departure Tax'.",
+          "phonetic": "AHreestehrAH-mehtAH-tohn-EHlehngkhOH-thEEahvAHteerEEohn",
+          "french": "Αριστερά μετά τον έλεγχο διαβατηρίων."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_mykonos_island_national_airport_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Παίρνουν μετρητά ή κάρτα για το τέλος;",
+      "pronunciation": "pEHrnoon-mEHtreetAH-ee-kAHrtah-yAH-toh-tEHlohs",
+      "formality": "standard",
+      "cultural_note": "Στην Ελλάδα η χρήση μετρητών είναι ακόμη συχνή στις δημόσιες υπηρεσίες, ιδιαίτερα σε μικρές εγκαταστάσεις.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Στο ταμείο της εξόδου, μετρητά ή κάρτα.",
+        "pronunciation": "stoh-tahmEEoh-tees-ehksOHthoomEHtreetAH-ee-kAHrtah",
+        "translation_en": "They accept both, if you prefer."
+      },
+      "responses": [
+        {
+          "english": "They accept both, if you prefer.",
+          "phonetic": "stoh-tahmEEoh-tees-ehksOHthoomEHtreetAH-ee-kAHrtah",
+          "french": "Στο ταμείο της εξόδου, μετρητά ή κάρτα."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_mykonos_island_national_airport_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πότε αναχωρεί το λεωφορείο για το παλιό λιμάνι;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-lEHohfohrEEoh-yAH-toh-pahlyOH-leemAHnee",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια των λεωφορείων αποτελούν συχνή ερώτηση λόγω της εύκολης πρόσβασης από τον αεροδιάδρομο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Σε 10 λεπτά, έξω από την κύρια έξοδο.",
+        "pronunciation": "seh-thEHkah-lehptAHEHksoh-ahpOH-teeng-gEEreeAH-EHksohthOH",
+        "translation_en": "In a few minutes, from the arrivals exit."
+      },
+      "responses": [
+        {
+          "english": "In a few minutes, from the arrivals exit.",
+          "phonetic": "seh-thEHkah-lehptAHEHksoh-ahpOH-teeng-gEEreeAH-EHksohthOH",
+          "french": "Σε 10 λεπτά, έξω από την κύρια έξοδο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_mykonos_island_national_airport_004",
+      "intent_en": "Ask where the excess baggage fee desk is",
+      "text_local": "Πού είναι η θυρίδα υπερβάλλουσας αποσκευής;",
+      "pronunciation": "pOO-EEneh-ee-theerEEthah-EEpehrvAHloosAHs-AHpohsehvEEs",
+      "formality": "standard",
+      "cultural_note": "Οι ταξιδιώτες συνηθίζουν να απευθύνονται στον υπάλληλο πληροφοριών για μικρές αβέβαιες πληροφορίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον κεντρικό χώρο check-in.",
+        "pronunciation": "stohng-gEHdreekOH-khOHroh-ehntshEHkIHnehl",
+        "translation_en": "In the main check-in area."
+      },
+      "responses": [
+        {
+          "english": "In the main check-in area.",
+          "phonetic": "stohng-gEHdreekOH-khOHroh-ehntshEHkIHnehl",
+          "french": "Στον κεντρικό χώρο check-in."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

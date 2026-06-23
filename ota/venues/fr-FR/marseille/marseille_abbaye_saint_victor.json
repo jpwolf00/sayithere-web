@@ -1,0 +1,118 @@
+{
+  "id": "marseille_abbaye_saint_victor",
+  "name_en": "Abbaye Saint-Victor",
+  "name_local": "Abbaye Saint-Victor",
+  "icon": "building.columns.fill",
+  "lat": 43.2887,
+  "lon": 5.383,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "marseille_saintvictor_001",
+      "intent_en": "Ask about opening hours",
+      "text_local": "Quelles sont les heures d'ouverture de l'abbaye ?",
+      "pronunciation": "kel son layz UHR doo-vair-TYOR duh lah-bay",
+      "formality": "polite",
+      "cultural_note": "The abbey is generally open daily. Hours may vary for services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From 9 AM to 7 PM every day.",
+          "phonetic": "duh nuhf UHR ah dee-SNUHF UHR too lay ZHOOR",
+          "french": "De 9h à 19h tous les jours."
+        }
+      ]
+    },
+    {
+      "id": "marseille_saintvictor_002",
+      "intent_en": "Ask about the crypt",
+      "text_local": "Peut-on visiter la crypte ?",
+      "pronunciation": "puh-TON vee-zee-TAY lah KREEPT",
+      "formality": "polite",
+      "cultural_note": "The crypt contains sarcophagi from the early Christian period. It's atmospheric and well worth the visit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the crypt is downstairs. Follow the signs.",
+          "phonetic": "",
+          "french": "Oui, la crypte est en bas. Suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "marseille_saintvictor_003",
+      "intent_en": "Ask about the Mass on Sunday",
+      "text_local": "Y a-t-il une messe dimanche ?",
+      "pronunciation": "ee ah-TEEL oon MES dee-MANSH",
+      "formality": "polite",
+      "cultural_note": "Mass is held at 10am on Sundays. The abbey is also known for its Gregorian chant services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, at ten o'clock on Sunday.",
+          "phonetic": "",
+          "french": "Oui, à dix heures le dimanche."
+        }
+      ]
+    },
+    {
+      "id": "fr_sv_ma_x1",
+      "intent_en": "Ask if the crypt is open",
+      "text_local": "La crypte est-elle ouverte aux visiteurs ?",
+      "pronunciation": "lah kreept ay-TEL oo-VAIR oh vee-zee-TUR",
+      "formality": "polite",
+      "cultural_note": "The crypt beneath Saint-Victor contains sarcophagi dating to the 3rd century and the remains of early Christian martyrs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, for an extra charge.",
+          "phonetic": "wee, mwah-yuh-NAHN uhn soo-play-MAHN.",
+          "french": "Oui, moyennant un supplément."
+        }
+      ]
+    },
+    {
+      "id": "fr_sv_ma_x2",
+      "intent_en": "Ask when the candlelit procession takes place",
+      "text_local": "Quand a lieu la procession aux flambeaux ?",
+      "pronunciation": "kahn ah LYUH lah proh-ses-YON oh flahm-BOH",
+      "formality": "polite",
+      "cultural_note": "Every year on 2 February the Abbaye Saint-Victor hosts the Fête de la Chandeleur, with a candlelit procession and the blessing of a green candle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On 2 February every year.",
+          "phonetic": "luh DUH fay-VRYAY shahk ah-NAY.",
+          "french": "Le deux février chaque année."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "abbey",
+      "word_local": "l'abbaye",
+      "pronunciation": "lah-bay-EE"
+    },
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah KREEPT"
+    },
+    {
+      "word_en": "mass",
+      "word_local": "la messe",
+      "pronunciation": "lah MES"
+    },
+    {
+      "word_en": "church",
+      "word_local": "l'église",
+      "pronunciation": "lay-GLEEZ"
+    }
+  ]
+}

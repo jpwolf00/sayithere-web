@@ -1,0 +1,118 @@
+{
+  "id": "saint_malo_fort_national",
+  "name_en": "Fort National",
+  "name_local": "Fort National",
+  "icon": "building.2",
+  "lat": 48.656,
+  "lon": -1.998,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "saintmalo_fortnat_001",
+      "intent_en": "Ask how to get to Fort National",
+      "text_local": "Comment aller au Fort National ?",
+      "pronunciation": "koh-MAHN ah-LAY oh FOR nah-syoh-NAL",
+      "formality": "polite",
+      "cultural_note": "Fort National is a tidal island fortress accessible only on foot from the city walls at low tide. The walk takes about 15 minutes.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At low tide, cross the beach from the ramparts.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "À marée basse, traversez la plage depuis les remparts."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_fortnat_002",
+      "intent_en": "Ask about the opening hours",
+      "text_local": "Quelles sont les heures d'ouverture ?",
+      "pronunciation": "kel son layz UHR doo-vair-TYOR",
+      "formality": "polite",
+      "cultural_note": "The fort is only accessible at low tide. Check the tide tables locally — you need at least 2 hours of low tide to visit safely.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Accessible only at low tide. Check the tide schedule.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "Accessible uniquement à marée basse. Vérifiez les horaires des marées."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_fortnat_003",
+      "intent_en": "Ask about the ticket price",
+      "text_local": "Combien coûte l'entrée du fort ?",
+      "pronunciation": "kom-BYAN KOOT lahn-TRAY doo FOR",
+      "formality": "polite",
+      "cultural_note": "There is a small entrance fee for the guided tour of Fort National.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's indicated at the fort entrance.",
+          "phonetic": "say an-dee-KAY ah lahn-TRAY doo FOR",
+          "french": "C'est indiqué à l'entrée du fort."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_fortnat_004",
+      "intent_en": "Ask if it's safe to visit at high tide",
+      "text_local": "Est-il dangereux de visiter à marée haute ?",
+      "pronunciation": "eh-TEEL dahn-zhuh-RUH duh vee-zee-TAY ah mar-AY oht",
+      "formality": "polite",
+      "cultural_note": "At high tide, Fort National becomes an island completely surrounded by water. Do NOT attempt to cross when the water is rising.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, don't cross when the tide is rising.",
+          "phonetic": "wee, may lah ray-zair-vah-SYON ahn leen-yuh eh ploo SIMPL",
+          "french": "Oui, ne traversez pas quand la mer monte."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_fortnat_005",
+      "intent_en": "Ask how long the visit takes",
+      "text_local": "Combien de temps dure la visite ?",
+      "pronunciation": "kom-BYAN duh tahn DOOR lah vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "The guided tour is the only way to visit the interior. It covers the main rooms and history.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About thirty minutes for the guided tour.",
+          "phonetic": "ahn-vee-ROHN trahnt mee-NOOT poor lah vee-ZEET gee-DAY",
+          "french": "Environ trente minutes pour la visite guidée."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fort",
+      "word_local": "le fort",
+      "pronunciation": "leh FOR"
+    },
+    {
+      "word_en": "tidal island",
+      "word_local": "l'île tidal",
+      "pronunciation": "leel tee-DAL"
+    },
+    {
+      "word_en": "low tide",
+      "word_local": "la marée basse",
+      "pronunciation": "lah mar-AY bas"
+    },
+    {
+      "word_en": "military architecture",
+      "word_local": "l'architecture militaire",
+      "pronunciation": "lar-kee-tek-troo mee-lee-TEHR"
+    }
+  ]
+}

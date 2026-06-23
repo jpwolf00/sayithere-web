@@ -1,0 +1,100 @@
+{
+  "id": "bern_sunnere_apotheke",
+  "name_en": "Sunnere Apotheke",
+  "name_local": "Sunnere Apotheke",
+  "icon": "info.circle",
+  "lat": 46.9484742,
+  "lon": 7.4521749,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bern_sunnere_apotheke_001",
+      "intent_en": "Is my health insurance card valid here",
+      "text_local": "Wird meine Krankenkassenkarte hier akzeptiert?",
+      "pronunciation": "vIHrt-mEYEnuh-krAHnkuhnkAHsuhnkAHrtuh-hEEr-AHktsehptEErt",
+      "formality": "casual",
+      "cultural_note": "Kurze, präzise Bestätigung ohne zusätzliche Erklärungen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, akzeptieren wir.",
+        "pronunciation": "yAHAHktsehptEEruhn-veer",
+        "translation_en": "Yes, we accept it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we accept it.",
+          "phonetic": "yAHAHktsehptEEruhn-veer",
+          "french": "Ja, akzeptieren wir."
+        }
+      ]
+    },
+    {
+      "id": "bern_sunnere_apotheke_002",
+      "intent_en": "Where do I hand in my prescription",
+      "text_local": "Wo gebe ich mein Rezept ab?",
+      "pronunciation": "vOH-EHbuh-ihkh-meyen-rehtsEHpt-AHp",
+      "formality": "standard",
+      "cultural_note": "Direkte Antwort ohne unnötige Höflichkeitsfloskeln erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Rezepttheke.",
+        "pronunciation": "ahn-dehr-rEHtsehpttEHkuh",
+        "translation_en": "At the prescription counter."
+      },
+      "responses": [
+        {
+          "english": "At the prescription counter.",
+          "phonetic": "ahn-dehr-rEHtsehpttEHkuh",
+          "french": "An der Rezepttheke."
+        }
+      ]
+    },
+    {
+      "id": "bern_sunnere_apotheke_003",
+      "intent_en": "Can I book a consultation for herbal expectorants",
+      "text_local": "Kann ich eine Beratung zu Kräuterhustenmitteln buchen?",
+      "pronunciation": "kAHn-ihkh-EYEnuh-buhrAHtuhng-tsoo-krAWuhthUHstuhnmIHtuhln-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Kurze Bestätigung mit Verweis auf zuständigen Bereich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, beim Beratungsteam.",
+        "pronunciation": "yAHbeyem-buhrAHtuhngstEHahm",
+        "translation_en": "Yes, at the consultation team."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the consultation team.",
+          "phonetic": "yAHbeyem-buhrAHtuhngstEHahm",
+          "french": "Ja, beim Beratungsteam."
+        }
+      ]
+    },
+    {
+      "id": "bern_sunnere_apotheke_004",
+      "intent_en": "Where is the self-selection shelf for Ricola",
+      "text_local": "Wo finde ich Ricola-Halsbonbons?",
+      "pronunciation": "vOH-fIHnduh-ihkh-rEEkohlAHhAHlsbawnbOHns",
+      "formality": "standard",
+      "cultural_note": "Direkte Antwort, keine unnötigen Details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Selbstwahlregal.",
+        "pronunciation": "ihm-zEHlpstvAHlrehAHl",
+        "translation_en": "In the self-selection shelf."
+      },
+      "responses": [
+        {
+          "english": "In the self-selection shelf.",
+          "phonetic": "ihm-zEHlpstvAHlrehAHl",
+          "french": "Im Selbstwahlregal."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

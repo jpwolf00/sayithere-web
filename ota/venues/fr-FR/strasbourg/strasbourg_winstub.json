@@ -1,0 +1,118 @@
+{
+  "id": "strasbourg_winstub",
+  "name_en": "Winstub",
+  "name_local": "Winstub",
+  "icon": "wineglass",
+  "lat": 48.5836,
+  "lon": 7.7416,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "strasbourg_winstub_001",
+      "intent_en": "Ask what a winstub is",
+      "text_local": "Qu'est-ce qu'une winstub ?",
+      "pronunciation": "kesk oon VAN-stoob",
+      "formality": "polite",
+      "cultural_note": "A winstub is a traditional Alsatian tavern. The name comes from 'Weinstube' (wine room). They serve local food and wine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's a small traditional Alsatian restaurant.",
+          "phonetic": "say tun spay-see-ah-lee-TAY oo oon par-tee-kew-lah-ree-TAY loh-KAL",
+          "french": "C'est un petit restaurant alsacien traditionnel."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_winstub_002",
+      "intent_en": "Ask to try Choucroute",
+      "text_local": "Je voudrais essayer la choucroute, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DREH ay-say-YAY lah shoo-KROOT, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Choucroute is sauerkraut cooked with wine and sausage. It's the signature dish of Alsace — hearty and delicious.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Great choice. I'll bring it to you.",
+          "phonetic": "wee byan soor, see say dee-spoh-nee-BL",
+          "french": "Très bon choix. Je vous l'apporte."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_winstub_003",
+      "intent_en": "Ask for Flammekueche",
+      "text_local": "Un flammekueche, s'il vous plaît !",
+      "pronunciation": "uhn flah-meh-KOO-shuh, seel voo PLAY",
+      "formality": "neutral",
+      "cultural_note": "Flammekueche (tarte flambée) is like a thin pizza with cream, onions, and bacon. A local specialty.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Right away. With crème fraîche.",
+          "phonetic": "wee byan soor, see say dee-spoh-nee-BL",
+          "french": "Tout de suite. Avec de la crème fraîche."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_winstub_004",
+      "intent_en": "Ask for a local wine",
+      "text_local": "Un vin d'Alsace, s'il vous plaît.",
+      "pronunciation": "uhn van dal-SAS, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Try a Riesling or Gewürztraminer. Alsace is one of France's great wine regions, known for white wines.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try a Riesling or a Gewurztraminer.",
+          "phonetic": "byan sewr, zhuh voo ah-PROHNT sah too deh SWEET",
+          "french": "Essayez un Riesling ou un Gewurztraminer."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_winstub_005",
+      "intent_en": "Ask for a bretzel",
+      "text_local": "Un bretzel, s'il vous plaît.",
+      "pronunciation": "uhn BREH-tsel, seel voo PLAY",
+      "formality": "neutral",
+      "cultural_note": "The bretzel originated in Alsace. The classic shape has a symbolic meaning — arms folded in prayer.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Here you go, a bretzel. Enjoy.",
+          "phonetic": "wee byan soor, see say dee-spoh-nee-BL",
+          "french": "Voilà, un bretzel. Bonne dégustation."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "tavern",
+      "word_local": "la winstub",
+      "pronunciation": "lah VAN-stoob"
+    },
+    {
+      "word_en": "sauerkraut",
+      "word_local": "la choucroute",
+      "pronunciation": "lah shoo-KROOT"
+    },
+    {
+      "word_en": "tarte flambée",
+      "word_local": "le flammekueche",
+      "pronunciation": "leh flah-meh-KOO-shuh"
+    },
+    {
+      "word_en": "pretzel",
+      "word_local": "le bretzel",
+      "pronunciation": "leh BREH-tsel"
+    }
+  ]
+}

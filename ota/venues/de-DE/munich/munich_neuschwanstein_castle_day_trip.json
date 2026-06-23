@@ -1,0 +1,100 @@
+{
+  "id": "munich_neuschwanstein_castle_day_trip",
+  "name_en": "Neuschwanstein Castle day trip",
+  "name_local": "Schloss Neuschwanstein",
+  "icon": "building.columns",
+  "lat": 47.5575522,
+  "lon": 10.7496959,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "munich_neuschwanstein_castle_day_trip_001",
+      "intent_en": "Where does the shuttle bus leave from?",
+      "text_local": "Wo fährt der Shuttlebus ab?",
+      "pronunciation": "vOH-fEHrt-dehr-shUHtlehbUHs-AHp",
+      "formality": "standard",
+      "cultural_note": "Shuttle buses depart from the main parking area near the ticket center.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Parkplatz P4.",
+        "pronunciation": "fAWr-dehm-pAHrkplahts-pEH-fEEr",
+        "translation_en": "In front of Parking Lot P4."
+      },
+      "responses": [
+        {
+          "english": "In front of Parking Lot P4.",
+          "phonetic": "fAWr-dehm-pAHrkplahts-pEH-fEEr",
+          "french": "Vor dem Parkplatz P4."
+        }
+      ]
+    },
+    {
+      "id": "munich_neuschwanstein_castle_day_trip_002",
+      "intent_en": "Can I walk to Marienbrücke from the castle?",
+      "text_local": "Kann man von der Burg zur Marienbrücke laufen?",
+      "pronunciation": "kAHn-mahn-fawn-dehr-bUHuhk-tsoor-mAHrihEHnbruekuh-lOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Marienbrücke is accessible via a marked uphill trail starting near the castle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, zu Fuß möglich.",
+        "pronunciation": "yAHtsoo-fOOs-mUHklihkh",
+        "translation_en": "Yes, it's walkable."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's walkable.",
+          "phonetic": "yAHtsoo-fOOs-mUHklihkh",
+          "french": "Ja, zu Fuß möglich."
+        }
+      ]
+    },
+    {
+      "id": "munich_neuschwanstein_castle_day_trip_003",
+      "intent_en": "Where is the Hohenschwangau ticket center?",
+      "text_local": "Wo ist die Ticketkasse Hohenschwangau?",
+      "pronunciation": "vOH-ihst-dee-tIHkehtkAHsuh-hOHuhnshvAHngow",
+      "formality": "standard",
+      "cultural_note": "Tickets are sold at a dedicated counter in Hohenschwangau village, not at the castle itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In Hohenschwangau Dorf.",
+        "pronunciation": "ihn-hOHuhnshvAHngow-dAWrf",
+        "translation_en": "In Hohenschwangau village."
+      },
+      "responses": [
+        {
+          "english": "In Hohenschwangau village.",
+          "phonetic": "ihn-hOHuhnshvAHngow-dAWrf",
+          "french": "In Hohenschwangau Dorf."
+        }
+      ]
+    },
+    {
+      "id": "munich_neuschwanstein_castle_day_trip_004",
+      "intent_en": "What time is my tour slot?",
+      "text_local": "Um wie viel Uhr ist mein Führungstermin?",
+      "pronunciation": "uhm-vee-fEEl-OOr-ihst-meyen-fUEruhngstmEEn",
+      "formality": "standard",
+      "cultural_note": "Guided tours have fixed start times; exact slots are printed on tickets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 14:30 Uhr.",
+        "pronunciation": "uhm-fIHrtsehn-oor-drEYEsihkh-OOr",
+        "translation_en": "At 2:30 PM."
+      },
+      "responses": [
+        {
+          "english": "At 2:30 PM.",
+          "phonetic": "uhm-fIHrtsehn-oor-drEYEsihkh-OOr",
+          "french": "Um 14:30 Uhr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

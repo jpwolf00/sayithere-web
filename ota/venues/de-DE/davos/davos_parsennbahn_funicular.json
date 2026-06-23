@@ -1,0 +1,100 @@
+{
+  "id": "davos_parsennbahn_funicular",
+  "name_en": "Parsennbahn Funicular",
+  "name_local": "Parsennbahn",
+  "icon": "building.columns",
+  "lat": 46.8241141,
+  "lon": 9.8190766,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "davos_parsennbahn_funicular_001",
+      "intent_en": "How to reach Höhenweg interchange from here",
+      "text_local": "Wie komme ich zum Höhenweg?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsuhm-hUHuhnvEHk",
+      "formality": "casual",
+      "cultural_note": "Interchange stations often require following clear signage, especially in mountainous or multi-station transport systems.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Station ist drei Minuten entfernt.",
+        "pronunciation": "dee-shtahtsyOHn-ihst-drEYE-meenOOtuhn-ehntfEHrnt",
+        "translation_en": "The station is three minutes away."
+      },
+      "responses": [
+        {
+          "english": "The station is three minutes away.",
+          "phonetic": "dee-shtahtsyOHn-ihst-drEYE-meenOOtuhn-ehntfEHrnt",
+          "french": "Die Station ist drei Minuten entfernt."
+        }
+      ]
+    },
+    {
+      "id": "davos_parsennbahn_funicular_002",
+      "intent_en": "Can I rent skis at valley station",
+      "text_local": "Gibt es hier Ski-Verleih?",
+      "pronunciation": "EEpt-ehs-hEEr-shEEfehrlEYE",
+      "formality": "casual",
+      "cultural_note": "Equipment rental is a common service at valley stations of ski resorts, often located near ticket counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "davos_parsennbahn_funicular_003",
+      "intent_en": "Which car number is for skiers",
+      "text_local": "Wo ist der Skier-Wagen?",
+      "pronunciation": "vOH-ihst-dehr-skEErvAHuhn",
+      "formality": "standard",
+      "cultural_note": "Skiers are directed to specific funicular cars for efficient boarding and exit; numbers are displayed on signs and doors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Wagen 3 und 4.",
+        "pronunciation": "vAHuhn-drEYE-uhnt-fEEr",
+        "translation_en": "Car 3 and 4."
+      },
+      "responses": [
+        {
+          "english": "Car 3 and 4.",
+          "phonetic": "vAHuhn-drEYE-uhnt-fEEr",
+          "french": "Wagen 3 und 4."
+        }
+      ]
+    },
+    {
+      "id": "davos_parsennbahn_funicular_004",
+      "intent_en": "Where is Weissfluhjoch summit exit",
+      "text_local": "Wo ist der Ausgang am Weissfluhjoch?",
+      "pronunciation": "vOH-ihst-dehr-OWsAHng-ahm-vEYEsflooyAWkh",
+      "formality": "standard",
+      "cultural_note": "Exits at summit stations are typically marked with clear signage to guide visitors toward lifts, trails, and facilities.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich links, nach der Tür.",
+        "pronunciation": "glEYEkh-lINGksnahkh-dehr-tUEr",
+        "translation_en": "Immediately on the left, after the door."
+      },
+      "responses": [
+        {
+          "english": "Immediately on the left, after the door.",
+          "phonetic": "glEYEkh-lINGksnahkh-dehr-tUEr",
+          "french": "Gleich links, nach der Tür."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "delft_new_church",
+  "name_en": "New Church",
+  "name_local": "Nieuwe Kerk",
+  "icon": "building.columns",
+  "lat": 52.0122877,
+  "lon": 4.3607206,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "delft_new_church_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar is de grafkelder van Oranje-Nassau?",
+      "pronunciation": "vAHr-ihs-duh-ghrAHfkehlduhr-vahn-OHrahnyuhnAHsuhuh",
+      "formality": "casual",
+      "cultural_note": "De koninklijke grafkelder is alleen te bezichtigen onder begeleiding.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De grafkelder is toegankelijk via een begeleid bezoek.",
+        "pronunciation": "duh-ghrAHfkehlduhr-ihs-tOOghAHngkuhluhk-vEEah-uhn-buhghuhlEHiht-buhzOOk",
+        "translation_en": "The crypt is accessible via a guided visit."
+      },
+      "responses": [
+        {
+          "english": "The crypt is accessible via a guided visit.",
+          "phonetic": "duh-ghrAHfkehlduhr-ihs-tOOghAHngkuhluhk-vEEah-uhn-buhghuhlEHiht-buhzOOk",
+          "french": "De grafkelder is toegankelijk via een begeleid bezoek."
+        }
+      ]
+    },
+    {
+      "id": "delft_new_church_002",
+      "intent_en": "Can I climb the tower",
+      "text_local": "Mag ik de toren beklimmen?",
+      "pronunciation": "mahkh-ihk-duh-tOHruhn-buhklIHmuhn",
+      "formality": "polite",
+      "cultural_note": "In Nederlandse kerken is de toren vaak een apart beheerd onderdeel, waarbij toegang afhankelijk is van beschikbaarheid en eventuele activiteiten zoals diensten.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, kaartjes zijn bij de balie verkrijgbaar.",
+        "pronunciation": "yAHkAHrtuh-sehihn-behih-duh-bahlEE-vuhrkrEHihghbahr",
+        "translation_en": "Yes, tickets are available at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, tickets are available at the desk.",
+          "phonetic": "yAHkAHrtuh-sehihn-behih-duh-bahlEE-vuhrkrEHihghbahr",
+          "french": "Ja, kaartjes zijn bij de balie verkrijgbaar."
+        }
+      ]
+    },
+    {
+      "id": "delft_new_church_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar is het graf van Vermeer?",
+      "pronunciation": "vAHr-ihs-huht-ghrAHf-vahn-vuhrmIHr",
+      "formality": "standard",
+      "cultural_note": "Johannes Vermeer werd begraven in de Nieuwe Kerk; een specifiek grafmonument is er niet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Het graf van Vermeer is in de Oude Kerk in Delft, niet hier.",
+        "pronunciation": "huht-ghrAHf-vahn-vuhrmIHr-ihs-ihn-duh-UHuhduh-kEHrk-ihn-dEHlftnEEt-hEEr",
+        "translation_en": "Vermeer's grave is in the Old Church in Delft, not here."
+      },
+      "responses": [
+        {
+          "english": "Vermeer's grave is in the Old Church in Delft, not here.",
+          "phonetic": "huht-ghrAHf-vahn-vuhrmIHr-ihs-ihn-duh-UHuhduh-kEHrk-ihn-dEHlftnEEt-hEEr",
+          "french": "Het graf van Vermeer is in de Oude Kerk in Delft, niet hier."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

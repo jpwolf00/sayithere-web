@@ -1,0 +1,93 @@
+{
+  "id": "geneva_nbhd_paquis",
+  "name_en": "Pâquis neighborhood",
+  "name_local": "Les Pâquis",
+  "icon": "map",
+  "phrases": [
+    {
+      "id": "geneva_nbhd_pq_001",
+      "intent_en": "Ask what kind of neighborhood Pâquis is",
+      "text_local": "Quel type de quartier sont les Pâquis ?",
+      "pronunciation": "kel TEEP duh kar-TYAY SOHN lay PAH-kee",
+      "formality": "polite",
+      "cultural_note": "Les Pâquis is Geneva's most cosmopolitan and lively neighbourhood, located between Cornavin station and the lake. It has a diverse, international character with many restaurants, bars and shops.",
+      "responses": [
+        {
+          "english": "It's straight ahead, a five-minute walk.",
+          "phonetic": "OO ES / EH lah GAHR kor-nah-VAN seel voo PLEH",
+          "french": "C'est tout droit, à cinq minutes à pied."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_pq_002",
+      "intent_en": "Ask for a restaurant recommendation",
+      "text_local": "Pouvez-vous me recommander un restaurant dans les Pâquis ?",
+      "pronunciation": "poo-VAY-voo muh ruh-koh-mohn-DAY un res-toh-ROHN don lay PAH-kee",
+      "formality": "polite",
+      "cultural_note": "The Pâquis has one of the most diverse dining scenes in Geneva, with Ethiopian, Thai, Lebanese, Turkish and Swiss restaurants side by side.",
+      "responses": [
+        {
+          "english": "Yes, try Café du Soleil for a traditional fondue.",
+          "phonetic": "POO-vay voo muh ruh-kuh-mAHnd uh(n) / uhn res-toh-RAH(n) dah(n) lay pah-KEE",
+          "french": "Oui, essayez le Café du Soleil pour une fondue traditionnelle."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_pq_003",
+      "intent_en": "Ask about the morning market",
+      "text_local": "Y a-t-il un marché le matin dans ce quartier ?",
+      "pronunciation": "ee-ah-TEEL un mar-SHAY luh mah-TAN don suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "A lively morning market takes place on the Place de la Navigation in the Pâquis on Tuesday and Friday mornings, selling fresh produce, flowers and international foods.",
+      "responses": [
+        {
+          "english": "Yes, there is a daily market at place des Pâquis.",
+          "phonetic": "ee-GREK ah tay eel uhn, uhn MAR-shuh luh mah-TAN don suh kar-TYAY",
+          "french": "Oui, il y a un marché quotidien place des Pâquis."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_pq_004",
+      "intent_en": "Ask if the area is safe at night",
+      "text_local": "Le quartier des Pâquis est-il sûr la nuit ?",
+      "pronunciation": "luh kar-TYAY day PAH-kee eh-TEEL SOOR lah NWEE",
+      "formality": "polite",
+      "cultural_note": "The Pâquis is lively and generally safe, though some streets near the station are animated late at night. It is a well-policed urban neighbourhood.",
+      "responses": [
+        {
+          "english": "It's just around the corner.",
+          "phonetic": "OO es-tuh LA-reh duh TRAHM luh PLOO ploo PROSH",
+          "french": "C'est juste au coin de la rue."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cosmopolitan",
+      "word_local": "cosmopolite",
+      "pronunciation": "koz-moh-poh-LEET"
+    },
+    {
+      "word_en": "fresh market",
+      "word_local": "le marché",
+      "pronunciation": "luh mar-SHAY"
+    },
+    {
+      "word_en": "neighbourhood bar",
+      "word_local": "le bistrot",
+      "pronunciation": "luh bees-TROH"
+    }
+  ]
+}

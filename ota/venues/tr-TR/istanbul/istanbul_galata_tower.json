@@ -1,0 +1,78 @@
+{
+  "id": "istanbul_galata_tower",
+  "name_en": "Galata Tower",
+  "name_local": "Galata Kulesi",
+  "icon": "building.columns",
+  "lat": 41.0256406,
+  "lon": 28.9742134,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "istanbul_galata_tower_001",
+      "intent_en": "Where are the Walls of Galata ruins?",
+      "text_local": "Galata Surları kalıntıları nerede?",
+      "pronunciation": "gAHahtah-suhrahrOO-kahoontooahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Exact location of ruins within the venue is not provided. Safety prefix is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sur kalıntıları kulenin arkasında.",
+        "pronunciation": "sUHr-kahoontooahrOO-kOOlehnihn-ahrkahsoondAH",
+        "translation_en": "The wall ruins are behind the tower."
+      },
+      "responses": [
+        {
+          "english": "The wall ruins are behind the tower.",
+          "phonetic": "sUHr-kahoontooahrOO-kOOlehnihn-ahrkahsoondAH",
+          "french": "Sur kalıntıları kulenin arkasında."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_galata_tower_002",
+      "intent_en": "Can I pay cash at the snack vendor?",
+      "text_local": "Atıştırmalık satıcısında nakit ödeme yapabilir miyim?",
+      "pronunciation": "ahtooshtOOrmahook-sahtoodzhoosoondAH-nahkIHt-uhdEHmeh-yahpahbeelIHr-mEEyihm",
+      "formality": "polite",
+      "cultural_note": "The vendor's cash-only status is unverified. A safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, nakit geçerli.",
+        "pronunciation": "ehvEHtnahkIHt-ehtshehrlIH",
+        "translation_en": "Yes, cash is accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash is accepted.",
+          "phonetic": "ehvEHtnahkIHt-ehtshehrlIH",
+          "french": "Evet, nakit geçerli."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_galata_tower_003",
+      "intent_en": "How do I rent the audio guide?",
+      "text_local": "Sesli rehberi nasıl kiralarım?",
+      "pronunciation": "sehslIH-rehhbehrIH-nahsOO-keerahAHroom",
+      "formality": "standard",
+      "cultural_note": "Turkish staff are direct with instructions. They point to the service point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sesli rehber kiralama masasına gidin.",
+        "pronunciation": "sehslIH-rehhbEHr-keerAHahmah-mahsahsoonAH-eedIHn",
+        "translation_en": "Go to the audio guide rental desk."
+      },
+      "responses": [
+        {
+          "english": "Go to the audio guide rental desk.",
+          "phonetic": "sehslIH-rehhbEHr-keerAHahmah-mahsahsoonAH-eedIHn",
+          "french": "Sesli rehber kiralama masasına gidin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

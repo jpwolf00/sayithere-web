@@ -1,0 +1,78 @@
+{
+  "id": "istanbul_taksim_square_nightlife_district",
+  "name_en": "Taksim Square nightlife district",
+  "name_local": "Taksim Meydanı ve çevresi",
+  "icon": "map",
+  "lat": 41.006381,
+  "lon": 28.9758715,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "istanbul_taksim_square_nightlife_district_001",
+      "intent_en": "Ask where T2 nostalgia tram stop is",
+      "text_local": "T2 nostaljik tramvay durağı nerede?",
+      "pronunciation": "tEH-eeEE-nawstahzhIHk-trahmvAHy-doorahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "İstiklal Caddesi yaya yolu olduğu için tramvay durakları tabelalarla belirtilir, ancak tam konum için danışma en güvenilir kaynaktır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İstiklal'in başında, Taksim Meydanı çıkışında.",
+        "pronunciation": "ihstihkahIHn-bahshoondAHtAHksihm-mehydahnOO-tshookooshoondAH",
+        "translation_en": "At the start of İstiklal, at the Taksim Square exit."
+      },
+      "responses": [
+        {
+          "english": "At the start of İstiklal, at the Taksim Square exit.",
+          "phonetic": "ihstihkahIHn-bahshoondAHtAHksihm-mehydahnOO-tshookooshoondAH",
+          "french": "İstiklal'in başında, Taksim Meydanı çıkışında."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_taksim_square_nightlife_district_002",
+      "intent_en": "Ask if metro runs after midnight",
+      "text_local": "Metro gece yarısından sonra çalışıyor mu?",
+      "pronunciation": "mehtrAW-EHdzheh-yahroosoondAHn-sawnrAH-tshahooshOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Metro sefer saatleri gün ve özel durumlara göre değişiklik gösterebilir, güncel bilgi için danışma en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Son metro gece 12'de.",
+        "pronunciation": "sAWn-mehtrAW-EHdzheh-OHneeee-dEH",
+        "translation_en": "The last metro is at midnight."
+      },
+      "responses": [
+        {
+          "english": "The last metro is at midnight.",
+          "phonetic": "sAWn-mehtrAW-EHdzheh-OHneeee-dEH",
+          "french": "Son metro gece 12'de."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_taksim_square_nightlife_district_003",
+      "intent_en": "Ask if club has cover charge tonight",
+      "text_local": "Bu gece giriş ücretli mi?",
+      "pronunciation": "buh-EHdzheh-eerIHsh-uhdzhrehtlIH-mih",
+      "formality": "standard",
+      "cultural_note": "İstiklal'deki mekanların giriş ücretleri değişkendir, kesin bilgi için danışma veya kapıdaki görevliye sorulmalıdır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bu gece ücretli.",
+        "pronunciation": "ehvEHtbuh-EHdzheh-uhdzhrehtlIH",
+        "translation_en": "Yes, there is a cover charge tonight."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a cover charge tonight.",
+          "phonetic": "ehvEHtbuh-EHdzheh-uhdzhrehtlIH",
+          "french": "Evet, bu gece ücretli."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

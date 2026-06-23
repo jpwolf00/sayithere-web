@@ -1,0 +1,78 @@
+{
+  "id": "olomouc_dolní_náměstí_lower_square_district",
+  "name_en": "Dolní náměstí Lower Square District",
+  "name_local": "Dolní náměstí",
+  "icon": "map",
+  "lat": 49.5921647,
+  "lon": 17.2531946,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "olomouc_dolní_náměstí_lower_square_district_001",
+      "intent_en": "Can I pay at the café terrace before sitting",
+      "text_local": "Můžu zaplatit na zahrádce, než si sednu?",
+      "pronunciation": "mOOzhoo-zAHplaheet-nAHzahhrAHttsehnEHsh-see-sEHdnoo",
+      "formality": "standard",
+      "cultural_note": "Table service is typical; paying at the counter beforehand is unusual.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, plaťte až u stolu, prosím.",
+        "pronunciation": "nEHplAHteh-AHzh-OO-stOHlooprOHseem",
+        "translation_en": "No, please pay at the table."
+      },
+      "responses": [
+        {
+          "english": "No, please pay at the table.",
+          "phonetic": "nEHplAHteh-AHzh-OO-stOHlooprOHseem",
+          "french": "Ne, plaťte až u stolu, prosím."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_dolní_náměstí_lower_square_district_002",
+      "intent_en": "Do market stalls here take cash only",
+      "text_local": "Berou tady stánky jen hotovost?",
+      "pronunciation": "bEHroh-tAHdee-stAHngkee-yEHn-hOHtohvohst",
+      "formality": "standard",
+      "cultural_note": "Small market stalls in Czechia often prefer cash, but some have terminals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Většinou ano, ale někdy i kartu.",
+        "pronunciation": "vyEHtsheenoh-AHnohAHleh-nyEHkdee-ee-kAHrtoo",
+        "translation_en": "Mostly yes, but sometimes card too."
+      },
+      "responses": [
+        {
+          "english": "Mostly yes, but sometimes card too.",
+          "phonetic": "vyEHtsheenoh-AHnohAHleh-nyEHkdee-ee-kAHrtoo",
+          "french": "Většinou ano, ale někdy i kartu."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_dolní_náměstí_lower_square_district_003",
+      "intent_en": "Where is the nearest tram ticket machine",
+      "text_local": "Kde je nejbližší automat na lístky?",
+      "pronunciation": "kdEH-yeh-nAYbleeshshee-OWtohmaht-nAHleestkee",
+      "formality": "standard",
+      "cultural_note": "Ticket machines are often near tram stops rather than in the center of squares.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Na kraji náměstí, u zastávky.",
+        "pronunciation": "nAHkrahyee-nAHmnyehseeOO-zAHstahfkee",
+        "translation_en": "At the edge of the square, by the stop."
+      },
+      "responses": [
+        {
+          "english": "At the edge of the square, by the stop.",
+          "phonetic": "nAHkrahyee-nAHmnyehseeOO-zAHstahfkee",
+          "french": "Na kraji náměstí, u zastávky."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

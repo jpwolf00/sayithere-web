@@ -1,0 +1,101 @@
+{
+  "id": "avignon_place_horloge",
+  "name_en": "Place de l'Horloge",
+  "name_local": "Place de l'Horloge",
+  "icon": "building.2",
+  "lat": 43.9489,
+  "lon": 4.7996,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "avignon_horloge_001",
+      "intent_en": "Ask where the tourist office is",
+      "text_local": "Où est l'office de tourisme ?",
+      "pronunciation": "oo eh loh-FEES duh too-REESM",
+      "formality": "polite",
+      "cultural_note": "The tourist office near the Place de l'Horloge can provide maps, schedules, and help with booking guided tours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Right next to the town hall, on the square.",
+          "phonetic": "zhoost ah koh-TAY duh lah may-REE, soor lah PLAHS",
+          "french": "Juste à côté de la mairie, sur la place."
+        }
+      ]
+    },
+    {
+      "id": "avignon_horloge_002",
+      "intent_en": "Ask about the city hall",
+      "text_local": "Où est l'Hôtel de Ville ?",
+      "pronunciation": "oo eh lo-TEL duh VEEL",
+      "formality": "polite",
+      "cultural_note": "The Hôtel de Ville (City Hall) is on this square. Its Renaissance façade contrasts with the medieval buildings around it.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Hôtel de Ville (City Hall) is located on this square.",
+          "phonetic": "",
+          "french": "L'Hôtel de Ville est situé sur cette place."
+        }
+      ]
+    },
+    {
+      "id": "avignon_horloge_003",
+      "intent_en": "Ask about the cafés",
+      "text_local": "Où sont les meilleurs cafés ?",
+      "pronunciation": "oo son lay may-YUHR kah-FAY",
+      "formality": "polite",
+      "cultural_note": "The square is surrounded by cafés and restaurants. Try 'Le Louvre' or 'Les Deux Garçons' for people-watching.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are several on the square, with terraces.",
+          "phonetic": "eel ee ahn ah plu-ZYUHR soor lah PLAHS, ah-VEK day teh-RAHS",
+          "french": "Il y en a plusieurs sur la place, avec des terrasses."
+        }
+      ]
+    },
+    {
+      "id": "avignon_horloge_004",
+      "intent_en": "Ask about the market",
+      "text_local": "Y a-t-il un marché ici ?",
+      "pronunciation": "ee ah-TEEL uhn mar-SHAY ee-SEE",
+      "formality": "polite",
+      "cultural_note": "There's a small market on Tuesday mornings. For the main food market, go to Les Halles (covered market).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "A small market Tuesday morning. For the main one, go to Les Halles.",
+          "phonetic": "uhn puh-TEE mar-SHAY luh mar-DEE mah-TAN. poor luh grahn, ah-LAY oh AL",
+          "french": "Un petit marché le mardi matin. Pour le grand, allez aux Halles."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "square",
+      "word_local": "la place",
+      "pronunciation": "lah PLAS"
+    },
+    {
+      "word_en": "clock",
+      "word_local": "l'horloge",
+      "pronunciation": "lor-LAJ"
+    },
+    {
+      "word_en": "city hall",
+      "word_local": "l'Hôtel de Ville",
+      "pronunciation": "lo-TEL duh VEEL"
+    },
+    {
+      "word_en": "café",
+      "word_local": "le café",
+      "pronunciation": "leh kah-FAY"
+    }
+  ]
+}

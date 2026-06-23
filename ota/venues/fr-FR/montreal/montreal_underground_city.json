@@ -1,0 +1,118 @@
+{
+  "id": "montreal_underground_city",
+  "name_en": "Underground City (RÉSO)",
+  "name_local": "La ville souterraine (RÉSO)",
+  "icon": "tram",
+  "lat": 45.5017,
+  "lon": -73.5674,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "mtl_reso_001",
+      "intent_en": "Ask how to get to Place Ville-Marie from the metro",
+      "text_local": "Comment est-ce qu'on rejoint Place Ville-Marie en passant par le souterrain ?",
+      "pronunciation": "ko-MAH ess-KON ruh-ZHWAN plass veel-mah-REE ahn pah-SAHN par luh soo-teh-RAN",
+      "formality": "polite",
+      "cultural_note": "RÉSO is the world's largest underground pedestrian network — 33km of tunnels connecting metro stations, shopping, and offices. Essential in winter.",
+      "responses": [
+        {
+          "english": "Follow the Place Ville-Marie signs.",
+          "phonetic": "swee-VAY lay pah-NOH PLAHSS veel-mah-REE",
+          "french": "Suivez les panneaux Place Ville-Marie."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_reso_002",
+      "intent_en": "Ask if the underground connects to the train station",
+      "text_local": "Est-ce que le souterrain est relié à la gare Centrale ?",
+      "pronunciation": "ess-KUH luh soo-teh-RAN ay ruh-lee-YAY ah lah GAR sahn-TRAHL",
+      "formality": "polite",
+      "cultural_note": "Gare Centrale (Central Station) is fully connected to RÉSO, allowing travellers to arrive by train and reach most downtown hotels without going outside.",
+      "responses": [
+        {
+          "english": "Yes, follow the signs to Central Station.",
+          "phonetic": "wee swee-VAY lay pah-NOH GAR sahn-TRAHL",
+          "french": "Oui, suivez les panneaux Gare Centrale."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_reso_003",
+      "intent_en": "Ask where the nearest food court is underground",
+      "text_local": "Il y a une aire de restauration souterraine par ici ?",
+      "pronunciation": "eel ee ah OON air duh res-toh-rah-SYON soo-teh-REN par ee-SEE",
+      "formality": "neutral",
+      "cultural_note": "RÉSO has numerous food courts, especially under major complexes like Les Promenades Cathédrale and Complexe Les Ailes.",
+      "responses": [
+        {
+          "english": "There is one on the lower level, that way.",
+          "phonetic": "eel ee ahn ah uhn oh nee-VOH ahn-fay-RYUR par LAH",
+          "french": "Il y en a un au niveau inférieur, par là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_reso_004",
+      "intent_en": "Ask for directions to the Eaton Centre from underground",
+      "text_local": "Pour aller au Centre Eaton par le souterrain, c'est par où ?",
+      "pronunciation": "poor ah-LAY oh SAHN-truh ee-TON par luh soo-teh-RAN say par OO",
+      "formality": "neutral",
+      "cultural_note": "Les Galeries du Centre (formerly Eaton Centre) is one of the main underground shopping hubs. Signs in RÉSO are in French only.",
+      "responses": [
+        {
+          "english": "Follow the Eaton Centre signs.",
+          "phonetic": "swee-VAY lay pah-NOH SAHN-truh EE-tuhn",
+          "french": "Suivez les panneaux Centre Eaton."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_reso_005",
+      "intent_en": "Say you are lost in the tunnels",
+      "text_local": "Je me suis perdu dans les tunnels. Pouvez-vous m'aider ?",
+      "pronunciation": "zhuh muh swee pair-DOO dahn lay too-NEL. poo-VAY voo may-DAY",
+      "formality": "polite",
+      "cultural_note": "Getting turned around in RÉSO is very common even for locals. Don't hesitate to ask passersby — Montréalers are famously helpful.",
+      "responses": [
+        {
+          "english": "Look for a map on the walls. The metro is that way.",
+          "phonetic": "shair-SHAY uhn PLAHN soor lay MOOR luh may-TROH eh par LAH",
+          "french": "Cherchez un plan sur les murs. Le métro est par là."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "underground tunnel",
+      "word_local": "le tunnel souterrain",
+      "pronunciation": "luh too-NEL soo-teh-RAN"
+    },
+    {
+      "word_en": "food court",
+      "word_local": "l'aire de restauration",
+      "pronunciation": "lair duh res-toh-rah-SYON"
+    },
+    {
+      "word_en": "train station",
+      "word_local": "la gare",
+      "pronunciation": "lah GAR"
+    },
+    {
+      "word_en": "exit",
+      "word_local": "la sortie",
+      "pronunciation": "lah sor-TEE"
+    }
+  ]
+}

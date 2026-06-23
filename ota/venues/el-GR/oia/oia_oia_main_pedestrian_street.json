@@ -1,0 +1,78 @@
+{
+  "id": "oia_oia_main_pedestrian_street",
+  "name_en": "Oia Main Pedestrian Street",
+  "name_local": "Νικόλαος Νομικός",
+  "icon": "map",
+  "lat": 36.4622122,
+  "lon": 25.3757257,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "oia_oia_main_pedestrian_street_001",
+      "intent_en": "Where is the Castle of Oia ruins entrance?",
+      "text_local": "Πού είναι η είσοδος των ερειπίων του Κάστρου της Οίας;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-tohn-EHreepEEohn-doo-kAHstroo-tees-EEahs",
+      "formality": "standard",
+      "cultural_note": "Castle ruins are a significant landmark; directions often refer to following general cues or asking staff rather than precise signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ανεβαίνετε τα σκαλιά προς το κάστρο.",
+        "pronunciation": "AHnehvEHnehtEH-tah-skahlyAH-prOHs-toh-kAHstroh",
+        "translation_en": "Follow the signs to the Castle of Oia."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Castle of Oia.",
+          "phonetic": "AHnehvEHnehtEH-tah-skahlyAH-prOHs-toh-kAHstroh",
+          "french": "Ανεβαίνετε τα σκαλιά προς το κάστρο."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_main_pedestrian_street_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι οι σκάλες για το Αμμούδι από εδώ;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-skAHlehs-prOHs-toh-ahmOOthee",
+      "formality": "standard",
+      "cultural_note": "In Greece, directions often involve following general paths or asking locals rather than relying on signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στο τέλος του δρόμου, σκάλες Αμμουδιού.",
+        "pronunciation": "AHreestehrAH-stoh-tEHlohs-too-thrOHmooskAHlehs-AHmootheeOO",
+        "translation_en": "Go down this little path and you’ll see the stairs to Amoudi."
+      },
+      "responses": [
+        {
+          "english": "Go down this little path and you’ll see the stairs to Amoudi.",
+          "phonetic": "AHreestehrAH-stoh-tEHlohs-too-thrOHmooskAHlehs-AHmootheeOO",
+          "french": "Αριστερά στο τέλος του δρόμου, σκάλες Αμμουδιού."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_main_pedestrian_street_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω εισιτήρια για γαϊδουράκι;",
+      "pronunciation": "pOO-AHghohrAHzoh-EEseetEEreeAH-yEHthoorAHthahs",
+      "formality": "polite",
+      "cultural_note": "Donkey rides are a traditional service in Santorini, often handled by specific staff known locally as 'γαιδουράς'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην πλατεία με τα γαϊδουράκια, κάτω.",
+        "pronunciation": "steem-blahtEEah-meh-tah-ghEYEthoorAHahkAHtoh",
+        "translation_en": "You get the tickets down there, near the stairs."
+      },
+      "responses": [
+        {
+          "english": "You get the tickets down there, near the stairs.",
+          "phonetic": "steem-blahtEEah-meh-tah-ghEYEthoorAHahkAHtoh",
+          "french": "Στην πλατεία με τα γαϊδουράκια, κάτω."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

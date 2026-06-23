@@ -1,0 +1,100 @@
+{
+  "id": "cologne_roman_germanic_museum",
+  "name_en": "Roman-Germanic Museum",
+  "name_local": "Römisch-Germanisches Museum",
+  "icon": "building.columns",
+  "lat": 50.9405719,
+  "lon": 6.9586594,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "cologne_roman_germanic_museum_001",
+      "intent_en": "Where is the Belgian House ticket desk?",
+      "text_local": "Wo ist der Kartenverkauf im Belgischen Haus?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtshAHlt-ihm-bEHlihshuhn-hOWs",
+      "formality": "standard",
+      "cultural_note": "Ticketservice im interim Standort Belgisches Haus wird durch reguläre Schaltermitarbeiter betreut.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss rechts.",
+        "pronunciation": "ihm-ehrdgEHshaws-rEHkhts",
+        "translation_en": "On the ground floor to the right."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor to the right.",
+          "phonetic": "ihm-ehrdgEHshaws-rEHkhts",
+          "french": "Im Erdgeschoss rechts."
+        }
+      ]
+    },
+    {
+      "id": "cologne_roman_germanic_museum_002",
+      "intent_en": "Where do group bookings check in?",
+      "text_local": "Wo melden sich Gruppen an?",
+      "pronunciation": "vOH-mEHlduhn-zihkh-rUHpuhn-AHn",
+      "formality": "standard",
+      "cultural_note": "Gruppenanmeldungen werden an der regulären Kasse oder ggf. am Sondercounter bearbeitet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter vorne.",
+        "pronunciation": "ahm-shAHlt-fAWrnuh",
+        "translation_en": "At the front counter."
+      },
+      "responses": [
+        {
+          "english": "At the front counter.",
+          "phonetic": "ahm-shAHlt-fAWrnuh",
+          "french": "Am Schalter vorne."
+        }
+      ]
+    },
+    {
+      "id": "cologne_roman_germanic_museum_003",
+      "intent_en": "Is the Dionysus mosaic currently open?",
+      "text_local": "Ist das Dionysus-Mosaik zugänglich?",
+      "pronunciation": "ihst-dahs-dIHohnUEzuhsmOHzeyek-tsOOehnglIHkh",
+      "formality": "standard",
+      "cultural_note": "Mosaike sind Teil der Dauerausstellung und normalerweise immer zugänglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, zugänglich.",
+        "pronunciation": "yAHtsOOehnglIHkh",
+        "translation_en": "Yes, accessible."
+      },
+      "responses": [
+        {
+          "english": "Yes, accessible.",
+          "phonetic": "yAHtsOOehnglIHkh",
+          "french": "Ja, zugänglich."
+        }
+      ]
+    },
+    {
+      "id": "cologne_roman_germanic_museum_004",
+      "intent_en": "How do I rent an audio guide?",
+      "text_local": "Wie leihe ich einen Audioguide aus?",
+      "pronunciation": "vee-lEYE-UH-ihkh-EYEnuhn-ehnAWdihUHuheyeddeh-OWs",
+      "formality": "standard",
+      "cultural_note": "Audioguides werden an der Museumskasse oder am Infoschalter verliehen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kartenschalter im Belgischen Haus.",
+        "pronunciation": "ahm-kAHrtuhnshAHlt-ihm-bEHlgihshuhn-hOWs",
+        "translation_en": "At the ticket counter in the Belgian House."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter in the Belgian House.",
+          "phonetic": "ahm-kAHrtuhnshAHlt-ihm-bEHlgihshuhn-hOWs",
+          "french": "Am Kartenschalter im Belgischen Haus."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

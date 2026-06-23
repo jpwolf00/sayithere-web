@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_marche_capucins",
+  "name_en": "Marché des Capucins",
+  "name_local": "Marché des Capucins",
+  "icon": "bag",
+  "lat": 44.8306,
+  "lon": -0.5695,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bordeaux_capucins_001",
+      "intent_en": "Ask for 500 grams of Périgord foie gras",
+      "text_local": "Je voudrais cinq cents grammes de foie gras du Périgord, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY sank-SAHN GRAM duh FWAH-grah doo pay-ree-GOR seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Marché des Capucins is Bordeaux's historic covered market, nicknamed 'le ventre de Bordeaux' (the belly of Bordeaux).",
+      "responses": [
+        {
+          "english": "Here you go, twenty-five euros.",
+          "phonetic": "vwah-LAH, vehn-SEHNK uh-ROH",
+          "french": "Voilà, vingt-cinq euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_capucins_002",
+      "intent_en": "Ask if the oysters are from Arcachon Bay",
+      "text_local": "Est-ce que vos huîtres viennent du Bassin d'Arcachon ?",
+      "pronunciation": "es-kuh voh ZWEE-truh VYEN doo bah-SAN dar-kah-SHON",
+      "formality": "polite",
+      "cultural_note": "Arcachon oysters are a local speciality and are sold freshly shucked at the market with bread and white wine.",
+      "responses": [
+        {
+          "english": "Yes, from Arcachon, arrived this morning.",
+          "phonetic": "wee, dar-kah-SHOHN, ah-ree-VAY suh mah-TEHN",
+          "french": "Oui, d'Arcachon, arrivées ce matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_capucins_003",
+      "intent_en": "Ask to taste a slice of cheese before buying",
+      "text_local": "Pourriez-vous me faire goûter ce fromage avant que je l'achète ?",
+      "pronunciation": "poo-RYAY-voo muh FAIR goo-TAY suh froh-MAZH ah-VAHN kuh zhuh lah-SHET",
+      "formality": "polite",
+      "cultural_note": "Cheese vendors at French markets will typically offer a small taste without hesitation.",
+      "responses": [
+        {
+          "english": "Yes, here, taste.",
+          "phonetic": "wee, tuh-NAY, goo-TAY",
+          "french": "Oui, tenez, goûtez."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_capucins_004",
+      "intent_en": "Ask what time the market opens in the morning",
+      "text_local": "À quelle heure ouvre le marché le matin ?",
+      "pronunciation": "ah kel ur OO-vruh luh mar-SHAY luh mah-TAN",
+      "formality": "polite",
+      "cultural_note": "The Marché des Capucins operates Tuesday through Sunday from around 6 am; Sunday morning is the busiest and most festive.",
+      "responses": [
+        {
+          "english": "At 6 AM.",
+          "phonetic": "ah seez UHR doo mah-TEHN",
+          "french": "À six heures du matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_capucins_005",
+      "intent_en": "Ask the price per kilo of strawberries",
+      "text_local": "Quel est le prix au kilo pour ces fraises ?",
+      "pronunciation": "kel eh luh PREE oh kee-LOH poor say FRAIZ",
+      "formality": "polite",
+      "cultural_note": "Local Périgord strawberries are in season from May to July and are considered among France's finest.",
+      "responses": [
+        {
+          "english": "Four euros per kilo.",
+          "phonetic": "KAH-truh uh-ROH luh KEE-loh",
+          "french": "Quatre euros le kilo."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "market",
+      "word_local": "le marché",
+      "pronunciation": "luh mar-SHAY"
+    },
+    {
+      "word_en": "oysters",
+      "word_local": "les huîtres",
+      "pronunciation": "lay ZWEE-truh"
+    },
+    {
+      "word_en": "foie gras",
+      "word_local": "le foie gras",
+      "pronunciation": "luh FWAH-grah"
+    },
+    {
+      "word_en": "strawberries",
+      "word_local": "les fraises",
+      "pronunciation": "lay FRAIZ"
+    }
+  ]
+}

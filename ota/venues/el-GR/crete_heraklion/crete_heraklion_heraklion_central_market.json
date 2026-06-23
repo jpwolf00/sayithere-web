@@ -1,0 +1,78 @@
+{
+  "id": "crete_heraklion_heraklion_central_market",
+  "name_en": "Heraklion Central Market",
+  "name_local": "Δημοτική Αγορά Ηρακλείου",
+  "icon": "cart",
+  "lat": 35.33908,
+  "lon": 25.1332843,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "crete_heraklion_heraklion_central_market_001",
+      "intent_en": "Can I sample cheese before buying",
+      "text_local": "Μπορώ να δοκιμάσω τυρί πριν αγοράσω;",
+      "pronunciation": "bohrOH-nah-thOHeemAHsoh-teerEE-prEEn-AHghohrAHsoh",
+      "formality": "standard",
+      "cultural_note": "Στα περισσότερα περίπτερα τυριών είναι αποδεκτή η δειγματοληψία πριν την αγορά, ως μέρος της εμπορικής συνήθειας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δοκιμάστε.",
+        "pronunciation": "nEHthOHeemAHsteh",
+        "translation_en": "Yes, taste it."
+      },
+      "responses": [
+        {
+          "english": "Yes, taste it.",
+          "phonetic": "nEHthOHeemAHsteh",
+          "french": "Ναι, δοκιμάστε."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_central_market_002",
+      "intent_en": "Is bulk olive oil available today",
+      "text_local": "Πωλείται χύμα ελαιόλαδο σήμερα;",
+      "pronunciation": "pohlEEteh-khEEmah-EHlehOHlahthOH-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Το ελαιόλαδο χύμα διατίθεται συνήθως στις ειδικές μονάδες του τμήματος ελαιολάδου του αγορά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, υπάρχουν βαρέλια.",
+        "pronunciation": "nEHeepAHrkhoon-vahrEHlyah",
+        "translation_en": "Yes, there are barrels."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are barrels.",
+          "phonetic": "nEHeepAHrkhoon-vahrEHlyah",
+          "french": "Ναι, υπάρχουν βαρέλια."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_central_market_003",
+      "intent_en": "Do fish counters accept bargaining",
+      "text_local": "Μπορώ να διαπραγματευτώ για τα ψάρια;",
+      "pronunciation": "kAHnoon-EHkptohsEE-stah-psAHreeAH",
+      "formality": "standard",
+      "cultural_note": "Στα ψαράδικα του αγορά η τιμή μπορεί να διαπραγματευτεί ανάλογα με την ποσότητα και την εποχή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, αλλά μόνο για μεγάλες ποσότητες.",
+        "pronunciation": "nEHahlAH-mOHnoh-yAH-mehghAHlehs-pohsOHteetEHs",
+        "translation_en": "Yes, but only for large quantities."
+      },
+      "responses": [
+        {
+          "english": "Yes, but only for large quantities.",
+          "phonetic": "nEHahlAH-mOHnoh-yAH-mehghAHlehs-pohsOHteetEHs",
+          "french": "Ναι, αλλά μόνο για μεγάλες ποσότητες."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "brno_masarykova_shopping_street",
+  "name_en": "Masarykova shopping street",
+  "name_local": "Masarykova ulice",
+  "icon": "bag",
+  "lat": 49.1922443,
+  "lon": 16.6113382,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "brno_masarykova_shopping_street_001",
+      "intent_en": "Where is the nearest ATM?",
+      "text_local": "Kde je nejbližší bankomat?",
+      "pronunciation": "kdEH-yeh-nAYbleeshshee-bAHngkohmaht",
+      "formality": "standard",
+      "cultural_note": "ATMs are commonly clustered near major intersections or pharmacies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Na rohu, vedle lékárny.",
+        "pronunciation": "nAHrohhoovEHdleh-lEHkahrnee",
+        "translation_en": "On the corner, next to the pharmacy."
+      },
+      "responses": [
+        {
+          "english": "On the corner, next to the pharmacy.",
+          "phonetic": "nAHrohhoovEHdleh-lEHkahrnee",
+          "french": "Na rohu, vedle lékárny."
+        }
+      ]
+    },
+    {
+      "id": "brno_masarykova_shopping_street_002",
+      "intent_en": "Is mobile pay accepted everywhere?",
+      "text_local": "Dá se všude platit mobilem?",
+      "pronunciation": "dAH-seh-fshOOdeh-plAHeet-mOHbeelehm",
+      "formality": "standard",
+      "cultural_note": "While widespread, smaller market stalls may still be cash-only.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Většina obchodů ano, některé stánky berou jen hotovost.",
+        "pronunciation": "vyEHtsheenah-OHpkhohdoo-AHnohnyEHktehreh-stAHngkee-bEHroh-yEHn-hOHtohvohst",
+        "translation_en": "Most shops yes, some stalls take only cash."
+      },
+      "responses": [
+        {
+          "english": "Most shops yes, some stalls take only cash.",
+          "phonetic": "vyEHtsheenah-OHpkhohdoo-AHnohnyEHktehreh-stAHngkee-bEHroh-yEHn-hOHtohvohst",
+          "french": "Většina obchodů ano, některé stánky berou jen hotovost."
+        }
+      ]
+    },
+    {
+      "id": "brno_masarykova_shopping_street_003",
+      "intent_en": "Where can I buy tram tickets?",
+      "text_local": "Kde si můžu koupit lístky na tramvaj?",
+      "pronunciation": "kdEH-see-mOOzhoo-kOHpeet-lEEstkee-nAHtrahmvahy",
+      "formality": "standard",
+      "cultural_note": "Ticket machines are located at tram stops, not on the trams themselves.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U automatu na zastávce, hned tady vpravo.",
+        "pronunciation": "OO-OWtohmAHtoo-nAHzahstAHftsehhnEHt-tAHdee-fprAHvoh",
+        "translation_en": "At the ticket machine at the stop, just here on the right."
+      },
+      "responses": [
+        {
+          "english": "At the ticket machine at the stop, just here on the right.",
+          "phonetic": "OO-OWtohmAHtoo-nAHzahstAHftsehhnEHt-tAHdee-fprAHvoh",
+          "french": "U automatu na zastávce, hned tady vpravo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

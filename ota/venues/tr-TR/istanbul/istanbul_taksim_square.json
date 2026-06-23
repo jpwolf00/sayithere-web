@@ -1,0 +1,100 @@
+{
+  "id": "istanbul_taksim_square",
+  "name_en": "Taksim Square",
+  "name_local": "Taksim Meydanı",
+  "icon": "building.columns",
+  "lat": 41.0379547,
+  "lon": 28.9852034,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "istanbul_taksim_square_001",
+      "intent_en": "Ask where metro entrance is",
+      "text_local": "Metro girişi nerede?",
+      "pronunciation": "mehtrAW-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Meydan büyük ve girişler tabelayla belirtilmediyse, görevliye sormak en güvenli yoldur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meydanda, anıtın arkasında.",
+        "pronunciation": "mehydahndAHahnootOOn-ahrkahsoondAH",
+        "translation_en": "In the square, behind the monument."
+      },
+      "responses": [
+        {
+          "english": "In the square, behind the monument.",
+          "phonetic": "mehydahndAHahnootOOn-ahrkahsoondAH",
+          "french": "Meydanda, anıtın arkasında."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_taksim_square_002",
+      "intent_en": "Ask if monument area has wheelchair ramp",
+      "text_local": "Anıt alanında tekerlekli sandalye rampası var mı?",
+      "pronunciation": "ahnOOt-ahahnoondAH-tehkehrlehklIH-sahndahyEH-rahmpahsOO-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Erişilebilirlik detayları için görevliye danışmak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rampa mevcut, sol tarafta.",
+        "pronunciation": "rahmpAH-mehvdzhUHtsAW-tahrahftAH",
+        "translation_en": "There is a ramp, on the left side."
+      },
+      "responses": [
+        {
+          "english": "There is a ramp, on the left side.",
+          "phonetic": "rahmpAH-mehvdzhUHtsAW-tahrahftAH",
+          "french": "Rampa mevcut, sol tarafta."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_taksim_square_003",
+      "intent_en": "Ask if Gezi Park has public toilets",
+      "text_local": "Gezi Parkı'nda umumi tuvalet var mı?",
+      "pronunciation": "ehzIH-pahrkoondAH-OOmoomih-toovahlEHt-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Parktaki tesisler değişken olabilir, teyit için görevliye danışılmalı.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Parkın içinde var.",
+        "pronunciation": "pahrkOOn-eetshihndEH-vAHr",
+        "translation_en": "There is one inside the park."
+      },
+      "responses": [
+        {
+          "english": "There is one inside the park.",
+          "phonetic": "pahrkOOn-eetshihndEH-vAHr",
+          "french": "Parkın içinde var."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_taksim_square_004",
+      "intent_en": "Ask when Atatürk Cultural Centre shows start",
+      "text_local": "Atatürk Kültür Merkezi'nde gösteriler ne zaman başlıyor?",
+      "pronunciation": "ahtahtUHrk-kuhltUHr-mehrkehzihndEH-uhstehreelEHr-nEH-zahmAHn-bahshlOOyawr",
+      "formality": "standard",
+      "cultural_note": "Gösteri saatleri değişkendir, güncel bilgi için danışma gereklidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çoğu gösteri akşam sekizde başlar.",
+        "pronunciation": "tshohUH-uhstehrIH-ahkshAHm-sEHkihzdeh-bahshAHr",
+        "translation_en": "Most shows start at eight in the evening."
+      },
+      "responses": [
+        {
+          "english": "Most shows start at eight in the evening.",
+          "phonetic": "tshohUH-uhstehrIH-ahkshAHm-sEHkihzdeh-bahshAHr",
+          "french": "Çoğu gösteri akşam sekizde başlar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

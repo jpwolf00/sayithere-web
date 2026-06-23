@@ -1,0 +1,135 @@
+{
+  "id": "mont_st_michel_abbaye",
+  "name_en": "Abbey of Mont Saint-Michel",
+  "name_local": "Abbaye du Mont-Saint-Michel",
+  "icon": "building.columns.fill",
+  "lat": 48.636,
+  "lon": -1.5113,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "msm_abbaye_001",
+      "intent_en": "Ask about the tide schedule",
+      "text_local": "À quelle heure est la marée haute aujourd'hui ?",
+      "pronunciation": "ah kel UR eh lah mah-RAY OHT oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Tides around Mont Saint-Michel are among Europe's highest — up to 14 metres. The causeway can submerge. Always check the day's tide schedule posted at the entrance.",
+      "responses": [
+        {
+          "english": "High tide at two thirty.",
+          "phonetic": "mah-RAY OHT ah kah-TORZ UR TRAHNT",
+          "french": "Marée haute à quatorze heures trente."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_abbaye_002",
+      "intent_en": "Buy an entrance ticket to the abbey",
+      "text_local": "Un billet pour l'abbaye, s'il vous plaît.",
+      "pronunciation": "uhn bee-YAY poor lab-BAY-ee seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Tickets are sold at the base of the mount. There is no ticket office inside the abbey itself — purchase before climbing the Grande Rue.",
+      "responses": [
+        {
+          "english": "Eleven euros.",
+          "phonetic": "OHNZ uh-ROH",
+          "french": "Onze euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_abbaye_003",
+      "intent_en": "Ask whether an audio guide is available",
+      "text_local": "Est-ce qu'il y a un audioguide disponible, s'il vous plaît ?",
+      "pronunciation": "ess keel ee ah uhn oh-dee-oh-GEED dees-poh-NEEBL seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Audio guides are available in several languages including English. They are highly recommended given how vast and historically layered the abbey complex is.",
+      "responses": [
+        {
+          "english": "Yes, in French and English.",
+          "phonetic": "wee ahn frahn-SAY ay ahn ahn-GLAY",
+          "french": "Oui, en français et en anglais."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_abbaye_004",
+      "intent_en": "Ask about the cloister",
+      "text_local": "Où se trouve le cloître, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV luh KLWAT-ruh seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Gothic cloister on the abbey's upper level is its most celebrated space — a double row of slender columns surrounding a garden. It dates from the 13th century.",
+      "responses": [
+        {
+          "english": "At the top, on the last floor.",
+          "phonetic": "ahn OH oh dair-NYAY ay-TAHZH",
+          "french": "En haut, au dernier étage."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_abbaye_005",
+      "intent_en": "Ask when the abbey closes",
+      "text_local": "À quelle heure ferme l'abbaye ce soir ?",
+      "pronunciation": "ah kel UR FERM lab-BAY-ee suh SWAHR",
+      "formality": "polite",
+      "cultural_note": "Opening hours vary by season. During summer the abbey sometimes stays open late for evening visits with dramatic lighting — ask at the ticket desk for the current schedule.",
+      "responses": [
+        {
+          "english": "At six o’clock.",
+          "phonetic": "ah dee-ZWEET UR",
+          "french": "À dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_abbaye_006",
+      "intent_en": "Ask if photography is permitted inside",
+      "text_local": "Est-ce qu'on peut prendre des photos à l'intérieur ?",
+      "pronunciation": "ess kohn PUH PRAHN-druh day foh-TOH ah lahn-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "Photography for personal use is generally allowed in most areas of the abbey, but tripods and flash may be restricted in certain chapels. Always check signage at each room.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "high tide",
+      "word_local": "la marée haute",
+      "pronunciation": "lah mah-RAY OHT"
+    },
+    {
+      "word_en": "abbey",
+      "word_local": "l'abbaye",
+      "pronunciation": "lab-BAY-ee"
+    },
+    {
+      "word_en": "cloister",
+      "word_local": "le cloître",
+      "pronunciation": "luh KLWAT-ruh"
+    },
+    {
+      "word_en": "ticket",
+      "word_local": "le billet",
+      "pronunciation": "luh bee-YAY"
+    }
+  ]
+}

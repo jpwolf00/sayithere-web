@@ -1,0 +1,78 @@
+{
+  "id": "linz_linz_tourist_information_center",
+  "name_en": "Linz Tourist Information Center",
+  "name_local": "Tourismus Information Linz",
+  "icon": "info.circle",
+  "lat": 48.3059078,
+  "lon": 14.286198,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "linz_linz_tourist_information_center_001",
+      "intent_en": "How do I book Pöstlingberg train ticket?",
+      "text_local": "Wie buche ich ein Ticket für die Pöstlingbergbahn?",
+      "pronunciation": "vee-bOOkhuh-ihkh-eyen-tIHkuht-fuer-dee-pUHstlingbbAHn",
+      "formality": "standard",
+      "cultural_note": "Pöstlingbergbahn is the correct term for the train to Pöstlingberg.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Tickets gibt es am Schalter hier.",
+        "pronunciation": "dee-tIHkuhts-gEEpt-ehs-ahm-shAHlt-hEEr",
+        "translation_en": "The tickets are available at the counter here."
+      },
+      "responses": [
+        {
+          "english": "The tickets are available at the counter here.",
+          "phonetic": "dee-tIHkuhts-gEEpt-ehs-ahm-shAHlt-hEEr",
+          "french": "Die Tickets gibt es am Schalter hier."
+        }
+      ]
+    },
+    {
+      "id": "linz_linz_tourist_information_center_002",
+      "intent_en": "Is event ticket sales desk open now?",
+      "text_local": "Hat der Kartenschalter für Veranstaltungen jetzt offen?",
+      "pronunciation": "haht-dehr-kAHrtuhnshAHlt-fuer-fehrAHnshtAHltuhnguhn-yEHtst-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Kartenschalter is a common term for ticket sales desks in German-speaking regions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, jetzt offen.",
+        "pronunciation": "yAHyEHtst-AWfuhn",
+        "translation_en": "Yes, open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, open now.",
+          "phonetic": "yAHyEHtst-AWfuhn",
+          "french": "Ja, jetzt offen."
+        }
+      ]
+    },
+    {
+      "id": "linz_linz_tourist_information_center_003",
+      "intent_en": "Where do I buy the Linz Card?",
+      "text_local": "Wo kann ich die Linz Card kaufen?",
+      "pronunciation": "vOH-kAHn-ihkh-dee-lIHnts-kAHrt-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Schalter is the typical term for counter/service desk in German-speaking tourist offices.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Linz Card-Schalter.",
+        "pronunciation": "ahm-lIHnts-kAHrtshAHlt",
+        "translation_en": "At the Linz Card counter."
+      },
+      "responses": [
+        {
+          "english": "At the Linz Card counter.",
+          "phonetic": "ahm-lIHnts-kAHrtshAHlt",
+          "french": "Am Linz Card-Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

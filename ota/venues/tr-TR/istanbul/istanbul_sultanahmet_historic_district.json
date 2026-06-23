@@ -1,0 +1,100 @@
+{
+  "id": "istanbul_sultanahmet_historic_district",
+  "name_en": "Sultanahmet historic district",
+  "name_local": "Sultanahmet",
+  "icon": "map",
+  "lat": 41.0041141,
+  "lon": 28.9769087,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "istanbul_sultanahmet_historic_district_001",
+      "intent_en": "Ask where to refill Istanbulkart nearby",
+      "text_local": "Yakınlarda İstanbulkart'a bakiye nerede yükletebilirim?",
+      "pronunciation": "yahkoonahrdAH-ihstahnbuhkahrtAH-bahkeeyEH-nEHrehdeh-yuhklehtehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Dolum noktaları sık değişebilir, en güncel bilgiyi danışmadan almak güvenlidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Duraktaki bilet makinesinden.",
+        "pronunciation": "doorahktahkIH-beelEHt-mahkeenehsihndAHn",
+        "translation_en": "From the ticket machine at the stop."
+      },
+      "responses": [
+        {
+          "english": "From the ticket machine at the stop.",
+          "phonetic": "doorahktahkIH-beelEHt-mahkeenehsihndAHn",
+          "french": "Duraktaki bilet makinesinden."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_sultanahmet_historic_district_002",
+      "intent_en": "Ask where to buy museum pass",
+      "text_local": "Müze kartı nereden satın alabilirim?",
+      "pronunciation": "muezEH-kahrtOO-nEHrehdahn-sahtOOn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Açık alanda net bir satış noktası bilgisi yoksa danışmaya yönlendirmek güvenlidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ayasofya girişinde satılıyor.",
+        "pronunciation": "ahyahsawfyAH-eereeshihndEH-sahtooOOyawr",
+        "translation_en": "It is sold at the entrance of Hagia Sophia."
+      },
+      "responses": [
+        {
+          "english": "It is sold at the entrance of Hagia Sophia.",
+          "phonetic": "ahyahsawfyAH-eereeshihndEH-sahtooOOyawr",
+          "french": "Ayasofya girişinde satılıyor."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_sultanahmet_historic_district_003",
+      "intent_en": "Ask which tram stop for Hagia Sophia",
+      "text_local": "Hagia Sophia için hangi tramvay durağında inmeliyim?",
+      "pronunciation": "haheeAH-sawpheeAH-eetshIHn-hahngIH-trahmvAHy-doorahoondAH-ihnmehlEEyihm",
+      "formality": "standard",
+      "cultural_note": "Tramvay şoförü veya görevli kısa ve net cevap verir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sultanahmet durağında inin.",
+        "pronunciation": "suhtahnahhmEHt-doorahoondAH-eenEEn",
+        "translation_en": "Get off at Sultanahmet stop."
+      },
+      "responses": [
+        {
+          "english": "Get off at Sultanahmet stop.",
+          "phonetic": "suhtahnahhmEHt-doorahoondAH-eenEEn",
+          "french": "Sultanahmet durağında inin."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_sultanahmet_historic_district_004",
+      "intent_en": "Ask how to reach Grand Bazaar on foot",
+      "text_local": "Kapalıçarşı'ya yürüyerek nasıl gidebilirim?",
+      "pronunciation": "kahpahootshahrshooyAH-yuerueyehrEHk-nahsOO-eedehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Bölge labirent gibi olduğu için en güvenli yol tarifi danışmadan alınır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Düz gidin, sağda kalıyor.",
+        "pronunciation": "dUHz-eedIHnsahdAH-kahOOyawr",
+        "translation_en": "Go straight, it's on the right."
+      },
+      "responses": [
+        {
+          "english": "Go straight, it's on the right.",
+          "phonetic": "dUHz-eedIHnsahdAH-kahOOyawr",
+          "french": "Düz gidin, sağda kalıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

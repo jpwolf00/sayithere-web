@@ -1,0 +1,118 @@
+{
+  "id": "montreal_musee_des_beaux_arts",
+  "name_en": "Montreal Museum of Fine Arts",
+  "name_local": "Musée des beaux-arts de Montréal",
+  "icon": "building.columns",
+  "lat": 45.4987,
+  "lon": -73.5797,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "mtl_mba_001",
+      "intent_en": "Ask if the permanent collection is free",
+      "text_local": "L'accès à la collection permanente, c'est gratuit ?",
+      "pronunciation": "lak-SEH ah lah ko-lek-SYON pair-mah-NAHT say gra-TWEE",
+      "formality": "polite",
+      "cultural_note": "The MMFA's permanent collection is free of charge. Temporary exhibitions require tickets. One of the largest museums in Canada.",
+      "responses": [
+        {
+          "english": "Yes, the permanent collection is free.",
+          "phonetic": "wee lah koh-lek-SYOHN pair-mah-NAHNT eh grah-TWEET",
+          "french": "Oui, la collection permanente est gratuite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mba_002",
+      "intent_en": "Ask where the contemporary art section is",
+      "text_local": "Le département d'art contemporain, c'est à quel étage ?",
+      "pronunciation": "luh day-par-tuh-MAH dart kon-tahn-poh-RAN say ah kel ay-TAHZH",
+      "formality": "polite",
+      "cultural_note": "The museum spans five pavilions connected by underground passages. Staff are bilingual and happy to guide you.",
+      "responses": [
+        {
+          "english": "In the contemporary art pavilion, across the street.",
+          "phonetic": "oh pah-vee-YOHN dar kohn-tahm-poh-RAHN ahn FAHSS",
+          "french": "Au pavillon d'art contemporain, en face."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mba_003",
+      "intent_en": "Ask about the next guided tour",
+      "text_local": "La prochaine visite guidée, elle commence à quelle heure ?",
+      "pronunciation": "lah pro-SHEN vee-ZEET gee-DAY el ko-MAHSS ah kel UR",
+      "formality": "polite",
+      "cultural_note": "Free guided tours are offered regularly in French and English. Audio guides are also available for the major exhibitions.",
+      "responses": [
+        {
+          "english": "The next one is at two o'clock.",
+          "phonetic": "lah proh-SHEN eh tah kah-TORZ UR",
+          "french": "La prochaine est à quatorze heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mba_004",
+      "intent_en": "Ask where the coat check is",
+      "text_local": "Excusez-moi, où se trouve le vestiaire ?",
+      "pronunciation": "ex-koo-ZAY mwah, oo suh TROOV luh ves-tee-AIR",
+      "formality": "polite",
+      "cultural_note": "Large bags must be checked. The coat check is free. The museum café in the Bourgie Concert Hall pavilion is worth a visit.",
+      "responses": [
+        {
+          "english": "In the basement, near the entrance.",
+          "phonetic": "oh soo-SOL pray duh lahn-TRAY",
+          "french": "Au sous-sol, près de l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mba_005",
+      "intent_en": "Ask if there is a student discount",
+      "text_local": "Est-ce qu'il y a un tarif étudiant ?",
+      "pronunciation": "ess-KEEL ee ah un tah-REEF ay-too-dee-YAH",
+      "formality": "polite",
+      "cultural_note": "Students with valid ID get reduced admission. Those under 30 often qualify for special rates at many Montréal cultural institutions.",
+      "responses": [
+        {
+          "english": "Yes, with your student card.",
+          "phonetic": "wee ah-VEK VOH-truh KART day-too-DYAHN",
+          "french": "Oui, avec votre carte d'étudiant."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "exhibition",
+      "word_local": "l'exposition",
+      "pronunciation": "lex-po-zee-SYON"
+    },
+    {
+      "word_en": "guided tour",
+      "word_local": "la visite guidée",
+      "pronunciation": "lah vee-ZEET gee-DAY"
+    },
+    {
+      "word_en": "coat check",
+      "word_local": "le vestiaire",
+      "pronunciation": "luh ves-tee-AIR"
+    },
+    {
+      "word_en": "floor / level",
+      "word_local": "l'étage",
+      "pronunciation": "lay-TAHZH"
+    }
+  ]
+}

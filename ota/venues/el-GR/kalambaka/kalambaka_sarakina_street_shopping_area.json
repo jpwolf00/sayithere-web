@@ -1,0 +1,100 @@
+{
+  "id": "kalambaka_sarakina_street_shopping_area",
+  "name_en": "Sarakina Street Shopping Area",
+  "name_local": "Οδός Σαρακίνα",
+  "icon": "bag",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kalambaka_sarakina_street_shopping_area_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το καλύτερο μαγαζί για θέα Μετεώρων;",
+      "pronunciation": "pOO-EEneh-toh-kahlEEtehrOH-mAHghahzEE-yAH-thEHah-mEHtehOHrohn",
+      "formality": "standard",
+      "cultural_note": "Meteora view shops are clustered along the shopping area, but exact placement is not standardized.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στο κατάστημα «Μετέωρα Βিউ».",
+        "pronunciation": "AHreestehrAH-stoh-kahtAHsteemAH-mehtEHohrAH-pEE-ehnbehnggAHleeehlhrOOihshshohEEkahr-ehnbehnggAHleeehlhrOOihshshohOO",
+        "translation_en": "At the end of the street, toward the square."
+      },
+      "responses": [
+        {
+          "english": "At the end of the street, toward the square.",
+          "phonetic": "AHreestehrAH-stoh-kahtAHsteemAH-mehtEHohrAH-pEE-ehnbehnggAHleeehlhrOOihshshohEEkahr-ehnbehnggAHleeehlhrOOihshshohOO",
+          "french": "Αριστερά στο κατάστημα «Μετέωρα Βিউ»."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_sarakina_street_shopping_area_002",
+      "intent_en": "Do small vendors take cards",
+      "text_local": "Οι μικροπωλητές δέχονται κάρτες;",
+      "pronunciation": "ee-mEEkrohpOHleetEHz-thEHkhohdEH-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "Small vendors in local markets often prefer cash, but card acceptance varies and should be confirmed in person.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Κάποιοι ναι, οι περισσότεροι μετρητά.",
+        "pronunciation": "kAHpeeEE-nEHee-pEHreessOHtehrEE-mEHtreetAH",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "kAHpeeEE-nEHee-pEHreessOHtehrEE-mEHtreetAH",
+          "french": "Κάποιοι ναι, οι περισσότεροι μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_sarakina_street_shopping_area_003",
+      "intent_en": "Can I taste the tsipouro before buying",
+      "text_local": "Μπορώ να δοκιμάσω το τσίπουρο πριν αγοράσω;",
+      "pronunciation": "bohrOH-nah-thOHeemAHsoh-toh-tsEEpoorOH-prEEn-AHghohrAHsoh",
+      "formality": "standard",
+      "cultural_note": "Tsipouro tasting is a common practice in local stalls, often encouraged by vendors to promote sales.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δοκιμάστε ελεύθερα.",
+        "pronunciation": "nEHthOHeemAHsteh-ehlEHfthehrAH",
+        "translation_en": "Yes, taste freely."
+      },
+      "responses": [
+        {
+          "english": "Yes, taste freely.",
+          "phonetic": "nEHthOHeemAHsteh-ehlEHfthehrAH",
+          "french": "Ναι, δοκιμάστε ελεύθερα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_sarakina_street_shopping_area_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να στείλω αυτό το εικονίδιο;",
+      "pronunciation": "pOO-bohrOH-nah-stEEloh-ahftEEn-deen-eekOHnah",
+      "formality": "polite",
+      "cultural_note": "The 'xenodochos' (hotel keeper) is a stable service point in the area and commonly assists with shipping inquiries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταχυδρομείο, μετά την πλατεία.",
+        "pronunciation": "stoh-tAHkheethrohmEEohmehtAH-teem-blahtEEah",
+        "translation_en": "At the nearby hotel or the post office, a little further down the street."
+      },
+      "responses": [
+        {
+          "english": "At the nearby hotel or the post office, a little further down the street.",
+          "phonetic": "stoh-tAHkheethrohmEEohmehtAH-teem-blahtEEah",
+          "french": "Στο ταχυδρομείο, μετά την πλατεία."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

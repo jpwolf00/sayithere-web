@@ -1,0 +1,78 @@
+{
+  "id": "maastricht_markt_square_market",
+  "name_en": "Markt Square Market",
+  "name_local": "Markt",
+  "icon": "cart",
+  "lat": 50.8514467,
+  "lon": 5.6902096,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "maastricht_markt_square_market_001",
+      "intent_en": "Ask if this stall accepts cards",
+      "text_local": "Kan hier met pin betalen?",
+      "pronunciation": "kahn-hEEr-meht-pIHn-buhtAHluhn",
+      "formality": "standard",
+      "cultural_note": "Contant geld is gebruikelijk, maar pinbetalingen worden steeds vaker geaccepteerd.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de meeste stalls wel.",
+        "pronunciation": "behih-duh-mEHstuh-stAHls-vEHl",
+        "translation_en": "Most stalls accept it."
+      },
+      "responses": [
+        {
+          "english": "Most stalls accept it.",
+          "phonetic": "behih-duh-mEHstuh-stAHls-vEHl",
+          "french": "Bij de meeste stalls wel."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_markt_square_market_002",
+      "intent_en": "Ask when the market closes today",
+      "text_local": "Tot hoe laat is de markt vandaag open?",
+      "pronunciation": "tawt-hOO-lAHt-ihs-duh-mAHrkt-vahndAHkh-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "Sluitingstijden van markten kunnen variëren per dag en seizoen. Vraag bij de Stadswacht voor actuele tijden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de Stadswacht.",
+        "pronunciation": "vrAHkh-huht-behih-duh-stAHtsvAHkht",
+        "translation_en": "Ask at the Stadswacht."
+      },
+      "responses": [
+        {
+          "english": "Ask at the Stadswacht.",
+          "phonetic": "vrAHkh-huht-behih-duh-stAHtsvAHkht",
+          "french": "Vraag het bij de Stadswacht."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_markt_square_market_003",
+      "intent_en": "Ask which stall sells Limburg vlaai",
+      "text_local": "Waar is de vlaai te koop?",
+      "pronunciation": "vAHr-ihs-duh-vlAHy-tuh-kOHp",
+      "formality": "standard",
+      "cultural_note": "Limburgse vlaai is een typisch gebak dat vaak bij marktkramers wordt verkocht. De verkoop kan wisselen per dag.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Probeer de kraam van de kaasboer, die heeft vaak Limburgse vlaai.",
+        "pronunciation": "prohbIHr-duh-krAHm-vahn-duh-kahzbOOrdee-hehft-vAHk-lIHmbrkhsuh-vlAHy",
+        "translation_en": "Try the stall of the cheese vendor, they often have Limburg vlaai."
+      },
+      "responses": [
+        {
+          "english": "Try the stall of the cheese vendor, they often have Limburg vlaai.",
+          "phonetic": "prohbIHr-duh-krAHm-vahn-duh-kahzbOOrdee-hehft-vAHk-lIHmbrkhsuh-vlAHy",
+          "french": "Probeer de kraam van de kaasboer, die heeft vaak Limburgse vlaai."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

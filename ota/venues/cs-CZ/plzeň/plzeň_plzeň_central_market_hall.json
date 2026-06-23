@@ -1,0 +1,122 @@
+{
+  "id": "plzeň_plzeň_central_market_hall",
+  "name_en": "Plzeň Central Market Hall",
+  "name_local": "Vnitřní trh Plzeň",
+  "icon": "cart",
+  "lat": 49.7477415,
+  "lon": 13.3775249,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "plzeň_plzeň_central_market_hall_001",
+      "intent_en": "How do I weigh produce myself?",
+      "text_local": "Jak si tady sám zvážím ovoce a zeleninu?",
+      "pronunciation": "yAHk-see-tAHdee-sAHm-zvAHzheem-OHvohtseh-ah-zEHlehnyEEnoo",
+      "formality": "standard",
+      "cultural_note": "Self-service scales are common in Czech markets; you must enter the product code yourself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Váha je támhle, položíte a zmáčknete kód z cenovky.",
+        "pronunciation": "vAHhah-yeh-tAHmhlehpOHlohzhEEteh-ah-zmAHtshknehteh-kOHd-s-tsEHnohfkee",
+        "translation_en": "The scale is over there, you place it and press the code from the price tag."
+      },
+      "responses": [
+        {
+          "english": "The scale is over there, you place it and press the code from the price tag.",
+          "phonetic": "vAHhah-yeh-tAHmhlehpOHlohzhEEteh-ah-zmAHtshknehteh-kOHd-s-tsEHnohfkee",
+          "french": "Váha je támhle, položíte a zmáčknete kód z cenovky."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_central_market_hall_002",
+      "intent_en": "Where are the seasonal deposit boxes?",
+      "text_local": "Kde najdu sezónní úschovné boxy?",
+      "pronunciation": "kdEH-nAHydoo-sEHzohnyee-OOskhohvneh-bOHksee",
+      "formality": "standard",
+      "cultural_note": "Seasonal deposit boxes for coats or purchases are often placed outside the main hall to save space.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Venku u bočního vchodu, napravo.",
+        "pronunciation": "vEHngkoo-OO-bOHtshnyeehoh-fkhOHdoonAHprahvoh",
+        "translation_en": "Outside by the side entrance, on the right."
+      },
+      "responses": [
+        {
+          "english": "Outside by the side entrance, on the right.",
+          "phonetic": "vEHngkoo-OO-bOHtshnyeehoh-fkhOHdoonAHprahvoh",
+          "french": "Venku u bočního vchodu, napravo."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_central_market_hall_003",
+      "intent_en": "Are bulk meat orders possible today?",
+      "text_local": "Dají se dnes udělat větší objednávky masa?",
+      "pronunciation": "dAHyee-seh-dnEHs-OOehlaht-vyEHtshee-OHbyehdnAHfkee-mAHsah",
+      "formality": "standard",
+      "cultural_note": "Bulk orders at Czech butchers often require speaking to the butcher directly, ideally in the morning.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u řezníka vzadu. Zeptejte se do dvanácti.",
+        "pronunciation": "AHnohOO-rEHznyeekah-vzAHdoozEHptayteh-seh-dOHdvahnAHtsee",
+        "translation_en": "Yes, at the butcher in the back. Ask before noon."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the butcher in the back. Ask before noon.",
+          "phonetic": "AHnohOO-rEHznyeekah-vzAHdoozEHptayteh-seh-dOHdvahnAHtsee",
+          "french": "Ano, u řezníka vzadu. Zeptejte se do dvanácti."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_central_market_hall_004",
+      "intent_en": "Do stalls accept cards?",
+      "text_local": "Berou tady stánky karty?",
+      "pronunciation": "bEHroh-tAHdee-stAHngkee-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "Many traditional market stalls in Plzeň are cash-only; it's common to direct customers to the nearest ATM.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Většinou jen hotovost, bankomat je u vchodu.",
+        "pronunciation": "vyEHtsheenoh-yEHn-hOHtohvohstbAHngkohmaht-yeh-OO-fkhOHdoo",
+        "translation_en": "Mostly cash only, the ATM is at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Mostly cash only, the ATM is at the entrance.",
+          "phonetic": "vyEHtsheenoh-yEHn-hOHtohvohstbAHngkohmaht-yeh-OO-fkhOHdoo",
+          "french": "Většinou jen hotovost, bankomat je u vchodu."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_central_market_hall_005",
+      "intent_en": "Where is the dairy section?",
+      "text_local": "Kde je tady sekce s mléčnými výrobky?",
+      "pronunciation": "kdEH-yeh-tAHdee-sEHktseh-s-mlEHtshneemee-vEErohpkee",
+      "formality": "standard",
+      "cultural_note": "Czech market directions are often relative to other stalls, not numbered aisles.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a pak doleva, vedle květin.",
+        "pronunciation": "rOHvnyeh-ah-pAHk-dOHlehvahvEHdleh-kvyEHeen",
+        "translation_en": "Straight ahead and then left, next to the flowers."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead and then left, next to the flowers.",
+          "phonetic": "rOHvnyeh-ah-pAHk-dOHlehvahvEHdleh-kvyEHeen",
+          "french": "Rovně a pak doleva, vedle květin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

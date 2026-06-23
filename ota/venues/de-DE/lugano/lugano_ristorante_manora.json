@@ -1,0 +1,100 @@
+{
+  "id": "lugano_ristorante_manora",
+  "name_en": "Ristorante Manora",
+  "name_local": "Ristorante Manora",
+  "icon": "fork.knife",
+  "lat": 46.0279846,
+  "lon": 8.9672313,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "lugano_ristorante_manora_001",
+      "intent_en": "Is the terrazza panoramica open tonight?",
+      "text_local": "Ist die Terrasse heute Abend geöffnet?",
+      "pronunciation": "ihst-dee-tEHrahsuh-hAWuhtuh-AHbuhnt-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Outdoor seating availability may depend on weather conditions, but staff can confirm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die Terrasse ist offen.",
+        "pronunciation": "yAHdee-tEHrahsuh-ihst-AWfuhn",
+        "translation_en": "Yes, the terrace is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, the terrace is open.",
+          "phonetic": "yAHdee-tEHrahsuh-ihst-AWfuhn",
+          "french": "Ja, die Terrasse ist offen."
+        }
+      ]
+    },
+    {
+      "id": "lugano_ristorante_manora_002",
+      "intent_en": "Can we split the bill between two cards?",
+      "text_local": "Kann die Rechnung auf zwei Karten aufgeteilt werden?",
+      "pronunciation": "kAHn-dee-rEHkhnuhng-owf-tsvEYE-kAHrtuhn-OWfuhtEYElt-vEHrduhn",
+      "formality": "standard",
+      "cultural_note": "Swiss restaurants typically accommodate bill splitting upon request.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, das geht.",
+        "pronunciation": "yAHdahs-EHt",
+        "translation_en": "Yes, it is possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is possible.",
+          "phonetic": "yAHdahs-EHt",
+          "french": "Ja, das geht."
+        }
+      ]
+    },
+    {
+      "id": "lugano_ristorante_manora_003",
+      "intent_en": "Do I wait to be seated or seat myself?",
+      "text_local": "Muss ich warten oder kann ich mich setzen?",
+      "pronunciation": "mUHs-ihkh-vAHrtuhn-OHd-kAHn-ihkh-mihkh-zEHtsuhn",
+      "formality": "standard",
+      "cultural_note": "In Swiss restaurants, seating is typically managed by the staff unless otherwise indicated.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sie werden geführt.",
+        "pronunciation": "zee-vEHrduhn-uhfUErt",
+        "translation_en": "You will be seated."
+      },
+      "responses": [
+        {
+          "english": "You will be seated.",
+          "phonetic": "zee-vEHrduhn-uhfUErt",
+          "french": "Sie werden geführt."
+        }
+      ]
+    },
+    {
+      "id": "lugano_ristorante_manora_004",
+      "intent_en": "Do you accept euros or only francs?",
+      "text_local": "Werden Euros oder nur Franken akzeptiert?",
+      "pronunciation": "vEHrduhn-AWuhrohs-OHd-nOOr-frAHngkuhn-AHktsehptEErt",
+      "formality": "standard",
+      "cultural_note": "Switzerland uses the Swiss franc (CHF) as its official currency; euros may not be accepted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Franken.",
+        "pronunciation": "nOOr-frAHngkuhn",
+        "translation_en": "Only francs."
+      },
+      "responses": [
+        {
+          "english": "Only francs.",
+          "phonetic": "nOOr-frAHngkuhn",
+          "french": "Nur Franken."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

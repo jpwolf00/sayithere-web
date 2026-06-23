@@ -1,0 +1,97 @@
+{
+  "id": "venice_santa_maria_maggiore",
+  "name_en": "Santa Maria della Salute",
+  "name_local": "Santa Maria della Salute",
+  "icon": "building.columns",
+  "lat": 45.4305726,
+  "lon": 12.3347318,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "venice_santa_maria_maggiore_01",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, dov'è l'ingresso principale della chiesa, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, doh-VEH leen-GRES-soh preen-chee-PAH-leh DEL-lah KYEH-zah, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the square side, central door.",
+          "phonetic": "DAHL LAH-toh DEHL-lah pee-AHTS-tsah POHR-tah chehnt-RAH-leh",
+          "french": "Dal lato della piazza, porta centrale."
+        }
+      ]
+    },
+    {
+      "id": "venice_santa_maria_maggiore_03",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, si possono fare fotografie all'interno, per favore?",
+      "pronunciation": "bwon-JOR-noh see POHSS-soh-noh FAH-reh foh-toh-GRAH-fee-eh ahl-in-TEH-ree-or-oh pehr fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, without flash. No during masses.",
+          "phonetic": "SÌ SEHN-tsah FLAHS NOH doo-RAHN-teh MEH-sseh",
+          "french": "Sì, senza flash. No durante messe."
+        }
+      ]
+    },
+    {
+      "id": "it_sal_ve_x1",
+      "intent_en": "Ask when the basilica was built and why",
+      "text_local": "Scusi, quando e perché fu costruita la Salute?",
+      "pronunciation": "SKOO-zee, KWAN-doh eh per-KEH foo kos-TWEE-tah lah sah-LOO-teh?",
+      "formality": "polite",
+      "cultural_note": "Santa Maria della Salute was built from 1631 as a votive church, thanking the Virgin Mary for the end of a devastating plague that killed 80,000 Venetians.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In 1631, as a vow for the end of the plague.",
+          "phonetic": "nel meel-SEH-een-toh-tren-TOO-noh, KOH-meh VOH-toh per lah FEE-neh DEL-lah PES-teh.",
+          "french": "Nel 1631, come voto per la fine della peste."
+        }
+      ]
+    },
+    {
+      "id": "it_sal_ve_x2",
+      "intent_en": "Ask which vaporetto stop is closest",
+      "text_local": "Scusi, quale fermata del vaporetto è più vicina alla Salute?",
+      "pronunciation": "SKOO-zee, KWAH-leh fer-MAH-tah del vah-poh-RET-toh eh PYOO vee-CHEE-nah AL-lah sah-LOO-teh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Salute, line one, right here opposite.",
+          "phonetic": "sah-LOO-teh, LEE-neh-ah OO-noh, PROH-pryoh kwee dee FRON-teh.",
+          "french": "Salute, linea uno, proprio qui di fronte."
+        }
+      ]
+    },
+    {
+      "id": "it_sal_ve_x3",
+      "intent_en": "Ask if entry to the basilica is free",
+      "text_local": "Buongiorno, l'ingresso alla basilica è gratuito?",
+      "pronunciation": "bwohn-JOHR-noh, leen-GRES-soh AL-lah bah-ZEE-lee-kah eh grah-TWEE-toh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the church is free, the sacristy has a charge.",
+          "phonetic": "see, lah KYEH-zah eh grah-TWEE-tah, lah sah-GRES-tyah eh ah pah-gah-MEN-toh.",
+          "french": "Sì, la chiesa è gratuita, la sagrestia è a pagamento."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

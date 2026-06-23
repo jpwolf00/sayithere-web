@@ -1,0 +1,92 @@
+{
+  "id": "amboise_neighborhood_loire",
+  "name_en": "Loire Riverside – Amboise",
+  "name_local": "Bord de Loire",
+  "icon": "map.circle",
+  "phrases": [
+    {
+      "id": "amboise_loire_001",
+      "intent_en": "Ask where the best viewpoint of the château from the riverbank is",
+      "text_local": "Quel est le meilleur point de vue sur le château depuis les berges ?",
+      "pronunciation": "kel ay luh may-YUR PWAN duh VOO soor luh shah-TOH duh-PWEE lay BAIRZH",
+      "formality": "polite",
+      "cultural_note": "The south bank of the Loire opposite Amboise provides a classic postcard view of the Château Royal rising above the town.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "amboise_loire_002",
+      "intent_en": "Ask where to cycle along the Loire",
+      "text_local": "Où puis-je commencer le circuit cyclable au bord de la Loire ?",
+      "pronunciation": "oo PWEE-zhuh koh-mahn-SAY luh seer-KWEE seek-LABL oh BOR duh lah LWAR",
+      "formality": "polite",
+      "cultural_note": "The Loire à Vélo cycling route passes through Amboise and is one of the most scenic stretches of the 800 km Loire Valley bike path.",
+      "responses": [
+        {
+          "english": "The entrance is located near the SNCF train station.",
+          "phonetic": "OO pwee zhuh koh-mAHNSS luh seer-kwee SEE-kla-bl oh bor duh lah LWAHR",
+          "french": "L'entrée se trouve près de la gare SNCF."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_loire_003",
+      "intent_en": "Ask if there is a riverside walking path",
+      "text_local": "Y a-t-il un chemin de promenade le long des berges ?",
+      "pronunciation": "ee ah-TEEL un shuh-MAN duh proh-muh-NAD luh LON day BAIRZH",
+      "formality": "polite",
+      "cultural_note": "A levée (embankment path) follows the Loire through Amboise, offering pleasant walks with views of the river, the island, and the château.",
+      "responses": [
+        {
+          "english": "Yes, an embankment path follows the Loire through Amboise.",
+          "phonetic": "Yah-TEEL uhn sheuh-MAN duh PROH-muh-nahd oh BOR duh lah LWAHR",
+          "french": "Oui, une levée longe la Loire à travers Amboise."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_loire_004",
+      "intent_en": "Ask about sunset views along the river",
+      "text_local": "Quel est le meilleur endroit pour regarder le coucher de soleil sur la Loire ?",
+      "pronunciation": "kel ay luh may-YUR ahn-DRWA poor ruh-gar-DAY luh koo-SHAY duh soh-LAY soor lah LWAR",
+      "formality": "polite",
+      "cultural_note": "The Loire Valley is a UNESCO World Heritage Site partly for its exceptional light; sunsets along the river at Amboise are particularly dramatic, with the château silhouetted above.",
+      "responses": [
+        {
+          "english": "At Loire Valley Location, Conception street.",
+          "phonetic": "OO pwee zhuh LWAY uhn VAY-loh",
+          "french": "Chez Loire Valley Location, rue de la Conception."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "riverbank",
+      "word_local": "la berge",
+      "pronunciation": "lah BAIRZH"
+    },
+    {
+      "word_en": "embankment path",
+      "word_local": "la levée",
+      "pronunciation": "lah luh-VAY"
+    },
+    {
+      "word_en": "cycling route",
+      "word_local": "le circuit cyclable",
+      "pronunciation": "luh seer-KWEE seek-LABL"
+    },
+    {
+      "word_en": "sunset",
+      "word_local": "le coucher de soleil",
+      "pronunciation": "luh koo-SHAY duh soh-LAY"
+    }
+  ]
+}

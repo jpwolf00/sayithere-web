@@ -1,0 +1,98 @@
+{
+  "id": "lausanne_place_palud",
+  "name_en": "Place de la Palud",
+  "name_local": "Place de la Palud",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "lausanne_pp_001",
+      "intent_en": "Ask about the animated clock",
+      "text_local": "Qu'est-ce que l'horloge animée ?",
+      "pronunciation": "kes-kuh lor-LOZH ah-nee-MAY",
+      "formality": "polite",
+      "cultural_note": "The Place de la Palud has a unique animated clock — every hour, mechanical figures re-enact a local legend about a witch and a shepherd.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's a mechanical clock. The figurines move every hour.",
+          "phonetic": "say oon or-LOZH may-kah-NEEK. lay fee-goo-REEN boozh toot lay zuhr",
+          "french": "C'est une horloge mécanique. Les figurines bougent toutes les heures."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_pp_002",
+      "intent_en": "Ask about the market schedule",
+      "text_local": "Quand a lieu le marché ?",
+      "pronunciation": "kohn ah lee-OO luh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "The square hosts a market every Wednesday and Saturday morning. Local farmers sell produce, cheese, and crafts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Wednesday and Saturday mornings, 8am to 1pm.",
+          "phonetic": "mehr-kruh-DEE ay sahm-DEE mah-TAN, duh weet uhr ah trez uhr",
+          "french": "Mercredi et samedi matin, de huit heures à treize heures."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_pp_003",
+      "intent_en": "Ask about the Town Hall",
+      "text_local": "Où se trouve l'Hôtel de Ville ?",
+      "pronunciation": "oo seh TROOV loh-TEL duh VEEL",
+      "formality": "polite",
+      "cultural_note": "Lausanne's Town Hall (Hôtel de Ville) dates from 1666 and sits at the east end of the square. Its facade overlooks the market.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Lausanne's Town Hall is located at the east end of Place de la Palud. It dates back to 1666.",
+          "phonetic": "",
+          "french": "L'Hôtel de Ville de Lausanne se trouve à l'extrémité est de la Place de la Palud. Il date de 1666."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_pp_004",
+      "intent_en": "Ask about the pedestrian zone",
+      "text_local": "Est-ce une zone piétonne ?",
+      "pronunciation": "ess un zohn pyay-TOH-nuh",
+      "formality": "polite",
+      "cultural_note": "The Place de la Palud is pedestrianized and surrounded by cafés — a perfect spot for coffee, people-watching, and observing local life.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's pedestrian. There are cafes all around.",
+          "phonetic": "wee, say pyay-TOHN. eel ee ah day kah-FAY too oh-TOOR",
+          "french": "Oui, c'est piéton. Il y a des cafés tout autour."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "market square",
+      "word_local": "la place du marché",
+      "pronunciation": "lah plahs doo mar-SHAY"
+    },
+    {
+      "word_en": "animated clock",
+      "word_local": "l'horloge animée",
+      "pronunciation": "lor-LOZH ah-nee-MAY"
+    },
+    {
+      "word_en": "Town Hall",
+      "word_local": "l'Hôtel de Ville",
+      "pronunciation": "loh-TEL duh VEEL"
+    },
+    {
+      "word_en": "farmer's market",
+      "word_local": "le marché fermier",
+      "pronunciation": "luh mar-SHAY fer-MYAY"
+    }
+  ]
+}

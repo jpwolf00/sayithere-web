@@ -1,0 +1,78 @@
+{
+  "id": "füssen_füssen_tourist_information_center",
+  "name_en": "Füssen Tourist Information Center",
+  "name_local": "Tourist-Information Füssen",
+  "icon": "info.circle",
+  "lat": 47.6076108,
+  "lon": 10.6838826,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "füssen_füssen_tourist_information_center_001",
+      "intent_en": "Where can I buy Romantic Road bus passes?",
+      "text_local": "Wo gibt es Romantische-Straße-Bus-Pässe?",
+      "pronunciation": "vOH-EEpt-ehs-rohmAHntihshuhshtrAHsuhbUHspEHsuh",
+      "formality": "standard",
+      "cultural_note": "Verweis auf den Schalter als zentrale Anlaufstelle für Ticket- und Passverkauf ohne spezifische Mikro-Lokalisierung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter, bitte.",
+        "pronunciation": "ahm-shAHltbIHtuh",
+        "translation_en": "At the counter, please."
+      },
+      "responses": [
+        {
+          "english": "At the counter, please.",
+          "phonetic": "ahm-shAHltbIHtuh",
+          "french": "Am Schalter, bitte."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_tourist_information_center_002",
+      "intent_en": "How do I book castle tickets here?",
+      "text_local": "Wie buche ich hier Schloss-Tickets?",
+      "pronunciation": "vee-bOOkhuh-ihkh-hEEr-shlAWstIHkuhts",
+      "formality": "casual",
+      "cultural_note": "Direkte Ansprache der Ticket-Reservierung am Schalter ohne zusätzliche Höflichkeitsfloskeln.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter nachfragen.",
+        "pronunciation": "ahm-shAHlt-nAHkhfrahuhn",
+        "translation_en": "Ask at the counter."
+      },
+      "responses": [
+        {
+          "english": "Ask at the counter.",
+          "phonetic": "ahm-shAHlt-nAHkhfrahuhn",
+          "french": "Am Schalter nachfragen."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_tourist_information_center_003",
+      "intent_en": "Where are the Allgäu region maps?",
+      "text_local": "Wo hängen die Allgäu-Karten aus?",
+      "pronunciation": "vOH-hEHnguhn-dee-AHlawuhkAHrtuhn-OWs",
+      "formality": "standard",
+      "cultural_note": "Generische Antwort für Kartenmaterial, da keine exakte Position bekannt ist. Schalter als sichere Anlaufstelle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder an der Wand.",
+        "pronunciation": "ahm-shAHlt-OHd-ahn-dehr-vAHnt",
+        "translation_en": "At the counter or on the wall."
+      },
+      "responses": [
+        {
+          "english": "At the counter or on the wall.",
+          "phonetic": "ahm-shAHlt-OHd-ahn-dehr-vAHnt",
+          "french": "Am Schalter oder an der Wand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

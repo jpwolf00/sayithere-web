@@ -1,0 +1,135 @@
+{
+  "id": "venue_accor_arena",
+  "name_en": "Accor Arena / Bercy",
+  "name_local": "Accor Arena",
+  "icon": "music.mic.circle.fill",
+  "phrases": [
+    {
+      "id": "venue_accor_arena_001",
+      "intent_en": "Ask where the entrance for my ticket section is",
+      "text_local": "Quelle est l'entrée pour mon secteur de billet ?",
+      "pronunciation": "kel eh lahn-TRAY poor mohn sek-TUR duh bee-YEH",
+      "formality": "standard",
+      "cultural_note": "Accor Arena (formerly Palais Omnisports de Bercy) has multiple entrances around its distinctive grass-covered pyramid exterior. Check your ticket for the gate number (porte) and sector (secteur). The arena seats up to 20,000 for concerts and has hosted the Rolling Stones, Beyoncé, and countless world tours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Check your ticket, the entrance is marked on it.",
+          "phonetic": "vay-ree-fee-AY votr bee-YAY, lan-TRAY eh tahn-dee-KAY duh-SOO",
+          "french": "Vérifiez votre billet, l'entrée est indiquée dessus."
+        }
+      ]
+    },
+    {
+      "id": "venue_accor_arena_002",
+      "intent_en": "Ask where the merchandise stands are",
+      "text_local": "Où sont les stands de merchandising de l'artiste ?",
+      "pronunciation": "oo sohn lay STAHND duh mer-shan-dee-ZEENG duh lar-TEEST",
+      "formality": "standard",
+      "cultural_note": "Merchandise stands (stands de produits dérivés) are typically located in the main concourse level. They often open 2 hours before the show and lines can be long. Having exact cash or a card ready speeds up the process.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The merchandise stands are in the main hall.",
+          "phonetic": "lay stahnd duh mehr-chahn-dee-ZING sohn dahn luh ol pran-see-PAL",
+          "french": "Les stands de merchandising sont dans le hall principal."
+        }
+      ]
+    },
+    {
+      "id": "venue_accor_arena_003",
+      "intent_en": "Ask where Bercy Village is for dinner before the show",
+      "text_local": "Où se trouve Bercy Village pour dîner avant le spectacle ?",
+      "pronunciation": "oo suh TROOV ber-SEE vee-LAHZH poor dee-NAY ah-VAHN luh spek-TAKL",
+      "formality": "standard",
+      "cultural_note": "Bercy Village is a pedestrian shopping and dining area in the former wine warehouses (chais) just next to Accor Arena. It has restaurants ranging from sushi to steakhouses and is a convenient pre-show dining spot. The village atmosphere is pleasant, with cobblestones and original 19th-century wine storage buildings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Bercy Village is right next door, a five-minute walk.",
+          "phonetic": "behr-SEE vee-LAZH eh zhoost ah koh-TAY, ah sank mee-NOOT ah pyay",
+          "french": "Bercy Village est juste à côté, à cinq minutes à pied."
+        }
+      ]
+    },
+    {
+      "id": "venue_accor_arena_004",
+      "intent_en": "Ask which métro line goes to Bercy",
+      "text_local": "Quelle ligne de métro va jusqu'à Bercy ?",
+      "pronunciation": "kel LEEN-yuh duh may-TROH vah zhoos-KAH ber-SEE",
+      "formality": "standard",
+      "cultural_note": "Bercy station is served by Métro Line 6 and Line 14. Line 14 is automated and runs frequently, connecting directly to Saint-Lazare, Châtelet, and the airports. After concerts, large crowds exit — the RER D from Gare de Lyon nearby is a good overflow option.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is line 6 or 14, Bercy station.",
+          "phonetic": "seh lah leen-yuh seess oo kah-TORZ, stah-SYOHN behr-SEE",
+          "french": "C'est la ligne six ou quatorze, station Bercy."
+        }
+      ]
+    },
+    {
+      "id": "venue_accor_arena_005",
+      "intent_en": "Ask if bags larger than a certain size are permitted",
+      "text_local": "Quelle est la taille maximale autorisée pour les sacs à l'entrée ?",
+      "pronunciation": "kel eh lah TI-yuh mak-see-MAL oh-toh-ree-ZAY poor lay SAK ah lahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "Security checks at Accor Arena are thorough. Bags larger than A4 size (approximately 21x30cm) are generally not permitted. Large backpacks and bags must be checked in at the cloakroom (vestiaire) for a fee. Check the event page for specific restrictions, which vary by show.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, large bags are not allowed. There is a bag check.",
+          "phonetic": "nohn, lay grahn sahk nuh sohn pahz oh-toh-ree-ZAY. eel ee ah oon kohn-SEEN-yuh",
+          "french": "Non, les grands sacs ne sont pas autorisés. Il y a une consigne."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Arena / Venue",
+      "word_local": "Salle de spectacle",
+      "pronunciation": "sal duh spek-TAKL"
+    },
+    {
+      "word_en": "Section / Sector",
+      "word_local": "Secteur",
+      "pronunciation": "sek-TUR"
+    },
+    {
+      "word_en": "Gate / Entrance",
+      "word_local": "Porte",
+      "pronunciation": "port"
+    },
+    {
+      "word_en": "Concert",
+      "word_local": "Concert",
+      "pronunciation": "kohn-SEHR"
+    },
+    {
+      "word_en": "Cloakroom",
+      "word_local": "Vestiaire",
+      "pronunciation": "ves-TYEHR"
+    },
+    {
+      "word_en": "Merchandise",
+      "word_local": "Produits dérivés",
+      "pronunciation": "proh-DWEE day-ree-VAY"
+    },
+    {
+      "word_en": "Show",
+      "word_local": "Spectacle",
+      "pronunciation": "spek-TAKL"
+    },
+    {
+      "word_en": "Standing area",
+      "word_local": "Fosse",
+      "pronunciation": "fos"
+    }
+  ]
+}

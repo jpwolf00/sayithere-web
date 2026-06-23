@@ -1,0 +1,122 @@
+{
+  "id": "innsbruck_innsbruck_christmas_market",
+  "name_en": "Innsbruck Christmas Market",
+  "name_local": "Innsbrucker Christkindlmarkt",
+  "icon": "cart",
+  "lat": 48.0228978,
+  "lon": 7.8255159,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "innsbruck_innsbruck_christmas_market_001",
+      "intent_en": "Where are the nativity scene stalls",
+      "text_local": "Wo sind die Stände der Krippe?",
+      "pronunciation": "vOH-zihnt-dee-shtEHnduh-dehr-krIHpuh",
+      "formality": "standard",
+      "cultural_note": "The Kripplmarkt is a dedicated area within the market for nativity stalls, often near the Golden Roof backdrop.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kripplmarkt.",
+        "pronunciation": "ahm-krIHplmahrkt",
+        "translation_en": "At the Kripplmarkt."
+      },
+      "responses": [
+        {
+          "english": "At the Kripplmarkt.",
+          "phonetic": "ahm-krIHplmahrkt",
+          "french": "Am Kripplmarkt."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_innsbruck_christmas_market_002",
+      "intent_en": "Which stands are cash only",
+      "text_local": "Welche Stände akzeptieren nur Bargeld?",
+      "pronunciation": "vOH-zihnt-dee-shtEHnduh-miht-bAHrtsahlUHng",
+      "formality": "standard",
+      "cultural_note": "Payment methods vary by stand; smaller vendors often accept only cash.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die meisten kleinen Stände, nur Karten bei den Glühweinständen.",
+        "pronunciation": "dee-mEYEstuhn-klEYEnuhn-shtEHnduhnOOr-kAHrtuhn-beye-dehn-glUEveyenshtEHnduhn",
+        "translation_en": "Most small stalls, cards only at the mulled wine stands."
+      },
+      "responses": [
+        {
+          "english": "Most small stalls, cards only at the mulled wine stands.",
+          "phonetic": "dee-mEYEstuhn-klEYEnuhn-shtEHnduhnOOr-kAHrtuhn-beye-dehn-glUEveyenshtEHnduhn",
+          "french": "Die meisten kleinen Stände, nur Karten bei den Glühweinständen."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_innsbruck_christmas_market_003",
+      "intent_en": "Where is the Glühwein mug return",
+      "text_local": "Wo ist die Pfandrückgabe für Glühweinbecher?",
+      "pronunciation": "vOH-ihst-dee-pfAHndruekAHbuh-fuer-lUEveyenbEHkh",
+      "formality": "standard",
+      "cultural_note": "Mug return is typically handled at or near the Glühwein stall where the drink was purchased.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei den Glühweinständen.",
+        "pronunciation": "beye-dehn-lUEveyenshtEHnduhn",
+        "translation_en": "At the Glühwein stalls."
+      },
+      "responses": [
+        {
+          "english": "At the Glühwein stalls.",
+          "phonetic": "beye-dehn-lUEveyenshtEHnduhn",
+          "french": "Bei den Glühweinständen."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_innsbruck_christmas_market_004",
+      "intent_en": "Where is the Christkindl tram stop",
+      "text_local": "Wo hält die Christkindl-Straßenbahn?",
+      "pronunciation": "vOH-hEHlt-dee-krIHstkihndlshtrAHsuhnbAHn",
+      "formality": "standard",
+      "cultural_note": "The Christkindl tram is route 3, and its stops are marked with route-specific signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sie hält an der Maria-Theresien-Straße.",
+        "pronunciation": "zee-hEHlt-ahn-dehr-mahrEEahtEHrehzEEuhnshtrAHsuh",
+        "translation_en": "It stops at Maria Theresien Street."
+      },
+      "responses": [
+        {
+          "english": "It stops at Maria Theresien Street.",
+          "phonetic": "zee-hEHlt-ahn-dehr-mahrEEahtEHrehzEEuhnshtrAHsuh",
+          "french": "Sie hält an der Maria-Theresien-Straße."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_innsbruck_christmas_market_005",
+      "intent_en": "Do I need tokens for the rides",
+      "text_local": "Braucht man Tokens für die Fahrgeschäfte?",
+      "pronunciation": "brOWkht-mahn-tOHkuhns-fuer-dee-fAHrehshEHftuh",
+      "formality": "standard",
+      "cultural_note": "Rides at Christmas markets often require tokens, which can be purchased at a dedicated counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tokenschalter.",
+        "pronunciation": "yAHahm-tOHkuhnshAHlt",
+        "translation_en": "Yes, at the token counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the token counter.",
+          "phonetic": "yAHahm-tOHkuhnshAHlt",
+          "french": "Ja, am Tokenschalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

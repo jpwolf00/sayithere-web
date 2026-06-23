@@ -1,0 +1,122 @@
+{
+  "id": "bodrum_milas_bodrum_airport",
+  "name_en": "Milas-Bodrum Airport",
+  "name_local": "Milas-Bodrum Havalimanı",
+  "icon": "tram",
+  "lat": 37.139264,
+  "lon": 27.6675979,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bodrum_milas_bodrum_airport_001",
+      "intent_en": "Is the domestic flights hall this way?",
+      "text_local": "İç hatlar terminali bu tarafta mı?",
+      "pronunciation": "IHtsh-hahtAHr-tehrmeenahlIH-buh-tahrahftAH-moo",
+      "formality": "standard",
+      "cultural_note": "Asking for directional confirmation is common, but staff will refer to the information desk if unsure of a passenger's exact position.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, iç hatlar bu yönde.",
+        "pronunciation": "ehvEHtIHtsh-hahtAHr-buh-yuhndEH",
+        "translation_en": "Yes, domestic flights are this way."
+      },
+      "responses": [
+        {
+          "english": "Yes, domestic flights are this way.",
+          "phonetic": "ehvEHtIHtsh-hahtAHr-buh-yuhndEH",
+          "french": "Evet, iç hatlar bu yönde."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_milas_bodrum_airport_002",
+      "intent_en": "Where is the visa desk for arrivals?",
+      "text_local": "Gelen yolcular için vize masası nerede?",
+      "pronunciation": "ehlAHn-yawdzhooAHr-eetshIHn-veezEH-mahsahsOO-nEHrehdeh",
+      "formality": "casual",
+      "cultural_note": "Without a stable target for the exact desk location, defaulting to the safety prefix is appropriate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sağda, pasaport kontrolün yanında.",
+        "pronunciation": "sahdAHpahsahpAWrt-kawntrohUHn-yahnoondAH",
+        "translation_en": "On the right, next to passport control."
+      },
+      "responses": [
+        {
+          "english": "On the right, next to passport control.",
+          "phonetic": "sahdAHpahsahpAWrt-kawntrohUHn-yahnoondAH",
+          "french": "Sağda, pasaport kontrolün yanında."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_milas_bodrum_airport_003",
+      "intent_en": "When does the last airport bus leave?",
+      "text_local": "Son havalimanı otobüsü ne zaman kalkıyor?",
+      "pronunciation": "sAWn-hahvahleemahnOO-ohtohbuesUH-nEH-zahmAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Bus schedules are subject to change; staff avoid giving exact times and refer to official information points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "On bir otuzda kalkıyor.",
+        "pronunciation": "AWn-bihr-OHtuhzdah-kahkOOyawr",
+        "translation_en": "It departs at eleven thirty."
+      },
+      "responses": [
+        {
+          "english": "It departs at eleven thirty.",
+          "phonetic": "AWn-bihr-OHtuhzdah-kahkOOyawr",
+          "french": "On bir otuzda kalkıyor."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_milas_bodrum_airport_004",
+      "intent_en": "Where is the visa desk for arrivals?",
+      "text_local": "Varışlar için vize masası nerede?",
+      "pronunciation": "vahrooshAHr-eetshIHn-veezEH-mahsahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "When exact location is unknown, staff default to directing passengers to the main information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gelen yolcu salonunun sol tarafında.",
+        "pronunciation": "ehlAHn-yawdzhUH-sahohnoonUHn-sAW-tahrahfoondAH",
+        "translation_en": "On the left side of the arrivals hall."
+      },
+      "responses": [
+        {
+          "english": "On the left side of the arrivals hall.",
+          "phonetic": "ehlAHn-yawdzhUH-sahohnoonUHn-sAW-tahrahfoondAH",
+          "french": "Gelen yolcu salonunun sol tarafında."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_milas_bodrum_airport_005",
+      "intent_en": "Do I remove my belt at security?",
+      "text_local": "Güvenlikte kemerimi çıkarmam gerekiyor mu?",
+      "pronunciation": "uevahnlihktEH-kehmEHreemih-tshookahrmAHm-ehrehkEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "In Turkey, security staff are typically direct and brief when giving instructions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, kemerinizi çıkarın.",
+        "pronunciation": "ehvEHtkehmEHreeneezih-tshookahrOOn",
+        "translation_en": "Yes, remove your belt."
+      },
+      "responses": [
+        {
+          "english": "Yes, remove your belt.",
+          "phonetic": "ehvEHtkehmEHreeneezih-tshookahrOOn",
+          "french": "Evet, kemerinizi çıkarın."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

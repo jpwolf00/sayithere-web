@@ -1,0 +1,232 @@
+{
+  "id": "heraklion_heraklion_bus_station_a_ktel",
+  "name_en": "Heraklion Bus Station A (KTEL)",
+  "name_local": "ΚΤΕΛ Ηρακλείου Σταθμός Α",
+  "icon": "tram",
+  "lat": 35.33908,
+  "lon": 25.1332843,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_001",
+      "intent_en": "Can I buy return ticket to Rethymno now?",
+      "text_local": "Μπορώ τώρα να αγοράσω εισιτήριο επιστροφής για Ρέθυμνο;",
+      "pronunciation": "bohrOH-tOHrah-n-AHghohrAHsoh-EEseetEEreeOH-EHpeestrohfEEz-yAH-rEHtheemnOH",
+      "formality": "standard",
+      "cultural_note": "Τα εισιτήρια επιστροφής πωλούνται ανάλογα με τον προορισμό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, εφόσον υπάρχει διαθεσιμότητα.",
+        "pronunciation": "nEHehfOHsohn-eepAHrkhee-thEEahthEHseemOHteetAH",
+        "translation_en": "Yes, if available."
+      },
+      "responses": [
+        {
+          "english": "Yes, if available.",
+          "phonetic": "nEHehfOHsohn-eepAHrkhee-thEEahthEHseemOHteetAH",
+          "french": "Ναι, εφόσον υπάρχει διαθεσιμότητα."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_002",
+      "intent_en": "Do I validate my ticket with the driver?",
+      "text_local": "Πρέπει να επικυρώσω το εισιτήριο μου από τον οδηγό;",
+      "pronunciation": "prEHpee-nah-EHpeeeerOHsoh-toh-EEseetEEreeOH-moo-ahpOH-tohn-OHtheeghOH",
+      "formality": "standard",
+      "cultural_note": "Η επικύρωση γίνεται συχνά προφορικά κατά την επιβίβαση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, επικυρώστε το από τον οδηγό.",
+        "pronunciation": "nEHEHpeeeerOHsteh-toh-ahpOH-tohn-OHtheeghOH",
+        "translation_en": "Yes, validate it with the driver."
+      },
+      "responses": [
+        {
+          "english": "Yes, validate it with the driver.",
+          "phonetic": "nEHEHpeeeerOHsteh-toh-ahpOH-tohn-OHtheeghOH",
+          "french": "Ναι, επικυρώστε το από τον οδηγό."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_003",
+      "intent_en": "Is this ticket window cash only?",
+      "text_local": "Ο πάγκος δέχεται μόνο μετρητά;",
+      "pronunciation": "ahftOHs-oh-pAHnggohz-thEHkhehtEH-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Οι ταμίες συχνά αναφέρουν προφορικά τον τρόπο πληρωμής.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόνο μετρητά.",
+        "pronunciation": "nEHmOHnoh-mEHtreetAH",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "nEHmOHnoh-mEHtreetAH",
+          "french": "Ναι, μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_004",
+      "intent_en": "When is the next bus to Rethymno?",
+      "text_local": "Πότε είναι το επόμενο λεωφορείο για Ρέθυμνο;",
+      "pronunciation": "pOHteh-fEHvyee-toh-ehpOHmehnOH-lEHohfohrEEoh-yAH-rEHtheemnOH",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια συχνά εμφανίζονται μόνο στις πινακίδες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Σε μισή ώρα.",
+        "pronunciation": "seh-meesEE-OHrah",
+        "translation_en": "In half an hour."
+      },
+      "responses": [
+        {
+          "english": "In half an hour.",
+          "phonetic": "seh-meesEE-OHrah",
+          "french": "Σε μισή ώρα."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει χώρος αποσκευών εδώ;",
+      "pronunciation": "eepAHrkhee-khOHrohz-yAH-AHpohsehvEHs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Η αποθήκευση αποσκευών γίνεται συνήθως στο γραφείο εισιτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο εκδοτήριο εισιτηρίων.",
+        "pronunciation": "nEHstoh-EHkthohtEEreeOH-EEseeteerEEohn",
+        "translation_en": "Yes, at the ticket office."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket office.",
+          "phonetic": "nEHstoh-EHkthohtEEreeOH-EEseeteerEEohn",
+          "french": "Ναι, στο εκδοτήριο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_006",
+      "intent_en": "Where is the Knossos bus ticket counter?",
+      "text_local": "Πού είναι το γκισέ εισιτηρίων για Κνωσσό;",
+      "pronunciation": "pOO-EEneh-oh-pAHnggohs-EEseeteerEEohn-yAH-toh-lEHohfohrEEoh-too-knohsOO",
+      "formality": "standard",
+      "cultural_note": "Οι πάγκοι συχνά βρίσκονται κοντά στις αντίστοιχες στάσεις.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το γκισέ βρίσκεται στην αίθουσα αναμονής του Σταθμού Α.",
+        "pronunciation": "toh-geesEH-vrEEsehtEH-steen-EHthoos-AHnahmohnEEs-too-stahthmOO-AHlfah",
+        "translation_en": "The ticket counter is in the waiting area of Station A."
+      },
+      "responses": [
+        {
+          "english": "The ticket counter is in the waiting area of Station A.",
+          "phonetic": "toh-geesEH-vrEEsehtEH-steen-EHthoos-AHnahmohnEEs-too-stahthmOO-AHlfah",
+          "french": "Το γκισέ βρίσκεται στην αίθουσα αναμονής του Σταθμού Α."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_007",
+      "intent_en": "Can I buy a return ticket to Rethymno?",
+      "text_local": "Μπορώ να αγοράσω εισιτήριο επιστροφής για Ρέθυμνο;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-EEseetEEreeOH-EHpeestrohfEEz-yAH-rEHtheemnOH",
+      "formality": "standard",
+      "cultural_note": "Τα εισιτήρια επιστροφής πωλούνται στο ίδιο τμήμα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, εφόσον υπάρχει διαθεσιμότητα.",
+        "pronunciation": "nEHehfOHsohn-eepAHrkhee-thEEahthEHseemOHteetAH",
+        "translation_en": "Yes, if available."
+      },
+      "responses": [
+        {
+          "english": "Yes, if available.",
+          "phonetic": "nEHehfOHsohn-eepAHrkhee-thEEahthEHseemOHteetAH",
+          "french": "Ναι, εφόσον υπάρχει διαθεσιμότητα."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_008",
+      "intent_en": "Does the Knossos bus run on Sundays?",
+      "text_local": "Το λεωφορείο για Κνωσσό τρέχει και τις Κυριακές;",
+      "pronunciation": "trEHkhee-toh-lEHohfohrEEoh-yAH-knohssOH-tees-EEreeahEHs",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια Κυριακών μπορεί να διαφέρουν ανά εποχή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, από την Αφετηρία Α.",
+        "pronunciation": "nEHahpOH-teen-AHfehteerEE-AHlfah",
+        "translation_en": "Yes, from Station A."
+      },
+      "responses": [
+        {
+          "english": "Yes, from Station A.",
+          "phonetic": "nEHahpOH-teen-AHfehteerEE-AHlfah",
+          "french": "Ναι, από την Αφετηρία Α."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_009",
+      "intent_en": "Which platform is for the Minoan Lines port bus?",
+      "text_local": "Ποια αποβάθρα είναι για το λεωφορείο προς το λιμάνι Μινωικές Γραμμές;",
+      "pronunciation": "pOO-EEneh-ee-stAHsee-yAH-toh-lEHohfohrEEoh-prOHs-toh-leemAHnee-mEEnoheeEHz-ghrahmEHs",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια προς το λιμάνι είναι συχνά ξεχωριστά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Αποβάθρα τρία.",
+        "pronunciation": "AHpohvAHthrah-trEEah",
+        "translation_en": "Platform three."
+      },
+      "responses": [
+        {
+          "english": "Platform three.",
+          "phonetic": "AHpohvAHthrah-trEEah",
+          "french": "Αποβάθρα τρία."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_bus_station_a_ktel_010",
+      "intent_en": "Do I buy ticket before boarding?",
+      "text_local": "Πρέπει να αγοράσω εισιτήριο πριν την επιβίβαση;",
+      "pronunciation": "prEHpee-n-AHghohrAHsoh-EEseetEEreeOH-prEEn-deen-EHpeevEEvahsEE",
+      "formality": "standard",
+      "cultural_note": "Οι ταμίες ενημερώνουν συχνά προφορικά τους επιβάτες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, πριν την επιβίβαση.",
+        "pronunciation": "nEHprEEn-deen-EHpeevEEvahsEE",
+        "translation_en": "Yes, before boarding."
+      },
+      "responses": [
+        {
+          "english": "Yes, before boarding.",
+          "phonetic": "nEHprEEn-deen-EHpeevEEvahsEE",
+          "french": "Ναι, πριν την επιβίβαση."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

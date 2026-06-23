@@ -1,0 +1,118 @@
+{
+  "id": "montreal_basilique_notre_dame",
+  "name_en": "Notre-Dame Basilica",
+  "name_local": "Basilique Notre-Dame de Montréal",
+  "icon": "building.columns.fill",
+  "lat": 45.5046,
+  "lon": -73.5567,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "mtl_bnd_001",
+      "intent_en": "Ask what time the basilica opens",
+      "text_local": "À quelle heure la basilique ouvre-t-elle ?",
+      "pronunciation": "ah kel UR lah bah-zee-LEEK oovr-TEL",
+      "formality": "polite",
+      "cultural_note": "The basilica is open daily but hours vary. The famous AURA light show runs most evenings — worth booking ahead.",
+      "responses": [
+        {
+          "english": "At eight in the morning.",
+          "phonetic": "ah WEET UR luh mah-TAHN",
+          "french": "À huit heures le matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_bnd_002",
+      "intent_en": "Buy a ticket for the AURA light show",
+      "text_local": "Je voudrais deux billets pour le spectacle AURA, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DREH duh bee-YEH poor luh spek-TAHKL oh-RAH seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "AURA is an immersive light and sound show projected onto the basilica's interior. Book online to avoid disappointment.",
+      "responses": [
+        {
+          "english": "It is twenty-five dollars per person.",
+          "phonetic": "say VAHN-SAHNK doh-LAR par pair-SON",
+          "french": "C'est vingt-cinq dollars par personne."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_bnd_003",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Est-ce qu'on peut prendre des photos à l'intérieur ?",
+      "pronunciation": "ess-KON puh PRAHN-druh day fo-TOH ah lan-tay-RYUR",
+      "formality": "neutral",
+      "cultural_note": "Photography is generally permitted for personal use. Flash and tripods are typically restricted during services.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_bnd_004",
+      "intent_en": "Ask where the gift shop is",
+      "text_local": "Excusez-moi, où est la boutique-souvenir ?",
+      "pronunciation": "ex-koo-ZAY mwah, oo EH lah boo-TEEK soo-vuh-NEER",
+      "formality": "polite",
+      "cultural_note": "The gift shop carries religious items, books, and local crafts. A popular spot for high-quality Québec-made souvenirs.",
+      "responses": [
+        {
+          "english": "On the left, near the exit.",
+          "phonetic": "ah GOHSH pray duh lah sor-TEE",
+          "french": "À gauche, près de la sortie."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_bnd_005",
+      "intent_en": "Compliment the beauty of the basilica",
+      "text_local": "C'est vraiment magnifique ici !",
+      "pronunciation": "say vreh-MAH man-yee-FEEK ee-SEE",
+      "formality": "neutral",
+      "cultural_note": "The basilica's neo-Gothic interior features deep blue vaulted ceilings studded with gold stars — locals are proud of it.",
+      "responses": [
+        {
+          "english": "Thanks, that is kind.",
+          "phonetic": "mair-SEE say zhahn-TEE",
+          "french": "Merci, c'est gentil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "basilica",
+      "word_local": "la basilique",
+      "pronunciation": "lah bah-zee-LEEK"
+    },
+    {
+      "word_en": "ticket / admission",
+      "word_local": "le billet",
+      "pronunciation": "luh bee-YEH"
+    },
+    {
+      "word_en": "light show",
+      "word_local": "le spectacle son et lumière",
+      "pronunciation": "luh spek-TAHKL son ay loom-YAIR"
+    },
+    {
+      "word_en": "chapel",
+      "word_local": "la chapelle",
+      "pronunciation": "lah sha-PEL"
+    }
+  ]
+}

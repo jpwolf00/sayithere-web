@@ -1,0 +1,125 @@
+{
+  "id": "venue_tuileries",
+  "name_en": "Tuileries Garden",
+  "name_local": "Jardin des Tuileries",
+  "icon": "leaf.fill",
+  "phrases": [
+    {
+      "id": "venue_tuileries_001",
+      "intent_en": "Ask about the seasonal Ferris wheel",
+      "text_local": "La grande roue est ouverte en ce moment ?",
+      "pronunciation": "lah grahnd ROO eh oo-VEHRT ahn suh moh-MAHN",
+      "formality": "standard",
+      "cultural_note": "The Ferris wheel operates during summer and the Christmas season. It offers a wonderful view of the Louvre, Concorde, and the Champs-Élysées.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Ferris wheel is set up during the end-of-year holidays.",
+          "phonetic": "lah grahnd roo eh tahn-stah-LAY pahn-DAHN lay fet duh fan dah-NAY",
+          "french": "La grande roue est installée pendant les fêtes de fin d'année."
+        }
+      ]
+    },
+    {
+      "id": "venue_tuileries_002",
+      "intent_en": "Ask for directions between the Louvre and Place de la Concorde",
+      "text_local": "C'est par où pour aller à la Place de la Concorde ?",
+      "pronunciation": "seh par OO poor ah-LAY ah lah PLAHS duh lah kohn-KORD",
+      "formality": "standard",
+      "cultural_note": "The Tuileries is the perfect stroll between the Louvre and Concorde. Walk the central path for the grand perspective, or take the tree-lined side paths for shade.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Walk straight through the garden, the Louvre is on one side and the Concorde on the other.",
+          "phonetic": "trah-vehr-SAY luh zhar-DAN too drwah, luh loov-ruh eh duhn koh-TAY ay lah kohn-KORD duh loh-tr",
+          "french": "Traversez le jardin tout droit, le Louvre est d'un côté et la Concorde de l'autre."
+        }
+      ]
+    },
+    {
+      "id": "venue_tuileries_003",
+      "intent_en": "Ask about the Musée de l'Orangerie nearby",
+      "text_local": "Le Musée de l'Orangerie est par ici ?",
+      "pronunciation": "luh moo-ZAY duh loh-rahn-zhuh-REE eh par ee-SEE",
+      "formality": "standard",
+      "cultural_note": "The Orangerie is at the southwest corner of the Tuileries, housing Monet's enormous Water Lilies murals in specially designed oval rooms. Don't miss it.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Orangerie is at the end of the garden, on the Concorde side.",
+          "phonetic": "loh-rahn-zhuh-REE eh toh boo doo zhar-DAN, koh-TAY kohn-KORD",
+          "french": "L'Orangerie est au bout du jardin, côté Concorde."
+        }
+      ]
+    },
+    {
+      "id": "venue_tuileries_004",
+      "intent_en": "Ask if there's a café in the garden",
+      "text_local": "Il y a un café dans le jardin ?",
+      "pronunciation": "eel ee ah uhn kah-FAY dahn luh zhar-DAHN",
+      "formality": "casual",
+      "cultural_note": "Several cafés line the garden. Café Renard is a popular choice near the center. Bring a baguette sandwich for a picnic on the famous green chairs instead — much cheaper.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are several cafés with terraces in the garden.",
+          "phonetic": "wee, eel ee ah ploo-ZYUHR kah-FAY ah-VEK teh-RASS dahn luh zhar-DAN",
+          "french": "Oui, il y a plusieurs cafés avec terrasse dans le jardin."
+        }
+      ]
+    },
+    {
+      "id": "venue_tuileries_005",
+      "intent_en": "Ask about the summer funfair",
+      "text_local": "La Fête des Tuileries est quand cette année ?",
+      "pronunciation": "lah FET day twee-luh-REE eh kahn set ah-NAY",
+      "formality": "standard",
+      "cultural_note": "The Fête des Tuileries is a summer funfair (late June to August) with carnival rides, food stands, and games. Popular with families and tourists alike.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The funfair is in summer, from late June to late August.",
+          "phonetic": "lah fet foh-REN eh tahn ay-TAY, duh fan zhwahn ah fan oot",
+          "french": "La fête foraine est en été, de fin juin à fin août."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Ferris wheel",
+      "word_local": "Grande roue",
+      "pronunciation": "grahnd roo"
+    },
+    {
+      "word_en": "Square/Plaza",
+      "word_local": "Place",
+      "pronunciation": "plahs"
+    },
+    {
+      "word_en": "Statue",
+      "word_local": "Statue",
+      "pronunciation": "stah-TOO"
+    },
+    {
+      "word_en": "Path/Walk",
+      "word_local": "Allée",
+      "pronunciation": "ah-LAY"
+    },
+    {
+      "word_en": "Funfair",
+      "word_local": "Fête foraine",
+      "pronunciation": "fet foh-REHN"
+    },
+    {
+      "word_en": "Shade",
+      "word_local": "Ombre",
+      "pronunciation": "OHMBR"
+    }
+  ]
+}

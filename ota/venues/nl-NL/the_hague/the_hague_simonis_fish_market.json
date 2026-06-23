@@ -1,0 +1,56 @@
+{
+  "id": "the_hague_simonis_fish_market",
+  "name_en": "Simonis Fish Market",
+  "name_local": "Simonis aan de Haven",
+  "icon": "fork.knife",
+  "lat": 52.1007503,
+  "lon": 4.2641344,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "the_hague_simonis_fish_market_001",
+      "intent_en": "Is there seating outside",
+      "text_local": "Is er buiten zitplaatsen?",
+      "pronunciation": "ihs-uhr-bUHuetuhn-zIHtplahtsuhn",
+      "formality": "standard",
+      "cultural_note": "Seating is first-come, first-served.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, op het terras.",
+        "pronunciation": "yAHawp-huh-tEHrrahs",
+        "translation_en": "Yes, on the terrace."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the terrace.",
+          "phonetic": "yAHawp-huh-tEHrrahs",
+          "french": "Ja, op het terras."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_simonis_fish_market_002",
+      "intent_en": "Do you have gerookte paling today",
+      "text_local": "Heeft u gerookte paling vandaag?",
+      "pronunciation": "hehft-ue-ghuhrOHktuh-pAHling-vahndAHkh",
+      "formality": "standard",
+      "cultural_note": "Staff may point to the fresh fish counter or display case.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de visbalie.",
+        "pronunciation": "yAHbehih-duh-vIHzbahlEE",
+        "translation_en": "Yes, at the fish counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the fish counter.",
+          "phonetic": "yAHbehih-duh-vIHzbahlEE",
+          "french": "Ja, bij de visbalie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

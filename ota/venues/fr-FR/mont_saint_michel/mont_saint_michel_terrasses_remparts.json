@@ -1,0 +1,118 @@
+{
+  "id": "msm_terrasses_remparts",
+  "name_en": "Terraces and Ramparts",
+  "name_local": "Terrasses et remparts du Mont-Saint-Michel",
+  "icon": "figure.walk",
+  "lat": 48.6358,
+  "lon": -1.512,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "msm_remparts_001",
+      "intent_en": "Ask how to access the rampart walk",
+      "text_local": "Comment accède-t-on au chemin de ronde des remparts ?",
+      "pronunciation": "koh-MAHN ak-SED-tohn oh shuh-MAHN duh ROHND day rahn-PAHR",
+      "formality": "polite",
+      "cultural_note": "The rampart walk circles much of the mount and offers panoramic views over the bay. Access points are found near the main gate and along the western side of the mount — look for stone stairways.",
+      "responses": [
+        {
+          "english": "By the stone stairway, right there.",
+          "phonetic": "par less-kah-LYAY ahn PYAIR zhoost LAH",
+          "french": "Par l'escalier en pierre, juste là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_remparts_002",
+      "intent_en": "Ask if the ramparts are accessible with a stroller or wheelchair",
+      "text_local": "Les remparts sont-ils accessibles en poussette ou en fauteuil roulant ?",
+      "pronunciation": "lay rahn-PAHR sohn-teel ak-ses-EEBL ahn poo-SET oo ahn foh-TUY roo-LAHN",
+      "formality": "polite",
+      "cultural_note": "The rampart paths have uneven cobblestones and steep stairways. Wheelchair and stroller access is very limited — a free shuttle from the car park to the main gate is available for those with mobility needs.",
+      "responses": [
+        {
+          "english": "No, there are many stairs.",
+          "phonetic": "nohn eel ee ah boh-KOO des-kah-LYAY",
+          "french": "Non, il y a beaucoup d'escaliers."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_remparts_003",
+      "intent_en": "Ask about the view toward the bay at low tide",
+      "text_local": "Peut-on voir le reflet de la baie à marée basse depuis les terrasses ?",
+      "pronunciation": "puh-TOHN vwahr luh ruh-FLAY duh lah BAY ah mah-RAY BASS duh-PWEE lay tay-RASS",
+      "formality": "polite",
+      "cultural_note": "At low tide the sand flats extend for kilometres in every direction, revealing ancient pilgrims' paths. The view from the western terraces at sunset is one of the most photographed in France.",
+      "responses": [
+        {
+          "english": "Yes, the view is beautiful at low tide.",
+          "phonetic": "wee lah VOO eh mah-nyee-FEEK ah mah-RAY BASS",
+          "french": "Oui, la vue est magnifique à marée basse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_remparts_004",
+      "intent_en": "Warn about slippery stones after rain",
+      "text_local": "Attention, les pierres sont glissantes après la pluie.",
+      "pronunciation": "ah-tahn-SYOHN lay PYAIR sohn glee-SAHNT ah-PRAY lah PLOO-ee",
+      "formality": "neutral",
+      "cultural_note": "The medieval granite ramparts become very slippery when wet. Wear shoes with grip and hold the iron handrails. Children should be kept close on the elevated walkways.",
+      "responses": [
+        {
+          "english": "Thanks, be careful.",
+          "phonetic": "mair-SEE FET ah-tahn-SYOHN",
+          "french": "Merci, faites attention."
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    },
+    {
+      "id": "msm_remparts_005",
+      "intent_en": "Ask if the rampart walk is free",
+      "text_local": "L'accès aux remparts est gratuit ?",
+      "pronunciation": "lak-SEH oh rahn-PAHR eh grah-TWEE",
+      "formality": "polite",
+      "cultural_note": "The rampart walkways are free and open to the public. Only the abbey itself requires a ticket.",
+      "responses": [
+        {
+          "english": "Yes, it is free access.",
+          "phonetic": "wee say tahn ak-SEH LEE-bruh",
+          "french": "Oui, c'est en accès libre."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "ramparts",
+      "word_local": "les remparts",
+      "pronunciation": "lay rahn-PAHR"
+    },
+    {
+      "word_en": "terrace",
+      "word_local": "la terrasse",
+      "pronunciation": "lah tay-RASS"
+    },
+    {
+      "word_en": "low tide",
+      "word_local": "la marée basse",
+      "pronunciation": "lah mah-RAY BASS"
+    },
+    {
+      "word_en": "slippery",
+      "word_local": "glissant",
+      "pronunciation": "glee-SAHN"
+    }
+  ]
+}

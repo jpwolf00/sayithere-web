@@ -1,0 +1,78 @@
+{
+  "id": "tokyo_sukiyabashi_jiro",
+  "name_en": "Sukiyabashi Jiro",
+  "name_local": "すきやばし次郎",
+  "icon": "fork.knife",
+  "lat": 35.6727104,
+  "lon": 139.7640108,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "tokyo_sukiyabashi_jiro_001",
+      "intent_en": "Is course prepaid or at counter?",
+      "text_local": "おかいけいは まえですか、あとですか？",
+      "pronunciation": "OHkEEkehEEh-mEHdehsOOkTohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Payment at the counter after the meal is standard, even for high-end omakase courses.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "しょくじごに カウンターで おねがいします。",
+        "pronunciation": "OHkoodeegOHnee-kOOntDeh-OHnehgEEeemSoo",
+        "translation_en": "Please pay at the counter after the meal."
+      },
+      "responses": [
+        {
+          "english": "Please pay at the counter after the meal.",
+          "phonetic": "OHkoodeegOHnee-kOOntDeh-OHnehgEEeemSoo",
+          "french": "しょくじごに カウンターで おねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_sukiyabashi_jiro_002",
+      "intent_en": "Is the 10-seat counter available?",
+      "text_local": "10せきの カウンターは あいていますか？",
+      "pronunciation": "dzOO-sehkEEnoh-kOOntH-EEtEHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "The restaurant is famous for its single counter. Seating is limited and always by reservation.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいています。",
+        "pronunciation": "hEEEEtEHeemSoo",
+        "translation_en": "Yes, it's available."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's available.",
+          "phonetic": "hEEEEtEHeemSoo",
+          "french": "はい、あいています。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_sukiyabashi_jiro_003",
+      "intent_en": "Do you accept walk-ins?",
+      "text_local": "よやく なしで はいれますか？",
+      "pronunciation": "yohyKoo-nEEdeh-hEEEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "High-end sushi restaurants in Japan almost never accept walk-ins. A polite, firm refusal is standard.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "もうしわけありません。よやくせいです。",
+        "pronunciation": "mOHooEEwkEHeemSehyOHykOOseheedEHsoo",
+        "translation_en": "Sorry, reservations only."
+      },
+      "responses": [
+        {
+          "english": "Sorry, reservations only.",
+          "phonetic": "mOHooEEwkEHeemSehyOHykOOseheedEHsoo",
+          "french": "もうしわけありません。よやくせいです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

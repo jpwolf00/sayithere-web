@@ -1,0 +1,122 @@
+{
+  "id": "tokyo_shibuya_crossing",
+  "name_en": "Shibuya Crossing",
+  "name_local": "渋谷スクランブル交差点",
+  "icon": "building.columns",
+  "lat": 35.6594951,
+  "lon": 139.7004982,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "tokyo_shibuya_crossing_001",
+      "intent_en": "Where are coin lockers?",
+      "text_local": "コインロッカーは どこですか？",
+      "pronunciation": "kOHeenohkkH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Major stations have many locker areas; a specific floor and a nearby landmark like stairs is a helpful and common way to direct someone.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきの ちか1かい、かいだんの そばです。",
+        "pronunciation": "ehkEEnoh-tEEk-EEtsee-kEEkEEdNnoh-sOHbdEHsoo",
+        "translation_en": "On the station's B1 floor, near the stairs."
+      },
+      "responses": [
+        {
+          "english": "On the station's B1 floor, near the stairs.",
+          "phonetic": "ehkEEnoh-tEEk-EEtsee-kEEkEEdNnoh-sOHbdEHsoo",
+          "french": "えきの ちか1かい、かいだんの そばです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shibuya_crossing_002",
+      "intent_en": "Which gate for JR Yamanote Line?",
+      "text_local": "やまのてせんの かいさつは どれですか？",
+      "pronunciation": "yMnOHtehsEHnnoh-kEEstsOOh-dOHehdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The Hachiko Exit is the most famous landmark for navigating Shibuya Station, so it serves as a key reference point.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みなみがわの かいさつです。はちこうぐちの ちかくです。",
+        "pronunciation": "mEEnmEEgwNoh-kEEsTsoodEHsoohTeekOHoogootEEnoh-tEEkkoodEHsoo",
+        "translation_en": "It's the south gate, near the Hachiko Exit."
+      },
+      "responses": [
+        {
+          "english": "It's the south gate, near the Hachiko Exit.",
+          "phonetic": "mEEnmEEgwNoh-kEEsTsoodEHsoohTeekOHoogootEEnoh-tEEkkoodEHsoo",
+          "french": "みなみがわの かいさつです。はちこうぐちの ちかくです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shibuya_crossing_003",
+      "intent_en": "Where is the gacha-gacha corner?",
+      "text_local": "ガチャガチャの コーナーは どこですか？",
+      "pronunciation": "gTgtNoh-kohohnH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Gacha-gacha machines are often clustered inside game centers or dedicated capsule toy shops, rather than being a standalone 'corner' outdoors.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "センターがいの ゲームセンターの なかです。",
+        "pronunciation": "sEHntgEEnoh-gEHehmoosehntNoh-nKdEHsoo",
+        "translation_en": "It's inside the game center on Center-gai street."
+      },
+      "responses": [
+        {
+          "english": "It's inside the game center on Center-gai street.",
+          "phonetic": "sEHntgEEnoh-gEHehmoosehntNoh-nKdEHsoo",
+          "french": "センターがいの ゲームセンターの なかです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shibuya_crossing_004",
+      "intent_en": "Where is Hachiko Statue?",
+      "text_local": "ハチ公像はどこですか？",
+      "pronunciation": "h-TEE-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-TOH-ehndzhAHpuhneezyahlEHtuh-kOH-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-k",
+      "formality": "standard",
+      "cultural_note": "The Hachiko statue is a famous meeting spot, so directions are often given in relation to the Hachiko Exit of Shibuya Station.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ハチ公像は駅のハチ公口の外ですよ。",
+        "pronunciation": "h-TEE-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-EHntshEYEneezyahlEHtuh-nOH-h-TEE-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-nOH-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-yOH",
+        "translation_en": "The Hachiko statue is outside the station's Hachiko Exit."
+      },
+      "responses": [
+        {
+          "english": "The Hachiko statue is outside the station's Hachiko Exit.",
+          "phonetic": "h-TEE-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-EHntshEYEneezyahlEHtuh-nOH-h-TEE-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-nOH-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-yOH",
+          "french": "ハチ公像は駅のハチ公口の外ですよ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shibuya_crossing_005",
+      "intent_en": "Where can I buy Shibuya Sky tickets?",
+      "text_local": "しぶやスカイの チケットは どこで かえますか？",
+      "pronunciation": "EEbooySookEEnoh-tEEkehttOHh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Tickets for observation decks are usually sold on a specific floor of the building, not at a street-level booth.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "スクランブルスクエアの 14かいに うりばが あります。",
+        "pronunciation": "sOOkooBOOoosOOkooehNoh-dzOOsee-kEEnee-OOeebG-EEmSoo",
+        "translation_en": "There's a ticket counter on the 14th floor of Scramble Square."
+      },
+      "responses": [
+        {
+          "english": "There's a ticket counter on the 14th floor of Scramble Square.",
+          "phonetic": "sOOkooBOOoosOOkooehNoh-dzOOsee-kEEnee-OOeebG-EEmSoo",
+          "french": "スクランブルスクエアの 14かいに うりばが あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

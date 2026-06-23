@@ -1,0 +1,118 @@
+{
+  "id": "nice_neighborhood_promenade",
+  "name_en": "Promenade & New Town",
+  "name_local": "Promenade – Nouvelle Ville",
+  "icon": "building.2",
+  "lat": 43.696,
+  "lon": 7.262,
+  "radius_m": 700,
+  "phrases": [
+    {
+      "id": "nice_nbhd_prom_001",
+      "intent_en": "Ask what the Belle Époque buildings along the Promenade are used for today",
+      "text_local": "À quoi servent aujourd'hui ces bâtiments de la Belle Époque le long de la Promenade ?",
+      "pronunciation": "ah KWAH SEHR oh-zhoor-DWEE say bah-tee-MAN deh lah bel ay-POK leh LON deh lah pro-meh-NAHD",
+      "formality": "polite",
+      "cultural_note": "The grand Belle Époque buildings along the Promenade house luxury hotels, apartments and a few historic casinos.",
+      "responses": [
+        {
+          "english": "It is on the Promenade des Anglais, near the pier.",
+          "phonetic": "OO suh TROOV luh BYOO-roh dan-for-ma-SYOHN too-ris-TEEK luh PLEW/PLEWS PROSH",
+          "french": "Il est sur la Promenade des Anglais, près de la jetée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_prom_002",
+      "intent_en": "Ask where the best luxury shopping is in this area",
+      "text_local": "Où se trouvent les meilleures boutiques de luxe dans ce quartier ?",
+      "pronunciation": "oo seh TROOV lay may-YUHR boo-TEEK deh LYOOKS dan seh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Avenue de Suède and Rue Paradis in the New Town host Riviera luxury brands and designer boutiques.",
+      "responses": [
+        {
+          "english": "It's a public beach.",
+          "phonetic": "ESS suh kuh SET PLAHZ ess ay PEW-bleek oo PREE-vay",
+          "french": "C'est une plage publique."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_prom_003",
+      "intent_en": "Ask about the Jardin Albert 1er",
+      "text_local": "Le Jardin Albert Premier est-il accessible librement ?",
+      "pronunciation": "leh zhar-DAN al-BEHR preh-MYAY eh-TEEL ak-se-SEEBL lee-breh-MAN",
+      "formality": "polite",
+      "cultural_note": "The Jardin Albert 1er connects Place Masséna to the seafront and hosts outdoor concerts and events in summer.",
+      "responses": [
+        {
+          "english": "Entry is free, please.",
+          "phonetic": "bawn-ZHOOR luh zhar-DA(N) EH, ay eel grah-TWEE",
+          "french": "L'entrée est gratuite, s'il vous plaît."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_prom_004",
+      "intent_en": "Ask for a recommendation for a good hotel near the Promenade",
+      "text_local": "Pourriez-vous me recommander un bon hôtel à proximité de la Promenade ?",
+      "pronunciation": "poo-RYAY voo meh reh-ko-man-DAY un bon o-TEL ah prok-see-mee-TAY deh lah pro-meh-NAHD",
+      "formality": "polite",
+      "cultural_note": "The Promenade area has options at every price level — from the legendary Negresco to boutique hotels in side streets.",
+      "responses": [
+        {
+          "english": "The tram stop is right across, on the avenue.",
+          "phonetic": "OO es te-LA-re duh TRAM luh PLOO ploo PROSH",
+          "french": "L'arrêt de tram est juste en face, sur l'avenue."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_prom_005",
+      "intent_en": "Ask where to rent a bicycle to cycle along the Promenade",
+      "text_local": "Où puis-je louer un vélo pour longer la Promenade des Anglais ?",
+      "pronunciation": "oo PWEE-zheh loo-AY un VAY-lo poor lon-ZHAY lah pro-meh-NAHD day zon-GLAY",
+      "formality": "polite",
+      "cultural_note": "Vélo Bleu stations are dotted all along the Promenade — the 7km cycling lane is completely flat and traffic-free.",
+      "responses": [
+        {
+          "english": "There are Vélo Bleu stations everywhere.",
+          "phonetic": "OO pwee zhuh LWAY uhn ve-LOH poor lawn-ZHAY la pro",
+          "french": "Il y a des stations Vélo Bleu partout."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "new town",
+      "word_local": "la nouvelle ville",
+      "pronunciation": "lah noo-VEL VEEL"
+    },
+    {
+      "word_en": "luxury boutique",
+      "word_local": "la boutique de luxe",
+      "pronunciation": "lah boo-TEEK deh LYOOKS"
+    },
+    {
+      "word_en": "cycling lane",
+      "word_local": "la piste cyclable",
+      "pronunciation": "lah PEEST see-KLABL"
+    },
+    {
+      "word_en": "public garden",
+      "word_local": "le jardin public",
+      "pronunciation": "leh zhar-DAN pyoo-BLEEK"
+    }
+  ]
+}

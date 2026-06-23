@@ -1,0 +1,122 @@
+{
+  "id": "zurich_lindenhof_hill",
+  "name_en": "Lindenhof Hill",
+  "name_local": "Lindenhof",
+  "icon": "leaf",
+  "lat": 47.3729161,
+  "lon": 8.5401756,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "zurich_lindenhof_hill_001",
+      "intent_en": "Which way to Schipfe quay below?",
+      "text_local": "Wo geht es hinunter zur Schipfe?",
+      "pronunciation": "vOH-EHt-ehs-hihnUHnt-tsoor-shIHpfuh",
+      "formality": "casual",
+      "cultural_note": "Generic left-stair cue aligns with multiple Altstadt entrances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Folgen Sie den Treppen links.",
+        "pronunciation": "fAWluhn-zee-dehn-trEHpuhn-lINGks",
+        "translation_en": "Follow the stairs to the left."
+      },
+      "responses": [
+        {
+          "english": "Follow the stairs to the left.",
+          "phonetic": "fAWluhn-zee-dehn-trEHpuhn-lINGks",
+          "french": "Folgen Sie den Treppen links."
+        }
+      ]
+    },
+    {
+      "id": "zurich_lindenhof_hill_002",
+      "intent_en": "Where is the quiet area near residences?",
+      "text_local": "Wo ist es hier ruhig?",
+      "pronunciation": "vOH-ihst-ehs-hEEr-rOOihkh",
+      "formality": "casual",
+      "cultural_note": "Quiet zone inferred from residential proximity to western plateau edge.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Westlich hinter den Linden.",
+        "pronunciation": "vEHstlihkh-hIHnt-dehn-lIHnduhn",
+        "translation_en": "West behind the linden trees."
+      },
+      "responses": [
+        {
+          "english": "West behind the linden trees.",
+          "phonetic": "vEHstlihkh-hIHnt-dehn-lIHnduhn",
+          "french": "Westlich hinter den Linden."
+        }
+      ]
+    },
+    {
+      "id": "zurich_lindenhof_hill_003",
+      "intent_en": "Where are the Roman ruins exactly?",
+      "text_local": "Wo sind die römischen Ruinen?",
+      "pronunciation": "vOH-zihnt-dee-rUHmihshuhn-rooEEnuhn",
+      "formality": "standard",
+      "cultural_note": "Directions assume general public knowledge of the site's central location on the plateau.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich hier auf dem Platz.",
+        "pronunciation": "lEYEkh-hEEr-owf-dehm-plAHts",
+        "translation_en": "Right here on the square."
+      },
+      "responses": [
+        {
+          "english": "Right here on the square.",
+          "phonetic": "lEYEkh-hEEr-owf-dehm-plAHts",
+          "french": "Gleich hier auf dem Platz."
+        }
+      ]
+    },
+    {
+      "id": "zurich_lindenhof_hill_004",
+      "intent_en": "Is the hill accessible by wheelchair?",
+      "text_local": "Ist der Lindenhof rollstuhlgängig?",
+      "pronunciation": "ihst-dehr-lIHnduhnhOHf-rAWlshtoolEHngihkh",
+      "formality": "standard",
+      "cultural_note": "Expect mention of staircases limiting full access despite plateau accessibility.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit Einschränkungen.",
+        "pronunciation": "yAHmiht-EYEnshrEHnkuhnguhn",
+        "translation_en": "Yes, with restrictions."
+      },
+      "responses": [
+        {
+          "english": "Yes, with restrictions.",
+          "phonetic": "yAHmiht-EYEnshrEHnkuhnguhn",
+          "french": "Ja, mit Einschränkungen."
+        }
+      ]
+    },
+    {
+      "id": "zurich_lindenhof_hill_005",
+      "intent_en": "Does the seasonal kiosk take cards?",
+      "text_local": "Nimmt der Kiosk Karten?",
+      "pronunciation": "nIHmt-dehr-kIHohsk-kAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Cash-only policy reflects typical Swiss seasonal kiosk practices.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Barzahlung.",
+        "pronunciation": "nOOr-bAHrtsahlUHng",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHrtsahlUHng",
+          "french": "Nur Barzahlung."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

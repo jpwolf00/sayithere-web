@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_tourist_information_center_zermatt",
+  "name_en": "Tourist Information Center Zermatt",
+  "name_local": "Zermatt Turismus",
+  "icon": "info.circle",
+  "lat": 46.0212076,
+  "lon": 7.749254,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "zermatt_tourist_information_center_zermatt_001",
+      "intent_en": "How do I book a hotel through Turismus",
+      "text_local": "Wie buche ich ein Hotel über die Touristeninformation?",
+      "pronunciation": "vee-bOOkhuh-ihkh-eyen-hOHtuhl-UEb-dee-tOOrihstEHnihnfAWrmahtsyOHn",
+      "formality": "standard",
+      "cultural_note": "Die Touristeninformation vermittelt Hotelbuchungen direkt vor Ort.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie an den Schalter, dort kümmert man sich darum.",
+        "pronunciation": "gEHuhn-zee-ahn-dehn-shAHltdAWrt-kUEmt-mahn-zihkh-dahrUHm",
+        "translation_en": "Go to the counter; they will take care of it there."
+      },
+      "responses": [
+        {
+          "english": "Go to the counter; they will take care of it there.",
+          "phonetic": "gEHuhn-zee-ahn-dehn-shAHltdAWrt-kUEmt-mahn-zihkh-dahrUHm",
+          "french": "Gehen Sie an den Schalter, dort kümmert man sich darum."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_tourist_information_center_zermatt_002",
+      "intent_en": "Can I pay for guided tours with card",
+      "text_local": "Kann man geführte Touren mit Karte zahlen?",
+      "pronunciation": "kAHn-mahn-uhfUErtuh-tOOruhn-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Kartenzahlung ist in Zermatt bei touristischen Dienstleistungen üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_tourist_information_center_zermatt_003",
+      "intent_en": "Where is the 5-Lake Trail map",
+      "text_local": "Wo gibt es eine Karte vom 5-Seenweg?",
+      "pronunciation": "vOH-EEpt-ehs-EYEnuh-kAHrtuh-fawm-fUEnfzEHnvehk",
+      "formality": "standard",
+      "cultural_note": "Wanderwege in Zermatt sind standardmäßig ausgeschildert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Karten liegen am Empfang.",
+        "pronunciation": "dee-kAHrtuhn-lEEguhn-ahm-ehmpfAHng",
+        "translation_en": "The maps are at the reception."
+      },
+      "responses": [
+        {
+          "english": "The maps are at the reception.",
+          "phonetic": "dee-kAHrtuhn-lEEguhn-ahm-ehmpfAHng",
+          "french": "Die Karten liegen am Empfang."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_tourist_information_center_zermatt_004",
+      "intent_en": "Where do I buy Glacier Paradise cable tickets",
+      "text_local": "Wo gibt es tickets für das Matterhorn Glacier Paradise?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fuer-dahs-mAHthAWrn-lahsEEr-pAHrahdIHsuh",
+      "formality": "standard",
+      "cultural_note": "In Zermatt sind die meisten touristischen Dienstleistungen zentral am Bahnhof gebündelt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Bahnhof.",
+        "pronunciation": "ahm-shAHlt-ihm-bAHnhohf",
+        "translation_en": "At the counter in the station."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the station.",
+          "phonetic": "ahm-shAHlt-ihm-bAHnhohf",
+          "french": "Am Schalter im Bahnhof."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

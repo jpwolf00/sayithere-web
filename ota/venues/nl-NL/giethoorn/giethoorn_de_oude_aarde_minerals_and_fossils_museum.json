@@ -1,0 +1,56 @@
+{
+  "id": "giethoorn_de_oude_aarde_minerals_and_fossils_museum",
+  "name_en": "De Oude Aarde minerals and fossils museum",
+  "name_local": "De Oude Aarde",
+  "icon": "building.columns",
+  "lat": 52.7252059,
+  "lon": 6.0904873,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "giethoorn_de_oude_aarde_minerals_and_fossils_museum_001",
+      "intent_en": "Buy entrance tickets here",
+      "text_local": "Mogen we hier entreetickets kopen?",
+      "pronunciation": "mOHghuhn-vuh-hEEr-EHntrehtIHkehts-kOHpuhn",
+      "formality": "standard",
+      "cultural_note": "Direct and efficient, typical for small museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aan de balie.",
+        "pronunciation": "yAHahn-duh-bahlEE",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahn-duh-bahlEE",
+          "french": "Ja, aan de balie."
+        }
+      ]
+    },
+    {
+      "id": "giethoorn_de_oude_aarde_minerals_and_fossils_museum_002",
+      "intent_en": "Pay at mineral shop checkout",
+      "text_local": "Kunnen we hier in de winkel betalen?",
+      "pronunciation": "kNuhn-vuh-hEEr-ihn-duh-vINGkuhl-buhtAHluhn",
+      "formality": "standard",
+      "cultural_note": "Shop assistant is direct and service-oriented.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de kassa.",
+        "pronunciation": "yAHbehih-duh-kAHsah",
+        "translation_en": "Yes, at the checkout."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the checkout.",
+          "phonetic": "yAHbehih-duh-kAHsah",
+          "french": "Ja, bij de kassa."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

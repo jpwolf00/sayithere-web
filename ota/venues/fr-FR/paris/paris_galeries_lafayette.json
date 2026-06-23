@@ -1,0 +1,118 @@
+{
+  "id": "paris_galeries_lafayette",
+  "name_en": "Galeries Lafayette",
+  "name_local": "Galeries Lafayette",
+  "icon": "bag",
+  "lat": 48.872,
+  "lon": 2.332,
+  "radius_m": 220,
+  "phrases": [
+    {
+      "id": "paris_gl_001",
+      "intent_en": "Ask where tax-refund desk is",
+      "text_local": "Où est le service de détaxe ?",
+      "pronunciation": "oo eh leh sair-VEES duh day-TAKS",
+      "formality": "polite",
+      "cultural_note": "Bring passport and receipts; minimum spend rules apply for tax refunds.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Tax refund is on the ground floor, near the main entrance.",
+          "phonetic": "leh sair-VEES day-TAKS eh oh ray-duh-shoh-SAY, pray duh lan-TRAY pran-see-PAL",
+          "french": "Le service détaxe est au rez-de-chaussée, près de l'entrée principale."
+        }
+      ]
+    },
+    {
+      "id": "paris_gl_002",
+      "intent_en": "Ask if rooftop terrace is open",
+      "text_local": "La terrasse sur le toit est ouverte ?",
+      "pronunciation": "lah teh-RASS sur leh twah eh oo-VAIRT",
+      "formality": "polite",
+      "cultural_note": "Rooftop access can close temporarily in poor weather.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the rooftop is open today, but be careful of the wind.",
+          "phonetic": "wee, lah teh-RASS eh oo-VAIRT oh-zhoor-DWEE, may ah-tah-SYON oh vahn",
+          "french": "Oui, la terrasse est ouverte aujourd'hui, mais attention au vent."
+        }
+      ]
+    },
+    {
+      "id": "paris_gl_003",
+      "intent_en": "Ask which building has gourmet food hall",
+      "text_local": "Lequel des bâtiments a l'espace gourmet ?",
+      "pronunciation": "leh-KEL day bah-tee-MON ah les-PASS goor-MAY",
+      "formality": "polite",
+      "cultural_note": "Galeries has multiple buildings—Coupole, Homme, and Gourmet sections.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The food hall is in the Gourmet building, next to the Opéra.",
+          "phonetic": "leh food hol eh dahn leh bah-tee-MON goor-MAY, ah koh-TAY duh loh-pay-RAH",
+          "french": "Le food hall est dans le bâtiment Gourmet, à côté de l'Opéra."
+        }
+      ]
+    },
+    {
+      "id": "paris_gl_004",
+      "intent_en": "Ask where to find women's fashion floor",
+      "text_local": "La mode femme est à quel étage ?",
+      "pronunciation": "lah mohd fam eh tah kel ay-TAZH",
+      "formality": "polite",
+      "cultural_note": "Store maps at entrances save time in this multi-building complex.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The women's department is on the second floor, in the main building.",
+          "phonetic": "leh ray-YON fam eh oh day-ZYEM ay-TAZH, dahn leh bah-tee-MON preen-see-PAL",
+          "french": "Le rayon femmes est au deuxième étage, dans le bâtiment principal."
+        }
+      ]
+    },
+    {
+      "id": "paris_gl_005",
+      "intent_en": "Ask if they can ship purchases to hotel",
+      "text_local": "Vous pouvez livrer mes achats à l'hôtel ?",
+      "pronunciation": "voo poo-VAY lee-VRAY may zah-SHA ah loh-TEL",
+      "formality": "polite",
+      "cultural_note": "Delivery options vary by spend amount and destination.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, for purchases over 100 euros, free delivery to your hotel.",
+          "phonetic": "wee, poor lay zah-SHA oh-duh-SUH duh sohx-oor oh-roh, lee-vray-SYON gra-TWEET ah voter oh-TEL",
+          "french": "Oui, pour les achats au-dessus de 100 euros, livraison gratuite à votre hôtel."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "tax refund",
+      "word_local": "la détaxe",
+      "pronunciation": "lah day-TAKS"
+    },
+    {
+      "word_en": "rooftop",
+      "word_local": "le toit-terrasse",
+      "pronunciation": "leh twah-teh-RASS"
+    },
+    {
+      "word_en": "department",
+      "word_local": "le rayon",
+      "pronunciation": "leh ray-YON"
+    },
+    {
+      "word_en": "receipt",
+      "word_local": "le reçu",
+      "pronunciation": "leh ruh-SU"
+    }
+  ]
+}

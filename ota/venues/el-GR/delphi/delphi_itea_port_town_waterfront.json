@@ -1,0 +1,100 @@
+{
+  "id": "delphi_itea_port_town_waterfront",
+  "name_en": "Itea port town waterfront",
+  "name_local": "Παραλιακή Ιτέας",
+  "icon": "map",
+  "lat": 38.4811538,
+  "lon": 22.5005486,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "delphi_itea_port_town_waterfront_001",
+      "intent_en": "Where is the ferry ticket kiosk",
+      "text_local": "Πού πουλάνε εισιτήρια για το πλοίο;",
+      "pronunciation": "pOO-vrEEskoh-toh-ghrahfEEoh-EEseeteerEEohn",
+      "formality": "standard",
+      "cultural_note": "Ferry ticket kiosks are typically located near the dock edge for easy access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην άκρη της προβλήτας.",
+        "pronunciation": "steen-AHkree-tees-prohvlEEtahs",
+        "translation_en": "At the edge of the dock."
+      },
+      "responses": [
+        {
+          "english": "At the edge of the dock.",
+          "phonetic": "steen-AHkree-tees-prohvlEEtahs",
+          "french": "Στην άκρη της προβλήτας."
+        }
+      ]
+    },
+    {
+      "id": "delphi_itea_port_town_waterfront_002",
+      "intent_en": "Which produce stand takes cards",
+      "text_local": "Μπορώ να πληρώσω με κάρτα στο οπωροπωλείο;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-meh-kAHrtah-stoh-OHpohrOHpohlEEoh",
+      "formality": "standard",
+      "cultural_note": "Cash-only stands are common for local produce vendors in Greek ports.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "delphi_itea_port_town_waterfront_003",
+      "intent_en": "Where do I pay at the cafe",
+      "text_local": "Πού πληρώνω στον καφενέ;",
+      "pronunciation": "pOO-pleerOHnoh-stohng-gAHfehnEH",
+      "formality": "standard",
+      "cultural_note": "Cafes in Greece often have a dedicated counter for payments rather than table service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πληρώστε στον πάγκο.",
+        "pronunciation": "pleerOHsteh-stohm-bAHnggoh",
+        "translation_en": "Pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Pay at the counter.",
+          "phonetic": "pleerOHsteh-stohm-bAHnggoh",
+          "french": "Πληρώστε στον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "delphi_itea_port_town_waterfront_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς πάω στην εκκλησία του Αγίου Νικολάου;",
+      "pronunciation": "pOHs-pAHoh-steen-EHkleesEEah-too-ahyEEoo-nEEkohlAHoo",
+      "formality": "standard",
+      "cultural_note": "The church is a stable landmark but exact directions may vary based on starting point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην πλατεία, στρίψτε αριστερά.",
+        "pronunciation": "thEEplah-steem-blahtEEahstrEEpsteh-AHreestehrAH",
+        "translation_en": "Next to the square, turn left."
+      },
+      "responses": [
+        {
+          "english": "Next to the square, turn left.",
+          "phonetic": "thEEplah-steem-blahtEEahstrEEpsteh-AHreestehrAH",
+          "french": "Δίπλα στην πλατεία, στρίψτε αριστερά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

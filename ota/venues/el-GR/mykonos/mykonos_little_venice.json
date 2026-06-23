@@ -1,0 +1,56 @@
+{
+  "id": "mykonos_little_venice",
+  "name_en": "Little Venice",
+  "name_local": "Μικρή Βενετία",
+  "icon": "map",
+  "lat": 37.4467389,
+  "lon": 25.3259023,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "mykonos_little_venice_001",
+      "intent_en": "Ask where the closest ATM to the waterfront is",
+      "text_local": "Πού είναι το πλησιέστερο ATM κοντά στο κανάλι;",
+      "pronunciation": "pOO-EEneh-toh-pleesyEHstehrOH-ehnAY-tEE-EHmehl-kohdAH-stoh-kahnAHlee",
+      "formality": "standard",
+      "cultural_note": "Οι αυτόματες ταμειακές μηχανές συχνά βρίσκονται κοντά στις εγκαταστάσεις εστιατορίων ή καταστημάτων στον παραθαλάσσιο χώρο, αλλά η ακριβής τοποθεσία δεν αναφέρεται στο πλαίσιο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στο μπαρ Σκαραμαγκάς, στο κανάλι.",
+        "pronunciation": "thEEplah-stoh-bAHr-skAHrahmahnggAHsstoh-kahnAHlee",
+        "translation_en": "Follow the signs to Warwick Avenue station."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to Warwick Avenue station.",
+          "phonetic": "thEEplah-stoh-bAHr-skAHrahmahnggAHsstoh-kahnAHlee",
+          "french": "Δίπλα στο μπαρ Σκαραμαγκάς, στο κανάλι."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_little_venice_002",
+      "intent_en": "Ask where to catch the water taxi from the port",
+      "text_local": "Πού μπορώ να πάρω το θαλάσσιο ταξί από το λιμάνι;",
+      "pronunciation": "pOO-bohrOH-nah-pAHroh-toh-thahlAHssyoh-tahksEE-ahpOH-toh-leemAHnee",
+      "formality": "polite",
+      "cultural_note": "Τα σημεία επιβίβασης για θαλάσσια ταξί συνήθως βρίσκονται κοντά στον κεντρικό λιμενοβραχίονα, αλλά η ακριβής τοποθεσία δεν αναφέρεται στο πλαίσιο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην προβλήτα δίπλα από τα καφέ.",
+        "pronunciation": "steem-brohvlEEtah-thEEpl-ahpOH-tah-kahfEH",
+        "translation_en": "Hello, the water taxis stop at the pier next to the shops, near the port center."
+      },
+      "responses": [
+        {
+          "english": "Hello, the water taxis stop at the pier next to the shops, near the port center.",
+          "phonetic": "steem-brohvlEEtah-thEEpl-ahpOH-tah-kahfEH",
+          "french": "Στην προβλήτα δίπλα από τα καφέ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

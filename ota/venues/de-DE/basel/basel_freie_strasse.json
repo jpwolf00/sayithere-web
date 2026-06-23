@@ -1,0 +1,100 @@
+{
+  "id": "basel_freie_strasse",
+  "name_en": "Freie Strasse",
+  "name_local": "Freie Strasse",
+  "icon": "bag",
+  "lat": 47.5557414,
+  "lon": 7.5904276,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "basel_freie_strasse_001",
+      "intent_en": "Where are historic Roman route markers?",
+      "text_local": "Wo finde ich römische Routenmarkierungen?",
+      "pronunciation": "vOH-fIHnduh-ihkh-rUHmihshuh-rOOtuhnmahrkEEruhnguhn",
+      "formality": "standard",
+      "cultural_note": "Direkte Nachfragen an Mitarbeiter sind in der Schweiz verbreitet, um präzise Informationen zu erhalten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf dem Boden an der Ecke.",
+        "pronunciation": "owf-dehm-bOHduhn-ahn-dehr-EHkuh",
+        "translation_en": "On the ground at the corner."
+      },
+      "responses": [
+        {
+          "english": "On the ground at the corner.",
+          "phonetic": "owf-dehm-bOHduhn-ahn-dehr-EHkuh",
+          "french": "Auf dem Boden an der Ecke."
+        }
+      ]
+    },
+    {
+      "id": "basel_freie_strasse_002",
+      "intent_en": "Where is the pedestrian zone entrance?",
+      "text_local": "Wo beginnt die Fußgängerzone?",
+      "pronunciation": "vOH-buhIHnt-dee-fUHsehngtsOHnuh",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz wird empfohlen, bei Behörden oder Servicepunkten nachzufragen, wenn genaue Eingänge unklar sind.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Fußgängerzone beginnt gleich da vorne.",
+        "pronunciation": "dee-fUHsgehngtsOHnuh-buhgIHnt-glEYEkh-dah-fAWrnuh",
+        "translation_en": "The pedestrian zone starts right there ahead."
+      },
+      "responses": [
+        {
+          "english": "The pedestrian zone starts right there ahead.",
+          "phonetic": "dee-fUHsgehngtsOHnuh-buhgIHnt-glEYEkh-dah-fAWrnuh",
+          "french": "Die Fußgängerzone beginnt gleich da vorne."
+        }
+      ]
+    },
+    {
+      "id": "basel_freie_strasse_003",
+      "intent_en": "Where is the Augusta Raurica connection display?",
+      "text_local": "Wo ist die Augusta Raurica-Ausstellung?",
+      "pronunciation": "vOH-ihst-dee-owUHstah-rOWreekAHOWsshtEHluhng",
+      "formality": "standard",
+      "cultural_note": "Kleinere Ausstellungen oder historische Bezüge werden oft an Servicepunkten erklärt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im ersten Stock links.",
+        "pronunciation": "ihm-EHrstuhn-shtAWk-lINGks",
+        "translation_en": "On the first floor to the left."
+      },
+      "responses": [
+        {
+          "english": "On the first floor to the left.",
+          "phonetic": "ihm-EHrstuhn-shtAWk-lINGks",
+          "french": "Im ersten Stock links."
+        }
+      ]
+    },
+    {
+      "id": "basel_freie_strasse_004",
+      "intent_en": "Which shops have historic storefront facades?",
+      "text_local": "Welche Läden haben historische Fassaden?",
+      "pronunciation": "vEHlkhuh-lEHduhn-hAHbuhn-hihstOHrihshuh-fAHsahduhn",
+      "formality": "casual",
+      "cultural_note": "In Basel sind historische Fassaden oft an markanten Ecken oder gegenüber bekannten Cafés zu finden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In der Altstadt, links.",
+        "pronunciation": "ihn-dehr-AHltstahtlINGks",
+        "translation_en": "In the old town, on the left."
+      },
+      "responses": [
+        {
+          "english": "In the old town, on the left.",
+          "phonetic": "ihn-dehr-AHltstahtlINGks",
+          "french": "In der Altstadt, links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "bodrum_halikarnas_nightclub_district",
+  "name_en": "Halikarnas Nightclub District",
+  "name_local": "Halikarnas Bölgesi",
+  "icon": "map",
+  "lat": 37.0343987,
+  "lon": 27.430651,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "bodrum_halikarnas_nightclub_district_001",
+      "intent_en": "Do clubs here have cover charges?",
+      "text_local": "Buradaki kulüplerde giriş ücreti var mı?",
+      "pronunciation": "boorahdahkIH-kooluhplehrdEH-eerIHsh-uhdzhrehtIH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Cover charges are standard practice, especially at the larger open-air venues in the district, but policies can vary by night and event.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, çoğu açık hava mekânında var.",
+        "pronunciation": "ehvEHttshohUH-ahtshOOk-hahvAH-mehkahnoondAH-vAHr",
+        "translation_en": "Yes, most open-air venues have them."
+      },
+      "responses": [
+        {
+          "english": "Yes, most open-air venues have them.",
+          "phonetic": "ehvEHttshohUH-ahtshOOk-hahvAH-mehkahnoondAH-vAHr",
+          "french": "Evet, çoğu açık hava mekânında var."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_halikarnas_nightclub_district_002",
+      "intent_en": "Where is Barlar Sokağı?",
+      "text_local": "Barlar Sokağı nerede?",
+      "pronunciation": "bahrAHr-sohkahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Barlar Sokağı is a well-known strip but its exact entrance point within the Halikarnas Bölgesi is not a stable, fixed target with a single defined entrance. Staff will avoid giving precise street directions to avoid liability in a crowded, confusing district.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sahil şeridinden yürüyün, marina tarafında.",
+        "pronunciation": "sahhIHl-shehreedihndAHn-yuerueyUHnmahreenAH-tahrahfoondAH",
+        "translation_en": "Walk along the coast road, it's on the marina side."
+      },
+      "responses": [
+        {
+          "english": "Walk along the coast road, it's on the marina side.",
+          "phonetic": "sahhIHl-shehreedihndAHn-yuerueyUHnmahreenAH-tahrahfoondAH",
+          "french": "Sahil şeridinden yürüyün, marina tarafında."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_halikarnas_nightclub_district_003",
+      "intent_en": "How do I get a bottle service table?",
+      "text_local": "Şişe servisi masası nasıl alabilirim?",
+      "pronunciation": "sheeshEH-sehrveesIH-mahsahsOO-nahsOO-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Bottle service is arranged in person through venue staff (bouncers or waiters), not at a central ticket booth. It implies a negotiation for a minimum spend.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Güvenliğe veya garsona sorun, genellikle girişte rezervasyon yaptırabilirsiniz.",
+        "pronunciation": "uevahnleeyEH-vehyAH-gahrsohnAH-sohrUHnehnahllIHkleh-eerihshtEH-rehzehrvahsyAWn-yahptoorahbeelIHrseenihz",
+        "translation_en": "Ask the security guard or the waiter, you can usually make a reservation at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Ask the security guard or the waiter, you can usually make a reservation at the entrance.",
+          "phonetic": "uevahnleeyEH-vehyAH-gahrsohnAH-sohrUHnehnahllIHkleh-eerihshtEH-rehzehrvahsyAWn-yahptoorahbeelIHrseenihz",
+          "french": "Güvenliğe veya garsona sorun, genellikle girişte rezervasyon yaptırabilirsiniz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

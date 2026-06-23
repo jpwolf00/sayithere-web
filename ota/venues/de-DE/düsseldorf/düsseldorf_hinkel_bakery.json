@@ -1,0 +1,122 @@
+{
+  "id": "düsseldorf_hinkel_bakery",
+  "name_en": "Hinkel Bakery",
+  "name_local": "Bäckerei Hinkel",
+  "icon": "fork.knife",
+  "lat": 51.2212084,
+  "lon": 6.7739629,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "düsseldorf_hinkel_bakery_001",
+      "intent_en": "Should I point at items or order at counter first",
+      "text_local": "Soll ich erst bestellen oder zeigen?",
+      "pronunciation": "zAWl-ihkh-EHrst-buhshtEHluhn-OHd-tsEYEuhn",
+      "formality": "standard",
+      "cultural_note": "Clarification of ordering procedure; typical in German bakeries with display cases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zeigen Sie erst.",
+        "pronunciation": "tsEYEuhn-zee-EHrst",
+        "translation_en": "Show first."
+      },
+      "responses": [
+        {
+          "english": "Show first.",
+          "phonetic": "tsEYEuhn-zee-EHrst",
+          "french": "Zeigen Sie erst."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_hinkel_bakery_002",
+      "intent_en": "Is the Westerwälder Landbrot available today",
+      "text_local": "Haben Sie heute Westerwälder Landbrot?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-vEHstvEHld-lAHntbrOHt",
+      "formality": "standard",
+      "cultural_note": "Direct inquiry about bread availability; common in German bakeries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, frisch da.",
+        "pronunciation": "yAHfrIHsh-dAH",
+        "translation_en": "Yes, fresh today."
+      },
+      "responses": [
+        {
+          "english": "Yes, fresh today.",
+          "phonetic": "yAHfrIHsh-dAH",
+          "french": "Ja, frisch da."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_hinkel_bakery_003",
+      "intent_en": "Do I need my own bag or can I buy one",
+      "text_local": "Brauche ich eine eigene Tüte oder kann ich eine kaufen?",
+      "pronunciation": "brOWkhuh-ihkh-EYEnuh-EYEuhnuh-tUEtuh-OHd-kAHn-ihkh-EYEnuh-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Practical question about packaging; small bakeries often charge for bags.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kaufen möglich.",
+        "pronunciation": "kOWfuhn-mUHklihkh",
+        "translation_en": "Can buy one."
+      },
+      "responses": [
+        {
+          "english": "Can buy one.",
+          "phonetic": "kOWfuhn-mUHklihkh",
+          "french": "Kaufen möglich."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_hinkel_bakery_004",
+      "intent_en": "Can you slice this Streuselkuchen for me",
+      "text_local": "Können Sie mir den Streuselkuchen schneiden?",
+      "pronunciation": "kUHnuhn-zee-meer-dehn-shtrAWuhzuhlkUHkhuhn-shnEYEduhn",
+      "formality": "standard",
+      "cultural_note": "Polite request for service; bakeries often slice cakes upon request.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, sofort.",
+        "pronunciation": "yAHzohfAWrt",
+        "translation_en": "Yes, right away."
+      },
+      "responses": [
+        {
+          "english": "Yes, right away.",
+          "phonetic": "yAHzohfAWrt",
+          "french": "Ja, sofort."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_hinkel_bakery_005",
+      "intent_en": "Do you take cards or only cash",
+      "text_local": "Kann ich mit Karte zahlen?",
+      "pronunciation": "kAHn-ihkh-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Direct and efficient; cash preference is common in small bakeries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Bargeld.",
+        "pronunciation": "nOOr-bAHrehlt",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHrehlt",
+          "french": "Nur Bargeld."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

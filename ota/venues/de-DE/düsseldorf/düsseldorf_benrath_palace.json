@@ -1,0 +1,100 @@
+{
+  "id": "düsseldorf_benrath_palace",
+  "name_en": "Benrath Palace",
+  "name_local": "Schloss Benrath",
+  "icon": "building.columns",
+  "lat": 51.1610366,
+  "lon": 6.8702318,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "düsseldorf_benrath_palace_001",
+      "intent_en": "Can I enter gardens without palace ticket?",
+      "text_local": "Darf ich nur in die Gärten?",
+      "pronunciation": "dAHrf-ihkh-nOOr-ihn-dee-EHrtuhn",
+      "formality": "standard",
+      "cultural_note": "German public gardens often allow separate access; staff confirm policies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Parkeingang.",
+        "pronunciation": "yAHahm-pAHrkeyengAHng",
+        "translation_en": "Yes, at the garden entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the garden entrance.",
+          "phonetic": "yAHahm-pAHrkeyengAHng",
+          "french": "Ja, am Parkeingang."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_benrath_palace_002",
+      "intent_en": "Where is the three-museum ticket sold?",
+      "text_local": "Wo wird das Dreier-Ticket verkauft?",
+      "pronunciation": "vOH-vIHrt-dahs-drEYEtIHkuht-fehrkOWft",
+      "formality": "standard",
+      "cultural_note": "Counter-based ticket sales are common at German palace entrances; staff are trained to handle combined museum tickets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Hauptschloss.",
+        "pronunciation": "ahm-shAHlt-ihm-hOWptshlaws",
+        "translation_en": "At the counter in the main palace."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the main palace.",
+          "phonetic": "ahm-shAHlt-ihm-hOWptshlaws",
+          "french": "Am Schalter im Hauptschloss."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_benrath_palace_003",
+      "intent_en": "Is the guided tour in English today?",
+      "text_local": "Finden heute englische Führungen statt?",
+      "pronunciation": "fIHnduhn-hAWuhtuh-EHnglihshuh-fUEruhnguhn-shtAHt",
+      "formality": "standard",
+      "cultural_note": "Guided tours in German museums often include scheduled English sessions; staff provide exact times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, um 14 Uhr.",
+        "pronunciation": "yAHuhm-fIHrtsehn-OOr",
+        "translation_en": "Yes, at 2 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, at 2 PM.",
+          "phonetic": "yAHuhm-fIHrtsehn-OOr",
+          "french": "Ja, um 14 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_benrath_palace_004",
+      "intent_en": "Where is the Naturmuseum entrance?",
+      "text_local": "Wo ist der Eingang zum Naturmuseum?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-nahtOOrmoozEHuhm",
+      "formality": "standard",
+      "cultural_note": "German museums typically route visitors to a central ticket/service point for entry details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der ist links im Hauptschloss.",
+        "pronunciation": "dehr-ihst-lINGks-ihm-hOWptshlaws",
+        "translation_en": "It's on the left in the main palace."
+      },
+      "responses": [
+        {
+          "english": "It's on the left in the main palace.",
+          "phonetic": "dehr-ihst-lINGks-ihm-hOWptshlaws",
+          "french": "Der ist links im Hauptschloss."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

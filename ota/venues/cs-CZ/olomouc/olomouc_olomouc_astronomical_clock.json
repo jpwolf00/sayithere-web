@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_olomouc_astronomical_clock",
+  "name_en": "Olomouc Astronomical Clock",
+  "name_local": "Olomoucký orloj",
+  "icon": "building.columns",
+  "lat": 49.5940313,
+  "lon": 17.2514247,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "olomouc_olomouc_astronomical_clock_001",
+      "intent_en": "What time do the apostles appear",
+      "text_local": "V kolik hodin se ukazují apoštolové?",
+      "pronunciation": "v-kOHleek-hOHeen-seh-OOkahzOOyee-AHpohshtOHlohveh",
+      "formality": "standard",
+      "cultural_note": "Procesí apoštolů je hlavní atrakcí orloje a odehrává se v pravidelných intervalech.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Každou celou hodinu od devíti do sedmi.",
+        "pronunciation": "kAHzhdoh-tsEHloh-hOHeenoo-OHddehvEEee-dOHsehdmee",
+        "translation_en": "Every full hour from nine to seven."
+      },
+      "responses": [
+        {
+          "english": "Every full hour from nine to seven.",
+          "phonetic": "kAHzhdoh-tsEHloh-hOHeenoo-OHddehvEEee-dOHsehdmee",
+          "french": "Každou celou hodinu od devíti do sedmi."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_astronomical_clock_002",
+      "intent_en": "Is there parking payment at the square edge",
+      "text_local": "Platí se za parkování na kraji náměstí?",
+      "pronunciation": "plAHee-seh-zah-pAHrkohvAHnyee-nAHkrahyee-nAHmnyehsee",
+      "formality": "standard",
+      "cultural_note": "Parkování v centru Olomouce je zpoplatněno, včetně okrajů Horního náměstí.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, je to placená zóna.",
+        "pronunciation": "AHnohyeh-tOH-plAHtsehnah-zOHnah",
+        "translation_en": "Yes, it is a paid zone."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is a paid zone.",
+          "phonetic": "AHnohyeh-tOH-plAHtsehnah-zOHnah",
+          "french": "Ano, je to placená zóna."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_astronomical_clock_003",
+      "intent_en": "Where can I wait nearby during rain",
+      "text_local": "Kde se můžu schovat před deštěm?",
+      "pronunciation": "kdEH-seh-mOOzhoo-skhOHvaht-prEHddehshehm",
+      "formality": "standard",
+      "cultural_note": "Horní náměstí je lemováno kavárnami a restauracemi, které poskytují úkryt za špatného počasí.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V kavárně přímo na náměstí, hned naproti.",
+        "pronunciation": "v-kAHvahrnyeh-prEEmoh-nAHnahmnyEHseehnEHd-nAHprohee",
+        "translation_en": "In the café right on the square, directly opposite."
+      },
+      "responses": [
+        {
+          "english": "In the café right on the square, directly opposite.",
+          "phonetic": "v-kAHvahrnyeh-prEEmoh-nAHnahmnyEHseehnEHd-nAHprohee",
+          "french": "V kavárně přímo na náměstí, hned naproti."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_astronomical_clock_004",
+      "intent_en": "Where are the Town Hall tower tour tickets",
+      "text_local": "Kde se kupují lístky na věž radnice?",
+      "pronunciation": "kdEH-seh-kOOpooyee-lEEstkee-nAHvyehzh-rAHdnyeetseh",
+      "formality": "standard",
+      "cultural_note": "Vstupenky na věž se obvykle kupují uvnitř budovy radnice, ne u samotného orloje.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V přízemí radnice, vlevo od vchodu.",
+        "pronunciation": "v-prEEzehmee-rAHdnyeetsehvlEHvoh-OHdfkhohdoo",
+        "translation_en": "On the ground floor of the town hall, left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor of the town hall, left of the entrance.",
+          "phonetic": "v-prEEzehmee-rAHdnyeetsehvlEHvoh-OHdfkhohdoo",
+          "french": "V přízemí radnice, vlevo od vchodu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

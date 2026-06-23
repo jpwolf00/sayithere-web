@@ -1,0 +1,100 @@
+{
+  "id": "české_budějovice_black_tower",
+  "name_en": "Black Tower",
+  "name_local": "Černá věž",
+  "icon": "building.columns",
+  "lat": 48.9755251,
+  "lon": 14.4756878,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "české_budějovice_black_tower_001",
+      "intent_en": "Ask where the ticket booth at the base is",
+      "text_local": "Kde je pokladna u věže?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-OO-vyEHzheh",
+      "formality": "standard",
+      "cultural_note": "Czech directional responses are often terse and omit verbs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned u paty věže, vlevo.",
+        "pronunciation": "hnEHd-OO-pAHtee-vyEHzhehvlEHvoh",
+        "translation_en": "Right at the base of the tower, on the left."
+      },
+      "responses": [
+        {
+          "english": "Right at the base of the tower, on the left.",
+          "phonetic": "hnEHd-OO-pAHtee-vyEHzhehvlEHvoh",
+          "french": "Hned u paty věže, vlevo."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_black_tower_002",
+      "intent_en": "Ask if combined city ticket includes this tower",
+      "text_local": "Platí kombinovaná vstupenka i na Černou věž?",
+      "pronunciation": "plAHee-kOHmbeenOHvahnah-fstOOpehngkah-ee-nAHtshehrnoh-vyEHsh",
+      "formality": "standard",
+      "cultural_note": "Staff often give a short, direct confirmation without extra pleasantries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, věž je v ceně.",
+        "pronunciation": "AHnohvyEHzh-yeh-v-tsEHnyeh",
+        "translation_en": "Yes, the tower is included."
+      },
+      "responses": [
+        {
+          "english": "Yes, the tower is included.",
+          "phonetic": "AHnohvyEHzh-yeh-v-tsEHnyeh",
+          "french": "Ano, věž je v ceně."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_black_tower_003",
+      "intent_en": "Ask when the bell chamber is accessible",
+      "text_local": "Kdy se můžu podívat do zvonice?",
+      "pronunciation": "kdEE-seh-mOOzhoo-pOHeevahd-dOHzvohnyEEtseh",
+      "formality": "standard",
+      "cultural_note": "The bell chamber is typically accessed during the standard tower visit, not separately.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otevřeno je celou otevírací dobu věže.",
+        "pronunciation": "OHtehvrEHnoh-yeh-tsEHloh-OHtehvEErahtsee-dOHboo-vyEHzheh",
+        "translation_en": "It's open for the tower's entire opening hours."
+      },
+      "responses": [
+        {
+          "english": "It's open for the tower's entire opening hours.",
+          "phonetic": "OHtehvrEHnoh-yeh-tsEHloh-OHtehvEErahtsee-dOHboo-vyEHzheh",
+          "french": "Otevřeno je celou otevírací dobu věže."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_black_tower_004",
+      "intent_en": "Ask if group discounts apply today",
+      "text_local": "Platí dnes sleva pro skupiny?",
+      "pronunciation": "plAHee-dnEHs-slEHvah-prOHskoopEEnee",
+      "formality": "standard",
+      "cultural_note": "Discount conditions are often stated briefly, with the minimum group size mentioned.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, pro skupiny nad deset osob.",
+        "pronunciation": "AHnohprOHskoopEEnee-nAHddehseht-OHsohp",
+        "translation_en": "Yes, for groups over ten people."
+      },
+      "responses": [
+        {
+          "english": "Yes, for groups over ten people.",
+          "phonetic": "AHnohprOHskoopEEnee-nAHddehseht-OHsohp",
+          "french": "Ano, pro skupiny nad deset osob."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

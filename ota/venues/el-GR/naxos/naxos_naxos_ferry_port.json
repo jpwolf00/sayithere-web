@@ -1,0 +1,144 @@
+{
+  "id": "naxos_naxos_ferry_port",
+  "name_en": "Naxos Ferry Port",
+  "name_local": "Λιμάνι Νάξου",
+  "icon": "tram",
+  "lat": 36.8274476,
+  "lon": 25.8627258,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "naxos_naxos_ferry_port_001",
+      "intent_en": "Is the ticket kiosk cash only?",
+      "text_local": "Το ταμείο δέχεται μόνο μετρητά;",
+      "pronunciation": "toh-tahmEEoh-thEHkhehtEH-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Πολλά ταμεία στις προβλήτες λειτουργούν αποκλειστικά με μετρητά λόγω περιορισμών συστημάτων πληρωμών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόνο μετρητά στην είσοδο.",
+        "pronunciation": "nEHmOHnoh-mEHtreetAH-steen-EEsohthOH",
+        "translation_en": "Yes, cash only at entry."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only at entry.",
+          "phonetic": "nEHmOHnoh-mEHtreetAH-steen-EEsohthOH",
+          "french": "Ναι, μόνο μετρητά στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_ferry_port_002",
+      "intent_en": "Where do Seajets catamarans leave?",
+      "text_local": "Πού αναχωρούν τα catamarans της Seajets;",
+      "pronunciation": "pOO-AHnahkhohrOOn-dah-ehnkAHtuhmuhrAHnzehl-tees-ehnsEEdzhehtsehl",
+      "formality": "standard",
+      "cultural_note": "Τα catamarans της Seajets αναχωρούν από συγκεκριμένη προβλήτα, η οποία σημειώνεται στις πινακίδες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην προβλήτα τρία.",
+        "pronunciation": "steem-brohvlEEtah-trEEah",
+        "translation_en": "At dock three."
+      },
+      "responses": [
+        {
+          "english": "At dock three.",
+          "phonetic": "steem-brohvlEEtah-trEEah",
+          "french": "Στην προβλήτα τρία."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_ferry_port_003",
+      "intent_en": "Can I upgrade to cabin?",
+      "text_local": "Μπορώ να αναβαθμίσω σε καμπίνα;",
+      "pronunciation": "bohrOH-n-AHnahvahthmEEsoh-seh-kAHehnAHbihnehl",
+      "formality": "standard",
+      "cultural_note": "Οι αναβαθμίσεις θέσεων γίνονται μέσω του Ναύλου (ferry officer) ανάλογα με τη διαθεσιμότητα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο γραφείο εισιτηρίων.",
+        "pronunciation": "nEHstoh-ghrahfEEoh-EEseeteerEEohn",
+        "translation_en": "Hello, ask the ticket agent."
+      },
+      "responses": [
+        {
+          "english": "Hello, ask the ticket agent.",
+          "phonetic": "nEHstoh-ghrahfEEoh-EEseeteerEEohn",
+          "french": "Ναι, στο γραφείο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_ferry_port_004",
+      "intent_en": "Do I need a vehicle form?",
+      "text_local": "Χρειάζομαι έντυπο οχήματος;",
+      "pronunciation": "khrkhAHzohmEH-EHdeepOH-ohkhEEmahtOHs",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες με οχήματα πρέπει να υποβάλουν δήλωση στον Λιμενικό (port police) πριν την επιβίβαση.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συμπληρώστε στον Λιμενικό.",
+        "pronunciation": "nEHsEEbleerOHsteh-stohn-lEEmehneekOH",
+        "translation_en": "Yes, fill at the port police."
+      },
+      "responses": [
+        {
+          "english": "Yes, fill at the port police.",
+          "phonetic": "nEHsEEbleerOHsteh-stohn-lEEmehneekOH",
+          "french": "Ναι, συμπληρώστε στον Λιμενικό."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_ferry_port_005",
+      "intent_en": "Where is the Blue Star dock?",
+      "text_local": "Πού είναι η προβλήτα της Blue Star;",
+      "pronunciation": "pOO-EEneh-ee-prohvlEEtah-tees-ehnblOO-stAHehl",
+      "formality": "standard",
+      "cultural_note": "Οι προβλήτες των πλοίων συνήθως σημειώνονται με πινακίδες. Οι επισκέπτες αναμένεται να ακολουθήσουν τις υποδείξεις.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Εκείνη στα δεξιά, κοντά στα catamarans.",
+        "pronunciation": "ehEEnee-stah-thEHkseeAHkohdAH-stah-ehnkAHtuhmuhrAHnzehl",
+        "translation_en": "That one on the right, near the catamarans."
+      },
+      "responses": [
+        {
+          "english": "That one on the right, near the catamarans.",
+          "phonetic": "ehEEnee-stah-thEHkseeAHkohdAH-stah-ehnkAHtuhmuhrAHnzehl",
+          "french": "Εκείνη στα δεξιά, κοντά στα catamarans."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_ferry_port_006",
+      "intent_en": "How do I validate student fare?",
+      "text_local": "Πώς επικυρώνω το εισιτήριο φοιτητή;",
+      "pronunciation": "pOHs-EHpeeeerOHnoh-toh-EEseetEEreeOH-fEEteetEE",
+      "formality": "standard",
+      "cultural_note": "Το ISIC πρέπει να παρουσιαστεί στον Εισιτήρια (ticket agent) κατά την αγορά ή επιβίβαση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Επιδεικνύετε το ISIC στον Εισιτήρια.",
+        "pronunciation": "EHpeetheeknEEehtEH-toh-ehnIHzihkehl-stohn-EEseetEEreeAH",
+        "translation_en": "Show your ISIC to the ticket agent."
+      },
+      "responses": [
+        {
+          "english": "Show your ISIC to the ticket agent.",
+          "phonetic": "EHpeetheeknEEehtEH-toh-ehnIHzihkehl-stohn-EEseetEEreeAH",
+          "french": "Επιδεικνύετε το ISIC στον Εισιτήρια."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

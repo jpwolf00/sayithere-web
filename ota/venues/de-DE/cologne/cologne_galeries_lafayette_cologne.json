@@ -1,0 +1,100 @@
+{
+  "id": "cologne_galeries_lafayette_cologne",
+  "name_en": "Galeries Lafayette Cologne",
+  "name_local": "Galeries Lafayette",
+  "icon": "bag",
+  "lat": 50.938361,
+  "lon": 6.959974,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "cologne_galeries_lafayette_cologne_001",
+      "intent_en": "Do you have personal shopper appointments",
+      "text_local": "Gibt es einen Personal-Shopping-Service?",
+      "pronunciation": "EEpt-ehs-pehrzohnAHlehnshPuhdehtehrmEEnuh",
+      "formality": "standard",
+      "cultural_note": "The term 'Leasing-Berater' is specific to personal shopping services in German retail. Direct referral to staff is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Beratung.",
+        "pronunciation": "yAHahn-dehr-buhrAHtuhng",
+        "translation_en": "Yes, at the consultation desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the consultation desk.",
+          "phonetic": "yAHahn-dehr-buhrAHtuhng",
+          "french": "Ja, an der Beratung."
+        }
+      ]
+    },
+    {
+      "id": "cologne_galeries_lafayette_cologne_002",
+      "intent_en": "Where is the tax refund desk",
+      "text_local": "Wo ist der Tax-Free-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-tAHksehnfrEEdehshAHlt",
+      "formality": "standard",
+      "cultural_note": "Direct staff interaction is expected for tax refund services in German retail. The term 'Tax-Free-Schalter' is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich hier am Schalter.",
+        "pronunciation": "lEYEkh-hEEr-ahm-shAHlt",
+        "translation_en": "Right here at the counter."
+      },
+      "responses": [
+        {
+          "english": "Right here at the counter.",
+          "phonetic": "lEYEkh-hEEr-ahm-shAHlt",
+          "french": "Gleich hier am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "cologne_galeries_lafayette_cologne_003",
+      "intent_en": "Can I buy a gift card here",
+      "text_local": "Kann man hier Geschenkgutscheine kaufen?",
+      "pronunciation": "kAHn-mahn-hEEr-uhshEHngkuhtshEYEnuh-kOWfuhn",
+      "formality": "casual",
+      "cultural_note": "Gift card purchases are handled at standard service counters in German retail. The term 'Geschenkgutscheine' is widely understood.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "cologne_galeries_lafayette_cologne_004",
+      "intent_en": "Where is La Maison du Chocolat",
+      "text_local": "Wo finde ich La Maison du Chocolat?",
+      "pronunciation": "vOH-ihst-lAH-mEYEzohn-doo-kOHkohlAHt",
+      "formality": "casual",
+      "cultural_note": "La Maison du Chocolat is a stable brand presence. Staff escalation is the safest response without exact micro-location details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss, links.",
+        "pronunciation": "ihm-ehrdgEHshawslINGks",
+        "translation_en": "On the ground floor, to the left."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, to the left.",
+          "phonetic": "ihm-ehrdgEHshawslINGks",
+          "french": "Im Erdgeschoss, links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

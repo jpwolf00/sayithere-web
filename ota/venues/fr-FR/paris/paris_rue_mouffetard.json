@@ -1,0 +1,152 @@
+{
+  "id": "venue_rue_mouffetard",
+  "name_en": "Rue Mouffetard Market Street",
+  "name_local": "Rue Mouffetard",
+  "icon": "storefront.fill",
+  "phrases": [
+    {
+      "id": "venue_rue_mouffetard_001",
+      "intent_en": "Ask where the open-air food market is set up",
+      "text_local": "Où se tient le marché en plein air ce matin ?",
+      "pronunciation": "oo suh TYEHN luh mar-SHAY ahn plehn EHR suh mah-TEHN",
+      "formality": "standard",
+      "cultural_note": "The outdoor market on Rue Mouffetard operates Tuesday, Thursday, Saturday, and Sunday mornings (typically 8am–1pm). The lower section of the street near Place Saint-Médard is where the market stalls concentrate, selling cheese, produce, meat, fish, and wine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The stalls are at the bottom of the street, near Place de la Contrescarpe.",
+          "phonetic": "layz ay-TAL sohn ahn bah duh lah roo, koh-TAY plass duh lah kohn-truh-SKARP",
+          "french": "Les étals sont en bas de la rue, côté Place de la Contrescarpe."
+        }
+      ]
+    },
+    {
+      "id": "venue_rue_mouffetard_002",
+      "intent_en": "Ask the cheese vendor for a recommendation for today",
+      "text_local": "Qu'est-ce que vous me recommandez comme fromage pour aujourd'hui ?",
+      "pronunciation": "kess kuh voo muh ruh-koh-mahn-DAY kohm froh-MAHZH poor oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The fromageries on Rue Mouffetard are excellent and vendors are happy to give tastings and advice. Ask for 'un fromage à pâte molle' (soft cheese) or 'un fromage affiné' (aged cheese). The street has been a food market since the Middle Ages.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try the comté, it is excellent right now.",
+          "phonetic": "eh-say-YAY luh kohn-TAY, eel eh tek-seh-LAHN ahn suh moh-MAHN",
+          "french": "Essayez le comté, il est excellent en ce moment."
+        }
+      ]
+    },
+    {
+      "id": "venue_rue_mouffetard_003",
+      "intent_en": "Buy a few slices of ham at the charcuterie",
+      "text_local": "Je voudrais quelques tranches de jambon, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DREH kel-kuh TRAHNSH duh zhahm-BOHN, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Rue Mouffetard has several outstanding charcuteries. Try jambon de Bayonne or jambon cru — thinly sliced cured hams. Combined with a baguette and cheese from a nearby fromagerie, this is a perfect Parisian picnic for Jardin des Plantes nearby.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Here you go, four slices of ham. That is five euros.",
+          "phonetic": "vwah-LAH, katr trahnsh duh zhahm-BOHN. sah feh sank uh-ROH",
+          "french": "Voilà, quatre tranches de jambon. Ça fait cinq euros."
+        }
+      ]
+    },
+    {
+      "id": "venue_rue_mouffetard_004",
+      "intent_en": "Ask what time the market closes",
+      "text_local": "Le marché ferme à quelle heure ?",
+      "pronunciation": "luh mar-SHAY fehrm ah kel uhr",
+      "formality": "polite",
+      "cultural_note": "The market stalls on Rue Mouffetard typically close by early afternoon. Come in the morning for the best selection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Around one PM usually.",
+          "phonetic": "vehr trehz uhr ahn zhay-nay-RAHL",
+          "french": "Vers treize heures en général."
+        }
+      ]
+    },
+    {
+      "id": "venue_rue_mouffetard_005",
+      "intent_en": "Ask for a baguette at the bakery",
+      "text_local": "Une baguette tradition, s'il vous plaît.",
+      "pronunciation": "oon bah-GET trah-dee-SYOHN, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The 'baguette de tradition française' is made without additives or frozen dough and has more flavor and a crunchier crust than a standard baguette. It's slightly more expensive but noticeably better. The bakeries on Rue Mouffetard regularly win awards for their baguettes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Here is your baguette. One euro ten.",
+          "phonetic": "vwah-LAH votr bah-GET. uhn uh-ROH deess",
+          "french": "Voilà votre baguette. Un euro dix."
+        }
+      ]
+    },
+    {
+      "id": "venue_rue_mouffetard_006",
+      "intent_en": "Ask for a wine recommendation to go with cheese",
+      "text_local": "Quel vin conseilleriez-vous pour accompagner un plateau de fromages ?",
+      "pronunciation": "kel vehn kohn-seh-yuh-RYAY voo poor ah-kohm-pahn-YAY uhn plah-TOH duh froh-MAHZH",
+      "formality": "polite",
+      "cultural_note": "The wine shops on Rue Mouffetard stock wines from across France. For a cheese platter, ask for a Burgundy (Bourgogne) white for soft cheeses or a Côtes du Rhône red for aged cheeses. The shopkeepers are knowledgeable and enjoy making recommendations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "With cheese, I recommend a light red.",
+          "phonetic": "ah-VEK doo froh-MAHZH, zhuh voo kohn-SAY uhn roozh lay-ZHAY",
+          "french": "Avec du fromage, je vous conseille un rouge léger."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Market",
+      "word_local": "Marché",
+      "pronunciation": "mar-SHAY"
+    },
+    {
+      "word_en": "Cheese",
+      "word_local": "Fromage",
+      "pronunciation": "froh-MAHZH"
+    },
+    {
+      "word_en": "Bakery",
+      "word_local": "Boulangerie",
+      "pronunciation": "boo-lanzh-REE"
+    },
+    {
+      "word_en": "Baguette",
+      "word_local": "Baguette",
+      "pronunciation": "bah-GET"
+    },
+    {
+      "word_en": "Delicatessen",
+      "word_local": "Charcuterie",
+      "pronunciation": "shar-koo-tuh-REE"
+    },
+    {
+      "word_en": "Slice",
+      "word_local": "Tranche",
+      "pronunciation": "trahnsh"
+    },
+    {
+      "word_en": "Produce stand",
+      "word_local": "Étal",
+      "pronunciation": "ay-TAL"
+    },
+    {
+      "word_en": "Wine shop",
+      "word_local": "Cave à vins",
+      "pronunciation": "kahv ah vehn"
+    }
+  ]
+}

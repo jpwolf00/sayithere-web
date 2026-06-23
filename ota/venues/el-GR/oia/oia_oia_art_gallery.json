@@ -1,0 +1,100 @@
+{
+  "id": "oia_oia_art_gallery",
+  "name_en": "Oia Art Gallery",
+  "name_local": "Πινακοθήκη Οίας",
+  "icon": "building.columns",
+  "lat": 36.4622122,
+  "lon": 25.3757257,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "oia_oia_art_gallery_001",
+      "intent_en": "Can I pay for photos of sunset paintings?",
+      "text_local": "Μπορώ να πληρώσω για φωτογραφίες των ηλιοβασιλέματων;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-yAH-fOHtohghrahfEEehs-tohn-EElyohvAHseelEHmahtOHn",
+      "formality": "standard",
+      "cultural_note": "Απάντηση βασισμένη στην πολιτική πληρωμής επί τόπου για αγορά έργων τέχνης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, at the cash desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cash desk.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_art_gallery_002",
+      "intent_en": "Where is the caldera view terrace?",
+      "text_local": "Πού μπορώ να δω την θέα της καλντέρας;",
+      "pronunciation": "pOO-bohrOH-nah-thOH-teen-thEHah-tees-kahldEHrahs",
+      "formality": "polite",
+      "cultural_note": "Οι επισκέπτες αναμένεται να ακολουθήσουν τις ενδείξεις προς τη βεράντα θέας καλντέρας χωρίς συγκεκριμένη τοποθέτηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην βεράντα θέας.",
+        "pronunciation": "steen-vehrAHdah-thEHahs",
+        "translation_en": "At the caldera view terrace."
+      },
+      "responses": [
+        {
+          "english": "At the caldera view terrace.",
+          "phonetic": "steen-vehrAHdah-thEHahs",
+          "french": "Στην βεράντα θέας."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_art_gallery_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς μπορώ να παραγγείλω έργο τέχνης;",
+      "pronunciation": "pOHs-kAHnoh-ahnAHthehsEE-EHrghoo-tEHkhnees",
+      "formality": "standard",
+      "cultural_note": "Η υπηρεσία ανάθεσης έργου συνδέεται άμεσα με την παρουσία του καλλιτέχνη ιδιοκτήτη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μιλήστε με τον υπεύθυνο στο γραφείο δεξιά.",
+        "pronunciation": "meelEEsteh-meh-tohn-eepEHftheenOH-stoh-ghrahfEEoh-thEHkseeAH",
+        "translation_en": "Yes, we can arrange it if the artist is available. You can look at examples and leave your details."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can arrange it if the artist is available. You can look at examples and leave your details.",
+          "phonetic": "meelEEsteh-meh-tohn-eepEHftheenOH-stoh-ghrahfEEoh-thEHkseeAH",
+          "french": "Μιλήστε με τον υπεύθυνο στο γραφείο δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_art_gallery_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πότε γίνεται η συνάντηση με τον καλλιτέχνη;",
+      "pronunciation": "pOHteh-yEEnehtEH-ee-seenAHdeesEE-meh-tohng-gAHleetEHkhnee",
+      "formality": "standard",
+      "cultural_note": "Το πρόγραμμα των συναντήσεων δεν ανακοινώνεται δημόσια, επομένως απαιτείται προσωπική ενημέρωση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ο ιδιοκτήτης-καλλιτέχνης είναι συχνά εδώ τα απογεύματα.",
+        "pronunciation": "oh-EEtheeohktEEteeskAHleetEHkhnees-EEneh-seekhnAH-ehthOH-t-AHpohyEEmahtAH",
+        "translation_en": "The owner-artist is often here in the afternoons."
+      },
+      "responses": [
+        {
+          "english": "The owner-artist is often here in the afternoons.",
+          "phonetic": "oh-EEtheeohktEEteeskAHleetEHkhnees-EEneh-seekhnAH-ehthOH-t-AHpohyEEmahtAH",
+          "french": "Ο ιδιοκτήτης-καλλιτέχνης είναι συχνά εδώ τα απογεύματα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "kutná_hora_gallery_of_central_bohemia_gask",
+  "name_en": "Gallery of Central Bohemia GASK",
+  "name_local": "GASK - Galerie Středočeského kraje",
+  "icon": "building.columns",
+  "lat": 49.9486561,
+  "lon": 15.2681123,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kutná_hora_gallery_of_central_bohemia_gask_001",
+      "intent_en": "Where is the art bookshop?",
+      "text_local": "Kde je obchod s uměleckými knihami?",
+      "pronunciation": "kdEH-yeh-OHpkhoht-s-OOmnyehlEHtskeemee-knyEEhahmee",
+      "formality": "standard",
+      "cultural_note": "Gallery shops are typically near the entrance or cloakroom; 'přízemí' means ground floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V přízemí, naproti šatně.",
+        "pronunciation": "v-prEEzehmeenAHprohee-shAHtnyeh",
+        "translation_en": "On the ground floor, opposite the cloakroom."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, opposite the cloakroom.",
+          "phonetic": "v-prEEzehmeenAHprohee-shAHtnyeh",
+          "french": "V přízemí, naproti šatně."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_gallery_of_central_bohemia_gask_002",
+      "intent_en": "When do guided tours run?",
+      "text_local": "Kdy probíhají komentované prohlídky?",
+      "pronunciation": "kdEE-prOHbeehAHyee-kOHmehntOHvahneh-prOHhleetkee",
+      "formality": "standard",
+      "cultural_note": "Museums often have two afternoon slots; times are given in 24-hour format.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dnes ve 14:00 a v 16:00.",
+        "pronunciation": "dnEHs-vEH-tshtRnahtst-nOOlah-nOOlah-ah-v-shEHstnahtst-nOOlah-nOOlah",
+        "translation_en": "Today at 2 PM and 4 PM."
+      },
+      "responses": [
+        {
+          "english": "Today at 2 PM and 4 PM.",
+          "phonetic": "dnEHs-vEH-tshtRnahtst-nOOlah-nOOlah-ah-v-shEHstnahtst-nOOlah-nOOlah",
+          "french": "Dnes ve 14:00 a v 16:00."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_gallery_of_central_bohemia_gask_003",
+      "intent_en": "Where do I buy exhibition tickets?",
+      "text_local": "Kde si můžu koupit vstupenky na výstavy?",
+      "pronunciation": "kdEH-see-mOOzhoo-kOHpeet-fstOOpehngkee-nAHveestAHvee",
+      "formality": "standard",
+      "cultural_note": "Czech staff often use 'vlevo/vpravo' (left/right) for clear, short directions inside buildings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U pokladny, hned za vchodem vlevo.",
+        "pronunciation": "OO-pOHklahdneehnEHd-zAHfkhohdehm-vlEHvoh",
+        "translation_en": "At the ticket counter, just left after the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter, just left after the entrance.",
+          "phonetic": "OO-pOHklahdneehnEHd-zAHfkhohdehm-vlEHvoh",
+          "french": "U pokladny, hned za vchodem vlevo."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_gallery_of_central_bohemia_gask_004",
+      "intent_en": "Where is the Jesuit College entrance?",
+      "text_local": "Kde je vchod do Jezuitské koleje?",
+      "pronunciation": "kdEH-yeh-fkhOHd-doh-yEHzooEEtskeh-kOHlehyeh",
+      "formality": "standard",
+      "cultural_note": "The Jesuit College is a historic complex; the main entrance faces a specific street.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hlavní vchod je z Barborské ulice.",
+        "pronunciation": "hlAHvnyee-fkhOHd-yeh-s-bAHrbohrskeh-OOleetseh",
+        "translation_en": "The main entrance is from Barborská street."
+      },
+      "responses": [
+        {
+          "english": "The main entrance is from Barborská street.",
+          "phonetic": "hlAHvnyee-fkhOHd-yeh-s-bAHrbohrskeh-OOleetseh",
+          "french": "Hlavní vchod je z Barborské ulice."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

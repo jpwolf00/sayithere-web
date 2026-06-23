@@ -1,0 +1,78 @@
+{
+  "id": "brno_brno_central_bus_station",
+  "name_en": "Brno Central Bus Station",
+  "name_local": "Brno autobusové nádraží Zvonařka",
+  "icon": "tram",
+  "lat": 49.1858921,
+  "lon": 16.616467,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "brno_brno_central_bus_station_001",
+      "intent_en": "When does the last bus to Prague leave?",
+      "text_local": "V kolik jede poslední autobus do Prahy?",
+      "pronunciation": "v-kOHleek-yEHdeh-pOHslehdnyee-OWtohbooz-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Night buses to Prague are common, often departing late.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ve 23 hodin a 30 minut.",
+        "pronunciation": "vEH-dvAHtsehttree-hOHeen-ah-trEEtseht-mEEnoot",
+        "translation_en": "At 11:30 PM."
+      },
+      "responses": [
+        {
+          "english": "At 11:30 PM.",
+          "phonetic": "vEH-dvAHtsehttree-hOHeen-ah-trEEtseht-mEEnoot",
+          "french": "Ve 23 hodin a 30 minut."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_central_bus_station_002",
+      "intent_en": "Where is the FlixBus platform?",
+      "text_local": "Kde je nástupiště pro FlixBus?",
+      "pronunciation": "kdEH-yeh-nAHstoopEEsheh-prOHfleekz-bOOs",
+      "formality": "standard",
+      "cultural_note": "FlixBus often uses the outer platforms at Zvonařka, not the main hall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nástupiště číslo 1, venku před halou.",
+        "pronunciation": "nAHstoopEEsheh-tshEEsloh-yEHdehnvEHngkoo-prEHthahloh",
+        "translation_en": "Platform 1, outside in front of the hall."
+      },
+      "responses": [
+        {
+          "english": "Platform 1, outside in front of the hall.",
+          "phonetic": "nAHstoopEEsheh-tshEEsloh-yEHdehnvEHngkoo-prEHthahloh",
+          "french": "Nástupiště číslo 1, venku před halou."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_central_bus_station_003",
+      "intent_en": "Is luggage storage still open?",
+      "text_local": "Je úschovna zavazadel ještě otevřená?",
+      "pronunciation": "yeh-OOskhohvnah-zAHvahzAHdehl-yEHsheh-OHtehvrEHnah",
+      "formality": "standard",
+      "cultural_note": "Luggage storage hours at Czech stations often extend into the late evening.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, zavíráme až ve dvacet dva hodin.",
+        "pronunciation": "AHnohzAHveerAHmeh-AHzh-vEH-dvAHtsehd-dvAH-hOHeen",
+        "translation_en": "Yes, we close at 10 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, we close at 10 PM.",
+          "phonetic": "AHnohzAHveerAHmeh-AHzh-vEH-dvAHtsehd-dvAH-hOHeen",
+          "french": "Ano, zavíráme až ve dvacet dva hodin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

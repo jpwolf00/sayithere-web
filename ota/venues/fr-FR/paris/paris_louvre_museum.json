@@ -1,0 +1,118 @@
+{
+  "id": "paris_louvre_museum",
+  "name_en": "Louvre Museum",
+  "name_local": "Musée du Louvre",
+  "icon": "building.columns.fill",
+  "lat": 48.8606,
+  "lon": 2.3376,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "paris_louvre_001",
+      "intent_en": "Ask if your timed ticket is valid now",
+      "text_local": "Mon billet horodaté est valable maintenant ?",
+      "pronunciation": "mon bee-YAY oh-roh-dah-TAY eh vah-LAH-bluh man-tuh-NON",
+      "formality": "polite",
+      "cultural_note": "Timed tickets are typically enforced. Arrive a bit early and keep your confirmation ready.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's valid. What time is your slot?",
+          "phonetic": "wee, say bon. voo ah-VAY voter cray-NOH ah kel UR",
+          "french": "Oui, c'est bon. Vous avez votre créneau à quelle heure ?"
+        }
+      ]
+    },
+    {
+      "id": "paris_louvre_002",
+      "intent_en": "Ask where the Pyramid entrance queue starts",
+      "text_local": "La file pour l'entrée Pyramide commence où ?",
+      "pronunciation": "lah feel poor lan-TRAY pee-rah-MEED koh-MONS oo",
+      "formality": "polite",
+      "cultural_note": "The Pyramid is the best-known entrance; alternate entrances can be quicker depending on crowd flow.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The line starts in front of the Pyramid, on the right.",
+          "phonetic": "lah feel koh-MONS duh-VAHN lah pee-rah-MEED, sur lah drwaht",
+          "french": "La file commence devant la Pyramide, sur la droite."
+        }
+      ]
+    },
+    {
+      "id": "paris_louvre_003",
+      "intent_en": "Ask where cloakroom lockers are",
+      "text_local": "Où sont les vestiaires, s'il vous plaît ?",
+      "pronunciation": "oo son lay ves-tee-AIR, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Large bags may need to be checked. Cloakroom use can speed up security and gallery access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The cloakrooms are in the basement, near the Pyramid entrance.",
+          "phonetic": "lay ves-tee-AIR sohn toh soo-sol, preh duh lan-TRAY pee-rah-MEED",
+          "french": "Les vestiaires sont au sous-sol, près de l'entrée Pyramide."
+        }
+      ]
+    },
+    {
+      "id": "paris_louvre_004",
+      "intent_en": "Ask when last entry is today",
+      "text_local": "La dernière entrée est à quelle heure aujourd'hui ?",
+      "pronunciation": "lah der-NYEHR an-TRAY eh tah kel UR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Last admission is earlier than closing; verify same-day hours before planning a late visit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Last entry is at 5:30 PM today.",
+          "phonetic": "lah der-NYEHR an-TRAY eh tah say-tahn-oor oo-zhoor-DWEE",
+          "french": "La dernière entrée est à 17h30 aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "paris_louvre_005",
+      "intent_en": "Ask for the quickest route to the Mona Lisa",
+      "text_local": "Quel est le chemin le plus rapide vers la Joconde ?",
+      "pronunciation": "kel eh leh shuh-MAN leh ploo rah-PEED vair lah zhoh-KOND",
+      "formality": "polite",
+      "cultural_note": "Staff can suggest traffic-light routes when one wing is congested.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take the stairs to the right, then follow the signs to the Denon wing.",
+          "phonetic": "pruh-NAY les-kah-lee-YAY ah drwaht, pwee swee-VAY lay pah-NOH vehr lel duh-NOHN",
+          "french": "Prenez l'escalier à droite, puis suivez les panneaux vers l'aile Denon."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "pyramid",
+      "word_local": "la pyramide",
+      "pronunciation": "lah pee-rah-MEED"
+    },
+    {
+      "word_en": "cloakroom",
+      "word_local": "le vestiaire",
+      "pronunciation": "leh ves-tee-AIR"
+    },
+    {
+      "word_en": "gallery room",
+      "word_local": "la salle",
+      "pronunciation": "lah sal"
+    },
+    {
+      "word_en": "map",
+      "word_local": "le plan",
+      "pronunciation": "leh plahn"
+    }
+  ]
+}

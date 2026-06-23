@@ -1,0 +1,100 @@
+{
+  "id": "bern_loeb_department_store",
+  "name_en": "Loeb Department Store",
+  "name_local": "Loeb",
+  "icon": "bag",
+  "lat": 46.9475648,
+  "lon": 7.4411794,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bern_loeb_department_store_001",
+      "intent_en": "Specialty department location",
+      "text_local": "Where is the specialty department?",
+      "pronunciation": "vEHruh-EEs-ehnthuh-spEHshuhlteedeh-dEHpahrtmEHnt",
+      "formality": "standard",
+      "cultural_note": "Swiss stores rely on clear signage for specialty sections like luxury or niche goods.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Oben im zweiten Stock.",
+        "pronunciation": "OHbuhn-ihm-tsvEYEtuhn-shtAWk",
+        "translation_en": "Upstairs on the second floor."
+      },
+      "responses": [
+        {
+          "english": "Upstairs on the second floor.",
+          "phonetic": "OHbuhn-ihm-tsvEYEtuhn-shtAWk",
+          "french": "Oben im zweiten Stock."
+        }
+      ]
+    },
+    {
+      "id": "bern_loeb_department_store_002",
+      "intent_en": "Ask personal shopper availability",
+      "text_local": "Can I book a personal shopper now?",
+      "pronunciation": "kAHn-EE-bOHk-AH-pehrzohnAHl-ehnshPuhdeh-nOHf",
+      "formality": "standard",
+      "cultural_note": "Personal shopping services are common in Swiss department stores for high-end clients.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im 2. Stock.",
+        "pronunciation": "yAHihm-tsvEYEshtAWk",
+        "translation_en": "Yes, on floor 2."
+      },
+      "responses": [
+        {
+          "english": "Yes, on floor 2.",
+          "phonetic": "yAHihm-tsvEYEshtAWk",
+          "french": "Ja, im 2. Stock."
+        }
+      ]
+    },
+    {
+      "id": "bern_loeb_department_store_003",
+      "intent_en": "Checkout counter for this floor",
+      "text_local": "Where is the checkout counter here?",
+      "pronunciation": "vEHruh-EEs-ehnthuhdeh-khEHkoot-kOOnt-hEHruh",
+      "formality": "standard",
+      "cultural_note": "Cashiers in Swiss department stores are typically grouped by floor for convenience.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ende der Abteilung.",
+        "pronunciation": "ahm-EHnduh-dehr-AHptEYEluhng",
+        "translation_en": "At the end of the department."
+      },
+      "responses": [
+        {
+          "english": "At the end of the department.",
+          "phonetic": "ahm-EHnduh-dehr-AHptEYEluhng",
+          "french": "Am Ende der Abteilung."
+        }
+      ]
+    },
+    {
+      "id": "bern_loeb_department_store_004",
+      "intent_en": "Find customer service returns desk",
+      "text_local": "Wo kann ich etwas zurückgeben oder umtauschen?",
+      "pronunciation": "vEHruh-kAHn-EE-ehnrihtNdeh-OHr-EHkskhahnguh-eetEHms",
+      "formality": "standard",
+      "cultural_note": "Swiss retail staff are expected to provide direct, efficient assistance without excessive small talk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie zur Kundendienstabteilung.",
+        "pronunciation": "gEHuhn-zee-tsoor-kUHnduhndEEnstahptEYEluhng",
+        "translation_en": "Go to the customer service department."
+      },
+      "responses": [
+        {
+          "english": "Go to the customer service department.",
+          "phonetic": "gEHuhn-zee-tsoor-kUHnduhndEEnstahptEYEluhng",
+          "french": "Gehen Sie zur Kundendienstabteilung."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

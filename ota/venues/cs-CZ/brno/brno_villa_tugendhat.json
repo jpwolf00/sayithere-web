@@ -1,0 +1,122 @@
+{
+  "id": "brno_villa_tugendhat",
+  "name_en": "Villa Tugendhat",
+  "name_local": "Villa Tugendhat",
+  "icon": "building.columns",
+  "lat": 49.2071685,
+  "lon": 16.6160617,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "brno_villa_tugendhat_001",
+      "intent_en": "Where do I wait if I arrive early?",
+      "text_local": "Kde mám čekat, když přijdu dřív?",
+      "pronunciation": "kdEH-mahm-tshEHkahtkdEEsh-prEEydoo-drEEv",
+      "formality": "standard",
+      "cultural_note": "Adding 'prosím' (please) softens a direct instruction.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ve vestibulu u vchodu, prosím.",
+        "pronunciation": "vEH-vEHseebOOloo-OO-fkhOHdooprOHseem",
+        "translation_en": "In the foyer by the entrance, please."
+      },
+      "responses": [
+        {
+          "english": "In the foyer by the entrance, please.",
+          "phonetic": "vEH-vEHseebOOloo-OO-fkhOHdooprOHseem",
+          "french": "Ve vestibulu u vchodu, prosím."
+        }
+      ]
+    },
+    {
+      "id": "brno_villa_tugendhat_002",
+      "intent_en": "Where is the onyx wall in the tour?",
+      "text_local": "Kde je během prohlídky onyxová stěna?",
+      "pronunciation": "kdEH-yeh-byEHhehm-prOHhleetkee-OHneeksOHvah-sEHnah",
+      "formality": "standard",
+      "cultural_note": "Guides use simple spatial cues like 'vpravo' (on the right) for clarity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V hlavním obytném prostoru, hned vpravo.",
+        "pronunciation": "v-hlAHvnyeem-OHbeetnehm-prOHstohroohnEHd-fprAHvoh",
+        "translation_en": "In the main living space, immediately on the right."
+      },
+      "responses": [
+        {
+          "english": "In the main living space, immediately on the right.",
+          "phonetic": "v-hlAHvnyeem-OHbeetnehm-prOHstohroohnEHd-fprAHvoh",
+          "french": "V hlavním obytném prostoru, hned vpravo."
+        }
+      ]
+    },
+    {
+      "id": "brno_villa_tugendhat_003",
+      "intent_en": "Is the winter garden accessible without a guide?",
+      "text_local": "Je zimní zahrada přístupná bez průvodce?",
+      "pronunciation": "yeh-zEEmnyee-zAHhrahdah-prEEstoopnah-bEHsproovOHttseh",
+      "formality": "standard",
+      "cultural_note": "A clear 'ne' (no) with a short condition is standard for access rules.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, pouze v rámci komentované prohlídky.",
+        "pronunciation": "nEHpOHzeh-v-rAHmtsee-kOHmehntOHvahneh-prOHhleetkee",
+        "translation_en": "No, only as part of a guided tour."
+      },
+      "responses": [
+        {
+          "english": "No, only as part of a guided tour.",
+          "phonetic": "nEHpOHzeh-v-rAHmtsee-kOHmehntOHvahneh-prOHhleetkee",
+          "french": "Ne, pouze v rámci komentované prohlídky."
+        }
+      ]
+    },
+    {
+      "id": "brno_villa_tugendhat_004",
+      "intent_en": "Can I buy a Tugendhat chair replica?",
+      "text_local": "Mohu si koupit repliku křesla Tugendhat?",
+      "pronunciation": "mOHhoo-see-kOHpeet-rEHpleekoo-krEHslah-tOOgehnthaht",
+      "formality": "standard",
+      "cultural_note": "Direct 'ano' (yes) followed by location is a typical staff response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, v obchodě se suvenýry u východu.",
+        "pronunciation": "AHnohv-OHpkhoheh-seh-sOOvehnEEree-OO-vEEkhohdoo",
+        "translation_en": "Yes, in the gift shop by the exit."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the gift shop by the exit.",
+          "phonetic": "AHnohv-OHpkhoheh-seh-sOOvehnEEree-OO-vEEkhohdoo",
+          "french": "Ano, v obchodě se suvenýry u východu."
+        }
+      ]
+    },
+    {
+      "id": "brno_villa_tugendhat_005",
+      "intent_en": "Is photo permit required for the interior?",
+      "text_local": "Potřebuji povolení na focení v interiéru?",
+      "pronunciation": "pOHtrehbOOyee-pOHvohlEHnyee-nAHfohtsEHnyee-v-EEntehrEEehroo",
+      "formality": "standard",
+      "cultural_note": "Czechs often state the price directly when confirming a fee exists.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u pokladny za padesát korun.",
+        "pronunciation": "AHnohOO-pOHklahdnee-zAHpahdEHsaht-kOHroon",
+        "translation_en": "Yes, at the ticket desk for fifty crowns."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket desk for fifty crowns.",
+          "phonetic": "AHnohOO-pOHklahdnee-zAHpahdEHsaht-kOHroon",
+          "french": "Ano, u pokladny za padesát korun."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

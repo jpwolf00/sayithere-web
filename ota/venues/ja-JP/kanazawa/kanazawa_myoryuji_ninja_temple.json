@@ -1,0 +1,100 @@
+{
+  "id": "kanazawa_myoryuji_ninja_temple",
+  "name_en": "Myoryuji Ninja Temple",
+  "name_local": "妙立寺",
+  "icon": "building.columns",
+  "lat": 36.5553788,
+  "lon": 136.6490285,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kanazawa_myoryuji_ninja_temple_001",
+      "intent_en": "Do I remove shoes here?",
+      "text_local": "ここで くつを ぬぎますか？",
+      "pronunciation": "kohkOHdeh-kootsOOoh-nOOgeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Shoes are always removed at temple entrances. Slippers are usually not provided.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんかんで ぬいでください。",
+        "pronunciation": "hEEgehngkNdeh-nOOeedEHkoodsEE",
+        "translation_en": "Yes, please take them off at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, please take them off at the entrance.",
+          "phonetic": "hEEgehngkNdeh-nOOeedEHkoodsEE",
+          "french": "はい、げんかんで ぬいでください。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_myoryuji_ninja_temple_002",
+      "intent_en": "Where to buy entry tickets?",
+      "text_local": "にゅうじょうけんは どこで かえますか？",
+      "pronunciation": "nOOoodOHookehH-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "This temple requires advance reservations, but same-day tickets are sometimes available at the office.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "うけつけの となりです。",
+        "pronunciation": "OOkehtsookEHnoh-tOHneedEHsoo",
+        "translation_en": "Next to the reception desk."
+      },
+      "responses": [
+        {
+          "english": "Next to the reception desk.",
+          "phonetic": "OOkehtsookEHnoh-tOHneedEHsoo",
+          "french": "うけつけの となりです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_myoryuji_ninja_temple_003",
+      "intent_en": "Is tour English-guided?",
+      "text_local": "ツアーは えいごが ありますか？",
+      "pronunciation": "tsooH-EHeegOHg-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "English audio guides or pamphlets are often available instead.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、にほんごのみです。",
+        "pronunciation": "EEehnEEhohnggOHnohmeedEHsoo",
+        "translation_en": "No, Japanese only."
+      },
+      "responses": [
+        {
+          "english": "No, Japanese only.",
+          "phonetic": "EEehnEEhohnggOHnohmeedEHsoo",
+          "french": "いいえ、にほんごのみです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_myoryuji_ninja_temple_004",
+      "intent_en": "Where is hidden door tour?",
+      "text_local": "からくりとびらの ツアーは どこからですか？",
+      "pronunciation": "kKOOeetOHbeeNoh-tsooH-dOHkohkDehsOOk",
+      "formality": "standard",
+      "cultural_note": "The guide will demonstrate the hidden doors during the group tour.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このろうかを まっすぐです。",
+        "pronunciation": "kOHnohOHookOH-mSsoogoodEHsoo",
+        "translation_en": "Straight down this corridor."
+      },
+      "responses": [
+        {
+          "english": "Straight down this corridor.",
+          "phonetic": "kOHnohOHookOH-mSsoogoodEHsoo",
+          "french": "このろうかを まっすぐです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

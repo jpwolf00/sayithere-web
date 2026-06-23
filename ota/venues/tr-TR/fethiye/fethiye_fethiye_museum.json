@@ -1,0 +1,144 @@
+{
+  "id": "fethiye_fethiye_museum",
+  "name_en": "Fethiye Museum",
+  "name_local": "Fethiye Muzesi",
+  "icon": "building.columns",
+  "lat": 36.6230004,
+  "lon": 29.116989,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_museum_001",
+      "intent_en": "Ask when quiet hours in former worship areas",
+      "text_local": "Eski ibadet alanlarında sessizlik saatleri ne zaman?",
+      "pronunciation": "ehskIH-eebahdEHt-ahahnahroondAH-sEHssihzlihk-sahahtlehrIH-nEH-zahmAHn",
+      "formality": "standard",
+      "cultural_note": "Quiet hours may not be fixed; it's best to check with staff for current expectations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sabah erken saatler daha sakindir.",
+        "pronunciation": "sahbAHh-EHrahn-sahahtlEHr-dahhAH-sahkIHndihr",
+        "translation_en": "Early morning hours are quieter."
+      },
+      "responses": [
+        {
+          "english": "Early morning hours are quieter.",
+          "phonetic": "sahbAHh-EHrahn-sahahtlEHr-dahhAH-sahkIHndihr",
+          "french": "Sabah erken saatler daha sakindir."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_museum_002",
+      "intent_en": "Ask if gift shop sells mosaic reproductions",
+      "text_local": "Müzede mozaik temalı magnet satılıyor mu?",
+      "pronunciation": "hehdeeyehlIHk-ehshyAH-duekahnoondAH-mohzahIHk-rehprohduhkseeyohnUH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Hediyelik eşya dükkanının ürün çeşidi değişken olabileceğinden, görevli sizi en güncel bilgiye sahip olan danışma masasına yönlendirir. Müze mağazalarında bu tür özel ürünleri sormak oldukça yaygındır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Maalesef, yok.",
+        "pronunciation": "mahahlehsEHfyAWk",
+        "translation_en": "Unfortunately, there isn't."
+      },
+      "responses": [
+        {
+          "english": "Unfortunately, there isn't.",
+          "phonetic": "mahahlehsEHfyAWk",
+          "french": "Maalesef, yok."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_museum_003",
+      "intent_en": "Ask if ticket booth has student discount",
+      "text_local": "Öğrenci indirimi var mı?",
+      "pronunciation": "uhrahndzhIH-ihndEEreemih-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Turkish museums often have student discounts, but policies vary; it's safe to ask at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, geçerli.",
+        "pronunciation": "ehvEHtehtshehrlIH",
+        "translation_en": "Yes, it's valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's valid.",
+          "phonetic": "ehvEHtehtshehrlIH",
+          "french": "Evet, geçerli."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_museum_004",
+      "intent_en": "Ask where audio guide for Byzantine mosaics is",
+      "text_local": "Bizans mozaikleri için sesli rehber nereden alınır?",
+      "pronunciation": "beezAHns-mohzeyeklehrIH-eetshIHn-sehslIH-rehhbEHr-nEHrehdahn-ahoonOOr",
+      "formality": "standard",
+      "cultural_note": "Audio guides are often rented at the ticket booth; asking the ticket seller is the most direct approach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki danışmadan alın.",
+        "pronunciation": "eerihshtehkIH-dahnOOshmahdahn-ahOOn",
+        "translation_en": "Get it from the information desk at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Get it from the information desk at the entrance.",
+          "phonetic": "eerihshtehkIH-dahnOOshmahdahn-ahOOn",
+          "french": "Girişteki danışmadan alın."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_museum_005",
+      "intent_en": "Ask if flash allowed in dome mosaic area",
+      "text_local": "Kubbe mozaik alanında flaş kullanabilir miyim?",
+      "pronunciation": "koobEH-mohzahIHk-ahahnoondAH-fAHsh-kuhahnahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Flash photography is strictly prohibited to protect delicate artifacts like mosaics.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, mozaiklerin yanında flaşlı fotoğraf çekmek yasak.",
+        "pronunciation": "hahyOOrmohzeyeklehrIHn-yahnoondAH-fahshOO-fohtohrAHf-tshehkmEHk-yAHsahk",
+        "translation_en": "No, flash photography is forbidden near the mosaics."
+      },
+      "responses": [
+        {
+          "english": "No, flash photography is forbidden near the mosaics.",
+          "phonetic": "hahyOOrmohzeyeklehrIHn-yahnoondAH-fahshOO-fohtohrAHf-tshehkmEHk-yAHsahk",
+          "french": "Hayır, mozaiklerin yanında flaşlı fotoğraf çekmek yasak."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_museum_006",
+      "intent_en": "Ask if gift shop sells mosaic reproductions",
+      "text_local": "Müzede mozaik temalı kartpostal seti var mı?",
+      "pronunciation": "hehdeeyehlIHk-ehshyAH-duekahnoondAH-mohzahIHk-rehprohduhkseeyohnUH-sahtooOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Gift shop inventory changes; asking staff is the best way to confirm available items.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, girişte satılıyor.",
+        "pronunciation": "ehvEHteerihshtEH-sahtooOOyawr",
+        "translation_en": "Yes, it's sold at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's sold at the entrance.",
+          "phonetic": "ehvEHteerihshtEH-sahtooOOyawr",
+          "french": "Evet, girişte satılıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

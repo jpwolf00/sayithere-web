@@ -1,0 +1,78 @@
+{
+  "id": "venue_6513c77a4383",
+  "name_en": "Albufeira Train Station",
+  "name_local": "Albufeira Train Station",
+  "icon": "tram",
+  "lat": 37.09412049520254,
+  "lon": -8.257206172076039,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "phrase_d104e211da5e",
+      "intent_en": "Ask where the footbridge is",
+      "text_local": "Desculpe, onde fica a ponte pedonal?",
+      "pronunciation": "dihsh-KOOW-pih, OHNG-dih FEE-kuh AH POHNG-tih peh-doo-NAHL?",
+      "formality": "polite",
+      "cultural_note": "The footbridge connects the two platforms, essential for crossing tracks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ao fundo, à esquerda.",
+        "pronunciation": "OW FOONNG-doo, AH SHKEH-ruh-duh.",
+        "translation_en": "At the end, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the end, on the left.",
+          "phonetic": "OW FOONNG-doo, AH SHKEH-ruh-duh.",
+          "french": "Ao fundo, à esquerda."
+        }
+      ]
+    },
+    {
+      "id": "phrase_e2b60f10fd18",
+      "intent_en": "Ask where platform 1 is",
+      "text_local": "Desculpe, onde é a plataforma 1?",
+      "pronunciation": "dihsh-KOOW-pih, OHNG-dih EH AH pluh-tuh-FAW-ruh-muh OOM?",
+      "formality": "polite",
+      "cultural_note": "Platform 1 is usually for trains toward Faro; platform signage is clear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "À direita, depois da ponte.",
+        "pronunciation": "AH dee-RAY-tuh, dih-POYSH DUH POHNG-tih.",
+        "translation_en": "On the right, after the footbridge."
+      },
+      "responses": [
+        {
+          "english": "On the right, after the footbridge.",
+          "phonetic": "AH dee-RAY-tuh, dih-POYSH DUH POHNG-tih.",
+          "french": "À direita, depois da ponte."
+        }
+      ]
+    },
+    {
+      "id": "phrase_ec0c1833151c",
+      "intent_en": "Ask where the CP ticket office is",
+      "text_local": "Onde fica exatamente a bilheteira da CP?",
+      "pronunciation": "OHNG-dih FEE-kuh eh-zuh-tuh-MAYNG-tih AH bee-lyih-TAY-ruh DUH seh-PEH?",
+      "formality": "casual",
+      "cultural_note": "Staff prioritize direct location cues over descriptive details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Siga as placas para a Bilheteira CP.",
+        "pronunciation": "SEE-guh UHSH PLAH-kuhsh PUH-ruh AH bee-lyih-TAY-ruh seh-PEH.",
+        "translation_en": "Follow the signs to the CP ticket office."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the CP ticket office.",
+          "phonetic": "SEE-guh UHSH PLAH-kuhsh PUH-ruh AH bee-lyih-TAY-ruh seh-PEH.",
+          "french": "Siga as placas para a Bilheteira CP."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

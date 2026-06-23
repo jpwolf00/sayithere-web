@@ -1,0 +1,115 @@
+{
+  "id": "aix_place_hotel_de_ville",
+  "name_en": "Place de l'Hôtel de Ville",
+  "name_local": "Place de l'Hôtel de Ville",
+  "icon": "building.2.fill",
+  "phrases": [
+    {
+      "id": "aix_hdv_001",
+      "intent_en": "Ask about the flower market on this square",
+      "text_local": "Le marché aux fleurs a lieu ici chaque matin ?",
+      "pronunciation": "luh mar-SHAY oh FLUHR ah LYUH ee-SEE shahk mah-TEHN",
+      "formality": "standard",
+      "cultural_note": "The Place de l'Hôtel de Ville hosts a flower market Tuesday, Thursday, and Saturday mornings. It is one of the loveliest markets in Aix, with cut flowers, potted plants, and seasonal wreaths from local growers.",
+      "responses": [
+        {
+          "english": "Tuesday, Thursday, and Saturday morning.",
+          "phonetic": "mar-DEE, zhuh-DEE ay sam-DEE mah-TEHN",
+          "french": "Mardi, jeudi et samedi matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_hdv_002",
+      "intent_en": "Ask if the Town Hall is open to visitors",
+      "text_local": "Peut-on visiter l'hôtel de ville ?",
+      "pronunciation": "puh-TOHN vee-zee-TAY loh-TEL duh VEEL",
+      "formality": "polite",
+      "cultural_note": "The Hôtel de Ville (Town Hall) is a working municipal building. Some areas may be open during special events or heritage days.",
+      "responses": [
+        {
+          "english": "Only during Heritage Days.",
+          "phonetic": "suhl-MAHN pahn-DAHN lay zhoor-NAY doo pah-tree-MWAHN",
+          "french": "Seulement pendant les Journées du Patrimoine."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_hdv_003",
+      "intent_en": "Ask what time the clock tower chimes",
+      "text_local": "À quelle heure sonne la tour de l'Horloge ?",
+      "pronunciation": "ah kel UHR son lah TOOR duh lor-LOHZH",
+      "formality": "polite",
+      "cultural_note": "The Tour de l'Horloge beside the Hôtel de Ville is a landmark of old Aix. It chimes on the hour.",
+      "responses": [
+        {
+          "english": "It chimes every hour.",
+          "phonetic": "el son TOOT layz UHR",
+          "french": "Elle sonne toutes les heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_hdv_004",
+      "intent_en": "Ask where the tourist office is from here",
+      "text_local": "L'office de tourisme est-il loin d'ici ?",
+      "pronunciation": "loh-FEES duh too-REEZM eh-TEEL lwehn dee-SEE",
+      "formality": "standard",
+      "cultural_note": "The Aix-en-Provence tourist office is located on the Cours Mirabeau, just a short walk from the Place de l'Hôtel de Ville. Staff speak English and can provide the Cézanne trail map and current event listings.",
+      "responses": [
+        {
+          "english": "It's marked on the map.",
+          "phonetic": "seh ehn-dee-KAY soor luh PLAHN",
+          "french": "C'est indiqué sur le plan."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_hdv_005",
+      "intent_en": "Ask if there are concerts or events this week",
+      "text_local": "Y a-t-il des concerts ou des événements cette semaine ?",
+      "pronunciation": "ee ah-TEEL day kohn-SEHR oo day ay-vay-nuh-MAHN set suh-MEN",
+      "formality": "polite",
+      "cultural_note": "The Place de l'Hôtel de Ville hosts seasonal events and is one of the main stages for the Festival d'Aix-en-Provence in July.",
+      "responses": [
+        {
+          "english": "Check the programme at the tourist office.",
+          "phonetic": "vay-ree-FYAY luh proh-GRAM ah loh-FEES duh too-REEZM",
+          "french": "Vérifiez le programme à l'office de tourisme."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Town Hall",
+      "word_local": "L'hôtel de ville",
+      "pronunciation": "loh-TEL duh VEEL"
+    },
+    {
+      "word_en": "Flower market",
+      "word_local": "Le marché aux fleurs",
+      "pronunciation": "luh mar-SHAY oh FLUHR"
+    },
+    {
+      "word_en": "Clock tower",
+      "word_local": "La tour de l'horloge",
+      "pronunciation": "lah TOOR duh lor-LOHZH"
+    },
+    {
+      "word_en": "Festival",
+      "word_local": "Le festival",
+      "pronunciation": "luh fes-tee-VAL"
+    }
+  ]
+}

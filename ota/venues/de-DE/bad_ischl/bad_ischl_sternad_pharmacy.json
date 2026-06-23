@@ -1,0 +1,100 @@
+{
+  "id": "bad_ischl_sternad_pharmacy",
+  "name_en": "Sternad Pharmacy",
+  "name_local": "Apotheke Sternad",
+  "icon": "info.circle",
+  "lat": 47.7115299,
+  "lon": 13.6239333,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bad_ischl_sternad_pharmacy_001",
+      "intent_en": "Where do I pick up my prescription?",
+      "text_local": "Wo löst man hier Rezepte ein?",
+      "pronunciation": "vOH-lUHst-mahn-hEEr-rehtsEHptuh-EYEn",
+      "formality": "casual",
+      "cultural_note": "Apotheken in Österreich haben meist einen gekennzeichneten Abgabeplatz für Rezepte, oft direkt am Schalter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_sternad_pharmacy_002",
+      "intent_en": "Where do I stamp my bonus card?",
+      "text_local": "Wo kann ich meine Bonuskarte abstempeln?",
+      "pronunciation": "vOH-kAHn-ihkh-mEYEnuh-bOHnuhskAHrtuh-AHpshtEHmpuhln",
+      "formality": "standard",
+      "cultural_note": "Bonusprogramme in österreichischen Apotheken werden meist beim Bezahlen an der Kasse erfasst.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Kasse.",
+        "pronunciation": "ahn-dehr-kAHsuh",
+        "translation_en": "At the cash register."
+      },
+      "responses": [
+        {
+          "english": "At the cash register.",
+          "phonetic": "ahn-dehr-kAHsuh",
+          "french": "An der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_sternad_pharmacy_003",
+      "intent_en": "How do I get the self-pay consultation?",
+      "text_local": "Wie läuft die Selbstzahler-Beratung ab?",
+      "pronunciation": "vee-lAWuhft-dee-zEHlpstsahlbuhrAHtuhng-AHp",
+      "formality": "standard",
+      "cultural_note": "Selbstzahler-Beratungen finden in Apotheken typischerweise im Beratungsbereich oder direkt am Schalter statt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Apotheker berät Sie gleich.",
+        "pronunciation": "dehr-AHpohtEHk-buhrEHt-zee-glEYEkh",
+        "translation_en": "The pharmacist will advise you shortly."
+      },
+      "responses": [
+        {
+          "english": "The pharmacist will advise you shortly.",
+          "phonetic": "dehr-AHpohtEHk-buhrEHt-zee-glEYEkh",
+          "french": "Der Apotheker berät Sie gleich."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_sternad_pharmacy_004",
+      "intent_en": "Is the Arnika-Salbe available without prescription?",
+      "text_local": "Braucht man für Arnika-Salbe ein Rezept?",
+      "pronunciation": "brOWkht-mahn-fuer-AHrneekAHzAHlbuh-eyen-rehtsEHpt",
+      "formality": "standard",
+      "cultural_note": "In österreichischen Apotheken sind viele Arnica-Produkte frei verkäuflich, besonders Salben zur äußerlichen Anwendung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, rezeptfrei.",
+        "pronunciation": "nEYEnrEHtsehptfrEYE",
+        "translation_en": "No, over the counter."
+      },
+      "responses": [
+        {
+          "english": "No, over the counter.",
+          "phonetic": "nEYEnrEHtsehptfrEYE",
+          "french": "Nein, rezeptfrei."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

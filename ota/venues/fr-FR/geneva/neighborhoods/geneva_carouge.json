@@ -1,0 +1,93 @@
+{
+  "id": "geneva_nbhd_carouge",
+  "name_en": "Carouge neighborhood",
+  "name_local": "Carouge",
+  "icon": "map",
+  "phrases": [
+    {
+      "id": "geneva_nbhd_car_001",
+      "intent_en": "Ask what Carouge is known for",
+      "text_local": "Pour quoi Carouge est-il réputé ?",
+      "pronunciation": "poor KWA kah-ROOZH eh-TEEL ray-pyoo-TAY",
+      "formality": "polite",
+      "cultural_note": "Carouge is Geneva's bohemian quarter — a separately founded Sardinian town with distinctive arcaded streets, artisan workshops, independent boutiques and a village atmosphere.",
+      "responses": [
+        {
+          "english": "Take line 12 towards Bachet and get off at the Carouge, Place du Marché stop.",
+          "phonetic": "KEL a-REH duh TRAHM poor ka-ROOZH",
+          "french": "Prenez la ligne 12 en direction de Bachet et descendez à l'arrêt Carouge, Place du Marché."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_car_002",
+      "intent_en": "Ask how to get to Carouge",
+      "text_local": "Comment me rendre à Carouge depuis le centre-ville ?",
+      "pronunciation": "koh-MOHN muh ROHN-druh ah kah-ROOZH duh-PWEE luh SON-truh-VEEL",
+      "formality": "polite",
+      "cultural_note": "Tram lines 12 and 18 connect the city centre directly to Carouge in about 15 minutes. The Marché stop drops you right in the heart of the neighbourhood.",
+      "responses": [
+        {
+          "english": "Take tram 12 from Place du Molard, it drops you off at Carouge center in about 10 minutes.",
+          "phonetic": "kaw-MAHN muh RAHNDR ah ka-ROOZH duh-PWEE luh SAHN-truh-VEEL",
+          "french": "Prenez le tram 12 depuis la place du Molard, il vous dépose au centre de Carouge en environ 10 minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_car_003",
+      "intent_en": "Ask about artisan shops and studios",
+      "text_local": "Y a-t-il des ateliers d'artisans à visiter dans ce quartier ?",
+      "pronunciation": "ee-ah-TEEL day zah-tuh-LYAY dar-tee-ZON ah vee-zee-TAY don suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Carouge is famous for its artisan workshops — potters, jewellers, glassblowers and leather workers — many of which welcome visitors to watch them at work.",
+      "responses": [
+        {
+          "english": "The shop closes at 6 PM. Break from 12 PM to 2 PM. Closed on Mondays.",
+          "phonetic": "ah kel UR FERM lah boo-TEEK",
+          "french": "La boutique ferme à 18h. Pause de 12h à 14h. Fermée le lundi."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_car_004",
+      "intent_en": "Ask about the Saturday market",
+      "text_local": "Le marché du samedi à Carouge vaut-il le détour ?",
+      "pronunciation": "luh mar-SHAY doo sahm-DEE ah kah-ROOZH voh-TEEL luh day-TOOR",
+      "formality": "polite",
+      "cultural_note": "The Saturday morning market on Place du Marché in Carouge is one of the most charming in the Geneva region, with local produce, flowers, cheese and specialty foods.",
+      "responses": [
+        {
+          "english": "I recommend 'Le Petit Bistro' on the corner, they offer lunch set menus around 15 euros.",
+          "phonetic": "OO pweezh DAY-zhuh-NAY pray dee-SEE",
+          "french": "Je vous recommande « Le Petit Bistro » au coin de la rue, ils proposent des formules déjeuner autour de 15 euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "artisan / craftsperson",
+      "word_local": "l'artisan",
+      "pronunciation": "lar-tee-ZON"
+    },
+    {
+      "word_en": "workshop / studio",
+      "word_local": "l'atelier",
+      "pronunciation": "lah-tuh-LYAY"
+    },
+    {
+      "word_en": "bohemian",
+      "word_local": "bohème",
+      "pronunciation": "boh-EM"
+    }
+  ]
+}

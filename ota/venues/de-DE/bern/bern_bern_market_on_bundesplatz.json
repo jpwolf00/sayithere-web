@@ -1,0 +1,100 @@
+{
+  "id": "bern_bern_market_on_bundesplatz",
+  "name_en": "Bern Market on Bundesplatz",
+  "name_local": "Bundesplatzmarkt",
+  "icon": "cart",
+  "lat": 46.9484742,
+  "lon": 7.4521749,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "bern_bern_market_on_bundesplatz_001",
+      "intent_en": "Weigh produce at which stall counter",
+      "text_local": "Wo wird das Gemüse gewogen?",
+      "pronunciation": "vOH-vIHrt-dahs-uhmUEzuh-uhvOHuhn",
+      "formality": "standard",
+      "cultural_note": "Das Wiegen von Produkten erfolgt direkt an den Ständen der Bauern. Es gibt keinen zentralen Waagenstand.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Obstwaage am Stand.",
+        "pronunciation": "ahn-dehr-AWpstvahguh-ahm-shtAHnt",
+        "translation_en": "At the fruit scale on the stall."
+      },
+      "responses": [
+        {
+          "english": "At the fruit scale on the stall.",
+          "phonetic": "ahn-dehr-AWpstvahguh-ahm-shtAHnt",
+          "french": "An der Obstwaage am Stand."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_market_on_bundesplatz_002",
+      "intent_en": "Pay weekly fee for farm stand permit",
+      "text_local": "Wo zahle ich die Wochengebühr?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dee-vAWkhuhnEHbuer",
+      "formality": "standard",
+      "cultural_note": "Marktgebühren werden oft zentral an einem Schalter oder bei der Marktleitung erhoben. Direkte Hinweise dazu fehlen auf dem Platz.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Marktleitung.",
+        "pronunciation": "ahm-shAHlt-dehr-mAHrktleyetUHng",
+        "translation_en": "At the market office counter."
+      },
+      "responses": [
+        {
+          "english": "At the market office counter.",
+          "phonetic": "ahm-shAHlt-dehr-mAHrktleyetUHng",
+          "french": "Am Schalter der Marktleitung."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_market_on_bundesplatz_003",
+      "intent_en": "Buy cash-only cheese from farm stand",
+      "text_local": "Kann ich hier Käse bar bezahlen?",
+      "pronunciation": "kAHn-ihkh-hEEr-kEHzuh-bAHr-buhtsAHluhn",
+      "formality": "casual",
+      "cultural_note": "Farmstände auf Märkten akzeptieren oft nur Bargeld, besonders bei lokalen Produkten wie Käse.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nur Bargeld.",
+        "pronunciation": "yAHnOOr-bAHrehlt",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "yAHnOOr-bAHrehlt",
+          "french": "Ja, nur Bargeld."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_market_on_bundesplatz_004",
+      "intent_en": "See Bundeshaus from market edge",
+      "text_local": "Wo sieht man das Bundeshaus?",
+      "pronunciation": "vOH-zEEt-mahn-dahs-bUHnduhshOWs",
+      "formality": "standard",
+      "cultural_note": "Das Bundeshaus ist vom Marktplatz aus gut sichtbar, besonders von der höher gelegenen Seite in Richtung der Treppen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf der Bundesplatz-Seite.",
+        "pronunciation": "owf-dehr-bUHnduhsplAHtszEYEtuh",
+        "translation_en": "On the Bundesplatz side."
+      },
+      "responses": [
+        {
+          "english": "On the Bundesplatz side.",
+          "phonetic": "owf-dehr-bUHnduhsplAHtszEYEtuh",
+          "french": "Auf der Bundesplatz-Seite."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ioannina_averoff_street_shopping_area",
+  "name_en": "Averoff Street Shopping Area",
+  "name_local": "Οδός Αβέρωφ",
+  "icon": "bag",
+  "lat": 39.6639818,
+  "lon": 20.8522784,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "ioannina_averoff_street_shopping_area_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Το έχετε σε αυτό το μέγεθος;",
+      "pronunciation": "toh-EHkhehtEH-seh-mEHyehthOHs",
+      "formality": "standard",
+      "cultural_note": "Traditional silversmiths often customize rings. The response directs the traveler to the craftsman.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, αν θέλετε μπορώ να σας το φέρει ο τεχνίτης στο μέγεθός σας.",
+        "pronunciation": "nEHahn-thEHlehtEH-bohrOH-nah-sahs-toh-fEHree-oh-tehkhnEEtees-stoh-mEHyehthOHs-sahs",
+        "translation_en": "Yes, if you like, the craftsman can make it in your size."
+      },
+      "responses": [
+        {
+          "english": "Yes, if you like, the craftsman can make it in your size.",
+          "phonetic": "nEHahn-thEHlehtEH-bohrOH-nah-sahs-toh-fEHree-oh-tehkhnEEtees-stoh-mEHyehthOHs-sahs",
+          "french": "Ναι, αν θέλετε μπορώ να σας το φέρει ο τεχνίτης στο μέγεθός σας."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_averoff_street_shopping_area_002",
+      "intent_en": "Ask where to find an ATM nearby",
+      "text_local": "Πού είναι η Eurobank;",
+      "pronunciation": "pOO-EEneh-ee-ehnyOO-UHruhuhbAHngkehl",
+      "formality": "standard",
+      "cultural_note": "ATMs are often located near supermarkets or central areas. The response points to a stable target.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κοντά στο σούπερ μάρκετ Σκλαβενίτης.",
+        "pronunciation": "kohdAH-stoh-sOOpehr-mAHreht-sklAHvehnEEtees",
+        "translation_en": "Near Sklavenitis supermarket."
+      },
+      "responses": [
+        {
+          "english": "Near Sklavenitis supermarket.",
+          "phonetic": "kohdAH-stoh-sOOpehr-mAHreht-sklAHvehnEEtees",
+          "french": "Κοντά στο σούπερ μάρκετ Σκλαβενίτης."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_averoff_street_shopping_area_003",
+      "intent_en": "Ask if this shop takes card payments",
+      "text_local": "Δέχονται κάρτα;",
+      "pronunciation": "thEHkhohdEH-kAHrtah",
+      "formality": "standard",
+      "cultural_note": "Cash is preferred in small kafeneia and at times card machines fail. The response reflects this local practice.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Γεια σας, ναι.",
+        "pronunciation": "yAH-sahsnEH",
+        "translation_en": "Hello, yes."
+      },
+      "responses": [
+        {
+          "english": "Hello, yes.",
+          "phonetic": "yAH-sahsnEH",
+          "french": "Γεια σας, ναι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

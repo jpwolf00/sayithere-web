@@ -1,0 +1,125 @@
+{
+  "id": "venue_pantheon",
+  "name_en": "Panthéon",
+  "name_local": "Panthéon",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "venue_pantheon_001",
+      "intent_en": "Ask how much a ticket costs",
+      "text_local": "Combien coûte l'entrée ?",
+      "pronunciation": "kohm-BYEHN koot lan-TRAY",
+      "formality": "polite",
+      "cultural_note": "The Panthéon is a national monument. Free for EU residents under 26.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is eleven euros for adults. Free for EU residents under 26.",
+          "phonetic": "seh onz uh-ROH poor layz ah-DOOLT. grah-TWEET poor lay mwahn duh vant-see ahn duh loo-AY",
+          "french": "C'est onze euros pour les adultes. Gratuit pour les moins de 26 ans de l'UE."
+        }
+      ]
+    },
+    {
+      "id": "venue_pantheon_002",
+      "intent_en": "Ask where the entrance is",
+      "text_local": "Où est l'entrée du Panthéon ?",
+      "pronunciation": "oo eh lan-TRAY doo pahn-tay-OHN",
+      "formality": "polite",
+      "cultural_note": "The main entrance is on Place du Panthéon, facing the Luxembourg Gardens.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The main entrance is in front, on the square.",
+          "phonetic": "lan-TRAY pran-see-PAL eh tahn fass, soor lah plass",
+          "french": "L'entrée principale est en face, sur la place."
+        }
+      ]
+    },
+    {
+      "id": "venue_pantheon_003",
+      "intent_en": "Ask about access to the dome",
+      "text_local": "Peut-on visiter la colonnade en haut ?",
+      "pronunciation": "puh-TOHN vee-zee-TAY lah koh-loh-NAD ahn OH",
+      "formality": "polite",
+      "cultural_note": "The colonnade gallery at the top is open seasonally (April to October). It offers a stunning view of the Latin Quarter and all of Paris.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Dome access is by the staircase, on the right.",
+          "phonetic": "lahk-SEH oh dohm eh par les-kah-lee-YAY, soor lah drwaht",
+          "french": "L'accès au dôme est par l'escalier, sur la droite."
+        }
+      ]
+    },
+    {
+      "id": "venue_pantheon_004",
+      "intent_en": "Ask about the crypt",
+      "text_local": "Comment descendre dans la crypte ?",
+      "pronunciation": "koh-MAHN deh-SAHNDR dahn lah KREEPT",
+      "formality": "standard",
+      "cultural_note": "The crypt is included in the admission ticket. The tombs are simple and dignified. Marie Curie's tomb is lined with lead due to her radioactive research.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The crypt is downstairs. The entrance is at the back of the nave.",
+          "phonetic": "lah kreeept eh tahn bah. lan-TRAY eh toh fohn duh lah nef",
+          "french": "La crypte est en bas. L'entrée est au fond de la nef."
+        }
+      ]
+    },
+    {
+      "id": "venue_pantheon_005",
+      "intent_en": "Ask if there are guided tours in English",
+      "text_local": "Il y a des visites guidées en anglais ?",
+      "pronunciation": "eel ee ah day vee-ZEET gee-DAY ahn ahn-GLEH",
+      "formality": "polite",
+      "cultural_note": "Audio guides in English are typically available. Guided tours may run on certain days only.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There is an audio guide in English at the ticket counter.",
+          "phonetic": "eel ee ah uhn oh-dee-oh-GEED ahn ahn-GLEH oh gee-SHAY",
+          "french": "Il y a un audioguide en anglais au guichet."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Crypt",
+      "word_local": "Crypte",
+      "pronunciation": "kreept"
+    },
+    {
+      "word_en": "Pendulum",
+      "word_local": "Pendule",
+      "pronunciation": "pahn-DOOL"
+    },
+    {
+      "word_en": "Buried",
+      "word_local": "Enterré(e)",
+      "pronunciation": "ahn-teh-RAY"
+    },
+    {
+      "word_en": "Dome",
+      "word_local": "Dôme",
+      "pronunciation": "dohm"
+    },
+    {
+      "word_en": "Great men/women",
+      "word_local": "Grands hommes",
+      "pronunciation": "grahnz OHM"
+    },
+    {
+      "word_en": "Colonnade",
+      "word_local": "Colonnade",
+      "pronunciation": "koh-loh-NAD"
+    }
+  ]
+}

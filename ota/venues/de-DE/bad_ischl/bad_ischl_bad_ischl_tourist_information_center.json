@@ -1,0 +1,56 @@
+{
+  "id": "bad_ischl_bad_ischl_tourist_information_center",
+  "name_en": "Bad Ischl Tourist Information Center",
+  "name_local": "Tourismusverband Bad Ischl",
+  "icon": "info.circle",
+  "lat": 47.7115299,
+  "lon": 13.6239333,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bad_ischl_bad_ischl_tourist_information_center_001",
+      "intent_en": "How do I buy the Salzkammergut Card?",
+      "text_local": "Wo bekomme ich die Salzkammergut Card?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dee-zAHltskahmOOt-kAHrt",
+      "formality": "casual",
+      "cultural_note": "Direkte und knappe Antwort erwartet; Ticketkauf ist Standarddienstleistung an Infotheken.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_bad_ischl_tourist_information_center_002",
+      "intent_en": "Can I book a spa treatment here for tomorrow?",
+      "text_local": "Kann ich morgen eine Spa-Behandlung buchen?",
+      "pronunciation": "kAHn-ihkh-mAWruhn-EYEnuh-shpAHbuhhAHndluhng-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Spa-Termine werden oft extern vermittelt; Beratung am Thermenberatungspunkt ist üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie bei der Thermenberatung.",
+        "pronunciation": "frAHuhn-zee-beye-dehr-tEHrmuhnbuhrAHtuhng",
+        "translation_en": "Ask at the spa consultant desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the spa consultant desk.",
+          "phonetic": "frAHuhn-zee-beye-dehr-tEHrmuhnbuhrAHtuhng",
+          "french": "Fragen Sie bei der Thermenberatung."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

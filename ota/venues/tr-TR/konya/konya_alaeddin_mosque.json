@@ -1,0 +1,166 @@
+{
+  "id": "konya_alaeddin_mosque",
+  "name_en": "Alaeddin Mosque",
+  "name_local": "Alaeddin Camii",
+  "icon": "building.columns",
+  "lat": 37.8734281,
+  "lon": 32.4927857,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "konya_alaeddin_mosque_001",
+      "intent_en": "Where to leave shoes?",
+      "text_local": "Ayakkabılarımı nereye bırakabilirim?",
+      "pronunciation": "ahyahkahbooAHroomoo-nEHrehyeh-boorahkahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "In Turkish mosques, removing shoes before the carpeted prayer hall is mandatory. There are usually shelves or cubbies near the entrance for this purpose.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Namaz salonundan önce çıkarın, raflar girişte.",
+        "pronunciation": "nahmAHz-sahohnuhndAHn-UHndzheh-tshookahrOOnrahfAHr-eerihshtEH",
+        "translation_en": "Remove before the prayer hall, shelves are at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Remove before the prayer hall, shelves are at the entrance.",
+          "phonetic": "nahmAHz-sahohnuhndAHn-UHndzheh-tshookahrOOnrahfAHr-eerihshtEH",
+          "french": "Namaz salonundan önce çıkarın, raflar girişte."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_mosque_002",
+      "intent_en": "Where to leave shoes?",
+      "text_local": "Ayakkabıları nereye bırakabilirim?",
+      "pronunciation": "ahyahkahbooahrOO-nEHrehyeh-boorahkahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "In Turkish mosques, shoe removal before the prayer hall is a standard practice. The response directs the visitor to follow this rule without specifying a shelf location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Namaz salonundan önce ayakkabılarınızı çıkarın.",
+        "pronunciation": "nahmAHz-sahohnuhndAHn-UHndzheh-ahyahkahbooAHroonoozoo-tshookahrOOn",
+        "translation_en": "Remove your shoes before the prayer hall."
+      },
+      "responses": [
+        {
+          "english": "Remove your shoes before the prayer hall.",
+          "phonetic": "nahmAHz-sahohnuhndAHn-UHndzheh-ahyahkahbooAHroonoozoo-tshookahrOOn",
+          "french": "Namaz salonundan önce ayakkabılarınızı çıkarın."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_mosque_003",
+      "intent_en": "Is entry free?",
+      "text_local": "Giriş ücretli mi?",
+      "pronunciation": "eerIHsh-uhdzhrehtlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Entry to mosques in Turkey is typically free, though donations are appreciated.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Camiye giriş ücretsizdir.",
+        "pronunciation": "dzhahmeeyEH-eerIHsh-uhdzhrEHtsihzdihr",
+        "translation_en": "Entry to the mosque is free."
+      },
+      "responses": [
+        {
+          "english": "Entry to the mosque is free.",
+          "phonetic": "dzhahmeeyEH-eerIHsh-uhdzhrEHtsihzdihr",
+          "french": "Camiye giriş ücretsizdir."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_mosque_004",
+      "intent_en": "Where are the sultan tombs?",
+      "text_local": "Selçuklu sultan türbeleri nerede?",
+      "pronunciation": "sahltshuhkUH-suhtAHn-tuhrbehlehrIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The Seljuk sultan tombs are a stable target, but their exact location within the complex is not specified, so directing to staff is the safest response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Avlunun solunda.",
+        "pronunciation": "ahvoonUHn-sohuhndAH",
+        "translation_en": "On the left side of the courtyard."
+      },
+      "responses": [
+        {
+          "english": "On the left side of the courtyard.",
+          "phonetic": "ahvoonUHn-sohuhndAH",
+          "french": "Avlunun solunda."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_mosque_005",
+      "intent_en": "Where is the donation box?",
+      "text_local": "Bağış kutusu nerede?",
+      "pronunciation": "bahOOsh-kootoosUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "A donation box for upkeep is a known feature, but its precise location isn't given, so it's best to ask a staff member.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Avluda, sol tarafta.",
+        "pronunciation": "ahvoodAHsAW-tahrahftAH",
+        "translation_en": "In the courtyard, on the left side."
+      },
+      "responses": [
+        {
+          "english": "In the courtyard, on the left side.",
+          "phonetic": "ahvoodAHsAW-tahrahftAH",
+          "french": "Avluda, sol tarafta."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_mosque_006",
+      "intent_en": "Where is the main prayer hall?",
+      "text_local": "Ana namaz salonu nerede?",
+      "pronunciation": "ahnAH-nahmAHz-sahohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "While the main prayer hall is a stable target, its precise location within the complex is not detailed in the context to give a directional cue. Asking staff is the safest option.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sağdaki büyük kapıdan girin.",
+        "pronunciation": "sahdahkIH-bueyUHk-kahpoodAHn-eerIHn",
+        "translation_en": "Enter through the large door on the right."
+      },
+      "responses": [
+        {
+          "english": "Enter through the large door on the right.",
+          "phonetic": "sahdahkIH-bueyUHk-kahpoodAHn-eerIHn",
+          "french": "Sağdaki büyük kapıdan girin."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_mosque_007",
+      "intent_en": "Where is the main prayer hall?",
+      "text_local": "Ana ibadet salonu nerede?",
+      "pronunciation": "ahnAH-eebahdEHt-sahohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The main prayer hall is directly accessed after the shoe removal area, a standard layout in mosques.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ayakkabılarınızı çıkardığınız yerden devam edin.",
+        "pronunciation": "ahyahkahbooAHroonoozoo-tshookahrdOOoooonooz-yehrdAHn-dehvAHm-ehdEEn",
+        "translation_en": "Continue from where you remove your shoes."
+      },
+      "responses": [
+        {
+          "english": "Continue from where you remove your shoes.",
+          "phonetic": "ahyahkahbooAHroonoozoo-tshookahrdOOoooonooz-yehrdAHn-dehvAHm-ehdEEn",
+          "french": "Ayakkabılarınızı çıkardığınız yerden devam edin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

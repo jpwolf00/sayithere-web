@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_sunnegga_rothorn_cable_car_valley_station",
+  "name_en": "Sunnegga-Rothorn Cable Car Valley Station",
+  "name_local": "Sunnegga-Express Talstation",
+  "icon": "tram",
+  "lat": 46.0212076,
+  "lon": 7.749254,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zermatt_sunnegga_rothorn_cable_car_valley_station_001",
+      "intent_en": "Is the Rothorn cable car running now",
+      "text_local": "Fährt die Rothornbahn jetzt?",
+      "pronunciation": "fEHrt-dee-rAWtawrnbAHn-yEHtst",
+      "formality": "standard",
+      "cultural_note": "Concise responses are standard in operational contexts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_sunnegga_rothorn_cable_car_valley_station_002",
+      "intent_en": "Where do I queue for large groups",
+      "text_local": "Wo stehen Gruppen an?",
+      "pronunciation": "vOH-shtEHuhn-rUHpuhn-AHn",
+      "formality": "standard",
+      "cultural_note": "Group queues are often marked with colored signs or lines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem blauen Markierungsbereich.",
+        "pronunciation": "fAWr-dehm-blOW-UHn-mahrkEEruhngsbuhrEYEkh",
+        "translation_en": "In front of the blue marked area."
+      },
+      "responses": [
+        {
+          "english": "In front of the blue marked area.",
+          "phonetic": "fAWr-dehm-blOW-UHn-mahrkEEruhngsbuhrEYEkh",
+          "french": "Vor dem blauen Markierungsbereich."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_sunnegga_rothorn_cable_car_valley_station_003",
+      "intent_en": "Where is the equipment rental at valley base",
+      "text_local": "Wo gibt es Ausrüstung zu mieten?",
+      "pronunciation": "vOH-EEpt-ehs-OWsrUEstuhng-tsoo-mEEtuhn",
+      "formality": "standard",
+      "cultural_note": "Equipment rental is typically located near the valley station counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Talbereich.",
+        "pronunciation": "ahm-shAHlt-ihm-tAHlbuhrEYEkh",
+        "translation_en": "At the counter in the valley area."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the valley area.",
+          "phonetic": "ahm-shAHlt-ihm-tAHlbuhrEYEkh",
+          "french": "Am Schalter im Talbereich."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_sunnegga_rothorn_cable_car_valley_station_004",
+      "intent_en": "Where do I validate my ski pass at gates",
+      "text_local": "Wo ist die Skipass-Validierung?",
+      "pronunciation": "vOH-ihst-dee-skEEpahsvAHleedEEruhng",
+      "formality": "standard",
+      "cultural_note": "Validation typically occurs at designated counters or gates near the boarding area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Einsteigen am Schalter.",
+        "pronunciation": "fAWr-dehm-EYEnshtEYEuhn-ahm-shAHlt",
+        "translation_en": "Before boarding at the counter."
+      },
+      "responses": [
+        {
+          "english": "Before boarding at the counter.",
+          "phonetic": "fAWr-dehm-EYEnshtEYEuhn-ahm-shAHlt",
+          "french": "Vor dem Einsteigen am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

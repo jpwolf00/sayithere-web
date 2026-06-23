@@ -1,0 +1,232 @@
+{
+  "id": "fethiye_fethiye_airport_dalaman",
+  "name_en": "Fethiye Airport (Dalaman)",
+  "name_local": "Dalaman Havalimani",
+  "icon": "tram",
+  "lat": 36.6237078,
+  "lon": 29.1315251,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_airport_dalaman_001",
+      "intent_en": "Ask taxi fixed-rate to Ölüdeniz now",
+      "text_local": "Ölüdeniz'e şu an sabit taksi ücreti ne kadar?",
+      "pronunciation": "uhluedehneezEH-shuh-AHn-sahbIHt-tahksIH-uhdzhrehtIH-nEH-kahdAHr",
+      "formality": "standard",
+      "cultural_note": "Current fixed taxi rates are not provided in the venue context; the taxi coordinator or information desk has updated pricing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yedi yüz elli lira.",
+        "pronunciation": "yehdIH-yUHz-ahllIH-leerAH",
+        "translation_en": "Seven hundred and fifty lira."
+      },
+      "responses": [
+        {
+          "english": "Seven hundred and fifty lira.",
+          "phonetic": "yehdIH-yUHz-ahllIH-leerAH",
+          "french": "Yedi yüz elli lira."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_002",
+      "intent_en": "Ask where Havaş shuttle desk is",
+      "text_local": "Havaş servis masası nerede?",
+      "pronunciation": "hahvAHsh-sehrvIHs-mahsahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish airports use clear signage; staff often point to signs rather than give verbal directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gelen yolcu çıkışının hemen yanında.",
+        "pronunciation": "ehlAHn-yawdzhUH-tshookooshoonOOn-hehmAHn-yahnoondAH",
+        "translation_en": "Right next to the arrivals exit."
+      },
+      "responses": [
+        {
+          "english": "Right next to the arrivals exit.",
+          "phonetic": "ehlAHn-yawdzhUH-tshookooshoonOOn-hehmAHn-yahnoondAH",
+          "french": "Gelen yolcu çıkışının hemen yanında."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_003",
+      "intent_en": "Ask when next Havaş bus to Fethiye leaves",
+      "text_local": "Fethiye'ye sonraki Havaş otobüsü ne zaman kalkıyor?",
+      "pronunciation": "fehtheeyehyEH-sawnrahkIH-hahvAHsh-ohtohbuesUH-nEH-zahmAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Havaş schedules vary by season and flight arrivals; exact times are not fixed targets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bir sonraki kalkış on beş dakika sonra.",
+        "pronunciation": "bihr-sawnrahkIH-kahkOOsh-AWn-bEHsh-dahkeekAH-sawnrAH",
+        "translation_en": "The next departure is in fifteen minutes."
+      },
+      "responses": [
+        {
+          "english": "The next departure is in fifteen minutes.",
+          "phonetic": "bihr-sawnrahkIH-kahkOOsh-AWn-bEHsh-dahkeekAH-sawnrAH",
+          "french": "Bir sonraki kalkış on beş dakika sonra."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_004",
+      "intent_en": "Ask where car rental counter for pre-booked is",
+      "text_local": "Önceden ayırttığım araç kiralama bankosu nerede?",
+      "pronunciation": "rehzehrvahsyawnUH-ahrAHtsh-keerAHahmah-bahnkohsUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Car rental counters may be split or relocated; the information desk has current counter locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Varış salonu çıkışında, sağda.",
+        "pronunciation": "vahrOOsh-sahohnUH-tshookooshoondAHsahdAH",
+        "translation_en": "At the arrivals hall exit, on the right."
+      },
+      "responses": [
+        {
+          "english": "At the arrivals hall exit, on the right.",
+          "phonetic": "vahrOOsh-sahohnUH-tshookooshoondAHsahdAH",
+          "french": "Varış salonu çıkışında, sağda."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_005",
+      "intent_en": "Ask if exchange desk open before baggage claim",
+      "text_local": "Döviz bürosu bagaj alımından önce açık mı?",
+      "pronunciation": "dUHvihz-buerohsUH-bahgAHzh-ahoomoondAHn-UHndzheh-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Exchange desk hours fluctuate with flight schedules; the information desk has current opening times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, iç hatlar gelişte var.",
+        "pronunciation": "ehvEHtIHtsh-hahtAHr-ehlihshtEH-vAHr",
+        "translation_en": "Yes, it's in the domestic arrivals hall."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's in the domestic arrivals hall.",
+          "phonetic": "ehvEHtIHtsh-hahtAHr-ehlihshtEH-vAHr",
+          "french": "Evet, iç hatlar gelişte var."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_006",
+      "intent_en": "Ask taxi fixed-rate to Ölüdeniz now",
+      "text_local": "Ölüdeniz'e taksi sabit ücreti ne kadar şimdi?",
+      "pronunciation": "uhluedehneezEH-tahksIH-sahbIHt-uhdzhrehtIH-nEH-kahdAHr-shihmdIH",
+      "formality": "standard",
+      "cultural_note": "Fixed taxi rates can change; the taxi coordinator outside has the current rate board.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Şu an 280 lira.",
+        "pronunciation": "shuh-AHn-EEeeyuez-sehksEHn-leerAH",
+        "translation_en": "It's 280 lira now."
+      },
+      "responses": [
+        {
+          "english": "It's 280 lira now.",
+          "phonetic": "shuh-AHn-EEeeyuez-sehksEHn-leerAH",
+          "french": "Şu an 280 lira."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_007",
+      "intent_en": "Ask if visa desk takes card payment",
+      "text_local": "Vize gişesi kartla ödeme alıyor mu?",
+      "pronunciation": "veezEH-mahsahsOO-kAHrtah-uhdEHmeh-ahOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Visa payment methods vary; the passport police handle visa procedures at passport control.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, alıyor.",
+        "pronunciation": "ehvEHtahOOyawr",
+        "translation_en": "Yes, it does."
+      },
+      "responses": [
+        {
+          "english": "Yes, it does.",
+          "phonetic": "ehvEHtahOOyawr",
+          "french": "Evet, alıyor."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_008",
+      "intent_en": "Ask if visa desk takes card payment",
+      "text_local": "Vize gişesi mesai saatleri kaça kadar açık?",
+      "pronunciation": "veezEH-eeshehsIH-kAHrtah-uhdEHmeh-ahOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Payment methods at specific counters like the visa desk are not detailed in the venue context; confirming with staff is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yirmi dört saat açık.",
+        "pronunciation": "yihrmIH-dUHrt-sahAHt-ahtshOOk",
+        "translation_en": "It is open 24 hours."
+      },
+      "responses": [
+        {
+          "english": "It is open 24 hours.",
+          "phonetic": "yihrmIH-dUHrt-sahAHt-ahtshOOk",
+          "french": "Yirmi dört saat açık."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_009",
+      "intent_en": "Ask where Havaş shuttle desk is",
+      "text_local": "Havaş servis gişesi nerede?",
+      "pronunciation": "hahvAHsh-sehrvIHs-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish airport staff often direct to the main information desk for specific counter locations if not immediately visible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gelen yolcu salonunda, sağ tarafta.",
+        "pronunciation": "ehlAHn-yawdzhUH-sahohnuhndAHsAH-tahrahftAH",
+        "translation_en": "In the arrivals hall, on the right side."
+      },
+      "responses": [
+        {
+          "english": "In the arrivals hall, on the right side.",
+          "phonetic": "ehlAHn-yawdzhUH-sahohnuhndAHsAH-tahrahftAH",
+          "french": "Gelen yolcu salonunda, sağ tarafta."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_airport_dalaman_010",
+      "intent_en": "Ask where car rental counter for pre-booked is",
+      "text_local": "Rezervasyonlu araç kiralama gişesi nerede?",
+      "pronunciation": "rehzehrvahsyawnUH-ahrAHtsh-keerAHahmah-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Specific rental counter locations vary by agency; the information desk can direct to the correct one.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte sağ tarafta.",
+        "pronunciation": "eerihshtEH-sAH-tahrahftAH",
+        "translation_en": "On the right side at the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the right side at the entrance.",
+          "phonetic": "eerihshtEH-sAH-tahrahftAH",
+          "french": "Girişte sağ tarafta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

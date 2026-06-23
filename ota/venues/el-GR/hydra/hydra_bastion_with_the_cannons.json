@@ -1,0 +1,100 @@
+{
+  "id": "hydra_bastion_with_the_cannons",
+  "name_en": "Bastion with the Cannons",
+  "name_local": "Μπαταρία με τα Κανόνια",
+  "icon": "building.columns",
+  "lat": 37.3321076,
+  "lon": 23.4664237,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "hydra_bastion_with_the_cannons_001",
+      "intent_en": "Is the harbor viewpoint accessible?",
+      "text_local": "Είναι προσβάσιμη η θέα του λιμανιού;",
+      "pronunciation": "EEneh-prohsvAHseemOH-toh-thEHahtrOH-too-lEEmahnyOO",
+      "formality": "standard",
+      "cultural_note": "Το συγκεκριμένο σημείο είναι ανοιχτό και προσβάσιμο στο κοινό χωρίς ειδικές προϋποθέσεις.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, από το κάστρο με τα κανόνια.",
+        "pronunciation": "nEHahpOH-toh-kAHstroh-meh-tah-kahnOHnyah",
+        "translation_en": "Yes, it is accessible."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is accessible.",
+          "phonetic": "nEHahpOH-toh-kAHstroh-meh-tah-kahnOHnyah",
+          "french": "Ναι, από το κάστρο με τα κανόνια."
+        }
+      ]
+    },
+    {
+      "id": "hydra_bastion_with_the_cannons_002",
+      "intent_en": "Should I tip the guide?",
+      "text_local": "Πρέπει να δώσω φιλοδώρημα στον οδηγό;",
+      "pronunciation": "khrkhAHzehtEH-fEElohthOHreemAH-stohn-OHtheeghOH",
+      "formality": "standard",
+      "cultural_note": "Στην Ελλάδα, το φιλοδώρημα είναι εθιμοτυπικό και όχι υποχρεωτικό, ιδιαίτερα για ξεναγούς.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, αν σας άρεσε η ξενάγηση.",
+        "pronunciation": "nEHahn-sahs-AHrehsEH-ee-ksehnAHyeesEE",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEHahn-sahs-AHrehsEH-ee-ksehnAHyeesEE",
+          "french": "Ναι, αν σας άρεσε η ξενάγηση."
+        }
+      ]
+    },
+    {
+      "id": "hydra_bastion_with_the_cannons_003",
+      "intent_en": "Where is the boat landing?",
+      "text_local": "Πού γίνεται η αγορά εισιτηρίων για τη βάρκα;",
+      "pronunciation": "pOO-yEEnehtEH-ee-AHghohrAH-EEseeteerEEohn-yAH-tee-vAHrkah",
+      "formality": "standard",
+      "cultural_note": "Τα εισιτήρια αγοράζονται απευθείας από το λιμάνι χωρίς ενδιάμεσους φορείς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο λιμάνι, κοντά στο σημείο προσέγγισης.",
+        "pronunciation": "stoh-leemAHneekohdAH-stoh-seemEEoh-prohsEHnggeesEEs",
+        "translation_en": "At the harbor, near the landing point."
+      },
+      "responses": [
+        {
+          "english": "At the harbor, near the landing point.",
+          "phonetic": "stoh-leemAHneekohdAH-stoh-seemEEoh-prohsEHnggeesEEs",
+          "french": "Στο λιμάνι, κοντά στο σημείο προσέγγισης."
+        }
+      ]
+    },
+    {
+      "id": "hydra_bastion_with_the_cannons_004",
+      "intent_en": "Where are the cannon embrasures?",
+      "text_local": "Πού βρίσκονται οι θυρίδες των κανονιών;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-theerEEthehs-tohng-gAHnohnyOHn",
+      "formality": "standard",
+      "cultural_note": "Οι θυρίδες των κανονιών είναι ορατές από το λιμάνι χωρίς ειδική ειδοποίηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην εξωτερική πλευρά των τειχών.",
+        "pronunciation": "steen-EHksohtEHreeEE-plehvrAH-tohn-deekhOHn",
+        "translation_en": "On the outer side of the bastion walls."
+      },
+      "responses": [
+        {
+          "english": "On the outer side of the bastion walls.",
+          "phonetic": "steen-EHksohtEHreeEE-plehvrAH-tohn-deekhOHn",
+          "french": "Στην εξωτερική πλευρά των τειχών."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

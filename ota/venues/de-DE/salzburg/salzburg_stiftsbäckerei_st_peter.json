@@ -1,0 +1,122 @@
+{
+  "id": "salzburg_stiftsbäckerei_st_peter",
+  "name_en": "Stiftsbäckerei St. Peter",
+  "name_local": "Stiftsbäckerei St. Peter",
+  "icon": "fork.knife",
+  "lat": 47.7969233,
+  "lon": 13.0459558,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "salzburg_stiftsbäckerei_st_peter_001",
+      "intent_en": "How do I pay for beer garden items",
+      "text_local": "Kann ich im Biergarten auch mit Karte zahlen?",
+      "pronunciation": "kAHn-ihkh-ihm-bEErahrtuhn-OWkh-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Cash payment is traditional in historic beer gardens in Austria.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur bar.",
+        "pronunciation": "nEYEnnOOr-bAHr",
+        "translation_en": "No, only cash."
+      },
+      "responses": [
+        {
+          "english": "No, only cash.",
+          "phonetic": "nEYEnnOOr-bAHr",
+          "french": "Nein, nur bar."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_stiftsbäckerei_st_peter_002",
+      "intent_en": "Do you sell Augustiner Bräu here",
+      "text_local": "Haben Sie Augustiner Bräu im Angebot?",
+      "pronunciation": "hAHbuhn-zee-OWuhstIHn-brAWuh-ihm-AHnuhbOHt",
+      "formality": "standard",
+      "cultural_note": "Augustiner Bräu is a traditional beer brand commonly served in historic beer gardens.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Biergarten.",
+        "pronunciation": "yAHihm-bEErahrtuhn",
+        "translation_en": "Yes, in the beer garden."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the beer garden.",
+          "phonetic": "yAHihm-bEErahrtuhn",
+          "french": "Ja, im Biergarten."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_stiftsbäckerei_st_peter_003",
+      "intent_en": "Is the wood-fired oven working today",
+      "text_local": "Backofen heute in Betrieb?",
+      "pronunciation": "bAHkohfuhn-hAWuhtuh-ihn-buhtrEEp",
+      "formality": "standard",
+      "cultural_note": "The wood-fired oven is a central feature and its operation is visible at the bakery counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Bäckerstand.",
+        "pronunciation": "yAHahm-bEHkstAHnt",
+        "translation_en": "Yes, at the baker's counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the baker's counter.",
+          "phonetic": "yAHahm-bEHkstAHnt",
+          "french": "Ja, am Bäckerstand."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_stiftsbäckerei_st_peter_004",
+      "intent_en": "Where is the abbey tour meeting point",
+      "text_local": "Wo treffe ich mich für die Führung?",
+      "pronunciation": "vOH-trEHfuh-ihkh-mihkh-fuer-dee-fUEruhng",
+      "formality": "standard",
+      "cultural_note": "Guided tours often start at a central, easily recognizable location like a courtyard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Klosterhof.",
+        "pronunciation": "ahm-klAWsthOHf",
+        "translation_en": "At the monastery courtyard."
+      },
+      "responses": [
+        {
+          "english": "At the monastery courtyard.",
+          "phonetic": "ahm-klAWsthOHf",
+          "french": "Am Klosterhof."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_stiftsbäckerei_st_peter_005",
+      "intent_en": "Are Stollen pre-orders available yet",
+      "text_local": "Gibt es schon Vorbestellungen für St Peter Stollen?",
+      "pronunciation": "EEpt-ehs-shOHn-fOHrbuhshtEHluhnguhn-fuer-EHstEH-pEHt-shtAWluhn",
+      "formality": "standard",
+      "cultural_note": "Pre-order requests are typically handled at the sales counter, not online.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

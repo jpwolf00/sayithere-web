@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_musee_augustins",
+  "name_en": "Musée des Augustins",
+  "name_local": "Musée des Augustins",
+  "icon": "building.columns",
+  "lat": 43.598,
+  "lon": 1.4451,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "toulouse_augustins_001",
+      "intent_en": "Ask for one adult ticket to the museum",
+      "text_local": "Je voudrais un billet adulte pour le musée, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY un bee-YAY ah-DYLT poor luh myoo-ZAY seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Musée des Augustins is housed in a 14th-century Augustinian convent and holds one of France's finest collections of Romanesque and Gothic sculpture.",
+      "responses": [
+        {
+          "english": "Six euros.",
+          "phonetic": "SEE-ZUH-ROH",
+          "french": "Six euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_augustins_002",
+      "intent_en": "Ask where the medieval sculpture collection is",
+      "text_local": "Où se trouve la collection de sculptures médiévales ?",
+      "pronunciation": "oo suh TROOV lah koh-lek-SYON duh skoolp-TYOOR may-dyay-VAL",
+      "formality": "polite",
+      "cultural_note": "The museum's Romanesque capitals salvaged from demolished churches are considered among the most important in southern France.",
+      "responses": [
+        {
+          "english": "On the ground floor, in the cloister.",
+          "phonetic": "oh ray-duh-shoh-SAY dahn luh KLWAT-ruh",
+          "french": "Au rez-de-chaussée, dans le cloître."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_augustins_003",
+      "intent_en": "Ask if the Gothic cloister garden is accessible",
+      "text_local": "Est-ce que le jardin du cloître gothique est accessible ?",
+      "pronunciation": "es-kuh luh zhar-DAN doo KLWAH-truh goh-TEEK eh ak-ses-SEEBL",
+      "formality": "polite",
+      "cultural_note": "The museum's two Gothic and Romanesque cloisters are peaceful spaces that can be visited as part of the general admission.",
+      "responses": [
+        {
+          "english": "Yes, it is accessible from the main room.",
+          "phonetic": "wee eel eh tak-ses-EEBL duh-PWEE lah SAHL prahn-see-PAHL",
+          "french": "Oui, il est accessible depuis la salle principale."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_augustins_004",
+      "intent_en": "Ask if there is a children's activity sheet",
+      "text_local": "Avez-vous des fiches d'activités pour les enfants ?",
+      "pronunciation": "ah-VAY-voo day FEESH dak-tee-vee-TAY poor lay-ZAHNG-fahn",
+      "formality": "polite",
+      "cultural_note": "Many French museums offer free activity sheets (fiches pédagogiques) to help children engage with the collections.",
+      "responses": [
+        {
+          "english": "Yes, ask at reception.",
+          "phonetic": "wee duh-mahn-DAY ah lah-KUY",
+          "french": "Oui, demandez à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_augustins_005",
+      "intent_en": "Ask if the café in the cloister is open",
+      "text_local": "Est-ce que le café dans le cloître est ouvert ?",
+      "pronunciation": "es-kuh luh kah-FAY dahn luh KLWAH-truh eh oo-VAIR",
+      "formality": "polite",
+      "cultural_note": "The café set in the old cloister of the Augustins is a tranquil retreat in the heart of the city.",
+      "responses": [
+        {
+          "english": "Yes, in the cloister garden.",
+          "phonetic": "wee dahn luh zhar-DAHN doo KLWAT-ruh",
+          "french": "Oui, dans le jardin du cloître."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "sculpture",
+      "word_local": "la sculpture",
+      "pronunciation": "lah skoolp-TYOOR"
+    },
+    {
+      "word_en": "medieval",
+      "word_local": "médiéval",
+      "pronunciation": "may-dyay-VAL"
+    },
+    {
+      "word_en": "convent",
+      "word_local": "le couvent",
+      "pronunciation": "luh koo-VAHN"
+    },
+    {
+      "word_en": "capital (architectural)",
+      "word_local": "le chapiteau",
+      "pronunciation": "luh sha-pee-TOH"
+    }
+  ]
+}

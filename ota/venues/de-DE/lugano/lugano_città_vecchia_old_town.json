@@ -1,0 +1,100 @@
+{
+  "id": "lugano_città_vecchia_old_town",
+  "name_en": "Città Vecchia (Old Town)",
+  "name_local": "Città Vecchia",
+  "icon": "map",
+  "lat": 46.0046301,
+  "lon": 8.9485764,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "lugano_città_vecchia_old_town_001",
+      "intent_en": "Ask where Palazzo Civico meetings happen",
+      "text_local": "Wo finden Veranstaltungen im Palazzo Civico statt?",
+      "pronunciation": "vOH-fIHnduhn-fehrAHnshtAHltuhnguhn-ihm-pahlAHtsoh-keevEEkoh-shtAHt",
+      "formality": "standard",
+      "cultural_note": "Öffentliche Veranstaltungen im Palazzo Civico sind oft im Erdgeschoss oder im Innenhof.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Sitzungssaal.",
+        "pronunciation": "ihm-zIHtsuhngsAHl",
+        "translation_en": "In the meeting room."
+      },
+      "responses": [
+        {
+          "english": "In the meeting room.",
+          "phonetic": "ihm-zIHtsuhngsAHl",
+          "french": "Im Sitzungssaal."
+        }
+      ]
+    },
+    {
+      "id": "lugano_città_vecchia_old_town_002",
+      "intent_en": "Ask when cafés stop terrace service",
+      "text_local": "Wann endet die Terrassensitzzeit?",
+      "pronunciation": "vAHn-EHnduht-dee-tEHrahsEHnzihtstsEYEt",
+      "formality": "standard",
+      "cultural_note": "In Lugano endet die Terrassensitzzeit oft früher als die eigentliche Café-Öffnungszeit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 18 Uhr.",
+        "pronunciation": "uhm-AHkhtsehn-OOr",
+        "translation_en": "At 6 PM."
+      },
+      "responses": [
+        {
+          "english": "At 6 PM.",
+          "phonetic": "uhm-AHkhtsehn-OOr",
+          "french": "Um 18 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "lugano_città_vecchia_old_town_003",
+      "intent_en": "Ask where the funicular to station is",
+      "text_local": "Wo ist die Standseilbahn zur Station?",
+      "pronunciation": "vOH-ihst-dee-shtAHndzeyelbAHn",
+      "formality": "standard",
+      "cultural_note": "Funicolari in Ticino haben oft zentrale Kioske oder Schalter in der Nähe der Talstation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Standseilbahn ist geradeaus.",
+        "pronunciation": "dee-shtAHndzeyelbAHn-ihst-guhrAHdehOWs",
+        "translation_en": "The funicular is straight ahead."
+      },
+      "responses": [
+        {
+          "english": "The funicular is straight ahead.",
+          "phonetic": "dee-shtAHndzeyelbAHn-ihst-guhrAHdehOWs",
+          "french": "Die Standseilbahn ist geradeaus."
+        }
+      ]
+    },
+    {
+      "id": "lugano_città_vecchia_old_town_004",
+      "intent_en": "Ask how to find Sentiero di Gandria",
+      "text_local": "Wo beginnt der Sentiero di Gandria?",
+      "pronunciation": "vOH-buhIHnt-dehr-zEHnteerOH-dEE-AHndreeAH",
+      "formality": "standard",
+      "cultural_note": "Wanderwege in der Region sind meist gut ausgeschildert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Weg beginnt an der Piazza.",
+        "pronunciation": "dehr-vEHk-buhgIHnt-ahn-dehr-peeAHtsah",
+        "translation_en": "The path starts at the square."
+      },
+      "responses": [
+        {
+          "english": "The path starts at the square.",
+          "phonetic": "dehr-vEHk-buhgIHnt-ahn-dehr-peeAHtsah",
+          "french": "Der Weg beginnt an der Piazza."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

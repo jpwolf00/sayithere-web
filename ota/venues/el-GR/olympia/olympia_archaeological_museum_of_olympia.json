@@ -1,0 +1,100 @@
+{
+  "id": "olympia_archaeological_museum_of_olympia",
+  "name_en": "Archaeological Museum of Olympia",
+  "name_local": "Αρχαιολογικό Μουσείο Ολυμπίας",
+  "icon": "building.columns",
+  "lat": 37.6434963,
+  "lon": 21.6295709,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "olympia_archaeological_museum_of_olympia_001",
+      "intent_en": "Is flash allowed in the bronze room",
+      "text_local": "Επιτρέπεται η λήψη φωτογραφιών με φλας στη συλλογή των χάλκινων;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-lEEpsee-fOHtohghrAHfeeOHn-meh-flAHs-stee-sEElohyEE-tohn-khAHleenOHn",
+      "formality": "standard",
+      "cultural_note": "Στην έκθεση των χάλκινων αντικειμένων ισχύει γενικός κανόνας απαγόρευσης χρήσης φλας, σύμφωνα με τις οδηγίες του μουσείου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται το φλας.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH-toh-flAHs",
+        "translation_en": "No flash photography."
+      },
+      "responses": [
+        {
+          "english": "No flash photography.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH-toh-flAHs",
+          "french": "Όχι, απαγορεύεται το φλας."
+        }
+      ]
+    },
+    {
+      "id": "olympia_archaeological_museum_of_olympia_002",
+      "intent_en": "Where is the Hermes of Praxiteles",
+      "text_local": "Πού βρίσκεται ο Ερμής του Πραξιτέλη;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-ehrmEEs-too-prAHkseetEHlee",
+      "formality": "standard",
+      "cultural_note": "Το άγαλμα βρίσκεται στον χώρο του μουσείου, αλλά η ακριβής τοποθεσία δεν αναφέρεται. Οι επισκέπτες συχνά ζητούν οδηγίες από τον φύλακα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον κεντρικό εκθεσιακό χώρο, δεξιά.",
+        "pronunciation": "stohng-gEHdreekOH-EHkthehsyahkOH-khOHrohthEHkseeAH",
+        "translation_en": "Ask the staff member."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member.",
+          "phonetic": "stohng-gEHdreekOH-EHkthehsyahkOH-khOHrohthEHkseeAH",
+          "french": "Στον κεντρικό εκθεσιακό χώρο, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "olympia_archaeological_museum_of_olympia_003",
+      "intent_en": "Where is the Nike of Paionios",
+      "text_local": "Πού βρίσκεται η Νίκη του Παιωνίου;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-nEEee-too-pEHohnEEoo",
+      "formality": "standard",
+      "cultural_note": "Το άγαλμα της Νίκης του Παιωνίου εκτίθεται στο μουσείο, αλλά η ακριβής θέση δεν προσδιορίζεται στους δημόσιους οδηγούς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον κεντρικό χώρο, δεξιά από την είσοδο.",
+        "pronunciation": "stohng-gEHdreekOH-khOHrohthEHkseeAH-ahpOH-teen-EEsohthOH",
+        "translation_en": "Ask the staff member."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member.",
+          "phonetic": "stohng-gEHdreekOH-khOHrohthEHkseeAH-ahpOH-teen-EEsohthOH",
+          "french": "Στον κεντρικό χώρο, δεξιά από την είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_archaeological_museum_of_olympia_004",
+      "intent_en": "How do I get the combined site ticket",
+      "text_local": "Πώς αγοράζω εισιτήριο για το σύνολο του αρχαιολογικού χώρου και του μουσείου;",
+      "pronunciation": "pOHs-AHghohrAHzoh-EEseetEEreeOH-yAH-toh-sEEnohlOH-too-AHrkhehOHlohyeekOO-khOHroo-keh-too-moosEEoo",
+      "formality": "standard",
+      "cultural_note": "Η αγορά του συνδυαστικού εισιτηρίου γίνεται αποκλειστικά στο ταμείο της εισόδου του μουσείου ή του αρχαιολογικού χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο εισόδου.",
+        "pronunciation": "stoh-tahmEEoh-eesOHthoo",
+        "translation_en": "At the entrance ticket office."
+      },
+      "responses": [
+        {
+          "english": "At the entrance ticket office.",
+          "phonetic": "stoh-tahmEEoh-eesOHthoo",
+          "french": "Στο ταμείο εισόδου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

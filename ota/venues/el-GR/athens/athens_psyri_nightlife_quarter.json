@@ -1,0 +1,144 @@
+{
+  "id": "athens_psyri_nightlife_quarter",
+  "name_en": "Psyri nightlife quarter",
+  "name_local": "Ψυρρή",
+  "icon": "map",
+  "lat": 37.9784208,
+  "lon": 23.7249422,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "athens_psyri_nightlife_quarter_001",
+      "intent_en": "Where on Sarri Street is graffiti?",
+      "text_local": "Πού είναι τα γκράφιτι στην Οδό Σαρρή;",
+      "pronunciation": "pOO-EEneh-tah-grAHfeetEE-steen-ohthOH-sahrEE",
+      "formality": "standard",
+      "cultural_note": "Το γκράφιτι αποτελεί χαρακτηριστικό στοιχείο της περιοχής και βρίσκεται διάσπαρτο στον δρόμο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Υπάρχουν πολλά στον δρόμο.",
+        "pronunciation": "eepAHrkhoom-bohlAH-stohn-thrOHmoh",
+        "translation_en": "They are all along the street."
+      },
+      "responses": [
+        {
+          "english": "They are all along the street.",
+          "phonetic": "eepAHrkhoom-bohlAH-stohn-thrOHmoh",
+          "french": "Υπάρχουν πολλά στον δρόμο."
+        }
+      ]
+    },
+    {
+      "id": "athens_psyri_nightlife_quarter_002",
+      "intent_en": "What is bouzouki club table minimum?",
+      "text_local": "Πόσο είναι το ελάχιστο τραπέζι στα μπουζούκια;",
+      "pronunciation": "pEEoh-EEneh-toh-ehlAHkheestOH-trahpEHzee-stooz-bOOzooEEtheeEHoos",
+      "formality": "standard",
+      "cultural_note": "Στις μπουζουκιδικαίους, το ελάχιστο τραπέζι συχνά περιλαμβάνει συγκεκριμένες παραγγελίες ποτών ανά άτομο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Εξήντα ευρώ το άτομο.",
+        "pronunciation": "ehksEEdah-ehvrOH-toh-AHtohmOH",
+        "translation_en": "Sixty euros per person."
+      },
+      "responses": [
+        {
+          "english": "Sixty euros per person.",
+          "phonetic": "ehksEEdah-ehvrOH-toh-AHtohmOH",
+          "french": "Εξήντα ευρώ το άτομο."
+        }
+      ]
+    },
+    {
+      "id": "athens_psyri_nightlife_quarter_003",
+      "intent_en": "How do I order raki shot rounds?",
+      "text_local": "Πώς παραγγέλνω γύρο ρακή;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-yEErehz-rahEE",
+      "formality": "standard",
+      "cultural_note": "Στην περιοχή, η παραγγελία ρακής γίνεται συχνά σε γύρες (π.χ. μία σειρά από μικρά ποτήρια).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πείτε απλά στο μπαρ: «Ένα γύρο ρακή, παρακαλώ».",
+        "pronunciation": "pEEteh-ahplAH-stoh-bAHrEHnah-yEEroh-rahEEpAHrahkahlOH",
+        "translation_en": "Simply tell the bar: 'One round of raki, please'."
+      },
+      "responses": [
+        {
+          "english": "Simply tell the bar: 'One round of raki, please'.",
+          "phonetic": "pEEteh-ahplAH-stoh-bAHrEHnah-yEEroh-rahEEpAHrahkahlOH",
+          "french": "Πείτε απλά στο μπαρ: «Ένα γύρο ρακή, παρακαλώ»."
+        }
+      ]
+    },
+    {
+      "id": "athens_psyri_nightlife_quarter_004",
+      "intent_en": "Where is Agias Irinis Square?",
+      "text_local": "Πού είναι η Πλατεία Αγίας Ειρήνης;",
+      "pronunciation": "pOO-EEneh-ee-plahtEE-ahyEEahs-eerEEnees",
+      "formality": "standard",
+      "cultural_note": "Οι ντόπιοι αναφέρονται συχνά στην πλατεία με το όνομα της εκκλησίας, χωρίς την λέξη 'Πλατεία'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κοντά στην Οδό Σαρρή.",
+        "pronunciation": "kohdAH-steen-ohthOH-sahrEE",
+        "translation_en": "Near Sarri Street."
+      },
+      "responses": [
+        {
+          "english": "Near Sarri Street.",
+          "phonetic": "kohdAH-steen-ohthOH-sahrEE",
+          "french": "Κοντά στην Οδό Σαρρή."
+        }
+      ]
+    },
+    {
+      "id": "athens_psyri_nightlife_quarter_005",
+      "intent_en": "Is Karaiskaki lane pedestrian only?",
+      "text_local": "Η Οδός Καραϊσκάκη είναι μόνο για πεζούς;",
+      "pronunciation": "ee-ohthOHs-kAHreyeskAHee-EEneh-mOHnoh-yAH-pehzOOs",
+      "formality": "standard",
+      "cultural_note": "Η συγκεκριμένη οδός αποτελεί μέρος του πεζοδρομημένου δικτύου του Ψυρρή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόνο πεζοί.",
+        "pronunciation": "nEHmOHnoh-pehzEE",
+        "translation_en": "Yes, pedestrian only."
+      },
+      "responses": [
+        {
+          "english": "Yes, pedestrian only.",
+          "phonetic": "nEHmOHnoh-pehzEE",
+          "french": "Ναι, μόνο πεζοί."
+        }
+      ]
+    },
+    {
+      "id": "athens_psyri_nightlife_quarter_006",
+      "intent_en": "Do souvlaki places take cards after 2am?",
+      "text_local": "Δέχονται κάρτες τα σουβλατζίδικα μετά τις 2 π.μ.;",
+      "pronunciation": "tah-sOOvlahdzEEtheekAH-thEHkhohdEH-kAHrtehz-mehtAH-tees-thEEoh-pEEmEE",
+      "formality": "standard",
+      "cultural_note": "Στο Ψυρρή η πληρωμή μετά τις 2 τα ξημερώματα γίνεται συχνά αποκλειστικά με μετρητά.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Συνήθως μόνο μετρητά.",
+        "pronunciation": "seenEEthohz-mOHnoh-mEHtreetAH",
+        "translation_en": "Usually cash only."
+      },
+      "responses": [
+        {
+          "english": "Usually cash only.",
+          "phonetic": "seenEEthohz-mOHnoh-mEHtreetAH",
+          "french": "Συνήθως μόνο μετρητά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,232 @@
+{
+  "id": "kos_kos_town_old_quarter",
+  "name_en": "Kos Town Old Quarter",
+  "name_local": "Παλιά Πόλη Κω",
+  "icon": "map",
+  "lat": 36.7936933,
+  "lon": 27.0848266,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "kos_kos_town_old_quarter_001",
+      "intent_en": "Where is the Castle of Knights ticket booth?",
+      "text_local": "Πού βρίσκονται τα εκδοτήρια εισιτηρίων για το Κάστρο των Ιπποτών;",
+      "pronunciation": "pOO-vrEEsehtEH-toh-EHkthohtEEreeOH-EEseeteerEEohn-doo-kAHstroo-tohn-EEpohtOHn",
+      "formality": "standard",
+      "cultural_note": "Medieval castles in Greece often have ticket counters near the main entrance, but staff guidance is typically required due to multiple access points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στην είσοδο του κάστρου.",
+        "pronunciation": "AHreestehrAH-steen-EEsohthOH-too-kAHstroo",
+        "translation_en": "Ask the staff member."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member.",
+          "phonetic": "AHreestehrAH-steen-EEsohthOH-too-kAHstroo",
+          "french": "Αριστερά στην είσοδο του κάστρου."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να νοικιάσω ποδήλατο εδώ κοντά;",
+      "pronunciation": "pOO-bohrOH-nah-neeAHsoh-pohthEElahtOH-ehthOH-kohdAH",
+      "formality": "polite",
+      "cultural_note": "Local rental shops are common in tourist areas, but exact locations are not signposted; staff assistance is typically needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην πλατεία Ελευθερίας, μπροστά από το κάστρο.",
+        "pronunciation": "steem-blahtEEah-EHlehfthehrEEahsbrohstAH-ahpOH-toh-kAHstroh",
+        "translation_en": "At the port, next to the tourist offices."
+      },
+      "responses": [
+        {
+          "english": "At the port, next to the tourist offices.",
+          "phonetic": "steem-blahtEEah-EHlehfthehrEEahsbrohstAH-ahpOH-toh-kAHstroh",
+          "french": "Στην πλατεία Ελευθερίας, μπροστά από το κάστρο."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_003",
+      "intent_en": "Is cash tip expected at tavernas here?",
+      "text_local": "Είναι αναμενόμενη η φιλοδωρήματα μετρητά στις ταβέρνες εδώ;",
+      "pronunciation": "EEneh-AHnahmehnOHmehnEE-ee-fEElohthohrEEmahtAH-mEHtreetAH-stees-tahvEHrnehs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "In Greece, tipping in cash at tavernas is customary but not mandatory, reflecting appreciation for service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, τυπικό.",
+        "pronunciation": "nEHtEEpeekOH",
+        "translation_en": "Yes, typical."
+      },
+      "responses": [
+        {
+          "english": "Yes, typical.",
+          "phonetic": "nEHtEEpeekOH",
+          "french": "Ναι, τυπικό."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται ο Ίπποκράτειος Βάτος;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-EEpohkrAHtkhohz-vAHtohs",
+      "formality": "standard",
+      "cultural_note": "In Greek culture, landmarks like the Tree of Hippocrates are often associated with local folklore and history, but precise directions are typically provided by staff rather than signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετά την Πλατεία Λόττηση, δεξιά στο μονοπάτι.",
+        "pronunciation": "mehtAH-teem-blahtEEah-lOHteesEEthEHkseeAH-stoh-mOHnohpAHtee",
+        "translation_en": "At Eleftherias Square, a few minutes down the road."
+      },
+      "responses": [
+        {
+          "english": "At Eleftherias Square, a few minutes down the road.",
+          "phonetic": "mehtAH-teem-blahtEEah-lOHteesEEthEHkseeAH-stoh-mOHnohpAHtee",
+          "french": "Μετά την Πλατεία Λόττηση, δεξιά στο μονοπάτι."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχει συνδυαστικά εισιτήρια το Αρχαιολογικό Μουσείο;",
+      "pronunciation": "toh-AHrkhehOHlohyeekOH-moosEEoh-EHkhee-EEseetEEreeAH-sEEntheeahsmOO",
+      "formality": "standard",
+      "cultural_note": "Museums in Greece often offer combined tickets for multiple sites, but availability may vary and staff confirmation is advised.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο του μουσείου.",
+        "pronunciation": "nEHstoh-tahmEEoh-too-moosEEoo",
+        "translation_en": "Yes, there is a combined ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a combined ticket.",
+          "phonetic": "nEHstoh-tahmEEoh-too-moosEEoo",
+          "french": "Ναι, στο ταμείο του μουσείου."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_006",
+      "intent_en": "Do bike rentals need cash deposits",
+      "text_local": "Χρειάζεται προκαταβολή μετρητά για ενοικίαση ποδηλάτου;",
+      "pronunciation": "khrkhAHzehtEH-prOHkahtAHvohlEE-mEHtreetAH-yAH-EHneeEEahsEE-pOHtheelAHtoo",
+      "formality": "standard",
+      "cultural_note": "In Greece, especially in tourist-heavy areas, cash deposits for rentals are common practice due to lack of digital payment infrastructure in small shops.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, συχνά ζητούν.",
+        "pronunciation": "nEHseekhnAH-zeetOOn",
+        "translation_en": "Yes, often requested."
+      },
+      "responses": [
+        {
+          "english": "Yes, often requested.",
+          "phonetic": "nEHseekhnAH-zeetOOn",
+          "french": "Ναι, συχνά ζητούν."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_007",
+      "intent_en": "Which way to Eleftherias Square from here?",
+      "text_local": "Πώς πάω στην Πλατεία Ελευθερίας από εδώ;",
+      "pronunciation": "pOHs-pAHoh-steem-blahtEEah-EHlehfthehrEEahs-ahpOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "In Greek neighborhoods, local pedestrian flow is a reliable directional cue, especially in car-free zones like the Old Quarter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ευθεία και μετά αριστερά.",
+        "pronunciation": "ehfthEEah-keh-mehtAH-AHreestehrAH",
+        "translation_en": "Straight ahead and then left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead and then left.",
+          "phonetic": "ehfthEEah-keh-mehtAH-AHreestehrAH",
+          "french": "Ευθεία και μετά αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_008",
+      "intent_en": "Where is the Ancient Agora entrance",
+      "text_local": "Πού είναι η είσοδος της Αρχαίας Αγοράς;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-tees-ahrkhEHahs-AHghohrAHs",
+      "formality": "standard",
+      "cultural_note": "Ancient sites in Greece often have multiple access points, but staff guidance is typically required for clarity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά την Πλατεία Ελευθερίας.",
+        "pronunciation": "AHreestehrAH-mehtAH-teem-blahtEEah-EHlehfthehrEEahs",
+        "translation_en": "Follow the signs to the Ancient Agora."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Ancient Agora.",
+          "phonetic": "AHreestehrAH-mehtAH-teem-blahtEEah-EHlehfthehrEEahs",
+          "french": "Αριστερά μετά την Πλατεία Ελευθερίας."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_009",
+      "intent_en": "Do tourist shops here expect haggling?",
+      "text_local": "Οι καταστηματάριοι εδώ περιμένουν παζάρεμα;",
+      "pronunciation": "ee-kAHtahstEEmahtAHreeEE-ehthOH-pEHreemEHnoom-bahzAHrehmAH",
+      "formality": "standard",
+      "cultural_note": "Small shops in Greek tourist areas commonly engage in bargaining, though it is not obligatory.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, συχνά.",
+        "pronunciation": "nEHseekhnAH",
+        "translation_en": "Yes, often."
+      },
+      "responses": [
+        {
+          "english": "Yes, often.",
+          "phonetic": "nEHseekhnAH",
+          "french": "Ναι, συχνά."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_town_old_quarter_010",
+      "intent_en": "Is haggling expected in tourist shops here",
+      "text_local": "Είναι αναμενόμενο το παζάρεμα στα μαγαζιά τουριστικών ειδών εδώ;",
+      "pronunciation": "EEneh-AHnahmehnOHmehnOH-toh-pahzAHrehmAH-stah-mAHghahzyAH-tOOreesteekOHn-eethOHn-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Haggling is a common practice in Greek open-air markets and small tourist shops, though not universally expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συχνά.",
+        "pronunciation": "nEHseekhnAH",
+        "translation_en": "Yes, often."
+      },
+      "responses": [
+        {
+          "english": "Yes, often.",
+          "phonetic": "nEHseekhnAH",
+          "french": "Ναι, συχνά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

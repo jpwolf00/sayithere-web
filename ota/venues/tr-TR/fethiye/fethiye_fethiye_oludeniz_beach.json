@@ -1,0 +1,144 @@
+{
+  "id": "fethiye_fethiye_oludeniz_beach",
+  "name_en": "Fethiye Oludeniz Beach",
+  "name_local": "Oludeniz Plaji",
+  "icon": "leaf",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_oludeniz_beach_001",
+      "intent_en": "Does the boat taxi to Butterfly Valley run now?",
+      "text_local": "Kelebekler Vadisi'ne tekne taksisi şimdi çalışıyor mu?",
+      "pronunciation": "kehlehbehklEHr-vahdeeseenEH-tehknEH-tahkseesIH-shihmdIH-tshahooshOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Butterfly Valley boat departures use a separate dock; services can be seasonal or weather-dependent, so staff avoid making absolute claims about current operation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, her saat başı kalkıyor.",
+        "pronunciation": "ehvEHthEHr-sahAHt-bahshOO-kahkOOyawr",
+        "translation_en": "Yes, it departs every hour."
+      },
+      "responses": [
+        {
+          "english": "Yes, it departs every hour.",
+          "phonetic": "ehvEHthEHr-sahAHt-bahshOO-kahkOOyawr",
+          "french": "Evet, her saat başı kalkıyor."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_oludeniz_beach_002",
+      "intent_en": "Where do I pay for parking?",
+      "text_local": "Park için nerede ödeme yapabilirim?",
+      "pronunciation": "pAHrk-eetshIHn-nEHrehdeh-uhdEHmeh-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Parking is far from the shore, and the exact payment point is not detailed in the venue context, so directing to staff is the safest answer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otopark girişinde ödeyin.",
+        "pronunciation": "ohtohpAHrk-eereeshihndEH-uhdehyIHn",
+        "translation_en": "Pay at the parking entrance."
+      },
+      "responses": [
+        {
+          "english": "Pay at the parking entrance.",
+          "phonetic": "ohtohpAHrk-eereeshihndEH-uhdehyIHn",
+          "french": "Otopark girişinde ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_oludeniz_beach_003",
+      "intent_en": "How do I reach the Lycian Way from here?",
+      "text_local": "Likya Yolu'na buradan nasıl çıkılır?",
+      "pronunciation": "bOOrahdahn-lihkyAH-yohoonAH-nahsOO-ooahshOOroom",
+      "formality": "standard",
+      "cultural_note": "The Lycian Way trailhead in this area is known to be unmarked, so directing to a park ranger or information desk for guidance is standard practice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sahilden yürüyerek.",
+        "pronunciation": "sahhihldAHn-yuerueyehrEHk",
+        "translation_en": "By walking along the shore."
+      },
+      "responses": [
+        {
+          "english": "By walking along the shore.",
+          "phonetic": "sahhihldAHn-yuerueyehrEHk",
+          "french": "Sahilden yürüyerek."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_oludeniz_beach_004",
+      "intent_en": "How do I reach the Lycian Way from here?",
+      "text_local": "Likya Yolu'na buradan nasıl ulaşırım?",
+      "pronunciation": "lihkyAH-yohoonAH-bOOrahdahn-nahsOO-ooahshOOroom",
+      "formality": "standard",
+      "cultural_note": "The Lycian Way trailhead near Ölüdeniz is famously unmarked, making specific directions from an arbitrary point unreliable without local guidance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yukarı doğru yürüyün.",
+        "pronunciation": "yookahrOO-dohrUH-yuerueyUHn",
+        "translation_en": "Walk upwards."
+      },
+      "responses": [
+        {
+          "english": "Walk upwards.",
+          "phonetic": "yookahrOO-dohrUH-yuerueyUHn",
+          "french": "Yukarı doğru yürüyün."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_oludeniz_beach_005",
+      "intent_en": "Where do I pay for parking?",
+      "text_local": "Park ücretini nerede öderim?",
+      "pronunciation": "pAHrk-uhdzhrehteenIH-nEHrehdeh-uhdehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Parking payment points at large outdoor venues can be mobile or unmarked, so directing to general enquiry is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki kulübede.",
+        "pronunciation": "eerihshtehkIH-kooluebehdEH",
+        "translation_en": "At the booth at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the booth at the entrance.",
+          "phonetic": "eerihshtehkIH-kooluebehdEH",
+          "french": "Girişteki kulübede."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_oludeniz_beach_006",
+      "intent_en": "Does the boat taxi to Butterfly Valley run now?",
+      "text_local": "Kelebekler Vadisi'ne tekne taksisi şu anda çalışıyor mu?",
+      "pronunciation": "bootEHrfly-vahlEHy-bohtUH-shihmdIH-tshahooshOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Turkish boat taxi schedules are often seasonal and weather-dependent, so a definitive yes/no is rarely given without checking current conditions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, çalışıyor.",
+        "pronunciation": "ehvEHttshahooshOOyawr",
+        "translation_en": "Yes, it's running."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's running.",
+          "phonetic": "ehvEHttshahooshOOyawr",
+          "french": "Evet, çalışıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "cannes_palais_festivals",
+  "name_en": "Palais des Festivals et des Congrès",
+  "name_local": "Palais des Festivals et des Congrès",
+  "icon": "theatermasks",
+  "lat": 43.5508,
+  "lon": 7.0172,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "cannes_palais_001",
+      "intent_en": "Ask if there are public events happening at the Palais this week",
+      "text_local": "Des événements ouverts au public sont-ils prévus au Palais cette semaine ?",
+      "pronunciation": "day zay-VEH-neh-man oo-VEHR oh pyoo-BLEEK son-TEEL pray-VYOO oh pah-LAY SET seh-MEN",
+      "formality": "polite",
+      "cultural_note": "Outside the May Film Festival, the Palais hosts trade fairs, concerts and conferences throughout the year.",
+      "responses": [
+        {
+          "english": "Check the programme at the entrance.",
+          "phonetic": "vay-ree-FYAY luh proh-GRAM ah lahn-TRAY",
+          "french": "Vérifiez le programme à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_palais_002",
+      "intent_en": "Ask where to find the famous handprints of film stars",
+      "text_local": "Où se trouvent les empreintes des étoiles du cinéma sur l'Allée des Étoiles ?",
+      "pronunciation": "oo seh TROOV lay am-PRANT day zay-TWAL doo see-nay-MAH soor lah-LAY day zay-TWAL",
+      "formality": "polite",
+      "cultural_note": "The Allée des Étoiles paved path in front of the Palais holds over 300 handprints of festival legends.",
+      "responses": [
+        {
+          "english": "On the forecourt, in front of the entrance.",
+          "phonetic": "soor luh par-VEE, duh-VAHN lahn-TRAY",
+          "french": "Sur le parvis, devant l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_palais_003",
+      "intent_en": "Ask if there are tours of the Palais available",
+      "text_local": "Des visites guidées du Palais des Festivals sont-elles organisées ?",
+      "pronunciation": "day vee-ZEET gee-DAY doo pah-LAY day fes-tee-VAL son-TEL or-gah-nee-ZAY",
+      "formality": "polite",
+      "cultural_note": "Guided tours include the famous red-carpeted Grand Auditorium Lumière where the Palme d'Or is awarded.",
+      "responses": [
+        {
+          "english": "No, only during the festival.",
+          "phonetic": "nohn, suhl-MAHN pahn-DAHN luh fes-tee-VAL",
+          "french": "Non, seulement pendant le festival."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_palais_004",
+      "intent_en": "Ask how to access the roof terrace for the view",
+      "text_local": "Comment accéder à la terrasse panoramique sur le toit du Palais ?",
+      "pronunciation": "kuh-MAN ak-say-DAY ah lah teh-RAS pah-no-rah-MEEK soor leh TWAH doo pah-LAY",
+      "formality": "polite",
+      "cultural_note": "The rooftop terrace offers spectacular views over the bay and is accessible during certain public events and tours.",
+      "responses": [
+        {
+          "english": "It's not accessible to the public.",
+          "phonetic": "suh neh pah ak-ses-EEBL oh poo-BLEEK",
+          "french": "Ce n'est pas accessible au public."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_palais_005",
+      "intent_en": "Ask when the next film festival takes place",
+      "text_local": "Le prochain Festival de Cannes, c'est quand ?",
+      "pronunciation": "luh proh-SHEHN fes-tee-VAL duh KAN, seh KAHN",
+      "formality": "standard",
+      "cultural_note": "The Cannes Film Festival takes place annually in May, usually over about two weeks.",
+      "responses": [
+        {
+          "english": "In May, like every year.",
+          "phonetic": "ahn MEH, kohm shahk ah-NAY",
+          "french": "En mai, comme chaque année."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Palme d'Or",
+      "word_local": "la Palme d'Or",
+      "pronunciation": "lah PALM DOR"
+    },
+    {
+      "word_en": "red carpet",
+      "word_local": "le tapis rouge",
+      "pronunciation": "leh tah-PEE ROOZH"
+    },
+    {
+      "word_en": "auditorium",
+      "word_local": "l'auditorium",
+      "pronunciation": "lo-dee-to-RYOM"
+    },
+    {
+      "word_en": "film festival",
+      "word_local": "le festival de cinéma",
+      "pronunciation": "leh fes-tee-VAL deh see-nay-MAH"
+    }
+  ]
+}

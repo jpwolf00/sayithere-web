@@ -1,0 +1,188 @@
+{
+  "id": "bodrum_bodrum_tourist_information_office",
+  "name_en": "Bodrum Tourist Information Office",
+  "name_local": "Bodrum Turizm Danışma Bürosu",
+  "icon": "info.circle",
+  "lat": 37.0343987,
+  "lon": 27.430651,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bodrum_bodrum_tourist_information_office_001",
+      "intent_en": "Do you sell ferry tickets here?",
+      "text_local": "Burada feribot bileti satılıyor mu?",
+      "pronunciation": "fehreebAWt-beelehtlehrIH-bOOrahdah-sahtooOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Tourist offices often provide information rather than direct sales; they direct you to the correct point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, danışmada alabilirsiniz.",
+        "pronunciation": "ehvEHtdahnOOshmahdah-ahahbeelIHrseenihz",
+        "translation_en": "Yes, you can get them at the information desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can get them at the information desk.",
+          "phonetic": "ehvEHtdahnOOshmahdah-ahahbeelIHrseenihz",
+          "french": "Evet, danışmada alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_tourist_information_office_002",
+      "intent_en": "Where do I get a queue ticket?",
+      "text_local": "Sıra numarası almak için nereye gitmeliyim?",
+      "pronunciation": "soorAH-noomahrahsOO-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Turkish public offices often use a numbered queue system; look for a ticket dispenser near the entrance or ask staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki makineden.",
+        "pronunciation": "eerihshtehkIH-mahkeenehdAHn",
+        "translation_en": "From the machine at the entrance."
+      },
+      "responses": [
+        {
+          "english": "From the machine at the entrance.",
+          "phonetic": "eerihshtehkIH-mahkeenehdAHn",
+          "french": "Girişteki makineden."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_tourist_information_office_003",
+      "intent_en": "Is the museum pass worth buying?",
+      "text_local": "Müze kart almaya değer mi?",
+      "pronunciation": "muezEH-kAHrt-AHmahyah-dehyEHr-mih",
+      "formality": "standard",
+      "cultural_note": "Staff provide advice on museum passes but avoid making absolute claims about value.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, özellikle Bodrum'da.",
+        "pronunciation": "ehvEHtuhzahllIHkleh-bawdruhmdAH",
+        "translation_en": "Yes, especially in Bodrum."
+      },
+      "responses": [
+        {
+          "english": "Yes, especially in Bodrum.",
+          "phonetic": "ehvEHtuhzahllIHkleh-bawdruhmdAH",
+          "french": "Evet, özellikle Bodrum'da."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_tourist_information_office_004",
+      "intent_en": "Where can I book a day tour to Yalıkavak?",
+      "text_local": "Yalıkavak için günübirlik turu nereden ayarlayabilirim?",
+      "pronunciation": "yahookahvAHk-eetshIHn-uenuebihrlIHk-toorUH-nEHrehdeh-rehzehrvEH-ehdehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Tour booking is handled by the tourism advisor at the desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tur acenteleri marina çıkışında.",
+        "pronunciation": "tUHr-ahdzhahntehlehrIH-mahreenAH-tshookooshoondAH",
+        "translation_en": "Tour agencies are at the marina exit."
+      },
+      "responses": [
+        {
+          "english": "Tour agencies are at the marina exit.",
+          "phonetic": "tUHr-ahdzhahntehlehrIH-mahreenAH-tshookooshoondAH",
+          "french": "Tur acenteleri marina çıkışında."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_tourist_information_office_005",
+      "intent_en": "Where do I get a queue ticket?",
+      "text_local": "Sıra numarası nereden alınıyor?",
+      "pronunciation": "soorAH-noomahrahsOO-nEHrehdahn-ahoonOOyawr",
+      "formality": "standard",
+      "cultural_note": "Turkish public offices often use a numbered queue system (sıra numarası).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki makineden.",
+        "pronunciation": "eerihshtehkIH-mahkeenehdAHn",
+        "translation_en": "From the machine at the entrance."
+      },
+      "responses": [
+        {
+          "english": "From the machine at the entrance.",
+          "phonetic": "eerihshtehkIH-mahkeenehdAHn",
+          "french": "Girişteki makineden."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_tourist_information_office_006",
+      "intent_en": "Do you sell ferry tickets here?",
+      "text_local": "Buradan feribot bileti alabilir miyim?",
+      "pronunciation": "bOOrahdah-fehreebAWt-beelehtIH-sahtOOyawr-mOOsoonuhz",
+      "formality": "standard",
+      "cultural_note": "A tourist information office provides ferry info but sales are typically handled by a separate ticket officer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bilet satışı yapmıyoruz.",
+        "pronunciation": "beelEHt-sahtooshOO-yahpmOOyohruhz",
+        "translation_en": "We don't sell tickets."
+      },
+      "responses": [
+        {
+          "english": "We don't sell tickets.",
+          "phonetic": "beelEHt-sahtooshOO-yahpmOOyohruhz",
+          "french": "Bilet satışı yapmıyoruz."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_tourist_information_office_007",
+      "intent_en": "Where can I book a day tour to Yalıkavak?",
+      "text_local": "Yalıkavak günübirlik turu nereden ayarlayabilirim?",
+      "pronunciation": "yahookahvahkAH-uenuebihrlIHk-toorUH-nEHrehdahn-ahyahrahyahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Tour bookings are handled by a tourism advisor at the information office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Merhaba, limandaki seyahat acentalarına sorabilirsiniz.",
+        "pronunciation": "mEHrhahbahleemahndahkIH-sehyahhAHt-ahdzhahntahahroonAH-sohrahbeelIHrseenihz",
+        "translation_en": "Hello, you can ask the travel agencies at the marina."
+      },
+      "responses": [
+        {
+          "english": "Hello, you can ask the travel agencies at the marina.",
+          "phonetic": "mEHrhahbahleemahndahkIH-sehyahhAHt-ahdzhahntahahroonAH-sohrahbeelIHrseenihz",
+          "french": "Merhaba, limandaki seyahat acentalarına sorabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_bodrum_tourist_information_office_008",
+      "intent_en": "Is the museum pass worth buying?",
+      "text_local": "Müze kartı almaya değer mi?",
+      "pronunciation": "muezEH-kahrtOO-AHmahyah-dehyEHr-mih",
+      "formality": "standard",
+      "cultural_note": "A guide can provide personalized advice on the museum pass's value.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, birçok yerde geçerli.",
+        "pronunciation": "ehvEHtbihrtshAWk-yehrdEH-ehtshehrlIH",
+        "translation_en": "Yes, it's valid at many places."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's valid at many places.",
+          "phonetic": "ehvEHtbihrtshAWk-yehrdEH-ehtshehrlIH",
+          "french": "Evet, birçok yerde geçerli."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

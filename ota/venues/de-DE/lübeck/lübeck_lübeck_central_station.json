@@ -1,0 +1,144 @@
+{
+  "id": "lübeck_lübeck_central_station",
+  "name_en": "Lübeck Central Station",
+  "name_local": "Lübeck Hauptbahnhof",
+  "icon": "tram",
+  "lat": 53.8671234,
+  "lon": 10.6704782,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lübeck_lübeck_central_station_001",
+      "intent_en": "Does the Reisezentrum sell Lübeck-Tarif zone tickets",
+      "text_local": "Verkaufen Sie Lübeck-Tarif-Tickets?",
+      "pronunciation": "fehrkOWfuhn-zee-lUEbehktAHreeftIHkuhts",
+      "formality": "standard",
+      "cultural_note": "DB Reisezentrum counters handle local and regional tariffs, including Lübeck-Tarif.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_lübeck_central_station_002",
+      "intent_en": "When does the next IC to Hamburg leave",
+      "text_local": "Wann fährt der nächste IC nach Hamburg?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-EEtsEH-nahkh-hAHmbuhuhk",
+      "formality": "standard",
+      "cultural_note": "IC trains to Hamburg are frequent; departure times are displayed on boards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf Gleis 5, 14:22 Uhr.",
+        "pronunciation": "owf-lEYEs-fUEnffIHrtsehn-oor-tsvEYE-uhnttsvAHntsihkh-OOr",
+        "translation_en": "Track 5, 14:22."
+      },
+      "responses": [
+        {
+          "english": "Track 5, 14:22.",
+          "phonetic": "owf-lEYEs-fUEnffIHrtsehn-oor-tsvEYE-uhnttsvAHntsihkh-OOr",
+          "french": "Auf Gleis 5, 14:22 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_lübeck_central_station_003",
+      "intent_en": "Which platform for trains to Travemünde Strand",
+      "text_local": "Welcher Bahnsteig fährt nach Travemünde Strand?",
+      "pronunciation": "vOH-fEHrt-dehr-tsOOk-nahkh-trAHvehmUEnduh-shtrAHnt",
+      "formality": "standard",
+      "cultural_note": "Regional trains to Travemünde Strand are usually indicated on platform displays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bahnsteig 1.",
+        "pronunciation": "bAHnsteyek-EYEns",
+        "translation_en": "Platform 1."
+      },
+      "responses": [
+        {
+          "english": "Platform 1.",
+          "phonetic": "bAHnsteyek-EYEns",
+          "french": "Bahnsteig 1."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_lübeck_central_station_004",
+      "intent_en": "Where do I catch the ZOB bus from inside",
+      "text_local": "Wo ist der ZOB innen?",
+      "pronunciation": "vOH-ihst-dehr-tsEHtOHbEHbUHsbahnhOHf-IHnuhn",
+      "formality": "standard",
+      "cultural_note": "ZOB (Zentraler Omnibusbahnhof) is typically adjacent to the main station exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt vor dem Hauptausgang.",
+        "pronunciation": "deerEHkt-fAWr-dehm-hOWptOWsgAHng",
+        "translation_en": "Right outside the main exit."
+      },
+      "responses": [
+        {
+          "english": "Right outside the main exit.",
+          "phonetic": "deerEHkt-fAWr-dehm-hOWptOWsgAHng",
+          "french": "Direkt vor dem Hauptausgang."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_lübeck_central_station_005",
+      "intent_en": "How do I reserve a bike space on regional trains",
+      "text_local": "Wie reserviere ich Fahrradplätze?",
+      "pronunciation": "vee-rEHzehrvEEruh-ihkh-fAHrahtplEHtsuh",
+      "formality": "standard",
+      "cultural_note": "Bicycle reservations on regional trains can be made at DB Reisezentrum or via DB website.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder online.",
+        "pronunciation": "ahm-shAHlt-OHd-ehnNleyendeh",
+        "translation_en": "At the counter or online."
+      },
+      "responses": [
+        {
+          "english": "At the counter or online.",
+          "phonetic": "ahm-shAHlt-OHd-ehnNleyendeh",
+          "french": "Am Schalter oder online."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_lübeck_central_station_006",
+      "intent_en": "Where is the Radstation bike rental desk",
+      "text_local": "Wo ist die Radstation?",
+      "pronunciation": "vOH-ihst-dee-rAHtstahtsyOHn",
+      "formality": "standard",
+      "cultural_note": "In German transport hubs, bicycle rental desks are typically signed with 'Radstation' or bike symbols.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Haupteingang rechts.",
+        "pronunciation": "fAWr-dehm-hOWptEYEngAHng-rEHkhts",
+        "translation_en": "In front of the main entrance on the right."
+      },
+      "responses": [
+        {
+          "english": "In front of the main entrance on the right.",
+          "phonetic": "fAWr-dehm-hOWptEYEngAHng-rEHkhts",
+          "french": "Vor dem Haupteingang rechts."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

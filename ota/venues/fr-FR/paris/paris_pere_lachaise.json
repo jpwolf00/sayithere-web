@@ -1,0 +1,125 @@
+{
+  "id": "venue_pere_lachaise",
+  "name_en": "Père Lachaise Cemetery",
+  "name_local": "Cimetière du Père-Lachaise",
+  "icon": "tree.fill",
+  "phrases": [
+    {
+      "id": "venue_lachaise_001",
+      "intent_en": "Ask where Jim Morrison's grave is",
+      "text_local": "Où est la tombe de Jim Morrison ?",
+      "pronunciation": "oo eh lah TOHM duh zheem moh-ree-SOHN",
+      "formality": "standard",
+      "cultural_note": "Jim Morrison's grave is in Division 6. It's the most visited tomb and usually has flowers, notes, and sometimes fans playing music. Guards patrol to prevent vandalism.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Jim Morrison's grave is in division 6, follow the signs.",
+          "phonetic": "lah tohm duh zheem moh-ree-SOHN eh dahn lah dee-vee-ZYOHN sees, swee-VAY lay pah-NOH",
+          "french": "La tombe de Jim Morrison est dans la division six, suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "venue_lachaise_002",
+      "intent_en": "Ask for a map of famous graves",
+      "text_local": "Avez-vous un plan avec les tombes célèbres ?",
+      "pronunciation": "ah-VAY voo uhn PLAHN ah-VEK lay TOHM say-LEHBR",
+      "formality": "polite",
+      "cultural_note": "Free maps are available at the main entrances (Boulevard de Ménilmontant and Rue du Repos). The cemetery is huge — 44 hectares — so a map is essential.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Maps are free at the main entrance.",
+          "phonetic": "lay plahn sohn grah-TWEET ah lan-TRAY pran-see-PAL",
+          "french": "Les plans sont gratuits à l'entrée principale."
+        }
+      ]
+    },
+    {
+      "id": "venue_lachaise_003",
+      "intent_en": "Ask where Oscar Wilde's tomb is",
+      "text_local": "Pour aller à la tombe d'Oscar Wilde ?",
+      "pronunciation": "poor ah-LAY ah lah TOHM dos-KAR WYLD",
+      "formality": "standard",
+      "cultural_note": "Oscar Wilde's tomb (Division 89) features a striking Art Deco angel by Jacob Epstein. A glass barrier now protects it from the lipstick kisses that once covered it.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Oscar Wilde is in division 89, toward the north of the cemetery.",
+          "phonetic": "os-KAR wahyld eh dahn lah dee-vee-ZYOHN kah-trah-van-NUHF, vehr luh nor doo seem-TYEHR",
+          "french": "Oscar Wilde est dans la division 89, vers le nord du cimetière."
+        }
+      ]
+    },
+    {
+      "id": "venue_lachaise_004",
+      "intent_en": "Ask where Edith Piaf is buried",
+      "text_local": "Où se trouve la tombe d'Édith Piaf ?",
+      "pronunciation": "oo suh TROOV lah TOHM day-DEET pee-AHF",
+      "formality": "standard",
+      "cultural_note": "Piaf's grave (Division 97) is near the eastern edge. It's always covered with fresh flowers. Chopin's tomb (Division 11) is also a must-see, adorned with a beautiful muse sculpture.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Edith Piaf is in division 97, near the Rue des Rondeaux entrance.",
+          "phonetic": "ay-DEET pyaf eh dahn lah dee-vee-ZYOHN kah-trah-van-dee-SET, preh duh lan-TRAY duh lah roo day rohn-DOH",
+          "french": "Edith Piaf est dans la division 97, près de l'entrée de la Rue des Rondeaux."
+        }
+      ]
+    },
+    {
+      "id": "venue_lachaise_005",
+      "intent_en": "Ask about the cemetery's opening hours",
+      "text_local": "Le cimetière est ouvert jusqu'à quelle heure ?",
+      "pronunciation": "luh seem-TYEHR eh oo-VEHR zhoos-KAH kel UHR",
+      "formality": "standard",
+      "cultural_note": "Open daily from 8 AM (9 AM on weekends). Closes between 5:30 PM and 6 PM depending on season. Entry is free. The atmosphere is peaceful and park-like — not at all gloomy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The cemetery opens at eight and closes at six.",
+          "phonetic": "luh seem-TYEHR oov-ruh ah weet uhr ay fehrm ah dee-zweet uhr",
+          "french": "Le cimetière ouvre à huit heures et ferme à dix-huit heures."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Cemetery",
+      "word_local": "Cimetière",
+      "pronunciation": "seem-TYEHR"
+    },
+    {
+      "word_en": "Grave/Tomb",
+      "word_local": "Tombe",
+      "pronunciation": "tohm"
+    },
+    {
+      "word_en": "Map/Plan",
+      "word_local": "Plan",
+      "pronunciation": "plahn"
+    },
+    {
+      "word_en": "Division (section)",
+      "word_local": "Division",
+      "pronunciation": "dee-vee-ZYOHN"
+    },
+    {
+      "word_en": "Famous",
+      "word_local": "Célèbre",
+      "pronunciation": "say-LEHBR"
+    },
+    {
+      "word_en": "Flowers",
+      "word_local": "Fleurs",
+      "pronunciation": "fluhr"
+    }
+  ]
+}

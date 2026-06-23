@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_bolevec_lakes_recreation_area",
+  "name_en": "Bolevec Lakes Recreation Area",
+  "name_local": "Bolevecké rybníky",
+  "icon": "leaf",
+  "lat": 49.7477415,
+  "lon": 13.3775249,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "plzeň_bolevec_lakes_recreation_area_001",
+      "intent_en": "Where do I pay parking?",
+      "text_local": "Kde zaplatím za parkování?",
+      "pronunciation": "kdEH-zAHplaheem-zah-pAHrkohvAHnyee",
+      "formality": "standard",
+      "cultural_note": "Parking payment is typically at a central automaton ('automat'), not a booth.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U automatu vedle hlavního vchodu.",
+        "pronunciation": "OO-OWtohmAHtoo-vEHdleh-hlAHvnyeehoh-fkhOHdoo",
+        "translation_en": "At the machine next to the main entrance."
+      },
+      "responses": [
+        {
+          "english": "At the machine next to the main entrance.",
+          "phonetic": "OO-OWtohmAHtoo-vEHdleh-hlAHvnyeehoh-fkhOHdoo",
+          "french": "U automatu vedle hlavního vchodu."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_bolevec_lakes_recreation_area_002",
+      "intent_en": "Where is Bolevecká pláž?",
+      "text_local": "Kde je Bolevecká pláž?",
+      "pronunciation": "kdEH-yeh-bOHlehvEHtskah-plAHsh",
+      "formality": "standard",
+      "cultural_note": "Directions often use landmarks like 'Velký rybník' (the big pond) instead of street names.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně kolem Velkého rybníka, pak doleva.",
+        "pronunciation": "rOHvnyeh-kOHlehm-vEHlkehhoh-rEEbnyeekahpAHk-dOHlehvah",
+        "translation_en": "Straight past the big pond, then left."
+      },
+      "responses": [
+        {
+          "english": "Straight past the big pond, then left.",
+          "phonetic": "rOHvnyeh-kOHlehm-vEHlkehhoh-rEEbnyeekahpAHk-dOHlehvah",
+          "french": "Rovně kolem Velkého rybníka, pak doleva."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_bolevec_lakes_recreation_area_003",
+      "intent_en": "Where to check fishing permit?",
+      "text_local": "Kde se kontroluje rybářský lístek?",
+      "pronunciation": "kdEH-seh-kOHntrohlOOyeh-rEEbahrskee-lEEstehk",
+      "formality": "standard",
+      "cultural_note": "A 'správce rybníků' (pond keeper) often handles permits, not a separate office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Správce rybníků je u stánku vedle pláže.",
+        "pronunciation": "sprAHftseh-rEEbnyeekoo-yeh-OO-stAHngkoo-vEHdleh-plAHzheh",
+        "translation_en": "The pond keeper is at the stand next to the beach."
+      },
+      "responses": [
+        {
+          "english": "The pond keeper is at the stand next to the beach.",
+          "phonetic": "sprAHftseh-rEEbnyeekoo-yeh-OO-stAHngkoo-vEHdleh-plAHzheh",
+          "french": "Správce rybníků je u stánku vedle pláže."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_bolevec_lakes_recreation_area_004",
+      "intent_en": "Can I rent boats here?",
+      "text_local": "Dají se tu půjčit loďky?",
+      "pronunciation": "dAHyee-seh-tOO-pOOytsheet-lOHkee",
+      "formality": "standard",
+      "cultural_note": "Boat rentals ('půjčovna loděk') are common at larger recreational ponds.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u mola na Velkém Boleveckém rybníku.",
+        "pronunciation": "AHnohOO-mOHlah-nAHvehlkehm-bOHlehvEHtskehm-rEEbnyeekoo",
+        "translation_en": "Yes, at the dock on Velký Bolevecký rybník."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the dock on Velký Bolevecký rybník.",
+          "phonetic": "AHnohOO-mOHlah-nAHvehlkehm-bOHlehvEHtskehm-rEEbnyeekoo",
+          "french": "Ano, u mola na Velkém Boleveckém rybníku."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

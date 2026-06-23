@@ -1,0 +1,152 @@
+{
+  "id": "hood_bastille",
+  "name_en": "Bastille",
+  "name_local": "Bastille",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "hood_bastille_001",
+      "intent_en": "Ask where the nearest metro exit is",
+      "text_local": "Quelle sortie de métro pour la Place de la Bastille ?",
+      "pronunciation": "kel sor-TEE duh may-TROH poor lah plass duh lah bas-TEE-yuh",
+      "formality": "polite",
+      "cultural_note": "Bastille is a major metro hub with lines 1, 5, and 8. Multiple exits lead to different sides of the square.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take exit number three, toward the Opera.",
+          "phonetic": "pruh-NAY lah sor-TEE noo-may-ROH trwah, vehr loh-pay-RAH",
+          "french": "Prenez la sortie numéro trois, vers l'Opéra."
+        }
+      ]
+    },
+    {
+      "id": "hood_bastille_002",
+      "intent_en": "Ask where to find an ATM nearby",
+      "text_local": "Il y a un distributeur de billets par ici ?",
+      "pronunciation": "eel ee ah uhn dees-tree-boo-TUHR duh bee-YAY par ee-SEE",
+      "formality": "polite",
+      "cultural_note": "ATMs are widely available in Paris. Look for 'distributeur' signs near banks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there is one on the corner of the street.",
+          "phonetic": "wee, eel ee ahn ah uhn oh kwahn duh lah roo",
+          "french": "Oui, il y en a un au coin de la rue."
+        }
+      ]
+    },
+    {
+      "id": "hood_bastille_003",
+      "intent_en": "Ask where the Opéra Bastille is",
+      "text_local": "Où se trouve l'Opéra Bastille ?",
+      "pronunciation": "oo suh TROOV loh-PAY-rah bah-STEEL",
+      "formality": "standard",
+      "cultural_note": "The Opéra Bastille (officially Opéra National de Paris – Bastille) opened in 1989 on the bicentennial of the Revolution. It faces Place de la Bastille and seats 2,700. It's the main opera venue in Paris for new productions, while the Palais Garnier hosts ballet and classic operas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Opéra Bastille is right across, on the other side of the square.",
+          "phonetic": "loh-pay-RAH bas-TEE-yuh eh zhoost ahn fass, duh loh-tr koh-TAY duh lah plass",
+          "french": "L'Opéra Bastille est juste en face, de l'autre côté de la place."
+        }
+      ]
+    },
+    {
+      "id": "hood_bastille_004",
+      "intent_en": "Ask where the Port de l'Arsenal marina is",
+      "text_local": "Où se trouve le port de plaisance de l'Arsenal ?",
+      "pronunciation": "oo suh TROOV luh por duh pleh-ZAHNS duh lar-suh-NAL",
+      "formality": "standard",
+      "cultural_note": "The Port de l'Arsenal is a pleasure-boat marina just south of Place de la Bastille, connecting the Canal Saint-Martin underground section to the Seine. Over 200 private boats are moored here. The canal-side walk along Boulevard de la Bastille is scenic and leads to Bercy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The port is behind the Opera, going down the boulevard.",
+          "phonetic": "luh por eh deh-RYEHR loh-pay-RAH, ahn duh-sahn-DAHN luh bool-VAR",
+          "french": "Le port est derrière l'Opéra, en descendant le boulevard."
+        }
+      ]
+    },
+    {
+      "id": "hood_bastille_005",
+      "intent_en": "Ask for a bar or restaurant recommendation on Rue de Lappe",
+      "text_local": "Pouvez-vous me recommander un endroit sympa rue de Lappe ?",
+      "pronunciation": "poo-VAY voo muh ruh-koh-mahn-DAY uhn ahn-DRWAH sim-PAH roo duh LAP",
+      "formality": "casual",
+      "cultural_note": "Rue de Lappe, running off Place de la Bastille, is one of the liveliest bar streets in Paris. It was famous for its accordion-music dance halls (bals musette) in the 1930s-50s. Today it's packed with bars, tapas restaurants, and clubs. The nearby Rue de la Roquette and Rue de Charonne also have excellent options.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try Rue de Lappe, there are lots of nice bars.",
+          "phonetic": "eh-say-YAY lah roo duh LAP, eel ee ah plahn duh bar sahm-PAH",
+          "french": "Essayez la Rue de Lappe, il y a plein de bars sympa."
+        }
+      ]
+    },
+    {
+      "id": "hood_bastille_006",
+      "intent_en": "Ask which arrondissement Bastille falls in",
+      "text_local": "La place de la Bastille est dans quel arrondissement ?",
+      "pronunciation": "lah plahs duh lah bah-STEEL eh dahn kel ah-rohn-dee-suh-MAHN",
+      "formality": "casual",
+      "cultural_note": "Place de la Bastille sits at the junction of three arrondissements: the 4th, 11th, and 12th. The Opéra Bastille is technically in the 12th. This crossroads location makes Bastille a major transit hub — three métro lines (1, 5, 8) and RER all converge here.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is on the border of the 11th and the 12th.",
+          "phonetic": "seh tah lah lee-MEET doo ohn-ZYEM ay doo doo-ZYEM",
+          "french": "C'est à la limite du onzième et du douzième."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Prison / Fortress",
+      "word_local": "Forteresse",
+      "pronunciation": "for-tuh-RES"
+    },
+    {
+      "word_en": "Revolution",
+      "word_local": "Révolution",
+      "pronunciation": "ray-voh-LOO-syohn"
+    },
+    {
+      "word_en": "Column",
+      "word_local": "Colonne",
+      "pronunciation": "koh-LON"
+    },
+    {
+      "word_en": "Marina",
+      "word_local": "Port de plaisance",
+      "pronunciation": "por duh pleh-ZAHNS"
+    },
+    {
+      "word_en": "National holiday",
+      "word_local": "Fête nationale",
+      "pronunciation": "FET nah-syoh-NAL"
+    },
+    {
+      "word_en": "Dance hall",
+      "word_local": "Bal musette",
+      "pronunciation": "bal moo-ZET"
+    },
+    {
+      "word_en": "District",
+      "word_local": "Arrondissement",
+      "pronunciation": "ah-rohn-dee-suh-MAHN"
+    },
+    {
+      "word_en": "Fireworks",
+      "word_local": "Feu d'artifice",
+      "pronunciation": "fuh dar-tee-FEES"
+    }
+  ]
+}

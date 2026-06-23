@@ -1,0 +1,118 @@
+{
+  "id": "antibes_port_vauban",
+  "name_en": "Port Vauban",
+  "name_local": "Port Vauban",
+  "icon": "ferry",
+  "lat": 43.635,
+  "lon": 7.075,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "antibes_port_001",
+      "intent_en": "Ask where the yachts are docked",
+      "text_local": "Où sont ancrés les yachts, s'il vous plaît ?",
+      "pronunciation": "oo sohn ahn-KRAY lay YOT seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Port Vauban is one of Europe's largest marinas, with over 2,000 berths. It's known for hosting superyachts during the Cannes Film Festival.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The big yachts are on the billionaires' quay, straight ahead.",
+          "phonetic": "lay grahn YOT son soor luh kay day meel-yar-DAIR, too DRWAH",
+          "french": "Les grands yachts sont sur le quai des milliardaires, tout droit."
+        }
+      ]
+    },
+    {
+      "id": "antibes_port_002",
+      "intent_en": "Ask where the ferry to the islands departs",
+      "text_local": "Où part le ferry pour les îles ?",
+      "pronunciation": "oo PAR luh feh-REE poor lay ZEEL",
+      "formality": "polite",
+      "cultural_note": "Ferries from Port Vauban run to the Îles de Lérins (Saint-Honorat and Sainte-Marguerite). The crossing takes about 20 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the end of the quay, over there. Follow the signs.",
+          "phonetic": "oh boo doo kay, lah-BAH. ruh-gar-DAY lay pah-NOH",
+          "french": "Au bout du quai, là-bas. Regardez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "antibes_port_003",
+      "intent_en": "Ask where the nearest marine supply store is",
+      "text_local": "Où est le magasin d'équipements maritimes le plus proche ?",
+      "pronunciation": "oo eh luh mah-gah-ZAN day-keep-MAN mah-ree-TEEM luh ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "The port area has several marine supply shops for boating equipment, fishing gear, and nautical accessories.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There's one near the quay, five minutes on foot.",
+          "phonetic": "eel ee ahn ah uhn preh doo kay, ah sank mee-NOOT ah pyay",
+          "french": "Il y en a un près du quai, à cinq minutes à pied."
+        }
+      ]
+    },
+    {
+      "id": "antibes_port_004",
+      "intent_en": "Ask if there's a restaurant with a sea view",
+      "text_local": "Y a-t-il un restaurant avec vue sur la mer ?",
+      "pronunciation": "ee ah-TEEL un res-to-RAN ah-vek VYOO soor lah MAIR",
+      "formality": "polite",
+      "cultural_note": "Port Vauban has many waterfront restaurants ranging from casual cafés to fine dining, all with harbor views.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, several along the port. I recommend booking.",
+          "phonetic": "wee, plu-ZYUR luh lohn doo POR. zhuh ruh-koh-MAHND duh ray-zair-VAY",
+          "french": "Oui, plusieurs le long du port. Je recommande de réserver."
+        }
+      ]
+    },
+    {
+      "id": "antibes_port_005",
+      "intent_en": "Ask about the Antibes marine museum",
+      "text_local": "Où se trouve le musée de la marine à Antibes ?",
+      "pronunciation": "oo suh TROOV luh myoo-ZAY duh lah mah-REE-nah an-TEEB",
+      "formality": "polite",
+      "cultural_note": "The Musée de la Mer (Sea Museum) is located in the old bastion near the port and documents Antibes' maritime history.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Follow the signs toward the bastion, it's two minutes away.",
+          "phonetic": "swee-VAY lay pah-NOH vair luh bas-TYON, say ah duh mee-NOOT",
+          "french": "Suivez les panneaux vers le bastion, c'est à deux minutes."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "marina",
+      "word_local": "le port de plaisance",
+      "pronunciation": "leh POR duh pleh-ZAHNS"
+    },
+    {
+      "word_en": "yacht",
+      "word_local": "le yacht",
+      "pronunciation": "leh YOT"
+    },
+    {
+      "word_en": "harbor",
+      "word_local": "le port",
+      "pronunciation": "leh POR"
+    },
+    {
+      "word_en": "ferry",
+      "word_local": "le ferry",
+      "pronunciation": "leh feh-REE"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "kos_asklepieion_of_kos",
+  "name_en": "Asklepieion of Kos",
+  "name_local": "Ασκληπιείο Κω",
+  "icon": "building.columns",
+  "lat": 36.8756656,
+  "lon": 27.2571585,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kos_asklepieion_of_kos_001",
+      "intent_en": "Walk Hippocrates Plane Tree path",
+      "text_local": "Πώς φτάνω στον Πλάτανο του Ιπποκράτη;",
+      "pronunciation": "pOO-OHtheeyEE-ee-thEEahthrohmEE-prOHs-tohm-blAHtahnOH-too-EEpohkrAHtee",
+      "formality": "standard",
+      "cultural_note": "Η διαδρομή προς τον Πλάτανο του Ιπποκράτη δεν είναι πάντα σαφώς σηματοδοτημένη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περάστε το αρχαίο στάδιο, δεξιά.",
+        "pronunciation": "pehrAHsteh-toh-ahrkhEHoh-stAHtheeOHthEHkseeAH",
+        "translation_en": "Follow the signs to the Hippocrates Plane Tree."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Hippocrates Plane Tree.",
+          "phonetic": "pehrAHsteh-toh-ahrkhEHoh-stAHtheeOHthEHkseeAH",
+          "french": "Περάστε το αρχαίο στάδιο, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να αγοράσω οδηγούς;",
+      "pronunciation": "pOO-pohlOOdeh-tah-veevlEEah-OHtheeyOHn",
+      "formality": "polite",
+      "cultural_note": "Τα βιβλία οδηγιών διατίθενται σε περίπτερο εντός του χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο περίπτερο εισόδου, δεξιά.",
+        "pronunciation": "stoh-pehrEEptehrOH-eesOHthoothEHkseeAH",
+        "translation_en": "You'll find guidebooks at the kiosk next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "You'll find guidebooks at the kiosk next to the entrance.",
+          "phonetic": "stoh-pehrEEptehrOH-eesOHthoothEHkseeAH",
+          "french": "Στο περίπτερο εισόδου, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Τι ώρα κλείνει το ταμείο;",
+      "pronunciation": "tEE-OHrah-klEEnee-toh-tahmEEoh",
+      "formality": "standard",
+      "cultural_note": "Το ωράριο μπορεί να αλλάζει ανά εποχή. Ελέγξτε στον ταμία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το ταμείο κλείνει στις οκτώ το βράδυ.",
+        "pronunciation": "toh-tahmEEoh-klEEnee-stees-ohktOH-toh-vrAHthee",
+        "translation_en": "The ticket booth operates from 8:00 AM to 8:00 PM daily."
+      },
+      "responses": [
+        {
+          "english": "The ticket booth operates from 8:00 AM to 8:00 PM daily.",
+          "phonetic": "toh-tahmEEoh-klEEnee-stees-ohktOH-toh-vrAHthee",
+          "french": "Το ταμείο κλείνει στις οκτώ το βράδυ."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_004",
+      "intent_en": "Stay on marked ruin paths only",
+      "text_local": "Πρέπει να μένουμε μόνο στις σηματοδοτημένες διαδρομές;",
+      "pronunciation": "prEHpee-nah-mEHnoomEH-mOHnoh-stees-sEEmahtOHthohteemEHnehz-thEEahthrohmEHs",
+      "formality": "standard",
+      "cultural_note": "Η σήμανση των διαδρομών είναι περιορισμένη. Ακολουθείτε κυρίως τους φύλακες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, μόνο εκεί.",
+        "pronunciation": "nEHmOHnoh-ehEE",
+        "translation_en": "Yes, only on marked paths."
+      },
+      "responses": [
+        {
+          "english": "Yes, only on marked paths.",
+          "phonetic": "nEHmOHnoh-ehEE",
+          "french": "Ναι, μόνο εκεί."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_005",
+      "intent_en": "Buy combined museum ticket option",
+      "text_local": "Υπάρχει κοινό εισιτήριο για το μουσείο και το Ασκληπιείο;",
+      "pronunciation": "eepAHrkhee-eenOH-EEseetEEreeOH-yAH-toh-moosEEoh-keh-toh-AHskleepkhEEoh",
+      "formality": "standard",
+      "cultural_note": "Το κοινό εισιτήριο αφορά κυρίως το μουσείο και τις κύριες αρχαιότητες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, at the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket booth.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται ο Ναός του Ασκληπιού;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-nahOHs-too-AHskleepkhOO",
+      "formality": "standard",
+      "cultural_note": "Ο συγκεκριμένος ναός είναι σημαντικό σημείο του χώρου αλλά η ακριβής θέση μπορεί να μην είναι εμφανής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην πάνω βεράντα, μετά το μεγάλο προπύλαιο.",
+        "pronunciation": "steem-bAHnoh-vehrAHdahmehtAH-toh-mehghAHloh-prohpEElehOH",
+        "translation_en": "The temple is on the upper terrace, follow the signs to the sanctuary."
+      },
+      "responses": [
+        {
+          "english": "The temple is on the upper terrace, follow the signs to the sanctuary.",
+          "phonetic": "steem-bAHnoh-vehrAHdahmehtAH-toh-mehghAHloh-prohpEElehOH",
+          "french": "Στην πάνω βεράντα, μετά το μεγάλο προπύλαιο."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς φτάνω στον Πλάτανο του Ιπποκράτη από εδώ;",
+      "pronunciation": "pOHs-pAHoh-stohm-blAHtahnOH-too-EEpohkrAHtee-ahpOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Η διαδρομή προς τον Πλάτανο του Ιπποκράτη δεν είναι πάντα ορατή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Βγείτε από την κύρια είσοδο και στρίψτε αριστερά.",
+        "pronunciation": "vyEEteh-ahpOH-teeng-gEEreeAH-EEsohthOH-keh-strEEpsteh-AHreestehrAH",
+        "translation_en": "Exit through the main entrance and turn left."
+      },
+      "responses": [
+        {
+          "english": "Exit through the main entrance and turn left.",
+          "phonetic": "vyEEteh-ahpOH-teeng-gEEreeAH-EEsohthOH-keh-strEEpsteh-AHreestehrAH",
+          "french": "Βγείτε από την κύρια είσοδο και στρίψτε αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_008",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω τον οδηγό;",
+      "pronunciation": "pOHsoh-kAHnee-toh-veevlEEoh-OHtheeyOHn",
+      "formality": "polite",
+      "cultural_note": "Τα βιβλία οδηγιών πωλούνται στον περίπτερο εντός του χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο περίπτερο δίπλα στο ταμείο εισόδου.",
+        "pronunciation": "stoh-pehrEEptehrOH-thEEplah-stoh-tahmEEoh-eesOHthoo",
+        "translation_en": "Hello, the guidebook is sold at the kiosk near the entrance ticket booth, towards the side of the Hippocrates Plane Tree."
+      },
+      "responses": [
+        {
+          "english": "Hello, the guidebook is sold at the kiosk near the entrance ticket booth, towards the side of the Hippocrates Plane Tree.",
+          "phonetic": "stoh-pehrEEptehrOH-thEEplah-stoh-tahmEEoh-eesOHthoo",
+          "french": "Στο περίπτερο δίπλα στο ταμείο εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_009",
+      "intent_en": "Ask if combined museum ticket exists",
+      "text_local": "Υπάρχει κοινό εισιτήριο;",
+      "pronunciation": "eepAHrkhee-eenOH-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Το κοινό εισιτήριο αφορά κυρίως το μουσείο και τις κύριες αρχαιότητες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο του μουσείου.",
+        "pronunciation": "nEHstoh-tahmEEoh-too-moosEEoo",
+        "translation_en": "Yes, ask the ticket seller."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the ticket seller.",
+          "phonetic": "nEHstoh-tahmEEoh-too-moosEEoo",
+          "french": "Ναι, στο ταμείο του μουσείου."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_010",
+      "intent_en": "Ask if marked paths are mandatory",
+      "text_local": "Πρέπει να ακολουθώ τις σηματοδοτημένες διαδρομές;",
+      "pronunciation": "prEHpee-n-AHkohloothOH-tees-sEEmahtOHthohteemEHnehz-thEEahthrohmEHs",
+      "formality": "standard",
+      "cultural_note": "Οι σηματοδοτημένες διαδρομές προστατεύουν τις αρχαιότητες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υποχρεωτικό.",
+        "pronunciation": "nEHEEpohkhrEHohteekOH",
+        "translation_en": "Yes, mandatory."
+      },
+      "responses": [
+        {
+          "english": "Yes, mandatory.",
+          "phonetic": "nEHEEpohkhrEHohteekOH",
+          "french": "Ναι, υποχρεωτικό."
+        }
+      ]
+    },
+    {
+      "id": "kos_asklepieion_of_kos_011",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πόσο κάνει το εισιτήριο;",
+      "pronunciation": "pOHsoh-kAHnee-toh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Οι τιμές εισιτηρίων μπορεί να διαφέρουν ανά εποχή. Συνήθως ανακοινώνονται στον ταμία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "8€ στο ταμείο μπροστά.",
+        "pronunciation": "ohktOH-ehvrOH-stoh-tahmEEoh-brohstAH",
+        "translation_en": "The ticket costs 8€ for adults. A combined ticket with the Archaeological Museum is also available."
+      },
+      "responses": [
+        {
+          "english": "The ticket costs 8€ for adults. A combined ticket with the Archaeological Museum is also available.",
+          "phonetic": "ohktOH-ehvrOH-stoh-tahmEEoh-brohstAH",
+          "french": "8€ στο ταμείο μπροστά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

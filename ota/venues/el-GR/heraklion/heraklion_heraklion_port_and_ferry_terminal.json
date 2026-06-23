@@ -1,0 +1,144 @@
+{
+  "id": "heraklion_heraklion_port_and_ferry_terminal",
+  "name_en": "Heraklion Port and Ferry Terminal",
+  "name_local": "Λιμάνι Ηρακλείου",
+  "icon": "tram",
+  "lat": 35.3410945,
+  "lon": 25.1387118,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "heraklion_heraklion_port_and_ferry_terminal_001",
+      "intent_en": "How do I pay the port tax for foot passengers?",
+      "text_local": "Πώς πληρώνω τον λιμενικό φόρο για πεζούς;",
+      "pronunciation": "pOHs-pleerOHnoh-tohn-lEEmehneekOH-fOHroh-OHs-EHpeevAHtees",
+      "formality": "standard",
+      "cultural_note": "Port tax is typically handled at ticket counters alongside ferry tickets. Direct payment desks may not exist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πληρώνετε στο εκδοτήριο εισιτηρίων.",
+        "pronunciation": "pleerOHnehtEH-stoh-EHkthohtEEreeOH-EEseeteerEEohn",
+        "translation_en": "You pay at the ticket office."
+      },
+      "responses": [
+        {
+          "english": "You pay at the ticket office.",
+          "phonetic": "pleerOHnehtEH-stoh-EHkthohtEEreeOH-EEseeteerEEohn",
+          "french": "Πληρώνετε στο εκδοτήριο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_port_and_ferry_terminal_002",
+      "intent_en": "Which gate is for vehicle boarding to Santorini?",
+      "text_local": "Ποια πύλη είναι για επιβίβαση αυτοκινήτων προς Σαντορίνη;",
+      "pronunciation": "pEEah-pEElee-EEneh-yAH-EHpeevEEvahsEE-AHftoheenEEtohm-brOHs-sAHdohrEEnee",
+      "formality": "standard",
+      "cultural_note": "Vehicle boarding gates are not individually labeled. Signs lead to the loading ramps where ferries are assigned dynamically.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Στην τελευταία πύλη.",
+        "pronunciation": "steen-dEHlehftEHah-pEElee",
+        "translation_en": "At the last gate."
+      },
+      "responses": [
+        {
+          "english": "At the last gate.",
+          "phonetic": "steen-dEHlehftEHah-pEElee",
+          "french": "Στην τελευταία πύλη."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_port_and_ferry_terminal_003",
+      "intent_en": "When does the next ferry to Piraeus depart?",
+      "text_local": "Πότε αναχωρεί το επόμενο πλοίο για Πειραιά;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-ehpOHmehnOH-kahrAHvee-yAH-pEErehAH",
+      "formality": "standard",
+      "cultural_note": "Departure boards are often not visible or updated in real-time. Staff assistance is the most reliable source.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις δέκα το βράδυ.",
+        "pronunciation": "steez-thEHkah-toh-vrAHthee",
+        "translation_en": "At ten in the evening."
+      },
+      "responses": [
+        {
+          "english": "At ten in the evening.",
+          "phonetic": "steez-thEHkah-toh-vrAHthee",
+          "french": "Στις δέκα το βράδυ."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_port_and_ferry_terminal_004",
+      "intent_en": "Where is the ticket office for Minoan Lines?",
+      "text_local": "Πού είναι το ταμείο της Minoan Lines;",
+      "pronunciation": "pOO-EEneh-toh-ghrahfEEoh-teez-mEEnoheekOHn",
+      "formality": "standard",
+      "cultural_note": "Ferry companies typically have dedicated counters. Signs are the primary navigational aid in transport hubs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στην αίθουσα αναμονής, ταμείο Minoan.",
+        "pronunciation": "AHreestehrAH-steen-EHthoos-AHnahmohnEEstahmEEoh-ehnmIHnuhuhnehl",
+        "translation_en": "The Minoan Lines ticket office is inside the passenger terminal building, on the ground floor. Follow the signs to the waiting hall."
+      },
+      "responses": [
+        {
+          "english": "The Minoan Lines ticket office is inside the passenger terminal building, on the ground floor. Follow the signs to the waiting hall.",
+          "phonetic": "AHreestehrAH-steen-EHthoos-AHnahmohnEEstahmEEoh-ehnmIHnuhuhnehl",
+          "french": "Αριστερά στην αίθουσα αναμονής, ταμείο Minoan."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_port_and_ferry_terminal_005",
+      "intent_en": "Does the taxi stand have a fixed meter rate to Knossos?",
+      "text_local": "Υπάρχει σταθερή τιμή ταξί για Κνωσσό;",
+      "pronunciation": "stAHthehrEE-teemEE-tahksEE-yAH-knohssOH",
+      "formality": "standard",
+      "cultural_note": "Taxi fares to tourist destinations are often negotiable unless a fixed rate is explicitly posted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι.",
+        "pronunciation": "OHkhee",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "OHkhee",
+          "french": "Όχι."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_heraklion_port_and_ferry_terminal_006",
+      "intent_en": "Where is the passenger waiting hall with seats?",
+      "text_local": "Πού είναι η αίθουσα αναμονής επιβατών;",
+      "pronunciation": "pOO-EEneh-ee-EHthoos-AHnahmohnEEs-EHpeevahtOHn",
+      "formality": "standard",
+      "cultural_note": "Waiting halls are core infrastructure in ferry terminals. Signs are the standard navigational tool.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετά την ασφάλεια, αριστερά.",
+        "pronunciation": "mehtAH-teen-ahsfAHlyahAHreestehrAH",
+        "translation_en": "Follow the signs to the Passenger Waiting Hall."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Passenger Waiting Hall.",
+          "phonetic": "mehtAH-teen-ahsfAHlyahAHreestehrAH",
+          "french": "Μετά την ασφάλεια, αριστερά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

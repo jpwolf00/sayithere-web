@@ -1,0 +1,122 @@
+{
+  "id": "goreme_cappadocian_cuisine_centre",
+  "name_en": "Cappadocian Cuisine Centre",
+  "name_local": "Kapadokya Mutfağı",
+  "icon": "fork.knife",
+  "lat": 38.642089,
+  "lon": 34.8296234,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "goreme_cappadocian_cuisine_centre_001",
+      "intent_en": "Do you run cooking classes today?",
+      "text_local": "Bugün yemek dersi var mı?",
+      "pronunciation": "boogUHn-yehmEHk-dehrsIH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Turkish venues often handle class schedules at the desk rather than posting them.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, var, yer mevcut.",
+        "pronunciation": "ehvEHtvAHryEHr-mehvdzhUHt",
+        "translation_en": "Yes, there are spots available."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are spots available.",
+          "phonetic": "ehvEHtvAHryEHr-mehvdzhUHt",
+          "french": "Evet, var, yer mevcut."
+        }
+      ]
+    },
+    {
+      "id": "goreme_cappadocian_cuisine_centre_002",
+      "intent_en": "Where do classes take place?",
+      "text_local": "Dersler nerede yapılıyor?",
+      "pronunciation": "dehrslEHr-nEHrehdeh-yahpooOOyawr",
+      "formality": "standard",
+      "cultural_note": "Turkish venues often handle class logistics at the desk rather than posting fixed locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Arka taraftaki mutfakta.",
+        "pronunciation": "ahrkAH-tahrahftahkIH-muhtfahktAH",
+        "translation_en": "In the kitchen in the back."
+      },
+      "responses": [
+        {
+          "english": "In the kitchen in the back.",
+          "phonetic": "ahrkAH-tahrahftahkIH-muhtfahktAH",
+          "french": "Arka taraftaki mutfakta."
+        }
+      ]
+    },
+    {
+      "id": "goreme_cappadocian_cuisine_centre_003",
+      "intent_en": "Do you run cooking classes today?",
+      "text_local": "Bugün yemek kursu var mı?",
+      "pronunciation": "boogUHn-yehmEHk-kuhrsUH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Turkish restaurants may not publish daily schedules; asking staff is common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bugün var.",
+        "pronunciation": "ehvEHtboogUHn-vAHr",
+        "translation_en": "Yes, there is today."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is today.",
+          "phonetic": "ehvEHtboogUHn-vAHr",
+          "french": "Evet, bugün var."
+        }
+      ]
+    },
+    {
+      "id": "goreme_cappadocian_cuisine_centre_004",
+      "intent_en": "Where do classes take place?",
+      "text_local": "Aşçılık dersleri nerede yapılıyor?",
+      "pronunciation": "kuhrsAHr-nEHrehdeh-yahpooOOyawr",
+      "formality": "standard",
+      "cultural_note": "Exact kitchen location is not listed; staff will guide you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Arkadaki mutfakta.",
+        "pronunciation": "ahrkahdahkIH-muhtfahktAH",
+        "translation_en": "In the kitchen in the back."
+      },
+      "responses": [
+        {
+          "english": "In the kitchen in the back.",
+          "phonetic": "ahrkahdahkIH-muhtfahktAH",
+          "french": "Arkadaki mutfakta."
+        }
+      ]
+    },
+    {
+      "id": "goreme_cappadocian_cuisine_centre_005",
+      "intent_en": "Can I eat what I cook?",
+      "text_local": "Pişirdiğimi yiyebilir miyim?",
+      "pronunciation": "peeshihrdEEyeemih-yeeyehbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Turkish venues often handle class details at the desk rather than posting fixed policies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tadına bakabilirsiniz.",
+        "pronunciation": "ehvEHttahdoonAH-bahkahbeelIHrseenihz",
+        "translation_en": "Yes, you can taste it."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can taste it.",
+          "phonetic": "ehvEHttahdoonAH-bahkahbeelIHrseenihz",
+          "french": "Evet, tadına bakabilirsiniz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

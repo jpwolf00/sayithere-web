@@ -1,0 +1,110 @@
+{
+  "id": "geneva_musee_ethnographie",
+  "name_en": "Museum of Ethnography",
+  "name_local": "Musée d'Ethnographie de Genève",
+  "icon": "globe.americas",
+  "phrases": [
+    {
+      "id": "geneva_meg_001",
+      "intent_en": "Ask for the museum's opening hours",
+      "text_local": "Quelles sont les horaires du musée ?",
+      "pronunciation": "kel sohn layz oh-REHR doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The Musée d'Ethnographie de Genève (MEG) is open daily except Mondays.",
+      "responses": [
+        {
+          "english": "From 10 AM to 6 PM. Closed Monday.",
+          "phonetic": "duh deez UHR ah deez-weet UHR. fehr-MAY luh luhn-DEE",
+          "french": "De dix heures à dix-huit heures. Fermé le lundi."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_meg_002",
+      "intent_en": "Ask if there is a temporary exhibition on now",
+      "text_local": "Y a-t-il une exposition temporaire en ce moment ?",
+      "pronunciation": "ee ah-TEEL oon ex-poh-zee-SYOHN tahm-poh-REHR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The MEG regularly hosts temporary exhibitions alongside its permanent collection.",
+      "responses": [
+        {
+          "english": "Yes, on the first floor.",
+          "phonetic": "wee, oh pruh-MYAY ay-TAHZH",
+          "french": "Oui, au premier étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_meg_003",
+      "intent_en": "Ask if the museum is free",
+      "text_local": "L'entrée du musée est-elle gratuite ?",
+      "pronunciation": "lon-TRAY doo moo-ZAY eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Like all Geneva municipal museums, the MEG's permanent collection is free to visit. It is a great option for a rainy afternoon in the city.",
+      "responses": [
+        {
+          "english": "Yes, it's free.",
+          "phonetic": "wee, seh grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_meg_004",
+      "intent_en": "Ask for directions to the museum",
+      "text_local": "Pouvez-vous m'indiquer comment me rendre au Musée d'Ethnographie ?",
+      "pronunciation": "poo-VAY-voo man-dee-KAY koh-MOHN muh ROHN-druh oh moo-ZAY det-noh-grah-FEE",
+      "formality": "polite",
+      "cultural_note": "The MEG is located in the Plainpalais district, a short walk from the tram stop Plainpalais and close to the University of Geneva campus.",
+      "responses": [
+        {
+          "english": "Boulevard Carl-Vogt, ten minutes on foot.",
+          "phonetic": "bool-VAR karl-VOGT, ah dee mee-NOOT ah PYAY",
+          "french": "Boulevard Carl-Vogt, à dix minutes à pied."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_meg_005",
+      "intent_en": "Ask about the museum shop",
+      "text_local": "La boutique du musée est-elle ouverte ?",
+      "pronunciation": "lah boo-TEEK doo moo-ZAY eh-TEL oo-VAIRT",
+      "formality": "polite",
+      "cultural_note": "The MEG shop sells ethnographic publications, artisanal crafts from around the world and unique gift items — a good place to find unusual souvenirs.",
+      "responses": [
+        {
+          "english": "At the exit, on the right.",
+          "phonetic": "ah lah sor-TEE, soor lah DRWAHT",
+          "french": "À la sortie, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "ethnography",
+      "word_local": "l'ethnographie",
+      "pronunciation": "let-noh-grah-FEE"
+    },
+    {
+      "word_en": "world cultures",
+      "word_local": "les cultures du monde",
+      "pronunciation": "lay kool-TOOR doo MOHND"
+    },
+    {
+      "word_en": "artefact / object",
+      "word_local": "l'objet",
+      "pronunciation": "lob-ZHAY"
+    }
+  ]
+}

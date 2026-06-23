@@ -1,0 +1,100 @@
+{
+  "id": "olympia_olympia_tourist_information_office",
+  "name_en": "Olympia Tourist Information Office",
+  "name_local": "Γραφείο Τουριστικών Πληροφοριών Ολυμπίας",
+  "icon": "info.circle",
+  "lat": 37.6382503,
+  "lon": 21.630566,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "olympia_olympia_tourist_information_office_001",
+      "intent_en": "Where is the Hera temple from here?",
+      "text_local": "Πού είναι ο ναός της Ήρας;",
+      "pronunciation": "pOO-EEneh-oh-nahOHs-tees-EErahs-ahpOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Οι πινακίδες στο χώρο δείχνουν τους κύριους αρχαιολογικούς στόχους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περίπου τριακόσια μέτρα βόρεια.",
+        "pronunciation": "pehrEEpoo-trEEahkOHsyah-mEHtrah-vOHrkhah",
+        "translation_en": "About three hundred meters north."
+      },
+      "responses": [
+        {
+          "english": "About three hundred meters north.",
+          "phonetic": "pehrEEpoo-trEEahkOHsyah-mEHtrah-vOHrkhah",
+          "french": "Περίπου τριακόσια μέτρα βόρεια."
+        }
+      ]
+    },
+    {
+      "id": "olympia_olympia_tourist_information_office_002",
+      "intent_en": "Where to validate the site entry ticket?",
+      "text_local": "Πού επικυρώνω την είσοδο;",
+      "pronunciation": "pOO-EHpeeeerOHnoh-teen-EEsohthOH",
+      "formality": "standard",
+      "cultural_note": "Οι αυτόματοι επικύρωσης βρίσκονται στις εισόδους του αρχαιολογικού χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στους εισιτήριους αυτόματους.",
+        "pronunciation": "stoos-EEseetEEreeOOs-ahftOHmahtOOs",
+        "translation_en": "At the ticket validators."
+      },
+      "responses": [
+        {
+          "english": "At the ticket validators.",
+          "phonetic": "stoos-EEseetEEreeOOs-ahftOHmahtOOs",
+          "french": "Στους εισιτήριους αυτόματους."
+        }
+      ]
+    },
+    {
+      "id": "olympia_olympia_tourist_information_office_003",
+      "intent_en": "How do I book a guided tour?",
+      "text_local": "Πώς κλείνω ξενάγηση;",
+      "pronunciation": "pOHs-klEEnoh-ksehnAHyeesEE",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγοί βρίσκονται κοντά στα μνημεία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο γκισέ εισιτηρίων ή στην είσοδο.",
+        "pronunciation": "stoh-geesEH-EEseeteerEEohn-ee-steen-EEsohthOH",
+        "translation_en": "Hello, the guided tour is booked at the ticket counter or with the guide at the entrance of the archaeological site."
+      },
+      "responses": [
+        {
+          "english": "Hello, the guided tour is booked at the ticket counter or with the guide at the entrance of the archaeological site.",
+          "phonetic": "stoh-geesEH-EEseeteerEEohn-ee-steen-EEsohthOH",
+          "french": "Στο γκισέ εισιτηρίων ή στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_olympia_tourist_information_office_004",
+      "intent_en": "Is the flame altar ceremony quiet today?",
+      "text_local": "Είναι ήσυχη σήμερα η τελετή ανάφλεξης της Ολυμπιακής Φλόγας;",
+      "pronunciation": "EEneh-EEseekhEE-sEEmehrAH-ee-tEHlehtEE-stee-flOHghah",
+      "formality": "standard",
+      "cultural_note": "Η τελετή μπορεί να έχει μεταβαλλόμενες συνθήκες ησυχίας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ήσυχη σήμερα στον βωμό της Ήρας.",
+        "pronunciation": "nEHEEseekhEE-sEEmehrAH-stohn-vohmOH-tees-EErahs",
+        "translation_en": "Yes, it's quiet today. The altar is next to the Temple of Hera."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's quiet today. The altar is next to the Temple of Hera.",
+          "phonetic": "nEHEEseekhEE-sEEmehrAH-stohn-vohmOH-tees-EErahs",
+          "french": "Ναι, ήσυχη σήμερα στον βωμό της Ήρας."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "brno_lužánky_park",
+  "name_en": "Lužánky Park",
+  "name_local": "Park Lužánky",
+  "icon": "leaf",
+  "lat": 49.2062421,
+  "lon": 16.6059344,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "brno_lužánky_park_001",
+      "intent_en": "How do I find the cafe?",
+      "text_local": "Jak najdu kavárnu?",
+      "pronunciation": "yAHk-nAHydoo-kAHvahrnoo",
+      "formality": "standard",
+      "cultural_note": "The park has seasonal snack vendors; a more permanent cafe is often found near the playground area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned za dětským hřištěm, vpravo.",
+        "pronunciation": "hnEHd-zAHehtskeem-hrEEshehmfprAHvoh",
+        "translation_en": "Right behind the playground, on the right."
+      },
+      "responses": [
+        {
+          "english": "Right behind the playground, on the right.",
+          "phonetic": "hnEHd-zAHehtskeem-hrEEshehmfprAHvoh",
+          "french": "Hned za dětským hřištěm, vpravo."
+        }
+      ]
+    },
+    {
+      "id": "brno_lužánky_park_002",
+      "intent_en": "Are dogs allowed off leash here?",
+      "text_local": "Mohou tu psi běhat na volno?",
+      "pronunciation": "mOHhoh-tOO-psEE-byEHhaht-nAHvohlnoh",
+      "formality": "standard",
+      "cultural_note": "City police patrol the park and may fine owners for unleashed dogs outside designated areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jen na vodítku ve vyznačených zónách.",
+        "pronunciation": "nEHyEHn-nAHvohEEtkoo-vEH-vEEznahtshEHneegh-zOHnahkh",
+        "translation_en": "No, only on a leash in marked zones."
+      },
+      "responses": [
+        {
+          "english": "No, only on a leash in marked zones.",
+          "phonetic": "nEHyEHn-nAHvohEEtkoo-vEH-vEEznahtshEHneegh-zOHnahkh",
+          "french": "Ne, jen na vodítku ve vyznačených zónách."
+        }
+      ]
+    },
+    {
+      "id": "brno_lužánky_park_003",
+      "intent_en": "Where is the Personification of Tolerance?",
+      "text_local": "Kde je Personifikace tolerance?",
+      "pronunciation": "kdEH-yeh-pEHrsohnyEEfeekAHtseh-tOHlehrAHntseh",
+      "formality": "standard",
+      "cultural_note": "The statue is a well-known local landmark within the park's open area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Uprostřed velké louky, naproti altánu.",
+        "pronunciation": "OOprohstrehd-vEHlkeh-lOHkeenAHprohee-AHltahnoo",
+        "translation_en": "In the middle of the big meadow, opposite the gazebo."
+      },
+      "responses": [
+        {
+          "english": "In the middle of the big meadow, opposite the gazebo.",
+          "phonetic": "OOprohstrehd-vEHlkeh-lOHkeenAHprohee-AHltahnoo",
+          "french": "Uprostřed velké louky, naproti altánu."
+        }
+      ]
+    },
+    {
+      "id": "brno_lužánky_park_004",
+      "intent_en": "Is the seasonal event ticket booth open?",
+      "text_local": "Je otevřená pokladna na sezónní akce?",
+      "pronunciation": "yeh-OHtehvrEHnah-pOHklahdnah-nAHsehzOHnyee-AHktseh",
+      "formality": "standard",
+      "cultural_note": "Ticket booths typically operate only during major park festivals or weekend events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dnes ne, otevřeno je jen o víkendech.",
+        "pronunciation": "dnEHs-nEHOHtehvrEHnoh-yeh-yEHn-OHveekEHndehkh",
+        "translation_en": "Not today, it's only open on weekends."
+      },
+      "responses": [
+        {
+          "english": "Not today, it's only open on weekends.",
+          "phonetic": "dnEHs-nEHOHtehvrEHnoh-yeh-yEHn-OHveekEHndehkh",
+          "french": "Dnes ne, otevřeno je jen o víkendech."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

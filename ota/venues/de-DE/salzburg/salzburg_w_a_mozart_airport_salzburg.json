@@ -1,0 +1,100 @@
+{
+  "id": "salzburg_w_a_mozart_airport_salzburg",
+  "name_en": "W. A. Mozart Airport Salzburg",
+  "name_local": "Flughafen Salzburg W. A. Mozart",
+  "icon": "tram",
+  "lat": 47.7934551,
+  "lon": 13.0018306,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "salzburg_w_a_mozart_airport_salzburg_001",
+      "intent_en": "How do I declare ski equipment",
+      "text_local": "Wie gebe ich Skiausrüstung auf?",
+      "pronunciation": "vee-EHbuh-ihkh-skEEowsrUEstuhng-OWf",
+      "formality": "standard",
+      "cultural_note": "Skiausrüstung wird an regulären Gepäckaufgabeschaltern deklariert. Zusätzliche Gebühren können anfallen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für Sondergepäck anmelden.",
+        "pronunciation": "ahm-shAHlt-fuer-zAWndgEHpehk-AHnmEHlduhn",
+        "translation_en": "Register at the special baggage counter."
+      },
+      "responses": [
+        {
+          "english": "Register at the special baggage counter.",
+          "phonetic": "ahm-shAHlt-fuer-zAWndgEHpehk-AHnmEHlduhn",
+          "french": "Am Schalter für Sondergepäck anmelden."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_w_a_mozart_airport_salzburg_002",
+      "intent_en": "Where is Terminal Two check-in",
+      "text_local": "Wo ist der Schalter für Terminal 2?",
+      "pronunciation": "vOH-ihst-dehr-shAHlt-fuer-ehntMihnuhldeh-tsvEYE",
+      "formality": "standard",
+      "cultural_note": "In Salzburg wird Terminal 2 nur saisonal genutzt; die Check-in-Schalter sind im Terminal 1 zusammengefasst.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Terminal 2 Schalter im Terminal 1.",
+        "pronunciation": "ehntMihnuhldeh-tsvEYE-shAHlt-ihm-ehntMihnuhldeh-EYEns",
+        "translation_en": "Terminal 2 counter in Terminal 1."
+      },
+      "responses": [
+        {
+          "english": "Terminal 2 counter in Terminal 1.",
+          "phonetic": "ehntMihnuhldeh-tsvEYE-shAHlt-ihm-ehntMihnuhldeh-EYEns",
+          "french": "Terminal 2 Schalter im Terminal 1."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_w_a_mozart_airport_salzburg_003",
+      "intent_en": "Where is the car rental exit",
+      "text_local": "Wo ist der Ausgang für Mietwagen?",
+      "pronunciation": "vOH-ihst-dehr-OWsAHng-fuer-mEEtvAHuhn",
+      "formality": "standard",
+      "cultural_note": "Mietwagenausgaben sind am Terminalausgang mit Schildern gekennzeichnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, am Terminalausgang.",
+        "pronunciation": "guhrAHdehOWsahm-tEHrmeenAHlowsgAHng",
+        "translation_en": "Straight ahead, at the terminal exit."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, at the terminal exit.",
+          "phonetic": "guhrAHdehOWsahm-tEHrmeenAHlowsgAHng",
+          "french": "Geradeaus, am Terminalausgang."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_w_a_mozart_airport_salzburg_004",
+      "intent_en": "Is the Cresta Run shuttle running today",
+      "text_local": "Fährt heute der Cresta-Run-Shuttle?",
+      "pronunciation": "fEHrt-hAWuhtuh-dehr-krEHstahehnrUHndehshUHtluh",
+      "formality": "standard",
+      "cultural_note": "Der Cresta-Run-Shuttle ist eine saisonale Verbindung. Aktuelle Fahrpläne am Servicepunkt prüfen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, fährt heute.",
+        "pronunciation": "yAHfEHrt-hAWuhtuh",
+        "translation_en": "Yes, it's running today."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's running today.",
+          "phonetic": "yAHfEHrt-hAWuhtuh",
+          "french": "Ja, fährt heute."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "saint_malo_porte_saint_vincent",
+  "name_en": "Porte Saint-Vincent",
+  "name_local": "Porte Saint-Vincent",
+  "icon": "building.2",
+  "lat": 48.647,
+  "lon": -1.992,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "saintmalo_porte_001",
+      "intent_en": "Ask where the main entrance to the walled city is",
+      "text_local": "Où est l'entrée principale de la ville close ?",
+      "pronunciation": "oo eh lahn-TRAY prahn-SEE-pal duh lah VEEL kloz",
+      "formality": "polite",
+      "cultural_note": "Porte Saint-Vincent is the main gate into Intra-Muros, on the southern side facing the harbor and ferry terminal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's here, the Porte Saint-Vincent. You're here.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "C'est ici, la porte Saint-Vincent. Vous y êtes."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_porte_002",
+      "intent_en": "Ask where the tourist office is",
+      "text_local": "Où est l'office de tourisme ?",
+      "pronunciation": "oo eh loh-FEES duh too-REEZM",
+      "formality": "polite",
+      "cultural_note": "The tourist office near Porte Saint-Vincent has maps, tide tables, and information on events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Just to the right after passing through the gate.",
+          "phonetic": "zhoost ah DRWAHT ahn pah-SAHN lah PORT",
+          "french": "Juste à droite en passant la porte."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_porte_003",
+      "intent_en": "Ask about the market near the gate",
+      "text_local": "Y a-t-il un marché près de cette porte ?",
+      "pronunciation": "ee ah-TEEL un mar-SHAY preh duh set port",
+      "formality": "polite",
+      "cultural_note": "There's a small market square just inside the gate with local crafts and food products, especially during summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, just inside, especially in summer.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Oui, juste à l'intérieur, surtout en été."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_porte_004",
+      "intent_en": "Ask where the ferries depart from",
+      "text_local": "Où part le ferry pour les îles anglo-normandes ?",
+      "pronunciation": "oo PAR luh feh-REE poor lay ZEEL ahn-glo-nor-MAHND",
+      "formality": "polite",
+      "cultural_note": "Ferries to the Channel Islands (Jersey, Guernsey) depart from the harbor just outside Porte Saint-Vincent. Tickets available at the terminal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the terminal just outside the gate, port side.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Du terminal juste à l'extérieur de la porte, côté port."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_porte_005",
+      "intent_en": "Ask about the city walls walk from here",
+      "text_local": "Par où commence la promenade sur les remparts ?",
+      "pronunciation": "par oo koh-MONS lah pro-meh-NAD soor lay rahn-PAR",
+      "formality": "polite",
+      "cultural_note": "You can start the wall walk right from this gate — heading left follows the eastern ramparts toward Fort National and Grand Bé.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go left to walk along the eastern ramparts.",
+          "phonetic": "",
+          "french": "Prenez à gauche pour longer les remparts est."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "gate",
+      "word_local": "la porte",
+      "pronunciation": "lah port"
+    },
+    {
+      "word_en": "statue",
+      "word_local": "la statue",
+      "pronunciation": "lah stah-TOO"
+    },
+    {
+      "word_en": "ferry",
+      "word_local": "le ferry",
+      "pronunciation": "leh feh-REE"
+    },
+    {
+      "word_en": "harbor",
+      "word_local": "le port",
+      "pronunciation": "leh POR"
+    }
+  ]
+}

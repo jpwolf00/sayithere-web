@@ -1,0 +1,122 @@
+{
+  "id": "fukuoka_tenjin_station",
+  "name_en": "Tenjin Station",
+  "name_local": "天神駅",
+  "icon": "tram",
+  "lat": 33.5893559,
+  "lon": 130.4026035,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "fukuoka_tenjin_station_001",
+      "intent_en": "When is the next train to Tenjin-Minami?",
+      "text_local": "つぎの てんじんみなみゆきは なんじですか？",
+      "pronunciation": "tsoogEEnoh-tEHdEEmmeenMeeyookEEh-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Platform numbers and minutes-until-departure are the standard quick reply.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "3ばんです。あと 4ふんです。",
+        "pronunciation": "sN-bndEHsooToh-sEE-oondEHsoo",
+        "translation_en": "Number 3. In 4 minutes."
+      },
+      "responses": [
+        {
+          "english": "Number 3. In 4 minutes.",
+          "phonetic": "sN-bndEHsooToh-sEE-oondEHsoo",
+          "french": "3ばんです。あと 4ふんです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_tenjin_station_002",
+      "intent_en": "Where do I transfer to the Nanakuma Line?",
+      "text_local": "ななくませんに のりかえは どこですか？",
+      "pronunciation": "nNkOOmsEHnnee-nOHeekEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Transfers often involve stairs or escalators; directions are given from the current spot.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいだんを おりて、ひだりです。",
+        "pronunciation": "kEEdOH-ohEEtehkhEEdeedEHsoo",
+        "translation_en": "Go down the stairs and to the left."
+      },
+      "responses": [
+        {
+          "english": "Go down the stairs and to the left.",
+          "phonetic": "kEEdOH-ohEEtehkhEEdeedEHsoo",
+          "french": "かいだんを おりて、ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_tenjin_station_003",
+      "intent_en": "Where is the passenger assistance office?",
+      "text_local": "おきゃくさま あんないしょは どこですか？",
+      "pronunciation": "OHkkoosM-NneeOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The office is typically found near the main gate area for easy access.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいさつぐちの となりです。",
+        "pronunciation": "kEEsTsoogootEEnoh-tOHneedEHsoo",
+        "translation_en": "Next to the ticket gate."
+      },
+      "responses": [
+        {
+          "english": "Next to the ticket gate.",
+          "phonetic": "kEEsTsoogootEEnoh-tOHneedEHsoo",
+          "french": "かいさつぐちの となりです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_tenjin_station_004",
+      "intent_en": "How do I use the IC card gate?",
+      "text_local": "ICカードの とおりかたを おしえてください。",
+      "pronunciation": "ehnEYE-sEEyah-k-EHndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-nOH-tOHoheektOH-OHeeEHtehkOOdsEE",
+      "formality": "standard",
+      "cultural_note": "Staff will point to the reader; 'touch' (タッチ) is the standard phrase.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "カードを ここに タッチしてください。",
+        "pronunciation": "kdOHoh-kohkOHnee-tTteeEEtehkOOdsEE",
+        "translation_en": "Please touch your card here."
+      },
+      "responses": [
+        {
+          "english": "Please touch your card here.",
+          "phonetic": "kdOHoh-kohkOHnee-tTteeEEtehkOOdsEE",
+          "french": "カードを ここに タッチしてください。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_tenjin_station_005",
+      "intent_en": "Which platform for the Airport Line?",
+      "text_local": "くうこうせんの のりばは どこですか？",
+      "pronunciation": "kOOookohoosEHnnoh-nOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often state the platform number directly and point the way.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "1ばんホームです。まっすぐ どうぞ。",
+        "pronunciation": "EEtsee-bHOHohmoodEHsoomssOOgoo-dohOOzoh",
+        "translation_en": "Platform 1. Straight ahead."
+      },
+      "responses": [
+        {
+          "english": "Platform 1. Straight ahead.",
+          "phonetic": "EEtsee-bHOHohmoodEHsoomssOOgoo-dohOOzoh",
+          "french": "1ばんホームです。まっすぐ どうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

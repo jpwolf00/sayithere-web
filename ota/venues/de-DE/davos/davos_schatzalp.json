@@ -1,0 +1,100 @@
+{
+  "id": "davos_schatzalp",
+  "name_en": "Schatzalp",
+  "name_local": "Schatzalp",
+  "icon": "map",
+  "lat": 46.8013896,
+  "lon": 9.8149673,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "davos_schatzalp_001",
+      "intent_en": "How do I buy a funicular ticket?",
+      "text_local": "Wo kaufe ich ein Ticket für die Schatzalp-Bahn?",
+      "pronunciation": "vOH-kOWfuh-ihkh-eyen-tIHkuht-fuer-dee-shAHtsahlpbAHn",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Fahrkarten für Bergbahnen oft an Automaten oder Schaltern erhältlich. Automaten akzeptieren meist Bargeld, Kreditkarte oder kontaktloses Bezahlen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder am Automaten.",
+        "pronunciation": "ahm-shAHlt-OHd-ahm-OWtohmAHtuhn",
+        "translation_en": "At the counter or machine."
+      },
+      "responses": [
+        {
+          "english": "At the counter or machine.",
+          "phonetic": "ahm-shAHlt-OHd-ahm-OWtohmAHtuhn",
+          "french": "Am Schalter oder am Automaten."
+        }
+      ]
+    },
+    {
+      "id": "davos_schatzalp_002",
+      "intent_en": "Where is the funicular boarding point?",
+      "text_local": "Wo geht die Schatzalp-Bahn ab?",
+      "pronunciation": "vOH-EHt-dee-shAHtsahlpbAHn-AHp",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Seilbahnen und Standseilbahnen oft an Bahnhöfen oder markanten Punkten angebunden. Die untere Station ist der übliche Ausgangspunkt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am unteren Bahnhof.",
+        "pronunciation": "ahm-UHntuhruhn-bAHnhohf",
+        "translation_en": "At the lower station."
+      },
+      "responses": [
+        {
+          "english": "At the lower station.",
+          "phonetic": "ahm-UHntuhruhn-bAHnhohf",
+          "french": "Am unteren Bahnhof."
+        }
+      ]
+    },
+    {
+      "id": "davos_schatzalp_003",
+      "intent_en": "Can I eat at the hotel without staying?",
+      "text_local": "Darf man im Berghotel Schatzalp essen, ohne zu übernachten?",
+      "pronunciation": "dAHrf-mahn-ihm-bEHrkhohtuhl-shAHtsahlp-EHsuhnOHnuh-tsoo-UEbnAHkhtuhn",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Berghotels oft öffentlich zugängliche Restaurants, die auch Tagesgästen offenstehen. Reservierungen werden empfohlen, besonders in der Hochsaison.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Gäste sind willkommen.",
+        "pronunciation": "yAHEHstuh-zihnt-vihlkAWmuhn",
+        "translation_en": "Yes, guests are welcome."
+      },
+      "responses": [
+        {
+          "english": "Yes, guests are welcome.",
+          "phonetic": "yAHEHstuh-zihnt-vihlkAWmuhn",
+          "french": "Ja, Gäste sind willkommen."
+        }
+      ]
+    },
+    {
+      "id": "davos_schatzalp_004",
+      "intent_en": "Where does the Strela Pass path start?",
+      "text_local": "Wo beginnt der Strela-Pass-Weg?",
+      "pronunciation": "vOH-buhIHnt-dehr-shtrEHlahpAHsvAHndvEHk",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Wanderwege standardmäßig mit gelben Wegweisern und Tafeln gekennzeichnet. Der Strela Pass ist ein bekannter Bergübergang mit markiertem Startpunkt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter dem Hotel, links.",
+        "pronunciation": "hIHnt-dehm-hOHtuhllINGks",
+        "translation_en": "Behind the hotel, on the left."
+      },
+      "responses": [
+        {
+          "english": "Behind the hotel, on the left.",
+          "phonetic": "hIHnt-dehm-hOHtuhllINGks",
+          "french": "Hinter dem Hotel, links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

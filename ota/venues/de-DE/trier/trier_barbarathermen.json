@@ -1,0 +1,100 @@
+{
+  "id": "trier_barbarathermen",
+  "name_en": "Barbarathermen",
+  "name_local": "Barbarathermen",
+  "icon": "building.columns",
+  "lat": 49.750125,
+  "lon": 6.6302793,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "trier_barbarathermen_001",
+      "intent_en": "Does the UNICOM pass cover this?",
+      "text_local": "Gilt der UNICOM-Pass hier?",
+      "pronunciation": "IHlt-dehr-OOneekOHmpAHs-hEEr",
+      "formality": "casual",
+      "cultural_note": "UNICOM-Pass ist ein bekanntes Touristen-Ticket für Trierer Römerstätten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, für alle römischen Stätten.",
+        "pronunciation": "yAHfuer-AHluh-rUHmihshuhn-shtEHtuhn",
+        "translation_en": "Yes, for all Roman sites."
+      },
+      "responses": [
+        {
+          "english": "Yes, for all Roman sites.",
+          "phonetic": "yAHfuer-AHluh-rUHmihshuhn-shtEHtuhn",
+          "french": "Ja, für alle römischen Stätten."
+        }
+      ]
+    },
+    {
+      "id": "trier_barbarathermen_002",
+      "intent_en": "Can I buy a combined ticket?",
+      "text_local": "Kann man ein Kombi-Ticket kaufen?",
+      "pronunciation": "kAHn-mahn-eyen-kAWmbeetIHkuht-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Direkte Antwort auf Ticketangebote an der Kasse erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Kasse.",
+        "pronunciation": "yAHahn-dehr-kAHsuh",
+        "translation_en": "Yes, at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket counter.",
+          "phonetic": "yAHahn-dehr-kAHsuh",
+          "french": "Ja, an der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "trier_barbarathermen_003",
+      "intent_en": "Where do I rent an audio guide?",
+      "text_local": "Wo kann man einen Audioguide mieten?",
+      "pronunciation": "vOH-kAHn-mahn-EYEnuhn-ehnAWdihUHuheyeddeh-mEEtuhn",
+      "formality": "standard",
+      "cultural_note": "Audioguide-Rental ist ein klarer Servicepunkt, der an der Kasse oder Rezeption erwartet wird.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter am Eingang.",
+        "pronunciation": "ahm-shAHlt-ahm-EYEngAHng",
+        "translation_en": "At the counter at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the counter at the entrance.",
+          "phonetic": "ahm-shAHlt-ahm-EYEngAHng",
+          "french": "Am Schalter am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "trier_barbarathermen_004",
+      "intent_en": "Which path is permitted here?",
+      "text_local": "Welcher Weg ist hier erlaubt?",
+      "pronunciation": "vEHlkh-vEHk-ihst-hEEr-ehrlOWpt",
+      "formality": "casual",
+      "cultural_note": "Sicherheitshinweis zur Bewahrung der Ruinenstruktur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bleiben Sie auf den markierten Pfaden.",
+        "pronunciation": "blEYEbuhn-zee-owf-dehn-mahrkEErtuhn-pfAHduhn",
+        "translation_en": "Stay on the marked paths."
+      },
+      "responses": [
+        {
+          "english": "Stay on the marked paths.",
+          "phonetic": "blEYEbuhn-zee-owf-dehn-mahrkEErtuhn-pfAHduhn",
+          "french": "Bleiben Sie auf den markierten Pfaden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

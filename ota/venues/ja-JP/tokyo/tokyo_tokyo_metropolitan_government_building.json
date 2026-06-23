@@ -1,0 +1,122 @@
+{
+  "id": "tokyo_tokyo_metropolitan_government_building",
+  "name_en": "Tokyo Metropolitan Government Building",
+  "name_local": "東京都庁舎",
+  "icon": "info.circle",
+  "lat": 35.6894957,
+  "lon": 139.6917094,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "tokyo_tokyo_metropolitan_government_building_001",
+      "intent_en": "Ask if admission tickets are required",
+      "text_local": "にゅうじょうけんは いりますか？",
+      "pronunciation": "nOOoodOHookehH-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "The decks are famously free. Staff will simply wave you through.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、むりょうです。そのまま おはいりください。",
+        "pronunciation": "EEehmOOOHoodEHsoosOHnohmM-OHhEEeekOOdsEE",
+        "translation_en": "No, it's free. Please go right in."
+      },
+      "responses": [
+        {
+          "english": "No, it's free. Please go right in.",
+          "phonetic": "EEehmOOOHoodEHsoosOHnohmM-OHhEEeekOOdsEE",
+          "french": "いいえ、むりょうです。そのまま おはいりください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_metropolitan_government_building_002",
+      "intent_en": "Ask if security screening is required",
+      "text_local": "てにもつチェックは ありますか？",
+      "pronunciation": "tEHneemOHtsootehkkOOh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Security is a simple bag check. The phrase is a polite but direct instruction.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ここで かばんの なかを みせてください。",
+        "pronunciation": "hEEkohkOHdeh-kbNnoh-nkOH-mEEsehtEHkoodsEE",
+        "translation_en": "Yes, please show us inside your bag here."
+      },
+      "responses": [
+        {
+          "english": "Yes, please show us inside your bag here.",
+          "phonetic": "hEEkohkOHdeh-kbNnoh-nkOH-mEEsehtEHkoodsEE",
+          "french": "はい、ここで かばんの なかを みせてください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_metropolitan_government_building_003",
+      "intent_en": "Ask if coin lockers are available",
+      "text_local": "コインロッカーは ありますか？",
+      "pronunciation": "kOHeenohkkH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Lockers are usually near the deck entrance. 100-yen coins are often required and returned.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、てんぼうしつの となりに あります。",
+        "pronunciation": "hEEtEHbOHooeetsOOnoh-tOHnEEnee-EEmSoo",
+        "translation_en": "Yes, they are next to the observation deck."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are next to the observation deck.",
+          "phonetic": "hEEtEHbOHooeetsOOnoh-tOHnEEnee-EEmSoo",
+          "french": "はい、てんぼうしつの となりに あります。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_metropolitan_government_building_004",
+      "intent_en": "Ask where the South Observation Deck entrance is",
+      "text_local": "みなみてんぼうしつの いりぐちは どこですか？",
+      "pronunciation": "mEEnmEEtehBohOOeetsOOnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often use cardinal directions (south/north) but may also gesture. 'Back' means away from the main street entrance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "1かいの おく、ひだりがわです。",
+        "pronunciation": "EEtsee-kEEnoh-OHkookhEEdEEgwdEHsoo",
+        "translation_en": "At the back on the 1st floor, left side."
+      },
+      "responses": [
+        {
+          "english": "At the back on the 1st floor, left side.",
+          "phonetic": "EEtsee-kEEnoh-OHkookhEEdEEgwdEHsoo",
+          "french": "1かいの おく、ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_metropolitan_government_building_005",
+      "intent_en": "Ask how long the wait is",
+      "text_local": "まちじかんは どのくらいですか？",
+      "pronunciation": "mTeedEEkH-dOHnohkOOEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Wait times vary. Staff give a rough estimate. 'Gurai' (about) softens the statement.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いまは 15ふんぐらいです。",
+        "pronunciation": "eemH-dzOOgoh-OOnggooEEdEHsoo",
+        "translation_en": "Right now it's about 15 minutes."
+      },
+      "responses": [
+        {
+          "english": "Right now it's about 15 minutes.",
+          "phonetic": "eemH-dzOOgoh-OOnggooEEdEHsoo",
+          "french": "いまは 15ふんぐらいです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

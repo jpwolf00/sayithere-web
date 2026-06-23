@@ -1,0 +1,122 @@
+{
+  "id": "basel_markthalle_basel",
+  "name_en": "Markthalle Basel",
+  "name_local": "Markthalle Basel",
+  "icon": "fork.knife",
+  "lat": 47.5492683,
+  "lon": 7.5871811,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "basel_markthalle_basel_001",
+      "intent_en": "Where is the Basel SBB entrance?",
+      "text_local": "Wo ist der Eingang zum Basel SBB?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-bAHzuhl-EHsbEHbEH",
+      "formality": "standard",
+      "cultural_note": "The Basel SBB station is a major transport hub adjacent to the venue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Eingang ist auf der anderen Seite der Halle.",
+        "pronunciation": "dehr-EYEngAHng-ihst-owf-dehr-AHnduhruhn-zEYEtuh-dehr-hAHluh",
+        "translation_en": "The entrance is on the other side of the hall."
+      },
+      "responses": [
+        {
+          "english": "The entrance is on the other side of the hall.",
+          "phonetic": "dehr-EYEngAHng-ihst-owf-dehr-AHnduhruhn-zEYEtuh-dehr-hAHluh",
+          "french": "Der Eingang ist auf der anderen Seite der Halle."
+        }
+      ]
+    },
+    {
+      "id": "basel_markthalle_basel_002",
+      "intent_en": "Do I clear my own table?",
+      "text_local": "Muss ich selbst abräumen?",
+      "pronunciation": "mUHs-ihkh-zEHlpst-AHprAWuhmuhn",
+      "formality": "standard",
+      "cultural_note": "Self-clearing tables are common in casual food markets in Switzerland.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, räumen Sie selbst ab.",
+        "pronunciation": "yAHrAWuhmuhn-zee-zEHlpst-AHp",
+        "translation_en": "Yes, clear your table yourself."
+      },
+      "responses": [
+        {
+          "english": "Yes, clear your table yourself.",
+          "phonetic": "yAHrAWuhmuhn-zee-zEHlpst-AHp",
+          "french": "Ja, räumen Sie selbst ab."
+        }
+      ]
+    },
+    {
+      "id": "basel_markthalle_basel_003",
+      "intent_en": "Is the event hall open for concerts tonight?",
+      "text_local": "Ist die Eventhalle heute Abend für Konzerte geöffnet?",
+      "pronunciation": "ihst-dee-hAHluh-hAWuhtuh-AHbuhnt-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Event availability may vary; staff at the counter can provide up-to-date information.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ab 20 Uhr.",
+        "pronunciation": "yAHahp-tsvAHntsihkh-OOr",
+        "translation_en": "Yes, from 8 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, from 8 PM.",
+          "phonetic": "yAHahp-tsvAHntsihkh-OOr",
+          "french": "Ja, ab 20 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "basel_markthalle_basel_004",
+      "intent_en": "Where is the queue for popular stalls?",
+      "text_local": "Wo ist die Warteschlange für beliebte Stände?",
+      "pronunciation": "vOH-ihst-dee-vAHrtehshlAHnguh-fuer-buhlEEptuh-shtEHnduh",
+      "formality": "standard",
+      "cultural_note": "Queues at popular food stalls are typically visible near the entrance or central areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor den Ständen.",
+        "pronunciation": "fAWr-dehn-shtEHnduhn",
+        "translation_en": "In front of the stalls."
+      },
+      "responses": [
+        {
+          "english": "In front of the stalls.",
+          "phonetic": "fAWr-dehn-shtEHnduhn",
+          "french": "Vor den Ständen."
+        }
+      ]
+    },
+    {
+      "id": "basel_markthalle_basel_005",
+      "intent_en": "Which stalls accept card payments?",
+      "text_local": "Wo kann ich mit Karte zahlen?",
+      "pronunciation": "vOH-kAHn-ihkh-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Switzerland, cashless payments are widely accepted, but some smaller vendors may prefer cash.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei den meisten Ständen.",
+        "pronunciation": "beye-dehn-mEYEstuhn-shtEHnduhn",
+        "translation_en": "At most stalls."
+      },
+      "responses": [
+        {
+          "english": "At most stalls.",
+          "phonetic": "beye-dehn-mEYEstuhn-shtEHnduhn",
+          "french": "Bei den meisten Ständen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,188 @@
+{
+  "id": "meteora_kalabaka_monastery_of_varlaam",
+  "name_en": "Monastery of Varlaam",
+  "name_local": "Μονή Βαρλαάμ",
+  "icon": "building.columns",
+  "lat": 39.7250743,
+  "lon": 21.6298013,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_monastery_of_varlaam_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να μπω στην τραπεζαρία;",
+      "pronunciation": "bohrOH-nah-bOH-steen-drAHpehzahrEEah",
+      "formality": "standard",
+      "cultural_note": "Η τραπεζαρία συχνά έχει περιορισμένη πρόσβαση στους επισκέπτες. Συνιστάται να ρωτήσετε τον υπάλληλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, μόνο η εκκλησία και το μουσείο.",
+        "pronunciation": "OHkheemOHnoh-ee-EHkleesEEah-keh-toh-moosEEoh",
+        "translation_en": "No, the refectory is not open to visitors."
+      },
+      "responses": [
+        {
+          "english": "No, the refectory is not open to visitors.",
+          "phonetic": "OHkheemOHnoh-ee-EHkleesEEah-keh-toh-moosEEoh",
+          "french": "Όχι, μόνο η εκκλησία και το μουσείο."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_monastery_of_varlaam_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να ανέβω στον πύργο των καμπανών;",
+      "pronunciation": "bohrOH-n-ahnEHvoh-stohm-bEErghoh-tohng-gAHbahnOHn",
+      "formality": "standard",
+      "cultural_note": "Οι πύργοι των μονών συχνά δεν είναι προσβάσιμοι στο κοινό χωρίς ειδική άδεια.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, μόνο η αυλή είναι ανοιχτή.",
+        "pronunciation": "OHkheemOHnoh-ee-ahvlEE-EEneh-AHneekhtEE",
+        "translation_en": "No, it is not open to visitors."
+      },
+      "responses": [
+        {
+          "english": "No, it is not open to visitors.",
+          "phonetic": "OHkheemOHnoh-ee-ahvlEE-EEneh-AHneekhtEE",
+          "french": "Όχι, μόνο η αυλή είναι ανοιχτή."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_monastery_of_varlaam_003",
+      "intent_en": "How do I reach the rock precipice viewpoint?",
+      "text_local": "Πώς πάω στο σημείο θέας του βράχου;",
+      "pronunciation": "pOHs-pAHoh-stoh-seemEEoh-thEHahs-too-vrAHkhoo",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν σημάδια ή οδηγίες για σημεία θέας στις μονές των Μετεώρων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την αυλή, δεξιά.",
+        "pronunciation": "ahpOH-teen-ahvlEEthEHkseeAH",
+        "translation_en": "From the courtyard, to the right."
+      },
+      "responses": [
+        {
+          "english": "From the courtyard, to the right.",
+          "phonetic": "ahpOH-teen-ahvlEEthEHkseeAH",
+          "french": "Από την αυλή, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_monastery_of_varlaam_004",
+      "intent_en": "How to buy photo permit inside church?",
+      "text_local": "Πώς αγοράζω άδεια φωτογράφησης μέσα στο ναό;",
+      "pronunciation": "pOHs-AHghohrAHzoh-AHthkhah-fOHtohghrAHfeesEEz-mEHsah-stoh-nahOH",
+      "formality": "standard",
+      "cultural_note": "Στις μονές των Μετεώρων, η φωτογράφιση στους ναούς υπόκειται σε ειδικούς κανόνες και αμοιβές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον υπάλληλο στον ναό.",
+        "pronunciation": "stohn-eepAHleelOH-stohn-nahOH",
+        "translation_en": "At the ticket collector in the church."
+      },
+      "responses": [
+        {
+          "english": "At the ticket collector in the church.",
+          "phonetic": "stohn-eepAHleelOH-stohn-nahOH",
+          "french": "Στον υπάλληλο στον ναό."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_monastery_of_varlaam_005",
+      "intent_en": "Where is the rock viewpoint?",
+      "text_local": "Πού είναι η θέα στον βράχο;",
+      "pronunciation": "pOO-EEneh-toh-seemEEoh-thEHahs-stohn-vrAHkhoh",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν τον βράχο για θέα στα Μετέωρα. Η λέξη 'βράχος' αναφέρεται στο σημείο θέας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Προς την άκρη του βράχου.",
+        "pronunciation": "prOHs-teen-AHkree-too-vrAHkhoo",
+        "translation_en": "Towards the edge of the rock."
+      },
+      "responses": [
+        {
+          "english": "Towards the edge of the rock.",
+          "phonetic": "prOHs-teen-AHkree-too-vrAHkhoo",
+          "french": "Προς την άκρη του βράχου."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_monastery_of_varlaam_006",
+      "intent_en": "Where pay parking fee at valley base?",
+      "text_local": "Πού πληρώνω το parking στο βάθος της κοιλάδας;",
+      "pronunciation": "pOO-pleerOHnoh-toh-ehnpAHkingehl-stoh-vAHthohs-tees-eelAHthahs",
+      "formality": "standard",
+      "cultural_note": "Τα parking στις Μετέωρες συχνά έχουν ξεχωριστό σημείο εισπράξεων πριν την ανάβαση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο σημείο εισπράξεων στο βάθος.",
+        "pronunciation": "stoh-seemEEoh-eesprAHksehOHn-stoh-vAHthohs",
+        "translation_en": "At the payment booth at valley base."
+      },
+      "responses": [
+        {
+          "english": "At the payment booth at valley base.",
+          "phonetic": "stoh-seemEEoh-eesprAHksehOHn-stoh-vAHthohs",
+          "french": "Στο σημείο εισπράξεων στο βάθος."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_monastery_of_varlaam_007",
+      "intent_en": "Where do I park before climbing?",
+      "text_local": "Πού μπορώ να παρκάρω πριν ανέβω;",
+      "pronunciation": "pOO-bohrOH-nah-pahrkAHroh-prEEn-ahnEHvoh",
+      "formality": "polite",
+      "cultural_note": "Η περιοχή είναι γνωστή για την τοποθεσία του πυθμένα της κοιλάδας ως σημείο στάθμευσης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πυθμένα της κοιλάδας.",
+        "pronunciation": "stohm-beethmEHnah-tees-eelAHthahs",
+        "translation_en": "At the valley base parking."
+      },
+      "responses": [
+        {
+          "english": "At the valley base parking.",
+          "phonetic": "stohm-beethmEHnah-tees-eelAHthahs",
+          "french": "Στον πυθμένα της κοιλάδας."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_monastery_of_varlaam_008",
+      "intent_en": "Is dress rental still available at gate?",
+      "text_local": "Υπάρχει ακόμη ενοικίαση ρούχων στην είσοδο;",
+      "pronunciation": "eepAHrkhee-ahkOHmee-EHneeEEahsEE-rOOkhohn-steen-EEsohthOH",
+      "formality": "standard",
+      "cultural_note": "Η ευγένεια και η διακριτικότητα των μοναχών είναι χαρακτηριστικά στις μονές των Μετεώρων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο εκδοτήριο εισιτηρίων.",
+        "pronunciation": "nEHstoh-EHkthohtEEreeOH-EEseeteerEEohn",
+        "translation_en": "Yes, it is available."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is available.",
+          "phonetic": "nEHstoh-EHkthohtEEreeOH-EEseeteerEEohn",
+          "french": "Ναι, στο εκδοτήριο εισιτηρίων."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "trier_hauptmarkt_square",
+  "name_en": "Hauptmarkt Square",
+  "name_local": "Hauptmarkt",
+  "icon": "map",
+  "lat": 49.7568952,
+  "lon": 6.6413905,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "trier_hauptmarkt_square_001",
+      "intent_en": "Do market stalls take cash only?",
+      "text_local": "Nehmen Marktstände nur Bargeld?",
+      "pronunciation": "nEHmuhn-mAHrktshtehnduh-nOOr-bAHrehlt",
+      "formality": "standard",
+      "cultural_note": "German market vendors often prefer cash for small purchases, especially at traditional or seasonal markets like the Christkindlesmarkt.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ja, meistens.",
+        "pronunciation": "yAHmEYEstuhns",
+        "translation_en": "Yes, mostly."
+      },
+      "responses": [
+        {
+          "english": "Yes, mostly.",
+          "phonetic": "yAHmEYEstuhns",
+          "french": "Ja, meistens."
+        }
+      ]
+    },
+    {
+      "id": "trier_hauptmarkt_square_002",
+      "intent_en": "Where is the Rathaus ticket office?",
+      "text_local": "Wo finde ich den Ticketschalter im Rathaus?",
+      "pronunciation": "vOH-ihst-dehr-shAHlt-ihm-rAHtows",
+      "formality": "standard",
+      "cultural_note": "In German town halls, ticket services are typically located at a dedicated counter rather than a separate office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss, rechts vom Eingang.",
+        "pronunciation": "ihm-ehrdgEHshawsrEHkhts-fawm-EYEngAHng",
+        "translation_en": "On the ground floor, to the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, to the right of the entrance.",
+          "phonetic": "ihm-ehrdgEHshawsrEHkhts-fawm-EYEngAHng",
+          "french": "Im Erdgeschoss, rechts vom Eingang."
+        }
+      ]
+    },
+    {
+      "id": "trier_hauptmarkt_square_003",
+      "intent_en": "Is the Christkindlesmarkt open now?",
+      "text_local": "Hat der Christkindlesmarkt jetzt auf?",
+      "pronunciation": "haht-dehr-krIHstkihndlEHsmahrkt-yEHtst-OWf",
+      "formality": "standard",
+      "cultural_note": "The Christkindlesmarkt in Trier is a seasonal Christmas market, typically open from late November to December 23.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, jetzt geöffnet.",
+        "pronunciation": "yAHyEHtst-uhUHfnuht",
+        "translation_en": "Yes, open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, open now.",
+          "phonetic": "yAHyEHtst-uhUHfnuht",
+          "french": "Ja, jetzt geöffnet."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

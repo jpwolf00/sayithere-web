@@ -1,0 +1,78 @@
+{
+  "id": "ankara_seğmenler_park",
+  "name_en": "Seğmenler Park",
+  "name_local": "Seğmenler Parkı",
+  "icon": "leaf",
+  "lat": 39.8960173,
+  "lon": 32.8627792,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "ankara_seğmenler_park_001",
+      "intent_en": "Where can I park my car?",
+      "text_local": "Arabamı nereye park edebilirim?",
+      "pronunciation": "ahrahbahmOO-nEHrehyeh-pAHrk-ehdehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Park çevresinde otopark ücreti belediyeye ait olabilir, eğimli yan sokaklara park edildiği bilgisi teyit edilmemiştir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmaya sorun, belediye otoparkı veya yan sokaklar var.",
+        "pronunciation": "dahnOOshmahyah-sohrUHnbehlehdeeyEH-ohtohpahrkOO-vehyAH-yAHn-sohkahkAHr-vAHr",
+        "translation_en": "Ask at information, there's municipal parking or side streets."
+      },
+      "responses": [
+        {
+          "english": "Ask at information, there's municipal parking or side streets.",
+          "phonetic": "dahnOOshmahyah-sohrUHnbehlehdeeyEH-ohtohpahrkOO-vehyAH-yAHn-sohkahkAHr-vAHr",
+          "french": "Danışmaya sorun, belediye otoparkı veya yan sokaklar var."
+        }
+      ]
+    },
+    {
+      "id": "ankara_seğmenler_park_002",
+      "intent_en": "Where is the park cafe?",
+      "text_local": "Park kafesi nerede?",
+      "pronunciation": "pAHrk-kahfehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Türk parklarında kafe ve çay bahçesi genellikle merkezi bir konumda olur, ancak bu parktaki tam yeri teyit edilmemiştir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Havuzun yanında.",
+        "pronunciation": "hAHvoozuhn-yahnoondAH",
+        "translation_en": "Next to the pool."
+      },
+      "responses": [
+        {
+          "english": "Next to the pool.",
+          "phonetic": "hAHvoozuhn-yahnoondAH",
+          "french": "Havuzun yanında."
+        }
+      ]
+    },
+    {
+      "id": "ankara_seğmenler_park_003",
+      "intent_en": "Where is the children's playground?",
+      "text_local": "Çocuk oyun alanı nerede?",
+      "pronunciation": "tshohdzhUHk-ohyUHn-ahahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Seğmenler Parkı'nda çocuk oyun alanı bulunduğu teyit edilmemiş olup, genellikle bu tür parklarda bir tane olur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana girişin sağında, biraz ileride.",
+        "pronunciation": "ahnAH-eereeshIHn-sahoondAHbeerAHz-eelehreedEH",
+        "translation_en": "On the right of the main entrance, a bit further ahead."
+      },
+      "responses": [
+        {
+          "english": "On the right of the main entrance, a bit further ahead.",
+          "phonetic": "ahnAH-eereeshIHn-sahoondAHbeerAHz-eelehreedEH",
+          "french": "Ana girişin sağında, biraz ileride."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

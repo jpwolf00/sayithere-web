@@ -1,0 +1,78 @@
+{
+  "id": "rhodes_faliraki_beach_and_nightlife_zone",
+  "name_en": "Faliraki beach and nightlife zone",
+  "name_local": "Φαληράκι",
+  "icon": "map",
+  "lat": 36.3556561,
+  "lon": 28.2114967,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "rhodes_faliraki_beach_and_nightlife_zone_001",
+      "intent_en": "Where is the water park ticket booth?",
+      "text_local": "Πού είναι το ταμείο του νεροτσουλισιού;",
+      "pronunciation": "pOO-EEneh-toh-tahmEEoh-too-nEHrohtsOOleesyOO",
+      "formality": "standard",
+      "cultural_note": "Νεροτσουλίσιο refers to the Faliraki Water Park as a stable target. Visitors expect ticket booths to be at the entrance by default.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην κύρια είσοδο, αριστερά.",
+        "pronunciation": "thEEplah-steeng-gEEreeAH-EEsohthOHAHreestehrAH",
+        "translation_en": "Follow the signs to Faliraki Water Park."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to Faliraki Water Park.",
+          "phonetic": "thEEplah-steeng-gEEreeAH-EEsohthOHAHreestehrAH",
+          "french": "Δίπλα στην κύρια είσοδο, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_faliraki_beach_and_nightlife_zone_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχουν προσφορές για shots απόψε;",
+      "pronunciation": "EHkhoon-ehnpruhmUHuhshuhnzehl-yAH-ehnshTsehl-ahpOHpseh",
+      "formality": "standard",
+      "cultural_note": "Bar promoters (προωθητές) actively advertise shot promotions on Bar Street (Οδός Μουσών). Promotions may vary by night and bar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο Bar Street και στο Banana Bar.",
+        "pronunciation": "nEHstoh-ehnbAH-strEEtehl-keh-stoh-ehnbuhnAHnuh-bAHehl",
+        "translation_en": "Yes, many bars have promotions tonight."
+      },
+      "responses": [
+        {
+          "english": "Yes, many bars have promotions tonight.",
+          "phonetic": "nEHstoh-ehnbAH-strEEtehl-keh-stoh-ehnbuhnAHnuh-bAHehl",
+          "french": "Ναι, στο Bar Street και στο Banana Bar."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_faliraki_beach_and_nightlife_zone_003",
+      "intent_en": "Do I fix taxi fare before riding?",
+      "text_local": "Πρέπει να συμφωνώ τιμή ταξί πριν την βόλτα;",
+      "pronunciation": "prEHpee-nah-sEEmfohnOH-teemEE-tahksEE-prEEn-deen-vOHltah",
+      "formality": "standard",
+      "cultural_note": "Τaxi drivers in Rhodes typically negotiate fixed fares upfront, especially for longer distances like to Anthony Quinn Bay or Tsambika viewpoints.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συμφωνήστε πριν.",
+        "pronunciation": "nEHsEEmfohnEEsteh-prEEn",
+        "translation_en": "Yes, agree before."
+      },
+      "responses": [
+        {
+          "english": "Yes, agree before.",
+          "phonetic": "nEHsEEmfohnEEsteh-prEEn",
+          "french": "Ναι, συμφωνήστε πριν."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

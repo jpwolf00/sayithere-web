@@ -1,0 +1,98 @@
+{
+  "id": "reims_taittinger",
+  "name_en": "Champagne Taittinger",
+  "name_local": "Maison Taittinger",
+  "icon": "wineglass",
+  "phrases": [
+    {
+      "id": "taittinger_visite",
+      "intent_en": "Do you have an English tour today?",
+      "text_local": "Vous avez une visite en anglais aujourd'hui ?",
+      "pronunciation": "voo zah-VAY oon vee-ZEET on on-GLAY oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Cellar tours are often timed and can sell out; booking ahead is safest.",
+      "responses": [
+        {
+          "english": "Yes, at two o'clock.",
+          "phonetic": "wee ah kah-TORZ UR",
+          "french": "Oui, à quatorze heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "taittinger_degus",
+      "intent_en": "Is tasting included in this visit?",
+      "text_local": "La dégustation est incluse dans cette visite ?",
+      "pronunciation": "lah day-goos-tah-SYON an-KLOOZ dahn set vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "Most house tours include tasting tiers; check how many cuvées are included.",
+      "responses": [
+        {
+          "english": "Yes, one glass is included.",
+          "phonetic": "wee oon KOOP eh tahn-KLOOZ",
+          "french": "Oui, une coupe est incluse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "taittinger_temp",
+      "intent_en": "Is the cellar much colder than outside?",
+      "text_local": "Les caves sont beaucoup plus fraîches que dehors ?",
+      "pronunciation": "lay kav son boh-KOO ploo fresh kuh duh-OR",
+      "formality": "polite",
+      "cultural_note": "Champagne cellars are cool year-round; bringing a light layer is smart.",
+      "responses": [
+        {
+          "english": "Yes, bring a jacket.",
+          "phonetic": "wee pruh-NAY oon VEST",
+          "french": "Oui, prenez une veste."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "taittinger_bottle",
+      "intent_en": "Can I buy a bottle to take with me?",
+      "text_local": "Je peux acheter une bouteille à emporter ?",
+      "pronunciation": "zhuh puh zah-shuh-TAY oon boo-TAY ah on-por-TAY",
+      "formality": "polite",
+      "cultural_note": "Some houses have boutique limits on rare labels during busy periods.",
+      "responses": [
+        {
+          "english": "Yes, at the shop on the way out.",
+          "phonetic": "wee ah lah boo-TEEK ahn sor-TAHN",
+          "french": "Oui, à la boutique en sortant."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cellar",
+      "word_local": "la cave",
+      "pronunciation": "lah kav"
+    },
+    {
+      "word_en": "tasting",
+      "word_local": "la dégustation",
+      "pronunciation": "lah day-goos-tah-SYON"
+    },
+    {
+      "word_en": "vintage",
+      "word_local": "le millésime",
+      "pronunciation": "luh mee-lay-ZEEM"
+    },
+    {
+      "word_en": "bottle",
+      "word_local": "la bouteille",
+      "pronunciation": "lah boo-TAY"
+    }
+  ]
+}

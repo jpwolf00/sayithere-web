@@ -1,0 +1,100 @@
+{
+  "id": "linz_johann_kienzl_apotheke",
+  "name_en": "Johann-Kienzl-Apotheke",
+  "name_local": "Johann-Kienzl-Apotheke",
+  "icon": "info.circle",
+  "lat": 48.3059078,
+  "lon": 14.286198,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "linz_johann_kienzl_apotheke_001",
+      "intent_en": "Where is the homeopathy section",
+      "text_local": "Wo ist die Homöopathie-Abteilung?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-hOHmuhOHpahtEEbuhrEYEkh",
+      "formality": "casual",
+      "cultural_note": "Verweis auf allgemeine Beschilderung des Ziels.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links hinten im Regal.",
+        "pronunciation": "lINGks-hIHntuhn-ihm-rehgAHl",
+        "translation_en": "Left back in the shelf."
+      },
+      "responses": [
+        {
+          "english": "Left back in the shelf.",
+          "phonetic": "lINGks-hIHntuhn-ihm-rehgAHl",
+          "french": "Links hinten im Regal."
+        }
+      ]
+    },
+    {
+      "id": "linz_johann_kienzl_apotheke_002",
+      "intent_en": "Do I take a queue number",
+      "text_local": "Brauche ich eine Wartenummer?",
+      "pronunciation": "brOWkhuh-ihkh-EYEnuh-vAHrtuhnUHm",
+      "formality": "standard",
+      "cultural_note": "Aufforderung zur Selbstbedienung am Wartenummernsystem.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ziehen Sie am Automaten.",
+        "pronunciation": "yAHtsEEuhn-zee-ahm-OWtohmAHtuhn",
+        "translation_en": "Yes, pull at the machine."
+      },
+      "responses": [
+        {
+          "english": "Yes, pull at the machine.",
+          "phonetic": "yAHtsEEuhn-zee-ahm-OWtohmAHtuhn",
+          "french": "Ja, ziehen Sie am Automaten."
+        }
+      ]
+    },
+    {
+      "id": "linz_johann_kienzl_apotheke_003",
+      "intent_en": "Where do I drop off my prescription",
+      "text_local": "Wo gebe ich mein Rezept ab?",
+      "pronunciation": "vOH-EHbuh-ihkh-meyen-rehtsEHpt-AHp",
+      "formality": "standard",
+      "cultural_note": "Direkte Angabe des Schalterbereichs ohne Mikro-Navigation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Rezeptschalter.",
+        "pronunciation": "ahm-rEHtsehptshAHlt",
+        "translation_en": "At the prescription counter."
+      },
+      "responses": [
+        {
+          "english": "At the prescription counter.",
+          "phonetic": "ahm-rEHtsehptshAHlt",
+          "french": "Am Rezeptschalter."
+        }
+      ]
+    },
+    {
+      "id": "linz_johann_kienzl_apotheke_004",
+      "intent_en": "Must I show insurance card first",
+      "text_local": "Muss ich zuerst die Versicherungskarte zeigen?",
+      "pronunciation": "mUHs-ihkh-tsooEHrst-dee-fehrzIHkhehrUHngskahrtuh-tsEYEuhn",
+      "formality": "standard",
+      "cultural_note": "Klare Handlungsaufforderung mit Servicestelle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Kassenbereich.",
+        "pronunciation": "yAHahm-kAHsuhnbuhrEYEkh",
+        "translation_en": "Yes, at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cashier.",
+          "phonetic": "yAHahm-kAHsuhnbuhrEYEkh",
+          "french": "Ja, am Kassenbereich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

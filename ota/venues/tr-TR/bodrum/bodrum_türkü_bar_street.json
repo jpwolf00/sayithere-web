@@ -1,0 +1,78 @@
+{
+  "id": "bodrum_türkü_bar_street",
+  "name_en": "Türkü Bar Street",
+  "name_local": "Barlar Sokağı",
+  "icon": "map",
+  "lat": 37.033692,
+  "lon": 27.4333496,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "bodrum_türkü_bar_street_001",
+      "intent_en": "Where is the marina walk from here?",
+      "text_local": "Marina yürüyüş yolu buradan nerede?",
+      "pronunciation": "mahreenAH-yuerueyUHsh-yohUH-bOOrahdahn-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "In open neighborhoods, directions are often given relative to known landmarks or staff guidance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sahil boyunca sola dönün.",
+        "pronunciation": "sahhIHl-bohyuhndzhAH-sOHah-duhnUHn",
+        "translation_en": "Turn left along the coast."
+      },
+      "responses": [
+        {
+          "english": "Turn left along the coast.",
+          "phonetic": "sahhIHl-bohyuhndzhAH-sOHah-duhnUHn",
+          "french": "Sahil boyunca sola dönün."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_türkü_bar_street_002",
+      "intent_en": "How do I reserve a table with deposit?",
+      "text_local": "Depozitolu masa rezervasyonu nasıl yapabilirim?",
+      "pronunciation": "dehpohzeetohUH-mAHsah-rehzehrvahsyohnUH-nahsOO-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Table reservation policies vary widely; the host manages these arrangements.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bar girişinde karşılamacıya depozito için sorun, genelde kişi başı minimum harcama alırlar.",
+        "pronunciation": "bAHr-eereeshihndEH-kahrshooahmahdzhooyAH-dehpohzeetAW-eetshIHn-sohrUHnehnahldEH-keeshIH-bahshOO-mEEneemuhm-hahrdzhAHmah-ahoorAHr",
+        "translation_en": "Ask the host at the bar entrance about the deposit; they usually take a per-person minimum spend."
+      },
+      "responses": [
+        {
+          "english": "Ask the host at the bar entrance about the deposit; they usually take a per-person minimum spend.",
+          "phonetic": "bAHr-eereeshihndEH-kahrshooahmahdzhooyAH-dehpohzeetAW-eetshIHn-sohrUHnehnahldEH-keeshIH-bahshOO-mEEneemuhm-hahrdzhAHmah-ahoorAHr",
+          "french": "Bar girişinde karşılamacıya depozito için sorun, genelde kişi başı minimum harcama alırlar."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_türkü_bar_street_003",
+      "intent_en": "Does Hadigari Bar have a cover charge?",
+      "text_local": "Hadigari Bar'da giriş ücreti var mı?",
+      "pronunciation": "hahdeegahrIH-bahrOOn-eerIHsh-uhdzhrehtIH-vAHr-moo",
+      "formality": "casual",
+      "cultural_note": "Turkish bars may have unposted cover charges; asking staff directly is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, giriş ücretsiz.",
+        "pronunciation": "hahyOOreerIHsh-uhdzhrEHtsihz",
+        "translation_en": "No, entrance is free."
+      },
+      "responses": [
+        {
+          "english": "No, entrance is free.",
+          "phonetic": "hahyOOreerIHsh-uhdzhrEHtsihz",
+          "french": "Hayır, giriş ücretsiz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

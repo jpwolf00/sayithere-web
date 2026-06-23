@@ -1,0 +1,98 @@
+{
+  "id": "monaco_monte_carlo",
+  "name_en": "Monte-Carlo (neighborhood)",
+  "name_local": "Monte-Carlo",
+  "icon": "map",
+  "phrases": [
+    {
+      "id": "monaco_nbhd_mc_001",
+      "intent_en": "Ask about the casino district",
+      "text_local": "Quelle est l'atmosphère du quartier de Monte-Carlo ?",
+      "pronunciation": "kel eh lah-tos-FAIR doo kar-TYAY duh mon-tuh-KAR-loh",
+      "formality": "polite",
+      "cultural_note": "Monte-Carlo is Monaco's glitzy entertainment district — home to the casino, upscale hotels, restaurants, and the opera. Expect designer boutiques and supercars.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "",
+          "french": "Monte-Carlo est luxueux, avec des casinos et une vue sur la mer."
+        }
+      ]
+    },
+    {
+      "id": "monaco_nbhd_mc_002",
+      "intent_en": "Ask about the beaches in Monte-Carlo",
+      "text_local": "Y a-t-il des plages à Monte-Carlo ?",
+      "pronunciation": "ee-ah-TEEL day plahzh ah mon-tuh-KAR-loh",
+      "formality": "polite",
+      "cultural_note": "Monte-Carlo's beaches are all private (plages privées). The public beach is at Larvotto, just east of the main casino district.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, the beaches in Monte-Carlo are private. The public beach is located at Larvotto, just to the east.",
+          "phonetic": "",
+          "french": "Non, il n'y a pas de plages publiques à Monte-Carlo. Les plages privées, comme celle du Monte-Carlo Beach, sont réservées aux clients des hôtels. La plage publique la plus proche est Larvotto, à 10 minutes à pied."
+        }
+      ]
+    },
+    {
+      "id": "monaco_nbhd_mc_003",
+      "intent_en": "Ask about the casino's architectural style",
+      "text_local": "Quel est le style architectural du casino ?",
+      "pronunciation": "kel eh luh steel ar-shee-tek-toh-REL doo kah-ZEE-noh",
+      "formality": "polite",
+      "cultural_note": "The casino complex is a prime example of Belle Époque architecture, designed by Charles Garnier (the same architect as Paris Opéra).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's a Belle Époque building by Charles Garnier.",
+          "phonetic": "wee, suh-LAH ruh-MON-tah oon pay-ree-OHD ahn-SYEN",
+          "french": "Promenez-vous au Jardin Exotique ou visitez le casino."
+        }
+      ]
+    },
+    {
+      "id": "monaco_nbhd_mc_004",
+      "intent_en": "Ask about the metro access",
+      "text_local": "Comment aller au casino en transports en commun ?",
+      "pronunciation": "koh-MON ah-LAY oh kah-ZEE-noh on trahnz-POR don koh-MON",
+      "formality": "polite",
+      "cultural_note": "Monaco's metro (Line 1) has a Monte-Carlo station. From there, it's a short walk to the casino and harbor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Monte-Carlo metro station is the closest. It is a five-minute walk away.",
+          "phonetic": "luh პრო-shan day-PAR eh byan-TOH, ruh-gar-DAY luh pah-NOH",
+          "french": "Prenez le bus ou marchez, les distances sont courtes."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "district / quarter",
+      "word_local": "le quartier",
+      "pronunciation": "luh kar-TYAY"
+    },
+    {
+      "word_en": "private beach",
+      "word_local": "la plage privée",
+      "pronunciation": "lah plahzh pray-VAY"
+    },
+    {
+      "word_en": "Belle Époque",
+      "word_local": "la Belle Époque",
+      "pronunciation": "lah bel ay-POK"
+    },
+    {
+      "word_en": "supercar",
+      "word_local": "la super-voiture",
+      "pronunciation": "lah soo-pair-vwah-TOOR"
+    }
+  ]
+}

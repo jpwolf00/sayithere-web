@@ -1,0 +1,100 @@
+{
+  "id": "linz_landstraße_shopping_mile",
+  "name_en": "Landstraße Shopping Mile",
+  "name_local": "Landstraße",
+  "icon": "bag",
+  "lat": 48.3001939,
+  "lon": 14.2910107,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "linz_landstraße_shopping_mile_001",
+      "intent_en": "How do I reach UpperZeil level?",
+      "text_local": "Wie komme ich zu UpperZeil?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoo-UHp-tsEYEl",
+      "formality": "casual",
+      "cultural_note": "Relies on standard signage cue common in German shopping malls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie die Treppe hinauf.",
+        "pronunciation": "gEHuhn-zee-dee-trEHpuh-hihnOWf",
+        "translation_en": "Go up the stairs."
+      },
+      "responses": [
+        {
+          "english": "Go up the stairs.",
+          "phonetic": "gEHuhn-zee-dee-trEHpuh-hihnOWf",
+          "french": "Gehen Sie die Treppe hinauf."
+        }
+      ]
+    },
+    {
+      "id": "linz_landstraße_shopping_mile_002",
+      "intent_en": "Where do I validate parking at Thurn-und-Taxis-Platz?",
+      "text_local": "Wo kann ich mein Parkticket am Thurn-und-Taxis-Platz entwerten?",
+      "pronunciation": "vOH-pAHrkt-mahn-hEEr-tsEYEtkAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Generic staff escalation for parking validation points in German venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Automat.",
+        "pronunciation": "deerEHkt-ahm-OWtohmAHt",
+        "translation_en": "Right at the machine."
+      },
+      "responses": [
+        {
+          "english": "Right at the machine.",
+          "phonetic": "deerEHkt-ahm-OWtohmAHt",
+          "french": "Direkt am Automat."
+        }
+      ]
+    },
+    {
+      "id": "linz_landstraße_shopping_mile_003",
+      "intent_en": "Is the Palais Quartier info desk open?",
+      "text_local": "Hat der Info-Desk im Palais Quartier offen?",
+      "pronunciation": "haht-dehr-IHnfohdEHsk-ihm-pAHleyes-kvahrtEEr-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Assumes desk hours are visible at location, no need for further explanation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, jetzt geöffnet.",
+        "pronunciation": "yAHyEHtst-uhUHfnuht",
+        "translation_en": "Yes, currently open."
+      },
+      "responses": [
+        {
+          "english": "Yes, currently open.",
+          "phonetic": "yAHyEHtst-uhUHfnuht",
+          "french": "Ja, jetzt geöffnet."
+        }
+      ]
+    },
+    {
+      "id": "linz_landstraße_shopping_mile_004",
+      "intent_en": "Where is MyZeil entrance from Zeil?",
+      "text_local": "Wo ist der Eingang zu den Geschäften?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoo-ehnmeyedeh-tsEYEl",
+      "formality": "standard",
+      "cultural_note": "Directly points to the main entrance location without assuming left/right specifics.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hier an der Landstraße.",
+        "pronunciation": "hEEr-ahn-dehr-lAHndstrAHsuh",
+        "translation_en": "Here on the Landstraße."
+      },
+      "responses": [
+        {
+          "english": "Here on the Landstraße.",
+          "phonetic": "hEEr-ahn-dehr-lAHndstrAHsuh",
+          "french": "Hier an der Landstraße."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

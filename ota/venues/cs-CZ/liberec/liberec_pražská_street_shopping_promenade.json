@@ -1,0 +1,100 @@
+{
+  "id": "liberec_pražská_street_shopping_promenade",
+  "name_en": "Pražská Street shopping promenade",
+  "name_local": "Pražská ulice",
+  "icon": "bag",
+  "lat": 50.7702648,
+  "lon": 15.0583947,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "liberec_pražská_street_shopping_promenade_001",
+      "intent_en": "Are there public toilets along the street",
+      "text_local": "Jsou tady na ulici veřejné toalety?",
+      "pronunciation": "ysoh-tAHdee-nAHoolEEtsee-vEHrayneh-tOHahlEHtee",
+      "formality": "casual",
+      "cultural_note": "Public toilets in Czech city centers are often located inside shopping arcades (pasáže), not as standalone street facilities.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, v pasáži naproti bance.",
+        "pronunciation": "AHnohv-pAHsahzhee-nAHprohee-bAHntseh",
+        "translation_en": "Yes, in the arcade opposite the bank."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the arcade opposite the bank.",
+          "phonetic": "AHnohv-pAHsahzhee-nAHprohee-bAHntseh",
+          "french": "Ano, v pasáži naproti bance."
+        }
+      ]
+    },
+    {
+      "id": "liberec_pražská_street_shopping_promenade_002",
+      "intent_en": "Where is the nearest tram stop to the promenade",
+      "text_local": "Kde je nejbližší zastávka tramvaje?",
+      "pronunciation": "kdEH-yeh-nAYbleeshshee-zAHstahfkah-trAHmvahyeh",
+      "formality": "standard",
+      "cultural_note": "Fügnerova is a major tram hub in central Liberec, a natural reference point for locals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Doleva na náměstí, zastávka Fügnerova.",
+        "pronunciation": "dOHlehvah-nAHnahmnyEHseezAHstahfkah-fEEgnehrOHvah",
+        "translation_en": "Left to the square, Fügnerova stop."
+      },
+      "responses": [
+        {
+          "english": "Left to the square, Fügnerova stop.",
+          "phonetic": "dOHlehvah-nAHnahmnyEHseezAHstahfkah-fEEgnehrOHvah",
+          "french": "Doleva na náměstí, zastávka Fügnerova."
+        }
+      ]
+    },
+    {
+      "id": "liberec_pražská_street_shopping_promenade_003",
+      "intent_en": "Which shops here accept card payments",
+      "text_local": "Ve kterých obchodech tady můžu platit kartou?",
+      "pronunciation": "vEH-ktEHreekh-OHpkhohdehkh-tAHdee-mOOzhoo-plAHeet-kAHrtoh",
+      "formality": "standard",
+      "cultural_note": "In Czech shopping streets, it's common to confirm broadly that 'most' places accept cards, naming a couple of examples.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Většina butiků i pekárna karty berou.",
+        "pronunciation": "vyEHtsheenah-bOOteekoo-ee-pEHkahrnah-kAHrtee-bEHroh",
+        "translation_en": "Most boutiques and the bakery take cards."
+      },
+      "responses": [
+        {
+          "english": "Most boutiques and the bakery take cards.",
+          "phonetic": "vyEHtsheenah-bOOteekoo-ee-pEHkahrnah-kAHrtee-bEHroh",
+          "french": "Většina butiků i pekárna karty berou."
+        }
+      ]
+    },
+    {
+      "id": "liberec_pražská_street_shopping_promenade_004",
+      "intent_en": "Where does the pedestrian canopy start",
+      "text_local": "Kde začíná pěší zóna pod podloubím?",
+      "pronunciation": "kdEH-zAHtsheenah-pyEHshee-zOHnah-pOHtpohdlOHbeem",
+      "formality": "standard",
+      "cultural_note": "Czech directions often use landmarks like 'lékárna' (pharmacy) rather than street numbers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned za rohem, u lékárny.",
+        "pronunciation": "hnEHd-zAHrohhehmOO-lEHkahrnee",
+        "translation_en": "Just around the corner, by the pharmacy."
+      },
+      "responses": [
+        {
+          "english": "Just around the corner, by the pharmacy.",
+          "phonetic": "hnEHd-zAHrohhehmOO-lEHkahrnee",
+          "french": "Hned za rohem, u lékárny."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

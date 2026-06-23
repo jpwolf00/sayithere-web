@@ -1,0 +1,100 @@
+{
+  "id": "bad_ischl_esplanade_riverside_district",
+  "name_en": "Esplanade Riverside District",
+  "name_local": "Esplanade Bad Ischl",
+  "icon": "map",
+  "lat": 47.7101813,
+  "lon": 13.6200431,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "bad_ischl_esplanade_riverside_district_001",
+      "intent_en": "Where do I rent river kayaks nearby?",
+      "text_local": "Wo kann ich hier Kajaks leihen?",
+      "pronunciation": "vOH-kAHn-ihkh-hEEr-kAHyahks-lEYE-UHn",
+      "formality": "casual",
+      "cultural_note": "Implied service desk (likely Stadtinfo Bad Ischl) rather than vague 'nearby' location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Traunpromenade.",
+        "pronunciation": "ahn-dehr-trOWnprohmEHnahduh",
+        "translation_en": "At the Traun River promenade."
+      },
+      "responses": [
+        {
+          "english": "At the Traun River promenade.",
+          "phonetic": "ahn-dehr-trOWnprohmEHnahduh",
+          "french": "An der Traunpromenade."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_esplanade_riverside_district_002",
+      "intent_en": "Are Kurpark concert tickets sold here?",
+      "text_local": "Gibt’s hier Kurpark-Konzerte zu kaufen?",
+      "pronunciation": "IHpts-hEEr-kUHuhpahrkkawntsEHrtuh-tsoo-kOWfuhn",
+      "formality": "casual",
+      "cultural_note": "Assumes ticket sales at Kongress & TheaterHaus, the stable service point for such events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Kongresshaus.",
+        "pronunciation": "ahm-shAHlt-ihm-kawngrEHshows",
+        "translation_en": "At the counter in the congress hall."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the congress hall.",
+          "phonetic": "ahm-shAHlt-ihm-kawngrEHshows",
+          "french": "Am Schalter im Kongresshaus."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_esplanade_riverside_district_003",
+      "intent_en": "Where does the parking zone change on Esplanade?",
+      "text_local": "Wo wechseln die Parkzonen an der Esplanade?",
+      "pronunciation": "vOH-vEHksuhln-dee-pahrktsOHnuhn-ahn-dehr-EHsplahnAHduh",
+      "formality": "standard",
+      "cultural_note": "Signage is the reliable cue; no single boundary point exists.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ab der Kongresskreuzung.",
+        "pronunciation": "ahp-dehr-kawnggrEHskrawuhtsUHng",
+        "translation_en": "From the congress intersection."
+      },
+      "responses": [
+        {
+          "english": "From the congress intersection.",
+          "phonetic": "ahp-dehr-kawnggrEHskrawuhtsUHng",
+          "french": "Ab der Kongresskreuzung."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_esplanade_riverside_district_004",
+      "intent_en": "How do I get a thermal spa day pass nearby?",
+      "text_local": "Wie komme ich an eine Tageskarte fürs Thermalbad?",
+      "pronunciation": "vee-buhkAWmuh-ihkh-EYEnuhn-tAHehzEYEntriht-fUErs-tEHrmahlbAHt",
+      "formality": "casual",
+      "cultural_note": "Thermal spa day passes require purchase at a staffed counter; no self-service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Stadtinfo.",
+        "pronunciation": "ahm-shAHlt-dehr-shtahtIHnfoh",
+        "translation_en": "At the counter of the tourist information."
+      },
+      "responses": [
+        {
+          "english": "At the counter of the tourist information.",
+          "phonetic": "ahm-shAHlt-dehr-shtahtIHnfoh",
+          "french": "Am Schalter der Stadtinfo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "olympia_archaeological_site_of_olympia",
+  "name_en": "Archaeological Site of Olympia",
+  "name_local": "Αρχαιολογικός Χώρος Ολυμπίας",
+  "icon": "building.columns",
+  "lat": 37.6409927,
+  "lon": 21.6349454,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "olympia_archaeological_site_of_olympia_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται ο Ναός της Ήρας;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-nahOHs-tees-EErahs",
+      "formality": "standard",
+      "cultural_note": "Στο Αρχαιολογικό Χώρο Ολυμπίας, η τοποθεσία των σημαντικών μνημείων όπως ο Ναός της Ήρας δεν επισημαίνεται με συγκεκριμένες οδηγίες στον χώρο, αλλά ζητείται πληροφορία από τους φύλακες ή ξεναγούς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά του Ναού του Δία, στην Άλτι.",
+        "pronunciation": "AHreestehrAH-too-nahOO-too-thEEahsteen-AHltee",
+        "translation_en": "The Temple of Hera is located northwest of the Temple of Zeus, in the sacred Altis precinct."
+      },
+      "responses": [
+        {
+          "english": "The Temple of Hera is located northwest of the Temple of Zeus, in the sacred Altis precinct.",
+          "phonetic": "AHreestehrAH-too-nahOO-too-thEEahsteen-AHltee",
+          "french": "Αριστερά του Ναού του Δία, στην Άλτι."
+        }
+      ]
+    },
+    {
+      "id": "olympia_archaeological_site_of_olympia_002",
+      "intent_en": "Is the Altis precinct fully open today",
+      "text_local": "Είναι ανοιχτός σήμερα ο ιερός χώρος της Άλτιδος;",
+      "pronunciation": "EEneh-AHneekhtOHs-sEEmehrAH-oh-EEehrOHs-khOHrohs-tees-AHlteethOHs",
+      "formality": "standard",
+      "cultural_note": "Ο ιερός χώρος της Άλτιδος αποτελεί τμήμα του αρχαιολογικού χώρου Ολυμπίας και ακολουθεί το γενικό ωράριο λειτουργίας του τοπίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτός.",
+        "pronunciation": "nEHEEneh-AHneekhtOHs",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "nEHEEneh-AHneekhtOHs",
+          "french": "Ναι, είναι ανοιχτός."
+        }
+      ]
+    },
+    {
+      "id": "olympia_archaeological_site_of_olympia_003",
+      "intent_en": "Can I touch the ancient stones",
+      "text_local": "Μπορώ να αγγίξω τις αρχαίες πέτρες;",
+      "pronunciation": "bohrOH-n-ahnggEEksoh-tees-ahrkhEHehs-pEHtrehs",
+      "formality": "standard",
+      "cultural_note": "Απαγόρευση επαφής με αρχαίους λίθους αποτελεί βασικό κανόνα προστασίας στους αρχαιολογικούς χώρους. Οι φύλακες επιβάλλουν την τήρηση του.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, δεν αγγίζετε.",
+        "pronunciation": "OHkheethEHn-ahnggEEzehtEH",
+        "translation_en": "No, do not touch."
+      },
+      "responses": [
+        {
+          "english": "No, do not touch.",
+          "phonetic": "OHkheethEHn-ahnggEEzehtEH",
+          "french": "Όχι, δεν αγγίζετε."
+        }
+      ]
+    },
+    {
+      "id": "olympia_archaeological_site_of_olympia_004",
+      "intent_en": "Where do I book a guided tour",
+      "text_local": "Πού κλείνω ξενάγηση;",
+      "pronunciation": "pOO-klEEnoh-ksehnAHyeesEE",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγήσεις οργανώνονται από ξεναγούς που βρίσκονται στους χώρους εισόδου του αρχαιολογικού χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον ξεναγό στην είσοδο.",
+        "pronunciation": "rohtEEsteh-stohng-gzEHnahghOH-steen-EEsohthOH",
+        "translation_en": "Ask the guide at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Ask the guide at the entrance.",
+          "phonetic": "rohtEEsteh-stohng-gzEHnahghOH-steen-EEsohthOH",
+          "french": "Ρωτήστε στον ξεναγό στην είσοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

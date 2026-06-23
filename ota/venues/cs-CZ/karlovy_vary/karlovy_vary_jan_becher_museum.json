@@ -1,0 +1,78 @@
+{
+  "id": "karlovy_vary_jan_becher_museum",
+  "name_en": "Jan Becher Museum",
+  "name_local": "Jan Becher Muzeum",
+  "icon": "building.columns",
+  "lat": 50.2303751,
+  "lon": 12.8669808,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "karlovy_vary_jan_becher_museum_001",
+      "intent_en": "Do they sell chilled Becherovka?",
+      "text_local": "Prodáváte chlazenou Becherovku?",
+      "pronunciation": "prOHdahvAHteh-khlAHzehnoh-bEHkhehrOHfkoo",
+      "formality": "standard",
+      "cultural_note": "Chilled Becherovka is a common request; staff often direct buyers to the shop.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, v dárkovém obchodě.",
+        "pronunciation": "AHnohv-dAHrkohvehm-OHpkhoheh",
+        "translation_en": "Yes, in the gift shop."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the gift shop.",
+          "phonetic": "AHnohv-dAHrkohvehm-OHpkhoheh",
+          "french": "Ano, v dárkovém obchodě."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_jan_becher_museum_002",
+      "intent_en": "Where is the gift shop?",
+      "text_local": "Kde je dárkový obchod?",
+      "pronunciation": "kdEH-yeh-dAHrkohvee-OHpkhoht",
+      "formality": "standard",
+      "cultural_note": "Gift shops in Czech museums are typically placed near the exit route.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a pak vpravo u východu.",
+        "pronunciation": "rOHvnyeh-ah-pAHk-fprAHvoh-OO-vEEkhohdoo",
+        "translation_en": "Straight ahead, then right by the exit."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, then right by the exit.",
+          "phonetic": "rOHvnyeh-ah-pAHk-fprAHvoh-OO-vEEkhohdoo",
+          "french": "Rovně a pak vpravo u východu."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_jan_becher_museum_003",
+      "intent_en": "Where is the tasting room?",
+      "text_local": "Kde je degustační místnost?",
+      "pronunciation": "kdEH-yeh-dEHgoostAHtshnyee-mEEstnohst",
+      "formality": "standard",
+      "cultural_note": "Museum guides often use simple left/right directions rather than formal room names.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Doleva, na konci chodby.",
+        "pronunciation": "dOHlehvahnAHkohntsee-khOHdbee",
+        "translation_en": "To the left, at the end of the hall."
+      },
+      "responses": [
+        {
+          "english": "To the left, at the end of the hall.",
+          "phonetic": "dOHlehvahnAHkohntsee-khOHdbee",
+          "french": "Doleva, na konci chodby."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

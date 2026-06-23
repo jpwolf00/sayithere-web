@@ -1,0 +1,78 @@
+{
+  "id": "bamberg_grüner_markt",
+  "name_en": "Grüner Markt",
+  "name_local": "Grüner Markt",
+  "icon": "cart",
+  "lat": 49.8932286,
+  "lon": 10.8886027,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "bamberg_grüner_markt_001",
+      "intent_en": "Where can I buy a bag for produce?",
+      "text_local": "Wo gibt es Tüten für Obst und Gemüse?",
+      "pronunciation": "vOH-EEpt-ehs-tUEtuhn-fuer-OHpst-uhnt-uhmUEzuh",
+      "formality": "standard",
+      "cultural_note": "Auf deutschen Märkten sind dünne Plastiktüten für Obst/Gemüse oft kostenpflichtig und an den Obst- und Gemüseständen erhältlich. Eine präzise Angabe der Stände ist hier üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei den Obstständen.",
+        "pronunciation": "beye-dehn-AWpstshtehnduhn",
+        "translation_en": "At the fruit stalls."
+      },
+      "responses": [
+        {
+          "english": "At the fruit stalls.",
+          "phonetic": "beye-dehn-AWpstshtehnduhn",
+          "french": "Bei den Obstständen."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_grüner_markt_002",
+      "intent_en": "Do stalls accept cards or cash only?",
+      "text_local": "Akzeptieren die Stände Karte oder nur Bares?",
+      "pronunciation": "AHktsehptEEruhn-dee-shtEHnduh-kAHrtuh-OHd-nOOr-bAHruhs",
+      "formality": "standard",
+      "cultural_note": "Bargeld ist auf deutschen Wochenmärkten üblich. Viele Händler akzeptieren zwar Kartenzahlung, aber nicht alle – eine kurze, ehrliche Antwort ist hier angemessen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meist Bar, manche Karte.",
+        "pronunciation": "mEYEst-bAHrmAHnkhuh-kAHrtuh",
+        "translation_en": "Mostly cash, some cards."
+      },
+      "responses": [
+        {
+          "english": "Mostly cash, some cards.",
+          "phonetic": "mEYEst-bAHrmAHnkhuh-kAHrtuh",
+          "french": "Meist Bar, manche Karte."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_grüner_markt_003",
+      "intent_en": "Where is the Gauklerbrunnen fountain?",
+      "text_local": "Wo steht der Gauklerbrunnen?",
+      "pronunciation": "vOH-shtEHt-dehr-OWklbrUHnuhn",
+      "formality": "standard",
+      "cultural_note": "Der Gauklerbrunnen ist ein zentraler Brunnen auf dem Grüner Markt und dient als gut sichtbarer Orientierungspunkt. Typische Antworten sind deskriptiv und verorten den Brunnen ohne präzise Richtungsangaben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Marktplatz.",
+        "pronunciation": "ahm-mAHrktplahts",
+        "translation_en": "At the market square."
+      },
+      "responses": [
+        {
+          "english": "At the market square.",
+          "phonetic": "ahm-mAHrktplahts",
+          "french": "Am Marktplatz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

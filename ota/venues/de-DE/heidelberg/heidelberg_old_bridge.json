@@ -1,0 +1,100 @@
+{
+  "id": "heidelberg_old_bridge",
+  "name_en": "Old Bridge",
+  "name_local": "Alte Brücke",
+  "icon": "building.columns",
+  "lat": 49.4124797,
+  "lon": 8.7095632,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "heidelberg_old_bridge_001",
+      "intent_en": "Can I enter the Brückentor gate now?",
+      "text_local": "Darf ich jetzt durchs Brückentor gehen?",
+      "pronunciation": "dAHrf-ihkh-yEHtst-dUHuhks-bruekEHntohr-EHuhn",
+      "formality": "casual",
+      "cultural_note": "The gate is a historical passage and generally accessible during opening hours unless closed for events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, jederzeit möglich.",
+        "pronunciation": "yAHyEHdtsEYEt-mUHklihkh",
+        "translation_en": "Yes, anytime possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, anytime possible.",
+          "phonetic": "yAHyEHdtsEYEt-mUHklihkh",
+          "french": "Ja, jederzeit möglich."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_old_bridge_002",
+      "intent_en": "Where is the Bridge Monkey statue?",
+      "text_local": "Wo ist die Brückenmännchen-Statue?",
+      "pronunciation": "vOH-ihst-dee-brUEkuhnmEHnkhuhnshtAHtoouh",
+      "formality": "standard",
+      "cultural_note": "The statue is a small, often overlooked landmark near the gate tower, popular with tourists for photos.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Beim Torturm.",
+        "pronunciation": "beyem-tAWrtuhuhm",
+        "translation_en": "By the gate tower."
+      },
+      "responses": [
+        {
+          "english": "By the gate tower.",
+          "phonetic": "beyem-tAWrtuhuhm",
+          "french": "Beim Torturm."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_old_bridge_003",
+      "intent_en": "How do I get boat tour tickets here?",
+      "text_local": "Wo gibt es Bootsfahrt-Tickets?",
+      "pronunciation": "vOH-EEpt-ehs-bOHtsfahrttIHkuhts",
+      "formality": "standard",
+      "cultural_note": "Boat tour tickets are typically sold on-site at the dock by staff or automated kiosks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter beim Anleger.",
+        "pronunciation": "ahm-shAHlt-beyem-AHnlEH",
+        "translation_en": "At the dock counter."
+      },
+      "responses": [
+        {
+          "english": "At the dock counter.",
+          "phonetic": "ahm-shAHlt-beyem-AHnlEH",
+          "french": "Am Schalter beim Anleger."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_old_bridge_004",
+      "intent_en": "Where can I park on the Neuenheim side?",
+      "text_local": "Wo parke ich auf der Neuenheimer Seite?",
+      "pronunciation": "vOH-pAHrkuh-ihkh-owf-dehr-nAWuhuhnhEYEm-zEYEtuh",
+      "formality": "standard",
+      "cultural_note": "Public parking is available near the riverbank in Neuenheim, often crowded in peak season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Parkplatz am Neckar.",
+        "pronunciation": "pAHrkplahts-ahm-nEHkahr",
+        "translation_en": "Parking lot by the Neckar."
+      },
+      "responses": [
+        {
+          "english": "Parking lot by the Neckar.",
+          "phonetic": "pAHrkplahts-ahm-nEHkahr",
+          "french": "Parkplatz am Neckar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

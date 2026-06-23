@@ -1,0 +1,118 @@
+{
+  "id": "nice_mamac",
+  "name_en": "MAMAC – Museum of Modern and Contemporary Art",
+  "name_local": "MAMAC – Musée d'Art Moderne et d'Art Contemporain",
+  "icon": "building.columns",
+  "lat": 43.7021,
+  "lon": 7.2773,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "nice_mamac_001",
+      "intent_en": "Ask for two adult tickets",
+      "text_local": "Deux billets pour adultes, s'il vous plaît.",
+      "pronunciation": "duh bee-YAY poor ah-DYOLT seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "MAMAC focuses on French and American avant-garde movements from the 1950s to today, including Yves Klein.",
+      "responses": [
+        {
+          "english": "Ten euros for two.",
+          "phonetic": "DEE-ZUH-ROH poor DUH",
+          "french": "Dix euros pour deux."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_mamac_002",
+      "intent_en": "Ask where the Yves Klein collection is displayed",
+      "text_local": "Où se trouve la collection permanente d'Yves Klein ?",
+      "pronunciation": "oo seh TROOV lah ko-lek-SYON pehr-mah-NANT deev KLAYN",
+      "formality": "polite",
+      "cultural_note": "Yves Klein was a Nice native. His iconic IKB (International Klein Blue) works are a highlight of the permanent collection.",
+      "responses": [
+        {
+          "english": "On the second floor.",
+          "phonetic": "oh duh-ZYEM ay-TAHZH",
+          "french": "Au deuxième étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_mamac_003",
+      "intent_en": "Ask if there is a guided tour available in English",
+      "text_local": "Proposez-vous des visites guidées en anglais ?",
+      "pronunciation": "pro-po-ZAY voo day vee-ZEET gee-DAY on ang-GLAY",
+      "formality": "polite",
+      "cultural_note": "MAMAC offers guided tours in French and sometimes English — check at the reception desk on arrival.",
+      "responses": [
+        {
+          "english": "Yes, at two o'clock.",
+          "phonetic": "wee ah kah-TORZ UR",
+          "french": "Oui, à quatorze heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_mamac_004",
+      "intent_en": "Ask about the rooftop terrace view",
+      "text_local": "La terrasse panoramique sur le toit est-elle accessible aux visiteurs ?",
+      "pronunciation": "lah teh-RAS pah-no-rah-MEEK soor leh TWAH eh-TEL ak-se-SEEBL oh vee-zee-TUHR",
+      "formality": "polite",
+      "cultural_note": "MAMAC's rooftop terrace offers sweeping views over Vieux-Nice and Castle Hill — free with museum entry.",
+      "responses": [
+        {
+          "english": "Views of the Mediterranean Sea, Promenade des Anglais, and surrounding mountains.",
+          "phonetic": "pruh-NAY lah-sahn-SUR zhoos-koh dair-NYAY ay-TAHZH",
+          "french": "Vue sur la Méditerranée, la Promenade des Anglais et les montagnes environnantes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_mamac_005",
+      "intent_en": "Ask if photography is permitted in the galleries",
+      "text_local": "Les photos sont-elles autorisées dans les salles d'exposition ?",
+      "pronunciation": "lay FO-to son-TEL oh-to-ree-ZAY dan lay SAL dek-spo-zee-SYON",
+      "formality": "polite",
+      "cultural_note": "Photography rules vary by exhibition — always check with staff before photographing artworks.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "contemporary art",
+      "word_local": "l'art contemporain",
+      "pronunciation": "lar kon-tan-po-RAN"
+    },
+    {
+      "word_en": "permanent collection",
+      "word_local": "la collection permanente",
+      "pronunciation": "lah ko-lek-SYON pehr-mah-NANT"
+    },
+    {
+      "word_en": "temporary exhibition",
+      "word_local": "l'exposition temporaire",
+      "pronunciation": "lek-spo-zee-SYON tan-po-REHR"
+    },
+    {
+      "word_en": "museum ticket",
+      "word_local": "le billet d'entrée",
+      "pronunciation": "leh bee-YAY dan-TRAY"
+    }
+  ]
+}

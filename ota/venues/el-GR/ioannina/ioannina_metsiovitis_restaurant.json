@@ -1,0 +1,166 @@
+{
+  "id": "ioannina_metsiovitis_restaurant",
+  "name_en": "Metsiovitis Restaurant",
+  "name_local": "Εστιατόριο Μετσοβίτης",
+  "icon": "fork.knife",
+  "lat": 39.6639818,
+  "lon": 20.8522784,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "ioannina_metsiovitis_restaurant_001",
+      "intent_en": "Ask if they have kontosouvli tonight",
+      "text_local": "Έχετε κοντοσούβλι απόψε;",
+      "pronunciation": "EHkhehtEH-kOHdohsOOvlee-ahpOHpseh",
+      "formality": "standard",
+      "cultural_note": "Το κοντοσούβλι είναι βασικό πιάτο του εστιατορίου και διατίθεται συχνά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_metsiovitis_restaurant_002",
+      "intent_en": "Do I pay at the counter or at the table",
+      "text_local": "Πού πληρώνουμε; στο τραπέζι ή στο ταμείο;",
+      "pronunciation": "pOO-pleerOHnoomEHstoh-trahpEHzee-ee-stoh-tahmEEoh",
+      "formality": "standard",
+      "cultural_note": "Σε εστιατόρια της περιοχής, η πληρωμή γίνεται συνήθως στο ταμείο μετά το τέλος του γεύματος.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο.",
+        "pronunciation": "stoh-tahmEEoh",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "stoh-tahmEEoh",
+          "french": "Στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_metsiovitis_restaurant_003",
+      "intent_en": "Is the kontosouvli available tonight",
+      "text_local": "Έχετε κοντοσούβλι σήμερα βράδυ;",
+      "pronunciation": "EHkhehtEH-kOHdohsOOvlee-sEEmehrAH-vrAHthee",
+      "formality": "standard",
+      "cultural_note": "Το κοντοσούβλι είναι κλασικό πιάτο της περιοχής και συνήθως διατίθεται.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_metsiovitis_restaurant_004",
+      "intent_en": "Ask if cash is required for payment",
+      "text_local": "Χρειάζεται μόνο μετρητά για πληρωμή;",
+      "pronunciation": "khrkhAHzehtEH-mOHnoh-mEHtreetAH-yAH-plEErohmEE",
+      "formality": "standard",
+      "cultural_note": "Η πληρωμή γίνεται κυρίως με μετρητά στο συγκεκριμένο εστιατόριο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Προτιμούν μετρητά.",
+        "pronunciation": "prOHteemOOn-mEHtreetAH",
+        "translation_en": "Cash preferred."
+      },
+      "responses": [
+        {
+          "english": "Cash preferred.",
+          "phonetic": "prOHteemOOn-mEHtreetAH",
+          "french": "Προτιμούν μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_metsiovitis_restaurant_005",
+      "intent_en": "Do you take cards or cash only",
+      "text_local": "Δέχονται κάρτες ή μόνο μετρητά;",
+      "pronunciation": "thEHkhohdEH-kAHrtehs-ee-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Στο συγκεκριμένο εστιατόριο, η προτίμηση είναι στα μετρητά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Προτιμούν μετρητά.",
+        "pronunciation": "prOHteemOOn-mEHtreetAH",
+        "translation_en": "Cash preferred."
+      },
+      "responses": [
+        {
+          "english": "Cash preferred.",
+          "phonetic": "prOHteemOOn-mEHtreetAH",
+          "french": "Προτιμούν μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_metsiovitis_restaurant_006",
+      "intent_en": "Ask if metsovone cheese comes as meze portion",
+      "text_local": "Το μετσοβόνε σερβίρεται ως μεζέ;",
+      "pronunciation": "toh-mEHtsohvOHneh-sehrvEErehtEH-OHz-mehzEH",
+      "formality": "standard",
+      "cultural_note": "Το μετσοβόνε τυρί σερβίρεται συχνά ως μεζέ για κοινή κατανάλωση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_metsiovitis_restaurant_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορούμε να πληρώσουμε ξεχωριστά;",
+      "pronunciation": "bohrOOmeh-nah-khohrEEsoomEH-tohn-lOHghahrEEahsmOH-ahnAH-AHtohmOH",
+      "formality": "standard",
+      "cultural_note": "Ο διαχωρισμός ανά άτομο δεν είναι συνηθισμένος χωρίς προηγούμενη συμφωνία.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, βεβαίως, ξεχωριστά για τον καθένα.",
+        "pronunciation": "nEHvehvEHohsksEHkhohreestAH-yAH-tohng-gahthEHnah",
+        "translation_en": "Yes, of course, separately for each person."
+      },
+      "responses": [
+        {
+          "english": "Yes, of course, separately for each person.",
+          "phonetic": "nEHvehvEHohsksEHkhohreestAH-yAH-tohng-gahthEHnah",
+          "french": "Ναι, βεβαίως, ξεχωριστά για τον καθένα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

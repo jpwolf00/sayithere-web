@@ -1,0 +1,100 @@
+{
+  "id": "liberec_jizera_mountains_nature_reserve",
+  "name_en": "Jizera Mountains Nature Reserve",
+  "name_local": "Jizerské hory",
+  "icon": "leaf",
+  "lat": 50.8112458,
+  "lon": 15.2048799,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "liberec_jizera_mountains_nature_reserve_001",
+      "intent_en": "Where is parking for Smrk massif trails?",
+      "text_local": "Kde se parkuje na trasy na Smrk?",
+      "pronunciation": "kdEH-seh-pAHrkooyeh-nAHtrahsee-nAHsmrk",
+      "formality": "standard",
+      "cultural_note": "Many trailheads have small, often unpaved, parking areas that fill up quickly on weekends.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Parkoviště je vlevo za informačním střediskem.",
+        "pronunciation": "pAHrkohvEEsheh-yeh-vlEHvoh-zah-EEnfohrmAHtshnyeem-strEHeeskehm",
+        "translation_en": "The parking lot is on the left behind the information center."
+      },
+      "responses": [
+        {
+          "english": "The parking lot is on the left behind the information center.",
+          "phonetic": "pAHrkohvEEsheh-yeh-vlEHvoh-zah-EEnfohrmAHtshnyeem-strEHeeskehm",
+          "french": "Parkoviště je vlevo za informačním střediskem."
+        }
+      ]
+    },
+    {
+      "id": "liberec_jizera_mountains_nature_reserve_002",
+      "intent_en": "Where does the Jizera River source trail start?",
+      "text_local": "Kde začíná stezka k prameni Jizery?",
+      "pronunciation": "kdEH-zAHtsheenah-stEHskah-k-prAHmehnyee-yEEzehree",
+      "formality": "standard",
+      "cultural_note": "Trail markings are painted on trees and rocks; a blue stripe indicates a long-distance trail.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Od horské chaty Smědava po modré značce.",
+        "pronunciation": "OHthohrskeh-khAHtee-smnyEHdahvah-pOHmohdreh-znAHtshtseh",
+        "translation_en": "From the Smědava mountain hut, follow the blue markers."
+      },
+      "responses": [
+        {
+          "english": "From the Smědava mountain hut, follow the blue markers.",
+          "phonetic": "OHthohrskeh-khAHtee-smnyEHdahvah-pOHmohdreh-znAHtshtseh",
+          "french": "Od horské chaty Smědava po modré značce."
+        }
+      ]
+    },
+    {
+      "id": "liberec_jizera_mountains_nature_reserve_003",
+      "intent_en": "Are guided forest tours running today?",
+      "text_local": "Běží dnes průvodcovské prohlídky lesem?",
+      "pronunciation": "byEHzhee-dnEHs-prOOvohttsOHfskeh-prOHhleetkee-lEHsehm",
+      "formality": "standard",
+      "cultural_note": "Guided tours by a nature guide are often subject to weather conditions and require a minimum number of participants.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, odpolední vycházka začíná ve dvě hodiny.",
+        "pronunciation": "AHnohOHtpohlEHdnyee-vEEkhahskah-zAHtsheenah-vEH-dvyEH-hOHeenee",
+        "translation_en": "Yes, the afternoon walk starts at two o'clock."
+      },
+      "responses": [
+        {
+          "english": "Yes, the afternoon walk starts at two o'clock.",
+          "phonetic": "AHnohOHtpohlEHdnyee-vEEkhahskah-zAHtsheenah-vEH-dvyEH-hOHeenee",
+          "french": "Ano, odpolední vycházka začíná ve dvě hodiny."
+        }
+      ]
+    },
+    {
+      "id": "liberec_jizera_mountains_nature_reserve_004",
+      "intent_en": "Do I need a border permit for the ridge trail?",
+      "text_local": "Potřebuji povolení na hraniční hřebenovku?",
+      "pronunciation": "pOHtrehbOOyee-pOHvohlEHnyee-nAHhrahnyEEtshnyee-hrEHbehnOHfkoo",
+      "formality": "standard",
+      "cultural_note": "The Czech-Polish border within the Schengen Area is open, with no permits required for standard hiking.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, pro pěší turistiku povolení nepotřebujete.",
+        "pronunciation": "nEHprOHpyehshee-tOOreestEEkoo-pOHvohlEHnyee-nEHpohtrEHbooyEHteh",
+        "translation_en": "No, you don't need a permit for hiking."
+      },
+      "responses": [
+        {
+          "english": "No, you don't need a permit for hiking.",
+          "phonetic": "nEHprOHpyehshee-tOOreestEEkoo-pOHvohlEHnyee-nEHpohtrEHbooyEHteh",
+          "french": "Ne, pro pěší turistiku povolení nepotřebujete."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

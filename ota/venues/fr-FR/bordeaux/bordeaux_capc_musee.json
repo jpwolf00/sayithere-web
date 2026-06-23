@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_capc_musee",
+  "name_en": "CAPC Museum of Contemporary Art",
+  "name_local": "CAPC musée d'art contemporain",
+  "icon": "building.columns",
+  "lat": 44.85,
+  "lon": -0.5659,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bordeaux_capc_001",
+      "intent_en": "Ask what the current temporary exhibition is about",
+      "text_local": "Pourriez-vous me parler de l'exposition temporaire en cours ?",
+      "pronunciation": "poo-RYAY-voo muh par-LAY duh lex-poh-ZEE-SYON tahm-poh-RAIR ahn KOOR",
+      "formality": "polite",
+      "cultural_note": "The CAPC is housed in a 19th-century colonial warehouse; its vast vaulted nave is itself a landmark of industrial architecture.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_capc_002",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Est-il autorisé de prendre des photos à l'intérieur ?",
+      "pronunciation": "eh-TEEL oh-toh-ree-ZAY duh PRAHN-druh day foh-TOH ah lan-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "Photography policies vary by exhibition; always check with staff before taking photos of artworks.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_capc_003",
+      "intent_en": "Ask for a map of the permanent collection",
+      "text_local": "Auriez-vous un plan de la collection permanente ?",
+      "pronunciation": "oh-RYAY-voo un PLAHN duh lah koh-lek-SYON pair-mah-NAHNT",
+      "formality": "polite",
+      "cultural_note": "The CAPC holds major works by artists such as Richard Long, Sol LeWitt, and Jenny Holzer.",
+      "responses": [
+        {
+          "english": "Yes, at reception.",
+          "phonetic": "wee, ah lah-KUHY",
+          "french": "Oui, à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_capc_004",
+      "intent_en": "Ask when the museum shop closes",
+      "text_local": "À quelle heure ferme la boutique du musée ?",
+      "pronunciation": "ah kel ur FAIRM lah boo-TEEK doo myoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum shop stocks art books, prints, and design objects and typically stays open until museum closing time.",
+      "responses": [
+        {
+          "english": "At 6 PM.",
+          "phonetic": "ah deez-weet UHR",
+          "french": "À dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_capc_005",
+      "intent_en": "Ask if there is a café in the museum",
+      "text_local": "Est-ce qu'il y a un café dans le musée ?",
+      "pronunciation": "es-keel-YAH un kah-FAY dahn luh myoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The CAPC has a café-restaurant inside the historic nave that is popular with locals even without a museum visit.",
+      "responses": [
+        {
+          "english": "Yes, on the ground floor.",
+          "phonetic": "wee, oh ray-duh-shoh-SAY",
+          "french": "Oui, au rez-de-chaussée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "contemporary art",
+      "word_local": "l'art contemporain",
+      "pronunciation": "lar kon-tahm-poh-RAN"
+    },
+    {
+      "word_en": "temporary exhibition",
+      "word_local": "l'exposition temporaire",
+      "pronunciation": "lex-poh-ZEE-SYON tahm-poh-RAIR"
+    },
+    {
+      "word_en": "permanent collection",
+      "word_local": "la collection permanente",
+      "pronunciation": "lah koh-lek-SYON pair-mah-NAHNT"
+    },
+    {
+      "word_en": "museum shop",
+      "word_local": "la boutique du musée",
+      "pronunciation": "lah boo-TEEK doo myoo-ZAY"
+    }
+  ]
+}

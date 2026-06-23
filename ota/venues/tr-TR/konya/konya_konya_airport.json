@@ -1,0 +1,144 @@
+{
+  "id": "konya_konya_airport",
+  "name_en": "Konya Airport",
+  "name_local": "Konya Havalimanı",
+  "icon": "tram",
+  "lat": 37.9834452,
+  "lon": 32.5646962,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "konya_konya_airport_001",
+      "intent_en": "How do I pay for parking?",
+      "text_local": "Otopark ödemesini nasıl yapabilirim?",
+      "pronunciation": "ohtohpAHrk-uhdehmehseenIH-nahsOO-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Turkish airports typically have dedicated payment machines or kiosks in the car park area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otopark ödeme noktasından.",
+        "pronunciation": "ohtohpAHrk-uhdEHmeh-nawktahsoondAHn",
+        "translation_en": "At the car park payment point."
+      },
+      "responses": [
+        {
+          "english": "At the car park payment point.",
+          "phonetic": "ohtohpAHrk-uhdEHmeh-nawktahsoondAHn",
+          "french": "Otopark ödeme noktasından."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_airport_002",
+      "intent_en": "Is the security line open now?",
+      "text_local": "Güvenlik şu anda çalışıyor mu?",
+      "pronunciation": "uevahnlIHk-soorahsOO-shuh-AHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Security screening hours can vary; staff often direct passengers to the information desk for real-time status.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çalışıyor, geçebilirsiniz.",
+        "pronunciation": "tshahooshOOyawrehtshehbeelIHrseenihz",
+        "translation_en": "It's working, you can go through."
+      },
+      "responses": [
+        {
+          "english": "It's working, you can go through.",
+          "phonetic": "tshahooshOOyawrehtshehbeelIHrseenihz",
+          "french": "Çalışıyor, geçebilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_airport_003",
+      "intent_en": "Where is the taxi desk?",
+      "text_local": "Taksi durağı nerede?",
+      "pronunciation": "tahksIH-doorahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish airports often have a central information point; 'Danışma' refers to the information desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Terminal çıkışında sol tarafta.",
+        "pronunciation": "tehrmeenAH-tshookooshoondAH-sAW-tahrahftAH",
+        "translation_en": "At the terminal exit, on the left side."
+      },
+      "responses": [
+        {
+          "english": "At the terminal exit, on the left side.",
+          "phonetic": "tehrmeenAH-tshookooshoondAH-sAW-tahrahftAH",
+          "french": "Terminal çıkışında sol tarafta."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_airport_004",
+      "intent_en": "Where are the check-in counters?",
+      "text_local": "Check-in kontuarları nerede?",
+      "pronunciation": "dzhhEHdzhkIHn-kawntooahrahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish airports commonly use the English term 'check-in' alongside Turkish; signage is prominent in the terminal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte sağ tarafta.",
+        "pronunciation": "eerihshtEH-sAH-tahrahftAH",
+        "translation_en": "On the right side at the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the right side at the entrance.",
+          "phonetic": "eerihshtEH-sAH-tahrahftAH",
+          "french": "Girişte sağ tarafta."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_airport_005",
+      "intent_en": "Is the security line open now?",
+      "text_local": "Güvenlik şu anda çalışıyor mu?",
+      "pronunciation": "uevahnlIHk-hahtOO-shuh-ahndAH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "The venue context lists Güvenlik as a stable staff role, making them the correct point of contact for this query.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, açık.",
+        "pronunciation": "ehvEHtahtshOOk",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "ehvEHtahtshOOk",
+          "french": "Evet, açık."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_airport_006",
+      "intent_en": "Where is baggage claim?",
+      "text_local": "Bagaj alım alanı nerede?",
+      "pronunciation": "bahgAHzh-AHoom-ahahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish airports use clear bilingual or symbolic signage; 'bagaj alım' is the standard term for baggage claim.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşıda, sağ tarafta.",
+        "pronunciation": "kahrshoodAHsAH-tahrahftAH",
+        "translation_en": "Across, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Across, on the right side.",
+          "phonetic": "kahrshoodAHsAH-tahrahftAH",
+          "french": "Karşıda, sağ tarafta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "athens_o_thanasis_souvlaki_taverna",
+  "name_en": "O Thanasis souvlaki taverna",
+  "name_local": "Ο Θανάσης",
+  "icon": "fork.knife",
+  "lat": 37.9762644,
+  "lon": 23.7263559,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "athens_o_thanasis_souvlaki_taverna_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού πρέπει να περιμένω για τη σειρά μου;",
+      "pronunciation": "pOO-pEHreemEHnoh-teen-seerAH-moo",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι καλούνται τους πελάτες όταν είναι έτοιμα τα παραγγέλματα. Δεν υπάρχει συγκεκριμένη περιοχή αναμονής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περιμένετε κοντά στο ταμείο, θα σας φωνάξουν.",
+        "pronunciation": "pEHreemEHnehtEH-kohdAH-stoh-tahmEEohthah-sahs-fohnAHksoon",
+        "translation_en": "Wait near the cashier, they will call you."
+      },
+      "responses": [
+        {
+          "english": "Wait near the cashier, they will call you.",
+          "phonetic": "pEHreemEHnehtEH-kohdAH-stoh-tahmEEohthah-sahs-fohnAHksoon",
+          "french": "Περιμένετε κοντά στο ταμείο, θα σας φωνάξουν."
+        }
+      ]
+    },
+    {
+      "id": "athens_o_thanasis_souvlaki_taverna_002",
+      "intent_en": "Where do I pay for my order?",
+      "text_local": "Πού πληρώνω την παραγγελία μου;",
+      "pronunciation": "pOO-pleerOHnoh-teem-bAHrahnggehlEEah-moo",
+      "formality": "standard",
+      "cultural_note": "Το ταμείο είναι ξεχωριστό από την κουζίνα. Δεν υπάρχει άλλη επιλογή πληρωμής εντός της κουζίνας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον ταμία.",
+        "pronunciation": "stohn-dahmEEah",
+        "translation_en": "At the cashier."
+      },
+      "responses": [
+        {
+          "english": "At the cashier.",
+          "phonetic": "stohn-dahmEEah",
+          "french": "Στον ταμία."
+        }
+      ]
+    },
+    {
+      "id": "athens_o_thanasis_souvlaki_taverna_003",
+      "intent_en": "Do I leave tip on the tray?",
+      "text_local": "Αφήνω φιλοδώρημα στο ταψί;",
+      "pronunciation": "ahfEEnoh-fEElohthOHreemAH-stoh-tahpsEE",
+      "formality": "standard",
+      "cultural_note": "Στο κατάστημα υπάρχει ταψί για φιλοδωρήματα πάνω στο τραπέζι ή στον πάγκο. Δεν γίνεται κατανομή λογαριασμού πριν την πληρωμή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, αφήστε στο ταψί.",
+        "pronunciation": "nEHahfEEsteh-stoh-tahpsEE",
+        "translation_en": "Yes, leave on the tray."
+      },
+      "responses": [
+        {
+          "english": "Yes, leave on the tray.",
+          "phonetic": "nEHahfEEsteh-stoh-tahpsEE",
+          "french": "Ναι, αφήστε στο ταψί."
+        }
+      ]
+    },
+    {
+      "id": "athens_o_thanasis_souvlaki_taverna_004",
+      "intent_en": "Is pita gyro available now?",
+      "text_local": "Έχετε γύρο με πίτα;",
+      "pronunciation": "EHkhee-pEEtsah-yeerOH-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Η πίτσα γυρό είναι στάνταρ προϊόν στο κατάστημα. Δεν υπάρχει ένδειξη περιορισμένης διαθεσιμότητας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, υπάρχει.",
+        "pronunciation": "nEHeepAHrkhee",
+        "translation_en": "Yes, it is available."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is available.",
+          "phonetic": "nEHeepAHrkhee",
+          "french": "Ναι, υπάρχει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

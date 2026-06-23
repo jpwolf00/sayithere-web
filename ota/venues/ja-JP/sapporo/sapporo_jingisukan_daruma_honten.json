@@ -1,0 +1,122 @@
+{
+  "id": "sapporo_jingisukan_daruma_honten",
+  "name_en": "Jingisukan Daruma Honten",
+  "name_local": "だるま本店",
+  "icon": "fork.knife",
+  "lat": 35.4714045,
+  "lon": 133.0539686,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "sapporo_jingisukan_daruma_honten_001",
+      "intent_en": "Is all-you-can-eat available?",
+      "text_local": "たべほうだいは ありますか？",
+      "pronunciation": "tBehhOHoodEEh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many Jingisukan restaurants offer both all-you-can-eat and single-plate options for flexibility.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、たべほうだいも たんぴんも えらべますよ。",
+        "pronunciation": "hEEtBehhOHoodEEmoh-tPEEmmoh-EHbEHmsOOyoh",
+        "translation_en": "Yes, you can choose all-you-can-eat or a la carte."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can choose all-you-can-eat or a la carte.",
+          "phonetic": "hEEtBehhOHoodEEmoh-tPEEmmoh-EHbEHmsOOyoh",
+          "french": "はい、たべほうだいも たんぴんも えらべますよ。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_jingisukan_daruma_honten_002",
+      "intent_en": "How do I order extra lamb?",
+      "text_local": "ラムの追加注文はどうすればいいですか？",
+      "pronunciation": "MOO-nOH-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-TOH-ehndzhAHpuhneezyahlEHtuh-OO-sOO-EH-h-EHndzhAHpuhneezyahlEHtuh-EE-EE-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-k",
+      "formality": "standard",
+      "cultural_note": "In a lively grill restaurant, it's common to flag down a waiter rather than wait to be asked for additional orders.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "スタッフを呼べばすぐ届けます。",
+        "pronunciation": "sOO-t-OO-OH-ehntshEYEneezyahlEHtuh-hEH-ehndzhAHpuhneezyahlEHtuh-h-EHndzhAHpuhneezyahlEHtuh-sOO-kOO-ehndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-kEH-m-SOO",
+        "translation_en": "If you call a staff member, they will bring it right away."
+      },
+      "responses": [
+        {
+          "english": "If you call a staff member, they will bring it right away.",
+          "phonetic": "sOO-t-OO-OH-ehntshEYEneezyahlEHtuh-hEH-ehndzhAHpuhneezyahlEHtuh-h-EHndzhAHpuhneezyahlEHtuh-sOO-kOO-ehndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-kEH-m-SOO",
+          "french": "スタッフを呼べばすぐ届けます。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_jingisukan_daruma_honten_003",
+      "intent_en": "Can I add the drink plan?",
+      "text_local": "のみほうだいを ついか できますか？",
+      "pronunciation": "nOHmeehOHoodEEoh-tsooEEk-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Drink plans are often added at the start of the meal when the initial food order is taken.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ちゅうもんのときに もうしつけてください。",
+        "pronunciation": "hEEtOOoomOHnnohtohkEEnee-mOHooEEtsookEHtehkOOdsEE",
+        "translation_en": "Yes, please tell us when you order."
+      },
+      "responses": [
+        {
+          "english": "Yes, please tell us when you order.",
+          "phonetic": "hEEtOOoomOHnnohtohkEEnee-mOHooEEtsookEHtehkOOdsEE",
+          "french": "はい、ちゅうもんのときに もうしつけてください。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_jingisukan_daruma_honten_004",
+      "intent_en": "Do I register for the queue here?",
+      "text_local": "じゅんばんまちは ここで とうろく しますか？",
+      "pronunciation": "dOObMmtEEh-kohkOHdeh-tOHooOHkoo-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At busy restaurants, queue registration is often done via a touch panel machine near the entrance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ここの きかいで とうろく おねがいします。",
+        "pronunciation": "hEEkohkOHnoh-kEEkEEdeh-tOHooOHkoo-OHnehgEEeemSoo",
+        "translation_en": "Yes, please register here at the machine."
+      },
+      "responses": [
+        {
+          "english": "Yes, please register here at the machine.",
+          "phonetic": "hEEkohkOHnoh-kEEkEEdeh-tOHooOHkoo-OHnehgEEeemSoo",
+          "french": "はい、ここの きかいで とうろく おねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_jingisukan_daruma_honten_005",
+      "intent_en": "Is payment cash only?",
+      "text_local": "しはらいは げんきんだけ ですか？",
+      "pronunciation": "EEhEEh-gEHngkeendKeh-dehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many older or specialized restaurants in Japan remain cash-only, so it's good to carry enough yen.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

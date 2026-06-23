@@ -1,0 +1,113 @@
+{
+  "id": "marseille_cathedrale_major",
+  "name_en": "Cathédrale de la Major",
+  "name_local": "Cathédrale de la Major",
+  "icon": "building.columns.fill",
+  "lat": 43.3021,
+  "lon": 5.3637,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "marseille_major_001",
+      "intent_en": "Ask if entry is free",
+      "text_local": "L'entrée est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY eh-tel grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Entry to the cathedral is free, as with most churches in France.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "wee, lahn-TRAY eh grah-TWEET",
+          "french": "Oui, l'entrée est gratuite."
+        }
+      ]
+    },
+    {
+      "id": "marseille_major_002",
+      "intent_en": "Ask if photos are allowed",
+      "text_local": "Peut-on prendre des photos à l'intérieur ?",
+      "pronunciation": "puh-TON PRAHN-druh day FOH-toh ah lan-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Photos without flash are usually allowed in French cathedrals, but always check for signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ]
+    },
+    {
+      "id": "marseille_major_003",
+      "intent_en": "Ask about visiting times",
+      "text_local": "Quelles sont les heures de visite ?",
+      "pronunciation": "kel son layz UHR duh vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "The cathedral is open daily from 8am to 6pm. Mass is held at 10am and 6pm on Sundays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From 8 AM to 6 PM every day.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "De huit heures à dix-huit heures tous les jours."
+        }
+      ]
+    },
+    {
+      "id": "fr_maj_ma_x1",
+      "intent_en": "Ask if the cathedral is free to enter",
+      "text_local": "L'entrée de la cathédrale est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY duh lah kah-tay-DRAL ay-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "La Major is one of the largest cathedrals built in France in the 19th century, combining Byzantine and Romanesque styles.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "wee, lahn-TRAY ay LEEBR.",
+          "french": "Oui, l'entrée est libre."
+        }
+      ]
+    },
+    {
+      "id": "fr_maj_ma_x2",
+      "intent_en": "Ask where to see the best view of the cathedral from outside",
+      "text_local": "D'où voit-on le mieux la cathédrale de l'extérieur ?",
+      "pronunciation": "doo vwah-TON luh MYUH lah kah-tay-DRAL duh leks-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the esplanade facing the sea, north side.",
+          "phonetic": "duh les-plah-NAHD fahs ah lah MAIR, koh-TAY NOR.",
+          "french": "De l'esplanade face à la mer, côté nord."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "Romanesque",
+      "word_local": "roman",
+      "pronunciation": "roh-MAHN"
+    },
+    {
+      "word_en": "Byzantine",
+      "word_local": "byzantin",
+      "pronunciation": "bee-zahn-TAN"
+    }
+  ]
+}

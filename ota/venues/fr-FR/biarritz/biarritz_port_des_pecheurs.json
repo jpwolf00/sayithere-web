@@ -1,0 +1,118 @@
+{
+  "id": "biarritz_port_pecheurs",
+  "name_en": "Port des Pêcheurs",
+  "name_local": "Port des Pêcheurs",
+  "icon": "ferry",
+  "lat": 43.478,
+  "lon": -1.549,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "biarritz_pecheurs_001",
+      "intent_en": "Ask where the fish market is",
+      "text_local": "Où est le marché au poisson ?",
+      "pronunciation": "oo eh luh mar-SHAY oh pwah-SON",
+      "formality": "polite",
+      "cultural_note": "Fresh fish can be purchased at the port when boats return in the early morning.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the quay, early morning when the boats come in.",
+          "phonetic": "soor luh KAY, toh luh mah-TAN kahn lay bah-TOH ah-REEV",
+          "french": "Sur le quai, tôt le matin quand les bateaux arrivent."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_pecheurs_002",
+      "intent_en": "Ask where to buy fresh fish",
+      "text_local": "Où puis-je acheter du poisson frais ?",
+      "pronunciation": "oo PWEE-zhuh ah-sheh-TAY duh pwah-SON FREH",
+      "formality": "polite",
+      "cultural_note": "The fish market (marché au poisson) is open in the early morning when the boats return. The best selection is around 7-8am.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Directly on the quay, in the morning around 7am.",
+          "phonetic": "dee-rek-tuh-MAHN soor luh KAY, luh mah-TAN vair set UHR",
+          "french": "Directement sur le quai, le matin vers sept heures."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_pecheurs_003",
+      "intent_en": "Ask about the local catch",
+      "text_local": "Quelle est la pêche du jour ?",
+      "pronunciation": "kel eh lah PESH doo ZHOOR",
+      "formality": "polite",
+      "cultural_note": "Local catches include anchovies (anchois), tuna (thon), sardines (sardines), and the famous Bayonne hake (colin).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Ask the fishermen on the quay what they have today.",
+          "phonetic": "duh-mahn-DAY oh peh-SHUHR soor luh KAY suh keel on oh-zhoor-DWEE",
+          "french": "Demandez aux pêcheurs sur le quai ce qu'ils ont aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_pecheurs_004",
+      "intent_en": "Ask about the restaurants along the port",
+      "text_local": "Y a-t-il des restaurants au bord du port ?",
+      "pronunciation": "ee ah-TEEL day res-to-RAN oh BOR doo POR",
+      "formality": "polite",
+      "cultural_note": "Several excellent seafood restaurants line the port, serving fresh grilled fish, shellfish platters, and traditional Basque dishes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are several along the port.",
+          "phonetic": "wee, eel ee ahn ah plu-ZYUHR luh lohn doo POR",
+          "french": "Oui, il y en a plusieurs le long du port."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_pecheurs_005",
+      "intent_en": "Ask about boat trips from the port",
+      "text_local": "Y a-t-il des excursions en bateau depuis le port ?",
+      "pronunciation": "ee ah-TEEL day eks-koor-SYON an boh-TOH duh-PWEE luh POR",
+      "formality": "polite",
+      "cultural_note": "Boat trips including whale watching and coastal cruises depart from the port. Book at the tourist office or directly at the quay.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, check at the tourist office or on the quay.",
+          "phonetic": "wee, rahn-say-nyay-VOO oh boo-ROH duh too-REESM oo soor luh KAY",
+          "french": "Oui, renseignez-vous au bureau de tourisme ou sur le quai."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fishing port",
+      "word_local": "le port de pêche",
+      "pronunciation": "leh POR duh PESH"
+    },
+    {
+      "word_en": "fish",
+      "word_local": "le poisson",
+      "pronunciation": "leh pwah-SON"
+    },
+    {
+      "word_en": "fisherman",
+      "word_local": "le pêcheur",
+      "pronunciation": "leh puh-SHUR"
+    },
+    {
+      "word_en": "seafood",
+      "word_local": "les fruits de mer",
+      "pronunciation": "lay FRWEE duh MAIR"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "geneva_cathedrale_saint_pierre",
+  "name_en": "St. Peter's Cathedral",
+  "name_local": "Cathédrale Saint-Pierre",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "geneva_csp_001",
+      "intent_en": "Ask if you can climb the towers",
+      "text_local": "Peut-on monter dans les tours de la cathédrale ?",
+      "pronunciation": "puh-TOHN mohn-TAY don lay TOOR duh lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "Climbing the north tower offers a panoramic view of Geneva and Lake Léman. The climb involves a narrow spiral staircase of 157 steps.",
+      "responses": [
+        {
+          "english": "Yes, five francs. It's that way.",
+          "phonetic": "wee, sehnk FRAHN. seh par LAH",
+          "french": "Oui, cinq francs. C'est par là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_csp_002",
+      "intent_en": "Ask if there is an audio guide for the cathedral",
+      "text_local": "Y a-t-il un audioguide pour la cathédrale ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dee-oh-GHEED poor lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The cathedral offers audio guides covering its history from the 12th century through the Reformation.",
+      "responses": [
+        {
+          "english": "Yes, at reception. Six francs.",
+          "phonetic": "wee, ah lah-KUHY. seez FRAHN",
+          "french": "Oui, à l'accueil. Six francs."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_csp_003",
+      "intent_en": "Ask about the archaeological site beneath",
+      "text_local": "Y a-t-il un site archéologique sous la cathédrale ?",
+      "pronunciation": "ee-ah-TEEL un SEET ar-shay-oh-loh-ZHEEK soo lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The Site Archéologique beneath the cathedral reveals layers of Geneva's history from the Roman era to the early Christian period — a remarkable underground museum.",
+      "responses": [
+        {
+          "english": "Yes, the entrance is on the side.",
+          "phonetic": "wee, lahn-TRAY eh soor luh koh-TAY",
+          "french": "Oui, l'entrée est sur le côté."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_csp_004",
+      "intent_en": "Ask if the cathedral is free to visit",
+      "text_local": "L'entrée de la cathédrale est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY duh lah kah-tay-DRAL eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Entry to the cathedral nave is free; there is a small fee for the tower climb and the archaeological site.",
+      "responses": [
+        {
+          "english": "Yes, the cathedral is free. The tower costs extra.",
+          "phonetic": "wee, lah kah-tay-DRAL eh grah-TWEET. lah TOOR eh pay-YAHNT",
+          "french": "Oui, la cathédrale est gratuite. La tour est payante."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_csp_005",
+      "intent_en": "Ask about entry fees",
+      "text_local": "L'entrée de la cathédrale est-elle payante ?",
+      "pronunciation": "lon-TRAY duh lah kah-tay-DRAL eh-TEL pay-YONT",
+      "formality": "polite",
+      "cultural_note": "The cathedral itself is free to enter. A small fee is charged for the towers and the archaeological site, but both are well worth visiting.",
+      "responses": [
+        {
+          "english": "The cathedral is free. The tower, five francs.",
+          "phonetic": "lah kah-tay-DRAL eh grah-TWEET. lah TOOR, sehnk FRAHN",
+          "french": "La cathédrale est gratuite. La tour, cinq francs."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    },
+    {
+      "word_en": "Reformation",
+      "word_local": "la Réforme",
+      "pronunciation": "lah ray-FORM"
+    },
+    {
+      "word_en": "archaeological site",
+      "word_local": "le site archéologique",
+      "pronunciation": "luh SEET ar-shay-oh-loh-ZHEEK"
+    }
+  ]
+}

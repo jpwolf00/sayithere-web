@@ -1,0 +1,115 @@
+{
+  "id": "brussels_grand_place",
+  "name_en": "Grand-Place",
+  "name_local": "Grand-Place de Bruxelles",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "brussels_gp_001",
+      "intent_en": "Ask where the tourist office is",
+      "text_local": "Où est l'office de tourisme ?",
+      "pronunciation": "oo eh loh-FEES duh too-REESM",
+      "formality": "polite",
+      "cultural_note": "The tourist information office is located on the Grand-Place and provides maps, guided tour bookings, and event information.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the ground floor of the Maison du Roi, on the square.",
+          "phonetic": "oh ray-duh-shoh-SAY duh lah may-ZOHN doo RWAH, soor lah PLAHS",
+          "french": "Au rez-de-chaussée de la Maison du Roi, sur la place."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gp_002",
+      "intent_en": "Ask if guided tours are available",
+      "text_local": "Y a-t-il des visites guidées ?",
+      "pronunciation": "ee ah-TEEL day vee-ZEET gee-DAY",
+      "formality": "polite",
+      "cultural_note": "Guided walking tours depart from the Grand-Place regularly. They cover the square's history and nearby attractions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, ask at the tourist office on the square.",
+          "phonetic": "wee, rahn-say-nyay-VOO ah loh-FEES duh too-REESM soor lah PLAHS",
+          "french": "Oui, renseignez-vous à l'office de tourisme sur la place."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gp_003",
+      "intent_en": "Ask about the flower carpet event",
+      "text_local": "Quand a lieu le tapis de fleurs ?",
+      "pronunciation": "kohn ah lee-OO luh tah-PEE duh FLUR",
+      "formality": "polite",
+      "cultural_note": "A massive flower carpet (over 100,000 begonias) is displayed every two years in August. Check if your visit coincides with this spectacular event.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's in August, every two years. Over one hundred thousand begonias.",
+          "phonetic": "say tah noo-TOO, too lay duz ahn. ploo duh sahn meel bay-goh-NYAH",
+          "french": "C'est en août, tous les deux ans. Plus de cent mille bégonias."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gp_004",
+      "intent_en": "Ask about the evening illuminations",
+      "text_local": "Y a-t-il des illuminations le soir ?",
+      "pronunciation": "ee-ah-TEEL day zee-lee-mah-SYOHN luh SWAR",
+      "formality": "polite",
+      "cultural_note": "The Grand-Place is beautifully illuminated every evening. The best time for photos is during blue hour, around 9pm in summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the facades are lit up every evening.",
+          "phonetic": "wee, lay fah-SAD son ee-loo-mee-NAY too lay SWAHR",
+          "french": "Oui, les façades sont illuminées tous les soirs."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gp_005",
+      "intent_en": "Ask where to find a good waffle nearby",
+      "text_local": "Où puis-je trouver une bonne gaufre ?",
+      "pronunciation": "oo PWEE-zhuh troo-VAY oon bon GOHFR",
+      "formality": "polite",
+      "cultural_note": "Brussels waffles are a must-try. Quality varies around the Grand-Place. Look for fresh-made ones rather than pre-packaged.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are good stands in the streets around the square.",
+          "phonetic": "eel ee ah duh bohn stahnd dahn lay roo oh-TOOR duh lah PLAHS",
+          "french": "Il y a de bons stands dans les rues autour de la place."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "medieval square",
+      "word_local": "la Grand-Place",
+      "pronunciation": "lah grahn plahs"
+    },
+    {
+      "word_en": "Town Hall",
+      "word_local": "l'Hôtel de Ville",
+      "pronunciation": "loh-TEL duh VEEL"
+    },
+    {
+      "word_en": "guildhall",
+      "word_local": "la maison de la guilde",
+      "pronunciation": "lah may-ZON duh lah GHEELD"
+    },
+    {
+      "word_en": "flower carpet",
+      "word_local": "le tapis de fleurs",
+      "pronunciation": "luh tah-PEE duh FLUR"
+    }
+  ]
+}

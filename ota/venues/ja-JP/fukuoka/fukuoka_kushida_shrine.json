@@ -1,0 +1,100 @@
+{
+  "id": "fukuoka_kushida_shrine",
+  "name_en": "Kushida Shrine",
+  "name_local": "櫛田神社",
+  "icon": "building.columns",
+  "lat": 33.59307,
+  "lon": 130.4106837,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "fukuoka_kushida_shrine_001",
+      "intent_en": "Where is the Susanoo sub-shrine?",
+      "text_local": "すさのおじんじゃは どこですか？",
+      "pronunciation": "sOOsnOHohdeedH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Sub-shrines are common on larger grounds. Look for a smaller structure with its own torii or offering box.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ほんどの ひだりがわに あります。",
+        "pronunciation": "hohndOHnoh-khEEdEEgwNee-EEmSoo",
+        "translation_en": "It's on the left side of the main hall."
+      },
+      "responses": [
+        {
+          "english": "It's on the left side of the main hall.",
+          "phonetic": "hohndOHnoh-khEEdEEgwNee-EEmSoo",
+          "french": "ほんどの ひだりがわに あります。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_kushida_shrine_002",
+      "intent_en": "Where is the Yamakasa Float Display?",
+      "text_local": "やまかさの かざりやまは どこですか？",
+      "pronunciation": "yMksNoh-kZEEymH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The Kazariyama floats are large, so they are often kept in a dedicated hall behind the main shrine.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "うらの てんじしつです。",
+        "pronunciation": "ooNoh-tEHdEEeetsoodEHsoo",
+        "translation_en": "It's in the exhibition room at the back."
+      },
+      "responses": [
+        {
+          "english": "It's in the exhibition room at the back.",
+          "phonetic": "ooNoh-tEHdEEeetsoodEHsoo",
+          "french": "うらの てんじしつです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_kushida_shrine_003",
+      "intent_en": "Where do I draw an omikuji fortune?",
+      "text_local": "おみくじは どこで ひけますか？",
+      "pronunciation": "OHmeekoodEEh-dohkOHdeh-khEEkehmsOOk",
+      "formality": "standard",
+      "cultural_note": "Omikuji are typically self-service from a box near the shrine office or main hall. Have a 100-yen coin ready.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "じんじゃの よこ、はこの ところです。",
+        "pronunciation": "dEEdNoh-yOHkohhkOHnoh-tOHkohohdEHsoo",
+        "translation_en": "To the side of the shrine, at the box."
+      },
+      "responses": [
+        {
+          "english": "To the side of the shrine, at the box.",
+          "phonetic": "dEEdNoh-yOHkohhkOHnoh-tOHkohohdEHsoo",
+          "french": "じんじゃの よこ、はこの ところです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_kushida_shrine_004",
+      "intent_en": "Is the ginkgo tree area accessible now?",
+      "text_local": "いちょうの きの あたりは いま はいれますか？",
+      "pronunciation": "EEtohOOnoh-kEEnoh-TEEh-EEm-hEEEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "The sacred tree is usually in an open area accessible during shrine hours, though a rope may mark its sacred boundary.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、はいれますよ。",
+        "pronunciation": "hEEhEEEHmsOOyoh",
+        "translation_en": "Yes, you can enter."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can enter.",
+          "phonetic": "hEEhEEEHmsOOyoh",
+          "french": "はい、はいれますよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

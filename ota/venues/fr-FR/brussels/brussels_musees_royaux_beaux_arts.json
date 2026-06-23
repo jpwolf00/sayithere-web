@@ -1,0 +1,98 @@
+{
+  "id": "brussels_musees_royaux_beaux_arts",
+  "name_en": "Royal Museums of Fine Arts",
+  "name_local": "Musées Royaux des Beaux-Arts",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "brussels_mrb_001",
+      "intent_en": "Ask about the Magritte collection",
+      "text_local": "Où se trouve la collection Magritte ?",
+      "pronunciation": "oo seh TROOV lah koh-lek-SYOHN mah-GREET",
+      "formality": "polite",
+      "cultural_note": "The museum houses the world's largest Magritte collection — over 200 works including 'The Treachery of Images' ('This is not a pipe').",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Magritte collection is in the building on the right, level -1.",
+          "phonetic": "lah koh-lek-SYON mah-GREET eh dahn luh bah-tee-MAHN ah DRWAHT, nee-VOH mwahn UHN",
+          "french": "La collection Magritte est dans le bâtiment à droite, niveau -1."
+        }
+      ]
+    },
+    {
+      "id": "brussels_mrb_002",
+      "intent_en": "Ask about the free entry day",
+      "text_local": "Y a-t-il un jour de visite gratuite ?",
+      "pronunciation": "ee-ah-TEEL un zhoor duh vee-ZEET grah-teet",
+      "formality": "polite",
+      "cultural_note": "Entry is free every Wednesday after 1pm, and the first Sunday of each month. Otherwise, standard adult tickets are €10.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Free the first Sunday of the month and Wednesdays after 1pm.",
+          "phonetic": "grah-TWEE luh pruh-MYAY dee-MAHNSH doo MWAH ay luh mehr-kruh-DEE ah-PREH trez UHR",
+          "french": "Gratuit le premier dimanche du mois et le mercredi après treize heures."
+        }
+      ]
+    },
+    {
+      "id": "brussels_mrb_003",
+      "intent_en": "Ask about the sculpture garden",
+      "text_local": "Y a-t-il un jardin de sculptures ?",
+      "pronunciation": "ee-ah-TEEL un zhar-DAN duh skool-PTOOR",
+      "formality": "polite",
+      "cultural_note": "The museum has a small sculpture garden behind the building. It's free to access and a peaceful spot in summer months.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, at the back of the museum. Access is free.",
+          "phonetic": "wee, ah lah-RYEHR doo myoo-ZAY. lak-SEH eh grah-TWEE",
+          "french": "Oui, à l'arrière du musée. L'accès est gratuit."
+        }
+      ]
+    },
+    {
+      "id": "brussels_mrb_004",
+      "intent_en": "Ask about the underground parking",
+      "text_local": "Y a-t-il un parking souterrain ?",
+      "pronunciation": "ee-ah-TEEL un par-KING soo-tuh-RAN",
+      "formality": "polite",
+      "cultural_note": "There's underground parking at the museum (entrance on Rue du Musée). It's convenient but costs around €4/hour.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, under the museum. The entrance is on Rue de la Régence.",
+          "phonetic": "wee, soo luh myoo-ZAY. lahn-TRAY eh roo duh lah ray-ZHAHNS",
+          "french": "Oui, sous le musée. L'entrée est rue de la Régence."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fine arts museum",
+      "word_local": "le musée des beaux-arts",
+      "pronunciation": "luh moo-ZAY day boh-ZAR"
+    },
+    {
+      "word_en": "surrealist art",
+      "word_local": "l'art surréaliste",
+      "pronunciation": "lar soo-ray-ah-LEEST"
+    },
+    {
+      "word_en": "painting",
+      "word_local": "la peinture",
+      "pronunciation": "lah pen-TOOR"
+    },
+    {
+      "word_en": "sculpture",
+      "word_local": "la sculpture",
+      "pronunciation": "lah skool-PTOOR"
+    }
+  ]
+}

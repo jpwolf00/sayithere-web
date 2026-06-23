@@ -1,0 +1,118 @@
+{
+  "id": "dijon_musee_beaux_arts",
+  "name_en": "Museum of Fine Arts",
+  "name_local": "Musée des Beaux-Arts",
+  "icon": "building.columns",
+  "lat": 47.322,
+  "lon": 5.0415,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "dijon_beauxarts_001",
+      "intent_en": "Ask if the museum is free to enter",
+      "text_local": "L'entrée du musée est-elle gratuite ?",
+      "pronunciation": "lan-TRAY doo myoo-ZAY eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The Musée des Beaux-Arts in Dijon is free for all visitors — one of the few major French museums with free admission.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry is free for everyone.",
+          "phonetic": "wee, lahn-TRAY eh grah-TWEET poor TOOS",
+          "french": "Oui, l'entrée est gratuite pour tous."
+        }
+      ]
+    },
+    {
+      "id": "dijon_beauxarts_002",
+      "intent_en": "Ask where the Egyptian collection is located",
+      "text_local": "Où se trouve la collection égyptienne ?",
+      "pronunciation": "oo suh TROOV lah koh-lek-SYON ay-zhep-TYEN",
+      "formality": "polite",
+      "cultural_note": "The museum has an important Egyptian collection, including mummies and funerary objects, on the ground floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the ground floor, room three.",
+          "phonetic": "oh ray-duh-shoh-SAY, sal TRWAH",
+          "french": "Au rez-de-chaussée, salle trois."
+        }
+      ]
+    },
+    {
+      "id": "dijon_beauxarts_003",
+      "intent_en": "Ask where the museum shop is",
+      "text_local": "Où est la boutique du musée ?",
+      "pronunciation": "oo eh lah boo-TEEK doo myoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum shop sells art books, postcards, and reproductions of works in the collection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Near the exit, on the ground floor.",
+          "phonetic": "preh duh lah sor-TEE, oh ray-duh-shoh-SAY",
+          "french": "Près de la sortie, au rez-de-chaussée."
+        }
+      ]
+    },
+    {
+      "id": "dijon_beauxarts_004",
+      "intent_en": "Ask if there is a café in the museum",
+      "text_local": "Y a-t-il un café dans le musée ?",
+      "pronunciation": "ee ah-TEEL un kah-FAY dan luh myoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum has a pleasant courtyard café open during visiting hours. It's a great spot to rest after exploring the collections.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the museum has a pleasant courtyard café open during visiting hours.",
+          "phonetic": "wee, say tah lay-TAZH, dahn lay sal doo oh",
+          "french": "Oui, le musée possède un café agréable dans la cour, ouvert pendant les heures de visite."
+        }
+      ]
+    },
+    {
+      "id": "dijon_beauxarts_005",
+      "intent_en": "Ask where the toilets are in the museum",
+      "text_local": "Où sont les toilettes ?",
+      "pronunciation": "oo son lay twah-LET",
+      "formality": "polite",
+      "cultural_note": "Toilets are available inside the museum on the ground floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the ground floor, near the reception.",
+          "phonetic": "oh ray-duh-shoh-SAY, preh duh lah-KUY",
+          "french": "Au rez-de-chaussée, près de l'accueil."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "leh myoo-ZAY"
+    },
+    {
+      "word_en": "gallery",
+      "word_local": "la galerie",
+      "pronunciation": "lah gal-REE"
+    },
+    {
+      "word_en": "painting",
+      "word_local": "la peinture",
+      "pronunciation": "lah pahn-TYUR"
+    },
+    {
+      "word_en": "sculpture",
+      "word_local": "la sculpture",
+      "pronunciation": "lah skoolp-TOOR"
+    }
+  ]
+}

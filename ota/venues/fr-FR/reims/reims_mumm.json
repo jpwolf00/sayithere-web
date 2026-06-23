@@ -1,0 +1,105 @@
+{
+  "id": "reims_mumm",
+  "name_en": "Champagne G.H. Mumm",
+  "name_local": "Champagne G.H. Mumm",
+  "icon": "wineglass",
+  "phrases": [
+    {
+      "id": "mumm_visite",
+      "intent_en": "What time does the next tour start?",
+      "text_local": "À quelle heure commence la prochaine visite ?",
+      "pronunciation": "ah kel UR koh-MONCE lah pro-SHEN vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "Mumm runs regular cellar tours throughout the day. The Cordon Rouge is their flagship cuvée — recognisable by the red sash on the bottle.",
+      "responses": [
+        {
+          "english": "In twenty minutes.",
+          "phonetic": "dahn VAHN mee-NOOT",
+          "french": "Dans vingt minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mumm_cordon",
+      "intent_en": "I would like to taste the Cordon Rouge.",
+      "text_local": "Je voudrais goûter le Cordon Rouge.",
+      "pronunciation": "zhuh voo-DRAY goo-TAY luh kor-DON ROOZH",
+      "formality": "polite",
+      "cultural_note": "Cordon Rouge is Mumm's iconic non-vintage champagne. Named for the red ribbon (cordon rouge) of the Légion d'honneur.",
+      "responses": [
+        {
+          "english": "Yes, after the tour.",
+          "phonetic": "wee ah-PRAY lah vee-ZEET",
+          "french": "Oui, après la visite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_mum_rei_x1",
+      "intent_en": "Can I reserve a tasting for this afternoon",
+      "text_local": "Puis-je réserver une dégustation pour cet après-midi ?",
+      "pronunciation": "pwee-zhuh ray-zur-VAY oon day-goos-tah-SYON poor set ah-pray-mee-DEE",
+      "formality": "polite",
+      "cultural_note": "G.H. Mumm's cellars contain 25 km of chalk tunnels holding millions of bottles — tours run throughout the day.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are spots at 4 pm.",
+          "phonetic": "wee, eel rest day PLAHS ah SEZ UR.",
+          "french": "Oui, il reste des places à seize heures."
+        }
+      ]
+    },
+    {
+      "id": "fr_mum_rei_x2",
+      "intent_en": "Ask which Mumm cuvée is the most classic to taste",
+      "text_local": "Quelle cuvée Mumm est la plus classique à déguster ?",
+      "pronunciation": "kel koo-VAY moom ay lah ploo klah-SEEK ah day-goos-TAY",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Cordon Rouge, our flagship cuvée.",
+          "phonetic": "luh kor-DON ROOZH, notr koo-VAY ahm-blay-mah-TEEK.",
+          "french": "Le Cordon Rouge, notre cuvée emblématique."
+        }
+      ]
+    },
+    {
+      "id": "fr_mum_rei_x3",
+      "intent_en": "Ask if bottles can be shipped internationally",
+      "text_local": "Peut-on expédier des bouteilles à l'étranger ?",
+      "pronunciation": "puh-TON eks-pay-DYAY day boo-TAY ah lay-trahn-ZHAY",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, ask at the shop.",
+          "phonetic": "wee, rahn-sen-YAY-voo ah lah boo-TEEK.",
+          "french": "Oui, renseignez-vous à la boutique."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "prestige (top-tier cuvée)",
+      "word_local": "le prestige",
+      "pronunciation": "luh pres-TEEZH"
+    },
+    {
+      "word_en": "blend / specific champagne bottling",
+      "word_local": "la cuvée",
+      "pronunciation": "lah kew-VAY"
+    }
+  ]
+}

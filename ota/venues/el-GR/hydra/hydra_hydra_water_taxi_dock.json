@@ -1,0 +1,210 @@
+{
+  "id": "hydra_hydra_water_taxi_dock",
+  "name_en": "Hydra Water Taxi Dock",
+  "name_local": "Πλατεία Λ. Κουντουριώτη",
+  "icon": "tram",
+  "lat": 37.3321076,
+  "lon": 23.4664237,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hydra_hydra_water_taxi_dock_001",
+      "intent_en": "When does the water taxi to Ammos leave?",
+      "text_local": "Πότε φεύγει το καραβάκι για την Αμμο;",
+      "pronunciation": "pOHteh-fEHvyee-toh-kAHrahvAHee-yAH-teen-AHmoh",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια προσαρμόζονται ανάλογα την κίνηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις 10:15.",
+        "pronunciation": "stees-thEHkah-thEHkahpEHnteh",
+        "translation_en": "At 10:15."
+      },
+      "responses": [
+        {
+          "english": "At 10:15.",
+          "phonetic": "stees-thEHkah-thEHkahpEHnteh",
+          "french": "Στις 10:15."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_water_taxi_dock_002",
+      "intent_en": "Can I split fare with others waiting?",
+      "text_local": "Μπορώ να μοιραστώ το αντίτιμο με άλλους που περιμένουν;",
+      "pronunciation": "bohrOH-nah-mEErahstOH-toh-EEseetEEreeOH-meh-AHloos",
+      "formality": "standard",
+      "cultural_note": "Οι τιμές είναι συμβατικές πριν την αναχώρηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ρωτήστε τους άλλους.",
+        "pronunciation": "nEHrohtEEsteh-toos-AHloos",
+        "translation_en": "Yes, ask the others."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the others.",
+          "phonetic": "nEHrohtEEsteh-toos-AHloos",
+          "french": "Ναι, ρωτήστε τους άλλους."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_water_taxi_dock_003",
+      "intent_en": "Do I pay captain directly in cash?",
+      "text_local": "Πληρώνω απευθείας στον κυβερνήτη;",
+      "pronunciation": "pleerOHnoh-AHpehfthEEahs-stohng-gEEvehrnEEtee",
+      "formality": "standard",
+      "cultural_note": "Η πληρωμή γίνεται πριν την αποβίβαση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, σε μετρητά στον κυβερνήτη.",
+        "pronunciation": "nEHseh-mEHtreetAH-stohng-gEEvehrnEEtee",
+        "translation_en": "Yes, cash to the captain."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash to the captain.",
+          "phonetic": "nEHseh-mEHtreetAH-stohng-gEEvehrnEEtee",
+          "french": "Ναι, σε μετρητά στον κυβερνήτη."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_water_taxi_dock_004",
+      "intent_en": "Where is the dock for Kamini cove?",
+      "text_local": "Πού είναι η προβλήτα για την Καμίνι;",
+      "pronunciation": "pOO-EEneh-ee-prohvlEEtah-yAH-teeng-gahmEEnee",
+      "formality": "standard",
+      "cultural_note": "Οι προβλήτες είναι σήμανση βάδισης λόγω ζώνης μόνο πεζών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πρώτη προβλήτα αριστερά.",
+        "pronunciation": "prOHtee-prohvlEEt-AHreestehrAH",
+        "translation_en": "First pier on the left."
+      },
+      "responses": [
+        {
+          "english": "First pier on the left.",
+          "phonetic": "prOHtee-prohvlEEt-AHreestehrAH",
+          "french": "Πρώτη προβλήτα αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_water_taxi_dock_005",
+      "intent_en": "Where is the Old Port versus New Port dock?",
+      "text_local": "Πού είναι η αποβάθρα για το παλιό σε σχέση με το νέο λιμάνι;",
+      "pronunciation": "pOO-EEneh-pAHlehOH-keh-nEHoh-leemAHnee",
+      "formality": "standard",
+      "cultural_note": "Οι δύο προβλήτες είναι σήμανση βάδισης λόγω ζώνης μόνο πεζών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Παλιό λιμάνι αριστερά, νέο δεξιά στην Άμμο.",
+        "pronunciation": "pahlyOH-leemAHnee-AHreestehrAHnEHoh-thEHkseeAH-steen-AHmoh",
+        "translation_en": "Kountourioti Square for the old port. New port at Ammos beach."
+      },
+      "responses": [
+        {
+          "english": "Kountourioti Square for the old port. New port at Ammos beach.",
+          "phonetic": "pahlyOH-leemAHnee-AHreestehrAHnEHoh-thEHkseeAH-steen-AHmoh",
+          "french": "Παλιό λιμάνι αριστερά, νέο δεξιά στην Άμμο."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_water_taxi_dock_006",
+      "intent_en": "Do I wait for captain's signal to board?",
+      "text_local": "Περιμένω σήμα του κυβερνήτη;",
+      "pronunciation": "pEHreemEHnoh-sEEmah-too-EEvehrnEEtee",
+      "formality": "standard",
+      "cultural_note": "Ο κυβερνήτης δίνει σήμα όταν είναι ασφαλές.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, περιμένετε το σήμα.",
+        "pronunciation": "nEHpEHreemEHnehtEH-toh-sEEmah",
+        "translation_en": "Yes, wait for the signal."
+      },
+      "responses": [
+        {
+          "english": "Yes, wait for the signal.",
+          "phonetic": "nEHpEHreemEHnehtEH-toh-sEEmah",
+          "french": "Ναι, περιμένετε το σήμα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_water_taxi_dock_007",
+      "intent_en": "How do I split fare with other passengers?",
+      "text_local": "Μοιράζεστε το αντίτιμο με άλλους;",
+      "pronunciation": "bohrOH-nah-mEErahstOH-toh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Οι τιμές είναι συμβατικές πριν την αναχώρηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, αν υπάρχει χώρος.",
+        "pronunciation": "nEHahn-eepAHrkhee-khOHrohs",
+        "translation_en": "Yes, if there is space."
+      },
+      "responses": [
+        {
+          "english": "Yes, if there is space.",
+          "phonetic": "nEHahn-eepAHrkhee-khOHrohs",
+          "french": "Ναι, αν υπάρχει χώρος."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_water_taxi_dock_008",
+      "intent_en": "Where is the captain's boarding signal spot?",
+      "text_local": "Πού περιμένω το σήμα του κυβερνήτη;",
+      "pronunciation": "pOO-pEHreemEHnoh-toh-sEEmah-too-EEvehrnEEtee",
+      "formality": "standard",
+      "cultural_note": "Οι προβλήτες είναι σήμανση βάδισης λόγω ζώνης μόνο πεζών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην προβλήτα, δίπλα στο σκάφος.",
+        "pronunciation": "steem-brohvlEEtahthEEplah-stoh-skAHfohs",
+        "translation_en": "At the dock, next to the boat."
+      },
+      "responses": [
+        {
+          "english": "At the dock, next to the boat.",
+          "phonetic": "steem-brohvlEEtahthEEplah-stoh-skAHfohs",
+          "french": "Στην προβλήτα, δίπλα στο σκάφος."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_water_taxi_dock_009",
+      "intent_en": "Where does the water taxi to Kamini leave?",
+      "text_local": "Πού φεύγει το υδροταξί για το Καμίνι;",
+      "pronunciation": "ahpOH-pOO-fEHvyee-yAH-teeng-gahmEEnee",
+      "formality": "standard",
+      "cultural_note": "Οι προβλήτες είναι σήμανση βάδισης λόγω ζώνης μόνο πεζών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την προβλήτα στο παλιό λιμάνι.",
+        "pronunciation": "ahpOH-teem-brohvlEEtah-stoh-pahlyOH-leemAHnee",
+        "translation_en": "From the pier at the old port."
+      },
+      "responses": [
+        {
+          "english": "From the pier at the old port.",
+          "phonetic": "ahpOH-teem-brohvlEEtah-stoh-pahlyOH-leemAHnee",
+          "french": "Από την προβλήτα στο παλιό λιμάνι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

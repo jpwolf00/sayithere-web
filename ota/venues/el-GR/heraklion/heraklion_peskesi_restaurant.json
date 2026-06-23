@@ -1,0 +1,78 @@
+{
+  "id": "heraklion_peskesi_restaurant",
+  "name_en": "Peskesi Restaurant",
+  "name_local": "Πεσκέσι",
+  "icon": "fork.knife",
+  "lat": 35.340165,
+  "lon": 25.1324977,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "heraklion_peskesi_restaurant_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε ελεύθερο τραπέζι στον κήπο απόψε;",
+      "pronunciation": "EHkhee-ehlEHfthehrEE-trAHpehzahrEEah-stohng-gEEpoh-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Τα τραπέζια στον κήπο είναι δημοφιλή αλλά η διαθεσιμότητά τους εξαρτάται από την κίνηση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχουμε ένα τραπέζι στον κήπο για απόψε.",
+        "pronunciation": "nEHEHkhoomEH-EHnah-trahpEHzee-stohng-gEEpoh-yAH-ahpOHpseh",
+        "translation_en": "Yes, we have a table in the garden for tonight."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have a table in the garden for tonight.",
+          "phonetic": "nEHEHkhoomEH-EHnah-trahpEHzee-stohng-gEEpoh-yAH-ahpOHpseh",
+          "french": "Ναι, έχουμε ένα τραπέζι στον κήπο για απόψε."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_peskesi_restaurant_002",
+      "intent_en": "Ask how to pace rakomelo before meze",
+      "text_local": "Πώς να πιω το ρακόμελο πριν τα μεζέ;",
+      "pronunciation": "pOHz-nah-pkhOH-toh-rahkOHmehlOH-prEEn-dah-mehzEH",
+      "formality": "standard",
+      "cultural_note": "Το ρακόμελο σερβίρεται ως αφόρμηση και συνοδεύεται συχνά από ελαφριά εδέσματα πριν το κυρίως γεύμα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Σιγά σιγά, συνοδεύστε με ελαφριά.",
+        "pronunciation": "seeghAH-seeghAHsEEnohthEHfsteh-meh-EHlahfreeAH",
+        "translation_en": "Slowly, pair with light bites."
+      },
+      "responses": [
+        {
+          "english": "Slowly, pair with light bites.",
+          "phonetic": "seeghAH-seeghAHsEEnohthEHfsteh-meh-EHlahfreeAH",
+          "french": "Σιγά σιγά, συνοδεύστε με ελαφριά."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_peskesi_restaurant_003",
+      "intent_en": "Ask if bill split across cards possible",
+      "text_local": "Μπορώ να πληρώσω τον λογαριασμό με περισσότερες από μία κάρτες;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-tohn-lOHghahrEEahsmOH-meh-pEHreessOHtehrEHs-ahpOH-mEEah-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "Σε παραδοσιακά εστιατόρια της Κρήτης, η πληρωμή με κάρτα είναι συχνή και η διχοτόμηση λογαριασμού γίνεται δεκτή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, γίνεται.",
+        "pronunciation": "nEHyEEnehtEH",
+        "translation_en": "Yes, it's possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's possible.",
+          "phonetic": "nEHyEEnehtEH",
+          "french": "Ναι, γίνεται."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

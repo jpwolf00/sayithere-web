@@ -1,0 +1,115 @@
+{
+  "id": "menton_marche_couvert",
+  "name_en": "Menton Covered Market",
+  "name_local": "Marché Couvert de Menton",
+  "icon": "basket",
+  "phrases": [
+    {
+      "id": "marché_horaire",
+      "intent_en": "What time does the market close today?",
+      "text_local": "Le marché ferme à quelle heure aujourd'hui ?",
+      "pronunciation": "luh mar-SHAY fairm ah kel UR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Opening/closing times can shift slightly by season and day of week.",
+      "responses": [
+        {
+          "english": "At 1 PM.",
+          "phonetic": "ah TREHZ UHR",
+          "french": "À treize heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "marché_citron",
+      "intent_en": "I'm looking for local lemons.",
+      "text_local": "Je cherche des citrons de Menton.",
+      "pronunciation": "zhuh shersh day see-TRON duh mon-TON",
+      "formality": "polite",
+      "cultural_note": "Menton lemons are local pride; ask vendors for IGP-labeled products.",
+      "responses": [
+        {
+          "english": "Right there, at the back.",
+          "phonetic": "zhoost LAH, oh FOHN",
+          "french": "Juste là, au fond."
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    },
+    {
+      "id": "marché_taste",
+      "intent_en": "May I taste this first?",
+      "text_local": "Je peux goûter avant ?",
+      "pronunciation": "zhuh puh goo-TAY ah-VON",
+      "formality": "polite",
+      "cultural_note": "At markets, polite tasting requests are usually fine when offered by the vendor.",
+      "responses": [
+        {
+          "english": "Yes, here.",
+          "phonetic": "wee, tuh-NAY",
+          "french": "Oui, tenez."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "marché_weight",
+      "intent_en": "Could you do 500 grams, please?",
+      "text_local": "Cinq cents grammes, s'il vous plaît.",
+      "pronunciation": "sank son gram seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Metric quantities are standard at French produce stands.",
+      "responses": [
+        {
+          "english": "Here you go, three euros.",
+          "phonetic": "vwah-LAH, trwah uh-ROH",
+          "french": "Voilà, trois euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "marché_card",
+      "intent_en": "Do you take card payments?",
+      "text_local": "Vous prenez la carte ?",
+      "pronunciation": "voo pruh-NAY lah kart",
+      "formality": "polite",
+      "cultural_note": "Smaller stalls may prefer cash for low totals.",
+      "responses": [
+        {
+          "english": "Yes, from ten euros.",
+          "phonetic": "wee, ah par-TEER duh deez uh-ROH",
+          "french": "Oui, à partir de dix euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "lemon",
+      "word_local": "le citron",
+      "pronunciation": "luh see-TRON"
+    },
+    {
+      "word_en": "vendor",
+      "word_local": "le commerçant",
+      "pronunciation": "luh ko-mehr-SON"
+    },
+    {
+      "word_en": "covered market",
+      "word_local": "le marché couvert",
+      "pronunciation": "luh mar-SHAY koo-VAIR"
+    },
+    {
+      "word_en": "cash",
+      "word_local": "en espèces",
+      "pronunciation": "onnes-PESS"
+    }
+  ]
+}

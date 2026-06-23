@@ -1,0 +1,100 @@
+{
+  "id": "fethiye_saklikent_gorge",
+  "name_en": "Saklikent Gorge",
+  "name_local": "Saklikent Kanyonu",
+  "icon": "leaf",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "fethiye_saklikent_gorge_001",
+      "intent_en": "Is the 30 waterfalls trail open today?",
+      "text_local": "30 şelale parkuru bugün açık mı?",
+      "pronunciation": "ohtOOz-shEHahleh-pahrkoorUH-boogUHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Açık alanlarda günlük erişim durumu değişkendir; danışmadan teyit almak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Şu an açık değil.",
+        "pronunciation": "shuh-AHn-ahtshOOk-dEHyihl",
+        "translation_en": "It is not open right now."
+      },
+      "responses": [
+        {
+          "english": "It is not open right now.",
+          "phonetic": "shuh-AHn-ahtshOOk-dEHyihl",
+          "french": "Şu an açık değil."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_saklikent_gorge_002",
+      "intent_en": "Do I pay dolmuş fare on board or before?",
+      "text_local": "Dolmuş ücretini araçta mı yoksa önceden mi ödüyorum?",
+      "pronunciation": "dawmUHsh-uhdzhrehteenIH-ahrahtshtAH-moo-yAWksah-UHndzhehdahn-mih-uhdUEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Dolmuşlarda ücret genellikle şoföre elden nakit olarak ödenir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Şoföre nakit ödeyin.",
+        "pronunciation": "shohfuhrEH-nahkIHt-uhdehyIHn",
+        "translation_en": "Pay the driver in cash."
+      },
+      "responses": [
+        {
+          "english": "Pay the driver in cash.",
+          "phonetic": "shohfuhrEH-nahkIHt-uhdehyIHn",
+          "french": "Şoföre nakit ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_saklikent_gorge_003",
+      "intent_en": "Where do Jeep Safari tours depart from?",
+      "text_local": "Jeep Safari turları nereden kalkıyor?",
+      "pronunciation": "zhehEHp-sahfahrIH-tuhrahrOO-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Safari turlarının başlangıç noktası değişebilir; danışmadan bilgi alınmalıdır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otoparkın oradan.",
+        "pronunciation": "ohtohpahrkOOn-OHrahdahn",
+        "translation_en": "From near the parking lot."
+      },
+      "responses": [
+        {
+          "english": "From near the parking lot.",
+          "phonetic": "ohtohpahrkOOn-OHrahdahn",
+          "french": "Otoparkın oradan."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_saklikent_gorge_004",
+      "intent_en": "Do I pay dolmuş fare on board or before?",
+      "text_local": "Dolmuş ücretini araçta mı yoksa binmeden önce mi ödüyorum?",
+      "pronunciation": "dawmUHsh-uhdzhrehteenIH-ahrahtshtAH-moo-yAWksah-bIHnmehdahn-UHndzheh-mih-uhdUEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Turkish dolmuş fares are typically paid in cash directly to the driver during the ride.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Araçta, şoföre ödersiniz.",
+        "pronunciation": "ahrahtshtAHshohfuhrEH-uhdEHrseenihz",
+        "translation_en": "On board, you pay the driver."
+      },
+      "responses": [
+        {
+          "english": "On board, you pay the driver.",
+          "phonetic": "ahrahtshtAHshohfuhrEH-uhdEHrseenihz",
+          "french": "Araçta, şoföre ödersiniz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

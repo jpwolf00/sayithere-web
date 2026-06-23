@@ -1,0 +1,100 @@
+{
+  "id": "nara_kintetsu_nara_station",
+  "name_en": "Kintetsu Nara Station",
+  "name_local": "近鉄奈良駅",
+  "icon": "tram",
+  "lat": 34.68656576034356,
+  "lon": 135.80252512626586,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "nara_kintetsu_nara_station_001",
+      "intent_en": "How do I buy a limited express ticket?",
+      "text_local": "とっきゅうけんの かいかたを おしえてください。",
+      "pronunciation": "tOHkkooookEHnnoh-kEEktOH-OHeeEHtehkOOdsEE",
+      "formality": "standard",
+      "cultural_note": "Staff often use the word 'touch' (さわる) for ticket machines, as they have touch screens. Pointing to the machine is common.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あの きっぷうりばの がめんを さわって ください。",
+        "pronunciation": "Noh-kEEppooooeebNoh-gMehOH-swTteh-kOOdsEE",
+        "translation_en": "Touch the screen on that ticket machine over there."
+      },
+      "responses": [
+        {
+          "english": "Touch the screen on that ticket machine over there.",
+          "phonetic": "Noh-kEEppooooeebNoh-gMehOH-swTteh-kOOdsEE",
+          "french": "あの きっぷうりばの がめんを さわって ください。"
+        }
+      ]
+    },
+    {
+      "id": "nara_kintetsu_nara_station_002",
+      "intent_en": "Where are the coin lockers?",
+      "text_local": "コインロッカーは どこですか？",
+      "pronunciation": "kOHeenohkkH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Coin lockers in stations are often clustered near gates or staircases. Giving two landmarks is a helpful, natural practice response.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいだんの となり、ちゅうおうかいさつの ちかくです。",
+        "pronunciation": "kEEdNnoh-tohnEEtOOooOHookEEstsOOnoh-tEEkkoodEHsoo",
+        "translation_en": "Next to the stairs, near the central gate."
+      },
+      "responses": [
+        {
+          "english": "Next to the stairs, near the central gate.",
+          "phonetic": "kEEdNnoh-tohnEEtOOooOHookEEstsOOnoh-tEEkkoodEHsoo",
+          "french": "かいだんの となり、ちゅうおうかいさつの ちかくです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_kintetsu_nara_station_003",
+      "intent_en": "Where is the Nara Park bus stop?",
+      "text_local": "ならこうえん ゆきの バスのりばは どこですか？",
+      "pronunciation": "nKohOOeh-yookEEnoh-bSoonOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In Japanese stations, exits are often named (e.g., Central Exit). Giving a simple landmark and direction is the most common way staff guide travelers.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ちゅうおうぐちを でて、ひだりです。",
+        "pronunciation": "tOOooOHoogootEEoh-dEHtehkhEEdeedEHsoo",
+        "translation_en": "Exit the central gate and it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Exit the central gate and it's on the left.",
+          "phonetic": "tOOooOHoogootEEoh-dEHtehkhEEdeedEHsoo",
+          "french": "ちゅうおうぐちを でて、ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_kintetsu_nara_station_004",
+      "intent_en": "When does the next train to Osaka leave?",
+      "text_local": "つぎの おおさかゆきは なんじに でますか？",
+      "pronunciation": "tsoogEEnoh-OHohskYookEEh-nDEEnee-dEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "A plausible, specific time and platform number for a practice example. Real schedules vary, but this structure is exactly what you'd hear.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "14じ 20ぷんです。3ばんのりばです。",
+        "pronunciation": "dzOOsee-dEE-nEE-dzoo-poondEHsoosN-bNnohEEbdEHsoo",
+        "translation_en": "At 14:20. Platform 3."
+      },
+      "responses": [
+        {
+          "english": "At 14:20. Platform 3.",
+          "phonetic": "dzOOsee-dEE-nEE-dzoo-poondEHsoosN-bNnohEEbdEHsoo",
+          "french": "14じ 20ぷんです。3ばんのりばです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,112 @@
+{
+  "id": "montreal_neighborhood_quartier_des_spectacles",
+  "name_en": "Quartier des Spectacles (Neighbourhood)",
+  "name_local": "Quartier des Spectacles",
+  "icon": "building.2",
+  "lat": 45.5087,
+  "lon": -73.5647,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "mtl_qdsnb_001",
+      "intent_en": "Ask what's on at Place des Arts this weekend",
+      "text_local": "Qu'est-ce qui se passe à la Place des Arts cette fin de semaine ?",
+      "pronunciation": "kess-KEE suh PASS ah lah plass day ZAHR set fan duh suh-MEN",
+      "formality": "neutral",
+      "cultural_note": "'Fin de semaine' is the Québécois term for weekend (vs. 'week-end' used in France). Place des Arts anchors this cultural district.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "mtl_qdsnb_002",
+      "intent_en": "Ask for the schedule of the jazz festival",
+      "text_local": "La programmation du Festival de jazz, c'est où qu'on la trouve ?",
+      "pronunciation": "lah pro-grah-mah-SYON doo fes-tee-VAHL duh JAZZ say OO kon lah TROOV",
+      "formality": "neutral",
+      "cultural_note": "The Montréal International Jazz Festival is the world's largest, with over 500 concerts over 11 days each June. Many shows are free outdoors.",
+      "responses": [
+        {
+          "english": "You can get it at the reception desk or on their website.",
+          "phonetic": "lah proh-grah-mah-SYOHN dyoo fes-tee-VAHL duh JAHZ, say TOO kawn lah TROOV",
+          "french": "Vous pouvez la prendre à l'accueil ou sur leur site web."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_qdsnb_003",
+      "intent_en": "Ask where to sit for free outdoor concerts",
+      "text_local": "Y'a des bonnes places pour voir les shows dehors gratuitement ?",
+      "pronunciation": "yah day bon PLASS poor VWAHR lay SHOH duh-OR gra-tweet-MAH",
+      "formality": "informal",
+      "cultural_note": "The Esplanade Clark and Place des Festivals host massive free outdoor concerts. Show up early for a spot near the stage.",
+      "responses": [
+        {
+          "english": "Yes, the bleachers in the center are perfect.",
+          "phonetic": "YAH day BAWN PLAHS poor VWAHR lay SHOH duh-AWR grah-twee-TMAHN",
+          "french": "Oui, les gradins au centre sont parfaits."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_qdsnb_004",
+      "intent_en": "Ask where to park nearby",
+      "text_local": "Y'a-tu du stationnement pas trop loin ?",
+      "pronunciation": "yah-TOO doo stah-syon-MAH pah troh LWAH",
+      "formality": "informal",
+      "cultural_note": "The metro (Place-des-Arts station) is far easier than driving. If you drive, underground parking is available under Complexe Desjardins nearby.",
+      "responses": [
+        {
+          "english": "Yes, there is an underground parking lot here.",
+          "phonetic": "ES suh kee-GREK ah dy stah-syoh-nuh-MAHN pah TROH lwa(n)",
+          "french": "Oui, il y a un parking souterrain ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_qdsnb_005",
+      "intent_en": "Ask about the luminous PATH installations",
+      "text_local": "Les installations lumineuses du quartier, elles sont allumées à quelle heure ?",
+      "pronunciation": "lay an-sta-lah-SYON loo-mee-NUZ doo kar-tee-YAY el son ah-loo-MAY ah kel UR",
+      "formality": "polite",
+      "cultural_note": "The Quartier des Spectacles has permanent luminous art installations lit each evening — a beautiful evening stroll year-round.",
+      "responses": [
+        {
+          "english": "They stay lit all evening in the Quartier des Spectacles, from nightfall onward.",
+          "phonetic": "bawn-ZHOOR, zhoos-KAH kel UR leh zayn-stah-LAH-syaw(n)z LOO-mee-nuhz dyoo kar-TYAY duh spek-TAH-kl rayst-TELZ ah-loo-MAY",
+          "french": "Elles restent allumées toute la soirée dans le Quartier des Spectacles, dès la tombée de la nuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "weekend (Québécois)",
+      "word_local": "la fin de semaine",
+      "pronunciation": "lah fan duh suh-MEN"
+    },
+    {
+      "word_en": "programming / schedule",
+      "word_local": "la programmation",
+      "pronunciation": "lah pro-grah-mah-SYON"
+    },
+    {
+      "word_en": "outdoor show",
+      "word_local": "le show dehors / le spectacle extérieur",
+      "pronunciation": "luh SHOH duh-OR"
+    },
+    {
+      "word_en": "light installation",
+      "word_local": "l'installation lumineuse",
+      "pronunciation": "lan-sta-lah-SYON loo-mee-NUZ"
+    }
+  ]
+}

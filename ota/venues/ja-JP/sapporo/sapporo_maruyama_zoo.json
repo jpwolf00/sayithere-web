@@ -1,0 +1,100 @@
+{
+  "id": "sapporo_maruyama_zoo",
+  "name_en": "Maruyama Zoo",
+  "name_local": "札幌市円山動物園",
+  "icon": "building.columns",
+  "lat": 43.0487514,
+  "lon": 141.306127,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "sapporo_maruyama_zoo_001",
+      "intent_en": "Where is the Wolf Forest?",
+      "text_local": "おおかみのもりは どこですか？",
+      "pronunciation": "OHohkmEEnohmohEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Zoo exhibits are often named with natural features like 'forest' (もり) to describe the habitat setting.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おくのほう、ひだりがわです。",
+        "pronunciation": "OHkoonohhOHookhEEdEEgwdEHsoo",
+        "translation_en": "Toward the back, on the left-hand side."
+      },
+      "responses": [
+        {
+          "english": "Toward the back, on the left-hand side.",
+          "phonetic": "OHkoonohhOHookhEEdEEgwdEHsoo",
+          "french": "おくのほう、ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_maruyama_zoo_002",
+      "intent_en": "Where are the coin lockers?",
+      "text_local": "コインロッカーは どこですか？",
+      "pronunciation": "kOHeenohkkH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Coin lockers (コインロッカー) are standard at Japanese attractions, usually near the main gate.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いりぐちの すぐ そばです。",
+        "pronunciation": "EEeegootEEnoh-sOOgoo-sOHbdEHsoo",
+        "translation_en": "Right near the entrance."
+      },
+      "responses": [
+        {
+          "english": "Right near the entrance.",
+          "phonetic": "EEeegootEEnoh-sOOgoo-sOHbdEHsoo",
+          "french": "いりぐちの すぐ そばです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_maruyama_zoo_003",
+      "intent_en": "Where is the Polar Bear House?",
+      "text_local": "しろくまハウスは どこですか？",
+      "pronunciation": "EEohkOOmhOOsOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Japanese zoo maps often use 'House' (ハウス) for indoor viewing areas, so the English term is directly borrowed.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、ひだりです。",
+        "pronunciation": "mssOOgoo-EEttehkhEEdeedEHsoo",
+        "translation_en": "Go straight and it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Go straight and it's on the left.",
+          "phonetic": "mssOOgoo-EEttehkhEEdeedEHsoo",
+          "french": "まっすぐ いって、ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_maruyama_zoo_004",
+      "intent_en": "Is the annual pass available here?",
+      "text_local": "ねんかんパスポートは ここで かえますか？",
+      "pronunciation": "nEHngkPsOOpohohtOHh-kohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Annual passes are sold at the main ticket booth; 'まどぐち' (window/counter) is the natural term for the sales point.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、この まどぐちで どうぞ。",
+        "pronunciation": "hEEkOHnoh-mDohgootEEdeh-dohOOzoh",
+        "translation_en": "Yes, right here at this window."
+      },
+      "responses": [
+        {
+          "english": "Yes, right here at this window.",
+          "phonetic": "hEEkOHnoh-mDohgootEEdeh-dohOOzoh",
+          "french": "はい、この まどぐちで どうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

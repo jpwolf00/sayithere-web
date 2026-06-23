@@ -1,0 +1,144 @@
+{
+  "id": "ephesus_selçuk_pidecisi",
+  "name_en": "Selçuk Pidecisi",
+  "name_local": "Selçuk Pidecisi",
+  "icon": "fork.knife",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "ephesus_selçuk_pidecisi_001",
+      "intent_en": "Do I order at counter first?",
+      "text_local": "Önce kasada mı sipariş veriyorum?",
+      "pronunciation": "UHndzheh-kAHsahdah-moo-seepahrIHsh-vehrEEyohruhm",
+      "formality": "casual",
+      "cultural_note": "In many Turkish pidecisi, you place your order at the counter before finding a seat.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, önce sipariş verin, sonra oturun.",
+        "pronunciation": "ehvEHtUHndzheh-seepahrIHsh-vehrIHnsawnrAH-ohtoorUHn",
+        "translation_en": "Yes, order first, then sit down."
+      },
+      "responses": [
+        {
+          "english": "Yes, order first, then sit down.",
+          "phonetic": "ehvEHtUHndzheh-seepahrIHsh-vehrIHnsawnrAH-ohtoorUHn",
+          "french": "Evet, önce sipariş verin, sonra oturun."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_pidecisi_002",
+      "intent_en": "Do I order at counter first?",
+      "text_local": "Önce tezgahtan mı sipariş veriyorum?",
+      "pronunciation": "UHndzheh-tehzgahhtAHn-moo-seepahrIHsh-vehrEEyohruhm",
+      "formality": "casual",
+      "cultural_note": "Self-service ordering at the counter is the norm here before finding a seat.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, önce sipariş verip sonra oturun.",
+        "pronunciation": "ehvEHtUHndzheh-seepahrIHsh-vehrIHp-sawnrAH-ohtoorUHn",
+        "translation_en": "Yes, order first then sit down."
+      },
+      "responses": [
+        {
+          "english": "Yes, order first then sit down.",
+          "phonetic": "ehvEHtUHndzheh-seepahrIHsh-vehrIHp-sawnrAH-ohtoorUHn",
+          "french": "Evet, önce sipariş verip sonra oturun."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_pidecisi_003",
+      "intent_en": "Is lahmacun available now?",
+      "text_local": "Lahmacun var mı şimdi?",
+      "pronunciation": "ahhmahdzhUHn-vAHr-moo-shihmdIH",
+      "formality": "standard",
+      "cultural_note": "Lahmacun is a staple and is baked fresh in the lahmacun fırını throughout the day.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, fırından taze çıkıyor.",
+        "pronunciation": "ehvEHtfooroondAHn-tahzEH-tshookOOyawr",
+        "translation_en": "Yes, it's coming fresh from the oven."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's coming fresh from the oven.",
+          "phonetic": "ehvEHtfooroondAHn-tahzEH-tshookOOyawr",
+          "french": "Evet, fırından taze çıkıyor."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_pidecisi_004",
+      "intent_en": "Do you accept credit card?",
+      "text_local": "Kredi kartı geçiyor mu?",
+      "pronunciation": "krehdIH-kahrtOO-ehtshEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "While cash is the preferred payment method, cards are typically accepted for the meal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nakit tercih ederiz ama geçerlidir.",
+        "pronunciation": "nahkIHt-tehrdzhIHh-ehdEHrihz-AHmah-ehtshehrlEEdihr",
+        "translation_en": "We prefer cash but it is accepted."
+      },
+      "responses": [
+        {
+          "english": "We prefer cash but it is accepted.",
+          "phonetic": "nahkIHt-tehrdzhIHh-ehdEHrihz-AHmah-ehtshehrlEEdihr",
+          "french": "Nakit tercih ederiz ama geçerlidir."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_pidecisi_005",
+      "intent_en": "Where do I sit after ordering?",
+      "text_local": "Siparişten sonra nereye oturayım?",
+      "pronunciation": "seepahrihshtAHn-sawnrAH-nEHrehyeh-ohtoorahyOOm",
+      "formality": "standard",
+      "cultural_note": "After ordering at the counter, seating is generally at shared tables on a first-come basis.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İstediğiniz boş masaya geçebilirsiniz.",
+        "pronunciation": "ihstehdEEyeenihz-bAWsh-mAHsahyah-ehtshehbeelIHrseenihz",
+        "translation_en": "You can go to any free table."
+      },
+      "responses": [
+        {
+          "english": "You can go to any free table.",
+          "phonetic": "ihstehdEEyeenihz-bAWsh-mAHsahyah-ehtshehbeelIHrseenihz",
+          "french": "İstediğiniz boş masaya geçebilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_pidecisi_006",
+      "intent_en": "Do you accept credit card?",
+      "text_local": "Kredi kartı geçerli mi?",
+      "pronunciation": "krehdIH-kahrtOO-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Cash is preferred, so it's always safe to ask the kasseir before ordering.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Maalesef, sadece nakit.",
+        "pronunciation": "mahahlehsEHfsahdEHdzheh-nahkIHt",
+        "translation_en": "Unfortunately, cash only."
+      },
+      "responses": [
+        {
+          "english": "Unfortunately, cash only.",
+          "phonetic": "mahahlehsEHfsahdEHdzheh-nahkIHt",
+          "french": "Maalesef, sadece nakit."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

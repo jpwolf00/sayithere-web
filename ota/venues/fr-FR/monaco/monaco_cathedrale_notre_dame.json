@@ -1,0 +1,98 @@
+{
+  "id": "monaco_cathedrale_notre_dame",
+  "name_en": "Monaco Cathedral",
+  "name_local": "Cathédrale Notre-Dame de Monaco",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "monaco_cnd_001",
+      "intent_en": "Ask about Grace Kelly's tomb",
+      "text_local": "Où se trouve la tombe de Grace Kelly ?",
+      "pronunciation": "oo seh TROOV lah tom duh GREHS kel-EE",
+      "formality": "polite",
+      "cultural_note": "Princess Grace (Grace Kelly) is buried in the cathedral's crypt, alongside Prince Rainier III. Her grave is a place of pilgrimage for fans.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the crypt, to the left of the entrance.",
+          "phonetic": "wee, say tun pwahn an-por-TANT duh lees-TWAR loh-KAL",
+          "french": "Dans la crypte, à gauche de l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "monaco_cnd_002",
+      "intent_en": "Ask about the Sunday mass",
+      "text_local": "À quelle heure est la messe le dimanche ?",
+      "pronunciation": "ah kel UHR eh lah mess luh dee-MONSH",
+      "formality": "polite",
+      "cultural_note": "Sunday mass is held at 10am. The cathedral is also the site of the Monaco princes' funerals and royal ceremonies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Mass is at ten o'clock on Sunday.",
+          "phonetic": "",
+          "french": "La messe est à dix heures le dimanche."
+        }
+      ]
+    },
+    {
+      "id": "monaco_cnd_003",
+      "intent_en": "Ask about the bishop's throne",
+      "text_local": "Où est le trône de l'évêque ?",
+      "pronunciation": "oo eh luh trohn duh lay-VEK",
+      "formality": "polite",
+      "cultural_note": "The cathedral features a 16th-century bishop's throne in white marble, one of the few surviving examples in the region.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the choir, to the right of the altar.",
+          "phonetic": "",
+          "french": "Dans le choeur, à droite de l'autel."
+        }
+      ]
+    },
+    {
+      "id": "monaco_cnd_004",
+      "intent_en": "Ask about opening hours",
+      "text_local": "Quelles sont les heures d'ouverture de la cathédrale ?",
+      "pronunciation": "kel son layz UHR doo-vair-TYOR duh lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The cathedral is open daily for visits outside of mass times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From 8:30 AM to 6 PM, except during masses.",
+          "phonetic": "duh weet UHR trahnt ah dee-ZWEET UHR, soh pahn-DAHN lay MES",
+          "french": "De huit heures trente à dix-huit heures, sauf pendant les messes."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah kreEPT"
+    },
+    {
+      "word_en": "mass",
+      "word_local": "la messe",
+      "pronunciation": "lah mess"
+    },
+    {
+      "word_en": "organ",
+      "word_local": "l'orgue",
+      "pronunciation": "lorg"
+    }
+  ]
+}

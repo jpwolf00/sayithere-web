@@ -1,0 +1,152 @@
+{
+  "id": "venue_musee_picasso",
+  "name_en": "Musée Picasso Paris",
+  "name_local": "Musée Picasso Paris",
+  "icon": "paintpalette.fill",
+  "phrases": [
+    {
+      "id": "venue_musee_picasso_001",
+      "intent_en": "Ask where the self-portraits are displayed",
+      "text_local": "Où sont exposés les autoportraits de Picasso ?",
+      "pronunciation": "oo sohn ex-poh-ZAY layz oh-toh-por-TREH duh pee-KAH-soh",
+      "formality": "standard",
+      "cultural_note": "The museum holds over 5,000 works from Picasso's personal collection, donated by his family as part of an inheritance settlement. The self-portraits offer a fascinating evolution across his different artistic periods.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The self-portraits are on the second floor.",
+          "phonetic": "layz oh-toh-por-TREH sohn toh duh-ZYEM ay-TAHZH",
+          "french": "Les autoportraits sont au deuxième étage."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_picasso_002",
+      "intent_en": "Ask where the toilets are in the museum",
+      "text_local": "Où sont les toilettes dans le musée ?",
+      "pronunciation": "oo sohn lay twah-LET dahn luh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "Toilets are usually in the basement or ground floor of Parisian museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the basement, at the bottom of the stairs.",
+          "phonetic": "oh soo-sol, ahn bah duh les-kah-lee-YAY",
+          "french": "Au sous-sol, en bas de l'escalier."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_picasso_003",
+      "intent_en": "Ask for a museum map",
+      "text_local": "Vous avez un plan du musée ?",
+      "pronunciation": "vooz ah-VAY uhn plahn doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "Free museum maps are usually available at the front desk or ticket counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are some at the reception.",
+          "phonetic": "wee, eel ee ahn ah ah lah-KUH-ee",
+          "french": "Oui, il y en a à l'accueil."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_picasso_004",
+      "intent_en": "Buy two adult tickets",
+      "text_local": "Deux billets adultes, s'il vous plaît.",
+      "pronunciation": "duh bee-YEH ah-DOOLT, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Admission is free for visitors under 18 and for EU residents under 26. The museum is closed on Mondays. The courtyard café is a pleasant spot to rest after the visit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Two adult tickets, that is twenty-eight euros.",
+          "phonetic": "duh bee-YAY ah-DOOLT, sah feh vant-weet uh-ROH",
+          "french": "Deux billets adulte, ça fait vingt-huit euros."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_picasso_005",
+      "intent_en": "Ask if there is a guided tour in English",
+      "text_local": "Y a-t-il des visites guidées en anglais aujourd'hui ?",
+      "pronunciation": "ee ah-TEEL day vee-ZEET gee-DAY ahn ahn-GLEH oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Guided tours in English are offered on select days. Check the museum's weekly schedule at the entrance. The audio guide is a reliable alternative and covers the key works in depth.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there is a guided tour in English on Saturdays at two.",
+          "phonetic": "wee, eel ee ah oon vee-ZEET gee-DAY ahn ahn-GLEH luh sahm-DEE ah kah-TORZ uhr",
+          "french": "Oui, il y a une visite guidée en anglais le samedi à quatorze heures."
+        }
+      ]
+    },
+    {
+      "id": "venue_musee_picasso_006",
+      "intent_en": "Ask where the museum shop is",
+      "text_local": "Où se trouve la boutique du musée ?",
+      "pronunciation": "oo suh TROOV lah boo-TEEK doo moo-ZAY",
+      "formality": "standard",
+      "cultural_note": "The museum shop has an excellent selection of art books, prints, and Picasso-inspired gifts. It's accessible without a museum ticket — worth browsing even if you've already visited.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The shop is on the ground floor, near the exit.",
+          "phonetic": "lah boo-TEEK eh toh ray-duh-shoh-SAY, preh duh lah sor-TEE",
+          "french": "La boutique est au rez-de-chaussée, près de la sortie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Cubism",
+      "word_local": "Cubisme",
+      "pronunciation": "koo-BEEZM"
+    },
+    {
+      "word_en": "Self-portrait",
+      "word_local": "Autoportrait",
+      "pronunciation": "oh-toh-por-TREH"
+    },
+    {
+      "word_en": "Period",
+      "word_local": "Période",
+      "pronunciation": "pay-RYOD"
+    },
+    {
+      "word_en": "Mansion",
+      "word_local": "Hôtel particulier",
+      "pronunciation": "oh-TEL par-tee-koo-LYAY"
+    },
+    {
+      "word_en": "Sculpture",
+      "word_local": "Sculpture",
+      "pronunciation": "skoolp-TOOR"
+    },
+    {
+      "word_en": "Sketch",
+      "word_local": "Esquisse",
+      "pronunciation": "es-KEES"
+    },
+    {
+      "word_en": "Collection",
+      "word_local": "Collection",
+      "pronunciation": "koh-lek-SYOHN"
+    },
+    {
+      "word_en": "Surrealism",
+      "word_local": "Surréalisme",
+      "pronunciation": "soo-ray-ah-LEEZM"
+    }
+  ]
+}

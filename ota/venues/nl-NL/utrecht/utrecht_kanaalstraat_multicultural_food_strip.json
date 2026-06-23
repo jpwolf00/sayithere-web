@@ -1,0 +1,56 @@
+{
+  "id": "utrecht_kanaalstraat_multicultural_food_strip",
+  "name_en": "Kanaalstraat multicultural food strip",
+  "name_local": "Kanaalstraat",
+  "icon": "map",
+  "lat": 52.0913394,
+  "lon": 5.1006515,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "utrecht_kanaalstraat_multicultural_food_strip_001",
+      "intent_en": "Where is Toko Leen?",
+      "text_local": "Waar is Toko Leen?",
+      "pronunciation": "vAHr-ihs-tOHkoh-lEHn",
+      "formality": "standard",
+      "cultural_note": "Locals often point vaguely down the street or toward shop windows without exact directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Toko Leen is hier in de straat.",
+        "pronunciation": "tOHkoh-lEHn-ihs-hEEr-ihn-duh-strAHt",
+        "translation_en": "Toko Leen is here on this street."
+      },
+      "responses": [
+        {
+          "english": "Toko Leen is here on this street.",
+          "phonetic": "tOHkoh-lEHn-ihs-hEEr-ihn-duh-strAHt",
+          "french": "Toko Leen is hier in de straat."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_kanaalstraat_multicultural_food_strip_002",
+      "intent_en": "Can I pay by card at toko counters?",
+      "text_local": "Kan ik pinnen bij de toko’s?",
+      "pronunciation": "kahn-ihk-pIHnuhn-behih-duh-tOHkohs",
+      "formality": "standard",
+      "cultural_note": "Cash is still king at many small toko counters; pinpas (debit) is sometimes accepted but not guaranteed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meestal contant, vraag het bij de balie.",
+        "pronunciation": "mEHstAHl-kawntAHntvrAHkh-huht-behih-duh-bahlEE",
+        "translation_en": "Usually cash only, ask at the counter."
+      },
+      "responses": [
+        {
+          "english": "Usually cash only, ask at the counter.",
+          "phonetic": "mEHstAHl-kawntAHntvrAHkh-huht-behih-duh-bahlEE",
+          "french": "Meestal contant, vraag het bij de balie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

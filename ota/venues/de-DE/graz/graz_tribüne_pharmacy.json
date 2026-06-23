@@ -1,0 +1,100 @@
+{
+  "id": "graz_tribüne_pharmacy",
+  "name_en": "Tribüne Pharmacy",
+  "name_local": "Apotheke zur Tribüne",
+  "icon": "info.circle",
+  "lat": 47.0708678,
+  "lon": 15.4382786,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "graz_tribüne_pharmacy_001",
+      "intent_en": "Where are Styrian herbal remedies stocked?",
+      "text_local": "Wo finde ich steirische Kräuterheilmittel?",
+      "pronunciation": "vOH-fIHnduh-ihkh-shtEYErihshuh-krAWuhthEYElmihtuhl",
+      "formality": "standard",
+      "cultural_note": "Regional herbal remedies are often grouped in a dedicated section in Austrian pharmacies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im hinteren Regalbereich.",
+        "pronunciation": "ihm-hIHntuhruhn-rEHahlbuhrEYEkh",
+        "translation_en": "In the back section."
+      },
+      "responses": [
+        {
+          "english": "In the back section.",
+          "phonetic": "ihm-hIHntuhruhn-rEHahlbuhrEYEkh",
+          "french": "Im hinteren Regalbereich."
+        }
+      ]
+    },
+    {
+      "id": "graz_tribüne_pharmacy_002",
+      "intent_en": "Where do I take a number on entry?",
+      "text_local": "Wo bekomme ich eine Nummer?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-EYEnuh-nUHm",
+      "formality": "casual",
+      "cultural_note": "Queuing systems with numbered tickets are common in Austrian pharmacies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten beim Eingang.",
+        "pronunciation": "ahm-OWtohmAHtuhn-beyem-EYEnAHng",
+        "translation_en": "At the machine by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the machine by the entrance.",
+          "phonetic": "ahm-OWtohmAHtuhn-beyem-EYEnAHng",
+          "french": "Am Automaten beim Eingang."
+        }
+      ]
+    },
+    {
+      "id": "graz_tribüne_pharmacy_003",
+      "intent_en": "Where do I swipe my E-Card?",
+      "text_local": "Wo kann ich meine E-Card einlesen?",
+      "pronunciation": "vOH-kAHn-ihkh-mEYEnuh-EHkAHrt-EYEnlEHzuhn",
+      "formality": "standard",
+      "cultural_note": "In Austrian pharmacies, health insurance matters are typically handled at a dedicated counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kartenleser neben dem Schalter.",
+        "pronunciation": "ahm-kAHrtuhnluhs-nEHbuhn-dehm-shAHlt",
+        "translation_en": "At the card reader next to the counter."
+      },
+      "responses": [
+        {
+          "english": "At the card reader next to the counter.",
+          "phonetic": "ahm-kAHrtuhnluhs-nEHbuhn-dehm-shAHlt",
+          "french": "Am Kartenleser neben dem Schalter."
+        }
+      ]
+    },
+    {
+      "id": "graz_tribüne_pharmacy_004",
+      "intent_en": "Where do I pay prescription co-payment?",
+      "text_local": "Wo zahle ich die Rezeptgebühr?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dee-rEHtsehptEHbuer",
+      "formality": "standard",
+      "cultural_note": "Prescription co-payments are processed at the main register in Austrian pharmacies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Kasse dort drüben.",
+        "pronunciation": "ahn-dehr-kAHsuh-dAWrt-drUEbuhn",
+        "translation_en": "At the register over there."
+      },
+      "responses": [
+        {
+          "english": "At the register over there.",
+          "phonetic": "ahn-dehr-kAHsuh-dAWrt-drUEbuhn",
+          "french": "An der Kasse dort drüben."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

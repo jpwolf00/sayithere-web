@@ -1,0 +1,101 @@
+{
+  "id": "strasbourg_neighborhood_petite_france",
+  "name_en": "Petite France",
+  "name_local": "Petite France",
+  "icon": "building.2",
+  "lat": 48.5836,
+  "lon": 7.7416,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "strasbourg_nbhd_pf_001",
+      "intent_en": "Ask about the best restaurant",
+      "text_local": "Quel est le meilleur restaurant du quartier ?",
+      "pronunciation": "kel eh leh may-YUHR res-to-RAN doo kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Try 'Au Pont du Couff' for traditional cuisine, or 'La Maison des Têtes' for fine dining in a historic building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try 'Le Bistrot du Marché' on rue des Capucins, they serve an excellent Provençal daube for €18.",
+          "phonetic": "",
+          "french": "Pour une cuisine traditionnelle, essayez *Au Pont du Couff*, ou pour un repas gastronomique, *La Maison des Têtes*, dans un hôtel particulier du XVIIe siècle."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_pf_002",
+      "intent_en": "Ask about canal boat tours",
+      "text_local": "Y a-t-il des visites en bateau sur les canaux ?",
+      "pronunciation": "ee ah-TEEL day vee-ZEET ahn bah-TOH soor lay kah-NOH",
+      "formality": "polite",
+      "cultural_note": "Boat tours depart from the canals in Petite France. They show the covered bridges and historic locks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, boat tours depart from the canals in Petite France. They show the covered bridges and historic locks.",
+          "phonetic": "wee, too tah FEHT",
+          "french": "Oui, des visites en bateau partent des canaux de la Petite France. Elles montrent les ponts couverts et les écluses historiques."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_pf_003",
+      "intent_en": "Ask about parking",
+      "text_local": "Où puis-je me garer près de la Petite France ?",
+      "pronunciation": "oo puh-TON gah-RAY lah vwah-TOOR",
+      "formality": "polite",
+      "cultural_note": "Parking is limited in Petite France. Use the Parking de la Petite France garage on Rue des Moulins.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There's a paid underground parking, Parking Austerlitz, a 3-minute walk away (€5/hour, €20/day). Alternatively, try the on-street spots on rue du Bain-aux-Plantes, free after 7 PM.",
+          "phonetic": "luh par-KING eh soo luh bah-tee-MAHN",
+          "french": "Vous pouvez vous garer au parking Austerlitz, situé à 5 minutes à pied de la Petite France. C’est le plus proche et le mieux indiqué."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_pf_004",
+      "intent_en": "Ask about the best time to visit",
+      "text_local": "Quelle est la meilleure heure pour visiter ?",
+      "pronunciation": "kel eh lah may-YUHR UHR poor vee-zee-TAY",
+      "formality": "polite",
+      "cultural_note": "Visit in the early morning or evening to avoid crowds. The area gets very busy during peak tourist hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The best time is between 9 AM and 11 AM, before the crowds, or in the late afternoon after 4 PM to avoid the rush.",
+          "phonetic": "say too-VER zhoos-KAH vahn-DUR ur",
+          "french": "Venez tôt le matin ou en fin d'après-midi. Évitez midi."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "canal",
+      "word_local": "le canal",
+      "pronunciation": "leh kah-NAL"
+    },
+    {
+      "word_en": "boat",
+      "word_local": "le bateau",
+      "pronunciation": "leh bah-TOH"
+    },
+    {
+      "word_en": "restaurant",
+      "word_local": "le restaurant",
+      "pronunciation": "leh res-to-RAN"
+    },
+    {
+      "word_en": "half-timbered",
+      "word_local": "à colombages",
+      "pronunciation": "ah koh-lom-BAHZH"
+    }
+  ]
+}

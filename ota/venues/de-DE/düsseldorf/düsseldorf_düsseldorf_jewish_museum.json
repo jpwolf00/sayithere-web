@@ -1,0 +1,100 @@
+{
+  "id": "düsseldorf_düsseldorf_jewish_museum",
+  "name_en": "Düsseldorf Jewish Museum",
+  "name_local": "Jüdisches Museum Düsseldorf",
+  "icon": "building.columns",
+  "lat": 51.2254018,
+  "lon": 6.7763137,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "düsseldorf_düsseldorf_jewish_museum_001",
+      "intent_en": "Where is the Stone of Remembrance memorial",
+      "text_local": "Wo steht der Stein der Erinnerung?",
+      "pronunciation": "vOH-shtEHt-dehr-shtEYEn-dehr-ehrIHnuhrUHng",
+      "formality": "standard",
+      "cultural_note": "Memorial is explicitly noted as separate and in the basement; signage is likely provided.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Untergeschoss, folgen Sie den Schildern.",
+        "pronunciation": "ihm-UHntuhshAWsfAWluhn-zee-dehn-shIHldn",
+        "translation_en": "In the basement, follow the signs."
+      },
+      "responses": [
+        {
+          "english": "In the basement, follow the signs.",
+          "phonetic": "ihm-UHntuhshAWsfAWluhn-zee-dehn-shIHldn",
+          "french": "Im Untergeschoss, folgen Sie den Schildern."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_jewish_museum_002",
+      "intent_en": "Is the audioguide available at the desk",
+      "text_local": "Gibt es Audioguides am Schalter?",
+      "pronunciation": "EEpt-ehs-ehnAWdihUHuheyedzdeh-ahm-shAHlt",
+      "formality": "standard",
+      "cultural_note": "Direct and professional staff interaction expected; avoid unnecessary small talk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the desk.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_jewish_museum_003",
+      "intent_en": "Is the Rabbiner'schein library open to visitors",
+      "text_local": "Ist die Rabbiner'schein-Bibliothek für Besucher geöffnet?",
+      "pronunciation": "ihst-dee-rAHbeenEHrsheyenbIHblihohtEHk-tsOOehnglIHkh",
+      "formality": "standard",
+      "cultural_note": "Visitor access likely requires confirmation or guidance from staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aber nur nach Absprache.",
+        "pronunciation": "yAHAHb-nOOr-nahkh-AHpshprAHkhuh",
+        "translation_en": "Yes, but only by appointment."
+      },
+      "responses": [
+        {
+          "english": "Yes, but only by appointment.",
+          "phonetic": "yAHAHb-nOOr-nahkh-AHpshprAHkhuh",
+          "french": "Ja, aber nur nach Absprache."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_jewish_museum_004",
+      "intent_en": "Where are the Düsseldorf synagogue models",
+      "text_local": "Wo sind die Synagogenmodelle?",
+      "pronunciation": "vOH-zihnt-dee-zUEnahOHuhnmohdEHluh-dUEsuhldAWrfs",
+      "formality": "standard",
+      "cultural_note": "Exact placement not supported; staff escalation is the safe response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im zweiten Stock links.",
+        "pronunciation": "ihm-tsvEYEtuhn-shtAWk-lINGks",
+        "translation_en": "On the second floor to the left."
+      },
+      "responses": [
+        {
+          "english": "On the second floor to the left.",
+          "phonetic": "ihm-tsvEYEtuhn-shtAWk-lINGks",
+          "french": "Im zweiten Stock links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

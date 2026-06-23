@@ -1,0 +1,100 @@
+{
+  "id": "kyoto_higashiyama_historic_district",
+  "name_en": "Higashiyama historic district",
+  "name_local": "東山",
+  "icon": "map",
+  "lat": 35.0094254,
+  "lon": 135.7803432,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "kyoto_higashiyama_historic_district_001",
+      "intent_en": "Where to buy matcha ice cream?",
+      "text_local": "まっちゃあいすは どこでかえますか？",
+      "pronunciation": "mTtEEsOOh-dOHkohdEHkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Matcha (green tea) ice cream is a popular treat. Vendors are often found along the Ninenzaka slope in the district.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "にねんざかのおくに あります。",
+        "pronunciation": "nEEnehZkNohohkOOnee-EEmSoo",
+        "translation_en": "It's further along Ninenzaka."
+      },
+      "responses": [
+        {
+          "english": "It's further along Ninenzaka.",
+          "phonetic": "nEEnehZkNohohkOOnee-EEmSoo",
+          "french": "にねんざかのおくに あります。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_higashiyama_historic_district_002",
+      "intent_en": "Cash only for street food?",
+      "text_local": "やたいのたべものは げんきんのみですか？",
+      "pronunciation": "yTEEnohtBehmohnOHh-gEHngkeennOHmeedehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small food stalls in Japan are cash-only. It's always a good idea to carry some yen.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_higashiyama_historic_district_003",
+      "intent_en": "Is % Arabica coffee open?",
+      "text_local": "あらびかこーひーは あいてますか？",
+      "pronunciation": "BEEkkohohkhEEh-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "This famous coffee shop is a popular stop. A simple 'yes' or 'no' is a natural response from a local.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいてますよ。",
+        "pronunciation": "hEEEEtEHmsOOyoh",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "hEEEEtEHmsOOyoh",
+          "french": "はい、あいてますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_higashiyama_historic_district_004",
+      "intent_en": "Where is Sannenzaka slope?",
+      "text_local": "さんねんざかは どこですか？",
+      "pronunciation": "sNnehZkH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "さんねんざか is a famous stone-paved slope in the Higashiyama district. Locals often give simple directional cues like 'right' or 'left' from where you're standing.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき、すぐみぎです。",
+        "pronunciation": "kOHnohsKeesOOgoomEEgeedEHsoo",
+        "translation_en": "Just ahead, on the right."
+      },
+      "responses": [
+        {
+          "english": "Just ahead, on the right.",
+          "phonetic": "kOHnohsKeesOOgoomEEgeedEHsoo",
+          "french": "このさき、すぐみぎです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "aix_marche_richelme",
+  "name_en": "Marché d'Aix — Place Richelme",
+  "name_local": "Marché de la Place Richelme",
+  "icon": "cart.fill",
+  "phrases": [
+    {
+      "id": "aix_marche_001",
+      "intent_en": "Ask what time the market opens",
+      "text_local": "Le marché ouvre à quelle heure ?",
+      "pronunciation": "luh mar-SHAY oov-ruh ah kel UHR",
+      "formality": "standard",
+      "cultural_note": "The Place Richelme market runs every morning except Monday, from around 7h to 13h. The Saturday market is the largest and spills into neighbouring squares. Arrive early for the best produce selection.",
+      "responses": [
+        {
+          "english": "At 9 AM.",
+          "phonetic": "ah nuhf UHR",
+          "french": "À neuf heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_marche_002",
+      "intent_en": "Ask for a taste of the Provençal cheese",
+      "text_local": "Puis-je goûter ce fromage de Provence, s'il vous plaît ?",
+      "pronunciation": "pwee-ZHUH goo-TAY suh fro-MAHZH duh proh-VAHNS, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "It is perfectly normal to ask for a taste (une dégustation) at cheese and charcuterie stalls. Look for Banon — a small goat's cheese wrapped in chestnut leaves — a prized Provençal AOC speciality.",
+      "responses": [
+        {
+          "english": "Yes, here, try this one.",
+          "phonetic": "wee, tuh-NAY, goo-TAY suh-LWEE-see",
+          "french": "Oui, tenez, goûtez celui-ci."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_marche_003",
+      "intent_en": "Ask the price of a bunch of lavender",
+      "text_local": "C'est combien ce bouquet de lavande ?",
+      "pronunciation": "seh kohm-BYEHN suh boo-KEH duh lah-VAHND",
+      "formality": "standard",
+      "cultural_note": "Dried lavender from the Plateau de Valensole is a signature Provençal souvenir. The bunches at the market are generally fresher and less expensive than in tourist shops. The scent is strongest just after harvest in July.",
+      "responses": [
+        {
+          "english": "Twelve euros, please.",
+          "phonetic": "dooz uh-ROH, seel voo PLEH",
+          "french": "Douze euros, s'il vous plaît."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_marche_004",
+      "intent_en": "Ask for the freshest seasonal vegetables",
+      "text_local": "Quels légumes sont les plus frais en ce moment ?",
+      "pronunciation": "kel lay-GOOM sohn lay ploo FREH ahn suh moh-MAHN",
+      "formality": "standard",
+      "cultural_note": "The market is strictly seasonal. In summer expect tomatoes, courgettes, peppers, and aubergines for ratatouille. In winter look for artichokes, fennel, and the prized black truffle in season from December to February.",
+      "responses": [
+        {
+          "english": "Everything is fresh today.",
+          "phonetic": "too eh FREH doo ZHOOR",
+          "french": "Tout est frais du jour."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_marche_005",
+      "intent_en": "Ask for a bag to carry the purchases",
+      "text_local": "Avez-vous un sac, s'il vous plaît ?",
+      "pronunciation": "ah-VAY voo uhn SAK, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Many Provençal locals shop daily and bring their own basket (un panier). Plastic bags have been banned in French markets since 2017. Some vendors sell charming woven market baskets alongside their produce.",
+      "responses": [
+        {
+          "english": "Here's a bag.",
+          "phonetic": "vwah-LAH uhn SAK",
+          "french": "Voilà un sac."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Market",
+      "word_local": "Le marché",
+      "pronunciation": "luh mar-SHAY"
+    },
+    {
+      "word_en": "Cheese",
+      "word_local": "Le fromage",
+      "pronunciation": "luh fro-MAHZH"
+    },
+    {
+      "word_en": "Lavender",
+      "word_local": "La lavande",
+      "pronunciation": "lah lah-VAHND"
+    },
+    {
+      "word_en": "Fresh / in season",
+      "word_local": "Frais / de saison",
+      "pronunciation": "FREH / duh seh-ZOHN"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "antalya_7_mehmet_restaurant",
+  "name_en": "7 Mehmet Restaurant",
+  "name_local": "7 Mehmet",
+  "icon": "fork.knife",
+  "lat": 36.8809758,
+  "lon": 30.6633962,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "antalya_7_mehmet_restaurant_001",
+      "intent_en": "Where do I pay the deposit for groups?",
+      "text_local": "Grup rezervasyonu için depozitoyu nereye ödeyeceğim?",
+      "pronunciation": "grUHp-rehzehrvahsyohnUH-eetshIHn-dehpohzeetohyUH-nEHrehyeh-uhdehyehdzhEHyihm",
+      "formality": "standard",
+      "cultural_note": "Deposit handling is usually managed by a specific host or manager, not at a standard counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kasaya ödeyin.",
+        "pronunciation": "kAHsahyah-uhdehyIHn",
+        "translation_en": "Pay at the register."
+      },
+      "responses": [
+        {
+          "english": "Pay at the register.",
+          "phonetic": "kAHsahyah-uhdehyIHn",
+          "french": "Kasaya ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "antalya_7_mehmet_restaurant_002",
+      "intent_en": "How long is the wait for a table?",
+      "text_local": "Masa için bekleme süresi ne kadar?",
+      "pronunciation": "mAHsah-eetshIHn-bEHklehmeh-suerehsIH-nEH-kahdAHr",
+      "formality": "standard",
+      "cultural_note": "Wait times in Turkish restaurants during peak season can be unpredictable; staff rarely quote exact minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yaklaşık yirmi dakika beklenir.",
+        "pronunciation": "yahkahshOOk-yihrmIH-dahkeekAH-behklehnIHr",
+        "translation_en": "About twenty minutes wait."
+      },
+      "responses": [
+        {
+          "english": "About twenty minutes wait.",
+          "phonetic": "yahkahshOOk-yihrmIH-dahkeekAH-behklehnIHr",
+          "french": "Yaklaşık yirmi dakika beklenir."
+        }
+      ]
+    },
+    {
+      "id": "antalya_7_mehmet_restaurant_003",
+      "intent_en": "Is the service charge included?",
+      "text_local": "Servis ücreti dahil mi?",
+      "pronunciation": "sehrvIHs-uhdzhrehtIH-dahhIHl-mih",
+      "formality": "standard",
+      "cultural_note": "Venue context explicitly states 'tip not included bill'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, bahşiş hesaba dahil değil.",
+        "pronunciation": "hahyOOrbahhshIHsh-hehsahbAH-dahhIHl-dEHyihl",
+        "translation_en": "No, tip is not included in the bill."
+      },
+      "responses": [
+        {
+          "english": "No, tip is not included in the bill.",
+          "phonetic": "hahyOOrbahhshIHsh-hehsahbAH-dahhIHl-dEHyihl",
+          "french": "Hayır, bahşiş hesaba dahil değil."
+        }
+      ]
+    },
+    {
+      "id": "antalya_7_mehmet_restaurant_004",
+      "intent_en": "Where do I pay the deposit for groups?",
+      "text_local": "Grup rezervasyonu için depozitoyu nereye ödeyeyim?",
+      "pronunciation": "grUHp-rehzehrvahsyohnUH-eetshIHn-dehpohzeetohyUH-nEHrehyeh-uhdehyehyIHm",
+      "formality": "standard",
+      "cultural_note": "Group booking deposits are handled by the maître, not at a general cashier.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki kasaya.",
+        "pronunciation": "eerihshtehkIH-kAHsahyah",
+        "translation_en": "At the cash register by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the cash register by the entrance.",
+          "phonetic": "eerihshtehkIH-kAHsahyah",
+          "french": "Girişteki kasaya."
+        }
+      ]
+    },
+    {
+      "id": "antalya_7_mehmet_restaurant_005",
+      "intent_en": "Do you have Adana kebap today?",
+      "text_local": "Bugün Adana kebap var mı?",
+      "pronunciation": "boogUHn-ahdAHnah-kehbAHp-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Adana kebap is a stable target listed under 'kebap çeşitleri'. The grill chef prepares it fresh.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, kebap çeşitlerimiz arasında mevcut.",
+        "pronunciation": "ehvEHtkehbAHp-tshehshihtlEHreemihz-ahrahsoondAH-mehvdzhUHt",
+        "translation_en": "Yes, it is available among our kebab varieties."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is available among our kebab varieties.",
+          "phonetic": "ehvEHtkehbAHp-tshehshihtlEHreemihz-ahrahsoondAH-mehvdzhUHt",
+          "french": "Evet, kebap çeşitlerimiz arasında mevcut."
+        }
+      ]
+    },
+    {
+      "id": "antalya_7_mehmet_restaurant_006",
+      "intent_en": "How long is the wait for a table?",
+      "text_local": "Masa için ne kadar bekleriz?",
+      "pronunciation": "mAHsah-eetshIHn-nEH-kahdAHr-behklEHrihz",
+      "formality": "standard",
+      "cultural_note": "Wait times are managed by the maître. Wait to be seated as per venue rules.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saatin bu vakti yaklaşık on beş dakika.",
+        "pronunciation": "sahahtIHn-buh-vahktIH-yahkahshOOk-AWn-bEHsh-dahkeekAH",
+        "translation_en": "At this hour, about fifteen minutes."
+      },
+      "responses": [
+        {
+          "english": "At this hour, about fifteen minutes.",
+          "phonetic": "sahahtIHn-buh-vahktIH-yahkahshOOk-AWn-bEHsh-dahkeekAH",
+          "french": "Saatin bu vakti yaklaşık on beş dakika."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

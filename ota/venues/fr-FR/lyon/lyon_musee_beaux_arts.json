@@ -1,0 +1,115 @@
+{
+  "id": "lyon_musee_beaux_arts",
+  "name_en": "Museum of Fine Arts",
+  "name_local": "Musée des Beaux-Arts",
+  "icon": "paintpalette",
+  "phrases": [
+    {
+      "id": "lyon_beaux_arts_001",
+      "intent_en": "Ask where the Impressionist gallery is",
+      "text_local": "Où se trouve la galerie des Impressionnistes ?",
+      "pronunciation": "oo suh TROOV lah gal-REE day zahn-pres-yoh-NEEST",
+      "formality": "polite",
+      "cultural_note": "Lyon's Musée des Beaux-Arts is considered the second most important fine arts museum in France after the Louvre. Its Impressionist collection is outstanding.",
+      "responses": [
+        {
+          "english": "On the second floor, right wing.",
+          "phonetic": "oh duh-ZYEM ay-TAHZH, EL DRWAHT",
+          "french": "Au deuxième étage, aile droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_beaux_arts_002",
+      "intent_en": "Ask about the cloistered garden inside",
+      "text_local": "Est-ce que le jardin intérieur est accessible aux visiteurs ?",
+      "pronunciation": "es-kuh luh zhar-DEHN an-tay-RYUR eh ak-ses-EEBL oh vee-zee-TUR",
+      "formality": "polite",
+      "cultural_note": "The museum occupies a former Benedictine convent. Its peaceful cloistered garden is open during museum hours and is a lovely spot to rest between galleries.",
+      "responses": [
+        {
+          "english": "In the centre of the building, ground floor.",
+          "phonetic": "oh SAHN-truh doo bah-tee-MAHN, oh ray-duh-shoh-SAY",
+          "french": "Au centre du bâtiment, au rez-de-chaussée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_beaux_arts_003",
+      "intent_en": "Ask for a museum map",
+      "text_local": "Pourriez-vous me donner un plan du musée ?",
+      "pronunciation": "poo-ryay-VOO muh doh-NAY uhn PLAHN doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum is vast, spread across five themed departments: Antiquities, Medieval and Renaissance, Paintings, Sculptures, and Objets d'Art. A map is essential.",
+      "responses": [
+        {
+          "english": "Yes, at reception.",
+          "phonetic": "wee, ah lah-KUHY",
+          "french": "Oui, à l'accueil."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_beaux_arts_004",
+      "intent_en": "Ask about free admission days",
+      "text_local": "Y a-t-il des jours d'entrée gratuite ?",
+      "pronunciation": "ee ah-TEEL day ZHOOR dahn-TRAY grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Entry to the museum is free on the first Sunday of every month. Young visitors under 18 and EU residents under 26 always enter free of charge.",
+      "responses": [
+        {
+          "english": "The first Sunday of the month.",
+          "phonetic": "luh pruh-MYAY dee-MAHNSH doo MWAH",
+          "french": "Le premier dimanche du mois."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_beaux_arts_005",
+      "intent_en": "Ask to check a bag in the cloakroom",
+      "text_local": "Puis-je déposer mon sac au vestiaire ?",
+      "pronunciation": "pwee-zhuh day-poh-ZAY mohn SAK oh ves-TYAIR",
+      "formality": "polite",
+      "cultural_note": "Large bags must be left at the cloakroom. Lockers are free of charge. Photography without flash is generally permitted in permanent galleries.",
+      "responses": [
+        {
+          "english": "Yes, the cloakroom is at the entrance.",
+          "phonetic": "wee, luh ves-TYEHR eh ah lahn-TRAY",
+          "french": "Oui, le vestiaire est à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fine arts",
+      "word_local": "les beaux-arts",
+      "pronunciation": "lay boh-ZAR"
+    },
+    {
+      "word_en": "gallery",
+      "word_local": "la galerie",
+      "pronunciation": "lah gal-REE"
+    },
+    {
+      "word_en": "cloakroom",
+      "word_local": "le vestiaire",
+      "pronunciation": "luh ves-TYAIR"
+    },
+    {
+      "word_en": "cloister",
+      "word_local": "le cloître",
+      "pronunciation": "luh KLWATR"
+    }
+  ]
+}

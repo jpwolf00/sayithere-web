@@ -1,0 +1,106 @@
+{
+  "id": "bordeaux_neighbourhood_saint_pierre",
+  "name_en": "Saint-Pierre Quarter",
+  "name_local": "Quartier Saint-Pierre",
+  "icon": "building.2",
+  "lat": 44.8384,
+  "lon": -0.57,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "bordeaux_saintpierre_001",
+      "intent_en": "Ask a local to recommend a wine bar in the neighbourhood",
+      "text_local": "Pourriez-vous me recommander un bar à vins dans ce quartier ?",
+      "pronunciation": "poo-RYAY-voo muh ruh-koh-mahn-DAY un BAR ah VAN dahn suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Saint-Pierre is the historic heart of Bordeaux, packed with wine bars, restaurants, and medieval streets within the UNESCO zone.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "bordeaux_saintpierre_002",
+      "intent_en": "Ask for directions to the Place du Parlement",
+      "text_local": "Pourriez-vous m'indiquer le chemin vers la Place du Parlement ?",
+      "pronunciation": "poo-RYAY-voo mahn-dee-KAY luh shuh-MAN vair lah PLASS doo par-luh-MAHN",
+      "formality": "polite",
+      "cultural_note": "Place du Parlement is a beautiful 18th-century square in the Saint-Pierre quarter, lined with restaurant terraces.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "bordeaux_saintpierre_003",
+      "intent_en": "Ask if this restaurant has a terrace outside",
+      "text_local": "Est-ce que votre restaurant dispose d'une terrasse en extérieur ?",
+      "pronunciation": "es-kuh VOH-truh res-toh-RAHN dees-POHZ dyoon teh-RASS ahn ex-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "Outdoor dining on terraces is a Bordeaux tradition; the warm climate makes al fresco meals possible much of the year.",
+      "responses": [
+        {
+          "english": "Yes, we have a terrace in the sun.",
+          "phonetic": "bawn-ZHOOR AH-vay voo een TEH-ras",
+          "french": "Oui, nous avons une terrasse au soleil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_saintpierre_004",
+      "intent_en": "Ask if the house wine is a local Bordeaux",
+      "text_local": "Est-ce que le vin de la maison est un Bordeaux local ?",
+      "pronunciation": "es-kuh luh VAN duh lah may-ZOHN eh un bor-DOH loh-KAL",
+      "formality": "polite",
+      "cultural_note": "In Bordeaux's Saint-Pierre quarter, nearly every restaurant prides itself on offering wines from the surrounding region.",
+      "responses": [
+        {
+          "english": "Yes, it is a red Bordeaux from the region.",
+          "phonetic": "bawn-ZHOOR luh VAN duh lah may-ZON ES-/ay eel loh-KAL",
+          "french": "Oui, c'est un bordeaux rouge de la région."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_saintpierre_005",
+      "intent_en": "Ask if there is a table available for two without a reservation",
+      "text_local": "Avez-vous une table disponible pour deux personnes sans réservation ?",
+      "pronunciation": "ah-VAY-voo yoon TAB-luh dees-poh-NEEBL poor duh pair-SON sahn ray-zair-VAH-SYON",
+      "formality": "polite",
+      "cultural_note": "Saint-Pierre is very popular at lunch and dinner; walking in without a reservation is possible but you may have to wait, especially on weekends.",
+      "responses": [
+        {
+          "english": "Yes, follow me, I will seat you.",
+          "phonetic": "bawn-ZHOOR AH-vay voo een TAH-bl poor DUH",
+          "french": "Oui, suivez-moi, je vais vous installer."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "wine bar",
+      "word_local": "le bar à vins",
+      "pronunciation": "luh BAR ah VAN"
+    },
+    {
+      "word_en": "terrace (outdoor seating)",
+      "word_local": "la terrasse",
+      "pronunciation": "lah teh-RASS"
+    },
+    {
+      "word_en": "house wine",
+      "word_local": "le vin de la maison",
+      "pronunciation": "luh VAN duh lah may-ZOHN"
+    },
+    {
+      "word_en": "reservation",
+      "word_local": "la réservation",
+      "pronunciation": "lah ray-zair-VAH-SYON"
+    }
+  ]
+}

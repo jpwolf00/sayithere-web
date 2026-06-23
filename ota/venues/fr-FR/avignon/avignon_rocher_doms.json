@@ -1,0 +1,101 @@
+{
+  "id": "avignon_rocher_doms",
+  "name_en": "Rocher des Doms",
+  "name_local": "Rocher des Doms",
+  "icon": "leaf",
+  "lat": 43.9442,
+  "lon": 4.8115,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "avignon_rocher_001",
+      "intent_en": "Ask if entry to the gardens is free",
+      "text_local": "L'entrée du jardin est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY doo zhar-DAN eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The Rocher des Doms gardens are a public park open to everyone at no cost.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's free and open every day.",
+          "phonetic": "wee, say grah-TWEE ay oo-VAIR too lay ZHOOR",
+          "french": "Oui, c'est gratuit et ouvert tous les jours."
+        }
+      ]
+    },
+    {
+      "id": "avignon_rocher_002",
+      "intent_en": "Where does the path to the viewpoint start?",
+      "text_local": "Le chemin vers le belvédère commence où ?",
+      "pronunciation": "luh shuh-MAN vair luh bel-vay-DEHR koh-MONS oo",
+      "formality": "polite",
+      "cultural_note": "The main viewpoint is the practical reason to come up here, so route clarity matters more than sightseeing trivia.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take the main path, straight ahead to the end.",
+          "phonetic": "pruh-NAY lah-LAY prahn-see-PAL, too DRWAH zhoos-koh BOO",
+          "french": "Prenez l'allée principale, tout droit jusqu'au bout."
+        }
+      ]
+    },
+    {
+      "id": "avignon_rocher_003",
+      "intent_en": "Ask where the toilets are in the garden",
+      "text_local": "Où sont les toilettes dans le jardin ?",
+      "pronunciation": "oo son lay twah-LET dahn luh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "Public toilets are available in the gardens. They are maintained by the city of Avignon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Near the entrance, on the left.",
+          "phonetic": "preh duh lahn-TRAY, soor lah GOHSH",
+          "french": "Près de l'entrée, sur la gauche."
+        }
+      ]
+    },
+    {
+      "id": "avignon_rocher_004",
+      "intent_en": "Ask how to get there",
+      "text_local": "Comment monter au rocher ?",
+      "pronunciation": "kuh-MAN mon-TAY oh roh-SHAY",
+      "formality": "polite",
+      "cultural_note": "Walk up Rue des Teinturiers or take a small path from the back of the Palais des Papes. It's a steep 5-minute walk.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go up the stairs from Place du Palais. It's five minutes.",
+          "phonetic": "mon-TAY layz es-kah-LYAY duh-PWEE lah plahs doo pah-LAY. say sank mee-NOOT",
+          "french": "Montez les escaliers depuis la place du Palais. C'est cinq minutes."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "rock",
+      "word_local": "le rocher",
+      "pronunciation": "leh roh-SHAY"
+    },
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "leh zhar-DAN"
+    },
+    {
+      "word_en": "view",
+      "word_local": "la vue",
+      "pronunciation": "lah VOO"
+    },
+    {
+      "word_en": "statue",
+      "word_local": "la statue",
+      "pronunciation": "lah STAT-oo"
+    }
+  ]
+}

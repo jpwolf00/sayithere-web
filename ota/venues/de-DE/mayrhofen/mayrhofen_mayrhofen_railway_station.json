@@ -1,0 +1,122 @@
+{
+  "id": "mayrhofen_mayrhofen_railway_station",
+  "name_en": "Mayrhofen Railway Station",
+  "name_local": "Bahnhof Mayrhofen",
+  "icon": "tram",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mayrhofen_mayrhofen_railway_station_001",
+      "intent_en": "Where is Bahnsteig 1",
+      "text_local": "Wo ist Bahnsteig 1?",
+      "pronunciation": "vOH-ihst-bAHnsteyek-EYEns",
+      "formality": "standard",
+      "cultural_note": "Platforms are marked with clear signage in German and English. Staff rarely provide micro-directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bahnsteig 1 ist links.",
+        "pronunciation": "bAHnsteyek-EYEns-ihst-lINGks",
+        "translation_en": "Platform 1 is on the left."
+      },
+      "responses": [
+        {
+          "english": "Platform 1 is on the left.",
+          "phonetic": "bAHnsteyek-EYEns-ihst-lINGks",
+          "french": "Bahnsteig 1 ist links."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_mayrhofen_railway_station_002",
+      "intent_en": "When does next train to Jenbach leave",
+      "text_local": "Wann fährt der nächste Zug nach Jenbach?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-tsOOk-nahkh-yEHnbahkh",
+      "formality": "standard",
+      "cultural_note": "Train schedules are displayed on electronic boards in German and English.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 14:27 Uhr.",
+        "pronunciation": "uhm-fIHrtsehn-oor-zEEbuhn-uhnttsvAHntsihkh-OOr",
+        "translation_en": "At 14:27."
+      },
+      "responses": [
+        {
+          "english": "At 14:27.",
+          "phonetic": "uhm-fIHrtsehn-oor-zEEbuhn-uhnttsvAHntsihkh-OOr",
+          "french": "Um 14:27 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_mayrhofen_railway_station_003",
+      "intent_en": "Where to buy ski pass combo",
+      "text_local": "Wo gibt es Ski-Pass-Kombis?",
+      "pronunciation": "vOH-EEpt-ehs-shEEpAHskAWmbihs",
+      "formality": "standard",
+      "cultural_note": "Ski pass sales are handled at the main ticket counter for the Zillertalbahn.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter, dort.",
+        "pronunciation": "ahm-shAHltdAWrt",
+        "translation_en": "At the counter, over there."
+      },
+      "responses": [
+        {
+          "english": "At the counter, over there.",
+          "phonetic": "ahm-shAHltdAWrt",
+          "french": "Am Schalter, dort."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_mayrhofen_railway_station_004",
+      "intent_en": "Where is Zillertaler Bundestrasse from here",
+      "text_local": "Wie komme ich zur Zillertaler Bundestrasse?",
+      "pronunciation": "vOH-ihst-dee-tsIHltAHl-bUHnduhstrAHsuh",
+      "formality": "casual",
+      "cultural_note": "The Zillertaler Bundestrasse is the main road leading out of the station area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Folgen Sie der Hauptstrasse nach rechts.",
+        "pronunciation": "fAWlguhn-zee-dehr-hOWptstrahsuh-nahkh-rEHkhts",
+        "translation_en": "Follow the main road to the right."
+      },
+      "responses": [
+        {
+          "english": "Follow the main road to the right.",
+          "phonetic": "fAWlguhn-zee-dehr-hOWptstrahsuh-nahkh-rEHkhts",
+          "french": "Folgen Sie der Hauptstrasse nach rechts."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_mayrhofen_railway_station_005",
+      "intent_en": "Bike transport fee amount",
+      "text_local": "Was kostet Fahrradmitnahme?",
+      "pronunciation": "vAHs-kAWstuht-fAHrahdmIHtnahmuh",
+      "formality": "standard",
+      "cultural_note": "Bike transport fees are standard across VVT routes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "3,50 €.",
+        "pronunciation": "drEYE-kawmah-fUEnf-nUHl-AWuhroh",
+        "translation_en": "3.50 €."
+      },
+      "responses": [
+        {
+          "english": "3.50 €.",
+          "phonetic": "drEYE-kawmah-fUEnf-nUHl-AWuhroh",
+          "french": "3,50 €."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

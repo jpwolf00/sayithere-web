@@ -1,0 +1,122 @@
+{
+  "id": "tokyo_shinjuku_golden_gai_district",
+  "name_en": "Shinjuku Golden Gai district",
+  "name_local": "新宿ゴールデン街",
+  "icon": "map",
+  "lat": 35.6939905,
+  "lon": 139.7047001,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "tokyo_shinjuku_golden_gai_district_001",
+      "intent_en": "Do bars here take credit cards?",
+      "text_local": "ここのバーはカードがつかえますか？",
+      "pronunciation": "kOHkohnOHbhKdOHgtsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Most small bars in Golden Gai are cash-only. It's always best to carry enough yen before you go in.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "げんきんのみです。",
+        "pronunciation": "gEHngkeennOHmeedEHsoo",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "gEHngkeennOHmeedEHsoo",
+          "french": "げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shinjuku_golden_gai_district_002",
+      "intent_en": "Is there a table charge too?",
+      "text_local": "テーブルチャージもありますか？",
+      "pronunciation": "tEHehbooOOtdEEmohEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "In Golden Gai, the terms 'cover charge' and 'table charge' are often used interchangeably for the mandatory seating fee.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、カバーチャージがそれです。",
+        "pronunciation": "hEEkBtDeegSohehdEHsoo",
+        "translation_en": "Yes, the cover charge is that."
+      },
+      "responses": [
+        {
+          "english": "Yes, the cover charge is that.",
+          "phonetic": "hEEkBtDeegSohehdEHsoo",
+          "french": "はい、カバーチャージがそれです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shinjuku_golden_gai_district_003",
+      "intent_en": "How do I buy drink tickets?",
+      "text_local": "ドリンクチケットはどうやってかいますか？",
+      "pronunciation": "dOHeengkOOteekEHttohhDohOOyttEHkEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Drink tickets are not common in Golden Gai. You usually pay the cover charge and then order drinks directly from the bartender, paying as you go.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "入り口でマスターに直接はらってください。",
+        "pronunciation": "ehntshEYEneezyahlEHtuh-EE-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-m-SOO-t-EHndzhAHpuhneezyahlEHtuh-nEE-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-tEH-kOO-t-EHndzhAHpuhneezyahlEHtuh-s-EE",
+        "translation_en": "Please pay the master directly at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Please pay the master directly at the entrance.",
+          "phonetic": "ehntshEYEneezyahlEHtuh-EE-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-m-SOO-t-EHndzhAHpuhneezyahlEHtuh-nEE-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-tEH-kOO-t-EHndzhAHpuhneezyahlEHtuh-s-EE",
+          "french": "入り口でマスターに直接はらってください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shinjuku_golden_gai_district_004",
+      "intent_en": "Where is Kabukicho from here?",
+      "text_local": "かぶきちょうはどこですか？",
+      "pronunciation": "kBookEEtohOOhdOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Kabukicho is directly adjacent to Golden Gai, just across the main road, Yasukuni-dori.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさきの大通りをわたったところです。",
+        "pronunciation": "kOH-nOH-s-KEE-nOH-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-EE-OH-w-T-t-TOH-kOH-OH-tEH-ehndzhAHpuhneezyahlEHtuh-sOO",
+        "translation_en": "Just cross the main street ahead."
+      },
+      "responses": [
+        {
+          "english": "Just cross the main street ahead.",
+          "phonetic": "kOH-nOH-s-KEE-nOH-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-EE-OH-w-T-t-TOH-kOH-OH-tEH-ehndzhAHpuhneezyahlEHtuh-sOO",
+          "french": "このさきの大通りをわたったところです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shinjuku_golden_gai_district_005",
+      "intent_en": "Is there a cover charge?",
+      "text_local": "カバーチャージはありますか？",
+      "pronunciation": "kBtDeehEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Golden Gai bars almost always have a cover charge, typically ranging from 500 to 2,000 yen, which may include a small snack.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あります。千円です。",
+        "pronunciation": "EEmSooehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-sOO",
+        "translation_en": "Yes, it's 1,000 yen."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's 1,000 yen.",
+          "phonetic": "EEmSooehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-sOO",
+          "french": "あります。千円です。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "füssen_füssen_heritage_museum",
+  "name_en": "Füssen Heritage Museum",
+  "name_local": "Stadtmuseum Füssen",
+  "icon": "building.columns",
+  "lat": 47.5675998,
+  "lon": 10.6993217,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "füssen_füssen_heritage_museum_001",
+      "intent_en": "Where is the lute collection display?",
+      "text_local": "Wo ist die Lautenausstellung?",
+      "pronunciation": "vOH-ihst-dee-lOWtuhnOWsshtuhlUHng",
+      "formality": "standard",
+      "cultural_note": "Lute collections are typically displayed inside museums rather than churches.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Rokokofestsaal, links.",
+        "pronunciation": "ihm-rOHkohkOHfehstzAHllINGks",
+        "translation_en": "In the Rococo festival hall, on the left."
+      },
+      "responses": [
+        {
+          "english": "In the Rococo festival hall, on the left.",
+          "phonetic": "ihm-rOHkohkOHfehstzAHllINGks",
+          "french": "Im Rokokofestsaal, links."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_heritage_museum_002",
+      "intent_en": "Can I enter the rococo festival hall?",
+      "text_local": "Darf man in den Rokokofestsaal?",
+      "pronunciation": "dAHrf-mahn-ihn-dehn-rOHkohkOHfehstzAHl",
+      "formality": "standard",
+      "cultural_note": "Historic festival halls in Germany are often open to visitors during museum hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, öffentlich zugänglich.",
+        "pronunciation": "yAHUHfuhntlihkh-tsOOehnglIHkh",
+        "translation_en": "Yes, publicly accessible."
+      },
+      "responses": [
+        {
+          "english": "Yes, publicly accessible.",
+          "phonetic": "yAHUHfuhntlihkh-tsOOehnglIHkh",
+          "french": "Ja, öffentlich zugänglich."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_heritage_museum_003",
+      "intent_en": "Where do I pick up the audio guide?",
+      "text_local": "Wo bekomme ich den Audioguide?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dehn-ehnAWdihUHuheyeddeh",
+      "formality": "casual",
+      "cultural_note": "Staff typically refers visitors to the counter for rentals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Eingangsbereich links.",
+        "pronunciation": "ihm-EYEngAHngsbuhrEYEkh-lINGks",
+        "translation_en": "On the left near the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the left near the entrance.",
+          "phonetic": "ihm-EYEngAHngsbuhrEYEkh-lINGks",
+          "french": "Im Eingangsbereich links."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_heritage_museum_004",
+      "intent_en": "Is the abbey church donation required?",
+      "text_local": "Ist die Spende für die Abteikirche Pflicht?",
+      "pronunciation": "ihst-dee-shpEHnduh-fuer-dee-AHptEYEkihrkhuh-pflIHkht",
+      "formality": "standard",
+      "cultural_note": "Donations at German churches are traditionally optional.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, freiwillig.",
+        "pronunciation": "nEYEnfrEYEvihlIHkh",
+        "translation_en": "No, voluntary."
+      },
+      "responses": [
+        {
+          "english": "No, voluntary.",
+          "phonetic": "nEYEnfrEYEvihlIHkh",
+          "french": "Nein, freiwillig."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

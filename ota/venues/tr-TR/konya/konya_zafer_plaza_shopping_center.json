@@ -1,0 +1,78 @@
+{
+  "id": "konya_zafer_plaza_shopping_center",
+  "name_en": "Zafer Plaza Shopping Center",
+  "name_local": "Zafer Plaza Alışveriş Merkezi",
+  "icon": "bag",
+  "lat": 37.872734,
+  "lon": 32.4924376,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "konya_zafer_plaza_shopping_center_001",
+      "intent_en": "Where is store cashier?",
+      "text_local": "Mağaza kasası nerede?",
+      "pronunciation": "mahzAH-kahsahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Türkiye'deki AVM'lerde kasa yerleri mağazadan mağazaya değişir; satış danışmanına sormak en doğrudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin solunda.",
+        "pronunciation": "eereeshIHn-sohuhndAH",
+        "translation_en": "On the left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the left of the entrance.",
+          "phonetic": "eereeshIHn-sohuhndAH",
+          "french": "Girişin solunda."
+        }
+      ]
+    },
+    {
+      "id": "konya_zafer_plaza_shopping_center_002",
+      "intent_en": "Where is store cashier?",
+      "text_local": "Mağaza kasaları nerede?",
+      "pronunciation": "mahzAH-kahsahahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Cashiers are located inside individual stores, not at central points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Her mağazanın kendi kasası vardır.",
+        "pronunciation": "hEHr-mahzahnOOn-kahndIH-kahsahsOO-vAHrdoor",
+        "translation_en": "Each store has its own cashier."
+      },
+      "responses": [
+        {
+          "english": "Each store has its own cashier.",
+          "phonetic": "hEHr-mahzahnOOn-kahndIH-kahsahsOO-vAHrdoor",
+          "french": "Her mağazanın kendi kasası vardır."
+        }
+      ]
+    },
+    {
+      "id": "konya_zafer_plaza_shopping_center_003",
+      "intent_en": "Where is underground parking entrance?",
+      "text_local": "Yeraltı otopark girişi nerede?",
+      "pronunciation": "yehrahtOO-ohtohpAHrk-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Alışveriş merkezlerinde yönlendirme için danışma masasına sormak yaygındır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Asansörlerin yanında.",
+        "pronunciation": "ahsahnsuhrlehrIHn-yahnoondAH",
+        "translation_en": "Next to the elevators."
+      },
+      "responses": [
+        {
+          "english": "Next to the elevators.",
+          "phonetic": "ahsahnsuhrlehrIHn-yahnoondAH",
+          "french": "Asansörlerin yanında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

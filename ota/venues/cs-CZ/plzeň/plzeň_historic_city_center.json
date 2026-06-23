@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_historic_city_center",
+  "name_en": "Historic City Center",
+  "name_local": "Historické jádro Plzně",
+  "icon": "map",
+  "lat": 49.7472531,
+  "lon": 13.3775871,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "plzeň_historic_city_center_001",
+      "intent_en": "Where is Chotěšov Palace museum?",
+      "text_local": "Kde je muzeum v Chotěšovském paláci?",
+      "pronunciation": "kdEH-yeh-mOOzehuhm-v-khOHehshOHfskehm-pAHlahtsee",
+      "formality": "standard",
+      "cultural_note": "The museum entrance is inside the palace courtyard, not directly on the street.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ze dvora, po schodech nahoru.",
+        "pronunciation": "zEHdvohrahpOHskhohdehkh-nAHhohroo",
+        "translation_en": "From the courtyard, up the stairs."
+      },
+      "responses": [
+        {
+          "english": "From the courtyard, up the stairs.",
+          "phonetic": "zEHdvohrahpOHskhohdehkh-nAHhohroo",
+          "french": "Ze dvora, po schodech nahoru."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_historic_city_center_002",
+      "intent_en": "Can I buy synagogue tickets here?",
+      "text_local": "Můžu si tady koupit lístky do synagogy?",
+      "pronunciation": "mOOzhoo-see-tAHdee-kOHpeet-lEEstkee-doh-sEEnahgOHgee",
+      "formality": "standard",
+      "cultural_note": "The Great Synagogue is a major tourist site with its own ticket desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, vstupenky prodáváme.",
+        "pronunciation": "AHnohfstOOpehngkee-prOHdahvAHmeh",
+        "translation_en": "Yes, we sell tickets."
+      },
+      "responses": [
+        {
+          "english": "Yes, we sell tickets.",
+          "phonetic": "AHnohfstOOpehngkee-prOHdahvAHmeh",
+          "french": "Ano, vstupenky prodáváme."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_historic_city_center_003",
+      "intent_en": "Where is brewery tour office?",
+      "text_local": "Kde je kancelář prohlídek pivovaru?",
+      "pronunciation": "kdEH-yeh-kAHntsehlahr-prOHhleedehk-pEEvohvAHroo",
+      "formality": "standard",
+      "cultural_note": "The brewery is a separate district; locals always refer to the 'areál' (complex).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V areálu Prazdroje, u brány návštěvnického centra.",
+        "pronunciation": "v-AHrehAHloo-prAHzdrohyehOO-brAHnee-nAHfshehvnyEEtskehhoh-tsEHntrah",
+        "translation_en": "In the Prazdroj complex, at the visitor center gate."
+      },
+      "responses": [
+        {
+          "english": "In the Prazdroj complex, at the visitor center gate.",
+          "phonetic": "v-AHrehAHloo-prAHzdrohyehOO-brAHnee-nAHfshehvnyEEtskehhoh-tsEHntrah",
+          "french": "V areálu Prazdroje, u brány návštěvnického centra."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_historic_city_center_004",
+      "intent_en": "Where do tunnels start?",
+      "text_local": "Odkud se vstupuje do podzemí?",
+      "pronunciation": "OHtkoot-seh-fstOOpooyeh-dOHpohdEHmee",
+      "formality": "standard",
+      "cultural_note": "The main entrance is inside a building on the square, not a separate hole.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vchod je od náměstí, z pivovarského domu.",
+        "pronunciation": "fkhOHd-yeh-OHdnahmnyEHsees-pEEvohvAHrskehhoh-dOHmoo",
+        "translation_en": "The entrance is from the square, from the brewery house."
+      },
+      "responses": [
+        {
+          "english": "The entrance is from the square, from the brewery house.",
+          "phonetic": "fkhOHd-yeh-OHdnahmnyEHsees-pEEvohvAHrskehhoh-dOHmoo",
+          "french": "Vchod je od náměstí, z pivovarského domu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

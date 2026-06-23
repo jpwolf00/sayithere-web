@@ -1,0 +1,166 @@
+{
+  "id": "maastricht_vrijthof_square",
+  "name_en": "Vrijthof Square",
+  "name_local": "Vrijthof",
+  "icon": "building.columns",
+  "lat": 50.8490733,
+  "lon": 5.6886303,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "maastricht_vrijthof_square_001",
+      "intent_en": "Where is the André Rieu stage set up",
+      "text_local": "Waar staat het podium van André Rieu?",
+      "pronunciation": "vAHr-stAHt-huht-pOHdeeM-vahn-ahndrEH-rEEue",
+      "formality": "standard",
+      "cultural_note": "Event stewards set up the stage centrally; exact spot may shift yearly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Op het plein.",
+        "pronunciation": "awp-huht-plEHihn",
+        "translation_en": "On the square."
+      },
+      "responses": [
+        {
+          "english": "On the square.",
+          "phonetic": "awp-huht-plEHihn",
+          "french": "Op het plein."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vrijthof_square_002",
+      "intent_en": "Ask if the Basilica charges entrance now",
+      "text_local": "Moet je voor de Sint-Servaasbasiliek betalen?",
+      "pronunciation": "mOOt-yuh-vawr-duh-sIHntsEHrvahzbAHzeelEEk-buhtAHluhn",
+      "formality": "casual",
+      "cultural_note": "Toegang tot de Basilica of Saint Servatius kan wisselend zijn afhankelijk van dienst of evenement.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de kerkbediende.",
+        "pronunciation": "vrAHkh-huht-behih-duh-kEHrkbuhdEEnduh",
+        "translation_en": "Ask the church attendant."
+      },
+      "responses": [
+        {
+          "english": "Ask the church attendant.",
+          "phonetic": "vrAHkh-huht-behih-duh-kEHrkbuhdEEnduh",
+          "french": "Vraag het bij de kerkbediende."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vrijthof_square_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar staat de Preuvenemint-punt?",
+      "pronunciation": "vAHr-stAH-tuh-prUHvuhnEHmihntpNt",
+      "formality": "standard",
+      "cultural_note": "Tijdens het Preuvenemint staan er stalletjes op het hele Vrijthof; er is geen vaste locatie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De Preuvenemint-punten staan verspreid over het plein.",
+        "pronunciation": "duh-prUHvuhnEHmihntpNtuhn-stAHn-vuhrsprEHiht-OHvuhr-huht-plEHihn",
+        "translation_en": "The Preuvenemint points are spread across the square."
+      },
+      "responses": [
+        {
+          "english": "The Preuvenemint points are spread across the square.",
+          "phonetic": "duh-prUHvuhnEHmihntpNtuhn-stAHn-vuhrsprEHiht-OHvuhr-huht-plEHihn",
+          "french": "De Preuvenemint-punten staan verspreid over het plein."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vrijthof_square_004",
+      "intent_en": "Ask if concert tickets are sold at booths now",
+      "text_local": "Verkoopt men nu kaartjes bij de stands?",
+      "pronunciation": "vuhrkOHpt-mEHn-nUE-kAHrtuhs-behih-duh-stAHnts",
+      "formality": "casual",
+      "cultural_note": "Kaartverkoop bij evenementen op het plein vindt plaats via tijdelijke stallen, niet standaard aanwezig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de evenementensteward.",
+        "pronunciation": "vrAHkh-huht-behih-duh-EHvuhnuhmEHntuhnstEHvahrt",
+        "translation_en": "Ask the event steward."
+      },
+      "responses": [
+        {
+          "english": "Ask the event steward.",
+          "phonetic": "vrAHkh-huht-behih-duh-EHvuhnuhmEHntuhnstEHvahrt",
+          "french": "Vraag het bij de evenementensteward."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vrijthof_square_005",
+      "intent_en": "Ask how to pay for terrace seating",
+      "text_local": "Hoe betaal ik voor terrasplaatsen?",
+      "pronunciation": "hOO-buhtAHl-ihk-vawr-tEHrrahsplAHtsuhn",
+      "formality": "standard",
+      "cultural_note": "Caféterrassen op het plein hanteren eigen betalingsregels, vaak contant of pin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de terrasmedewerker.",
+        "pronunciation": "vrAHkh-huht-behih-duh-tEHrrahsmEHduhvEHrkuhr",
+        "translation_en": "Ask the terrace server."
+      },
+      "responses": [
+        {
+          "english": "Ask the terrace server.",
+          "phonetic": "vrAHkh-huht-behih-duh-tEHrrahsmEHduhvEHrkuhr",
+          "french": "Vraag het bij de terrasmedewerker."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vrijthof_square_006",
+      "intent_en": "Where is the Theater aan het Vrijthof box office",
+      "text_local": "Waar is de kassa van Theater aan het Vrijthof?",
+      "pronunciation": "vAHr-ihs-duh-kAHsah-vahn-tEHahtuhr-ahn-huht-vrEHihtawf",
+      "formality": "standard",
+      "cultural_note": "Locals may simply point toward the box office area without further detail.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de balie daar.",
+        "pronunciation": "behih-duh-bahlEE-dAHr",
+        "translation_en": "At the desk there."
+      },
+      "responses": [
+        {
+          "english": "At the desk there.",
+          "phonetic": "behih-duh-bahlEE-dAHr",
+          "french": "Bij de balie daar."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vrijthof_square_007",
+      "intent_en": "Ask where the André Rieu stage sets up",
+      "text_local": "Waar staat het podium voor André Rieu?",
+      "pronunciation": "vAHr-stAHt-huht-ahndrEH-rEEue-pOHdeeM",
+      "formality": "standard",
+      "cultural_note": "Het André Rieu podium wordt opgebouwd op het plein, maar de exacte plek kan per evenement verschillen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Het podium staat aan de kant van de basiliek, tegenover de trappen.",
+        "pronunciation": "huht-pOHdeeM-stAHt-ahn-duh-kAHnt-vahn-duh-bAHzeelEEktEHghuhnOHvuhr-duh-trAHpuhn",
+        "translation_en": "The stage is on the side of the basilica, opposite the steps."
+      },
+      "responses": [
+        {
+          "english": "The stage is on the side of the basilica, opposite the steps.",
+          "phonetic": "huht-pOHdeeM-stAHt-ahn-duh-kAHnt-vahn-duh-bAHzeelEEktEHghuhnOHvuhr-duh-trAHpuhn",
+          "french": "Het podium staat aan de kant van de basiliek, tegenover de trappen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

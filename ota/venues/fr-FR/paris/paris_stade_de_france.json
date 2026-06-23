@@ -1,0 +1,125 @@
+{
+  "id": "venue_stade_de_france",
+  "name_en": "Stade de France",
+  "name_local": "Stade de France",
+  "icon": "sportscourt.fill",
+  "phrases": [
+    {
+      "id": "venue_sdf_001",
+      "intent_en": "Ask which entrance to use for your seats",
+      "text_local": "C'est quelle entrée pour ma place ?",
+      "pronunciation": "seh kel an-TRAY poor mah plass",
+      "formality": "polite",
+      "cultural_note": "The Stade de France has multiple lettered entrances. Check your ticket before arriving.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is entrance E. It is marked on your ticket.",
+          "phonetic": "seh lan-TRAY uh. seh ahn-dee-KAY soor votr bee-YAY",
+          "french": "C'est l'entrée E. C'est indiqué sur votre billet."
+        }
+      ]
+    },
+    {
+      "id": "venue_sdf_002",
+      "intent_en": "Ask which metro station for the stadium",
+      "text_local": "C'est quelle station de métro pour le Stade de France ?",
+      "pronunciation": "seh kel stah-SYOHN duh may-TROH poor luh STAHD duh FRAHNSS",
+      "formality": "standard",
+      "cultural_note": "Take RER B or RER D to 'La Plaine — Stade de France' or metro line 13 to 'Saint-Denis — Porte de Paris'. Follow the crowd on event days — you can't miss it.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Saint-Denis-Porte de Paris station, on line 13.",
+          "phonetic": "lah stah-SYOHN san duh-NEE port duh pah-REE, soor lah leen-yuh trehz",
+          "french": "La station Saint-Denis-Porte de Paris, sur la ligne treize."
+        }
+      ]
+    },
+    {
+      "id": "venue_sdf_003",
+      "intent_en": "Ask about the rugby match",
+      "text_local": "C'est quel match de rugby aujourd'hui ?",
+      "pronunciation": "seh kel MATCH duh roog-BEE oh-zhoor-DWEE",
+      "formality": "standard",
+      "cultural_note": "The Stade de France hosts Six Nations rugby, where France plays England, Ireland, and others. The rugby atmosphere is more festive and family-friendly than football.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The schedule is posted at the entrance and on the website.",
+          "phonetic": "luh proh-GRAM eh tah-fee-SHAY ah lan-TRAY ay soor luh seet ahn-tehr-NET",
+          "french": "Le programme est affiché à l'entrée et sur le site internet."
+        }
+      ]
+    },
+    {
+      "id": "venue_sdf_004",
+      "intent_en": "Ask about concert events at the stadium",
+      "text_local": "Il y a des concerts prévus bientôt ?",
+      "pronunciation": "eel ee ah day kohn-SEHR pray-VOO byehn-TOH",
+      "formality": "standard",
+      "cultural_note": "The Stade de France hosts major concerts (Beyoncé, Coldplay, etc.) with 80,000 capacity. Check the official website for upcoming events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Concerts are announced on the website. Check the dates.",
+          "phonetic": "lay kohn-SEHR sohn tah-nohn-SAY soor luh seet. vay-ree-fee-AY lay daht",
+          "french": "Les concerts sont annoncés sur le site. Vérifiez les dates."
+        }
+      ]
+    },
+    {
+      "id": "venue_sdf_005",
+      "intent_en": "Ask about the guided stadium tour",
+      "text_local": "On peut faire une visite guidée du stade ?",
+      "pronunciation": "ohn puh FEHR oon vee-ZEET ghee-DAY doo STAHD",
+      "formality": "standard",
+      "cultural_note": "Tours run on non-event days and take about 90 minutes. You'll see the locker rooms, royal box, and walk through the player tunnel onto the pitch.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Guided tours are available online. Allow one hour.",
+          "phonetic": "lay vee-ZEET gee-DAY sohn dees-poh-NEE-bluh ahn LEEN-yuh. kohn-TAY oon uhr",
+          "french": "Les visites guidées sont disponibles en ligne. Comptez une heure."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "National team",
+      "word_local": "Équipe nationale",
+      "pronunciation": "ay-KEEP nah-syoh-NAL"
+    },
+    {
+      "word_en": "Rugby",
+      "word_local": "Rugby",
+      "pronunciation": "roog-BEE"
+    },
+    {
+      "word_en": "Football/Soccer",
+      "word_local": "Football",
+      "pronunciation": "foot-BOHL"
+    },
+    {
+      "word_en": "Concert",
+      "word_local": "Concert",
+      "pronunciation": "kohn-SEHR"
+    },
+    {
+      "word_en": "Seat/Stand",
+      "word_local": "Tribune",
+      "pronunciation": "tree-BOON"
+    },
+    {
+      "word_en": "Guided tour",
+      "word_local": "Visite guidée",
+      "pronunciation": "vee-ZEET ghee-DAY"
+    }
+  ]
+}

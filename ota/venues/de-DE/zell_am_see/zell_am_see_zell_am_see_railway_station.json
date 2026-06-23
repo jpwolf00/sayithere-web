@@ -1,0 +1,122 @@
+{
+  "id": "zell_am_see_zell_am_see_railway_station",
+  "name_en": "Zell am See Railway Station",
+  "name_local": "Bahnhof Zell am See",
+  "icon": "tram",
+  "lat": 47.3206646,
+  "lon": 12.7968853,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zell_am_see_zell_am_see_railway_station_001",
+      "intent_en": "Where is the ÖBB ticket machine on Bahnsteig 1?",
+      "text_local": "Wo ist der ÖBB-Ticketautomat am Bahnsteig 1?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-UHbEHbEHtIHkehtOWtohmAHtuhn-owf-bAHnsteyek-EYEns",
+      "formality": "standard",
+      "cultural_note": "In Österreich sind Ticketautomaten oft mit 'Automat' oder 'Ticket' beschriftet und zentral auf den Bahnsteigen platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links am Eingang vom Bahnsteig.",
+        "pronunciation": "lINGks-ahm-EYEngAHng-fawm-bAHnsteyek",
+        "translation_en": "On the left at the entrance to the platform."
+      },
+      "responses": [
+        {
+          "english": "On the left at the entrance to the platform.",
+          "phonetic": "lINGks-ahm-EYEngAHng-fawm-bAHnsteyek",
+          "french": "Links am Eingang vom Bahnsteig."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_railway_station_002",
+      "intent_en": "Where is the bike parking near Bahnhofvorplatz?",
+      "text_local": "Wo ist der Fahrradabstellplatz nahe dem Bahnhofvorplatz?",
+      "pronunciation": "vOH-ihst-dehr-fAHrahdAHpshtehlplAHts-ahm-bAHnhawffOHrplahts",
+      "formality": "standard",
+      "cultural_note": "Fahrradabstellplätze ('Fahrradständer') sind in Österreich oft zentral an Bahnhofsvorplätzen oder in der Nähe von Eingängen platziert und mit Schildern gekennzeichnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich am Ende des Bahnhofsvorplatzes.",
+        "pronunciation": "glEYEkh-ahm-EHnduh-dehs-bAHnhawfsfOHrplahtsuhs",
+        "translation_en": "Right at the end of the station square."
+      },
+      "responses": [
+        {
+          "english": "Right at the end of the station square.",
+          "phonetic": "glEYEkh-ahm-EHnduh-dehs-bAHnhawfsfOHrplahtsuhs",
+          "french": "Gleich am Ende des Bahnhofsvorplatzes."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_railway_station_003",
+      "intent_en": "When does the next Salzburg train depart?",
+      "text_local": "Wann fährt der nächste Zug nach Salzburg?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-tsOOk-nahkh-zAHltsbuhuhk",
+      "formality": "standard",
+      "cultural_note": "Zugabfahrten werden in Österreich auf elektronischen Anzeigetafeln ('Abfahrtstafel') angezeigt, oft mit Verspätungsangaben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ab Bahnsteig 2 in zehn Minuten.",
+        "pronunciation": "ahp-bAHnsteyek-tsvEYE-ihn-tsEHn-meenOOtuhn",
+        "translation_en": "From platform 2 in ten minutes."
+      },
+      "responses": [
+        {
+          "english": "From platform 2 in ten minutes.",
+          "phonetic": "ahp-bAHnsteyek-tsvEYE-ihn-tsEHn-meenOOtuhn",
+          "french": "Ab Bahnsteig 2 in zehn Minuten."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_railway_station_004",
+      "intent_en": "Do I validate Salzburg Verkehrsbund tickets here?",
+      "text_local": "Muss ich mein Salzburg-Verkehrsbund-Ticket hier entwerten?",
+      "pronunciation": "mUHs-ihkh-meyen-zAHltsbuhuhkfehrkEHrsbuhnttIHkuht-hEEr-ehntvEHrtuhn",
+      "formality": "casual",
+      "cultural_note": "In Österreich müssen Tickets für den Regionalverkehr (inkl. Salzburg Verkehrsbund) in der Regel vor der Fahrt an Entwertern ('Entwerter') oder Automaten entwertet werden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Automaten.",
+        "pronunciation": "yAHahm-OWtohmAHtuhn",
+        "translation_en": "Yes, at the machine."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the machine.",
+          "phonetic": "yAHahm-OWtohmAHtuhn",
+          "french": "Ja, am Automaten."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_railway_station_005",
+      "intent_en": "Where is the Pinzgauer Lokalbahn separate ticket counter?",
+      "text_local": "Wo ist der separate Fahrkartenschalter für die Pinzgauer Lokalbahn?",
+      "pronunciation": "vOH-EEpt-ehs-dehn-tIHkehtshAHlt-fuer-dee-pIHntsow-lOHkahlbAHn",
+      "formality": "standard",
+      "cultural_note": "Separate Schalter für Regionalbahnen sind oft im Bahnhof oder auf dem Bahnsteig markiert. Bei Unklarheit hilft das Servicepersonal weiter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich am Ende von Bahnsteig 1.",
+        "pronunciation": "glEYEkh-ahm-EHnduh-fawn-bAHnsteyek-EYEns",
+        "translation_en": "Right at the end of platform 1."
+      },
+      "responses": [
+        {
+          "english": "Right at the end of platform 1.",
+          "phonetic": "glEYEkh-ahm-EHnduh-fawn-bAHnsteyek-EYEns",
+          "french": "Gleich am Ende von Bahnsteig 1."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "hallstatt_hallstatt_museum",
+  "name_en": "Hallstatt Museum",
+  "name_local": "Museum Hallstatt",
+  "icon": "building.columns",
+  "lat": 47.5622886,
+  "lon": 13.648862,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hallstatt_hallstatt_museum_001",
+      "intent_en": "Ask where the Celtic exhibit is",
+      "text_local": "Wo ist die keltische Ausstellung?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-kEHltihshuh-AHptEYEluhng",
+      "formality": "standard",
+      "cultural_note": "Kelten is the local term for Celtic exhibits; follow standard museum signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Obergeschoss.",
+        "pronunciation": "ihm-OHbguhshAWs",
+        "translation_en": "On the upper floor."
+      },
+      "responses": [
+        {
+          "english": "On the upper floor.",
+          "phonetic": "ihm-OHbguhshAWs",
+          "french": "Im Obergeschoss."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_museum_002",
+      "intent_en": "Ask if combined salt mine pass exists",
+      "text_local": "Gibt es eine Kombi-Karte für Salzbergwerk und Museum?",
+      "pronunciation": "EEpt-ehs-EYEnuh-kAWmbeekAHrtuh-fuer-zAHltsbvEHrk-uhnt-moozEHuhm",
+      "formality": "standard",
+      "cultural_note": "Combined passes are typically sold at the ticket desk; staff will confirm availability.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_museum_003",
+      "intent_en": "Ask when audio guides are available",
+      "text_local": "Wann kann ich Audioguides ausleihen?",
+      "pronunciation": "vAHn-kAHn-ihkh-ehnAWdihUHuheyedzdeh-OWslEYE-uhn",
+      "formality": "standard",
+      "cultural_note": "Audio guides are rented at the ticket desk; availability is immediate during opening hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Jetzt am Schalter.",
+        "pronunciation": "yEHtst-ahm-shAHlt",
+        "translation_en": "Now at the counter."
+      },
+      "responses": [
+        {
+          "english": "Now at the counter.",
+          "phonetic": "yEHtst-ahm-shAHlt",
+          "french": "Jetzt am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_museum_004",
+      "intent_en": "Ask how to reach the Bronze Age metalwork room",
+      "text_local": "Wie komme ich zum Raum für Bronzezeit-Metallarbeiten?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsuhm-rOWm-fuer-brAWntsehtsEYEtmehtAHlahrbEYEtuhn",
+      "formality": "casual",
+      "cultural_note": "Idade do Bronze is the local term for Bronze Age; signs will guide visitors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im ersten Stock links.",
+        "pronunciation": "ihm-EHrstuhn-shtAWk-lINGks",
+        "translation_en": "On the first floor to the left."
+      },
+      "responses": [
+        {
+          "english": "On the first floor to the left.",
+          "phonetic": "ihm-EHrstuhn-shtAWk-lINGks",
+          "french": "Im ersten Stock links."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_museum_005",
+      "intent_en": "Ask about no flash photography rule",
+      "text_local": "Darf man bei Metallarbeiten mit Blitz fotografieren?",
+      "pronunciation": "dAHrf-mahn-beye-mehtAHlahrbEYEtuhn-miht-blIHts-fOHtohrahfEEruhn",
+      "formality": "standard",
+      "cultural_note": "Strict rule near metalwork; signs and guards enforce no flash photography.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, Blitz verboten.",
+        "pronunciation": "nEYEnblIHts-fehrbOHtuhn",
+        "translation_en": "No, flash prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, flash prohibited.",
+          "phonetic": "nEYEnblIHts-fehrbOHtuhn",
+          "french": "Nein, Blitz verboten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

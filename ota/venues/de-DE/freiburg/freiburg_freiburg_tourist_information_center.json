@@ -1,0 +1,78 @@
+{
+  "id": "freiburg_freiburg_tourist_information_center",
+  "name_en": "Freiburg Tourist Information Center",
+  "name_local": "Tourist-Information Freiburg",
+  "icon": "info.circle",
+  "lat": 47.9962961,
+  "lon": 7.8492595,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "freiburg_freiburg_tourist_information_center_001",
+      "intent_en": "Where do I buy the Freiburg Card?",
+      "text_local": "Wo bekomme ich die Freiburg Card?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dee-frEYEbuhuhk-kAHrt",
+      "formality": "casual",
+      "cultural_note": "Direkte Antwort bevorzugt; Schalter ist ein etablierter Begriff für Informations- und Verkaufsstellen in deutschen Touristeninformationszentren.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_tourist_information_center_002",
+      "intent_en": "Where are the Schauinsland brochures?",
+      "text_local": "Wo finde ich die Schauinsland-Broschüren?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-shOWihnslAHntbrAWshueruhn",
+      "formality": "standard",
+      "cultural_note": "Broschüren werden oft zentral am Infoschalter ausgelegt; direkte Wegweisung zum Servicepunkt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Regal neben dem Eingang.",
+        "pronunciation": "ihm-rehgAHl-nEHbuhn-dehm-EYEngAHng",
+        "translation_en": "In the shelf by the entrance."
+      },
+      "responses": [
+        {
+          "english": "In the shelf by the entrance.",
+          "phonetic": "ihm-rehgAHl-nEHbuhn-dehm-EYEngAHng",
+          "french": "Im Regal neben dem Eingang."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_tourist_information_center_003",
+      "intent_en": "Can you book a hostel for me?",
+      "text_local": "Können Sie mir ein Hostel buchen?",
+      "pronunciation": "kUHnuhn-zee-meer-eyen-hAWstuhl-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Deutsche Touristeninformationszentren bieten oft Buchungsservices an; kurze, klare Antwort erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

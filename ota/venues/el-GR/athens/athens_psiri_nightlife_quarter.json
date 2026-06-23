@@ -1,0 +1,100 @@
+{
+  "id": "athens_psiri_nightlife_quarter",
+  "name_en": "Psiri nightlife quarter",
+  "name_local": "Ψυρρή",
+  "icon": "map",
+  "lat": 37.9784208,
+  "lon": 23.7249422,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "athens_psiri_nightlife_quarter_001",
+      "intent_en": "How do I pay at cash-only taverna?",
+      "text_local": "Πώς πληρώνω στην ταβέρνα;",
+      "pronunciation": "pOHs-pleerOHnoh-steen-dahvEHrnah",
+      "formality": "standard",
+      "cultural_note": "Cash-only tavernas are traditional in Psiri, with payment expected at the table.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μόνο με μετρητά στο τραπέζι.",
+        "pronunciation": "mOHnoh-meh-mEHtreetAH-stoh-trahpEHzee",
+        "translation_en": "Cash only at the table."
+      },
+      "responses": [
+        {
+          "english": "Cash only at the table.",
+          "phonetic": "mOHnoh-meh-mEHtreetAH-stoh-trahpEHzee",
+          "french": "Μόνο με μετρητά στο τραπέζι."
+        }
+      ]
+    },
+    {
+      "id": "athens_psiri_nightlife_quarter_002",
+      "intent_en": "What is bar cover charge after midnight?",
+      "text_local": "Πόσο είναι το εισιτήριο μετά τα μεσάνυχτα;",
+      "pronunciation": "pOHsoh-EEneh-toh-EEseetEEreeOH-mehtAH-tah-mehsAHneekhtAH",
+      "formality": "standard",
+      "cultural_note": "Cover charge is a common practice in clubs after midnight in Psiri.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μέχρι 10 ευρώ.",
+        "pronunciation": "mEHkhree-thEHkah-ehvrOH",
+        "translation_en": "Up to 10 euros."
+      },
+      "responses": [
+        {
+          "english": "Up to 10 euros.",
+          "phonetic": "mEHkhree-thEHkah-ehvrOH",
+          "french": "Μέχρι 10 ευρώ."
+        }
+      ]
+    },
+    {
+      "id": "athens_psiri_nightlife_quarter_003",
+      "intent_en": "Do bartenders expect per-drink payment?",
+      "text_local": "Πληρώνω ανά ποτό;",
+      "pronunciation": "pleerOHnoh-ahnAH-pohtOH",
+      "formality": "standard",
+      "cultural_note": "Bartenders in Psiri typically expect payment per drink at the bar counter.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ανά ποτό.",
+        "pronunciation": "nEHahnAH-pohtOH",
+        "translation_en": "Yes, per drink."
+      },
+      "responses": [
+        {
+          "english": "Yes, per drink.",
+          "phonetic": "nEHahnAH-pohtOH",
+          "french": "Ναι, ανά ποτό."
+        }
+      ]
+    },
+    {
+      "id": "athens_psiri_nightlife_quarter_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτό το Six d.o.g.s. τώρα;",
+      "pronunciation": "EEneh-AHneekhtOH-toh-ehnsIHks-dGz-dzhEEEHsehl-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Six d.o.g.s is a known bar, but exact operating hours may vary.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, το Six d.o.g.s. είναι ανοιχτό μέχρι αργά, αλλά μετά τα μεσάνυχτα έχει χρέωση εισόδου.",
+        "pronunciation": "nEHtoh-ehnsIHks-dGz-dzhEEEHsehl-EEneh-AHneekhtOH-mEHkhree-ahrghAHahlAH-mehtAH-tah-mehsAHneekhtAH-EHkhee-khrEHohsEE-eesOHthoo",
+        "translation_en": "Yes, Six d.o.g.s. is open until late, but after midnight there is a cover charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, Six d.o.g.s. is open until late, but after midnight there is a cover charge.",
+          "phonetic": "nEHtoh-ehnsIHks-dGz-dzhEEEHsehl-EEneh-AHneekhtOH-mEHkhree-ahrghAHahlAH-mehtAH-tah-mehsAHneekhtAH-EHkhee-khrEHohsEE-eesOHthoo",
+          "french": "Ναι, το Six d.o.g.s. είναι ανοιχτό μέχρι αργά, αλλά μετά τα μεσάνυχτα έχει χρέωση εισόδου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

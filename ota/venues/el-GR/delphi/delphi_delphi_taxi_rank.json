@@ -1,0 +1,78 @@
+{
+  "id": "delphi_delphi_taxi_rank",
+  "name_en": "Delphi Taxi Rank",
+  "name_local": "Πιάτσα Ταξί Δελφών",
+  "icon": "tram",
+  "lat": 38.4811538,
+  "lon": 22.5005486,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "delphi_delphi_taxi_rank_001",
+      "intent_en": "Round-trip to Castalia Spring, wait included?",
+      "text_local": "Γυρνάμε στη Νερομάνα με αναμονή;",
+      "pronunciation": "yeernAHmeh-stee-nEHrohmAHnah-meh-AHnahmohnEE",
+      "formality": "standard",
+      "cultural_note": "Η αναμονή συνήθως συμπεριλαμβάνεται στις κρατήσεις γυρισμού προς σημεία γειτονικά του αρχαιολογικού χώρου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, περιλαμβάνεται.",
+        "pronunciation": "nEHpEHreelahmvAHnehtEH",
+        "translation_en": "Yes, waiting included."
+      },
+      "responses": [
+        {
+          "english": "Yes, waiting included.",
+          "phonetic": "nEHpEHreelahmvAHnehtEH",
+          "french": "Ναι, περιλαμβάνεται."
+        }
+      ]
+    },
+    {
+      "id": "delphi_delphi_taxi_rank_002",
+      "intent_en": "Luggage fee per bag?",
+      "text_local": "Πόσο είναι η χρέωση ανά βαλίτσα;",
+      "pronunciation": "pOHsoh-ee-EHpeeplEHohn-vahlEEtsah",
+      "formality": "standard",
+      "cultural_note": "Τα περισσότερα ταξί χρεώνουν ξεχωριστή επιβάρυνση ανά επιπλέον βαλίτσα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "1-2 ευρώ.",
+        "pronunciation": "EHnah-mEEohn-thEEoh-ehvrOH",
+        "translation_en": "1-2 euros."
+      },
+      "responses": [
+        {
+          "english": "1-2 euros.",
+          "phonetic": "EHnah-mEEohn-thEEoh-ehvrOH",
+          "french": "1-2 ευρώ."
+        }
+      ]
+    },
+    {
+      "id": "delphi_delphi_taxi_rank_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού περιμένουν τα ταξί για την Αράχωβα;",
+      "pronunciation": "pOO-pEHreemEHnoon-dah-tahksEE-yAH-teen-ahrAHkhohvAH",
+      "formality": "standard",
+      "cultural_note": "Ταξί για την Αράχωβα βρίσκονται στον ίδιο χώρο αναμονής με άλλες διαδρομές. Οι οδηγοί γνωρίζουν την τοποθεσία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ίδιο σημείο αναμονής των ταξί, εδώ μπροστά.",
+        "pronunciation": "stoh-EEtheeOH-seemEEoh-AHnahmohnEEs-tohn-dahksEEehthOH-brohstAH",
+        "translation_en": "At the same taxi waiting spot, right here in front."
+      },
+      "responses": [
+        {
+          "english": "At the same taxi waiting spot, right here in front.",
+          "phonetic": "stoh-EEtheeOH-seemEEoh-AHnahmohnEEs-tohn-dahksEEehthOH-brohstAH",
+          "french": "Στο ίδιο σημείο αναμονής των ταξί, εδώ μπροστά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

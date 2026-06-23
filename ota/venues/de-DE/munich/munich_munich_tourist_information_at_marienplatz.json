@@ -1,0 +1,100 @@
+{
+  "id": "munich_munich_tourist_information_at_marienplatz",
+  "name_en": "Munich Tourist Information at Marienplatz",
+  "name_local": "Tourist-Information München",
+  "icon": "info.circle",
+  "lat": 48.1371436,
+  "lon": 11.5753989,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "munich_munich_tourist_information_at_marienplatz_001",
+      "intent_en": "Do you sell the Munich Card here?",
+      "text_local": "Verkaufen Sie hier die München Card?",
+      "pronunciation": "fehrkOWfuhn-zee-hEEr-dee-mUEnkhuhn-kAHrt",
+      "formality": "casual",
+      "cultural_note": "Direct and to the point; staff will confirm availability or guide to the right counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "munich_munich_tourist_information_at_marienplatz_002",
+      "intent_en": "Where is the tourist information counter inside?",
+      "text_local": "Wo ist der Schalter für Touristeninformation hier drinnen?",
+      "pronunciation": "vOH-ihst-dehr-tOOrihstEHnihnfAWrmahtsyOHnskhahlt-drIHnuhn",
+      "formality": "casual",
+      "cultural_note": "Exact position inside the Neues Rathaus is not specified; staff escalation is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dort drüben am Eingang.",
+        "pronunciation": "dAWrt-drUEbuhn-ahm-EYEngAHng",
+        "translation_en": "Over there by the entrance."
+      },
+      "responses": [
+        {
+          "english": "Over there by the entrance.",
+          "phonetic": "dAWrt-drUEbuhn-ahm-EYEngAHng",
+          "french": "Dort drüben am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "munich_munich_tourist_information_at_marienplatz_003",
+      "intent_en": "Can I book a city tour for this afternoon?",
+      "text_local": "Kann ich einen Stadtrundgang für heute Nachmittag buchen?",
+      "pronunciation": "kAHn-ihkh-EYEnuhn-shtAHtruhndAHng-fuer-hAWuhtuh-nAHkhmihtAHk-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Staff will typically check immediate availability or guide to the correct counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, hier am Schalter.",
+        "pronunciation": "yAHhEEr-ahm-shAHlt",
+        "translation_en": "Yes, here at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, here at the counter.",
+          "phonetic": "yAHhEEr-ahm-shAHlt",
+          "french": "Ja, hier am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "munich_munich_tourist_information_at_marienplatz_004",
+      "intent_en": "How do I get Bayern tickets to Neuschwanstein?",
+      "text_local": "Wie bekomme ich Bayern-Tickets nach Neuschwanstein?",
+      "pronunciation": "vee-buhkAWmuh-ihkh-bEYEntIHkuhts-nahkh-nAWuhshvahnshtEYEn",
+      "formality": "casual",
+      "cultural_note": "Bavaria tickets are sold at the counter; exact process is handled by staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kaufen Sie am Schalter.",
+        "pronunciation": "kOWfuhn-zee-ahm-shAHlt",
+        "translation_en": "Buy at the counter."
+      },
+      "responses": [
+        {
+          "english": "Buy at the counter.",
+          "phonetic": "kOWfuhn-zee-ahm-shAHlt",
+          "french": "Kaufen Sie am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,101 @@
+{
+  "id": "strasbourg_maison_kammerzell",
+  "name_en": "Maison Kammerzell",
+  "name_local": "Maison Kammerzell",
+  "icon": "crown",
+  "lat": 48.5817,
+  "lon": 7.7491,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "strasbourg_kammerzell_001",
+      "intent_en": "Ask if you need a reservation for the restaurant",
+      "text_local": "Faut-il réserver pour le restaurant ?",
+      "pronunciation": "foh-TEEL ray-zair-VAY poor luh res-to-RAN",
+      "formality": "polite",
+      "cultural_note": "Maison Kammerzell is one of the most famous restaurants in Strasbourg. Reservations are recommended, especially for dinner.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, especially in the evening. Book online or by phone.",
+          "phonetic": "wee, soor-TOO luh SWAHR. ray-zair-VAY ahn LEEN-yuh oo par tay-lay-FOHN",
+          "french": "Oui, surtout le soir. Réservez en ligne ou par téléphone."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_kammerzell_002",
+      "intent_en": "Ask what the specialties are",
+      "text_local": "Quelles sont les spécialités du restaurant ?",
+      "pronunciation": "kel son lay spay-see-ah-lee-TAY doo res-to-RAN",
+      "formality": "polite",
+      "cultural_note": "The restaurant serves traditional Alsatian dishes like choucroute and baeckeoffe.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Choucroute and baeckeoffe are the specialties.",
+          "phonetic": "lah shoo-KROOT ay luh BEK-oh-fuh son lay spay-see-ah-lee-TAY",
+          "french": "La choucroute et le baeckeoffe sont les spécialités."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_kammerzell_003",
+      "intent_en": "Ask about the restaurant",
+      "text_local": "C'est un restaurant ?",
+      "pronunciation": "say uhn res-to-RAN",
+      "formality": "neutral",
+      "cultural_note": "Yes, it's one of Strasbourg's most famous restaurants. Book ahead, especially in the evening. It serves traditional Alsatian cuisine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, a very famous Alsatian restaurant. You need to book.",
+          "phonetic": "",
+          "french": "Oui, un restaurant alsacien très connu. Il faut réserver."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_kammerzell_004",
+      "intent_en": "Ask about the best photo angle",
+      "text_local": "Quel est le meilleur angle pour la photo ?",
+      "pronunciation": "kel eh leh may-YUHR an-gluh poor lah foh-TOH",
+      "formality": "polite",
+      "cultural_note": "The best view is from across the square. At sunset, the half-timbered facade is especially photogenic.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the Cathedral Square, across the way.",
+          "phonetic": "wee, luh swar say tray zho-LEE",
+          "french": "Depuis la place de la Cathédrale, en face."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "house",
+      "word_local": "la maison",
+      "pronunciation": "lah mah-ZON"
+    },
+    {
+      "word_en": "half-timbered",
+      "word_local": "à colombages",
+      "pronunciation": "ah koh-lom-BAHZH"
+    },
+    {
+      "word_en": "facade",
+      "word_local": "la façade",
+      "pronunciation": "lah fah-SAD"
+    },
+    {
+      "word_en": "carving",
+      "word_local": "la sculpture",
+      "pronunciation": "lah skool-TOOR"
+    }
+  ]
+}

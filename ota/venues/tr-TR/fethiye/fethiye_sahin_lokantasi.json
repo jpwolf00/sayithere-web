@@ -1,0 +1,100 @@
+{
+  "id": "fethiye_sahin_lokantasi",
+  "name_en": "Sahin Lokantasi",
+  "name_local": "Sahin Lokantasi",
+  "icon": "fork.knife",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "fethiye_sahin_lokantasi_001",
+      "intent_en": "Do I order at the display case?",
+      "text_local": "Tezgâhtan mı sipariş veriyorum?",
+      "pronunciation": "tehzahhtAHn-moo-seepahrIHsh-vehrEEyohruhm",
+      "formality": "casual",
+      "cultural_note": "At traditional lokantas, you often take a tray and point at the dishes in the display case to order.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tezgâhtan göstererek sipariş verin.",
+        "pronunciation": "ehvEHttehzahhtAHn-uhstehrehrEHk-seepahrIHsh-vehrIHn",
+        "translation_en": "Yes, order by pointing at the display case."
+      },
+      "responses": [
+        {
+          "english": "Yes, order by pointing at the display case.",
+          "phonetic": "ehvEHttehzahhtAHn-uhstehrehrEHk-seepahrIHsh-vehrIHn",
+          "french": "Evet, tezgâhtan göstererek sipariş verin."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_sahin_lokantasi_002",
+      "intent_en": "Where do I pay after eating?",
+      "text_local": "Yemekten sonra nerede ödeme yapıyorum?",
+      "pronunciation": "yehmehktAHn-sawnrAH-nEHrehdeh-uhdEHmeh-yahpOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "In Turkish lokantas, it's common to pay at a designated cash register after eating, not at the table.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kasada ödeyin.",
+        "pronunciation": "kAHsahdah-uhdehyIHn",
+        "translation_en": "Pay at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Pay at the cashier.",
+          "phonetic": "kAHsahdah-uhdehyIHn",
+          "french": "Kasada ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_sahin_lokantasi_003",
+      "intent_en": "Do I order at the display case?",
+      "text_local": "Tezgahtan mı sipariş veriyorum?",
+      "pronunciation": "tehzgahhtAHn-moo-seepahrIHsh-vehrEEyohruhm",
+      "formality": "casual",
+      "cultural_note": "Self-service is standard. Approach the counter and indicate your choices to the server.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tepsiyi alıp yemekleri gösterin.",
+        "pronunciation": "ehvEHttehpseeyIH-ahOOp-yehmehklehrIH-uhstehrIHn",
+        "translation_en": "Yes, take a tray and point at the dishes."
+      },
+      "responses": [
+        {
+          "english": "Yes, take a tray and point at the dishes.",
+          "phonetic": "ehvEHttehpseeyIH-ahOOp-yehmehklehrIH-uhstehrIHn",
+          "french": "Evet, tepsiyi alıp yemekleri gösterin."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_sahin_lokantasi_004",
+      "intent_en": "Is tipping expected here?",
+      "text_local": "Burada bahşiş bekleniyor mu?",
+      "pronunciation": "bOOrahdah-bahhshIHsh-behklehnEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Tipping customs vary. When unverified, it's safer to ask staff directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Genelde beklenmez, kasaya ödeme yaparken bırakabilirsiniz.",
+        "pronunciation": "ehnahldEH-behklahnmEHzkAHsahyah-uhdEHmeh-yahpAHrahn-boorahkahbeelIHrseenihz",
+        "translation_en": "Generally not expected, but you can leave some when paying at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Generally not expected, but you can leave some when paying at the cashier.",
+          "phonetic": "ehnahldEH-behklahnmEHzkAHsahyah-uhdEHmeh-yahpAHrahn-boorahkahbeelIHrseenihz",
+          "french": "Genelde beklenmez, kasaya ödeme yaparken bırakabilirsiniz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

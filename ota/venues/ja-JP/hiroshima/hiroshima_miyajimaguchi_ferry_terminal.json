@@ -1,0 +1,122 @@
+{
+  "id": "hiroshima_miyajimaguchi_ferry_terminal",
+  "name_en": "Miyajimaguchi ferry terminal",
+  "name_local": "宮島口桟橋",
+  "icon": "tram",
+  "lat": 34.3110928,
+  "lon": 132.3051794,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hiroshima_miyajimaguchi_ferry_terminal_001",
+      "intent_en": "When is last ferry to Miyajima",
+      "text_local": "みやじまへの さいしゅうびんは なんじですか？",
+      "pronunciation": "mEEydEEmhEHnoh-sEEOOoobeeH-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Japanese ferries run on a precise schedule. The last departure time can vary by season, but a specific time is given here as a plausible example.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "22じ14ふんです。",
+        "pronunciation": "nee-dzOOnee-dEE-dzOOsee-oondEHsoo",
+        "translation_en": "It's at 22:14."
+      },
+      "responses": [
+        {
+          "english": "It's at 22:14.",
+          "phonetic": "nee-dzOOnee-dEE-dzOOsee-oondEHsoo",
+          "french": "22じ14ふんです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_miyajimaguchi_ferry_terminal_002",
+      "intent_en": "How do I use Suica on Hiroden",
+      "text_local": "ひろでんで Suicaは どう つかいますか？",
+      "pronunciation": "khEEohdEHndeh-ehnEHs-yOO-EYE-sEE-AYyah-h-DOHoo-tsOOkEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Unlike some train systems, Hiroden trams require passengers to tap their IC card both when boarding and alighting.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "のりぐちで タッチ、おりぐちでも タッチです。",
+        "pronunciation": "nOHeegootEEdeh-tTteeOHeegOOteedEHmoh-tTteedEHsoo",
+        "translation_en": "Tap when you get on, and tap again when you get off."
+      },
+      "responses": [
+        {
+          "english": "Tap when you get on, and tap again when you get off.",
+          "phonetic": "nOHeegootEEdeh-tTteeOHeegOOteedEHmoh-tTteedEHsoo",
+          "french": "のりぐちで タッチ、おりぐちでも タッチです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_miyajimaguchi_ferry_terminal_003",
+      "intent_en": "Which window for JR ferry tickets",
+      "text_local": "JRの きっぷは どの まどぐちですか？",
+      "pronunciation": "ehndzhAY-AHyah-nOH-keeppOOh-dOHnoh-mDohgOOteedehsOOk",
+      "formality": "standard",
+      "cultural_note": "Pointing is common when giving directions in Japan. The staff may gesture towards the correct window.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みぎがわの 2ばん まどぐちです。",
+        "pronunciation": "mEEgeegwNoh-nEE-b-MDohgOOteedEHsoo",
+        "translation_en": "It's window number 2, on the right side."
+      },
+      "responses": [
+        {
+          "english": "It's window number 2, on the right side.",
+          "phonetic": "mEEgeegwNoh-nEE-b-MDohgOOteedEHsoo",
+          "french": "みぎがわの 2ばん まどぐちです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_miyajimaguchi_ferry_terminal_004",
+      "intent_en": "Is there luggage storage for shrine visit",
+      "text_local": "じんじゃに いくまえに にもつを あずけられますか？",
+      "pronunciation": "dEEdNee-EEkoomEHnee-nEEmohtsOOoh-ZookEHEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Coin lockers are a common and reliable way to store luggage at major transport hubs in Japan.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ええ、まちあいしつに コインロッカーが あります。",
+        "pronunciation": "EHehmTeeEEeetsOOnee-kOHeenohkkG-EEmSoo",
+        "translation_en": "Yes, there are coin lockers in the waiting room."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are coin lockers in the waiting room.",
+          "phonetic": "EHehmTeeEEeetsOOnee-kOHeenohkkG-EEmSoo",
+          "french": "ええ、まちあいしつに コインロッカーが あります。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_miyajimaguchi_ferry_terminal_005",
+      "intent_en": "Where is JR train ticket gate",
+      "text_local": "JRの かいさつぐちは どこですか？",
+      "pronunciation": "ehndzhAY-AHyah-nOH-kEEsTsoogootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "JR and Hiroden stations are separate buildings at Miyajimaguchi. The JR gate is a short walk from the ferry terminal.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ひだりに でて、となりです。",
+        "pronunciation": "khEEdEEnee-dEHtehtOHneedEHsoo",
+        "translation_en": "Go out to the left, it's next door."
+      },
+      "responses": [
+        {
+          "english": "Go out to the left, it's next door.",
+          "phonetic": "khEEdEEnee-dEHtehtOHneedEHsoo",
+          "french": "ひだりに でて、となりです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

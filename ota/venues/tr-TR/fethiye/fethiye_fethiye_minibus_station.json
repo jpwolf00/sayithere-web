@@ -1,0 +1,166 @@
+{
+  "id": "fethiye_fethiye_minibus_station",
+  "name_en": "Fethiye Minibus Station",
+  "name_local": "Fethiye Dolmus Duragi",
+  "icon": "tram",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_minibus_station_001",
+      "intent_en": "Ask if return ticket sold for Ölüdeniz",
+      "text_local": "Ölüdeniz için gidiş-dönüş bileti var mı?",
+      "pronunciation": "uhluedEHnihz-eetshIHn-eedIHshduhnUHsh-beelehtIH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Dolmuşlarda sadece tek yön bilet satılır, dönüş bileti ayrıca alınır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gidiş-dönüş bileti satılmaz.",
+        "pronunciation": "eedIHshduhnUHsh-beelehtIH-sahtoomAHz",
+        "translation_en": "Return ticket not sold."
+      },
+      "responses": [
+        {
+          "english": "Return ticket not sold.",
+          "phonetic": "eedIHshduhnUHsh-beelehtIH-sahtoomAHz",
+          "french": "Gidiş-dönüş bileti satılmaz."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_minibus_station_002",
+      "intent_en": "Ask luggage fee for big bag to Çalış",
+      "text_local": "Çalış'a büyük bavul için bagaj ücreti ne kadar?",
+      "pronunciation": "tshahooshAH-bueyUHk-vAHihz-eetshIHn-bahgAHzh-uhdzhrehtIH-nEH-kahdAHr",
+      "formality": "standard",
+      "cultural_note": "Büyük bagajlar için standart bir ücret yoktur, araçta şoförle konuşarak anlaşma yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Genelde yirmi lira alır.",
+        "pronunciation": "ehnahldEH-yihrmIH-leerAH-ahOOr",
+        "translation_en": "They usually take twenty lira."
+      },
+      "responses": [
+        {
+          "english": "They usually take twenty lira.",
+          "phonetic": "ehnahldEH-yihrmIH-leerAH-ahOOr",
+          "french": "Genelde yirmi lira alır."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_minibus_station_003",
+      "intent_en": "Ask which bay for Oludeniz dolmuş",
+      "text_local": "Ölüdeniz dolmuşu hangi perondan kalkıyor?",
+      "pronunciation": "uhluedEHnihz-dawmooshUH-hahngIH-pehrawndAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Dolmuş peronları genellikle numarasızdır; şoföre veya görevliye sormak en iyisidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "En arkadaki perondan kalkıyor.",
+        "pronunciation": "AHn-ahrkahdahkIH-pehrawndAHn-kahkOOyawr",
+        "translation_en": "It departs from the platform at the back."
+      },
+      "responses": [
+        {
+          "english": "It departs from the platform at the back.",
+          "phonetic": "AHn-ahrkahdahkIH-pehrawndAHn-kahkOOyawr",
+          "french": "En arkadaki perondan kalkıyor."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_minibus_station_004",
+      "intent_en": "Ask luggage fee for big bag to Çalış",
+      "text_local": "Çalış'a büyük bavul için ne kadar bagaj ücreti?",
+      "pronunciation": "tshahooshAH-bueyUHk-bahvUH-eetshIHn-nEH-kahdAHr-bahgAHzh-uhdzhrehtIH",
+      "formality": "standard",
+      "cultural_note": "There is no set luggage fee; it's negotiated directly with the driver on boarding.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Genelde 10 lira.",
+        "pronunciation": "ehnahldEH-OHn-leerAH",
+        "translation_en": "Usually 10 lira."
+      },
+      "responses": [
+        {
+          "english": "Usually 10 lira.",
+          "phonetic": "ehnahldEH-OHn-leerAH",
+          "french": "Genelde 10 lira."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_minibus_station_005",
+      "intent_en": "Ask where Fethiye-Calic bay route boards",
+      "text_local": "Fethiye-Çalış dolmuşu hangi perondan kalkıyor?",
+      "pronunciation": "fehtheeyEHtshahOOsh-dawmooshUH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "With multiple unmarked bays, finding the right dolmuş requires asking around, typically a driver or muavin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "En arkadaki peron.",
+        "pronunciation": "AHn-ahrkahdahkIH-pehrAWn",
+        "translation_en": "The bay at the back."
+      },
+      "responses": [
+        {
+          "english": "The bay at the back.",
+          "phonetic": "AHn-ahrkahdahkIH-pehrAWn",
+          "french": "En arkadaki peron."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_minibus_station_006",
+      "intent_en": "Ask if Kayaköy ghost village service running",
+      "text_local": "Kayaköy hayalet köy servisi çalışıyor mu?",
+      "pronunciation": "kahyahkUHy-hahyahlEHt-kUHy-sehrveesIH-tshahooshOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Servis saatleri değişebilir, en güncel bilgi için görevliye danışmak gerekir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, her saat başı kalkar.",
+        "pronunciation": "ehvEHthEHr-sahAHt-bahshOO-kahkAHr",
+        "translation_en": "Yes, it departs every hour."
+      },
+      "responses": [
+        {
+          "english": "Yes, it departs every hour.",
+          "phonetic": "ehvEHthEHr-sahAHt-bahshOO-kahkAHr",
+          "french": "Evet, her saat başı kalkar."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_minibus_station_007",
+      "intent_en": "Ask where Fethiye-Calic bay route boards",
+      "text_local": "Fethiye-Çalış dolmuşu nereden kalkıyor?",
+      "pronunciation": "fehtheeyEHtshahOOsh-pahzhOO-dawmooshUH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Peron alanları numarasız ve tabelasızdır; görevliler yolcuları yönlendirir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çıkışın sağındaki peron 2.",
+        "pronunciation": "tshookooshOOn-sahoondahkIH-pehrAWn-eeEE",
+        "translation_en": "Platform 2, on the right of the exit."
+      },
+      "responses": [
+        {
+          "english": "Platform 2, on the right of the exit.",
+          "phonetic": "tshookooshOOn-sahoondahkIH-pehrAWn-eeEE",
+          "french": "Çıkışın sağındaki peron 2."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

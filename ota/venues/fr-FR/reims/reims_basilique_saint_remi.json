@@ -1,0 +1,110 @@
+{
+  "id": "reims_basilique_saint_remi",
+  "name_en": "Basilica of Saint-Remi",
+  "name_local": "Basilique Saint-Remi",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "remi_entree",
+      "intent_en": "Is the basilica open for visitors?",
+      "text_local": "La basilique est-elle ouverte à la visite ?",
+      "pronunciation": "lah bah-ZEEK eh-TEL oo-VAIR-tuh ah lah vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "Saint-Remi is the oldest church in Reims and a UNESCO World Heritage Site alongside the cathedral. It contains the tomb of Saint Remi, who baptised Clovis in 498.",
+      "responses": [
+        {
+          "english": "Yes, come in.",
+          "phonetic": "wee ahn-TRAY",
+          "french": "Oui, entrez."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "remi_tombeau",
+      "intent_en": "Where is the tomb of Saint Remi?",
+      "text_local": "Où est le tombeau de Saint Remi ?",
+      "pronunciation": "oo eh luh tom-BOH duh san ruh-MEE",
+      "formality": "polite",
+      "cultural_note": "The elaborate 19th-century tomb of Saint Remi is in the choir — the saint who baptised the first Christian King of France, Clovis, in 498 AD.",
+      "responses": [
+        {
+          "english": "At the back of the nave, behind the choir.",
+          "phonetic": "oh FOHN duh lah NEF dair-YAIR luh KUR",
+          "french": "Au fond de la nef, derrière le chœur."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_sr_rei_x1",
+      "intent_en": "Ask if there is an entrance fee",
+      "text_local": "L'entrée est-elle payante ?",
+      "pronunciation": "lahn-TRAY ay-TEL pay-YAHNT",
+      "formality": "polite",
+      "cultural_note": "The Basilique Saint-Remi was built in the 11th century over the tomb of Saint Rémi, who baptised Clovis and thus Christianised France.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The church is free, the museum has a charge.",
+          "phonetic": "lay-GLEEZ ay grah-TWEET, luh moo-ZAY ay pay-YAHN.",
+          "french": "L'église est gratuite, le musée est payant."
+        }
+      ]
+    },
+    {
+      "id": "fr_sr_rei_x2",
+      "intent_en": "Ask where the tomb of Saint Rémi is",
+      "text_local": "Où se trouve le tombeau de saint Rémi ?",
+      "pronunciation": "oo suh TROOV luh tom-BOH duh SAN ray-MEE",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the choir, behind the high altar.",
+          "phonetic": "dahn luh KUR, duh-RYAIR luh MAY-truh-oh-TEL.",
+          "french": "Dans le chœur, derrière le maître-autel."
+        }
+      ]
+    },
+    {
+      "id": "fr_sr_rei_x3",
+      "intent_en": "Ask how to get from the cathedral to the basilica",
+      "text_local": "Comment aller de la cathédrale à la basilique ?",
+      "pronunciation": "koh-MAHN ah-LAY duh lah kah-tay-DRAL ah lah bah-zee-LEEK",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "By tram or on foot — about twenty minutes.",
+          "phonetic": "ahn tram-WAY oo ah PYAY — VANT mee-NOOT ahn-vee-RON.",
+          "french": "En tramway ou à pied — vingt minutes environ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "tomb",
+      "word_local": "le tombeau",
+      "pronunciation": "luh tom-BOH"
+    },
+    {
+      "word_en": "baptism",
+      "word_local": "le baptême",
+      "pronunciation": "luh bap-TEM"
+    },
+    {
+      "word_en": "Romanesque (architectural style)",
+      "word_local": "roman / romane",
+      "pronunciation": "roh-MON / roh-MAN"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "brno_brno_underground_labyrinth",
+  "name_en": "Brno underground labyrinth",
+  "name_local": "Labyrint pod Zelným trhem",
+  "icon": "building.columns",
+  "lat": 49.1922443,
+  "lon": 16.6113382,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "brno_brno_underground_labyrinth_001",
+      "intent_en": "When is the next group tour?",
+      "text_local": "Kdy začíná další skupinová prohlídka?",
+      "pronunciation": "kdEE-zAHtsheenah-dAHlshee-skOOpeenOHvah-prOHhleetkah",
+      "formality": "standard",
+      "cultural_note": "Times are given in the 24-hour format, but 'v jednu hodinu' is clear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za deset minut, v jednu hodinu.",
+        "pronunciation": "zAHdehseht-mEEnootv-yEHdnoo-hOHeenoo",
+        "translation_en": "In ten minutes, at one o'clock."
+      },
+      "responses": [
+        {
+          "english": "In ten minutes, at one o'clock.",
+          "phonetic": "zAHdehseht-mEEnootv-yEHdnoo-hOHeenoo",
+          "french": "Za deset minut, v jednu hodinu."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_underground_labyrinth_002",
+      "intent_en": "Is the audio guide available in English?",
+      "text_local": "Je audioprůvodce k dispozici v angličtině?",
+      "pronunciation": "yeh-OWdeeOHproovOHttseh-k-dEEspohzEEtsee-v-AHnggleetshEEnyeh",
+      "formality": "standard",
+      "cultural_note": "Direct 'ano' is standard and polite for confirming availability.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, máme angličtinu.",
+        "pronunciation": "AHnohmAHmeh-AHnggleetshEEnoo",
+        "translation_en": "Yes, we have English."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have English.",
+          "phonetic": "AHnohmAHmeh-AHnggleetshEEnoo",
+          "french": "Ano, máme angličtinu."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_underground_labyrinth_003",
+      "intent_en": "Where is the labyrinth entrance?",
+      "text_local": "Kde je vstup do labyrintu?",
+      "pronunciation": "kdEH-yeh-fstOOp-doh-lAHbeerEEntoo",
+      "formality": "standard",
+      "cultural_note": "Locals commonly refer to Zelný trh as 'Zelňák'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dole pod stánky na Zelňáku.",
+        "pronunciation": "dOHleh-pOHtstahngkee-nAHzehlnyAHkoo",
+        "translation_en": "Down under the stalls at the Vegetable Market."
+      },
+      "responses": [
+        {
+          "english": "Down under the stalls at the Vegetable Market.",
+          "phonetic": "dOHleh-pOHtstahngkee-nAHzehlnyAHkoo",
+          "french": "Dole pod stánky na Zelňáku."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_underground_labyrinth_004",
+      "intent_en": "Where is the exit souvenir shop?",
+      "text_local": "Kde je východový obchod se suvenýry?",
+      "pronunciation": "kdEH-yeh-vEEkhohdOHvee-OHpkhoht-seh-sOOvehnEEree",
+      "formality": "standard",
+      "cultural_note": "Staff will point towards the specific exit they are referring to.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned za tímto východem vpravo.",
+        "pronunciation": "hnEHd-zAHeemtoh-vEEkhohdehm-fprAHvoh",
+        "translation_en": "Just outside this exit, on the right."
+      },
+      "responses": [
+        {
+          "english": "Just outside this exit, on the right.",
+          "phonetic": "hnEHd-zAHeemtoh-vEEkhohdehm-fprAHvoh",
+          "french": "Hned za tímto východem vpravo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

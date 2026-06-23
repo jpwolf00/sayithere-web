@@ -1,0 +1,78 @@
+{
+  "id": "zell_am_see_zeller_seezauber_lakeside",
+  "name_en": "Zeller Seezauber Lakeside",
+  "name_local": "Seezauber Zell am See",
+  "icon": "leaf",
+  "lat": 47.2744182,
+  "lon": 12.7708114,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "zell_am_see_zeller_seezauber_lakeside_001",
+      "intent_en": "Where do I rent ice skates",
+      "text_local": "Wo kann ich Schlittschuhe leihen?",
+      "pronunciation": "vOH-kAHn-ihkh-shlIHtshoouh-lEYE-UHn",
+      "formality": "standard",
+      "cultural_note": "Ice skate rental is typically available at a dedicated booth or counter near the entrance of the ice rink. Staff will assist directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eislaufplatz.",
+        "pronunciation": "ahm-EYEslowfplAHts",
+        "translation_en": "At the ice rink."
+      },
+      "responses": [
+        {
+          "english": "At the ice rink.",
+          "phonetic": "ahm-EYEslowfplAHts",
+          "french": "Am Eislaufplatz."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zeller_seezauber_lakeside_002",
+      "intent_en": "Where do I pay for parking",
+      "text_local": "Wo bezahle ich das Parkticket?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-dahs-pAHrktihkuht",
+      "formality": "standard",
+      "cultural_note": "Parking tickets are typically purchased at automated machines located along the promenade or near parking areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten bei der Promenade.",
+        "pronunciation": "ahm-OWtohmAHtuhn-beye-dehr-prohmEHnahduh",
+        "translation_en": "At the machine by the promenade."
+      },
+      "responses": [
+        {
+          "english": "At the machine by the promenade.",
+          "phonetic": "ahm-OWtohmAHtuhn-beye-dehr-prohmEHnahduh",
+          "french": "Am Automaten bei der Promenade."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zeller_seezauber_lakeside_003",
+      "intent_en": "Is the concert stage open tonight",
+      "text_local": "Ist die Bühne heute Abend offen?",
+      "pronunciation": "ihst-dee-bUEnuh-hAWuhtuh-AHbuhnt-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Concert stage access depends on event schedules. Staff confirm only if an event is scheduled.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, geöffnet.",
+        "pronunciation": "yAHuhUHfnuht",
+        "translation_en": "Yes, open."
+      },
+      "responses": [
+        {
+          "english": "Yes, open.",
+          "phonetic": "yAHuhUHfnuht",
+          "french": "Ja, geöffnet."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

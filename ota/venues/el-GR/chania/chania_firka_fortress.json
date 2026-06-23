@@ -1,0 +1,100 @@
+{
+  "id": "chania_firka_fortress",
+  "name_en": "Firka Fortress",
+  "name_local": "Φρούριο Φίρκα",
+  "icon": "building.columns",
+  "lat": 35.5186758,
+  "lon": 24.0156273,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "chania_firka_fortress_001",
+      "intent_en": "Do I remove shoes inside the mosque museum?",
+      "text_local": "Πρέπει να βγάλω τα παπούτσια μέσα στο μουσείο τζαμί;",
+      "pronunciation": "prEHpee-nah-vghAHloh-tah-pahpOOtseeAH-mEHsah-stoh-moosEEoh-dzahmEE",
+      "formality": "standard",
+      "cultural_note": "Στο μουσείο της Τζαμί Γιάλι τηρούνται οι κανόνες του τζαμιού για την είσοδο χωρίς υποδήματα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, βγάλτε τα παπούτσια.",
+        "pronunciation": "nEHvghAHlteh-tah-pahpOOtseeAH",
+        "translation_en": "Yes, remove your shoes."
+      },
+      "responses": [
+        {
+          "english": "Yes, remove your shoes.",
+          "phonetic": "nEHvghAHlteh-tah-pahpOOtseeAH",
+          "french": "Ναι, βγάλτε τα παπούτσια."
+        }
+      ]
+    },
+    {
+      "id": "chania_firka_fortress_002",
+      "intent_en": "Is the outer rampart walk free?",
+      "text_local": "Η βόλτα στην εξωτερική περίμετρο είναι δωρεάν;",
+      "pronunciation": "ee-vOHltah-steen-EHksohtEHreeEE-pehrEEmehtrOH-EEneh-thOHrehAHn",
+      "formality": "standard",
+      "cultural_note": "Η εξωτερική περίμετρος των Βενετσιάνικων τειχών δεν χρειάζεται εισιτήριο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δωρεάν.",
+        "pronunciation": "nEHthOHrehAHn",
+        "translation_en": "Yes, it is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is free.",
+          "phonetic": "nEHthOHrehAHn",
+          "french": "Ναι, δωρεάν."
+        }
+      ]
+    },
+    {
+      "id": "chania_firka_fortress_003",
+      "intent_en": "Where do I pay for the museum ticket?",
+      "text_local": "Πού πληρώνω το εισιτήριο του μουσείου;",
+      "pronunciation": "pOO-pleerOHnoh-toh-EEseetEEreeOH-too-moosEEoo",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναμένεται να πληρώσουν στη θέση των εισιτηρίων του Μουσείου Ναυτικής Ιστορίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο, αριστερά.",
+        "pronunciation": "steen-EEsohthOHAHreestehrAH",
+        "translation_en": "At the entrance, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, on the left.",
+          "phonetic": "steen-EEsohthOHAHreestehrAH",
+          "french": "Στην είσοδο, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "chania_firka_fortress_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το κατάστημα σουβενίρ κοντά στην έξοδο;",
+      "pronunciation": "pOO-EEneh-toh-kahtAHsteemAH-sOOvehnEEr-kohdAH-steen-EHksohthOH",
+      "formality": "standard",
+      "cultural_note": "Το κατάστημα σουβενίρ βρίσκεται κοντά στην έξοδο του Μουσείου Ναυτικής Ιστορίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το κατάστημα είναι δεξιά, δίπλα στην έξοδο.",
+        "pronunciation": "toh-kahtAHsteemAH-EEneh-thEHkseeAHthEEplah-steen-EHksohthOH",
+        "translation_en": "The shop is to the right, next to the exit."
+      },
+      "responses": [
+        {
+          "english": "The shop is to the right, next to the exit.",
+          "phonetic": "toh-kahtAHsteemAH-EEneh-thEHkseeAHthEEplah-steen-EHksohthOH",
+          "french": "Το κατάστημα είναι δεξιά, δίπλα στην έξοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

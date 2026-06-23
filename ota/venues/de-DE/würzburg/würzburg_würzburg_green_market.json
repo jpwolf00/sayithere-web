@@ -1,0 +1,122 @@
+{
+  "id": "würzburg_würzburg_green_market",
+  "name_en": "Würzburg Green Market",
+  "name_local": "Grüner Markt Würzburg",
+  "icon": "cart",
+  "lat": 49.7943272,
+  "lon": 9.9292691,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "würzburg_würzburg_green_market_001",
+      "intent_en": "Ask how bottle deposit returns work here",
+      "text_local": "Wie funktioniert Pfandrückgabe?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-pfAHndruekAHbuh",
+      "formality": "standard",
+      "cultural_note": "German markets commonly use automated Pfand machines near exits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Maschine beim Ausgang.",
+        "pronunciation": "mahshEEnuh-beyem-OWsAHng",
+        "translation_en": "Machine at the exit."
+      },
+      "responses": [
+        {
+          "english": "Machine at the exit.",
+          "phonetic": "mahshEEnuh-beyem-OWsAHng",
+          "french": "Maschine beim Ausgang."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_green_market_002",
+      "intent_en": "Ask where to weigh produce before paying",
+      "text_local": "Wo wird das Obst gewogen?",
+      "pronunciation": "vOH-vIHrt-dahs-OHpst-uhvOHuhn",
+      "formality": "standard",
+      "cultural_note": "Obst and Gemüse are commonly weighed at the vendor’s stall, not at a central scale.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Stand der Bäuerin.",
+        "pronunciation": "ahm-shtAHnt-dehr-bAWuhuhrIHn",
+        "translation_en": "At the farmer’s stall."
+      },
+      "responses": [
+        {
+          "english": "At the farmer’s stall.",
+          "phonetic": "ahm-shtAHnt-dehr-bAWuhuhrIHn",
+          "french": "Am Stand der Bäuerin."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_green_market_003",
+      "intent_en": "Ask if afternoon discount timing has started",
+      "text_local": "Gibt es schon Nachmittagsrabatt?",
+      "pronunciation": "EEpt-ehs-shOHn-nAHkhmihtAHksrahbAHt",
+      "formality": "standard",
+      "cultural_note": "Afternoon discounts typically start around 14:00 at German markets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ab 14 Uhr.",
+        "pronunciation": "ahp-fIHrtsehn-OOr",
+        "translation_en": "From 2 p.m. on."
+      },
+      "responses": [
+        {
+          "english": "From 2 p.m. on.",
+          "phonetic": "ahp-fIHrtsehn-OOr",
+          "french": "Ab 14 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_green_market_004",
+      "intent_en": "Ask which wine stall accepts cards",
+      "text_local": "Wo kann ich mit Karte zahlen?",
+      "pronunciation": "vOH-kAHn-ihkh-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Most wine stalls prefer cash, but some larger stands accept cards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Weinstand des Winzers.",
+        "pronunciation": "ahm-vEYEnstahnt-dehs-vIHntss",
+        "translation_en": "At the winemaker’s stall."
+      },
+      "responses": [
+        {
+          "english": "At the winemaker’s stall.",
+          "phonetic": "ahm-vEYEnstahnt-dehs-vIHntss",
+          "french": "Am Weinstand des Winzers."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_green_market_005",
+      "intent_en": "Ask where the Franconian sausage stands are",
+      "text_local": "Wo gibt es die fränkische Wurst?",
+      "pronunciation": "vOH-EEpt-ehs-dee-frEHnkihshuh-vOOrst",
+      "formality": "standard",
+      "cultural_note": "Franconian sausages are typically sold at butcher stalls in the market.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei den Metzgerständen.",
+        "pronunciation": "beye-dehn-mEHtsshtEHnduhn",
+        "translation_en": "At the butcher stalls."
+      },
+      "responses": [
+        {
+          "english": "At the butcher stalls.",
+          "phonetic": "beye-dehn-mEHtsshtEHnduhn",
+          "french": "Bei den Metzgerständen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

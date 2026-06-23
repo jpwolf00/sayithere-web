@@ -1,0 +1,78 @@
+{
+  "id": "athens_elliniko_tourist_information_center",
+  "name_en": "Elliniko tourist information center",
+  "name_local": "Γραφείο Τουριστικών Πληροφοριών Ελληνικό",
+  "icon": "info.circle",
+  "lat": 37.9755648,
+  "lon": 23.7348324,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "athens_elliniko_tourist_information_center_001",
+      "intent_en": "Is the tram to Glyfada running now",
+      "text_local": "Λειτουργεί τώρα το τραμ για Γλυφάδα;",
+      "pronunciation": "lEEtooryEE-tOHrah-toh-trAHm-yAH-ghleefAHthah",
+      "formality": "standard",
+      "cultural_note": "Η κατάσταση των τραμ προς Γλυφάδα ελέγχεται από τον υπάλληλο πληροφοριών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, από την στάση έξω κάθε 20 λεπτά.",
+        "pronunciation": "nEHahpOH-teen-stAHsee-EHksoh-kAHtheh-EEkohsEE-lehptAH",
+        "translation_en": "Ask at the info clerk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the info clerk.",
+          "phonetic": "nEHahpOH-teen-stAHsee-EHksoh-kAHtheh-EEkohsEE-lehptAH",
+          "french": "Ναι, από την στάση έξω κάθε 20 λεπτά."
+        }
+      ]
+    },
+    {
+      "id": "athens_elliniko_tourist_information_center_002",
+      "intent_en": "Where do I buy the Athens transport pass",
+      "text_local": "Πού αγοράζω το εισιτήριο πολλαπλών μεταφορών;",
+      "pronunciation": "pOO-AHghohrAHzoh-toh-EEseetEEreeOH-pOHlahplOHn-mEHtahfohrOHn",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι πληροφοριών παρέχουν εισιτήρια πολλαπλών μεταφορών απευθείας στο γραφείο τους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο εκδοτήριο εισιτηρίων του σταθμού.",
+        "pronunciation": "stoh-EHkthohtEEreeOH-EEseeteerEEohn-doo-stahthmOO",
+        "translation_en": "At the station ticket office."
+      },
+      "responses": [
+        {
+          "english": "At the station ticket office.",
+          "phonetic": "stoh-EHkthohtEEreeOH-EEseeteerEEohn-doo-stahthmOO",
+          "french": "Στο εκδοτήριο εισιτηρίων του σταθμού."
+        }
+      ]
+    },
+    {
+      "id": "athens_elliniko_tourist_information_center_003",
+      "intent_en": "Where is the metro ticket validation machine",
+      "text_local": "Πού είναι ο μηχανισμός επικύρωσης εισιτηρίων του μετρό;",
+      "pronunciation": "pOO-EEneh-oh-mEEkhahneesmOHs-EHpeeEErohsEEs-EEseeteerEEohn-doo-mehtrOH",
+      "formality": "standard",
+      "cultural_note": "Οι μηχανισμοί επικύρωσης βρίσκονται πλησίον των εισόδων των σταθμών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στην είσοδο του σταθμού.",
+        "pronunciation": "AHreestehrAH-steen-EEsohthOH-too-stahthmOO",
+        "translation_en": "Follow the signs to the station."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the station.",
+          "phonetic": "AHreestehrAH-steen-EEsohthOH-too-stahthmOO",
+          "french": "Αριστερά στην είσοδο του σταθμού."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

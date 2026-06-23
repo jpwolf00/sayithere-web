@@ -1,0 +1,122 @@
+{
+  "id": "pamukkale_pamukkale_tourist_information_office",
+  "name_en": "Pamukkale Tourist Information Office",
+  "name_local": "Pamukkale Turizm Danışma Bürosu",
+  "icon": "info.circle",
+  "lat": 37.7827875,
+  "lon": 29.0966476,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "pamukkale_pamukkale_tourist_information_office_001",
+      "intent_en": "Do you have thermal pool hotel listings?",
+      "text_local": "Termal havuzlu otel listeniz var mı?",
+      "pronunciation": "tehrmAH-hAHvuhzuh-ohtAHl-lihstEHnihz-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Printed hotel lists are usually kept at the desk and handed out by the advisor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bu listede mevcut.",
+        "pronunciation": "ehvEHtbuh-lihstehdEH-mehvdzhUHt",
+        "translation_en": "Yes, it is available on this list."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is available on this list.",
+          "phonetic": "ehvEHtbuh-lihstehdEH-mehvdzhUHt",
+          "french": "Evet, bu listede mevcut."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_tourist_information_office_002",
+      "intent_en": "What time is the next Denizli otogar bus?",
+      "text_local": "Denizli otogarına bir sonraki otobüs saat kaçta?",
+      "pronunciation": "dehnIHzlih-ohtohgahroonAH-bihr-sawnrahkIH-ohtohbUHs-sahAHt-kahtshtAH",
+      "formality": "standard",
+      "cultural_note": "Bus times are subject to change; the advisor has the current schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Her saat başı var.",
+        "pronunciation": "hEHr-sahAHt-bahshOO-vAHr",
+        "translation_en": "There is one every hour on the hour."
+      },
+      "responses": [
+        {
+          "english": "There is one every hour on the hour.",
+          "phonetic": "hEHr-sahAHt-bahshOO-vAHr",
+          "french": "Her saat başı var."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_tourist_information_office_003",
+      "intent_en": "Is card payment accepted for Museum Pass?",
+      "text_local": "Museum Pass için kartla ödeme kabul ediliyor mu?",
+      "pronunciation": "mOOsehuhm-pAHss-eetshIHn-kAHrtah-uhdEHmeh-kahbUH-ehdeelEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Payment methods can vary by terminal; staff confirm the current status.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, burada geçerli.",
+        "pronunciation": "ehvEHtbOOrahdah-ehtshehrlIH",
+        "translation_en": "Yes, it's accepted here."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's accepted here.",
+          "phonetic": "ehvEHtbOOrahdah-ehtshehrlIH",
+          "french": "Evet, burada geçerli."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_tourist_information_office_004",
+      "intent_en": "Where is the South Gate walking path?",
+      "text_local": "Güney Kapısı yürüyüş yolu nerede?",
+      "pronunciation": "uenEHy-kahpoosOO-yuerueyUHsh-yohUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Trailheads from the office can change with site conditions; staff have the latest route advice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte soldaki patikadan girin.",
+        "pronunciation": "eerihshtEH-sawdahkIH-pahteekahdAHn-eerIHn",
+        "translation_en": "Enter from the path on the left at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Enter from the path on the left at the entrance.",
+          "phonetic": "eerihshtEH-sawdahkIH-pahteekahdAHn-eerIHn",
+          "french": "Girişte soldaki patikadan girin."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_tourist_information_office_005",
+      "intent_en": "Where do I buy the Museum Pass Türkiye?",
+      "text_local": "Museum Pass Türkiye'yi nereden alabilirim?",
+      "pronunciation": "mOOsehuhm-pAHss-tuhrkeeyehyIH-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Turkish information offices often direct specific sales to a staff member rather than a self-service point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana kapının yanındaki gişeden.",
+        "pronunciation": "ahnAH-kahpoonOOn-yahnoondahkIH-eeshehdAHn",
+        "translation_en": "From the ticket office next to the main gate."
+      },
+      "responses": [
+        {
+          "english": "From the ticket office next to the main gate.",
+          "phonetic": "ahnAH-kahpoonOOn-yahnoondahkIH-eeshehdAHn",
+          "french": "Ana kapının yanındaki gişeden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

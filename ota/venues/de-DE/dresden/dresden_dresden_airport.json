@@ -1,0 +1,122 @@
+{
+  "id": "dresden_dresden_airport",
+  "name_en": "Dresden Airport",
+  "name_local": "Flughafen Dresden",
+  "icon": "tram",
+  "lat": 51.1342993,
+  "lon": 13.7694808,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "dresden_dresden_airport_001",
+      "intent_en": "Where are the airline ticket counters?",
+      "text_local": "Wo sind die Check-in-Schalter?",
+      "pronunciation": "vOH-zihnt-dee-khEHkihnshAHlt",
+      "formality": "standard",
+      "cultural_note": "Airport check-in counters are typically located in the main terminal before security; 'Abfertigungsbereich' denotes the check-in zone.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Abfertigungsbereich vorne.",
+        "pronunciation": "ihm-AHpfEHrtihUHngsbuhrEYEkh-fAWrnuh",
+        "translation_en": "In the check-in area up front."
+      },
+      "responses": [
+        {
+          "english": "In the check-in area up front.",
+          "phonetic": "ihm-AHpfEHrtihUHngsbuhrEYEkh-fAWrnuh",
+          "french": "Im Abfertigungsbereich vorne."
+        }
+      ]
+    },
+    {
+      "id": "dresden_dresden_airport_002",
+      "intent_en": "Is there a passenger observation terrace?",
+      "text_local": "Gibt es eine Besucherterrasse?",
+      "pronunciation": "EEpt-ehs-EYEnuh-buhzOOkhtrAHsuh",
+      "formality": "standard",
+      "cultural_note": "German airports often include observation terraces for passengers; 'Besucherterrasse' is the standard term.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Terminal.",
+        "pronunciation": "yAHihm-ehntMihnuhldeh",
+        "translation_en": "Yes, in the terminal."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the terminal.",
+          "phonetic": "yAHihm-ehntMihnuhldeh",
+          "french": "Ja, im Terminal."
+        }
+      ]
+    },
+    {
+      "id": "dresden_dresden_airport_003",
+      "intent_en": "When does the next S2 train leave?",
+      "text_local": "Wann fährt die nächste S2?",
+      "pronunciation": "vAHn-fEHrt-dee-nEHkhstuh-EHs-tsvEYE",
+      "formality": "standard",
+      "cultural_note": "German S-Bahn schedules are precise; 'Ab' indicates departure time relative to current moment.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In 5 Minuten.",
+        "pronunciation": "ihn-fUEnf-meenOOtuhn",
+        "translation_en": "In 5 minutes."
+      },
+      "responses": [
+        {
+          "english": "In 5 minutes.",
+          "phonetic": "ihn-fUEnf-meenOOtuhn",
+          "french": "In 5 Minuten."
+        }
+      ]
+    },
+    {
+      "id": "dresden_dresden_airport_004",
+      "intent_en": "How do I use the ticket machines?",
+      "text_local": "Wie bediene ich den Automaten?",
+      "pronunciation": "vee-buhdEEnuh-ihkh-dehn-OWtohmAHtuhn",
+      "formality": "standard",
+      "cultural_note": "German ticket machines are standardized; basic steps involve language selection and destination entry.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sprache wählen, Ziel eingeben.",
+        "pronunciation": "shprAHkhuh-vEHluhntsEEl-EYEnEHbuhn",
+        "translation_en": "Select language, enter destination."
+      },
+      "responses": [
+        {
+          "english": "Select language, enter destination.",
+          "phonetic": "shprAHkhuh-vEHluhntsEEl-EYEnEHbuhn",
+          "french": "Sprache wählen, Ziel eingeben."
+        }
+      ]
+    },
+    {
+      "id": "dresden_dresden_airport_005",
+      "intent_en": "How do I reach the S-Bahn station?",
+      "text_local": "Wie erreiche ich die S-Bahn?",
+      "pronunciation": "vOH-ihst-dehr-EHsbAHnAHnshlUHs",
+      "formality": "standard",
+      "cultural_note": "German airports provide clear signage for public transport connections; 'Anschluss' is a common term for intermodal transport links.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Zugang ist im Erdgeschoss.",
+        "pronunciation": "dehr-tsOOgahng-ihst-ihm-ehrdgEHshaws",
+        "translation_en": "The access is on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "The access is on the ground floor.",
+          "phonetic": "dehr-tsOOgahng-ihst-ihm-ehrdgEHshaws",
+          "french": "Der Zugang ist im Erdgeschoss."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

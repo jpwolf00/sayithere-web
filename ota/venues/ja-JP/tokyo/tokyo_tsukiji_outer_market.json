@@ -1,0 +1,144 @@
+{
+  "id": "tokyo_tsukiji_outer_market",
+  "name_en": "Tsukiji Outer Market",
+  "name_local": "築地場外市場",
+  "icon": "fork.knife",
+  "lat": 35.6653884,
+  "lon": 139.7704732,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "tokyo_tsukiji_outer_market_001",
+      "intent_en": "Ask if this stall is cash only",
+      "text_local": "ここは げんきんだけですか？",
+      "pronunciation": "kohkOHh-gEHngkeendKehdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small food stalls in Tsukiji Outer Market do not accept credit cards. Having cash (especially small bills and coins) is standard practice.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tsukiji_outer_market_002",
+      "intent_en": "Ask where the tamagoyaki stall is",
+      "text_local": "たまごやきの みせは どこですか？",
+      "pronunciation": "tMgOHykEEnoh-meesEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Tamagoyaki (rolled sweet omelette) is a popular snack. Vendors often sell it on a stick for easy eating while walking, though it's polite to step aside to eat.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、みぎです。",
+        "pronunciation": "mssOOgoo-EEttehmEEgeedEHsoo",
+        "translation_en": "Go straight, then it's on the right."
+      },
+      "responses": [
+        {
+          "english": "Go straight, then it's on the right.",
+          "phonetic": "mssOOgoo-EEttehmEEgeedEHsoo",
+          "french": "まっすぐ いって、みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tsukiji_outer_market_003",
+      "intent_en": "Ask if maguro donburi is available now",
+      "text_local": "まぐろどんぶりは いま ありますか？",
+      "pronunciation": "mGooOHdohBooEEh-EEm-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Fresh maguro (tuna) donburi is a staple item. Shops that specialize in it will almost always have it available during market hours.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ありますよ。",
+        "pronunciation": "hEEEEmsOOyoh",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "hEEEEmsOOyoh",
+          "french": "はい、ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tsukiji_outer_market_004",
+      "intent_en": "Ask if there is seating nearby",
+      "text_local": "このへんに すわれるところは ありますか？",
+      "pronunciation": "kOHnohhEHnnee-sOOwEHootOHkohOHh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "The Tsukiji Outer Market is primarily a standing-and-walking area. Seating is limited, but you can often find a few public benches or small seating areas tucked away.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ちかくに ベンチが あります。",
+        "pronunciation": "tEEkkOOnee-behntEEg-EEmSoo",
+        "translation_en": "There are benches nearby."
+      },
+      "responses": [
+        {
+          "english": "There are benches nearby.",
+          "phonetic": "tEEkkOOnee-behntEEg-EEmSoo",
+          "french": "ちかくに ベンチが あります。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tsukiji_outer_market_005",
+      "intent_en": "Ask if queue tickets are required",
+      "text_local": "せいりけんは ひつようですか？",
+      "pronunciation": "sEHeeEEkehH-khEEtsooyOHoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "Popular sushi counters often use a numbered ticket system (整理券) to manage long queues, especially during peak hours.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あちらで とってください。",
+        "pronunciation": "hEETeeDeh-tOHttehkOOdsEE",
+        "translation_en": "Yes, please take one over there."
+      },
+      "responses": [
+        {
+          "english": "Yes, please take one over there.",
+          "phonetic": "hEETeeDeh-tOHttehkOOdsEE",
+          "french": "はい、あちらで とってください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tsukiji_outer_market_006",
+      "intent_en": "Ask if I should pay before eating",
+      "text_local": "たべるまえに しはらいますか？",
+      "pronunciation": "tBehOOmEHnee-EEhEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At stand-up food stalls and small counters in the market, it is very common to order and pay at the register before receiving your food.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、さきに おねがいします。",
+        "pronunciation": "hEEskEEnee-OHnehgEEeemSoo",
+        "translation_en": "Yes, please pay first."
+      },
+      "responses": [
+        {
+          "english": "Yes, please pay first.",
+          "phonetic": "hEEskEEnee-OHnehgEEeemSoo",
+          "french": "はい、さきに おねがいします。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

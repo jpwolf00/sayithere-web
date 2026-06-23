@@ -1,0 +1,100 @@
+{
+  "id": "vienna_schönbrunn_palace",
+  "name_en": "Schönbrunn Palace",
+  "name_local": "Schloss Schönbrunn",
+  "icon": "building.columns",
+  "lat": 48.1849894,
+  "lon": 16.3115684,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "vienna_schönbrunn_palace_001",
+      "intent_en": "Where is the audio guide rental desk?",
+      "text_local": "Wo ist der Audioguide-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-ehnAWdihUHuheyeddehshAHlt",
+      "formality": "standard",
+      "cultural_note": "Audio guides are typically rented at the main ticket desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Haupteingang links.",
+        "pronunciation": "deerEHkt-ahm-hOWptEYEngAHng-lINGks",
+        "translation_en": "Directly on the left at the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Directly on the left at the main entrance.",
+          "phonetic": "deerEHkt-ahm-hOWptEYEngAHng-lINGks",
+          "french": "Direkt am Haupteingang links."
+        }
+      ]
+    },
+    {
+      "id": "vienna_schönbrunn_palace_002",
+      "intent_en": "Which ticket do I need, Grand or Imperial Tour?",
+      "text_local": "Welches Ticket brauche ich, die Grand Tour oder die Imperial Tour?",
+      "pronunciation": "rAHnt-OHd-IHmpehreeAHl-tOOr",
+      "formality": "standard",
+      "cultural_note": "Tours are self-selected; staff may clarify differences on request.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Grand Tour ist länger.",
+        "pronunciation": "dee-grAHnt-tOOr-ihst-lEHng",
+        "translation_en": "The Grand Tour is longer."
+      },
+      "responses": [
+        {
+          "english": "The Grand Tour is longer.",
+          "phonetic": "dee-grAHnt-tOOr-ihst-lEHng",
+          "french": "Die Grand Tour ist länger."
+        }
+      ]
+    },
+    {
+      "id": "vienna_schönbrunn_palace_003",
+      "intent_en": "Can I buy a zoo combo ticket?",
+      "text_local": "Gibt es Kombi-Tickets für den Zoo?",
+      "pronunciation": "EEpt-ehs-kAWmbeetIHkuhts-fuer-dehn-tsOH",
+      "formality": "standard",
+      "cultural_note": "Combo tickets include palace and zoo access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "vienna_schönbrunn_palace_004",
+      "intent_en": "Where is the Gloriette café?",
+      "text_local": "Wo ist das Gloriette-Café?",
+      "pronunciation": "vOH-ihst-dahs-lOHreetuhkahfEH",
+      "formality": "standard",
+      "cultural_note": "The café is located near the Gloriette structure atop the hill.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Das ist oben auf dem Hügel.",
+        "pronunciation": "dahs-ihst-OHbuhn-owf-dehm-hUEguhl",
+        "translation_en": "That is up on the hill."
+      },
+      "responses": [
+        {
+          "english": "That is up on the hill.",
+          "phonetic": "dahs-ihst-OHbuhn-owf-dehm-hUEguhl",
+          "french": "Das ist oben auf dem Hügel."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

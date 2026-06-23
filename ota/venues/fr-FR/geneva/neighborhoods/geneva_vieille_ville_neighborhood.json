@@ -1,0 +1,93 @@
+{
+  "id": "geneva_nbhd_vieille_ville",
+  "name_en": "Vieille Ville (Old Town neighborhood)",
+  "name_local": "Vieille Ville",
+  "icon": "map",
+  "phrases": [
+    {
+      "id": "geneva_nbhd_vv_001",
+      "intent_en": "Ask about the character of the neighborhood",
+      "text_local": "Quelle est l'atmosphère du quartier de la Vieille Ville ?",
+      "pronunciation": "kel eh lah-tos-FAIR doo kar-TYAY duh lah VYAY VEEL",
+      "formality": "polite",
+      "cultural_note": "The Vieille Ville is Geneva's historic hilltop heart, with cobblestone streets, medieval buildings, antique dealers, art galleries and pavement cafés.",
+      "responses": [
+        {
+          "english": "Go up the hill, it's right up there.",
+          "phonetic": "OO suh TROOV lah kah-tay-DRAHL sa(n) PYAYR",
+          "french": "Montez la colline, c'est juste là-haut."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_vv_002",
+      "intent_en": "Ask for a café recommendation in the neighborhood",
+      "text_local": "Pouvez-vous me recommander un café sympa dans le quartier ?",
+      "pronunciation": "poo-VAY-voo muh ruh-koh-mohn-DAY un kah-FAY sam-PAH don luh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "The Grand-Rue and the Place du Bourg-de-Four are the social hub of the Vieille Ville — the latter is Geneva's oldest square and still has working fountains.",
+      "responses": [
+        {
+          "english": "Yes, the Café de la Paix just around the corner.",
+          "phonetic": "bawn-ZHOOR poo-VAY voo muh ruh-kuh-mawn-DAY uhn, uhn ka-FAY sa(n)-PAH daw(n) luh kar-TYAY",
+          "french": "Oui, le Café de la Paix juste au coin."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_vv_003",
+      "intent_en": "Ask if the neighborhood is safe at night",
+      "text_local": "Le quartier est-il sûr le soir ?",
+      "pronunciation": "luh kar-TYAY eh-TEEL SOOR luh SWAR",
+      "formality": "polite",
+      "cultural_note": "Geneva is consistently ranked one of the world's safest cities. The Vieille Ville is quiet and pleasant at night, with a handful of bars around the Place du Bourg-de-Four.",
+      "responses": [
+        {
+          "english": "They are located right on the street corner, next to the pharmacy. It's about a two-minute walk.",
+          "phonetic": "OO sohn lay TWA-let pyoo-BLEEK lay plew PROSH",
+          "french": "Elles se trouvent juste au coin de la rue, à côté de la pharmacie. C'est à environ deux minutes à pied."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_nbhd_vv_004",
+      "intent_en": "Ask about the antique market on the weekend",
+      "text_local": "Y a-t-il un marché aux antiquités dans ce quartier le week-end ?",
+      "pronunciation": "ee-ah-TEEL un mar-SHAY oh zon-tee-kee-TAY don suh kar-TYAY luh WEEK-end",
+      "formality": "polite",
+      "cultural_note": "A small antique market is held on the Place de la Fusterie on Thursdays and Saturdays; the Place du Bourg-de-Four also hosts occasional fairs.",
+      "responses": [
+        {
+          "english": "Yes, near the Corraterie stairs.",
+          "phonetic": "ee-GREK ah tay eel uhn / uhn ah-sahn-SUR poor day-SAHNDR ah(n) VEEL",
+          "french": "Oui, près des escaliers de la Corraterie."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "neighborhood / district",
+      "word_local": "le quartier",
+      "pronunciation": "luh kar-TYAY"
+    },
+    {
+      "word_en": "antique dealer",
+      "word_local": "l'antiquaire",
+      "pronunciation": "lon-tee-KAIR"
+    },
+    {
+      "word_en": "square",
+      "word_local": "la place",
+      "pronunciation": "lah PLASS"
+    }
+  ]
+}

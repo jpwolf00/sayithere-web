@@ -1,0 +1,125 @@
+{
+  "id": "venue_opera_garnier",
+  "name_en": "Opéra Garnier",
+  "name_local": "Opéra Garnier",
+  "icon": "theatermasks.fill",
+  "phrases": [
+    {
+      "id": "venue_opera_001",
+      "intent_en": "Ask about self-guided tours",
+      "text_local": "Est-ce qu'on peut visiter l'Opéra sans spectacle ?",
+      "pronunciation": "ess kohn puh vee-zee-TAY loh-pay-RAH sahn spek-TAHKL",
+      "formality": "polite",
+      "cultural_note": "Self-guided visits are available daily (except during matinee performances). You'll see the grand staircase, auditorium, and the stunning Grand Foyer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, self-guided visits are open every day except during matinees.",
+          "phonetic": "wee, lay vee-ZEET LEE-bruh sohn too-VEHR too lay zhoor sohf ahn mah-tee-NAY",
+          "french": "Oui, les visites libres sont ouvertes tous les jours sauf en matinée."
+        }
+      ]
+    },
+    {
+      "id": "venue_opera_002",
+      "intent_en": "Ask how much a self-guided visit costs",
+      "text_local": "Combien coûte la visite libre ?",
+      "pronunciation": "kohm-BYEHN koot lah vee-ZEET LEE-bruh",
+      "formality": "polite",
+      "cultural_note": "Self-guided visits let you explore the grand staircase, auditorium, and foyer at your own pace.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is fifteen euros for adults.",
+          "phonetic": "seh kanz uh-ROH poor layz ah-DOOLT",
+          "french": "C'est quinze euros pour les adultes."
+        }
+      ]
+    },
+    {
+      "id": "venue_opera_003",
+      "intent_en": "Ask where the entrance for self-guided visits is",
+      "text_local": "Où est l'entrée pour la visite libre ?",
+      "pronunciation": "oo eh lan-TRAY poor lah vee-ZEET LEE-bruh",
+      "formality": "polite",
+      "cultural_note": "The self-guided visit entrance is separate from the performance entrance. Look for signs near the corner of the building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The entrance is on the left side of the building.",
+          "phonetic": "lan-TRAY eh soor luh koh-TAY gohsh doo bah-tee-MAHN",
+          "french": "L'entrée est sur le côté gauche du bâtiment."
+        }
+      ]
+    },
+    {
+      "id": "venue_opera_004",
+      "intent_en": "Ask about tonight's performance",
+      "text_local": "Qu'est-ce qui se joue ce soir ?",
+      "pronunciation": "kess kee suh ZHOO suh SWAHR",
+      "formality": "standard",
+      "cultural_note": "The Opéra Garnier hosts ballet and smaller operas. Larger operas are at Opéra Bastille. Last-minute tickets are sometimes available at the box office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The schedule is posted at the entrance and on the website.",
+          "phonetic": "layz oh-REHR sohn tah-fee-SHAY ah lan-TRAY ay soor luh seet",
+          "french": "Les horaires sont affichés à l'entrée et sur le site."
+        }
+      ]
+    },
+    {
+      "id": "venue_opera_005",
+      "intent_en": "Ask about the dress code for performances",
+      "text_local": "Il y a un code vestimentaire pour le spectacle ?",
+      "pronunciation": "eel ee ah uhn KOHD ves-tee-mahn-TEHR poor luh spek-TAHKL",
+      "formality": "polite",
+      "cultural_note": "There's no strict dress code, but Parisians dress elegantly for the opera. Smart casual is the minimum. Jeans and sneakers are technically allowed but you'll stand out.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No strict dress code, but elegant attire is recommended.",
+          "phonetic": "pah duh kohd streekt, meh oon tuh-NOO ay-lay-GAHNT eh ruh-koh-mahn-DAY",
+          "french": "Pas de code strict, mais une tenue élégante est recommandée."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Opera",
+      "word_local": "Opéra",
+      "pronunciation": "oh-pay-RAH"
+    },
+    {
+      "word_en": "Ballet",
+      "word_local": "Ballet",
+      "pronunciation": "bah-LEH"
+    },
+    {
+      "word_en": "Performance",
+      "word_local": "Spectacle",
+      "pronunciation": "spek-TAHKL"
+    },
+    {
+      "word_en": "Ceiling",
+      "word_local": "Plafond",
+      "pronunciation": "plah-FOHN"
+    },
+    {
+      "word_en": "Grand staircase",
+      "word_local": "Grand escalier",
+      "pronunciation": "grahn es-kah-LYAY"
+    },
+    {
+      "word_en": "Box office",
+      "word_local": "Billetterie",
+      "pronunciation": "bee-yet-REE"
+    }
+  ]
+}

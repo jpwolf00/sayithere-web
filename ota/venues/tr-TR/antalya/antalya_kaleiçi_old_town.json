@@ -1,0 +1,100 @@
+{
+  "id": "antalya_kaleiçi_old_town",
+  "name_en": "Kaleiçi Old Town",
+  "name_local": "Kaleiçi",
+  "icon": "map",
+  "lat": 36.1993087,
+  "lon": 29.641419,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "antalya_kaleiçi_old_town_001",
+      "intent_en": "Is the Ottoman house cafe open now?",
+      "text_local": "Osmanlı evi kafesi şu anda açık mı?",
+      "pronunciation": "awsmahnOO-ehvIH-kahfEH-shihmdIH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Opening hours for small local cafes in Kaleiçi can vary and are best confirmed with the kahveci directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, açık şimdi.",
+        "pronunciation": "ehvEHtahtshOOk-shihmdIH",
+        "translation_en": "Yes, it's open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open now.",
+          "phonetic": "ehvEHtahtshOOk-shihmdIH",
+          "french": "Evet, açık şimdi."
+        }
+      ]
+    },
+    {
+      "id": "antalya_kaleiçi_old_town_002",
+      "intent_en": "Where can I buy boat tour tickets?",
+      "text_local": "Tekne turu biletlerini nereden alabilirim?",
+      "pronunciation": "tehknEH-toorUH-beelehtlehreenIH-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Boat tour tickets are typically sold directly by the gulet captains along the marina.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmaya sorun, gulet kaptanları limanda olur.",
+        "pronunciation": "dahnOOshmahyah-sohrUHngoolEHt-kahptahnahrOO-leemahndAH-ohUHr",
+        "translation_en": "Ask at the information desk, gulet captains are at the harbor."
+      },
+      "responses": [
+        {
+          "english": "Ask at the information desk, gulet captains are at the harbor.",
+          "phonetic": "dahnOOshmahyah-sohrUHngoolEHt-kahptahnahrOO-leemahndAH-ohUHr",
+          "french": "Danışmaya sorun, gulet kaptanları limanda olur."
+        }
+      ]
+    },
+    {
+      "id": "antalya_kaleiçi_old_town_003",
+      "intent_en": "Is the Ottoman house cafe open now?",
+      "text_local": "Osmanlı avlusundaki kafe bugün açık mı?",
+      "pronunciation": "awsmahnOO-ehvIH-kahfehsIH-shuh-AHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Opening hours for small cafes vary greatly. Providing a definitive yes or no without current information would be inaccurate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, faaliyette.",
+        "pronunciation": "ehvEHtfahahleeyehtEH",
+        "translation_en": "Yes, it is operating."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is operating.",
+          "phonetic": "ehvEHtfahahleeyehtEH",
+          "french": "Evet, faaliyette."
+        }
+      ]
+    },
+    {
+      "id": "antalya_kaleiçi_old_town_004",
+      "intent_en": "Where is Hadrian's Gate from here?",
+      "text_local": "Hadrian Kapısı buradan nerede?",
+      "pronunciation": "hahdreeAHn-kahpoosOO-bOOrahdahn-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Locals commonly call Hadrian's Gate 'Üçkapılar' (Three Gates).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İki sokak ileride, sağda.",
+        "pronunciation": "eekIH-sohkAHk-eelehreedEHsahdAH",
+        "translation_en": "Two streets ahead, on the right."
+      },
+      "responses": [
+        {
+          "english": "Two streets ahead, on the right.",
+          "phonetic": "eekIH-sohkAHk-eelehreedEHsahdAH",
+          "french": "İki sokak ileride, sağda."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

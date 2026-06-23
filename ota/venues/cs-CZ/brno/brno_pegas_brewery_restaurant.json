@@ -1,0 +1,122 @@
+{
+  "id": "brno_pegas_brewery_restaurant",
+  "name_en": "Pegas Brewery Restaurant",
+  "name_local": "Pegas",
+  "icon": "fork.knife",
+  "lat": 49.1793148,
+  "lon": 16.6795459,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "brno_pegas_brewery_restaurant_001",
+      "intent_en": "Is a deposit required for group reservations?",
+      "text_local": "Je na skupinovou rezervaci potřeba záloha?",
+      "pronunciation": "yeh-nah-skOOpeenOHvoh-rEHzehrvAHtsee-pOHtrehbah-zAHlohhah",
+      "formality": "standard",
+      "cultural_note": "Deposits are common for group bookings to secure the reservation in busy restaurants.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, pro větší skupiny chceme zálohu.",
+        "pronunciation": "AHnohprOHvyehtshee-skOOpeenee-khtsEHmeh-zAHlohhoo",
+        "translation_en": "Yes, we require a deposit for larger groups."
+      },
+      "responses": [
+        {
+          "english": "Yes, we require a deposit for larger groups.",
+          "phonetic": "AHnohprOHvyehtshee-skOOpeenee-khtsEHmeh-zAHlohhoo",
+          "french": "Ano, pro větší skupiny chceme zálohu."
+        }
+      ]
+    },
+    {
+      "id": "brno_pegas_brewery_restaurant_002",
+      "intent_en": "Do I pay at the bar or table?",
+      "text_local": "Mám platit na baru, nebo u stolu?",
+      "pronunciation": "mahm-plAHeet-nAHbahroonEHboh-OO-stOHloo",
+      "formality": "standard",
+      "cultural_note": "Payment follows service: table service means pay the waiter, bar service means pay the tapster.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Platí se u stolu číšníkovi.",
+        "pronunciation": "plAHee-seh-OO-stOHloo-tshEEshnyeekOHvee",
+        "translation_en": "You pay at the table to the waiter."
+      },
+      "responses": [
+        {
+          "english": "You pay at the table to the waiter.",
+          "phonetic": "plAHee-seh-OO-stOHloo-tshEEshnyeekOHvee",
+          "french": "Platí se u stolu číšníkovi."
+        }
+      ]
+    },
+    {
+      "id": "brno_pegas_brewery_restaurant_003",
+      "intent_en": "Where is the brewery equipment viewing area?",
+      "text_local": "Kde je místo, odkud je vidět na varnu?",
+      "pronunciation": "kdEH-yeh-mEEstohOHtkood-yeh-vEEeht-nAHvahrnoo",
+      "formality": "standard",
+      "cultural_note": "Brewery equipment is often visible from the main pub area in brewpub restaurants.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vzadu za barem, u schodů dolů.",
+        "pronunciation": "vzAHdoo-zAHbahrehmOO-skhOHdoo-dOHloo",
+        "translation_en": "At the back behind the bar, by the stairs down."
+      },
+      "responses": [
+        {
+          "english": "At the back behind the bar, by the stairs down.",
+          "phonetic": "vzAHdoo-zAHbahrehmOO-skhOHdoo-dOHloo",
+          "french": "Vzadu za barem, u schodů dolů."
+        }
+      ]
+    },
+    {
+      "id": "brno_pegas_brewery_restaurant_004",
+      "intent_en": "Is the cellar cash only?",
+      "text_local": "Platí se ve sklepě jen hotově?",
+      "pronunciation": "plAHee-seh-vEH-sklEHpyeh-yEHn-hOHtohvyeh",
+      "formality": "standard",
+      "cultural_note": "Cellar areas in older Czech pubs may have limited connectivity for card terminals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, dole bereme jen hotovost.",
+        "pronunciation": "AHnohdOHleh-bEHrehmeh-yEHn-hOHtohvohst",
+        "translation_en": "Yes, we only take cash downstairs."
+      },
+      "responses": [
+        {
+          "english": "Yes, we only take cash downstairs.",
+          "phonetic": "AHnohdOHleh-bEHrehmeh-yEHn-hOHtohvohst",
+          "french": "Ano, dole bereme jen hotovost."
+        }
+      ]
+    },
+    {
+      "id": "brno_pegas_brewery_restaurant_005",
+      "intent_en": "How do I order a beer flight?",
+      "text_local": "Jak si objednám degustační sadu piv?",
+      "pronunciation": "yAHk-see-OHbyehdnahm-dEHgoostAHtshnyee-sAHdoo-pEEv",
+      "formality": "standard",
+      "cultural_note": "Beer flights are often ordered directly at the bar in traditional Czech pubs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Řekněte výčepnímu, připraví vám to na bar.",
+        "pronunciation": "rEHknyehteh-vEEtshehpnyEEmooprEEprahvee-vAHm-tOH-nAHbahr",
+        "translation_en": "Tell the tapster, he'll prepare it for you at the bar."
+      },
+      "responses": [
+        {
+          "english": "Tell the tapster, he'll prepare it for you at the bar.",
+          "phonetic": "rEHknyehteh-vEEtshehpnyEEmooprEEprahvee-vAHm-tOH-nAHbahr",
+          "french": "Řekněte výčepnímu, připraví vám to na bar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

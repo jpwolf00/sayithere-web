@@ -1,0 +1,100 @@
+{
+  "id": "hallstatt_old_town_hallstatt_waterfront",
+  "name_en": "Old Town Hallstatt Waterfront",
+  "name_local": "Hallstatt Seepromenade (Ufer)",
+  "icon": "map",
+  "lat": 47.5622886,
+  "lon": 13.648862,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "hallstatt_old_town_hallstatt_waterfront_001",
+      "intent_en": "Ask where Mühlbach waterfall outlet meets lake",
+      "text_local": "Wo mündet der Mühlbach in den See?",
+      "pronunciation": "vOH-mUEnduht-dehr-mUElbahkh-ihn-dehn-zEH",
+      "formality": "standard",
+      "cultural_note": "Mühlbach-Auslauf liegt am Seeufer, Richtung Wasserfall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ende des Seeufers.",
+        "pronunciation": "ahm-EHnduh-dehs-zEHoofs",
+        "translation_en": "At the end of the lakeside path."
+      },
+      "responses": [
+        {
+          "english": "At the end of the lakeside path.",
+          "phonetic": "ahm-EHnduh-dehs-zEHoofs",
+          "french": "Am Ende des Seeufers."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_old_town_hallstatt_waterfront_002",
+      "intent_en": "Ask where Strandbad lido entry is",
+      "text_local": "Wo ist der Eingang zum Strandbad?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-shtrAHndbaht",
+      "formality": "standard",
+      "cultural_note": "Eingang zum Strandbad oft am Kiosk erkennbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kiosk Strandbad.",
+        "pronunciation": "ahm-kIHohsk-shtrAHndbaht",
+        "translation_en": "At the Strandbad kiosk."
+      },
+      "responses": [
+        {
+          "english": "At the Strandbad kiosk.",
+          "phonetic": "ahm-kIHohsk-shtrAHndbaht",
+          "french": "Am Kiosk Strandbad."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_old_town_hallstatt_waterfront_003",
+      "intent_en": "Ask where Marktplatz square is from lakeside",
+      "text_local": "Wo ist der Marktplatz von hier aus?",
+      "pronunciation": "vOH-ihst-dehr-mAHrktplahts-fawn-hEEr-OWs",
+      "formality": "casual",
+      "cultural_note": "Marktplatz ist zentral, Beschilderung entlang des Seeufers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie einfach die Seepromenade entlang.",
+        "pronunciation": "gEHuhn-zee-EYEnfAHkh-dee-zEHprohmEHnahduh-ehntlAHng",
+        "translation_en": "Just go along the lakeside promenade."
+      },
+      "responses": [
+        {
+          "english": "Just go along the lakeside promenade.",
+          "phonetic": "gEHuhn-zee-EYEnfAHkh-dee-zEHprohmEHnahduh-ehntlAHng",
+          "french": "Gehen Sie einfach die Seepromenade entlang."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_old_town_hallstatt_waterfront_004",
+      "intent_en": "Ask if ferry ticket kiosk at dock is open",
+      "text_local": "Ist der Fährkiosk geöffnet?",
+      "pronunciation": "ihst-dehr-fEHrkihOHsk-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Öffnungszeiten am Kiosch oder bei Fährmann erfragen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, er ist geöffnet.",
+        "pronunciation": "yAHehr-ihst-guhUHfnuht",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "yAHehr-ihst-guhUHfnuht",
+          "french": "Ja, er ist geöffnet."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

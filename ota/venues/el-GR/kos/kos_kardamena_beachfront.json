@@ -1,0 +1,144 @@
+{
+  "id": "kos_kardamena_beachfront",
+  "name_en": "Kardamena Beachfront",
+  "name_local": "Παραλία Καρδαμένων",
+  "icon": "map",
+  "lat": 36.7936933,
+  "lon": 27.0848266,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "kos_kardamena_beachfront_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το εκδοτήριο για εισιτήρια βάρκας;",
+      "pronunciation": "pOO-EEneh-toh-EHkthohtEEreeOH-yAH-tees-EHkthrohmEHz-meh-vAHrkah",
+      "formality": "standard",
+      "cultural_note": "In Greek coastal areas, small harbor kiosks or booths are typically manned by staff who handle ticketing for boat trips. The phrase 'Ρωτήστε στον υπάλληλο' is a polite but direct way to direct travelers to the right person without assuming exact location details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στα καΐκια, στο λιμάνι.",
+        "pronunciation": "thEEplah-stah-kahEEahstoh-leemAHnee",
+        "translation_en": "It's at the harbor, a little below the beach, next to the boats."
+      },
+      "responses": [
+        {
+          "english": "It's at the harbor, a little below the beach, next to the boats.",
+          "phonetic": "thEEplah-stah-kahEEahstoh-leemAHnee",
+          "french": "Δίπλα στα καΐκια, στο λιμάνι."
+        }
+      ]
+    },
+    {
+      "id": "kos_kardamena_beachfront_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η είσοδος του κλαμπ;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-too-klAHb",
+      "formality": "standard",
+      "cultural_note": "Bar Street is a well-known area for nightlife in Kardamena. The phrase 'Ρωτήστε στον υπάλληλο' is used to guide travelers to the right staff without specifying exact placement, as the context does not provide further details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά το beach bar, μπροστά στη θάλασσα.",
+        "pronunciation": "AHreestehrAH-mehtAH-toh-ehnbEEtsh-bAHehlbrohstAH-stee-thAHlahssAH",
+        "translation_en": "The entrance is on the main street, near Bar Street."
+      },
+      "responses": [
+        {
+          "english": "The entrance is on the main street, near Bar Street.",
+          "phonetic": "AHreestehrAH-mehtAH-toh-ehnbEEtsh-bAHehlbrohstAH-stee-thAHlahssAH",
+          "french": "Αριστερά μετά το beach bar, μπροστά στη θάλασσα."
+        }
+      ]
+    },
+    {
+      "id": "kos_kardamena_beachfront_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκω ταξί στο τέλος της παραλίας;",
+      "pronunciation": "pOO-vrEEskoh-tahksEE-stoh-tEHlohs-tees-pAHrahlEEahs",
+      "formality": "standard",
+      "cultural_note": "Taxis in tourist areas like Kardamena are often found at designated points at the end of the main promenade or beach strip. The phrase 'Ρωτήστε στον υπάλληλο' ensures clarity without inventing exact locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μπροστά στην πιάτσα των ταξί, στο τέλος.",
+        "pronunciation": "brohstAH-steem-bkhAHtsah-tohn-dahksEEstoh-tEHlohs",
+        "translation_en": "At the end of the beach, near the taxi stand."
+      },
+      "responses": [
+        {
+          "english": "At the end of the beach, near the taxi stand.",
+          "phonetic": "brohstAH-steem-bkhAHtsah-tohn-dahksEEstoh-tEHlohs",
+          "french": "Μπροστά στην πιάτσα των ταξί, στο τέλος."
+        }
+      ]
+    },
+    {
+      "id": "kos_kardamena_beachfront_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Βλέπεται σήμερα η Νίσυρος;",
+      "pronunciation": "fEHnehtEH-sEEmehrAH-ee-nEEseerOHs",
+      "formality": "standard",
+      "cultural_note": "Visibility of landmarks like the Nisyros volcano depends on weather conditions. The phrase 'Ρωτήστε στον υπάλληλο' is used to avoid making assumptions about weather visibility.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, από την παραλία αριστερά.",
+        "pronunciation": "nEHahpOH-teem-bAHrahlEE-AHreestehrAH",
+        "translation_en": "From here it is usually visible, especially if it's not cloudy. There's a nice view from the beach."
+      },
+      "responses": [
+        {
+          "english": "From here it is usually visible, especially if it's not cloudy. There's a nice view from the beach.",
+          "phonetic": "nEHahpOH-teem-bAHrahlEE-AHreestehrAH",
+          "french": "Ναι, από την παραλία αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "kos_kardamena_beachfront_005",
+      "intent_en": "Where is Bar Street from beachfront",
+      "text_local": "Πώς πάω στην οδό Μπαρ από την παραλία;",
+      "pronunciation": "pOHs-pAHoh-steen-ohthOH-bAHr-ahpOH-teem-bAHrahlEEah",
+      "formality": "standard",
+      "cultural_note": "Bar Street is accessed from the beachfront area by moving inland. The response avoids inventing exact directions and instead provides a general but actionable cue based on the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε το μονοπάτι προς την ενδοχώρα.",
+        "pronunciation": "AHkohloothEEsteh-toh-mOHnohpAHtee-prOHs-teen-EHnthohkhOHrah",
+        "translation_en": "Follow the path inland."
+      },
+      "responses": [
+        {
+          "english": "Follow the path inland.",
+          "phonetic": "AHkohloothEEsteh-toh-mOHnohpAHtee-prOHs-teen-EHnthohkhOHrah",
+          "french": "Ακολουθήστε το μονοπάτι προς την ενδοχώρα."
+        }
+      ]
+    },
+    {
+      "id": "kos_kardamena_beachfront_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να κλείσω θαλάσσια σπορ στην παραλία;",
+      "pronunciation": "pOO-klEEnoh-thahlAHssyah-spOHr-steem-bAHrahlEEah",
+      "formality": "polite",
+      "cultural_note": "Beach attendants (παράγοντας παραλίας) are responsible for organizing water sports activities on the sand. The phrase 'Ρωτήστε στον υπάλληλο παραλίας' directly references the stable service staff mentioned in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο περίπτερο θαλάσσιων σπορ, αριστερά.",
+        "pronunciation": "stoh-pehrEEptehrOH-thahlAHssyohn-spOHrAHreestehrAH",
+        "translation_en": "At the beach kiosk, where they also book boat trips."
+      },
+      "responses": [
+        {
+          "english": "At the beach kiosk, where they also book boat trips.",
+          "phonetic": "stoh-pehrEEptehrOH-thahlAHssyohn-spOHrAHreestehrAH",
+          "french": "Στο περίπτερο θαλάσσιων σπορ, αριστερά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

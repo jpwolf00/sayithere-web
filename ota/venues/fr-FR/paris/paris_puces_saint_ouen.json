@@ -1,0 +1,152 @@
+{
+  "id": "venue_puces_saint_ouen",
+  "name_en": "Marché aux Puces de Saint-Ouen",
+  "name_local": "Marché aux Puces de Saint-Ouen",
+  "icon": "tag.fill",
+  "phrases": [
+    {
+      "id": "venue_puces_saint_ouen_001",
+      "intent_en": "Ask which section specializes in antique furniture",
+      "text_local": "Quel marché est spécialisé dans les meubles anciens ?",
+      "pronunciation": "kel mar-SHAY eh spay-syah-lee-ZAY dahn lay MUH-bluh ahn-SYEHN",
+      "formality": "standard",
+      "cultural_note": "The Puces de Saint-Ouen is actually a collection of 15 distinct markets. Marché Serpette specializes in 20th-century furniture and design, Marché Paul Bert has a wide mix of furniture and decorative items, and Marché Biron focuses on fine art and high-end antiques. Open Saturday, Sunday, and Monday.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Marché Biron specializes in antique furniture.",
+          "phonetic": "luh mar-SHAY bee-ROHN eh spay-see-ah-lee-ZAY dahn luh moh-bee-LYAY ahn-SYAHN",
+          "french": "Le Marché Biron est spécialisé dans le mobilier ancien."
+        }
+      ]
+    },
+    {
+      "id": "venue_puces_saint_ouen_002",
+      "intent_en": "Negotiate a lower price on an item",
+      "text_local": "Est-ce que vous pouvez faire un geste sur le prix ?",
+      "pronunciation": "ess kuh voo poo-VAY fehr uhn zhest soor luh PREE",
+      "formality": "polite",
+      "cultural_note": "Haggling (marchander) is expected and part of the culture at the Puces. 'Faire un geste' (literally 'make a gesture') is the polite way to ask for a discount. Offering 20-30% below the asking price is common. Cash often gets a better deal than card.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I can give a small discount if you pay in cash.",
+          "phonetic": "zhuh puh fehr uhn puh-TEE pree see voo pay-YAY ahn es-PESS",
+          "french": "Je peux faire un petit prix si vous payez en espèces."
+        }
+      ]
+    },
+    {
+      "id": "venue_puces_saint_ouen_003",
+      "intent_en": "Ask if the dealer can arrange shipping abroad",
+      "text_local": "Pouvez-vous organiser l'expédition à l'étranger ?",
+      "pronunciation": "poo-VAY voo or-gah-nee-ZAY lex-pay-dee-SYOHN ah lay-trahn-ZHAY",
+      "formality": "polite",
+      "cultural_note": "Many established dealers at the Puces work with professional shippers and can arrange international delivery for larger furniture pieces. For antiques over 100 years old, a certificate of authenticity ('certificat d'authenticité') may be required for customs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, we can arrange shipping. Allow two to three weeks.",
+          "phonetic": "wee, ohn puh or-gah-nee-ZAY lex-pay-dee-SYOHN. kohn-TAY duh ah trwah suh-MEN",
+          "french": "Oui, on peut organiser l'expédition. Comptez deux à trois semaines."
+        }
+      ]
+    },
+    {
+      "id": "venue_puces_saint_ouen_004",
+      "intent_en": "Ask where Marché Vernaison is for vintage items",
+      "text_local": "Où se trouve le marché Vernaison pour les objets vintage ?",
+      "pronunciation": "oo suh TROOV luh mar-SHAY vehr-neh-ZOHN poor layz ohb-ZHEH veen-TEZH",
+      "formality": "standard",
+      "cultural_note": "Marché Vernaison is the oldest market within the Puces (since 1920) and is a labyrinth of 300 small stalls selling vintage clothing, old toys, jewelry, porcelain, and curiosities. It's the most romantic and atmospheric section for browsing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Vernaison is at the back, past Marché Dauphine.",
+          "phonetic": "vehr-nay-ZOHN eh toh fohn, ah-PREH luh mar-SHAY doh-FEEN",
+          "french": "Vernaison est au fond, après le Marché Dauphine."
+        }
+      ]
+    },
+    {
+      "id": "venue_puces_saint_ouen_005",
+      "intent_en": "Ask for a price certificate for customs purposes",
+      "text_local": "Pourriez-vous me fournir un certificat d'authenticité pour la douane ?",
+      "pronunciation": "poo-RYAY voo muh foor-NEER uhn sehr-tee-fee-KAH doh-tahn-tee-see-TAY poor lah DWAHN",
+      "formality": "polite",
+      "cultural_note": "For antiques (items over 100 years old), customs officers may require documentation when taking them across borders. Reputable dealers provide provenance certificates. Items exported from the EU may also be subject to cultural heritage export controls if of exceptional significance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, I can make you a certificate. Is it for customs?",
+          "phonetic": "wee, zhuh puh voo fehr uhn sehr-tee-fee-KAH. seh poor lah dwahn",
+          "french": "Oui, je peux vous faire un certificat. C'est pour la douane ?"
+        }
+      ]
+    },
+    {
+      "id": "venue_puces_saint_ouen_006",
+      "intent_en": "Ask for a restaurant recommendation inside the market",
+      "text_local": "Y a-t-il un bon restaurant dans le marché pour déjeuner ?",
+      "pronunciation": "ee ah-TEEL uhn bohn reh-stoh-RAHN dahn luh mar-SHAY poor day-ZHUH-nay",
+      "formality": "polite",
+      "cultural_note": "Ma Cocotte (designed by Philippe Starck) and Le Paul Bert are popular restaurants within the Puces. The market neighborhood of Saint-Ouen also has excellent North African and French bistro options. Lunch here is part of the full Puces experience for Parisians.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There is a good restaurant in Marché Vernaison, at the back.",
+          "phonetic": "eel ee ah uhn bohn res-toh-RAHN dahn luh mar-SHAY vehr-nay-ZOHN, oh fohn",
+          "french": "Il y a un bon restaurant dans le Marché Vernaison, au fond."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Flea market",
+      "word_local": "Marché aux puces",
+      "pronunciation": "mar-SHAY oh POOS"
+    },
+    {
+      "word_en": "Antique",
+      "word_local": "Antiquité",
+      "pronunciation": "ahn-tee-kee-TAY"
+    },
+    {
+      "word_en": "To haggle",
+      "word_local": "Marchander",
+      "pronunciation": "mar-shahn-DAY"
+    },
+    {
+      "word_en": "Price",
+      "word_local": "Prix",
+      "pronunciation": "PREE"
+    },
+    {
+      "word_en": "Furniture",
+      "word_local": "Meuble",
+      "pronunciation": "MUH-bluh"
+    },
+    {
+      "word_en": "Vintage",
+      "word_local": "Vintage / Ancien",
+      "pronunciation": "veen-TEZH / ahn-SYEHN"
+    },
+    {
+      "word_en": "Certificate",
+      "word_local": "Certificat",
+      "pronunciation": "sehr-tee-fee-KAH"
+    },
+    {
+      "word_en": "Shipping",
+      "word_local": "Expédition",
+      "pronunciation": "ex-pay-dee-SYOHN"
+    }
+  ]
+}

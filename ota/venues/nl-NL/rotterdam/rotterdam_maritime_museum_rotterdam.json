@@ -1,0 +1,34 @@
+{
+  "id": "rotterdam_maritime_museum_rotterdam",
+  "name_en": "Maritime Museum Rotterdam",
+  "name_local": "Maritiem Museum Rotterdam",
+  "icon": "building.columns",
+  "lat": 51.9176272,
+  "lon": 4.4818867,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "rotterdam_maritime_museum_rotterdam_001",
+      "intent_en": "Where is the main entrance ticket desk?",
+      "text_local": "Waar is de kassa voor entreekaartjes?",
+      "pronunciation": "vAHr-ihs-duh-kAHsah-vawr-EHntrehkAHrtuhs",
+      "formality": "casual",
+      "cultural_note": "Locals may refer to the ticket desk as 'kassa' or 'entrancebalie'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de hoofdingang.",
+        "pronunciation": "behih-duh-hOHvdingAHng",
+        "translation_en": "At the main entrance."
+      },
+      "responses": [
+        {
+          "english": "At the main entrance.",
+          "phonetic": "behih-duh-hOHvdingAHng",
+          "french": "Bij de hoofdingang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

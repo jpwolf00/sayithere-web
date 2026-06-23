@@ -1,0 +1,118 @@
+{
+  "id": "quebec_city_citadelle",
+  "name_en": "La Citadelle de Québec",
+  "name_local": "La Citadelle de Québec",
+  "icon": "building.columns",
+  "lat": 46.8121,
+  "lon": -71.2122,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "qc_cit_001",
+      "intent_en": "Ask what time the Changing of the Guard is",
+      "text_local": "La relève de la garde, c'est à quelle heure ?",
+      "pronunciation": "lah ruh-LEV duh lah GARD say ah kel UR",
+      "formality": "polite",
+      "cultural_note": "The Changing of the Guard (Relève de la Garde) takes place at 10am daily in summer. The Royal 22nd Regiment — the Van Doos — perform in red tunics.",
+      "responses": [
+        {
+          "english": "At ten o'clock, every day in summer.",
+          "phonetic": "ah DEE-ZUR too lay ZHOOR ahn ay-TAY",
+          "french": "À dix heures, tous les jours en été."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_cit_002",
+      "intent_en": "Ask about the museum inside the Citadelle",
+      "text_local": "Le musée à l'intérieur de la citadelle, qu'est-ce qu'on y trouve ?",
+      "pronunciation": "luh moo-ZAY ah lan-tay-RYUR duh lah see-tah-DEL kess-KON ee TROOV",
+      "formality": "polite",
+      "cultural_note": "The Citadelle museum displays military artefacts, Royal 22nd Regiment history, and items from the Governor General's summer residence housed within the walls.",
+      "responses": [
+        {
+          "english": "The museum is inside, past the entrance.",
+          "phonetic": "luh moo-ZAY eh tah lahn-tay-RYUR ah-PRAY lahn-TRAY",
+          "french": "Le musée est à l'intérieur, après l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_cit_003",
+      "intent_en": "Ask for a guided tour of the fortifications",
+      "text_local": "Y'a-tu des visites guidées des fortifications ?",
+      "pronunciation": "yah-TOO day vee-ZEET gee-DAY day for-tee-fee-kah-SYON",
+      "formality": "informal",
+      "cultural_note": "Guided tours of the star-shaped fortifications are mandatory to visit many areas. Tours run in French and English throughout the day.",
+      "responses": [
+        {
+          "english": "Yes, tours leave every hour.",
+          "phonetic": "wee lay vee-ZEET PART toot lay ZUR",
+          "french": "Oui, les visites partent toutes les heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_cit_004",
+      "intent_en": "Ask about the view of the St. Lawrence from the walls",
+      "text_local": "La vue sur le Saint-Laurent depuis les remparts, c'est incroyable ?",
+      "pronunciation": "lah VOO soor luh san-loh-RAH duh-PWEE lay rahm-PAR say an-krwah-YAHBL",
+      "formality": "neutral",
+      "cultural_note": "The Citadelle's ramparts offer sweeping views of the St. Lawrence River, the Plains of Abraham, and the Lower Town. A spectacular vantage point.",
+      "responses": [
+        {
+          "english": "The view is beautiful from the ramparts.",
+          "phonetic": "lah VOO eh mah-nyee-FEEK duh-PWEE lay rahn-PAHR",
+          "french": "La vue est magnifique depuis les remparts."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_cit_005",
+      "intent_en": "Ask if the Governor General's residence is open to visitors",
+      "text_local": "La résidence du Gouverneur général, est-ce qu'elle est accessible au public ?",
+      "pronunciation": "lah ray-zee-DAHSS doo goo-vair-NUR zhay-nay-RAHL ess-KEL ay ak-seh-SEE-bluh oh poo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "The Citadelle serves as the Governor General's official Québec City residence. Certain rooms are shown on guided tours during summer months.",
+      "responses": [
+        {
+          "english": "No, it is closed to the public.",
+          "phonetic": "nohn say fair-MAY oh poob-LEEK",
+          "french": "Non, c'est fermé au public."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Changing of the Guard",
+      "word_local": "la relève de la garde",
+      "pronunciation": "lah ruh-LEV duh lah GARD"
+    },
+    {
+      "word_en": "fortification / rampart",
+      "word_local": "le rempart",
+      "pronunciation": "luh rahm-PAR"
+    },
+    {
+      "word_en": "garrison / regiment",
+      "word_local": "le régiment",
+      "pronunciation": "luh ray-zhee-MAH"
+    },
+    {
+      "word_en": "cannons",
+      "word_local": "les canons",
+      "pronunciation": "lay kah-NON"
+    }
+  ]
+}

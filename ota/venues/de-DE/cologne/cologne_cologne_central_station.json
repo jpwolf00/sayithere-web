@@ -1,0 +1,100 @@
+{
+  "id": "cologne_cologne_central_station",
+  "name_en": "Cologne Central Station",
+  "name_local": "Köln Hauptbahnhof",
+  "icon": "tram",
+  "lat": 50.9431188,
+  "lon": 6.9574995,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "cologne_cologne_central_station_001",
+      "intent_en": "Where do I stamp my bike ticket",
+      "text_local": "Wo stemple ich mein Fahrradticket?",
+      "pronunciation": "vOH-shtEHmpluh-ihkh-meyen-fAHrahtIHkuht",
+      "formality": "standard",
+      "cultural_note": "Bicycle tickets in Germany are often validated at machines near bike rental points or counters, but exact placement may vary by station.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten oder Schalter.",
+        "pronunciation": "ahm-OWtohmAHtuhn-OHd-shAHlt",
+        "translation_en": "At the machine or counter."
+      },
+      "responses": [
+        {
+          "english": "At the machine or counter.",
+          "phonetic": "ahm-OWtohmAHtuhn-OHd-shAHlt",
+          "french": "Am Automaten oder Schalter."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_central_station_002",
+      "intent_en": "How do I get to the cathedral stairs",
+      "text_local": "Wo geht es zur Domtreppe?",
+      "pronunciation": "vOH-EHt-ehs-tsoor-dAWmtrehpuh",
+      "formality": "standard",
+      "cultural_note": "Major landmarks like Cologne Cathedral are typically accessible via prominent stairways or elevators from the station area, but exact routes may vary due to construction.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus zum Domausgang.",
+        "pronunciation": "guhrAHdehOWs-tsuhm-dOHmowsgAHng",
+        "translation_en": "Straight ahead to the cathedral exit."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead to the cathedral exit.",
+          "phonetic": "guhrAHdehOWs-tsuhm-dOHmowsgAHng",
+          "french": "Geradeaus zum Domausgang."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_central_station_003",
+      "intent_en": "Which platform for the S-Bahn",
+      "text_local": "Welcher Bahnsteig für die S-Bahn?",
+      "pronunciation": "vOH-fEHrt-dee-EHsbAHn-AHp",
+      "formality": "standard",
+      "cultural_note": "German S-Bahn lines often depart from underground tunnels or separate levels in major stations, marked with clear signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die S-Bahn fährt unten ab.",
+        "pronunciation": "dee-EHsbAHn-fEHrt-UHntuhn-AHp",
+        "translation_en": "The S-Bahn departs downstairs."
+      },
+      "responses": [
+        {
+          "english": "The S-Bahn departs downstairs.",
+          "phonetic": "dee-EHsbAHn-fEHrt-UHntuhn-AHp",
+          "french": "Die S-Bahn fährt unten ab."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_central_station_004",
+      "intent_en": "Where is the left luggage office",
+      "text_local": "Wo finde ich die Gepäckaufbewahrung?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-uhpEHkowfbEHvahrUHng",
+      "formality": "standard",
+      "cultural_note": "Left luggage offices in German train stations are typically located in lower levels or basement areas, often marked as 'Gepäckaufbewahrung' on signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Untergeschoss.",
+        "pronunciation": "ihm-UHntuhshAWs",
+        "translation_en": "In the basement."
+      },
+      "responses": [
+        {
+          "english": "In the basement.",
+          "phonetic": "ihm-UHntuhshAWs",
+          "french": "Im Untergeschoss."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

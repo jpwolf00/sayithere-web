@@ -1,0 +1,122 @@
+{
+  "id": "würzburg_main_river_promenade",
+  "name_en": "Main River Promenade",
+  "name_local": "Mainuferpromenade",
+  "icon": "map",
+  "lat": 49.7929796,
+  "lon": 9.9256566,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "würzburg_main_river_promenade_001",
+      "intent_en": "Ask if Marienberg Fortress view is from north bank",
+      "text_local": "Hat man von der Nordseite Blick zur Festung Marienberg?",
+      "pronunciation": "haht-mahn-fawn-dehr-nAWrdzeyetuh-blIHk-tsoor-fEHstUHng-mAHrihEHnbehrk",
+      "formality": "standard",
+      "cultural_note": "Views of Marienberg Fortress are prominent along the north bank in Würzburg.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, besonders am Löwenbrücke.",
+        "pronunciation": "yAHbuhzAWnds-ahm-lUHvuhnbrUEkuh",
+        "translation_en": "Yes, especially at Löwenbrücke."
+      },
+      "responses": [
+        {
+          "english": "Yes, especially at Löwenbrücke.",
+          "phonetic": "yAHbuhzAWnds-ahm-lUHvuhnbrUEkuh",
+          "french": "Ja, besonders am Löwenbrücke."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_main_river_promenade_002",
+      "intent_en": "Ask which side to walk on shared paths",
+      "text_local": "Auf welcher Seite soll man auf dem Weg laufen?",
+      "pronunciation": "owf-vEHlkh-zEYEtuh-zAWl-mahn-owf-dehm-vEHk-lOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Right-side rule is standard for shared pedestrian/cyclist paths in Germany.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rechts bleiben.",
+        "pronunciation": "rEHkhts-blEYEbuhn",
+        "translation_en": "Keep right."
+      },
+      "responses": [
+        {
+          "english": "Keep right.",
+          "phonetic": "rEHkhts-blEYEbuhn",
+          "french": "Rechts bleiben."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_main_river_promenade_003",
+      "intent_en": "Ask where Kaine-Kai landing stage is",
+      "text_local": "Wo ist die Anlegestelle Kaine-Kai?",
+      "pronunciation": "vOH-ihst-dee-AHnlEHehshtEHluh-kEYEnuhkEYE",
+      "formality": "standard",
+      "cultural_note": "Signs are common for ferry landings in German-speaking regions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Anlegestelle ist direkt vor der Löwenbrücke.",
+        "pronunciation": "dee-AHnlEHgehshtEHluh-ihst-deerEHkt-fAWr-dehr-lUHvuhnbrUEkuh",
+        "translation_en": "The landing stage is directly in front of the Löwenbrücke bridge."
+      },
+      "responses": [
+        {
+          "english": "The landing stage is directly in front of the Löwenbrücke bridge.",
+          "phonetic": "dee-AHnlEHgehshtEHluh-ihst-deerEHkt-fAWr-dehr-lUHvuhnbrUEkuh",
+          "french": "Die Anlegestelle ist direkt vor der Löwenbrücke."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_main_river_promenade_004",
+      "intent_en": "Ask where to find ferry ticket machines",
+      "text_local": "Wo gibt es Fahrkartenautomaten für die Fähre?",
+      "pronunciation": "vOH-EEpt-ehs-fAHrkahrtEHnowtohmAHtuhn-fuer-dee-fEHruh",
+      "formality": "standard",
+      "cultural_note": "Ferry ticket machines are typically placed at major ferry docks in Germany.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Hauptlandestellen.",
+        "pronunciation": "ahn-dehn-hOWptlAHnduhstEHluhn",
+        "translation_en": "At the main landings."
+      },
+      "responses": [
+        {
+          "english": "At the main landings.",
+          "phonetic": "ahn-dehn-hOWptlAHnduhstEHluhn",
+          "french": "An den Hauptlandestellen."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_main_river_promenade_005",
+      "intent_en": "Ask if bike rental kiosks take deposits",
+      "text_local": "Nehmen Fahrradverleih-Kioske Kaution an?",
+      "pronunciation": "nEHmuhn-fAHrahdvEHrleyekIHohskuh-kowtsyOHn-AHn",
+      "formality": "standard",
+      "cultural_note": "German rental services typically accept card deposits for security.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ja, meist mit Karte.",
+        "pronunciation": "yAHmEYEst-miht-kAHrtuh",
+        "translation_en": "Yes, usually by card."
+      },
+      "responses": [
+        {
+          "english": "Yes, usually by card.",
+          "phonetic": "yAHmEYEst-miht-kAHrtuh",
+          "french": "Ja, meist mit Karte."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

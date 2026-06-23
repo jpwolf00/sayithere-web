@@ -1,0 +1,118 @@
+{
+  "id": "montreal_saint_joseph_oratory",
+  "name_en": "Saint Joseph's Oratory",
+  "name_local": "Oratoire Saint-Joseph du Mont-Royal",
+  "icon": "building.columns.fill",
+  "lat": 45.4927,
+  "lon": -73.5876,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mtl_sjo_001",
+      "intent_en": "Ask how to reach the top of the oratory",
+      "text_local": "Comment est-ce qu'on monte jusqu'en haut de l'oratoire ?",
+      "pronunciation": "ko-MAH ess-KON MONNT zhoos-kohn OH duh lo-rah-TWAHR",
+      "formality": "polite",
+      "cultural_note": "Pilgrims traditionally climb the 283 steps on their knees as an act of devotion. An escalator and shuttle bus are available for others.",
+      "responses": [
+        {
+          "english": "Take the stairs or the elevator on the left.",
+          "phonetic": "pruh-NAY less-kah-LYAY oo lah-sahn-SUR ah GOHSH",
+          "french": "Prenez l'escalier ou l'ascenseur à gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_sjo_002",
+      "intent_en": "Ask what time the oratory closes today",
+      "text_local": "À quelle heure ferme l'oratoire aujourd'hui ?",
+      "pronunciation": "ah kel UR FERM lor-ah-TWAHR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Saint Joseph's Oratory has varying hours depending on the season. The gardens and upper basilica may close earlier than the main chapel.",
+      "responses": [
+        {
+          "english": "At five o'clock today.",
+          "phonetic": "ah dee-SET UR oh-zhoor-DWEE",
+          "french": "À dix-sept heures aujourd'hui."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_sjo_003",
+      "intent_en": "Ask if mass is celebrated today",
+      "text_local": "Est-ce qu'il y a une messe célébrée aujourd'hui ?",
+      "pronunciation": "ess-KEEL ee ah OON mess say-lay-BRAY oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The oratory celebrates masses daily in the Crypt Church and the Basilica. Visitors are welcome to attend regardless of faith.",
+      "responses": [
+        {
+          "english": "Yes, at eleven o'clock.",
+          "phonetic": "wee ah OHNZ UR",
+          "french": "Oui, à onze heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_sjo_004",
+      "intent_en": "Ask where the votive candles are",
+      "text_local": "Où est-ce qu'on peut allumer un lampion ?",
+      "pronunciation": "oo ess-KON puh ah-loo-MAY un lahm-pee-YON",
+      "formality": "neutral",
+      "cultural_note": "Votive candles (lampions) can be lit in the Crypt Church. The room of crutches left by those healed is a striking and moving display.",
+      "responses": [
+        {
+          "english": "In the votive chapel, downstairs.",
+          "phonetic": "dahn lah shah-PEL voh-TEEV ahn BAH",
+          "french": "Dans la chapelle votive, en bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_sjo_005",
+      "intent_en": "Ask for directions to the gift shop and café",
+      "text_local": "La boutique et le café, c'est à quel étage ?",
+      "pronunciation": "lah boo-TEEK ay luh kah-FAY say ah kel ay-TAHZH",
+      "formality": "neutral",
+      "cultural_note": "The oratory complex has multiple levels. The café serves light meals and the gift shop carries religious items and local produce.",
+      "responses": [
+        {
+          "english": "Past the shop, on the right.",
+          "phonetic": "ah-PRAY lah boo-TEEK ah DRWAHT",
+          "french": "Après la boutique, à droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "oratory / shrine",
+      "word_local": "l'oratoire",
+      "pronunciation": "lo-rah-TWAHR"
+    },
+    {
+      "word_en": "mass (religious service)",
+      "word_local": "la messe",
+      "pronunciation": "lah MESS"
+    },
+    {
+      "word_en": "votive candle",
+      "word_local": "le lampion",
+      "pronunciation": "luh lahm-pee-YON"
+    },
+    {
+      "word_en": "pilgrim",
+      "word_local": "le pèlerin",
+      "pronunciation": "luh pell-RAN"
+    }
+  ]
+}

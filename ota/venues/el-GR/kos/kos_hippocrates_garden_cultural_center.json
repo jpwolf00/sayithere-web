@@ -1,0 +1,210 @@
+{
+  "id": "kos_hippocrates_garden_cultural_center",
+  "name_en": "Hippocrates Garden Cultural Center",
+  "name_local": "Κήπος του Ιπποκράτη",
+  "icon": "building.columns",
+  "lat": 36.7936933,
+  "lon": 27.0848266,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kos_hippocrates_garden_cultural_center_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πόσο κοστίζουν τα υλικά του εργαστηρίου;",
+      "pronunciation": "pOHsoh-kohstEEzoon-dah-EEleekAH-too-EHrghahsteerEEoo",
+      "formality": "standard",
+      "cultural_note": "Πρόκειται για τυπική χρέωση για υλικά εργαστηρίων που προσφέρονται στον Κήπο του Ιπποκράτη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "3 ευρώ, στον ταμία στο κεντρικό κτίριο.",
+        "pronunciation": "trEEah-ehvrOHstohn-dahmEEah-stoh-EHdreekOH-ktEEreeOH",
+        "translation_en": "The workshop materials cost 3 euros; you pay at the cashier in the main building."
+      },
+      "responses": [
+        {
+          "english": "The workshop materials cost 3 euros; you pay at the cashier in the main building.",
+          "phonetic": "trEEah-ehvrOHstohn-dahmEEah-stoh-EHdreekOH-ktEEreeOH",
+          "french": "3 ευρώ, στον ταμία στο κεντρικό κτίριο."
+        }
+      ]
+    },
+    {
+      "id": "kos_hippocrates_garden_cultural_center_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πόσο κοστίζουν τα πακέτα με τα αποξηραμένα βότανα;",
+      "pronunciation": "pOHsoh-kAHnoon-dah-fEEteekAH-prohihOHdah",
+      "formality": "standard",
+      "cultural_note": "Τα προϊόντα φυτών του κήπου πωλούνται σε τιμές ανάλογα με τον τύπο και την συσκευασία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "8 ευρώ, στον ταμία κοντά στην έξοδο.",
+        "pronunciation": "ohktOH-ehvrOHstohn-dahmEEah-kohdAH-steen-EHksohthOH",
+        "translation_en": "Hello, the dried herb packages cost 8 euros each. You can find them at the cashier, near the exit."
+      },
+      "responses": [
+        {
+          "english": "Hello, the dried herb packages cost 8 euros each. You can find them at the cashier, near the exit.",
+          "phonetic": "ohktOH-ehvrOHstohn-dahmEEah-kohdAH-steen-EHksohthOH",
+          "french": "8 ευρώ, στον ταμία κοντά στην έξοδο."
+        }
+      ]
+    },
+    {
+      "id": "kos_hippocrates_garden_cultural_center_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το μονοπάτι με τις ελιές;",
+      "pronunciation": "pOO-EEneh-oh-thrOHmohz-meh-tees-ehlyEHs",
+      "formality": "standard",
+      "cultural_note": "Ο δρόμος με την ελιά αποτελεί μέρος του θεραπευτικού μονοπατιού του κήπου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε τον ελαιώνα αριστερά.",
+        "pronunciation": "AHkohloothEEsteh-tohn-EHlehOHn-AHreestehrAH",
+        "translation_en": "It's on the left, next to the olive grove."
+      },
+      "responses": [
+        {
+          "english": "It's on the left, next to the olive grove.",
+          "phonetic": "AHkohloothEEsteh-tohn-EHlehOHn-AHreestehrAH",
+          "french": "Ακολουθήστε τον ελαιώνα αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "kos_hippocrates_garden_cultural_center_004",
+      "intent_en": "Where is the ancient Greek house replica",
+      "text_local": "Πού είναι το αντίγραφο του αρχαίου σπιτιού;",
+      "pronunciation": "pOO-EEneh-toh-ahdEEghrahfOH-too-ahrkhEHoo-spEEteeOO",
+      "formality": "standard",
+      "cultural_note": "Το αντίγραφο αρχαίου σπιτιού είναι σταθερός στόχος εντός του κέντρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι πίσω από τον κήπο.",
+        "pronunciation": "EEneh-pEEsoh-ahpOH-tohng-gEEpoh",
+        "translation_en": "It's behind the garden."
+      },
+      "responses": [
+        {
+          "english": "It's behind the garden.",
+          "phonetic": "EEneh-pEEsoh-ahpOH-tohng-gEEpoh",
+          "french": "Είναι πίσω από τον κήπο."
+        }
+      ]
+    },
+    {
+      "id": "kos_hippocrates_garden_cultural_center_005",
+      "intent_en": "Tour ancient Greek house replica",
+      "text_local": "Μπορώ να ξεναγηθώ στο αρχαίο σπίτι;",
+      "pronunciation": "bohrOH-nah-ksEHnahyeethOH-stoh-ahrkhEHoh-spEEtee",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγήσεις στο αντίγραφο αρχαίου σπιτιού πραγματοποιούνται από προσωπικό του κέντρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναί, με ξεναγό.",
+        "pronunciation": "nEHmeh-ksEHnahghOH",
+        "translation_en": "Yes, with a guide."
+      },
+      "responses": [
+        {
+          "english": "Yes, with a guide.",
+          "phonetic": "nEHmeh-ksEHnahghOH",
+          "french": "Ναί, με ξεναγό."
+        }
+      ]
+    },
+    {
+      "id": "kos_hippocrates_garden_cultural_center_006",
+      "intent_en": "Can I buy herb products without entry ticket",
+      "text_local": "Μπορώ να αγοράσω βότανα χωρίς εισιτήριο;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-vOHtahnAH-khohrEEs-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Τα βότανα πωλούνται ξεχωριστά από την είσοδο στο κέντρο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναί, μόνο για βότανα.",
+        "pronunciation": "nEHmOHnoh-yAH-vOHtahnAH",
+        "translation_en": "Yes, only for herbs."
+      },
+      "responses": [
+        {
+          "english": "Yes, only for herbs.",
+          "phonetic": "nEHmOHnoh-yAH-vOHtahnAH",
+          "french": "Ναί, μόνο για βότανα."
+        }
+      ]
+    },
+    {
+      "id": "kos_hippocrates_garden_cultural_center_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η έκθεση του όρκου του Ιπποκράτη;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-EHkthehsEE-too-OHrkoo-too-EEpohkrAHtee",
+      "formality": "standard",
+      "cultural_note": "Η έκθεση του όρκου του Ιπποκράτη είναι μέρος των μόνιμων εκθέσεων του κέντρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κεντρικό κτίριο, αριστερά στην είσοδο.",
+        "pronunciation": "stoh-EHdreekOH-ktEEreeOHAHreestehrAH-steen-EEsohthOH",
+        "translation_en": "It's inside the main building, in the permanent exhibition."
+      },
+      "responses": [
+        {
+          "english": "It's inside the main building, in the permanent exhibition.",
+          "phonetic": "stoh-EHdreekOH-ktEEreeOHAHreestehrAH-steen-EEsohthOH",
+          "french": "Στο κεντρικό κτίριο, αριστερά στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "kos_hippocrates_garden_cultural_center_008",
+      "intent_en": "Is the olive grove walk currently open",
+      "text_local": "Είναι ανοιχτός ο δρόμος των ελιών;",
+      "pronunciation": "EEneh-AHneekhtOHs-oh-thrOHmohs-tohn-ehlyOHn",
+      "formality": "standard",
+      "cultural_note": "Ο δρόμος των ελιών αποτελεί τμήμα των μόνιμων διαδρομών του κέντρου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναί, ανοιχτός.",
+        "pronunciation": "nEHAHneekhtOHs",
+        "translation_en": "Yes, open."
+      },
+      "responses": [
+        {
+          "english": "Yes, open.",
+          "phonetic": "nEHAHneekhtOHs",
+          "french": "Ναί, ανοιχτός."
+        }
+      ]
+    },
+    {
+      "id": "kos_hippocrates_garden_cultural_center_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η έκθεση με τον όρκο του Ιπποκράτη;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-EHkthehsEE-meh-tohn-OHrkoh-too-EEpohkrAHtee",
+      "formality": "standard",
+      "cultural_note": "Η έκθεση αποτελεί τμήμα των μόνιμων παρουσιάσεων του κήπου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο αρχοντικό, αριστερά της αυλής.",
+        "pronunciation": "stoh-AHrkhohdeekOHAHreestehrAH-tees-ahvlEEs",
+        "translation_en": "In the main exhibition building, following the sign for the oath."
+      },
+      "responses": [
+        {
+          "english": "In the main exhibition building, following the sign for the oath.",
+          "phonetic": "stoh-AHrkhohdeekOHAHreestehrAH-tees-ahvlEEs",
+          "french": "Στο αρχοντικό, αριστερά της αυλής."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "aix_musee_granet",
+  "name_en": "Musée Granet",
+  "name_local": "Musée Granet",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "aix_granet_001",
+      "intent_en": "Ask for two adult tickets",
+      "text_local": "Deux billets adulte, s'il vous plaît.",
+      "pronunciation": "duh bee-YEH ah-DULT, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The Musée Granet occupies a 17th-century priory on Place Saint-Jean-de-Malte. Named after the Aix-born painter François-Marius Granet, it houses a remarkable collection from antiquity to the 20th century.",
+      "responses": [
+        {
+          "english": "Twenty-four euros for two.",
+          "phonetic": "vehn-KAH-truh uh-ROH poor DUH",
+          "french": "Vingt-quatre euros pour deux."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_granet_002",
+      "intent_en": "Ask where the Cézanne room is",
+      "text_local": "Où se trouve la salle consacrée à Cézanne ?",
+      "pronunciation": "oo suh TROOV lah SAL kohn-sah-KRAY ah say-ZAN",
+      "formality": "polite",
+      "cultural_note": "The Granet houses nine paintings by Cézanne — a significant collection for his home city. The museum also holds works by Ingres, Rembrandt, Rubens, and Caravaggio, making it one of the finest provincial museums in France.",
+      "responses": [
+        {
+          "english": "It's marked on the map.",
+          "phonetic": "seh ehn-dee-KAY soor luh PLAHN",
+          "french": "C'est indiqué sur le plan."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_granet_003",
+      "intent_en": "Ask if there is a current temporary exhibition",
+      "text_local": "Y a-t-il une exposition temporaire en ce moment ?",
+      "pronunciation": "ee ah-TEEL oon ex-poh-zee-SYOHN tahm-poh-REHR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The Granet regularly hosts major temporary exhibitions alongside its permanent collection. Check the museum website or tourist office before your visit as temporary shows can be the main draw.",
+      "responses": [
+        {
+          "english": "Yes, on the first floor.",
+          "phonetic": "wee, oh pruh-MYAY ay-TAHZH",
+          "french": "Oui, au premier étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_granet_004",
+      "intent_en": "Ask about the archaeological collection in the basement",
+      "text_local": "La collection archéologique est-elle accessible ?",
+      "pronunciation": "lah koh-lek-SYOHN ar-kay-oh-loh-ZHEEK eh-TEL ak-ses-EE-bluh",
+      "formality": "polite",
+      "cultural_note": "The Granet's lower level houses Celtic-Ligurian sculptures from the oppidum of Entremont, the pre-Roman settlement above Aix. These severed-head carvings are some of the most important Iron Age artefacts in France.",
+      "responses": [
+        {
+          "english": "It's shown on the museum map.",
+          "phonetic": "seh ehn-dee-KAY dahn luh PLAHN doo moo-ZAY",
+          "french": "C'est indiqué dans le plan du musée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_granet_005",
+      "intent_en": "Ask if the museum has a café or restaurant",
+      "text_local": "Le musée dispose-t-il d'un café ou d'un restaurant ?",
+      "pronunciation": "luh moo-ZAY dee-SPOHZ-teel duhn kah-FAY oo duhn res-toh-RAHN",
+      "formality": "polite",
+      "cultural_note": "The Musée Granet has a café in its courtyard garden — a lovely spot for a break. The adjacent Granet XXe satellite gallery on the Cours Mirabeau houses 20th-century works and is included in the same ticket.",
+      "responses": [
+        {
+          "english": "Yes, in the courtyard.",
+          "phonetic": "wee, dahn lah KOOR",
+          "french": "Oui, dans la cour."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Museum",
+      "word_local": "Le musée",
+      "pronunciation": "luh moo-ZAY"
+    },
+    {
+      "word_en": "Painting",
+      "word_local": "Le tableau",
+      "pronunciation": "luh tah-BLOH"
+    },
+    {
+      "word_en": "Temporary exhibition",
+      "word_local": "L'exposition temporaire",
+      "pronunciation": "lex-poh-zee-SYOHN tahm-poh-REHR"
+    },
+    {
+      "word_en": "Collection",
+      "word_local": "La collection",
+      "pronunciation": "lah koh-lek-SYOHN"
+    }
+  ]
+}

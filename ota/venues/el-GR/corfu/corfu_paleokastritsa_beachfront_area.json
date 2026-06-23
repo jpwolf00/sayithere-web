@@ -1,0 +1,122 @@
+{
+  "id": "corfu_paleokastritsa_beachfront_area",
+  "name_en": "Paleokastritsa beachfront area",
+  "name_local": "Παλαιοκαστρίτσα",
+  "icon": "map",
+  "lat": 39.6757716,
+  "lon": 19.7119035,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "corfu_paleokastritsa_beachfront_area_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να παρκάρω;",
+      "pronunciation": "pOO-bohrOH-nah-pahrkAHroh-steen-ehkhmEE-tees-sehzOHn",
+      "formality": "polite",
+      "cultural_note": "Κατά την υψηλή περίοδο οι θέσεις parking είναι περιορισμένες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο πάρκινγκ πιο πάνω, δίπλα στον κεντρικό δρόμο.",
+        "pronunciation": "stoh-pAHreeng-pkhOH-pAHnohthEEplah-stohng-gEHdreekOH-thrOHmoh",
+        "translation_en": "At the parking lot up the road, next to the main street."
+      },
+      "responses": [
+        {
+          "english": "At the parking lot up the road, next to the main street.",
+          "phonetic": "stoh-pAHreeng-pkhOH-pAHnohthEEplah-stohng-gEHdreekOH-thrOHmoh",
+          "french": "Στο πάρκινγκ πιο πάνω, δίπλα στον κεντρικό δρόμο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_paleokastritsa_beachfront_area_002",
+      "intent_en": "Ask where the Monastery of Panagia Paleokastritsa is",
+      "text_local": "Πού βρίσκεται η Μονή Παναγιάς Παλαιοκαστρίτσας;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-mohnEE-pAHnahyAHs-pAHlehOHkahstrEEtsahs",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά παραβλέπουν την είσοδο λόγω της στενότητας του δρόμου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην κορυφή του λόφου, από πάνω.",
+        "pronunciation": "steeng-gOHreefEE-too-lOHfooahpOH-pAHnoh",
+        "translation_en": "At the top of the hill, up above."
+      },
+      "responses": [
+        {
+          "english": "At the top of the hill, up above.",
+          "phonetic": "steeng-gOHreefEE-too-lOHfooahpOH-pAHnoh",
+          "french": "Στην κορυφή του λόφου, από πάνω."
+        }
+      ]
+    },
+    {
+      "id": "corfu_paleokastritsa_beachfront_area_003",
+      "intent_en": "Ask how to hire a boat at water kiosk",
+      "text_local": "Πώς νοικιάζω βάρκα στο κιόσκι του νερού;",
+      "pronunciation": "pOHz-neeAHzoh-vAHrkah-stoh-OHsee-too-nehrOO",
+      "formality": "standard",
+      "cultural_note": "Η κατάθεση συχνά ζητείται πριν την εκκίνηση της βαρκάς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κατάθεση πενήντα ευρώ.",
+        "pronunciation": "kahtAHthehsEE-pehnEEdah-ehvrOH",
+        "translation_en": "Fifty euro deposit."
+      },
+      "responses": [
+        {
+          "english": "Fifty euro deposit.",
+          "phonetic": "kahtAHthehsEE-pehnEEdah-ehvrOH",
+          "french": "Κατάθεση πενήντα ευρώ."
+        }
+      ]
+    },
+    {
+      "id": "corfu_paleokastritsa_beachfront_area_004",
+      "intent_en": "Ask if sunbeds available at Agios Spyridon Beach",
+      "text_local": "Υπάρχουν ξαπλώστρες στην Παραλία Αγίου Σπυρίδωνα;",
+      "pronunciation": "eepAHrkhoong-gzahplOHstrehs-steem-bAHrahlEE-ahyEEoo-speerEEthohnAH",
+      "formality": "standard",
+      "cultural_note": "Τα ξαπλώστρες συχνά ελέγχονται από τον ναυαγοσώστη κατά τη διάρκεια της ημέρας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ρωτήστε στον ναυαγοσώστη.",
+        "pronunciation": "nEHrohtEEsteh-stohn-nAHvahghohsOHstee",
+        "translation_en": "Yes, ask the lifeguard."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the lifeguard.",
+          "phonetic": "nEHrohtEEsteh-stohn-nAHvahghohsOHstee",
+          "french": "Ναι, ρωτήστε στον ναυαγοσώστη."
+        }
+      ]
+    },
+    {
+      "id": "corfu_paleokastritsa_beachfront_area_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Παίρνετε κάρτες;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-meh-kAHrtah-stees-tahvEHrnehs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Οι περισσότερες ταβέρνες δέχονται κάρτα, αλλά μερικές προτιμούν μετρητά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δεχόμαστε κάρτες.",
+        "pronunciation": "nEHthehkhOHmahstEH-kAHrtehs",
+        "translation_en": "Yes, we accept cards."
+      },
+      "responses": [
+        {
+          "english": "Yes, we accept cards.",
+          "phonetic": "nEHthehkhOHmahstEH-kAHrtehs",
+          "french": "Ναι, δεχόμαστε κάρτες."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

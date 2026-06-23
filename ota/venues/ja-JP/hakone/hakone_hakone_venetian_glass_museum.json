@@ -1,0 +1,100 @@
+{
+  "id": "hakone_hakone_venetian_glass_museum",
+  "name_en": "Hakone Venetian Glass Museum",
+  "name_local": "箱根ガラスの森美術館",
+  "icon": "building.columns",
+  "lat": 35.2661824,
+  "lon": 139.0176734,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hakone_hakone_venetian_glass_museum_001",
+      "intent_en": "Where do I pay for workshop?",
+      "text_local": "こうぼうの しはらいは どこですか？",
+      "pronunciation": "kOHoobohOOnoh-EEhEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Payment for activities is often centralized at the main reception in Japanese museums.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "うけつけで おねがいします。",
+        "pronunciation": "OOkehtsookEHdeh-OHnehgEEeemSoo",
+        "translation_en": "At the reception desk, please."
+      },
+      "responses": [
+        {
+          "english": "At the reception desk, please.",
+          "phonetic": "OOkehtsookEHdeh-OHnehgEEeemSoo",
+          "french": "うけつけで おねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_venetian_glass_museum_002",
+      "intent_en": "Is the cafe terrace open now?",
+      "text_local": "カフェのテラスは いま あいてますか？",
+      "pronunciation": "kEHnOHtehsOOh-EEm-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple affirmative with 'よ' adds a friendly, reassuring tone without being overly formal.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいてますよ。",
+        "pronunciation": "hEEEEtEHmsOOyoh",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "hEEEEtEHmsOOyoh",
+          "french": "はい、あいてますよ。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_venetian_glass_museum_003",
+      "intent_en": "Where is the outdoor sculpture garden?",
+      "text_local": "そとにわの ちょうこくは どこですか？",
+      "pronunciation": "sOHtohneewNoh-tOHookohkOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Museums often have clearly marked exits to gardens. 'すぐです' (it's right there) reassures the visitor.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "うらぐちから でて、すぐです。",
+        "pronunciation": "OOgOOteek-DEHtehsOOgoodEHsoo",
+        "translation_en": "Just outside the back door."
+      },
+      "responses": [
+        {
+          "english": "Just outside the back door.",
+          "phonetic": "OOgOOteek-DEHtehsOOgoodEHsoo",
+          "french": "うらぐちから でて、すぐです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_venetian_glass_museum_004",
+      "intent_en": "Where is the glass workshop?",
+      "text_local": "ガラスこうぼうは どこですか？",
+      "pronunciation": "gSOOkohOObohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In Japan, a simple directional cue is common. Staff may use a nearby landmark rather than full directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "にわの おくです。",
+        "pronunciation": "neewNoh-OHkoodEHsoo",
+        "translation_en": "It's at the back of the garden."
+      },
+      "responses": [
+        {
+          "english": "It's at the back of the garden.",
+          "phonetic": "neewNoh-OHkoodEHsoo",
+          "french": "にわの おくです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "mykonos_katerinas_restaurant",
+  "name_en": "Katerina's Restaurant",
+  "name_local": "Ταβέρνα της Κατερίνας",
+  "icon": "fork.knife",
+  "lat": 37.4467353,
+  "lon": 25.3257824,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "mykonos_katerinas_restaurant_001",
+      "intent_en": "Ask where the octopus drying display is",
+      "text_local": "Πού κρέμεται το ξερό χταπόδι;",
+      "pronunciation": "pOO-krEHmehtEH-toh-ksehrOH-khtahpOHthee",
+      "formality": "standard",
+      "cultural_note": "Octopus drying is often handled by the cook/fishmonger in tavernas and may not be in a fixed visible spot.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά, στην είσοδο.",
+        "pronunciation": "AHreestehrAHsteen-EEsohthOH",
+        "translation_en": "On the left, at the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the left, at the entrance.",
+          "phonetic": "AHreestehrAHsteen-EEsohthOH",
+          "french": "Αριστερά, στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_katerinas_restaurant_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε Μυκονιάτικη χοιροπούλα απόψε;",
+      "pronunciation": "EHkhehtEH-mEEkohnyAHteeEE-khEErohpOOl-ahpOHpseh",
+      "formality": "standard",
+      "cultural_note": "Traditional sausages like χοιροπούλα are often prepared by the cook/fishmonger and availability is best confirmed on the spot.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο μενού δίπλα στο τζάκι.",
+        "pronunciation": "nEHstoh-mehnOO-thEEplah-stoh-dzAHee",
+        "translation_en": "Yes, we have it tonight."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it tonight.",
+          "phonetic": "nEHstoh-mehnOO-thEEplah-stoh-dzAHee",
+          "french": "Ναι, στο μενού δίπλα στο τζάκι."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_katerinas_restaurant_003",
+      "intent_en": "Ask if we can split the bill between two cards",
+      "text_local": "Μπορούμε να χωρίσουμε τον λογαριασμό;",
+      "pronunciation": "bohrOOmeh-nah-khohrEEsoomEH-tohn-lOHghahrEEahsmOH",
+      "formality": "standard",
+      "cultural_note": "Family-run tavernas often insist on a single bill to simplify transactions, reflecting their local and informal service style.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, μόνο ένας λογαριασμός.",
+        "pronunciation": "OHkheemOHnoh-EHnahz-lOHghahrEEahsmOHs",
+        "translation_en": "No, only one bill."
+      },
+      "responses": [
+        {
+          "english": "No, only one bill.",
+          "phonetic": "OHkheemOHnoh-EHnahz-lOHghahrEEahsmOHs",
+          "french": "Όχι, μόνο ένας λογαριασμός."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_katerinas_restaurant_004",
+      "intent_en": "Ask how the grilled fish is priced",
+      "text_local": "Πώς τίθεται η τιμή του ψαριού;",
+      "pronunciation": "pOHs-tEEthehtEH-ee-teemEE-too-psAHreeOO",
+      "formality": "standard",
+      "cultural_note": "In open-air tavernas, fish is often priced by weight and presented on ice for customers to inspect before cooking.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ανά βάρος στο τραπέζι.",
+        "pronunciation": "ahnAH-vAHrohs-stoh-trahpEHzee",
+        "translation_en": "Priced by weight at table."
+      },
+      "responses": [
+        {
+          "english": "Priced by weight at table.",
+          "phonetic": "ahnAH-vAHrohs-stoh-trahpEHzee",
+          "french": "Ανά βάρος στο τραπέζι."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_katerinas_restaurant_005",
+      "intent_en": "Ask if they accept credit cards",
+      "text_local": "Παίρνετε κάρτες;",
+      "pronunciation": "pEHrnehtEH-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "Cash is the standard in tavernas of this type in Mykonos, especially in smaller family-run establishments.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

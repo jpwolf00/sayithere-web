@@ -1,0 +1,78 @@
+{
+  "id": "athens_gnto_tourist_information_office",
+  "name_en": "GNTO Tourist Information Office",
+  "name_local": "Γραφείο Τουριστικών Πληροφοριών ΕΟΤ",
+  "icon": "info.circle",
+  "lat": 37.9755648,
+  "lon": 23.7348324,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "athens_gnto_tourist_information_office_001",
+      "intent_en": "Where is the EOT brochure rack for islands",
+      "text_local": "Πού βρίσκονται τα φυλλάδια του ΕΟΤ για τα νησιά;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-ehnsihrIHlihkbEH-sihrIHlihkEHr-sihrIHlihkOH-sihrIHlihkshAH-sihrIHlihkOHyOOuhkyOOtehlrEHs-tohn-neesyOHn",
+      "formality": "standard",
+      "cultural_note": "Brochure racks are typically near staff counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ράφι δίπλα στην είσοδο, αριστερά.",
+        "pronunciation": "stoh-rAHfee-thEEplah-steen-EEsohthOHAHreestehrAH",
+        "translation_en": "On the shelf next to the entrance, on the left."
+      },
+      "responses": [
+        {
+          "english": "On the shelf next to the entrance, on the left.",
+          "phonetic": "stoh-rAHfee-thEEplah-steen-EEsohthOHAHreestehrAH",
+          "french": "Στο ράφι δίπλα στην είσοδο, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "athens_gnto_tourist_information_office_002",
+      "intent_en": "Does the museum pass include Byzantine museums",
+      "text_local": "Το museum pass περιλαμβάνει βυζαντινά μουσεία;",
+      "pronunciation": "toh-ehnmyoozEE-UHm-pAHsehl-pEHreelahmvAHnee-vEEzahdeenAH-moosEEah",
+      "formality": "standard",
+      "cultural_note": "Greeks prefer qualified yes/no answers over absolutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Καλύπτει ορισμένα βυζαντινά μουσεία.",
+        "pronunciation": "kahlEEptee-OHreesmEHnah-vEEzahdeenAH-moosEEah",
+        "translation_en": "Covers some Byzantine museums."
+      },
+      "responses": [
+        {
+          "english": "Covers some Byzantine museums.",
+          "phonetic": "kahlEEptee-OHreesmEHnah-vEEzahdeenAH-moosEEah",
+          "french": "Καλύπτει ορισμένα βυζαντινά μουσεία."
+        }
+      ]
+    },
+    {
+      "id": "athens_gnto_tourist_information_office_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού παίρνω αριθμό σειράς;",
+      "pronunciation": "pOO-pEHrnoh-AHreethmOH-seerAHs",
+      "formality": "standard",
+      "cultural_note": "Greeks prefer short, direct staff interaction without excessive politeness phrases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Υπάρχει μηχάνημα έκδοσης αριθμού κοντά στην είσοδο.",
+        "pronunciation": "eepAHrkhee-meekhAHneemAH-EHkthohsEEs-AHreethmOO-kohdAH-steen-EEsohthOH",
+        "translation_en": "There is a number-dispensing machine near the entrance."
+      },
+      "responses": [
+        {
+          "english": "There is a number-dispensing machine near the entrance.",
+          "phonetic": "eepAHrkhee-meekhAHneemAH-EHkthohsEEs-AHreethmOO-kohdAH-steen-EEsohthOH",
+          "french": "Υπάρχει μηχάνημα έκδοσης αριθμού κοντά στην είσοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

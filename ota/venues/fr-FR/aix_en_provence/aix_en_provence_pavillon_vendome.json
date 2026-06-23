@@ -1,0 +1,115 @@
+{
+  "id": "aix_pavillon_vendome",
+  "name_en": "Pavillon de Vendôme",
+  "name_local": "Pavillon de Vendôme",
+  "icon": "house.fill",
+  "phrases": [
+    {
+      "id": "aix_vendome_001",
+      "intent_en": "Ask how much the entrance costs",
+      "text_local": "Combien coûte l'entrée du Pavillon ?",
+      "pronunciation": "kohm-BYEHN KOOT lahn-TRAY doo pah-vee-YOHN",
+      "formality": "polite",
+      "cultural_note": "The Pavillon de Vendôme is a small decorative arts museum. Entry fees are modest and the garden is free.",
+      "responses": [
+        {
+          "english": "It's free the first Sunday of the month.",
+          "phonetic": "seh grah-TWEE luh pruh-MYAY dee-MAHNSH doo MWAH",
+          "french": "C'est gratuit le premier dimanche du mois."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_vendome_002",
+      "intent_en": "Ask if the gardens are open to the public",
+      "text_local": "Le jardin du Pavillon est-il ouvert au public ?",
+      "pronunciation": "luh zhar-DEHN doo pah-vee-YOHN eh-TEEL oo-VEHR oh poo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "The formal French garden surrounding the Pavillon de Vendôme is free to enter and one of the most peaceful spots in Aix. The garden is designed with geometric precision typical of the Louis XIV period, with box hedges, fountains, and lime trees.",
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "wee, seh oo-VEHR",
+          "french": "Oui, c'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_vendome_003",
+      "intent_en": "Ask if there is wheelchair access",
+      "text_local": "Y a-t-il un accès pour les fauteuils roulants ?",
+      "pronunciation": "ee ah-TEEL uhn ak-SEH poor lay foh-TUHY roo-LAHN",
+      "formality": "polite",
+      "cultural_note": "Historic buildings in Aix have varying accessibility. It is always worth asking at the entrance.",
+      "responses": [
+        {
+          "english": "The ground floor is accessible.",
+          "phonetic": "luh ray-duh-shoh-SAY eh ak-ses-EE-bluh",
+          "french": "Le rez-de-chaussée est accessible."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_vendome_004",
+      "intent_en": "Ask what is on display inside",
+      "text_local": "Qu'est-ce qui est exposé à l'intérieur du Pavillon ?",
+      "pronunciation": "kes-KEEL eh ex-poh-ZAY ah lehn-tay-RYUHR doo pah-vee-YOHN",
+      "formality": "polite",
+      "cultural_note": "Inside the Pavillon de Vendôme you can see period furniture, Provençal ceramics, and decorative arts from the 17th and 18th centuries. Temporary exhibitions on art and design are held here regularly throughout the year.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_vendome_005",
+      "intent_en": "Ask for the opening hours",
+      "text_local": "Quelles sont les horaires d'ouverture du Pavillon ?",
+      "pronunciation": "kel sohn layz oh-REHR doo-ver-TOOR doo pah-vee-YOHN",
+      "formality": "polite",
+      "cultural_note": "The Pavillon de Vendôme is closed on Tuesdays and on public holidays. Entry is free for residents of Aix and for visitors under 18. The garden is accessible outside museum hours in the warmer months.",
+      "responses": [
+        {
+          "english": "At 9 AM.",
+          "phonetic": "ah nuhf UHR",
+          "french": "À neuf heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Pavilion",
+      "word_local": "Le pavillon",
+      "pronunciation": "luh pah-vee-YOHN"
+    },
+    {
+      "word_en": "Garden",
+      "word_local": "Le jardin",
+      "pronunciation": "luh zhar-DEHN"
+    },
+    {
+      "word_en": "Facade",
+      "word_local": "La façade",
+      "pronunciation": "lah fah-SAHD"
+    },
+    {
+      "word_en": "Opening hours",
+      "word_local": "Les horaires d'ouverture",
+      "pronunciation": "layz oh-REHR doo-ver-TOOR"
+    }
+  ]
+}

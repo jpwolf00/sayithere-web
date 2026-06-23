@@ -1,0 +1,97 @@
+{
+  "id": "turin_piazza_castello",
+  "name_en": "Piazza Castello",
+  "name_local": "Piazza Castello",
+  "icon": "building.columns",
+  "lat": 45.0709684,
+  "lon": 7.6869135,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "turin_piazza_castello_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Dove si trova la Torre Medicea?",
+      "pronunciation": "DOH-veh see TROH-vah lah TOR-reh meh-dee-CHAY-ah",
+      "formality": "standard",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Behind Palazzo Madama, north side.",
+          "phonetic": "dee-EHT-roh pah-LAHTS-tsoh mah-DAH-mah LAH-toh NOHRD",
+          "french": "Dietro Palazzo Madama, lato nord."
+        }
+      ]
+    },
+    {
+      "id": "turin_piazza_castello_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, ci sono bagni pubblici vicino alla piazza, per favore?",
+      "pronunciation": "SKOOzee chee SOHnoh BAHnyee poobBLEEchee veeCHEEnoh AHluh PYAHtsuh pehr fahVOHreh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are some inside Palazzo Madama, nearby here.",
+          "phonetic": "SÌ CHEE SOH-noh DEHNT-roh pah-LAHTS-tsoh mah-DAH-mah KW-ee vee-CHEE-noh",
+          "french": "Sì, ci sono dentro Palazzo Madama, qui vicino."
+        }
+      ]
+    },
+    {
+      "id": "it_pc_to_x1",
+      "intent_en": "Ask where the Royal Palace is",
+      "text_local": "Scusi, dov'è il Palazzo Reale di Torino?",
+      "pronunciation": "SKOO-zee, doh-VEH eel pah-LAHT-tsoh reh-AH-leh dee toh-REE-noh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the north side of the square, with the Galleria Sabauda.",
+          "phonetic": "sool LAH-toh nord DEL-lah PYAHT-tsah, kon lah gal-leh-REE-ah sah-BOW-dah.",
+          "french": "Sul lato nord della piazza, con la Galleria Sabauda."
+        }
+      ]
+    },
+    {
+      "id": "it_pc_to_x2",
+      "intent_en": "Ask where the Egyptian Museum is",
+      "text_local": "Buongiorno, dov'è il Museo Egizio?",
+      "pronunciation": "bwohn-JOHR-noh, doh-VEH eel moo-ZEH-oh eh-JEE-tsyoh?",
+      "formality": "polite",
+      "cultural_note": "Turin's Egyptian Museum is the world's second largest collection of Egyptian artefacts after Cairo.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On Via Accademia delle Scienze, ten minutes on foot.",
+          "phonetic": "een VEE-ah ak-kah-DEH-myah DEL-leh SHEN-tseh, ah DYEH-chee mee-NOO-tee ah PYEH-dee.",
+          "french": "In Via Accademia delle Scienze, a dieci minuti a piedi."
+        }
+      ]
+    },
+    {
+      "id": "it_pc_to_x3",
+      "intent_en": "Ask what the Palazzo Madama is",
+      "text_local": "Scusi, cos'è il Palazzo Madama?",
+      "pronunciation": "SKOO-zee, koh-ZEH eel pah-LAHT-tsoh mah-DAH-mah?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's Turin's municipal museum of ancient art, on the square.",
+          "phonetic": "eh eel moo-ZEH-oh dee AR-teh an-TEE-kah del koh-MOO-neh dee toh-REE-noh, een PYAHT-tsah.",
+          "french": "È il museo di arte antica del comune di Torino, in piazza."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

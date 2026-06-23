@@ -1,0 +1,144 @@
+{
+  "id": "istanbul_istanbul_airport",
+  "name_en": "Istanbul Airport",
+  "name_local": "İstanbul Havalimanı",
+  "icon": "tram",
+  "lat": 41.2748684,
+  "lon": 28.7322749,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "istanbul_istanbul_airport_001",
+      "intent_en": "How do I top up my İstanbul Kart?",
+      "text_local": "İstanbul Kart'ıma nasıl bakiye yükleyebilirim?",
+      "pronunciation": "ihstAHnbuh-kahrtOOmah-nahsOO-bahkeeyEH-yuhklehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Top-up machines may exist but exact locations are not provided in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte, yolcu salonunda makine var.",
+        "pronunciation": "eerihshtEHyawdzhUH-sahohnuhndAH-mahkeenEH-vAHr",
+        "translation_en": "There is a machine at the entrance, in the passenger hall."
+      },
+      "responses": [
+        {
+          "english": "There is a machine at the entrance, in the passenger hall.",
+          "phonetic": "eerihshtEHyawdzhUH-sahohnuhndAH-mahkeenEH-vAHr",
+          "french": "Girişte, yolcu salonunda makine var."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_istanbul_airport_002",
+      "intent_en": "Where is the Havaist bus ticket machine?",
+      "text_local": "Havaist otobüs bilet makinesi nerede?",
+      "pronunciation": "hahvahIHst-ohtohbUHs-beelEHt-mahkeenehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish airport staff often direct complex queries to the central information desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dış hatlar geliş katında.",
+        "pronunciation": "dOOsh-hahtAHr-ehlIHsh-kahtoondAH",
+        "translation_en": "On the arrivals floor of the international terminal."
+      },
+      "responses": [
+        {
+          "english": "On the arrivals floor of the international terminal.",
+          "phonetic": "dOOsh-hahtAHr-ehlIHsh-kahtoondAH",
+          "french": "Dış hatlar geliş katında."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_istanbul_airport_003",
+      "intent_en": "Is lounge access included with ticket?",
+      "text_local": "Biletimle salona giriş dahil mi?",
+      "pronunciation": "beelEHtihmleh-sahohnAH-eerIHsh-dahhIHl-mih",
+      "formality": "standard",
+      "cultural_note": "Lounge access depends on ticket class and membership; staff cannot generalize.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, business class biletlerde.",
+        "pronunciation": "ehvEHtbooseenEHss-dzhAHss-beelehtlehrdEH",
+        "translation_en": "Yes, for business class tickets."
+      },
+      "responses": [
+        {
+          "english": "Yes, for business class tickets.",
+          "phonetic": "ehvEHtbooseenEHss-dzhAHss-beelehtlehrdEH",
+          "french": "Evet, business class biletlerde."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_istanbul_airport_004",
+      "intent_en": "Where do I report lost baggage?",
+      "text_local": "Kayıp bagaj bildirimi nereye yapılır?",
+      "pronunciation": "kahyOOp-bahgAHzh-bihldEEreemih-nEHrehyeh-yahpooOOr",
+      "formality": "standard",
+      "cultural_note": "Lost baggage is handled by ground services staff, a stable target in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bagaj ofisi sağınızda kalıyor.",
+        "pronunciation": "bahgAHzh-ohfeesIH-sAHoonoozdah-kahOOyawr",
+        "translation_en": "The baggage office is on your right."
+      },
+      "responses": [
+        {
+          "english": "The baggage office is on your right.",
+          "phonetic": "bahgAHzh-ohfeesIH-sAHoonoozdah-kahOOyawr",
+          "french": "Bagaj ofisi sağınızda kalıyor."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_istanbul_airport_005",
+      "intent_en": "Where is the SIM card kiosk?",
+      "text_local": "SIM kart büfesi nerede?",
+      "pronunciation": "sEHOOmEH-kAHrt-buefehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "SIM card kiosks are a known service, but their exact placement is not specified in the context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gelir gelmez sol tarafta.",
+        "pronunciation": "ehlIHr-ahlmEHz-sAW-tahrahftAH",
+        "translation_en": "Right as you come in, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Right as you come in, on the left side.",
+          "phonetic": "ehlIHr-ahlmEHz-sAW-tahrahftAH",
+          "french": "Gelir gelmez sol tarafta."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_istanbul_airport_006",
+      "intent_en": "Is the visa desk open now?",
+      "text_local": "Vize masası açık mı şu anda?",
+      "pronunciation": "veezEH-mahsahsOO-shuh-ahndAH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Operating hours can change without notice; staff avoid giving absolute answers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, hâlâ açık.",
+        "pronunciation": "ehvEHthahlAH-ahtshOOk",
+        "translation_en": "Yes, it's still open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's still open.",
+          "phonetic": "ehvEHthahlAH-ahtshOOk",
+          "french": "Evet, hâlâ açık."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

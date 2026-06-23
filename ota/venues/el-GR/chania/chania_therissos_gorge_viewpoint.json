@@ -1,0 +1,122 @@
+{
+  "id": "chania_therissos_gorge_viewpoint",
+  "name_en": "Therissos Gorge viewpoint",
+  "name_local": "Φαράγγι Θερίσου",
+  "icon": "leaf",
+  "lat": 35.5120831,
+  "lon": 24.0191544,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "chania_therissos_gorge_viewpoint_001",
+      "intent_en": "Do I need to pay for gorge entry?",
+      "text_local": "Πρέπει να πληρώσω για την είσοδο στο φαράγγι;",
+      "pronunciation": "prEHpee-nah-pleerOHsoh-yAH-teen-EEsohthOH-stoh-fahrAHnggee",
+      "formality": "standard",
+      "cultural_note": "Η είσοδος στο Φαράγγι Θερίσου δεν έχει αντίτιμο. Προσοχή όμως στους οδηγούς οχημάτων για την περιοχή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Δωρεάν η είσοδος.",
+        "pronunciation": "thOHrehAHn-ee-EEsohthOHs",
+        "translation_en": "Free entry."
+      },
+      "responses": [
+        {
+          "english": "Free entry.",
+          "phonetic": "thOHrehAHn-ee-EEsohthOHs",
+          "french": "Δωρεάν η είσοδος."
+        }
+      ]
+    },
+    {
+      "id": "chania_therissos_gorge_viewpoint_002",
+      "intent_en": "How do I yield to descending hikers?",
+      "text_local": "Πώς πρέπει να παραχωρώ στους κατέρχόμενους πεζούς;",
+      "pronunciation": "pOHs-prEHpee-nah-pAHrahkhohrOH-stoos-kahtEHrkhOHmehnOOs-pehzOOs",
+      "formality": "standard",
+      "cultural_note": "Στην Κρήτη, οι πεζοί που ανέρχονται στο φαράγγι έχουν προτεραιότητα. Οι επισκέπτες περιμένουν πλευρικά για να περάσουν.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περάστε στο πλάι.",
+        "pronunciation": "pehrAHsteh-stoh-plEYE",
+        "translation_en": "Step to the side."
+      },
+      "responses": [
+        {
+          "english": "Step to the side.",
+          "phonetic": "pehrAHsteh-stoh-plEYE",
+          "french": "Περάστε στο πλάι."
+        }
+      ]
+    },
+    {
+      "id": "chania_therissos_gorge_viewpoint_003",
+      "intent_en": "Where is the village cooperative?",
+      "text_local": "Πού βρίσκεται ο συνεταιρισμός του χωριού;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-sEEnehtEHreesmOHs-too-khOHreeOO",
+      "formality": "standard",
+      "cultural_note": "Ο συνεταιρισμός ελαιολάδου βρίσκεται εντός του χωριού Θέρισου, κοντά στο αρχικό σημείο εισόδου από τον δρόμο προς τις Λευκές Όρη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στον κεντρικό δρόμο.",
+        "pronunciation": "EEneh-stohng-gEHdreekOH-thrOHmoh",
+        "translation_en": "It's on the main road."
+      },
+      "responses": [
+        {
+          "english": "It's on the main road.",
+          "phonetic": "EEneh-stohng-gEHdreekOH-thrOHmoh",
+          "french": "Είναι στον κεντρικό δρόμο."
+        }
+      ]
+    },
+    {
+      "id": "chania_therissos_gorge_viewpoint_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει οδηγός βουνού στον καφέ του χωριού;",
+      "pronunciation": "eepAHrkhee-OHtheeghOHz-voonOO-steen-dahvEHrnah",
+      "formality": "standard",
+      "cultural_note": "Οι οδηγοί βουνού συχνά βρίσκονται στο καφενείο του χωριού Θέρισου, αλλά η διαθεσιμότητα εξαρτάται από την περίοδο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συνήθως υπάρχει ή ξέρουν να σας κατευθύνουν εκεί.",
+        "pronunciation": "nEHseenEEthohs-eepAHrkhee-ee-ksEHroon-nah-sahs-kAHtehfthEEnoon-ehEE",
+        "translation_en": "Yes, usually there is one, or they can direct you there."
+      },
+      "responses": [
+        {
+          "english": "Yes, usually there is one, or they can direct you there.",
+          "phonetic": "nEHseenEEthohs-eepAHrkhee-ee-ksEHroon-nah-sahs-kAHtehfthEEnoon-ehEE",
+          "french": "Ναι, συνήθως υπάρχει ή ξέρουν να σας κατευθύνουν εκεί."
+        }
+      ]
+    },
+    {
+      "id": "chania_therissos_gorge_viewpoint_005",
+      "intent_en": "Where is the Krousonas road pullout?",
+      "text_local": "Πού είναι η στάση στην Κρουσώνα;",
+      "pronunciation": "pOO-EEneh-ee-stAHsee-steeng-groosOHnah",
+      "formality": "standard",
+      "cultural_note": "Η στάση στην Κρουσώνα βρίσκεται κατά μήκος του δρόμου προς τις Λευκές Όρη, πριν την είσοδο στο χωριό Θέρισου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην άκρη του δρόμου.",
+        "pronunciation": "steen-AHkree-too-thrOHmoo",
+        "translation_en": "On the roadside pullout."
+      },
+      "responses": [
+        {
+          "english": "On the roadside pullout.",
+          "phonetic": "steen-AHkree-too-thrOHmoo",
+          "french": "Στην άκρη του δρόμου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

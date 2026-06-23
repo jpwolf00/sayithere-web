@@ -1,0 +1,100 @@
+{
+  "id": "nafplio_arvanitia_beach",
+  "name_en": "Arvanitia Beach",
+  "name_local": "Παραλία Αρβανιτιάς",
+  "icon": "leaf",
+  "lat": 37.5629124,
+  "lon": 22.7994649,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "nafplio_arvanitia_beach_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η ενοικίαση ξαπλώστρας;",
+      "pronunciation": "pOO-EEneh-ee-EHneeEEahsEE-ksahplOHstrahs",
+      "formality": "standard",
+      "cultural_note": "Η ερώτηση αναφέρεται ρητά σε υπηρεσία που παρέχεται στο χώρο της παραλίας. Η ερώτηση απευθύνεται στον υπάλληλο που φροντίζει για τις ξαπλώστρες, όπως αναφέρεται στις σταθερές υπηρεσίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο καφέ της παραλίας, αριστερά.",
+        "pronunciation": "stoh-kahfEH-tees-pAHrahlEEahsAHreestehrAH",
+        "translation_en": "Sunbed rental is available from the small beach cafe, next to the small port."
+      },
+      "responses": [
+        {
+          "english": "Sunbed rental is available from the small beach cafe, next to the small port.",
+          "phonetic": "stoh-kahfEH-tees-pAHrahlEEahsAHreestehrAH",
+          "french": "Στο καφέ της παραλίας, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_arvanitia_beach_002",
+      "intent_en": "Is boat rental available from this beach today?",
+      "text_local": "Υπάρχει ενοικίαση βάρκας από αυτή την παραλία σήμερα;",
+      "pronunciation": "bohrOH-nah-neeAHsoh-vAHrkah-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Η ερώτηση αφορά διαθέσιμη υπηρεσία ενοικίασης βάρκας κοντά στην παραλία. Η ερώτηση απευθύνεται στον αρμόδιο υπάλληλο, καθώς δεν υπάρχει συγκεκριμένη θέση αναφοράς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο ανατολικό άκρο της παραλίας.",
+        "pronunciation": "nEHstoh-AHnahtOHleekOH-AHkroh-tees-pAHrahlEEahs",
+        "translation_en": "Yes, it is available nearby."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is available nearby.",
+          "phonetic": "nEHstoh-AHnahtOHleekOH-AHkroh-tees-pAHrahlEEahs",
+          "french": "Ναι, στο ανατολικό άκρο της παραλίας."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_arvanitia_beach_003",
+      "intent_en": "How do I pay for parking along the access road?",
+      "text_local": "Υπάρχει χρέωση για το πάρκινγκ στον δρόμο πρόσβασης;",
+      "pronunciation": "eepAHrkhee-khrEHohsEE-yAH-toh-pAHreeng-stohn-thrOHmoh-prOHsvahsEEs",
+      "formality": "standard",
+      "cultural_note": "Η πληρωμή για parking κατά μήκος του δρόμου αναφέρεται ως πιθανή υπηρεσία. Η ερώτηση απευθύνεται στον υπεύθυνο υπάλληλο καθαρισμού, όπως αναφέρεται στις σταθερές υπηρεσίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι δωρεάν, κοντά στην παραλία.",
+        "pronunciation": "EEneh-thOHrehAHnkohdAH-steem-bAHrahlEEah",
+        "translation_en": "Parking along the road is free, but pay attention to signs."
+      },
+      "responses": [
+        {
+          "english": "Parking along the road is free, but pay attention to signs.",
+          "phonetic": "EEneh-thOHrehAHnkohdAH-steem-bAHrahlEEah",
+          "french": "Είναι δωρεάν, κοντά στην παραλία."
+        }
+      ]
+    },
+    {
+      "id": "nafplio_arvanitia_beach_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Λειτουργεί το καφέ στο μικρό λιμάνι;",
+      "pronunciation": "sehrvEErehtEH-toh-kahfEH-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Το καφέ αναφέρεται ως υπηρεσία του μικρού λιμανιού στην περιοχή της παραλίας. Η ερώτηση απευθύνεται στον υπεύθυνο ιδιοκτήτη, όπως αναφέρεται στις σταθερές υπηρεσίες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο λιμανάκι της Αρβανιτιάς.",
+        "pronunciation": "nEHstoh-lEEmahnAHee-tees-AHrvahnEEteeAHs",
+        "translation_en": "Yes, it's open daily from morning until late afternoon."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open daily from morning until late afternoon.",
+          "phonetic": "nEHstoh-lEEmahnAHee-tees-AHrvahnEEteeAHs",
+          "french": "Ναι, στο λιμανάκι της Αρβανιτιάς."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

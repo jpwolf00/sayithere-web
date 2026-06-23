@@ -1,0 +1,105 @@
+{
+  "id": "reims_centre",
+  "name_en": "Reims City Centre",
+  "name_local": "Centre-Ville de Reims",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "centre_cathedrale",
+      "intent_en": "Which direction is the cathedral?",
+      "text_local": "La cathédrale est dans quelle direction ?",
+      "pronunciation": "lah kah-tay-DRAL eh don kel dee-rec-SYON",
+      "formality": "polite",
+      "cultural_note": "The cathedral towers are visible from most of the centre — they serve as a natural landmark for orientation.",
+      "responses": [
+        {
+          "english": "The cathedral is right there, on the right.",
+          "phonetic": "lah kah-tay-DRAHL ay / ay DAHN kehl dee-rek-SYOHN",
+          "french": "Bonjour, la cathédrale est juste là, à droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "centre_champagne",
+      "intent_en": "Which champagne house do you recommend for a first-timer?",
+      "text_local": "Quelle maison de champagne recommandez-vous pour un débutant ?",
+      "pronunciation": "kel may-ZON duh shom-PAH-nyuh ruh-koh-mon-DAY voo poor un day-bew-TON",
+      "formality": "polite",
+      "cultural_note": "For first-timers, Mumm is accessible and central. Taittinger has the most spectacular historical cellars. Pommery is best for art lovers.",
+      "responses": [
+        {
+          "english": "I recommend the House of Mumm, it is central and accessible.",
+          "phonetic": "KEL meh-ZON duh sham-PAN yuh-kuh-mahn-DEV-voo poor uh PRUH-myeh vee-zee-TUR",
+          "french": "Je recommande la maison Mumm, elle est centrale et accessible."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_cv_rei_x1",
+      "intent_en": "Ask where the cathedral is from here",
+      "text_local": "Où se trouve la cathédrale depuis ici ?",
+      "pronunciation": "oo suh TROOV lah kah-tay-DRAL duh-PWEE ee-SEE",
+      "formality": "polite",
+      "cultural_note": "Reims Cathedral, where French kings were crowned for centuries, is the city's defining landmark.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Five minutes on foot to the north-east.",
+          "phonetic": "ah SANK mee-NOOT ah PYAY vair luh nor-EST.",
+          "french": "À cinq minutes à pied vers le nord-est."
+        }
+      ]
+    },
+    {
+      "id": "fr_cv_rei_x2",
+      "intent_en": "Ask where the main shopping street is",
+      "text_local": "Où est la principale rue commerçante ?",
+      "pronunciation": "oo ay lah pran-see-PAL roo koh-mair-SAHNT",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Rue de Vesle, at the heart of the city centre.",
+          "phonetic": "lah ROO duh VESL, oh KUR doo SAHN-truh veel.",
+          "french": "La rue de Vesle, au cœur du centre-ville."
+        }
+      ]
+    },
+    {
+      "id": "fr_cv_rei_x3",
+      "intent_en": "Ask which bus goes to the champagne cellars",
+      "text_local": "Quel bus mène aux caves de champagne ?",
+      "pronunciation": "kel boos men oh kahv duh shahm-PAN-yuh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Line two, Mumm or Pommery cellar stop.",
+          "phonetic": "lah LEEN-yuh DUH, ah-RAY kahv moom oo poh-muh-REE.",
+          "french": "La ligne deux, arrêt Cave Mumm ou Pommery."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "champagne house",
+      "word_local": "la maison de champagne",
+      "pronunciation": "lah may-ZON duh shom-PAH-nyuh"
+    },
+    {
+      "word_en": "vineyard",
+      "word_local": "le vignoble",
+      "pronunciation": "luh veen-YO-bluh"
+    }
+  ]
+}

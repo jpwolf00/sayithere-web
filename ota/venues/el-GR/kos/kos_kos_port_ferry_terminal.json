@@ -1,0 +1,166 @@
+{
+  "id": "kos_kos_port_ferry_terminal",
+  "name_en": "Kos Port Ferry Terminal",
+  "name_local": "Λιμάνι Κω",
+  "icon": "tram",
+  "lat": 36.8960106,
+  "lon": 27.2878384,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kos_kos_port_ferry_terminal_001",
+      "intent_en": "Which dock for Dodecanese island ferries",
+      "text_local": "Πού είναι η προβλήτα για τα Δωδεκάνησα;",
+      "pronunciation": "pOO-EEneh-ee-prohvlEEtah-yAH-thOHthehkAHneesAH",
+      "formality": "standard",
+      "cultural_note": "Greek ports typically have clearly marked signage for different ferry routes, with the Dodecanese islands dock often indicated by a specific sign.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο τέρμα, αριστερά.",
+        "pronunciation": "stoh-tEHrmahAHreestehrAH",
+        "translation_en": "At the end, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the end, on the left.",
+          "phonetic": "stoh-tEHrmahAHreestehrAH",
+          "french": "Στο τέρμα, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_port_ferry_terminal_002",
+      "intent_en": "Can I buy a ticket to Bodrum here",
+      "text_local": "Μπορώ να αγοράσω εισιτήριο για Bodrum εδώ;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-EEseetEEreeOH-yAH-ehnbDruhmehl-ehthOH",
+      "formality": "standard",
+      "cultural_note": "International ferry routes like Kos to Bodrum typically have dedicated ticket offices at the port.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο γραφείο εισιτηρίων.",
+        "pronunciation": "nEHstoh-ghrahfEEoh-EEseeteerEEohn",
+        "translation_en": "Yes, at the ticket office."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket office.",
+          "phonetic": "nEHstoh-ghrahfEEoh-EEseeteerEEohn",
+          "french": "Ναι, στο γραφείο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_port_ferry_terminal_003",
+      "intent_en": "Where is the Dodecanese islands dock",
+      "text_local": "Πού είναι η προβλήτα των Δωδεκανήσων;",
+      "pronunciation": "pOO-EEneh-ee-prohvlEEtah-tohn-thOHthehkahnEEsohn",
+      "formality": "standard",
+      "cultural_note": "Port signage in Greece is standardized, with all ferry docks for island routes clearly marked.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην ανατολική άκρη του λιμανιού.",
+        "pronunciation": "steen-AHnahtOHleeEE-AHkree-too-lEEmahnyOO",
+        "translation_en": "At the eastern edge of the port."
+      },
+      "responses": [
+        {
+          "english": "At the eastern edge of the port.",
+          "phonetic": "steen-AHnahtOHleeEE-AHkree-too-lEEmahnyOO",
+          "french": "Στην ανατολική άκρη του λιμανιού."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_port_ferry_terminal_004",
+      "intent_en": "Where is the Bodrum ferry ticket office",
+      "text_local": "Πού είναι το γραφείο εισιτηρίων για Bodrum;",
+      "pronunciation": "pOO-EEneh-toh-ghrahfEEoh-EEseeteerEEohn-yAH-ehnbDruhmehl",
+      "formality": "standard",
+      "cultural_note": "In Greek ports, ticket agents for international ferry routes are typically located at designated counters near the main entrance or check-in area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στα δεξιά της εισόδου.",
+        "pronunciation": "stah-thEHkseeAH-tees-eesOHthoo",
+        "translation_en": "To the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "To the right of the entrance.",
+          "phonetic": "stah-thEHkseeAH-tees-eesOHthoo",
+          "french": "Στα δεξιά της εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_port_ferry_terminal_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει κλιματιζόμενη αίθουσα αναμονής;",
+      "pronunciation": "eepAHrkhee-EHthoos-AHnahmohnEEz-meh-klEEmahteesmOH",
+      "formality": "standard",
+      "cultural_note": "Port facilities in Greek islands often have basic waiting areas without guaranteed air conditioning.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο κεντρικό κτίριο, κοντά στα ταμεία.",
+        "pronunciation": "nEHstoh-EHdreekOH-ktEEreeOHkohdAH-stah-tahmEEah",
+        "translation_en": "Yes, the port waiting room in the main building is air-conditioned, near the Bodrum ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, the port waiting room in the main building is air-conditioned, near the Bodrum ticket counter.",
+          "phonetic": "nEHstoh-EHdreekOH-ktEEreeOHkohdAH-stah-tahmEEah",
+          "french": "Ναι, στο κεντρικό κτίριο, κοντά στα ταμεία."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_port_ferry_terminal_006",
+      "intent_en": "Is there an extra charge for bicycles",
+      "text_local": "Υπάρχει επιπλέον χρέωση για ποδήλατα;",
+      "pronunciation": "eepAHrkhee-EHpeeplEHohn-khrEHohsEE-yAH-pohthEElahtAH",
+      "formality": "standard",
+      "cultural_note": "Ferry operators in Greece may charge extra for bicycle transport, but this is not always displayed at the ticket counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, έχετε επιπλέον χρέωση.",
+        "pronunciation": "nEHEHkhehtEH-EHpeeplEHohn-khrEHohsEE",
+        "translation_en": "Yes, there is an extra charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is an extra charge.",
+          "phonetic": "nEHEHkhehtEH-EHpeeplEHohn-khrEHohsEE",
+          "french": "Ναι, έχετε επιπλέον χρέωση."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_port_ferry_terminal_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πότε αναχωρεί το επόμενο πλοίο για το Μπόντρουμ;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-ehpOHmehnOH-plEEoh-yAH-toh-bOHdroom",
+      "formality": "standard",
+      "cultural_note": "Departure times are typically announced over the port's public address system in Greek ports.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Σε μισή ώρα, από την αποβάθρα Τουρκίας.",
+        "pronunciation": "seh-meesEE-OHrahahpOH-teen-AHpohvAHthrah-toorEEahs",
+        "translation_en": "In half an hour, from the Turkey pier."
+      },
+      "responses": [
+        {
+          "english": "In half an hour, from the Turkey pier.",
+          "phonetic": "seh-meesEE-OHrahahpOH-teen-AHpohvAHthrah-toorEEahs",
+          "french": "Σε μισή ώρα, από την αποβάθρα Τουρκίας."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

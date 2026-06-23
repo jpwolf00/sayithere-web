@@ -1,0 +1,118 @@
+{
+  "id": "paris_eiffel_tower",
+  "name_en": "Eiffel Tower",
+  "name_local": "Tour Eiffel",
+  "icon": "building.columns",
+  "lat": 48.8584,
+  "lon": 2.2945,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "paris_eiffel_001",
+      "intent_en": "Ask where to enter with summit tickets",
+      "text_local": "Où est l'entrée pour les billets sommet, s'il vous plaît ?",
+      "pronunciation": "oo eh lan-TRAY poor lay bee-YAY so-MAY, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Ticket holders are often routed by ticket type (stairs vs elevator, summit vs 2nd floor). Check your slot time before joining a queue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The entrance for the summit is this way. Follow the signs for the elevator.",
+          "phonetic": "lan-TRAY poor leh so-MAY eh par ee-SEE. swee-VAY lay pah-NOH poor la-san-SUHR",
+          "french": "L'entrée pour le sommet est par ici. Suivez les panneaux pour l'ascenseur."
+        }
+      ]
+    },
+    {
+      "id": "paris_eiffel_002",
+      "intent_en": "Ask if this line is for security screening",
+      "text_local": "Cette file est pour le contrôle de sécurité ?",
+      "pronunciation": "set feel eh poor leh kon-TROHL duh say-kew-ree-TAY",
+      "formality": "polite",
+      "cultural_note": "Security screening happens before tower access. Keep metal items easy to remove to move faster.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, this is the security check. Prepare your metal objects.",
+          "phonetic": "wee, say-SEE leh kon-TROHL. pray-pay-Ray zoh-zhay may-tah-LEEK",
+          "french": "Oui, c'est ici le contrôle. Préparez vos objets métalliques."
+        }
+      ]
+    },
+    {
+      "id": "paris_eiffel_003",
+      "intent_en": "Ask how long the wait is",
+      "text_local": "Il y a combien de temps d'attente ?",
+      "pronunciation": "eel yah kom-BYAN duh tahn dah-TONT",
+      "formality": "polite",
+      "cultural_note": "Peak waits are usually midday and sunset. Early morning or late evening is often smoother.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About twenty to thirty minutes right now.",
+          "phonetic": "on-VYEHR van-tront mee-NOOT ahn suh moh-MON",
+          "french": "Environ vingt-trente minutes en ce moment."
+        }
+      ]
+    },
+    {
+      "id": "paris_eiffel_004",
+      "intent_en": "Ask where the elevator to the summit is",
+      "text_local": "Où est l'ascenseur pour le sommet ?",
+      "pronunciation": "oo eh la-san-SUHR poor leh so-MAY",
+      "formality": "polite",
+      "cultural_note": "Not every elevator path goes directly to the summit. Follow the staff signs by ticket type.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The elevator to the summit is on the second floor, this way.",
+          "phonetic": "la-san-SUHR poor leh so-MAY eh oh day-ZYEM ay-TAZH, par ee-SEE",
+          "french": "L'ascenseur pour le sommet est au deuxième étage, par ici."
+        }
+      ]
+    },
+    {
+      "id": "paris_eiffel_005",
+      "intent_en": "Ask to book a timed slot for later",
+      "text_local": "Je peux réserver un créneau pour plus tard ?",
+      "pronunciation": "zhuh puh ray-zair-VAY uhn cray-NOH poor ploo TAR",
+      "formality": "polite",
+      "cultural_note": "Timed-entry slots can sell out fast, especially weekends. Booking ahead reduces queue friction.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I can put you on the waiting list, but slots are limited.",
+          "phonetic": "zhuh puh voo may-TRAY sur lah leest dah-TONT, may lay cray-NOH son lay-mee-TAY",
+          "french": "Je peux vous mettre sur la liste d'attente, mais les créneaux sont limitées."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "summit",
+      "word_local": "le sommet",
+      "pronunciation": "leh so-MAY"
+    },
+    {
+      "word_en": "stairs",
+      "word_local": "les escaliers",
+      "pronunciation": "layz es-kah-lee-YAY"
+    },
+    {
+      "word_en": "elevator",
+      "word_local": "l'ascenseur",
+      "pronunciation": "la-san-SUHR"
+    },
+    {
+      "word_en": "timed slot",
+      "word_local": "le créneau horaire",
+      "pronunciation": "leh cray-NOH oh-RAIR"
+    }
+  ]
+}

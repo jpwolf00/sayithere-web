@@ -1,0 +1,100 @@
+{
+  "id": "kanazawa_omicho_market",
+  "name_en": "Omicho Market",
+  "name_local": "近江町市場",
+  "icon": "cart",
+  "lat": 36.5706905,
+  "lon": 136.6569553,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "kanazawa_omicho_market_001",
+      "intent_en": "Where to queue for restaurant tickets?",
+      "text_local": "せいりけんは どこで ならびますか？",
+      "pronunciation": "sEHeeEEkehH-dohkOHdeh-nBEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Popular upstairs restaurants often use a ticket system for queues.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいだんの まえです。",
+        "pronunciation": "kEEdNnoh-mEHdEHsoo",
+        "translation_en": "In front of the stairs."
+      },
+      "responses": [
+        {
+          "english": "In front of the stairs.",
+          "phonetic": "kEEdNnoh-mEHdEHsoo",
+          "french": "かいだんの まえです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_omicho_market_002",
+      "intent_en": "Where is the seafood auction?",
+      "text_local": "せりは どこですか？",
+      "pronunciation": "sehEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Auctions are typically early morning and may be restricted; ask quietly.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "にしがわの おくです。",
+        "pronunciation": "nEEeegwNoh-OHkoodEHsoo",
+        "translation_en": "It's in the back on the west side."
+      },
+      "responses": [
+        {
+          "english": "It's in the back on the west side.",
+          "phonetic": "nEEeegwNoh-OHkoodEHsoo",
+          "french": "にしがわの おくです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_omicho_market_003",
+      "intent_en": "Is this stall cash only?",
+      "text_local": "ここは げんきんのみですか？",
+      "pronunciation": "kohkOHh-gEHngkeennOHmeedehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small stalls in the market are cash-only. Prepare coins and small bills.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_omicho_market_004",
+      "intent_en": "Can I taste before buying?",
+      "text_local": "ししょく できますか？",
+      "pronunciation": "eeOHkoo-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Many seafood stalls offer small samples. Use the provided toothpicks.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、どうぞ。",
+        "pronunciation": "hEEdohOOzoh",
+        "translation_en": "Yes, go ahead."
+      },
+      "responses": [
+        {
+          "english": "Yes, go ahead.",
+          "phonetic": "hEEdohOOzoh",
+          "french": "はい、どうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

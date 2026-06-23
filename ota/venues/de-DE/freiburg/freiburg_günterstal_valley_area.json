@@ -1,0 +1,144 @@
+{
+  "id": "freiburg_günterstal_valley_area",
+  "name_en": "Günterstal Valley Area",
+  "name_local": "Günterstal",
+  "icon": "map",
+  "lat": 47.9654351,
+  "lon": 7.8557221,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "freiburg_günterstal_valley_area_001",
+      "intent_en": "Where to park at the Höllentalbahn Talstation",
+      "text_local": "Wo kann man bei der Talstation parken?",
+      "pronunciation": "vOH-kAHn-mahn-beye-dehr-tAHlstahtsyOHn-pAHrkuhn",
+      "formality": "standard",
+      "cultural_note": "Parking is typically available near the terminus of the Höllentalbahn at Talstation. No specific entrance is implied.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Parkplätze liegen vor der Talstation.",
+        "pronunciation": "pAHrkplehtsuh-lEEuhn-fAWr-dehr-tAHlstahtsyOHn",
+        "translation_en": "Parking is available in front of the valley station."
+      },
+      "responses": [
+        {
+          "english": "Parking is available in front of the valley station.",
+          "phonetic": "pAHrkplehtsuh-lEEuhn-fAWr-dehr-tAHlstahtsyOHn",
+          "french": "Parkplätze liegen vor der Talstation."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_günterstal_valley_area_002",
+      "intent_en": "Where are the Zisterzienserinnenabtei ruins",
+      "text_local": "Wo sind die Zisterzienserinnenabtei-Ruinen?",
+      "pronunciation": "vOH-zihnt-dee-tsIHsttsEEnzehrIHnuhnahptEYErooEEnuhn",
+      "formality": "standard",
+      "cultural_note": "The ruins are a local landmark; exact micro-location is not specified. Staff at the Ortsverein can guide you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Weiter oben im Wald.",
+        "pronunciation": "vEYEt-OHbuhn-ihm-vAHlt",
+        "translation_en": "Further up in the forest."
+      },
+      "responses": [
+        {
+          "english": "Further up in the forest.",
+          "phonetic": "vEYEt-OHbuhn-ihm-vAHlt",
+          "french": "Weiter oben im Wald."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_günterstal_valley_area_003",
+      "intent_en": "Where is the Wonnhalden meadow",
+      "text_local": "Wo ist die Wonnhaldewiese?",
+      "pronunciation": "vOH-lEEkt-dee-vAWnhahldEHveezuhnvEEzuh",
+      "formality": "standard",
+      "cultural_note": "Wonnhaldewiesen is a meadow area in Günterstal, accessible via marked paths or signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, hinter den Bäumen.",
+        "pronunciation": "guhrAHdehOWshIHnt-dehn-bAWuhmuhn",
+        "translation_en": "Straight ahead, behind the trees."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, behind the trees.",
+          "phonetic": "guhrAHdehOWshIHnt-dehn-bAWuhmuhn",
+          "french": "Geradeaus, hinter den Bäumen."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_günterstal_valley_area_004",
+      "intent_en": "When does the last tram leave Günterstal",
+      "text_local": "Wann fährt die letzte Straßenbahn ab?",
+      "pronunciation": "vAHn-fEHrt-dee-lEHtstuh-shtrAHsuhnbAHn-AHp",
+      "formality": "standard",
+      "cultural_note": "Tram schedules are displayed at the stop. The last departure time is listed there.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kurz nach elf.",
+        "pronunciation": "kUHuhts-nahkh-EHlf",
+        "translation_en": "Just after eleven."
+      },
+      "responses": [
+        {
+          "english": "Just after eleven.",
+          "phonetic": "kUHuhts-nahkh-EHlf",
+          "french": "Kurz nach elf."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_günterstal_valley_area_005",
+      "intent_en": "Where is the Höllentalbahn tram stop",
+      "text_local": "Wo ist die Höllentalbahn-Haltestelle?",
+      "pronunciation": "vOH-ihst-dee-hUHluhntAHlbahnhAHltehshtEHluh",
+      "formality": "standard",
+      "cultural_note": "Höllentalbahn refers to the tram line terminating at the valley station, not the village center. Signs will guide you to the terminus.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Haltestelle ist unten an der Talstation.",
+        "pronunciation": "dee-hAHltehshtEHluh-ihst-UHntuhn-ahn-dehr-tAHlstahtsyOHn",
+        "translation_en": "The stop is down at the valley station."
+      },
+      "responses": [
+        {
+          "english": "The stop is down at the valley station.",
+          "phonetic": "dee-hAHltehshtEHluh-ihst-UHntuhn-ahn-dehr-tAHlstahtsyOHn",
+          "french": "Die Haltestelle ist unten an der Talstation."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_günterstal_valley_area_006",
+      "intent_en": "How to reach the Schauinsland cable car",
+      "text_local": "Wie komme ich zur Schauinslandbahn?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoor-shOWihnslAHndbahn",
+      "formality": "casual",
+      "cultural_note": "Schauinslandbahn is the cable car with its valley station (Talstation) in Günterstal. Signs will direct you there.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fahren Sie zur Talstation.",
+        "pronunciation": "fAHruhn-zee-tsoor-tAHlstahtsyOHn",
+        "translation_en": "Drive to the valley station."
+      },
+      "responses": [
+        {
+          "english": "Drive to the valley station.",
+          "phonetic": "fAHruhn-zee-tsoor-tAHlstahtsyOHn",
+          "french": "Fahren Sie zur Talstation."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

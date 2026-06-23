@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_stade_ernest_wallon",
+  "name_en": "Stade Ernest-Wallon (Stade Toulousain Rugby)",
+  "name_local": "Stade Ernest-Wallon",
+  "icon": "building.columns",
+  "lat": 43.6273,
+  "lon": 1.407,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "toulouse_wallon_001",
+      "intent_en": "Ask where to buy Stade Toulousain match tickets",
+      "text_local": "Où puis-je acheter des billets pour un match du Stade Toulousain ?",
+      "pronunciation": "oo PWEE-zhuh ash-TAY day bee-YAY poor un MATCH doo STAD too-loo-ZAN",
+      "formality": "polite",
+      "cultural_note": "Stade Toulousain (often called 'le Stade') is France's most successful rugby club, with multiple European and French championship titles.",
+      "responses": [
+        {
+          "english": "Online or at the stadium ticket office.",
+          "phonetic": "ahn LEE-nyuh oo oh gee-SHAY doo STAHD",
+          "french": "En ligne ou au guichet du stade."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_wallon_002",
+      "intent_en": "Ask which section has the best atmosphere",
+      "text_local": "Dans quelle tribune l'ambiance est-elle la meilleure ?",
+      "pronunciation": "dahn kel tree-BYOON lahm-BYAHNS eh-TEL lah may-YUR",
+      "formality": "polite",
+      "cultural_note": "The south stand (Tribune Sud) is traditionally where the most passionate Stade Toulousain supporters gather.",
+      "responses": [
+        {
+          "english": "The Bru stand, pitchside.",
+          "phonetic": "lah tree-BOON BROO koh-TAY puh-LOOZ",
+          "french": "La tribune Bru, côté pelouse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_wallon_003",
+      "intent_en": "Ask if the club shop is open on non-match days",
+      "text_local": "Est-ce que la boutique officielle est ouverte les jours sans match ?",
+      "pronunciation": "es-kuh lah boo-TEEK oh-fee-SYEL eh oo-VAIR lay ZHOOR sahn MATCH",
+      "formality": "polite",
+      "cultural_note": "The Stade Toulousain club shop sells official merchandise including the iconic red and black jersey.",
+      "responses": [
+        {
+          "english": "Yes, on weekdays.",
+          "phonetic": "wee ahn suh-MEN",
+          "french": "Oui, en semaine."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_wallon_004",
+      "intent_en": "Ask what time kick-off is for the Top 14 match",
+      "text_local": "À quelle heure est le coup d'envoi du match de Top 14 ?",
+      "pronunciation": "ah kel ur eh luh koo dahn-VWAH doo MATCH duh TOP kah-TORZ",
+      "formality": "polite",
+      "cultural_note": "Top 14 is France's top professional rugby union competition; Stade Toulousain are perennial contenders for the top positions.",
+      "responses": [
+        {
+          "english": "Kick-off is at nine o'clock.",
+          "phonetic": "luh KOO dahn-VWAH eh tah vahn-tay-OON UR",
+          "french": "Le coup d'envoi est à vingt et une heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_wallon_005",
+      "intent_en": "Ask for directions to the stadium by tram",
+      "text_local": "Comment puis-je me rendre au stade en tramway ?",
+      "pronunciation": "koh-MAHN PWEE-zhuh muh RAHN-druh oh STAD ahn tram-WAY",
+      "formality": "polite",
+      "cultural_note": "Toulouse's tram line T1 stops close to the stadium; it is the recommended way to travel on match days to avoid parking congestion.",
+      "responses": [
+        {
+          "english": "Take tram line T1.",
+          "phonetic": "pruh-NAY lah LEE-nyuh duh TRAM TAY-UHN",
+          "french": "Prenez la ligne de tram T1."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "rugby",
+      "word_local": "le rugby",
+      "pronunciation": "luh ryoog-BEE"
+    },
+    {
+      "word_en": "stand / tribune",
+      "word_local": "la tribune",
+      "pronunciation": "lah tree-BYOON"
+    },
+    {
+      "word_en": "jersey / shirt",
+      "word_local": "le maillot",
+      "pronunciation": "luh mah-YOH"
+    },
+    {
+      "word_en": "kick-off",
+      "word_local": "le coup d'envoi",
+      "pronunciation": "luh koo dahn-VWAH"
+    }
+  ]
+}

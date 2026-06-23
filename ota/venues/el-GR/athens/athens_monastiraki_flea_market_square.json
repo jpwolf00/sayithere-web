@@ -1,0 +1,78 @@
+{
+  "id": "athens_monastiraki_flea_market_square",
+  "name_en": "Monastiraki flea market square",
+  "name_local": "Μοναστηράκι",
+  "icon": "map",
+  "lat": 37.9764307,
+  "lon": 23.7259053,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "athens_monastiraki_flea_market_square_001",
+      "intent_en": "Which stalls accept card payment now",
+      "text_local": "Παίρνουν κάρτα εδώ;",
+      "pronunciation": "pEHrnoong-gAHrtah-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Σε πολλά περίπτερα ισχύει η πολιτική μετρητών. Οι επισκέπτες πρέπει να έχουν ετοιμάσει μετρητά για αγορές.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "athens_monastiraki_flea_market_square_002",
+      "intent_en": "Is haggling insulting for small items",
+      "text_local": "Είναι προσβλητικό να παζαρεύω για μικροπράγματα;",
+      "pronunciation": "kAHnee-kahkOH-nah-pAHzahrEHvoh-yAH-meekrAH-prAHghmahtAH",
+      "formality": "standard",
+      "cultural_note": "Το παζάρι γίνεται με σεβασμό. Αποφύγετε έντονες προσφορές σε μικρά αντικείμενα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, είναι συνηθισμένο.",
+        "pronunciation": "OHkheeEEneh-sEEneetheesmEHnoh",
+        "translation_en": "No, it is common."
+      },
+      "responses": [
+        {
+          "english": "No, it is common.",
+          "phonetic": "OHkheeEEneh-sEEneetheesmEHnoh",
+          "french": "Όχι, είναι συνηθισμένο."
+        }
+      ]
+    },
+    {
+      "id": "athens_monastiraki_flea_market_square_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω φαγητό στο δρόμο εδώ γύρω;",
+      "pronunciation": "pOO-vrEEskoh-fAHyeetOH-stoh-thrOHmoh-ehthOH-yEEroh",
+      "formality": "polite",
+      "cultural_note": "Αρκετοί πωλητές βρίσκονται στις πλατείες και τους κεντρικούς δρόμους. Προτιμήστε τους νόμιμους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην πλατεία και στους γύρω δρόμους, κοντά στο Μοναστηράκι.",
+        "pronunciation": "steem-blahtEEah-keh-stooz-yEEroh-thrOHmooskohdAH-stoh-mOHnahsteerAHee",
+        "translation_en": "In the square and the surrounding streets, near Monastiraki."
+      },
+      "responses": [
+        {
+          "english": "In the square and the surrounding streets, near Monastiraki.",
+          "phonetic": "steem-blahtEEah-keh-stooz-yEEroh-thrOHmooskohdAH-stoh-mOHnahsteerAHee",
+          "french": "Στην πλατεία και στους γύρω δρόμους, κοντά στο Μοναστηράκι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

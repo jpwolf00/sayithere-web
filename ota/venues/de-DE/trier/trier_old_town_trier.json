@@ -1,0 +1,122 @@
+{
+  "id": "trier_old_town_trier",
+  "name_en": "Old Town Trier",
+  "name_local": "Trierer Altstadt",
+  "icon": "map",
+  "lat": 49.7568746,
+  "lon": 6.64147,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "trier_old_town_trier_001",
+      "intent_en": "Where is quiet in churches here?",
+      "text_local": "Wo ist es in Kirchen ruhig?",
+      "pronunciation": "vOH-ihst-ehs-ihn-kEErkhuhn-rOOihkh",
+      "formality": "casual",
+      "cultural_note": "German churches often designate side aisles or rear sections as quieter areas for reflection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In den Seitenschiffen.",
+        "pronunciation": "ihn-dehn-zEYEtuhnshIHfuhn",
+        "translation_en": "In the side aisles."
+      },
+      "responses": [
+        {
+          "english": "In the side aisles.",
+          "phonetic": "ihn-dehn-zEYEtuhnshIHfuhn",
+          "french": "In den Seitenschiffen."
+        }
+      ]
+    },
+    {
+      "id": "trier_old_town_trier_002",
+      "intent_en": "Where do I book a walking tour?",
+      "text_local": "Wo buche ich eine Stadtführung?",
+      "pronunciation": "vOH-bOOkhuh-ihkh-EYEnuh-shtAHtfuerUHng",
+      "formality": "standard",
+      "cultural_note": "City guides are often found at designated meeting points or tourist information points in historic centers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hauptmarkt.",
+        "pronunciation": "ahm-hOWptmahrkt",
+        "translation_en": "At the main square."
+      },
+      "responses": [
+        {
+          "english": "At the main square.",
+          "phonetic": "ahm-hOWptmahrkt",
+          "french": "Am Hauptmarkt."
+        }
+      ]
+    },
+    {
+      "id": "trier_old_town_trier_003",
+      "intent_en": "Which way to the Liebfrauenkirche?",
+      "text_local": "Welchen Weg zur Liebfrauenkirche?",
+      "pronunciation": "vOH-EHt-ehs-tsoor-lEEpfrowEHnkihrkhuh",
+      "formality": "standard",
+      "cultural_note": "Liebfrauenkirche is a prominent landmark; signs are typically posted along pedestrian routes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus zum Dom.",
+        "pronunciation": "guhrAHdehOWs-tsuhm-dOHm",
+        "translation_en": "Straight ahead to the cathedral."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead to the cathedral.",
+          "phonetic": "guhrAHdehOWs-tsuhm-dOHm",
+          "french": "Geradeaus zum Dom."
+        }
+      ]
+    },
+    {
+      "id": "trier_old_town_trier_004",
+      "intent_en": "Is parking free at the walls?",
+      "text_local": "Ist Parken an den Stadtmauern kostenlos?",
+      "pronunciation": "ihst-pAHrkuhn-ahn-dehn-shtAHtmown-kAWstuhnlOHs",
+      "formality": "standard",
+      "cultural_note": "Parking near historic city walls in German old towns is typically metered or in paid zones.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, kostenpflichtig.",
+        "pronunciation": "nEYEnkAWstuhnpflIHkhtihkh",
+        "translation_en": "No, chargeable."
+      },
+      "responses": [
+        {
+          "english": "No, chargeable.",
+          "phonetic": "nEYEnkAWstuhnpflIHkhtihkh",
+          "french": "Nein, kostenpflichtig."
+        }
+      ]
+    },
+    {
+      "id": "trier_old_town_trier_005",
+      "intent_en": "Where is the Dom Treasury entrance?",
+      "text_local": "Wo ist der Eingang zur Domschatzkammer?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoor-dAWmshahtskAHm",
+      "formality": "standard",
+      "cultural_note": "In German churches, the treasury entrance is often near the main cathedral entrance or a side portal marked with signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf der Südseite des Doms.",
+        "pronunciation": "owf-dehr-zUEdzeyetuh-dehs-dOHms",
+        "translation_en": "On the south side of the cathedral."
+      },
+      "responses": [
+        {
+          "english": "On the south side of the cathedral.",
+          "phonetic": "owf-dehr-zUEdzeyetuh-dehs-dOHms",
+          "french": "Auf der Südseite des Doms."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

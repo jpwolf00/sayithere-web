@@ -1,0 +1,144 @@
+{
+  "id": "kyoto_maruyama_park",
+  "name_en": "Maruyama Park",
+  "name_local": "円山公園",
+  "icon": "leaf",
+  "lat": 35.0037618,
+  "lon": 135.7814763,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "kyoto_maruyama_park_001",
+      "intent_en": "Is Shōren-in temple open to visitors?",
+      "text_local": "しょうれんいんは はいれますか？",
+      "pronunciation": "OHooEHeeH-hEEEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Shōren-in is known for its beautiful garden and is generally open to the public for a fee.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、はいれますよ。",
+        "pronunciation": "hEEhEEEHmsOOyoh",
+        "translation_en": "Yes, you can enter."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can enter.",
+          "phonetic": "hEEhEEEHmsOOyoh",
+          "french": "はい、はいれますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_maruyama_park_002",
+      "intent_en": "How do I donate at Yasaka Shrine?",
+      "text_local": "やさかじんじゃでは どう きふしますか？",
+      "pronunciation": "ySkDeeDdEHh-dOHoo-kEEooEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "The standard procedure is to toss a coin into the saisen-bako, bow twice, clap twice, pray, and bow once more.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おさいせんばこに おかねを いれてください。",
+        "pronunciation": "OHsEEsehBkOHnee-OHknEHoh-EEehtEHkoodsEE",
+        "translation_en": "Please put money in the offering box."
+      },
+      "responses": [
+        {
+          "english": "Please put money in the offering box.",
+          "phonetic": "OHsEEsehBkOHnee-OHknEHoh-EEehtEHkoodsEE",
+          "french": "おさいせんばこに おかねを いれてください。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_maruyama_park_003",
+      "intent_en": "Where is the Yasaka Shrine entrance?",
+      "text_local": "やさかじんじゃの いりぐちは どこですか？",
+      "pronunciation": "ySkDeedNoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Yasaka Shrine is adjacent to the park, and its main entrance faces west towards Gion.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "にしがわ、ぎおんの ほうです。",
+        "pronunciation": "nEEeegWgeeOHnnoh-hOHoodEHsoo",
+        "translation_en": "On the west side, towards Gion."
+      },
+      "responses": [
+        {
+          "english": "On the west side, towards Gion.",
+          "phonetic": "nEEeegWgeeOHnnoh-hOHoodEHsoo",
+          "french": "にしがわ、ぎおんの ほうです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_maruyama_park_004",
+      "intent_en": "Where is the weeping cherry tree?",
+      "text_local": "しだれざくらは どこですか？",
+      "pronunciation": "EEdEHzkooH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The shidarezakura is a famous landmark in Maruyama Park, especially during hanami season.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いった ひだりがわです。",
+        "pronunciation": "mssOOgoo-EEtt-khEEdEEgwdEHsoo",
+        "translation_en": "Straight ahead, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the left side.",
+          "phonetic": "mssOOgoo-EEtt-khEEdEEgwdEHsoo",
+          "french": "まっすぐ いった ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_maruyama_park_005",
+      "intent_en": "Is night illumination viewing free?",
+      "text_local": "よるの ライトアップは むりょうですか？",
+      "pronunciation": "yohOOnoh-EEtOHppOOh-mOOOHoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "The park itself is free, and the illumination is a public event, though some nearby temples may charge for special night viewings.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、むりょうで みられます。",
+        "pronunciation": "hEEmOOohOOdeh-mEEehmSoo",
+        "translation_en": "Yes, you can view it for free."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can view it for free.",
+          "phonetic": "hEEmOOohOOdeh-mEEehmSoo",
+          "french": "はい、むりょうで みられます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_maruyama_park_006",
+      "intent_en": "Do I pay to enter Chion-in?",
+      "text_local": "ちおんいんに はいるのに おかねが いりますか？",
+      "pronunciation": "tEEohEEnnee-hEEoonOHnee-OHknEHg-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Chion-in's main grounds are free, but there is a fee to enter the Hojo garden and the Sanmon gate.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、にゅうじょうりょうが かかります。",
+        "pronunciation": "hEEnOOoodOHooOHOOg-kKeemSoo",
+        "translation_en": "Yes, there is an admission fee."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is an admission fee.",
+          "phonetic": "hEEnOOoodOHooOHOOg-kKeemSoo",
+          "french": "はい、にゅうじょうりょうが かかります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

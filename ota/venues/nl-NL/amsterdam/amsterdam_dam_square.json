@@ -1,0 +1,56 @@
+{
+  "id": "amsterdam_dam_square",
+  "name_en": "Dam Square",
+  "name_local": "De Dam",
+  "icon": "building.columns",
+  "lat": 52.3731449,
+  "lon": 4.8913363,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "amsterdam_dam_square_001",
+      "intent_en": "Ask if tram stop serves line 4",
+      "text_local": "Zit hier lijn 4?",
+      "pronunciation": "zIHt-hEEr-lEHihn-vEEr",
+      "formality": "standard",
+      "cultural_note": "Tram stops in De Dam area serve multiple lines; locals often refer to 'aan de overkant' (across the square) for clarity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aan de overkant.",
+        "pronunciation": "yAHahn-duh-OHvuhrkAHnt",
+        "translation_en": "Yes, across the square."
+      },
+      "responses": [
+        {
+          "english": "Yes, across the square.",
+          "phonetic": "yAHahn-duh-OHvuhrkAHnt",
+          "french": "Ja, aan de overkant."
+        }
+      ]
+    },
+    {
+      "id": "amsterdam_dam_square_002",
+      "intent_en": "Ask when National Monument wreath ceremony is",
+      "text_local": "Wanneer is de kranslegceremonie?",
+      "pronunciation": "vahnIHr-ihs-duh-krAHnslehkhsIHruhmohnEE",
+      "formality": "standard",
+      "cultural_note": "Ceremonies are often held at the National Monument but timing may vary; verifying near the monument is common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meestal 16:00 uur.",
+        "pronunciation": "mEHstAHl-zEHsteen-nL-nL-UEr",
+        "translation_en": "Usually 4:00 PM."
+      },
+      "responses": [
+        {
+          "english": "Usually 4:00 PM.",
+          "phonetic": "mEHstAHl-zEHsteen-nL-nL-UEr",
+          "french": "Meestal 16:00 uur."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

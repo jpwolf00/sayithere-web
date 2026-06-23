@@ -1,0 +1,78 @@
+{
+  "id": "mykonos_mykonos_town_hall_square",
+  "name_en": "Mykonos Town Hall Square",
+  "name_local": "Πλατεία Δημαρχείου Μυκόνου",
+  "icon": "info.circle",
+  "lat": 37.4513937,
+  "lon": 25.3923149,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "mykonos_mykonos_town_hall_square_001",
+      "intent_en": "Ask where to find the windmills from here",
+      "text_local": "Πού είναι οι ανεμόμυλοι από εδώ;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-AHnehmOHmeelEE",
+      "formality": "standard",
+      "cultural_note": "Οι ανεμόμυλοι είναι γνωστό ορόσημο και υπάρχουν πινακίδες που οδηγούν προς αυτούς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ανεβείτε προς την Άνω Μύκονο.",
+        "pronunciation": "AHnehvEEteh-prOHs-teen-AHnoh-mEEkohnOH",
+        "translation_en": "Follow the signs to the windmills."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the windmills.",
+          "phonetic": "AHnehvEEteh-prOHs-teen-AHnoh-mEEkohnOH",
+          "french": "Ανεβείτε προς την Άνω Μύκονο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_mykonos_town_hall_square_002",
+      "intent_en": "Ask where the ferry ticket booth is",
+      "text_local": "Πού είναι το γραφείο εισιτηρίων για το πλοίο;",
+      "pronunciation": "pOO-EEneh-toh-ghrahfEEoh-EEseeteerEEohn-yAH-toh-plEEoh",
+      "formality": "standard",
+      "cultural_note": "Ταξιδιώτες συνήθως ακολουθούν τις πινακίδες για το λιμάνι χωρίς να χρειάζεται συγκεκριμένη τοποθεσία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο παλιό λιμάνι, δεξιά σας.",
+        "pronunciation": "stoh-pahlyOH-leemAHneethEHkseeAH-sahs",
+        "translation_en": "At the old port, on your right."
+      },
+      "responses": [
+        {
+          "english": "At the old port, on your right.",
+          "phonetic": "stoh-pahlyOH-leemAHneethEHkseeAH-sahs",
+          "french": "Στο παλιό λιμάνι, δεξιά σας."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_mykonos_town_hall_square_003",
+      "intent_en": "Ask if there is an ATM near the square edge",
+      "text_local": "Υπάρχει ATM κοντά στην πλατεία;",
+      "pronunciation": "eepAHrkhee-ehnAY-tEE-EHmehl-kohdAH-steem-blahtEEah",
+      "formality": "standard",
+      "cultural_note": "Τα ATM βρίσκονται συχνά κοντά σε δημόσια κτίρια όπως το Δημαρχείο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον δρόμο δίπλα στο Δημαρχείο.",
+        "pronunciation": "nEHstohn-thrOHmoh-thEEplah-stoh-thEEmahrkhEEoh",
+        "translation_en": "Yes, on the street near the Town Hall."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the street near the Town Hall.",
+          "phonetic": "nEHstohn-thrOHmoh-thEEplah-stoh-thEEmahrkhEEoh",
+          "french": "Ναι, στον δρόμο δίπλα στο Δημαρχείο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

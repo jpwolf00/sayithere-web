@@ -1,0 +1,100 @@
+{
+  "id": "ioannina_stoa_louli_arcade",
+  "name_en": "Stoa Louli Arcade",
+  "name_local": "Στοά Λούλη",
+  "icon": "cart",
+  "lat": 39.6639818,
+  "lon": 20.8522784,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "ioannina_stoa_louli_arcade_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκονται τα ασημικά;",
+      "pronunciation": "pOO-vrEEskohdEH-t-AHseemeekAH",
+      "formality": "standard",
+      "cultural_note": "Οι αργυροχόοι βρίσκονται κατά μήκος της Στοάς Λιαμπέη, αλλά η ακριβής τοποθεσία δεν είναι σαφής. Προτείνεται η διερώτηση στον υπάλληλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά του αργυροχόου, στο ισόγειο.",
+        "pronunciation": "thEHkseeAH-too-AHryeerohkhOHoostoh-eesOHyoh",
+        "translation_en": "In Stoa Louli, near the silversmith, on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "In Stoa Louli, near the silversmith, on the ground floor.",
+          "phonetic": "thEHkseeAH-too-AHryeerohkhOHoostoh-eesOHyoh",
+          "french": "Δεξιά του αργυροχόου, στο ισόγειο."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_stoa_louli_arcade_002",
+      "intent_en": "Can I pay by card for handicrafts?",
+      "text_local": "Γίνεται πληρωμή με κάρτα στα χειροτεχνήματα;",
+      "pronunciation": "yEEnehtEH-plEErohmEE-meh-kAHrtah-stah-khEErohtehkhnEEmahtAH",
+      "formality": "standard",
+      "cultural_note": "Στις περισσότερες χειροτεχνίες στην Στοά Λούλη γίνεται μόνο πληρωμή με μετρητά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only"
+      },
+      "responses": [
+        {
+          "english": "Cash only",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά"
+        }
+      ]
+    },
+    {
+      "id": "ioannina_stoa_louli_arcade_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε τυρί με καρύδια σήμερα;",
+      "pronunciation": "EHkhehtEH-sEEmehrAH-teerEE-meh-kahrEEthyah",
+      "formality": "standard",
+      "cultural_note": "Το τυρί με καρύδια είναι τοπικό προϊόν, αλλά η διαθεσιμότητα εξαρτάται από την εποχή και τον πωλητή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο κατάστημα του κυρίου Νίκου.",
+        "pronunciation": "nEHstoh-kahtAHsteemAH-too-eerEEoo-nEEkoo",
+        "translation_en": "Yes, we have some today."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have some today.",
+          "phonetic": "nEHstoh-kahtAHsteemAH-too-eerEEoo-nEEkoo",
+          "french": "Ναι, στο κατάστημα του κυρίου Νίκου."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_stoa_louli_arcade_004",
+      "intent_en": "Where can I get custom embroidery done?",
+      "text_local": "Πού μπορώ να βρω κεντητική χειροποίητη;",
+      "pronunciation": "pOO-bohrOH-nah-pAHrahnggEEloh-pAHrahthOHsyahEE-EHdeetEE",
+      "formality": "polite",
+      "cultural_note": "Οι παραδοσιακές κεντήστρες βρίσκονται κατά μήκος των στοών, αλλά η ακριβής τοποθεσία δεν είναι γνωστή. Συνιστάται η διερώτηση στον τεχνίτη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο τέλος της στοάς, αριστερά.",
+        "pronunciation": "stoh-tEHlohs-tees-stohAHsAHreestehrAH",
+        "translation_en": "At the end of the arcade, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the end of the arcade, on the left.",
+          "phonetic": "stoh-tEHlohs-tees-stohAHsAHreestehrAH",
+          "french": "Στο τέλος της στοάς, αριστερά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

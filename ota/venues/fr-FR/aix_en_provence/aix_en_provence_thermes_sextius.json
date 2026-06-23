@@ -1,0 +1,115 @@
+{
+  "id": "aix_thermes_sextius",
+  "name_en": "Thermes Sextius",
+  "name_local": "Thermes Sextius",
+  "icon": "figure.pool.swim",
+  "phrases": [
+    {
+      "id": "aix_thermes_001",
+      "intent_en": "Ask about booking a spa treatment",
+      "text_local": "Je souhaite réserver un soin, s'il vous plaît.",
+      "pronunciation": "zhuh sweh-TAIT ray-zer-VAY uhn SWEHN, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Thermes Sextius is a working thermal spa built over the same hot spring the Romans discovered in 123 BC when they founded Aquae Sextiae (today's Aix). The water emerges naturally at 34°C. Bookings are recommended especially on weekends.",
+      "responses": [
+        {
+          "english": "You need to book online.",
+          "phonetic": "eel foh ray-zer-VAY ahn LEE-nyuh",
+          "french": "Il faut réserver en ligne."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_thermes_002",
+      "intent_en": "Ask what temperature the thermal water is",
+      "text_local": "Quelle est la température de l'eau thermale ?",
+      "pronunciation": "kel eh lah tahm-pay-rah-TOOR duh loh ter-MAL",
+      "formality": "polite",
+      "cultural_note": "The thermal water at Thermes Sextius emerges naturally at 34°C from the same geothermal source used since Roman times.",
+      "responses": [
+        {
+          "english": "Thirty-four degrees.",
+          "phonetic": "trahnt-KAH-truh duh-GRAY",
+          "french": "Trente-quatre degrés."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_thermes_003",
+      "intent_en": "Ask what treatments are available",
+      "text_local": "Quels soins proposez-vous ?",
+      "pronunciation": "kel SWEHN proh-poh-ZAY voo",
+      "formality": "polite",
+      "cultural_note": "The Thermes Sextius offers a full spa menu: thermal pools, hammam, massages, and beauty treatments. Some packages require a medical consultation. Day-access to the thermal pool area is available without a full treatment booking.",
+      "responses": [
+        {
+          "english": "Massages, hammam, thermal baths. Here's the menu.",
+          "phonetic": "mah-SAHZH, ah-MAM, behn ter-MOH. vwah-SEE lah KART",
+          "french": "Massages, hammam, bains thermaux. Voici la carte."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_thermes_004",
+      "intent_en": "Ask if bathing suits and towels are provided",
+      "text_local": "Les maillots de bain et les serviettes sont-ils fournis ?",
+      "pronunciation": "lay mah-YOH duh BEHN ay lay ser-VYET sohn-TEEL foor-NEE",
+      "formality": "polite",
+      "cultural_note": "Bathing caps are compulsory in French thermal pools and are usually available at reception for a small fee if you do not have one. Towels are typically provided with spa packages but not always with pool-only access — check when booking.",
+      "responses": [
+        {
+          "english": "Towels are provided.",
+          "phonetic": "lay ser-VYET sohn foor-NEE",
+          "french": "Les serviettes sont fournies."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_thermes_005",
+      "intent_en": "Ask where the lockers are",
+      "text_local": "Où sont les casiers ?",
+      "pronunciation": "oo sohn lay kah-ZYAY",
+      "formality": "polite",
+      "cultural_note": "Lockers are typically provided in the changing area. You may need a coin or token from reception.",
+      "responses": [
+        {
+          "english": "In the changing rooms, downstairs.",
+          "phonetic": "dahn lay ves-TYEHR, ahn BAH",
+          "french": "Dans les vestiaires, en bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Thermal spa",
+      "word_local": "Les thermes",
+      "pronunciation": "lay TERM"
+    },
+    {
+      "word_en": "Hot spring",
+      "word_local": "La source thermale",
+      "pronunciation": "lah SOORS ter-MAL"
+    },
+    {
+      "word_en": "Treatment",
+      "word_local": "Le soin",
+      "pronunciation": "luh SWEHN"
+    },
+    {
+      "word_en": "Bathing suit",
+      "word_local": "Le maillot de bain",
+      "pronunciation": "luh mah-YOH duh BEHN"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "honfleur_cote_de_grace",
+  "name_en": "Côte de Grâce Viewpoint",
+  "name_local": "Côte de Grâce",
+  "icon": "figure.walk",
+  "lat": 49.423,
+  "lon": 0.2255,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "honfleur_grace_001",
+      "intent_en": "Ask for directions to the hilltop viewpoint",
+      "text_local": "Comment monte-t-on au belvédère de la Côte de Grâce ?",
+      "pronunciation": "koh-MAHN MOHNT-tohn oh bel-vay-DAIR duh lah KOHT duh GRAHS",
+      "formality": "polite",
+      "cultural_note": "The Côte de Grâce hill rises directly above Honfleur and is reached on foot via a steep wooded path from the harbour in about 20 minutes, or by car. The summit offers panoramic views over the Seine estuary, the Normandy Bridge, and on clear days, the coast of Calvados.",
+      "responses": [
+        {
+          "english": "Follow the path up the hill.",
+          "phonetic": "swee-VAY luh shuh-MEHN ahn OH duh lah KOHT",
+          "french": "Suivez le chemin en haut de la côte."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_grace_002",
+      "intent_en": "Ask if the chapel at the top is open",
+      "text_local": "La chapelle en haut est-elle ouverte ?",
+      "pronunciation": "lah shah-PEL ahn OH eh-TEL oo-VEHRT",
+      "formality": "polite",
+      "cultural_note": "The Chapelle Notre-Dame de Grâce at the top of the hill is usually open during daytime hours.",
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "wee, seh oo-VEHR",
+          "french": "Oui, c'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_grace_003",
+      "intent_en": "Ask about the view of the Normandy Bridge from here",
+      "text_local": "Peut-on voir le pont de Normandie depuis ce belvédère ?",
+      "pronunciation": "puh-TOHN vwahr luh POHN duh nor-mahn-DEE duh-PWEE suh bel-vay-DAIR",
+      "formality": "polite",
+      "cultural_note": "The Pont de Normandie, opened in 1994, is visible from the Côte de Grâce viewpoint. At 856 metres it was the world's longest cable-stayed bridge when completed. It connects Honfleur to Le Havre across the Seine estuary.",
+      "responses": [
+        {
+          "english": "Yes, on a clear day you can see it well.",
+          "phonetic": "wee, par TAHN KLEHR ohn luh vwah BYEHN",
+          "french": "Oui, par temps clair on le voit bien."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_grace_004",
+      "intent_en": "Ask about the wooded walking path up the hill",
+      "text_local": "Y a-t-il un sentier pédestre balisé pour monter à la Côte de Grâce ?",
+      "pronunciation": "ee ah-TEEL uhn sahn-TYAY pay-des-TRUH bah-lee-ZAY poor mohn-TAY ah lah KOHT duh GRAHS",
+      "formality": "polite",
+      "cultural_note": "A signed footpath (sentier balisé) winds up through the woods from the south side of the old harbour. The walk is pleasant and shaded in summer. Wear comfortable shoes as the gradient is steep in places.",
+      "responses": [
+        {
+          "english": "Allow twenty minutes on foot.",
+          "phonetic": "kohn-TAY VEHN mee-NOOT ah PYAY",
+          "french": "Comptez vingt minutes à pied."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_grace_005",
+      "intent_en": "Ask if there is parking near the top",
+      "text_local": "Y a-t-il un parking en haut ?",
+      "pronunciation": "ee ah-TEEL uhn par-KEENG ahn OH",
+      "formality": "polite",
+      "cultural_note": "There is a small car park near the chapel at the top of the Côte de Grâce.",
+      "responses": [
+        {
+          "english": "Yes, a small free car park.",
+          "phonetic": "wee, uhn puh-TEE par-KEENG grah-TWEE",
+          "french": "Oui, un petit parking gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "viewpoint",
+      "word_local": "le belvédère",
+      "pronunciation": "luh bel-vay-DAIR"
+    },
+    {
+      "word_en": "chapel",
+      "word_local": "la chapelle",
+      "pronunciation": "lah sha-PEL"
+    },
+    {
+      "word_en": "ex-voto",
+      "word_local": "l'ex-voto",
+      "pronunciation": "lex-VOH-toh"
+    },
+    {
+      "word_en": "footpath",
+      "word_local": "le sentier",
+      "pronunciation": "luh sahn-TYAY"
+    }
+  ]
+}

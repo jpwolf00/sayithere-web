@@ -1,0 +1,100 @@
+{
+  "id": "innsbruck_old_town_innsbruck",
+  "name_en": "Old Town Innsbruck",
+  "name_local": "Innsbrucker Altstadt",
+  "icon": "map",
+  "lat": 48.0228978,
+  "lon": 7.8255159,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "innsbruck_old_town_innsbruck_001",
+      "intent_en": "Ask where Christmas market token booth is",
+      "text_local": "Wo gibt es Token für den Weihnachtsmarkt?",
+      "pronunciation": "vOH-EEpt-ehs-tOHkuhn-fuer-dehn-vEYEhnahkhtsmAHrkt",
+      "formality": "standard",
+      "cultural_note": "Seasonal markets often have dedicated token booths managed by vendors or organizers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Marktleitung.",
+        "pronunciation": "ahn-dehr-mAHrktleyetUHng",
+        "translation_en": "At the market management."
+      },
+      "responses": [
+        {
+          "english": "At the market management.",
+          "phonetic": "ahn-dehr-mAHrktleyetUHng",
+          "french": "An der Marktleitung."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_old_town_innsbruck_002",
+      "intent_en": "Ask how to reserve terrace seat",
+      "text_local": "Wie buche ich einen Terrassenplatz?",
+      "pronunciation": "vee-bOOkhuh-ihkh-EYEnuhn-tEHrahsEHnplahts",
+      "formality": "standard",
+      "cultural_note": "Deposits for outdoor seating are typically handled by the restaurant staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Reservieren Sie am Empfang.",
+        "pronunciation": "rEHzehrvEEruhn-zee-ahm-ehmpfAHng",
+        "translation_en": "Reserve at the reception."
+      },
+      "responses": [
+        {
+          "english": "Reserve at the reception.",
+          "phonetic": "rEHzehrvEEruhn-zee-ahm-ehmpfAHng",
+          "french": "Reservieren Sie am Empfang."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_old_town_innsbruck_003",
+      "intent_en": "Ask where Hofburg museum ticket desk is",
+      "text_local": "Wo ist die Museumskassa der Hofburg?",
+      "pronunciation": "vOH-ihst-dee-mOOzawuhmskAHsah-dehr-hAWfbuhuhk",
+      "formality": "standard",
+      "cultural_note": "Refer to 'Museumskassa' for ticket counters at Austrian cultural sites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Innenhof des Palasts.",
+        "pronunciation": "ihm-IHnuhnhOHf-dehs-pAHlahsts",
+        "translation_en": "In the inner courtyard of the palace."
+      },
+      "responses": [
+        {
+          "english": "In the inner courtyard of the palace.",
+          "phonetic": "ihm-IHnuhnhOHf-dehs-pAHlahsts",
+          "french": "Im Innenhof des Palasts."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_old_town_innsbruck_004",
+      "intent_en": "Ask where to pay parking garage fee",
+      "text_local": "Wo zahle ich die Parkgebühr?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dee-pAHrkehbUEr",
+      "formality": "standard",
+      "cultural_note": "Parking fees in Innsbruck are typically paid at automated machines near exits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Automaten am Rand.",
+        "pronunciation": "ahn-dehn-OWtohmAHtuhn-ahm-rAHnt",
+        "translation_en": "At the machines at the edges."
+      },
+      "responses": [
+        {
+          "english": "At the machines at the edges.",
+          "phonetic": "ahn-dehn-OWtohmAHtuhn-ahm-rAHnt",
+          "french": "An den Automaten am Rand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

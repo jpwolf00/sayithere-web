@@ -1,0 +1,100 @@
+{
+  "id": "hydra_lazaros_kountouriotis_mansion",
+  "name_en": "Lazaros Kountouriotis Mansion",
+  "name_local": "Lazaros Kountouriotis Mansion",
+  "icon": "building.columns",
+  "lat": 37.3321076,
+  "lon": 23.4664237,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hydra_lazaros_kountouriotis_mansion_001",
+      "intent_en": "Gift shop sell art reproductions?",
+      "text_local": "Πωλούν αντίγραφα έργων τέχνης στο κατάστημα;",
+      "pronunciation": "pohlOOn-ahdEEghrahfAH-EHrghohn-dEHkhnees-stoh-kahtAHsteemAH",
+      "formality": "standard",
+      "cultural_note": "Greek museums often sell high-quality art reproductions as souvenirs.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, εδώ.",
+        "pronunciation": "nEHehthOH",
+        "translation_en": "Yes, here."
+      },
+      "responses": [
+        {
+          "english": "Yes, here.",
+          "phonetic": "nEHehthOH",
+          "french": "Ναι, εδώ."
+        }
+      ]
+    },
+    {
+      "id": "hydra_lazaros_kountouriotis_mansion_002",
+      "intent_en": "Shoes off inside restored rooms?",
+      "text_local": "Χρειάζεται να βγάλω τα παπούτσια μου;",
+      "pronunciation": "khrkhAHzehtEH-nah-vghAHloh-tah-pahpOOtseeAH-moo",
+      "formality": "standard",
+      "cultural_note": "Removing shoes indoors is common in traditional Greek homes and preserved mansions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στα δωμάτια.",
+        "pronunciation": "nEHstah-thohmAHteeAH",
+        "translation_en": "Yes, in the rooms."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the rooms.",
+          "phonetic": "nEHstah-thohmAHteeAH",
+          "french": "Ναι, στα δωμάτια."
+        }
+      ]
+    },
+    {
+      "id": "hydra_lazaros_kountouriotis_mansion_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το κουτί για δωρεές;",
+      "pronunciation": "pOO-EEneh-toh-kootEE-yAH-thOHrehEHs",
+      "formality": "standard",
+      "cultural_note": "Donation boxes are typically placed near exits or staff areas in Greek museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κοντά στην είσοδο, δίπλα στο ταμείο.",
+        "pronunciation": "kohdAH-steen-EEsohthOHthEEplah-stoh-tahmEEoh",
+        "translation_en": "Near the entrance, next to the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "Near the entrance, next to the ticket desk.",
+          "phonetic": "kohdAH-steen-EEsohthOHthEEplah-stoh-tahmEEoh",
+          "french": "Κοντά στην είσοδο, δίπλα στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "hydra_lazaros_kountouriotis_mansion_004",
+      "intent_en": "Harbor view terrace open now?",
+      "text_local": "Είναι ανοιχτή η βεράντα με θέα τον λιμένα τώρα;",
+      "pronunciation": "EEneh-AHneekhtEE-ee-vehrAHdah-meh-thEHah-tohn-leemEHnah-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Terraces in Hydra are typically open-air and weather-dependent.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, εκτός αν βρέχει.",
+        "pronunciation": "nEHehktOHs-ahn-vrEHkhee",
+        "translation_en": "Yes, unless it rains."
+      },
+      "responses": [
+        {
+          "english": "Yes, unless it rains.",
+          "phonetic": "nEHehktOHs-ahn-vrEHkhee",
+          "french": "Ναι, εκτός αν βρέχει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

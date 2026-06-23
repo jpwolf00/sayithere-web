@@ -1,0 +1,100 @@
+{
+  "id": "kalambaka_ktel_trikala_bus_station",
+  "name_en": "KTEL Trikala Bus Station",
+  "name_local": "ΚΤΕΛ Τρικάλων Σταθμός Υπεραστικών Λεωφορείων",
+  "icon": "tram",
+  "lat": 39.5371158,
+  "lon": 21.7921439,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kalambaka_ktel_trikala_bus_station_001",
+      "intent_en": "Where do I pay luggage fee?",
+      "text_local": "Πού πληρώνω τα τέλη αποσκευών;",
+      "pronunciation": "pOO-pleerOHnoh-tEHlee-ehnsihrIHlihkbEH-sihrIHlihkAH-sihrIHlihkgEH-sihrIHlihkAHehl-rOH-eeOHtah-tOHnohs-oh-EEpseelOHn",
+      "formality": "standard",
+      "cultural_note": "Τα τέλη багаρίου συνήθως πληρώνονται στο ίδιο ταμείο που εκδίδει τα εισιτήρια.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πληρώνετε στο ταμείο εισιτηρίων.",
+        "pronunciation": "pleerOHnehtEH-stoh-tahmEEoh-EEseeteerEEohn",
+        "translation_en": "You pay at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "You pay at the ticket counter.",
+          "phonetic": "pleerOHnehtEH-stoh-tahmEEoh-EEseeteerEEohn",
+          "french": "Πληρώνετε στο ταμείο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_ktel_trikala_bus_station_002",
+      "intent_en": "Where is the E65 bus stop nearby?",
+      "text_local": "Πού είναι η στάση του λεωφορείου για τον αυτοκινητόδρομο Ε65;",
+      "pronunciation": "pOO-EEneh-ee-stAHsee-yAH-tohn-AHftohEEneetOHthrohmOH-EHpseelOHn-ehksEEndahpEHnteh",
+      "formality": "standard",
+      "cultural_note": "Η σύνδεση με τον Ε65 αναφέρεται ως σταθερός στόχος, αλλά η ακριβής τοποθεσία μπορεί να ζητηθεί από τον υπάλληλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αποβάθρα 3, μετά το ταμείο.",
+        "pronunciation": "AHpohvAHthrah-trEEahmehtAH-toh-tahmEEoh",
+        "translation_en": "The stop for Athens is at the platform marked 'Athens', near the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "The stop for Athens is at the platform marked 'Athens', near the ticket counter.",
+          "phonetic": "AHpohvAHthrah-trEEahmehtAH-toh-tahmEEoh",
+          "french": "Αποβάθρα 3, μετά το ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_ktel_trikala_bus_station_003",
+      "intent_en": "Where is the Athens bus platform?",
+      "text_local": "Πού είναι η αποβάθρα για Αθήνα;",
+      "pronunciation": "pOO-EEneh-ee-AHpohvAHthrah-yAH-ahthEEnah",
+      "formality": "standard",
+      "cultural_note": "Οι αποβάθρες συνήθως βρίσκονται κοντά στην κύρια είσοδο ή ακολουθώντας τις υποδείξεις.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά, δίπλα στο εκδοτήριο.",
+        "pronunciation": "AHreestehrAHthEEplah-stoh-EHkthohtEEreeOH",
+        "translation_en": "The platform for Athens is on the left, next to the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "The platform for Athens is on the left, next to the ticket counter.",
+          "phonetic": "AHreestehrAHthEEplah-stoh-EHkthohtEEreeOH",
+          "french": "Αριστερά, δίπλα στο εκδοτήριο."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_ktel_trikala_bus_station_004",
+      "intent_en": "Is the 3 PM Athens bus running today?",
+      "text_local": "Τρέχει το δρομολόγιο Αθήνα στις 15:00 σήμερα;",
+      "pronunciation": "trEHkhee-toh-thrOHmohlOHyoh-ahthEEnah-stees-thEHkahpEHnteh-meethEHn-meethEHn-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια μπορούν να αλλάζουν ανάλογα τις συνθήκες, οπότε η ερώτηση πρέπει να γίνεται απευθείας στους υπαλλήλους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, κανονικά τρέχει.",
+        "pronunciation": "nEHkAHnohneekAH-trEHkhee",
+        "translation_en": "Yes, it's running normally."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's running normally.",
+          "phonetic": "nEHkAHnohneekAH-trEHkhee",
+          "french": "Ναι, κανονικά τρέχει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

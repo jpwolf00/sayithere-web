@@ -1,0 +1,188 @@
+{
+  "id": "antalya_konyaaltı_beach_district",
+  "name_en": "Konyaaltı Beach District",
+  "name_local": "Konyaaltı Sahil",
+  "icon": "map",
+  "lat": 36.8865728,
+  "lon": 30.7030242,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "antalya_konyaaltı_beach_district_001",
+      "intent_en": "How do I negotiate taxi fare to Tünektepe?",
+      "text_local": "Tünektepe'ye taksi ücreti nasıl pazarlık edilir?",
+      "pronunciation": "tuenehktehpehyEH-tahksIH-uhdzhrehteenIH-nahsOO-kohnooshOOruhm",
+      "formality": "standard",
+      "cultural_note": "Taxi fares are often negotiated directly with the driver before the trip.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Binerken pazarlık yapın.",
+        "pronunciation": "beenEHrahn-pahzahrOOk-yahpOOn",
+        "translation_en": "Negotiate when you get in."
+      },
+      "responses": [
+        {
+          "english": "Negotiate when you get in.",
+          "phonetic": "beenEHrahn-pahzahrOOk-yahpOOn",
+          "french": "Binerken pazarlık yapın."
+        }
+      ]
+    },
+    {
+      "id": "antalya_konyaaltı_beach_district_002",
+      "intent_en": "Where is the bus to Tünektepe?",
+      "text_local": "Tünektepe otobüsü nereden kalkıyor?",
+      "pronunciation": "tuenehktehpEH-ohtohbuesUH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Turkish bus drivers often give short, direct answers. When the exact stop location is uncertain, defaulting to the information desk is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana caddeden kalkıyor.",
+        "pronunciation": "ahnAH-dzhahdehdAHn-kahkOOyawr",
+        "translation_en": "It departs from the main avenue."
+      },
+      "responses": [
+        {
+          "english": "It departs from the main avenue.",
+          "phonetic": "ahnAH-dzhahdehdAHn-kahkOOyawr",
+          "french": "Ana caddeden kalkıyor."
+        }
+      ]
+    },
+    {
+      "id": "antalya_konyaaltı_beach_district_003",
+      "intent_en": "Where is parking payment near beach?",
+      "text_local": "Konyaaltı Sahili yakınında otopark ücreti nereye ödenir?",
+      "pronunciation": "pahzhAH-yahkOOn-ohtohpAHrk-uhdehmehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Parking payment points can vary along a beach district. Without a fixed kiosk location, the information desk is the best reference.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Makineyle ödeyin, plaj girişinde.",
+        "pronunciation": "mahkeenEHyleh-uhdehyIHnpAHzh-eereeshihndEH",
+        "translation_en": "Pay by machine, at the beach entrance."
+      },
+      "responses": [
+        {
+          "english": "Pay by machine, at the beach entrance.",
+          "phonetic": "mahkeenEHyleh-uhdehyIHnpAHzh-eereeshihndEH",
+          "french": "Makineyle ödeyin, plaj girişinde."
+        }
+      ]
+    },
+    {
+      "id": "antalya_konyaaltı_beach_district_004",
+      "intent_en": "Where do I pay underground facility fees?",
+      "text_local": "Yeraltı tesisinde ücret nereye ödenir?",
+      "pronunciation": "yehrahtOO-tehseesIH-uhdzhrehtlehreenIH-nEHrehdeh-uhdEHrihm",
+      "formality": "standard",
+      "cultural_note": "Underground facilities can be hard to find; asking for help is recommended.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki gişeye.",
+        "pronunciation": "eerihshtehkIH-eeshehyEH",
+        "translation_en": "At the booth at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the booth at the entrance.",
+          "phonetic": "eerihshtehkIH-eeshehyEH",
+          "french": "Girişteki gişeye."
+        }
+      ]
+    },
+    {
+      "id": "antalya_konyaaltı_beach_district_005",
+      "intent_en": "Where do I pay underground facility fees?",
+      "text_local": "Yeraltı tesisi ücretini nerede ödeyebilirim?",
+      "pronunciation": "yehrahtOO-tehseesIH-uhdzhrehteenIH-nEHrehdeh-uhdehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Underground facility payment points are not fixed in the venue context. The safest direction is to the general information desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sahil girişinde ödeme noktası var.",
+        "pronunciation": "sahhIHl-eereeshihndEH-uhdEHmeh-nawktahsOO-vAHr",
+        "translation_en": "There is a payment point at the beach entrance."
+      },
+      "responses": [
+        {
+          "english": "There is a payment point at the beach entrance.",
+          "phonetic": "sahhIHl-eereeshihndEH-uhdEHmeh-nawktahsOO-vAHr",
+          "french": "Sahil girişinde ödeme noktası var."
+        }
+      ]
+    },
+    {
+      "id": "antalya_konyaaltı_beach_district_006",
+      "intent_en": "How do I negotiate taxi fare to Tünektepe?",
+      "text_local": "Tünektepe'ye taksi pazarlığı nasıl yapılır?",
+      "pronunciation": "tuenehktehpehyEH-tahksIHyleh-pahzahrOOk-nahsOO-yahpooOOr",
+      "formality": "standard",
+      "cultural_note": "Taxi negotiations in Turkey are direct. The driver is the authority on the fare, so asking them is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Taksiciyle konuşun, indirim isteyin.",
+        "pronunciation": "tahkseedzhIHyleh-kohnooshUHnIHndeerihm-ihstehyIHn",
+        "translation_en": "Talk to the taxi driver, ask for a discount."
+      },
+      "responses": [
+        {
+          "english": "Talk to the taxi driver, ask for a discount.",
+          "phonetic": "tahkseedzhIHyleh-kohnooshUHnIHndeerihm-ihstehyIHn",
+          "french": "Taksiciyle konuşun, indirim isteyin."
+        }
+      ]
+    },
+    {
+      "id": "antalya_konyaaltı_beach_district_007",
+      "intent_en": "Where is the bus to Tünektepe?",
+      "text_local": "Tünektepe'ye otobüs nereden kalkıyor?",
+      "pronunciation": "tuenehktehpehyEH-ohtohbUHs-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Bus boarding points may not be signposted; asking locally is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sahil boyunca devam edin.",
+        "pronunciation": "sahhIHl-bohyuhndzhAH-dehvAHm-ehdEEn",
+        "translation_en": "Continue along the beach."
+      },
+      "responses": [
+        {
+          "english": "Continue along the beach.",
+          "phonetic": "sahhIHl-bohyuhndzhAH-dehvAHm-ehdEEn",
+          "french": "Sahil boyunca devam edin."
+        }
+      ]
+    },
+    {
+      "id": "antalya_konyaaltı_beach_district_008",
+      "intent_en": "Where is parking payment near beach?",
+      "text_local": "Plaj yakınında otopark ödemesi nerede yapılır?",
+      "pronunciation": "pAHzh-yahkoonoondAH-ohtohpAHrk-uhdehmehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Parking payment points may vary; beach staff can direct you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otopark girişindeki makineden.",
+        "pronunciation": "ohtohpAHrk-eereeshihndehkIH-mahkeenehdAHn",
+        "translation_en": "From the machine at the parking entrance."
+      },
+      "responses": [
+        {
+          "english": "From the machine at the parking entrance.",
+          "phonetic": "ohtohpAHrk-eereeshihndehkIH-mahkeenehdAHn",
+          "french": "Otopark girişindeki makineden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

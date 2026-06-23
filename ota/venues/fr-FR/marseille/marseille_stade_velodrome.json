@@ -1,0 +1,101 @@
+{
+  "id": "marseille_stade_velodrome",
+  "name_en": "Stade Vélodrome",
+  "name_local": "Stade Vélodrome",
+  "icon": "sportscourt",
+  "lat": 43.2696,
+  "lon": 5.3957,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "marseille_velo_001",
+      "intent_en": "Ask where to buy OM merchandise",
+      "text_local": "Où peut-on acheter des produits officiels de l'OM ?",
+      "pronunciation": "oo puh-TON ah-SHET day proh-dwee oh-fee-SYEL duh luh om",
+      "formality": "polite",
+      "cultural_note": "The OM (Olympique de Marseille) store is located at the stadium. On match days, it stays open until kickoff.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The official store is at the stadium entrance.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "La boutique officielle est à l'entrée du stade."
+        }
+      ]
+    },
+    {
+      "id": "marseille_velo_002",
+      "intent_en": "Ask about the stadium tour",
+      "text_local": "Est-ce qu'il est possible de faire une visite du stade ?",
+      "pronunciation": "ess keel eh poh-ZEE-bleh duh FEHR oon vee-ZEET doo STAD",
+      "formality": "polite",
+      "cultural_note": "Stadium tours run on non-match days. You'll see the locker rooms, tunnel, and press box. Book online in advance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, book online, it's easier.",
+          "phonetic": "wee, may lah ray-zair-vah-SYON ahn leen-yuh eh ploo SIMPL",
+          "french": "Oui, réservez en ligne, c'est plus simple."
+        }
+      ]
+    },
+    {
+      "id": "marseille_velo_003",
+      "intent_en": "Ask about the best seats for a match",
+      "text_local": "Quelles sont les meilleures places pour voir un match de l'OM ?",
+      "pronunciation": "kel son lay may-YUHR plas poor vwar uhn MACH duh luh om",
+      "formality": "polite",
+      "cultural_note": "The virage (ends) are where the most passionate fans sit. For families or a calmer experience, choose the tribunes latérales.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Side stands for families, the ends for atmosphere.",
+          "phonetic": "byan sewr, zhuh voo ah-PROHNT sah too deh SWEET",
+          "french": "Les tribunes latérales pour les familles, les virages pour l'ambiance."
+        }
+      ]
+    },
+    {
+      "id": "marseille_velo_004",
+      "intent_en": "Ask what time the gate opens before a match",
+      "text_local": "À quelle heure ouvrent les portes avant un match ?",
+      "pronunciation": "ah kel UHR oo-VRAN lay PORT ah-VAN uhn MACH",
+      "formality": "polite",
+      "cultural_note": "Gates typically open 2 hours before kickoff. Arrive early to enjoy the pre-match atmosphere around the stadium.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Two hours before kickoff, usually.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "Deux heures avant le coup d'envoi, en général."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "stadium",
+      "word_local": "le stade",
+      "pronunciation": "leh STAD"
+    },
+    {
+      "word_en": "team",
+      "word_local": "l'équipe",
+      "pronunciation": "lay-KEEP"
+    },
+    {
+      "word_en": "fan",
+      "word_local": "le supporter",
+      "pronunciation": "leh soo-por-TEHR"
+    },
+    {
+      "word_en": "match",
+      "word_local": "le match",
+      "pronunciation": "leh MACH"
+    }
+  ]
+}

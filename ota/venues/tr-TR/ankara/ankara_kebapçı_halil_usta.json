@@ -1,0 +1,78 @@
+{
+  "id": "ankara_kebapçı_halil_usta",
+  "name_en": "Kebapçı Halil Usta",
+  "name_local": "Kebapçı Halil Usta",
+  "icon": "fork.knife",
+  "lat": 39.9207759,
+  "lon": 32.8540497,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "ankara_kebapçı_halil_usta_001",
+      "intent_en": "Do you take credit cards?",
+      "text_local": "Kredi kartı geçerli mi?",
+      "pronunciation": "krehdIH-kahrtOO-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Payment methods can vary; it's best to confirm with the cashier before ordering.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, geçiyor.",
+        "pronunciation": "ehvEHtehtshEEyawr",
+        "translation_en": "Yes, it works."
+      },
+      "responses": [
+        {
+          "english": "Yes, it works.",
+          "phonetic": "ehvEHtehtshEEyawr",
+          "french": "Evet, geçiyor."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kebapçı_halil_usta_002",
+      "intent_en": "Is Adana kebap available now?",
+      "text_local": "Adana kebap var mı şu an?",
+      "pronunciation": "ahdAHnah-kehbAHp-vAHr-moo-shuh-AHn",
+      "formality": "standard",
+      "cultural_note": "Availability questions are typically answered briefly and directly in Turkish eateries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, usta hazırlıyor.",
+        "pronunciation": "ehvEHtuhstAH-hahzoorlOOyawr",
+        "translation_en": "Yes, the master chef is preparing it."
+      },
+      "responses": [
+        {
+          "english": "Yes, the master chef is preparing it.",
+          "phonetic": "ehvEHtuhstAH-hahzoorlOOyawr",
+          "french": "Evet, usta hazırlıyor."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kebapçı_halil_usta_003",
+      "intent_en": "Is Adana kebap available now?",
+      "text_local": "Adana kebap şu anda var mı?",
+      "pronunciation": "ahdAHnah-kehbAHp-shuh-ahndAH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Adana kebap is a staple menu item and usually available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, var.",
+        "pronunciation": "ehvEHtvAHr",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "ehvEHtvAHr",
+          "french": "Evet, var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

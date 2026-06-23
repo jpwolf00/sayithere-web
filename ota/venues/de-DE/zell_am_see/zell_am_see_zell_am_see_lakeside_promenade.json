@@ -1,0 +1,122 @@
+{
+  "id": "zell_am_see_zell_am_see_lakeside_promenade",
+  "name_en": "Zell am See Lakeside Promenade",
+  "name_local": "Seepromenade Zell am See",
+  "icon": "map",
+  "lat": 47.3239636,
+  "lon": 12.7963165,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "zell_am_see_zell_am_see_lakeside_promenade_001",
+      "intent_en": "Where does the funicular to Schmittenhöhe depart?",
+      "text_local": "Wo fährt die Standseilbahn nach Schmittenhöhe ab?",
+      "pronunciation": "vOH-fEHrt-dee-shtAHndzeyelbAHn-nahkh-shmIHtuhnhUHuh-AHp",
+      "formality": "standard",
+      "cultural_note": "Die Standseilbahn ist ein zentrales touristisches Verkehrsmittel in Zell am See. Die Antwort nutzt die standardisierte Schilderungsempfehlung für Transportziele.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Talstation ist am Bahnhof.",
+        "pronunciation": "dee-tAHlstahtsyOHn-ihst-ahm-bAHnhohf",
+        "translation_en": "The valley station is at the train station."
+      },
+      "responses": [
+        {
+          "english": "The valley station is at the train station.",
+          "phonetic": "dee-tAHlstahtsyOHn-ihst-ahm-bAHnhohf",
+          "french": "Die Talstation ist am Bahnhof."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_lakeside_promenade_002",
+      "intent_en": "Do the ice cream carts take cards only?",
+      "text_local": "Akzeptieren die Eiswagen nur Karte?",
+      "pronunciation": "AHktsehptEEruhn-dee-EYEsvahuhn-nOOr-kAHrtuh",
+      "formality": "standard",
+      "cultural_note": "In Österreich sind mobile Verkaufsstände wie Eiswagen oft auf Bargeld angewiesen. Die Antwort ist kurz und präzise.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur bar.",
+        "pronunciation": "nOOr-bAHr",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHr",
+          "french": "Nur bar."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_lakeside_promenade_003",
+      "intent_en": "Are the beach chair rentals available today?",
+      "text_local": "Sind Liegen heute zu mieten?",
+      "pronunciation": "zihnt-lEEuhn-hAWuhtuh-tsoo-mEEtuhn",
+      "formality": "standard",
+      "cultural_note": "Strandliegen werden in der Regel saisonal vermietet. Die Antwort bestätigt die Verfügbarkeit allgemein, ohne auf spezifische Abschnitte einzugehen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Strandabschnitt.",
+        "pronunciation": "yAHahm-shtrAHndahpshnIHt",
+        "translation_en": "Yes, at the beach section."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the beach section.",
+          "phonetic": "yAHahm-shtrAHndahpshnIHt",
+          "french": "Ja, am Strandabschnitt."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_lakeside_promenade_004",
+      "intent_en": "Where are the boat tour ticket kiosks?",
+      "text_local": "Wo sind die Bootsfahrt-Ticketschalter?",
+      "pronunciation": "vOH-zihnt-dee-bOHtsfahrttIHkehtshAHlt",
+      "formality": "standard",
+      "cultural_note": "Ticketkioske für Bootstouren sind typischerweise zentral am Hafen oder an der Hauptpromenade platziert. Die Antwort verweist auf den Hafenbereich als sichere Orientierung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hafen neben der Schiffsanlegestelle.",
+        "pronunciation": "ahm-hAHfuhn-nEHbuhn-dehr-shIHfzahnlEHehshtEHluh",
+        "translation_en": "At the harbor near the boat docks."
+      },
+      "responses": [
+        {
+          "english": "At the harbor near the boat docks.",
+          "phonetic": "ahm-hAHfuhn-nEHbuhn-dehr-shIHfzahnlEHehshtEHluh",
+          "french": "Am Hafen neben der Schiffsanlegestelle."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_lakeside_promenade_005",
+      "intent_en": "Where is the Kirchenwirt harbor area?",
+      "text_local": "Wo befindet sich der Hafenbereich vom Kirchenwirt?",
+      "pronunciation": "vOH-buhfIHnduht-zihkh-dehr-hAHfuhnbuhrEYEkh-fawm-kIHrkhuhnvIHrt",
+      "formality": "standard",
+      "cultural_note": "Der Kirchenwirt ist ein bekanntes Gasthaus im Hafengebiet. Die Antwort verortet den Bereich allgemein am Hafen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hafen direkt bei der Anlegestelle.",
+        "pronunciation": "ahm-hAHfuhn-deerEHkt-beye-dehr-AHnlEHehshtEHluh",
+        "translation_en": "At the harbor near the docks."
+      },
+      "responses": [
+        {
+          "english": "At the harbor near the docks.",
+          "phonetic": "ahm-hAHfuhn-deerEHkt-beye-dehr-AHnlEHehshtEHluh",
+          "french": "Am Hafen direkt bei der Anlegestelle."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

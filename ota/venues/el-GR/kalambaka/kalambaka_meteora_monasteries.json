@@ -1,0 +1,122 @@
+{
+  "id": "kalambaka_meteora_monasteries",
+  "name_en": "Meteora Monasteries",
+  "name_local": "Μετέωρα",
+  "icon": "building.columns",
+  "lat": 39.7132802,
+  "lon": 21.6355319,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kalambaka_meteora_monasteries_001",
+      "intent_en": "Ask if donation box accepts cards",
+      "text_local": "Δέχεται κάρτα το κουτί των δωρεών;",
+      "pronunciation": "thEHkhehtEH-kAHrtah-toh-kootEE-tohn-thOHrehOHn",
+      "formality": "standard",
+      "cultural_note": "Οι δωρεές στα μοναστήρια γίνονται συχνά μετρητοίς, αλλά κάποιοι υπάλληλοι μπορούν να δεχτούν και κάρτες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, μόνο μετρητά στο κουτί.",
+        "pronunciation": "OHkheemOHnoh-mEHtreetAH-stoh-kootEE",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "OHkheemOHnoh-mEHtreetAH-stoh-kootEE",
+          "french": "Όχι, μόνο μετρητά στο κουτί."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_meteora_monasteries_002",
+      "intent_en": "Ask where Varlaam monastery entrance starts",
+      "text_local": "Πού είναι η είσοδος για το Βαρλαάμ;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHz-yAH-toh-vAHrlahAHm",
+      "formality": "standard",
+      "cultural_note": "Το μοναστήρι Βαρλαάμ βρίσκεται στην κορυφή βράχου και η πρόσβαση γίνεται μέσω μονοπατιού σήμανσης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από το μονοπάτι με τα σκαλοπάτια.",
+        "pronunciation": "ahpOH-toh-mOHnohpAHtee-meh-tah-skAHlohpAHteeAH",
+        "translation_en": "From the path with the steps."
+      },
+      "responses": [
+        {
+          "english": "From the path with the steps.",
+          "phonetic": "ahpOH-toh-mOHnohpAHtee-meh-tah-skAHlohpAHteeAH",
+          "french": "Από το μονοπάτι με τα σκαλοπάτια."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_meteora_monasteries_003",
+      "intent_en": "Ask where to rent proper skirt",
+      "text_local": "Πού μπορώ να νοικιάσω φούστα;",
+      "pronunciation": "pOO-neeAHzohdEH-fOOstehs",
+      "formality": "polite",
+      "cultural_note": "Τα μοναστήρια παρέχουν ειδικές φορεσιές για επισκέπτες με ακατάλληλα ρούχα, ιδιαίτερα στις γυναικείες μονές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον χώρο εισόδου, δεξιά.",
+        "pronunciation": "stohn-khOHroh-eesOHthoothEHkseeAH",
+        "translation_en": "There is a clothing rental service at the entrance."
+      },
+      "responses": [
+        {
+          "english": "There is a clothing rental service at the entrance.",
+          "phonetic": "stohn-khOHroh-eesOHthoothEHkseeAH",
+          "french": "Στον χώρο εισόδου, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_meteora_monasteries_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Τι ώρα κλείνει η Αγία Τριάδα;",
+      "pronunciation": "tEE-OHrah-klEEnee-ee-ahyEEah-treeAHthah",
+      "formality": "standard",
+      "cultural_note": "Τα μοναστήρια ακολουθούν ωράριο επισκεπτήρια ανάλογα με την εποχή, αλλά η Αγία Τριάδα κλείνει νωρίς το απόγευμα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κλείνει στις 4 το απόγευμα.",
+        "pronunciation": "klEEnee-stees-tEHsehrAH-toh-ahpOHyeemAH",
+        "translation_en": "It closes at 4 in the afternoon."
+      },
+      "responses": [
+        {
+          "english": "It closes at 4 in the afternoon.",
+          "phonetic": "klEEnee-stees-tEHsehrAH-toh-ahpOHyeemAH",
+          "french": "Κλείνει στις 4 το απόγευμα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_meteora_monasteries_005",
+      "intent_en": "Ask how to buy candle inside chapel",
+      "text_local": "Πού μπορώ να ανάψω ένα καντήλι;",
+      "pronunciation": "pOHs-AHghohrAHzoh-kahdEElee-mEHsah",
+      "formality": "polite",
+      "cultural_note": "Η αγορά κεριών αποτελεί μέρος της λατρευτικής παράδοσης στα μοναστήρια, συχνά με εθελοντική εισφορά.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μέσα στο παρεκκλήσι, δίπλα στην είσοδο.",
+        "pronunciation": "mEHsah-stoh-pAHrehklEEseethEEplah-steen-EEsohthOH",
+        "translation_en": "Inside the chapel, by the entrance."
+      },
+      "responses": [
+        {
+          "english": "Inside the chapel, by the entrance.",
+          "phonetic": "mEHsah-stoh-pAHrehklEEseethEEplah-steen-EEsohthOH",
+          "french": "Μέσα στο παρεκκλήσι, δίπλα στην είσοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

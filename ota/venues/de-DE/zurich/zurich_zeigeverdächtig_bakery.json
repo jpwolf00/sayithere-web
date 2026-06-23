@@ -1,0 +1,100 @@
+{
+  "id": "zurich_zeigeverdächtig_bakery",
+  "name_en": "Zeigeverdächtig Bakery",
+  "name_local": "Zeigeverdächtig",
+  "icon": "fork.knife",
+  "lat": 47.3744489,
+  "lon": 8.5410422,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zurich_zeigeverdächtig_bakery_001",
+      "intent_en": "Is there seating to eat here?",
+      "text_local": "Gibt es Sitzgelegenheiten zum Essen?",
+      "pronunciation": "EEpt-ehs-zIHtsuhlEHuhnhEYEtuhn-tsuhm-EHsuhn",
+      "formality": "standard",
+      "cultural_note": "No seating area; bakery is takeaway-only.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur zum Mitnehmen.",
+        "pronunciation": "nEYEnnOOr-tsuhm-mIHtnEHmuhn",
+        "translation_en": "No, takeaway only."
+      },
+      "responses": [
+        {
+          "english": "No, takeaway only.",
+          "phonetic": "nEYEnnOOr-tsuhm-mIHtnEHmuhn",
+          "french": "Nein, nur zum Mitnehmen."
+        }
+      ]
+    },
+    {
+      "id": "zurich_zeigeverdächtig_bakery_002",
+      "intent_en": "How do I pre-order a custom cake?",
+      "text_local": "Wie bestelle ich einen Kuchen vor?",
+      "pronunciation": "vee-buhshtEHluh-ihkh-EYEnuhn-kOOkhuhn-fAWr",
+      "formality": "standard",
+      "cultural_note": "Pre-orders are handled by the Konditor (pastry chef) at a separate counter during opening hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "24 Stunden vorher am Konditor-Schalter.",
+        "pronunciation": "fEEr-uhnttsvAHntsihkh-shtUHnduhn-fohrhEHr-ahm-kawndEEtohrshAHlt",
+        "translation_en": "24 hours ahead at the pastry chef counter."
+      },
+      "responses": [
+        {
+          "english": "24 hours ahead at the pastry chef counter.",
+          "phonetic": "fEEr-uhnttsvAHntsihkh-shtUHnduhn-fohrhEHr-ahm-kawndEEtohrshAHlt",
+          "french": "24 Stunden vorher am Konditor-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "zurich_zeigeverdächtig_bakery_003",
+      "intent_en": "Do I pay before or after receiving?",
+      "text_local": "Zahle ich vor oder nach dem Empfang?",
+      "pronunciation": "tsAHluh-ihkh-fAWr-OHd-nahkh-dehm-ehmpfAHng",
+      "formality": "standard",
+      "cultural_note": "Payment is required before receiving items at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vorher am Tresen.",
+        "pronunciation": "fohrhEHr-ahm-trEHzuhn",
+        "translation_en": "Beforehand at the counter."
+      },
+      "responses": [
+        {
+          "english": "Beforehand at the counter.",
+          "phonetic": "fohrhEHr-ahm-trEHzuhn",
+          "french": "Vorher am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "zurich_zeigeverdächtig_bakery_004",
+      "intent_en": "Do you have Nussgipfel left?",
+      "text_local": "Haben Sie noch Nussgipfel?",
+      "pronunciation": "hAHbuhn-zee-nawkh-nUHsihpfuhl",
+      "formality": "standard",
+      "cultural_note": "Availability depends on daily production; display case numbering is unclear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, in der Vitrine.",
+        "pronunciation": "yAHihn-dehr-vihtrEEnuh",
+        "translation_en": "Yes, in the display case."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the display case.",
+          "phonetic": "yAHihn-dehr-vihtrEEnuh",
+          "french": "Ja, in der Vitrine."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

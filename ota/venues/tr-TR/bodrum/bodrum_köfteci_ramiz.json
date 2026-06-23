@@ -1,0 +1,100 @@
+{
+  "id": "bodrum_köfteci_ramiz",
+  "name_en": "Köfteci Ramiz",
+  "name_local": "Köfteci Ramiz",
+  "icon": "fork.knife",
+  "lat": 37.0027846,
+  "lon": 27.2589361,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bodrum_köfteci_ramiz_001",
+      "intent_en": "Is şakşuka available today?",
+      "text_local": "Bugün şakşuka var mı?",
+      "pronunciation": "boogUHn-shahkshookAH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Şakşuka gibi mezeler her zaman menüde olmayabilir, sormak en iyisidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bugün var.",
+        "pronunciation": "ehvEHtboogUHn-vAHr",
+        "translation_en": "Yes, it's available today."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's available today.",
+          "phonetic": "ehvEHtboogUHn-vAHr",
+          "french": "Evet, bugün var."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_köfteci_ramiz_002",
+      "intent_en": "Do I clear my own tray?",
+      "text_local": "Tepsimi kendim mi topluyorum?",
+      "pronunciation": "tEHpseemih-kahndIHm-mih-tawpOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "Hızlı ve pratik servis anlayışının bir parçası olarak müşterinin kendi tepsisini kaldırması beklenir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tepsinizi dönüş istasyonuna bırakın.",
+        "pronunciation": "ehvEHttEHpseeneezih-duhnUHsh-ihstahsyohnoonAH-boorahkOOn",
+        "translation_en": "Yes, clear your tray to the return station."
+      },
+      "responses": [
+        {
+          "english": "Yes, clear your tray to the return station.",
+          "phonetic": "ehvEHttEHpseeneezih-duhnUHsh-ihstahsyohnoonAH-boorahkOOn",
+          "french": "Evet, tepsinizi dönüş istasyonuna bırakın."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_köfteci_ramiz_003",
+      "intent_en": "Do I pay before or after eating?",
+      "text_local": "Yemekten önce mi sonra mı ödeme yapıyorum?",
+      "pronunciation": "yehmehktAHn-UHndzheh-mih-sawnrAH-moo-uhdEHmeh-yahpOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "Köfteci gibi hızlı servis yapan yerlerde genelde önce ödeme alınır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kasada yemekten önce ödeme yapın.",
+        "pronunciation": "kAHsahdah-yehmehktAHn-UHndzheh-uhdEHmeh-yahpOOn",
+        "translation_en": "Pay at the cashier counter before eating."
+      },
+      "responses": [
+        {
+          "english": "Pay at the cashier counter before eating.",
+          "phonetic": "kAHsahdah-yehmehktAHn-UHndzheh-uhdEHmeh-yahpOOn",
+          "french": "Kasada yemekten önce ödeme yapın."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_köfteci_ramiz_004",
+      "intent_en": "Where do I pick up my order?",
+      "text_local": "Siparişimi nereden alabilirim?",
+      "pronunciation": "seepahrEEsheemih-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Self-servis yoğun olan esnaf lokantalarında sıkça rastlanan bir uygulamadır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Mutfak penceresinden alın.",
+        "pronunciation": "muhtfAHk-pahndzhehrehsihndAHn-ahOOn",
+        "translation_en": "Collect from the kitchen window."
+      },
+      "responses": [
+        {
+          "english": "Collect from the kitchen window.",
+          "phonetic": "muhtfAHk-pahndzhehrehsihndAHn-ahOOn",
+          "french": "Mutfak penceresinden alın."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "basel_rhine_river_banks",
+  "name_en": "Rhine River Banks",
+  "name_local": "Basler Rheinufer",
+  "icon": "leaf",
+  "lat": 47.5581077,
+  "lon": 7.5878261,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "basel_rhine_river_banks_001",
+      "intent_en": "Where can I buy picnic supplies nearby?",
+      "text_local": "Wo gibt es hier Picknick-Zubehör?",
+      "pronunciation": "vOH-EEpt-ehs-hEEr-pIHknihktsoobuhhUHr",
+      "formality": "casual",
+      "cultural_note": "Kleine Läden und Kioske finden sich entlang der Rheinpromenade, besonders in der Nähe der Dreirossebrücke oder Kleinbasler Seite.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kiosk am Rheinufer.",
+        "pronunciation": "ahm-kIHohsk-ahm-rEYEnoof",
+        "translation_en": "At the kiosk by the riverside."
+      },
+      "responses": [
+        {
+          "english": "At the kiosk by the riverside.",
+          "phonetic": "ahm-kIHohsk-ahm-rEYEnoof",
+          "french": "Am Kiosk am Rheinufer."
+        }
+      ]
+    },
+    {
+      "id": "basel_rhine_river_banks_002",
+      "intent_en": "Where is the Münster ferry landing?",
+      "text_local": "Wo ist die Anlegestelle der Münsterfähre?",
+      "pronunciation": "vOH-ihst-dee-AHnlEHehshtEHluh-dehr-mUEnstfEHruh",
+      "formality": "standard",
+      "cultural_note": "Die Anlegestelle ist an der Kleinbasler Rheinuferpromenade nahe dem Münster. Direkte Wege sind oft durch Hinweisschilder oder Plakate gekennzeichnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Rhein in Kleinbasel.",
+        "pronunciation": "ahm-rEYEn-ihn-klEYEnbahzuhl",
+        "translation_en": "At the Rhine in Kleinbasel."
+      },
+      "responses": [
+        {
+          "english": "At the Rhine in Kleinbasel.",
+          "phonetic": "ahm-rEYEn-ihn-klEYEnbahzuhl",
+          "french": "Am Rhein in Kleinbasel."
+        }
+      ]
+    },
+    {
+      "id": "basel_rhine_river_banks_003",
+      "intent_en": "Where is the Dreirossebrücke bridge?",
+      "text_local": "Wo ist die Dreirossebrücke?",
+      "pronunciation": "vOH-lEEkt-dee-drEYErawsEHbruekuh",
+      "formality": "standard",
+      "cultural_note": "Die Dreirossebrücke verbindet Kleinbasel mit Grossbasel und ist von beiden Seiten aus durch Beschilderung leicht zu finden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Etwa fünf Minuten flussaufwärts.",
+        "pronunciation": "EHtvah-fUEnf-meenOOtuhn-flUHsowfvEHrts",
+        "translation_en": "About five minutes upstream."
+      },
+      "responses": [
+        {
+          "english": "About five minutes upstream.",
+          "phonetic": "EHtvah-fUEnf-meenOOtuhn-flUHsowfvEHrts",
+          "french": "Etwa fünf Minuten flussaufwärts."
+        }
+      ]
+    },
+    {
+      "id": "basel_rhine_river_banks_004",
+      "intent_en": "Is swimming allowed downstream only?",
+      "text_local": "Darf man nur flussabwärts schwimmen?",
+      "pronunciation": "dAHrf-mahn-nOOr-flUHsahbvEHrts-shvIHmuhn",
+      "formality": "standard",
+      "cultural_note": "In Basel gilt die Regel, dass das Schwimmen im Rhein nur flussabwärts (stromab) erlaubt ist, um Strömungen und Sicherheit zu gewährleisten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nur flussabwärts.",
+        "pronunciation": "yAHnOOr-flUHsahbvEHrts",
+        "translation_en": "Yes, only downstream."
+      },
+      "responses": [
+        {
+          "english": "Yes, only downstream.",
+          "phonetic": "yAHnOOr-flUHsahbvEHrts",
+          "french": "Ja, nur flussabwärts."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

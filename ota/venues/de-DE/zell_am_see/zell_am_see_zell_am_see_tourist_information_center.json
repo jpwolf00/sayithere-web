@@ -1,0 +1,78 @@
+{
+  "id": "zell_am_see_zell_am_see_tourist_information_center",
+  "name_en": "Zell am See Tourist Information Center",
+  "name_local": "Tourismusverband Zell am See-Kaprun",
+  "icon": "info.circle",
+  "lat": 47.3239636,
+  "lon": 12.7963165,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "zell_am_see_zell_am_see_tourist_information_center_001",
+      "intent_en": "Where do I buy the SalzburgerLand Card",
+      "text_local": "Wo kaufe ich die SalzburgerLand Card?",
+      "pronunciation": "vOH-kOWfuh-ihkh-dee-zAHltsbuhuh-lAHnt-kAHrt",
+      "formality": "standard",
+      "cultural_note": "In Österreich ist eine direkte, kurze Antwort üblich, ohne überflüssige Höflichkeitsfloskeln.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Infoschalter.",
+        "pronunciation": "ahm-IHnfawshAHlt",
+        "translation_en": "At the info desk."
+      },
+      "responses": [
+        {
+          "english": "At the info desk.",
+          "phonetic": "ahm-IHnfawshAHlt",
+          "french": "Am Infoschalter."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_tourist_information_center_002",
+      "intent_en": "Where is the Pinzgau Lokalbahn ticket desk",
+      "text_local": "Wo ist der Ticketschalter für die Pinzgau Lokalbahn?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtshAHlt-fuer-dee-pIHntsow-lOHkahlbAHn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Touristeninfos wird oft auf den zentralen Schalter verwiesen, wenn die genaue Position nicht bekannt ist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich am Bussteig.",
+        "pronunciation": "glEYEkh-ahm-bUHsshteyek",
+        "translation_en": "Right at the bus platform."
+      },
+      "responses": [
+        {
+          "english": "Right at the bus platform.",
+          "phonetic": "glEYEkh-ahm-bUHsshteyek",
+          "french": "Gleich am Bussteig."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_zell_am_see_tourist_information_center_003",
+      "intent_en": "Is the Kaprun dam tour still available today",
+      "text_local": "Ist die Kaprun-Staumauer-Tour heute noch verfügbar?",
+      "pronunciation": "ihst-dee-kAHproonshtOWmowtOOr-hAWuhtuh-nawkh-fehrfUEkbahr",
+      "formality": "standard",
+      "cultural_note": "Deutsche Antworten sind meist präzise und nutzen Ortsangaben wie 'Gletscher-Schalter' als etablierten Begriff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja. Am Gletscher-Schalter.",
+        "pronunciation": "yAHahm-lEHtshshAHlt",
+        "translation_en": "Yes. At the glacier desk."
+      },
+      "responses": [
+        {
+          "english": "Yes. At the glacier desk.",
+          "phonetic": "yAHahm-lEHtshshAHlt",
+          "french": "Ja. Am Gletscher-Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

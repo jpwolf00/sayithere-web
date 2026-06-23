@@ -1,0 +1,78 @@
+{
+  "id": "brno_brno_dam_and_lakeside_recreation_area",
+  "name_en": "Brno Dam and lakeside recreation area",
+  "name_local": "Brněnská přehrada",
+  "icon": "leaf",
+  "lat": 49.2520081,
+  "lon": 16.4846138,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "brno_brno_dam_and_lakeside_recreation_area_001",
+      "intent_en": "Where are the Kozí hřbety cliffs?",
+      "text_local": "Kde jsou Kozí hřbety?",
+      "pronunciation": "kdEH-ysoh-kOHzee-hrbEHtee",
+      "formality": "casual",
+      "cultural_note": "Locals often use landmarks like 'the water' for orientation in recreation areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Po té cestě podél vody dál.",
+        "pronunciation": "pOHteh-tsEHseh-pOHdehl-vOHdee-dAHl",
+        "translation_en": "Further along that path by the water."
+      },
+      "responses": [
+        {
+          "english": "Further along that path by the water.",
+          "phonetic": "pOHteh-tsEHseh-pOHdehl-vOHdee-dAHl",
+          "french": "Po té cestě podél vody dál."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_dam_and_lakeside_recreation_area_002",
+      "intent_en": "Where is the ferry boarding point?",
+      "text_local": "Kde se nastupuje na přívoz?",
+      "pronunciation": "kdEH-seh-nAHstoopOOyeh-nAHpreevohs",
+      "formality": "standard",
+      "cultural_note": "Czech directional gestures often accompany such brief verbal cues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tamhle vpravo u mola.",
+        "pronunciation": "tAHmhleh-fprAHvoh-OO-mOHlah",
+        "translation_en": "Over there on the right by the dock."
+      },
+      "responses": [
+        {
+          "english": "Over there on the right by the dock.",
+          "phonetic": "tAHmhleh-fprAHvoh-OO-mOHlah",
+          "french": "Tamhle vpravo u mola."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_dam_and_lakeside_recreation_area_003",
+      "intent_en": "Is the boat rental open now?",
+      "text_local": "Je teď půjčovna loděk otevřená?",
+      "pronunciation": "yeh-tEH-pOOytshohvnah-lOHehk-OHtehvrEHnah",
+      "formality": "standard",
+      "cultural_note": "A simple, direct answer is typical for service staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, je otevřená.",
+        "pronunciation": "AHnohyeh-OHtehvrEHnah",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "AHnohyeh-OHtehvrEHnah",
+          "french": "Ano, je otevřená."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

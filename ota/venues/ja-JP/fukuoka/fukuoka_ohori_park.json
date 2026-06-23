@@ -1,0 +1,100 @@
+{
+  "id": "fukuoka_ohori_park",
+  "name_en": "Ohori Park",
+  "name_local": "大濠公園",
+  "icon": "leaf",
+  "lat": 33.5861214,
+  "lon": 130.3763612,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "fukuoka_ohori_park_001",
+      "intent_en": "Is Nakanoshima Island accessible by bridge?",
+      "text_local": "なかのしまじまには はしで いけますか？",
+      "pronunciation": "nKnOHeemDeemnEEh-hEEdeh-EEkehmsOOk",
+      "formality": "standard",
+      "cultural_note": "Nakanoshima is a central feature of the pond, connected by multiple charming bridges.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、いくつか はしが ありますよ。",
+        "pronunciation": "hEEEEkootsOOk-hEEg-EEmsOOyoh",
+        "translation_en": "Yes, there are several bridges."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are several bridges.",
+          "phonetic": "hEEEEkootsOOk-hEEg-EEmsOOyoh",
+          "french": "はい、いくつか はしが ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_ohori_park_002",
+      "intent_en": "Where is the Fukuoka Art Museum?",
+      "text_local": "ふくおかしびじゅつかんは どこですか？",
+      "pronunciation": "OOkooOHkEEbeedOOtsookH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The museum is located on the edge of Ohori Park. Pointing out the pond as a landmark is a common way to give directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いけを みぎに みて すすむと あります。",
+        "pronunciation": "eekEHoh-meegEEnee-mEEteh-sOOsoomOOtoh-EEmSoo",
+        "translation_en": "Keep walking with the pond on your right, it'll be there."
+      },
+      "responses": [
+        {
+          "english": "Keep walking with the pond on your right, it'll be there.",
+          "phonetic": "eekEHoh-meegEEnee-mEEteh-sOOsoomOOtoh-EEmSoo",
+          "french": "いけを みぎに みて すすむと あります。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_ohori_park_003",
+      "intent_en": "How do I buy a ticket for the museum?",
+      "text_local": "びじゅつかんの チケットは どうやって かいますか？",
+      "pronunciation": "bEEdootsookNnoh-tEEkehttOHh-dOHooyTteh-kEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many Japanese museums sell tickets via vending machines near the entrance, not always at a staffed counter.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いりぐちの すぐちかくに けんばいきが あります。",
+        "pronunciation": "EEeegootEEnoh-sOOgootEEkkOOnee-kEHbEEkEEg-EEmSoo",
+        "translation_en": "There's a ticket machine right near the entrance."
+      },
+      "responses": [
+        {
+          "english": "There's a ticket machine right near the entrance.",
+          "phonetic": "EEeegootEEnoh-sOOgootEEkkOOnee-kEHbEEkEEg-EEmSoo",
+          "french": "いりぐちの すぐちかくに けんばいきが あります。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_ohori_park_004",
+      "intent_en": "Where is the Japanese Garden entrance?",
+      "text_local": "にほんていえんの いりぐちは どこですか？",
+      "pronunciation": "nEEhohntEHeeEHnnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The Japanese Garden (日本庭園) is a paid area within the park, so the entrance will have a ticket booth.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ あるいて、ひだりです。",
+        "pronunciation": "mssOOgoo-OOEEtehkhEEdeedEHsoo",
+        "translation_en": "Walk straight ahead, it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Walk straight ahead, it's on the left.",
+          "phonetic": "mssOOgoo-OOEEtehkhEEdeedEHsoo",
+          "french": "まっすぐ あるいて、ひだりです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

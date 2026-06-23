@@ -1,0 +1,122 @@
+{
+  "id": "innsbruck_kaufhaus_tyrol",
+  "name_en": "Kaufhaus Tyrol",
+  "name_local": "Kaufhaus Tyrol",
+  "icon": "bag",
+  "lat": 47.2654913,
+  "lon": 11.395165,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "innsbruck_kaufhaus_tyrol_001",
+      "intent_en": "Where do I validate parking",
+      "text_local": "Wo kann ich die Parkzeit verlängern?",
+      "pronunciation": "vOH-kAHn-ihkh-dee-pAHrktseyet-fehrlEHngn",
+      "formality": "standard",
+      "cultural_note": "Parking validation is typically done at machines near exits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Parkautomaten.",
+        "pronunciation": "ahm-pAHrkowtohmAHtuhn",
+        "translation_en": "At the parking machine."
+      },
+      "responses": [
+        {
+          "english": "At the parking machine.",
+          "phonetic": "ahm-pAHrkowtohmAHtuhn",
+          "french": "Am Parkautomaten."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_kaufhaus_tyrol_002",
+      "intent_en": "Where is the Maria-Theresien entrance",
+      "text_local": "Wo ist der Maria-Theresien-Eingang?",
+      "pronunciation": "vOH-ihst-dehr-mahrEEahtEHrehzEEuhnEYEnAHng",
+      "formality": "standard",
+      "cultural_note": "Entrances are often named after streets; follow the main signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der ist auf der Maria-Theresien-Straße.",
+        "pronunciation": "dehr-ihst-owf-dehr-mahrEEahtEHrehzEEuhnshtrAHsuh",
+        "translation_en": "It is on Maria-Theresien-Straße."
+      },
+      "responses": [
+        {
+          "english": "It is on Maria-Theresien-Straße.",
+          "phonetic": "dehr-ihst-owf-dehr-mahrEEahtEHrehzEEuhnshtrAHsuh",
+          "french": "Der ist auf der Maria-Theresien-Straße."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_kaufhaus_tyrol_003",
+      "intent_en": "Which floor has the cash desks",
+      "text_local": "Wo sind die Kassen?",
+      "pronunciation": "vOH-zihnt-dee-kAHsuhn",
+      "formality": "standard",
+      "cultural_note": "Cash desks are usually on floors with shops.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf den Verkaufsetagen.",
+        "pronunciation": "owf-dehn-fehrkOWfzehtAHuhn",
+        "translation_en": "On the sales floors."
+      },
+      "responses": [
+        {
+          "english": "On the sales floors.",
+          "phonetic": "owf-dehn-fehrkOWfzehtAHuhn",
+          "french": "Auf den Verkaufsetagen."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_kaufhaus_tyrol_004",
+      "intent_en": "Where is the tax-free refund",
+      "text_local": "Wo ist die Steuerrückerstattung?",
+      "pronunciation": "vOH-ihst-dee-shtAWuhrUEkstAHtuhng",
+      "formality": "standard",
+      "cultural_note": "Tax-free refund counters are often near exits or info desks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für Steuerrückerstattung.",
+        "pronunciation": "ahm-shAHlt-fuer-shtAWuhrUEkstAHtuhng",
+        "translation_en": "At the tax-free refund counter."
+      },
+      "responses": [
+        {
+          "english": "At the tax-free refund counter.",
+          "phonetic": "ahm-shAHlt-fuer-shtAWuhrUEkstAHtuhng",
+          "french": "Am Schalter für Steuerrückerstattung."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_kaufhaus_tyrol_005",
+      "intent_en": "Where is the Sillgasse passage",
+      "text_local": "Wo ist der Sillgasse-Durchgang?",
+      "pronunciation": "vOH-ihst-dehr-zIHlahsuhdUHuhkhAHng",
+      "formality": "casual",
+      "cultural_note": "Passages in shopping centers are usually well-signposted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss, links.",
+        "pronunciation": "ihm-ehrdgEHshawslINGks",
+        "translation_en": "On the ground floor, to the left."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, to the left.",
+          "phonetic": "ihm-ehrdgEHshawslINGks",
+          "french": "Im Erdgeschoss, links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

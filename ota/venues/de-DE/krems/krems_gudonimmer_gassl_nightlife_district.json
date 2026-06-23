@@ -1,0 +1,100 @@
+{
+  "id": "krems_gudonimmer_gassl_nightlife_district",
+  "name_en": "Gudonimmer Gassl Nightlife District",
+  "name_local": "Gudonimmer Gassl",
+  "icon": "map",
+  "lat": 48.4088718,
+  "lon": 15.604992,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "krems_gudonimmer_gassl_nightlife_district_001",
+      "intent_en": "Where is the Danube promenade walkway",
+      "text_local": "Wo ist der Donausteig?",
+      "pronunciation": "vOH-ihst-dehr-dOHnowstEYEk",
+      "formality": "standard",
+      "cultural_note": "The Danube promenade (Donausteig) is a scenic riverside walkway popular for evening strolls and river views in Krems.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Folgen Sie der Hauptstraße zum Fluss.",
+        "pronunciation": "fAWluhn-zee-dehr-hOWptstrAHsuh-tsuhm-flUHs",
+        "translation_en": "Follow the main street to the river."
+      },
+      "responses": [
+        {
+          "english": "Follow the main street to the river.",
+          "phonetic": "fAWluhn-zee-dehr-hOWptstrAHsuh-tsuhm-flUHs",
+          "french": "Folgen Sie der Hauptstraße zum Fluss."
+        }
+      ]
+    },
+    {
+      "id": "krems_gudonimmer_gassl_nightlife_district_002",
+      "intent_en": "Do cellar bars accept cards only cash",
+      "text_local": "Wird in den Weinkellern Karte akzeptiert?",
+      "pronunciation": "vIHrt-ihn-dehn-vEYEnkehln-kAHrtuh-AHktsehptEErt",
+      "formality": "standard",
+      "cultural_note": "Cellar bars (Keller) are small, intimate wine spaces below street level, often family-owned. Payment in cash is standard practice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Bargeld.",
+        "pronunciation": "nOOr-bAHrehlt",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHrehlt",
+          "french": "Nur Bargeld."
+        }
+      ]
+    },
+    {
+      "id": "krems_gudonimmer_gassl_nightlife_district_003",
+      "intent_en": "Where is the nearest Heuriger",
+      "text_local": "Wo finde ich den nächsten Heurigen?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-nEHkhstuhn-hAWuhrihuhn",
+      "formality": "standard",
+      "cultural_note": "Heurigen are traditional wine taverns offering self-serve wine and snacks, often family-run. Visitors are expected to tally their own consumption on provided sheets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie die Gasse hinunter nach links.",
+        "pronunciation": "gEHuhn-zee-dee-gAHsuh-hihnUHnt-nahkh-lINGks",
+        "translation_en": "Go down the alley to the left."
+      },
+      "responses": [
+        {
+          "english": "Go down the alley to the left.",
+          "phonetic": "gEHuhn-zee-dee-gAHsuh-hihnUHnt-nahkh-lINGks",
+          "french": "Gehen Sie die Gasse hinunter nach links."
+        }
+      ]
+    },
+    {
+      "id": "krems_gudonimmer_gassl_nightlife_district_004",
+      "intent_en": "How do I enter private tastings",
+      "text_local": "Wie komme ich zu privaten Verkostungen?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoo-preevAHtuhn-fehrkAWstuhnguhn",
+      "formality": "casual",
+      "cultural_note": "Private tastings are invitation-only or by appointment with local winemakers. The Winzer (wine grower) decides access and often hosts directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf Nachfrage beim Winzer.",
+        "pronunciation": "owf-nAHkhfrahguh-beyem-vIHnts",
+        "translation_en": "On request with the wine grower."
+      },
+      "responses": [
+        {
+          "english": "On request with the wine grower.",
+          "phonetic": "owf-nAHkhfrahguh-beyem-vIHnts",
+          "french": "Auf Nachfrage beim Winzer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "hallstatt_hallstatt_market_square",
+  "name_en": "Hallstatt Market Square",
+  "name_local": "Marktplatz Hallstatt",
+  "icon": "cart",
+  "lat": 47.5622886,
+  "lon": 13.648862,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "hallstatt_hallstatt_market_square_001",
+      "intent_en": "Is the salt mine tour running today",
+      "text_local": "Fährt die Salzbergwerk-Tour heute?",
+      "pronunciation": "fEHrt-dee-zAHltsbvEHrktOOr-hAWuhtuh",
+      "formality": "standard",
+      "cultural_note": "Tour availability depends on weather and season; staff will confirm current conditions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute.",
+        "pronunciation": "yAHhAWuhtuh",
+        "translation_en": "Yes, today."
+      },
+      "responses": [
+        {
+          "english": "Yes, today.",
+          "phonetic": "yAHhAWuhtuh",
+          "french": "Ja, heute."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_market_square_002",
+      "intent_en": "How do I take the ferry to train station",
+      "text_local": "Wie komme ich mit der Fähre zum Bahnhof?",
+      "pronunciation": "vee-kAWmuh-ihkh-miht-dehr-fEHruh-tsuhm-bAHnhohf",
+      "formality": "casual",
+      "cultural_note": "Ferry departs from the lakefront near the market square; follow signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fähre ab Marktplatz zum Bahnhof.",
+        "pronunciation": "fEHruh-ahp-mAHrktplahts-tsuhm-bAHnhohf",
+        "translation_en": "Ferry from market square to train station."
+      },
+      "responses": [
+        {
+          "english": "Ferry from market square to train station.",
+          "phonetic": "fEHruh-ahp-mAHrktplahts-tsuhm-bAHnhohf",
+          "french": "Fähre ab Marktplatz zum Bahnhof."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_market_square_003",
+      "intent_en": "Where do I buy Salzbergbahn funicular tickets",
+      "text_local": "Wo kaufe ich Salzbergbahn-Tickets?",
+      "pronunciation": "vOH-kOWfuh-ihkh-zAHltsbbAHntIHkuhts",
+      "formality": "standard",
+      "cultural_note": "Salzbergbahn tickets are typically sold at a dedicated counter near the funicular entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Salzbergbahn-Schalter.",
+        "pronunciation": "ahm-zAHltsbbAHnshAHlt",
+        "translation_en": "At the Salzbergbahn ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the Salzbergbahn ticket counter.",
+          "phonetic": "ahm-zAHltsbbAHnshAHlt",
+          "french": "Am Salzbergbahn-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_market_square_004",
+      "intent_en": "Where is the boat rental at lakefront",
+      "text_local": "Wo ist die Bootsvermietung am See?",
+      "pronunciation": "vOH-ihst-dee-bOHtsfmEEtuhng-ahm-zEH",
+      "formality": "standard",
+      "cultural_note": "Boat rentals are located along the lakefront road (L547), marked by clear signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Steg neben der L547.",
+        "pronunciation": "ahm-shtEHk-nEHbuhn-dehr-EHl-fUEnfhUHndt-zEEbuhn-uhntfIHrtsihkh",
+        "translation_en": "At the pier next to the L547."
+      },
+      "responses": [
+        {
+          "english": "At the pier next to the L547.",
+          "phonetic": "ahm-shtEHk-nEHbuhn-dehr-EHl-fUEnfhUHndt-zEEbuhn-uhntfIHrtsihkh",
+          "french": "Am Steg neben der L547."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

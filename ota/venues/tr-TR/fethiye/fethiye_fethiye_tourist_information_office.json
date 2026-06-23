@@ -1,0 +1,144 @@
+{
+  "id": "fethiye_fethiye_tourist_information_office",
+  "name_en": "Fethiye Tourist Information Office",
+  "name_local": "Fethiye Turizm Danisma Bürosu",
+  "icon": "info.circle",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_tourist_information_office_001",
+      "intent_en": "Where do I pay the map purchase fee?",
+      "text_local": "Harita ücretini nereye ödüyorum?",
+      "pronunciation": "hahreetAH-uhdzhrehteenIH-nEHrehyeh-uhdUEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Turkish tourist offices often handle small-fee item payments at the main information counter rather than a separate cashier.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişede ödeyin.",
+        "pronunciation": "eeshehdEH-uhdehyIHn",
+        "translation_en": "Pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Pay at the counter.",
+          "phonetic": "eeshehdEH-uhdehyIHn",
+          "french": "Gişede ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_tourist_information_office_002",
+      "intent_en": "Where do I take a queue number?",
+      "text_local": "Sıra numarasını nereden alabilirim?",
+      "pronunciation": "soorAH-noomahrahsoonOO-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "On busy days, a queue number system may be in use; the exact machine location varies and is best confirmed with staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki cihazdan alabilirsiniz.",
+        "pronunciation": "eerihshtehkIH-dzheehahzdAHn-ahahbeelIHrseenihz",
+        "translation_en": "You can take it from the device at the entrance."
+      },
+      "responses": [
+        {
+          "english": "You can take it from the device at the entrance.",
+          "phonetic": "eerihshtehkIH-dzheehahzdAHn-ahahbeelIHrseenihz",
+          "french": "Girişteki cihazdan alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_tourist_information_office_003",
+      "intent_en": "Do you have today's bus schedule printout?",
+      "text_local": "Bugünün otobüs tarifesi çıktısı var mı?",
+      "pronunciation": "boouenUHn-ohtohbUHs-tahreefehsIH-tshooktoosOO-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Bus schedule printouts are a common service at this office, but availability can vary day-to-day.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, basılı olarak mevcut. İşte burada.",
+        "pronunciation": "ehvEHtbahsooOO-ohahrAHk-mehvdzhUHtihshtEH-bOOrahdah",
+        "translation_en": "Yes, it's available in print. Here it is."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's available in print. Here it is.",
+          "phonetic": "ehvEHtbahsooOO-ohahrAHk-mehvdzhUHtihshtEH-bOOrahdah",
+          "french": "Evet, basılı olarak mevcut. İşte burada."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_tourist_information_office_004",
+      "intent_en": "Where do I take a queue number?",
+      "text_local": "Sıra numarasını nereden alıyorum?",
+      "pronunciation": "soorAH-noomahrahsoonOO-nEHrehdahn-ahOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "A queue number system is used on busy days, but the exact location of the dispenser is not specified in the venue details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Makineden alın lütfen.",
+        "pronunciation": "mahkeenehdAHn-ahOOn-lUHtfahn",
+        "translation_en": "Please take it from the machine."
+      },
+      "responses": [
+        {
+          "english": "Please take it from the machine.",
+          "phonetic": "mahkeenehdAHn-ahOOn-lUHtfahn",
+          "french": "Makineden alın lütfen."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_tourist_information_office_005",
+      "intent_en": "Is Saklıkent Gorge open after heavy rain?",
+      "text_local": "Saklıkent Kanyonu şiddetli yağmurdan sonra açık mı?",
+      "pronunciation": "sheedehtlIH-yahmuhrdAHn-sawnrAH-sahkookAHnt-kahnyohnUH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Safety closures for natural sites like Saklıkent Gorge depend on current conditions and are not predetermined.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, genelde kapatırlar.",
+        "pronunciation": "hahyOOrehnahldEH-kahpahtoorAHr",
+        "translation_en": "No, they usually close it."
+      },
+      "responses": [
+        {
+          "english": "No, they usually close it.",
+          "phonetic": "hahyOOrehnahldEH-kahpahtoorAHr",
+          "french": "Hayır, genelde kapatırlar."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_tourist_information_office_006",
+      "intent_en": "Where do I pay the map purchase fee?",
+      "text_local": "Harita ücretini nerede ödeyebilirim?",
+      "pronunciation": "hahreetAH-uhdzhrehteenIH-nEHrehdeh-uhdehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Small fees for practical items like maps are often handled at a general desk rather than a dedicated cashier.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişe danışmanına ödeyin.",
+        "pronunciation": "eeshEH-dahnooshmahnoonAH-uhdehyIHn",
+        "translation_en": "Pay at the ticket advisor."
+      },
+      "responses": [
+        {
+          "english": "Pay at the ticket advisor.",
+          "phonetic": "eeshEH-dahnooshmahnoonAH-uhdehyIHn",
+          "french": "Gişe danışmanına ödeyin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

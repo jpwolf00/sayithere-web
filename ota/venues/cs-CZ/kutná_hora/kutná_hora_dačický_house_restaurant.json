@@ -1,0 +1,78 @@
+{
+  "id": "kutná_hora_dačický_house_restaurant",
+  "name_en": "Dačický House Restaurant",
+  "name_local": "Restaurace Dačický",
+  "icon": "fork.knife",
+  "lat": 49.9483361,
+  "lon": 15.2647139,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kutná_hora_dačický_house_restaurant_001",
+      "intent_en": "Can we split the group bill?",
+      "text_local": "Můžeme si účet rozdělit?",
+      "pronunciation": "mOOzhehmeh-see-OOtsheht-rOHzehleet",
+      "formality": "standard",
+      "cultural_note": "Splitting the bill (každý zvlášť) is widely accepted in Czech restaurants, and waiters are used to handling it.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, každý zvlášť, není problém.",
+        "pronunciation": "AHnohkAHzhdee-zvlAHshnEHnyee-prOHblehm",
+        "translation_en": "Yes, separately each, no problem."
+      },
+      "responses": [
+        {
+          "english": "Yes, separately each, no problem.",
+          "phonetic": "AHnohkAHzhdee-zvlAHshnEHnyee-prOHblehm",
+          "french": "Ano, každý zvlášť, není problém."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_dačický_house_restaurant_002",
+      "intent_en": "Do you serve Dačický beer?",
+      "text_local": "Máte pivo Dačický?",
+      "pronunciation": "mAHteh-pEEvoh-dAHtsheetskee",
+      "formality": "standard",
+      "cultural_note": "Czech restaurants often proudly announce they serve their house beer 'right here' (přímo tady).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, čepujeme ho přímo tady.",
+        "pronunciation": "AHnohtshEHpooyEHmeh-hOH-prEEmoh-tAHdee",
+        "translation_en": "Yes, we tap it right here."
+      },
+      "responses": [
+        {
+          "english": "Yes, we tap it right here.",
+          "phonetic": "AHnohtshEHpooyEHmeh-hOH-prEEmoh-tAHdee",
+          "french": "Ano, čepujeme ho přímo tady."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_dačický_house_restaurant_003",
+      "intent_en": "Where do I order beer?",
+      "text_local": "Kde si můžu objednat pivo?",
+      "pronunciation": "kdEH-see-mOOzhoo-OHbyehdnaht-pEEvoh",
+      "formality": "standard",
+      "cultural_note": "In traditional Czech pubs, it's common to order drinks directly at the bar rather than waiting for table service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U baru rovnou za vámi.",
+        "pronunciation": "OO-bAHroo-rOHvnoh-zAHvahmee",
+        "translation_en": "At the bar right behind you."
+      },
+      "responses": [
+        {
+          "english": "At the bar right behind you.",
+          "phonetic": "OO-bAHroo-rOHvnoh-zAHvahmee",
+          "french": "U baru rovnou za vámi."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "vienna_stephansplatz_u_bahn_station",
+  "name_en": "Stephansplatz U-Bahn Station",
+  "name_local": "U-Bahn-Station Stephansplatz",
+  "icon": "tram",
+  "lat": 48.2084639,
+  "lon": 16.3720438,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "vienna_stephansplatz_u_bahn_station_001",
+      "intent_en": "When does the last U1 train run",
+      "text_local": "Wann fährt die letzte U1?",
+      "pronunciation": "vAHn-fEHrt-dee-lEHtstuh-OO-EYEns",
+      "formality": "standard",
+      "cultural_note": "Exact times require staff or departure boards; no fixed schedule in public area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die letzte U1 fährt um 0:30 Uhr.",
+        "pronunciation": "dee-lEHtstuh-OO-EYEns-fEHrt-uhm-nUHl-oor-drEYEsihkh-OOr",
+        "translation_en": "The last U1 departs at 12:30 AM."
+      },
+      "responses": [
+        {
+          "english": "The last U1 departs at 12:30 AM.",
+          "phonetic": "dee-lEHtstuh-OO-EYEns-fEHrt-uhm-nUHl-oor-drEYEsihkh-OOr",
+          "french": "Die letzte U1 fährt um 0:30 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "vienna_stephansplatz_u_bahn_station_002",
+      "intent_en": "How do I validate my ticket here",
+      "text_local": "Wie entwerten Sie das Ticket?",
+      "pronunciation": "vee-ehntvEHrtuhn-zee-dahs-tIHkuht",
+      "formality": "standard",
+      "cultural_note": "Validation is automatic at U-Bahn stations; no manual action required.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hier am Entwerter.",
+        "pronunciation": "hEEr-ahm-ehntvEHrt",
+        "translation_en": "Here at the validator."
+      },
+      "responses": [
+        {
+          "english": "Here at the validator.",
+          "phonetic": "hEEr-ahm-ehntvEHrt",
+          "french": "Hier am Entwerter."
+        }
+      ]
+    },
+    {
+      "id": "vienna_stephansplatz_u_bahn_station_003",
+      "intent_en": "Where is the Karlsplatz tunnel connection",
+      "text_local": "Wo ist der Tunnel zur U2 Karlsplatz?",
+      "pronunciation": "vOH-ihst-dehr-tUHnuhl-tsoor-OO-tsvEYE-kAHrlsplahts",
+      "formality": "standard",
+      "cultural_note": "Connections are signposted; no micro-directions necessary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Tunnel ist dort drüben.",
+        "pronunciation": "dehr-tUHnuhl-ihst-dAWrt-drUEbuhn",
+        "translation_en": "The tunnel is over there."
+      },
+      "responses": [
+        {
+          "english": "The tunnel is over there.",
+          "phonetic": "dehr-tUHnuhl-ihst-dAWrt-drUEbuhn",
+          "french": "Der Tunnel ist dort drüben."
+        }
+      ]
+    },
+    {
+      "id": "vienna_stephansplatz_u_bahn_station_004",
+      "intent_en": "Where is the U3 to Landstraße platform",
+      "text_local": "Wo ist die U3 nach Landstraße?",
+      "pronunciation": "vOH-ihst-dee-OO-drEYE-nahkh-lAHndstrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Directions depend solely on the station’s signage; no staff interaction needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die U3 ist da drüben.",
+        "pronunciation": "dee-OO-drEYE-ihst-dah-drUEbuhn",
+        "translation_en": "The U3 is over there."
+      },
+      "responses": [
+        {
+          "english": "The U3 is over there.",
+          "phonetic": "dee-OO-drEYE-ihst-dah-drUEbuhn",
+          "french": "Die U3 ist da drüben."
+        }
+      ]
+    },
+    {
+      "id": "vienna_stephansplatz_u_bahn_station_005",
+      "intent_en": "Is there elevator access to platforms",
+      "text_local": "Gibt es Aufzug zu den Plattformen?",
+      "pronunciation": "EEpt-ehs-OWftsOOk-tsoo-dehn-plAHtfawrmuhn",
+      "formality": "standard",
+      "cultural_note": "Elevator access is confirmed by staff at request; no signage assumed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Aufzug vorhanden.",
+        "pronunciation": "yAHOWftsOOk-fOHrhAHnduhn",
+        "translation_en": "Yes, elevator available."
+      },
+      "responses": [
+        {
+          "english": "Yes, elevator available.",
+          "phonetic": "yAHOWftsOOk-fOHrhAHnduhn",
+          "french": "Ja, Aufzug vorhanden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

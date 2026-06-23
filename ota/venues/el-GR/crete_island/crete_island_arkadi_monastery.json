@@ -1,0 +1,56 @@
+{
+  "id": "crete_island_arkadi_monastery",
+  "name_en": "Arkadi Monastery",
+  "name_local": "Μονή Αρκαδίου",
+  "icon": "building.columns",
+  "lat": 35.3099062,
+  "lon": 24.6294321,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "crete_island_arkadi_monastery_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να δω τη βιβλιοθήκη;",
+      "pronunciation": "bohrOH-nah-eesEHlthoh-stee-vEEvlyohthEEee",
+      "formality": "standard",
+      "cultural_note": "Η βιβλιοθήκη αναφέρεται ως ιστορικός χώρος, αλλά δεν υπάρχουν πληροφορίες για δημόσια πρόσβαση. Προτείνεται η ερώτηση στον αρμόδιο υπάλληλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, μπορείτε να τη δείτε.",
+        "pronunciation": "nEHbohrEEteh-nah-tee-thEEteh",
+        "translation_en": "Yes, you can see it."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can see it.",
+          "phonetic": "nEHbohrEEteh-nah-tee-thEEteh",
+          "french": "Ναι, μπορείτε να τη δείτε."
+        }
+      ]
+    },
+    {
+      "id": "crete_island_arkadi_monastery_002",
+      "intent_en": "Where is the old school building?",
+      "text_local": "Πού βρίσκεται το παλιό σχολείο;",
+      "pronunciation": "pOO-vrEEsehtEH-toh-pahlyOH-skhohlEEoh",
+      "formality": "standard",
+      "cultural_note": "Το σχολείο αναφέρεται ως ιστορική πτέρυγα του μοναστηριού, επομένως η αναφορά στον όρο 'συγκρότημα' είναι αποδεκτή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ισόγειο του συγκροτήματος.",
+        "pronunciation": "stoh-eesOHyoh-too-sEEnggrohtEEmahtOHs",
+        "translation_en": "On the ground floor of the complex."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor of the complex.",
+          "phonetic": "stoh-eesOHyoh-too-sEEnggrohtEEmahtOHs",
+          "french": "Στο ισόγειο του συγκροτήματος."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

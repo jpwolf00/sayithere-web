@@ -1,0 +1,100 @@
+{
+  "id": "corfu_corfu_central_market",
+  "name_en": "Corfu Central Market",
+  "name_local": "Δημοτική Αγορά Κέρκυρας",
+  "icon": "cart",
+  "lat": 39.591337,
+  "lon": 19.8596189,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "corfu_corfu_central_market_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Ποιοι πάγκοι δέχονται κάρτες;",
+      "pronunciation": "pEEehs-pAHnggee-thEHkhohdEH-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "Οι περισσότεροι πάγκοι είναι cash-only, αλλά ορισμένοι μεγάλου μεγέθους (π.χ. τυροπωλεία, κρασοπωλεία) μπορεί να δέχονται κάρτες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Οι περισσότεροι είναι μόνο μετρητά· με κάρτα ίσως οι μεγαλύτεροι πάγκοι.",
+        "pronunciation": "ee-pEHreessOHtehrEE-EEneh-mOHnoh-mEHtreetAH-meh-kAHrtah-EEsohs-ee-mEHghahlEEtehrEE-pAHnggee",
+        "translation_en": "Most are cash only; maybe the larger stalls take cards."
+      },
+      "responses": [
+        {
+          "english": "Most are cash only; maybe the larger stalls take cards.",
+          "phonetic": "ee-pEHreessOHtehrEE-EEneh-mOHnoh-mEHtreetAH-meh-kAHrtah-EEsohs-ee-mEHghahlEEtehrEE-pAHnggee",
+          "french": "Οι περισσότεροι είναι μόνο μετρητά· με κάρτα ίσως οι μεγαλύτεροι πάγκοι."
+        }
+      ]
+    },
+    {
+      "id": "corfu_corfu_central_market_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το περίπτερο με το λικέρ κουμκουάτ;",
+      "pronunciation": "pOO-EEneh-toh-pehrEEptehrOH-meh-toh-leeEHr-kOOmkooAHt",
+      "formality": "standard",
+      "cultural_note": "Οι πάγκοι με λικέρ κουμκουάτ βρίσκονται συνήθως συγκεντρωμένοι στην ίδια περιοχή του market, αλλά η ακριβής τοποθεσία μπορεί να μην είναι εμφανής χωρίς ερώτηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στους πάγκους με τα τοπικά ποτά, κοντά στους χώρους γευσιγνωσίας κρασιού.",
+        "pronunciation": "stoos-pAHnggooz-meh-tah-tOHpeekAH-pohtAHkohdAH-stoos-khOHrooz-yEEseeghnohsEEahs-krahsyOO",
+        "translation_en": "At the stalls with local drinks, near the wine tasting areas."
+      },
+      "responses": [
+        {
+          "english": "At the stalls with local drinks, near the wine tasting areas.",
+          "phonetic": "stoos-pAHnggooz-meh-tah-tOHpeekAH-pohtAHkohdAH-stoos-khOHrooz-yEEseeghnohsEEahs-krahsyOO",
+          "french": "Στους πάγκους με τα τοπικά ποτά, κοντά στους χώρους γευσιγνωσίας κρασιού."
+        }
+      ]
+    },
+    {
+      "id": "corfu_corfu_central_market_003",
+      "intent_en": "Are the produce scales working today?",
+      "text_local": "Λειτουργούν σήμερα οι ζυγαριές των αγροτών;",
+      "pronunciation": "lEEtoorghOOn-sEEmehrAH-ee-zEEghahreeEHs-tohn-AHghrohtOHn",
+      "formality": "standard",
+      "cultural_note": "Οι ζυγαριές αυτοεξυπηρέτησης είναι μόνιμα εγκατεστημένες στις πάγκους των παραγωγών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, λειτουργούν.",
+        "pronunciation": "nEHlEEtoorghOOn",
+        "translation_en": "Yes, they work."
+      },
+      "responses": [
+        {
+          "english": "Yes, they work.",
+          "phonetic": "nEHlEEtoorghOOn",
+          "french": "Ναι, λειτουργούν."
+        }
+      ]
+    },
+    {
+      "id": "corfu_corfu_central_market_004",
+      "intent_en": "Can I taste the olive oil before buying?",
+      "text_local": "Μπορώ να δοκιμάσω το λάδι πριν το αγοράσω;",
+      "pronunciation": "bohrOH-nah-thOHeemAHsoh-toh-lAHthee-prEEn-doh-AHghohrAHsoh",
+      "formality": "standard",
+      "cultural_note": "Στο τμήμα ελαιολάδου συνηθίζεται η δωρεάν δοκιμή προϊόντων πριν την αγορά.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δοκιμάστε.",
+        "pronunciation": "nEHthOHeemAHsteh",
+        "translation_en": "Yes, taste it."
+      },
+      "responses": [
+        {
+          "english": "Yes, taste it.",
+          "phonetic": "nEHthOHeemAHsteh",
+          "french": "Ναι, δοκιμάστε."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

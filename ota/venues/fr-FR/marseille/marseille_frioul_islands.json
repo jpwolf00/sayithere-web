@@ -1,0 +1,100 @@
+{
+  "id": "marseille_frioul_islands",
+  "name_en": "Îles du Frioul",
+  "name_local": "Îles du Frioul",
+  "icon": "ferry",
+  "lat": 43.3185,
+  "lon": 5.3476,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "marseille_frioul_001",
+      "intent_en": "Ask about the ferry to the islands",
+      "text_local": "Comment aller aux îles du Frioul ?",
+      "pronunciation": "kuh-MAN ah-LAY oh EEL doo free-OOL",
+      "formality": "polite",
+      "cultural_note": "Ferries run every 30 minutes from the Vieux-Port. The 15-minute crossing offers views of Marseille and Château d'If.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take the ferry at the Vieux-Port, every thirty minutes.",
+          "phonetic": "toot lay kah-NEEZ ah vahn mee-NOOT",
+          "french": "Prenez le ferry au Vieux-Port, toutes les trente minutes."
+        }
+      ]
+    },
+    {
+      "id": "marseille_frioul_002",
+      "intent_en": "Ask about the islands' beaches",
+      "text_local": "Y a-t-il des plages sur les îles ?",
+      "pronunciation": "ee ah-TEEL day PLAHZH soor layz EEL",
+      "formality": "polite",
+      "cultural_note": "The islands have small beaches, but they can get crowded in summer. The water is crystal clear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are small beaches. The water is very clear.",
+          "phonetic": "",
+          "french": "Oui, il y a de petites plages. L'eau est très claire."
+        }
+      ]
+    },
+    {
+      "id": "marseille_frioul_003",
+      "intent_en": "Ask how long the ferry crossing takes",
+      "text_local": "Combien de temps dure la traversée ?",
+      "pronunciation": "kom-BYAN duh tahn DOOR lah trah-vair-SAY",
+      "formality": "polite",
+      "cultural_note": "The ferry crossing from Vieux-Port to the Frioul islands is quick and scenic.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About fifteen minutes.",
+          "phonetic": "ahn-vee-ROHN kanz mee-NOOT",
+          "french": "Environ quinze minutes."
+        }
+      ]
+    },
+    {
+      "id": "marseille_frioul_004",
+      "intent_en": "Ask if there's a restaurant",
+      "text_local": "Y a-t-il un restaurant sur les îles ?",
+      "pronunciation": "ee ah-TEEL uhn res-to-RAN soor layz EEL",
+      "formality": "polite",
+      "cultural_note": "There's one restaurant on Ratonneau island. Bring a picnic for the best experience — there are few options.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, just one on the island. Bring a picnic.",
+          "phonetic": "wee, eel ee ahn plu-ZYUR dahn luh kar-TYAY",
+          "french": "Oui, un seul sur l'île. Prévoyez un pique-nique."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "islands",
+      "word_local": "les îles",
+      "pronunciation": "layz EEL"
+    },
+    {
+      "word_en": "beach",
+      "word_local": "la plage",
+      "pronunciation": "lah PLAHZH"
+    },
+    {
+      "word_en": "ferry",
+      "word_local": "le ferry",
+      "pronunciation": "leh FEH-ree"
+    },
+    {
+      "word_en": "crossing",
+      "pronunciation": "lah trah-vuh-SAY"
+    }
+  ]
+}

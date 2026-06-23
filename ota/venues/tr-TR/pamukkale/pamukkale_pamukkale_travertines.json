@@ -1,0 +1,122 @@
+{
+  "id": "pamukkale_pamukkale_travertines",
+  "name_en": "Pamukkale Travertines",
+  "name_local": "Pamukkale Travertenleri",
+  "icon": "building.columns",
+  "lat": 37.9244831,
+  "lon": 29.1190121,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "pamukkale_pamukkale_travertines_001",
+      "intent_en": "What time is last entry for sunset?",
+      "text_local": "Gün batımı için son giriş saati kaç?",
+      "pronunciation": "UHn-bAHtoomoo-eetshIHn-sAWn-eerIHsh-sahahtIH-kAHtsh",
+      "formality": "standard",
+      "cultural_note": "Sunset times vary seasonally; staff avoid giving a fixed time without checking the current schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saat yediden sonra giremezsiniz.",
+        "pronunciation": "sahAHt-yehdeedAHn-sawnrAH-eerehmEHzseenihz",
+        "translation_en": "You cannot enter after seven o'clock."
+      },
+      "responses": [
+        {
+          "english": "You cannot enter after seven o'clock.",
+          "phonetic": "sahAHt-yehdeedAHn-sawnrAH-eerehmEHzseenihz",
+          "french": "Saat yediden sonra giremezsiniz."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_travertines_002",
+      "intent_en": "Where is the south gate entrance?",
+      "text_local": "Güney kapısı girişi nerede?",
+      "pronunciation": "uenEHy-kahpoosOO-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish venues often have multiple gates; exact placement is not in the stable targets, so staff may direct you to an information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kuzey kapısından girin.",
+        "pronunciation": "koozEHy-kahpoosoondAHn-eerIHn",
+        "translation_en": "Enter from the north gate."
+      },
+      "responses": [
+        {
+          "english": "Enter from the north gate.",
+          "phonetic": "koozEHy-kahpoosoondAHn-eerIHn",
+          "french": "Kuzey kapısından girin."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_travertines_003",
+      "intent_en": "Can I walk to Menderes valley from here?",
+      "text_local": "Buradan Menderes vadisine yürüyebilir miyim?",
+      "pronunciation": "bOOrahdahn-mahndehrEHs-vahdeeseenEH-yuerueyehbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Menderes valley is a stable target, but the feasibility and route from the travertines are not detailed in the venue context, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yürüyerek olmaz, çok uzak.",
+        "pronunciation": "yuerueyehrEHk-awmAHztshAWk-oozAHk",
+        "translation_en": "You can't walk there, it's too far."
+      },
+      "responses": [
+        {
+          "english": "You can't walk there, it's too far.",
+          "phonetic": "yuerueyehrEHk-awmAHztshAWk-oozAHk",
+          "french": "Yürüyerek olmaz, çok uzak."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_travertines_004",
+      "intent_en": "Is Cleopatra's Pool ticket separate?",
+      "text_local": "Kleopatra Havuzu bileti ayrı mı?",
+      "pronunciation": "klehohpahtrAH-hAHvoozuh-beelehtIH-ahyrOO-moo",
+      "formality": "standard",
+      "cultural_note": "Cleopatra's Pool is a distinct attraction within the site, requiring its own ticket as indicated in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, ayrı bilet almanız gerekiyor.",
+        "pronunciation": "ehvEHtahyrOO-beelEHt-ahmAHnooz-ehrehkEEyawr",
+        "translation_en": "Yes, you need a separate ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, you need a separate ticket.",
+          "phonetic": "ehvEHtahyrOO-beelEHt-ahmAHnooz-ehrehkEEyawr",
+          "french": "Evet, ayrı bilet almanız gerekiyor."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_travertines_005",
+      "intent_en": "Where is the Denizli viewpoint?",
+      "text_local": "Denizli manzara noktası nerede?",
+      "pronunciation": "dehnIHzlih-mahnzahrAH-nawktahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The Denizli viewpoint is a stable target, but its exact placement within the large open area is not specified, so staff will refer you to an information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kuzey kapısından girince solda.",
+        "pronunciation": "koozEHy-kahpoosoondAHn-eerIHndzheh-sawdAH",
+        "translation_en": "It's on the left after entering from the north gate."
+      },
+      "responses": [
+        {
+          "english": "It's on the left after entering from the north gate.",
+          "phonetic": "koozEHy-kahpoosoondAHn-eerIHndzheh-sawdAH",
+          "french": "Kuzey kapısından girince solda."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

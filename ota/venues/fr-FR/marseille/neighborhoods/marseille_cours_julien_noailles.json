@@ -1,0 +1,101 @@
+{
+  "id": "marseille_cours_julien_noailles",
+  "name_en": "Cours Julien / Noailles",
+  "name_local": "Cours Julien / Noailles",
+  "icon": "building.2",
+  "lat": 43.2932,
+  "lon": 5.3907,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "marseille_nbhd_coursj_001",
+      "intent_en": "Ask about the art galleries",
+      "text_local": "Où sont les galeries d'art du quartier ?",
+      "pronunciation": "oo son lay gah-leh-REE dar doo kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "This area is Marseille's artistic hub, with numerous contemporary art galleries and artist studios.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Around Cours Julien, especially in the nearby streets.",
+          "phonetic": "",
+          "french": "La Friche la Belle de Mai se situe au 41 rue Jobin, dans le 3ᵉ arrondissement. C’est un lieu culturel incontournable, installé dans une ancienne manufacture de tabac."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_coursj_002",
+      "intent_en": "Ask about the multicultural food scene",
+      "text_local": "C'est quoi la cuisine du monde ici ?",
+      "pronunciation": "say kwah lah kwee-ZEEN doo MOND ee-SEE",
+      "formality": "neutral",
+      "cultural_note": "One of Marseille's most diverse neighborhoods — you'll find Algerian, Moroccan, Vietnamese, and more cuisines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try El Djazaïr restaurant, it is two streets from here.",
+          "phonetic": "byan sewr, zhuh voo ah-PROHNT sah too deh SWEET",
+          "french": "Essayez le restaurant 'Chez Yassine' sur la rue des Trois Mages."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_coursj_003",
+      "intent_en": "Ask where to find the best ice cream",
+      "text_local": "Où trouver la meilleure glace du quartier ?",
+      "pronunciation": "oo troo-VAY lah may-YUHR glahs doo kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Try 'Glacier Amorino' for artisan gelato. This area is known for its sweet treats.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try 'Glacier Amorino' for artisan ice cream. This neighborhood is known for its desserts.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Essayez 'Glacier Amorino' pour des glaces artisanales. Ce quartier est réputé pour ses desserts."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_coursj_004",
+      "intent_en": "Ask about the live music venues",
+      "text_local": "Y a-t-il des endroits pour écouter de la musique live ?",
+      "pronunciation": "ee ah-TEEL dayz ahn-DRWAH poor ay-koo-TAY duh lah moo-ZEEK lyev",
+      "formality": "polite",
+      "cultural_note": "The area has several music venues, including 'Le Zinc' and 'Le Souvenir'. Check listings locally.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are several concert venues.",
+          "phonetic": "",
+          "french": "Oui, essayez Le Zinc pour du jazz ou Le Souvenir."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "art gallery",
+      "word_local": "la galerie",
+      "pronunciation": "lah gah-luh-REE"
+    },
+    {
+      "word_en": "neighborhood",
+      "word_local": "le quartier",
+      "pronunciation": "leh kar-TYAY"
+    },
+    {
+      "word_en": "street art",
+      "word_local": "le street art",
+      "pronunciation": "leh street ART"
+    },
+    {
+      "word_en": "ice cream",
+      "word_local": "la glace",
+      "pronunciation": "lah GLAS"
+    }
+  ]
+}

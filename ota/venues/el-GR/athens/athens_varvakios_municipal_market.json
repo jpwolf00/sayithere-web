@@ -1,0 +1,122 @@
+{
+  "id": "athens_varvakios_municipal_market",
+  "name_en": "Varvakios Municipal Market",
+  "name_local": "Δημοτική Αγορά Βαρβακείου",
+  "icon": "cart",
+  "lat": 37.9755648,
+  "lon": 23.7348324,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "athens_varvakios_municipal_market_001",
+      "intent_en": "Where can I get koulouri outside?",
+      "text_local": "Πού βρίσκω κουλούρι έξω;",
+      "pronunciation": "pOO-vrEEskoh-koolOOree-EHksoh",
+      "formality": "standard",
+      "cultural_note": "Τα κουλούρια πωλούνται συχνά από πλανόδιους πωλητές γύρω από την Αιόλου και τις εισόδους της αγοράς. Οι επισκέπτες μπορούν εύκολα να τα εντοπίσουν ακολουθώντας τον θόρυβο ή την παρουσία άλλων ατόμων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στους πλανόδιους πωλητές.",
+        "pronunciation": "rohtEEsteh-stoos-plahnOHtheeOOs-pOHleetEHs",
+        "translation_en": "Ask street vendors."
+      },
+      "responses": [
+        {
+          "english": "Ask street vendors.",
+          "phonetic": "rohtEEsteh-stoos-plahnOHtheeOOs-pOHleetEHs",
+          "french": "Ρωτήστε στους πλανόδιους πωλητές."
+        }
+      ]
+    },
+    {
+      "id": "athens_varvakios_municipal_market_002",
+      "intent_en": "Do I pay taverna after eating?",
+      "text_local": "Πληρώνω μετά το φαγητό;",
+      "pronunciation": "pleerOHnoh-mehtAH-toh-fAHyeetOH",
+      "formality": "standard",
+      "cultural_note": "Στο μαγειρείο της αγοράς, συνηθίζεται η πληρωμή μετά την κατανάλωση του γεύματος, ακολουθώντας την τοπική παράδοση των ταβερνών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μετά το φαγητό.",
+        "pronunciation": "nEHmehtAH-toh-fAHyeetOH",
+        "translation_en": "Yes, after eating."
+      },
+      "responses": [
+        {
+          "english": "Yes, after eating.",
+          "phonetic": "nEHmehtAH-toh-fAHyeetOH",
+          "french": "Ναι, μετά το φαγητό."
+        }
+      ]
+    },
+    {
+      "id": "athens_varvakios_municipal_market_003",
+      "intent_en": "Where is Aiolou street entrance?",
+      "text_local": "Πού είναι η είσοδος από την Αιόλου;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-ahpOH-teen-ehOHloo",
+      "formality": "standard",
+      "cultural_note": "Η Αιόλου είναι ένας σημαντικός πεζόδρομος που οδηγεί απευθείας στην αγορά. Η είσοδος από εκεί είναι εύκολα αναγνωρίσιμη λόγω της κίνησης των επισκεπτών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην Αιόλου, ευθεία.",
+        "pronunciation": "steen-ehOHlooehfthEEah",
+        "translation_en": "On Aiolou Street, straight ahead."
+      },
+      "responses": [
+        {
+          "english": "On Aiolou Street, straight ahead.",
+          "phonetic": "steen-ehOHlooehfthEEah",
+          "french": "Στην Αιόλου, ευθεία."
+        }
+      ]
+    },
+    {
+      "id": "athens_varvakios_municipal_market_004",
+      "intent_en": "Where is the market taverna?",
+      "text_local": "Πού βρίσκεται το μαγειρείο στην αγορά;",
+      "pronunciation": "pOO-EEneh-ee-tahvEHrnah",
+      "formality": "standard",
+      "cultural_note": "Το μαγειρείο βαρβάκειου είναι ένας γνωστός στόχος εντός της αγοράς. Οι επισκέπτες συνήθως το αναζητούν ακολουθώντας τις πινακίδες εντός του χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον κάτω όροφο.",
+        "pronunciation": "stohng-gAHtoh-OHrohfOH",
+        "translation_en": "On the lower floor."
+      },
+      "responses": [
+        {
+          "english": "On the lower floor.",
+          "phonetic": "stohng-gAHtoh-OHrohfOH",
+          "french": "Στον κάτω όροφο."
+        }
+      ]
+    },
+    {
+      "id": "athens_varvakios_municipal_market_005",
+      "intent_en": "How do I point for fish cleaning?",
+      "text_local": "Πώς να δείξω για καθάρισμα ψαριού;",
+      "pronunciation": "pOHz-thEEkhnoh-yAH-kAHthahreesmOH-psAHreeOO",
+      "formality": "standard",
+      "cultural_note": "Στο τμήμα των ψαριών, οι επισκέπτες δείχνουν συνήθως απευθείας το ψάρι στον ψαρά, ο οποίος στη συνέχεια το καθαρίζει. Δεν υπάρχει ειδική χειρονομία, αλλά η άμεση επίδειξη του ψαριού είναι η συνήθης πρακτική.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δείξτε το ψάρι στον ψαρά, καθαρίζει εκεί.",
+        "pronunciation": "thEEksteh-toh-psAHree-stohm-bzahrAHkAHthahrEEzee-ehEE",
+        "translation_en": "Point the fish at the fishmonger, they clean on the spot."
+      },
+      "responses": [
+        {
+          "english": "Point the fish at the fishmonger, they clean on the spot.",
+          "phonetic": "thEEksteh-toh-psAHree-stohm-bzahrAHkAHthahrEEzee-ehEE",
+          "french": "Δείξτε το ψάρι στον ψαρά, καθαρίζει εκεί."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

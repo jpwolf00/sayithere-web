@@ -1,0 +1,78 @@
+{
+  "id": "heraklion_kornaros_bakery",
+  "name_en": "Kornaros Bakery",
+  "name_local": "Φούρνος Κορνάρος",
+  "icon": "fork.knife",
+  "lat": 35.33908,
+  "lon": 25.1332843,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "heraklion_kornaros_bakery_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε καλιτσούνια με μυζήθρα;",
+      "pronunciation": "EHkhehtEH-kAHleetsOOnyah-meh-meezEEthrah",
+      "formality": "standard",
+      "cultural_note": "Customers are expected to ask staff directly about specific pastry availability since items are not individually labeled.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχουμε ακόμα.",
+        "pronunciation": "nEHEHkhoomEH-ahkOHmah",
+        "translation_en": "Yes, we still have some."
+      },
+      "responses": [
+        {
+          "english": "Yes, we still have some.",
+          "phonetic": "nEHEHkhoomEH-ahkOHmah",
+          "french": "Ναι, έχουμε ακόμα."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_kornaros_bakery_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να κάνω παραγγελία τσουρέκι για αύριο το πρωί;",
+      "pronunciation": "bohrOH-nah-pAHroh-pAHrahnggehlEEah-tsoorEHee-AHvreeOH-prohEE",
+      "formality": "standard",
+      "cultural_note": "Preorders for special items like tsoureki are handled at the counter during quieter hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, γίνεται, αλλά καλύτερα να το κλείσετε απόψε.",
+        "pronunciation": "nEHyEEnehtEHahlAH-kahlEEtehrAH-nah-toh-klEEsehtEH-ahpOHpseh",
+        "translation_en": "Yes, that’s possible, but it’s better to order it tonight."
+      },
+      "responses": [
+        {
+          "english": "Yes, that’s possible, but it’s better to order it tonight.",
+          "phonetic": "nEHyEEnehtEHahlAH-kahlEEtehrAH-nah-toh-klEEsehtEH-ahpOHpseh",
+          "french": "Ναι, γίνεται, αλλά καλύτερα να το κλείσετε απόψε."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_kornaros_bakery_003",
+      "intent_en": "Will you slice the bread I just bought?",
+      "text_local": "Θα μπορούσατε να κόψετε το ψωμί;",
+      "pronunciation": "thah-kOHpsehtEH-toh-psohmEE-poo-mOHlees-ahghOHrahsAH",
+      "formality": "standard",
+      "cultural_note": "Bread slicing is a custom service provided upon request at the counter area.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, φυσικά.",
+        "pronunciation": "nEHfEEseekAH",
+        "translation_en": "Yes, certainly."
+      },
+      "responses": [
+        {
+          "english": "Yes, certainly.",
+          "phonetic": "nEHfEEseekAH",
+          "french": "Ναι, φυσικά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

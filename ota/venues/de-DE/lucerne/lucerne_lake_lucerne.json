@@ -1,0 +1,100 @@
+{
+  "id": "lucerne_lake_lucerne",
+  "name_en": "Lake Lucerne",
+  "name_local": "Vierwaldstättersee",
+  "icon": "leaf",
+  "lat": 46.9854343,
+  "lon": 8.4988429,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "lucerne_lake_lucerne_001",
+      "intent_en": "Pilatus cogwheel train from Weggis",
+      "text_local": "Wo fährt die Pilatusbahn ab Weggis?",
+      "pronunciation": "vOH-fEHrt-dee-pEElahtUHsbahn-ahp-vEHihs",
+      "formality": "standard",
+      "cultural_note": "Die Pilatusbahn hat eine klar markierte Abfahrtsstelle in Weggis; Schilder sind vor Ort vorhanden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hafen von Weggis.",
+        "pronunciation": "ahm-hAHfuhn-fawn-vEHgihs",
+        "translation_en": "At the harbor of Weggis."
+      },
+      "responses": [
+        {
+          "english": "At the harbor of Weggis.",
+          "phonetic": "ahm-hAHfuhn-fawn-vEHgihs",
+          "french": "Am Hafen von Weggis."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lake_lucerne_002",
+      "intent_en": "Rigi cable car last run today",
+      "text_local": "Wann fährt die Rigi-Seilbahn heute zuletzt?",
+      "pronunciation": "vAHn-fEHrt-dee-rEEeezEYElbahn-hAWuhtuh-tsoolEHtst",
+      "formality": "standard",
+      "cultural_note": "Abfahrtszeiten der Rigi-Seilbahn sind an Schaltern und online angegeben; 18:30 ist die übliche letzte Fahrt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "18:30 Uhr.",
+        "pronunciation": "AHkhtsehn-oor-drEYEsihkh-OOr",
+        "translation_en": "6:30 PM."
+      },
+      "responses": [
+        {
+          "english": "6:30 PM.",
+          "phonetic": "AHkhtsehn-oor-drEYEsihkh-OOr",
+          "french": "18:30 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lake_lucerne_003",
+      "intent_en": "SGV ferry ticket office location",
+      "text_local": "Wo ist die SGV-Fährkasse?",
+      "pronunciation": "vOH-ihst-dee-EHsEHfOWfEHrkahsuh",
+      "formality": "standard",
+      "cultural_note": "Tickets werden an Schaltern der Schifffahrtsgesellschaft verkauft; 'SGV' ist eine geläufige Abkürzung vor Ort.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der SGV.",
+        "pronunciation": "ahm-shAHlt-dehr-EHsEHfOW",
+        "translation_en": "At the SGV counter."
+      },
+      "responses": [
+        {
+          "english": "At the SGV counter.",
+          "phonetic": "ahm-shAHlt-dehr-EHsEHfOW",
+          "french": "Am Schalter der SGV."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lake_lucerne_004",
+      "intent_en": "Upgrade to first class cruise",
+      "text_local": "Kann ich auf der Fahrt upgraden?",
+      "pronunciation": "kAHn-ihkh-owf-dehr-fAHrt-UHprahduhn",
+      "formality": "standard",
+      "cultural_note": "Klasse-Upgrades erfolgen vor Fahrtbeginn am Ticketschalter; Bargeldzahlung üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter möglich.",
+        "pronunciation": "ahm-shAHlt-mUHklihkh",
+        "translation_en": "Possible at the counter."
+      },
+      "responses": [
+        {
+          "english": "Possible at the counter.",
+          "phonetic": "ahm-shAHlt-mUHklihkh",
+          "french": "Am Schalter möglich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

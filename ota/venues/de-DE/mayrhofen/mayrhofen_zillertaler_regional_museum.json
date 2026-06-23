@@ -1,0 +1,122 @@
+{
+  "id": "mayrhofen_zillertaler_regional_museum",
+  "name_en": "Zillertaler Regional Museum",
+  "name_local": "Zillertaler Heimatmuseum",
+  "icon": "building.columns",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mayrhofen_zillertaler_regional_museum_001",
+      "intent_en": "Is the group discount available now",
+      "text_local": "Gibt es Gruppenrabatt?",
+      "pronunciation": "EEpt-ehs-rUHpuhnrAHbaht",
+      "formality": "standard",
+      "cultural_note": "Assumes standard group size thresholds in Alpine regions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ab 10 Personen.",
+        "pronunciation": "yAHahp-tsEHn-pehrzOHnuhn",
+        "translation_en": "Yes, from 10 persons."
+      },
+      "responses": [
+        {
+          "english": "Yes, from 10 persons.",
+          "phonetic": "yAHahp-tsEHn-pehrzOHnuhn",
+          "french": "Ja, ab 10 Personen."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillertaler_regional_museum_002",
+      "intent_en": "Where do I pay entrance fees",
+      "text_local": "Wo zahle ich den Eintritt?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dehn-EYEntrIHt",
+      "formality": "standard",
+      "cultural_note": "Directs to a staffed counter; typical for small museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillertaler_regional_museum_003",
+      "intent_en": "Where must I leave muddy boots",
+      "text_local": "Wo muss ich die dreckigen Schuhe abstellen?",
+      "pronunciation": "vOH-mUHs-ihkh-dee-drEHkihuhn-shOOuh-AHpshtEHluhn",
+      "formality": "standard",
+      "cultural_note": "Refers to a practical facility near outdoor gear displays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Kellerbereich.",
+        "pronunciation": "ihm-kEHlbuhrEYEkh",
+        "translation_en": "In the cellar area."
+      },
+      "responses": [
+        {
+          "english": "In the cellar area.",
+          "phonetic": "ihm-kEHlbuhrEYEkh",
+          "french": "Im Kellerbereich."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillertaler_regional_museum_004",
+      "intent_en": "Is the audio guide deposit returned",
+      "text_local": "Wird die Audioguide-Kaution erstattet?",
+      "pronunciation": "vIHrt-dee-ehnAWdihUHuheyeddehkowtsyOHn-ehrshtAHtuht",
+      "formality": "standard",
+      "cultural_note": "Common refund policy for rental items in tourism.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit Quittung.",
+        "pronunciation": "yAHmiht-kvIHtuhng",
+        "translation_en": "Yes, with receipt."
+      },
+      "responses": [
+        {
+          "english": "Yes, with receipt.",
+          "phonetic": "yAHmiht-kvIHtuhng",
+          "french": "Ja, mit Quittung."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillertaler_regional_museum_005",
+      "intent_en": "Where is the alpine textile display",
+      "text_local": "Wo ist die alpine Textilausstellung?",
+      "pronunciation": "vOH-ihst-dee-ahlpEEnuh-tEHksteelAHpteyelUHng",
+      "formality": "standard",
+      "cultural_note": "Common signage style in Austrian museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Obergeschoss links.",
+        "pronunciation": "ihm-OHbguhshAWs-lINGks",
+        "translation_en": "Upstairs on the left."
+      },
+      "responses": [
+        {
+          "english": "Upstairs on the left.",
+          "phonetic": "ihm-OHbguhshAWs-lINGks",
+          "french": "Im Obergeschoss links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

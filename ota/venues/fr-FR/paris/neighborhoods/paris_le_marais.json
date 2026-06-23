@@ -1,0 +1,130 @@
+{
+  "id": "hood_le_marais",
+  "name_en": "Le Marais",
+  "name_local": "Le Marais",
+  "icon": "building.2.crop.circle.fill",
+  "phrases": [
+    {
+      "id": "hood_marais_001",
+      "intent_en": "Ask where to find the best falafel",
+      "text_local": "Où trouver le meilleur falafel dans la rue des Rosiers ?",
+      "pronunciation": "oo troo-VAY luh meh-YUHR fah-lah-FEL dahn lah roo day roh-ZYAY",
+      "formality": "casual",
+      "cultural_note": "L'As du Fallafel on Rue des Rosiers always has a line — it's worth it. Chez Hanna across the street is just as good with shorter waits. Get the 'spécial' with everything.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go to Rue des Rosiers, that is the falafel street.",
+          "phonetic": "ah-LAY roo day roh-ZYAY, seh lah roo day fah-lah-FEL",
+          "french": "Allez Rue des Rosiers, c'est la rue des falafels."
+        }
+      ]
+    },
+    {
+      "id": "hood_marais_002",
+      "intent_en": "Ask about the Place des Vosges",
+      "text_local": "C'est par où la Place des Vosges ?",
+      "pronunciation": "seh par OO lah PLAHS day VOHZH",
+      "formality": "standard",
+      "cultural_note": "Place des Vosges (1612) is Paris's oldest planned square. Victor Hugo lived at number 6, now a free museum. Sit on the grass in the center — it's one of the few Paris parks that allows it.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Place des Vosges is at the end of Rue des Francs-Bourgeois.",
+          "phonetic": "lah plass day VOZH eh toh boo duh lah roo day frahn boor-ZHWAH",
+          "french": "La Place des Vosges est au bout de la Rue des Francs-Bourgeois."
+        }
+      ]
+    },
+    {
+      "id": "hood_marais_003",
+      "intent_en": "Ask about vintage and boutique shopping",
+      "text_local": "Où sont les meilleures boutiques vintage ?",
+      "pronunciation": "oo sohn lay meh-YUHR boo-TEEK vahn-TAHZH",
+      "formality": "standard",
+      "cultural_note": "Rue de Sévigné and Rue des Francs-Bourgeois are great for independent boutiques. The Marais is open on Sundays — one of the few Paris neighborhoods where shops don't close.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are lots of vintage shops on Rue de Sévigné.",
+          "phonetic": "eel ee ah plahn duh boo-TEEK vahn-TAHZH dahn lah roo duh say-veen-YAY",
+          "french": "Il y a plein de boutiques vintage dans la Rue de Sévigné."
+        }
+      ]
+    },
+    {
+      "id": "hood_marais_004",
+      "intent_en": "Ask where the nearest taxi stand is",
+      "text_local": "Où est la station de taxi la plus proche ?",
+      "pronunciation": "oo eh lah stah-SYOHN duh tahk-SEE lah ploo prosh",
+      "formality": "polite",
+      "cultural_note": "Taxi stands are marked with blue signs. You can also use apps like G7 or FreeNow.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There is one on Rue de Rivoli, two minutes away.",
+          "phonetic": "eel ee ahn ah oon soor lah roo duh ree-voh-LEE, ah duh mee-NOOT",
+          "french": "Il y en a une sur la rue de Rivoli, à deux minutes."
+        }
+      ]
+    },
+    {
+      "id": "hood_marais_005",
+      "intent_en": "Ask about the Picasso Museum",
+      "text_local": "Le musée Picasso est dans le Marais ?",
+      "pronunciation": "luh moo-ZAY pee-kah-SOH eh dahn luh mah-REH",
+      "formality": "standard",
+      "cultural_note": "The Musée Picasso is in the Hôtel Salé on Rue de Thorigny. It houses over 5,000 works. Less crowded than the major museums and well worth the visit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Picasso Museum is on Rue de Thorigny, five minutes away.",
+          "phonetic": "luh moo-ZAY pee-kah-SOH eh soor lah roo duh toh-reen-YEE, ah sank mee-NOOT",
+          "french": "Le Musée Picasso est sur la Rue de Thorigny, à cinq minutes."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Neighborhood",
+      "word_local": "Quartier",
+      "pronunciation": "kar-TYAY"
+    },
+    {
+      "word_en": "Falafel",
+      "word_local": "Falafel",
+      "pronunciation": "fah-lah-FEL"
+    },
+    {
+      "word_en": "Square/Plaza",
+      "word_local": "Place",
+      "pronunciation": "plahs"
+    },
+    {
+      "word_en": "Vintage",
+      "word_local": "Vintage",
+      "pronunciation": "vahn-TAHZH"
+    },
+    {
+      "word_en": "Boutique/Shop",
+      "word_local": "Boutique",
+      "pronunciation": "boo-TEEK"
+    },
+    {
+      "word_en": "Bakery",
+      "word_local": "Boulangerie",
+      "pronunciation": "boo-lahnzh-REE"
+    },
+    {
+      "word_en": "Mansion/Townhouse",
+      "word_local": "Hôtel particulier",
+      "pronunciation": "oh-TEL par-tee-koo-LYAY"
+    }
+  ]
+}

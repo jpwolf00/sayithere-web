@@ -1,0 +1,98 @@
+{
+  "id": "lausanne_marche",
+  "name_en": "Lausanne Market",
+  "name_local": "Marché de Lausanne",
+  "icon": "basket",
+  "phrases": [
+    {
+      "id": "lausanne_mc_001",
+      "intent_en": "Ask about the main market location",
+      "text_local": "Où se trouve le marché principal ?",
+      "pronunciation": "oo seh TROOV luh mar-SHAY pran-see-PAL",
+      "formality": "polite",
+      "cultural_note": "The main market is at Place de la Palud (Wednesdays and Saturdays) and along Rue de la Mercerie. Local farmers and artisans sell here.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At Place de la Palud, Wednesday and Saturday mornings.",
+          "phonetic": "ah lah PLAHS duh lah pah-LOO, mehr-kruh-DEE ay sahm-DEE mah-TAN",
+          "french": "À la Place de la Palud, mercredi et samedi matin."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_mc_002",
+      "intent_en": "Ask about local produce specialties",
+      "text_local": "Quelles sont les spécialités locales ?",
+      "pronunciation": "kel son lay say-tee-ah-lee-TAY loh-KAL",
+      "formality": "polite",
+      "cultural_note": "Look for Läderach cheese, Swiss chocolate, honey from the Valais, and seasonal fruits. The region is known for wine (Lavaux vineyards nearby).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try the local cheese and Swiss chocolate.",
+          "phonetic": "goo-TAY luh froh-MAHZH lo-KAL ay luh shoh-koh-LAH SWEES",
+          "french": "Goûtez le fromage local et le chocolat suisse."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_mc_003",
+      "intent_en": "Ask about the farmers market",
+      "text_local": "Y a-t-il un marché fermier ?",
+      "pronunciation": "ee-ah-TEEL un mar-SHAY fer-MYAY",
+      "formality": "polite",
+      "cultural_note": "The Wednesday/Saturday market at Place de la Palud is primarily farmers and local producers. Arrive early for the best selection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Wednesday and Saturday mornings, at Place de la Palud.",
+          "phonetic": "mehr-kruh-DEE ay sahm-DEE mah-TAN, ah lah PLAHS duh lah pah-LOO",
+          "french": "Mercredi et samedi matin, à la Place de la Palud."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_mc_004",
+      "intent_en": "Ask about payment methods",
+      "text_local": "Peut-on payer par carte ?",
+      "pronunciation": "puh-TOHN pay-YAY par kart",
+      "formality": "polite",
+      "cultural_note": "Most vendors accept cards, but cash is appreciated for small purchases. Have some Swiss francs on hand for the best experience.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Most accept cards. Bring cash for small stands.",
+          "phonetic": "lah ploo-PAR ak-SEPT lay kart. pray-vwah-YAY doo lee-KEED poor lay puh-TEE stahnd",
+          "french": "La plupart acceptent les cartes. Prévoyez du liquide pour les petits stands."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "market",
+      "word_local": "le marché",
+      "pronunciation": "luh mar-SHAY"
+    },
+    {
+      "word_en": "farmer",
+      "word_local": "le fermier",
+      "pronunciation": "luh fer-MYAY"
+    },
+    {
+      "word_en": "local product",
+      "word_local": "le produit local",
+      "pronunciation": "luh proh-DOO loh-KAL"
+    },
+    {
+      "word_en": "cheese",
+      "word_local": "le fromage",
+      "pronunciation": "luh froh-MAHZH"
+    }
+  ]
+}

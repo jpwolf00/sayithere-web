@@ -1,0 +1,144 @@
+{
+  "id": "tokyo_tokyo_station",
+  "name_en": "Tokyo Station",
+  "name_local": "東京駅",
+  "icon": "tram",
+  "lat": 35.6817085,
+  "lon": 139.7644651,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "tokyo_tokyo_station_001",
+      "intent_en": "Ask if reserved seat tickets are sold here",
+      "text_local": "していせきの きっぷは ここで かえますか？",
+      "pronunciation": "EEtehEEsehkEEnoh-keeppOOh-kohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Pointing at the machine while answering is common.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、このマシンで かえます。",
+        "pronunciation": "hEEkOHnohmEEndeh-kEHmSoo",
+        "translation_en": "Yes, you can buy them at this machine."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can buy them at this machine.",
+          "phonetic": "hEEkOHnohmEEndeh-kEHmSoo",
+          "french": "はい、このマシンで かえます。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_station_002",
+      "intent_en": "Ask how many minutes until the next Tohoku Shinkansen",
+      "text_local": "つぎの とうほくしんかんせんは あと なんぷんですか？",
+      "pronunciation": "tsoogEEnoh-tOHoohOHkooEEngkSehH-Toh-nPOOndehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff give a precise time in minutes, a typical platform interaction.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あと8ぷんです。",
+        "pronunciation": "Toh-hTsee-poondEHsoo",
+        "translation_en": "Eight minutes."
+      },
+      "responses": [
+        {
+          "english": "Eight minutes.",
+          "phonetic": "Toh-hTsee-poondEHsoo",
+          "french": "あと8ぷんです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_station_003",
+      "intent_en": "Ask which platform the Tokaido Line uses",
+      "text_local": "とうかいどうせんは なんばんホームですか？",
+      "pronunciation": "tOHookEEdOHoosehH-nBHOHohmoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "For major lines, multiple platforms are often given.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "7ばんと8ばんホームです。",
+        "pronunciation": "sEEtsee-bNtoh-hTsee-bHOHohmoodEHsoo",
+        "translation_en": "Platforms 7 and 8."
+      },
+      "responses": [
+        {
+          "english": "Platforms 7 and 8.",
+          "phonetic": "sEEtsee-bNtoh-hTsee-bHOHohmoodEHsoo",
+          "french": "7ばんと8ばんホームです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_station_004",
+      "intent_en": "Ask where the Shinkansen ticket office is",
+      "text_local": "しんかんせんの きっぷうりばは どこですか？",
+      "pronunciation": "EEngksEHnnoh-kEEppooooeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often use landmarks like gates rather than compass directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいさつを はいって すぐ みぎです。",
+        "pronunciation": "kEEstsOOoh-hEEtteh-sOOgoo-mEEgeedEHsoo",
+        "translation_en": "Just to the right after you enter the ticket gates."
+      },
+      "responses": [
+        {
+          "english": "Just to the right after you enter the ticket gates.",
+          "phonetic": "kEEstsOOoh-hEEtteh-sOOgoo-mEEgeedEHsoo",
+          "french": "かいさつを はいって すぐ みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_station_005",
+      "intent_en": "Ask if this machine tops up Suica",
+      "text_local": "このきかいで スイカに チャージ できますか？",
+      "pronunciation": "kOHnohkEEkEEdeh-sOOeekNee-tDee-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple affirmative is common; staff may add ‘yo’ for reassurance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、できますよ。",
+        "pronunciation": "hEEdEHkeemsOOyoh",
+        "translation_en": "Yes, you can."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can.",
+          "phonetic": "hEEdEHkeemsOOyoh",
+          "french": "はい、できますよ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_tokyo_station_006",
+      "intent_en": "Ask if the locker accepts IC cards",
+      "text_local": "このロッカーは アイシーカードが つかえますか？",
+      "pronunciation": "kOHnohohkkH-EEEEkdOHg-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Most station lockers now accept IC cards, so a simple yes is typical.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、つかえます。",
+        "pronunciation": "hEEtsOOkehmSoo",
+        "translation_en": "Yes, you can use it."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can use it.",
+          "phonetic": "hEEtsOOkehmSoo",
+          "french": "はい、つかえます。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

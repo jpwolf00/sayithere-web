@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_neighbourhood_saint_cyprien",
+  "name_en": "Saint-Cyprien Quarter",
+  "name_local": "Quartier Saint-Cyprien",
+  "icon": "building.2",
+  "lat": 43.5999,
+  "lon": 1.4297,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "toulouse_stcyp_001",
+      "intent_en": "Ask if the Les Abattoirs modern art museum is nearby",
+      "text_local": "Est-ce que le musée Les Abattoirs est proche d'ici ?",
+      "pronunciation": "es-kuh luh myoo-ZAY lay-ZAH-bah-TWAHR eh PROSH dee-SEE",
+      "formality": "polite",
+      "cultural_note": "Les Abattoirs, a former slaughterhouse converted into a modern and contemporary art museum, is one of Saint-Cyprien's cultural anchors.",
+      "responses": [
+        {
+          "english": "Yes, ten minutes walk, toward the quays.",
+          "phonetic": "ES suh kuh luh moo-ZAY lay za-ba-TWAHR ES PROSH dee-SEE",
+          "french": "Oui, dix minutes à pied, vers les quais."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_stcyp_002",
+      "intent_en": "Ask where the Sunday morning flea market is held",
+      "text_local": "Où se tient le marché aux puces le dimanche matin dans ce quartier ?",
+      "pronunciation": "oo suh TYAN luh mar-SHAY oh PYOOS luh dee-MAHNSH mah-TAN dahn suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Saint-Cyprien's Sunday market along the allées Charles-de-Fitte is one of the most popular in Toulouse.",
+      "responses": [
+        {
+          "english": "It is at Saint-Cyprien square, behind the church.",
+          "phonetic": "OO suh TYAN luh MAR-shay o PYOOS luh dee-MANSH ma-TAN dan suh kar-TYAY",
+          "french": "Il se place Saint-Cyprien, juste derrière l'église."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_stcyp_003",
+      "intent_en": "Ask a café owner if they have wifi",
+      "text_local": "Est-ce que vous avez une connexion wifi pour les clients ?",
+      "pronunciation": "es-kuh voo-ZAH-vay yoon koh-nek-SYON WEE-fee poor lay klee-AHN",
+      "formality": "polite",
+      "cultural_note": "Saint-Cyprien has a lively café scene popular with students and artists from the nearby art school.",
+      "responses": [
+        {
+          "english": "Yes, code indicated on the ticket.",
+          "phonetic": "bawn-ZHOOR AH-vay voo luh weye-FEYE",
+          "french": "Oui, code indiqué sur le ticket."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_stcyp_004",
+      "intent_en": "Ask for directions to the Garonne river bank from here",
+      "text_local": "Pourriez-vous m'indiquer le chemin vers les berges de la Garonne ?",
+      "pronunciation": "poo-RYAY-voo mahn-dee-KAY luh shuh-MAN vair lay BAIRZH duh lah gah-RON",
+      "formality": "polite",
+      "cultural_note": "The Garonne river banks (berges) in Saint-Cyprien are popular for evening walks and have been landscaped with gardens and cycle paths.",
+      "responses": [
+        {
+          "english": "Go straight down towards the river, five minutes.",
+          "phonetic": "poor-YAY voo man-dee-KAY luh SHMAN shuh-MAN VAIR l",
+          "french": "Descendez tout droit vers la rivière, à cinq minutes."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_stcyp_005",
+      "intent_en": "Ask if there is a good tapas bar in this neighbourhood",
+      "text_local": "Y a-t-il un bon bar à tapas dans ce quartier ?",
+      "pronunciation": "ee-ah-TEEL un bohn BAR ah tah-PAHS dahn suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "The proximity of Toulouse to Spain and the Basque Country means tapas bars are common and popular, especially in Saint-Cyprien.",
+      "responses": [
+        {
+          "english": "Yes, there is an excellent tapas bar on Saint-Cyprien square.",
+          "phonetic": "ee-GREK ah tay eel uhn BON bar ah TA-pah dah(n) suh kar-TYAY",
+          "french": "Oui, il y a un excellent bar à tapas sur la place Saint-Cyprien."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "riverbank",
+      "word_local": "les berges",
+      "pronunciation": "lay BAIRZH"
+    },
+    {
+      "word_en": "modern art",
+      "word_local": "l'art moderne",
+      "pronunciation": "lar moh-DAIRN"
+    },
+    {
+      "word_en": "tapas bar",
+      "word_local": "le bar à tapas",
+      "pronunciation": "luh BAR ah tah-PAHS"
+    },
+    {
+      "word_en": "wi-fi",
+      "word_local": "le wifi",
+      "pronunciation": "luh WEE-fee"
+    }
+  ]
+}

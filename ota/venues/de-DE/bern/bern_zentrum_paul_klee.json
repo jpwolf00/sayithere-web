@@ -1,0 +1,122 @@
+{
+  "id": "bern_zentrum_paul_klee",
+  "name_en": "Zentrum Paul Klee",
+  "name_local": "Zentrum Paul Klee",
+  "icon": "building.columns",
+  "lat": 46.9490228,
+  "lon": 7.4743876,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bern_zentrum_paul_klee_001",
+      "intent_en": "Where does the special exhibition queue form",
+      "text_local": "Wo bildet sich die Warteschlange für Sonderausstellungen?",
+      "pronunciation": "vOH-bIHlduht-zihkh-dee-vAHrtehshlAHnguh-fuer-zAWndehrOWsshtuhlUHnguhn",
+      "formality": "standard",
+      "cultural_note": "German museums often route special exhibition visitors to dedicated counters separate from regular admissions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Sonderausstellungs-Schalter.",
+        "pronunciation": "ahm-zAWndehrOWsshtuhlUHngsshAHlt",
+        "translation_en": "At the special exhibition counter."
+      },
+      "responses": [
+        {
+          "english": "At the special exhibition counter.",
+          "phonetic": "ahm-zAWndehrOWsshtuhlUHngsshAHlt",
+          "french": "Am Sonderausstellungs-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "bern_zentrum_paul_klee_002",
+      "intent_en": "Where is the Creative Credo display room",
+      "text_local": "Wo finde ich die Creative Credo-Seiten?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-krEHahtEEvuh-krEHdohzEYEtuhn",
+      "formality": "standard",
+      "cultural_note": "In German museums, specific exhibits are usually located in designated exhibition rooms, not at a single fixed point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Ausstellungssaal.",
+        "pronunciation": "ihm-OWsshtEHluhngsAHl",
+        "translation_en": "In the exhibition hall."
+      },
+      "responses": [
+        {
+          "english": "In the exhibition hall.",
+          "phonetic": "ihm-OWsshtEHluhngsAHl",
+          "french": "Im Ausstellungssaal."
+        }
+      ]
+    },
+    {
+      "id": "bern_zentrum_paul_klee_003",
+      "intent_en": "Is the audio guide included or extra",
+      "text_local": "Kostet der Audioguide extra?",
+      "pronunciation": "kAWstuht-dehr-ehnAWdihUHuheyeddeh-EHkstrah",
+      "formality": "standard",
+      "cultural_note": "In many European museums, audio guides are rented separately unless part of a special ticket package.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, zusätzlich.",
+        "pronunciation": "yAHtsoozEHtslihkh",
+        "translation_en": "Yes, extra charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, extra charge.",
+          "phonetic": "yAHtsoozEHtslihkh",
+          "french": "Ja, zusätzlich."
+        }
+      ]
+    },
+    {
+      "id": "bern_zentrum_paul_klee_004",
+      "intent_en": "Does entrance cover Bauhaus collection too",
+      "text_local": "Ist die Bauhaus-Sammlung im Eintritt enthalten?",
+      "pronunciation": "ihst-dee-bOWhowszAHmluhng-ihm-EYEntrIHt-ehnthAHltuhn",
+      "formality": "standard",
+      "cultural_note": "Major exhibitions and collections are typically covered by the standard entrance fee in Swiss museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Eintritt inklusive.",
+        "pronunciation": "yAHihm-EYEntrIHt-ihnkloozEEvuh",
+        "translation_en": "Yes, included in admission."
+      },
+      "responses": [
+        {
+          "english": "Yes, included in admission.",
+          "phonetic": "yAHihm-EYEntrIHt-ihnkloozEEvuh",
+          "french": "Ja, im Eintritt inklusive."
+        }
+      ]
+    },
+    {
+      "id": "bern_zentrum_paul_klee_005",
+      "intent_en": "Where is the Renzo Piano architecture viewpoint",
+      "text_local": "Wo ist der Aussichtspunkt für das Renzo-Piano-Gebäude?",
+      "pronunciation": "vOH-ihst-dehr-OWszIHkhtspuhngkt-fuer-dahs-rEHntsohpeeAHnohuhbAWuhduh",
+      "formality": "standard",
+      "cultural_note": "Architectural viewpoints in museums are often located at elevated levels to provide perspective on the building design.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Obergeschoss.",
+        "pronunciation": "ihm-OHbuhshAWs",
+        "translation_en": "On the upper floor."
+      },
+      "responses": [
+        {
+          "english": "On the upper floor.",
+          "phonetic": "ihm-OHbuhshAWs",
+          "french": "Im Obergeschoss."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

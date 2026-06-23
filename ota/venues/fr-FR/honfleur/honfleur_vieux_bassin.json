@@ -1,0 +1,118 @@
+{
+  "id": "honfleur_vieux_bassin",
+  "name_en": "Old Harbour (Vieux Bassin)",
+  "name_local": "Le Vieux Bassin de Honfleur",
+  "icon": "sailboat",
+  "lat": 49.4188,
+  "lon": 0.2333,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "honfleur_vbassin_001",
+      "intent_en": "Ask where to board a harbour boat tour",
+      "text_local": "Où prend-on le bateau pour la promenade en mer ?",
+      "pronunciation": "oo prahn-TOHN luh bah-TOH poor lah proh-muh-NAD ahn MEHR",
+      "formality": "polite",
+      "cultural_note": "Short harbour boat trips depart from the Vieux Bassin quayside.",
+      "responses": [
+        {
+          "english": "At the quay, just over there.",
+          "phonetic": "oh KEH, zhoost lah-BAH",
+          "french": "Au quai, juste là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_vbassin_002",
+      "intent_en": "Ask where to board a harbour boat tour",
+      "text_local": "Où peut-on embarquer pour une promenade en bateau dans le bassin ?",
+      "pronunciation": "oo puh-TOHN ahm-bar-KAY poor oon prohm-NAHD ahn bah-TOH dahn luh bah-SAHN",
+      "formality": "polite",
+      "cultural_note": "Short boat tours of the old harbour and the Seine estuary depart from the quayside. They are especially popular at high tide when the reflections of the colourful houses in the water are most vivid.",
+      "responses": [
+        {
+          "english": "At the quay, just over there.",
+          "phonetic": "oh KEH, zhoost lah-BAH",
+          "french": "Au quai, juste là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_vbassin_003",
+      "intent_en": "Ask about the best time to photograph the reflections",
+      "text_local": "À quel moment de la journée les reflets dans le bassin sont-ils les plus beaux ?",
+      "pronunciation": "ah kel moh-MAHN duh lah zhoor-NAY lay ruh-FLAY dahn luh bah-SAHN sohn-teel lay ploo BOH",
+      "formality": "polite",
+      "cultural_note": "The famous reflections of the Quai Sainte-Catherine in the harbour water are best at dawn or early evening when the light is warm and lateral. At midday, direct overhead sun flattens the colours.",
+      "responses": [
+        {
+          "english": "Early morning, when it's calm.",
+          "phonetic": "TOH luh mah-TEHN, kahn seh KALM",
+          "french": "Tôt le matin, quand c'est calme."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_vbassin_004",
+      "intent_en": "Ask for a restaurant recommendation on the quay",
+      "text_local": "Pouvez-vous recommander un restaurant sur le quai ?",
+      "pronunciation": "poo-VAY-voo ruh-koh-mahn-DAY uhn res-toh-RAHN soor luh KEH",
+      "formality": "polite",
+      "cultural_note": "The quayside restaurants around the Vieux Bassin serve fresh seafood and traditional Norman cuisine.",
+      "responses": [
+        {
+          "english": "Try that one, the seafood is good.",
+          "phonetic": "eh-seh-YAY suh-LWEE-LAH, lay FRWEE duh MEHR sohn BOHN",
+          "french": "Essayez celui-là, les fruits de mer sont bons."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_vbassin_005",
+      "intent_en": "Ask about seafood restaurants on the quay",
+      "text_local": "Pouvez-vous me recommander un restaurant de fruits de mer sur le quai ?",
+      "pronunciation": "poo-vay-VOO muh ruh-koh-mahn-DAY uhn res-toh-RAHN duh FRWEE duh MAIR soor luh KAY",
+      "formality": "polite",
+      "cultural_note": "The Quai Sainte-Catherine is lined with seafood restaurants. Look for freshly caught sole normande, moules marinières, and plateaux de fruits de mer. Prices are higher here than in side streets but the harbour view is unmatched.",
+      "responses": [
+        {
+          "english": "There are several on the quay.",
+          "phonetic": "eel ee ahn ah ploo-ZYUHR soor luh KEH",
+          "french": "Il y en a plusieurs sur le quai."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "old harbour",
+      "word_local": "le vieux bassin",
+      "pronunciation": "luh VYUH bah-SAHN"
+    },
+    {
+      "word_en": "quay",
+      "word_local": "le quai",
+      "pronunciation": "luh KAY"
+    },
+    {
+      "word_en": "slate",
+      "word_local": "l'ardoise",
+      "pronunciation": "lar-DWAZ"
+    },
+    {
+      "word_en": "reflection",
+      "word_local": "le reflet",
+      "pronunciation": "luh ruh-FLAY"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "venue_la_samaritaine",
+  "name_en": "La Samaritaine",
+  "name_local": "La Samaritaine",
+  "icon": "bag.fill",
+  "phrases": [
+    {
+      "id": "venue_la_samaritaine_001",
+      "intent_en": "Ask where the rooftop terrace is",
+      "text_local": "Où se trouve la terrasse panoramique sur le toit ?",
+      "pronunciation": "oo suh TROOV lah teh-RAHS pah-noh-rah-MEEK soor luh TWAH",
+      "formality": "polite",
+      "cultural_note": "La Samaritaine has a public rooftop terrace accessible from the upper floors, offering views over the Seine, Notre-Dame, and central Paris. The terrace is associated with the Cheval Blanc hotel at the top of the building, but the viewing platform is accessible to shoppers during store hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The terrace is on the top floor, take the elevator.",
+          "phonetic": "lah teh-RASS eh toh dehr-NYAY ay-TAHZH, pruh-NAY lah-sahn-SUHR",
+          "french": "La terrasse est au dernier étage, prenez l'ascenseur."
+        }
+      ]
+    },
+    {
+      "id": "venue_la_samaritaine_002",
+      "intent_en": "Ask what the opening hours are today",
+      "text_local": "Quels sont les horaires d'ouverture aujourd'hui ?",
+      "pronunciation": "kel sohn layz oh-REHR doo-vehr-TOOR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Opening hours can vary on Sundays and holidays. Check before making a special trip.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "We are open from ten to eight today.",
+          "phonetic": "ohn eh oo-VEHR duh deez uhr ah vant uhr oh-zhoor-DWEE",
+          "french": "On est ouvert de dix heures à vingt heures aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "venue_la_samaritaine_003",
+      "intent_en": "Ask where the DFS duty-free section is",
+      "text_local": "Où se trouve l'espace DFS détaxe ?",
+      "pronunciation": "oo suh TROOV less-PAHS day-ef-ESS day-TAKS",
+      "formality": "polite",
+      "cultural_note": "La Samaritaine houses a DFS (Duty Free Stores) section, which is LVMH's international luxury duty-free brand. Non-EU visitors can take advantage of tax refunds and in some cases duty-free pricing on luxury goods including perfume, cosmetics, leather goods, and watches.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "DFS is in the basement, at the bottom of the escalator.",
+          "phonetic": "luh day-eff-ess eh toh soo-sol, ahn bah duh les-kah-lah-TOHR",
+          "french": "Le DFS est au sous-sol, en bas de l'escalator."
+        }
+      ]
+    },
+    {
+      "id": "venue_la_samaritaine_004",
+      "intent_en": "Ask where the perfume and beauty section is",
+      "text_local": "Où se trouve le rayon parfums et beauté ?",
+      "pronunciation": "oo suh TROOV luh ray-YOHN par-FAN ay boh-TAY",
+      "formality": "polite",
+      "cultural_note": "The beauty and fragrance floors at La Samaritaine carry the full range of LVMH brands (Dior, Givenchy, Guerlain) alongside other luxury perfumers. The store's central atrium with its original Art Nouveau glass roof is most visible from the beauty floor levels — look up.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Perfumes are on the ground floor, to the right of the entrance.",
+          "phonetic": "lay par-FUHN sohn toh ray-duh-shoh-SAY, ah drwaht duh lan-TRAY",
+          "french": "Les parfums sont au rez-de-chaussée, à droite de l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "venue_la_samaritaine_005",
+      "intent_en": "Ask how to get to Pont-Neuf from the store",
+      "text_local": "Comment rejoindre le Pont-Neuf depuis le magasin ?",
+      "pronunciation": "koh-MAHN ruh-ZHWAHN-druh luh pohn-NUF duh-PWEE luh mah-gah-ZEHN",
+      "formality": "standard",
+      "cultural_note": "La Samaritaine is located at 9 Rue de la Monnaie, directly beside Pont-Neuf — Paris's oldest bridge, completed in 1607. Exit the store toward the Seine and you're immediately on the bridge. A view of the store's striking glass-and-metal facade from Pont-Neuf is one of the best architectural photo spots in central Paris.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Exit by the Seine-side door, Pont-Neuf is right in front.",
+          "phonetic": "sor-TAY par lah port koh-TAY sen, luh pohn NUHF eh zhoost ahn fass",
+          "french": "Sortez par la porte côté Seine, le Pont-Neuf est juste en face."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Art Nouveau",
+      "word_local": "Art Nouveau",
+      "pronunciation": "ar noo-VOH"
+    },
+    {
+      "word_en": "Art Deco",
+      "word_local": "Art Déco",
+      "pronunciation": "ar day-KOH"
+    },
+    {
+      "word_en": "Rooftop terrace",
+      "word_local": "Terrasse sur le toit",
+      "pronunciation": "teh-RAHS soor luh TWAH"
+    },
+    {
+      "word_en": "Duty-free",
+      "word_local": "Détaxe / Hors taxe",
+      "pronunciation": "day-TAKS / or TAKS"
+    },
+    {
+      "word_en": "Atrium",
+      "word_local": "Atrium",
+      "pronunciation": "ah-TREE-om"
+    },
+    {
+      "word_en": "Perfume",
+      "word_local": "Parfum",
+      "pronunciation": "par-FAN"
+    },
+    {
+      "word_en": "Heritage building",
+      "word_local": "Bâtiment classé",
+      "pronunciation": "bah-tee-MAHN klah-SAY"
+    },
+    {
+      "word_en": "Renovation",
+      "word_local": "Rénovation",
+      "pronunciation": "ray-noh-vah-SYOHN"
+    }
+  ]
+}

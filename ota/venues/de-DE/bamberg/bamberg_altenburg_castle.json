@@ -1,0 +1,100 @@
+{
+  "id": "bamberg_altenburg_castle",
+  "name_en": "Altenburg Castle",
+  "name_local": "Burg Altenburg",
+  "icon": "building.columns",
+  "lat": 49.880507,
+  "lon": 10.8692152,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "bamberg_altenburg_castle_001",
+      "intent_en": "Is the courtyard café open today?",
+      "text_local": "Hat das Café im Burghof heute geöffnet?",
+      "pronunciation": "haht-dahs-kahfEH-ihm-bUHuhkhohf-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Opening hours for venue facilities are typically posted near the service point or queried directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis 18 Uhr.",
+        "pronunciation": "yAHbihs-AHkhtsehn-OOr",
+        "translation_en": "Yes, until 6 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 6 PM.",
+          "phonetic": "yAHbihs-AHkhtsehn-OOr",
+          "french": "Ja, bis 18 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_altenburg_castle_002",
+      "intent_en": "Can I climb the watchtower?",
+      "text_local": "Darf ich den Wachtturm besteigen?",
+      "pronunciation": "dAHrf-ihkh-dehn-vAHkhtuhuhm-buhshtEYEuhn",
+      "formality": "standard",
+      "cultural_note": "Access to towers often requires guided tours due to safety and preservation regulations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur mit Führung.",
+        "pronunciation": "nOOr-miht-fUEruhng",
+        "translation_en": "Only with a tour."
+      },
+      "responses": [
+        {
+          "english": "Only with a tour.",
+          "phonetic": "nOOr-miht-fUEruhng",
+          "french": "Nur mit Führung."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_altenburg_castle_003",
+      "intent_en": "How do I book the knight's hall for events?",
+      "text_local": "Wie buche ich den Rittersaal für Veranstaltungen?",
+      "pronunciation": "vee-bOOkhuh-ihkh-dehn-rIHtzAHl-fuer-fehrAHnshtAHltuhnguhn",
+      "formality": "standard",
+      "cultural_note": "Event bookings for historic halls are managed by venue staff rather than public signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie beim Verwalter nach.",
+        "pronunciation": "frAHuhn-zee-beyem-fehrvAHlt-nAHkh",
+        "translation_en": "Ask the administrator."
+      },
+      "responses": [
+        {
+          "english": "Ask the administrator.",
+          "phonetic": "frAHuhn-zee-beyem-fehrvAHlt-nAHkh",
+          "french": "Fragen Sie beim Verwalter nach."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_altenburg_castle_004",
+      "intent_en": "Where is the Rittersaal entrance?",
+      "text_local": "Wo ist der Eingang zum Rittersaal?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-rIHtzAHl",
+      "formality": "standard",
+      "cultural_note": "Directions to named targets in historic castles often omit micro-navigation details due to uneven terrain.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Burghof.",
+        "pronunciation": "ahm-bUHuhkhohf",
+        "translation_en": "At the courtyard."
+      },
+      "responses": [
+        {
+          "english": "At the courtyard.",
+          "phonetic": "ahm-bUHuhkhohf",
+          "french": "Am Burghof."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

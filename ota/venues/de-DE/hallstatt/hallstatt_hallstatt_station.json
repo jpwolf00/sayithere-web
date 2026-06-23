@@ -1,0 +1,122 @@
+{
+  "id": "hallstatt_hallstatt_station",
+  "name_en": "Hallstatt Station",
+  "name_local": "Bahnhof Hallstatt",
+  "icon": "tram",
+  "lat": 47.5347939,
+  "lon": 13.5988875,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hallstatt_hallstatt_station_001",
+      "intent_en": "Ask where the UNESCO World Heritage Site trail starts",
+      "text_local": "Wo beginnt der UNESCO-Welterbe-Pfad?",
+      "pronunciation": "vOH-buhIHnt-dehr-UHnEHskohvEHltbuhpfAHt",
+      "formality": "standard",
+      "cultural_note": "Der Weg startet nahe der Evangelischen Kirche Hallstatt; Schilder führen dorthin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter dem Bahnhof links.",
+        "pronunciation": "hIHnt-dehm-bAHnhohf-lINGks",
+        "translation_en": "Behind the station to the left."
+      },
+      "responses": [
+        {
+          "english": "Behind the station to the left.",
+          "phonetic": "hIHnt-dehm-bAHnhohf-lINGks",
+          "french": "Hinter dem Bahnhof links."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_station_002",
+      "intent_en": "Ask where ferry tickets are sold",
+      "text_local": "Wo bekomme ich Fährkarten?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-fEHrkahrtuhn",
+      "formality": "casual",
+      "cultural_note": "Fährkarten werden direkt am Anleger verkauft, nicht im Bahnhof selbst.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter am Steg.",
+        "pronunciation": "ahm-shAHlt-ahm-shtEHk",
+        "translation_en": "At the dock counter."
+      },
+      "responses": [
+        {
+          "english": "At the dock counter.",
+          "phonetic": "ahm-shAHlt-ahm-shtEHk",
+          "french": "Am Schalter am Steg."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_station_003",
+      "intent_en": "Ask when the next train to Hallstatt arrives",
+      "text_local": "Wann kommt der nächste Zug?",
+      "pronunciation": "vAHn-kAWmt-dehr-nEHkhstuh-tsOOk",
+      "formality": "casual",
+      "cultural_note": "Zugfahrpläne werden am Bahnhof oder online angezeigt; lokale Mitarbeiter geben Auskunft.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In 15 Minuten.",
+        "pronunciation": "ihn-fUEnftsehn-meenOOtuhn",
+        "translation_en": "In 15 minutes."
+      },
+      "responses": [
+        {
+          "english": "In 15 minutes.",
+          "phonetic": "ihn-fUEnftsehn-meenOOtuhn",
+          "french": "In 15 Minuten."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_station_004",
+      "intent_en": "Ask how to validate train tickets",
+      "text_local": "Wie entwerten ich mein Ticket?",
+      "pronunciation": "vee-ehntvEHrtuhn-ihkh-meyen-tIHkuht",
+      "formality": "standard",
+      "cultural_note": "Tickets müssen vor der Fahrt entwertet werden; Entwerter stehen sichtbar im Bereich der Gleise.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten am Bahnsteig.",
+        "pronunciation": "ahm-OWtohmAHtuhn-ahm-bAHnsteyek",
+        "translation_en": "At the machine on the platform."
+      },
+      "responses": [
+        {
+          "english": "At the machine on the platform.",
+          "phonetic": "ahm-OWtohmAHtuhn-ahm-bAHnsteyek",
+          "french": "Am Automaten am Bahnsteig."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_station_005",
+      "intent_en": "Ask if salt mine tour admission is available today",
+      "text_local": "Gibt es heute Eintritt für die Salzbergwerk-Tour?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-EYEntrIHt-fuer-dee-zAHltsbvEHrktOOr",
+      "formality": "standard",
+      "cultural_note": "Eintritte werden am Infoschalter oder online verkauft; Verfügbarkeit hängt von der Saison ab.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "istanbul_chora_church_museum",
+  "name_en": "Chora Church Museum",
+  "name_local": "Kariye Camii Müzesi",
+  "icon": "building.columns",
+  "lat": 41.0294,
+  "lon": 28.9407,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "istanbul_chora_church_museum_001",
+      "intent_en": "Is entry free for mosque visitors?",
+      "text_local": "Cami ziyaretçileri için giriş ücretsiz mi?",
+      "pronunciation": "dzhahmIH-zeeyahrehttsheelehrIH-eetshIHn-eerIHsh-uhdzhrEHtsihz-mih",
+      "formality": "standard",
+      "cultural_note": "Current status from venue context confirms mosque entry is free.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, cami girişi ücretsiz.",
+        "pronunciation": "ehvEHtdzhahmIH-eereeshIH-uhdzhrEHtsihz",
+        "translation_en": "Yes, mosque entry is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, mosque entry is free.",
+          "phonetic": "ehvEHtdzhahmIH-eereeshIH-uhdzhrEHtsihz",
+          "french": "Evet, cami girişi ücretsiz."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_chora_church_museum_002",
+      "intent_en": "Where is the Edirnekapı entrance?",
+      "text_local": "Edirnekapı girişi nerede?",
+      "pronunciation": "ehdihrnehkahpOO-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The venue context does not specify an 'Edirnekapı entrance' position, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Caminin arka tarafından.",
+        "pronunciation": "dzhahmeenIHn-ahrkAH-tahrahfoondAHn",
+        "translation_en": "From the back side of the mosque."
+      },
+      "responses": [
+        {
+          "english": "From the back side of the mosque.",
+          "phonetic": "dzhahmeenIHn-ahrkAH-tahrahfoondAHn",
+          "french": "Caminin arka tarafından."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_chora_church_museum_003",
+      "intent_en": "Where is the best fresco viewing spot?",
+      "text_local": "En iyi fresk izleme noktası nerede?",
+      "pronunciation": "AHn-eeyEE-frEHsk-IHzlehmeh-nawktahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "No specific viewing spot is listed in the venue context, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İç nartekste, apsis kubbesinde.",
+        "pronunciation": "IHtsh-nahrtehkstEHahpsIHs-koobehsihndEH",
+        "translation_en": "In the inner narthex, on the apse dome."
+      },
+      "responses": [
+        {
+          "english": "In the inner narthex, on the apse dome.",
+          "phonetic": "IHtsh-nahrtehkstEHahpsIHs-koobehsihndEH",
+          "french": "İç nartekste, apsis kubbesinde."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_chora_church_museum_004",
+      "intent_en": "How do I book a guided tour?",
+      "text_local": "Rehberli tura nasıl katılabilirim?",
+      "pronunciation": "rehhbehrlIH-tUHr-nahsOO-rehzehrvEH-ehdeelIHr",
+      "formality": "standard",
+      "cultural_note": "Booking process details are not in the venue context, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmadan rezervasyon yapın.",
+        "pronunciation": "dahnOOshmahdahn-rehzehrvahsyAWn-yahpOOn",
+        "translation_en": "Make a reservation at the information desk."
+      },
+      "responses": [
+        {
+          "english": "Make a reservation at the information desk.",
+          "phonetic": "dahnOOshmahdahn-rehzehrvahsyAWn-yahpOOn",
+          "french": "Danışmadan rezervasyon yapın."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

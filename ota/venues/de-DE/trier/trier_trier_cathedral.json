@@ -1,0 +1,100 @@
+{
+  "id": "trier_trier_cathedral",
+  "name_en": "Trier Cathedral",
+  "name_local": "Trierer Dom",
+  "icon": "building.columns",
+  "lat": 49.759659,
+  "lon": 6.6441651,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "trier_trier_cathedral_001",
+      "intent_en": "How do I donate at the cathedral donation box?",
+      "text_local": "Wie kann ich in den Opferstock spenden?",
+      "pronunciation": "vee-kAHn-ihkh-ihn-dehn-AWpfstAWk-shpEHnduhn",
+      "formality": "standard",
+      "cultural_note": "Spenden in Kirchen sind üblich und erfolgen diskret in bereitgestellte Opferstöcke.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geben Sie Ihr Geld in den Kasten.",
+        "pronunciation": "EHbuhn-zee-eer-EHlt-ihn-dehn-kAHstuhn",
+        "translation_en": "Put money in the box."
+      },
+      "responses": [
+        {
+          "english": "Put money in the box.",
+          "phonetic": "EHbuhn-zee-eer-EHlt-ihn-dehn-kAHstuhn",
+          "french": "Geben Sie Ihr Geld in den Kasten."
+        }
+      ]
+    },
+    {
+      "id": "trier_trier_cathedral_002",
+      "intent_en": "Where are the imperial palace ruins from nave?",
+      "text_local": "Wo sind die Kaiserpalastruinen von der Kathedrale aus?",
+      "pronunciation": "vOH-zihnt-dee-kEYEzpAHlahstrooEEnuhn-fawn-dehr-dAWmkihrkhuh-OWs",
+      "formality": "standard",
+      "cultural_note": "Die Ruinen sind Teil des UNESCO-Weltkulturerbes und werden durch Hinweisschilder im Außenbereich des Doms gekennzeichnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter der Liebfrauenkirche.",
+        "pronunciation": "hIHnt-dehr-lEEpfrowEHnkihrkhuh",
+        "translation_en": "Behind the Church of Our Lady."
+      },
+      "responses": [
+        {
+          "english": "Behind the Church of Our Lady.",
+          "phonetic": "hIHnt-dehr-lEEpfrowEHnkihrkhuh",
+          "french": "Hinter der Liebfrauenkirche."
+        }
+      ]
+    },
+    {
+      "id": "trier_trier_cathedral_003",
+      "intent_en": "Is the UNESCO audio guide available after Mass?",
+      "text_local": "Gibt es den UNESCO-Audioguide nach der Messe?",
+      "pronunciation": "EEpt-ehs-dehn-UHnEHskohehnAWdihUHuheyeddeh-nahkh-dehr-mEHsuh",
+      "formality": "standard",
+      "cultural_note": "Audioguides werden oft an der Information oder einem bereitgestellten Schalter nach Hauptveranstaltungen angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "trier_trier_cathedral_004",
+      "intent_en": "Where is the St. Peter cloister access?",
+      "text_local": "Wo ist der Zugang zum Peterskloster?",
+      "pronunciation": "vOH-ihst-dehr-tsOOahng-tsuhm-pEHtsklAWst",
+      "formality": "standard",
+      "cultural_note": "Der Zugang zum Peterskloster erfolgt über den Bereich des Domschatzes, wo Personal Auskunft erteilt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Durch die Liebfrauenkirche hindurch.",
+        "pronunciation": "duhuhkh-dee-lEEpfrowEHnkihrkhuh-hIHnduhuhkh",
+        "translation_en": "Through the Liebfrauenkirche."
+      },
+      "responses": [
+        {
+          "english": "Through the Liebfrauenkirche.",
+          "phonetic": "duhuhkh-dee-lEEpfrowEHnkihrkhuh-hIHnduhuhkh",
+          "french": "Durch die Liebfrauenkirche hindurch."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

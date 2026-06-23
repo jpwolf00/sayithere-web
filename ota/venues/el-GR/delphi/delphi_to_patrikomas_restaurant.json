@@ -1,0 +1,188 @@
+{
+  "id": "delphi_to_patrikomas_restaurant",
+  "name_en": "To Patrikomas Restaurant",
+  "name_local": "Το Πατρικόμας",
+  "icon": "fork.knife",
+  "lat": 38.4811538,
+  "lon": 22.5005486,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "delphi_to_patrikomas_restaurant_001",
+      "intent_en": "Do you have kleftiko today?",
+      "text_local": "Έχετε κλέφτικο σήμερα;",
+      "pronunciation": "EHkhehtEH-klEHfteekOH-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Uses 'κλέφτικο' for lamb kleftiko as per local menu phrasing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχουν μερίδες.",
+        "pronunciation": "nEHeepAHrkhoon-mehrEEthehs",
+        "translation_en": "Yes, portions available."
+      },
+      "responses": [
+        {
+          "english": "Yes, portions available.",
+          "phonetic": "nEHeepAHrkhoon-mehrEEthehs",
+          "french": "Ναι, υπάρχουν μερίδες."
+        }
+      ]
+    },
+    {
+      "id": "delphi_to_patrikomas_restaurant_002",
+      "intent_en": "Extra charge for bread and dips?",
+      "text_local": "Υπάρχει επιπλέον χρέωση για ψωμί και μεζέδες;",
+      "pronunciation": "eepAHrkhee-EHpeeplEHohn-khrEHohsEE-yAH-psohmEE-keh-sAHltsehs",
+      "formality": "standard",
+      "cultural_note": "Counter refers to the service point mentioned in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι",
+        "pronunciation": "nEH",
+        "translation_en": "Yes"
+      },
+      "responses": [
+        {
+          "english": "Yes",
+          "phonetic": "nEH",
+          "french": "Ναι"
+        }
+      ]
+    },
+    {
+      "id": "delphi_to_patrikomas_restaurant_003",
+      "intent_en": "Do you accept cards or cash only?",
+      "text_local": "Παίρνετε κάρτα ή μόνο μετρητά;",
+      "pronunciation": "pEHrnehtEH-kAHrtah-ee-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Peak season timing is implied by 'στην κορφή', a common local expression for busy periods.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "delphi_to_patrikomas_restaurant_004",
+      "intent_en": "How do I order the shared cheese portion?",
+      "text_local": "Πώς παραγγέλνω την κοινή μερίδα τυριών;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-toh-eenOH-mehrEEthah-tEEreeOHn",
+      "formality": "standard",
+      "cultural_note": "Counter refers to the staff point mentioned in the venue context ('pay at counter').",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Απλά ζητήστε κοινή μερίδα τυριών.",
+        "pronunciation": "ahplAH-zeetEEsteh-eenEE-mehrEEthah-tEEreeOHn",
+        "translation_en": "Just ask for a shared cheese portion."
+      },
+      "responses": [
+        {
+          "english": "Just ask for a shared cheese portion.",
+          "phonetic": "ahplAH-zeetEEsteh-eenEE-mehrEEthah-tEEreeOHn",
+          "french": "Απλά ζητήστε κοινή μερίδα τυριών."
+        }
+      ]
+    },
+    {
+      "id": "delphi_to_patrikomas_restaurant_005",
+      "intent_en": "Pay at table or counter?",
+      "text_local": "Πληρώνω στο τραπέζι ή στον πάγκο;",
+      "pronunciation": "pleerOHnoh-stoh-trahpEHzee-ee-stohm-bAHnggoh",
+      "formality": "standard",
+      "cultural_note": "Counter aligns with the venue's 'pay at counter' service point.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Στον πάγκο.",
+        "pronunciation": "stohm-bAHnggoh",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "stohm-bAHnggoh",
+          "french": "Στον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "delphi_to_patrikomas_restaurant_006",
+      "intent_en": "Is the valley terrace open now?",
+      "text_local": "Λειτουργεί η βουνοπλαγιά τώρα;",
+      "pronunciation": "lEEtooryEE-ee-vOOnohplahyAH-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Alternative phrasing for terrace availability aligning with local terminology.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, λειτουργεί.",
+        "pronunciation": "nEHlEEtooryEE",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "nEHlEEtooryEE",
+          "french": "Ναι, λειτουργεί."
+        }
+      ]
+    },
+    {
+      "id": "delphi_to_patrikomas_restaurant_007",
+      "intent_en": "Is the lamb kleftiko available today?",
+      "text_local": "Υπάρχει σήμερα κλέφτικο αρνί;",
+      "pronunciation": "eepAHrkhee-sEEmehrAH-klEHfteekOH-ahrnEE",
+      "formality": "standard",
+      "cultural_note": "Use 'κλέφτικο αρνί' for the dish, aligning with local menu terminology.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, είναι διαθέσιμο.",
+        "pronunciation": "nEHEEneh-thEEahthEHseemOH",
+        "translation_en": "Yes, it's available."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's available.",
+          "phonetic": "nEHEEneh-thEEahthEHseemOH",
+          "french": "Ναι, είναι διαθέσιμο."
+        }
+      ]
+    },
+    {
+      "id": "delphi_to_patrikomas_restaurant_008",
+      "intent_en": "Is the valley view terrace open now?",
+      "text_local": "Είναι ανοιχτή η βουνοπλαγιάς σήμερα;",
+      "pronunciation": "EEneh-AHneekhtEE-ee-vOOnohplahyAHs-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Valley view terrace is referred to as 'βουνοπλαγιάς' in local context.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτή.",
+        "pronunciation": "nEHEEneh-AHneekhtEE",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "nEHEEneh-AHneekhtEE",
+          "french": "Ναι, είναι ανοιχτή."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

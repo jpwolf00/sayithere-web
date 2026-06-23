@@ -1,0 +1,115 @@
+{
+  "id": "lyon_cathedrale_saint_jean",
+  "name_en": "Saint-Jean Cathedral",
+  "name_local": "Cathédrale Saint-Jean",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "lyon_saint_jean_001",
+      "intent_en": "Ask about the astronomical clock inside",
+      "text_local": "Où se trouve l'horloge astronomique à l'intérieur ?",
+      "pronunciation": "oo suh TROOV lor-LOHZH as-troh-noh-MEEK ah lan-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "The cathedral's 14th-century astronomical clock is one of the oldest in France. It strikes at noon, 14h, 15h, and 16h, with an automaton show of the Annunciation.",
+      "responses": [
+        {
+          "english": "In the transept, on the left.",
+          "phonetic": "dahn luh trahn-SEP, soor lah GOHSH",
+          "french": "Dans le transept, sur la gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_saint_jean_002",
+      "intent_en": "Ask if the cathedral is free to visit",
+      "text_local": "L'entrée de la cathédrale est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY duh lah kah-tay-DRAL eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Cathédrale Saint-Jean-Baptiste is free to enter. It is an active place of worship.",
+      "responses": [
+        {
+          "english": "Yes, it's free.",
+          "phonetic": "wee, seh grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_saint_jean_003",
+      "intent_en": "Ask if photos are allowed inside",
+      "text_local": "Peut-on prendre des photos à l'intérieur ?",
+      "pronunciation": "puh-TOHN PRAHN-druh day foh-TOH ah lehn-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Photography is generally allowed inside the cathedral, without flash and outside of services.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_saint_jean_004",
+      "intent_en": "Ask when the next Mass takes place",
+      "text_local": "À quelle heure est la prochaine messe, s'il vous plaît ?",
+      "pronunciation": "ah kel UR eh lah pro-SHEHN MES, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The cathedral is an active place of Catholic worship. Mass is held daily, with additional services on Sundays and feast days. Visitors are welcome but should be respectful during services.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_saint_jean_005",
+      "intent_en": "Ask about the funicular stop nearby",
+      "text_local": "Le funiculaire pour Fourvière est-il proche d'ici ?",
+      "pronunciation": "luh foo-nee-koo-LAIR poor for-VYAIR eh-TEEL PROSH dee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Vieux Lyon funicular station is just steps from the cathedral, making Cathédrale Saint-Jean a natural starting point for a visit that combines Vieux Lyon with the Fourvière hilltop.",
+      "responses": [
+        {
+          "english": "Right across, Place Saint-Jean.",
+          "phonetic": "zhoost ahn FAHSS, PLAHS sant-ZHAHN",
+          "french": "Juste en face, place Saint-Jean."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "astronomical clock",
+      "word_local": "l'horloge astronomique",
+      "pronunciation": "lor-LOHZH as-troh-noh-MEEK"
+    },
+    {
+      "word_en": "stained glass window",
+      "word_local": "le vitrail",
+      "pronunciation": "luh vee-TRYE"
+    },
+    {
+      "word_en": "rose window",
+      "word_local": "la rosace",
+      "pronunciation": "lah roh-ZAS"
+    }
+  ]
+}

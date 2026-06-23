@@ -1,0 +1,100 @@
+{
+  "id": "kyoto_ippudo_ramen_kyoto",
+  "name_en": "Ippudo Ramen Kyoto",
+  "name_local": "一風堂 京都駅前店",
+  "icon": "fork.knife",
+  "lat": 35.0049169,
+  "lon": 135.7613808,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kyoto_ippudo_ramen_kyoto_001",
+      "intent_en": "Where to order extra drink?",
+      "text_local": "のみものの ついかちゅうもんは？",
+      "pronunciation": "nOHmeemohnOHnoh-tsOOeekTooOOmohH",
+      "formality": "standard",
+      "cultural_note": "While ramen is ordered via ticket, additional drinks and side dishes are often ordered directly from the hall staff at the counter or table.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "テーブルの メニューで どうぞ。",
+        "pronunciation": "tEHehbooOOnoh-mehnOOoodeh-dohOOzoh",
+        "translation_en": "Please use the menu on the table."
+      },
+      "responses": [
+        {
+          "english": "Please use the menu on the table.",
+          "phonetic": "tEHehbooOOnoh-mehnOOoodeh-dohOOzoh",
+          "french": "テーブルの メニューで どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_ippudo_ramen_kyoto_002",
+      "intent_en": "Is Akamaru available now?",
+      "text_local": "あかまるは いま ありますか？",
+      "pronunciation": "KmOOh-EEm-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Akamaru Modern is a signature Ippudo ramen with a richer, bolder tonkotsu broth and special miso paste.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あります。",
+        "pronunciation": "hEEEEmSoo",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "hEEEEmSoo",
+          "french": "はい、あります。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_ippudo_ramen_kyoto_003",
+      "intent_en": "Cash only at machine?",
+      "text_local": "けんばいきは げんきんだけ？",
+      "pronunciation": "kEHbEEkEEh-gEHngkeendKeh",
+      "formality": "standard",
+      "cultural_note": "Ticket machines at many ramen shops in Japan are often cash-only, even if counter staff can take cards for other payments.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_ippudo_ramen_kyoto_004",
+      "intent_en": "How to use ticket machine?",
+      "text_local": "けんばいきの つかいかたは？",
+      "pronunciation": "kEHbEEkEEnoh-tsOOkEEktH",
+      "formality": "standard",
+      "cultural_note": "Many ramen shops use a ticket vending machine (食券機) where you pay first and hand the ticket to staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おかねを いれて、ボタンを おして、けんを とってください。",
+        "pronunciation": "OHknEHoh-eeEHtehbOHtOH-ohEEtehkehOH-tOHttehkOOdsEE",
+        "translation_en": "Insert money, press the button, and take the ticket."
+      },
+      "responses": [
+        {
+          "english": "Insert money, press the button, and take the ticket.",
+          "phonetic": "OHknEHoh-eeEHtehbOHtOH-ohEEtehkehOH-tOHttehkOOdsEE",
+          "french": "おかねを いれて、ボタンを おして、けんを とってください。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

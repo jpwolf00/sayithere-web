@@ -1,0 +1,144 @@
+{
+  "id": "ankara_samur_market",
+  "name_en": "Samur Market",
+  "name_local": "Samur Çarşısı",
+  "icon": "cart",
+  "lat": 39.9207759,
+  "lon": 32.8540497,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "ankara_samur_market_001",
+      "intent_en": "Can I bargain for bulk purchases?",
+      "text_local": "Toplu alımda pazarlık olur mu?",
+      "pronunciation": "tawpUH-AHoomdah-pahzahrOOk-ohUHr-muh",
+      "formality": "standard",
+      "cultural_note": "Bargaining is a common practice in Turkish markets, but the margin is often small for already low prices.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Azıcık olur.",
+        "pronunciation": "ahzoodzhOOk-ohUHr",
+        "translation_en": "A little is possible."
+      },
+      "responses": [
+        {
+          "english": "A little is possible.",
+          "phonetic": "ahzoodzhOOk-ohUHr",
+          "french": "Azıcık olur."
+        }
+      ]
+    },
+    {
+      "id": "ankara_samur_market_002",
+      "intent_en": "Do you accept credit cards?",
+      "text_local": "Kredi kartı geçerli mi?",
+      "pronunciation": "krehdIH-kahrtOO-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Venue context explicitly states 'Kredi kartı geçmez'; small market stalls often prefer cash.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kredi kartı geçmez.",
+        "pronunciation": "krehdIH-kahrtOO-ehtshmEHz",
+        "translation_en": "Credit cards are not accepted."
+      },
+      "responses": [
+        {
+          "english": "Credit cards are not accepted.",
+          "phonetic": "krehdIH-kahrtOO-ehtshmEHz",
+          "french": "Kredi kartı geçmez."
+        }
+      ]
+    },
+    {
+      "id": "ankara_samur_market_003",
+      "intent_en": "Where is Samur Kapısı entrance?",
+      "text_local": "Samur Kapısı ana giriş nerede?",
+      "pronunciation": "sahmUHr-kahpoosOO-ahnAH-eerIHsh-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Markets often have multiple entrances. The main gate's location relative to other landmarks is best confirmed locally.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tam karşınızda.",
+        "pronunciation": "tAHm-kAHrshoonoozdah",
+        "translation_en": "Right in front of you."
+      },
+      "responses": [
+        {
+          "english": "Right in front of you.",
+          "phonetic": "tAHm-kAHrshoonoozdah",
+          "french": "Tam karşınızda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_samur_market_004",
+      "intent_en": "Where is the Kasaplar sırası?",
+      "text_local": "Kasaplar sırası nerede?",
+      "pronunciation": "kahsahpAHr-soorahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "A 'sıra' refers to a row of shops. Its exact location within the market can be complex to describe.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "O tarafta.",
+        "pronunciation": "aw-tahrahftAH",
+        "translation_en": "Over there."
+      },
+      "responses": [
+        {
+          "english": "Over there.",
+          "phonetic": "aw-tahrahftAH",
+          "french": "O tarafta."
+        }
+      ]
+    },
+    {
+      "id": "ankara_samur_market_005",
+      "intent_en": "Do you accept credit cards?",
+      "text_local": "Kredi kartı geçiyor mu?",
+      "pronunciation": "krehdIH-kahrtOO-ehtshEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "In traditional Turkish markets (çarşı), cash is often preferred, especially at smaller stalls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kredi kartı geçmez.",
+        "pronunciation": "krehdIH-kahrtOO-ehtshmEHz",
+        "translation_en": "Credit cards are not accepted."
+      },
+      "responses": [
+        {
+          "english": "Credit cards are not accepted.",
+          "phonetic": "krehdIH-kahrtOO-ehtshmEHz",
+          "french": "Kredi kartı geçmez."
+        }
+      ]
+    },
+    {
+      "id": "ankara_samur_market_006",
+      "intent_en": "Where is Manavlar Sokağı?",
+      "text_local": "Manavlar Sokağı nerede?",
+      "pronunciation": "mahnahvAHr-sohkahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish markets can be labyrinthine; asking a central information point is the most reliable method.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sağ tarafta.",
+        "pronunciation": "sAH-tahrahftAH",
+        "translation_en": "On the right side."
+      },
+      "responses": [
+        {
+          "english": "On the right side.",
+          "phonetic": "sAH-tahrahftAH",
+          "french": "Sağ tarafta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

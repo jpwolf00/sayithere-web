@@ -1,0 +1,115 @@
+{
+  "id": "saint_malo_intramuros_hood",
+  "name_en": "Intra-Muros / Walled City",
+  "name_local": "Intra-Muros",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "saintmalo_intra_001",
+      "intent_en": "Ask what there is to do inside the walls",
+      "text_local": "Qu’est-ce qu’il y a à voir dans Intra-Muros ?",
+      "pronunciation": "kuh puh-TOH FAIR ah lan-tay-RYUHR day rahn-PAR",
+      "formality": "polite",
+      "cultural_note": "Intra-Muros is a car-free zone with narrow streets, shops, restaurants, museums, and the cathedral. Allow at least half a day to explore.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The ramparts, the cathedral, and the cobblestone streets.",
+          "phonetic": "say tun spay-see-ah-lee-TAY oo oon par-tee-kew-lah-ree-TAY loh-KAL",
+          "french": "Visitez les remparts, la cathédrale Saint-Vincent et la maison de corsaire. Les ruelles pavées valent le détour !"
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_intra_002",
+      "intent_en": "Ask about the best time to visit the walled city",
+      "text_local": "Quelle est la meilleure heure pour visiter la ville close ?",
+      "pronunciation": "kel eh lah may-YUR UHR poor vee-zee-TAY lah VEEL kloz",
+      "formality": "polite",
+      "cultural_note": "Early morning (before 10am) is best for photos and peaceful walks. Summer evenings are magical when the walls are lit up.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Early morning to avoid crowds, or in the evening to see the illuminated walls.",
+          "phonetic": "say too-VER zhoos-KAH vahn-DUR ur",
+          "french": "Le matin tôt pour éviter la foule, ou en soirée pour voir les remparts illuminés."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_intra_003",
+      "intent_en": "Ask where to find the best crepes in the city",
+      "text_local": "Où est la plage du Sillon ?",
+      "pronunciation": "oo son lay may-YUR KREP duh lah VEEL",
+      "formality": "polite",
+      "cultural_note": "Saint-Malo is in Brittany, famous for crepes and cider. Look for 'crêperie' signs in the narrow streets off the main square.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are excellent creperies on Corne de Cerf Street.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Suivez la rue de la Corne de Cerf jusqu’aux remparts, puis tournez à gauche vers la digue. La plage est juste après."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_intra_004",
+      "intent_en": "Ask about parking outside the walls",
+      "text_local": "Où peut-on garer à l'extérieur des remparts ?",
+      "pronunciation": "oo puh-TOH gar-AY ah lekstay-RYUHR day rahn-PAR",
+      "formality": "polite",
+      "cultural_note": "There are several parking lots just outside the walls: the main one at Bas-Sablon (near the ferry terminal), and another near the Porte de Dinan.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There is free parking near the Saint-Vincent gate.",
+          "phonetic": "luh par-KING eh soo luh bah-tee-MAHN",
+          "french": "Plusieurs parkings sont disponibles à l'extérieur des remparts. Le parking du Bas-Sablon est très proche, tout comme celui du Sillon. Ils sont tous deux accessibles à quelques minutes à pied de la porte principale."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_intra_005",
+      "intent_en": "Ask about the corsair walk and treasure hunt",
+      "text_local": "Pouvez-vous me parler de la promenade des corsaires ?",
+      "pronunciation": "poo-VAY voo muh pro-meh-NAD day kor-SAHR",
+      "formality": "polite",
+      "cultural_note": "The 'Parcours des Corsaires' is a themed walking route with 12 stops explaining the corsair history. Pick up a map at the tourist office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "",
+          "french": "La promenade des Corsaires est un parcours de 12 étapes dans Intra-Muros. Vous trouverez une carte à l'office de tourisme pour découvrir l'histoire des corsaires."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "walled city",
+      "word_local": "la ville close",
+      "pronunciation": "lah VEEL kloz"
+    },
+    {
+      "word_en": "corsair",
+      "word_local": "le corsaire",
+      "pronunciation": "leh kor-SAHR"
+    },
+    {
+      "word_en": "crepe",
+      "word_local": "la crêpe",
+      "pronunciation": "lah KREP"
+    },
+    {
+      "word_en": "car-free",
+      "word_local": "sans voiture",
+      "pronunciation": "sahn vwah-TOOR"
+    }
+  ]
+}

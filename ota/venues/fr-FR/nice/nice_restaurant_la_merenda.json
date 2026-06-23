@@ -1,0 +1,118 @@
+{
+  "id": "nice_restaurant_la_merenda",
+  "name_en": "La Merenda Restaurant",
+  "name_local": "La Merenda",
+  "icon": "fork.knife",
+  "lat": 43.6966,
+  "lon": 7.2762,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "nice_merenda_001",
+      "intent_en": "Ask if a table for two is available",
+      "text_local": "Auriez-vous une table pour deux personnes, s'il vous plaît ?",
+      "pronunciation": "oh-RYAY voo oon TAB-leh poor duh pehr-SON seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "La Merenda is tiny and legendary — no phone, no credit cards, no reservations. Arrive early or queue.",
+      "responses": [
+        {
+          "english": "Yes, have a seat.",
+          "phonetic": "wee ahn-stah-LAY-VOO",
+          "french": "Oui, installez-vous."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_merenda_002",
+      "intent_en": "Ask what the dish of the day is",
+      "text_local": "Quel est le plat du jour aujourd'hui ?",
+      "pronunciation": "kel eh leh PLAH doo ZHOOR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "La Merenda serves strictly seasonal Niçois cuisine — the menu changes with what the market offers that morning.",
+      "responses": [
+        {
+          "english": "Today it is the stockfish.",
+          "phonetic": "oh-zhoor-DWEE say luh stok-FEESH",
+          "french": "Aujourd'hui, c'est le stockfisch."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_merenda_003",
+      "intent_en": "Ask if the stocafi (salt cod) is available today",
+      "text_local": "Le stocafi est-il au menu aujourd'hui ?",
+      "pronunciation": "leh sto-kah-FEE eh-TEEL oh meh-NOO oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Stocafi (dried salt cod with olives and capers) is a classic Niçois dish rarely found in tourist restaurants.",
+      "responses": [
+        {
+          "english": "Yes, we still have some.",
+          "phonetic": "wee eel noo zahn REST",
+          "french": "Oui, il nous en reste."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_merenda_004",
+      "intent_en": "Ask for a carafe of local rosé wine",
+      "text_local": "Pourriez-vous nous apporter une carafe de rosé local, s'il vous plaît ?",
+      "pronunciation": "poo-RYAY voo noo za-por-TAY oon kah-RAF deh ro-ZAY lo-KAL seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Provençal rosé — especially from Bellet, Nice's own small AOC appellation — pairs perfectly with Niçois food.",
+      "responses": [
+        {
+          "english": "A Provence rosé?",
+          "phonetic": "uhn roh-ZAY duh proh-VAHNSS",
+          "french": "Un rosé de Provence ?"
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_merenda_005",
+      "intent_en": "Ask if they only accept cash",
+      "text_local": "N'acceptez-vous que les espèces comme moyen de paiement ?",
+      "pronunciation": "nak-sep-TAY voo keh lay zes-PES kom mwah-YAN deh pay-MAN",
+      "formality": "polite",
+      "cultural_note": "La Merenda famously does not accept cards or cheques — bring cash in exact amounts if possible.",
+      "responses": [
+        {
+          "english": "Yes, we only take cash.",
+          "phonetic": "wee ohn nuh PRAHN kuh lay zes-PESS",
+          "french": "Oui, on ne prend que les espèces."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "dish of the day",
+      "word_local": "le plat du jour",
+      "pronunciation": "leh PLAH doo ZHOOR"
+    },
+    {
+      "word_en": "cash only",
+      "word_local": "espèces uniquement",
+      "pronunciation": "es-PES oo-neek-MAN"
+    },
+    {
+      "word_en": "carafe (of wine)",
+      "word_local": "la carafe",
+      "pronunciation": "lah kah-RAF"
+    },
+    {
+      "word_en": "local speciality",
+      "word_local": "la spécialité locale",
+      "pronunciation": "lah spay-syah-lee-TAY lo-KAL"
+    }
+  ]
+}

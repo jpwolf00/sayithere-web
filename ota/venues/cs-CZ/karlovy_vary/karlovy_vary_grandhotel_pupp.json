@@ -1,0 +1,100 @@
+{
+  "id": "karlovy_vary_grandhotel_pupp",
+  "name_en": "Grandhotel Pupp",
+  "name_local": "Grandhotel Pupp",
+  "icon": "building.columns",
+  "lat": 50.2191472,
+  "lon": 12.8787735,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "karlovy_vary_grandhotel_pupp_001",
+      "intent_en": "Is Becher's Bar open tonight?",
+      "text_local": "Má Becher's Bar dnes večer otevřeno?",
+      "pronunciation": "mah-bEHkhehrs-bAHr-dnEHs-vEHtshehr-OHtehvrEHnoh",
+      "formality": "standard",
+      "cultural_note": "Staff give direct yes/no answers with a closing time when asked.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, do půlnoci.",
+        "pronunciation": "AHnohdOHpoolnOHtsee",
+        "translation_en": "Yes, until midnight."
+      },
+      "responses": [
+        {
+          "english": "Yes, until midnight.",
+          "phonetic": "AHnohdOHpoolnOHtsee",
+          "french": "Ano, do půlnoci."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_grandhotel_pupp_002",
+      "intent_en": "Where is the spa treatment desk?",
+      "text_local": "Kde je recepce spa?",
+      "pronunciation": "kdEH-yeh-rEHtsehptseh-spAH",
+      "formality": "standard",
+      "cultural_note": "Czech directions often use landmarks like the main reception desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vlevo za hlavní recepcí, po schodech dolů.",
+        "pronunciation": "vlEHvoh-zAHhlahvnyee-rEHtsehptseepOHskhohdehgh-dOHloo",
+        "translation_en": "Left past the main reception, down the stairs."
+      },
+      "responses": [
+        {
+          "english": "Left past the main reception, down the stairs.",
+          "phonetic": "vlEHvoh-zAHhlahvnyee-rEHtsehptseepOHskhohdehgh-dOHloo",
+          "french": "Vlevo za hlavní recepcí, po schodech dolů."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_grandhotel_pupp_003",
+      "intent_en": "How do I reserve at Grand Restaurant?",
+      "text_local": "Jak si mohu rezervovat Grand Restaurant?",
+      "pronunciation": "yAHk-see-mOHhoo-rEHzehrvOHvahd-grAHnd-rEHstowrahnt",
+      "formality": "standard",
+      "cultural_note": "Internal hotel phone extensions are commonly used for restaurant bookings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zavolejte na linku 1100 nebo se stavte u concierge.",
+        "pronunciation": "zAHvohlAYteh-nAHleengkoo-EEseets-stOH-nEHboh-seh-stAHfteh-OO-tsOHntseeEHrgeh",
+        "translation_en": "Call extension 1100 or stop by the concierge."
+      },
+      "responses": [
+        {
+          "english": "Call extension 1100 or stop by the concierge.",
+          "phonetic": "zAHvohlAYteh-nAHleengkoo-EEseets-stOH-nEHboh-seh-stAHfteh-OO-tsOHntseeEHrgeh",
+          "french": "Zavolejte na linku 1100 nebo se stavte u concierge."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_grandhotel_pupp_004",
+      "intent_en": "Where was Casino Royale filmed?",
+      "text_local": "Kde se natáčel Casino Royale?",
+      "pronunciation": "kdEH-seh-nAHtahtshehl-tsAHseenoh-rOHeeAHleh",
+      "formality": "standard",
+      "cultural_note": "Locals refer to the connected building by its historic name.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V Hotelu Splendide, vedlejší budově napravo.",
+        "pronunciation": "v-hOHtehloo-splEHneedehvEHdlayshee-bOOdohvyeh-nAHprahvoh",
+        "translation_en": "In Hotel Splendide, the next building on the right."
+      },
+      "responses": [
+        {
+          "english": "In Hotel Splendide, the next building on the right.",
+          "phonetic": "v-hOHtehloo-splEHneedehvEHdlayshee-bOOdohvyeh-nAHprahvoh",
+          "french": "V Hotelu Splendide, vedlejší budově napravo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,125 @@
+{
+  "id": "venue_sacre_coeur",
+  "name_en": "Sacré-Cœur Basilica",
+  "name_local": "Basilique du Sacré-Cœur",
+  "icon": "building.fill",
+  "phrases": [
+    {
+      "id": "venue_sacre_coeur_001",
+      "intent_en": "Ask if entry to the basilica is free",
+      "text_local": "L'entrée de la basilique est gratuite ?",
+      "pronunciation": "lahn-TRAY duh lah bah-zee-LEEK eh grah-TWEET",
+      "formality": "standard",
+      "cultural_note": "Entry to the basilica is free. Only the dome climb has a fee (around 7 euros). The dome offers one of the best 360-degree views of Paris.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry to the basilica is free.",
+          "phonetic": "wee, lan-TRAY duh lah bah-zee-LEEK eh grah-TWEET",
+          "french": "Oui, l'entrée de la basilique est gratuite."
+        }
+      ]
+    },
+    {
+      "id": "venue_sacre_coeur_002",
+      "intent_en": "Ask how to access the dome",
+      "text_local": "Comment accéder au dôme ?",
+      "pronunciation": "koh-MAHN ahk-say-DAY oh DOHM",
+      "formality": "standard",
+      "cultural_note": "The dome access is via 300 narrow spiral steps — no elevator. The entrance is outside the basilica on the left side. Less crowded than the Eiffel Tower with equally stunning views.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The dome entrance is outside, on the left side.",
+          "phonetic": "lan-TRAY doo dohm eh tah lex-tay-RYUHR, soor luh koh-TAY gohsh",
+          "french": "L'entrée du dôme est à l'extérieur, sur le côté gauche."
+        }
+      ]
+    },
+    {
+      "id": "venue_sacre_coeur_003",
+      "intent_en": "Ask about the Montmartre artists nearby",
+      "text_local": "Où est la Place du Tertre avec les artistes ?",
+      "pronunciation": "oo eh lah PLAHS doo TEHR-truh ah-VEK layz ar-TEEST",
+      "formality": "standard",
+      "cultural_note": "Place du Tertre is just behind the basilica. Artists have painted here since Picasso's day. Agree on a price before sitting for a portrait — it's not cheap.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Place du Tertre is right behind the basilica.",
+          "phonetic": "lah plass doo TEHR-truh eh zhoost deh-RYEHR lah bah-zee-LEEK",
+          "french": "La Place du Tertre est juste derrière la basilique."
+        }
+      ]
+    },
+    {
+      "id": "venue_sacre_coeur_004",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Est-ce qu'on peut prendre des photos à l'intérieur ?",
+      "pronunciation": "ess kohn puh PRAHNDR day FOH-toh ah lahn-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Photography is not allowed inside the basilica out of respect for worshippers. You can take photos from the parvis (terrace) outside with its stunning view.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, photos are not allowed inside.",
+          "phonetic": "nohn, lay foh-TOH nuh sohn pahz oh-toh-ree-ZAY ah lan-tay-RYUHR",
+          "french": "Non, les photos ne sont pas autorisées à l'intérieur."
+        }
+      ]
+    },
+    {
+      "id": "venue_sacre_coeur_005",
+      "intent_en": "Ask about the funicular",
+      "text_local": "Où est le funiculaire pour monter ?",
+      "pronunciation": "oo eh luh foo-nee-koo-LEHR poor mohn-TAY",
+      "formality": "standard",
+      "cultural_note": "The Montmartre funicular runs with a regular metro ticket and saves you the 222-step climb. The station is at the base of the hill on Rue Foyatier.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The funicular is at the bottom of the hill, on Rue Foyatier.",
+          "phonetic": "luh foo-nee-koo-LEHR eh tahn bah duh lah koh-LEEN, soor lah roo fwah-yah-TYAY",
+          "french": "Le funiculaire est en bas de la colline, sur la Rue Foyatier."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Basilica",
+      "word_local": "Basilique",
+      "pronunciation": "bah-zee-LEEK"
+    },
+    {
+      "word_en": "Dome",
+      "word_local": "Dôme",
+      "pronunciation": "dohm"
+    },
+    {
+      "word_en": "Free (no cost)",
+      "word_local": "Gratuit(e)",
+      "pronunciation": "grah-TWEET"
+    },
+    {
+      "word_en": "Funicular",
+      "word_local": "Funiculaire",
+      "pronunciation": "foo-nee-koo-LEHR"
+    },
+    {
+      "word_en": "Artist",
+      "word_local": "Artiste",
+      "pronunciation": "ar-TEEST"
+    },
+    {
+      "word_en": "Terrace/Square",
+      "word_local": "Parvis",
+      "pronunciation": "par-VEE"
+    }
+  ]
+}

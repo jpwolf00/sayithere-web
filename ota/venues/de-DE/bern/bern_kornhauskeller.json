@@ -1,0 +1,122 @@
+{
+  "id": "bern_kornhauskeller",
+  "name_en": "Kornhauskeller",
+  "name_local": "Kornhauskeller",
+  "icon": "fork.knife",
+  "lat": 46.9486879,
+  "lon": 7.4472497,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bern_kornhauskeller_001",
+      "intent_en": "Order Emmental fondue for table",
+      "text_local": "Wir möchten Emmentaler Fondue für unseren Tisch.",
+      "pronunciation": "veer-mUHkhtuhn-EHmuhntAHl-fawndUE-fuer-UHnzuhruhn-tIHsh",
+      "formality": "casual",
+      "cultural_note": "Fondue wird frisch zubereitet und ist für Gruppen beliebt.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Für wie viele Personen?",
+        "pronunciation": "fuer-vee-fEEluh-pehrzOHnuhn",
+        "translation_en": "For how many people?"
+      },
+      "responses": [
+        {
+          "english": "For how many people?",
+          "phonetic": "fuer-vee-fEEluh-pehrzOHnuhn",
+          "french": "Für wie viele Personen?"
+        }
+      ]
+    },
+    {
+      "id": "bern_kornhauskeller_002",
+      "intent_en": "Find Hobelkäse slicing station",
+      "text_local": "Wo wird Hobelkäse geschnitten?",
+      "pronunciation": "vOH-vIHrt-hOHbuhlkEHzuh-uhshnIHtuhn",
+      "formality": "standard",
+      "cultural_note": "Hobelkäse wird frisch an der Käsetheke serviert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Käsetheke.",
+        "pronunciation": "ahn-dehr-kEHzehtEHkuh",
+        "translation_en": "At the cheese counter."
+      },
+      "responses": [
+        {
+          "english": "At the cheese counter.",
+          "phonetic": "ahn-dehr-kEHzehtEHkuh",
+          "french": "An der Käsetheke."
+        }
+      ]
+    },
+    {
+      "id": "bern_kornhauskeller_003",
+      "intent_en": "Reserve dinner in Grosse Saal",
+      "text_local": "Kann ich für heute Abend im Grosse Saal reservieren?",
+      "pronunciation": "kAHn-ihkh-fuer-hAWuhtuh-AHbuhnt-ihm-rAWsuh-zAHl-rEHzehrvEEruhn",
+      "formality": "standard",
+      "cultural_note": "Reservierungen werden direkt über den Gastgeber angenommen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, für wie viele Personen?",
+        "pronunciation": "yAHfuer-vee-fEEluh-pehrzOHnuhn",
+        "translation_en": "Yes, for how many people?"
+      },
+      "responses": [
+        {
+          "english": "Yes, for how many people?",
+          "phonetic": "yAHfuer-vee-fEEluh-pehrzOHnuhn",
+          "french": "Ja, für wie viele Personen?"
+        }
+      ]
+    },
+    {
+      "id": "bern_kornhauskeller_004",
+      "intent_en": "Buy wine cellar tour ticket",
+      "text_local": "Wo gibt es Tickets für die Wein Kellerführung?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fuer-dee-vEYEn-kEHlfUEruhng",
+      "formality": "standard",
+      "cultural_note": "Tickets werden am Empfang oder Schalter verkauft.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "bern_kornhauskeller_005",
+      "intent_en": "Pay bar tab separately from dinner",
+      "text_local": "Kann die Bar separat abgerechnet werden?",
+      "pronunciation": "kAHn-dee-bAHr-zEHpahrAHt-AHpuhrEHkhnuht-vEHrduhn",
+      "formality": "standard",
+      "cultural_note": "Getrennte Abrechnung für Bar und Restaurant üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, möglich.",
+        "pronunciation": "yAHmUHklihkh",
+        "translation_en": "Yes, possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, possible.",
+          "phonetic": "yAHmUHklihkh",
+          "french": "Ja, möglich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

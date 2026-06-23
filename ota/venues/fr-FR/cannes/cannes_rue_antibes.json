@@ -1,0 +1,118 @@
+{
+  "id": "cannes_rue_antibes",
+  "name_en": "Rue d'Antibes – Shopping Street",
+  "name_local": "Rue d'Antibes",
+  "icon": "bag",
+  "lat": 43.5527,
+  "lon": 7.0241,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "cannes_rue_antibes_001",
+      "intent_en": "Ask where the main luxury boutiques are on this street",
+      "text_local": "Où se trouvent les principales boutiques de luxe sur la rue d'Antibes ?",
+      "pronunciation": "oo seh TROOV lay pran-see-PAL boo-TEEK deh LYOOKS soor lah ROO dan-TEEB",
+      "formality": "polite",
+      "cultural_note": "Rue d'Antibes is Cannes' main shopping street — a 1.5km stretch with fashion, jewellery and lifestyle boutiques.",
+      "responses": [
+        {
+          "english": "Toward the middle of the street.",
+          "phonetic": "vehr luh mee-LYUH duh lah ROO",
+          "french": "Vers le milieu de la rue."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_rue_antibes_002",
+      "intent_en": "Ask if there is a department store on this street",
+      "text_local": "Y a-t-il un grand magasin sur la rue d'Antibes ?",
+      "pronunciation": "ee ah-TEEL un gran mah-gah-ZAN soor lah ROO dan-TEEB",
+      "formality": "polite",
+      "cultural_note": "Galeries Lafayette has a branch on Rue d'Antibes — good for French fashion, cosmetics and gifts.",
+      "responses": [
+        {
+          "english": "No, but there are shopping arcades.",
+          "phonetic": "nohn, meh eel ee ah day gah-luh-REE",
+          "french": "Non, mais il y a des galeries."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_rue_antibes_003",
+      "intent_en": "Ask if shops are open on Sunday",
+      "text_local": "Les boutiques de la rue d'Antibes sont-elles ouvertes le dimanche ?",
+      "pronunciation": "lay boo-TEEK deh lah ROO dan-TEEB son-TEL oo-VEHRT leh dee-MANSH",
+      "formality": "polite",
+      "cultural_note": "Many shops on Rue d'Antibes open on Sundays in tourist season — unusual in France where Sunday trading is restricted.",
+      "responses": [
+        {
+          "english": "No, closed on Sunday.",
+          "phonetic": "nohn, fehr-MAY luh dee-MAHNSH",
+          "french": "Non, fermé le dimanche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_rue_antibes_004",
+      "intent_en": "Ask if they do tax-free shopping",
+      "text_local": "Proposez-vous la détaxe pour les achats des touristes étrangers ?",
+      "pronunciation": "pro-po-ZAY voo lah day-TAKS poor lay za-SHA day too-REEST ay-tran-ZHAY",
+      "formality": "polite",
+      "cultural_note": "Non-EU visitors spending over €100 in one store can claim back French VAT (TVA) — ask for a détaxe form at the till.",
+      "responses": [
+        {
+          "english": "Yes, at the checkout with your passport.",
+          "phonetic": "wee, ah lah KESS ah-VEK voh-truh pass-POR",
+          "french": "Oui, à la caisse avec votre passeport."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_rue_antibes_005",
+      "intent_en": "Ask for directions to the nearest shoe shop",
+      "text_local": "Pourriez-vous m'indiquer le magasin de chaussures le plus proche ?",
+      "pronunciation": "poo-RYAY voo man-dee-KAY leh mah-gah-ZAN deh shoh-SOOR leh ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "French shoe shopping is a pleasure — look for local brands like André and Minelli alongside international names.",
+      "responses": [
+        {
+          "english": "A bit further down, on the left.",
+          "phonetic": "uhn puh ploo BAH, soor lah GOHSH",
+          "french": "Un peu plus bas, sur la gauche."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "boutique / shop",
+      "word_local": "la boutique",
+      "pronunciation": "lah boo-TEEK"
+    },
+    {
+      "word_en": "department store",
+      "word_local": "le grand magasin",
+      "pronunciation": "leh gran mah-gah-ZAN"
+    },
+    {
+      "word_en": "tax refund",
+      "word_local": "la détaxe",
+      "pronunciation": "lah day-TAKS"
+    },
+    {
+      "word_en": "fitting room",
+      "word_local": "la cabine d'essayage",
+      "pronunciation": "lah kah-BEEN day-say-YAZH"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_škoda_restaurant_and_brewery",
+  "name_en": "Škoda Restaurant and Brewery",
+  "name_local": "Restaurace a pivovar Škoda",
+  "icon": "fork.knife",
+  "lat": 49.7477415,
+  "lon": 13.3775249,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "plzeň_škoda_restaurant_and_brewery_001",
+      "intent_en": "How do I order beer at the bar",
+      "text_local": "Jak si můžu objednat pivo u pultu?",
+      "pronunciation": "yAHk-see-mOOzhoo-OHbyehdnaht-pEEvoh-OO-pOOltoo",
+      "formality": "standard",
+      "cultural_note": "It's normal to approach the tapster directly and state your beer choice without waiting for table service at the bar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Přímo u výčepního, řekněte jen co si dáte.",
+        "pronunciation": "prEEmoh-OO-vEEtshehpnyEEhohrEHknyehteh-yEHn-tsOH-see-dAHteh",
+        "translation_en": "Directly from the tapster, just say what you'd like."
+      },
+      "responses": [
+        {
+          "english": "Directly from the tapster, just say what you'd like.",
+          "phonetic": "prEEmoh-OO-vEEtshehpnyEEhohrEHknyehteh-yEHn-tsOH-see-dAHteh",
+          "french": "Přímo u výčepního, řekněte jen co si dáte."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_škoda_restaurant_and_brewery_002",
+      "intent_en": "Where is the brewery tour ticket desk",
+      "text_local": "Kde prodávají lístky na prohlídku pivovaru?",
+      "pronunciation": "kdEH-prOHdahvAHyee-lEEstkee-nAHprohhlEEtkoo-pEEvohvAHroo",
+      "formality": "standard",
+      "cultural_note": "In Czech pubs, tours are often handled by the tapster rather than a separate ticket counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vzadu u výčepu.",
+        "pronunciation": "vzAHdoo-OO-vEEtshehpoo",
+        "translation_en": "At the back by the taproom."
+      },
+      "responses": [
+        {
+          "english": "At the back by the taproom.",
+          "phonetic": "vzAHdoo-OO-vEEtshehpoo",
+          "french": "Vzadu u výčepu."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_škoda_restaurant_and_brewery_003",
+      "intent_en": "Where is the beer garden seating",
+      "text_local": "Kde je posezení na zahrádce?",
+      "pronunciation": "kdEH-yeh-pOHsehzEHnyee-nAHzahhrAHttseh",
+      "formality": "standard",
+      "cultural_note": "Beer gardens are typically situated in a courtyard or outdoor area accessed from inside the restaurant.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Projděte chodbou rovně, je to venku.",
+        "pronunciation": "prOHyehteh-khOHdboh-rOHvnyehyeh-tOH-vEHngkoo",
+        "translation_en": "Go straight through the hallway, it's outside."
+      },
+      "responses": [
+        {
+          "english": "Go straight through the hallway, it's outside.",
+          "phonetic": "prOHyehteh-khOHdboh-rOHvnyehyeh-tOH-vEHngkoo",
+          "french": "Projděte chodbou rovně, je to venku."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_škoda_restaurant_and_brewery_004",
+      "intent_en": "Can I buy Škoda beer to take away",
+      "text_local": "Můžu si koupit pivo Škoda s sebou?",
+      "pronunciation": "mOOzhoo-see-kOHpeet-pEEvoh-shkOHdah-s-sEHboh",
+      "formality": "standard",
+      "cultural_note": "Czech breweries commonly offer takeaway beer in various containers, including plastic PET bottles filled fresh from the tank.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, lahvové i do PET lahví.",
+        "pronunciation": "AHnohlAHhvohveh-ee-dOHpeht-lAHhvee",
+        "translation_en": "Yes, bottled and in PET bottles."
+      },
+      "responses": [
+        {
+          "english": "Yes, bottled and in PET bottles.",
+          "phonetic": "AHnohlAHhvohveh-ee-dOHpeht-lAHhvee",
+          "french": "Ano, lahvové i do PET lahví."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

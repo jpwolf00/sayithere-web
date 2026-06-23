@@ -1,0 +1,100 @@
+{
+  "id": "weimar_bauhaus_museum_weimar",
+  "name_en": "Bauhaus Museum Weimar",
+  "name_local": "Bauhaus-Museum Weimar",
+  "icon": "building.columns",
+  "lat": 50.9847743,
+  "lon": 11.324381,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "weimar_bauhaus_museum_weimar_001",
+      "intent_en": "How does the audio guide rental work",
+      "text_local": "Wie funktioniert die Audioguide-Ausleihe?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-dee-ehnAWdihUHuheyeddehOWslEYE-uh",
+      "formality": "standard",
+      "cultural_note": "Typical German audio guide rental process involving deposit and headphones.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pfand bezahlen und Kopfhörer mitnehmen.",
+        "pronunciation": "pfAHnt-buhtsAHluhn-uhnt-kAWpfhuhr-mIHtnEHmuhn",
+        "translation_en": "Pay a deposit and take headphones."
+      },
+      "responses": [
+        {
+          "english": "Pay a deposit and take headphones.",
+          "phonetic": "pfAHnt-buhtsAHluhn-uhnt-kAWpfhuhr-mIHtnEHmuhn",
+          "french": "Pfand bezahlen und Kopfhörer mitnehmen."
+        }
+      ]
+    },
+    {
+      "id": "weimar_bauhaus_museum_weimar_002",
+      "intent_en": "Can I get the Klassik Stiftung combined ticket",
+      "text_local": "Gibt es das Kombi-Ticket der Klassik Stiftung?",
+      "pronunciation": "EEpt-ehs-dahs-kAWmbeetIHkuht-dehr-klahsEEk-shtIHftuhng",
+      "formality": "standard",
+      "cultural_note": "Kombi-Ticket refers to the combined museum ticket offered by the host organization.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "weimar_bauhaus_museum_weimar_003",
+      "intent_en": "Where is the Weimarhallenpark exit",
+      "text_local": "Wo ist der Ausgang zum Weimarhallenpark?",
+      "pronunciation": "vOH-ihst-dehr-OWsAHng-tsuhm-vEYEmahrhAHluhnpAHrk",
+      "formality": "standard",
+      "cultural_note": "Park exit location is not explicitly supported; safe escalation to staff is preferred.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinten links im Erdgeschoss.",
+        "pronunciation": "hIHntuhn-lINGks-ihm-ehrdgEHshaws",
+        "translation_en": "Back left on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "Back left on the ground floor.",
+          "phonetic": "hIHntuhn-lINGks-ihm-ehrdgEHshaws",
+          "french": "Hinten links im Erdgeschoss."
+        }
+      ]
+    },
+    {
+      "id": "weimar_bauhaus_museum_weimar_004",
+      "intent_en": "Where is the 2019 building entrance",
+      "text_local": "Wo ist der Eingang zum Neubau?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-nAWuhbow",
+      "formality": "standard",
+      "cultural_note": "Neubau refers to the 2019 building as stable target.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem neuen Bauhaus-Museum.",
+        "pronunciation": "fAWr-dehm-nAWuhuhn-bOWhowsmoozEHuhm",
+        "translation_en": "In front of the new Bauhaus Museum."
+      },
+      "responses": [
+        {
+          "english": "In front of the new Bauhaus Museum.",
+          "phonetic": "fAWr-dehm-nAWuhuhn-bOWhowsmoozEHuhm",
+          "french": "Vor dem neuen Bauhaus-Museum."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

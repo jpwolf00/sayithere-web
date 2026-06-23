@@ -1,0 +1,118 @@
+{
+  "id": "paris_luxembourg_gardens",
+  "name_en": "Luxembourg Gardens",
+  "name_local": "Jardin du Luxembourg",
+  "icon": "leaf",
+  "lat": 48.8462,
+  "lon": 2.3371,
+  "radius_m": 350,
+  "phrases": [
+    {
+      "id": "paris_lux_001",
+      "intent_en": "Ask where public restrooms are",
+      "text_local": "Où sont les toilettes publiques ?",
+      "pronunciation": "oo son lay twa-LET pyoo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "Public toilets are available in the gardens; signs may say sanitaires.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Restrooms are near the basin, toward the Rue de l'Odéon side.",
+          "phonetic": "lay twa-LET son pray duh bah-SAN, koh-TAY roo duh loh-day-ON",
+          "french": "Les toilettes sont près du bassin, côté rue de l'Odéon."
+        }
+      ]
+    },
+    {
+      "id": "paris_lux_002",
+      "intent_en": "Ask where toy sailboats are rented",
+      "text_local": "Où peut-on louer les petits bateaux ?",
+      "pronunciation": "oo puh-ton loo-AY lay puh-TEE bah-TOH",
+      "formality": "polite",
+      "cultural_note": "Model sailboats are a classic garden activity near the central basin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "You can rent boats near the big basin, near the palace.",
+          "phonetic": "voo poo-VAY loo-AY lay bah-TOH pray duh grahn bah-SAN, pray duh pah-LAY",
+          "french": "Vous pouvez louer les bateaux près du grand bassin, près du palais."
+        }
+      ]
+    },
+    {
+      "id": "paris_lux_003",
+      "intent_en": "Ask if chairs can be moved",
+      "text_local": "On peut déplacer ces chaises ?",
+      "pronunciation": "on puh day-plah-SAY say shez",
+      "formality": "polite",
+      "cultural_note": "Loose green chairs are often movable unless a section is restricted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, you can move the chairs except in private areas.",
+          "phonetic": "wee, voo poo-VAY day-plah-SAY lay shez sof dahn lay zon pray-VAY",
+          "french": "Oui, vous pouvez déplacer les chaises sauf dans les zones privées."
+        }
+      ]
+    },
+    {
+      "id": "paris_lux_004",
+      "intent_en": "Ask where the dog area is",
+      "text_local": "La zone pour les chiens est de quel côté ?",
+      "pronunciation": "lah zohn poor lay shyan eh duh kel koh-TAY",
+      "formality": "polite",
+      "cultural_note": "Dog access is limited to designated areas; ask before entering lawns.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The dog area is toward Rue Méchain, in the southeast.",
+          "phonetic": "lah zohn poor shyan eh duh koh-TAY duh lah roo may-KAN, oh syd-es",
+          "french": "La zone pour chiens est du côté de la rue Méchain, au sud-est."
+        }
+      ]
+    },
+    {
+      "id": "paris_lux_005",
+      "intent_en": "Ask when the gates close",
+      "text_local": "Le jardin ferme à quelle heure aujourd'hui ?",
+      "pronunciation": "leh zhar-DAN fairm ah kel UR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Closing times vary seasonally; sunset periods often close earlier in winter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The gardens close at 5:30 PM today. In winter, it's at 4:30 PM.",
+          "phonetic": "leh zhar-DAN fairm ah say-tahn-oor oo-zhoor-DWEE. on nee-VAIR, say ah seez-oor tront",
+          "french": "Le jardin ferme à 17h30 aujourd'hui. En hiver, c'est à 16h30."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "leh zhar-DAN"
+    },
+    {
+      "word_en": "public restroom",
+      "word_local": "les toilettes publiques",
+      "pronunciation": "lay twa-LET pyoo-BLEEK"
+    },
+    {
+      "word_en": "chair",
+      "word_local": "la chaise",
+      "pronunciation": "lah shez"
+    },
+    {
+      "word_en": "pond/basin",
+      "word_local": "le bassin",
+      "pronunciation": "leh bah-SAN"
+    }
+  ]
+}

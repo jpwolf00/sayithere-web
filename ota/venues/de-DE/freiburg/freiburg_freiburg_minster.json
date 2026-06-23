@@ -1,0 +1,100 @@
+{
+  "id": "freiburg_freiburg_minster",
+  "name_en": "Freiburg Minster",
+  "name_local": "Freiburger Münster",
+  "icon": "building.columns",
+  "lat": 47.9955486,
+  "lon": 7.8529213,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "freiburg_freiburg_minster_001",
+      "intent_en": "Where do I donate for entry?",
+      "text_local": "Wo kann ich für den Eintritt spenden?",
+      "pronunciation": "vOH-kAHn-ihkh-fuer-dehn-EYEntrIHt-shpEHnduhn",
+      "formality": "standard",
+      "cultural_note": "Donation points in German churches are often marked as 'Spenden' or 'Opferstock'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Spendenkasten.",
+        "pronunciation": "ahm-shpEHnduhnkAHstuhn",
+        "translation_en": "At the donation box."
+      },
+      "responses": [
+        {
+          "english": "At the donation box.",
+          "phonetic": "ahm-shpEHnduhnkAHstuhn",
+          "french": "Am Spendenkasten."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_minster_002",
+      "intent_en": "Where is the belfry tower entrance?",
+      "text_local": "Wo ist der Eingang zum Glockenturm?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-lAWkuhntUHuhm",
+      "formality": "standard",
+      "cultural_note": "Directions to vertical access points often refer to the base or main doorway of the structure.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rechts neben dem Hauptportal.",
+        "pronunciation": "rEHkhts-nEHbuhn-dehm-hOWptpawrtAHl",
+        "translation_en": "To the right of the main portal."
+      },
+      "responses": [
+        {
+          "english": "To the right of the main portal.",
+          "phonetic": "rEHkhts-nEHbuhn-dehm-hOWptpawrtAHl",
+          "french": "Rechts neben dem Hauptportal."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_minster_003",
+      "intent_en": "Is silence required during services?",
+      "text_local": "Muss man während der Gottesdienste leise sein?",
+      "pronunciation": "mUHs-mahn-vEHruhnt-dehr-AWtehsdEEnstuh-lEYEzuh-zeyen",
+      "formality": "standard",
+      "cultural_note": "German church etiquette emphasizes reverence during services, including silence.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bitte.",
+        "pronunciation": "yAHbIHtuh",
+        "translation_en": "Yes, please."
+      },
+      "responses": [
+        {
+          "english": "Yes, please.",
+          "phonetic": "yAHbIHtuh",
+          "french": "Ja, bitte."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_minster_004",
+      "intent_en": "When is the next guided tour?",
+      "text_local": "Wann ist die nächste Führung?",
+      "pronunciation": "vAHn-ihst-dee-nEHkhstuh-fUEruhng",
+      "formality": "standard",
+      "cultural_note": "German churches and cathedrals often post guided tour times on boards or provide them at the desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "11:00 Uhr.",
+        "pronunciation": "EHlf-oor-nUHl-nUHl-OOr",
+        "translation_en": "11:00 AM."
+      },
+      "responses": [
+        {
+          "english": "11:00 AM.",
+          "phonetic": "EHlf-oor-nUHl-nUHl-OOr",
+          "french": "11:00 Uhr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

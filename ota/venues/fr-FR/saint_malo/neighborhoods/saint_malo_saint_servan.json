@@ -1,0 +1,115 @@
+{
+  "id": "saint_malo_servan_hood",
+  "name_en": "Saint-Servan",
+  "name_local": "Saint-Servan",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "saintmalo_servan_001",
+      "intent_en": "Ask what Saint-Servan is known for",
+      "text_local": "Pour quoi Saint-Servan est-il connu ?",
+      "pronunciation": "poor kwa san-ser-VAHN eh-TEEL koh-NOO",
+      "formality": "polite",
+      "cultural_note": "Saint-Servan is the quieter, residential area of Saint-Malo, directly adjacent to Intra-Muros. It's known for the ferry port and the aquarium.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "say tun spay-see-ah-lee-TAY oo oon par-tee-kew-lah-ree-TAY loh-KAL",
+          "french": "Saint-Servan est connu pour son port ferry et le Grand Aquarium de Saint-Malo, l’un des plus grands de France."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_servan_002",
+      "intent_en": "Ask about the aquarium near here",
+      "text_local": "Où se trouve l'aquarium ?",
+      "pronunciation": "oo suh TROOV lah-kwah-RYOM",
+      "formality": "polite",
+      "cultural_note": "The Grand Aquarium de Saint-Malo is in Saint-Servan, near the ferry terminal. It's one of the largest aquariums in France.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Near the ferry terminal. Five minutes walk from the center.",
+          "phonetic": "",
+          "french": "L’aquarium se trouve près du terminal ferry, à 5 minutes à pied du centre de Saint-Servan."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_servan_003",
+      "intent_en": "Ask about the ferry to the Channel Islands",
+      "text_local": "Où se trouve le terminal ferries pour Jersey et Guernsey ?",
+      "pronunciation": "oo suh TROOV luh tair-mee-NAL feh-REE poor zher-ZEE ay gur-ZEE",
+      "formality": "polite",
+      "cultural_note": "Ferries to Jersey and Guernsey depart from Saint-Malo's ferry terminal in Saint-Servan. The crossing takes 70-90 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the ferry terminal, follow the signs.",
+          "phonetic": "luh პრო-shan day-PAR eh byan-TOH, ruh-gar-DAY luh pah-NOH",
+          "french": "Prenez le bus ligne 4 ou 5 depuis la porte Saint-Vincent. Le trajet dure 10 minutes."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_servan_004",
+      "intent_en": "Ask about the beach at Paramé",
+      "text_local": "Où se trouve la plage de Paramé ?",
+      "pronunciation": "oo suh TROOV lah PLAZH duh pah-rah-MAY",
+      "formality": "polite",
+      "cultural_note": "The long sandy beach of Paramé stretches east from Saint-Servan. It's popular for windsurfing and walking in all seasons.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "East of Saint-Servan, following the coast.",
+          "phonetic": "",
+          "french": "La plage de Paramé se trouve à l'est de Saint-Servan, en suivant la côte. C'est une longue plage de sable idéale pour la marche ou la planche à voile."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_servan_005",
+      "intent_en": "Ask about the connection toIntra-Muros",
+      "text_local": "Comment aller à Intra-Muros depuis Saint-Servan ?",
+      "pronunciation": "koh-MAHN ah-LAY ah lan-trah-moo-ROHS duh-PWEE san-ser-VAHN",
+      "formality": "polite",
+      "cultural_note": "Saint-Servan is directly connected to Intra-Muros via the city walls walk. The walk along the eastern ramparts takes about 10 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Follow the ramparts east. Ten minutes walk.",
+          "phonetic": "",
+          "french": "Depuis Saint-Servan, empruntez les remparts vers l'est pour rejoindre Intra-Muros en 10 minutes à pied. Le chemin offre une belle vue sur la mer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "residential",
+      "word_local": "résidentiel",
+      "pronunciation": "ray-zee-dahn-SYEL"
+    },
+    {
+      "word_en": "ferry terminal",
+      "word_local": "le terminal ferries",
+      "pronunciation": "leh tair-mee-NAL feh-REE"
+    },
+    {
+      "word_en": "beach",
+      "word_local": "la plage",
+      "pronunciation": "lah PLAZH"
+    },
+    {
+      "word_en": "aquarium",
+      "word_local": "l'aquarium",
+      "pronunciation": "lah-kwah-RYOM"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "vienna_tourist_information_center_albertinaplatz",
+  "name_en": "Tourist Information Center Albertinaplatz",
+  "name_local": "Wien Tourismus Information Albertinaplatz",
+  "icon": "info.circle",
+  "lat": 48.2084923,
+  "lon": 16.3731269,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "vienna_tourist_information_center_albertinaplatz_001",
+      "intent_en": "Do you have Sisi Ticket in stock",
+      "text_local": "Haben Sie das Sisi-Ticket vorrätig?",
+      "pronunciation": "hAHbuhn-zee-dahs-zEEzeetIHkuht-fOHrrEHtihkh",
+      "formality": "standard",
+      "cultural_note": "Combined tickets like the Sisi Ticket are often sold at tourist offices; staff expect direct stock inquiries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "vienna_tourist_information_center_albertinaplatz_002",
+      "intent_en": "How do I book opera tickets here",
+      "text_local": "Wie buche ich Opernkarten hier?",
+      "pronunciation": "vee-bOOkhuh-ihkh-OHpehrnkAHrtuhn-hEEr",
+      "formality": "casual",
+      "cultural_note": "In Austria, opera ticket services are typically handled at dedicated counters; staff expect concise inquiries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ticketschalter.",
+        "pronunciation": "ahm-tIHkehtshAHlt",
+        "translation_en": "At the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter.",
+          "phonetic": "ahm-tIHkehtshAHlt",
+          "french": "Am Ticketschalter."
+        }
+      ]
+    },
+    {
+      "id": "vienna_tourist_information_center_albertinaplatz_003",
+      "intent_en": "Can I buy Vienna City Card here",
+      "text_local": "Verkaufen Sie die Vienna City Card hier?",
+      "pronunciation": "fehrkOWfuhn-zee-dee-fEEnah-ehnsIHteedeh-kAHrt-hEEr",
+      "formality": "casual",
+      "cultural_note": "In Austria, ticket counters often handle city passes; staff expect direct questions without excessive politeness.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "vienna_tourist_information_center_albertinaplatz_004",
+      "intent_en": "Where is the physical office entrance",
+      "text_local": "Wo ist der Eingang zum Infobüro?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-IHnfohbUEroh",
+      "formality": "standard",
+      "cultural_note": "In Vienna, tourist offices are typically located at prominent public squares; minimal directional cues are expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Albertinaplatz.",
+        "pronunciation": "deerEHkt-ahm-AHlbehrtEEnahplAHts",
+        "translation_en": "Directly at Albertinaplatz."
+      },
+      "responses": [
+        {
+          "english": "Directly at Albertinaplatz.",
+          "phonetic": "deerEHkt-ahm-AHlbehrtEEnahplAHts",
+          "french": "Direkt am Albertinaplatz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

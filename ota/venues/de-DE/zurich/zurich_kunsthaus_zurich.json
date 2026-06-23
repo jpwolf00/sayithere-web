@@ -1,0 +1,100 @@
+{
+  "id": "zurich_kunsthaus_zurich",
+  "name_en": "Kunsthaus Zurich",
+  "name_local": "Kunsthaus Zürich",
+  "icon": "building.columns",
+  "lat": 47.3702241,
+  "lon": 8.5479797,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zurich_kunsthaus_zurich_001",
+      "intent_en": "Must I check my bag before entry?",
+      "text_local": "Muss ich meine Tasche abgeben?",
+      "pronunciation": "mUHs-ihkh-mEYEnuh-tAHshuh-AHpEHbuhn",
+      "formality": "standard",
+      "cultural_note": "Museumsvorschrift: Gepäckabgabe ist verpflichtend.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "zurich_kunsthaus_zurich_002",
+      "intent_en": "Where is the audio guide rental station?",
+      "text_local": "Wo gibt es Audioguides zu leihen?",
+      "pronunciation": "vOH-EEpt-ehs-ehnAWdihUHuheyedzdeh-tsoo-lEYE-UHn",
+      "formality": "standard",
+      "cultural_note": "Informationsmitarbeiter oder Kassierer weisen den Weg.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter beim Eingang.",
+        "pronunciation": "ahm-shAHlt-beyem-EYEnAHng",
+        "translation_en": "At the counter by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the counter by the entrance.",
+          "phonetic": "ahm-shAHlt-beyem-EYEnAHng",
+          "french": "Am Schalter beim Eingang."
+        }
+      ]
+    },
+    {
+      "id": "zurich_kunsthaus_zurich_003",
+      "intent_en": "Is the Le Corbusier Extension open today?",
+      "text_local": "Ist die Le Corbusier-Erweiterung heute geöffnet?",
+      "pronunciation": "ihst-dee-lEH-kAWrboozEErehrvEYEtuhrUHng-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Öffnungszeiten können wechseln; Information am Schalter oder Aushänge beachten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "zurich_kunsthaus_zurich_004",
+      "intent_en": "Where is the Munch Scream gallery?",
+      "text_local": "Wo ist die Galerie mit dem Schrei?",
+      "pronunciation": "vOH-ihst-dee-AHlehrEE-miht-dehm-shrEYE",
+      "formality": "standard",
+      "cultural_note": "Informationsmitarbeiter am Schalter sind die primäre Anlaufstelle für Standortanfragen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Neubau, erster Stock.",
+        "pronunciation": "ihm-nAWuhbowEHrst-shtAWk",
+        "translation_en": "In the new building, first floor."
+      },
+      "responses": [
+        {
+          "english": "In the new building, first floor.",
+          "phonetic": "ihm-nAWuhbowEHrst-shtAWk",
+          "french": "Im Neubau, erster Stock."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

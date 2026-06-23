@@ -1,0 +1,115 @@
+{
+  "id": "monaco_circuit_monte_carlo",
+  "name_en": "Circuit de Monaco (F1 Track)",
+  "name_local": "Circuit de Monaco",
+  "icon": "sportscourt",
+  "phrases": [
+    {
+      "id": "monaco_cm_001",
+      "intent_en": "Ask where to watch the race",
+      "text_local": "Où peut-on regarder la course ?",
+      "pronunciation": "oo puh-TOHN ruh-gar-DAY lah KOORS",
+      "formality": "polite",
+      "cultural_note": "The Monaco Grand Prix takes place in late May. The best viewing spots are the Harbourfront, Casino Square, and the Fairmont Hairpin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the port or Casino Square. Grandstand seats book in advance.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Depuis le port ou la place du Casino. Les tribunes se réservent à l'avance."
+        }
+      ]
+    },
+    {
+      "id": "monaco_cm_002",
+      "intent_en": "Ask about the race dates",
+      "text_local": "Quand a lieu le Grand Prix cette année ?",
+      "pronunciation": "kohn ah lee-OOO luh grahn PREE set ah-NAY",
+      "formality": "polite",
+      "cultural_note": "The Monaco Grand Prix is typically held on the last weekend of May. Check the official Formula 1 calendar for exact dates each year.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Late May, usually. Check the official calendar.",
+          "phonetic": "suh-lah ruh-MOHNT oh deez-oo-EE-tyem see-EHKL",
+          "french": "Fin mai, en général. Vérifiez le calendrier officiel."
+        }
+      ]
+    },
+    {
+      "id": "monaco_cm_003",
+      "intent_en": "Ask about the hairpin bend",
+      "text_local": "Où se trouve le virage en épingle à cheveux ?",
+      "pronunciation": "oo seh TROOV luh vee-RAZH on zah-PANGL ah shuh-VOO",
+      "formality": "polite",
+      "cultural_note": "The Fairmont Hairpin (Turn 6) is the most iconic corner — drivers slow to under 50 km/h. The grandstand here offers close-up action.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Near the Fairmont Hotel, right there.",
+          "phonetic": "",
+          "french": "Près de l'hôtel Fairmont, juste là."
+        }
+      ]
+    },
+    {
+      "id": "monaco_cm_004",
+      "intent_en": "Ask where to buy Grand Prix tickets",
+      "text_local": "Où peut-on acheter des billets pour le Grand Prix ?",
+      "pronunciation": "oo puh-TOHN ah-shuh-TAY day bee-YAY poor luh grahn PREE",
+      "formality": "polite",
+      "cultural_note": "Tickets sell out months ahead. The official F1 website and Automobile Club de Monaco are the main outlets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Online, on the official website. You need to book well in advance.",
+          "phonetic": "ahn LEEN-yuh, soor luh SEET oh-fee-SYEL. eel foh ray-zair-VAY lohn-TAHN ah lah-VAHNS",
+          "french": "En ligne, sur le site officiel. Il faut réserver longtemps à l'avance."
+        }
+      ]
+    },
+    {
+      "id": "monaco_cm_005",
+      "intent_en": "Ask about non-race day access",
+      "text_local": "Peut-on marcher sur le circuit en dehors du Grand Prix ?",
+      "pronunciation": "puh-TOHN mar-SHAY soor luh see-mee duh-DOR doo grahn PREE",
+      "formality": "polite",
+      "cultural_note": "Outside race days, you can walk parts of the circuit (Casino Square, Harbourfront). Some sections remain closed to the public.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's a public road outside of race events.",
+          "phonetic": "wee, luh seer-KWEE rest oon vwah pub-LEEK or koors",
+          "french": "Oui, c'est une voie publique en dehors des courses."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Formula 1 / Grand Prix",
+      "word_local": "la Formule 1 / le Grand Prix",
+      "pronunciation": "lah for-MOOL / luh grahn PREE"
+    },
+    {
+      "word_en": "hairpin bend",
+      "word_local": "le virage en épingle à cheveux",
+      "pronunciation": "luh vee-RAZH on zah-PANGL ah shuh-VOO"
+    },
+    {
+      "word_en": "race",
+      "word_local": "la course",
+      "pronunciation": "lah KOORS"
+    },
+    {
+      "word_en": "pits",
+      "word_local": "les stands",
+      "pronunciation": "lay stondz"
+    }
+  ]
+}

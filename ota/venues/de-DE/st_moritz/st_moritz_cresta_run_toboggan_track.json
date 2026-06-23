@@ -1,0 +1,78 @@
+{
+  "id": "st_moritz_cresta_run_toboggan_track",
+  "name_en": "Cresta Run Toboggan Track",
+  "name_local": "Cresta Run",
+  "icon": "building.columns",
+  "lat": 46.5008967,
+  "lon": 9.8426856,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "st_moritz_cresta_run_toboggan_track_001",
+      "intent_en": "Is the Sunny Bar open to non-riders",
+      "text_local": "Ist die Sunny Bar auch für Nichtfahrer?",
+      "pronunciation": "ihst-dee-zUHnee-bAHr-OWkh-fuer-nIHkhtfahr",
+      "formality": "standard",
+      "cultural_note": "The Sunny Bar is a public bar and not restricted to toboggan riders.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, für alle.",
+        "pronunciation": "yAHfuer-AHluh",
+        "translation_en": "Yes, for everyone."
+      },
+      "responses": [
+        {
+          "english": "Yes, for everyone.",
+          "phonetic": "yAHfuer-AHluh",
+          "french": "Ja, für alle."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_cresta_run_toboggan_track_002",
+      "intent_en": "Where is the sled rental deposit paid",
+      "text_local": "Wo zahlt man die Rodelkaution?",
+      "pronunciation": "vOH-vIHrt-dee-rOHduhlkowtsyOHn-uhtsAHlt",
+      "formality": "standard",
+      "cultural_note": "Deposits are handled at a service point, not directly at the rental location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Startgebäude.",
+        "pronunciation": "ihm-shtAHrtgehbAWuhduh",
+        "translation_en": "In the start building."
+      },
+      "responses": [
+        {
+          "english": "In the start building.",
+          "phonetic": "ihm-shtAHrtgehbAWuhduh",
+          "french": "Im Startgebäude."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_cresta_run_toboggan_track_003",
+      "intent_en": "Where do visitors get day badges",
+      "text_local": "Wo bekommt man Tagesausweise?",
+      "pronunciation": "vOH-buhkAWmt-mahn-tAHehzOWsveyezuh",
+      "formality": "casual",
+      "cultural_note": "Day badges are typically issued at a dedicated counter in the clubhouse, not at the track itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Kulm Hotel.",
+        "pronunciation": "ahm-shAHlt-ihm-kUHlm-hOHtuhl",
+        "translation_en": "At the counter in the Kulm Hotel."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the Kulm Hotel.",
+          "phonetic": "ahm-shAHlt-ihm-kUHlm-hOHtuhl",
+          "french": "Am Schalter im Kulm Hotel."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

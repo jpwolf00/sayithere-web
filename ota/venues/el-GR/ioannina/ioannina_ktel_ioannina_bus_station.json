@@ -1,0 +1,144 @@
+{
+  "id": "ioannina_ktel_ioannina_bus_station",
+  "name_en": "KTEL Ioannina Bus Station",
+  "name_local": "ΚΤΕΛ Ιωαννίνων",
+  "icon": "tram",
+  "lat": 39.6746825,
+  "lon": 20.8470157,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ioannina_ktel_ioannina_bus_station_001",
+      "intent_en": "Which window for Zagori village tickets?",
+      "text_local": "Ποιο ταμείο για εισιτήρια Ζαγορίου;",
+      "pronunciation": "pEEoh-tahmEEoh-yAH-EEseetEEreeAH-zAHghohrEEoo",
+      "formality": "standard",
+      "cultural_note": "Οι τοπικές γραμμές συχνά αναφέρονται στις πινακίδες ως 'προς χωριά'.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Το τρίτο ταμείο αριστερά.",
+        "pronunciation": "toh-trEEtoh-tahmEEoh-AHreestehrAH",
+        "translation_en": "The third counter on the left."
+      },
+      "responses": [
+        {
+          "english": "The third counter on the left.",
+          "phonetic": "toh-trEEtoh-tahmEEoh-AHreestehrAH",
+          "french": "Το τρίτο ταμείο αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ktel_ioannina_bus_station_002",
+      "intent_en": "Where do I drop my bag before boarding",
+      "text_local": "Πού αφήνω τη βαλίτσα μου πριν ανέβω στο λεωφορείο;",
+      "pronunciation": "pOO-ahfEEnoh-tee-vahlEEtsah-moo-prEEn-ahnEHvoh-stoh-lEHohfohrEEoh",
+      "formality": "standard",
+      "cultural_note": "Οι ταξιδιώτες συχνά απευθύνονται στον φορτωτής για υπηρεσίες αποσκευών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αφήστε την στο πορτμπαγκάζ.",
+        "pronunciation": "ahfEEsteh-teen-stoh-pOHrtbahnggAHz",
+        "translation_en": "Leave it in the luggage compartment."
+      },
+      "responses": [
+        {
+          "english": "Leave it in the luggage compartment.",
+          "phonetic": "ahfEEsteh-teen-stoh-pOHrtbahnggAHz",
+          "french": "Αφήστε την στο πορτμπαγκάζ."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ktel_ioannina_bus_station_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να αγοράσω εισιτήρια για τα Ζαγοροχώρια;",
+      "pronunciation": "pOO-bohrOH-n-AHghohrAHsoh-EEseetEEreeAH-yAH-tah-zAHghohrohkhOHreeAH",
+      "formality": "polite",
+      "cultural_note": "Οι υπάλληλοι αναμένεται να δείξουν προς τις αντίστοιχες ουρές ή πινακίδες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο γκισέ των εισιτηρίων, εκεί απέναντι.",
+        "pronunciation": "stoh-geesEH-tohn-EEseeteerEEohnehEE-ahpEHnahdEE",
+        "translation_en": "At the ticket window, over there across from you."
+      },
+      "responses": [
+        {
+          "english": "At the ticket window, over there across from you.",
+          "phonetic": "stoh-geesEH-tohn-EEseeteerEEohnehEE-ahpEHnahdEE",
+          "french": "Στο γκισέ των εισιτηρίων, εκεί απέναντι."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ktel_ioannina_bus_station_004",
+      "intent_en": "Extra charge for luggage over twenty kilos?",
+      "text_local": "Χρέωση για αποσκευή πάνω από 20 κιλά;",
+      "pronunciation": "khrEHohsEE-yAH-AHpohsehvEE-pAHnoh-ahpOH-EEkohsEE-eelAH",
+      "formality": "standard",
+      "cultural_note": "Οι μεγάλες αποσκευές υπόκεινται σε πρόσθετη χρέωση σύμφωνα με τους κανονισμούς.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, επιπλέον χρέωση.",
+        "pronunciation": "nEHEHpeeplEHohn-khrEHohsEE",
+        "translation_en": "Yes, extra charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, extra charge.",
+          "phonetic": "nEHEHpeeplEHohn-khrEHohsEE",
+          "french": "Ναι, επιπλέον χρέωση."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ktel_ioannina_bus_station_005",
+      "intent_en": "Where do I collect stored baggage?",
+      "text_local": "Πού παραλαμβάνω τις αποσκευές μου;",
+      "pronunciation": "pOO-pAHrahlahmvAHnoh-tees-AHpohsehvEHz-moo",
+      "formality": "standard",
+      "cultural_note": "Ο φορτωτής είναι υπεύθυνος για την παράδοση των αποσκευών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον φορτωτής.",
+        "pronunciation": "rohtEEsteh-stohn-fOHrtohtEEs",
+        "translation_en": "Ask the baggage handler."
+      },
+      "responses": [
+        {
+          "english": "Ask the baggage handler.",
+          "phonetic": "rohtEEsteh-stohn-fOHrtohtEEs",
+          "french": "Ρωτήστε στον φορτωτής."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ktel_ioannina_bus_station_006",
+      "intent_en": "Do I pay driver or buy first for Athens?",
+      "text_local": "Που πληρώνω για Αθήνα; Στο παράθυρο ή στον οδηγό;",
+      "pronunciation": "poo-pleerOHnoh-yAH-ahthEEnahstoh-pahrAHtheerOH-ee-stohn-OHtheeghOH",
+      "formality": "standard",
+      "cultural_note": "Στις γραμμές intercity (π.χ. Αθήνας) υπάρχει ξεχωριστό παράθυρο πώλησης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Στο παράθυρο εισιτηρίων.",
+        "pronunciation": "stoh-pahrAHtheerOH-EEseeteerEEohn",
+        "translation_en": "At the ticket window."
+      },
+      "responses": [
+        {
+          "english": "At the ticket window.",
+          "phonetic": "stoh-pahrAHtheerOH-EEseeteerEEohn",
+          "french": "Στο παράθυρο εισιτηρίων."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "osaka_kansai_international_airport",
+  "name_en": "Kansai International Airport",
+  "name_local": "関西国際空港",
+  "icon": "tram",
+  "lat": 34.4342045,
+  "lon": 135.222523,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "osaka_kansai_international_airport_001",
+      "intent_en": "Where are Nankai ticket machines?",
+      "text_local": "なんかいせんの きっぷうりばは どこですか？",
+      "pronunciation": "nNGkeesEHnnoh-kEEppooooeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Nankai Railway machines are distinctively red, opposite the green JR machines.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みぎがわの あかい きかいです。",
+        "pronunciation": "mEEgeegwNoh-kEE-kEEkeedEHsoo",
+        "translation_en": "On the right side, the red machines."
+      },
+      "responses": [
+        {
+          "english": "On the right side, the red machines.",
+          "phonetic": "mEEgeegwNoh-kEE-kEEkeedEHsoo",
+          "french": "みぎがわの あかい きかいです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kansai_international_airport_002",
+      "intent_en": "Where are JR ticket machines?",
+      "text_local": "JRの きっぷうりばは どこですか？",
+      "pronunciation": "ehndzhAY-AHyah-nOH-kEEppooooeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "JR ticket machines are color-coded green for easy recognition.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、ひだりがわの みどりいろの きかいです。",
+        "pronunciation": "mssOOgoo-EEttehkhEEdEEgwNoh-mEEdoheeOHnoh-kEEkeedEHsoo",
+        "translation_en": "Straight ahead, on the left, the green machines."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the left, the green machines.",
+          "phonetic": "mssOOgoo-EEttehkhEEdEEgwNoh-mEEdoheeOHnoh-kEEkeedEHsoo",
+          "french": "まっすぐ いって、ひだりがわの みどりいろの きかいです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kansai_international_airport_003",
+      "intent_en": "When is the next train to Osaka?",
+      "text_local": "つぎの おおさかゆきは なんじですか？",
+      "pronunciation": "tsoogEEnoh-OHohskYookEEh-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Trains to Osaka depart frequently. Times are given in 24-hour format.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "10じ 15ふんです。",
+        "pronunciation": "dzOO-dEE-dzOOgoh-oondEHsoo",
+        "translation_en": "At 10:15."
+      },
+      "responses": [
+        {
+          "english": "At 10:15.",
+          "phonetic": "dzOO-dEE-dzOOgoh-oondEHsoo",
+          "french": "10じ 15ふんです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kansai_international_airport_004",
+      "intent_en": "Where is the LCC baggage check?",
+      "text_local": "LCCの にもつ じゅうりょうチェックは どこですか？",
+      "pronunciation": "ehnEHl-sEE-sEEyah-nOH-neemOHtsoo-dOOooOHOOtehkkOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Low-cost carriers operate from Terminal 2, a separate building. Baggage weight check is before security.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "だい2ターミナル、チェックイン まえに あります。",
+        "pronunciation": "dEE-nEE-tMeenOOtehkkOOee-mEHnee-EEmSoo",
+        "translation_en": "In Terminal 2, before check-in."
+      },
+      "responses": [
+        {
+          "english": "In Terminal 2, before check-in.",
+          "phonetic": "dEE-nEE-tMeenOOtehkkOOee-mEHnee-EEmSoo",
+          "french": "だい2ターミナル、チェックイン まえに あります。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kansai_international_airport_005",
+      "intent_en": "Where is the airport bus counter?",
+      "text_local": "くうこうバスの きっぷうりばは どこですか？",
+      "pronunciation": "kOOookohOObsOOnoh-kEEppooooeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Airport limousine bus ticket counters are located outside the arrivals level.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "1かい、そとがわの バスエリアに あります。",
+        "pronunciation": "EEtsee-kEEsOHtohgwNoh-bSooEHeeNee-EEmSoo",
+        "translation_en": "On the 1st floor, outside in the bus area."
+      },
+      "responses": [
+        {
+          "english": "On the 1st floor, outside in the bus area.",
+          "phonetic": "EEtsee-kEEsOHtohgwNoh-bSooEHeeNee-EEmSoo",
+          "french": "1かい、そとがわの バスエリアに あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

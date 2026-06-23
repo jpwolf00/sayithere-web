@@ -1,0 +1,122 @@
+{
+  "id": "salzburg_hohensalzburg_fortress",
+  "name_en": "Hohensalzburg Fortress",
+  "name_local": "Festung Hohensalzburg",
+  "icon": "building.columns",
+  "lat": 47.7952103,
+  "lon": 13.0480971,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "salzburg_hohensalzburg_fortress_001",
+      "intent_en": "Buy combined funicular and entry ticket",
+      "text_local": "Wo gibt es das Kombi-Ticket für Burg und Festungsbahn?",
+      "pronunciation": "vOH-EEpt-ehs-dahs-kAWmbeetIHkuht-fuer-bUHuhk-uhnt-fEHstUHnksbAHn",
+      "formality": "standard",
+      "cultural_note": "Ticketkauf erfolgt direkt am Schalter; Kombi-Tickets sind Standardangebot.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hier am Schalter.",
+        "pronunciation": "hEEr-ahm-shAHlt",
+        "translation_en": "Here at the counter."
+      },
+      "responses": [
+        {
+          "english": "Here at the counter.",
+          "phonetic": "hEEr-ahm-shAHlt",
+          "french": "Hier am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_hohensalzburg_fortress_002",
+      "intent_en": "Rent audio guide here",
+      "text_local": "Kann ich hier einen Audioguide ausleihen?",
+      "pronunciation": "kAHn-ihkh-hEEr-EYEnuhn-ehnAWdihUHuheyeddeh-OWslEYE-uhn",
+      "formality": "casual",
+      "cultural_note": "Audioguides sind an der Kasse oder am Infoschalter erhältlich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_hohensalzburg_fortress_003",
+      "intent_en": "Reach Prince's Chambers inside",
+      "text_local": "Wie komme ich zu den Fürstenzimmern?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoo-dehn-fUErstuhntsIHmn",
+      "formality": "casual",
+      "cultural_note": "Fürstenzimmer sind im Burgmuseum; Schilder führen dorthin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Fürstenzimmer sind oben, erster Stock.",
+        "pronunciation": "dee-fUErstuhntsIHm-zihnt-OHbuhnEHrst-shtAWk",
+        "translation_en": "The Prince's Chambers are upstairs, first floor."
+      },
+      "responses": [
+        {
+          "english": "The Prince's Chambers are upstairs, first floor.",
+          "phonetic": "dee-fUErstuhntsIHm-zihnt-OHbuhnEHrst-shtAWk",
+          "french": "Die Fürstenzimmer sind oben, erster Stock."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_hohensalzburg_fortress_004",
+      "intent_en": "Pay at cafe terrace",
+      "text_local": "Wo bezahle ich an der Café-Terrasse?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-ahn-dehr-kahfEHtEHrahsuh",
+      "formality": "standard",
+      "cultural_note": "Zahlung erfolgt direkt am Tisch oder an der Kasse der Terrasse.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kassentisch.",
+        "pronunciation": "ahm-kahsEHntihsh",
+        "translation_en": "At the cash register."
+      },
+      "responses": [
+        {
+          "english": "At the cash register.",
+          "phonetic": "ahm-kahsEHntihsh",
+          "french": "Am Kassentisch."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_hohensalzburg_fortress_005",
+      "intent_en": "See Marionette Museum",
+      "text_local": "Wo finde ich das Marionettenmuseum?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dahs-mAHrihOHnehtuhnmOOzehUHm",
+      "formality": "standard",
+      "cultural_note": "Marionettenmuseum ist im Festungskomplex; genaue Lage wird am Schalter erklärt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Innenhof links.",
+        "pronunciation": "ihm-IHnuhnhOHf-lINGks",
+        "translation_en": "In the inner courtyard on the left."
+      },
+      "responses": [
+        {
+          "english": "In the inner courtyard on the left.",
+          "phonetic": "ihm-IHnuhnhOHf-lINGks",
+          "french": "Im Innenhof links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "konya_karatay_medrese",
+  "name_en": "Karatay Medrese",
+  "name_local": "Karatay Medresesi",
+  "icon": "building.columns",
+  "lat": 37.8749827,
+  "lon": 32.4929364,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "konya_karatay_medrese_001",
+      "intent_en": "Where is the Kubadabad Palace tile display?",
+      "text_local": "Kubadabad Sarayı çinileri nerede?",
+      "pronunciation": "koobahdahbAHd-sAHrahyoo-tsheeneelehrIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Museum staff often give brief, direct directions. When exact location is not documented, referring to an attendant is the safe approach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin sağında.",
+        "pronunciation": "eereeshIHn-sahoondAH",
+        "translation_en": "On the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the right of the entrance.",
+          "phonetic": "eereeshIHn-sahoondAH",
+          "french": "Girişin sağında."
+        }
+      ]
+    },
+    {
+      "id": "konya_karatay_medrese_002",
+      "intent_en": "Is flash photography allowed inside?",
+      "text_local": "İçeride flaşlı fotoğraf çekmek yasak mı?",
+      "pronunciation": "eetshehreedEH-fahshOO-fohtohrAHf-tshehkmEHk-yAHsahk-moo",
+      "formality": "standard",
+      "cultural_note": "Museum rules are typically stated plainly. 'Yasak' is the direct word for 'forbidden'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Flaşlı fotoğraf çekmek yasak.",
+        "pronunciation": "fahshOO-fohtohrAHf-tshehkmEHk-yAHsahk",
+        "translation_en": "Flash photography is forbidden."
+      },
+      "responses": [
+        {
+          "english": "Flash photography is forbidden.",
+          "phonetic": "fahshOO-fohtohrAHf-tshehkmEHk-yAHsahk",
+          "french": "Flaşlı fotoğraf çekmek yasak."
+        }
+      ]
+    },
+    {
+      "id": "konya_karatay_medrese_003",
+      "intent_en": "Where is the cenotaph of Celaleddin Karatay?",
+      "text_local": "Celaleddin Karatay'ın sandukası nerede?",
+      "pronunciation": "dzhehahlehdIHn-kahrahtahyOOn-sahndookahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "A cenotaph (sanduka) is a significant object. Without a documented fixed location, it's safest to direct visitors to an attendant (danışma).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana eyvanda.",
+        "pronunciation": "ahnAH-ehyvahndAH",
+        "translation_en": "In the main iwan."
+      },
+      "responses": [
+        {
+          "english": "In the main iwan.",
+          "phonetic": "ahnAH-ehyvahndAH",
+          "french": "Ana eyvanda."
+        }
+      ]
+    },
+    {
+      "id": "konya_karatay_medrese_004",
+      "intent_en": "Where do I pay the entrance fee?",
+      "text_local": "Giriş ücretini nerede ödüyorum?",
+      "pronunciation": "eerIHsh-uhdzhrehteenIH-nEHrehdeh-uhdUEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Payment is almost always at the entrance 'gişe' (booth) in Turkish museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki bilet gişesinde.",
+        "pronunciation": "eerihshtehkIH-beelEHt-eeshehsihndEH",
+        "translation_en": "At the ticket booth at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket booth at the entrance.",
+          "phonetic": "eerihshtehkIH-beelEHt-eeshehsihndEH",
+          "french": "Girişteki bilet gişesinde."
+        }
+      ]
+    },
+    {
+      "id": "konya_karatay_medrese_005",
+      "intent_en": "Can I buy ceramics at the museum shop?",
+      "text_local": "Müze dükkanından seramik alabilir miyim?",
+      "pronunciation": "muezEH-duekahnoondAHn-sehrahmIHk-ahahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Turkish museum shops often carry replicas or local crafts. A simple 'yes' is common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, müze dükkanında seramik var.",
+        "pronunciation": "ehvEHtmuezEH-duekahnoondAH-sehrahmIHk-vAHr",
+        "translation_en": "Yes, there are ceramics in the museum shop."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are ceramics in the museum shop.",
+          "phonetic": "ehvEHtmuezEH-duekahnoondAH-sehrahmIHk-vAHr",
+          "french": "Evet, müze dükkanında seramik var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

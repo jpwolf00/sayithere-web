@@ -1,0 +1,122 @@
+{
+  "id": "plzeň_plzeň_main_train_station",
+  "name_en": "Plzeň Main Train Station",
+  "name_local": "Hlavní nádraží Plzeň",
+  "icon": "tram",
+  "lat": 49.7444667,
+  "lon": 13.3874148,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "plzeň_plzeň_main_train_station_001",
+      "intent_en": "Is the first class waiting room open?",
+      "text_local": "Je čekárna první třídy otevřená?",
+      "pronunciation": "yeh-tshEHkahrnah-pRvnyee-trEEdee-OHtehvrEHnah",
+      "formality": "standard",
+      "cultural_note": "First class waiting rooms offer more comfort and are common at main stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, je otevřená do jedenácti večer.",
+        "pronunciation": "AHnohyeh-OHtehvrEHnah-doh-yEHdehnAHtsee-vEHtshehr",
+        "translation_en": "Yes, it's open until eleven in the evening."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open until eleven in the evening.",
+          "phonetic": "AHnohyeh-OHtehvrEHnah-doh-yEHdehnAHtsee-vEHtshehr",
+          "french": "Ano, je otevřená do jedenácti večer."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_main_train_station_002",
+      "intent_en": "When does the next express to Prague depart?",
+      "text_local": "Kdy odjíždí příští rychlík do Prahy?",
+      "pronunciation": "kdEE-OHdyeezhee-prEEshee-rEEkhleek-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Rychlík is a faster train category. Time is given in 24-hour format but spoken in 12-hour.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V deset hodin a padesát minut.",
+        "pronunciation": "v-dEHseht-hOHeen-ah-pAHdehsaht-mEEnoot",
+        "translation_en": "At ten fifty."
+      },
+      "responses": [
+        {
+          "english": "At ten fifty.",
+          "phonetic": "v-dEHseht-hOHeen-ah-pAHdehsaht-mEEnoot",
+          "french": "V deset hodin a padesát minut."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_main_train_station_003",
+      "intent_en": "Where is platform four?",
+      "text_local": "Kde je čtvrté nástupiště?",
+      "pronunciation": "kdEH-yeh-tshtvRteh-nAHstoopEEsheh",
+      "formality": "standard",
+      "cultural_note": "Czech platforms are called 'nástupiště'. Numbers are ordinal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Podchodem doleva, pak po schodech nahoru.",
+        "pronunciation": "pOHtkhohdehm-dOHlehvahpAHk-pOHskhohdehkh-nAHhohroo",
+        "translation_en": "Through the underpass to the left, then up the stairs."
+      },
+      "responses": [
+        {
+          "english": "Through the underpass to the left, then up the stairs.",
+          "phonetic": "pOHtkhohdehm-dOHlehvahpAHk-pOHskhohdehkh-nAHhohroo",
+          "french": "Podchodem doleva, pak po schodech nahoru."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_main_train_station_004",
+      "intent_en": "Where do I buy local bus tickets?",
+      "text_local": "Kde koupím jízdenky na místní autobusy?",
+      "pronunciation": "kdEH-kOHpeem-yEEzdehngkee-nAHmeestnyee-OWtohbOOsee",
+      "formality": "standard",
+      "cultural_note": "PMDP is the Pilsen municipal transport company.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V hale u okénka s nápisem PMDP.",
+        "pronunciation": "v-hAHleh-OO-OHkehngkah-s-nAHpeesehm-pEHEHmdEHpEH",
+        "translation_en": "In the hall at the window marked PMDP."
+      },
+      "responses": [
+        {
+          "english": "In the hall at the window marked PMDP.",
+          "phonetic": "v-hAHleh-OO-OHkehngkah-s-nAHpeesehm-pEHEHmdEHpEH",
+          "french": "V hale u okénka s nápisem PMDP."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_main_train_station_005",
+      "intent_en": "Where is the underpass to platforms?",
+      "text_local": "Kde je podchod na nástupiště?",
+      "pronunciation": "kdEH-yeh-pOHtkhohd-nah-nAHstoopEEsheh",
+      "formality": "standard",
+      "cultural_note": "The underpass is the main connection to platforms, avoiding crossing tracks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Přímo uprostřed haly, vede dolů.",
+        "pronunciation": "prEEmoh-OOprohstreht-hAHleevEHdeh-dOHloo",
+        "translation_en": "Straight in the middle of the hall, it goes down."
+      },
+      "responses": [
+        {
+          "english": "Straight in the middle of the hall, it goes down.",
+          "phonetic": "prEEmoh-OOprohstreht-hAHleevEHdeh-dOHloo",
+          "french": "Přímo uprostřed haly, vede dolů."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

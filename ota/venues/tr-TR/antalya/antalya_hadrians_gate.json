@@ -1,0 +1,100 @@
+{
+  "id": "antalya_hadrians_gate",
+  "name_en": "Hadrian's Gate",
+  "name_local": "Üçkapılar",
+  "icon": "building.columns",
+  "lat": 36.8852646,
+  "lon": 30.7085481,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "antalya_hadrians_gate_001",
+      "intent_en": "Where do taxis drop off nearby?",
+      "text_local": "Taksiler nerede indiriyor?",
+      "pronunciation": "tahkseelEHr-nEHrehdeh-IHndeereeyawr",
+      "formality": "standard",
+      "cultural_note": "The taxi drop-off point is adjacent to the gate, making it a convenient access point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hemen kapının bitişiğinde.",
+        "pronunciation": "hehmAHn-kahpoonOOn-beeteesheeyihndEH",
+        "translation_en": "Right next to the gate."
+      },
+      "responses": [
+        {
+          "english": "Right next to the gate.",
+          "phonetic": "hehmAHn-kahpoonOOn-beeteesheeyihndEH",
+          "french": "Hemen kapının bitişiğinde."
+        }
+      ]
+    },
+    {
+      "id": "antalya_hadrians_gate_002",
+      "intent_en": "Where does Kaleiçi old city start?",
+      "text_local": "Kaleiçi nerede başlıyor?",
+      "pronunciation": "kahleheetshIH-nEHrehdeh-bahshlOOyawr",
+      "formality": "standard",
+      "cultural_note": "Hadrian's Gate serves as the main entrance to the Kaleiçi old city zone.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kapıdan geçince başlar.",
+        "pronunciation": "kahpoodAHn-ehtshIHndzheh-bahshAHr",
+        "translation_en": "It starts when you pass through the gate."
+      },
+      "responses": [
+        {
+          "english": "It starts when you pass through the gate.",
+          "phonetic": "kahpoodAHn-ehtshIHndzheh-bahshAHr",
+          "french": "Kapıdan geçince başlar."
+        }
+      ]
+    },
+    {
+      "id": "antalya_hadrians_gate_003",
+      "intent_en": "Are there cafes inside the archway?",
+      "text_local": "Kemerin içinde kafe var mı?",
+      "pronunciation": "kehmehrIHn-eetshihndEH-kahfEH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Cafes are located at the shops surrounding the gate base, not inside the archway itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, çevredeki dükkanlarda kafe var.",
+        "pronunciation": "hahyOOrtshehvrehdehkIH-duekahnahrdAH-kahfEH-vAHr",
+        "translation_en": "No, there are cafes at the surrounding shops."
+      },
+      "responses": [
+        {
+          "english": "No, there are cafes at the surrounding shops.",
+          "phonetic": "hahyOOrtshehvrehdehkIH-duekahnahrdAH-kahfEH-vAHr",
+          "french": "Hayır, çevredeki dükkanlarda kafe var."
+        }
+      ]
+    },
+    {
+      "id": "antalya_hadrians_gate_004",
+      "intent_en": "Where is the best photo spot?",
+      "text_local": "En iyi fotoğraf nerede çekilir?",
+      "pronunciation": "AHn-eeyEE-fohtohrAHf-nEHrehdeh-tshehkeelIHr",
+      "formality": "standard",
+      "cultural_note": "The marble towers and the Roman archway itself are the iconic photography subjects at the gate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Mermer kulelerin önünden.",
+        "pronunciation": "mehrmEHr-koolehlehrIHn-uhnuhndAHn",
+        "translation_en": "From in front of the marble towers."
+      },
+      "responses": [
+        {
+          "english": "From in front of the marble towers.",
+          "phonetic": "mehrmEHr-koolehlehrIHn-uhnuhndAHn",
+          "french": "Mermer kulelerin önünden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

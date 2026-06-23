@@ -1,0 +1,100 @@
+{
+  "id": "kutná_hora_sedlec_ossuary",
+  "name_en": "Sedlec Ossuary",
+  "name_local": "Kostnice v Sedlci",
+  "icon": "building.columns",
+  "lat": 49.9617761,
+  "lon": 15.2880921,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kutná_hora_sedlec_ossuary_001",
+      "intent_en": "Is the combined Kutná Hora ticket valid here",
+      "text_local": "Platí tu kombinovaná vstupenka na Kutnou Horu?",
+      "pronunciation": "plAHee-tOO-kOHmbeenOHvahnah-fstOOpehngkah-nAHkootnoh-hOHroo",
+      "formality": "standard",
+      "cultural_note": "A combined ticket covers multiple Kutná Hora sites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, platí.",
+        "pronunciation": "AHnohplAHee",
+        "translation_en": "Yes, it's valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's valid.",
+          "phonetic": "AHnohplAHee",
+          "french": "Ano, platí."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_sedlec_ossuary_002",
+      "intent_en": "When is the least crowded time to visit",
+      "text_local": "Kdy je tu nejmíň lidí?",
+      "pronunciation": "kdEE-yeh-tOO-nAYmeeny-lEEee",
+      "formality": "standard",
+      "cultural_note": "Small space, so early visits are best to avoid crowds.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned ráno v devět hodin.",
+        "pronunciation": "hnEHd-rAHnoh-v-dEHvyeht-hOHeen",
+        "translation_en": "Right in the morning at nine o'clock."
+      },
+      "responses": [
+        {
+          "english": "Right in the morning at nine o'clock.",
+          "phonetic": "hnEHd-rAHnoh-v-dEHvyeht-hOHeen",
+          "french": "Hned ráno v devět hodin."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_sedlec_ossuary_003",
+      "intent_en": "Where is Rint's bone signature located",
+      "text_local": "Kde je Rintův podpis z kostí?",
+      "pronunciation": "kdEH-yeh-rEEntoof-pOHtpees-s-kOHsee",
+      "formality": "standard",
+      "cultural_note": "František Rint's signature is made of bones, easy to miss.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Na stěně vpravo od vchodu.",
+        "pronunciation": "nAHsehnyeh-fprAHvoh-OHdfkhohdoo",
+        "translation_en": "On the wall to the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the wall to the right of the entrance.",
+          "phonetic": "nAHsehnyeh-fprAHvoh-OHdfkhohdoo",
+          "french": "Na stěně vpravo od vchodu."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_sedlec_ossuary_004",
+      "intent_en": "Where is the Schwarzenberg coat of arms",
+      "text_local": "Kde je schwarzenberský erb z kostí?",
+      "pronunciation": "kdEH-yeh-skhvAHrzehnbEHrskee-EHrb-s-kOHsee",
+      "formality": "standard",
+      "cultural_note": "The coat of arms is made of human bones, a key highlight.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vpravo od oltáře, na zdi.",
+        "pronunciation": "fprAHvoh-OHdohltAHrehnAHzee",
+        "translation_en": "To the right of the altar, on the wall."
+      },
+      "responses": [
+        {
+          "english": "To the right of the altar, on the wall.",
+          "phonetic": "fprAHvoh-OHdohltAHrehnAHzee",
+          "french": "Vpravo od oltáře, na zdi."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

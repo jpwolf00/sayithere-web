@@ -1,0 +1,100 @@
+{
+  "id": "mayrhofen_wirtshaus_zum_griena",
+  "name_en": "Wirtshaus Zum Griena",
+  "name_local": "Wirtshaus Zum Griena",
+  "icon": "fork.knife",
+  "lat": 47.1587752,
+  "lon": 11.8562521,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "mayrhofen_wirtshaus_zum_griena_001",
+      "intent_en": "Is cash preferred here",
+      "text_local": "Wird hier Bargeld bevorzugt?",
+      "pronunciation": "vIHrt-hEEr-bAHrehlt-buhfOHrtsOOkt",
+      "formality": "casual",
+      "cultural_note": "In rural Tyrol, cash is often preferred due to limited card payment infrastructure.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor allem in ländlichen Tavernen.",
+        "pronunciation": "yAHfAWr-AHluhm-ihn-lEHntlihkhuhn-tAHvnuhn",
+        "translation_en": "Yes, especially in rural taverns."
+      },
+      "responses": [
+        {
+          "english": "Yes, especially in rural taverns.",
+          "phonetic": "yAHfAWr-AHluhm-ihn-lEHntlihkhuhn-tAHvnuhn",
+          "french": "Ja, vor allem in ländlichen Tavernen."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_wirtshaus_zum_griena_002",
+      "intent_en": "Is the Almstube available for groups",
+      "text_local": "Kann man die Almstube für Gruppen reservieren?",
+      "pronunciation": "kAHn-mahn-dee-AHlmstoobuh-fuer-rUHpuhn-rEHzehrvEEruhn",
+      "formality": "standard",
+      "cultural_note": "Group reservations for alpine-style dining rooms like the Almstube are commonly handled via phone.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, per Telefon möglich.",
+        "pronunciation": "yAHpehr-tEHlehfOHn-mUHklihkh",
+        "translation_en": "Yes, by phone possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, by phone possible.",
+          "phonetic": "yAHpehr-tEHlehfOHn-mUHklihkh",
+          "french": "Ja, per Telefon möglich."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_wirtshaus_zum_griena_003",
+      "intent_en": "Where is the beer garden seating",
+      "text_local": "Wo finde ich die Sitzplätze im Biergarten?",
+      "pronunciation": "vOH-ihst-dehr-bEErahrtuhn",
+      "formality": "standard",
+      "cultural_note": "Outdoor seating in Tyrolean taverns is often signposted as 'Biergarten' or 'Zillertal beer garden'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Biergarten ist draußen auf der Terrasse.",
+        "pronunciation": "dehr-bEErgahrtuhn-ihst-drOWsuhn-owf-dehr-tEHrahsuh",
+        "translation_en": "The beer garden is outside on the terrace."
+      },
+      "responses": [
+        {
+          "english": "The beer garden is outside on the terrace.",
+          "phonetic": "dehr-bEErgahrtuhn-ihst-drOWsuhn-owf-dehr-tEHrahsuh",
+          "french": "Der Biergarten ist draußen auf der Terrasse."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_wirtshaus_zum_griena_004",
+      "intent_en": "Do I pay at the counter before sitting",
+      "text_local": "Zahlt man zuerst am Tresen?",
+      "pronunciation": "tsAHlt-mahn-tsooEHrst-ahm-trEHzuhn",
+      "formality": "standard",
+      "cultural_note": "In Tyrolean taverns, payment is typically made upfront at the counter in self-service areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor dem Sitzen.",
+        "pronunciation": "yAHfAWr-dehm-zIHtsuhn",
+        "translation_en": "Yes, before sitting."
+      },
+      "responses": [
+        {
+          "english": "Yes, before sitting.",
+          "phonetic": "yAHfAWr-dehm-zIHtsuhn",
+          "french": "Ja, vor dem Sitzen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

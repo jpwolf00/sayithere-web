@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_tourist_information_center",
+  "name_en": "Tourist Information Center",
+  "name_local": "Turistické informační centrum Český Krumlov",
+  "icon": "info.circle",
+  "lat": 48.6553878,
+  "lon": 14.3665919,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "český_krumlov_tourist_information_center_001",
+      "intent_en": "When does Baroque theater tour start",
+      "text_local": "Kdy začíná prohlídka barokního divadla?",
+      "pronunciation": "kdEE-zAHtsheenah-prOHhleetkah-bAHrohknyEEhoh-EEvahdlah",
+      "formality": "standard",
+      "cultural_note": "Providing a specific time is a standard direct answer for scheduled tours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Začíná ve dvě hodiny odpoledne.",
+        "pronunciation": "zAHtsheenah-vEH-dvyEH-hOHeenee-OHtpohlEHdneh",
+        "translation_en": "It starts at two in the afternoon."
+      },
+      "responses": [
+        {
+          "english": "It starts at two in the afternoon.",
+          "phonetic": "zAHtsheenah-vEH-dvyEH-hOHeenee-OHtpohlEHdneh",
+          "french": "Začíná ve dvě hodiny odpoledne."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_tourist_information_center_002",
+      "intent_en": "Can I pay guided tour in cash",
+      "text_local": "Můžu zaplatit prohlídku s průvodcem v hotovosti?",
+      "pronunciation": "mOOzhoo-zAHplaheet-prOHhleetkoo-s-prOOvohttsehm-v-hOHtohvOHsee",
+      "formality": "standard",
+      "cultural_note": "A simple 'yes, we take cash' is a common and direct response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, hotovost bereme.",
+        "pronunciation": "AHnohhOHtohvohzd-bEHrehmeh",
+        "translation_en": "Yes, we take cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, we take cash.",
+          "phonetic": "AHnohhOHtohvohzd-bEHrehmeh",
+          "french": "Ano, hotovost bereme."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_tourist_information_center_003",
+      "intent_en": "Where is Egon Schiele Art Centrum",
+      "text_local": "Kde je Egon Schiele Art Centrum?",
+      "pronunciation": "kdEH-yeh-EHgohn-skheeEHleh-AHrt-tsEHntroom",
+      "formality": "standard",
+      "cultural_note": "Directions from a tourist office often start from its own entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vyjděte ven a hned doprava.",
+        "pronunciation": "vEEyehteh-vEHn-ah-hnEHd-dOHprahvah",
+        "translation_en": "Go outside and immediately to the right."
+      },
+      "responses": [
+        {
+          "english": "Go outside and immediately to the right.",
+          "phonetic": "vEEyehteh-vEHn-ah-hnEHd-dOHprahvah",
+          "french": "Vyjděte ven a hned doprava."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_tourist_information_center_004",
+      "intent_en": "Where to buy castle tower tickets",
+      "text_local": "Kde koupím lístky na zámeckou věž?",
+      "pronunciation": "kdEH-kOHpeem-lEEstkee-nAHzahmEHtskoh-vyEHsh",
+      "formality": "standard",
+      "cultural_note": "Czech ticket sellers often point to a specific counter rather than giving general directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tady u přepážky vlevo.",
+        "pronunciation": "tAHdee-OO-prEHpahshkee-vlEHvoh",
+        "translation_en": "Here at the counter on the left."
+      },
+      "responses": [
+        {
+          "english": "Here at the counter on the left.",
+          "phonetic": "tAHdee-OO-prEHpahshkee-vlEHvoh",
+          "french": "Tady u přepážky vlevo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

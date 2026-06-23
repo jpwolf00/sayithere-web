@@ -1,0 +1,78 @@
+{
+  "id": "mykonos_ornos_beach",
+  "name_en": "Ornos Beach",
+  "name_local": "Παραλία Όρνος",
+  "icon": "leaf",
+  "lat": 37.4223988,
+  "lon": 25.3219177,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "mykonos_ornos_beach_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού φεύγει το καΐκι για τη Δήλο;",
+      "pronunciation": "pOO-fEHvyee-toh-kahEEee-yAH-tee-thEEloh",
+      "formality": "standard",
+      "cultural_note": "Local answer assumes familiarity with Ornos Bay as the stable boat departure area for Delos excursions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την αποβάθρα του Ornos, δεξιά.",
+        "pronunciation": "ahpOH-teen-AHpohvAHthrah-too-ehnAWnuhuhzehlthEHkseeAH",
+        "translation_en": "From the edge of the bay, next to the small harbor."
+      },
+      "responses": [
+        {
+          "english": "From the edge of the bay, next to the small harbor.",
+          "phonetic": "ahpOH-teen-AHpohvAHthrah-too-ehnAWnuhuhzehlthEHkseeAH",
+          "french": "Από την αποβάθρα του Ornos, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_ornos_beach_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Τι ώρα φεύγει το τελευταίο υδάτινο ταξί για την πόλη;",
+      "pronunciation": "tEE-OHrah-fEHvyee-toh-tEHlehftEHoh-plEEoh-yAH-teem-bOHlee",
+      "formality": "standard",
+      "cultural_note": "Exact departure times for water taxis are not publicly posted and depend on daily conditions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την προβλήτα Όρνου στις 19:30.",
+        "pronunciation": "ahpOH-teem-brohvlEEtah-OHrnoo-stees-thEHkahehnEHah-treeAHndah",
+        "translation_en": "The last water taxi to Mykonos town leaves around 7:30 PM from the dock near Ornos Beach."
+      },
+      "responses": [
+        {
+          "english": "The last water taxi to Mykonos town leaves around 7:30 PM from the dock near Ornos Beach.",
+          "phonetic": "ahpOH-teem-brohvlEEtah-OHrnoo-stees-thEHkahehnEHah-treeAHndah",
+          "french": "Από την προβλήτα Όρνου στις 19:30."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_ornos_beach_003",
+      "intent_en": "Can I pay the beach bar tab by card?",
+      "text_local": "Μπορώ να πληρώσω το λογαριασμό με κάρτα;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-toh-lOHghahrEEahsmOH-meh-kAHrtah",
+      "formality": "standard",
+      "cultural_note": "Payment methods may vary; staff may need to confirm specific card types accepted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δέχονται κάρτες.",
+        "pronunciation": "nEHthEHkhohdEH-kAHrtehs",
+        "translation_en": "Yes, they accept cards."
+      },
+      "responses": [
+        {
+          "english": "Yes, they accept cards.",
+          "phonetic": "nEHthEHkhohdEH-kAHrtehs",
+          "french": "Ναι, δέχονται κάρτες."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "munich_alte_pinakothek",
+  "name_en": "Alte Pinakothek",
+  "name_local": "Alte Pinakothek",
+  "icon": "building.columns",
+  "lat": 48.1482838,
+  "lon": 11.5699796,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "munich_alte_pinakothek_001",
+      "intent_en": "Can I buy the combined three-museum ticket here",
+      "text_local": "Gibt es hier das Dreier-Tageskarte?",
+      "pronunciation": "EEpt-ehs-hEEr-dahs-drEYEtAHehskAHrtuh",
+      "formality": "casual",
+      "cultural_note": "Kombi-Tickets für benachbarte Museen werden an gemeinsamen Kassen angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, hier erhältlich.",
+        "pronunciation": "yAHhEEr-ehrhEHltlihkh",
+        "translation_en": "Yes, available here."
+      },
+      "responses": [
+        {
+          "english": "Yes, available here.",
+          "phonetic": "yAHhEEr-ehrhEHltlihkh",
+          "french": "Ja, hier erhältlich."
+        }
+      ]
+    },
+    {
+      "id": "munich_alte_pinakothek_002",
+      "intent_en": "Where is the Dürer-Saal",
+      "text_local": "Wo ist der Dürer-Saal?",
+      "pronunciation": "vOH-ihst-dehr-dUErzAHl",
+      "formality": "standard",
+      "cultural_note": "Räumliche Angaben in Museen beziehen sich oft auf explizite Schilder oder Stockwerkanzeigen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Obergeschoss, folgen Sie den Schildern.",
+        "pronunciation": "ihm-OHbuhshAWsfAWluhn-zee-dehn-shIHldn",
+        "translation_en": "Upper floor, follow the signs."
+      },
+      "responses": [
+        {
+          "english": "Upper floor, follow the signs.",
+          "phonetic": "ihm-OHbuhshAWsfAWluhn-zee-dehn-shIHldn",
+          "french": "Im Obergeschoss, folgen Sie den Schildern."
+        }
+      ]
+    },
+    {
+      "id": "munich_alte_pinakothek_003",
+      "intent_en": "Where do I rent the audio guide",
+      "text_local": "Wo leihe ich den Audioguide?",
+      "pronunciation": "vOH-lEYE-UH-ihkh-dehn-ehnAWdihUHuheyeddeh",
+      "formality": "standard",
+      "cultural_note": "Museen führen zentrale Servicepunkte wie Audioguide-Ausleihe oft am Hauptinformationsschalter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Infoschalter.",
+        "pronunciation": "ahm-IHnfawshAHlt",
+        "translation_en": "At the info desk."
+      },
+      "responses": [
+        {
+          "english": "At the info desk.",
+          "phonetic": "ahm-IHnfawshAHlt",
+          "french": "Am Infoschalter."
+        }
+      ]
+    },
+    {
+      "id": "munich_alte_pinakothek_004",
+      "intent_en": "Is the Sunday one-euro ticket valid today",
+      "text_local": "Gilt der 1-Euro-Tag heute?",
+      "pronunciation": "IHlt-dehr-EYEnsAWuhrohtAHk-hAWuhtuh",
+      "formality": "standard",
+      "cultural_note": "Öffentliche Museen in Deutschland kommunizieren Sonderangebote meist prominent am Eingang, oft auch online bestätigt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Sonntag.",
+        "pronunciation": "yAHahm-zAWntahk",
+        "translation_en": "Yes, on Sunday."
+      },
+      "responses": [
+        {
+          "english": "Yes, on Sunday.",
+          "phonetic": "yAHahm-zAWntahk",
+          "french": "Ja, am Sonntag."
+        }
+      ]
+    },
+    {
+      "id": "munich_alte_pinakothek_005",
+      "intent_en": "Is flash photography prohibited",
+      "text_local": "Ist Blitzlicht verboten?",
+      "pronunciation": "ihst-blIHtslihkht-fehrbOHtuhn",
+      "formality": "standard",
+      "cultural_note": "Kunstmuseen in Deutschland untersagen Blitzlicht generell zum Schutz der Exponate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ohne Ausnahme.",
+        "pronunciation": "yAHOHnuh-OWsnAHmuh",
+        "translation_en": "Yes, no exceptions."
+      },
+      "responses": [
+        {
+          "english": "Yes, no exceptions.",
+          "phonetic": "yAHOHnuh-OWsnAHmuh",
+          "french": "Ja, ohne Ausnahme."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

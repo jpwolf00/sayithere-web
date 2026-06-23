@@ -1,0 +1,118 @@
+{
+  "id": "montreal_poutine_restaurant",
+  "name_en": "La Banquise (Poutine Restaurant)",
+  "name_local": "La Banquise",
+  "icon": "fork.knife",
+  "lat": 45.526,
+  "lon": -73.5717,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "mtl_pout_001",
+      "intent_en": "Order a classic poutine",
+      "text_local": "Je vais prendre une poutine classique, s'il vous plaît.",
+      "pronunciation": "zhuh veh PRAHN-druh OON poo-TEEN klah-SEEK seel voo PLEH",
+      "formality": "neutral",
+      "cultural_note": "La Banquise offers over 30 types of poutine and is open 24 hours. The classic is frites, fromage en grains, and sauce brune.",
+      "responses": [
+        {
+          "english": "Coming in five minutes.",
+          "phonetic": "sah ah-REEV dahn SAHNK mee-NOOT",
+          "french": "Ça arrive dans cinq minutes."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_pout_002",
+      "intent_en": "Ask what the difference is between their poutines",
+      "text_local": "C'est quoi la différence entre les différentes poutines ?",
+      "pronunciation": "say KWAH lah dee-fay-RAHSS ahntR lay dee-fay-RAHNT poo-TEEN",
+      "formality": "neutral",
+      "cultural_note": "Poutine variations add toppings like smoked meat, mushrooms, or guacamole. Staff are poutine experts and love explaining the options.",
+      "responses": [
+        {
+          "english": "The classic has fries, cheese and gravy. The others have toppings.",
+          "phonetic": "lah klah-SEEK ah FREET froh-MAHZH ay SOHSS lay ZOH-truh ohn day gar-nee-TOOR",
+          "french": "La classique a frites, fromage et sauce. Les autres ont des garnitures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_pout_003",
+      "intent_en": "Ask if the cheese curds are fresh",
+      "text_local": "Le fromage en grains, il est frais du jour ?",
+      "pronunciation": "luh fro-MAHZH ahn GRAHN eel ay FREH doo ZHOOR",
+      "formality": "neutral",
+      "cultural_note": "Fresh cheese curds (fromage en grains) squeak against your teeth — a sign of freshness. Quality poutine spots source them daily.",
+      "responses": [
+        {
+          "english": "Yes, they were made this morning.",
+          "phonetic": "wee eel sohn fay suh mah-TAHN",
+          "french": "Oui, ils sont faits ce matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_pout_004",
+      "intent_en": "Ask for extra gravy",
+      "text_local": "Est-ce que je peux avoir plus de sauce ?",
+      "pronunciation": "ess-KUH zhuh puh ah-VWAHR ploo duh SOSS",
+      "formality": "polite",
+      "cultural_note": "The sauce in poutine is a light brown gravy — not too thick. Asking for extra is completely normal and welcomed.",
+      "responses": [
+        {
+          "english": "Yes, no problem.",
+          "phonetic": "wee pah duh proh-BLEM",
+          "french": "Oui, pas de problème."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_pout_005",
+      "intent_en": "Ask for a vegetarian poutine option",
+      "text_local": "Avez-vous une poutine végétarienne ?",
+      "pronunciation": "ah-VAY voo OON poo-TEEN vay-zhay-tah-ree-EN",
+      "formality": "polite",
+      "cultural_note": "Many poutineries now offer vegetarian or vegan gravy options. La Banquise has several veggie-friendly poutine variations on their menu.",
+      "responses": [
+        {
+          "english": "Yes, we have a vegetarian poutine.",
+          "phonetic": "wee ohn ah oon poo-TEEN vay-zhay-tah-RYEN",
+          "french": "Oui, on a une poutine végétarienne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cheese curds",
+      "word_local": "le fromage en grains",
+      "pronunciation": "luh fro-MAHZH ahn GRAHN"
+    },
+    {
+      "word_en": "gravy / sauce",
+      "word_local": "la sauce brune",
+      "pronunciation": "lah SOSS BROON"
+    },
+    {
+      "word_en": "french fries",
+      "word_local": "les frites",
+      "pronunciation": "lay FREET"
+    },
+    {
+      "word_en": "portion size",
+      "word_local": "la grosseur",
+      "pronunciation": "lah groh-SUR"
+    }
+  ]
+}

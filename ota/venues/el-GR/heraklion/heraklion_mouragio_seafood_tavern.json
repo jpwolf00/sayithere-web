@@ -1,0 +1,122 @@
+{
+  "id": "heraklion_mouragio_seafood_tavern",
+  "name_en": "Mouragio Seafood Tavern",
+  "name_local": "Μουράγιο",
+  "icon": "fork.knife",
+  "lat": 35.4045978,
+  "lon": 25.0187357,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "heraklion_mouragio_seafood_tavern_001",
+      "intent_en": "Ask if raki is complimentary after meal",
+      "text_local": "Το ρακή είναι δώρο μετά το φαγητό;",
+      "pronunciation": "toh-rahEE-EEneh-thOHroh-mehtAH-toh-fAHyeetOH",
+      "formality": "standard",
+      "cultural_note": "Στο τέλος του γεύματος στις κρητικές ταβέρνες, προσφέρεται συχνά ρακή ως πεπτικό.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Συνήθως δωρεάν.",
+        "pronunciation": "seenEEthohz-thOHrehAHn",
+        "translation_en": "Usually free."
+      },
+      "responses": [
+        {
+          "english": "Usually free.",
+          "phonetic": "seenEEthohz-thOHrehAHn",
+          "french": "Συνήθως δωρεάν."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_mouragio_seafood_tavern_002",
+      "intent_en": "Ask if fish is priced by kilo today",
+      "text_local": "Το ψάρι είναι ανά κιλό σήμερα;",
+      "pronunciation": "toh-psAHree-EEneh-ahnAH-eelOH-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Στην Κρήτη, πολλά καταστήματα ψαριών τιμούν το ψάρι ανά κιλό. Το τσάκισμα (τσάκισμα) συχνά γίνεται στο τραπέζι.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ανά κιλό.",
+        "pronunciation": "nEHahnAH-eelOH",
+        "translation_en": "Yes, by the kilo."
+      },
+      "responses": [
+        {
+          "english": "Yes, by the kilo.",
+          "phonetic": "nEHahnAH-eelOH",
+          "french": "Ναι, ανά κιλό."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_mouragio_seafood_tavern_003",
+      "intent_en": "Ask how to order grilled calamari",
+      "text_local": "Πώς παραγγέλνω ψητά καλαμάρια;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-pseetAH-kAHlahmAHreeAH",
+      "formality": "standard",
+      "cultural_note": "Στις ταβέρνες ψαριών, η παραγγελία γίνεται συχνά μετά από σύσταση του σερβιτόρου για το ημερήσιο catch.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πείτε 'ψητά καλαμάρια' στον σερβιτόρο. Συνήθως τα σερβίρουν με λεμόνι και λάδι.",
+        "pronunciation": "pEEteh-pseetAH-kAHlahmAHreeAH-stohn-sEHrveetOHrohseenEEthohs-tah-sehrvEEroon-meh-lehmOHnee-keh-lAHthee",
+        "translation_en": "Say 'grilled calamari' to the server. They usually serve it with lemon and oil."
+      },
+      "responses": [
+        {
+          "english": "Say 'grilled calamari' to the server. They usually serve it with lemon and oil.",
+          "phonetic": "pEEteh-pseetAH-kAHlahmAHreeAH-stohn-sEHrveetOHrohseenEEthohs-tah-sehrvEEroon-meh-lehmOHnee-keh-lAHthee",
+          "french": "Πείτε 'ψητά καλαμάρια' στον σερβιτόρο. Συνήθως τα σερβίρουν με λεμόνι και λάδι."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_mouragio_seafood_tavern_004",
+      "intent_en": "Ask if they have fresh octopus today",
+      "text_local": "Έχετε χταπόδι σήμερα;",
+      "pronunciation": "EHkhehtEH-khtahpOHthee-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Το χταπόδι είναι δημοφιλές πιάτο στις ταβέρνες της Κρήτης, συχνά σερβίρεται βραστό ή grilled.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, φρέσκο χταπόδι.",
+        "pronunciation": "nEHfrEHskoh-khtahpOHthee",
+        "translation_en": "Yes, fresh octopus."
+      },
+      "responses": [
+        {
+          "english": "Yes, fresh octopus.",
+          "phonetic": "nEHfrEHskoh-khtahpOHthee",
+          "french": "Ναι, φρέσκο χταπόδι."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_mouragio_seafood_tavern_005",
+      "intent_en": "Ask if they accept credit cards",
+      "text_local": "Δέχονται κάρτες;",
+      "pronunciation": "thEHkhohdEH-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "Στα παραδοσιακά ψαροταβέρνες της Κρήτης, συχνά γίνεται χρήση μετρητών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "liberec_horní_rokytnice_nad_jizerou_mountain_resort_area",
+  "name_en": "Horní Rokytnice nad Jizerou mountain resort area",
+  "name_local": "Horní Rokytnice nad Jizerou",
+  "icon": "map",
+  "lat": 50.7702648,
+  "lon": 15.0583947,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "liberec_horní_rokytnice_nad_jizerou_mountain_resort_area_001",
+      "intent_en": "How do I pay at the mountain hut?",
+      "text_local": "Jak se platí na horské chatě?",
+      "pronunciation": "yAHk-seh-plAHee-nAHhohrskeh-khAHeh",
+      "formality": "standard",
+      "cultural_note": "Smaller mountain huts often prefer cash, especially for table service, while the bar might have a terminal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hotově u stolu, kartu bereme jen na baru.",
+        "pronunciation": "hOHtohvyeh-OO-stOHlookAHrtoo-bEHrehmeh-yEHn-nAHbahroo",
+        "translation_en": "Cash at the table, we only take cards at the bar."
+      },
+      "responses": [
+        {
+          "english": "Cash at the table, we only take cards at the bar.",
+          "phonetic": "hOHtohvyeh-OO-stOHlookAHrtoo-bEHrehmeh-yEHn-nAHbahroo",
+          "french": "Hotově u stolu, kartu bereme jen na baru."
+        }
+      ]
+    },
+    {
+      "id": "liberec_horní_rokytnice_nad_jizerou_mountain_resort_area_002",
+      "intent_en": "Where is the Harrachov parking payment?",
+      "text_local": "Kde se platí parkovné v Harrachově?",
+      "pronunciation": "kdEH-seh-plAHee-pAHrkohvneh-v-hAHrahkhOHvyeh",
+      "formality": "standard",
+      "cultural_note": "Parking in Czech mountain resorts is typically paid at a central automated machine before exiting or upon arrival.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Automatu u hlavního vjezdu na parkoviště.",
+        "pronunciation": "OWtohmAHtoo-OO-hlAHvnyeehoh-vyEHzdoo-nah-pAHrkohvEEsheh",
+        "translation_en": "At the machine by the main parking lot entrance."
+      },
+      "responses": [
+        {
+          "english": "At the machine by the main parking lot entrance.",
+          "phonetic": "OWtohmAHtoo-OO-hlAHvnyeehoh-vyEHzdoo-nah-pAHrkohvEEsheh",
+          "french": "Automatu u hlavního vjezdu na parkoviště."
+        }
+      ]
+    },
+    {
+      "id": "liberec_horní_rokytnice_nad_jizerou_mountain_resort_area_003",
+      "intent_en": "Where can I get a trail map?",
+      "text_local": "Kde seženu turistickou mapu?",
+      "pronunciation": "kdEH-sEHzhehnoo-tOOreestEEtskoh-mAHpoo",
+      "formality": "standard",
+      "cultural_note": "Local information centers ('infocentrum') are the standard place for detailed trail maps in Czech towns.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V infocentru u kostela, hned na náměstíčku.",
+        "pronunciation": "v-EEnfohtsEHntroo-OO-kOHstehlahhnEHd-nah-nAHmnyehsEEtshkoo",
+        "translation_en": "At the info center by the church, right on the square."
+      },
+      "responses": [
+        {
+          "english": "At the info center by the church, right on the square.",
+          "phonetic": "v-EEnfohtsEHntroo-OO-kOHstehlahhnEHd-nah-nAHmnyehsEEtshkoo",
+          "french": "V infocentru u kostela, hned na náměstíčku."
+        }
+      ]
+    },
+    {
+      "id": "liberec_horní_rokytnice_nad_jizerou_mountain_resort_area_004",
+      "intent_en": "Where do I buy a Lysá hora ski pass?",
+      "text_local": "Kde si koupím skipas na Lysou horu?",
+      "pronunciation": "kdEH-see-kOHpeem-skEEpahs-nAHleesoh-hOHroo",
+      "formality": "standard",
+      "cultural_note": "Czech ski areas often have separate windows for passes and tickets; 'vlevo' (to the left) is a common directional cue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U dolní stanice lanovky, vlevo od pokladny.",
+        "pronunciation": "OO-dOHlnyee-stAHnyeetseh-lAHnohfkeevlEHvoh-OHtpohklAHdnee",
+        "translation_en": "At the bottom station of the lift, left of the ticket office."
+      },
+      "responses": [
+        {
+          "english": "At the bottom station of the lift, left of the ticket office.",
+          "phonetic": "OO-dOHlnyee-stAHnyeetseh-lAHnohfkeevlEHvoh-OHtpohklAHdnee",
+          "french": "U dolní stanice lanovky, vlevo od pokladny."
+        }
+      ]
+    },
+    {
+      "id": "liberec_horní_rokytnice_nad_jizerou_mountain_resort_area_005",
+      "intent_en": "Is there accommodation in Dolní Rokytnice?",
+      "text_local": "Je v Dolní Rokytnici ubytování?",
+      "pronunciation": "yeh-v-dOHlnyee-rOHkeetnyEEtsee-OObeetOHvahnyee",
+      "formality": "standard",
+      "cultural_note": "'Pension' is the common term for family-run guesthouses in Czech mountain villages, often clustered along main roads.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, pár penzionů je u hlavní silnice.",
+        "pronunciation": "AHnohpAHr-pEHnzeeOHnoo-yeh-OO-hlAHvnyee-sEElnyeetseh",
+        "translation_en": "Yes, there are a few pensions along the main road."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are a few pensions along the main road.",
+          "phonetic": "AHnohpAHr-pEHnzeeOHnoo-yeh-OO-hlAHvnyee-sEElnyeetseh",
+          "french": "Ano, pár penzionů je u hlavní silnice."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

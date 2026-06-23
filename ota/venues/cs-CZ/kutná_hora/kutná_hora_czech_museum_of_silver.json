@@ -1,0 +1,100 @@
+{
+  "id": "kutná_hora_czech_museum_of_silver",
+  "name_en": "Czech Museum of Silver",
+  "name_local": "České muzeum stříbra",
+  "icon": "building.columns",
+  "lat": 49.9476262,
+  "lon": 15.2654703,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kutná_hora_czech_museum_of_silver_001",
+      "intent_en": "When do mine tours depart?",
+      "text_local": "Kdy odcházejí prohlídky do dolu?",
+      "pronunciation": "kdEE-OHtkhahzEHyee-prOHhleetkee-dOHdohloo",
+      "formality": "standard",
+      "cultural_note": "Tours are guided by a miner guide (horník) and depart at fixed intervals, not continuously.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Každou celou hodinu, další je v jedenáct.",
+        "pronunciation": "kAHzhdoh-tsEHloh-hOHeenoodAHlshee-yeh-v-yEHdehnahtst",
+        "translation_en": "Every hour on the hour, the next one is at eleven."
+      },
+      "responses": [
+        {
+          "english": "Every hour on the hour, the next one is at eleven.",
+          "phonetic": "kAHzhdoh-tsEHloh-hOHeenoodAHlshee-yeh-v-yEHdehnahtst",
+          "french": "Každou celou hodinu, další je v jedenáct."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_czech_museum_of_silver_002",
+      "intent_en": "Where are Hrádek mine tour tickets?",
+      "text_local": "Kde jsou lístky na důlní prohlídku Hrádek?",
+      "pronunciation": "kdEH-ysoh-lEEstkee-nAHdoolnyee-prOHhleetkoo-hrAHdehk",
+      "formality": "standard",
+      "cultural_note": "The Hrádek building houses the mine tour entrance; tickets are sold inside, not at a separate booth.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U pokladny v přízemí, vpravo od vchodu.",
+        "pronunciation": "OO-pOHklahdnee-v-prEEzehmeefprAHvoh-OHdfkhohdoo",
+        "translation_en": "At the ticket counter on the ground floor, to the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter on the ground floor, to the right of the entrance.",
+          "phonetic": "OO-pOHklahdnee-v-prEEzehmeefprAHvoh-OHdfkhohdoo",
+          "french": "U pokladny v přízemí, vpravo od vchodu."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_czech_museum_of_silver_003",
+      "intent_en": "Is photography allowed in the mine?",
+      "text_local": "Můžu v dole fotit?",
+      "pronunciation": "mOOzhoo-v-dOHleh-fOHeet",
+      "formality": "standard",
+      "cultural_note": "Photography is usually permitted in the mine, but flash is prohibited to protect the environment and for safety.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, ale pouze bez blesku.",
+        "pronunciation": "AHnohAHleh-pOHzeh-bEHzblehskoo",
+        "translation_en": "Yes, but only without flash."
+      },
+      "responses": [
+        {
+          "english": "Yes, but only without flash.",
+          "phonetic": "AHnohAHleh-pOHzeh-bEHzblehskoo",
+          "french": "Ano, ale pouze bez blesku."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_czech_museum_of_silver_004",
+      "intent_en": "Where do I rent an audio guide?",
+      "text_local": "Kde si můžu půjčit audioprůvodce?",
+      "pronunciation": "kdEH-see-mOOzhoo-pOOytsheet-OWdeeOHproovOHttseh",
+      "formality": "standard",
+      "cultural_note": "Audio guides are typically rented at a dedicated desk near the museum entrance, separate from the ticket counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned u vstupní haly, pult vlevo.",
+        "pronunciation": "hnEHd-OO-fstOOpnyee-hAHleepOOlt-vlEHvoh",
+        "translation_en": "Right by the entrance hall, counter on the left."
+      },
+      "responses": [
+        {
+          "english": "Right by the entrance hall, counter on the left.",
+          "phonetic": "hnEHd-OO-fstOOpnyee-hAHleepOOlt-vlEHvoh",
+          "french": "Hned u vstupní haly, pult vlevo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

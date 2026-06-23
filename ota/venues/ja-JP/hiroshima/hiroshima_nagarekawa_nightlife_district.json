@@ -1,0 +1,78 @@
+{
+  "id": "hiroshima_nagarekawa_nightlife_district",
+  "name_en": "Nagarekawa nightlife district",
+  "name_local": "流川エリア",
+  "icon": "map",
+  "lat": 34.396986820343564,
+  "lon": 132.46453837373414,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "hiroshima_nagarekawa_nightlife_district_001",
+      "intent_en": "Where is Yagenbori theater street",
+      "text_local": "やげんぼりの えんげきがい は どこですか？",
+      "pronunciation": "yGehBohEEnoh-EHnggehkeegEE-h-DOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "薬研堀 is a compact area with many small live houses and bars. Directions are often given by landmarks or corners.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき ふたつめの かどを ひだりです。",
+        "pronunciation": "kOHnohsKee-OOttsoomEHnoh-kdOHoh-khEEdeedEHsoo",
+        "translation_en": "Ahead, at the second corner, turn left."
+      },
+      "responses": [
+        {
+          "english": "Ahead, at the second corner, turn left.",
+          "phonetic": "kOHnohsKee-OOttsoomEHnoh-kdOHoh-khEEdeedEHsoo",
+          "french": "このさき ふたつめの かどを ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_nagarekawa_nightlife_district_002",
+      "intent_en": "Where is love hotel rest entrance",
+      "text_local": "ラブホテルの きゅうけいの いりぐちは どこ？",
+      "pronunciation": "BoohOHtehOOnoh-kOOookehEEnoh-EEeegootEEh-dOHkoh",
+      "formality": "standard",
+      "cultural_note": "Discreet entrances are common in Nagarekawa. 'Rest' (休憩) is a short-stay option distinct from an overnight 'stay' (宿泊).",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "うらどおりの エレベーターから さんがいです。",
+        "pronunciation": "OOdohohEEnoh-EHehbEHehtk-SNGgeedEHsoo",
+        "translation_en": "From the back street elevator, third floor."
+      },
+      "responses": [
+        {
+          "english": "From the back street elevator, third floor.",
+          "phonetic": "OOdohohEEnoh-EHehbEHehtk-SNGgeedEHsoo",
+          "french": "うらどおりの エレベーターから さんがいです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_nagarekawa_nightlife_district_003",
+      "intent_en": "Is nomihodai all-you-can-drink",
+      "text_local": "のみほうだい って のみほうだい だよね？",
+      "pronunciation": "nOHmeehOHoodEE-ttEH-nOHmeehOHoodEE-dyOHneh",
+      "formality": "standard",
+      "cultural_note": "Nomihodai plans are usually time-limited (often 90 or 120 minutes). Confirming this avoids confusion.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ええ、じかんせいの のみほうだいです。",
+        "pronunciation": "EHehdEEkSehEEnoh-nOHmeehOHoodEEdEHsoo",
+        "translation_en": "Yes, it's a time-limited all-you-can-drink."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's a time-limited all-you-can-drink.",
+          "phonetic": "EHehdEEkSehEEnoh-nOHmeehOHoodEEdEHsoo",
+          "french": "ええ、じかんせいの のみほうだいです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

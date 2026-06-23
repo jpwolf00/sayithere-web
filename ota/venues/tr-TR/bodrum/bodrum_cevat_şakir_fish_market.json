@@ -1,0 +1,166 @@
+{
+  "id": "bodrum_cevat_şakir_fish_market",
+  "name_en": "Cevat Şakir Fish Market",
+  "name_local": "Balık Pazarı",
+  "icon": "cart",
+  "lat": 37.0343987,
+  "lon": 27.430651,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "bodrum_cevat_şakir_fish_market_001",
+      "intent_en": "Where do I pay cleaning fee?",
+      "text_local": "Temizleme ücretini nerede öderim?",
+      "pronunciation": "tehmIHzlehmeh-uhdzhrehteenIH-nEHrehdeh-uhdEHrihm",
+      "formality": "standard",
+      "cultural_note": "Temizleme ücreti genellikle balığı aldığınız tezgahtara veya balıkçıya doğrudan ödenir, ayrı bir kasa yoktur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Balıkçıya ödeyin.",
+        "pronunciation": "bahooktshooyAH-uhdehyIHn",
+        "translation_en": "Pay the fishmonger."
+      },
+      "responses": [
+        {
+          "english": "Pay the fishmonger.",
+          "phonetic": "bahooktshooyAH-uhdehyIHn",
+          "french": "Balıkçıya ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_cevat_şakir_fish_market_002",
+      "intent_en": "Where do I take fish to cook?",
+      "text_local": "Pişirtmek için balığı nereye götüreyim?",
+      "pronunciation": "peeshihrtmEHk-eetshIHn-bahooooOO-nEHrehyeh-uhtuerehyIHm",
+      "formality": "standard",
+      "cultural_note": "Pazarda restorana götürme hizmeti olsa da, sabit bir nokta belirtilmediği için danışma en güvenli yoldur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşıdaki restoranlar var.",
+        "pronunciation": "kahrshoodahkIH-rehstohrahnAHr-vAHr",
+        "translation_en": "There are restaurants across the street."
+      },
+      "responses": [
+        {
+          "english": "There are restaurants across the street.",
+          "phonetic": "kahrshoodahkIH-rehstohrahnAHr-vAHr",
+          "french": "Karşıdaki restoranlar var."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_cevat_şakir_fish_market_003",
+      "intent_en": "Where do I pay cleaning fee?",
+      "text_local": "Temizleme ücretini nerede ödeyebilirim?",
+      "pronunciation": "tehmIHzlehmeh-uhdzhrehteenIH-nEHrehdeh-uhdehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Balık pazarında temizlik ücreti genellikle servisi yapan kişiye elden ödenir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Temizleyiciye ödeyin.",
+        "pronunciation": "tehmihzlehyeedzheeyEH-uhdehyIHn",
+        "translation_en": "Pay the cleaner."
+      },
+      "responses": [
+        {
+          "english": "Pay the cleaner.",
+          "phonetic": "tehmihzlehyeedzheeyEH-uhdehyIHn",
+          "french": "Temizleyiciye ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_cevat_şakir_fish_market_004",
+      "intent_en": "Is this çinekop fresh today?",
+      "text_local": "Bu çinekop bugün taze mi?",
+      "pronunciation": "buh-tsheenehkAWp-boogUHn-tahzEH-mih",
+      "formality": "standard",
+      "cultural_note": "Çinekop sonbahar balığıdır ve tazeliği tezgâhtara sorarak teyit edilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bugün geldi.",
+        "pronunciation": "ehvEHtboogUHn-ahldIH",
+        "translation_en": "Yes, it came in today."
+      },
+      "responses": [
+        {
+          "english": "Yes, it came in today.",
+          "phonetic": "ehvEHtboogUHn-ahldIH",
+          "french": "Evet, bugün geldi."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_cevat_şakir_fish_market_005",
+      "intent_en": "Do you have orfoz right now?",
+      "text_local": "Şu anda orfoz var mı?",
+      "pronunciation": "shuh-ahndAH-awrfAWz-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Stoklar günlük değiştiği için kesin bilgiyi sadece tezgâhtar verebilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yok, mevsimi geçti.",
+        "pronunciation": "yAWkmEHvseemih-ehtshtIH",
+        "translation_en": "No, its season is over."
+      },
+      "responses": [
+        {
+          "english": "No, its season is over.",
+          "phonetic": "yAWkmEHvseemih-ehtshtIH",
+          "french": "Yok, mevsimi geçti."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_cevat_şakir_fish_market_006",
+      "intent_en": "Where do I take fish to cook?",
+      "text_local": "Balığı pişirtmek için nereye götüreyim?",
+      "pronunciation": "bahooooOO-peeshihrtmEHk-eetshIHn-nEHrehyeh-uhtuerehyIHm",
+      "formality": "standard",
+      "cultural_note": "Pazardaki restorana götürme hizmetinin yönlendirmesi için en güvenli yöntem danışmaya sormaktır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pazaryerinin yanındaki restoranlara.",
+        "pronunciation": "pahzahryehreenIHn-yahnoondahkIH-rehstohrahnahrAH",
+        "translation_en": "To the restaurants next to the market."
+      },
+      "responses": [
+        {
+          "english": "To the restaurants next to the market.",
+          "phonetic": "pahzahryehreenIHn-yahnoondahkIH-rehstohrahnahrAH",
+          "french": "Pazaryerinin yanındaki restoranlara."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_cevat_şakir_fish_market_007",
+      "intent_en": "Where are the meze stalls?",
+      "text_local": "Meze tezgâhları nerede?",
+      "pronunciation": "mehzEH-tehzahhahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Meze tezgâhlarının pazar içindeki konumu sabit olmadığı için danışma yönlendirmesi en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Balıkçıların tam ortasında.",
+        "pronunciation": "bahooktshooahrOOn-tAHm-awrtahsoondAH",
+        "translation_en": "Right in the middle of the fishmongers."
+      },
+      "responses": [
+        {
+          "english": "Right in the middle of the fishmongers.",
+          "phonetic": "bahooktshooahrOOn-tAHm-awrtahsoondAH",
+          "french": "Balıkçıların tam ortasında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

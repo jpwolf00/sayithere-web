@@ -1,0 +1,115 @@
+{
+  "id": "lyon_musee_confluences",
+  "name_en": "Museum of Confluences",
+  "name_local": "Musée des Confluences",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "lyon_confluences_001",
+      "intent_en": "Buy two adult tickets",
+      "text_local": "Deux billets adulte, s'il vous plaît.",
+      "pronunciation": "duh bee-YEH ah-DOLT, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The permanent collection of the Musée des Confluences is free. Tickets are only required for temporary exhibitions. Check the website before visiting.",
+      "responses": [
+        {
+          "english": "Eighteen euros for two.",
+          "phonetic": "deez-weet uh-ROH poor DUH",
+          "french": "Dix-huit euros pour deux."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_confluences_002",
+      "intent_en": "Ask if there is a terrace with a view",
+      "text_local": "Y a-t-il une terrasse avec vue ?",
+      "pronunciation": "ee ah-TEEL oon teh-RAHS ah-VEK VOO",
+      "formality": "polite",
+      "cultural_note": "The Musée des Confluences has a rooftop terrace overlooking the junction of the Rhône and Saône rivers.",
+      "responses": [
+        {
+          "english": "Yes, on the top floor.",
+          "phonetic": "wee, oh dehr-NYAY ay-TAHZH",
+          "french": "Oui, au dernier étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_confluences_003",
+      "intent_en": "Ask where the Egyptian mummies are displayed",
+      "text_local": "Où sont exposées les momies égyptiennes ?",
+      "pronunciation": "oo sohn ex-poh-ZAY lay moh-MEE ay-zhip-SYEHN",
+      "formality": "polite",
+      "cultural_note": "The museum's permanent galleries include Origins of the Universe, Species Origins, Civilizations, and Eternity — featuring genuine Egyptian mummies and artefacts.",
+      "responses": [
+        {
+          "english": "On the first floor, room two.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH, SAL DUH",
+          "french": "Au premier étage, salle deux."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_confluences_004",
+      "intent_en": "Ask if there is an audio guide available",
+      "text_local": "Y a-t-il un audioguide disponible ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dyoh-GEED dees-poh-NEEBL",
+      "formality": "polite",
+      "cultural_note": "Audio guides are typically available in French, English, and other languages. The museum app also provides guided content for free on your own smartphone.",
+      "responses": [
+        {
+          "english": "Yes, at reception. Five euros.",
+          "phonetic": "wee, ah lah-KUHY. sehnk uh-ROH",
+          "french": "Oui, à l'accueil. Cinq euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_confluences_005",
+      "intent_en": "Ask for the museum's opening hours",
+      "text_local": "Quels sont les horaires d'ouverture du musée ?",
+      "pronunciation": "kel sohn lay oh-RAIR doo-VAIRT-oor doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum is closed on Mondays. It opens late on Thursdays, which is ideal for avoiding weekend crowds.",
+      "responses": [
+        {
+          "english": "From 10:30 AM to 6 PM.",
+          "phonetic": "duh deez UHR TRAHNT ah deez-weet UHR",
+          "french": "De dix heures trente à dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "museum ticket",
+      "word_local": "le billet d'entrée",
+      "pronunciation": "luh bee-YEH dahn-TRAY"
+    },
+    {
+      "word_en": "temporary exhibition",
+      "word_local": "l'exposition temporaire",
+      "pronunciation": "lex-poh-zee-SYOHN tahm-poh-RAIR"
+    },
+    {
+      "word_en": "mummy",
+      "word_local": "la momie",
+      "pronunciation": "lah moh-MEE"
+    },
+    {
+      "word_en": "confluence (of rivers)",
+      "word_local": "la confluence",
+      "pronunciation": "lah kohn-FLOO-ahns"
+    }
+  ]
+}

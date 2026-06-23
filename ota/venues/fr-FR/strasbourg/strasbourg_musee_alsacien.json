@@ -1,0 +1,118 @@
+{
+  "id": "strasbourg_musee_alsacien",
+  "name_en": "Musée Alsacien",
+  "name_local": "Musée Alsacien",
+  "icon": "building.columns",
+  "lat": 48.5845,
+  "lon": 7.7443,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "strasbourg_alsacien_001",
+      "intent_en": "Ask about traditional costumes",
+      "text_local": "Que sont ces vêtements traditionnels ?",
+      "pronunciation": "keh son say vayt-MAHN trah-dee-syoh-NEL",
+      "formality": "polite",
+      "cultural_note": "The museum displays traditional Alsatian costumes, including the distinctive 'coiffe' (headpieces) worn by women in different villages.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "They are traditional Alsatian costumes. The headpieces vary by village.",
+          "phonetic": "say VAHN-tur roh par pear-SOHN",
+          "french": "Ce sont des costumes traditionnels alsaciens. Les coiffes varient selon le village."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_alsacien_002",
+      "intent_en": "Ask about the ticket price",
+      "text_local": "Combien coûte l'entrée ?",
+      "pronunciation": "kom-BYAN KOOT lahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The museum has a modest entrance fee. Reduced rates may be available for students and seniors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's posted at the ticket office, at the entrance.",
+          "phonetic": "say ah-fee-SHAY oh gee-SHAY, ah lahn-TRAY",
+          "french": "C'est affiché au guichet, à l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_alsacien_003",
+      "intent_en": "Ask if there is an audio guide",
+      "text_local": "Y a-t-il un audioguide ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dee-oh-GEED",
+      "formality": "polite",
+      "cultural_note": "Audio guides can enhance the museum experience, especially for non-French speakers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, ask at reception. Available in several languages.",
+          "phonetic": "wee, duh-mahn-DAY ah lah-KOY. dee-spoh-NEEBL ahn ploo-ZYUR LAHNG",
+          "french": "Oui, demandez à l'accueil. Disponible en plusieurs langues."
+        }
+      ]
+    },
+    {
+      "id": "fr_ma_str_x1",
+      "intent_en": "Ask what the museum shows about Alsatian life",
+      "text_local": "Que montre ce musée sur la vie alsacienne ?",
+      "pronunciation": "kuh MON-truh suh moo-ZAY soor lah VEE al-sah-SYEN",
+      "formality": "polite",
+      "cultural_note": "The Musée Alsacien is an ethnographic museum in a series of linked 17th-century townhouses, showing daily life in Alsace from the 16th to 19th centuries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Alsatian folk traditions, costumes and furniture.",
+          "phonetic": "lay trah-dee-SYON poh-poo-LAIR, kos-TOOM ay moh-BEEL-yay al-sah-SYAN.",
+          "french": "Les traditions populaires, costumes et mobilier alsaciens."
+        }
+      ]
+    },
+    {
+      "id": "fr_ma_str_x2",
+      "intent_en": "Ask if there are English descriptions in the museum",
+      "text_local": "Y a-t-il des explications en anglais dans le musée ?",
+      "pronunciation": "ee ah-TEEL day zeks-plee-kah-SYON ahn ahn-GLAY dahn luh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, an English booklet is available at reception.",
+          "phonetic": "wee, uhn lee-VRAY ahn ahn-GLAY ay dees-poh-NEEBL ah lah-KUY.",
+          "french": "Oui, un livret en anglais est disponible à l'accueil."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Alsatian",
+      "word_local": "alsacien",
+      "pronunciation": "al-zah-SYAN"
+    },
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "leh moo-ZAY"
+    },
+    {
+      "word_en": "costume",
+      "word_local": "le costume",
+      "pronunciation": "leh kos-TOOM"
+    },
+    {
+      "word_en": "tradition",
+      "word_local": "la tradition",
+      "pronunciation": "lah trah-dee-SYON"
+    }
+  ]
+}

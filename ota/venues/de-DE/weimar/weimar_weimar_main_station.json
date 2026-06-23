@@ -1,0 +1,122 @@
+{
+  "id": "weimar_weimar_main_station",
+  "name_en": "Weimar Main Station",
+  "name_local": "Weimar Hauptbahnhof",
+  "icon": "tram",
+  "lat": 50.9910294,
+  "lon": 11.3278877,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "weimar_weimar_main_station_001",
+      "intent_en": "Where is the ticket machine?",
+      "text_local": "Wo ist der Fahrkartenautomat?",
+      "pronunciation": "vOH-ihst-dehr-fAHrkahrtEHnowtohmAHt",
+      "formality": "standard",
+      "cultural_note": "Signage is typically clear in German train stations; staff may redirect if unclear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Reisezentrum.",
+        "pronunciation": "ihm-rEYEzehtsEHntruhm",
+        "translation_en": "At the travel center."
+      },
+      "responses": [
+        {
+          "english": "At the travel center.",
+          "phonetic": "ihm-rEYEzehtsEHntruhm",
+          "french": "Im Reisezentrum."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_main_station_002",
+      "intent_en": "What track for regional trains?",
+      "text_local": "Auf welchem Gleis fahren Regionalzüge?",
+      "pronunciation": "owf-vEHlkhuhm-lEYEs-fAHruhn-rEHihOHnahltsUEuh",
+      "formality": "standard",
+      "cultural_note": "Displays are updated dynamically; staff confirm in case of doubt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 1 oder 2, prüfen Sie die Anzeige.",
+        "pronunciation": "lEYEs-EYEns-OHd-tsvEYEprUEfuhn-zee-dee-AHntsEYEuh",
+        "translation_en": "Track 1 or 2, check the display."
+      },
+      "responses": [
+        {
+          "english": "Track 1 or 2, check the display.",
+          "phonetic": "lEYEs-EYEns-OHd-tsvEYEprUEfuhn-zee-dee-AHntsEYEuh",
+          "french": "Gleis 1 oder 2, prüfen Sie die Anzeige."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_main_station_003",
+      "intent_en": "Where is the oversized luggage drop?",
+      "text_local": "Wo ist die Sperrgutannahme?",
+      "pronunciation": "vOH-ihst-dee-shpEHrootAHnahmuh",
+      "formality": "standard",
+      "cultural_note": "Oversized luggage is handled at staffed counters in German stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bahnsteig 1.",
+        "pronunciation": "ahm-bAHnsteyek-EYEns",
+        "translation_en": "At platform 1."
+      },
+      "responses": [
+        {
+          "english": "At platform 1.",
+          "phonetic": "ahm-bAHnsteyek-EYEns",
+          "french": "Am Bahnsteig 1."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_main_station_004",
+      "intent_en": "Where is the bike rental desk?",
+      "text_local": "Wo ist die Fahrradstation?",
+      "pronunciation": "vOH-ihst-dee-fAHrahtstahtsyOHn",
+      "formality": "standard",
+      "cultural_note": "Bike rental is usually co-located with travel services in German stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bahnsteig 1.",
+        "pronunciation": "ahm-bAHnsteyek-EYEns",
+        "translation_en": "At platform 1."
+      },
+      "responses": [
+        {
+          "english": "At platform 1.",
+          "phonetic": "ahm-bAHnsteyek-EYEns",
+          "french": "Am Bahnsteig 1."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_main_station_005",
+      "intent_en": "Where do I validate my ticket?",
+      "text_local": "Wo stemple ich mein Ticket?",
+      "pronunciation": "vOH-shtEHmpluh-ihkh-meyen-tIHkuht",
+      "formality": "standard",
+      "cultural_note": "Validation is mandatory for most tickets; staff are trained to assist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Automaten vor den Bahnsteigen.",
+        "pronunciation": "ahn-dehn-OWtohmAHtuhn-fAWr-dehn-bAHnsteyeuhn",
+        "translation_en": "At the machines before the platforms."
+      },
+      "responses": [
+        {
+          "english": "At the machines before the platforms.",
+          "phonetic": "ahn-dehn-OWtohmAHtuhn-fAWr-dehn-bAHnsteyeuhn",
+          "french": "An den Automaten vor den Bahnsteigen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

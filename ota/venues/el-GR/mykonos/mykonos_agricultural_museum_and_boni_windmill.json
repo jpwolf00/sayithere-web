@@ -1,0 +1,254 @@
+{
+  "id": "mykonos_agricultural_museum_and_boni_windmill",
+  "name_en": "Agricultural Museum and Boni Windmill",
+  "name_local": "Αγροτικό Μουσείο Μυκόνου",
+  "icon": "building.columns",
+  "lat": 37.4513937,
+  "lon": 25.3923149,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το παραδοσιακό σπίτι κοντά στον ανεμόμυλο;",
+      "pronunciation": "pOO-EEneh-toh-pAHrahthOHsyahkOH-spEEtee-kohdAH-stohn-AHnehmOHmeelOH",
+      "formality": "standard",
+      "cultural_note": "Το παραδοσιακό σπίτι βρίσκεται στο συγκρότημα του μουσείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μέσα στο μουσείο, πίσω από τον Μύλο του",
+        "pronunciation": "mEHsah-stoh-moosEEohpEEsoh-ahpOH-tohn-mEEloh-too",
+        "translation_en": "The traditional house is inside the complex, behind the windmill."
+      },
+      "responses": [
+        {
+          "english": "The traditional house is inside the complex, behind the windmill.",
+          "phonetic": "mEHsah-stoh-moosEEohpEEsoh-ahpOH-tohn-mEEloh-too",
+          "french": "Μέσα στο μουσείο, πίσω από τον Μύλο του"
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_002",
+      "intent_en": "Is donation instead of ticket?",
+      "text_local": "Η είσοδος γίνεται με δωρεά;",
+      "pronunciation": "ee-EEsohthOHz-yEEnehtEH-meh-thOHrehAH",
+      "formality": "standard",
+      "cultural_note": "Η είσοδος γίνεται με εθελοντική δωρεά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, με δωρεά.",
+        "pronunciation": "nEHmeh-thOHrehAH",
+        "translation_en": "Yes, by donation."
+      },
+      "responses": [
+        {
+          "english": "Yes, by donation.",
+          "phonetic": "nEHmeh-thOHrehAH",
+          "french": "Ναι, με δωρεά."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_003",
+      "intent_en": "See original millstones working?",
+      "text_local": "Λειτουργούν οι πρωτότυποι μυλόπετρες;",
+      "pronunciation": "lEEtoorghOOn-ee-prohtOHteepEE-meelOHpehtrEHs",
+      "formality": "standard",
+      "cultural_note": "Οι πρωτότυποι μυλόπετρες εκτίθενται μόνιμα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, μόνο μόνιμη έκθεση.",
+        "pronunciation": "OHkheemOHnoh-mOHneemEE-EHkthehsEE",
+        "translation_en": "No, only permanent display."
+      },
+      "responses": [
+        {
+          "english": "No, only permanent display.",
+          "phonetic": "OHkheemOHnoh-mOHneemEE-EHkthehsEE",
+          "french": "Όχι, μόνο μόνιμη έκθεση."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_004",
+      "intent_en": "Is the folk house exhibit open?",
+      "text_local": "Είναι ανοιχτή η έκθεση της παραδοσιακής κατοικίας;",
+      "pronunciation": "EEneh-AHneekhtOH-toh-moosEEoh-tees-pAHrahthOHsyahEEs-kAHteeEEahs",
+      "formality": "standard",
+      "cultural_note": "Το μουσείο της παραδοσιακής κατοικίας είναι τμήμα του αγροτικού μουσείου και μπορεί να είναι κλειστό ανάλογα με τις συνθήκες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στον πάνω όροφο του μουσείου.",
+        "pronunciation": "nEHstohm-bAHnoh-OHrohfOH-too-moosEEoo",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "nEHstohm-bAHnoh-OHrohfOH-too-moosEEoo",
+          "french": "Ναι, στον πάνω όροφο του μουσείου."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_005",
+      "intent_en": "How do I pay the entrance donation?",
+      "text_local": "Πώς πληρώνω την εισφορά;",
+      "pronunciation": "pOHs-pleerOHnoh-teen-EEsfohrAH-eesOHthoo",
+      "formality": "standard",
+      "cultural_note": "Η εισφορά εισόδου είναι εθελοντική και οι επισκέπτες συμβουλεύονται να ρωτήσουν το προσωπικό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κουτί δίπλα στην είσοδο του ανεμόμυλου.",
+        "pronunciation": "stoh-kootEE-thEEplah-steen-EEsohthOH-too-AHnehmOHmeelOO",
+        "translation_en": "There is a donation box near the base of the windmill."
+      },
+      "responses": [
+        {
+          "english": "There is a donation box near the base of the windmill.",
+          "phonetic": "stoh-kootEE-thEEplah-steen-EEsohthOH-too-AHnehmOHmeelOO",
+          "french": "Στο κουτί δίπλα στην είσοδο του ανεμόμυλου."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_006",
+      "intent_en": "Where is the donation box?",
+      "text_local": "Πού είναι το κουτί των δωρεών;",
+      "pronunciation": "pOO-EEneh-toh-kootEE-tohn-thOHrehOHn",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνηθίζουν να τοποθετούν μικρές δωρεές στο κουτί κοντά στη βάση του ανεμόμυλου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στη βάση του ανέμου.",
+        "pronunciation": "stee-vAHsee-too-ahnEHmoo",
+        "translation_en": "At the windmill base."
+      },
+      "responses": [
+        {
+          "english": "At the windmill base.",
+          "phonetic": "stee-vAHsee-too-ahnEHmoo",
+          "french": "Στη βάση του ανέμου."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_007",
+      "intent_en": "Are guidebooks sold in English?",
+      "text_local": "Πωλούνται ξενόγλωσσα βιβλία οδηγού;",
+      "pronunciation": "pohlOOdeh-ksehnOHghlohssAH-veevlEEah-OHtheeghOO",
+      "formality": "standard",
+      "cultural_note": "Τα ξενόγλωσσα βιβλία οδηγού πωλούνται ξεχωριστά από την είσοδο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ξενόγλωσσα.",
+        "pronunciation": "nEHksehnOHghlohssAH",
+        "translation_en": "Yes, in foreign languages."
+      },
+      "responses": [
+        {
+          "english": "Yes, in foreign languages.",
+          "phonetic": "nEHksehnOHghlohssAH",
+          "french": "Ναι, ξενόγλωσσα."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_008",
+      "intent_en": "Where are the old millstones?",
+      "text_local": "Πού βρίσκονται οι παλαιοί μυλόπετρες;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-pAHlehEE-meelOHpehtrEHs",
+      "formality": "standard",
+      "cultural_note": "Οι παλαιοί μυλόπετρες βρίσκονται κοντά στη βάση του ανεμόμυλου, μέρος της έκθεσης εργαλείων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στη βάση του μύλου.",
+        "pronunciation": "stee-vAHsee-too-mEEloo",
+        "translation_en": "At the mill base."
+      },
+      "responses": [
+        {
+          "english": "At the mill base.",
+          "phonetic": "stee-vAHsee-too-mEEloo",
+          "french": "Στη βάση του μύλου."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_009",
+      "intent_en": "Must I remove my hat inside?",
+      "text_local": "Πρέπει να βγάλω το καπέλο μέσα;",
+      "pronunciation": "prEHpee-nah-vghAHloh-toh-kahpEHloh-mEHsah",
+      "formality": "standard",
+      "cultural_note": "Στον ανεμόμυλο επικρατεί παράδοση αποκαλυψης ως ένδειξη σεβασμού.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, βγάλτε το.",
+        "pronunciation": "nEHvghAHlteh-toh",
+        "translation_en": "Yes, remove it."
+      },
+      "responses": [
+        {
+          "english": "Yes, remove it.",
+          "phonetic": "nEHvghAHlteh-toh",
+          "french": "Ναι, βγάλτε το."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_010",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να αγοράσω ξεχωριστά τον οδηγό;",
+      "pronunciation": "pOO-poolyOOdeh-ksEHkhohreestAH-ee-ksEHnahyEE",
+      "formality": "polite",
+      "cultural_note": "Οι ξεναγοί πωλούνται από τον εθελοντή φύλακα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο της εισόδου, δεξιά.",
+        "pronunciation": "stohm-bAHnggoh-tees-eesOHthoothEHkseeAH",
+        "translation_en": "You can buy it from the guard, near the museum entrance."
+      },
+      "responses": [
+        {
+          "english": "You can buy it from the guard, near the museum entrance.",
+          "phonetic": "stohm-bAHnggoh-tees-eesOHthoothEHkseeAH",
+          "french": "Στον πάγκο της εισόδου, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_agricultural_museum_and_boni_windmill_011",
+      "intent_en": "Where leave hat before windmill?",
+      "text_local": "Πού αφήνω το καπέλο πριν το ανεμόμυλο;",
+      "pronunciation": "pOO-ahfEEnoh-toh-kahpEHloh-prEEn-doh-AHnehmOHmeelOH",
+      "formality": "standard",
+      "cultural_note": "Σηκώνετε το καπέλο μόλις εισέλθετε στον ανεμόμυλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο του ανεμόμυλου.",
+        "pronunciation": "steen-EEsohthOH-too-AHnehmOHmeelOO",
+        "translation_en": "At the windmill entrance."
+      },
+      "responses": [
+        {
+          "english": "At the windmill entrance.",
+          "phonetic": "steen-EEsohthOH-too-AHnehmOHmeelOO",
+          "french": "Στην είσοδο του ανεμόμυλου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

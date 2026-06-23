@@ -1,0 +1,56 @@
+{
+  "id": "maastricht_vvv_maastricht_tourist_information",
+  "name_en": "VVV Maastricht Tourist Information",
+  "name_local": "VVV Maastricht",
+  "icon": "info.circle",
+  "lat": 50.8512438,
+  "lon": 5.6909768,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "maastricht_vvv_maastricht_tourist_information_001",
+      "intent_en": "Do you have English city maps",
+      "text_local": "Heeft u Engelstalige stadsplattegronden?",
+      "pronunciation": "hehft-ue-EHngehlstAHluhghuh-stAHtsplAHtehghrAWnduhn",
+      "formality": "standard",
+      "cultural_note": "The VVV Maastricht gift shop and information desk commonly stock English-language city maps for tourists.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aan de balie.",
+        "pronunciation": "yAHahn-duh-bahlEE",
+        "translation_en": "Yes, at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the desk.",
+          "phonetic": "yAHahn-duh-bahlEE",
+          "french": "Ja, aan de balie."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vvv_maastricht_tourist_information_002",
+      "intent_en": "Can I buy Maastricht Underground tickets here",
+      "text_local": "Verkoopt u hier tickets voor de Maastrichtse Ondergrondse?",
+      "pronunciation": "vuhrkOHpt-ue-hEEr-tIHkehts-vawr-duh-mAHstrihkhtsuh-AWnduhrghrAWndsuh",
+      "formality": "standard",
+      "cultural_note": "The VVV Maastricht is a tourist information point where tickets for local attractions like the Maastricht Underground are commonly sold.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de balie.",
+        "pronunciation": "yAHbehih-duh-bahlEE",
+        "translation_en": "Yes, at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the desk.",
+          "phonetic": "yAHbehih-duh-bahlEE",
+          "french": "Ja, bij de balie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

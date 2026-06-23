@@ -1,0 +1,118 @@
+{
+  "id": "marseille_la_joliette",
+  "name_en": "La Joliette",
+  "name_local": "La Joliette",
+  "icon": "building.2",
+  "lat": 43.3088,
+  "lon": 5.3673,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "marseille_nbhd_joliette_001",
+      "intent_en": "Ask about the new waterfront development",
+      "text_local": "C'est quoi le nouveau waterfront ?",
+      "pronunciation": "say kwah leh noo-VOH wait-er-FRONT",
+      "formality": "neutral",
+      "cultural_note": "La Joliette is Marseille's modern waterfront — built for the 2013 European Capital of Culture. It has shops, restaurants, and cultural venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Joliette station is on Line 1, near the port in the Joliette neighborhood.",
+          "phonetic": "",
+          "french": "La station Joliette est sur la ligne 1, près du port dans le quartier de la Joliette."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_joliette_002",
+      "intent_en": "Ask about the cruise terminal",
+      "text_local": "Où est le terminal croisières ?",
+      "pronunciation": "oo eh leh tehr-mee-NAL krwah-ZYEHR",
+      "formality": "polite",
+      "cultural_note": "The cruise terminal welcomes large ships. If you're arriving by cruise, this area is your gateway to Marseille.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The cruise terminal is at the end of Quai de la Joliette, 5 minutes on foot.",
+          "phonetic": "",
+          "french": "Le terminal croisières se trouve au bout du quai de la Joliette, à 5 minutes à pied du Mucem."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_joliette_003",
+      "intent_en": "Ask about the shopping mall",
+      "text_local": "Où est le centre commercial ?",
+      "pronunciation": "oo eh leh san-truh koh-mair-SYAL",
+      "formality": "polite",
+      "cultural_note": "Les Docks is the main shopping complex. For luxury brands, visit the 'Centre Bourse' nearby.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The nearest shopping center is Les 4 Temps in La Défense, 10 minutes away by metro from here.",
+          "phonetic": "",
+          "french": "Aux Terrasses du Port, vous trouverez plusieurs restaurants avec une vue imprenable sur le Vieux-Port. C’est un lieu très prisé pour déjeuner ou dîner en admirant la mer."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_joliette_004",
+      "intent_en": "Ask about the tram connection to the center",
+      "text_local": "Comment aller en centre-ville en tramway ?",
+      "pronunciation": "kuh-MAN ah-LAY ahn san-truh-VEEL ahn tram-WAY",
+      "formality": "polite",
+      "cultural_note": "Tram lines T2 and T3 connect La Joliette to the Vieux-Port and Castellane. It's a 10-minute ride to central Marseille.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take tram T2 or T3 at Joliette, toward the city center.",
+          "phonetic": "",
+          "french": "Prenez le tramway T2 ou T3 depuis l'arrêt Joliette. Vous serez en centre-ville (Vieux-Port) en 10 minutes."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_joliette_007",
+      "intent_en": "Ask where to buy transport tickets",
+      "text_local": "Où puis-je acheter un ticket de transport ?",
+      "pronunciation": "oo PWEE-zhuh ash-TAY uhn tee-KEH duh trans-POR",
+      "formality": "polite",
+      "cultural_note": "Marseille's public transport is managed by RTM (Régie des Transports Marseillais). Tickets can be purchased at ticket offices, vending machines, or authorized retailers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At RTM ticket windows, automatic machines in metro stations, or authorized vendors.",
+          "phonetic": "oh ghee-SHEH ar-tay-em, oh born ah-toh-mah-TEEK dahn lay stah-SYON duh may-TROH, oo shay ruh-vahn-DUH ah-greh-AY",
+          "french": "Aux guichets RTM, aux bornes automatiques dans les stations de métro, ou chez les revendeurs agréés."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "waterfront",
+      "word_local": "le waterfront",
+      "pronunciation": "leh wait-er-FRONT"
+    },
+    {
+      "word_en": "tram",
+      "word_local": "le tramway",
+      "pronunciation": "leh tram-WAY"
+    },
+    {
+      "word_en": "cruise",
+      "word_local": "la croisière",
+      "pronunciation": "lah krwah-ZYEHR"
+    },
+    {
+      "word_en": "shopping",
+      "word_local": "les courses",
+      "pronunciation": "lay KOORS"
+    }
+  ]
+}

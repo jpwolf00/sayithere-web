@@ -1,0 +1,110 @@
+{
+  "id": "tours_guinguettes_loire",
+  "name_en": "Guinguettes on the Loire",
+  "name_local": "Les Guinguettes de la Loire",
+  "icon": "music.note",
+  "phrases": [
+    {
+      "id": "tours_guinguette_001",
+      "intent_en": "Ask if there is live music tonight at the guinguette",
+      "text_local": "Y a-t-il de la musique live ce soir à la guinguette ?",
+      "pronunciation": "ee ah-TEEL duh lah moo-ZEEK LYVE suh SWAR ah lah gan-GET",
+      "formality": "polite",
+      "cultural_note": "Guinguettes are open-air riverside dance halls and bars. The Loire banks at Tours host several popular guinguettes active in summer, often with live accordion, jazz, or world music.",
+      "responses": [
+        {
+          "english": "You need to check on site.",
+          "phonetic": "eel foh vay-ree-FYAY soor PLAHSS",
+          "french": "Il faut vérifier sur place."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_guinguette_002",
+      "intent_en": "Ask for a glass of local rosé wine",
+      "text_local": "Je voudrais un verre de rosé de Touraine, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY un VAIR duh roh-ZAY duh too-REN, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Guinguettes are strongly associated with drinking local wine in a relaxed setting. Touraine rosé (light and fruity) is a classic guinguette drink.",
+      "responses": [
+        {
+          "english": "Here, a Touraine rosé.",
+          "phonetic": "vwah-LAH uhn roh-ZAY duh too-REN",
+          "french": "Voilà, un rosé de Touraine."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_guinguette_003",
+      "intent_en": "Ask if there is food or just drinks",
+      "text_local": "Servez-vous de la nourriture ou seulement des boissons ?",
+      "pronunciation": "sair-VAY-voo duh lah noo-ree-TOOR oo SUL-mahn day bwah-SON",
+      "formality": "polite",
+      "cultural_note": "Many guinguettes serve simple food — grilled meats, salads, and bread — alongside drinks. Some are bar-only; menus vary by establishment.",
+      "responses": [
+        {
+          "english": "We also have sharing boards.",
+          "phonetic": "ohn ah oh-SEE day PLAHNSH ah par-tah-ZHAY",
+          "french": "On a aussi des planches à partager."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_guinguette_004",
+      "intent_en": "Ask until what time the guinguette is open",
+      "text_local": "Jusqu'à quelle heure la guinguette est-elle ouverte ?",
+      "pronunciation": "zhoos-KAH kel UR lah gan-GET ay-TEL oo-VAIRT",
+      "formality": "polite",
+      "cultural_note": "Guinguettes typically close around midnight in summer. They operate primarily May through September on weekends and public holidays.",
+      "responses": [
+        {
+          "english": "Until midnight tonight.",
+          "phonetic": "zhoos-kah mee-NWEE suh SWAHR",
+          "french": "Jusqu'à minuit ce soir."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_guinguette_005",
+      "intent_en": "Ask where to sit to watch the sunset over the Loire",
+      "text_local": "Où peut-on s'asseoir pour regarder le coucher de soleil sur la Loire ?",
+      "pronunciation": "oo puh-TON sah-SWAR poor ruh-gar-DAY luh koo-SHAY duh soh-LAY soor lah LWAR",
+      "formality": "polite",
+      "cultural_note": "The terraces of the Loire guinguettes face west, making them ideal for watching the sun set over the river in summer evenings.",
+      "responses": [
+        {
+          "english": "Over there, facing the Loire.",
+          "phonetic": "lah-BAH FAHSS ah lah LWAHR",
+          "french": "Là-bas, face à la Loire."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "guinguette (riverside bar)",
+      "word_local": "la guinguette",
+      "pronunciation": "lah gan-GET"
+    },
+    {
+      "word_en": "glass of wine",
+      "word_local": "un verre de vin",
+      "pronunciation": "un VAIR duh VAN"
+    },
+    {
+      "word_en": "live music",
+      "word_local": "la musique live",
+      "pronunciation": "lah moo-ZEEK LYVE"
+    }
+  ]
+}

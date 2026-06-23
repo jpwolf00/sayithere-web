@@ -1,0 +1,56 @@
+{
+  "id": "utrecht_hoog_catharijne_shopping_mall",
+  "name_en": "Hoog Catharijne shopping mall",
+  "name_local": "Hoog Catharijne",
+  "icon": "bag",
+  "lat": 52.0908341,
+  "lon": 5.111988,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "utrecht_hoog_catharijne_shopping_mall_001",
+      "intent_en": "How do I buy a gift card?",
+      "text_local": "How do I buy a gift card?",
+      "pronunciation": "hAWw-dOH-EE-bUEee-AH-ghIHft-kAHrt",
+      "formality": "standard",
+      "cultural_note": "Gift cards are sold at regular cash registers in the mall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de kassa, vraag de medewerker.",
+        "pronunciation": "behih-duh-kAHsahvrAHkh-duh-mEHduhvEHrkuhr",
+        "translation_en": "At the checkout, ask the cashier."
+      },
+      "responses": [
+        {
+          "english": "At the checkout, ask the cashier.",
+          "phonetic": "behih-duh-kAHsahvrAHkh-duh-mEHduhvEHrkuhr",
+          "french": "Bij de kassa, vraag de medewerker."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_hoog_catharijne_shopping_mall_002",
+      "intent_en": "Can I top up my OV-chipkaart?",
+      "text_local": "Can I top up my OV-chipkaart?",
+      "pronunciation": "kAHn-EE-tAWp-ehnUHpnl-mEE-OHfEHtshIHpkahrt",
+      "formality": "standard",
+      "cultural_note": "OV-chipkaart top-ups are commonly available at NS service points in stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de NS service.",
+        "pronunciation": "yAHbehih-duh-EHnEH-sVuhs",
+        "translation_en": "Yes, at the NS service desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the NS service desk.",
+          "phonetic": "yAHbehih-duh-EHnEH-sVuhs",
+          "french": "Ja, bij de NS service."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

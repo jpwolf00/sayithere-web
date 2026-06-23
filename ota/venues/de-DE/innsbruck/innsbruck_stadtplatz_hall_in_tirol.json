@@ -1,0 +1,78 @@
+{
+  "id": "innsbruck_stadtplatz_hall_in_tirol",
+  "name_en": "Stadtplatz Hall in Tirol",
+  "name_local": "Stadtplatz Hall in Tirol",
+  "icon": "map",
+  "lat": 47.2818976,
+  "lon": 11.5065702,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "innsbruck_stadtplatz_hall_in_tirol_001",
+      "intent_en": "Ask where Münze Hall ticket desk is",
+      "text_local": "Wo ist der Münze-Hall-Ticketschalter?",
+      "pronunciation": "vOH-ihst-dehr-mUEntsuhhAHltIHkehtshAHlt",
+      "formality": "standard",
+      "cultural_note": "Directions in Austria often include the name of the building or landmark for clarity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Münze Hall Eingang.",
+        "pronunciation": "ahm-mUEntsuh-hAHl-EYEnAHng",
+        "translation_en": "At the Münze Hall entrance."
+      },
+      "responses": [
+        {
+          "english": "At the Münze Hall entrance.",
+          "phonetic": "ahm-mUEntsuh-hAHl-EYEnAHng",
+          "french": "Am Münze Hall Eingang."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_stadtplatz_hall_in_tirol_002",
+      "intent_en": "Ask how parking meters accept payment",
+      "text_local": "Wie bezahle ich an den Parkuhren?",
+      "pronunciation": "vee-buhtsAHluh-ihkh-ahn-dehn-pAHrkooruhn",
+      "formality": "standard",
+      "cultural_note": "Payment methods at meters in Austria may include coins, cards, or mobile apps depending on location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Mit Münze oder Karte.",
+        "pronunciation": "miht-mUEntsuh-OHd-kAHrtuh",
+        "translation_en": "With coins or card."
+      },
+      "responses": [
+        {
+          "english": "With coins or card.",
+          "phonetic": "miht-mUEntsuh-OHd-kAHrtuh",
+          "french": "Mit Münze oder Karte."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_stadtplatz_hall_in_tirol_003",
+      "intent_en": "Ask where cafe terrace has free seating",
+      "text_local": "Gibt es an der Café-Terrasse freie Plätze?",
+      "pronunciation": "EEpt-ehs-ahn-dehr-kahfEHtEHrahsuh-frEYE-UH-plEHtsuh",
+      "formality": "standard",
+      "cultural_note": "Austrians may phrase availability questions directly; seating availability depends on time and season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Plätze sind frei.",
+        "pronunciation": "yAHplEHtsuh-zihnt-frEYE",
+        "translation_en": "Yes, seats are available."
+      },
+      "responses": [
+        {
+          "english": "Yes, seats are available.",
+          "phonetic": "yAHplEHtsuh-zihnt-frEYE",
+          "french": "Ja, Plätze sind frei."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

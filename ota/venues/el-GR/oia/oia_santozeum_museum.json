@@ -1,0 +1,100 @@
+{
+  "id": "oia_santozeum_museum",
+  "name_en": "Santozeum Museum",
+  "name_local": "Μουσείο Σαντοζεύμ",
+  "icon": "building.columns",
+  "lat": 36.4200528,
+  "lon": 25.430509,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "oia_santozeum_museum_001",
+      "intent_en": "Can I book a private tour today?",
+      "text_local": "Μπορώ να κλείσω ιδιωτική ξενάγηση σήμερα;",
+      "pronunciation": "bohrOH-nah-klEEsoh-EEtheeOHteeEE-ksehnAHyeesEE-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Η κλείσιμο ιδιωτικής ξενάγησης γίνεται μέσω του προσωπικού του μουσείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, μπορείτε σήμερα.",
+        "pronunciation": "nEHbohrEEteh-sEEmehrAH",
+        "translation_en": "Yes, you can today."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can today.",
+          "phonetic": "nEHbohrEEteh-sEEmehrAH",
+          "french": "Ναι, μπορείτε σήμερα."
+        }
+      ]
+    },
+    {
+      "id": "oia_santozeum_museum_002",
+      "intent_en": "How do I reserve a residence visit?",
+      "text_local": "Πώς κάνω κράτηση για επίσκεψη στην κατοικία;",
+      "pronunciation": "pOHs-kAHnoh-krAHteesEE-ehpEEsehpsEEs-steeng-gAHteeEEah",
+      "formality": "standard",
+      "cultural_note": "Ο φύλακας είναι υπεύθυνος για την διευκόλυνση των επισκεπτών στις κατοικίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κλείστε στο γραφείο εισιτηρίων.",
+        "pronunciation": "klEEsteh-stoh-ghrahfEEoh-EEseeteerEEohn",
+        "translation_en": "Ask the guard."
+      },
+      "responses": [
+        {
+          "english": "Ask the guard.",
+          "phonetic": "klEEsteh-stoh-ghrahfEEoh-EEseeteerEEohn",
+          "french": "Κλείστε στο γραφείο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "oia_santozeum_museum_003",
+      "intent_en": "Is cash the only payment accepted in Oia?",
+      "text_local": "Δέχεστε μόνο μετρητά εδώ;",
+      "pronunciation": "mOHnoh-mEHtreetAH-yEEnohdEH-thehktEHs-plEErohmEHs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Οι πληρωμές γίνονται κυρίως με μετρητά, αλλά η επιβεβαίωση γίνεται στο ταμείο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόνο μετρητά στο Santozeum.",
+        "pronunciation": "nEHmOHnoh-mEHtreetAH-stoh-ehnsAHntuhuhzEEuhmehl",
+        "translation_en": "Yes, the museum accepts cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, the museum accepts cash only.",
+          "phonetic": "nEHmOHnoh-mEHtreetAH-stoh-ehnsAHntuhuhzEEuhmehl",
+          "french": "Ναι, μόνο μετρητά στο Santozeum."
+        }
+      ]
+    },
+    {
+      "id": "oia_santozeum_museum_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκονται τα αντίγραφα των τοιχογραφιών της Θήρας;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-ahdEEghrahfAH-tohn-dEEkhohghrAHfeeOHn-dees-thEErahs",
+      "formality": "standard",
+      "cultural_note": "Ο φύλακας αποτελεί σταθερό σημείο αναφοράς εντός του μουσείου για διευκρινίσεις.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο τέλος της προϊστορικής αίθουσας.",
+        "pronunciation": "stoh-tEHlohs-tees-prOHihstohreeEEs-EHthoosAHs",
+        "translation_en": "In the prehistoric exhibition room, next to the residence rooms."
+      },
+      "responses": [
+        {
+          "english": "In the prehistoric exhibition room, next to the residence rooms.",
+          "phonetic": "stoh-tEHlohs-tees-prOHihstohreeEEs-EHthoosAHs",
+          "french": "Στο τέλος της προϊστορικής αίθουσας."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

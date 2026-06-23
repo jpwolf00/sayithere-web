@@ -1,0 +1,100 @@
+{
+  "id": "davos_kirchner_museum",
+  "name_en": "Kirchner Museum",
+  "name_local": "Kirchner Museum Davos",
+  "icon": "building.columns",
+  "lat": 46.8001375,
+  "lon": 9.8266863,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "davos_kirchner_museum_001",
+      "intent_en": "Where do I book guided group tours",
+      "text_local": "Wo buche ich Gruppenführungen?",
+      "pronunciation": "vOH-bOOkhuh-ihkh-rUHpuhnfUEruhnguhn",
+      "formality": "standard",
+      "cultural_note": "Bei Buchungsanfragen wird oft an eine zentrale Stelle verwiesen, ohne Mikronavigation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie am Schalter nach.",
+        "pronunciation": "frAHuhn-zee-ahm-shAHlt-nAHkh",
+        "translation_en": "Ask at the counter."
+      },
+      "responses": [
+        {
+          "english": "Ask at the counter.",
+          "phonetic": "frAHuhn-zee-ahm-shAHlt-nAHkh",
+          "french": "Fragen Sie am Schalter nach."
+        }
+      ]
+    },
+    {
+      "id": "davos_kirchner_museum_002",
+      "intent_en": "Is studio replica open today",
+      "text_local": "Hat das Atelier-Replika heute geöffnet?",
+      "pronunciation": "haht-dahs-AHtuhlEErrEHpleekAH-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Kurze Bestätigung ohne weitere Erklärungen ist in deutschen Museen üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "davos_kirchner_museum_003",
+      "intent_en": "Can I buy annual Kirchner Pass",
+      "text_local": "Kann ich den jährlichen Kirchner-Pass kaufen?",
+      "pronunciation": "kAHn-ihkh-dehn-yEHrlihkhuhn-kIHrkhnpAHs-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Antworten an der Kasse sind knapp und direkt, oft ohne zusätzliche Höflichkeiten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "davos_kirchner_museum_004",
+      "intent_en": "Where is Berlin street scene gallery",
+      "text_local": "Wo finde ich die Galerie mit den Berliner Straßenszenen?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-AHlehrEE-miht-dehn-behrlEEn-shtrAHsuhnstsuhnuhn",
+      "formality": "standard",
+      "cultural_note": "Direktionale Antworten in Museen beziehen sich oft auf Etagen oder Schilder als zuverlässige Wegweiser.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Obergeschoss, folgen Sie den Schildern.",
+        "pronunciation": "ihm-OHbuhshAWsfAWluhn-zee-dehn-shIHldn",
+        "translation_en": "Upper level, follow the signs."
+      },
+      "responses": [
+        {
+          "english": "Upper level, follow the signs.",
+          "phonetic": "ihm-OHbuhshAWsfAWluhn-zee-dehn-shIHldn",
+          "french": "Im Obergeschoss, folgen Sie den Schildern."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

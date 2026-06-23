@@ -1,0 +1,100 @@
+{
+  "id": "kutná_hora_v_ruthardce_bakery",
+  "name_en": "V Ruthardce Bakery",
+  "name_local": "Pekařství V Ruthardce",
+  "icon": "fork.knife",
+  "lat": 49.9486561,
+  "lon": 15.2681123,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kutná_hora_v_ruthardce_bakery_001",
+      "intent_en": "Where is the queue for bread selection",
+      "text_local": "Kde se stojí fronta na chleba?",
+      "pronunciation": "kdEH-seh-stOHyee-frOHntah-nAHkhlehbah",
+      "formality": "standard",
+      "cultural_note": "In busy Czech bakeries, separate informal queues often form for bread versus pastries; staff will direct you with a short gesture or phrase.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tady u pultu, vpravo.",
+        "pronunciation": "tAHdee-OO-pOOltoofprAHvoh",
+        "translation_en": "Here at the counter, on the right."
+      },
+      "responses": [
+        {
+          "english": "Here at the counter, on the right.",
+          "phonetic": "tAHdee-OO-pOOltoofprAHvoh",
+          "french": "Tady u pultu, vpravo."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_v_ruthardce_bakery_002",
+      "intent_en": "Do you weigh pastries by piece or weight",
+      "text_local": "Vážíte pečivo na kusy, nebo na váhu?",
+      "pronunciation": "vAHzheeteh-pEHtsheevoh-nAHkooseenEHboh-nAHvahhoo",
+      "formality": "standard",
+      "cultural_note": "Small bakeries often mix pricing methods: bread rolls and loupáky by piece, larger pastries like koláče by weight.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kusy, jen koláče na váhu.",
+        "pronunciation": "kOOseeyEHn-kOHlahtsheh-nAHvahhoo",
+        "translation_en": "By piece, only koláče by weight."
+      },
+      "responses": [
+        {
+          "english": "By piece, only koláče by weight.",
+          "phonetic": "kOOseeyEHn-kOHlahtsheh-nAHvahhoo",
+          "french": "Kusy, jen koláče na váhu."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_v_ruthardce_bakery_003",
+      "intent_en": "How do I pre-order vánočka for holidays",
+      "text_local": "Jak si můžu předobjednat vánočku na svátky?",
+      "pronunciation": "yAHk-see-mOOzhoo-prEHdohbyEHdnaht-vAHnohtshkoo-nAHsvahtkee",
+      "formality": "standard",
+      "cultural_note": "Pre-ordering Christmas bread is common; it's done verbally at the counter with minimal fuss and cash payment on collection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Řekněte nám jméno a počet kusů, platba při vyzvednutí.",
+        "pronunciation": "rEHknyehteh-nAHm-ymEHnoh-ah-pOHtsheht-kOOsooplAHdbah-pree-vEEzvehdnOOee",
+        "translation_en": "Tell us your name and number of pieces, pay on pickup."
+      },
+      "responses": [
+        {
+          "english": "Tell us your name and number of pieces, pay on pickup.",
+          "phonetic": "rEHknyehteh-nAHm-ymEHnoh-ah-pOHtsheht-kOOsooplAHdbah-pree-vEEzvehdnOOee",
+          "french": "Řekněte nám jméno a počet kusů, platba při vyzvednutí."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_v_ruthardce_bakery_004",
+      "intent_en": "Is the morning koláče batch still available",
+      "text_local": "Jsou ještě ranní koláče?",
+      "pronunciation": "ysoh-yEHsheh-rAHnyee-kOHlahtsheh",
+      "formality": "standard",
+      "cultural_note": "Koláče often sell out by late morning; a short, direct answer is typical of busy counter staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, pár jich zbývá.",
+        "pronunciation": "AHnohpAHr-yEEgh-zbEEvah",
+        "translation_en": "Yes, a few are left."
+      },
+      "responses": [
+        {
+          "english": "Yes, a few are left.",
+          "phonetic": "AHnohpAHr-yEEgh-zbEEvah",
+          "french": "Ano, pár jich zbývá."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

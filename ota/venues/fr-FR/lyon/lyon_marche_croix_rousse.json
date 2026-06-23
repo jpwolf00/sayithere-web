@@ -1,0 +1,115 @@
+{
+  "id": "lyon_marche_croix_rousse",
+  "name_en": "Croix-Rousse Market",
+  "name_local": "Marché de la Croix-Rousse",
+  "icon": "storefront",
+  "phrases": [
+    {
+      "id": "lyon_marche_cr_001",
+      "intent_en": "Ask for the price of a kilo of tomatoes",
+      "text_local": "C'est combien le kilo de tomates, s'il vous plaît ?",
+      "pronunciation": "say kohm-BYEHN luh kee-LOH duh toh-MAT, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The Croix-Rousse outdoor market is one of Lyon's finest. It runs along Boulevard de la Croix-Rousse every Tuesday to Sunday morning, offering exceptional fresh produce.",
+      "responses": [
+        {
+          "english": "Three euros per kilo.",
+          "phonetic": "trwah uh-ROH luh KEE-loh",
+          "french": "Trois euros le kilo."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_marche_cr_002",
+      "intent_en": "Ask a vendor if the produce is locally grown",
+      "text_local": "Est-ce que vos produits sont cultivés localement ?",
+      "pronunciation": "es-kuh voh pro-DWEE sohn kool-tee-VAY loh-kal-MAHN",
+      "formality": "polite",
+      "cultural_note": "Many vendors at the Croix-Rousse market are directly from Rhône and Ain farms. Asking about the origin of produce is perfectly normal and often starts an interesting conversation.",
+      "responses": [
+        {
+          "english": "Yes, everything comes from the region.",
+          "phonetic": "wee, too VYEHN duh lah ray-ZHYOHN",
+          "french": "Oui, tout vient de la région."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_marche_cr_003",
+      "intent_en": "Ask for a bag of mixed salad leaves",
+      "text_local": "Pourriez-vous me préparer un sachet de mesclun, s'il vous plaît ?",
+      "pronunciation": "poo-ryay-VOO muh pray-pah-RAY uhn sah-SHEH duh mes-KLOON, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Mesclun is a traditional Provençal salad mix of young leaves. Rhône valley market stalls often sell beautifully fresh versions unavailable in supermarkets.",
+      "responses": [
+        {
+          "english": "Here you go, two euros.",
+          "phonetic": "vwah-LAH, duh uh-ROH",
+          "french": "Voilà, deux euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_marche_cr_004",
+      "intent_en": "Ask which cheese is best for cooking a gratin",
+      "text_local": "Quel fromage recommandez-vous pour faire un gratin ?",
+      "pronunciation": "kel froh-MAZH ruh-koh-mahn-DAY-voo poor fair uhn grah-TEHN",
+      "formality": "polite",
+      "cultural_note": "Cheese vendors are passionate experts. For a gratin dauphinois (the regional speciality), Beaufort or Comté from the nearby Alps are the cheeses of choice.",
+      "responses": [
+        {
+          "english": "Comté, it melts well.",
+          "phonetic": "luh kohn-TAY, sah FOHN BYEHN",
+          "french": "Le Comté, ça fond bien."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_marche_cr_005",
+      "intent_en": "Buy a bunch of fresh herbs",
+      "text_local": "Je voudrais un bouquet de persil et de basilic, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DREH uhn boo-KAY duh pair-SEEL ay duh bah-zee-LEEK, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Fresh herb bunches are very affordable at Lyon markets. Combining parsley (persil) with chervil, chives, and tarragon makes a classic Lyon fines herbes mix.",
+      "responses": [
+        {
+          "english": "Here you go, one euro fifty.",
+          "phonetic": "vwah-LAH, uhn uh-ROH san-KAHNT",
+          "french": "Voilà, un euro cinquante."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "outdoor market",
+      "word_local": "le marché",
+      "pronunciation": "luh mar-SHAY"
+    },
+    {
+      "word_en": "fresh produce",
+      "word_local": "les produits frais",
+      "pronunciation": "lay pro-DWEE FREH"
+    },
+    {
+      "word_en": "bunch (of herbs)",
+      "word_local": "le bouquet",
+      "pronunciation": "luh boo-KAY"
+    },
+    {
+      "word_en": "local",
+      "word_local": "local / du terroir",
+      "pronunciation": "loh-KAL / doo tair-WAHR"
+    }
+  ]
+}

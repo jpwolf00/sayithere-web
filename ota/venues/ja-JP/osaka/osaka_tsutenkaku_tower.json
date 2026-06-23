@@ -1,0 +1,78 @@
+{
+  "id": "osaka_tsutenkaku_tower",
+  "name_en": "Tsutenkaku Tower",
+  "name_local": "通天閣",
+  "icon": "building.columns",
+  "lat": 34.652541,
+  "lon": 135.506541,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "osaka_tsutenkaku_tower_001",
+      "intent_en": "Where do I buy Billiken fortune slips",
+      "text_local": "ビリケンさんのおみくじは どこで かえますか？",
+      "pronunciation": "bEEeekEHsNnohohmEEkoodEEh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Fortune slips are commonly sold via vending machines at shrines and tourist spots, not always at a staffed counter.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "てんぼうだいの ちかくの はんばいきです。",
+        "pronunciation": "tEHbOHoodEEnoh-tEEkkOOnoh-hBEEkeedEHsoo",
+        "translation_en": "At the vending machine near the observatory."
+      },
+      "responses": [
+        {
+          "english": "At the vending machine near the observatory.",
+          "phonetic": "tEHbOHoodEEnoh-tEEkkOOnoh-hBEEkeedEHsoo",
+          "french": "てんぼうだいの ちかくの はんばいきです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_tsutenkaku_tower_002",
+      "intent_en": "Where is the Golden Observatory elevator",
+      "text_local": "きんの てんぼうだいへの エレベーターは どこですか？",
+      "pronunciation": "kEEnnoh-tEHbOHoodEEhEHnoh-EHehbehehtH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often use simple directional phrases like 'massugu itte' (go straight) with a clear landmark.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、ひだりです。",
+        "pronunciation": "mssOOgoo-EEttehkhEEdeedEHsoo",
+        "translation_en": "Go straight, and it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Go straight, and it's on the left.",
+          "phonetic": "mssOOgoo-EEttehkhEEdeedEHsoo",
+          "french": "まっすぐ いって、ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_tsutenkaku_tower_003",
+      "intent_en": "Where is the photo spot with Billiken",
+      "text_local": "ビリケンさんと しゃしんが とれる ばしょは どこですか？",
+      "pronunciation": "bEEeekEHsNtoh-EEngg-tohEHoo-bOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The Billiken statue is a major photo target, and staff will simply direct you right to it.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ビリケンさんの ぞうの まえです。",
+        "pronunciation": "bEEeekEHsNnoh-zohOOnoh-mEHdEHsoo",
+        "translation_en": "In front of the Billiken statue."
+      },
+      "responses": [
+        {
+          "english": "In front of the Billiken statue.",
+          "phonetic": "bEEeekEHsNnoh-zohOOnoh-mEHdEHsoo",
+          "french": "ビリケンさんの ぞうの まえです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

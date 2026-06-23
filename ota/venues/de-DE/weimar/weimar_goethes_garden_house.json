@@ -1,0 +1,122 @@
+{
+  "id": "weimar_goethes_garden_house",
+  "name_en": "Goethe's Garden House",
+  "name_local": "Goethes Gartenhaus",
+  "icon": "building.columns",
+  "lat": 50.9760042,
+  "lon": 11.3367537,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "weimar_goethes_garden_house_001",
+      "intent_en": "Can I pick flowers in the garden?",
+      "text_local": "Darf man hier Pflanzen pflücken?",
+      "pronunciation": "dAHrf-mahn-hEEr-pflAHntsuhn-pflUEkuhn",
+      "formality": "casual",
+      "cultural_note": "Schutz der Pflanzen im Park hat Priorität.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, bitte lassen Sie alles stehen.",
+        "pronunciation": "nEYEnbIHtuh-lAHsuhn-zee-AHluhs-shtEHuhn",
+        "translation_en": "No, please leave all plants untouched."
+      },
+      "responses": [
+        {
+          "english": "No, please leave all plants untouched.",
+          "phonetic": "nEYEnbIHtuh-lAHsuhn-zee-AHluhs-shtEHuhn",
+          "french": "Nein, bitte lassen Sie alles stehen."
+        }
+      ]
+    },
+    {
+      "id": "weimar_goethes_garden_house_002",
+      "intent_en": "Does the combined ticket include the Roman House?",
+      "text_local": "Ist das Kombi-Ticket für das Römische Haus gültig?",
+      "pronunciation": "ihst-dahs-kAWmbeetIHkuht-fuer-dahs-rUHmihshuh-hOWs-UEltihkh",
+      "formality": "standard",
+      "cultural_note": "Das Kombi-Ticket umfasst mehrere Goethe-Stätten in Weimar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, das Kombi-Ticket gilt auch dort.",
+        "pronunciation": "yAHdahs-kAWmbeetIHkuht-IHlt-OWkh-dAWrt",
+        "translation_en": "Yes, the combined ticket is valid there too."
+      },
+      "responses": [
+        {
+          "english": "Yes, the combined ticket is valid there too.",
+          "phonetic": "yAHdahs-kAWmbeetIHkuht-IHlt-OWkh-dAWrt",
+          "french": "Ja, das Kombi-Ticket gilt auch dort."
+        }
+      ]
+    },
+    {
+      "id": "weimar_goethes_garden_house_003",
+      "intent_en": "Where is the Shakespeare monument from here?",
+      "text_local": "Wo steht das Shakespeare-Denkmal?",
+      "pronunciation": "vOH-shtEHt-dahs-shAHkehspEHahruhdEHngkmahl",
+      "formality": "standard",
+      "cultural_note": "Das Denkmal liegt im Park an der Ilm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Park in der Nähe des Römischen Hauses.",
+        "pronunciation": "ihm-pAHrk-ihn-dehr-nEHuh-dehs-rUHmihshuhn-hOWzuhs",
+        "translation_en": "In the park near the Roman House."
+      },
+      "responses": [
+        {
+          "english": "In the park near the Roman House.",
+          "phonetic": "ihm-pAHrk-ihn-dehr-nEHuh-dehs-rUHmihshuhn-hOWzuhs",
+          "french": "Im Park in der Nähe des Römischen Hauses."
+        }
+      ]
+    },
+    {
+      "id": "weimar_goethes_garden_house_004",
+      "intent_en": "Is the park garden free to enter?",
+      "text_local": "Ist der Parkeintritt frei?",
+      "pronunciation": "ihst-dehr-pAHrkeyentrIHt-frEYE",
+      "formality": "standard",
+      "cultural_note": "Der Park an der Ilm ist öffentlich und kostenlos zugänglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, der Park ist frei zugänglich.",
+        "pronunciation": "yAHdehr-pAHrk-ihst-frEYE-tsOOehnglIHkh",
+        "translation_en": "Yes, entry to the park is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, entry to the park is free.",
+          "phonetic": "yAHdehr-pAHrk-ihst-frEYE-tsOOehnglIHkh",
+          "french": "Ja, der Park ist frei zugänglich."
+        }
+      ]
+    },
+    {
+      "id": "weimar_goethes_garden_house_005",
+      "intent_en": "Where do I buy tickets for this?",
+      "text_local": "Wo gibt es Tickets für das Gartenhaus?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-dahfUEr",
+      "formality": "standard",
+      "cultural_note": "Tickets für Goethe-Nationalmuseum werden separat verkauft, nicht am Goethes Gartenhaus.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Goethe-Nationalmuseum.",
+        "pronunciation": "ahm-gUHtuhnahtsyOHnahlmOOzehUHm",
+        "translation_en": "At the Goethe National Museum."
+      },
+      "responses": [
+        {
+          "english": "At the Goethe National Museum.",
+          "phonetic": "ahm-gUHtuhnahtsyOHnahlmOOzehUHm",
+          "french": "Am Goethe-Nationalmuseum."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

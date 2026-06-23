@@ -1,0 +1,100 @@
+{
+  "id": "ankara_gençlik_park",
+  "name_en": "Gençlik Park",
+  "name_local": "Gençlik Parkı",
+  "icon": "leaf",
+  "lat": 39.9372493,
+  "lon": 32.84961,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "ankara_gençlik_park_001",
+      "intent_en": "How do I pay for parking?",
+      "text_local": "Otopark ödemesini nasıl yapabilirim?",
+      "pronunciation": "ohtohpAHrk-uhdehmehseenIH-nahsOO-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Parking payment methods are unverified. A park guard or security would have the correct details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki makineden ödeyin.",
+        "pronunciation": "eerihshtehkIH-mahkeenehdAHn-uhdehyIHn",
+        "translation_en": "Pay at the machine at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Pay at the machine at the entrance.",
+          "phonetic": "eerihshtehkIH-mahkeenehdAHn-uhdehyIHn",
+          "french": "Girişteki makineden ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "ankara_gençlik_park_002",
+      "intent_en": "Where is Lunapark ticket booth?",
+      "text_local": "Lunapark gişesi nerede?",
+      "pronunciation": "oonahpAHrk-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Ticket booths in Turkish parks are typically adjacent to ride entrances, not centralized.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Lunaparkın girişinde.",
+        "pronunciation": "oonahpahrkOOn-eereeshihndEH",
+        "translation_en": "At the entrance of the amusement park."
+      },
+      "responses": [
+        {
+          "english": "At the entrance of the amusement park.",
+          "phonetic": "oonahpahrkOOn-eereeshihndEH",
+          "french": "Lunaparkın girişinde."
+        }
+      ]
+    },
+    {
+      "id": "ankara_gençlik_park_003",
+      "intent_en": "Where is the açıkhava tiyatrosu?",
+      "text_local": "Açıkhava tiyatrosu nerede?",
+      "pronunciation": "ahtshookhahvAH-teeyahtrohsUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location within the large park is not specified. Asking a guard or information point is best.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gölün ötesinde, lunaparkın solunda.",
+        "pronunciation": "uhlUHn-uhtehsihndEHoonahpahrkOOn-sohuhndAH",
+        "translation_en": "Beyond the lake, to the left of the amusement park."
+      },
+      "responses": [
+        {
+          "english": "Beyond the lake, to the left of the amusement park.",
+          "phonetic": "uhlUHn-uhtehsihndEHoonahpahrkOOn-sohuhndAH",
+          "french": "Gölün ötesinde, lunaparkın solunda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_gençlik_park_004",
+      "intent_en": "Are rowing boats available now?",
+      "text_local": "Kayıklar şu an müsait mi?",
+      "pronunciation": "kahyookAHr-shuh-AHn-muesahIHt-mih",
+      "formality": "standard",
+      "cultural_note": "Availability can change with weather and season. Staff will give the most accurate answer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Var, gölde mevcut.",
+        "pronunciation": "vAHruhldEH-mehvdzhUHt",
+        "translation_en": "Yes, they are available on the pond."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are available on the pond.",
+          "phonetic": "vAHruhldEH-mehvdzhUHt",
+          "french": "Var, gölde mevcut."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

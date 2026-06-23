@@ -1,0 +1,132 @@
+{
+  "id": "monaco_casino_monte_carlo",
+  "name_en": "Casino de Monte-Carlo",
+  "name_local": "Casino de Monte-Carlo",
+  "icon": "crown",
+  "phrases": [
+    {
+      "id": "monaco_mc_001",
+      "intent_en": "Ask about the dress code",
+      "text_local": "Quel est le code vestimentaire pour entrer ?",
+      "pronunciation": "kel eh luh kohd ves-tee-mair for ahnt-RAY",
+      "formality": "polite",
+      "cultural_note": "The casino has a strict dress code: jackets and ties are required for men in the main gaming rooms. Sneakers, shorts, and sportswear are forbidden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Jacket required for men. No sneakers.",
+          "phonetic": "eel foh oon VEST ay oon krah-VAHT poor lay may-SYUR",
+          "french": "Veste obligatoire pour les messieurs. Pas de baskets."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mc_002",
+      "intent_en": "Ask where the slot machines are",
+      "text_local": "Où se trouvent les machines à sous ?",
+      "pronunciation": "oo seh TROOV lay mah-SHEEN ah SOO",
+      "formality": "polite",
+      "cultural_note": "The slot machine area (Billets) has a different, slightly more relaxed dress code than the main table games floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the ground floor, to the left when you enter.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Au rez-de-chaussée, à gauche en entrant."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mc_003",
+      "intent_en": "Ask how to join the players club",
+      "text_local": "Comment rejoindre le club des joueurs ?",
+      "pronunciation": "koh-MON ruh-zhwahr luh kloob day zhoo-UR",
+      "formality": "polite",
+      "cultural_note": "The Monte-Carlo Casino Players Club offers perks like priority entry, complimentary drinks, and access to exclusive events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Ask at the casino reception.",
+          "phonetic": "wee, rahn-sayn-YAY voo zah lah-koy doo kah-zee-NOH",
+          "french": "Renseignez-vous à l'accueil du casino."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mc_004",
+      "intent_en": "Ask for a tour of the gaming rooms",
+      "text_local": "Peut-on faire une visite des salles de jeux ?",
+      "pronunciation": "puh-TOHN fair un vee-ZEET day sal duh ZHUH",
+      "formality": "polite",
+      "cultural_note": "Non-guests can tour the gaming rooms during certain hours. The interior is famed for its Belle Époque architecture — the Opéra de Monte-Carlo is next door.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, ask at the reception for the schedule.",
+          "phonetic": "wee, poor kom-BYAN duh pear-SOHN ay ah kel ur",
+          "french": "Oui, renseignez-vous à l'accueil pour les horaires."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mc_005",
+      "intent_en": "Ask about minimum bets",
+      "text_local": "Quelle est la mise minimale ici ?",
+      "pronunciation": "kel eh lah meez mee-nee-MAL ee-SI",
+      "formality": "polite",
+      "cultural_note": "Minimum bets vary widely: roulette can start as low as €5 in some areas, while private salons have much higher stakes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It depends on the table. Ask the dealer.",
+          "phonetic": "suh-LAH day-pahn duh lah tahbl ay doo moh-MAHN",
+          "french": "Ça dépend de la table. Demandez au croupier."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mc_006",
+      "intent_en": "Ask where to exchange currency",
+      "text_local": "Où peut-on échanger des devises ?",
+      "pronunciation": "oo puh-TOHN ay-shahn-DAY day duh-VEEZ",
+      "formality": "polite",
+      "cultural_note": "The casino accepts euros. Other currencies can be exchanged at the dedicated desk inside, though rates may not be favorable.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The exchange desk is inside, near the entrance.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Le bureau de change est à l'intérieur, près de l'entrée."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "casino",
+      "word_local": "le casino",
+      "pronunciation": "luh kah-ZEE-noh"
+    },
+    {
+      "word_en": "gaming table",
+      "word_local": "la table de jeux",
+      "pronunciation": "lah TABL duh ZHUH"
+    },
+    {
+      "word_en": "dress code",
+      "word_local": "le code vestimentaire",
+      "pronunciation": "luh kohd ves-tee-mair-TAIR"
+    },
+    {
+      "word_en": "slot machine",
+      "word_local": "la machine à sous",
+      "pronunciation": "lah mah-SHEEN ah SOO"
+    }
+  ]
+}

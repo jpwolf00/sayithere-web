@@ -1,0 +1,100 @@
+{
+  "id": "würzburg_bratwurstbäckle",
+  "name_en": "Bratwurstbäckle",
+  "name_local": "Bratwurstbäckle",
+  "icon": "fork.knife",
+  "lat": 49.7780356,
+  "lon": 9.9434769,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "würzburg_bratwurstbäckle_001",
+      "intent_en": "Ask how to order Mitnehmen for takeaway",
+      "text_local": "Wie bestelle ich zum Mitnehmen?",
+      "pronunciation": "vee-buhshtEHluh-ihkh-tsuhm-mIHtnEHmuhn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Imbissbetrieben ist 'Mitnehmen' der Standardbegriff für Takeaway. Die Bestellung erfolgt meist direkt an der Theke, ohne vorherige Reservierung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sagen Sie 'Zum Mitnehmen'.",
+        "pronunciation": "zAHuhn-zee-tsuhm-mIHtnEHmuhn",
+        "translation_en": "Say 'to take away'."
+      },
+      "responses": [
+        {
+          "english": "Say 'to take away'.",
+          "phonetic": "zAHuhn-zee-tsuhm-mIHtnEHmuhn",
+          "french": "Sagen Sie 'Zum Mitnehmen'."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_bratwurstbäckle_002",
+      "intent_en": "Ask if paying cash at counter is required",
+      "text_local": "Muss ich hier bar zahlen?",
+      "pronunciation": "mUHs-ihkh-hEEr-bAHr-tsAHluhn",
+      "formality": "casual",
+      "cultural_note": "In vielen deutschen Imbissbetrieben wird Bargeld bevorzugt, besonders an kleinen Theken ohne Kartenzahlungsterminal. Trinkgeld wird oft in die Dose gegeben oder aufgerundet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nur bar.",
+        "pronunciation": "yAHnOOr-bAHr",
+        "translation_en": "Yes, only cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, only cash.",
+          "phonetic": "yAHnOOr-bAHr",
+          "french": "Ja, nur bar."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_bratwurstbäckle_003",
+      "intent_en": "Ask where to put Trinkgeld in Dose",
+      "text_local": "Wo kommt das Trinkgeld hin?",
+      "pronunciation": "vOH-kAWmt-dahs-trINGkehlt-hIHn",
+      "formality": "casual",
+      "cultural_note": "In deutschen Imbissbetrieben ist die Trinkgeld-Dose an der Theke Standard. Gäste legen Münzen oder aufgerundeten Betrag hinein.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In die Dose an der Theke.",
+        "pronunciation": "ihn-dee-dOHzuh-ahn-dehr-tEHkuh",
+        "translation_en": "Into the jar at the counter."
+      },
+      "responses": [
+        {
+          "english": "Into the jar at the counter.",
+          "phonetic": "ihn-dee-dOHzuh-ahn-dehr-tEHkuh",
+          "french": "In die Dose an der Theke."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_bratwurstbäckle_004",
+      "intent_en": "Ask if Original Unterfränkische is available today",
+      "text_local": "Haben Sie heute Original Unterfränkische?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-OHriheenAHl-UHntfrEHnkihshuh",
+      "formality": "standard",
+      "cultural_note": "Regionale Wurstsorten wie 'Original Unterfränkische' werden oft täglich frisch zubereitet. Die Verfügbarkeit hängt von der Nachfrage ab.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, verfügbar.",
+        "pronunciation": "yAHfehrfUEkbahr",
+        "translation_en": "Yes, available."
+      },
+      "responses": [
+        {
+          "english": "Yes, available.",
+          "phonetic": "yAHfehrfUEkbahr",
+          "french": "Ja, verfügbar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

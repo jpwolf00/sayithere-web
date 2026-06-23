@@ -1,0 +1,95 @@
+{
+  "id": "rouen_neighborhood_centre_historique",
+  "name_en": "Historic Centre",
+  "name_local": "Centre historique de Rouen",
+  "icon": "building.2",
+  "lat": 49.441,
+  "lon": 1.094,
+  "radius_m": 700,
+  "phrases": [
+    {
+      "id": "rouen_centre_nb_001",
+      "intent_en": "Ask for a walking map of the historic centre",
+      "text_local": "Pourriez-vous me donner un plan de promenade dans le centre historique ?",
+      "pronunciation": "poor-YAY-voo muh doh-NAY uhn PLAHN duh prohm-NAHD dahn luh SAHNT-ruh ees-toh-REEK",
+      "formality": "polite",
+      "cultural_note": "Rouen's historic centre is one of France's best-preserved medieval cities, with over 2000 half-timbered buildings. The tourist office on the Place de la Cathédrale offers free walking tour maps in multiple languages.",
+      "responses": [
+        {
+          "english": "Hello, the map is free at reception.",
+          "phonetic": "BON-zhoor poor-YAY voo muh DON ayn / un PLAN duh prom-NAD dan luh SAHN-truh ee-sto-REEK",
+          "french": "Bonjour, le plan est gratuit à l'accueil."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_centre_nb_002",
+      "intent_en": "Ask about the area's history in World War II",
+      "text_local": "Quels quartiers de Rouen ont été bombardés pendant la Seconde Guerre mondiale ?",
+      "pronunciation": "kel kar-TYAY duh roo-AHN ohn ay-TAY bohm-bar-DAY pahn-DAHN lah suh-GOHND gair mohnd-YAL",
+      "formality": "polite",
+      "cultural_note": "Rouen was heavily bombed in 1944 during the Allied liberation of Normandy. The riverfront and Rive Gauche were largely destroyed while the cathedral area and medieval centre survived. Many half-timbered facades are post-war faithful reconstructions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "rouen_centre_nb_003",
+      "intent_en": "Ask about the best street for half-timbered houses",
+      "text_local": "Quelle est la rue la plus pittoresque pour voir les maisons à colombages ?",
+      "pronunciation": "kel eh lah ROO lah ploo pee-toh-RESK poor vwahr lay may-ZOHN ah koh-lohn-BAHJ",
+      "formality": "polite",
+      "cultural_note": "The Rue Martainville and Rue Damiette are considered the most atmospheric streets for half-timbered architecture. The Rue des Boucheries-Saint-Ouen is another excellent example of medieval streetscape.",
+      "responses": [
+        {
+          "english": "I recommend Rue des Marchands, that's where the most beautiful half-timbered houses are, five minutes from here.",
+          "phonetic": "KEL es la ROO la PLOO pee-toh-RESK poor VWAHR lay may-ZONZ ah koh-lohm-BAZH",
+          "french": "Je vous recommande la rue des Marchands, c'est là qu'il y a les plus beaux colombages, à cinq minutes d'ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_centre_nb_004",
+      "intent_en": "Ask where the tourist office is",
+      "text_local": "Où se trouve l'office de tourisme de Rouen ?",
+      "pronunciation": "oo suh TROOV loh-FEES duh too-REEZ-muh duh roo-AHN",
+      "formality": "polite",
+      "cultural_note": "The Rouen tourist office is located on the Place de la Cathédrale, directly opposite the cathedral facade. It offers maps, guided tour bookings, and a city pass that covers most major museums.",
+      "responses": [
+        {
+          "english": "It is right opposite the train station, fifty meters on your right.",
+          "phonetic": "BON-zhoor, OO suh TROOV loh-FEES duh TOO-rizm?",
+          "french": "Il est juste en face de la gare, à cinquante mètres sur votre droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "half-timbered building",
+      "word_local": "la maison à colombages",
+      "pronunciation": "lah may-ZOHN ah koh-lohn-BAHJ"
+    },
+    {
+      "word_en": "historic centre",
+      "word_local": "le centre historique",
+      "pronunciation": "luh SAHNT-ruh ees-toh-REEK"
+    },
+    {
+      "word_en": "tourist office",
+      "word_local": "l'office de tourisme",
+      "pronunciation": "loh-FEES duh too-REEZ-muh"
+    },
+    {
+      "word_en": "walking tour",
+      "word_local": "la promenade guidée",
+      "pronunciation": "lah prohm-NAHD ghee-DAY"
+    }
+  ]
+}

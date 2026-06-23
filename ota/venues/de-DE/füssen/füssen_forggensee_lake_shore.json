@@ -1,0 +1,100 @@
+{
+  "id": "füssen_forggensee_lake_shore",
+  "name_en": "Forggensee Lake Shore",
+  "name_local": "Forggensee Uferpromenade",
+  "icon": "map",
+  "lat": 47.5675998,
+  "lon": 10.6993217,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "füssen_forggensee_lake_shore_001",
+      "intent_en": "Where does the trail to Neuschwanstein start?",
+      "text_local": "Wo beginnt der Weg nach Neuschwanstein?",
+      "pronunciation": "vOH-buhIHnt-dehr-vEHk-nahkh-nAWuhshvahnshtEYEn",
+      "formality": "standard",
+      "cultural_note": "Trailheads to Neuschwanstein are typically marked with clear signage along the lake or nearby paths.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter dem Bootsverleih.",
+        "pronunciation": "hIHnt-dehm-bOHtsflEYE",
+        "translation_en": "Behind the boat rental."
+      },
+      "responses": [
+        {
+          "english": "Behind the boat rental.",
+          "phonetic": "hIHnt-dehm-bOHtsflEYE",
+          "french": "Hinter dem Bootsverleih."
+        }
+      ]
+    },
+    {
+      "id": "füssen_forggensee_lake_shore_002",
+      "intent_en": "How do I pay the parking fee?",
+      "text_local": "Wie zahle ich die Parkgebühr?",
+      "pronunciation": "vee-tsAHluh-ihkh-dee-pAHrkehbUEr",
+      "formality": "standard",
+      "cultural_note": "Parking fees are usually paid at automated machines or directly to a cashier near the parking lots in Füssen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten oder beim Kassierer.",
+        "pronunciation": "ahm-OWtohmAHtuhn-OHd-beyem-kahsEEr",
+        "translation_en": "At the machine or with the cashier."
+      },
+      "responses": [
+        {
+          "english": "At the machine or with the cashier.",
+          "phonetic": "ahm-OWtohmAHtuhn-OHd-beyem-kahsEEr",
+          "french": "Am Automaten oder beim Kassierer."
+        }
+      ]
+    },
+    {
+      "id": "füssen_forggensee_lake_shore_003",
+      "intent_en": "Where is the boat rental kiosk?",
+      "text_local": "Wo ist der Bootsverleih?",
+      "pronunciation": "vOH-ihst-dehr-bOHtsflEYE",
+      "formality": "standard",
+      "cultural_note": "Boat rental is typically located at the shore access with a visible kiosk or counter near the parking or promenade.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ufer, bei der Kasse.",
+        "pronunciation": "ahm-OOfbeye-dehr-kAHsuh",
+        "translation_en": "By the shore, at the cashier."
+      },
+      "responses": [
+        {
+          "english": "By the shore, at the cashier.",
+          "phonetic": "ahm-OOfbeye-dehr-kAHsuh",
+          "french": "Am Ufer, bei der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "füssen_forggensee_lake_shore_004",
+      "intent_en": "Can I rent bikes along the promenade?",
+      "text_local": "Gibt es Fahrradverleih hier?",
+      "pronunciation": "EEpt-ehs-fAHrahdvEHrleye-hEEr",
+      "formality": "casual",
+      "cultural_note": "Bike rentals are commonly available along the promenade, often marked with a 'Radverleih' sign.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Radverleihstand.",
+        "pronunciation": "yAHahm-rAHdvehrlEYEhstahnt",
+        "translation_en": "Yes, at the bike rental stand."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the bike rental stand.",
+          "phonetic": "yAHahm-rAHdvehrlEYEhstahnt",
+          "french": "Ja, am Radverleihstand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

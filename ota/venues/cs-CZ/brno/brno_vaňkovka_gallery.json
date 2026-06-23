@@ -1,0 +1,122 @@
+{
+  "id": "brno_vaňkovka_gallery",
+  "name_en": "Vaňkovka Gallery",
+  "name_local": "Galerie Vaňkovka",
+  "icon": "bag",
+  "lat": 49.1878337,
+  "lon": 16.6147359,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "brno_vaňkovka_gallery_001",
+      "intent_en": "Where do I validate parking?",
+      "text_local": "Kde si mohu ověřit parkování?",
+      "pronunciation": "kdEH-see-mOHhoo-OHvyehreet-pAHrkohvAHnyee",
+      "formality": "standard",
+      "cultural_note": "In Czech shopping centers, parking validation machines are typically located near elevator lobbies or stairwells in the parking garage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Automaty jsou u výtahů v podzemí.",
+        "pronunciation": "OWtohmAHtee-ysoh-OO-vEEtahhoo-v-pOHdehmee",
+        "translation_en": "The machines are by the elevators underground."
+      },
+      "responses": [
+        {
+          "english": "The machines are by the elevators underground.",
+          "phonetic": "OWtohmAHtee-ysoh-OO-vEEtahhoo-v-pOHdehmee",
+          "french": "Automaty jsou u výtahů v podzemí."
+        }
+      ]
+    },
+    {
+      "id": "brno_vaňkovka_gallery_002",
+      "intent_en": "How do I get to the Trnitá passage?",
+      "text_local": "Jak se dostanu do pasáže Trnitá?",
+      "pronunciation": "yAHk-seh-dOHstahnoo-dOHpahsAHzheh-tRnyeetah",
+      "formality": "standard",
+      "cultural_note": "Passages in Czech shopping centers are often named after nearby streets or historical features; directional cues usually reference visible exits or shops.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Jděte rovně a pak doprava k východu.",
+        "pronunciation": "yEHteh-rOHvnyeh-ah-pAHk-dOHprahvah-k-vEEkhohdoo",
+        "translation_en": "Go straight and then right towards the exit."
+      },
+      "responses": [
+        {
+          "english": "Go straight and then right towards the exit.",
+          "phonetic": "yEHteh-rOHvnyeh-ah-pAHk-dOHprahvah-k-vEEkhohdoo",
+          "french": "Jděte rovně a pak doprava k východu."
+        }
+      ]
+    },
+    {
+      "id": "brno_vaňkovka_gallery_003",
+      "intent_en": "Is the Dornych entrance open now?",
+      "text_local": "Je vchod Dornych teď otevřený?",
+      "pronunciation": "yeh-fkhOHd-dOHrneekh-tEH-OHtehvrEHnee",
+      "formality": "standard",
+      "cultural_note": "Shopping centers in Brno often have different closing times for individual entrances based on the attached facilities or public transport schedules.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, je otevřený do devíti.",
+        "pronunciation": "AHnohyeh-OHtehvrEHnee-dOHdehvEEee",
+        "translation_en": "Yes, it's open until nine."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open until nine.",
+          "phonetic": "AHnohyeh-OHtehvrEHnee-dOHdehvEEee",
+          "french": "Ano, je otevřený do devíti."
+        }
+      ]
+    },
+    {
+      "id": "brno_vaňkovka_gallery_004",
+      "intent_en": "Is there a cinema ticket counter here?",
+      "text_local": "Je tady pokladna kina?",
+      "pronunciation": "yeh-tAHdee-pOHklahdnah-kEEnah",
+      "formality": "standard",
+      "cultural_note": "A cinema in a Czech shopping gallery typically has its own dedicated ticket counter on the same floor as the cinema entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, v prvním patře naproti eskalátorům.",
+        "pronunciation": "AHnohv-pRvnyeem-pAHtreh-nAHprohee-EHskahlAHtohroom",
+        "translation_en": "Yes, on the first floor opposite the escalators."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the first floor opposite the escalators.",
+          "phonetic": "AHnohv-pRvnyeem-pAHtreh-nAHprohee-EHskahlAHtohroom",
+          "french": "Ano, v prvním patře naproti eskalátorům."
+        }
+      ]
+    },
+    {
+      "id": "brno_vaňkovka_gallery_005",
+      "intent_en": "Where is the gift card desk?",
+      "text_local": "Kde je přepážka na dárkové karty?",
+      "pronunciation": "kdEH-yeh-prEHpahshkah-nAHdahrkOHveh-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "A central information desk is a common feature in Czech shopping galleries and often handles gift card sales.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Uprostřed atria, vedle informací.",
+        "pronunciation": "OOprohstrehd-AHtreeahvEHdleh-EEnfohrmAHtsee",
+        "translation_en": "In the middle of the atrium, next to information."
+      },
+      "responses": [
+        {
+          "english": "In the middle of the atrium, next to information.",
+          "phonetic": "OOprohstrehd-AHtreeahvEHdleh-EEnfohrmAHtsee",
+          "french": "Uprostřed atria, vedle informací."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_museum_of_modern_art_olomouc",
+  "name_en": "Museum of Modern Art Olomouc",
+  "name_local": "Muzeum umění Olomouc",
+  "icon": "building.columns",
+  "lat": 49.5962827,
+  "lon": 17.2562063,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "olomouc_museum_of_modern_art_olomouc_001",
+      "intent_en": "Can I rent an audio guide here",
+      "text_local": "Můžu si tady půjčit audio průvodce?",
+      "pronunciation": "mOOzhoo-see-tAHdee-pOOytsheet-OWdeeoh-prOOvohttseh",
+      "formality": "standard",
+      "cultural_note": "Czech staff often give a minimal 'Ano' with a location pointer, assuming the tourist will go there next.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u pokladny.",
+        "pronunciation": "AHnohOO-pOHklahdnee",
+        "translation_en": "Yes, at the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket desk.",
+          "phonetic": "AHnohOO-pOHklahdnee",
+          "french": "Ano, u pokladny."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_museum_of_modern_art_olomouc_002",
+      "intent_en": "Is Hradisko a separate admission fee",
+      "text_local": "Platí se na Hradisko zvlášť?",
+      "pronunciation": "plAHee-seh-nAHhrahdEEskoh-zvlAHsh",
+      "formality": "standard",
+      "cultural_note": "Czech staff often confirm with 'Ano' and then state the fact directly without elaboration.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, má samostatné vstupné.",
+        "pronunciation": "AHnohmah-sAHmohstAHtneh-fstOOpneh",
+        "translation_en": "Yes, it has separate admission."
+      },
+      "responses": [
+        {
+          "english": "Yes, it has separate admission.",
+          "phonetic": "AHnohmah-sAHmohstAHtneh-fstOOpneh",
+          "french": "Ano, má samostatné vstupné."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_museum_of_modern_art_olomouc_003",
+      "intent_en": "Where is the ticket desk at Denisova entrance",
+      "text_local": "Kde je pokladna u vchodu z Denisovy?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-OO-fkhOHdoo-s-dEHneesOHvee",
+      "formality": "standard",
+      "cultural_note": "Czech directional answers often use 'po pravé/levé straně' (on the right/left side) rather than just 'vpravo/vlevo'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned za vchodem, po pravé straně.",
+        "pronunciation": "hnEHd-zAHfkhohdehmpOHprahveh-strAHnyeh",
+        "translation_en": "Just past the entrance, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Just past the entrance, on the right side.",
+          "phonetic": "hnEHd-zAHfkhohdehmpOHprahveh-strAHnyeh",
+          "french": "Hned za vchodem, po pravé straně."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_museum_of_modern_art_olomouc_004",
+      "intent_en": "Where is the gift shop for art books",
+      "text_local": "Kde je obchod s uměleckými knihami?",
+      "pronunciation": "kdEH-yeh-OHpkhoht-s-OOmnyehlEHtskeemee-knyEEhahmee",
+      "formality": "standard",
+      "cultural_note": "Museum gift shops are often near the cloakroom (šatna) or exit in Czech museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V přízemí, vedle šatny.",
+        "pronunciation": "v-prEEzehmeevEHdleh-shAHtnee",
+        "translation_en": "On the ground floor, next to the cloakroom."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, next to the cloakroom.",
+          "phonetic": "v-prEEzehmeevEHdleh-shAHtnee",
+          "french": "V přízemí, vedle šatny."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

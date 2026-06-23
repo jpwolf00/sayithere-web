@@ -1,0 +1,100 @@
+{
+  "id": "berlin_tempelhofer_feld",
+  "name_en": "Tempelhofer Feld",
+  "name_local": "Tempelhofer Feld",
+  "icon": "leaf",
+  "lat": 52.4744192,
+  "lon": 13.4026007,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "berlin_tempelhofer_feld_001",
+      "intent_en": "Is there a bike rental kiosk",
+      "text_local": "Gibt es Leihräder hier?",
+      "pronunciation": "EEpt-ehs-lEYEhrehd-hEEr",
+      "formality": "casual",
+      "cultural_note": "Fahrradverleih ist in Parks wie Tempelhofer Feld üblich. Die Antwort bleibt allgemein, da keine exakte Position angegeben ist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an Kiosken.",
+        "pronunciation": "yAHahn-kIHohskuhn",
+        "translation_en": "Yes, at kiosks."
+      },
+      "responses": [
+        {
+          "english": "Yes, at kiosks.",
+          "phonetic": "yAHahn-kIHohskuhn",
+          "french": "Ja, an Kiosken."
+        }
+      ]
+    },
+    {
+      "id": "berlin_tempelhofer_feld_002",
+      "intent_en": "Where is Tempelhofer Damm entrance",
+      "text_local": "Wo ist der Eingang am Tempelhofer Damm?",
+      "pronunciation": "vOH-ihst-dehr-tEHmpuhlhOHf-dAHmEYEnAHng",
+      "formality": "standard",
+      "cultural_note": "In Berlin wird die Eingangsbezeichnung oft mit Bindestrich geschrieben. Die Antwort bleibt allgemein, da der exakte Standort nicht näher spezifiziert ist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Einfach geradeaus, dann links.",
+        "pronunciation": "EYEnfAHkh-guhrAHdehOWsdahn-lINGks",
+        "translation_en": "Straight ahead, then left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, then left.",
+          "phonetic": "EYEnfAHkh-guhrAHdehOWsdahn-lINGks",
+          "french": "Einfach geradeaus, dann links."
+        }
+      ]
+    },
+    {
+      "id": "berlin_tempelhofer_feld_003",
+      "intent_en": "Where can I rent grill permit area",
+      "text_local": "Wo gibt es Grillplätze mit Genehmigung?",
+      "pronunciation": "vOH-EEpt-ehs-rIHlplehtsuh-miht-uhnEHmihUHng",
+      "formality": "standard",
+      "cultural_note": "Grillplätze in Parks erfordern oft eine Genehmigung, die an bestimmten Stellen ausgehändigt wird. Die Antwort verweist auf die markierten Bereiche.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den gekennzeichneten Zonen.",
+        "pronunciation": "ahn-dehn-uhkEHntseyekhnuhtuhn-tsOHnuhn",
+        "translation_en": "At the marked zones."
+      },
+      "responses": [
+        {
+          "english": "At the marked zones.",
+          "phonetic": "ahn-dehn-uhkEHntseyekhnuhtuhn-tsOHnuhn",
+          "french": "An den gekennzeichneten Zonen."
+        }
+      ]
+    },
+    {
+      "id": "berlin_tempelhofer_feld_004",
+      "intent_en": "Where is Columbiadamm entrance",
+      "text_local": "Wo ist der Columbiadamm-Eingang?",
+      "pronunciation": "vOH-ihst-dehr-kOHluhmbEEahdAHmEYEnAHng",
+      "formality": "standard",
+      "cultural_note": "Die Eingangsbezeichnung folgt dem lokalen Sprachgebrauch. Die Antwort bleibt allgemein, da keine Mikrolokalisierung möglich ist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt hier, am Columbiadamm.",
+        "pronunciation": "deerEHkt-hEErahm-kOHluhmbEEahdAHm",
+        "translation_en": "Right here, at Columbiadamm."
+      },
+      "responses": [
+        {
+          "english": "Right here, at Columbiadamm.",
+          "phonetic": "deerEHkt-hEErahm-kOHluhmbEEahdAHm",
+          "french": "Direkt hier, am Columbiadamm."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

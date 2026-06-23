@@ -1,0 +1,118 @@
+{
+  "id": "honfleur_eglise_sainte_catherine",
+  "name_en": "Church of Sainte-Catherine (Wooden Church)",
+  "name_local": "Église Sainte-Catherine de Honfleur",
+  "icon": "building.columns.fill",
+  "lat": 49.4193,
+  "lon": 0.2323,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "honfleur_stcat_001",
+      "intent_en": "Ask if the church is open to visitors",
+      "text_local": "L'église est-elle ouverte aux visiteurs ?",
+      "pronunciation": "lay-GLEEZ eh-TEL oo-VEHRT oh vee-zee-TUHR",
+      "formality": "polite",
+      "cultural_note": "Église Sainte-Catherine is an active church. It is free to enter and open to visitors outside of services.",
+      "responses": [
+        {
+          "english": "Yes, it's open. Free entry.",
+          "phonetic": "wee, seh oo-VEHR. ahn-TRAY LEE-bruh",
+          "french": "Oui, c'est ouvert. Entrée libre."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_stcat_002",
+      "intent_en": "Ask if photos are allowed inside the church",
+      "text_local": "Peut-on prendre des photos à l'intérieur ?",
+      "pronunciation": "puh-TOHN PRAHN-druh day foh-TOH ah lehn-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Photography is generally allowed inside Église Sainte-Catherine, but without flash and outside of services.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_stcat_003",
+      "intent_en": "Ask where the bell tower is",
+      "text_local": "Où se trouve le clocher ?",
+      "pronunciation": "oo suh TROOV luh kloh-SHAY",
+      "formality": "polite",
+      "cultural_note": "The bell tower of Sainte-Catherine is unusually separate from the church, across the square.",
+      "responses": [
+        {
+          "english": "Across the way, on the other side of the square.",
+          "phonetic": "ahn FAHSS, duh LOH-truh koh-TAY duh lah PLAHS",
+          "french": "En face, de l'autre côté de la place."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_stcat_004",
+      "intent_en": "Ask when the next service takes place",
+      "text_local": "À quelle heure est la prochaine messe ?",
+      "pronunciation": "ah kel UHR eh lah proh-SHEHN MESS",
+      "formality": "polite",
+      "cultural_note": "Sainte-Catherine is an active parish church with regular services throughout the week.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_stcat_005",
+      "intent_en": "Ask about the organ recitals",
+      "text_local": "Y a-t-il des concerts ou des messes chantées dans cette église ?",
+      "pronunciation": "ee ah-TEEL day kohn-SAIR oo day MESS shahn-TAY dahn set ay-GLEEZ",
+      "formality": "polite",
+      "cultural_note": "The acoustics of the wooden interior are remarkable. Choral services and organ recitals are held regularly, particularly in summer. The Saturday and Sunday morning masses are sung in the traditional Gregorian style.",
+      "responses": [
+        {
+          "english": "Check the programme at the tourist office.",
+          "phonetic": "vay-ree-FYAY luh proh-GRAM ah loh-FEES duh too-REEZM",
+          "french": "Vérifiez le programme à l'office de tourisme."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "wooden",
+      "word_local": "en bois",
+      "pronunciation": "ahn BWAH"
+    },
+    {
+      "word_en": "bell tower",
+      "word_local": "le clocher",
+      "pronunciation": "luh kloh-SHAY"
+    },
+    {
+      "word_en": "nave",
+      "word_local": "la nef",
+      "pronunciation": "lah NEF"
+    },
+    {
+      "word_en": "shipwright",
+      "word_local": "le charpentier de marine",
+      "pronunciation": "luh shar-pahn-TYAY duh mah-REEN"
+    }
+  ]
+}

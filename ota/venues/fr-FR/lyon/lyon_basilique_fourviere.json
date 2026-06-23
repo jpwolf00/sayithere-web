@@ -1,0 +1,115 @@
+{
+  "id": "lyon_basilique_fourviere",
+  "name_en": "Basilica of Fourvière",
+  "name_local": "Basilique de Fourvière",
+  "icon": "star.fill",
+  "phrases": [
+    {
+      "id": "lyon_fourviere_001",
+      "intent_en": "Ask for the funicular to Fourvière",
+      "text_local": "Où est la station du funiculaire pour Fourvière, s'il vous plaît ?",
+      "pronunciation": "oo eh lah stah-SYOHN doo foo-nee-koo-LAIR poor for-VYAIR, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The funiculaire (Ficelle) runs from Vieux Lyon metro station up to Fourvière. It is covered by standard TCL transit tickets and is far easier than the steep climb on foot.",
+      "responses": [
+        {
+          "english": "It's down below, Vieux Lyon station.",
+          "phonetic": "seh ahn BAH, stah-SYOHN vyuh LYOHN",
+          "french": "C'est en bas, station Vieux Lyon."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_fourviere_002",
+      "intent_en": "Ask about the dress code before entering",
+      "text_local": "Y a-t-il un code vestimentaire à respecter pour entrer ?",
+      "pronunciation": "ee ah-TEEL uhn kohd ves-tee-mahn-TAIR ah res-pek-TAY poor ahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "As an active place of worship, shoulders and knees should be covered. Disposable shawls are sometimes available at the entrance.",
+      "responses": [
+        {
+          "english": "Cover shoulders and knees.",
+          "phonetic": "koo-VRAY layz ay-POHL ay lay zhuh-NOO",
+          "french": "Couvrez les épaules et les genoux."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_fourviere_003",
+      "intent_en": "Ask about the panoramic view of the city",
+      "text_local": "D'où a-t-on la meilleure vue panoramique sur Lyon ?",
+      "pronunciation": "doo ah-TOHN lah meh-YOOR voo pah-noh-rah-MEEK soor lyohn",
+      "formality": "polite",
+      "cultural_note": "The esplanade in front of the basilica offers one of the finest views in France, overlooking the Presqu'île, the Saône, and on clear days, Mont Blanc in the distance.",
+      "responses": [
+        {
+          "english": "Yes, the view is magnificent.",
+          "phonetic": "wee, lah VOO eh mah-nyee-FEEK",
+          "french": "Oui, la vue est magnifique."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_fourviere_004",
+      "intent_en": "Ask whether the crypt is open to visitors",
+      "text_local": "Est-ce que la crypte est ouverte aux visiteurs ?",
+      "pronunciation": "es-kuh lah KREEPT eh oo-VAIRT oh vee-zee-TUR",
+      "formality": "polite",
+      "cultural_note": "The crypt beneath the basilica is a separate, more intimate chapel. It is generally open and worth visiting for its mosaics and peaceful atmosphere.",
+      "responses": [
+        {
+          "english": "Yes, the entrance is on the side.",
+          "phonetic": "wee, lahn-TRAY eh soor luh koh-TAY",
+          "french": "Oui, l'entrée est sur le côté."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_fourviere_005",
+      "intent_en": "Ask about the Roman theatres nearby",
+      "text_local": "Les théâtres romains sont-ils loin d'ici ?",
+      "pronunciation": "lay tay-AHT-ruh roh-MEHN sohn-TEEL lwahn dee-SEE",
+      "formality": "polite",
+      "cultural_note": "The ancient Roman theatres of Fourvière are a short walk from the basilica and host the prestigious Nuits de Fourvière festival each summer.",
+      "responses": [
+        {
+          "english": "Five minutes on foot, downhill.",
+          "phonetic": "ah sehnk mee-NOOT ah PYAY, ahn BAH",
+          "french": "À cinq minutes à pied, en bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "funicular railway",
+      "word_local": "le funiculaire",
+      "pronunciation": "luh foo-nee-koo-LAIR"
+    },
+    {
+      "word_en": "basilica",
+      "word_local": "la basilique",
+      "pronunciation": "lah bah-zee-LEEK"
+    },
+    {
+      "word_en": "panoramic view",
+      "word_local": "la vue panoramique",
+      "pronunciation": "lah voo pah-noh-rah-MEEK"
+    },
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah KREEPT"
+    }
+  ]
+}

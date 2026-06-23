@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_jardin_public",
+  "name_en": "Jardin Public",
+  "name_local": "Jardin Public",
+  "icon": "leaf",
+  "lat": 44.8499,
+  "lon": -0.5749,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "bordeaux_jardinpublic_001",
+      "intent_en": "Ask where the children's playground is",
+      "text_local": "Où se trouve l'aire de jeux pour les enfants, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV lair duh ZHUH poor lay-ZAHNG-fahn seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Jardin Public, established in 1746, is one of Bordeaux's oldest and most elegant parks, featuring English-style landscaping.",
+      "responses": [
+        {
+          "english": "At the back of the park, on the left.",
+          "phonetic": "oh FOHN doo PARK, soor lah GOHSH",
+          "french": "Au fond du parc, sur la gauche."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_jardinpublic_002",
+      "intent_en": "Ask if dogs are allowed in the park",
+      "text_local": "Est-ce que les chiens sont autorisés dans ce jardin ?",
+      "pronunciation": "es-kuh lay SHYAN son oh-toh-ree-ZAY dahn suh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "Dogs are generally permitted in the Jardin Public but must be kept on a lead in most areas.",
+      "responses": [
+        {
+          "english": "Yes, on a leash.",
+          "phonetic": "wee, tuh-NOO ahn LESS",
+          "french": "Oui, tenus en laisse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_jardinpublic_003",
+      "intent_en": "Ask where the botanical garden section is",
+      "text_local": "Où se trouve la section du jardin botanique, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV lah sek-SYON doo zhar-DAN boh-TAH-neek seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "A small but historically significant botanical collection is housed within the Jardin Public.",
+      "responses": [
+        {
+          "english": "Near the south entrance.",
+          "phonetic": "preh duh lahn-TRAY SOOD",
+          "french": "Près de l'entrée sud."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_jardinpublic_004",
+      "intent_en": "Ask if there are rowing boats to hire on the pond",
+      "text_local": "Peut-on louer des barques sur le bassin ?",
+      "pronunciation": "puh-TON loo-AY day BARK soor luh bah-SAN",
+      "formality": "polite",
+      "cultural_note": "The ornamental pond in the Jardin Public is a popular spot for families on warm weekends.",
+      "responses": [
+        {
+          "english": "No, no boats here.",
+          "phonetic": "nohn, pah duh BARK ee-SEE",
+          "french": "Non, pas de barques ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_jardinpublic_005",
+      "intent_en": "Ask if the park café is open",
+      "text_local": "Est-ce que le kiosque du jardin est ouvert ?",
+      "pronunciation": "es-kuh luh kyosk doo zhar-DAN eh oo-VAIR",
+      "formality": "polite",
+      "cultural_note": "A café kiosk in the park serves drinks and snacks; it is usually open in warm weather from late morning.",
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "wee, seh oo-VEHR",
+          "french": "Oui, c'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "park / garden",
+      "word_local": "le jardin",
+      "pronunciation": "luh zhar-DAN"
+    },
+    {
+      "word_en": "playground",
+      "word_local": "l'aire de jeux",
+      "pronunciation": "lair duh ZHUH"
+    },
+    {
+      "word_en": "rowing boat",
+      "word_local": "la barque",
+      "pronunciation": "lah BARK"
+    },
+    {
+      "word_en": "pond / basin",
+      "word_local": "le bassin",
+      "pronunciation": "luh bah-SAN"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "hakone_gora_hot_spring_district",
+  "name_en": "Gora hot spring district",
+  "name_local": "強羅温泉街",
+  "icon": "map",
+  "lat": 35.2323,
+  "lon": 139.036,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "hakone_gora_hot_spring_district_001",
+      "intent_en": "Where is Koen-Kami Station?",
+      "text_local": "こうえんかみえきは どこですか？",
+      "pronunciation": "kOHooEHngkmEEehkEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In hilly areas like Gora, directions often reference slopes or stairs.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "さかみちを のぼると すぐ ひだりです。",
+        "pronunciation": "sKmeetEEoh-nOHbohOOtoh-sOOgoo-khEEdeedEHsoo",
+        "translation_en": "Up the slope, it's immediately on the left."
+      },
+      "responses": [
+        {
+          "english": "Up the slope, it's immediately on the left.",
+          "phonetic": "sKmeetEEoh-nOHbohOOtoh-sOOgoo-khEEdeedEHsoo",
+          "french": "さかみちを のぼると すぐ ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_gora_hot_spring_district_002",
+      "intent_en": "Is the ryokan open for non-guests?",
+      "text_local": "ひがえりにゅうよくは できますか？",
+      "pronunciation": "khEEgEHeenOOooyohkOOh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Many ryokan allow day-trip bathing, but only during restricted hours, typically before check-in time.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ごぜんちゅうだけ できます。",
+        "pronunciation": "hEEgOHzehntOOoodKeh-dEHkeemSoo",
+        "translation_en": "Yes, only during the morning."
+      },
+      "responses": [
+        {
+          "english": "Yes, only during the morning.",
+          "phonetic": "hEEgOHzehntOOoodKeh-dEHkeemSoo",
+          "french": "はい、ごぜんちゅうだけ できます。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_gora_hot_spring_district_003",
+      "intent_en": "How do I buy a Tozan Railway ticket?",
+      "text_local": "とざんでんしゃの きっぷは どうかいますか？",
+      "pronunciation": "tOHzndEHNoh-keeppOOh-dOHookEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Ticket machines are standard for local trains. Staff may point you to a specific machine if there are multiple.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきの じどうはんばいきで かってください。",
+        "pronunciation": "ehkEEnoh-dEEdohOOhBeekEEdeh-kTtehkOOdsEE",
+        "translation_en": "Please buy it from the ticket machine at the station."
+      },
+      "responses": [
+        {
+          "english": "Please buy it from the ticket machine at the station.",
+          "phonetic": "ehkEEnoh-dEEdohOOhBeekEEdeh-kTtehkOOdsEE",
+          "french": "えきの じどうはんばいきで かってください。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_gora_hot_spring_district_004",
+      "intent_en": "Where is the Hakone Museum of Art?",
+      "text_local": "はこねびじゅつかんは どこですか？",
+      "pronunciation": "hKohnEHbeedOOtsookH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Directions are often given with landmarks or simple left/right cues rather than street names.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき みぎがわです。",
+        "pronunciation": "kOHnohsKee-mEEgeegWdEHsoo",
+        "translation_en": "Straight ahead, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the right side.",
+          "phonetic": "kOHnohsKee-mEEgeegWdEHsoo",
+          "french": "このさき みぎがわです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

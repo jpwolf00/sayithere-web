@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_gare_saint_jean",
+  "name_en": "Bordeaux Saint-Jean Station",
+  "name_local": "Gare de Bordeaux Saint-Jean",
+  "icon": "tram",
+  "lat": 44.8257,
+  "lon": -0.5561,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "bordeaux_garesj_001",
+      "intent_en": "Ask for a return ticket to Paris Montparnasse",
+      "text_local": "Je voudrais un billet aller-retour pour Paris Montparnasse, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY un bee-YAY ah-LAY-ruh-TOOR poor pah-REE mohn-par-NASS seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The high-speed TGV from Bordeaux Saint-Jean reaches Paris in just over two hours since the LGV Sud-Atlantique opened in 2017.",
+      "responses": [
+        {
+          "english": "Return ticket, seventy euros.",
+          "phonetic": "ah-LAY ruh-TOOR, swah-sahnt-DEE uh-ROH",
+          "french": "Aller-retour, soixante-dix euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_garesj_002",
+      "intent_en": "Ask which platform the next train to Lyon departs from",
+      "text_local": "De quel quai part le prochain train pour Lyon ?",
+      "pronunciation": "duh kel KAY par luh proh-SHAN TRAN poor lyohn",
+      "formality": "polite",
+      "cultural_note": "Platform information is displayed on large departure boards in the main hall; check these regularly as they update shortly before departure.",
+      "responses": [
+        {
+          "english": "Check the live display board. Platforms vary by train.",
+          "phonetic": "vwah noo-may-ROH TRWAH",
+          "french": "Consultez l'affichage en direct. Les quais varient selon le train."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_garesj_003",
+      "intent_en": "Ask where to store luggage",
+      "text_local": "Où puis-je déposer mes bagages en consigne ?",
+      "pronunciation": "oo PWEE-zhuh day-poh-ZAY may bah-GAZH ahn kohn-SEEN-yuh",
+      "formality": "polite",
+      "cultural_note": "Luggage storage (consigne) is available at major French stations; look for the left-luggage office or automated lockers.",
+      "responses": [
+        {
+          "english": "Next to the main hall.",
+          "phonetic": "ah koh-TAY doo OL prehn-see-PAL",
+          "french": "À côté du hall principal."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_garesj_004",
+      "intent_en": "Ask if this train stops at Arcachon",
+      "text_local": "Est-ce que ce train s'arrête à Arcachon ?",
+      "pronunciation": "es-kuh suh TRAN sah-RET ah ar-kah-SHOHN",
+      "formality": "polite",
+      "cultural_note": "Regional TER trains connect Bordeaux Saint-Jean to Arcachon in about 50 minutes.",
+      "responses": [
+        {
+          "english": "Yes, it's direct.",
+          "phonetic": "wee, seh dee-REKT",
+          "french": "Oui, c'est direct."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_garesj_005",
+      "intent_en": "Ask where the tram stop for the city centre is",
+      "text_local": "Où se trouve l'arrêt de tram pour le centre-ville, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV lah-RAY duh TRAM poor luh SAHN-truh VEEL seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Bordeaux tram network connects the station to the city centre and other major points; tram line C stops directly outside.",
+      "responses": [
+        {
+          "english": "Just at the exit, on the right.",
+          "phonetic": "zhoost ah lah sor-TEE, soor lah DRWAHT",
+          "french": "Juste à la sortie, sur la droite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "return ticket",
+      "word_local": "le billet aller-retour",
+      "pronunciation": "luh bee-YAY ah-LAY-ruh-TOOR"
+    },
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "luh KAY"
+    },
+    {
+      "word_en": "luggage storage",
+      "word_local": "la consigne",
+      "pronunciation": "lah kohn-SEEN-yuh"
+    },
+    {
+      "word_en": "tram stop",
+      "word_local": "l'arrêt de tram",
+      "pronunciation": "lah-RAY duh TRAM"
+    }
+  ]
+}

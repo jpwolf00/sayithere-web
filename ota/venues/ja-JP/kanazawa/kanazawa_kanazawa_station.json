@@ -1,0 +1,100 @@
+{
+  "id": "kanazawa_kanazawa_station",
+  "name_en": "Kanazawa Station",
+  "name_local": "金沢駅",
+  "icon": "tram",
+  "lat": 36.5781476,
+  "lon": 136.6465786,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kanazawa_kanazawa_station_001",
+      "intent_en": "Where to buy JR West tickets?",
+      "text_local": "JRにしにほんの きっぷうりばは どこですか？",
+      "pronunciation": "ehndzhAY-AHyah-nEE-EE-nEE-hOH-nOH-kEEppooooeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The 'Midori-no-madoguchi' is the standard JR staffed ticket counter for reservations and purchases.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいさつの となりに みどりのまどぐちが あります。",
+        "pronunciation": "kEEstsOOnoh-tOHnEEnee-mEEdohEEnohmDohgootEEg-EEmSoo",
+        "translation_en": "There is a ticket office next to the gates."
+      },
+      "responses": [
+        {
+          "english": "There is a ticket office next to the gates.",
+          "phonetic": "kEEstsOOnoh-tOHnEEnee-mEEdohEEnohmDohgootEEg-EEmSoo",
+          "french": "かいさつの となりに みどりのまどぐちが あります。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kanazawa_station_002",
+      "intent_en": "Where is Hokuriku Railroad gate?",
+      "text_local": "ほくりくてつどうの かいさつは どこですか？",
+      "pronunciation": "hOHkooEEkootEHtsoodohOOnoh-kEEstsOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Hokutetsu-Kanazawa Station is physically separate from JR Kanazawa Station, located underground beneath the main plaza.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ひろばを おりて、ちかに あります。",
+        "pronunciation": "khEEohbOH-ohEEtehteekNee-EEmSoo",
+        "translation_en": "Go down to the basement from the plaza."
+      },
+      "responses": [
+        {
+          "english": "Go down to the basement from the plaza.",
+          "phonetic": "khEEohbOH-ohEEtehteekNee-EEmSoo",
+          "french": "ひろばを おりて、ちかに あります。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kanazawa_station_003",
+      "intent_en": "Where to top up bus IC card?",
+      "text_local": "バスの ICカードに チャージしたいです。",
+      "pronunciation": "bsOOnoh-ehnEYE-sEEyah-k-EHndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-nEE-tDeeEEteedEHsoo",
+      "formality": "standard",
+      "cultural_note": "While ticket machines often handle top-ups, station convenience stores are a universally known and reliable fallback for IC card charges.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきの コンビニで できますよ。",
+        "pronunciation": "ehkEEnoh-kOHbeenEEdeh-dEHkeemsOOyoh",
+        "translation_en": "You can do it at the station convenience store."
+      },
+      "responses": [
+        {
+          "english": "You can do it at the station convenience store.",
+          "phonetic": "ehkEEnoh-kOHbeenEEdeh-dEHkeemsOOyoh",
+          "french": "えきの コンビニで できますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kanazawa_station_004",
+      "intent_en": "When does Shinkansen to Tokyo leave?",
+      "text_local": "とうきょうゆきの しんかんせんは なんじですか？",
+      "pronunciation": "tOHookOHooyookEEnoh-EEngkSehH-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Shinkansen departures are frequent but precise. Staff will often quote the next specific departure time.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "つぎは 14じ56ぷんです。",
+        "pronunciation": "tsoogEEh-dzOOsee-dEE-gOH-dzoorOHkoo-poondEHsoo",
+        "translation_en": "The next one is at 14:56."
+      },
+      "responses": [
+        {
+          "english": "The next one is at 14:56.",
+          "phonetic": "tsoogEEh-dzOOsee-dEE-gOH-dzoorOHkoo-poondEHsoo",
+          "french": "つぎは 14じ56ぷんです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

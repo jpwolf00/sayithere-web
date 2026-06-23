@@ -1,0 +1,118 @@
+{
+  "id": "strasbourg_orangerie",
+  "name_en": "Parc de l'Orangerie",
+  "name_local": "Parc de l'Orangerie",
+  "icon": "leaf",
+  "lat": 48.5737,
+  "lon": 7.7733,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "strasbourg_orangerie_001",
+      "intent_en": "Ask about the free zoo",
+      "text_local": "Y a-t-il un zoo gratuit ?",
+      "pronunciation": "ee ah-TEEL uhn zoh grah-TWEE",
+      "formality": "polite",
+      "cultural_note": "The park has a free mini-zoo with deer, peacocks, and swans. It's popular with families.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, the park has no zoo. Strasbourg's zoo is located separately.",
+          "phonetic": "",
+          "french": "Non, le parc n'a pas de zoo. Le zoo de Strasbourg est situé ailleurs."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_orangerie_002",
+      "intent_en": "Ask about the palace",
+      "text_local": "Qu'est-ce que le Palais ?",
+      "pronunciation": "keskuh leh pah-LAY",
+      "formality": "polite",
+      "cultural_note": "The Orangerie was built in the 18th century as a retreat. It now houses a restaurant and event space.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's a former building, now a restaurant and event space.",
+          "phonetic": "",
+          "french": "C'est un ancien bâtiment, aujourd'hui restaurant et espace événementiel."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_orangerie_003",
+      "intent_en": "Ask about the European Parliament connection",
+      "text_local": "Le Parlement européen est-il proche ?",
+      "pronunciation": "leh pah-luh-MAN ay-oo-roh-PYAN eh-TEEL PROHSH",
+      "formality": "polite",
+      "cultural_note": "The park is next to the European Parliament building. You can walk between them in about 10 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, about ten minutes on foot from the park.",
+          "phonetic": "say DOOZ ur-ROH par pear-SOHN",
+          "french": "Oui, à environ dix minutes à pied depuis le parc."
+        }
+      ]
+    },
+    {
+      "id": "fr_oran_str_x1",
+      "intent_en": "Ask if there is a mini-zoo in the park",
+      "text_local": "Y a-t-il un zoo ou une animalerie dans l'Orangerie ?",
+      "pronunciation": "ee ah-TEEL uhn ZOO oo oon ah-nee-mah-luh-REE dahn loh-rahn-zhuh-REE",
+      "formality": "polite",
+      "cultural_note": "The Parc de l'Orangerie has a small zoo with storks — the white stork is the emblem of Alsace and nests in the park every summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, a reserve with storks and deer.",
+          "phonetic": "wee, oon ray-ZAIRV ah-VEK day see-GOHN-yuh ay day SAIR.",
+          "french": "Oui, une réserve avec des cigognes et des cerfs."
+        }
+      ]
+    },
+    {
+      "id": "fr_oran_str_x2",
+      "intent_en": "Ask where to hire a pedal boat on the lake",
+      "text_local": "Où peut-on louer un pédalo sur le lac ?",
+      "pronunciation": "oo puh-TON loo-AY uhn pay-dah-LOH soor luh LAK",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the lake kiosk, open in season.",
+          "phonetic": "oh KYOSK doo LAK, oo-VAIR ahn say-ZON.",
+          "french": "Au kiosque du lac, ouvert en saison."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "park",
+      "word_local": "le parc",
+      "pronunciation": "leh PARK"
+    },
+    {
+      "word_en": "orange tree",
+      "word_local": "l'oranger",
+      "pronunciation": "lor-ahn-ZHAY"
+    },
+    {
+      "word_en": "zoo",
+      "word_local": "le zoo",
+      "pronunciation": "leh zoh"
+    },
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "leh zhar-DAN"
+    }
+  ]
+}

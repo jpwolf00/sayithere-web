@@ -1,0 +1,122 @@
+{
+  "id": "weimar_brauhaus_zum_elephanten",
+  "name_en": "Brauhaus zum Elephanten",
+  "name_local": "Brauhaus zum Elephanten",
+  "icon": "fork.knife",
+  "lat": 50.9793301,
+  "lon": 11.3297921,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "weimar_brauhaus_zum_elephanten_001",
+      "intent_en": "Is the Schnitzel Weimarer Art available",
+      "text_local": "Gibt es das Schnitzel 'Weimarer Art'?",
+      "pronunciation": "EEpt-ehs-dahs-shnIHtsuhl-vEYEmahr-AHrt",
+      "formality": "standard",
+      "cultural_note": "Schnitzel 'Weimarer Art' is a local specialty; availability is typically confirmed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute auf der Karte.",
+        "pronunciation": "yAHhAWuhtuh-owf-dehr-kAHrtuh",
+        "translation_en": "Yes, on the menu today."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the menu today.",
+          "phonetic": "yAHhAWuhtuh-owf-dehr-kAHrtuh",
+          "french": "Ja, heute auf der Karte."
+        }
+      ]
+    },
+    {
+      "id": "weimar_brauhaus_zum_elephanten_002",
+      "intent_en": "Do you have Thüringer Rostbratwurst today",
+      "text_local": "Haben Sie Thüringer Rostbratwurst?",
+      "pronunciation": "hAHbuhn-zee-tUEring-rAWstbrahtvOOrst",
+      "formality": "standard",
+      "cultural_note": "Thüringer Rostbratwurst is a regional specialty; availability is typically confirmed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute verfügbar.",
+        "pronunciation": "yAHhAWuhtuh-fehrfUEkbahr",
+        "translation_en": "Yes, available today."
+      },
+      "responses": [
+        {
+          "english": "Yes, available today.",
+          "phonetic": "yAHhAWuhtuh-fehrfUEkbahr",
+          "french": "Ja, heute verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "weimar_brauhaus_zum_elephanten_003",
+      "intent_en": "Is the Biergarten self-service or table service",
+      "text_local": "Ist der Biergarten Selbstbedienung?",
+      "pronunciation": "ihst-dehr-bEErahrtuhn-zEHlpstbuhdEEnuhng",
+      "formality": "standard",
+      "cultural_note": "German beer gardens often offer table service, especially in traditional venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tischbedienung.",
+        "pronunciation": "tIHshbehdEEnuhng",
+        "translation_en": "Table service."
+      },
+      "responses": [
+        {
+          "english": "Table service.",
+          "phonetic": "tIHshbehdEEnuhng",
+          "french": "Tischbedienung."
+        }
+      ]
+    },
+    {
+      "id": "weimar_brauhaus_zum_elephanten_004",
+      "intent_en": "Where is the Goethe plaque located",
+      "text_local": "Wo ist die Goethe-Gedenktafel?",
+      "pronunciation": "vOH-ihst-dee-UHtuhuhdEHngktahfuhl",
+      "formality": "standard",
+      "cultural_note": "The Goethe plaque is a listed landmark; staff may guide you to it.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Biergarten.",
+        "pronunciation": "ihm-bEErahrtuhn",
+        "translation_en": "In the beer garden."
+      },
+      "responses": [
+        {
+          "english": "In the beer garden.",
+          "phonetic": "ihm-bEErahrtuhn",
+          "french": "Im Biergarten."
+        }
+      ]
+    },
+    {
+      "id": "weimar_brauhaus_zum_elephanten_005",
+      "intent_en": "Do I pay at table or counter",
+      "text_local": "Wo zahlt man hier?",
+      "pronunciation": "vOH-tsAHlt-mahn-hEEr",
+      "formality": "casual",
+      "cultural_note": "In traditional German restaurants, payment is often at the table; staff may clarify if unsure.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch oder an der Theke.",
+        "pronunciation": "ahm-tIHsh-OHd-ahn-dehr-tEHkuh",
+        "translation_en": "At the table or at the counter."
+      },
+      "responses": [
+        {
+          "english": "At the table or at the counter.",
+          "phonetic": "ahm-tIHsh-OHd-ahn-dehr-tEHkuh",
+          "french": "Am Tisch oder an der Theke."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

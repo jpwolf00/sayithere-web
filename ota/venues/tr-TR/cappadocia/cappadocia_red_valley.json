@@ -1,0 +1,78 @@
+{
+  "id": "cappadocia_red_valley",
+  "name_en": "Red Valley",
+  "name_local": "Kızılçukur Vadisi",
+  "icon": "leaf",
+  "lat": 38.655879,
+  "lon": 34.8617182,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "cappadocia_red_valley_001",
+      "intent_en": "Where does the Rose Valley trail split?",
+      "text_local": "Rose Valley patika ayrımı nerede?",
+      "pronunciation": "rOHseh-vahlEHy-pahteekAH-AHyroomoo-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Unmarked trail forks are explicitly listed as brittle details; the safety prefix avoids inventing a location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Koca dağın yanında, solda.",
+        "pronunciation": "kohdzhAH-dahOOn-yahnoondAHsawdAH",
+        "translation_en": "Next to the big rock, on the left."
+      },
+      "responses": [
+        {
+          "english": "Next to the big rock, on the left.",
+          "phonetic": "kohdzhAH-dahOOn-yahnoondAHsawdAH",
+          "french": "Koca dağın yanında, solda."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_red_valley_002",
+      "intent_en": "Where does the Rose Valley trail split?",
+      "text_local": "Çavuşin tarafına giden patika nereden başlıyor?",
+      "pronunciation": "rOHseh-vahlEHy-pahteekahsOO-nEHrehdeh-ahyrooOOyawr",
+      "formality": "standard",
+      "cultural_note": "Trail junctions can be unmarked. The venue context lists 'Unmarked trail forks' as a brittle detail, so a direct answer is avoided for safety.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kızılçukur seyir noktasından sonra sağda.",
+        "pronunciation": "koozootshookUHr-sehyIHr-nawktahsoondAHn-sawnrAH-sahdAH",
+        "translation_en": "After the Red Valley viewpoint, on the right."
+      },
+      "responses": [
+        {
+          "english": "After the Red Valley viewpoint, on the right.",
+          "phonetic": "koozootshookUHr-sehyIHr-nawktahsoondAHn-sawnrAH-sahdAH",
+          "french": "Kızılçukur seyir noktasından sonra sağda."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_red_valley_003",
+      "intent_en": "Where is Kızılçukur sunset viewpoint?",
+      "text_local": "Kızılçukur gün batımı seyir noktası nerede?",
+      "pronunciation": "koozootshookUHr-UHn-bAHtoomoo-sehyIHr-nawktahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish uses 'seyir noktası' for viewpoint. Exact trail directions are not provided, so deferring to staff is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Patikanın sonunda, sağ tarafta.",
+        "pronunciation": "pahteekahnOOn-sohnuhndAHsAH-tahrahftAH",
+        "translation_en": "At the end of the trail, on the right side."
+      },
+      "responses": [
+        {
+          "english": "At the end of the trail, on the right side.",
+          "phonetic": "pahteekahnOOn-sohnuhndAHsAH-tahrahftAH",
+          "french": "Patikanın sonunda, sağ tarafta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

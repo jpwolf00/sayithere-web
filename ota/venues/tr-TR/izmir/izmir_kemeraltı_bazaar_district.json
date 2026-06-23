@@ -1,0 +1,122 @@
+{
+  "id": "izmir_kemeraltı_bazaar_district",
+  "name_en": "Kemeraltı Bazaar district",
+  "name_local": "Kemeraltı Çarşısı",
+  "icon": "map",
+  "lat": 38.4212347,
+  "lon": 27.13326,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "izmir_kemeraltı_bazaar_district_001",
+      "intent_en": "Where is Şadırvanaltı Çarşısı?",
+      "text_local": "Şadırvanaltı Çarşısı nerede?",
+      "pronunciation": "shahdoorvahnahtOO-tshahrshoosOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "It's common to give directions using major landmarks and main streets rather than exact addresses in the bazaar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Anafartalar Caddesi üzerinde, Kemeraltı Saat Kulesi'ne yakın.",
+        "pronunciation": "ahnahfahrtahAHr-dzhahdehsIH-uezehrihndEHkehmehrahtOO-sahAHt-koolehseenEH-yahkOOn",
+        "translation_en": "On Anafartalar Caddesi, near the Kemeraltı Clock Tower."
+      },
+      "responses": [
+        {
+          "english": "On Anafartalar Caddesi, near the Kemeraltı Clock Tower.",
+          "phonetic": "ahnahfahrtahAHr-dzhahdehsIH-uezehrihndEHkehmehrahtOO-sahAHt-koolehseenEH-yahkOOn",
+          "french": "Anafartalar Caddesi üzerinde, Kemeraltı Saat Kulesi'ne yakın."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_district_002",
+      "intent_en": "Is Kızlarağası Hamam open?",
+      "text_local": "Kızlarağası Hamamı açık mı?",
+      "pronunciation": "koozahrahsOO-hahmahmOO-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Opening hours can vary, and no specific schedule is provided in the venue context, so a direct yes/no cannot be given.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Açık, şimdi girebilirsiniz.",
+        "pronunciation": "ahtshOOkshihmdIH-eerehbeelIHrseenihz",
+        "translation_en": "It's open, you can go in now."
+      },
+      "responses": [
+        {
+          "english": "It's open, you can go in now.",
+          "phonetic": "ahtshOOkshihmdIH-eerehbeelIHrseenihz",
+          "french": "Açık, şimdi girebilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_district_003",
+      "intent_en": "Where to pay for tea?",
+      "text_local": "Çay parasını nereye ödeyeceğim?",
+      "pronunciation": "tshAHy-pahrahsoonOO-nEHrehyeh-uhdehyehdzhEHyihm",
+      "formality": "standard",
+      "cultural_note": "In courtyard cafes, you typically pay the çaycı directly when served or as you leave.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çaycıya ödeyin, hesabı o alır.",
+        "pronunciation": "tshahydzhooyAH-uhdehyIHnhehsahbOO-aw-ahOOr",
+        "translation_en": "Pay the tea server, he takes the bill."
+      },
+      "responses": [
+        {
+          "english": "Pay the tea server, he takes the bill.",
+          "phonetic": "tshahydzhooyAH-uhdehyIHnhehsahbOO-aw-ahOOr",
+          "french": "Çaycıya ödeyin, hesabı o alır."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_district_004",
+      "intent_en": "Where is Hisarönü Mosque?",
+      "text_local": "Hisarönü Camii nerede?",
+      "pronunciation": "heesahruhnUH-dzhahmeeIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The mosque is a stable target, but its exact placement relative to other listed landmarks is not provided, so a safe escalation is required.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Anafartalar'a çıkın, sola bakın.",
+        "pronunciation": "ahnahfahrtahahrAH-tshookOOnsOHah-bahkOOn",
+        "translation_en": "Go up to Anafartalar Street and look to the left."
+      },
+      "responses": [
+        {
+          "english": "Go up to Anafartalar Street and look to the left.",
+          "phonetic": "ahnahfahrtahahrAH-tshookOOnsOHah-bahkOOn",
+          "french": "Anafartalar'a çıkın, sola bakın."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_district_005",
+      "intent_en": "Where to pay for tea?",
+      "text_local": "Çay için nereye ödeme yapılıyor?",
+      "pronunciation": "tshAHy-eetshIHn-nEHrehyeh-uhdEHmeh-yahpooOOyawr",
+      "formality": "standard",
+      "cultural_note": "In courtyard cafes, the tea server (çaycı) typically handles all transactions directly at the table.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çaycıya ödeyin.",
+        "pronunciation": "tshahydzhooyAH-uhdehyIHn",
+        "translation_en": "Pay the tea server."
+      },
+      "responses": [
+        {
+          "english": "Pay the tea server.",
+          "phonetic": "tshahydzhooyAH-uhdehyIHn",
+          "french": "Çaycıya ödeyin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

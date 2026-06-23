@@ -1,0 +1,78 @@
+{
+  "id": "lugano_lugano_tourism_information_office",
+  "name_en": "Lugano Tourism Information Office",
+  "name_local": "Ufficio Informazioni Turistiche di Lugano",
+  "icon": "info.circle",
+  "lat": 46.0038007,
+  "lon": 8.9512275,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lugano_lugano_tourism_information_office_001",
+      "intent_en": "Ask when funicolar combined tickets expire",
+      "text_local": "Bis wann gelten die Funicolare-Kombi-Tickets?",
+      "pronunciation": "bihs-vAHn-EHltuhn-dee-fOOneekohlAHruhkAWmbeetIHkuhts",
+      "formality": "standard",
+      "cultural_note": "Funicular combined tickets in Ticino are commonly valid for a single day of unlimited use within the ticket’s network.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Für einen Tag.",
+        "pronunciation": "fuer-EYEnuhn-tAHk",
+        "translation_en": "For one day."
+      },
+      "responses": [
+        {
+          "english": "For one day.",
+          "phonetic": "fuer-EYEnuhn-tAHk",
+          "french": "Für einen Tag."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lugano_tourism_information_office_002",
+      "intent_en": "Ask where to buy Ticino Ticket",
+      "text_local": "Wo bekomme ich den Ticino Ticket?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dehn-teekEEnoh-tIHkuht",
+      "formality": "casual",
+      "cultural_note": "In Switzerland, public transport tickets are typically purchased at manned counters or vending machines; here, the staffed ticketing counter is implied.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kaufen Sie am Schalter.",
+        "pronunciation": "kOWfuhn-zee-ahm-shAHlt",
+        "translation_en": "Buy at the counter."
+      },
+      "responses": [
+        {
+          "english": "Buy at the counter.",
+          "phonetic": "kOWfuhn-zee-ahm-shAHlt",
+          "french": "Kaufen Sie am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lugano_tourism_information_office_003",
+      "intent_en": "Ask if Gandria trail map is free",
+      "text_local": "Ist der Gandria-Wanderplan kostenlos?",
+      "pronunciation": "ihst-dehr-AHndreeAHvAHndplAHn-kAWstuhnlOHs",
+      "formality": "standard",
+      "cultural_note": "Maps for popular trails like Gandria are often provided free of charge at tourist information offices or reception desks in Ticino.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Rezeption.",
+        "pronunciation": "yAHahn-dehr-rEHtsehptsyOHn",
+        "translation_en": "Yes, at reception."
+      },
+      "responses": [
+        {
+          "english": "Yes, at reception.",
+          "phonetic": "yAHahn-dehr-rEHtsehptsyOHn",
+          "french": "Ja, an der Rezeption."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

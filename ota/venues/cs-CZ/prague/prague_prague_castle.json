@@ -1,0 +1,122 @@
+{
+  "id": "prague_prague_castle",
+  "name_en": "Prague Castle",
+  "name_local": "Pražský hrad",
+  "icon": "building.columns",
+  "lat": 50.0908114,
+  "lon": 14.4005225,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "prague_prague_castle_001",
+      "intent_en": "Ask how to rent the audio guide",
+      "text_local": "Jak si můžu půjčit audioprůvodce?",
+      "pronunciation": "yAHk-see-mOOzhoo-pOOytsheet-OWdeeOHproovOHttseh",
+      "formality": "standard",
+      "cultural_note": "Audio guides are typically rented from a specific circuit booth, and an ID or deposit is standard practice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U pokladny okruhu A, potřebujeme doklad.",
+        "pronunciation": "OO-pOHklahdnee-OHkroohoo-AHpOHtrehbOOyehmeh-dOHklaht",
+        "translation_en": "At the Circuit A ticket booth, we need an ID."
+      },
+      "responses": [
+        {
+          "english": "At the Circuit A ticket booth, we need an ID.",
+          "phonetic": "OO-pOHklahdnee-OHkroohoo-AHpOHtrehbOOyehmeh-dOHklaht",
+          "french": "U pokladny okruhu A, potřebujeme doklad."
+        }
+      ]
+    },
+    {
+      "id": "prague_prague_castle_002",
+      "intent_en": "Ask if Lobkowicz Palace needs extra fee",
+      "text_local": "Platí se do Lobkowiczkého paláce zvlášť?",
+      "pronunciation": "plAHee-seh-doh-lOHpkohvEEtsskehhoh-pAHlahtseh-zvlAHsh",
+      "formality": "standard",
+      "cultural_note": "Lobkowicz Palace is a privately owned museum within the castle complex and is not included in the Prague Castle circuits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, to je samostatný vstup.",
+        "pronunciation": "AHnohtOH-yeh-sAHmohstAHtnee-fstOOp",
+        "translation_en": "Yes, that is a separate admission."
+      },
+      "responses": [
+        {
+          "english": "Yes, that is a separate admission.",
+          "phonetic": "AHnohtOH-yeh-sAHmohstAHtnee-fstOOp",
+          "french": "Ano, to je samostatný vstup."
+        }
+      ]
+    },
+    {
+      "id": "prague_prague_castle_003",
+      "intent_en": "Ask when the changing of guard happens",
+      "text_local": "V kolik hodin je výměna stráží?",
+      "pronunciation": "v-kOHleek-hOHeen-yeh-vEEmnyehnah-strAHzhee",
+      "formality": "standard",
+      "cultural_note": "The main ceremony at noon is the most popular; there is also a simpler change every hour.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V poledne, u hlavní brány.",
+        "pronunciation": "v-pOHlehdnehOO-hlAHvnyee-brAHnee",
+        "translation_en": "At noon, at the main gate."
+      },
+      "responses": [
+        {
+          "english": "At noon, at the main gate.",
+          "phonetic": "v-pOHlehdnehOO-hlAHvnyee-brAHnee",
+          "french": "V poledne, u hlavní brány."
+        }
+      ]
+    },
+    {
+      "id": "prague_prague_castle_004",
+      "intent_en": "Ask if cathedral admission requires separate ticket",
+      "text_local": "Potřebuji na katedrálu zvláštní vstupenku?",
+      "pronunciation": "pOHtrehbOOyee-nah-kAHtehdrAHloo-zvlAHshtnyee-fstOOpehngkoo",
+      "formality": "standard",
+      "cultural_note": "The cathedral has a free front area for prayer, but the main tour and tower require a ticket.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, přední část je zdarma, věž se platí.",
+        "pronunciation": "AHnohprEHdnyee-tshAHst-yeh-zdAHrmahvyEHsh-seh-plAHee",
+        "translation_en": "Yes, the front part is free, the tower is paid."
+      },
+      "responses": [
+        {
+          "english": "Yes, the front part is free, the tower is paid.",
+          "phonetic": "AHnohprEHdnyee-tshAHst-yeh-zdAHrmahvyEHsh-seh-plAHee",
+          "french": "Ano, přední část je zdarma, věž se platí."
+        }
+      ]
+    },
+    {
+      "id": "prague_prague_castle_005",
+      "intent_en": "Ask where the Circuit B ticket booth is",
+      "text_local": "Kde je pokladna na okruh B?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-nAHohkrooh-bEH",
+      "formality": "standard",
+      "cultural_note": "Castle ticket circuits are sold at specific booths in the courtyards, not a single central desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Na druhém nádvoří, naproti katedrále.",
+        "pronunciation": "nAHdroohehm-nAHdvohreenAHprohee-kAHtehdrAHleh",
+        "translation_en": "In the second courtyard, opposite the cathedral."
+      },
+      "responses": [
+        {
+          "english": "In the second courtyard, opposite the cathedral.",
+          "phonetic": "nAHdroohehm-nAHdvohreenAHprohee-kAHtehdrAHleh",
+          "french": "Na druhém nádvoří, naproti katedrále."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

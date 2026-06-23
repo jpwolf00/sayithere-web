@@ -1,0 +1,56 @@
+{
+  "id": "maastricht_basilica_of_saint_servatius",
+  "name_en": "Basilica of Saint Servatius",
+  "name_local": "Sint-Servaasbasiliek",
+  "icon": "building.columns",
+  "lat": 50.8493582,
+  "lon": 5.6867471,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "maastricht_basilica_of_saint_servatius_001",
+      "intent_en": "Get guided tour tickets",
+      "text_local": "Kan ik een rondleiding boeken?",
+      "pronunciation": "kahn-ihk-uhn-rAWndlehihdING-bOOkuhn",
+      "formality": "standard",
+      "cultural_note": "Guided tours are often arranged at a dedicated counter or with a volunteer near the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de balie.",
+        "pronunciation": "behih-duh-bahlEE",
+        "translation_en": "At the desk."
+      },
+      "responses": [
+        {
+          "english": "At the desk.",
+          "phonetic": "behih-duh-bahlEE",
+          "french": "Bij de balie."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_basilica_of_saint_servatius_002",
+      "intent_en": "Pay treasury museum fee",
+      "text_local": "Hoeveel kost de entree voor de schatkamer?",
+      "pronunciation": "hoovEHl-kAWs-tuh-ehntrEH-vawr-duh-skhAHtkahmuhr",
+      "formality": "standard",
+      "cultural_note": "A flat fee is common for church treasuries in the Netherlands; exact change is not expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vier euro vijftig.",
+        "pronunciation": "vEEr-UHroh-vEHihftuhkh",
+        "translation_en": "Four fifty."
+      },
+      "responses": [
+        {
+          "english": "Four fifty.",
+          "phonetic": "vEEr-UHroh-vEHihftuhkh",
+          "french": "Vier euro vijftig."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

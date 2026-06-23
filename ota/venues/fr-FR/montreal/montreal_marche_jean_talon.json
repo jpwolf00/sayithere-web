@@ -1,0 +1,118 @@
+{
+  "id": "montreal_marche_jean_talon",
+  "name_en": "Jean-Talon Market",
+  "name_local": "Marché Jean-Talon",
+  "icon": "bag",
+  "lat": 45.535,
+  "lon": -73.6147,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "mtl_jt_001",
+      "intent_en": "Ask for the price of a basket of tomatoes",
+      "text_local": "C'est combien le panier de tomates ?",
+      "pronunciation": "say kom-bee-YAN luh pan-YAY duh to-MAHT",
+      "formality": "neutral",
+      "cultural_note": "Jean-Talon is Montréal's largest and most beloved outdoor market. Most vendors are local Québec farmers and are happy to chat.",
+      "responses": [
+        {
+          "english": "Four dollars per basket.",
+          "phonetic": "KAH-truh doh-LAR luh pah-NYAY",
+          "french": "Quatre dollars le panier."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_jt_002",
+      "intent_en": "Ask if the maple syrup is local",
+      "text_local": "C'est du sirop d'érable du Québec, ça ?",
+      "pronunciation": "say doo see-ROH day-RAHBL doo kay-BEK sah",
+      "formality": "neutral",
+      "cultural_note": "Québec produces over 70% of the world's maple syrup. Look for the fleur-de-lis label to confirm it's authentic Québec product.",
+      "responses": [
+        {
+          "english": "Yes, it is from Quebec.",
+          "phonetic": "wee say doo kay-BEK",
+          "french": "Oui, c'est du Québec."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_jt_003",
+      "intent_en": "Ask for a taste before buying",
+      "text_local": "Est-ce que je peux goûter avant d'acheter ?",
+      "pronunciation": "ess-KUH zhuh puh goo-TAY ah-VAH dah-shuh-TAY",
+      "formality": "polite",
+      "cultural_note": "Most vendors willingly offer tastings, especially for cheese, charcuterie, and preserves. It's expected and welcomed.",
+      "responses": [
+        {
+          "english": "Yes, taste it.",
+          "phonetic": "wee goo-TAY",
+          "french": "Oui, goûtez."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_jt_004",
+      "intent_en": "Ask where to find fresh herbs",
+      "text_local": "Où est-ce que je peux trouver des fines herbes fraîches ?",
+      "pronunciation": "oo ess-KUH zhuh puh troo-VAY day feen AIRB fresh",
+      "formality": "neutral",
+      "cultural_note": "Fine herbes (mixed fresh herbs) are a staple of Québécois cooking. The market has dedicated herb stalls especially in summer.",
+      "responses": [
+        {
+          "english": "Right over there, at the corner.",
+          "phonetic": "zhoost lah-BAH oh KWAHN",
+          "french": "Juste là-bas, au coin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_jt_005",
+      "intent_en": "Ask if they accept debit card",
+      "text_local": "Vous acceptez la carte de débit ?",
+      "pronunciation": "voo zak-sep-TAY lah KART duh day-BEE",
+      "formality": "polite",
+      "cultural_note": "Most stalls now accept debit (Interac) but some smaller vendors prefer cash. ATMs are available inside the market building.",
+      "responses": [
+        {
+          "english": "Yes, we accept debit.",
+          "phonetic": "wee ohn PRAHN luh day-BEE",
+          "french": "Oui, on prend le débit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "maple syrup",
+      "word_local": "le sirop d'érable",
+      "pronunciation": "luh see-ROH day-RAHBL"
+    },
+    {
+      "word_en": "basket",
+      "word_local": "le panier",
+      "pronunciation": "luh pan-YAY"
+    },
+    {
+      "word_en": "fresh produce",
+      "word_local": "les fruits et légumes frais",
+      "pronunciation": "lay frwee ay lay-GOOM freh"
+    },
+    {
+      "word_en": "local / from here",
+      "word_local": "du Québec / d'ici",
+      "pronunciation": "doo kay-BEK / dee-SEE"
+    }
+  ]
+}

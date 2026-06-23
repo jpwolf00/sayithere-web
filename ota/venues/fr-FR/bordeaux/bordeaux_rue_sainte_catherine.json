@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_rue_sainte_catherine",
+  "name_en": "Rue Sainte-Catherine Shopping Street",
+  "name_local": "Rue Sainte-Catherine",
+  "icon": "bag",
+  "lat": 44.8383,
+  "lon": -0.5727,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "bordeaux_stecath_001",
+      "intent_en": "Ask where the nearest fitting room is",
+      "text_local": "Où se trouvent les cabines d'essayage, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV lay kah-BEEN day-say-YAHZH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Rue Sainte-Catherine is one of the longest pedestrian shopping streets in Europe at nearly 1.2 km.",
+      "responses": [
+        {
+          "english": "At the back of the store, on the left.",
+          "phonetic": "oh FOHN doo mah-gah-ZEHN, ah GOHSH",
+          "french": "Au fond du magasin, à gauche."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stecath_002",
+      "intent_en": "Ask if an item is available in a different size",
+      "text_local": "Est-ce que vous avez cet article dans une autre taille ?",
+      "pronunciation": "es-kuh voo-ZAH-vay set ar-TEEKL dahn-ZOON oh-truh TAH-yuh",
+      "formality": "polite",
+      "cultural_note": "French clothing sizes differ from US and UK sizes; ask for a size chart if needed.",
+      "responses": [
+        {
+          "english": "I'll check in the stockroom.",
+          "phonetic": "zhuh veh vay-ree-FYAY ahn ray-ZEHRV",
+          "french": "Je vais vérifier en réserve."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stecath_003",
+      "intent_en": "Ask if they do gift wrapping",
+      "text_local": "Faites-vous des emballages cadeaux ?",
+      "pronunciation": "fet-VOO day zahm-bah-LAZH kah-DOH",
+      "formality": "polite",
+      "cultural_note": "Many French shops offer complimentary gift wrapping, especially during holiday periods.",
+      "responses": [
+        {
+          "english": "Yes, at the checkout.",
+          "phonetic": "wee, ah lah KESS",
+          "french": "Oui, à la caisse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stecath_004",
+      "intent_en": "Ask if they accept credit cards",
+      "text_local": "Acceptez-vous les cartes bancaires ?",
+      "pronunciation": "ak-sep-TAY-voo lay KART bahn-KAIR",
+      "formality": "polite",
+      "cultural_note": "Most shops on Rue Sainte-Catherine accept cards, but some smaller traders may have a minimum spend.",
+      "responses": [
+        {
+          "english": "Yes, no problem.",
+          "phonetic": "wee, sahn proh-BLEM",
+          "french": "Oui, sans problème."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stecath_005",
+      "intent_en": "Ask what time the shops close",
+      "text_local": "À quelle heure ferment les magasins ce soir ?",
+      "pronunciation": "ah kel ur FAIR-mahn lay mah-gah-ZAN suh SWAHR",
+      "formality": "polite",
+      "cultural_note": "Most shops close around 7 or 8 pm; on Sundays many remain closed or keep reduced hours.",
+      "responses": [
+        {
+          "english": "At 7 PM.",
+          "phonetic": "ah deez-NUHF UHR",
+          "french": "À dix-neuf heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fitting room",
+      "word_local": "la cabine d'essayage",
+      "pronunciation": "lah kah-BEEN day-say-YAHZH"
+    },
+    {
+      "word_en": "size (clothing)",
+      "word_local": "la taille",
+      "pronunciation": "lah TAH-yuh"
+    },
+    {
+      "word_en": "gift wrapping",
+      "word_local": "l'emballage cadeau",
+      "pronunciation": "lahm-bah-LAZH kah-DOH"
+    },
+    {
+      "word_en": "bank card / credit card",
+      "word_local": "la carte bancaire",
+      "pronunciation": "lah KART bahn-KAIR"
+    }
+  ]
+}

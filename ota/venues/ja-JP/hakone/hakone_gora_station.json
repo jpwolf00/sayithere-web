@@ -1,0 +1,122 @@
+{
+  "id": "hakone_gora_station",
+  "name_en": "Gora Station",
+  "name_local": "強羅駅",
+  "icon": "tram",
+  "lat": 35.2506355,
+  "lon": 139.0482175,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hakone_gora_station_001",
+      "intent_en": "Which platform for the cable car?",
+      "text_local": "ケーブルカーは どのホームですか？",
+      "pronunciation": "kEHehbooookH-dOHnohhOHohmoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "Gora Station has a split-level layout where the cable car platform sits higher up the hillside than the train platforms.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みぎの かいだんを あがってください。",
+        "pronunciation": "meegEEnoh-kEEdOH-GttEHkoodsEE",
+        "translation_en": "Please go up the stairs on the right."
+      },
+      "responses": [
+        {
+          "english": "Please go up the stairs on the right.",
+          "phonetic": "meegEEnoh-kEEdOH-GttEHkoodsEE",
+          "french": "みぎの かいだんを あがってください。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_gora_station_002",
+      "intent_en": "When does the last cable car leave?",
+      "text_local": "ケーブルカーの さいしゅうびんは なんじですか？",
+      "pronunciation": "kEHehbooookNoh-sEEOOoobeeH-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The last cable car departure from Gora is typically around 7:15 PM, but you should confirm the day's schedule.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "19じ15ふんです。",
+        "pronunciation": "dzOOkoooo-dEE-dzOOgoh-oondEHsoo",
+        "translation_en": "It's 7:15 PM."
+      },
+      "responses": [
+        {
+          "english": "It's 7:15 PM.",
+          "phonetic": "dzOOkoooo-dEE-dzOOgoh-oondEHsoo",
+          "french": "19じ15ふんです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_gora_station_003",
+      "intent_en": "Where is the Romancecar connection?",
+      "text_local": "ロマンスカーへの のりかえは どこですか？",
+      "pronunciation": "OHmSookhEHnoh-nOHeekEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The Odakyu Romancecar connection is at the far end of the station, but you'll need to travel down the mountain to Odawara to actually board it.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "つきあたりを ひだりです。",
+        "pronunciation": "tsOOkeeTEEoh-khEEdeedEHsoo",
+        "translation_en": "At the end of the hall, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the end of the hall, on the left.",
+          "phonetic": "tsOOkeeTEEoh-khEEdeedEHsoo",
+          "french": "つきあたりを ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_gora_station_004",
+      "intent_en": "Where is the elevator for accessibility?",
+      "text_local": "エレベーターは どこですか？",
+      "pronunciation": "EHehbehehtH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Due to the steep hillside, navigating Gora Station with mobility needs can be tricky; the elevator connects the main level to the upper cable car platform.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ホームの おくのほうに あります。",
+        "pronunciation": "hohohmOOnoh-OHkoonOHhohOOnee-EEmSoo",
+        "translation_en": "It's towards the back of the platform."
+      },
+      "responses": [
+        {
+          "english": "It's towards the back of the platform.",
+          "phonetic": "hohohmOOnoh-OHkoonOHhohOOnee-EEmSoo",
+          "french": "ホームの おくのほうに あります。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_gora_station_005",
+      "intent_en": "How do I validate my Freepass?",
+      "text_local": "フリーパスは どうやって つかいますか？",
+      "pronunciation": "OOeepsOOh-dOHooyTteh-tsOOkEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "The Hakone Freepass is typically shown to station staff at the manned gate rather than inserted into automatic ticket machines.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいさつぐちで みせるだけです。",
+        "pronunciation": "kEEsTsoogootEEdeh-mEEsehOOdkehdEHsoo",
+        "translation_en": "Just show it at the ticket gate."
+      },
+      "responses": [
+        {
+          "english": "Just show it at the ticket gate.",
+          "phonetic": "kEEsTsoogootEEdeh-mEEsehOOdkehdEHsoo",
+          "french": "かいさつぐちで みせるだけです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

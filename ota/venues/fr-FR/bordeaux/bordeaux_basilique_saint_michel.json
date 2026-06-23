@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_basilique_saint_michel",
+  "name_en": "Basilica of Saint-Michel",
+  "name_local": "Basilique Saint-Michel",
+  "icon": "building.columns",
+  "lat": 44.8311,
+  "lon": -0.5633,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bordeaux_stmichel_001",
+      "intent_en": "Ask if visitors can climb the detached bell tower",
+      "text_local": "Est-il possible de monter dans le clocher pour la vue ?",
+      "pronunciation": "eh-TEEL poh-SEEBL duh mohn-TAY dahn luh kloh-SHAY poor lah VYU",
+      "formality": "polite",
+      "cultural_note": "The freestanding flèche (spire) of Saint-Michel is the tallest tower in southwest France at 114 metres and can be climbed in summer months.",
+      "responses": [
+        {
+          "english": "Yes, the entrance is next door.",
+          "phonetic": "wee, lahn-TRAY eh ah koh-TAY",
+          "french": "Oui, l'entrée est à côté."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stmichel_002",
+      "intent_en": "Ask about the Sunday flea market outside the basilica",
+      "text_local": "À quelle heure commence le marché aux puces devant la basilique le dimanche ?",
+      "pronunciation": "ah kel ur koh-MAHNS luh mar-SHAY oh PYOOS duh-VAHN lah bah-ZEE-leek luh dee-MAHNSH",
+      "formality": "polite",
+      "cultural_note": "A lively flea market and antiques market takes place around the basilica on Sunday mornings, drawing dealers and bargain hunters from across the region.",
+      "responses": [
+        {
+          "english": "Sunday morning, all around the square.",
+          "phonetic": "luh dee-MAHNSH mah-TEHN, too oh-TOOR duh lah PLAHS",
+          "french": "Le dimanche matin, tout autour de la place."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stmichel_003",
+      "intent_en": "Ask a vendor at the market if an item is genuine antique",
+      "text_local": "Est-ce que cet objet est véritablement ancien ?",
+      "pronunciation": "es-kuh set ob-ZHAY eh vay-ree-TAB-luh-MAHN ahn-SYAN",
+      "formality": "polite",
+      "cultural_note": "The Saint-Michel area has a long tradition as Bordeaux's multicultural quarter, known for its lively street life and antique trade.",
+      "responses": [
+        {
+          "english": "I don't know, but it's old.",
+          "phonetic": "zhuh nuh seh PAH, meh seh ahn-SYEHN",
+          "french": "Je ne sais pas, mais c'est ancien."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stmichel_004",
+      "intent_en": "Ask what time the basilica closes",
+      "text_local": "À quelle heure ferme la basilique ?",
+      "pronunciation": "ah kel ur FAIRM lah bah-ZEE-leek",
+      "formality": "polite",
+      "cultural_note": "The basilica is a Gothic masterpiece begun in the 14th century and is listed as a UNESCO World Heritage site.",
+      "responses": [
+        {
+          "english": "At 6 PM.",
+          "phonetic": "ah deez-weet UHR",
+          "french": "À dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stmichel_005",
+      "intent_en": "Ask if the bell tower has an elevator",
+      "text_local": "Y a-t-il un ascenseur dans la tour ?",
+      "pronunciation": "ee ah-TEEL uhn ah-sahn-SUHR dahn lah TOOR",
+      "formality": "polite",
+      "cultural_note": "The detached bell tower (Flèche Saint-Michel) requires climbing on foot. There is no elevator.",
+      "responses": [
+        {
+          "english": "No, you have to walk up.",
+          "phonetic": "nohn, eel foh mohn-TAY ah PYAY",
+          "french": "Non, il faut monter à pied."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "basilica",
+      "word_local": "la basilique",
+      "pronunciation": "lah bah-ZEE-leek"
+    },
+    {
+      "word_en": "bell tower / spire",
+      "word_local": "le clocher",
+      "pronunciation": "luh kloh-SHAY"
+    },
+    {
+      "word_en": "flea market",
+      "word_local": "le marché aux puces",
+      "pronunciation": "luh mar-SHAY oh PYOOS"
+    },
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah KREEPT"
+    }
+  ]
+}

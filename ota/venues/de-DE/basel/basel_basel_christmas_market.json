@@ -1,0 +1,100 @@
+{
+  "id": "basel_basel_christmas_market",
+  "name_en": "Basel Christmas Market",
+  "name_local": "Basler Weihnachtsmarkt",
+  "icon": "cart",
+  "lat": 47.5581077,
+  "lon": 7.5878261,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "basel_basel_christmas_market_001",
+      "intent_en": "Where can I buy Basler Läckerli cookies?",
+      "text_local": "Wo gibt es Basler Läckerli?",
+      "pronunciation": "vOH-EEpt-ehs-bAHsl-lEHklEE",
+      "formality": "standard",
+      "cultural_note": "Basler Läckerli are a traditional Christmas market specialty sold at multiple confectionery stalls, often near the cathedral square.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Süßwarenständen.",
+        "pronunciation": "ahn-dehn-zUEsvahrEHnshtehnduhn",
+        "translation_en": "At the confectionery stalls."
+      },
+      "responses": [
+        {
+          "english": "At the confectionery stalls.",
+          "phonetic": "ahn-dehn-zUEsvahrEHnshtehnduhn",
+          "french": "An den Süßwarenständen."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_christmas_market_002",
+      "intent_en": "Where do I return my Glühwein mug for deposit?",
+      "text_local": "Wo gebe ich den Glühwein-Becher zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-dehn-lUEveyenbEHkh-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Deposits are typically managed directly at the vendor’s counter where the drink was purchased. Staff expect customers to return the mug immediately after finishing the drink.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Glühwein-Stand.",
+        "pronunciation": "ahm-lUEveyenshtAHnt",
+        "translation_en": "At the mulled wine hut."
+      },
+      "responses": [
+        {
+          "english": "At the mulled wine hut.",
+          "phonetic": "ahm-lUEveyenshtAHnt",
+          "french": "Am Glühwein-Stand."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_christmas_market_003",
+      "intent_en": "Which chalets accept card payment?",
+      "text_local": "Welche Stände akzeptieren Karte?",
+      "pronunciation": "vEHlkhuh-shAHluhts-nEHmuhn-kAHrtuh",
+      "formality": "standard",
+      "cultural_note": "Payment methods vary by vendor. Stall operators are responsible for transaction processing and can clarify accepted payment types.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur die großen Hütten.",
+        "pronunciation": "nOOr-dee-grOHsuhn-hUEtuhn",
+        "translation_en": "Only the large stalls."
+      },
+      "responses": [
+        {
+          "english": "Only the large stalls.",
+          "phonetic": "nOOr-dee-grOHsuhn-hUEtuhn",
+          "french": "Nur die großen Hütten."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_christmas_market_004",
+      "intent_en": "Where is the Münsterplatz market section?",
+      "text_local": "Wo ist Münsterplatz?",
+      "pronunciation": "vOH-ihst-mUEnstplAHts",
+      "formality": "standard",
+      "cultural_note": "Münsterplatz is the square directly adjacent to the Basel Münster cathedral, a central and easily identifiable location within the market.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei der Kathedrale.",
+        "pronunciation": "beye-dehr-kAHtehdrAHluh",
+        "translation_en": "By the cathedral."
+      },
+      "responses": [
+        {
+          "english": "By the cathedral.",
+          "phonetic": "beye-dehr-kAHtehdrAHluh",
+          "french": "Bei der Kathedrale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

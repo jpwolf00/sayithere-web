@@ -1,0 +1,122 @@
+{
+  "id": "athens_thanasis_kebab_restaurant",
+  "name_en": "Thanasis kebab restaurant",
+  "name_local": "Θανάσης",
+  "icon": "fork.knife",
+  "lat": 37.9762644,
+  "lon": 23.7263559,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "athens_thanasis_kebab_restaurant_001",
+      "intent_en": "Do you accept credit cards now?",
+      "text_local": "Δέχεστε πιστωτικές κάρτες;",
+      "pronunciation": "thEHkhehstEH-pEEstohteeEHs-kAHrtehs-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Συνήθως προτιμάται το μετρητό, αλλά η χρήση κάρτας μπορεί να επιτρέπεται.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, μόνο μετρητά.",
+        "pronunciation": "OHkheemOHnoh-mEHtreetAH",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "OHkheemOHnoh-mEHtreetAH",
+          "french": "Όχι, μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "athens_thanasis_kebab_restaurant_002",
+      "intent_en": "Is shish kiofte available today?",
+      "text_local": "Έχετε σούβλι κιόφτε σήμερα;",
+      "pronunciation": "EHkhehtEH-soovlAHee-soovlAHee-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Το σουβλάκι σουβλάκι είναι βασικό προϊόν του καταστήματος.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "athens_thanasis_kebab_restaurant_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να καθίσω αν δεν υπάρχουν ελεύθερες θέσεις;",
+      "pronunciation": "pOO-bohrOH-nah-kahthEEsoh-ahn-thEHn-eepAHrkhoon-ehlEHfthehrEHs-thEHsees",
+      "formality": "polite",
+      "cultural_note": "Σε πολυσύχναστες ώρες μπορεί να μην υπάρχουν ελεύθερες θέσεις.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μπορείτε να καθίσετε εκεί, στο κοινό τραπέζι δίπλα.",
+        "pronunciation": "bohrEEteh-nah-kahthEEsehtEH-ehEEstoh-eenOH-trahpEHzee-thEEplah",
+        "translation_en": "You can sit there, at the shared table next to it."
+      },
+      "responses": [
+        {
+          "english": "You can sit there, at the shared table next to it.",
+          "phonetic": "bohrEEteh-nah-kahthEEsehtEH-ehEEstoh-eenOH-trahpEHzee-thEEplah",
+          "french": "Μπορείτε να καθίσετε εκεί, στο κοινό τραπέζι δίπλα."
+        }
+      ]
+    },
+    {
+      "id": "athens_thanasis_kebab_restaurant_004",
+      "intent_en": "Do I pay at counter before leaving?",
+      "text_local": "Πληρώνουμε στο ταμείο πριν φύγουμε;",
+      "pronunciation": "pleerOHnoomEH-stoh-tahmEEoh-prEEn-fEEghoomEH",
+      "formality": "standard",
+      "cultural_note": "Συνήθης διαδικασία στα εστιατόρια της περιοχής.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "athens_thanasis_kebab_restaurant_005",
+      "intent_en": "Where is the queue to order?",
+      "text_local": "Πού είναι η ουρά για παραγγελία;",
+      "pronunciation": "pOO-EEneh-ee-oorAH-yAH-pAHrahnggehlEEah",
+      "formality": "standard",
+      "cultural_note": "Οι ουρές συνήθως σχηματίζονται κοντά στην είσοδο λόγω περιορισμένου χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο.",
+        "pronunciation": "steen-EEsohthOH",
+        "translation_en": "At the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the entrance.",
+          "phonetic": "steen-EEsohthOH",
+          "french": "Στην είσοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

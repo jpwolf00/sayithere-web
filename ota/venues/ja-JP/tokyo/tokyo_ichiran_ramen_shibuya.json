@@ -1,0 +1,122 @@
+{
+  "id": "tokyo_ichiran_ramen_shibuya",
+  "name_en": "Ichiran Ramen Shibuya",
+  "name_local": "一蘭 渋谷店",
+  "icon": "fork.knife",
+  "lat": 35.6679219,
+  "lon": 139.7052087,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "tokyo_ichiran_ramen_shibuya_001",
+      "intent_en": "Do you take credit cards?",
+      "text_local": "クレジットカードは つかえますか？",
+      "pronunciation": "kOOehdEEttohkdOHh-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many ticket vending machines in Japan, including Ichiran's, only accept cash. It's good to have yen on hand.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、げんきんのみです。",
+        "pronunciation": "EEehgEHngkeennOHmeedEHsoo",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "EEehgEHngkeennOHmeedEHsoo",
+          "french": "いいえ、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ichiran_ramen_shibuya_002",
+      "intent_en": "Where do I hand my ticket?",
+      "text_local": "しょっけんは どこで わたしますか？",
+      "pronunciation": "OHkkehH-dohkOHdeh-wTEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At Ichiran, you typically hand your meal ticket to the staff member behind the counter curtain just before you sit down at your individual booth.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ブースのまえで わたしてください。",
+        "pronunciation": "bOOoosoonOHmEHdeh-wTEEtehkOOdsEE",
+        "translation_en": "Please hand it over before the booth."
+      },
+      "responses": [
+        {
+          "english": "Please hand it over before the booth.",
+          "phonetic": "bOOoosoonOHmEHdeh-wTEEtehkOOdsEE",
+          "french": "ブースのまえで わたしてください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ichiran_ramen_shibuya_003",
+      "intent_en": "Do I buy ticket at machine first?",
+      "text_local": "さきに しょっけんきで かいますか？",
+      "pronunciation": "skEEnee-OHkkehngkEEdeh-kEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Ichiran uses a ticket vending machine at the entrance. You must purchase your meal ticket before being seated.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、さきに かってください。",
+        "pronunciation": "hEEskEEnee-kTtehkOOdsEE",
+        "translation_en": "Yes, please buy it first."
+      },
+      "responses": [
+        {
+          "english": "Yes, please buy it first.",
+          "phonetic": "hEEskEEnee-kTtehkOOdsEE",
+          "french": "はい、さきに かってください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ichiran_ramen_shibuya_004",
+      "intent_en": "Can I add kaedama noodle refill?",
+      "text_local": "かえだまを ついかできますか？",
+      "pronunciation": "kEHdmOH-tsOOeekDehkEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Kaedama is an extra serving of noodles you add to your remaining broth. You can buy a kaedama ticket at the machine or sometimes from staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、かえだまけんを どうぞ。",
+        "pronunciation": "hEEkEHdMkehOH-dohOOzoh",
+        "translation_en": "Yes, here is a kaedama ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, here is a kaedama ticket.",
+          "phonetic": "hEEkEHdMkehOH-dohOOzoh",
+          "french": "はい、かえだまけんを どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ichiran_ramen_shibuya_005",
+      "intent_en": "Is the flavor concentration booth available?",
+      "text_local": "あじしゅうちゅうカウンターは あいてますか？",
+      "pronunciation": "DeeOOootOOookOOntH-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "The flavor concentration booth is Ichiran's signature solo dining counter designed to help you focus on the taste of the ramen.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいてます。こちらへ どうぞ。",
+        "pronunciation": "hEEEEtehmSookOHteeHeh-dohOOzoh",
+        "translation_en": "Yes, it's available. This way, please."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's available. This way, please.",
+          "phonetic": "hEEEEtehmSookOHteeHeh-dohOOzoh",
+          "french": "はい、あいてます。こちらへ どうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

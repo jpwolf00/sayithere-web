@@ -1,0 +1,78 @@
+{
+  "id": "cologne_rheinpark",
+  "name_en": "Rheinpark",
+  "name_local": "Kölner Rheinpark",
+  "icon": "leaf",
+  "lat": 50.949472,
+  "lon": 6.9764536,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "cologne_rheinpark_001",
+      "intent_en": "Where is the designated grill area?",
+      "text_local": "Wo ist der Grillbereich?",
+      "pronunciation": "vOH-ihst-dehr-rIHlbuhrEYEkh",
+      "formality": "standard",
+      "cultural_note": "Grillen ist nur in bestimmten Bereichen erlaubt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Große Wiese",
+        "pronunciation": "rOHsuh-vEEzuh",
+        "translation_en": "Large meadow"
+      },
+      "responses": [
+        {
+          "english": "Large meadow",
+          "phonetic": "rOHsuh-vEEzuh",
+          "french": "Große Wiese"
+        }
+      ]
+    },
+    {
+      "id": "cologne_rheinpark_002",
+      "intent_en": "Where do I buy Parkbahn-Tickets?",
+      "text_local": "Wo bekomme ich Parkbahn-Tickets?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-pAHrkbahntIHkuhts",
+      "formality": "casual",
+      "cultural_note": "Tickets werden vor Ort an der Parkbahn oder am Schalter verkauft.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Parkbahn-Schalter.",
+        "pronunciation": "ahm-pAHrkbahnshAHlt",
+        "translation_en": "At the Parkbahn counter."
+      },
+      "responses": [
+        {
+          "english": "At the Parkbahn counter.",
+          "phonetic": "ahm-pAHrkbahnshAHlt",
+          "french": "Am Parkbahn-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "cologne_rheinpark_003",
+      "intent_en": "Is there a kiosk near Mülmann-Denkmal?",
+      "text_local": "Gibt es einen Kiosk beim Mülmann-Denkmal?",
+      "pronunciation": "EEpt-ehs-EYEnuhn-kIHohsk-beyem-mUElmahndEHngkmahl",
+      "formality": "standard",
+      "cultural_note": "Kioske sind entlang der Rheinpromenade verteilt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Denkmal.",
+        "pronunciation": "yAHahm-dEHngkmahl",
+        "translation_en": "Yes, at the monument."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the monument.",
+          "phonetic": "yAHahm-dEHngkmahl",
+          "french": "Ja, am Denkmal."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

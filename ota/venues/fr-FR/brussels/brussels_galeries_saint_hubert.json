@@ -1,0 +1,98 @@
+{
+  "id": "brussels_galeries_saint_hubert",
+  "name_en": "Royal Galleries of Saint Hubert",
+  "name_local": "Galeries Royales Saint-Hubert",
+  "icon": "bag",
+  "phrases": [
+    {
+      "id": "brussels_gsh_001",
+      "intent_en": "Ask what shops are in the galleries",
+      "text_local": "Quelles boutiques y a-t-il dans les galeries ?",
+      "pronunciation": "kel boo-TEEK ee ah-TEEL dahn lay gah-luh-REE",
+      "formality": "polite",
+      "cultural_note": "The galleries house chocolateries, bookshops, fashion boutiques, and cafes under a beautiful glass-roofed arcade.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Chocolate shops, bookstores, and fashion boutiques.",
+          "phonetic": "day shoh-koh-lah-tuh-REE, day lee-breh-REE ay day boo-TEEK duh MOD",
+          "french": "Des chocolateries, des librairies et des boutiques de mode."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gsh_002",
+      "intent_en": "Ask about the chocolate shops",
+      "text_local": "Où sont les meilleures chocolatiseries ?",
+      "pronunciation": "oo son lay may-YAIR shoh-koh-lah-tee-ZEER",
+      "formality": "polite",
+      "cultural_note": "The galleries house legendary chocolate shops: Neuhaus (invented the praline in 1912), Pierre Marcolini, and Godiva. Perfect for gifts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Neuhaus and Pierre Marcolini are in the gallery, in the middle.",
+          "phonetic": "nuh-OWSS ay pyehr mar-koh-LEE-nee son dahn lah gah-luh-REE, oh mee-LYUH",
+          "french": "Neuhaus et Pierre Marcolini sont dans la galerie, au milieu."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gsh_003",
+      "intent_en": "Ask where the toilets are",
+      "text_local": "Où sont les toilettes ?",
+      "pronunciation": "oo son lay twah-LET",
+      "formality": "polite",
+      "cultural_note": "Public toilets are available in the galleries, typically for a small fee.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the basement, in the middle of the gallery.",
+          "phonetic": "oh soo-SOL, oh mee-LYUH duh lah gah-luh-REE",
+          "french": "Au sous-sol, au milieu de la galerie."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gsh_004",
+      "intent_en": "Ask about the café terrace",
+      "text_local": "Y a-t-il une terrasse pour prendre un café ?",
+      "pronunciation": "ee-ah-TEEL un tah-RASS poor prondr un kah-FAY",
+      "formality": "polite",
+      "cultural_note": "Several cafés have terraces overlooking the gallery's main passage. The most famous is Café Merckx — a Brussels institution.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, several cafes with seating in the gallery.",
+          "phonetic": "wee, plu-ZYUHR kah-FAY ah-VEK teh-RAHS dahn lah gah-luh-REE",
+          "french": "Oui, plusieurs cafés avec terrasse dans la galerie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "shopping gallery",
+      "word_local": "la galerie marchande",
+      "pronunciation": "lah gah-LEE-ree mar-SHOND"
+    },
+    {
+      "word_en": "arcade",
+      "word_local": "l'arcade",
+      "pronunciation": "lar-KAD"
+    },
+    {
+      "word_en": "praline chocolate",
+      "word_local": "la praline",
+      "pronunciation": "lah prah-LEEN"
+    },
+    {
+      "word_en": "glass roof",
+      "pronunciation": "lah verrière",
+      "word_local": "la verrière"
+    }
+  ]
+}

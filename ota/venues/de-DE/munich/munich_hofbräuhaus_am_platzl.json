@@ -1,0 +1,100 @@
+{
+  "id": "munich_hofbräuhaus_am_platzl",
+  "name_en": "Hofbräuhaus am Platzl",
+  "name_local": "Hofbräuhaus am Platzl",
+  "icon": "fork.knife",
+  "lat": 48.1376334,
+  "lon": 11.5799788,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "munich_hofbräuhaus_am_platzl_001",
+      "intent_en": "Is there free seating in the Schwemme?",
+      "text_local": "Gibt es freie Sitzplätze in der Schwemme?",
+      "pronunciation": "EEpt-ehs-frEYE-UH-zIHtsplehtsuh-ihn-dehr-shvEHmuh",
+      "formality": "standard",
+      "cultural_note": "The Schwemme is a large beer hall; seating is first-come, first-served.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die Theke hat oft freie Plätze.",
+        "pronunciation": "yAHdee-tEHkuh-haht-AWft-frEYE-UH-plEHtsuh",
+        "translation_en": "Yes, the counter often has free spots."
+      },
+      "responses": [
+        {
+          "english": "Yes, the counter often has free spots.",
+          "phonetic": "yAHdee-tEHkuh-haht-AWft-frEYE-UH-plEHtsuh",
+          "french": "Ja, die Theke hat oft freie Plätze."
+        }
+      ]
+    },
+    {
+      "id": "munich_hofbräuhaus_am_platzl_002",
+      "intent_en": "Do I need exact cash for the tip?",
+      "text_local": "Brauche ich genaues Wechselgeld fürs Trinkgeld?",
+      "pronunciation": "brOWkhuh-ihkh-uhnOW-UHs-vEHksuhlEHlt-fUErs-trINGkehlt",
+      "formality": "standard",
+      "cultural_note": "Tipping is common; rounding up the bill or leaving small change is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, runden Sie auf.",
+        "pronunciation": "nEYEnrUHnduhn-zee-OWf",
+        "translation_en": "No, round up."
+      },
+      "responses": [
+        {
+          "english": "No, round up.",
+          "phonetic": "nEYEnrUHnduhn-zee-OWf",
+          "french": "Nein, runden Sie auf."
+        }
+      ]
+    },
+    {
+      "id": "munich_hofbräuhaus_am_platzl_003",
+      "intent_en": "Do I pay for my Maß at the table or bar?",
+      "text_local": "Zahlt man das Maß am Tisch oder an der Theke?",
+      "pronunciation": "tsAHlt-mahn-dahs-mAHs-ahm-tIHsh-OHd-ahn-dehr-tEHkuh",
+      "formality": "standard",
+      "cultural_note": "Payment for beer and food is typically made to the server at the table in German beer halls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch.",
+        "pronunciation": "ahm-tIHsh",
+        "translation_en": "At the table."
+      },
+      "responses": [
+        {
+          "english": "At the table.",
+          "phonetic": "ahm-tIHsh",
+          "french": "Am Tisch."
+        }
+      ]
+    },
+    {
+      "id": "munich_hofbräuhaus_am_platzl_004",
+      "intent_en": "Where is the Festival Hall entrance?",
+      "text_local": "Wo ist der Eingang zum Festsaal?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-fEHstzAHl",
+      "formality": "standard",
+      "cultural_note": "Signage in the venue will guide guests to the Festival Hall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Eingang ist auf der anderen Seite vom Platzl.",
+        "pronunciation": "dehr-EYEngAHng-ihst-owf-dehr-AHnduhruhn-zEYEtuh-fawm-plAHtsl",
+        "translation_en": "The entrance is on the other side of the Platzl."
+      },
+      "responses": [
+        {
+          "english": "The entrance is on the other side of the Platzl.",
+          "phonetic": "dehr-EYEngAHng-ihst-owf-dehr-AHnduhruhn-zEYEtuh-fawm-plAHtsl",
+          "french": "Der Eingang ist auf der anderen Seite vom Platzl."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

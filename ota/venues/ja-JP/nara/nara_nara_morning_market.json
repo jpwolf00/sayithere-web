@@ -1,0 +1,78 @@
+{
+  "id": "nara_nara_morning_market",
+  "name_en": "Nara Morning Market",
+  "name_local": "奈良朝市",
+  "icon": "cart",
+  "lat": 34.68868708068712,
+  "lon": 135.80994974746832,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "nara_nara_morning_market_001",
+      "intent_en": "Can I taste before buying?",
+      "text_local": "かうまえに ししょくしても いいですか？",
+      "pronunciation": "kOOmEHnee-EEohkOOeetEHmoh-EEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Tasting is often welcomed at food stalls, but it's polite to ask first.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、どうぞ。ためしてみてください。",
+        "pronunciation": "hEEdohOOzohtMehEEtehmEEtehkOOdsEE",
+        "translation_en": "Yes, please. Go ahead and try."
+      },
+      "responses": [
+        {
+          "english": "Yes, please. Go ahead and try.",
+          "phonetic": "hEEdohOOzohtMehEEtehmEEtehkOOdsEE",
+          "french": "はい、どうぞ。ためしてみてください。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_morning_market_002",
+      "intent_en": "Is Miwa somen available today?",
+      "text_local": "みわそうめんは きょう ありますか？",
+      "pronunciation": "mEEwsOHoomehH-kOHoo-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Producers may proudly present their local specialty when confirming availability.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ありますよ。こちらです。",
+        "pronunciation": "hEEEEmsOOyohkOHteedEHsoo",
+        "translation_en": "Yes, we have it. Here it is."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it. Here it is.",
+          "phonetic": "hEEEEmsOOyohkOHteedEHsoo",
+          "french": "はい、ありますよ。こちらです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_morning_market_003",
+      "intent_en": "Where is the kakinoha-zushi stall?",
+      "text_local": "かきのはずしの はいたばしょは どこですか？",
+      "pronunciation": "kKeenOHhzooEEnoh-hEEtBOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Vendors may point while giving directions; following their gesture is helpful.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、みぎがわの はんばいしょです。",
+        "pronunciation": "mssOOgoo-EEttehmEEgeegwNoh-hBEEohdEHsoo",
+        "translation_en": "Go straight, it's the stall on the right side."
+      },
+      "responses": [
+        {
+          "english": "Go straight, it's the stall on the right side.",
+          "phonetic": "mssOOgoo-EEttehmEEgeegwNoh-hBEEohdEHsoo",
+          "french": "まっすぐ いって、みぎがわの はんばいしょです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

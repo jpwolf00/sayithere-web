@@ -1,0 +1,100 @@
+{
+  "id": "athens_syntagma_metro_station",
+  "name_en": "Syntagma Metro Station",
+  "name_local": "Μετρό Συντάγματος",
+  "icon": "tram",
+  "lat": 37.9755648,
+  "lon": 23.7348324,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "athens_syntagma_metro_station_001",
+      "intent_en": "How do I validate tram ticket?",
+      "text_local": "Πώς επικυρώνω το εισιτήριο του τραμ;",
+      "pronunciation": "pOHs-EHpeeeerOHnoh-toh-EEseetEEreeOH-too-trAHm",
+      "formality": "standard",
+      "cultural_note": "Οι συσκευές επικύρωσης βρίσκονται στους χώρους εισόδου/εξόδου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρυθμίστε το εισιτήριο στη συσκευή επικύρωσης.",
+        "pronunciation": "reethmEEsteh-toh-EEseetEEreeOH-stee-sEEsehvEE-EHpeeEErohsEEs",
+        "translation_en": "Validate your ticket at the machine."
+      },
+      "responses": [
+        {
+          "english": "Validate your ticket at the machine.",
+          "phonetic": "reethmEEsteh-toh-EEseetEEreeOH-stee-sEEsehvEE-EHpeeEErohsEEs",
+          "french": "Ρυθμίστε το εισιτήριο στη συσκευή επικύρωσης."
+        }
+      ]
+    },
+    {
+      "id": "athens_syntagma_metro_station_002",
+      "intent_en": "Where is Athens Tram terminal?",
+      "text_local": "Πού είναι ο τερματικός σταθμός του τραμ;",
+      "pronunciation": "pOO-EEneh-oh-tEHrmahteekOHs-stahthmOHs-too-trAHm",
+      "formality": "standard",
+      "cultural_note": "Η θέση μπορεί να αλλάξει ανάλογα με τις οδηγίες του σταθμού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Λίγα μέτρα πιο κάτω, στην έξοδο της Ερμού.",
+        "pronunciation": "lEEghah-mEHtrah-pkhOH-kAHtohsteen-EHksohthOH-tees-ehrmOO",
+        "translation_en": "A few meters ahead, at the Ermou exit."
+      },
+      "responses": [
+        {
+          "english": "A few meters ahead, at the Ermou exit.",
+          "phonetic": "lEEghah-mEHtrah-pkhOH-kAHtohsteen-EHksohthOH-tees-ehrmOO",
+          "french": "Λίγα μέτρα πιο κάτω, στην έξοδο της Ερμού."
+        }
+      ]
+    },
+    {
+      "id": "athens_syntagma_metro_station_003",
+      "intent_en": "Which platform is Line 2 transfer?",
+      "text_local": "Πού είναι η αλλαγή για τη γραμμή 2;",
+      "pronunciation": "pOO-yEEnehtEH-ee-mehtAHvahsEE-stee-ghrahmEE-thEEoh",
+      "formality": "standard",
+      "cultural_note": "Οι πινακίδες είναι εμφανείς στην περιοχή μεταφοράς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην πλατφόρμα 3.",
+        "pronunciation": "steem-blahtfOHrmah-trEEah",
+        "translation_en": "On platform 3."
+      },
+      "responses": [
+        {
+          "english": "On platform 3.",
+          "phonetic": "steem-blahtfOHrmah-trEEah",
+          "french": "Στην πλατφόρμα 3."
+        }
+      ]
+    },
+    {
+      "id": "athens_syntagma_metro_station_004",
+      "intent_en": "Where is metro card top-up kiosk?",
+      "text_local": "Πού βρίσκεται ο αυτόματος φορτιστής κάρτας;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-ahftOHmahtOHs-fOHrteestEEs-kAHrtahs",
+      "formality": "standard",
+      "cultural_note": "Οι αυτόματοι φορτιστές βρίσκονται κοντά στα εκδοτήρια.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στις εισόδους, προς την Ερμού.",
+        "pronunciation": "thEEplah-stees-eesOHthoosprOHs-teen-ehrmOO",
+        "translation_en": "Next to the entrances, towards Ermou Street."
+      },
+      "responses": [
+        {
+          "english": "Next to the entrances, towards Ermou Street.",
+          "phonetic": "thEEplah-stees-eesOHthoosprOHs-teen-ehrmOO",
+          "french": "Δίπλα στις εισόδους, προς την Ερμού."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

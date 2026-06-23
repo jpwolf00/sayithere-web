@@ -1,0 +1,100 @@
+{
+  "id": "ephesus_şirince_village_center",
+  "name_en": "Şirince village center",
+  "name_local": "Şirince Merkez",
+  "icon": "map",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "ephesus_şirince_village_center_001",
+      "intent_en": "Ask where dolmuş to Selçuk departs",
+      "text_local": "Selçuk dolmuşu nereden kalkıyor?",
+      "pronunciation": "sahltshUHk-dawmooshUH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Dolmuş departure points in villages can be informal and change; asking locally is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meydandan kalkar.",
+        "pronunciation": "mehydahndAHn-kahkAHr",
+        "translation_en": "It departs from the square."
+      },
+      "responses": [
+        {
+          "english": "It departs from the square.",
+          "phonetic": "mehydahndAHn-kahkAHr",
+          "french": "Meydandan kalkar."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_şirince_village_center_002",
+      "intent_en": "Ask if parking at village entrance has space",
+      "text_local": "Köy girişindeki otoparkta yer var mı?",
+      "pronunciation": "kUHy-eereeshihndehkIH-ohtohpahrktAH-yEHr-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Parking in popular villages is dynamic; checking on arrival is the norm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Genelde doludur.",
+        "pronunciation": "ehnahldEH-dohOOduhr",
+        "translation_en": "It's usually full."
+      },
+      "responses": [
+        {
+          "english": "It's usually full.",
+          "phonetic": "ehnahldEH-dohOOduhr",
+          "french": "Genelde doludur."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_şirince_village_center_003",
+      "intent_en": "Ask where guesthouse check-in desk is",
+      "text_local": "Pansiyon giriş masası nerede?",
+      "pronunciation": "pahnseeyAWn-eerIHsh-mahsahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "In village guesthouses, the check-in point is often flexible; the manager will assist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meydandaki çınarın altında.",
+        "pronunciation": "mehydahndahkIH-tshoonahrOOn-ahtoondAH",
+        "translation_en": "Under the plane tree in the square."
+      },
+      "responses": [
+        {
+          "english": "Under the plane tree in the square.",
+          "phonetic": "mehydahndahkIH-tshoonahrOOn-ahtoondAH",
+          "french": "Meydandaki çınarın altında."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_şirince_village_center_004",
+      "intent_en": "Ask which cellar has church view tasting",
+      "text_local": "Hangi mahzende kilise manzaralı tadım var?",
+      "pronunciation": "hahngIH-shahrAHp-mahhzehnihndEH-keelEEseh-mahnzAHrahoo-tahdOOm-vAHr",
+      "formality": "standard",
+      "cultural_note": "Wine cellar arrangements are informal; staff can point you to current options.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çarşıdaki mahzenlerde var.",
+        "pronunciation": "tshahrshoodahkIH-mahhzahnlehrdEH-vAHr",
+        "translation_en": "It's available in the cellars at the marketplace."
+      },
+      "responses": [
+        {
+          "english": "It's available in the cellars at the marketplace.",
+          "phonetic": "tshahrshoodahkIH-mahhzahnlehrdEH-vAHr",
+          "french": "Çarşıdaki mahzenlerde var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

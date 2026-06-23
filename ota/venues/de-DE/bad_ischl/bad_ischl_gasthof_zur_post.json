@@ -1,0 +1,100 @@
+{
+  "id": "bad_ischl_gasthof_zur_post",
+  "name_en": "Gasthof zur Post",
+  "name_local": "Gasthof zur Post",
+  "icon": "fork.knife",
+  "lat": 47.7115299,
+  "lon": 13.6239333,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bad_ischl_gasthof_zur_post_001",
+      "intent_en": "Is cash payment preferred here?",
+      "text_local": "Wird hier Barzahlung bevorzugt?",
+      "pronunciation": "vIHrt-hEEr-bAHrtsahlUHng-buhfOHrtsOOkt",
+      "formality": "casual",
+      "cultural_note": "In traditionellen Gasthöfen in Bayern ist Bargeld häufig Standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Barzahlung ist üblich.",
+        "pronunciation": "yAHbAHrtsahlUHng-ihst-UEplihkh",
+        "translation_en": "Yes, cash is preferred."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash is preferred.",
+          "phonetic": "yAHbAHrtsahlUHng-ihst-UEplihkh",
+          "french": "Ja, Barzahlung ist üblich."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_gasthof_zur_post_002",
+      "intent_en": "How do I request the bill at my table?",
+      "text_local": "Wie bekomme ich die Rechnung?",
+      "pronunciation": "vee-buhkAWmuh-ihkh-dee-rEHkhnuhng",
+      "formality": "casual",
+      "cultural_note": "In bayerischen Gasthöfen wartet man kurz und winkt diskret den Kellner herbei.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ich bringe sie gleich.",
+        "pronunciation": "ihkh-brINGuh-zee-lEYEkh",
+        "translation_en": "I'll bring it right away."
+      },
+      "responses": [
+        {
+          "english": "I'll bring it right away.",
+          "phonetic": "ihkh-brINGuh-zee-lEYEkh",
+          "french": "Ich bringe sie gleich."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_gasthof_zur_post_003",
+      "intent_en": "How do I reserve a table at the entrance?",
+      "text_local": "Wie reserviere ich hier einen Tisch?",
+      "pronunciation": "vee-rEHzehrvEEruh-ihkh-hEEr-EYEnuhn-tIHsh",
+      "formality": "casual",
+      "cultural_note": "Direkte Ansprache des Personals am Eingang ist üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am besten am Eingang zur Wirtin.",
+        "pronunciation": "ahm-bEHstuhn-ahm-EYEngAHng-tsoor-vIHrtihn",
+        "translation_en": "Best to ask at the entrance for the innkeeper."
+      },
+      "responses": [
+        {
+          "english": "Best to ask at the entrance for the innkeeper.",
+          "phonetic": "ahm-bEHstuhn-ahm-EYEngAHng-tsoor-vIHrtihn",
+          "french": "Am besten am Eingang zur Wirtin."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_gasthof_zur_post_004",
+      "intent_en": "Is the Archaeological Park visitable after eating?",
+      "text_local": "Kann man den Archäologiepark danach besuchen?",
+      "pronunciation": "kAHn-mahn-dehn-AHrkhehOHlohEEpahrk-dahnAHkh-buhzOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Der Archäologische Park in Bad Ischl ist fußläufig erreichbar und öffentlich zugänglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, er ist gleich in der Nähe.",
+        "pronunciation": "yAHehr-ihst-lEYEkh-ihn-dehr-nEHuh",
+        "translation_en": "Yes, it's nearby."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's nearby.",
+          "phonetic": "yAHehr-ihst-lEYEkh-ihn-dehr-nEHuh",
+          "french": "Ja, er ist gleich in der Nähe."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

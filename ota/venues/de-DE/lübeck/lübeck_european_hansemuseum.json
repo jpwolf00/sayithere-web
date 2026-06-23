@@ -1,0 +1,122 @@
+{
+  "id": "lübeck_european_hansemuseum",
+  "name_en": "European Hansemuseum",
+  "name_local": "Europäisches Hansemuseum",
+  "icon": "building.columns",
+  "lat": 53.866356,
+  "lon": 10.6811238,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lübeck_european_hansemuseum_001",
+      "intent_en": "Where is the castle hill entrance?",
+      "text_local": "Wo ist der Eingang am Burgberg?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-ahm-bUHuhbehrk",
+      "formality": "standard",
+      "cultural_note": "Castle hill (Burgberg) is a common term for elevated historic access points in German-speaking regions; visitors expect a clear landmark cue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links vom Haupteingang.",
+        "pronunciation": "lINGks-fawm-hOWptEYEngAHng",
+        "translation_en": "To the left of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "To the left of the main entrance.",
+          "phonetic": "lINGks-fawm-hOWptEYEngAHng",
+          "french": "Links vom Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_european_hansemuseum_002",
+      "intent_en": "Can I book the tour at the desk?",
+      "text_local": "Kann ich die Führung an der Kasse buchen?",
+      "pronunciation": "kAHn-ihkh-dee-fUEruhng-ahn-dehr-kAHsuh-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "In German museums, tours are often bookable at the ticket desk; staff will confirm availability.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, möglich.",
+        "pronunciation": "yAHmUHklihkh",
+        "translation_en": "Yes, possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, possible.",
+          "phonetic": "yAHmUHklihkh",
+          "french": "Ja, möglich."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_european_hansemuseum_003",
+      "intent_en": "Is the museum shop past the exit?",
+      "text_local": "Liegt der Museumsshop hinter dem Ausgang?",
+      "pronunciation": "lEEkt-dehr-mOOzawuhmshOHp-hIHnt-dehm-OWsAHng",
+      "formality": "casual",
+      "cultural_note": "Shop locations in German museums often require confirmation from staff; avoid assuming placement relative to exits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, der Shop ist vor dem Ausgang.",
+        "pronunciation": "nEYEndehr-ehnshPdeh-ihst-fAWr-dehm-OWsgAHng",
+        "translation_en": "No, the shop is before the exit."
+      },
+      "responses": [
+        {
+          "english": "No, the shop is before the exit.",
+          "phonetic": "nEYEndehr-ehnshPdeh-ihst-fAWr-dehm-OWsgAHng",
+          "french": "Nein, der Shop ist vor dem Ausgang."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_european_hansemuseum_004",
+      "intent_en": "Is the next guided tour in English?",
+      "text_local": "Gibt es eine Führung auf Englisch gleich?",
+      "pronunciation": "EEpt-ehs-EYEnuh-fUEruhng-owf-EHnglihsh-lEYEkh",
+      "formality": "standard",
+      "cultural_note": "Guided tours in German museums often follow fixed schedules; English tours may be less frequent, so staff will specify next time.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, um 14 Uhr.",
+        "pronunciation": "yAHuhm-fIHrtsehn-OOr",
+        "translation_en": "Yes, at 2 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, at 2 PM.",
+          "phonetic": "yAHuhm-fIHrtsehn-OOr",
+          "french": "Ja, um 14 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_european_hansemuseum_005",
+      "intent_en": "Where do I return audio guides?",
+      "text_local": "Wo gebe ich die Audioguides zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-dee-ehnAWdihUHuheyedzdeh-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Audio guide returns are typically handled at staffed counters in German museums; avoid micro-directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter zurückgeben.",
+        "pronunciation": "ahm-shAHlt-tsoorUEkEHbuhn",
+        "translation_en": "Return at the desk."
+      },
+      "responses": [
+        {
+          "english": "Return at the desk.",
+          "phonetic": "ahm-shAHlt-tsoorUEkEHbuhn",
+          "french": "Am Schalter zurückgeben."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

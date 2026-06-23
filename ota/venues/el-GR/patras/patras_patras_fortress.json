@@ -1,0 +1,122 @@
+{
+  "id": "patras_patras_fortress",
+  "name_en": "Patras Fortress",
+  "name_local": "Κάστρο Πάτρας",
+  "icon": "building.columns",
+  "lat": 38.2449515,
+  "lon": 21.7417282,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "patras_patras_fortress_001",
+      "intent_en": "Where is the donation box",
+      "text_local": "Πού είναι το κουτί δωρεάς;",
+      "pronunciation": "pOO-EEneh-toh-kootEE-thOHrehAHs",
+      "formality": "standard",
+      "cultural_note": "Το κουτί δωρεάς αναφέρεται ως τοποθετημένο στην περιοχή της εκκλησίας του κάστρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην εκκλησία, κοντά στην είσοδό της.",
+        "pronunciation": "steen-EHkleesEEahkohdAH-steen-EEsohthOH-tees",
+        "translation_en": "At the chapel near its entrance."
+      },
+      "responses": [
+        {
+          "english": "At the chapel near its entrance.",
+          "phonetic": "steen-EHkleesEEahkohdAH-steen-EEsohthOH-tees",
+          "french": "Στην εκκλησία, κοντά στην είσοδό της."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_fortress_002",
+      "intent_en": "Where is the Byzantine cistern",
+      "text_local": "Πού είναι η βυζαντινή δεξαμενή;",
+      "pronunciation": "pOO-EEneh-ee-vEEzahdeenEE-thEHksahmehnEE",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναμένεται να ακολουθούν τις υπάρχουσες πινακίδες εντός του χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κάτω μέρος του κάστρου.",
+        "pronunciation": "stoh-kAHtoh-mEHrohs-too-kAHstroo",
+        "translation_en": "In the lower part of the castle."
+      },
+      "responses": [
+        {
+          "english": "In the lower part of the castle.",
+          "phonetic": "stoh-kAHtoh-mEHrohs-too-kAHstroo",
+          "french": "Στο κάτω μέρος του κάστρου."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_fortress_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να κλείσω ξενάγηση;",
+      "pronunciation": "pOO-bohrOH-nah-klEEsoh-ksehnAHyeesEE",
+      "formality": "polite",
+      "cultural_note": "Οι ξεναγοί είναι ένας από τους μόνιμους παρεχόμενους ρόλους στο χώρο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο εκδοτήριο εισιτηρίων, αριστερά της εισόδου.",
+        "pronunciation": "stoh-EHkthohtEEreeOH-EEseeteerEEohnAHreestehrAH-tees-eesOHthoo",
+        "translation_en": "You can book a guided tour at the ticket office, next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "You can book a guided tour at the ticket office, next to the entrance.",
+          "phonetic": "stoh-EHkthohtEEreeOH-EEseeteerEEohnAHreestehrAH-tees-eesOHthoo",
+          "french": "Στο εκδοτήριο εισιτηρίων, αριστερά της εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_fortress_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκονται τα αρχαία ερείπια της ακρόπολης;",
+      "pronunciation": "pOO-vrEEskohdEH-t-ahrkhEHah-ehrEEpkh-ahkrOHpohlEEs",
+      "formality": "standard",
+      "cultural_note": "Τα ερείπια είναι μέρος των μόνιμων στόχων του χώρου, αλλά η ακριβής τοποθεσία δεν προσδιορίζεται.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε την ανατολική οδό προς την ακρόπολη.",
+        "pronunciation": "AHkohloothEEsteh-teen-AHnahtOHleeEE-ohthOH-prOHs-teen-ahkrOHpohlEE",
+        "translation_en": "The ancient ruins are at the upper part of the fortress, toward the east side."
+      },
+      "responses": [
+        {
+          "english": "The ancient ruins are at the upper part of the fortress, toward the east side.",
+          "phonetic": "AHkohloothEEsteh-teen-AHnahtOHleeEE-ohthOH-prOHs-teen-ahkrOHpohlEE",
+          "french": "Ακολουθήστε την ανατολική οδό προς την ακρόπολη."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_fortress_005",
+      "intent_en": "Is entry at the gate free",
+      "text_local": "Η είσοδος είναι δωρεάν;",
+      "pronunciation": "ee-EEsohthOHs-EEneh-thOHrehAHn",
+      "formality": "standard",
+      "cultural_note": "Η είσοδος αναφέρεται ως δωρεάν στον χώρο εισόδου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δωρεάν είσοδος.",
+        "pronunciation": "nEHthOHrehAHn-EEsohthOHs",
+        "translation_en": "Yes, free entry."
+      },
+      "responses": [
+        {
+          "english": "Yes, free entry.",
+          "phonetic": "nEHthOHrehAHn-EEsohthOHs",
+          "french": "Ναι, δωρεάν είσοδος."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

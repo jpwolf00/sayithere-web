@@ -1,0 +1,122 @@
+{
+  "id": "hiroshima_hiroshima_station",
+  "name_en": "Hiroshima Station",
+  "name_local": "広島駅",
+  "icon": "tram",
+  "lat": 34.3978256,
+  "lon": 132.4755766,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hiroshima_hiroshima_station_001",
+      "intent_en": "Which gate for Shinkansen platform",
+      "text_local": "しんかんせんの のりばは どっちですか？",
+      "pronunciation": "EEngksEHnnoh-nOHeebH-dOHtteedehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often gesture upward when mentioning the upper floor.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "2かいの しんかんせんかいさつです。",
+        "pronunciation": "nEE-kEEnoh-EEngkSehngkEEsTsoodEHsoo",
+        "translation_en": "The Shinkansen gate on the 2nd floor."
+      },
+      "responses": [
+        {
+          "english": "The Shinkansen gate on the 2nd floor.",
+          "phonetic": "nEE-kEEnoh-EEngkSehngkEEsTsoodEHsoo",
+          "french": "2かいの しんかんせんかいさつです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_station_002",
+      "intent_en": "When is next tram to Peace Park",
+      "text_local": "へいわこうえんへ いく ろめんでんしゃは つぎ いつですか？",
+      "pronunciation": "hEHeewKohOOehHeh-EEkoo-OHmehndEHH-tsOOgee-EEtsoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "Tram stops are just outside the station's south exit.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "3ばんのりばから、あと5ふんです。",
+        "pronunciation": "sN-bNnohEEbkToh-gOH-oondEHsoo",
+        "translation_en": "From platform 3, in 5 minutes."
+      },
+      "responses": [
+        {
+          "english": "From platform 3, in 5 minutes.",
+          "phonetic": "sN-bNnohEEbkToh-gOH-oondEHsoo",
+          "french": "3ばんのりばから、あと5ふんです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_station_003",
+      "intent_en": "Can I use Suica on Hiroden tram",
+      "text_local": "ひろでんに すいかは つかえますか？",
+      "pronunciation": "khEEohdEHnnee-sOOeekH-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Major IC cards like Suica are now widely accepted on Hiroshima trams.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、つかえますよ。",
+        "pronunciation": "hEEtsOOkEHmsOOyoh",
+        "translation_en": "Yes, you can use it."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can use it.",
+          "phonetic": "hEEtsOOkEHmsOOyoh",
+          "french": "はい、つかえますよ。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_station_004",
+      "intent_en": "Where is Ekie information desk",
+      "text_local": "えきえの あんないじょは どこですか？",
+      "pronunciation": "EHkeeEHnoh-NneedOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Ekie is the shopping mall directly connected to the station.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ちかに あります。かいだんを おりて すぐです。",
+        "pronunciation": "teekNee-EEmSookEEdOH-ohEEteh-sOOgoodEHsoo",
+        "translation_en": "It's underground. Right after going down the stairs."
+      },
+      "responses": [
+        {
+          "english": "It's underground. Right after going down the stairs.",
+          "phonetic": "teekNee-EEmSookEEdOH-ohEEteh-sOOgoodEHsoo",
+          "french": "ちかに あります。かいだんを おりて すぐです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_station_005",
+      "intent_en": "How do I buy Shinkansen reserved seat",
+      "text_local": "しんかんせんの していせきを かいたいんですが。",
+      "pronunciation": "EEngksEHnnoh-EEtehEEsehkEEoh-kEEtEEndehsOOg",
+      "formality": "standard",
+      "cultural_note": "The 'Midori no Madoguchi' counter handles reserved seats.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みどりのまどぐちで きっぷを かってください。",
+        "pronunciation": "mEEdohEEnohmDohgootEEdeh-keeppOOoh-kTtehkOOdsEE",
+        "translation_en": "Please buy a ticket at the ticket office."
+      },
+      "responses": [
+        {
+          "english": "Please buy a ticket at the ticket office.",
+          "phonetic": "mEEdohEEnohmDohgootEEdeh-keeppOOoh-kTtehkOOdsEE",
+          "french": "みどりのまどぐちで きっぷを かってください。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "hakone_hakone_open_air_museum",
+  "name_en": "Hakone Open-Air Museum",
+  "name_local": "彫刻の森美術館",
+  "icon": "building.columns",
+  "lat": 35.2442838,
+  "lon": 139.0520834,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hakone_hakone_open_air_museum_001",
+      "intent_en": "Where is the gift shop near exit?",
+      "text_local": "でぐちの ちかくの みやげものやは どこですか？",
+      "pronunciation": "dEHgootEEnoh-tEEkkOOnoh-mEEygEHmohnohyH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often use 'immediately' (sugu) to indicate a very short distance, giving a clear sense of proximity.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "でぐちを でて、すぐ ひだりです。",
+        "pronunciation": "dEHgootEEoh-dEHtehsOOgoo-khEEdeedEHsoo",
+        "translation_en": "Exit and it's immediately on the left."
+      },
+      "responses": [
+        {
+          "english": "Exit and it's immediately on the left.",
+          "phonetic": "dEHgootEEoh-dEHtehsOOgoo-khEEdeedEHsoo",
+          "french": "でぐちを でて、すぐ ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_open_air_museum_002",
+      "intent_en": "Is the Symphonic Sculpture open today?",
+      "text_local": "きょう、こうきょうちょうこくは あいていますか？",
+      "pronunciation": "kOHookOHookOHootOHookohkOOh-EEtEHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple 'daijoubu' is a common, friendly way to confirm availability or that conditions are okay for climbing.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいています。",
+        "pronunciation": "hEEEEtEHeemSoo",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "hEEEEtEHeemSoo",
+          "french": "はい、あいています。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_open_air_museum_003",
+      "intent_en": "Where is the Picasso Pavilion?",
+      "text_local": "ピカソかんは どこですか？",
+      "pronunciation": "pEEksOHkH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Museum staff often use simple directional cues like 'straight ahead' and 'on the right' rather than giving complex paths.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき、みぎがわです。",
+        "pronunciation": "kOHnohsKeemEEgeegWdEHsoo",
+        "translation_en": "Straight ahead, on the right."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the right.",
+          "phonetic": "kOHnohsKeemEEgeegWdEHsoo",
+          "french": "このさき、みぎがわです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_open_air_museum_004",
+      "intent_en": "Where do I pay for Foot Bath Cafe?",
+      "text_local": "あしゆカフェの しはらいは どこで しますか？",
+      "pronunciation": "EEyOOkEHnoh-EEhEEh-dohkOHdeh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Payment at a cafe is almost always at the counter, not at a separate cashier. The staff will point you to the same area you order.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "カフェの カウンターで おねがいします。",
+        "pronunciation": "kEHnoh-kOOntDeh-OHnehgEEeemSoo",
+        "translation_en": "At the cafe counter, please."
+      },
+      "responses": [
+        {
+          "english": "At the cafe counter, please.",
+          "phonetic": "kEHnoh-kOOntDeh-OHnehgEEeemSoo",
+          "french": "カフェの カウンターで おねがいします。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

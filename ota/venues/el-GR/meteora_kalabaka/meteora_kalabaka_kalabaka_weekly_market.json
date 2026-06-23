@@ -1,0 +1,122 @@
+{
+  "id": "meteora_kalabaka_kalabaka_weekly_market",
+  "name_en": "Kalabaka Weekly Market",
+  "name_local": "Λαϊκή Αγορά Καλαμπάκας",
+  "icon": "cart",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_kalabaka_weekly_market_001",
+      "intent_en": "Do I need cash for vegetables?",
+      "text_local": "Χρειάζεται μετρητά για τα λαχανικά;",
+      "pronunciation": "khrkhAHzehtEH-mEHtreetAH-yAH-tah-lAHkhahneekAH",
+      "formality": "standard",
+      "cultural_note": "Cash is the dominant payment method for small purchases at stalls.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, κυρίως μετρητά.",
+        "pronunciation": "nEHeerEEohz-mEHtreetAH",
+        "translation_en": "Yes, mostly cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, mostly cash.",
+          "phonetic": "nEHeerEEohz-mEHtreetAH",
+          "french": "Ναι, κυρίως μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_weekly_market_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το περίπτερο με τα τυριά Θεσσαλίας;",
+      "pronunciation": "pOO-vrEEsehtEH-toh-teerEE-thEHssahlEEahs",
+      "formality": "standard",
+      "cultural_note": "Cheese stalls are typically manned by producers themselves. Direct inquiry is expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά μετά τους πάγκους μελιού.",
+        "pronunciation": "thEHkseeAH-mehtAH-toos-pAHnggooz-mehlyOO",
+        "translation_en": "In the next aisle, near the honey stalls."
+      },
+      "responses": [
+        {
+          "english": "In the next aisle, near the honey stalls.",
+          "phonetic": "thEHkseeAH-mehtAH-toos-pAHnggooz-mehlyOO",
+          "french": "Δεξιά μετά τους πάγκους μελιού."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_weekly_market_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτό το περίπτερο με τα χειροποίητα υφάσματα τώρα;",
+      "pronunciation": "EEneh-AHneekhtOH-toh-pehrEEptehrOH-meh-tah-eefAHsmahtAH-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Stalls operate on vendor availability; direct inquiry is standard.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο τέλος της αγοράς αριστερά.",
+        "pronunciation": "nEHstoh-tEHlohs-tees-AHghohrAHs-AHreestehrAH",
+        "translation_en": "Yes, it is open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open now.",
+          "phonetic": "nEHstoh-tEHlohs-tees-AHghohrAHs-AHreestehrAH",
+          "french": "Ναι, στο τέλος της αγοράς αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_weekly_market_004",
+      "intent_en": "How is bargaining done for bulk buys?",
+      "text_local": "Πώς γίνεται η διαπραγμάτευση για μεγάλες αγορές;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-thEEahprahghmAHtehfsEE-yAH-mehghAHlehs-AHghohrEHs",
+      "formality": "standard",
+      "cultural_note": "Bargaining is expected for bulk purchases and involves direct negotiation with the producer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πείτε τι θέλετε, συζητάμε τιμή.",
+        "pronunciation": "pEEteh-tEE-thEHlehtEHsEEzeetAHmeh-teemEE",
+        "translation_en": "Ask the producer."
+      },
+      "responses": [
+        {
+          "english": "Ask the producer.",
+          "phonetic": "pEEteh-tEE-thEHlehtEHsEEzeetAHmeh-teemEE",
+          "french": "Πείτε τι θέλετε, συζητάμε τιμή."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_weekly_market_005",
+      "intent_en": "Can I taste Kalabaka honey before buying?",
+      "text_local": "Μπορώ να δοκιμάσω το μέλι Καλαμπάκας πριν αγοράσω;",
+      "pronunciation": "bohrOH-nah-thOHeemAHsoh-toh-mEHlee-kAHlahbAHkahs-prEEn-AHghohrAHsoh",
+      "formality": "standard",
+      "cultural_note": "Sampling is common for specialty foods like honey before purchase.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ζητήστε δείγμα.",
+        "pronunciation": "nEHzeetEEsteh-thEEghmah",
+        "translation_en": "Yes, ask for a sample."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask for a sample.",
+          "phonetic": "nEHzeetEEsteh-thEEghmah",
+          "french": "Ναι, ζητήστε δείγμα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

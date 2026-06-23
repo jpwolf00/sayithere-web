@@ -1,0 +1,122 @@
+{
+  "id": "sapporo_sapporo_beer_museum",
+  "name_en": "Sapporo Beer Museum",
+  "name_local": "サッポロビール博物館",
+  "icon": "building.columns",
+  "lat": 43.0714076,
+  "lon": 141.3689962,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "sapporo_sapporo_beer_museum_001",
+      "intent_en": "When is the next English tour?",
+      "text_local": "つぎの えいごの ツアーは いつですか？",
+      "pronunciation": "tsoogEEnoh-EHeegOHnoh-tsooH-EEtsoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "Giving a specific time and a relative wait time is a very helpful and common reply.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "にじからです。あと じゅうごふんです。",
+        "pronunciation": "nEEdeekDEHsooToh-dOOoogOHoondEHsoo",
+        "translation_en": "It's at 2 o'clock. In 15 minutes."
+      },
+      "responses": [
+        {
+          "english": "It's at 2 o'clock. In 15 minutes.",
+          "phonetic": "nEEdeekDEHsooToh-dOOoogOHoondEHsoo",
+          "french": "にじからです。あと じゅうごふんです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_beer_museum_002",
+      "intent_en": "Can gift shop beer be shipped?",
+      "text_local": "おみやげの ビールは はっそう できますか？",
+      "pronunciation": "OHmeeygEHnoh-beeOOh-hssOHoo-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Shipping is a common service at souvenir shops in Japan, so a simple confirmation is plausible.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、はっそう できます。",
+        "pronunciation": "hEEhssOHoo-dEHkeemSoo",
+        "translation_en": "Yes, we can ship it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can ship it.",
+          "phonetic": "hEEhssOHoo-dEHkeemSoo",
+          "french": "はい、はっそう できます。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_beer_museum_003",
+      "intent_en": "How do I book a group tour?",
+      "text_local": "だんたい ツアーを よやくしたいです。",
+      "pronunciation": "dntEE-tsooOH-yOHykOOeetEEdEHsoo",
+      "formality": "standard",
+      "cultural_note": "Staff will politely direct you to the specific reservation desk.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あちらの うけつけで うけたまわります。",
+        "pronunciation": "TeeNoh-OOkehtsookEHdeh-OOkehtMwEEmSoo",
+        "translation_en": "We take reservations at that counter over there."
+      },
+      "responses": [
+        {
+          "english": "We take reservations at that counter over there.",
+          "phonetic": "TeeNoh-OOkehtsookEHdeh-OOkehtMwEEmSoo",
+          "french": "あちらの うけつけで うけたまわります。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_beer_museum_004",
+      "intent_en": "Is the Genghis Khan restaurant full?",
+      "text_local": "ジンギスカン レストランは いっぱいですか？",
+      "pronunciation": "dEEnggeesOOk-EHsootOHH-EEhpEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple 'aiteimasu' (open/available) is a natural, direct answer for a restaurant's availability.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いまは あいていますよ。",
+        "pronunciation": "eemH-EEtEHeemsOOyoh",
+        "translation_en": "It's open right now."
+      },
+      "responses": [
+        {
+          "english": "It's open right now.",
+          "phonetic": "eemH-EEtEHeemsOOyoh",
+          "french": "いまは あいていますよ。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_beer_museum_005",
+      "intent_en": "Where is the Star Hall?",
+      "text_local": "スター ホールは どこですか？",
+      "pronunciation": "sOOt-hohohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The Star Hall is a prominent red brick building, so pointing or describing it directly is very common.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "この あかい レンガの たてものです。",
+        "pronunciation": "kOHnoh-kEE-ehnggNoh-tTehmOHnohdEHsoo",
+        "translation_en": "It's this red brick building."
+      },
+      "responses": [
+        {
+          "english": "It's this red brick building.",
+          "phonetic": "kOHnoh-kEE-ehnggNoh-tTehmOHnohdEHsoo",
+          "french": "この あかい レンガの たてものです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

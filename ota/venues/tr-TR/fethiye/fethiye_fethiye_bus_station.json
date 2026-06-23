@@ -1,0 +1,144 @@
+{
+  "id": "fethiye_fethiye_bus_station",
+  "name_en": "Fethiye Bus Station",
+  "name_local": "Fethiye Otogar",
+  "icon": "tram",
+  "lat": 36.6240079,
+  "lon": 29.1311804,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_bus_station_001",
+      "intent_en": "Ask which bay for Pamukkale to Denizli",
+      "text_local": "Pamukkale firmasının Denizli peronu kaç numara?",
+      "pronunciation": "pahmookahlehnIHn-dehnIHzlih-ohtohbuesUH-hahngIH-pehrawndAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Peron numaraları firmaya göre değişebilir; danışma en güvenli yönlendirmeyi yapar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Altı numara.",
+        "pronunciation": "ahtOO-noomahrAH",
+        "translation_en": "Number six."
+      },
+      "responses": [
+        {
+          "english": "Number six.",
+          "phonetic": "ahtOO-noomahrAH",
+          "french": "Altı numara."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_bus_station_002",
+      "intent_en": "Ask if Metro Turizm has overnight to Istanbul",
+      "text_local": "Metro Turizm'in İstanbul'a gece seferi var mı?",
+      "pronunciation": "mehtrAW-toorihzmIHn-ihstahnbooAH-EHdzheh-sehfehrIH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Overnight bus services are common in Turkey, but schedules vary; staff will direct you to the company desk for exact information.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, her gece var.",
+        "pronunciation": "ehvEHthEHr-EHdzheh-vAHr",
+        "translation_en": "Yes, there is one every night."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is one every night.",
+          "phonetic": "ehvEHthEHr-EHdzheh-vAHr",
+          "french": "Evet, her gece var."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_bus_station_003",
+      "intent_en": "Ask if dolmuş to Kayaköy accepts card",
+      "text_local": "Kayaköy dolmuşu kredi kartı geçerli mi?",
+      "pronunciation": "kahyahkUHy-dawmooshUH-krehdIH-kahrtOO-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Dolmuşlarda ödeme yöntemi değişebilir; danışma veya şoför güncel bilgiyi verir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, nakit alıyor.",
+        "pronunciation": "hahyOOrnahkIHt-ahOOyawr",
+        "translation_en": "No, they take cash only."
+      },
+      "responses": [
+        {
+          "english": "No, they take cash only.",
+          "phonetic": "hahyOOrnahkIHt-ahOOyawr",
+          "french": "Hayır, nakit alıyor."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_bus_station_004",
+      "intent_en": "Ask which bay for Pamukkale to Denizli",
+      "text_local": "Denizli'ye Pamukkale ile gideceğim, hangi peron?",
+      "pronunciation": "pahmookahlehdAHn-dehnihzleeyEH-eedAHn-ohtohbUHs-hahngIH-pehrawndAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "In Turkish bus stations, bay assignments can change; staff often direct you to the information desk rather than guessing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Arkadaki peron 3.",
+        "pronunciation": "ahrkahdahkIH-pehrAWn-UEtsh",
+        "translation_en": "Platform 3 in the back."
+      },
+      "responses": [
+        {
+          "english": "Platform 3 in the back.",
+          "phonetic": "ahrkahdahkIH-pehrAWn-UEtsh",
+          "french": "Arkadaki peron 3."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_bus_station_005",
+      "intent_en": "Ask if dolmuş to Kayaköy accepts card",
+      "text_local": "Kayaköy dolmuşunda kart geçiyor mu?",
+      "pronunciation": "kahyahkUHy-dawmooshuhndAH-kAHrt-ehtshEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Dolmuş drivers in Turkey typically prefer cash, but policies can vary; staff can give you the most accurate information.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nakit alıyorlar, maalesef.",
+        "pronunciation": "nahkIHt-ahOOyawrahrmahahlehsEHf",
+        "translation_en": "They only take cash, unfortunately."
+      },
+      "responses": [
+        {
+          "english": "They only take cash, unfortunately.",
+          "phonetic": "nahkIHt-ahOOyawrahrmahahlehsEHf",
+          "french": "Nakit alıyorlar, maalesef."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_bus_station_006",
+      "intent_en": "Ask where çay ocağı is inside station",
+      "text_local": "Çay ocağı nerede?",
+      "pronunciation": "tshAHy-ohdzhahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Çay ocakları are common in Turkish bus stations, but their exact location within the station can vary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peronların başında.",
+        "pronunciation": "pehrawnahrOOn-bahshoondAH",
+        "translation_en": "At the beginning of the platforms."
+      },
+      "responses": [
+        {
+          "english": "At the beginning of the platforms.",
+          "phonetic": "pehrawnahrOOn-bahshoondAH",
+          "french": "Peronların başında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

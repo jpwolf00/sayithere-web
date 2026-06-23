@@ -1,0 +1,122 @@
+{
+  "id": "zurich_zurich_hauptbahnhof",
+  "name_en": "Zurich Hauptbahnhof",
+  "name_local": "Zürich HB",
+  "icon": "tram",
+  "lat": 47.3781008,
+  "lon": 8.5393635,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zurich_zurich_hauptbahnhof_001",
+      "intent_en": "Is there a post office inside?",
+      "text_local": "Gibt es hier eine Poststelle?",
+      "pronunciation": "EEpt-ehs-hEEr-EYEnuh-pAWstshtehluh",
+      "formality": "casual",
+      "cultural_note": "Swiss stations often host post offices; Bahnhofquai is a stable location cue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Bahnhofquai.",
+        "pronunciation": "yAHbAHnhawfkvEYE",
+        "translation_en": "Yes, Bahnhofquai."
+      },
+      "responses": [
+        {
+          "english": "Yes, Bahnhofquai.",
+          "phonetic": "yAHbAHnhawfkvEYE",
+          "french": "Ja, Bahnhofquai."
+        }
+      ]
+    },
+    {
+      "id": "zurich_zurich_hauptbahnhof_002",
+      "intent_en": "Where are the left luggage lockers?",
+      "text_local": "Wo sind die Schliessfächer?",
+      "pronunciation": "vOH-zihnt-dee-shlEEsfehkh",
+      "formality": "standard",
+      "cultural_note": "In Swiss stations, lockers are typically grouped near the main hall or lower levels; follow signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Untergeschoss bei ShopVille.",
+        "pronunciation": "ihm-UHntguhshAWs-beye-ehnshPdeh-vIHluh",
+        "translation_en": "In the underground level near ShopVille."
+      },
+      "responses": [
+        {
+          "english": "In the underground level near ShopVille.",
+          "phonetic": "ihm-UHntguhshAWs-beye-ehnshPdeh-vIHluh",
+          "french": "Im Untergeschoss bei ShopVille."
+        }
+      ]
+    },
+    {
+      "id": "zurich_zurich_hauptbahnhof_003",
+      "intent_en": "How do I upgrade my ZVV zone ticket?",
+      "text_local": "Wie aktualisiere ich meine ZVV-Zone?",
+      "pronunciation": "vee-AHktooAHleezEEruh-ihkh-mEYEnuh-tsEHtfOWfOWtsOHnuh",
+      "formality": "standard",
+      "cultural_note": "ZVV tickets require explicit zone updates; staff or machines assist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten oder Schalter.",
+        "pronunciation": "ahm-OWtohmAHtuhn-OHd-shAHlt",
+        "translation_en": "At machine or counter."
+      },
+      "responses": [
+        {
+          "english": "At machine or counter.",
+          "phonetic": "ahm-OWtohmAHtuhn-OHd-shAHlt",
+          "french": "Am Automaten oder Schalter."
+        }
+      ]
+    },
+    {
+      "id": "zurich_zurich_hauptbahnhof_004",
+      "intent_en": "Which platform for S2 to Airport?",
+      "text_local": "Auf welchem Gleis fährt der S2 zum Flughafen?",
+      "pronunciation": "owf-vEHlkhuhm-lEYEs-fEHrt-dehr-EHs-tsvEYE-tsuhm-flOOhahfuhn",
+      "formality": "standard",
+      "cultural_note": "SBB platforms are numbered; check displays for final confirmation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 4.",
+        "pronunciation": "lEYEs-fEEr",
+        "translation_en": "Platform 4."
+      },
+      "responses": [
+        {
+          "english": "Platform 4.",
+          "phonetic": "lEYEs-fEEr",
+          "french": "Gleis 4."
+        }
+      ]
+    },
+    {
+      "id": "zurich_zurich_hauptbahnhof_005",
+      "intent_en": "Where is the ShopVille entrance?",
+      "text_local": "Wo ist der Eingang zu ShopVille?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoo-ehnshPdeh-vIHluh",
+      "formality": "standard",
+      "cultural_note": "ShopVille is underground; signs direct from main hall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Unter der Haupthalle.",
+        "pronunciation": "UHnt-dehr-hOWptahluh",
+        "translation_en": "Under the main hall."
+      },
+      "responses": [
+        {
+          "english": "Under the main hall.",
+          "phonetic": "UHnt-dehr-hOWptahluh",
+          "french": "Unter der Haupthalle."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

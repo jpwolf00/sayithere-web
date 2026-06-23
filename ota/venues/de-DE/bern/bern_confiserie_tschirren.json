@@ -1,0 +1,100 @@
+{
+  "id": "bern_confiserie_tschirren",
+  "name_en": "Confiserie Tschirren",
+  "name_local": "Confiserie Tschirren",
+  "icon": "fork.knife",
+  "lat": 46.9478568,
+  "lon": 7.4487552,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bern_confiserie_tschirren_001",
+      "intent_en": "Gift wrap Bärlauchschoggi box",
+      "text_local": "Kann man die Bärlauchschoggi einpacken?",
+      "pronunciation": "kAHn-mahn-dee-bEHrlowkhshAWee-EYEnpAHkuhn",
+      "formality": "standard",
+      "cultural_note": "Gift wrapping is a paid service; staff mention price upfront.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, extra 3 Franken.",
+        "pronunciation": "yAHEHkstrah-drEYE-frAHngkuhn",
+        "translation_en": "Yes, extra 3 francs."
+      },
+      "responses": [
+        {
+          "english": "Yes, extra 3 francs.",
+          "phonetic": "yAHEHkstrah-drEYE-frAHngkuhn",
+          "french": "Ja, extra 3 Franken."
+        }
+      ]
+    },
+    {
+      "id": "bern_confiserie_tschirren_002",
+      "intent_en": "Order Truffes du Jour today",
+      "text_local": "Haben Sie heute Truffes du Jour?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-trUHfuhs-doo-yOOr",
+      "formality": "casual",
+      "cultural_note": "Seasonal items are usually visible in the display case unless sold out.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Schaufenster.",
+        "pronunciation": "yAHihm-shOWfehnst",
+        "translation_en": "Yes, in the display case."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the display case.",
+          "phonetic": "yAHihm-shOWfehnst",
+          "french": "Ja, im Schaufenster."
+        }
+      ]
+    },
+    {
+      "id": "bern_confiserie_tschirren_003",
+      "intent_en": "Queue at glass display counter",
+      "text_local": "Wo muss ich anstehen?",
+      "pronunciation": "vOH-mUHs-ihkh-AHnshtEHuhn",
+      "formality": "standard",
+      "cultural_note": "Queue forms naturally outside the narrow shop entrance; no organized line.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Schaufenster.",
+        "pronunciation": "fAWr-dehm-shOWfehnst",
+        "translation_en": "In front of the display case."
+      },
+      "responses": [
+        {
+          "english": "In front of the display case.",
+          "phonetic": "fAWr-dehm-shOWfehnst",
+          "french": "Vor dem Schaufenster."
+        }
+      ]
+    },
+    {
+      "id": "bern_confiserie_tschirren_004",
+      "intent_en": "Pay at Kasse register",
+      "text_local": "Wo ist die Kasse?",
+      "pronunciation": "vOH-ihst-dee-kAHsuh",
+      "formality": "standard",
+      "cultural_note": "Cash register is typically at the rear of the small shop.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am hinteren Schalter.",
+        "pronunciation": "ahm-hIHntuhruhn-shAHlt",
+        "translation_en": "At the counter in the back."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the back.",
+          "phonetic": "ahm-hIHntuhruhn-shAHlt",
+          "french": "Am hinteren Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

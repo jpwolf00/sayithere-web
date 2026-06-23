@@ -1,0 +1,101 @@
+{
+  "id": "strasbourg_grande_ile",
+  "name_en": "Grande Île",
+  "name_local": "Grande Île",
+  "icon": "building.2",
+  "lat": 48.582,
+  "lon": 7.7504,
+  "radius_m": 800,
+  "phrases": [
+    {
+      "id": "strasbourg_nbhd_grande_001",
+      "intent_en": "Ask about UNESCO status",
+      "text_local": "Pourquoi la Grande Île est-elle UNESCO ?",
+      "pronunciation": "poor-kwah lah grahn EEL eh-tel oo-neh-SKOH",
+      "formality": "polite",
+      "cultural_note": "The Grande Île (Large Island) is a UNESCO World Heritage Site. It's one of the largest preserved historic centers in Europe.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "wee, say klah-SAY oh pah-tree-MWAN mohn-DEE-al duh-PUY meel nuf sahn kah-truh-VAHN-deez-EE",
+          "french": "La Grande Île est célèbre parce qu’elle est classée au patrimoine mondial de l’UNESCO. Elle abrite la cathédrale Notre-Dame et des maisons à colombages typiques."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_grande_002",
+      "intent_en": "Ask about the main shopping street",
+      "text_local": "Quelle est la rue commerçante principale ?",
+      "pronunciation": "kel eh lah roo koh-mair-SAHNT pran-see-PAL",
+      "formality": "polite",
+      "cultural_note": "Rue des Hallebardes and Rue des Frères are the main shopping streets in the Grande Île.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The main shopping street here is rue de la République, between Place Bellecour and Place de la République.",
+          "phonetic": "",
+          "french": "La rue commerçante principale est la Rue des Hallebardes, ainsi que la Rue des Frères, où se trouvent de nombreuses boutiques."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_grande_003",
+      "intent_en": "Ask about the Rohan Quarter",
+      "text_local": "Où se trouve le quartier Rohan ?",
+      "pronunciation": "oo suh TROOV leh kar-TYAY roh-AHN",
+      "formality": "polite",
+      "cultural_note": "The Quartier Rohan is the elegant area around the Palais Rohan. It includes the three museums and the Fine Arts district.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The nearest stop is Langstross Grand Rue, lines A and D.",
+          "phonetic": "",
+          "french": "Le quartier Rohan se situe autour du Palais Rohan, près de la cathédrale, et abrite plusieurs musées."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_grande_004",
+      "intent_en": "Ask how to get to the German border",
+      "text_local": "Comment aller à la frontière allemande ?",
+      "pronunciation": "kuh-MAN ah-LAY ah lah fron-TYEHR al-mah-NEL",
+      "formality": "polite",
+      "cultural_note": "Strasbourg is on the French side, but Germany is visible across the Rhine. The border is just 10 minutes walk away.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The German border is just a ten-minute walk away. Cross the Rhine to reach Germany.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "La frontière allemande est à seulement dix minutes à pied. Traversez le Rhin pour rejoindre l'Allemagne."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "island",
+      "word_local": "l'île",
+      "pronunciation": "leel"
+    },
+    {
+      "word_en": "UNESCO",
+      "word_local": "UNESCO",
+      "pronunciation": "oo-neh-SKOH"
+    },
+    {
+      "word_en": "historic",
+      "word_local": "historique",
+      "pronunciation": "ees-toh-REEK"
+    },
+    {
+      "word_en": "border",
+      "word_local": "la frontière",
+      "pronunciation": "lah fron-TYEHR"
+    }
+  ]
+}

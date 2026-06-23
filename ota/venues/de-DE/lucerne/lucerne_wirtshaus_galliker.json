@@ -1,0 +1,56 @@
+{
+  "id": "lucerne_wirtshaus_galliker",
+  "name_en": "Wirtshaus Galliker",
+  "name_local": "Wirtshaus Galliker",
+  "icon": "fork.knife",
+  "lat": 47.052144,
+  "lon": 8.3058123,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "lucerne_wirtshaus_galliker_001",
+      "intent_en": "Ask how Fondue Chinoise service works here",
+      "text_local": "Wie funktioniert Fondue Chinoise hier?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-fawndUE-khEEnohIHsuh-hEEr",
+      "formality": "casual",
+      "cultural_note": "Fondue Chinoise wird in der Regel als Selbstbedienung am Tisch angeboten. Gäste nehmen sich selbst Fleisch aus dem Topf.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Selbstbedienung am Tisch.",
+        "pronunciation": "zEHlpstbuhdEEnuhng-ahm-tIHsh",
+        "translation_en": "Self-service at the table."
+      },
+      "responses": [
+        {
+          "english": "Self-service at the table.",
+          "phonetic": "zEHlpstbuhdEEnuhng-ahm-tIHsh",
+          "french": "Selbstbedienung am Tisch."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_wirtshaus_galliker_002",
+      "intent_en": "Ask if bill includes service charge",
+      "text_local": "Ist Bedienung in der Rechnung enthalten?",
+      "pronunciation": "ihst-buhdEEnuhng-ihn-dehr-rEHkhnuhng-ehnthAHltuhn",
+      "formality": "standard",
+      "cultural_note": "In Schweizer Restaurants ist die Bedienung meist nicht in der Rechnung inbegriffen. Trinkgeld wird separat erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, Bedienung nicht enthalten.",
+        "pronunciation": "nEYEnbuhdEEnuhng-nIHkht-ehnthAHltuhn",
+        "translation_en": "No, service not included."
+      },
+      "responses": [
+        {
+          "english": "No, service not included.",
+          "phonetic": "nEYEnbuhdEEnuhng-nIHkht-ehnthAHltuhn",
+          "french": "Nein, Bedienung nicht enthalten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

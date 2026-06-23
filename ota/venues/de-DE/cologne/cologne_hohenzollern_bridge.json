@@ -1,0 +1,100 @@
+{
+  "id": "cologne_hohenzollern_bridge",
+  "name_en": "Hohenzollern Bridge",
+  "name_local": "Hohenzollernbrücke",
+  "icon": "building.columns",
+  "lat": 50.9414376,
+  "lon": 6.9657041,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "cologne_hohenzollern_bridge_001",
+      "intent_en": "Where is the pedestrian walkway entrance",
+      "text_local": "Wo ist der Zugang zum Fußgängerweg?",
+      "pronunciation": "vOH-ihst-dehr-tsOOahng-tsuhm-fUHsehngvEHk",
+      "formality": "standard",
+      "cultural_note": "Fußgängerwege sind oft am Ende oder seitlich der Gleise markiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bahnsteigende.",
+        "pronunciation": "ahm-bAHnsteyeuhnduh",
+        "translation_en": "At the end of the platform."
+      },
+      "responses": [
+        {
+          "english": "At the end of the platform.",
+          "phonetic": "ahm-bAHnsteyeuhnduh",
+          "french": "Am Bahnsteigende."
+        }
+      ]
+    },
+    {
+      "id": "cologne_hohenzollern_bridge_002",
+      "intent_en": "Which way to the Deutz station exit",
+      "text_local": "Wo geht es zum Ausgang nach Deutz?",
+      "pronunciation": "vOH-EHt-ehs-tsuhm-OWsAHng-nahkh-dAWuhts",
+      "formality": "standard",
+      "cultural_note": "Ausgänge nach Deutz sind durch Schilder klar markiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rechts halten, dann die Treppe runter.",
+        "pronunciation": "rEHkhts-hAHltuhndahn-dee-trEHpuh-rUHnt",
+        "translation_en": "Keep right, then down the stairs."
+      },
+      "responses": [
+        {
+          "english": "Keep right, then down the stairs.",
+          "phonetic": "rEHkhts-hAHltuhndahn-dee-trEHpuh-rUHnt",
+          "french": "Rechts halten, dann die Treppe runter."
+        }
+      ]
+    },
+    {
+      "id": "cologne_hohenzollern_bridge_003",
+      "intent_en": "Where do I buy a bike crossing ticket",
+      "text_local": "Wo bekomme ich ein Fahrradticket für die Brücke?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-eyen-fAHrahtIHkuht-fuer-dee-brUEkuh",
+      "formality": "casual",
+      "cultural_note": "Fahrradtickets werden meist an Schaltern oder Automaten verkauft.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten neben dem Aufgang.",
+        "pronunciation": "ahm-OWtohmAHtuhn-nEHbuhn-dehm-OWfgAHng",
+        "translation_en": "At the machine next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the machine next to the entrance.",
+          "phonetic": "ahm-OWtohmAHtuhn-nEHbuhn-dehm-OWfgAHng",
+          "french": "Am Automaten neben dem Aufgang."
+        }
+      ]
+    },
+    {
+      "id": "cologne_hohenzollern_bridge_004",
+      "intent_en": "Is the love locks viewing area open",
+      "text_local": "Ist die Liebesschlösser-Aussichtsplattform geöffnet?",
+      "pronunciation": "ihst-dee-lEEbehskhlUHsuhrOWszIHkhtsplahtfAWrm-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "In Deutschland wird die Öffnungszeit von öffentlichen Aussichtsbereichen oft mit 'geöffnet'/'geschlossen' angegeben, ohne zusätzliche Details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, sie ist geöffnet.",
+        "pronunciation": "yAHzee-ihst-uhUHfnuht",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "yAHzee-ihst-uhUHfnuht",
+          "french": "Ja, sie ist geöffnet."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

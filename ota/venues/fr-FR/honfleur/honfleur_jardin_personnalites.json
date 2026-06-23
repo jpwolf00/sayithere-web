@@ -1,0 +1,101 @@
+{
+  "id": "honfleur_jardin_personnalites",
+  "name_en": "Garden of Personalities",
+  "name_local": "Jardin des Personnalités",
+  "icon": "leaf",
+  "lat": 49.4192,
+  "lon": 0.2342,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "honfleur_jardin_001",
+      "intent_en": "Ask how to get to the garden from the harbour",
+      "text_local": "Comment aller au jardin depuis le port ?",
+      "pronunciation": "koh-MAHN ah-LAY oh zhar-DEHN duh-PWEE luh POR",
+      "formality": "polite",
+      "cultural_note": "The Jardin des Personnalités is a short walk along the waterfront from the Vieux Bassin.",
+      "responses": [
+        {
+          "english": "Walk along the quay, it's five minutes.",
+          "phonetic": "lohn-ZHAY luh KEH, seh ah sehnk mee-NOOT",
+          "french": "Longez le quai, c'est à cinq minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_jardin_002",
+      "intent_en": "Ask if there are benches to sit down",
+      "text_local": "Y a-t-il des bancs pour s'asseoir ?",
+      "pronunciation": "ee ah-TEEL day BAHN poor sah-SWAHR",
+      "formality": "polite",
+      "cultural_note": "The Jardin des Personnalités has benches along the waterfront with views of the estuary.",
+      "responses": [
+        {
+          "english": "Yes, along the promenade.",
+          "phonetic": "wee, luh LOHN duh lah proh-muh-NAD",
+          "french": "Oui, le long de la promenade."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_jardin_003",
+      "intent_en": "Ask if the garden is free to enter",
+      "text_local": "L'entrée de ce jardin est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY duh suh zhar-DAHN eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The Jardin des Personnalités is freely accessible and is a pleasant short detour from the Vieux Bassin. It is less well known than Honfleur's other attractions and is rarely crowded — a peaceful spot for a rest.",
+      "responses": [
+        {
+          "english": "Yes, it's free.",
+          "phonetic": "wee, seh grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_jardin_004",
+      "intent_en": "Ask for the garden's opening hours",
+      "text_local": "Le jardin est-il ouvert toute l'année ?",
+      "pronunciation": "luh zhar-DAHN eh-TEEL oo-VAIR TOOT lah-NAY",
+      "formality": "polite",
+      "cultural_note": "The garden is generally open year-round during daylight hours as a public space. In winter it is particularly tranquil and the bust sculptures are often dusted with frost — a different but equally evocative atmosphere.",
+      "responses": [
+        {
+          "english": "From 8 AM until dusk.",
+          "phonetic": "duh weet UHR ah lah tohm-BAY duh lah NWEE",
+          "french": "De huit heures à la tombée de la nuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "luh zhar-DAHN"
+    },
+    {
+      "word_en": "bust (sculpture)",
+      "word_local": "le buste",
+      "pronunciation": "luh BOOST"
+    },
+    {
+      "word_en": "explorer",
+      "word_local": "l'explorateur",
+      "pronunciation": "lex-ploh-rah-TUR"
+    },
+    {
+      "word_en": "free entry",
+      "word_local": "l'entrée gratuite",
+      "pronunciation": "lahn-TRAY grah-TWEET"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "davos_jakobshorn_mountain_peak",
+  "name_en": "Jakobshorn Mountain Peak",
+  "name_local": "Jakobshorn",
+  "icon": "leaf",
+  "lat": 46.772399,
+  "lon": 9.8493406,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "davos_jakobshorn_mountain_peak_001",
+      "intent_en": "Where is Bolgen super pipe entrance",
+      "text_local": "Wo ist der Eingang zur Bolgen Super Pipe?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoor-bAWluhn-zOOp-pEEpuh",
+      "formality": "standard",
+      "cultural_note": "Standard-Signage-Anweisung für alpine Infrastruktur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bolgen liegt unten an der Piste.",
+        "pronunciation": "bAWlguhn-lEEkt-UHntuhn-ahn-dehr-pIHstuh",
+        "translation_en": "Bolgen is down at the slope."
+      },
+      "responses": [
+        {
+          "english": "Bolgen is down at the slope.",
+          "phonetic": "bAWlguhn-lEEkt-UHntuhn-ahn-dehr-pIHstuh",
+          "french": "Bolgen liegt unten an der Piste."
+        }
+      ]
+    },
+    {
+      "id": "davos_jakobshorn_mountain_peak_002",
+      "intent_en": "Is equipment rental at base still open",
+      "text_local": "Hat die Basis-Ausrüstungsverleih noch offen?",
+      "pronunciation": "haht-dee-bAHzihsOWsrUEstuhngsflEYE-nawkh-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Kurze Antwort mit Zeitangabe üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis 17 Uhr.",
+        "pronunciation": "yAHbihs-zEEptsehn-OOr",
+        "translation_en": "Yes, until 5 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 5 PM.",
+          "phonetic": "yAHbihs-zEEptsehn-OOr",
+          "french": "Ja, bis 17 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "davos_jakobshorn_mountain_peak_003",
+      "intent_en": "Can I upgrade to chairlift pass here",
+      "text_local": "Kann ich hier den Sessellift-Pass upgraden?",
+      "pronunciation": "kAHn-ihkh-hEEr-dehn-zEHsuhlIHftpAHs-UHprahduhn",
+      "formality": "casual",
+      "cultural_note": "Direktantwort erwartet, keine Umschweife.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

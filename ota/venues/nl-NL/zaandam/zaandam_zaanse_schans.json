@@ -1,0 +1,34 @@
+{
+  "id": "zaandam_zaanse_schans",
+  "name_en": "Zaanse Schans",
+  "name_local": "Zaanse Schans",
+  "icon": "building.columns",
+  "lat": 52.4750534,
+  "lon": 4.8179761,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "zaandam_zaanse_schans_001",
+      "intent_en": "Where is the Zaans Museum ticket desk",
+      "text_local": "Waar is de kassa van het Zaans Museum?",
+      "pronunciation": "vAHr-ihs-duh-kAHsah-vahn-huht-zAHns-mUEzEHm",
+      "formality": "standard",
+      "cultural_note": "Counters are often positioned immediately inside main entrances for quick ticketing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de ingang, rechts.",
+        "pronunciation": "behih-duh-IHnghAHngrEHkhts",
+        "translation_en": "At the entrance, to the right."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, to the right.",
+          "phonetic": "behih-duh-IHnghAHngrEHkhts",
+          "french": "Bij de ingang, rechts."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

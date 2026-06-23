@@ -1,0 +1,106 @@
+{
+  "id": "toulouse_neighbourhood_carmes",
+  "name_en": "Carmes Quarter",
+  "name_local": "Quartier des Carmes",
+  "icon": "building.2",
+  "lat": 43.5999,
+  "lon": 1.4462,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "toulouse_carmes_001",
+      "intent_en": "Ask for a recommendation for a natural wine bar",
+      "text_local": "Pourriez-vous me recommander un bar à vins naturels dans le quartier des Carmes ?",
+      "pronunciation": "poo-RYAY-voo muh ruh-koh-mahn-DAY un BAR ah VAN nah-tyoo-REL dahn luh kar-TYAY day KARM",
+      "formality": "polite",
+      "cultural_note": "The Carmes is Toulouse's most bohemian neighbourhood, known for independent wine bars, vintage clothing, and artisan food shops.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "toulouse_carmes_002",
+      "intent_en": "Ask where the Carmes covered market is",
+      "text_local": "Où se trouve le marché couvert des Carmes ?",
+      "pronunciation": "oo suh TROOV luh mar-SHAY koo-VAIR day KARM",
+      "formality": "polite",
+      "cultural_note": "The Marché des Carmes is a charming covered market in the heart of this neighbourhood, open Tuesday to Sunday mornings.",
+      "responses": [
+        {
+          "english": "It's right behind Carmes square.",
+          "phonetic": "OO suh TROOV luh MAR-shay koo-VAIR duh KARM",
+          "french": "C'est juste derrière la place des Carmes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_carmes_003",
+      "intent_en": "Ask if the bookshop stocks local authors",
+      "text_local": "Est-ce que votre librairie propose des ouvrages d'auteurs locaux ?",
+      "pronunciation": "es-kuh VOH-truh lee-breh-REE proh-POHZ day oo-VRAZH doh-TUR loh-KOH",
+      "formality": "polite",
+      "cultural_note": "The Carmes is home to independent bookshops specialising in local history, Occitan literature, and rare editions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "toulouse_carmes_004",
+      "intent_en": "Ask if there is a vegetarian restaurant nearby",
+      "text_local": "Y a-t-il un restaurant végétarien à proximité ?",
+      "pronunciation": "ee-ah-TEEL un res-toh-RAHN vay-zhay-tah-RYAN ah proks-ee-mee-TAY",
+      "formality": "polite",
+      "cultural_note": "The Carmes has a growing number of plant-based and vegetarian restaurants reflecting Toulouse's young and diverse food culture.",
+      "responses": [
+        {
+          "english": "Yes, Le Potager restaurant is fifty meters from here.",
+          "phonetic": "ee ah-TEEL uhn res-toh-RAHN vej-eh-TAIR-yen ah prohk-see-mee-TAY",
+          "french": "Oui, le restaurant Le Potager se trouve à cinquante mètres d'ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_carmes_005",
+      "intent_en": "Ask what time the market finishes on Sunday",
+      "text_local": "À quelle heure se termine le marché le dimanche ?",
+      "pronunciation": "ah kel ur suh tair-MEEN luh mar-SHAY luh dee-MAHNSH",
+      "formality": "polite",
+      "cultural_note": "Markets in Toulouse generally close between 1 and 2 pm on Sundays; arrive before noon for the best selection.",
+      "responses": [
+        {
+          "english": "The market closes at 2 PM on Sunday.",
+          "phonetic": "ah kel UR suh tehr-MEEN luh MAR-shuh luh dee-MAHNSH",
+          "french": "Le marché ferme à quatorze heures le dimanche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "natural wine",
+      "word_local": "le vin naturel",
+      "pronunciation": "luh VAN nah-tyoo-REL"
+    },
+    {
+      "word_en": "covered market",
+      "word_local": "le marché couvert",
+      "pronunciation": "luh mar-SHAY koo-VAIR"
+    },
+    {
+      "word_en": "bookshop",
+      "word_local": "la librairie",
+      "pronunciation": "lah lee-breh-REE"
+    },
+    {
+      "word_en": "local authors",
+      "word_local": "les auteurs locaux",
+      "pronunciation": "lay-ZOH-TUR loh-KOH"
+    }
+  ]
+}

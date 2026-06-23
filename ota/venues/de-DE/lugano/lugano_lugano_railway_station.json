@@ -1,0 +1,100 @@
+{
+  "id": "lugano_lugano_railway_station",
+  "name_en": "Lugano Railway Station",
+  "name_local": "Stazione di Lugano",
+  "icon": "tram",
+  "lat": 46.0054989,
+  "lon": 8.9468486,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lugano_lugano_railway_station_001",
+      "intent_en": "Ask when the next Gotthard train departs",
+      "text_local": "Wann fährt der nächste Gotthard-Zug?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-AWttahrttsOOk",
+      "formality": "standard",
+      "cultural_note": "Gotthard trains are prominently displayed; platform numbers are often omitted in announcements.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich am Gleis 5.",
+        "pronunciation": "lEYEkh-ahm-lEYEs-fUEnf",
+        "translation_en": "Right at platform 5."
+      },
+      "responses": [
+        {
+          "english": "Right at platform 5.",
+          "phonetic": "lEYEkh-ahm-lEYEs-fUEnf",
+          "french": "Gleich am Gleis 5."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lugano_railway_station_002",
+      "intent_en": "Ask if bus combined ticket works here",
+      "text_local": "Gilt das Bus-Zug-Ticket hier?",
+      "pronunciation": "IHlt-dahs-bUHstsOOktIHkuht-hEEr",
+      "formality": "casual",
+      "cultural_note": "Combined tickets are validated on regional TILO machines, not at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Automaten.",
+        "pronunciation": "yAHahm-OWtohmAHtuhn",
+        "translation_en": "Yes, at the machine."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the machine.",
+          "phonetic": "yAHahm-OWtohmAHtuhn",
+          "french": "Ja, am Automaten."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lugano_railway_station_003",
+      "intent_en": "Ask where the lake view platform is",
+      "text_local": "Wo ist der See-Aussichtsbereich?",
+      "pronunciation": "vOH-ihst-dee-zEHblihkplAHtfawrm",
+      "formality": "standard",
+      "cultural_note": "Italian-only signage dominates; 'Seeblick' is understood but Italian 'veduta lago' is on signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Oberhalb der Gleise.",
+        "pronunciation": "OHbhAHlp-dehr-glEYEzuh",
+        "translation_en": "Above the tracks."
+      },
+      "responses": [
+        {
+          "english": "Above the tracks.",
+          "phonetic": "OHbhAHlp-dehr-glEYEzuh",
+          "french": "Oberhalb der Gleise."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lugano_railway_station_004",
+      "intent_en": "Ask where the international ticket counter is",
+      "text_local": "Wo ist der internationale Schalter?",
+      "pronunciation": "vOH-ihst-dehr-IHntnahtsyOHnAHluh-shAHlt",
+      "formality": "standard",
+      "cultural_note": "Schalter is the common term for ticket counter in Swiss German environments.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hauptgebäude.",
+        "pronunciation": "ihm-hOWptuhbAWuhduh",
+        "translation_en": "In the main building."
+      },
+      "responses": [
+        {
+          "english": "In the main building.",
+          "phonetic": "ihm-hOWptuhbAWuhduh",
+          "french": "Im Hauptgebäude."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "linz_jindrak_confiserie",
+  "name_en": "Jindrak Confiserie",
+  "name_local": "Konditorei Jindrak",
+  "icon": "fork.knife",
+  "lat": 48.3059078,
+  "lon": 14.286198,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "linz_jindrak_confiserie_001",
+      "intent_en": "Is the Linzer Torte available today",
+      "text_local": "Haben Sie heute Linzer Torte?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-lIHnts-tAWrtuh",
+      "formality": "standard",
+      "cultural_note": "Ja/Nein-Fragen werden in deutschen Bäckereien/Konditoreien direkt beantwortet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "linz_jindrak_confiserie_002",
+      "intent_en": "Where is the gift wrap station",
+      "text_local": "Wo ist die Geschenkverpackung?",
+      "pronunciation": "vOH-EEpt-ehs-uhshEHngkfpAHkuhng",
+      "formality": "standard",
+      "cultural_note": "Geschenkverpackung wird in deutschen Konditoreien meist am Tresen angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter neben der Kasse.",
+        "pronunciation": "ahm-shAHlt-nEHbuhn-dehr-kAHsuh",
+        "translation_en": "At the counter next to the cash register."
+      },
+      "responses": [
+        {
+          "english": "At the counter next to the cash register.",
+          "phonetic": "ahm-shAHlt-nEHbuhn-dehr-kAHsuh",
+          "french": "Am Schalter neben der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "linz_jindrak_confiserie_003",
+      "intent_en": "Do I pay at the table or counter",
+      "text_local": "Wo wird bezahlt?",
+      "pronunciation": "vOH-vIHrt-buhtsAHlt",
+      "formality": "standard",
+      "cultural_note": "In deutschen Cafés ist Tischbedienung üblich; Selbstbedienung wird oft explizit angezeigt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch.",
+        "pronunciation": "ahm-tIHsh",
+        "translation_en": "At the table."
+      },
+      "responses": [
+        {
+          "english": "At the table.",
+          "phonetic": "ahm-tIHsh",
+          "french": "Am Tisch."
+        }
+      ]
+    },
+    {
+      "id": "linz_jindrak_confiserie_004",
+      "intent_en": "Where do I order pastries to-go",
+      "text_local": "Wo bestelle ich zum Mitnehmen?",
+      "pronunciation": "vOH-buhshtEHluh-ihkh-tsuhm-mIHtnEHmuhn",
+      "formality": "standard",
+      "cultural_note": "Bestellung am Tresen ist üblich für Takeaway in deutschen Konditoreien.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen.",
+        "pronunciation": "ahm-trEHzuhn",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-trEHzuhn",
+          "french": "Am Tresen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

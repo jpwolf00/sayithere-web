@@ -1,0 +1,100 @@
+{
+  "id": "maastricht_sint_servatius_bridge",
+  "name_en": "Sint-Servatius Bridge",
+  "name_local": "Sint Servaasbrug",
+  "icon": "building.columns",
+  "lat": 50.8494043,
+  "lon": 5.6955324,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "maastricht_sint_servatius_bridge_001",
+      "intent_en": "Ask where to pay at cafe on bridge end",
+      "text_local": "Waar kan ik betalen in het café aan het eind?",
+      "pronunciation": "vAHr-kahn-ihk-buhtAHluhn-ihn-huht-kahfEH-ahn-huht-EHihnt",
+      "formality": "standard",
+      "cultural_note": "In Nederlandse cafés wordt vaak direct aan het eind betaald.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Betaal bij de kassa aan het eind.",
+        "pronunciation": "buhtAHl-behih-duh-kAHsah-ahn-huht-EHihnt",
+        "translation_en": "Pay at the till at the end."
+      },
+      "responses": [
+        {
+          "english": "Pay at the till at the end.",
+          "phonetic": "buhtAHl-behih-duh-kAHsah-ahn-huht-EHihnt",
+          "french": "Betaal bij de kassa aan het eind."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_sint_servatius_bridge_002",
+      "intent_en": "Ask where the St. Servatius statue is",
+      "text_local": "Waar staat het standbeeld van Sint Servaas?",
+      "pronunciation": "vAHr-stAHt-huht-stAHndbehlt-vahn-sIHnt-sehrvAHs",
+      "formality": "standard",
+      "cultural_note": "Statuen zijn vaak goed aangegeven met borden in historische gebieden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar het standbeeld.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-huht-stAHndbehlt",
+        "translation_en": "Follow the signs to the statue."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the statue.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-huht-stAHndbehlt",
+          "french": "Volg de borden naar het standbeeld."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_sint_servatius_bridge_003",
+      "intent_en": "Ask which side to keep to for cyclists",
+      "text_local": "Welke kant moet ik houden voor fietsers?",
+      "pronunciation": "vEHlkuh-kAHnt-mOOt-ihk-hUHuhduhn-vawr-fEEtsuhrs",
+      "formality": "standard",
+      "cultural_note": "In Nederland is rechts houden een standaard verkeersregel op smalle paden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Houd rechts.",
+        "pronunciation": "hUHuht-rEHkhts",
+        "translation_en": "Keep right."
+      },
+      "responses": [
+        {
+          "english": "Keep right.",
+          "phonetic": "hUHuht-rEHkhts",
+          "french": "Houd rechts."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_sint_servatius_bridge_004",
+      "intent_en": "Ask where bike rental in Wyck is",
+      "text_local": "Waar is de fietsverhuur in Wyck?",
+      "pronunciation": "vAHr-ihs-duh-fEEtsfuhrhUEr-ihn-vIHk",
+      "formality": "standard",
+      "cultural_note": "In Nederland wordt vaak verwezen naar een balie of informatiepunt bij algemene vragen over voorzieningen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar de fietsverhuur bij de ingang van Wyck.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-duh-fEEtsfuhrhUEr-behih-duh-IHnghAHng-vahn-vIHk",
+        "translation_en": "Follow the signs to the bike rental at the entrance of Wyck."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the bike rental at the entrance of Wyck.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-duh-fEEtsfuhrhUEr-behih-duh-IHnghAHng-vahn-vIHk",
+          "french": "Volg de borden naar de fietsverhuur bij de ingang van Wyck."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

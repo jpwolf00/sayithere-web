@@ -1,0 +1,100 @@
+{
+  "id": "maastricht_stokstraat_shopping_street",
+  "name_en": "Stokstraat Shopping Street",
+  "name_local": "Stokstraat",
+  "icon": "bag",
+  "lat": 50.848496,
+  "lon": 5.6940719,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "maastricht_stokstraat_shopping_street_001",
+      "intent_en": "Ask what the card minimum is here",
+      "text_local": "Wat is de minimale kaartbetaling in deze winkelstraat?",
+      "pronunciation": "vaht-ihs-duh-mEEneemAHluh-kAHrtbuhtAHling-ihn-dEHzuh-vINGkuhlstrAHt",
+      "formality": "standard",
+      "cultural_note": "Small shops in European shopping streets often set minimum card payment amounts due to transaction fees.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meestal 10 euro bij kleine boetieks.",
+        "pronunciation": "mEHstAHl-tEEn-UHroh-behih-klEHihnuh-bootEEks",
+        "translation_en": "Usually 10 euros at small boutiques."
+      },
+      "responses": [
+        {
+          "english": "Usually 10 euros at small boutiques.",
+          "phonetic": "mEHstAHl-tEEn-UHroh-behih-klEHihnuh-bootEEks",
+          "french": "Meestal 10 euro bij kleine boetieks."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_stokstraat_shopping_street_002",
+      "intent_en": "Ask how long the changing room queue is",
+      "text_local": "Hoe lang is de pashokjes-wachtrij?",
+      "pronunciation": "hOO-lAHng-ihs-duh-pAHshawkyuhsvahkhtrEHih",
+      "formality": "casual",
+      "cultural_note": "Boutique changing rooms in European shopping streets often require in-store confirmation for queue length.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de winkel.",
+        "pronunciation": "vrAHkh-huht-behih-duh-vINGkuhl",
+        "translation_en": "Ask at the shop."
+      },
+      "responses": [
+        {
+          "english": "Ask at the shop.",
+          "phonetic": "vrAHkh-huht-behih-duh-vINGkuhl",
+          "french": "Vraag het bij de winkel."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_stokstraat_shopping_street_003",
+      "intent_en": "Ask if this antique dealer takes cash only",
+      "text_local": "Neemt de antiekhandelaar alleen contant?",
+      "pronunciation": "nEHm-tuh-AHnteekhahndEHlahr-ahlEHn-kawntAHnt",
+      "formality": "standard",
+      "cultural_note": "Antique dealers in historic city centers may prefer cash transactions due to traditional practices.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ja, alleen contant.",
+        "pronunciation": "yAHahlEHn-kawntAHnt",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "yAHahlEHn-kawntAHnt",
+          "french": "Ja, alleen contant."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_stokstraat_shopping_street_004",
+      "intent_en": "Ask where the tax-free forms are",
+      "text_local": "Waar zijn de taxfree-formulieren?",
+      "pronunciation": "vAHr-zehihn-duh-tahksfrEHfAWrmuelEEruhn",
+      "formality": "standard",
+      "cultural_note": "Tax-free forms are typically handed out at the point of purchase in European shopping areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de kassa.",
+        "pronunciation": "behih-duh-kAHsah",
+        "translation_en": "At the cash register."
+      },
+      "responses": [
+        {
+          "english": "At the cash register.",
+          "phonetic": "behih-duh-kAHsah",
+          "french": "Bij de kassa."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

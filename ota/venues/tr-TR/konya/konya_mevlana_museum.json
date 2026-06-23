@@ -1,0 +1,188 @@
+{
+  "id": "konya_mevlana_museum",
+  "name_en": "Mevlana Museum",
+  "name_local": "Mevlana Müzesi",
+  "icon": "building.columns",
+  "lat": 37.870962,
+  "lon": 32.5057106,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "konya_mevlana_museum_001",
+      "intent_en": "Where is the dervish lodge?",
+      "text_local": "Dervişlerin sema yaptığı yer neresi?",
+      "pronunciation": "dehrvIHsh-tehkehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The lodge may be part of the complex; staff can guide you best.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Türbenin solunda.",
+        "pronunciation": "tuhrbehnIHn-sohuhndAH",
+        "translation_en": "To the left of the tomb."
+      },
+      "responses": [
+        {
+          "english": "To the left of the tomb.",
+          "phonetic": "tuhrbehnIHn-sohuhndAH",
+          "french": "Türbenin solunda."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_museum_002",
+      "intent_en": "Do I remove shoes at the tomb?",
+      "text_local": "Türbede ayakkabı çıkarmam gerekiyor mu?",
+      "pronunciation": "tuhrbehdEH-ahyahkahbOO-tshookahrmAHm-ehrehkEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Removing shoes is a sign of respect in Islamic sacred spaces.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, türbe girişinde ayakkabılarınızı çıkarın.",
+        "pronunciation": "ehvEHttuhrbEH-eereeshihndEH-ahyahkahbooAHroonoozoo-tshookahrOOn",
+        "translation_en": "Yes, remove your shoes at the tomb entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, remove your shoes at the tomb entrance.",
+          "phonetic": "ehvEHttuhrbEH-eereeshihndEH-ahyahkahbooAHroonoozoo-tshookahrOOn",
+          "french": "Evet, türbe girişinde ayakkabılarınızı çıkarın."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_museum_003",
+      "intent_en": "Can I buy gifts at the exit shop?",
+      "text_local": "Çıkıştaki hediyelik eşya dükkanından alışveriş yapabilir miyim?",
+      "pronunciation": "tshookooshtahkIH-hehdeeyehlIHk-ehshyAH-duekahnoondAHn-ahooshvehrIHsh-yahpahbeelIHr-mEEyihm",
+      "formality": "casual",
+      "cultural_note": "The gift shop sells Mevlevi-themed items; availability may vary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, çıkıştaki hediyelik eşya dükkanı açık.",
+        "pronunciation": "ehvEHttshookooshtahkIH-hehdeeyehlIHk-ehshyAH-duekahnOO-ahtshOOk",
+        "translation_en": "Yes, the gift shop by the exit is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, the gift shop by the exit is open.",
+          "phonetic": "ehvEHttshookooshtahkIH-hehdeeyehlIHk-ehshyAH-duekahnOO-ahtshOOk",
+          "french": "Evet, çıkıştaki hediyelik eşya dükkanı açık."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_museum_004",
+      "intent_en": "Where is the Green Tomb?",
+      "text_local": "Yeşil Türbe nerede?",
+      "pronunciation": "yehshIHl-tuhrbEH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Directional signs may not be fully installed; asking staff is reliable.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Doğrudan önünüzde.",
+        "pronunciation": "dohroodAHn-UHnuenuhzdeh",
+        "translation_en": "It's straight ahead."
+      },
+      "responses": [
+        {
+          "english": "It's straight ahead.",
+          "phonetic": "dohroodAHn-UHnuenuhzdeh",
+          "french": "Doğrudan önünüzde."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_museum_005",
+      "intent_en": "Can I buy gifts at the exit shop?",
+      "text_local": "Çıkıştaki dükkandan hediyelik eşya alabilir miyim?",
+      "pronunciation": "tshookooshtahkIH-duekahndAHn-hehdeeyehlIHk-ehshyAH-ahahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Standard museum amenity; confirm opening hours with staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, hediyelik eşya dükkanı çıkışta.",
+        "pronunciation": "ehvEHthehdeeyehlIHk-ehshyAH-duekahnOO-tshookooshtAH",
+        "translation_en": "Yes, the gift shop is by the exit."
+      },
+      "responses": [
+        {
+          "english": "Yes, the gift shop is by the exit.",
+          "phonetic": "ehvEHthehdeeyehlIHk-ehshyAH-duekahnOO-tshookooshtAH",
+          "french": "Evet, hediyelik eşya dükkanı çıkışta."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_museum_006",
+      "intent_en": "Where do I check my bag?",
+      "text_local": "Çantamı nerede teslim edebilirim?",
+      "pronunciation": "tshahntahmOO-nEHrehdeh-tEHslihm-ehdehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Bag check is customary before entering sacred spaces.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Türbenin önünde emanet bölümü var.",
+        "pronunciation": "tuhrbehnIHn-uhnuhndEH-ehmahnEHt-bUHluemuh-vAHr",
+        "translation_en": "There is a bag check before the tomb."
+      },
+      "responses": [
+        {
+          "english": "There is a bag check before the tomb.",
+          "phonetic": "tuhrbehnIHn-uhnuhndEH-ehmahnEHt-bUHluemuh-vAHr",
+          "french": "Türbenin önünde emanet bölümü var."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_museum_007",
+      "intent_en": "Where is the dervish lodge?",
+      "text_local": "Mevlevi tekkesi nerede?",
+      "pronunciation": "mehvlehvIH-tehkehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The dervish lodge's exact location is unverified; staff can direct you accurately.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana binanın arkasında.",
+        "pronunciation": "ahnAH-beenahnOOn-ahrkahsoondAH",
+        "translation_en": "Behind the main building."
+      },
+      "responses": [
+        {
+          "english": "Behind the main building.",
+          "phonetic": "ahnAH-beenahnOOn-ahrkahsoondAH",
+          "french": "Ana binanın arkasında."
+        }
+      ]
+    },
+    {
+      "id": "konya_mevlana_museum_008",
+      "intent_en": "Where do I check my bag?",
+      "text_local": "Çantamı nerede emanet edebilirim?",
+      "pronunciation": "tshahntahmOO-nEHrehdeh-ehmahnEHt-ehdehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Bag check is mandatory before entering sacred areas; use 'emanet' for temporary storage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Türbe girişinden önce bagaj kontrolü var.",
+        "pronunciation": "tuhrbEH-eereeshihndAHn-UHndzheh-bahgAHzh-kawntrohlUH-vAHr",
+        "translation_en": "There is a bag check before the tomb entrance."
+      },
+      "responses": [
+        {
+          "english": "There is a bag check before the tomb entrance.",
+          "phonetic": "tuhrbEH-eereeshihndAHn-UHndzheh-bahgAHzh-kawntrohlUH-vAHr",
+          "french": "Türbe girişinden önce bagaj kontrolü var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

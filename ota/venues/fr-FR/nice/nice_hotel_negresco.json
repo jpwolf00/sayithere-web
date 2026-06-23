@@ -1,0 +1,118 @@
+{
+  "id": "nice_hotel_negresco",
+  "name_en": "Hôtel Negresco",
+  "name_local": "Hôtel Negresco",
+  "icon": "bed.double",
+  "lat": 43.6948,
+  "lon": 7.2627,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "nice_negresco_001",
+      "intent_en": "Ask if non-guests may visit the interior",
+      "text_local": "Est-il possible pour les non-résidents de visiter l'intérieur de l'hôtel ?",
+      "pronunciation": "eh-TEEL po-SEEBL poor lay non ray-ZEE-dan deh vee-zee-TAY lan-tay-RYUHR deh lo-TEL",
+      "formality": "polite",
+      "cultural_note": "The Negresco's public areas contain an extraordinary art collection. Non-guests may enter the lobby and Salon Royal.",
+      "responses": [
+        {
+          "english": "Yes, the lobby is open to visitors.",
+          "phonetic": "wee luh OHL eh too-VAIR oh veez-ee-TUR",
+          "french": "Oui, le hall est ouvert aux visiteurs."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_negresco_002",
+      "intent_en": "Ask if the hotel bar is open to non-guests",
+      "text_local": "Le bar de l'hôtel est ouvert aux visiteurs extérieurs ?",
+      "pronunciation": "luh BAR duh loh-TEL eh too-VAIR oh veez-ee-TUR ex-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "The Negresco's bar is open to non-guests and offers a chance to experience the hotel's lavish interior without booking a room.",
+      "responses": [
+        {
+          "english": "Yes, the bar is open to everyone.",
+          "phonetic": "wee luh BAR eh too-VAIR ah TOO",
+          "french": "Oui, le bar est ouvert à tous."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_negresco_003",
+      "intent_en": "Ask for a reservation at the Chantecler restaurant",
+      "text_local": "Souhaitez-vous me réserver une table au restaurant Le Chantecler ?",
+      "pronunciation": "sweh-TAY voo meh ray-sehr-VAY oon TAB-leh oh res-to-RAN leh shan-teh-KLEHR",
+      "formality": "polite",
+      "cultural_note": "Le Chantecler is the Negresco's gastronomic restaurant — one of the finest on the Riviera, with Michelin recognition.",
+      "responses": [
+        {
+          "english": "You need to reserve.",
+          "phonetic": "eel foh ray-zair-VAY",
+          "french": "Il faut réserver."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_negresco_004",
+      "intent_en": "Ask how much a room costs per night",
+      "text_local": "Quel est le tarif d'une chambre pour une nuit, s'il vous plaît ?",
+      "pronunciation": "kel eh leh tah-REEF doon SHAM-breh poor oon NWEE seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Negresco is one of France's grand historic palaces — rooms start at several hundred euros per night.",
+      "responses": [
+        {
+          "english": "Rates are on the website.",
+          "phonetic": "lay tah-REEF sohn soor luh SEET ahn-tair-NET",
+          "french": "Les tarifs sont sur le site internet."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_negresco_005",
+      "intent_en": "Ask how much afternoon tea costs",
+      "text_local": "C'est combien le thé de l'après-midi ?",
+      "pronunciation": "say kohm-BYAHN luh TAY duh lah-PRAY-mee-DEE",
+      "formality": "polite",
+      "cultural_note": "Afternoon tea at a grand hotel is a refined experience. Expect formal service with pastries, finger sandwiches and a selection of teas.",
+      "responses": [
+        {
+          "english": "Prices are posted at reception.",
+          "phonetic": "lay tah-REEF sohn tah-fee-SHAY ah lah-KUY",
+          "french": "Les tarifs sont affichés à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "palace hotel",
+      "word_local": "le palace",
+      "pronunciation": "leh pah-LAS"
+    },
+    {
+      "word_en": "dome",
+      "word_local": "le dôme",
+      "pronunciation": "leh DOHM"
+    },
+    {
+      "word_en": "historic monument",
+      "word_local": "le monument historique",
+      "pronunciation": "leh mo-noo-MAN ees-to-REEK"
+    },
+    {
+      "word_en": "gastronomic restaurant",
+      "word_local": "le restaurant gastronomique",
+      "pronunciation": "leh res-to-RAN gas-tro-no-MEEK"
+    }
+  ]
+}

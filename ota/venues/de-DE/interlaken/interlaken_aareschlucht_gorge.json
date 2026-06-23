@@ -1,0 +1,100 @@
+{
+  "id": "interlaken_aareschlucht_gorge",
+  "name_en": "Aareschlucht Gorge",
+  "name_local": "Aareschlucht",
+  "icon": "leaf",
+  "lat": 46.719876,
+  "lon": 8.21021,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "interlaken_aareschlucht_gorge_001",
+      "intent_en": "Ask where western entrance restaurant accepts cards",
+      "text_local": "Nimmt das Restaurant Karten?",
+      "pronunciation": "nIHmt-dahs-rEHstohrAH-kAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind bargeldlose Zahlungen in Restaurants üblich, aber nicht überall möglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Karten werden akzeptiert.",
+        "pronunciation": "yAHkAHrtuhn-vEHrduhn-AHktsehptEErt",
+        "translation_en": "Yes, cards accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, cards accepted.",
+          "phonetic": "yAHkAHrtuhn-vEHrduhn-AHktsehptEErt",
+          "french": "Ja, Karten werden akzeptiert."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_aareschlucht_gorge_002",
+      "intent_en": "Ask if suspension bridge is open",
+      "text_local": "Ist die Hängebrücke geöffnet?",
+      "pronunciation": "ihst-dee-hEHngehbrUEkuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Wetterabhängige Brücken können bei Eis, Sturm oder Wartung geschlossen sein.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, geöffnet.",
+        "pronunciation": "yAHuhUHfnuht",
+        "translation_en": "Yes, open."
+      },
+      "responses": [
+        {
+          "english": "Yes, open.",
+          "phonetic": "yAHuhUHfnuht",
+          "french": "Ja, geöffnet."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_aareschlucht_gorge_003",
+      "intent_en": "Ask where to buy train ticket to Aareschlucht Ost",
+      "text_local": "Wo gibt es Tickets nach Aareschlucht Ost?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-nahkh-AHrehshlUHkht-AWst",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Zugtickets meist an Schaltern oder Automaten erhältlich, oft auch online.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder am Automaten.",
+        "pronunciation": "ahm-shAHlt-OHd-ahm-OWtohmAHtuhn",
+        "translation_en": "At the counter or ticket machine."
+      },
+      "responses": [
+        {
+          "english": "At the counter or ticket machine.",
+          "phonetic": "ahm-shAHlt-OHd-ahm-OWtohmAHtuhn",
+          "french": "Am Schalter oder am Automaten."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_aareschlucht_gorge_004",
+      "intent_en": "Ask where eastern entrance bistro is",
+      "text_local": "Wo ist das Bistro am Ost-Eingang?",
+      "pronunciation": "vOH-ihst-dahs-bIHstroh-ahm-AWstEYEnAHng",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Eingänge oft zentral markiert und Bistro-Hinweise folgen der Beschilderung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ost-Eingang.",
+        "pronunciation": "ahm-AWstEYEnAHng",
+        "translation_en": "At the eastern entrance."
+      },
+      "responses": [
+        {
+          "english": "At the eastern entrance.",
+          "phonetic": "ahm-AWstEYEnAHng",
+          "french": "Am Ost-Eingang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

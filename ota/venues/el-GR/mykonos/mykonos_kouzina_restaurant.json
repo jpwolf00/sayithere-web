@@ -1,0 +1,122 @@
+{
+  "id": "mykonos_kouzina_restaurant",
+  "name_en": "Kouzina Restaurant",
+  "name_local": "Κουζίνα",
+  "icon": "fork.knife",
+  "lat": 35.1873585,
+  "lon": 25.7169224,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "mykonos_kouzina_restaurant_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι τα σπεσιαλιτέ της Αργυρώς Μπαρμπαρίγκου;",
+      "pronunciation": "pOO-vrEEskohdEH-tah-ehnsihrIHlihkEHf-sihrIHlihkIH-sihrIHlihkEHrehl-mEE-eeOHtah-tOHnohs-sEEghmah-eeOHt-AHlfah-pkhAHtah-tees-AHryeerOHz-bAHrbahyEEnggoo",
+      "formality": "standard",
+      "cultural_note": "Τα υπογεγραμμένα πιάτα γνωστών ελλήνων σεφ συχνά βρίσκονται υπό την επίβλεψη ειδικών υπευθύνων στον χώρο σερβιρίσματος.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον κατάλογο, κάτω από τα ψάρια.",
+        "pronunciation": "stohng-gahtAHlohghOHkAHtoh-ahpOH-tah-psAHreeAH",
+        "translation_en": "In the menu, with the local seafood."
+      },
+      "responses": [
+        {
+          "english": "In the menu, with the local seafood.",
+          "phonetic": "stohng-gahtAHlohghOHkAHtoh-ahpOH-tah-psAHreeAH",
+          "french": "Στον κατάλογο, κάτω από τα ψάρια."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_kouzina_restaurant_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς σερβίρεται το φρέσκο καλαμάρι;",
+      "pronunciation": "pOHs-sehrvEErehtEH-toh-frEHskoh-kAHlahmAHree",
+      "formality": "standard",
+      "cultural_note": "Το καλαμάρι στη Μεσόγειο συνήθως σερβίρεται τηγανητό ή ψητό, ανάλογα με την παραγγελία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον ξύλινο πιάτο με λεμόνι και σάλτσα.",
+        "pronunciation": "stohng-gzEEleenOH-pkhAHtoh-meh-lehmOHnee-keh-sAHltsah",
+        "translation_en": "Fried or grilled, as you prefer."
+      },
+      "responses": [
+        {
+          "english": "Fried or grilled, as you prefer.",
+          "phonetic": "stohng-gzEEleenOH-pkhAHtoh-meh-lehmOHnee-keh-sAHltsah",
+          "french": "Στον ξύλινο πιάτο με λεμόνι και σάλτσα."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_kouzina_restaurant_003",
+      "intent_en": "Ask if they take reservations for sunset tables",
+      "text_local": "Δέχονται κρατήσεις για τραπέζια στο ηλιοβασίλεμα;",
+      "pronunciation": "thEHkhohdEH-krahtEEseez-yAH-trahpEHzyah-stoh-EElyohvahsEElehmAH",
+      "formality": "standard",
+      "cultural_note": "Στην Ελλάδα, συχνά ζητείται προκαταβολή για κρατήσεις τραπεζιών κατά το ηλιοβασίλεμα λόγω μεγάλης ζήτησης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, με προκαταβολή.",
+        "pronunciation": "nEHmeh-prOHkahtAHvohlEE",
+        "translation_en": "Yes, with a deposit."
+      },
+      "responses": [
+        {
+          "english": "Yes, with a deposit.",
+          "phonetic": "nEHmeh-prOHkahtAHvohlEE",
+          "french": "Ναι, με προκαταβολή."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_kouzina_restaurant_004",
+      "intent_en": "Ask whether we should order family-style or individually",
+      "text_local": "Πώς γίνεται η παραγγελία: οικογενειακώς ή ατομικά;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-pAHrahnggehlEEahEEkohyEHnyahkOHs-ee-AHtohmeekAH",
+      "formality": "standard",
+      "cultural_note": "Τα ελληνικά μεζέ συνήθως μοιράζονται οικογενειακώς για να δοκιμάσουν όσο το δυνατόν περισσότερα πιάτα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Παραγγείλτε οικογενειακώς.",
+        "pronunciation": "pAHrahnggEElteh-EEkohyEHnyahkOHs",
+        "translation_en": "Order family-style."
+      },
+      "responses": [
+        {
+          "english": "Order family-style.",
+          "phonetic": "pAHrahnggEElteh-EEkohyEHnyahkOHs",
+          "french": "Παραγγείλτε οικογενειακώς."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_kouzina_restaurant_005",
+      "intent_en": "Ask if the local Mykonian cheese is in stock today",
+      "text_local": "Έχετε σήμερα τοπικό τυρί Μυκόνου;",
+      "pronunciation": "EHkhehtEH-sEEmehrAH-tOHpeekOH-teerEE-meekOHnoo",
+      "formality": "standard",
+      "cultural_note": "Τα τοπικά τυριά αποτελούν μέρος των ελληνικών μεζέδων και συχνά βρίσκονται διαθέσιμα βάση εποχής.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχουμε μυζήθρα και ξινοτύρι.",
+        "pronunciation": "nEHEHkhoomEH-meezEEthrah-keh-ksEEnohtEEree",
+        "translation_en": "Yes, we have fresh Mykonian myzithra and xinotyri cheese."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have fresh Mykonian myzithra and xinotyri cheese.",
+          "phonetic": "nEHEHkhoomEH-meezEEthrah-keh-ksEEnohtEEree",
+          "french": "Ναι, έχουμε μυζήθρα και ξινοτύρι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

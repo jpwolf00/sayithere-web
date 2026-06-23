@@ -1,0 +1,122 @@
+{
+  "id": "dresden_dresden_hauptbahnhof",
+  "name_en": "Dresden Hauptbahnhof",
+  "name_local": "Dresden Hauptbahnhof",
+  "icon": "tram",
+  "lat": 51.0403927,
+  "lon": 13.731467,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "dresden_dresden_hauptbahnhof_001",
+      "intent_en": "Where is the luggage storage?",
+      "text_local": "Wo ist die Gepäckaufbewahrung?",
+      "pronunciation": "vOH-ihst-dee-uhpEHkowfbEHvahrUHng",
+      "formality": "standard",
+      "cultural_note": "Luggage lockers are often near main exits in German train stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ausgang zur Prager Straße.",
+        "pronunciation": "ahm-OWsAHng-tsoor-prAH-shtrAHsuh",
+        "translation_en": "At the exit to Prager Straße."
+      },
+      "responses": [
+        {
+          "english": "At the exit to Prager Straße.",
+          "phonetic": "ahm-OWsAHng-tsoor-prAH-shtrAHsuh",
+          "french": "Am Ausgang zur Prager Straße."
+        }
+      ]
+    },
+    {
+      "id": "dresden_dresden_hauptbahnhof_002",
+      "intent_en": "How do I buy an S-Bahn ticket?",
+      "text_local": "Wie kaufe ich ein S-Bahn-Ticket?",
+      "pronunciation": "vee-kOWfuh-ihkh-eyen-EHsbAHntIHkuht",
+      "formality": "standard",
+      "cultural_note": "German regional trains like S-Bahn require pre-purchase tickets from machines or counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten vor der Fahrt.",
+        "pronunciation": "ahm-OWtohmAHtuhn-fAWr-dehr-fAHrt",
+        "translation_en": "At the ticket machine before boarding."
+      },
+      "responses": [
+        {
+          "english": "At the ticket machine before boarding.",
+          "phonetic": "ahm-OWtohmAHtuhn-fAWr-dehr-fAHrt",
+          "french": "Am Automaten vor der Fahrt."
+        }
+      ]
+    },
+    {
+      "id": "dresden_dresden_hauptbahnhof_003",
+      "intent_en": "When does my train depart from which platform?",
+      "text_local": "Wann fährt mein Zug ab und von welchem Gleis?",
+      "pronunciation": "vAHn-fEHrt-meyen-tsOOk-ahp-uhnt-fawn-vEHlkhuhm-lEYEs",
+      "formality": "standard",
+      "cultural_note": "Departure boards in German stations show both platform and time; staff can confirm if unclear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In zehn Minuten, Gleis vier.",
+        "pronunciation": "ihn-tsEHn-meenOOtuhnglEYEs-fEEr",
+        "translation_en": "In ten minutes, platform four."
+      },
+      "responses": [
+        {
+          "english": "In ten minutes, platform four.",
+          "phonetic": "ihn-tsEHn-meenOOtuhnglEYEs-fEEr",
+          "french": "In zehn Minuten, Gleis vier."
+        }
+      ]
+    },
+    {
+      "id": "dresden_dresden_hauptbahnhof_004",
+      "intent_en": "Where is the DB Reisezentrum desk?",
+      "text_local": "Wo ist das DB-Reisezentrum?",
+      "pronunciation": "vOH-ihst-dahs-dEHbEHrEYEzehtsEHntruhm",
+      "formality": "standard",
+      "cultural_note": "DB-Reisezentrum is typically a clearly marked counter area inside the main hall of larger German train stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Hauptgebäude.",
+        "pronunciation": "ahm-shAHlt-ihm-hOWptuhbAWuhduh",
+        "translation_en": "At the counter in the main building."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the main building.",
+          "phonetic": "ahm-shAHlt-ihm-hOWptuhbAWuhduh",
+          "french": "Am Schalter im Hauptgebäude."
+        }
+      ]
+    },
+    {
+      "id": "dresden_dresden_hauptbahnhof_005",
+      "intent_en": "Where is the Striezelmarkt entrance?",
+      "text_local": "Wo ist der Zugang zum Striezelmarkt?",
+      "pronunciation": "vOH-ihst-dehr-tsOOahng-tsuhm-shtrEEtsuhlmAHrkt",
+      "formality": "standard",
+      "cultural_note": "Striezelmarkt is a seasonal Christmas market in Dresden, with clear signage in winter months.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ausgang Wilsdruffer Vorstadt, dann links.",
+        "pronunciation": "OWsgAHng-vIHlsdruhf-fOHrshtAHtdahn-lINGks",
+        "translation_en": "Exit Wilsdruffer Vorstadt, then left."
+      },
+      "responses": [
+        {
+          "english": "Exit Wilsdruffer Vorstadt, then left.",
+          "phonetic": "OWsgAHng-vIHlsdruhf-fOHrshtAHtdahn-lINGks",
+          "french": "Ausgang Wilsdruffer Vorstadt, dann links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "trier_trier_central_station",
+  "name_en": "Trier Central Station",
+  "name_local": "Trier Hauptbahnhof",
+  "icon": "tram",
+  "lat": 49.7573788,
+  "lon": 6.6516162,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "trier_trier_central_station_001",
+      "intent_en": "Is the Flinkster bike station working now?",
+      "text_local": "Funktioniert die Flinkster-Station jetzt?",
+      "pronunciation": "fuhngktsyOHnEErt-dee-flINGkstshtahtsyOHn-yEHtst",
+      "formality": "standard",
+      "cultural_note": "Flinkster stations are typically self-service; operation depends on availability and staffed hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die Station ist geöffnet.",
+        "pronunciation": "yAHdee-shtahtsyOHn-ihst-uhUHfnuht",
+        "translation_en": "Yes, station is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, station is open.",
+          "phonetic": "yAHdee-shtahtsyOHn-ihst-uhUHfnuht",
+          "french": "Ja, die Station ist geöffnet."
+        }
+      ]
+    },
+    {
+      "id": "trier_trier_central_station_002",
+      "intent_en": "Where is Gleis 5 from the main hall?",
+      "text_local": "Wo ist Gleis 5?",
+      "pronunciation": "vOH-ihst-lEYEs-fUEnf",
+      "formality": "standard",
+      "cultural_note": "Platforms are accessed via the underpass; no central hall exists.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 5 ist im Untergeschoss links.",
+        "pronunciation": "glEYEs-fUEnf-ihst-ihm-UHntguhshAWs-lINGks",
+        "translation_en": "Track 5 is downstairs on the left."
+      },
+      "responses": [
+        {
+          "english": "Track 5 is downstairs on the left.",
+          "phonetic": "glEYEs-fUEnf-ihst-ihm-UHntguhshAWs-lINGks",
+          "french": "Gleis 5 ist im Untergeschoss links."
+        }
+      ]
+    },
+    {
+      "id": "trier_trier_central_station_003",
+      "intent_en": "Which exit for Porta Nigra from platform level?",
+      "text_local": "Welcher Ausgang zur Porta Nigra?",
+      "pronunciation": "vEHlkh-OWsAHng-tsoor-pAWrtah-nIHrah",
+      "formality": "standard",
+      "cultural_note": "Exits are signposted; Porta Nigra exit is labeled accordingly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Ausgang Porta Nigra ist geradeaus.",
+        "pronunciation": "dehr-OWsgAHng-pAWrtah-nIHgrah-ihst-guhrAHdehOWs",
+        "translation_en": "The Porta Nigra exit is straight ahead."
+      },
+      "responses": [
+        {
+          "english": "The Porta Nigra exit is straight ahead.",
+          "phonetic": "dehr-OWsgAHng-pAWrtah-nIHgrah-ihst-guhrAHdehOWs",
+          "french": "Der Ausgang Porta Nigra ist geradeaus."
+        }
+      ]
+    },
+    {
+      "id": "trier_trier_central_station_004",
+      "intent_en": "Where is the Reisezentrum queue ticket machine?",
+      "text_local": "Wo ist der Ticketautomat für die Reisezentrum-Schlange?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtOWtohmAHt-fuer-dee-rEYEzehtsEHntruhmshlAHnguh",
+      "formality": "standard",
+      "cultural_note": "Queue ticket dispensers are usually located near the Reisezentrum counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Automat steht direkt neben dem Eingang.",
+        "pronunciation": "dehr-OWtohmAHt-shtEHt-deerEHkt-nEHbuhn-dehm-EYEngAHng",
+        "translation_en": "The machine is right next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "The machine is right next to the entrance.",
+          "phonetic": "dehr-OWtohmAHt-shtEHt-deerEHkt-nEHbuhn-dehm-EYEngAHng",
+          "french": "Der Automat steht direkt neben dem Eingang."
+        }
+      ]
+    },
+    {
+      "id": "trier_trier_central_station_005",
+      "intent_en": "Does the Jugend BahnCard need passport at desk?",
+      "text_local": "Braucht die Jugend BahnCard einen Ausweis?",
+      "pronunciation": "brOWkht-dee-yOOuhnt-bAHn-kAHrt-EYEnuhn-OWsvEYEs",
+      "formality": "standard",
+      "cultural_note": "German railway cards typically require ID verification for minors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ein gültiger Ausweis ist nötig.",
+        "pronunciation": "yAHeyen-UEltih-OWsvEYEs-ihst-nUHtihkh",
+        "translation_en": "Yes, valid ID required."
+      },
+      "responses": [
+        {
+          "english": "Yes, valid ID required.",
+          "phonetic": "yAHeyen-UEltih-OWsvEYEs-ihst-nUHtihkh",
+          "french": "Ja, ein gültiger Ausweis ist nötig."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

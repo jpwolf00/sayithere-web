@@ -1,0 +1,118 @@
+{
+  "id": "paris_notre_dame",
+  "name_en": "Notre-Dame Cathedral",
+  "name_local": "Cathédrale Notre-Dame de Paris",
+  "icon": "building.columns",
+  "lat": 48.853,
+  "lon": 2.3499,
+  "radius_m": 220,
+  "phrases": [
+    {
+      "id": "paris_nd_001",
+      "intent_en": "Ask if cathedral entry is free today",
+      "text_local": "L'entrée de la cathédrale est gratuite aujourd'hui ?",
+      "pronunciation": "lan-TRAY duh lah kah-tay-DRAL eh gra-TWEET oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Main cathedral access is generally free; special areas or tours may require tickets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry is free today.",
+          "phonetic": "wee, lan-TRAY eh gra-TWEET oh-zhoor-DWEE",
+          "french": "Oui, l'entrée est gratuite aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "paris_nd_002",
+      "intent_en": "Ask if a reservation is recommended",
+      "text_local": "Vous conseillez une réservation pour entrer ?",
+      "pronunciation": "voo kon-say-YAY oon ray-zair-vah-SYON poor on-TRAY",
+      "formality": "polite",
+      "cultural_note": "Reservations can reduce waiting during peak hours even when entry is free.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, I recommend it to avoid the wait, especially on weekends.",
+          "phonetic": "wee, zhuh ruh-koh-MOND poor ay-vay-TAH lah-TONT, soo-TOOR luh vuh-kahn",
+          "french": "Oui, je recommande pour éviter l'attente, surtout le weekend."
+        }
+      ]
+    },
+    {
+      "id": "paris_nd_003",
+      "intent_en": "Ask where to queue for the towers",
+      "text_local": "La file pour les tours commence où ?",
+      "pronunciation": "lah feel poor lay toor koh-MONS oo",
+      "formality": "polite",
+      "cultural_note": "Tower access is separate from cathedral entry and can have different capacity limits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The line for the towers is on the other side, after the square.",
+          "phonetic": "lah feel poor lay toor eh duh loh-TR koh-TAY, ah-PRAY leh par-VEE",
+          "french": "La file pour les tours est de l'autre côté, après le parvis."
+        }
+      ]
+    },
+    {
+      "id": "paris_nd_004",
+      "intent_en": "Ask if there is elevator access",
+      "text_local": "Il y a un ascenseur pour les tours ?",
+      "pronunciation": "eel yah uhn ak-SAY ah-san-SUHR",
+      "formality": "polite",
+      "cultural_note": "Tower climbs are stair-heavy; confirm accessibility options with staff on arrival.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, tower access is by stairs only.",
+          "phonetic": "nohn, lahk-SEH oh toor eh oo-neek-MAHN par layz es-kah-lee-YAY",
+          "french": "Non, l'accès aux tours est uniquement par les escaliers."
+        }
+      ]
+    },
+    {
+      "id": "paris_nd_005",
+      "intent_en": "Ask if photos are allowed inside",
+      "text_local": "On peut prendre des photos à l'intérieur ?",
+      "pronunciation": "on puh PRON-dr des FOH-toh zah lan-tay-ree-UHR",
+      "formality": "polite",
+      "cultural_note": "Inside is active worship space—keep voice low and avoid flash during services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, without flash. Speak quietly during mass.",
+          "phonetic": "wee, sahn flash. par-LAY doo-SAHMN poh-DAHN lah mess",
+          "french": "Oui, sans flash. Parlez doucement pendant la messe."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah toor"
+    },
+    {
+      "word_en": "queue",
+      "word_local": "la file",
+      "pronunciation": "lah feel"
+    },
+    {
+      "word_en": "service/mass",
+      "word_local": "la messe",
+      "pronunciation": "lah mess"
+    }
+  ]
+}

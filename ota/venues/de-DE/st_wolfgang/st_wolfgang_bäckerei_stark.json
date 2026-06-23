@@ -1,0 +1,122 @@
+{
+  "id": "st_wolfgang_bäckerei_stark",
+  "name_en": "Bäckerei Stark",
+  "name_local": "Bäckerei Stark",
+  "icon": "fork.knife",
+  "lat": 49.0101692,
+  "lon": 10.6203803,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "st_wolfgang_bäckerei_stark_001",
+      "intent_en": "Are tongs available for picking rolls",
+      "text_local": "Gibt es Pinzetten für die Brötchen?",
+      "pronunciation": "EEpt-ehs-pihntsEHtuhn-fuer-dee-brUHtkhuhn",
+      "formality": "standard",
+      "cultural_note": "Self-service utensils like tongs are common in German bakeries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nehmen Sie welche.",
+        "pronunciation": "yAHnEHmuhn-zee-vEHlkhuh",
+        "translation_en": "Yes, take some."
+      },
+      "responses": [
+        {
+          "english": "Yes, take some.",
+          "phonetic": "yAHnEHmuhn-zee-vEHlkhuh",
+          "french": "Ja, nehmen Sie welche."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_bäckerei_stark_002",
+      "intent_en": "Is the evening discount after 6pm",
+      "text_local": "Gibt es ab 18 Uhr Rabatt?",
+      "pronunciation": "EEpt-ehs-ahp-AHkhtsehn-OOr-rAHbaht",
+      "formality": "standard",
+      "cultural_note": "German bakeries often offer discounts in the evening ('Feierabend-Rabatt').",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ab 18 Uhr.",
+        "pronunciation": "yAHahp-AHkhtsehn-OOr",
+        "translation_en": "Yes, after 6 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, after 6 PM.",
+          "phonetic": "yAHahp-AHkhtsehn-OOr",
+          "french": "Ja, ab 18 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_bäckerei_stark_003",
+      "intent_en": "Do you have Mohnbrötchen today",
+      "text_local": "Haben Sie heute Mohnbrötchen?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-mOHnbruhtkhuhn",
+      "formality": "standard",
+      "cultural_note": "Fresh bread and rolls are daily staples in German bakeries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die haben wir.",
+        "pronunciation": "yAHdee-hAHbuhn-veer",
+        "translation_en": "Yes, we do."
+      },
+      "responses": [
+        {
+          "english": "Yes, we do.",
+          "phonetic": "yAHdee-hAHbuhn-veer",
+          "french": "Ja, die haben wir."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_bäckerei_stark_004",
+      "intent_en": "Where do I pay for bread orders",
+      "text_local": "Wo bezahle ich meine Brotbestellung?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-mEYEnuh-brAWtbehshtEHluhng",
+      "formality": "standard",
+      "cultural_note": "Payment for baked goods typically occurs at a dedicated counter in German bakeries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Kasse.",
+        "pronunciation": "ahn-dehr-kAHsuh",
+        "translation_en": "At the register."
+      },
+      "responses": [
+        {
+          "english": "At the register.",
+          "phonetic": "ahn-dehr-kAHsuh",
+          "french": "An der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_bäckerei_stark_005",
+      "intent_en": "How does the roll stamp card work",
+      "text_local": "Wie funktioniert die Brötchen-Stempelkarte?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-dee-brUHtkhuhnshtEHmpuhlkAHrtuh",
+      "formality": "standard",
+      "cultural_note": "Stamp cards are common loyalty programs in German bakeries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "10 Stempel = ein Brötchen gratis.",
+        "pronunciation": "tsEHn-shtEHmpuhl-lEYEkh-eyen-brUHtkhuhn-rAHtihs",
+        "translation_en": "10 stamps = one roll free."
+      },
+      "responses": [
+        {
+          "english": "10 stamps = one roll free.",
+          "phonetic": "tsEHn-shtEHmpuhl-lEYEkh-eyen-brUHtkhuhn-rAHtihs",
+          "french": "10 Stempel = ein Brötchen gratis."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "amsterdam_de_wallen_red_light_district",
+  "name_en": "De Wallen Red Light District",
+  "name_local": "De Wallen",
+  "icon": "map",
+  "lat": 52.3734085,
+  "lon": 4.8982807,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "amsterdam_de_wallen_red_light_district_001",
+      "intent_en": "Ask if Sexmuseum takes cards",
+      "text_local": "Kun je hier pinnen?",
+      "pronunciation": "kN-yuh-hEEr-pIHnuhn",
+      "formality": "casual",
+      "cultural_note": "Card payments are accepted at most museums in Amsterdam.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, pinnen mogelijk.",
+        "pronunciation": "yAHpIHnuhn-mOHghuhluhk",
+        "translation_en": "Yes, card payment possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, card payment possible.",
+          "phonetic": "yAHpIHnuhn-mOHghuhluhk",
+          "french": "Ja, pinnen mogelijk."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

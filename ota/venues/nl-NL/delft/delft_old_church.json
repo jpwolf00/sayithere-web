@@ -1,0 +1,100 @@
+{
+  "id": "delft_old_church",
+  "name_en": "Old Church",
+  "name_local": "Oude Kerk",
+  "icon": "building.columns",
+  "lat": 52.0125957,
+  "lon": 4.355906,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "delft_old_church_001",
+      "intent_en": "Where is the leaning tower entrance",
+      "text_local": "Waar is de toreningang?",
+      "pronunciation": "vAHr-ihs-duh-tOHruhnINGahng",
+      "formality": "standard",
+      "cultural_note": "De toegang tot de toren is apart van de kerkruimte; borden wijzen de route.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar de toren.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-duh-tOHruhn",
+        "translation_en": "Follow the signs to the tower."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the tower.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-duh-tOHruhn",
+          "french": "Volg de borden naar de toren."
+        }
+      ]
+    },
+    {
+      "id": "delft_old_church_002",
+      "intent_en": "Can I buy tower tickets here",
+      "text_local": "Kan ik hier torentickets kopen?",
+      "pronunciation": "kahn-ihk-hEEr-tOHruhntIHkehts-kOHpuhn",
+      "formality": "standard",
+      "cultural_note": "Kaartjes voor de toren zijn verkrijgbaar bij de balie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de kerkbalie.",
+        "pronunciation": "yAHbehih-duh-kEHrkbahlEE",
+        "translation_en": "Yes, at the church desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the church desk.",
+          "phonetic": "yAHbehih-duh-kEHrkbahlEE",
+          "french": "Ja, bij de kerkbalie."
+        }
+      ]
+    },
+    {
+      "id": "delft_old_church_003",
+      "intent_en": "Where is Vermeer's grave",
+      "text_local": "Waar ligt Vermeers graf?",
+      "pronunciation": "vAHr-lIHkht-vuhrmIHrs-ghrAHf",
+      "formality": "standard",
+      "cultural_note": "Het graf van Vermeer is een bekend doel; medewerkers geven uitleg.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de gids of balie.",
+        "pronunciation": "vrAHkh-huht-behih-duh-ghIHts-awf-bahlEE",
+        "translation_en": "Ask the guide or desk for directions."
+      },
+      "responses": [
+        {
+          "english": "Ask the guide or desk for directions.",
+          "phonetic": "vrAHkh-huht-behih-duh-ghIHts-awf-bahlEE",
+          "french": "Vraag het bij de gids of balie."
+        }
+      ]
+    },
+    {
+      "id": "delft_old_church_004",
+      "intent_en": "Do I need to be quiet now",
+      "text_local": "Moet ik nu stil zijn?",
+      "pronunciation": "mOOt-ihk-nUE-stIHl-zehihn",
+      "formality": "standard",
+      "cultural_note": "Stilte is vereist tijdens kerkdiensten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, tijdens de dienst.",
+        "pronunciation": "yAHtEHihduhns-duh-dEEnst",
+        "translation_en": "Yes, during the service."
+      },
+      "responses": [
+        {
+          "english": "Yes, during the service.",
+          "phonetic": "yAHtEHihduhns-duh-dEEnst",
+          "french": "Ja, tijdens de dienst."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

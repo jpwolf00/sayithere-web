@@ -1,0 +1,56 @@
+{
+  "id": "chania_halidon_street",
+  "name_en": "Halidon Street",
+  "name_local": "Οδός Χαλιδόν",
+  "icon": "bag",
+  "lat": 35.5120831,
+  "lon": 24.0191544,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "chania_halidon_street_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Δέχονται μόνο μετρητά;",
+      "pronunciation": "tah-pAHnggee-thEHkhohdEH-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Στις παραδοσιακές αγορές, η χρήση μετρητών είναι συχνότερη λόγω των μικρών εμπόρων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Συνήθως όχι, αλλά σε μικρά μαγαζιά και πάγκους στην αγορά μόνο μετρητά.",
+        "pronunciation": "seenEEthohs-OHkheeahlAH-seh-meekrAH-mAHghahzyAH-keh-pAHnggoos-steen-AHghohrAH-mOHnoh-mEHtreetAH",
+        "translation_en": "Usually not, but in small shops and market stalls only cash."
+      },
+      "responses": [
+        {
+          "english": "Usually not, but in small shops and market stalls only cash.",
+          "phonetic": "seenEEthohs-OHkheeahlAH-seh-meekrAH-mAHghahzyAH-keh-pAHnggoos-steen-AHghohrAH-mOHnoh-mEHtreetAH",
+          "french": "Συνήθως όχι, αλλά σε μικρά μαγαζιά και πάγκους στην αγορά μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "chania_halidon_street_002",
+      "intent_en": "Do souvenir shops here accept bargaining?",
+      "text_local": "Μπορώ να παζαρέψω στα μαγαζιά της οδού Χαλιδών;",
+      "pronunciation": "bohrOH-nah-pAHzahrEHpsoh-stah-mAHghahzyAH-sooflyAHs",
+      "formality": "standard",
+      "cultural_note": "Στις παραδοσιακές αγορές, το παζάρι είναι συχνή πρακτική, ιδιαίτερα στα μαγαζιά σουφλιάς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι.",
+        "pronunciation": "OHkhee",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "OHkhee",
+          "french": "Όχι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

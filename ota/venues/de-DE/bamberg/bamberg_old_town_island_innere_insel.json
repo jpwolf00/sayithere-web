@@ -1,0 +1,100 @@
+{
+  "id": "bamberg_old_town_island_innere_insel",
+  "name_en": "Old Town Island (Innere Insel)",
+  "name_local": "Innere Inselstadt",
+  "icon": "map",
+  "lat": 49.8965422,
+  "lon": 10.8857531,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "bamberg_old_town_island_innere_insel_001",
+      "intent_en": "Where do river cruises board?",
+      "text_local": "Wo legen die Flusskreuzfahrten ab?",
+      "pronunciation": "vOH-lEHuhn-dee-flUHskrawuhtsfAHrtuhn-AHp",
+      "formality": "standard",
+      "cultural_note": "Ablegestellen für Bootsfahrten in Bamberg sind typischerweise an markanten Punkten wie Kirchen oder Plätzen. Keine Mikro-Navigation nötig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Anleger bei Obere Pfarre.",
+        "pronunciation": "ahm-AHnlEH-beye-OHbuhruh-pfAHruh",
+        "translation_en": "At the dock near Obere Pfarre."
+      },
+      "responses": [
+        {
+          "english": "At the dock near Obere Pfarre.",
+          "phonetic": "ahm-AHnlEH-beye-OHbuhruh-pfAHruh",
+          "french": "Am Anleger bei Obere Pfarre."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_old_town_island_innere_insel_002",
+      "intent_en": "Where can I buy cathedral tower tickets?",
+      "text_local": "Wo bekomme ich Turm-Tickets für den Dom?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-tUHuhmtIHkuhts-fuer-dehn-dOHm",
+      "formality": "casual",
+      "cultural_note": "Turm-Tickets für den Bamberger Dom werden meist an einer separaten Verkaufsstelle nahe des Doms verkauft. Keine Mikro-Navigation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Domschatzkammer-Stand.",
+        "pronunciation": "ahm-dAWmshahtskAHmshtAHnt",
+        "translation_en": "At the cathedral treasury booth."
+      },
+      "responses": [
+        {
+          "english": "At the cathedral treasury booth.",
+          "phonetic": "ahm-dAWmshahtskAHmshtAHnt",
+          "french": "Am Domschatzkammer-Stand."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_old_town_island_innere_insel_003",
+      "intent_en": "Is St. Michael church tower open now?",
+      "text_local": "Ist der Turm von St. Michael geöffnet?",
+      "pronunciation": "ihst-dehr-tUHuhm-fawn-EHstEHmIHkhahEHl-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Kirchtürme in Bamberg haben oft feste Öffnungszeiten, die an der Pforte oder online einsehbar sind. Direkte Antwort ohne Details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_old_town_island_innere_insel_004",
+      "intent_en": "Where is Tiefgarage Domplatz entrance?",
+      "text_local": "Wo ist der Eingang zur Tiefgarage Domplatz?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoor-tEEfahrAHzhuh-dAWmplahts",
+      "formality": "standard",
+      "cultural_note": "Parkhauszugänge sind in deutschen Innenstädten meist direkt am Platz oder an Hauptstraßen markiert. Keine spezifischen Gebäudeverweise nötig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Domplatz.",
+        "pronunciation": "ahm-dAWmplahts",
+        "translation_en": "At Domplatz."
+      },
+      "responses": [
+        {
+          "english": "At Domplatz.",
+          "phonetic": "ahm-dAWmplahts",
+          "french": "Am Domplatz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

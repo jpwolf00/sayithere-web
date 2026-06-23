@@ -1,0 +1,100 @@
+{
+  "id": "maastricht_céramique_cultural_district",
+  "name_en": "Céramique Cultural District",
+  "name_local": "Céramique",
+  "icon": "map",
+  "lat": 50.8444318,
+  "lon": 5.7015613,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "maastricht_céramique_cultural_district_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar is Charles Eyckpark?",
+      "pronunciation": "vAHr-ihs-shahrlEHs-EHihkpAHrk",
+      "formality": "standard",
+      "cultural_note": "Charles Eyckpark ligt centraal in het Céramique district naast het museum.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aan de overkant van het Bonnefantenmuseum.",
+        "pronunciation": "ahn-duh-OHvuhrkAHnt-vahn-huht-bAWnuhfAHntuhnmuezEHm",
+        "translation_en": "Across from the Bonnefantenmuseum."
+      },
+      "responses": [
+        {
+          "english": "Across from the Bonnefantenmuseum.",
+          "phonetic": "ahn-duh-OHvuhrkAHnt-vahn-huht-bAWnuhfAHntuhnmuezEHm",
+          "french": "Aan de overkant van het Bonnefantenmuseum."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_céramique_cultural_district_002",
+      "intent_en": "Where is the Bonnefanten Museum from here?",
+      "text_local": "Waar is het Bonnefanten Museum?",
+      "pronunciation": "vAHr-ihs-huht-bAWnuhfAHntuhn-mUEzEHm",
+      "formality": "standard",
+      "cultural_note": "In een open gebied zoals Céramique worden bezoekers naar vaste bestemmingen verwezen via algemene aanwijzingen, niet via exacte routes of adressen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar Bonnefanten.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-bAWnuhfAHntuhn",
+        "translation_en": "Follow the signs to Bonnefanten."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to Bonnefanten.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-bAWnuhfAHntuhn",
+          "french": "Volg de borden naar Bonnefanten."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_céramique_cultural_district_003",
+      "intent_en": "How do I register for a library card?",
+      "text_local": "Hoe kan ik me inschrijven voor een bibliotheekpas?",
+      "pronunciation": "hOO-kahn-ihk-muh-IHnskhrEHihvuhn-vawr-uhn-bIHbleeAWtehkpAHs",
+      "formality": "standard",
+      "cultural_note": "In Nederland wordt inschrijving bij openbare instellingen zoals een bibliotheek altijd bij de balie geregeld met een medewerker.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de bibliothecaris.",
+        "pronunciation": "vrAHkh-huht-behih-duh-bIHbleeAWtuhkAHrihs",
+        "translation_en": "Ask the librarian."
+      },
+      "responses": [
+        {
+          "english": "Ask the librarian.",
+          "phonetic": "vrAHkh-huht-behih-duh-bIHbleeAWtuhkAHrihs",
+          "french": "Vraag het bij de bibliothecaris."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_céramique_cultural_district_004",
+      "intent_en": "Is there bike rental near the Maas?",
+      "text_local": "Is er fietsverhuur dicht bij de Maas?",
+      "pronunciation": "ihs-uhr-fEEtsfuhrhUEr-dIHkht-behih-duh-mAHs",
+      "formality": "standard",
+      "cultural_note": "Fietsverhuur in Maastricht wordt vaak gekoppeld aan het treinstation als centrale hub, in plaats van exacte locaties langs de Maas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij het station aan de overkant.",
+        "pronunciation": "yAHbehih-huht-stahshAWn-ahn-duh-OHvuhrkAHnt",
+        "translation_en": "Yes, at the station across the street."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the station across the street.",
+          "phonetic": "yAHbehih-huht-stahshAWn-ahn-duh-OHvuhrkAHnt",
+          "french": "Ja, bij het station aan de overkant."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

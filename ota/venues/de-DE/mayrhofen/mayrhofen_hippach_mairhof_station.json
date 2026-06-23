@@ -1,0 +1,144 @@
+{
+  "id": "mayrhofen_hippach_mairhof_station",
+  "name_en": "Hippach-Mairhof Station",
+  "name_local": "Bahnhof Hippach-Mairhof",
+  "icon": "tram",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mayrhofen_hippach_mairhof_station_001",
+      "intent_en": "Which platform to Jenbach",
+      "text_local": "Auf welchem Gleis nach Jenbach?",
+      "pronunciation": "owf-vEHlkhuhm-lEYEs-nahkh-yEHnbahkh",
+      "formality": "standard",
+      "cultural_note": "Platform numbers are written on signs above the tracks; no underpass available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 2.",
+        "pronunciation": "lEYEs-tsvEYE",
+        "translation_en": "Track 2."
+      },
+      "responses": [
+        {
+          "english": "Track 2.",
+          "phonetic": "lEYEs-tsvEYE",
+          "french": "Gleis 2."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_mairhof_station_002",
+      "intent_en": "Where to buy bike transport ticket",
+      "text_local": "Wo bekomme ich den Fahrradmitnahme-Zuschlag?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dehn-fAHrahdmIHtnahmuhtsooshlAHk",
+      "formality": "casual",
+      "cultural_note": "Ticket for bike transport must be purchased before boarding; cashless payment preferred.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Beim Zugbegleiter direkt im Zug.",
+        "pronunciation": "beyem-tsOOgbehglEYEt-deerEHkt-ihm-tsOOk",
+        "translation_en": "From the train attendant directly on the train."
+      },
+      "responses": [
+        {
+          "english": "From the train attendant directly on the train.",
+          "phonetic": "beyem-tsOOgbehglEYEt-deerEHkt-ihm-tsOOk",
+          "french": "Beim Zugbegleiter direkt im Zug."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_mairhof_station_003",
+      "intent_en": "Where is bicycle parking",
+      "text_local": "Wo ist der Fahrradabstellplatz?",
+      "pronunciation": "vOH-ihst-dehr-fAHrahdAHpshtehlplAHts",
+      "formality": "standard",
+      "cultural_note": "Follow bicycle signs to the designated area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bahnhofseingang.",
+        "pronunciation": "ahm-bAHnhawfzEYEngahng",
+        "translation_en": "At the station entrance."
+      },
+      "responses": [
+        {
+          "english": "At the station entrance.",
+          "phonetic": "ahm-bAHnhawfzEYEngahng",
+          "french": "Am Bahnhofseingang."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_mairhof_station_004",
+      "intent_en": "When is next train to Mayrhofen",
+      "text_local": "Wann fährt der nächste Zug nach Mayrhofen?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-tsOOk-nahkh-mEYErhohfuhn",
+      "formality": "standard",
+      "cultural_note": "Departure times are displayed on the board; staff may confirm exact schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der nächste Zug fährt in zehn Minuten.",
+        "pronunciation": "dehr-nEHkhstuh-tsOOk-fEHrt-ihn-tsEHn-meenOOtuhn",
+        "translation_en": "The next train leaves in ten minutes."
+      },
+      "responses": [
+        {
+          "english": "The next train leaves in ten minutes.",
+          "phonetic": "dehr-nEHkhstuh-tsOOk-fEHrt-ihn-tsEHn-meenOOtuhn",
+          "french": "Der nächste Zug fährt in zehn Minuten."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_mairhof_station_005",
+      "intent_en": "Senior discount starts at what age",
+      "text_local": "Ab welchem Alter gibt es Seniorenrabatt?",
+      "pronunciation": "ahp-vEHlkhuhm-AHlt-EEpt-ehs-zEHnihOHruhnrAHbaht",
+      "formality": "standard",
+      "cultural_note": "Discount applies to travelers 60 and older; ID may be requested.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ab 60 Jahren.",
+        "pronunciation": "ahp-zEHkhtsihkh-yAHruhn",
+        "translation_en": "From 60 years."
+      },
+      "responses": [
+        {
+          "english": "From 60 years.",
+          "phonetic": "ahp-zEHkhtsihkh-yAHruhn",
+          "french": "Ab 60 Jahren."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_hippach_mairhof_station_006",
+      "intent_en": "Which platform to Mayrhofen",
+      "text_local": "Auf welchem Gleis nach Mayrhofen?",
+      "pronunciation": "owf-vEHlkhuhm-lEYEs-nahkh-mEYErhohfuhn",
+      "formality": "standard",
+      "cultural_note": "Platform numbers are written on signs above the tracks; no underpass available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 1.",
+        "pronunciation": "lEYEs-EYEns",
+        "translation_en": "Track 1."
+      },
+      "responses": [
+        {
+          "english": "Track 1.",
+          "phonetic": "lEYEs-EYEns",
+          "french": "Gleis 1."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "freiburg_augustiner_museum",
+  "name_en": "Augustiner Museum",
+  "name_local": "Augustinermuseum",
+  "icon": "building.columns",
+  "lat": 47.9938065,
+  "lon": 7.8532497,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "freiburg_augustiner_museum_001",
+      "intent_en": "Can I take photos in the church ruins?",
+      "text_local": "Darf ich in den Kirchenruinen fotografieren?",
+      "pronunciation": "dAHrf-ihkh-ihn-dehn-kIHrkhuhnrooEEnuhn-fOHtohrahfEEruhn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Museen gelten oft strenge Fotoregeln, besonders bei sensiblen historischen Orten wie Ruinen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, hier ist Fotografieren verboten.",
+        "pronunciation": "nEYEnhEEr-ihst-fOHtohrahfEEruhn-fehrbOHtuhn",
+        "translation_en": "No, photography is prohibited here."
+      },
+      "responses": [
+        {
+          "english": "No, photography is prohibited here.",
+          "phonetic": "nEYEnhEEr-ihst-fOHtohrahfEEruhn-fehrbOHtuhn",
+          "french": "Nein, hier ist Fotografieren verboten."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_augustiner_museum_002",
+      "intent_en": "Where do I buy the clock collection ticket?",
+      "text_local": "Wo kaufe ich das Ticket für die Uhrensammlung?",
+      "pronunciation": "vOH-kOWfuh-ihkh-dahs-tIHkuht-fuer-dee-OOruhnzAHmluhng",
+      "formality": "standard",
+      "cultural_note": "In deutschen Museen wird Ticketverkauf standardmäßig am Schalter oder Kiosk abgewickelt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Museumskasse.",
+        "pronunciation": "ahn-dehr-mOOzawuhmskAHsuh",
+        "translation_en": "At the museum ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the museum ticket counter.",
+          "phonetic": "ahn-dehr-mOOzawuhmskAHsuh",
+          "french": "An der Museumskasse."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_augustiner_museum_003",
+      "intent_en": "Where are the medieval sculptures?",
+      "text_local": "Wo finde ich die mittelalterlichen Skulpturen?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-mIHtuhlAHltlIHkhuhn-skuhlptOOruhn",
+      "formality": "standard",
+      "cultural_note": "Besucher erwarten oft eine klare Wegweisung zu thematischen Sammlungen, die als 'Saal' oder 'Galerie' bezeichnet wird.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Skulpturensaal im Hauptgebäude.",
+        "pronunciation": "ihm-skUHlptoorEHnzahl-ihm-hOWptuhbAWuhduh",
+        "translation_en": "In the sculpture hall in the main building."
+      },
+      "responses": [
+        {
+          "english": "In the sculpture hall in the main building.",
+          "phonetic": "ihm-skUHlptoorEHnzahl-ihm-hOWptuhbAWuhduh",
+          "french": "Im Skulpturensaal im Hauptgebäude."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_augustiner_museum_004",
+      "intent_en": "Is there an audio guide for the monastery?",
+      "text_local": "Gibt es einen Audioguide für das Kloster?",
+      "pronunciation": "EEpt-ehs-EYEnuhn-ehnAWdihUHuheyeddeh-fuer-dahs-klOHst",
+      "formality": "standard",
+      "cultural_note": "Audioguides sind in deutschen Museen weit verbreitet und werden oft am Eingang oder Infostand angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Infostand verfügbar.",
+        "pronunciation": "yAHahm-IHnfawstAHnt-fehrfUEkbahr",
+        "translation_en": "Yes, available at the info desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, available at the info desk.",
+          "phonetic": "yAHahm-IHnfawstAHnt-fehrfUEkbahr",
+          "french": "Ja, am Infostand verfügbar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "prague_lokál_dlouhááá",
+  "name_en": "Lokál Dlouhááá",
+  "name_local": "Lokál Dlouhááá",
+  "icon": "fork.knife",
+  "lat": 50.0906955,
+  "lon": 14.4257576,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "prague_lokál_dlouhááá_001",
+      "intent_en": "Where is the queue for a table",
+      "text_local": "Kde je fronta na stůl?",
+      "pronunciation": "kdEH-yeh-frOHntah-nAHstool",
+      "formality": "standard",
+      "cultural_note": "At busy times, you wait at the host stand to be seated, especially for the main dining area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U hostesky hned u vchodu.",
+        "pronunciation": "OO-hOHstehskee-hnEHd-OO-fkhOHdoo",
+        "translation_en": "At the hostess stand right by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the hostess stand right by the entrance.",
+          "phonetic": "OO-hOHstehskee-hnEHd-OO-fkhOHdoo",
+          "french": "U hostesky hned u vchodu."
+        }
+      ]
+    },
+    {
+      "id": "prague_lokál_dlouhááá_002",
+      "intent_en": "Is the open kitchen visible from communal tables",
+      "text_local": "Je z velkých společných stolů vidět do otevřené kuchyně?",
+      "pronunciation": "yeh-s-vEHlkeekh-spOHlehtshneekh-stOHloo-vEEeht-doh-OHtehvrEHneh-kOOkheenyeh",
+      "formality": "standard",
+      "cultural_note": "The open kitchen is a feature of the main room, allowing guests to watch the cooks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, odsud ji uvidíte.",
+        "pronunciation": "AHnohOHtsood-yEE-OOveeEEteh",
+        "translation_en": "Yes, you can see it from here."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can see it from here.",
+          "phonetic": "AHnohOHtsood-yEE-OOveeEEteh",
+          "french": "Ano, odsud ji uvidíte."
+        }
+      ]
+    },
+    {
+      "id": "prague_lokál_dlouhááá_003",
+      "intent_en": "Do I order drinks at the bar or table",
+      "text_local": "Objednávám pití u baru nebo u stolu?",
+      "pronunciation": "OHbyehdnAHvahm-pEEee-OO-bAHroo-nEHboh-OO-stOHloo",
+      "formality": "standard",
+      "cultural_note": "In many Czech pubs, especially those serving tank beer, you order drinks at the bar from the tapster (výčepní).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pivo a pití si objednáte přímo na baru.",
+        "pronunciation": "pEEvoh-ah-pEEee-see-OHbyehdnAHteh-prEEmoh-nAHbahroo",
+        "translation_en": "You order beer and drinks directly at the bar."
+      },
+      "responses": [
+        {
+          "english": "You order beer and drinks directly at the bar.",
+          "phonetic": "pEEvoh-ah-pEEee-see-OHbyehdnAHteh-prEEmoh-nAHbahroo",
+          "french": "Pivo a pití si objednáte přímo na baru."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

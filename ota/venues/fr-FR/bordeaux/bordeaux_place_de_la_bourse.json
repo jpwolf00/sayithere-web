@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_place_bourse",
+  "name_en": "Place de la Bourse & Miroir d'Eau",
+  "name_local": "Place de la Bourse & Miroir d'Eau",
+  "icon": "building.columns",
+  "lat": 44.8412,
+  "lon": -0.5691,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "bordeaux_bourse_001",
+      "intent_en": "Ask when the Miroir d'Eau mist cycle starts",
+      "text_local": "À quelle heure commence le brouillard du Miroir d'Eau ?",
+      "pronunciation": "ah kel ur koh-MAHNS luh broo-YAR doo mee-RWAHR doh",
+      "formality": "polite",
+      "cultural_note": "The Miroir d'Eau alternates between a shallow reflecting pool and a fog mist display roughly every 15 minutes in warm months.",
+      "responses": [
+        {
+          "english": "About every twenty minutes.",
+          "phonetic": "toot lay VEHN mee-NOOT ahn-vee-ROHN",
+          "french": "Toutes les vingt minutes environ."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_bourse_002",
+      "intent_en": "Ask someone to take a photo of you in front of the fountain",
+      "text_local": "Pourriez-vous me prendre en photo devant la fontaine, s'il vous plaît ?",
+      "pronunciation": "poo-RYAY-voo muh PRAHN-druh ahn foh-TOH duh-VAHN lah fohn-TEN seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Place de la Bourse is Bordeaux's most iconic landmark and a UNESCO World Heritage site.",
+      "responses": [
+        {
+          "english": "Yes, of course. Ready?",
+          "phonetic": "wee, byehn SOOR. PREH",
+          "french": "Oui, bien sûr. Prêt ?"
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_bourse_003",
+      "intent_en": "Ask if the Miroir d'Eau is in mist or water mode",
+      "text_local": "Est-ce que le Miroir d'Eau est en mode brouillard ou en mode miroir en ce moment ?",
+      "pronunciation": "es-kuh luh mee-RWAHR doh eh ahn mod broo-YAR oo ahn mod mee-RWAHR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The water feature cycles through modes seasonally; it is typically dry in winter.",
+      "responses": [
+        {
+          "english": "Right now, it's mist mode.",
+          "phonetic": "ahn suh moh-MAHN, seh luh MOD BROOM",
+          "french": "En ce moment, c'est le mode brume."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_bourse_004",
+      "intent_en": "Ask for directions to the quays along the Garonne",
+      "text_local": "Pourriez-vous m'indiquer les quais de la Garonne, s'il vous plaît ?",
+      "pronunciation": "poo-RYAY-voo mahn-dee-KAY lay KAY duh lah gah-RON seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The revitalised quays stretch along the Garonne and are popular for evening strolls and cycling.",
+      "responses": [
+        {
+          "english": "Walk along the quay to the right.",
+          "phonetic": "lohn-ZHAY luh KEH vehr lah DRWAHT",
+          "french": "Longez le quai vers la droite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_bourse_005",
+      "intent_en": "Ask what time the Miroir d'Eau closes for the season",
+      "text_local": "Jusqu'à quand fonctionne le Miroir d'Eau cette année ?",
+      "pronunciation": "zhoos-KAH KAHN fonk-SYOHN luh mee-RWAR DOH set ah-NAY",
+      "formality": "polite",
+      "cultural_note": "The Miroir d'Eau operates seasonally, typically from spring through autumn, and is turned off in winter.",
+      "responses": [
+        {
+          "english": "Until the end of October, normally.",
+          "phonetic": "zhoos-KAH fehn ok-TOBR, nor-mah-luh-MAHN",
+          "french": "Jusqu'à fin octobre, normalement."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "reflecting pool",
+      "word_local": "le miroir d'eau",
+      "pronunciation": "luh mee-RWAHR doh"
+    },
+    {
+      "word_en": "mist / fog",
+      "word_local": "le brouillard",
+      "pronunciation": "luh broo-YAR"
+    },
+    {
+      "word_en": "quay / embankment",
+      "word_local": "le quai",
+      "pronunciation": "luh KAY"
+    },
+    {
+      "word_en": "façade",
+      "word_local": "la façade",
+      "pronunciation": "lah fah-SAD"
+    }
+  ]
+}

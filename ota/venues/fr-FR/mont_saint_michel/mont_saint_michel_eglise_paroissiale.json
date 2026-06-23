@@ -1,0 +1,118 @@
+{
+  "id": "msm_eglise_paroissiale",
+  "name_en": "Parish Church of Mont Saint-Michel",
+  "name_local": "Église paroissiale Saint-Pierre",
+  "icon": "building.columns.fill",
+  "lat": 48.6353,
+  "lon": -1.511,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "msm_eglise_001",
+      "intent_en": "Ask if the church is open to visitors",
+      "text_local": "Est-ce que l'église est ouverte aux visiteurs en ce moment ?",
+      "pronunciation": "ess kuh lay-GLEEZ eh too-VAIR oh veez-ee-TUR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "Saint-Pierre is an active parish church, smaller and quieter than the abbey above. It is often overlooked by tourists, making it a peaceful alternative to the crowded abbey.",
+      "responses": [
+        {
+          "english": "Yes, come in.",
+          "phonetic": "wee ahn-TRAY",
+          "french": "Oui, entrez."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_eglise_002",
+      "intent_en": "Ask if there is a free guided visit",
+      "text_local": "Est-ce qu'il y a une visite guidée gratuite ?",
+      "pronunciation": "ess keel ee ah oon vee-ZEET gee-DAY grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Some parish churches offer free guided visits during peak season. Check the notice board at the entrance for scheduled times.",
+      "responses": [
+        {
+          "english": "No, but there is a leaflet at the entrance.",
+          "phonetic": "nohn may eel ee ah uhn day-plee-AHN ah lahn-TRAY",
+          "french": "Non, mais il y a un dépliant à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_eglise_003",
+      "intent_en": "Ask whether a mass is held today",
+      "text_local": "Y a-t-il une messe aujourd'hui dans cette église ?",
+      "pronunciation": "ee ah-TEEL oon MESS oh-zhoor-DWEE dahn set ay-GLEEZ",
+      "formality": "polite",
+      "cultural_note": "Mass schedules are posted on the church door. If a service is in progress, visitors are welcome to attend quietly but should avoid photography during the ceremony.",
+      "responses": [
+        {
+          "english": "Yes, at eleven o’clock.",
+          "phonetic": "wee ah OHNZ UR",
+          "french": "Oui, à onze heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_eglise_004",
+      "intent_en": "Ask if there is a donation box",
+      "text_local": "Où est le tronc pour les dons, s'il vous plaît ?",
+      "pronunciation": "oo eh luh TROHNK poor lay DOHN seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "French churches are free to enter but donations are appreciated for upkeep. Look for a small box (tronc) near the entrance or by the candles.",
+      "responses": [
+        {
+          "english": "Right next to the entrance.",
+          "phonetic": "zhoost ah koh-TAY duh lahn-TRAY",
+          "french": "Juste à côté de l'entrée."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_eglise_005",
+      "intent_en": "Ask to light a candle",
+      "text_local": "Puis-je allumer un cierge, s'il vous plaît ?",
+      "pronunciation": "pwee-zhuh ah-loo-MAY uhn SYAIRJ seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Lighting a votive candle (un cierge) is a common devotional practice in French Catholic churches. A small donation box is always nearby.",
+      "responses": [
+        {
+          "english": "Yes, the candles are over there.",
+          "phonetic": "wee lay SYAIRJ sohn lah-BAH",
+          "french": "Oui, les cierges sont là-bas."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "parish church",
+      "word_local": "l'église paroissiale",
+      "pronunciation": "lay-GLEEZ pah-rwah-SYAL"
+    },
+    {
+      "word_en": "mass",
+      "word_local": "la messe",
+      "pronunciation": "lah MESS"
+    },
+    {
+      "word_en": "candle",
+      "word_local": "le cierge",
+      "pronunciation": "luh SYAIRJ"
+    },
+    {
+      "word_en": "altar",
+      "word_local": "l'autel",
+      "pronunciation": "loh-TEL"
+    }
+  ]
+}

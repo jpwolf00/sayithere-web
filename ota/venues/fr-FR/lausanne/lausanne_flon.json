@@ -1,0 +1,98 @@
+{
+  "id": "lausanne_flon",
+  "name_en": "Flon District",
+  "name_local": "Le Flon",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "lausanne_fl_001",
+      "intent_en": "Ask where the nearest restaurant is",
+      "text_local": "Où est le restaurant le plus proche ?",
+      "pronunciation": "oo eh luh res-toh-RAHN luh ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "The Flon district is full of restaurants, bars, and cafes in converted warehouses.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are several in the area. Look around the square.",
+          "phonetic": "eel ee ahn ah plu-ZYUHR dahn luh kar-TYAY. ruh-gar-DAY oh-TOOR duh lah PLAHS",
+          "french": "Il y en a plusieurs dans le quartier. Regardez autour de la place."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_fl_002",
+      "intent_en": "Ask about the nightlife options",
+      "text_local": "Y a-t-il une vie nocturne animée ?",
+      "pronunciation": "ee-ah-TEEL un vee nok-TOOR-nuh ah-nee-MAY",
+      "formality": "polite",
+      "cultural_note": "The Flon has nightclubs, bars, live music venues, and restaurants. It's where young Lausanne locals go out.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the Flon is lively at night: bars, clubs, and concerts.",
+          "phonetic": "wee, luh FLOHN eh ah-nee-MAY luh SWAHR: bar, klub ay kohn-SAIR",
+          "french": "Oui, le Flon est animé le soir : bars, clubs et concerts."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_fl_003",
+      "intent_en": "Ask about the shopping options",
+      "text_local": "Y a-t-il des boutiques ?",
+      "pronunciation": "ee-ah-TEEL day boo-TEEK",
+      "formality": "polite",
+      "cultural_note": "The Flon has boutique shops, design stores, and the 'Mall of Lausanne' — a modern shopping center in a converted warehouse.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the Flon has boutique shops, design stores, and the 'Mall of Lausanne' shopping center.",
+          "phonetic": "",
+          "french": "Oui, le Flon abrite des boutiques de créateurs, des magasins de design et le centre commercial 'Mall of Lausanne'."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_fl_004",
+      "intent_en": "Ask about the metro access",
+      "text_local": "Quelle station de métro dessert le Flon ?",
+      "pronunciation": "kel stah-SYOHN duh may-TROH day-SAIR luh flor",
+      "formality": "polite",
+      "cultural_note": "The Flon is directly accessible via Metro M1 (Flon station). It's also walking distance from the central train station.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Flon station, line M1. Also walkable from the train station.",
+          "phonetic": "stah-SYON FLOHN, leen-yuh em UHN. say oh-SEE ah pyay duh-PWEE lah GAR",
+          "french": "Station Flon, ligne M1. C'est aussi à pied depuis la gare."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "warehouse district",
+      "word_local": "le quartier des entrepôts",
+      "pronunciation": "luh kar-TYAY day zon-truh-poh"
+    },
+    {
+      "word_en": "nightlife",
+      "word_local": "la vie nocturne",
+      "pronunciation": "lah vee nok-TOOR-nuh"
+    },
+    {
+      "word_en": "trendy",
+      "word_local": "branché",
+      "pronunciation": "bronn-SHAY"
+    },
+    {
+      "word_en": "bar / club",
+      "word_local": "le bar / la boîte",
+      "pronunciation": "luh bar / lah bwot"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "montreal_schwartz_deli",
+  "name_en": "Schwartz's Hebrew Delicatessen",
+  "name_local": "Chez Schwartz",
+  "icon": "fork.knife",
+  "lat": 45.5175,
+  "lon": -73.5817,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "mtl_sch_001",
+      "intent_en": "Ask how long the wait is",
+      "text_local": "C'est long l'attente ? On attend combien de temps ?",
+      "pronunciation": "say LON lah-TAHNT? on ah-TAH kom-bee-YAN duh TAH?",
+      "formality": "neutral",
+      "cultural_note": "Schwartz's has been open since 1928 and the lineup outside is legendary. The wait is usually worth it — and you'll often be seated with strangers.",
+      "responses": [
+        {
+          "english": "About thirty minutes.",
+          "phonetic": "ahn-vee-ROHN TRAHNT mee-NOOT",
+          "french": "Environ trente minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_sch_002",
+      "intent_en": "Order a smoked meat sandwich",
+      "text_local": "Je vais prendre un smoked meat sur rye, s'il vous plaît.",
+      "pronunciation": "zhuh veh PRAHN-druh un smohkt MEET soor RYE seel voo PLEH",
+      "formality": "neutral",
+      "cultural_note": "Montréal smoked meat is cured and smoked beef brisket, distinct from New York pastrami. Ordering it 'medium' fat is the classic choice.",
+      "responses": [
+        {
+          "english": "Coming right up.",
+          "phonetic": "sah ah-REEV too duh SWEET",
+          "french": "Ça arrive tout de suite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_sch_003",
+      "intent_en": "Ask what level of fat you want in your smoked meat",
+      "text_local": "Je le voudrais moyen en gras, s'il vous plaît.",
+      "pronunciation": "zhuh luh voo-DREH mwah-YAN ohn GRAH seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Smoked meat is ordered by fat content: lean (maigre), medium (moyen), or fatty (gras). Medium is the staff recommendation.",
+      "responses": [
+        {
+          "english": "Medium, lean or fat?",
+          "phonetic": "MEE-dee-uhm LEEN oo FAT",
+          "french": "Medium, lean ou fat ?"
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_sch_004",
+      "intent_en": "Ask for a side of pickles",
+      "text_local": "Est-ce que je peux avoir des cornichons en plus ?",
+      "pronunciation": "ess-KUH zhuh puh ah-VWAHR day kor-nee-SHON ahn PLOO",
+      "formality": "polite",
+      "cultural_note": "Schwartz's is famous for its half-sour pickles served alongside the smoked meat. They're included but asking for more is totally fine.",
+      "responses": [
+        {
+          "english": "Here you go.",
+          "phonetic": "vwah-LAH",
+          "french": "Voilà."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_sch_005",
+      "intent_en": "Ask for the bill",
+      "text_local": "L'addition, s'il vous plaît.",
+      "pronunciation": "lah-dee-SYON seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Schwartz's is cash-friendly and quick. The experience is part of Montréal culture — sit at the communal tables and enjoy the buzz.",
+      "responses": [
+        {
+          "english": "Right away.",
+          "phonetic": "too duh SWEET",
+          "french": "Tout de suite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "smoked meat",
+      "word_local": "le smoked meat / la viande fumée",
+      "pronunciation": "luh smohkt MEET / lah vee-YAHND foo-MAY"
+    },
+    {
+      "word_en": "rye bread",
+      "word_local": "le pain de seigle / le rye",
+      "pronunciation": "luh pan duh SAYGL / luh RYE"
+    },
+    {
+      "word_en": "pickles",
+      "word_local": "les cornichons",
+      "pronunciation": "lay kor-nee-SHON"
+    },
+    {
+      "word_en": "lineup / queue",
+      "word_local": "la file d'attente",
+      "pronunciation": "lah FEEL dah-TAHNT"
+    }
+  ]
+}

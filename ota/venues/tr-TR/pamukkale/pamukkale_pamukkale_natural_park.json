@@ -1,0 +1,122 @@
+{
+  "id": "pamukkale_pamukkale_natural_park",
+  "name_en": "Pamukkale Natural Park",
+  "name_local": "Pamukkale Tabiat Parkı",
+  "icon": "leaf",
+  "lat": 37.9200382,
+  "lon": 29.1217529,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "pamukkale_pamukkale_natural_park_001",
+      "intent_en": "Is the Hierapolis theatre walkable from here?",
+      "text_local": "Hierapolis tiyatrosu buradan yürüme mesafesinde mi?",
+      "pronunciation": "heeehrahpohlIHs-teeyahtrohsUH-bOOrahdahn-yuerUEmeh-mehsahfehsihndEH-mih",
+      "formality": "standard",
+      "cultural_note": "Without a fixed reference point for 'here', confirming walkability requires staff input.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, yaklaşık on dakika.",
+        "pronunciation": "ehvEHtyahkahshOOk-AWn-dahkeekAH",
+        "translation_en": "Yes, about ten minutes."
+      },
+      "responses": [
+        {
+          "english": "Yes, about ten minutes.",
+          "phonetic": "ehvEHtyahkahshOOk-AWn-dahkeekAH",
+          "french": "Evet, yaklaşık on dakika."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_natural_park_002",
+      "intent_en": "Where do I pay for parking at the lower gate?",
+      "text_local": "Alt kapıdaki otopark ücretini nerede ödeyeyim?",
+      "pronunciation": "AHt-kahpoodahkIH-ohtohpAHrk-uhdzhrehteenIH-nEHrehdeh-uhdehyehyIHm",
+      "formality": "standard",
+      "cultural_note": "Directing to staff is safest when the exact payment point is not specified in the venue details.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Girişteki görevliye ödeyin.",
+        "pronunciation": "eerihshtehkIH-uhrehvleeyEH-uhdehyIHn",
+        "translation_en": "Pay the attendant at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Pay the attendant at the entrance.",
+          "phonetic": "eerihshtehkIH-uhrehvleeyEH-uhdehyIHn",
+          "french": "Girişteki görevliye ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_natural_park_003",
+      "intent_en": "Where is the Cleopatra Pool entrance?",
+      "text_local": "Kleopatra Havuzu girişi nerede?",
+      "pronunciation": "klehohpahtrAH-hAHvoozuh-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish sites often rely on staff for directions rather than detailed signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Travertenlerin üstünde, sağ tarafta.",
+        "pronunciation": "trahvehrtahnlehrIHn-uhstuhndEHsAH-tahrahftAH",
+        "translation_en": "At the top of the travertines, on the right."
+      },
+      "responses": [
+        {
+          "english": "At the top of the travertines, on the right.",
+          "phonetic": "trahvehrtahnlehrIHn-uhstuhndEHsAH-tahrahftAH",
+          "french": "Travertenlerin üstünde, sağ tarafta."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_natural_park_004",
+      "intent_en": "Is the museum entry extra?",
+      "text_local": "Müze girişi ekstra ücretli mi?",
+      "pronunciation": "muezEH-eereeshIH-ehkstrAH-uhdzhrehtlIH-mih",
+      "formality": "standard",
+      "cultural_note": "At historical sites in Turkey, separate museum tickets are common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, müze girişi ek ücrete tabi.",
+        "pronunciation": "ehvEHtmuezEH-eereeshIH-EHk-UHdzhrehteh-tahbIH",
+        "translation_en": "Yes, museum entry is an additional charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, museum entry is an additional charge.",
+          "phonetic": "ehvEHtmuezEH-eereeshIH-EHk-UHdzhrehteh-tahbIH",
+          "french": "Evet, müze girişi ek ücrete tabi."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_natural_park_005",
+      "intent_en": "How do I reach the calcium carbonate formations?",
+      "text_local": "Kalsiyum karbonat oluşumlarına nasıl ulaşırım?",
+      "pronunciation": "kahsEEyuhm-kahrbohnAHt-ohooshuhmahroonAH-nahsOO-ooahshOOroom",
+      "formality": "standard",
+      "cultural_note": "The formations are synonymous with the main travertine terraces.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Beyaz terasları takip edin.",
+        "pronunciation": "behyAHz-tehrahsahrOO-tahkIHp-ehdEEn",
+        "translation_en": "Follow the white terraces."
+      },
+      "responses": [
+        {
+          "english": "Follow the white terraces.",
+          "phonetic": "behyAHz-tehrahsahrOO-tahkIHp-ehdEEn",
+          "french": "Beyaz terasları takip edin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

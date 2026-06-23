@@ -1,0 +1,100 @@
+{
+  "id": "české_budějovice_white_tower_pharmacy",
+  "name_en": "White Tower Pharmacy",
+  "name_local": "Lékárna Bílá věž",
+  "icon": "info.circle",
+  "lat": 48.9747357,
+  "lon": 14.474285,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "české_budějovice_white_tower_pharmacy_001",
+      "intent_en": "Where is the prescription counter",
+      "text_local": "Kde je výdej na recept?",
+      "pronunciation": "kdEH-yeh-vEEday-nAHrehtsehpt",
+      "formality": "standard",
+      "cultural_note": "Czech pharmacies typically have a separate, clearly marked prescription counter, often at the rear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vzadu za regály.",
+        "pronunciation": "vzAHdoo-zAHrehgAHlee",
+        "translation_en": "At the back, behind the shelves."
+      },
+      "responses": [
+        {
+          "english": "At the back, behind the shelves.",
+          "phonetic": "vzAHdoo-zAHrehgAHlee",
+          "french": "Vzadu za regály."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_white_tower_pharmacy_002",
+      "intent_en": "Do you stock Czech herbal teas",
+      "text_local": "Máte české bylinné čaje?",
+      "pronunciation": "mAHteh-tshEHskeh-bEEleeneh-tshAHyeh",
+      "formality": "standard",
+      "cultural_note": "Herbal teas are a staple in Czech pharmacies, often with a dedicated section.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, v uličce vlevo.",
+        "pronunciation": "AHnohv-OOleetshtseh-vlEHvoh",
+        "translation_en": "Yes, in the aisle on the left."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the aisle on the left.",
+          "phonetic": "AHnohv-OOleetshtseh-vlEHvoh",
+          "french": "Ano, v uličce vlevo."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_white_tower_pharmacy_003",
+      "intent_en": "Where to pay for souvenirs",
+      "text_local": "Kde zaplatím za suvenýry?",
+      "pronunciation": "kdEH-zAHplaheem-zah-sOOvehnEEree",
+      "formality": "standard",
+      "cultural_note": "In smaller shops and pharmacies, souvenir purchases are usually paid for at the main front counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tady u pultu.",
+        "pronunciation": "tAHdee-OO-pOOltoo",
+        "translation_en": "Here at the counter."
+      },
+      "responses": [
+        {
+          "english": "Here at the counter.",
+          "phonetic": "tAHdee-OO-pOOltoo",
+          "french": "Tady u pultu."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_white_tower_pharmacy_004",
+      "intent_en": "How to book the herbal consultation",
+      "text_local": "Jak si mohu objednat bylinnou konzultaci?",
+      "pronunciation": "yAHk-see-mOHhoo-OHbyehdnahd-bEEleenoh-kOHnzooltAHtsee",
+      "formality": "standard",
+      "cultural_note": "For specialized consultations in a pharmacy, it's common to book in person at the main counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Domluvte si termín u pokladny.",
+        "pronunciation": "dOHmloofteh-see-tEHrmeen-OO-pOHklahdnee",
+        "translation_en": "Arrange a time at the cash desk."
+      },
+      "responses": [
+        {
+          "english": "Arrange a time at the cash desk.",
+          "phonetic": "dOHmloofteh-see-tEHrmeen-OO-pOHklahdnee",
+          "french": "Domluvte si termín u pokladny."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

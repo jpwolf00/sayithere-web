@@ -1,0 +1,100 @@
+{
+  "id": "weimar_ilmpark_promenade",
+  "name_en": "Ilmpark Promenade",
+  "name_local": "Ilmpark",
+  "icon": "leaf",
+  "lat": 50.9735309,
+  "lon": 11.3351401,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "weimar_ilmpark_promenade_001",
+      "intent_en": "Where is the Star Bridge located?",
+      "text_local": "Wo ist die Sternbrücke?",
+      "pronunciation": "vOH-buhfIHnduht-zihkh-dee-shtEHrnbruekuh",
+      "formality": "standard",
+      "cultural_note": "Signage is common for bridges and landmarks in parks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Flussabwärts, nach der zweiten Brücke.",
+        "pronunciation": "flUHsahbvEHrtsnahkh-dehr-tsvEYEtuhn-brUEkuh",
+        "translation_en": "Downstream, after the second bridge."
+      },
+      "responses": [
+        {
+          "english": "Downstream, after the second bridge.",
+          "phonetic": "flUHsahbvEHrtsnahkh-dehr-tsvEYEtuhn-brUEkuh",
+          "french": "Flussabwärts, nach der zweiten Brücke."
+        }
+      ]
+    },
+    {
+      "id": "weimar_ilmpark_promenade_002",
+      "intent_en": "Where is the Roman House?",
+      "text_local": "Wie kommt man zum Römischen Haus?",
+      "pronunciation": "vOH-ihst-dahs-rUHmihshuh-hOWs",
+      "formality": "casual",
+      "cultural_note": "Directions typically refer to landmarks rather than exact coordinates in parks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Park, nah am Fluss.",
+        "pronunciation": "ihm-pAHrknAH-ahm-flUHs",
+        "translation_en": "In the park, near the river."
+      },
+      "responses": [
+        {
+          "english": "In the park, near the river.",
+          "phonetic": "ihm-pAHrknAH-ahm-flUHs",
+          "french": "Im Park, nah am Fluss."
+        }
+      ]
+    },
+    {
+      "id": "weimar_ilmpark_promenade_003",
+      "intent_en": "Which paths allow walking off-trail?",
+      "text_local": "Wo darf man abseits der Wege gehen?",
+      "pronunciation": "vOH-dAHrf-mahn-AHpzeyets-dehr-vEHuh-EHuhn",
+      "formality": "standard",
+      "cultural_note": "Park rules are often communicated via signage or staff warnings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bleiben Sie auf den markierten Wegen.",
+        "pronunciation": "blEYEbuhn-zee-owf-dehn-mahrkEErtuhn-vEHuhn",
+        "translation_en": "Stay on the marked paths."
+      },
+      "responses": [
+        {
+          "english": "Stay on the marked paths.",
+          "phonetic": "blEYEbuhn-zee-owf-dehn-mahrkEErtuhn-vEHuhn",
+          "french": "Bleiben Sie auf den markierten Wegen."
+        }
+      ]
+    },
+    {
+      "id": "weimar_ilmpark_promenade_004",
+      "intent_en": "Is parking free near Belvedere?",
+      "text_local": "Ist Parken am Belvedere kostenlos?",
+      "pronunciation": "ihst-pAHrkuhn-ahm-bEHlvehduhruh-kAWstuhnlOHs",
+      "formality": "standard",
+      "cultural_note": "Parking fees are typically verified at staff points or meters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, es ist kostenlos.",
+        "pronunciation": "yAHehsihst-kAWstuhnlOHs",
+        "translation_en": "Yes, it is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is free.",
+          "phonetic": "yAHehsihst-kAWstuhnlOHs",
+          "french": "Ja, es ist kostenlos."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

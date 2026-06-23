@@ -1,0 +1,56 @@
+{
+  "id": "the_hague_the_hague_city_center",
+  "name_en": "The Hague city center",
+  "name_local": "Centrum Den Haag",
+  "icon": "map",
+  "lat": 52.079157,
+  "lon": 4.3045934,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "the_hague_the_hague_city_center_001",
+      "intent_en": "Is the Mauritshuis ticket desk open",
+      "text_local": "Is de kassa van Mauritshuis open?",
+      "pronunciation": "ihs-duh-kAHsah-vahn-mUHuhrihtshUHues-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "Opening hours vary; staff confirm current status.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nu open.",
+        "pronunciation": "yAHnUE-OHpuhn",
+        "translation_en": "Yes, now open."
+      },
+      "responses": [
+        {
+          "english": "Yes, now open.",
+          "phonetic": "yAHnUE-OHpuhn",
+          "french": "Ja, nu open."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_city_center_002",
+      "intent_en": "How do I get to Scheveningen beach",
+      "text_local": "Hoe kom ik bij Scheveningen strand?",
+      "pronunciation": "hOO-kAWm-ihk-behih-skhEHvuhnINGuhn-strAHnt",
+      "formality": "casual",
+      "cultural_note": "Tram lines 1 and 9 terminate at Scheveningen; no further directions needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tram 1 of 9 naar eindpunt.",
+        "pronunciation": "trAHm-EHn-awf-nEHghuhn-nahr-EHihndpnt",
+        "translation_en": "Tram 1 or 9 to terminus."
+      },
+      "responses": [
+        {
+          "english": "Tram 1 or 9 to terminus.",
+          "phonetic": "trAHm-EHn-awf-nEHghuhn-nahr-EHihndpnt",
+          "french": "Tram 1 of 9 naar eindpunt."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

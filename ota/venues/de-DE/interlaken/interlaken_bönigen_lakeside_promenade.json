@@ -1,0 +1,100 @@
+{
+  "id": "interlaken_bönigen_lakeside_promenade",
+  "name_en": "Bönigen Lakeside Promenade",
+  "name_local": "Seepromenade Bönigen",
+  "icon": "map",
+  "lat": 46.6906144,
+  "lon": 7.8951225,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "interlaken_bönigen_lakeside_promenade_001",
+      "intent_en": "Ask where boat rental takes deposit",
+      "text_local": "Wo zahle ich die Kaution für die Bootsmiete?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dee-kowtsyOHn-fuer-dee-bOHtsmeetuh",
+      "formality": "standard",
+      "cultural_note": "Deposit handling is managed at the harbor master’s office as part of standard rental procedures.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hafen beim Hafenmeister.",
+        "pronunciation": "ahm-hAHfuhn-beyem-hAHfuhnmEYEst",
+        "translation_en": "At the harbor by the harbor master."
+      },
+      "responses": [
+        {
+          "english": "At the harbor by the harbor master.",
+          "phonetic": "ahm-hAHfuhn-beyem-hAHfuhnmEYEst",
+          "french": "Am Hafen beim Hafenmeister."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_bönigen_lakeside_promenade_002",
+      "intent_en": "Ask where BLS ferry ticket kiosk is",
+      "text_local": "Wo ist der BLS-Fährkiosk am Hafen?",
+      "pronunciation": "vOH-ihst-dehr-bEHEHlEHsfEHrkihOHsk-ahm-hAHfuhn",
+      "formality": "standard",
+      "cultural_note": "Directions reference the harbor master’s area as the central service point for ferry-related inquiries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hafen beim Schiffsführer.",
+        "pronunciation": "ahm-hAHfuhn-beyem-shIHfsfuer",
+        "translation_en": "At the harbor by the ferry captain."
+      },
+      "responses": [
+        {
+          "english": "At the harbor by the ferry captain.",
+          "phonetic": "ahm-hAHfuhn-beyem-shIHfsfuer",
+          "french": "Am Hafen beim Schiffsführer."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_bönigen_lakeside_promenade_003",
+      "intent_en": "Ask if café terrace seats need prepayment",
+      "text_local": "Muss ich vor dem Sitzen zahlen?",
+      "pronunciation": "mUHs-ihkh-fAWr-dehm-zIHtsuhn-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Swiss cafés often require payment before seating to secure tables, especially in summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor dem Platznehmen.",
+        "pronunciation": "yAHfAWr-dehm-plAHtsnehmuhn",
+        "translation_en": "Yes, before seating."
+      },
+      "responses": [
+        {
+          "english": "Yes, before seating.",
+          "phonetic": "yAHfAWr-dehm-plAHtsnehmuhn",
+          "french": "Ja, vor dem Platznehmen."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_bönigen_lakeside_promenade_004",
+      "intent_en": "Ask where harbor parking meter is",
+      "text_local": "Wo steht der Parkautomat am Hafen?",
+      "pronunciation": "vOH-shtEHt-dehr-pAHrkowtohmAHt-ahm-hAHfuhn",
+      "formality": "standard",
+      "cultural_note": "Parking meters in Swiss lakeside towns are typically located at the main parking area near the harbor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hafenparkplatz.",
+        "pronunciation": "ahm-hAHfuhnpAHrkplahts",
+        "translation_en": "At the harbor parking lot."
+      },
+      "responses": [
+        {
+          "english": "At the harbor parking lot.",
+          "phonetic": "ahm-hAHfuhnpAHrkplahts",
+          "french": "Am Hafenparkplatz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

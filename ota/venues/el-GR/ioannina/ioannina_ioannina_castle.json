@@ -1,0 +1,232 @@
+{
+  "id": "ioannina_ioannina_castle",
+  "name_en": "Ioannina Castle",
+  "name_local": "Κάστρο Ιωαννίνων",
+  "icon": "building.columns",
+  "lat": 39.6712812,
+  "lon": 20.8602346,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "ioannina_ioannina_castle_001",
+      "intent_en": "Where is the silversmithing workshop open now?",
+      "text_local": "Πού είναι το εργαστήριο αργυροτεχνίας που λειτουργεί τώρα;",
+      "pronunciation": "pOO-yEEnehtEH-ee-ehpEEtheeksEE-AHryeerOHtehkhnEEahs-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Το Μουσείο Αργυροτεχνίας περιλαμβάνει ζωντανές επιδείξεις αργυροτεχνίας εντός του χώρου του.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μέσα στο Μουσείο Αργυροτεχνίας.",
+        "pronunciation": "mEHsah-stoh-moosEEoh-AHryeerOHtehkhnEEahs",
+        "translation_en": "Inside the Silversmithing Museum."
+      },
+      "responses": [
+        {
+          "english": "Inside the Silversmithing Museum.",
+          "phonetic": "mEHsah-stoh-moosEEoh-AHryeerOHtehkhnEEahs",
+          "french": "Μέσα στο Μουσείο Αργυροτεχνίας."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_002",
+      "intent_en": "Where is Ali Pasha's tomb inside?",
+      "text_local": "Πού είναι ο τάφος του Αλή Πασά μέσα στο κάστρο;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-tAHfohs-too-ahlEE-pahsAH-mEHsah-stoh-kAHstroh",
+      "formality": "standard",
+      "cultural_note": "Ο τάφος του Αλή Πασά αποτελεί ένα από τα σημαντικότερα μνημεία εντός του Κάστρου Ιωαννίνων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο τζαμί Φεθιγέ.",
+        "pronunciation": "stoh-dzahmEE-fEHtheeyEH",
+        "translation_en": "At the Fethiye Mosque."
+      },
+      "responses": [
+        {
+          "english": "At the Fethiye Mosque.",
+          "phonetic": "stoh-dzahmEE-fEHtheeyEH",
+          "french": "Στο τζαμί Φεθιγέ."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_003",
+      "intent_en": "Where is the Its Kale citadel entrance",
+      "text_local": "Πού είναι η είσοδος στην Ακρόπολη της Ίτς Κάλε;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-steen-ahkrOHpohlEE-tees-EEts-kAHleh",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνήθως αναζητούν τον τρόπο πρόσβασης στην Ακρόπολη της Ιτς Κάλε, η οποία βρίσκεται στο ψηλότερο σημείο του Κάστρου Ιωαννίνων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ανεβαίνετε τη σκάλα δεξιά.",
+        "pronunciation": "AHnehvEHnehtEH-tee-skAHlah-thEHkseeAH",
+        "translation_en": "Go up the stairs on the right."
+      },
+      "responses": [
+        {
+          "english": "Go up the stairs on the right.",
+          "phonetic": "AHnehvEHnehtEH-tee-skAHlah-thEHkseeAH",
+          "french": "Ανεβαίνετε τη σκάλα δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_004",
+      "intent_en": "Is the silversmithing museum open today",
+      "text_local": "Είναι ανοιχτό σήμερα το Μουσείο Αργυροτεχνίας;",
+      "pronunciation": "EEneh-AHneekhtOH-sEEmehrAH-toh-moosEEoh-AHryeerOHtehkhnEEahs",
+      "formality": "standard",
+      "cultural_note": "Το Μουσείο Αργυροτεχνίας αποτελεί μέρος του Κάστρου Ιωαννίνων και λειτουργεί εντός του συγκροτήματος.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτό.",
+        "pronunciation": "nEHEEneh-AHneekhtOH",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "nEHEEneh-AHneekhtOH",
+          "french": "Ναι, είναι ανοιχτό."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_005",
+      "intent_en": "How do I buy the combined castle museum ticket",
+      "text_local": "Πώς αγοράζω το εισιτήριο συνδυαστικής επίσκεψης;",
+      "pronunciation": "pOHs-AHghohrAHzoh-toh-EEseetEEreeOH-sEEntheeAHsteeEEs-ehpEEsehpsEEs",
+      "formality": "standard",
+      "cultural_note": "Το εισιτήριο περιλαμβάνει πρόσβαση στο Κάστρο Ιωαννίνων και το Μουσείο Αργυροτεχνίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον Ταμία του Κάστρου.",
+        "pronunciation": "stohn-dahmEEah-too-kAHstroo",
+        "translation_en": "At the castle cashier."
+      },
+      "responses": [
+        {
+          "english": "At the castle cashier.",
+          "phonetic": "stohn-dahmEEah-too-kAHstroo",
+          "french": "Στον Ταμία του Κάστρου."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_006",
+      "intent_en": "Can I pay for coffee at Its Kale cafe",
+      "text_local": "Μπορώ να πληρώσω τον καφέ στην Ίτς Κάλε;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-tohng-gahfEH-steen-EEts-kAHleh",
+      "formality": "standard",
+      "cultural_note": "Το Its Kale αποτελεί μέρος του Κάστρου Ιωαννίνων όπου προσφέρονται υπηρεσίες εστίασης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον Ταμία.",
+        "pronunciation": "nEHstohn-dahmEEah",
+        "translation_en": "Yes, at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cashier.",
+          "phonetic": "nEHstohn-dahmEEah",
+          "french": "Ναι, στον Ταμία."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_007",
+      "intent_en": "Where do I rent the audio guide",
+      "text_local": "Πού είναι το γκισέ ενοικίασης ηχητικού οδηγού;",
+      "pronunciation": "pOO-neeAHzoh-ksEHnahghOHEEkheeteekOH-OHtheeghOH",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγοί βρίσκονται εντός του χώρου του Κάστρου Ιωαννίνων για ενοικίαση οδηγών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο, αριστερά.",
+        "pronunciation": "steen-EEsohthOHAHreestehrAH",
+        "translation_en": "At the entrance, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, on the left.",
+          "phonetic": "steen-EEsohthOHAHreestehrAH",
+          "french": "Στην είσοδο, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_008",
+      "intent_en": "Is the combined castle-museum ticket still sold?",
+      "text_local": "Πωλείται ακόμα το συνδυαστικό εισιτήριο Κάστρου-Μουσείου;",
+      "pronunciation": "pohlEEteh-ahkOHmah-toh-sEEntheeAHsteekOH-EEseetEEreeOH-kAHstroomoosEEoo",
+      "formality": "standard",
+      "cultural_note": "Το εισιτήριο περιλαμβάνει πρόσβαση στο Κάστρο Ιωαννίνων και το Μουσείο Αργυροτεχνίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον Ταμία.",
+        "pronunciation": "nEHstohn-dahmEEah",
+        "translation_en": "Yes, at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cashier.",
+          "phonetic": "nEHstohn-dahmEEah",
+          "french": "Ναι, στον Ταμία."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_009",
+      "intent_en": "Can I still enter the Fethiye Mosque?",
+      "text_local": "Μπορώ να εισέλθω στη Φετιχιέ Τζαμί;",
+      "pronunciation": "bohrOH-nah-eesEHlthoh-stee-fEHteekhEH-dzahmEE",
+      "formality": "standard",
+      "cultural_note": "Η Φετιχιέ Τζαμί αποτελεί μέρος του Κάστρου Ιωαννίνων και είναι ανοιχτή στους επισκέπτες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ελεύθερη είσοδος.",
+        "pronunciation": "nEHehlEHfthehrEE-EEsohthOHs",
+        "translation_en": "Yes, free access."
+      },
+      "responses": [
+        {
+          "english": "Yes, free access.",
+          "phonetic": "nEHehlEHfthehrEE-EEsohthOHs",
+          "french": "Ναι, ελεύθερη είσοδος."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_castle_010",
+      "intent_en": "How do I rent the audio guide here?",
+      "text_local": "Πώς ενοικιάζω ηχητικό οδηγό;",
+      "pronunciation": "pOHz-neeAHzoh-tohng-gzEHnahghOHEEkheeteekOH-OHtheeghOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγοί βρίσκονται εντός του χώρου του Κάστρου Ιωαννίνων για ενοικίαση οδηγών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο γκισέ ενοικίασης.",
+        "pronunciation": "stoh-geesEH-EHneeEEahsEEs",
+        "translation_en": "At the rental desk."
+      },
+      "responses": [
+        {
+          "english": "At the rental desk.",
+          "phonetic": "stoh-geesEH-EHneeEEahsEEs",
+          "french": "Στο γκισέ ενοικίασης."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

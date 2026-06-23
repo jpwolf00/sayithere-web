@@ -1,0 +1,78 @@
+{
+  "id": "interlaken_interlaken_tourist_information_center",
+  "name_en": "Interlaken Tourist Information Center",
+  "name_local": "Interlaken Tourismus",
+  "icon": "info.circle",
+  "lat": 46.6855231,
+  "lon": 7.8585139,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "interlaken_interlaken_tourist_information_center_001",
+      "intent_en": "Where to buy Bernese Oberland maps",
+      "text_local": "Wo kaufe ich Berner Oberland-Karten?",
+      "pronunciation": "vOH-kOWfuh-ihkh-bEHrn-OHblAHntkAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Karten und Broschüren werden typischerweise am Hauptauskunftsschalter oder Ticketschalter angeboten; spezifische regionale Karten sind oft am Schalter für Wanderinfos erhältlich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hier am Auskunftsschalter.",
+        "pronunciation": "hEEr-ahm-OWskuhnftskhAHlt",
+        "translation_en": "Here at the information counter."
+      },
+      "responses": [
+        {
+          "english": "Here at the information counter.",
+          "phonetic": "hEEr-ahm-OWskuhnftskhAHlt",
+          "french": "Hier am Auskunftsschalter."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_interlaken_tourist_information_center_002",
+      "intent_en": "How do I book paragliding tandem flight",
+      "text_local": "Wie buche ich einen Paragliding-Tandemflug?",
+      "pronunciation": "vee-bOOkhuh-ihkh-EYEnuhn-pAHrahlEEdingtAHndehmflOOk",
+      "formality": "standard",
+      "cultural_note": "Paragliding-Buchungen werden in Touristeninformationszentren oft über spezialisierte Gruppenbuchungsschalter abgewickelt, da es sich um organisierte Aktivitäten handelt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für Gruppenbuchungen.",
+        "pronunciation": "ahm-shAHlt-fuer-rUHpuhnbUHkhuhnguhn",
+        "translation_en": "At the group booking desk."
+      },
+      "responses": [
+        {
+          "english": "At the group booking desk.",
+          "phonetic": "ahm-shAHlt-fuer-rUHpuhnbUHkhuhnguhn",
+          "french": "Am Schalter für Gruppenbuchungen."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_interlaken_tourist_information_center_003",
+      "intent_en": "Where is rail pass validation counter",
+      "text_local": "Wo ist die Stempelstelle für Bahnpässe?",
+      "pronunciation": "vOH-ihst-dee-shtEHmpuhlshtEHluh-fuer-bAHnpehsuh",
+      "formality": "standard",
+      "cultural_note": "Bahnpass-Stempelstellen sind in der Schweiz meist an Hauptticketschaltern oder speziellen Servicepunkten für Reiseunterlagen zu finden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Beraterschalter.",
+        "pronunciation": "ahm-buhrAHtshAHlt",
+        "translation_en": "At the advisor's counter."
+      },
+      "responses": [
+        {
+          "english": "At the advisor's counter.",
+          "phonetic": "ahm-buhrAHtshAHlt",
+          "french": "Am Beraterschalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

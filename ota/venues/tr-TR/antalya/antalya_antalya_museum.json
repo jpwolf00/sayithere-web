@@ -1,0 +1,166 @@
+{
+  "id": "antalya_antalya_museum",
+  "name_en": "Antalya Museum",
+  "name_local": "Antalya Müzesi",
+  "icon": "building.columns",
+  "lat": 36.8857682,
+  "lon": 30.6797586,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "antalya_antalya_museum_001",
+      "intent_en": "Where do I pay the entrance fee?",
+      "text_local": "Giriş ücretini nerede ödeyebilirim?",
+      "pronunciation": "eerIHsh-uhdzhrehteenIH-nEHrehdeh-uhdehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Müze girişinde biletçi tarafından yönlendirilirsiniz.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki gişeye ödeme yapabilirsiniz.",
+        "pronunciation": "eerihshtehkIH-eeshehyEH-uhdEHmeh-yahpahbeelIHrseenihz",
+        "translation_en": "You can pay at the ticket booth at the entrance."
+      },
+      "responses": [
+        {
+          "english": "You can pay at the ticket booth at the entrance.",
+          "phonetic": "eerihshtehkIH-eeshehyEH-uhdEHmeh-yahpahbeelIHrseenihz",
+          "french": "Girişteki gişeye ödeme yapabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_museum_002",
+      "intent_en": "Where is the open-air gallery entrance?",
+      "text_local": "Açık hava galerisi nerede?",
+      "pronunciation": "ahtshOOk-hahvAH-gahlehreesIH-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Without a known, fixed access point in the context, the safe default is to direct to staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bahçe kısmında, arka çıkışta.",
+        "pronunciation": "bAHhtsheh-koosmoondAHahrkAH-tshookooshtAH",
+        "translation_en": "In the garden part, at the back exit."
+      },
+      "responses": [
+        {
+          "english": "In the garden part, at the back exit.",
+          "phonetic": "bAHhtsheh-koosmoondAHahrkAH-tshookooshtAH",
+          "french": "Bahçe kısmında, arka çıkışta."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_museum_003",
+      "intent_en": "Where can I rent an audio guide?",
+      "text_local": "Kulaklıklı rehberi nereden alabilirim?",
+      "pronunciation": "sehslIH-rehhbehrIH-nEHrehdahn-keerahahyahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "When the exact rental location is unknown, staff redirect to the main information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin sağında, bilet gişesinde.",
+        "pronunciation": "eereeshIHn-sahoondAHbeelEHt-eeshehsihndEH",
+        "translation_en": "At the ticket counter, on the right side of the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter, on the right side of the entrance.",
+          "phonetic": "eereeshIHn-sahoondAHbeelEHt-eeshehsihndEH",
+          "french": "Girişin sağında, bilet gişesinde."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_museum_004",
+      "intent_en": "Where is the open-air gallery entrance?",
+      "text_local": "Açık hava galerisinin girişi nerede?",
+      "pronunciation": "ahtshOOk-hahvAH-gahlehreeseenIHn-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Açık hava galerisinin tam konumu metinde verilmediğinden danışmaya yönlendirme yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana girişin sağında.",
+        "pronunciation": "ahnAH-eereeshIHn-sahoondAH",
+        "translation_en": "To the right of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "To the right of the main entrance.",
+          "phonetic": "ahnAH-eereeshIHn-sahoondAH",
+          "french": "Ana girişin sağında."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_museum_005",
+      "intent_en": "Is flash photography allowed inside?",
+      "text_local": "İçeride flaşlı fotoğraf çekmek serbest mi?",
+      "pronunciation": "eetshehreedEH-fahshOO-fohtohrAHf-tshehkmEHk-sehrbEHst-mih",
+      "formality": "standard",
+      "cultural_note": "Müze eserlerinin korunması için flaş kullanımına izin verilmez.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, flaşlı fotoğraf çekmek yasak.",
+        "pronunciation": "hahyOOrfahshOO-fohtohrAHf-tshehkmEHk-yAHsahk",
+        "translation_en": "No, flash photography is prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, flash photography is prohibited.",
+          "phonetic": "hahyOOrfahshOO-fohtohrAHf-tshehkmEHk-yAHsahk",
+          "french": "Hayır, flaşlı fotoğraf çekmek yasak."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_museum_006",
+      "intent_en": "Is the Perge collection open today?",
+      "text_local": "Perge koleksiyonu bugün açık mı?",
+      "pronunciation": "pehrgEH-kohlehkseeyohnUH-boogUHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Müze müdürü veya rehber açılış durumunu teyit eder.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, Perge koleksiyonu salonu açık.",
+        "pronunciation": "ehvEHtpehrgEH-kohlehkseeyohnUH-sahohnUH-ahtshOOk",
+        "translation_en": "Yes, the Perge collection hall is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, the Perge collection hall is open.",
+          "phonetic": "ehvEHtpehrgEH-kohlehkseeyohnUH-sahohnUH-ahtshOOk",
+          "french": "Evet, Perge koleksiyonu salonu açık."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_museum_007",
+      "intent_en": "Where can I rent an audio guide?",
+      "text_local": "Kulaklıklı rehber nereden alınır?",
+      "pronunciation": "sehslIH-rehhbEHr-nEHrehdahn-keerahahyahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Kesin konum belirtilmediğinde danışma masası en güvenli yönlendirmedir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Giriş holünde.",
+        "pronunciation": "eerIHsh-hohluhndEH",
+        "translation_en": "In the entrance hall."
+      },
+      "responses": [
+        {
+          "english": "In the entrance hall.",
+          "phonetic": "eerIHsh-hohluhndEH",
+          "french": "Giriş holünde."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "berlin_tiergarten_park",
+  "name_en": "Tiergarten Park",
+  "name_local": "Großer Tiergarten",
+  "icon": "leaf",
+  "lat": 52.5163027,
+  "lon": 13.3618184,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "berlin_tiergarten_park_001",
+      "intent_en": "How do I rent boat with deposit",
+      "text_local": "Wie funktioniert die Bootsmiete mit Pfand?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-dee-bOHtsmeetuh-miht-pfAHnt",
+      "formality": "standard",
+      "cultural_note": "Bootsverleih verlangt oft Bargeld für die Kaution. Personal klärt Details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kaution bar am Schalter.",
+        "pronunciation": "kowtsyOHn-bAHr-ahm-shAHlt",
+        "translation_en": "Deposit in cash at counter."
+      },
+      "responses": [
+        {
+          "english": "Deposit in cash at counter.",
+          "phonetic": "kowtsyOHn-bAHr-ahm-shAHlt",
+          "french": "Kaution bar am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "berlin_tiergarten_park_002",
+      "intent_en": "Where is Neuer See boathouse",
+      "text_local": "Wo ist der Bootsverleih am Neuer See?",
+      "pronunciation": "vOH-ihst-dehr-bOHtsflEYE-ahm-nAWuh-zEH",
+      "formality": "standard",
+      "cultural_note": "Der Bootsverleih liegt direkt am Seeufer. Schilder führen dorthin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ufer des Neuer Sees.",
+        "pronunciation": "ahm-OOf-dehs-nAWuh-zEHs",
+        "translation_en": "At the shore of Neuer See."
+      },
+      "responses": [
+        {
+          "english": "At the shore of Neuer See.",
+          "phonetic": "ahm-OOf-dehs-nAWuh-zEHs",
+          "french": "Am Ufer des Neuer Sees."
+        }
+      ]
+    },
+    {
+      "id": "berlin_tiergarten_park_003",
+      "intent_en": "Where is Victory Column viewing platform",
+      "text_local": "Wo ist die Aussichtsplattform der Siegessäule?",
+      "pronunciation": "vOH-ihst-dee-OWszIHkhtsplahtfAWrm-dehr-zEEehsAWuhluh",
+      "formality": "standard",
+      "cultural_note": "Die Siegessäule ist ein zentraler Orientierungspunkt. Besucher erreichen die Plattform über Treppen oder Aufzüge.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf der Siegessäule.",
+        "pronunciation": "owf-dehr-zEEehsAWuhluh",
+        "translation_en": "On the Victory Column."
+      },
+      "responses": [
+        {
+          "english": "On the Victory Column.",
+          "phonetic": "owf-dehr-zEEehsAWuhluh",
+          "french": "Auf der Siegessäule."
+        }
+      ]
+    },
+    {
+      "id": "berlin_tiergarten_park_004",
+      "intent_en": "Where is Cafe am Neuen See",
+      "text_local": "Wo ist das Café am Neuen See?",
+      "pronunciation": "vOH-ihst-dahs-kahfEH-ahm-nAWuhuhn-zEH",
+      "formality": "standard",
+      "cultural_note": "Das Café liegt direkt am Seeufer mit Blick auf das Wasser.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ufer des Neuer Sees.",
+        "pronunciation": "ahm-OOf-dehs-nAWuh-zEHs",
+        "translation_en": "By the shore of Neuer See."
+      },
+      "responses": [
+        {
+          "english": "By the shore of Neuer See.",
+          "phonetic": "ahm-OOf-dehs-nAWuh-zEHs",
+          "french": "Am Ufer des Neuer Sees."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

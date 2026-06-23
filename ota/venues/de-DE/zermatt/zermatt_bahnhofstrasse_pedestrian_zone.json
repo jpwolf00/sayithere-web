@@ -1,0 +1,78 @@
+{
+  "id": "zermatt_bahnhofstrasse_pedestrian_zone",
+  "name_en": "Bahnhofstrasse Pedestrian Zone",
+  "name_local": "Bahnhofstrasse",
+  "icon": "map",
+  "lat": 46.0245732,
+  "lon": 7.7481294,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "zermatt_bahnhofstrasse_pedestrian_zone_001",
+      "intent_en": "Where do I claim tax refund for watches",
+      "text_local": "Wo ist die Zollstelle für Steuerrückerstattung bei Uhrenkäufen?",
+      "pronunciation": "vOH-ihst-dehr-tAHksehnfrEEdehshAHlt-fuer-OOruhn",
+      "formality": "standard",
+      "cultural_note": "Tax refund counters for luxury goods like watches are typically located at department store exits or dedicated service desks; Swiss stores often partner with Global Blue or similar agencies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bahnhof, bei der Zollstelle.",
+        "pronunciation": "ahm-bAHnhohfbeye-dehr-tsAWlshtehluh",
+        "translation_en": "At the train station, at the customs office."
+      },
+      "responses": [
+        {
+          "english": "At the train station, at the customs office.",
+          "phonetic": "ahm-bAHnhohfbeye-dehr-tsAWlshtehluh",
+          "french": "Am Bahnhof, bei der Zollstelle."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_bahnhofstrasse_pedestrian_zone_002",
+      "intent_en": "How do I get the tram to Paradeplatz",
+      "text_local": "Fährt die Tram nach Paradeplatz?",
+      "pronunciation": "vOH-ihst-dee-trAHm-nahkh-pAHrahdEHplahts",
+      "formality": "standard",
+      "cultural_note": "Tram lines in Swiss pedestrian zones are typically well-signposted with platform numbers and route maps; no need for micro-navigation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, hier gibt es keine Tram.",
+        "pronunciation": "nEYEnhEEr-gEEpt-ehs-kEYEnuh-trAHm",
+        "translation_en": "No, there is no tram here."
+      },
+      "responses": [
+        {
+          "english": "No, there is no tram here.",
+          "phonetic": "nEYEnhEEr-gEEpt-ehs-kEYEnuh-trAHm",
+          "french": "Nein, hier gibt es keine Tram."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_bahnhofstrasse_pedestrian_zone_003",
+      "intent_en": "Where is the Jelmoli department store",
+      "text_local": "Wo finde ich das Jelmoli?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dahs-yEHlmohlEE",
+      "formality": "standard",
+      "cultural_note": "Swiss department stores in pedestrian zones often have central mall access points; expect clear signage to 'Shopville' for underground connections.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ende der Bahnhofstrasse.",
+        "pronunciation": "ahm-EHnduh-dehr-bAHnhawfstrAHsuh",
+        "translation_en": "At the end of Bahnhofstrasse."
+      },
+      "responses": [
+        {
+          "english": "At the end of Bahnhofstrasse.",
+          "phonetic": "ahm-EHnduh-dehr-bAHnhawfstrAHsuh",
+          "french": "Am Ende der Bahnhofstrasse."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

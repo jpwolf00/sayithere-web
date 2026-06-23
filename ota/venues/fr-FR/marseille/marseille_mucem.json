@@ -1,0 +1,101 @@
+{
+  "id": "marseille_mucem",
+  "name_en": "MuCEM - Musée des Civilisations de l'Europe et de la Méditerranée",
+  "name_local": "MuCEM",
+  "icon": "building.columns",
+  "lat": 43.2904,
+  "lon": 5.3615,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "marseille_mucem_001",
+      "intent_en": "Ask where the museum entrance is",
+      "text_local": "Où est l'entrée du musée, s'il vous plaît ?",
+      "pronunciation": "oo eh lahn-TRAY doo moo-ZAY, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The main entrance is on the ground level. The upper terrace connects to the Saint-Jean fort — both levels are worth visiting.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The main entrance is on the ground floor, sea side.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "L'entrée principale est au rez-de-chaussée, côté mer."
+        }
+      ]
+    },
+    {
+      "id": "marseille_mucem_002",
+      "intent_en": "Ask about the rooftop exhibition space",
+      "text_local": "Y a-t-il une exposition sur la terrasse ?",
+      "pronunciation": "ee ah-TEEL oon eks-poh-zee-SYON soor lah teh-RAS",
+      "formality": "polite",
+      "cultural_note": "The rooftop offers stunning views over the Mediterranean and the Fort Saint-Jean. The J4 gallery building, designed by Rudy Ricciotti, is iconic.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, on the upper level. Take the stairs.",
+          "phonetic": "wee, les-PASS deks-poh-zee-SYON sur luh twah eh oh nee-VOH soo-payr-YUHR",
+          "french": "Oui, au niveau supérieur. Prenez l'escalier."
+        }
+      ]
+    },
+    {
+      "id": "marseille_mucem_003",
+      "intent_en": "Ask if the museum ticket includes Fort Saint-Jean",
+      "text_local": "Le billet comprend-il l'accès au Fort Saint-Jean ?",
+      "pronunciation": "leh bee-YAY kom-PRAHN-TEEL lah-SAY oh FOR san-ZHAN",
+      "formality": "polite",
+      "cultural_note": "A combined ticket (€12) gives access to both the MuCEM exhibitions and the historic Fort Saint-Jean across the bridge.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's included in the combined ticket. Ask at the ticket office.",
+          "phonetic": "say VAHN-tur roh par pear-SOHN",
+          "french": "Oui, c'est inclus dans le billet combiné. Demandez au guichet."
+        }
+      ]
+    },
+    {
+      "id": "marseille_mucem_004",
+      "intent_en": "Ask if there is an audio guide",
+      "text_local": "Y a-t-il un audioguide ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dee-oh-GEED",
+      "formality": "polite",
+      "cultural_note": "Audio guides are available in several languages at most major French museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, in several languages. Ask at the reception.",
+          "phonetic": "wee, ahn ploo-ZYUR LAHNG. duh-mahn-DAY ah lah-KOY",
+          "french": "Oui, en plusieurs langues. Demandez à l'accueil."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "leh moo-ZAY"
+    },
+    {
+      "word_en": "fort",
+      "word_local": "le fort",
+      "pronunciation": "leh FOR"
+    },
+    {
+      "word_en": "Mediterranean",
+      "word_local": "méditerranéen",
+      "pronunciation": "may-dee-teh-rah-NYAN"
+    },
+    {
+      "word_en": "exhibition",
+      "word_local": "l'exposition",
+      "pronunciation": "lex-poh-zee-SYON"
+    }
+  ]
+}

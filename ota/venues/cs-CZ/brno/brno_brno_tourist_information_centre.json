@@ -1,0 +1,56 @@
+{
+  "id": "brno_brno_tourist_information_centre",
+  "name_en": "Brno Tourist Information Centre",
+  "name_local": "Turistické informační centrum Brno",
+  "icon": "info.circle",
+  "lat": 49.1945319,
+  "lon": 16.6075912,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "brno_brno_tourist_information_centre_001",
+      "intent_en": "Where do I buy the Brno CARD?",
+      "text_local": "Kde si koupím Brno CARD?",
+      "pronunciation": "kdEH-see-kOHpeem-bRnoh-tsAHrt",
+      "formality": "standard",
+      "cultural_note": "Czech information centres often have dedicated counters; pointing with a gesture is common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U přepážky vpravo.",
+        "pronunciation": "OO-prEHpahshkee-fprAHvoh",
+        "translation_en": "At the counter on the right."
+      },
+      "responses": [
+        {
+          "english": "At the counter on the right.",
+          "phonetic": "OO-prEHpahshkee-fprAHvoh",
+          "french": "U přepážky vpravo."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_tourist_information_centre_002",
+      "intent_en": "Where can I reserve theater tickets?",
+      "text_local": "Kde si můžu rezervovat lístky do divadla?",
+      "pronunciation": "kdEH-see-mOOzhoo-rEHzehrvOHvaht-lEEstkee-dOHeevAHdlah",
+      "formality": "standard",
+      "cultural_note": "The reservations clerk handles ticket bookings; a simple directional cue is sufficient.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U přepážky rezervace vlevo.",
+        "pronunciation": "OO-prEHpahshkee-rEHzehrvAHtseh-vlEHvoh",
+        "translation_en": "At the reservations counter on the left."
+      },
+      "responses": [
+        {
+          "english": "At the reservations counter on the left.",
+          "phonetic": "OO-prEHpahshkee-rEHzehrvAHtseh-vlEHvoh",
+          "french": "U přepážky rezervace vlevo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

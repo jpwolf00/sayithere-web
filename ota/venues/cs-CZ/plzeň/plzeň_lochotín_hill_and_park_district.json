@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_lochotín_hill_and_park_district",
+  "name_en": "Lochotín Hill and Park District",
+  "name_local": "Lochotín",
+  "icon": "map",
+  "lat": 49.7610133,
+  "lon": 13.3678476,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "plzeň_lochotín_hill_and_park_district_001",
+      "intent_en": "Where is DinoPark gate?",
+      "text_local": "Kde je vstup do DinoParku?",
+      "pronunciation": "kdEH-yeh-fstOOb-dOHeenoh-pAHrkoo",
+      "formality": "standard",
+      "cultural_note": "DinoPark is a popular attraction; its entrance is often a separate gate within the zoo area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vpravo od hlavní cesty.",
+        "pronunciation": "fprAHvoh-OHthlahvnyee-tsEHstee",
+        "translation_en": "To the right of the main path."
+      },
+      "responses": [
+        {
+          "english": "To the right of the main path.",
+          "phonetic": "fprAHvoh-OHthlahvnyee-tsEHstee",
+          "french": "Vpravo od hlavní cesty."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_lochotín_hill_and_park_district_002",
+      "intent_en": "Where is zoo ticket booth?",
+      "text_local": "Kde je pokladna do zoo?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-dOHzohoh",
+      "formality": "standard",
+      "cultural_note": "Czech directions often use landmarks like gates rather than street names in park areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně, za bránou vlevo.",
+        "pronunciation": "rOHvnyehzAHbrahnoh-vlEHvoh",
+        "translation_en": "Straight ahead, left after the gate."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, left after the gate.",
+          "phonetic": "rOHvnyehzAHbrahnoh-vlEHvoh",
+          "french": "Rovně, za bránou vlevo."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_lochotín_hill_and_park_district_003",
+      "intent_en": "Where is park café kiosk?",
+      "text_local": "Kde je tady kavárna?",
+      "pronunciation": "kdEH-yeh-tAHdee-kAHvahrnah",
+      "formality": "standard",
+      "cultural_note": "Park kiosks are typically near playgrounds or water features in Czech parks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U dětského hřiště, dole u rybníka.",
+        "pronunciation": "OO-EHtskehhoh-hrEEshehdOHleh-OO-rEEbnyeekah",
+        "translation_en": "By the playground, down by the pond."
+      },
+      "responses": [
+        {
+          "english": "By the playground, down by the pond.",
+          "phonetic": "OO-EHtskehhoh-hrEEshehdOHleh-OO-rEEbnyeekah",
+          "french": "U dětského hřiště, dole u rybníka."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_lochotín_hill_and_park_district_004",
+      "intent_en": "Where to pay parking?",
+      "text_local": "Kde zaplatím parkování?",
+      "pronunciation": "kdEH-zAHplaheem-pAHrkohvAHnyee",
+      "formality": "standard",
+      "cultural_note": "Parking meters are common at the edges of lots in Plzeň's park districts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Automat je na kraji parkoviště.",
+        "pronunciation": "OWtohmaht-yeh-nAHkrahyee-pAHrkohvEEsheh",
+        "translation_en": "The meter is at the edge of the lot."
+      },
+      "responses": [
+        {
+          "english": "The meter is at the edge of the lot.",
+          "phonetic": "OWtohmaht-yeh-nAHkrahyee-pAHrkohvEEsheh",
+          "french": "Automat je na kraji parkoviště."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

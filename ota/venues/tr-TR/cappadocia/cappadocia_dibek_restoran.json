@@ -1,0 +1,56 @@
+{
+  "id": "cappadocia_dibek_restoran",
+  "name_en": "Dibek Restoran",
+  "name_local": "Dibek Restoran",
+  "icon": "fork.knife",
+  "lat": 38.6386124,
+  "lon": 34.8455184,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "cappadocia_dibek_restoran_001",
+      "intent_en": "Do I remove shoes for cave seating?",
+      "text_local": "Mağara oturma alanında ayakkabı çıkarmam gerekiyor mu?",
+      "pronunciation": "mahrAH-ohtUHrmah-ahahnoondAH-ahyahkahbOO-tshookahrmAHm-ehrehkEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Removing shoes in traditional raised seating areas is a common Turkish custom.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, yükseltilmiş oturma alanlarında ayakkabılarınızı çıkarın.",
+        "pronunciation": "ehvEHtyuhksahltihlmIHsh-ohtUHrmah-ahahnahroondAH-ahyahkahbooAHroonoozoo-tshookahrOOn",
+        "translation_en": "Yes, remove your shoes in raised seating areas."
+      },
+      "responses": [
+        {
+          "english": "Yes, remove your shoes in raised seating areas.",
+          "phonetic": "ehvEHtyuhksahltihlmIHsh-ohtUHrmah-ahahnahroondAH-ahyahkahbooAHroonoozoo-tshookahrOOn",
+          "french": "Evet, yükseltilmiş oturma alanlarında ayakkabılarınızı çıkarın."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_dibek_restoran_002",
+      "intent_en": "Is the testi kebabı available tonight?",
+      "text_local": "Bu akşam testi kebabı var mı?",
+      "pronunciation": "buh-ahkshAHm-tehstIH-kehbahbOO-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Turkish restaurants may have daily specials; it's polite to ask staff directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Merhaba, testi kebabı 4 saat önceden sipariş edilmeli. Maalesef bu akşam için yok.",
+        "pronunciation": "mEHrhahbahtehstIH-kehbahbOO-dUHrt-sahAHt-UHndzhehdahn-seepahrIHsh-ehdIHlmehlihmahahlehsEHf-buh-ahkshAHm-eetshIHn-yAWk",
+        "translation_en": "Hello, the pottery kebab must be ordered 4 hours in advance. Unfortunately, it is not available tonight."
+      },
+      "responses": [
+        {
+          "english": "Hello, the pottery kebab must be ordered 4 hours in advance. Unfortunately, it is not available tonight.",
+          "phonetic": "mEHrhahbahtehstIH-kehbahbOO-dUHrt-sahAHt-UHndzhehdahn-seepahrIHsh-ehdIHlmehlihmahahlehsEHf-buh-ahkshAHm-eetshIHn-yAWk",
+          "french": "Merhaba, testi kebabı 4 saat önceden sipariş edilmeli. Maalesef bu akşam için yok."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

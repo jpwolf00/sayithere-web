@@ -1,0 +1,144 @@
+{
+  "id": "kyoto_kyoto_tourist_information_center",
+  "name_en": "Kyoto Tourist Information Center",
+  "name_local": "京都市観光案内所",
+  "icon": "info.circle",
+  "lat": 34.98754,
+  "lon": 135.7592194,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "kyoto_kyoto_tourist_information_center_001",
+      "intent_en": "Do you offer English guide services?",
+      "text_local": "えいごの ガイドさんは いますか？",
+      "pronunciation": "EHeegOHnoh-gEEdOHsH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff will confirm capability directly rather than just saying guides exist.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、えいごたいおう できます。",
+        "pronunciation": "hEEEHeegOHteeOHoo-dEHkeemSoo",
+        "translation_en": "Yes, we can handle English."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can handle English.",
+          "phonetic": "hEEEHeegOHteeOHoo-dEHkeemSoo",
+          "french": "はい、えいごたいおう できます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_tourist_information_center_002",
+      "intent_en": "Can I exchange Keihan passes here?",
+      "text_local": "けいはんパスは ここで ひきかえられますか？",
+      "pronunciation": "kEHeehPsOOh-kohkOHdeh-khEEkeekEHEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple 'yes' is sufficient and expected for this type of service inquiry.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ひきかえ できます。",
+        "pronunciation": "hEEkhEEkeekEH-dEHkeemSoo",
+        "translation_en": "Yes, you can exchange them here."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can exchange them here.",
+          "phonetic": "hEEkhEEkeekEH-dEHkeemSoo",
+          "french": "はい、ひきかえ できます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_tourist_information_center_003",
+      "intent_en": "Can I buy bus one-day passes here?",
+      "text_local": "バスの いちにちじょうしゃけん、ここで かえますか？",
+      "pronunciation": "bsOOnoh-EEteenEEteedOHooKehkohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Expect a direct confirmation at a tourism center; no need for elaborate phrasing.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、このカウンターで あつかってます。",
+        "pronunciation": "hEEkOHnohkOOntDeh-TsookTtehmSoo",
+        "translation_en": "Yes, we handle them at this counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, we handle them at this counter.",
+          "phonetic": "hEEkOHnohkOOntDeh-TsookTtehmSoo",
+          "french": "はい、このカウンターで あつかってます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_tourist_information_center_004",
+      "intent_en": "How do I get to Karasuma Gate?",
+      "text_local": "からすまぐちは どうやって いきますか？",
+      "pronunciation": "kSOOmgootEEh-dOHooyTteh-EEkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Directions in stations are often given relative to the current position.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このまま まっすぐ、ひだりがわです。",
+        "pronunciation": "kOHnohmM-mssOOgookhEEdEEgwdEHsoo",
+        "translation_en": "Straight ahead from here, on the left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead from here, on the left.",
+          "phonetic": "kOHnohmM-mssOOgookhEEdEEgwdEHsoo",
+          "french": "このまま まっすぐ、ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_tourist_information_center_005",
+      "intent_en": "Is the Hachijo Gate far from here?",
+      "text_local": "はちじょうぐちは ここから とおいですか？",
+      "pronunciation": "hTeedOHoogootEEh-kOHkohk-TOHoheedehsOOk",
+      "formality": "standard",
+      "cultural_note": "Pointing or gesturing often accompanies a 'not far, over there' reply.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、ちかくです。むこうの でぐちです。",
+        "pronunciation": "EEehtEEkkoodEHsoomOOkohOOnoh-dEHgooteedEHsoo",
+        "translation_en": "No, it's close. It's that exit over there."
+      },
+      "responses": [
+        {
+          "english": "No, it's close. It's that exit over there.",
+          "phonetic": "EEehtEEkkoodEHsoomOOkohOOnoh-dEHgooteedEHsoo",
+          "french": "いいえ、ちかくです。むこうの でぐちです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kyoto_tourist_information_center_006",
+      "intent_en": "How do I book a hotel here?",
+      "text_local": "ここで ホテルの よやくは できますか？",
+      "pronunciation": "kohkOHdeh-hOHtehOOnoh-yOHykOOh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff will often ask you to wait briefly while they check the system.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいてる ホテルを さがせます。おまちください。",
+        "pronunciation": "hEEEEtEHoo-hOHtehOOoh-sGsehmSooOHmtEEkoodsEE",
+        "translation_en": "Yes, we can search for available hotels. Please wait."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can search for available hotels. Please wait.",
+          "phonetic": "hEEEEtEHoo-hOHtehOOoh-sGsehmSooOHmtEEkoodsEE",
+          "french": "はい、あいてる ホテルを さがせます。おまちください。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

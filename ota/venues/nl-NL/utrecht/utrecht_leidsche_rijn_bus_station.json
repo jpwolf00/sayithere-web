@@ -1,0 +1,78 @@
+{
+  "id": "utrecht_leidsche_rijn_bus_station",
+  "name_en": "Leidsche Rijn bus station",
+  "name_local": "Busstation Leidsche Rijn",
+  "icon": "tram",
+  "lat": 52.0980635,
+  "lon": 5.0672252,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "utrecht_leidsche_rijn_bus_station_001",
+      "intent_en": "Where is the OV-chipkaart machine?",
+      "text_local": "Waar staat de automaat voor OV-chipkaart?",
+      "pronunciation": "vAHr-stAH-tuh-UHuhtohmAHt-vawr-OHfEHtshIHpkahrt",
+      "formality": "standard",
+      "cultural_note": "Typical phrasing for pointing to a machine near exits in Dutch transport hubs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de uitgang.",
+        "pronunciation": "behih-duh-UHuetghAHng",
+        "translation_en": "At the exit."
+      },
+      "responses": [
+        {
+          "english": "At the exit.",
+          "phonetic": "behih-duh-UHuetghAHng",
+          "french": "Bij de uitgang."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_leidsche_rijn_bus_station_002",
+      "intent_en": "How do I buy a Qbuzz pass?",
+      "text_local": "Hoe koop ik een Qbuzz abonnement?",
+      "pronunciation": "hOO-kOHp-ihk-uhn-kbS-AHbawnuhmEHnt",
+      "formality": "standard",
+      "cultural_note": "Staff-assisted purchases are common for subscriptions in Dutch transport.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de balie.",
+        "pronunciation": "vrAHkh-huht-behih-duh-bahlEE",
+        "translation_en": "Ask at the information desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the information desk.",
+          "phonetic": "vrAHkh-huht-behih-duh-bahlEE",
+          "french": "Vraag het bij de balie."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_leidsche_rijn_bus_station_003",
+      "intent_en": "When does bus 16 leave?",
+      "text_local": "Wanneer vertrekt bus 16?",
+      "pronunciation": "vahnIHr-vuhrtrEHkt-b-SEHsteen",
+      "formality": "standard",
+      "cultural_note": "Dutch public transport often uses frequency-based answers rather than exact times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Elke 10 minuten.",
+        "pronunciation": "EHlkuh-tEEn-mEEnuetuhn",
+        "translation_en": "Every 10 minutes."
+      },
+      "responses": [
+        {
+          "english": "Every 10 minutes.",
+          "phonetic": "EHlkuh-tEEn-mEEnuetuhn",
+          "french": "Elke 10 minuten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

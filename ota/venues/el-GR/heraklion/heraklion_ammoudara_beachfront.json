@@ -1,0 +1,78 @@
+{
+  "id": "heraklion_ammoudara_beachfront",
+  "name_en": "Ammoudara Beachfront",
+  "name_local": "Αμμουδάρα",
+  "icon": "map",
+  "lat": 35.3371987,
+  "lon": 25.0753261,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "heraklion_ammoudara_beachfront_001",
+      "intent_en": "Where is Cocky Beach Bar?",
+      "text_local": "Πού είναι το Cocky Beach Bar;",
+      "pronunciation": "pOO-EEneh-toh-ehnkKee-bEEtsh-bAHehl",
+      "formality": "standard",
+      "cultural_note": "Beach bars are typically located along the main boardwalk in popular coastal areas, but exact placement may vary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον παραλιακό δρόμο της Αμμουδάρας",
+        "pronunciation": "stohm-bAHrahlyahkOH-thrOHmoh-tees-AHmoothAHrahs",
+        "translation_en": "On the Ammoudara boardwalk"
+      },
+      "responses": [
+        {
+          "english": "On the Ammoudara boardwalk",
+          "phonetic": "stohm-bAHrahlyahkOH-thrOHmoh-tees-AHmoothAHrahs",
+          "french": "Στον παραλιακό δρόμο της Αμμουδάρας"
+        }
+      ]
+    },
+    {
+      "id": "heraklion_ammoudara_beachfront_002",
+      "intent_en": "Is parking paid at machine or attendant?",
+      "text_local": "Το parking πληρώνεται στον υπάλληλο ή στο μηχάνημα;",
+      "pronunciation": "toh-ehnpAHkingehl-pleerOHnehtEH-stohn-eepAHleelOH-ee-stoh-meekhAHneemAH",
+      "formality": "standard",
+      "cultural_note": "Paid parking in Greek coastal areas is often managed by attendants who handle cash payments and provide receipts.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Στον παρκαδόρο",
+        "pronunciation": "stohm-bAHrkahthOHroh",
+        "translation_en": "With the parking attendant"
+      },
+      "responses": [
+        {
+          "english": "With the parking attendant",
+          "phonetic": "stohm-bAHrkahthOHroh",
+          "french": "Στον παρκαδόρο"
+        }
+      ]
+    },
+    {
+      "id": "heraklion_ammoudara_beachfront_003",
+      "intent_en": "How to settle my beach bar tab?",
+      "text_local": "Πώς πληρώνω τον λογαριασμό στο beach bar;",
+      "pronunciation": "pOHs-pleerOHnoh-tohn-lOHghahrEEahsmOH-stoh-ehnbEEtsh-bAHehl",
+      "formality": "standard",
+      "cultural_note": "Settling bills at beach bars in Greece is typically done directly with the waiter via cash or card, often at the table.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον σερβιτόρο",
+        "pronunciation": "stohn-sEHrveetOHroh",
+        "translation_en": "To the waiter"
+      },
+      "responses": [
+        {
+          "english": "To the waiter",
+          "phonetic": "stohn-sEHrveetOHroh",
+          "french": "Στον σερβιτόρο"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

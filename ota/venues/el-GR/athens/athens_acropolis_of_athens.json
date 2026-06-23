@@ -1,0 +1,122 @@
+{
+  "id": "athens_acropolis_of_athens",
+  "name_en": "Acropolis of Athens",
+  "name_local": "Ακρόπολη Αθηνών",
+  "icon": "building.columns",
+  "lat": 37.9716894,
+  "lon": 23.7263197,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "athens_acropolis_of_athens_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει νερό για πόση κοντά στα Προπύλαια;",
+      "pronunciation": "eepAHrkhee-nehrOH-stoh-thrOHmoh-prOHs-tah-prohpEElehAH",
+      "formality": "standard",
+      "cultural_note": "Η ενυδάτωση αποτελεί βασική ανάγκη κατά την ανάβαση προς την Ακρόπολη, ωστόσο δεν υπάρχουν δημοσιευμένες πληροφορίες για συγκεκριμένες εγκαταστάσεις νερού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, έχει νερό πιο κάτω, κοντά στην είσοδο.",
+        "pronunciation": "nEHEHkhee-nehrOH-pkhOH-kAHtohkohdAH-steen-EEsohthOH",
+        "translation_en": "Yes, there is water further down, near the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is water further down, near the entrance.",
+          "phonetic": "nEHEHkhee-nehrOH-pkhOH-kAHtohkohdAH-steen-EEsohthOH",
+          "french": "Ναι, έχει νερό πιο κάτω, κοντά στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "athens_acropolis_of_athens_002",
+      "intent_en": "Which gate is faster for Erechtheion access",
+      "text_local": "Ποια πύλη είναι πιο γρήγορη για τον Ερέχθειο;",
+      "pronunciation": "pEEah-pEElee-EEneh-pkhOH-ghrEEghohrEE-yAH-tohn-ehrEHkhthkhoh",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν τον βέλτιστο δρόμο για γρήγορη πρόσβαση στον Ερέχθειο χωρίς να γνωρίζουν την τοποθεσία άλλων εισόδων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Η βόρεια πύλη, ευθεία για τον Ερέχθειο.",
+        "pronunciation": "ee-vOHrkhah-pEEleeehfthEEah-yAH-tohn-ehrEHkhthkhoh",
+        "translation_en": "Ask the staff member."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member.",
+          "phonetic": "ee-vOHrkhah-pEEleeehfthEEah-yAH-tohn-ehrEHkhthkhoh",
+          "french": "Η βόρεια πύλη, ευθεία για τον Ερέχθειο."
+        }
+      ]
+    },
+    {
+      "id": "athens_acropolis_of_athens_003",
+      "intent_en": "Is the Temple of Athena Nike scaffold-free now",
+      "text_local": "Είναι τώρα χωρίς σκαλωσιά ο Ναός της Αθηνάς Νίκης;",
+      "pronunciation": "EEneh-tOHrah-khohrEEs-skAHlohsyAH-oh-nahOHs-tees-AHtheenAHz-nEEees",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά ελέγχουν την κατάσταση αποκατάστασης των σημαντικών μνημείων πριν επισκεφθούν την περιοχή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, χωρίς σκαλωσιά τώρα.",
+        "pronunciation": "nEHkhohrEEs-skAHlohsyAH-tOHrah",
+        "translation_en": "Yes, it is."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is.",
+          "phonetic": "nEHkhohrEEs-skAHlohsyAH-tOHrah",
+          "french": "Ναι, χωρίς σκαλωσιά τώρα."
+        }
+      ]
+    },
+    {
+      "id": "athens_acropolis_of_athens_004",
+      "intent_en": "Where is the Cecropia sacred rock section",
+      "text_local": "Πού βρίσκεται η περιοχή της Κεκροπίας;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-pEHreeohkhEE-tees-EHkrohpEEahs",
+      "formality": "standard",
+      "cultural_note": "Η Κεκροπία αποτελεί μέρος του μύθου ίδρυσης της Αθήνας, αλλά πολλοί επισκέπτες δυσκολεύονται να την εντοπίσουν στο χώρο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά το Ερέχθειο, πάνω στον βράχο.",
+        "pronunciation": "AHreestehrAH-mehtAH-toh-ehrEHkhthkhohpAHnoh-stohn-vrAHkhoh",
+        "translation_en": "Ask the staff member."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member.",
+          "phonetic": "AHreestehrAH-mehtAH-toh-ehrEHkhthkhohpAHnoh-stohn-vrAHkhoh",
+          "french": "Αριστερά μετά το Ερέχθειο, πάνω στον βράχο."
+        }
+      ]
+    },
+    {
+      "id": "athens_acropolis_of_athens_005",
+      "intent_en": "How do I buy the combined site pass here",
+      "text_local": "Πώς αγοράζω το συνδυαστικό εισιτήριο εδώ;",
+      "pronunciation": "pOHs-AHghohrAHzoh-toh-sEEntheeAHsteekOH-EEseetEEreeOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Το συνδυαστικό εισιτήριο αποτελεί συχνή ερώτηση επισκεπτών που επιθυμούν πρόσβαση σε περισσότερα από ένα σημεία της Ακρόπολης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από το ταμείο στην είσοδο.",
+        "pronunciation": "ahpOH-toh-tahmEEoh-steen-EEsohthOH",
+        "translation_en": "From the ticket booth at the entrance."
+      },
+      "responses": [
+        {
+          "english": "From the ticket booth at the entrance.",
+          "phonetic": "ahpOH-toh-tahmEEoh-steen-EEsohthOH",
+          "french": "Από το ταμείο στην είσοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

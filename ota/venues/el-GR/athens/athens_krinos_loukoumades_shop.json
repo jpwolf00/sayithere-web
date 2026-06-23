@@ -1,0 +1,78 @@
+{
+  "id": "athens_krinos_loukoumades_shop",
+  "name_en": "Krinos loukoumades shop",
+  "name_local": "Κρίνος",
+  "icon": "fork.knife",
+  "lat": 37.9804082,
+  "lon": 23.7284114,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "athens_krinos_loukoumades_shop_001",
+      "intent_en": "Where is seating nearby after takeaway",
+      "text_local": "Πού μπορώ να καθίσω για να φάω;",
+      "pronunciation": "pOO-eepAHrkhee-kAHtheesmAH-kohdAH-mehtAH-teem-bAHrahlahvEE",
+      "formality": "polite",
+      "cultural_note": "Το κατάστημα δεν παρέχει χώρο κάθισματος, χρειάζεται εύρεση δημόσιου σημείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεν υπάρχει καθιστικό. Μπορείτε να φάτε όρθιοι έξω.",
+        "pronunciation": "thEHn-eepAHrkhee-kAHtheesteekOHbohrEEteh-nah-fAHteh-OHrtheeEE-EHksoh",
+        "translation_en": "There is no seating. You can eat standing outside."
+      },
+      "responses": [
+        {
+          "english": "There is no seating. You can eat standing outside.",
+          "phonetic": "thEHn-eepAHrkhee-kAHtheesteekOHbohrEEteh-nah-fAHteh-OHrtheeEE-EHksoh",
+          "french": "Δεν υπάρχει καθιστικό. Μπορείτε να φάτε όρθιοι έξω."
+        }
+      ]
+    },
+    {
+      "id": "athens_krinos_loukoumades_shop_002",
+      "intent_en": "Do I pay at counter before ordering loukoumades",
+      "text_local": "Πληρώνω στον ταμία πριν παραγγείλω;",
+      "pronunciation": "pleerOHnoh-stohn-dahmEEah-prEEm-bAHrahnggEEloh",
+      "formality": "standard",
+      "cultural_note": "Στον χώρο επικρατεί η διαδικασία εξυπηρέτησης στον ταμία πριν την παραλαβή των λουκουμάδων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στον ταμία.",
+        "pronunciation": "nEHstohn-dahmEEah",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "nEHstohn-dahmEEah",
+          "french": "Ναι, στον ταμία."
+        }
+      ]
+    },
+    {
+      "id": "athens_krinos_loukoumades_shop_003",
+      "intent_en": "Are loukoumades available for takeaway only",
+      "text_local": "Τα λουκουμάδες είναι μόνο για takeaway;",
+      "pronunciation": "tah-lOOkoomAHthehs-EEneh-mOHnoh-yAH-ehntAYkuhwAYehl",
+      "formality": "standard",
+      "cultural_note": "Δεν υπάρχει εσωτερικός χώρος κατανάλωσης, μόνο παραλαβή από το κατάστημα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόνο takeaway.",
+        "pronunciation": "nEHmOHnoh-ehntAYkuhwAYehl",
+        "translation_en": "Yes, takeaway only."
+      },
+      "responses": [
+        {
+          "english": "Yes, takeaway only.",
+          "phonetic": "nEHmOHnoh-ehntAYkuhwAYehl",
+          "french": "Ναι, μόνο takeaway."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "positano_getting_lost",
+  "name_en": "Positano Stairs and Alleyways",
+  "name_local": "Scalinatelle di Positano",
+  "icon": "building.columns",
+  "lat": 40.628658,
+  "lon": 14.485496,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "positano_getting_lost_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, dov'è la spiaggia, per favore?",
+      "pronunciation": "SKOO-zee doh-VEH lah SPAH-djah pehr fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Down the stairs, towards the sea.",
+          "phonetic": "JEE-ù PEHR LEH SKAH-leh VEHR-soh EEL MAH-reh",
+          "french": "Giù per le scale, verso il mare."
+        }
+      ]
+    },
+    {
+      "id": "positano_getting_lost_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, dove posso prendere una mappa, per favore?",
+      "pronunciation": "SKOO-zee, DOH-veh POS-soh PREN-deh-reh OO-nah MAP-pah, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At reception, near the entrance.",
+          "phonetic": "AHL-lah reh-chehp-TEE-ohn vee-CHEE-noh ahll-'ehnt-RAH-tah",
+          "french": "Alla reception, vicino all'entrata."
+        }
+      ]
+    },
+    {
+      "id": "it_stairs_pos_x1",
+      "intent_en": "Ask how many steps there are in Positano",
+      "text_local": "Scusi, quanti gradini ci sono a Positano?",
+      "pronunciation": "SKOO-zee, KWAN-tee grah-DEE-nee chee SOH-noh ah poh-zee-TAH-noh?",
+      "formality": "polite",
+      "cultural_note": "Positano is built on a steep hillside — there are an estimated 1,500 steps connecting its different levels.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Estimated around 1,500, depending on the route.",
+          "phonetic": "see STEE-mah CHEER-kah MEEL-leh-CHEEN-kweh-CHEN-toh, dee-PEN-deh dal per-KOR-soh.",
+          "french": "Si stima circa millecinquecento, dipende dal percorso."
+        }
+      ]
+    },
+    {
+      "id": "it_stairs_pos_x2",
+      "intent_en": "Ask which steps lead to the ferry port",
+      "text_local": "Scusi, quali scale portano al porto dei traghetti?",
+      "pronunciation": "SKOO-zee, KWAH-lee SKAH-leh por-TAH-noh al POR-toh day trah-GET-tee?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go down Via dei Mulini to the pier.",
+          "phonetic": "SHEN-dah per VEE-ah day moo-LEE-nee FEE-noh al MOH-loh.",
+          "french": "Scenda per Via dei Mulini fino al Molo."
+        }
+      ]
+    },
+    {
+      "id": "it_stairs_pos_x3",
+      "intent_en": "Ask if there is a local bus that avoids the steps",
+      "text_local": "Scusi, c'è un autobus locale per evitare le scale?",
+      "pronunciation": "SKOO-zee, cheh oon ow-toh-BOOS loh-KAH-leh per eh-vee-TAH-reh leh SKAH-leh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the orange internal bus between the church and the port.",
+          "phonetic": "see, leen-TER-noh boos ah-RAN-choh-neh trah lah KYEH-zah eh eel POR-toh.",
+          "french": "Sì, l'interno bus arancione tra la Chiesa e il porto."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

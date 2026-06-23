@@ -1,0 +1,166 @@
+{
+  "id": "crete_heraklion_heraklion_port",
+  "name_en": "Heraklion Port",
+  "name_local": "Λιμάνι Ηρακλείου",
+  "icon": "tram",
+  "lat": 35.3411605,
+  "lon": 25.1388057,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "crete_heraklion_heraklion_port_001",
+      "intent_en": "Is there luggage storage inside the terminal?",
+      "text_local": "Υπάρχει αποθήκη αποσκευών εντός του τερματικού;",
+      "pronunciation": "eepAHrkhee-AHpohthEEee-AHpohsehvOHn-ehdOHs-too-tEHrmahteekOO",
+      "formality": "standard",
+      "cultural_note": "Το τερματικό του Νέου Λιμανιού έχει περιορισμένο χώρο αποσκευών. Ο Λιμενάρχης γνωρίζει τις δυνατότητες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δίπλα στην είσοδο.",
+        "pronunciation": "nEHthEEplah-steen-EEsohthOH",
+        "translation_en": "Yes, next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, next to the entrance.",
+          "phonetic": "nEHthEEplah-steen-EEsohthOH",
+          "french": "Ναι, δίπλα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_port_002",
+      "intent_en": "How do I scan my cruise card?",
+      "text_local": "Πώς γίνεται η σάρωση της κάρτας του κρουαζιερόπλοιου;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-sAHrohsEE-tees-kAHrtahs-too-krOOahzyehrOHplyoo",
+      "formality": "standard",
+      "cultural_note": "Οι κάρτες σαρώνονται αυτόματα στην είσοδο της προβλήτας κρουαζιερόπλοιων. Δεν χρειάζεται χειρισμός από τον επιβάτη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο τερματικό εισόδου.",
+        "pronunciation": "stoh-tEHrmahteekOH-eesOHthoo",
+        "translation_en": "At the entry terminal."
+      },
+      "responses": [
+        {
+          "english": "At the entry terminal.",
+          "phonetic": "stoh-tEHrmahteekOH-eesOHthoo",
+          "french": "Στο τερματικό εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_port_003",
+      "intent_en": "Where is Ferry dock B?",
+      "text_local": "Πού είναι η προβλήτα B;",
+      "pronunciation": "pOO-EEneh-ee-prohvlEEtah-ehnbEEehl",
+      "formality": "standard",
+      "cultural_note": "Η προβλήτα B βρίσκεται στο Νέο Λιμάνι. Οι πινακίδες δείχνουν σαφώς την κατεύθυνση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Προς τα δεξιά, κοντά στο τέρμα.",
+        "pronunciation": "prOHs-tah-thEHkseeAHkohdAH-stoh-tEHrmah",
+        "translation_en": "To the right, near the terminal."
+      },
+      "responses": [
+        {
+          "english": "To the right, near the terminal.",
+          "phonetic": "prOHs-tah-thEHkseeAHkohdAH-stoh-tEHrmah",
+          "french": "Προς τα δεξιά, κοντά στο τέρμα."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_port_004",
+      "intent_en": "When does the next ferry depart?",
+      "text_local": "Πότε αναχωρεί το επόμενο πλοίο;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-ehpOHmehnOH-plEEoh",
+      "formality": "standard",
+      "cultural_note": "Οι ώρες αναχώρησης εμφανίζονται στις οθόνες της προβλήτας. Οι υπάλληλοι μπορούν να επιβεβαιώσουν.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Σε είκοσι λεπτά.",
+        "pronunciation": "seh-EEkohsEE-lehptAH",
+        "translation_en": "In twenty minutes."
+      },
+      "responses": [
+        {
+          "english": "In twenty minutes.",
+          "phonetic": "seh-EEkohsEE-lehptAH",
+          "french": "Σε είκοσι λεπτά."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_port_005",
+      "intent_en": "How do I scan my cruise card?",
+      "text_local": "Πώς σκανάρω την κάρτα του κρουαζιερόπλοιου;",
+      "pronunciation": "pOHs-skahnAHroh-teeng-gAHrtah-too-krOOahzyehrOHplyoo",
+      "formality": "standard",
+      "cultural_note": "Οι συσκευές σάρωσης βρίσκονται στην είσοδο της προβλήτας κρουαζιερόπλοιων. Ο χειρισμός είναι αυτοεπεξηγηματικός.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Επάνω στη συσκευή.",
+        "pronunciation": "ehpAHnoh-stee-sEEsehvEE",
+        "translation_en": "At the scanner device."
+      },
+      "responses": [
+        {
+          "english": "At the scanner device.",
+          "phonetic": "ehpAHnoh-stee-sEEsehvEE",
+          "french": "Επάνω στη συσκευή."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_port_006",
+      "intent_en": "Where is the ferry ticket booth?",
+      "text_local": "Πού είναι το γραφείο εισιτηρίων;",
+      "pronunciation": "pOO-EEneh-toh-ghrahfEEoh-EEseeteerEEohn",
+      "formality": "standard",
+      "cultural_note": "Το γραφείο εισιτηρίων βρίσκεται κοντά στην πύλη εισόδου του Λιμανιού Ηρακλείου. Ακολουθήστε τις πινακίδες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην κύρια είσοδο.",
+        "pronunciation": "steeng-gEEreeAH-EEsohthOH",
+        "translation_en": "At the main entrance."
+      },
+      "responses": [
+        {
+          "english": "At the main entrance.",
+          "phonetic": "steeng-gEEreeAH-EEsohthOH",
+          "french": "Στην κύρια είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_port_007",
+      "intent_en": "Where is the check-in kiosk?",
+      "text_local": "Πού είναι το περίπτερο check-in στο λιμάνι;",
+      "pronunciation": "pOO-EEneh-oh-stahthmOHs-ahftOHmahtEEs-EHkseepeerEHteesEEs",
+      "formality": "standard",
+      "cultural_note": "Καλείται συχνά 'αυτόματος σταθμός' ή 'κουπόνια check-in' από τους ταξιδιώτες. Οι υπάλληλοι κατανοούν το αίτημα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο του τερματικού.",
+        "pronunciation": "steen-EEsohthOH-too-tEHrmahteekOO",
+        "translation_en": "At the entrance of the terminal."
+      },
+      "responses": [
+        {
+          "english": "At the entrance of the terminal.",
+          "phonetic": "steen-EEsohthOH-too-tEHrmahteekOO",
+          "french": "Στην είσοδο του τερματικού."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

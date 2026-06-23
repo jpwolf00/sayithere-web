@@ -1,0 +1,144 @@
+{
+  "id": "cappadocia_kaymaklı_underground_city",
+  "name_en": "Kaymaklı Underground City",
+  "name_local": "Kaymaklı Yeraltı Şehri",
+  "icon": "building.columns",
+  "lat": 38.6386124,
+  "lon": 34.8455184,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "cappadocia_kaymaklı_underground_city_001",
+      "intent_en": "Is the guided tour available now?",
+      "text_local": "Rehberli tur şu an mevcut mu?",
+      "pronunciation": "rehhbehrlIH-tUHr-shuh-AHn-mehvdzhUHt-muh",
+      "formality": "standard",
+      "cultural_note": "Real-time availability is not confirmed in the venue context, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, başlangıçta rehber var.",
+        "pronunciation": "ehvEHtbahshahngootshtAH-rehhbEHr-vAHr",
+        "translation_en": "Yes, there is a guide at the start."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a guide at the start.",
+          "phonetic": "ehvEHtbahshahngootshtAH-rehhbEHr-vAHr",
+          "french": "Evet, başlangıçta rehber var."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_kaymaklı_underground_city_002",
+      "intent_en": "Where is the church with frescoes?",
+      "text_local": "Freskli kilise nerede?",
+      "pronunciation": "frehsklIH-keelEEseh-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The Church (Kilise) is a stable target. Signage is assumed for a standard visitor route.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişten sonra ikinci katta.",
+        "pronunciation": "eerihshtAHn-sawnrAH-eekihndzhIH-kahtAH",
+        "translation_en": "On the second floor after the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the second floor after the entrance.",
+          "phonetic": "eerihshtAHn-sawnrAH-eekihndzhIH-kahtAH",
+          "french": "Girişten sonra ikinci katta."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_kaymaklı_underground_city_003",
+      "intent_en": "Can I enter with claustrophobia concerns?",
+      "text_local": "Klostrofobi sorunum var, girebilir miyim?",
+      "pronunciation": "kawstrohfohbIH-sohrOOnuhm-vAHreerehbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Dar tüneller klostrofobiyi tetikleyebilir; giriş yapıp yapamayacağınız konusunda en doğru bilgiyi görevli verir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmaya sorun, tüneller dar.",
+        "pronunciation": "dahnOOshmahyah-sohrUHntuenahllEHr-dAHr",
+        "translation_en": "Ask at the information desk, tunnels are narrow."
+      },
+      "responses": [
+        {
+          "english": "Ask at the information desk, tunnels are narrow.",
+          "phonetic": "dahnOOshmahyah-sohrUHntuenahllEHr-dAHr",
+          "french": "Danışmaya sorun, tüneller dar."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_kaymaklı_underground_city_004",
+      "intent_en": "Can I enter with claustrophobia concerns?",
+      "text_local": "Klostrofobi endişesiyle girebilir miyim?",
+      "pronunciation": "kawstrohfohbIH-ahndeeshehsIHyleh-eerehbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Safety and accessibility advice requires staff judgment, so a referral is necessary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girmek zor olabilir.",
+        "pronunciation": "ihrmEHk-zAWr-ohahbeelIHr",
+        "translation_en": "It might be difficult to enter."
+      },
+      "responses": [
+        {
+          "english": "It might be difficult to enter.",
+          "phonetic": "ihrmEHk-zAWr-ohahbeelIHr",
+          "french": "Girmek zor olabilir."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_kaymaklı_underground_city_005",
+      "intent_en": "Where is the wine cellar level?",
+      "text_local": "Şarap mahzeni hangi katta?",
+      "pronunciation": "shahrAHp-mahhzehnIH-hahngIH-kahtAH",
+      "formality": "standard",
+      "cultural_note": "Specific level placements are not provided in the venue context, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zemin katta.",
+        "pronunciation": "zehmIHn-kahtAH",
+        "translation_en": "On the ground floor."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor.",
+          "phonetic": "zehmIHn-kahtAH",
+          "french": "Zemin katta."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_kaymaklı_underground_city_006",
+      "intent_en": "How do I rent the audio guide?",
+      "text_local": "Sesli rehberi nasıl kiralarım?",
+      "pronunciation": "sehslIH-rehhbehrIH-nahsOO-keerahAHroom",
+      "formality": "standard",
+      "cultural_note": "The exact rental process is not specified in the venue context, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki dolaptan alabilirsiniz.",
+        "pronunciation": "eerihshtehkIH-dohahptAHn-ahahbeelIHrseenihz",
+        "translation_en": "You can get it from the cabinet at the entrance."
+      },
+      "responses": [
+        {
+          "english": "You can get it from the cabinet at the entrance.",
+          "phonetic": "eerihshtehkIH-dohahptAHn-ahahbeelIHrseenihz",
+          "french": "Girişteki dolaptan alabilirsiniz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

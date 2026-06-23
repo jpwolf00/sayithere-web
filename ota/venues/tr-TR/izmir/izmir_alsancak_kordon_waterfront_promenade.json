@@ -1,0 +1,144 @@
+{
+  "id": "izmir_alsancak_kordon_waterfront_promenade",
+  "name_en": "Alsancak Kordon waterfront promenade",
+  "name_local": "Alsancak Kordon",
+  "icon": "map",
+  "lat": 38.4192537,
+  "lon": 27.128469,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "izmir_alsancak_kordon_waterfront_promenade_001",
+      "intent_en": "Where to rent a pedal boat?",
+      "text_local": "Kordon'da bisiklet kiralama yeri neresi?",
+      "pronunciation": "dEHnihz-beesihklehtIH-nEHrehdeh-keerahahyahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Sahil bölgesinde kiralama noktaları mevsimsel olarak yer değiştirebilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pasaport İskelesi'nin orada.",
+        "pronunciation": "pahsahpAWrt-ihskehlehseenIHn-OHrahdah",
+        "translation_en": "Near Pasaport Pier."
+      },
+      "responses": [
+        {
+          "english": "Near Pasaport Pier.",
+          "phonetic": "pahsahpAWrt-ihskehlehseenIHn-OHrahdah",
+          "french": "Pasaport İskelesi'nin orada."
+        }
+      ]
+    },
+    {
+      "id": "izmir_alsancak_kordon_waterfront_promenade_002",
+      "intent_en": "Where is Kıbrıs Şehitleri dining street?",
+      "text_local": "Kıbrıs Şehitleri Caddesi nerede?",
+      "pronunciation": "koobrOOs-shehhihtlehrIH-dzhahdehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "No directional cues are available for this street in the venue context, so a safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pasaport İskelesi'nden Konak Pier'e doğru yürüyün, cadde sahile paralel.",
+        "pronunciation": "pahsahpAWrt-ihskehlehsihndAHn-kohnAHk-peeehrEH-dohrUH-yuerueyUHndzhahdEH-sahhEEleh-pahrahlAHl",
+        "translation_en": "Walk from Pasaport Pier towards Konak Pier, the street is parallel to the shoreline."
+      },
+      "responses": [
+        {
+          "english": "Walk from Pasaport Pier towards Konak Pier, the street is parallel to the shoreline.",
+          "phonetic": "pahsahpAWrt-ihskehlehsihndAHn-kohnAHk-peeehrEH-dohrUH-yuerueyUHndzhahdEH-sahhEEleh-pahrahlAHl",
+          "french": "Pasaport İskelesi'nden Konak Pier'e doğru yürüyün, cadde sahile paralel."
+        }
+      ]
+    },
+    {
+      "id": "izmir_alsancak_kordon_waterfront_promenade_003",
+      "intent_en": "Where to buy İzmirim Kart?",
+      "text_local": "İzmirim Kart'ı nereden alabilirim?",
+      "pronunciation": "IHzmeerihm-kAHrt-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "İzmirim Kart satış noktaları için en güncel bilgi danışmadan alınır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşıdaki büfede var.",
+        "pronunciation": "kahrshoodahkIH-buefehdEH-vAHr",
+        "translation_en": "It's available at the kiosk across the way."
+      },
+      "responses": [
+        {
+          "english": "It's available at the kiosk across the way.",
+          "phonetic": "kahrshoodahkIH-buefehdEH-vAHr",
+          "french": "Karşıdaki büfede var."
+        }
+      ]
+    },
+    {
+      "id": "izmir_alsancak_kordon_waterfront_promenade_004",
+      "intent_en": "Where to buy İzmirim Kart?",
+      "text_local": "İzmirim Kart nereden alabilirim?",
+      "pronunciation": "IHzmeerihm-kAHrt-nEHrehdahn-ahoonOOr",
+      "formality": "standard",
+      "cultural_note": "The venue context does not list a specific sales point for this card, so a safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kordondaki büfelerden birinden.",
+        "pronunciation": "kawrdawndahkIH-buefehlehrdAHn-beerihndAHn",
+        "translation_en": "From one of the kiosks on the promenade."
+      },
+      "responses": [
+        {
+          "english": "From one of the kiosks on the promenade.",
+          "phonetic": "kawrdawndahkIH-buefehlehrdAHn-beerihndAHn",
+          "french": "Kordondaki büfelerden birinden."
+        }
+      ]
+    },
+    {
+      "id": "izmir_alsancak_kordon_waterfront_promenade_005",
+      "intent_en": "Where is Pasaport ferry pier?",
+      "text_local": "Pasaport İskelesi nerede?",
+      "pronunciation": "pahsahpAWrt-ihskehlehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Direct positional cues are not available in the venue context, so a safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yürümeye devam edin, solda kalıyor.",
+        "pronunciation": "yuerUEmehyeh-dehvAHm-ehdEEnsawdAH-kahOOyawr",
+        "translation_en": "Keep walking, it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Keep walking, it's on the left.",
+          "phonetic": "yuerUEmehyeh-dehvAHm-ehdEEnsawdAH-kahOOyawr",
+          "french": "Yürümeye devam edin, solda kalıyor."
+        }
+      ]
+    },
+    {
+      "id": "izmir_alsancak_kordon_waterfront_promenade_006",
+      "intent_en": "Where to rent a pedal boat?",
+      "text_local": "Sahilde deniz bisikleti var mı?",
+      "pronunciation": "dEHnihz-beesihklehtIH-nEHrehdahn-keerahahnOOr",
+      "formality": "standard",
+      "cultural_note": "The exact location of the rental point is not specified, so a safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pasaport tarafında var.",
+        "pronunciation": "pahsahpAWrt-tahrahfoondAH-vAHr",
+        "translation_en": "There are some on the Pasaport side."
+      },
+      "responses": [
+        {
+          "english": "There are some on the Pasaport side.",
+          "phonetic": "pahsahpAWrt-tahrahfoondAH-vAHr",
+          "french": "Pasaport tarafında var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

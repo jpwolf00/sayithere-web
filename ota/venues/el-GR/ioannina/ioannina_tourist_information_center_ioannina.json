@@ -1,0 +1,100 @@
+{
+  "id": "ioannina_tourist_information_center_ioannina",
+  "name_en": "Tourist Information Center Ioannina",
+  "name_local": "Τουριστικό Γραφείο Ιωαννίνων",
+  "icon": "info.circle",
+  "lat": 39.6639818,
+  "lon": 20.8522784,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "ioannina_tourist_information_center_ioannina_001",
+      "intent_en": "Is the Zagori park pass available here?",
+      "text_local": "Έχετε άδεια για το πάρκο Ζαγορίου;",
+      "pronunciation": "EHkhehtEH-AHthkhah-yAH-toh-pAHrkoh-zAHghohrEEoo",
+      "formality": "standard",
+      "cultural_note": "The Zagori park entry fee is a stable target, and such tickets are commonly sold or issued at tourist information offices.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο γκισέ πληροφοριών.",
+        "pronunciation": "nEHstoh-geesEH-plEErohfOHreeOHn",
+        "translation_en": "Yes, ask the clerk."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the clerk.",
+          "phonetic": "nEHstoh-geesEH-plEErohfOHreeOHn",
+          "french": "Ναι, στο γκισέ πληροφοριών."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_tourist_information_center_ioannina_002",
+      "intent_en": "Do you sell maps at this desk?",
+      "text_local": "Πωλείτε χάρτες εδώ;",
+      "pronunciation": "pohlEEteh-khAHrtehs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Epirus regional maps are listed as a stable target, implying they are available for purchase at the counter.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, εδώ.",
+        "pronunciation": "nEHehthOH",
+        "translation_en": "Yes, here."
+      },
+      "responses": [
+        {
+          "english": "Yes, here.",
+          "phonetic": "nEHehthOH",
+          "french": "Ναι, εδώ."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_tourist_information_center_ioannina_003",
+      "intent_en": "How do I reserve the Pamvotis ferry?",
+      "text_local": "Πώς κάνω κράτηση για το πλοίο της λίμνης;",
+      "pronunciation": "pOHs-kAHnoh-krAHteesEE-yAH-toh-plEEoh-teez-lEEmnees",
+      "formality": "standard",
+      "cultural_note": "The Pamvotis Lake ferry is a stable service, and reservations or ticketing are typically handled through the information desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο γκισέ, κάνει κράτηση ο υπάλληλος.",
+        "pronunciation": "stoh-geesEHkAHnee-krAHteesEE-oh-eepAHleelOHs",
+        "translation_en": "At the counter, the employee makes the reservation."
+      },
+      "responses": [
+        {
+          "english": "At the counter, the employee makes the reservation.",
+          "phonetic": "stoh-geesEHkAHnee-krAHteesEE-oh-eepAHleelOHs",
+          "french": "Στο γκισέ, κάνει κράτηση ο υπάλληλος."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_tourist_information_center_ioannina_004",
+      "intent_en": "Where is the bus to Athens?",
+      "text_local": "Πού είναι το λεωφορείο προς Αθήνα;",
+      "pronunciation": "pOO-EEneh-toh-lEHohfohrEEoh-prOHs-ahthEEnah",
+      "formality": "standard",
+      "cultural_note": "In Ioannina, bus ticket services are typically handled at a dedicated counter or desk, often indicated with signage like 'Λεωφορεία' or 'Αθήνα'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την άλλη πλευρά της πλατείας.",
+        "pronunciation": "ahpOH-teen-AHlee-plehvrAH-tees-plahtEEahs",
+        "translation_en": "From the other side of the square."
+      },
+      "responses": [
+        {
+          "english": "From the other side of the square.",
+          "phonetic": "ahpOH-teen-AHlee-plehvrAH-tees-plahtEEahs",
+          "french": "Από την άλλη πλευρά της πλατείας."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

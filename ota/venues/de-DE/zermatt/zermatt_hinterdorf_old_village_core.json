@@ -1,0 +1,78 @@
+{
+  "id": "zermatt_hinterdorf_old_village_core",
+  "name_en": "Hinterdorf Old Village Core",
+  "name_local": "Hinterdorf",
+  "icon": "map",
+  "lat": 46.0208538,
+  "lon": 7.747613,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "zermatt_hinterdorf_old_village_core_001",
+      "intent_en": "Where can I buy cable car tickets",
+      "text_local": "Wo gibt es Fahrkarten für die Gondel?",
+      "pronunciation": "vOH-EEpt-ehs-fAHrkahrtuhn-fuer-dee-AWnduhl",
+      "formality": "standard",
+      "cultural_note": "Gondelbahn-Schalter sind oft an zentralen Zugängen zum Bergbahn-Netz, nicht zwingend im historischen Ortskern.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Gondelbahn.",
+        "pronunciation": "ahm-shAHlt-dehr-AWnduhlbAHn",
+        "translation_en": "At the cable car ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the cable car ticket counter.",
+          "phonetic": "ahm-shAHlt-dehr-AWnduhlbAHn",
+          "french": "Am Schalter der Gondelbahn."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_hinterdorf_old_village_core_002",
+      "intent_en": "Where can I buy alpine cheese direct",
+      "text_local": "Wo gibt es hiesigen Alpkäse direkt zu kaufen?",
+      "pronunciation": "vOH-EEpt-ehs-hEEzihuhn-AHlpkehzuh-deerEHkt-tsoo-kOWfuhn",
+      "formality": "casual",
+      "cultural_note": "Frischer Alpkäse wird oft beim Hersteller oder in lokalen Läden am Dorfrand verkauft.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Beim Käser am Dorfeingang.",
+        "pronunciation": "beyem-kEHz-ahm-dAWrfeyengAHng",
+        "translation_en": "At the cheesemaker at the village entrance."
+      },
+      "responses": [
+        {
+          "english": "At the cheesemaker at the village entrance.",
+          "phonetic": "beyem-kEHz-ahm-dAWrfeyengAHng",
+          "french": "Beim Käser am Dorfeingang."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_hinterdorf_old_village_core_003",
+      "intent_en": "Where is parking payment at village edge",
+      "text_local": "Wo zahle ich Parkgebühren am Dorfrand?",
+      "pronunciation": "vOH-tsAHluh-ihkh-pAHrkehbUEruhn-ahm-dAWrfrahnt",
+      "formality": "standard",
+      "cultural_note": "Parkgebühren werden oft an Automaten am Rande des autofreien Bereichs erhoben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Parkautomaten am Dorfeingang.",
+        "pronunciation": "ahm-pAHrkowtohmAHtuhn-ahm-dAWrfeyengAHng",
+        "translation_en": "At the parking meter at the village entrance."
+      },
+      "responses": [
+        {
+          "english": "At the parking meter at the village entrance.",
+          "phonetic": "ahm-pAHrkowtohmAHtuhn-ahm-dAWrfeyengAHng",
+          "french": "Am Parkautomaten am Dorfeingang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

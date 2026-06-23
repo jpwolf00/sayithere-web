@@ -1,0 +1,152 @@
+{
+  "id": "venue_bouillon_chartier",
+  "name_en": "Bouillon Chartier",
+  "name_local": "Bouillon Chartier",
+  "icon": "fork.knife",
+  "phrases": [
+    {
+      "id": "venue_bouillon_chartier_001",
+      "intent_en": "Ask how long the wait is",
+      "text_local": "Combien de temps faut-il attendre pour avoir une table ?",
+      "pronunciation": "kohm-BYEHN duh tahn foh-TEEL ah-TAHN-druh poor ah-VWAR oon TAH-bluh",
+      "formality": "standard",
+      "cultural_note": "Bouillon Chartier does not take reservations. A queue forms outside — arrive before opening (11:30am for lunch, 7pm for dinner) to minimize the wait. The queue moves surprisingly fast as the waiters fill the large dining room efficiently.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About a twenty-minute wait right now.",
+          "phonetic": "ahn-vee-ROHN van mee-NOOT dah-TAHNT ahn suh moh-MAHN",
+          "french": "Environ vingt minutes d'attente en ce moment."
+        }
+      ]
+    },
+    {
+      "id": "venue_bouillon_chartier_002",
+      "intent_en": "Ask the waiter to explain the daily specials",
+      "text_local": "Quels sont les plats du jour, s'il vous plaît ?",
+      "pronunciation": "kel sohn lay PLAH doo ZHOOR, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Bouillon Chartier has operated since 1896, serving traditional French working-class cuisine at remarkably low prices. Main courses are typically under €15. The waiters write your order directly on the paper tablecloth in a classic brasserie tradition.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Today it is beef bourguignon and veal blanquette.",
+          "phonetic": "oh-zhoor-DWEE seh luh buhf boor-ghee-NYOHN ay lah blahn-KET duh voh",
+          "french": "Aujourd'hui c'est le bœuf bourguignon et la blanquette de veau."
+        }
+      ]
+    },
+    {
+      "id": "venue_bouillon_chartier_003",
+      "intent_en": "Order the pot-au-feu (traditional boiled beef stew)",
+      "text_local": "Je vais prendre le pot-au-feu, s'il vous plaît.",
+      "pronunciation": "zhuh veh PRAHN-druh luh poh-toh-FUH, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Pot-au-feu is one of the signature dishes at Chartier — a slow-cooked broth with beef, vegetables, and marrow bone. It's the kind of dish that sustained Parisian workers for generations. The escargots and onion soup are also excellent and very affordable here.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "One pot-au-feu, very well. Coming right up.",
+          "phonetic": "uhn poh-toh-FUH, treh byahn. sah ah-REEV",
+          "french": "Un pot-au-feu, très bien. Ça arrive."
+        }
+      ]
+    },
+    {
+      "id": "venue_bouillon_chartier_004",
+      "intent_en": "Ask for the house wine",
+      "text_local": "Un pichet de vin rouge maison, s'il vous plaît.",
+      "pronunciation": "uhn pee-SHEH duh vehn ROOZH meh-ZOHN, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "House wine ('vin maison') at Chartier is served by the 'pichet' (a small jug) and is inexpensive. The wine list is simple but honest. A quarter-litre carafe is called 'un quart', a half-litre is 'un demi'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The pitcher of red or white?",
+          "phonetic": "luh pee-SHAY duh roozh oo duh blahn",
+          "french": "Le pichet de rouge ou de blanc ?"
+        }
+      ]
+    },
+    {
+      "id": "venue_bouillon_chartier_005",
+      "intent_en": "Ask where the toilets are",
+      "text_local": "Où sont les toilettes, s'il vous plaît ?",
+      "pronunciation": "oo sohn lay twah-LET, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "In older Parisian restaurants, the toilets are often in the basement.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Downstairs, the staircase is at the back of the room.",
+          "phonetic": "ahn bah, les-kah-lee-YAY eh toh fohn duh lah sal",
+          "french": "En bas, l'escalier est au fond de la salle."
+        }
+      ]
+    },
+    {
+      "id": "venue_bouillon_chartier_006",
+      "intent_en": "Ask for the bill and confirm it is calculated correctly",
+      "text_local": "L'addition, s'il vous plaît — et pouvez-vous vérifier le total ?",
+      "pronunciation": "lah-dee-SYOHN, seel voo PLEH — ay poo-VAY voo vay-ree-FYAY luh toh-TAL",
+      "formality": "polite",
+      "cultural_note": "The bill is tallied up by the waiter directly on your paper tablecloth using traditional addition. It is worth double-checking as mistakes can happen in the rush. Chartier has a Grands Boulevards location (9th arr) and a Montparnasse location — both excellent.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Here is the bill. It is twenty-three euros fifty.",
+          "phonetic": "vwah-LAH lah-dee-SYOHN. seh vant-trwah uh-ROH san-KAHNT",
+          "french": "Voilà l'addition. C'est vingt-trois euros cinquante."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Daily special",
+      "word_local": "Plat du jour",
+      "pronunciation": "PLAH doo ZHOOR"
+    },
+    {
+      "word_en": "House wine",
+      "word_local": "Vin maison",
+      "pronunciation": "vehn meh-ZOHN"
+    },
+    {
+      "word_en": "Jug of wine",
+      "word_local": "Pichet",
+      "pronunciation": "pee-SHEH"
+    },
+    {
+      "word_en": "Bill",
+      "word_local": "Addition",
+      "pronunciation": "ah-dee-SYOHN"
+    },
+    {
+      "word_en": "Starter / Appetizer",
+      "word_local": "Entrée",
+      "pronunciation": "ahn-TRAY"
+    },
+    {
+      "word_en": "Main course",
+      "word_local": "Plat principal",
+      "pronunciation": "PLAH pran-see-PAL"
+    },
+    {
+      "word_en": "Dessert",
+      "word_local": "Dessert",
+      "pronunciation": "deh-SEHR"
+    },
+    {
+      "word_en": "Brasserie",
+      "word_local": "Brasserie",
+      "pronunciation": "brah-suh-REE"
+    }
+  ]
+}

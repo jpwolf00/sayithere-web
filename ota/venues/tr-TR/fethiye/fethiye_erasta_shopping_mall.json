@@ -1,0 +1,144 @@
+{
+  "id": "fethiye_erasta_shopping_mall",
+  "name_en": "Erasta Shopping Mall",
+  "name_local": "Erasta AVM",
+  "icon": "bag",
+  "lat": 36.6225202,
+  "lon": 29.1317631,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "fethiye_erasta_shopping_mall_001",
+      "intent_en": "Ask if mobile top-up kiosk sells tourist SIMs",
+      "text_local": "Mobil yükleme kioskunda uluslararası geçiş kartı var mı?",
+      "pronunciation": "kawntUHr-keeawskuhndAH-toorIHst-sEHOOmEH-kahrtOO-sahtooOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Kiosk stock varies; staff refer uncertain queries to the information desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Maalesef yok.",
+        "pronunciation": "mahahlehsEHf-yAWk",
+        "translation_en": "Unfortunately, there isn't."
+      },
+      "responses": [
+        {
+          "english": "Unfortunately, there isn't.",
+          "phonetic": "mahahlehsEHf-yAWk",
+          "french": "Maalesef yok."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_erasta_shopping_mall_002",
+      "intent_en": "Ask where CarrefourSA checkout with express lane is",
+      "text_local": "CarrefourSA'da ekspres kasa nerede?",
+      "pronunciation": "dzhahrrehfohUHr-sahdAH-ehksprEHs-kAHsah-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Specific checkout lane locations are not listed; the info desk can direct you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kasa alanının sağında.",
+        "pronunciation": "kAHsah-ahahnoonOOn-sahoondAH",
+        "translation_en": "On the right side of the checkout area."
+      },
+      "responses": [
+        {
+          "english": "On the right side of the checkout area.",
+          "phonetic": "kAHsah-ahahnoonOOn-sahoondAH",
+          "french": "Kasa alanının sağında."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_erasta_shopping_mall_003",
+      "intent_en": "Ask if mobile top-up kiosk sells tourist SIMs",
+      "text_local": "Alışveriş merkezinde SIM kart satan bir yer var mı?",
+      "pronunciation": "mohbIHl-yUHklehmeh-keeawskuhndAH-toorIHst-sEHOOmEH-kahrtOO-sahtooOOyawr-muh",
+      "formality": "casual",
+      "cultural_note": "Product availability at specific kiosks is not detailed; the info desk can confirm.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Hayır, sadece kontör var.",
+        "pronunciation": "hahyOOrsahdEHdzheh-kawntUHr-vAHr",
+        "translation_en": "No, only top-up credit."
+      },
+      "responses": [
+        {
+          "english": "No, only top-up credit.",
+          "phonetic": "hahyOOrsahdEHdzheh-kawntUHr-vAHr",
+          "french": "Hayır, sadece kontör var."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_erasta_shopping_mall_004",
+      "intent_en": "Ask where to validate parking ticket",
+      "text_local": "Otopark biletini nerede onaylatabilirim?",
+      "pronunciation": "ohtohpAHrk-beelehteenIH-nEHrehdeh-ohnahyahtahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "The exact location of validation machines is not specified; the info desk can assist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çıkıştaki makinede.",
+        "pronunciation": "tshookooshtahkIH-mahkeenehdEH",
+        "translation_en": "At the machine near the exit."
+      },
+      "responses": [
+        {
+          "english": "At the machine near the exit.",
+          "phonetic": "tshookooshtahkIH-mahkeenehdEH",
+          "french": "Çıkıştaki makinede."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_erasta_shopping_mall_005",
+      "intent_en": "Ask if cinema has English subtitles tonight",
+      "text_local": "Bu akşam sinemada İngilizce altyazılı film var mı?",
+      "pronunciation": "buh-ahkshahmkIH-fihlmlEHr-ihnEElihzdzheh-ahtyahzooOO-moo",
+      "formality": "standard",
+      "cultural_note": "Cinema schedules are variable; staff direct specific queries to the info point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, birkaç film var.",
+        "pronunciation": "ehvEHtbihrkAHtsh-fIHlm-vAHr",
+        "translation_en": "Yes, there are a few movies."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are a few movies.",
+          "phonetic": "ehvEHtbihrkAHtsh-fIHlm-vAHr",
+          "french": "Evet, birkaç film var."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_erasta_shopping_mall_006",
+      "intent_en": "Ask if cinema has English subtitles tonight",
+      "text_local": "Bu akşam sinemada İngilizce altyazı var mı?",
+      "pronunciation": "buh-ahkshAHm-seenEHmahdah-ihnEElihzdzheh-ahtyahzOO-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Showtimes and subtitle availability change; info desk has the latest schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çoğu filmde var.",
+        "pronunciation": "tshohUH-fihlmdEH-vAHr",
+        "translation_en": "Most movies have it."
+      },
+      "responses": [
+        {
+          "english": "Most movies have it.",
+          "phonetic": "tshohUH-fihlmdEH-vAHr",
+          "french": "Çoğu filmde var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

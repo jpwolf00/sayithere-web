@@ -1,0 +1,122 @@
+{
+  "id": "freiburg_markthalle_freiburg",
+  "name_en": "Markthalle Freiburg",
+  "name_local": "Markthalle Freiburg",
+  "icon": "fork.knife",
+  "lat": 47.9939866,
+  "lon": 7.8498408,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "freiburg_markthalle_freiburg_001",
+      "intent_en": "Where is Martinsbräu drink order area",
+      "text_local": "Wo kann ich Martinsbräu bestellen?",
+      "pronunciation": "vOH-EEpt-ehs-mAHrtihnsbrAWuhuhtrEHngkuh",
+      "formality": "standard",
+      "cultural_note": "Martinsbräu is a distinct brand section. Staff expect a direct inquiry about its location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt an der Theke.",
+        "pronunciation": "deerEHkt-ahn-dehr-tEHkuh",
+        "translation_en": "Directly at the counter."
+      },
+      "responses": [
+        {
+          "english": "Directly at the counter.",
+          "phonetic": "deerEHkt-ahn-dehr-tEHkuh",
+          "french": "Direkt an der Theke."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_markthalle_freiburg_002",
+      "intent_en": "Is market seating available upstairs",
+      "text_local": "Gibt es oben Sitzplätze?",
+      "pronunciation": "EEpt-ehs-OHbuhn-zIHtsplehtsuh",
+      "formality": "standard",
+      "cultural_note": "German markets rarely advertise seating. Upstairs areas may have benches or standing tables.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_markthalle_freiburg_003",
+      "intent_en": "Do vendors accept cash only",
+      "text_local": "Nehmen die Händler nur Bargeld?",
+      "pronunciation": "nEHmuhn-dee-hEHndl-nOOr-bAHrehlt",
+      "formality": "standard",
+      "cultural_note": "Cash is widely accepted at German market stalls, but some may prefer card. Vendors rarely advertise this.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_markthalle_freiburg_004",
+      "intent_en": "Where is the TAM theater ticket counter",
+      "text_local": "Wo ist die Theaterkasse vom TAM?",
+      "pronunciation": "vOH-ihst-dee-tEHahtkAHsuh",
+      "formality": "standard",
+      "cultural_note": "Theaterkasse is typically a visible counter or booth in German venues. Staff expect a direct inquiry.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss links.",
+        "pronunciation": "ihm-ehrdgEHshaws-lINGks",
+        "translation_en": "On the ground floor to the left."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor to the left.",
+          "phonetic": "ihm-ehrdgEHshaws-lINGks",
+          "french": "Im Erdgeschoss links."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_markthalle_freiburg_005",
+      "intent_en": "Which queue for separate stall purchases",
+      "text_local": "Welche Schlange für jeden Stand?",
+      "pronunciation": "vOH-ihst-dee-vAHrtehshlAHnguh-fuer-EYEntsEHlnuh-shtEHnduh",
+      "formality": "standard",
+      "cultural_note": "German markets use flexible queue systems. The Marktmeister oversees order.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Jeder Stand hat seine eigene.",
+        "pronunciation": "yEHd-shtAHnt-haht-zEYEnuh-EYEguhnuh",
+        "translation_en": "Each stall has its own."
+      },
+      "responses": [
+        {
+          "english": "Each stall has its own.",
+          "phonetic": "yEHd-shtAHnt-haht-zEYEnuh-EYEguhnuh",
+          "french": "Jeder Stand hat seine eigene."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

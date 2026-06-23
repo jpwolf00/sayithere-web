@@ -1,0 +1,100 @@
+{
+  "id": "linz_donau_park",
+  "name_en": "Donau Park",
+  "name_local": "Donaupark",
+  "icon": "leaf",
+  "lat": 50.5664435,
+  "lon": 7.2773505,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "linz_donau_park_001",
+      "intent_en": "Where is the Orth an der Donau parking",
+      "text_local": "Wo ist der Parkplatz Orth an der Donau?",
+      "pronunciation": "vOH-ihst-dehr-pAHrkplahts-AWrt-ahn-dehr-dOHnow",
+      "formality": "standard",
+      "cultural_note": "Orth an der Donau ist eine spezifische Zone im Donaupark. Direkte Mikro-Details sind nicht angegeben, daher wird eine allgemeine Richtungsangabe mit impliziter Pluralform (Parkplätze) genutzt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Parkplatz Orth an der Donau rechts.",
+        "pronunciation": "pAHrkplahts-AWrt-ahn-dehr-dOHnow-rEHkhts",
+        "translation_en": "Parking Orth an der Donau to the right."
+      },
+      "responses": [
+        {
+          "english": "Parking Orth an der Donau to the right.",
+          "phonetic": "pAHrkplahts-AWrt-ahn-dehr-dOHnow-rEHkhts",
+          "french": "Parkplatz Orth an der Donau rechts."
+        }
+      ]
+    },
+    {
+      "id": "linz_donau_park_002",
+      "intent_en": "Can I book a guided nature tour",
+      "text_local": "Kann man eine Naturführung buchen?",
+      "pronunciation": "kAHn-mahn-EYEnuh-nahtOOrfUEruhng-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Führungen werden typischerweise an zentralen Schaltern oder Infopunkten vermittelt. Die Antwort verweist auf eine etablierte Service-Stelle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, über den Nationalpark Ranger.",
+        "pronunciation": "yAHUEb-dehn-nAHtsyOHnahlpAHrk-rAHng",
+        "translation_en": "Yes, through the national park ranger."
+      },
+      "responses": [
+        {
+          "english": "Yes, through the national park ranger.",
+          "phonetic": "yAHUEb-dehn-nAHtsyOHnahlpAHrk-rAHng",
+          "french": "Ja, über den Nationalpark Ranger."
+        }
+      ]
+    },
+    {
+      "id": "linz_donau_park_003",
+      "intent_en": "Is entry to the national park free",
+      "text_local": "Ist der Eintritt in den Nationalpark frei?",
+      "pronunciation": "ihst-dehr-EYEntrIHt-ihn-dehn-nAHtsyOHnahlpAHrk-frEYE",
+      "formality": "standard",
+      "cultural_note": "Eintritt frei ist eine etablierte Information für den Nationalpark Donau-Auen. Die kurze Antwort entspricht der Erwartungshaltung an Schildern und Info-Stellen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Eintritt ist frei.",
+        "pronunciation": "yAHEYEntrIHt-ihst-frEYE",
+        "translation_en": "Yes, entry is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "yAHEYEntrIHt-ihst-frEYE",
+          "french": "Ja, Eintritt ist frei."
+        }
+      ]
+    },
+    {
+      "id": "linz_donau_park_004",
+      "intent_en": "Where are the riparian forest trails",
+      "text_local": "Wo sind die Auwald-Wanderwege?",
+      "pronunciation": "vOH-zihnt-dee-OWvahltvAHndvEHuh",
+      "formality": "standard",
+      "cultural_note": "Auwald-Wanderwege sind stabile Ziele im Donaupark. Die Antwort folgt dem etablierten Muster für Wegweisung in Parks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Wege beginnen an der Lobau.",
+        "pronunciation": "dee-vEHguh-buhgIHnuhn-ahn-dehr-lOHbow",
+        "translation_en": "The trails start at the Lobau."
+      },
+      "responses": [
+        {
+          "english": "The trails start at the Lobau.",
+          "phonetic": "dee-vEHguh-buhgIHnuhn-ahn-dehr-lOHbow",
+          "french": "Die Wege beginnen an der Lobau."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

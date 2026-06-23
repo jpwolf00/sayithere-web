@@ -1,0 +1,122 @@
+{
+  "id": "zermatt_coop_supermarket_zermatt_center",
+  "name_en": "Coop Supermarket Zermatt Center",
+  "name_local": "Coop Zentrum",
+  "icon": "info.circle",
+  "lat": 46.0212076,
+  "lon": 7.749254,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "zermatt_coop_supermarket_zermatt_center_001",
+      "intent_en": "Where is the Raclette cheese counter",
+      "text_local": "Wo ist die Raclette-Käsetheke?",
+      "pronunciation": "vOH-ihst-dee-rAHklehtuhkEHzehtEHkuh",
+      "formality": "standard",
+      "cultural_note": "Raclette cheese is a staple in Swiss cuisine, especially in regions like Zermatt. Coop stores typically have a dedicated cheese counter staffed by specialists ('Käsefachverkäufer') for regional and specialty cheeses.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich vorne, links.",
+        "pronunciation": "glEYEkh-fAWrnuhlINGks",
+        "translation_en": "Right up front, on the left."
+      },
+      "responses": [
+        {
+          "english": "Right up front, on the left.",
+          "phonetic": "glEYEkh-fAWrnuhlINGks",
+          "french": "Gleich vorne, links."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_coop_supermarket_zermatt_center_002",
+      "intent_en": "Can I pay with euros or only francs",
+      "text_local": "Kann ich mit Euro zahlen?",
+      "pronunciation": "kAHn-ihkh-miht-AWuhroh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In tourist-heavy areas like Zermatt, many Swiss supermarkets accept euros alongside Swiss francs, often using a fixed exchange rate for convenience. However, change is typically given in francs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Euro wird akzeptiert.",
+        "pronunciation": "yAHAWuhroh-vIHrt-AHktsehptEErt",
+        "translation_en": "Yes, euros are accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, euros are accepted.",
+          "phonetic": "yAHAWuhroh-vIHrt-AHktsehptEErt",
+          "french": "Ja, Euro wird akzeptiert."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_coop_supermarket_zermatt_center_003",
+      "intent_en": "Where is the self-service fruit scale",
+      "text_local": "Wo ist die Obstwaage?",
+      "pronunciation": "vOH-ihst-dee-AWpstvahuh",
+      "formality": "standard",
+      "cultural_note": "Self-service scales are typically placed near produce sections. Staff may gesture toward the area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei den Obstabteilungen.",
+        "pronunciation": "beye-dehn-AWpstahptEYEluhnguhn",
+        "translation_en": "By the fruit sections."
+      },
+      "responses": [
+        {
+          "english": "By the fruit sections.",
+          "phonetic": "beye-dehn-AWpstahptEYEluhnguhn",
+          "french": "Bei den Obstabteilungen."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_coop_supermarket_zermatt_center_004",
+      "intent_en": "Where do I return empty bottles",
+      "text_local": "Wo gebe ich Pfandflaschen zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-pfAHntflahshuhn-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "In Switzerland, empty bottles (glass or PET) with a deposit label are returned to designated machines in supermarkets, often marked with 'PET' or 'Glas'. The machines issue a receipt for the deposit refund.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Rückgabeautomaten.",
+        "pronunciation": "ahm-rUEkahbuhOWtohmAHtuhn",
+        "translation_en": "At the return machine."
+      },
+      "responses": [
+        {
+          "english": "At the return machine.",
+          "phonetic": "ahm-rUEkahbuhOWtohmAHtuhn",
+          "french": "Am Rückgabeautomaten."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_coop_supermarket_zermatt_center_005",
+      "intent_en": "Do I need to buy a bag",
+      "text_local": "Muss ich eine Tasche kaufen?",
+      "pronunciation": "mUHs-ihkh-EYEnuh-tAHshuh-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "In Swiss supermarkets, plastic bags are typically not provided for free; customers are expected to either bring their own bag or purchase one at checkout. This is standard practice across most Coop stores.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Ausgang.",
+        "pronunciation": "yAHahm-OWsAHng",
+        "translation_en": "Yes, at the exit."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the exit.",
+          "phonetic": "yAHahm-OWsAHng",
+          "french": "Ja, am Ausgang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

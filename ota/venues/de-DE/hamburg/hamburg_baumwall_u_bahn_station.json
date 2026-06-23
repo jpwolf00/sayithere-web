@@ -1,0 +1,122 @@
+{
+  "id": "hamburg_baumwall_u_bahn_station",
+  "name_en": "Baumwall U-Bahn station",
+  "name_local": "U-Bahnhof Baumwall",
+  "icon": "tram",
+  "lat": 53.5412917,
+  "lon": 9.9842058,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hamburg_baumwall_u_bahn_station_001",
+      "intent_en": "How do I validate my HVV ticket",
+      "text_local": "Wie entwerte ich mein HVV-Ticket?",
+      "pronunciation": "vee-ehntvEHrtuhn-ihkh-meyen-hAHfOWfOWtIHkuht",
+      "formality": "standard",
+      "cultural_note": "Entwerten is the standard verb for ticket validation in German public transport; Validatoren are typically yellow machines near platforms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am gelben Entwerter.",
+        "pronunciation": "ahm-gEHlbuhn-ehntvEHrt",
+        "translation_en": "At the yellow validator."
+      },
+      "responses": [
+        {
+          "english": "At the yellow validator.",
+          "phonetic": "ahm-gEHlbuhn-ehntvEHrt",
+          "french": "Am gelben Entwerter."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_baumwall_u_bahn_station_002",
+      "intent_en": "Where are the ticket machines",
+      "text_local": "Wo sind die Ticketautomaten?",
+      "pronunciation": "vOH-zihnt-dee-tIHkehtOWtohmAHtuhn",
+      "formality": "standard",
+      "cultural_note": "Ticketautomaten are typically located near the counter in German stations; exact placement may vary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf dem Bahnsteig links.",
+        "pronunciation": "owf-dehm-bAHnsteyek-lINGks",
+        "translation_en": "On the platform to the left."
+      },
+      "responses": [
+        {
+          "english": "On the platform to the left.",
+          "phonetic": "owf-dehm-bAHnsteyek-lINGks",
+          "french": "Auf dem Bahnsteig links."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_baumwall_u_bahn_station_003",
+      "intent_en": "Do I need cash for tickets",
+      "text_local": "Brauche ich Bargeld?",
+      "pronunciation": "brOWkhuh-ihkh-bAHrehlt",
+      "formality": "standard",
+      "cultural_note": "German transport ticket machines widely accept cards; Bargeld (cash) is not mandatory.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karten möglich.",
+        "pronunciation": "kAHrtuhn-mUHklihkh",
+        "translation_en": "Cards accepted."
+      },
+      "responses": [
+        {
+          "english": "Cards accepted.",
+          "phonetic": "kAHrtuhn-mUHklihkh",
+          "french": "Karten möglich."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_baumwall_u_bahn_station_004",
+      "intent_en": "When does the next U3 train leave",
+      "text_local": "Wann fährt die nächste U3?",
+      "pronunciation": "vAHn-fEHrt-dee-nEHkhstuh-OO-drEYE",
+      "formality": "standard",
+      "cultural_note": "Public displays at platforms show real-time departure times in Germany; U3 refers to the U-Bahn line.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In drei Minuten.",
+        "pronunciation": "ihn-drEYE-meenOOtuhn",
+        "translation_en": "In three minutes."
+      },
+      "responses": [
+        {
+          "english": "In three minutes.",
+          "phonetic": "ihn-drEYE-meenOOtuhn",
+          "french": "In drei Minuten."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_baumwall_u_bahn_station_005",
+      "intent_en": "Where is the Elbphilharmonie exit",
+      "text_local": "Wo ist der Elbphilharmonie-Ausgang?",
+      "pronunciation": "vOH-ihst-dehr-EHlpfihlhAHrmohnEEOWsAHng",
+      "formality": "casual",
+      "cultural_note": "Ausgang refers to an exit point leading towards a specific landmark; Schilder (signs) are typically clearly visible in German transport hubs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nehmen Sie die Treppe rechts hoch.",
+        "pronunciation": "nEHmuhn-zee-dee-trEHpuh-rEHkhts-hOHkh",
+        "translation_en": "Take the stairs up on the right."
+      },
+      "responses": [
+        {
+          "english": "Take the stairs up on the right.",
+          "phonetic": "nEHmuhn-zee-dee-trEHpuh-rEHkhts-hOHkh",
+          "french": "Nehmen Sie die Treppe rechts hoch."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

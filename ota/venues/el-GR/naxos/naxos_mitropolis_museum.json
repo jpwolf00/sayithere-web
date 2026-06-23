@@ -1,0 +1,100 @@
+{
+  "id": "naxos_mitropolis_museum",
+  "name_en": "Mitropolis Museum",
+  "name_local": "Μητροπολιτικό Μουσείο Νάξου",
+  "icon": "building.columns",
+  "lat": 37.0600105,
+  "lon": 25.4707567,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "naxos_mitropolis_museum_001",
+      "intent_en": "Where to buy guidebook at site kiosk",
+      "text_local": "Πού αγοράζω τον οδηγό του μουσείου;",
+      "pronunciation": "pOO-AHghohrAHzoh-tohn-OHtheeghOH-too-moosEEoo",
+      "formality": "standard",
+      "cultural_note": "Το πωλητήριο βρίσκεται κοντά στην είσοδο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο του πωλητηρίου.",
+        "pronunciation": "stohm-bAHnggoh-too-pOHleeteerEEoo",
+        "translation_en": "At the kiosk counter."
+      },
+      "responses": [
+        {
+          "english": "At the kiosk counter.",
+          "phonetic": "stohm-bAHnggoh-too-pOHleeteerEEoo",
+          "french": "Στον πάγκο του πωλητηρίου."
+        }
+      ]
+    },
+    {
+      "id": "naxos_mitropolis_museum_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται ο μυκηναϊκός τάφος;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-tAHfohs-tohn-mEEeenEHohn",
+      "formality": "standard",
+      "cultural_note": "Δεν υπάρχει σήμανση στην περιοχή. Ο φύλακας γνωρίζει την θέση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε το μονοπάτι 200 μέτρα νότια του μουσείου.",
+        "pronunciation": "AHkohloothEEsteh-toh-mOHnohpAHtee-thahkOHah-mEHtrah-nOHteeAH-too-moosEEoo",
+        "translation_en": "Follow the path 200 meters south of the museum."
+      },
+      "responses": [
+        {
+          "english": "Follow the path 200 meters south of the museum.",
+          "phonetic": "AHkohloothEEsteh-toh-mOHnohpAHtee-thahkOHah-mEHtrah-nOHteeAH-too-moosEEoo",
+          "french": "Ακολουθήστε το μονοπάτι 200 μέτρα νότια του μουσείου."
+        }
+      ]
+    },
+    {
+      "id": "naxos_mitropolis_museum_003",
+      "intent_en": "Is entry donation or free",
+      "text_local": "Η είσοδος είναι δωρεάν;",
+      "pronunciation": "ee-EEsohthOHs-EEneh-thOHrehAHn",
+      "formality": "standard",
+      "cultural_note": "Το μουσείο δεν χρεώνει εισιτήριο, αλλά υπάρχει κουτί δωρεάς.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ελεύθερη είσοδος, δωρεά προαιρετική.",
+        "pronunciation": "ehlEHfthehrEE-EEsohthOHsthOHrehAH-prOHehrEHteeEE",
+        "translation_en": "Free entry, optional donation."
+      },
+      "responses": [
+        {
+          "english": "Free entry, optional donation.",
+          "phonetic": "ehlEHfthehrEE-EEsohthOHsthOHrehAH-prOHehrEHteeEE",
+          "french": "Ελεύθερη είσοδος, δωρεά προαιρετική."
+        }
+      ]
+    },
+    {
+      "id": "naxos_mitropolis_museum_004",
+      "intent_en": "How to stay on paths near Byzantine ruins",
+      "text_local": "Πώς μένω στα μονοπάτια γύρω από τα βυζαντινά ερείπια;",
+      "pronunciation": "pOHz-mEHnoh-stah-mOHnohpAHteeAH-yEEroh-ahpOH-tah-vEEzahdeenAH-ehrEEpkhah",
+      "formality": "standard",
+      "cultural_note": "Τα μονοπάτια είναι ασήμαντα σε σημεία. Ακολουθήστε τις σημασίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Παραμείνετε στις σημαδεμένες διαδρομές.",
+        "pronunciation": "pAHrahmEEnehtEH-stees-sEEmahthehmEHnehz-thEEahthrohmEHs",
+        "translation_en": "Stay on the marked paths."
+      },
+      "responses": [
+        {
+          "english": "Stay on the marked paths.",
+          "phonetic": "pAHrahmEEnehtEH-stees-sEEmahthehmEHnehz-thEEahthrohmEHs",
+          "french": "Παραμείνετε στις σημαδεμένες διαδρομές."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

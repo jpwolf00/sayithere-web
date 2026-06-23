@@ -1,0 +1,122 @@
+{
+  "id": "freiburg_kartoffelsäckle",
+  "name_en": "Kartoffelsäckle",
+  "name_local": "Kartoffelsäckle",
+  "icon": "fork.knife",
+  "lat": 47.9960901,
+  "lon": 7.8494005,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "freiburg_kartoffelsäckle_001",
+      "intent_en": "Where to pay the bill",
+      "text_local": "Wo zahle ich die Rechnung?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dee-rEHkhnuhng",
+      "formality": "standard",
+      "cultural_note": "Payment location varies; staff clarifies if needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch oder Schalter.",
+        "pronunciation": "ahm-tIHsh-OHd-shAHlt",
+        "translation_en": "At the table or counter."
+      },
+      "responses": [
+        {
+          "english": "At the table or counter.",
+          "phonetic": "ahm-tIHsh-OHd-shAHlt",
+          "french": "Am Tisch oder Schalter."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_kartoffelsäckle_002",
+      "intent_en": "Is Grünkohl mit Pinkel available today",
+      "text_local": "Gibt es heute Grünkohl mit Pinkel?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-rUEnkohl-miht-pIHnkuhl",
+      "formality": "standard",
+      "cultural_note": "Dish names are well-known; direct question is expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute verfügbar.",
+        "pronunciation": "yAHhAWuhtuh-fehrfUEkbahr",
+        "translation_en": "Yes, available today."
+      },
+      "responses": [
+        {
+          "english": "Yes, available today.",
+          "phonetic": "yAHhAWuhtuh-fehrfUEkbahr",
+          "french": "Ja, heute verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_kartoffelsäckle_003",
+      "intent_en": "Where is the Münster view terrace",
+      "text_local": "Wo ist die Münster-Terrasse?",
+      "pronunciation": "vOH-ihst-dee-mUEnsttEHrahsuh",
+      "formality": "standard",
+      "cultural_note": "Locals expect a brief directional cue; detailed navigation is uncommon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Draußen hinten.",
+        "pronunciation": "drOWsuhn-hIHntuhn",
+        "translation_en": "Outside in the back."
+      },
+      "responses": [
+        {
+          "english": "Outside in the back.",
+          "phonetic": "drOWsuhn-hIHntuhn",
+          "french": "Draußen hinten."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_kartoffelsäckle_004",
+      "intent_en": "Is terrace seating self-service",
+      "text_local": "Kann ich mich auf die Terrasse setzen?",
+      "pronunciation": "kAHn-ihkh-mihkh-owf-dee-tEHrahsuh-zEHtsuhn",
+      "formality": "standard",
+      "cultural_note": "Self-seating is common unless staff indicates otherwise.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, setzen Sie sich.",
+        "pronunciation": "yAHzEHtsuhn-zee-zihkh",
+        "translation_en": "Yes, take a seat."
+      },
+      "responses": [
+        {
+          "english": "Yes, take a seat.",
+          "phonetic": "yAHzEHtsuhn-zee-zihkh",
+          "french": "Ja, setzen Sie sich."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_kartoffelsäckle_005",
+      "intent_en": "How to order Baden potato salad",
+      "text_local": "Ich möchte den badischen Kartoffelsalat bestellen.",
+      "pronunciation": "ihkh-mUHkhtuh-dehn-bAHdihshuhn-kahrtAWfuhlzahlAHt-buhshtEHluhn",
+      "formality": "standard",
+      "cultural_note": "Ordering by dish name is standard; no complex phrasing needed.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Kommt sofort.",
+        "pronunciation": "kAWmt-zohfAWrt",
+        "translation_en": "Coming right away."
+      },
+      "responses": [
+        {
+          "english": "Coming right away.",
+          "phonetic": "kAWmt-zohfAWrt",
+          "french": "Kommt sofort."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

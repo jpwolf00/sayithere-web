@@ -1,0 +1,122 @@
+{
+  "id": "lucerne_swiss_transport_museum",
+  "name_en": "Swiss Transport Museum",
+  "name_local": "Verkehrshaus der Schweiz",
+  "icon": "building.columns",
+  "lat": 47.0527531,
+  "lon": 8.3366363,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lucerne_swiss_transport_museum_001",
+      "intent_en": "Ask where gift shop is relative to exit",
+      "text_local": "Wo ist der Geschenkshop beim Verlassen des Museums?",
+      "pronunciation": "vOH-ihst-dehr-ehndzhEHshuhngkshPdeh-beyem-fehrlAHsuhn-dehs-moozEHuhms",
+      "formality": "standard",
+      "cultural_note": "Shop liegt in unmittelbarer Nähe zum Hauptausgang; gut sichtbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt nach dem Ausgang auf der rechten Seite.",
+        "pronunciation": "deerEHkt-nahkh-dehm-OWsAHng-owf-dehr-rEHkhtuhn-zEYEtuh",
+        "translation_en": "Immediately after the exit on the right."
+      },
+      "responses": [
+        {
+          "english": "Immediately after the exit on the right.",
+          "phonetic": "deerEHkt-nahkh-dehm-OWsAHng-owf-dehr-rEHkhtuhn-zEYEtuh",
+          "french": "Direkt nach dem Ausgang auf der rechten Seite."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_swiss_transport_museum_002",
+      "intent_en": "Ask where Filmtheater entry is",
+      "text_local": "Wo ist der Eingang zum Filmtheater?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-fIHlmtehAHt",
+      "formality": "standard",
+      "cultural_note": "Filmtheater hat separaten Eingang; oft leicht zu übersehen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Eingang ist links neben dem Haupteingang.",
+        "pronunciation": "dehr-EYEngAHng-ihst-lINGks-nEHbuhn-dehm-hOWptEYEngAHng",
+        "translation_en": "The entrance is to the left of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "The entrance is to the left of the main entrance.",
+          "phonetic": "dehr-EYEngAHng-ihst-lINGks-nEHbuhn-dehm-hOWptEYEngAHng",
+          "french": "Der Eingang ist links neben dem Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_swiss_transport_museum_003",
+      "intent_en": "Ask when last planetarium show starts today",
+      "text_local": "Wann startet heute die letzte Planetariumsshow?",
+      "pronunciation": "vAHn-shtAHrtuht-hAWuhtuh-dee-lEHtstuh-plAHnehtAHreeUHmshohf",
+      "formality": "standard",
+      "cultural_note": "Letzte Shows variieren je nach Programm; Tagesaushang oder Schalter informieren.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 17 Uhr.",
+        "pronunciation": "uhm-zEEptsehn-OOr",
+        "translation_en": "At 5 PM."
+      },
+      "responses": [
+        {
+          "english": "At 5 PM.",
+          "phonetic": "uhm-zEEptsehn-OOr",
+          "french": "Um 17 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_swiss_transport_museum_004",
+      "intent_en": "Ask if museum plus planetarium is cheaper combined",
+      "text_local": "Ist die Kombination Museum und Planetarium günstiger?",
+      "pronunciation": "ihst-dee-kAWmbeenahtsyOHn-moozEHuhm-uhnt-plAHnehtAHreeUHm-UEnstih",
+      "formality": "standard",
+      "cultural_note": "Kombi-Tickets werden oft zu Sonderpreisen angeboten; Nachfrage am Schalter lohnt sich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, kombinierte Tickets kosten weniger.",
+        "pronunciation": "yAHkAWmbeenEErtuh-tIHkuhts-kAWstuhn-vEHnih",
+        "translation_en": "Yes, combined tickets cost less."
+      },
+      "responses": [
+        {
+          "english": "Yes, combined tickets cost less.",
+          "phonetic": "yAHkAWmbeenEErtuh-tIHkuhts-kAWstuhn-vEHnih",
+          "french": "Ja, kombinierte Tickets kosten weniger."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_swiss_transport_museum_005",
+      "intent_en": "Ask if Hans Erni collection needs extra ticket",
+      "text_local": "Braucht man für die Hans Erni Sammlung ein Extra-Ticket?",
+      "pronunciation": "brOWkht-mahn-fuer-dee-hAHns-ehrnEE-zAHmluhng-eyen-EHkstrahtIHkuht",
+      "formality": "standard",
+      "cultural_note": "Sonderausstellungen können separat berechnet werden; generell ist die Sammlung im Ticket inkludiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, Eintritt ist im Museumsticket enthalten.",
+        "pronunciation": "nEYEnEYEntrIHt-ihst-ihm-mOOzawuhmstIHkuht-ehnthAHltuhn",
+        "translation_en": "No, included in the museum ticket."
+      },
+      "responses": [
+        {
+          "english": "No, included in the museum ticket.",
+          "phonetic": "nEYEnEYEntrIHt-ihst-ihm-mOOzawuhmstIHkuht-ehnthAHltuhn",
+          "french": "Nein, Eintritt ist im Museumsticket enthalten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

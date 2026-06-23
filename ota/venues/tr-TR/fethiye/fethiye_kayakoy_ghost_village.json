@@ -1,0 +1,144 @@
+{
+  "id": "fethiye_kayakoy_ghost_village",
+  "name_en": "Kayakoy Ghost Village",
+  "name_local": "Kayakoy Koyu",
+  "icon": "building.columns",
+  "lat": 36.5757649,
+  "lon": 29.0920578,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "fethiye_kayakoy_ghost_village_001",
+      "intent_en": "Where is the Taksiyarhis Church entrance?",
+      "text_local": "Taksiyarhis Kilisesi'ne giriş nereden?",
+      "pronunciation": "tahkseeyahrhIHs-keeleesehseenIHn-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact entrance location is not specified, so directing to staff is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Patikanın başlangıcına yakın.",
+        "pronunciation": "pahteekahnOOn-bahshahngoodzhoonAH-yahkOOn",
+        "translation_en": "Near the start of the path."
+      },
+      "responses": [
+        {
+          "english": "Near the start of the path.",
+          "phonetic": "pahteekahnOOn-bahshahngoodzhoonAH-yahkOOn",
+          "french": "Patikanın başlangıcına yakın."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_kayakoy_ghost_village_002",
+      "intent_en": "Is the Upper Church open to enter?",
+      "text_local": "Yukarı Kilise içeri girmek için açık mı?",
+      "pronunciation": "yookahrOO-keelEEseh-eetshehrIH-ihrmEHk-eetshIHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Access status can change; the context does not specify opening hours, so directing to staff is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, güvenlik nedeniyle kapalı.",
+        "pronunciation": "hahyOOruevahnlIHk-nehdehnIHyleh-kahpahOO",
+        "translation_en": "No, it's closed for safety reasons."
+      },
+      "responses": [
+        {
+          "english": "No, it's closed for safety reasons.",
+          "phonetic": "hahyOOruevahnlIHk-nehdehnIHyleh-kahpahOO",
+          "french": "Hayır, güvenlik nedeniyle kapalı."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_kayakoy_ghost_village_003",
+      "intent_en": "Must we stay on marked paths only?",
+      "text_local": "Sadece işaretli patikalarda mı kalmalıyız?",
+      "pronunciation": "sahdEHdzheh-eeshahrehtlIH-pahteekahahrdAH-moo-kahmahOOyooz",
+      "formality": "standard",
+      "cultural_note": "Turkish site attendants often cite safety when enforcing rules.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, güvenliğiniz için işaretli patikalarda kalın.",
+        "pronunciation": "ehvEHtuevahnlEEyeenihz-eetshIHn-eeshahrehtlIH-pahteekahahrdAH-kahOOn",
+        "translation_en": "Yes, stay on marked paths for your safety."
+      },
+      "responses": [
+        {
+          "english": "Yes, stay on marked paths for your safety.",
+          "phonetic": "ehvEHtuevahnlEEyeenihz-eetshIHn-eeshahrehtlIH-pahteekahahrdAH-kahOOn",
+          "french": "Evet, güvenliğiniz için işaretli patikalarda kalın."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_kayakoy_ghost_village_004",
+      "intent_en": "Where is the cafe at village edge?",
+      "text_local": "Köy kenarındaki kafe nerede?",
+      "pronunciation": "kUHy-kehnahroondahkIH-kahfEH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The cafe's exact edge location is not detailed, so a general inquiry point is given.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aşağıdaki yolun sonunda.",
+        "pronunciation": "ahshahoodahkIH-yohUHn-sohnuhndAH",
+        "translation_en": "At the end of the path below."
+      },
+      "responses": [
+        {
+          "english": "At the end of the path below.",
+          "phonetic": "ahshahoodahkIH-yohUHn-sohnuhndAH",
+          "french": "Aşağıdaki yolun sonunda."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_kayakoy_ghost_village_005",
+      "intent_en": "Must we stay on marked paths only?",
+      "text_local": "Sadece işaretli patikalarda mı kalmak zorundayız?",
+      "pronunciation": "sahdEHdzheh-eeshahrehtlIH-pahteekahahrdAH-moo-kahmAHk-zohruhndAHyooz",
+      "formality": "standard",
+      "cultural_note": "The venue explicitly lists 'Stay on marked paths' as a common task.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, işaretli patikalarda kalın.",
+        "pronunciation": "ehvEHteeshahrehtlIH-pahteekahahrdAH-kahOOn",
+        "translation_en": "Yes, stay on the marked paths."
+      },
+      "responses": [
+        {
+          "english": "Yes, stay on the marked paths.",
+          "phonetic": "ehvEHteeshahrehtlIH-pahteekahahrdAH-kahOOn",
+          "french": "Evet, işaretli patikalarda kalın."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_kayakoy_ghost_village_006",
+      "intent_en": "Where is the Taksiyarhis Church entrance?",
+      "text_local": "Taksiyarhis Kilisesi'nin girişi hangi yönde?",
+      "pronunciation": "tahkseeyahrhIHs-keeleesehsIH-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Historical sites in Turkey often rely on signage rather than staff for directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çeşme Meydanı'nı geçince solda.",
+        "pronunciation": "tshEHshmeh-mehydahnoonOO-ehtshIHndzheh-sawdAH",
+        "translation_en": "After passing Fountain Square, on the left."
+      },
+      "responses": [
+        {
+          "english": "After passing Fountain Square, on the left.",
+          "phonetic": "tshEHshmeh-mehydahnoonOO-ehtshIHndzheh-sawdAH",
+          "french": "Çeşme Meydanı'nı geçince solda."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

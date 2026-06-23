@@ -1,0 +1,100 @@
+{
+  "id": "hakone_lake_ashi",
+  "name_en": "Lake Ashi",
+  "name_local": "芦ノ湖",
+  "icon": "leaf",
+  "lat": 35.214483,
+  "lon": 139.0019966,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "hakone_lake_ashi_001",
+      "intent_en": "Where is the pirate ship ticket window?",
+      "text_local": "かいぞくせんの きっぷうりばは どこですか？",
+      "pronunciation": "kEEzOHkoosEHnnoh-kEEppooooeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff may point and use short location cues rather than full sentences.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みぎの はしらに ならんでください。",
+        "pronunciation": "meegEEnoh-hEENee-nNdEHkoodsEE",
+        "translation_en": "Please line up at the pillar on the right."
+      },
+      "responses": [
+        {
+          "english": "Please line up at the pillar on the right.",
+          "phonetic": "meegEEnoh-hEENee-nNdEHkoodsEE",
+          "french": "みぎの はしらに ならんでください。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_lake_ashi_002",
+      "intent_en": "How do I reach Ōwakudani from here?",
+      "text_local": "ここから おおわくだにへ どうやって いきますか？",
+      "pronunciation": "kOHkohk-OHOHwkOOdnEEheh-dOHooyTteh-EEkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff will point to the ropeway as the standard access route.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ロープウェイの のりばは うしろの たてものです。",
+        "pronunciation": "OH-ehndzhAHpuhneezyahlEHtuh-OO-ehndzhAHpuhneezyahlEHtuh-OO-ehndzhAHpuhneezyahlEHtuh-EE-nOH-nOHeebH-OOeeOHnoh-tTehmOHnohdEHsoo",
+        "translation_en": "The ropeway platform is in the building behind you."
+      },
+      "responses": [
+        {
+          "english": "The ropeway platform is in the building behind you.",
+          "phonetic": "OH-ehndzhAHpuhneezyahlEHtuh-OO-ehndzhAHpuhneezyahlEHtuh-OO-ehndzhAHpuhneezyahlEHtuh-EE-nOH-nOHeebH-OOeeOHnoh-tTehmOHnohdEHsoo",
+          "french": "ロープウェイの のりばは うしろの たてものです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_lake_ashi_003",
+      "intent_en": "Where is Onshi Park entrance?",
+      "text_local": "おんしこうえんの いりぐちは どこですか？",
+      "pronunciation": "OHEEkohooEHnnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Directions in parks often use simple path-based cues.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みちを まっすぐ あるいてください。",
+        "pronunciation": "meetEEoh-mssOOgoo-OOEEtehkOOdsEE",
+        "translation_en": "Walk straight down the path."
+      },
+      "responses": [
+        {
+          "english": "Walk straight down the path.",
+          "phonetic": "meetEEoh-mssOOgoo-OOEEtehkOOdsEE",
+          "french": "みちを まっすぐ あるいてください。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_lake_ashi_004",
+      "intent_en": "Is the campsite open tonight?",
+      "text_local": "キャンプじょうは こんや あいてますか？",
+      "pronunciation": "kPOOdohOOh-kohY-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Campsite staff often use casual よ to soften a confirmation.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、まだ あいてますよ。",
+        "pronunciation": "hEEmD-EEtEHmsOOyoh",
+        "translation_en": "Yes, it's still open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's still open.",
+          "phonetic": "hEEmD-EEtEHmsOOyoh",
+          "french": "はい、まだ あいてますよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

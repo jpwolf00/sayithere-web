@@ -1,0 +1,105 @@
+{
+  "id": "reims_musee_reddition",
+  "name_en": "Museum of the Surrender",
+  "name_local": "Musée de la Reddition",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "reddition_acte",
+      "intent_en": "What is the entry fee for the museum?",
+      "text_local": "Quel est le tarif d'entrée du musée ?",
+      "pronunciation": "kel eh luh tah-REEF dahn-TRAY doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The Museum of the Surrender is a small but significant museum.",
+      "responses": [
+        {
+          "english": "It is indicated at the ticket desk.",
+          "phonetic": "say tahn-dee-KAY oh gee-SHAY",
+          "french": "C'est indiqué au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "reddition_salle",
+      "intent_en": "Can we see the surrender room?",
+      "text_local": "Est-ce que la salle de la capitulation est visible ?",
+      "pronunciation": "es-kuh lah SAL duh lah kah-pee-tew-lah-SYON eh vee-ZEE-bluh",
+      "formality": "polite",
+      "cultural_note": "The war room where the surrender was signed is preserved intact with original maps, furniture, and equipment.",
+      "responses": [
+        {
+          "english": "Yes, it is the main room.",
+          "phonetic": "wee say lah SAHL prahn-see-PAHL",
+          "french": "Oui, c'est la salle principale."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_red_rei_x1",
+      "intent_en": "Ask what the Musée de la Reddition commemorates",
+      "text_local": "Que commémore ce musée ?",
+      "pronunciation": "kuh koh-may-MOR suh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The Musée de la Reddition occupies the room where Germany signed the unconditional surrender to the Allies on 7 May 1945 — the room has been preserved as it was on that day.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The German surrender of 8 May 1945.",
+          "phonetic": "lah kah-pee-too-lah-SYON ah-luh-MAHND doo weet MAY meel-nuhf-sahn-kah-RAHNT-SANK.",
+          "french": "La capitulation allemande du 8 mai 1945."
+        }
+      ]
+    },
+    {
+      "id": "fr_red_rei_x2",
+      "intent_en": "Ask if there is an audio guide in English",
+      "text_local": "Y a-t-il un audioguide en anglais ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dyoh-GEED ahn ahn-GLAY",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the audio guide is available in English.",
+          "phonetic": "wee, loh-dyoh-GEED ay dees-poh-NEEBL ahn ahn-GLAY.",
+          "french": "Oui, l'audioguide est disponible en anglais."
+        }
+      ]
+    },
+    {
+      "id": "fr_red_rei_x3",
+      "intent_en": "Ask how long the visit takes",
+      "text_local": "Combien de temps faut-il prévoir pour la visite ?",
+      "pronunciation": "kom-BYAN duh TAHN foh-TEEL pray-VWAR poor lah vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About forty-five minutes with the audio guide.",
+          "phonetic": "ahn-vee-RON kah-RAHNT-SANK mee-NOOT ah-VEK loh-dyoh-GEED.",
+          "french": "Environ quarante-cinq minutes avec l'audioguide."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "surrender",
+      "word_local": "la capitulation",
+      "pronunciation": "lah kah-pee-tew-lah-SYON"
+    },
+    {
+      "word_en": "armistice / ceasefire agreement",
+      "word_local": "l'armistice",
+      "pronunciation": "lar-mees-TEES"
+    }
+  ]
+}

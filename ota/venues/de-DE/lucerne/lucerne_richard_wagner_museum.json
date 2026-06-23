@@ -1,0 +1,100 @@
+{
+  "id": "lucerne_richard_wagner_museum",
+  "name_en": "Richard Wagner Museum",
+  "name_local": "Richard-Wagner-Museum",
+  "icon": "building.columns",
+  "lat": 47.0423895,
+  "lon": 8.3290411,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lucerne_richard_wagner_museum_001",
+      "intent_en": "Ask where Wagner's piano is displayed",
+      "text_local": "Wo steht Wagners Klavier?",
+      "pronunciation": "vOH-shtEHt-vAHns-klahvEEr",
+      "formality": "standard",
+      "cultural_note": "The piano is a stable exhibit target in the villa’s main living area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Salon der Villa.",
+        "pronunciation": "ihm-zAHlohn-dehr-vIHlah",
+        "translation_en": "In the villa's salon."
+      },
+      "responses": [
+        {
+          "english": "In the villa's salon.",
+          "phonetic": "ihm-zAHlohn-dehr-vIHlah",
+          "french": "Im Salon der Villa."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_richard_wagner_museum_002",
+      "intent_en": "Ask if special exhibition has separate fee",
+      "text_local": "Kostet die Sonderausstellung extra?",
+      "pronunciation": "kAWstuht-dee-zAWndehrOWsshtuhlUHng-EHkstrah",
+      "formality": "standard",
+      "cultural_note": "Special exhibitions in Swiss museums often require an additional ticket.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_richard_wagner_museum_003",
+      "intent_en": "Ask if villa entry requires removing shoes",
+      "text_local": "Müssen wir die Schuhe ausziehen?",
+      "pronunciation": "mUEsuhn-veer-dee-shOOuh-OWstsEEuhn",
+      "formality": "standard",
+      "cultural_note": "In Switzerland, removing shoes indoors is common in private homes and museums to preserve floors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bitte.",
+        "pronunciation": "yAHbIHtuh",
+        "translation_en": "Yes, please."
+      },
+      "responses": [
+        {
+          "english": "Yes, please.",
+          "phonetic": "yAHbIHtuh",
+          "french": "Ja, bitte."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_richard_wagner_museum_004",
+      "intent_en": "Ask where lake view is best in museum",
+      "text_local": "Wo ist der beste Blick auf den See?",
+      "pronunciation": "vOH-ihst-dehr-bEHstuh-blIHk-owf-dehn-zEH",
+      "formality": "standard",
+      "cultural_note": "The villa’s balcony offers a direct view of Lake Lucerne, a stable landmark.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vom Balkon der Villa.",
+        "pronunciation": "fawm-bahlkOHn-dehr-vIHlah",
+        "translation_en": "From the villa’s balcony."
+      },
+      "responses": [
+        {
+          "english": "From the villa’s balcony.",
+          "phonetic": "fawm-bahlkOHn-dehr-vIHlah",
+          "french": "Vom Balkon der Villa."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

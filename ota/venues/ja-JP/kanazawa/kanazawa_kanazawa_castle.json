@@ -1,0 +1,100 @@
+{
+  "id": "kanazawa_kanazawa_castle",
+  "name_en": "Kanazawa Castle",
+  "name_local": "金沢城",
+  "icon": "building.columns",
+  "lat": 36.5656005,
+  "lon": 136.6595753,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kanazawa_kanazawa_castle_001",
+      "intent_en": "How do I book guided tour?",
+      "text_local": "ガイドツアーを よやくしたいのですが。",
+      "pronunciation": "gEEdOHtsooOH-yOHykOOeetEEnOHdehsOOg",
+      "formality": "standard",
+      "cultural_note": "Tour reservations are typically handled at a specific desk. The phrase uses humble language ('uketamawatte orimasu'), which is common for staff offering a service.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あちらの うけつけで うけたまわっております。",
+        "pronunciation": "TeeNoh-OOkehtsookEHdeh-OOkehtMwTtehOHeemSoo",
+        "translation_en": "We accept bookings at that reception desk."
+      },
+      "responses": [
+        {
+          "english": "We accept bookings at that reception desk.",
+          "phonetic": "TeeNoh-OOkehtsookEHdeh-OOkehtMwTtehOHeemSoo",
+          "french": "あちらの うけつけで うけたまわっております。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kanazawa_castle_002",
+      "intent_en": "Is inner keep area paid?",
+      "text_local": "ないかくちくは ゆうりょうですか？",
+      "pronunciation": "nEEkKooteekOOh-yOOooOHoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "The castle park grounds are free, but restored inner areas require an admission ticket, often sold separately from the Kenrokuen garden.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、べつりょうきんです。",
+        "pronunciation": "hEEbEHtsooOHOOkeendEHsoo",
+        "translation_en": "Yes, it is a separate fee."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is a separate fee.",
+          "phonetic": "hEEbEHtsooOHOOkeendEHsoo",
+          "french": "はい、べつりょうきんです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kanazawa_castle_003",
+      "intent_en": "Where to rent audio guide?",
+      "text_local": "おんせいガイドは どこで かりられますか？",
+      "pronunciation": "OHsEHeegEEdOHh-dohkOHdeh-kEEEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "The main entrance at Ishikawa Gate is a natural landmark. Directing to a counter near it is standard for castle facilities.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いしがわもんの ちかくの カウンターです。",
+        "pronunciation": "EEeegWmOHnnoh-tEEkkOOnoh-kOOntdEHsoo",
+        "translation_en": "At the counter near Ishikawa Gate."
+      },
+      "responses": [
+        {
+          "english": "At the counter near Ishikawa Gate.",
+          "phonetic": "EEeegWmOHnnoh-tEEkkOOnoh-kOOntdEHsoo",
+          "french": "いしがわもんの ちかくの カウンターです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kanazawa_castle_004",
+      "intent_en": "Where is Sanjikken Nagaya?",
+      "text_local": "さんじっけんながやは どこですか？",
+      "pronunciation": "sDEEkkehnnGyH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Sanjikken Nagaya is a long, restored storehouse. Directional cues like 'left side' are common as it runs parallel to a main path.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき、ひだりがわです。",
+        "pronunciation": "kOHnohsKeekhEEdEEgwdEHsoo",
+        "translation_en": "Straight ahead, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the left side.",
+          "phonetic": "kOHnohsKeekhEEdEEgwdEHsoo",
+          "french": "このさき、ひだりがわです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

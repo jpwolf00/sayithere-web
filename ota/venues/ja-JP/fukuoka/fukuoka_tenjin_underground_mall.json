@@ -1,0 +1,100 @@
+{
+  "id": "fukuoka_tenjin_underground_mall",
+  "name_en": "Tenjin Underground Mall",
+  "name_local": "天神地下街",
+  "icon": "bag",
+  "lat": 33.5896437,
+  "lon": 130.3997043,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "fukuoka_tenjin_underground_mall_001",
+      "intent_en": "Is this shop tax-free?",
+      "text_local": "このおみせは めんぜいですか？",
+      "pronunciation": "kOHnohohmeesEHh-mEHzEHeedehsOOk",
+      "formality": "standard",
+      "cultural_note": "Shop clerks will give a simple yes/no. They may then ask for your passport.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、めんぜいです。",
+        "pronunciation": "hEEmEHzEHeedEHsoo",
+        "translation_en": "Yes, it's tax-free."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's tax-free.",
+          "phonetic": "hEEmEHzEHeedEHsoo",
+          "french": "はい、めんぜいです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_tenjin_underground_mall_002",
+      "intent_en": "Where is the food court?",
+      "text_local": "フードコートは どこですか？",
+      "pronunciation": "OOoodohkohohtOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Underground malls often use central plazas as key landmarks for directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ちゅうおうひろばの となりです。",
+        "pronunciation": "tOOooOHookhEEohbNoh-tOHneedEHsoo",
+        "translation_en": "Next to the central plaza."
+      },
+      "responses": [
+        {
+          "english": "Next to the central plaza.",
+          "phonetic": "tOOooOHookhEEohbNoh-tOHneedEHsoo",
+          "french": "ちゅうおうひろばの となりです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_tenjin_underground_mall_003",
+      "intent_en": "How do I get to Meiji-dori from here?",
+      "text_local": "めいじどおりへは どういけば いいですか？",
+      "pronunciation": "mEHeedEEdohoheehEHh-dOHooeekEHb-EEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Directions to street level from underground use exit names and cardinal directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "きたぐちのかいだんを あがってください。",
+        "pronunciation": "kEEtgOOteenOHkEEdOH-GttEHkoodsEE",
+        "translation_en": "Please go up the stairs at the north exit."
+      },
+      "responses": [
+        {
+          "english": "Please go up the stairs at the north exit.",
+          "phonetic": "kEEtgOOteenOHkEEdOH-GttEHkoodsEE",
+          "french": "きたぐちのかいだんを あがってください。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_tenjin_underground_mall_004",
+      "intent_en": "Where is the subway exit to Tenjin Station?",
+      "text_local": "てんじんえきへの でぐちは どこですか？",
+      "pronunciation": "tEHdEEEHkeehEHnoh-dEHgootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Station staff give very direct, brief directions. 'Migi-gawa' (right side) is a common landmark cue.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき みぎがわです。",
+        "pronunciation": "kOHnohsKee-mEEgeegWdEHsoo",
+        "translation_en": "Straight ahead, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the right side.",
+          "phonetic": "kOHnohsKee-mEEgeegWdEHsoo",
+          "french": "このさき みぎがわです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

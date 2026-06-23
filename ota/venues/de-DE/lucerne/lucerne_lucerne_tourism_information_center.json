@@ -1,0 +1,78 @@
+{
+  "id": "lucerne_lucerne_tourism_information_center",
+  "name_en": "Lucerne Tourism Information Center",
+  "name_local": "Luzern Tourismus",
+  "icon": "info.circle",
+  "lat": 47.052144,
+  "lon": 8.3058123,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lucerne_lucerne_tourism_information_center_001",
+      "intent_en": "Swiss Travel Pass purchase here",
+      "text_local": "Verkaufen Sie Swiss Travel Passes?",
+      "pronunciation": "fehrkOWfuhn-zee-svIHs-trAHvuhl-pAHsuhs",
+      "formality": "standard",
+      "cultural_note": "Direkte, knappe Antwort erwartet; Schalter als Standard-Ticketstelle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_tourism_information_center_002",
+      "intent_en": "Lake region hiking map",
+      "text_local": "Haben Sie Wanderkarten für den Vierwaldstättersee?",
+      "pronunciation": "hAHbuhn-zee-vAHndkAHrtuhn-fuer-dehn-fEErvahltshtEHtzEH",
+      "formality": "standard",
+      "cultural_note": "Standard-Routen zur Kartenausgabe; keine Mikro-Navigation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_tourism_information_center_003",
+      "intent_en": "Mount Rigi combined ticket includes",
+      "text_local": "Was ist im Rigi-Ticket enthalten?",
+      "pronunciation": "vAHs-ihst-ihm-rEEeetIHkuht-ehnthAHltuhn",
+      "formality": "standard",
+      "cultural_note": "Kurze Bestätigung der integrierten Verkehrsmittel erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bergbahn und Busse.",
+        "pronunciation": "bEHrbahn-uhnt-bUHsuh",
+        "translation_en": "Mountain railway and buses."
+      },
+      "responses": [
+        {
+          "english": "Mountain railway and buses.",
+          "phonetic": "bEHrbahn-uhnt-bUHsuh",
+          "french": "Bergbahn und Busse."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

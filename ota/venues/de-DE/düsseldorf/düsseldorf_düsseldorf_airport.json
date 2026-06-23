@@ -1,0 +1,100 @@
+{
+  "id": "düsseldorf_düsseldorf_airport",
+  "name_en": "Düsseldorf Airport",
+  "name_local": "Flughafen Düsseldorf",
+  "icon": "tram",
+  "lat": 51.2872304,
+  "lon": 6.7620625,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "düsseldorf_düsseldorf_airport_001",
+      "intent_en": "Where is the Fast Track security counter",
+      "text_local": "Wo ist der Fast Track Sicherheitsschalter?",
+      "pronunciation": "vOH-ihst-dehr-fAHst-trAHk-zIHkhhEYEtskhahlt",
+      "formality": "standard",
+      "cultural_note": "Fast Track counters are often co-located with security staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "im Terminal A, oben.",
+        "pronunciation": "ihm-ehntMihnuhldeh-AHOHbuhn",
+        "translation_en": "in Terminal A, upstairs."
+      },
+      "responses": [
+        {
+          "english": "in Terminal A, upstairs.",
+          "phonetic": "ihm-ehntMihnuhldeh-AHOHbuhn",
+          "french": "im Terminal A, oben."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_airport_002",
+      "intent_en": "Where is the SkyTrain monorail platform",
+      "text_local": "Wo ist der SkyTrain?",
+      "pronunciation": "vOH-ihst-dee-ehnskEYEdeh-trEHnplAHtfawrm",
+      "formality": "standard",
+      "cultural_note": "Directions are signposted in German first, then English.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ebene 1, Richtung Flughafenbahnhof.",
+        "pronunciation": "EHbuhnuh-EYEnsrIHkhtuhng-flOOghahfEHnbahnhOHf",
+        "translation_en": "Level 1, towards the airport station."
+      },
+      "responses": [
+        {
+          "english": "Level 1, towards the airport station.",
+          "phonetic": "EHbuhnuh-EYEnsrIHkhtuhng-flOOghahfEHnbahnhOHf",
+          "french": "Ebene 1, Richtung Flughafenbahnhof."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_airport_003",
+      "intent_en": "Where do I pay for Parking P7",
+      "text_local": "Wo bezahle ich für Parkplatz P7?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-fuer-pAHrkplahts-pEH-zEEbuhn",
+      "formality": "standard",
+      "cultural_note": "Payment counters are typically staffed; signage may not suffice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten vor dem Parkhaus.",
+        "pronunciation": "ahm-OWtohmAHtuhn-fAWr-dehm-pAHrkhows",
+        "translation_en": "At the machine in front of the parking garage."
+      },
+      "responses": [
+        {
+          "english": "At the machine in front of the parking garage.",
+          "phonetic": "ahm-OWtohmAHtuhn-fAWr-dehm-pAHrkhows",
+          "french": "Am Automaten vor dem Parkhaus."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_airport_004",
+      "intent_en": "Do you help with wheelchair boarding at Terminal C",
+      "text_local": "Helfen Sie beim Einsteigen mit Rollstuhl in Terminal C?",
+      "pronunciation": "hEHlfuhn-zee-beyem-EYEnshtEYEuhn-miht-rAWlshtool-ihn-ehntMihnuhldeh-tsEH",
+      "formality": "standard",
+      "cultural_note": "Boarding assistance is typically arranged at the gate or with staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Gate.",
+        "pronunciation": "yAHahm-AHtuh",
+        "translation_en": "Yes, at the gate."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the gate.",
+          "phonetic": "yAHahm-AHtuh",
+          "french": "Ja, am Gate."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

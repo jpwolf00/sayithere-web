@@ -1,0 +1,78 @@
+{
+  "id": "ioannina_perama_cave",
+  "name_en": "Perama Cave",
+  "name_local": "Σπήλαιο Περάματος",
+  "icon": "building.columns",
+  "lat": 39.6952603,
+  "lon": 20.8465956,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "ioannina_perama_cave_001",
+      "intent_en": "Where do I pay for parking?",
+      "text_local": "Πού πληρώνω το πάρκινγκ;",
+      "pronunciation": "pOO-pleerOHnoh-toh-pAHreeng",
+      "formality": "standard",
+      "cultural_note": "Στις ελληνικές πολιτιστικές τοποθεσίες συχνά υπάρχει ξεχωριστός υπάλληλος για την είσπραξη του πάρκινγκ.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον υπάλληλο φύλακα.",
+        "pronunciation": "stohn-eepAHleelOH-fEElahkAH",
+        "translation_en": "At the guard attendant."
+      },
+      "responses": [
+        {
+          "english": "At the guard attendant.",
+          "phonetic": "stohn-eepAHleelOH-fEElahkAH",
+          "french": "Στον υπάλληλο φύλακα."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_perama_cave_002",
+      "intent_en": "Can I enter without a guide?",
+      "text_local": "Μπορώ να μπω χωρίς ξεναγό;",
+      "pronunciation": "bohrOH-nah-bOH-khohrEEs-ksEHnahghOH",
+      "formality": "standard",
+      "cultural_note": "Τα περισσότερα σπήλαια στην Ελλάδα επιτρέπουν την είσοδο μόνο με συνοδεία ξεναγού για λόγους ασφάλειας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, απαραίτητος ο ξεναγός.",
+        "pronunciation": "OHkheeAHpahrEHteetOHs-oh-ksEHnahghOHs",
+        "translation_en": "No, guide required."
+      },
+      "responses": [
+        {
+          "english": "No, guide required.",
+          "phonetic": "OHkheeAHpahrEHteetOHs-oh-ksEHnahghOHs",
+          "french": "Όχι, απαραίτητος ο ξεναγός."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_perama_cave_003",
+      "intent_en": "Is the walking path slippery?",
+      "text_local": "Είναι γλιστεροί οι διάδρομοι;",
+      "pronunciation": "EEneh-ghlEEstehrEE-ee-theeAHthrohmEE",
+      "formality": "standard",
+      "cultural_note": "Τα σπήλαια έχουν συχνά υγρές επιφάνειες λόγω υγρασίας, γεγονός που τα καθιστά επικίνδυνα για ολίσθηση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, προσέχετε στο δάπεδο.",
+        "pronunciation": "nEHprohsEHkhehtEH-stoh-thAHpehthOH",
+        "translation_en": "Yes, watch your step."
+      },
+      "responses": [
+        {
+          "english": "Yes, watch your step.",
+          "phonetic": "nEHprohsEHkhehtEH-stoh-thAHpehthOH",
+          "french": "Ναι, προσέχετε στο δάπεδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

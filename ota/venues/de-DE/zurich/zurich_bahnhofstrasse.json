@@ -1,0 +1,144 @@
+{
+  "id": "zurich_bahnhofstrasse",
+  "name_en": "Bahnhofstrasse",
+  "name_local": "Bahnhofstrasse",
+  "icon": "bag",
+  "lat": 47.3742455,
+  "lon": 8.5385579,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zurich_bahnhofstrasse_001",
+      "intent_en": "Where can I exchange currency near here?",
+      "text_local": "Wo kann ich hier Geld wechseln?",
+      "pronunciation": "vOH-kAHn-ihkh-hEEr-EHlt-vEHksuhln",
+      "formality": "casual",
+      "cultural_note": "Bank desks are the standard for currency exchange in Swiss urban centers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie am Schalter der Credit Suisse nach.",
+        "pronunciation": "frAHuhn-zee-ahm-shAHlt-dehr-krehdIHt-zOOihsuh-nAHkh",
+        "translation_en": "Ask at the Credit Suisse desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the Credit Suisse desk.",
+          "phonetic": "frAHuhn-zee-ahm-shAHlt-dehr-krehdIHt-zOOihsuh-nAHkh",
+          "french": "Fragen Sie am Schalter der Credit Suisse nach."
+        }
+      ]
+    },
+    {
+      "id": "zurich_bahnhofstrasse_002",
+      "intent_en": "Does the tax refund desk accept global blue?",
+      "text_local": "Nimmt die Steuerrückerstattung Global Blue an?",
+      "pronunciation": "nIHmt-dee-shtAWuhrUEkstAHtuhng-lohbAHl-ehnblOOdeh-AHn",
+      "formality": "standard",
+      "cultural_note": "Direct and factual response expected; no need for elaboration.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Steuerrückerstattungsschalter.",
+        "pronunciation": "yAHahm-shtAWuhrUEkstAHtuhngskhAHlt",
+        "translation_en": "Yes, at the tax refund desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the tax refund desk.",
+          "phonetic": "yAHahm-shtAWuhrUEkstAHtuhngskhAHlt",
+          "french": "Ja, am Steuerrückerstattungsschalter."
+        }
+      ]
+    },
+    {
+      "id": "zurich_bahnhofstrasse_003",
+      "intent_en": "How do I reach Paradeplatz from here?",
+      "text_local": "Wie komme ich zum Paradeplatz?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsuhm-pAHrahdEHplahts",
+      "formality": "casual",
+      "cultural_note": "Standard signage guidance is culturally expected in Swiss urban areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie geradeaus am Bahnhof vorbei.",
+        "pronunciation": "gEHuhn-zee-guhrAHdehOWs-ahm-bAHnhohf-fohrbEYE",
+        "translation_en": "Go straight ahead past the station."
+      },
+      "responses": [
+        {
+          "english": "Go straight ahead past the station.",
+          "phonetic": "gEHuhn-zee-guhrAHdehOWs-ahm-bAHnhohf-fohrbEYE",
+          "french": "Gehen Sie geradeaus am Bahnhof vorbei."
+        }
+      ]
+    },
+    {
+      "id": "zurich_bahnhofstrasse_004",
+      "intent_en": "Is the Globus department store open today?",
+      "text_local": "Hat das Globus-Kaufhaus heute offen?",
+      "pronunciation": "haht-dahs-lOHbuhskOWfhows-hAWuhtuh-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Brief confirmation aligns with Swiss directness; no extra details needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute geöffnet.",
+        "pronunciation": "yAHhAWuhtuh-uhUHfnuht",
+        "translation_en": "Yes, open today."
+      },
+      "responses": [
+        {
+          "english": "Yes, open today.",
+          "phonetic": "yAHhAWuhtuh-uhUHfnuht",
+          "french": "Ja, heute geöffnet."
+        }
+      ]
+    },
+    {
+      "id": "zurich_bahnhofstrasse_005",
+      "intent_en": "Which tram goes to the main station?",
+      "text_local": "Welche Tram fährt zum Hauptbahnhof?",
+      "pronunciation": "vEHlkhuh-trAHm-fEHrt-tsuhm-hOWptbAHnhohf",
+      "formality": "standard",
+      "cultural_note": "Tram lines are commonly identified by numbers; no need for route details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Linie 4 oder 15.",
+        "pronunciation": "lEEnee-uh-fEEr-OHd-fUEnftsehn",
+        "translation_en": "Tram lines 4 or 15."
+      },
+      "responses": [
+        {
+          "english": "Tram lines 4 or 15.",
+          "phonetic": "lEEnee-uh-fEEr-OHd-fUEnftsehn",
+          "french": "Linie 4 oder 15."
+        }
+      ]
+    },
+    {
+      "id": "zurich_bahnhofstrasse_006",
+      "intent_en": "Where is the Sprüngli Confiserie counter?",
+      "text_local": "Wo ist der Sprüngli-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-shprUEngleeshAHlt",
+      "formality": "standard",
+      "cultural_note": "Customers expect a short, clear direction near the Paradeplatz landmark.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt beim Paradeplatz.",
+        "pronunciation": "deerEHkt-beyem-pAHrahdEHplahts",
+        "translation_en": "Right by Paradeplatz."
+      },
+      "responses": [
+        {
+          "english": "Right by Paradeplatz.",
+          "phonetic": "deerEHkt-beyem-pAHrahdEHplahts",
+          "french": "Direkt beim Paradeplatz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "bamberg_zob_bamberg_central_bus_station",
+  "name_en": "ZOB Bamberg Central Bus Station",
+  "name_local": "ZOB Bamberg",
+  "icon": "tram",
+  "lat": 49.8937878,
+  "lon": 10.8917789,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bamberg_zob_bamberg_central_bus_station_001",
+      "intent_en": "How do I validate VGN app ticket?",
+      "text_local": "Wie aktiviere ich das Ticket in der VGN-App?",
+      "pronunciation": "vee-AHkteevEEruh-ihkh-dahs-tIHkuht-ihn-dehr-fOWEHEHnAHp",
+      "formality": "standard",
+      "cultural_note": "Tickets in deutschen ÖPNV-Apps werden durch Antippen aktiviert, nicht gescannt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tippen Sie im Bereich 'Meine Tickets'.",
+        "pronunciation": "tIHpuhn-zee-ihm-buhrEYEkh-mEYEnuh-tIHkuhts",
+        "translation_en": "Tap in the 'My Tickets' section."
+      },
+      "responses": [
+        {
+          "english": "Tap in the 'My Tickets' section.",
+          "phonetic": "tIHpuhn-zee-ihm-buhrEYEkh-mEYEnuh-tIHkuhts",
+          "french": "Tippen Sie im Bereich 'Meine Tickets'."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_zob_bamberg_central_bus_station_002",
+      "intent_en": "Where is Fernbussteige 1-4 for FlixBus?",
+      "text_local": "Wo sind die Fernbussteige 1 bis 4?",
+      "pronunciation": "vOH-zihnt-dee-fEHrnbuhsshtEYEuh-EYEns-bihs-fEEr",
+      "formality": "standard",
+      "cultural_note": "Fernbussteige sind meist separat beschildert und können über den Bahnhofsvorplatz erreicht werden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die sind draußen am Busbahnhof.",
+        "pronunciation": "dee-zihnt-drOWsuhn-ahm-bUHsbahnhOHf",
+        "translation_en": "They are outside at the bus station."
+      },
+      "responses": [
+        {
+          "english": "They are outside at the bus station.",
+          "phonetic": "dee-zihnt-drOWsuhn-ahm-bUHsbahnhOHf",
+          "french": "Die sind draußen am Busbahnhof."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_zob_bamberg_central_bus_station_003",
+      "intent_en": "Where can I validate Schülerticket?",
+      "text_local": "Wo wird das Schülerticket validiert?",
+      "pronunciation": "vOH-vIHrt-dahs-shUElehrtIHkuht-vAHleedEErt",
+      "formality": "standard",
+      "cultural_note": "Schülertickets erfordern oft eine manuelle Validierung durch Personal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie am Schalter des Reisezentrums nach.",
+        "pronunciation": "frAHuhn-zee-ahm-shAHlt-dehs-rEYEzehtsEHntruhms-nAHkh",
+        "translation_en": "Ask at the travel center counter."
+      },
+      "responses": [
+        {
+          "english": "Ask at the travel center counter.",
+          "phonetic": "frAHuhn-zee-ahm-shAHlt-dehs-rEYEzehtsEHntruhms-nAHkh",
+          "french": "Fragen Sie am Schalter des Reisezentrums nach."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_zob_bamberg_central_bus_station_004",
+      "intent_en": "Which steige for Stadtbus line to Domplatz?",
+      "text_local": "Welcher Steig ist für den Stadtbus nach Domplatz?",
+      "pronunciation": "vOH-ihst-dee-hAHltehshtEHluh-fuer-dehn-shtAHtbuhs-nahkh-dAWmplahts",
+      "formality": "standard",
+      "cultural_note": "Deutsche Haltestellen werden oft als 'Steige' bezeichnet, besonders an Busbahnhöfen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Steig A.",
+        "pronunciation": "shtEYEk-AH",
+        "translation_en": "Platform A."
+      },
+      "responses": [
+        {
+          "english": "Platform A.",
+          "phonetic": "shtEYEk-AH",
+          "french": "Steig A."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_zob_bamberg_central_bus_station_005",
+      "intent_en": "Is there luggage storage at ZOB?",
+      "text_local": "Gibt es Gepäckaufbewahrung am ZOB?",
+      "pronunciation": "EEpt-ehs-uhpEHkowfbEHvahrUHng-ahm-tsEHtOHbEH",
+      "formality": "standard",
+      "cultural_note": "An deutschen Busbahnhöfen ist Gepäckaufbewahrung selten vorhanden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein.",
+        "pronunciation": "nEYEn",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "nEYEn",
+          "french": "Nein."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

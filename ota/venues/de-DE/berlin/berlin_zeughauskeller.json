@@ -1,0 +1,122 @@
+{
+  "id": "berlin_zeughauskeller",
+  "name_en": "Zeughauskeller",
+  "name_local": "Zeughauskeller",
+  "icon": "fork.knife",
+  "lat": 47.3703727,
+  "lon": 8.5399233,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "berlin_zeughauskeller_001",
+      "intent_en": "Do I share table with strangers",
+      "text_local": "Teile ich den Tisch mit anderen?",
+      "pronunciation": "tEYEluh-ihkh-dehn-tIHsh-miht-AHnduhruhn",
+      "formality": "standard",
+      "cultural_note": "Communal tables are typical in beer halls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, üblich hier.",
+        "pronunciation": "yAHUEplihkh-hEEr",
+        "translation_en": "Yes, it's common here."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's common here.",
+          "phonetic": "yAHUEplihkh-hEEr",
+          "french": "Ja, üblich hier."
+        }
+      ]
+    },
+    {
+      "id": "berlin_zeughauskeller_002",
+      "intent_en": "Do I pay before receiving food",
+      "text_local": "Muss ich vorher zahlen?",
+      "pronunciation": "mUHs-ihkh-fohrhEHr-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Payment is usually required upfront in this venue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor dem Essen.",
+        "pronunciation": "yAHfAWr-dehm-EHsuhn",
+        "translation_en": "Yes, before the food."
+      },
+      "responses": [
+        {
+          "english": "Yes, before the food.",
+          "phonetic": "yAHfAWr-dehm-EHsuhn",
+          "french": "Ja, vor dem Essen."
+        }
+      ]
+    },
+    {
+      "id": "berlin_zeughauskeller_003",
+      "intent_en": "Do I order at the counter",
+      "text_local": "Kann ich hier bestellen?",
+      "pronunciation": "kAHn-ihkh-hEEr-buhshtEHluhn",
+      "formality": "casual",
+      "cultural_note": "Counter ordering is common in beer halls; payment is typically separate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tresen.",
+        "pronunciation": "yAHahm-trEHzuhn",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-trEHzuhn",
+          "french": "Ja, am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "berlin_zeughauskeller_004",
+      "intent_en": "Can I seat myself at free spot",
+      "text_local": "Darf ich mich setzen?",
+      "pronunciation": "dAHrf-ihkh-mihkh-zEHtsuhn",
+      "formality": "standard",
+      "cultural_note": "Self-seating is standard in beer halls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Setzen Sie sich frei.",
+        "pronunciation": "zEHtsuhn-zee-zihkh-frEYE",
+        "translation_en": "Seat yourself freely."
+      },
+      "responses": [
+        {
+          "english": "Seat yourself freely.",
+          "phonetic": "zEHtsuhn-zee-zihkh-frEYE",
+          "french": "Setzen Sie sich frei."
+        }
+      ]
+    },
+    {
+      "id": "berlin_zeughauskeller_005",
+      "intent_en": "Should I round up tip",
+      "text_local": "Trinkgeld aufrunden üblich?",
+      "pronunciation": "trINGkehlt-OWfrUHnduhn-UEplihkh",
+      "formality": "standard",
+      "cultural_note": "Tipping is flexible; rounding up is a common courtesy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, das ist üblich.",
+        "pronunciation": "yAHdahs-ihst-UEplihkh",
+        "translation_en": "Yes, that is common."
+      },
+      "responses": [
+        {
+          "english": "Yes, that is common.",
+          "phonetic": "yAHdahs-ihst-UEplihkh",
+          "french": "Ja, das ist üblich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

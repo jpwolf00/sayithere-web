@@ -1,0 +1,100 @@
+{
+  "id": "brno_moravian_museum",
+  "name_en": "Moravian Museum",
+  "name_local": "Moravské zemské muzeum",
+  "icon": "building.columns",
+  "lat": 49.1954755,
+  "lon": 16.6042526,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "brno_moravian_museum_001",
+      "intent_en": "Where is the Anthropos Pavilion entrance?",
+      "text_local": "Kde je vstup do pavilonu Anthropos?",
+      "pronunciation": "kdEH-yeh-fstOOp-doh-pAHveelOHnoo-AHnthrohpohs",
+      "formality": "standard",
+      "cultural_note": "The Anthropos Pavilion is not part of the main Dietrichstein Palace building, so staff will direct you outside.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Je to samostatná budova, asi deset minut pěšky.",
+        "pronunciation": "yeh-tOH-sAHmohstAHtnah-bOOdohvahAHsee-dEHseht-mEEnoot-pyEHshkee",
+        "translation_en": "It's a separate building, about a ten-minute walk."
+      },
+      "responses": [
+        {
+          "english": "It's a separate building, about a ten-minute walk.",
+          "phonetic": "yeh-tOH-sAHmohstAHtnah-bOOdohvahAHsee-dEHseht-mEEnoot-pyEHshkee",
+          "french": "Je to samostatná budova, asi deset minut pěšky."
+        }
+      ]
+    },
+    {
+      "id": "brno_moravian_museum_002",
+      "intent_en": "Where do I rent the audio guide?",
+      "text_local": "Kde si můžu půjčit audioprůvodce?",
+      "pronunciation": "kdEH-see-mOOzhoo-pOOytsheet-OWdeeOHproovOHttseh",
+      "formality": "standard",
+      "cultural_note": "Audio guides are typically rented at a dedicated desk near the ticket area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U přepážky vlevo od hlavního vchodu.",
+        "pronunciation": "OO-prEHpahshkee-vlEHvoh-OHthlahvnyEEhoh-fkhOHdoo",
+        "translation_en": "At the counter to the left of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "At the counter to the left of the main entrance.",
+          "phonetic": "OO-prEHpahshkee-vlEHvoh-OHthlahvnyEEhoh-fkhOHdoo",
+          "french": "U přepážky vlevo od hlavního vchodu."
+        }
+      ]
+    },
+    {
+      "id": "brno_moravian_museum_003",
+      "intent_en": "Can I pay by card at the entrance?",
+      "text_local": "Můžu u vstupu platit kartou?",
+      "pronunciation": "mOOzhoo-OO-fstOOpoo-plAHeet-kAHrtoh",
+      "formality": "standard",
+      "cultural_note": "Card payment is widely accepted at major museums in Brno, but it's always good to confirm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, bereme karty i hotovost.",
+        "pronunciation": "AHnohbEHrehmeh-kAHrtee-ee-hOHtohvohst",
+        "translation_en": "Yes, we take cards and cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, we take cards and cash.",
+          "phonetic": "AHnohbEHrehmeh-kAHrtee-ee-hOHtohvohst",
+          "french": "Ano, bereme karty i hotovost."
+        }
+      ]
+    },
+    {
+      "id": "brno_moravian_museum_004",
+      "intent_en": "Is the combined ticket still available?",
+      "text_local": "Je ještě k dispozici kombinovaná vstupenka?",
+      "pronunciation": "yeh-yEHsheh-k-dEEspohzEEtsee-kOHmbeenOHvahnah-fstOOpehngkah",
+      "formality": "standard",
+      "cultural_note": "A combined ticket is a standard offer for visitors wanting to see multiple museum sites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, platí do všech našich budov.",
+        "pronunciation": "AHnohplAHee-dOHfshehkh-nAHsheegh-bOOdohv",
+        "translation_en": "Yes, it's valid for all our buildings."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's valid for all our buildings.",
+          "phonetic": "AHnohplAHee-dOHfshehkh-nAHsheegh-bOOdohv",
+          "french": "Ano, platí do všech našich budov."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

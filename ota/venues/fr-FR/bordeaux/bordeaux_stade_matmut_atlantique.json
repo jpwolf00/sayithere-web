@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_stade_matmut",
+  "name_en": "Matmut Atlantique Stadium",
+  "name_local": "Stade Matmut Atlantique",
+  "icon": "building.columns",
+  "lat": 44.8286,
+  "lon": -0.6191,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "bordeaux_matmut_001",
+      "intent_en": "Ask where to pick up pre-booked match tickets",
+      "text_local": "Où puis-je récupérer mes billets réservés pour le match ?",
+      "pronunciation": "oo PWEE-zhuh ray-kyoo-pay-RAY may bee-YAY ray-zair-VAY poor luh MATCH",
+      "formality": "polite",
+      "cultural_note": "The Matmut Atlantique, designed by Herzog & de Meuron, is home to FC Girondins de Bordeaux and hosted matches during UEFA Euro 2016.",
+      "responses": [
+        {
+          "english": "At window number two.",
+          "phonetic": "oh ghee-SHEH noo-may-ROH DUH",
+          "french": "Au guichet numéro deux."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_matmut_002",
+      "intent_en": "Ask which gate to enter for block C",
+      "text_local": "Quelle entrée dois-je emprunter pour le bloc C ?",
+      "pronunciation": "kel ahn-TRAY DWAH-zhuh ahm-prun-TAY poor luh BLOK SAY",
+      "formality": "polite",
+      "cultural_note": "Gates are numbered and colour-coded around the stadium; check your ticket for the correct entrance letter.",
+      "responses": [
+        {
+          "english": "Gate C, that way.",
+          "phonetic": "PORT say, par LAH",
+          "french": "Porte C, par là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_matmut_003",
+      "intent_en": "Ask if there is a cloakroom to leave a bag",
+      "text_local": "Y a-t-il un vestiaire où je peux laisser mon sac ?",
+      "pronunciation": "ee-ah-TEEL un ves-TYAIR oo zhuh puh lay-SAY mohn SAK",
+      "formality": "polite",
+      "cultural_note": "Large bags are typically not allowed inside the stadium; check the security rules on your ticket or the club website before arriving.",
+      "responses": [
+        {
+          "english": "No, bags are not allowed.",
+          "phonetic": "nohn, lay SAK nuh sohn pah oh-toh-ree-ZAY",
+          "french": "Non, les sacs ne sont pas autorisés."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_matmut_004",
+      "intent_en": "Ask what time kick-off is",
+      "text_local": "À quelle heure est le coup d'envoi ce soir ?",
+      "pronunciation": "ah kel ur eh luh koo dahn-VWAH suh SWAHR",
+      "formality": "polite",
+      "cultural_note": "Ligue 1 matches typically kick off at 21h00 on weekdays or 17h00 / 21h00 at weekends.",
+      "responses": [
+        {
+          "english": "At 9 PM.",
+          "phonetic": "ah vehn-tay-OON UHR",
+          "french": "À vingt et une heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_matmut_005",
+      "intent_en": "Ask where the nearest bar serving local beer is inside the stadium",
+      "text_local": "Où puis-je trouver un bar servant de la bière locale dans le stade ?",
+      "pronunciation": "oo PWEE-zhuh troo-VAY un BAR sair-VAHN duh lah BYAIR loh-KAL dahn luh STAD",
+      "formality": "polite",
+      "cultural_note": "Bordeaux is wine country but local craft breweries have grown; food and drink concession stands are located on each level.",
+      "responses": [
+        {
+          "english": "On level two, near the refreshment stand.",
+          "phonetic": "oh nee-VOH DUH, preh duh lah boo-VET",
+          "french": "Au niveau deux, près de la buvette."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "stadium",
+      "word_local": "le stade",
+      "pronunciation": "luh STAD"
+    },
+    {
+      "word_en": "kick-off",
+      "word_local": "le coup d'envoi",
+      "pronunciation": "luh koo dahn-VWAH"
+    },
+    {
+      "word_en": "entrance / gate",
+      "word_local": "l'entrée",
+      "pronunciation": "lahn-TRAY"
+    },
+    {
+      "word_en": "block / stand section",
+      "word_local": "le bloc",
+      "pronunciation": "luh BLOK"
+    }
+  ]
+}

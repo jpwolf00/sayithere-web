@@ -1,0 +1,188 @@
+{
+  "id": "hydra_hydra_town_harbor_front",
+  "name_en": "Hydra Town Harbor Front",
+  "name_local": "Παραλία Ύδρας",
+  "icon": "leaf",
+  "lat": 37.3054679,
+  "lon": 23.3776423,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "hydra_hydra_town_harbor_front_001",
+      "intent_en": "Where can I negotiate a donkey ride?",
+      "text_local": "Πού κανονίζω γαϊδουράκι;",
+      "pronunciation": "pOO-kAHnohnEEzoh-ghEYEthoorAHee",
+      "formality": "standard",
+      "cultural_note": "Τα γαϊδούρια βρίσκονται κοντά στην προβλήτα για μεταφορά προς τους οικισμούς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην προβλήτα.",
+        "pronunciation": "steem-brohvlEEtah",
+        "translation_en": "At the dock."
+      },
+      "responses": [
+        {
+          "english": "At the dock.",
+          "phonetic": "steem-brohvlEEtah",
+          "french": "Στην προβλήτα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_town_harbor_front_002",
+      "intent_en": "Is there a queue for boat boarding?",
+      "text_local": "Υπάρχει ουρά για επιβίβαση;",
+      "pronunciation": "eepAHrkhee-oorAH-yAH-EHpeevEEvahsEE",
+      "formality": "standard",
+      "cultural_note": "Η επιβίβαση γίνεται με σειρά προτεραιότητας στην προβλήτα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, περιμένετε στην προβλήτα.",
+        "pronunciation": "nEHpEHreemEHnehtEH-steem-brohvlEEtah",
+        "translation_en": "Yes, wait at the dock."
+      },
+      "responses": [
+        {
+          "english": "Yes, wait at the dock.",
+          "phonetic": "nEHpEHreemEHnehtEH-steem-brohvlEEtah",
+          "french": "Ναι, περιμένετε στην προβλήτα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_town_harbor_front_003",
+      "intent_en": "Where to queue for boat boarding",
+      "text_local": "Πού περιμένω για επιβίβαση;",
+      "pronunciation": "pOO-pEHreemEHnoh-yAH-EHpeevEEvahsEE",
+      "formality": "standard",
+      "cultural_note": "Η ουρά επιβίβασης σχηματίζεται στην προβλήτα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην προβλήτα.",
+        "pronunciation": "steem-brohvlEEtah",
+        "translation_en": "At the dock."
+      },
+      "responses": [
+        {
+          "english": "At the dock.",
+          "phonetic": "steem-brohvlEEtah",
+          "french": "Στην προβλήτα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_town_harbor_front_004",
+      "intent_en": "Where do water taxis pick up passengers?",
+      "text_local": "Πού επιβιβάζονται οι βάρκες;",
+      "pronunciation": "pOO-EHpeeveevAHzohdEH-ee-vAHrehs",
+      "formality": "standard",
+      "cultural_note": "Οι βάρκες επιβιβάζονται απευθείας από την προβλήτα του λιμανιού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην προβλήτα.",
+        "pronunciation": "steem-brohvlEEtah",
+        "translation_en": "At the dock."
+      },
+      "responses": [
+        {
+          "english": "At the dock.",
+          "phonetic": "steem-brohvlEEtah",
+          "french": "Στην προβλήτα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_town_harbor_front_005",
+      "intent_en": "Boat taxi to Kamini village",
+      "text_local": "Υπάρχει βάρκα για το Καμίνι;",
+      "pronunciation": "eepAHrkhee-vAHrkah-yAH-toh-kahmEEnee",
+      "formality": "standard",
+      "cultural_note": "Υπάρχουν τοπικά δρομολόγια προς το Καμίνι από την προβλήτα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στη προβλήτα.",
+        "pronunciation": "nEHstee-prohvlEEtah",
+        "translation_en": "Yes, at the dock."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the dock.",
+          "phonetic": "nEHstee-prohvlEEtah",
+          "french": "Ναι, στη προβλήτα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_town_harbor_front_006",
+      "intent_en": "How do I pay at waterfront tavernas?",
+      "text_local": "Πώς μπορώ να πληρώσω;",
+      "pronunciation": "pOHs-pleerOHnoh-stoh-tAHvehrnAHee",
+      "formality": "standard",
+      "cultural_note": "Στις ταβέρνες της παραλίας η πληρωμή γίνεται συνήθως απευθείας στο τραπέζι.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αποδεκτά είναι μετρητά και κάρτες.",
+        "pronunciation": "AHpohthehktAH-EEneh-mEHtreetAH-keh-kAHrtehs",
+        "translation_en": "Cash and cards are accepted."
+      },
+      "responses": [
+        {
+          "english": "Cash and cards are accepted.",
+          "phonetic": "AHpohthehktAH-EEneh-mEHtreetAH-keh-kAHrtehs",
+          "french": "Αποδεκτά είναι μετρητά και κάρτες."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_town_harbor_front_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Δέχονται κάρτα;",
+      "pronunciation": "thEHkhohdEH-kAHrtah-stee-tahvEHrnah",
+      "formality": "standard",
+      "cultural_note": "Οι περισσότερες ταβέρνες δέχονται κάρτα, αλλά καλύτερα να ρωτήσετε.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δέχονται κάρτα.",
+        "pronunciation": "nEHthEHkhohdEH-kAHrtah",
+        "translation_en": "Yes, they accept card."
+      },
+      "responses": [
+        {
+          "english": "Yes, they accept card.",
+          "phonetic": "nEHthEHkhohdEH-kAHrtah",
+          "french": "Ναι, δέχονται κάρτα."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_town_harbor_front_008",
+      "intent_en": "Donkey path to upper mansions",
+      "text_local": "Πού είναι το μονοπάτι των γαϊδουριών;",
+      "pronunciation": "pOO-EEneh-toh-mOHnohpAHtee-tohn-ghEYEthooreeOHn",
+      "formality": "standard",
+      "cultural_note": "Τα γαϊδούρια ακολουθούν μονοπάτια από την προβλήτα προς τους οικισμούς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την προβλήτα προς τα πάνω.",
+        "pronunciation": "ahpOH-teem-brohvlEEtah-prOHs-tah-pAHnoh",
+        "translation_en": "From the dock uphill."
+      },
+      "responses": [
+        {
+          "english": "From the dock uphill.",
+          "phonetic": "ahpOH-teem-brohvlEEtah-prOHs-tah-pAHnoh",
+          "french": "Από την προβλήτα προς τα πάνω."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

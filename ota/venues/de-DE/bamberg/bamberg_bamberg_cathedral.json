@@ -1,0 +1,100 @@
+{
+  "id": "bamberg_bamberg_cathedral",
+  "name_en": "Bamberg Cathedral",
+  "name_local": "Bamberger Dom",
+  "icon": "building.columns",
+  "lat": 49.8907307,
+  "lon": 10.8825202,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "bamberg_bamberg_cathedral_001",
+      "intent_en": "How do I light a candle at the sacristy?",
+      "text_local": "Wie zünde ich eine Kerze an?",
+      "pronunciation": "vee-tsUEnduh-ihkh-EYEnuh-kEHrtsuh-AHn",
+      "formality": "standard",
+      "cultural_note": "Im Bamberger Dom werden Kerzen traditionell am Opferstock (Spendenkasse) entzündet. Die Spende erfolgt anonym und ohne formelle Prozesse. Die Opferstöcke sind meist in Seitenschiffen oder Kapellen platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kerzen am Opferstock spenden.",
+        "pronunciation": "kEHrtsuhn-ahm-AWpfstAWk-shpEHnduhn",
+        "translation_en": "Donate candles at the collection box."
+      },
+      "responses": [
+        {
+          "english": "Donate candles at the collection box.",
+          "phonetic": "kEHrtsuhn-ahm-AWpfstAWk-shpEHnduhn",
+          "french": "Kerzen am Opferstock spenden."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_bamberg_cathedral_002",
+      "intent_en": "Where is the Bamberg Horseman statue?",
+      "text_local": "Wo steht der Bamberger Reiter?",
+      "pronunciation": "vOH-shtEHt-dehr-bAHmbehr-rEYEt",
+      "formality": "standard",
+      "cultural_note": "Der Bamberger Reiter ist ein zentrales Kunstwerk im Dom und wird oft als erstes Ziel von Besuchern angesteuert. Die Position im Seitenschiff ist stabil, aber die genaue Orientierung (links/rechts) kann je nach Eingang variieren.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im rechten Seitenschiff.",
+        "pronunciation": "ihm-rEHkhtuhn-zEYEtuhnshIHf",
+        "translation_en": "In the right aisle."
+      },
+      "responses": [
+        {
+          "english": "In the right aisle.",
+          "phonetic": "ihm-rEHkhtuhn-zEYEtuhnshIHf",
+          "french": "Im rechten Seitenschiff."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_bamberg_cathedral_003",
+      "intent_en": "Is the Pope's tomb accessible to view?",
+      "text_local": "Ist das Papstgrab zugänglich?",
+      "pronunciation": "ihst-dahs-pAHpstrahp-tsOOehnglIHkh",
+      "formality": "standard",
+      "cultural_note": "Das Papstgrab (Clement II.) ist ein bedeutendes historisches Ziel im Bamberger Dom und für Besucher stets zugänglich. Die Position im Chor ist stabil und wird von Pilgern und Touristen regelmäßig aufgesucht.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Chor.",
+        "pronunciation": "yAHihm-kOHr",
+        "translation_en": "Yes, in the choir."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the choir.",
+          "phonetic": "yAHihm-kOHr",
+          "french": "Ja, im Chor."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_bamberg_cathedral_004",
+      "intent_en": "Where do I buy cathedral concert tickets?",
+      "text_local": "Wo gibt es Domkonzertkarten?",
+      "pronunciation": "vOH-EEpt-ehs-dAWmkawntsEHrtkahrtuhn",
+      "formality": "standard",
+      "cultural_note": "Konzerte im Bamberger Dom sind beliebt und Tickets werden zentral über das Domportal oder den Info-Stand verkauft. Exakte Standorte können je nach Veranstaltung variieren; der Infostand ist die sichere Anlaufstelle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Infostand.",
+        "pronunciation": "ahm-IHnfawstAHnt",
+        "translation_en": "At the info desk."
+      },
+      "responses": [
+        {
+          "english": "At the info desk.",
+          "phonetic": "ahm-IHnfawstAHnt",
+          "french": "Am Infostand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_getufte_specialty_cheese_shop",
+  "name_en": "Getufte Specialty Cheese Shop",
+  "name_local": "Getufte",
+  "icon": "fork.knife",
+  "lat": 46.0212076,
+  "lon": 7.749254,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zermatt_getufte_specialty_cheese_shop_001",
+      "intent_en": "Where is gift packaging done",
+      "text_local": "Wo gibt es Geschenkverpackung?",
+      "pronunciation": "vOH-EEpt-ehs-uhshEHngkfpAHkuhng",
+      "formality": "standard",
+      "cultural_note": "Gift packaging is a common service in Swiss specialty shops, often handled at the main counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Verkaufstresen.",
+        "pronunciation": "ahm-fehrkOWfstrehzuhn",
+        "translation_en": "At the sales counter."
+      },
+      "responses": [
+        {
+          "english": "At the sales counter.",
+          "phonetic": "ahm-fehrkOWfstrehzuhn",
+          "french": "Am Verkaufstresen."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_getufte_specialty_cheese_shop_002",
+      "intent_en": "Where do they slice the Raclette",
+      "text_local": "Wo wird Raclettekäse geschnitten?",
+      "pronunciation": "vOH-vIHrt-rAHklehtEHkehzuh-uhshnIHtuhn",
+      "formality": "standard",
+      "cultural_note": "Cheese slicing counters are typical in Swiss specialty cheese shops, often staffed by Käser.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Käse-Slicer.",
+        "pronunciation": "ahm-kEHzuhslEEk",
+        "translation_en": "At the cheese slicer."
+      },
+      "responses": [
+        {
+          "english": "At the cheese slicer.",
+          "phonetic": "ahm-kEHzuhslEEk",
+          "french": "Am Käse-Slicer."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_getufte_specialty_cheese_shop_003",
+      "intent_en": "Can I taste before buying",
+      "text_local": "Darf man hier Käse probieren?",
+      "pronunciation": "dAHrf-mahn-hEEr-kEHzuh-prohbEEruhn",
+      "formality": "casual",
+      "cultural_note": "Tasting cheese before buying aligns with Swiss cheese shop customs, where customers often expect to sample.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor dem Kauf.",
+        "pronunciation": "yAHfAWr-dehm-kOWf",
+        "translation_en": "Yes, before purchase."
+      },
+      "responses": [
+        {
+          "english": "Yes, before purchase.",
+          "phonetic": "yAHfAWr-dehm-kOWf",
+          "french": "Ja, vor dem Kauf."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_getufte_specialty_cheese_shop_004",
+      "intent_en": "Is the Alpkäse in stock today",
+      "text_local": "Haben Sie heute Alpkäse?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-AHlpkehzuh",
+      "formality": "standard",
+      "cultural_note": "Alpkäse is a traditional Swiss alpine cheese, often stocked in mountain regions like Zermatt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, verfügbar.",
+        "pronunciation": "yAHfehrfUEkbahr",
+        "translation_en": "Yes, available."
+      },
+      "responses": [
+        {
+          "english": "Yes, available.",
+          "phonetic": "yAHfehrfUEkbahr",
+          "french": "Ja, verfügbar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

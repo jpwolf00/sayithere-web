@@ -1,0 +1,122 @@
+{
+  "id": "bern_rose_garden",
+  "name_en": "Rose Garden",
+  "name_local": "Rosengarten",
+  "icon": "leaf",
+  "lat": 46.9519684,
+  "lon": 7.4603014,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "bern_rose_garden_001",
+      "intent_en": "Does the café kiosk accept twint payments",
+      "text_local": "Akzeptiert der Kiosk Twint?",
+      "pronunciation": "AHktsehptEErt-dehr-kIHohsk-twIHnt",
+      "formality": "standard",
+      "cultural_note": "Payment methods are typically displayed at the kiosk; staff may confirm verbally.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, oder Barzahlung.",
+        "pronunciation": "yAHOHd-bAHrtsahlUHng",
+        "translation_en": "Yes, or cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, or cash.",
+          "phonetic": "yAHOHd-bAHrtsahlUHng",
+          "french": "Ja, oder Barzahlung."
+        }
+      ]
+    },
+    {
+      "id": "bern_rose_garden_002",
+      "intent_en": "Where is the Old Town panorama viewpoint",
+      "text_local": "Wo ist der Aussichtspunkt auf die Altstadt?",
+      "pronunciation": "vOH-ihst-dehr-OWszIHkhtspuhngkt-owf-dee-AHltstaht",
+      "formality": "standard",
+      "cultural_note": "Visitors expect concise directions to the viewpoint without needing to repeat the target name.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf den Rosengarten-Terrassen.",
+        "pronunciation": "owf-dehn-rOHzuhnAHrtuhntEHrahsuhn",
+        "translation_en": "On the Rosengarten terraces."
+      },
+      "responses": [
+        {
+          "english": "On the Rosengarten terraces.",
+          "phonetic": "owf-dehn-rOHzuhnAHrtuhntEHrahsuhn",
+          "french": "Auf den Rosengarten-Terrassen."
+        }
+      ]
+    },
+    {
+      "id": "bern_rose_garden_003",
+      "intent_en": "Is morning quiet enforced in the lower beds",
+      "text_local": "Gilt morgens Ruhe in den Beeten?",
+      "pronunciation": "IHlt-mAWruhns-rOOuh-ihn-dehn-bEHtuhn",
+      "formality": "standard",
+      "cultural_note": "Staff may refer to posted rules without further detail.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, leise Stimmen erwünscht.",
+        "pronunciation": "yAHlEYEzuh-shtIHmuhn-ehrvUEnsht",
+        "translation_en": "Yes, keep voices quiet."
+      },
+      "responses": [
+        {
+          "english": "Yes, keep voices quiet.",
+          "phonetic": "yAHlEYEzuh-shtIHmuhn-ehrvUEnsht",
+          "french": "Ja, leise Stimmen erwünscht."
+        }
+      ]
+    },
+    {
+      "id": "bern_rose_garden_004",
+      "intent_en": "Must I stay on all gravel paths",
+      "text_local": "Darf ich abseits der Wege gehen?",
+      "pronunciation": "dAHrf-ihkh-AHpzeyets-dehr-vEHuh-EHuhn",
+      "formality": "standard",
+      "cultural_note": "Direct refusal without elaboration expected; rules are clearly posted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bleiben Sie auf den Wegen.",
+        "pronunciation": "blEYEbuhn-zee-owf-dehn-vEHuhn",
+        "translation_en": "Stay on the paths."
+      },
+      "responses": [
+        {
+          "english": "Stay on the paths.",
+          "phonetic": "blEYEbuhn-zee-owf-dehn-vEHuhn",
+          "french": "Bleiben Sie auf den Wegen."
+        }
+      ]
+    },
+    {
+      "id": "bern_rose_garden_005",
+      "intent_en": "Where do cash donations go for maintenance",
+      "text_local": "Wohin kommen Geldspenden für die Pflege?",
+      "pronunciation": "vohhEEn-kAWmuhn-EHltspuhnduhn-fuer-dee-pflEHuh",
+      "formality": "casual",
+      "cultural_note": "Donors expect a clear and immediate location cue tied to the donation box.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Spendenkasten beim Eingang.",
+        "pronunciation": "ihm-shpEHnduhnkAHstuhn-beyem-EYEnAHng",
+        "translation_en": "Donation box at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Donation box at the entrance.",
+          "phonetic": "ihm-shpEHnduhnkAHstuhn-beyem-EYEnAHng",
+          "french": "Im Spendenkasten beim Eingang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "zell_am_see_pinzgauer_lokalbahn_train_station",
+  "name_en": "Pinzgauer Lokalbahn Train Station",
+  "name_local": "Bahnhof Pinzgauer Lokalbahn",
+  "icon": "tram",
+  "lat": 47.32031,
+  "lon": 12.7958924,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zell_am_see_pinzgauer_lokalbahn_train_station_001",
+      "intent_en": "Where is the platform for mountain-view seats?",
+      "text_local": "Wo ist der Bahnsteig für die Bergaussicht?",
+      "pronunciation": "vOH-ihst-dehr-bAHnsteyek-fuer-OWszIHkhtsihtsuh",
+      "formality": "standard",
+      "cultural_note": "Mountain-view sections are often on one side of the platform; signage reflects this.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bahnsteig zwei, ganz vorne.",
+        "pronunciation": "bAHnsteyek-tsvEYEgAHnts-fAWrnuh",
+        "translation_en": "Platform two, all the way at the front."
+      },
+      "responses": [
+        {
+          "english": "Platform two, all the way at the front.",
+          "phonetic": "bAHnsteyek-tsvEYEgAHnts-fAWrnuh",
+          "french": "Bahnsteig zwei, ganz vorne."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_pinzgauer_lokalbahn_train_station_002",
+      "intent_en": "When does the next train to Mittersill leave?",
+      "text_local": "Wann fährt der nächste Zug nach Mittersill?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-tsOOk-nahkh-mIHtzIHl",
+      "formality": "standard",
+      "cultural_note": "Departure times are shown on electronic boards; staff may provide live updates.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In 15 Minuten.",
+        "pronunciation": "ihn-fUEnftsehn-meenOOtuhn",
+        "translation_en": "In 15 minutes."
+      },
+      "responses": [
+        {
+          "english": "In 15 minutes.",
+          "phonetic": "ihn-fUEnftsehn-meenOOtuhn",
+          "french": "In 15 Minuten."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_pinzgauer_lokalbahn_train_station_003",
+      "intent_en": "Do I validate tickets before boarding here?",
+      "text_local": "Muss ich Tickets vor dem Einsteigen entwerten?",
+      "pronunciation": "mUHs-ihkh-tIHkuhts-fAWr-dehm-EYEnshtEYEuhn-ehntvEHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Validation machines are standard at platforms; staff enforce this rule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor dem Einsteigen.",
+        "pronunciation": "yAHfAWr-dehm-EYEnshtEYEuhn",
+        "translation_en": "Yes, before boarding."
+      },
+      "responses": [
+        {
+          "english": "Yes, before boarding.",
+          "phonetic": "yAHfAWr-dehm-EYEnshtEYEuhn",
+          "french": "Ja, vor dem Einsteigen."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_pinzgauer_lokalbahn_train_station_004",
+      "intent_en": "Where is the ticket machine for Krimml trains?",
+      "text_local": "Wo ist der Ticketautomat für Krimml-Züge?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtOWtohmAHt-fuer-krIHmltsUEuh",
+      "formality": "standard",
+      "cultural_note": "Ticket machines are typically near platform entrances or main concourse; signs are standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf Bahnsteig 3.",
+        "pronunciation": "owf-bAHnsteyek-drEYE",
+        "translation_en": "On platform 3."
+      },
+      "responses": [
+        {
+          "english": "On platform 3.",
+          "phonetic": "owf-bAHnsteyek-drEYE",
+          "french": "Auf Bahnsteig 3."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_pinzgauer_lokalbahn_train_station_005",
+      "intent_en": "Is the regional pass valid on this train?",
+      "text_local": "Gilt der Regionalpass auf dieser Strecke?",
+      "pronunciation": "IHlt-dehr-rEHihOHnahlpAHs-hEEr",
+      "formality": "standard",
+      "cultural_note": "Regional passes are checked by the conductor; validity depends on train type.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, der gilt hier.",
+        "pronunciation": "yAHdehr-gIHlt-hEEr",
+        "translation_en": "Yes, it's valid here."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's valid here.",
+          "phonetic": "yAHdehr-gIHlt-hEEr",
+          "french": "Ja, der gilt hier."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

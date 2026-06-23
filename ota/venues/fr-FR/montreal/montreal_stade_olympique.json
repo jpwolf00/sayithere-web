@@ -1,0 +1,118 @@
+{
+  "id": "montreal_stade_olympique",
+  "name_en": "Olympic Stadium",
+  "name_local": "Stade olympique de Montréal",
+  "icon": "building.columns",
+  "lat": 45.5597,
+  "lon": -73.5516,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "mtl_so_001",
+      "intent_en": "Ask about tours of the stadium",
+      "text_local": "Est-ce qu'il y a des visites guidées du stade ?",
+      "pronunciation": "ess-KEEL ee ah day vee-ZEET gee-DAY doo STAHD",
+      "formality": "polite",
+      "cultural_note": "The Olympic Stadium, built for the 1976 Summer Olympics, offers guided tours of its iconic inclined tower and retractable roof.",
+      "responses": [
+        {
+          "english": "There are tours every day at one o'clock.",
+          "phonetic": "eel ee ah day vee-ZEET too lay ZHOOR ah TREZ UR",
+          "french": "Il y a des visites tous les jours à treize heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_so_002",
+      "intent_en": "Ask about taking the tower observatory",
+      "text_local": "Je voudrais monter à l'observatoire de la tour olympique.",
+      "pronunciation": "zhuh voo-DREH mon-TAY ah lob-sair-vah-TWAHR duh lah TOOR oh-lam-PEEK",
+      "formality": "polite",
+      "cultural_note": "The Olympic Tower's funicular takes visitors to an observation deck 175m above the ground for panoramic views of Montréal.",
+      "responses": [
+        {
+          "english": "The observatory is open, take the elevator over there.",
+          "phonetic": "lob-zair-vah-TWAHR eh too-VAIR pruh-NAY lah-sahn-SUR lah-BAH",
+          "french": "L'observatoire est ouvert, prenez l'ascenseur là-bas."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_so_003",
+      "intent_en": "Ask where to park",
+      "text_local": "Où est le stationnement le plus proche ?",
+      "pronunciation": "oo EH luh stah-syon-MAH luh ploo PROSH",
+      "formality": "neutral",
+      "cultural_note": "'Stationnement' is the Québécois word for parking (vs. 'parking' used in France). The Olympic Park has large parking areas.",
+      "responses": [
+        {
+          "english": "Parking is on Pie-IX Boulevard.",
+          "phonetic": "luh stah-syohn-MAHN eh soor luh bool-VAR PEE-NURF",
+          "french": "Le stationnement est sur le boulevard Pie-IX."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_so_004",
+      "intent_en": "Ask what events are on this week",
+      "text_local": "Quels événements ont lieu cette semaine au stade ?",
+      "pronunciation": "kel ay-vayn-MAH on LYUH set suh-MEN oh STAHD",
+      "formality": "polite",
+      "cultural_note": "The stadium hosts concerts, trade shows, flea markets, and occasional sporting events. The giant Marché des Antiquités is very popular.",
+      "responses": [
+        {
+          "english": "It is posted at the entrance.",
+          "phonetic": "say tah-fee-SHAY ah lahn-TRAY",
+          "french": "C'est affiché à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_so_005",
+      "intent_en": "Ask how to get there by metro",
+      "text_local": "C'est quelle station de métro la plus proche ?",
+      "pronunciation": "say kel stah-SYON duh may-TROH lah ploo PROSH",
+      "formality": "neutral",
+      "cultural_note": "The Pie-IX and Viau metro stations on the Green Line both serve the Olympic Park. The metro is called 'le métro' just like in France.",
+      "responses": [
+        {
+          "english": "Take the green line, Pie-IX station.",
+          "phonetic": "pruh-NAY lah LEE-nyuh VART stah-SYOHN PEE-NURF",
+          "french": "Prenez la ligne verte, station Pie-IX."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "parking",
+      "word_local": "le stationnement",
+      "pronunciation": "luh stah-syon-MAH"
+    },
+    {
+      "word_en": "stadium",
+      "word_local": "le stade",
+      "pronunciation": "luh STAHD"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    },
+    {
+      "word_en": "subway / metro",
+      "word_local": "le métro",
+      "pronunciation": "luh may-TROH"
+    }
+  ]
+}

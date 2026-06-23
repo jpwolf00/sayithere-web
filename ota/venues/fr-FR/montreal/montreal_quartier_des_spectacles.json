@@ -1,0 +1,118 @@
+{
+  "id": "montreal_quartier_des_spectacles",
+  "name_en": "Quartier des Spectacles",
+  "name_local": "Quartier des Spectacles",
+  "icon": "theatermasks",
+  "lat": 45.5086,
+  "lon": -73.5647,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "mtl_qds_001",
+      "intent_en": "Ask what festivals are happening this week",
+      "text_local": "Quels festivals ont lieu dans le quartier cette semaine ?",
+      "pronunciation": "kel fes-tee-VAHL on LYUH dahn luh kar-tee-YAY set suh-MEN",
+      "formality": "polite",
+      "cultural_note": "The Quartier des Spectacles is the cultural heart of Montréal and hosts world-famous festivals including Jazz Festival, Just For Laughs, and Osheaga.",
+      "responses": [
+        {
+          "english": "You need to check on the website.",
+          "phonetic": "eel foh vay-ree-FYAY soor luh SEET ahn-tair-NET",
+          "french": "Il faut vérifier sur le site internet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_qds_002",
+      "intent_en": "Ask for a ticket to a show at Place des Arts",
+      "text_local": "Je cherche des billets pour un spectacle à la Place des Arts.",
+      "pronunciation": "zhuh SHAIRSH day bee-YEH poor un spek-TAHKL ah lah PLASS day ZAHR",
+      "formality": "polite",
+      "cultural_note": "Place des Arts is Montréal's premier performing arts complex. It houses multiple concert halls and is the centrepiece of the Quartier.",
+      "responses": [
+        {
+          "english": "At the ticket office, over there.",
+          "phonetic": "oh gee-SHAY lah-BAH",
+          "french": "Au guichet, là-bas."
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    },
+    {
+      "id": "mtl_qds_003",
+      "intent_en": "Ask where the box office is",
+      "text_local": "Le guichet, c'est par là ?",
+      "pronunciation": "luh gee-SHEH say par LAH",
+      "formality": "neutral",
+      "cultural_note": "'Le guichet' means box office or ticket window. In Québec you'll also hear 'la billetterie' for the ticketing office at larger venues.",
+      "responses": [
+        {
+          "english": "Right across from Place des Arts.",
+          "phonetic": "zhoost ahn FAHSS duh lah PLAHSS day ZAHR",
+          "french": "Juste en face de la Place des Arts."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_qds_004",
+      "intent_en": "Ask about the free outdoor programming",
+      "text_local": "Les spectacles extérieurs gratuits, ça commence à quelle heure ?",
+      "pronunciation": "lay spek-TAHKL ex-tay-ree-UR gra-TWEE sah ko-MAHSS ah kel UR",
+      "formality": "neutral",
+      "cultural_note": "During summer festivals, the Quartier hosts free outdoor concerts on the Esplanade Clark. Bring a blanket and enjoy world-class acts for free.",
+      "responses": [
+        {
+          "english": "It is posted on the neighbourhood signs.",
+          "phonetic": "say tah-fee-SHAY soor lay pah-NOH doo kar-TYAY",
+          "french": "C'est affiché sur les panneaux du quartier."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_qds_005",
+      "intent_en": "Ask where to grab food before a show",
+      "text_local": "On peut manger quelque chose de bon avant le spectacle ?",
+      "pronunciation": "on puh mon-ZHAY kel-kuh SHOHZ duh BON ah-VAH luh spek-TAHKL",
+      "formality": "neutral",
+      "cultural_note": "The neighbourhood around Place des Arts has excellent pre-show dining. Chinatown is a short walk away for affordable options.",
+      "responses": [
+        {
+          "english": "There are restaurants on Sainte-Catherine Street.",
+          "phonetic": "eel ee ah day res-toh-RAHN ROO sahnt-kah-REEN",
+          "french": "Il y a des restaurants rue Sainte-Catherine."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "festival",
+      "word_local": "le festival",
+      "pronunciation": "luh fes-tee-VAHL"
+    },
+    {
+      "word_en": "box office / ticket window",
+      "word_local": "le guichet / la billetterie",
+      "pronunciation": "luh gee-SHEH / lah bee-yet-REE"
+    },
+    {
+      "word_en": "show / performance",
+      "word_local": "le spectacle",
+      "pronunciation": "luh spek-TAHKL"
+    },
+    {
+      "word_en": "outdoor stage",
+      "word_local": "la scène extérieure",
+      "pronunciation": "lah SEN ex-tay-ree-UR"
+    }
+  ]
+}

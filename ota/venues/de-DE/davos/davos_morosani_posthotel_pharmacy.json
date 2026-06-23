@@ -1,0 +1,100 @@
+{
+  "id": "davos_morosani_posthotel_pharmacy",
+  "name_en": "Morosani Posthotel Pharmacy",
+  "name_local": "Apotheke im Morosani Posthotel",
+  "icon": "info.circle",
+  "lat": 46.796198,
+  "lon": 9.8236892,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "davos_morosani_posthotel_pharmacy_001",
+      "intent_en": "Where is hotel lobby pharmacy entrance",
+      "text_local": "Wo ist die Apotheke im Posthotel?",
+      "pronunciation": "vOH-ihst-dee-AHpohtEHkuh-ihm-pAWstohtuhl",
+      "formality": "standard",
+      "cultural_note": "The pharmacy is integrated in the hotel lobby; no separate entrance is required.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hotel-Eingangsbereich.",
+        "pronunciation": "ihm-hOHtuhlEYEnAHngsbuhrEYEkh",
+        "translation_en": "In the hotel lobby area."
+      },
+      "responses": [
+        {
+          "english": "In the hotel lobby area.",
+          "phonetic": "ihm-hOHtuhlEYEnAHngsbuhrEYEkh",
+          "french": "Im Hotel-Eingangsbereich."
+        }
+      ]
+    },
+    {
+      "id": "davos_morosani_posthotel_pharmacy_002",
+      "intent_en": "Can hotel guests bill pharmacy here",
+      "text_local": "Können Hotelgäste hier die Rechnung aufs Zimmer schreiben?",
+      "pronunciation": "kUHnuhn-hOHtuhlEHstuh-hEEr-ihn-rEHkhnuhng-shtEHluhn",
+      "formality": "casual",
+      "cultural_note": "Hotel guests typically receive a billable guest card for services rendered.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit der Gästekarte.",
+        "pronunciation": "yAHmiht-dehr-gEHstehkAHrtuh",
+        "translation_en": "Yes, with the guest card."
+      },
+      "responses": [
+        {
+          "english": "Yes, with the guest card.",
+          "phonetic": "yAHmiht-dehr-gEHstehkAHrtuh",
+          "french": "Ja, mit der Gästekarte."
+        }
+      ]
+    },
+    {
+      "id": "davos_morosani_posthotel_pharmacy_003",
+      "intent_en": "Which counter handles prescriptions",
+      "text_local": "Wo bekomme ich Rezepte abgegeben?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-rehtsEHptuh-AHpuhEHbuhn",
+      "formality": "casual",
+      "cultural_note": "Prescriptions are handled directly at the pharmacy counter by the pharmacist or assistant.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Apotheken-Schalter.",
+        "pronunciation": "ahm-AHpohtEHkuhnshAHlt",
+        "translation_en": "At the pharmacy counter."
+      },
+      "responses": [
+        {
+          "english": "At the pharmacy counter.",
+          "phonetic": "ahm-AHpohtEHkuhnshAHlt",
+          "french": "Am Apotheken-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "davos_morosani_posthotel_pharmacy_004",
+      "intent_en": "Do you accept Euro cash payment",
+      "text_local": "Akzeptieren Sie Euro?",
+      "pronunciation": "AHktsehptEEruhn-zee-AWuhroh",
+      "formality": "standard",
+      "cultural_note": "In Switzerland, Swiss Franc is preferred, but Euro may be accepted at some locations depending on policy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

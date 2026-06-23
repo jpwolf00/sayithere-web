@@ -1,0 +1,122 @@
+{
+  "id": "patras_patras_folk_art_museum",
+  "name_en": "Patras Folk Art Museum",
+  "name_local": "Μουσείο Λαϊκής Τέχνης Πάτρας",
+  "icon": "building.columns",
+  "lat": 38.2349672,
+  "lon": 21.7315298,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "patras_patras_folk_art_museum_001",
+      "intent_en": "Is entry ticket purchased here",
+      "text_local": "Εδώ αγοράζονται τα εισιτήρια;",
+      "pronunciation": "ehthOH-AHghohrAHzohdEH-tah-EEseetEEreeAH",
+      "formality": "standard",
+      "cultural_note": "Στην Ελλάδα, τα εισιτήρια μουσείων συνήθως αγοράζονται στον χώρο εισόδου χωρίς προηγούμενη κράτηση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, εδώ.",
+        "pronunciation": "nEHehthOH",
+        "translation_en": "Yes, here."
+      },
+      "responses": [
+        {
+          "english": "Yes, here.",
+          "phonetic": "nEHehthOH",
+          "french": "Ναι, εδώ."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_folk_art_museum_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η αίθουσα με τις παραδοσιακές φορεσιές;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-EHthoosAH-meh-tees-pAHrahthOHsyahEHs-fOHrehsyEHs",
+      "formality": "standard",
+      "cultural_note": "Στις πολιτιστικές εγκαταστάσεις, οι επισκέπτες συχνά απευθύνονται στον υπάλληλο για συγκεκριμένες τοποθεσίες εκθεμάτων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην έκθεση υφαντών, αριστερά.",
+        "pronunciation": "thEEplah-steen-EHkthehsEE-EEfahdOHnAHreestehrAH",
+        "translation_en": "The costume room is next to the woven textiles exhibit."
+      },
+      "responses": [
+        {
+          "english": "The costume room is next to the woven textiles exhibit.",
+          "phonetic": "thEEplah-steen-EHkthehsEE-EEfahdOHnAHreestehrAH",
+          "french": "Δίπλα στην έκθεση υφαντών, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_folk_art_museum_003",
+      "intent_en": "Is flash photography allowed",
+      "text_local": "Επιτρέπεται η φωτογράφιση με φλας;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-fOHtohghrAHfeesEE-meh-flAHs",
+      "formality": "standard",
+      "cultural_note": "Η απαγόρευση φλας αποτελεί τυπική πολιτική σε μουσεία για την προστασία των εκθεμάτων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, not allowed."
+      },
+      "responses": [
+        {
+          "english": "No, not allowed.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_folk_art_museum_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η έκθεση υφαντών;",
+      "pronunciation": "pOO-EEneh-ee-EHkthehsEE-tohn-EEfahdOHn-EEfahsmAHtohn",
+      "formality": "standard",
+      "cultural_note": "Οι πινακίδες εκθεμάτων είναι κοινή πρακτική σε μουσεία για την καθοδήγηση των επισκεπτών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στην αίθουσα εισόδου.",
+        "pronunciation": "AHreestehrAH-steen-EHthoosAH-eesOHthoo",
+        "translation_en": "The woven textiles exhibit is next to the entrance, on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "The woven textiles exhibit is next to the entrance, on the ground floor.",
+          "phonetic": "AHreestehrAH-steen-EHthoosAH-eesOHthoo",
+          "french": "Αριστερά στην αίθουσα εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_folk_art_museum_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται το κατάστημα με τα τοπικά είδη;",
+      "pronunciation": "pOO-vrEEsehtEH-toh-kahtAHsteemAH-meh-tah-tOHpeekAH-EEthee",
+      "formality": "standard",
+      "cultural_note": "Τα καταστήματα μουσείων συχνά βρίσκονται κοντά στην έξοδο, αλλά η ακριβής τοποθεσία μπορεί να μην είναι εμφανής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην είσοδο του μουσείου.",
+        "pronunciation": "thEEplah-steen-EEsohthOH-too-moosEEoo",
+        "translation_en": "The shop is located on the ground floor, next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "The shop is located on the ground floor, next to the entrance.",
+          "phonetic": "thEEplah-steen-EEsohthOH-too-moosEEoo",
+          "french": "Δίπλα στην είσοδο του μουσείου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

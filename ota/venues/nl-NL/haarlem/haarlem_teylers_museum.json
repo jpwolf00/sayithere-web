@@ -1,0 +1,78 @@
+{
+  "id": "haarlem_teylers_museum",
+  "name_en": "Teylers Museum",
+  "name_local": "Teylers Museum",
+  "icon": "building.columns",
+  "lat": 52.3794,
+  "lon": 4.5532,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "haarlem_teylers_museum_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Werkt de grote elektriseermachine vandaag?",
+      "pronunciation": "vEHrk-tuh-ghrOHtuh-EHlehktrEEzihrmahshEEnuh-vahndAHkh",
+      "formality": "standard",
+      "cultural_note": "De elektriseermachine wordt gedemonstreerd op specifieke momenten; tijden hangen aan de balie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Demonstraties zijn op vaste tijden; kijk op het bord bij de ingang.",
+        "pronunciation": "dEHmawnstrAHtsee-sehihn-awp-vAHstuh-tEHihduhnkEHihk-awp-huht-bAWrd-behih-duh-IHnghAHng",
+        "translation_en": "Demonstrations are at fixed times; check the board at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Demonstrations are at fixed times; check the board at the entrance.",
+          "phonetic": "dEHmawnstrAHtsee-sehihn-awp-vAHstuh-tEHihduhnkEHihk-awp-huht-bAWrd-behih-duh-IHnghAHng",
+          "french": "Demonstraties zijn op vaste tijden; kijk op het bord bij de ingang."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_teylers_museum_002",
+      "intent_en": "Where is the Oval Room located?",
+      "text_local": "Waar is de Oval Room?",
+      "pronunciation": "vAHr-ihs-duh-OHvahl-rOHm",
+      "formality": "standard",
+      "cultural_note": "De Oval Room is een historische ruimte die achter het hoofdgebouw ligt, maar bezoekers worden naar de ingang geleid.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar de Oval Room.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-duh-OHvahl-rOHm",
+        "translation_en": "Follow the signs to the Oval Room."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Oval Room.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-duh-OHvahl-rOHm",
+          "french": "Volg de borden naar de Oval Room."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_teylers_museum_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Hoe huur ik een audiotour?",
+      "pronunciation": "hOO-hUEr-ihk-uhn-UHuhdeeOHtoor",
+      "formality": "standard",
+      "cultural_note": "Audiogidsen zijn beschikbaar bij de entreebalie; neem een legitimatiebewijs mee als borg.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aan de balie bij de entree.",
+        "pronunciation": "ahn-duh-bahlEE-behih-duh-ehntrEH",
+        "translation_en": "At the desk at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the desk at the entrance.",
+          "phonetic": "ahn-duh-bahlEE-behih-duh-ehntrEH",
+          "french": "Aan de balie bij de entree."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "ioannina_pyrsos_pharmacy",
+  "name_en": "Pyrsos Pharmacy",
+  "name_local": "Φαρμακείο Πύρσος",
+  "icon": "info.circle",
+  "lat": 39.6639818,
+  "lon": 20.8522784,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "ioannina_pyrsos_pharmacy_001",
+      "intent_en": "Do I need a queue number?",
+      "text_local": "Χρειάζεται αριθμός σειράς;",
+      "pronunciation": "khrkhAHzehtEH-AHreethmOHs-seerAHs",
+      "formality": "standard",
+      "cultural_note": "In Greek pharmacies, queue numbers are commonly used to manage customer flow, especially during peak hours.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Πάρτε αριθμό από τη μηχανή.",
+        "pronunciation": "pAHrteh-AHreethmOH-ahpOH-tee-mEEkhahnEE",
+        "translation_en": "Take a number from the machine."
+      },
+      "responses": [
+        {
+          "english": "Take a number from the machine.",
+          "phonetic": "pAHrteh-AHreethmOH-ahpOH-tee-mEEkhahnEE",
+          "french": "Πάρτε αριθμό από τη μηχανή."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_pyrsos_pharmacy_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι ο πάγκος συνταγών;",
+      "pronunciation": "pOO-EEneh-oh-pAHnggohs-EEpohvohlEEs-sEEdahghOHn",
+      "formality": "standard",
+      "cultural_note": "Prescription counters in Greek pharmacies are typically staffed by pharmacists and are a standard service point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά, δίπλα στο γκισέ συνταγών.",
+        "pronunciation": "AHreestehrAHthEEplah-stoh-geesEH-sEEdahghOHn",
+        "translation_en": "The prescription counter is on the left, next to the counter."
+      },
+      "responses": [
+        {
+          "english": "The prescription counter is on the left, next to the counter.",
+          "phonetic": "AHreestehrAHthEEplah-stoh-geesEH-sEEdahghOHn",
+          "french": "Αριστερά, δίπλα στο γκισέ συνταγών."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_pyrsos_pharmacy_003",
+      "intent_en": "Can I get an AFM receipt?",
+      "text_local": "Μπορώ να πάρω απόδειξη με ΑΦΜ;",
+      "pronunciation": "bohrOH-nah-pAHroh-ahpOHtheeksEE-meh-AHlfahfEEmEE",
+      "formality": "standard",
+      "cultural_note": "In Greece, receipts with AFM (tax identification number) are commonly requested for tax purposes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ζητήστε την στο ταμείο.",
+        "pronunciation": "nEHzeetEEsteh-teen-stoh-tahmEEoh",
+        "translation_en": "Yes, request it at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, request it at the cashier.",
+          "phonetic": "nEHzeetEEsteh-teen-stoh-tahmEEoh",
+          "french": "Ναι, ζητήστε την στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_pyrsos_pharmacy_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ελεύθερος ο φαρμακοποιός τώρα;",
+      "pronunciation": "EEneh-ehlEHfthehrOHs-oh-fAHrmahkOHpeeOHs-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Pharmacists in Greek pharmacies often assist customers directly in consultation areas.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο μπροστά.",
+        "pronunciation": "nEHstoh-tahmEEoh-brohstAH",
+        "translation_en": "Yes, they’re here and can help you now."
+      },
+      "responses": [
+        {
+          "english": "Yes, they’re here and can help you now.",
+          "phonetic": "nEHstoh-tahmEEoh-brohstAH",
+          "french": "Ναι, στο ταμείο μπροστά."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_pyrsos_pharmacy_005",
+      "intent_en": "Do you accept insurance cards?",
+      "text_local": "Δέχεστε κάρτες ασφάλισης;",
+      "pronunciation": "thEHkhehstEH-kAHrtehs-ahsfAHleesEEs",
+      "formality": "standard",
+      "cultural_note": "Insurance card validation is a standard service in Greek pharmacies for reimbursement purposes.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δεχόμαστε.",
+        "pronunciation": "nEHthehkhOHmahstEH",
+        "translation_en": "Yes, we accept them."
+      },
+      "responses": [
+        {
+          "english": "Yes, we accept them.",
+          "phonetic": "nEHthehkhOHmahstEH",
+          "french": "Ναι, δεχόμαστε."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

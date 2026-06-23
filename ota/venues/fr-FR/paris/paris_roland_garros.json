@@ -1,0 +1,152 @@
+{
+  "id": "venue_roland_garros",
+  "name_en": "Roland-Garros / French Open",
+  "name_local": "Stade de Roland-Garros",
+  "icon": "tennisball.fill",
+  "phrases": [
+    {
+      "id": "venue_roland_garros_001",
+      "intent_en": "Ask which court is showing the match right now",
+      "text_local": "Sur quel court se joue le match en ce moment ?",
+      "pronunciation": "soor kel KOOR suh ZHOOH luh MATCH ahn suh moh-MAHN",
+      "formality": "standard",
+      "cultural_note": "Roland-Garros has three main showcourts: Philippe-Chatrier (Court Central, the main stadium), Suzanne-Lenglen (second largest), and Simonne-Mathieu (the newest, with a botanical garden roof). Daily schedules are posted at the entrance and on the official app.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The match is on the Philippe-Chatrier court right now.",
+          "phonetic": "luh match eh soor luh koor fee-LEEP shah-TREE-AY ahn suh moh-MAHN",
+          "french": "Le match est sur le court Philippe-Chatrier en ce moment."
+        }
+      ]
+    },
+    {
+      "id": "venue_roland_garros_002",
+      "intent_en": "Ask where to buy food and drinks inside the grounds",
+      "text_local": "Où peut-on acheter à manger et à boire dans le stade ?",
+      "pronunciation": "oo puh-TOHN ash-TAY ah mahn-ZHAY ay ah BWAR dahn luh STAHD",
+      "formality": "standard",
+      "cultural_note": "The Roland-Garros village has numerous food stands and restaurants. The iconic strawberries and cream (fraises) are a tournament tradition. The champagne stands are popular, and several celebrity chefs run pop-up restaurants during the two weeks of the tournament in late May and early June.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The food stands are around the central court.",
+          "phonetic": "lay pwahn duh res-toh-rah-SYOHN sohn toh-TOOR doo koor sahn-TRAL",
+          "french": "Les points de restauration sont autour du court central."
+        }
+      ]
+    },
+    {
+      "id": "venue_roland_garros_003",
+      "intent_en": "Ask for directions to the Philippe-Chatrier court",
+      "text_local": "Pouvez-vous m'indiquer le chemin pour le court Philippe-Chatrier ?",
+      "pronunciation": "poo-VAY voo mahn-dee-KAY luh shuh-MEHN poor luh KOOR fee-LEEP shah-tree-YAY",
+      "formality": "polite",
+      "cultural_note": "Philippe-Chatrier is the historic main court, rebuilt and expanded in 2019 with a retractable roof that allows play in the rain. It holds around 15,000 spectators. This is where the men's and women's singles finals are played.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Philippe-Chatrier court is straight ahead, then left.",
+          "phonetic": "luh koor fee-LEEP shah-TREE-AY eh too drwah, pwee ah gohsh",
+          "french": "Le court Philippe-Chatrier est tout droit, puis à gauche."
+        }
+      ]
+    },
+    {
+      "id": "venue_roland_garros_004",
+      "intent_en": "Ask if there are any ground passes available on the day",
+      "text_local": "Y a-t-il encore des billets journée disponibles à l'entrée ?",
+      "pronunciation": "ee ah-TEEL ahn-KOR day bee-YEH zhoor-NAY dees-poh-NEE-bluh ah lahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "Ground passes (billets journée) allow access to the outer courts (Courts 6-18) without assigned seats. They are sold on a lottery basis online or occasionally at the gate. They are a great way to watch early-round matches up close without expensive court tickets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "You need to check at the ticket office. Some are available late in the day.",
+          "phonetic": "eel foh vay-ree-fee-AY oh gee-SHAY. eel ahn rest par-FWAH ahn fan duh zhoor-NAY",
+          "french": "Il faut vérifier au guichet. Il en reste parfois en fin de journée."
+        }
+      ]
+    },
+    {
+      "id": "venue_roland_garros_005",
+      "intent_en": "Ask if there is a bag check or locker service",
+      "text_local": "Il y a une consigne pour les sacs ?",
+      "pronunciation": "eel ee ah oon kohn-SEEN-yuh poor lay sahk",
+      "formality": "polite",
+      "cultural_note": "Large bags may not be allowed into the grounds. Check the size limits before arriving.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the bag check is at the main entrance.",
+          "phonetic": "wee, lah kohn-SEEN-yuh eh tah lan-TRAY pran-see-PAL",
+          "french": "Oui, la consigne est à l'entrée principale."
+        }
+      ]
+    },
+    {
+      "id": "venue_roland_garros_006",
+      "intent_en": "Ask which métro station is closest to the stadium",
+      "text_local": "Quelle est la station de métro la plus proche du stade ?",
+      "pronunciation": "kel eh lah stah-SYOHN duh may-TROH lah ploo PROSH doo STAHD",
+      "formality": "standard",
+      "cultural_note": "The nearest métro station is Michel-Ange–Auteuil (Line 9 and Line 10) or Porte d'Auteuil (Line 10). During the tournament, shuttle buses run from several stations. The Bois de Boulogne and Roland-Garros are adjacent — you can walk through the park to reach the stadium.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Porte d'Auteuil station, on line 10.",
+          "phonetic": "lah stah-SYOHN port doh-TUH-ee, soor lah leen-yuh deess",
+          "french": "La station Porte d'Auteuil, sur la ligne dix."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Clay court",
+      "word_local": "Terre battue",
+      "pronunciation": "tehr bah-TOO"
+    },
+    {
+      "word_en": "Match",
+      "word_local": "Match",
+      "pronunciation": "match"
+    },
+    {
+      "word_en": "Tournament",
+      "word_local": "Tournoi",
+      "pronunciation": "toor-NWAH"
+    },
+    {
+      "word_en": "Court",
+      "word_local": "Court",
+      "pronunciation": "koor"
+    },
+    {
+      "word_en": "Ground pass",
+      "word_local": "Billet journée",
+      "pronunciation": "bee-YEH zhoor-NAY"
+    },
+    {
+      "word_en": "Stadium",
+      "word_local": "Stade",
+      "pronunciation": "stahd"
+    },
+    {
+      "word_en": "Serve",
+      "word_local": "Service",
+      "pronunciation": "sehr-VEES"
+    },
+    {
+      "word_en": "Strawberries",
+      "word_local": "Fraises",
+      "pronunciation": "FREHZ"
+    }
+  ]
+}

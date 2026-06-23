@@ -1,0 +1,115 @@
+{
+  "id": "amboise_ile_dor",
+  "name_en": "Île d'Or – Golden Island",
+  "name_local": "Île d'Or",
+  "icon": "leaf",
+  "phrases": [
+    {
+      "id": "amboise_ilor_001",
+      "intent_en": "Ask how to reach the island from the town centre",
+      "text_local": "Comment accède-t-on à l'Île d'Or depuis le centre-ville ?",
+      "pronunciation": "koh-MAHN ak-SED-ton ah leel DOR duh-PWEE luh SAHN-truh-VEEL",
+      "formality": "polite",
+      "cultural_note": "Île d'Or is a small island in the middle of the Loire River, reached by footbridge from the town of Amboise. It is a popular spot for picnics and riverside walks.",
+      "responses": [
+        {
+          "english": "Take the footbridge, just over there.",
+          "phonetic": "pruh-NAY lah pass-RELL, zhoost lah-BAH",
+          "french": "Prenez la passerelle, juste là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_ilor_002",
+      "intent_en": "Ask if it is safe to swim in the Loire here",
+      "text_local": "Est-il sûr de se baigner dans la Loire ici ?",
+      "pronunciation": "ay-TEEL SOOR duh suh beh-NYAY dahn lah LWAR ee-SEE",
+      "formality": "polite",
+      "cultural_note": "Swimming in the Loire is officially discouraged due to strong and unpredictable currents. The river is best enjoyed from the banks.",
+      "responses": [
+        {
+          "english": "No, it's dangerous. There's a current.",
+          "phonetic": "nohn, seh dahn-zhuh-RUH. eel ee ah doo koo-RAHN",
+          "french": "Non, c'est dangereux. Il y a du courant."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_ilor_003",
+      "intent_en": "Ask where to rent a canoe or kayak",
+      "text_local": "Où puis-je louer un canoë ou un kayak ?",
+      "pronunciation": "oo PWEE-zhuh loo-AY un kah-NOH oo un kah-YAK",
+      "formality": "polite",
+      "cultural_note": "Several outfitters near Amboise offer canoe and kayak rental for exploring the Loire and its islands; the Île d'Or is a common stopping point.",
+      "responses": [
+        {
+          "english": "By the Loire, near the bridge.",
+          "phonetic": "oh BOR duh lah LWAR, preh doo POHN",
+          "french": "Au bord de la Loire, près du pont."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_ilor_004",
+      "intent_en": "Ask about the best spot for a picnic on the island",
+      "text_local": "Quel est le meilleur endroit pour pique-niquer sur l'île ?",
+      "pronunciation": "kel ay luh may-YUR ahn-DRWA poor peek-nee-KAY soor LEEL",
+      "formality": "polite",
+      "cultural_note": "The western tip of the island, shaded by willows, is a favourite local spot for picnics with a view of the château rising above the riverbank.",
+      "responses": [
+        {
+          "english": "At the end of the island, under the willows.",
+          "phonetic": "oh BOO duh LEEL, soo lay SOHL",
+          "french": "Au bout de l'île, sous les saules."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_ilor_005",
+      "intent_en": "Ask if there is a boat service to the island",
+      "text_local": "Y a-t-il un service de navette pour rejoindre l'île ?",
+      "pronunciation": "ee ah-TEEL un sair-VEES duh nah-VET poor ruh-ZHWAN-druh LEEL",
+      "formality": "polite",
+      "cultural_note": "The island is connected by a footbridge and is free to access on foot; no boat service is required.",
+      "responses": [
+        {
+          "english": "No, there's a pedestrian footbridge.",
+          "phonetic": "nohn, eel ee ah oon pass-RELL pyay-TON",
+          "french": "Non, il y a une passerelle piétonne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "island",
+      "word_local": "l'île",
+      "pronunciation": "LEEL"
+    },
+    {
+      "word_en": "canoe",
+      "word_local": "le canoë",
+      "pronunciation": "luh kah-NOH"
+    },
+    {
+      "word_en": "picnic",
+      "word_local": "le pique-nique",
+      "pronunciation": "luh peek-NEEK"
+    },
+    {
+      "word_en": "footbridge",
+      "word_local": "la passerelle",
+      "pronunciation": "lah pass-RELL"
+    }
+  ]
+}

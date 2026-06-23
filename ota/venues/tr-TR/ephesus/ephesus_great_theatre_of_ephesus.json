@@ -1,0 +1,144 @@
+{
+  "id": "ephesus_great_theatre_of_ephesus",
+  "name_en": "Great Theatre of Ephesus",
+  "name_local": "Efes Büyük Tiyatro",
+  "icon": "building.columns",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "ephesus_great_theatre_of_ephesus_001",
+      "intent_en": "Where is the skene stage?",
+      "text_local": "Sahne binası nerede?",
+      "pronunciation": "skehnEH-sahhnehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The skene is a major monument inside the theatre; without a precise placement in the venue context, the safe reply is to ask staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tam önünüzde.",
+        "pronunciation": "tAHm-UHnuenuhzdeh",
+        "translation_en": "Right in front of you."
+      },
+      "responses": [
+        {
+          "english": "Right in front of you.",
+          "phonetic": "tAHm-UHnuenuhzdeh",
+          "french": "Tam önünüzde."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_great_theatre_of_ephesus_002",
+      "intent_en": "Where is the cavea entrance?",
+      "text_local": "Cavea girişi nerede?",
+      "pronunciation": "dzhahvehAH-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish staff often use 'Danışma' (information) as a fallback when the exact access point is not a stable published fact.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yukarıdaki ana girişi kullanın.",
+        "pronunciation": "yookahroodahkIH-ahnAH-eereeshIH-kUHahnoon",
+        "translation_en": "Use the main entrance at the top."
+      },
+      "responses": [
+        {
+          "english": "Use the main entrance at the top.",
+          "phonetic": "yookahroodahkIH-ahnAH-eereeshIH-kUHahnoon",
+          "french": "Yukarıdaki ana girişi kullanın."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_great_theatre_of_ephesus_003",
+      "intent_en": "Are there vendors outside?",
+      "text_local": "Dışarıda satıcılar var mı?",
+      "pronunciation": "dooshahroodAH-sahtoodzhooAHr-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Souvenir stalls are a stable feature at the main gate of Efes Büyük Tiyatro.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, girişin dışında.",
+        "pronunciation": "ehvEHteereeshIHn-dooshoondAH",
+        "translation_en": "Yes, outside the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, outside the entrance.",
+          "phonetic": "ehvEHteereeshIHn-dooshoondAH",
+          "french": "Evet, girişin dışında."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_great_theatre_of_ephesus_004",
+      "intent_en": "Is commercial photo permit needed?",
+      "text_local": "Ticari fotoğraf izni gerekiyor mu?",
+      "pronunciation": "teedzhahrIH-fohtohrAHf-ihznIH-ehrehkEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "A clear 'yes' is expected for official permissions in Turkish. The process itself would require more explanation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, ticari kullanım için fotoğraf izni almanız gerekir.",
+        "pronunciation": "ehvEHtteedzhahrIH-kuhAHnoom-eetshIHn-fohtohrAHf-ihznIH-ahmAHnooz-ehrehkIHr",
+        "translation_en": "Yes, you need to get a photography permit for commercial use."
+      },
+      "responses": [
+        {
+          "english": "Yes, you need to get a photography permit for commercial use.",
+          "phonetic": "ehvEHtteedzhahrIH-kuhAHnoom-eetshIHn-fohtohrAHf-ihznIH-ahmAHnooz-ehrehkIHr",
+          "french": "Evet, ticari kullanım için fotoğraf izni almanız gerekir."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_great_theatre_of_ephesus_005",
+      "intent_en": "Is commercial photo permit needed?",
+      "text_local": "Ticari fotoğraf izni gerekli mi?",
+      "pronunciation": "teedzhahrIH-fohtohrAHf-ihznIH-ehrehklIH-mih",
+      "formality": "standard",
+      "cultural_note": "Turkish heritage sites often require a separate permit for commercial shoots; staff direct inquiries to the official information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, danışmaya sorun.",
+        "pronunciation": "ehvEHtdahnOOshmahyah-sohrUHn",
+        "translation_en": "Yes, ask at the information desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask at the information desk.",
+          "phonetic": "ehvEHtdahnOOshmahyah-sohrUHn",
+          "french": "Evet, danışmaya sorun."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_great_theatre_of_ephesus_006",
+      "intent_en": "Can I hire a guide here?",
+      "text_local": "Burada rehber kiralayabilir miyim?",
+      "pronunciation": "bOOrahdah-rehhbEHr-keerahahyahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Rehber (guide) hiring is common at major Turkish archaeological sites; the response reflects the venue context without inventing a specific desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, girişin yakınında.",
+        "pronunciation": "ehvEHteereeshIHn-yahkoonoondAH",
+        "translation_en": "Yes, near the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, near the entrance.",
+          "phonetic": "ehvEHteereeshIHn-yahkoonoondAH",
+          "french": "Evet, girişin yakınında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

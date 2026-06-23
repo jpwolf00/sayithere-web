@@ -1,0 +1,97 @@
+{
+  "id": "palermo_monreale",
+  "name_en": "Monreale Cathedral",
+  "name_local": "Duomo di Monreale",
+  "icon": "building.columns",
+  "lat": 38.0820313,
+  "lon": 13.2922777,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "palermo_monreale_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, dov'è l'ingresso del Duomo, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, doh-VEH ling-GRES-so del DOO-oh-moh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the main facade, ahead.",
+          "phonetic": "AHL-lah fahch-chee-AH-tah preen-chee-PAH-leh ah-VAHN-tee",
+          "french": "Alla facciata principale, avanti."
+        }
+      ]
+    },
+    {
+      "id": "palermo_monreale_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, quanto costa il biglietto, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, KWAN-toh COS-tah eel bee-LYET-toh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is indicated at the ticket office.",
+          "phonetic": "È een-dee-KAH-toh AHL-lah beej-lee-eht-teh-REE-ah",
+          "french": "È indicato alla biglietteria."
+        }
+      ]
+    },
+    {
+      "id": "palermo_monreale_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, a che ora apre oggi, per favore?",
+      "pronunciation": "bwon-JOR-noh, ah kay OR-ah AH-preh OH-jee, pehr fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Opens at nine in the morning.",
+          "phonetic": "AHP-reh AHL-leh NOH-veh DEE maht-TEE-nah",
+          "french": "Apre alle nove di mattina."
+        }
+      ]
+    },
+    {
+      "id": "it_mon_pa_x1",
+      "intent_en": "Ask how long the bus takes from Palermo to Monreale",
+      "text_local": "Scusi, quanto tempo ci vuole in autobus da Palermo a Monreale?",
+      "pronunciation": "SKOO-zee, KWAN-toh TEM-poh chee VWOH-leh een ow-toh-BOOS dah pah-LER-moh ah mon-reh-AH-leh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About thirty minutes, with the 389 from the central station.",
+          "phonetic": "CHEER-kah TREN-tah mee-NOO-tee, kon eel treh-ot-toh-NOH-veh DAL-lah stah-TSYOH-neh chen-TRAH-leh.",
+          "french": "Circa trenta minuti, con il 389 dalla stazione Centrale."
+        }
+      ]
+    },
+    {
+      "id": "it_mon_pa_x2",
+      "intent_en": "Ask what the mosaics inside show",
+      "text_local": "Scusi, cosa raffigurano i mosaici del Duomo di Monreale?",
+      "pronunciation": "SKOO-zee, KOH-zah raf-fee-goo-RAH-noh ee moh-ZAH-ee-chee del DWOH-moh dee mon-reh-AH-leh?",
+      "formality": "polite",
+      "cultural_note": "The Monreale Cathedral contains one of the world's largest and finest collections of Byzantine mosaics, depicting the Old and New Testament.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Old and New Testament scenes, in gold and glass.",
+          "phonetic": "SHEH-neh del-LAN-tee-koh eh NWOH-voh tes-tah-MEN-toh, een OH-roh eh VEH-troh.",
+          "french": "Scene dell'Antico e Nuovo Testamento, in oro e vetro."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

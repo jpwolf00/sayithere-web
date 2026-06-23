@@ -1,0 +1,100 @@
+{
+  "id": "munich_sendlinger_tor_pharmacy",
+  "name_en": "Sendlinger Tor Pharmacy",
+  "name_local": "Apotheke am Sendlinger Tor",
+  "icon": "info.circle",
+  "lat": 48.1336954,
+  "lon": 11.5652632,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "munich_sendlinger_tor_pharmacy_001",
+      "intent_en": "Where is the cosmetics section",
+      "text_local": "Wo finde ich die Kosmetikabteilung?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-kAWsmehtEEkahptEYEluhng",
+      "formality": "standard",
+      "cultural_note": "Staff-directed answer preferred; layout details not provided.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinten links im Regal.",
+        "pronunciation": "hIHntuhn-lINGks-ihm-rehgAHl",
+        "translation_en": "Back left on the shelf."
+      },
+      "responses": [
+        {
+          "english": "Back left on the shelf.",
+          "phonetic": "hIHntuhn-lINGks-ihm-rehgAHl",
+          "french": "Hinten links im Regal."
+        }
+      ]
+    },
+    {
+      "id": "munich_sendlinger_tor_pharmacy_002",
+      "intent_en": "Do I take a number for counter",
+      "text_local": "Brauche ich eine Nummer für den Schalter?",
+      "pronunciation": "brOWkhuh-ihkh-EYEnuh-nUHm-fuer-dehn-shAHlt",
+      "formality": "standard",
+      "cultural_note": "Direct yes/no answer expected; ticket system implied.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ziehen Sie bitte ein Ticket.",
+        "pronunciation": "yAHtsEEuhn-zee-bIHtuh-eyen-tIHkuht",
+        "translation_en": "Yes, please take a ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, please take a ticket.",
+          "phonetic": "yAHtsEEuhn-zee-bIHtuh-eyen-tIHkuht",
+          "french": "Ja, ziehen Sie bitte ein Ticket."
+        }
+      ]
+    },
+    {
+      "id": "munich_sendlinger_tor_pharmacy_003",
+      "intent_en": "How does insurance card scan work",
+      "text_local": "Wie funktioniert die Krankenkassenkarte-Scan?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-dee-krAHnkuhnkAHsuhnkAHrtuhskAHn",
+      "formality": "standard",
+      "cultural_note": "Assumes terminal is available; no micro-location details given.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten im Eingangsbereich.",
+        "pronunciation": "ahm-OWtohmAHtuhn-ihm-EYEnAHngsbuhrEYEkh",
+        "translation_en": "At the terminal in the entrance area."
+      },
+      "responses": [
+        {
+          "english": "At the terminal in the entrance area.",
+          "phonetic": "ahm-OWtohmAHtuhn-ihm-EYEnAHngsbuhrEYEkh",
+          "french": "Am Automaten im Eingangsbereich."
+        }
+      ]
+    },
+    {
+      "id": "munich_sendlinger_tor_pharmacy_004",
+      "intent_en": "Do I need prescription for this",
+      "text_local": "Brauche ich dafür ein Rezept?",
+      "pronunciation": "brOWkhuh-ihkh-dahfUEr-eyen-rehtsEHpt",
+      "formality": "standard",
+      "cultural_note": "Direct yes/no answer expected; no additional explanation provided.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, das ist rezeptpflichtig.",
+        "pronunciation": "yAHdahs-ihst-rEHtsehptpflIHkhtihkh",
+        "translation_en": "Yes, it requires a prescription."
+      },
+      "responses": [
+        {
+          "english": "Yes, it requires a prescription.",
+          "phonetic": "yAHdahs-ihst-rEHtsehptpflIHkhtihkh",
+          "french": "Ja, das ist rezeptpflichtig."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

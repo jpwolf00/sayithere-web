@@ -1,0 +1,118 @@
+{
+  "id": "montreal_biodome",
+  "name_en": "Biodôme de Montréal",
+  "name_local": "Biodôme de Montréal",
+  "icon": "leaf",
+  "lat": 45.5597,
+  "lon": -73.5519,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "mtl_bio_001",
+      "intent_en": "Ask what ecosystems are inside the Biodôme",
+      "text_local": "Quels types d'écosystèmes est-ce qu'on peut voir à l'intérieur ?",
+      "pronunciation": "kel teep day-ko-sees-TEM ess-KON puh VWAHR ah lan-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "The Biodôme recreates four American ecosystems: tropical rainforest, Laurentian maple forest, Gulf of St. Lawrence, and Sub-Antarctic Islands.",
+      "responses": [
+        {
+          "english": "There are four ecosystems to see.",
+          "phonetic": "eel ee ah KAH-truh ay-koh-sees-TEM ah VWAHR",
+          "french": "Il y a quatre écosystèmes à voir."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_bio_002",
+      "intent_en": "Ask where the penguins are",
+      "text_local": "Les pingouins, c'est dans quelle section ?",
+      "pronunciation": "lay pan-GWAN say dah kel sek-SYON",
+      "formality": "neutral",
+      "cultural_note": "The Sub-Antarctic section houses African penguins and puffins and is a crowd favourite, especially with kids.",
+      "responses": [
+        {
+          "english": "In the sub-Antarctic zone, at the back.",
+          "phonetic": "dahn lah ZOHN soob-ahn-tark-TEEK oh FOHN",
+          "french": "Dans la zone subantarctique, au fond."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_bio_003",
+      "intent_en": "Buy tickets for a family",
+      "text_local": "Je voudrais des billets pour deux adultes et deux enfants.",
+      "pronunciation": "zhuh voo-DREH day bee-YEH poor duh zah-DULT ay duh zahn-FAHN",
+      "formality": "polite",
+      "cultural_note": "The Biodôme is part of the Espace pour la vie complex along with the Insectarium, Planetarium, and Botanical Garden — combo tickets save money.",
+      "responses": [
+        {
+          "english": "Two adults, two children? Sixty-eight dollars.",
+          "phonetic": "duh zah-DULT duh zahn-FAHN swah-SAHNT-WEET doh-LAR",
+          "french": "Deux adultes, deux enfants ? Soixante-huit dollars."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_bio_004",
+      "intent_en": "Ask if there is a feeding time to watch",
+      "text_local": "Est-ce qu'il y a des heures de nourrissage à ne pas manquer ?",
+      "pronunciation": "ess-KEEL ee ah day zur duh noo-ree-SAHZH ah nuh pah mon-KAY",
+      "formality": "polite",
+      "cultural_note": "Feeding times for the lynx, sea otters, and penguins are scheduled throughout the day and posted at the entrance.",
+      "responses": [
+        {
+          "english": "You need to check the times at reception.",
+          "phonetic": "eel foh vay-ree-FYAY lay zoh-RAIR ah lah-KUY",
+          "french": "Il faut vérifier les horaires à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_bio_005",
+      "intent_en": "Ask where the washrooms are",
+      "text_local": "Les toilettes, c'est où s'il vous plaît ?",
+      "pronunciation": "lay twah-LET say OO seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "In Québec, washrooms are also called 'les toilettes' or 'la salle de bain'. Asking for 'les restrooms' will be understood but use the French.",
+      "responses": [
+        {
+          "english": "At the end of the hallway, on the right.",
+          "phonetic": "oh FOHN doo koo-LWAHR ah DRWAHT",
+          "french": "Au fond du couloir, à droite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "ecosystem",
+      "word_local": "l'écosystème",
+      "pronunciation": "lay-ko-sees-TEM"
+    },
+    {
+      "word_en": "penguin",
+      "word_local": "le pingouin",
+      "pronunciation": "luh pan-GWAN"
+    },
+    {
+      "word_en": "feeding time",
+      "word_local": "l'heure de nourrissage",
+      "pronunciation": "lur duh noo-ree-SAHZH"
+    },
+    {
+      "word_en": "washrooms",
+      "word_local": "les toilettes",
+      "pronunciation": "lay twah-LET"
+    }
+  ]
+}

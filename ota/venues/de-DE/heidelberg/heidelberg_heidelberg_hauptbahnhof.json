@@ -1,0 +1,122 @@
+{
+  "id": "heidelberg_heidelberg_hauptbahnhof",
+  "name_en": "Heidelberg Hauptbahnhof",
+  "name_local": "Heidelberg Hauptbahnhof",
+  "icon": "tram",
+  "lat": 49.4034737,
+  "lon": 8.6754223,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "heidelberg_heidelberg_hauptbahnhof_001",
+      "intent_en": "Where is the tram to Marktplatz?",
+      "text_local": "Wo fährt die Straßenbahn nach Marktplatz?",
+      "pronunciation": "vOH-fEHrt-dee-shtrAHsuhnbAHn-nahkh-mAHrktplahts",
+      "formality": "standard",
+      "cultural_note": "Tram directions are typically indicated by blue signs with white text.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Draußen vor dem Haupteingang.",
+        "pronunciation": "drOWsuhn-fAWr-dehm-hOWptEYEngAHng",
+        "translation_en": "Outside in front of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Outside in front of the main entrance.",
+          "phonetic": "drOWsuhn-fAWr-dehm-hOWptEYEngAHng",
+          "french": "Draußen vor dem Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_heidelberg_hauptbahnhof_002",
+      "intent_en": "Where do I stamp the tram ticket?",
+      "text_local": "Wo muss ich mein Straßenbahnticket entwerten?",
+      "pronunciation": "vOH-mUHs-ihkh-meyen-shtrAHsuhnbAHntihkuht-ehntvEHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Tram ticket validators are orange machines near the stops.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Entwerter am Einstieg.",
+        "pronunciation": "ahm-ehntvEHrt-ahm-EYEnshtEEk",
+        "translation_en": "At the validator at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the validator at the entrance.",
+          "phonetic": "ahm-ehntvEHrt-ahm-EYEnshtEEk",
+          "french": "Am Entwerter am Einstieg."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_heidelberg_hauptbahnhof_003",
+      "intent_en": "Is the Reisezentrum still open?",
+      "text_local": "Hat das Reisezentrum noch offen?",
+      "pronunciation": "haht-dahs-rEYEzehtsEHntruhm-nawkh-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Opening hours are displayed at the counter and on the DB website.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis 19 Uhr.",
+        "pronunciation": "yAHbihs-nAWuhntsehn-OOr",
+        "translation_en": "Yes, until 7 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 7 PM.",
+          "phonetic": "yAHbihs-nAWuhntsehn-OOr",
+          "french": "Ja, bis 19 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_heidelberg_hauptbahnhof_004",
+      "intent_en": "Which platform for the next ICE to Frankfurt?",
+      "text_local": "Von welchem Gleis fährt der nächste ICE nach Frankfurt?",
+      "pronunciation": "fawn-vEHlkhuhm-lEYEs-fEHrt-dehr-nEHkhstuh-EEtsEHEH-nahkh-frAHngkfuhuht",
+      "formality": "standard",
+      "cultural_note": "Platform numbers for ICE trains are displayed digitally and on signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 1.",
+        "pronunciation": "lEYEs-EYEns",
+        "translation_en": "Platform 1."
+      },
+      "responses": [
+        {
+          "english": "Platform 1.",
+          "phonetic": "lEYEs-EYEns",
+          "french": "Gleis 1."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_heidelberg_hauptbahnhof_005",
+      "intent_en": "Where can I buy a BahnCard?",
+      "text_local": "Wo kann ich eine BahnCard kaufen?",
+      "pronunciation": "vOH-kAHn-ihkh-EYEnuh-bAHn-kAHrt-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "BahnCards are sold at DB Reisezentrum counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Reisezentrum.",
+        "pronunciation": "ahm-shAHlt-ihm-rEYEzehtsEHntruhm",
+        "translation_en": "At the counter in the travel center."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the travel center.",
+          "phonetic": "ahm-shAHlt-ihm-rEYEzehtsEHntruhm",
+          "french": "Am Schalter im Reisezentrum."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

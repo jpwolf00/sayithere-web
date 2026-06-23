@@ -1,0 +1,78 @@
+{
+  "id": "sapporo_nijo_market",
+  "name_en": "Nijo Market",
+  "name_local": "二条市場",
+  "icon": "cart",
+  "lat": 43.0582548,
+  "lon": 141.3584672,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "sapporo_nijo_market_001",
+      "intent_en": "Is this stall cash only?",
+      "text_local": "ここは げんきんのみ ですか？",
+      "pronunciation": "kohkOHh-gEHngkeennOHmee-dehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small market stalls in Japan are cash-only, so expect a direct 'yes' without apology.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみ です。",
+        "pronunciation": "hEEgEHngkeennOHmee-dEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmee-dEHsoo",
+          "french": "はい、げんきんのみ です。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_nijo_market_002",
+      "intent_en": "Do I pay before eating?",
+      "text_local": "たべるまえに はらいますか？",
+      "pronunciation": "tBehOOmEHnee-hEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At standing counters, you often pay when you order, not after eating. The response is direct to keep the line moving.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "さきに おかいけい です。",
+        "pronunciation": "skEEnee-OHkeekEHee-dEHsoo",
+        "translation_en": "You pay first."
+      },
+      "responses": [
+        {
+          "english": "You pay first.",
+          "phonetic": "skEEnee-OHkeekEHee-dEHsoo",
+          "french": "さきに おかいけい です。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_nijo_market_003",
+      "intent_en": "Where are the crab vendors?",
+      "text_local": "かにの みせは どこですか？",
+      "pronunciation": "knEEnoh-meesEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Crab vendors are often clustered together in seafood areas. A simple 'straight ahead to the end' is a natural stallholder reply.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、つきあたり です。",
+        "pronunciation": "mssOOgoo-EEttehtsOOkeetEE-dEHsoo",
+        "translation_en": "Go straight, it's at the end."
+      },
+      "responses": [
+        {
+          "english": "Go straight, it's at the end.",
+          "phonetic": "mssOOgoo-EEttehtsOOkeetEE-dEHsoo",
+          "french": "まっすぐ いって、つきあたり です。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

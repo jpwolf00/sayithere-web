@@ -1,0 +1,56 @@
+{
+  "id": "karlovy_vary_restaurant_embassy",
+  "name_en": "Restaurant Embassy",
+  "name_local": "Restaurace Embassy",
+  "icon": "fork.knife",
+  "lat": 50.2203605,
+  "lon": 12.879927,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "karlovy_vary_restaurant_embassy_001",
+      "intent_en": "Where do I pay the bill?",
+      "text_local": "Kde mohu zaplatit účet?",
+      "pronunciation": "kdEH-mOHhoo-zAHplaheet-OOtsheht",
+      "formality": "standard",
+      "cultural_note": "In Czech fine dining, the bill is typically brought to the table upon request; paying at the table is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Přinesu vám ho ke stolu.",
+        "pronunciation": "prEEnehsoo-vAHm-hOH-kEH-stOHloo",
+        "translation_en": "I will bring it to your table."
+      },
+      "responses": [
+        {
+          "english": "I will bring it to your table.",
+          "phonetic": "prEEnehsoo-vAHm-hOH-kEH-stOHloo",
+          "french": "Přinesu vám ho ke stolu."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_restaurant_embassy_002",
+      "intent_en": "What is the dress code?",
+      "text_local": "Jaký je dress code?",
+      "pronunciation": "yAHkee-yeh-drEHs-tsOHdeh",
+      "formality": "standard",
+      "cultural_note": "Czech fine dining venues often expect smart casual attire; a jacket is usually not mandatory but appreciated.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Smart casual, sako není nutné.",
+        "pronunciation": "smAHrt-tsAHsooahlsAHkoh-nEHnyee-nOOtneh",
+        "translation_en": "Smart casual, a jacket is not required."
+      },
+      "responses": [
+        {
+          "english": "Smart casual, a jacket is not required.",
+          "phonetic": "smAHrt-tsAHsooahlsAHkoh-nEHnyee-nOOtneh",
+          "french": "Smart casual, sako není nutné."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

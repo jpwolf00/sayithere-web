@@ -1,0 +1,115 @@
+{
+  "id": "lyon_parc_tete_dor",
+  "name_en": "Parc de la Tête d'Or",
+  "name_local": "Parc de la Tête d'Or",
+  "icon": "leaf.fill",
+  "phrases": [
+    {
+      "id": "lyon_tete_dor_001",
+      "intent_en": "Ask where the free zoo is located inside the park",
+      "text_local": "Où se trouve le zoo dans le parc, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV luh ZOH dahn luh PARK, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Parc de la Tête d'Or has one of France's largest free-access zoos. Giraffes, rhinos, and big cats are among the residents. Entry to the park and zoo is always free.",
+      "responses": [
+        {
+          "english": "Near the main entrance, on the left.",
+          "phonetic": "preh duh lahn-TRAY prehn-see-PAL, soor lah GOHSH",
+          "french": "Près de l'entrée principale, sur la gauche."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_tete_dor_002",
+      "intent_en": "Ask to rent a rowing boat on the lake",
+      "text_local": "Est-il possible de louer un bateau à rames sur le lac ?",
+      "pronunciation": "eh-TEEL poh-SEEBL duh loo-AY uhn bah-TOH ah RAM soor luh LAK",
+      "formality": "polite",
+      "cultural_note": "The park's central lake offers pedalo and rowing boat hire during warmer months. It is a popular activity for families on sunny afternoons.",
+      "responses": [
+        {
+          "english": "By the lake, over there.",
+          "phonetic": "oh BOR doo LAK, lah-BAH",
+          "french": "Au bord du lac, là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_tete_dor_003",
+      "intent_en": "Ask about the rose garden",
+      "text_local": "La roseraie est-elle accessible en ce moment ?",
+      "pronunciation": "lah roh-zuh-REH eh-TEL ak-ses-EEBL ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The park's roseraie (rose garden) contains over 16,000 rose bushes across 350 varieties. It is at its most spectacular in late May and June.",
+      "responses": [
+        {
+          "english": "In the centre of the park, south direction.",
+          "phonetic": "oh SAHN-truh doo PARK, dee-rek-SYOHN SOOD",
+          "french": "Au centre du parc, direction sud."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_tete_dor_004",
+      "intent_en": "Ask where to hire a bicycle",
+      "text_local": "Où peut-on louer des vélos dans le parc ?",
+      "pronunciation": "oo puh-TOHN loo-AY day VAY-loh dahn luh PARK",
+      "formality": "polite",
+      "cultural_note": "Bicycles can be hired at the park gates. The flat paths make it excellent for cycling. You can also use Lyon's public Vélo'v bike-sharing scheme at nearby stations.",
+      "responses": [
+        {
+          "english": "At the north entrance of the park.",
+          "phonetic": "ah lahn-TRAY NOR doo PARK",
+          "french": "À l'entrée nord du parc."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_tete_dor_005",
+      "intent_en": "Ask whether the park is open at night",
+      "text_local": "Le parc est-il ouvert la nuit ?",
+      "pronunciation": "luh PARK eh-TEEL oo-VAIRT lah NWEE",
+      "formality": "polite",
+      "cultural_note": "The park closes at dusk (around 21h00 in summer, earlier in winter). During the Fête des Lumières in December, special evening events are sometimes held within the park.",
+      "responses": [
+        {
+          "english": "Yes, until 10 PM in summer.",
+          "phonetic": "wee, zhoos-KAH vehn-DUH UHR ahn ay-TAY",
+          "french": "Oui, jusqu'à vingt-deux heures en été."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "park",
+      "word_local": "le parc",
+      "pronunciation": "luh PARK"
+    },
+    {
+      "word_en": "rose garden",
+      "word_local": "la roseraie",
+      "pronunciation": "lah roh-zuh-REH"
+    },
+    {
+      "word_en": "rowing boat",
+      "word_local": "le bateau à rames",
+      "pronunciation": "luh bah-TOH ah RAM"
+    },
+    {
+      "word_en": "lake",
+      "word_local": "le lac",
+      "pronunciation": "luh LAK"
+    }
+  ]
+}

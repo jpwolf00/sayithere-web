@@ -1,0 +1,100 @@
+{
+  "id": "istanbul_karaköy_güllüoğlu_baklava",
+  "name_en": "Karaköy Güllüoğlu Baklava",
+  "name_local": "Karaköy Güllüoğlu",
+  "icon": "fork.knife",
+  "lat": 41.0248853,
+  "lon": 28.9809581,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "istanbul_karaköy_güllüoğlu_baklava_001",
+      "intent_en": "Is card accepted or cash preferred?",
+      "text_local": "Kart geçiyor mu, nakit mi tercih edersiniz?",
+      "pronunciation": "kAHrt-ehtshEEyawr-muhnahkIHt-mih-tehrdzhIHh-ehdEHrseenihz",
+      "formality": "standard",
+      "cultural_note": "It is common in Istanbul's traditional eateries to state a preference for cash even when a card machine is available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kart geçer ama nakit tercih edilir.",
+        "pronunciation": "kAHrt-ehtshEHr-AHmah-nahkIHt-tehrdzhIHh-ehdeelIHr",
+        "translation_en": "Card is accepted but cash is preferred."
+      },
+      "responses": [
+        {
+          "english": "Card is accepted but cash is preferred.",
+          "phonetic": "kAHrt-ehtshEHr-AHmah-nahkIHt-tehrdzhIHh-ehdeelIHr",
+          "french": "Kart geçer ama nakit tercih edilir."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_karaköy_güllüoğlu_baklava_002",
+      "intent_en": "Is fıstıklı baklava available now?",
+      "text_local": "Fıstıklı baklava var mı şimdi?",
+      "pronunciation": "foostookOO-bahkahvAH-vAHr-moo-shihmdIH",
+      "formality": "standard",
+      "cultural_note": "Fıstıklı baklava is the signature item and is almost always available, but it's polite to ask for the freshest batch.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tezgahta mevcut.",
+        "pronunciation": "ehvEHttehzgahhtAH-mehvdzhUHt",
+        "translation_en": "Yes, available at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, available at the counter.",
+          "phonetic": "ehvEHttehzgahhtAH-mehvdzhUHt",
+          "french": "Evet, tezgahta mevcut."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_karaköy_güllüoğlu_baklava_003",
+      "intent_en": "Where do I get gift wrapping?",
+      "text_local": "Hediye paketini nereden yaptırabilirim?",
+      "pronunciation": "hehdeeyEH-pahkehteenIH-nEHrehdahn-yahptoorahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Gift wrapping is a separate service handled by the packer, not the cashier, and always costs extra.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Paketçiye söyleyin, ek ücrete tabi.",
+        "pronunciation": "pahkehttsheeyEH-suhylehyIHnEHk-UHdzhrehteh-tahbIH",
+        "translation_en": "Tell the packer, it's an extra charge."
+      },
+      "responses": [
+        {
+          "english": "Tell the packer, it's an extra charge.",
+          "phonetic": "pahkehttsheeyEH-suhylehyIHnEHk-UHdzhrehteh-tahbIH",
+          "french": "Paketçiye söyleyin, ek ücrete tabi."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_karaköy_güllüoğlu_baklava_004",
+      "intent_en": "Do I pay at kasa first?",
+      "text_local": "Önce kasaya mı ödeyeceğim?",
+      "pronunciation": "UHndzheh-kAHsahyah-moo-uhdehyehdzhEHyihm",
+      "formality": "standard",
+      "cultural_note": "In many traditional Istanbul food shops, you pay first and then collect your order with the receipt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, önce kasaya ödeyin.",
+        "pronunciation": "ehvEHtUHndzheh-kAHsahyah-uhdehyIHn",
+        "translation_en": "Yes, pay at the cashier first."
+      },
+      "responses": [
+        {
+          "english": "Yes, pay at the cashier first.",
+          "phonetic": "ehvEHtUHndzheh-kAHsahyah-uhdehyIHn",
+          "french": "Evet, önce kasaya ödeyin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

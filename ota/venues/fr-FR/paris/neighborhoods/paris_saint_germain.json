@@ -1,0 +1,125 @@
+{
+  "id": "hood_saint_germain",
+  "name_en": "Saint-Germain-des-Prés",
+  "name_local": "Saint-Germain-des-Prés",
+  "icon": "book.fill",
+  "phrases": [
+    {
+      "id": "hood_stgermain_001",
+      "intent_en": "Ask about the famous literary cafés",
+      "text_local": "Où est le Café de Flore ? Et Les Deux Magots ?",
+      "pronunciation": "oo eh luh kah-FAY duh FLOHR? ay lay duh mah-GOH",
+      "formality": "standard",
+      "cultural_note": "Both cafés face the church of Saint-Germain-des-Prés on Boulevard Saint-Germain. Sartre and Beauvoir held court at Flore; Hemingway preferred Les Deux Magots. Expect to pay 7+ euros for a coffee.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Café de Flore and Les Deux Magots are on the boulevard.",
+          "phonetic": "luh kah-FAY duh flor ay lay duh mah-GOH sohn soor luh bool-VAR",
+          "french": "Le Café de Flore et Les Deux Magots sont sur le boulevard."
+        }
+      ]
+    },
+    {
+      "id": "hood_stgermain_002",
+      "intent_en": "Ask where the nearest metro station is",
+      "text_local": "Où est la station de métro la plus proche ?",
+      "pronunciation": "oo eh lah stah-SYOHN duh may-TROH lah ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "The Saint-Germain-des-Prés metro station (line 4) is the main stop for this neighborhood.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Saint-Germain-des-Prés, it is just at the end of the street.",
+          "phonetic": "san-zhehr-MAN day PRAY, seh zhoost oh boo duh lah roo",
+          "french": "Saint-Germain-des-Prés, c'est juste au bout de la rue."
+        }
+      ]
+    },
+    {
+      "id": "hood_stgermain_003",
+      "intent_en": "Ask for a good bookshop",
+      "text_local": "Connaissez-vous une bonne librairie dans le quartier ?",
+      "pronunciation": "koh-neh-SAY voo oon bohn lee-breh-REE dahn luh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "La Hune (now closed) was legendary, but try Librairie Gallimard or the many antique book dealers on Rue de Seine. The bouquinistes along the Seine are just steps away.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The bookshop is on Rue de l'Odéon, five minutes away.",
+          "phonetic": "lah lee-breh-REE eh soor lah roo duh loh-day-OHN, ah sank mee-NOOT",
+          "french": "La librairie est sur la Rue de l'Odéon, à cinq minutes."
+        }
+      ]
+    },
+    {
+      "id": "hood_stgermain_004",
+      "intent_en": "Ask about the church of Saint-Germain-des-Prés",
+      "text_local": "L'église de Saint-Germain, c'est la plus vieille de Paris ?",
+      "pronunciation": "lay-GLEEZ duh sahn-zhehr-MAHN, seh lah ploo vyeh-yuh duh pah-REE",
+      "formality": "casual",
+      "cultural_note": "Founded in 558 AD, it's the oldest church in Paris. The current Romanesque structure dates to the 11th century. Free entry — look for the recently restored colorful murals inside.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The church is on the square, right across from the café.",
+          "phonetic": "lay-GLEEZ eh soor lah plass, zhoost ahn fass doo kah-FAY",
+          "french": "L'église est sur la place, juste en face du café."
+        }
+      ]
+    },
+    {
+      "id": "hood_stgermain_005",
+      "intent_en": "Ask about antique galleries on Rue de Seine",
+      "text_local": "Il y a beaucoup de galeries d'art dans cette rue ?",
+      "pronunciation": "eel ee ah boh-KOO duh gah-leh-REE DAR dahn set ROO",
+      "formality": "standard",
+      "cultural_note": "Rue de Seine and surrounding streets have dozens of art galleries — from old masters to contemporary. Window shopping is free and galleries welcome browsers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The galleries are on Rue de Seine, a bit further on.",
+          "phonetic": "lay gah-luh-REE sohn soor lah roo duh sen, uhn puh ploo lwahn",
+          "french": "Les galeries sont sur la Rue de Seine, un peu plus loin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Café",
+      "word_local": "Café",
+      "pronunciation": "kah-FAY"
+    },
+    {
+      "word_en": "Bookshop",
+      "word_local": "Librairie",
+      "pronunciation": "lee-breh-REE"
+    },
+    {
+      "word_en": "Church",
+      "word_local": "Église",
+      "pronunciation": "ay-GLEEZ"
+    },
+    {
+      "word_en": "Art gallery",
+      "word_local": "Galerie d'art",
+      "pronunciation": "gah-leh-REE dar"
+    },
+    {
+      "word_en": "Intellectual",
+      "word_local": "Intellectuel(le)",
+      "pronunciation": "ahn-tel-ek-TOO-el"
+    },
+    {
+      "word_en": "Secondhand bookseller",
+      "word_local": "Bouquiniste",
+      "pronunciation": "boo-kee-NEEST"
+    }
+  ]
+}

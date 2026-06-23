@@ -1,0 +1,122 @@
+{
+  "id": "brno_špilberk_castle",
+  "name_en": "Špilberk Castle",
+  "name_local": "Hrad Špilberk",
+  "icon": "building.columns",
+  "lat": 49.1945043,
+  "lon": 16.5993535,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "brno_špilberk_castle_001",
+      "intent_en": "Is the tower climb included in entry?",
+      "text_local": "Je vstup na věž v ceně vstupenky?",
+      "pronunciation": "yeh-fstOOp-nAHvyehzh-v-tsEHnyeh-fstOOpehngkee",
+      "formality": "standard",
+      "cultural_note": "Access to the observation tower typically requires a separate ticket from the general castle or museum entry.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, na věž je zvláštní vstupné.",
+        "pronunciation": "nEHnAHvyehzh-yeh-zvlAHshtnyee-fstOOpneh",
+        "translation_en": "No, the tower has a separate entrance fee."
+      },
+      "responses": [
+        {
+          "english": "No, the tower has a separate entrance fee.",
+          "phonetic": "nEHnAHvyehzh-yeh-zvlAHshtnyee-fstOOpneh",
+          "french": "Ne, na věž je zvláštní vstupné."
+        }
+      ]
+    },
+    {
+      "id": "brno_špilberk_castle_002",
+      "intent_en": "Where is the best city view point?",
+      "text_local": "Kde je nejlepší výhled na město?",
+      "pronunciation": "kdEH-yeh-nAYlehpshee-vEEhlehd-nAHmnyehstoh",
+      "formality": "standard",
+      "cultural_note": "The castle tower offers a panoramic view of Brno, but the ramparts also provide excellent, free vantage points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Z ochozu velké věže, vlevo od nádvoří.",
+        "pronunciation": "s-OHkhohzoo-vEHlkeh-vyEHzhehvlEHvoh-OHdnahdvOHree",
+        "translation_en": "From the gallery of the large tower, left from the courtyard."
+      },
+      "responses": [
+        {
+          "english": "From the gallery of the large tower, left from the courtyard.",
+          "phonetic": "s-OHkhohzoo-vEHlkeh-vyEHzhehvlEHvoh-OHdnahdvOHree",
+          "french": "Z ochozu velké věže, vlevo od nádvoří."
+        }
+      ]
+    },
+    {
+      "id": "brno_špilberk_castle_003",
+      "intent_en": "Where do I buy casemates tour tickets?",
+      "text_local": "Kde si můžu koupit lístky na prohlídku kasemat?",
+      "pronunciation": "kdEH-see-mOOzhoo-kOHpeet-lEEstkee-nAHprohhlEEtkoo-kAHsehmaht",
+      "formality": "standard",
+      "cultural_note": "Tickets for the casemates are sold at the main castle ticket office, not at the casemates entrance itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V pokladně v přízemí, hned u vchodu.",
+        "pronunciation": "v-pOHklahdnyeh-v-prEEzehmeehnEHd-OO-fkhOHdoo",
+        "translation_en": "At the ticket office on the ground floor, right by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket office on the ground floor, right by the entrance.",
+          "phonetic": "v-pOHklahdnyeh-v-prEEzehmeehnEHd-OO-fkhOHdoo",
+          "french": "V pokladně v přízemí, hned u vchodu."
+        }
+      ]
+    },
+    {
+      "id": "brno_špilberk_castle_004",
+      "intent_en": "Does the casemates tour run in English?",
+      "text_local": "Probíhá prohlídka kasemat v angličtině?",
+      "pronunciation": "prOHbeehah-prOHhleetkah-kAHsehmaht-v-AHnggleetshEEnyeh",
+      "formality": "standard",
+      "cultural_note": "English-language tours are often scheduled, while Czech tours run more frequently. It's best to check the timetable.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, máme anglické prohlídky v určité časy.",
+        "pronunciation": "AHnohmAHmeh-AHnggleetskeh-prOHhleetkee-v-OOrtsheeteh-tshAHsee",
+        "translation_en": "Yes, we have English tours at specific times."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have English tours at specific times.",
+          "phonetic": "AHnohmAHmeh-AHnggleetskeh-prOHhleetkee-v-OOrtsheeteh-tshAHsee",
+          "french": "Ano, máme anglické prohlídky v určité časy."
+        }
+      ]
+    },
+    {
+      "id": "brno_špilberk_castle_005",
+      "intent_en": "Where are the prison cells exhibit?",
+      "text_local": "Kde najdu expozici vězeňských cel?",
+      "pronunciation": "kdEH-nAHydoo-EHkspohzEEtsee-vyEHzehnyskeekh-tsEHl",
+      "formality": "standard",
+      "cultural_note": "The prison cells are located within the casemates, a network of underground passages and chambers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sejděte po schodech dolů do kasemat.",
+        "pronunciation": "sAYehteh-pOHskhohdehgh-dOHloo-dOHkahsEHmaht",
+        "translation_en": "Go down the stairs into the casemates."
+      },
+      "responses": [
+        {
+          "english": "Go down the stairs into the casemates.",
+          "phonetic": "sAYehteh-pOHskhohdehgh-dOHloo-dOHkahsEHmaht",
+          "french": "Sejděte po schodech dolů do kasemat."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

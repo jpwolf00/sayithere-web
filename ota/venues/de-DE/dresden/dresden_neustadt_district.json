@@ -1,0 +1,122 @@
+{
+  "id": "dresden_neustadt_district",
+  "name_en": "Neustadt District",
+  "name_local": "Dresdner Neustadt",
+  "icon": "map",
+  "lat": 51.0630917,
+  "lon": 13.7462516,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "dresden_neustadt_district_001",
+      "intent_en": "Where is the Kunsthofpassage?",
+      "text_local": "Wo ist die Kunsthofpassage?",
+      "pronunciation": "vOH-ihst-dee-kUHnstawfpAHsahuh",
+      "formality": "standard",
+      "cultural_note": "In Dresden, Kunsthofpassage is a well-known pedestrian area with multiple entrances; following visible signage is the safest approach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie zur Louisenstraße.",
+        "pronunciation": "gEHuhn-zee-tsoor-lOOeezuhnstrAHsuh",
+        "translation_en": "Go to Louisenstraße."
+      },
+      "responses": [
+        {
+          "english": "Go to Louisenstraße.",
+          "phonetic": "gEHuhn-zee-tsoor-lOOeezuhnstrAHsuh",
+          "french": "Gehen Sie zur Louisenstraße."
+        }
+      ]
+    },
+    {
+      "id": "dresden_neustadt_district_002",
+      "intent_en": "Where can I return Pfand bottles?",
+      "text_local": "Wo kann ich Pfandflaschen zurückgeben?",
+      "pronunciation": "vOH-kAHn-ihkh-pfAHntflahshuhn-tsoorUEkEHbuhn",
+      "formality": "standard",
+      "cultural_note": "Pfand returns are typically handled at shops or supermarkets; staff at any counter can assist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Supermarkt um die Ecke.",
+        "pronunciation": "ihm-zOOpmAHrkt-uhm-dee-EHkuh",
+        "translation_en": "In the supermarket around the corner."
+      },
+      "responses": [
+        {
+          "english": "In the supermarket around the corner.",
+          "phonetic": "ihm-zOOpmAHrkt-uhm-dee-EHkuh",
+          "french": "Im Supermarkt um die Ecke."
+        }
+      ]
+    },
+    {
+      "id": "dresden_neustadt_district_003",
+      "intent_en": "When is the next flea market sale?",
+      "text_local": "Wann ist der nächste Flohmarkt?",
+      "pronunciation": "vAHn-ihst-dehr-nEHkhstuh-flOHmahrkt",
+      "formality": "standard",
+      "cultural_note": "Flea markets in Dresden Neustadt often occur weekly; Saturday is the most common day for such markets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Jeden Samstag vor Ort.",
+        "pronunciation": "yEHduhn-zAHmstahk-fAWr-AWrt",
+        "translation_en": "Every Saturday on site."
+      },
+      "responses": [
+        {
+          "english": "Every Saturday on site.",
+          "phonetic": "yEHduhn-zAHmstahk-fAWr-AWrt",
+          "french": "Jeden Samstag vor Ort."
+        }
+      ]
+    },
+    {
+      "id": "dresden_neustadt_district_004",
+      "intent_en": "Which bars here are cash only?",
+      "text_local": "Gibt es Bars, die hier nur Barzahlung akzeptieren?",
+      "pronunciation": "EEpt-ehs-bAHrsdee-hEEr-nOOr-bAHrtsahlUHng-AHktsehptEEruhn",
+      "formality": "casual",
+      "cultural_note": "The bar strip along Rothenburger Straße is known for cash-only venues, especially in the Neustadt district.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Viele Bars in der Rothenburger Straße.",
+        "pronunciation": "fEEluh-bAHrs-ihn-dehr-rAWtuhnbUHuh-shtrAHsuh",
+        "translation_en": "Many bars on Rothenburger Straße."
+      },
+      "responses": [
+        {
+          "english": "Many bars on Rothenburger Straße.",
+          "phonetic": "fEEluh-bAHrs-ihn-dehr-rAWtuhnbUHuh-shtrAHsuh",
+          "french": "Viele Bars in der Rothenburger Straße."
+        }
+      ]
+    },
+    {
+      "id": "dresden_neustadt_district_005",
+      "intent_en": "Do night buses need separate tickets?",
+      "text_local": "Braucht man für Nachtbusse separate Tickets?",
+      "pronunciation": "brOWkht-mahn-fuer-nAHkhtbuhsuh-zEHpahrAHtuh-tIHkuhts",
+      "formality": "standard",
+      "cultural_note": "Night buses in Dresden typically require a separate ticket (NachtTicket) valid for zones and time.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, separate Tickets nötig.",
+        "pronunciation": "yAHzEHpahrAHtuh-tIHkuhts-nUHtihkh",
+        "translation_en": "Yes, separate tickets are required."
+      },
+      "responses": [
+        {
+          "english": "Yes, separate tickets are required.",
+          "phonetic": "yAHzEHpahrAHtuh-tIHkuhts-nUHtihkh",
+          "french": "Ja, separate Tickets nötig."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

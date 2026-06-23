@@ -1,0 +1,188 @@
+{
+  "id": "ankara_ankara_esenboğa_airport",
+  "name_en": "Ankara Esenboğa Airport",
+  "name_local": "Ankara Esenboğa Havalimanı",
+  "icon": "tram",
+  "lat": 40.1230634,
+  "lon": 32.9987209,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ankara_ankara_esenboğa_airport_001",
+      "intent_en": "Where are car rental desks?",
+      "text_local": "VIP araç kiralama hizmeti nerede?",
+      "pronunciation": "ahrAHtsh-keerAHahmah-mahsahahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Car rental desks are typically grouped together in Turkish airports.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Varış katının hemen dışında.",
+        "pronunciation": "vahrOOsh-kahtoonOOn-hehmAHn-dooshoondAH",
+        "translation_en": "Just outside the arrivals level."
+      },
+      "responses": [
+        {
+          "english": "Just outside the arrivals level.",
+          "phonetic": "vahrOOsh-kahtoonOOn-hehmAHn-dooshoondAH",
+          "french": "Varış katının hemen dışında."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_esenboğa_airport_002",
+      "intent_en": "Where is Terminal 2 for domestic flights?",
+      "text_local": "İç hatlar Terminal 2 nerede?",
+      "pronunciation": "IHtsh-hahtAHr-tehrmeenAH-eeEE-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish airports use clear bilingual signage; 'İç Hatlar' means domestic.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sol tarafta.",
+        "pronunciation": "sAW-tahrahftAH",
+        "translation_en": "On the left side."
+      },
+      "responses": [
+        {
+          "english": "On the left side.",
+          "phonetic": "sAW-tahrahftAH",
+          "french": "Sol tarafta."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_esenboğa_airport_003",
+      "intent_en": "Where do I pay visa on arrival?",
+      "text_local": "Vize ücretini nerede ödeyebilirim?",
+      "pronunciation": "kahpoodAH-veezEH-uhdehmehseenIH-nEHrehdeh-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Konum net değilse danışma masası en güvenli yerdir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Varışta bankoya yönelin.",
+        "pronunciation": "vahrooshtAH-bahnkohyAH-yuhnehlIHn",
+        "translation_en": "Head to the booth upon arrival."
+      },
+      "responses": [
+        {
+          "english": "Head to the booth upon arrival.",
+          "phonetic": "vahrooshtAH-bahnkohyAH-yuhnehlIHn",
+          "french": "Varışta bankoya yönelin."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_esenboğa_airport_004",
+      "intent_en": "Where is Terminal 2 for domestic flights?",
+      "text_local": "İç hatlar terminali nerede?",
+      "pronunciation": "IHtsh-hahtAHr-tehrmeenahlIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Havalimanında yönlendirme tabelaları yaygındır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşıda, soldaki bina.",
+        "pronunciation": "kahrshoodAHsawdahkIH-beenAH",
+        "translation_en": "Across, the building on the left."
+      },
+      "responses": [
+        {
+          "english": "Across, the building on the left.",
+          "phonetic": "kahrshoodAHsawdahkIH-beenAH",
+          "french": "Karşıda, soldaki bina."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_esenboğa_airport_005",
+      "intent_en": "Where are car rental desks?",
+      "text_local": "Dış hatlar geliş katında araç kiralama firmaları var mı?",
+      "pronunciation": "ahrAHtsh-keerAHahmah-ohfihslehrIH-nEHrehdeh",
+      "formality": "casual",
+      "cultural_note": "Kesin konum bilinmiyorsa danışma masası yönlendirir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, varış salonunda.",
+        "pronunciation": "ehvEHtvahrOOsh-sahohnuhndAH",
+        "translation_en": "Yes, in the arrivals hall."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the arrivals hall.",
+          "phonetic": "ehvEHtvahrOOsh-sahohnuhndAH",
+          "french": "Evet, varış salonunda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_esenboğa_airport_006",
+      "intent_en": "Do SIM card kiosks sell eSIMs?",
+      "text_local": "SIM kart büfelerinde eSIM satılıyor mu?",
+      "pronunciation": "sEHOOmEH-kAHrt-buefehlehrihndEH-EH-sEHOOmEH-sahtooOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "eSIM availability varies by kiosk; staff can direct you to specific vendors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, satılıyor.",
+        "pronunciation": "ehvEHtsahtooOOyawr",
+        "translation_en": "Yes, they sell them."
+      },
+      "responses": [
+        {
+          "english": "Yes, they sell them.",
+          "phonetic": "ehvEHtsahtooOOyawr",
+          "french": "Evet, satılıyor."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_esenboğa_airport_007",
+      "intent_en": "Is the skybridge to parking open now?",
+      "text_local": "Otoparka giden üst geçit şu an açık mı?",
+      "pronunciation": "ohtohpahrkAH-eedAHn-UHst-ehtshIHt-shuh-AHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Operational status of facilities can vary; staff have real-time information.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, açık.",
+        "pronunciation": "ehvEHtahtshOOk",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "ehvEHtahtshOOk",
+          "french": "Evet, açık."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ankara_esenboğa_airport_008",
+      "intent_en": "Where do I pay visa on arrival?",
+      "text_local": "Vize ücretini nerede ödeyebilirim?",
+      "pronunciation": "vahrooshtAH-veezEH-uhdzhrehteenIH-nEHrehdeh-uhdehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Visa on arrival processes can change; information desks provide current guidance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pasaport kontrolünde.",
+        "pronunciation": "pahsahpAWrt-kawntrohluhndEH",
+        "translation_en": "At passport control."
+      },
+      "responses": [
+        {
+          "english": "At passport control.",
+          "phonetic": "pahsahpAWrt-kawntrohluhndEH",
+          "french": "Pasaport kontrolünde."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

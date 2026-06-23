@@ -1,0 +1,100 @@
+{
+  "id": "st_moritz_celerina_and_st_moritz_bad_tourist_district",
+  "name_en": "Celerina and St. Moritz Bad Tourist District",
+  "name_local": "Celerina-St. Moritz Bad",
+  "icon": "map",
+  "lat": 46.498021,
+  "lon": 9.8459437,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "st_moritz_celerina_and_st_moritz_bad_tourist_district_001",
+      "intent_en": "Can I buy ski passes at Celerina station",
+      "text_local": "Gibt es hier Skipässe?",
+      "pronunciation": "EEpt-ehs-hEEr-skEEpehsuh",
+      "formality": "casual",
+      "cultural_note": "Ski passes are typically sold at valley stations or ski lift counters, not train stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, am Skilift.",
+        "pronunciation": "nEYEnahm-skEElihft",
+        "translation_en": "No, at the ski lift."
+      },
+      "responses": [
+        {
+          "english": "No, at the ski lift.",
+          "phonetic": "nEYEnahm-skEElihft",
+          "french": "Nein, am Skilift."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_celerina_and_st_moritz_bad_tourist_district_002",
+      "intent_en": "Do horse racing tickets sell here",
+      "text_local": "Werden hier Rennpferd-Tickets verkauft?",
+      "pronunciation": "vEHrduhn-hEEr-rEHnpfttIHkuhts-fehrkOWft",
+      "formality": "casual",
+      "cultural_note": "Horse racing tickets are sold at the racecourse ticket office, not in general shops.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, am Rennplatz.",
+        "pronunciation": "nEYEnahm-rEHnplahts",
+        "translation_en": "No, at the racecourse."
+      },
+      "responses": [
+        {
+          "english": "No, at the racecourse.",
+          "phonetic": "nEYEnahm-rEHnplahts",
+          "french": "Nein, am Rennplatz."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_celerina_and_st_moritz_bad_tourist_district_003",
+      "intent_en": "Where does the Cresta Run start from here",
+      "text_local": "Wo beginnt die Cresta Run?",
+      "pronunciation": "vOH-buhIHnt-dee-krEHstah-ehnrUHndeh",
+      "formality": "standard",
+      "cultural_note": "The Cresta Run is a historic skeleton tobogganing track with a clearly marked start point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Oben am St. Moritzer Dorf.",
+        "pronunciation": "OHbuhn-ahm-EHstEHmOHrihts-dAWrf",
+        "translation_en": "Up at St. Moritz village."
+      },
+      "responses": [
+        {
+          "english": "Up at St. Moritz village.",
+          "phonetic": "OHbuhn-ahm-EHstEHmOHrihts-dAWrf",
+          "french": "Oben am St. Moritzer Dorf."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_celerina_and_st_moritz_bad_tourist_district_004",
+      "intent_en": "Where is the St Moritz Bad spa entry",
+      "text_local": "Wo ist der Eingang zum St. Moritzer Badspa?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-kUHuhhows",
+      "formality": "standard",
+      "cultural_note": "In Switzerland, spa entrances are often marked as 'Kurhaus' or 'Therme'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Unten am See.",
+        "pronunciation": "UHntuhn-ahm-zEH",
+        "translation_en": "Down by the lake."
+      },
+      "responses": [
+        {
+          "english": "Down by the lake.",
+          "phonetic": "UHntuhn-ahm-zEH",
+          "french": "Unten am See."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

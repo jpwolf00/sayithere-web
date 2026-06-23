@@ -1,0 +1,100 @@
+{
+  "id": "venue_8a3e2b413681",
+  "name_en": "Bilbao Tram",
+  "name_local": "Tranvía de Bilbao",
+  "icon": "mappin",
+  "lat": 43.2699112,
+  "lon": -2.9616524,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "phrase_9ba87765b5e9",
+      "intent_en": "Ask how to validate the ticket",
+      "text_local": "Buenos días, ¿cómo valido el billete por favor?",
+      "pronunciation": "BWEH-nos DEE-as, KOH-moh bah-LEE-doh el bee-YEH-teh por fah-BOR?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Inserte el billete en la validadora amarilla.",
+        "pronunciation": "een-SEHR-teh EHL beel-LEH-teh EHN LAH bah-lee-dah-DOH-rah ah-mah-REEL-lah",
+        "translation_en": "Scan the ticket on the machine when entering."
+      },
+      "responses": [
+        {
+          "english": "Scan the ticket on the machine when entering.",
+          "phonetic": "een-SEHR-teh EHL beel-LEH-teh EHN LAH bah-lee-dah-DOH-rah ah-mah-REEL-lah",
+          "french": "Inserte el billete en la validadora amarilla."
+        }
+      ]
+    },
+    {
+      "id": "phrase_5d20eac2b102",
+      "intent_en": "Ask if this tram goes to the Guggenheim",
+      "text_local": "Disculpe, ¿este tranvía llega al Museo Guggenheim?",
+      "pronunciation": "Dees-KOOL-peh, EHS-teh tran-VEE-ah YEH-gah ahl moo-SEH-oh GOO-gehn-HAYM?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sí, la parada se llama Guggenheim.",
+        "pronunciation": "SÍ LAH pah-RAH-dah SEH YAH-mah gooh-hehn-eh-EEM",
+        "translation_en": "Yes, the stop is called Guggenheim."
+      },
+      "responses": [
+        {
+          "english": "Yes, the stop is called Guggenheim.",
+          "phonetic": "SÍ LAH pah-RAH-dah SEH YAH-mah gooh-hehn-eh-EEM",
+          "french": "Sí, la parada se llama Guggenheim."
+        }
+      ]
+    },
+    {
+      "id": "phrase_a391854c3027",
+      "intent_en": "Ask where to get off for Casco Viejo",
+      "text_local": "Disculpe, ¿en qué parada bajo para Casco Viejo?",
+      "pronunciation": "dees-KOOL-peh, ehn keh pah-RAH-dah BAH-hoh pah-rah KAHS-koh bee-EH-hoh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "En Arriaga, junto al teatro.",
+        "pronunciation": "EHN ahr-ree-AH-gah HOON-toh AHL teh-AHT-roh",
+        "translation_en": "Get off at Arriaga stop."
+      },
+      "responses": [
+        {
+          "english": "Get off at Arriaga stop.",
+          "phonetic": "EHN ahr-ree-AH-gah HOON-toh AHL teh-AHT-roh",
+          "french": "En Arriaga, junto al teatro."
+        }
+      ]
+    },
+    {
+      "id": "phrase_2dfb388aaea6",
+      "intent_en": "Ask where to buy tickets at this stop",
+      "text_local": "Buenos días, ¿dónde puedo comprar los billetes aquí?",
+      "pronunciation": "BWEH-nohs DEE-ahs, DOHN-deh PWEH-doh kom-PRAHR lohs bee-LYEH-tes ah-KEE?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "En la máquina junto al poste azul.",
+        "pronunciation": "EHN LAH MÁK-ee-nah HOON-toh AHL POH-steh ah-THOOL",
+        "translation_en": "At the ticket machine, on your left."
+      },
+      "responses": [
+        {
+          "english": "At the ticket machine, on your left.",
+          "phonetic": "EHN LAH MÁK-ee-nah HOON-toh AHL POH-steh ah-THOOL",
+          "french": "En la máquina junto al poste azul."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

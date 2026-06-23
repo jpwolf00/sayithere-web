@@ -1,0 +1,122 @@
+{
+  "id": "würzburg_mainfränkisches_museum",
+  "name_en": "Mainfränkisches Museum",
+  "name_local": "Mainfränkisches Museum",
+  "icon": "building.columns",
+  "lat": 49.8780471,
+  "lon": 9.9934134,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "würzburg_mainfränkisches_museum_001",
+      "intent_en": "Ask if fortress courtyard entry is free",
+      "text_local": "Ist der Burghof-Eintritt kostenlos?",
+      "pronunciation": "ihst-dehr-bUHuhkhohfEYEntrIHt-kAWstuhnlOHs",
+      "formality": "standard",
+      "cultural_note": "In German museums and historic sites, open courtyards or outdoor areas are typically freely accessible even without a ticket.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, der Eintritt ist frei.",
+        "pronunciation": "yAHdehr-EYEntrIHt-ihst-frEYE",
+        "translation_en": "Yes, entry is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "yAHdehr-EYEntrIHt-ihst-frEYE",
+          "french": "Ja, der Eintritt ist frei."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_mainfränkisches_museum_002",
+      "intent_en": "Ask where the Tilman Riemenschneider sculptures are",
+      "text_local": "Wo finde ich die Tilman-Riemenschneider-Skulpturen?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-tihlmAHnrEEmuhnshnEYEdskuhlptOOruhn",
+      "formality": "standard",
+      "cultural_note": "Tilman Riemenschneider is a renowned Franconian sculptor whose works are prominently displayed in the museum's permanent collection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Skulpturensaal im ersten Stock.",
+        "pronunciation": "ihm-skUHlptoorEHnzahl-ihm-EHrstuhn-shtAWk",
+        "translation_en": "In the sculpture hall on the first floor."
+      },
+      "responses": [
+        {
+          "english": "In the sculpture hall on the first floor.",
+          "phonetic": "ihm-skUHlptoorEHnzahl-ihm-EHrstuhn-shtAWk",
+          "french": "Im Skulpturensaal im ersten Stock."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_mainfränkisches_museum_003",
+      "intent_en": "Ask when audio guide rental desk closes",
+      "text_local": "Wann schließt der Audioguide-Verleih?",
+      "pronunciation": "vAHn-shlEEst-dehr-ehnAWdihUHuheyeddehfehrlEYE",
+      "formality": "standard",
+      "cultural_note": "German museums often close audio guide desks around the same time as the ticket desk, typically in the late afternoon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 17 Uhr.",
+        "pronunciation": "uhm-zEEptsehn-OOr",
+        "translation_en": "At 5 PM."
+      },
+      "responses": [
+        {
+          "english": "At 5 PM.",
+          "phonetic": "uhm-zEEptsehn-OOr",
+          "french": "Um 17 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_mainfränkisches_museum_004",
+      "intent_en": "Ask if combined fortress museum pass exists",
+      "text_local": "Gibt es ein Kombi-Ticket für Festung und Museum?",
+      "pronunciation": "EEpt-ehs-eyen-kAWmbeetIHkuht-fuer-fEHstUHng-uhnt-moozEHuhm",
+      "formality": "standard",
+      "cultural_note": "Combined tickets for museums and nearby historic sites like fortresses are common in German cultural destinations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter erhältlich.",
+        "pronunciation": "yAHahm-shAHlt-ehrhEHltlihkh",
+        "translation_en": "Yes, available at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, available at the ticket counter.",
+          "phonetic": "yAHahm-shAHlt-ehrhEHltlihkh",
+          "french": "Ja, am Schalter erhältlich."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_mainfränkisches_museum_005",
+      "intent_en": "Ask where gift shop near exit is located",
+      "text_local": "Wo finde ich den Souvenirladen in der Nähe des Ausgangs?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-zOOvehnIHrlahduhn-ihn-dehr-nEHuh-dehs-OWsAHngs",
+      "formality": "standard",
+      "cultural_note": "Gift shops near museum exits are standard in German museums, often located just before the final exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Ausgang, links.",
+        "pronunciation": "deerEHkt-ahm-OWsgAHnglINGks",
+        "translation_en": "Directly at the exit, on the left."
+      },
+      "responses": [
+        {
+          "english": "Directly at the exit, on the left.",
+          "phonetic": "deerEHkt-ahm-OWsgAHnglINGks",
+          "french": "Direkt am Ausgang, links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

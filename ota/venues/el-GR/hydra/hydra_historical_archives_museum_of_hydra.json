@@ -1,0 +1,56 @@
+{
+  "id": "hydra_historical_archives_museum_of_hydra",
+  "name_en": "Historical Archives Museum of Hydra",
+  "name_local": "Ιστορικό Αρχείο - Μουσείο Ύδρας",
+  "icon": "building.columns",
+  "lat": 37.3517017,
+  "lon": 23.4670509,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hydra_historical_archives_museum_of_hydra_001",
+      "intent_en": "May I use flash here?",
+      "text_local": "Μπορώ να χρησιμοποιήσω φλας;",
+      "pronunciation": "bohrOH-nah-khrEEseemOHpeeEEsoh-flAHs",
+      "formality": "standard",
+      "cultural_note": "Συνήθης απαγόρευση στις αίθουσες εκθέσεων μουσείων χωρίς ιδιαίτερη ένδειξη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται η φωτογράφιση.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH-ee-fOHtohghrAHfeesEE",
+        "translation_en": "No flash photography allowed."
+      },
+      "responses": [
+        {
+          "english": "No flash photography allowed.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH-ee-fOHtohghrAHfeesEE",
+          "french": "Όχι, απαγορεύεται η φωτογράφιση."
+        }
+      ]
+    },
+    {
+      "id": "hydra_historical_archives_museum_of_hydra_002",
+      "intent_en": "Do you sell exhibition prints?",
+      "text_local": "Πωλείτε εκτυπώσεις εκθέσεων;",
+      "pronunciation": "pohlEEteh-EHkteepOHsees-ehkthEHsehOHn",
+      "formality": "standard",
+      "cultural_note": "Το κατάστημα δώρων πιθανόν να πωλεί εκτυπώσεις, αλλά χρειάζεται επιβεβαίωση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cashier.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

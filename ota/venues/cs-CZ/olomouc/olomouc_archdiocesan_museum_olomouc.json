@@ -1,0 +1,78 @@
+{
+  "id": "olomouc_archdiocesan_museum_olomouc",
+  "name_en": "Archdiocesan Museum Olomouc",
+  "name_local": "Arcidiecézní muzeum Olomouc",
+  "icon": "building.columns",
+  "lat": 49.5981131,
+  "lon": 17.2613194,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "olomouc_archdiocesan_museum_olomouc_001",
+      "intent_en": "Where is the gift shop by the exit",
+      "text_local": "Kde je obchod se suvenýry u východu?",
+      "pronunciation": "kdEH-yeh-OHpkhoht-seh-sOOvehnEEree-OO-vEEkhohdoo",
+      "formality": "standard",
+      "cultural_note": "Museum gift shops in the Czech Republic are often placed after the last exhibition room, forcing visitors to walk through the entire collection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Projděte výstavou, je až na konci.",
+        "pronunciation": "prOHyehteh-vEEstahvohyeh-AHzh-nAHkohntsee",
+        "translation_en": "Go through the exhibition, it is at the very end."
+      },
+      "responses": [
+        {
+          "english": "Go through the exhibition, it is at the very end.",
+          "phonetic": "prOHyehteh-vEEstahvohyeh-AHzh-nAHkohntsee",
+          "french": "Projděte výstavou, je až na konci."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_archdiocesan_museum_olomouc_002",
+      "intent_en": "Is the Sternberg Madonna on display now",
+      "text_local": "Je Sternberská madona teď vystavená?",
+      "pronunciation": "yeh-stEHrnbehrskah-mAHdohnah-tEH-vEEstahvEHnah",
+      "formality": "standard",
+      "cultural_note": "The Sternberg Madonna is a prized permanent exhibit. Staff typically confirm its location rather than just saying 'yes'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, je ve středověké expozici.",
+        "pronunciation": "AHnohyeh-vEH-strEHdohvyEHkeh-EHkspohzEEtsee",
+        "translation_en": "Yes, it is in the medieval exhibition."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is in the medieval exhibition.",
+          "phonetic": "AHnohyeh-vEH-strEHdohvyEHkeh-EHkspohzEEtsee",
+          "french": "Ano, je ve středověké expozici."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_archdiocesan_museum_olomouc_003",
+      "intent_en": "Where do I rent the audio guide",
+      "text_local": "Kde si můžu půjčit audioprůvodce?",
+      "pronunciation": "kdEH-see-mOOzhoo-pOOytsheet-OWdeeOHproovOHttseh",
+      "formality": "standard",
+      "cultural_note": "In Czech museums, audio guides are almost always rented at the main ticket counter (pokladna), not a separate desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U pokladny, hned u vchodu.",
+        "pronunciation": "OO-pOHklahdneehnEHd-OO-fkhOHdoo",
+        "translation_en": "At the ticket desk, right by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk, right by the entrance.",
+          "phonetic": "OO-pOHklahdneehnEHd-OO-fkhOHdoo",
+          "french": "U pokladny, hned u vchodu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

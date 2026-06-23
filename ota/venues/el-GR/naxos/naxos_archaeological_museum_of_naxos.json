@@ -1,0 +1,100 @@
+{
+  "id": "naxos_archaeological_museum_of_naxos",
+  "name_en": "Archaeological Museum of Naxos",
+  "name_local": "Αρχαιολογικό Μουσείο Νάξου",
+  "icon": "building.columns",
+  "lat": 37.1055106,
+  "lon": 25.3772718,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "naxos_archaeological_museum_of_naxos_001",
+      "intent_en": "Is Tuesday closure still in effect",
+      "text_local": "Κλείνουν την Τρίτη;",
+      "pronunciation": "klEEnoon-deen-drEEtee",
+      "formality": "standard",
+      "cultural_note": "Τα περισσότερα ελληνικά αρχαιολογικά μουσεία έχουν κλειστή την Τρίτη, σύμφωνα με εθνική πολιτική.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, κλείνει την Τρίτη.",
+        "pronunciation": "nEHklEEnee-teen-drEEtee",
+        "translation_en": "Yes, it is closed on Tuesdays."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is closed on Tuesdays.",
+          "phonetic": "nEHklEEnee-teen-drEEtee",
+          "french": "Ναι, κλείνει την Τρίτη."
+        }
+      ]
+    },
+    {
+      "id": "naxos_archaeological_museum_of_naxos_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η συλλογή Κέρου;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-sEElohyEE-EHroo",
+      "formality": "standard",
+      "cultural_note": "Οι συλλογές συχνά επιτηρούνται από προσωπικό λόγω ιδιαίτερης σημασίας τους. Δεν υπάρχουν εμφανείς πινακίδες τοποθεσίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά μετά την αίθουσα Κυκλαδικής τέχνης.",
+        "pronunciation": "thEHkseeAH-mehtAH-teen-EHthoosAH-EEklahtheeEEs-tEHkhnees",
+        "translation_en": "It is in the hall with the Keros antiquities, deeper inside the museum."
+      },
+      "responses": [
+        {
+          "english": "It is in the hall with the Keros antiquities, deeper inside the museum.",
+          "phonetic": "thEHkseeAH-mehtAH-teen-EHthoosAH-EEklahtheeEEs-tEHkhnees",
+          "french": "Δεξιά μετά την αίθουσα Κυκλαδικής τέχνης."
+        }
+      ]
+    },
+    {
+      "id": "naxos_archaeological_museum_of_naxos_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω οδηγό;",
+      "pronunciation": "pohlEEteh-OHtheeghOHs-stoh-tahmEEoh",
+      "formality": "polite",
+      "cultural_note": "Τα αρχαιολογικά μουσεία συχνά προσφέρουν οδηγούς πωλούμενοι στο ταμείο εισόδου ως βασικό έσοδο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο εισόδου, αριστερά.",
+        "pronunciation": "stoh-tahmEEoh-eesOHthooAHreestehrAH",
+        "translation_en": "The museum provides printed guides at the entrance ticket desk. You can get one there, next to the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "The museum provides printed guides at the entrance ticket desk. You can get one there, next to the ticket counter.",
+          "phonetic": "stoh-tahmEEoh-eesOHthooAHreestehrAH",
+          "french": "Στο ταμείο εισόδου, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "naxos_archaeological_museum_of_naxos_004",
+      "intent_en": "Is flash photography allowed in Cycladic room",
+      "text_local": "Επιτρέπεται η φωτογράφιση με φλας στους Κυκλαδικούς;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-fOHtohghrAHfeesEE-meh-flAHs-stoos-EEklahtheekOOs",
+      "formality": "standard",
+      "cultural_note": "Η χρήση φλας αποτελεί κοινή απαγόρευση στα αρχαιολογικά μουσεία για την προστασία των εκθεμάτων. Συνήθως αναφέρεται στις πινακίδες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, flash photography is not allowed."
+      },
+      "responses": [
+        {
+          "english": "No, flash photography is not allowed.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

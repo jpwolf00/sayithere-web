@@ -1,0 +1,122 @@
+{
+  "id": "st_wolfgang_apotheke_zum_guten_hirten",
+  "name_en": "Apotheke zum Guten Hirten",
+  "name_local": "Apotheke zum Guten Hirten",
+  "icon": "info.circle",
+  "lat": 47.6104372,
+  "lon": 15.9973675,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "st_wolfgang_apotheke_zum_guten_hirten_001",
+      "intent_en": "How do I present my health insurance card",
+      "text_local": "Wo lege ich die Krankenkassenkarte vor?",
+      "pronunciation": "vOH-lEHuh-ihkh-dee-krAHnkuhnkAHsuhnkAHrtuh-fAWr",
+      "formality": "standard",
+      "cultural_note": "Die Krankenkassenkarte wird in deutschen Apotheken meist am Schalter vorgelegt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter vorlegen.",
+        "pronunciation": "ahm-shAHlt-fOHrlEHuhn",
+        "translation_en": "Present at the counter."
+      },
+      "responses": [
+        {
+          "english": "Present at the counter.",
+          "phonetic": "ahm-shAHlt-fOHrlEHuhn",
+          "french": "Am Schalter vorlegen."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_apotheke_zum_guten_hirten_002",
+      "intent_en": "Is the consultation conversation free",
+      "text_local": "Ist die Beratung kostenlos?",
+      "pronunciation": "ihst-dee-buhrAHtuhng-kAWstuhnlOHs",
+      "formality": "standard",
+      "cultural_note": "In deutschen Apotheken sind Beratungsgespräche standardmäßig kostenlos.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, immer.",
+        "pronunciation": "yAHIHm",
+        "translation_en": "Yes, always."
+      },
+      "responses": [
+        {
+          "english": "Yes, always.",
+          "phonetic": "yAHIHm",
+          "french": "Ja, immer."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_apotheke_zum_guten_hirten_003",
+      "intent_en": "Can I collect bonus points here",
+      "text_local": "Kann ich hier Bonuspunkte sammeln?",
+      "pronunciation": "kAHn-ihkh-hEEr-bOHnuhspUHngktuh-zAHmuhln",
+      "formality": "casual",
+      "cultural_note": "In deutschen Apotheken sind Bonuspunkte oft an Kundenkarten oder spezielle Aktionen gebunden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit der Karte.",
+        "pronunciation": "yAHmiht-dehr-kAHrtuh",
+        "translation_en": "Yes, with the card."
+      },
+      "responses": [
+        {
+          "english": "Yes, with the card.",
+          "phonetic": "yAHmiht-dehr-kAHrtuh",
+          "french": "Ja, mit der Karte."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_apotheke_zum_guten_hirten_004",
+      "intent_en": "Where do I submit prescriptions",
+      "text_local": "Wo gebe ich Rezepte ab?",
+      "pronunciation": "vOH-EHbuh-ihkh-rehtsEHptuh-AHp",
+      "formality": "standard",
+      "cultural_note": "In deutschen Apotheken sind Rezeptannahmestellen oft markiert oder links platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter links.",
+        "pronunciation": "ahm-shAHlt-lINGks",
+        "translation_en": "At the counter on the left."
+      },
+      "responses": [
+        {
+          "english": "At the counter on the left.",
+          "phonetic": "ahm-shAHlt-lINGks",
+          "french": "Am Schalter links."
+        }
+      ]
+    },
+    {
+      "id": "st_wolfgang_apotheke_zum_guten_hirten_005",
+      "intent_en": "Do I pay upfront as self-payer",
+      "text_local": "Muss ich als Selbstzahler vorab zahlen?",
+      "pronunciation": "mUHs-ihkh-ahls-zEHlpstsahl-fOHrAHp-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Apotheken wird bei Selbstzahlern oft eine Vorabzahlung erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "delphi_delphi_tourist_information_center",
+  "name_en": "Delphi Tourist Information Center",
+  "name_local": "Γραφείο ΕΟΤ Δελφών",
+  "icon": "info.circle",
+  "lat": 38.4811538,
+  "lon": 22.5005486,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "delphi_delphi_tourist_information_center_001",
+      "intent_en": "Buy bus ticket to Athens here?",
+      "text_local": "Πωλείται εδώ εισιτήριο για Αθήνα;",
+      "pronunciation": "pohlEEteh-ehthOH-EEseetEEreeOH-yAH-ahthEEnah",
+      "formality": "standard",
+      "cultural_note": "Short, direct answer expected, using staff title from venue context.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στον υπάλληλο ΕΟΤ.",
+        "pronunciation": "nEHstohn-eepAHleelOH-EHpseelOHnOHmeekrOHntAHf",
+        "translation_en": "Yes, at the EOT employee."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the EOT employee.",
+          "phonetic": "nEHstohn-eepAHleelOH-EHpseelOHnOHmeekrOHntAHf",
+          "french": "Ναι, στον υπάλληλο ΕΟΤ."
+        }
+      ]
+    },
+    {
+      "id": "delphi_delphi_tourist_information_center_002",
+      "intent_en": "Archaeological site combined ticket available?",
+      "text_local": "Υπάρχει συνδυαστικό εισιτήριο;",
+      "pronunciation": "eepAHrkhee-sEEntheeAHsteekOH-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Short, direct answer expected, referencing staff/service from venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον υπάλληλο ΕΟΤ.",
+        "pronunciation": "nEHstohn-eepAHleelOH-EHpseelOHnOHmeekrOHntAHf",
+        "translation_en": "Yes, at the EOT employee."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the EOT employee.",
+          "phonetic": "nEHstohn-eepAHleelOH-EHpseelOHnOHmeekrOHntAHf",
+          "french": "Ναι, στον υπάλληλο ΕΟΤ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

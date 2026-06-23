@@ -1,0 +1,166 @@
+{
+  "id": "kos_tigaki_beach",
+  "name_en": "Tigaki Beach",
+  "name_local": "Παραλία Τιγκάκι",
+  "icon": "leaf",
+  "lat": 36.8876652,
+  "lon": 27.1878023,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "kos_tigaki_beach_001",
+      "intent_en": "Ask where the salt flats are",
+      "text_local": "Πού είναι οι αλυκές;",
+      "pronunciation": "pOO-EEneh-ee-AHleeEHs",
+      "formality": "standard",
+      "cultural_note": "Salt flats are a stable landmark; signs or staff guidance are typical.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περπατήστε ανατολικά από την παραλία.",
+        "pronunciation": "pEHrpahtEEsteh-AHnahtOHleekAH-ahpOH-teem-bAHrahlEEah",
+        "translation_en": "Walk east from the beach."
+      },
+      "responses": [
+        {
+          "english": "Walk east from the beach.",
+          "phonetic": "pEHrpahtEEsteh-AHnahtOHleekAH-ahpOH-teem-bAHrahlEEah",
+          "french": "Περπατήστε ανατολικά από την παραλία."
+        }
+      ]
+    },
+    {
+      "id": "kos_tigaki_beach_002",
+      "intent_en": "Ask if sunbeds are available now",
+      "text_local": "Υπάρχουν ξαπλώστρες τώρα;",
+      "pronunciation": "eepAHrkhoong-gzahplOHstrehs-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Availability fluctuates with demand; staff will confirm current status.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχουν.",
+        "pronunciation": "nEHeepAHrkhoon",
+        "translation_en": "Yes, they are available."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are available.",
+          "phonetic": "nEHeepAHrkhoon",
+          "french": "Ναι, υπάρχουν."
+        }
+      ]
+    },
+    {
+      "id": "kos_tigaki_beach_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να νοικιάσω ομπρέλα;",
+      "pronunciation": "pOO-neeAHzohdEH-ee-ohbrEHlehs-tees-thAHlahssAHs",
+      "formality": "casual",
+      "cultural_note": "Umbrella rental is a common beach service but exact stand placement is not specified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά μετά τις ξαπλώστρες, στο κιόσκι.",
+        "pronunciation": "thEHkseeAH-mehtAH-tees-ksahplOHstrehsstoh-OHsee",
+        "translation_en": "At the end of the beach, near the sunbeds, is the rental point."
+      },
+      "responses": [
+        {
+          "english": "At the end of the beach, near the sunbeds, is the rental point.",
+          "phonetic": "thEHkseeAH-mehtAH-tees-ksahplOHstrehsstoh-OHsee",
+          "french": "Δεξιά μετά τις ξαπλώστρες, στο κιόσκι."
+        }
+      ]
+    },
+    {
+      "id": "kos_tigaki_beach_004",
+      "intent_en": "Ask how to pay for sunbed rental",
+      "text_local": "Πώς πληρώνω για τις ξαπλώστρες;",
+      "pronunciation": "pOHs-pleerOHnoh-yAH-tees-ksahplOHstrehs",
+      "formality": "standard",
+      "cultural_note": "Beach rentals typically accept both cash and card unless specified otherwise.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Με μετρητά ή κάρτα.",
+        "pronunciation": "meh-mEHtreetAH-ee-kAHrtah",
+        "translation_en": "Cash or card."
+      },
+      "responses": [
+        {
+          "english": "Cash or card.",
+          "phonetic": "meh-mEHtreetAH-ee-kAHrtah",
+          "french": "Με μετρητά ή κάρτα."
+        }
+      ]
+    },
+    {
+      "id": "kos_tigaki_beach_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει τέλος στάθμευσης;",
+      "pronunciation": "eepAHrkhee-tEHlohs-stAHthmehfsEEs-steem-bAHrahlEEah",
+      "formality": "standard",
+      "cultural_note": "Parking fees are common in tourist beach areas but may not be explicitly advertised without asking.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο πάρκινγκ της παραλίας Τιγκάκι.",
+        "pronunciation": "nEHstoh-pAHreeng-tees-pAHrahlEEahs-teenggAHee",
+        "translation_en": "Yes, there is a fee at the beach parking lot. Spots fill up quickly by midday, so it's best to come early."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a fee at the beach parking lot. Spots fill up quickly by midday, so it's best to come early.",
+          "phonetic": "nEHstoh-pAHreeng-tees-pAHrahlEEahs-teenggAHee",
+          "french": "Ναι, στο πάρκινγκ της παραλίας Τιγκάκι."
+        }
+      ]
+    },
+    {
+      "id": "kos_tigaki_beach_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχουν αποδυτήρια εδώ κοντά;",
+      "pronunciation": "eepAHrkhoon-AHpohtheetEEreeAH-ehthOH-kohdAH",
+      "formality": "standard",
+      "cultural_note": "Changing cabins are common in beach areas but exact placement is not specified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, δίπλα στις ξαπλώστρες.",
+        "pronunciation": "nEHthEEplah-stees-ksahplOHstrehs",
+        "translation_en": "Yes, there are changing rooms next to the sandy beach, near the sunbeds."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are changing rooms next to the sandy beach, near the sunbeds.",
+          "phonetic": "nEHthEEplah-stees-ksahplOHstrehs",
+          "french": "Ναι, δίπλα στις ξαπλώστρες."
+        }
+      ]
+    },
+    {
+      "id": "kos_tigaki_beach_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να νοικιάσω ομπρέλα στην παραλία;",
+      "pronunciation": "pOO-bohrOH-nah-neeAHsoh-ohbrEHlah-steem-bAHrahlEEah",
+      "formality": "casual",
+      "cultural_note": "Staff may point to a general area or a designated rental stand without specifying exact placement.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά μετά την ταβέρνα Νεράιδα.",
+        "pronunciation": "thEHkseeAH-mehtAH-teen-dahvEHrnah-nehrEYEthah",
+        "translation_en": "There, further down the beach, you will see the umbrella rental spot."
+      },
+      "responses": [
+        {
+          "english": "There, further down the beach, you will see the umbrella rental spot.",
+          "phonetic": "thEHkseeAH-mehtAH-teen-dahvEHrnah-nehrEYEthah",
+          "french": "Δεξιά μετά την ταβέρνα Νεράιδα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

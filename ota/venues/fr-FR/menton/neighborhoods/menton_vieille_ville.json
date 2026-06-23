@@ -1,0 +1,115 @@
+{
+  "id": "menton_vieille_ville",
+  "name_en": "Menton Old Town",
+  "name_local": "Vieille Ville de Menton",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "vieille_couleurs",
+      "intent_en": "The colours of the facades are incredible!",
+      "text_local": "Les couleurs des façades sont incroyables !",
+      "pronunciation": "lay koo-LUR day fah-SAHD son an-krwah-YAH-bluh",
+      "formality": "polite",
+      "cultural_note": "Menton's old town is famous for its pastel-coloured buildings — ochre, coral, yellow and terracotta. Italians call this style Ligurian baroque.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "vieille_ruelle",
+      "intent_en": "Can I walk around the narrow streets?",
+      "text_local": "Est-ce que je peux me promener dans les ruelles ?",
+      "pronunciation": "es-kuh zhuh puh muh proh-muh-NAY don lay roo-EL",
+      "formality": "polite",
+      "cultural_note": "The old town is entirely pedestrianised and free to explore. The steep lanes (ruelles) lead up to the basilica and offer sea views.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "vieille_cimetiere",
+      "intent_en": "Where is the Old Castle Cemetery?",
+      "text_local": "Où est le cimetière du Vieux Château ?",
+      "pronunciation": "oo eh luh seem-TYAIR dew vyuh sha-TOH",
+      "formality": "polite",
+      "cultural_note": "The cemetery at the top of the old town has extraordinary panoramic views and is the burial site of many European aristocrats who came to Menton for the climate.",
+      "responses": [
+        {
+          "english": "It is located right behind the old church, about three hundred meters from here.",
+          "phonetic": "OO el suh seem-TYAYR dyoo VYUH sha-TOH",
+          "french": "Il se trouve juste derrière la vieille église, à environ trois cents mètres d'ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_vv_men_x1",
+      "intent_en": "Ask where the market in the old town is held",
+      "text_local": "Où se tient le marché dans la vieille ville ?",
+      "pronunciation": "oo suh TYAN luh mar-SHAY dahn lah VYAY veel",
+      "formality": "polite",
+      "cultural_note": "Menton's old town market is held daily on the waterfront below the old town, near the Sablettes beach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the covered market on Quai de Monléon.",
+          "phonetic": "soor luh mar-SHAY koo-VAIR doo KAY duh mon-lay-ON.",
+          "french": "Sur le marché couvert du quai de Monléon."
+        }
+      ]
+    },
+    {
+      "id": "fr_vv_men_x2",
+      "intent_en": "Ask how to reach the old town from the station",
+      "text_local": "Comment monter à la vieille ville depuis la gare ?",
+      "pronunciation": "koh-MAHN mon-TAY ah lah VYAY veel duh-PWEE lah gar",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On foot in ten minutes, climb via Rue Saint-Michel.",
+          "phonetic": "ah PYAY ahn DEE mee-NOOT, mon-TAY par lah ROO SAN-mee-SHELL.",
+          "french": "À pied en dix minutes, montez par la rue Saint-Michel."
+        }
+      ]
+    },
+    {
+      "id": "fr_vv_men_x3",
+      "intent_en": "Ask if the Basilica is visible from here",
+      "text_local": "Voit-on la basilique depuis ici ?",
+      "pronunciation": "vwah-TON lah bah-zee-LEEK duh-PWEE ee-SEE",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the yellow and ochre bell tower is visible from everywhere.",
+          "phonetic": "wee, luh kloh-SHAY zhon ay OK-ruh ay vee-ZEEBL duh par-TOO.",
+          "french": "Oui, le clocher jaune et ocre est visible de partout."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "narrow alley / lane",
+      "word_local": "la ruelle",
+      "pronunciation": "lah roo-EL"
+    },
+    {
+      "word_en": "building facade",
+      "word_local": "la façade",
+      "pronunciation": "lah fah-SAHD"
+    },
+    {
+      "word_en": "cemetery",
+      "word_local": "le cimetière",
+      "pronunciation": "luh seem-TYAIR"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "hamburg_speicherstadt_warehouse_district",
+  "name_en": "Speicherstadt warehouse district",
+  "name_local": "Speicherstadt",
+  "icon": "building.columns",
+  "lat": 53.5440149,
+  "lon": 9.9869792,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "hamburg_speicherstadt_warehouse_district_001",
+      "intent_en": "Where is the Miniatur Wunderland counter",
+      "text_local": "Wo ist der Schalter für Miniatur Wunderland?",
+      "pronunciation": "vOH-ihst-dehr-shAHlt-fuer-mEEneeahtOOr-vUHndlAHnt",
+      "formality": "standard",
+      "cultural_note": "German customers expect precise counter locations; staff typically points or accompanies to the entrance area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eingang von Miniatur Wunderland.",
+        "pronunciation": "ahm-EYEnAHng-fawn-mEEneeahtOOr-vUHndlAHnt",
+        "translation_en": "At Miniatur Wunderland entrance."
+      },
+      "responses": [
+        {
+          "english": "At Miniatur Wunderland entrance.",
+          "phonetic": "ahm-EYEnAHng-fawn-mEEneeahtOOr-vUHndlAHnt",
+          "french": "Am Eingang von Miniatur Wunderland."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_speicherstadt_warehouse_district_002",
+      "intent_en": "Where is the Deutsches Zollmuseum",
+      "text_local": "Wo ist das Deutsche Zollmuseum?",
+      "pronunciation": "vOH-ihst-dahs-dAWuhtshuh-tsawlmOOzehUHm",
+      "formality": "standard",
+      "cultural_note": "German museums rely on consistent signage; multilingual signs are common in tourist areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Das Museum ist am Wasserschloss.",
+        "pronunciation": "dahs-moozEHuhm-ihst-ahm-vAHsshlAWs",
+        "translation_en": "The museum is at the Wasserschloss."
+      },
+      "responses": [
+        {
+          "english": "The museum is at the Wasserschloss.",
+          "phonetic": "dahs-moozEHuhm-ihst-ahm-vAHsshlAWs",
+          "french": "Das Museum ist am Wasserschloss."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_speicherstadt_warehouse_district_003",
+      "intent_en": "Where is the Wasserschloss café",
+      "text_local": "Wo ist das Café Wasserschloss?",
+      "pronunciation": "vOH-ihst-dahs-kahfEH-vAHsshlAWs",
+      "formality": "standard",
+      "cultural_note": "German service staff often redirect to dedicated information points rather than guess locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus an der Kante.",
+        "pronunciation": "guhrAHdehOWs-ahn-dehr-kAHntuh",
+        "translation_en": "Straight ahead at the edge."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead at the edge.",
+          "phonetic": "guhrAHdehOWs-ahn-dehr-kAHntuh",
+          "french": "Geradeaus an der Kante."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_speicherstadt_warehouse_district_004",
+      "intent_en": "How do I pay at the museum shop",
+      "text_local": "Wie zahle ich im Museumsshop?",
+      "pronunciation": "vee-tsAHluh-ihkh-ihm-mOOzawuhmshOHp",
+      "formality": "standard",
+      "cultural_note": "German museum shops clearly display payment options; cash preferred for small amounts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bar oder Karte am Schalter.",
+        "pronunciation": "bAHr-OHd-kAHrtuh-ahm-shAHlt",
+        "translation_en": "Cash or card at counter."
+      },
+      "responses": [
+        {
+          "english": "Cash or card at counter.",
+          "phonetic": "bAHr-OHd-kAHrtuh-ahm-shAHlt",
+          "french": "Bar oder Karte am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

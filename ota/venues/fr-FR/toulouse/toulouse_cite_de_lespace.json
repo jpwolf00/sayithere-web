@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_cite_de_lespace",
+  "name_en": "Cité de l'Espace",
+  "name_local": "Cité de l'Espace",
+  "icon": "building.columns",
+  "lat": 43.5862,
+  "lon": 1.4927,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "toulouse_citeespace_001",
+      "intent_en": "Buy two adult tickets and one child ticket for the space park",
+      "text_local": "Je voudrais deux billets adultes et un billet enfant pour la Cité de l'Espace, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY duh bee-YAY ah-DYLT ay un bee-YAY ahn-FAHN poor lah see-TAY duh les-PASS seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Toulouse is Europe's aerospace capital; Airbus, the Ariane rocket programme, and CNES (France's space agency) are all based here.",
+      "responses": [
+        {
+          "english": "Fifty-three euros.",
+          "phonetic": "sahn-KAHNT-TRWAH uh-ROH",
+          "french": "Cinquante-trois euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_citeespace_002",
+      "intent_en": "Ask what time the next planetarium show starts",
+      "text_local": "À quelle heure commence la prochaine séance au planétarium ?",
+      "pronunciation": "ah kel ur koh-MAHNS lah proh-SHEN say-AHNS oh plah-nay-TAH-ryum",
+      "formality": "polite",
+      "cultural_note": "The Cité de l'Espace has two full-dome planetarium theatres offering shows on astronomy and space exploration.",
+      "responses": [
+        {
+          "english": "The next show is in thirty minutes.",
+          "phonetic": "lah proh-SHEN say-AHNSS eh dahn TRAHNT mee-NOOT",
+          "french": "La prochaine séance est dans trente minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_citeespace_003",
+      "intent_en": "Ask where the full-scale Ariane 5 rocket replica is",
+      "text_local": "Où se trouve la réplique grandeur nature de la fusée Ariane 5 ?",
+      "pronunciation": "oo suh TROOV lah ray-PLEEK grahn-DUR nah-TYOOR duh lah fyoo-ZAY ah-RYAH-nuh SANK",
+      "formality": "polite",
+      "cultural_note": "The Cité de l'Espace features a full-scale model of the Ariane 5 rocket standing outdoors — a major photo opportunity.",
+      "responses": [
+        {
+          "english": "Outside, in the park, you cannot miss it.",
+          "phonetic": "duh-OR dahn luh PARK voo nuh poo-VAY pah lah mahn-KAY",
+          "french": "Dehors, dans le parc, vous ne pouvez pas la manquer."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_citeespace_004",
+      "intent_en": "Ask if the ISS module walkthrough is included in the entry ticket",
+      "text_local": "Est-ce que la visite du module ISS est incluse dans le billet d'entrée ?",
+      "pronunciation": "es-kuh lah vee-ZEET doo moh-DYOOL ee-ES-ESS eh an-KLYOZ dahn luh bee-YAY dahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The Cité de l'Espace has a replica section of the International Space Station where visitors can experience the cramped living conditions.",
+      "responses": [
+        {
+          "english": "Yes, it is included in the ticket.",
+          "phonetic": "wee say tahn-KLOO dahn luh bee-YAY",
+          "french": "Oui, c'est inclus dans le billet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_citeespace_005",
+      "intent_en": "Ask a staff member to explain how a rocket engine works",
+      "text_local": "Pourriez-vous m'expliquer comment fonctionne un moteur de fusée ?",
+      "pronunciation": "poo-RYAY-voo mex-plee-KAY koh-MAHN fonk-SYON un moh-TUR duh fyoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "Staff at Cité de l'Espace are well trained in science communication and happy to explain aerospace concepts to all ages.",
+      "responses": [
+        {
+          "english": "There are explanatory panels at each stage.",
+          "phonetic": "eel ee ah day pah-NOH ex-plee-kah-TEEF ah SHAHK ay-TAP",
+          "french": "Il y a des panneaux explicatifs à chaque étape."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "rocket",
+      "word_local": "la fusée",
+      "pronunciation": "lah fyoo-ZAY"
+    },
+    {
+      "word_en": "planetarium",
+      "word_local": "le planétarium",
+      "pronunciation": "luh plah-nay-TAH-ryum"
+    },
+    {
+      "word_en": "space",
+      "word_local": "l'espace",
+      "pronunciation": "les-PASS"
+    },
+    {
+      "word_en": "full-scale replica",
+      "word_local": "la réplique grandeur nature",
+      "pronunciation": "lah ray-PLEEK grahn-DUR nah-TYOOR"
+    }
+  ]
+}

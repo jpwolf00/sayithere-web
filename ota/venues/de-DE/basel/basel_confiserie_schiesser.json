@@ -1,0 +1,100 @@
+{
+  "id": "basel_confiserie_schiesser",
+  "name_en": "Confiserie Schiesser",
+  "name_local": "Confiserie Schiesser",
+  "icon": "fork.knife",
+  "lat": 47.5580535,
+  "lon": 7.5874618,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "basel_confiserie_schiesser_001",
+      "intent_en": "Where do I order pralines by the piece?",
+      "text_local": "Wo bestelle ich Pralinen einzeln?",
+      "pronunciation": "vOH-buhshtEHluh-ihkh-prahlEEnuhn-EYEntsEHln",
+      "formality": "standard",
+      "cultural_note": "Pralinen-Counter ist der übliche Begriff für individuelle Auswahl in einer Confiserie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Pralinen-Counter.",
+        "pronunciation": "ahm-prahlEEnuhnkOOnt",
+        "translation_en": "At the praline counter."
+      },
+      "responses": [
+        {
+          "english": "At the praline counter.",
+          "phonetic": "ahm-prahlEEnuhnkOOnt",
+          "french": "Am Pralinen-Counter."
+        }
+      ]
+    },
+    {
+      "id": "basel_confiserie_schiesser_002",
+      "intent_en": "Where do cafe customers sit and pay?",
+      "text_local": "Wo sitzen Café-Gäste und zahlen?",
+      "pronunciation": "vOH-zIHtsuhn-kahfEHEHstuh-uhnt-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Cafés wird oft am Tisch gezahlt, oder an einer zentralen Kasse.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Café-Tisch oder an der Kasse.",
+        "pronunciation": "ahm-kahfEHtIHsh-OHd-ahn-dehr-kAHsuh",
+        "translation_en": "At the café table or cash desk."
+      },
+      "responses": [
+        {
+          "english": "At the café table or cash desk.",
+          "phonetic": "ahm-kahfEHtIHsh-OHd-ahn-dehr-kAHsuh",
+          "french": "Am Café-Tisch oder an der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "basel_confiserie_schiesser_003",
+      "intent_en": "Are Basler Läckerli available fresh today?",
+      "text_local": "Sind Basler Läckerli heute frisch erhältlich?",
+      "pronunciation": "zihnt-bAHsl-lEHklEE-hAWuhtuh-frIHsh-ehrhEHltlihkh",
+      "formality": "standard",
+      "cultural_note": "Frische Basler Läckerli sind ein typisches Angebot in Basler Confiserien.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute frisch.",
+        "pronunciation": "yAHhAWuhtuh-frIHsh",
+        "translation_en": "Yes, fresh today."
+      },
+      "responses": [
+        {
+          "english": "Yes, fresh today.",
+          "phonetic": "yAHhAWuhtuh-frIHsh",
+          "french": "Ja, heute frisch."
+        }
+      ]
+    },
+    {
+      "id": "basel_confiserie_schiesser_004",
+      "intent_en": "Where is the takeaway pastry case?",
+      "text_local": "Wo ist der Verkaufsstand mit zum Mitnehmen?",
+      "pronunciation": "vOH-ihst-dehr-fehrkOWfsshtahnt-miht-tsuhm-mIHtnEHmuhn",
+      "formality": "standard",
+      "cultural_note": "Zum Mitnehmen-Exponate stehen oft im vorderen Bereich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vorne am Verkaufsstand.",
+        "pronunciation": "fAWrnuh-ahm-fehrkOWfsshtahnt",
+        "translation_en": "At the front counter."
+      },
+      "responses": [
+        {
+          "english": "At the front counter.",
+          "phonetic": "fAWrnuh-ahm-fehrkOWfsshtahnt",
+          "french": "Vorne am Verkaufsstand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

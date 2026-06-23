@@ -1,0 +1,100 @@
+{
+  "id": "vienna_innere_stadt_historic_center",
+  "name_en": "Innere Stadt Historic Center",
+  "name_local": "Innere Stadt",
+  "icon": "map",
+  "lat": 48.2100072,
+  "lon": 16.3697034,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "vienna_innere_stadt_historic_center_001",
+      "intent_en": "Where is the nearest parking garage?",
+      "text_local": "Wo ist die nächste Parkgarage?",
+      "pronunciation": "vOH-ihst-dee-nEHkhstuh-pAHrkahrAHuh",
+      "formality": "standard",
+      "cultural_note": "Parkgaragen in der Inneren Stadt sind oft an großen öffentlichen Gebäuden oder unter Hotels. Exakte Mikrolagen variieren.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In der Tiefgarage am Rathausplatz.",
+        "pronunciation": "ihn-dehr-tEEfgahrAHzhuh-ahm-rAHtowsplAHts",
+        "translation_en": "In the underground parking at Rathausplatz."
+      },
+      "responses": [
+        {
+          "english": "In the underground parking at Rathausplatz.",
+          "phonetic": "ihn-dehr-tEEfgahrAHzhuh-ahm-rAHtowsplAHts",
+          "french": "In der Tiefgarage am Rathausplatz."
+        }
+      ]
+    },
+    {
+      "id": "vienna_innere_stadt_historic_center_002",
+      "intent_en": "Is café table service or counter service?",
+      "text_local": "Wird im Café an Tischen bedient?",
+      "pronunciation": "vIHrt-ihm-kahfEH-ahn-tIHshuhn-buhdEEnt",
+      "formality": "standard",
+      "cultural_note": "In Wiener Cafés ist Tischbedienung durch Kellner:innen üblich. Selbstbedienung am Tresen nur bei kleiner Auswahl oder To-go.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Tischbedienung.",
+        "pronunciation": "yAHtIHshbehdEEnuhng",
+        "translation_en": "Yes, table service."
+      },
+      "responses": [
+        {
+          "english": "Yes, table service.",
+          "phonetic": "yAHtIHshbehdEEnuhng",
+          "french": "Ja, Tischbedienung."
+        }
+      ]
+    },
+    {
+      "id": "vienna_innere_stadt_historic_center_003",
+      "intent_en": "Where can I buy a tram day pass?",
+      "text_local": "Wo gibt es Tageskarten für die Straßenbahn?",
+      "pronunciation": "vOH-EEpt-ehs-tAHehskAHrtuhn-fuer-dee-shtrAHsuhnbAHn",
+      "formality": "standard",
+      "cultural_note": "Tageskarten für Verkehrsmittel sind bei Wiener Linien-Schaltern und autorisierten Tabaktrafiken erhältlich. Automaten an Haltestellen sind weniger verbreitet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder in Tabakgeschäften.",
+        "pronunciation": "ahm-shAHlt-OHd-ihn-tAHbahkEHshehftuhn",
+        "translation_en": "At the ticket counter or tobacco shops."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter or tobacco shops.",
+          "phonetic": "ahm-shAHlt-OHd-ihn-tAHbahkEHshehftuhn",
+          "french": "Am Schalter oder in Tabakgeschäften."
+        }
+      ]
+    },
+    {
+      "id": "vienna_innere_stadt_historic_center_004",
+      "intent_en": "Where is the Hofburg Palace entrance?",
+      "text_local": "Wo ist der Eingang zum Hofburg-Palast?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-hAWfbuhuhkpAHlahst",
+      "formality": "standard",
+      "cultural_note": "Hofburg-Palast-Eingänge sind an markanten Plätzen wie Heldenplatz oder Michaelertrakt. Präzise Innenwege variieren und werden nicht standardisiert ausgeschildert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Heldenplatz oder Michaelertrakt.",
+        "pronunciation": "ahm-hEHlduhnplAHts-OHd-mIHkhahEHltrAHkt",
+        "translation_en": "At Heldenplatz or Michaelertrakt."
+      },
+      "responses": [
+        {
+          "english": "At Heldenplatz or Michaelertrakt.",
+          "phonetic": "ahm-hEHlduhnplAHts-OHd-mIHkhahEHltrAHkt",
+          "french": "Am Heldenplatz oder Michaelertrakt."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

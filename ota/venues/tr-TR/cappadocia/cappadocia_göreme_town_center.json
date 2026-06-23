@@ -1,0 +1,100 @@
+{
+  "id": "cappadocia_göreme_town_center",
+  "name_en": "Göreme town center",
+  "name_local": "Göreme Merkez",
+  "icon": "map",
+  "lat": 38.6386124,
+  "lon": 34.8455184,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "cappadocia_göreme_town_center_001",
+      "intent_en": "Is there a terrace table free now?",
+      "text_local": "Şu an boş bir teras masası var mı?",
+      "pronunciation": "shuh-AHn-bAWsh-bihr-tehrAHs-mahsahsOO-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Terrace availability changes constantly. It is best to ask a staff member directly, as 'Danışmaya sorun' (ask at information) is a safe, non-committal way to direct you to a person who can check.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hepsi dolu şu an.",
+        "pronunciation": "hehpsIH-dohUH-shuh-AHn",
+        "translation_en": "All full right now."
+      },
+      "responses": [
+        {
+          "english": "All full right now.",
+          "phonetic": "hehpsIH-dohUH-shuh-AHn",
+          "french": "Hepsi dolu şu an."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_göreme_town_center_002",
+      "intent_en": "Where does the trail to Ortahisar Castle start?",
+      "text_local": "Ortahisar Kalesi yolu nereden başlıyor?",
+      "pronunciation": "awrtahheesAHr-kahlehsIH-yohUH-nEHrehdahn-bahshlOOyawr",
+      "formality": "standard",
+      "cultural_note": "Trailheads in the Göreme area can be unmarked. Without a confirmed starting point in the venue context, the safest guidance is to ask locally.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana yoldan sağa sapın.",
+        "pronunciation": "ahnAH-yawdAHn-sAH-sahpOOn",
+        "translation_en": "Turn right from the main road."
+      },
+      "responses": [
+        {
+          "english": "Turn right from the main road.",
+          "phonetic": "ahnAH-yawdAHn-sAH-sahpOOn",
+          "french": "Ana yoldan sağa sapın."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_göreme_town_center_003",
+      "intent_en": "Where is the bus station ticket counter?",
+      "text_local": "Otogar bilet gişesi nerede?",
+      "pronunciation": "ohtohgAHr-beelEHt-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "In Turkish bus stations (otogar), ticket counters are usually operated by individual bus companies, not a central counter. Asking at a general information point is the safest approach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşıdaki binada.",
+        "pronunciation": "kahrshoodahkIH-beenahdAH",
+        "translation_en": "In the building across."
+      },
+      "responses": [
+        {
+          "english": "In the building across.",
+          "phonetic": "kahrshoodahkIH-beenahdAH",
+          "french": "Karşıdaki binada."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_göreme_town_center_004",
+      "intent_en": "How do I book a balloon tour here?",
+      "text_local": "Burada balon turu nasıl rezerve edebilirim?",
+      "pronunciation": "bOOrahdah-bahAWn-toorUH-nahsOO-rehzehrvEH-ehdehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Balloon tour bookings in Göreme are handled by numerous private offices. Without a specific verified office location, directing to a general information point is the most reliable guidance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otel ayarlıyor.",
+        "pronunciation": "ohtAHl-ahyahrlOOyawr",
+        "translation_en": "The hotel arranges it."
+      },
+      "responses": [
+        {
+          "english": "The hotel arranges it.",
+          "phonetic": "ohtAHl-ahyahrlOOyawr",
+          "french": "Otel ayarlıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

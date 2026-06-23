@@ -1,0 +1,78 @@
+{
+  "id": "chania_museum_of_the_greek_national_football_team",
+  "name_en": "Museum of the Greek National Football Team",
+  "name_local": "Μουσείο Εθνικής Ομάδας Ποδοσφαίρου",
+  "icon": "building.columns",
+  "lat": 35.5120831,
+  "lon": 24.0191544,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "chania_museum_of_the_greek_national_football_team_001",
+      "intent_en": "Can I book group visits here?",
+      "text_local": "Μπορώ να κάνω κράτηση για ομάδες εδώ;",
+      "pronunciation": "bohrOH-nah-kAHnoh-krAHteesEE-yAH-ohmAHthehs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Στις ελληνικές πόλεις η κράτηση για ομάδες γίνεται συχνά στο δημοτικό κατάστημα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, η κράτηση γίνεται στο δημαρχείο.",
+        "pronunciation": "nEHee-krAHteesEE-yEEnehtEH-stoh-thEEmahrkhEEoh",
+        "translation_en": "Yes, booking is done at the city hall."
+      },
+      "responses": [
+        {
+          "english": "Yes, booking is done at the city hall.",
+          "phonetic": "nEHee-krAHteesEE-yEEnehtEH-stoh-thEEmahrkhEEoh",
+          "french": "Ναι, η κράτηση γίνεται στο δημαρχείο."
+        }
+      ]
+    },
+    {
+      "id": "chania_museum_of_the_greek_national_football_team_002",
+      "intent_en": "Is the museum-shop combo ticket available?",
+      "text_local": "Υπάρχει εισιτήριο μουσείο-κατάστημα;",
+      "pronunciation": "eepAHrkhee-EEseetEEreeOH-moosEEohkahtAHsteemAH",
+      "formality": "standard",
+      "cultural_note": "Στην Ελλάδα συνήθως τα εισιτήρια συνδυασμένων υπηρεσιών (π.χ. μουσείο + κατάστημα) αγοράζονται στο ταμείο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στη θέση του Ταμία.",
+        "pronunciation": "nEHstee-thEHsee-too-tahmEEah",
+        "translation_en": "Yes, at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cashier.",
+          "phonetic": "nEHstee-thEHsee-too-tahmEEah",
+          "french": "Ναι, στη θέση του Ταμία."
+        }
+      ]
+    },
+    {
+      "id": "chania_museum_of_the_greek_national_football_team_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς επικυρώνω το εισιτήριο μου;",
+      "pronunciation": "pOHs-EHpeeeerOHnoh-toh-EEseetEEreeOH-stee-pEElee-too-yeepEHthoo",
+      "formality": "standard",
+      "cultural_note": "Σε ελληνικά γήπεδα η επικύρωση εισιτηρίων γίνεται συχνά από ειδικό προσωπικό όπως ο γηπεδούχος.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δείξτε το εισιτήριο στην είσοδο και θα το σκανάρουν εκεί.",
+        "pronunciation": "thEEksteh-toh-EEseetEEreeOH-steen-EEsohthOH-keh-thah-toh-skahnAHroon-ehEE",
+        "translation_en": "Show the ticket at the entrance and they will scan it there."
+      },
+      "responses": [
+        {
+          "english": "Show the ticket at the entrance and they will scan it there.",
+          "phonetic": "thEEksteh-toh-EEseetEEreeOH-steen-EEsohthOH-keh-thah-toh-skahnAHroon-ehEE",
+          "french": "Δείξτε το εισιτήριο στην είσοδο και θα το σκανάρουν εκεί."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

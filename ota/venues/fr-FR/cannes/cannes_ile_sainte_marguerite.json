@@ -1,0 +1,118 @@
+{
+  "id": "cannes_ile_sainte_marguerite",
+  "name_en": "Île Sainte-Marguerite",
+  "name_local": "Île Sainte-Marguerite",
+  "icon": "leaf",
+  "lat": 43.5243,
+  "lon": 7.044,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "cannes_ste_marg_001",
+      "intent_en": "Ask where to buy the boat ticket to the island",
+      "text_local": "Où peut-on acheter les billets pour le bateau vers l'île Sainte-Marguerite ?",
+      "pronunciation": "oo puh-TON ash-TAY lay bee-YAY poor leh bah-TOH vehr LEEL sant mar-geh-REET",
+      "formality": "polite",
+      "cultural_note": "Ferries to the Lérins islands depart from Cannes old port (Quai Laubeuf) — the crossing takes about 15 minutes.",
+      "responses": [
+        {
+          "english": "At Quai Laubeuf, over there.",
+          "phonetic": "oh KEH loh-BUHF, lah-BAH",
+          "french": "Au quai Laubeuf, là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_ste_marg_002",
+      "intent_en": "Ask if the cell of the Man in the Iron Mask is open to visit",
+      "text_local": "La cellule du Masque de Fer au Fort Royal est-elle accessible aux visiteurs ?",
+      "pronunciation": "lah seh-LYOOL doo MASK deh FEHR oh for rwah-YAL eh-TEL ak-se-SEEBL oh vee-zee-TUHR",
+      "formality": "polite",
+      "cultural_note": "The Man in the Iron Mask was held in Fort Royal for 11 years — his true identity remains unknown to this day.",
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "wee, seh oo-VEHR",
+          "french": "Oui, c'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_ste_marg_003",
+      "intent_en": "Ask how long it takes to walk around the entire island",
+      "text_local": "Combien de temps faut-il pour faire le tour de l'île à pied ?",
+      "pronunciation": "kom-BYAN deh TAN foh-TEEL poor FEHR leh TOOR deh LEEL ah PYAY",
+      "formality": "polite",
+      "cultural_note": "A leisurely circuit of Île Sainte-Marguerite through its eucalyptus and pine forests takes about 2 hours.",
+      "responses": [
+        {
+          "english": "About an hour and a half.",
+          "phonetic": "ahn-vee-ROHN oon UHR ay duh-MEE",
+          "french": "Environ une heure et demie."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_ste_marg_004",
+      "intent_en": "Ask if there is a restaurant on the island",
+      "text_local": "Y a-t-il un restaurant sur l'île où l'on peut déjeuner ?",
+      "pronunciation": "ee ah-TEEL un res-to-RAN soor LEEL oo lon puh day-ZHUH-nay",
+      "formality": "polite",
+      "cultural_note": "A few seasonal restaurants and a snack bar operate on the island during summer — bring provisions if visiting off-season.",
+      "responses": [
+        {
+          "english": "Yes, a small restaurant near the fort.",
+          "phonetic": "wee, uhn puh-TEE res-toh-RAHN preh doo FOR",
+          "french": "Oui, un petit restaurant près du fort."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_ste_marg_005",
+      "intent_en": "Ask about the snorkelling and swimming near the island",
+      "text_local": "Peut-on faire de la plongée avec masque et tuba autour de l'île ?",
+      "pronunciation": "puh-TON FEHR deh lah plon-ZHAY ah-VEK MASK ay too-BAH oh-TOOR deh LEEL",
+      "formality": "polite",
+      "cultural_note": "The clear waters around Sainte-Marguerite are excellent for snorkelling — the marine reserve protects rich sea life.",
+      "responses": [
+        {
+          "english": "There are coves on the south side.",
+          "phonetic": "eel ee ah day KREEK soor luh koh-TAY SOOD",
+          "french": "Il y a des criques sur le côté sud."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "island",
+      "word_local": "l'île",
+      "pronunciation": "LEEL"
+    },
+    {
+      "word_en": "ferry crossing",
+      "word_local": "la traversée en bateau",
+      "pronunciation": "lah trah-vehr-ZAY an bah-TOH"
+    },
+    {
+      "word_en": "fort / fortress",
+      "word_local": "le fort",
+      "pronunciation": "leh FOR"
+    },
+    {
+      "word_en": "snorkelling",
+      "word_local": "la plongée avec masque et tuba",
+      "pronunciation": "lah plon-ZHAY ah-VEK MASK ay too-BAH"
+    }
+  ]
+}

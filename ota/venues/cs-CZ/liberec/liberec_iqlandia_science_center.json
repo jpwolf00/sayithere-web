@@ -1,0 +1,100 @@
+{
+  "id": "liberec_iqlandia_science_center",
+  "name_en": "iQLANDIA Science Center",
+  "name_local": "iQLANDIA",
+  "icon": "building.columns",
+  "lat": 50.7702648,
+  "lon": 15.0583947,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "liberec_iqlandia_science_center_001",
+      "intent_en": "When is the next planetarium show",
+      "text_local": "Kdy začíná další projekce v planetáriu?",
+      "pronunciation": "kdEE-zAHtsheenah-dAHlshee-prOHyehktseh-v-plAHnehtAHreeyoo",
+      "formality": "standard",
+      "cultural_note": "Planetarium shows run on a fixed schedule, usually with a midday break.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ve tři hodiny odpoledne.",
+        "pronunciation": "vEH-trEE-hOHeenee-OHtpohlEHdneh",
+        "translation_en": "At three in the afternoon."
+      },
+      "responses": [
+        {
+          "english": "At three in the afternoon.",
+          "phonetic": "vEH-trEE-hOHeenee-OHtpohlEHdneh",
+          "french": "Ve tři hodiny odpoledne."
+        }
+      ]
+    },
+    {
+      "id": "liberec_iqlandia_science_center_002",
+      "intent_en": "Where is the gift shop cashier",
+      "text_local": "Kde je pokladní v obchodě se suvenýry?",
+      "pronunciation": "kdEH-yeh-pOHklahdnyee-v-OHpkhoheh-seh-sOOvehnEEree",
+      "formality": "standard",
+      "cultural_note": "The cashier is typically positioned near the exit to manage the flow of customers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U východu z obchodu, vpravo.",
+        "pronunciation": "OO-vEEkhohdoo-s-OHpkhohdoofprAHvoh",
+        "translation_en": "At the exit of the shop, on the right."
+      },
+      "responses": [
+        {
+          "english": "At the exit of the shop, on the right.",
+          "phonetic": "OO-vEEkhohdoo-s-OHpkhohdoofprAHvoh",
+          "french": "U východu z obchodu, vpravo."
+        }
+      ]
+    },
+    {
+      "id": "liberec_iqlandia_science_center_003",
+      "intent_en": "Where do I book workshop tickets",
+      "text_local": "Kde si můžu rezervovat lístky na dílnu?",
+      "pronunciation": "kdEH-see-mOOzhoo-rEHzehrvOHvaht-lEEstkee-nAHeelnoo",
+      "formality": "standard",
+      "cultural_note": "Workshops often require advance booking at a dedicated counter, not the main ticket desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vzadu za hlavním schodištěm, u pultu dílny.",
+        "pronunciation": "vzAHdoo-zAHhlahvnyeem-skhOHeeshehmOO-pOOltoo-EElnee",
+        "translation_en": "At the back, behind the main stairs, at the workshop counter."
+      },
+      "responses": [
+        {
+          "english": "At the back, behind the main stairs, at the workshop counter.",
+          "phonetic": "vzAHdoo-zAHhlahvnyeem-skhOHeeshehmOO-pOOltoo-EElnee",
+          "french": "Vzadu za hlavním schodištěm, u pultu dílny."
+        }
+      ]
+    },
+    {
+      "id": "liberec_iqlandia_science_center_004",
+      "intent_en": "Is the cafeteria self-checkout working now",
+      "text_local": "Funguje teď samoobslužná pokladna v jídelně?",
+      "pronunciation": "fOOnggooyeh-tEH-sAHmohOHpsloozhnah-pOHklahdnah-v-yEEdehlnyeh",
+      "formality": "standard",
+      "cultural_note": "Self-checkouts are common but may be turned off during quiet periods.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, je zapnutá.",
+        "pronunciation": "AHnohyeh-zAHpnootah",
+        "translation_en": "Yes, it's turned on."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's turned on.",
+          "phonetic": "AHnohyeh-zAHpnootah",
+          "french": "Ano, je zapnutá."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

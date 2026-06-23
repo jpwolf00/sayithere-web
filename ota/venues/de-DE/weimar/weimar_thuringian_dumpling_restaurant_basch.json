@@ -1,0 +1,78 @@
+{
+  "id": "weimar_thuringian_dumpling_restaurant_basch",
+  "name_en": "Thuringian Dumpling Restaurant Basch",
+  "name_local": "Thüringer Klöße Basch",
+  "icon": "fork.knife",
+  "lat": 50.9793301,
+  "lon": 11.3297921,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "weimar_thuringian_dumpling_restaurant_basch_001",
+      "intent_en": "Do I order at the counter or table?",
+      "text_local": "Bestelle ich am Tisch oder an der Theke?",
+      "pronunciation": "vOH-buhshtEHluh-ihkh",
+      "formality": "standard",
+      "cultural_note": "In deutschen Restaurants wird oft direkt am Tisch bedient, aber kleinere Lokale nutzen den Tresen für Bestellungen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am besten bestellen Sie an der Theke.",
+        "pronunciation": "ahm-bEHstuhn-buhshtEHluhn-zee-ahn-dehr-tEHkuh",
+        "translation_en": "It's best to order at the counter."
+      },
+      "responses": [
+        {
+          "english": "It's best to order at the counter.",
+          "phonetic": "ahm-bEHstuhn-buhshtEHluhn-zee-ahn-dehr-tEHkuh",
+          "french": "Am besten bestellen Sie an der Theke."
+        }
+      ]
+    },
+    {
+      "id": "weimar_thuringian_dumpling_restaurant_basch_002",
+      "intent_en": "Do you have potato dumplings today?",
+      "text_local": "Haben Sie heute Thüringer Klöße?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-tUEring-klUHsuh",
+      "formality": "standard",
+      "cultural_note": "Thüringer Klöße sind ein traditionelles Gericht und meist täglich verfügbar, können aber saisonal variieren.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute auf der Karte.",
+        "pronunciation": "yAHhAWuhtuh-owf-dehr-kAHrtuh",
+        "translation_en": "Yes, today on the menu."
+      },
+      "responses": [
+        {
+          "english": "Yes, today on the menu.",
+          "phonetic": "yAHhAWuhtuh-owf-dehr-kAHrtuh",
+          "french": "Ja, heute auf der Karte."
+        }
+      ]
+    },
+    {
+      "id": "weimar_thuringian_dumpling_restaurant_basch_003",
+      "intent_en": "Is cash preferred or cards accepted?",
+      "text_local": "Zahlen Sie bar oder mit Karte?",
+      "pronunciation": "tsAHluhn-zee-bAHr-OHd-miht-kAHrtuh",
+      "formality": "standard",
+      "cultural_note": "In vielen traditionellen deutschen Restaurants wird Bargeld bevorzugt, auch wenn Karten oft akzeptiert werden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bar bevorzugt.",
+        "pronunciation": "bAHr-buhfOHrtsOOkt",
+        "translation_en": "Cash preferred."
+      },
+      "responses": [
+        {
+          "english": "Cash preferred.",
+          "phonetic": "bAHr-buhfOHrtsOOkt",
+          "french": "Bar bevorzugt."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

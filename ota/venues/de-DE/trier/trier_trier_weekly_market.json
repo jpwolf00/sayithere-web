@@ -1,0 +1,56 @@
+{
+  "id": "trier_trier_weekly_market",
+  "name_en": "Trier Weekly Market",
+  "name_local": "Wochenmarkt Trier",
+  "icon": "cart",
+  "lat": 49.7525935,
+  "lon": 6.6368818,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "trier_trier_weekly_market_001",
+      "intent_en": "Is the Moselle cheese vendor here today?",
+      "text_local": "Ist der Moselkäse-Händler heute da?",
+      "pronunciation": "ihst-dehr-mOHzuhlkEHzuhhEHndl-hAWuhtuh-dAH",
+      "formality": "standard",
+      "cultural_note": "German markets often have designated zones; 'Käseplatz' is a practical cue for cheese vendors near regional products.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Käseplatz.",
+        "pronunciation": "yAHahm-kEHzehplAHts",
+        "translation_en": "Yes, at the cheese section."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cheese section.",
+          "phonetic": "yAHahm-kEHzehplAHts",
+          "french": "Ja, am Käseplatz."
+        }
+      ]
+    },
+    {
+      "id": "trier_trier_weekly_market_002",
+      "intent_en": "Can I return Pfand bottles at drink stands?",
+      "text_local": "Kann ich Pfandflaschen zurückgeben?",
+      "pronunciation": "kAHn-ihkh-pfAHntflahshuhn-tsoorUEkEHbuhn",
+      "formality": "standard",
+      "cultural_note": "Pfand return is standard practice at German drink stands; staff expect direct questions without elaborate phrasing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an den Ständen.",
+        "pronunciation": "yAHahn-dehn-shtEHnduhn",
+        "translation_en": "Yes, at the stands."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the stands.",
+          "phonetic": "yAHahn-dehn-shtEHnduhn",
+          "french": "Ja, an den Ständen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

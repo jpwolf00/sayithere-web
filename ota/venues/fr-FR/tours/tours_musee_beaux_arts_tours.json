@@ -1,0 +1,110 @@
+{
+  "id": "tours_musee_beaux_arts",
+  "name_en": "Museum of Fine Arts of Tours",
+  "name_local": "Musée des Beaux-Arts de Tours",
+  "icon": "photo.artframe",
+  "phrases": [
+    {
+      "id": "tours_mba_001",
+      "intent_en": "Ask what the entry fee is",
+      "text_local": "Quel est le tarif d'entrée ?",
+      "pronunciation": "kel eh luh tah-REEF dahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The Musée des Beaux-Arts de Tours has a modest admission fee.",
+      "responses": [
+        {
+          "english": "It is indicated at the ticket desk.",
+          "phonetic": "say tahn-dee-KAY oh gee-SHAY",
+          "french": "C'est indiqué au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_mba_002",
+      "intent_en": "Ask if there is a special exhibition on",
+      "text_local": "Y a-t-il une exposition temporaire en ce moment ?",
+      "pronunciation": "ee ah-TEEL oon eks-poh-zee-SYON tahm-poh-RAIR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The Musée des Beaux-Arts occupies the former archbishop's palace and regularly hosts temporary exhibitions alongside its permanent collection.",
+      "responses": [
+        {
+          "english": "It is posted at reception.",
+          "phonetic": "say tah-fee-SHAY ah lah-KUY",
+          "french": "C'est affiché à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_mba_003",
+      "intent_en": "Ask where the museum garden is",
+      "text_local": "Où est le jardin du musée ?",
+      "pronunciation": "oo eh luh zhar-DAHN doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum gardens feature a famous Lebanese cedar.",
+      "responses": [
+        {
+          "english": "Through that door, at the back.",
+          "phonetic": "par SET PORT oh FOHN",
+          "french": "Par cette porte, au fond."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_mba_004",
+      "intent_en": "Ask what the entry fee is",
+      "text_local": "Quel est le tarif d'entrée pour le musée ?",
+      "pronunciation": "kel ay luh tah-REEF dahn-TRAY poor luh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum is free on the first Sunday of every month; reduced rates apply for students and EU citizens under 26.",
+      "responses": [
+        {
+          "english": "It is indicated at the ticket desk.",
+          "phonetic": "say tahn-dee-KAY oh gee-SHAY",
+          "french": "C'est indiqué au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_mba_005",
+      "intent_en": "Ask where the 18th-century French paintings are",
+      "text_local": "Où se trouve la section de peinture française du XVIIIe siècle ?",
+      "pronunciation": "oo suh TROOV lah sek-SYON duh pan-TOOR frahn-SEZ doo dees-HWEE-tyem SYEKL",
+      "formality": "polite",
+      "cultural_note": "The museum has a notable collection of 18th-century French painting and decorative arts, housed in the grand salons of the former episcopal palace.",
+      "responses": [
+        {
+          "english": "On the first floor, right wing.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH EL DRWAHT",
+          "french": "Au premier étage, aile droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "painting",
+      "word_local": "la peinture",
+      "pronunciation": "lah pan-TOOR"
+    },
+    {
+      "word_en": "temporary exhibition",
+      "word_local": "l'exposition temporaire",
+      "pronunciation": "leks-poh-zee-SYON tahm-poh-RAIR"
+    },
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "luh moo-ZAY"
+    }
+  ]
+}

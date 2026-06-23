@@ -1,0 +1,56 @@
+{
+  "id": "meteora_kalabaka_kalabaka_tourist_information_center",
+  "name_en": "Kalabaka Tourist Information Center",
+  "name_local": "Τουριστικό Γραφείο Πληροφοριών Καλαμπάκας",
+  "icon": "info.circle",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_kalabaka_tourist_information_center_001",
+      "intent_en": "Do you have Kastraki village map?",
+      "text_local": "Έχετε χάρτη για το Καστράκι;",
+      "pronunciation": "EHkhehtEH-khAHrtee-yAH-toh-kahstrAHee",
+      "formality": "standard",
+      "cultural_note": "Οι χάρτες χωριών συχνά διατίθενται μόνο μέσω προσωπικού πληροφοριών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο τραπέζι δεξιά.",
+        "pronunciation": "nEHstoh-trahpEHzee-thEHkseeAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEHstoh-trahpEHzee-thEHkseeAH",
+          "french": "Ναι, στο τραπέζι δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_kalabaka_tourist_information_center_002",
+      "intent_en": "Where is the Great Meteoron from here?",
+      "text_local": "Πού βρίσκεται η Μεγάλη Μετέωρο;",
+      "pronunciation": "pOO-EEneh-ee-mehghAHlee-mehtEHohr-ahpOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνηθίζουν να ακολουθούν οδικές πινακίδες. Οι μονές είναι διάσπαρτες στους βράχους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι εννέα χιλιόμετρα βόρεια.",
+        "pronunciation": "EEneh-ehnEHah-kheelyOHmehtrAH-vOHrkhah",
+        "translation_en": "It is nine kilometers north."
+      },
+      "responses": [
+        {
+          "english": "It is nine kilometers north.",
+          "phonetic": "EEneh-ehnEHah-kheelyOHmehtrAH-vOHrkhah",
+          "french": "Είναι εννέα χιλιόμετρα βόρεια."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

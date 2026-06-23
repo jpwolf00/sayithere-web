@@ -1,0 +1,78 @@
+{
+  "id": "český_krumlov_papas_living_restaurant",
+  "name_en": "Papa's Living Restaurant",
+  "name_local": "Papa's Living Restaurant",
+  "icon": "fork.knife",
+  "lat": 48.8117416,
+  "lon": 14.3168162,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "český_krumlov_papas_living_restaurant_001",
+      "intent_en": "Is tip included in bill?",
+      "text_local": "Je v účtu zahrnuto spropitné?",
+      "pronunciation": "yeh-v-OOtshtoo-zAHhrnOOtoh-sprOHpeetneh",
+      "formality": "standard",
+      "cultural_note": "Tipping around 10% is customary but not automatically added to the bill in the Czech Republic.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, spropitné není zahrnuto.",
+        "pronunciation": "nEHsprOHpeetneh-nEHnyee-zAHhrnOOtoh",
+        "translation_en": "No, tip is not included."
+      },
+      "responses": [
+        {
+          "english": "No, tip is not included.",
+          "phonetic": "nEHsprOHpeetneh-nEHnyee-zAHhrnOOtoh",
+          "french": "Ne, spropitné není zahrnuto."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_papas_living_restaurant_002",
+      "intent_en": "Do I pay at table or bar?",
+      "text_local": "Platí se u stolu, nebo u baru?",
+      "pronunciation": "plAHee-seh-OO-stOHloonEHboh-OO-bAHroo",
+      "formality": "standard",
+      "cultural_note": "In Czech restaurants, the waiter typically brings the bill to the table unless you are at a bar counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U stolu, účet přinesu já.",
+        "pronunciation": "OO-stOHlooOOtsheht-prEEnehsoo-yAH",
+        "translation_en": "At the table, I will bring the bill."
+      },
+      "responses": [
+        {
+          "english": "At the table, I will bring the bill.",
+          "phonetic": "OO-stOHlooOOtsheht-prEEnehsoo-yAH",
+          "french": "U stolu, účet přinesu já."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_papas_living_restaurant_003",
+      "intent_en": "Is terrace table reserved?",
+      "text_local": "Je terasa rezervovaná?",
+      "pronunciation": "yeh-tEHrahsah-rEHzehrvOHvahnah",
+      "formality": "standard",
+      "cultural_note": "Terrace tables here are typically booked in advance under a surname.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, rezervace je na jméno.",
+        "pronunciation": "AHnohrEHzehrvAHtseh-yeh-nAHymehnoh",
+        "translation_en": "Yes, the reservation is under a name."
+      },
+      "responses": [
+        {
+          "english": "Yes, the reservation is under a name.",
+          "phonetic": "AHnohrEHzehrvAHtseh-yeh-nAHymehnoh",
+          "french": "Ano, rezervace je na jméno."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

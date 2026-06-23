@@ -1,0 +1,122 @@
+{
+  "id": "corfu_tourist_information_office_corfu_town",
+  "name_en": "Tourist Information Office Corfu Town",
+  "name_local": "Γραφείο Τουριστικών Πληροφοριών",
+  "icon": "info.circle",
+  "lat": 39.591337,
+  "lon": 19.8596189,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "corfu_tourist_information_office_corfu_town_001",
+      "intent_en": "Do you have free Corfu Town maps?",
+      "text_local": "Έχετε δωρεάν χάρτες της πόλης;",
+      "pronunciation": "EHkhehtEH-thOHrehAHn-khAHrtehs-tees-pOHlees",
+      "formality": "standard",
+      "cultural_note": "Απαγορεύεται η χρήση γενικών γνώσεων για τοποθεσίες εκτός του συγκεκριμένου χώρου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "corfu_tourist_information_office_corfu_town_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Χρειάζεται προκαταβολή για κρατήσεις εκδρομών;",
+      "pronunciation": "khrkhAHzehtEH-prOHkahtAHvohlEE-yAH-krahtEEsees-EHkthrohmOHn",
+      "formality": "standard",
+      "cultural_note": "Οι περιορισμένες πληροφορίες για υπηρεσίες κρατήσεων οδηγούν σε ασφαλή ερώτηση προς το προσωπικό.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, συνήθως χρειάζεται προκαταβολή.",
+        "pronunciation": "nEHseenEEthohs-khrkhAHzehtEH-prOHkahtAHvohlEE",
+        "translation_en": "Yes, usually a deposit is required."
+      },
+      "responses": [
+        {
+          "english": "Yes, usually a deposit is required.",
+          "phonetic": "nEHseenEEthohs-khrkhAHzehtEH-prOHkahtAHvohlEE",
+          "french": "Ναι, συνήθως χρειάζεται προκαταβολή."
+        }
+      ]
+    },
+    {
+      "id": "corfu_tourist_information_office_corfu_town_003",
+      "intent_en": "Can you print ferry schedules for me?",
+      "text_local": "Μπορείτε να τυπώσετε δρομολόγια πλοίων;",
+      "pronunciation": "bohrOH-nah-teepOHsoh-thrOHmohlOHyah-plEEohn",
+      "formality": "polite",
+      "cultural_note": "Απουσία συγκεκριμένων πληροφοριών για τύπωση οδηγεί σε ασφαλή ερώτηση προς το προσωπικό.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, οι υπάλληλοι μπορούν να τα τυπώσουν εδώ.",
+        "pronunciation": "nEHee-eepAHleelEE-bohrOOn-nah-tah-teepOHsoon-ehthOH",
+        "translation_en": "Yes, the clerks can print them here."
+      },
+      "responses": [
+        {
+          "english": "Yes, the clerks can print them here.",
+          "phonetic": "nEHee-eepAHleelEE-bohrOOn-nah-tah-teepOHsoon-ehthOH",
+          "french": "Ναι, οι υπάλληλοι μπορούν να τα τυπώσουν εδώ."
+        }
+      ]
+    },
+    {
+      "id": "corfu_tourist_information_office_corfu_town_004",
+      "intent_en": "Do I take a number when busy?",
+      "text_local": "Παίρνω νούμερο όταν είναι πολυάσχολο;",
+      "pronunciation": "pEHrnoh-nOOmehrOH-OHtahn-EEneh-pohlyAHskhohlOH",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνηθίζουν να παίρνουν νούμερο για σειρά στις πολυσύχναστες ώρες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Να πάρετε νούμερο.",
+        "pronunciation": "nah-pAHrehtEH-nOOmehrOH",
+        "translation_en": "Take a number."
+      },
+      "responses": [
+        {
+          "english": "Take a number.",
+          "phonetic": "nah-pAHrehtEH-nOOmehrOH",
+          "french": "Να πάρετε νούμερο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_tourist_information_office_corfu_town_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να αγοράσω εισιτήρια λεωφορείου για Παλαιοκαστρίτσα εδώ;",
+      "pronunciation": "pohlOOdeh-EEseetEEreeAH-yAH-pAHlehOHkahstrEEtsah-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Οι πληροφορίες για πώληση εισιτηρίων είναι ελλιπείς χωρίς επιβεβαίωση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, μόνο πληροφορίες μπορώ να σας δώσω.",
+        "pronunciation": "OHkheemOHnoh-plEErohfohrEEehz-bohrOH-nah-sahz-thOHsoh",
+        "translation_en": "No, I can only give you information."
+      },
+      "responses": [
+        {
+          "english": "No, I can only give you information.",
+          "phonetic": "OHkheemOHnoh-plEErohfohrEEehz-bohrOH-nah-sahz-thOHsoh",
+          "french": "Όχι, μόνο πληροφορίες μπορώ να σας δώσω."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

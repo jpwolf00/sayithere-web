@@ -1,0 +1,100 @@
+{
+  "id": "berlin_markthalle_neun",
+  "name_en": "Markthalle Neun",
+  "name_local": "Markthalle Neun",
+  "icon": "cart",
+  "lat": 52.5021661,
+  "lon": 13.4314886,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "berlin_markthalle_neun_001",
+      "intent_en": "How do mug deposits work here?",
+      "text_local": "Wie funktioniert das Pfand für Becher?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-dahs-pfAHnt-fuer-bEHkh",
+      "formality": "standard",
+      "cultural_note": "Deposits are collected when purchasing a drink and refunded upon returning the glass/mug to the same stall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pfand am Stand abgeben.",
+        "pronunciation": "pfAHnt-ahm-shtAHnt-AHpEHbuhn",
+        "translation_en": "Return deposit at the stall."
+      },
+      "responses": [
+        {
+          "english": "Return deposit at the stall.",
+          "phonetic": "pfAHnt-ahm-shtAHnt-AHpEHbuhn",
+          "french": "Pfand am Stand abgeben."
+        }
+      ]
+    },
+    {
+      "id": "berlin_markthalle_neun_002",
+      "intent_en": "Which stalls are cash only?",
+      "text_local": "Welche Stände verlangen Bargeld?",
+      "pronunciation": "vOH-zihnt-dee-shtEHnduh-miht-bAHrtsahlUHng",
+      "formality": "standard",
+      "cultural_note": "Cash-only signs are typically displayed at the stall entrance or counter; vendors do not verbally confirm unless asked directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die meisten, aber nicht alle.",
+        "pronunciation": "dee-mEYEstuhnAHb-nIHkht-AHluh",
+        "translation_en": "Most of them, but not all."
+      },
+      "responses": [
+        {
+          "english": "Most of them, but not all.",
+          "phonetic": "dee-mEYEstuhnAHb-nIHkht-AHluh",
+          "french": "Die meisten, aber nicht alle."
+        }
+      ]
+    },
+    {
+      "id": "berlin_markthalle_neun_003",
+      "intent_en": "Is there a card minimum at vendors?",
+      "text_local": "Gibt es einen Kartenzahlungs-Mindestbetrag?",
+      "pronunciation": "EEpt-ehs-EYEnuhn-kAHrtuhntsAHluhngsmIHndehstbEHtrahk",
+      "formality": "standard",
+      "cultural_note": "Card minimums are set individually by vendors; no venue-wide policy applies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Steht am jeweiligen Stand.",
+        "pronunciation": "shtEHt-ahm-yEHveyelIHuhn-shtAHnt",
+        "translation_en": "Varies by stall."
+      },
+      "responses": [
+        {
+          "english": "Varies by stall.",
+          "phonetic": "shtEHt-ahm-yEHveyelIHuhn-shtAHnt",
+          "french": "Steht am jeweiligen Stand."
+        }
+      ]
+    },
+    {
+      "id": "berlin_markthalle_neun_004",
+      "intent_en": "Where is Street Food Thursday?",
+      "text_local": "Wo findet Street Food Thursday statt?",
+      "pronunciation": "vOH-fIHnduht-ehnstrEEtdeh-fOHt-tUHuhsdehih-shtAHt",
+      "formality": "standard",
+      "cultural_note": "Street Food Thursday is a weekly event held in the main hall; signs are posted at entrances and along the pathway.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In der Eisenbahnhalle.",
+        "pronunciation": "ihn-dehr-EYEzuhnbAHnhahluh",
+        "translation_en": "In the railway hall."
+      },
+      "responses": [
+        {
+          "english": "In the railway hall.",
+          "phonetic": "ihn-dehr-EYEzuhnbAHnhahluh",
+          "french": "In der Eisenbahnhalle."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

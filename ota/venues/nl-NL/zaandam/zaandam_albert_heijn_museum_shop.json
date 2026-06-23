@@ -1,0 +1,34 @@
+{
+  "id": "zaandam_albert_heijn_museum_shop",
+  "name_en": "Albert Heijn Museum Shop",
+  "name_local": "Museumwinkel Albert Heijn",
+  "icon": "building.columns",
+  "lat": 52.4719661,
+  "lon": 4.8154645,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zaandam_albert_heijn_museum_shop_001",
+      "intent_en": "Can I buy Albert Heijn branded souvenirs?",
+      "text_local": "Kan ik Albert Heijn-souvenirs kopen?",
+      "pronunciation": "kahn-ihk-AHlbehrt-hEHihynsUHuhvuhnIHrs-kOHpuhn",
+      "formality": "standard",
+      "cultural_note": "Souvenirs are typically sold at the main shop counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aan de balie.",
+        "pronunciation": "yAHahn-duh-bahlEE",
+        "translation_en": "Yes, at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the desk.",
+          "phonetic": "yAHahn-duh-bahlEE",
+          "french": "Ja, aan de balie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

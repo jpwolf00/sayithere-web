@@ -1,0 +1,122 @@
+{
+  "id": "lucerne_lucerne_train_station",
+  "name_en": "Lucerne train station",
+  "name_local": "Bahnhof Luzern",
+  "icon": "tram",
+  "lat": 47.0502364,
+  "lon": 8.3102966,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lucerne_lucerne_train_station_001",
+      "intent_en": "SBB app ticket validation needed",
+      "text_local": "Muss ich mein Ticket im SBB-App validieren?",
+      "pronunciation": "mUHs-ihkh-meyen-tIHkuht-ihm-EHsbEHbEHAHp-vAHleedEEruhn",
+      "formality": "standard",
+      "cultural_note": "Validation is mandatory for mobile tickets in Switzerland; staff will expect familiarity with this requirement.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor Fahrtbeginn.",
+        "pronunciation": "yAHfAWr-fAHrtbehIHn",
+        "translation_en": "Yes, before departure."
+      },
+      "responses": [
+        {
+          "english": "Yes, before departure.",
+          "phonetic": "yAHfAWr-fAHrtbehIHn",
+          "french": "Ja, vor Fahrtbeginn."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_train_station_002",
+      "intent_en": "SBB Lounge access rules",
+      "text_local": "Darf ich die SBB-Lounge benutzen?",
+      "pronunciation": "dAHrf-ihkh-dee-EHsbEHbEHlOOnguh-buhnUHtsuhn",
+      "formality": "standard",
+      "cultural_note": "Lounge access is strictly tied to ticket class in Switzerland; staff will not elaborate on exceptions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur mit 1.Klasse-Ticket.",
+        "pronunciation": "nOOr-miht-EYEns-puhngkt-klAHsuhtIHkuht",
+        "translation_en": "Only with 1st class ticket."
+      },
+      "responses": [
+        {
+          "english": "Only with 1st class ticket.",
+          "phonetic": "nOOr-miht-EYEns-puhngkt-klAHsuhtIHkuht",
+          "french": "Nur mit 1.Klasse-Ticket."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_train_station_003",
+      "intent_en": "Gleis 7 for Interlaken platform",
+      "text_local": "Wo ist Gleis 7 für den Zug nach Interlaken?",
+      "pronunciation": "vOH-EHt-ehs-tsoo-lEYEs-zEEbuhn",
+      "formality": "standard",
+      "cultural_note": "In Swiss German stations, signage is clear and directional cues are often minimalist. Staff may point vaguely rather than give precise directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie die Treppe hinunter, dann links.",
+        "pronunciation": "gEHuhn-zee-dee-trEHpuh-hihnUHntdahn-lINGks",
+        "translation_en": "Go down the stairs, then left."
+      },
+      "responses": [
+        {
+          "english": "Go down the stairs, then left.",
+          "phonetic": "gEHuhn-zee-dee-trEHpuh-hihnUHntdahn-lINGks",
+          "french": "Gehen Sie die Treppe hinunter, dann links."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_train_station_004",
+      "intent_en": "Luggage storage payment location",
+      "text_local": "Wo bezahle ich für das Gepäckfach?",
+      "pronunciation": "vOH-tsAHluh-ihkh-fuer-dahs-shlEEsfahkh",
+      "formality": "standard",
+      "cultural_note": "Swiss stations often centralize luggage services at a single counter; micro-directions are unreliable.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Beim Reisezentrum.",
+        "pronunciation": "beyem-rEYEzehtsEHntruhm",
+        "translation_en": "At the travel center."
+      },
+      "responses": [
+        {
+          "english": "At the travel center.",
+          "phonetic": "beyem-rEYEzehtsEHntruhm",
+          "french": "Beim Reisezentrum."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_train_station_005",
+      "intent_en": "Reisezentrum wait time now",
+      "text_local": "Wie lange ist die Wartezeit am Reisezentrum?",
+      "pronunciation": "vee-lAHnguh-ihst-dee-vAHrtehtsEYEt-ahm-rEYEzehtsEHntruhm",
+      "formality": "standard",
+      "cultural_note": "Swiss service counters provide real-time queue estimates; travelers expect concise numeric answers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "5 Minuten.",
+        "pronunciation": "fUEnf-meenOOtuhn",
+        "translation_en": "5 minutes."
+      },
+      "responses": [
+        {
+          "english": "5 minutes.",
+          "phonetic": "fUEnf-meenOOtuhn",
+          "french": "5 Minuten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

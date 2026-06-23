@@ -1,0 +1,118 @@
+{
+  "id": "saint_malo_grand_be",
+  "name_en": "Grand Bé",
+  "name_local": "Grand Bé",
+  "icon": "building.2",
+  "lat": 48.657,
+  "lon": -2.004,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "saintmalo_grandbe_001",
+      "intent_en": "Ask how to reach Grand Bé island",
+      "text_local": "Comment accéder à l'île du Grand Bé ?",
+      "pronunciation": "koh-MAHN ak-say-DAY ah leel doo grahn BAY",
+      "formality": "polite",
+      "cultural_note": "Grand Bé is a tidal island. Walk from the Digue de la Virginié (the causeway near the Bonnets Rouges lighthouse) at low tide. The walk takes about 20 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At low tide, on foot from the ramparts. About twenty minutes.",
+          "phonetic": "wee byan soor, see say dee-spoh-nee-BL",
+          "french": "À marée basse, à pied depuis les remparts. Comptez vingt minutes."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_grandbe_002",
+      "intent_en": "Ask how much time you need for the visit",
+      "text_local": "Combien de temps faut-il pour visiter l'île ?",
+      "pronunciation": "kom-BYAN duh tahn foh-TEEL poor vee-zee-TAY LEEL",
+      "formality": "polite",
+      "cultural_note": "Grand Bé is a small tidal island. A full visit takes about 30-45 minutes including the walk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Allow about an hour round trip, including the visit.",
+          "phonetic": "kohn-TAY oon UHR ah-LAY ruh-TOOR, ah-VEK lah vee-ZEET",
+          "french": "Comptez une heure aller-retour, avec la visite."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_grandbe_003",
+      "intent_en": "Ask about the view from Grand Bé",
+      "text_local": "Quelle est la vue depuis le Grand Bé ?",
+      "pronunciation": "kel eh lah VYOO duh-PWEE luh grahn BAY",
+      "formality": "polite",
+      "cultural_note": "Grand Bé offers 360-degree views: the Saint-Malo walls, the Channel Islands (Jersey on clear days), and the entire bay.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Panoramic view of the ramparts and the bay.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "Vue panoramique sur les remparts et la baie."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_grandbe_004",
+      "intent_en": "Ask about the tide times",
+      "text_local": "À quelle heure est la basse mer aujourd'hui ?",
+      "pronunciation": "ah kel UHR eh lah bas MAIR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Check tide times carefully. You need at least 3 hours of low tide to visit Grand Bé comfortably. The tourist office posts daily times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Check at the tourist office or on the sign near the beach.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "Vérifiez à l'office de tourisme ou sur le panneau près de la plage."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_grandbe_005",
+      "intent_en": "Ask if there's a café on the island",
+      "text_local": "Y a-t-il un café sur l'île ?",
+      "pronunciation": "ee ah-TEEL un kah-FAY soor LEEL",
+      "formality": "polite",
+      "cultural_note": "There are no cafés on Grand Bé — bring water and snacks. The nearby Digue de la Virginié has a small café at the parking area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, there's nothing on the island. Bring water.",
+          "phonetic": "wee, eel ee ahn plu-ZYUR dahn luh kar-TYAY",
+          "french": "Non, il n'y a rien sur l'île. Apportez de l'eau."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "tomb",
+      "word_local": "la tombe",
+      "pronunciation": "lah TOM"
+    },
+    {
+      "word_en": "tidal island",
+      "word_local": "l'île",
+      "pronunciation": "LEEL"
+    },
+    {
+      "word_en": "writer",
+      "word_local": "l'écrivain",
+      "pronunciation": "lay-kree-VAN"
+    },
+    {
+      "word_en": "viewpoint",
+      "word_local": "le point de vue",
+      "pronunciation": "leh pwan duh VYOO"
+    }
+  ]
+}

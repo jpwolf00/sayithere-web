@@ -1,0 +1,100 @@
+{
+  "id": "chania_tamam_restaurant",
+  "name_en": "Tamam Restaurant",
+  "name_local": "Ταμάμ",
+  "icon": "fork.knife",
+  "lat": 35.5165224,
+  "lon": 24.0163034,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "chania_tamam_restaurant_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε χαλβά σήμερα;",
+      "pronunciation": "eepAHrkhee-khahlvAHs-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Halvas is a traditional Greek dessert, but availability depends on daily preparation; staff know best.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχουμε χαλβά σήμερα.",
+        "pronunciation": "nEHEHkhoomEH-khahlvAH-sEEmehrAH",
+        "translation_en": "Yes, we have halvas today."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have halvas today.",
+          "phonetic": "nEHEHkhoomEH-khahlvAH-sEEmehrAH",
+          "french": "Ναι, έχουμε χαλβά σήμερα."
+        }
+      ]
+    },
+    {
+      "id": "chania_tamam_restaurant_002",
+      "intent_en": "Can we share the meze plates?",
+      "text_local": "Μπορούμε να μοιραστούμε τις μεζέ πιάτες;",
+      "pronunciation": "bohrOOmeh-nah-mEErahstOOmeh-teez-mehzEH-pkhAHtehs",
+      "formality": "standard",
+      "cultural_note": "Sharing meze is culturally expected in Greek dining; staff will typically encourage it as part of the communal experience.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, μοιραστείτε όποτε θέλετε.",
+        "pronunciation": "nEHmEErahstEEteh-OHpohtEH-thEHlehtEH",
+        "translation_en": "Yes, share whenever you like."
+      },
+      "responses": [
+        {
+          "english": "Yes, share whenever you like.",
+          "phonetic": "nEHmEErahstEEteh-OHpohtEH-thEHlehtEH",
+          "french": "Ναι, μοιραστείτε όποτε θέλετε."
+        }
+      ]
+    },
+    {
+      "id": "chania_tamam_restaurant_003",
+      "intent_en": "Do I pay at the counter?",
+      "text_local": "Πληρώνω στο ταμείο;",
+      "pronunciation": "pleerOHnoh-stoh-tahmEEoh",
+      "formality": "standard",
+      "cultural_note": "Paying at the counter after dining is common in local tavernas, especially when no table service is available.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, πληρώστε στον υπάλληλο.",
+        "pronunciation": "nEHpleerOHsteh-stohn-eepAHleelOH",
+        "translation_en": "Yes, pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, pay at the counter.",
+          "phonetic": "nEHpleerOHsteh-stohn-eepAHleelOH",
+          "french": "Ναι, πληρώστε στον υπάλληλο."
+        }
+      ]
+    },
+    {
+      "id": "chania_tamam_restaurant_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πρέπει να περιμένω για τραπέζι στην αυλή;",
+      "pronunciation": "prEHpee-nah-pEHreemEHnoh-yAH-trahpEHzee-steen-ahvlEE",
+      "formality": "standard",
+      "cultural_note": "Outdoor seating availability varies; staff decide based on crowd and table turnover.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, περιμένετε λίγο στην είσοδο.",
+        "pronunciation": "nEHpEHreemEHnehtEH-lEEghoh-steen-EEsohthOH",
+        "translation_en": "Yes, please wait a moment at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, please wait a moment at the entrance.",
+          "phonetic": "nEHpEHreemEHnehtEH-lEEghoh-steen-EEsohthOH",
+          "french": "Ναι, περιμένετε λίγο στην είσοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

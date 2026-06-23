@@ -1,0 +1,110 @@
+{
+  "id": "tours_chateau",
+  "name_en": "Château de Tours",
+  "name_local": "Château de Tours",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "tours_chateau_001",
+      "intent_en": "Ask what is inside the château today",
+      "text_local": "Qu'est-ce qu'on peut voir à l'intérieur du château aujourd'hui ?",
+      "pronunciation": "kes-KON puh vwar ah lan-tay-RYUR doo shah-TOH oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The Château de Tours houses the Histopad experience, a digital interactive journey through the history of the Loire Valley châteaux using augmented reality.",
+      "responses": [
+        {
+          "english": "There are contemporary art exhibitions.",
+          "phonetic": "eel ee ah day zex-poh-zee-SYOHN dar kohn-tahm-poh-RAHN",
+          "french": "Il y a des expositions d'art contemporain."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_chateau_002",
+      "intent_en": "Ask what exhibitions are on now",
+      "text_local": "Quelles sont les expositions en cours ?",
+      "pronunciation": "kel sohn lay zex-poh-zee-SYOHN ahn KOOR",
+      "formality": "polite",
+      "cultural_note": "The Château de Tours now houses contemporary art exhibitions and photography shows.",
+      "responses": [
+        {
+          "english": "It is posted at the entrance.",
+          "phonetic": "say tah-fee-SHAY ah lahn-TRAY",
+          "french": "C'est affiché à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_chateau_003",
+      "intent_en": "Ask for directions to the château from the train station",
+      "text_local": "Pouvez-vous m'indiquer le chemin vers le château depuis la gare ?",
+      "pronunciation": "poo-VAY-voo man-dee-KAY luh shuh-MAN vair luh shah-TOH duh-PWEE lah GAR",
+      "formality": "polite",
+      "cultural_note": "The Château de Tours is about a 15-minute walk from Tours train station along the Loire riverbank, passing through the historic centre.",
+      "responses": [
+        {
+          "english": "Straight from the station, about ten minutes.",
+          "phonetic": "too DRWAH duh-PWEE lah GAR ahn-vee-ROHN DEE mee-NOOT",
+          "french": "Tout droit depuis la gare, environ dix minutes."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_chateau_004",
+      "intent_en": "Ask if entry is free",
+      "text_local": "L'entrée est gratuite ?",
+      "pronunciation": "lahn-TRAY eh grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The Château de Tours often has free exhibitions.",
+      "responses": [
+        {
+          "english": "Yes, it is free.",
+          "phonetic": "wee say grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_chateau_005",
+      "intent_en": "Ask about the view over the Loire from the château",
+      "text_local": "Peut-on voir la Loire depuis les remparts du château ?",
+      "pronunciation": "puh-TON vwar lah LWAR duh-PWEE lay rahm-PAR doo shah-TOH",
+      "formality": "polite",
+      "cultural_note": "The château sits directly on the Loire riverbank; its terrace and gardens offer views along the river, especially picturesque at sunset.",
+      "responses": [
+        {
+          "english": "From the terrace, the view is nice.",
+          "phonetic": "duh-PWEE lah tay-RASS lah VOO eh BEL",
+          "french": "Depuis la terrasse, la vue est belle."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "ramparts",
+      "word_local": "les remparts",
+      "pronunciation": "lay rahm-PAR"
+    },
+    {
+      "word_en": "banquet",
+      "word_local": "le banquet",
+      "pronunciation": "luh bahn-KAY"
+    },
+    {
+      "word_en": "augmented reality",
+      "word_local": "la réalité augmentée",
+      "pronunciation": "lah ray-ah-lee-TAY ohg-mahn-TAY"
+    }
+  ]
+}

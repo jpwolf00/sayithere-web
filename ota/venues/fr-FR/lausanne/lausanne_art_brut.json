@@ -1,0 +1,98 @@
+{
+  "id": "lausanne_art_brut",
+  "name_en": "Collection de l'Art Brut",
+  "name_local": "Collection de l'Art Brut",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "lausanne_ab_001",
+      "intent_en": "Ask about the opening hours",
+      "text_local": "Quelles sont les heures d'ouverture ?",
+      "pronunciation": "kel son lay zuhr doo-vair-TOOR",
+      "formality": "polite",
+      "cultural_note": "The Collection de l'Art Brut is open Tuesday to Sunday. Check for seasonal variations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "11am to 6pm, closed Mondays.",
+          "phonetic": "duh onz uhr ah dee-zweet uhr, fair-MAY luh luhn-DEE",
+          "french": "De onze heures à dix-huit heures, fermé le lundi."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ab_002",
+      "intent_en": "Ask about the ticket price",
+      "text_local": "Combien coûte l'entrée ?",
+      "pronunciation": "kom-BYAN koot lahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The museum has a standard entry fee with discounts for students and seniors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Twelve francs full price, six francs reduced.",
+          "phonetic": "dooz FRAHN plan tah-REEF, see FRAHN ahn ray-DWEE",
+          "french": "Douze francs plein tarif, six francs en réduit."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ab_003",
+      "intent_en": "Ask how to get there by bus",
+      "text_local": "Comment y aller en bus ?",
+      "pronunciation": "koh-MON ee ah-LAY ahn BOOS",
+      "formality": "polite",
+      "cultural_note": "The museum is accessible by bus from the city center. Bus stop information is available at the tourist office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take bus 2 or 21, stop Beaulieu.",
+          "phonetic": "pruh-NAY luh boos DUH oo VANT-ay-UHN, ah-REH boh-LYUH",
+          "french": "Prenez le bus 2 ou 21, arrêt Beaulieu."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ab_004",
+      "intent_en": "Ask about the gallery location",
+      "text_local": "Où se trouve la galerie ?",
+      "pronunciation": "oo seh TROOV lah gah-LEE-ree",
+      "formality": "polite",
+      "cultural_note": "The collection is in a converted villa near the cathedral in Lausanne's old town. Allow 1-2 hours for a thorough visit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the Château de Beaulieu, Avenue des Bergières.",
+          "phonetic": "dahn luh shah-TOH duh boh-LYUH, ah-vuh-NOO day behr-ZHYEHR",
+          "french": "Dans le Château de Beaulieu, avenue des Bergières."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "outsider art",
+      "word_local": "l'Art Brut",
+      "pronunciation": "lar broo"
+    },
+    {
+      "word_en": "collection",
+      "word_local": "la collection",
+      "pronunciation": "lah koh-lek-SYOHN"
+    },
+    {
+      "word_en": "artist",
+      "word_local": "l'artiste",
+      "pronunciation": "lar-TEEST"
+    },
+    {
+      "word_en": "psychiatric hospital",
+      "word_local": "l'hôpital psychiatrique",
+      "pronunciation": "loh-pee-tahl see-kee-ah-TREEK"
+    }
+  ]
+}

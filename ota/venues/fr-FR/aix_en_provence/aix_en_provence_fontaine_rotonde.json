@@ -1,0 +1,115 @@
+{
+  "id": "aix_fontaine_rotonde",
+  "name_en": "Fontaine de la Rotonde",
+  "name_local": "Fontaine de la Rotonde",
+  "icon": "drop.fill",
+  "phrases": [
+    {
+      "id": "aix_rotonde_001",
+      "intent_en": "Ask how to reach the fountain safely on foot",
+      "text_local": "Comment rejoindre la fontaine à pied ?",
+      "pronunciation": "koh-MAHN ruh-ZHWEHN-druh lah fon-TEN ah PYAY",
+      "formality": "polite",
+      "cultural_note": "The Fontaine de la Rotonde sits in the middle of a busy roundabout. Use the marked crossings or underground passages to reach it.",
+      "responses": [
+        {
+          "english": "There's a pedestrian crossing right there.",
+          "phonetic": "eel ee ah uhn pah-SAHZH pyay-TOHN zhoost LAH",
+          "french": "Il y a un passage piéton juste là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_rotonde_002",
+      "intent_en": "Ask to take a photo with the fountain as backdrop",
+      "text_local": "Pourriez-vous prendre une photo de moi avec la fontaine ?",
+      "pronunciation": "poo-RYAY voo PRAHN-druh oon foh-TOH duh mwah ah-VEK lah fon-TEN",
+      "formality": "polite",
+      "cultural_note": "The Fontaine de la Rotonde is the symbolic gateway to the Cours Mirabeau and one of the most photographed landmarks in Aix. Early morning light hits it beautifully before the tour buses arrive.",
+      "responses": [
+        {
+          "english": "Yes, of course. Ready?",
+          "phonetic": "wee, byehn SOOR. PREH",
+          "french": "Oui, bien sûr. Prêt ?"
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_rotonde_003",
+      "intent_en": "Ask for directions to the old town from the fountain",
+      "text_local": "Comment rejoindre le Vieil Aix depuis la fontaine ?",
+      "pronunciation": "koh-MAHN ruh-ZHWEHN-druh luh VYEHY EKS duh-PWEE lah fon-TEN",
+      "formality": "standard",
+      "cultural_note": "From the Rotonde, the old town (Vieil Aix) is just north along the Cours Mirabeau. Turn left into any of the narrow lanes off the north side of the Cours to enter the medieval street network.",
+      "responses": [
+        {
+          "english": "It's marked on the map.",
+          "phonetic": "seh ehn-dee-KAY soor luh PLAHN",
+          "french": "C'est indiqué sur le plan."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_rotonde_004",
+      "intent_en": "Ask about the roundabout and traffic",
+      "text_local": "C'est difficile de traverser le rond-point pour s'approcher de la fontaine ?",
+      "pronunciation": "seh dee-fee-SEEL duh truh-ver-SAY luh rohn-PWAHN poor sah-proh-SHAY duh lah fon-TEN",
+      "formality": "standard",
+      "cultural_note": "The Fontaine de la Rotonde sits in the middle of a busy roundabout. Pedestrians can reach the fountain via underground passages. Do not attempt to cross the traffic lanes — use the marked crossings at the edges.",
+      "responses": [
+        {
+          "english": "Use the underground passage.",
+          "phonetic": "oo-tee-lee-ZAY luh pah-SAHZH soo-teh-REHN",
+          "french": "Utilisez le passage souterrain."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_rotonde_005",
+      "intent_en": "Ask where the nearest café terrace is",
+      "text_local": "Où est la terrasse de café la plus proche ?",
+      "pronunciation": "oo eh lah teh-RAHS duh kah-FAY lah ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "The Cours Mirabeau begins just beyond the fountain and is lined with iconic café terraces under the plane trees.",
+      "responses": [
+        {
+          "english": "On the Cours Mirabeau, just over there.",
+          "phonetic": "soor luh KOOR mee-rah-BOH, zhoost lah-BAH",
+          "french": "Sur le Cours Mirabeau, juste là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Fountain",
+      "word_local": "La fontaine",
+      "pronunciation": "lah fon-TEN"
+    },
+    {
+      "word_en": "Statue",
+      "word_local": "La statue",
+      "pronunciation": "lah stah-TOO"
+    },
+    {
+      "word_en": "Roundabout",
+      "word_local": "Le rond-point",
+      "pronunciation": "luh rohn-PWAHN"
+    },
+    {
+      "word_en": "Old town",
+      "word_local": "Le vieil Aix",
+      "pronunciation": "luh VYEHY EKS"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "cappadocia_topdeck_cave_restaurant",
+  "name_en": "Topdeck Cave Restaurant",
+  "name_local": "Topdeck Cave Restaurant",
+  "icon": "fork.knife",
+  "lat": 38.6386124,
+  "lon": 34.8455184,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "cappadocia_topdeck_cave_restaurant_001",
+      "intent_en": "Is the cave dining room open now?",
+      "text_local": "Mağara yemek salonu şu an açık mı?",
+      "pronunciation": "mahrAH-yehmEHk-sahohnUH-shuh-AHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Seating availability in cave restaurants can change by season and reservation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Açık, buyurun.",
+        "pronunciation": "ahtshOOkbooyoorUHn",
+        "translation_en": "It is open, please come in."
+      },
+      "responses": [
+        {
+          "english": "It is open, please come in.",
+          "phonetic": "ahtshOOkbooyoorUHn",
+          "french": "Açık, buyurun."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_topdeck_cave_restaurant_002",
+      "intent_en": "Should I remove shoes for cushion seating?",
+      "text_local": "Minderli oturma için ayakkabı çıkarmalı mıyım?",
+      "pronunciation": "mihndehrlIH-ohtUHrmah-eetshIHn-ahyahkahbOO-tshookAHrmahoo-mOOyoom",
+      "formality": "standard",
+      "cultural_note": "Shoe removal etiquette on traditional Turkish seating varies by establishment.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, minderli alanda ayakkabılar çıkarılır.",
+        "pronunciation": "ehvEHtmihndehrlIH-ahahndAH-ahyahkahbooAHr-tshookahrooOOr",
+        "translation_en": "Yes, shoes are removed in the cushion seating area."
+      },
+      "responses": [
+        {
+          "english": "Yes, shoes are removed in the cushion seating area.",
+          "phonetic": "ehvEHtmihndehrlIH-ahahndAH-ahyahkahbooAHr-tshookahrooOOr",
+          "french": "Evet, minderli alanda ayakkabılar çıkarılır."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_topdeck_cave_restaurant_003",
+      "intent_en": "Is testi kebab available tonight?",
+      "text_local": "Bu akşam testi kebabı var mı?",
+      "pronunciation": "buh-ahkshAHm-tehstIH-kehbahbOO-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Turkish restaurant staff often confirm daily specials verbally rather than posting them.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, hazır.",
+        "pronunciation": "ehvEHthahzOOr",
+        "translation_en": "Yes, it is ready."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is ready.",
+          "phonetic": "ehvEHthahzOOr",
+          "french": "Evet, hazır."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_topdeck_cave_restaurant_004",
+      "intent_en": "Do I pay at the table or register?",
+      "text_local": "Masada mı ödeyeyim kasada mı?",
+      "pronunciation": "mAHsahdah-moo-uhdehyehyIHm-kAHsahdah-moo",
+      "formality": "standard",
+      "cultural_note": "Payment customs vary in Turkish restaurants; it is polite to confirm with staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ödemeyi kasada yapabilirsiniz.",
+        "pronunciation": "uhdEHmehyih-kAHsahdah-yahpahbeelIHrseenihz",
+        "translation_en": "You can pay at the register."
+      },
+      "responses": [
+        {
+          "english": "You can pay at the register.",
+          "phonetic": "uhdEHmehyih-kAHsahdah-yahpahbeelIHrseenihz",
+          "french": "Ödemeyi kasada yapabilirsiniz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "krems_karikaturmuseum_krems",
+  "name_en": "Karikaturmuseum Krems",
+  "name_local": "Karikaturmuseum Krems",
+  "icon": "building.columns",
+  "lat": 48.4046486,
+  "lon": 15.5881524,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "krems_karikaturmuseum_krems_001",
+      "intent_en": "Can I buy an annual pass here",
+      "text_local": "Kann man hier eine Jahreskarte kaufen?",
+      "pronunciation": "kAHn-mahn-hEEr-EYEnuh-yAHrehskAHrtuh-kOWfuhn",
+      "formality": "casual",
+      "cultural_note": "Annual passes are standard museum services sold at the ticket desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket desk.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "krems_karikaturmuseum_krems_002",
+      "intent_en": "Where is the Erich Sokol Prize show",
+      "text_local": "Wo ist die Erich-Sokol-Preis-Ausstellung?",
+      "pronunciation": "vOH-ihst-dee-ehrIHkhzohkOHlprEYEsOWsshtEHluhng",
+      "formality": "standard",
+      "cultural_note": "Exhibitions are typically placed in dedicated halls; no micro-navigation given.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Ausstellungsbereich.",
+        "pronunciation": "ihm-OWsshtEHluhngsbuhrEYEkh",
+        "translation_en": "In the exhibition area."
+      },
+      "responses": [
+        {
+          "english": "In the exhibition area.",
+          "phonetic": "ihm-OWsshtEHluhngsbuhrEYEkh",
+          "french": "Im Ausstellungsbereich."
+        }
+      ]
+    },
+    {
+      "id": "krems_karikaturmuseum_krems_003",
+      "intent_en": "Where is the digital caricature lab",
+      "text_local": "Wo ist das digitale Karikatur-Labor?",
+      "pronunciation": "vOH-ihst-dahs-dEEeetAHluh-kAHreekahtOOrlAHbohr",
+      "formality": "standard",
+      "cultural_note": "Interactive labs are usually integrated; no micro-location provided.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hauptbereich.",
+        "pronunciation": "ihm-hOWptbuhrEYEkh",
+        "translation_en": "In the main area."
+      },
+      "responses": [
+        {
+          "english": "In the main area.",
+          "phonetic": "ihm-hOWptbuhrEYEkh",
+          "french": "Im Hauptbereich."
+        }
+      ]
+    },
+    {
+      "id": "krems_karikaturmuseum_krems_004",
+      "intent_en": "Is flash photography still prohibited",
+      "text_local": "Darf man hier nicht mit Blitz fotografieren?",
+      "pronunciation": "dAHrf-mahn-hEEr-nIHkht-miht-blIHts-fOHtohrahfEEruhn",
+      "formality": "casual",
+      "cultural_note": "Standard museum rule; no need for further explanation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Blitz ist verboten.",
+        "pronunciation": "yAHblIHts-ihst-fehrbOHtuhn",
+        "translation_en": "Yes, flash is prohibited."
+      },
+      "responses": [
+        {
+          "english": "Yes, flash is prohibited.",
+          "phonetic": "yAHblIHts-ihst-fehrbOHtuhn",
+          "french": "Ja, Blitz ist verboten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

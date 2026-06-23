@@ -1,0 +1,144 @@
+{
+  "id": "kyoto_nishiki_market",
+  "name_en": "Nishiki Market",
+  "name_local": "錦市場",
+  "icon": "cart",
+  "lat": 35.0050244,
+  "lon": 135.7655699,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "kyoto_nishiki_market_001",
+      "intent_en": "How do I ask for omiyage wrapping?",
+      "text_local": "おみやげようの ラッピングは どうやって たのみますか？",
+      "pronunciation": "OHmeeyGehyohOOnoh-HpeenggOOh-dOHooyTteh-tNohmEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "When buying gifts, stating 'omiyage desu' signals the shopkeeper to use appropriate wrapping for travel and presentation. Some shops may charge a small fee for special wrapping.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "「おみやげです」と いえば つつんでくれますよ。",
+        "pronunciation": "OHmeeyGehdEHsoo-tOH-eeEHb-tsOOtsoondEHkooEHmsOOyoh",
+        "translation_en": "If you say 'It's a souvenir,' they will wrap it for you."
+      },
+      "responses": [
+        {
+          "english": "If you say 'It's a souvenir,' they will wrap it for you.",
+          "phonetic": "OHmeeyGehdEHsoo-tOH-eeEHb-tsOOtsoondEHkooEHmsOOyoh",
+          "french": "「おみやげです」と いえば つつんでくれますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_nishiki_market_002",
+      "intent_en": "Do I need cash for fishmongers?",
+      "text_local": "さかなやでは げんきんが いりますか？",
+      "pronunciation": "sKnYdEHh-gehngkEEngg-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "While some larger shops may accept cards, many traditional fishmongers and small stalls in Nishiki Market operate on a cash-only basis. It's wise to bring sufficient yen.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんで おねがいします。",
+        "pronunciation": "hEEgehngkEEndeh-OHnehgEEeemSoo",
+        "translation_en": "Yes, please pay in cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, please pay in cash.",
+          "phonetic": "hEEgehngkEEndeh-OHnehgEEeemSoo",
+          "french": "はい、げんきんで おねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_nishiki_market_003",
+      "intent_en": "Do I pay at each stall separately?",
+      "text_local": "それぞれの みせで しはらいますか？",
+      "pronunciation": "sOHehzohEHnoh-meesEHdeh-EEhEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Stalls in Nishiki Market are independent businesses. You pay at each one where you make a purchase, just like at individual shops on a street.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、それぞれの みせで おねがいします。",
+        "pronunciation": "hEEsOHehzohEHnoh-meesEHdeh-OHnehgEEeemSoo",
+        "translation_en": "Yes, please pay at each shop."
+      },
+      "responses": [
+        {
+          "english": "Yes, please pay at each shop.",
+          "phonetic": "hEEsOHehzohEHnoh-meesEHdeh-OHnehgEEeemSoo",
+          "french": "はい、それぞれの みせで おねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_nishiki_market_004",
+      "intent_en": "Where are the takoyaki stalls?",
+      "text_local": "たこやきの みせは どこですか？",
+      "pronunciation": "tKohykEEnoh-meesEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Takoyaki stalls are often recognizable by the special grills and the smell of cooking batter. Eating while standing near the stall is common, but walking and eating is generally discouraged in the market.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いった ひだりがわです。",
+        "pronunciation": "mssOOgoo-EEtt-khEEdEEgwdEHsoo",
+        "translation_en": "Straight ahead, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the left side.",
+          "phonetic": "mssOOgoo-EEtt-khEEdEEgwdEHsoo",
+          "french": "まっすぐ いった ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_nishiki_market_005",
+      "intent_en": "Where can I buy tsukemono pickles?",
+      "text_local": "つけものは どこで かえますか？",
+      "pronunciation": "tsOOkehmohnOHh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Tsukemono shops are a specialty of Nishiki Market. You'll see large wooden tubs of colorful pickles and can often sample before buying.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あちこちに あります。まんなか あたりにも。",
+        "pronunciation": "TeekohtEEnee-EEmSoomnnK-TeenEEmoh",
+        "translation_en": "They are everywhere. Around the middle too."
+      },
+      "responses": [
+        {
+          "english": "They are everywhere. Around the middle too.",
+          "phonetic": "TeekohtEEnee-EEmSoomnnK-TeenEEmoh",
+          "french": "あちこちに あります。まんなか あたりにも。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_nishiki_market_006",
+      "intent_en": "Can I taste samples before buying?",
+      "text_local": "ためしに たべても いいですか？",
+      "pronunciation": "tMehEEnee-tBehtEHmoh-EEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many food vendors offer small samples, especially for pickles, sweets, and fish cakes. It's polite to try only one or two pieces and express thanks even if you don't buy.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、どうぞ。",
+        "pronunciation": "hEEdohOOzoh",
+        "translation_en": "Yes, please go ahead."
+      },
+      "responses": [
+        {
+          "english": "Yes, please go ahead.",
+          "phonetic": "hEEdohOOzoh",
+          "french": "はい、どうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

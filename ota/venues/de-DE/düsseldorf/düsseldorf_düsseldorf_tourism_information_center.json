@@ -1,0 +1,100 @@
+{
+  "id": "düsseldorf_düsseldorf_tourism_information_center",
+  "name_en": "Düsseldorf Tourism Information Center",
+  "name_local": "Tourist-Information Düsseldorf",
+  "icon": "info.circle",
+  "lat": 51.2248722,
+  "lon": 6.7715042,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "düsseldorf_düsseldorf_tourism_information_center_001",
+      "intent_en": "Where can I book MedienHafen architecture tours",
+      "text_local": "Wo buche ich MedienHafen-Architekturführungen?",
+      "pronunciation": "vOH-bOOkhuh-ihkh-mEHdee-uhn-hAHfuhnAHrkheetEHktuhuhfUEruhnguhn",
+      "formality": "casual",
+      "cultural_note": "Klare Zuweisung zu einem Servicepunkt ohne Mikro-Navigation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie am Schalter für Führungen nach.",
+        "pronunciation": "frAHuhn-zee-ahm-shAHlt-fuer-fUEruhnguhn-nAHkh",
+        "translation_en": "Ask at the tours counter."
+      },
+      "responses": [
+        {
+          "english": "Ask at the tours counter.",
+          "phonetic": "frAHuhn-zee-ahm-shAHlt-fuer-fUEruhnguhn-nAHkh",
+          "french": "Fragen Sie am Schalter für Führungen nach."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_tourism_information_center_002",
+      "intent_en": "Are theater tickets for tonight still available",
+      "text_local": "Gibt es heute Abend noch Theaterkarten?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-AHbuhnt-nawkh-tEHahtkAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Kurze Antwort mit Verweis auf den Ticketverkaufsschalter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_tourism_information_center_003",
+      "intent_en": "Do you sell Rhine promenade walking guides",
+      "text_local": "Verkaufen Sie Rheinufer-Wanderführer?",
+      "pronunciation": "fehrkOWfuhn-zee-rEYEnoofvAHndfUEr",
+      "formality": "standard",
+      "cultural_note": "Kurze Bestätigung reicht aus, kein weiterer Kontext nötig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_tourism_information_center_004",
+      "intent_en": "Where do I buy the Düsseldorf Card",
+      "text_local": "Wo bekomme ich die Düsseldorf Card?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dee-dUEsuhldAWrf-kAHrt",
+      "formality": "casual",
+      "cultural_note": "Direkte Wegweisung zum spezifischen Servicepunkt wird erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für die Düsseldorf Card.",
+        "pronunciation": "ahm-shAHlt-fuer-dee-dUEsuhldAWrf-kAHrt",
+        "translation_en": "At the Düsseldorf Card counter."
+      },
+      "responses": [
+        {
+          "english": "At the Düsseldorf Card counter.",
+          "phonetic": "ahm-shAHlt-fuer-dee-dUEsuhldAWrf-kAHrt",
+          "french": "Am Schalter für die Düsseldorf Card."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

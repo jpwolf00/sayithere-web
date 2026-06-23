@@ -1,0 +1,78 @@
+{
+  "id": "basel_basel_tourist_information",
+  "name_en": "Basel Tourist Information",
+  "name_local": "Basel Tourist Information",
+  "icon": "info.circle",
+  "lat": 47.5581077,
+  "lon": 7.5878261,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "basel_basel_tourist_information_001",
+      "intent_en": "Are museum ticket bundles available today?",
+      "text_local": "Gibt es heute Museumsticket-Pakete?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-mOOzawuhmstIHkuhtpahkEHtuh",
+      "formality": "standard",
+      "cultural_note": "Direct and factual response expected; no elaboration needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, verfügbar.",
+        "pronunciation": "yAHfehrfUEkbahr",
+        "translation_en": "Yes, available."
+      },
+      "responses": [
+        {
+          "english": "Yes, available.",
+          "phonetic": "yAHfehrfUEkbahr",
+          "french": "Ja, verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_tourist_information_002",
+      "intent_en": "Where do I pay for luggage storage?",
+      "text_local": "Wo zahle ich die Gepäckaufbewahrung?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dee-uhpEHkowfbEHvahrUHng",
+      "formality": "standard",
+      "cultural_note": "Schalter refers to a staffed service point for payments.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für Gepäck.",
+        "pronunciation": "ahm-shAHlt-fuer-uhpEHk",
+        "translation_en": "At the luggage counter."
+      },
+      "responses": [
+        {
+          "english": "At the luggage counter.",
+          "phonetic": "ahm-shAHlt-fuer-uhpEHk",
+          "french": "Am Schalter für Gepäck."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_tourist_information_003",
+      "intent_en": "Where do I buy the BaselCard?",
+      "text_local": "Wo bekomme ich die BaselCard?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dee-bAHzuhl-kAHrt",
+      "formality": "casual",
+      "cultural_note": "Schalter implies a dedicated ticketing counter staffed by personnel.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am BaselCard-Schalter.",
+        "pronunciation": "ahm-bAHzuhl-kAHrtshAHlt",
+        "translation_en": "At the BaselCard counter."
+      },
+      "responses": [
+        {
+          "english": "At the BaselCard counter.",
+          "phonetic": "ahm-bAHzuhl-kAHrtshAHlt",
+          "french": "Am BaselCard-Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

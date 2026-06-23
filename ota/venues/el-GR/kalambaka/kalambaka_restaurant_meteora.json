@@ -1,0 +1,100 @@
+{
+  "id": "kalambaka_restaurant_meteora",
+  "name_en": "Restaurant Meteora",
+  "name_local": "Εστιατόριο Μετέωρα",
+  "icon": "fork.knife",
+  "lat": 39.7067046,
+  "lon": 21.6234827,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kalambaka_restaurant_meteora_001",
+      "intent_en": "How is the charcoal grill prepared",
+      "text_local": "Πώς ψήνονται τα κρέατα στα κάρβουνα;",
+      "pronunciation": "pOHsoh-khrOHnoh-khrkhAHzohdEH-tah-pseetAH-stah-kAHrvoonAH",
+      "formality": "standard",
+      "cultural_note": "Τα ψητά στα κάρβουνα παρασκευάζονται αργά, σύμφωνα με την παραδοσιακή μέθοδο οπισθοχώρησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Με φωτιά ξύλου, 45 λεπτά περίπου.",
+        "pronunciation": "meh-fOHteeAH-ksEEloosahrAHndahpEHnteh-lehptAH-pehrEEpoo",
+        "translation_en": "They are slow-cooked on the grill."
+      },
+      "responses": [
+        {
+          "english": "They are slow-cooked on the grill.",
+          "phonetic": "meh-fOHteeAH-ksEEloosahrAHndahpEHnteh-lehptAH-pehrEEpoo",
+          "french": "Με φωτιά ξύλου, 45 λεπτά περίπου."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_restaurant_meteora_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε διαθέσιμο τραπέζι δίπλα στο παράθυρο για δύο;",
+      "pronunciation": "eepAHrkhee-trahpEHzee-thEEplah-stoh-pahrAHtheerOH-yAH-thEEoh",
+      "formality": "standard",
+      "cultural_note": "Πρόθεση ευγένειας να μην παρέχονται συγκεκριμένες τοποθεσίες χωρίς επιβεβαίωση. Συνηθίζεται ο σερβιτόρος να οδηγεί στους χώρους.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο παράθυρο με θέα στα Μετέωρα.",
+        "pronunciation": "nEHstoh-pahrAHtheerOH-meh-thEHah-stah-mehtEHohrAH",
+        "translation_en": "Yes, we can seat you there if you'd like."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can seat you there if you'd like.",
+          "phonetic": "nEHstoh-pahrAHtheerOH-meh-thEHah-stah-mehtEHohrAH",
+          "french": "Ναι, στο παράθυρο με θέα στα Μετέωρα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_restaurant_meteora_003",
+      "intent_en": "Does the stew come with bread",
+      "text_local": "Το μαγειρευτό συνοδεύεται από ψωμί;",
+      "pronunciation": "toh-mAHyeerehftOH-sEEnohthEHvehtEH-ahpOH-psohmEE",
+      "formality": "standard",
+      "cultural_note": "Συνηθίζεται στα ελληνικά εστιατόρια το ψωμί να σερβίρεται μαζί με το κυρίως πιάτο χωρίς επιπλέον χρέωση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, συνοδεύεται.",
+        "pronunciation": "nEHsEEnohthEHvehtEH",
+        "translation_en": "Yes, it comes with bread."
+      },
+      "responses": [
+        {
+          "english": "Yes, it comes with bread.",
+          "phonetic": "nEHsEEnohthEHvehtEH",
+          "french": "Ναι, συνοδεύεται."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_restaurant_meteora_004",
+      "intent_en": "Where do I pay the bill",
+      "text_local": "Πού πληρώνω το λογαριασμό;",
+      "pronunciation": "pOO-pleerOHnoh-toh-lOHghahrEEahsmOH",
+      "formality": "standard",
+      "cultural_note": "Το ταμείο είναι το μοναδικό επίσημο σημείο πληρωμής σύμφωνα με τις υπηρεσίες του καταστήματος.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο.",
+        "pronunciation": "stoh-tahmEEoh",
+        "translation_en": "At the cash desk."
+      },
+      "responses": [
+        {
+          "english": "At the cash desk.",
+          "phonetic": "stoh-tahmEEoh",
+          "french": "Στο ταμείο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

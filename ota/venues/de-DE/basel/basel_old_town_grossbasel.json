@@ -1,0 +1,100 @@
+{
+  "id": "basel_old_town_grossbasel",
+  "name_en": "Old Town Grossbasel",
+  "name_local": "Grossbaseler Altstadt",
+  "icon": "map",
+  "lat": 47.5581077,
+  "lon": 7.5878261,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "basel_old_town_grossbasel_001",
+      "intent_en": "Where is the best view of Kleinbasel?",
+      "text_local": "Wo hat man die beste Aussicht auf Kleinbasel?",
+      "pronunciation": "vOH-haht-mahn-dee-bEHstuh-OWszIHkht-owf-klEYEnbahzuhl",
+      "formality": "standard",
+      "cultural_note": "Panoramic views of the opposite bank are often accessible along the riverfront.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kleinbasler Rheinufer.",
+        "pronunciation": "ahm-klEYEnbahsl-rEYEnoof",
+        "translation_en": "At the Kleinbasel Rhine riverbank."
+      },
+      "responses": [
+        {
+          "english": "At the Kleinbasel Rhine riverbank.",
+          "phonetic": "ahm-klEYEnbahsl-rEYEnoof",
+          "french": "Am Kleinbasler Rheinufer."
+        }
+      ]
+    },
+    {
+      "id": "basel_old_town_grossbasel_002",
+      "intent_en": "Is the Mittlere Brücke bridge for pedestrians?",
+      "text_local": "Ist die Mittlere Brücke für Fussgänger?",
+      "pronunciation": "ihst-dee-mIHtluhruh-brUEkuh-fuer-fUHsehng",
+      "formality": "standard",
+      "cultural_note": "Basel's historic bridges are pedestrian-only during the day.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, für Fussgänger.",
+        "pronunciation": "yAHfuer-fUHsehng",
+        "translation_en": "Yes, for pedestrians."
+      },
+      "responses": [
+        {
+          "english": "Yes, for pedestrians.",
+          "phonetic": "yAHfuer-fUHsehng",
+          "french": "Ja, für Fussgänger."
+        }
+      ]
+    },
+    {
+      "id": "basel_old_town_grossbasel_003",
+      "intent_en": "Where is the Fischmarkt square?",
+      "text_local": "Wo ist der Fischmarkt?",
+      "pronunciation": "vOH-ihst-dehr-fIHshmahrkt",
+      "formality": "standard",
+      "cultural_note": "Square names are typically well-signposted in pedestrian areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, dann links am Münster.",
+        "pronunciation": "guhrAHdehOWsdahn-lINGks-ahm-mUEnst",
+        "translation_en": "Straight ahead, then left at the cathedral."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, then left at the cathedral.",
+          "phonetic": "guhrAHdehOWsdahn-lINGks-ahm-mUEnst",
+          "french": "Geradeaus, dann links am Münster."
+        }
+      ]
+    },
+    {
+      "id": "basel_old_town_grossbasel_004",
+      "intent_en": "Where is the Münster tower ticket office?",
+      "text_local": "Wo ist die Münster-Ticketkasse?",
+      "pronunciation": "vOH-ihst-dee-mUEnsttIHkehtkAHsuh",
+      "formality": "standard",
+      "cultural_note": "Ticket offices for church towers are often centrally located near the entrance or main square.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Münsterplatz.",
+        "pronunciation": "ahm-mUEnstplAHts",
+        "translation_en": "At Münsterplatz."
+      },
+      "responses": [
+        {
+          "english": "At Münsterplatz.",
+          "phonetic": "ahm-mUEnstplAHts",
+          "french": "Am Münsterplatz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

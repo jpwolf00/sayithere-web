@@ -1,0 +1,100 @@
+{
+  "id": "nara_naramachi_historic_merchant_district",
+  "name_en": "Naramachi historic merchant district",
+  "name_local": "奈良町",
+  "icon": "map",
+  "lat": 34.68020179931288,
+  "lon": 135.80994974746832,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "nara_naramachi_historic_merchant_district_001",
+      "intent_en": "Where is the Naramachi Center?",
+      "text_local": "ならまちセンターは どこですか？",
+      "pronunciation": "nMTeesehntH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The center is a renovated machiya. Asking for the 'machiya hall' instead of 'center' can sometimes get a quicker local response.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あの かどを まがって、すぐ みぎです。",
+        "pronunciation": "Noh-kdOHoh-mgTtehsOOgoo-mEEgeedEHsoo",
+        "translation_en": "Turn at that corner, and it's immediately on the right."
+      },
+      "responses": [
+        {
+          "english": "Turn at that corner, and it's immediately on the right.",
+          "phonetic": "Noh-kdOHoh-mgTtehsOOgoo-mEEgeedEHsoo",
+          "french": "あの かどを まがって、すぐ みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_naramachi_historic_merchant_district_002",
+      "intent_en": "Where is the Mechanical Toy Museum?",
+      "text_local": "からくりおもちゃかんは どこですか？",
+      "pronunciation": "kKOOeeOHmohtKH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Naramachi's narrow lanes can be disorienting; locals often use landmarks like the red-capped Jizo statues for directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このみちをまっすぐ、ひだりがわです。",
+        "pronunciation": "kOHnohmEEteeOHmssOOgookhEEdEEgwdEHsoo",
+        "translation_en": "Straight down this lane, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Straight down this lane, on the left side.",
+          "phonetic": "kOHnohmEEteeOHmssOOgookhEEdEEgwdEHsoo",
+          "french": "このみちをまっすぐ、ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_naramachi_historic_merchant_district_003",
+      "intent_en": "Is Koshino Ichinomiya open now?",
+      "text_local": "こしのいちのみやは、いま あいていますか？",
+      "pronunciation": "kOHeenOHeetEEnohmeeyHEEm-EEtEHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Shrine grounds are generally open, but amulet offices may close early. This answer implies the main grounds are accessible.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいていますよ。はいどうぞ。",
+        "pronunciation": "hEEEEtEHeemsOOyohhEEdohOOzoh",
+        "translation_en": "Yes, it's open. Please go ahead."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open. Please go ahead.",
+          "phonetic": "hEEEEtEHeemsOOyohhEEdohOOzoh",
+          "french": "はい、あいていますよ。はいどうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "nara_naramachi_historic_merchant_district_004",
+      "intent_en": "How do I pay for craft workshops?",
+      "text_local": "こうぼう たいけんは どうやって しはらいますか？",
+      "pronunciation": "kOHoobOHoo-tEEkehH-dOHooyTteh-EEhEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Small craft studios in Naramachi often prefer cash in advance. A polite bow before and after the transaction is appreciated.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "げんきんで、さきに おみせで おねがいします。",
+        "pronunciation": "gehngkEEndehskEEnee-OHmeesEHdeh-OHnehgEEeemSoo",
+        "translation_en": "Please pay in cash at the shop front first."
+      },
+      "responses": [
+        {
+          "english": "Please pay in cash at the shop front first.",
+          "phonetic": "gehngkEEndehskEEnee-OHmeesEHdeh-OHnehgEEeemSoo",
+          "french": "げんきんで、さきに おみせで おねがいします。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

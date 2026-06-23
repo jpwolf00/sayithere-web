@@ -1,0 +1,110 @@
+{
+  "id": "geneva_vieille_ville",
+  "name_en": "Old Town",
+  "name_local": "Vieille Ville",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "geneva_vv_001",
+      "intent_en": "Ask for directions to the Old Town",
+      "text_local": "Pourriez-vous m'indiquer le chemin vers la Vieille Ville ?",
+      "pronunciation": "poo-RYAY-voo man-dee-KAY luh shuh-MAN vair lah VYAY VEEL",
+      "formality": "polite",
+      "cultural_note": "Geneva's Old Town sits on a hilltop on the left bank of the Rhône; the climb up the cobbled streets is steep but rewarding.",
+      "responses": [
+        {
+          "english": "Go up the street, straight ahead.",
+          "phonetic": "mohn-TAY lah ROO, seh too DRWAH",
+          "french": "Montez la rue, c'est tout droit."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_vv_002",
+      "intent_en": "Ask if the old town streets are steep",
+      "text_local": "Les rues de la vieille ville sont-elles pentues ?",
+      "pronunciation": "lay ROO duh lah vyey VEEL sohn-TEL pahn-TOO",
+      "formality": "polite",
+      "cultural_note": "Geneva's Old Town sits on a hill. Some streets are steep and cobblestoned, so comfortable shoes are recommended.",
+      "responses": [
+        {
+          "english": "Yes, a bit. Wear comfortable shoes.",
+          "phonetic": "wee, uhn PUH. por-TAY day shoh-SOOR kohn-for-TAHBL",
+          "french": "Oui, un peu. Portez des chaussures confortables."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_vv_003",
+      "intent_en": "Ask if the old town streets are pedestrian",
+      "text_local": "La Vieille Ville est-elle piétonne ?",
+      "pronunciation": "lah VYAY VEEL eh-TEL pyay-TOHN",
+      "formality": "polite",
+      "cultural_note": "Most of the historic centre is pedestrianised, making it pleasant to wander; a few streets allow resident vehicles only.",
+      "responses": [
+        {
+          "english": "Yes, mostly.",
+          "phonetic": "wee, ahn grahnd par-TEE",
+          "french": "Oui, en grande partie."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_vv_004",
+      "intent_en": "Ask about a good restaurant in the area",
+      "text_local": "Pourriez-vous me recommander un bon restaurant dans la Vieille Ville ?",
+      "pronunciation": "poo-RYAY-voo muh ruh-koh-mohn-DAY un bohn res-toh-ROHN don lah VYAY VEEL",
+      "formality": "polite",
+      "cultural_note": "The area around the Grand-Rue and the Place du Bourg-de-Four has numerous cafés and restaurants serving Swiss and international cuisine.",
+      "responses": [
+        {
+          "english": "I recommend Place du Bourg-de-Four.",
+          "phonetic": "zhuh voo kohn-SAY lah PLAHS doo boor-duh-FOOR",
+          "french": "Je vous conseille la Place du Bourg-de-Four."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_vv_005",
+      "intent_en": "Ask about the opening hours of a museum",
+      "text_local": "Quelles sont les heures d'ouverture de ce musée ?",
+      "pronunciation": "kel SOHN lay ZUR doo-VAIR-tur duh suh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "Many Geneva museums are free on the first Sunday of each month — a popular local tradition.",
+      "responses": [
+        {
+          "english": "The hours are posted at the entrance.",
+          "phonetic": "layz oh-REHR sohn ah-fee-SHAY ah lahn-TRAY",
+          "french": "Les horaires sont affichés à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "old town",
+      "word_local": "la Vieille Ville",
+      "pronunciation": "lah VYAY VEEL"
+    },
+    {
+      "word_en": "cobblestone street",
+      "word_local": "la rue pavée",
+      "pronunciation": "lah roo pah-VAY"
+    },
+    {
+      "word_en": "pedestrian zone",
+      "word_local": "la zone piétonne",
+      "pronunciation": "lah ZOHN pyay-TOHN"
+    }
+  ]
+}

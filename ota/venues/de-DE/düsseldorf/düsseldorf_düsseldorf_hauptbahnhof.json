@@ -1,0 +1,100 @@
+{
+  "id": "düsseldorf_düsseldorf_hauptbahnhof",
+  "name_en": "Düsseldorf Hauptbahnhof",
+  "name_local": "Düsseldorf Hauptbahnhof",
+  "icon": "tram",
+  "lat": 51.219734,
+  "lon": 6.7943015,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "düsseldorf_düsseldorf_hauptbahnhof_001",
+      "intent_en": "Where is the DB Reisezentrum ticket office",
+      "text_local": "Wo ist das DB Reisezentrum?",
+      "pronunciation": "vOH-ihst-dahs-dEHbEH-rEYEzehtsEHntruhm",
+      "formality": "standard",
+      "cultural_note": "Erwartet eine kurze, präzise Ortsangabe ohne unnötige Höflichkeitsfloskeln.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Reisezentrum in der Haupthalle.",
+        "pronunciation": "ihm-rEYEzehtsEHntruhm-ihn-dehr-hOWptahluh",
+        "translation_en": "In the travel center in the main concourse."
+      },
+      "responses": [
+        {
+          "english": "In the travel center in the main concourse.",
+          "phonetic": "ihm-rEYEzehtsEHntruhm-ihn-dehr-hOWptahluh",
+          "french": "Im Reisezentrum in der Haupthalle."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_hauptbahnhof_002",
+      "intent_en": "How do I validate my S-Bahn ticket here",
+      "text_local": "Wie validiere ich mein S-Bahn-Ticket?",
+      "pronunciation": "vee-vAHleedEEruh-ihkh-meyen-EHsbAHntIHkuht",
+      "formality": "standard",
+      "cultural_note": "Antwortet mit einer kurzen Handlungsanweisung, ohne weitere Erklärungen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten vor dem Einsteigen.",
+        "pronunciation": "ahm-OWtohmAHtuhn-fAWr-dehm-EYEnshtEYEuhn",
+        "translation_en": "At the machine before boarding."
+      },
+      "responses": [
+        {
+          "english": "At the machine before boarding.",
+          "phonetic": "ahm-OWtohmAHtuhn-fAWr-dehm-EYEnshtEYEuhn",
+          "french": "Am Automaten vor dem Einsteigen."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_hauptbahnhof_003",
+      "intent_en": "Where is the bicycle rental pickup point",
+      "text_local": "Wo ist die Call-a-Bike-Station?",
+      "pronunciation": "vOH-ihst-dee-kAHlAHehnbEYEkdehshtahtsyOHn",
+      "formality": "standard",
+      "cultural_note": "Erwartet eine einfache Ortsangabe ohne detaillierte Wege.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bahnhofsvorplatz.",
+        "pronunciation": "ahm-bAHnhawfsfOHrplahts",
+        "translation_en": "At the station forecourt."
+      },
+      "responses": [
+        {
+          "english": "At the station forecourt.",
+          "phonetic": "ahm-bAHnhawfsfOHrplahts",
+          "french": "Am Bahnhofsvorplatz."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_düsseldorf_hauptbahnhof_004",
+      "intent_en": "Where is the DB Lounge access entrance",
+      "text_local": "Wo ist der Eingang zur DB Lounge?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoor-dEHbEH-lOOnguh",
+      "formality": "standard",
+      "cultural_note": "Antwortet mit einer allgemeinen Wegweisung über Schilder.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die DB Lounge ist im Obergeschoss.",
+        "pronunciation": "dee-dEHbEH-lOOnguh-ihst-ihm-OHbguhshAWs",
+        "translation_en": "The DB lounge is on the upper floor."
+      },
+      "responses": [
+        {
+          "english": "The DB lounge is on the upper floor.",
+          "phonetic": "dee-dEHbEH-lOOnguh-ihst-ihm-OHbguhshAWs",
+          "french": "Die DB Lounge ist im Obergeschoss."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

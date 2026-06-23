@@ -1,0 +1,122 @@
+{
+  "id": "naxos_papadakis_shopping_street",
+  "name_en": "Papadakis Shopping Street",
+  "name_local": "Οδός Παπαδάκη",
+  "icon": "bag",
+  "lat": 37.0600105,
+  "lon": 25.4707567,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "naxos_papadakis_shopping_street_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω κιτρόν;",
+      "pronunciation": "pOO-bohrOH-nah-vrOH-eetrOHn",
+      "formality": "polite",
+      "cultural_note": "Το κιτρόν θεωρείται τοπικό προϊόν και συχνά πωλείται σε ειδικά καταστήματα ή αποθήκες στην περιοχή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κατάστημα «Νάξος Γεύσεις», δεξιά.",
+        "pronunciation": "stoh-kahtAHsteemAH-nAHksohz-yEEseesthEHkseeAH",
+        "translation_en": "You’ll find it in the shops with local products, further down the street."
+      },
+      "responses": [
+        {
+          "english": "You’ll find it in the shops with local products, further down the street.",
+          "phonetic": "stoh-kahtAHsteemAH-nAHksohz-yEEseesthEHkseeAH",
+          "french": "Στο κατάστημα «Νάξος Γεύσεις», δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "naxos_papadakis_shopping_street_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η Πλατεία Μητροπόλεως;",
+      "pronunciation": "pOO-EEneh-toh-tEHlohs-tees-ohthOO-pAHpahthAHee-prOHs-teem-blahtEEah-mEEtrohpOHlehOHs",
+      "formality": "standard",
+      "cultural_note": "Οι ντόπιοι αναφέρουν συχνά τον προορισμό ως 'προς την Πλατεία Μητροπόλεως' χωρίς να χρειάζεται σαφής σήμανση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά από την εκκλησία Αγίου Νικολάου.",
+        "pronunciation": "thEHkseeAH-ahpOH-teen-EHkleesEE-ahyEEoo-nEEkohlAHoo",
+        "translation_en": "Hello, the square is in the city center, near the port. From there, follow the pedestrian street toward the beach to find shops with souvenirs and local products."
+      },
+      "responses": [
+        {
+          "english": "Hello, the square is in the city center, near the port. From there, follow the pedestrian street toward the beach to find shops with souvenirs and local products.",
+          "phonetic": "thEHkseeAH-ahpOH-teen-EHkleesEE-ahyEEoo-nEEkohlAHoo",
+          "french": "Δεξιά από την εκκλησία Αγίου Νικολάου."
+        }
+      ]
+    },
+    {
+      "id": "naxos_papadakis_shopping_street_003",
+      "intent_en": "Is this graviera fresh?",
+      "text_local": "Είναι φρέσκια η γραβιέρα;",
+      "pronunciation": "EEneh-frEHskoh-toh-ghrAHveeEHrah",
+      "formality": "standard",
+      "cultural_note": "Το γραβιέρα είναι συχνά τυρί που ωριμάζει επί μακρόν, αλλά οι ντόπιοι πωλητές μπορούν να δώσουν πληροφορίες για την ημερομηνία παραγωγής.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, από σήμερα το πρωί.",
+        "pronunciation": "nEHahpOH-sEEmehrAH-toh-prohEE",
+        "translation_en": "Ask the staff."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff.",
+          "phonetic": "nEHahpOH-sEEmehrAH-toh-prohEE",
+          "french": "Ναι, από σήμερα το πρωί."
+        }
+      ]
+    },
+    {
+      "id": "naxos_papadakis_shopping_street_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Παίρνετε κάρτα;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-meh-kAHrtah-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Στα περισσότερα μικρά καταστήματα των Ελληνικών αγορών, η πληρωμή με κάρτα είναι περιορισμένη ή δεν γίνεται αποδεκτή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, σε όλα τα μαγαζιά εδώ.",
+        "pronunciation": "nEHseh-OHlah-tah-mAHghahzyAH-ehthOH",
+        "translation_en": "Yes, we accept card."
+      },
+      "responses": [
+        {
+          "english": "Yes, we accept card.",
+          "phonetic": "nEHseh-OHlah-tah-mAHghahzyAH-ehthOH",
+          "french": "Ναι, σε όλα τα μαγαζιά εδώ."
+        }
+      ]
+    },
+    {
+      "id": "naxos_papadakis_shopping_street_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς ζητώ απόδειξη για επιστροφή ΦΠΑ;",
+      "pronunciation": "pOHz-zeetOH-ahpOHtheeksEE-yAH-EHpeestrohfEE-fEEpEEAHlfah",
+      "formality": "standard",
+      "cultural_note": "Οι περισσότεροι πωλητές ζητούν το απόδειξη ΦΠΑ μόνο για αγορές πάνω από συγκεκριμένο ποσό (συνήθως 50€).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Γεια σας, ζητήστε την στο ταμείο για αγορές άνω των 50€.",
+        "pronunciation": "yAH-sahszeetEEsteh-teen-stoh-tahmEEoh-yAH-AHghohrEHs-AHnoh-tohn-pehnEEndah-ehvrOH",
+        "translation_en": "Hello, ask for it at the register for purchases over 50 euros."
+      },
+      "responses": [
+        {
+          "english": "Hello, ask for it at the register for purchases over 50 euros.",
+          "phonetic": "yAH-sahszeetEEsteh-teen-stoh-tahmEEoh-yAH-AHghohrEHs-AHnoh-tohn-pehnEEndah-ehvrOH",
+          "french": "Γεια σας, ζητήστε την στο ταμείο για αγορές άνω των 50€."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

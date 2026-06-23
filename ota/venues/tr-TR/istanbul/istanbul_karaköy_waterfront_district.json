@@ -1,0 +1,100 @@
+{
+  "id": "istanbul_karaköy_waterfront_district",
+  "name_en": "Karaköy waterfront district",
+  "name_local": "Karaköy",
+  "icon": "map",
+  "lat": 41.0228645,
+  "lon": 28.9740393,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "istanbul_karaköy_waterfront_district_001",
+      "intent_en": "Is the fish sandwich boat running?",
+      "text_local": "Balık ekmek teknesi çalışıyor mu?",
+      "pronunciation": "bahOOk-ehkmEHk-tehknehsIH-tshahooshOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Boat operations depend on weather and demand; verify locally.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, iskelede.",
+        "pronunciation": "ehvEHtihskEHlehdeh",
+        "translation_en": "Yes, at the pier."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the pier.",
+          "phonetic": "ehvEHtihskEHlehdeh",
+          "french": "Evet, iskelede."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_karaköy_waterfront_district_002",
+      "intent_en": "How do I top up İstanbul Kart?",
+      "text_local": "İstanbul Kart'a nasıl bakiye yüklerim?",
+      "pronunciation": "ihstAHnbuh-kahrtAH-nahsOO-bahkeeyEH-yuhklEHrihm",
+      "formality": "standard",
+      "cultural_note": "Top-up methods vary by machine; staff can guide you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İskelede makine var.",
+        "pronunciation": "ihskEHlehdeh-mahkeenEH-vAHr",
+        "translation_en": "There is a machine at the ferry dock."
+      },
+      "responses": [
+        {
+          "english": "There is a machine at the ferry dock.",
+          "phonetic": "ihskEHlehdeh-mahkeenEH-vAHr",
+          "french": "İskelede makine var."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_karaköy_waterfront_district_003",
+      "intent_en": "Where is the ferry to Üsküdar?",
+      "text_local": "Üsküdar vapuru nereden kalkıyor?",
+      "pronunciation": "uhskuedAHr-vahpoorUH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "The ferry terminal is a stable target in the area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşı taraftaki iskeleden.",
+        "pronunciation": "kahrshOO-tahrahftahkIH-ihskEHlehdahn",
+        "translation_en": "From the pier on the opposite side."
+      },
+      "responses": [
+        {
+          "english": "From the pier on the opposite side.",
+          "phonetic": "kahrshOO-tahrahftahkIH-ihskEHlehdahn",
+          "french": "Karşı taraftaki iskeleden."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_karaköy_waterfront_district_004",
+      "intent_en": "Where is the T1 tram stop?",
+      "text_local": "T1 tramvay durağı nerede?",
+      "pronunciation": "tEH-bEEr-trahmvAHy-doorahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Karaköy is a busy district; exact stop positions are best confirmed locally.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karaköy meydanında.",
+        "pronunciation": "kahrahkUHy-mehydahnoondAH",
+        "translation_en": "At Karaköy square."
+      },
+      "responses": [
+        {
+          "english": "At Karaköy square.",
+          "phonetic": "kahrahkUHy-mehydahnoondAH",
+          "french": "Karaköy meydanında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

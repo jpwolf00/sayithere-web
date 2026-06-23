@@ -1,0 +1,118 @@
+{
+  "id": "saint_malo_cathedrale",
+  "name_en": "Cathedral of Saint-Vincent",
+  "name_local": "Cathédrale Saint-Vincent",
+  "icon": "building.columns.fill",
+  "lat": 48.648,
+  "lon": -1.994,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "saintmalo_cath_001",
+      "intent_en": "Ask about opening hours",
+      "text_local": "Quelles sont les heures d'ouverture de la cathédrale ?",
+      "pronunciation": "kel son layz UHR doo-vair-TYOR duh lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The cathedral is open daily for visits. Hours may vary for services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From 9 AM to 6 PM, every day.",
+          "phonetic": "duh nuhf UHR ah dee-ZWEET UHR, too lay ZHOOR",
+          "french": "De neuf heures à dix-huit heures, tous les jours."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_cath_002",
+      "intent_en": "Ask about the crypt beneath the cathedral",
+      "text_local": "Y a-t-il une crypte sous la cathédrale ?",
+      "pronunciation": "ee ah-TEEL oon KRIPT soo lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The crypt contains the tombs of the bishops of Saint-Malo. It's open to visitors during cathedral opening hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, accessible during opening hours.",
+          "phonetic": "byan sewr, zhuh voo ah-PROHNT sah too deh SWEET",
+          "french": "Oui, accessible pendant les heures d'ouverture."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_cath_003",
+      "intent_en": "Ask if entry is free",
+      "text_local": "L'entrée de la cathédrale est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY duh lah kah-tay-DRAL eh-tel grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "As with most churches in France, entry to the cathedral is free.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "wee, lahn-TRAY eh grah-TWEET",
+          "french": "Oui, l'entrée est gratuite."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_cath_004",
+      "intent_en": "Ask if photos are allowed",
+      "text_local": "Peut-on prendre des photos à l'intérieur ?",
+      "pronunciation": "puh-TON PRAHN-druh day FOH-toh ah lan-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Photos without flash are usually permitted in French churches.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_cath_005",
+      "intent_en": "Ask where Jacques Cartier is buried",
+      "text_local": "Où est enterré Jacques Cartier ?",
+      "pronunciation": "oo eh ahn-teh-RAY zhahk kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Jacques Cartier, the explorer who discovered Canada, is buried in Saint-Malo. His tomb is in the cathedral's south aisle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the south aisle, inside the cathedral.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Dans le bas-côté sud, à l'intérieur de la cathédrale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "organ",
+      "word_local": "l'orgue",
+      "pronunciation": "LORG"
+    },
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah KRIPT"
+    },
+    {
+      "word_en": "explorer",
+      "word_local": "l'explorateur",
+      "pronunciation": "lex-plo-rah-TUR"
+    }
+  ]
+}

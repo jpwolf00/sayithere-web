@@ -1,0 +1,97 @@
+{
+  "id": "como_cathedral",
+  "name_en": "Como Cathedral",
+  "name_local": "Duomo di Como",
+  "icon": "building.columns",
+  "lat": 45.8117681,
+  "lon": 9.0836614,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "como_cathedral_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, dov'è l'ingresso principale del Duomo, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, doh-VEH ling-GRES-so preen-chee-PAH-leh del DOO-oh-mo, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the square, facing the facade.",
+          "phonetic": "SOOL-lah pee-AHTS-tsah fahch-CHEE-ah AHL-lah fahch-chee-AH-tah",
+          "french": "Sulla piazza, faccia alla facciata."
+        }
+      ]
+    },
+    {
+      "id": "como_cathedral_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, dov'è la biglietteria, per favore?",
+      "pronunciation": "SKOO-zee, do-VEH la bee-lyet-te-REE-a, per fa-VO-re?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The ticket office is on the left.",
+          "phonetic": "LAH beej-lee-eht-teh-REE-ah È AH see-NEE-strah",
+          "french": "La biglietteria è a sinistra."
+        }
+      ]
+    },
+    {
+      "id": "como_cathedral_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, come si prenota la visita guidata, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, KO-meh see preh-NOH-ta la VEE-zee-ta gwee-DAH-ta, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is necessary to book online.",
+          "phonetic": "bee-SOHJ-nah preh-noh-TAH-reh ohn-LEE-neh",
+          "french": "Bisogna prenotare online."
+        }
+      ]
+    },
+    {
+      "id": "it_duom_co_x1",
+      "intent_en": "Ask when the cathedral was built",
+      "text_local": "Scusi, quando è stato costruito il Duomo di Como?",
+      "pronunciation": "SKOO-zee, KWAN-doh eh STAH-toh kos-TWEE-toh eel DWOH-moh dee KOH-moh?",
+      "formality": "polite",
+      "cultural_note": "Como's cathedral was built over four centuries, from 1396 to 1770, blending Gothic and Baroque elements.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Between 1396 and 1770, late Gothic and Baroque.",
+          "phonetic": "trah eel trehd-DEE-chee-NOH-vahn-tah-SEH-ee eh eel meel-leh-SET-ten-tah, een STEEL-eh TAR-doh GOH-tee-koh eh bah-ROK-koh.",
+          "french": "Tra il 1396 e il 1770, in stile tardo-gotico e barocco."
+        }
+      ]
+    },
+    {
+      "id": "it_duom_co_x2",
+      "intent_en": "Ask if the rooftop can be visited",
+      "text_local": "Buongiorno, si può salire sul tetto del Duomo?",
+      "pronunciation": "bwohn-JOHR-noh, see PWOH sah-LEE-reh sool TET-toh del DWOH-moh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, the roof is not accessible to the public.",
+          "phonetic": "no, eel TET-toh non eh at-ches-SEE-bee-leh al POOB-blee-koh.",
+          "french": "No, il tetto non è accessibile al pubblico."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

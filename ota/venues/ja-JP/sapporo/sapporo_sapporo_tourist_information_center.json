@@ -1,0 +1,144 @@
+{
+  "id": "sapporo_sapporo_tourist_information_center",
+  "name_en": "Sapporo Tourist Information Center",
+  "name_local": "札幌市観光案内所",
+  "icon": "info.circle",
+  "lat": 43.0569021,
+  "lon": 141.3504995,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "sapporo_sapporo_tourist_information_center_001",
+      "intent_en": "Is the Otaru bus covered by passes?",
+      "text_local": "おたるゆきの バスは パスで のれますか？",
+      "pronunciation": "OHtOOyookEEnoh-bsOOh-psOOdeh-nOHehmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many tourist passes have exclusions; it's common to ask about specific routes.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、べつの りょうきんが かかります。",
+        "pronunciation": "EEehbehtsOOnoh-OHookEEngg-kKeemSoo",
+        "translation_en": "No, it requires a separate fare."
+      },
+      "responses": [
+        {
+          "english": "No, it requires a separate fare.",
+          "phonetic": "EEehbehtsOOnoh-OHookEEngg-kKeemSoo",
+          "french": "いいえ、べつの りょうきんが かかります。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_tourist_information_center_002",
+      "intent_en": "How do I buy a subway day pass?",
+      "text_local": "ちかてつの いちにちじょうしゃけんは どうかったらいいですか？",
+      "pronunciation": "tEEktehtsOOnoh-EEteenEEteedOHooKehH-dOHookTtEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "駅員 (station staff) often give short, direct answers about ticket purchases.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきの けんばいきで かえますよ。",
+        "pronunciation": "ehkEEnoh-kEHbEEkEEdeh-kEHmsOOyoh",
+        "translation_en": "You can buy it at the station ticket machine."
+      },
+      "responses": [
+        {
+          "english": "You can buy it at the station ticket machine.",
+          "phonetic": "ehkEEnoh-kEHbEEkEEdeh-kEHmsOOyoh",
+          "french": "えきの けんばいきで かえますよ。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_tourist_information_center_003",
+      "intent_en": "Can you book a restaurant for me?",
+      "text_local": "レストランの よやくを してもらえますか？",
+      "pronunciation": "EHsootohNnoh-yOHykOOoh-EEtehmOHEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many info centers do not offer 3rd party reservations, but a polite refusal is standard.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "すみません、それは できません。",
+        "pronunciation": "sOOmeemSehsohEHh-dEHkeemSeh",
+        "translation_en": "Sorry, we can't do that."
+      },
+      "responses": [
+        {
+          "english": "Sorry, we can't do that.",
+          "phonetic": "sOOmeemSehsohEHh-dEHkeemSeh",
+          "french": "すみません、それは できません。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_tourist_information_center_004",
+      "intent_en": "Do you have English maps?",
+      "text_local": "えいごの ちずは ありますか？",
+      "pronunciation": "EHeegOHnoh-teezOOh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "観光案内所 (tourist information centers) commonly stock multilingual maps.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、どうぞ。こちらです。",
+        "pronunciation": "hEEdohOOzohkOHteedEHsoo",
+        "translation_en": "Yes, here you go. Right here."
+      },
+      "responses": [
+        {
+          "english": "Yes, here you go. Right here.",
+          "phonetic": "hEEdohOOzohkOHteedEHsoo",
+          "french": "はい、どうぞ。こちらです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_tourist_information_center_005",
+      "intent_en": "Where does the Otaru bus leave?",
+      "text_local": "おたるゆきの バスのりばは どこですか？",
+      "pronunciation": "OHtOOyookEEnoh-bSoonOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "バスのりば (bus platform) numbers are key for finding the correct departure point.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきまえの バスターミナル、3ばんのりばです。",
+        "pronunciation": "EHkeemEHnoh-bSootMeenOOsN-bNnohEEbdEHsoo",
+        "translation_en": "The bus terminal in front of the station, platform 3."
+      },
+      "responses": [
+        {
+          "english": "The bus terminal in front of the station, platform 3.",
+          "phonetic": "EHkeemEHnoh-bSootMeenOOsN-bNnohEEbdEHsoo",
+          "french": "えきまえの バスターミナル、3ばんのりばです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_tourist_information_center_006",
+      "intent_en": "Are Snow Festival tickets sold here?",
+      "text_local": "ゆきまつりの チケットは ここで うってますか？",
+      "pronunciation": "yOOkeemTsooEEnoh-tEEkehttOHh-kohkOHdeh-OOttehmsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff will point to a specific counter or area within the center.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あちらで うっています。",
+        "pronunciation": "hEETeeDeh-OOtteheemSoo",
+        "translation_en": "Yes, we sell them over there."
+      },
+      "responses": [
+        {
+          "english": "Yes, we sell them over there.",
+          "phonetic": "hEETeeDeh-OOtteheemSoo",
+          "french": "はい、あちらで うっています。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

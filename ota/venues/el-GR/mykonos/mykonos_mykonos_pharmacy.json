@@ -1,0 +1,78 @@
+{
+  "id": "mykonos_mykonos_pharmacy",
+  "name_en": "Mykonos Pharmacy",
+  "name_local": "Φαρμακείο Μυκόνου",
+  "icon": "info.circle",
+  "lat": 37.4513937,
+  "lon": 25.3923149,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "mykonos_mykonos_pharmacy_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού παίρνω νούμερο για τη σειρά;",
+      "pronunciation": "pOO-pEHrnoomEH-nOOmehrOH",
+      "formality": "standard",
+      "cultural_note": "In Greek pharmacies, customers typically take a numbered ticket from a machine or the counter to manage queue order. This is a standard practice in organized service settings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από το μηχάνημα στην είσοδο.",
+        "pronunciation": "ahpOH-toh-meekhAHneemAH-steen-EEsohthOH",
+        "translation_en": "From the machine by the entrance or from the counter."
+      },
+      "responses": [
+        {
+          "english": "From the machine by the entrance or from the counter.",
+          "phonetic": "ahpOH-toh-meekhAHneemAH-steen-EEsohthOH",
+          "french": "Από το μηχάνημα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_mykonos_pharmacy_002",
+      "intent_en": "Ask if basic first aid supplies are over the counter",
+      "text_local": "Τα πρώτα βοήθειες είναι χωρίς συνταγή;",
+      "pronunciation": "tah-prOHtah-vohEEthkhehs-EEneh-khohrEEs-sEEdahyEE",
+      "formality": "standard",
+      "cultural_note": "Basic first aid supplies like bandages, antiseptics, and pain relief medications are commonly available over the counter in Greek pharmacies without a prescription.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, όλα εδώ.",
+        "pronunciation": "nEHOHlah-ehthOH",
+        "translation_en": "Yes, all are over the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, all are over the counter.",
+          "phonetic": "nEHOHlah-ehthOH",
+          "french": "Ναι, όλα εδώ."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_mykonos_pharmacy_003",
+      "intent_en": "Ask if they have this prescription in stock",
+      "text_local": "Έχετε αυτό το φάρμακο;",
+      "pronunciation": "EHkhehtEH-ahftOH-toh-fAHrmahkOH",
+      "formality": "standard",
+      "cultural_note": "Pharmacies in Greece are highly regulated and typically stock a wide range of prescription medications. However, customers often ask for confirmation due to specific brand or dosage needs.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχουμε.",
+        "pronunciation": "nEHEHkhoomEH",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "nEHEHkhoomEH",
+          "french": "Ναι, έχουμε."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

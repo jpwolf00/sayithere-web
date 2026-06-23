@@ -1,0 +1,100 @@
+{
+  "id": "heraklion_lions_square_and_morosini_fountain",
+  "name_en": "Lions Square and Morosini Fountain",
+  "name_local": "Πλατεία Λεόντων",
+  "icon": "building.columns",
+  "lat": 35.33908,
+  "lon": 25.1332843,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "heraklion_lions_square_and_morosini_fountain_001",
+      "intent_en": "Ask if the fountain water flows year-round",
+      "text_local": "Το νερό της κρήνης τρέχει όλο τον χρόνο;",
+      "pronunciation": "toh-nehrOH-tees-krEEnees-trEHkhee-OHloh-tohn-khrOHnoh",
+      "formality": "standard",
+      "cultural_note": "Η κρήνη λειτουργεί συνεχώς, εκτός από περιστασιακές συντήρησεις.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, υπάρχουν ξηρές περιόδους.",
+        "pronunciation": "OHkheeeepAHrkhoong-gzeerEHs-pEHreeOHthoos",
+        "translation_en": "No, there are dry periods."
+      },
+      "responses": [
+        {
+          "english": "No, there are dry periods.",
+          "phonetic": "OHkheeeepAHrkhoong-gzeerEHs-pEHreeOHthoos",
+          "french": "Όχι, υπάρχουν ξηρές περιόδους."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_lions_square_and_morosini_fountain_002",
+      "intent_en": "Ask where the Four Lions faces point",
+      "text_local": "Προς ποια κατεύθυνση κοιτούν τα τέσσερα λιοντάρια;",
+      "pronunciation": "prOHs-tah-pOO-eetOOn-dah-lyohdAHreeAH",
+      "formality": "standard",
+      "cultural_note": "Τα λιοντάρια βρίσκονται γύρω από την κρήνη, η κατεύθυνση τους είναι μέρος του μνημείου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Κοιτούν προς τις τέσσερις κύριες κατευθύνσεις της πλατείας.",
+        "pronunciation": "eetOOm-brOHs-tees-tEHssehrEEs-EEreeEHs-kAHtehfthEEnsees-tees-plahtEEahs",
+        "translation_en": "They face the four main directions of the square."
+      },
+      "responses": [
+        {
+          "english": "They face the four main directions of the square.",
+          "phonetic": "eetOOm-brOHs-tees-tEHssehrEEs-EEreeEHs-kAHtehfthEEnsees-tees-plahtEEahs",
+          "french": "Κοιτούν προς τις τέσσερις κύριες κατευθύνσεις της πλατείας."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_lions_square_and_morosini_fountain_003",
+      "intent_en": "Ask if I can touch the caryatid figures",
+      "text_local": "Μπορώ να αγγίξω τις καρυάτιδες;",
+      "pronunciation": "bohrOH-n-ahnggEEksoh-tees-kohrfEHs",
+      "formality": "standard",
+      "cultural_note": "Τα γλυπτά αποτελούν μέρος του μνημείου και πρέπει να διατηρούνται ανέπαφα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, it is forbidden."
+      },
+      "responses": [
+        {
+          "english": "No, it is forbidden.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_lions_square_and_morosini_fountain_004",
+      "intent_en": "Ask where to buy koulouri nearby",
+      "text_local": "Πού μπορώ να αγοράσω κουλούρι εδώ κοντά;",
+      "pronunciation": "pOO-bohrOH-n-AHghohrAHsoh-koolOOree-ehthOH-kohdAH",
+      "formality": "polite",
+      "cultural_note": "Η αγορά κουλουριού γίνεται από πλανόδιους πωλητές στην πλατεία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κοντά στο σιντριβάνι, υπάρχει ένας πλανόδιος.",
+        "pronunciation": "kohdAH-stoh-sEEdreevAHneeeepAHrkhee-EHnahs-plahnOHtheeOHs",
+        "translation_en": "Near the fountain, there is a street vendor."
+      },
+      "responses": [
+        {
+          "english": "Near the fountain, there is a street vendor.",
+          "phonetic": "kohdAH-stoh-sEEdreevAHneeeepAHrkhee-EHnahs-plahnOHtheeOHs",
+          "french": "Κοντά στο σιντριβάνι, υπάρχει ένας πλανόδιος."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

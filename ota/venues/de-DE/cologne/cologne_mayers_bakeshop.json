@@ -1,0 +1,100 @@
+{
+  "id": "cologne_mayers_bakeshop",
+  "name_en": "Mayer's Bakeshop",
+  "name_local": "Bäckerei Mayer",
+  "icon": "fork.knife",
+  "lat": 48.1580685,
+  "lon": 11.4153604,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "cologne_mayers_bakeshop_001",
+      "intent_en": "Is there seating to eat Streuselschnecken here?",
+      "text_local": "Gibt es Sitzplätze für Streuselschnecken?",
+      "pronunciation": "EEpt-ehs-zIHtsplehtsuh-fuer-shtrAWuhzuhlshnEHkuhn",
+      "formality": "standard",
+      "cultural_note": "Typisch für kleine Bäckereien in Deutschland: Es gibt meist keine Sitzgelegenheiten, nur Stehplätze zum Mitnehmen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein.",
+        "pronunciation": "nEYEn",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "nEYEn",
+          "french": "Nein."
+        }
+      ]
+    },
+    {
+      "id": "cologne_mayers_bakeshop_002",
+      "intent_en": "Where do I pay for custom cake orders?",
+      "text_local": "Wo zahle ich für Bestellungen?",
+      "pronunciation": "vOH-tsAHluh-ihkh-fuer-buhshtEHluhnguhn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Bäckereien werden Sonderbestellungen wie Torten meist am Spezialtresen abgewickelt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen beim Konditor.",
+        "pronunciation": "ahm-trEHzuhn-beyem-kawndEEtohr",
+        "translation_en": "At the counter with the cake specialist."
+      },
+      "responses": [
+        {
+          "english": "At the counter with the cake specialist.",
+          "phonetic": "ahm-trEHzuhn-beyem-kawndEEtohr",
+          "french": "Am Tresen beim Konditor."
+        }
+      ]
+    },
+    {
+      "id": "cologne_mayers_bakeshop_003",
+      "intent_en": "Where do I queue for bread?",
+      "text_local": "Wo muss ich für Brot anstehen?",
+      "pronunciation": "vOH-mUHs-ihkh-fuer-brOHt-AHnshtEHuhn",
+      "formality": "standard",
+      "cultural_note": "In Bäckereien wird oft am Regal oder Tresen gewartet, wenn Selbstbedienung angeboten wird.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Brotregal.",
+        "pronunciation": "ahm-brAWtrehAHl",
+        "translation_en": "At the bread rack."
+      },
+      "responses": [
+        {
+          "english": "At the bread rack.",
+          "phonetic": "ahm-brAWtrehAHl",
+          "french": "Am Brotregal."
+        }
+      ]
+    },
+    {
+      "id": "cologne_mayers_bakeshop_004",
+      "intent_en": "Are Streuselschnecken still available?",
+      "text_local": "Haben Sie noch Streuselschnecken?",
+      "pronunciation": "hAHbuhn-zee-nawkh-shtrAWuhzuhlshnEHkuhn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Bäckereien wird die Verfügbarkeit oft direkt bejaht oder verneint, ohne weitere Erklärungen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

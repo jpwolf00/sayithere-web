@@ -1,0 +1,56 @@
+{
+  "id": "sapporo_maruyama_park_and_hokkaido_shrine",
+  "name_en": "Maruyama Park and Hokkaido Shrine",
+  "name_local": "円山公園・北海道神宮",
+  "icon": "leaf",
+  "lat": 43.7692031,
+  "lon": 142.4698801,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "sapporo_maruyama_park_and_hokkaido_shrine_001",
+      "intent_en": "Where do I write an ema plaque?",
+      "text_local": "えまは どこで かけますか？",
+      "pronunciation": "ehmH-dohkOHdeh-kKehmsOOk",
+      "formality": "standard",
+      "cultural_note": "You buy the ema first, then write your wish at a nearby stand before hanging it on the designated rack.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "うらのかきばに つくえが あります。",
+        "pronunciation": "OOnOHkkeebNee-tsOOkooEHg-EEmSoo",
+        "translation_en": "There are tables at the writing area around back."
+      },
+      "responses": [
+        {
+          "english": "There are tables at the writing area around back.",
+          "phonetic": "OOnOHkkeebNee-tsOOkooEHg-EEmSoo",
+          "french": "うらのかきばに つくえが あります。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_maruyama_park_and_hokkaido_shrine_002",
+      "intent_en": "Where do I buy omamori charms?",
+      "text_local": "おまもりは どこで かえますか？",
+      "pronunciation": "OHmmohEEh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Omamori are typically sold by Miko at a dedicated window or office (社務所/shamusho) near the main hall.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "しゃでんの となり、ひだりです。",
+        "pronunciation": "dEHnnoh-tohnEEkhEEdeedEHsoo",
+        "translation_en": "Next to the shrine building, on the left."
+      },
+      "responses": [
+        {
+          "english": "Next to the shrine building, on the left.",
+          "phonetic": "dEHnnoh-tohnEEkhEEdeedEHsoo",
+          "french": "しゃでんの となり、ひだりです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

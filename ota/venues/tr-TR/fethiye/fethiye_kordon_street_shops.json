@@ -1,0 +1,78 @@
+{
+  "id": "fethiye_kordon_street_shops",
+  "name_en": "Kordon Street shops",
+  "name_local": "Kordon Caddesi",
+  "icon": "bag",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "fethiye_kordon_street_shops_001",
+      "intent_en": "Where is the boat tour ticket kiosk?",
+      "text_local": "Tekne turu bilet gişesi nerede?",
+      "pronunciation": "tehknEH-toorUH-beelEHt-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish venues often direct complex queries to a central information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İskele başında.",
+        "pronunciation": "ihskEHleh-bahshoondAH",
+        "translation_en": "At the beginning of the pier."
+      },
+      "responses": [
+        {
+          "english": "At the beginning of the pier.",
+          "phonetic": "ihskEHleh-bahshoondAH",
+          "french": "İskele başında."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_kordon_street_shops_002",
+      "intent_en": "Do ice cream stands take cards?",
+      "text_local": "Dondurmacılar kart geçiriyor mu?",
+      "pronunciation": "dawnduhrmahdzhooAHr-kAHrt-ehtsheerEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Street vendors and small stands in Turkey often operate on a cash-only basis.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sadece nakit.",
+        "pronunciation": "sahdEHdzheh-nahkIHt",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "sahdEHdzheh-nahkIHt",
+          "french": "Sadece nakit."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_kordon_street_shops_003",
+      "intent_en": "Do ice cream stands take cards?",
+      "text_local": "Dondurmacılar kart kabul ediyor mu?",
+      "pronunciation": "dawnduhrmahdzhooAHr-kAHrt-kahbUH-ehdEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Vendors in Turkey often prefer cash, especially for small purchases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sadece nakit.",
+        "pronunciation": "sahdEHdzheh-nahkIHt",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "sahdEHdzheh-nahkIHt",
+          "french": "Sadece nakit."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

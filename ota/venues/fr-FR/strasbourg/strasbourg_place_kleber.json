@@ -1,0 +1,118 @@
+{
+  "id": "strasbourg_place_kleber",
+  "name_en": "Place Kléber",
+  "name_local": "Place Kléber",
+  "icon": "building.2",
+  "lat": 48.5876,
+  "lon": 7.7459,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "strasbourg_kleber_001",
+      "intent_en": "Ask where the nearest tram stop is",
+      "text_local": "Où est l'arrêt de tram le plus proche ?",
+      "pronunciation": "oo eh lah-RAY duh TRAM luh plew PROHSH",
+      "formality": "polite",
+      "cultural_note": "Strasbourg's tram system is efficient and covers most of the city center and surroundings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Right there, on the square. The Homme de Fer station.",
+          "phonetic": "zhoost LAH, soor lah PLASS. lah stah-SYOHN om duh FAIR",
+          "french": "Juste là, sur la place. La station Homme de Fer."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_kleber_002",
+      "intent_en": "Ask about the Christmas market",
+      "text_local": "Où est le Marché de Noël cette année ?",
+      "pronunciation": "oo eh leh mar-SHAY duh noh-EL set ah-NAY",
+      "formality": "polite",
+      "cultural_note": "Strasbourg's Christkindelsmärik is one of Europe's oldest and largest Christmas markets. Over 300 stalls across the city.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The big tree is here, on Place Kléber.",
+          "phonetic": "say tah day-SAHMBR, pahn-DAHN kah-truh suh-MEN",
+          "french": "Le grand sapin est ici, sur la place Kléber."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_kleber_003",
+      "intent_en": "Ask where to find public toilets nearby",
+      "text_local": "Où sont les toilettes les plus proches ?",
+      "pronunciation": "oo son lay twah-LET lay plew PROHSH",
+      "formality": "polite",
+      "cultural_note": "Public toilets in Strasbourg are often in shopping centers or near main squares.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the shopping center, just across the way.",
+          "phonetic": "dahn luh SAHN-truh koh-mair-SYAL, zhoost ahn FASS",
+          "french": "Dans le centre commercial, juste en face."
+        }
+      ]
+    },
+    {
+      "id": "fr_kle_str_x1",
+      "intent_en": "Ask where the tourist office is near Place Kléber",
+      "text_local": "Où se trouve l'office de tourisme près de la place Kléber ?",
+      "pronunciation": "oo suh TROOV loh-FEES duh toor-EEZM pray duh lah PLAHS klay-BAIR",
+      "formality": "polite",
+      "cultural_note": "Place Kléber is the main square of Strasbourg, named after General Kléber who was born here in 1753. The Christmas market fills it every December.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Very close, on Place de la Cathédrale.",
+          "phonetic": "too PRAY, plahs duh lah kah-tay-DRAL.",
+          "french": "Tout près, place de la Cathédrale."
+        }
+      ]
+    },
+    {
+      "id": "fr_kle_str_x2",
+      "intent_en": "Ask which tram lines stop at Place Kléber",
+      "text_local": "Quelles lignes de tram s'arrêtent à Kléber ?",
+      "pronunciation": "kel LEEN-yuh duh TRAM sah-RET ah klay-BAIR",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Lines A, D and F — it's the network hub.",
+          "phonetic": "lay LEEN-yuh AH, DAY ay EF — say luh NUH doo ray-ZOH.",
+          "french": "Les lignes A, D et F, c'est le nœud du réseau."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "square",
+      "word_local": "la place",
+      "pronunciation": "lah PLAS"
+    },
+    {
+      "word_en": "general",
+      "word_local": "le général",
+      "pronunciation": "leh zhay-nay-RAL"
+    },
+    {
+      "word_en": "Christmas",
+      "word_local": "Noël",
+      "pronunciation": "noh-EL"
+    },
+    {
+      "word_en": "tree",
+      "word_local": "le sapin",
+      "pronunciation": "leh sah-PAN"
+    }
+  ]
+}

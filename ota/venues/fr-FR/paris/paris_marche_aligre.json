@@ -1,0 +1,135 @@
+{
+  "id": "venue_marche_aligre",
+  "name_en": "Marché d'Aligre",
+  "name_local": "Marché d'Aligre",
+  "icon": "storefront.fill",
+  "phrases": [
+    {
+      "id": "venue_marche_aligre_001",
+      "intent_en": "Ask what time the outdoor market opens",
+      "text_local": "À quelle heure ouvre le marché en plein air ?",
+      "pronunciation": "ah kel UR OO-vruh luh mar-SHAY ahn plehn EHR",
+      "formality": "standard",
+      "cultural_note": "The Marché d'Aligre runs Tuesday through Sunday from around 8am to 1pm. It combines an outdoor flea/produce market on Place d'Aligre with the covered Marché Beauvau indoor hall (open until 1:30pm). It's considered by many Parisians the most authentic and affordable market in the city.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The market opens around eight in the morning.",
+          "phonetic": "luh mar-SHAY oov-ruh vehr weet uhr doo mah-TAN",
+          "french": "Le marché ouvre vers huit heures du matin."
+        }
+      ]
+    },
+    {
+      "id": "venue_marche_aligre_002",
+      "intent_en": "Ask for the price of the tomatoes",
+      "text_local": "C'est combien les tomates, s'il vous plaît ?",
+      "pronunciation": "seh kohm-BYEHN lay toh-MAHT, seel voo PLEH",
+      "formality": "standard",
+      "cultural_note": "The outdoor produce stalls on Place d'Aligre are known for very competitive prices, reflecting the market's working-class 12th arrondissement roots. Many vendors are of North African origin, giving the market a multicultural character with spices, olives, and preserved lemons alongside typical French produce.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The tomatoes are three euros per kilo.",
+          "phonetic": "lay toh-MAHT sohn tah trwaz uh-ROH luh kee-LOH",
+          "french": "Les tomates sont à trois euros le kilo."
+        }
+      ]
+    },
+    {
+      "id": "venue_marche_aligre_003",
+      "intent_en": "Ask the vendor to pick the best avocados for today",
+      "text_local": "Pouvez-vous me choisir les meilleurs avocats pour aujourd'hui ?",
+      "pronunciation": "poo-VAY voo muh shwah-ZEER lay meh-YUR zah-voh-KAH poor oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Vendors at Marché d'Aligre appreciate being asked for their judgment on ripeness. French market etiquette is to not touch the produce yourself — always ask the vendor to choose. This is especially appreciated at the older, family-run stalls in the covered Beauvau market.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Here, these ones are perfect for today.",
+          "phonetic": "tuh-NAY, suh-LAH sohn par-FEH poor oh-zhoor-DWEE",
+          "french": "Tenez, ceux-là sont parfaits pour aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "venue_marche_aligre_004",
+      "intent_en": "Browse the flea market stalls for vintage items",
+      "text_local": "Y a-t-il des brocanteurs qui vendent des objets anciens ici ?",
+      "pronunciation": "ee ah-TEEL day broh-kahn-TUR kee vahn day ohb-ZHEH ahn-SYEHN ee-SEE",
+      "formality": "standard",
+      "cultural_note": "The outer ring of Place d'Aligre has brocanteurs (second-hand dealers) selling vintage items, old books, records, and curiosities. The prices are significantly lower than the Puces de Saint-Ouen — this is where locals shop, not tourists, so bargaining is more relaxed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The flea market dealers are on Place d'Aligre.",
+          "phonetic": "lay broh-kahn-TUHR sohn soor lah plass dah-lee-GRUH",
+          "french": "Les brocanteurs sont sur la Place d'Aligre."
+        }
+      ]
+    },
+    {
+      "id": "venue_marche_aligre_005",
+      "intent_en": "Ask where the indoor covered market is",
+      "text_local": "Où se trouve le marché couvert Beauvau ?",
+      "pronunciation": "oo suh TROOV luh mar-SHAY koo-VEHR boh-VOH",
+      "formality": "standard",
+      "cultural_note": "The Marché Beauvau is the beautiful covered hall at the heart of the Aligre complex. It specializes in top-quality meats, fish, and dairy. The cheese counters and butchers here supply many local restaurants — the quality is exceptional and prices are fair.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The covered market is right behind the stalls.",
+          "phonetic": "luh mar-SHAY koo-VEHR eh zhoost deh-RYEHR layz ay-TAL",
+          "french": "Le marché couvert est juste derrière les étals."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Market",
+      "word_local": "Marché",
+      "pronunciation": "mar-SHAY"
+    },
+    {
+      "word_en": "Covered market",
+      "word_local": "Marché couvert",
+      "pronunciation": "mar-SHAY koo-VEHR"
+    },
+    {
+      "word_en": "Second-hand dealer",
+      "word_local": "Brocanteur",
+      "pronunciation": "broh-kahn-TUR"
+    },
+    {
+      "word_en": "Spice",
+      "word_local": "Épice",
+      "pronunciation": "ay-PEES"
+    },
+    {
+      "word_en": "Fresh produce",
+      "word_local": "Produits frais",
+      "pronunciation": "proh-DWEE freh"
+    },
+    {
+      "word_en": "Ripe",
+      "word_local": "Mûr",
+      "pronunciation": "MOOR"
+    },
+    {
+      "word_en": "How much",
+      "word_local": "C'est combien",
+      "pronunciation": "seh kohm-BYEHN"
+    },
+    {
+      "word_en": "Olives",
+      "word_local": "Olives",
+      "pronunciation": "oh-LEEV"
+    }
+  ]
+}

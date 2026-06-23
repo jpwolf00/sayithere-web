@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_na_spilce_restaurant",
+  "name_en": "Na Spilce Restaurant",
+  "name_local": "Restaurace Na Spilce",
+  "icon": "fork.knife",
+  "lat": 49.7471893,
+  "lon": 13.3878407,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "plzeň_na_spilce_restaurant_001",
+      "intent_en": "Can we split the group bill?",
+      "text_local": "Můžeme si rozdělit účet pro skupinu?",
+      "pronunciation": "mOOzhehmeh-see-rOHzehleet-OOtsheht-prOHskoopEEnoo",
+      "formality": "standard",
+      "cultural_note": "Rozdělení účtu je v restauracích běžné, stačí o to požádat obsluhu před placením.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, účet rozdělíme, řekněte číšníkovi.",
+        "pronunciation": "AHnohOOtsheht-rOHzehlEEmehrEHknyehteh-tshEEshnyeekOHvee",
+        "translation_en": "Yes, we'll split the bill, tell the waiter."
+      },
+      "responses": [
+        {
+          "english": "Yes, we'll split the bill, tell the waiter.",
+          "phonetic": "AHnohOOtsheht-rOHzehlEEmehrEHknyehteh-tshEEshnyeekOHvee",
+          "french": "Ano, účet rozdělíme, řekněte číšníkovi."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_na_spilce_restaurant_002",
+      "intent_en": "Is cash preferred for tips?",
+      "text_local": "Preferujete spropitné v hotovosti?",
+      "pronunciation": "prEHfehrOOyehteh-sprOHpeetneh-v-hOHtohvOHsee",
+      "formality": "standard",
+      "cultural_note": "Spropitné v hotovosti je vítáno, často se zaokrouhluje celková částka nahoru.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, hotovost na spropitné je lepší.",
+        "pronunciation": "AHnohhOHtohvohst-nAHsprohpEEtneh-yeh-lEHpshee",
+        "translation_en": "Yes, cash for tips is better."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash for tips is better.",
+          "phonetic": "AHnohhOHtohvohst-nAHsprohpEEtneh-yeh-lEHpshee",
+          "french": "Ano, hotovost na spropitné je lepší."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_na_spilce_restaurant_003",
+      "intent_en": "Where is the brewery cellar entrance?",
+      "text_local": "Kde je vchod do pivovarského sklepení?",
+      "pronunciation": "kdEH-yeh-fkhOHd-doh-pEEvohvAHrskehhoh-sklEHpehnyee",
+      "formality": "standard",
+      "cultural_note": "Vstup do muzea pivovarnictví je přímo z restaurace, směrem do podzemí.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dveře vpravo za barem, po schodech dolů.",
+        "pronunciation": "dvEHreh-fprAHvoh-zAHbahrehmpOHskhohdehgh-dOHloo",
+        "translation_en": "Door on the right past the bar, down the stairs."
+      },
+      "responses": [
+        {
+          "english": "Door on the right past the bar, down the stairs.",
+          "phonetic": "dvEHreh-fprAHvoh-zAHbahrehmpOHskhohdehgh-dOHloo",
+          "french": "Dveře vpravo za barem, po schodech dolů."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_na_spilce_restaurant_004",
+      "intent_en": "Do I pay at the bar first?",
+      "text_local": "Mám nejdřív zaplatit u baru?",
+      "pronunciation": "mahm-nAYdreev-zAHplaheet-OO-bAHroo",
+      "formality": "standard",
+      "cultural_note": "V českých pivnicích je běžné nejdříve zaplatit u výčepního a až poté se usadit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, zaplaťte u baru, pak si sedněte.",
+        "pronunciation": "AHnohzAHplahteh-OO-bAHroopAHk-see-sEHdnyehteh",
+        "translation_en": "Yes, pay at the bar, then sit down."
+      },
+      "responses": [
+        {
+          "english": "Yes, pay at the bar, then sit down.",
+          "phonetic": "AHnohzAHplahteh-OO-bAHroopAHk-see-sEHdnyehteh",
+          "french": "Ano, zaplaťte u baru, pak si sedněte."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

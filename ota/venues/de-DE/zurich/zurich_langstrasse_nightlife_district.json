@@ -1,0 +1,122 @@
+{
+  "id": "zurich_langstrasse_nightlife_district",
+  "name_en": "Langstrasse Nightlife District",
+  "name_local": "Langstrasse",
+  "icon": "map",
+  "lat": 47.3809409,
+  "lon": 8.5396761,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "zurich_langstrasse_nightlife_district_001",
+      "intent_en": "Can I take photos on Strichplatz?",
+      "text_local": "Darf man hier fotografieren?",
+      "pronunciation": "dAHrf-mahn-hEEr-fOHtohrahfEEruhn",
+      "formality": "casual",
+      "cultural_note": "Photography is prohibited in designated red-light zones in Zurich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein.",
+        "pronunciation": "nEYEn",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "nEYEn",
+          "french": "Nein."
+        }
+      ]
+    },
+    {
+      "id": "zurich_langstrasse_nightlife_district_002",
+      "intent_en": "Where is the cash machine on this street?",
+      "text_local": "Wo ist der Geldautomat hier?",
+      "pronunciation": "vOH-ihst-dehr-EHldowtohmAHt-hEEr",
+      "formality": "casual",
+      "cultural_note": "Cash machines are commonly located outside banks along Langstrasse.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei der UBS-Filiale.",
+        "pronunciation": "beye-dehr-OObEHEHsfEEleeAHluh",
+        "translation_en": "At the UBS branch."
+      },
+      "responses": [
+        {
+          "english": "At the UBS branch.",
+          "phonetic": "beye-dehr-OObEHEHsfEEleeAHluh",
+          "french": "Bei der UBS-Filiale."
+        }
+      ]
+    },
+    {
+      "id": "zurich_langstrasse_nightlife_district_003",
+      "intent_en": "Is there a cover charge at this club?",
+      "text_local": "Gibt es hier Eintritt?",
+      "pronunciation": "EEpt-ehs-hEEr-EYEntrIHt",
+      "formality": "casual",
+      "cultural_note": "Cover charges vary by club and day, often higher on weekends.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, 10–20 Franken.",
+        "pronunciation": "yAHtsEHn-tsvAHntsihkh-frAHngkuhn",
+        "translation_en": "Yes, 10–20 CHF."
+      },
+      "responses": [
+        {
+          "english": "Yes, 10–20 CHF.",
+          "phonetic": "yAHtsEHn-tsvAHntsihkh-frAHngkuhn",
+          "french": "Ja, 10–20 Franken."
+        }
+      ]
+    },
+    {
+      "id": "zurich_langstrasse_nightlife_district_004",
+      "intent_en": "Which tram runs to Langstrasse after midnight?",
+      "text_local": "Welche Tram fährt nach Mitternacht zur Langstrasse?",
+      "pronunciation": "vEHlkhuh-trAHm-fEHrt-nahkh-mIHtnAHkht-tsoor-lAHngshtrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Night trams in Zurich are indicated by 'N' prefix on schedules.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Linie 3 oder 14.",
+        "pronunciation": "lEEnee-uh-drEYE-OHd-fIHrtsehn",
+        "translation_en": "Line 3 or 14."
+      },
+      "responses": [
+        {
+          "english": "Line 3 or 14.",
+          "phonetic": "lEEnee-uh-drEYE-OHd-fIHrtsehn",
+          "french": "Linie 3 oder 14."
+        }
+      ]
+    },
+    {
+      "id": "zurich_langstrasse_nightlife_district_005",
+      "intent_en": "How do I get to Hohlstrasse 47 from here?",
+      "text_local": "Wie komme ich zu Hohlstrasse 47?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoo-hOHlstrahsuh-zEEbuhn-uhntfIHrtsihkh",
+      "formality": "casual",
+      "cultural_note": "Hohlstrasse 47 is a specific address; exact route depends on starting point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie hier geradeaus, dann links.",
+        "pronunciation": "gEHuhn-zee-hEEr-guhrAHdehOWsdahn-lINGks",
+        "translation_en": "Go straight ahead here, then left."
+      },
+      "responses": [
+        {
+          "english": "Go straight ahead here, then left.",
+          "phonetic": "gEHuhn-zee-hEEr-guhrAHdehOWsdahn-lINGks",
+          "french": "Gehen Sie hier geradeaus, dann links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

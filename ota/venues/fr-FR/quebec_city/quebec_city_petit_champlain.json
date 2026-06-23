@@ -1,0 +1,118 @@
+{
+  "id": "quebec_city_petit_champlain",
+  "name_en": "Quartier Petit-Champlain",
+  "name_local": "Quartier Petit-Champlain",
+  "icon": "bag",
+  "lat": 46.8115,
+  "lon": -71.2074,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "qc_pc_001",
+      "intent_en": "Ask for a boutique selling local Québec crafts",
+      "text_local": "Quelle boutique vend des produits artisanaux du Québec ?",
+      "pronunciation": "kel boo-TEEK vahn day pro-DWEE ar-tee-zah-NOH doo kay-BEK",
+      "formality": "polite",
+      "cultural_note": "Rue du Petit-Champlain is one of North America's oldest commercial streets. Many shops sell handcrafted local pottery, blown glass, and jewellery.",
+      "responses": [
+        {
+          "english": "There are several artisan shops on the street.",
+          "phonetic": "eel ee ah ploo-ZYUR boo-TEEK ar-tee-zah-NAHL soor lah ROO",
+          "french": "Il y a plusieurs boutiques artisanales sur la rue."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pc_002",
+      "intent_en": "Ask about the mural on the cliff wall",
+      "text_local": "C'est quoi la fresque sur la falaise ?",
+      "pronunciation": "say KWAH lah FRESK soor lah fah-LEZ",
+      "formality": "neutral",
+      "cultural_note": "The Fresque des Québécois is a massive trompe-l'oeil mural depicting key figures in Québec City history on a building wall near Place Royale.",
+      "responses": [
+        {
+          "english": "It is the Quebecers' mural, right there.",
+          "phonetic": "say lah FRESK day kay-bay-KWAH zhoost LAH",
+          "french": "C'est la fresque des Québécois, juste là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pc_003",
+      "intent_en": "Ask for directions to the funicular",
+      "text_local": "Le funiculaire pour monter en Haute-Ville, c'est par où ?",
+      "pronunciation": "luh foo-nee-kyoo-LAIR poor mon-TAY ahn oht-VEEL say par OO",
+      "formality": "neutral",
+      "cultural_note": "The funicular connects Basse-Ville to Haute-Ville and has operated since 1879. It's a short ride up the cliff face and a Québec City icon.",
+      "responses": [
+        {
+          "english": "The funicular is at the end of the street.",
+          "phonetic": "luh foo-nee-koo-LAIR eh toh BOO duh lah ROO",
+          "french": "Le funiculaire est au bout de la rue."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pc_004",
+      "intent_en": "Ask for a maple taffy on snow experience",
+      "text_local": "Y'a-tu un endroit pour faire de la tire d'érable sur neige par ici ?",
+      "pronunciation": "yah-TOO un on-DWAH poor FAIR duh lah TEER day-RAHBL soor NAYJ par ee-SEE",
+      "formality": "informal",
+      "cultural_note": "Tire sur neige (maple taffy on snow) is a Québec winter tradition where hot maple syrup is poured on snow and rolled up on a stick.",
+      "responses": [
+        {
+          "english": "Sugar shacks open in March.",
+          "phonetic": "lay kah-BAHN ah SOO-kruh OOV-ruh ahn MARS",
+          "french": "Les cabanes à sucre ouvrent en mars."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pc_005",
+      "intent_en": "Ask a shopkeeper to wrap a gift",
+      "text_local": "Pouvez-vous faire un emballage cadeau, s'il vous plaît ?",
+      "pronunciation": "poo-VAY voo FAIR un ahm-bah-LAHZH kah-DOH seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Most boutiques in Petit-Champlain offer gift wrapping, especially around Christmas when the neighbourhood becomes a magical winter scene.",
+      "responses": [
+        {
+          "english": "Yes, I will wrap it for you.",
+          "phonetic": "wee zhuh voo lahm-BAHL",
+          "french": "Oui, je vous l'emballe."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "funicular",
+      "word_local": "le funiculaire",
+      "pronunciation": "luh foo-nee-kyoo-LAIR"
+    },
+    {
+      "word_en": "maple taffy on snow",
+      "word_local": "la tire sur neige",
+      "pronunciation": "lah TEER soor NAYJ"
+    },
+    {
+      "word_en": "mural / fresco",
+      "word_local": "la fresque",
+      "pronunciation": "lah FRESK"
+    },
+    {
+      "word_en": "gift wrapping",
+      "word_local": "l'emballage cadeau",
+      "pronunciation": "lahm-bah-LAHZH kah-DOH"
+    }
+  ]
+}

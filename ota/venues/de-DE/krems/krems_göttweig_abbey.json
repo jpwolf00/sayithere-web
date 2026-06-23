@@ -1,0 +1,78 @@
+{
+  "id": "krems_göttweig_abbey",
+  "name_en": "Göttweig Abbey",
+  "name_local": "Stift Göttweig",
+  "icon": "building.columns",
+  "lat": 48.3665037,
+  "lon": 15.6123625,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "krems_göttweig_abbey_001",
+      "intent_en": "Where is the manuscript collection",
+      "text_local": "Wo ist die Handschriftensammlung?",
+      "pronunciation": "vOH-zEHuh-ihkh-dee-hAHntshrIHftuhnzAHmluhng",
+      "formality": "standard",
+      "cultural_note": "Die Handschriftensammlung ist Teil der Klosterbibliothek und nur mit Unterstützung des Bibliothekars zugänglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Obergeschoss der Bibliothek.",
+        "pronunciation": "ihm-OHbguhshAWs-dehr-bIHblihohtEHk",
+        "translation_en": "On the upper floor of the library."
+      },
+      "responses": [
+        {
+          "english": "On the upper floor of the library.",
+          "phonetic": "ihm-OHbguhshAWs-dehr-bIHblihohtEHk",
+          "french": "Im Obergeschoss der Bibliothek."
+        }
+      ]
+    },
+    {
+      "id": "krems_göttweig_abbey_002",
+      "intent_en": "Where is the Baroque staircase",
+      "text_local": "Wo finde ich die barocke Freitreppe?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-bAHrawkuh-frEYEtrehpuh",
+      "formality": "standard",
+      "cultural_note": "Die barocke Freitreppe ist ein zentrales architektonisches Merkmal und wird durch Hinweisschilder im Stift Göttweig markiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Freitreppe ist am Haupteingang.",
+        "pronunciation": "dee-frEYEtrehpuh-ihst-ahm-hOWptEYEngAHng",
+        "translation_en": "The staircase is at the main entrance."
+      },
+      "responses": [
+        {
+          "english": "The staircase is at the main entrance.",
+          "phonetic": "dee-frEYEtrehpuh-ihst-ahm-hOWptEYEngAHng",
+          "french": "Die Freitreppe ist am Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "krems_göttweig_abbey_003",
+      "intent_en": "Where can I buy monastery wine",
+      "text_local": "Wo kann ich Klosterwein kaufen?",
+      "pronunciation": "vOH-kAHn-ihkh-klAWstvEYEn-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Der Klosterwein wird im eigenen Laden des Stiftes Göttweig verkauft, der oft mit dem Restaurant verbunden ist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Klosterladen.",
+        "pronunciation": "ihm-klAWstlAHduhn",
+        "translation_en": "At the monastery shop."
+      },
+      "responses": [
+        {
+          "english": "At the monastery shop.",
+          "phonetic": "ihm-klAWstlAHduhn",
+          "french": "Im Klosterladen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

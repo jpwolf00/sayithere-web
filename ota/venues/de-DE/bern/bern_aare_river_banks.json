@@ -1,0 +1,78 @@
+{
+  "id": "bern_aare_river_banks",
+  "name_en": "Aare River Banks",
+  "name_local": "Aareufer",
+  "icon": "map",
+  "lat": 46.9690059,
+  "lon": 7.4124214,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "bern_aare_river_banks_001",
+      "intent_en": "Where is Marzili bath entrance",
+      "text_local": "Wo ist der Eingang zu den Marzili-Bädern?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoo-dehn-mAHrtseelEEbEHdn",
+      "formality": "standard",
+      "cultural_note": "Directions are typically given relative to the riverbank path and the Marzili area. Locals may refer to 'Marzili' as the broader bathing zone rather than just the official entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Einfach den Weg runter.",
+        "pronunciation": "EYEnfAHkh-dehn-vEHk-rUHnt",
+        "translation_en": "Just go down the path."
+      },
+      "responses": [
+        {
+          "english": "Just go down the path.",
+          "phonetic": "EYEnfAHkh-dehn-vEHk-rUHnt",
+          "french": "Einfach den Weg runter."
+        }
+      ]
+    },
+    {
+      "id": "bern_aare_river_banks_002",
+      "intent_en": "Where is riverside cafe payment spot",
+      "text_local": "Wo kann ich am Flusscafé bezahlen?",
+      "pronunciation": "vOH-kAHn-ihkh-ahm-flUHskahfEH-buhtsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Payment is usually handled at the counter near the seating area. Outdoor service points are common along the riverbank.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Caféterrassen-Schalter.",
+        "pronunciation": "ahm-kAHfehtrAHsuhnshAHlt",
+        "translation_en": "At the café terrace counter."
+      },
+      "responses": [
+        {
+          "english": "At the café terrace counter.",
+          "phonetic": "ahm-kAHfehtrAHsuhnshAHlt",
+          "french": "Am Caféterrassen-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "bern_aare_river_banks_003",
+      "intent_en": "Where do I return rental bike",
+      "text_local": "Wo gebe ich das Leihrad zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-dahs-lEYEhraht-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Bike rentals often have designated return spots near parking areas like Eichholz. Staff will direct to the nearest kiosk or staffed counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Rückgabepunkt.",
+        "pronunciation": "ahm-rUEkahbuhpUHngkt",
+        "translation_en": "At the return point."
+      },
+      "responses": [
+        {
+          "english": "At the return point.",
+          "phonetic": "ahm-rUEkahbuhpUHngkt",
+          "french": "Am Rückgabepunkt."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

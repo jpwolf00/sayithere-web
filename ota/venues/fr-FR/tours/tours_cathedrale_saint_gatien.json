@@ -1,0 +1,115 @@
+{
+  "id": "tours_cathedrale_saint_gatien",
+  "name_en": "Cathedral of Saint-Gatien",
+  "name_local": "Cathédrale Saint-Gatien de Tours",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "tours_gatien_001",
+      "intent_en": "Ask what time the cathedral opens",
+      "text_local": "À quelle heure ouvre la cathédrale ?",
+      "pronunciation": "ah kel UR OOV-ruh lah kah-tay-DRAHL",
+      "formality": "polite",
+      "cultural_note": "The cathedral is free to enter.",
+      "responses": [
+        {
+          "english": "At nine o'clock.",
+          "phonetic": "ah NUH-VUR",
+          "french": "À neuf heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_gatien_002",
+      "intent_en": "Ask if there is a cloister to visit",
+      "text_local": "Est-ce qu'il y a un cloître à visiter ?",
+      "pronunciation": "ess keel ee ah uhn KLWAT-ruh ah vee-zee-TAY",
+      "formality": "polite",
+      "cultural_note": "The Cloître de la Psalette is adjacent to the cathedral. A separate ticket is needed.",
+      "responses": [
+        {
+          "english": "Yes, the Psalette cloister. Entry is paid.",
+          "phonetic": "wee luh KLWAT-ruh duh lah psah-LET lahn-TRAY eh pay-YAHNT",
+          "french": "Oui, le cloître de la Psalette. L'entrée est payante."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_gatien_003",
+      "intent_en": "Ask where the cloister of La Psalette is",
+      "text_local": "Où se trouve le cloître de la Psalette ?",
+      "pronunciation": "oo suh TROOV luh KLWA-truh duh lah psah-LET",
+      "formality": "polite",
+      "cultural_note": "La Psalette is the name of the cathedral's Gothic cloister, located on the north side. It served as the residence of the canons and is open for visits.",
+      "responses": [
+        {
+          "english": "Through the small door, to the right of the cathedral.",
+          "phonetic": "par lah puh-TEET PORT ah DRWAHT duh lah kah-tay-DRAHL",
+          "french": "Par la petite porte, à droite de la cathédrale."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_gatien_004",
+      "intent_en": "Ask if there are organ concerts during the summer",
+      "text_local": "Y a-t-il des concerts d'orgue pendant l'été ?",
+      "pronunciation": "ee ah-TEEL day kon-SAIR DOR-guh pahn-DAHN lay-TAY",
+      "formality": "polite",
+      "cultural_note": "The cathedral hosts regular organ recitals in summer. The grand organ dates from the 17th century and has been restored several times.",
+      "responses": [
+        {
+          "english": "You need to check the programme on the website.",
+          "phonetic": "eel foh vay-ree-FYAY luh proh-GRAM soor luh SEET",
+          "french": "Il faut vérifier le programme sur le site."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_gatien_005",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Est-ce qu'on peut prendre des photos à l'intérieur ?",
+      "pronunciation": "ess kohn PUH PRAHN-druh day foh-TOH ah lahn-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "Photography without flash is generally permitted in French cathedrals.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "stained glass window",
+      "word_local": "le vitrail (pl. vitraux)",
+      "pronunciation": "luh vee-TRY (vee-TROH)"
+    },
+    {
+      "word_en": "cloister",
+      "word_local": "le cloître",
+      "pronunciation": "luh KLWA-truh"
+    },
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "organ",
+      "word_local": "l'orgue",
+      "pronunciation": "LOR-guh"
+    }
+  ]
+}

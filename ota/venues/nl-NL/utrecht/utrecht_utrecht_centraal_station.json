@@ -1,0 +1,34 @@
+{
+  "id": "utrecht_utrecht_centraal_station",
+  "name_en": "Utrecht Centraal Station",
+  "name_local": "Station Utrecht Centraal",
+  "icon": "tram",
+  "lat": 52.0893925,
+  "lon": 5.109821,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "utrecht_utrecht_centraal_station_001",
+      "intent_en": "How do I top up my OV-chipkaart at gates",
+      "text_local": "Hoe laad ik mijn OV-chipkaart op bij de poortjes?",
+      "pronunciation": "hOO-lAHt-ihk-mehihn-OHfEHtshIHpkahrt-awp-behih-duh-pAWrtuhs",
+      "formality": "casual",
+      "cultural_note": "OV-chipkaart top-up at gates is a common, automated process.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Houd kaart tegen lezer bij uitgang.",
+        "pronunciation": "hUHuht-kAHr-tEHghuhn-lEHzuhr-behih-UHuetghAHng",
+        "translation_en": "Hold card at reader by exit."
+      },
+      "responses": [
+        {
+          "english": "Hold card at reader by exit.",
+          "phonetic": "hUHuht-kAHr-tEHghuhn-lEHzuhr-behih-UHuetghAHng",
+          "french": "Houd kaart tegen lezer bij uitgang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

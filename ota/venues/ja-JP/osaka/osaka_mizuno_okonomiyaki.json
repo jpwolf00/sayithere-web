@@ -1,0 +1,100 @@
+{
+  "id": "osaka_mizuno_okonomiyaki",
+  "name_en": "Mizuno Okonomiyaki",
+  "name_local": "お好み焼き 美津の",
+  "icon": "fork.knife",
+  "lat": 34.6684527,
+  "lon": 135.5030691,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "osaka_mizuno_okonomiyaki_001",
+      "intent_en": "Where is the teppan griddle table",
+      "text_local": "てっぱんの テーブルは どこですか？",
+      "pronunciation": "tehhpNnoh-tEHehbooOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The best seats for okonomiyaki are at the counter surrounding the large teppan griddle, where you can watch the master cook. The staff will guide you to your specific seat.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おくの カウンターです。",
+        "pronunciation": "ohkOOnoh-kOOntdEHsoo",
+        "translation_en": "It's the counter in the back."
+      },
+      "responses": [
+        {
+          "english": "It's the counter in the back.",
+          "phonetic": "ohkOOnoh-kOOntdEHsoo",
+          "french": "おくの カウンターです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_mizuno_okonomiyaki_002",
+      "intent_en": "Where do I write my name for waitlist",
+      "text_local": "なまえを かくところは どこですか？",
+      "pronunciation": "nMEHoh-kKootOHkohOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many popular Osaka restaurants use a clipboard or whiteboard hung outside for self-service waitlisting. Write your name clearly and wait to be called.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "そとの ボードに かいてください。",
+        "pronunciation": "sohtOHnoh-bohohdOHnee-kEEtEHkoodsEE",
+        "translation_en": "Please write it on the board outside."
+      },
+      "responses": [
+        {
+          "english": "Please write it on the board outside.",
+          "phonetic": "sohtOHnoh-bohohdOHnee-kEEtEHkoodsEE",
+          "french": "そとの ボードに かいてください。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_mizuno_okonomiyaki_003",
+      "intent_en": "Is the Mizuno yaki available now",
+      "text_local": "みずのやきは いま ありますか？",
+      "pronunciation": "mEEzoonOHykEEh-EEm-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Mizuno yaki is the house specialty, a hearty mix of pork, squid, shrimp, and more. It is almost always available as it is the signature dish.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ありますよ。",
+        "pronunciation": "hEEEEmsOOyoh",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "hEEEEmsOOyoh",
+          "french": "はい、ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_mizuno_okonomiyaki_004",
+      "intent_en": "Do I pay at the table or counter",
+      "text_local": "おかいけいは テーブルですか、レジですか？",
+      "pronunciation": "OHkEEkehEEh-tEHehbooOOdehsOOkEHdeedehsOOk",
+      "formality": "standard",
+      "cultural_note": "It is common in casual okonomiyaki restaurants to take your bill to a register near the entrance to pay after your meal, rather than paying at the table.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "レジで おねがいします。",
+        "pronunciation": "ehdEEdeh-OHnehgEEeemSoo",
+        "translation_en": "Please pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Please pay at the counter.",
+          "phonetic": "ehdEEdeh-OHnehgEEeemSoo",
+          "french": "レジで おねがいします。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

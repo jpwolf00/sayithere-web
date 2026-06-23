@@ -1,0 +1,122 @@
+{
+  "id": "liberec_liberec_town_hall",
+  "name_en": "Liberec Town Hall",
+  "name_local": "Liberecká radnice",
+  "icon": "building.columns",
+  "lat": 50.7432657,
+  "lon": 15.0926198,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "liberec_liberec_town_hall_001",
+      "intent_en": "Where is the tourist information desk inside",
+      "text_local": "Kde je uvnitř turistické informační centrum?",
+      "pronunciation": "kdEH-yeh-OOvnyeetr-tOOreestEEtskeh-EEnfohrmAHtshnyee-tsEHntroom",
+      "formality": "standard",
+      "cultural_note": "Town halls often house a small tourist info point in the lobby.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V přízemí, hned za hlavním vchodem.",
+        "pronunciation": "v-prEEzehmeehnEHd-zAHhlahvnyeem-fkhOHdehm",
+        "translation_en": "On the ground floor, right behind the main entrance."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, right behind the main entrance.",
+          "phonetic": "v-prEEzehmeehnEHd-zAHhlahvnyeem-fkhOHdehm",
+          "french": "V přízemí, hned za hlavním vchodem."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_town_hall_002",
+      "intent_en": "Must I remove my hat in the council chamber",
+      "text_local": "Musím si v zasedací síni sundat klobouk?",
+      "pronunciation": "mOOseem-see-v-zAHsehdAHtsee-sEEnyee-sOOndaht-klOHbohk",
+      "formality": "standard",
+      "cultural_note": "Removing hats indoors, especially in formal rooms, is standard Czech etiquette.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, pánové si klobouk sundávají.",
+        "pronunciation": "AHnohpAHnohveh-see-klOHbohk-sOOndahvAHyee",
+        "translation_en": "Yes, gentlemen remove their hats."
+      },
+      "responses": [
+        {
+          "english": "Yes, gentlemen remove their hats.",
+          "phonetic": "AHnohpAHnohveh-see-klOHbohk-sOOndahvAHyee",
+          "french": "Ano, pánové si klobouk sundávají."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_town_hall_003",
+      "intent_en": "How do I book the wedding hall",
+      "text_local": "Jak si můžu zarezervovat obřadní síň?",
+      "pronunciation": "yAHk-see-mOOzhoo-zAHrehzEHrvohvaht-OHbrahdnyee-sEEny",
+      "formality": "standard",
+      "cultural_note": "Wedding hall bookings are handled by the matrika (registry office), not a general reception.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vyplňte žádost na matrice a přineste doklady.",
+        "pronunciation": "vEEplnyteh-zhAHdohst-nAHmahtrEEtseh-ah-prEEnehsteh-dOHklahdee",
+        "translation_en": "Fill out a request at the registry office and bring your documents."
+      },
+      "responses": [
+        {
+          "english": "Fill out a request at the registry office and bring your documents.",
+          "phonetic": "vEEplnyteh-zhAHdohst-nAHmahtrEEtseh-ah-prEEnehsteh-dOHklahdee",
+          "french": "Vyplňte žádost na matrice a přineste doklady."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_town_hall_004",
+      "intent_en": "When is the clock tower open for visitors",
+      "text_local": "Kdy je otevřená věž s hodinami pro návštěvníky?",
+      "pronunciation": "kdEE-yeh-OHtehvrEHnah-vyEHsh-s-hOHeenAHmee-proh-nAHfshehvnyEEkee",
+      "formality": "standard",
+      "cultural_note": "Tower hours are often limited and separate from the main building hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Od desíti do šestnácti hodin.",
+        "pronunciation": "OHddehsEEee-dOHshehstnAHtsee-hOHeen",
+        "translation_en": "From ten to four o'clock."
+      },
+      "responses": [
+        {
+          "english": "From ten to four o'clock.",
+          "phonetic": "OHddehsEEee-dOHshehstnAHtsee-hOHeen",
+          "french": "Od desíti do šestnácti hodin."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_town_hall_005",
+      "intent_en": "Where do I buy guided tour tickets",
+      "text_local": "Kde si můžu koupit lístky na prohlídku?",
+      "pronunciation": "kdEH-see-mOOzhoo-kOHpeet-lEEstkee-nAHprohhlEEtkoo",
+      "formality": "standard",
+      "cultural_note": "Czech ticket offices are typically separate from the main reception.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V pokladně vpravo od vstupu.",
+        "pronunciation": "v-pOHklahdnyeh-fprAHvoh-OHdfstoopoo",
+        "translation_en": "At the ticket office to the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket office to the right of the entrance.",
+          "phonetic": "v-pOHklahdnyeh-fprAHvoh-OHdfstoopoo",
+          "french": "V pokladně vpravo od vstupu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

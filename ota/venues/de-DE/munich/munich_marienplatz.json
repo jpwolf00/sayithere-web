@@ -1,0 +1,78 @@
+{
+  "id": "munich_marienplatz",
+  "name_en": "Marienplatz",
+  "name_local": "Marienplatz",
+  "icon": "building.columns",
+  "lat": 48.1371436,
+  "lon": 11.5753989,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "munich_marienplatz_001",
+      "intent_en": "How do I get to the Rathaus restaurant?",
+      "text_local": "Wo ist das Restaurant im Rathaus?",
+      "pronunciation": "vOH-ihst-dahs-rEHstohrAH-ihm-rAHtows",
+      "formality": "standard",
+      "cultural_note": "Rathaus buildings in Germany often have information desks at main entrances for services like restaurants.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Das Restaurant ist im ersten Stock.",
+        "pronunciation": "dahs-rEHstohrAH-ihst-ihm-EHrstuhn-shtAWk",
+        "translation_en": "The restaurant is on the first floor."
+      },
+      "responses": [
+        {
+          "english": "The restaurant is on the first floor.",
+          "phonetic": "dahs-rEHstohrAH-ihst-ihm-EHrstuhn-shtAWk",
+          "french": "Das Restaurant ist im ersten Stock."
+        }
+      ]
+    },
+    {
+      "id": "munich_marienplatz_002",
+      "intent_en": "Where is the S-Bahn to the airport?",
+      "text_local": "Wo fährt die S-Bahn zum Flughafen ab?",
+      "pronunciation": "vOH-fEHrt-dee-EHsbAHn-tsuhm-flOOhahfuhn-AHp",
+      "formality": "standard",
+      "cultural_note": "In Munich, S-Bahn and U-Bahn lines are typically signposted with clear symbols and colors; no need to specify exact direction.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die S-Bahn ist unten im Bahnhof.",
+        "pronunciation": "dee-EHsbAHn-ihst-UHntuhn-ihm-bAHnhohf",
+        "translation_en": "The S-Bahn is downstairs in the station."
+      },
+      "responses": [
+        {
+          "english": "The S-Bahn is downstairs in the station.",
+          "phonetic": "dee-EHsbAHn-ihst-UHntuhn-ihm-bAHnhohf",
+          "french": "Die S-Bahn ist unten im Bahnhof."
+        }
+      ]
+    },
+    {
+      "id": "munich_marienplatz_003",
+      "intent_en": "Where is the best view of St. Peter's church?",
+      "text_local": "Wo habe ich die beste Aussicht auf St. Peter?",
+      "pronunciation": "vOH-EEpt-ehs-dee-bEHstuh-OWszIHkht-owf-EHstEHpEHt",
+      "formality": "standard",
+      "cultural_note": "St. Peter's church in Munich offers a panoramic view from its tower, a common attraction requiring a small fee.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vom Petersplatz aus.",
+        "pronunciation": "fawm-pEHtsplAHts-OWs",
+        "translation_en": "From Petersplatz."
+      },
+      "responses": [
+        {
+          "english": "From Petersplatz.",
+          "phonetic": "fawm-pEHtsplAHts-OWs",
+          "french": "Vom Petersplatz aus."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

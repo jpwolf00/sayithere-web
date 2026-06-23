@@ -1,0 +1,115 @@
+{
+  "id": "aix_fondation_vasarely",
+  "name_en": "Fondation Vasarely",
+  "name_local": "Fondation Vasarely",
+  "icon": "eye.fill",
+  "phrases": [
+    {
+      "id": "aix_vasarely_001",
+      "intent_en": "Ask for tickets to the foundation",
+      "text_local": "Je voudrais deux billets pour la Fondation Vasarely, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DREH duh bee-YEH poor lah fohn-dah-SYOHN vah-zah-reh-LEE, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The Fondation Vasarely was designed by the artist himself and opened in 1976. Its distinctive hexagonal building made up of black-and-white geometric modules is itself a Vasarely artwork. It is located on the Jas de Bouffan estate west of the city centre.",
+      "responses": [
+        {
+          "english": "Twelve euros, please.",
+          "phonetic": "dooz uh-ROH, seel voo PLEH",
+          "french": "Douze euros, s'il vous plaît."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_vasarely_002",
+      "intent_en": "Ask if photos are allowed inside",
+      "text_local": "Est-ce qu'on peut prendre des photos à l'intérieur ?",
+      "pronunciation": "es-kohn puh PRAHN-druh day foh-TOH ah lehn-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Many museums in France allow photography without flash. The Fondation Vasarely's large-scale works are particularly photogenic.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_vasarely_003",
+      "intent_en": "Ask if there is an audio guide available",
+      "text_local": "Y a-t-il un audioguide disponible ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dee-oh-GHEED dees-poh-NEE-bluh",
+      "formality": "polite",
+      "cultural_note": "The foundation offers guided tours in French and English on selected days. The permanent collection features 44 monumental works arranged in hexagonal cells, creating an immersive environment unlike any conventional museum.",
+      "responses": [
+        {
+          "english": "Yes, at reception. Five euros.",
+          "phonetic": "wee, ah lah-KUHY. sehnk uh-ROH",
+          "french": "Oui, à l'accueil. Cinq euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_vasarely_004",
+      "intent_en": "Ask if there is a student discount",
+      "text_local": "Y a-t-il un tarif réduit pour les étudiants ?",
+      "pronunciation": "ee ah-TEEL uhn tah-REEF ray-DWEE poor lay zay-too-DYAHN",
+      "formality": "polite",
+      "cultural_note": "Most French museums offer reduced rates for students (under 26 with valid ID) and free entry for under-18s.",
+      "responses": [
+        {
+          "english": "Yes, with a student card.",
+          "phonetic": "wee, ah-VEK oon kart ay-too-DYAHNT",
+          "french": "Oui, avec une carte étudiante."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_vasarely_005",
+      "intent_en": "Ask how to get there from the city centre",
+      "text_local": "Comment se rendre à la Fondation depuis le centre-ville ?",
+      "pronunciation": "koh-MAHN suh RAHN-druh ah lah fohn-dah-SYOHN duh-PWEE luh SAHN-truh veel",
+      "formality": "standard",
+      "cultural_note": "The Fondation Vasarely is about 2 km west of the Cours Mirabeau, accessible by bus or a 25-minute walk. It is near the Jas de Bouffan district, which also has historical connections to Cézanne whose family owned the estate.",
+      "responses": [
+        {
+          "english": "It's marked on the map.",
+          "phonetic": "seh ehn-dee-KAY soor luh PLAHN",
+          "french": "C'est indiqué sur le plan."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Foundation / Arts centre",
+      "word_local": "La fondation",
+      "pronunciation": "lah fohn-dah-SYOHN"
+    },
+    {
+      "word_en": "Optical illusion",
+      "word_local": "L'illusion d'optique",
+      "pronunciation": "lee-loo-ZYOHN dop-TEEK"
+    },
+    {
+      "word_en": "Geometric",
+      "word_local": "Géométrique",
+      "pronunciation": "zhay-oh-may-TREEK"
+    },
+    {
+      "word_en": "Contemporary art",
+      "word_local": "L'art contemporain",
+      "pronunciation": "lar kohn-tahm-poh-REHN"
+    }
+  ]
+}

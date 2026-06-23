@@ -1,0 +1,115 @@
+{
+  "id": "monaco_jardin_exotique",
+  "name_en": "Monaco Exotic Garden",
+  "name_local": "Jardin Exotique de Monaco",
+  "icon": "leaf",
+  "phrases": [
+    {
+      "id": "monaco_je_001",
+      "intent_en": "Ask about opening hours",
+      "text_local": "Le jardin est-il ouvert aujourd'hui ?",
+      "pronunciation": "luh zhar-DAN eh-TEEL oo-VEHR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The Exotic Garden is open year-round but hours vary by season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, from 9 AM to 6 PM.",
+          "phonetic": "wee, duh nuhf UHR ah dee-ZWEET UHR",
+          "french": "Oui, de neuf heures à dix-huit heures."
+        }
+      ]
+    },
+    {
+      "id": "monaco_je_002",
+      "intent_en": "Ask about the cave system",
+      "text_local": "Peut-on visiter les grottes du jardin ?",
+      "pronunciation": "puh-TOHN vee-zee-TAY lay grot doo zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "Beneath the garden lies a network of prehistoric caves with stalactites and stalagmites. Guided tours are available in several languages.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the guided cave tour is included in the ticket.",
+          "phonetic": "",
+          "french": "Oui, la visite guidée des grottes est incluse dans le billet."
+        }
+      ]
+    },
+    {
+      "id": "monaco_je_003",
+      "intent_en": "Ask about the view over Monaco",
+      "text_local": "Y a-t-il une vue panoramique sur Monaco depuis le jardin ?",
+      "pronunciation": "ee-ah-TEEL un VOO pan-oh-RA-meek soor moh-nah-KOH duh-POO luh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "The garden's elevated position provides sweeping views over Monaco's harbor, the Larvotto coastline, and into France.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, from the terrace, panoramic view of all of Monaco.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "Oui, depuis la terrasse, vue panoramique sur tout Monaco."
+        }
+      ]
+    },
+    {
+      "id": "monaco_je_004",
+      "intent_en": "Ask about the observatory",
+      "text_local": "Y a-t-il un observatoire dans le jardin ?",
+      "pronunciation": "ee-ah-TEEL un op-zair-vah-TWAR don luh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "The Observatory Cave features a small astronomical observatory at its entrance. Night visits for stargazing are occasionally organized.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, at the entrance of the Observatory Cave.",
+          "phonetic": "",
+          "french": "Oui, à l'entrée de la Grotte de l'Observatoire."
+        }
+      ]
+    },
+    {
+      "id": "monaco_je_005",
+      "intent_en": "Ask about entrance fees",
+      "text_local": "Quel est le tarif d'entrée ?",
+      "pronunciation": "kel eh luh tah-REEF don-TRAY",
+      "formality": "polite",
+      "cultural_note": "Combined tickets for the garden and cave are available. The cave can be damp and cool — bring a light jacket even in summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Ten euros for adults. Combined tickets available.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Dix euros pour les adultes. Billets combinés disponibles."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "exotic garden",
+      "word_local": "le jardin exotique",
+      "pronunciation": "luh zhar-DAN ek-soh-TEEK"
+    },
+    {
+      "word_en": "succulent",
+      "word_local": "la succulente",
+      "pronunciation": "lah sook-oo-LONT"
+    },
+    {
+      "word_en": "cave",
+      "word_local": "la grotte",
+      "pronunciation": "lah grot"
+    },
+    {
+      "word_en": "viewpoint",
+      "word_local": "le point de vue",
+      "pronunciation": "luh pwan duh VOO"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "linz_ars_electronica_center",
+  "name_en": "Ars Electronica Center",
+  "name_local": "Ars Electronica Center",
+  "icon": "building.columns",
+  "lat": 48.3098861,
+  "lon": 14.2845997,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "linz_ars_electronica_center_001",
+      "intent_en": "Can I book a workshop for today",
+      "text_local": "Kann ich heute einen Workshop buchen?",
+      "pronunciation": "kAHn-ihkh-hAWuhtuh-EYEnuhn-ehnwKshpdeh-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Workshops müssen online gebucht werden; keine spontane Buchung vor Ort möglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Online prüfen.",
+        "pronunciation": "ehnNleyendeh-prUEfuhn",
+        "translation_en": "Check online."
+      },
+      "responses": [
+        {
+          "english": "Check online.",
+          "phonetic": "ehnNleyendeh-prUEfuhn",
+          "french": "Online prüfen."
+        }
+      ]
+    },
+    {
+      "id": "linz_ars_electronica_center_002",
+      "intent_en": "Must I pay café at the counter",
+      "text_local": "Muss ich im Café an der Kasse zahlen?",
+      "pronunciation": "mUHs-ihkh-ihm-kahfEH-ahn-dehr-kAHsuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Standardzahlweise in deutschen Cafés: Barzahlung am Tresen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tresen.",
+        "pronunciation": "yAHahm-trEHzuhn",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-trEHzuhn",
+          "french": "Ja, am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "linz_ars_electronica_center_003",
+      "intent_en": "Where is the Deep Space 8K ticket desk",
+      "text_local": "Wo ist der Ticketschalter für Deep Space 8K?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtshAHlt-fuer-dEHp-ehnspAYsdeh-AHkht-kAH",
+      "formality": "standard",
+      "cultural_note": "Tickets werden nur im Erdgeschoss verkauft; direkte Wegweisung ohne Stockwerksangabe.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Erdgeschoss.",
+        "pronunciation": "ahm-shAHlt-ihm-ehrdEHshaws",
+        "translation_en": "At the counter on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "At the counter on the ground floor.",
+          "phonetic": "ahm-shAHlt-ihm-ehrdEHshaws",
+          "french": "Am Schalter im Erdgeschoss."
+        }
+      ]
+    },
+    {
+      "id": "linz_ars_electronica_center_004",
+      "intent_en": "Where is the Virtual Reality Lab",
+      "text_local": "Wo ist das Virtual Reality Lab?",
+      "pronunciation": "vOH-ihst-dahs-vIHrtooAHl-ehnrihAHlihteedeh-lAHp",
+      "formality": "standard",
+      "cultural_note": "Keine feste Wegweisung; Staff ist primäre Anlaufstelle für Labore.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im ersten Stock links.",
+        "pronunciation": "ihm-EHrstuhn-shtAWk-lINGks",
+        "translation_en": "On the first floor on the left."
+      },
+      "responses": [
+        {
+          "english": "On the first floor on the left.",
+          "phonetic": "ihm-EHrstuhn-shtAWk-lINGks",
+          "french": "Im ersten Stock links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

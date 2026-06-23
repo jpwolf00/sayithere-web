@@ -1,0 +1,115 @@
+{
+  "id": "monaco_musee_oceanographique",
+  "name_en": "Oceanographic Museum of Monaco",
+  "name_local": "Musée Océanographique de Monaco",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "monaco_mo_001",
+      "intent_en": "Ask about the aquarium sections",
+      "text_local": "Quelles sont les sections de l'aquarium ?",
+      "pronunciation": "kel son lay suh-SYOHN duh lah-kwar-YOM",
+      "formality": "polite",
+      "cultural_note": "The museum houses one of Europe's oldest aquariums, with over 6,000 marine species across Mediterranean, tropical, and shark tanks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Mediterranean, tropical, and sharks, spread across two levels.",
+          "phonetic": "",
+          "french": "Méditerranée, tropical et requins, répartis sur deux niveaux."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mo_002",
+      "intent_en": "Ask about the ticket price",
+      "text_local": "Combien coûte l'entrée du musée ?",
+      "pronunciation": "kom-BYAN KOOT lahn-TRAY doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The Oceanographic Museum is one of Monaco's top attractions. Ticket prices vary for adults, children, and families.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's posted at the ticket office, over there at the entrance.",
+          "phonetic": "say ah-fee-SHAY oh gee-SHAY, lah-BAH ah lahn-TRAY",
+          "french": "C'est affiché au guichet, là-bas à l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mo_003",
+      "intent_en": "Ask about the shark feeding times",
+      "text_local": "À quelle heure a lieu le nourrissage des requins ?",
+      "pronunciation": "ah kel UHR ah lee-OO luh noo-REE-sahzh day ruh-KAN",
+      "formality": "polite",
+      "cultural_note": "Shark feeding sessions are usually scheduled on Tuesday and Thursday afternoons — check the daily schedule at the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The schedule is posted at the aquarium entrance.",
+          "phonetic": "say tah DOOZ ur trahn-TAH",
+          "french": "Les horaires sont affichés à l'entrée de l'aquarium."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mo_004",
+      "intent_en": "Ask about the museum's height and views",
+      "text_local": "Y a-t-il une vue sur la mer depuis le musée ?",
+      "pronunciation": "ee-ah-TEEL un VOO soor lah MARE duh-POO luh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum sits on a cliff 85 meters above sea level. The rooftop offers spectacular Mediterranean views even if you don't enter the aquarium.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, magnificent view from the rooftop terrace.",
+          "phonetic": "say ahn-vee-ROHN duh kee-loh-METR",
+          "french": "Oui, magnifique vue depuis le toit-terrasse."
+        }
+      ]
+    },
+    {
+      "id": "monaco_mo_005",
+      "intent_en": "Ask about the turtle rehabilitation center",
+      "text_local": "Où se trouve le centre de réhabilitation des tortues ?",
+      "pronunciation": "oo seh TROOV luh sontr duh ray-ah-bee-lee-tah-SYOHN day tor-TOO",
+      "formality": "polite",
+      "cultural_note": "Monaco's aquarium runs a sea turtle rehabilitation program. Visitors can sometimes see injured turtles being treated before release back into the wild.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the second floor, near the aquarium exit.",
+          "phonetic": "",
+          "french": "Au deuxième étage, près de la sortie de l'aquarium."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "oceanographic museum",
+      "word_local": "le musée océanographique",
+      "pronunciation": "luh moo-ZAY oh-say-ah-noh-gra-FEEK"
+    },
+    {
+      "word_en": "aquarium",
+      "word_local": "l'aquarium",
+      "pronunciation": "lah-kwar-YOM"
+    },
+    {
+      "word_en": "shark",
+      "word_local": "le requin",
+      "pronunciation": "luh ruh-KAN"
+    },
+    {
+      "word_en": "turtle",
+      "word_local": "la tortue",
+      "pronunciation": "lah tor-TOO"
+    }
+  ]
+}

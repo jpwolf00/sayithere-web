@@ -1,0 +1,118 @@
+{
+  "id": "marseille_centre_vieux_port",
+  "name_en": "Centre / Vieux-Port",
+  "name_local": "Centre / Vieux-Port",
+  "icon": "building.2",
+  "lat": 43.2965,
+  "lon": 5.3698,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "marseille_nbhd_centre_001",
+      "intent_en": "Ask about the main shopping street",
+      "text_local": "Quelle est la principale rue commerçante ?",
+      "pronunciation": "kel eh lah pran-see-PAL roo koh-mair-SAHNT",
+      "formality": "polite",
+      "cultural_note": "La Canebière is the main shopping boulevard, running from the station to the port. It's sometimes called 'the Champs-Élysées of the South'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's La Canebière, from the train station to the Old Port.",
+          "phonetic": "",
+          "french": "La Canebière est la principale rue commerçante. Elle s'étend de la gare Saint-Charles jusqu'au Vieux-Port."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_centre_002",
+      "intent_en": "Ask about the nearest pharmacy",
+      "text_local": "Où est la pharmacie la plus proche ?",
+      "pronunciation": "oo eh lah far-mah-SEE lah ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "Pharmacies are indicated by a green cross. There's a large one on La Canebière open late.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On La Canebière, with a large green cross.",
+          "phonetic": "",
+          "french": "La pharmacie la plus proche est sur La Canebière, reconnaissable à sa grande croix verte. Elle est ouverte tard le soir."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_centre_003",
+      "intent_en": "Ask how to get to the metro",
+      "text_local": "Où est la station de métro la plus proche ?",
+      "pronunciation": "oo eh lah stah-SYON duh may-TROH lah ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "The main metro station is 'Réformés' on line 1. It connects to the train station and the coast.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Réformés metro station, line 1, is this way.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Le centre-ville se situe autour du Vieux-Port, notamment dans les quartiers du Panier et de la Canebière."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_centre_004",
+      "intent_en": "Ask about cash withdrawals",
+      "text_local": "Y a-t-il un distributeur automatique de billets ?",
+      "pronunciation": "ee ah-TEEL uhn dees-treh-bee-TEUR oh-toh-mah-TEEK duh bee-YAY",
+      "formality": "polite",
+      "cultural_note": "ATMs are everywhere in the center. Most accept international cards. Watch for fees from your bank.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are several ATMs in the city center, especially near the station and the Vieux-Port.",
+          "phonetic": "wee, nor-mal-MAHN wee, may vay-ree-fee-AY sur plahs",
+          "french": "Oui, il y a plusieurs distributeurs automatiques dans le centre-ville, notamment près de la gare et du Vieux-Port."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_centre_005",
+      "intent_en": "Ask about the best panoramic view",
+      "text_local": "D'où est la meilleure vue panoramique ?",
+      "pronunciation": "oo eh lah may-YUHR VOO pah-noh-Rah-MEEK",
+      "formality": "polite",
+      "cultural_note": "For the best views, head to Notre-Dame de la Garde basilica on the hill above the port. The walk takes 20 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Notre-Dame de la Garde basilica offers the best view.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "La basilique Notre-Dame de la Garde offre la meilleure vue panoramique sur Marseille. Elle se trouve sur la colline au-dessus du port."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "center",
+      "word_local": "le centre",
+      "pronunciation": "leh san-truh"
+    },
+    {
+      "word_en": "shopping street",
+      "word_local": "la rue commerçante",
+      "pronunciation": "lah roo koh-mair-SAHNT"
+    },
+    {
+      "word_en": "metro",
+      "word_local": "le métro",
+      "pronunciation": "leh may-TROH"
+    },
+    {
+      "word_en": "ATM",
+      "word_local": "le DAB",
+      "pronunciation": "leh day-ah-bay"
+    }
+  ]
+}

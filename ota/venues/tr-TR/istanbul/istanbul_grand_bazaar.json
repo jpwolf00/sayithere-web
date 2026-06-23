@@ -1,0 +1,166 @@
+{
+  "id": "istanbul_grand_bazaar",
+  "name_en": "Grand Bazaar",
+  "name_local": "Kapalıçarşı",
+  "icon": "cart",
+  "lat": 40.9797349,
+  "lon": 28.8740005,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "istanbul_grand_bazaar_001",
+      "intent_en": "Is the carpet shop haggling expected?",
+      "text_local": "Halı dükkanında pazarlık bekleniyor mu?",
+      "pronunciation": "hahOO-duekahnoondAH-pahzahrOOk-behklehnEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Haggling at carpet shops is listed as a common traveler task.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, pazarlık yaygındır.",
+        "pronunciation": "ehvEHtpahzahrOOk-yahygOOndoor",
+        "translation_en": "Yes, haggling is common."
+      },
+      "responses": [
+        {
+          "english": "Yes, haggling is common.",
+          "phonetic": "ehvEHtpahzahrOOk-yahygOOndoor",
+          "french": "Evet, pazarlık yaygındır."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_grand_bazaar_002",
+      "intent_en": "Where is the gold testing counter?",
+      "text_local": "Altın test tezgahı nerede?",
+      "pronunciation": "ahtOOn-tEHst-tehzgahhOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Gold testing counters exist but exact location is not given in the venue context; default to safe referral.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Kuyumcular bölümünde ileride.",
+        "pronunciation": "kooyuhmdzhooAHr-buhluemuhndEH-eelehreedEH",
+        "translation_en": "Ahead in the jewelers section."
+      },
+      "responses": [
+        {
+          "english": "Ahead in the jewelers section.",
+          "phonetic": "kooyuhmdzhooAHr-buhluemuhndEH-eelehreedEH",
+          "french": "Kuyumcular bölümünde ileride."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_grand_bazaar_003",
+      "intent_en": "How do I commission a guide?",
+      "text_local": "Kapalıçarşı'da resmi rehber nereden bulurum?",
+      "pronunciation": "nahsOO-bihr-rehhbEHr-ahyahrahyahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Commission process is not detailed in the venue context; default to safe referral.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Turist danışmasına gidin.",
+        "pronunciation": "toorIHst-dahnooshmahsoonAH-eedIHn",
+        "translation_en": "Go to the tourist information office."
+      },
+      "responses": [
+        {
+          "english": "Go to the tourist information office.",
+          "phonetic": "toorIHst-dahnooshmahsoonAH-eedIHn",
+          "french": "Turist danışmasına gidin."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_grand_bazaar_004",
+      "intent_en": "How do I commission a guide?",
+      "text_local": "Nasıl bir rehber tutabilirim?",
+      "pronunciation": "nahsOO-bihr-rehhbEHr-tootahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Unofficial guides are common. Directing to the official information point is the safest procedure.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rehber için danışmaya sorun.",
+        "pronunciation": "rehhbEHr-eetshIHn-dahnOOshmahyah-sohrUHn",
+        "translation_en": "Ask at the information desk for a guide."
+      },
+      "responses": [
+        {
+          "english": "Ask at the information desk for a guide.",
+          "phonetic": "rehhbEHr-eetshIHn-dahnOOshmahyah-sohrUHn",
+          "french": "Rehber için danışmaya sorun."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_grand_bazaar_005",
+      "intent_en": "Is the döviz office open now?",
+      "text_local": "Döviz bürosu şimdi açık mı?",
+      "pronunciation": "dUHvihz-buerohsUH-shihmdIH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Opening hours are not provided in the venue context; default to safe referral.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çoğu şu an açık.",
+        "pronunciation": "tshohUH-shuh-AHn-ahtshOOk",
+        "translation_en": "Most are open now."
+      },
+      "responses": [
+        {
+          "english": "Most are open now.",
+          "phonetic": "tshohUH-shuh-AHn-ahtshOOk",
+          "french": "Çoğu şu an açık."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_grand_bazaar_006",
+      "intent_en": "Is the carpet shop haggling expected?",
+      "text_local": "Halı dükkanında pazarlık beklenir mi?",
+      "pronunciation": "hahOO-duekahnoondAH-pahzahrOOk-behklehnIHr-mih",
+      "formality": "standard",
+      "cultural_note": "The venue context explicitly states bargaining is expected on prices, which applies to carpet shops.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, pazarlık beklenir.",
+        "pronunciation": "ehvEHtpahzahrOOk-behklehnIHr",
+        "translation_en": "Yes, bargaining is expected."
+      },
+      "responses": [
+        {
+          "english": "Yes, bargaining is expected.",
+          "phonetic": "ehvEHtpahzahrOOk-behklehnIHr",
+          "french": "Evet, pazarlık beklenir."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_grand_bazaar_007",
+      "intent_en": "Where is the Sandal Bedesteni courtyard?",
+      "text_local": "Sandal Bedesteni avlusu nerede?",
+      "pronunciation": "sahndAH-behdehstehnIH-ahvoosUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Sandal Bedesteni is a stable target but exact courtyard location is not given; default to safe referral.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İç avluda, halıcıların arkasında.",
+        "pronunciation": "IHtsh-ahvoodAHhahoodzhooahrOOn-ahrkahsoondAH",
+        "translation_en": "In the inner courtyard, behind the carpet sellers."
+      },
+      "responses": [
+        {
+          "english": "In the inner courtyard, behind the carpet sellers.",
+          "phonetic": "IHtsh-ahvoodAHhahoodzhooahrOOn-ahrkahsoondAH",
+          "french": "İç avluda, halıcıların arkasında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

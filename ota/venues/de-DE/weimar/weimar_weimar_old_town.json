@@ -1,0 +1,122 @@
+{
+  "id": "weimar_weimar_old_town",
+  "name_en": "Weimar Old Town",
+  "name_local": "Weimar Altstadt",
+  "icon": "map",
+  "lat": 50.979347,
+  "lon": 11.3297872,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "weimar_weimar_old_town_001",
+      "intent_en": "Ask when the Markt square stalls close",
+      "text_local": "Wann schließen die Stände auf dem Markt?",
+      "pronunciation": "vAHn-shlEEsuhn-dee-shtEHnduh-owf-dehm-mAHrkt",
+      "formality": "standard",
+      "cultural_note": "Die Öffnungszeiten der Marktstände variieren je nach Saison und Händler; eine verbindliche Auskunft gibt der Marktaufsicht.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 18 Uhr.",
+        "pronunciation": "uhm-AHkhtsehn-OOr",
+        "translation_en": "At 6 PM."
+      },
+      "responses": [
+        {
+          "english": "At 6 PM.",
+          "phonetic": "uhm-AHkhtsehn-OOr",
+          "french": "Um 18 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_old_town_002",
+      "intent_en": "Ask how to reach the Herderkirche from here",
+      "text_local": "Wie komme ich zur Herderkirche?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoor-hEHrdkIHrkhuh",
+      "formality": "casual",
+      "cultural_note": "Die Herderkirche (St. Peter und Paul) liegt zentral; eine sichere Antwort erfordert ggf. Orientierungshilfe durch Personal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Immer geradeaus, dann rechts.",
+        "pronunciation": "IHm-guhrAHdehOWsdahn-rEHkhts",
+        "translation_en": "Straight ahead, then right."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, then right.",
+          "phonetic": "IHm-guhrAHdehOWsdahn-rEHkhts",
+          "french": "Immer geradeaus, dann rechts."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_old_town_003",
+      "intent_en": "Ask where the nearest parking at ring road is",
+      "text_local": "Wo ist der nächste Parkplatz an der Ringstraße?",
+      "pronunciation": "vOH-ihst-dehr-nEHkhstuh-pAHrkplahts-ahn-dehr-rINGstrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Parkuhren an der Ringstraße sind öffentlich; genaue Standorte sind durch Beschilderung markiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Außerhalb der Ringstraße, links.",
+        "pronunciation": "OWshAHlp-dehr-rINGstrAHsuhlINGks",
+        "translation_en": "Outside the ring road, on the left."
+      },
+      "responses": [
+        {
+          "english": "Outside the ring road, on the left.",
+          "phonetic": "OWshAHlp-dehr-rINGstrAHsuhlINGks",
+          "french": "Außerhalb der Ringstraße, links."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_old_town_004",
+      "intent_en": "Ask where to buy Goethe-Nationalmuseum tickets",
+      "text_local": "Wo gibt es Tickets fürs Goethe-Nationalmuseum?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fUErs-UHtuhnahtsyOHnahlmOOzehUHm",
+      "formality": "standard",
+      "cultural_note": "Ticketverkauf erfolgt direkt am Museumseingang; Kassenmitarbeiter sind dafür zuständig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Museum.",
+        "pronunciation": "ahm-shAHlt-ihm-moozEHuhm",
+        "translation_en": "At the counter in the museum."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the museum.",
+          "phonetic": "ahm-shAHlt-ihm-moozEHuhm",
+          "french": "Am Schalter im Museum."
+        }
+      ]
+    },
+    {
+      "id": "weimar_weimar_old_town_005",
+      "intent_en": "Ask where the Ilmpark entrance is",
+      "text_local": "Wo ist der Eingang zum Ilmpark?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-IHlmpahrk",
+      "formality": "standard",
+      "cultural_note": "Im Ilmpark gibt es mehrere Zugänge; der Hauptzugang ist meist am Frauenplan oder an der Ilmbrücke.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich um die Ecke.",
+        "pronunciation": "glEYEkh-uhm-dee-EHkuh",
+        "translation_en": "Just around the corner."
+      },
+      "responses": [
+        {
+          "english": "Just around the corner.",
+          "phonetic": "glEYEkh-uhm-dee-EHkuh",
+          "french": "Gleich um die Ecke."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

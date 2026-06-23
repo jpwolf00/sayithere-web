@@ -1,0 +1,115 @@
+{
+  "id": "brussels_palais_royal",
+  "name_en": "Royal Palace of Brussels",
+  "name_local": "Palais Royal de Bruxelles",
+  "icon": "crown",
+  "phrases": [
+    {
+      "id": "brussels_pr_001",
+      "intent_en": "Ask about visiting hours",
+      "text_local": "Quelles sont les heures d'ouverture ?",
+      "pronunciation": "kel son lay ZUHR dou-vair-TOOR",
+      "formality": "polite",
+      "cultural_note": "The palace is open to visitors late July through late August, when the King is on summer vacation. Check the official schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Late July to late August, 10:30am to 5pm.",
+          "phonetic": "duh fan zhwee-YAY ah fan OOT, duh dee zuhr trahnt ah dee-set uhr",
+          "french": "De fin juillet à fin août, de dix heures trente à dix-sept heures."
+        }
+      ]
+    },
+    {
+      "id": "brussels_pr_002",
+      "intent_en": "Ask about the Throne Room",
+      "text_local": "Où se trouve la salle du trône ?",
+      "pronunciation": "oo seh TROOV lah sal doo trohn",
+      "formality": "polite",
+      "cultural_note": "The Throne Room is the highlight — featuring the royal throne, massive chandeliers, and portraits of Belgian monarchs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the first floor, in the right wing. Follow the signs.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH, dahn lel DRWAHT. swee-VAY lay pah-NOH",
+          "french": "Au premier étage, dans l'aile droite. Suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "brussels_pr_003",
+      "intent_en": "Ask if entry to the palace is free",
+      "text_local": "L'entrée du palais est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY doo pah-LAY eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Entry to the Royal Palace is free during the summer opening period.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry is free during the summer opening period.",
+          "phonetic": "wee, lahn-TRAY eh grah-TWEET pahn-DAHN lah pay-ree-OD doo-vair-TOOR ahn ay-TAY",
+          "french": "Oui, l'entrée est gratuite pendant la période d'ouverture en été."
+        }
+      ]
+    },
+    {
+      "id": "brussels_pr_004",
+      "intent_en": "Ask about the gardens access",
+      "text_local": "Les jardins sont-ils accessibles ?",
+      "pronunciation": "lay zhar-DAN son-teel zah-se-SIBL",
+      "formality": "polite",
+      "cultural_note": "The Royal Gardens are free and open year-round. They're a popular spot for locals, especially on sunny weekends.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the gardens are open for free all year.",
+          "phonetic": "wee, lay zhar-DAN son oo-VAIR grah-tweet-MAHN toot lah-NAY",
+          "french": "Oui, les jardins sont ouverts gratuitement toute l'année."
+        }
+      ]
+    },
+    {
+      "id": "brussels_pr_005",
+      "intent_en": "Ask if the palace is open today",
+      "text_local": "Le palais est-il ouvert aujourd'hui ?",
+      "pronunciation": "luh pah-LAY eh-TEEL oo-VAIR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The palace is only open to visitors during a brief summer period. Check the official schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Check the dates on the official website. It's only open in summer.",
+          "phonetic": "vay-ree-fee-AY lay DAHT soor luh seet oh-fee-SYEL. say oo-VAIR suhl-MAHN ahn ay-TAY",
+          "french": "Vérifiez les dates sur le site officiel. C'est ouvert seulement en été."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "royal palace",
+      "word_local": "le palais royal",
+      "pronunciation": "luh pah-LAY roy-AL"
+    },
+    {
+      "word_en": "throne",
+      "word_local": "le trône",
+      "pronunciation": "luh trohn"
+    },
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "luh zhar-DAN"
+    },
+    {
+      "word_en": "monarch",
+      "word_local": "le monarque",
+      "pronunciation": "luh moh-NARK"
+    }
+  ]
+}

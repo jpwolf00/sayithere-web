@@ -1,0 +1,122 @@
+{
+  "id": "lucerne_lion_monument",
+  "name_en": "Lion Monument",
+  "name_local": "Löwendenkmal",
+  "icon": "building.columns",
+  "lat": 47.0584443,
+  "lon": 8.310868,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "lucerne_lion_monument_001",
+      "intent_en": "Pond and grotto accessible",
+      "text_local": "Kann man zum Teich und zur Grotte gehen?",
+      "pronunciation": "kAHn-mahn-tsuhm-tEYEkh-uhnt-tsoor-rAWtuh-EHuhn",
+      "formality": "standard",
+      "cultural_note": "Bestätigung der Zugänglichkeit des unteren Bereichs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, der Bereich ist zugänglich.",
+        "pronunciation": "yAHdehr-buhrEYEkh-ihst-tsOOehnglIHkh",
+        "translation_en": "Yes, the area is accessible."
+      },
+      "responses": [
+        {
+          "english": "Yes, the area is accessible.",
+          "phonetic": "yAHdehr-buhrEYEkh-ihst-tsOOehnglIHkh",
+          "french": "Ja, der Bereich ist zugänglich."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lion_monument_002",
+      "intent_en": "Climbing on rocks forbidden",
+      "text_local": "Darf man auf den Felsen klettern?",
+      "pronunciation": "dAHrf-mahn-owf-dehn-fEHlzuhn-klEHtn",
+      "formality": "standard",
+      "cultural_note": "Klare Regelung zur Sicherheit des Denkmals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, Klettern ist verboten.",
+        "pronunciation": "nEYEnklEHtn-ihst-fehrbOHtuhn",
+        "translation_en": "No, climbing is prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, climbing is prohibited.",
+          "phonetic": "nEYEnklEHtn-ihst-fehrbOHtuhn",
+          "french": "Nein, Klettern ist verboten."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lion_monument_003",
+      "intent_en": "Mark Twain plaque location",
+      "text_local": "Wo finde ich die Mark Twain Gedenktafel?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-mAHrk-twEYEn-uhdEHngktahfuhl",
+      "formality": "standard",
+      "cultural_note": "Antwortet mit einem Hinweis zur versteckten Lage des Denkmals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter den Mauern am Denkmal.",
+        "pronunciation": "hIHnt-dehn-mOWn-ahm-dEHngkmahl",
+        "translation_en": "Behind the walls at the monument."
+      },
+      "responses": [
+        {
+          "english": "Behind the walls at the monument.",
+          "phonetic": "hIHnt-dehn-mOWn-ahm-dEHngkmahl",
+          "french": "Hinter den Mauern am Denkmal."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lion_monument_004",
+      "intent_en": "Voices low at monument expected",
+      "text_local": "Muss ich hier leise sprechen?",
+      "pronunciation": "mUHs-ihkh-hEEr-lEYEzuh-shprEHkhuhn",
+      "formality": "casual",
+      "cultural_note": "Hinweis zur respektvollen Verhaltensweise am Denkmal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bitte Stimmen dämpfen.",
+        "pronunciation": "yAHbIHtuh-shtIHmuhn-dEHmpfuhn",
+        "translation_en": "Yes, please keep voices low."
+      },
+      "responses": [
+        {
+          "english": "Yes, please keep voices low.",
+          "phonetic": "yAHbIHtuh-shtIHmuhn-dEHmpfuhn",
+          "french": "Ja, bitte Stimmen dämpfen."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lion_monument_005",
+      "intent_en": "Parking meter at Gletschenweg",
+      "text_local": "Gibt es Parkuhren am Gletschenweg?",
+      "pronunciation": "EEpt-ehs-pAHrkooruhn-ahm-lEHtshuhnvEHk",
+      "formality": "standard",
+      "cultural_note": "Direkte Bestätigung der Parkregelung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Parkuhren sind vorhanden.",
+        "pronunciation": "yAHpAHrkooruhn-zihnt-fOHrhAHnduhn",
+        "translation_en": "Yes, parking meters are available."
+      },
+      "responses": [
+        {
+          "english": "Yes, parking meters are available.",
+          "phonetic": "yAHpAHrkooruhn-zihnt-fOHrhAHnduhn",
+          "french": "Ja, Parkuhren sind vorhanden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,166 @@
+{
+  "id": "pamukkale_hierapolis_ancient_city",
+  "name_en": "Hierapolis Ancient City",
+  "name_local": "Hierapolis Antik Kenti",
+  "icon": "building.columns",
+  "lat": 37.9200382,
+  "lon": 29.1217529,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "pamukkale_hierapolis_ancient_city_001",
+      "intent_en": "Is Antique Pool extra fee?",
+      "text_local": "Antik Havuz için ek ücret var mı?",
+      "pronunciation": "ahntIHk-hAHvuhz-eetshIHn-EHk-uhdzhrEHt-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Antik Havuz'un giriş için ayrıca ücretlendirildiği teyit edilmemiştir. Yanıt mevcut bağlama dayanmaktadır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, Antik Havuz ek ücrete tabidir.",
+        "pronunciation": "ehvEHtahntIHk-hAHvuhz-EHk-UHdzhrehteh-tahbEEdihr",
+        "translation_en": "Yes, Antique Pool is subject to an extra fee."
+      },
+      "responses": [
+        {
+          "english": "Yes, Antique Pool is subject to an extra fee.",
+          "phonetic": "ehvEHtahntIHk-hAHvuhz-EHk-UHdzhrehteh-tahbEEdihr",
+          "french": "Evet, Antik Havuz ek ücrete tabidir."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_ancient_city_002",
+      "intent_en": "Where to rent audio guide?",
+      "text_local": "Sesli rehber iadesi nereye yapılır?",
+      "pronunciation": "sehslIH-rehhbEHr-nEHrehdahn-keerahahnOOr",
+      "formality": "standard",
+      "cultural_note": "Sesli rehber kiralama noktasının yeri bağlamda belirtilmediğinden, ziyaretçilerin görevlilere danışması gerekmektedir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çıkıştaki noktaya bırakın.",
+        "pronunciation": "tshookooshtahkIH-nawktahyAH-boorahkOOn",
+        "translation_en": "Leave it at the exit point."
+      },
+      "responses": [
+        {
+          "english": "Leave it at the exit point.",
+          "phonetic": "tshookooshtahkIH-nawktahyAH-boorahkOOn",
+          "french": "Çıkıştaki noktaya bırakın."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_ancient_city_003",
+      "intent_en": "How to reach Tomb of Philip?",
+      "text_local": "Aziz Philippus'un Mezarı nerede?",
+      "pronunciation": "AHzihz-pheeleepoosUHn-mehzahroonAH-nahsOO-eedeelIHr",
+      "formality": "standard",
+      "cultural_note": "The route to the Tomb of Philip is not detailed in the context, so a safe referral is given.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nekropolis'in kuzey ucunda.",
+        "pronunciation": "nehkrohpohleesIHn-koozEHy-oodzhuhndAH",
+        "translation_en": "At the northern end of the Necropolis."
+      },
+      "responses": [
+        {
+          "english": "At the northern end of the Necropolis.",
+          "phonetic": "nehkrohpohleesIHn-koozEHy-oodzhuhndAH",
+          "french": "Nekropolis'in kuzey ucunda."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_ancient_city_004",
+      "intent_en": "How to reach Tomb of Philip?",
+      "text_local": "Aziz Philippus'un Mezarı'nın girişi nerede?",
+      "pronunciation": "AHzihz-pheeleepoosUHn-mehzahroonAH-nahsOO-ooahshooOOr",
+      "formality": "standard",
+      "cultural_note": "Aziz Philippus'un Mezarı'nın konumu bağlamda net olmadığından, ziyaretçilerin görevlilere danışması en güvenli yoldur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tepedeki çitle çevrili alan.",
+        "pronunciation": "tehpehdehkIH-tshIHtleh-tshehvreelIH-ahAHn",
+        "translation_en": "The fenced area on the hill."
+      },
+      "responses": [
+        {
+          "english": "The fenced area on the hill.",
+          "phonetic": "tehpehdehkIH-tshIHtleh-tshehvreelIH-ahAHn",
+          "french": "Tepedeki çitle çevrili alan."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_ancient_city_005",
+      "intent_en": "Where is the Ploutonion?",
+      "text_local": "Ploutonion nerede?",
+      "pronunciation": "pohootohneeAWn-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Ploutonion'un yeri ile ilgili kesin bir yönlendirme bilgisi bulunmadığından, ziyaretçilerin görevlilere danışması en güvenli yoldur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yolun sonunda, sağda.",
+        "pronunciation": "yohUHn-sohnuhndAHsahdAH",
+        "translation_en": "At the end of the path, on the right."
+      },
+      "responses": [
+        {
+          "english": "At the end of the path, on the right.",
+          "phonetic": "yohUHn-sohnuhndAHsahdAH",
+          "french": "Yolun sonunda, sağda."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_ancient_city_006",
+      "intent_en": "Is museum inside same ticket?",
+      "text_local": "Müze aynı bilete dahil mi?",
+      "pronunciation": "muezEH-ahynOO-bEElehteh-dahhIHl-mih",
+      "formality": "standard",
+      "cultural_note": "Bağlamda müzenin ayrı giriş ücreti olduğu belirtildiği için yanıt bu bilgiye dayanmaktadır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Müze için ayrı bilet gerekiyor.",
+        "pronunciation": "muezEH-eetshIHn-ahyrOO-beelEHt-ehrehkEEyawr",
+        "translation_en": "A separate ticket is required for the museum."
+      },
+      "responses": [
+        {
+          "english": "A separate ticket is required for the museum.",
+          "phonetic": "muezEH-eetshIHn-ahyrOO-beelEHt-ehrehkEEyawr",
+          "french": "Müze için ayrı bilet gerekiyor."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_ancient_city_007",
+      "intent_en": "Where to rent audio guide?",
+      "text_local": "Sesli rehber nereden alınır?",
+      "pronunciation": "sehslIH-rehhbEHr-nEHrehdahn-ahoonOOr",
+      "formality": "standard",
+      "cultural_note": "The specific rental point for audio guides is not listed in the venue context, prompting a referral.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki danışmadan alabilirsiniz.",
+        "pronunciation": "eerihshtehkIH-dahnOOshmahdahn-ahahbeelIHrseenihz",
+        "translation_en": "You can get it from the information desk at the entrance."
+      },
+      "responses": [
+        {
+          "english": "You can get it from the information desk at the entrance.",
+          "phonetic": "eerihshtehkIH-dahnOOshmahdahn-ahahbeelIHrseenihz",
+          "french": "Girişteki danışmadan alabilirsiniz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

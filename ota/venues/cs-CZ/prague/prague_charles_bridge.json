@@ -1,0 +1,100 @@
+{
+  "id": "prague_charles_bridge",
+  "name_en": "Charles Bridge",
+  "name_local": "Karlův most",
+  "icon": "building.columns",
+  "lat": 50.0866258,
+  "lon": 14.4101485,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "prague_charles_bridge_001",
+      "intent_en": "Where is the St John of Nepomuk statue",
+      "text_local": "Kde je socha svatého Jana Nepomuckého?",
+      "pronunciation": "kdEH-yeh-sOHkhah-svAHtehhoh-yAHnah-nEHpohmOOtskehhoh",
+      "formality": "standard",
+      "cultural_note": "This is one of the most famous statues on the bridge; giving directions relative to the bridge ends is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Uprostřed mostu, vpravo po směru na Malou Stranu.",
+        "pronunciation": "OOprohstrehd-mOHstoofprAHvoh-pOHsmnyehroo-nAHmahloh-strAHnoo",
+        "translation_en": "In the middle of the bridge, on the right heading towards Malá Strana."
+      },
+      "responses": [
+        {
+          "english": "In the middle of the bridge, on the right heading towards Malá Strana.",
+          "phonetic": "OOprohstrehd-mOHstoofprAHvoh-pOHsmnyehroo-nAHmahloh-strAHnoo",
+          "french": "Uprostřed mostu, vpravo po směru na Malou Stranu."
+        }
+      ]
+    },
+    {
+      "id": "prague_charles_bridge_002",
+      "intent_en": "Is the Malá Strana tower open now",
+      "text_local": "Je teď Malostranská mostecká věž otevřená?",
+      "pronunciation": "yeh-tEH-mAHlohstrAHnskah-mOHstehtskah-vyEHzh-OHtehvrEHnah",
+      "formality": "standard",
+      "cultural_note": "Attraction hours can vary, but a simple yes with a closing time is a common staff response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, do osmi večer.",
+        "pronunciation": "AHnohdOHohsmee-vEHtshehr",
+        "translation_en": "Yes, until eight in the evening."
+      },
+      "responses": [
+        {
+          "english": "Yes, until eight in the evening.",
+          "phonetic": "AHnohdOHohsmee-vEHtshehr",
+          "french": "Ano, do osmi večer."
+        }
+      ]
+    },
+    {
+      "id": "prague_charles_bridge_003",
+      "intent_en": "Where do musicians collect tips",
+      "text_local": "Kde vybírají muzikanti peníze?",
+      "pronunciation": "kdEH-vEEbeerAHyee-mOOzeekAHnee-pEHnyeezeh",
+      "formality": "standard",
+      "cultural_note": "Musicians on Charles Bridge typically place an open instrument case in front of them for tips.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Přímo u nich, většinou mají otevřený futrál.",
+        "pronunciation": "prEEmoh-OO-nyEEkhvyEHtsheenoh-mAHyee-OHtehvrEHnee-fOOtrahl",
+        "translation_en": "Right by them, they usually have an open case."
+      },
+      "responses": [
+        {
+          "english": "Right by them, they usually have an open case.",
+          "phonetic": "prEEmoh-OO-nyEEkhvyEHtsheenoh-mAHyee-OHtehvrEHnee-fOOtrahl",
+          "french": "Přímo u nich, většinou mají otevřený futrál."
+        }
+      ]
+    },
+    {
+      "id": "prague_charles_bridge_004",
+      "intent_en": "Where is the Old Town Bridge Tower entry",
+      "text_local": "Kde je vstup do Staroměstské mostecké věže?",
+      "pronunciation": "kdEH-yeh-fstOOp-doh-stAHrohmnyEHstskeh-mOHstehtskeh-vyEHzheh",
+      "formality": "standard",
+      "cultural_note": "The tower entrance is at street level on the Old Town side of the bridge.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Na staroměstské straně, vpravo před věží.",
+        "pronunciation": "nah-stAHrohmnyEHstskeh-strAHnyehfprAHvoh-prEHdvyehzhee",
+        "translation_en": "On the Old Town side, on the right in front of the tower."
+      },
+      "responses": [
+        {
+          "english": "On the Old Town side, on the right in front of the tower.",
+          "phonetic": "nah-stAHrohmnyEHstskeh-strAHnyehfprAHvoh-prEHdvyehzhee",
+          "french": "Na staroměstské straně, vpravo před věží."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

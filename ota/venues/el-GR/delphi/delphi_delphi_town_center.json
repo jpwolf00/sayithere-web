@@ -1,0 +1,78 @@
+{
+  "id": "delphi_delphi_town_center",
+  "name_en": "Delphi town center",
+  "name_local": "Χώρα Δελφών",
+  "icon": "map",
+  "lat": 38.4811538,
+  "lon": 22.5005486,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "delphi_delphi_town_center_001",
+      "intent_en": "Hotel room, hold with deposit?",
+      "text_local": "Κρατάτε δωμάτιο με προκαταβολή;",
+      "pronunciation": "krahtAHteh-thohmAHteeOH-meh-prOHkahtAHvohlEE",
+      "formality": "standard",
+      "cultural_note": "Οι προκαταβολές είναι κοινή πρακτική στα ξενοδοχεία της περιοχής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, κρατάμε.",
+        "pronunciation": "nEHkrahtAHmeh",
+        "translation_en": "Yes, we do."
+      },
+      "responses": [
+        {
+          "english": "Yes, we do.",
+          "phonetic": "nEHkrahtAHmeh",
+          "french": "Ναι, κρατάμε."
+        }
+      ]
+    },
+    {
+      "id": "delphi_delphi_town_center_002",
+      "intent_en": "Which way to Temple of Apollo path?",
+      "text_local": "Πού είναι το μονοπάτι για τον Ναό του Απόλλωνα;",
+      "pronunciation": "pOO-EEneh-ee-prohspEHlahsEE-prOHs-tohn-nahOH-too-ahpOHlohnAH",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν σημάδια προς σημαντικά μνημεία. Οι πινακίδες είναι στην ελληνική γλώσσα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Συνεχίστε στον κεντρικό δρόμο ανοδικά.",
+        "pronunciation": "sEEnehkhEEsteh-stohng-gEHdreekOH-thrOHmoh-AHnohtheekAH",
+        "translation_en": "Continue on the main road uphill."
+      },
+      "responses": [
+        {
+          "english": "Continue on the main road uphill.",
+          "phonetic": "sEEnehkhEEsteh-stohng-gEHdreekOH-thrOHmoh-AHnohtheekAH",
+          "french": "Συνεχίστε στον κεντρικό δρόμο ανοδικά."
+        }
+      ]
+    },
+    {
+      "id": "delphi_delphi_town_center_003",
+      "intent_en": "Where is Delphi Stadium uphill entrance?",
+      "text_local": "Πού είναι η πάνω είσοδος του Σταδίου;",
+      "pronunciation": "pOO-EEneh-ee-AHnoh-EEsohthOHs-too-stahthEEoo-tohn-thehlfOHn",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν την άνω είσοδο για καλύτερη θέα. Η διαδρομή χαρακτηρίζεται από ανηφορικό δρόμο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο τέλος του μονοπατιού, ψηλά.",
+        "pronunciation": "stoh-tEHlohs-too-mOHnohpAHteeOOpseelAH",
+        "translation_en": "At the end of the path, up high."
+      },
+      "responses": [
+        {
+          "english": "At the end of the path, up high.",
+          "phonetic": "stoh-tEHlohs-too-mOHnohpAHteeOOpseelAH",
+          "french": "Στο τέλος του μονοπατιού, ψηλά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

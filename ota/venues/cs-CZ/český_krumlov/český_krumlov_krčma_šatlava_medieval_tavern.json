@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_krčma_šatlava_medieval_tavern",
+  "name_en": "Krčma Šatlava medieval tavern",
+  "name_local": "Krčma Šatlava",
+  "icon": "fork.knife",
+  "lat": 48.8106903,
+  "lon": 14.3159076,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "český_krumlov_krčma_šatlava_medieval_tavern_001",
+      "intent_en": "Do you accept credit cards?",
+      "text_local": "Berete kreditní karty?",
+      "pronunciation": "bEHrehteh-krEHdeetnyee-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "Many traditional Czech pubs are cash-only, so a direct 'no' is common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jen hotovost.",
+        "pronunciation": "nEHyEHn-hOHtohvohst",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "nEHyEHn-hOHtohvohst",
+          "french": "Ne, jen hotovost."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_krčma_šatlava_medieval_tavern_002",
+      "intent_en": "How do I get a table?",
+      "text_local": "Jak dostanu stůl?",
+      "pronunciation": "yAHk-dOHstahnoo-stOOl",
+      "formality": "standard",
+      "cultural_note": "In busy Czech taverns, waiting to be seated by the host is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Počkejte u dveří, až vás uvaděč usadí.",
+        "pronunciation": "pOHtshkayteh-OO-dvEHreeAHzh-vAHs-OOvahehtsh-OOsahee",
+        "translation_en": "Wait at the door until the host seats you."
+      },
+      "responses": [
+        {
+          "english": "Wait at the door until the host seats you.",
+          "phonetic": "pOHtshkayteh-OO-dvEHreeAHzh-vAHs-OOvahehtsh-OOsahee",
+          "french": "Počkejte u dveří, až vás uvaděč usadí."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_krčma_šatlava_medieval_tavern_003",
+      "intent_en": "Where is the open fire grill?",
+      "text_local": "Kde je otevřený gril?",
+      "pronunciation": "kdEH-yeh-OHtehvrEHnee-grEEl",
+      "formality": "standard",
+      "cultural_note": "Giving a location relative to a known feature like the cellar stairs is typical.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vzadu vedle schodů do sklepa.",
+        "pronunciation": "vzAHdoo-vEHdleh-skhOHdoo-dOHsklehpah",
+        "translation_en": "At the back, beside the cellar stairs."
+      },
+      "responses": [
+        {
+          "english": "At the back, beside the cellar stairs.",
+          "phonetic": "vzAHdoo-vEHdleh-skhOHdoo-dOHsklehpah",
+          "french": "Vzadu vedle schodů do sklepa."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_krčma_šatlava_medieval_tavern_004",
+      "intent_en": "Is roasted pork knuckle available?",
+      "text_local": "Je koleno?",
+      "pronunciation": "yeh-kOHlehnoh",
+      "formality": "standard",
+      "cultural_note": "A simple 'yes' is a natural, direct answer for a staple dish.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, dnes máme.",
+        "pronunciation": "AHnohdnEHs-mAHmeh",
+        "translation_en": "Yes, we have it today."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it today.",
+          "phonetic": "AHnohdnEHs-mAHmeh",
+          "french": "Ano, dnes máme."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

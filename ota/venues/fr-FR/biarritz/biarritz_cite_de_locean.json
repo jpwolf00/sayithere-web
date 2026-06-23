@@ -1,0 +1,118 @@
+{
+  "id": "biarritz_cite_ocean",
+  "name_en": "Cité de l'Océan",
+  "name_local": "Cité de l'Océan",
+  "icon": "building.columns",
+  "lat": 43.49,
+  "lon": -1.555,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "biarritz_ocean_001",
+      "intent_en": "Ask about the ocean museum exhibits",
+      "text_local": "Quelles sont les expositions du musée de l'océan ?",
+      "pronunciation": "kel son layz eks-poh-zee-SYON doo myoo-ZAY doh-syohn",
+      "formality": "polite",
+      "cultural_note": "Cité de l'Océan is an interactive museum dedicated to surfing and ocean sports. It has surfboards, wetsuits, and ocean science exhibits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are exhibits on oceans and surfing, upstairs.",
+          "phonetic": "eel ee ah day eks-poh-zee-SYON soor layz oh-say-AHN ay luh SURF, ah lay-TAHZH",
+          "french": "Il y a des expositions sur les océans et le surf, à l'étage."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_ocean_002",
+      "intent_en": "Ask about the surf simulator",
+      "text_local": "Y a-t-il un simulateur de surf ?",
+      "pronunciation": "ee ah-TEEL un san-moo-la-TUR duh SURF",
+      "formality": "polite",
+      "cultural_note": "The museum has a surf simulator where visitors can practice balance and technique on a moving surface. Popular with beginners.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, in the basement. It's included in the ticket.",
+          "phonetic": "wee, oh soo-SOL. say ahn-KLOO dahn luh bee-YAY",
+          "french": "Oui, au sous-sol. C'est inclus dans le billet."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_ocean_003",
+      "intent_en": "Ask if there is an English audio guide",
+      "text_local": "Y a-t-il un audioguide en anglais ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dee-oh-GEED ahn ahng-GLEH",
+      "formality": "polite",
+      "cultural_note": "The museum offers audio guides in several languages to accompany the interactive exhibits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, ask at the reception. It's included in the ticket.",
+          "phonetic": "wee, duh-mahn-DAY ah lah-KUY. say kohm-PREE dahn luh bee-YAY",
+          "french": "Oui, demandez à l'accueil. C'est compris dans le billet."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_ocean_004",
+      "intent_en": "Ask where the toilets are",
+      "text_local": "Où sont les toilettes ?",
+      "pronunciation": "oo son lay twah-LET",
+      "formality": "polite",
+      "cultural_note": "Public toilets are available inside the museum on each floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the ground floor, to the right as you enter.",
+          "phonetic": "oh ray-duh-shoh-SAY, ah DRWAHT ahn ahn-TRAHN",
+          "french": "Au rez-de-chaussée, à droite en entrant."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_ocean_005",
+      "intent_en": "Ask about tickets and opening hours",
+      "text_local": "Quelles sont les horaires et les tarifs ?",
+      "pronunciation": "kel son layz oh-RAY ay lay tah-REEF",
+      "formality": "polite",
+      "cultural_note": "The museum is open daily in season, with reduced hours in winter. Family tickets are available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Prices and hours are posted at the entrance.",
+          "phonetic": "lay tah-REEF ay layz oh-REHR son ah-fee-SHAY ah lahn-TRAY",
+          "french": "Les tarifs et horaires sont affichés à l'entrée."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "ocean",
+      "word_local": "l'océan",
+      "pronunciation": "loh-syohn"
+    },
+    {
+      "word_en": "surf",
+      "word_local": "le surf",
+      "pronunciation": "leh SURF"
+    },
+    {
+      "word_en": "wave",
+      "word_local": "la vague",
+      "pronunciation": "lah VAG"
+    },
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "leh myoo-ZAY"
+    }
+  ]
+}

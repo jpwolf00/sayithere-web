@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_cathedrale_saint_andre",
+  "name_en": "Bordeaux Cathedral",
+  "name_local": "Cathédrale Saint-André",
+  "icon": "building.columns",
+  "lat": 44.8368,
+  "lon": -0.5779,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bordeaux_cathandre_001",
+      "intent_en": "Ask if the cathedral is open to visitors right now",
+      "text_local": "Est-ce que la cathédrale est ouverte aux visiteurs en ce moment ?",
+      "pronunciation": "es-kuh lah kah-tay-DRAL eh oo-VAIR oh vee-zee-TUR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The cathedral sometimes closes during religious services; check the schedule posted at the entrance.",
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "wee, seh oo-VEHR",
+          "french": "Oui, c'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_cathandre_002",
+      "intent_en": "Ask if it is possible to climb the Pey-Berland tower",
+      "text_local": "Est-il possible de monter dans la tour Pey-Berland ?",
+      "pronunciation": "eh-TEEL poh-SEEBL duh mohn-TAY dahn lah TOOR pay-bair-LAHN",
+      "formality": "polite",
+      "cultural_note": "The detached Pey-Berland bell tower next to the cathedral offers views over central Bordeaux and requires a separate ticket.",
+      "responses": [
+        {
+          "english": "Yes, the ticket office is across the way.",
+          "phonetic": "wee, luh ghee-SHEH eh ahn FAHSS",
+          "french": "Oui, le guichet est en face."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_cathandre_003",
+      "intent_en": "Ask for a leaflet about the history of the cathedral",
+      "text_local": "Avez-vous un dépliant sur l'histoire de la cathédrale ?",
+      "pronunciation": "ah-VAY-voo un day-PLEE-AHN soor lees-TWAHR duh lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "Eleanor of Aquitaine married Louis VII of France here in 1137.",
+      "responses": [
+        {
+          "english": "There are some at the entrance.",
+          "phonetic": "eel ee ahn ah ah lahn-TRAY",
+          "french": "Il y en a à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_cathandre_004",
+      "intent_en": "Ask where to light a candle",
+      "text_local": "Où peut-on allumer un cierge, s'il vous plaît ?",
+      "pronunciation": "oo puh-TON ah-loo-MAY un SYAIR zhuh seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Candles can usually be lit in a side chapel; a small donation is customary.",
+      "responses": [
+        {
+          "english": "On the right, at the back.",
+          "phonetic": "soor lah DRWAHT, oh FOHN",
+          "french": "Sur la droite, au fond."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_cathandre_005",
+      "intent_en": "Ask about the opening hours of the tower",
+      "text_local": "Quels sont les horaires d'ouverture de la tour ?",
+      "pronunciation": "kel son lay oh-RAIR doo-VAIR-TYOOR duh lah TOOR",
+      "formality": "polite",
+      "cultural_note": "The Pey-Berland tower is managed by the Centre des monuments nationaux and has separate hours from the cathedral.",
+      "responses": [
+        {
+          "english": "The hours are posted at the entrance.",
+          "phonetic": "layz oh-REHR sohn ah-fee-SHAY ah lahn-TRAY",
+          "french": "Les horaires sont affichés à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "bell tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    },
+    {
+      "word_en": "candle (large church candle)",
+      "word_local": "le cierge",
+      "pronunciation": "luh SYAIR-zhuh"
+    },
+    {
+      "word_en": "leaflet / brochure",
+      "word_local": "le dépliant",
+      "pronunciation": "luh day-PLEE-AHN"
+    }
+  ]
+}

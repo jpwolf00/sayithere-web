@@ -1,0 +1,122 @@
+{
+  "id": "freiburg_museum_für_naturkunde_freiburg",
+  "name_en": "Museum für Naturkunde Freiburg",
+  "name_local": "Naturloresmuseum",
+  "icon": "building.columns",
+  "lat": 47.9960901,
+  "lon": 7.8494005,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "freiburg_museum_für_naturkunde_freiburg_001",
+      "intent_en": "Where to buy insect toys in gift shop",
+      "text_local": "Wo gibt es Insekten-Spielzeug zu kaufen?",
+      "pronunciation": "vOH-EEpt-ehs-ihnzEHktuhnshpEEltsawuhk-tsoo-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Museum shops are usually centrally located and often near the exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Souvenirladen.",
+        "pronunciation": "ihm-zOOvehnIHrlahduhn",
+        "translation_en": "In the gift shop."
+      },
+      "responses": [
+        {
+          "english": "In the gift shop.",
+          "phonetic": "ihm-zOOvehnIHrlahduhn",
+          "french": "Im Souvenirladen."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_museum_für_naturkunde_freiburg_002",
+      "intent_en": "Is university ID required for free entry",
+      "text_local": "Brauche ich einen Studentenausweis für freien Eintritt?",
+      "pronunciation": "brOWkhuh-ihkh-EYEnuhn-shtOOduhntEHnowsvEYEs-fuer-frEYE-UHn-EYEntrIHt",
+      "formality": "standard",
+      "cultural_note": "German public museums often accept student IDs for discounted or free entry; verification is common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit gültigem Ausweis.",
+        "pronunciation": "yAHmiht-UEltihuhm-OWsvEYEs",
+        "translation_en": "Yes, with valid ID."
+      },
+      "responses": [
+        {
+          "english": "Yes, with valid ID.",
+          "phonetic": "yAHmiht-UEltihuhm-OWsvEYEs",
+          "french": "Ja, mit gültigem Ausweis."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_museum_für_naturkunde_freiburg_003",
+      "intent_en": "When is the next guided tour in English",
+      "text_local": "Wann ist die nächste englischsprachige Führung?",
+      "pronunciation": "vAHn-ihst-dee-nEHkhstuh-EHnglihshshprAHkhihuh-fUEruhng",
+      "formality": "casual",
+      "cultural_note": "Guided tours in German museums are often scheduled at fixed times and may require advance booking.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Heute um 14 Uhr.",
+        "pronunciation": "hAWuhtuh-uhm-fIHrtsehn-OOr",
+        "translation_en": "Today at 2 PM."
+      },
+      "responses": [
+        {
+          "english": "Today at 2 PM.",
+          "phonetic": "hAWuhtuh-uhm-fIHrtsehn-OOr",
+          "french": "Heute um 14 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_museum_für_naturkunde_freiburg_004",
+      "intent_en": "Where is the Plateosaurus cast display",
+      "text_local": "Wo finde ich den Plateosaurus?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-plAHtehOHzowrUHs",
+      "formality": "standard",
+      "cultural_note": "Large exhibits are often grouped and signposted in German museums with thematic sections.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss links.",
+        "pronunciation": "ihm-ehrdgEHshaws-lINGks",
+        "translation_en": "On the ground floor to the left."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor to the left.",
+          "phonetic": "ihm-ehrdgEHshaws-lINGks",
+          "french": "Im Erdgeschoss links."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_museum_für_naturkunde_freiburg_005",
+      "intent_en": "Where is the wet preparation laboratory viewable",
+      "text_local": "Wo ist das Nasspräparat-Labor zu sehen?",
+      "pronunciation": "vOH-ihst-dahs-nAHsprehpahrAHtlAHbohr-tsoo-zEHuhn",
+      "formality": "standard",
+      "cultural_note": "Laboratories are staff-access areas; visitors are typically directed to staff for viewing access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss hinten links.",
+        "pronunciation": "ihm-ehrdgEHshaws-hIHntuhn-lINGks",
+        "translation_en": "On the ground floor, back left."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, back left.",
+          "phonetic": "ihm-ehrdgEHshaws-hIHntuhn-lINGks",
+          "french": "Im Erdgeschoss hinten links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

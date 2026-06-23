@@ -1,0 +1,78 @@
+{
+  "id": "giethoorn_museum_giethoorn_t_olde_maat_uus",
+  "name_en": "Museum Giethoorn 't Olde Maat Uus",
+  "name_local": "Museum Giethoorn 't Olde Maat Uus",
+  "icon": "building.columns",
+  "lat": 52.722224,
+  "lon": 6.0898336,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "giethoorn_museum_giethoorn_t_olde_maat_uus_001",
+      "intent_en": "Find gift shop with local crafts",
+      "text_local": "Waar is de cadeauwinkel?",
+      "pronunciation": "vAHr-ihs-duh-kahdOHvingkEHl",
+      "formality": "standard",
+      "cultural_note": "Gift shop is typically located near the exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Na de kassa.",
+        "pronunciation": "nah-duh-kAHsah",
+        "translation_en": "Past the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Past the ticket counter.",
+          "phonetic": "nah-duh-kAHsah",
+          "french": "Na de kassa."
+        }
+      ]
+    },
+    {
+      "id": "giethoorn_museum_giethoorn_t_olde_maat_uus_002",
+      "intent_en": "Buy combined village pass",
+      "text_local": "Kunnen we een dorpkaart hier kopen?",
+      "pronunciation": "kNuhn-vuh-uhn-dAWrpkahrt-hEEr-kOHpuhn",
+      "formality": "standard",
+      "cultural_note": "Staff may redirect to desk for combined passes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de balie.",
+        "pronunciation": "behih-duh-bahlEE",
+        "translation_en": "At the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk.",
+          "phonetic": "behih-duh-bahlEE",
+          "french": "Bij de balie."
+        }
+      ]
+    },
+    {
+      "id": "giethoorn_museum_giethoorn_t_olde_maat_uus_003",
+      "intent_en": "Get tickets at main building desk",
+      "text_local": "Mogen we hier kaartjes kopen?",
+      "pronunciation": "mOHghuhn-vuh-hEEr-kAHrtuhs-kOHpuhn",
+      "formality": "casual",
+      "cultural_note": "Staff expect direct yes/no answers without hesitation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aan de kassa.",
+        "pronunciation": "yAHahn-duh-kAHsah",
+        "translation_en": "Yes, at the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket desk.",
+          "phonetic": "yAHahn-duh-kAHsah",
+          "french": "Ja, aan de kassa."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

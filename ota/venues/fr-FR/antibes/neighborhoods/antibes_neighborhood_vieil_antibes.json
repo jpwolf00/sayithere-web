@@ -1,0 +1,115 @@
+{
+  "id": "antibes_vieil_antibes_hood",
+  "name_en": "Vieil Antibes / Old Town",
+  "name_local": "Vieil Antibes",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "antibes_oldtown_001",
+      "intent_en": "Ask what time the ramparts close in the evening",
+      "text_local": "À quelle heure ferment les remparts du Vieil Antibes le soir ?",
+      "pronunciation": "ah kel UHR fair-MAHN lay rahn-PAR luh SWAR",
+      "formality": "polite",
+      "cultural_note": "The city walls of Antibes are open during daylight hours. The best time to walk the ramparts is at sunset for views over the port and sea.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "7 PM in summer, 5 PM in winter. Check the poster.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "Les remparts ferment vers 19h en été et 17h en hiver. Vérifiez l’affiche à l’entrée pour l’heure exacte."
+        }
+      ]
+    },
+    {
+      "id": "antibes_oldtown_002",
+      "intent_en": "Ask where the main gate into the old town is",
+      "text_local": "Où se trouve la porte principale pour entrer dans le vieux Antibes ?",
+      "pronunciation": "oo suh TROOV lah port prahn-SEE-pal poor ahn-TRAY dan luh vyoo-zan-TEEB",
+      "formality": "polite",
+      "cultural_note": "The main gate is the Port Marine, opening onto Place Nationale. Another entrance near the clock tower leads to the market area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The main gate is the Porte Marine, on Place Nationale.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "La porte principale est la Porte Marine, sur la place du Général-de-Gaulle. Elle est à 3 minutes à pied du marché Provençal."
+        }
+      ]
+    },
+    {
+      "id": "antibes_oldtown_003",
+      "intent_en": "Ask about parking in the old town",
+      "text_local": "Où peut-on garer la voiture dans le centre historique d'Antibes ?",
+      "pronunciation": "oo puh-TOH gar-AY lah vwah-TOOR dan luh san-TREh ees-toh-REEK",
+      "formality": "polite",
+      "cultural_note": "Parking in Vieil Antibes is difficult. The best option is the underground parking at Place Nationale. Outside July-August, street parking is easier.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Underground parking at Place Nationale. Limited street parking.",
+          "phonetic": "wee, suh-LAH ruh-MON-tah oon pay-ree-OHD ahn-SYEN",
+          "french": "Le meilleur parking est le parking souterrain Place Nationale. Le stationnement en rue est limité."
+        }
+      ]
+    },
+    {
+      "id": "antibes_oldtown_004",
+      "intent_en": "Ask where the best view of the old town from above is",
+      "text_local": "D'où peut-on avoir la meilleure vue sur le vieux Antibes ?",
+      "pronunciation": "doo puh-TOH ah-VWAHR lah may-YUR VYOO soor luh vyoo-zan-TEEB",
+      "formality": "polite",
+      "cultural_note": "The best overall view of Vieil Antibes is from the top of Fort Carré, a 15-minute walk from the old town gates.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the Douaniers path.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "La meilleure vue est depuis le chemin des Douaniers, près du phare de la Garoupe. Vous verrez tout le vieux Antibes et la baie."
+        }
+      ]
+    },
+    {
+      "id": "antibes_oldtown_005",
+      "intent_en": "Ask if there is a guided tour of the old town",
+      "text_local": "Y a-t-il des visites guidées du vieux Antibes ? Comment puis-je en réserver une ?",
+      "pronunciation": "ee ah-TEEL day vee-ZEET gee-DAY doo vyoo-zan-TEEB",
+      "formality": "polite",
+      "cultural_note": "The tourist office offers guided walking tours of the old town in season, usually in French and English. Book ahead in summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the tourist office offers guided tours.",
+          "phonetic": "wee, suh-LAH ruh-MON-tah oon pay-ree-OHD ahn-SYEN",
+          "french": "Les visites guidées commencent à l’office de tourisme à 10h et 14h. Demandez pour les langues."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "old town",
+      "word_local": "le vieux Antibes",
+      "pronunciation": "leh vyoo-zan-TEEB"
+    },
+    {
+      "word_en": "gate",
+      "word_local": "la porte",
+      "pronunciation": "lah port"
+    },
+    {
+      "word_en": "ramparts",
+      "word_local": "les remparts",
+      "pronunciation": "lay rahn-PAR"
+    },
+    {
+      "word_en": "historic center",
+      "word_local": "le centre historique",
+      "pronunciation": "leh san-TREh ees-toh-REEK"
+    }
+  ]
+}

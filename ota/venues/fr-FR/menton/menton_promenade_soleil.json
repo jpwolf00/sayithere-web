@@ -1,0 +1,110 @@
+{
+  "id": "menton_promenade_soleil",
+  "name_en": "Promenade du Soleil",
+  "name_local": "Promenade du Soleil",
+  "icon": "leaf",
+  "phrases": [
+    {
+      "id": "soleil_plage",
+      "intent_en": "Is the beach accessible here?",
+      "text_local": "La plage est-elle accessible ici ?",
+      "pronunciation": "lah PLAHZH eh-TEL ak-ses-EEBL ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Promenade du Soleil runs along the seafront with beaches below. Most are public — some sections are reserved for restaurants.",
+      "responses": [
+        {
+          "english": "Yes, the stairway is right there.",
+          "phonetic": "wee, les-kah-LYAY eh zhoost LAH",
+          "french": "Oui, l'escalier est juste là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "soleil_galets",
+      "intent_en": "It's a pebble beach, not sand?",
+      "text_local": "C'est une plage de galets, pas de sable ?",
+      "pronunciation": "say-ewn PLAHZH duh gah-LAY, pah duh SAH-bluh",
+      "formality": "polite",
+      "cultural_note": "Like most Riviera beaches, Menton's beaches are pebble (galets). Bring water shoes for comfort.",
+      "responses": [
+        {
+          "english": "Yes, it's pebbles. Bring water shoes.",
+          "phonetic": "wee, seh day gah-LEH. pruh-NAY day shoh-SOOR DOH",
+          "french": "Oui, c'est des galets. Prenez des chaussures d'eau."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_prom_men_x1",
+      "intent_en": "Ask how long the promenade is",
+      "text_local": "Quelle est la longueur de la promenade ?",
+      "pronunciation": "kel ay lah lon-GUR duh lah prohm-NAHD",
+      "formality": "polite",
+      "cultural_note": "The Promenade du Soleil stretches for two kilometres along Menton's beach, backed by Belle Époque hotels and lemon trees.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "About two kilometres.",
+          "phonetic": "DUH kee-loh-MET ahn-vee-RON.",
+          "french": "Deux kilomètres environ."
+        }
+      ]
+    },
+    {
+      "id": "fr_prom_men_x2",
+      "intent_en": "Ask where to sit and have a coffee along the promenade",
+      "text_local": "Où peut-on s'asseoir et prendre un café sur la promenade ?",
+      "pronunciation": "oo puh-TON sah-SWAR ay PRAHN-dr uhn kah-FAY soor lah prohm-NAHD",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are several terraces facing the sea.",
+          "phonetic": "eel ee ah ploo-ZYUR teh-RAHS fahs ah lah MAIR.",
+          "french": "Il y a plusieurs terrasses face à la mer."
+        }
+      ]
+    },
+    {
+      "id": "fr_prom_men_x3",
+      "intent_en": "Ask if you can swim from the beach here",
+      "text_local": "Peut-on se baigner depuis cette plage ?",
+      "pronunciation": "puh-TON suh ban-YAY duh-PWEE set PLAHZH",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's a pebble beach, supervised in summer.",
+          "phonetic": "wee, say toon PLAHZH duh gah-LAY, soor-vay-YAY ahn ay-TAY.",
+          "french": "Oui, c'est une plage de galets, surveillée en été."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "pebbles",
+      "word_local": "les galets",
+      "pronunciation": "lay gah-LAY"
+    },
+    {
+      "word_en": "calm sea",
+      "word_local": "la mer calme",
+      "pronunciation": "lah MAIR KALM"
+    },
+    {
+      "word_en": "sunbathing",
+      "word_local": "le bain de soleil",
+      "pronunciation": "luh ban duh soh-LAY"
+    }
+  ]
+}

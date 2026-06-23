@@ -1,0 +1,56 @@
+{
+  "id": "utrecht_wilhelminapark",
+  "name_en": "Wilhelminapark",
+  "name_local": "Wilhelminapark",
+  "icon": "leaf",
+  "lat": 52.0883412,
+  "lon": 5.140572,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "utrecht_wilhelminapark_001",
+      "intent_en": "Is the pavilion cafe serving now",
+      "text_local": "Is het paviljoen open nu?",
+      "pronunciation": "ihs-huht-pAHvihlyOOn-OHpuhn-nUE",
+      "formality": "standard",
+      "cultural_note": "Direct, factual response common in Dutch hospitality settings where hours may vary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nu gesloten.",
+        "pronunciation": "nUE-ghuhslOHtuhn",
+        "translation_en": "Closed now."
+      },
+      "responses": [
+        {
+          "english": "Closed now.",
+          "phonetic": "nUE-ghuhslOHtuhn",
+          "french": "Nu gesloten."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_wilhelminapark_002",
+      "intent_en": "Do I keep dogs on leash here",
+      "text_local": "Moet ik mijn hond aangelijnd houden?",
+      "pronunciation": "mOOt-ihk-mehihn-hAWnt-AHnghuhlEHihnt-hUHuhduhn",
+      "formality": "standard",
+      "cultural_note": "Clear rule enforcement language typical in Dutch public spaces.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Honden aangelijnd verplicht.",
+        "pronunciation": "hAWnduhn-AHnghuhlEHihnt-vuhrplIHkht",
+        "translation_en": "Dogs must be leashed."
+      },
+      "responses": [
+        {
+          "english": "Dogs must be leashed.",
+          "phonetic": "hAWnduhn-AHnghuhlEHihnt-vuhrplIHkht",
+          "french": "Honden aangelijnd verplicht."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

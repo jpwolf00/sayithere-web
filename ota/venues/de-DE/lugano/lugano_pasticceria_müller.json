@@ -1,0 +1,122 @@
+{
+  "id": "lugano_pasticceria_müller",
+  "name_en": "Pasticceria Müller",
+  "name_local": "Pasticceria Müller",
+  "icon": "fork.knife",
+  "lat": 46.0038007,
+  "lon": 8.9512275,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "lugano_pasticceria_müller_001",
+      "intent_en": "Where do I wait for my number?",
+      "text_local": "Wo warte ich auf meine Nummer?",
+      "pronunciation": "vOH-vAHrtuh-ihkh-owf-mEYEnuh-nUHm",
+      "formality": "standard",
+      "cultural_note": "Number systems are often used for cake pickups to avoid confusion during busy periods.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen bei der Torte.",
+        "pronunciation": "ahm-trEHzuhn-beye-dehr-tAWrtuh",
+        "translation_en": "At the counter by the cake."
+      },
+      "responses": [
+        {
+          "english": "At the counter by the cake.",
+          "phonetic": "ahm-trEHzuhn-beye-dehr-tAWrtuh",
+          "french": "Am Tresen bei der Torte."
+        }
+      ]
+    },
+    {
+      "id": "lugano_pasticceria_müller_002",
+      "intent_en": "Is the torta ai frutti di bosco available?",
+      "text_local": "Ist die Torte mit Waldbeeren verfügbar?",
+      "pronunciation": "ihst-dee-tAWrtuh-miht-vAHldbehruhn-fehrfUEkbahr",
+      "formality": "standard",
+      "cultural_note": "Fruit tarts are seasonally adjusted; availability may vary by day.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Schaukasten.",
+        "pronunciation": "yAHihm-shOWkahstuhn",
+        "translation_en": "Yes, in the showcase."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the showcase.",
+          "phonetic": "yAHihm-shOWkahstuhn",
+          "french": "Ja, im Schaukasten."
+        }
+      ]
+    },
+    {
+      "id": "lugano_pasticceria_müller_003",
+      "intent_en": "Is there seating near the espresso bar?",
+      "text_local": "Gibt es Sitzplätze am Espressobereich?",
+      "pronunciation": "EEpt-ehs-zIHtsplehtsuh-ahm-EHshprehsOHbuhrEYEkh",
+      "formality": "standard",
+      "cultural_note": "Swiss cafés often prioritize standing space at bars; seating may be limited indoors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nur im Stehen am Tresen.",
+        "pronunciation": "yAHnOOr-ihm-shtEHuhn-ahm-trEHzuhn",
+        "translation_en": "Yes, only standing at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, only standing at the counter.",
+          "phonetic": "yAHnOOr-ihm-shtEHuhn-ahm-trEHzuhn",
+          "french": "Ja, nur im Stehen am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "lugano_pasticceria_müller_004",
+      "intent_en": "Do I pay before or after ordering?",
+      "text_local": "Zahle ich vor oder nach der Bestellung?",
+      "pronunciation": "tsAHluh-ihkh-fAWr-OHd-nahkh-dehr-buhshtEHluhng",
+      "formality": "standard",
+      "cultural_note": "Payment before ordering is standard in Swiss bakeries and cafés to manage queue flow.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor der Bestellung.",
+        "pronunciation": "fAWr-dehr-buhshtEHluhng",
+        "translation_en": "Before ordering."
+      },
+      "responses": [
+        {
+          "english": "Before ordering.",
+          "phonetic": "fAWr-dehr-buhshtEHluhng",
+          "french": "Vor der Bestellung."
+        }
+      ]
+    },
+    {
+      "id": "lugano_pasticceria_müller_005",
+      "intent_en": "How do I order confetti by weight?",
+      "text_local": "Wie bestelle ich Konfetti nach Gewicht?",
+      "pronunciation": "vee-buhshtEHluh-ihkh-kawnfEHtee-nahkh-uhvIHkht",
+      "formality": "standard",
+      "cultural_note": "Customers typically self-serve from the display or ask staff to portion confetti by weight.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Wägen und zahlen am Tresen.",
+        "pronunciation": "vEHuhn-uhnt-tsAHluhn-ahm-trEHzuhn",
+        "translation_en": "Weigh and pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Weigh and pay at the counter.",
+          "phonetic": "vEHuhn-uhnt-tsAHluhn-ahm-trEHzuhn",
+          "french": "Wägen und zahlen am Tresen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

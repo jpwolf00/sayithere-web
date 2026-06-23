@@ -1,0 +1,110 @@
+{
+  "id": "amboise_chateau_gaillard",
+  "name_en": "Château Gaillard Amboise",
+  "name_local": "Château Gaillard",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "amboise_gaillard_001",
+      "intent_en": "Ask if guided visits are available",
+      "text_local": "Y a-t-il des visites guidées ?",
+      "pronunciation": "ee ah-TEEL day vee-ZEET ghee-DAY",
+      "formality": "polite",
+      "cultural_note": "Château Gaillard in Amboise is privately owned and offers guided visits by appointment.",
+      "responses": [
+        {
+          "english": "Yes, by appointment.",
+          "phonetic": "wee, soor rahn-DAY-voo",
+          "french": "Oui, sur rendez-vous."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_gaillard_002",
+      "intent_en": "Ask if the gardens are open to the public",
+      "text_local": "Les jardins sont-ils ouverts au public ?",
+      "pronunciation": "lay zhar-DAN son-TEEL oo-VAIR oh poo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "The gardens of Château Gaillard feature Renaissance-style terraced gardens and are considered among the earliest examples of Italian garden design in France.",
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "wee, seh oo-VEHR",
+          "french": "Oui, c'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_gaillard_003",
+      "intent_en": "Ask for the entry fee",
+      "text_local": "Quel est le tarif d'entrée ?",
+      "pronunciation": "kel ay luh tah-REEF dahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "Château Gaillard is privately owned and offers guided visits by appointment; check locally for current opening times.",
+      "responses": [
+        {
+          "english": "Nine euros per adult.",
+          "phonetic": "nuhf uh-ROH par ah-DULT",
+          "french": "Neuf euros par adulte."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_gaillard_004",
+      "intent_en": "Ask if there is a vineyard on the property",
+      "text_local": "Y a-t-il un vignoble sur le domaine ?",
+      "pronunciation": "ee ah-TEEL un veen-YOBL soor luh doh-MEN",
+      "formality": "polite",
+      "cultural_note": "The estate includes a small vineyard producing Touraine-Amboise wine, continuing a tradition of viticulture on this site since the Renaissance.",
+      "responses": [
+        {
+          "english": "Yes, there are vines on the estate.",
+          "phonetic": "wee, eel ee ah day VEEN-yuh soor luh doh-MEN",
+          "french": "Oui, il y a des vignes sur le domaine."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_gaillard_005",
+      "intent_en": "Ask which direction the château faces",
+      "text_local": "Le château est-il orienté vers la Loire ?",
+      "pronunciation": "luh shah-TOH ay-TEEL oh-ree-AHN-tay vair lah LWAR",
+      "formality": "polite",
+      "cultural_note": "Château Gaillard sits on a plateau above Amboise with views toward the Loire, placed to take advantage of the landscape in the Italian manner.",
+      "responses": [
+        {
+          "english": "Yes, you can see the Loire.",
+          "phonetic": "wee, ohn vwah lah LWAR",
+          "french": "Oui, on voit la Loire."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "château",
+      "word_local": "le château",
+      "pronunciation": "luh shah-TOH"
+    },
+    {
+      "word_en": "vineyard",
+      "word_local": "le vignoble",
+      "pronunciation": "luh veen-YOBL"
+    },
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "luh zhar-DAN"
+    }
+  ]
+}

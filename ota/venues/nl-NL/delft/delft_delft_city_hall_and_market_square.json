@@ -1,0 +1,100 @@
+{
+  "id": "delft_delft_city_hall_and_market_square",
+  "name_en": "Delft City Hall and Market Square",
+  "name_local": "Stadhuis Delft en Markt",
+  "icon": "building.columns",
+  "lat": 52.0116,
+  "lon": 4.3571,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "delft_delft_city_hall_and_market_square_001",
+      "intent_en": "Do vendors take cards",
+      "text_local": "Accepteren marktkooplui pinpas?",
+      "pronunciation": "AHksehptIHruhn-mAHrktkohplUHue-pIHnpahs",
+      "formality": "standard",
+      "cultural_note": "Market vendors in Dutch open-air markets are known to prioritize cash; card acceptance is rare.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Alleen contant geld.",
+        "pronunciation": "ahlEHn-kawntAHnt-ghEHlt",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "ahlEHn-kawntAHnt-ghEHlt",
+          "french": "Alleen contant geld."
+        }
+      ]
+    },
+    {
+      "id": "delft_delft_city_hall_and_market_square_002",
+      "intent_en": "Where is the Nieuwe Kerk entrance",
+      "text_local": "Waar is de ingang van de Nieuwe Kerk?",
+      "pronunciation": "vAHr-ihs-duh-IHnghAHng-vahn-duh-nEEwuh-kEHrk",
+      "formality": "standard",
+      "cultural_note": "Dutch church staff typically handle entrance guidance; direct answers about exact location are avoided.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De ingang is aan de Marktzijde.",
+        "pronunciation": "duh-IHnghAHng-ihs-ahn-duh-mAHrktzehihduh",
+        "translation_en": "The entrance is on the Market Square side."
+      },
+      "responses": [
+        {
+          "english": "The entrance is on the Market Square side.",
+          "phonetic": "duh-IHnghAHng-ihs-ahn-duh-mAHrktzehihduh",
+          "french": "De ingang is aan de Marktzijde."
+        }
+      ]
+    },
+    {
+      "id": "delft_delft_city_hall_and_market_square_003",
+      "intent_en": "How do I pay for parking",
+      "text_local": "Hoe betaal ik voor het parkeren?",
+      "pronunciation": "hOO-buhtAHl-ihk-vawr-huht-pahrkIHruhn",
+      "formality": "standard",
+      "cultural_note": "Payment at the square's edge aligns with municipal parking zones; exact mechanisms are handled by staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Betaal bij de parkeerautomaat aan de rand van de Markt, vlak bij de gracht.",
+        "pronunciation": "buhtAHl-behih-duh-pAHrkihrUHuhtohmAHt-ahn-duh-rAHnt-vahn-duh-mAHrktvlAHk-behih-duh-ghrAHkht",
+        "translation_en": "Pay at the parking meter at the edge of the Market Square, near the canal."
+      },
+      "responses": [
+        {
+          "english": "Pay at the parking meter at the edge of the Market Square, near the canal.",
+          "phonetic": "buhtAHl-behih-duh-pAHrkihrUHuhtohmAHt-ahn-duh-rAHnt-vahn-duh-mAHrktvlAHk-behih-duh-ghrAHkht",
+          "french": "Betaal bij de parkeerautomaat aan de rand van de Markt, vlak bij de gracht."
+        }
+      ]
+    },
+    {
+      "id": "delft_delft_city_hall_and_market_square_004",
+      "intent_en": "Where can I buy Delft blue pottery",
+      "text_local": "Waar koop ik Delfts blauw aardewerk?",
+      "pronunciation": "vAHr-kOHp-ihk-dEHlfts-blUHuh-AHrduhvEHrk",
+      "formality": "standard",
+      "cultural_note": "Delft blue pottery is a hallmark of the city; vendors rotate stalls, so direct location cues are avoided.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de marktkooplieden.",
+        "pronunciation": "vrAHkh-huht-behih-duh-mAHrktkohplEEduhn",
+        "translation_en": "Ask the market vendors."
+      },
+      "responses": [
+        {
+          "english": "Ask the market vendors.",
+          "phonetic": "vrAHkh-huht-behih-duh-mAHrktkohplEEduhn",
+          "french": "Vraag het bij de marktkooplieden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

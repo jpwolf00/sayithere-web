@@ -1,0 +1,122 @@
+{
+  "id": "kalambaka_old_town_of_kalambaka",
+  "name_en": "Old Town of Kalambaka",
+  "name_local": "Παλιά Πόλη Καλαμπάκας",
+  "icon": "map",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "kalambaka_old_town_of_kalambaka_001",
+      "intent_en": "Ask where Kastraki path starts",
+      "text_local": "Πού αρχίζει το μονοπάτι για το Κάστρακι;",
+      "pronunciation": "pOO-ahrkhEEzee-toh-mOHnohpAHtee-yAH-toh-kAHstrahEE",
+      "formality": "standard",
+      "cultural_note": "Το μονοπάτι ξεκινά κατά μήκος του δρόμου που οδηγεί στο Κάστρακι.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην άκρη της πόλης, προς το βουνό.",
+        "pronunciation": "steen-AHkree-tees-pOHleesprOHs-toh-voonOH",
+        "translation_en": "At the edge of town, towards the mountain."
+      },
+      "responses": [
+        {
+          "english": "At the edge of town, towards the mountain.",
+          "phonetic": "steen-AHkree-tees-pOHleesprOHs-toh-voonOH",
+          "french": "Στην άκρη της πόλης, προς το βουνό."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_old_town_of_kalambaka_002",
+      "intent_en": "Ask where Panagia church ruins visible",
+      "text_local": "Πού φαίνονται τα ερείπια της Παναγίας;",
+      "pronunciation": "pOO-fEHnohdEH-tah-ehrEEpkhah-tees-pAHnahyEEahs",
+      "formality": "standard",
+      "cultural_note": "Ο ιερέας στον Άγιο Νικόλαο γνωρίζει την τοποθεσία των ερειπίων της Παναγίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πάνω στο λόφο, κάτω από την Αγία Τριάδα.",
+        "pronunciation": "pAHnoh-stoh-lOHfohkAHtoh-ahpOH-teen-ahyEEah-treeAHthah",
+        "translation_en": "Up on the hill, below the Holy Trinity."
+      },
+      "responses": [
+        {
+          "english": "Up on the hill, below the Holy Trinity.",
+          "phonetic": "pAHnoh-stoh-lOHfohkAHtoh-ahpOH-teen-ahyEEah-treeAHthah",
+          "french": "Πάνω στο λόφο, κάτω από την Αγία Τριάδα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_old_town_of_kalambaka_003",
+      "intent_en": "Ask how to pay train ticket",
+      "text_local": "Πώς πληρώνω το εισιτήριο του τραίνου;",
+      "pronunciation": "pOHs-pleerOHnoh-toh-EEseetEEreeOH-too-trEHnoo",
+      "formality": "standard",
+      "cultural_note": "Στο σταθμό ΟΣΕ οι πληρωμές γίνονται κυρίως με μετρητά ή κάρτα στον υπάλληλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο γκισέ του σταθμού πληρώνετε με μετρητά ή κάρτα.",
+        "pronunciation": "stoh-geesEH-too-stahthmOO-pleerOHnehtEH-meh-mEHtreetAH-ee-kAHrtah",
+        "translation_en": "At the station counter you pay with cash or card."
+      },
+      "responses": [
+        {
+          "english": "At the station counter you pay with cash or card.",
+          "phonetic": "stoh-geesEH-too-stahthmOO-pleerOHnehtEH-meh-mEHtreetAH-ee-kAHrtah",
+          "french": "Στο γκισέ του σταθμού πληρώνετε με μετρητά ή κάρτα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_old_town_of_kalambaka_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να πληρώσω με κάρτα και να χωρίσω τον λογαριασμό;",
+      "pronunciation": "thEHkhohdEH-kAHrtah-yAH-khOHreestOH-lOHghahrEEahsmOH",
+      "formality": "standard",
+      "cultural_note": "Στο μαγαζί του Καπετάνιου συχνά χρειάζεται να πληρώσεις μετρητά για χωριστό λογαριασμό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, αλλά μόνο με μετρητά για χωρισμό.",
+        "pronunciation": "nEHahlAH-mOHnoh-meh-mEHtreetAH-yAH-khOHreesmOH",
+        "translation_en": "Yes, but only cash for splitting."
+      },
+      "responses": [
+        {
+          "english": "Yes, but only cash for splitting.",
+          "phonetic": "nEHahlAH-mOHnoh-meh-mEHtreetAH-yAH-khOHreesmOH",
+          "french": "Ναι, αλλά μόνο με μετρητά για χωρισμό."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_old_town_of_kalambaka_005",
+      "intent_en": "Ask where Byzantine Dormition church is",
+      "text_local": "Πού βρίσκεται η Εκκλησία της Κοιμήσεως της Θεοτόκου;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-EHkleesEEah-tees-eemEEsehOHs-tees-thEHohtOHkoo",
+      "formality": "standard",
+      "cultural_note": "Οι πινακίδες στον Παλιά Πόλη συνήθως αναφέρουν τον Άγιο Νικόλαο για την Εκκλησία της Κοιμήσεως.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κέντρο της παλιάς πόλης.",
+        "pronunciation": "stoh-EHdroh-tees-pahlyAHs-pOHlees",
+        "translation_en": "In the center of the old town."
+      },
+      "responses": [
+        {
+          "english": "In the center of the old town.",
+          "phonetic": "stoh-EHdroh-tees-pahlyAHs-pOHlees",
+          "french": "Στο κέντρο της παλιάς πόλης."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

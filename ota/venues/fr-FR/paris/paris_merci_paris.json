@@ -1,0 +1,135 @@
+{
+  "id": "venue_merci_paris",
+  "name_en": "Merci Concept Store",
+  "name_local": "Merci",
+  "icon": "heart.fill",
+  "phrases": [
+    {
+      "id": "venue_merci_paris_001",
+      "intent_en": "Ask where the home goods section is",
+      "text_local": "Où est le rayon maison ?",
+      "pronunciation": "oo eh luh ray-YOHN may-ZOHN",
+      "formality": "polite",
+      "cultural_note": "Merci is known for its curated home goods, fashion, and lifestyle items.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is on the first floor, up the stairs.",
+          "phonetic": "seh toh pruh-MYAY ay-TAHZH, ahn mohn-TAHN les-kah-lee-YAY",
+          "french": "C'est au premier étage, en montant l'escalier."
+        }
+      ]
+    },
+    {
+      "id": "venue_merci_paris_002",
+      "intent_en": "Ask where the café inside the store is",
+      "text_local": "Où se trouve le café à l'intérieur du magasin ?",
+      "pronunciation": "oo suh TROOV luh kah-FAY ah lan-tay-RYUR doo mah-gah-ZEHN",
+      "formality": "standard",
+      "cultural_note": "Merci has three distinct café spaces: a ground-floor café with a bookshop feel, a basement bistro serving simple French lunches, and a salad bar. The basement Used Book Café is especially popular and filled with second-hand books for sale. All three are open to non-shoppers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The café is at the back of the store, in the basement.",
+          "phonetic": "luh kah-FAY eh toh fohn doo mah-gah-ZAN, oh soo-sol",
+          "french": "Le café est au fond du magasin, au sous-sol."
+        }
+      ]
+    },
+    {
+      "id": "venue_merci_paris_003",
+      "intent_en": "Ask if a specific item can be gift-wrapped",
+      "text_local": "Est-ce que vous pouvez faire un emballage cadeau pour cet article ?",
+      "pronunciation": "ess kuh voo poo-VAY fehr uhn ahm-bah-LAHZH kah-DOH poor seh tar-TEEKL",
+      "formality": "polite",
+      "cultural_note": "Merci's gift wrapping uses its signature brown paper and red ribbon — minimal and chic. The store stocks an eclectic mix of fashion, design objects, stationery, home goods, and books. Each floor has a different curator-like feel, and the selection rotates frequently.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, we can gift wrap. Ask at the counter.",
+          "phonetic": "wee, ohn puh fehr uhn pah-KAY kah-DOH. duh-mahn-DAY oh kohn-TWAHR",
+          "french": "Oui, on peut faire un paquet cadeau. Demandez au comptoir."
+        }
+      ]
+    },
+    {
+      "id": "venue_merci_paris_004",
+      "intent_en": "Ask a staff member for a gift recommendation under a budget",
+      "text_local": "Je cherche un cadeau original pour environ cinquante euros — qu'est-ce que vous me conseilleriez ?",
+      "pronunciation": "zhuh shehrsh uhn kah-DOH oh-ree-zhee-NAL poor ahn-vee-ROHN sahn-KAHNT uh-ROH — kess kuh voo muh kohn-seh-yuh-RYAY",
+      "formality": "polite",
+      "cultural_note": "Staff at Merci are knowledgeable and enjoy making tailored recommendations — the store's ethos is personal and considered rather than mass-market. The stationery, candles, and design objects sections are good for gifts in the €30-80 range.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I recommend our candles, they are under thirty euros.",
+          "phonetic": "zhuh voo kohn-SAY noh boo-ZHEE, el sohn tah mwahn duh trahnt uh-ROH",
+          "french": "Je vous conseille nos bougies, elles sont à moins de trente euros."
+        }
+      ]
+    },
+    {
+      "id": "venue_merci_paris_005",
+      "intent_en": "Ask what the opening hours are",
+      "text_local": "Quels sont vos horaires d'ouverture ?",
+      "pronunciation": "kel sohn voz oh-REHR doo-vehr-TOOR",
+      "formality": "polite",
+      "cultural_note": "Merci is closed on Sundays. Check hours before visiting on public holidays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "We are open from ten to seven.",
+          "phonetic": "ohn eh oo-VEHR duh deez uhr ah dee-NUHF uhr",
+          "french": "On est ouvert de dix heures à dix-neuf heures."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Concept store",
+      "word_local": "Concept store",
+      "pronunciation": "kohn-SEPT stor"
+    },
+    {
+      "word_en": "Charity",
+      "word_local": "Association caritative",
+      "pronunciation": "ah-soh-syah-SYOHN kah-ree-tah-TEEV"
+    },
+    {
+      "word_en": "Gift",
+      "word_local": "Cadeau",
+      "pronunciation": "kah-DOH"
+    },
+    {
+      "word_en": "Design object",
+      "word_local": "Objet de design",
+      "pronunciation": "ohb-ZHEH duh deh-ZINE"
+    },
+    {
+      "word_en": "Second-hand book",
+      "word_local": "Livre d'occasion",
+      "pronunciation": "LEEVR doh-kah-ZYOHN"
+    },
+    {
+      "word_en": "Home goods",
+      "word_local": "Articles de maison",
+      "pronunciation": "ar-TEEKL duh meh-ZOHN"
+    },
+    {
+      "word_en": "Profit",
+      "word_local": "Bénéfice",
+      "pronunciation": "bay-nay-FEES"
+    },
+    {
+      "word_en": "Unique / Original",
+      "word_local": "Original",
+      "pronunciation": "oh-ree-zhee-NAL"
+    }
+  ]
+}

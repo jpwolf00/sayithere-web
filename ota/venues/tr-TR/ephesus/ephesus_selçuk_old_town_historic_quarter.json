@@ -1,0 +1,56 @@
+{
+  "id": "ephesus_selçuk_old_town_historic_quarter",
+  "name_en": "Selçuk Old Town historic quarter",
+  "name_local": "Selçuk Tarihi Merkez",
+  "icon": "map",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "ephesus_selçuk_old_town_historic_quarter_001",
+      "intent_en": "How do I pay at tea house?",
+      "text_local": "Çay evinde nasıl ödeme yapabilirim?",
+      "pronunciation": "tshAHy-ehvihndEH-nahsOO-uhdEHmeh-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Small tea houses in historic areas often prefer cash.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çaycıya nakit ödeyin.",
+        "pronunciation": "tshahydzhooyAH-nahkIHt-uhdehyIHn",
+        "translation_en": "Pay cash to the tea server."
+      },
+      "responses": [
+        {
+          "english": "Pay cash to the tea server.",
+          "phonetic": "tshahydzhooyAH-nahkIHt-uhdehyIHn",
+          "french": "Çaycıya nakit ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_old_town_historic_quarter_002",
+      "intent_en": "Where can I park near castle?",
+      "text_local": "Kale yakınına arabayı nereye park edebilirim?",
+      "pronunciation": "kAHlehnihn-yahkoonoondAH-nEHrehyeh-pAHrk-ehdehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Parking in historic quarters is often unmarked; asking is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kale girişinin önünde park var.",
+        "pronunciation": "kAHleh-eereesheenIHn-uhnuhndEH-pAHrk-vAHr",
+        "translation_en": "There is parking in front of the castle entrance."
+      },
+      "responses": [
+        {
+          "english": "There is parking in front of the castle entrance.",
+          "phonetic": "kAHleh-eereesheenIHn-uhnuhndEH-pAHrk-vAHr",
+          "french": "Kale girişinin önünde park var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

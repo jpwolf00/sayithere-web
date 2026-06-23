@@ -1,0 +1,100 @@
+{
+  "id": "rhodes_kounellis_bakery",
+  "name_en": "Kounellis Bakery",
+  "name_local": "Αρτοποιείο Κουνέλλη",
+  "icon": "fork.knife",
+  "lat": 36.1725297,
+  "lon": 27.9194016,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "rhodes_kounellis_bakery_001",
+      "intent_en": "Do I pay before custom orders?",
+      "text_local": "Πληρώνω πριν τις παραγγελίες;",
+      "pronunciation": "pleerOHnoh-prEEn-dees-pAHrahnggehlEEehs",
+      "formality": "standard",
+      "cultural_note": "Στο συγκεκριμένο αρτοποιείο, η πληρωμή γίνεται πάντα πριν την παραλαβή παραγγελιών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον ταμία.",
+        "pronunciation": "nEHstohn-dahmEEah",
+        "translation_en": "Yes, at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cashier.",
+          "phonetic": "nEHstohn-dahmEEah",
+          "french": "Ναι, στον ταμία."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_kounellis_bakery_002",
+      "intent_en": "Do I take a number when busy?",
+      "text_local": "Παίρνω νούμερο όταν είναι πολυκοσμία;",
+      "pronunciation": "pEHrnoh-nOOmehrOH-OHtahn-EEneh-pOHleekohsmEEah",
+      "formality": "standard",
+      "cultural_note": "Σε ώρες αιχμής, ακολουθείται σύστημα νούμερου για εξυπηρέτηση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, πάρτε νούμερο.",
+        "pronunciation": "nEHpAHrteh-nOOmehrOH",
+        "translation_en": "Yes, take a number."
+      },
+      "responses": [
+        {
+          "english": "Yes, take a number.",
+          "phonetic": "nEHpAHrteh-nOOmehrOH",
+          "french": "Ναι, πάρτε νούμερο."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_kounellis_bakery_003",
+      "intent_en": "Do bulk orders need advance call?",
+      "text_local": "Χρειάζεται να τηλεφωνήσω για μεγάλες παραγγελίες;",
+      "pronunciation": "khrkhAHzehtEH-nah-tEElehfohnEEsoh-yAH-mehghAHlehs-pAHrahnggehlEEehs",
+      "formality": "standard",
+      "cultural_note": "Οι μεγάλες παραγγελίες συνιστάται να γίνονται μετά από προηγούμενη συνεννόηση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, πρέπει να πάρετε τηλέφωνο.",
+        "pronunciation": "nEHprEHpee-nah-pAHrehtEH-teelEHfohnOH",
+        "translation_en": "Yes, you need to call."
+      },
+      "responses": [
+        {
+          "english": "Yes, you need to call.",
+          "phonetic": "nEHprEHpee-nah-pAHrehtEH-teelEHfohnOH",
+          "french": "Ναι, πρέπει να πάρετε τηλέφωνο."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_kounellis_bakery_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε σπανακόπιτα τώρα;",
+      "pronunciation": "EHkhee-spAHnahkOHpeetAH-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Η διαθεσιμότητα της σπανακόπιτας μπορεί να αλλάζει ανάλογα με την παραγωγή της ημέρας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ράφι δεξιά από τον φούρνο.",
+        "pronunciation": "nEHstoh-rAHfee-thEHkseeAH-ahpOH-tohn-fOOrnoh",
+        "translation_en": "Yes, we have spanakopita now."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have spanakopita now.",
+          "phonetic": "nEHstoh-rAHfee-thEHkseeAH-ahpOH-tohn-fOOrnoh",
+          "french": "Ναι, στο ράφι δεξιά από τον φούρνο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

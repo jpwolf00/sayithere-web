@@ -1,0 +1,122 @@
+{
+  "id": "innsbruck_golden_roof",
+  "name_en": "Golden Roof",
+  "name_local": "Goldenes Dachl",
+  "icon": "building.columns",
+  "lat": 48.0228978,
+  "lon": 7.8255159,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "innsbruck_golden_roof_001",
+      "intent_en": "How do I pay for old town parking",
+      "text_local": "Wie zahle ich Parkgebühren?",
+      "pronunciation": "vee-tsAHluh-ihkh-pAHrkehbUEruhn",
+      "formality": "standard",
+      "cultural_note": "Parking payment machines are common in Austrian old towns.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten.",
+        "pronunciation": "ahm-OWtohmAHtuhn",
+        "translation_en": "At the machine."
+      },
+      "responses": [
+        {
+          "english": "At the machine.",
+          "phonetic": "ahm-OWtohmAHtuhn",
+          "french": "Am Automaten."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_golden_roof_002",
+      "intent_en": "Is the balcony viewpoint open now",
+      "text_local": "Ist der Balkon jetzt zugänglich?",
+      "pronunciation": "ihst-dehr-bahlkOHn-yEHtst-tsOOehnglIHkh",
+      "formality": "standard",
+      "cultural_note": "The balcony is not open to the public, as stated in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur von außen sichtbar.",
+        "pronunciation": "nEYEnnOOr-fawn-OWsuhn-zIHkhtbahr",
+        "translation_en": "No, only visible from outside."
+      },
+      "responses": [
+        {
+          "english": "No, only visible from outside.",
+          "phonetic": "nEYEnnOOr-fawn-OWsuhn-zIHkhtbahr",
+          "french": "Nein, nur von außen sichtbar."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_golden_roof_003",
+      "intent_en": "Can I book the guided tour here",
+      "text_local": "Kann ich hier eine Führung buchen?",
+      "pronunciation": "kAHn-ihkh-hEEr-EYEnuh-fUEruhng-bOOkhuhn",
+      "formality": "casual",
+      "cultural_note": "Guided tours are typically booked at a dedicated desk or counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the desk.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_golden_roof_004",
+      "intent_en": "Where is the audio guide rental",
+      "text_local": "Wo bekomme ich einen Audioguide?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-EYEnuhn-ehnAWdihUHuheyeddeh",
+      "formality": "casual",
+      "cultural_note": "Staff at desks typically handle audio guide rentals directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Kasse.",
+        "pronunciation": "ahn-dehr-kAHsuh",
+        "translation_en": "At the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter.",
+          "phonetic": "ahn-dehr-kAHsuh",
+          "french": "An der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_golden_roof_005",
+      "intent_en": "Where is the museum entrance",
+      "text_local": "Wo ist der Museumseingang?",
+      "pronunciation": "vOH-ihst-dehr-mOOzawuhmzEYEngahng",
+      "formality": "standard",
+      "cultural_note": "The museum entrance is accessed via a separate entrance, likely not the main attraction entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im oberen Stock.",
+        "pronunciation": "ihm-OHbuhruhn-shtAWk",
+        "translation_en": "On the upper floor."
+      },
+      "responses": [
+        {
+          "english": "On the upper floor.",
+          "phonetic": "ihm-OHbuhruhn-shtAWk",
+          "french": "Im oberen Stock."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

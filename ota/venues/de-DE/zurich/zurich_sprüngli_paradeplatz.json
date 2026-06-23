@@ -1,0 +1,100 @@
+{
+  "id": "zurich_sprüngli_paradeplatz",
+  "name_en": "Sprüngli Paradeplatz",
+  "name_local": "Confiserie Sprüngli",
+  "icon": "fork.knife",
+  "lat": 47.3694816,
+  "lon": 8.5391402,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zurich_sprüngli_paradeplatz_001",
+      "intent_en": "Can I get a gift box wrapped?",
+      "text_local": "Kann man hier Geschenkboxen einpacken?",
+      "pronunciation": "kAHn-mahn-hEEr-uhshEHngkbawksuhn-EYEnpAHkuhn",
+      "formality": "casual",
+      "cultural_note": "Direct service at counter is standard for gift wrapping in Swiss confectionaries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "zurich_sprüngli_paradeplatz_002",
+      "intent_en": "Do I pay at counter or table?",
+      "text_local": "Zahlt man am Tisch oder am Tresen?",
+      "pronunciation": "tsAHlt-mahn-ahm-tIHsh-OHd-ahm-trEHzuhn",
+      "formality": "standard",
+      "cultural_note": "Table service includes payment at the table in Swiss cafés.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen zahlen Sie.",
+        "pronunciation": "ahm-trEHzuhn-tsAHluhn-zee",
+        "translation_en": "You pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "You pay at the counter.",
+          "phonetic": "ahm-trEHzuhn-tsAHluhn-zee",
+          "french": "Am Tresen zahlen Sie."
+        }
+      ]
+    },
+    {
+      "id": "zurich_sprüngli_paradeplatz_003",
+      "intent_en": "Can I share a table during rush?",
+      "text_local": "Darf man während der Stoßzeit Tische teilen?",
+      "pronunciation": "dAHrf-mahn-vEHruhnt-dehr-shtAWstseyet-tIHshuh-tEYEluhn",
+      "formality": "standard",
+      "cultural_note": "Informal sharing is generally permitted in Swiss cafés during busy hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, wenn frei.",
+        "pronunciation": "yAHvEHn-frEYE",
+        "translation_en": "Yes, if available."
+      },
+      "responses": [
+        {
+          "english": "Yes, if available.",
+          "phonetic": "yAHvEHn-frEYE",
+          "french": "Ja, wenn frei."
+        }
+      ]
+    },
+    {
+      "id": "zurich_sprüngli_paradeplatz_004",
+      "intent_en": "Is there café seating available now?",
+      "text_local": "Haben Sie jetzt freie Sitzplätze?",
+      "pronunciation": "hAHbuhn-zee-yEHtst-frEYE-UH-zIHtsplehtsuh",
+      "formality": "standard",
+      "cultural_note": "Seating availability is typically indicated by signage in Swiss cafés.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, oben im Café.",
+        "pronunciation": "yAHOHbuhn-ihm-kahfEH",
+        "translation_en": "Yes, upstairs in the café."
+      },
+      "responses": [
+        {
+          "english": "Yes, upstairs in the café.",
+          "phonetic": "yAHOHbuhn-ihm-kahfEH",
+          "french": "Ja, oben im Café."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

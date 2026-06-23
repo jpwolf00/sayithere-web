@@ -1,0 +1,78 @@
+{
+  "id": "hydra_spilia_beach_rocks",
+  "name_en": "Spilia Beach Rocks",
+  "name_local": "Σπηλιά",
+  "icon": "leaf",
+  "lat": 37.3518779,
+  "lon": 23.4635912,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "hydra_spilia_beach_rocks_001",
+      "intent_en": "How to reach Porto Spilia dock",
+      "text_local": "Πώς φτάνω στη προβλήτα Πόρτο Σπηλιά;",
+      "pronunciation": "pOHs-ftAHnoh-stee-prohvlEEtah-pOHrtoh-speelyAH",
+      "formality": "standard",
+      "cultural_note": "Η πρόσβαση γίνεται με βάρκα. Οι πινακίδες κατευθύνουν προς τον συγκεκριμένο προορισμό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πάρτε ένα ταξί-βάρκα από την παραλία.",
+        "pronunciation": "pAHrteh-EHnah-tahksEEvAHrk-ahpOH-teem-bAHrahlEEah",
+        "translation_en": "Take a water taxi from the beach."
+      },
+      "responses": [
+        {
+          "english": "Take a water taxi from the beach.",
+          "phonetic": "pAHrteh-EHnah-tahksEEvAHrk-ahpOH-teem-bAHrahlEEah",
+          "french": "Πάρτε ένα ταξί-βάρκα από την παραλία."
+        }
+      ]
+    },
+    {
+      "id": "hydra_spilia_beach_rocks_002",
+      "intent_en": "Is the tavern open for lunch",
+      "text_local": "Λειτουργεί το μεσημεριανό στην ταβέρνα;",
+      "pronunciation": "lEEtooryEE-toh-mEHseemEHreeahnOH-steen-dahvEHrnah",
+      "formality": "standard",
+      "cultural_note": "Οι περισσότερες ταβέρνες στη Χύδρα προσφέρουν μεσημεριανό γεύμα μέχρι το απόγευμα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, λειτουργεί.",
+        "pronunciation": "nEHlEEtooryEE",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "nEHlEEtooryEE",
+          "french": "Ναι, λειτουργεί."
+        }
+      ]
+    },
+    {
+      "id": "hydra_spilia_beach_rocks_003",
+      "intent_en": "Where to pay for beach chairs",
+      "text_local": "Πού πληρώνω για ξαπλώστρες;",
+      "pronunciation": "pOO-pleerOHnoh-yAH-ksahplOHstrehs",
+      "formality": "standard",
+      "cultural_note": "Οι ξαπλώστρες συνήθως πληρώνονται στον οικοδεσπότη του ταβερνείου που διαχειρίζεται την περιοχή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην ταβέρνα.",
+        "pronunciation": "steen-dahvEHrnah",
+        "translation_en": "At the tavern."
+      },
+      "responses": [
+        {
+          "english": "At the tavern.",
+          "phonetic": "steen-dahvEHrnah",
+          "french": "Στην ταβέρνα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

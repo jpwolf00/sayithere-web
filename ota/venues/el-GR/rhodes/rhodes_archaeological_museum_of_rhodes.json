@@ -1,0 +1,122 @@
+{
+  "id": "rhodes_archaeological_museum_of_rhodes",
+  "name_en": "Archaeological Museum of Rhodes",
+  "name_local": "Αρχαιολογικό Μουσείο Ρόδου",
+  "icon": "building.columns",
+  "lat": 36.4446283,
+  "lon": 28.2262507,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "rhodes_archaeological_museum_of_rhodes_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η Κεκλιμένη Αφροδίτη;",
+      "pronunciation": "pOO-EEneh-ee-EHkleemEHnee-AHfrohthEEtee",
+      "formality": "standard",
+      "cultural_note": "Η χρήση του όρου 'φύλακας' ακολουθεί την επίσημη ορολογία του μουσείου. Οι επισκέπτες απευθύνονται συχνά στους φύλακες για πληροφορίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον κεντρικό εκθεσιακό χώρο, δεξιά.",
+        "pronunciation": "stohng-gEHdreekOH-EHkthehsyahkOH-khOHrohthEHkseeAH",
+        "translation_en": "On the ground floor, near the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, near the ticket booth.",
+          "phonetic": "stohng-gEHdreekOH-EHkthehsyahkOH-khOHrohthEHkseeAH",
+          "french": "Στον κεντρικό εκθεσιακό χώρο, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_archaeological_museum_of_rhodes_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού νοικιάζω οπτικοακουστικό οδηγό;",
+      "pronunciation": "pOO-neeAHzoh-ksEHnahghOH",
+      "formality": "standard",
+      "cultural_note": "Ο όρος 'ξεναγός' χρησιμοποιείται τόσο για τους οδηγούς ξεναγούς όσο και για τους πάγκους ενοικίασης ξεναγών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο, αριστερά της εισόδου.",
+        "pronunciation": "stoh-tahmEEohAHreestehrAH-tees-eesOHthoo",
+        "translation_en": "At the ticket desk, next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk, next to the entrance.",
+          "phonetic": "stoh-tahmEEohAHreestehrAH-tees-eesOHthoo",
+          "french": "Στο ταμείο, αριστερά της εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_archaeological_museum_of_rhodes_003",
+      "intent_en": "Is flash allowed near the Aphrodite?",
+      "text_local": "Επιτρέπεται το φλας εκεί κοντά στην Αφροδίτη;",
+      "pronunciation": "EHpeetrEHpehtEH-toh-flAHs-ehEE-kohdAH-steen-AHfrohthEEtee",
+      "formality": "standard",
+      "cultural_note": "Η απαγόρευση χρήσης φλας κοντά σε αρχαιολογικά γλυπτά είναι τυπική πρακτική στα ελληνικά μουσεία για λόγους συντήρησης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, it is forbidden."
+      },
+      "responses": [
+        {
+          "english": "No, it is forbidden.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_archaeological_museum_of_rhodes_004",
+      "intent_en": "Does the Medieval City pass include entry?",
+      "text_local": "Το πάσο της Μεσαιωνικής Πόλης περιλαμβάνει είσοδο;",
+      "pronunciation": "toh-pAHsoh-teez-mEHsehOHneeEEs-pOHlees-pEHreelahmvAHnee-EEsohthOH",
+      "formality": "standard",
+      "cultural_note": "Τα συνδυαστικά πάσα εισόδου για ιστορικούς χώρους αποτελούν κοινή πρακτική στην Ελλάδα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, περιλαμβάνει.",
+        "pronunciation": "nEHpEHreelahmvAHnee",
+        "translation_en": "Yes, it includes entry."
+      },
+      "responses": [
+        {
+          "english": "Yes, it includes entry.",
+          "phonetic": "nEHpEHreelahmvAHnee",
+          "french": "Ναι, περιλαμβάνει."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_archaeological_museum_of_rhodes_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η έκθεση με την Κεφαλή του Ηλίου;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-EHfahlEE-too-eelEEoo",
+      "formality": "standard",
+      "cultural_note": "Η χρήση του όρου 'φύλακας' ακολουθεί την επίσημη ορολογία του μουσείου. Οι επισκέπτες απευθύνονται συχνά στους φύλακες για πληροφορίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην αίθουσα των αγαλμάτων, αριστερά.",
+        "pronunciation": "thEEplah-steen-EHthoosAH-tohn-AHghahlmAHtohnAHreestehrAH",
+        "translation_en": "The Head of Helios is near the statue of Aphrodite."
+      },
+      "responses": [
+        {
+          "english": "The Head of Helios is near the statue of Aphrodite.",
+          "phonetic": "thEEplah-steen-EHthoosAH-tohn-AHghahlmAHtohnAHreestehrAH",
+          "french": "Δίπλα στην αίθουσα των αγαλμάτων, αριστερά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "hiroshima_hiroshima_castle",
+  "name_en": "Hiroshima Castle",
+  "name_local": "広島城",
+  "icon": "building.columns",
+  "lat": 34.4021463,
+  "lon": 132.4595399,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "hiroshima_hiroshima_castle_001",
+      "intent_en": "Where do I return the audio guide?",
+      "text_local": "おんせいガイドは どこで かえしますか？",
+      "pronunciation": "OHsEHeegEEdOHh-dohkOHdeh-kEHEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Returns are often handled at a dedicated counter near the exit to manage the flow of visitors.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "でぐちの カウンターです。",
+        "pronunciation": "dEHgootEEnoh-kOOntdEHsoo",
+        "translation_en": "At the counter by the exit."
+      },
+      "responses": [
+        {
+          "english": "At the counter by the exit.",
+          "phonetic": "dEHgootEEnoh-kOOntdEHsoo",
+          "french": "でぐちの カウンターです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_castle_002",
+      "intent_en": "Is the audio guide available?",
+      "text_local": "おんせいガイドは ありますか？",
+      "pronunciation": "OHsEHeegEEdOHh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "'ございます' is a polite form of 'あります', often used in service settings.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ございます。",
+        "pronunciation": "hEEgOHzeemSoo",
+        "translation_en": "Yes, we have them."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have them.",
+          "phonetic": "hEEgOHzeemSoo",
+          "french": "はい、ございます。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_castle_003",
+      "intent_en": "Where is the moat walking path?",
+      "text_local": "おほりの さんぽみちは どこですか？",
+      "pronunciation": "OHhohEEnoh-sPOHmeetEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "'ぐるっと' is an onomatopoeic word meaning encircling or going around, perfectly describing a moat path.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "しろの そとに ぐるっと ありますよ。",
+        "pronunciation": "eeOHnoh-sohtOHnee-gooOOttoh-EEmsOOyoh",
+        "translation_en": "It runs all the way around the outside of the castle."
+      },
+      "responses": [
+        {
+          "english": "It runs all the way around the outside of the castle.",
+          "phonetic": "eeOHnoh-sohtOHnee-gooOOttoh-EEmsOOyoh",
+          "french": "しろの そとに ぐるっと ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_castle_004",
+      "intent_en": "Where is the keep entrance?",
+      "text_local": "てんしゅかくの いりぐちは どこですか？",
+      "pronunciation": "tEHOOkkOOnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff give short, clear directions. 'このさき' means 'straight ahead from here'.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき、ひだりです。",
+        "pronunciation": "kOHnohsKeekhEEdeedEHsoo",
+        "translation_en": "Straight ahead, on your left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on your left.",
+          "phonetic": "kOHnohsKeekhEEdeedEHsoo",
+          "french": "このさき、ひだりです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "zell_am_see_kitzsteinhorn_glacier_road",
+  "name_en": "Kitzsteinhorn Glacier Road",
+  "name_local": "Gletscherstraße Kitzsteinhorn",
+  "icon": "building.columns",
+  "lat": 47.3239636,
+  "lon": 12.7963165,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "zell_am_see_kitzsteinhorn_glacier_road_001",
+      "intent_en": "Where does the Gletscherbus shuttle depart?",
+      "text_local": "Wo fährt der Gletscherbus ab?",
+      "pronunciation": "vOH-fEHrt-dehr-lEHtshbUHs-AHp",
+      "formality": "standard",
+      "cultural_note": "Shuttle departure points are often referenced by the nearest major landmark or service hub.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Alpincenter.",
+        "pronunciation": "ahm-AHlpihnkEHnt",
+        "translation_en": "At the Alpincenter."
+      },
+      "responses": [
+        {
+          "english": "At the Alpincenter.",
+          "phonetic": "ahm-AHlpihnkEHnt",
+          "french": "Am Alpincenter."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_kitzsteinhorn_glacier_road_002",
+      "intent_en": "Is the Langwiedboden mid-station open now?",
+      "text_local": "Hat die Langwiedboden-Station jetzt offen?",
+      "pronunciation": "haht-dee-lAHngvEEdbohduhnshtahtsyOHn-yEHtst-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Short, direct answers are expected for operational questions at transport hubs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_kitzsteinhorn_glacier_road_003",
+      "intent_en": "Where is the Alpincenter ski rental desk?",
+      "text_local": "Wo ist der Skiverleih Alpincenter?",
+      "pronunciation": "vOH-ihst-dehr-skEEvlEYE-AHlpihnkEHnt",
+      "formality": "standard",
+      "cultural_note": "Directions to counters/services are typically given by referencing the name of the service location without micro-navigation details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Beim Alpincenter-Schalter.",
+        "pronunciation": "beyem-AHlpihnkEHntshAHlt",
+        "translation_en": "At the Alpincenter counter."
+      },
+      "responses": [
+        {
+          "english": "At the Alpincenter counter.",
+          "phonetic": "beyem-AHlpihnkEHntshAHlt",
+          "french": "Beim Alpincenter-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_kitzsteinhorn_glacier_road_004",
+      "intent_en": "How do I reach the Gletscherplateau viewing area?",
+      "text_local": "Wie komme ich zur Aussichtsplattform am Gletscherplateau?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoor-OWszIHkhtsplahtfAWrm-ahm-lEHtshplahtOH",
+      "formality": "casual",
+      "cultural_note": "Access to viewing areas is typically described by the transport method rather than micro-directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Mit der Gipfelbahn.",
+        "pronunciation": "miht-dehr-IHpfuhlbAHn",
+        "translation_en": "Take the summit gondola."
+      },
+      "responses": [
+        {
+          "english": "Take the summit gondola.",
+          "phonetic": "miht-dehr-IHpfuhlbAHn",
+          "french": "Mit der Gipfelbahn."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

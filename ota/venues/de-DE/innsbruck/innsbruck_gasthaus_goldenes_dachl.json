@@ -1,0 +1,100 @@
+{
+  "id": "innsbruck_gasthaus_goldenes_dachl",
+  "name_en": "Gasthaus Goldenes Dachl",
+  "name_local": "Gasthaus Goldenes Dachl",
+  "icon": "fork.knife",
+  "lat": 47.2686453,
+  "lon": 11.3935956,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "innsbruck_gasthaus_goldenes_dachl_001",
+      "intent_en": "Do I say 'Zahlen bitte' for the bill?",
+      "text_local": "Sagt man 'Zahlen bitte' für die Rechnung?",
+      "pronunciation": "zAHkt-mahn-tsAHluhn-bIHtuh-fuer-dee-rEHkhnuhng",
+      "formality": "polite",
+      "cultural_note": "Direct phrase for bill request in Austrian restaurants.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, das sagt man so.",
+        "pronunciation": "yAHdahs-zAHkt-mahn-zOH",
+        "translation_en": "Yes, that's what you say."
+      },
+      "responses": [
+        {
+          "english": "Yes, that's what you say.",
+          "phonetic": "yAHdahs-zAHkt-mahn-zOH",
+          "french": "Ja, das sagt man so."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_gasthaus_goldenes_dachl_002",
+      "intent_en": "Do I seat myself at free tables?",
+      "text_local": "Darf man sich an freien Tischen setzen?",
+      "pronunciation": "dAHrf-mahn-zihkh-ahn-frEYE-UHn-tIHshuhn-zEHtsuhn",
+      "formality": "standard",
+      "cultural_note": "Self-seating is customary in casual Austrian eateries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nehmen Sie Platz.",
+        "pronunciation": "yAHnEHmuhn-zee-plAHts",
+        "translation_en": "Yes, take a seat."
+      },
+      "responses": [
+        {
+          "english": "Yes, take a seat.",
+          "phonetic": "yAHnEHmuhn-zee-plAHts",
+          "french": "Ja, nehmen Sie Platz."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_gasthaus_goldenes_dachl_003",
+      "intent_en": "Can I see the Goldenes Dachl from the terrace?",
+      "text_local": "Kann man vom Gastgarten das Goldene Dachl sehen?",
+      "pronunciation": "kAHn-mahn-fawm-AHstahrtuhn-dahs-AWlduhnuh-dAHkhl-zEHuhn",
+      "formality": "standard",
+      "cultural_note": "Locals may refer to outdoor seating areas as 'Gastgarten' or 'Terrasse' interchangeably.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die Terrasse bietet den besten Blick.",
+        "pronunciation": "yAHdee-tEHrahsuh-bEEtuht-dehn-bEHstuhn-blIHk",
+        "translation_en": "Yes, the terrace offers the best view."
+      },
+      "responses": [
+        {
+          "english": "Yes, the terrace offers the best view.",
+          "phonetic": "yAHdee-tEHrahsuh-bEEtuht-dehn-bEHstuhn-blIHk",
+          "french": "Ja, die Terrasse bietet den besten Blick."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_gasthaus_goldenes_dachl_004",
+      "intent_en": "Is the card reader working today?",
+      "text_local": "Funktioniert das Kartenterminal heute?",
+      "pronunciation": "fuhngktsyOHnEErt-dahs-kAHrtehntmeenAHl-hAWuhtuh",
+      "formality": "standard",
+      "cultural_note": "Cash preference is commonly advised due to spotty card reader reliability.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meistens ja, aber Bargeld ist sicherer.",
+        "pronunciation": "mEYEstuhns-yAHAHb-bAHrehlt-ihst-zIHkhuhr",
+        "translation_en": "Mostly yes, but cash is safer."
+      },
+      "responses": [
+        {
+          "english": "Mostly yes, but cash is safer.",
+          "phonetic": "mEYEstuhns-yAHAHb-bAHrehlt-ihst-zIHkhuhr",
+          "french": "Meistens ja, aber Bargeld ist sicherer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

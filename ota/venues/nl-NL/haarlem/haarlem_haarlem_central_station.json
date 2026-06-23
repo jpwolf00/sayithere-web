@@ -1,0 +1,122 @@
+{
+  "id": "haarlem_haarlem_central_station",
+  "name_en": "Haarlem Central Station",
+  "name_local": "Station Haarlem",
+  "icon": "tram",
+  "lat": 52.3869,
+  "lon": 4.6368,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "haarlem_haarlem_central_station_001",
+      "intent_en": "Ask if the red ticket machine takes cash",
+      "text_local": "Neemt de rode automaat contant geld aan?",
+      "pronunciation": "nEHm-tuh-rOHduh-UHuhtohmAHt-kawntAHnt-ghEHlt-AHn",
+      "formality": "standard",
+      "cultural_note": "Dutch ticket machines often prefer card payments; cash acceptance may vary.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Nee, de rode automaat accepteert alleen pin of creditcard.",
+        "pronunciation": "nEHduh-rOHduh-UHuhtohmAHt-AHksehptIHrt-ahlEHn-pIHn-awf-krEHdihtkAHrt",
+        "translation_en": "No, the red machine only accepts debit or credit card."
+      },
+      "responses": [
+        {
+          "english": "No, the red machine only accepts debit or credit card.",
+          "phonetic": "nEHduh-rOHduh-UHuhtohmAHt-AHksehptIHrt-ahlEHn-pIHn-awf-krEHdihtkAHrt",
+          "french": "Nee, de rode automaat accepteert alleen pin of creditcard."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_haarlem_central_station_002",
+      "intent_en": "Ask how to check out with OV-chipkaart",
+      "text_local": "Hoe check ik uit met mijn OV-chipkaart?",
+      "pronunciation": "hOO-tshEHk-ihk-uhuet-meht-mehihn-OHfEHtshIHpkahrt",
+      "formality": "standard",
+      "cultural_note": "OV-chipkaart check-out is standard procedure when exiting train stations in the Netherlands; requires tapping the card on the designated reader.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Houd de kaart tegen het paaltje bij de uitgang.",
+        "pronunciation": "hUHuh-tuh-kAHr-tEHghuhn-huht-pAHltuh-behih-duh-UHuetghAHng",
+        "translation_en": "Tap the card at the gate near the exit."
+      },
+      "responses": [
+        {
+          "english": "Tap the card at the gate near the exit.",
+          "phonetic": "hUHuh-tuh-kAHr-tEHghuhn-huht-pAHltuh-behih-duh-UHuetghAHng",
+          "french": "Houd de kaart tegen het paaltje bij de uitgang."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_haarlem_central_station_003",
+      "intent_en": "Ask where the OV-fiets rental desk is",
+      "text_local": "Waar is de OV-fiets verhuur?",
+      "pronunciation": "vAHr-ihs-duh-OHfEHfEEts-vuhrhUEr",
+      "formality": "standard",
+      "cultural_note": "OV-fiets is a common bicycle rental service in Dutch train stations; staff are usually stationed at a dedicated desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De OV-fietsverhuur bevindt zich in de Oude Willemspassage, bij de uitgang naar het Stationsplein.",
+        "pronunciation": "duh-OHfEHfEEtsfuhrhUEr-buhvIHnt-zihkh-ihn-duh-UHuhduh-vIHlehmspahsAHzhuhbehih-duh-UHuetghAHng-nahr-huht-stAHshawnsplEHihn",
+        "translation_en": "The OV-fiets rental is located in the Oude Willemspassage, near the exit to the station square."
+      },
+      "responses": [
+        {
+          "english": "The OV-fiets rental is located in the Oude Willemspassage, near the exit to the station square.",
+          "phonetic": "duh-OHfEHfEEtsfuhrhUEr-buhvIHnt-zihkh-ihn-duh-UHuhduh-vIHlehmspahsAHzhuhbehih-duh-UHuetghAHng-nahr-huht-stAHshawnsplEHihn",
+          "french": "De OV-fietsverhuur bevindt zich in de Oude Willemspassage, bij de uitgang naar het Stationsplein."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_haarlem_central_station_004",
+      "intent_en": "Ask when the next train to Amsterdam leaves",
+      "text_local": "Hoe laat vertrekt de volgende trein naar Amsterdam?",
+      "pronunciation": "hOO-lAHt-vuhrtrEHk-tuh-vAWlghuhnduh-trEHihn-nahr-AHmstuhrdAHm",
+      "formality": "standard",
+      "cultural_note": "Departure boards are the primary source for train times; platform numbers are stable targets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De volgende intercity naar Amsterdam vertrekt over 8 minuten van spoor 2. Volg de borden naar spoor 2 via de hoofdingang.",
+        "pronunciation": "duh-vAWlghuhnduh-IHntuhrseetee-nahr-AHmstuhrdahm-vuhrtrEHkt-OHvuhr-AHkht-mEEnuetuhn-vahn-spOHr-tEHvAWlkh-duh-bAWrduhn-nahr-spOHr-tEH-vEEah-duh-hOHvdihngahng",
+        "translation_en": "The next intercity to Amsterdam departs in 8 minutes from platform 2. Follow the signs to platform 2 via the main entrance."
+      },
+      "responses": [
+        {
+          "english": "The next intercity to Amsterdam departs in 8 minutes from platform 2. Follow the signs to platform 2 via the main entrance.",
+          "phonetic": "duh-vAWlghuhnduh-IHntuhrseetee-nahr-AHmstuhrdahm-vuhrtrEHkt-OHvuhr-AHkht-mEEnuetuhn-vahn-spOHr-tEHvAWlkh-duh-bAWrduhn-nahr-spOHr-tEH-vEEah-duh-hOHvdihngahng",
+          "french": "De volgende intercity naar Amsterdam vertrekt over 8 minuten van spoor 2. Volg de borden naar spoor 2 via de hoofdingang."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_haarlem_central_station_005",
+      "intent_en": "Ask where to report a lost item",
+      "text_local": "Waar meld ik een verloren voorwerp?",
+      "pronunciation": "vAHr-mEHlt-ihk-uhn-vuhrlOHruhn-vAWrvehrp",
+      "formality": "standard",
+      "cultural_note": "Lost and found services in Dutch train stations are typically handled by staff under Service & Veiligheid NS.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de Service & Veiligheid NS.",
+        "pronunciation": "vrAHkh-huht-behih-duh-sVuhs-EHn-vEHihluhkhhEHiht-EHnEHs",
+        "translation_en": "Ask at the Service & Veiligheid NS desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the Service & Veiligheid NS desk.",
+          "phonetic": "vrAHkh-huht-behih-duh-sVuhs-EHn-vEHihluhkhhEHiht-EHnEHs",
+          "french": "Vraag het bij de Service & Veiligheid NS."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

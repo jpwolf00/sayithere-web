@@ -1,0 +1,100 @@
+{
+  "id": "patras_georgiou_i_square_historic_quarter",
+  "name_en": "Georgiou I Square historic quarter",
+  "name_local": "Πλατεία Γεωργίου Α'",
+  "icon": "map",
+  "lat": 38.2462314,
+  "lon": 21.7351172,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "patras_georgiou_i_square_historic_quarter_001",
+      "intent_en": "Queue for coffee before sitting or after?",
+      "text_local": "Πρέπει να παραγγείλω τον καφέ πριν καθίσω;",
+      "pronunciation": "prEHpee-nah-pAHrahnggEEloh-tohng-gahfEH-prEEng-gahthEEsoh",
+      "formality": "standard",
+      "cultural_note": "Στις παραδοσιακές καφετέριες (kafetzís) συνηθίζεται να παραγγέλνετε πριν πάρετε θέση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Παραγγείλετε πρώτα τον καφέ.",
+        "pronunciation": "pAHrahnggEElehtEH-prOHtah-tohng-gahfEH",
+        "translation_en": "Order coffee before sitting."
+      },
+      "responses": [
+        {
+          "english": "Order coffee before sitting.",
+          "phonetic": "pAHrahnggEElehtEH-prOHtah-tohng-gahfEH",
+          "french": "Παραγγείλετε πρώτα τον καφέ."
+        }
+      ]
+    },
+    {
+      "id": "patras_georgiou_i_square_historic_quarter_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει ελάχιστη παραγγελία για να καθίσω εδώ;",
+      "pronunciation": "eepAHrkhee-ehlAHkheestEE-pAHrahnggehlEEah-yahnAH-kahthEEsoh-stoh-kAHfehnEEoh",
+      "formality": "standard",
+      "cultural_note": "Στα παραδοσιακά καφενεία (kafetzís) συχνά απαιτείται παραγγελία πριν καθίσετε, αλλά οι κανόνες δεν είναι τυπικοί.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, μία κατανάλωση ανά άτομο.",
+        "pronunciation": "nEHmEEah-kAHtahnAHlohsEE-ahnAH-AHtohmOH",
+        "translation_en": "Usually one order per person is enough."
+      },
+      "responses": [
+        {
+          "english": "Usually one order per person is enough.",
+          "phonetic": "nEHmEEah-kAHtahnAHlohsEE-ahnAH-AHtohmOH",
+          "french": "Ναι, μία κατανάλωση ανά άτομο."
+        }
+      ]
+    },
+    {
+      "id": "patras_georgiou_i_square_historic_quarter_003",
+      "intent_en": "Where to buy city bus tickets nearby?",
+      "text_local": "Πού μπορώ να αγοράσω εισιτήρια αστικών λεωφορείων εδώ κοντά;",
+      "pronunciation": "pOO-bohrOH-n-AHghohrAHsoh-EEseetEEree-AHsteekOHn-lEHohfohrEEohn-ehthOH-kohdAH",
+      "formality": "polite",
+      "cultural_note": "Οι κάτοικοι περιμένουν συνήθως να τους κατευθύνουν στον περιπτερά (Periptero) για αγορά εισιτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο περίπτερο της πλατείας.",
+        "pronunciation": "stoh-pehrEEptehrOH-tees-plahtEEahs",
+        "translation_en": "At the kiosk in the square."
+      },
+      "responses": [
+        {
+          "english": "At the kiosk in the square.",
+          "phonetic": "stoh-pehrEEptehrOH-tees-plahtEEahs",
+          "french": "Στο περίπτερο της πλατείας."
+        }
+      ]
+    },
+    {
+      "id": "patras_georgiou_i_square_historic_quarter_004",
+      "intent_en": "Apollon Theatre pedestrian approach from here?",
+      "text_local": "Πώς πάω πεζός στο Θέατρο Απόλλων;",
+      "pronunciation": "pOHs-pAHoh-pehzOHs-stoh-thEHahtrOH-ahpOHlohn",
+      "formality": "standard",
+      "cultural_note": "Οι ντόπιοι συνήθως αναφέρουν την κίνηση των πεζών ως οδηγό, καθώς δεν υπάρχουν συγκεκριμένες πινακίδες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κατεβαίνετε την Αγίου Νικολάου, είναι δεξιά.",
+        "pronunciation": "kAHtehvEHnehtEH-teen-ahyEEoo-nEEkohlAHooEEneh-thEHkseeAH",
+        "translation_en": "Follow the signs to the Apollon Theatre."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Apollon Theatre.",
+          "phonetic": "kAHtehvEHnehtEH-teen-ahyEEoo-nEEkohlAHooEEneh-thEHkseeAH",
+          "french": "Κατεβαίνετε την Αγίου Νικολάου, είναι δεξιά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

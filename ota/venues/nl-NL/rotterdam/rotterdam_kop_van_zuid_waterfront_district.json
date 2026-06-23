@@ -1,0 +1,56 @@
+{
+  "id": "rotterdam_kop_van_zuid_waterfront_district",
+  "name_en": "Kop van Zuid waterfront district",
+  "name_local": "Kop van Zuid",
+  "icon": "map",
+  "lat": 51.906546,
+  "lon": 4.4921854,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "rotterdam_kop_van_zuid_waterfront_district_001",
+      "intent_en": "Where is parking at the Maastoren?",
+      "text_local": "Waar is parkeren bij de Maastoren?",
+      "pronunciation": "vAHr-ihs-pahrkIHruhn-behih-duh-mahstOHruhn",
+      "formality": "standard",
+      "cultural_note": "Garages are often named after the building they serve. 'Onder' (under) is commonly used for underground parking.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Onder het Maastorengebouw.",
+        "pronunciation": "AWnduhr-huht-mAHstohrEHnguhbUHuh",
+        "translation_en": "Under the Maastoren building."
+      },
+      "responses": [
+        {
+          "english": "Under the Maastoren building.",
+          "phonetic": "AWnduhr-huht-mAHstohrEHnguhbUHuh",
+          "french": "Onder het Maastorengebouw."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_kop_van_zuid_waterfront_district_002",
+      "intent_en": "Where is the water taxi ticket kiosk?",
+      "text_local": "Waar staat de watertaxokiosk?",
+      "pronunciation": "vAHr-stAH-tuh-vAHtuhrtAHksohkEEawsk",
+      "formality": "standard",
+      "cultural_note": "Locals often say 'watertaxokiosk' or simply 'kiosk' for the ticket booth near the dock.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de aanlegsteiger.",
+        "pronunciation": "behih-duh-AHnlEHkhstehihghuhr",
+        "translation_en": "At the dock."
+      },
+      "responses": [
+        {
+          "english": "At the dock.",
+          "phonetic": "behih-duh-AHnlEHkhstehihghuhr",
+          "french": "Bij de aanlegsteiger."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,101 @@
+{
+  "id": "strasbourg_krutenau",
+  "name_en": "Krutenau",
+  "name_local": "Krutenau",
+  "icon": "building.2",
+  "lat": 48.5789,
+  "lon": 7.741,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "strasbourg_nbhd_krutenau_001",
+      "intent_en": "Ask about the student neighborhood",
+      "text_local": "C'est un quartier étudiant ?",
+      "pronunciation": "say uhn kar-TYAY ay-too-DYAN",
+      "formality": "neutral",
+      "cultural_note": "Krutenau is a lively student area near the university. It's known for its bars, restaurants, and bohemian atmosphere.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Krutenau or Universités stop. Lines E or F.",
+          "phonetic": "",
+          "french": "Oui, Krutenau est un quartier très animé par les étudiants, surtout autour de l’université. Bars et restaurants y sont nombreux."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_krutenau_002",
+      "intent_en": "Ask about the Asian restaurants",
+      "text_local": "Où sont les restaurants asiatiques ?",
+      "pronunciation": "oo son lay res-to-RAN ah-zee-AHTEK",
+      "formality": "polite",
+      "cultural_note": "This area has excellent Vietnamese and Chinese restaurants. The 'Little Asia' area is on Rue du Faubourg de Saverne.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The best Asian restaurants are on Rue du Faubourg de Saverne, nicknamed *Little Asia*. Try the Vietnamese or Chinese specialties.",
+          "phonetic": "",
+          "french": "Les meilleurs restaurants asiatiques se trouvent rue du Faubourg de Saverne, surnommée *Little Asia*. Essayez les spécialités vietnamiennes ou chinoises."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_krutenau_003",
+      "intent_en": "Ask about the Erasmus Bridge",
+      "text_local": "Où est le Pont Erasmus ?",
+      "pronunciation": "oo eh leh pon ay-rah-SMOOS",
+      "formality": "polite",
+      "cultural_note": "The Pont Erasmus is a modern footbridge with a distinctive bow shape. It connects the university area to the city center.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "",
+          "french": "Le pont Erasmus ne se trouve pas à Strasbourg, mais à Rotterdam. À Strasbourg, vous pouvez admirer le pont du Corbeau ou le pont de l’Europe."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_nbhd_krutenau_004",
+      "intent_en": "Ask about the nightlife",
+      "text_local": "Où est la vie nocturne ?",
+      "pronunciation": "oo eh lah vee nok-TOORN",
+      "formality": "polite",
+      "cultural_note": "Krutenau is the place for nightlife. Bars stay open late, and there's always something happening on weekends.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the Krutenau, especially around Rue de Zurich and Place d'Austerlitz.",
+          "phonetic": "wee, luh swar say tray zho-LEE",
+          "french": "La vie nocturne est concentrée autour des bars de la place Saint-Étienne et des rues adjacentes. Les soirées y sont animées, surtout le week-end."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "student",
+      "word_local": "étudiant",
+      "pronunciation": "ay-too-DYAN"
+    },
+    {
+      "word_en": "neighborhood",
+      "word_local": "le quartier",
+      "pronunciation": "leh kar-TYAY"
+    },
+    {
+      "word_en": "bar",
+      "word_local": "le bar",
+      "pronunciation": "leh BAR"
+    },
+    {
+      "word_en": "nightlife",
+      "word_local": "la vie nocturne",
+      "pronunciation": "lah vee nok-TOORN"
+    }
+  ]
+}

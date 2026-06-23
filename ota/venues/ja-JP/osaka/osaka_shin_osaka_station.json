@@ -1,0 +1,144 @@
+{
+  "id": "osaka_shin_osaka_station",
+  "name_en": "Shin-Osaka Station",
+  "name_local": "新大阪駅",
+  "icon": "tram",
+  "lat": 34.7340782,
+  "lon": 135.5018726,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "osaka_shin_osaka_station_001",
+      "intent_en": "Where is the Midosuji Line transfer gate",
+      "text_local": "みどうじせんの のりかえぐちは どこですか？",
+      "pronunciation": "mEEdohOOdeesEHnnoh-nOHeekEHgootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Transfer gates are often just a direction away from the main concourse, so a simple 'straight ahead, on the right' is a natural reply.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさきを みぎです。",
+        "pronunciation": "kOHnohskEEoh-mEEgeedEHsoo",
+        "translation_en": "It's to the right, up ahead."
+      },
+      "responses": [
+        {
+          "english": "It's to the right, up ahead.",
+          "phonetic": "kOHnohskEEoh-mEEgeedEHsoo",
+          "french": "このさきを みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shin_osaka_station_002",
+      "intent_en": "How do I use the reserved seat machine",
+      "text_local": "していせきの きっぷうりばの つかいかたを おしえてください。",
+      "pronunciation": "EEtehEEsehkEEnoh-kEEppooooeebNoh-tsOOkEEktOH-OHeeEHtehkOOdsEE",
+      "formality": "standard",
+      "cultural_note": "Using 'まず' (first) and the '~てください' form gives clear, step-by-step instructions, which is standard for explaining procedures.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まず ここに じょうしゃけんを いれて、 ざせきを えらんでください。",
+        "pronunciation": "mZoo-kohkOHnee-dOHooKehOH-eeEHtehzSehkEEoh-EHndEHkoodsEE",
+        "translation_en": "First, insert your ticket here, then select your seat."
+      },
+      "responses": [
+        {
+          "english": "First, insert your ticket here, then select your seat.",
+          "phonetic": "mZoo-kohkOHnee-dOHooKehOH-eeEHtehzSehkEEoh-EHndEHkoodsEE",
+          "french": "まず ここに じょうしゃけんを いれて、 ざせきを えらんでください。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shin_osaka_station_003",
+      "intent_en": "Where do I report a lost item",
+      "text_local": "わすれものを したばあい、 どこに とどければいいですか？",
+      "pronunciation": "wSooEHmohnOHoh-EEtbEEdohkOHnee-tOHdohkEHehbEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The lost and found is often just outside the main gates. Pointing and using 'あの' (that) is a very natural way to give directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あの かいさつを でて、 すぐの ばしょです。",
+        "pronunciation": "Noh-kEEstsOOoh-dEHtehsoogOOnoh-bOHdEHsoo",
+        "translation_en": "Go out through that ticket gate, it's right there."
+      },
+      "responses": [
+        {
+          "english": "Go out through that ticket gate, it's right there.",
+          "phonetic": "Noh-kEEstsOOoh-dEHtehsoogOOnoh-bOHdEHsoo",
+          "french": "あの かいさつを でて、 すぐの ばしょです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shin_osaka_station_004",
+      "intent_en": "Is the IC card top-up machine working",
+      "text_local": "ICカードの ちゃーじきは うごいていますか？",
+      "pronunciation": "ehnEYE-sEEyah-k-EHndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-nOH-tDeekEEh-OOgohEEtehEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple 'はい、だいじょうぶです' (Yes, it's fine/working) is a very common and natural confirmation from station staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、 だいじょうぶです。",
+        "pronunciation": "hEEdEEdOHooboodEHsoo",
+        "translation_en": "Yes, it's working."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's working.",
+          "phonetic": "hEEdEEdOHooboodEHsoo",
+          "french": "はい、 だいじょうぶです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shin_osaka_station_005",
+      "intent_en": "Where is the JR Pass exchange office",
+      "text_local": "JRパス ひきかえじょは どこですか？",
+      "pronunciation": "ehndzhAY-AHyah-h-EHndzhAHpuhneezyahlEHtuh-sOO-khEEkeekEHdOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The JR Pass exchange office (ひきかえじょ) is a specific counter, so a clear directional cue like 'straight ahead, on the left' is standard for station staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、 ひだりがわです。",
+        "pronunciation": "mssOOgoo-EEttehkhEEdEEgwdEHsoo",
+        "translation_en": "Go straight, it's on the left side."
+      },
+      "responses": [
+        {
+          "english": "Go straight, it's on the left side.",
+          "phonetic": "mssOOgoo-EEttehkhEEdEEgwdEHsoo",
+          "french": "まっすぐ いって、 ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shin_osaka_station_006",
+      "intent_en": "When does the next Tokaido Shinkansen leave",
+      "text_local": "つぎの とうかいどうしんかんせんは なんじですか？",
+      "pronunciation": "tsoogEEnoh-tOHookEEdOHooEEngkSehH-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Giving the exact time in hours and minutes is the most direct and helpful response for a departure time question.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "14じ 17ぷんです。",
+        "pronunciation": "dzOOsee-dEE-dzoosEEtsee-poondEHsoo",
+        "translation_en": "At 2:17 p.m."
+      },
+      "responses": [
+        {
+          "english": "At 2:17 p.m.",
+          "phonetic": "dzOOsee-dEE-dzoosEEtsee-poondEHsoo",
+          "french": "14じ 17ぷんです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

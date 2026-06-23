@@ -1,0 +1,115 @@
+{
+  "id": "lyon_halles_paul_bocuse",
+  "name_en": "Les Halles Paul Bocuse",
+  "name_local": "Les Halles Paul Bocuse",
+  "icon": "cart.fill",
+  "phrases": [
+    {
+      "id": "lyon_halles_001",
+      "intent_en": "Ask for a sample at a cheese stall",
+      "text_local": "Pourriez-vous me faire goûter ce fromage, s'il vous plaît ?",
+      "pronunciation": "poo-ryay-VOO muh fair goo-TAY suh froh-MAZH, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Les Halles Paul Bocuse (Les Halles de Lyon) is the city's prestigious covered food market. Vendors are proud of their products and tastings are generally welcome.",
+      "responses": [
+        {
+          "english": "Yes, here, taste.",
+          "phonetic": "wee, tuh-NAY, goo-TAY",
+          "french": "Oui, tenez, goûtez."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_halles_002",
+      "intent_en": "Order a quenelle at a counter",
+      "text_local": "Je voudrais une quenelle de brochet, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DREH oon kuh-NEL duh broh-SHEH, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Quenelles de brochet (pike dumplings in cream sauce) are Lyon's most iconic dish. The market is one of the best places in the city to try them.",
+      "responses": [
+        {
+          "english": "The pike quenelle, it's ready.",
+          "phonetic": "lah kuh-NEL duh broh-SHEH, seh PREH",
+          "french": "La quenelle de brochet, c'est prêt."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_halles_003",
+      "intent_en": "Ask which charcuterie is most typically Lyonnais",
+      "text_local": "Quelle charcuterie est la plus typiquement lyonnaise ?",
+      "pronunciation": "kel shar-koo-TREE eh lah ploo tee-peek-MAHN lyoh-NEZ",
+      "formality": "polite",
+      "cultural_note": "Lyon is France's charcuterie capital. Look for rosette de Lyon (dry salami), jésus (cured sausage), and grattons (fried pork crackling) — all local specialties.",
+      "responses": [
+        {
+          "english": "The dry sausage or the rosette.",
+          "phonetic": "luh soh-see-SOHN SEK oo lah roh-ZET",
+          "french": "Le saucisson sec ou la rosette."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_halles_004",
+      "intent_en": "Ask for a praline tart to take away",
+      "text_local": "Avez-vous une tarte à la praline à emporter ?",
+      "pronunciation": "ah-VAY-voo oon TART ah lah prah-LEEN ah ahm-por-TAY",
+      "formality": "polite",
+      "cultural_note": "The tarte à la praline — a bright pink tart made with caramelised almonds — is Lyon's signature pastry. It is intensely sweet and utterly unmistakable.",
+      "responses": [
+        {
+          "english": "Here you go, eight euros.",
+          "phonetic": "vwah-LAH, weet uh-ROH",
+          "french": "Voilà, huit euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_halles_005",
+      "intent_en": "Ask what time the market opens in the morning",
+      "text_local": "À quelle heure ouvre le marché le matin ?",
+      "pronunciation": "ah kel UR OOV-ruh luh mar-SHAY luh mah-TEHN",
+      "formality": "polite",
+      "cultural_note": "The market opens Tuesday through Sunday, early morning. It is at its liveliest mid-morning. Many stalls close by lunchtime on weekdays.",
+      "responses": [
+        {
+          "english": "At 7 AM.",
+          "phonetic": "ah set UHR doo mah-TEHN",
+          "french": "À sept heures du matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "covered market",
+      "word_local": "les halles",
+      "pronunciation": "lay AL"
+    },
+    {
+      "word_en": "pike dumpling",
+      "word_local": "la quenelle de brochet",
+      "pronunciation": "lah kuh-NEL duh broh-SHEH"
+    },
+    {
+      "word_en": "charcuterie",
+      "word_local": "la charcuterie",
+      "pronunciation": "lah shar-koo-TREE"
+    },
+    {
+      "word_en": "praline tart",
+      "word_local": "la tarte à la praline",
+      "pronunciation": "lah TART ah lah prah-LEEN"
+    }
+  ]
+}

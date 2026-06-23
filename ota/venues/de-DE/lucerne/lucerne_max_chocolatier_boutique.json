@@ -1,0 +1,100 @@
+{
+  "id": "lucerne_max_chocolatier_boutique",
+  "name_en": "Max Chocolatier boutique",
+  "name_local": "Max Chocolatier",
+  "icon": "fork.knife",
+  "lat": 47.0463608,
+  "lon": 8.3038956,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "lucerne_max_chocolatier_boutique_001",
+      "intent_en": "Ask where to pay for purchases",
+      "text_local": "Wo bezahle ich?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh",
+      "formality": "standard",
+      "cultural_note": "In Schweizer Läden wird die Kasse mit dem Tresen assoziiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen.",
+        "pronunciation": "ahm-trEHzuhn",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-trEHzuhn",
+          "french": "Am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_max_chocolatier_boutique_002",
+      "intent_en": "Ask how to order custom gift boxes",
+      "text_local": "Wie bestelle ich eine persönliche Geschenkbox?",
+      "pronunciation": "vee-buhshtEHluh-ihkh-EYEnuh-pehrzUHnlihkhuh-uhshEHngkbawks",
+      "formality": "standard",
+      "cultural_note": "In kleinen Boutiquen wird individuelle Gestaltung oft direkt am Verkaufstresen besprochen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter, bitte.",
+        "pronunciation": "ahm-shAHltbIHtuh",
+        "translation_en": "At the counter, please."
+      },
+      "responses": [
+        {
+          "english": "At the counter, please.",
+          "phonetic": "ahm-shAHltbIHtuh",
+          "french": "Am Schalter, bitte."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_max_chocolatier_boutique_003",
+      "intent_en": "Request truffle tasting samples",
+      "text_local": "Kann ich eine Trüffelprobe probieren?",
+      "pronunciation": "kAHn-ihkh-EYEnuh-trUEfuhlprOHbuh-prohbEEruhn",
+      "formality": "standard",
+      "cultural_note": "Kleinere Proben sind in Schweizer Schokoladengeschäften oft üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die Auswahl liegt bereit.",
+        "pronunciation": "yAHdee-OWsvAHl-lEEkt-buhrEYEt",
+        "translation_en": "Yes, the selection is ready."
+      },
+      "responses": [
+        {
+          "english": "Yes, the selection is ready.",
+          "phonetic": "yAHdee-OWsvAHl-lEEkt-buhrEYEt",
+          "french": "Ja, die Auswahl liegt bereit."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_max_chocolatier_boutique_004",
+      "intent_en": "Check if seasonal specials are available today",
+      "text_local": "Haben Sie heute Saison-Spezialitäten?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-zehzAWshpEHtseeAHleetEHtuhn",
+      "formality": "standard",
+      "cultural_note": "Saisonale Produkte werden in Schweizer Läden oft prominent ausgestellt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Schaukasten.",
+        "pronunciation": "yAHihm-shOWkahstuhn",
+        "translation_en": "Yes, in the display case."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the display case.",
+          "phonetic": "yAHihm-shOWkahstuhn",
+          "french": "Ja, im Schaukasten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "strasbourg_gare",
+  "name_en": "Gare de Strasbourg",
+  "name_local": "Gare de Strasbourg",
+  "icon": "tram",
+  "lat": 48.5853,
+  "lon": 7.7322,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "strasbourg_gare_001",
+      "intent_en": "Ask about the TGV to Paris",
+      "text_local": "À quelle heure part le TGV pour Paris ?",
+      "pronunciation": "ah kel UHR PAR leh tay-zhay-VAY poor pah-REE",
+      "formality": "polite",
+      "cultural_note": "TGVs to Paris take about 1 hour 50 minutes. There are departures every 30-60 minutes. Book early for the best fares.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Check the departures board in the hall.",
+          "phonetic": "",
+          "french": "Regardez le panneau des départs dans le hall."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_gare_002",
+      "intent_en": "Ask about trains to Germany",
+      "text_local": "Comment aller en Allemagne ?",
+      "pronunciation": "kuh-MAN ah-LAY ahn al-mah-NYUH",
+      "formality": "polite",
+      "cultural_note": "Strasbourg is on the border. Direct trains to Freiburg (Germany), Basel (Switzerland), and other destinations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Direct trains to Freiburg and Basel. Check the board.",
+          "phonetic": "luh პრო-shan day-PAR eh byan-TOH, ruh-gar-DAY luh pah-NOH",
+          "french": "Des trains directs pour Fribourg et Bâle. Regardez le panneau."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_gare_003",
+      "intent_en": "Ask where the luggage lockers are",
+      "text_local": "Où sont les consignes à bagages ?",
+      "pronunciation": "oo son lay kon-SEEN ah bah-GAHZH",
+      "formality": "polite",
+      "cultural_note": "Most French train stations have automated luggage lockers. They accept coins and sometimes cards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the lower level, follow the signs.",
+          "phonetic": "oh nee-VOH an-fay-RYUHR, swee-VAY lay pah-NOH",
+          "french": "Au niveau inférieur, suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "fr_gare_str_x1",
+      "intent_en": "Ask how to get from the station to the cathedral",
+      "text_local": "Comment aller de la gare à la cathédrale ?",
+      "pronunciation": "koh-MAHN ah-LAY duh lah gar ah lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "Strasbourg's Art Nouveau railway station, built 1878–1883, is a ten-minute tram ride or twenty-minute walk from the cathedral.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "By tram line A or B toward the centre, seven minutes.",
+          "phonetic": "ahn TRAM LEEN-yuh ah oo bay, dee-rek-SYON SAHN-truh, SET mee-NOOT.",
+          "french": "En tram ligne A ou B, direction centre, sept minutes."
+        }
+      ]
+    },
+    {
+      "id": "fr_gare_str_x2",
+      "intent_en": "Ask where the tram stop is inside the station",
+      "text_local": "Où est l'arrêt de tram dans la gare ?",
+      "pronunciation": "oo ay lah-RAY duh TRAM dahn lah gar",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Outside the main exit, on the Place de la Gare side.",
+          "phonetic": "duh-VAHN lah sor-TEE pran-see-PAL koh-TAY plahs duh lah gar.",
+          "french": "Devant la sortie principale côté place de la Gare."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "train station",
+      "word_local": "la gare",
+      "pronunciation": "lah GAR"
+    },
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "leh kay"
+    },
+    {
+      "word_en": "ticket",
+      "word_local": "le billet",
+      "pronunciation": "leh bee-YAY"
+    },
+    {
+      "word_en": "Germany",
+      "word_local": "l'Allemagne",
+      "pronunciation": "lal-mah-NYUH"
+    }
+  ]
+}

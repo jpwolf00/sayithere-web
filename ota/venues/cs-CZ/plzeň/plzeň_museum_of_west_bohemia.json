@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_museum_of_west_bohemia",
+  "name_en": "Museum of West Bohemia",
+  "name_local": "Západočeské muzeum v Plzni",
+  "icon": "building.columns",
+  "lat": 49.7477415,
+  "lon": 13.3775249,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "plzeň_museum_of_west_bohemia_001",
+      "intent_en": "When does the last entry start?",
+      "text_local": "V kolik hodin začíná poslední vstup?",
+      "pronunciation": "v-kOHleek-hOHeen-zAHtsheenah-pOHslehdnyee-fstOOp",
+      "formality": "standard",
+      "cultural_note": "Czech museums typically close at 18:00 with the last entry one hour before closing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Poslední vstup je v 17 hodin.",
+        "pronunciation": "pOHslehdnyee-fstOOp-yeh-v-sEHdoomnahtst-hOHeen",
+        "translation_en": "The last entry is at 5 p.m."
+      },
+      "responses": [
+        {
+          "english": "The last entry is at 5 p.m.",
+          "phonetic": "pOHslehdnyee-fstOOp-yeh-v-sEHdoomnahtst-hOHeen",
+          "french": "Poslední vstup je v 17 hodin."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_museum_of_west_bohemia_002",
+      "intent_en": "Is the gift shop before or after exit?",
+      "text_local": "Je obchod se suvenýry před nebo za východem?",
+      "pronunciation": "yeh-OHpkhoht-seh-sOOvehnEEree-prEHdnehboh-zAHveekhOHdehm",
+      "formality": "standard",
+      "cultural_note": "Museum gift shops in the Czech Republic are often placed after the ticket checkpoint.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Je hned za východem z budovy.",
+        "pronunciation": "yeh-hnEHd-zAHveekhOHdehm-s-bOOdohvee",
+        "translation_en": "It is right after the building exit."
+      },
+      "responses": [
+        {
+          "english": "It is right after the building exit.",
+          "phonetic": "yeh-hnEHd-zAHveekhOHdehm-s-bOOdohvee",
+          "french": "Je hned za východem z budovy."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_museum_of_west_bohemia_003",
+      "intent_en": "Where do I return the audio guide?",
+      "text_local": "Kde mám vrátit audioprůvodce?",
+      "pronunciation": "kdEH-mahm-vrAHeet-OWdeeOHproovOHttseh",
+      "formality": "standard",
+      "cultural_note": "Audio guides are typically returned at a desk near the exit, not the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V přízemí u východu z expozice.",
+        "pronunciation": "v-prEEzehmee-OO-vEEkhohdoo-s-EHkspohzEEtseh",
+        "translation_en": "On the ground floor by the exhibition exit."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor by the exhibition exit.",
+          "phonetic": "v-prEEzehmee-OO-vEEkhohdoo-s-EHkspohzEEtseh",
+          "french": "V přízemí u východu z expozice."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_museum_of_west_bohemia_004",
+      "intent_en": "Where is the combined brewery ticket desk?",
+      "text_local": "Kde je pokladna na kombinovanou vstupenku s pivovarským muzeem?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-nah-kOHmbeenOHvahnoh-fstOOpehngkoo-s-pEEvohvAHrskeem-mOOzehehm",
+      "formality": "standard",
+      "cultural_note": "Combined tickets are common, so the cashier gives a precise location without hesitation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned u hlavního vchodu vlevo.",
+        "pronunciation": "hnEHd-OO-hlAHvnyeehoh-fkhOHdoo-vlEHvoh",
+        "translation_en": "Right by the main entrance on the left."
+      },
+      "responses": [
+        {
+          "english": "Right by the main entrance on the left.",
+          "phonetic": "hnEHd-OO-hlAHvnyeehoh-fkhOHdoo-vlEHvoh",
+          "french": "Hned u hlavního vchodu vlevo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

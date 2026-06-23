@@ -1,0 +1,122 @@
+{
+  "id": "berlin_ddr_museum",
+  "name_en": "DDR Museum",
+  "name_local": "DDR Museum",
+  "icon": "building.columns",
+  "lat": 52.51944,
+  "lon": 13.4022381,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "berlin_ddr_museum_001",
+      "intent_en": "Does ticket include cinema screenings?",
+      "text_local": "Ist das Kino im Ticket enthalten?",
+      "pronunciation": "ihst-dahs-kEEnoh-ihm-tIHkuht-ehnthAHltuhn",
+      "formality": "standard",
+      "cultural_note": "Cinema screenings are part of the standard museum visit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, alle Vorführungen inklusive.",
+        "pronunciation": "yAHAHluh-fOHrfUEruhnguhn-ihnkloozEEvuh",
+        "translation_en": "Yes, all screenings included."
+      },
+      "responses": [
+        {
+          "english": "Yes, all screenings included.",
+          "phonetic": "yAHAHluh-fOHrfUEruhnguhn-ihnkloozEEvuh",
+          "french": "Ja, alle Vorführungen inklusive."
+        }
+      ]
+    },
+    {
+      "id": "berlin_ddr_museum_002",
+      "intent_en": "Is the Stasi exhibit downstairs?",
+      "text_local": "Ist der Stasi-Exponat unten?",
+      "pronunciation": "ihst-dehr-shtAHzeeEHkspohnAHt-UHntuhn",
+      "formality": "standard",
+      "cultural_note": "The Stasi surveillance exhibit is located in a thematic block below ground level.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Untergeschoss.",
+        "pronunciation": "yAHihm-UHntuhshAWs",
+        "translation_en": "Yes, in the basement."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the basement.",
+          "phonetic": "yAHihm-UHntuhshAWs",
+          "french": "Ja, im Untergeschoss."
+        }
+      ]
+    },
+    {
+      "id": "berlin_ddr_museum_003",
+      "intent_en": "Can I touch the exhibits?",
+      "text_local": "Darf ich die Exponate anfassen?",
+      "pronunciation": "dAHrf-ihkh-dee-EHkspohnAHtuh-AHnfAHsuhn",
+      "formality": "standard",
+      "cultural_note": "Hands-on exhibits are a key feature of the DDR Museum.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, frei berühren erlaubt.",
+        "pronunciation": "yAHfrEYE-buhrUEruhn-ehrlOWpt",
+        "translation_en": "Yes, freely touch allowed."
+      },
+      "responses": [
+        {
+          "english": "Yes, freely touch allowed.",
+          "phonetic": "yAHfrEYE-buhrUEruhn-ehrlOWpt",
+          "french": "Ja, frei berühren erlaubt."
+        }
+      ]
+    },
+    {
+      "id": "berlin_ddr_museum_004",
+      "intent_en": "Where is the listening device display?",
+      "text_local": "Wo ist die Abhörwanze ausgestellt?",
+      "pronunciation": "vOH-ihst-dee-AHphUHrvahntsuh-OWsuhshtEHlt",
+      "formality": "standard",
+      "cultural_note": "The exhibit features covert listening devices used by the Stasi.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Stasi-Bereich links.",
+        "pronunciation": "ihm-shtAHzeebuhrEYEkh-lINGks",
+        "translation_en": "In the Stasi section on the left."
+      },
+      "responses": [
+        {
+          "english": "In the Stasi section on the left.",
+          "phonetic": "ihm-shtAHzeebuhrEYEkh-lINGks",
+          "french": "Im Stasi-Bereich links."
+        }
+      ]
+    },
+    {
+      "id": "berlin_ddr_museum_005",
+      "intent_en": "Where do I buy tickets?",
+      "text_local": "Wo kann ich Tickets kaufen?",
+      "pronunciation": "vOH-kAHn-ihkh-tIHkuhts-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Tickets are typically sold at a dedicated counter or desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

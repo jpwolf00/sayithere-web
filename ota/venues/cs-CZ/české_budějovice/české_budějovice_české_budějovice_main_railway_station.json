@@ -1,0 +1,122 @@
+{
+  "id": "české_budějovice_české_budějovice_main_railway_station",
+  "name_en": "České Budějovice Main Railway Station",
+  "name_local": "Hlavní nádraží České Budějovice",
+  "icon": "tram",
+  "lat": 48.9747357,
+  "lon": 14.474285,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "české_budějovice_české_budějovice_main_railway_station_001",
+      "intent_en": "Where is platform three",
+      "text_local": "Kde je nástupiště tři?",
+      "pronunciation": "kdEH-yeh-nAHstoopEEsheh-trEE",
+      "formality": "standard",
+      "cultural_note": "Czech station staff often give concise directions using the underpass (podchod) as the main navigation point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dolů do podchodu a potom doleva.",
+        "pronunciation": "dOHloo-dOHpohtkhOHdoo-ah-pOHtohm-dOHlehvah",
+        "translation_en": "Down into the underpass and then left."
+      },
+      "responses": [
+        {
+          "english": "Down into the underpass and then left.",
+          "phonetic": "dOHloo-dOHpohtkhOHdoo-ah-pOHtohm-dOHlehvah",
+          "french": "Dolů do podchodu a potom doleva."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_české_budějovice_main_railway_station_002",
+      "intent_en": "When does the next train to Prague leave",
+      "text_local": "Kdy jede příští vlak do Prahy?",
+      "pronunciation": "kdEE-yEHdeh-prEEshee-vlAHk-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Times are given in 24-hour format. Staff often add the platform number for express trains.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V deset hodin deset, nástupiště jedna.",
+        "pronunciation": "v-dEHseht-hOHeen-dEHsehtnAHstoopEEsheh-yEHdnah",
+        "translation_en": "At ten ten, platform one."
+      },
+      "responses": [
+        {
+          "english": "At ten ten, platform one.",
+          "phonetic": "v-dEHseht-hOHeen-dEHsehtnAHstoopEEsheh-yEHdnah",
+          "french": "V deset hodin deset, nástupiště jedna."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_české_budějovice_main_railway_station_003",
+      "intent_en": "Is the underpass open all night",
+      "text_local": "Je podchod otevřený celou noc?",
+      "pronunciation": "yeh-pOHtkhohd-OHtehvrEHnee-tsEHloh-nOHts",
+      "formality": "standard",
+      "cultural_note": "Main station underpasses are typically accessible 24/7 to allow platform access, though shops inside them close.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, podchod se nezavírá.",
+        "pronunciation": "AHnohpOHtkhoht-seh-nEHzahvEErah",
+        "translation_en": "Yes, the underpass does not close."
+      },
+      "responses": [
+        {
+          "english": "Yes, the underpass does not close.",
+          "phonetic": "AHnohpOHtkhoht-seh-nEHzahvEErah",
+          "french": "Ano, podchod se nezavírá."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_české_budějovice_main_railway_station_004",
+      "intent_en": "How to use the luggage storage",
+      "text_local": "Jak se používá úschovna zavazadel?",
+      "pronunciation": "yAHk-seh-pOHzheevah-OOskhohvnah-zAHvahzAHdehl",
+      "formality": "standard",
+      "cultural_note": "At many Czech stations, the luggage storage (úschovna zavazadel) is a staffed service rather than just automated lockers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zaplaťte na pokladně, dostanete klíč od skříňky.",
+        "pronunciation": "zAHplahteh-nAHpohklAHdnyehdOHstahnEHteh-klEEtsh-OHtskreenykee",
+        "translation_en": "Pay at the counter, you will get a key for a locker."
+      },
+      "responses": [
+        {
+          "english": "Pay at the counter, you will get a key for a locker.",
+          "phonetic": "zAHplahteh-nAHpohklAHdnyehdOHstahnEHteh-klEEtsh-OHtskreenykee",
+          "french": "Zaplaťte na pokladně, dostanete klíč od skříňky."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_české_budějovice_main_railway_station_005",
+      "intent_en": "Where is the first class waiting room",
+      "text_local": "Kde je čekárna první třídy?",
+      "pronunciation": "kdEH-yeh-tshEHkahrnah-pRvnyee-trEEdee",
+      "formality": "standard",
+      "cultural_note": "Czech main stations typically have a dedicated 1st class waiting room (Čekárna 1. třídy) near the main ticket hall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V hale, vedle pokladen.",
+        "pronunciation": "v-hAHlehvEHdleh-pOHklahdehn",
+        "translation_en": "In the main hall, next to the ticket counters."
+      },
+      "responses": [
+        {
+          "english": "In the main hall, next to the ticket counters.",
+          "phonetic": "v-hAHlehvEHdleh-pOHklahdehn",
+          "french": "V hale, vedle pokladen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

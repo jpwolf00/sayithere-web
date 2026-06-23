@@ -1,0 +1,100 @@
+{
+  "id": "nara_todai_ji_temple",
+  "name_en": "Tōdai-ji Temple",
+  "name_local": "東大寺",
+  "icon": "building.columns",
+  "lat": 34.69080840103068,
+  "lon": 135.81242462120247,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "nara_todai_ji_temple_001",
+      "intent_en": "Where can I buy omamori charms?",
+      "text_local": "おまもりは どこで かえますか？",
+      "pronunciation": "OHmmohEEh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Omamori are often sold at a dedicated shop or counter near the main hall, not inside it.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "となりにある おみやげしょっぷです。",
+        "pronunciation": "tOHnEEneeOO-OHmeeyGehOHppoodEHsoo",
+        "translation_en": "At the souvenir shop next door."
+      },
+      "responses": [
+        {
+          "english": "At the souvenir shop next door.",
+          "phonetic": "tOHnEEneeOO-OHmeeyGehOHppoodEHsoo",
+          "french": "となりにある おみやげしょっぷです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_todai_ji_temple_002",
+      "intent_en": "Is Shōsō-in exhibition open now?",
+      "text_local": "しょうそういんの てんじは いま あいていますか？",
+      "pronunciation": "OHoosOHooEEnnoh-tEHdEEh-EEm-EEtEHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "The Shōsō-in exhibition is seasonal. A simple yes/no answer is plausible for a practice scenario.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいています。",
+        "pronunciation": "hEEEEtEHeemSoo",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "hEEEEtEHeemSoo",
+          "french": "はい、あいています。"
+        }
+      ]
+    },
+    {
+      "id": "nara_todai_ji_temple_003",
+      "intent_en": "Where do I get goshuin stamps?",
+      "text_local": "ごしゅいんは どこで もらえますか？",
+      "pronunciation": "gOHooeeH-dohkOHdeh-mOHEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Goshuin stamps are typically given at a small writing desk inside or near the main hall.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "だいぶつでんの なか、ひだりがわです。",
+        "pronunciation": "dEEbOOtsoodEHnnoh-nKkhEEdEEgwdEHsoo",
+        "translation_en": "Inside the Daibutsuden, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Inside the Daibutsuden, on the left side.",
+          "phonetic": "dEEbOOtsoodEHnnoh-nKkhEEdEEgwdEHsoo",
+          "french": "だいぶつでんの なか、ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_todai_ji_temple_004",
+      "intent_en": "Where is the Daibutsuden entrance?",
+      "text_local": "だいぶつでんの いりぐちは どこですか？",
+      "pronunciation": "dEEbOOtsoodEHnnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "At temples, the main hall entrance is often on the right side of the approach path.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐです。みぎがわに あります。",
+        "pronunciation": "mSsoogoodEHsoomEEgeegwNee-EEmSoo",
+        "translation_en": "Straight ahead. It's on the right side."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead. It's on the right side.",
+          "phonetic": "mSsoogoodEHsoomEEgeegwNee-EEmSoo",
+          "french": "まっすぐです。みぎがわに あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

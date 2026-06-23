@@ -1,0 +1,78 @@
+{
+  "id": "brno_brno_christmas_market",
+  "name_en": "Brno Christmas Market",
+  "name_local": "Brněnské vánoční trhy",
+  "icon": "cart",
+  "lat": 49.1922443,
+  "lon": 16.6113382,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "brno_brno_christmas_market_001",
+      "intent_en": "Do you take cards for trdelník?",
+      "text_local": "Berete karty na trdelník?",
+      "pronunciation": "bEHrehteh-kAHrtee-nAHtrdEHlnyeek",
+      "formality": "casual",
+      "cultural_note": "Many smaller food stalls at Czech markets are cash-only, so it's good to have coins and small bills.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jenom hotovost.",
+        "pronunciation": "nEHyEHnohm-hOHtohvohst",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "nEHyEHnohm-hOHtohvohst",
+          "french": "Ne, jenom hotovost."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_christmas_market_002",
+      "intent_en": "Where can I return my punch cup?",
+      "text_local": "Kde můžu vrátit kelímek od punče?",
+      "pronunciation": "kdEH-mOOzhoo-vrAHeet-kEHleemehk-OHtpoontsheh",
+      "formality": "standard",
+      "cultural_note": "Deposit cups can be returned to any punč stall, not just the one you bought it from.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraťte ho u kteréhokoliv stánku s punčem.",
+        "pronunciation": "vrAHteh-hOH-OO-ktEHrehhOHkohleef-stAHngkoo-s-pOOntshehm",
+        "translation_en": "Return it at any punch stand."
+      },
+      "responses": [
+        {
+          "english": "Return it at any punch stand.",
+          "phonetic": "vrAHteh-hOH-OO-ktEHrehhOHkohleef-stAHngkoo-s-pOOntshehm",
+          "french": "Vraťte ho u kteréhokoliv stánku s punčem."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_christmas_market_003",
+      "intent_en": "Where is the nativity scene?",
+      "text_local": "Kde je betlém?",
+      "pronunciation": "kdEH-yeh-bEHtlehm",
+      "formality": "standard",
+      "cultural_note": "The nativity scene (betlém) is often a central feature of Czech Christmas markets, sometimes with live animals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Uprostřed náměstí, vedle velkého stromu.",
+        "pronunciation": "OOprohstrehd-nAHmnyehseevEHdleh-vEHlkehhoh-strOHmoo",
+        "translation_en": "In the middle of the square, next to the big tree."
+      },
+      "responses": [
+        {
+          "english": "In the middle of the square, next to the big tree.",
+          "phonetic": "OOprohstrehd-nAHmnyehseevEHdleh-vEHlkehhoh-strOHmoo",
+          "french": "Uprostřed náměstí, vedle velkého stromu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,110 @@
+{
+  "id": "amboise_mini_chateaux",
+  "name_en": "Mini-Châteaux Park",
+  "name_local": "Parc des Mini-Châteaux",
+  "icon": "map",
+  "phrases": [
+    {
+      "id": "amboise_mini_001",
+      "intent_en": "Ask how many châteaux are represented in the park",
+      "text_local": "Combien de châteaux sont représentés dans le parc ?",
+      "pronunciation": "kom-BYAN duh shah-TOH son ruh-pray-zahn-TAY dahn luh PARK",
+      "formality": "polite",
+      "cultural_note": "The Parc des Mini-Châteaux presents over 40 scale models of Loire Valley châteaux at 1:25 scale, set in a landscaped garden with miniature rivers.",
+      "responses": [
+        {
+          "english": "More than forty.",
+          "phonetic": "ploos duh kah-RAHNT",
+          "french": "Plus de quarante."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_mini_002",
+      "intent_en": "Ask which model represents the smallest château",
+      "text_local": "Quel est le modèle du plus petit château ?",
+      "pronunciation": "kel ay luh moh-DEL doo ploos puh-TEE shah-TOH",
+      "formality": "polite",
+      "cultural_note": "The models are built to scale and include famous châteaux such as Chambord, Chenonceau, Azay-le-Rideau, and Villandry.",
+      "responses": [
+        {
+          "english": "It's shown on the park map.",
+          "phonetic": "seh ehn-dee-KAY soor luh PLAHN doo PARK",
+          "french": "C'est indiqué sur le plan du parc."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_mini_003",
+      "intent_en": "Ask if there is a children's activity area",
+      "text_local": "Y a-t-il un espace d'activités pour les enfants ?",
+      "pronunciation": "ee ah-TEEL un es-PASS dak-tee-vee-TAY poor lay zahn-FAHN",
+      "formality": "polite",
+      "cultural_note": "Mini-Châteaux is particularly popular with families; there are additional children's activities and a section for model trains.",
+      "responses": [
+        {
+          "english": "Yes, near the entrance.",
+          "phonetic": "wee, preh duh lahn-TRAY",
+          "french": "Oui, près de l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_mini_004",
+      "intent_en": "Ask where the model of Château de Chambord is",
+      "text_local": "Où se trouve la maquette du Château de Chambord ?",
+      "pronunciation": "oo suh TROOV lah mah-KET doo shah-TOH duh shahm-BOR",
+      "formality": "polite",
+      "cultural_note": "The model of Chambord, with its famous double-helix staircase designed in the style of Leonardo da Vinci, is one of the most impressive in the park.",
+      "responses": [
+        {
+          "english": "In the centre of the park, on the right.",
+          "phonetic": "oh SAHN-truh doo PARK, soor lah DRWAHT",
+          "french": "Au centre du parc, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_mini_005",
+      "intent_en": "Ask about the combined ticket with Clos Lucé",
+      "text_local": "Existe-t-il un billet combiné avec le Clos Lucé ?",
+      "pronunciation": "eg-ZEEST-teel un bee-YAY kom-bee-NAY ah-VEK luh kloh loo-SAY",
+      "formality": "polite",
+      "cultural_note": "Combination tickets covering Mini-Châteaux and Clos Lucé are available; inquire at the entrance for current offers.",
+      "responses": [
+        {
+          "english": "Yes, ask at the ticket office.",
+          "phonetic": "wee, duh-mahn-DAY oh ghee-SHEH",
+          "french": "Oui, demandez au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "scale model",
+      "word_local": "la maquette",
+      "pronunciation": "lah mah-KET"
+    },
+    {
+      "word_en": "park",
+      "word_local": "le parc",
+      "pronunciation": "luh PARK"
+    },
+    {
+      "word_en": "combined ticket",
+      "word_local": "le billet combiné",
+      "pronunciation": "luh bee-YAY kom-bee-NAY"
+    }
+  ]
+}

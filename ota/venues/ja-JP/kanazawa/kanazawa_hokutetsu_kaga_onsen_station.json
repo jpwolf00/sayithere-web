@@ -1,0 +1,100 @@
+{
+  "id": "kanazawa_hokutetsu_kaga_onsen_station",
+  "name_en": "Hokutetsu Kaga Onsen Station",
+  "name_local": "加賀温泉駅",
+  "icon": "tram",
+  "lat": 36.3203882,
+  "lon": 136.3504996,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kanazawa_hokutetsu_kaga_onsen_station_001",
+      "intent_en": "Where is ICa card counter?",
+      "text_local": "ICaカードのうけつけは どこですか？",
+      "pronunciation": "ehnEYE-sEE-AYyah-k-EHndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-nOH-OO-kEH-tsOO-kEH-h-DOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Pointing while saying あちら (that direction over there) is very common for station staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あちらの まどぐちです。",
+        "pronunciation": "TeeNoh-mDohgOOteedEHsoo",
+        "translation_en": "It's that window over there."
+      },
+      "responses": [
+        {
+          "english": "It's that window over there.",
+          "phonetic": "TeeNoh-mDohgOOteedEHsoo",
+          "french": "あちらの まどぐちです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_hokutetsu_kaga_onsen_station_002",
+      "intent_en": "When is next train to Kanazawa?",
+      "text_local": "つぎの かなざわゆきは なんじですか？",
+      "pronunciation": "tsoogEEnoh-kNzWyookEEh-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Times are given in 24-hour format with じ (hour) and ふん/ぷん (minute).",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "15じ 23ぷんです。",
+        "pronunciation": "dzOOgoh-dEE-nee-dzOOsn-poondEHsoo",
+        "translation_en": "At 15:23."
+      },
+      "responses": [
+        {
+          "english": "At 15:23.",
+          "phonetic": "dzOOgoh-dEE-nee-dzOOsn-poondEHsoo",
+          "french": "15じ 23ぷんです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_hokutetsu_kaga_onsen_station_003",
+      "intent_en": "Where to pick up ANA tickets?",
+      "text_local": "ANAのチケットは どこで うけとれますか？",
+      "pronunciation": "ehnAY-EHn-AYyah-nOH-tEE-kEH-tOH-h-DohkOHdeh-OOkehtOHehmsOOk",
+      "formality": "standard",
+      "cultural_note": "ANA counters are often located just outside the main ticket gates at stations.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいさつを でて すぐ みぎです。",
+        "pronunciation": "kEEstsOOoh-dEHteh-sOOgoo-mEEgeedEHsoo",
+        "translation_en": "Just to the right after exiting the ticket gates."
+      },
+      "responses": [
+        {
+          "english": "Just to the right after exiting the ticket gates.",
+          "phonetic": "kEEstsOOoh-dEHteh-sOOgoo-mEEgeedEHsoo",
+          "french": "かいさつを でて すぐ みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_hokutetsu_kaga_onsen_station_004",
+      "intent_en": "Can I pay bus fare in cash?",
+      "text_local": "バスの りょうきんは げんきんで はらえますか？",
+      "pronunciation": "bsOOnoh-OHOOkeeH-gehngkEEndeh-hEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Most local buses in Japan accept cash, though exact change is often required.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんでも だいじょうぶです。",
+        "pronunciation": "hEEgEHngkeendEHmoh-dEEdOHooboodEHsoo",
+        "translation_en": "Yes, cash is also fine."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash is also fine.",
+          "phonetic": "hEEgEHngkeendEHmoh-dEEdOHooboodEHsoo",
+          "french": "はい、げんきんでも だいじょうぶです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

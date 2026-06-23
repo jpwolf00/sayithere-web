@@ -1,0 +1,100 @@
+{
+  "id": "hamburg_st_michaels_church",
+  "name_en": "St. Michael's Church",
+  "name_local": "Hauptkirche Sankt Michaelis",
+  "icon": "building.columns",
+  "lat": 53.5484278,
+  "lon": 9.9788894,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "hamburg_st_michaels_church_001",
+      "intent_en": "Where is the tower climb entrance",
+      "text_local": "Wo ist der Aufgang zum Turm?",
+      "pronunciation": "vOH-ihst-dehr-tUHuhmeyengAHng",
+      "formality": "standard",
+      "cultural_note": "Tower climb entrance is often marked separately from the main church entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich links hinter dem Haupteingang.",
+        "pronunciation": "glEYEkh-lINGks-hIHnt-dehm-hOWptEYEngAHng",
+        "translation_en": "Right left behind the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Right left behind the main entrance.",
+          "phonetic": "glEYEkh-lINGks-hIHnt-dehm-hOWptEYEngAHng",
+          "french": "Gleich links hinter dem Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_st_michaels_church_002",
+      "intent_en": "When are concerts held here",
+      "text_local": "Wann finden die Konzerte statt?",
+      "pronunciation": "vAHn-fIHnduhn-kawntsEHrtuh-shtAHt",
+      "formality": "standard",
+      "cultural_note": "Concert schedules vary; staff at the counter provide the latest program.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Konzerte sind abends im Sommer.",
+        "pronunciation": "dee-kawntsEHrtuh-zihnt-AHbuhnts-ihm-zAWm",
+        "translation_en": "The concerts are in the evening in summer."
+      },
+      "responses": [
+        {
+          "english": "The concerts are in the evening in summer.",
+          "phonetic": "dee-kawntsEHrtuh-zihnt-AHbuhnts-ihm-zAWm",
+          "french": "Die Konzerte sind abends im Sommer."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_st_michaels_church_003",
+      "intent_en": "Where is the Archangel Michael statue",
+      "text_local": "Wo ist die Statue des Erzengels Michael?",
+      "pronunciation": "vOH-ihst-dee-shtAHtoouh-dehs-ehrtsEHnguhls-mIHkhahEHl",
+      "formality": "standard",
+      "cultural_note": "The Archangel Michael statue is prominently inside the church; 'Michel' is the local nickname.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Haupteingang.",
+        "pronunciation": "deerEHkt-ahm-hOWptEYEngAHng",
+        "translation_en": "Right at the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Right at the main entrance.",
+          "phonetic": "deerEHkt-ahm-hOWptEYEngAHng",
+          "french": "Direkt am Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_st_michaels_church_004",
+      "intent_en": "How do I donate inside the church",
+      "text_local": "Wo kann ich spenden?",
+      "pronunciation": "vOH-zihnt-dee-shpEHnduhnbAWksuhn",
+      "formality": "standard",
+      "cultural_note": "Donation boxes are typically placed near exits or counters; direct giving to staff is also accepted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Neben dem Eingang.",
+        "pronunciation": "nEHbuhn-dehm-EYEngAHng",
+        "translation_en": "Next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "Next to the entrance.",
+          "phonetic": "nEHbuhn-dehm-EYEngAHng",
+          "french": "Neben dem Eingang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

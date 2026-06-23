@@ -1,0 +1,122 @@
+{
+  "id": "naxos_plaka_beach",
+  "name_en": "Plaka Beach",
+  "name_local": "Πλάκα",
+  "icon": "leaf",
+  "lat": 37.1015753,
+  "lon": 25.3805766,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "naxos_plaka_beach_001",
+      "intent_en": "Where is the road to Tripodes?",
+      "text_local": "Πού είναι ο δρόμος για Τριπόδες;",
+      "pronunciation": "pOO-EEneh-oh-thrOHmohz-yAH-treepOHthehs",
+      "formality": "standard",
+      "cultural_note": "Tripodes is referenced as the 'Tripodes (Vivlos) village road' in the venue context. Directional cues like 'southward' reflect the general orientation of Plaka Beach relative to Tripodes without inventing exact turns or landmarks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε τον δρόμο προς Νότο.",
+        "pronunciation": "AHkohloothEEsteh-tohn-thrOHmoh-prOHz-nOHtoh",
+        "translation_en": "Follow the road southward."
+      },
+      "responses": [
+        {
+          "english": "Follow the road southward.",
+          "phonetic": "AHkohloothEEsteh-tohn-thrOHmoh-prOHz-nOHtoh",
+          "french": "Ακολουθήστε τον δρόμο προς Νότο."
+        }
+      ]
+    },
+    {
+      "id": "naxos_plaka_beach_002",
+      "intent_en": "Can I pay to camp here?",
+      "text_local": "Μπορώ να πληρώσω για camping εδώ;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-yAH-kAHehnAHmpingehl-ehthOH",
+      "formality": "standard",
+      "cultural_note": "In Greece, organized camping on public beaches is rare and typically managed via private pitches within resorts or designated areas. Payment is handled at reception or staffed points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεν προσφέρει camping η παραλία.",
+        "pronunciation": "thEHm-brohsfEHree-ehnkAHmpingehl-ee-pAHrahlEEah",
+        "translation_en": "The beach does not offer camping."
+      },
+      "responses": [
+        {
+          "english": "The beach does not offer camping.",
+          "phonetic": "thEHm-brohsfEHree-ehnkAHmpingehl-ee-pAHrahlEEah",
+          "french": "Δεν προσφέρει camping η παραλία."
+        }
+      ]
+    },
+    {
+      "id": "naxos_plaka_beach_003",
+      "intent_en": "Is the beach bar serving now?",
+      "text_local": "Σερβίρει τώρα το beach bar;",
+      "pronunciation": "sehrvEErehtEH-tOHrah-ee-tahvEHrnah",
+      "formality": "standard",
+      "cultural_note": "In Greece, many beachside tavernas operate seasonally and may adjust hours based on weather and demand. Staff decide service availability daily.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ανοιχτό δίπλα στην ομπρέλα 5.",
+        "pronunciation": "nEHAHneekhtOH-thEEplah-steen-ohbrEHlah-pEHnteh",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEHAHneekhtOH-thEEplah-steen-ohbrEHlah-pEHnteh",
+          "french": "Ναι, ανοιχτό δίπλα στην ομπρέλα 5."
+        }
+      ]
+    },
+    {
+      "id": "naxos_plaka_beach_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να νοικιάσω ξαπλώστρες;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-ksahplOHstrehs",
+      "formality": "polite",
+      "cultural_note": "On Greek beaches, sunbed and umbrella rentals are typically managed by dedicated staff ('ombrelier' or 'κατσαβιδάκης') roaming the shoreline or positioned at fixed points. Directing visitors to ask staff is standard practice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά μετά την ταβέρνα Νεράιδα.",
+        "pronunciation": "thEHkseeAH-mehtAH-teen-dahvEHrnah-nehrEYEthah",
+        "translation_en": "The sunbeds are further down, near the beach bars."
+      },
+      "responses": [
+        {
+          "english": "The sunbeds are further down, near the beach bars.",
+          "phonetic": "thEHkseeAH-mehtAH-teen-dahvEHrnah-nehrEYEthah",
+          "french": "Δεξιά μετά την ταβέρνα Νεράιδα."
+        }
+      ]
+    },
+    {
+      "id": "naxos_plaka_beach_005",
+      "intent_en": "How do I book windsurfing?",
+      "text_local": "Πώς κλείνω windsurf;",
+      "pronunciation": "pOHs-klEEnoh-ehnwIHndsfehl",
+      "formality": "standard",
+      "cultural_note": "Water sports facilities on Greek beaches often operate via on-site instructors or small kiosks. Booking is usually done in person with staff who manage schedules and equipment.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην παραλία, με τον εκπαιδευτή.",
+        "pronunciation": "thEEplah-steem-bAHrahlEEahmeh-tohn-EHkpehthehftEE",
+        "translation_en": "Next to the beach, with the instructor."
+      },
+      "responses": [
+        {
+          "english": "Next to the beach, with the instructor.",
+          "phonetic": "thEEplah-steem-bAHrahlEEahmeh-tohn-EHkpehthehftEE",
+          "french": "Δίπλα στην παραλία, με τον εκπαιδευτή."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

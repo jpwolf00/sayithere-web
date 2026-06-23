@@ -1,0 +1,122 @@
+{
+  "id": "interlaken_interlaken_east_railway_station",
+  "name_en": "Interlaken East Railway Station",
+  "name_local": "Bahnhof Interlaken Ost",
+  "icon": "tram",
+  "lat": 46.6904478,
+  "lon": 7.8689965,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "interlaken_interlaken_east_railway_station_001",
+      "intent_en": "When is the next train to Jungfraujoch",
+      "text_local": "When does the next train to Jungfraujoch leave?",
+      "pronunciation": "vEHn-dUHs-ehnthuhdeh-nEHkst-trEHn-ehntuhdeh-yUHngfrowyAWkh-lEHahvuh",
+      "formality": "standard",
+      "cultural_note": "Deutsche Bahn and BLS trains depart at fixed intervals. Platforms may change last-minute.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Alle 30 Minuten ab Gleis 2A.",
+        "pronunciation": "AHluh-drEYEsihkh-meenOOtuhn-ahp-lEYEs-tsvEYE-AH",
+        "translation_en": "Every 30 minutes from Platform 2A."
+      },
+      "responses": [
+        {
+          "english": "Every 30 minutes from Platform 2A.",
+          "phonetic": "AHluh-drEYEsihkh-meenOOtuhn-ahp-lEYEs-tsvEYE-AH",
+          "french": "Alle 30 Minuten ab Gleis 2A."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_interlaken_east_railway_station_002",
+      "intent_en": "How do I validate Jungfrau Travel Pass",
+      "text_local": "How do I activate the Jungfrau Travel Pass?",
+      "pronunciation": "hOHf-dOH-EE-AHkteevAHtuh-ehnthuhdeh-yUHngfrow-trAHvuhl-pAHs",
+      "formality": "standard",
+      "cultural_note": "Validation is required before first use. Conductors check passes during travel.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder im Zug.",
+        "pronunciation": "ahm-shAHlt-OHd-ihm-tsOOk",
+        "translation_en": "At the counter or on the train."
+      },
+      "responses": [
+        {
+          "english": "At the counter or on the train.",
+          "phonetic": "ahm-shAHlt-OHd-ihm-tsOOk",
+          "french": "Am Schalter oder im Zug."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_interlaken_east_railway_station_003",
+      "intent_en": "Where is the SBB travel center",
+      "text_local": "Where is the SBB travel center?",
+      "pronunciation": "vEHruh-EEs-ehnthuhdeh-EHsbEHbEH-trAHvuhl-sEHnt",
+      "formality": "standard",
+      "cultural_note": "SBB travel centers are typically near main entrances or ticket counters in Swiss stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf der anderen Seite im Hauptgebäude.",
+        "pronunciation": "owf-dehr-AHnduhruhn-zEYEtuh-ihm-hOWptguhbAWuhduh",
+        "translation_en": "On the other side in the main building."
+      },
+      "responses": [
+        {
+          "english": "On the other side in the main building.",
+          "phonetic": "owf-dehr-AHnduhruhn-zEYEtuh-ihm-hOWptguhbAWuhduh",
+          "french": "Auf der anderen Seite im Hauptgebäude."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_interlaken_east_railway_station_004",
+      "intent_en": "Where is Platform 2B for Brünigbahn",
+      "text_local": "Wo ist Gleis 2B?",
+      "pronunciation": "vEHruh-EEs-plAHtfawrm-tsvEYE-bEH",
+      "formality": "standard",
+      "cultural_note": "Platforms are signposted in German, French, and English. Signs use 'Plattform' or 'Gleis'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 2B ist auf der anderen Seite.",
+        "pronunciation": "glEYEs-tsvEYE-bEH-ihst-owf-dehr-AHnduhruhn-zEYEtuh",
+        "translation_en": "Platform 2B is on the other side."
+      },
+      "responses": [
+        {
+          "english": "Platform 2B is on the other side.",
+          "phonetic": "glEYEs-tsvEYE-bEH-ihst-owf-dehr-AHnduhruhn-zEYEtuh",
+          "french": "Gleis 2B ist auf der anderen Seite."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_interlaken_east_railway_station_005",
+      "intent_en": "Is wheelchair ramp available to all platforms",
+      "text_local": "Is there a wheelchair ramp on all platforms?",
+      "pronunciation": "EEs-tEHruh-AH-vEHlkhehr-rAHmp-OHn-AHl-plAHtfawrms",
+      "formality": "standard",
+      "cultural_note": "Swiss stations are legally required to provide accessibility. Ramps are standard at larger stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an allen Plattformen.",
+        "pronunciation": "yAHahn-AHluhn-plAHtfawrmuhn",
+        "translation_en": "Yes, on all platforms."
+      },
+      "responses": [
+        {
+          "english": "Yes, on all platforms.",
+          "phonetic": "yAHahn-AHluhn-plAHtfawrmuhn",
+          "french": "Ja, an allen Plattformen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

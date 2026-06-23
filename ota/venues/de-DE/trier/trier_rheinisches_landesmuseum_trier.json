@@ -1,0 +1,100 @@
+{
+  "id": "trier_rheinisches_landesmuseum_trier",
+  "name_en": "Rheinisches Landesmuseum Trier",
+  "name_local": "Rheinisches Landesmuseum",
+  "icon": "building.columns",
+  "lat": 49.7515654,
+  "lon": 6.6442218,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "trier_rheinisches_landesmuseum_trier_001",
+      "intent_en": "Is flash photography allowed by the mosaics?",
+      "text_local": "Darf man hier mit Blitz fotografieren?",
+      "pronunciation": "dAHrf-mahn-hEEr-miht-blIHts-fOHtohrahfEEruhn",
+      "formality": "casual",
+      "cultural_note": "In deutschen Museen gilt generell Blitzverbot bei empfindlichen Exponaten; klare Verbotszeichen sind Standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Blitz fotografieren verboten.",
+        "pronunciation": "blIHts-fOHtohrahfEEruhn-fehrbOHtuhn",
+        "translation_en": "Flash photography prohibited."
+      },
+      "responses": [
+        {
+          "english": "Flash photography prohibited.",
+          "phonetic": "blIHts-fOHtohrahfEEruhn-fehrbOHtuhn",
+          "french": "Blitz fotografieren verboten."
+        }
+      ]
+    },
+    {
+      "id": "trier_rheinisches_landesmuseum_trier_002",
+      "intent_en": "Is the Baroque era gallery open today?",
+      "text_local": "Hat die Barock-Abteilung heute geöffnet?",
+      "pronunciation": "haht-dee-bAHrawkAHptEYEluhng-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Öffnungszeiten deutscher Museen sind standardisiert; Auskunft erfolgt meist durch Personal oder Aushang.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geöffnet.",
+        "pronunciation": "uhUHfnuht",
+        "translation_en": "Open."
+      },
+      "responses": [
+        {
+          "english": "Open.",
+          "phonetic": "uhUHfnuht",
+          "french": "Geöffnet."
+        }
+      ]
+    },
+    {
+      "id": "trier_rheinisches_landesmuseum_trier_003",
+      "intent_en": "Where is the Roman mosaics hall from entrance?",
+      "text_local": "Wo ist der Römische Mosaikensaal vom Eingang aus?",
+      "pronunciation": "vOH-ihst-dee-rUHmihshuhn-mOHzeyekuh",
+      "formality": "standard",
+      "cultural_note": "In deutschen Museen werden häufig klare Schilder zu Ausstellungsbereichen genutzt; direkte Verweise auf die räumliche Anordnung sind üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Er ist im Erdgeschoss, rechter Hand.",
+        "pronunciation": "ehr-ihst-ihm-ehrdgEHshawsrEHkht-hAHnt",
+        "translation_en": "It is on the ground floor, to the right."
+      },
+      "responses": [
+        {
+          "english": "It is on the ground floor, to the right.",
+          "phonetic": "ehr-ihst-ihm-ehrdgEHshawsrEHkht-hAHnt",
+          "french": "Er ist im Erdgeschoss, rechter Hand."
+        }
+      ]
+    },
+    {
+      "id": "trier_rheinisches_landesmuseum_trier_004",
+      "intent_en": "Where do I pick up the Augusta Treverorum audio guide?",
+      "text_local": "Wo gibt es den Audioguide für Augusta Treverorum?",
+      "pronunciation": "vOH-EEpt-ehs-dehn-ehnAWdihUHuheyeddeh-fuer-owUHstah-trEHvehrOHruhm",
+      "formality": "standard",
+      "cultural_note": "Audioguides werden in deutschen Museen typischerweise an der zentralen Kasse oder einem Infoschalter ausgegeben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt an der Kasse.",
+        "pronunciation": "deerEHkt-ahn-dehr-kAHsuh",
+        "translation_en": "Right at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Right at the ticket counter.",
+          "phonetic": "deerEHkt-ahn-dehr-kAHsuh",
+          "french": "Direkt an der Kasse."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

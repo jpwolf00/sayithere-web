@@ -1,0 +1,78 @@
+{
+  "id": "hiroshima_hiroshima_station_area",
+  "name_en": "Hiroshima Station area",
+  "name_local": "広島駅周辺",
+  "icon": "map",
+  "lat": 34.409905,
+  "lon": 132.4506991,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "hiroshima_hiroshima_station_area_001",
+      "intent_en": "Is there luggage storage near Shinkansen gate",
+      "text_local": "しんかんせんの かいさつちかくに コインロッカーは ありますか？",
+      "pronunciation": "EEngksEHnnoh-kEEsTsootEEkkOOnee-kOHeenohkkH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Coin lockers are very common in major Japanese stations, often in multiple sizes.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ええ、かいさつの となりに あります。",
+        "pronunciation": "EHehkEEstsOOnoh-tOHnEEnee-EEmSoo",
+        "translation_en": "Yes, right next to the gates."
+      },
+      "responses": [
+        {
+          "english": "Yes, right next to the gates.",
+          "phonetic": "EHehkEEstsOOnoh-tOHnEEnee-EEmSoo",
+          "french": "ええ、かいさつの となりに あります。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_station_area_002",
+      "intent_en": "Where is Ekie food court checkout",
+      "text_local": "エキエの フードコートの かいけいばは どこですか？",
+      "pronunciation": "EHkeeEHnoh-OOoodohkohohtOHnoh-kEEkEHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In a food court, you usually pay at each stall, but there may be a central area for tray return.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おくの ほうに まとめて ありますよ。",
+        "pronunciation": "ohkOOnoh-hohOOnee-mTohmEHteh-EEmsOOyoh",
+        "translation_en": "They're all together in the back."
+      },
+      "responses": [
+        {
+          "english": "They're all together in the back.",
+          "phonetic": "ohkOOnoh-hohOOnee-mTohmEHteh-EEmsOOyoh",
+          "french": "おくの ほうに まとめて ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_station_area_003",
+      "intent_en": "Where is pedestrian deck to ASSE",
+      "text_local": "アッセへの ほどうデッキは どこですか？",
+      "pronunciation": "SsehhEHnoh-hOHdohOOdehkkEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Station staff often point with their whole hand, not just a finger.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あの かいだんを のぼって すぐです。",
+        "pronunciation": "Noh-kEEdOH-nohbOHtteh-sOOgoodEHsoo",
+        "translation_en": "Just up those stairs."
+      },
+      "responses": [
+        {
+          "english": "Just up those stairs.",
+          "phonetic": "Noh-kEEdOH-nohbOHtteh-sOOgoodEHsoo",
+          "french": "あの かいだんを のぼって すぐです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

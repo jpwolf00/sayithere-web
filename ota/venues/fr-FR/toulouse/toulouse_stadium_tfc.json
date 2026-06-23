@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_stadium_tfc",
+  "name_en": "Stadium de Toulouse (TFC)",
+  "name_local": "Stadium Municipal de Toulouse",
+  "icon": "building.columns",
+  "lat": 43.5836,
+  "lon": 1.4334,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "toulouse_stadiumtfc_001",
+      "intent_en": "Ask where the away supporters section is",
+      "text_local": "Où se trouve le secteur réservé aux supporters visiteurs ?",
+      "pronunciation": "oo suh TROOV luh sek-TUR ray-zair-VAY oh soo-por-TUR vee-zee-TUR",
+      "formality": "polite",
+      "cultural_note": "The Stadium Municipal is home to Toulouse FC (TFC), who play in Ligue 1; visiting supporters are housed in a separate section.",
+      "responses": [
+        {
+          "english": "In the visitors' stand, north side.",
+          "phonetic": "ahn tree-BOON vee-zee-TUR koh-TAY NOR",
+          "french": "En tribune visiteurs, côté nord."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_stadiumtfc_002",
+      "intent_en": "Ask where to find the ticket office before the match",
+      "text_local": "Où se trouve la billetterie avant le match ?",
+      "pronunciation": "oo suh TROOV lah bee-yet-REE ah-VAHN luh MATCH",
+      "formality": "polite",
+      "cultural_note": "Ticket offices at French stadiums can have long queues; purchasing online in advance is strongly recommended.",
+      "responses": [
+        {
+          "english": "At the main entrance, on your right.",
+          "phonetic": "ah lahn-TRAY prahn-see-PAHL soor VOH-truh DRWAHT",
+          "french": "À l'entrée principale, sur votre droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_stadiumtfc_003",
+      "intent_en": "Ask where the nearest metro station is",
+      "text_local": "Où se trouve la station de métro la plus proche du stade ?",
+      "pronunciation": "oo suh TROOV lah stah-SYON duh may-TROH lah plyoo PROSH doo STAD",
+      "formality": "polite",
+      "cultural_note": "Toulouse metro line A stops at Basso Cambo, from which you can walk or take a shuttle to the stadium on match days.",
+      "responses": [
+        {
+          "english": "Line A, Arènes station.",
+          "phonetic": "LEE-nyuh AH stah-SYOHN ah-REN",
+          "french": "Ligne A, station Arènes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_stadiumtfc_004",
+      "intent_en": "Ask if the stadium offers guided tours",
+      "text_local": "Est-ce que le stade propose des visites guidées ?",
+      "pronunciation": "es-kuh luh STAD proh-POHZ day vee-ZEET ghee-DAY",
+      "formality": "polite",
+      "cultural_note": "Stadium tours give access to the changing rooms, pitch-side, and the press box; check TFC's official website for schedules.",
+      "responses": [
+        {
+          "english": "You need to check online.",
+          "phonetic": "eel foh vay-ree-FYAY ahn LEE-nyuh",
+          "french": "Il faut vérifier en ligne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_stadiumtfc_005",
+      "intent_en": "Ask what food is available inside the ground",
+      "text_local": "Qu'est-ce qu'on peut manger dans le stade ?",
+      "pronunciation": "kes-KON puh mahn-ZHAY dahn luh STAD",
+      "formality": "polite",
+      "cultural_note": "Concession stands inside French stadiums typically sell hot dogs, sandwiches, frites, and beer; local specialities sometimes appear on derby days.",
+      "responses": [
+        {
+          "english": "There are food stands inside the ground.",
+          "phonetic": "eel ee ah day STAHND duh res-toh-rah-SYOHN dahn lahn-SAHNT",
+          "french": "Il y a des stands de restauration dans l'enceinte."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "football",
+      "word_local": "le football",
+      "pronunciation": "luh foot-BOL"
+    },
+    {
+      "word_en": "ticket office",
+      "word_local": "la billetterie",
+      "pronunciation": "lah bee-yet-REE"
+    },
+    {
+      "word_en": "supporter / fan",
+      "word_local": "le supporter",
+      "pronunciation": "luh soo-por-TUR"
+    },
+    {
+      "word_en": "metro station",
+      "word_local": "la station de métro",
+      "pronunciation": "lah stah-SYON duh may-TROH"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "istanbul_çiçek_pasajı",
+  "name_en": "Çiçek Pasajı",
+  "name_local": "Çiçek Pasajı",
+  "icon": "fork.knife",
+  "lat": 41.0340997,
+  "lon": 28.9779211,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "istanbul_çiçek_pasajı_001",
+      "intent_en": "Ask if meze comes fixed or chosen",
+      "text_local": "Meze sabit mi geliyor, seçiyor muyuz?",
+      "pronunciation": "mehzEH-sahbIHt-mih-ehlEEyawrsehtshEEyawr-mOOyuhz",
+      "formality": "casual",
+      "cultural_note": "Meze selection is a traditional process done with the waiter, who often brings a tray for you to choose from.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Garsonla seçersiniz.",
+        "pronunciation": "gahrsAWnah-sehtshEHrseenihz",
+        "translation_en": "You choose with the waiter."
+      },
+      "responses": [
+        {
+          "english": "You choose with the waiter.",
+          "phonetic": "gahrsAWnah-sehtshEHrseenihz",
+          "french": "Garsonla seçersiniz."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_çiçek_pasajı_002",
+      "intent_en": "Ask if they split bills at tables",
+      "text_local": "Hesabı masada bölüşebilir miyiz?",
+      "pronunciation": "hehsahbOO-mAHsahdah-buhlueshehbeelIHr-mEEyihz",
+      "formality": "standard",
+      "cultural_note": "Bill splitting is a common task here, but policy may vary by establishment. The waiter handles this.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tabii, garsona söyleyin.",
+        "pronunciation": "tahbeeIHgahrsohnAH-suhylehyIHn",
+        "translation_en": "Sure, tell the waiter."
+      },
+      "responses": [
+        {
+          "english": "Sure, tell the waiter.",
+          "phonetic": "tahbeeIHgahrsohnAH-suhylehyIHn",
+          "french": "Tabii, garsona söyleyin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

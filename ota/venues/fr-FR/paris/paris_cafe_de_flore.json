@@ -1,0 +1,152 @@
+{
+  "id": "venue_cafe_de_flore",
+  "name_en": "Café de Flore",
+  "name_local": "Café de Flore",
+  "icon": "cup.and.saucer.fill",
+  "phrases": [
+    {
+      "id": "venue_cafe_de_flore_001",
+      "intent_en": "Order their famous hot chocolate",
+      "text_local": "Un chocolat chaud, s'il vous plaît.",
+      "pronunciation": "uhn shoh-koh-LAH SHOH, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Café de Flore is famous for its thick, rich hot chocolate, made with real melted chocolate — not cocoa powder. It arrives with a small jug of extra hot chocolate on the side. Expect to pay around €10, but it is genuinely excellent.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "One hot chocolate, very well.",
+          "phonetic": "uhn shoh-koh-LAH shoh, treh byahn",
+          "french": "Un chocolat chaud, très bien."
+        }
+      ]
+    },
+    {
+      "id": "venue_cafe_de_flore_002",
+      "intent_en": "Ask for a table on the terrace",
+      "text_local": "Auriez-vous une table en terrasse, s'il vous plaît ?",
+      "pronunciation": "oh-RYAY voo oon TAH-bluh ahn teh-RAHS, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The terrace facing Boulevard Saint-Germain is the place to sit and people-watch. It's covered and heated in winter. Jean-Paul Sartre and Simone de Beauvoir worked here daily from the 1940s, using the café as a warm office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There is a free table on the terrace, have a seat.",
+          "phonetic": "eel ee ah oon tah-bluh LEE-bruh ahn teh-RASS, ahn-stah-LAY voo",
+          "french": "Il y a une table libre en terrasse, installez-vous."
+        }
+      ]
+    },
+    {
+      "id": "venue_cafe_de_flore_003",
+      "intent_en": "Order a coffee and a croissant",
+      "text_local": "Un café et un croissant, s'il vous plaît.",
+      "pronunciation": "uhn kah-FAY ay uhn krwah-SAHN, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "In France, 'un café' means a small espresso. If you want a longer coffee, ask for 'un café allongé' or 'un grand crème' (espresso with steamed milk). Prices are higher than a typical Paris café, but the experience is part of the visit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "A coffee and a croissant, I will bring that.",
+          "phonetic": "uhn kah-FAY ay uhn krwah-SAHN, zhuh vooz ah-PORT sah",
+          "french": "Un café et un croissant, je vous apporte ça."
+        }
+      ]
+    },
+    {
+      "id": "venue_cafe_de_flore_004",
+      "intent_en": "Ask for the bill",
+      "text_local": "L'addition, s'il vous plaît.",
+      "pronunciation": "lah-dee-SYOHN, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "In French cafés, the bill is never brought automatically — you must ask for it. Service (15%) is included in the price by law in France, but leaving small coins is appreciated. At Café de Flore, the service is formal and attentive.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I will bring you the bill.",
+          "phonetic": "zhuh vooz ah-PORT lah-dee-SYOHN",
+          "french": "Je vous apporte l'addition."
+        }
+      ]
+    },
+    {
+      "id": "venue_cafe_de_flore_005",
+      "intent_en": "Ask if they accept reservations",
+      "text_local": "Vous prenez les réservations ?",
+      "pronunciation": "voo pruh-NAY lay ray-zehr-vah-SYOHN",
+      "formality": "polite",
+      "cultural_note": "Most Paris cafés do not take reservations for terrace seating. Arrive early or be prepared to wait.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, it is without reservation. You have to wait for a table.",
+          "phonetic": "nohn, seh sahn ray-zehr-vah-SYOHN. eel foh ah-TAHN-druh oon TAH-bluh",
+          "french": "Non, c'est sans réservation. Il faut attendre une table."
+        }
+      ]
+    },
+    {
+      "id": "venue_cafe_de_flore_006",
+      "intent_en": "Ask for the menu",
+      "text_local": "Pourriez-vous m'apporter la carte, s'il vous plaît ?",
+      "pronunciation": "poo-RYAY voo mah-por-TAY lah KART, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Café de Flore serves food throughout the day including eggs, club sandwiches, croque-monsieur, and salads. While pricey, you are paying for the location and atmosphere. Les Deux Magots directly across the street is the main rival, equally famous.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Here is the menu. Take your time.",
+          "phonetic": "vwah-LAH lah kart. pruh-NAY votr tahn",
+          "french": "Voilà la carte. Prenez votre temps."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Hot chocolate",
+      "word_local": "Chocolat chaud",
+      "pronunciation": "shoh-koh-LAH SHOH"
+    },
+    {
+      "word_en": "Espresso",
+      "word_local": "Café",
+      "pronunciation": "kah-FAY"
+    },
+    {
+      "word_en": "Terrace",
+      "word_local": "Terrasse",
+      "pronunciation": "teh-RAHS"
+    },
+    {
+      "word_en": "Bill / Check",
+      "word_local": "Addition",
+      "pronunciation": "ah-dee-SYOHN"
+    },
+    {
+      "word_en": "Waiter",
+      "word_local": "Garçon / Serveur",
+      "pronunciation": "gar-SOHN / ser-VUR"
+    },
+    {
+      "word_en": "Menu",
+      "word_local": "Carte",
+      "pronunciation": "kart"
+    },
+    {
+      "word_en": "Croissant",
+      "word_local": "Croissant",
+      "pronunciation": "krwah-SAHN"
+    },
+    {
+      "word_en": "Philosopher",
+      "word_local": "Philosophe",
+      "pronunciation": "fee-loh-ZOF"
+    }
+  ]
+}

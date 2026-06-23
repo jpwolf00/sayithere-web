@@ -1,0 +1,56 @@
+{
+  "id": "zaandam_zaandam_city_center_historic_district",
+  "name_en": "Zaandam city center historic district",
+  "name_local": "Zaandam stadscentrum",
+  "icon": "map",
+  "lat": 52.438095,
+  "lon": 4.8159399,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "zaandam_zaandam_city_center_historic_district_001",
+      "intent_en": "Where is Albert Heijn self-checkout",
+      "text_local": "Waar zijn de zelfscankassa’s?",
+      "pronunciation": "vAHr-zehihn-duh-zEHlfskahngkAHsahs",
+      "formality": "standard",
+      "cultural_note": "Albert Heijn supermarkets in the Netherlands commonly place self-checkout machines near the entrance or exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de uitgang, links van de kassa’s.",
+        "pronunciation": "behih-duh-UHuetghAHnglINGks-vahn-duh-kAHsahs",
+        "translation_en": "At the exit, left of the checkout counters."
+      },
+      "responses": [
+        {
+          "english": "At the exit, left of the checkout counters.",
+          "phonetic": "behih-duh-UHuetghAHnglINGks-vahn-duh-kAHsahs",
+          "french": "Bij de uitgang, links van de kassa’s."
+        }
+      ]
+    },
+    {
+      "id": "zaandam_zaandam_city_center_historic_district_002",
+      "intent_en": "Where do I buy Zaanse Schans tickets",
+      "text_local": "Waar koop ik Zaanse Schans-tickets?",
+      "pronunciation": "vAHr-kOHp-ihk-zAHnsuh-skhAHnstIHkehts",
+      "formality": "standard",
+      "cultural_note": "Tickets for Zaanse Schans are often sold at the local VVV tourist office, which provides combined transport and entry options.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de VVV-balie.",
+        "pronunciation": "vrAHkh-huht-behih-duh-fEHfEHfEHbahlEE",
+        "translation_en": "Ask at the VVV desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the VVV desk.",
+          "phonetic": "vrAHkh-huht-behih-duh-fEHfEHfEHbahlEE",
+          "french": "Vraag het bij de VVV-balie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

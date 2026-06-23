@@ -1,0 +1,144 @@
+{
+  "id": "maastricht_bisschopsmolen_bakery",
+  "name_en": "Bisschopsmolen Bakery",
+  "name_local": "Bisschopsmolen",
+  "icon": "fork.knife",
+  "lat": 50.8463765,
+  "lon": 5.6925781,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "maastricht_bisschopsmolen_bakery_001",
+      "intent_en": "Pay before seating in cafe",
+      "text_local": "Moet ik hier betalen voordat ik ga zitten?",
+      "pronunciation": "mOOt-ihk-hEEr-buhtAHluhn-vAWrdaht-ihk-ghAH-zIHtuhn",
+      "formality": "standard",
+      "cultural_note": "In Dutch bakeries/cafes, it's common to pay upfront before taking a seat, especially for small purchases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aan de kassa eerst.",
+        "pronunciation": "yAHahn-duh-kAHsah-IHrst",
+        "translation_en": "Yes, pay at the till first."
+      },
+      "responses": [
+        {
+          "english": "Yes, pay at the till first.",
+          "phonetic": "yAHahn-duh-kAHsah-IHrst",
+          "french": "Ja, aan de kassa eerst."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bisschopsmolen_bakery_002",
+      "intent_en": "Where is the seating area?",
+      "text_local": "Waar is de zitruimte?",
+      "pronunciation": "vAHr-ihs-duh-zIHtruhuemtuh",
+      "formality": "standard",
+      "cultural_note": "Open courtyard seating is implied; no signage cue available per venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Goedendag, de zitruimte is achterin de binnenplaats.",
+        "pronunciation": "ghOOduhndAHkhduh-zIHtruhuemtuh-ihs-AHkhtihrIHn-duh-bIHnuhnplAHts",
+        "translation_en": "Good day, the seating area is at the back of the courtyard."
+      },
+      "responses": [
+        {
+          "english": "Good day, the seating area is at the back of the courtyard.",
+          "phonetic": "ghOOduhndAHkhduh-zIHtruhuemtuh-ihs-AHkhtihrIHn-duh-bIHnuhnplAHts",
+          "french": "Goedendag, de zitruimte is achterin de binnenplaats."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bisschopsmolen_bakery_003",
+      "intent_en": "How do I order at the counter?",
+      "text_local": "Hoe bestel ik aan de balie?",
+      "pronunciation": "hOO-buhstEHl-ihk-ahn-duh-bahlEE",
+      "formality": "standard",
+      "cultural_note": "Standard Dutch counter service procedure with no additional frills.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kies en betaal aan de balie.",
+        "pronunciation": "kEEs-ehn-buhtAHl-ahn-duh-bahlEE",
+        "translation_en": "Choose and pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Choose and pay at the counter.",
+          "phonetic": "kEEs-ehn-buhtAHl-ahn-duh-bahlEE",
+          "french": "Kies en betaal aan de balie."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bisschopsmolen_bakery_004",
+      "intent_en": "Buy vijgenbrood at counter",
+      "text_local": "Mag ik een vijgenbrood hier kopen?",
+      "pronunciation": "mahkh-ihk-uhn-vEHihghuhnbrOHt-hEEr-kOHpuhn",
+      "formality": "polite",
+      "cultural_note": "Vijgenbrood is a traditional Dutch fig bread often sold at bakeries.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Natuurlijk, aan de balie.",
+        "pronunciation": "nahtUErluhkahn-duh-bahlEE",
+        "translation_en": "Of course, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Of course, at the counter.",
+          "phonetic": "nahtUErluhkahn-duh-bahlEE",
+          "french": "Natuurlijk, aan de balie."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bisschopsmolen_bakery_005",
+      "intent_en": "Is limburgse vlaai available by the slice?",
+      "text_local": "Heeft u limburgse vlaai per punt?",
+      "pronunciation": "hehft-ue-lIHmbrkhsuh-vlAHy-pEHr-pNt",
+      "formality": "standard",
+      "cultural_note": "Common Dutch pastry offering; slice sales are typical.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, per punt verkrijgbaar aan de toonbank.",
+        "pronunciation": "yAHpEHr-pNt-vuhrkrEHihghbahr-ahn-duh-tOHnbahngk",
+        "translation_en": "Yes, available by the slice at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, available by the slice at the counter.",
+          "phonetic": "yAHpEHr-pNt-vuhrkrEHihghbahr-ahn-duh-tOHnbahngk",
+          "french": "Ja, per punt verkrijgbaar aan de toonbank."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bisschopsmolen_bakery_006",
+      "intent_en": "Do you have vijgenbrood today?",
+      "text_local": "Heeft u vandaag vijgenbrood?",
+      "pronunciation": "hehft-ue-vahndAHkh-vEHihghuhnbrOHt",
+      "formality": "standard",
+      "cultural_note": "Typical direct confirmation in Dutch bakeries; no over-enthusiasm expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, dat is verkrijgbaar.",
+        "pronunciation": "yAHdaht-ihs-vuhrkrEHihghbahr",
+        "translation_en": "Yes, it is available."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is available.",
+          "phonetic": "yAHdaht-ihs-vuhrkrEHihghbahr",
+          "french": "Ja, dat is verkrijgbaar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "antibes_cap_d_antibes_hood",
+  "name_en": "Cap d'Antibes / Juan-les-Pins",
+  "name_local": "Cap d'Antibes",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "antibes_cap_hood_001",
+      "intent_en": "Ask if there is a bus to Cap d'Antibes from Antibes center",
+      "text_local": "Y a-t-il un bus pour aller au Cap d'Antibes depuis le centre d'Antibes ?",
+      "pronunciation": "ee ah-TEEL un boos poor ah-LAY oh KAH dan-TEEB duh-PWEE luh san-TREh dan-TEEB",
+      "formality": "polite",
+      "cultural_note": "Bus line 200 runs along the coast between Antibes and Juan-les-Pins. The ride takes about 15 minutes. Taxis are also readily available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, you can take bus 200 from the center.",
+          "phonetic": "toot lay kah-NEEZ ah vahn mee-NOOT",
+          "french": "Oui, le bus numéro 200 dessert le Cap depuis le centre. L'arrêt principal se trouve devant la gare routière d'Antibes, avec un passage toutes les quinze à vingt minutes."
+        }
+      ]
+    },
+    {
+      "id": "antibes_cap_hood_002",
+      "intent_en": "Ask where the Villa Eilenroc gardens are located",
+      "text_local": "Où se trouve le sentier du littoral au Cap d'Antibes ?",
+      "pronunciation": "oo suh TROOV lay zhar-DAN duh lah VEE-lah ay-lahn-ROK",
+      "formality": "polite",
+      "cultural_note": "Villa Eilenroc is at the tip of the cap. Its gardens are open to the public on certain days — check the municipal website for schedules.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The gardens are at the tip of the cape, at Villa Eilenroc.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Le sentier commence près de la plage de la Garoupe et fait le tour de la presqu'île."
+        }
+      ]
+    },
+    {
+      "id": "antibes_cap_hood_003",
+      "intent_en": "Ask about the most exclusive hotels in the area",
+      "text_local": "Quels sont les hôtels les plus exclusifs de cette zone ?",
+      "pronunciation": "kel son layz oh-TEL lay ploo ek-skloo-ZEEF duh set ZON",
+      "formality": "polite",
+      "cultural_note": "Cap d'Antibes is home to the Hôtel du Cap-Eden-Roc and the Biltmore. The area is one of the most exclusive on the Riviera.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "",
+          "french": "Les hôtels les plus exclusifs de la zone sont l’Hôtel du Cap-Eden-Roc et le Biltmore, tous deux situés sur le Cap d’Antibes."
+        }
+      ]
+    },
+    {
+      "id": "antibes_cap_hood_004",
+      "intent_en": "Ask if the coastal path is suitable for children",
+      "text_local": "Le sentier côtier est-il adapté aux enfants ?",
+      "pronunciation": "leh san-TAY koh-TYAY eh-TEEL ah-day-PAY oh ahn-FAHN",
+      "formality": "polite",
+      "cultural_note": "The coastal path has some steep sections and stairs. It's not suitable for strollers, but older children can manage the 3km walk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it’s practical with children.",
+          "phonetic": "wee, say pra-TEEK ah-VEK dayz ahn-FAHN",
+          "french": "Oui, c’est pratique avec des enfants."
+        }
+      ]
+    },
+    {
+      "id": "antibes_cap_hood_005",
+      "intent_en": "Ask where the public beach at Garoupe is",
+      "text_local": "Comment accéder au phare de la Garoupe ?",
+      "pronunciation": "oo suh TROOV lah PLAZH poo-BLEEK duh gah-ROOP",
+      "formality": "polite",
+      "cultural_note": "Plage de la Garoupe is the most accessible public beach on Cap d'Antibes. It's small and gets crowded in summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Garoupe beach is to the right, after the bridge.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Prenez le chemin depuis la plage de la Garoupe, puis suivez les panneaux pour le phare."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "peninsula",
+      "word_local": "le cap",
+      "pronunciation": "leh KAH"
+    },
+    {
+      "word_en": "coastal path",
+      "word_local": "le sentier côtier",
+      "pronunciation": "leh san-TAY koh-TYAY"
+    },
+    {
+      "word_en": "luxury hotel",
+      "word_local": "l'hôtel de luxe",
+      "pronunciation": "lo-TEL duh LOOKS"
+    },
+    {
+      "word_en": "public beach",
+      "word_local": "la plage publique",
+      "pronunciation": "lah PLAZH poo-BLEEK"
+    }
+  ]
+}

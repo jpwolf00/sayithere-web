@@ -1,0 +1,122 @@
+{
+  "id": "heidelberg_bismarckplatz_bus_and_tram_hub",
+  "name_en": "Bismarckplatz Bus and Tram Hub",
+  "name_local": "Bismarckplatz",
+  "icon": "tram",
+  "lat": 49.4100106,
+  "lon": 8.6929986,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "heidelberg_bismarckplatz_bus_and_tram_hub_001",
+      "intent_en": "Can I pay by card at machines",
+      "text_local": "Akzeptieren die Automaten Karte?",
+      "pronunciation": "AHktsehptEEruhn-dee-OWtohmAHtuhn-kAHrtuh",
+      "formality": "standard",
+      "cultural_note": "Card payment is standard unless marked otherwise.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Karte wird akzeptiert.",
+        "pronunciation": "yAHkAHrtuh-vIHrt-AHktsehptEErt",
+        "translation_en": "Yes, card is accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, card is accepted.",
+          "phonetic": "yAHkAHrtuh-vIHrt-AHktsehptEErt",
+          "french": "Ja, Karte wird akzeptiert."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_bismarckplatz_bus_and_tram_hub_002",
+      "intent_en": "When does the last tram run",
+      "text_local": "Wann fährt die letzte Straßenbahn?",
+      "pronunciation": "vAHn-fEHrt-dee-lEHtstuh-shtrAHsuhnbAHn",
+      "formality": "standard",
+      "cultural_note": "Times vary by day; check display boards for exact schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Letzte Fahrt um 1:15 Uhr.",
+        "pronunciation": "lEHtstuh-fAHrt-uhm-EYEns-oor-fUEnftsehn-OOr",
+        "translation_en": "Last departure at 1:15 AM."
+      },
+      "responses": [
+        {
+          "english": "Last departure at 1:15 AM.",
+          "phonetic": "lEHtstuh-fAHrt-uhm-EYEns-oor-fUEnftsehn-OOr",
+          "french": "Letzte Fahrt um 1:15 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_bismarckplatz_bus_and_tram_hub_003",
+      "intent_en": "How do I get to Hauptstraße",
+      "text_local": "Wie komme ich zur Hauptstraße?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoor-hOWptstrAHsuh",
+      "formality": "casual",
+      "cultural_note": "Hauptstraße starts immediately at the hub exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie durch die Unterführung.",
+        "pronunciation": "gEHuhn-zee-duhuhkh-dee-UHntfUEruhng",
+        "translation_en": "Go through the underpass."
+      },
+      "responses": [
+        {
+          "english": "Go through the underpass.",
+          "phonetic": "gEHuhn-zee-duhuhkh-dee-UHntfUEruhng",
+          "french": "Gehen Sie durch die Unterführung."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_bismarckplatz_bus_and_tram_hub_004",
+      "intent_en": "Where is platform A for trams",
+      "text_local": "Wo ist der Straßenbahnsteig A?",
+      "pronunciation": "vOH-ihst-dehr-shtrAHsuhnbAHnsteyek-AH",
+      "formality": "standard",
+      "cultural_note": "Platforms are marked with letters on metal plates at ground level.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Straßenbahnsteig A ist ganz vorne.",
+        "pronunciation": "shtrAHsuhnbAHnsteyek-AH-ihst-gAHnts-fAWrnuh",
+        "translation_en": "Tram platform A is all the way at the front."
+      },
+      "responses": [
+        {
+          "english": "Tram platform A is all the way at the front.",
+          "phonetic": "shtrAHsuhnbAHnsteyek-AH-ihst-gAHnts-fAWrnuh",
+          "french": "Straßenbahnsteig A ist ganz vorne."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_bismarckplatz_bus_and_tram_hub_005",
+      "intent_en": "How do I use the RNV app",
+      "text_local": "Wie nutze ich die RNV-App?",
+      "pronunciation": "vee-nUHtsuh-ihkh-dee-EHrEHnfOWAHp",
+      "formality": "standard",
+      "cultural_note": "Validation is done on the phone screen during boarding.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Scannen Sie beim Einstieg.",
+        "pronunciation": "skAHnuhn-zee-beyem-EYEnshtEEk",
+        "translation_en": "Scan when boarding."
+      },
+      "responses": [
+        {
+          "english": "Scan when boarding.",
+          "phonetic": "skAHnuhn-zee-beyem-EYEnshtEEk",
+          "french": "Scannen Sie beim Einstieg."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_capitole",
+  "name_en": "Capitole de Toulouse",
+  "name_local": "Le Capitole",
+  "icon": "building.columns",
+  "lat": 43.6047,
+  "lon": 1.4442,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "toulouse_capitole_001",
+      "intent_en": "Ask if the Salle des Illustres is open for visits",
+      "text_local": "Est-ce que la Salle des Illustres est ouverte aux visites aujourd'hui ?",
+      "pronunciation": "es-kuh lah SAL day zee-LOOS-truh eh oo-VAIR oh vee-ZEET oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The Capitole houses Toulouse's city hall and the Théâtre du Capitole; the grand painted Salle des Illustres is free to visit when not in official use.",
+      "responses": [
+        {
+          "english": "Yes, it is open until five o'clock.",
+          "phonetic": "wee say too-VAIR zhoos-kah dee-SET UR",
+          "french": "Oui, c'est ouvert jusqu'à dix-sept heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_capitole_002",
+      "intent_en": "Ask for an opera ticket for next Saturday",
+      "text_local": "Je voudrais un billet pour l'opéra samedi prochain, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY un bee-YAY poor loh-pay-RAH sam-DEE proh-SHAN seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Théâtre du Capitole is one of France's leading opera houses and the cultural centrepiece of Toulouse.",
+      "responses": [
+        {
+          "english": "At the Capitole Theatre ticket office.",
+          "phonetic": "oh gee-SHAY doo tay-AH-truh doo kah-pee-TOL",
+          "french": "Au guichet du Théâtre du Capitole."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_capitole_003",
+      "intent_en": "Ask where the Violette cross is on the square",
+      "text_local": "Où se trouve la croix de la Violette sur la place ?",
+      "pronunciation": "oo suh TROOV lah KRWAH duh lah vyoh-LET soor lah PLASS",
+      "formality": "polite",
+      "cultural_note": "Embedded in the paving of Place du Capitole is the gold Occitan cross, a symbol of Toulouse and the local culture.",
+      "responses": [
+        {
+          "english": "It is in the centre of the square, on the ground.",
+          "phonetic": "say toh SAHN-truh duh lah PLAHSS oh SOL",
+          "french": "C'est au centre de la place, au sol."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_capitole_004",
+      "intent_en": "Ask what time the weekly market on the square takes place",
+      "text_local": "À quelle heure se tient le marché hebdomadaire sur la place ?",
+      "pronunciation": "ah kel ur suh TYAN luh mar-SHAY eb-doh-mah-DAIR soor lah PLASS",
+      "formality": "polite",
+      "cultural_note": "A Wednesday market and a Saturday organic market are held on Place du Capitole.",
+      "responses": [
+        {
+          "english": "Wednesday morning.",
+          "phonetic": "luh mair-kruh-DEE mah-TAHN",
+          "french": "Le mercredi matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_capitole_005",
+      "intent_en": "Ask for a good café with a view of the square",
+      "text_local": "Pourriez-vous me conseiller un café avec vue sur la place ?",
+      "pronunciation": "poo-RYAY-voo muh kohn-say-YAY un kah-FAY ah-VEK VYU soor lah PLASS",
+      "formality": "polite",
+      "cultural_note": "The arcaded cafés surrounding Place du Capitole are perfect for people-watching over a café au lait.",
+      "responses": [
+        {
+          "english": "Try the café on the square, over there.",
+          "phonetic": "eh-say-YAY luh kah-FAY soor lah PLAHSS lah-BAH",
+          "french": "Essayez le café sur la place, là-bas."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "town hall / capitol building",
+      "word_local": "le Capitole",
+      "pronunciation": "luh kah-pee-TOL"
+    },
+    {
+      "word_en": "square",
+      "word_local": "la place",
+      "pronunciation": "lah PLASS"
+    },
+    {
+      "word_en": "cross",
+      "word_local": "la croix",
+      "pronunciation": "lah KRWAH"
+    },
+    {
+      "word_en": "opera house / theatre",
+      "word_local": "le théâtre",
+      "pronunciation": "luh tay-AH-truh"
+    }
+  ]
+}

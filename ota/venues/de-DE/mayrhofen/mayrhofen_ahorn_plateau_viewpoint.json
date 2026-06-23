@@ -1,0 +1,122 @@
+{
+  "id": "mayrhofen_ahorn_plateau_viewpoint",
+  "name_en": "Ahorn Plateau Viewpoint",
+  "name_local": "Ahornplateau",
+  "icon": "leaf",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "mayrhofen_ahorn_plateau_viewpoint_001",
+      "intent_en": "Edelhütte cash-only payment confirmed",
+      "text_local": "Cash only at Edelhütte?",
+      "pronunciation": "kAHsh-AWnlee-AHt-EHduhlhUEtuh",
+      "formality": "standard",
+      "cultural_note": "Hüttenwirte betonen oft mündlich die Barzahlung, um Missverständnisse zu vermeiden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nur bar.",
+        "pronunciation": "yAHnOOr-bAHr",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "yAHnOOr-bAHr",
+          "french": "Ja, nur bar."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_ahorn_plateau_viewpoint_002",
+      "intent_en": "Sonnenterrasse pay at counter or seated",
+      "text_local": "Zahlt man am Tresen oder am Tisch?",
+      "pronunciation": "tsAHlt-mahn-ahm-trEHzuhn-OHd-ahm-tIHsh",
+      "formality": "standard",
+      "cultural_note": "In österreichischen Bergrestaurants ist Barzahlung am Tresen Standard, Tischservice ist die Ausnahme.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen.",
+        "pronunciation": "ahm-trEHzuhn",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-trEHzuhn",
+          "french": "Am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_ahorn_plateau_viewpoint_003",
+      "intent_en": "Filzsteinsee trail suitable for strollers",
+      "text_local": "Ist der Filzsteinsee mit Kinderwagen machbar?",
+      "pronunciation": "ihst-dehr-fIHltssteyenzEH-miht-kIHndvAHuhn-mAHkhbahr",
+      "formality": "casual",
+      "cultural_note": "Alpine Wege werden oft nach Schwierigkeitsgraden eingeteilt, Strollerfreundlichkeit ist selten durchgehend gegeben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Teilweise, unwegsam ab Mittelstück.",
+        "pronunciation": "tEYElveyezuhUHnvEHzahm-ahp-mIHtuhlshtUEk",
+        "translation_en": "Partly, rough from mid-section."
+      },
+      "responses": [
+        {
+          "english": "Partly, rough from mid-section.",
+          "phonetic": "tEYElveyezuhUHnvEHzahm-ahp-mIHtuhlshtUEk",
+          "french": "Teilweise, unwegsam ab Mittelstück."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_ahorn_plateau_viewpoint_004",
+      "intent_en": "White Sofa platform sunset viewing now",
+      "text_local": "Hat man jetzt freie Sicht auf den Sonnenuntergang?",
+      "pronunciation": "haht-mahn-yEHtst-frEYE-UH-zIHkht-owf-dehn-zAWnuhnUHntAHng",
+      "formality": "standard",
+      "cultural_note": "Wetterabhängige Aussagen sind üblich, da Bergwetter schnell wechseln kann.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bei klarem Himmel.",
+        "pronunciation": "yAHbeye-klAHruhm-hIHmuhl",
+        "translation_en": "Yes, if skies are clear."
+      },
+      "responses": [
+        {
+          "english": "Yes, if skies are clear.",
+          "phonetic": "yAHbeye-klAHruhm-hIHmuhl",
+          "french": "Ja, bei klarem Himmel."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_ahorn_plateau_viewpoint_005",
+      "intent_en": "Five-Senses Panorama Trail from terrace",
+      "text_local": "Wo startet der 5-Sinne-Panoramaweg ab der Sonnenterrasse?",
+      "pronunciation": "vOH-buhIHnt-dehr-fUEnfzIHnuhvEHk-fawn-dehr-zAWnuhntrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Trailheads sind oft nur durch Schilder oder Markierungen gekennzeichnet, nicht durch Gebäude.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich hinter dem Geländer.",
+        "pronunciation": "glEYEkh-hIHnt-dehm-guhlEHnd",
+        "translation_en": "Right behind the railing."
+      },
+      "responses": [
+        {
+          "english": "Right behind the railing.",
+          "phonetic": "glEYEkh-hIHnt-dehm-guhlEHnd",
+          "french": "Gleich hinter dem Geländer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "dijon_palais_ducs",
+  "name_en": "Palace of the Dukes",
+  "name_local": "Palais des Ducs",
+  "icon": "crown",
+  "lat": 47.322,
+  "lon": 5.0415,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "dijon_ducs_001",
+      "intent_en": "Ask where the main entrance to the palace is",
+      "text_local": "Où se trouve l'entrée principale du palais ?",
+      "pronunciation": "oo suh TROOV lahn-TRAY prahn-SEE-pal doo pah-LAY",
+      "formality": "polite",
+      "cultural_note": "The Palace of the Dukes of Burgundy is the heart of Dijon. The main entrance is on Rue de la Libre Arbitre.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On Place de la Libération, opposite the town hall.",
+          "phonetic": "soor lah PLAHS duh lah lee-bay-rah-SYON, ahn fahs duh lah may-REE",
+          "french": "Sur la Place de la Libération, en face de la mairie."
+        }
+      ]
+    },
+    {
+      "id": "dijon_ducs_002",
+      "intent_en": "Ask about the museum inside the palace",
+      "text_local": "Quel musée se trouve à l'intérieur du palais ?",
+      "pronunciation": "kel myoo-ZAY suh TROOV ah lan-tay-RYUHR doo pah-LAY",
+      "formality": "polite",
+      "cultural_note": "The palace houses the Musée des Beaux-Arts, one of France's finest regional museums with excellent medieval art.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Museum of Fine Arts. Entry is free.",
+          "phonetic": "luh myoo-ZAY day boh-ZAR. lahn-TRAY eh grah-TWEET",
+          "french": "Le Musée des Beaux-Arts. L'entrée est gratuite."
+        }
+      ]
+    },
+    {
+      "id": "dijon_ducs_003",
+      "intent_en": "Ask if you can climb the tower",
+      "text_local": "Peut-on monter dans la tour ?",
+      "pronunciation": "puh-TOHN mon-TAY dahn lah TOOR",
+      "formality": "polite",
+      "cultural_note": "The Tour Philippe le Bon offers panoramic views of Dijon. Visits must be booked through the tourist office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, but you need to book at the tourist office.",
+          "phonetic": "wee, may eel foh ray-zair-VAY ah loh-FEES duh too-REESM",
+          "french": "Oui, mais il faut réserver à l'office de tourisme."
+        }
+      ]
+    },
+    {
+      "id": "dijon_ducs_004",
+      "intent_en": "Ask where the Rooms of the Dukes are located",
+      "text_local": "Où se trouvent les Salle des Ducs ?",
+      "pronunciation": "oo suh TROOV lay sal duh DOO",
+      "formality": "polite",
+      "cultural_note": "The Rooms of the Dukes (Salles des Ducs) feature monumental 17th-century tapestries and the famous ceiling of the Oath Room.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the first floor, right after the staircase.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH, ah DRWAHT ah-PREH les-kah-LYAY",
+          "french": "Au premier étage, à droite après l'escalier."
+        }
+      ]
+    },
+    {
+      "id": "dijon_ducs_005",
+      "intent_en": "Ask where to find the owl carving",
+      "text_local": "Où se trouve la chouette sculptée ?",
+      "pronunciation": "oo suh TROOV lah shoo-WET skool-TAY",
+      "formality": "polite",
+      "cultural_note": "The owl carved into the stone is Dijon's mascot. Touching it with the left hand is said to bring good luck.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the north side of Notre-Dame church, Rue de la Chouette.",
+          "phonetic": "soor luh koh-TAY NOR duh lay-GLEEZ notr-DAHM, roo duh lah shoo-WET",
+          "french": "Sur le côté nord de l'église Notre-Dame, rue de la Chouette."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "duke",
+      "word_local": "le duc",
+      "pronunciation": "leh DOOK"
+    },
+    {
+      "word_en": "palace",
+      "word_local": "le palais",
+      "pronunciation": "leh pah-LAY"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    },
+    {
+      "word_en": "tapestry",
+      "word_local": "la tapisserie",
+      "pronunciation": "lah tah-pee-SEE-ree"
+    }
+  ]
+}

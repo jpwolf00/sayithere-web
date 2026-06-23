@@ -1,0 +1,144 @@
+{
+  "id": "basel_basel_sbb_railway_station",
+  "name_en": "Basel SBB Railway Station",
+  "name_local": "Basel SBB",
+  "icon": "tram",
+  "lat": 47.5476225,
+  "lon": 7.5896417,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "basel_basel_sbb_railway_station_001",
+      "intent_en": "Where do I buy tram tickets at Centralbahnplatz?",
+      "text_local": "Wo gibt es Tram-Tickets in Centralbahnplatz?",
+      "pronunciation": "vOH-EEpt-ehs-trAHmtIHkuhts-ihn-sEHntrahlbAHnplahts",
+      "formality": "standard",
+      "cultural_note": "Verweis auf Automaten ohne genaue Position.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Ticketautomaten am Platz.",
+        "pronunciation": "ahn-dehn-tIHkehtOWtohmAHtuhn-ahm-plAHts",
+        "translation_en": "At the ticket machines at the square."
+      },
+      "responses": [
+        {
+          "english": "At the ticket machines at the square.",
+          "phonetic": "ahn-dehn-tIHkehtOWtohmAHtuhn-ahm-plAHts",
+          "french": "An den Ticketautomaten am Platz."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_sbb_railway_station_002",
+      "intent_en": "Where is passenger assistance for platform access?",
+      "text_local": "Wo ist Hilfe für barrierefreien Zugang?",
+      "pronunciation": "vOH-ihst-hIHlfuh-fuer-bAHrihEHrehfrEYE-uhn-tsOOahng",
+      "formality": "casual",
+      "cultural_note": "Weiterleitung an Servicepersonal ohne Mikro-Lokalisierung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Gleis dreißig.",
+        "pronunciation": "ahm-glEYEs-drEYEsihkh",
+        "translation_en": "At platform thirty."
+      },
+      "responses": [
+        {
+          "english": "At platform thirty.",
+          "phonetic": "ahm-glEYEs-drEYEsihkh",
+          "french": "Am Gleis dreißig."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_sbb_railway_station_003",
+      "intent_en": "Where is the Bâle SNCF ticket counter?",
+      "text_local": "Wo finde ich den Bâle SNCF-Schalter?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-bahlEH-EHsEHntsEHEHfshAHlt",
+      "formality": "standard",
+      "cultural_note": "Kurze, präzise Ortsangabe mit Bahnhofsjargon (z. B. 'Schalter', 'Gleis').",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bâle SNCF-Schalter am Gleis 30-35.",
+        "pronunciation": "bahlEH-EHsEHntsEHEHfshAHlt-ahm-lEYEs-drEYEsihkh-shtrIHkh-fUEnf-uhntdrEYEsihkh",
+        "translation_en": "Bâle SNCF counter at tracks 30-35."
+      },
+      "responses": [
+        {
+          "english": "Bâle SNCF counter at tracks 30-35.",
+          "phonetic": "bahlEH-EHsEHntsEHEHfshAHlt-ahm-lEYEs-drEYEsihkh-shtrIHkh-fUEnf-uhntdrEYEsihkh",
+          "french": "Bâle SNCF-Schalter am Gleis 30-35."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_sbb_railway_station_004",
+      "intent_en": "Where do I catch the EuroAirport bus?",
+      "text_local": "Wo ist die Abfahrt zum EuroAirport?",
+      "pronunciation": "vOH-ihst-dee-AHpfAHrt-tsuhm-AWuhroh-ehnEHuhpawtdeh",
+      "formality": "standard",
+      "cultural_note": "Allgemeine Halteplatzangabe ohne Mikro-Lokalisierung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Bussteig vor dem Bahnhof.",
+        "pronunciation": "ahm-bUHsshteyek-fAWr-dehm-bAHnhohf",
+        "translation_en": "At the bus stop in front of the station."
+      },
+      "responses": [
+        {
+          "english": "At the bus stop in front of the station.",
+          "phonetic": "ahm-bUHsshteyek-fAWr-dehm-bAHnhohf",
+          "french": "Am Bussteig vor dem Bahnhof."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_sbb_railway_station_005",
+      "intent_en": "Where is the border customs checkpoint?",
+      "text_local": "Wo ist die Zollkontrolle?",
+      "pronunciation": "vOH-ihst-dee-tsAWlkawntrAWluh",
+      "formality": "standard",
+      "cultural_note": "Keine detaillierte Wegbeschreibung, sondern grobe Lageangabe.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nach dem Bahnsteigbereich.",
+        "pronunciation": "nahkh-dehm-bAHnsteyebuhrEYEkh",
+        "translation_en": "After the platform area."
+      },
+      "responses": [
+        {
+          "english": "After the platform area.",
+          "phonetic": "nahkh-dehm-bAHnsteyebuhrEYEkh",
+          "french": "Nach dem Bahnsteigbereich."
+        }
+      ]
+    },
+    {
+      "id": "basel_basel_sbb_railway_station_006",
+      "intent_en": "Which tracks are Gl. 30-35 for TGV trains?",
+      "text_local": "Welche Gleise haben die TGV-Züge?",
+      "pronunciation": "vOH-zihnt-dee-lEYEzuh-drEYEsihkh-shtrIHkh-fUEnf-uhntdrEYEsihkh-fuer-tEHEHfOW",
+      "formality": "standard",
+      "cultural_note": "Präzise Angabe des Gleisbereichs ohne Mikro-Lokalisierung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Gleise 30 bis 35 sind hinten links.",
+        "pronunciation": "dee-glEYEzuh-drEYEsihkh-bihs-fUEnf-uhntdrEYEsihkh-zihnt-hIHntuhn-lINGks",
+        "translation_en": "Tracks 30 to 35 are at the back left."
+      },
+      "responses": [
+        {
+          "english": "Tracks 30 to 35 are at the back left.",
+          "phonetic": "dee-glEYEzuh-drEYEsihkh-bihs-fUEnf-uhntdrEYEsihkh-zihnt-hIHntuhn-lINGks",
+          "french": "Die Gleise 30 bis 35 sind hinten links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

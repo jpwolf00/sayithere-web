@@ -1,0 +1,100 @@
+{
+  "id": "olympia_tavern_vardis",
+  "name_en": "Tavern Vardis",
+  "name_local": "Ταβέρνα Βαρδής",
+  "icon": "fork.knife",
+  "lat": 37.6382503,
+  "lon": 21.630566,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "olympia_tavern_vardis_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να αγοράσω ελαιόλαδο;",
+      "pronunciation": "pOO-poolyOOdeh-toh-EHlehOHlahthOH",
+      "formality": "polite",
+      "cultural_note": "Πωλούνται στο ταμείο συχνά μαζί με άλλα προϊόντα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στο ταμείο, στα ράφια.",
+        "pronunciation": "thEEplah-stoh-tahmEEohstah-rAHfeeAH",
+        "translation_en": "At the cash register, together with the other products."
+      },
+      "responses": [
+        {
+          "english": "At the cash register, together with the other products.",
+          "phonetic": "thEEplah-stoh-tahmEEohstah-rAHfeeAH",
+          "french": "Δίπλα στο ταμείο, στα ράφια."
+        }
+      ]
+    },
+    {
+      "id": "olympia_tavern_vardis_002",
+      "intent_en": "Is outdoor terrace seating available now?",
+      "text_local": "Υπάρχει διαθέσιμη υπαίθρια τραπεζαρία τώρα;",
+      "pronunciation": "eepAHrkhee-thEEahthEHseemEE-eepEHthreeAH-trAHpehzahrEEah-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Θέα στους αρχαιολογικούς χώρους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στην υπαίθρια τραπεζαρία.",
+        "pronunciation": "nEHsteen-eepEHthreeAH-trAHpehzahrEEah",
+        "translation_en": "Yes, on the outdoor terrace."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the outdoor terrace.",
+          "phonetic": "nEHsteen-eepEHthreeAH-trAHpehzahrEEah",
+          "french": "Ναι, στην υπαίθρια τραπεζαρία."
+        }
+      ]
+    },
+    {
+      "id": "olympia_tavern_vardis_003",
+      "intent_en": "Pay at counter after meal?",
+      "text_local": "Πληρώνω στο ταμείο μετά το γεύμα;",
+      "pronunciation": "pleerOHnoh-stoh-tahmEEoh-mehtAH-toh-yEEmah",
+      "formality": "standard",
+      "cultural_note": "Χρήμα προτιμάται λόγω προβληματικούPOS.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_tavern_vardis_004",
+      "intent_en": "Wait to be seated or find table?",
+      "text_local": "Μου δείχνει κάποιος τραπέζι ή βρίσκω μόνος;",
+      "pronunciation": "moo-thEEkhnee-kAHpeeOHs-trahpEHzee-ee-vrEEskoh-mOHnohs",
+      "formality": "standard",
+      "cultural_note": "Ο οικοδεσπότης οδηγεί στις θέσεις.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Περιμένετε τον οικοδεσπότη.",
+        "pronunciation": "pEHreemEHnehtEH-tohn-EEkohthehspOHtee",
+        "translation_en": "Wait for the host."
+      },
+      "responses": [
+        {
+          "english": "Wait for the host.",
+          "phonetic": "pEHreemEHnehtEH-tohn-EEkohthehspOHtee",
+          "french": "Περιμένετε τον οικοδεσπότη."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

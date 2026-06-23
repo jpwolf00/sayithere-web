@@ -1,0 +1,56 @@
+{
+  "id": "corfu_tzoumerka_taverna",
+  "name_en": "Tzoumerka Taverna",
+  "name_local": "Ταβέρνα Τζουμέρκα",
+  "icon": "fork.knife",
+  "lat": 39.591337,
+  "lon": 19.8596189,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "corfu_tzoumerka_taverna_001",
+      "intent_en": "Is the fish priced per kilo here?",
+      "text_local": "Το ψάρι έχει τιμή ανά κιλό;",
+      "pronunciation": "toh-psAHree-EHkhee-teemEE-ahnAH-eelOH",
+      "formality": "standard",
+      "cultural_note": "Fish pricing per kilo is common in Greek tavernas, especially those serving fresh local catches.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ανά κιλό.",
+        "pronunciation": "nEHahnAH-eelOH",
+        "translation_en": "Yes, per kilo."
+      },
+      "responses": [
+        {
+          "english": "Yes, per kilo.",
+          "phonetic": "nEHahnAH-eelOH",
+          "french": "Ναι, ανά κιλό."
+        }
+      ]
+    },
+    {
+      "id": "corfu_tzoumerka_taverna_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε τζουμέρκα τυρόπιτα απόψε;",
+      "pronunciation": "EHkhehtEH-dzoomEHrkah-teerOHpeet-ahpOHpseh",
+      "formality": "standard",
+      "cultural_note": "Cheese pies are a staple in Epirus and Tzoumerka regions, but availability may depend on daily preparation.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχουμε απόψε.",
+        "pronunciation": "nEHEHkhoomEH-ahpOHpseh",
+        "translation_en": "Yes, we have it tonight."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it tonight.",
+          "phonetic": "nEHEHkhoomEH-ahpOHpseh",
+          "french": "Ναι, έχουμε απόψε."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

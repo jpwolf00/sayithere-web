@@ -1,0 +1,100 @@
+{
+  "id": "prague_prague_tourist_information_center",
+  "name_en": "Prague Tourist Information Center",
+  "name_local": "Turistické informační centrum Praha",
+  "icon": "info.circle",
+  "lat": 50.0874453,
+  "lon": 14.4209714,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "prague_prague_tourist_information_center_001",
+      "intent_en": "Ask when the Na Příkopě branch opens",
+      "text_local": "Kdy otevírá pobočka Na Příkopě?",
+      "pronunciation": "kdEE-OHtehvEErah-pOHbohtshkah-nAHpreekOHpyeh",
+      "formality": "standard",
+      "cultural_note": "A short, direct time is the expected response. 9:00 is a standard opening hour for such offices.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V devět hodin.",
+        "pronunciation": "v-dEHvyeht-hOHeen",
+        "translation_en": "At nine o'clock."
+      },
+      "responses": [
+        {
+          "english": "At nine o'clock.",
+          "phonetic": "v-dEHvyeht-hOHeen",
+          "french": "V devět hodin."
+        }
+      ]
+    },
+    {
+      "id": "prague_prague_tourist_information_center_002",
+      "intent_en": "Ask how to pay for guided tours",
+      "text_local": "Jak můžu zaplatit za prohlídku s průvodcem?",
+      "pronunciation": "yAHk-mOOzhoo-zAHplaheed-zAHprohhlEEtkoo-s-prOOvohttsehm",
+      "formality": "standard",
+      "cultural_note": "Paying the guide directly is common for smaller tours; mentioning both card and cash covers the typical options.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kartou nebo hotově u průvodce.",
+        "pronunciation": "kAHrtoh-nEHboh-hOHtohvyeh-OO-prOOvohttseh",
+        "translation_en": "By card or cash with the guide."
+      },
+      "responses": [
+        {
+          "english": "By card or cash with the guide.",
+          "phonetic": "kAHrtoh-nEHboh-hOHtohvyeh-OO-prOOvohttseh",
+          "french": "Kartou nebo hotově u průvodce."
+        }
+      ]
+    },
+    {
+      "id": "prague_prague_tourist_information_center_003",
+      "intent_en": "Ask where to buy the Prague Card",
+      "text_local": "Kde si můžu koupit Prague Card?",
+      "pronunciation": "kdEH-see-mOOzhoo-kOHpeet-prAHgooeh-tsAHrt",
+      "formality": "standard",
+      "cultural_note": "Czechs are direct with numbers and directions; 'vlevo' (on the left) is a common, clear spatial cue in service points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U přepážky číslo tři, vlevo.",
+        "pronunciation": "OO-prEHpahshkee-tshEEsloh-trEEvlEHvoh",
+        "translation_en": "At counter number three, on the left."
+      },
+      "responses": [
+        {
+          "english": "At counter number three, on the left.",
+          "phonetic": "OO-prEHpahshkee-tshEEsloh-trEEvlEHvoh",
+          "french": "U přepážky číslo tři, vlevo."
+        }
+      ]
+    },
+    {
+      "id": "prague_prague_tourist_information_center_004",
+      "intent_en": "Ask if concert tickets can be booked here",
+      "text_local": "Dají se tady rezervovat lístky na koncert?",
+      "pronunciation": "dAHyee-seh-tAHdee-rEHzehrvOHvaht-lEEstkee-nAHkohntsehrt",
+      "formality": "standard",
+      "cultural_note": "A simple 'Ano' followed by a location is standard. The cash desk ('pokladna') is the typical point of sale for tickets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u pokladny vpravo.",
+        "pronunciation": "AHnohOO-pOHklahdnee-fprAHvoh",
+        "translation_en": "Yes, at the cash desk on the right."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cash desk on the right.",
+          "phonetic": "AHnohOO-pOHklahdnee-fprAHvoh",
+          "french": "Ano, u pokladny vpravo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

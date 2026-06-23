@@ -1,0 +1,144 @@
+{
+  "id": "konya_fırın_sokağı_bakeries",
+  "name_en": "Fırın Sokağı bakeries",
+  "name_local": "Fırın Sokağı",
+  "icon": "fork.knife",
+  "lat": 37.872734,
+  "lon": 32.4924376,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "konya_fırın_sokağı_bakeries_001",
+      "intent_en": "Where is tandır ekmek?",
+      "text_local": "Tandır ekmek nerede?",
+      "pronunciation": "tAHndoor-ehkmEHk-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Fırınlarda ürünler genellikle tezgahta sergilenir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tezgahın üzerinde, işaret edebilirsiniz.",
+        "pronunciation": "tehzgahhOOn-uezehrihndEHeeshahrEHt-ehdehbeelIHrseenihz",
+        "translation_en": "On the counter, you can point at it."
+      },
+      "responses": [
+        {
+          "english": "On the counter, you can point at it.",
+          "phonetic": "tehzgahhOOn-uezehrihndEHeeshahrEHt-ehdehbeelIHrseenihz",
+          "french": "Tezgahın üzerinde, işaret edebilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "konya_fırın_sokağı_bakeries_002",
+      "intent_en": "Where to point for items?",
+      "text_local": "Almak istediğimi nerede işaret edeyim?",
+      "pronunciation": "ahmAHk-ihstehdEEyeemih-nEHrehdeh-eeshahrEHt-ehdehyIHm",
+      "formality": "standard",
+      "cultural_note": "Sergilenen ürünleri işaret ederek sipariş vermek standarttır.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Tezgahtakileri işaret edin, tezgahtar alır.",
+        "pronunciation": "tehzgahhtahkeelehrIH-eeshahrEHt-ehdEEntehzgahhtAHr-ahOOr",
+        "translation_en": "Point at the items on the counter, the staff will get them."
+      },
+      "responses": [
+        {
+          "english": "Point at the items on the counter, the staff will get them.",
+          "phonetic": "tehzgahhtahkeelehrIH-eeshahrEHt-ehdEEntehzgahhtAHr-ahOOr",
+          "french": "Tezgahtakileri işaret edin, tezgahtar alır."
+        }
+      ]
+    },
+    {
+      "id": "konya_fırın_sokağı_bakeries_003",
+      "intent_en": "Is this sold by weight?",
+      "text_local": "Bu kilo ile mi satılıyor?",
+      "pronunciation": "buh-keeAW-EEleh-mih-sahtooOOyawr",
+      "formality": "standard",
+      "cultural_note": "Tandır ve yufka gibi ekmek çeşitleri genellikle kilo ile satılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, ekmeği kilo ile tartıyoruz.",
+        "pronunciation": "ehvEHtehkmehyIH-keeAW-EEleh-tahrtOOyohruhz",
+        "translation_en": "Yes, we weigh the bread by the kilo."
+      },
+      "responses": [
+        {
+          "english": "Yes, we weigh the bread by the kilo.",
+          "phonetic": "ehvEHtehkmehyIH-keeAW-EEleh-tahrtOOyohruhz",
+          "french": "Evet, ekmeği kilo ile tartıyoruz."
+        }
+      ]
+    },
+    {
+      "id": "konya_fırın_sokağı_bakeries_004",
+      "intent_en": "Where to point for items?",
+      "text_local": "Almak istediğimi nasıl göstereyim?",
+      "pronunciation": "ahmAHk-ihstehdEEyeemih-nahsOO-uhstehrehyIHm",
+      "formality": "standard",
+      "cultural_note": "Tezgahta sıralanmış ürünleri parmakla göstererek sipariş vermek en yaygın yöntemdir.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Cama doğru parmağınızla işaret edin.",
+        "pronunciation": "dzhAHmah-dohrUH-pahrmAHoonoozah-eeshahrEHt-ehdEEn",
+        "translation_en": "Point with your finger towards the glass."
+      },
+      "responses": [
+        {
+          "english": "Point with your finger towards the glass.",
+          "phonetic": "dzhAHmah-dohrUH-pahrmAHoonoozah-eeshahrEHt-ehdEEn",
+          "french": "Cama doğru parmağınızla işaret edin."
+        }
+      ]
+    },
+    {
+      "id": "konya_fırın_sokağı_bakeries_005",
+      "intent_en": "Do I pay before eating?",
+      "text_local": "Yemekten önce mi ödüyorum?",
+      "pronunciation": "yehmehktAHn-UHndzheh-mih-uhdUEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Fırınlarda siparişten önce ödeme yapmak yaygındır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, önce kasada ödeyin.",
+        "pronunciation": "ehvEHtUHndzheh-kAHsahdah-uhdehyIHn",
+        "translation_en": "Yes, pay at the counter first."
+      },
+      "responses": [
+        {
+          "english": "Yes, pay at the counter first.",
+          "phonetic": "ehvEHtUHndzheh-kAHsahdah-uhdehyIHn",
+          "french": "Evet, önce kasada ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "konya_fırın_sokağı_bakeries_006",
+      "intent_en": "Can I split the bill?",
+      "text_local": "Hesabı bölüşebilir miyiz?",
+      "pronunciation": "hehsahbOO-buhlueshehbeelIHr-mEEyihz",
+      "formality": "standard",
+      "cultural_note": "Fırınlarda hesap bölüşmek alışıldık bir uygulama değildir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Genelde tek ödenir.",
+        "pronunciation": "ehnahldEH-tEHk-uhdehnIHr",
+        "translation_en": "It's usually paid by one person."
+      },
+      "responses": [
+        {
+          "english": "It's usually paid by one person.",
+          "phonetic": "ehnahldEH-tEHk-uhdehnIHr",
+          "french": "Genelde tek ödenir."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

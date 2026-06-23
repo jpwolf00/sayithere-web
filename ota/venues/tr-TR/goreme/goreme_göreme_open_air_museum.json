@@ -1,0 +1,166 @@
+{
+  "id": "goreme_göreme_open_air_museum",
+  "name_en": "Göreme Open Air Museum",
+  "name_local": "Göreme Açık Hava Müzesi",
+  "icon": "building.columns",
+  "lat": 38.6390591,
+  "lon": 34.8455787,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "goreme_göreme_open_air_museum_001",
+      "intent_en": "Is Snake Church open now?",
+      "text_local": "Snake Church restoration update?",
+      "pronunciation": "yooahnOO-keelEEseh-shuh-ahndAH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Accessibility can change; staff have current info.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Uzun süredir restorasyonda.",
+        "pronunciation": "oozUHn-sUErehdihr-rehstohrahsyawndAH",
+        "translation_en": "It has been under restoration for a long time."
+      },
+      "responses": [
+        {
+          "english": "It has been under restoration for a long time.",
+          "phonetic": "oozUHn-sUErehdihr-rehstohrahsyawndAH",
+          "french": "Uzun süredir restorasyonda."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_open_air_museum_002",
+      "intent_en": "Where do I get photo permit?",
+      "text_local": "Fotoğraf izni nereden alınır?",
+      "pronunciation": "fohtohrAHf-ihznIH-nEHrehdahn-ahoonOOr",
+      "formality": "standard",
+      "cultural_note": "Staff may not know the exact counter location for permits and will refer to the main information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmaya sorun, içeride satın alınıyor.",
+        "pronunciation": "dahnOOshmahyah-sohrUHneetshehreedEH-sahtOOn-ahoonOOyawr",
+        "translation_en": "Ask at information, purchased inside."
+      },
+      "responses": [
+        {
+          "english": "Ask at information, purchased inside.",
+          "phonetic": "dahnOOshmahyah-sohrUHneetshehreedEH-sahtOOn-ahoonOOyawr",
+          "french": "Danışmaya sorun, içeride satın alınıyor."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_open_air_museum_003",
+      "intent_en": "Where is the Dark Church entrance?",
+      "text_local": "Karanlık Kilise girişi nerede?",
+      "pronunciation": "kahrahnOOk-keelEEseh-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish museum staff often use brief, direct instructions. 'Danışmaya sorun' is a standard deferral when exact location is not staff's responsibility.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana yoldan sağa sapın.",
+        "pronunciation": "ahnAH-yawdAHn-sAH-sahpOOn",
+        "translation_en": "Turn right from the main path."
+      },
+      "responses": [
+        {
+          "english": "Turn right from the main path.",
+          "phonetic": "ahnAH-yawdAHn-sAH-sahpOOn",
+          "french": "Ana yoldan sağa sapın."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_open_air_museum_004",
+      "intent_en": "Where is audio guide rental?",
+      "text_local": "Sesli rehber kiralama nerede?",
+      "pronunciation": "sehslIH-rehhbEHr-keerAHahmah-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Audio guide rental location is unverified, so staff default to directing visitors to the main information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki bilet gişesinde veriyorlar.",
+        "pronunciation": "eerihshtehkIH-beelEHt-eeshehsihndEH-vehrEEyawrahr",
+        "translation_en": "They give it at the ticket booth at the entrance."
+      },
+      "responses": [
+        {
+          "english": "They give it at the ticket booth at the entrance.",
+          "phonetic": "eerihshtehkIH-beelEHt-eeshehsihndEH-vehrEEyawrahr",
+          "french": "Girişteki bilet gişesinde veriyorlar."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_open_air_museum_005",
+      "intent_en": "Is Snake Church open now?",
+      "text_local": "Yılanlı Kilise şu an ziyarete kapalı mı?",
+      "pronunciation": "yooahnOO-keelEEseh-shuh-AHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Turkish site attendants avoid giving definitive answers about accessibility when conditions can change daily.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kapalı, maalesef.",
+        "pronunciation": "kahpahOOmahahlehsEHf",
+        "translation_en": "It's closed, unfortunately."
+      },
+      "responses": [
+        {
+          "english": "It's closed, unfortunately.",
+          "phonetic": "kahpahOOmahahlehsEHf",
+          "french": "Kapalı, maalesef."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_open_air_museum_006",
+      "intent_en": "Is Dark Church fee extra?",
+      "text_local": "Karanlık Kilise ücreti ayrı mı?",
+      "pronunciation": "kahrahnOOk-keelEEseh-uhdzhrehtIH-ahyrOO-moo",
+      "formality": "standard",
+      "cultural_note": "Direct confirmation is standard for ticket sellers in Turkish museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, ayrı giriş ücreti var.",
+        "pronunciation": "ehvEHtahyrOO-eerIHsh-uhdzhrehtIH-vAHr",
+        "translation_en": "Yes, there is a separate entry fee."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a separate entry fee.",
+          "phonetic": "ehvEHtahyrOO-eerIHsh-uhdzhrehtIH-vAHr",
+          "french": "Evet, ayrı giriş ücreti var."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_open_air_museum_007",
+      "intent_en": "Where do I get photo permit?",
+      "text_local": "Fotoğraf çekmek için izin nereden alınır?",
+      "pronunciation": "fohtohrAHf-ihzneenIH-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "When exact location is unverified, staff will direct you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişede alınır.",
+        "pronunciation": "eeshehdEH-ahoonOOr",
+        "translation_en": "It is obtained at the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "It is obtained at the ticket booth.",
+          "phonetic": "eeshehdEH-ahoonOOr",
+          "french": "Gişede alınır."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

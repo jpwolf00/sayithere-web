@@ -1,0 +1,118 @@
+{
+  "id": "nice_cours_saleya",
+  "name_en": "Cours Saleya Market",
+  "name_local": "Marché du Cours Saleya",
+  "icon": "bag",
+  "lat": 43.6954,
+  "lon": 7.2767,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "nice_saleya_001",
+      "intent_en": "Ask what time the flower market opens",
+      "text_local": "À quelle heure ouvre le marché aux fleurs ?",
+      "pronunciation": "ah kel UHR OO-vreh leh mar-SHAY oh FLUHR",
+      "formality": "polite",
+      "cultural_note": "The flower market runs Tuesday–Sunday mornings. Monday is the antiques market. Everything closes around 1pm.",
+      "responses": [
+        {
+          "english": "At six in the morning.",
+          "phonetic": "ah SEE-ZUR doo mah-TAHN",
+          "french": "À six heures du matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_saleya_002",
+      "intent_en": "Ask the price of a bunch of mimosa",
+      "text_local": "C'est combien pour un bouquet de mimosa, s'il vous plaît ?",
+      "pronunciation": "say kom-BYAN poor un boo-KAY deh mee-mo-ZAH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Mimosa is the flower symbol of the Riviera, blooming brilliantly in February and sold throughout the markets.",
+      "responses": [
+        {
+          "english": "Five euros per bunch.",
+          "phonetic": "SAHNK uh-ROH luh boo-KAY",
+          "french": "Cinq euros le bouquet."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_saleya_003",
+      "intent_en": "Ask where to find locally grown vegetables",
+      "text_local": "Où sont les stands de légumes cultivés localement ?",
+      "pronunciation": "oo son lay STAND deh lay-GYOOM kul-tee-VAY lo-kal-MAN",
+      "formality": "polite",
+      "cultural_note": "Cours Saleya mixes flower stalls, fresh produce, local cheeses, olives and Niçois specialties all in one lively square.",
+      "responses": [
+        {
+          "english": "The vegetables are on the other side.",
+          "phonetic": "lay lay-GOOM sohn duh LOH-truh koh-TAY",
+          "french": "Les légumes sont de l'autre côté."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_saleya_004",
+      "intent_en": "Ask a vendor if they have fresh tapenade",
+      "text_local": "Avez-vous de la tapenade fraîche, s'il vous plaît ?",
+      "pronunciation": "ah-VAY voo deh lah tah-peh-NAHD FRESH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Tapenade — an olive and caper paste — is a Provençal staple. Fresh market versions are far better than jarred imports.",
+      "responses": [
+        {
+          "english": "Yes, I have some fresh.",
+          "phonetic": "wee zhahn ay duh lah FRESH",
+          "french": "Oui, j'en ai de la fraîche."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_saleya_005",
+      "intent_en": "Ask if you can taste before buying",
+      "text_local": "Est-il possible de goûter avant d'acheter ?",
+      "pronunciation": "eh-TEEL po-SEEBL deh goo-TAY ah-VAN dah-sheh-TAY",
+      "formality": "polite",
+      "cultural_note": "Most cheese and olive vendors gladly offer tastings — it's expected and part of the market culture.",
+      "responses": [
+        {
+          "english": "Yes, taste it.",
+          "phonetic": "wee goo-TAY",
+          "french": "Oui, goûtez."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "bunch of flowers",
+      "word_local": "le bouquet",
+      "pronunciation": "leh boo-KAY"
+    },
+    {
+      "word_en": "market stall",
+      "word_local": "l'étal / le stand",
+      "pronunciation": "lay-TAL / leh STAND"
+    },
+    {
+      "word_en": "olive paste",
+      "word_local": "la tapenade",
+      "pronunciation": "lah tah-peh-NAHD"
+    },
+    {
+      "word_en": "fresh / local",
+      "word_local": "frais / local",
+      "pronunciation": "FREH / lo-KAL"
+    }
+  ]
+}

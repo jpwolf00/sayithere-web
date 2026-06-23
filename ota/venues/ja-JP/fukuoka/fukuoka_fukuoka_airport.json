@@ -1,0 +1,122 @@
+{
+  "id": "fukuoka_fukuoka_airport",
+  "name_en": "Fukuoka Airport",
+  "name_local": "福岡空港",
+  "icon": "tram",
+  "lat": 33.586802,
+  "lon": 130.4473939,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "fukuoka_fukuoka_airport_001",
+      "intent_en": "Where is the subway ticket machine?",
+      "text_local": "ちかてつの けんばいきは どこですか？",
+      "pronunciation": "tEEktehtsOOnoh-kEHbEEkEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "At Fukuoka Airport, the subway station entrance is located between the two terminals, often accessed by going downstairs from the domestic terminal side.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいだんを おりて、すぐ みぎです。",
+        "pronunciation": "kEEdOH-ohEEtehsOOgoo-mEEgeedEHsoo",
+        "translation_en": "Go down the stairs, immediately on the right."
+      },
+      "responses": [
+        {
+          "english": "Go down the stairs, immediately on the right.",
+          "phonetic": "kEEdOH-ohEEtehsOOgoo-mEEgeedEHsoo",
+          "french": "かいだんを おりて、すぐ みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_fukuoka_airport_002",
+      "intent_en": "When does the next subway to Hakata leave?",
+      "text_local": "つぎの はかたゆきは なんじですか？",
+      "pronunciation": "tsoogEEnoh-hKtYookEEh-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Subway staff often give the platform number and the minutes until departure, as trains run frequently on the Airport Line.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "6ばんせんから、5ふんごです。",
+        "pronunciation": "rOHkoo-bSehngkGOH-OOnggohdEHsoo",
+        "translation_en": "From platform 6, in 5 minutes."
+      },
+      "responses": [
+        {
+          "english": "From platform 6, in 5 minutes.",
+          "phonetic": "rOHkoo-bSehngkGOH-OOnggohdEHsoo",
+          "french": "6ばんせんから、5ふんごです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_fukuoka_airport_003",
+      "intent_en": "How do I pay bus fare in exact change?",
+      "text_local": "バスの りょうきん、こまかいおかねで はらえますか？",
+      "pronunciation": "bsOOnoh-OHOOkeekOHmkEEOHknEHdeh-hEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many Japanese buses require exact change. You put the coins into a fare box next to the driver when getting off.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい。りょうきんばこに いれてください。",
+        "pronunciation": "hEEOHOOkeeBkOHnee-EEehtEHkoodsEE",
+        "translation_en": "Yes. Please put it in the fare box."
+      },
+      "responses": [
+        {
+          "english": "Yes. Please put it in the fare box.",
+          "phonetic": "hEEOHOOkeeBkOHnee-EEehtEHkoodsEE",
+          "french": "はい。りょうきんばこに いれてください。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_fukuoka_airport_004",
+      "intent_en": "Is there a luggage delivery service to hotels?",
+      "text_local": "ホテルへの にもつ たくはい サービスは ありますか？",
+      "pronunciation": "hOHtehoohEHnoh-neemOHtsoo-tKoohEE-sBeesOOh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Takkyubin (luggage delivery) is a very common service at Japanese airports, usually found at a dedicated service counter in the arrivals lobby.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、1かいの カウンターに あります。",
+        "pronunciation": "hEEEEtsee-kEEnoh-kOOntNee-EEmSoo",
+        "translation_en": "Yes, there is one at the counter on the 1st floor."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is one at the counter on the 1st floor.",
+          "phonetic": "hEEEEtsee-kEEnoh-kOOntNee-EEmSoo",
+          "french": "はい、1かいの カウンターに あります。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_fukuoka_airport_005",
+      "intent_en": "Where is the international check-in counter?",
+      "text_local": "こくさいせんの チェックインカウンターは どこですか？",
+      "pronunciation": "kOHkoosEEsEHnnoh-tEHkkooEEngkoontH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The international terminal is a separate building, so a staff member might clarify 'this building' if asked inside the correct terminal.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "この たてものの 3かいです。",
+        "pronunciation": "kOHnoh-tTehmohnOHnoh-sN-kEEdEHsoo",
+        "translation_en": "It's on the 3rd floor of this building."
+      },
+      "responses": [
+        {
+          "english": "It's on the 3rd floor of this building.",
+          "phonetic": "kOHnoh-tTehmohnOHnoh-sN-kEEdEHsoo",
+          "french": "この たてものの 3かいです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

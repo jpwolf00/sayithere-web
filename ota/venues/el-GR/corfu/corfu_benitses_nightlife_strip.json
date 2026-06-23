@@ -1,0 +1,56 @@
+{
+  "id": "corfu_benitses_nightlife_strip",
+  "name_en": "Benitses nightlife strip",
+  "name_local": "Μπενίτσες",
+  "icon": "map",
+  "lat": 39.5440169,
+  "lon": 19.9133239,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "corfu_benitses_nightlife_strip_001",
+      "intent_en": "How do I book a boat from the marina?",
+      "text_local": "Πώς κλείνω βάρκα από τη μαρινά;",
+      "pronunciation": "pOHs-klEEnoh-vAHrk-ahpOH-tee-mAHreenAH",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι στη μαρινά φροντίζουν για τις κρατήσεις βαρκών και τα οικονομικά της ενοικίασης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο γραφείο της μαρίνας.",
+        "pronunciation": "stoh-ghrahfEEoh-teez-mahrEEnahs",
+        "translation_en": "At the marina office."
+      },
+      "responses": [
+        {
+          "english": "At the marina office.",
+          "phonetic": "stoh-ghrahfEEoh-teez-mahrEEnahs",
+          "french": "Στο γραφείο της μαρίνας."
+        }
+      ]
+    },
+    {
+      "id": "corfu_benitses_nightlife_strip_002",
+      "intent_en": "Where is Oak Tree Square for meeting?",
+      "text_local": "Πού είναι η πλατεία Πλατανιάς για ραντεβού;",
+      "pronunciation": "pOO-EEneh-ee-plahtEEah-plAHtahnyAHz-yAH-rAHdehvOO",
+      "formality": "standard",
+      "cultural_note": "Η πλατεία Πλατανιάς (Oak Tree Square) αναφέρεται συχνά ως κεντρικός τόπος συνάντησης στους ντόπιους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κεντρική πλατεία Μπενίτσες.",
+        "pronunciation": "EHdreeEE-plahtEEah-behnEEtsehs",
+        "translation_en": "Central square of Benitses."
+      },
+      "responses": [
+        {
+          "english": "Central square of Benitses.",
+          "phonetic": "EHdreeEE-plahtEEah-behnEEtsehs",
+          "french": "Κεντρική πλατεία Μπενίτσες."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

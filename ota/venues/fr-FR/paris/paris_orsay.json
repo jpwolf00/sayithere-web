@@ -1,0 +1,125 @@
+{
+  "id": "venue_orsay",
+  "name_en": "Musée d'Orsay",
+  "name_local": "Musée d'Orsay",
+  "icon": "paintpalette.fill",
+  "phrases": [
+    {
+      "id": "venue_orsay_001",
+      "intent_en": "Ask where the Impressionist galleries are",
+      "text_local": "Où se trouvent les salles des impressionnistes ?",
+      "pronunciation": "oo suh TROOV lay sal dayz ehm-preh-syoh-NEEST",
+      "formality": "polite",
+      "cultural_note": "The Impressionist masterpieces are on the top floor (niveau 5). Head straight up to see Monet, Renoir, Degas, and more with beautiful natural light.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Impressionists are on the fifth floor.",
+          "phonetic": "layz ahm-preh-syoh-NEEST sohn toh sank-YEM ay-TAHZH",
+          "french": "Les impressionnistes sont au cinquième étage."
+        }
+      ]
+    },
+    {
+      "id": "venue_orsay_002",
+      "intent_en": "Ask where the Van Gogh paintings are",
+      "text_local": "Où sont les tableaux de Van Gogh ?",
+      "pronunciation": "oo sohn lay tah-BLOH duh vahn GOGH",
+      "formality": "standard",
+      "cultural_note": "The French pronounce Van Gogh closer to 'vahn GOGH' (with a soft French 'g'). His self-portraits and Starry Night Over the Rhône are highlights.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Van Goghs are on the fifth floor, room 71.",
+          "phonetic": "lay vahn GOGH sohn toh sank-YEM ay-TAHZH, sal swah-sahnt ay onz",
+          "french": "Les Van Gogh sont au cinquième étage, salle 71."
+        }
+      ]
+    },
+    {
+      "id": "venue_orsay_003",
+      "intent_en": "Ask where the toilets are",
+      "text_local": "Où sont les toilettes, s'il vous plaît ?",
+      "pronunciation": "oo sohn lay twah-LET, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Restrooms are on each level. Ask staff if you need directions to the nearest one.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the end of the corridor, on the left.",
+          "phonetic": "oh boo doo koo-LWAHR, soor lah gohsh",
+          "french": "Au bout du couloir, sur la gauche."
+        }
+      ]
+    },
+    {
+      "id": "venue_orsay_004",
+      "intent_en": "Ask if there is a café or restaurant inside",
+      "text_local": "Il y a un café ou un restaurant dans le musée ?",
+      "pronunciation": "eel ee ah uhn kah-FAY oo uhn res-toh-RAHN dahn luh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum has a café on the top floor with a nice view, and a more formal restaurant behind the clock on the first floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there is a café on the top floor and a restaurant on the first floor.",
+          "phonetic": "wee, eel ee ah uhn kah-FAY oh dehr-NYAY ay-TAHZH ay uhn res-toh-RAHN oh pruh-MYAY",
+          "french": "Oui, il y a un café au dernier étage et un restaurant au premier."
+        }
+      ]
+    },
+    {
+      "id": "venue_orsay_005",
+      "intent_en": "Ask if there is a cloakroom for bags and coats",
+      "text_local": "Il y a un vestiaire pour les sacs et manteaux ?",
+      "pronunciation": "eel ee ah uhn ves-tee-AIR poor lay sahk ay mahn-TOH",
+      "formality": "polite",
+      "cultural_note": "Large bags must be checked at the cloakroom. The service is free.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the cloakroom is free, in the basement.",
+          "phonetic": "wee, luh ves-tee-AIR eh grah-TWEET, oh soo-sol",
+          "french": "Oui, le vestiaire est gratuit, au sous-sol."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Impressionism",
+      "word_local": "Impressionnisme",
+      "pronunciation": "ehm-preh-syoh-NEEZM"
+    },
+    {
+      "word_en": "Train station",
+      "word_local": "Gare",
+      "pronunciation": "gahr"
+    },
+    {
+      "word_en": "Top floor",
+      "word_local": "Dernier étage",
+      "pronunciation": "dehr-NYAY ay-TAHZH"
+    },
+    {
+      "word_en": "Clock",
+      "word_local": "Horloge",
+      "pronunciation": "or-LOHZH"
+    },
+    {
+      "word_en": "Self-portrait",
+      "word_local": "Autoportrait",
+      "pronunciation": "oh-toh-por-TREH"
+    },
+    {
+      "word_en": "Exhibition",
+      "word_local": "Exposition",
+      "pronunciation": "ex-poh-zee-SYOHN"
+    }
+  ]
+}

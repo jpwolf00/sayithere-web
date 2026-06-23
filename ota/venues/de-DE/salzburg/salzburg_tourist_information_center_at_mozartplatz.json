@@ -1,0 +1,78 @@
+{
+  "id": "salzburg_tourist_information_center_at_mozartplatz",
+  "name_en": "Tourist Information Center at Mozartplatz",
+  "name_local": "Tourismus Salzburg",
+  "icon": "info.circle",
+  "lat": 47.3793002,
+  "lon": 13.4183659,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "salzburg_tourist_information_center_at_mozartplatz_001",
+      "intent_en": "Where do I buy the Salzburg Card",
+      "text_local": "Wo kaufe ich die Salzburg Card?",
+      "pronunciation": "vOH-kOWfuh-ihkh-dee-zAHltsbuhuhk-kAHrt",
+      "formality": "standard",
+      "cultural_note": "In German-speaking countries, service counters are typically called 'Schalter'. Visitors expect to be directed to a physical counter rather than a general area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für die Salzburg Card.",
+        "pronunciation": "ahm-shAHlt-fuer-dee-zAHltsbuhuhk-kAHrt",
+        "translation_en": "At the Salzburg Card counter."
+      },
+      "responses": [
+        {
+          "english": "At the Salzburg Card counter.",
+          "phonetic": "ahm-shAHlt-fuer-dee-zAHltsbuhuhk-kAHrt",
+          "french": "Am Schalter für die Salzburg Card."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_tourist_information_center_at_mozartplatz_002",
+      "intent_en": "Can I book concert tickets here",
+      "text_local": "Kann ich hier Konzerte buchen?",
+      "pronunciation": "kAHn-ihkh-hEEr-kawntsEHrtuh-bOOkhuhn",
+      "formality": "casual",
+      "cultural_note": "German-speaking service staff often confirm availability at a counter ('Schalter') without further elaboration unless asked specifically.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Ticketschalter.",
+        "pronunciation": "yAHahm-tIHkehtshAHlt",
+        "translation_en": "Yes, at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket counter.",
+          "phonetic": "yAHahm-tIHkehtshAHlt",
+          "french": "Ja, am Ticketschalter."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_tourist_information_center_at_mozartplatz_003",
+      "intent_en": "Where is Getreidegasse from here",
+      "text_local": "Wo ist die Getreidegasse von hier?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoor-uhtrEYEdehAHsuh",
+      "formality": "casual",
+      "cultural_note": "Salzburg’s Old Town is pedestrian-friendly, and directional cues rely on signage rather than micro-directions. 'follow the signs' is a safe, venue-appropriate pattern for signposted landmarks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links, um die Ecke.",
+        "pronunciation": "lINGksuhm-dee-EHkuh",
+        "translation_en": "Left, around the corner."
+      },
+      "responses": [
+        {
+          "english": "Left, around the corner.",
+          "phonetic": "lINGksuhm-dee-EHkuh",
+          "french": "Links, um die Ecke."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

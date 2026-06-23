@@ -1,0 +1,122 @@
+{
+  "id": "freiburg_schwabentor",
+  "name_en": "Schwabentor",
+  "name_local": "Schwabentor",
+  "icon": "building.columns",
+  "lat": 47.9928991,
+  "lon": 7.8541244,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "freiburg_schwabentor_001",
+      "intent_en": "Can I walk through the city gate arch?",
+      "text_local": "Darf man durch den Torbogen gehen?",
+      "pronunciation": "dAHrf-mahn-duhuhkh-dehn-tawrbOHuhn-EHuhn",
+      "formality": "casual",
+      "cultural_note": "In German-speaking countries, historic city gates often allow pedestrian passage through the archway, but cyclists and vehicles must yield.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, zu Fuß möglich.",
+        "pronunciation": "yAHtsoo-fOOs-mUHklihkh",
+        "translation_en": "Yes, accessible for pedestrians."
+      },
+      "responses": [
+        {
+          "english": "Yes, accessible for pedestrians.",
+          "phonetic": "yAHtsoo-fOOs-mUHklihkh",
+          "french": "Ja, zu Fuß möglich."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_schwabentor_002",
+      "intent_en": "Is the tower exterior free to view?",
+      "text_local": "Kann man den Turm von außen kostenlos sehen?",
+      "pronunciation": "kAHn-mahn-dehn-tUHuhm-fawn-OWsuhn-kAWstuhnlOHs-zEHuhn",
+      "formality": "standard",
+      "cultural_note": "Historic towers in Freiburg often have exterior views accessible without entry fees, but interior access may require tickets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, frei zugänglich.",
+        "pronunciation": "yAHfrEYE-tsOOehnglIHkh",
+        "translation_en": "Yes, freely viewable."
+      },
+      "responses": [
+        {
+          "english": "Yes, freely viewable.",
+          "phonetic": "yAHfrEYE-tsOOehnglIHkh",
+          "french": "Ja, frei zugänglich."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_schwabentor_003",
+      "intent_en": "Where is the medieval wall section?",
+      "text_local": "Wo findet man Reste der Stadtmauer?",
+      "pronunciation": "vOH-fIHnduht-mahn-rEHstuh-dehr-shtAHtmow",
+      "formality": "standard",
+      "cultural_note": "Medieval wall sections in Freiburg are often integrated into the urban fabric; signage points to accessible sections.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter dem Torbogen sind Mauerreste.",
+        "pronunciation": "hIHnt-dehm-tawrbOHguhn-zihnt-mOWruhstuh",
+        "translation_en": "Behind the archway are wall remains."
+      },
+      "responses": [
+        {
+          "english": "Behind the archway are wall remains.",
+          "phonetic": "hIHnt-dehm-tawrbOHguhn-zihnt-mOWruhstuh",
+          "french": "Hinter dem Torbogen sind Mauerreste."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_schwabentor_004",
+      "intent_en": "Can I take photos without blocking traffic?",
+      "text_local": "Darf man Fotos machen ohne den Verkehr zu behindern?",
+      "pronunciation": "dAHrf-mahn-fOHtohs-mAHkhuhn-OHnuh-dehn-fehrkEHr-tsoo-buhhIHndn",
+      "formality": "casual",
+      "cultural_note": "German traffic rules emphasize yielding to pedestrians and cyclists, especially in historic districts with narrow passages.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aber Vorsicht vor Radfahrern.",
+        "pronunciation": "yAHAHb-fOHrzIHkht-fAWr-rAHtfahrn",
+        "translation_en": "Yes, but watch for cyclists."
+      },
+      "responses": [
+        {
+          "english": "Yes, but watch for cyclists.",
+          "phonetic": "yAHAHb-fOHrzIHkht-fAWr-rAHtfahrn",
+          "french": "Ja, aber Vorsicht vor Radfahrern."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_schwabentor_005",
+      "intent_en": "Where does the tram stop near the gate?",
+      "text_local": "Wo hält die Straßenbahn beim Tor?",
+      "pronunciation": "vOH-hEHlt-dee-shtrAHsuhnbAHn-beyem-tOHr",
+      "formality": "standard",
+      "cultural_note": "Tram stops are typically well-signposted in German cities, and pedestrians may need to cross busy intersections near historic gates.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt vor dem Tor an der Kreuzung.",
+        "pronunciation": "deerEHkt-fAWr-dehm-tOHr-ahn-dehr-krAWuhtsuhng",
+        "translation_en": "Right in front of the gate at the intersection."
+      },
+      "responses": [
+        {
+          "english": "Right in front of the gate at the intersection.",
+          "phonetic": "deerEHkt-fAWr-dehm-tOHr-ahn-dehr-krAWuhtsuhng",
+          "french": "Direkt vor dem Tor an der Kreuzung."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

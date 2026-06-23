@@ -1,0 +1,122 @@
+{
+  "id": "munich_augustiner_keller_beer_garden",
+  "name_en": "Augustiner-Keller Beer Garden",
+  "name_local": "Augustiner-Keller",
+  "icon": "fork.knife",
+  "lat": 48.1435031,
+  "lon": 11.5515657,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "munich_augustiner_keller_beer_garden_001",
+      "intent_en": "Can I reserve a group table",
+      "text_local": "Kann man Tische für Gruppen reservieren?",
+      "pronunciation": "kAHn-mahn-tIHshuh-fuer-rUHpuhn-rEHzehrvEEruhn",
+      "formality": "standard",
+      "cultural_note": "Reservations for larger groups in Bavarian beer gardens are usually handled at a dedicated counter or reception.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the desk.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "munich_augustiner_keller_beer_garden_002",
+      "intent_en": "Is the Maß deposit added to the bill",
+      "text_local": "Wird Pfand für das Maß verrechnet?",
+      "pronunciation": "vIHrt-pfAHnt-fuer-dahs-mAHs-fehrrEHkhnuht",
+      "formality": "standard",
+      "cultural_note": "In Bavarian beer gardens, the Maß (1-liter beer mug) deposit is typically added to the final bill and refunded upon returning the mug.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Ende.",
+        "pronunciation": "yAHahm-EHnduh",
+        "translation_en": "Yes, at the end."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the end.",
+          "phonetic": "yAHahm-EHnduh",
+          "french": "Ja, am Ende."
+        }
+      ]
+    },
+    {
+      "id": "munich_augustiner_keller_beer_garden_003",
+      "intent_en": "Is the beer garden self-seating",
+      "text_local": "Ist der Biergarten selbstbedienung?",
+      "pronunciation": "ihst-dehr-bEErahrtuhn-zEHlpstbuhdEEnuhng",
+      "formality": "standard",
+      "cultural_note": "Bavarian beer gardens traditionally operate on a self-service basis in the outdoor area, with seating chosen by guests.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Freien.",
+        "pronunciation": "yAHihm-frEYE-UHn",
+        "translation_en": "Yes, outside."
+      },
+      "responses": [
+        {
+          "english": "Yes, outside.",
+          "phonetic": "yAHihm-frEYE-UHn",
+          "french": "Ja, im Freien."
+        }
+      ]
+    },
+    {
+      "id": "munich_augustiner_keller_beer_garden_004",
+      "intent_en": "Where is the self-service food counter",
+      "text_local": "Wo finde ich den Essenausschank?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-EHsuhnOWskhahngk",
+      "formality": "standard",
+      "cultural_note": "In Bavaria, self-service counters in beer gardens are typically clearly marked with signs indicating 'Essenausschank' or 'Selbstbedienung'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinten rechts im Biergarten.",
+        "pronunciation": "hIHntuhn-rEHkhts-ihm-bEErgahrtuhn",
+        "translation_en": "Back right in the beer garden."
+      },
+      "responses": [
+        {
+          "english": "Back right in the beer garden.",
+          "phonetic": "hIHntuhn-rEHkhts-ihm-bEErgahrtuhn",
+          "french": "Hinten rechts im Biergarten."
+        }
+      ]
+    },
+    {
+      "id": "munich_augustiner_keller_beer_garden_005",
+      "intent_en": "Where is waiter service available",
+      "text_local": "Wo gibt es Kellnerbedienung?",
+      "pronunciation": "vOH-EEpt-ehs-kEHlnbEHdeenUHng",
+      "formality": "standard",
+      "cultural_note": "Waiter service in Bavarian beer gardens is typically restricted to indoor seating areas, not in the self-service beer garden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Drinnen im Restaurant.",
+        "pronunciation": "drIHnuhn-ihm-rEHstohrAH",
+        "translation_en": "Inside in the restaurant hall."
+      },
+      "responses": [
+        {
+          "english": "Inside in the restaurant hall.",
+          "phonetic": "drIHnuhn-ihm-rEHstohrAH",
+          "french": "Drinnen im Restaurant."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

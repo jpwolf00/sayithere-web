@@ -1,0 +1,78 @@
+{
+  "id": "interlaken_restaurant_taverne_zur_krone",
+  "name_en": "Restaurant Taverne zur Krone",
+  "name_local": "Restaurant Taverne zur Krone",
+  "icon": "fork.knife",
+  "lat": 46.6855231,
+  "lon": 7.8585139,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "interlaken_restaurant_taverne_zur_krone_001",
+      "intent_en": "Where is Krone Stube dining room",
+      "text_local": "Wo ist die Krone Stube?",
+      "pronunciation": "vOH-ihst-dee-krOHnuh-shtOObuh",
+      "formality": "standard",
+      "cultural_note": "Directions in Swiss restaurants often refer to visible areas like the main dining room.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rechts durch die Gaststube.",
+        "pronunciation": "rEHkhts-duhuhkh-dee-AHststoobuh",
+        "translation_en": "To the right through the main dining area."
+      },
+      "responses": [
+        {
+          "english": "To the right through the main dining area.",
+          "phonetic": "rEHkhts-duhuhkh-dee-AHststoobuh",
+          "french": "Rechts durch die Gaststube."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_restaurant_taverne_zur_krone_002",
+      "intent_en": "How do I settle bill at counter",
+      "text_local": "Wo bezahle ich an der Theke?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-ahn-dehr-tEHkuh",
+      "formality": "standard",
+      "cultural_note": "Payment at counters is common in Swiss establishments; staff may direct to the main or side counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Theke, hier oder drüben.",
+        "pronunciation": "ahn-dehr-tEHkuhhEEr-OHd-drUEbuhn",
+        "translation_en": "At the counter, here or over there."
+      },
+      "responses": [
+        {
+          "english": "At the counter, here or over there.",
+          "phonetic": "ahn-dehr-tEHkuhhEEr-OHd-drUEbuhn",
+          "french": "An der Theke, hier oder drüben."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_restaurant_taverne_zur_krone_003",
+      "intent_en": "Is Biergarten open tonight",
+      "text_local": "Ist der Biergarten heute Abend offen?",
+      "pronunciation": "ihst-dehr-bEErahrtuhn-hAWuhtuh-AHbuhnt-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Evening hours are commonly stated in hours past noon in German-speaking regions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis 22 Uhr.",
+        "pronunciation": "yAHbihs-tsvEYE-uhnttsvAHntsihkh-OOr",
+        "translation_en": "Yes, until 10 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 10 PM.",
+          "phonetic": "yAHbihs-tsvEYE-uhnttsvAHntsihkh-OOr",
+          "french": "Ja, bis 22 Uhr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

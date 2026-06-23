@@ -1,0 +1,188 @@
+{
+  "id": "kos_alikes_salt_lake",
+  "name_en": "Alikes Salt Lake",
+  "name_local": "Αλυκές Κω",
+  "icon": "leaf",
+  "lat": 36.882627,
+  "lon": 27.1696374,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "kos_alikes_salt_lake_001",
+      "intent_en": "Where is the pink water pool",
+      "text_local": "Πού βρίσκονται οι ροζ λίμνες;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-rOHz-lEEmnehs",
+      "formality": "standard",
+      "cultural_note": "Οι ροζ λίμνες είναι διάσπαρτες μέσα στους αλυκώνες και δεν έχουν συγκεκριμένη τοποθεσία εκτός των σωρών αλατιού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε το μονοπάτι δίπλα στους σωρούς αλατιού.",
+        "pronunciation": "AHkohloothEEsteh-toh-mOHnohpAHtee-thEEplah-stoos-sohrOOs-AHlahteeOO",
+        "translation_en": "Follow the path next to the salt mounds."
+      },
+      "responses": [
+        {
+          "english": "Follow the path next to the salt mounds.",
+          "phonetic": "AHkohloothEEsteh-toh-mOHnohpAHtee-thEEplah-stoos-sohrOOs-AHlahteeOO",
+          "french": "Ακολουθήστε το μονοπάτι δίπλα στους σωρούς αλατιού."
+        }
+      ]
+    },
+    {
+      "id": "kos_alikes_salt_lake_002",
+      "intent_en": "Navigate to pink water pools",
+      "text_local": "Πού είναι οι ροζ λίμνες;",
+      "pronunciation": "pOHs-pAHoh-steez-rOHz-lEEmnehs",
+      "formality": "standard",
+      "cultural_note": "Οι ροζ λίμνες αναφέρονται στις δεξαμενές με υφάλμυρο νερό λόγω των αλοβακτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετά τους σωρούς αλατιού, δεξιά.",
+        "pronunciation": "mehtAH-toos-sohrOOs-AHlahteeOOthEHkseeAH",
+        "translation_en": "Walk eastward, near the salt harvest mounds, and you will find the shallow pools with pink water."
+      },
+      "responses": [
+        {
+          "english": "Walk eastward, near the salt harvest mounds, and you will find the shallow pools with pink water.",
+          "phonetic": "mehtAH-toos-sohrOOs-AHlahteeOOthEHkseeAH",
+          "french": "Μετά τους σωρούς αλατιού, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "kos_alikes_salt_lake_003",
+      "intent_en": "Buy local salt product packets",
+      "text_local": "Να αγοράσω σακουλάκια τοπικού αλατιού;",
+      "pronunciation": "n-AHghohrAHsoh-sAHkoolAHah-tOHpeekOO-AHlahteeOO",
+      "formality": "standard",
+      "cultural_note": "Τα σακουλάκια τοπικού αλατιού πωλούνται συνήθως από πωλητές που στέκονται δίπλα στις εισόδους των αλυκών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον πωλητή στο περίπτερο.",
+        "pronunciation": "rohtEEsteh-stohm-bOHleetEE-stoh-pehrEEptehrOH",
+        "translation_en": "Ask at the product seller’s stand."
+      },
+      "responses": [
+        {
+          "english": "Ask at the product seller’s stand.",
+          "phonetic": "rohtEEsteh-stohm-bOHleetEE-stoh-pehrEEptehrOH",
+          "french": "Ρωτήστε στον πωλητή στο περίπτερο."
+        }
+      ]
+    },
+    {
+      "id": "kos_alikes_salt_lake_004",
+      "intent_en": "Join 4WD tour to Thera lagoon",
+      "text_local": "Να ενταχθώ σε ξενάγηση με τζιπ στη λιμνοθάλασσα;",
+      "pronunciation": "bohrOH-nah-pAHoh-stoh-thEErah-meh-dzEEp",
+      "formality": "standard",
+      "cultural_note": "Το Θηρα αναφέρεται στη λιμνοθάλασσα δίπλα στις αλυκές, προσβάσιμη μόνο με ειδικό όχημα λόγω των δύσβατων μονοπατιών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ρωτήστε στη στάση.",
+        "pronunciation": "nEHrohtEEsteh-stee-stAHsee",
+        "translation_en": "Yes, ask at the stop."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask at the stop.",
+          "phonetic": "nEHrohtEEsteh-stee-stAHsee",
+          "french": "Ναι, ρωτήστε στη στάση."
+        }
+      ]
+    },
+    {
+      "id": "kos_alikes_salt_lake_005",
+      "intent_en": "Where is the Thera lagoon from here",
+      "text_local": "Πού είναι η λιμνοθάλασσα του Θηρα από εδώ;",
+      "pronunciation": "pOO-EEneh-ee-lEEmnohthAHlahssAH-too-thEErah",
+      "formality": "standard",
+      "cultural_note": "Η λιμνοθάλασσα του Θηρα βρίσκεται κοντά στις αλυκές, αλλά η πρόσβαση είναι δύσκολη χωρίς οδηγό τζίπ.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά μετά την αλυκή, 500 μέτρα.",
+        "pronunciation": "thEHkseeAH-mehtAH-teen-AHleeEEpEHndahkOHah-mEHtrah",
+        "translation_en": "Follow the signs to the Thera lagoon."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the Thera lagoon.",
+          "phonetic": "thEHkseeAH-mehtAH-teen-AHleeEEpEHndahkOHah-mEHtrah",
+          "french": "Δεξιά μετά την αλυκή, 500 μέτρα."
+        }
+      ]
+    },
+    {
+      "id": "kos_alikes_salt_lake_006",
+      "intent_en": "Where do I buy local salt products",
+      "text_local": "Πού αγοράζω τοπικά προϊόντα αλατιού;",
+      "pronunciation": "pOO-AHghohrAHzoh-tOHpeekAH-prohihOHd-AHlahteeOO",
+      "formality": "standard",
+      "cultural_note": "Τα τοπικά προϊόντα αλατιού πωλούνται συνήθως από πωλητές που στέκονται δίπλα στις εισόδους των αλυκών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον πωλητή στο περίπτερο.",
+        "pronunciation": "rohtEEsteh-stohm-bOHleetEE-stoh-pehrEEptehrOH",
+        "translation_en": "Ask at the product seller’s stand."
+      },
+      "responses": [
+        {
+          "english": "Ask at the product seller’s stand.",
+          "phonetic": "rohtEEsteh-stohm-bOHleetEE-stoh-pehrEEptehrOH",
+          "french": "Ρωτήστε στον πωλητή στο περίπτερο."
+        }
+      ]
+    },
+    {
+      "id": "kos_alikes_salt_lake_007",
+      "intent_en": "Rent mud scrub salt buckets",
+      "text_local": "Να νοικιάσω κουβάδες λάσπης-αλατιού;",
+      "pronunciation": "nah-neeAHsoh-koovAHthehz-lAHspeesAHlahteeOO",
+      "formality": "standard",
+      "cultural_note": "Ο αλατζίδικος αναφέρεται στους εργάτες των αλυκών που διαχειρίζονται τις πωλήσεις ενοικίασης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον αλατζίδικο.",
+        "pronunciation": "rohtEEsteh-stohn-AHlahdzEEtheekOH",
+        "translation_en": "Ask at the salt worker’s stand."
+      },
+      "responses": [
+        {
+          "english": "Ask at the salt worker’s stand.",
+          "phonetic": "rohtEEsteh-stohn-AHlahdzEEtheekOH",
+          "french": "Ρωτήστε στον αλατζίδικο."
+        }
+      ]
+    },
+    {
+      "id": "kos_alikes_salt_lake_008",
+      "intent_en": "How do I rent a mud scrub",
+      "text_local": "Πώς νοικιάζω τρίψιμο με λάσπη-αλάτι;",
+      "pronunciation": "pOHz-neeAHzoh-trEEpseemOH-meh-lAHspeeahlAHtee",
+      "formality": "standard",
+      "cultural_note": "Η ενοικίαση τρίψιμης γίνεται από τους εργάτες των αλυκών, οι οποίοι βρίσκονται κοντά στους σωρούς αλατιού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε τον αλατζίδικο εκεί.",
+        "pronunciation": "rohtEEsteh-tohn-AHlahdzEEtheekOH-ehEE",
+        "translation_en": "Ask the salt worker over there."
+      },
+      "responses": [
+        {
+          "english": "Ask the salt worker over there.",
+          "phonetic": "rohtEEsteh-tohn-AHlahdzEEtheekOH-ehEE",
+          "french": "Ρωτήστε τον αλατζίδικο εκεί."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

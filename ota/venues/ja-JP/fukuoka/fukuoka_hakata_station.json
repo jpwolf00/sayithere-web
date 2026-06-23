@@ -1,0 +1,144 @@
+{
+  "id": "fukuoka_hakata_station",
+  "name_en": "Hakata Station",
+  "name_local": "博多駅",
+  "icon": "tram",
+  "lat": 33.5900413,
+  "lon": 130.4199026,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "fukuoka_hakata_station_001",
+      "intent_en": "Where is the Kyushu Shinkansen platform?",
+      "text_local": "きゅうしゅうしんかんせんの のりばは どこですか？",
+      "pronunciation": "kOOooOOooEEngksEHnnoh-nOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff use platform numbers for Shinkansen. のりば means boarding platform.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき ひだり、11ばんのりばです。",
+        "pronunciation": "kOHnohsKee-kheedEEdzooEEtsee-bNnohEEbdEHsoo",
+        "translation_en": "Ahead on the left, platform 11."
+      },
+      "responses": [
+        {
+          "english": "Ahead on the left, platform 11.",
+          "phonetic": "kOHnohsKee-kheedEEdzooEEtsee-bNnohEEbdEHsoo",
+          "french": "このさき ひだり、11ばんのりばです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_hakata_station_002",
+      "intent_en": "Is there a luggage storage service?",
+      "text_local": "にもつあずかりは ありますか？",
+      "pronunciation": "nEEmohtsOOzOOkEEh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Large stations always have coin lockers (コインロッカー). Manned counters are rarer.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、コインロッカーが たくさんあります。",
+        "pronunciation": "hEEkOHeenohkkG-tKoosEEmSoo",
+        "translation_en": "Yes, there are many coin lockers."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are many coin lockers.",
+          "phonetic": "hEEkOHeenohkkG-tKoosEEmSoo",
+          "french": "はい、コインロッカーが たくさんあります。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_hakata_station_003",
+      "intent_en": "Which exit for Hankyu Department Store?",
+      "text_local": "はんきゅうデパートは どの でぐちですか？",
+      "pronunciation": "hNGkooOOdehptOHh-dOHnoh-dEHgootEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Department stores attached to stations often have a dedicated or nearest named exit.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ひがしでぐちです。すぐ つながっています。",
+        "pronunciation": "khEEgEEdehgOOteedEHsoosOOgoo-tsOOngTteheemSoo",
+        "translation_en": "It's the East exit. It's directly connected."
+      },
+      "responses": [
+        {
+          "english": "It's the East exit. It's directly connected.",
+          "phonetic": "khEEgEEdehgOOteedEHsoosOOgoo-tsOOngTteheemSoo",
+          "french": "ひがしでぐちです。すぐ つながっています。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_hakata_station_004",
+      "intent_en": "Where is the JR Kyushu ticket office?",
+      "text_local": "JRきゅうしゅうの きっぷうりばは どこですか？",
+      "pronunciation": "ehndzhAY-AHyah-kEE-OO-OO-EE-OO-OO-nOH-kEEppooooeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The ticket office is commonly called みどりのまどぐち, but きっぷうりば is also understood.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ちゅうおうかいさつぐちの となりです。",
+        "pronunciation": "tOOooOHookEEsTsoogootEEnoh-tOHneedEHsoo",
+        "translation_en": "Next to the central ticket gate."
+      },
+      "responses": [
+        {
+          "english": "Next to the central ticket gate.",
+          "phonetic": "tOOooOHookEEsTsoogootEEnoh-tOHneedEHsoo",
+          "french": "ちゅうおうかいさつぐちの となりです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_hakata_station_005",
+      "intent_en": "How do I top up my IC card?",
+      "text_local": "ICカードに チャージしたいです。",
+      "pronunciation": "ehnEYE-sEEyah-k-EHndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-nEE-tDeeEEteedEHsoo",
+      "formality": "standard",
+      "cultural_note": "チャージ (charge) is the standard term for top-up. Machines are color-coded by railway company.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あおい きかいです。げんきんを いれてください。",
+        "pronunciation": "OHee-kEEkeedEHsoogEHngkeeOH-EEehtEHkoodsEE",
+        "translation_en": "It's the blue machine. Please insert cash."
+      },
+      "responses": [
+        {
+          "english": "It's the blue machine. Please insert cash.",
+          "phonetic": "OHee-kEEkeedEHsoogEHngkeeOH-EEehtEHkoodsEE",
+          "french": "あおい きかいです。げんきんを いれてください。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_hakata_station_006",
+      "intent_en": "When does the Hakataminami Line depart?",
+      "text_local": "はかたみなみせんは なんじに でますか？",
+      "pronunciation": "hKtMeenMeesehH-nDEEnee-dEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Local lines often use 24-hour time in announcements. Staff give the next immediate departure.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "つぎは 14じ12ぷんです。",
+        "pronunciation": "tsoogEEh-dzOOsee-dEE-dzOOnee-poondEHsoo",
+        "translation_en": "The next one is at 14:12."
+      },
+      "responses": [
+        {
+          "english": "The next one is at 14:12.",
+          "phonetic": "tsoogEEh-dzOOsee-dEE-dzOOnee-poondEHsoo",
+          "french": "つぎは 14じ12ぷんです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

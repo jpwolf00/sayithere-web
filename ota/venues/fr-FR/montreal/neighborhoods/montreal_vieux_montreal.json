@@ -1,0 +1,112 @@
+{
+  "id": "montreal_neighborhood_vieux_montreal",
+  "name_en": "Old Montréal",
+  "name_local": "Vieux-Montréal",
+  "icon": "building.2",
+  "lat": 45.5046,
+  "lon": -73.5541,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "mtl_vieux_001",
+      "intent_en": "Ask for directions to the basilica",
+      "text_local": "Excusez-moi, c'est par où la basilique Notre-Dame ?",
+      "pronunciation": "ex-koo-ZAY mwah, say par OO lah bah-zee-LEEK notr-DAHM",
+      "formality": "polite",
+      "cultural_note": "Notre-Dame Basilica is the crown jewel of Vieux-Montréal. The cobblestoned streets of the old city were built over French colonial foundations dating to 1642.",
+      "responses": [
+        {
+          "english": "It's just down the street, on the right.",
+          "phonetic": "bawn-ZHOOR, OO ay la PLAHS zha-kar-TYAY",
+          "french": "C'est juste en bas de la rue, à droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_vieux_002",
+      "intent_en": "Ask where the Old Port waterfront is",
+      "text_local": "Le Vieux-Port, c'est de quel côté ?",
+      "pronunciation": "luh vyuh-POR say duh kel ko-TAY",
+      "formality": "neutral",
+      "cultural_note": "The Vieux-Port is a revitalized waterfront along the St. Lawrence River with cycling, inline skating, and the Science Centre.",
+      "responses": [
+        {
+          "english": "It's towards the south, just go down Saint-Paul street.",
+          "phonetic": "luh VYUH por SEST duh kel koh-TAY",
+          "french": "C'est vers le sud, descendez simplement la rue Saint-Paul."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_vieux_003",
+      "intent_en": "Ask a calèche driver for a carriage ride price",
+      "text_local": "C'est combien pour une promenade en calèche ?",
+      "pronunciation": "say kom-bee-YAN poor OON prom-NAHD ahn kah-LESH",
+      "formality": "neutral",
+      "cultural_note": "Horse-drawn calèche rides depart from Place d'Armes. Agree on price before boarding. They're a charming but debated tradition.",
+      "responses": [
+        {
+          "english": "Twenty-five dollars per person for one hour.",
+          "phonetic": "bawn-ZHOOR kawn-BYEN koot oon proh-muh-NAHD awn ka-LESH",
+          "french": "Vingt-cinq dollars par personne pour une heure."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_vieux_004",
+      "intent_en": "Ask which street has the best restaurants",
+      "text_local": "Quelle rue a les meilleurs restos dans le Vieux ?",
+      "pronunciation": "kel ROO ah lay may-YUR res-TOH dahn luh VYUH",
+      "formality": "informal",
+      "cultural_note": "'Resto' is the common Québécois shorthand for restaurant. Rue Saint-Paul and Rue Notre-Dame offer the most varied dining in Old Montréal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "mtl_vieux_005",
+      "intent_en": "Ask about a ghost tour of Old Montréal",
+      "text_local": "Est-ce qu'il y a des visites fantômes dans le Vieux-Montréal ?",
+      "pronunciation": "ess-KEEL ee ah day vee-ZEET fahn-TOHM dahn luh vyuh mon-ray-AHL",
+      "formality": "polite",
+      "cultural_note": "Several companies offer evening ghost tours of Old Montréal in both French and English. The neighbourhood's 400-year history makes for great stories.",
+      "responses": [
+        {
+          "english": "Yes, departures are in front of the basilica every evening.",
+          "phonetic": "ES suh kee GREK ah day VEE-zit fahn-TOHM daw(n) luh VYUH mon-ree-AL",
+          "french": "Oui, les départs se font devant la basilique chaque soir."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "old port",
+      "word_local": "le Vieux-Port",
+      "pronunciation": "luh vyuh-POR"
+    },
+    {
+      "word_en": "horse-drawn carriage",
+      "word_local": "la calèche",
+      "pronunciation": "lah kah-LESH"
+    },
+    {
+      "word_en": "cobblestone street",
+      "word_local": "la rue pavée",
+      "pronunciation": "lah ROO pah-VAY"
+    },
+    {
+      "word_en": "restaurant (informal)",
+      "word_local": "le resto",
+      "pronunciation": "luh res-TOH"
+    }
+  ]
+}

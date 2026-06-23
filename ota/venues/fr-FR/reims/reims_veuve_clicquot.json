@@ -1,0 +1,105 @@
+{
+  "id": "reims_veuve_clicquot",
+  "name_en": "Champagne Veuve Clicquot",
+  "name_local": "Champagne Veuve Clicquot",
+  "icon": "wineglass",
+  "phrases": [
+    {
+      "id": "clicquot_visite",
+      "intent_en": "I have a reservation for the cellar tour.",
+      "text_local": "J'ai une réservation pour la visite des caves.",
+      "pronunciation": "zhay ewn ray-zair-vah-SYON poor lah vee-ZEET day KAV",
+      "formality": "polite",
+      "cultural_note": "Veuve Clicquot's historic cellars in Reims span 24km of tunnels. The house was founded in 1772 and became famous under the Widow (Veuve) Clicquot's leadership.",
+      "responses": [
+        {
+          "english": "Yes, your name please.",
+          "phonetic": "wee VOH-truh NOHN seel voo PLAY",
+          "french": "Oui, votre nom s'il vous plaît."
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    },
+    {
+      "id": "clicquot_etiquette",
+      "intent_en": "Is tasting included in the tour price?",
+      "text_local": "La dégustation est incluse dans le prix de la visite ?",
+      "pronunciation": "lah day-goos-tah-SYOHN eh tahn-KLOOZ dahn luh PREE duh lah vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "Most champagne house tours include at least one glass of champagne.",
+      "responses": [
+        {
+          "english": "Yes, one glass is included.",
+          "phonetic": "wee oon KOOP eh tahn-KLOOZ",
+          "french": "Oui, une coupe est incluse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_vc_rei_x1",
+      "intent_en": "Ask how to book a cellar tour at Veuve Clicquot",
+      "text_local": "Comment réserver une visite des caves Veuve Clicquot ?",
+      "pronunciation": "koh-MAHN ray-zur-VAY oon vee-ZEET day kahv vuv klee-KOH",
+      "formality": "polite",
+      "cultural_note": "Veuve Clicquot was founded in 1772; it was the iconic Widow Clicquot who perfected riddling and invented the modern champagne cellar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Via their website or by phone.",
+          "phonetic": "par lur SEET an-tair-NET oo par tay-lay-FOHN.",
+          "french": "Par leur site internet ou par téléphone."
+        }
+      ]
+    },
+    {
+      "id": "fr_vc_rei_x2",
+      "intent_en": "Ask what makes Veuve Clicquot Yellow Label different",
+      "text_local": "Qu'est-ce qui distingue le Yellow Label Veuve Clicquot ?",
+      "pronunciation": "kes kee dees-TAN-guh luh YEL-oh LAY-bel vuv klee-KOH",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Its blend of Pinot Noir and its richness on the palate.",
+          "phonetic": "son ah-sahm-BLAHZH duh pee-NOH NWAR ay sah ree-SHES ahn BOOSH.",
+          "french": "Son assemblage de Pinot Noir et sa richesse en bouche."
+        }
+      ]
+    },
+    {
+      "id": "fr_vc_rei_x3",
+      "intent_en": "Ask where the boutique is",
+      "text_local": "Où se trouve la boutique Veuve Clicquot ?",
+      "pronunciation": "oo suh TROOV lah boo-TEEK vuv klee-KOH",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the entrance to the estate, on your right.",
+          "phonetic": "ah lahn-TRAY doo doh-MEN, soor votr DRWAT.",
+          "french": "À l'entrée du domaine, sur votre droite."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "widow (the brand name means 'The Widow Clicquot')",
+      "word_local": "la veuve",
+      "pronunciation": "lah VUV"
+    },
+    {
+      "word_en": "riddling rack (used to clarify champagne)",
+      "word_local": "le pupitre",
+      "pronunciation": "luh pew-PEE-truh"
+    }
+  ]
+}

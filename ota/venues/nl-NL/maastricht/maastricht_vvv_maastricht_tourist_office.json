@@ -1,0 +1,100 @@
+{
+  "id": "maastricht_vvv_maastricht_tourist_office",
+  "name_en": "VVV Maastricht Tourist Office",
+  "name_local": "VVV Maastricht",
+  "icon": "info.circle",
+  "lat": 50.8484,
+  "lon": 5.6881,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "maastricht_vvv_maastricht_tourist_office_001",
+      "intent_en": "Ask if Maastricht Underground can be booked here",
+      "text_local": "Kan ik de Maastricht Underground hier boeken?",
+      "pronunciation": "kahn-ihk-duh-mAHstrihkht-NduhrghrUHuhnt-hEEr-bOOkuhn",
+      "formality": "standard",
+      "cultural_note": "De VVV is een erkend toeristenbureau dat tickets voor lokale attracties verkoopt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, VVV verstrekt tickets.",
+        "pronunciation": "yAHfEHfEHfEH-vuhrstrEHk-tIHkehts",
+        "translation_en": "Yes, VVV provides tickets."
+      },
+      "responses": [
+        {
+          "english": "Yes, VVV provides tickets.",
+          "phonetic": "yAHfEHfEHfEH-vuhrstrEHk-tIHkehts",
+          "french": "Ja, VVV verstrekt tickets."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vvv_maastricht_tourist_office_002",
+      "intent_en": "Ask where the Kazematten tour desk is",
+      "text_local": "Waar is de balie voor Kazematten tours?",
+      "pronunciation": "vAHr-ihs-duh-bahlEE-vawr-kAHzuhmAHtuhn-tOOrs",
+      "formality": "standard",
+      "cultural_note": "'Medewerker' is een neutrale term voor servicepersoneel in Nederland.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de VVV medewerker.",
+        "pronunciation": "vrAHkh-huht-behih-duh-fEHfEHfEH-mEHduhvEHrkuhr",
+        "translation_en": "Ask the VVV staff."
+      },
+      "responses": [
+        {
+          "english": "Ask the VVV staff.",
+          "phonetic": "vrAHkh-huht-behih-duh-fEHfEHfEH-mEHduhvEHrkuhr",
+          "french": "Vraag het bij de VVV medewerker."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vvv_maastricht_tourist_office_003",
+      "intent_en": "Ask where to pick up event tickets",
+      "text_local": "Waar haal ik mijn kaartjes voor evenementen op?",
+      "pronunciation": "vAHr-hAHl-ihk-mehihn-kAHrtuhs-vawr-EHvuhnuhmEHntuhn-AWp",
+      "formality": "casual",
+      "cultural_note": "In Nederland is 'balie' een algemene term voor een informatie- of afhaalpunt, vaak zonder verdere specificatie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de VVV balie.",
+        "pronunciation": "behih-duh-fEHfEHfEH-bahlEE",
+        "translation_en": "At the VVV desk."
+      },
+      "responses": [
+        {
+          "english": "At the VVV desk.",
+          "phonetic": "behih-duh-fEHfEHfEH-bahlEE",
+          "french": "Bij de VVV balie."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_vvv_maastricht_tourist_office_004",
+      "intent_en": "Ask if souvenir payment is card or cash",
+      "text_local": "Kan ik souvenirs pinnen of alleen contant betalen?",
+      "pronunciation": "kahn-ihk-sUHuhvuhnIHrs-pIHnuhn-awf-ahlEHn-kawntAHnt-buhtAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Nederland is pinnen (contactloos of met pinpas) de standaard, maar contant is niet ongewoon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pinnen of contant, vraag bij de balie.",
+        "pronunciation": "pIHnuhn-awf-kawntAHntvrAHkh-behih-duh-bahlEE",
+        "translation_en": "Card or cash, ask at the desk."
+      },
+      "responses": [
+        {
+          "english": "Card or cash, ask at the desk.",
+          "phonetic": "pIHnuhn-awf-kawntAHntvrAHkh-behih-duh-bahlEE",
+          "french": "Pinnen of contant, vraag bij de balie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

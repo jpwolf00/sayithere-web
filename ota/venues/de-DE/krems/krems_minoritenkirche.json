@@ -1,0 +1,56 @@
+{
+  "id": "krems_minoritenkirche",
+  "name_en": "Minoritenkirche",
+  "name_local": "Minoritenkirche Krems",
+  "icon": "building.columns",
+  "lat": 48.4037914,
+  "lon": 15.5852014,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "krems_minoritenkirche_001",
+      "intent_en": "Ask where the Italian chapel remains are",
+      "text_local": "Wo sind die Überreste der italienischen Kapelle?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-UEbrEHstuh-dehr-EEtahlihEHnihshuhn-kahpEHluh",
+      "formality": "standard",
+      "cultural_note": "Italian chapel remains are a niche feature; guided services are provided by the Italian congregation guide.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Chorbereich, links vom Hauptportal.",
+        "pronunciation": "ihm-kAWrbuhrEYEkhlINGks-fawm-hOWptpawrtAHl",
+        "translation_en": "In the choir area, left of the main portal."
+      },
+      "responses": [
+        {
+          "english": "In the choir area, left of the main portal.",
+          "phonetic": "ihm-kAWrbuhrEYEkhlINGks-fawm-hOWptpawrtAHl",
+          "french": "Im Chorbereich, links vom Hauptportal."
+        }
+      ]
+    },
+    {
+      "id": "krems_minoritenkirche_002",
+      "intent_en": "Ask where the Maria Schnee altar is",
+      "text_local": "Wo steht der Maria-Schnee-Altar?",
+      "pronunciation": "vOH-shtEHt-dehr-mahrEEahshnEHahltAHr",
+      "formality": "standard",
+      "cultural_note": "Main portal is a prominent stable target; altars are often placed near entrances in historic churches.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Neben dem Hauptportal.",
+        "pronunciation": "nEHbuhn-dehm-hOWptpawrtAHl",
+        "translation_en": "Next to the main portal."
+      },
+      "responses": [
+        {
+          "english": "Next to the main portal.",
+          "phonetic": "nEHbuhn-dehm-hOWptpawrtAHl",
+          "french": "Neben dem Hauptportal."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

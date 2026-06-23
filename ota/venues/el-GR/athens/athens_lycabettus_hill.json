@@ -1,0 +1,56 @@
+{
+  "id": "athens_lycabettus_hill",
+  "name_en": "Lycabettus Hill",
+  "name_local": "Λυκαβηττός",
+  "icon": "leaf",
+  "lat": 37.9803157,
+  "lon": 23.7440055,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "athens_lycabettus_hill_001",
+      "intent_en": "Where can I buy theatre show tickets",
+      "text_local": "Πού μπορώ να αγοράσω εισιτήρια θεάτρου;",
+      "pronunciation": "pOO-bohrOH-n-AHghohrAHsoh-EEseetEEreeAH-thehAHtroo",
+      "formality": "polite",
+      "cultural_note": "Τα εισιτήρια θεάτρου πωλούνται αποκλειστικά από τον εκδοτήριο του θεάτρου. Η χρήση του σωστού όρου (box office) είναι σημαντική στην ελληνική ορολογία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο του θεάτρου, δίπλα στην είσοδο.",
+        "pronunciation": "stoh-tahmEEoh-too-thehAHtroothEEplah-steen-EEsohthOH",
+        "translation_en": "At the theatre box office, next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the theatre box office, next to the entrance.",
+          "phonetic": "stoh-tahmEEoh-too-thehAHtroothEEplah-steen-EEsohthOH",
+          "french": "Στο ταμείο του θεάτρου, δίπλα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "athens_lycabettus_hill_002",
+      "intent_en": "Where is funicular entrance on Aristippou",
+      "text_local": "Πού είναι η είσοδος του τελεφερίκ;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-too-tEHlehfehrEEk",
+      "formality": "standard",
+      "cultural_note": "Η οδός Αρίστιππου αναφέρεται ως τερματικός σταθμός του Λυκαβηττού. Οι ντόπιοι προτιμούν την λιτή αναφορά στη γνωστή θέση χωρίς υπερβολικές λεπτομέρειες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην οδό Αρίστιππου.",
+        "pronunciation": "steen-ohthOH-ahrEEsteepOO",
+        "translation_en": "On Aristippou Street."
+      },
+      "responses": [
+        {
+          "english": "On Aristippou Street.",
+          "phonetic": "steen-ohthOH-ahrEEsteepOO",
+          "french": "Στην οδό Αρίστιππου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

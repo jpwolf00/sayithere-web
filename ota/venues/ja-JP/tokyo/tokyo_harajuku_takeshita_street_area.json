@@ -1,0 +1,122 @@
+{
+  "id": "tokyo_harajuku_takeshita_street_area",
+  "name_en": "Harajuku Takeshita Street area",
+  "name_local": "原宿竹下通り周辺",
+  "icon": "map",
+  "lat": 35.6817085,
+  "lon": 139.7679651,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "tokyo_harajuku_takeshita_street_area_001",
+      "intent_en": "Is there a coin change machine nearby?",
+      "text_local": "ちかくに りょうがえきは ありますか？",
+      "pronunciation": "tEEkkOOnee-OHOOgehkEEh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Coin change machines for purikura are typically found inside the game center, not on the street.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ゲームセンターの おくに あります。",
+        "pronunciation": "gEHehmoosehntNoh-ohkOOnee-EEmSoo",
+        "translation_en": "It's in the back of the game center."
+      },
+      "responses": [
+        {
+          "english": "It's in the back of the game center.",
+          "phonetic": "gEHehmoosehntNoh-ohkOOnee-EEmSoo",
+          "french": "ゲームセンターの おくに あります。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_harajuku_takeshita_street_area_002",
+      "intent_en": "Do crepe stands take credit cards?",
+      "text_local": "カードで はらえますか？",
+      "pronunciation": "kdOHdeh-hEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many street food stalls in Japan are cash-only, even in trendy areas.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "すみません、げんきんのみです。",
+        "pronunciation": "sOOmeemSehgEHngkeennOHmeedEHsoo",
+        "translation_en": "Sorry, cash only."
+      },
+      "responses": [
+        {
+          "english": "Sorry, cash only.",
+          "phonetic": "sOOmeemSehgEHngkeennOHmeedEHsoo",
+          "french": "すみません、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_harajuku_takeshita_street_area_003",
+      "intent_en": "Which way to Cat Street?",
+      "text_local": "キャットストリートは どっちですか？",
+      "pronunciation": "kTtohsOOtoheetOHh-dOHtteedehsOOk",
+      "formality": "standard",
+      "cultural_note": "Cat Street runs parallel to Takeshita; a right turn from the main drag is a common access point.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさきを みぎです。",
+        "pronunciation": "kOHnohskEEoh-mEEgeedEHsoo",
+        "translation_en": "It's a right turn just ahead."
+      },
+      "responses": [
+        {
+          "english": "It's a right turn just ahead.",
+          "phonetic": "kOHnohskEEoh-mEEgeedEHsoo",
+          "french": "このさきを みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_harajuku_takeshita_street_area_004",
+      "intent_en": "How do I queue for fitting room?",
+      "text_local": "しちゃくしつの ならびかたは？",
+      "pronunciation": "EEtkOOeetsOOnoh-nBEEktH",
+      "formality": "standard",
+      "cultural_note": "A simple queue by the fitting room curtain is standard in smaller boutiques.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "カーテンの まえに ならんで おまちください。",
+        "pronunciation": "ktEHnnoh-mEHnee-nNdeh-OHmtEEkoodsEE",
+        "translation_en": "Please line up in front of the curtain."
+      },
+      "responses": [
+        {
+          "english": "Please line up in front of the curtain.",
+          "phonetic": "ktEHnnoh-mEHnee-nNdeh-OHmtEEkoodsEE",
+          "french": "カーテンの まえに ならんで おまちください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_harajuku_takeshita_street_area_005",
+      "intent_en": "Where is the purikura photo booth?",
+      "text_local": "プリクラは どこですか？",
+      "pronunciation": "pOOeekooH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Purikura booths are often on upper floors of game centers; pointing is common.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あの かいだんの うえですよ。",
+        "pronunciation": "Noh-kEEdNnoh-OOehdehsOOyoh",
+        "translation_en": "It's up those stairs."
+      },
+      "responses": [
+        {
+          "english": "It's up those stairs.",
+          "phonetic": "Noh-kEEdNnoh-OOehdehsOOyoh",
+          "french": "あの かいだんの うえですよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

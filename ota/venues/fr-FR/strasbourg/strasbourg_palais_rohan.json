@@ -1,0 +1,118 @@
+{
+  "id": "strasbourg_palais_rohan",
+  "name_en": "Palais Rohan",
+  "name_local": "Palais Rohan",
+  "icon": "building.columns",
+  "lat": 48.5786,
+  "lon": 7.7593,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "strasbourg_rohan_001",
+      "intent_en": "Ask about the three museums",
+      "text_local": "Quels musées y a-t-il dans le Palais Rohan ?",
+      "pronunciation": "kel moo-ZAY ee ah-TEEL dans leh pah-LAY roh-AHN",
+      "formality": "polite",
+      "cultural_note": "The Palais Rohan houses three museums: Beaux-Arts (paintings), Archéologique (archaeology), and Arts Décoratifs (decorative arts).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Fine Arts, Archaeological, and Decorative Arts. Three museums.",
+          "phonetic": "wee, say tah lay-TAZH, dahn lay sal doo oh",
+          "french": "Beaux-Arts, Archéologique et Arts Décoratifs. Trois musées."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_rohan_002",
+      "intent_en": "Ask about the wine museum",
+      "text_local": "Où est le Musée du Vin ?",
+      "pronunciation": "oo eh leh moo-ZAY doo VAN",
+      "formality": "polite",
+      "cultural_note": "Strasbourg is the capital of Alsace wine country. The Musée du Vin teaches about Riesling, Gewürztraminer, and other local varieties.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's not here. Ask at the tourist office.",
+          "phonetic": "wee, say tah lay-TAZH, dahn lay sal doo oh",
+          "french": "Il n'est pas ici. Renseignez-vous à l'office de tourisme."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_rohan_003",
+      "intent_en": "Ask about the cathedral museum",
+      "text_local": "Où est le Musée de l'Œuvre Notre-Dame ?",
+      "pronunciation": "oo eh leh moo-ZAY duh luhV ruh not-ruh-DAM",
+      "formality": "polite",
+      "cultural_note": "This museum houses the original cathedral statues. The originals were replaced by replicas to protect them from weather damage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Not here, but next to the cathedral, a two-minute walk.",
+          "phonetic": "wee, say tah lay-TAZH, dahn lay sal doo oh",
+          "french": "Pas ici, mais à côté de la cathédrale, à deux minutes à pied."
+        }
+      ]
+    },
+    {
+      "id": "fr_roh_str_x1",
+      "intent_en": "Ask which museums are inside the Palais Rohan",
+      "text_local": "Quels musées sont installés dans le Palais Rohan ?",
+      "pronunciation": "kel moo-ZAY son tan-stah-LAY dahn luh pah-LAY roh-AHN",
+      "formality": "polite",
+      "cultural_note": "The Palais Rohan houses three museums: the Musée des Arts Décoratifs, the Musée des Beaux-Arts and the Musée Archéologique.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Decorative arts, fine arts and archaeology.",
+          "phonetic": "lay zar day-koh-rah-TEEF, lay boh-ZAR ay lar-kay-oh-loh-ZHEE.",
+          "french": "Les arts décoratifs, les beaux-arts et l'archéologie."
+        }
+      ]
+    },
+    {
+      "id": "fr_roh_str_x2",
+      "intent_en": "Ask if one ticket covers all three museums",
+      "text_local": "Un seul billet donne-t-il accès aux trois musées ?",
+      "pronunciation": "uhn SUL bee-YAY dohn-TEEL ak-SAY oh TRWAH moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, a combined ticket is available at reception.",
+          "phonetic": "wee, uhn bee-YAY kom-bee-NAY ay dees-poh-NEEBL ah lah-KUY.",
+          "french": "Oui, un billet combiné est disponible à l'accueil."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "palace",
+      "word_local": "le palais",
+      "pronunciation": "leh pah-LAY"
+    },
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "leh moo-ZAY"
+    },
+    {
+      "word_en": "wine",
+      "word_local": "le vin",
+      "pronunciation": "leh VAN"
+    },
+    {
+      "word_en": "fine arts",
+      "word_local": "les beaux-arts",
+      "pronunciation": "lay boh-ZAR"
+    }
+  ]
+}

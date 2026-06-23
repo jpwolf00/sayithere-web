@@ -1,0 +1,122 @@
+{
+  "id": "rotterdam_cube_houses",
+  "name_en": "Cube Houses",
+  "name_local": "Kubuswoningen",
+  "icon": "building.columns",
+  "lat": 51.9203941,
+  "lon": 4.4901272,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "rotterdam_cube_houses_001",
+      "intent_en": "Where should I be quiet for residents?",
+      "text_local": "Waar moet ik stil zijn voor bewoners?",
+      "pronunciation": "vAHr-mOOt-ihk-stIHl-zehihn-vawr-buhvOHnuhrs",
+      "formality": "standard",
+      "cultural_note": "The street name is a stable cue for the quiet zone reference.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Blijf op de openbare paden en maak geen foto's in de privé-kubussen.",
+        "pronunciation": "blEHihf-awp-duh-OHpuhnbAHruh-pAHduhn-ehn-mAHk-ghEHn-fOHtohs-ihn-duh-preevEHkUEbsuhn",
+        "translation_en": "Stay on the public paths and do not take photos in the private cubes."
+      },
+      "responses": [
+        {
+          "english": "Stay on the public paths and do not take photos in the private cubes.",
+          "phonetic": "blEHihf-awp-duh-OHpuhnbAHruh-pAHduhn-ehn-mAHk-ghEHn-fOHtohs-ihn-duh-preevEHkUEbsuhn",
+          "french": "Blijf op de openbare paden en maak geen foto's in de privé-kubussen."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_cube_houses_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Mag ik in een kubuswoning overnachten?",
+      "pronunciation": "mahkh-ihk-ihn-uhn-kUEbsvOHning-OHvuhrnAHkhtuhn",
+      "formality": "polite",
+      "cultural_note": "Sommige kubuswoningen zijn verhuurd als hotelkamers via StayOkay.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, via Booking.com of de website van StayOkay.",
+        "pronunciation": "yAHvEEah-bOHking-pNt-kAWm-awf-duh-ehnwEHbseyetnl-vahn-stAHy-OHkahy",
+        "translation_en": "Yes, via Booking.com or the StayOkay website."
+      },
+      "responses": [
+        {
+          "english": "Yes, via Booking.com or the StayOkay website.",
+          "phonetic": "yAHvEEah-bOHking-pNt-kAWm-awf-duh-ehnwEHbseyetnl-vahn-stAHy-OHkahy",
+          "french": "Ja, via Booking.com of de website van StayOkay."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_cube_houses_003",
+      "intent_en": "Where is the Kijk-Kubus entrance?",
+      "text_local": "Waar is de ingang van de Kijk-Kubus?",
+      "pronunciation": "vAHr-ihs-duh-IHnghAHng-vahn-duh-kEHihkkUEbs",
+      "formality": "standard",
+      "cultural_note": "Locals expect a direct reference to the landmark itself for entrance location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De ingang van de Kijk-Kubus is aan de Overblaakstraat, bij de zeshoekige pilaar.",
+        "pronunciation": "duh-IHnghAHng-vahn-duh-kEHihkkUEbs-ihs-ahn-duh-OHvuhrblAHkstrahtbehih-duh-zehshOOkuhghuh-pIHlahr",
+        "translation_en": "The entrance of the Kijk-Kubus is on Overblaak Street, at the hexagonal pylon."
+      },
+      "responses": [
+        {
+          "english": "The entrance of the Kijk-Kubus is on Overblaak Street, at the hexagonal pylon.",
+          "phonetic": "duh-IHnghAHng-vahn-duh-kEHihkkUEbs-ihs-ahn-duh-OHvuhrblAHkstrahtbehih-duh-zehshOOkuhghuh-pIHlahr",
+          "french": "De ingang van de Kijk-Kubus is aan de Overblaakstraat, bij de zeshoekige pilaar."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_cube_houses_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Is de souvenirwinkel in de Kijk-Kubus?",
+      "pronunciation": "ihs-duh-sUHuhvuhnIHrvingkEHl-ihn-duh-kEHihkkUEbs",
+      "formality": "standard",
+      "cultural_note": "De souvenirwinkel bevindt zich op de begane grond van de Kijk-Kubus.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, beneden in de Kijk-Kubus.",
+        "pronunciation": "yAHbuhnEHduhn-ihn-duh-kEHihkkUEbs",
+        "translation_en": "Yes, downstairs in the Kijk-Kubus."
+      },
+      "responses": [
+        {
+          "english": "Yes, downstairs in the Kijk-Kubus.",
+          "phonetic": "yAHbuhnEHduhn-ihn-duh-kEHihkkUEbs",
+          "french": "Ja, beneden in de Kijk-Kubus."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_cube_houses_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Hoe boek ik een rondleiding?",
+      "pronunciation": "hOO-bOOk-ihk-uhn-rAWndlehihdING",
+      "formality": "standard",
+      "cultural_note": "Rondleidingen voor de Kubuswoningen kunnen online geboekt worden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Reserveer online via de website van de Kijk-Kubus.",
+        "pronunciation": "rEHzuhrvIHr-ehnNleyennl-vEEah-duh-ehnwEHbseyetnl-vahn-duh-kEHihkkUEbs",
+        "translation_en": "Book online via the Kijk-Kubus website."
+      },
+      "responses": [
+        {
+          "english": "Book online via the Kijk-Kubus website.",
+          "phonetic": "rEHzuhrvIHr-ehnNleyennl-vEEah-duh-ehnwEHbseyetnl-vahn-duh-kEHihkkUEbs",
+          "french": "Reserveer online via de website van de Kijk-Kubus."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "bodrum_limon_gümüşlük",
+  "name_en": "Limon Gümüşlük",
+  "name_local": "Limon Restaurant",
+  "icon": "fork.knife",
+  "lat": 37.059411,
+  "lon": 27.2362635,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bodrum_limon_gümüşlük_001",
+      "intent_en": "Is the sunset terrace available now?",
+      "text_local": "Gün batımı terası şu an müsait mi?",
+      "pronunciation": "UHn-bAHtoomoo-tehrahsOO-shuh-AHn-muesahIHt-mih",
+      "formality": "standard",
+      "cultural_note": "Teras doluluk durumu anlık değişir, kesin bilgi için personelden teyit alın.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gün batımı terası açık, ancak güneş batışına yakın yoğun olabilir.",
+        "pronunciation": "UHn-bAHtoomoo-tehrahsOO-ahtshOOkahndzhAHk-uenEHsh-bahtooshoonAH-yahkOOn-yohUHn-ohahbeelIHr",
+        "translation_en": "The sunset terrace is open, but it can be busy close to sunset."
+      },
+      "responses": [
+        {
+          "english": "The sunset terrace is open, but it can be busy close to sunset.",
+          "phonetic": "UHn-bAHtoomoo-tehrahsOO-ahtshOOkahndzhAHk-uenEHsh-bahtooshoonAH-yahkOOn-yohUHn-ohahbeelIHr",
+          "french": "Gün batımı terası açık, ancak güneş batışına yakın yoğun olabilir."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_limon_gümüşlük_002",
+      "intent_en": "Can I pay by credit card?",
+      "text_local": "Kredi kartıyla ödeme yapabilir miyim?",
+      "pronunciation": "krehdIH-kahrtOOyah-uhdEHmeh-yahpahbeelIHr-mEEyihm",
+      "formality": "polite",
+      "cultural_note": "Türkiye'de kredi kartı yaygındır ancak küçük işletmelerde nakit istenebilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, kasada kredi kartı geçerlidir.",
+        "pronunciation": "ehvEHtkAHsahdah-krehdIH-kahrtOO-ehtshehrlEEdihr",
+        "translation_en": "Yes, credit card is accepted at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, credit card is accepted at the cashier.",
+          "phonetic": "ehvEHtkAHsahdah-krehdIH-kahrtOO-ehtshehrlEEdihr",
+          "french": "Evet, kasada kredi kartı geçerlidir."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_limon_gümüşlük_003",
+      "intent_en": "Where is the meze selection displayed?",
+      "text_local": "Mezeler nerede sergileniyor?",
+      "pronunciation": "mehzEH-sEHtsheemih-nEHrehdeh-sehreelehnEEyawr",
+      "formality": "standard",
+      "cultural_note": "Meze seçimi genellikle tezgah üzerinden veya garson eşliğinde yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tezgahın üstünde.",
+        "pronunciation": "tehzgahhOOn-uhstuhndEH",
+        "translation_en": "It's on the counter."
+      },
+      "responses": [
+        {
+          "english": "It's on the counter.",
+          "phonetic": "tehzgahhOOn-uhstuhndEH",
+          "french": "Tezgahın üstünde."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

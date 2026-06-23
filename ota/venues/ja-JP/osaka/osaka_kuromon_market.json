@@ -1,0 +1,100 @@
+{
+  "id": "osaka_kuromon_market",
+  "name_en": "Kuromon Market",
+  "name_local": "黒門市場",
+  "icon": "cart",
+  "lat": 34.6657953,
+  "lon": 135.5070154,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "osaka_kuromon_market_001",
+      "intent_en": "Where is Iseya shop?",
+      "text_local": "いせやは どこですか？",
+      "pronunciation": "EEsehyH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In crowded markets, vendors often give simple left/right directions rather than pointing with a finger, which can be considered slightly rude.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、 みぎがわです。",
+        "pronunciation": "mssOOgoo-EEttehmEEgeegWdEHsoo",
+        "translation_en": "Go straight, it's on the right side."
+      },
+      "responses": [
+        {
+          "english": "Go straight, it's on the right side.",
+          "phonetic": "mssOOgoo-EEttehmEEgeegWdEHsoo",
+          "french": "まっすぐ いって、 みぎがわです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kuromon_market_002",
+      "intent_en": "Do stalls take cards?",
+      "text_local": "カードは つかえますか？",
+      "pronunciation": "kdOHh-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many traditional market stalls in Japan are cash-only. It's best to carry enough small bills and coins.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "げんきんのみです。",
+        "pronunciation": "gEHngkeennOHmeedEHsoo",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "gEHngkeennOHmeedEHsoo",
+          "french": "げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kuromon_market_003",
+      "intent_en": "Where is Gonohe chicken?",
+      "text_local": "ごのへの とりにくは どこですか？",
+      "pronunciation": "gOHnohhEHnoh-tOHeeneekOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Vendors in markets often use landmarks like the end of an alley (つきあたり) to give directions in crowded, narrow spaces.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "つきあたりを ひだりです。",
+        "pronunciation": "tsOOkeeTEEoh-khEEdeedEHsoo",
+        "translation_en": "At the end of the lane, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the end of the lane, on the left.",
+          "phonetic": "tsOOkeeTEEoh-khEEdeedEHsoo",
+          "french": "つきあたりを ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kuromon_market_004",
+      "intent_en": "How do I order takoyaki count?",
+      "text_local": "たこやきの かずは どうやって ちゅうもんしますか？",
+      "pronunciation": "tKohykEEnoh-kzOOh-dOHooyTteh-tOOoomOHEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At street food stalls, you typically just state the number of pieces you want (e.g., 'むっつ' for six) or point to the number on the price board.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かずを いってください。 はい、ろっこね。",
+        "pronunciation": "kzOOoh-EEttehkOOdsEEhEEohkkOHneh",
+        "translation_en": "Tell me the number. Okay, six pieces."
+      },
+      "responses": [
+        {
+          "english": "Tell me the number. Okay, six pieces.",
+          "phonetic": "kzOOoh-EEttehkOOdsEEhEEohkkOHneh",
+          "french": "かずを いってください。 はい、ろっこね。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

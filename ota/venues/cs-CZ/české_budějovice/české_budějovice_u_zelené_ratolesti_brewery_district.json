@@ -1,0 +1,122 @@
+{
+  "id": "české_budějovice_u_zelené_ratolesti_brewery_district",
+  "name_en": "U Zelené ratolesti brewery district",
+  "name_local": "Pivovarská čtvrť U Zelené ratolesti",
+  "icon": "map",
+  "lat": 48.9747357,
+  "lon": 14.474285,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "české_budějovice_u_zelené_ratolesti_brewery_district_001",
+      "intent_en": "Where is street parking paid",
+      "text_local": "Kde se platí parkování na ulici?",
+      "pronunciation": "kdEH-seh-plAHee-pAHrkohvAHnyee-nAHoolEEtsee",
+      "formality": "standard",
+      "cultural_note": "Parking in this area is typically paid via street meters. Always display the ticket on your dashboard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Automat je dole u křižovatky, naproti výčepu.",
+        "pronunciation": "OWtohmaht-yeh-dOHleh-OO-krEEzhohvAHtkeenAHprohee-vEEtshehpoo",
+        "translation_en": "The meter is down at the intersection, opposite the taproom."
+      },
+      "responses": [
+        {
+          "english": "The meter is down at the intersection, opposite the taproom.",
+          "phonetic": "OWtohmaht-yeh-dOHleh-OO-krEEzhohvAHtkeenAHprohee-vEEtshehpoo",
+          "french": "Automat je dole u křižovatky, naproti výčepu."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_u_zelené_ratolesti_brewery_district_002",
+      "intent_en": "Which way to Piaristické náměstí",
+      "text_local": "Kudy na Piaristické náměstí?",
+      "pronunciation": "kOOdee-nah-peeAHreestEEtskeh-nAHmnyehsee",
+      "formality": "standard",
+      "cultural_note": "Piaristické náměstí is a historic square near the city center, often used as a landmark for navigation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a pak doleva kolem kostela.",
+        "pronunciation": "rOHvnyeh-ah-pAHk-dOHlehvah-kOHlehm-kOHstehlah",
+        "translation_en": "Straight and then left past the church."
+      },
+      "responses": [
+        {
+          "english": "Straight and then left past the church.",
+          "phonetic": "rOHvnyeh-ah-pAHk-dOHlehvah-kOHlehm-kOHstehlah",
+          "french": "Rovně a pak doleva kolem kostela."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_u_zelené_ratolesti_brewery_district_003",
+      "intent_en": "Does the pub take cards",
+      "text_local": "Berete v hospodě karty?",
+      "pronunciation": "bEHrehteh-v-hOHspoheh-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "Some traditional Czech pubs, especially in brewery districts, are cash-only. It is customary to check before ordering.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Jen hotovost, bankomat je na rohu.",
+        "pronunciation": "yEHn-hOHtohvohstbAHngkohmaht-yeh-nAHrohhoo",
+        "translation_en": "Cash only, the ATM is on the corner."
+      },
+      "responses": [
+        {
+          "english": "Cash only, the ATM is on the corner.",
+          "phonetic": "yEHn-hOHtohvohstbAHngkohmaht-yeh-nAHrohhoo",
+          "french": "Jen hotovost, bankomat je na rohu."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_u_zelené_ratolesti_brewery_district_004",
+      "intent_en": "How to reach the main square tram",
+      "text_local": "Jak se dostanu na tramvaj na hlavní náměstí?",
+      "pronunciation": "yAHk-seh-dOHstahnoo-nAHtrahmvahy-nAHhlahvnyee-nAHmnyehsee",
+      "formality": "standard",
+      "cultural_note": "Trams are a common way to reach Náměstí Přemysla Otakara II, the main square in České Budějovice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tramvajová zastávka je tamhle za rohem, vlevo.",
+        "pronunciation": "trAHmvahyOHvah-zAHstahfkah-yeh-tAHmhleh-zAHrohhehmvlEHvoh",
+        "translation_en": "The tram stop is just around the corner, on the left."
+      },
+      "responses": [
+        {
+          "english": "The tram stop is just around the corner, on the left.",
+          "phonetic": "trAHmvahyOHvah-zAHstahfkah-yeh-tAHmhleh-zAHrohhehmvlEHvoh",
+          "french": "Tramvajová zastávka je tamhle za rohem, vlevo."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_u_zelené_ratolesti_brewery_district_005",
+      "intent_en": "Where to buy Budvar tour tickets",
+      "text_local": "Kde koupím lístky na prohlídku Budvaru?",
+      "pronunciation": "kdEH-kOHpeem-lEEstkee-nAHprohhlEEtkoo-bOOdvahroo",
+      "formality": "standard",
+      "cultural_note": "Tickets for the Budweiser Budvar brewery tour are typically sold at the brewery itself, not in the city center.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V pokladně pivovaru, hned u hlavní brány.",
+        "pronunciation": "v-pOHklahdnyeh-pEEvohvAHroohnEHd-OO-hlAHvnyee-brAHnee",
+        "translation_en": "At the brewery ticket office, right by the main gate."
+      },
+      "responses": [
+        {
+          "english": "At the brewery ticket office, right by the main gate.",
+          "phonetic": "v-pOHklahdnyeh-pEEvohvAHroohnEHd-OO-hlAHvnyee-brAHnee",
+          "french": "V pokladně pivovaru, hned u hlavní brány."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "nice_colline_du_chateau",
+  "name_en": "Castle Hill",
+  "name_local": "Colline du Château",
+  "icon": "leaf",
+  "lat": 43.6956,
+  "lon": 7.2833,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "nice_chateau_001",
+      "intent_en": "Ask if the elevator to the top is working today",
+      "text_local": "L'ascenseur pour accéder au sommet fonctionne-t-il aujourd'hui ?",
+      "pronunciation": "lah-san-SUHR poor ak-say-DAY oh so-MAY fonk-syon-TEEL oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "A free elevator on the seafront side rises to the hilltop — very useful as the hill is 90 metres high.",
+      "responses": [
+        {
+          "english": "Yes, it is working.",
+          "phonetic": "wee eel fohnk-SYOHN",
+          "french": "Oui, il fonctionne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_chateau_002",
+      "intent_en": "Ask about the panoramic view from the top",
+      "text_local": "La vue panoramique est-elle accessible depuis le belvédère ?",
+      "pronunciation": "lah vyoo pah-no-rah-MEEK eh-TEL ak-se-SEEBL deh-PWEE leh bel-vay-DEHR",
+      "formality": "polite",
+      "cultural_note": "The hilltop offers one of the best views on the Riviera — the old port to the left, the Baie des Anges stretching west.",
+      "responses": [
+        {
+          "english": "The view is beautiful on clear days.",
+          "phonetic": "lah VOO eh mah-nyee-FEEK par tahn KLAIR",
+          "french": "La vue est magnifique par temps clair."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_chateau_003",
+      "intent_en": "Ask where the waterfall is located",
+      "text_local": "Où se trouve la cascade artificielle dans le parc ?",
+      "pronunciation": "oo seh TROOV lah kas-KAHD ar-tee-fee-SYEL dan leh PARK",
+      "formality": "polite",
+      "cultural_note": "The hill features a man-made waterfall near the top — a popular landmark and photo spot.",
+      "responses": [
+        {
+          "english": "At the end of the path, on the right.",
+          "phonetic": "oh BOO doo shuh-MAHN soor lah DRWAHT",
+          "french": "Au bout du chemin, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_chateau_004",
+      "intent_en": "Ask if the park is free to enter",
+      "text_local": "L'entrée du parc du château est-elle gratuite ?",
+      "pronunciation": "lan-TRAY doo PARK doo sha-TOH eh-TEL gra-TWEET",
+      "formality": "polite",
+      "cultural_note": "The park is free and open daily. Only the elevator costs a small fee (or use the free stairs).",
+      "responses": [
+        {
+          "english": "Yes, it is free.",
+          "phonetic": "wee say grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_chateau_005",
+      "intent_en": "Ask about the path down to the old port",
+      "text_local": "Y a-t-il un sentier pour descendre directement vers le vieux port ?",
+      "pronunciation": "ee ah-TEEL un san-TYAY poor day-SAN-dreh dee-rek-teh-MAN vehr leh vyuh POR",
+      "formality": "polite",
+      "cultural_note": "Steep staircases descend directly to the old port on the east side of the hill.",
+      "responses": [
+        {
+          "english": "Go down the stairs on the east side.",
+          "phonetic": "day-sahn-DAY par less-kah-LYAY koh-TAY EST",
+          "french": "Descendez par l'escalier côté est."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "hill / hilltop",
+      "word_local": "la colline",
+      "pronunciation": "lah ko-LEEN"
+    },
+    {
+      "word_en": "viewpoint",
+      "word_local": "le belvédère",
+      "pronunciation": "leh bel-vay-DEHR"
+    },
+    {
+      "word_en": "waterfall",
+      "word_local": "la cascade",
+      "pronunciation": "lah kas-KAHD"
+    },
+    {
+      "word_en": "elevator",
+      "word_local": "l'ascenseur",
+      "pronunciation": "lah-san-SUHR"
+    }
+  ]
+}

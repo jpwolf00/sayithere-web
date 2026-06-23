@@ -1,0 +1,115 @@
+{
+  "id": "lyon_traboules_croix_rousse",
+  "name_en": "Traboules of Croix-Rousse",
+  "name_local": "Traboules de la Croix-Rousse",
+  "icon": "door.left.hand.open",
+  "phrases": [
+    {
+      "id": "lyon_traboules_cr_001",
+      "intent_en": "Ask a resident for permission to use a traboule",
+      "text_local": "Excusez-moi, est-ce que je pourrais passer par cette traboule ?",
+      "pronunciation": "ex-koo-zay-MWAH, es-kuh zhuh poo-REH pah-SAY par SET trah-BOOL",
+      "formality": "polite",
+      "cultural_note": "Unlike the Vieux Lyon traboules, many Croix-Rousse traboules pass through residential buildings. Ringing the interphone and asking politely is appreciated — most residents are accustomed to curious visitors.",
+      "responses": [
+        {
+          "english": "Yes, come in. It's open.",
+          "phonetic": "wee, ahn-TRAY. seh oo-VEHR",
+          "french": "Oui, entrez. C'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_traboules_cr_002",
+      "intent_en": "Ask which traboules are open to the public",
+      "text_local": "Quelles traboules sont ouvertes au public ?",
+      "pronunciation": "kel trah-BOOL sohn oo-VEHRT oh poo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "Only a few traboules on the Croix-Rousse hill are officially open to the public. The tourist office has a list and a map.",
+      "responses": [
+        {
+          "english": "Ask for the map at the tourist office.",
+          "phonetic": "duh-mahn-DAY luh PLAHN ah loh-FEES duh too-REEZM",
+          "french": "Demandez le plan à l'office de tourisme."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_traboules_cr_003",
+      "intent_en": "Ask a local to recommend the best traboule route",
+      "text_local": "Quelle traboule recommandez-vous de visiter en priorité ?",
+      "pronunciation": "kel trah-BOOL ruh-koh-mahn-DAY-voo duh vee-zee-TAY ahn pree-oh-ree-TAY",
+      "formality": "polite",
+      "cultural_note": "The most famous Croix-Rousse traboule runs from 9 Place Colette to 14bis Montée Saint-Sébastien. The Lyon tourist office produces a free map of all accessible traboules.",
+      "responses": [
+        {
+          "english": "Start at Rue des Tables Claudiennes.",
+          "phonetic": "koh-mahn-SAY par lah ROO day TAH-bluh kloh-DYEHN",
+          "french": "Commencez par la rue des Tables Claudiennes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_traboules_cr_004",
+      "intent_en": "Ask if a guide is needed to visit the traboules",
+      "text_local": "Faut-il un guide pour visiter les traboules ?",
+      "pronunciation": "foh-TEEL uhn GHEED poor vee-zee-TAY lay trah-BOOL",
+      "formality": "polite",
+      "cultural_note": "You can explore some traboules independently, but a guided tour provides context and access to otherwise closed passages.",
+      "responses": [
+        {
+          "english": "No, but it's better with a guide.",
+          "phonetic": "nohn, meh seh MYUH ah-VEK uhn GHEED",
+          "french": "Non, mais c'est mieux avec un guide."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_traboules_cr_005",
+      "intent_en": "Thank a resident for letting you through",
+      "text_local": "Merci beaucoup de m'avoir laissé passer, c'est très gentil.",
+      "pronunciation": "mair-SEE boh-KOO duh mah-VWAR leh-SAY pah-SAY, say treh zhahn-TEE",
+      "formality": "polite",
+      "cultural_note": "Always thank residents who let you through a private traboule. This courtesy helps maintain goodwill so these historic passages remain accessible to future visitors.",
+      "responses": [
+        {
+          "english": "You're welcome, enjoy your visit.",
+          "phonetic": "duh RYEHN, bon vee-ZEET",
+          "french": "De rien, bonne visite."
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "hidden passageway",
+      "word_local": "la traboule",
+      "pronunciation": "lah trah-BOOL"
+    },
+    {
+      "word_en": "silk weaver",
+      "word_local": "le canut",
+      "pronunciation": "luh kah-NOO"
+    },
+    {
+      "word_en": "the Resistance",
+      "word_local": "la Résistance",
+      "pronunciation": "lah ray-ZEES-tahns"
+    },
+    {
+      "word_en": "courtyard",
+      "word_local": "la cour intérieure",
+      "pronunciation": "lah KOOR an-tay-RYUR"
+    }
+  ]
+}

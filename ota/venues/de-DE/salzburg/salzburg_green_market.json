@@ -1,0 +1,122 @@
+{
+  "id": "salzburg_green_market",
+  "name_en": "Green Market",
+  "name_local": "Grünmarkt",
+  "icon": "cart",
+  "lat": 47.807078,
+  "lon": 13.045804,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "salzburg_green_market_001",
+      "intent_en": "Pay cash only at fruit stalls",
+      "text_local": "Kann ich hier mit Karte zahlen?",
+      "pronunciation": "kAHn-ihkh-hEEr-miht-kAHrtuh-tsAHluhn",
+      "formality": "casual",
+      "cultural_note": "Obst- und Gemüsestände auf Wochenmärkten in Salzburg akzeptieren oft nur Bargeld.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur bar möglich.",
+        "pronunciation": "nOOr-bAHr-mUHklihkh",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHr-mUHklihkh",
+          "french": "Nur bar möglich."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_green_market_002",
+      "intent_en": "Find Oberreiter bakery",
+      "text_local": "Wo ist die Bäckerei Oberreiter?",
+      "pronunciation": "vOH-ihst-dee-bEHkehrEYE-OHbrEYEt",
+      "formality": "standard",
+      "cultural_note": "Bäckereien haben oft einen zentralen Stand oder sind nahe den Gassen-Eingängen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dort hinten beim Imbiss.",
+        "pronunciation": "dAWrt-hIHntuhn-beyem-IHmbihs",
+        "translation_en": "Back there by the snack stand."
+      },
+      "responses": [
+        {
+          "english": "Back there by the snack stand.",
+          "phonetic": "dAWrt-hIHntuhn-beyem-IHmbihs",
+          "french": "Dort hinten beim Imbiss."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_green_market_003",
+      "intent_en": "Try cheese samples before buying",
+      "text_local": "Darf ich eine Probierscheibe probieren?",
+      "pronunciation": "dAHrf-ihkh-EYEnuh-prohbEErsheyebuh-prohbEEruhn",
+      "formality": "standard",
+      "cultural_note": "Am Käse-Stand üblich, Kund:innen dürfen vor dem Kauf probieren.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, hier bitte.",
+        "pronunciation": "yAHhEEr-bIHtuh",
+        "translation_en": "Yes, here you go."
+      },
+      "responses": [
+        {
+          "english": "Yes, here you go.",
+          "phonetic": "yAHhEEr-bIHtuh",
+          "french": "Ja, hier bitte."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_green_market_004",
+      "intent_en": "Get deposit back for jam jars",
+      "text_local": "Wo bekomme ich mein Pfand zurück?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-meyen-pfAHnt-tsoorUEk",
+      "formality": "casual",
+      "cultural_note": "Pfandgläser werden am Stand zurückgegeben, wo sie gekauft wurden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Glas-Stand.",
+        "pronunciation": "ahm-lAHsshtAHnt",
+        "translation_en": "At the jar stall."
+      },
+      "responses": [
+        {
+          "english": "At the jar stall.",
+          "phonetic": "ahm-lAHsshtAHnt",
+          "french": "Am Glas-Stand."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_green_market_005",
+      "intent_en": "Find Altenburger cheese stand",
+      "text_local": "Wo finde ich den Altenburger Käse?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-AHltuhnbUHuh-kEHzuh",
+      "formality": "standard",
+      "cultural_note": "Marktstände sind entlang der Gassen verteilt; Käse-Stände oft zentral oder nahe Eingängen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich dort vorne.",
+        "pronunciation": "lEYEkh-dAWrt-fAWrnuh",
+        "translation_en": "Right there ahead."
+      },
+      "responses": [
+        {
+          "english": "Right there ahead.",
+          "phonetic": "lEYEkh-dAWrt-fAWrnuh",
+          "french": "Gleich dort vorne."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

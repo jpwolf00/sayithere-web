@@ -1,0 +1,122 @@
+{
+  "id": "freiburg_königstuhl_funicular_stop",
+  "name_en": "Königstuhl Funicular Stop",
+  "name_local": "Schauinslandbahn Talstation",
+  "icon": "tram",
+  "lat": 47.9960901,
+  "lon": 7.8494005,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "freiburg_königstuhl_funicular_stop_001",
+      "intent_en": "Where is the lower valley station platform",
+      "text_local": "Wo ist die Talstation?",
+      "pronunciation": "vOH-ihst-dee-tAHlstahtsyOHn",
+      "formality": "standard",
+      "cultural_note": "Directional signage in German transport hubs uses clear, concise language.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Unten im Tal.",
+        "pronunciation": "UHntuhn-ihm-tAHl",
+        "translation_en": "Down in the valley."
+      },
+      "responses": [
+        {
+          "english": "Down in the valley.",
+          "phonetic": "UHntuhn-ihm-tAHl",
+          "french": "Unten im Tal."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_königstuhl_funicular_stop_002",
+      "intent_en": "Where to buy section transfer tickets",
+      "text_local": "Wo gibt es Abschnittsfahrkarten?",
+      "pronunciation": "vOH-EEpt-ehs-AHpshnIHtsfahrkAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Section transfer tickets are sold at the main ticket counter in German-speaking regions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_königstuhl_funicular_stop_003",
+      "intent_en": "Is group rate available for five people",
+      "text_local": "Gibt es Gruppenermäßigung für fünf?",
+      "pronunciation": "EEpt-ehs-rUHpuhnmEHsihUHng-fuer-fUEnf",
+      "formality": "standard",
+      "cultural_note": "Group discounts in German public transport often apply starting from a minimum group size, commonly five.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ab fünf Personen.",
+        "pronunciation": "yAHahp-fUEnf-pehrzOHnuhn",
+        "translation_en": "Yes, from five people."
+      },
+      "responses": [
+        {
+          "english": "Yes, from five people.",
+          "phonetic": "yAHahp-fUEnf-pehrzOHnuhn",
+          "french": "Ja, ab fünf Personen."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_königstuhl_funicular_stop_004",
+      "intent_en": "When does the next funicular depart",
+      "text_local": "Wann fährt die nächste Bahn?",
+      "pronunciation": "vAHn-fEHrt-dee-nEHkhstuh-bAHn",
+      "formality": "standard",
+      "cultural_note": "Departure times are typically displayed on electronic boards at train stations in Germany.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In fünf Minuten.",
+        "pronunciation": "ihn-fUEnf-meenOOtuhn",
+        "translation_en": "In five minutes."
+      },
+      "responses": [
+        {
+          "english": "In five minutes.",
+          "phonetic": "ihn-fUEnf-meenOOtuhn",
+          "french": "In fünf Minuten."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_königstuhl_funicular_stop_005",
+      "intent_en": "How to validate return ticket",
+      "text_local": "Wie entwerten Rückfahrkarten?",
+      "pronunciation": "vee-ehntvEHrtuhn-rUEkfahrkAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Ticket validation is required before boarding and is done at designated machines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten vor Abfahrt.",
+        "pronunciation": "ahm-OWtohmAHtuhn-fAWr-AHpfAHrt",
+        "translation_en": "At the machine before departure."
+      },
+      "responses": [
+        {
+          "english": "At the machine before departure.",
+          "phonetic": "ahm-OWtohmAHtuhn-fAWr-AHpfAHrt",
+          "french": "Am Automaten vor Abfahrt."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_marche_victor_hugo",
+  "name_en": "Marché Victor Hugo",
+  "name_local": "Marché Victor Hugo",
+  "icon": "bag",
+  "lat": 43.6079,
+  "lon": 1.4446,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "toulouse_vichugo_001",
+      "intent_en": "Ask where to find cassoulet ingredients",
+      "text_local": "Où puis-je trouver les ingrédients pour faire un cassoulet ?",
+      "pronunciation": "oo PWEE-zhuh troo-VAY lay zan-gray-DYAHN poor FAIR un kah-soo-LAY",
+      "formality": "polite",
+      "cultural_note": "Cassoulet is Toulouse's iconic slow-cooked bean and sausage dish; the market sells toulouse sausage, duck confit, and haricot beans — all the key ingredients.",
+      "responses": [
+        {
+          "english": "At the charcuterie stall, at the back of the market.",
+          "phonetic": "shay luh shar-koo-TYAY oh FOHN doo mar-SHAY",
+          "french": "Chez le charcutier, au fond du marché."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_vichugo_002",
+      "intent_en": "Ask for a link of Toulouse sausage",
+      "text_local": "Je voudrais une saucisse de Toulouse, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY yoon soh-SEES duh too-LOOZ seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The famous coarse-ground pork saucisse de Toulouse is an IGP-protected product used in cassoulet and grilled on its own.",
+      "responses": [
+        {
+          "english": "Here you go, six euros.",
+          "phonetic": "vwah-LAH SEE-ZUH-ROH",
+          "french": "Voilà, six euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_vichugo_003",
+      "intent_en": "Ask if the upstairs restaurant serves cassoulet",
+      "text_local": "Est-ce que le restaurant à l'étage sert du cassoulet ?",
+      "pronunciation": "es-kuh luh res-toh-RAHN ah lay-TAZH sair doo kah-soo-LAY",
+      "formality": "polite",
+      "cultural_note": "The upper floor of the Marché Victor Hugo has several popular restaurants; the market itself closes around 1 pm but the restaurants continue into the afternoon.",
+      "responses": [
+        {
+          "english": "Yes, go up to the first floor.",
+          "phonetic": "wee mohn-TAY oh pruh-MYAY ay-TAHZH",
+          "french": "Oui, montez au premier étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_vichugo_004",
+      "intent_en": "Ask the cheese stall for a slice of aged Cantal",
+      "text_local": "Je voudrais une tranche de Cantal vieux, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY yoon TRAHNSH duh kahn-TAL VYUH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Marché Victor Hugo has excellent fromageries stocking cheeses from the Occitanie region and beyond.",
+      "responses": [
+        {
+          "english": "Here is a nice slice.",
+          "phonetic": "vwah-LAH oon BEL TRAHNSH",
+          "french": "Voilà une belle tranche."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_vichugo_005",
+      "intent_en": "Ask what time the market closes",
+      "text_local": "À quelle heure ferme le marché ?",
+      "pronunciation": "ah kel ur FAIRM luh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "The Marché Victor Hugo is open Tuesday to Sunday mornings and typically closes around 1:30 pm.",
+      "responses": [
+        {
+          "english": "At one o'clock.",
+          "phonetic": "ah TREZ UR",
+          "french": "À treize heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cassoulet (local bean stew)",
+      "word_local": "le cassoulet",
+      "pronunciation": "luh kah-soo-LAY"
+    },
+    {
+      "word_en": "Toulouse sausage",
+      "word_local": "la saucisse de Toulouse",
+      "pronunciation": "lah soh-SEES duh too-LOOZ"
+    },
+    {
+      "word_en": "duck confit",
+      "word_local": "le confit de canard",
+      "pronunciation": "luh kohn-FEE duh kah-NAR"
+    },
+    {
+      "word_en": "slice",
+      "word_local": "la tranche",
+      "pronunciation": "lah TRAHNSH"
+    }
+  ]
+}

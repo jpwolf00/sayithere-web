@@ -1,0 +1,78 @@
+{
+  "id": "heidelberg_church_of_the_holy_spirit",
+  "name_en": "Church of the Holy Spirit",
+  "name_local": "Heiliggeistkirche",
+  "icon": "building.columns",
+  "lat": 49.4120999,
+  "lon": 8.7096576,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "heidelberg_church_of_the_holy_spirit_001",
+      "intent_en": "May I take photos during the service?",
+      "text_local": "Darf ich während der Andacht fotografieren?",
+      "pronunciation": "dAHrf-ihkh-vEHruhnt-dehr-AHndAHkht-fOHtohrahfEEruhn",
+      "formality": "standard",
+      "cultural_note": "Silence and reverence are expected during services; flash photography is disruptive.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, aber ohne Blitz.",
+        "pronunciation": "yAHAHb-OHnuh-blIHts",
+        "translation_en": "Yes, but without flash."
+      },
+      "responses": [
+        {
+          "english": "Yes, but without flash.",
+          "phonetic": "yAHAHb-OHnuh-blIHts",
+          "french": "Ja, aber ohne Blitz."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_church_of_the_holy_spirit_002",
+      "intent_en": "Where is Elector Ruprecht III's grave?",
+      "text_local": "Wo liegt das Grab von Kurfürst Ruprecht III.?",
+      "pronunciation": "vOH-lEEkt-dahs-rAHp-fawn-kUHuhfuerst-rUHprehkht-rUHmihsh-drEYE",
+      "formality": "standard",
+      "cultural_note": "Grave is a prominent historical feature in the choir area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Chor der Kirche.",
+        "pronunciation": "ihm-kOHr-dehr-kIHrkhuh",
+        "translation_en": "In the choir of the church."
+      },
+      "responses": [
+        {
+          "english": "In the choir of the church.",
+          "phonetic": "ihm-kOHr-dehr-kIHrkhuh",
+          "french": "Im Chor der Kirche."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_church_of_the_holy_spirit_003",
+      "intent_en": "Can I climb the tower now?",
+      "text_local": "Darf ich jetzt den Turm besteigen?",
+      "pronunciation": "dAHrf-ihkh-yEHtst-dehn-tUHuhm-buhshtEYEuhn",
+      "formality": "standard",
+      "cultural_note": "Tower access may be restricted during services or events.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, gegen Gebühr.",
+        "pronunciation": "yAHEHuhn-uhbUEr",
+        "translation_en": "Yes, for a fee."
+      },
+      "responses": [
+        {
+          "english": "Yes, for a fee.",
+          "phonetic": "yAHEHuhn-uhbUEr",
+          "french": "Ja, gegen Gebühr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "lugano_monte_brè_summit",
+  "name_en": "Monte Brè Summit",
+  "name_local": "Monte Brè",
+  "icon": "leaf",
+  "lat": 46.0090846,
+  "lon": 8.9874096,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "lugano_monte_brè_summit_001",
+      "intent_en": "Ask if Albonago stop is open today",
+      "text_local": "Ist die Haltestelle Albonago heute in Betrieb?",
+      "pronunciation": "ihst-dee-hAHltehshtEHluh-AHlbohnAHoh-hAWuhtuh-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Bergbahn-Haltestellen im Sommer meist täglich geöffnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, sie ist in Betrieb.",
+        "pronunciation": "yAHzee-ihst-ihn-buhtrEEp",
+        "translation_en": "Yes, it is operating."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is operating.",
+          "phonetic": "yAHzee-ihst-ihn-buhtrEEp",
+          "french": "Ja, sie ist in Betrieb."
+        }
+      ]
+    },
+    {
+      "id": "lugano_monte_brè_summit_002",
+      "intent_en": "Ask when the second section runs",
+      "text_local": "Wann fährt die zweite Sektion?",
+      "pronunciation": "vAHn-fEHrt-dee-tsvEYEtuh-zehktsyOHn",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Fahrpläne oft in Intervallen angegeben, nicht zu exakten Uhrzeiten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Alle 30 Minuten ab Suvigliana.",
+        "pronunciation": "AHluh-drEYEsihkh-meenOOtuhn-ahp-zOOvihlEEahnAH",
+        "translation_en": "Every 30 minutes from Suvigliana."
+      },
+      "responses": [
+        {
+          "english": "Every 30 minutes from Suvigliana.",
+          "phonetic": "AHluh-drEYEsihkh-meenOOtuhn-ahp-zOOvihlEEahnAH",
+          "french": "Alle 30 Minuten ab Suvigliana."
+        }
+      ]
+    },
+    {
+      "id": "lugano_monte_brè_summit_003",
+      "intent_en": "Ask where the summit marker is",
+      "text_local": "Wo ist die Gipfelmarkierung?",
+      "pronunciation": "vOH-shtEHt-dehr-IHpfuhlmahrkEEruhng",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Gipfelmarkierungen oft an exponierten Stellen mit Panoramablick.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich oben.",
+        "pronunciation": "glEYEkh-OHbuhn",
+        "translation_en": "Right at the top."
+      },
+      "responses": [
+        {
+          "english": "Right at the top.",
+          "phonetic": "glEYEkh-OHbuhn",
+          "french": "Gleich oben."
+        }
+      ]
+    },
+    {
+      "id": "lugano_monte_brè_summit_004",
+      "intent_en": "Ask how to pay at Brè village restaurant",
+      "text_local": "Kann ich im Restaurant in Brè mit Karte zahlen?",
+      "pronunciation": "kAHn-ihkh-ihm-rEHstohrAH-ihn-brEH-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz ist Kartenzahlung üblich, aber nicht überall möglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bar oder Karte möglich.",
+        "pronunciation": "bAHr-OHd-kAHrtuh-mUHklihkh",
+        "translation_en": "Cash or card accepted."
+      },
+      "responses": [
+        {
+          "english": "Cash or card accepted.",
+          "phonetic": "bAHr-OHd-kAHrtuh-mUHklihkh",
+          "french": "Bar oder Karte möglich."
+        }
+      ]
+    },
+    {
+      "id": "lugano_monte_brè_summit_005",
+      "intent_en": "Ask where the Cassarate lower station is",
+      "text_local": "Wo ist die Talstation Cassarate?",
+      "pronunciation": "vOH-ihst-dee-tAHlstahtsyOHn-kAHsahrAHtuh",
+      "formality": "standard",
+      "cultural_note": "In Ticino wird 'Talstation' für die untere Station der Standseilbahn verwendet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Cassarate Talstation ist am Ende der Via Giuseppe Cattori.",
+        "pronunciation": "kAHsahrAHtuh-tAHlstahtsyOHn-ihst-ahm-EHnduh-dehr-vEEah-EEoozEHpuh-kAHtohrEE",
+        "translation_en": "Cassarate lower station is at the end of Via Giuseppe Cattori."
+      },
+      "responses": [
+        {
+          "english": "Cassarate lower station is at the end of Via Giuseppe Cattori.",
+          "phonetic": "kAHsahrAHtuh-tAHlstahtsyOHn-ihst-ahm-EHnduh-dehr-vEEah-EEoozEHpuh-kAHtohrEE",
+          "french": "Cassarate Talstation ist am Ende der Via Giuseppe Cattori."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

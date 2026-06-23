@@ -1,0 +1,115 @@
+{
+  "id": "geneva_bains_des_paquis",
+  "name_en": "Bains des Pâquis",
+  "name_local": "Bains des Pâquis",
+  "icon": "figure.pool.swim",
+  "phrases": [
+    {
+      "id": "geneva_bdp_001",
+      "intent_en": "Ask if you can swim in the lake here",
+      "text_local": "Peut-on se baigner dans le lac ici ?",
+      "pronunciation": "puh-TOHN suh beh-NYAY don luh LAHK ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Bains des Pâquis is a beloved public bathing pier on Lake Geneva, open for swimming from May to September. Entry is very affordable.",
+      "responses": [
+        {
+          "english": "Yes, the swimming area is open.",
+          "phonetic": "wee, lah ZOHN duh beh-NYAD eh oo-VEHRT",
+          "french": "Oui, la zone de baignade est ouverte."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_bdp_002",
+      "intent_en": "Ask about the sauna and hammam",
+      "text_local": "Y a-t-il un sauna ou un hammam ouvert toute l'année ?",
+      "pronunciation": "ee-ah-TEEL un SOH-nah oo un ah-MAM oo-VAIR toot lah-NAY",
+      "formality": "polite",
+      "cultural_note": "The Bains des Pâquis has a sauna and hammam open year-round, making it a local favourite even in winter when the pier extends dramatically into the grey lake.",
+      "responses": [
+        {
+          "english": "It's in the basement. Ten francs.",
+          "phonetic": "seh oh soo-SOL. dee FRAHN",
+          "french": "C'est au sous-sol. Dix francs."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_bdp_003",
+      "intent_en": "Ask what the breakfast offerings are",
+      "text_local": "Que sert-on au petit-déjeuner ici ?",
+      "pronunciation": "kuh SAIR-tohn oh puh-TEE day-zhuh-NAY ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Bains des Pâquis café serves a legendary weekend breakfast — a cherished Genevan ritual enjoyed overlooking the lake.",
+      "responses": [
+        {
+          "english": "Coffee, croissants, and crêpes.",
+          "phonetic": "kah-FAY, kwah-SAHN, ay day KREP",
+          "french": "Café, croissants, et des crêpes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_bdp_004",
+      "intent_en": "Ask for a locker for your belongings",
+      "text_local": "Est-il possible de louer un casier pour mes affaires ?",
+      "pronunciation": "eh-TEEL poh-SEE-bluh duh loo-AY un kah-ZYAY poor may zah-FAIR",
+      "formality": "polite",
+      "cultural_note": "Lockers and changing cabins are available on the pier for a small deposit. Towel rental is also available at the reception.",
+      "responses": [
+        {
+          "english": "Near the entrance, with a token.",
+          "phonetic": "preh duh lahn-TRAY, ah-VEK uhn zhuh-TOHN",
+          "french": "Près de l'entrée, avec un jeton."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_bdp_005",
+      "intent_en": "Comment on the view of the Jet d'Eau from the pier",
+      "text_local": "La vue sur le Jet d'Eau depuis la jetée est magnifique !",
+      "pronunciation": "lah VOO sur luh ZHEH DOH duh-PWEE lah zhuh-TAY eh mahn-yee-FEEK",
+      "formality": "casual",
+      "cultural_note": "The Bains des Pâquis pier offers one of the best views of the Jet d'Eau — a favourite spot for photographers and picnickers alike.",
+      "responses": [
+        {
+          "english": "Yes, it's magnificent from here.",
+          "phonetic": "wee, seh mah-nyee-FEEK dee-SEE",
+          "french": "Oui, c'est magnifique d'ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "to swim / to bathe",
+      "word_local": "se baigner",
+      "pronunciation": "suh beh-NYAY"
+    },
+    {
+      "word_en": "pier / bathing pontoon",
+      "word_local": "la jetée",
+      "pronunciation": "lah zhuh-TAY"
+    },
+    {
+      "word_en": "locker",
+      "word_local": "le casier",
+      "pronunciation": "luh kah-ZYAY"
+    },
+    {
+      "word_en": "lake swimming",
+      "word_local": "la baignade en lac",
+      "pronunciation": "lah beh-NYAD on LAHK"
+    }
+  ]
+}

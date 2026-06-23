@@ -1,0 +1,122 @@
+{
+  "id": "trier_karl_marx_house",
+  "name_en": "Karl Marx House",
+  "name_local": "Karl-Marx-Haus",
+  "icon": "building.columns",
+  "lat": 49.7539008,
+  "lon": 6.6357225,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "trier_karl_marx_house_001",
+      "intent_en": "Is photography allowed upstairs?",
+      "text_local": "Darf man oben fotografieren?",
+      "pronunciation": "dAHrf-mahn-OHbuhn-fOHtohrahfEEruhn",
+      "formality": "standard",
+      "cultural_note": "German museums often restrict photography in sensitive historical areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, in einigen Räumen nicht.",
+        "pronunciation": "nEYEnihn-EYEnihuhn-rAWuhmuhn-nIHkht",
+        "translation_en": "No, in some rooms not."
+      },
+      "responses": [
+        {
+          "english": "No, in some rooms not.",
+          "phonetic": "nEYEnihn-EYEnihuhn-rAWuhmuhn-nIHkht",
+          "french": "Nein, in einigen Räumen nicht."
+        }
+      ]
+    },
+    {
+      "id": "trier_karl_marx_house_002",
+      "intent_en": "Does this ticket include the gift shop?",
+      "text_local": "Ist der Laden im Ticket inbegriffen?",
+      "pronunciation": "ihst-dehr-lAHduhn-ihm-tIHkuht-IHnbehrIHfuhn",
+      "formality": "standard",
+      "cultural_note": "German museums commonly separate ticketed entry from shop purchases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, separat.",
+        "pronunciation": "nEYEnzEHpahrAHt",
+        "translation_en": "No, separate."
+      },
+      "responses": [
+        {
+          "english": "No, separate.",
+          "phonetic": "nEYEnzEHpahrAHt",
+          "french": "Nein, separat."
+        }
+      ]
+    },
+    {
+      "id": "trier_karl_marx_house_003",
+      "intent_en": "Where is the ticket desk?",
+      "text_local": "Wo ist der Schalter?",
+      "pronunciation": "vOH-ihst-dehr-shAHlt",
+      "formality": "standard",
+      "cultural_note": "In German museums, ticket desks are often near the main entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eingang.",
+        "pronunciation": "ahm-EYEnAHng",
+        "translation_en": "At the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the entrance.",
+          "phonetic": "ahm-EYEnAHng",
+          "french": "Am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "trier_karl_marx_house_004",
+      "intent_en": "Where is the Marx statue?",
+      "text_local": "Wo steht die Marx-Statue?",
+      "pronunciation": "vOH-shtEHt-dee-mAHrksshtAHtoouh",
+      "formality": "standard",
+      "cultural_note": "The statue is a well-known outdoor landmark near the museum.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Simeonstiftplatz.",
+        "pronunciation": "ahm-zEEmehAWnstihftplAHts",
+        "translation_en": "At Simeonstiftplatz."
+      },
+      "responses": [
+        {
+          "english": "At Simeonstiftplatz.",
+          "phonetic": "ahm-zEEmehAWnstihftplAHts",
+          "french": "Am Simeonstiftplatz."
+        }
+      ]
+    },
+    {
+      "id": "trier_karl_marx_house_005",
+      "intent_en": "Can I rent an audio guide?",
+      "text_local": "Gibt es Audioguides zur Miete?",
+      "pronunciation": "EEpt-ehs-ehnAWdihUHuheyedzdeh-tsoor-mEEtuh",
+      "formality": "standard",
+      "cultural_note": "Audio guide rentals are common in German museums and require staff assistance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Audioguide-Verleih.",
+        "pronunciation": "yAHahm-ehnAWdihUHuheyeddehfehrlEYE",
+        "translation_en": "Yes, at the audio guide desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the audio guide desk.",
+          "phonetic": "yAHahm-ehnAWdihUHuheyeddehfehrlEYE",
+          "french": "Ja, am Audioguide-Verleih."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

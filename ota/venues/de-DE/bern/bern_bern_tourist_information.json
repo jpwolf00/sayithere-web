@@ -1,0 +1,122 @@
+{
+  "id": "bern_bern_tourist_information",
+  "name_en": "Bern Tourist Information",
+  "name_local": "Bern Welcome",
+  "icon": "info.circle",
+  "lat": 46.9484742,
+  "lon": 7.4521749,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bern_bern_tourist_information_001",
+      "intent_en": "Pick up physical city map",
+      "text_local": "Stadtplan hier abholen?",
+      "pronunciation": "shtahtplAHn-hEEr-AHphOHluhn",
+      "formality": "casual",
+      "cultural_note": "Staff will guide to map counter if needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Kartenstand.",
+        "pronunciation": "yAHahm-kAHrtuhnstAHnt",
+        "translation_en": "Yes, at the map counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the map counter.",
+          "phonetic": "yAHahm-kAHrtuhnstAHnt",
+          "french": "Ja, am Kartenstand."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_tourist_information_002",
+      "intent_en": "Book guided city tour departure",
+      "text_local": "Geführte Tour buchen?",
+      "pronunciation": "uhfUErtuh-tOOr-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Staff may redirect to city guide counter or reservation point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Infoschalter.",
+        "pronunciation": "yAHahm-IHnfawshAHlt",
+        "translation_en": "Yes, at the info desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the info desk.",
+          "phonetic": "yAHahm-IHnfawshAHlt",
+          "french": "Ja, am Infoschalter."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_tourist_information_003",
+      "intent_en": "Pay for souvenir at shop register",
+      "text_local": "Hier Souvenir bezahlen?",
+      "pronunciation": "hEEr-zOOvehnEEr-buhtsAHluhn",
+      "formality": "casual",
+      "cultural_note": "Staff may point to souvenir shop register nearby.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Shoptresen.",
+        "pronunciation": "yAHahm-ehnshPtrehzuhndeh",
+        "translation_en": "Yes, at the shop counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the shop counter.",
+          "phonetic": "yAHahm-ehnshPtrehzuhndeh",
+          "french": "Ja, am Shoptresen."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_tourist_information_004",
+      "intent_en": "Buy Bern Ticket city pass here",
+      "text_local": "Hier Bern Ticket kaufen?",
+      "pronunciation": "hEEr-bEHrn-tIHkuht-kOWfuhn",
+      "formality": "casual",
+      "cultural_note": "Short, direct confirmation expected. Staff will point to ticket counter if unclear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, dort am Ticketschalter.",
+        "pronunciation": "yAHdAWrt-ahm-tIHkehtshAHlt",
+        "translation_en": "Yes, at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket counter.",
+          "phonetic": "yAHdAWrt-ahm-tIHkehtshAHlt",
+          "french": "Ja, dort am Ticketschalter."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_tourist_information_005",
+      "intent_en": "Reserve event ticket pickup time",
+      "text_local": "Event-Ticket hier reservieren?",
+      "pronunciation": "ehnihvEHntdehtIHkuht-hEEr-rEHzehrvEEruhn",
+      "formality": "casual",
+      "cultural_note": "Staff will direct to event reservation desk if available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

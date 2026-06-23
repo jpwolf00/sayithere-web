@@ -1,0 +1,118 @@
+{
+  "id": "montreal_parc_la_fontaine",
+  "name_en": "La Fontaine Park",
+  "name_local": "Parc La Fontaine",
+  "icon": "leaf",
+  "lat": 45.5228,
+  "lon": -73.5712,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "mtl_plf_001",
+      "intent_en": "Ask if the outdoor theatre has shows tonight",
+      "text_local": "Y'a-tu un spectacle ce soir au théâtre de verdure ?",
+      "pronunciation": "yah-TOO un spek-TAHKL suh SWAHR oh tay-AHT-ruh duh vair-DOOR",
+      "formality": "informal",
+      "cultural_note": "The Théâtre de Verdure is an open-air theatre that hosts free concerts and shows in summer. Very popular with Plateau residents.",
+      "responses": [
+        {
+          "english": "You need to check on the website.",
+          "phonetic": "eel foh vay-ree-FYAY soor luh SEET ahn-tair-NET",
+          "french": "Il faut vérifier sur le site internet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_plf_002",
+      "intent_en": "Ask if you can rent paddle boats on the pond",
+      "text_local": "C'est possible de louer des pédalos sur l'étang ?",
+      "pronunciation": "say po-SEE-bluh duh loo-AY day pay-dah-LOH soor lay-TAHNG",
+      "formality": "neutral",
+      "cultural_note": "The park's large pond offers pedal boat rentals in summer and becomes a skating rink in winter — a true Montréal four-season experience.",
+      "responses": [
+        {
+          "english": "Yes, rentals are near the pond.",
+          "phonetic": "wee lah loh-kah-SYOHN eh pray duh lay-TAHN",
+          "french": "Oui, la location est près de l'étang."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_plf_003",
+      "intent_en": "Ask where the closest bench or picnic table is",
+      "text_local": "Y'a des tables de pique-nique dans le coin ?",
+      "pronunciation": "yah day TAHBL duh peek-NEEK dahn luh KWAN",
+      "formality": "informal",
+      "cultural_note": "La Fontaine Park is a favourite spot for picnics, especially for Plateau Mont-Royal residents. Bring takeout from nearby restaurants.",
+      "responses": [
+        {
+          "english": "Over there, under the trees.",
+          "phonetic": "lah-BAH soo lay ZAHR-bruh",
+          "french": "Là-bas, sous les arbres."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_plf_004",
+      "intent_en": "Ask if the park is safe to walk at night",
+      "text_local": "C'est sécuritaire de se promener ici le soir ?",
+      "pronunciation": "say say-koo-ree-TAIR duh suh pro-muh-NAY ee-SEE luh SWAHR",
+      "formality": "neutral",
+      "cultural_note": "The park is generally safe and well-lit at night, especially around the main paths. The neighbourhood is lively into the evening.",
+      "responses": [
+        {
+          "english": "Yes, the paths are lit.",
+          "phonetic": "wee lay sahn-TYAY sohn tay-klay-RAY",
+          "french": "Oui, les sentiers sont éclairés."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_plf_005",
+      "intent_en": "Ask about the ice rink hours in winter",
+      "text_local": "La patinoire est ouverte quelles heures en hiver ?",
+      "pronunciation": "lah pah-tee-NWAHR ay oo-VAIR kel UR ahn ee-VAIR",
+      "formality": "neutral",
+      "cultural_note": "Outdoor ice rinks are central to Québec winter culture. The pond rink at La Fontaine is free and maintained by the city.",
+      "responses": [
+        {
+          "english": "You need to check online.",
+          "phonetic": "eel foh vay-ree-FYAY ahn LEE-nyuh",
+          "french": "Il faut vérifier en ligne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "pond",
+      "word_local": "l'étang",
+      "pronunciation": "lay-TAHNG"
+    },
+    {
+      "word_en": "ice rink",
+      "word_local": "la patinoire",
+      "pronunciation": "lah pah-tee-NWAHR"
+    },
+    {
+      "word_en": "pedal boat",
+      "word_local": "le pédalo",
+      "pronunciation": "luh pay-dah-LOH"
+    },
+    {
+      "word_en": "picnic",
+      "word_local": "le pique-nique",
+      "pronunciation": "luh peek-NEEK"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "dresden_striezelmarkt_christmas_market",
+  "name_en": "Striezelmarkt Christmas Market",
+  "name_local": "Dresdner Striezelmarkt",
+  "icon": "cart",
+  "lat": 51.0493286,
+  "lon": 13.7381437,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "dresden_striezelmarkt_christmas_market_001",
+      "intent_en": "Where can I buy a Schwibbogen ornament?",
+      "text_local": "Wo kann ich einen Schwibbogen kaufen?",
+      "pronunciation": "vOH-EEpt-ehs-shvihbOHuhnshmUHk-tsoo-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Schwibbögen sind typische Handwerksarbeiten und werden an den Holzhandwerkerständen angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Handwerkerstraße.",
+        "pronunciation": "ahn-dehr-hAHntvEHrkstrAHsuh",
+        "translation_en": "At the craftsmen's lane."
+      },
+      "responses": [
+        {
+          "english": "At the craftsmen's lane.",
+          "phonetic": "ahn-dehr-hAHntvEHrkstrAHsuh",
+          "french": "An der Handwerkerstraße."
+        }
+      ]
+    },
+    {
+      "id": "dresden_striezelmarkt_christmas_market_002",
+      "intent_en": "Where is the Stollen carving ceremony?",
+      "text_local": "Wo findet die Stollen-Schneidezeremonie statt?",
+      "pronunciation": "vOH-fIHnduht-dee-shtAWluhnshnEYEdehtsEHrehmohnEE-shtAHt",
+      "formality": "standard",
+      "cultural_note": "Die Zeremonie ist ein fester Programmpunkt des Striezelmarkts und findet regelmäßig am Hauptstand der Stollenbäckerei statt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei der Striezelbäckerei.",
+        "pronunciation": "beye-dehr-shtrEEtsuhlbEHkehrEYE",
+        "translation_en": "At the Stollen baker’s stall."
+      },
+      "responses": [
+        {
+          "english": "At the Stollen baker’s stall.",
+          "phonetic": "beye-dehr-shtrEEtsuhlbEHkehrEYE",
+          "french": "Bei der Striezelbäckerei."
+        }
+      ]
+    },
+    {
+      "id": "dresden_striezelmarkt_christmas_market_003",
+      "intent_en": "Is the Striezel plate sold hot now?",
+      "text_local": "Gibt es die Striezelplatte jetzt warm?",
+      "pronunciation": "EEpt-ehs-dee-shtrEEtsuhlplAHtuh-yEHtst-vAHrm",
+      "formality": "standard",
+      "cultural_note": "Die warme Striezelplatte ist ein traditionelles Gericht des Striezelmarkts und wird frisch am Backstand serviert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Stollenstand.",
+        "pronunciation": "yAHahm-shtAWluhnstAHnt",
+        "translation_en": "Yes, at the Stollen stall."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the Stollen stall.",
+          "phonetic": "yAHahm-shtAWluhnstAHnt",
+          "french": "Ja, am Stollenstand."
+        }
+      ]
+    },
+    {
+      "id": "dresden_striezelmarkt_christmas_market_004",
+      "intent_en": "Which stalls accept cards?",
+      "text_local": "Wo kann man mit Karte zahlen?",
+      "pronunciation": "vOH-kAHn-mahn-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Die meisten Stände sind Bargeld-Betrieb; Kartenzahlung ist eher selten und wird explizit kommuniziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur hier am Hauptstand.",
+        "pronunciation": "nOOr-hEEr-ahm-hOWptstahnt",
+        "translation_en": "Only here at the main stall."
+      },
+      "responses": [
+        {
+          "english": "Only here at the main stall.",
+          "phonetic": "nOOr-hEEr-ahm-hOWptstahnt",
+          "french": "Nur hier am Hauptstand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

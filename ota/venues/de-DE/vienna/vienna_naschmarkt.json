@@ -1,0 +1,100 @@
+{
+  "id": "vienna_naschmarkt",
+  "name_en": "Naschmarkt",
+  "name_local": "Wienzeiler Naschmarkt",
+  "icon": "cart",
+  "lat": 48.1981802,
+  "lon": 16.3626217,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "vienna_naschmarkt_001",
+      "intent_en": "Where is the Saturday flea market section?",
+      "text_local": "Wo ist der Flohmarkt am Samstag?",
+      "pronunciation": "vOH-ihst-dehr-flOHmahrkt-ahm-zAHmstahk",
+      "formality": "standard",
+      "cultural_note": "Flea market is an extension of the market on Saturdays along the Wienzeile.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Samstag entlang der Wienzeile.",
+        "pronunciation": "ahm-zAHmstahk-ehntlAHng-dehr-vEEntseyeluh",
+        "translation_en": "Along Wienzeile on Saturdays."
+      },
+      "responses": [
+        {
+          "english": "Along Wienzeile on Saturdays.",
+          "phonetic": "ahm-zAHmstahk-ehntlAHng-dehr-vEEntseyeluh",
+          "french": "Am Samstag entlang der Wienzeile."
+        }
+      ]
+    },
+    {
+      "id": "vienna_naschmarkt_002",
+      "intent_en": "Is bargaining allowed here?",
+      "text_local": "Darf man handeln?",
+      "pronunciation": "dAHrf-mahn-hAHnduhln",
+      "formality": "standard",
+      "cultural_note": "Bargaining is typical at flea markets in Austria.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, auf dem Flohmarkt.",
+        "pronunciation": "yAHowf-dehm-flOHmahrkt",
+        "translation_en": "Yes, at the flea market."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the flea market.",
+          "phonetic": "yAHowf-dehm-flOHmahrkt",
+          "french": "Ja, auf dem Flohmarkt."
+        }
+      ]
+    },
+    {
+      "id": "vienna_naschmarkt_003",
+      "intent_en": "Where do I weigh produce at the stall?",
+      "text_local": "Wo wiege ich das Obst?",
+      "pronunciation": "vOH-vEEuh-ihkh-dahs-OHpst",
+      "formality": "standard",
+      "cultural_note": "Most produce stalls have a visible scale for weighing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Stand mit der Waage.",
+        "pronunciation": "ahm-shtAHnt-miht-dehr-vAHuh",
+        "translation_en": "At the stall with the scale."
+      },
+      "responses": [
+        {
+          "english": "At the stall with the scale.",
+          "phonetic": "ahm-shtAHnt-miht-dehr-vAHuh",
+          "french": "Am Stand mit der Waage."
+        }
+      ]
+    },
+    {
+      "id": "vienna_naschmarkt_004",
+      "intent_en": "Can I sample cheese before buying?",
+      "text_local": "Darf ich Käse vor dem Kauf probieren?",
+      "pronunciation": "dAHrf-ihkh-kEHzuh-fAWr-dehm-kOWf-prohbEEruhn",
+      "formality": "standard",
+      "cultural_note": "Cheese sampling is a common practice at market stalls in Austria.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, probieren Sie hier.",
+        "pronunciation": "yAHprohbEEruhn-zee-hEEr",
+        "translation_en": "Yes, sample here."
+      },
+      "responses": [
+        {
+          "english": "Yes, sample here.",
+          "phonetic": "yAHprohbEEruhn-zee-hEEr",
+          "french": "Ja, probieren Sie hier."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,101 @@
+{
+  "id": "strasbourg_parlement_europeen",
+  "name_en": "Parlement Européen",
+  "name_local": "Parlement Européen",
+  "icon": "building.columns",
+  "lat": 48.5951,
+  "lon": 7.7644,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "strasbourg_parlement_001",
+      "intent_en": "Ask if the Parliament is open for visits today",
+      "text_local": "Le Parlement est-il ouvert aux visites aujourd'hui ?",
+      "pronunciation": "luh pah-luh-MAN eh-TEEL oo-VEHR oh vee-ZEET oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The European Parliament offers free visits when not in session. It's best to check online or call ahead.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "You need to check online. Visits depend on the sessions.",
+          "phonetic": "eel foh vay-ree-FYAY ahn LEEN-yuh. lay vee-ZEET day-PAHND day seh-SYOHN",
+          "french": "Il faut vérifier en ligne. Les visites dépendent des sessions."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_parlement_002",
+      "intent_en": "Ask about free visits",
+      "text_local": "Les visites guidée sont-elles gratuites ?",
+      "pronunciation": "lay vee-ZEET gee-DAY son-tel grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Free visits run year-round when Parliament is not in session. Book online. You'll see the hemicycle and committee rooms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, free. Book online.",
+          "phonetic": "wee, may lah ray-zair-vah-SYON ahn leen-yuh eh ploo SIMPL",
+          "french": "Oui, gratuites. Réservez en ligne."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_parlement_003",
+      "intent_en": "Ask where the entrance for visitors is",
+      "text_local": "Où est l'entrée pour les visiteurs ?",
+      "pronunciation": "oo eh lahn-TRAY poor lay vee-zee-TUHR",
+      "formality": "polite",
+      "cultural_note": "The visitor entrance is separate from the main entrance used by MEPs and staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The visitor entrance is on the east side, follow the signs.",
+          "phonetic": "lahn-TRAY vee-zee-TUHR eh koh-TAY EST, swee-VAY lay pah-NOH",
+          "french": "L'entrée visiteurs est côté est, suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_parlement_004",
+      "intent_en": "Ask if there is a café or restaurant inside",
+      "text_local": "Y a-t-il un café à l'intérieur ?",
+      "pronunciation": "ee ah-TEEL uhn kah-FAY ah lan-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "The Parliament building has a cafeteria accessible to visitors during tour hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there's a cafeteria open to visitors.",
+          "phonetic": "wee, eel ee ah oon kah-fay-tay-RYAH ahk-seh-SEEBL oh vee-zee-TUHR",
+          "french": "Oui, il y a une cafétéria accessible aux visiteurs."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Parliament",
+      "word_local": "le Parlement",
+      "pronunciation": "leh pah-luh-MAN"
+    },
+    {
+      "word_en": "hemicycle",
+      "word_local": "l'hémicycle",
+      "pronunciation": "lay-mee-SEEK-luh"
+    },
+    {
+      "word_en": "deputy",
+      "word_local": "le député",
+      "pronunciation": "leh day-poo-TAY"
+    },
+    {
+      "word_en": "European",
+      "word_local": "européen",
+      "pronunciation": "ay-oo-roh-PYAN"
+    }
+  ]
+}

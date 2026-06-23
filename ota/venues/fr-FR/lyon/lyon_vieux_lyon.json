@@ -1,0 +1,132 @@
+{
+  "id": "lyon_vieux_lyon",
+  "name_en": "Old Lyon",
+  "name_local": "Vieux Lyon",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "lyon_vieux_lyon_001",
+      "intent_en": "Ask to walk through a traboule",
+      "text_local": "Est-ce que je peux traverser la traboule ?",
+      "pronunciation": "es-kuh zhuh puh trah-vair-SAY lah trah-BOOL",
+      "formality": "polite",
+      "cultural_note": "Traboules are Lyon's famous hidden passageways cutting through buildings. Many are on private property but open to respectful visitors. Always ask before entering.",
+      "responses": [
+        {
+          "english": "Yes, come in. Push the door.",
+          "phonetic": "wee, ahn-TRAY. poo-SAY lah PORT",
+          "french": "Oui, entrez. Poussez la porte."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_vieux_lyon_002",
+      "intent_en": "Ask for directions to the Renaissance district",
+      "text_local": "Pouvez-vous m'indiquer le quartier Renaissance, s'il vous plaît ?",
+      "pronunciation": "poo-vay-VOO man-dee-KAY luh kar-TYAY ruh-neh-SAHNS, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Vieux Lyon is one of Europe's largest Renaissance districts. The Saint-Jean, Saint-Paul, and Saint-Georges sub-neighbourhoods each have distinct characters.",
+      "responses": [
+        {
+          "english": "Keep straight, it's Rue Saint-Jean.",
+          "phonetic": "kohn-tee-NWAY too DRWAH, seh lah ROO sant-ZHAHN",
+          "french": "Continuez tout droit, c'est la rue Saint-Jean."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_vieux_lyon_003",
+      "intent_en": "Ask about opening times at a bouchon",
+      "text_local": "À quelle heure ouvrez-vous le soir ?",
+      "pronunciation": "ah kel UR oo-VRAY-voo luh SWAR",
+      "formality": "polite",
+      "cultural_note": "A bouchon is Lyon's iconic traditional restaurant. They typically serve quenelles, andouillette, and tablier de sapeur. Lunch is often better value than dinner.",
+      "responses": [
+        {
+          "english": "We open at noon.",
+          "phonetic": "ohn OOVR ah mee-DEE",
+          "french": "On ouvre à midi."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_vieux_lyon_004",
+      "intent_en": "Ask if a dish contains offal",
+      "text_local": "Est-ce que ce plat contient des abats ?",
+      "pronunciation": "es-kuh suh PLAH kohn-TYAHN day za-BAH",
+      "formality": "polite",
+      "cultural_note": "Lyonnais cuisine traditionally features offal. Classic dishes like andouillette (tripe sausage) and tablier de sapeur (tripe breaded and grilled) are not for the faint-hearted.",
+      "responses": [
+        {
+          "english": "No, it's without offal.",
+          "phonetic": "nohn, seh sahn ah-BAH",
+          "french": "Non, c'est sans abats."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_vieux_lyon_005",
+      "intent_en": "Request a table for two at a bouchon",
+      "text_local": "Avez-vous une table pour deux personnes, s'il vous plaît ?",
+      "pronunciation": "ah-VAY-voo oon TAH-bluh poor duh pair-SON, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Authentic bouchons are small and book up fast. Arriving early or reserving in advance is strongly recommended, especially on weekends.",
+      "responses": [
+        {
+          "english": "Yes, take a seat. This way.",
+          "phonetic": "wee, ehn-stah-LAY voo. par ee-SEE",
+          "french": "Oui, installez-vous. Par ici."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_vieux_lyon_006",
+      "intent_en": "Compliment the food in a bouchon",
+      "text_local": "C'est vraiment délicieux, mes compliments au chef.",
+      "pronunciation": "say vreh-MAHN day-lee-SYUH, may kohm-plee-MAHN oh SHEF",
+      "formality": "polite",
+      "cultural_note": "Lyonnais take enormous pride in their cuisine. Complimenting the chef is always appreciated and may earn you a digestif on the house.",
+      "responses": [
+        {
+          "english": "Thanks, that's kind!",
+          "phonetic": "mehr-SEE, seh zhahn-TEE",
+          "french": "Merci, c'est gentil !"
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "hidden passageway",
+      "word_local": "la traboule",
+      "pronunciation": "lah trah-BOOL"
+    },
+    {
+      "word_en": "traditional Lyonnais restaurant",
+      "word_local": "le bouchon",
+      "pronunciation": "luh boo-SHOHN"
+    },
+    {
+      "word_en": "offal / organ meat",
+      "word_local": "les abats",
+      "pronunciation": "lay za-BAH"
+    },
+    {
+      "word_en": "Renaissance district",
+      "word_local": "le quartier Renaissance",
+      "pronunciation": "luh kar-TYAY ruh-neh-SAHNS"
+    }
+  ]
+}

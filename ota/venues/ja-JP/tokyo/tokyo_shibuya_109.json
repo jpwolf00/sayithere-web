@@ -1,0 +1,122 @@
+{
+  "id": "tokyo_shibuya_109",
+  "name_en": "Shibuya 109",
+  "name_local": "シブヤ109",
+  "icon": "bag",
+  "lat": 35.6596004,
+  "lon": 139.6986799,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "tokyo_shibuya_109_001",
+      "intent_en": "Where is gift wrapping station?",
+      "text_local": "ラッピングの ところは どこですか？",
+      "pronunciation": "HpeenggOOnoh-tOHkohOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Gift wrapping (ラッピング) is a common service, often handled at a small station right beside the main checkout counter.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "レジの となりに ございます。",
+        "pronunciation": "ehdEEnoh-tOHnEEnee-gOHzeemSoo",
+        "translation_en": "It's next to the cash register."
+      },
+      "responses": [
+        {
+          "english": "It's next to the cash register.",
+          "phonetic": "ehdEEnoh-tOHnEEnee-gOHzeemSoo",
+          "french": "レジの となりに ございます。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shibuya_109_002",
+      "intent_en": "How do I register point card?",
+      "text_local": "ポイントカードの とうろくは どうやりますか？",
+      "pronunciation": "pOHeentOHkdOHnoh-tOHooohkOOh-dOHooyEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Point card registration in Japan is now often a self-service process via smartphone, requiring basic personal details.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "この QRコードを よみとって、じゅうしょを にゅうりょくしてください。",
+        "pronunciation": "kOHnoh-ehnkyOO-AHyah-kOH-ehndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-OH-yOHmeetOHttehdOOooOHoh-nOOooOHkOOeetEHkoodsEE",
+        "translation_en": "Scan this QR code and enter your address."
+      },
+      "responses": [
+        {
+          "english": "Scan this QR code and enter your address.",
+          "phonetic": "kOHnoh-ehnkyOO-AHyah-kOH-ehndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-OH-yOHmeetOHttehdOOooOHoh-nOOooOHkOOeetEHkoodsEE",
+          "french": "この QRコードを よみとって、じゅうしょを にゅうりょくしてください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shibuya_109_003",
+      "intent_en": "Where is the tax-free counter?",
+      "text_local": "めんぜいの カウンターは どこですか？",
+      "pronunciation": "mEHzehEEnoh-kOOntH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In Japanese department stores, key services like tax-free counters are often on upper floors, accessible by elevator.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "8かいです。エレベーターで どうぞ。",
+        "pronunciation": "hTsee-kEEdEHsooEHehbehehtDeh-dohOOzoh",
+        "translation_en": "It's on the 8th floor. Please take the elevator."
+      },
+      "responses": [
+        {
+          "english": "It's on the 8th floor. Please take the elevator.",
+          "phonetic": "hTsee-kEEdEHsooEHehbehehtDeh-dohOOzoh",
+          "french": "8かいです。エレベーターで どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shibuya_109_004",
+      "intent_en": "Do I need deposit for fitting room?",
+      "text_local": "しちゃくしつの ようきんは いりますか？",
+      "pronunciation": "EEtkOOeetsOOnoh-yOHookeeH-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "While some stores require a face-cover to protect makeup, a deposit is not standard in most Japanese fitting rooms.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、いりません。そのまま おはいりください。",
+        "pronunciation": "EEehEEeemSehsOHnohmM-OHhEEeekOOdsEE",
+        "translation_en": "No, you don't. Please go right in."
+      },
+      "responses": [
+        {
+          "english": "No, you don't. Please go right in.",
+          "phonetic": "EEehEEeemSehsOHnohmM-OHhEEeekOOdsEE",
+          "french": "いいえ、いりません。そのまま おはいりください。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_shibuya_109_005",
+      "intent_en": "Can I return items at service desk?",
+      "text_local": "サービスカウンターで へんぴん できますか？",
+      "pronunciation": "sBeesOOkoontDeh-hehPee-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Returns are typically handled at a central service desk, not individual shops, and always require the original receipt.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、できます。レシートを おもちください。",
+        "pronunciation": "hEEdEHkeemSooEHeetOHoh-OHmohtEEkoodsEE",
+        "translation_en": "Yes, you can. Please have your receipt."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can. Please have your receipt.",
+          "phonetic": "hEEdEHkeemSooEHeetOHoh-OHmohtEEkoodsEE",
+          "french": "はい、できます。レシートを おもちください。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

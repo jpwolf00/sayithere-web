@@ -1,0 +1,100 @@
+{
+  "id": "bad_ischl_trinkhalle_wellness_hall",
+  "name_en": "Trinkhalle Wellness Hall",
+  "name_local": "Trinkhalle Bad Ischl",
+  "icon": "building.columns",
+  "lat": 47.7111976,
+  "lon": 13.6234171,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "bad_ischl_trinkhalle_wellness_hall_001",
+      "intent_en": "Where do I rent towels?",
+      "text_local": "Wo bekomme ich Handtücher?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-hAHnttUEkh",
+      "formality": "casual",
+      "cultural_note": "Towels are commonly rented at a dedicated counter in Austrian wellness facilities.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Handtuchverleih.",
+        "pronunciation": "ahm-hAHnttUHkhflEYE",
+        "translation_en": "At the towel rental counter."
+      },
+      "responses": [
+        {
+          "english": "At the towel rental counter.",
+          "phonetic": "ahm-hAHnttUHkhflEYE",
+          "french": "Am Handtuchverleih."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_trinkhalle_wellness_hall_002",
+      "intent_en": "Where do I book spa treatments?",
+      "text_local": "Wo buche ich Wellnessbehandlungen?",
+      "pronunciation": "vOH-bOOkhuh-ihkh-vEHlnehsbEHahndlUHnguhn",
+      "formality": "standard",
+      "cultural_note": "In Austria, wellness and spa services are typically booked at a dedicated counter or reception desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Trinkhalle.",
+        "pronunciation": "ahm-shAHlt-dehr-trINGkhahluh",
+        "translation_en": "At the Trinkhalle counter."
+      },
+      "responses": [
+        {
+          "english": "At the Trinkhalle counter.",
+          "phonetic": "ahm-shAHlt-dehr-trINGkhahluh",
+          "french": "Am Schalter der Trinkhalle."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_trinkhalle_wellness_hall_003",
+      "intent_en": "Is the mineral water fountain free?",
+      "text_local": "Ist der Heilwasserbrunnen kostenlos?",
+      "pronunciation": "ihst-dehr-hEYElvahsbrUHnuhn-kAWstuhnlOHs",
+      "formality": "standard",
+      "cultural_note": "In Austrian wellness resorts, mineral water access is often free as part of public health infrastructure.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, kostenlos.",
+        "pronunciation": "yAHkAWstuhnlOHs",
+        "translation_en": "Yes, free of charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, free of charge.",
+          "phonetic": "yAHkAWstuhnlOHs",
+          "french": "Ja, kostenlos."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_trinkhalle_wellness_hall_004",
+      "intent_en": "How do I get a massage appointment?",
+      "text_local": "Wie bekomme ich einen Massagetermin?",
+      "pronunciation": "vee-buhkAWmuh-ihkh-EYEnuhn-mAHsahzhEHtmEEn",
+      "formality": "casual",
+      "cultural_note": "Massage appointments in Austrian spas are typically scheduled in person or by phone at a dedicated desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Massage-Schalter buchen.",
+        "pronunciation": "ahm-mahsAHzhuhshAHlt-bOOkhuhn",
+        "translation_en": "Book at the massage desk."
+      },
+      "responses": [
+        {
+          "english": "Book at the massage desk.",
+          "phonetic": "ahm-mahsAHzhuhshAHlt-bOOkhuhn",
+          "french": "Am Massage-Schalter buchen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

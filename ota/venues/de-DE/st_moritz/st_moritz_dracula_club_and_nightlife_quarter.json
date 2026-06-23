@@ -1,0 +1,100 @@
+{
+  "id": "st_moritz_dracula_club_and_nightlife_quarter",
+  "name_en": "Dracula Club and Nightlife Quarter",
+  "name_local": "Dracula Club St. Moritz",
+  "icon": "map",
+  "lat": 46.4978958,
+  "lon": 9.8392428,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "st_moritz_dracula_club_and_nightlife_quarter_001",
+      "intent_en": "How do I add drinks to my ski pass",
+      "text_local": "Wie kann ich Getränke zum Skipass hinzufügen?",
+      "pronunciation": "vee-kAHn-ihkh-uhtrEHngkuh-tsuhm-skEEpahs-bOOkhuhn",
+      "formality": "casual",
+      "cultural_note": "Add-ons are processed at the ski base ticket office; staff can scan drinks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Skischule.",
+        "pronunciation": "ahm-shAHlt-dehr-skIHshooluh",
+        "translation_en": "At the ski school counter."
+      },
+      "responses": [
+        {
+          "english": "At the ski school counter.",
+          "phonetic": "ahm-shAHlt-dehr-skIHshooluh",
+          "french": "Am Schalter der Skischule."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_dracula_club_and_nightlife_quarter_002",
+      "intent_en": "Do hotels nearby guest discounts apply",
+      "text_local": "Gibt es Hotelrabatte?",
+      "pronunciation": "EEpt-ehs-hOHtuhlrAHbahtuh",
+      "formality": "standard",
+      "cultural_note": "Discounts are typically applied to bar tabs, not cover charges.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Bar.",
+        "pronunciation": "yAHahn-dehr-bAHr",
+        "translation_en": "Yes, at the bar."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the bar.",
+          "phonetic": "yAHahn-dehr-bAHr",
+          "french": "Ja, an der Bar."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_dracula_club_and_nightlife_quarter_003",
+      "intent_en": "Is there a cover charge tonight",
+      "text_local": "Gibt es heute Eintritt?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-EYEntrIHt",
+      "formality": "standard",
+      "cultural_note": "Cover charges may vary by event; bouncer announces price at door.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "25 Franken.",
+        "pronunciation": "fUEnf-uhnttsvAHntsihkh-frAHngkuhn",
+        "translation_en": "25 CHF."
+      },
+      "responses": [
+        {
+          "english": "25 CHF.",
+          "phonetic": "fUEnf-uhnttsvAHntsihkh-frAHngkuhn",
+          "french": "25 Franken."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_dracula_club_and_nightlife_quarter_004",
+      "intent_en": "Where is bottle service reserved",
+      "text_local": "Wo ist die Flaschenservice-Reservierung?",
+      "pronunciation": "vOH-rEHzehrvEEruhnguhn-fuer-flAHshuhn",
+      "formality": "standard",
+      "cultural_note": "Bottle service is arranged at the bar counter; no separate desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im VIP-Bereich oben.",
+        "pronunciation": "ihm-fOWEEpEHbuhrEYEkh-OHbuhn",
+        "translation_en": "In the VIP area upstairs."
+      },
+      "responses": [
+        {
+          "english": "In the VIP area upstairs.",
+          "phonetic": "ihm-fOWEEpEHbuhrEYEkh-OHbuhn",
+          "french": "Im VIP-Bereich oben."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

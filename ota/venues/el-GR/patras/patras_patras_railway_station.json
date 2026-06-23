@@ -1,0 +1,122 @@
+{
+  "id": "patras_patras_railway_station",
+  "name_en": "Patras Railway Station",
+  "name_local": "Σιδηροδρομικός Σταθμός Πάτρας",
+  "icon": "tram",
+  "lat": 38.2498734,
+  "lon": 21.7352013,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "patras_patras_railway_station_001",
+      "intent_en": "Do you verify student discount",
+      "text_local": "Ελέγχετε έκπτωση φοιτητών;",
+      "pronunciation": "ehlEHngkhehtEH-EHkptohsEE-fEEteetOHn",
+      "formality": "standard",
+      "cultural_note": "Η έκπτωση φοιτητών είναι κοινή πρακτική στα περιφερειακά τρένα της Ελλάδας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, με φοιτητική ταυτότητα.",
+        "pronunciation": "nEHmeh-fEEteeteeEE-tahftOHteetAH",
+        "translation_en": "Yes, with student ID."
+      },
+      "responses": [
+        {
+          "english": "Yes, with student ID.",
+          "phonetic": "nEHmeh-fEEteeteeEE-tahftOHteetAH",
+          "french": "Ναι, με φοιτητική ταυτότητα."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_railway_station_002",
+      "intent_en": "Where is the ticket counter",
+      "text_local": "Πού είναι το ταμείο;",
+      "pronunciation": "pOO-EEneh-toh-tahmEEoh-EEseeteerEEohn",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι στον χώρο των εισιτηρίων είναι εξοικειωμένοι με ξένους επισκέπτες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην είσοδο, αριστερά.",
+        "pronunciation": "thEEplah-steen-EEsohthOHAHreestehrAH",
+        "translation_en": "The ticket counter is at the station entrance, next to the information desk. From there, follow the signs to Platform 1 towards Athens."
+      },
+      "responses": [
+        {
+          "english": "The ticket counter is at the station entrance, next to the information desk. From there, follow the signs to Platform 1 towards Athens.",
+          "phonetic": "thEEplah-steen-EEsohthOHAHreestehrAH",
+          "french": "Δίπλα στην είσοδο, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_railway_station_003",
+      "intent_en": "Is the next Athens train delayed",
+      "text_local": "Είναι αργοπορημένο το επόμενο τρένο για Αθήνα;",
+      "pronunciation": "EEneh-AHrghohpOHreemEHnoh-toh-ehpOHmehnOH-trEHnoh-yAH-ahthEEnah",
+      "formality": "standard",
+      "cultural_note": "Οι ανακοινώσεις για καθυστερήσεις γίνονται κυρίως μέσω των υπηρεσιών πληροφοριών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχει καθυστέρηση δέκα λεπτά.",
+        "pronunciation": "nEHEHkhee-kAHtheestEHreesEE-thEHkah-lehptAH",
+        "translation_en": "Yes, it is ten minutes late."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is ten minutes late.",
+          "phonetic": "nEHEHkhee-kAHtheestEHreesEE-thEHkah-lehptAH",
+          "french": "Ναι, έχει καθυστέρηση δέκα λεπτά."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_railway_station_004",
+      "intent_en": "Which platform for Kiato train",
+      "text_local": "Ποια πλατφόρμα για το Κιάτο;",
+      "pronunciation": "pOO-EEneh-ee-plahtfOHrmah-yAH-toh-trEHnoh-too-AHtoo",
+      "formality": "standard",
+      "cultural_note": "Οι επιβάτες συνηθίζουν να ακολουθούν τις πινακίδες λόγω συχνών αλλαγών στις αποβάθρες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Η δεύτερη πλατφόρμα.",
+        "pronunciation": "ee-thEHftehrEE-plahtfOHrmah",
+        "translation_en": "The second platform."
+      },
+      "responses": [
+        {
+          "english": "The second platform.",
+          "phonetic": "ee-thEHftehrEE-plahtfOHrmah",
+          "french": "Η δεύτερη πλατφόρμα."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_railway_station_005",
+      "intent_en": "Where is the port connection shuttle",
+      "text_local": "Πού είναι το λεωφορείο για το λιμάνι;",
+      "pronunciation": "pOO-EEneh-toh-thrOHmohlOHyoh-yAH-toh-leemAHnee",
+      "formality": "standard",
+      "cultural_note": "Το δρομολόγιο προς το λιμάνι είναι συχνό λόγω των συνδέσεων με την Αίγινα και άλλες περιοχές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά έξω από τον σταθμό, στάση 3.",
+        "pronunciation": "AHreestehrAH-EHksoh-ahpOH-tohn-stahthmOHstAHsee-trEEah",
+        "translation_en": "Follow the signs to Port."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to Port.",
+          "phonetic": "AHreestehrAH-EHksoh-ahpOH-tohn-stahthmOHstAHsee-trEEah",
+          "french": "Αριστερά έξω από τον σταθμό, στάση 3."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

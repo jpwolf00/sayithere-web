@@ -1,0 +1,101 @@
+{
+  "id": "marseille_cours_julien",
+  "name_en": "Cours Julien",
+  "name_local": "Cours Julien",
+  "icon": "figure.walk",
+  "lat": 43.2932,
+  "lon": 5.3907,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "marseille_coursjulien_001",
+      "intent_en": "Ask where the nearest toilets are",
+      "text_local": "Où sont les toilettes les plus proches ?",
+      "pronunciation": "oo son lay twah-LET lay plew PROHSH",
+      "formality": "polite",
+      "cultural_note": "Public toilets can be hard to find; cafés usually allow customers to use theirs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are public toilets at the bottom of the square.",
+          "phonetic": "eel ee ah day twah-LET pub-LEEK ahn bah duh lah PLASS",
+          "french": "Il y a des toilettes publiques en bas de la place."
+        }
+      ]
+    },
+    {
+      "id": "marseille_coursjulien_002",
+      "intent_en": "Ask where to find the best street food",
+      "text_local": "Où trouver le meilleur street food ?",
+      "pronunciation": "oo troo-VAY leh may-YUHR street FOOD",
+      "formality": "neutral",
+      "cultural_note": "The area has a young, creative vibe with food trucks, falafel shops, and trendy cafés. Try the falafel at 'Mama' or 'Sultan'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are several stands on this street. Try over there.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Il y a plusieurs stands dans cette rue. Essayez par là."
+        }
+      ]
+    },
+    {
+      "id": "marseille_coursjulien_003",
+      "intent_en": "Ask about the Sunday market",
+      "text_local": "Y a-t-il un marché le dimanche ?",
+      "pronunciation": "ee ah-TEEL uhn mar-SHAY luh dee-MANSH",
+      "formality": "polite",
+      "cultural_note": "There's a brocante (flea market) on Sundays. It's a great place to find vintage treasures and antiques.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, on Sunday mornings, there's a flea market.",
+          "phonetic": "say luh week-END proh-SHAN",
+          "french": "Oui, le dimanche matin, il y a une brocante."
+        }
+      ]
+    },
+    {
+      "id": "marseille_coursjulien_004",
+      "intent_en": "Ask if there is an ATM nearby",
+      "text_local": "Y a-t-il un distributeur de billets par ici ?",
+      "pronunciation": "ee ah-TEEL uhn dee-stree-boo-TUHR duh bee-YAY par ee-SEE",
+      "formality": "polite",
+      "cultural_note": "ATMs (distributeurs) are common in France. Look for signs saying 'DAB' or the bank logos.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there's one at the corner of the street.",
+          "phonetic": "wee, eel ee ahn ah uhn oh KWAN duh lah ROO",
+          "french": "Oui, il y en a un au coin de la rue."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "street art",
+      "word_local": "le street art",
+      "pronunciation": "leh street ART"
+    },
+    {
+      "word_en": "graffiti",
+      "word_local": "le graff",
+      "pronunciation": "leh GRAH-fee"
+    },
+    {
+      "word_en": "neighborhood",
+      "word_local": "le quartier",
+      "pronunciation": "leh kar-TYAY"
+    },
+    {
+      "word_en": "fountain",
+      "word_local": "la fontaine",
+      "pronunciation": "lah fon-TEN"
+    }
+  ]
+}

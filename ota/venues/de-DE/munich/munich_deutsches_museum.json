@@ -1,0 +1,144 @@
+{
+  "id": "munich_deutsches_museum",
+  "name_en": "Deutsches Museum",
+  "name_local": "Deutsches Museum",
+  "icon": "building.columns",
+  "lat": 48.1300409,
+  "lon": 11.582909,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "munich_deutsches_museum_001",
+      "intent_en": "Is the coat check mandatory for large bags",
+      "text_local": "Muss ich große Taschen abgeben?",
+      "pronunciation": "mUHs-ihkh-rOHsuh-tAHshuhn-AHpEHbuhn",
+      "formality": "standard",
+      "cultural_note": "Coat check policies are commonly enforced at major German museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "munich_deutsches_museum_002",
+      "intent_en": "Where is the ticket office",
+      "text_local": "Wo ist die Kasse?",
+      "pronunciation": "vOH-ihst-dee-kAHsuh",
+      "formality": "standard",
+      "cultural_note": "Kasse is a standard term for ticket office in German museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eingang.",
+        "pronunciation": "ahm-EYEnAHng",
+        "translation_en": "At the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the entrance.",
+          "phonetic": "ahm-EYEnAHng",
+          "french": "Am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "munich_deutsches_museum_003",
+      "intent_en": "Where is the children's area",
+      "text_local": "Wo ist der Kinderbereich?",
+      "pronunciation": "vOH-ihst-dehr-kIHndbuhrEYEkh",
+      "formality": "standard",
+      "cultural_note": "Kinderreich is a well-known children's area in the Deutsches Museum.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Untergeschoss neben der Kasse.",
+        "pronunciation": "ihm-UHntguhshAWs-nEHbuhn-dehr-kAHsuh",
+        "translation_en": "In the basement next to the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "In the basement next to the ticket counter.",
+          "phonetic": "ihm-UHntguhshAWs-nEHbuhn-dehr-kAHsuh",
+          "french": "Im Untergeschoss neben der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "munich_deutsches_museum_004",
+      "intent_en": "Can I book a guided tour at the desk",
+      "text_local": "Kann ich die Führung buchen?",
+      "pronunciation": "kAHn-ihkh-dee-fUEruhng-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Guided tours are typically booked at the ticket/Fremdenführer desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "munich_deutsches_museum_005",
+      "intent_en": "Where is the Lilienthal glider exhibit",
+      "text_local": "Wo steht das Lilienthal-Flugzeug?",
+      "pronunciation": "vOH-shtEHt-dahs-lEEleentAHlflOOtsawuhk",
+      "formality": "standard",
+      "cultural_note": "Pionierflugzeug Otto Lilienthal is a key exhibit in the aviation hall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Flugbereich.",
+        "pronunciation": "ihm-flOObuhrEYEkh",
+        "translation_en": "In the aviation section."
+      },
+      "responses": [
+        {
+          "english": "In the aviation section.",
+          "phonetic": "ihm-flOObuhrEYEkh",
+          "french": "Im Flugbereich."
+        }
+      ]
+    },
+    {
+      "id": "munich_deutsches_museum_006",
+      "intent_en": "Is the planetarium show included",
+      "text_local": "Ist das Planetarium inklusive?",
+      "pronunciation": "ihst-dahs-plAHnehtAHreeUHm-ihnkloozEEvuh",
+      "formality": "standard",
+      "cultural_note": "Planetarium shows often require separate admission at German museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, extra Ticket.",
+        "pronunciation": "nEYEnEHkstrah-tIHkuht",
+        "translation_en": "No, extra ticket."
+      },
+      "responses": [
+        {
+          "english": "No, extra ticket.",
+          "phonetic": "nEYEnEHkstrah-tIHkuht",
+          "french": "Nein, extra Ticket."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

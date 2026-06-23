@@ -1,0 +1,100 @@
+{
+  "id": "lucerne_musegg_wall_medieval_fortifications",
+  "name_en": "Musegg Wall medieval fortifications",
+  "name_local": "Museggmauer",
+  "icon": "leaf",
+  "lat": 47.0538083,
+  "lon": 8.3020718,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "lucerne_musegg_wall_medieval_fortifications_001",
+      "intent_en": "Ask if Zyt Tower clock is visible inside",
+      "text_local": "Ist die Uhr im Zytturm von innen zu sehen?",
+      "pronunciation": "ihst-dee-OOr-ihm-tsUEtuhuhm-fawn-IHnuhn-tsoo-zEHuhn",
+      "formality": "standard",
+      "cultural_note": "Die Uhrmechanik ist ein zentrales Element der historischen Türme und oft zugänglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, oben im Turm.",
+        "pronunciation": "yAHOHbuhn-ihm-tUHuhm",
+        "translation_en": "Yes, upstairs in the tower."
+      },
+      "responses": [
+        {
+          "english": "Yes, upstairs in the tower.",
+          "phonetic": "yAHOHbuhn-ihm-tUHuhm",
+          "french": "Ja, oben im Turm."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_musegg_wall_medieval_fortifications_002",
+      "intent_en": "Ask how to join guided tower tours",
+      "text_local": "Wo kann man sich für Turmführungen anmelden?",
+      "pronunciation": "vOH-kAHn-mahn-zihkh-fuer-tUHuhmfuerUHnguhn-AHnmEHlduhn",
+      "formality": "standard",
+      "cultural_note": "Führungen werden zentral über die Touristeninformation koordiniert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Touristeninfo.",
+        "pronunciation": "ahm-shAHlt-dehr-tOOrihstehnIHnfoh",
+        "translation_en": "At the tourist information counter."
+      },
+      "responses": [
+        {
+          "english": "At the tourist information counter.",
+          "phonetic": "ahm-shAHlt-dehr-tOOrihstehnIHnfoh",
+          "french": "Am Schalter der Touristeninfo."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_musegg_wall_medieval_fortifications_003",
+      "intent_en": "Ask where Luegisland Tower is from here",
+      "text_local": "Wo ist der Luegislandturm von hier?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-lOOehIHslahntUHuhm",
+      "formality": "casual",
+      "cultural_note": "Die Türme der Museggmauer sind entlang des Wallwegs verteilt und gut beschildert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie den Weg hinauf.",
+        "pronunciation": "gEHuhn-zee-dehn-vEHk-hihnOWf",
+        "translation_en": "Go up the path."
+      },
+      "responses": [
+        {
+          "english": "Go up the path.",
+          "phonetic": "gEHuhn-zee-dehn-vEHk-hihnOWf",
+          "french": "Gehen Sie den Weg hinauf."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_musegg_wall_medieval_fortifications_004",
+      "intent_en": "Ask where Männli Tower entrance is",
+      "text_local": "Wo ist der Eingang zum Männliturm?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-mEHnleetUHuhm",
+      "formality": "standard",
+      "cultural_note": "Eingänge zu Türmen sind oft unscheinbar und nicht immer direkt ausgeschildert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinterer Musegg, bei der Mauer.",
+        "pronunciation": "hIHntuhr-mOOzehkbeye-dehr-mOW",
+        "translation_en": "Behind Musegg, at the wall."
+      },
+      "responses": [
+        {
+          "english": "Behind Musegg, at the wall.",
+          "phonetic": "hIHntuhr-mOOzehkbeye-dehr-mOW",
+          "french": "Hinterer Musegg, bei der Mauer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "cannes_port_vieux",
+  "name_en": "Cannes Old Port",
+  "name_local": "Vieux Port de Cannes",
+  "icon": "figure.walk",
+  "lat": 43.5509,
+  "lon": 7.016,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "cannes_port_001",
+      "intent_en": "Ask where the island ferry departs from",
+      "text_local": "Depuis quel quai partent les ferries pour les îles de Lérins ?",
+      "pronunciation": "deh-PWEE kel KAY PART lay FEH-ree poor lay EEL deh lay-RAN",
+      "formality": "polite",
+      "cultural_note": "Island ferries leave from Quai Laubeuf on the western side of the old port. Look for the kiosks selling tickets.",
+      "responses": [
+        {
+          "english": "At the end of the quay, over there.",
+          "phonetic": "oh BOO doo KEH, lah-BAH",
+          "french": "Au bout du quai, là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_port_002",
+      "intent_en": "Comment on the yachts and ask if any are available for day charter",
+      "text_local": "Ces yachts sont somptueux ! Est-il possible d'en louer un pour la journée ?",
+      "pronunciation": "say YAKT son somp-TYOO-uh ! eh-TEEL po-SEEBL dan loo-AY un poor lah zhoor-NAY",
+      "formality": "polite",
+      "cultural_note": "During the Film Festival and Monaco Grand Prix, Cannes port fills with some of the world's largest superyachts.",
+      "responses": [
+        {
+          "english": "You'd need to check with the captain.",
+          "phonetic": "eel foh VWAHR ah-VEK luh kah-pee-TEN",
+          "french": "Il faut voir avec le capitaine."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_port_003",
+      "intent_en": "Ask where the fish auction happens in the morning",
+      "text_local": "Où se déroule la criée aux poissons le matin ?",
+      "pronunciation": "oo seh day-ROOL lah kree-AY oh pwah-SON leh mah-TAN",
+      "formality": "polite",
+      "cultural_note": "The early morning fish auction (criée) takes place on the western quay — local restaurants buy the daily catch here.",
+      "responses": [
+        {
+          "english": "Early morning, around 6 AM.",
+          "phonetic": "TOH luh mah-TEHN, vehr seez UHR",
+          "french": "Tôt le matin, vers six heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_port_004",
+      "intent_en": "Ask for a table at a portside restaurant",
+      "text_local": "Auriez-vous une table en terrasse avec vue sur le port, s'il vous plaît ?",
+      "pronunciation": "oh-RYAY voo oon TAB-leh an teh-RAS ah-VEK vyoo soor leh POR seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The restaurants on Allée de la Liberté beside the port are ideal for watching the fishing boats while dining.",
+      "responses": [
+        {
+          "english": "Yes, take a seat on the terrace.",
+          "phonetic": "wee, ehn-stah-LAY voo ahn teh-RAHS",
+          "french": "Oui, installez-vous en terrasse."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_port_005",
+      "intent_en": "Ask how far it is to walk to La Croisette",
+      "text_local": "Quelle est la distance à pied entre le port et La Croisette ?",
+      "pronunciation": "KEL eh lah dees-TANS ah PYAY an-treh leh POR ay lah kwah-ZET",
+      "formality": "polite",
+      "cultural_note": "The old port is just at the western end of La Croisette — an easy 5-minute walk past the Palais des Festivals.",
+      "responses": [
+        {
+          "english": "Ten minutes on foot.",
+          "phonetic": "dee mee-NOOT ah PYAY",
+          "french": "Dix minutes à pied."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "yacht",
+      "word_local": "le yacht",
+      "pronunciation": "leh YAKT"
+    },
+    {
+      "word_en": "charter (a boat)",
+      "word_local": "louer (un bateau)",
+      "pronunciation": "loo-AY"
+    },
+    {
+      "word_en": "fish auction",
+      "word_local": "la criée",
+      "pronunciation": "lah kree-AY"
+    },
+    {
+      "word_en": "quay / dock",
+      "word_local": "le quai",
+      "pronunciation": "leh KAY"
+    }
+  ]
+}

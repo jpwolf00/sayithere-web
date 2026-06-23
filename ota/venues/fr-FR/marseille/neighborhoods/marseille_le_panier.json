@@ -1,0 +1,118 @@
+{
+  "id": "marseille_le_panier",
+  "name_en": "Le Panier",
+  "name_local": "Le Panier",
+  "icon": "building.2",
+  "lat": 43.298,
+  "lon": 5.368,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "marseille_nbhd_panier_001",
+      "intent_en": "Ask for directions to Le Panier",
+      "text_local": "Comment aller au Panier depuis le Vieux-Port ?",
+      "pronunciation": "kuh-MAN ah-LAY oh pah-NYAY deh-PWEE leh VYUH-POR",
+      "formality": "polite",
+      "cultural_note": "Le Panier is Marseille's oldest district, rising up the hill behind the Vieux-Port. It's often compared to Montmartre in Paris.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go up the stairs behind the City Hall. It's 5 minutes away.",
+          "phonetic": "wee byan soor, see say dee-spoh-nee-BL",
+          "french": "Montez les escaliers depuis le Vieux-Port, c'est à 5 minutes à pied. Le quartier commence juste derrière l'Hôtel de Ville."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_panier_002",
+      "intent_en": "Ask about the street art tour",
+      "text_local": "Y a-t-il une visite guidée du street art dans ce quartier ?",
+      "pronunciation": "ee ah-TEEL oon vee-ZEET gee-DAY doo street ART dan suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Le Panier is covered in murals. The association 'Regards de Provence' offers free walking tours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the 'Regards de Provence' association offers free guided tours of the street art in the neighborhood.",
+          "phonetic": "wee, may lah ray-zair-vah-SYON ahn leen-yuh eh ploo SIMPL",
+          "french": "Oui, l'association 'Regards de Provence' propose des visites guidées gratuites du street art dans le quartier."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_panier_003",
+      "intent_en": "Ask about the artisan shops",
+      "text_local": "Où trouve-t-on les artisans du quartier ?",
+      "pronunciation": "oo troo-VAHN layz ar-tee-ZAN doo kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "The area has traditional workshops: soap makers, leather workers, and basket weavers — a dying craft.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the alleys of Le Panier, especially around Place des Moulins.",
+          "phonetic": "",
+          "french": "Les artisans sont installés rue du Petit-Puits et rue des Muettes : savonniers, maroquiniers et vanniers y travaillent encore."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_panier_004",
+      "intent_en": "Ask about the best viewpoint over the port",
+      "text_local": "D'où peut-on voir le port d'en haut ?",
+      "pronunciation": "oo puh-TON vwar leh POR dahn OH",
+      "formality": "polite",
+      "cultural_note": "Head to the Place de la Boulangerie or the steps near the Théâtre de la Criée for the best views.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go to Place de la Boulangerie or near the Théâtre de la Criée for a nice view of the port.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "Allez à la Place de la Boulangerie ou près du Théâtre de la Criée pour une belle vue sur le port."
+        }
+      ]
+    },
+    {
+      "id": "marseille_nbhd_panier_005",
+      "intent_en": "Ask if there's a good restaurant",
+      "text_local": "Y a-t-il un bon restaurant dans le quartier ?",
+      "pronunciation": "ee ah-TEEL uhn bon res-to-RAN dans leh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Try 'La Cuisine de Marseille' for traditional dishes, or 'Le Café des Élections' for a coffee with a view.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, try 'La Cuisine de Marseille' for traditional dishes or 'Le Café des Élections' for coffee with a view.",
+          "phonetic": "wee, eel ee ahn plu-ZYUR dahn luh kar-TYAY",
+          "french": "Oui, essayez 'La Cuisine de Marseille' pour des plats traditionnels ou 'Le Café des Élections' pour un café avec vue."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "basket",
+      "word_local": "le panier",
+      "pronunciation": "leh pah-NYAY"
+    },
+    {
+      "word_en": "old town",
+      "word_local": "le vieux quartier",
+      "pronunciation": "leh vyuh kar-TYAY"
+    },
+    {
+      "word_en": "artisan",
+      "word_local": "l'artisan",
+      "pronunciation": "lar-tee-ZAN"
+    },
+    {
+      "word_en": "mural",
+      "word_local": "la fresque",
+      "pronunciation": "lah FRESK"
+    }
+  ]
+}

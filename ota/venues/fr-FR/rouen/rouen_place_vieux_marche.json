@@ -1,0 +1,118 @@
+{
+  "id": "rouen_place_vieux_marche",
+  "name_en": "Place du Vieux-Marché (Joan of Arc)",
+  "name_local": "Place du Vieux-Marché",
+  "icon": "building.columns",
+  "lat": 49.4421,
+  "lon": 1.0896,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "rouen_vmarche_001",
+      "intent_en": "Ask where exactly Joan of Arc was burned",
+      "text_local": "Pouvez-vous m'indiquer l'endroit précis où Jeanne d'Arc a été brûlée ?",
+      "pronunciation": "poo-vay-VOO mahn-dee-KAY lahn-DRWAH pray-SEE oo ZHAHN dark ah ay-TAY broo-LAY",
+      "formality": "polite",
+      "cultural_note": "Joan of Arc was burned at the stake on this square on 30 May 1431 at age 19. A large cross and plaque mark the approximate site. The modern Église Sainte-Jeanne-d'Arc, built in 1979, stands nearby in her memory.",
+      "responses": [
+        {
+          "english": "It is marked by the plaque on the ground.",
+          "phonetic": "say tahn-dee-KAY par lah PLAK oh SOL",
+          "french": "C'est indiqué par la plaque au sol."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_vmarche_002",
+      "intent_en": "Ask what time the market opens",
+      "text_local": "À quelle heure ouvre le marché ?",
+      "pronunciation": "ah kel UR OOV-ruh luh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "The Place du Vieux-Marché hosts a regular market.",
+      "responses": [
+        {
+          "english": "In the morning, from eight o'clock.",
+          "phonetic": "luh mah-TAHN day WEET UR",
+          "french": "Le matin, dès huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_vmarche_003",
+      "intent_en": "Ask about the market held on the square",
+      "text_local": "Y a-t-il un marché sur cette place le matin ?",
+      "pronunciation": "ee ah-TEEL uhn mar-SHAY soor set PLASS luh mah-TAHN",
+      "formality": "polite",
+      "cultural_note": "A traditional morning market is held on the Place du Vieux-Marché every day except Monday. It is one of Rouen's oldest markets and sells fresh produce, cheese, fish, and flowers.",
+      "responses": [
+        {
+          "english": "The market is in the morning, except Monday.",
+          "phonetic": "luh mar-SHAY eh luh mah-TAHN sohf luh luhn-DEE",
+          "french": "Le marché est le matin, sauf le lundi."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_vmarche_004",
+      "intent_en": "Ask for a recommendation for lunch on the square",
+      "text_local": "Pouvez-vous me recommander un bon restaurant sur la place pour déjeuner ?",
+      "pronunciation": "poo-vay-VOO muh ruh-koh-mahn-DAY uhn bohn res-toh-RAHN soor lah PLASS poor day-zhuh-NAY",
+      "formality": "polite",
+      "cultural_note": "The square is lined with restaurants. Look for Norman specialities such as tripes à la mode de Caen, sole normande, and tarte aux pommes. Ask specifically for cuisine normande for the most authentic experience.",
+      "responses": [
+        {
+          "english": "There are good restaurants around the square.",
+          "phonetic": "eel ee ah duh bohn res-toh-RAHN oh-TOOR duh lah PLAHSS",
+          "french": "Il y a de bons restaurants autour de la place."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_vmarche_005",
+      "intent_en": "Ask for a good restaurant recommendation nearby",
+      "text_local": "Pouvez-vous me recommander un bon restaurant à proximité ?",
+      "pronunciation": "poo-vay-VOO muh ruh-koh-mahn-DAY uhn bohn res-toh-RAHN ah prok-see-mee-TAY",
+      "formality": "polite",
+      "cultural_note": "The square is lined with restaurants serving traditional Norman cuisine.",
+      "responses": [
+        {
+          "english": "There are several good restaurants around the square.",
+          "phonetic": "eel ee ah ploo-ZYUR bohn res-toh-RAHN oh-TOOR duh lah PLAHSS",
+          "french": "Il y a plusieurs bons restaurants autour de la place."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "stake / pyre",
+      "word_local": "le bûcher",
+      "pronunciation": "luh boo-SHAY"
+    },
+    {
+      "word_en": "square",
+      "word_local": "la place",
+      "pronunciation": "lah PLASS"
+    },
+    {
+      "word_en": "market",
+      "word_local": "le marché",
+      "pronunciation": "luh mar-SHAY"
+    },
+    {
+      "word_en": "memorial",
+      "word_local": "le mémorial",
+      "pronunciation": "luh may-moh-RYAL"
+    }
+  ]
+}

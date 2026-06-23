@@ -1,0 +1,188 @@
+{
+  "id": "pamukkale_denizli_çardak_airport",
+  "name_en": "Denizli Çardak Airport",
+  "name_local": "Denizli Çardak Havalimanı",
+  "icon": "tram",
+  "lat": 37.9200382,
+  "lon": 29.1217529,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "pamukkale_denizli_çardak_airport_001",
+      "intent_en": "Where is baggage claim?",
+      "text_local": "Bagaj alım alanı nerede?",
+      "pronunciation": "bahgAHzh-AHoom-ahahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Türk havalimanlarında bilgi danışma masası, yönlendirme için standart başvuru noktasıdır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Varış katında, solda.",
+        "pronunciation": "vahrOOsh-kahtoondAHsawdAH",
+        "translation_en": "On the arrivals floor, on the left."
+      },
+      "responses": [
+        {
+          "english": "On the arrivals floor, on the left.",
+          "phonetic": "vahrOOsh-kahtoondAHsawdAH",
+          "french": "Varış katında, solda."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_çardak_airport_002",
+      "intent_en": "Where to buy shuttle tickets?",
+      "text_local": "Servis biletleri nereden alınır?",
+      "pronunciation": "sehrvIHs-beelehtlehrIH-nEHrehdahn-ahoonOOr",
+      "formality": "standard",
+      "cultural_note": "Shuttle service is unverified; safest to refer to general inquiry point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gelen yolcu kapısında.",
+        "pronunciation": "ehlAHn-yawdzhUH-kahpoosoondAH",
+        "translation_en": "At the arrivals door."
+      },
+      "responses": [
+        {
+          "english": "At the arrivals door.",
+          "phonetic": "ehlAHn-yawdzhUH-kahpoosoondAH",
+          "french": "Gelen yolcu kapısında."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_çardak_airport_003",
+      "intent_en": "Which counter for check-in?",
+      "text_local": "Check-in için hangi gişe?",
+      "pronunciation": "dzhhEHdzhkIHn-eetshIHn-hahngIH-eeshEH",
+      "formality": "standard",
+      "cultural_note": "Specific airline counters are unverified; general inquiry is the safe option.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşıdaki sıra.",
+        "pronunciation": "kahrshoodahkIH-soorAH",
+        "translation_en": "The row across."
+      },
+      "responses": [
+        {
+          "english": "The row across.",
+          "phonetic": "kahrshoodahkIH-soorAH",
+          "french": "Karşıdaki sıra."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_çardak_airport_004",
+      "intent_en": "Is security screening busy now?",
+      "text_local": "Güvenlikte şu an sıra var mı?",
+      "pronunciation": "uevahnlIHk-kawntrohlUH-shuh-AHn-yohUHn-muh",
+      "formality": "standard",
+      "cultural_note": "Anlık yoğunluk değişkendir; en doğru bilgiyi güvenlik personeli verir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sakin, bekletmez.",
+        "pronunciation": "sahkIHnbehklehtmEHz",
+        "translation_en": "It's quiet, won't hold you up."
+      },
+      "responses": [
+        {
+          "english": "It's quiet, won't hold you up.",
+          "phonetic": "sahkIHnbehklehtmEHz",
+          "french": "Sakin, bekletmez."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_çardak_airport_005",
+      "intent_en": "Where is baggage claim?",
+      "text_local": "Bagaj alımı nerede?",
+      "pronunciation": "bahgAHzh-AHoomoo-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Exact location unverified; directing to information is safer than guessing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aşağı kata inin, solda.",
+        "pronunciation": "ahshahOO-kahtAH-eenEEnsawdAH",
+        "translation_en": "Go downstairs, it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Go downstairs, it's on the left.",
+          "phonetic": "ahshahOO-kahtAH-eenEEnsawdAH",
+          "french": "Aşağı kata inin, solda."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_çardak_airport_006",
+      "intent_en": "Where to buy shuttle tickets?",
+      "text_local": "Servis bileti nereden alabilirim?",
+      "pronunciation": "sehrvIHs-beelehtIH-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Servis bilet satış noktaları havalimanı içinde değişkenlik gösterebilir; danışma masası en güvenilir yönlendirmeyi sağlar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki bilet gişesinden.",
+        "pronunciation": "eerihshtehkIH-beelEHt-eeshehsihndAHn",
+        "translation_en": "From the ticket booth at the entrance."
+      },
+      "responses": [
+        {
+          "english": "From the ticket booth at the entrance.",
+          "phonetic": "eerihshtehkIH-beelEHt-eeshehsihndAHn",
+          "french": "Girişteki bilet gişesinden."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_çardak_airport_007",
+      "intent_en": "Is security screening busy now?",
+      "text_local": "Güvenlikten şu an sıra var mı?",
+      "pronunciation": "uevahnlIHk-tahrahmahsOO-shuh-AHn-yohUHn-muh",
+      "formality": "standard",
+      "cultural_note": "Live queue status is dynamic and unverified; directing to staff is most reliable.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yoğun değil.",
+        "pronunciation": "yohUHn-dEHyihl",
+        "translation_en": "It's not busy."
+      },
+      "responses": [
+        {
+          "english": "It's not busy.",
+          "phonetic": "yohUHn-dEHyihl",
+          "french": "Yoğun değil."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_çardak_airport_008",
+      "intent_en": "Which counter for check-in?",
+      "text_local": "Check-in için hangi kontuar?",
+      "pronunciation": "dzhhEHdzhkIHn-eetshIHn-hahngIH-kawntooAHr",
+      "formality": "standard",
+      "cultural_note": "Havayolu şirketine göre kontuar değişir; bu yüzden görevliye sormak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki kontuarlar.",
+        "pronunciation": "eerihshtehkIH-kawntooahrAHr",
+        "translation_en": "The counters at the entrance."
+      },
+      "responses": [
+        {
+          "english": "The counters at the entrance.",
+          "phonetic": "eerihshtehkIH-kawntooahrAHr",
+          "french": "Girişteki kontuarlar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

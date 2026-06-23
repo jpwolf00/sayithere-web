@@ -1,0 +1,118 @@
+{
+  "id": "montreal_jardin_botanique",
+  "name_en": "Montreal Botanical Garden",
+  "name_local": "Jardin botanique de Montréal",
+  "icon": "leaf",
+  "lat": 45.5587,
+  "lon": -73.5564,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "mtl_jb_001",
+      "intent_en": "Ask when the Chinese Garden lantern festival is",
+      "text_local": "Le festival des lanternes du jardin chinois, c'est à quelle période ?",
+      "pronunciation": "luh fes-tee-VAHL day lan-TURN doo zhar-DAN shee-NWAH say ah kel pay-ree-OD",
+      "formality": "polite",
+      "cultural_note": "The Magic of Lanterns festival in the Chinese Garden runs September–October and is one of Montréal's most spectacular autumn events.",
+      "responses": [
+        {
+          "english": "In September, check the dates on the website.",
+          "phonetic": "ahn sep-TAHM-bruh vay-ree-FYAY lay DAHT soor luh SEET",
+          "french": "En septembre, vérifiez les dates sur le site."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_jb_002",
+      "intent_en": "Ask which greenhouse has the tropical plants",
+      "text_local": "Quelle serre contient les plantes tropicales ?",
+      "pronunciation": "kel SAIR kon-tee-YAN lay PLAHNT tro-pee-KAHL",
+      "formality": "polite",
+      "cultural_note": "The botanical garden has 10 exhibition greenhouses. The First Nations Garden and the Japanese Garden are also highlights.",
+      "responses": [
+        {
+          "english": "The tropical greenhouse is over there.",
+          "phonetic": "lah SAIR troh-pee-KAHL eh par lah-BAH",
+          "french": "La serre tropicale est par là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_jb_003",
+      "intent_en": "Ask for a map of the gardens",
+      "text_local": "Est-ce que je pourrais avoir un plan du jardin ?",
+      "pronunciation": "ess-KUH zhuh poo-REH ah-VWAHR un PLAHN doo zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "Free maps are available at the entrance pavilion. The garden covers 75 hectares with 22,000 plant species.",
+      "responses": [
+        {
+          "english": "Yes, pick one up at reception.",
+          "phonetic": "wee pruh-NAY zahn uhn ah lah-KUY",
+          "french": "Oui, prenez-en un à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_jb_004",
+      "intent_en": "Ask if the garden café is open",
+      "text_local": "Le café du jardin est ouvert en ce moment ?",
+      "pronunciation": "luh kah-FAY doo zhar-DAN ay oo-VAIR on suh mo-MAH",
+      "formality": "neutral",
+      "cultural_note": "The garden café serves seasonal menus featuring local produce. It's a lovely spot for lunch amid the greenery.",
+      "responses": [
+        {
+          "english": "Yes, until four o'clock.",
+          "phonetic": "wee zhoos-kah SEZ UR",
+          "french": "Oui, jusqu'à seize heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_jb_005",
+      "intent_en": "Ask how to get to the Japanese Garden",
+      "text_local": "C'est par où pour aller au jardin japonais ?",
+      "pronunciation": "say par OO poor ah-LAY oh zhar-DAN zhah-po-NEH",
+      "formality": "neutral",
+      "cultural_note": "The Japanese Garden was designed by Japanese landscape architect Ken Nakajima and features a traditional tea house.",
+      "responses": [
+        {
+          "english": "Follow the signs, it is five minutes away.",
+          "phonetic": "swee-VAY lay pah-NOH say tah SAHNK mee-NOOT",
+          "french": "Suivez les panneaux, c'est à cinq minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "greenhouse",
+      "word_local": "la serre",
+      "pronunciation": "lah SAIR"
+    },
+    {
+      "word_en": "lantern",
+      "word_local": "la lanterne",
+      "pronunciation": "lah lan-TURN"
+    },
+    {
+      "word_en": "garden map",
+      "word_local": "le plan du jardin",
+      "pronunciation": "luh PLAHN doo zhar-DAN"
+    },
+    {
+      "word_en": "plant",
+      "word_local": "la plante",
+      "pronunciation": "lah PLAHNT"
+    }
+  ]
+}

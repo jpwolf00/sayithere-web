@@ -1,0 +1,122 @@
+{
+  "id": "patras_rio_waterfront_promenade",
+  "name_en": "Rio waterfront promenade",
+  "name_local": "Παραλιακή Ζώνη Ρίου",
+  "icon": "map",
+  "lat": 38.246242,
+  "lon": 21.7350847,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "patras_rio_waterfront_promenade_001",
+      "intent_en": "Where is the nearest bus to Patras center?",
+      "text_local": "Πού είναι η στάση για Πάτρα;",
+      "pronunciation": "pOO-EEneh-ee-stAHsee-yAH-pAHtrah",
+      "formality": "standard",
+      "cultural_note": "Generic directional fits the open-neighborhood context without brittle details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην παραλιακή οδό.",
+        "pronunciation": "steem-bAHrahlyahEE-ohthOH",
+        "translation_en": "On the coastal road."
+      },
+      "responses": [
+        {
+          "english": "On the coastal road.",
+          "phonetic": "steem-bAHrahlyahEE-ohthOH",
+          "french": "Στην παραλιακή οδό."
+        }
+      ]
+    },
+    {
+      "id": "patras_rio_waterfront_promenade_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Ποια ταβέρνα έχει θέα στη γέφυρα;",
+      "pronunciation": "peeOH-EHsteeahtOHreeOH-EHkhee-thEHah-stee-yEHfeerAH",
+      "formality": "standard",
+      "cultural_note": "Staff reference aligns with stable service 'Μαγείρας (taverna cook)' for seating guidance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Αριστερά στο «Ρίο», με θέα γέφυρα.",
+        "pronunciation": "AHreestehrAH-stoh-rEEohmeh-thEHah-yEHfeerAH",
+        "translation_en": "The taverna with a view of the bridge is over there, at the end of the promenade."
+      },
+      "responses": [
+        {
+          "english": "The taverna with a view of the bridge is over there, at the end of the promenade.",
+          "phonetic": "AHreestehrAH-stoh-rEEohmeh-thEHah-yEHfeerAH",
+          "french": "Αριστερά στο «Ρίο», με θέα γέφυρα."
+        }
+      ]
+    },
+    {
+      "id": "patras_rio_waterfront_promenade_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτή η μίσθωση ομπρελών τώρα;",
+      "pronunciation": "EEneh-AHneekhtOH-toh-OHbrehlOHksahplOHstrah-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Direct question about availability aligns with 'Beach umbrella rental' service.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο κιόσκι δίπλα στη θάλασσα.",
+        "pronunciation": "nEHstoh-OHsee-thEEplah-stee-thAHlahssAH",
+        "translation_en": "Yes, it is open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open now.",
+          "phonetic": "nEHstoh-OHsee-thEEplah-stee-thAHlahssAH",
+          "french": "Ναι, στο κιόσκι δίπλα στη θάλασσα."
+        }
+      ]
+    },
+    {
+      "id": "patras_rio_waterfront_promenade_004",
+      "intent_en": "How do I pay the parking meter?",
+      "text_local": "Πώς πληρώνω τον παρκινγκ;",
+      "pronunciation": "pOHs-pleerOHnoh-tohm-bAHreeng",
+      "formality": "standard",
+      "cultural_note": "Parking payment method is implied by 'Parking meter payment' in common traveler tasks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Με κέρματα ή κάρτα.",
+        "pronunciation": "meh-EHrmahtAH-ee-kAHrtah",
+        "translation_en": "With coins or card."
+      },
+      "responses": [
+        {
+          "english": "With coins or card.",
+          "phonetic": "meh-EHrmahtAH-ee-kAHrtah",
+          "french": "Με κέρματα ή κάρτα."
+        }
+      ]
+    },
+    {
+      "id": "patras_rio_waterfront_promenade_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το σημείο ενοικίασης σκαφών στη Μαρίνα;",
+      "pronunciation": "pOO-EEneh-ee-nAHvahghOHsohsteeEE-mahrEEnahz-rEEoo",
+      "formality": "standard",
+      "cultural_note": "Direct reference to the stable service 'Μοίρας (boat renter)' is preferred over generic phrases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στο κτίριο της Μαρίνας, δεξιά.",
+        "pronunciation": "thEEplah-stoh-ktEEreeOH-teez-mahrEEnahsthEHkseeAH",
+        "translation_en": "The boat rental is a little further down, next to the marina."
+      },
+      "responses": [
+        {
+          "english": "The boat rental is a little further down, next to the marina.",
+          "phonetic": "thEEplah-stoh-ktEEreeOH-teez-mahrEEnahsthEHkseeAH",
+          "french": "Δίπλα στο κτίριο της Μαρίνας, δεξιά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

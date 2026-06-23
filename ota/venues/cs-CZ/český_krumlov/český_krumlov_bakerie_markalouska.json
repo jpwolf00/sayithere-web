@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_bakerie_markalouska",
+  "name_en": "Bakerie Markalouska",
+  "name_local": "Pekařství Markalouska",
+  "icon": "fork.knife",
+  "lat": 48.8106526,
+  "lon": 14.3150586,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "český_krumlov_bakerie_markalouska_001",
+      "intent_en": "How to order from the display case",
+      "text_local": "Jak si mám objednat z vitríny?",
+      "pronunciation": "yAHk-see-mahm-OHbyehdnaht-s-vEEtreenee",
+      "formality": "standard",
+      "cultural_note": "Point-and-choose is the standard way to order from bakery display cases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Stačí mi ukázat, co chcete, a já to připravím.",
+        "pronunciation": "stAHtshee-mee-OOkahzahttsOH-khtsEHtehah-yAH-tOH-prEEprahveem",
+        "translation_en": "Just show me what you want, and I'll prepare it."
+      },
+      "responses": [
+        {
+          "english": "Just show me what you want, and I'll prepare it.",
+          "phonetic": "stAHtshee-mee-OOkahzahttsOH-khtsEHtehah-yAH-tOH-prEEprahveem",
+          "french": "Stačí mi ukázat, co chcete, a já to připravím."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_bakerie_markalouska_002",
+      "intent_en": "Is there seating inside",
+      "text_local": "Dá se tu uvnitř sedět?",
+      "pronunciation": "dAH-seh-tOO-OOvnyeetr-sEHeht",
+      "formality": "standard",
+      "cultural_note": "Many small Czech bakeries are takeaway only with no seating area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, máme jen prodej přes pult.",
+        "pronunciation": "nEHmAHmeh-yEHn-prOHday-prEHs-pOOlt",
+        "translation_en": "No, we only have counter service."
+      },
+      "responses": [
+        {
+          "english": "No, we only have counter service.",
+          "phonetic": "nEHmAHmeh-yEHn-prOHday-prEHs-pOOlt",
+          "french": "Ne, máme jen prodej přes pult."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_bakerie_markalouska_003",
+      "intent_en": "Where to pay for chlebíčky",
+      "text_local": "Kde zaplatím za chlebíčky?",
+      "pronunciation": "kdEH-zAHplaheem-zAHkhlehbEEtshkee",
+      "formality": "standard",
+      "cultural_note": "It's standard in Czech bakeries to pay at the main counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tady u pokladny.",
+        "pronunciation": "tAHdee-OO-pOHklahdnee",
+        "translation_en": "Here at the cash register."
+      },
+      "responses": [
+        {
+          "english": "Here at the cash register.",
+          "phonetic": "tAHdee-OO-pOHklahdnee",
+          "french": "Tady u pokladny."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_bakerie_markalouska_004",
+      "intent_en": "Do you have trdelník now",
+      "text_local": "Máte teď trdelník?",
+      "pronunciation": "mAHteh-tEH-tRdehlnyeek",
+      "formality": "standard",
+      "cultural_note": "Trdelník is a popular tourist pastry, so it may sell out quickly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, ještě pár jich zbývá.",
+        "pronunciation": "AHnohyEHsheh-pAHr-yEEgh-zbEEvah",
+        "translation_en": "Yes, there are a few left."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are a few left.",
+          "phonetic": "AHnohyEHsheh-pAHr-yEEgh-zbEEvah",
+          "french": "Ano, ještě pár jich zbývá."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

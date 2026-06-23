@@ -1,0 +1,122 @@
+{
+  "id": "mayrhofen_gasthof_brücke",
+  "name_en": "Gasthof Brücke",
+  "name_local": "Gasthof Brücke",
+  "icon": "fork.knife",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "mayrhofen_gasthof_brücke_001",
+      "intent_en": "Pay at bar not at table",
+      "text_local": "Wo zahlt man?",
+      "pronunciation": "vOH-tsAHlt-mahn",
+      "formality": "standard",
+      "cultural_note": "In Austrian inns, payment at the bar is customary for drinks and small meals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen.",
+        "pronunciation": "ahm-trEHzuhn",
+        "translation_en": "At the bar."
+      },
+      "responses": [
+        {
+          "english": "At the bar.",
+          "phonetic": "ahm-trEHzuhn",
+          "french": "Am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_gasthof_brücke_002",
+      "intent_en": "Cash still preferred here",
+      "text_local": "Zahlen Sie nur bar?",
+      "pronunciation": "tsAHluhn-zee-nOOr-bAHr",
+      "formality": "standard",
+      "cultural_note": "Many traditional Austrian establishments prefer cash payments.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bar bevorzugt.",
+        "pronunciation": "bAHr-buhfOHrtsOOkt",
+        "translation_en": "Cash preferred."
+      },
+      "responses": [
+        {
+          "english": "Cash preferred.",
+          "phonetic": "bAHr-buhfOHrtsOOkt",
+          "french": "Bar bevorzugt."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_gasthof_brücke_003",
+      "intent_en": "Seat yourself or wait for assignment",
+      "text_local": "Kann ich mich setzen?",
+      "pronunciation": "kAHn-ihkh-mihkh-zEHtsuhn",
+      "formality": "standard",
+      "cultural_note": "In Austrian inns, self-seating in the Wirtshausstube is typical.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Setzen Sie sich.",
+        "pronunciation": "zEHtsuhn-zee-zihkh",
+        "translation_en": "Please seat yourself."
+      },
+      "responses": [
+        {
+          "english": "Please seat yourself.",
+          "phonetic": "zEHtsuhn-zee-zihkh",
+          "french": "Setzen Sie sich."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_gasthof_brücke_004",
+      "intent_en": "Round up tip or exact change expected",
+      "text_local": "Trinkgeld aufrunden erwünscht?",
+      "pronunciation": "trINGkehlt-OWfrUHnduhn-ehrvUEnsht",
+      "formality": "standard",
+      "cultural_note": "Tipping in Austria is often done by rounding up to the nearest euro.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aufrunden üblich.",
+        "pronunciation": "OWfrUHnduhn-UEplihkh",
+        "translation_en": "Rounding up is common."
+      },
+      "responses": [
+        {
+          "english": "Rounding up is common.",
+          "phonetic": "OWfrUHnduhn-UEplihkh",
+          "french": "Aufrunden üblich."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_gasthof_brücke_005",
+      "intent_en": "Apfelstrudel availability this afternoon",
+      "text_local": "Gibt es heute Nachmittag Apfelstrudel?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-nAHkhmihtAHk-AHpfuhlstrOOduhl",
+      "formality": "standard",
+      "cultural_note": "Apfelstrudel is a classic Austrian dessert often served fresh in the afternoon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute verfügbar.",
+        "pronunciation": "yAHhAWuhtuh-fehrfUEkbahr",
+        "translation_en": "Yes, available this afternoon."
+      },
+      "responses": [
+        {
+          "english": "Yes, available this afternoon.",
+          "phonetic": "yAHhAWuhtuh-fehrfUEkbahr",
+          "french": "Ja, heute verfügbar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

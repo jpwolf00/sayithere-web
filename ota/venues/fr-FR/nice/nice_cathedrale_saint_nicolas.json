@@ -1,0 +1,118 @@
+{
+  "id": "nice_cathedrale_saint_nicolas",
+  "name_en": "Russian Orthodox Cathedral of Saint Nicholas",
+  "name_local": "Cathédrale Saint-Nicolas de Nice",
+  "icon": "building.columns",
+  "lat": 43.701,
+  "lon": 7.2568,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "nice_saint_nicolas_001",
+      "intent_en": "Ask about the dress code for entering the cathedral",
+      "text_local": "Y a-t-il une tenue vestimentaire requise pour visiter la cathédrale ?",
+      "pronunciation": "ee ah-TEEL oon teh-NOO ves-tee-man-TEHR reh-KEEZ poor vee-zee-TAY lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "As an active Orthodox church, shoulders and knees must be covered. Scarves are sometimes available at the entrance.",
+      "responses": [
+        {
+          "english": "Shoulders and knees covered.",
+          "phonetic": "ay-POHL ay zhuh-NOO koo-VAIR",
+          "french": "Épaules et genoux couverts."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_saint_nicolas_002",
+      "intent_en": "Ask what time the cathedral closes",
+      "text_local": "À quelle heure ferme la cathédrale aujourd'hui ?",
+      "pronunciation": "ah kel UR FERM lah kah-tay-DRAHL oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The Russian Orthodox Cathedral has specific visiting hours that vary by season. Check the posted schedule at the gate.",
+      "responses": [
+        {
+          "english": "At six o'clock.",
+          "phonetic": "ah dee-ZWEET UR",
+          "french": "À dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_saint_nicolas_003",
+      "intent_en": "Ask if there is an entry fee",
+      "text_local": "L'entrée de la cathédrale est-elle payante ?",
+      "pronunciation": "lan-TRAY deh lah kah-tay-DRAL eh-TEL pay-ANT",
+      "formality": "polite",
+      "cultural_note": "Entry is free, though a voluntary donation is appreciated. Guided tours are available for a small fee.",
+      "responses": [
+        {
+          "english": "Yes, three euros.",
+          "phonetic": "wee TRWAH uh-ROH",
+          "french": "Oui, trois euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_saint_nicolas_004",
+      "intent_en": "Ask if there is an audio guide available",
+      "text_local": "Est-ce qu'il y a un audioguide disponible ?",
+      "pronunciation": "ess keel ee ah uhn oh-dee-oh-GEED dees-poh-NEEBL",
+      "formality": "polite",
+      "cultural_note": "Audio guides help visitors understand the Orthodox iconography and architecture. They are usually available in several languages.",
+      "responses": [
+        {
+          "english": "Yes, in French and English.",
+          "phonetic": "wee ahn frahn-SAY ay ahn ahn-GLAY",
+          "french": "Oui, en français et en anglais."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_saint_nicolas_005",
+      "intent_en": "Ask if religious services are held in Russian",
+      "text_local": "Les offices religieux sont-ils célébrés en russe ?",
+      "pronunciation": "lay zo-FEES reh-lee-ZHYUH son-TEEL say-lay-BRAY on ROOS",
+      "formality": "polite",
+      "cultural_note": "Services are conducted in Church Slavonic and Russian. The cathedral serves Nice's Russian community and attracts many tourists.",
+      "responses": [
+        {
+          "english": "Yes, on Sunday morning.",
+          "phonetic": "wee luh dee-MAHNSH mah-TAHN",
+          "french": "Oui, le dimanche matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "dome",
+      "word_local": "la coupole",
+      "pronunciation": "lah koo-POL"
+    },
+    {
+      "word_en": "icon / religious image",
+      "word_local": "l'icône",
+      "pronunciation": "lee-KON"
+    },
+    {
+      "word_en": "Orthodox",
+      "word_local": "orthodoxe",
+      "pronunciation": "or-to-DOKS"
+    }
+  ]
+}

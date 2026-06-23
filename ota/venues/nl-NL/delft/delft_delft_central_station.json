@@ -1,0 +1,100 @@
+{
+  "id": "delft_delft_central_station",
+  "name_en": "Delft Central Station",
+  "name_local": "Station Delft",
+  "icon": "tram",
+  "lat": 52.0068273,
+  "lon": 4.3569205,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "delft_delft_central_station_001",
+      "intent_en": "Where is the bike parking",
+      "text_local": "Waar is de fietsenstalling?",
+      "pronunciation": "vAHr-ihs-duh-fEEtsuhnstAHling",
+      "formality": "standard",
+      "cultural_note": "Fietsenstalling is een vaste voorziening bij het station.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar de fietsenstalling bij de ingang.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-duh-fEEtsuhnstAHling-behih-duh-IHnghAHng",
+        "translation_en": "Follow the signs to the bike parking near the entrance."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the bike parking near the entrance.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-duh-fEEtsuhnstAHling-behih-duh-IHnghAHng",
+          "french": "Volg de borden naar de fietsenstalling bij de ingang."
+        }
+      ]
+    },
+    {
+      "id": "delft_delft_central_station_002",
+      "intent_en": "When does the next train to Rotterdam leave",
+      "text_local": "Wanneer vertrekt de volgende trein naar Rotterdam?",
+      "pronunciation": "vahnIHr-vuhrtrEHk-tuh-vAWlghuhnduh-trEHihn-nahr-rAWtuhrdAHm",
+      "formality": "standard",
+      "cultural_note": "Vertrektijden zijn afhankelijk van de dienstregeling.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De volgende intercity naar Rotterdam vertrekt over 10 minuten van Spoor 1. Volg de borden naar Spoor 1.",
+        "pronunciation": "duh-vAWlghuhnduh-IHntuhrseetee-nahr-rAWtuhrdahm-vuhrtrEHkt-OHvuhr-tEEn-mEEnuetuhn-vahn-spOHr-EHnvAWlkh-duh-bAWrduhn-nahr-spOHr-EHn",
+        "translation_en": "The next intercity to Rotterdam departs in 10 minutes from platform 1. Follow the signs to platform 1."
+      },
+      "responses": [
+        {
+          "english": "The next intercity to Rotterdam departs in 10 minutes from platform 1. Follow the signs to platform 1.",
+          "phonetic": "duh-vAWlghuhnduh-IHntuhrseetee-nahr-rAWtuhrdahm-vuhrtrEHkt-OHvuhr-tEEn-mEEnuetuhn-vahn-spOHr-EHnvAWlkh-duh-bAWrduhn-nahr-spOHr-EHn",
+          "french": "De volgende intercity naar Rotterdam vertrekt over 10 minuten van Spoor 1. Volg de borden naar Spoor 1."
+        }
+      ]
+    },
+    {
+      "id": "delft_delft_central_station_003",
+      "intent_en": "Can I pay for bike rental here",
+      "text_local": "Kan ik hier fiets huren betalen?",
+      "pronunciation": "kahn-ihk-hEEr-fEEts-hUEruhn-buhtAHluhn",
+      "formality": "standard",
+      "cultural_note": "Fietsverhuur betaling vindt plaats op locatie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de OV-fiets balie op het Stationsplein.",
+        "pronunciation": "yAHbehih-duh-OHfEHfEEts-bahlEE-awp-huht-stAHshawnsplEHihn",
+        "translation_en": "Yes, at the OV-fiets counter on the station square."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the OV-fiets counter on the station square.",
+          "phonetic": "yAHbehih-duh-OHfEHfEEts-bahlEE-awp-huht-stAHshawnsplEHihn",
+          "french": "Ja, bij de OV-fiets balie op het Stationsplein."
+        }
+      ]
+    },
+    {
+      "id": "delft_delft_central_station_004",
+      "intent_en": "How do I check in with OV-chipkaart",
+      "text_local": "Hoe check ik in met OV-chipkaart?",
+      "pronunciation": "hOO-tshEHk-ihk-ihn-meht-OHfEHtshIHpkahrt",
+      "formality": "standard",
+      "cultural_note": "OV-chipkaart gebruik vereist aanraking bij poortjes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Houd kaart bij de poortjes.",
+        "pronunciation": "hUHuht-kAHrt-behih-duh-pAWrtuhs",
+        "translation_en": "Hold card at the gates."
+      },
+      "responses": [
+        {
+          "english": "Hold card at the gates.",
+          "phonetic": "hUHuht-kAHrt-behih-duh-pAWrtuhs",
+          "french": "Houd kaart bij de poortjes."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

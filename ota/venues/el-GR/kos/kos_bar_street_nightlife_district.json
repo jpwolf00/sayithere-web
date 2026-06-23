@@ -1,0 +1,210 @@
+{
+  "id": "kos_bar_street_nightlife_district",
+  "name_en": "Bar Street nightlife district",
+  "name_local": "Οδός Μπαρ",
+  "icon": "map",
+  "lat": 36.7936933,
+  "lon": 27.0848266,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "kos_bar_street_nightlife_district_001",
+      "intent_en": "Ask if cover charge applies tonight",
+      "text_local": "Υπάρχει χρέωση εισόδου απόψε;",
+      "pronunciation": "khrkhAHzehtEH-ehnEHntruhns-fEEehl-ahpOHpseh",
+      "formality": "standard",
+      "cultural_note": "Cover charges can vary by night; staff at the entrance can confirm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, 10 ευρώ στο Bar Street.",
+        "pronunciation": "nEHthEHkah-ehvrOH-stoh-ehnbAH-strEEtehl",
+        "translation_en": "Yes, there is usually a cover charge at the club entrances."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is usually a cover charge at the club entrances.",
+          "phonetic": "nEHthEHkah-ehvrOH-stoh-ehnbAH-strEEtehl",
+          "french": "Ναι, 10 ευρώ στο Bar Street."
+        }
+      ]
+    },
+    {
+      "id": "kos_bar_street_nightlife_district_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω φαγητό αργά το βράδυ;",
+      "pronunciation": "pOO-vrEEskoh-fAHyeetOH-ahrghAH-mehtAH-tah-bAHr",
+      "formality": "polite",
+      "cultural_note": "Late-night food options are often discussed informally by staff or nearby vendors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετά το Big Ben Bar, δεξιά σουβλάκια.",
+        "pronunciation": "mehtAH-toh-ehnbIHg-bEHn-bAHehlthEHkseeAH-soovlAHah",
+        "translation_en": "Try the nearby souvlaki places or the food carts further down the street."
+      },
+      "responses": [
+        {
+          "english": "Try the nearby souvlaki places or the food carts further down the street.",
+          "phonetic": "mehtAH-toh-ehnbIHg-bEHn-bAHehlthEHkseeAH-soovlAHah",
+          "french": "Μετά το Big Ben Bar, δεξιά σουβλάκια."
+        }
+      ]
+    },
+    {
+      "id": "kos_bar_street_nightlife_district_003",
+      "intent_en": "Catch taxi at Dolphin Square",
+      "text_local": "Πού παίρνω ταξί στο Dolphin Square;",
+      "pronunciation": "pOO-vrEEskoh-tahksEE-stoh-ehndLfihn-skwEHuhehl",
+      "formality": "standard",
+      "cultural_note": "Taxi ranks are typically found at main access points like Dolphin Square.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο Dolphin Square, δίπλα στην είσοδο.",
+        "pronunciation": "stoh-ehndLfihn-skwEHuhehlthEEplah-steen-EEsohthOH",
+        "translation_en": "Walk towards the entrance of Dolphin Square, which is next to the main road on the beach. Taxis wait there, usually near the harbor."
+      },
+      "responses": [
+        {
+          "english": "Walk towards the entrance of Dolphin Square, which is next to the main road on the beach. Taxis wait there, usually near the harbor.",
+          "phonetic": "stoh-ehndLfihn-skwEHuhehlthEEplah-steen-EEsohthOH",
+          "french": "Στο Dolphin Square, δίπλα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "kos_bar_street_nightlife_district_004",
+      "intent_en": "Find Agora ruins nearby street",
+      "text_local": "Πού είναι τα ερείπια της Αρχαίας Αγοράς;",
+      "pronunciation": "pOO-EEneh-ee-ahrkhEH-AHghohrAH",
+      "formality": "standard",
+      "cultural_note": "The Ancient Agora is a well-known landmark nearby, often marked with signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στην άκρη της παραλίας.",
+        "pronunciation": "EEneh-steen-AHkree-tees-pAHrahlEEahs",
+        "translation_en": "It's at the edge of the beach."
+      },
+      "responses": [
+        {
+          "english": "It's at the edge of the beach.",
+          "phonetic": "EEneh-steen-AHkree-tees-pAHrahlEEahs",
+          "french": "Είναι στην άκρη της παραλίας."
+        }
+      ]
+    },
+    {
+      "id": "kos_bar_street_nightlife_district_005",
+      "intent_en": "Pay cover charge at club door",
+      "text_local": "Πόσο είναι η είσοδος;",
+      "pronunciation": "pOHsoh-EEneh-toh-ehnEHntruhns-fEEehl",
+      "formality": "standard",
+      "cultural_note": "Cover charges are typically paid in cash at the entrance by the security staff or promoter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δέκα ευρώ.",
+        "pronunciation": "thEHkah-ehvrOH",
+        "translation_en": "Ten euros."
+      },
+      "responses": [
+        {
+          "english": "Ten euros.",
+          "phonetic": "thEHkah-ehvrOH",
+          "french": "Δέκα ευρώ."
+        }
+      ]
+    },
+    {
+      "id": "kos_bar_street_nightlife_district_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πόσο είναι το μίνιμουμ για bottle service;",
+      "pronunciation": "pOHsoh-EEneh-toh-ehndihpZihtehl-yAH-ehnbTuhl-sVihsehl",
+      "formality": "standard",
+      "cultural_note": "Bottle service deposits are usually discussed with the promoter or barman during reservation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από 100 ευρώ, ανάλογα το κλαμπ.",
+        "pronunciation": "ahpOH-EHkahtOH-ehvrOHahnAHlohghAH-toh-klAHb",
+        "translation_en": "From 100 euros, depending on the club."
+      },
+      "responses": [
+        {
+          "english": "From 100 euros, depending on the club.",
+          "phonetic": "ahpOH-EHkahtOH-ehvrOHahnAHlohghAH-toh-klAHb",
+          "french": "Από 100 ευρώ, ανάλογα το κλαμπ."
+        }
+      ]
+    },
+    {
+      "id": "kos_bar_street_nightlife_district_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Ποιο είναι το ελάχιστο ποσό για το bottle service;",
+      "pronunciation": "pOHz-lEEtoorghOOn-dah-ehnbTuhl-sVihs-mIHnihmuhmzehl",
+      "formality": "standard",
+      "cultural_note": "Bottle service minimums are typically explained by the promoter or barman during booking.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Από 50€ σε μικρά, 100-150€ στα κλαμπ.",
+        "pronunciation": "ahpOH-pehnEEndah-ehvrOH-seh-meekrAHEHkahtOH-mEEohn-EHkahtOHn-pehnEEndah-ehvrOH-stah-klAHb",
+        "translation_en": "From 50€ in small places, 100-150€ at the clubs."
+      },
+      "responses": [
+        {
+          "english": "From 50€ in small places, 100-150€ at the clubs.",
+          "phonetic": "ahpOH-pehnEEndah-ehvrOH-seh-meekrAHEHkahtOH-mEEohn-EHkahtOHn-pehnEEndah-ehvrOH-stah-klAHb",
+          "french": "Από 50€ σε μικρά, 100-150€ στα κλαμπ."
+        }
+      ]
+    },
+    {
+      "id": "kos_bar_street_nightlife_district_008",
+      "intent_en": "Ask where Dolphin Square is",
+      "text_local": "Πού είναι το Dolphin Square;",
+      "pronunciation": "pOO-EEneh-toh-ehndLfihn-skwEHuhehl",
+      "formality": "standard",
+      "cultural_note": "Dolphin Square is a well-known access point in the area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στο Bar Street, προς το λιμάνι.",
+        "pronunciation": "thEEplah-stoh-ehnbAH-strEEtehlprOHs-toh-leemAHnee",
+        "translation_en": "Follow the signs to Dolphin Square."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to Dolphin Square.",
+          "phonetic": "thEEplah-stoh-ehnbAH-strEEtehlprOHs-toh-leemAHnee",
+          "french": "Δίπλα στο Bar Street, προς το λιμάνι."
+        }
+      ]
+    },
+    {
+      "id": "kos_bar_street_nightlife_district_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Τι ώρα φεύγει το τελευταίο λεωφορείο για την ξενοδοχειακή ζώνη;",
+      "pronunciation": "tEE-OHrah-EEneh-toh-tEHlehftEHoh-lEHohfohrEEoh-prOHs-tees-ksEHnohthOHkhahEHz-zOHnehs",
+      "formality": "standard",
+      "cultural_note": "Bus schedules vary; travelers are advised to confirm with staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από πλατεία Dolphin, 1:15 π.μ.",
+        "pronunciation": "ahpOH-plahtEEah-ehndLfihnehlEHnah-thEHkahpEHnteh-pEEmEE",
+        "translation_en": "The last bus to the hotels leaves from Dolphin Square at 1:15 a.m., but confirm with the driver shortly before."
+      },
+      "responses": [
+        {
+          "english": "The last bus to the hotels leaves from Dolphin Square at 1:15 a.m., but confirm with the driver shortly before.",
+          "phonetic": "ahpOH-plahtEEah-ehndLfihnehlEHnah-thEHkahpEHnteh-pEEmEE",
+          "french": "Από πλατεία Dolphin, 1:15 π.μ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

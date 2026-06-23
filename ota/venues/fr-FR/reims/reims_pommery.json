@@ -1,0 +1,105 @@
+{
+  "id": "reims_pommery",
+  "name_en": "Champagne Pommery",
+  "name_local": "Champagne Pommery",
+  "icon": "wineglass",
+  "phrases": [
+    {
+      "id": "pommery_art",
+      "intent_en": "How long does the cellar tour take?",
+      "text_local": "Combien de temps dure la visite des caves ?",
+      "pronunciation": "kohm-BYAHN duh tahn DOOR lah vee-ZEET day KAHV",
+      "formality": "polite",
+      "cultural_note": "Champagne house cellar tours in Reims typically last between 45 minutes and an hour.",
+      "responses": [
+        {
+          "english": "About one hour.",
+          "phonetic": "ahn-vee-ROHN oon UR",
+          "french": "Environ une heure."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "pommery_brut",
+      "intent_en": "Can I buy a bottle after the tour?",
+      "text_local": "Est-ce qu'on peut acheter une bouteille après la visite ?",
+      "pronunciation": "ess kohn PUH ash-TAY oon boo-TAY ah-PRAY lah vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "All champagne houses have a shop at the end of the tour.",
+      "responses": [
+        {
+          "english": "Yes, at the shop on the way out.",
+          "phonetic": "wee ah lah boo-TEEK ahn sor-TAHN",
+          "french": "Oui, à la boutique en sortant."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_pom_rei_x1",
+      "intent_en": "Ask how deep the Pommery cellars are",
+      "text_local": "À quelle profondeur se trouvent les caves Pommery ?",
+      "pronunciation": "ah kel proh-fon-DUR suh TROOV lay kahv poh-muh-REE",
+      "formality": "polite",
+      "cultural_note": "Pommery's cellars descend 30 metres underground through 18 kilometres of Gallo-Roman chalk tunnels, kept at a constant 10°C.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Thirty metres underground, in the Roman chalk pits.",
+          "phonetic": "ah TRAHNT met-ruh soo TAIR, dahn lay kray-YAIR roh-MEN.",
+          "french": "À trente mètres sous terre, dans les crayères romaines."
+        }
+      ]
+    },
+    {
+      "id": "fr_pom_rei_x2",
+      "intent_en": "Ask if the contemporary art installations are still on show",
+      "text_local": "Les installations d'art contemporain sont-elles encore visibles ?",
+      "pronunciation": "lay zans-tah-lah-SYON dar kon-tahn-poh-RAN son-TEL ahn-KOR vee-ZEEBL",
+      "formality": "polite",
+      "cultural_note": "Pommery regularly commissions site-specific art works installed in the chalk tunnels alongside the champagne racks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the exhibition changes every year.",
+          "phonetic": "wee, leks-poh-zee-SYON shahnzh shahk ah-NAY.",
+          "french": "Oui, l'exposition change chaque année."
+        }
+      ]
+    },
+    {
+      "id": "fr_pom_rei_x3",
+      "intent_en": "Ask where to park near Pommery",
+      "text_local": "Où peut-on se garer à proximité de Pommery ?",
+      "pronunciation": "oo puh-TON suh gah-RAY ah prok-see-mee-TAY duh poh-muh-REE",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There is free parking in front of the estate.",
+          "phonetic": "eel ee ah uhn par-KEEN grah-TWEE duh-VAHN luh doh-MEN.",
+          "french": "Il y a un parking gratuit devant le domaine."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "underground / subterranean",
+      "word_local": "le souterrain",
+      "pronunciation": "luh soo-tuh-RAN"
+    },
+    {
+      "word_en": "chalk (the rock of the Champagne caves)",
+      "word_local": "la craie",
+      "pronunciation": "lah KRAY"
+    }
+  ]
+}

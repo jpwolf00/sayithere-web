@@ -1,0 +1,166 @@
+{
+  "id": "kalambaka_taverna_panellinion",
+  "name_en": "Taverna Panellinion",
+  "name_local": "Ταβέρνα Πανελλήνιον",
+  "icon": "fork.knife",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kalambaka_taverna_panellinion_001",
+      "intent_en": "Reserve outdoor seating tonight",
+      "text_local": "Κλείνω τραπέζι στην αυλή απόψε;",
+      "pronunciation": "klEEnoh-trahpEHzee-steen-ahvlEE-ahpOHpseh",
+      "formality": "standard",
+      "cultural_note": "Greek tavernas often have a clear distinction between indoor and outdoor seating areas.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο τμήμα υπαίθρου.",
+        "pronunciation": "nEHstoh-tmEEmah-eepEHthroo",
+        "translation_en": "Yes, in the outdoor section."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the outdoor section.",
+          "phonetic": "nEHstoh-tmEEmah-eepEHthroo",
+          "french": "Ναι, στο τμήμα υπαίθρου."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_taverna_panellinion_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πότε σερβίρεται ψητό αρνί;",
+      "pronunciation": "pOHteh-eepAHrkhee-pseetOH-ahrnEE",
+      "formality": "standard",
+      "cultural_note": "Grilled lamb is a traditional dish often prepared at specific times during service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετά τις 13:00 και μετά τις 20:00.",
+        "pronunciation": "mehtAH-tees-thEHkahtrEEah-meethEHn-meethEHn-keh-mehtAH-tees-EEkohsEE-meethEHn-meethEHn",
+        "translation_en": "Usually at lunchtime and in the evening."
+      },
+      "responses": [
+        {
+          "english": "Usually at lunchtime and in the evening.",
+          "phonetic": "mehtAH-tees-thEHkahtrEEah-meethEHn-meethEHn-keh-mehtAH-tees-EEkohsEE-meethEHn-meethEHn",
+          "french": "Μετά τις 13:00 και μετά τις 20:00."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_taverna_panellinion_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να παρκάρω το πούλμαν;",
+      "pronunciation": "pOO-stahthmEHvee-toh-pOOlmahn",
+      "formality": "polite",
+      "cultural_note": "Large tour bus parking is typically arranged by staff or at a designated area near the venue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στα δεξιά της ταβέρνας, δημοτικός χώρος.",
+        "pronunciation": "stah-thEHkseeAH-tees-tahvEHrnahsthEEmohteekOHs-khOHrohs",
+        "translation_en": "A bit further down, there is a municipal bus parking area."
+      },
+      "responses": [
+        {
+          "english": "A bit further down, there is a municipal bus parking area.",
+          "phonetic": "stah-thEHkseeAH-tees-tahvEHrnahsthEEmohteekOHs-khOHrohs",
+          "french": "Στα δεξιά της ταβέρνας, δημοτικός χώρος."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_taverna_panellinion_004",
+      "intent_en": "Ask if they accept credit cards",
+      "text_local": "Δέχονται κάρτες;",
+      "pronunciation": "thEHkhohdEH-kAHrtehs",
+      "formality": "standard",
+      "cultural_note": "Credit card acceptance is common in urban Greek tavernas but may vary by establishment.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δεχόμαστε κάρτες.",
+        "pronunciation": "nEHthehkhOHmahstEH-kAHrtehs",
+        "translation_en": "Yes, we accept cards."
+      },
+      "responses": [
+        {
+          "english": "Yes, we accept cards.",
+          "phonetic": "nEHthehkhOHmahstEH-kAHrtehs",
+          "french": "Ναι, δεχόμαστε κάρτες."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_taverna_panellinion_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς μπορώ να κρατήσω τραπέζι στην εξωτερική βεράντα;",
+      "pronunciation": "pOHs-kAHnoh-krAHteesEE-steen-dahrAHtsah",
+      "formality": "standard",
+      "cultural_note": "Reservations for outdoor terrace tables are typically handled by staff at the venue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πείτε το όνομα και την ώρα στο τηλέφωνο.",
+        "pronunciation": "pEEteh-toh-OHnohmAH-keh-teen-OHrah-stoh-teelEHfohnOH",
+        "translation_en": "Tell us the name and the time on the phone."
+      },
+      "responses": [
+        {
+          "english": "Tell us the name and the time on the phone.",
+          "phonetic": "pEEteh-toh-OHnohmAH-keh-teen-OHrah-stoh-teelEHfohnOH",
+          "french": "Πείτε το όνομα και την ώρα στο τηλέφωνο."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_taverna_panellinion_006",
+      "intent_en": "Pay cash for no card table",
+      "text_local": "Πληρώνω μόνο με μετρητά εδώ;",
+      "pronunciation": "pleerOHnoh-mOHnoh-meh-mEHtreetAH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "In Greece, some tavernas have designated tables or areas where card payments are not accepted.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόνο μετρητά.",
+        "pronunciation": "nEHmOHnoh-mEHtreetAH",
+        "translation_en": "Yes, only cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, only cash.",
+          "phonetic": "nEHmOHnoh-mEHtreetAH",
+          "french": "Ναι, μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_taverna_panellinion_007",
+      "intent_en": "Order spanakopita for takeaway",
+      "text_local": "Παίρνω σπανακόπιτα για εκτός;",
+      "pronunciation": "pEHrnoh-spAHnahkOHpeetAH-yAH-ehktOHs",
+      "formality": "standard",
+      "cultural_note": "In Greek tavernas, takeaway orders are typically handled at the cash register or counter.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, προς το ταμείο.",
+        "pronunciation": "nEHprOHs-toh-tahmEEoh",
+        "translation_en": "Yes, at the cash register."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cash register.",
+          "phonetic": "nEHprOHs-toh-tahmEEoh",
+          "french": "Ναι, προς το ταμείο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

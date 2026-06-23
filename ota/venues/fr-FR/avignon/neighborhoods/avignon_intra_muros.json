@@ -1,0 +1,101 @@
+{
+  "id": "avignon_intra_muros",
+  "name_en": "Intra-muros",
+  "name_local": "Intra-muros",
+  "icon": "building.2",
+  "lat": 43.9489,
+  "lon": 4.7996,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "avignon_nbhd_intra_001",
+      "intent_en": "Ask about the city walls",
+      "text_local": "Ces murs datent-ils du XIVe siècle ?",
+      "pronunciation": "say MUHR dah-tel doo kat-or-ZYEM syel",
+      "formality": "polite",
+      "cultural_note": "The walls date from the 14th century. They're remarkably well preserved and make for a pleasant walk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the walls date from the 14th century.",
+          "phonetic": "",
+          "french": "Oui, les murs datent du XIVe siècle."
+        }
+      ]
+    },
+    {
+      "id": "avignon_nbhd_intra_002",
+      "intent_en": "Ask about the main streets",
+      "text_local": "Quelles sont les rues principales ?",
+      "pronunciation": "kel son lay ROO pran-see-PAL",
+      "formality": "polite",
+      "cultural_note": "The main streets are Rue de la République and Rue des Hallebardes. They run north-south through the center.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "",
+          "french": "Les rues principales sont la Rue de la République et la Rue des Hallebardes, qui traversent le centre-ville du nord au sud."
+        }
+      ]
+    },
+    {
+      "id": "avignon_nbhd_intra_003",
+      "intent_en": "Ask about the Festival d'Avignon",
+      "text_local": "Quand est le Festival d'Avignon ?",
+      "pronunciation": "kahn eh leh Fees-tuh-VAL dav-ee-NYON",
+      "formality": "polite",
+      "cultural_note": "The Festival d'Avignon runs in July. It's the world's largest theater festival, with hundreds of performances in historic venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "",
+          "phonetic": "say luh week-END proh-SHAN",
+          "french": "Le Festival d'Avignon commence généralement début juillet. Pour cette année, vérifiez les dates exactes sur le site officiel."
+        }
+      ]
+    },
+    {
+      "id": "avignon_nbhd_intra_004",
+      "intent_en": "Where is the nearest pharmacy inside the walls?",
+      "text_local": "Où est la pharmacie la plus proche dans l'intra-muros ?",
+      "pronunciation": "oo eh lah far-mah-SEE lah ploo PROSH dahn lan-trah-MYUROS",
+      "formality": "polite",
+      "cultural_note": "Inside the walls, practical errands like pharmacy stops are more useful than destination chatter when you are on foot.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At Glaces de la Place, near the Clock Tower square.",
+          "phonetic": "",
+          "french": "Essayez 'La Palazzo' pour des glaces italiennes ou le glacier 'Chez Marius' sur la Rue des Hallebardes pour des parfums français."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "walls",
+      "word_local": "les murs",
+      "pronunciation": "lay MUHR"
+    },
+    {
+      "word_en": "old town",
+      "word_local": "la vieille ville",
+      "pronunciation": "lah vyay VEEL"
+    },
+    {
+      "word_en": "festival",
+      "word_local": "le festival",
+      "pronunciation": "leh fees-tuh-VAL"
+    },
+    {
+      "word_en": "theater",
+      "word_local": "le théâtre",
+      "pronunciation": "leh tay-AH-truh"
+    }
+  ]
+}

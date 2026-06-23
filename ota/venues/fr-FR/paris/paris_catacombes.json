@@ -1,0 +1,152 @@
+{
+  "id": "venue_catacombes",
+  "name_en": "Les Catacombes de Paris",
+  "name_local": "Les Catacombes de Paris",
+  "icon": "figure.walk.motion",
+  "phrases": [
+    {
+      "id": "venue_catacombes_001",
+      "intent_en": "Confirm that online ticket booking is required",
+      "text_local": "Est-ce qu'il faut absolument réserver ses billets en ligne à l'avance ?",
+      "pronunciation": "ess keel foh ab-soh-loo-MAHN ray-zur-VAY say bee-YEH ahn LEEN ah lah-VAHNS",
+      "formality": "polite",
+      "cultural_note": "Online booking is strongly recommended — tickets often sell out weeks in advance and same-day tickets are rarely available. The entrance is at Place Denfert-Rochereau in the 14th arrondissement. Without a ticket, the wait can be 2-4 hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, you must book online. Very few tickets available on site.",
+          "phonetic": "wee, eel foh ray-zehr-VAY ahn LEEN-yuh. treh puh duh bee-YAY soor plass",
+          "french": "Oui, il faut réserver en ligne. Très peu de billets sur place."
+        }
+      ]
+    },
+    {
+      "id": "venue_catacombes_002",
+      "intent_en": "Ask how far you walk underground",
+      "text_local": "Quelle est la longueur du parcours souterrain ?",
+      "pronunciation": "kel eh lah lohn-GUR doo par-KOOR soo-tuh-REHN",
+      "formality": "standard",
+      "cultural_note": "The official tour covers approximately 2 kilometers underground at a depth of about 20 meters. Visitors descend 131 steps to reach the ossuary. The temperature stays a constant 14°C (57°F) year-round — bring a light jacket even in summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The route is about two kilometers.",
+          "phonetic": "luh par-KOOR feh ahn-vee-ROHN duh kee-loh-MEH-truh",
+          "french": "Le parcours fait environ deux kilomètres."
+        }
+      ]
+    },
+    {
+      "id": "venue_catacombes_003",
+      "intent_en": "Warn about the cold temperature underground",
+      "text_local": "Il fait assez froid dans les catacombes — avez-vous quelque chose à vous couvrir ?",
+      "pronunciation": "eel feh ah-SEH frwah dahn lay kah-tah-KOHM — ah-VAY voo kel-kuh SHOHZ ah voo koo-VREER",
+      "formality": "casual",
+      "cultural_note": "The underground temperature is a constant 14°C regardless of the season. Many visitors are caught off guard after a hot summer day. The walls are lined with the remains of approximately 6 million Parisians, transferred from overcrowded city cemeteries between 1786 and 1860.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it is fourteen degrees down there. Bring a jacket.",
+          "phonetic": "wee, eel feh kah-TORZ duh-GRAY ahn bah. pruh-NAY oon vest",
+          "french": "Oui, il fait quatorze degrés en bas. Prenez une veste."
+        }
+      ]
+    },
+    {
+      "id": "venue_catacombes_004",
+      "intent_en": "Ask if there is wheelchair access",
+      "text_local": "Est-ce qu'il y a un accès pour les fauteuils roulants ?",
+      "pronunciation": "ess keel ee ah uhn ahk-SEH poor lay foh-TUH-ee roo-LAHN",
+      "formality": "polite",
+      "cultural_note": "The catacombs involve 131 steps down and 83 steps up with no elevator. They are not accessible for wheelchairs or visitors with limited mobility.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, sorry, there is no elevator. It is stairs only.",
+          "phonetic": "nohn, day-zoh-LAY, eel nee ah pah dah-sahn-SUHR. suh sohn dayz es-kah-lee-YAY oo-neek-MAHN",
+          "french": "Non, désolé, il n'y a pas d'ascenseur. Ce sont des escaliers uniquement."
+        }
+      ]
+    },
+    {
+      "id": "venue_catacombes_005",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Est-ce que les photos sont autorisées à l'intérieur ?",
+      "pronunciation": "ess kuh lay FOH-toh sohn oh-toh-ree-ZAY ah lan-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "Photography without flash is permitted throughout the catacombs. Tripods are not allowed. The most photographed section is the main entrance archway which reads: 'Arrête! C'est ici l'empire de la Mort' — 'Stop! This is the empire of Death.'",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, photos are allowed, but without flash.",
+          "phonetic": "wee, lay foh-TOH sohn toh-toh-ree-ZAY, meh sahn flash",
+          "french": "Oui, les photos sont autorisées, mais sans flash."
+        }
+      ]
+    },
+    {
+      "id": "venue_catacombes_006",
+      "intent_en": "Ask if the visit is suitable for people with claustrophobia",
+      "text_local": "Cette visite est-elle adaptée aux personnes claustrophobes ?",
+      "pronunciation": "set vee-ZEET eh-TEL ah-dap-TAY oh per-SOHN klohs-troh-FOB",
+      "formality": "polite",
+      "cultural_note": "The tunnels are narrow and low in places. People with severe claustrophobia, heart conditions, or mobility issues are advised to skip this visit. There is no elevator — the descent is 131 steps down and the exit is 83 steps up at a different location from the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The tunnels are narrow and low in places. There are many stairs.",
+          "phonetic": "lay too-NEL sohn tay-TRWAH ay bah par ahn-DRWAH. eel ee ah boh-KOO des-kah-lee-YAY",
+          "french": "Les tunnels sont étroits et bas par endroits. Il y a beaucoup d'escaliers."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Underground",
+      "word_local": "Souterrain",
+      "pronunciation": "soo-tuh-REHN"
+    },
+    {
+      "word_en": "Bones / Remains",
+      "word_local": "Ossements",
+      "pronunciation": "oh-suh-MAHN"
+    },
+    {
+      "word_en": "Ossuary",
+      "word_local": "Ossuaire",
+      "pronunciation": "oh-soo-EHR"
+    },
+    {
+      "word_en": "Skull",
+      "word_local": "Crâne",
+      "pronunciation": "KRAHN"
+    },
+    {
+      "word_en": "Tunnel",
+      "word_local": "Tunnel",
+      "pronunciation": "too-NEL"
+    },
+    {
+      "word_en": "Cemetery",
+      "word_local": "Cimetière",
+      "pronunciation": "seem-TYEHR"
+    },
+    {
+      "word_en": "Cold",
+      "word_local": "Froid",
+      "pronunciation": "frwah"
+    },
+    {
+      "word_en": "Steps / Stairs",
+      "word_local": "Marches",
+      "pronunciation": "marsh"
+    }
+  ]
+}

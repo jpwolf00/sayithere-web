@@ -1,0 +1,56 @@
+{
+  "id": "rotterdam_fenix_food_factory",
+  "name_en": "Fenix Food Factory",
+  "name_local": "Fenix Food Factory",
+  "icon": "fork.knife",
+  "lat": 51.9020609,
+  "lon": 4.4868408,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "rotterdam_fenix_food_factory_001",
+      "intent_en": "How do I order at Jordy's Bakery?",
+      "text_local": "Hoe bestel ik bij Jordy’s Bakery?",
+      "pronunciation": "hOO-buhstEHl-ihk-behih-yAWrdees-bAHkihrEE",
+      "formality": "standard",
+      "cultural_note": "Standard counter service flow at food stalls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aan de toonbank, dan wachten.",
+        "pronunciation": "ahn-duh-tOHnbahngkdAHn-vAHkhtuhn",
+        "translation_en": "At the counter, then wait."
+      },
+      "responses": [
+        {
+          "english": "At the counter, then wait.",
+          "phonetic": "ahn-duh-tOHnbahngkdAHn-vAHkhtuhn",
+          "french": "Aan de toonbank, dan wachten."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_fenix_food_factory_002",
+      "intent_en": "Where can I sit with group orders?",
+      "text_local": "Waar kan ik zitten voor de groep?",
+      "pronunciation": "vAHr-kahn-ihk-zIHtuhn-vawr-duh-ghrOOp",
+      "formality": "standard",
+      "cultural_note": "Shared seating areas are typical in warehouse setups.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gemeenschappelijke tafels achterin.",
+        "pronunciation": "ghuhmEHnskhAHpuhluhkuh-tAHfuhls-AHkhtihrIHn",
+        "translation_en": "Communal tables at the back."
+      },
+      "responses": [
+        {
+          "english": "Communal tables at the back.",
+          "phonetic": "ghuhmEHnskhAHpuhluhkuh-tAHfuhls-AHkhtihrIHn",
+          "french": "Gemeenschappelijke tafels achterin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

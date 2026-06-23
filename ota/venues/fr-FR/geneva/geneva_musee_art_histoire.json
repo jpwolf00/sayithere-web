@@ -1,0 +1,115 @@
+{
+  "id": "geneva_musee_art_histoire",
+  "name_en": "Museum of Art and History",
+  "name_local": "Musée d'Art et d'Histoire",
+  "icon": "paintpalette",
+  "phrases": [
+    {
+      "id": "geneva_mah_001",
+      "intent_en": "Ask for the entry fee",
+      "text_local": "Quel est le tarif d'entrée ?",
+      "pronunciation": "kel eh luh tah-REEF dahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The permanent collection of the Musée d'Art et d'Histoire is free. Temporary exhibitions may have a fee.",
+      "responses": [
+        {
+          "english": "The permanent collection is free.",
+          "phonetic": "lah koh-lek-SYOHN pehr-mah-NAHNT eh grah-TWEET",
+          "french": "La collection permanente est gratuite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_mah_002",
+      "intent_en": "Ask for a museum map or audio guide",
+      "text_local": "Pourriez-vous me donner un plan du musée ou un audioguide ?",
+      "pronunciation": "poo-RYAY-voo muh doh-NAY un PLOHN doo moo-ZAY oo un OH-dyoh-geed",
+      "formality": "polite",
+      "cultural_note": "The museum is large and a floor plan is very useful. Audio guides are available in several languages including French, English and German.",
+      "responses": [
+        {
+          "english": "Yes, at reception.",
+          "phonetic": "wee, ah lah-KUHY",
+          "french": "Oui, à l'accueil."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_mah_003",
+      "intent_en": "Ask where the temporary exhibition is",
+      "text_local": "Où se trouve l'exposition temporaire ?",
+      "pronunciation": "oo suh TROOV lex-poh-zee-SYOHN tahm-poh-REHR",
+      "formality": "polite",
+      "cultural_note": "The Musée d'Art et d'Histoire regularly hosts temporary exhibitions alongside its permanent collection.",
+      "responses": [
+        {
+          "english": "On the first floor, on the left.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH, soor lah GOHSH",
+          "french": "Au premier étage, sur la gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_mah_004",
+      "intent_en": "Ask if the museum is free",
+      "text_local": "L'entrée du musée est-elle gratuite ?",
+      "pronunciation": "lon-TRAY doo moo-ZAY eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Entry to the permanent collections of all Geneva municipal museums, including the MAH, is free. Temporary exhibitions may require a ticket.",
+      "responses": [
+        {
+          "english": "Yes, the permanent collection is free.",
+          "phonetic": "wee, lah koh-lek-SYOHN pehr-mah-NAHNT eh grah-TWEET",
+          "french": "Oui, la collection permanente est gratuite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_mah_005",
+      "intent_en": "Ask where the museum café is",
+      "text_local": "Où se trouve le café du musée ?",
+      "pronunciation": "oo suh TROOV luh kah-FAY doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum café is located on the ground floor and opens onto the terrace — a pleasant spot for a break between the galleries.",
+      "responses": [
+        {
+          "english": "On the ground floor, near the entrance.",
+          "phonetic": "oh ray-duh-shoh-SAY, preh duh lahn-TRAY",
+          "french": "Au rez-de-chaussée, près de l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "luh moo-ZAY"
+    },
+    {
+      "word_en": "collection",
+      "word_local": "la collection",
+      "pronunciation": "lah koh-lek-SYOHN"
+    },
+    {
+      "word_en": "painting",
+      "word_local": "le tableau",
+      "pronunciation": "luh tah-BLOH"
+    },
+    {
+      "word_en": "temporary exhibition",
+      "word_local": "l'exposition temporaire",
+      "pronunciation": "lek-spoh-zee-SYOHN tom-poh-RAIR"
+    }
+  ]
+}

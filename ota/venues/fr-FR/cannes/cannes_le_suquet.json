@@ -1,0 +1,118 @@
+{
+  "id": "cannes_le_suquet",
+  "name_en": "Le Suquet – Old Town",
+  "name_local": "Le Suquet",
+  "icon": "building.2",
+  "lat": 43.5508,
+  "lon": 7.0129,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "cannes_suquet_001",
+      "intent_en": "Ask how to climb up to the old castle tower",
+      "text_local": "Comment monter jusqu'à la tour du château dans le Suquet ?",
+      "pronunciation": "kuh-MAN mon-TAY zhooss-KAH lah TOOR doo sha-TOH dan leh soo-KAY",
+      "formality": "polite",
+      "cultural_note": "Le Suquet crowns a hill above the port. The medieval Tour du Suquet offers panoramic views over Cannes bay.",
+      "responses": [
+        {
+          "english": "Via the stairs, over there.",
+          "phonetic": "par lay es-kah-LYAY, lah-BAH",
+          "french": "Par les escaliers, là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_suquet_002",
+      "intent_en": "Ask for a restaurant serving traditional Provençal food",
+      "text_local": "Pourriez-vous me recommander un restaurant servant une cuisine provençale traditionnelle ?",
+      "pronunciation": "poo-RYAY voo meh reh-ko-man-DAY un res-to-RAN sehr-VAN oon kwee-ZEEN pro-van-SAL trah-dee-syo-NEL",
+      "formality": "polite",
+      "cultural_note": "The winding streets of Le Suquet are lined with intimate restaurants — more authentic and less expensive than La Croisette.",
+      "responses": [
+        {
+          "english": "There are several on the street.",
+          "phonetic": "eel ee ahn ah ploo-ZYUHR dahn lah ROO",
+          "french": "Il y en a plusieurs dans la rue."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_suquet_003",
+      "intent_en": "Ask if the museum is open and what the entry fee is",
+      "text_local": "Le musée est-il ouvert et combien coûte l'entrée ?",
+      "pronunciation": "luh moo-ZAY eh-TEEL oo-VEHR ay kohm-BYEHN KOOT lahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The Musée de la Castre is housed in the medieval château at the top of Le Suquet hill.",
+      "responses": [
+        {
+          "english": "Yes, six euros.",
+          "phonetic": "wee, seez uh-ROH",
+          "french": "Oui, six euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_suquet_004",
+      "intent_en": "Ask what the best time is to visit for the view over La Croisette",
+      "text_local": "À quel moment de la journée la vue sur La Croisette est-elle la plus belle ?",
+      "pronunciation": "ah kel mo-MAN deh lah zhoor-NAY lah VYOO soor lah kwah-ZET eh-TEL lah ploo BEL",
+      "formality": "polite",
+      "cultural_note": "Sunset from Le Suquet is one of Cannes' most stunning views — the bay turns golden as the sun sets over the Esterel hills.",
+      "responses": [
+        {
+          "english": "Late afternoon, for the sunset.",
+          "phonetic": "ahn fehn dah-preh-mee-DEE, poor luh koo-SHAY duh soh-LAY",
+          "french": "En fin d'après-midi, pour le coucher de soleil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cannes_suquet_005",
+      "intent_en": "Ask if the church on the hill is open to visitors",
+      "text_local": "L'église sur la colline est-elle ouverte aux visiteurs ?",
+      "pronunciation": "lay-GLEEZ soor lah ko-LEEN eh-TEL oo-VEHRT oh vee-zee-TUHR",
+      "formality": "polite",
+      "cultural_note": "Notre-Dame de l'Espérance at the summit of Le Suquet dates from the 17th century and is freely accessible.",
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "wee, seh oo-VEHR",
+          "french": "Oui, c'est ouvert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "old town",
+      "word_local": "le vieux quartier",
+      "pronunciation": "leh vyuh kar-TYAY"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    },
+    {
+      "word_en": "hilltop",
+      "word_local": "le sommet",
+      "pronunciation": "leh so-MAY"
+    },
+    {
+      "word_en": "winding street",
+      "word_local": "la ruelle sinueuse",
+      "pronunciation": "lah roo-EL see-nyoo-UHZ"
+    }
+  ]
+}

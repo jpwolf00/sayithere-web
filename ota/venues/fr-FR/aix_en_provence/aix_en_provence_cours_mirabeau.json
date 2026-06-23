@@ -1,0 +1,132 @@
+{
+  "id": "aix_cours_mirabeau",
+  "name_en": "Cours Mirabeau",
+  "name_local": "Cours Mirabeau",
+  "icon": "figure.walk",
+  "phrases": [
+    {
+      "id": "aix_cours_001",
+      "intent_en": "Ask where the warm-water fountain is on the avenue",
+      "text_local": "Où se trouve la fontaine d'eau chaude ?",
+      "pronunciation": "oo suh TROOV lah fon-TEN doh SHOHD",
+      "formality": "polite",
+      "cultural_note": "The Fontaine d'Eau Chaude on the Cours Mirabeau runs naturally warm water from the Roman thermal springs beneath the city. Touch the mossy surface to feel the warmth.",
+      "responses": [
+        {
+          "english": "In the middle of the Cours, on your right.",
+          "phonetic": "oh mee-LYUH doo KOOR, soor voh-truh DRWAHT",
+          "french": "Au milieu du Cours, sur votre droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cours_002",
+      "intent_en": "Ask for a table at a café on the shaded side",
+      "text_local": "Avez-vous une table côté ombragé, s'il vous plaît ?",
+      "pronunciation": "ah-VAY voo oon TAH-bluh koh-TAY ohm-brah-ZHAY, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The north side of the Cours Mirabeau (under the plane trees) is the shaded café side; the south side has private mansions called hôtels particuliers. The best cafés — Les Deux Garçons, Café de la Mairie — are on the north.",
+      "responses": [
+        {
+          "english": "Yes, in the courtyard.",
+          "phonetic": "wee, dahn lah KOOR",
+          "french": "Oui, dans la cour."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cours_003",
+      "intent_en": "Ask if the café terraces are open now",
+      "text_local": "Les terrasses des cafés sont-elles ouvertes ?",
+      "pronunciation": "lay teh-RAHS day kah-FAY sohn-TEL oo-VEHRT",
+      "formality": "polite",
+      "cultural_note": "The café terraces on the north side of the Cours Mirabeau are the social heart of Aix. Les Deux Garçons is the most famous.",
+      "responses": [
+        {
+          "english": "Yes, take a seat.",
+          "phonetic": "wee, ehn-stah-LAY voo",
+          "french": "Oui, installez-vous."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cours_004",
+      "intent_en": "Ask for directions to the market from here",
+      "text_local": "Pour aller au marché de la Place Richelme depuis le Cours Mirabeau ?",
+      "pronunciation": "poor ah-LAY oh mar-SHAY duh lah PLAHS reesh-ELM duh-PWEE luh KOOR mee-rah-BOH",
+      "formality": "standard",
+      "cultural_note": "Place Richelme's daily morning market is just a short walk north through the old town lanes. The Saturday market also spills over to nearby Place des Prêcheurs.",
+      "responses": [
+        {
+          "english": "It's marked on the map.",
+          "phonetic": "seh ehn-dee-KAY soor luh PLAHN",
+          "french": "C'est indiqué sur le plan."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cours_005",
+      "intent_en": "Ask where the nearest public toilets are",
+      "text_local": "Où sont les toilettes les plus proches ?",
+      "pronunciation": "oo sohn lay twah-LET lay ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "Free public toilets (sanisettes) can be found near Place de la Rotonde and Place de la Mairie. Most cafés also allow access if you are a customer.",
+      "responses": [
+        {
+          "english": "Near Place de la Rotonde.",
+          "phonetic": "preh duh lah PLAHS duh lah roh-TOHND",
+          "french": "Près de la Place de la Rotonde."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cours_006",
+      "intent_en": "Ask a waiter to recommend a local speciality",
+      "text_local": "Que me recommandez-vous comme spécialité locale ?",
+      "pronunciation": "kuh muh ruh-koh-mahn-DAY voo kum spay-syah-lee-TAY loh-KAL",
+      "formality": "polite",
+      "cultural_note": "Calissons — almond-shaped sweets made from candied melon and almonds coated in royal icing — are the iconic sweet of Aix. Ask for them at any pâtisserie along the Cours or nearby.",
+      "responses": [
+        {
+          "english": "I recommend the daily special.",
+          "phonetic": "zhuh voo kohn-SAY luh plah doo ZHOOR",
+          "french": "Je vous conseille le plat du jour."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Fountain",
+      "word_local": "La fontaine",
+      "pronunciation": "lah fon-TEN"
+    },
+    {
+      "word_en": "Plane tree (shade tree)",
+      "word_local": "Le platane",
+      "pronunciation": "luh plah-TAN"
+    },
+    {
+      "word_en": "Mansion / Townhouse",
+      "word_local": "L'hôtel particulier",
+      "pronunciation": "loh-TEL par-tee-koo-LYAY"
+    },
+    {
+      "word_en": "Terrace / Café patio",
+      "word_local": "La terrasse",
+      "pronunciation": "lah teh-RAHS"
+    }
+  ]
+}

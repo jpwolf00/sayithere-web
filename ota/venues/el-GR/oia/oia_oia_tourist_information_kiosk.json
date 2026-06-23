@@ -1,0 +1,100 @@
+{
+  "id": "oia_oia_tourist_information_kiosk",
+  "name_en": "Oia Tourist Information Kiosk",
+  "name_local": "Πληροφορίες Τουριστών Οίας",
+  "icon": "info.circle",
+  "lat": 36.4622122,
+  "lon": 25.3757257,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "oia_oia_tourist_information_kiosk_001",
+      "intent_en": "Where is the Ammoudi Bay path entrance?",
+      "text_local": "Πού είναι η είσοδος για το μονοπάτι προς τον Αμμούδι;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHz-yAH-toh-mOHnohpAHtee-prOHs-teen-AHmoothEE-ehnbAYehl",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναμένεται να ακολουθούν τις υπάρχουσες πινακίδες οδήγησης χωρίς συγκεκριμένες οδηγίες τοποθεσίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην οδό Νικολάου Νομικού, δίπλα στα Καπετανόσπιτα.",
+        "pronunciation": "steen-ohthOH-nEEkohlAHoo-nOHmeekOOthEEplah-stah-kAHpehtahnOHspeetAH",
+        "translation_en": "On Nikolaou Nomikou street, next to the Captain's houses."
+      },
+      "responses": [
+        {
+          "english": "On Nikolaou Nomikou street, next to the Captain's houses.",
+          "phonetic": "steen-ohthOH-nEEkohlAHoo-nOHmeekOOthEEplah-stah-kAHpehtahnOHspeetAH",
+          "french": "Στην οδό Νικολάου Νομικού, δίπλα στα Καπετανόσπιτα."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_tourist_information_kiosk_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Μπορώ να κλείσω ξενάγηση με καραβάκι εδώ;",
+      "pronunciation": "bohrOH-nah-klEEsoh-ksehnAHyeesEE-meh-kAHrahvAHee-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι εναλλάσσονται ανά βάρδια. Η διαθεσιμότητα εξαρτάται από την τρέχουσα βάρδια.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο γραφείο μας εδώ.",
+        "pronunciation": "nEHstoh-ghrahfEEoh-mahs-ehthOH",
+        "translation_en": "Yes, we can book it here if there are available spots."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can book it here if there are available spots.",
+          "phonetic": "nEHstoh-ghrahfEEoh-mahs-ehthOH",
+          "french": "Ναι, στο γραφείο μας εδώ."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_tourist_information_kiosk_003",
+      "intent_en": "How do I arrange taxi to airport?",
+      "text_local": "Πώς κανονίζω ταξί για αεροδρόμιο;",
+      "pronunciation": "pOHs-kAHnohnEEzoh-tahksEE-yAH-AHehrohthrOHmeeOH",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι ειδικεύονται στη διευθέτηση μεταφορών. Δεν υπάρχει δημόσια αποθήκη αναμονής ταξί εντός του χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον υπάλληλο συντονισμού.",
+        "pronunciation": "rohtEEsteh-stohn-eepAHleelOH-sEEdohneesmOO",
+        "translation_en": "Ask the taxi coordinator."
+      },
+      "responses": [
+        {
+          "english": "Ask the taxi coordinator.",
+          "phonetic": "rohtEEsteh-stohn-eepAHleelOH-sEEdohneesmOO",
+          "french": "Ρωτήστε στον υπάλληλο συντονισμού."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_tourist_information_kiosk_004",
+      "intent_en": "Is there a fee for hotel transfer coordination?",
+      "text_local": "Υπάρχει χρέωση για τον συντονισμό μεταφοράς στο ξενοδοχείο;",
+      "pronunciation": "eepAHrkhee-tEHlohz-yAH-sEEdohneesmOH-mEHtahfohrAHs-ksEHnohthohkhEEoo",
+      "formality": "standard",
+      "cultural_note": "Τα τέλη δεν είναι επίσημα ανακοινωμένα. Οι υπάλληλοι δίνουν ενημέρωση επί τόπου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, πέντε ευρώ ανά μεταφορά.",
+        "pronunciation": "nEHpEHdeh-ehvrOH-ahnAH-mEHtahfohrAH",
+        "translation_en": "Yes, the fee is 5 euros for coordination. Pay the taxi driver at the village square."
+      },
+      "responses": [
+        {
+          "english": "Yes, the fee is 5 euros for coordination. Pay the taxi driver at the village square.",
+          "phonetic": "nEHpEHdeh-ehvrOH-ahnAH-mEHtahfohrAH",
+          "french": "Ναι, πέντε ευρώ ανά μεταφορά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "munich_gärtnerplatzviertel_nightlife_district",
+  "name_en": "Gärtnerplatzviertel Nightlife District",
+  "name_local": "Gärtnerplatzviertel",
+  "icon": "map",
+  "lat": 48.1317049,
+  "lon": 11.5760274,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "munich_gärtnerplatzviertel_nightlife_district_001",
+      "intent_en": "Is the Gärtnerplatz Theater box office open?",
+      "text_local": "Hat die Theaterkasse geöffnet?",
+      "pronunciation": "haht-dee-tEHahtkAHsuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Theater box offices in Munich typically close earlier than the show starts; hours are often posted on the venue’s website or entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis 19 Uhr.",
+        "pronunciation": "yAHbihs-nAWuhntsehn-OOr",
+        "translation_en": "Yes, until 7 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 7 PM.",
+          "phonetic": "yAHbihs-nAWuhntsehn-OOr",
+          "french": "Ja, bis 19 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "munich_gärtnerplatzviertel_nightlife_district_002",
+      "intent_en": "Where is the nearest S-Bahn entrance?",
+      "text_local": "Wo geht’s zur S-Bahn?",
+      "pronunciation": "vOH-EHts-tsoor-EHsbAHn",
+      "formality": "standard",
+      "cultural_note": "S-Bahn entrances in Munich are typically marked with blue 'S' signs; Isartor station is the closest to Gärtnerplatzviertel.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "S-Bahn-Station Isartor.",
+        "pronunciation": "EHsbAHnshtahtsyOHn-eezAHrtohr",
+        "translation_en": "S-Bahn station Isartor."
+      },
+      "responses": [
+        {
+          "english": "S-Bahn station Isartor.",
+          "phonetic": "EHsbAHnshtahtsyOHn-eezAHrtohr",
+          "french": "S-Bahn-Station Isartor."
+        }
+      ]
+    },
+    {
+      "id": "munich_gärtnerplatzviertel_nightlife_district_003",
+      "intent_en": "Where can I hail a taxi after midnight?",
+      "text_local": "Wo findet man Taxen nach Mitternacht?",
+      "pronunciation": "vOH-fIHnduht-mahn-tAHksuhn-nahkh-mIHtnAHkht",
+      "formality": "standard",
+      "cultural_note": "Taxi stands in Munich are usually located at major intersections or transport hubs; Isartor is a reliable late-night option near the nightlife district.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Taxistand am Isartor.",
+        "pronunciation": "tAHksihstAHnt-ahm-eezAHrtohr",
+        "translation_en": "Taxi stand at Isartor."
+      },
+      "responses": [
+        {
+          "english": "Taxi stand at Isartor.",
+          "phonetic": "tAHksihstAHnt-ahm-eezAHrtohr",
+          "french": "Taxistand am Isartor."
+        }
+      ]
+    },
+    {
+      "id": "munich_gärtnerplatzviertel_nightlife_district_004",
+      "intent_en": "Is there a cover charge at this bar?",
+      "text_local": "Gibt es Eintritt?",
+      "pronunciation": "EEpt-ehs-EYEntrIHt",
+      "formality": "standard",
+      "cultural_note": "Cover charges at Munich nightlife venues are common and often explicitly posted near the entrance or by the door staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, 5 Euro.",
+        "pronunciation": "yAHfUEnf-AWuhroh",
+        "translation_en": "Yes, 5 euros."
+      },
+      "responses": [
+        {
+          "english": "Yes, 5 euros.",
+          "phonetic": "yAHfUEnf-AWuhroh",
+          "french": "Ja, 5 Euro."
+        }
+      ]
+    },
+    {
+      "id": "munich_gärtnerplatzviertel_nightlife_district_005",
+      "intent_en": "Does this döner stand take cards?",
+      "text_local": "Kann man hier mit Karte zahlen?",
+      "pronunciation": "kAHn-mahn-hEEr-miht-kAHrtuh-tsAHluhn",
+      "formality": "casual",
+      "cultural_note": "Many small food stands in Munich, especially late-night döner stands, are cash-only due to high transaction fees.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur bar.",
+        "pronunciation": "nEYEnnOOr-bAHr",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "nEYEnnOOr-bAHr",
+          "french": "Nein, nur bar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

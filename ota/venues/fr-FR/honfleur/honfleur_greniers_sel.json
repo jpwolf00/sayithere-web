@@ -1,0 +1,118 @@
+{
+  "id": "honfleur_greniers_sel",
+  "name_en": "Salt Storehouses (Greniers à Sel)",
+  "name_local": "Les Greniers à Sel",
+  "icon": "building.columns",
+  "lat": 49.4183,
+  "lon": 0.2328,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "honfleur_sel_001",
+      "intent_en": "Ask if the salt storehouses are open today",
+      "text_local": "Les greniers à sel sont-ils ouverts aujourd'hui ?",
+      "pronunciation": "lay gruh-NYAY ah SEL sohn-TEEL oo-VEHR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "The 17th-century salt storehouses now serve as exhibition and event spaces in Honfleur.",
+      "responses": [
+        {
+          "english": "Yes, until 6 PM.",
+          "phonetic": "wee, zhoos-KAH deez-weet UHR",
+          "french": "Oui, jusqu'à dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_sel_002",
+      "intent_en": "Ask what events are held in the storehouses now",
+      "text_local": "Quels événements culturels ont lieu aujourd'hui dans ces anciens greniers ?",
+      "pronunciation": "kel ay-VAHN-mahn kool-too-REL ohn LYUH oh-zhoor-DWEE dahn say ahn-SYAHN gruh-NYAY",
+      "formality": "polite",
+      "cultural_note": "The Greniers à Sel are now Honfleur's main venue for exhibitions, concerts, theatre, and art fairs. Their vast timber interiors provide extraordinary acoustic and visual spaces for cultural events.",
+      "responses": [
+        {
+          "english": "There's an exhibition on right now.",
+          "phonetic": "eel ee ah oon ex-poh-zee-SYOHN ahn suh moh-MAHN",
+          "french": "Il y a une exposition en ce moment."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_sel_003",
+      "intent_en": "Ask how much entry costs",
+      "text_local": "Combien coûte l'entrée ?",
+      "pronunciation": "kohm-BYEHN KOOT lahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "Entry fees vary depending on the current exhibition.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_sel_004",
+      "intent_en": "Ask what exhibition is currently showing",
+      "text_local": "Quelle exposition est présentée dans les greniers à sel en ce moment ?",
+      "pronunciation": "kel ex-poh-zee-SYOHN eh pray-zahn-TAY dahn lay gruh-NYAY ah SEL ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "Programming at the Greniers à Sel changes regularly. The tourist office or a notice board at the entrance will have the current schedule. Summer months typically feature visual art exhibitions and evening concerts.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_sel_005",
+      "intent_en": "Ask where the nearest toilets are",
+      "text_local": "Où sont les toilettes les plus proches ?",
+      "pronunciation": "oo sohn lay twah-LET lay ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "Public toilets can be found near the Vieux Bassin and at Place Sainte-Catherine.",
+      "responses": [
+        {
+          "english": "Near the Old Harbour, on the right.",
+          "phonetic": "preh doo vyuh bah-SEHN, soor lah DRWAHT",
+          "french": "Près du Vieux Bassin, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "salt",
+      "word_local": "le sel",
+      "pronunciation": "luh SEL"
+    },
+    {
+      "word_en": "storehouse",
+      "word_local": "le grenier",
+      "pronunciation": "luh gruh-NYAY"
+    },
+    {
+      "word_en": "cod fish",
+      "word_local": "la morue",
+      "pronunciation": "lah moh-ROO"
+    },
+    {
+      "word_en": "roof structure",
+      "word_local": "la charpente",
+      "pronunciation": "lah shar-PAHNT"
+    }
+  ]
+}

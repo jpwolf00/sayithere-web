@@ -1,0 +1,100 @@
+{
+  "id": "linz_linz_central_market",
+  "name_en": "Linz Central Market",
+  "name_local": "Linzer Zentralmarkt",
+  "icon": "cart",
+  "lat": 48.3059078,
+  "lon": 14.286198,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "linz_linz_central_market_001",
+      "intent_en": "Where do I return deposit Pfand bottles?",
+      "text_local": "Wo gebe ich Pfandflaschen zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-pfAHntflahshuhn-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Pfand return points are typically located at exits or central collection points in German markets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Pfandautomaten beim Ausgang.",
+        "pronunciation": "ahm-pfAHndowtohmAHtuhn-beyem-OWsAHng",
+        "translation_en": "At the deposit machine near the exit."
+      },
+      "responses": [
+        {
+          "english": "At the deposit machine near the exit.",
+          "phonetic": "ahm-pfAHndowtohmAHtuhn-beyem-OWsAHng",
+          "french": "Am Pfandautomaten beim Ausgang."
+        }
+      ]
+    },
+    {
+      "id": "linz_linz_central_market_002",
+      "intent_en": "Where is the Frischeparadies seafood stall?",
+      "text_local": "Wo finde ich den Frischeparadies-Stand?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-frIHshehpAHrahdEEsshtAHnt",
+      "formality": "standard",
+      "cultural_note": "Stalls are grouped by product type; staff may point vaguely toward the seafood section rather than exact coordinates.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dort drüben bei den Fischständen.",
+        "pronunciation": "dAWrt-drUEbuhn-beye-dehn-fIHshshtehnduhn",
+        "translation_en": "Over there near the fish stands."
+      },
+      "responses": [
+        {
+          "english": "Over there near the fish stands.",
+          "phonetic": "dAWrt-drUEbuhn-beye-dehn-fIHshshtehnduhn",
+          "french": "Dort drüben bei den Fischständen."
+        }
+      ]
+    },
+    {
+      "id": "linz_linz_central_market_003",
+      "intent_en": "How do I use the weigh-your-own fruit scales?",
+      "text_local": "Wie funktioniert die Waage für Obst?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-dee-vAHuh-fuer-OHpst",
+      "formality": "standard",
+      "cultural_note": "Self-service scales are common in German markets; staff expect users to know the basic process.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Barcode scannen, Gewicht ablesen.",
+        "pronunciation": "bAHrkohduh-skAHnuhnuhvIHkht-AHplEHzuhn",
+        "translation_en": "Scan barcode, note weight."
+      },
+      "responses": [
+        {
+          "english": "Scan barcode, note weight.",
+          "phonetic": "bAHrkohduh-skAHnuhnuhvIHkht-AHplEHzuhn",
+          "french": "Barcode scannen, Gewicht ablesen."
+        }
+      ]
+    },
+    {
+      "id": "linz_linz_central_market_004",
+      "intent_en": "Is the Käse Eck cheese corner open today?",
+      "text_local": "Hat Käse Eck heute geöffnet?",
+      "pronunciation": "haht-kEHzuh-EHk-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Opening hours are stable; staff confirm general market hours unless a specific exception is posted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis zum Marktende.",
+        "pronunciation": "yAHbihs-tsuhm-mAHrktuhnduh",
+        "translation_en": "Yes, until market closing."
+      },
+      "responses": [
+        {
+          "english": "Yes, until market closing.",
+          "phonetic": "yAHbihs-tsuhm-mAHrktuhnduh",
+          "french": "Ja, bis zum Marktende."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "nara_mochiidono_shopping_arcade",
+  "name_en": "Mochiidono Shopping Arcade",
+  "name_local": "餅飯殿商店街",
+  "icon": "bag",
+  "lat": 34.68144444,
+  "lon": 135.805,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "nara_mochiidono_shopping_arcade_001",
+      "intent_en": "Where is the tax-free counter?",
+      "text_local": "めんぜいの カウンターは どこですか？",
+      "pronunciation": "mEHzehEEnoh-kOOntH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Tax-free counters in shopping arcades are often centralized rather than in individual shops.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "センターがいの まんなかです。",
+        "pronunciation": "sEHntgEEnoh-mNnkdEHsoo",
+        "translation_en": "In the middle of Center Gai."
+      },
+      "responses": [
+        {
+          "english": "In the middle of Center Gai.",
+          "phonetic": "sEHntgEEnoh-mNnkdEHsoo",
+          "french": "センターがいの まんなかです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_mochiidono_shopping_arcade_002",
+      "intent_en": "Where can I taste samples?",
+      "text_local": "ししょくできる ところは ありますか？",
+      "pronunciation": "EEohkOOdehkEEoo-tOHkohOHh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Sample stations are often placed right outside the shop to attract passersby.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "さけのみせの まえに ありますよ。",
+        "pronunciation": "sKehnOHmeesEHnoh-mEHnee-EEmsOOyoh",
+        "translation_en": "In front of the sake shop."
+      },
+      "responses": [
+        {
+          "english": "In front of the sake shop.",
+          "phonetic": "sKehnOHmeesEHnoh-mEHnee-EEmsOOyoh",
+          "french": "さけのみせの まえに ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "nara_mochiidono_shopping_arcade_003",
+      "intent_en": "How do I pay at food stalls first?",
+      "text_local": "やたいで さきに しはらうには どうすればいいですか？",
+      "pronunciation": "yTEEdeh-skEEnee-EEhOOnEEh-dOHoosOOehbEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Pointing at items and paying upfront is standard for many Japanese street food stalls.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ちゅうもんして、ここで さきに はらいます。",
+        "pronunciation": "tOOoomOHEEtehkohkOHdeh-skEEnee-hEEmSoo",
+        "translation_en": "Order, then pay here first."
+      },
+      "responses": [
+        {
+          "english": "Order, then pay here first.",
+          "phonetic": "tOOoomOHEEtehkohkOHdeh-skEEnee-hEEmSoo",
+          "french": "ちゅうもんして、ここで さきに はらいます。"
+        }
+      ]
+    },
+    {
+      "id": "nara_mochiidono_shopping_arcade_004",
+      "intent_en": "Is this shop cash only?",
+      "text_local": "このおみせは げんきんのみ ですか？",
+      "pronunciation": "kOHnohohmeesEHh-gEHngkeennOHmee-dehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small, traditional shops in Nara still operate on a cash-only basis.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "amboise_pagode_chanteloup",
+  "name_en": "Pagoda of Chanteloup",
+  "name_local": "Pagode de Chanteloup",
+  "icon": "building",
+  "phrases": [
+    {
+      "id": "amboise_pagode_001",
+      "intent_en": "Ask how many steps there are to the top of the pagoda",
+      "text_local": "Combien y a-t-il de marches jusqu'au sommet de la pagode ?",
+      "pronunciation": "kom-BYAN ee ah-TEEL duh MARSH zhoos-KOH som-AY duh lah pah-GOD",
+      "formality": "polite",
+      "cultural_note": "The pagoda has 149 steps across seven narrowing storeys. Built in 1778, it is an unusual example of chinoiserie in the Loire Valley.",
+      "responses": [
+        {
+          "english": "About a hundred and fifty steps.",
+          "phonetic": "ahn-vee-ROHN sahn san-KAHNT MARSH",
+          "french": "Environ cent cinquante marches."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_pagode_002",
+      "intent_en": "Ask about the view from the top",
+      "text_local": "Peut-on voir la forêt et la Loire depuis le sommet ?",
+      "pronunciation": "puh-TON vwar lah foh-RAY ay lah LWAR duh-PWEE luh som-AY",
+      "formality": "polite",
+      "cultural_note": "From the top of the pagoda you can see the surrounding Amboise forest and, on clear days, the Loire River winding through the valley.",
+      "responses": [
+        {
+          "english": "Yes, on a clear day you can see the Loire.",
+          "phonetic": "wee, par TAHN KLEHR ohn vwah lah LWAR",
+          "french": "Oui, par temps clair on voit la Loire."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_pagode_003",
+      "intent_en": "Ask if the forest park is free to walk in",
+      "text_local": "Le parc forestier est-il accessible librement ?",
+      "pronunciation": "luh PARK foh-res-TYAY ay-TEEL ak-ses-EEBL lee-bruh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The park around the pagoda, once part of a grand château demolished after the Revolution, is included with the pagoda entry ticket.",
+      "responses": [
+        {
+          "english": "It's included with the ticket.",
+          "phonetic": "seh ehn-KLOO ah-VEK luh bee-YEH",
+          "french": "C'est inclus avec le billet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_pagode_004",
+      "intent_en": "Ask if the park is accessible for strollers",
+      "text_local": "Le parc est-il accessible avec une poussette ?",
+      "pronunciation": "luh PARK eh-TEEL ak-ses-EEBL ah-VEK oon poo-SET",
+      "formality": "polite",
+      "cultural_note": "The park around the pagoda has flat paths suitable for strollers, though the pagoda steps are not accessible.",
+      "responses": [
+        {
+          "english": "Yes, the paths are flat.",
+          "phonetic": "wee, lay shuh-MEHN sohn PLAH",
+          "french": "Oui, les chemins sont plats."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_pagode_005",
+      "intent_en": "Ask if there are boat rides on the lake",
+      "text_local": "Y a-t-il des promenades en barque sur l'étang ?",
+      "pronunciation": "ee ah-TEEL day proh-muh-NAD ahn BARK soor lay-TAHN",
+      "formality": "polite",
+      "cultural_note": "A small lake in front of the pagoda is a popular spot for rowboats during the summer season.",
+      "responses": [
+        {
+          "english": "Yes, in summer.",
+          "phonetic": "wee, ahn ay-TAY",
+          "french": "Oui, en été."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "pagoda",
+      "word_local": "la pagode",
+      "pronunciation": "lah pah-GOD"
+    },
+    {
+      "word_en": "step / stair",
+      "word_local": "la marche",
+      "pronunciation": "lah MARSH"
+    },
+    {
+      "word_en": "summit / top",
+      "word_local": "le sommet",
+      "pronunciation": "luh som-AY"
+    },
+    {
+      "word_en": "lake / pond",
+      "word_local": "l'étang",
+      "pronunciation": "lay-TAHN"
+    }
+  ]
+}

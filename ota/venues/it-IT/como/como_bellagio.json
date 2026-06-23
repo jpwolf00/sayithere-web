@@ -1,0 +1,97 @@
+{
+  "id": "bellagio",
+  "name_en": "Bellagio",
+  "name_local": "Bellagio",
+  "icon": "house.2",
+  "lat": 45.9872549,
+  "lon": 9.2613001,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "bellagio_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, dov'è l'imbarcadero del traghetto, per favore?",
+      "pronunciation": "SKOO-zee, doh-VEH leem-bar-kah-DEH-roh del tra-GHET-toh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Down at the lake, on the left.",
+          "phonetic": "JEE-ù AHL LAH-goh AH see-NEE-strah",
+          "french": "Giù al lago, a sinistra."
+        }
+      ]
+    },
+    {
+      "id": "bellagio_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, dove si trova l'ufficio turistico, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, DOH-veh see TROH-vah loof-fee-choh too-REE-stee-koh, per fah-VOH-reh",
+      "formality": "casual",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the square, near the dock.",
+          "phonetic": "EEN pee-AHTS-tsah vee-CHEE-noh AHL MOH-loh",
+          "french": "In piazza, vicino al molo."
+        }
+      ]
+    },
+    {
+      "id": "bellagio_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, a che ora parte il traghetto, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, ah keh OH-rah PAR-teh eel tra-GHET-toh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The hours are posted at the entrance.",
+          "phonetic": "LY oh-RAH-ree SOH-noh een-dee-KAH-tee ahll-'eenj-REH-ssoh",
+          "french": "Gli orari sono indicati all'ingresso."
+        }
+      ]
+    },
+    {
+      "id": "it_bell_co_x1",
+      "intent_en": "Ask how to get to Bellagio by ferry",
+      "text_local": "Scusi, come si arriva a Bellagio in traghetto?",
+      "pronunciation": "SKOO-zee, KOH-meh see ar-REE-vah ah bel-LAH-joh een trah-GET-toh?",
+      "formality": "polite",
+      "cultural_note": "Bellagio sits at the meeting point of the three branches of Lake Como and is considered the most beautiful village on the lake.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From Como pier, ferry every thirty minutes.",
+          "phonetic": "dal MOH-loh dee KOH-moh, trah-GET-toh ON-nyee TREN-tah mee-NOO-tee.",
+          "french": "Dal molo di Como, traghetto ogni trenta minuti."
+        }
+      ]
+    },
+    {
+      "id": "it_bell_co_x2",
+      "intent_en": "Ask where the main gardens to visit are",
+      "text_local": "Buongiorno, quali giardini si visitano a Bellagio?",
+      "pronunciation": "bwohn-JOHR-noh, KWAH-lee jar-DEE-nee see vee-zee-TAH-noh ah bel-LAH-joh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Villa Serbelloni and Villa Melzi, both open.",
+          "phonetic": "VEE-lah ser-bel-LOH-nee eh VEE-lah mel-TSEE, en-TRAM-bee ah-PER-tee.",
+          "french": "Villa Serbelloni e Villa Melzi, entrambi aperti."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

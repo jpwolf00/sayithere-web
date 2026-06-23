@@ -1,0 +1,115 @@
+{
+  "id": "amboise_chateau_royal",
+  "name_en": "Royal Château d'Amboise",
+  "name_local": "Château Royal d'Amboise",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "amboise_chateau_001",
+      "intent_en": "Ask where Leonardo da Vinci's tomb is located",
+      "text_local": "Où se trouve le tombeau de Léonard de Vinci ?",
+      "pronunciation": "oo suh TROOV luh tom-BOH duh lay-oh-NAR duh VAN-see",
+      "formality": "polite",
+      "cultural_note": "Leonardo da Vinci is buried in the Chapelle Saint-Hubert within the château grounds. He died in 1519 at the nearby Clos Lucé.",
+      "responses": [
+        {
+          "english": "In the Chapel Saint-Hubert, on the right.",
+          "phonetic": "dahn lah shah-PEL sant-oo-BEHR, ah DRWAHT",
+          "french": "Dans la Chapelle Saint-Hubert, à droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_chateau_002",
+      "intent_en": "Ask for the next guided tour time",
+      "text_local": "À quelle heure commence la prochaine visite guidée ?",
+      "pronunciation": "ah kel UR koh-MAHNS lah proh-SHEN vee-ZEET gee-DAY",
+      "formality": "polite",
+      "cultural_note": "Guided tours of the château are available in French and English. The terrace offers a panoramic view over the Loire Valley.",
+      "responses": [
+        {
+          "english": "In twenty minutes.",
+          "phonetic": "dahn VANT mee-NOOT",
+          "french": "Dans vingt minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_chateau_003",
+      "intent_en": "Ask if there is a student discount",
+      "text_local": "Y a-t-il un tarif réduit pour les étudiants ?",
+      "pronunciation": "ee ah-TEEL uhn tah-REEF ray-DWEE poor lay zay-too-DYAHN",
+      "formality": "polite",
+      "cultural_note": "Château d'Amboise offers reduced rates for students under 26 with valid ID, and free entry for children under 7.",
+      "responses": [
+        {
+          "english": "Yes, with a student card.",
+          "phonetic": "wee, ah-VEK oon kart ay-too-DYAHNT",
+          "french": "Oui, avec une carte étudiante."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_chateau_004",
+      "intent_en": "Ask if there is an audio guide available",
+      "text_local": "Y a-t-il un audioguide disponible ?",
+      "pronunciation": "ee ah-TEEL un oh-dee-oh-GEED dees-poh-NEEBL",
+      "formality": "polite",
+      "cultural_note": "Audio guides are available in multiple languages and cover the royal apartments, the chapel, and the terrace walk.",
+      "responses": [
+        {
+          "english": "Yes, at reception. Five euros.",
+          "phonetic": "wee, ah lah-KUHY. sehnk uh-ROH",
+          "french": "Oui, à l'accueil. Cinq euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_chateau_005",
+      "intent_en": "Ask about the view from the terrace",
+      "text_local": "Est-ce qu'on peut voir la Loire depuis la terrasse ?",
+      "pronunciation": "es-kuh kon PUH vwar lah LWAR duh-PWEE lah teh-RASS",
+      "formality": "polite",
+      "cultural_note": "The terrace of the château provides a sweeping view of the Loire River and the town of Amboise below, considered one of the finest panoramas in the Loire Valley.",
+      "responses": [
+        {
+          "english": "Yes, the view is magnificent.",
+          "phonetic": "wee, lah VOO eh mah-nyee-FEEK",
+          "french": "Oui, la vue est magnifique."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "tomb",
+      "word_local": "le tombeau",
+      "pronunciation": "luh tom-BOH"
+    },
+    {
+      "word_en": "guided tour",
+      "word_local": "la visite guidée",
+      "pronunciation": "lah vee-ZEET gee-DAY"
+    },
+    {
+      "word_en": "chapel",
+      "word_local": "la chapelle",
+      "pronunciation": "lah shah-PEL"
+    },
+    {
+      "word_en": "terrace",
+      "word_local": "la terrasse",
+      "pronunciation": "lah teh-RASS"
+    }
+  ]
+}

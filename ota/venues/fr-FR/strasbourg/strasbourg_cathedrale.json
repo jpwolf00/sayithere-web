@@ -1,0 +1,118 @@
+{
+  "id": "strasbourg_cathedrale",
+  "name_en": "Cathédrale Notre-Dame de Strasbourg",
+  "name_local": "Cathédrale Notre-Dame",
+  "icon": "building.columns.fill",
+  "lat": 48.582,
+  "lon": 7.7504,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "strasbourg_cath_001",
+      "intent_en": "Ask about the astronomical clock show",
+      "text_local": "À quelle heure est le spectacle de l'horloge astronomique ?",
+      "pronunciation": "ah kel UHR eh leh spek-TAHK duh lor-LAJ ah-stroh-noh-MEEK",
+      "formality": "polite",
+      "cultural_note": "The astronomical clock shows a new display at 12:30pm (not noon). Crowds gather early — the show lasts about 30 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's at twelve thirty sharp, not at noon.",
+          "phonetic": "say tah DOOZ ur trahn-TAH pray-SEEZ, pah ah mee-DEE",
+          "french": "C'est à douze heures trente précises, pas à midi."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_cath_002",
+      "intent_en": "Ask about climbing the tower",
+      "text_local": "Peut-on monter au sommet de la tour ?",
+      "pronunciation": "puh-TON mon-TAY oh so-MAN duh lah TOOR",
+      "formality": "polite",
+      "cultural_note": "You can climb 332 steps to the viewing platform. The climb is steep but worth it for views across the city to Germany.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's three hundred thirty-two steps. The view is worth it.",
+          "phonetic": "wee, say trwah sahn trahnt-DUR MARSH. lah voo voh luh koo",
+          "french": "Oui, c'est trois cent trente-deux marches. La vue vaut le coup."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_cath_003",
+      "intent_en": "Ask about the pink sandstone",
+      "text_local": "Pourquoi la cathédrale est-elle rose ?",
+      "pronunciation": "poor-kwah lah kah-tay-DRAL eh-tel ROHZ",
+      "formality": "polite",
+      "cultural_note": "The cathedral is built from Vosges sandstone, which turns pink-orange at sunset. It's nicknamed 'the pink cathedral'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's Vosges sandstone. It turns pink-orange at sunset.",
+          "phonetic": "say duh GREH day VOHZH. eel duh-vee-AN ROHZ-oh-rahn-ZHAY oh koo-SHAY duh soo-LEH",
+          "french": "C'est du grès des Vosges. Il devient rose-orangé au coucher du soleil."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_cath_004",
+      "intent_en": "Ask about the missing spire",
+      "text_local": "Pourquoi la cathédrale n'a-t-elle pas de deuxième tour ?",
+      "pronunciation": "poor-kwah lah kah-tay-DRAL nah-tel pah duh duh-ZYEM TOOR",
+      "formality": "polite",
+      "cultural_note": "The north spire was never built due to funds. The single spire is unique among great cathedrals — most have two.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The second tower was never built due to lack of funds. It's unique.",
+          "phonetic": "lah duh-ZYEM TOOR nah zhah-MAY ay-tay kohn-stroo-EE foh-tuh duh fohn. say oo-NEEK",
+          "french": "La deuxième tour n'a jamais été construite faute de fonds. C'est unique."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_cath_005",
+      "intent_en": "Ask about the cathedral's size",
+      "text_local": "Quelle est la hauteur de la cathédrale ?",
+      "pronunciation": "kel eh lah oh-TEUR duh lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "At 142 meters, it was the world's tallest building from 1647 to 1874. It's still one of the tallest sandstone structures.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The spire reaches 143 meters, one of Europe's tallest cathedrals.",
+          "phonetic": "el feh sahn kah-RAHN-dur METR duh oh",
+          "french": "La flèche atteint 143 mètres de hauteur, l'une des plus hautes cathédrales d'Europe."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "spire",
+      "word_local": "la flèche",
+      "pronunciation": "lah FLESH"
+    },
+    {
+      "word_en": "clock",
+      "word_local": "l'horloge",
+      "pronunciation": "lor-LAJ"
+    },
+    {
+      "word_en": "sandstone",
+      "word_local": "le grès",
+      "pronunciation": "leh GREH"
+    }
+  ]
+}

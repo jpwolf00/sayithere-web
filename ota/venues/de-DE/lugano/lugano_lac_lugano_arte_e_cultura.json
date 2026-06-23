@@ -1,0 +1,122 @@
+{
+  "id": "lugano_lac_lugano_arte_e_cultura",
+  "name_en": "LAC Lugano Arte e Cultura",
+  "name_local": "LAC Lugano Arte e Cultura",
+  "icon": "building.columns",
+  "lat": 45.9994838,
+  "lon": 8.948078,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lugano_lac_lugano_arte_e_cultura_001",
+      "intent_en": "Ask when the LuganoMusica concert ends",
+      "text_local": "Wann endet das Konzert?",
+      "pronunciation": "vAHn-EHnduht-dahs-kawntsEHrt",
+      "formality": "standard",
+      "cultural_note": "Konzerte enden oft zur vollen Stunde oder um 22 Uhr.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Um 22 Uhr.",
+        "pronunciation": "uhm-tsvEYE-uhnttsvAHntsihkh-OOr",
+        "translation_en": "At 10 PM."
+      },
+      "responses": [
+        {
+          "english": "At 10 PM.",
+          "phonetic": "uhm-tsvEYE-uhnttsvAHntsihkh-OOr",
+          "french": "Um 22 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lac_lugano_arte_e_cultura_002",
+      "intent_en": "Ask where the MASI admission desk is",
+      "text_local": "Wo ist der MASI-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-mAHzeeshAHlt",
+      "formality": "standard",
+      "cultural_note": "MASI-Schalter wird oft als 'Biglietteria' bezeichnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links vom Eingang.",
+        "pronunciation": "lINGks-fawm-EYEngAHng",
+        "translation_en": "To the left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "To the left of the entrance.",
+          "phonetic": "lINGks-fawm-EYEngAHng",
+          "french": "Links vom Eingang."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lac_lugano_arte_e_cultura_003",
+      "intent_en": "Ask if LuganoInScena pass is available",
+      "text_local": "Gibt es das LuganoInScena-Pass?",
+      "pronunciation": "EEpt-ehs-dahs-looAHnoh-ihn-skEHnahpAHs",
+      "formality": "standard",
+      "cultural_note": "Pass muss vor Ort erworben werden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Erhältlich am Schalter.",
+        "pronunciation": "ehrhEHltlihkh-ahm-shAHlt",
+        "translation_en": "Available at the desk."
+      },
+      "responses": [
+        {
+          "english": "Available at the desk.",
+          "phonetic": "ehrhEHltlihkh-ahm-shAHlt",
+          "french": "Erhältlich am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lac_lugano_arte_e_cultura_004",
+      "intent_en": "Ask how to reach Palazzo Reali from here",
+      "text_local": "Wie komme ich zu Palazzo Reali?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoo-pahlAHtsoh-rEHahlEE",
+      "formality": "casual",
+      "cultural_note": "Palazzo Reali ist eine Außenstelle; kein direkter Zugang vom LAC.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Palazzo Reali ist der zweite Standort, fünf Minuten zu Fuß am See entlang.",
+        "pronunciation": "pahlAHtsoh-rEHahlEE-ihst-dehr-tsvEYEtuh-shtAHndawrtfUEnf-meenOOtuhn-tsoo-fOOs-ahm-zEH-ehntlAHng",
+        "translation_en": "Palazzo Reali is the second location, a five-minute walk along the lake."
+      },
+      "responses": [
+        {
+          "english": "Palazzo Reali is the second location, a five-minute walk along the lake.",
+          "phonetic": "pahlAHtsoh-rEHahlEE-ihst-dehr-tsvEYEtuh-shtAHndawrtfUEnf-meenOOtuhn-tsoo-fOOs-ahm-zEH-ehntlAHng",
+          "french": "Palazzo Reali ist der zweite Standort, fünf Minuten zu Fuß am See entlang."
+        }
+      ]
+    },
+    {
+      "id": "lugano_lac_lugano_arte_e_cultura_005",
+      "intent_en": "Ask where the orchestra rehearses",
+      "text_local": "Wo probt das Orchester?",
+      "pronunciation": "vOH-prOHpt-dahs-awrkEHst",
+      "formality": "standard",
+      "cultural_note": "Orchestra della Svizzera Italiana nutzt interne Räumlichkeiten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Probesaal.",
+        "pronunciation": "ihm-prOHbuhzAHl",
+        "translation_en": "In the rehearsal hall."
+      },
+      "responses": [
+        {
+          "english": "In the rehearsal hall.",
+          "phonetic": "ihm-prOHbuhzAHl",
+          "french": "Im Probesaal."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

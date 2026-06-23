@@ -1,0 +1,152 @@
+{
+  "id": "venue_orly_airport",
+  "name_en": "Orly Airport",
+  "name_local": "Aéroport d'Orly",
+  "icon": "airplane",
+  "phrases": [
+    {
+      "id": "venue_orly_airport_001",
+      "intent_en": "Ask which terminal your flight departs from",
+      "text_local": "De quel terminal part mon vol, s'il vous plaît ?",
+      "pronunciation": "duh kel tehr-mee-NAL par mohn VOL, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Orly has two terminals: Orly 1 (formerly Ouest and Sud, for international and Schengen flights) and Orly 4 (formerly Ouest, for domestic). Always check your boarding pass for the terminal number as the two terminals are not walkable between each other.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Check your boarding pass. It is marked on it.",
+          "phonetic": "vay-ree-fee-AY soor votr kart dahm-bark-MAHN. seh tahn-dee-KAY duh-SOO",
+          "french": "Vérifiez sur votre carte d'embarquement. C'est indiqué dessus."
+        }
+      ]
+    },
+    {
+      "id": "venue_orly_airport_002",
+      "intent_en": "Ask where the OrlyVal shuttle to the RER stops",
+      "text_local": "Où se trouve l'arrêt de l'OrlyVal pour rejoindre le RER ?",
+      "pronunciation": "oo suh TROOV lah-REH duh lor-lee-VAL poor ruh-ZHWAHN-druh luh air-uh-air",
+      "formality": "polite",
+      "cultural_note": "The OrlyVal automated shuttle connects Orly to Antony station on RER Line B, which goes directly into Paris. The journey to the city center takes about 35-40 minutes total. Orlybus also runs to Denfert-Rochereau (RER B) and is cheaper but slower.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The OrlyVal is on level zero, follow the signs.",
+          "phonetic": "lor-lee-VAL eh toh nee-VOH zay-ROH, swee-VAY lay pah-NOH",
+          "french": "L'OrlyVal est au niveau zéro, suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "venue_orly_airport_003",
+      "intent_en": "Ask where the taxi rank is outside arrivals",
+      "text_local": "Où se trouve la station de taxis à la sortie des arrivées ?",
+      "pronunciation": "oo suh TROOV lah stah-SYOHN duh tak-SEE ah lah sor-TEE day zah-ree-VAY",
+      "formality": "polite",
+      "cultural_note": "Official taxi ranks are located just outside each arrivals hall — follow the 'Taxis' signs. Only use official licensed taxis from the rank, never private 'taxi' offers inside the terminal. Fixed-rate fares apply from Orly to Paris intramuros (inside the périphérique).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Taxis are at the exit, door L.",
+          "phonetic": "lay tahk-SEE sohn tah lah sor-TEE, port el",
+          "french": "Les taxis sont à la sortie, porte L."
+        }
+      ]
+    },
+    {
+      "id": "venue_orly_airport_004",
+      "intent_en": "Ask where the baggage claim is for your flight",
+      "text_local": "Où se trouve le retrait des bagages pour mon vol ?",
+      "pronunciation": "oo suh TROOV luh ruh-TREH day bah-GAHZH poor mohn VOL",
+      "formality": "polite",
+      "cultural_note": "Baggage claim (livraison des bagages) carousels are indicated on the arrival screens. Baggage trolleys are free at Orly — unlike some airports. The lost luggage desk (bagages perdus) is adjacent to the baggage hall if your bag does not arrive.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Baggage claim is on level zero. Check the screens.",
+          "phonetic": "lah lee-vreh-ZOHN day bah-GAZH eh toh nee-VOH zay-ROH. vay-ree-fee-AY layz ay-KRAHN",
+          "french": "La livraison des bagages est au niveau zéro. Vérifiez les écrans."
+        }
+      ]
+    },
+    {
+      "id": "venue_orly_airport_005",
+      "intent_en": "Ask where the check-in desks are for your airline",
+      "text_local": "Où se trouvent les comptoirs d'enregistrement de ma compagnie aérienne ?",
+      "pronunciation": "oo suh TROOV lay kohn-TWAR dahn-ruh-zhee-struh-MAHN duh mah kohm-pahn-YEE ay-ryehn",
+      "formality": "polite",
+      "cultural_note": "Check-in counters are in the departure halls of each terminal. Both Orly 1 and Orly 4 have separate check-in areas for different airlines. If your terminal is unclear, check the Aéroports de Paris app or your airline's confirmation for the correct terminal number.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The check-in desks are on level one.",
+          "phonetic": "lay kohn-TWAHR dahn-ruh-zhees-truh-MAHN sohn toh nee-VOH uhn",
+          "french": "Les comptoirs d'enregistrement sont au niveau un."
+        }
+      ]
+    },
+    {
+      "id": "venue_orly_airport_006",
+      "intent_en": "Ask where the airport pharmacy is",
+      "text_local": "Y a-t-il une pharmacie dans l'aéroport ?",
+      "pronunciation": "ee ah-TEEL oon far-mah-SEE dahn lay-roh-POR",
+      "formality": "standard",
+      "cultural_note": "Orly has pharmacies airside (past security) in both terminals. Medical services (infirmerie) are also available for emergencies. If you need medication before departing France, a pharmacy in the terminal can advise and sell over-the-counter remedies.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The pharmacy is in the terminal, after security.",
+          "phonetic": "lah far-mah-SEE eh dahn luh tehr-mee-NAL, ah-PREH lah say-koo-ree-TAY",
+          "french": "La pharmacie est dans le terminal, après la sécurité."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Terminal",
+      "word_local": "Terminal",
+      "pronunciation": "tehr-mee-NAL"
+    },
+    {
+      "word_en": "Departures",
+      "word_local": "Départs",
+      "pronunciation": "day-PAR"
+    },
+    {
+      "word_en": "Arrivals",
+      "word_local": "Arrivées",
+      "pronunciation": "ah-ree-VAY"
+    },
+    {
+      "word_en": "Baggage claim",
+      "word_local": "Retrait des bagages",
+      "pronunciation": "ruh-TREH day bah-GAHZH"
+    },
+    {
+      "word_en": "Check-in desk",
+      "word_local": "Comptoir d'enregistrement",
+      "pronunciation": "kohn-TWAR dahn-ruh-zhee-struh-MAHN"
+    },
+    {
+      "word_en": "Taxi rank",
+      "word_local": "Station de taxis",
+      "pronunciation": "stah-SYOHN duh tak-SEE"
+    },
+    {
+      "word_en": "Shuttle",
+      "word_local": "Navette",
+      "pronunciation": "nah-VET"
+    },
+    {
+      "word_en": "Gate",
+      "word_local": "Porte",
+      "pronunciation": "port"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "heraklion_saint_minas_cathedral",
+  "name_en": "Saint Minas Cathedral",
+  "name_local": "Μητρόπολη Αγίου Μηνά",
+  "icon": "building.columns",
+  "lat": 35.337612,
+  "lon": 25.1309398,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "heraklion_saint_minas_cathedral_001",
+      "intent_en": "Do I need tickets here?",
+      "text_local": "Χρειάζονται εισιτήρια;",
+      "pronunciation": "khrkhAHzohdEH-EEseetEEreeAH",
+      "formality": "standard",
+      "cultural_note": "Cathedrals and churches in Greece typically do not charge entry fees.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι.",
+        "pronunciation": "OHkhee",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "OHkhee",
+          "french": "Όχι."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_saint_minas_cathedral_002",
+      "intent_en": "Is there a shop for icons?",
+      "text_local": "Υπάρχει κατάστημα για εικόνες;",
+      "pronunciation": "eepAHrkhee-kahtAHsteemAH-yAH-eekOHnehs",
+      "formality": "standard",
+      "cultural_note": "Religious item shops are commonly found near major churches in Greece, offering icons and other items.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, κοντά.",
+        "pronunciation": "nEHkohdAH",
+        "translation_en": "Yes, nearby."
+      },
+      "responses": [
+        {
+          "english": "Yes, nearby.",
+          "phonetic": "nEHkohdAH",
+          "french": "Ναι, κοντά."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_saint_minas_cathedral_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται ο θρόνος του Αρχιεπισκόπου;",
+      "pronunciation": "pOO-EEneh-ee-kahthEHthrah-too-AHrkhehpeeskOHpoo",
+      "formality": "standard",
+      "cultural_note": "The Archbishop's throne in a cathedral is typically located near the iconostasis or the central nave.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι κοντά στο τέμπλο, στο κεντρικό μέρος του ναού.",
+        "pronunciation": "EEneh-kohdAH-stoh-tEHblohstoh-EHdreekOH-mEHrohs-too-nahOO",
+        "translation_en": "It is near the iconostasis, in the central part of the church."
+      },
+      "responses": [
+        {
+          "english": "It is near the iconostasis, in the central part of the church.",
+          "phonetic": "EEneh-kohdAH-stoh-tEHblohstoh-EHdreekOH-mEHrohs-too-nahOO",
+          "french": "Είναι κοντά στο τέμπλο, στο κεντρικό μέρος του ναού."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_saint_minas_cathedral_004",
+      "intent_en": "How do I leave an offering?",
+      "text_local": "Πώς αφήνω προσφορά;",
+      "pronunciation": "pOHs-ahfEEnoh-prOHsfohrAH",
+      "formality": "standard",
+      "cultural_note": "Offerings at Greek Orthodox churches are typically placed in donation boxes near icons or at designated areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις κορνίζες των εικόνων.",
+        "pronunciation": "stees-kohrnEEzehs-tohn-eekOHnohn",
+        "translation_en": "At the icon frames."
+      },
+      "responses": [
+        {
+          "english": "At the icon frames.",
+          "phonetic": "stees-kohrnEEzehs-tohn-eekOHnohn",
+          "french": "Στις κορνίζες των εικόνων."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

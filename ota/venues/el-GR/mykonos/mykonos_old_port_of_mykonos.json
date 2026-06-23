@@ -1,0 +1,78 @@
+{
+  "id": "mykonos_old_port_of_mykonos",
+  "name_en": "Old Port of Mykonos",
+  "name_local": "Παλιό Λιμάνι Μυκόνου",
+  "icon": "tram",
+  "lat": 37.4482445,
+  "lon": 25.3265927,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mykonos_old_port_of_mykonos_001",
+      "intent_en": "Ask if the Archaeological Museum tickets include the port",
+      "text_local": "Τα εισιτήρια του Αρχαιολογικού Μουσείου περιλαμβάνουν το λιμάνι;",
+      "pronunciation": "tah-EEseetEEreeAH-too-AHrkhehOHlohyeekOO-moosEEoo-pEHreelahmvAHnoon-doh-leemAHnee",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι του μουσείου μπορούν να διευκρινίσουν την εμβέλεια των εισιτηρίων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, μόνο για το μουσείο.",
+        "pronunciation": "OHkheemOHnoh-yAH-toh-moosEEoh",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "OHkheemOHnoh-yAH-toh-moosEEoh",
+          "french": "Όχι, μόνο για το μουσείο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_old_port_of_mykonos_002",
+      "intent_en": "Ask when the next seabus to Delos departs",
+      "text_local": "Πότε αναχωρεί το επόμενο seabus για τη Δήλο;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-ehpOHmehnOH-ehnsEEbuhsehl-yAH-tee-thEEloh",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια των seabus ανακοινώνονται από τον υπάλληλο της τερματικής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις δέκα και μισή.",
+        "pronunciation": "steez-thEHkah-keh-meesEE",
+        "translation_en": "At half past ten."
+      },
+      "responses": [
+        {
+          "english": "At half past ten.",
+          "phonetic": "steez-thEHkah-keh-meesEE",
+          "french": "Στις δέκα και μισή."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_old_port_of_mykonos_003",
+      "intent_en": "Ask where to validate the ferry ticket",
+      "text_local": "Πού γίνεται η επικύρωση εισιτηρίων πλοίου;",
+      "pronunciation": "pOO-yEEnehtEH-ee-EHpeeEErohsEE-EEseeteerEEohm-blEEoo",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι της υπηρεσίας εισιτηρίων χειρίζονται επικυρώσεις εισιτηρίων πλοίων στον Παλιό Λιμένα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην υπηρεσία εισιτηρίων.",
+        "pronunciation": "steen-EEpeerehsEEah-EEseeteerEEohn",
+        "translation_en": "At the ticket service."
+      },
+      "responses": [
+        {
+          "english": "At the ticket service.",
+          "phonetic": "steen-EEpeerehsEEah-EEseeteerEEohn",
+          "french": "Στην υπηρεσία εισιτηρίων."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

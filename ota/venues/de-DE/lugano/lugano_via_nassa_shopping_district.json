@@ -1,0 +1,122 @@
+{
+  "id": "lugano_via_nassa_shopping_district",
+  "name_en": "Via Nassa Shopping District",
+  "name_local": "Via Nassa",
+  "icon": "map",
+  "lat": 46.1176476,
+  "lon": 8.893825,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "lugano_via_nassa_shopping_district_001",
+      "intent_en": "How do I validate a VAT stamp?",
+      "text_local": "Wie validiere ich den Mehrwertsteuerstempel?",
+      "pronunciation": "vee-vAHleedEEruh-ihkh-dehn-mEHrvtstAWuhstEHmpuhl",
+      "formality": "standard",
+      "cultural_note": "VAT stamps in Switzerland must be validated at customs when exiting the Schengen area. Staff will not validate them on-site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Zoll bei Ausreise.",
+        "pronunciation": "ahm-tsAWl-beye-OWsrEYEzuh",
+        "translation_en": "At customs when leaving."
+      },
+      "responses": [
+        {
+          "english": "At customs when leaving.",
+          "phonetic": "ahm-tsAWl-beye-OWsrEYEzuh",
+          "french": "Am Zoll bei Ausreise."
+        }
+      ]
+    },
+    {
+      "id": "lugano_via_nassa_shopping_district_002",
+      "intent_en": "Do market stalls take cards?",
+      "text_local": "Nimmt der Marktstand Karten?",
+      "pronunciation": "nIHmt-dehr-mAHrktstahnt-kAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Temporary market vendors in Switzerland, especially in tourist areas, often operate on a cash-only basis.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Barzahlung.",
+        "pronunciation": "nOOr-bAHrtsahlUHng",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHrtsahlUHng",
+          "french": "Nur Barzahlung."
+        }
+      ]
+    },
+    {
+      "id": "lugano_via_nassa_shopping_district_003",
+      "intent_en": "Is the lakeside promenade this way?",
+      "text_local": "Geht es hier zum Seepromenade?",
+      "pronunciation": "EHt-ehs-hEEr-tsuhm-zEHprohmEHnahduh",
+      "formality": "casual",
+      "cultural_note": "Lakeside promenades in Lugano are typically well-signed from central pedestrian zones.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, einfach geradeaus.",
+        "pronunciation": "yAHEYEnfAHkh-guhrAHdehOWs",
+        "translation_en": "Yes, just straight ahead."
+      },
+      "responses": [
+        {
+          "english": "Yes, just straight ahead.",
+          "phonetic": "yAHEYEnfAHkh-guhrAHdehOWs",
+          "french": "Ja, einfach geradeaus."
+        }
+      ]
+    },
+    {
+      "id": "lugano_via_nassa_shopping_district_004",
+      "intent_en": "Where is the VAT refund office?",
+      "text_local": "Wo ist das Büro für Mehrwertsteuer-Rückerstattung?",
+      "pronunciation": "vOH-ihst-dee-mEHrvtstAWuhrUEkstAHtuhng",
+      "formality": "standard",
+      "cultural_note": "In Swiss retail districts, VAT refund services are typically handled by specialized counters or staff within boutiques, often indicated by 'Tax Free' signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In der Via Nassa.",
+        "pronunciation": "ihn-dehr-vEEah-nAHsah",
+        "translation_en": "In the Via Nassa."
+      },
+      "responses": [
+        {
+          "english": "In the Via Nassa.",
+          "phonetic": "ihn-dehr-vEEah-nAHsah",
+          "french": "In der Via Nassa."
+        }
+      ]
+    },
+    {
+      "id": "lugano_via_nassa_shopping_district_005",
+      "intent_en": "Are watch purchase papers ready today?",
+      "text_local": "Sind die Uhr-Kaufpapiere heute fertig?",
+      "pronunciation": "zihnt-dee-OOrkOWfpahpEEruh-hAWuhtuh-fEHrtihkh",
+      "formality": "standard",
+      "cultural_note": "Swiss watch boutiques often require 1-2 business days for paperwork processing, including export documents.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Geschäft abholen.",
+        "pronunciation": "yAHihm-uhshEHft-AHphOHluhn",
+        "translation_en": "Yes, collect at the shop."
+      },
+      "responses": [
+        {
+          "english": "Yes, collect at the shop.",
+          "phonetic": "yAHihm-uhshEHft-AHphOHluhn",
+          "french": "Ja, im Geschäft abholen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

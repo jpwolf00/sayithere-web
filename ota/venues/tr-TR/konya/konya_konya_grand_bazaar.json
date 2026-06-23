@@ -1,0 +1,144 @@
+{
+  "id": "konya_konya_grand_bazaar",
+  "name_en": "Konya Grand Bazaar",
+  "name_local": "Konya Kapalı Çarşı",
+  "icon": "cart",
+  "lat": 37.872734,
+  "lon": 32.4924376,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "konya_konya_grand_bazaar_001",
+      "intent_en": "Can you weigh this gold here?",
+      "text_local": "Bu altını burada tartabilir misiniz?",
+      "pronunciation": "bOOrahdah-ahtOOn-tahrtahbeelIHr-mEEseenihz",
+      "formality": "standard",
+      "cultural_note": "Goldsmiths (kuyumcu) in the bazaar commonly offer weighing services for gold items.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, kuyumcuya gidin.",
+        "pronunciation": "ehvEHtkooyuhmdzhooyAH-eedIHn",
+        "translation_en": "Yes, go to the goldsmith."
+      },
+      "responses": [
+        {
+          "english": "Yes, go to the goldsmith.",
+          "phonetic": "ehvEHtkooyuhmdzhooyAH-eedIHn",
+          "french": "Evet, kuyumcuya gidin."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_grand_bazaar_002",
+      "intent_en": "Can you weigh this gold here?",
+      "text_local": "Bu altını burada tartabilir misiniz?",
+      "pronunciation": "buh-ahtoonOO-bOOrahdah-tahrtahbeelIHr-mEEseenihz",
+      "formality": "standard",
+      "cultural_note": "Kuyumcular hassas terazi ile tartım yaparlar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tabii, buyurun.",
+        "pronunciation": "tahbeeIHbooyoorUHn",
+        "translation_en": "Of course, here you go."
+      },
+      "responses": [
+        {
+          "english": "Of course, here you go.",
+          "phonetic": "tahbeeIHbooyoorUHn",
+          "french": "Tabii, buyurun."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_grand_bazaar_003",
+      "intent_en": "Can I deposit a carpet for shipping?",
+      "text_local": "Halıyı kargoya vermek için bırakabilir miyim?",
+      "pronunciation": "hahooyOO-kahrgohyAH-vehrmEHk-eetshIHn-boorahkahbeelIHr-mEEyihm",
+      "formality": "casual",
+      "cultural_note": "Carpet shipping is a common service but the specific deposit point is not a fixed, stable target in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, olabilir.",
+        "pronunciation": "ehvEHtohahbeelIHr",
+        "translation_en": "Yes, it's possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's possible.",
+          "phonetic": "ehvEHtohahbeelIHr",
+          "french": "Evet, olabilir."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_grand_bazaar_004",
+      "intent_en": "Where is the bedesten vault?",
+      "text_local": "Bedesten nerede?",
+      "pronunciation": "behdehstAHn-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The Bedesten is a historic covered vault within the bazaar but its exact location can be tricky to find.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İç avluda.",
+        "pronunciation": "IHtsh-ahvoodAH",
+        "translation_en": "In the inner courtyard."
+      },
+      "responses": [
+        {
+          "english": "In the inner courtyard.",
+          "phonetic": "IHtsh-ahvoodAH",
+          "french": "İç avluda."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_grand_bazaar_005",
+      "intent_en": "Do jewelers exchange currency?",
+      "text_local": "Kuyumcular döviz bozar mı?",
+      "pronunciation": "kooyuhmdzhooAHr-dUHvihz-bohzAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Currency exchange is a known service at some jewelers in the bazaar, but it's not guaranteed at every shop.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bazı kuyumcular bozar, sorun.",
+        "pronunciation": "bahzOO-kooyuhmdzhooAHr-bohzAHrsohrUHn",
+        "translation_en": "Some jewelers do, ask them."
+      },
+      "responses": [
+        {
+          "english": "Some jewelers do, ask them.",
+          "phonetic": "bahzOO-kooyuhmdzhooAHr-bohzAHrsohrUHn",
+          "french": "Bazı kuyumcular bozar, sorun."
+        }
+      ]
+    },
+    {
+      "id": "konya_konya_grand_bazaar_006",
+      "intent_en": "Where is the goldsmiths' lane?",
+      "text_local": "Altın sırası nerede?",
+      "pronunciation": "kooyuhmdzhooAHr-tshahrshoosOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The goldsmiths' section is a distinct lane known as Kuyumcular Çarşısı within the bazaar.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Sol taraftaki koridorda.",
+        "pronunciation": "sAW-tahrahftahkIH-kohreedawrdAH",
+        "translation_en": "In the corridor on the left side."
+      },
+      "responses": [
+        {
+          "english": "In the corridor on the left side.",
+          "phonetic": "sAW-tahrahftahkIH-kohreedawrdAH",
+          "french": "Sol taraftaki koridorda."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

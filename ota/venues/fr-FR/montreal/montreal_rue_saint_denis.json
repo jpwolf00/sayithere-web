@@ -1,0 +1,118 @@
+{
+  "id": "montreal_rue_saint_denis",
+  "name_en": "Rue Saint-Denis",
+  "name_local": "Rue Saint-Denis",
+  "icon": "bag",
+  "lat": 45.5204,
+  "lon": -73.574,
+  "radius_m": 350,
+  "phrases": [
+    {
+      "id": "mtl_rsd_001",
+      "intent_en": "Ask for a recommendation for a good terrace café",
+      "text_local": "Pouvez-vous me recommander un bon café avec une belle terrasse ?",
+      "pronunciation": "poo-VAY voo muh ruh-ko-mon-DAY un bon kah-FAY ah-VEK OON bel teh-RASS",
+      "formality": "polite",
+      "cultural_note": "Rue Saint-Denis is lined with terrasse cafés especially in summer. Locals linger for hours — don't rush your coffee.",
+      "responses": [
+        {
+          "english": "Try the café on the corner, nice terrace.",
+          "phonetic": "eh-say-YAY luh kah-FAY oh KWAHN BEL tay-RASS",
+          "french": "Essayez le café au coin, belle terrasse."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_rsd_002",
+      "intent_en": "Ask where a good used bookstore is",
+      "text_local": "Il y a une librairie de livres usagés dans le coin ?",
+      "pronunciation": "eel ee ah OON lee-breh-REE duh LEE-vruh oo-zah-ZHAY dahn luh KWAN",
+      "formality": "neutral",
+      "cultural_note": "Saint-Denis is known for its independent bookshops and literary culture. Several French-language used bookshops line the street.",
+      "responses": [
+        {
+          "english": "There is one on Saint-Laurent Boulevard.",
+          "phonetic": "eel ee ahn ah oon soor luh bool-VAR sahn-loh-RAHN",
+          "french": "Il y en a une sur le boulevard Saint-Laurent."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_rsd_003",
+      "intent_en": "Ask for directions to the Latin Quarter",
+      "text_local": "Le Quartier latin, c'est dans quelle direction ?",
+      "pronunciation": "luh kar-tee-YAY lah-TAN say dahn kel dee-rek-SYON",
+      "formality": "neutral",
+      "cultural_note": "The Latin Quarter around UQAM university along Saint-Denis is Montréal's intellectual hub, with theatres, bars, and cultural venues.",
+      "responses": [
+        {
+          "english": "Straight ahead, to the south.",
+          "phonetic": "say too DRWAH vair luh SOOD",
+          "french": "C'est tout droit, vers le sud."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_rsd_004",
+      "intent_en": "Ask if a restaurant has a table available",
+      "text_local": "Avez-vous une table de libre pour deux personnes ?",
+      "pronunciation": "ah-VAY voo OON TAHBL duh LEE-bruh poor duh pair-SON",
+      "formality": "polite",
+      "cultural_note": "Saint-Denis has dozens of restaurants of every cuisine. Reservations are recommended for Friday and Saturday evenings.",
+      "responses": [
+        {
+          "english": "Yes, for how many people?",
+          "phonetic": "wee poor kohm-BYAHN duh pair-SON",
+          "french": "Oui, pour combien de personnes ?"
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_rsd_005",
+      "intent_en": "Ask where to find a dépanneur for snacks",
+      "text_local": "C'est où le dépanneur le plus proche ?",
+      "pronunciation": "say OO luh day-pan-UR luh ploo PROSH",
+      "formality": "neutral",
+      "cultural_note": "'Dépanneur' (dep) is the Québécois term for corner store / convenience store. They're on almost every block and sell beer, snacks, and essentials.",
+      "responses": [
+        {
+          "english": "On the corner, to the right.",
+          "phonetic": "oh KWAHN duh lah ROO ah DRWAHT",
+          "french": "Au coin de la rue, à droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "terrace / patio",
+      "word_local": "la terrasse",
+      "pronunciation": "lah teh-RASS"
+    },
+    {
+      "word_en": "corner store (Québec)",
+      "word_local": "le dépanneur",
+      "pronunciation": "luh day-pan-UR"
+    },
+    {
+      "word_en": "bookshop",
+      "word_local": "la librairie",
+      "pronunciation": "lah lee-breh-REE"
+    },
+    {
+      "word_en": "neighbourhood",
+      "word_local": "le quartier",
+      "pronunciation": "luh kar-tee-YAY"
+    }
+  ]
+}

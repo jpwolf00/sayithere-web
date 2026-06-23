@@ -1,0 +1,56 @@
+{
+  "id": "athens_athens_railway_station_larissa",
+  "name_en": "Athens Railway Station Larissa",
+  "name_local": "Σιδηροδρομικός Σταθμός Λαρίσης",
+  "icon": "tram",
+  "lat": 37.9920847,
+  "lon": 23.720814,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "athens_athens_railway_station_larissa_001",
+      "intent_en": "How do I reach Metro Line 2 Larissa platform",
+      "text_local": "Πώς θα φτάσω στην πλατφόρμα της Γραμμής 2 του Μετρό στο σταθμό Λαρίσης;",
+      "pronunciation": "pOHs-pAHoh-steem-blahtfOHrmah-teez-ghrahmEEs-thEEoh-too-mehtrOH",
+      "formality": "standard",
+      "cultural_note": "Metro Station Larissa is directly beneath the railway station, requiring clear directional cues via signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κάτω από τον κεντρικό σταθμό, αριστερά.",
+        "pronunciation": "kAHtoh-ahpOH-tohng-gEHdreekOH-stahthmOHAHreestehrAH",
+        "translation_en": "Below the main station, on the left."
+      },
+      "responses": [
+        {
+          "english": "Below the main station, on the left.",
+          "phonetic": "kAHtoh-ahpOH-tohng-gEHdreekOH-stahthmOHAHreestehrAH",
+          "french": "Κάτω από τον κεντρικό σταθμό, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "athens_athens_railway_station_larissa_002",
+      "intent_en": "Where do I stamp the suburban railway ticket",
+      "text_local": "Πού ακυρώνω το εισιτήριο του προαστιακού;",
+      "pronunciation": "pOO-vAHzoh-sfrahyEEthah-stoh-EEseetEEreeOH-too-prOHahstEEahkOO",
+      "formality": "standard",
+      "cultural_note": "Suburban Railway tickets require validation at entry points, typically near platforms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις μηχανές επικύρωσης στην είσοδο.",
+        "pronunciation": "steez-mEEkhahnEHs-EHpeeEErohsEEs-steen-EEsohthOH",
+        "translation_en": "At the validation machines at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the validation machines at the entrance.",
+          "phonetic": "steez-mEEkhahnEHs-EHpeeEErohsEEs-steen-EEsohthOH",
+          "french": "Στις μηχανές επικύρωσης στην είσοδο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

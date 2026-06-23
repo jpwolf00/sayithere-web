@@ -1,0 +1,118 @@
+{
+  "id": "biarritz_phare",
+  "name_en": "Phare de Biarritz",
+  "name_local": "Phare de Biarritz",
+  "icon": "binoculars",
+  "lat": 43.486,
+  "lon": -1.567,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "biarritz_phare_001",
+      "intent_en": "Ask about climbing to the top of the lighthouse",
+      "text_local": "Est-il possible de monter au sommet du phare ?",
+      "pronunciation": "eh-TEEL po-SEEBL duh moh-TAY oh soh-VOM doo FAR",
+      "formality": "polite",
+      "cultural_note": "The lighthouse has 248 steps to the top. The climb is steep but the panoramic views over the Atlantic coast are spectacular.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are 248 steps. The view at the top is superb.",
+          "phonetic": "wee, eel ee ah duh-sahn-kah-rahnt-weet MARSH. lah vyoo ahn oh eh soo-PAIRB",
+          "french": "Oui, il y a 248 marches. La vue en haut est superbe."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_phare_002",
+      "intent_en": "Ask how much the entry fee is",
+      "text_local": "Combien coûte l'entrée du phare ?",
+      "pronunciation": "kom-BYAN koot lahn-TRAY doo FAR",
+      "formality": "polite",
+      "cultural_note": "The lighthouse charges a small entry fee. Family tickets are available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Three euros per person. Free for children.",
+          "phonetic": "trwah uh-ROH par pair-SON. grah-TWEE poor lay zahn-FAHN",
+          "french": "Trois euros par personne. Gratuit pour les enfants."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_phare_003",
+      "intent_en": "Ask about the view from the top",
+      "text_local": "Quelle est la vue depuis le sommet ?",
+      "pronunciation": "kel eh lah VYOO duh-PWEE luh soh-VOM",
+      "formality": "polite",
+      "cultural_note": "On clear days you can see the Spanish coast, the Pyrenees mountains, and the entire Basque coast from the lighthouse platform.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On clear days, you can see the Spanish coast and the Pyrenees.",
+          "phonetic": "par tahn KLEHR, ohn vwah lah koht es-pah-NYOL ay lay pee-ray-NAY",
+          "french": "Par temps clair, on voit la côte espagnole et les Pyrénées."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_phare_004",
+      "intent_en": "Ask about the lighthouse museum",
+      "text_local": "Y a-t-il un musée dans le phare ?",
+      "pronunciation": "ee ah-TEEL un myoo-ZAY dan luh FAR",
+      "formality": "polite",
+      "cultural_note": "The lighthouse houses a small museum about lighthouse history and the life of lighthouse keepers. Entry is included in the climb ticket.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, a small museum is included with the ticket.",
+          "phonetic": "wee, uhn puh-TEE myoo-ZAY eh ahn-KLOO ah-VEK luh bee-YAY",
+          "french": "Oui, un petit musée est inclus avec le billet."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_phare_005",
+      "intent_en": "Ask about the best time to visit for sunset",
+      "text_local": "Quelle est la meilleure heure pour voir le coucher du soleil ?",
+      "pronunciation": "kel eh lah may-YUR UHR poor VWAHR luh koo-SHAY doo soh-LAY",
+      "formality": "polite",
+      "cultural_note": "Sunset from the lighthouse is spectacular, facing west over the Atlantic. Arrive 30 minutes before sunset for the best light.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Arrive thirty minutes before sunset.",
+          "phonetic": "ah-ree-VAY trahnt mee-NOOT ah-VAHN luh koo-SHAY doo soh-LAY",
+          "french": "Arrivez trente minutes avant le coucher du soleil."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "lighthouse",
+      "word_local": "le phare",
+      "pronunciation": "leh FAR"
+    },
+    {
+      "word_en": "panoramic view",
+      "word_local": "la vue panoramique",
+      "pronunciation": "lah VYOO pah-no-rah-MEEK"
+    },
+    {
+      "word_en": "steps",
+      "word_local": "les marches",
+      "pronunciation": "lay MARSH"
+    },
+    {
+      "word_en": "coast",
+      "word_local": "la côte",
+      "pronunciation": "lah KOHT"
+    }
+  ]
+}

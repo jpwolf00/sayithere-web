@@ -1,0 +1,78 @@
+{
+  "id": "istanbul_spice_bazaar",
+  "name_en": "Spice Bazaar",
+  "name_local": "Mısır Çarşısı",
+  "icon": "cart",
+  "lat": 41.0164786,
+  "lon": 28.9705376,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "istanbul_spice_bazaar_001",
+      "intent_en": "Ask if they assemble gift boxes for lokum",
+      "text_local": "Lokum için hediye kutusu hazırlıyor musunuz?",
+      "pronunciation": "OHkuhm-eetshIHn-hehdeeyEH-kootoosUH-hahzoorlOOyawr-mOOsoonuhz",
+      "formality": "polite",
+      "cultural_note": "Gift box assembly is a common service specifically at Turkish delight (lokum) stalls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, lokum tezgahlarında hazırlarız.",
+        "pronunciation": "ehvEHtOHkuhm-tehzgahhahroondAH-hahzoorAHrooz",
+        "translation_en": "Yes, we assemble them at the lokum stalls."
+      },
+      "responses": [
+        {
+          "english": "Yes, we assemble them at the lokum stalls.",
+          "phonetic": "ehvEHtOHkuhm-tehzgahhahroondAH-hahzoorAHrooz",
+          "french": "Evet, lokum tezgahlarında hazırlarız."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_spice_bazaar_002",
+      "intent_en": "Ask where saffron stall is",
+      "text_local": "Safran tezgahı nerede?",
+      "pronunciation": "sahfrAHn-sahtAHn-bihr-tehzgAHh-nEHrehdeh-booahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Spice stalls are numerous and moveable; no specific saffron stall location is permanently fixed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana girişin sağında.",
+        "pronunciation": "ahnAH-eereeshIHn-sahoondAH",
+        "translation_en": "To the right of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "To the right of the main entrance.",
+          "phonetic": "ahnAH-eereeshIHn-sahoondAH",
+          "french": "Ana girişin sağında."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_spice_bazaar_003",
+      "intent_en": "Ask if vendor accepts credit card",
+      "text_local": "Kredi kartı geçerli mi?",
+      "pronunciation": "krehdIH-kahrtOO-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Many small stalls are cash-only; it's standard practice in the bazaar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sadece nakit çalışıyoruz.",
+        "pronunciation": "sahdEHdzheh-nahkIHt-tshahooshOOyohruhz",
+        "translation_en": "We only work with cash."
+      },
+      "responses": [
+        {
+          "english": "We only work with cash.",
+          "phonetic": "sahdEHdzheh-nahkIHt-tshahooshOOyohruhz",
+          "french": "Sadece nakit çalışıyoruz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

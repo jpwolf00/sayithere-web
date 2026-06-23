@@ -1,0 +1,100 @@
+{
+  "id": "linz_hauptplatz",
+  "name_en": "Hauptplatz",
+  "name_local": "Hauptplatz",
+  "icon": "building.columns",
+  "lat": 48.3057661,
+  "lon": 14.2865452,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "linz_hauptplatz_001",
+      "intent_en": "Do I pay café outdoor seating first",
+      "text_local": "Muss ich zuerst zahlen?",
+      "pronunciation": "mUHs-ihkh-tsooEHrst-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Austria, outdoor café seating often requires payment before or at the table, typically to a waiter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bitte zahlen Sie beim Kellner.",
+        "pronunciation": "yAHbIHtuh-tsAHluhn-zee-beyem-kEHln",
+        "translation_en": "Yes, please pay the waiter."
+      },
+      "responses": [
+        {
+          "english": "Yes, please pay the waiter.",
+          "phonetic": "yAHbIHtuh-tsAHluhn-zee-beyem-kEHln",
+          "french": "Ja, bitte zahlen Sie beim Kellner."
+        }
+      ]
+    },
+    {
+      "id": "linz_hauptplatz_002",
+      "intent_en": "Can I enter the parking garage now",
+      "text_local": "Kann ich jetzt in die Tiefgarage fahren?",
+      "pronunciation": "kAHn-ihkh-yEHtst-ihn-dee-tEEfahrAHzhuh-fAHruhn",
+      "formality": "standard",
+      "cultural_note": "Parking garage access in Austria often depends on barrier operation times, which are typically indicated at the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die Schranke ist offen.",
+        "pronunciation": "yAHdee-shrAHngkuh-ihst-AWfuhn",
+        "translation_en": "Yes, the barrier is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, the barrier is open.",
+          "phonetic": "yAHdee-shrAHngkuh-ihst-AWfuhn",
+          "french": "Ja, die Schranke ist offen."
+        }
+      ]
+    },
+    {
+      "id": "linz_hauptplatz_003",
+      "intent_en": "Where is the tram ticket machine",
+      "text_local": "Wo ist der Fahrkartenautomat für die Straßenbahn?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-tIHkehtOWtohmAHtuhn",
+      "formality": "standard",
+      "cultural_note": "Tram ticket machines are typically grouped and clearly signposted in public squares in Austria.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In der Nähe des Eingangs.",
+        "pronunciation": "ihn-dehr-nEHuh-dehs-EYEngAHngs",
+        "translation_en": "Near the entrance."
+      },
+      "responses": [
+        {
+          "english": "Near the entrance.",
+          "phonetic": "ihn-dehr-nEHuh-dehs-EYEngAHngs",
+          "french": "In der Nähe des Eingangs."
+        }
+      ]
+    },
+    {
+      "id": "linz_hauptplatz_004",
+      "intent_en": "Where is the Dreifaltigkeitssäule",
+      "text_local": "Wo steht die Dreifaltigkeitssäule?",
+      "pronunciation": "vOH-shtEHt-dee-drEYEfahltIHkhkeyetsAWuhluh",
+      "formality": "standard",
+      "cultural_note": "The Dreifaltigkeitssäule is a historic monument in Linz’s main square and prominently signposted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Mitten auf dem Platz.",
+        "pronunciation": "mIHtuhn-owf-dehm-plAHts",
+        "translation_en": "In the middle of the square."
+      },
+      "responses": [
+        {
+          "english": "In the middle of the square.",
+          "phonetic": "mIHtuhn-owf-dehm-plAHts",
+          "french": "Mitten auf dem Platz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

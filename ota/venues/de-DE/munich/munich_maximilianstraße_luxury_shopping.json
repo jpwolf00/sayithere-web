@@ -1,0 +1,100 @@
+{
+  "id": "munich_maximilianstraße_luxury_shopping",
+  "name_en": "Maximilianstraße Luxury Shopping",
+  "name_local": "Maximilianstraße",
+  "icon": "bag",
+  "lat": 48.1367715,
+  "lon": 11.5922192,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "munich_maximilianstraße_luxury_shopping_001",
+      "intent_en": "Do I need an appointment for this boutique?",
+      "text_local": "Brauche ich einen Termin für die Boutique?",
+      "pronunciation": "brOWkhuh-ihkh-EYEnuhn-tehrmEEn-fuer-dee-bootEEk",
+      "formality": "standard",
+      "cultural_note": "Some high-end boutiques in Munich require appointments for personalized service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, einfach hereinkommen.",
+        "pronunciation": "nEYEnEYEnfAHkh-hehrEYEnkAWmuhn",
+        "translation_en": "No, just come in."
+      },
+      "responses": [
+        {
+          "english": "No, just come in.",
+          "phonetic": "nEYEnEYEnfAHkh-hehrEYEnkAWmuhn",
+          "french": "Nein, einfach hereinkommen."
+        }
+      ]
+    },
+    {
+      "id": "munich_maximilianstraße_luxury_shopping_002",
+      "intent_en": "Where can I validate my parking ticket?",
+      "text_local": "Wo kann ich meinen Parkschein stempeln lassen?",
+      "pronunciation": "vOH-kAHn-ihkh-mEYEnuhn-pAHrksheyen-shtEHmpuhln-lAHsuhn",
+      "formality": "standard",
+      "cultural_note": "Valet parking services in Munich often handle parking ticket validation directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter des Valet-Service.",
+        "pronunciation": "ahm-shAHlt-dehs-vAHluhtehnsVihsdeh",
+        "translation_en": "At the valet service counter."
+      },
+      "responses": [
+        {
+          "english": "At the valet service counter.",
+          "phonetic": "ahm-shAHlt-dehs-vAHluhtehnsVihsdeh",
+          "french": "Am Schalter des Valet-Service."
+        }
+      ]
+    },
+    {
+      "id": "munich_maximilianstraße_luxury_shopping_003",
+      "intent_en": "Is this restaurant taking walk-ins now?",
+      "text_local": "Kann ich ohne Reservierung kommen?",
+      "pronunciation": "kAHn-ihkh-OHnuh-rEHzehrvEEruhng-kAWmuhn",
+      "formality": "casual",
+      "cultural_note": "In Munich, some restaurants accept walk-ins even during busy times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, wir haben Plätze.",
+        "pronunciation": "yAHveer-hAHbuhn-plEHtsuh",
+        "translation_en": "Yes, we have tables available."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have tables available.",
+          "phonetic": "yAHveer-hAHbuhn-plEHtsuh",
+          "french": "Ja, wir haben Plätze."
+        }
+      ]
+    },
+    {
+      "id": "munich_maximilianstraße_luxury_shopping_004",
+      "intent_en": "Where is the Mandarin Oriental entrance?",
+      "text_local": "Wo ist der Eingang zum Mandarin Oriental?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-mAHndahrIHn-OHrihehntAHl",
+      "formality": "standard",
+      "cultural_note": "In Munich, luxury hotels often have prominent entrances facing major avenues like Maximilianstraße.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ende der Maximilianstraße.",
+        "pronunciation": "ahm-EHnduh-dehr-mAHkseemEEleeAHnstrAHsuh",
+        "translation_en": "At the end of Maximilianstraße."
+      },
+      "responses": [
+        {
+          "english": "At the end of Maximilianstraße.",
+          "phonetic": "ahm-EHnduh-dehr-mAHkseemEEleeAHnstrAHsuh",
+          "french": "Am Ende der Maximilianstraße."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

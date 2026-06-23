@@ -1,0 +1,144 @@
+{
+  "id": "sapporo_sapporo_central_wholesale_market",
+  "name_en": "Sapporo Central Wholesale Market",
+  "name_local": "札幌市中央卸売市場",
+  "icon": "cart",
+  "lat": 43.0740808,
+  "lon": 141.3212823,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "sapporo_sapporo_central_wholesale_market_001",
+      "intent_en": "Can I watch the tuna auction?",
+      "text_local": "まぐろの せりは みられますか？",
+      "pronunciation": "mGooOHnoh-sehEEh-mEEEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Auctions are very early morning. Be quiet and follow staff instructions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、でも あさごじから ですよ。",
+        "pronunciation": "hEEdEHmoh-SgOHdeek-DehsOOyoh",
+        "translation_en": "Yes, but it's from 5 AM."
+      },
+      "responses": [
+        {
+          "english": "Yes, but it's from 5 AM.",
+          "phonetic": "hEEdEHmoh-SgOHdeek-DehsOOyoh",
+          "french": "はい、でも あさごじから ですよ。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_central_wholesale_market_002",
+      "intent_en": "Do crab stalls accept credit cards?",
+      "text_local": "かにうりばで カードは つかえますか？",
+      "pronunciation": "kNeeOOeebDeh-kdOHh-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "It is a mix; smaller stalls often prefer cash, while larger shops may take cards.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "げんきん のみの みせも あります。",
+        "pronunciation": "gEHngkee-nohmEEnoh-meesEHmoh-EEmSoo",
+        "translation_en": "Some shops are cash only."
+      },
+      "responses": [
+        {
+          "english": "Some shops are cash only.",
+          "phonetic": "gEHngkee-nohmEEnoh-meesEHmoh-EEmSoo",
+          "french": "げんきん のみの みせも あります。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_central_wholesale_market_003",
+      "intent_en": "Is uni priced per gram?",
+      "text_local": "うには グラムたんか ですか？",
+      "pronunciation": "oonEEh-gOOmootNGk-dehsOOk",
+      "formality": "standard",
+      "cultural_note": "Uni is typically sold in small wooden trays or packs, not by weight for retail.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、ひとパック いくら です。",
+        "pronunciation": "EEehkhEEtohpKkoo-eekOO-dEHsoo",
+        "translation_en": "No, it's priced per pack."
+      },
+      "responses": [
+        {
+          "english": "No, it's priced per pack.",
+          "phonetic": "EEehkhEEtohpKkoo-eekOO-dEHsoo",
+          "french": "いいえ、ひとパック いくら です。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_central_wholesale_market_004",
+      "intent_en": "Where is the parking fee machine?",
+      "text_local": "ちゅうしゃじょうの せいさんきは どこですか？",
+      "pronunciation": "tOOooDohOOnoh-sEHeesngkEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Pay the parking fee at the machine before driving to the exit gate.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "でぐちの てまえ、みぎがわに あります。",
+        "pronunciation": "dEHgootEEnoh-tehmEHmEEgeegwNee-EEmSoo",
+        "translation_en": "Just before the exit, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Just before the exit, on the right side.",
+          "phonetic": "dEHgootEEnoh-tehmEHmEEgeegwNee-EEmSoo",
+          "french": "でぐちの てまえ、みぎがわに あります。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_central_wholesale_market_005",
+      "intent_en": "Where is Donburi Alley?",
+      "text_local": "どんぶりよこちょうは どこですか？",
+      "pronunciation": "dOHbOOeeyOHkohtohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Donburi Alley is inside the Jogai (outer) Market, not the wholesale area.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "じょがい いちばの おく、ひだりがわです。",
+        "pronunciation": "dohgEE-EEteebNoh-OHkookhEEdEEgwdEHsoo",
+        "translation_en": "At the back of the outer market, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the back of the outer market, on the left.",
+          "phonetic": "dohgEE-EEteebNoh-OHkookhEEdEEgwdEHsoo",
+          "french": "じょがい いちばの おく、ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_central_wholesale_market_006",
+      "intent_en": "How do I ship seafood home?",
+      "text_local": "かいせんを じたくに そうふしたい。",
+      "pronunciation": "kEEsehOH-dEEtkOOnee-sOHooOOeetEE",
+      "formality": "standard",
+      "cultural_note": "Look for the takkyubin (shipping) counter; they pack with ice for transport.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はっそうカウンターは いりぐちの ちかくです。",
+        "pronunciation": "hSsohOOkoontH-EEeegootEEnoh-tEEkkoodEHsoo",
+        "translation_en": "The shipping counter is near the entrance."
+      },
+      "responses": [
+        {
+          "english": "The shipping counter is near the entrance.",
+          "phonetic": "hSsohOOkoontH-EEeegootEEnoh-tEEkkoodEHsoo",
+          "french": "はっそうカウンターは いりぐちの ちかくです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

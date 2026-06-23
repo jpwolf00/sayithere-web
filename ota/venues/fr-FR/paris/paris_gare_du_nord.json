@@ -1,0 +1,118 @@
+{
+  "id": "paris_gare_du_nord",
+  "name_en": "Gare du Nord",
+  "name_local": "Gare du Nord",
+  "icon": "tram",
+  "lat": 48.8809,
+  "lon": 2.3553,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "paris_gdn_001",
+      "intent_en": "Ask where Eurostar platforms are",
+      "text_local": "Les quais Eurostar sont où ?",
+      "pronunciation": "lay kay uh-roh-STAR son oo",
+      "formality": "polite",
+      "cultural_note": "Platform zones are segmented; confirm your train class and departure board.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Eurostar platforms are on level 0, toward the upper level. Follow the signs.",
+          "phonetic": "lay kay uh-roh-STAR son oh nee-VOH zero, vair luh nee-VOH soo-payr-YUHR. swee-VAY lay pah-NOH",
+          "french": "Les quais Eurostar sont au niveau 0, vers le niveau supérieur. Suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "paris_gdn_002",
+      "intent_en": "Ask where luggage storage is",
+      "text_local": "Où sont les consignes à bagages ?",
+      "pronunciation": "oo son lay kon-SEEN yah bah-GAZH",
+      "formality": "polite",
+      "cultural_note": "Station luggage services can have size and security limits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Luggage storage is in the basement, near the main entrance.",
+          "phonetic": "lay kon-SEEN son oh soo-sol, pray duh lan-TRAY pran-see-PAL",
+          "french": "Les consignes sont au sous-sol, près de l'entrée principale."
+        }
+      ]
+    },
+    {
+      "id": "paris_gdn_003",
+      "intent_en": "Ask if this is the train to Brussels",
+      "text_local": "C'est bien le train pour Bruxelles ?",
+      "pronunciation": "say byan leh trahn poor brew-SELL",
+      "formality": "polite",
+      "cultural_note": "Always confirm train number and final destination, not just city name.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, this is the train to Brussels. It's train number 9011.",
+          "phonetic": "wee, say leh trahn poor brew-SELL. say leh nay-may-roh noof-SAHNZ",
+          "french": "Oui, c'est le train pour Bruxelles. C'est le numéro 9011."
+        }
+      ]
+    },
+    {
+      "id": "paris_gdn_004",
+      "intent_en": "Ask where to validate a ticket",
+      "text_local": "Je valide mon billet où ?",
+      "pronunciation": "zhuh vah-LEED mon bee-YAY oo",
+      "formality": "polite",
+      "cultural_note": "Validation rules differ by operator; ask before boarding to avoid fines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "You need to validate before boarding. The validators are on the platform.",
+          "phonetic": "voo duh-VAY kom-pos-TAY ah-VON duh mon-TAY. lay kom-pos-TEHR son sur leh kay",
+          "french": "Vous devez composter avant de monter. Les composteurs sont sur le quai."
+        }
+      ]
+    },
+    {
+      "id": "paris_gdn_005",
+      "intent_en": "Ask where taxis queue safely",
+      "text_local": "La file des taxis officiels est où ?",
+      "pronunciation": "lah feel day tak-SEE oh-fee-syel eh oo",
+      "formality": "polite",
+      "cultural_note": "Use official taxi queues; avoid touts inside busy station exits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The taxi queue is at the main exit, on the right.",
+          "phonetic": "lah feel day tak-SEE eh tah lah sor-TEE pran-see-PAL, sur lah drwaht",
+          "french": "La file des taxis est à la sortie principale, sur la droite."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "leh kay"
+    },
+    {
+      "word_en": "departure board",
+      "word_local": "le tableau des départs",
+      "pronunciation": "leh tah-BLO day day-PAR"
+    },
+    {
+      "word_en": "luggage storage",
+      "word_local": "la consigne",
+      "pronunciation": "lah kon-SEEN"
+    },
+    {
+      "word_en": "official taxi",
+      "word_local": "taxi officiel",
+      "pronunciation": "tak-SEE oh-fee-syel"
+    }
+  ]
+}

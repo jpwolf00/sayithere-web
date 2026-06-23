@@ -1,0 +1,122 @@
+{
+  "id": "graz_styrian_armoury_museum",
+  "name_en": "Styrian Armoury Museum",
+  "name_local": "Landeszeughaus",
+  "icon": "building.columns",
+  "lat": 47.0698025,
+  "lon": 15.4398828,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "graz_styrian_armoury_museum_001",
+      "intent_en": "Where is the original 1642 building section?",
+      "text_local": "Wo ist der Originalbau von 1642?",
+      "pronunciation": "vOH-ihst-dehr-OHrihEEnahlbOW-fawn-EYEn-tOWzuhnt-zEHkshUHndt-tsvEYE-uhntfIHrtsihkh",
+      "formality": "standard",
+      "cultural_note": "The original structure is part of the main exhibition area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im historischen Hauptgebäude.",
+        "pronunciation": "ihm-hihstOHrihshuhn-hOWptuhbAWuhduh",
+        "translation_en": "In the historic main building."
+      },
+      "responses": [
+        {
+          "english": "In the historic main building.",
+          "phonetic": "ihm-hihstOHrihshuhn-hOWptuhbAWuhduh",
+          "french": "Im historischen Hauptgebäude."
+        }
+      ]
+    },
+    {
+      "id": "graz_styrian_armoury_museum_002",
+      "intent_en": "Where can I buy weapon replicas?",
+      "text_local": "Wo gibt es Waffen-Repliken zu kaufen?",
+      "pronunciation": "vOH-EEpt-ehs-vAHfuhnrEHplihkuhn-tsoo-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Replicas are sold at the venue’s dedicated shop; no separate counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Museumsshop.",
+        "pronunciation": "ihm-mOOzawuhmshOHp",
+        "translation_en": "In the museum shop."
+      },
+      "responses": [
+        {
+          "english": "In the museum shop.",
+          "phonetic": "ihm-mOOzawuhmshOHp",
+          "french": "Im Museumsshop."
+        }
+      ]
+    },
+    {
+      "id": "graz_styrian_armoury_museum_003",
+      "intent_en": "Where can I book a guided tour?",
+      "text_local": "Kann ich einen Platz für eine Führung buchen?",
+      "pronunciation": "vOH-kAHn-ihkh-EYEnuh-fUEruhng-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Guided tours are typically coordinated at a central service point rather than a dedicated desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eingang melden.",
+        "pronunciation": "ahm-EYEngAHng-mEHlduhn",
+        "translation_en": "Report at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Report at the entrance.",
+          "phonetic": "ahm-EYEngAHng-mEHlduhn",
+          "french": "Am Eingang melden."
+        }
+      ]
+    },
+    {
+      "id": "graz_styrian_armoury_museum_004",
+      "intent_en": "Where is the Herrengasse 16 entrance?",
+      "text_local": "Wo ist der Eingang Herrengasse 16?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-hEHruhnAHsuh-zEHkhtsehn",
+      "formality": "standard",
+      "cultural_note": "The main entrance is directly accessible from the street at the listed address.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Gebäude Herrengasse 16.",
+        "pronunciation": "fAWr-dehm-uhbAWuhduh-hEHruhnAHsuh-zEHkhtsehn",
+        "translation_en": "In front of the building at Herrengasse 16."
+      },
+      "responses": [
+        {
+          "english": "In front of the building at Herrengasse 16.",
+          "phonetic": "fAWr-dehm-uhbAWuhduh-hEHruhnAHsuh-zEHkhtsehn",
+          "french": "Vor dem Gebäude Herrengasse 16."
+        }
+      ]
+    },
+    {
+      "id": "graz_styrian_armoury_museum_005",
+      "intent_en": "Where is the battle armour display section?",
+      "text_local": "Wo ist die Schlachtpanzer-Sammlung?",
+      "pronunciation": "vOH-ihst-dee-shlAHkhtpahntszAHmluhng",
+      "formality": "standard",
+      "cultural_note": "Battle armour is part of the guided tour; direct visitors to staff for assistance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die ist im ersten Stock.",
+        "pronunciation": "dee-ihst-ihm-EHrstuhn-shtAWk",
+        "translation_en": "It's on the first floor."
+      },
+      "responses": [
+        {
+          "english": "It's on the first floor.",
+          "phonetic": "dee-ihst-ihm-EHrstuhn-shtAWk",
+          "french": "Die ist im ersten Stock."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

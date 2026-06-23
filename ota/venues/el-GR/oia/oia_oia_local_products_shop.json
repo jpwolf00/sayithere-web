@@ -1,0 +1,100 @@
+{
+  "id": "oia_oia_local_products_shop",
+  "name_en": "Oia Local Products Shop",
+  "name_local": "Τοπικά Προϊόντα Οίας",
+  "icon": "bag",
+  "lat": 36.4622122,
+  "lon": 25.3757257,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "oia_oia_local_products_shop_001",
+      "intent_en": "How do I arrange shipping for ceramics?",
+      "text_local": "Πώς γίνεται η αποστολή των κεραμικών;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-AHpohstohlEE-tohng-gEHrahmeekOHn",
+      "formality": "standard",
+      "cultural_note": "Η αποστολή μεγάλων ή εύθραυστων αντικειμένων όπως τα κεραμικά απαιτεί συντονισμό με ειδικό προσωπικό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε τον συντονιστή αποστολών.",
+        "pronunciation": "rohtEEsteh-tohn-sEEdohneestEE-AHpohstohlOHn",
+        "translation_en": "Ask the shipping coordinator."
+      },
+      "responses": [
+        {
+          "english": "Ask the shipping coordinator.",
+          "phonetic": "rohtEEsteh-tohn-sEEdohneestEE-AHpohstohlOHn",
+          "french": "Ρωτήστε τον συντονιστή αποστολών."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_local_products_shop_002",
+      "intent_en": "Where is the bulk olive oil filling station?",
+      "text_local": "Πού είναι η βρύση για γέμισμα ελαιολάδου;",
+      "pronunciation": "pOO-EEneh-toh-veetEEoh-EHlehohlAHthoo",
+      "formality": "standard",
+      "cultural_note": "Ο όρος 'βυτίο' χρησιμοποιείται συχνά στα τοπικά καταστήματα για την αναφορά στη συσκευή πλήρωσης ελαιολάδου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο επόμενο δωμάτιο.",
+        "pronunciation": "stoh-ehpOHmehnOH-thohmAHteeOH",
+        "translation_en": "In the next room."
+      },
+      "responses": [
+        {
+          "english": "In the next room.",
+          "phonetic": "stoh-ehpOHmehnOH-thohmAHteeOH",
+          "french": "Στο επόμενο δωμάτιο."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_local_products_shop_003",
+      "intent_en": "Can I taste the assyrtiko wine before buying?",
+      "text_local": "Μπορώ να δοκιμάσω το ασσύρτικο πριν αγοράσω;",
+      "pronunciation": "bohrOH-nah-thOHeemAHsoh-toh-ahssEErteekOH-prEEn-AHghohrAHsoh",
+      "formality": "standard",
+      "cultural_note": "Η δοκιμή κρασιών είναι κοινή πρακτική στα ελληνικά κρασοποιεία και ειδικά καταστήματα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο πίσω πάγκο δοκιμή.",
+        "pronunciation": "nEHstoh-pEEsoh-pAHnggoh-thOHeemEE",
+        "translation_en": "Yes, you can taste."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can taste.",
+          "phonetic": "nEHstoh-pEEsoh-pAHnggoh-thOHeemEE",
+          "french": "Ναι, στο πίσω πάγκο δοκιμή."
+        }
+      ]
+    },
+    {
+      "id": "oia_oia_local_products_shop_004",
+      "intent_en": "Is cash required at the small counter?",
+      "text_local": "Χρειάζεται μετρητά στο μικρό πάγκο;",
+      "pronunciation": "khrkhAHzehtEH-mEHtreetAH-stoh-meekrOH-pAHnggoh",
+      "formality": "standard",
+      "cultural_note": "Στα μικρά καταστήματα της Σαντορίνης, ιδιαίτερα σε μικρές συναλλαγές, προτιμάται η πληρωμή με μετρητά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Συνήθως ναι.",
+        "pronunciation": "seenEEthohz-nEH",
+        "translation_en": "Mostly yes."
+      },
+      "responses": [
+        {
+          "english": "Mostly yes.",
+          "phonetic": "seenEEthohz-nEH",
+          "french": "Συνήθως ναι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

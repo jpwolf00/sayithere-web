@@ -1,0 +1,118 @@
+{
+  "id": "nice_musee_art_asiatique",
+  "name_en": "Museum of Asian Art",
+  "name_local": "Musée des Arts Asiatiques",
+  "icon": "building.columns",
+  "lat": 43.664,
+  "lon": 7.2103,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "nice_asian_art_001",
+      "intent_en": "Ask about the Japanese tea ceremony held at the museum",
+      "text_local": "Des cérémonies du thé japonaises sont-elles organisées dans ce musée ?",
+      "pronunciation": "day say-ray-mo-NEE doo TAY zha-po-NEZ son-TEL or-gah-nee-ZAY dan seh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum hosts authentic Japanese tea ceremonies in a dedicated tea house — a serene experience near the airport.",
+      "responses": [
+        {
+          "english": "You need to book in advance.",
+          "phonetic": "eel foh ray-zair-VAY ahn ah-VAHNSS",
+          "french": "Il faut réserver en avance."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_asian_art_002",
+      "intent_en": "Ask which Asian countries are represented in the collection",
+      "text_local": "Quels pays asiatiques sont représentés dans la collection permanente ?",
+      "pronunciation": "kel pay-EE ah-zyah-TEEK son reh-pray-zan-TAY dan lah ko-lek-SYON pehr-mah-NANT",
+      "formality": "polite",
+      "cultural_note": "The collection covers Japan, China, India, and Cambodia — arranged in four pavilions of minimalist architecture.",
+      "responses": [
+        {
+          "english": "Japan, China, India and Cambodia.",
+          "phonetic": "luh zhah-POHN lah SHEEN LAHND ay luh kahm-BODZH",
+          "french": "Le Japon, la Chine, l'Inde et le Cambodge."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_asian_art_003",
+      "intent_en": "Ask if the building itself is architecturally significant",
+      "text_local": "Le bâtiment du musée est-il reconnu pour son architecture ?",
+      "pronunciation": "leh bah-tee-MAN doo moo-ZAY eh-TEEL reh-ko-NOO poor son ar-shee-tek-TOOR",
+      "formality": "polite",
+      "cultural_note": "The museum's white marble and glass pavilions rise from a lake — designed by Kenzo Tange, a Japanese Pritzker laureate.",
+      "responses": [
+        {
+          "english": "Yes, it is a remarkable building.",
+          "phonetic": "wee say tuhn bah-tee-MAHN ruh-mar-KABL",
+          "french": "Oui, c'est un bâtiment remarquable."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_asian_art_004",
+      "intent_en": "Ask about the garden surrounding the museum",
+      "text_local": "Le jardin autour du musée est-il accessible librement ?",
+      "pronunciation": "leh zhar-DAN oh-TOOR doo moo-ZAY eh-TEEL ak-se-SEEBL lee-breh-MAN",
+      "formality": "polite",
+      "cultural_note": "The tranquil garden and lake surrounding the museum are free to visit and offer a peaceful contrast to the busy airport area.",
+      "responses": [
+        {
+          "english": "The garden is around the building, on the lake.",
+          "phonetic": "luh zhar-DAHN eh toh-TOOR doo bah-tee-MAHN soor luh LAK",
+          "french": "Le jardin est autour du bâtiment, sur le lac."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_asian_art_005",
+      "intent_en": "Ask for the combined ticket price for the museum and tea ceremony",
+      "text_local": "Quel est le tarif combiné pour le musée et la cérémonie du thé ?",
+      "pronunciation": "kel eh leh tah-REEF kom-bee-NAY poor leh moo-ZAY ay lah say-ray-mo-NEE doo TAY",
+      "formality": "polite",
+      "cultural_note": "Combined tickets offer savings for those wishing to experience both the collection and the tea ceremony.",
+      "responses": [
+        {
+          "english": "It is indicated at reception.",
+          "phonetic": "say tahn-dee-KAY ah lah-KUY",
+          "french": "C'est indiqué à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "tea ceremony",
+      "word_local": "la cérémonie du thé",
+      "pronunciation": "lah say-ray-mo-NEE doo TAY"
+    },
+    {
+      "word_en": "pavilion",
+      "word_local": "le pavillon",
+      "pronunciation": "leh pah-vee-YON"
+    },
+    {
+      "word_en": "collection",
+      "word_local": "la collection",
+      "pronunciation": "lah ko-lek-SYON"
+    },
+    {
+      "word_en": "ceramics",
+      "word_local": "la céramique",
+      "pronunciation": "lah say-rah-MEEK"
+    }
+  ]
+}

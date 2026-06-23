@@ -1,0 +1,144 @@
+{
+  "id": "kyoto_kiyomizu_dera_temple",
+  "name_en": "Kiyomizu-dera Temple",
+  "name_local": "清水寺",
+  "icon": "building.columns",
+  "lat": 34.9978412,
+  "lon": 135.7771061,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kyoto_kiyomizu_dera_temple_001",
+      "intent_en": "Where is the omikuji fortune stand?",
+      "text_local": "おみくじは どこですか？",
+      "pronunciation": "OHmeekoodEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Omikuji fortunes are often drawn near the main hall. A simple directional response is natural.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "本堂の よこ、ひだりがわです。",
+        "pronunciation": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-nOH-yOHkohkhEEdEEgwdEHsoo",
+        "translation_en": "To the side of the main hall, on the left."
+      },
+      "responses": [
+        {
+          "english": "To the side of the main hall, on the left.",
+          "phonetic": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-nOH-yOHkohkhEEdEEgwdEHsoo",
+          "french": "本堂の よこ、ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kiyomizu_dera_temple_002",
+      "intent_en": "Where is the Jishu Shrine?",
+      "text_local": "地主じんじゃは どこですか？",
+      "pronunciation": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-EE-ehndzhAHpuhneezyahlEHtuh-EE-ehndzhAHpuhneezyahlEHtuh-H-DOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Jishu Shrine is located behind the main hall of Kiyomizu-dera. Giving a direction relative to the main hall is helpful.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "本堂の うしろ、みぎての ほうです。",
+        "pronunciation": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-nOH-ooEEohmEEgeetEHnoh-hOHoodEHsoo",
+        "translation_en": "Behind the main hall, to the right."
+      },
+      "responses": [
+        {
+          "english": "Behind the main hall, to the right.",
+          "phonetic": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-nOH-ooEEohmEEgeetEHnoh-hOHoodEHsoo",
+          "french": "本堂の うしろ、みぎての ほうです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kiyomizu_dera_temple_003",
+      "intent_en": "Do I pay for Otowa waterfall water?",
+      "text_local": "音羽の たきの みずは ゆうりょうですか？",
+      "pronunciation": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-nOH-tkEEnoh-meezOOh-yOOooOHoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "The water from the Otowa Waterfall is considered sacred and is offered freely, though a donation is not refused.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、むりょうです。",
+        "pronunciation": "EEehmOOOHoodEHsoo",
+        "translation_en": "No, it's free."
+      },
+      "responses": [
+        {
+          "english": "No, it's free.",
+          "phonetic": "EEehmOOOHoodEHsoo",
+          "french": "いいえ、むりょうです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kiyomizu_dera_temple_004",
+      "intent_en": "How do I use the Otowa water cups?",
+      "text_local": "音羽の みずの つかいかたを おしえてください。",
+      "pronunciation": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-nOH-meezOOnoh-tsOOkEEktOH-OHeeEHtehkOOdsEE",
+      "formality": "standard",
+      "cultural_note": "At the Otowa Waterfall, visitors use long-handled cups to catch and drink the water. The response gives a concise, actionable instruction.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ひしゃくを とって、みずを すくって のんでください。",
+        "pronunciation": "khEEkOOoh-tOHttehmeezOOoh-sookOOtteh-nOHndehkOOdsEE",
+        "translation_en": "Take a ladle, scoop the water, and drink."
+      },
+      "responses": [
+        {
+          "english": "Take a ladle, scoop the water, and drink.",
+          "phonetic": "khEEkOOoh-tOHttehmeezOOoh-sookOOtteh-nOHndehkOOdsEE",
+          "french": "ひしゃくを とって、みずを すくって のんでください。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kiyomizu_dera_temple_005",
+      "intent_en": "Is the Koyasu Pagoda open to visitors?",
+      "text_local": "こやすの とうは みられますか？",
+      "pronunciation": "kOHysOOnoh-tohOOh-mEEEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "The Koyasu Pagoda is a prominent structure on the grounds, and visitors can typically enter. The response confirms access.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、なかには いれます。",
+        "pronunciation": "hEEnKnEEh-EEehmSoo",
+        "translation_en": "Yes, you can go inside."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can go inside.",
+          "phonetic": "hEEnKnEEh-EEehmSoo",
+          "french": "はい、なかには いれます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_kiyomizu_dera_temple_006",
+      "intent_en": "Can I buy ema plaques here?",
+      "text_local": "ここで えまは かえますか？",
+      "pronunciation": "kohkOHdeh-ehmH-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Ema wooden votive plaques are a common purchase at shrines and temples. A simple affirmative is natural.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、うっています。",
+        "pronunciation": "hEEOOtteheemSoo",
+        "translation_en": "Yes, we sell them."
+      },
+      "responses": [
+        {
+          "english": "Yes, we sell them.",
+          "phonetic": "hEEOOtteheemSoo",
+          "french": "はい、うっています。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

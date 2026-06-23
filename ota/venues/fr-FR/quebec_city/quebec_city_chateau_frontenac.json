@@ -1,0 +1,118 @@
+{
+  "id": "quebec_city_chateau_frontenac",
+  "name_en": "Château Frontenac",
+  "name_local": "Château Frontenac",
+  "icon": "building.columns",
+  "lat": 46.8197,
+  "lon": -71.2051,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "qc_cf_001",
+      "intent_en": "Ask about tours of the hotel",
+      "text_local": "Est-ce qu'il y a des visites guidées du château ?",
+      "pronunciation": "ess-KEEL ee ah day vee-ZEET gee-DAY doo shah-TOH",
+      "formality": "polite",
+      "cultural_note": "The Château Frontenac is the most photographed hotel in the world. Guided history tours run daily and explore its grand interiors without needing a room booking.",
+      "responses": [
+        {
+          "english": "Yes, tours depart from reception.",
+          "phonetic": "wee lay vee-ZEET PART duh lah-KUY",
+          "french": "Oui, les visites partent de l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_cf_002",
+      "intent_en": "Ask for a table at the hotel restaurant",
+      "text_local": "J'aimerais réserver une table au restaurant du château.",
+      "pronunciation": "zheh-muh-REH ray-zair-VAY OON TAHBL oh res-toh-RAH doo shah-TOH",
+      "formality": "polite",
+      "cultural_note": "The 1608 Wine & Beer Bar and Champlain Restaurant are the hotel's dining options. Champlain is formal and requires advance reservations.",
+      "responses": [
+        {
+          "english": "You need to reserve.",
+          "phonetic": "eel foh ray-zair-VAY",
+          "french": "Il faut réserver."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_cf_003",
+      "intent_en": "Ask for the best photo spot of the château",
+      "text_local": "C'est d'où qu'on prend la meilleure photo du château ?",
+      "pronunciation": "say DOO kon prahn lah may-YUR fo-TOH doo shah-TOH",
+      "formality": "informal",
+      "cultural_note": "The best views are from the Terrasse Dufferin boardwalk below, or from the ferry across the St. Lawrence River from Lévis.",
+      "responses": [
+        {
+          "english": "From Dufferin Terrace, just below.",
+          "phonetic": "duh-PWEE lah tay-RASS doo-feh-RAHN zhoost ahn BAH",
+          "french": "Depuis la Terrasse Dufferin, juste en bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_cf_004",
+      "intent_en": "Ask about the terrace boardwalk conditions in winter",
+      "text_local": "La Terrasse Dufferin, est-ce que c'est praticable en hiver ?",
+      "pronunciation": "lah teh-RASS doo-FAIR ess-KUH say prah-tee-KAHBL ahn ee-VAIR",
+      "formality": "polite",
+      "cultural_note": "The Terrasse Dufferin is cleared in winter and features the famous toboggan slide (les glissades) — a Québec City winter tradition since the 1800s.",
+      "responses": [
+        {
+          "english": "The terrace is clear and walkable.",
+          "phonetic": "lah tay-RASS eh day-gah-ZHAY ay prah-tee-KABL",
+          "french": "La terrasse est dégagée et praticable."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_cf_005",
+      "intent_en": "Ask where to catch a calèche ride",
+      "text_local": "Où est-ce qu'on peut prendre une calèche devant le château ?",
+      "pronunciation": "oo ess-KON puh PRAHN-druh OON kah-LESH duh-VAH luh shah-TOH",
+      "formality": "neutral",
+      "cultural_note": "Horse-drawn calèches depart from the Place d'Armes in front of the château and offer narrated tours of the old city walls and streets.",
+      "responses": [
+        {
+          "english": "In front of the château, on the terrace.",
+          "phonetic": "duh-VAHN luh shah-TOH soor lah tay-RASS",
+          "french": "Devant le château, sur la terrasse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "castle / château",
+      "word_local": "le château",
+      "pronunciation": "luh shah-TOH"
+    },
+    {
+      "word_en": "boardwalk / terrace",
+      "word_local": "la terrasse",
+      "pronunciation": "lah teh-RASS"
+    },
+    {
+      "word_en": "toboggan slide",
+      "word_local": "les glissades",
+      "pronunciation": "lay glee-SAHD"
+    },
+    {
+      "word_en": "horse-drawn carriage",
+      "word_local": "la calèche",
+      "pronunciation": "lah kah-LESH"
+    }
+  ]
+}

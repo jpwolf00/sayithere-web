@@ -1,0 +1,100 @@
+{
+  "id": "bad_ischl_stadtmuseum_bad_ischl",
+  "name_en": "Stadtmuseum Bad Ischl",
+  "name_local": "Stadtmuseum Bad Ischl",
+  "icon": "building.columns",
+  "lat": 47.7101813,
+  "lon": 13.6200431,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bad_ischl_stadtmuseum_bad_ischl_001",
+      "intent_en": "Where is the piano collection located?",
+      "text_local": "Wo ist die Pianinensammlung zu finden?",
+      "pronunciation": "vOH-ihst-dee-pEEahnEEnuhnzAHmluhng-tsoo-fIHnduhn",
+      "formality": "standard",
+      "cultural_note": "Im deutschsprachigen Raum wird die Stockwerkszählung oft mit 'Stock' oder 'Obergeschoss' angegeben, wobei 'links' als Richtungsangabe dient.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im ersten Stock links.",
+        "pronunciation": "ihm-EHrstuhn-shtAWk-lINGks",
+        "translation_en": "On the first floor to the left."
+      },
+      "responses": [
+        {
+          "english": "On the first floor to the left.",
+          "phonetic": "ihm-EHrstuhn-shtAWk-lINGks",
+          "french": "Im ersten Stock links."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_stadtmuseum_bad_ischl_002",
+      "intent_en": "Do I remove shoes in the upper rooms?",
+      "text_local": "Müssen die Schuhe in den oberen Räumen ausgezogen werden?",
+      "pronunciation": "mUEsuhn-dee-shOOuh-ihn-dehn-OHbuhruhn-rAWuhmuhn-OWsuhtsOHuhn-vEHrduhn",
+      "formality": "standard",
+      "cultural_note": "In österreichischen Museen und historischen Häusern ist das Ausziehen der Schuhe in bestimmten Bereichen üblich, um die Originalböden zu schützen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bitte.",
+        "pronunciation": "yAHbIHtuh",
+        "translation_en": "Yes, please."
+      },
+      "responses": [
+        {
+          "english": "Yes, please.",
+          "phonetic": "yAHbIHtuh",
+          "french": "Ja, bitte."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_stadtmuseum_bad_ischl_003",
+      "intent_en": "Can I buy the sheet music on display?",
+      "text_local": "Kann ich die ausgestellte Notenmappe kaufen?",
+      "pronunciation": "kAHn-ihkh-dee-OWsuhshtEHltuh-nOHtuhnmAHpuh-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "In Museen mit archivalischen Beständen (hier: Notenarchive) ist der Verkauf von Reproduktionen oder Originalstücken oft an der Kasse oder im Shop möglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Kasse.",
+        "pronunciation": "yAHahn-dehr-kAHsuh",
+        "translation_en": "Yes, at the cash desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cash desk.",
+          "phonetic": "yAHahn-dehr-kAHsuh",
+          "french": "Ja, an der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_stadtmuseum_bad_ischl_004",
+      "intent_en": "Is the garden accessible without museum entry?",
+      "text_local": "Kann man den Garten auch ohne Museumseintritt besuchen?",
+      "pronunciation": "kAHn-mahn-dehn-AHrtuhn-OWkh-OHnuh-mOOzawuhmzEYEntriht-buhzOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "In Österreich sind historische Villengärten oft öffentlich zugänglich, während das Museum selbst Eintritt erfordert. Dies ist eine übliche Praxis bei Kulturdenkmälern.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, frei zugänglich.",
+        "pronunciation": "yAHfrEYE-tsOOehnglIHkh",
+        "translation_en": "Yes, freely accessible."
+      },
+      "responses": [
+        {
+          "english": "Yes, freely accessible.",
+          "phonetic": "yAHfrEYE-tsOOehnglIHkh",
+          "french": "Ja, frei zugänglich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

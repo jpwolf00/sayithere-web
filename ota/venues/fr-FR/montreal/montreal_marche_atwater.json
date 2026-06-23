@@ -1,0 +1,118 @@
+{
+  "id": "montreal_marche_atwater",
+  "name_en": "Atwater Market",
+  "name_local": "Marché Atwater",
+  "icon": "bag",
+  "lat": 45.4739,
+  "lon": -73.5767,
+  "radius_m": 130,
+  "phrases": [
+    {
+      "id": "mtl_atw_001",
+      "intent_en": "Ask where the cheese shop is",
+      "text_local": "La fromagerie, c'est de quel côté ?",
+      "pronunciation": "lah fro-mah-zhuh-REE say duh kel ko-TAY",
+      "formality": "neutral",
+      "cultural_note": "Marché Atwater is home to several acclaimed fromageries carrying local Québec artisan cheeses. Try Oka, Le Migneron, or Fleurmier.",
+      "responses": [
+        {
+          "english": "At the back of the market, on the left.",
+          "phonetic": "oh FOHN doo mar-SHAY ah GOHSH",
+          "french": "Au fond du marché, à gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_atw_002",
+      "intent_en": "Ask for a recommendation for a local cheese",
+      "text_local": "Quel fromage du Québec est-ce que vous recommandez ?",
+      "pronunciation": "kel fro-MAHZH doo kay-BEK ess-KUH voo ruh-ko-mon-DAY",
+      "formality": "polite",
+      "cultural_note": "Québec has a thriving artisan cheese industry. Fromagers love recommending local favourites — don't hesitate to ask.",
+      "responses": [
+        {
+          "english": "Try the Oka, it is a classic.",
+          "phonetic": "eh-say-YAY luh oh-KAH say tuhn klah-SEEK",
+          "french": "Essayez le Oka, c'est un classique."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_atw_003",
+      "intent_en": "Ask for a half kilo of charcuterie",
+      "text_local": "Je prendrais un demi-kilo de charcuterie, s'il vous plaît.",
+      "pronunciation": "zhuh prahn-DREH un duh-MEE-kee-loh duh shar-koo-tuh-REE seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The market's butchers carry local meats including smoked meats, sausages, and game. Excellent for a canal-side picnic.",
+      "responses": [
+        {
+          "english": "Here you go, twelve dollars.",
+          "phonetic": "vwah-LAH DOOZ doh-LAR",
+          "french": "Voilà, douze dollars."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_atw_004",
+      "intent_en": "Ask about the canal bike path nearby",
+      "text_local": "La piste cyclable du canal, c'est par là ?",
+      "pronunciation": "lah PEEST see-KLAHBL doo kah-NAHL say par LAH",
+      "formality": "neutral",
+      "cultural_note": "The Lachine Canal bike path starts just outside the market. You can rent bikes nearby for a scenic ride toward Old Montréal.",
+      "responses": [
+        {
+          "english": "The bike path is right behind the market.",
+          "phonetic": "lah PEEST see-KLABL eh ZHOOST dair-YAIR luh mar-SHAY",
+          "french": "La piste cyclable est juste derrière le marché."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_atw_005",
+      "intent_en": "Ask if there is a good place to eat nearby",
+      "text_local": "Y'a-tu un bon endroit pour manger pas trop loin ?",
+      "pronunciation": "yah-TOO un bon on-DWAH poor mon-ZHAY pah troh LWAH",
+      "formality": "informal",
+      "cultural_note": "This phrasing uses Québécois informal speech ('y'a-tu' for 'est-ce qu'il y a'). Locals will appreciate it and point you to great spots.",
+      "responses": [
+        {
+          "english": "There are good restaurants on the canal.",
+          "phonetic": "eel ee ah duh bohn res-toh-RAHN soor luh kah-NAHL",
+          "french": "Il y a de bons restaurants sur le canal."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cheese shop",
+      "word_local": "la fromagerie",
+      "pronunciation": "lah fro-mah-zhuh-REE"
+    },
+    {
+      "word_en": "butcher shop",
+      "word_local": "la boucherie",
+      "pronunciation": "lah boosh-REE"
+    },
+    {
+      "word_en": "bike path",
+      "word_local": "la piste cyclable",
+      "pronunciation": "lah PEEST see-KLAHBL"
+    },
+    {
+      "word_en": "half a kilo",
+      "word_local": "un demi-kilo",
+      "pronunciation": "un duh-MEE-kee-loh"
+    }
+  ]
+}

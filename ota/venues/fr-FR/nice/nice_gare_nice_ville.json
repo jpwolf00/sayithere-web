@@ -1,0 +1,118 @@
+{
+  "id": "nice_gare_ville",
+  "name_en": "Nice-Ville Train Station",
+  "name_local": "Gare de Nice-Ville",
+  "icon": "tram",
+  "lat": 43.7045,
+  "lon": 7.262,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "nice_gare_001",
+      "intent_en": "Buy a one-way ticket to Cannes",
+      "text_local": "Un billet aller simple pour Cannes, s'il vous plaît.",
+      "pronunciation": "un bee-YAY ah-LAY SAM-pleh poor KAN seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Nice–Cannes train takes about 35 minutes along the coastal Marseille–Ventimiglia line — one of France's most scenic rail routes.",
+      "responses": [
+        {
+          "english": "At the ticket office, over there.",
+          "phonetic": "oh gee-SHAY lah-BAH",
+          "french": "Au guichet, là-bas."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_gare_002",
+      "intent_en": "Ask which platform the Monaco train departs from",
+      "text_local": "De quel quai part le prochain train pour Monaco ?",
+      "pronunciation": "deh kel KAY par leh pro-SHAN tran poor mo-nah-KO",
+      "formality": "polite",
+      "cultural_note": "Monaco is about 20 minutes east by regional TER train. Trains run very frequently during the day.",
+      "responses": [
+        {
+          "english": "Check the platform display. Platforms vary by schedule.",
+          "phonetic": "VWAH TRWAH",
+          "french": "Consultez l'affichage du quai. Les quais varient selon l'horaire."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_gare_003",
+      "intent_en": "Ask where to validate your ticket before boarding",
+      "text_local": "Où dois-je composter mon billet avant de monter dans le train ?",
+      "pronunciation": "oo DWAH-zheh kom-pos-TAY mon bee-YAY ah-VAN deh mon-TAY dan leh TRAN",
+      "formality": "polite",
+      "cultural_note": "In France you must stamp (composter) your ticket in the yellow machines before boarding or risk a fine.",
+      "responses": [
+        {
+          "english": "The validators are on the platform.",
+          "phonetic": "lay kohm-pos-TUR sohn soor luh KAY",
+          "french": "Les composteurs sont sur le quai."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_gare_004",
+      "intent_en": "Ask where the left-luggage lockers are",
+      "text_local": "Où se trouvent les consignes à bagages, s'il vous plaît ?",
+      "pronunciation": "oo seh TROOV lay kon-SEEN-yeh ah bah-GAZH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Left-luggage facilities allow you to explore Nice hands-free before or after your train.",
+      "responses": [
+        {
+          "english": "There are lockers in the basement.",
+          "phonetic": "eel ee ah day kohn-SEE-nyuh oh soo-SOL",
+          "french": "Il y a des consignes au sous-sol."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_gare_005",
+      "intent_en": "Ask if the train to the airport stops at the station",
+      "text_local": "Y a-t-il une navette ferroviaire pour l'aéroport depuis cette gare ?",
+      "pronunciation": "ee ah-TEEL oon nah-VET feh-ro-VYEHR poor lay-ro-POR deh-PWEE SET GAR",
+      "formality": "polite",
+      "cultural_note": "Nice airport is reached by tram Line 2 from the city centre, not by train from Nice-Ville station.",
+      "responses": [
+        {
+          "english": "Yes, the tram goes to the airport.",
+          "phonetic": "wee luh TRAM vah ah lah-ay-roh-POR",
+          "french": "Oui, le tram va à l'aéroport."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "one-way ticket",
+      "word_local": "l'aller simple",
+      "pronunciation": "lah-LAY SAM-pleh"
+    },
+    {
+      "word_en": "round-trip ticket",
+      "word_local": "l'aller-retour",
+      "pronunciation": "lah-LAY reh-TOOR"
+    },
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "leh KAY"
+    },
+    {
+      "word_en": "to validate (ticket)",
+      "word_local": "composter",
+      "pronunciation": "kom-pos-TAY"
+    }
+  ]
+}

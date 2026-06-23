@@ -1,0 +1,100 @@
+{
+  "id": "osaka_kuromon_ichiba_market",
+  "name_en": "Kuromon Ichiba Market",
+  "name_local": "黒門市場",
+  "icon": "fork.knife",
+  "lat": 34.6664433,
+  "lon": 135.5070407,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "osaka_kuromon_ichiba_market_001",
+      "intent_en": "Where are tamago-ya rolls?",
+      "text_local": "たまごやの まきものは どこですか？",
+      "pronunciation": "tMgohyNoh-mKeemohnOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Look for the stall with a yellow sign and a griddle out front.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "つきあたりを ひだりに まがって。",
+        "pronunciation": "tsOOkeeTEEoh-khEEdEEnee-mgTteh",
+        "translation_en": "Turn left at the end of the lane."
+      },
+      "responses": [
+        {
+          "english": "Turn left at the end of the lane.",
+          "phonetic": "tsOOkeeTEEoh-khEEdEEnee-mgTteh",
+          "french": "つきあたりを ひだりに まがって。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kuromon_ichiba_market_002",
+      "intent_en": "Is fugu available today?",
+      "text_local": "きょう、ふぐは ありますか？",
+      "pronunciation": "kOHoooogOOh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Fugu is a specialty; vendors are proud of their licensed preparation.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ありますよ。しんせんです。",
+        "pronunciation": "hEEEEmsOOyohEEsehndEHsoo",
+        "translation_en": "Yes, we have it. It's fresh."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it. It's fresh.",
+          "phonetic": "hEEEEmsOOyohEEsehndEHsoo",
+          "french": "はい、ありますよ。しんせんです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kuromon_ichiba_market_003",
+      "intent_en": "Where is the maguro stall?",
+      "text_local": "マグロやは どこですか？",
+      "pronunciation": "mGooohyH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many stalls are small and easy to miss; look for the tuna display case.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、みぎがわだよ。",
+        "pronunciation": "mssOOgoo-EEttehmEEgeegWdYOH",
+        "translation_en": "Straight ahead, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the right side.",
+          "phonetic": "mssOOgoo-EEttehmEEgeegWdYOH",
+          "french": "まっすぐ いって、みぎがわだよ。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_kuromon_ichiba_market_004",
+      "intent_en": "Do I need cash here?",
+      "text_local": "ここは げんきんですか？",
+      "pronunciation": "kohkOHh-gEHngkeendehsOOk",
+      "formality": "standard",
+      "cultural_note": "Cash is standard at many market stalls; cards may not be accepted.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

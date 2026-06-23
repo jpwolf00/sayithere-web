@@ -1,0 +1,100 @@
+{
+  "id": "maastricht_city_park_maastricht",
+  "name_en": "City Park Maastricht",
+  "name_local": "Stadspark Maastricht",
+  "icon": "leaf",
+  "lat": 50.8450054,
+  "lon": 5.6949931,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "maastricht_city_park_maastricht_001",
+      "intent_en": "Get cave tour tickets at gate",
+      "text_local": "Waar koop ik een grottenwandeling?",
+      "pronunciation": "vAHr-kOHp-ihk-uhn-ghrAWtehnvAHnduhlING",
+      "formality": "standard",
+      "cultural_note": "The response directly points to the cave guide, a stable service, without assuming exact location inside the park.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de gids bij de ingang.",
+        "pronunciation": "behih-duh-ghIHts-behih-duh-IHnghAHng",
+        "translation_en": "At the guide at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the guide at the entrance.",
+          "phonetic": "behih-duh-ghIHts-behih-duh-IHnghAHng",
+          "french": "Bij de gids bij de ingang."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_city_park_maastricht_002",
+      "intent_en": "How do I pay for parking at Tongerseweg?",
+      "text_local": "Hoe betaal ik bij de parkeermeter aan Tongerseweg?",
+      "pronunciation": "hOO-buhtAHl-ihk-behih-duh-pAHrkihrmEHtuhr-ahn-tAWnguhrsEHvehkh",
+      "formality": "standard",
+      "cultural_note": "Pinnen is in Nederland de standaard betaalmethode.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Betaal met pin bij de meter.",
+        "pronunciation": "buhtAHl-meht-pIHn-behih-duh-mEHtuhr",
+        "translation_en": "Pay with pin at the meter."
+      },
+      "responses": [
+        {
+          "english": "Pay with pin at the meter.",
+          "phonetic": "buhtAHl-meht-pIHn-behih-duh-mEHtuhr",
+          "french": "Betaal met pin bij de meter."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_city_park_maastricht_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar is het restant van de stadswallen?",
+      "pronunciation": "AHr-ihs-huht-rehstAHnt-vahn-duh-stAHtsahluhn",
+      "formality": "standard",
+      "cultural_note": "Historische overblijfselen in parken hebben vaak algemene aanwijzingen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg het pad langs de Jeker naar de oude stadsmuur bij de Hertogsingel.",
+        "pronunciation": "vAWlkh-huht-pAHt-lAHngs-duh-yEHkuhr-nahr-duh-UHuhduh-stAHtsmUEr-behih-duh-hehrtAWkhsingEHl",
+        "translation_en": "Follow the path along the Jeker river to the old city wall near the Hertogsingel."
+      },
+      "responses": [
+        {
+          "english": "Follow the path along the Jeker river to the old city wall near the Hertogsingel.",
+          "phonetic": "vAWlkh-huht-pAHt-lAHngs-duh-yEHkuhr-nahr-duh-UHuhduh-stAHtsmUEr-behih-duh-hehrtAWkhsingEHl",
+          "french": "Volg het pad langs de Jeker naar de oude stadsmuur bij de Hertogsingel."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_city_park_maastricht_004",
+      "intent_en": "Is the Sint-Pietersberg viewpoint accessible?",
+      "text_local": "Is het uitzichtpunt Sint-Pietersberg bereikbaar?",
+      "pronunciation": "ihs-huht-UHuetzIHkhtpnt-sIHntpEEtuhrzbEHrkh-buhrEHihkbahr",
+      "formality": "standard",
+      "cultural_note": "Toegang tot uitzichtpunten kan afhankelijk zijn van weersomstandigheden of onderhoud.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de parkbeheerder.",
+        "pronunciation": "vrAHkh-huht-behih-duh-pAHrkbuhhIHrduhr",
+        "translation_en": "Ask the park manager."
+      },
+      "responses": [
+        {
+          "english": "Ask the park manager.",
+          "phonetic": "vrAHkh-huht-behih-duh-pAHrkbuhhIHrduhr",
+          "french": "Vraag het bij de parkbeheerder."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

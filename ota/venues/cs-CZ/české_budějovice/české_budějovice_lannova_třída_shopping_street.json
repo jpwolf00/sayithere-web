@@ -1,0 +1,100 @@
+{
+  "id": "české_budějovice_lannova_třída_shopping_street",
+  "name_en": "Lannova třída shopping street",
+  "name_local": "Lannova třída",
+  "icon": "bag",
+  "lat": 48.9746067,
+  "lon": 14.4860231,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "české_budějovice_lannova_třída_shopping_street_001",
+      "intent_en": "Ask where nearest ATM cluster is",
+      "text_local": "Kde je tady nejbližší bankomat?",
+      "pronunciation": "kdEH-yeh-tAHdee-nAYbleeshshee-bAHngkohmaht",
+      "formality": "standard",
+      "cultural_note": "ATM clusters are common near major shopping mall entrances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Přímo u hlavního vchodu do IGY.",
+        "pronunciation": "prEEmoh-OO-hlAHvnyeehoh-fkhOHdoo-dOHeegee",
+        "translation_en": "Right by the main entrance to IGY."
+      },
+      "responses": [
+        {
+          "english": "Right by the main entrance to IGY.",
+          "phonetic": "prEEmoh-OO-hlAHvnyeehoh-fkhOHdoo-dOHeegee",
+          "french": "Přímo u hlavního vchodu do IGY."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_lannova_třída_shopping_street_002",
+      "intent_en": "Ask if parking meters take cards",
+      "text_local": "Berou parkovací automaty karty?",
+      "pronunciation": "bEHroh-pAHrkohvAHtsee-OWtohmAHtee-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "Contactless payment is widely accepted in Czech parking meters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, karty berou všechny.",
+        "pronunciation": "AHnohkAHrtee-bEHroh-fshEHkhnee",
+        "translation_en": "Yes, all of them take cards."
+      },
+      "responses": [
+        {
+          "english": "Yes, all of them take cards.",
+          "phonetic": "AHnohkAHrtee-bEHroh-fshEHkhnee",
+          "french": "Ano, karty berou všechny."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_lannova_třída_shopping_street_003",
+      "intent_en": "Ask how to validate tram ticket",
+      "text_local": "Jak se označuje jízdenka na tramvaj?",
+      "pronunciation": "yAHk-seh-OHznahtshOOyeh-yEEzdehngkah-nAHtrahmvahy",
+      "formality": "standard",
+      "cultural_note": "Ticket inspectors are strict; always validate before boarding or immediately upon entering the tram.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Strčte lístek do žlutého strojku.",
+        "pronunciation": "stRtshteh-lEEstehk-dOHzhlootEHhoh-strOHykoo",
+        "translation_en": "Insert the ticket into the yellow machine."
+      },
+      "responses": [
+        {
+          "english": "Insert the ticket into the yellow machine.",
+          "phonetic": "stRtshteh-lEEstehk-dOHzhlootEHhoh-strOHykoo",
+          "french": "Strčte lístek do žlutého strojku."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_lannova_třída_shopping_street_004",
+      "intent_en": "Ask where IGY mall entrance is",
+      "text_local": "Kde je vchod do IGY?",
+      "pronunciation": "kdEH-yeh-fkhOHd-dOHeegee",
+      "formality": "standard",
+      "cultural_note": "Czech directions are often terse and rely on landmarks rather than street names.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Doleva, za rohem.",
+        "pronunciation": "dOHlehvahzAHrohhehm",
+        "translation_en": "To the left, around the corner."
+      },
+      "responses": [
+        {
+          "english": "To the left, around the corner.",
+          "phonetic": "dOHlehvahzAHrohhehm",
+          "french": "Doleva, za rohem."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

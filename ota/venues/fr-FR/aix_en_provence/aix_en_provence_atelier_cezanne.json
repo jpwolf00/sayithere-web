@@ -1,0 +1,115 @@
+{
+  "id": "aix_atelier_cezanne",
+  "name_en": "Atelier Cézanne",
+  "name_local": "Atelier Cézanne",
+  "icon": "paintpalette.fill",
+  "phrases": [
+    {
+      "id": "aix_cezanne_001",
+      "intent_en": "Ask for a ticket to visit the studio",
+      "text_local": "Je voudrais un billet pour visiter l'atelier, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DREH uhn bee-YEH poor vee-zee-TAY lah-tuh-LYAY, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Cézanne's studio (Atelier des Lauves) has been preserved exactly as he left it in 1906. His objects — skull, ginger pot, wine bottle — are still arranged on the shelves and appear in his later still-life paintings.",
+      "responses": [
+        {
+          "english": "Twelve euros, please.",
+          "phonetic": "dooz uh-ROH, seel voo PLEH",
+          "french": "Douze euros, s'il vous plaît."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cezanne_002",
+      "intent_en": "Ask if photos are allowed in the studio",
+      "text_local": "Peut-on prendre des photos dans l'atelier ?",
+      "pronunciation": "puh-TOHN PRAHN-druh day foh-TOH dahn lah-tuh-LYAY",
+      "formality": "polite",
+      "cultural_note": "Cézanne's studio has been preserved exactly as he left it in 1906. Photography rules may vary.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cezanne_003",
+      "intent_en": "Ask where to see Cézanne's paintings in Aix",
+      "text_local": "Où peut-on voir les œuvres de Cézanne à Aix ?",
+      "pronunciation": "oo puh-TOHN vwahr layz UH-vruh duh say-ZAN ah EKS",
+      "formality": "standard",
+      "cultural_note": "The Musée Granet holds an important Cézanne collection. The tourist office also offers a Cézanne trail map linking all the sites in Aix connected to his life, including his birthplace on Rue de l'Opéra.",
+      "responses": [
+        {
+          "english": "It's marked on the map.",
+          "phonetic": "seh ehn-dee-KAY soor luh PLAHN",
+          "french": "C'est indiqué sur le plan."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cezanne_004",
+      "intent_en": "Ask if there is a guided tour",
+      "text_local": "Y a-t-il une visite guidée en anglais ?",
+      "pronunciation": "ee ah-TEEL oon vee-ZEET ghee-DAY ahn ahn-GLEH",
+      "formality": "polite",
+      "cultural_note": "Guided tours in English are available and highly recommended — the guide brings the studio alive with stories of Cézanne's daily routines and his obsessive study of the Sainte-Victoire mountain visible from the garden.",
+      "responses": [
+        {
+          "english": "Yes, the next one is at 2 PM.",
+          "phonetic": "wee, lah proh-SHEHN eh ah kah-TORZ UHR",
+          "french": "Oui, la prochaine est à quatorze heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_cezanne_005",
+      "intent_en": "Ask if there is a gift shop",
+      "text_local": "Y a-t-il une boutique de souvenirs ?",
+      "pronunciation": "ee ah-TEEL oon boo-TEEK duh soov-NEER",
+      "formality": "standard",
+      "cultural_note": "The studio shop offers Cézanne reproductions, books, and Aix-themed gifts.",
+      "responses": [
+        {
+          "english": "Yes, at the exit.",
+          "phonetic": "wee, ah lah sor-TEE",
+          "french": "Oui, à la sortie."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Studio / Workshop",
+      "word_local": "L'atelier",
+      "pronunciation": "lah-tuh-LYAY"
+    },
+    {
+      "word_en": "Painting",
+      "word_local": "Le tableau",
+      "pronunciation": "luh tah-BLOH"
+    },
+    {
+      "word_en": "Still life",
+      "word_local": "La nature morte",
+      "pronunciation": "lah nah-TOOR mort"
+    },
+    {
+      "word_en": "Masterpiece",
+      "word_local": "Le chef-d'œuvre",
+      "pronunciation": "luh sheh-DUHVR"
+    }
+  ]
+}

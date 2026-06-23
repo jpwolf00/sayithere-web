@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_castle_gardens",
+  "name_en": "Castle Gardens",
+  "name_local": "Zámecká zahrada",
+  "icon": "leaf",
+  "lat": 48.8100829,
+  "lon": 14.3070599,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "český_krumlov_castle_gardens_001",
+      "intent_en": "Where to find the Cascading Fountain",
+      "text_local": "Kde najdu kaskádovou fontánu?",
+      "pronunciation": "kdEH-nAHydoo-kAHskahdOHvoh-fOHntahnoo",
+      "formality": "standard",
+      "cultural_note": "The gardens are on multiple levels, so directions often involve stairs or slopes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a pak dolů po schodech.",
+        "pronunciation": "rOHvnyeh-ah-pAHk-dOHloo-pOHskhohdehkh",
+        "translation_en": "Straight ahead and then down the stairs."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead and then down the stairs.",
+          "phonetic": "rOHvnyeh-ah-pAHk-dOHloo-pOHskhohdehkh",
+          "french": "Rovně a pak dolů po schodech."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_castle_gardens_002",
+      "intent_en": "How to reach the Bell Tower View",
+      "text_local": "Jak se dostanu na vyhlídku u zvonice?",
+      "pronunciation": "yAHk-seh-dOHstahnoo-nAHveehlEEtkoo-OO-zvOHnyeetseh",
+      "formality": "standard",
+      "cultural_note": "The Bell Tower View is a high point, so directions logically lead upward from the main garden area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nahoru po terase, pak doleva.",
+        "pronunciation": "nAHhohroo-pOHtehrAHsehpAHk-dOHlehvah",
+        "translation_en": "Up along the terrace, then left."
+      },
+      "responses": [
+        {
+          "english": "Up along the terrace, then left.",
+          "phonetic": "nAHhohroo-pOHtehrAHsehpAHk-dOHlehvah",
+          "french": "Nahoru po terase, pak doleva."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_castle_gardens_003",
+      "intent_en": "Where is the Revolving Auditorium",
+      "text_local": "Kde je otáčivé hlediště?",
+      "pronunciation": "kdEH-yeh-OHtahtshEEveh-hlEHeesheh",
+      "formality": "standard",
+      "cultural_note": "The revolving auditorium is a unique feature of the gardens, so directions often reference the labyrinth-like hedges.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Skrytý vchod za živým plotem vlevo.",
+        "pronunciation": "skrEEtee-fkhOHd-zAHzheeveem-plOHtehm-vlEHvoh",
+        "translation_en": "Hidden entrance behind the hedge on the left."
+      },
+      "responses": [
+        {
+          "english": "Hidden entrance behind the hedge on the left.",
+          "phonetic": "skrEEtee-fkhOHd-zAHzheeveem-plOHtehm-vlEHvoh",
+          "french": "Skrytý vchod za živým plotem vlevo."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_castle_gardens_004",
+      "intent_en": "Does castle ticket include gardens",
+      "text_local": "Zahrnuje hradní vstupenka i zahrady?",
+      "pronunciation": "zAHhrnOOyeh-hrAHdnyee-fstOOpehngkah-ee-zAHhrahdee",
+      "formality": "standard",
+      "cultural_note": "Ticket inclusion is a common question; the answer is typically a direct confirmation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, zahrady jsou v ceně.",
+        "pronunciation": "AHnohzAHhrahdee-ysoh-v-tsEHnyeh",
+        "translation_en": "Yes, the gardens are included."
+      },
+      "responses": [
+        {
+          "english": "Yes, the gardens are included.",
+          "phonetic": "AHnohzAHhrahdee-ysoh-v-tsEHnyeh",
+          "french": "Ano, zahrady jsou v ceně."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

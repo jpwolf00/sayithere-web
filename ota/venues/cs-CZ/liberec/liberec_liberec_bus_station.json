@@ -1,0 +1,122 @@
+{
+  "id": "liberec_liberec_bus_station",
+  "name_en": "Liberec Bus Station",
+  "name_local": "Autobusové nádraží Liberec",
+  "icon": "tram",
+  "lat": 50.7637113,
+  "lon": 15.046704,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "liberec_liberec_bus_station_001",
+      "intent_en": "When does the next Zittau bus leave?",
+      "text_local": "V kolik jede další autobus do Žitavy?",
+      "pronunciation": "v-kOHleek-yEHdeh-dAHlshee-OWtohbooz-dOHzheetAHvee",
+      "formality": "standard",
+      "cultural_note": "Bus schedules are often given relative to the current time in casual conversation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za dvacet minut od nástupiště 1.",
+        "pronunciation": "zAHdvahtseht-mEEnoot-ohd-nAHstoopEEsheh-yEHdehn",
+        "translation_en": "In twenty minutes from platform 1."
+      },
+      "responses": [
+        {
+          "english": "In twenty minutes from platform 1.",
+          "phonetic": "zAHdvahtseht-mEEnoot-ohd-nAHstoopEEsheh-yEHdehn",
+          "french": "Za dvacet minut od nástupiště 1."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_bus_station_002",
+      "intent_en": "Where is the Fügnerova street entrance?",
+      "text_local": "Kde je vchod z Fügnerovy ulice?",
+      "pronunciation": "kdEH-yeh-fkhOHd-s-fEEgnehrOHvee-OOleetseh",
+      "formality": "standard",
+      "cultural_note": "Orienting someone by referencing the opposite main entrance is a common local shortcut.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně přes halu, naproti hlavnímu vchodu.",
+        "pronunciation": "rOHvnyeh-prEHs-hAHloonAHprohee-hlAHvnyeemoo-fkhOHdoo",
+        "translation_en": "Straight through the hall, opposite the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Straight through the hall, opposite the main entrance.",
+          "phonetic": "rOHvnyeh-prEHs-hAHloonAHprohee-hlAHvnyeemoo-fkhOHdoo",
+          "french": "Rovně přes halu, naproti hlavnímu vchodu."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_bus_station_003",
+      "intent_en": "How do I validate my platform ticket?",
+      "text_local": "Jak si mám označit jízdenku na nástupišti?",
+      "pronunciation": "yAHk-see-mahm-OHznahtsheet-yEEzdehngkoo-nah-nAHstoopEEshee",
+      "formality": "standard",
+      "cultural_note": "Ticket validation machines are typically mounted on posts at platform entrances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zastrčte ji do žlutého strojku na sloupku.",
+        "pronunciation": "zAHstrtshteh-yEE-dOHzhlootEHhoh-strOHykoo-nAHslohpkoo",
+        "translation_en": "Insert it into the yellow machine on the post."
+      },
+      "responses": [
+        {
+          "english": "Insert it into the yellow machine on the post.",
+          "phonetic": "zAHstrtshteh-yEE-dOHzhlootEHhoh-strOHykoo-nAHslohpkoo",
+          "french": "Zastrčte ji do žlutého strojku na sloupku."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_bus_station_004",
+      "intent_en": "Where is the FlixBus kiosk?",
+      "text_local": "Kde je přepážka FlixBusu?",
+      "pronunciation": "kdEH-yeh-prEHpahshkah-flEEkz-bOOsoo",
+      "formality": "standard",
+      "cultural_note": "It's common to reference the main street entrance for orientation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U vchodu z Fügnerovy ulice vlevo.",
+        "pronunciation": "OO-fkhOHdoo-s-fEEgnehrOHvee-OOleetseh-vlEHvoh",
+        "translation_en": "At the Fügnerova street entrance on the left."
+      },
+      "responses": [
+        {
+          "english": "At the Fügnerova street entrance on the left.",
+          "phonetic": "OO-fkhOHdoo-s-fEEgnehrOHvee-OOleetseh-vlEHvoh",
+          "french": "U vchodu z Fügnerovy ulice vlevo."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_bus_station_005",
+      "intent_en": "Is there a luggage storage service?",
+      "text_local": "Je tu úschovna zavazadel?",
+      "pronunciation": "yeh-tOO-OOskhohvnah-zAHvahzAHdehl",
+      "formality": "standard",
+      "cultural_note": "Luggage storage at bus stations is often located in the connecting underpass.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, dole v podchodu pod nástupišti.",
+        "pronunciation": "AHnohdOHleh-v-pOHtkhohdoo-pohd-nAHstoopEEshee",
+        "translation_en": "Yes, downstairs in the underpass beneath the platforms."
+      },
+      "responses": [
+        {
+          "english": "Yes, downstairs in the underpass beneath the platforms.",
+          "phonetic": "AHnohdOHleh-v-pOHtkhohdoo-pohd-nAHstoopEEshee",
+          "french": "Ano, dole v podchodu pod nástupišti."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

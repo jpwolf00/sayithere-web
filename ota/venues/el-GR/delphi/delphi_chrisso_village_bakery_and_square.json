@@ -1,0 +1,122 @@
+{
+  "id": "delphi_chrisso_village_bakery_and_square",
+  "name_en": "Chrisso village bakery and square",
+  "name_local": "Άγιος Γεώργιος Χρύσου",
+  "icon": "map",
+  "lat": 38.4811538,
+  "lon": 22.5005486,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "delphi_chrisso_village_bakery_and_square_001",
+      "intent_en": "Do I pay at kafenion corner tables first",
+      "text_local": "Πληρώνω πρώτα στις γωνιακές τραπέζες;",
+      "pronunciation": "pleerOHnoh-prOHtah-steez-ghOHnyahEHs-trahpEHzehs",
+      "formality": "standard",
+      "cultural_note": "Traditional kafeneio (kafenion) culture often involves payment at the counter before or after consumption.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πληρώστε στον πάγκο.",
+        "pronunciation": "pleerOHsteh-stohm-bAHnggoh",
+        "translation_en": "Pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Pay at the counter.",
+          "phonetic": "pleerOHsteh-stohm-bAHnggoh",
+          "french": "Πληρώστε στον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "delphi_chrisso_village_bakery_and_square_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι οι γωνιακές τραπέζες του καφενείου;",
+      "pronunciation": "pOO-EEneh-ee-ghOHnyahEHs-trahpEHzehs-too-kAHfehnEEoo",
+      "formality": "standard",
+      "cultural_note": "Corner tables are a traditional seating arrangement in Greek kafeneia, often near the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στη γωνία, κοντά στην είσοδο.",
+        "pronunciation": "stee-ghohnEEahkohdAH-steen-EEsohthOH",
+        "translation_en": "On the corner, near the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the corner, near the entrance.",
+          "phonetic": "stee-ghohnEEahkohdAH-steen-EEsohthOH",
+          "french": "Στη γωνία, κοντά στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "delphi_chrisso_village_bakery_and_square_003",
+      "intent_en": "Where is the Άγιος Γεώργιος church entrance",
+      "text_local": "Πού είναι η είσοδος του Αγίου Γεωργίου;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-too-ahyEEoo-yohryEEoo",
+      "formality": "standard",
+      "cultural_note": "The priest is the appropriate authority for church entry details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά από την πλατεία, στην άνοδο.",
+        "pronunciation": "AHreestehrAH-ahpOH-teem-blahtEEahsteen-AHnohthOH",
+        "translation_en": "Ask the priest."
+      },
+      "responses": [
+        {
+          "english": "Ask the priest.",
+          "phonetic": "AHreestehrAH-ahpOH-teem-blahtEEahsteen-AHnohthOH",
+          "french": "Αριστερά από την πλατεία, στην άνοδο."
+        }
+      ]
+    },
+    {
+      "id": "delphi_chrisso_village_bakery_and_square_004",
+      "intent_en": "Do they accept cards at bakery counter",
+      "text_local": "Δέχονται κάρτες στο φούρνο;",
+      "pronunciation": "thEHkhohdEH-kAHrtehs-stoh-fOOrnoh",
+      "formality": "standard",
+      "cultural_note": "Traditional bakeries in small villages often operate on a cash-only basis.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    },
+    {
+      "id": "delphi_chrisso_village_bakery_and_square_005",
+      "intent_en": "Where is the plateia square fountain",
+      "text_local": "Πού είναι η βρύση στην πλατεία;",
+      "pronunciation": "pOO-EEneh-ee-vrEEsee-steem-blahtEEah",
+      "formality": "standard",
+      "cultural_note": "The fountain is a central feature of the village square, easily recognizable.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην κεντρική πλατεία.",
+        "pronunciation": "steeng-gEHdreeEE-plahtEEah",
+        "translation_en": "In the central square."
+      },
+      "responses": [
+        {
+          "english": "In the central square.",
+          "phonetic": "steeng-gEHdreeEE-plahtEEah",
+          "french": "Στην κεντρική πλατεία."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

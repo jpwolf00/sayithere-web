@@ -1,0 +1,100 @@
+{
+  "id": "bad_ischl_kaiservilla_imperial_villa",
+  "name_en": "Kaiservilla Imperial Villa",
+  "name_local": "Kaiservilla",
+  "icon": "building.columns",
+  "lat": 47.7149899,
+  "lon": 13.6210145,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "bad_ischl_kaiservilla_imperial_villa_001",
+      "intent_en": "Where is the entrance ticket booth?",
+      "text_local": "Wo ist der Ticketschalter?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtshAHlt",
+      "formality": "standard",
+      "cultural_note": "Ticket counters in Austria are typically at the main entrance of attractions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eingang.",
+        "pronunciation": "ahm-EYEnAHng",
+        "translation_en": "At the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the entrance.",
+          "phonetic": "ahm-EYEnAHng",
+          "french": "Am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_kaiservilla_imperial_villa_002",
+      "intent_en": "Is photography allowed in Franz Joseph's study?",
+      "text_local": "Darf man in Franz Josephs Arbeitszimmer fotografieren?",
+      "pronunciation": "dAHrf-mahn-ihn-frAHnts-yOHzehfs-AHrbeyetstsIHm-fOHtohrahfEEruhn",
+      "formality": "standard",
+      "cultural_note": "Photography rules in historic homes often require special permits for certain rooms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit Genehmigung.",
+        "pronunciation": "yAHmiht-uhnEHmihUHng",
+        "translation_en": "Yes, with permission."
+      },
+      "responses": [
+        {
+          "english": "Yes, with permission.",
+          "phonetic": "yAHmiht-uhnEHmihUHng",
+          "french": "Ja, mit Genehmigung."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_kaiservilla_imperial_villa_003",
+      "intent_en": "How do I book a guided tour of Sisi's rooms?",
+      "text_local": "Wie buche ich eine Führung durch Sisis Räume?",
+      "pronunciation": "vee-bOOkhuh-ihkh-EYEnuh-fUEruhng-duhuhkh-zEEzihs-rAWuhmuh",
+      "formality": "casual",
+      "cultural_note": "Guided tours at historic sites are often booked at the ticket counter or via the venue's official website.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder online.",
+        "pronunciation": "ahm-shAHlt-OHd-ehnNleyendeh",
+        "translation_en": "At the counter or online."
+      },
+      "responses": [
+        {
+          "english": "At the counter or online.",
+          "phonetic": "ahm-shAHlt-OHd-ehnNleyendeh",
+          "french": "Am Schalter oder online."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_kaiservilla_imperial_villa_004",
+      "intent_en": "Where is the gift shop checkout?",
+      "text_local": "Wo ist die Kasse des Souvenirladens?",
+      "pronunciation": "vOH-ihst-dee-kAHsuh-dehs-zOOvehnIHrlahduhns",
+      "formality": "standard",
+      "cultural_note": "Gift shops in attractions typically have a dedicated checkout counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Shopbereich.",
+        "pronunciation": "ihm-ehnshPbuhrEYEkdeh",
+        "translation_en": "In the shop area."
+      },
+      "responses": [
+        {
+          "english": "In the shop area.",
+          "phonetic": "ihm-ehnshPbuhrEYEkdeh",
+          "french": "Im Shopbereich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

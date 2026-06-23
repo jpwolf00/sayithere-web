@@ -1,0 +1,188 @@
+{
+  "id": "venue_afed6554d4e9",
+  "name_en": "Restaurante O Camilo",
+  "name_local": "Restaurante O Camilo",
+  "icon": "fork.knife",
+  "lat": 37.1224599740655,
+  "lon": -7.656589477838184,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "phrase_0dedc98fde24",
+      "intent_en": "Ask where the tip box is",
+      "text_local": "Onde está a caixa de gorjetas?",
+      "pronunciation": "OHNG-dih ehs-TAH AH KEYE-shuh DIH goo-ruh-ZHEH-tuhsh?",
+      "formality": "standard",
+      "cultural_note": "Tip boxes are not always visible; staff can direct you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pergunte no balcão.",
+        "pronunciation": "peh-ruh-GOONNG-tih NOO bahl-KOWN.",
+        "translation_en": "Ask at the counter."
+      },
+      "responses": [
+        {
+          "english": "Ask at the counter.",
+          "phonetic": "peh-ruh-GOONNG-tih NOO bahl-KOWN.",
+          "french": "Pergunte no balcão."
+        }
+      ]
+    },
+    {
+      "id": "phrase_15370546591e",
+      "intent_en": "Ask where the tip box is",
+      "text_local": "Onde fica a caixa de gorjetas, por favor?",
+      "pronunciation": "ON-deh FEE-kah ah KY-shah jee gor-ZHEH-tahs por fah-VOR (link \"de\" smoothly to next word)",
+      "formality": "polite",
+      "cultural_note": "Tipping is optional in Portugal. The box is typically near the entrance or register.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bom dia, fica junto ao balcão.",
+        "pronunciation": "BOHNG DEEUH, FEE-kuh ZHOONNG-too OW bahl-KOWN.",
+        "translation_en": "Good morning, it's next to the counter."
+      },
+      "responses": [
+        {
+          "english": "Good morning, it's next to the counter.",
+          "phonetic": "BOHNG DEEUH, FEE-kuh ZHOONNG-too OW bahl-KOWN.",
+          "french": "Bom dia, fica junto ao balcão."
+        }
+      ]
+    },
+    {
+      "id": "phrase_2d5ca1dde6c0",
+      "intent_en": "Tourist phrase",
+      "text_local": "Onde posso deixar a gorjeta?",
+      "pronunciation": "OHNG-dih PAW-soo day-SHAHR AH goo-ruh-ZHEH-tuh?",
+      "formality": "casual",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pode deixar a gorjeta na caixa própria ao balcão ou entregar diretamente ao empregado de mesa.",
+        "pronunciation": "PAW-dih day-SHAHR AH goo-ruh-ZHEH-tuh NUH KEYE-shuh PRAWPR-yuh OW bahl-KOWN OHW ayngt-rih-GAHR dee-rih-tuh-MAYNG-tih OW aymp-rih-GAH-doo DIH MEH-zuh.",
+        "translation_en": "Where can I leave the tip?"
+      },
+      "responses": [
+        {
+          "english": "Where can I leave the tip?",
+          "phonetic": "PAW-dih day-SHAHR AH goo-ruh-ZHEH-tuh NUH KEYE-shuh PRAWPR-yuh OW bahl-KOWN OHW ayngt-rih-GAHR dee-rih-tuh-MAYNG-tih OW aymp-rih-GAH-doo DIH MEH-zuh.",
+          "french": "Pode deixar a gorjeta na caixa própria ao balcão ou entregar diretamente ao empregado de mesa."
+        }
+      ]
+    },
+    {
+      "id": "phrase_383f06efe363",
+      "intent_en": "Tourist phrase",
+      "text_local": "Onde posso ver a carta de vinhos?",
+      "pronunciation": "OHNG-dih PAW-soo VEHR AH KAH-ruh-tuh DIH VEE-nyoosh?",
+      "formality": "standard",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peça a carta de vinhos ao nosso empregado de mesa.",
+        "pronunciation": "PEH-suh AH KAH-ruh-tuh DIH VEE-nyoosh OW NAW-soo aymp-rih-GAH-doo DIH MEH-zuh.",
+        "translation_en": "Ask our waiter for the wine list."
+      },
+      "responses": [
+        {
+          "english": "Ask our waiter for the wine list.",
+          "phonetic": "PEH-suh AH KAH-ruh-tuh DIH VEE-nyoosh OW NAW-soo aymp-rih-GAH-doo DIH MEH-zuh.",
+          "french": "Peça a carta de vinhos ao nosso empregado de mesa."
+        }
+      ]
+    },
+    {
+      "id": "phrase_6aab84cbbce8",
+      "intent_en": "Ask where the wine list is",
+      "text_local": "Onde está a carta de vinhos?",
+      "pronunciation": "OHNG-dih ehs-TAH AH KAH-ruh-tuh DIH VEE-nyoosh?",
+      "formality": "standard",
+      "cultural_note": "In Portuguese restaurants, the wine list is often kept at the bar or with the staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "No balcão do bar.",
+        "pronunciation": "NOO bahl-KOWN DOO BAHR.",
+        "translation_en": "At the bar counter."
+      },
+      "responses": [
+        {
+          "english": "At the bar counter.",
+          "phonetic": "NOO bahl-KOWN DOO BAHR.",
+          "french": "No balcão do bar."
+        }
+      ]
+    },
+    {
+      "id": "phrase_76325f0b0b4c",
+      "intent_en": "Tourist phrase",
+      "text_local": "Onde posso deixar a gorjeta?",
+      "pronunciation": "OHNG-dih PAW-soo day-SHAHR AH goo-ruh-ZHEH-tuh?",
+      "formality": "casual",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pode deixar na caixa de gorjetas ou perguntar ao empregado de mesa.",
+        "pronunciation": "PAW-dih day-SHAHR NUH KEYE-shuh DIH goo-ruh-ZHEH-tuhsh OHW peh-ruh-goonng-TAHR OW aymp-rih-GAH-doo DIH MEH-zuh.",
+        "translation_en": "You can leave it in the tip box or ask the waiter."
+      },
+      "responses": [
+        {
+          "english": "You can leave it in the tip box or ask the waiter.",
+          "phonetic": "PAW-dih day-SHAHR NUH KEYE-shuh DIH goo-ruh-ZHEH-tuhsh OHW peh-ruh-goonng-TAHR OW aymp-rih-GAH-doo DIH MEH-zuh.",
+          "french": "Pode deixar na caixa de gorjetas ou perguntar ao empregado de mesa."
+        }
+      ]
+    },
+    {
+      "id": "phrase_a2d1783a6e02",
+      "intent_en": "Tourist phrase",
+      "text_local": "Onde posso deixar a gorjeta?",
+      "pronunciation": "OHNG-dih PAW-soo day-SHAHR AH goo-ruh-ZHEH-tuh?",
+      "formality": "casual",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pode deixar a gorjeta no prato ou na caixa de gorjetas ao balcão.",
+        "pronunciation": "PAW-dih day-SHAHR AH goo-ruh-ZHEH-tuh NOO PRAH-too OHW NUH KEYE-shuh DIH goo-ruh-ZHEH-tuhsh OW bahl-KOWN.",
+        "translation_en": "Where can I leave the tip? You can leave the tip on the plate or in the tip box at the counter."
+      },
+      "responses": [
+        {
+          "english": "Where can I leave the tip? You can leave the tip on the plate or in the tip box at the counter.",
+          "phonetic": "PAW-dih day-SHAHR AH goo-ruh-ZHEH-tuh NOO PRAH-too OHW NUH KEYE-shuh DIH goo-ruh-ZHEH-tuhsh OW bahl-KOWN.",
+          "french": "Pode deixar a gorjeta no prato ou na caixa de gorjetas ao balcão."
+        }
+      ]
+    },
+    {
+      "id": "phrase_c92303c3cb31",
+      "intent_en": "Ask where the card reader is",
+      "text_local": "Onde está a leitora de cartão?",
+      "pronunciation": "OHNG-dih ehs-TAH AH lay-TOH-ruh DIH kuh-ruh-TOWN?",
+      "formality": "casual",
+      "cultural_note": "Card payments are standard. The terminal is always located at the main counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bom dia, fica no balcão de pagamento.",
+        "pronunciation": "BOHNG DEEUH, FEE-kuh NOO bahl-KOWN DIH puh-guh-MAYNG-too.",
+        "translation_en": "Good morning, it's at the payment counter."
+      },
+      "responses": [
+        {
+          "english": "Good morning, it's at the payment counter.",
+          "phonetic": "BOHNG DEEUH, FEE-kuh NOO bahl-KOWN DIH puh-guh-MAYNG-too.",
+          "french": "Bom dia, fica no balcão de pagamento."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

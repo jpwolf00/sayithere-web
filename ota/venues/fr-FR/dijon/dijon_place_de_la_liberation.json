@@ -1,0 +1,118 @@
+{
+  "id": "dijon_place_liberation",
+  "name_en": "Place de la Libération",
+  "name_local": "Place de la Libération",
+  "icon": "building.2",
+  "lat": 47.3238,
+  "lon": 5.0385,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "dijon_place_001",
+      "intent_en": "Ask where the nearest toilets are",
+      "text_local": "Où sont les toilettes les plus proches ?",
+      "pronunciation": "oo son lay twah-LET lay ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "Public toilets are available around the square.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are some in the Palais des Ducs, on the ground floor.",
+          "phonetic": "eel ee ahn ah dahn luh pah-LAY day DOOK, oh ray-duh-shoh-SAY",
+          "french": "Il y en a dans le Palais des Ducs, au rez-de-chaussée."
+        }
+      ]
+    },
+    {
+      "id": "dijon_place_002",
+      "intent_en": "Ask where the Maille store is from here",
+      "text_local": "Où se trouve le magasin Maille à partir d'ici ?",
+      "pronunciation": "oo suh TROOV luh mah-gah-ZAN myah ah par-TEER dee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Maille mustard shop is just a short walk from the square, at the corner of Rue de la Liberté.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take Rue de la Liberté, it's 300 meters away.",
+          "phonetic": "pruh-NAY lah roo duh lah lee-bair-TAY, say ah trwah sahn MEHTR",
+          "french": "Prenez la rue de la Liberté, c'est à trois cents mètres."
+        }
+      ]
+    },
+    {
+      "id": "dijon_place_003",
+      "intent_en": "Ask where to find a restaurant on the square",
+      "text_local": "Y a-t-il un bon restaurant sur la place ?",
+      "pronunciation": "ee ah-TEEL uhn bohn res-toh-RAHN soor lah PLAHS",
+      "formality": "polite",
+      "cultural_note": "Several restaurants with terraces surround the square, offering Burgundian cuisine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, several restaurants with terraces around the square.",
+          "phonetic": "wee, plu-ZYUHR res-toh-RAHN ah-VEK teh-RAHS oh-TOOR duh lah PLAHS",
+          "french": "Oui, plusieurs restaurants avec terrasse autour de la place."
+        }
+      ]
+    },
+    {
+      "id": "dijon_place_004",
+      "intent_en": "Ask about the buildings around the square",
+      "text_local": "Pouvez-vous me parler des bâtiments autour de la place ?",
+      "pronunciation": "poo-VAY voo muh par-LAY day bah-tee-MAHN oh-TOOR duh lah plas",
+      "formality": "polite",
+      "cultural_note": "The elegant 18th-century buildings around the square house upscale shops, restaurants, and the famous Maille mustard boutique.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Around the square, there are shops and restaurants.",
+          "phonetic": "oh-TOOR duh lah PLAHS, eel ee ah day boo-TEEK ay day res-toh-RAHN",
+          "french": "Autour de la place, il y a des boutiques et des restaurants."
+        }
+      ]
+    },
+    {
+      "id": "dijon_place_005",
+      "intent_en": "Ask if there is a café where I can sit",
+      "text_local": "Y a-t-il un café où je peux m'asseoir ?",
+      "pronunciation": "ee ah-TEEL un kah-FAY oo zhuh puh mah-SWAR",
+      "formality": "polite",
+      "cultural_note": "There are several cafés with outdoor seating on the square — perfect for people-watching in the heart of Dijon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are several with outdoor seating on the square.",
+          "phonetic": "wee, eel ee ahn ah plu-ZYUHR ah-VEK teh-RAHS soor lah PLAHS",
+          "french": "Oui, il y en a plusieurs avec terrasse sur la place."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "square",
+      "word_local": "la place",
+      "pronunciation": "lah plas"
+    },
+    {
+      "word_en": "semi-circular",
+      "word_local": "semi-circulaire",
+      "pronunciation": "suh-mee-seer-koo-LEHR"
+    },
+    {
+      "word_en": "café",
+      "word_local": "le café",
+      "pronunciation": "leh kah-FAY"
+    },
+    {
+      "word_en": "Liberation",
+      "word_local": "la libération",
+      "pronunciation": "lah lee-bay-rah-SYON"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "crete_heraklion_phaistos_disc_museum",
+  "name_en": "Phaistos Disc Museum",
+  "name_local": "Αρχαιολογικό Μουσείο Ηρακλείου",
+  "icon": "building.columns",
+  "lat": 35.3391377,
+  "lon": 25.1374187,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "crete_heraklion_phaistos_disc_museum_001",
+      "intent_en": "Is flash allowed at the Phaistos Disc?",
+      "text_local": "Είναι επιτρεπτός ο φλας στο Δίσκο της Φαιστού;",
+      "pronunciation": "EEneh-EHpeetrehptOHs-oh-flAHs-stoh-thEEskoh-tees-fehstOO",
+      "formality": "standard",
+      "cultural_note": "Η χρήση φλας μπορεί να βλάψει ευαίσθητα αρχαιολογικά εκθέματα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται ο φλας.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH-oh-flAHs",
+        "translation_en": "No, flash is prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, flash is prohibited.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH-oh-flAHs",
+          "french": "Όχι, απαγορεύεται ο φλας."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_phaistos_disc_museum_002",
+      "intent_en": "Are the Linear B tablets displayed?",
+      "text_local": "Είναι εκτεθειμένες οι πινακίδες Γραμμικής Β;",
+      "pronunciation": "EEneh-EHktehtheemEHnehs-ee-pEEnahEEthehz-ghrAHmeeEEz-vEEtah",
+      "formality": "standard",
+      "cultural_note": "Οι πινακίδες Γραμμικής Β αποτελούν σημαντικό αρχαιολογικό εύρημα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, βρίσκονται στον χώρο των πινακίδων.",
+        "pronunciation": "nEHvrEEskohdEH-stohn-khOHroh-tohm-bEEnahEEthohn",
+        "translation_en": "Yes, they are in the tablets area."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are in the tablets area.",
+          "phonetic": "nEHvrEEskohdEH-stohn-khOHroh-tohm-bEEnahEEthohn",
+          "french": "Ναι, βρίσκονται στον χώρο των πινακίδων."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_phaistos_disc_museum_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η υπηρεσία ενοικίασης οπτικοακουστικών;",
+      "pronunciation": "pOO-EEneh-ee-EEpeerehsEEah-EHneeEEahsEEs-ksehnAHyeesEEs",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγοί βρίσκονται συνήθως κοντά στα εκθέματα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην είσοδο, κοντά στα εκδοτήρια.",
+        "pronunciation": "thEEplah-steen-EEsohthOHkohdAH-stah-EHkthohtEEreeAH",
+        "translation_en": "Next to the entrance, near the ticket counters."
+      },
+      "responses": [
+        {
+          "english": "Next to the entrance, near the ticket counters.",
+          "phonetic": "thEEplah-steen-EEsohthOHkohdAH-stah-EHkthohtEEreeAH",
+          "french": "Δίπλα στην είσοδο, κοντά στα εκδοτήρια."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_phaistos_disc_museum_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού νοικιάζω οπτικοακουστικό οδηγό;",
+      "pronunciation": "pOHz-neeAHzoh-ksEHnahghOH",
+      "formality": "standard",
+      "cultural_note": "Η ενοικίαση γίνεται κατόπιν επίδειξης εισιτηρίου εισόδου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Με το εισιτήριό σας στο ταμείο.",
+        "pronunciation": "meh-toh-EEseetEEreeOH-sahs-stoh-tahmEEoh",
+        "translation_en": "At the ticket desk with your entry ticket."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk with your entry ticket.",
+          "phonetic": "meh-toh-EEseetEEreeOH-sahs-stoh-tahmEEoh",
+          "french": "Με το εισιτήριό σας στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_phaistos_disc_museum_005",
+      "intent_en": "Is there a charity box by the disc?",
+      "text_local": "Υπάρχει κουτί εράνου δίπλα στο Δίσκο της Φαιστού;",
+      "pronunciation": "eepAHrkhee-kootEE-ehrAHnoo-thEEplah-stoh-thEEskoh-tees-fehstOO",
+      "formality": "standard",
+      "cultural_note": "Τα κουτιά εράνου χρησιμοποιούνται για την υποστήριξη συντήρησης των εκθεμάτων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει κουτί εράνου.",
+        "pronunciation": "nEHeepAHrkhee-kootEE-ehrAHnoo",
+        "translation_en": "Yes, a charity box is nearby."
+      },
+      "responses": [
+        {
+          "english": "Yes, a charity box is nearby.",
+          "phonetic": "nEHeepAHrkhee-kootEE-ehrAHnoo",
+          "french": "Ναι, υπάρχει κουτί εράνου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

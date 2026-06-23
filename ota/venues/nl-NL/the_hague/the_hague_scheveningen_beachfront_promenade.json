@@ -1,0 +1,56 @@
+{
+  "id": "the_hague_scheveningen_beachfront_promenade",
+  "name_en": "Scheveningen beachfront promenade",
+  "name_local": "Scheveningse Boulevard",
+  "icon": "map",
+  "lat": 52.0799838,
+  "lon": 4.3113461,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "the_hague_scheveningen_beachfront_promenade_001",
+      "intent_en": "Where can I get poffertjes",
+      "text_local": "Waar kan ik poffertjes kopen?",
+      "pronunciation": "vAHr-kahn-ihk-pAWfehrtuhs-kOHpuhn",
+      "formality": "casual",
+      "cultural_note": "Poffertjes are a common street food item sold at kiosks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de kiosken op de boulevard.",
+        "pronunciation": "behih-duh-kEEawskuhn-awp-duh-bUHuhluhvAHrt",
+        "translation_en": "At the kiosks on the boulevard."
+      },
+      "responses": [
+        {
+          "english": "At the kiosks on the boulevard.",
+          "phonetic": "behih-duh-kEEawskuhn-awp-duh-bUHuhluhvAHrt",
+          "french": "Bij de kiosken op de boulevard."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_scheveningen_beachfront_promenade_002",
+      "intent_en": "How do I validate my tram ticket",
+      "text_local": "Hoe moet ik mijn tramkaartje afstempelen?",
+      "pronunciation": "hOO-mOOt-ihk-mehihn-trAHmkahrtuh-AHfstEHmpuhluhn",
+      "formality": "casual",
+      "cultural_note": "Tram validators are typically yellow and located at stops.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de gele validator bij de halte.",
+        "pronunciation": "behih-duh-ghuhluh-vAHleedAHtawr-behih-duh-hAHltuh",
+        "translation_en": "At the yellow validator at the stop."
+      },
+      "responses": [
+        {
+          "english": "At the yellow validator at the stop.",
+          "phonetic": "behih-duh-ghuhluh-vAHleedAHtawr-behih-duh-hAHltuh",
+          "french": "Bij de gele validator bij de halte."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

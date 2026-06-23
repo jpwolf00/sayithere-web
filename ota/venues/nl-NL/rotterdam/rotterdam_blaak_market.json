@@ -1,0 +1,56 @@
+{
+  "id": "rotterdam_blaak_market",
+  "name_en": "Blaak Market",
+  "name_local": "Markthal Rotterdam",
+  "icon": "fork.knife",
+  "lat": 51.9201092,
+  "lon": 4.4869571,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "rotterdam_blaak_market_001",
+      "intent_en": "Is the Horn of Plenty ceiling visible from here?",
+      "text_local": "Is de Hoorn des Overvloeds zichtbaar hier?",
+      "pronunciation": "ihs-duh-hAWrn-dEHs-OHvuhrvlOOt-sIHkhtbahr-hEEr",
+      "formality": "standard",
+      "cultural_note": "The ceiling art is a prominent feature.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, recht boven u.",
+        "pronunciation": "yAHrEHkht-bOHvuhn-ue",
+        "translation_en": "Yes, right above you."
+      },
+      "responses": [
+        {
+          "english": "Yes, right above you.",
+          "phonetic": "yAHrEHkht-bOHvuhn-ue",
+          "french": "Ja, recht boven u."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_blaak_market_002",
+      "intent_en": "Which stalls accept card payment?",
+      "text_local": "Welke kraampjes accepteren pin?",
+      "pronunciation": "vEHlkuh-krAHmpyuhs-AHksehptIHruhn-pIHn",
+      "formality": "casual",
+      "cultural_note": "Locals may tap their card to indicate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bijna allemaal.",
+        "pronunciation": "bEHihnAH-AHluhmAHl",
+        "translation_en": "Almost all of them."
+      },
+      "responses": [
+        {
+          "english": "Almost all of them.",
+          "phonetic": "bEHihnAH-AHluhmAHl",
+          "french": "Bijna allemaal."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

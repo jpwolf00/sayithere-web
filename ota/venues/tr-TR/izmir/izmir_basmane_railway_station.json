@@ -1,0 +1,166 @@
+{
+  "id": "izmir_basmane_railway_station",
+  "name_en": "Basmane Railway Station",
+  "name_local": "Basmane Garı",
+  "icon": "tram",
+  "lat": 38.4224566,
+  "lon": 27.1436316,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "izmir_basmane_railway_station_001",
+      "intent_en": "Which platform for Ankara train?",
+      "text_local": "Ankara treni hangi peronda?",
+      "pronunciation": "AHnkahrah-trehnIH-hahngIH-pehrawndAH",
+      "formality": "standard",
+      "cultural_note": "Turkish station staff often direct complex queries to the danışma (information desk).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peron 1.",
+        "pronunciation": "pehrAWn-bEEr",
+        "translation_en": "Platform 1."
+      },
+      "responses": [
+        {
+          "english": "Platform 1.",
+          "phonetic": "pehrAWn-bEEr",
+          "french": "Peron 1."
+        }
+      ]
+    },
+    {
+      "id": "izmir_basmane_railway_station_002",
+      "intent_en": "Can I reserve a seat now?",
+      "text_local": "Şimdi koltuk rezervasyonu yapabilir miyim?",
+      "pronunciation": "shihmdIH-kawtUHk-rehzehrvahsyohnUH-yahpahbeelIHr-mEEyihm",
+      "formality": "polite",
+      "cultural_note": "Seat reservations are handled by the ticket clerk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bilet alırken yapılır.",
+        "pronunciation": "ehvEHtbeelEHt-ahOOrahn-yahpooOOr",
+        "translation_en": "Yes, it's done when buying a ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's done when buying a ticket.",
+          "phonetic": "ehvEHtbeelEHt-ahOOrahn-yahpooOOr",
+          "french": "Evet, bilet alırken yapılır."
+        }
+      ]
+    },
+    {
+      "id": "izmir_basmane_railway_station_003",
+      "intent_en": "Where to reload İzmir Kart?",
+      "text_local": "İzmir Kart nereden yüklenir?",
+      "pronunciation": "IHzmihr-kAHrt-nEHrehdahn-yuhklehnIHr",
+      "formality": "standard",
+      "cultural_note": "Directs you to the metro connection area kiosks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Metro kiosklarına bakın.",
+        "pronunciation": "mehtrAW-keeawskahroonAH-bahkOOn",
+        "translation_en": "Look for the metro kiosks."
+      },
+      "responses": [
+        {
+          "english": "Look for the metro kiosks.",
+          "phonetic": "mehtrAW-keeawskahroonAH-bahkOOn",
+          "french": "Metro kiosklarına bakın."
+        }
+      ]
+    },
+    {
+      "id": "izmir_basmane_railway_station_004",
+      "intent_en": "Where is Alsancak station?",
+      "text_local": "Alsancak Garı'na yürüyerek nasıl giderim?",
+      "pronunciation": "ahsahndzhAHk-gahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Alsancak is a separate terminal; staff will direct you to the information desk for transit instructions.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Karşı yöne doğru.",
+        "pronunciation": "kahrshOO-yuhnEH-dohrUH",
+        "translation_en": "Towards the opposite direction."
+      },
+      "responses": [
+        {
+          "english": "Towards the opposite direction.",
+          "phonetic": "kahrshOO-yuhnEH-dohrUH",
+          "french": "Karşı yöne doğru."
+        }
+      ]
+    },
+    {
+      "id": "izmir_basmane_railway_station_005",
+      "intent_en": "Is there baggage check-in?",
+      "text_local": "Bagaj teslimi var mı?",
+      "pronunciation": "bahgAHzh-tEHsleemih-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Baggage check-in is available specifically for long-distance trains.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Uzun mesafe için var.",
+        "pronunciation": "oozUHn-mehsahfEH-eetshIHn-vAHr",
+        "translation_en": "There is for long-distance."
+      },
+      "responses": [
+        {
+          "english": "There is for long-distance.",
+          "phonetic": "oozUHn-mehsahfEH-eetshIHn-vAHr",
+          "french": "Uzun mesafe için var."
+        }
+      ]
+    },
+    {
+      "id": "izmir_basmane_railway_station_006",
+      "intent_en": "Where is Alsancak station?",
+      "text_local": "Alsancak Garı'na trenle nasıl giderim?",
+      "pronunciation": "ahsahndzhAHk-gahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Alsancak is Izmir's other main railway terminal. Staff will clarify it's not within walking distance and direct you to the information desk for transport options.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Bir durak sonra inin.",
+        "pronunciation": "bihr-doorAHk-sawnrAH-eenEEn",
+        "translation_en": "Get off after one stop."
+      },
+      "responses": [
+        {
+          "english": "Get off after one stop.",
+          "phonetic": "bihr-doorAHk-sawnrAH-eenEEn",
+          "french": "Bir durak sonra inin."
+        }
+      ]
+    },
+    {
+      "id": "izmir_basmane_railway_station_007",
+      "intent_en": "Where to reload İzmir Kart?",
+      "text_local": "İzmir Kart nerede yüklenir?",
+      "pronunciation": "IHzmihr-kAHrt-nEHrehdeh-yuhklehnIHr",
+      "formality": "standard",
+      "cultural_note": "İzmir Kart reload is typically done at self-service kiosks near the metro connection. Staff will point you in that direction.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Metro kiosklarına bakın.",
+        "pronunciation": "mehtrAW-keeawskahroonAH-bahkOOn",
+        "translation_en": "Look at the metro kiosks."
+      },
+      "responses": [
+        {
+          "english": "Look at the metro kiosks.",
+          "phonetic": "mehtrAW-keeawskahroonAH-bahkOOn",
+          "french": "Metro kiosklarına bakın."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

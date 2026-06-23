@@ -1,0 +1,100 @@
+{
+  "id": "hallstatt_evangelical_church_of_hallstatt",
+  "name_en": "Evangelical Church of Hallstatt",
+  "name_local": "Christuskirche Hallstatt",
+  "icon": "building.columns",
+  "lat": 47.5622886,
+  "lon": 13.648862,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "hallstatt_evangelical_church_of_hallstatt_001",
+      "intent_en": "Do I need tickets for tonight's concert",
+      "text_local": "Braucht man Tickets fürs Konzert heute?",
+      "pronunciation": "brOWkht-mahn-tIHkuhts-fUErs-kawntsEHrt-hAWuhtuh",
+      "formality": "standard",
+      "cultural_note": "Tickets for concerts are often sold at the venue entrance or in advance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Eingang.",
+        "pronunciation": "yAHahm-EYEnAHng",
+        "translation_en": "Yes, at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the entrance.",
+          "phonetic": "yAHahm-EYEnAHng",
+          "french": "Ja, am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_evangelical_church_of_hallstatt_002",
+      "intent_en": "Where is the donation box inside",
+      "text_local": "Wo steht der Opferstock?",
+      "pronunciation": "vOH-shtEHt-dehr-AWpfstAWk",
+      "formality": "standard",
+      "cultural_note": "Donation boxes ('Opferstöcke') are typically placed near exits in German churches.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich rechts neben dem Eingang.",
+        "pronunciation": "glEYEkh-rEHkhts-nEHbuhn-dehm-EYEngAHng",
+        "translation_en": "Right next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "Right next to the entrance.",
+          "phonetic": "glEYEkh-rEHkhts-nEHbuhn-dehm-EYEngAHng",
+          "french": "Gleich rechts neben dem Eingang."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_evangelical_church_of_hallstatt_003",
+      "intent_en": "Where is the Protestant Cemetery entrance",
+      "text_local": "Wo ist der Eingang zum Protestantischen Friedhof?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-prohtehstAHntihshuhn-frEEthohf",
+      "formality": "standard",
+      "cultural_note": "German cemeteries often have clearly marked entrances near main landmarks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hang unterhalb der Kirche.",
+        "pronunciation": "ahm-hAHng-UHnthAHlp-dehr-kIHrkhuh",
+        "translation_en": "On the slope below the church."
+      },
+      "responses": [
+        {
+          "english": "On the slope below the church.",
+          "phonetic": "ahm-hAHng-UHnthAHlp-dehr-kIHrkhuh",
+          "french": "Am Hang unterhalb der Kirche."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_evangelical_church_of_hallstatt_004",
+      "intent_en": "Should I remove my hat inside",
+      "text_local": "Muss ich hier meinen Hut abnehmen?",
+      "pronunciation": "mUHs-ihkh-hEEr-mEYEnuhn-hOOt-AHpnEHmuhn",
+      "formality": "casual",
+      "cultural_note": "Removing hats indoors is standard etiquette in German Protestant churches.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, in der Kirche.",
+        "pronunciation": "yAHihn-dehr-kIHrkhuh",
+        "translation_en": "Yes, inside the church."
+      },
+      "responses": [
+        {
+          "english": "Yes, inside the church.",
+          "phonetic": "yAHihn-dehr-kIHrkhuh",
+          "french": "Ja, in der Kirche."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "corfu_zambeta_pharmacy",
+  "name_en": "Zambeta Pharmacy",
+  "name_local": "Φαρμακείο Ζαμπέτα",
+  "icon": "info.circle",
+  "lat": 39.591337,
+  "lon": 19.8596189,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "corfu_zambeta_pharmacy_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκονται τα μη συνταγογραφούμενα;",
+      "pronunciation": "pOO-vrEEskohdEH-tah-mEE-sEEdahghOHghrahfOOmehnAH",
+      "formality": "standard",
+      "cultural_note": "Τα μη συνταγογραφούμενα φάρμακα βρίσκονται οργανωμένα σε ειδικά ράφια για εύκολη πρόσβαση από τους πελάτες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ράφι μη συνταγογραφούμενων, δίπλα στο γκισέ.",
+        "pronunciation": "stoh-rAHfee-mEE-sEEdahghOHghrahfOOmehnOHnthEEplah-stoh-geesEH",
+        "translation_en": "On the OTC shelf, next to the prescription counter."
+      },
+      "responses": [
+        {
+          "english": "On the OTC shelf, next to the prescription counter.",
+          "phonetic": "stoh-rAHfee-mEE-sEEdahghOHghrahfOOmehnOHnthEEplah-stoh-geesEH",
+          "french": "Στο ράφι μη συνταγογραφούμενων, δίπλα στο γκισέ."
+        }
+      ]
+    },
+    {
+      "id": "corfu_zambeta_pharmacy_002",
+      "intent_en": "Do you accept credit card",
+      "text_local": "Δέχεστε κάρτα;",
+      "pronunciation": "thEHkhehstEH-kAHrtah",
+      "formality": "standard",
+      "cultural_note": "Στα περισσότερα φαρμακεία της Ελλάδας γίνεται αποδεκτή η κάρτα, αλλά η χρήση μετρητών παραμένει συχνή για μικρά ποσά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δεχόμαστε.",
+        "pronunciation": "nEHthehkhOHmahstEH",
+        "translation_en": "Yes, we accept cards."
+      },
+      "responses": [
+        {
+          "english": "Yes, we accept cards.",
+          "phonetic": "nEHthehkhOHmahstEH",
+          "french": "Ναι, δεχόμαστε."
+        }
+      ]
+    },
+    {
+      "id": "corfu_zambeta_pharmacy_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Έχετε γενόσημο;",
+      "pronunciation": "EHkhehtEH-yehnOHseemOH",
+      "formality": "standard",
+      "cultural_note": "Τα γενόσημα φάρμακα είναι κοινή πρακτική στην Ελλάδα, αλλά η αντικατάσταση γίνεται μόνο από τον αρμόδιο φαρμακοποιό μετά από έλεγχο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Βεβαίως, μπορώ να σας προτείνω γενόσημο.",
+        "pronunciation": "vehvEHohsbohrOH-nah-sahs-prohtEEnoh-yehnOHseemOH",
+        "translation_en": "Of course, I can suggest a generic alternative."
+      },
+      "responses": [
+        {
+          "english": "Of course, I can suggest a generic alternative.",
+          "phonetic": "vehvEHohsbohrOH-nah-sahs-prohtEEnoh-yehnOHseemOH",
+          "french": "Βεβαίως, μπορώ να σας προτείνω γενόσημο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_zambeta_pharmacy_004",
+      "intent_en": "Is homeopathic section on this floor",
+      "text_local": "Υπάρχει τμήμα ομοιοπαθητικών εδώ;",
+      "pronunciation": "eepAHrkhee-tmEEmah-OHmeeOHpahthEEteekOHn-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Η ομοιοπαθητική αποτελεί ξεχωριστή κατηγορία προϊόντων στα περισσότερα φαρμακεία της Ελλάδας, οργανωμένη σε ειδική περιοχή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει.",
+        "pronunciation": "nEHeepAHrkhee",
+        "translation_en": "Yes, there is."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is.",
+          "phonetic": "nEHeepAHrkhee",
+          "french": "Ναι, υπάρχει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

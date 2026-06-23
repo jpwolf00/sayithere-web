@@ -1,0 +1,144 @@
+{
+  "id": "sapporo_new_chitose_airport",
+  "name_en": "New Chitose Airport",
+  "name_local": "新千歳空港",
+  "icon": "tram",
+  "lat": 42.786787,
+  "lon": 141.6829598,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "sapporo_new_chitose_airport_001",
+      "intent_en": "Where are the baggage lockers?",
+      "text_local": "てにもつロッカーは どこですか？",
+      "pronunciation": "tEHneemOHtsooohkkH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Coin lockers (コインロッカー) are common in Japanese stations and airports. This points to a specific wall.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "つうろの ひだりがわに ならんでます。",
+        "pronunciation": "tsooooOHnoh-khEEdEEgwNee-nNdehmSoo",
+        "translation_en": "They're lined up on the left side of the passageway."
+      },
+      "responses": [
+        {
+          "english": "They're lined up on the left side of the passageway.",
+          "phonetic": "tsooooOHnoh-khEEdEEgwNee-nNdehmSoo",
+          "french": "つうろの ひだりがわに ならんでます。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_new_chitose_airport_002",
+      "intent_en": "Where is the JR ticket machine?",
+      "text_local": "JRのきっぷうりばは どこですか？",
+      "pronunciation": "ehndzhAY-AHyah-nOH-kEE-OO-ehndzhAHpuhneezyahlEHtuh-OO-EE-h-EHndzhAHpuhneezyahlEHtuh-h-DOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "JR Chitose Line machines are usually in a bank near the station gates. This response uses simple kana for clarity.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいだんを おりて、すぐみぎです。",
+        "pronunciation": "kEEdOH-ohEEtehsOOgoomEEgeedEHsoo",
+        "translation_en": "Down the stairs, immediately on the right."
+      },
+      "responses": [
+        {
+          "english": "Down the stairs, immediately on the right.",
+          "phonetic": "kEEdOH-ohEEtehsOOgoomEEgeedEHsoo",
+          "french": "かいだんを おりて、すぐみぎです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_new_chitose_airport_003",
+      "intent_en": "Where is the Ramen Dojo?",
+      "text_local": "ラーメンどうじょうは どこですか？",
+      "pronunciation": "MehndOHoodohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Ramen Dojo is a famous ramen alley. Staff give floor and general location within the dining area.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "3かい、フードコートの おくです。",
+        "pronunciation": "sN-kEEOOoodohkohohtOHnoh-OHkoodEHsoo",
+        "translation_en": "On the 3rd floor, at the back of the food court."
+      },
+      "responses": [
+        {
+          "english": "On the 3rd floor, at the back of the food court.",
+          "phonetic": "sN-kEEOOoodohkohohtOHnoh-OHkoodEHsoo",
+          "french": "3かい、フードコートの おくです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_new_chitose_airport_004",
+      "intent_en": "Is duty-free after security?",
+      "text_local": "めんぜいは あんけんの さきですか？",
+      "pronunciation": "mEHzehEEh-ngkEHnnoh-sKeedehsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple confirmation. Duty-free shops are universally post-security in Japanese airports.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、そのとおりです。",
+        "pronunciation": "hEEsOHnohtOHoheedEHsoo",
+        "translation_en": "Yes, that's right."
+      },
+      "responses": [
+        {
+          "english": "Yes, that's right.",
+          "phonetic": "hEEsOHnohtOHoheedEHsoo",
+          "french": "はい、そのとおりです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_new_chitose_airport_005",
+      "intent_en": "Where is the rental car shuttle?",
+      "text_local": "レンタカーの バスのりばは どこですか？",
+      "pronunciation": "EHntkNoh-bSoonOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Rental car shuttle buses wait at designated numbered spots outside the terminal.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "そとの、バスエリアの Aばんちです。",
+        "pronunciation": "sohtOHnohbSooEHeeNoh-bNteedEHsoo",
+        "translation_en": "Outside, at bus area spot A."
+      },
+      "responses": [
+        {
+          "english": "Outside, at bus area spot A.",
+          "phonetic": "sohtOHnohbSooEHeeNoh-bNteedEHsoo",
+          "french": "そとの、バスエリアの Aばんちです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_new_chitose_airport_006",
+      "intent_en": "When is the next airport bus?",
+      "text_local": "つぎの リムジンバスは いつですか？",
+      "pronunciation": "tsoogEEnoh-EEmoodEEbsOOh-EEtsoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "Airport buses are called 'limousine bus' (リムジンバス). The attendant gives the time and platform number.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あと15ふん、2ばんのりばです。",
+        "pronunciation": "Toh-dzOOgoh-OOnEE-bNnohEEbdEHsoo",
+        "translation_en": "In 15 minutes, at stop number 2."
+      },
+      "responses": [
+        {
+          "english": "In 15 minutes, at stop number 2.",
+          "phonetic": "Toh-dzOOgoh-OOnEE-bNnohEEbdEHsoo",
+          "french": "あと15ふん、2ばんのりばです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

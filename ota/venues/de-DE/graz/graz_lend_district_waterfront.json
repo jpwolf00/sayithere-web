@@ -1,0 +1,100 @@
+{
+  "id": "graz_lend_district_waterfront",
+  "name_en": "Lend District Waterfront",
+  "name_local": "Lendkai & Murinsel",
+  "icon": "map",
+  "lat": 47.0731554,
+  "lon": 15.4345756,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "graz_lend_district_waterfront_001",
+      "intent_en": "Where can I catch the river ferry?",
+      "text_local": "Wo ist die Fähre am Lendkai?",
+      "pronunciation": "vOH-ihst-dee-fEHruh-ahm-lEHntkeye",
+      "formality": "standard",
+      "cultural_note": "Ferry tickets are available at the counter or onboard. Follow signs to the dock.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Lendkai-Anleger.",
+        "pronunciation": "ahm-lEHntkeyeAHnlEH",
+        "translation_en": "At the Lendkai ferry stop."
+      },
+      "responses": [
+        {
+          "english": "At the Lendkai ferry stop.",
+          "phonetic": "ahm-lEHntkeyeAHnlEH",
+          "french": "Am Lendkai-Anleger."
+        }
+      ]
+    },
+    {
+      "id": "graz_lend_district_waterfront_002",
+      "intent_en": "Where is the Murinsel café?",
+      "text_local": "Wo ist das Murinsel-Café?",
+      "pronunciation": "vOH-ihst-dahs-mOOrihnzuhlkahfEH",
+      "formality": "standard",
+      "cultural_note": "Murinsel is accessed exclusively via pedestrian bridges. The café is centrally located on the island.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf der Murinsel.",
+        "pronunciation": "owf-dehr-mOOrihnzuhl",
+        "translation_en": "On the Murinsel."
+      },
+      "responses": [
+        {
+          "english": "On the Murinsel.",
+          "phonetic": "owf-dehr-mOOrihnzuhl",
+          "french": "Auf der Murinsel."
+        }
+      ]
+    },
+    {
+      "id": "graz_lend_district_waterfront_003",
+      "intent_en": "Where does the Kunsthaus bridge walk start?",
+      "text_local": "Wo beginnt der Kunsthaus-Brückenweg?",
+      "pronunciation": "vOH-buhIHnt-dehr-kUHnstowsbrUEkuhnvEHk",
+      "formality": "standard",
+      "cultural_note": "The walking path starts at the Kunsthaus bridge adjacent to the Kunsthaus building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Kunsthaus Graz.",
+        "pronunciation": "ahm-kUHnstows-rAHts",
+        "translation_en": "At Kunsthaus Graz."
+      },
+      "responses": [
+        {
+          "english": "At Kunsthaus Graz.",
+          "phonetic": "ahm-kUHnstows-rAHts",
+          "french": "Am Kunsthaus Graz."
+        }
+      ]
+    },
+    {
+      "id": "graz_lend_district_waterfront_004",
+      "intent_en": "Where can I rent a bike along the waterfront?",
+      "text_local": "Wo gibt es Fahrradverleih am Wasser?",
+      "pronunciation": "vOH-EEpt-ehs-fAHrahdvEHrleye-ahm-vAHs",
+      "formality": "standard",
+      "cultural_note": "Bike rentals are available at multiple stations along both banks. Staff can direct you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Radweg entlang der Mur.",
+        "pronunciation": "ahm-rAHdvehk-ehntlAHng-dehr-mOOr",
+        "translation_en": "Along the Mur River bike path."
+      },
+      "responses": [
+        {
+          "english": "Along the Mur River bike path.",
+          "phonetic": "ahm-rAHdvehk-ehntlAHng-dehr-mOOr",
+          "french": "Am Radweg entlang der Mur."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

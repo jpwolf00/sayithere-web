@@ -1,0 +1,100 @@
+{
+  "id": "heidelberg_heidelberg_castle",
+  "name_en": "Heidelberg Castle",
+  "name_local": "Heidelberger Schloss",
+  "icon": "building.columns",
+  "lat": 49.4104729,
+  "lon": 8.7151965,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "heidelberg_heidelberg_castle_001",
+      "intent_en": "Where is the Apothecary Museum entrance?",
+      "text_local": "Wo ist der Eingang zum Apothekenmuseum?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-AHpohtEHkuhnmOOzehUHm",
+      "formality": "standard",
+      "cultural_note": "In German cultural context, museums often have clearly marked entrances. The response assumes the museum is a distinct building or wing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ende des Hofs.",
+        "pronunciation": "ahm-EHnduh-dehs-hOHfs",
+        "translation_en": "At the end of the courtyard."
+      },
+      "responses": [
+        {
+          "english": "At the end of the courtyard.",
+          "phonetic": "ahm-EHnduh-dehs-hOHfs",
+          "french": "Am Ende des Hofs."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_heidelberg_castle_002",
+      "intent_en": "How do I book the guided English tour?",
+      "text_local": "Wie buche ich die englische Führung?",
+      "pronunciation": "vee-bOOkhuh-ihkh-dee-EHnglihshuh-fUEruhng",
+      "formality": "standard",
+      "cultural_note": "Guided tours at German castles often require booking at the ticket counter or in advance online. Staff will refer to the most practical option.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder online.",
+        "pronunciation": "ahm-shAHlt-OHd-ehnNleyendeh",
+        "translation_en": "At the counter or online."
+      },
+      "responses": [
+        {
+          "english": "At the counter or online.",
+          "phonetic": "ahm-shAHlt-OHd-ehnNleyendeh",
+          "french": "Am Schalter oder online."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_heidelberg_castle_003",
+      "intent_en": "Is the audio guide available in Chinese?",
+      "text_local": "Gibt es den Audioguide auch auf Chinesisch?",
+      "pronunciation": "EEpt-ehs-dehn-ehnAWdihUHuheyeddeh-OWkh-owf-kheenEHzihsh",
+      "formality": "casual",
+      "cultural_note": "Audio guides in multiple languages are common at major tourist attractions in Germany. Staff typically direct interested visitors to the rental desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_heidelberg_castle_004",
+      "intent_en": "Can I pay by card at the garden café?",
+      "text_local": "Kann man im Schlosscafé mit Karte zahlen?",
+      "pronunciation": "kAHn-mahn-ihm-shlAWskahfEH-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "German businesses increasingly accept card payments, but some smaller venues may prefer cash. The café is likely to confirm card acceptance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, möglich.",
+        "pronunciation": "yAHmUHklihkh",
+        "translation_en": "Yes, possible."
+      },
+      "responses": [
+        {
+          "english": "Yes, possible.",
+          "phonetic": "yAHmUHklihkh",
+          "french": "Ja, möglich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

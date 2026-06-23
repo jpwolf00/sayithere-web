@@ -1,0 +1,100 @@
+{
+  "id": "salzburg_sternbräu_traditional_beer_hall",
+  "name_en": "Sternbräu Traditional Beer Hall",
+  "name_local": "Sternbräu",
+  "icon": "fork.knife",
+  "lat": 47.8004856,
+  "lon": 13.0411534,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "salzburg_sternbräu_traditional_beer_hall_001",
+      "intent_en": "Is there a coat check for ski jackets",
+      "text_local": "Gibt es eine Garderobe für Skijacken?",
+      "pronunciation": "EEpt-ehs-EYEnuh-AHrdehrOHbuh-fuer-skEEyahkuhn",
+      "formality": "standard",
+      "cultural_note": "Seasonal coat checks are common in Austrian beer halls during winter months. Staff will confirm availability based on current conditions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Winter.",
+        "pronunciation": "yAHihm-vIHnt",
+        "translation_en": "Yes, in winter."
+      },
+      "responses": [
+        {
+          "english": "Yes, in winter.",
+          "phonetic": "yAHihm-vIHnt",
+          "french": "Ja, im Winter."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_sternbräu_traditional_beer_hall_002",
+      "intent_en": "Is the Biergarten open now",
+      "text_local": "Hat der Biergarten jetzt offen?",
+      "pronunciation": "haht-dehr-bEErahrtuhn-yEHtst-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Outdoor beer gardens in Austria are generally open year-round unless weather conditions prevent it. Staff may refer to seasonal opening hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_sternbräu_traditional_beer_hall_003",
+      "intent_en": "Do I pay before or after ordering",
+      "text_local": "Zahlt man vor oder nach dem Bestellen?",
+      "pronunciation": "tsAHlt-mahn-fAWr-OHd-nahkh-dehm-buhshtEHluhn",
+      "formality": "standard",
+      "cultural_note": "In fast-kasual settings like self-service beer halls, payment is typically made before consumption at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Bestellen.",
+        "pronunciation": "fAWr-dehm-buhshtEHluhn",
+        "translation_en": "Before ordering."
+      },
+      "responses": [
+        {
+          "english": "Before ordering.",
+          "phonetic": "fAWr-dehm-buhshtEHluhn",
+          "french": "Vor dem Bestellen."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_sternbräu_traditional_beer_hall_004",
+      "intent_en": "Where is the garden voucher counter",
+      "text_local": "Wo ist der Gutscheinschalter im Garten?",
+      "pronunciation": "vOH-ihst-dehr-UHtsheyenshAHlt-ihm-AHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Voucher systems in Austrian beer gardens are typically handled at a dedicated counter or the main service desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Alten Bräustüberl, am Tresen rechts.",
+        "pronunciation": "ihm-AHltuhn-brAWuhshtueblahm-trEHzuhn-rEHkhts",
+        "translation_en": "In the Altes Bräustüberl, at the counter on the right."
+      },
+      "responses": [
+        {
+          "english": "In the Altes Bräustüberl, at the counter on the right.",
+          "phonetic": "ihm-AHltuhn-brAWuhshtueblahm-trEHzuhn-rEHkhts",
+          "french": "Im Alten Bräustüberl, am Tresen rechts."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

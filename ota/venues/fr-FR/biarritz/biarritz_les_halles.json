@@ -1,0 +1,118 @@
+{
+  "id": "biarritz_halles",
+  "name_en": "Les Halles de Biarritz",
+  "name_local": "Les Halles de Biarritz",
+  "icon": "basket",
+  "lat": 43.481,
+  "lon": -1.553,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "biarritz_halles_001",
+      "intent_en": "Ask when the market is open",
+      "text_local": "À quelle heure ouvre le marché ?",
+      "pronunciation": "ah kel UHR OO-vreh luh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "Les Halles is open Tuesday to Sunday, with the best selection Saturday morning. It's closed on Monday.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From 7:30am to 2pm. Closed Mondays.",
+          "phonetic": "duh set uhr trahnt ah kah-torz uhr. fair-MAY luh luhn-DEE",
+          "french": "De sept heures trente à quatorze heures. Fermé le lundi."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_halles_002",
+      "intent_en": "Ask where to find local ham",
+      "text_local": "Où puis-je trouver du jambon de Bayonne ?",
+      "pronunciation": "oo PWEE-zhuh troo-VAY doo zham-BON duh bah-YOHN",
+      "formality": "polite",
+      "cultural_note": "Bayonne ham is a protected designation cured ham from the Basque country, available at market stalls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the charcuterie stand, at the back on the left.",
+          "phonetic": "oh stahnd duh shar-koo-tuh-REE, oh fohn ah GOHSH",
+          "french": "Au stand de charcuterie, au fond à gauche."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_halles_003",
+      "intent_en": "Ask if there is a café in the market",
+      "text_local": "Y a-t-il un café dans le marché ?",
+      "pronunciation": "ee ah-TEEL uhn kah-FAY dahn luh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "The market has small bars and cafes where you can enjoy pintxos (Basque tapas) with a coffee or glass of wine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there's a small bar in the center of the market.",
+          "phonetic": "wee, eel ee ah uhn puh-TEE bar oh SAHN-truh doo mar-SHAY",
+          "french": "Oui, il y a un petit bar au centre du marché."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_halles_004",
+      "intent_en": "Ask where to find local cheese",
+      "text_local": "Où puis-je trouver du fromage local ?",
+      "pronunciation": "oo PWEE-zhuh troo-VAY doo froh-MAHZH lo-KAL",
+      "formality": "polite",
+      "cultural_note": "Look for Ossau-Iraty, a PDO sheep's milk cheese from the Pyrenees. It's excellent with local honey or in a cheese course.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The cheese shops are at the back of the market. Ask for Ossau-Iraty.",
+          "phonetic": "lay froh-mahzh-REE son oh fohn day AL. duh-mahn-DAY loh-SOH ee-rah-TEE",
+          "french": "Les fromageries sont au fond des Halles. Demandez l'Ossau-Iraty."
+        }
+      ]
+    },
+    {
+      "id": "biarritz_halles_005",
+      "intent_en": "Ask if they accept credit cards",
+      "text_local": "Acceptez-vous les cartes bancaires ?",
+      "pronunciation": "ak-sep-TAY voo lay kart bahn-KEHR",
+      "formality": "polite",
+      "cultural_note": "Smaller market stalls often prefer cash. Larger vendors may accept cards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It depends on the stand. Bring some cash.",
+          "phonetic": "sah day-PAHN doo stahnd. pray-vwah-YAY doo lee-KEED",
+          "french": "Ça dépend du stand. Prévoyez du liquide."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "market hall",
+      "word_local": "les halles",
+      "pronunciation": "lay AL"
+    },
+    {
+      "word_en": "Basque",
+      "word_local": "basque",
+      "pronunciation": "bahsk"
+    },
+    {
+      "word_en": "ham",
+      "word_local": "le jambon",
+      "pronunciation": "leh zham-BON"
+    },
+    {
+      "word_en": "tapas",
+      "word_local": "les pintxos",
+      "pronunciation": "lay PANTS-oh"
+    }
+  ]
+}

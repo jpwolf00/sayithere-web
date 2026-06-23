@@ -1,0 +1,118 @@
+{
+  "id": "marseille_les_docks",
+  "name_en": "Les Docks",
+  "name_local": "Les Docks",
+  "icon": "bag.fill",
+  "lat": 43.3088,
+  "lon": 5.3673,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "marseille_docks_001",
+      "intent_en": "Ask what time the shops open",
+      "text_local": "À quelle heure ouvrent les boutiques ?",
+      "pronunciation": "ah kel UHR oo-VRAHN lay boo-TEEK",
+      "formality": "polite",
+      "cultural_note": "Les Docks is a converted warehouse with shops and restaurants along the harbor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The shops open at ten o'clock.",
+          "phonetic": "lay boo-TEEK oo-VRAHN ah dee-ZUR",
+          "french": "Les boutiques ouvrent à dix heures."
+        }
+      ]
+    },
+    {
+      "id": "marseille_docks_002",
+      "intent_en": "Ask about the cinema",
+      "text_local": "Y a-t-il un cinéma dans Les Docks ?",
+      "pronunciation": "ee ah-TEEL uhn see-nay-MAH dans LAY DOKS",
+      "formality": "polite",
+      "cultural_note": "The complex includes a multi-screen cinema. Films are shown in original version with French subtitles.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there's a cinema on the first floor.",
+          "phonetic": "",
+          "french": "Oui, il y a un cinéma au premier étage."
+        }
+      ]
+    },
+    {
+      "id": "marseille_docks_003",
+      "intent_en": "Ask about the restaurants",
+      "text_local": "Quelles options de restaurants y a-t-il ?",
+      "pronunciation": "kelz op-SYONS duh res-to-RAN ee ah-TEEL",
+      "formality": "polite",
+      "cultural_note": "There are options from fast food to fine dining. Many have outdoor terraces overlooking the harbor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are brasseries and restaurants with terrace views of the port.",
+          "phonetic": "",
+          "french": "Il y a des brasseries et des restaurants avec terrasse sur le port."
+        }
+      ]
+    },
+    {
+      "id": "fr_doc_ma_x1",
+      "intent_en": "Ask what Les Docks is used for today",
+      "text_local": "À quoi servent les Docks aujourd'hui ?",
+      "pronunciation": "ah kwah SAIRV lay dohk oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Marseille's Les Docks is a vast 19th-century warehouse complex transformed into offices, shops and restaurants overlooking the Joliette port.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "They're offices, shops and restaurants.",
+          "phonetic": "suh son day boo-ROH, boo-TEEK ay res-toh-RAHN.",
+          "french": "Ce sont des bureaux, boutiques et restaurants."
+        }
+      ]
+    },
+    {
+      "id": "fr_doc_ma_x2",
+      "intent_en": "Ask which bus stop is closest to Les Docks",
+      "text_local": "Quel arrêt de bus est le plus proche des Docks ?",
+      "pronunciation": "kel ah-RAY duh boos ay luh ploo PROSH day dohk",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Joliette stop, lines five and thirty-five.",
+          "phonetic": "lah-RAY zhoh-LYET, leen-yuh SANK ay TRAHNT-SANK.",
+          "french": "L'arrêt Joliette, ligne cinq et trente-cinq."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "shopping center",
+      "word_local": "le centre commercial",
+      "pronunciation": "leh san-truh koh-mair-SYAL"
+    },
+    {
+      "word_en": "warehouse",
+      "word_local": "l'entrepôt",
+      "pronunciation": "lan-truh-POH"
+    },
+    {
+      "word_en": "restaurant",
+      "word_local": "le restaurant",
+      "pronunciation": "leh res-to-RAN"
+    },
+    {
+      "word_en": "cinema",
+      "word_local": "le cinéma",
+      "pronunciation": "leh see-nay-MAH"
+    }
+  ]
+}

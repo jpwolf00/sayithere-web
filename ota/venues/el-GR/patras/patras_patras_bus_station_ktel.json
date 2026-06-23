@@ -1,0 +1,144 @@
+{
+  "id": "patras_patras_bus_station_ktel",
+  "name_en": "Patras Bus Station KTEL",
+  "name_local": "ΚΤΕΛ Αχαΐας",
+  "icon": "tram",
+  "lat": 38.2534705,
+  "lon": 21.7374277,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "patras_patras_bus_station_ktel_001",
+      "intent_en": "Do you accept ISIC for discount",
+      "text_local": "Δέχεστε κάρτα ISIC για έκπτωση;",
+      "pronunciation": "thEHkhehstEH-kAHrtah-ehnIHzihkehl-yAH-EHkptohsEE",
+      "formality": "standard",
+      "cultural_note": "Η κάρτα ISIC αναφέρεται συχνά ως 'διεθνής φοιτητική κάρτα'.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, εφόσον ισχύει.",
+        "pronunciation": "nEHehfOHsohn-eeskhEEee",
+        "translation_en": "Yes, if valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, if valid.",
+          "phonetic": "nEHehfOHsohn-eeskhEEee",
+          "french": "Ναι, εφόσον ισχύει."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_bus_station_ktel_002",
+      "intent_en": "Which platform for Athens express",
+      "text_local": "Πού είναι η αποβάθρα για το λεωφορείο εξπρές Αθήνας;",
+      "pronunciation": "pOO-EEneh-ee-AHpohvAHthrah-yAH-ahthEEnah-ehkfrAHz-ehnehksprEHsehl",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι χρησιμοποιούν συχνά τον όρο 'εκφράζ' για τα υπεραστικά δρομολόγια.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Τρίτη αποβάθρα αριστερά, δίπλα στο γκισέ εξπρές.",
+        "pronunciation": "trEEtee-AHpohvAHthr-AHreestehrAHthEEplah-stoh-geesEH-ehksprEHs",
+        "translation_en": "The platform for the Athens express is the third from the left, right next to the express ticket counter. Follow the signs to Athens."
+      },
+      "responses": [
+        {
+          "english": "The platform for the Athens express is the third from the left, right next to the express ticket counter. Follow the signs to Athens.",
+          "phonetic": "trEEtee-AHpohvAHthr-AHreestehrAHthEEplah-stoh-geesEH-ehksprEHs",
+          "french": "Τρίτη αποβάθρα αριστερά, δίπλα στο γκισέ εξπρές."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_bus_station_ktel_003",
+      "intent_en": "Is the next Thessaloniki bus on time",
+      "text_local": "Είναι στην ώρα του το επόμενο λεωφορείο για Θεσσαλονίκη;",
+      "pronunciation": "EHrkhehtEH-steen-OHrah-too-toh-ehpOHmehnOH-lEHohfohrEEoh-thEHssahlohnEEee",
+      "formality": "standard",
+      "cultural_note": "Οι επιβάτες συχνά απευθύνονται στον 'γραμματέα' για πληροφορίες δρομολογίων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στην ώρα του.",
+        "pronunciation": "nEHsteen-OHrah-too",
+        "translation_en": "Yes, it is on time."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is on time.",
+          "phonetic": "nEHsteen-OHrah-too",
+          "french": "Ναι, στην ώρα του."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_bus_station_ktel_004",
+      "intent_en": "Where is the Rio-Antirrio connection desk",
+      "text_local": "Πού είναι ο πάγκος για τη σύνδεση Ρίο-Αντίρριο;",
+      "pronunciation": "pOO-EEneh-oh-pAHnggohz-yAH-tee-sEEnthehsEE-rEEohahdEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Η σύνδεση Ρίο-Αντίρριο αναφέρεται συχνά ως 'γέφυρα' στους προορισμούς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά, δίπλα στην είσοδο.",
+        "pronunciation": "AHreestehrAHthEEplah-steen-EEsohthOH",
+        "translation_en": "To the left, next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "To the left, next to the entrance.",
+          "phonetic": "AHreestehrAHthEEplah-steen-EEsohthOH",
+          "french": "Αριστερά, δίπλα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_bus_station_ktel_005",
+      "intent_en": "Where do I pay luggage fee",
+      "text_local": "Πού πληρώνω το τέλος αποσκευών;",
+      "pronunciation": "pOO-pleerOHnoh-toh-tEHlohs-AHpohsehvOHn",
+      "formality": "standard",
+      "cultural_note": "Ο όρος 'τέλος αποσκευών' αναφέρεται ρητά στις υπηρεσίες χειρισμού αποσκευών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο αποσκευών, δεξιά από την είσοδο.",
+        "pronunciation": "stoh-tahmEEoh-AHpohsehvOHnthEHkseeAH-ahpOH-teen-EEsohthOH",
+        "translation_en": "Follow the signs to the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the ticket counter.",
+          "phonetic": "stoh-tahmEEoh-AHpohsehvOHnthEHkseeAH-ahpOH-teen-EEsohthOH",
+          "french": "Στο ταμείο αποσκευών, δεξιά από την είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "patras_patras_bus_station_ktel_006",
+      "intent_en": "Where do I validate e-ticket",
+      "text_local": "Πού επικυρώνω το ηλεκτρονικό εισιτήριο;",
+      "pronunciation": "pOO-yEEnehtEH-ee-EHpeeEErohsEE-too-ehnEEtIHkihtehl",
+      "formality": "standard",
+      "cultural_note": "Η επικύρωση μέσω αυτοματοποιημένης μηχανής αναφέρεται ως 'μηχάνημα επικύρωσης'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στο γκισέ Athens express.",
+        "pronunciation": "thEEplah-stoh-geesEH-ehnAHthihnz-ehksprEHsehl",
+        "translation_en": "The e-ticket validation machine is in front of the platforms, next to the Athens express counter."
+      },
+      "responses": [
+        {
+          "english": "The e-ticket validation machine is in front of the platforms, next to the Athens express counter.",
+          "phonetic": "thEEplah-stoh-geesEH-ehnAHthihnz-ehksprEHsehl",
+          "french": "Δίπλα στο γκισέ Athens express."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

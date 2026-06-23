@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_old_town_market_square",
+  "name_en": "Old Town Market Square",
+  "name_local": "Náměstí Svornosti trhy",
+  "icon": "cart",
+  "lat": 48.8106526,
+  "lon": 14.3150586,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "český_krumlov_old_town_market_square_001",
+      "intent_en": "Where are public toilets?",
+      "text_local": "Kde jsou veřejné toalety?",
+      "pronunciation": "kdEH-ysoh-vEHrayneh-tOHahlEHtee",
+      "formality": "casual",
+      "cultural_note": "Public toilets in Czech squares often require a coin for entry.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Doleva u radnice, jsou tam mincovní.",
+        "pronunciation": "dOHlehvah-OO-rAHdnyeetsehysoh-tAHm-mEEntsohvnyee",
+        "translation_en": "To the left by the town hall, they are coin-operated."
+      },
+      "responses": [
+        {
+          "english": "To the left by the town hall, they are coin-operated.",
+          "phonetic": "dOHlehvah-OO-rAHdnyeetsehysoh-tAHm-mEEntsohvnyee",
+          "french": "Doleva u radnice, jsou tam mincovní."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_old_town_market_square_002",
+      "intent_en": "Do stalls take credit cards?",
+      "text_local": "Berete karty?",
+      "pronunciation": "bEHrehteh-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "Many small market stalls in Czech towns operate on a cash-only basis.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jen hotovost.",
+        "pronunciation": "nEHyEHn-hOHtohvohst",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "nEHyEHn-hOHtohvohst",
+          "french": "Ne, jen hotovost."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_old_town_market_square_003",
+      "intent_en": "Where is plague column located?",
+      "text_local": "Kde je morový sloup?",
+      "pronunciation": "kdEH-yeh-mOHrohvee-slOHp",
+      "formality": "standard",
+      "cultural_note": "The Marian Plague Column is a central landmark, often used as a meeting point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Uprostřed náměstí, vedle kašny.",
+        "pronunciation": "OOprohstrehd-nAHmnyehseevEHdleh-kAHshnee",
+        "translation_en": "In the middle of the square, next to the fountain."
+      },
+      "responses": [
+        {
+          "english": "In the middle of the square, next to the fountain.",
+          "phonetic": "OOprohstrehd-nAHmnyehseevEHdleh-kAHshnee",
+          "french": "Uprostřed náměstí, vedle kašny."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_old_town_market_square_004",
+      "intent_en": "Is fountain running today?",
+      "text_local": "Funguje dneska kašna?",
+      "pronunciation": "fOOnggooyeh-dnEHskah-kAHshnah",
+      "formality": "standard",
+      "cultural_note": "The fountain on Náměstí Svornosti is a central feature and typically operates during the main season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, teče celý den.",
+        "pronunciation": "AHnohtEHtsheh-tsEHlee-dEHn",
+        "translation_en": "Yes, it's running all day."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's running all day.",
+          "phonetic": "AHnohtEHtsheh-tsEHlee-dEHn",
+          "french": "Ano, teče celý den."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

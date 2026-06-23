@@ -1,0 +1,188 @@
+{
+  "id": "hydra_hydra_port_and_waterfront",
+  "name_en": "Hydra Port and Waterfront",
+  "name_local": "Λιμάνι Ύδρας",
+  "icon": "map",
+  "lat": 37.3485978,
+  "lon": 23.4673768,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "hydra_hydra_port_and_waterfront_001",
+      "intent_en": "How do I buy ferry tickets here",
+      "text_local": "Πώς αγοράζω εισιτήριο για το πλοίο εδώ;",
+      "pronunciation": "pOHs-AHghohrAHzoh-EEseetEEreeOH-yAH-toh-plEEoh-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Τα εκδοτήρια βρίσκονται στην προκυμαία, όπως είναι κοινή πρακτική στα λιμάνια.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο εκδοτήριο του λιμανιού.",
+        "pronunciation": "stoh-EHkthohtEEreeOH-too-lEEmahnyOO",
+        "translation_en": "At the harbor ticket kiosk."
+      },
+      "responses": [
+        {
+          "english": "At the harbor ticket kiosk.",
+          "phonetic": "stoh-EHkthohtEEreeOH-too-lEEmahnyOO",
+          "french": "Στο εκδοτήριο του λιμανιού."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_port_and_waterfront_002",
+      "intent_en": "Where to stand for donkeys passing",
+      "text_local": "Πού να σταθώ για να περάσουν οι γαϊδούρες;",
+      "pronunciation": "pOO-nah-stahthOH-yahnAH-pehrAHsoon-ee-gheyethOOrehs",
+      "formality": "standard",
+      "cultural_note": "Στις στενές μονοπάτια, οι επισκέπτες προσέχουν να μην εμποδίζουν την κίνηση των γαϊδούρων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πλάι στον τοίχο, αφήστε χώρο στη μέση.",
+        "pronunciation": "plEYE-stohn-dEEkhohahfEEsteh-khOHroh-stee-mEHsee",
+        "translation_en": "Stand by the wall, leave space in the middle."
+      },
+      "responses": [
+        {
+          "english": "Stand by the wall, leave space in the middle.",
+          "phonetic": "plEYE-stohn-dEEkhohahfEEsteh-khOHroh-stee-mEHsee",
+          "french": "Πλάι στον τοίχο, αφήστε χώρο στη μέση."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_port_and_waterfront_003",
+      "intent_en": "Do I yield to donkeys on narrow paths?",
+      "text_local": "Πρέπει να αφήνω προτεραιότητα στα γαϊδούρια;",
+      "pronunciation": "prEHpee-n-ahfEEnoh-prOHtehrehOHteetAH-stah-gheyethOOreeAH",
+      "formality": "standard",
+      "cultural_note": "Οι ντόπιοι και οι γαϊδούρηδες θεωρούν δεδομένη την προτεραιότητα στις στενές διαδρομές.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δώστε χώρο στις γαϊδούρες.",
+        "pronunciation": "nEHthOHsteh-khOHroh-steez-gheyethOOrehs",
+        "translation_en": "Yes, give space to the donkeys."
+      },
+      "responses": [
+        {
+          "english": "Yes, give space to the donkeys.",
+          "phonetic": "nEHthOHsteh-khOHroh-steez-gheyethOOrehs",
+          "french": "Ναι, δώστε χώρο στις γαϊδούρες."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_port_and_waterfront_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχουν ελεύθερες θέσεις στα εστιατόρια του λιμανιού;",
+      "pronunciation": "eepAHrkhee-thEHsee-stah-tAHvehrnAHah-too-lEEmahnyOO",
+      "formality": "standard",
+      "cultural_note": "Οι ταβερνιάρηδες συνήθως γνωρίζουν την διαθεσιμότητα λόγω περιορισμένου χώρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, αλλά λίγες θέσεις έχουν μείνει.",
+        "pronunciation": "nEHahlAH-lEEyehs-thEHsees-EHkhoon-mEEnee",
+        "translation_en": "Yes, but only a few seats are left."
+      },
+      "responses": [
+        {
+          "english": "Yes, but only a few seats are left.",
+          "phonetic": "nEHahlAH-lEEyehs-thEHsees-EHkhoon-mEEnee",
+          "french": "Ναι, αλλά λίγες θέσεις έχουν μείνει."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_port_and_waterfront_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Ποιο ταβερνάκι έχει θέσεις στην προκυμαία τώρα;",
+      "pronunciation": "pEEoh-tAHvehrnAHee-EHkhee-thEHsees-steem-brOHeemEHah-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Οι καναπέδες στα ταβερνάκια γνωρίζουν τις διαθέσιμες θέσεις λόγω συχνής ενημέρωσης των επισκεπτών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Το διπλανό ταβερνάκι έχει ακόμη θέσεις στην προκυμαία.",
+        "pronunciation": "toh-thEEplahnOH-tAHvehrnAHee-EHkhee-ahkOHmee-thEHsees-steem-brOHeemEHah",
+        "translation_en": "The taverna next door still has seats on the waterfront."
+      },
+      "responses": [
+        {
+          "english": "The taverna next door still has seats on the waterfront.",
+          "phonetic": "toh-thEEplahnOH-tAHvehrnAHee-EHkhee-ahkOHmee-thEHsees-steem-brOHeemEHah",
+          "french": "Το διπλανό ταβερνάκι έχει ακόμη θέσεις στην προκυμαία."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_port_and_waterfront_006",
+      "intent_en": "Where is the Hydra Workshop gallery?",
+      "text_local": "Πόσο απέχει η γκαλερί Hydra Workshop από εδώ;",
+      "pronunciation": "pOO-EEneh-ee-gAHlehrEE-ehnhEYEdruh-wKshpehl",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναμένεται να βρουν τις πινακίδες για γκαλερί καθοδηγώντας προς το λιμάνι.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Λίγα λεπτά με τα πόδια.",
+        "pronunciation": "lEEghah-lehptAH-meh-tah-pOHthyah",
+        "translation_en": "A few minutes on foot."
+      },
+      "responses": [
+        {
+          "english": "A few minutes on foot.",
+          "phonetic": "lEEghah-lehptAH-meh-tah-pOHthyah",
+          "french": "Λίγα λεπτά με τα πόδια."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_port_and_waterfront_007",
+      "intent_en": "Where is the Hydra Workshop gallery",
+      "text_local": "Πώς μπορώ να φτάσω στο εκθεσιακό κέντρο του λιμανιού;",
+      "pronunciation": "pOO-EEneh-ee-gAHlehrEE-ehnhEYEdruh-wKshpehl",
+      "formality": "standard",
+      "cultural_note": "Η γκαλερί βρίσκεται κοντά στην προκυμαία, όπως υποδεικνύουν οι πινακίδες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά από την προκυμαία.",
+        "pronunciation": "thEHkseeAH-ahpOH-teem-brOHeemEHah",
+        "translation_en": "To the right of the waterfront."
+      },
+      "responses": [
+        {
+          "english": "To the right of the waterfront.",
+          "phonetic": "thEHkseeAH-ahpOH-teem-brOHeemEHah",
+          "french": "Δεξιά από την προκυμαία."
+        }
+      ]
+    },
+    {
+      "id": "hydra_hydra_port_and_waterfront_008",
+      "intent_en": "Where do donkey taxis wait for passengers?",
+      "text_local": "Πού περιμένουν οι γαϊδούρες για επιβάτες;",
+      "pronunciation": "pOO-pEHreemEHnoon-ee-gheyethOOrehz-yAH-EHpeevAHtehs",
+      "formality": "standard",
+      "cultural_note": "Οι γαϊδούρες συγκεντρώνονται κοντά στην προκυμαία λόγω εύκολης πρόσβασης από τα σκάφη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο λιμάνι, δίπλα στις αποβάθρες.",
+        "pronunciation": "stoh-leemAHneethEEplah-stees-AHpohvAHthrehs",
+        "translation_en": "At the harbor, next to the docks."
+      },
+      "responses": [
+        {
+          "english": "At the harbor, next to the docks.",
+          "phonetic": "stoh-leemAHneethEEplah-stees-AHpohvAHthrehs",
+          "french": "Στο λιμάνι, δίπλα στις αποβάθρες."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

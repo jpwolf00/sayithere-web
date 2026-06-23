@@ -1,0 +1,188 @@
+{
+  "id": "ephesus_ephesus_archaeological_museum",
+  "name_en": "Ephesus Archaeological Museum",
+  "name_local": "Efes Arkeoloji Müzesi",
+  "icon": "building.columns",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ephesus_ephesus_archaeological_museum_001",
+      "intent_en": "Where is the audio guide desk?",
+      "text_local": "Sesli rehber masası nerede?",
+      "pronunciation": "sehslIH-rehhbEHr-mahsahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Staff may direct you to a specific point, but the exact desk location is not confirmed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişenin sağında.",
+        "pronunciation": "eeshehnIHn-sahoondAH",
+        "translation_en": "To the right of the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "To the right of the ticket booth.",
+          "phonetic": "eeshehnIHn-sahoondAH",
+          "french": "Gişenin sağında."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_ephesus_archaeological_museum_002",
+      "intent_en": "Does ticket include Terrace Houses?",
+      "text_local": "Bilet Yamaç Evler'i kapsıyor mu?",
+      "pronunciation": "beelEHt-yahmAHtsh-ehvlehrIH-kahpsOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "The combined Ephesus site ticket is known to cover the Terrace Houses.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kombine bilet Yamaç Evler'i kapsar.",
+        "pronunciation": "kawmbeenEH-beelEHt-yahmAHtsh-ehvlehrIH-kahpsAHr",
+        "translation_en": "The combined ticket includes the Terrace Houses."
+      },
+      "responses": [
+        {
+          "english": "The combined ticket includes the Terrace Houses.",
+          "phonetic": "kawmbeenEH-beelEHt-yahmAHtsh-ehvlehrIH-kahpsAHr",
+          "french": "Kombine bilet Yamaç Evler'i kapsar."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_ephesus_archaeological_museum_003",
+      "intent_en": "Does ticket include Terrace Houses?",
+      "text_local": "Bilet Yamaç Evler'i kapsıyor mu?",
+      "pronunciation": "beelEHt-tEHrrahdzheh-ehvlehrIH-kahpsOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Combined ticket coverage can vary; always verify at the ticket booth.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, ayrı bilet yok.",
+        "pronunciation": "ehvEHtahyrOO-beelEHt-yAWk",
+        "translation_en": "Yes, there is no separate ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is no separate ticket.",
+          "phonetic": "ehvEHtahyrOO-beelEHt-yAWk",
+          "french": "Evet, ayrı bilet yok."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_ephesus_archaeological_museum_004",
+      "intent_en": "Where is the Gladiator room?",
+      "text_local": "Gladyatör odası nerede?",
+      "pronunciation": "gahdyahtUHr-ohdahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The Gladiator room is a stable target, but its exact location within the museum is unverified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Üst katta, sağ tarafta.",
+        "pronunciation": "UHst-kahtAHsAH-tahrahftAH",
+        "translation_en": "Upstairs, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Upstairs, on the right side.",
+          "phonetic": "UHst-kahtAHsAH-tahrahftAH",
+          "french": "Üst katta, sağ tarafta."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_ephesus_archaeological_museum_005",
+      "intent_en": "Is there a card minimum at cafe?",
+      "text_local": "Kafede kart limiti var mı?",
+      "pronunciation": "kahfehdEH-kAHrt-leemeetIH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "It's common for museum cafes in Turkey to have a minimum spend for card payments.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, kredi kartı için alt limit var.",
+        "pronunciation": "ehvEHtkrehdIH-kahrtOO-eetshIHn-AHt-leemIHt-vAHr",
+        "translation_en": "Yes, there is a minimum for credit cards."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a minimum for credit cards.",
+          "phonetic": "ehvEHtkrehdIH-kahrtOO-eetshIHn-AHt-leemIHt-vAHr",
+          "french": "Evet, kredi kartı için alt limit var."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_ephesus_archaeological_museum_006",
+      "intent_en": "Is there a card minimum at cafe?",
+      "text_local": "Kafede kart için minimum tutar var mı?",
+      "pronunciation": "kahfehdEH-kAHrt-eetshIHn-mEEneemuhm-tootAHr-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "The venue context confirms a credit card minimum at the cafe.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "En az 50 lira.",
+        "pronunciation": "AHn-AHz-ehllEE-leerAH",
+        "translation_en": "At least 50 lira."
+      },
+      "responses": [
+        {
+          "english": "At least 50 lira.",
+          "phonetic": "AHn-AHz-ehllEE-leerAH",
+          "french": "En az 50 lira."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_ephesus_archaeological_museum_007",
+      "intent_en": "Is Artemis statue on display?",
+      "text_local": "Artemis heykeli sergide mi?",
+      "pronunciation": "ahrtehmIHs-hehykehlIH-sehreedEH-mih",
+      "formality": "casual",
+      "cultural_note": "The Artemis of Ephesus statue is one of the museum's most important artifacts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, Artemis heykeli burada sergileniyor.",
+        "pronunciation": "ehvEHtahrtehmIHs-hehykehlIH-bOOrahdah-sehreelehnEEyawr",
+        "translation_en": "Yes, the Artemis statue is on display here."
+      },
+      "responses": [
+        {
+          "english": "Yes, the Artemis statue is on display here.",
+          "phonetic": "ehvEHtahrtehmIHs-hehykehlIH-bOOrahdah-sehreelehnEEyawr",
+          "french": "Evet, Artemis heykeli burada sergileniyor."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_ephesus_archaeological_museum_008",
+      "intent_en": "Is Artemis statue on display?",
+      "text_local": "Artemis heykeli sergileniyor mu?",
+      "pronunciation": "ahrtehmIHs-hehykehlIH-sehreelehnEEyawr-muh",
+      "formality": "casual",
+      "cultural_note": "The Artemis of Ephesus statue is a key artifact. Staff confirm its presence directly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, Artemis heykeli müzede sergileniyor.",
+        "pronunciation": "ehvEHtahrtehmIHs-hehykehlIH-muezehdEH-sehreelehnEEyawr",
+        "translation_en": "Yes, the Artemis statue is on display in the museum."
+      },
+      "responses": [
+        {
+          "english": "Yes, the Artemis statue is on display in the museum.",
+          "phonetic": "ehvEHtahrtehmIHs-hehykehlIH-muezehdEH-sehreelehnEEyawr",
+          "french": "Evet, Artemis heykeli müzede sergileniyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

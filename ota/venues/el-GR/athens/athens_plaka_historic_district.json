@@ -1,0 +1,122 @@
+{
+  "id": "athens_plaka_historic_district",
+  "name_en": "Plaka historic district",
+  "name_local": "Πλάκα",
+  "icon": "map",
+  "lat": 37.9728505,
+  "lon": 23.7300556,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "athens_plaka_historic_district_001",
+      "intent_en": "Is Lysicrates Monument open to enter?",
+      "text_local": "Μπορώ να μπω στο Μνημείο Λυσικράτους;",
+      "pronunciation": "EEneh-AHneekhtOH-toh-mneemEEoh-lEEseekrAHtoos",
+      "formality": "standard",
+      "cultural_note": "Το μνημείο είναι προσβάσιμο μέσω δημόσιου χώρου, αλλά η λειτουργία του υπόκειται σε διοικητικούς ελέγχους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, είναι ανοιχτός χώρος.",
+        "pronunciation": "OHkheeEEneh-AHneekhtOHs-khOHrohs",
+        "translation_en": "No, it is an open space."
+      },
+      "responses": [
+        {
+          "english": "No, it is an open space.",
+          "phonetic": "OHkheeEEneh-AHneekhtOHs-khOHrohs",
+          "french": "Όχι, είναι ανοιχτός χώρος."
+        }
+      ]
+    },
+    {
+      "id": "athens_plaka_historic_district_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι τα Αναφιώτικα;",
+      "pronunciation": "pOO-EEneh-ee-sEEneeEE-AHnahfeeOHteekAH",
+      "formality": "standard",
+      "cultural_note": "Οι σκάλες της Μnisikleous αποτελούν ορατό σημείο εισόδου προς την Ανάφια γειτονιά, χωρίς άλλες λεπτομέρειες τοποθέτησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι πιο πάνω από εδώ, κοντά στα σκαλάκια της Μνησικλέους.",
+        "pronunciation": "EEneh-pkhOH-pAHnoh-ahpOH-ehthOHkohdAH-stah-skahlAHah-teez-mnEEseeklEHoos",
+        "translation_en": "It's up from here, near the Mnisikleous steps."
+      },
+      "responses": [
+        {
+          "english": "It's up from here, near the Mnisikleous steps.",
+          "phonetic": "EEneh-pkhOH-pAHnoh-ahpOH-ehthOHkohdAH-stah-skahlAHah-teez-mnEEseeklEHoos",
+          "french": "Είναι πιο πάνω από εδώ, κοντά στα σκαλάκια της Μνησικλέους."
+        }
+      ]
+    },
+    {
+      "id": "athens_plaka_historic_district_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς μπορώ να χωρίσω τον λογαριασμό στην ταβέρνα;",
+      "pronunciation": "pOO-khohrEEzoh-tohn-lOHghahrEEahsmOH-steen-dahvEHrnah",
+      "formality": "standard",
+      "cultural_note": "Στις ελληνικές ταβέρνες, ο υπεύθυνος για το τζάκι είναι συχνά αυτός που διευθετεί τους λογαριασμούς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ζητήστε να σας το χωρίσουν πριν πληρώσετε.",
+        "pronunciation": "zeetEEsteh-nah-sahs-toh-khohrEEsoom-brEEm-bleerOHsehtEH",
+        "translation_en": "Ask them to split it before you pay."
+      },
+      "responses": [
+        {
+          "english": "Ask them to split it before you pay.",
+          "phonetic": "zeetEEsteh-nah-sahs-toh-khohrEEsoom-brEEm-bleerOHsehtEH",
+          "french": "Ζητήστε να σας το χωρίσουν πριν πληρώσετε."
+        }
+      ]
+    },
+    {
+      "id": "athens_plaka_historic_district_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πρέπει να πληρώσω μετρητά για την είσοδο;",
+      "pronunciation": "khrkhAHzehtEH-mEHtreetAH-yAH-teen-EEsohthOH",
+      "formality": "standard",
+      "cultural_note": "Η πληρωμή εισόδου μπορεί να γίνεται τόσο με μετρητά όσο και με άλλες μορφές πληρωμής, ανάλογα με τις διαθέσιμες επιλογές του σημείου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι απαραίτητα, συνήθως δέχονται και κάρτα.",
+        "pronunciation": "OHkhee-AHpahrEHteetAHseenEEthohz-thEHkhohdEH-keh-kAHrtah",
+        "translation_en": "Not necessarily, they usually accept cards too."
+      },
+      "responses": [
+        {
+          "english": "Not necessarily, they usually accept cards too.",
+          "phonetic": "OHkhee-AHpahrEHteetAHseenEEthohz-thEHkhohdEH-keh-kAHrtah",
+          "french": "Όχι απαραίτητα, συνήθως δέχονται και κάρτα."
+        }
+      ]
+    },
+    {
+      "id": "athens_plaka_historic_district_005",
+      "intent_en": "Which street has Roman Agora access?",
+      "text_local": "Ποια οδός οδηγεί στην Ρωμαϊκή Αγορά;",
+      "pronunciation": "pEEah-ohthOHs-OHtheeyEE-steen-rOHmeyeEE-AHghohrAH",
+      "formality": "standard",
+      "cultural_note": "Η Αδριανού αποτελεί κεντρική οδός με σημεία πρόσβασης στο ιστορικό σύνορο της Ρωμαϊκής Αγοράς.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ακολουθήστε την Αδριανού.",
+        "pronunciation": "AHkohloothEEsteh-teen-AHthreeahnOO",
+        "translation_en": "Follow Adrianou Street."
+      },
+      "responses": [
+        {
+          "english": "Follow Adrianou Street.",
+          "phonetic": "AHkohloothEEsteh-teen-AHthreeahnOO",
+          "french": "Ακολουθήστε την Αδριανού."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

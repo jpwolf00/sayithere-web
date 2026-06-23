@@ -1,0 +1,118 @@
+{
+  "id": "dijon_cathedrale",
+  "name_en": "Cathedral of Saint Bénigne",
+  "name_local": "Cathédrale Saint-Bénigne",
+  "icon": "building.columns.fill",
+  "lat": 47.3175,
+  "lon": 5.03,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "dijon_cath_001",
+      "intent_en": "Ask about the opening hours of the cathedral",
+      "text_local": "Quelles sont les heures d'ouverture ?",
+      "pronunciation": "kel son lay zuhr doo-vair-TOOR",
+      "formality": "polite",
+      "cultural_note": "The cathedral is open daily for visitors. Check locally for service times when access may be limited.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Open every day, 8am to 7pm.",
+          "phonetic": "oo-VAIRT too lay zhoor, duh weet uhr ah dee-nuhf uhr",
+          "french": "Ouverte tous les jours, de huit heures à dix-neuf heures."
+        }
+      ]
+    },
+    {
+      "id": "dijon_cath_002",
+      "intent_en": "Ask where the crypt is located",
+      "text_local": "Où se trouve la crypte ?",
+      "pronunciation": "oo suh TROOV lah KRIPT",
+      "formality": "polite",
+      "cultural_note": "The crypt houses the tomb of Saint Bénigne, the martyr who brought Christianity to Dijon in the 2nd century.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The crypt is located beneath the cathedral. You can access it through the main entrance.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "La crypte se trouve sous la cathédrale. Vous pouvez y accéder par l'entrée principale."
+        }
+      ]
+    },
+    {
+      "id": "dijon_cath_003",
+      "intent_en": "Ask if photos are allowed inside",
+      "text_local": "Les photos sont-elles autorisées ?",
+      "pronunciation": "lay foh-TOH son-tel oh-toh-ree-ZAY",
+      "formality": "polite",
+      "cultural_note": "Photography is generally allowed in the cathedral, but not during services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, but without flash and not during services.",
+          "phonetic": "wee, may sahn FLASH ay pah pahn-DAHN lay zoh-FEES",
+          "french": "Oui, mais sans flash et pas pendant les offices."
+        }
+      ]
+    },
+    {
+      "id": "dijon_cath_004",
+      "intent_en": "Ask if there is an entry fee to visit",
+      "text_local": "L'entrée est-elle payante ?",
+      "pronunciation": "lan-TRAY eh-TEL pay-ANT",
+      "formality": "polite",
+      "cultural_note": "Entry to the cathedral is free. Donations are appreciated for the upkeep of this historic religious site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's free for everyone.",
+          "phonetic": "say grah-TOO-EE poor too luh MOHND",
+          "french": "C'est gratuit pour tout le monde."
+        }
+      ]
+    },
+    {
+      "id": "dijon_cath_005",
+      "intent_en": "Ask where the toilets are near the cathedral",
+      "text_local": "Où sont les toilettes les plus proches ?",
+      "pronunciation": "oo son lay twah-LET lay ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "Public toilets are available near the cathedral square.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are some on the square, behind the cathedral.",
+          "phonetic": "eel ee ahn ah soor lah PLAHS, deh-RYEHR lah kah-tay-DRAL",
+          "french": "Il y en a sur la place, derrière la cathédrale."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah KRIPT"
+    },
+    {
+      "word_en": "organ",
+      "word_local": "l'orgue",
+      "pronunciation": "LORG"
+    },
+    {
+      "word_en": "stained glass",
+      "word_local": "les vitraux",
+      "pronunciation": "lay vee-TROH"
+    }
+  ]
+}

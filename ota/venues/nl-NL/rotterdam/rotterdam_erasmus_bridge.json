@@ -1,0 +1,78 @@
+{
+  "id": "rotterdam_erasmus_bridge",
+  "name_en": "Erasmus Bridge",
+  "name_local": "Erasmusbrug",
+  "icon": "building.columns",
+  "lat": 51.9096125,
+  "lon": 4.4854612,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "rotterdam_erasmus_bridge_001",
+      "intent_en": "Where is the bascule section raised point?",
+      "text_local": "Waar is het punt waar het opengaande deel van de brug omhoog gaat?",
+      "pronunciation": "vAHr-ihs-huht-pNt-vAHr-huht-OHpuhnghAHnduh-dEHl-vahn-duh-brKH-awmhOHkh-ghAHt",
+      "formality": "standard",
+      "cultural_note": "De brugwachter beantwoordt vragen over de bascule sectie tijdens openings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Het scharnierpunt zit aan de noordzijde, bij de oever.",
+        "pronunciation": "huht-skhAHrneerpNt-zIHt-ahn-duh-nohrdzEHihduhbehih-duh-OOvuhr",
+        "translation_en": "The hinge point is on the north side, near the bank."
+      },
+      "responses": [
+        {
+          "english": "The hinge point is on the north side, near the bank.",
+          "phonetic": "huht-skhAHrneerpNt-zIHt-ahn-duh-nohrdzEHihduhbehih-duh-OOvuhr",
+          "french": "Het scharnierpunt zit aan de noordzijde, bij de oever."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_erasmus_bridge_002",
+      "intent_en": "How do I find the water taxi landing?",
+      "text_local": "Waar vind ik de watertaxi-steiger?",
+      "pronunciation": "vAHr-vIHnt-ihk-duh-vAHtuhrtAHkseestEHihghuhr",
+      "formality": "standard",
+      "cultural_note": "De water taxi landingsplaats is onbekend voor bezoekers; informatiebalie heeft details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar de zuidkant bij de Kop van Zuid.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-duh-zuhuetkAHnt-behih-duh-kAWp-vahn-zUHuet",
+        "translation_en": "Follow the signs to the south side at Kop van Zuid."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the south side at Kop van Zuid.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-duh-zuhuetkAHnt-behih-duh-kAWp-vahn-zUHuet",
+          "french": "Volg de borden naar de zuidkant bij de Kop van Zuid."
+        }
+      ]
+    },
+    {
+      "id": "rotterdam_erasmus_bridge_003",
+      "intent_en": "Is the bridge closed for events now?",
+      "text_local": "Is de brug nu gesloten door evenementen?",
+      "pronunciation": "ihs-duh-brKH-nUE-ghuhslOHtuhn-dohr-EHvuhnuhmEHntuhn",
+      "formality": "standard",
+      "cultural_note": "Evenementenclosures zijn niet altijd zichtbaar; balie heeft actuele informatie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "De brug is nu open, tenzij er een scheepvaartopening is of een evenement dat de gemeente aankondigt.",
+        "pronunciation": "duh-brKH-ihs-nUE-OHpuhntehnzEHih-uhr-uhn-skhEHpvahrtOHpuhnING-ihs-awf-uhn-EHvuhnuhmEHnt-dah-tuh-ghuhmEHntuh-AHnkAWndihkht",
+        "translation_en": "The bridge is open now, unless there is a ship opening or an event announced by the municipality."
+      },
+      "responses": [
+        {
+          "english": "The bridge is open now, unless there is a ship opening or an event announced by the municipality.",
+          "phonetic": "duh-brKH-ihs-nUE-OHpuhntehnzEHih-uhr-uhn-skhEHpvahrtOHpuhnING-ihs-awf-uhn-EHvuhnuhmEHnt-dah-tuh-ghuhmEHntuh-AHnkAWndihkht",
+          "french": "De brug is nu open, tenzij er een scheepvaartopening is of een evenement dat de gemeente aankondigt."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

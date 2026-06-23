@@ -1,0 +1,100 @@
+{
+  "id": "karlovy_vary_moser_glass_museum",
+  "name_en": "Moser Glass Museum",
+  "name_local": "Sklárna Moser",
+  "icon": "building.columns",
+  "lat": 50.2281683,
+  "lon": 12.8375552,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "karlovy_vary_moser_glass_museum_001",
+      "intent_en": "Can I ship fragile purchases?",
+      "text_local": "Mohu poslat křehké nákupy?",
+      "pronunciation": "mOHhoo-pOHslaht-krEHhkeh-nAHkoopee",
+      "formality": "standard",
+      "cultural_note": "A direct 'ano' (yes) is common and polite in service contexts. The phrase 'zajistíme přepravu' (we arrange shipping) is a standard offer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, zajistíme přepravu.",
+        "pronunciation": "AHnohzAHyeesEEmeh-prEHprahvoo",
+        "translation_en": "Yes, we arrange the shipping."
+      },
+      "responses": [
+        {
+          "english": "Yes, we arrange the shipping.",
+          "phonetic": "AHnohzAHyeesEEmeh-prEHprahvoo",
+          "french": "Ano, zajistíme přepravu."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_moser_glass_museum_002",
+      "intent_en": "Where is the no-flash zone?",
+      "text_local": "Kde je zóna bez blesku?",
+      "pronunciation": "kdEH-yeh-zOHnah-bEHzblehskoo",
+      "formality": "standard",
+      "cultural_note": "The term 'huť' specifically means glassworks or hot shop. 'Sklářské pece' (glass furnaces) pinpoints the area where flash can disturb the craftsmen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V huti, za sklářskými pecemi.",
+        "pronunciation": "v-hOOeezAHsklahrskEEmee-pEHtsehmee",
+        "translation_en": "In the glassworks, behind the glass furnaces."
+      },
+      "responses": [
+        {
+          "english": "In the glassworks, behind the glass furnaces.",
+          "phonetic": "v-hOOeezAHsklahrskEEmee-pEHtsehmee",
+          "french": "V huti, za sklářskými pecemi."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_moser_glass_museum_003",
+      "intent_en": "When is the glassblowing demo?",
+      "text_local": "Kdy je ukázka foukání skla?",
+      "pronunciation": "kdEE-yeh-OOkahskah-fOHkahnyee-sklAH",
+      "formality": "standard",
+      "cultural_note": "Times are given in the 24-hour format implicitly, using 'hodiny' (o'clock) for clarity. Demonstrations run on a fixed schedule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V jedenáct a ve dvě hodiny.",
+        "pronunciation": "v-yEHdehnahtst-ah-vEH-dvyEH-hOHeenee",
+        "translation_en": "At eleven and two o'clock."
+      },
+      "responses": [
+        {
+          "english": "At eleven and two o'clock.",
+          "phonetic": "v-yEHdehnahtst-ah-vEH-dvyEH-hOHeenee",
+          "french": "V jedenáct a ve dvě hodiny."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_moser_glass_museum_004",
+      "intent_en": "Where is the factory tour desk?",
+      "text_local": "Kde je přepážka na prohlídku továrny?",
+      "pronunciation": "kdEH-yeh-prEHpahshkah-nAHprohhlEEtkoo-tOHvahrnee",
+      "formality": "standard",
+      "cultural_note": "Czechs often give directions using 'rovně' (straight) and 'vlevo' (left) combined with a landmark like 'u vchodu' (by the entrance).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a pak vlevo u vchodu.",
+        "pronunciation": "rOHvnyeh-ah-pAHk-vlEHvoh-OO-fkhOHdoo",
+        "translation_en": "Straight ahead and then left by the entrance."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead and then left by the entrance.",
+          "phonetic": "rOHvnyeh-ah-pAHk-vlEHvoh-OO-fkhOHdoo",
+          "french": "Rovně a pak vlevo u vchodu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

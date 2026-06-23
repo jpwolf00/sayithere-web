@@ -1,0 +1,122 @@
+{
+  "id": "patras_maizonos_street_shopping_district",
+  "name_en": "Maizonos Street shopping district",
+  "name_local": "Οδός Μαιζώνος",
+  "icon": "bag",
+  "lat": 38.246242,
+  "lon": 21.7350847,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "patras_maizonos_street_shopping_district_001",
+      "intent_en": "Which way to Plateia Georgiou I",
+      "text_local": "Πώς πάω στην Πλατεία Γεωργίου Α';",
+      "pronunciation": "pOHs-pAHoh-steem-blahtEEah-yohryEEoo-AHlfah",
+      "formality": "standard",
+      "cultural_note": "Η πλατεία αναφέρεται ως σταθερός στόχος χωρίς συγκεκριμένες οδηγίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ευθεία στη Μαιζώνος, αριστερά στην πλατεία.",
+        "pronunciation": "ehfthEEah-stee-mehzOHnohsAHreestehrAH-steem-blahtEEah",
+        "translation_en": "Continue straight on Maizonos until you see the square on your left."
+      },
+      "responses": [
+        {
+          "english": "Continue straight on Maizonos until you see the square on your left.",
+          "phonetic": "ehfthEEah-stee-mehzOHnohsAHreestehrAH-steem-blahtEEah",
+          "french": "Ευθεία στη Μαιζώνος, αριστερά στην πλατεία."
+        }
+      ]
+    },
+    {
+      "id": "patras_maizonos_street_shopping_district_002",
+      "intent_en": "Where can I pay parking meter",
+      "text_local": "Πού πληρώνω τον parking;",
+      "pronunciation": "pOO-pleerOHnoh-tohn-ehnpAHkingehl",
+      "formality": "standard",
+      "cultural_note": "Οι θέσεις πληρωμής parking αναφέρεται έμμεσα μέσω των 'αυτόματων σταθμών'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στους αυτόματους σταθμούς.",
+        "pronunciation": "stoos-ahftOHmahtOOs-stahthmOOs",
+        "translation_en": "At the automatic meters."
+      },
+      "responses": [
+        {
+          "english": "At the automatic meters.",
+          "phonetic": "stoos-ahftOHmahtOOs-stahthmOOs",
+          "french": "Στους αυτόματους σταθμούς."
+        }
+      ]
+    },
+    {
+      "id": "patras_maizonos_street_shopping_district_003",
+      "intent_en": "Where is the pedestrian zone start",
+      "text_local": "Πού ξεκινά η πεζοδρομημένη περιοχή;",
+      "pronunciation": "pOO-ksEHeenAH-ee-pEHzohthrOHmeemEHnee-pEHreeohkhEE",
+      "formality": "standard",
+      "cultural_note": "Η περιοχή αναφέρεται ως 'πεζοδρομημένη' χωρίς συγκεκριμένη τοποθεσία εκτός της κύριας οδού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην Οδό Μαιζώνος.",
+        "pronunciation": "steen-ohthOH-mehzOHnohs",
+        "translation_en": "On Maizonos Street."
+      },
+      "responses": [
+        {
+          "english": "On Maizonos Street.",
+          "phonetic": "steen-ohthOH-mehzOHnohs",
+          "french": "Στην Οδό Μαιζώνος."
+        }
+      ]
+    },
+    {
+      "id": "patras_maizonos_street_shopping_district_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει ελάχιστο ποσό για πληρωμή με κάρτα;",
+      "pronunciation": "eepAHrkhee-ehlAHkheestEE-plEErohmEE-meh-kAHrtah-stah-kahfEH",
+      "formality": "standard",
+      "cultural_note": "Οι ελάχιστες πληρωμές με κάρτα δεν επιβεβαιώνονται ως υποχρεωτικές, οπότε η ασφαλής απάντηση είναι η αναφορά στο προσωπικό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συνήθως 5 ευρώ στα μικρά μαγαζιά.",
+        "pronunciation": "nEHseenEEthohs-pEHnteh-ehvrOH-stah-meekrAH-mAHghahzyAH",
+        "translation_en": "Yes, usually 5 euros at small shops."
+      },
+      "responses": [
+        {
+          "english": "Yes, usually 5 euros at small shops.",
+          "phonetic": "nEHseenEEthohs-pEHnteh-ehvrOH-stah-meekrAH-mAHghahzyAH",
+          "french": "Ναι, συνήθως 5 ευρώ στα μικρά μαγαζιά."
+        }
+      ]
+    },
+    {
+      "id": "patras_maizonos_street_shopping_district_005",
+      "intent_en": "Are street vendors open today",
+      "text_local": "Είναι ανοιχτά τα μαγαζιά σήμερα;",
+      "pronunciation": "EEneh-AHneekhtAH-tah-mAHghahzyAH-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Η λειτουργία των πλανόδιων πωλητών δεν επιβεβαιώνεται ως σταθερή, οπότε η ασφαλής απάντηση είναι η αναφορά στο προσωπικό.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, όλη η Μαΐζωνος είναι ανοιχτή.",
+        "pronunciation": "nEHOHlee-ee-mahEEzohnOHs-EEneh-AHneekhtEE",
+        "translation_en": "Yes, they are open."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are open.",
+          "phonetic": "nEHOHlee-ee-mahEEzohnOHs-EEneh-AHneekhtEE",
+          "french": "Ναι, όλη η Μαΐζωνος είναι ανοιχτή."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,98 @@
+{
+  "id": "menton_frontiere_italie",
+  "name_en": "French-Italian Border (Ventimiglia)",
+  "name_local": "Frontière franco-italienne (Vintimille)",
+  "icon": "map",
+  "phrases": [
+    {
+      "id": "frontiere_id",
+      "intent_en": "Do I need to carry my passport for this crossing?",
+      "text_local": "Je dois avoir mon passeport pour passer la frontière ?",
+      "pronunciation": "zhuh dwah ah-VWAR mon pass-POR poor pah-SAY lah fron-TYEHR",
+      "formality": "polite",
+      "cultural_note": "Even in Schengen zones, ID checks can occur unexpectedly.",
+      "responses": [
+        {
+          "english": "Yes, it's recommended.",
+          "phonetic": "wee, seh ruh-koh-mahn-DAY",
+          "french": "Oui, c'est recommandé."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "frontiere_train",
+      "intent_en": "Is there any delay at the border today?",
+      "text_local": "Il y a des retards à la frontière aujourd'hui ?",
+      "pronunciation": "eel yah day ruh-TAR ah lah fron-TYEHR oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Cross-border regional services can run late during strikes or controls.",
+      "responses": [
+        {
+          "english": "No, no delay today.",
+          "phonetic": "nohn, pah duh ruh-TAR oh-zhoor-DWEE",
+          "french": "Non, pas de retard aujourd'hui."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "frontiere_language",
+      "intent_en": "Do people usually speak French or Italian here?",
+      "text_local": "On parle plutôt français ou italien ici ?",
+      "pronunciation": "on parl ploo-TOH fron-SAY oo ee-tah-lee-EN ee-SEE",
+      "formality": "polite",
+      "cultural_note": "Both French and Italian are common near Menton/Ventimiglia.",
+      "responses": [
+        {
+          "english": "Mostly Italian on this side.",
+          "phonetic": "ploo-TOH ee-tah-LYEHN duh suh koh-TAY",
+          "french": "Plutôt italien de ce côté."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "frontiere_bus",
+      "intent_en": "Where is the stop for the Ventimiglia bus?",
+      "text_local": "Où est l'arrêt pour le bus de Vintimille ?",
+      "pronunciation": "oo eh lah-RAY poor luh bewss duh van-tee-MEEL",
+      "formality": "polite",
+      "cultural_note": "Service frequency varies by season; check current timetables.",
+      "responses": [
+        {
+          "english": "Right there, in front of the station.",
+          "phonetic": "zhoost LAH, duh-VAHN lah GAR",
+          "french": "Juste là, devant la gare."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "border",
+      "word_local": "la frontière",
+      "pronunciation": "lah fron-TYEHR"
+    },
+    {
+      "word_en": "passport",
+      "word_local": "le passeport",
+      "pronunciation": "luh pass-POR"
+    },
+    {
+      "word_en": "identity card",
+      "word_local": "la carte d’identité",
+      "pronunciation": "lah kart dee-don-tee-TAY"
+    },
+    {
+      "word_en": "delay",
+      "word_local": "le retard",
+      "pronunciation": "luh ruh-TAR"
+    }
+  ]
+}

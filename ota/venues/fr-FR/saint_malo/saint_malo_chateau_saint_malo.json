@@ -1,0 +1,118 @@
+{
+  "id": "saint_malo_chateau",
+  "name_en": "Château de Saint-Malo",
+  "name_local": "Château de Saint-Malo",
+  "icon": "crown",
+  "lat": 48.65,
+  "lon": -1.991,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "saintmalo_chateau_001",
+      "intent_en": "Ask about opening hours and ticket price",
+      "text_local": "Quels sont les horaires et le tarif d'entrée ?",
+      "pronunciation": "kel son layz oh-REHR ay luh tah-REEF dahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The château houses the city history museum. Hours and prices vary by season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Hours and prices are posted at the entrance.",
+          "phonetic": "layz oh-REHR ay tah-REEF son ah-fee-SHAY ah lahn-TRAY",
+          "french": "Les horaires et tarifs sont affichés à l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_chateau_002",
+      "intent_en": "Ask about the museum inside",
+      "text_local": "Quel musée se trouve à l'intérieur ?",
+      "pronunciation": "kel myoo-ZAY suh TROOV ah lan-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "The Musée d'Histoire de Saint-Malo traces the city's history from its founding to the present, including the corsair era and World War II.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The City History Museum, inside.",
+          "phonetic": "wee, say tah lay-TAZH, dahn lay sal doo oh",
+          "french": "Le Musée d'Histoire de la ville, à l'intérieur."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_chateau_003",
+      "intent_en": "Ask about the view from the castle towers",
+      "text_local": "Quelle est la vue depuis les tours du château ?",
+      "pronunciation": "kel eh lah VYOO duh-PWEE lay toor doo shah-TOH",
+      "formality": "polite",
+      "cultural_note": "You can climb the castle towers for panoramic views of the walled city, harbor, and Channel Islands on clear days.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Panoramic view of the city, port, and sea.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "Vue panoramique sur la ville, le port et la mer."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_chateau_004",
+      "intent_en": "Ask if there is wheelchair access",
+      "text_local": "Y a-t-il un accès pour les fauteuils roulants ?",
+      "pronunciation": "ee ah-TEEL uhn ak-SAY poor lay foh-TOY roo-LAHN",
+      "formality": "polite",
+      "cultural_note": "Historic buildings in France sometimes have limited accessibility. Ask at the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The ground floor is accessible. For the upper floors, it's difficult.",
+          "phonetic": "luh ray-duh-shoh-SAY eh ahk-seh-SEEBL. poor layz ay-TAHZH, say dee-fee-SEEL",
+          "french": "Le rez-de-chaussée est accessible. Pour les étages, c'est difficile."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_chateau_005",
+      "intent_en": "Ask how to get to the rampart walk from here",
+      "text_local": "Comment accéder aux remparts depuis le château ?",
+      "pronunciation": "koh-MAHN ak-say-DAY oh rahn-PAR duh-PWEE luh shah-TOH",
+      "formality": "polite",
+      "cultural_note": "The rampart walk starts near the château and offers views of the sea and the old town.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go out and take the stairs to the left, right away.",
+          "phonetic": "sor-TAY ay pruh-NAY less-kah-LYAY ah GOHSH, too duh SWEET",
+          "french": "Sortez et prenez l'escalier à gauche, tout de suite."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "castle",
+      "word_local": "le château",
+      "pronunciation": "leh shah-TOH"
+    },
+    {
+      "word_en": "museum",
+      "word_local": "le musée",
+      "pronunciation": "leh myoo-ZAY"
+    },
+    {
+      "word_en": "corsair",
+      "word_local": "le corsaire",
+      "pronunciation": "leh kor-SAHR"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    }
+  ]
+}

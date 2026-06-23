@@ -1,0 +1,78 @@
+{
+  "id": "crete_heraklion_liondaria_bakery",
+  "name_en": "Liondaria Bakery",
+  "name_local": "Ζαχαροπλαστείο Λιοντάρια",
+  "icon": "fork.knife",
+  "lat": 35.33908,
+  "lon": 25.1332843,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "crete_heraklion_liondaria_bakery_001",
+      "intent_en": "Are loukoumades made fresh today?",
+      "text_local": "Τα λουκουμάδες είναι φρέσκοι σήμερα;",
+      "pronunciation": "tah-lOOkoomAHthehs-EEneh-frEHsee-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Freshness of loukoumades is typically visible in the display case.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, φρέσκοι.",
+        "pronunciation": "nEHfrEHsee",
+        "translation_en": "Yes, fresh."
+      },
+      "responses": [
+        {
+          "english": "Yes, fresh.",
+          "phonetic": "nEHfrEHsee",
+          "french": "Ναι, φρέσκοι."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_liondaria_bakery_002",
+      "intent_en": "Do you accept cards here?",
+      "text_local": "Δέχονται κάρτες εδώ;",
+      "pronunciation": "thEHkhohdEH-kAHrtehs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Cash preference is implied; card acceptance is not explicitly confirmed.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_liondaria_bakery_003",
+      "intent_en": "Do you have galaktoboureko today",
+      "text_local": "Έχετε γαλακτομπούρεκο σήμερα;",
+      "pronunciation": "EHkhehtEH-ghAHlahktohbOOrehkOH-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Customers typically expect to see the item in the display case to verify availability.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει.",
+        "pronunciation": "nEHeepAHrkhee",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "nEHeepAHrkhee",
+          "french": "Ναι, υπάρχει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

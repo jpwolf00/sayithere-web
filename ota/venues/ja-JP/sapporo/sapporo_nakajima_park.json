@@ -1,0 +1,100 @@
+{
+  "id": "sapporo_nakajima_park",
+  "name_en": "Nakajima Park",
+  "name_local": "中島公園",
+  "icon": "leaf",
+  "lat": 43.0439282,
+  "lon": 141.3541977,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "sapporo_nakajima_park_001",
+      "intent_en": "Where is the boat rental?",
+      "text_local": "ボートのりばは どこですか？",
+      "pronunciation": "bOHohtohnOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Boat rentals are seasonal, so availability may depend on the time of year.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いけの みなみがわです。",
+        "pronunciation": "eekEHnoh-mEEnmEEgwdEHsoo",
+        "translation_en": "It's on the south side of the pond."
+      },
+      "responses": [
+        {
+          "english": "It's on the south side of the pond.",
+          "phonetic": "eekEHnoh-mEEnmEEgwdEHsoo",
+          "french": "いけの みなみがわです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_nakajima_park_002",
+      "intent_en": "Where is the Hōheikan tea shop?",
+      "text_local": "ほうへいかんの ちゃみせは どこですか？",
+      "pronunciation": "hOHoohEHeekNnoh-tMeesEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Hōheikan is a historic wooden building, so the tea room may be referred to by its location within the structure.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "にしがわに あります。",
+        "pronunciation": "nEEeegwNee-EEmSoo",
+        "translation_en": "It's on the west side."
+      },
+      "responses": [
+        {
+          "english": "It's on the west side.",
+          "phonetic": "nEEeegwNee-EEmSoo",
+          "french": "にしがわに あります。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_nakajima_park_003",
+      "intent_en": "Are concert tickets sold here?",
+      "text_local": "ここで コンサートの きっぷを うっていますか？",
+      "pronunciation": "kohkOHdeh-kOHstOHnoh-keeppOOoh-OOttehEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "A gesture toward the ticket counter is common with this response.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あちらで はんばい しています。",
+        "pronunciation": "hEETeeDeh-hBEE-EEteheemSoo",
+        "translation_en": "Yes, they are sold over there."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are sold over there.",
+          "phonetic": "hEETeeDeh-hBEE-EEteheemSoo",
+          "french": "はい、あちらで はんばい しています。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_nakajima_park_004",
+      "intent_en": "Where is Kitara concert hall?",
+      "text_local": "キタラ コンサートホールは どこですか？",
+      "pronunciation": "keet-KOHsTohhohohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Kitara's main entrance is distinct from the park's north gate, so the response references exiting the park.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "きたぐちを でて すぐ みぎです。",
+        "pronunciation": "kEEtgootEEoh-dEHteh-sOOgoo-mEEgeedEHsoo",
+        "translation_en": "Just to the right after the north exit."
+      },
+      "responses": [
+        {
+          "english": "Just to the right after the north exit.",
+          "phonetic": "kEEtgootEEoh-dEHteh-sOOgoo-mEEgeedEHsoo",
+          "french": "きたぐちを でて すぐ みぎです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

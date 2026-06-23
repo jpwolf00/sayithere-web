@@ -1,0 +1,100 @@
+{
+  "id": "ephesus_selçuk_tourist_information_office",
+  "name_en": "Selçuk Tourist Information Office",
+  "name_local": "Selçuk Turizm Danışma Bürosu",
+  "icon": "info.circle",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "ephesus_selçuk_tourist_information_office_001",
+      "intent_en": "Do I take a number now?",
+      "text_local": "Şimdi numara alayım mı?",
+      "pronunciation": "shihmdIH-noomahrAH-ahahyOOm-moo",
+      "formality": "standard",
+      "cultural_note": "Türkiye'de resmi işlemler ve danışma bürolarında sıra numarası sistemi yaygındır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, yoğun zamanlarda numara alın.",
+        "pronunciation": "ehvEHtyohUHn-zahmahnahrdAH-noomahrAH-ahOOn",
+        "translation_en": "Yes, take a number at busy times."
+      },
+      "responses": [
+        {
+          "english": "Yes, take a number at busy times.",
+          "phonetic": "ehvEHtyohUHn-zahmahnahrdAH-noomahrAH-ahOOn",
+          "french": "Evet, yoğun zamanlarda numara alın."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_tourist_information_office_002",
+      "intent_en": "When is next bus to Şirince?",
+      "text_local": "Sirince'ye minibüs saat kaçta kalkar?",
+      "pronunciation": "sheerihndzhehyEH-sawnrahkIH-ohtohbUHs-nEH-zahmAHn",
+      "formality": "standard",
+      "cultural_note": "Küçük ilçelerde dolmuş saatleri sık sık değişebilir, güncel tarife için danışma masası en doğru bilgiyi verir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saat başı var.",
+        "pronunciation": "sahAHt-bahshOO-vAHr",
+        "translation_en": "It runs every hour."
+      },
+      "responses": [
+        {
+          "english": "It runs every hour.",
+          "phonetic": "sahAHt-bahshOO-vAHr",
+          "french": "Saat başı var."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_tourist_information_office_003",
+      "intent_en": "When is next bus to Şirince?",
+      "text_local": "Şirince'ye günün ilk otobüsü saat kaçta?",
+      "pronunciation": "sheerihndzhehyEH-bihr-sawnrahkIH-ohtohbUHs-nEH-zahmAHn",
+      "formality": "standard",
+      "cultural_note": "Dolmuş ve otobüs saatleri sık değişebilir; danışma bürosundan güncel tarife almak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saat dokuzda.",
+        "pronunciation": "sahAHt-dOHkuhzdah",
+        "translation_en": "At nine o'clock."
+      },
+      "responses": [
+        {
+          "english": "At nine o'clock.",
+          "phonetic": "sahAHt-dOHkuhzdah",
+          "french": "Saat dokuzda."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_tourist_information_office_004",
+      "intent_en": "Is Museum Pass valid here?",
+      "text_local": "Müze Kart burada geçerli mi?",
+      "pronunciation": "muezEH-kAHrt-bOOrahdah-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Turizm danışma büroları genelde kart satışı yapar ancak geçerlilik detayları değişebilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, geçerli.",
+        "pronunciation": "ehvEHtehtshehrlIH",
+        "translation_en": "Yes, it is valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is valid.",
+          "phonetic": "ehvEHtehtshehrlIH",
+          "french": "Evet, geçerli."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

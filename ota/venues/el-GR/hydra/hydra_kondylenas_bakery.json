@@ -1,0 +1,100 @@
+{
+  "id": "hydra_kondylenas_bakery",
+  "name_en": "Kondylenas Bakery",
+  "name_local": "Αρτοποιείο Κονδυλένας",
+  "icon": "fork.knife",
+  "lat": 37.3321076,
+  "lon": 23.4664237,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "hydra_kondylenas_bakery_001",
+      "intent_en": "Is there seating to eat here?",
+      "text_local": "Υπάρχει μέρος να καθίσουμε;",
+      "pronunciation": "eepAHrkhee-mEHrohz-nah-kahthEEsoomEH",
+      "formality": "standard",
+      "cultural_note": "Bakeries in Hydra typically do not offer seating for consumption on-site, aligning with the no table service policy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι",
+        "pronunciation": "OHkhee",
+        "translation_en": "No"
+      },
+      "responses": [
+        {
+          "english": "No",
+          "phonetic": "OHkhee",
+          "french": "Όχι"
+        }
+      ]
+    },
+    {
+      "id": "hydra_kondylenas_bakery_002",
+      "intent_en": "Where do I point for amygdalota?",
+      "text_local": "Πού είναι τα αμυγδαλωτά;",
+      "pronunciation": "pOO-EEneh-t-AHmeeghthAHlohtAH",
+      "formality": "standard",
+      "cultural_note": "Amygdalota are a traditional almond cookie often pointed at in the display case due to daily changing arrangement.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο έκθεσης",
+        "pronunciation": "stohm-bAHnggoh-EHkthehsEEs",
+        "translation_en": "At the display case"
+      },
+      "responses": [
+        {
+          "english": "At the display case",
+          "phonetic": "stohm-bAHnggoh-EHkthehsEEs",
+          "french": "Στον πάγκο έκθεσης"
+        }
+      ]
+    },
+    {
+      "id": "hydra_kondylenas_bakery_003",
+      "intent_en": "Can I order custom koulouri for tomorrow?",
+      "text_local": "Μπορώ να παραγγείλω κουλούρι για αύριο;",
+      "pronunciation": "bohrOH-nah-pAHrahnggEEloh-koolOOree-yAH-AHvreeOH",
+      "formality": "standard",
+      "cultural_note": "Custom orders for koulouri may depend on daily production capacity and are typically arranged in advance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, μπορείτε. Ρωτήστε τον αρτοποιό για την παραγγελία.",
+        "pronunciation": "nEHbohrEEtehrohtEEsteh-tohn-AHrtohpeeOH-yAH-teem-bAHrahnggehlEEah",
+        "translation_en": "Yes, you can. Ask the baker about the order."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can. Ask the baker about the order.",
+          "phonetic": "nEHbohrEEtehrohtEEsteh-tohn-AHrtohpeeOH-yAH-teem-bAHrahnggehlEEah",
+          "french": "Ναι, μπορείτε. Ρωτήστε τον αρτοποιό για την παραγγελία."
+        }
+      ]
+    },
+    {
+      "id": "hydra_kondylenas_bakery_004",
+      "intent_en": "Do you have galaktoboureko left?",
+      "text_local": "Έχετε γαλακτομπούρεκο;",
+      "pronunciation": "EHkhehtEH-ghAHlahktohbOOrehkOH",
+      "formality": "standard",
+      "cultural_note": "Customers often inquire about daily availability of fresh bakery items, especially popular ones like galaktoboureko.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, έχουμε.",
+        "pronunciation": "nEHEHkhoomEH",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "nEHEHkhoomEH",
+          "french": "Ναι, έχουμε."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

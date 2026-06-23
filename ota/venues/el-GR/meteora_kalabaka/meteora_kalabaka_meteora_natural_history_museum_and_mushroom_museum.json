@@ -1,0 +1,210 @@
+{
+  "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum",
+  "name_en": "Meteora Natural History Museum and Mushroom Museum",
+  "name_local": "Μουσείο Φυσικής Ιστορίας Μετεώρων και Μουσείο Μανιταριών",
+  "icon": "building.columns",
+  "lat": 39.7016659,
+  "lon": 21.6306938,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η συλλογή τοπικής χλωρίδας;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-sEElohyEE-tOHpeeEEs-khlohrEEthahs",
+      "formality": "standard",
+      "cultural_note": "Οι συλλογές τοπικής χλωρίδας συνήθως παρουσιάζονται μαζί με άλλα φυσικά δείγματα, συχνά σε κεντρικά σημεία των εκθεσιακών χώρων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον εκθεσιακό χώρο, αριστερά της εισόδου.",
+        "pronunciation": "stohn-EHkthehsyahkOH-khOHrohAHreestehrAH-tees-eesOHthoo",
+        "translation_en": "Hello, the local flora collection is in the main exhibition hall, near the entrance."
+      },
+      "responses": [
+        {
+          "english": "Hello, the local flora collection is in the main exhibition hall, near the entrance.",
+          "phonetic": "stohn-EHkthehsyahkOH-khOHrohAHreestehrAH-tees-eesOHthoo",
+          "french": "Στον εκθεσιακό χώρο, αριστερά της εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_002",
+      "intent_en": "Ask where to pay for guided tours here",
+      "text_local": "Πού πληρώνω για τις ξεναγήσεις;",
+      "pronunciation": "pOO-pleerOHnoh-yAH-tees-ksEHnahyEEsees",
+      "formality": "standard",
+      "cultural_note": "Οι ταμίες είναι συνήθως διαθέσιμοι κοντά στην είσοδο ή στα εκδοτήρια εισιτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο, στα αριστερά.",
+        "pronunciation": "steen-EEsohthOHst-AHreestehrAH",
+        "translation_en": "At the entrance, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, on the left.",
+          "phonetic": "steen-EEsohthOHst-AHreestehrAH",
+          "french": "Στην είσοδο, στα αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι τα δείγματα της τοπικής χλωρίδας;",
+      "pronunciation": "pOO-ksEHeenOOn-dah-thEEghmahtAH-tees-tOHpeeEEs-khlohrEEthahs",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν τις τοπικές συλλογές ως σημείο ενδιαφέροντος κατά την περιήγηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο μουσείο Φυσικής Ιστορίας, αριστερά.",
+        "pronunciation": "stoh-moosEEoh-fEEseeEEs-EEstohrEEahsAHreestehrAH",
+        "translation_en": "In the natural history room, near the entrance."
+      },
+      "responses": [
+        {
+          "english": "In the natural history room, near the entrance.",
+          "phonetic": "stoh-moosEEoh-fEEseeEEs-EEstohrEEahsAHreestehrAH",
+          "french": "Στο μουσείο Φυσικής Ιστορίας, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτή η αίθουσα συντήρησης μυκήτων;",
+      "pronunciation": "EEneh-AHneekhtEE-ee-EHthoosAH-seedEEreesEEz-meeEEtohn",
+      "formality": "standard",
+      "cultural_note": "Στην Ελλάδα, η πρόσβαση σε ειδικές αίθουσες μπορεί να υπόκειται σε περιορισμούς για συντήρηση των εκθεμάτων. Οι επισκέπτες συνήθως ενημερώνονται από τον επιμελητή ή τον φύλακα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, μόνο για προσωπικό.",
+        "pronunciation": "OHkheemOHnoh-yAH-prOHsohpeekOH",
+        "translation_en": "The fungus preservation room is not open to visitors. It belongs to the staff and there is no public access."
+      },
+      "responses": [
+        {
+          "english": "The fungus preservation room is not open to visitors. It belongs to the staff and there is no public access.",
+          "phonetic": "OHkheemOHnoh-yAH-prOHsohpeekOH",
+          "french": "Όχι, μόνο για προσωπικό."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_005",
+      "intent_en": "Can I photograph the mushroom collection?",
+      "text_local": "Μπορώ να φωτογραφίσω την συλλογή μανιταριών;",
+      "pronunciation": "bohrOH-nah-fOHtohghrahfEEsoh-teen-sEElohyEE-tohn-mAHneetAHreeOHn",
+      "formality": "standard",
+      "cultural_note": "Στην Ελλάδα, η φωτογράφηση εκθεμάτων σε μουσεία συχνά υπόκειται σε κανόνες προστασίας των αντικειμένων, ιδίως όταν αυτά είναι ευαίσθητα όπως τα μανιτάρια.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, χωρίς φλας παρακαλώ.",
+        "pronunciation": "nEHkhohrEEs-flAHs-pAHrahkahlOH",
+        "translation_en": "Ask the guard."
+      },
+      "responses": [
+        {
+          "english": "Ask the guard.",
+          "phonetic": "nEHkhohrEEs-flAHs-pAHrahkahlOH",
+          "french": "Ναι, χωρίς φλας παρακαλώ."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_006",
+      "intent_en": "Ask if I need to remove my hat inside exhibits",
+      "text_local": "Πρέπει να βγάλω το καπέλο μου μέσα στις εκθέσεις;",
+      "pronunciation": "prEHpee-nah-vghAHloh-toh-kahpEHloh-moo-mEHsah-stees-ehkthEHsees",
+      "formality": "standard",
+      "cultural_note": "Στα μουσεία της Ελλάδας είναι σύνηθες να ζητούν από τους επισκέπτες να βγάζουν τα καπέλα τους μέσα στις αίθουσες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, βγάλτε το.",
+        "pronunciation": "nEHvghAHlteh-toh",
+        "translation_en": "Yes, remove it."
+      },
+      "responses": [
+        {
+          "english": "Yes, remove it.",
+          "phonetic": "nEHvghAHlteh-toh",
+          "french": "Ναι, βγάλτε το."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η αίθουσα διατήρησης μανιταριών;",
+      "pronunciation": "pOO-EEneh-ee-EHthoosAH-thEEahtEEreesEEs-tohn-mAHneetAHreeOHn",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά ζητούν οδηγίες για συγκεκριμένες συλλογές από το προσωπικό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον επάνω όροφο, δίπλα στην έκθεση χλωρίδας.",
+        "pronunciation": "stohn-ehpAHnoh-OHrohfOHthEEplah-steen-EHkthehsEE-khlohrEEthahs",
+        "translation_en": "Hello, the fungus preservation room is on the upper floor, next to the local flora specimens exhibit, near the Mushroom Museum side."
+      },
+      "responses": [
+        {
+          "english": "Hello, the fungus preservation room is on the upper floor, next to the local flora specimens exhibit, near the Mushroom Museum side.",
+          "phonetic": "stohn-ehpAHnoh-OHrohfOHthEEplah-steen-EHkthehsEE-khlohrEEthahs",
+          "french": "Στον επάνω όροφο, δίπλα στην έκθεση χλωρίδας."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_008",
+      "intent_en": "Where do I buy combined entry tickets?",
+      "text_local": "Πού αγοράζω εισιτήρια συνδυασμένης επίσκεψης;",
+      "pronunciation": "pOO-AHghohrAHzoh-EEseetEEreeAH-sEEntheeahsmEHnees-ehpEEsehpsEEs",
+      "formality": "standard",
+      "cultural_note": "Τα εισιτήρια συνδυασμένης επίσκεψης συνήθως πωλούνται από τον ταμία, ο οποίος είναι υπεύθυνος για τις εισπράξεις των εισιτηρίων των μουσείων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον ταμία.",
+        "pronunciation": "stohn-dahmEEah",
+        "translation_en": "At the cashier."
+      },
+      "responses": [
+        {
+          "english": "At the cashier.",
+          "phonetic": "stohn-dahmEEah",
+          "french": "Στον ταμία."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_natural_history_museum_and_mushroom_museum_009",
+      "intent_en": "Ask if museum ticket includes the mushroom exhibition",
+      "text_local": "Μπορεί το εισιτήριο να καλύψει και την έκθεση των μανιταριών;",
+      "pronunciation": "bohrEE-toh-EEseetEEreeOH-nah-kahlEEpsee-keh-teen-EHkthehsEE-tohn-mAHneetAHreeOHn",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνηθίζουν να ελέγχουν την κάλυψη του εισιτηρίου για όλες τις μόνιμες εκθέσεις πριν αγοράσουν.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, συμπεριλαμβάνεται.",
+        "pronunciation": "nEHsEEbehrEElahmvAHnehtEH",
+        "translation_en": "Yes, it is included."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is included.",
+          "phonetic": "nEHsEEbehrEElahmvAHnehtEH",
+          "french": "Ναι, συμπεριλαμβάνεται."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

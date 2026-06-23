@@ -1,0 +1,100 @@
+{
+  "id": "davos_vaillant_arena",
+  "name_en": "Vaillant Arena",
+  "name_local": "Vaillant Arena",
+  "icon": "building.columns",
+  "lat": 46.796198,
+  "lon": 9.8236892,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "davos_vaillant_arena_001",
+      "intent_en": "Where is the fan merchandise kiosk?",
+      "text_local": "Wo ist der Fan-Merchandise-Kiosk?",
+      "pronunciation": "vOH-ihst-dehr-fAHnmEHrkhahndIHsuhkIHohsk",
+      "formality": "standard",
+      "cultural_note": "Merchandise kiosks in Swiss arenas are typically placed near main entrances for high visibility.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eingang.",
+        "pronunciation": "ahm-EYEnAHng",
+        "translation_en": "At the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the entrance.",
+          "phonetic": "ahm-EYEnAHng",
+          "french": "Am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "davos_vaillant_arena_002",
+      "intent_en": "Can I buy food inside the concourse?",
+      "text_local": "Gibt es Essen im Concourse?",
+      "pronunciation": "EEpt-ehs-EHsuhn-ihm-kAWnkoorzuh",
+      "formality": "standard",
+      "cultural_note": "Concourse food vendors are common in Swiss sports arenas and typically visible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an den Ständen.",
+        "pronunciation": "yAHahn-dehn-shtEHnduhn",
+        "translation_en": "Yes, at the vendors."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the vendors.",
+          "phonetic": "yAHahn-dehn-shtEHnduhn",
+          "french": "Ja, an den Ständen."
+        }
+      ]
+    },
+    {
+      "id": "davos_vaillant_arena_003",
+      "intent_en": "How do I reach the renovated stands?",
+      "text_local": "Wie erreiche ich die renovierten Ränge?",
+      "pronunciation": "vee-ehrrEYEkhuh-ihkh-dee-rEHnohvEErtuhn-rEHnguh",
+      "formality": "standard",
+      "cultural_note": "Swiss venues use clear signage for seating zones, especially after renovations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie die Treppe hinauf.",
+        "pronunciation": "gEHuhn-zee-dee-trEHpuh-hihnOWf",
+        "translation_en": "Go up the stairs."
+      },
+      "responses": [
+        {
+          "english": "Go up the stairs.",
+          "phonetic": "gEHuhn-zee-dee-trEHpuh-hihnOWf",
+          "french": "Gehen Sie die Treppe hinauf."
+        }
+      ]
+    },
+    {
+      "id": "davos_vaillant_arena_004",
+      "intent_en": "Where is the Vaillant Group lounge?",
+      "text_local": "Wo ist die Vaillant Group Lounge?",
+      "pronunciation": "vOH-ihst-dehr-veyelAHnt-rOOp-lOOnguh",
+      "formality": "standard",
+      "cultural_note": "Sponsor lounges in Swiss sports venues are often accessed via staff or security points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter der Haupttribüne.",
+        "pronunciation": "hIHnt-dehr-hOWpttrEEbuenuh",
+        "translation_en": "Behind the main stand."
+      },
+      "responses": [
+        {
+          "english": "Behind the main stand.",
+          "phonetic": "hIHnt-dehr-hOWpttrEEbuenuh",
+          "french": "Hinter der Haupttribüne."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

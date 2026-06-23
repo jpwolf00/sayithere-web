@@ -1,0 +1,78 @@
+{
+  "id": "bodrum_gümbet_beachfront",
+  "name_en": "Gümbet Beachfront",
+  "name_local": "Gümbet Sahil",
+  "icon": "map",
+  "lat": 37.0308665,
+  "lon": 27.4056519,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "bodrum_gümbet_beachfront_001",
+      "intent_en": "Where do boat tours to Rabbit Island leave?",
+      "text_local": "Tavşan Adası'na tekne turları nereden kalkıyor?",
+      "pronunciation": "tahvshAHn-ahdahsOO-tehknEH-tuhrahrOO-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Departure points vary by captain; no fixed pier mentioned in evidence.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İskele başından.",
+        "pronunciation": "ihskEHleh-bahshoondAHn",
+        "translation_en": "From the pier head."
+      },
+      "responses": [
+        {
+          "english": "From the pier head.",
+          "phonetic": "ihskEHleh-bahshoondAHn",
+          "french": "İskele başından."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_gümbet_beachfront_002",
+      "intent_en": "How do I pay for beach chairs?",
+      "text_local": "Şezlong ücretini nasıl ödeyebilirim?",
+      "pronunciation": "shehzAWng-uhdzhrehteenIH-nahsOO-uhdehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Payment method not specified in venue context; verify with staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Görevliye verin.",
+        "pronunciation": "uhrehvleeyEH-vehrIHn",
+        "translation_en": "Give it to the attendant."
+      },
+      "responses": [
+        {
+          "english": "Give it to the attendant.",
+          "phonetic": "uhrehvleeyEH-vehrIHn",
+          "french": "Görevliye verin."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_gümbet_beachfront_003",
+      "intent_en": "Do fishermen sell direct on the beach?",
+      "text_local": "Balıkçılar sahilde doğrudan satış yapıyor mu?",
+      "pronunciation": "bahooktshooAHr-sahhihldEH-dohroodAHn-sahtOOsh-yahpOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Direct sale by fishermen is a common task in this area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, balıkçılar taze avı doğrudan satar.",
+        "pronunciation": "ehvEHtbahooktshooAHr-tahzEH-ahvOO-dohroodAHn-sahtAHr",
+        "translation_en": "Yes, fishermen sell fresh catch directly."
+      },
+      "responses": [
+        {
+          "english": "Yes, fishermen sell fresh catch directly.",
+          "phonetic": "ehvEHtbahooktshooAHr-tahzEH-ahvOO-dohroodAHn-sahtAHr",
+          "french": "Evet, balıkçılar taze avı doğrudan satar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

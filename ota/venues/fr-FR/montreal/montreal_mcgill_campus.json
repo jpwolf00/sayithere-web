@@ -1,0 +1,118 @@
+{
+  "id": "montreal_mcgill_campus",
+  "name_en": "McGill University Campus Area",
+  "name_local": "Campus de l'Université McGill",
+  "icon": "building.columns",
+  "lat": 45.5048,
+  "lon": -73.5772,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "mtl_mcg_001",
+      "intent_en": "Ask where the main campus entrance is",
+      "text_local": "L'entrée principale du campus, c'est par où ?",
+      "pronunciation": "lahn-TRAY prann-see-PAHL doo KAHM-poo say par OO",
+      "formality": "neutral",
+      "cultural_note": "McGill's main gate on Sherbrooke Street opens onto a grand central path leading up to the Arts Building. The campus is open to visitors.",
+      "responses": [
+        {
+          "english": "On Sherbrooke Street, through the gates.",
+          "phonetic": "soor lah ROO sher-BROOK par lay GREE-yuh",
+          "french": "Sur la rue Sherbrooke, par les grilles."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mcg_002",
+      "intent_en": "Ask if the Redpath Museum is open to the public",
+      "text_local": "Le musée Redpath est ouvert au grand public ?",
+      "pronunciation": "luh moo-ZAY red-PATH ay oo-VAIR oh grahn poo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "The Redpath Museum is Canada's oldest natural history museum and free to visit. It houses ancient Egyptian mummies and dinosaur fossils.",
+      "responses": [
+        {
+          "english": "Yes, it is open on weekdays.",
+          "phonetic": "wee say too-VAIR ahn suh-MEN",
+          "french": "Oui, c'est ouvert en semaine."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mcg_003",
+      "intent_en": "Ask where to find a good café near campus",
+      "text_local": "Y'a-tu un bon café sympa pas trop loin du campus ?",
+      "pronunciation": "yah-TOO un bon kah-FAY sam-PAH pah troh LWAH doo KAHM-poo",
+      "formality": "informal",
+      "cultural_note": "Milton Street and the surrounding area is packed with student cafés. The neighbourhood is bilingual with both French and English students.",
+      "responses": [
+        {
+          "english": "There are several cafés on University Street.",
+          "phonetic": "eel ee ah ploo-ZYUR kah-FAY soor lah ROO oo-nee-vair-see-TAY",
+          "french": "Il y a plusieurs cafés sur la rue University."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mcg_004",
+      "intent_en": "Ask for directions to the Roddick Gates",
+      "text_local": "Les portes Roddick, c'est dans quelle direction ?",
+      "pronunciation": "lay PORT ROD-ik say dahn kel dee-rek-SYON",
+      "formality": "neutral",
+      "cultural_note": "The Roddick Gates at the corner of McGill College and Sherbrooke are a famous Montréal landmark. The carillon bell tower rings on the quarter hour.",
+      "responses": [
+        {
+          "english": "Straight ahead, at the bottom of the hill.",
+          "phonetic": "too DRWAH ahn BAH duh lah koh-LEEN",
+          "french": "Tout droit, en bas de la colline."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mcg_005",
+      "intent_en": "Ask about the view of the city from campus",
+      "text_local": "On a une belle vue sur le centre-ville depuis le campus ?",
+      "pronunciation": "on ah OON bel VOO soor luh sahn-truh-VEEL duh-PWEE luh KAHM-poo",
+      "formality": "neutral",
+      "cultural_note": "McGill's campus sits at the foot of Mount Royal, offering views down McGill College Avenue toward the St. Lawrence River on clear days.",
+      "responses": [
+        {
+          "english": "Go to the upper field, the view is nice.",
+          "phonetic": "ah-LAY soor luh tay-RAHN soo-pay-RYUR lah VOO eh BEL",
+          "french": "Allez sur le terrain supérieur, la vue est belle."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "campus",
+      "word_local": "le campus",
+      "pronunciation": "luh KAHM-poo"
+    },
+    {
+      "word_en": "university",
+      "word_local": "l'université",
+      "pronunciation": "loo-nee-vair-see-TAY"
+    },
+    {
+      "word_en": "student",
+      "word_local": "l'étudiant / l'étudiante",
+      "pronunciation": "lay-too-dee-YAH / lay-too-dee-YAHNT"
+    },
+    {
+      "word_en": "library",
+      "word_local": "la bibliothèque",
+      "pronunciation": "lah beeb-lee-oh-TEK"
+    }
+  ]
+}

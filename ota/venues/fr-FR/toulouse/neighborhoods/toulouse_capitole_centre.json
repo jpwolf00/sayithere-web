@@ -1,0 +1,112 @@
+{
+  "id": "toulouse_neighbourhood_capitole_centre",
+  "name_en": "Capitole / City Centre",
+  "name_local": "Capitole / Centre-ville",
+  "icon": "building.2",
+  "lat": 43.6047,
+  "lon": 1.4442,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "toulouse_capitolenb_001",
+      "intent_en": "Ask a local for the best place to eat cassoulet nearby",
+      "text_local": "Où me conseilleriez-vous de manger un cassoulet dans ce quartier ?",
+      "pronunciation": "oo muh kohn-say-RYAY-voo duh mahn-ZHAY un kah-soo-LAY dahn suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "The centre of Toulouse has dozens of restaurants serving cassoulet; locals will always point you away from tourist traps toward authentic spots.",
+      "responses": [
+        {
+          "english": "I recommend Le Bibent or Chez Plumeau.",
+          "phonetic": "OO ES suh KON puh MAH(n)ZH uh(n) BON KAH-soo-leh P",
+          "french": "Je vous recommande Le Bibent ou Chez Plumeau."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_capitolenb_002",
+      "intent_en": "Ask which street leads to the pedestrian shopping district",
+      "text_local": "Quelle rue mène à la zone piétonne commerçante ?",
+      "pronunciation": "kel RYU MEN ah lah ZOHN pyay-TON koh-mair-SAHNT",
+      "formality": "polite",
+      "cultural_note": "The area between the Capitole and the Carmes has a dense network of pedestrian shopping streets and boutiques.",
+      "responses": [
+        {
+          "english": "It’s between the Capitole and the Carmes.",
+          "phonetic": "OO sohn lay RUE pyay-TON kom-ers-SAHNT",
+          "french": "C’est entre le Capitole et les Carmes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_capitolenb_003",
+      "intent_en": "Ask where to find the tourist office for a city map",
+      "text_local": "Où se trouve l'office de tourisme pour obtenir un plan de la ville ?",
+      "pronunciation": "oo suh TROOV loh-FEES duh toor-EEZM poor ob-tuh-NEER un PLAHN duh lah VEEL",
+      "formality": "polite",
+      "cultural_note": "The Toulouse tourist office is located on the Donjon du Capitole and provides free maps, guided walk booklets, and event information.",
+      "responses": [
+        {
+          "english": "The tourist office is right opposite the Capitole.",
+          "phonetic": "OO suh TROOV loh-FEES duh too-REESM poor op-tuh-NEER uhn / uhn PLAHN duh lah VEEL",
+          "french": "L'office de tourisme est juste en face du Capitole."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_capitolenb_004",
+      "intent_en": "Ask for a recommendation for a violet-flavoured sweet or product",
+      "text_local": "Pourriez-vous me recommander une spécialité à la violette de Toulouse ?",
+      "pronunciation": "poo-RYAY-voo muh ruh-koh-mahn-DAY yoon spay-syah-lee-TAY ah lah vyoh-LET duh too-LOOZ",
+      "formality": "polite",
+      "cultural_note": "The violet is Toulouse's floral symbol; violet-flavoured sweets, liqueurs, and cosmetics are sold throughout the city centre as souvenirs.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "toulouse_capitolenb_005",
+      "intent_en": "Ask where the nearest bike-share station is",
+      "text_local": "Où se trouve la borne VélôToulouse la plus proche ?",
+      "pronunciation": "oo suh TROOV lah BORN vay-loh-too-LOOZ lah plyoo PROSH",
+      "formality": "polite",
+      "cultural_note": "VélôToulouse is the city's public bike-share scheme with hundreds of stations; a short-term pass can be purchased at the terminal.",
+      "responses": [
+        {
+          "english": "The nearest station is right behind you, on rue Lafayette.",
+          "phonetic": "OO suh TROOV la BORN VAY-loh-too-LOOZ la PLEW PROSH",
+          "french": "La borne la plus proche se trouve juste derrière vous, rue Lafayette."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "pedestrian zone",
+      "word_local": "la zone piétonne",
+      "pronunciation": "lah ZOHN pyay-TON"
+    },
+    {
+      "word_en": "tourist office",
+      "word_local": "l'office de tourisme",
+      "pronunciation": "loh-FEES duh toor-EEZM"
+    },
+    {
+      "word_en": "violet",
+      "word_local": "la violette",
+      "pronunciation": "lah vyoh-LET"
+    },
+    {
+      "word_en": "bike-share",
+      "word_local": "le vélo en libre-service",
+      "pronunciation": "luh VAY-loh ahn LEE-bruh-sair-VEES"
+    }
+  ]
+}

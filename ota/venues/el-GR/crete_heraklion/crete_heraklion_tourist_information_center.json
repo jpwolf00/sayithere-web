@@ -1,0 +1,56 @@
+{
+  "id": "crete_heraklion_tourist_information_center",
+  "name_en": "Tourist Information Center",
+  "name_local": "Γραφείο Τουριστικών Πληροφοριών Δήμου Ηρακλείου",
+  "icon": "info.circle",
+  "lat": 39.4780748,
+  "lon": 19.9337944,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "crete_heraklion_tourist_information_center_001",
+      "intent_en": "How do I validate my ferry ticket here?",
+      "text_local": "Πώς επικυρώνω το εισιτήριο του πλοίου εδώ;",
+      "pronunciation": "pOHs-EHpeeeerOHnoh-toh-EEseetEEreeOH-too-plEEoo-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Η επικύρωση γίνεται μέσω του προσωπικού που διαχειρίζεται τις μεταφορές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δώστε το στον υπάλληλο της γραμματείας.",
+        "pronunciation": "thOHsteh-toh-stohn-eepAHleelOH-teez-ghrAHmahtEEahs",
+        "translation_en": "Give it to the transit desk clerk."
+      },
+      "responses": [
+        {
+          "english": "Give it to the transit desk clerk.",
+          "phonetic": "thOHsteh-toh-stohn-eepAHleelOH-teez-ghrAHmahtEEahs",
+          "french": "Δώστε το στον υπάλληλο της γραμματείας."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_tourist_information_center_002",
+      "intent_en": "How do I book a tour with deposit?",
+      "text_local": "Πώς μπορώ να κάνω κράτηση για εκδρομή με προκαταβολή;",
+      "pronunciation": "pOHz-bohrOH-nah-kAHnoh-krAHteesEE-yAH-EHkthrohmEE-meh-prOHkahtAHvohlEE",
+      "formality": "standard",
+      "cultural_note": "Η προκαταβολή αποτελεί μέρος της διαδικασίας κράτησης ξεναγήσεων μέσω του προσωπικού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Γεια σας, πληρώστε την προκαταβολή στον υπάλληλο.",
+        "pronunciation": "yAH-sahspleerOHsteh-teem-brOHkahtAHvohlEE-stohn-eepAHleelOH",
+        "translation_en": "Hello, pay the deposit to the clerk."
+      },
+      "responses": [
+        {
+          "english": "Hello, pay the deposit to the clerk.",
+          "phonetic": "yAH-sahspleerOHsteh-teem-brOHkahtAHvohlEE-stohn-eepAHleelOH",
+          "french": "Γεια σας, πληρώστε την προκαταβολή στον υπάλληλο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

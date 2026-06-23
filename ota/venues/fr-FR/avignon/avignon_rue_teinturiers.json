@@ -1,0 +1,101 @@
+{
+  "id": "avignon_rue_teinturiers",
+  "name_en": "Rue des Teinturiers",
+  "name_local": "Rue des Teinturiers",
+  "icon": "figure.walk",
+  "lat": 43.9458,
+  "lon": 4.8076,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "avignon_teinturiers_001",
+      "intent_en": "Ask where the street starts",
+      "text_local": "Où commence la rue des Teinturiers ?",
+      "pronunciation": "oo koh-MAHNS lah roo day tan-too-RYAY",
+      "formality": "polite",
+      "cultural_note": "The Rue des Teinturiers is one of Avignon's most picturesque streets, running along the Sorgue river.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From Place des Corps-Saints, straight ahead.",
+          "phonetic": "duh-PWEE lah plahs day kor-SAN, too DRWAH",
+          "french": "Depuis la place des Corps-Saints, tout droit."
+        }
+      ]
+    },
+    {
+      "id": "avignon_teinturiers_002",
+      "intent_en": "Ask if there are restaurants along the street",
+      "text_local": "Y a-t-il des restaurants dans cette rue ?",
+      "pronunciation": "ee ah-TEEL day res-to-RAHN dahn set ROO",
+      "formality": "polite",
+      "cultural_note": "The street has restaurants and cafes with terraces along the canal. Very popular in summer evenings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, several with terraces along the canal.",
+          "phonetic": "wee, plu-ZYUHR ah-VEK teh-RAHS oh bor doo kah-NAL",
+          "french": "Oui, plusieurs avec terrasse au bord du canal."
+        }
+      ]
+    },
+    {
+      "id": "avignon_teinturiers_003",
+      "intent_en": "Ask about the best cafés",
+      "text_local": "Où sont les meilleurs cafés de la rue ?",
+      "pronunciation": "oo son lay may-YUHR kah-FAY duh lah ROO",
+      "formality": "polite",
+      "cultural_note": "The street has excellent cafés with outdoor seating by the canal. Try 'Café de la Banque' or 'Le Mistral'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are several along the street, with outdoor seating.",
+          "phonetic": "eel ee ahn ah plu-ZYUHR luh lohn duh lah ROO, ah-VEK teh-RAHS",
+          "french": "Il y en a plusieurs le long de la rue, avec terrasse."
+        }
+      ]
+    },
+    {
+      "id": "avignon_teinturiers_004",
+      "intent_en": "Ask about the shops",
+      "text_local": "Quelles boutiques y a-t-il ?",
+      "pronunciation": "kel boo-TEEK ee ah-TEEL",
+      "formality": "polite",
+      "cultural_note": "The street has artisan shops, boutiques, and antique stores. It's one of Avignon's most charming areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Artisan shops and antique stores, mostly.",
+          "phonetic": "day boo-TEEK dar-tee-ZAHN ay day zahn-tee-KEHR, sur-TOO",
+          "french": "Des boutiques d'artisans et des antiquaires, surtout."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "street",
+      "word_local": "la rue",
+      "pronunciation": "lah ROO"
+    },
+    {
+      "word_en": "dyer",
+      "word_local": "le teinturier",
+      "pronunciation": "leh tan-tee-RYAY"
+    },
+    {
+      "word_en": "canal",
+      "word_local": "le canal",
+      "pronunciation": "leh kah-NAL"
+    },
+    {
+      "word_en": "waterwheel",
+      "word_local": "la roue à eau",
+      "pronunciation": "lah ROO ah OH"
+    }
+  ]
+}

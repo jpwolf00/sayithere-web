@@ -1,0 +1,232 @@
+{
+  "id": "kalambaka_theopetra_cave",
+  "name_en": "Theopetra Cave",
+  "name_local": "Σπήλαιο Θεόπετρας",
+  "icon": "building.columns",
+  "lat": 39.679937,
+  "lon": 21.6817757,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kalambaka_theopetra_cave_001",
+      "intent_en": "Ask if touching fossil displays is permitted",
+      "text_local": "Μπορώ να αγγίξω τα εκθέματα των απολιθωμάτων;",
+      "pronunciation": "bohrOH-n-ahnggEEksoh-tah-ehkthEHmahtAH-tohn-AHpohlEEthohmAHtohn",
+      "formality": "standard",
+      "cultural_note": "Η επαφή με τα απολιθώματα απαγορεύεται για την προστασία τους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, it is not allowed."
+      },
+      "responses": [
+        {
+          "english": "No, it is not allowed.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_002",
+      "intent_en": "Touch the petrified diatoms display",
+      "text_local": "Μπορώ να αγγίξω την έκθεση με τα απολιθώματα;",
+      "pronunciation": "bohrOH-n-ahnggEEksoh-teen-EHkthehsEE-meh-t-AHpohleethOHmahtAH",
+      "formality": "standard",
+      "cultural_note": "Οι κανόνες επισκεπτών απαγορεύουν την επαφή με τα εκθέματα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται η επαφή.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH-ee-EHpahfEE",
+        "translation_en": "No, touching is not allowed."
+      },
+      "responses": [
+        {
+          "english": "No, touching is not allowed.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH-ee-EHpahfEE",
+          "french": "Όχι, απαγορεύεται η επαφή."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_003",
+      "intent_en": "Book guide for excavation tour",
+      "text_local": "Μπορώ να κλείσω αρχαιολόγο ξεναγό για την ανασκαφή;",
+      "pronunciation": "bohrOH-nah-klEEsoh-ksEHnahghOH-yAH-teen-AHnahskahfEE",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγήσεις πραγματοποιούνται από αρχαιολόγους-ξενάγους στον χώρο της ανασκαφής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, με ραντεβού μόνο.",
+        "pronunciation": "nEHmeh-rAHdehvOO-mOHnoh",
+        "translation_en": "Hello, the guided tour is given by the archaeologist. Ask at the ticket office for availability and cost. The excavations are active and entry is only by appointment."
+      },
+      "responses": [
+        {
+          "english": "Hello, the guided tour is given by the archaeologist. Ask at the ticket office for availability and cost. The excavations are active and entry is only by appointment.",
+          "phonetic": "nEHmeh-rAHdehvOO-mOHnoh",
+          "french": "Ναι, με ραντεβού μόνο."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_004",
+      "intent_en": "Walk marked paths at dig site",
+      "text_local": "Πού είναι το μονοπάτι για την περιήγηση;",
+      "pronunciation": "pOO-EEneh-toh-mOHnohpAHtee-yAH-teem-bEHreeEEyeesEE",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες πρέπει να μένουν πάνω στις σημαδεμένες διαδρομές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά της εισόδου, μετά την ανασκαφή.",
+        "pronunciation": "AHreestehrAH-tees-eesOHthoomehtAH-teen-AHnahskahfEE",
+        "translation_en": "Follow the path next to the excavation, towards the Paleolithic layers."
+      },
+      "responses": [
+        {
+          "english": "Follow the path next to the excavation, towards the Paleolithic layers.",
+          "phonetic": "AHreestehrAH-tees-eesOHthoomehtAH-teen-AHnahskahfEE",
+          "french": "Αριστερά της εισόδου, μετά την ανασκαφή."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η έκθεση με τα απολιθωμένα διατόμια;",
+      "pronunciation": "pOO-EEneh-ee-EHkthehsEE-meh-t-AHpohlEEthohmEHnah-thEEahtOHmeeAH",
+      "formality": "standard",
+      "cultural_note": "Η έκθεση με τα απολιθωμένα διατόμια βρίσκεται εντός του σπηλαίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στα νεολιθικά ευρήματα, μέσα.",
+        "pronunciation": "thEEplah-stah-nEHohlEEtheekAH-ehvrEEmahtAHmEHsah",
+        "translation_en": "The exhibition is inside the cave, next to the Neolithic findings."
+      },
+      "responses": [
+        {
+          "english": "The exhibition is inside the cave, next to the Neolithic findings.",
+          "phonetic": "thEEplah-stah-nEHohlEEtheekAH-ehvrEEmahtAHmEHsah",
+          "french": "Δίπλα στα νεολιθικά ευρήματα, μέσα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πόσο είναι το εισιτήριο;",
+      "pronunciation": "pOHsoh-EEneh-toh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Τα εισιτήρια πληρώνονται στο ταμείο της εισόδου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Επτά ευρώ στην είσοδο του σπηλαίου.",
+        "pronunciation": "ehptAH-ehvrOH-steen-EEsohthOH-too-speelEHoo",
+        "translation_en": "The standard ticket for the cave is 8 euros. For children under 12 and students, it is 4 euros. The entry includes a guided tour lasting about 30 minutes."
+      },
+      "responses": [
+        {
+          "english": "The standard ticket for the cave is 8 euros. For children under 12 and students, it is 4 euros. The entry includes a guided tour lasting about 30 minutes.",
+          "phonetic": "ehptAH-ehvrOH-steen-EEsohthOH-too-speelEHoo",
+          "french": "Επτά ευρώ στην είσοδο του σπηλαίου."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_007",
+      "intent_en": "Catch shuttle back to Kalambaka",
+      "text_local": "Πού είναι το λεωφορείο για την Καλαμπάκα;",
+      "pronunciation": "pOO-EEneh-toh-lEHohfohrEEoh-yAH-teeng-gAHlahbAHkah",
+      "formality": "standard",
+      "cultural_note": "Στους περισσότερους αρχαιολογικούς χώρους δεν υπάρχει τακτική συγκοινωνία. Συνήθως οργανώνεται μέσω τοπικών γραφείων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο πάρκινγκ, μπροστά από την είσοδο.",
+        "pronunciation": "stoh-pAHreengbrohstAH-ahpOH-teen-EEsohthOH",
+        "translation_en": "There is no public transport to the site."
+      },
+      "responses": [
+        {
+          "english": "There is no public transport to the site.",
+          "phonetic": "stoh-pAHreengbrohstAH-ahpOH-teen-EEsohthOH",
+          "french": "Στο πάρκινγκ, μπροστά από την είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_008",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχουν ξεναγήσεις ανασκαφής σήμερα;",
+      "pronunciation": "kAHnoong-gzEHnahyEEsees-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγήσεις εξαρτώνται από την διαθεσιμότητα των αρχαιολόγων-ξενάγών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι σήμερα, μόνο Τετάρτη και Σάββατο με ραντεβού.",
+        "pronunciation": "OHkhee-sEEmehrAHmOHnoh-tehtAHrtee-keh-sAHvahtOH-meh-rAHdehvOO",
+        "translation_en": "No, not today. Only on Wednesday and Saturday by appointment."
+      },
+      "responses": [
+        {
+          "english": "No, not today. Only on Wednesday and Saturday by appointment.",
+          "phonetic": "OHkhee-sEEmehrAHmOHnoh-tehtAHrtee-keh-sAHvahtOH-meh-rAHdehvOO",
+          "french": "Όχι σήμερα, μόνο Τετάρτη και Σάββατο με ραντεβού."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς κλείνω επίσημο ξεναγό για τη σπηλιά εκ των προτέρων;",
+      "pronunciation": "pOHs-klEEnoh-ksEHnahghOH-ehk-tohm-brohtEHrohn",
+      "formality": "standard",
+      "cultural_note": "Οι επίσημοι ξεναγοί κλείνονται μέσω του γραφείου του σπηλαίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Τηλεφωνήστε στο ταμείο ή ρωτήστε τον φύλακα.",
+        "pronunciation": "tEElehfohnEEsteh-stoh-tahmEEoh-ee-rohtEEsteh-tohn-fEElahkAH",
+        "translation_en": "Book by phone by contacting the cave ticket office or ask the site guard. The archaeologist guide is available by arrangement for a tour of the Paleolithic layers and Neolithic findings."
+      },
+      "responses": [
+        {
+          "english": "Book by phone by contacting the cave ticket office or ask the site guard. The archaeologist guide is available by arrangement for a tour of the Paleolithic layers and Neolithic findings.",
+          "phonetic": "tEElehfohnEEsteh-stoh-tahmEEoh-ee-rohtEEsteh-tohn-fEElahkAH",
+          "french": "Τηλεφωνήστε στο ταμείο ή ρωτήστε τον φύλακα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_theopetra_cave_010",
+      "intent_en": "Ask current admission fee for cave site",
+      "text_local": "Πόσο είναι η είσοδος;",
+      "pronunciation": "pOHsoh-kAHnee-ee-EEsohthOHs",
+      "formality": "standard",
+      "cultural_note": "Η τιμή του εισιτηρίου αναφέρεται στο ταμείο της εισόδου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πέντε ευρώ το άτομο.",
+        "pronunciation": "pEHdeh-ehvrOH-toh-AHtohmOH",
+        "translation_en": "Ask the staff member."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member.",
+          "phonetic": "pEHdeh-ehvrOH-toh-AHtohmOH",
+          "french": "Πέντε ευρώ το άτομο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "conciergerie",
+  "name_en": "Conciergerie",
+  "name_local": "Conciergerie",
+  "icon": "building.columns",
+  "lat": 48.8554,
+  "lon": 2.3454,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "paris_conc_001",
+      "intent_en": "Ask if combo ticket with Sainte-Chapelle works here",
+      "text_local": "Le billet combiné Sainte-Chapelle fonctionne ici ?",
+      "pronunciation": "leh bee-YAY kom-bee-NAY sant shah-PEL fonk-SYON ee-SEE",
+      "formality": "polite",
+      "cultural_note": "Combo tickets are common but each site still has separate screening lines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the combined ticket works. You can enter with the same ticket.",
+          "phonetic": "wee, leh bee-YAY kom-bee-NAY fonk-SYON. voo poo-VAY on-TRAY ah-VEK leh mem bee-YAY",
+          "french": "Oui, le billet combiné fonctionne. Vous pouvez entrer avec le même billet."
+        }
+      ]
+    },
+    {
+      "id": "paris_conc_002",
+      "intent_en": "Ask where Marie-Antoinette cell exhibit is",
+      "text_local": "Où est la cellule de Marie-Antoinette ?",
+      "pronunciation": "oo eh lah say-LUL duh mah-REE an-twah-NET",
+      "formality": "polite",
+      "cultural_note": "This is one of the most visited historical sections in the building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The cell is on the first floor, north wing. Follow the signs.",
+          "phonetic": "lah say-LUL eh oh pruh-MYEHR ay-TAZH, el nor. swee-VAY lay signs",
+          "french": "La cellule est au premier étage, aile nord. Suivez les signs."
+        }
+      ]
+    },
+    {
+      "id": "paris_conc_003",
+      "intent_en": "Ask if audio guide is available in English",
+      "text_local": "L’audioguide en anglais est disponible ?",
+      "pronunciation": "loh-dee-oh-GUID ahn on-GLAY eh dee-spoh-NEEBL",
+      "formality": "polite",
+      "cultural_note": "Audio guide availability can vary by day and stock.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, we have audio guides in English. It's free with the ticket.",
+          "phonetic": "wee, noo zah-VON dayz oh-dee-oh-GUIDZ ahn on-GLAY. say gra-TWEE ah-VEK leh bee-YAY",
+          "french": "Oui, nous avons des audioguides en anglais. C'est gratuit avec le billet."
+        }
+      ]
+    },
+    {
+      "id": "paris_conc_004",
+      "intent_en": "Ask how long a visit usually takes",
+      "text_local": "La visite dure combien de temps en général ?",
+      "pronunciation": "lah vee-ZEET dur kom-BYAN duh tahn zhon zhay-nay-RAL",
+      "formality": "polite",
+      "cultural_note": "Most visitors spend around 45–75 minutes depending on exhibits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Generally, plan for about one to one and a half hours.",
+          "phonetic": "on zhay-nay-RAL, kom-TAY on-VYEHR oon UR ah oon UR ay duh-MEE",
+          "french": "En général, comptez environ une heure à une heure et demie."
+        }
+      ]
+    },
+    {
+      "id": "paris_conc_005",
+      "intent_en": "Ask if photos are allowed",
+      "text_local": "Les photos sont autorisées ?",
+      "pronunciation": "lay FOH-to son oh-toh-ree-ZAY",
+      "formality": "polite",
+      "cultural_note": "Photography is usually allowed without flash unless otherwise posted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, photos are allowed without flash. It's forbidden in certain areas.",
+          "phonetic": "wee, lay FOH-to son oh-toh-ree-ZAY sahn flash. say an-tay-DREE dahn certain-ZON",
+          "french": "Oui, les photos sont autorisées sans flash. C'est interdit dans certaines zones."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "combined ticket",
+      "word_local": "le billet combiné",
+      "pronunciation": "leh bee-YAY kom-bee-NAY"
+    },
+    {
+      "word_en": "cell",
+      "word_local": "la cellule",
+      "pronunciation": "lah say-LUL"
+    },
+    {
+      "word_en": "audio guide",
+      "word_local": "l’audioguide",
+      "pronunciation": "loh-dee-oh-GUID"
+    },
+    {
+      "word_en": "history exhibit",
+      "word_local": "l’exposition historique",
+      "pronunciation": "lek-spoh-zee-SYON ees-toh-REEK"
+    }
+  ]
+}

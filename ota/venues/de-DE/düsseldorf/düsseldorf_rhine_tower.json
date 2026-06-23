@@ -1,0 +1,122 @@
+{
+  "id": "düsseldorf_rhine_tower",
+  "name_en": "Rhine Tower",
+  "name_local": "Rheinturm",
+  "icon": "building.columns",
+  "lat": 51.2179383,
+  "lon": 6.7615465,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "düsseldorf_rhine_tower_001",
+      "intent_en": "Where do I scan my ticket?",
+      "text_local": "Wo muss ich mein Ticket scannen?",
+      "pronunciation": "vOH-mUHs-ihkh-meyen-tIHkuht-skAHnuhn",
+      "formality": "standard",
+      "cultural_note": "Ticket scanning occurs at controlled access points like the elevator barrier or desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter oder Aufzug.",
+        "pronunciation": "ahm-shAHlt-OHd-OWftsOOk",
+        "translation_en": "At the ticket desk or elevator."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk or elevator.",
+          "phonetic": "ahm-shAHlt-OHd-OWftsOOk",
+          "french": "Am Schalter oder Aufzug."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_rhine_tower_002",
+      "intent_en": "Where is the photo point machine?",
+      "text_local": "Wo ist der Fotopunkt-Automat?",
+      "pronunciation": "vOH-shtEHt-dehr-fOHtohpUHngktOWtohmAHtuhn",
+      "formality": "standard",
+      "cultural_note": "Photo point machines are typically located near exits or controlled access points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Neben dem Fahrstuhl im Erdgeschoss.",
+        "pronunciation": "nEHbuhn-dehm-fAHrshtool-ihm-ehrdgEHshaws",
+        "translation_en": "Next to the elevator on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "Next to the elevator on the ground floor.",
+          "phonetic": "nEHbuhn-dehm-fAHrshtool-ihm-ehrdgEHshaws",
+          "french": "Neben dem Fahrstuhl im Erdgeschoss."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_rhine_tower_003",
+      "intent_en": "How do I book the revolving restaurant?",
+      "text_local": "Wie buche ich Q170?",
+      "pronunciation": "vee-bOOkhuh-ihkh-kOO-EYEnhUHndt-zEEptsihkh",
+      "formality": "standard",
+      "cultural_note": "Reservations for Q170 are commonly handled at the restaurant desk or via the venue's website.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Restaurant oder online.",
+        "pronunciation": "ahm-rEHstohrAH-OHd-ehnNleyendeh",
+        "translation_en": "At the restaurant or online."
+      },
+      "responses": [
+        {
+          "english": "At the restaurant or online.",
+          "phonetic": "ahm-rEHstohrAH-OHd-ehnNleyendeh",
+          "french": "Am Restaurant oder online."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_rhine_tower_004",
+      "intent_en": "Where is the observation deck entrance?",
+      "text_local": "Wo geht es zum Aussichtsdeck?",
+      "pronunciation": "vOH-EHt-ehs-tsuhm-OWszIHkhtsdehk",
+      "formality": "standard",
+      "cultural_note": "Visitors typically associate the observation deck with the elevator to the upper levels.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zum Aufzug, bitte.",
+        "pronunciation": "tsuhm-OWftsOOkbIHtuh",
+        "translation_en": "To the elevator, please."
+      },
+      "responses": [
+        {
+          "english": "To the elevator, please.",
+          "phonetic": "tsuhm-OWftsOOkbIHtuh",
+          "french": "Zum Aufzug, bitte."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_rhine_tower_005",
+      "intent_en": "Where is the Lichtzeitpegel located?",
+      "text_local": "Wo finde ich den Lichtzeitpegel?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-lIHkhtseyetpEHuhl",
+      "formality": "standard",
+      "cultural_note": "Lichtzeitpegel is a prominent digital clock; signs are typically available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links neben dem Aufzug.",
+        "pronunciation": "lINGks-nEHbuhn-dehm-OWftsOOk",
+        "translation_en": "Left next to the elevator."
+      },
+      "responses": [
+        {
+          "english": "Left next to the elevator.",
+          "phonetic": "lINGks-nEHbuhn-dehm-OWftsOOk",
+          "french": "Links neben dem Aufzug."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

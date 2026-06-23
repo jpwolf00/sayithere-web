@@ -1,0 +1,100 @@
+{
+  "id": "rothenburg_ob_der_tauber_st_jamess_church",
+  "name_en": "St. James's Church",
+  "name_local": "St. Jakobskirche",
+  "icon": "building.columns",
+  "lat": 49.376004,
+  "lon": 10.1649841,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "rothenburg_ob_der_tauber_st_jamess_church_001",
+      "intent_en": "Where is the candle purchase spot",
+      "text_local": "Wo kann ich Kerzen kaufen?",
+      "pronunciation": "vOH-kAHn-ihkh-kEHrtsuhn-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Candles are typically sold near altars for prayer purposes. Ask the Kirchendiener for exact locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Seitenaltären.",
+        "pronunciation": "ahn-dehn-zEYEtuhnahltEHruhn",
+        "translation_en": "At the side altars."
+      },
+      "responses": [
+        {
+          "english": "At the side altars.",
+          "phonetic": "ahn-dehn-zEYEtuhnahltEHruhn",
+          "french": "An den Seitenaltären."
+        }
+      ]
+    },
+    {
+      "id": "rothenburg_ob_der_tauber_st_jamess_church_002",
+      "intent_en": "Where is the Holy Blood Altar",
+      "text_local": "Wo steht der Heilig-Blut-Altar?",
+      "pronunciation": "vOH-shtEHt-dehr-hEYElihblOOtahltAHr",
+      "formality": "standard",
+      "cultural_note": "Alter locations in churches are often behind central columns or in side chapels, requiring a short walk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im hinteren Bereich.",
+        "pronunciation": "ihm-hIHntuhruhn-buhrEYEkh",
+        "translation_en": "In the rear area."
+      },
+      "responses": [
+        {
+          "english": "In the rear area.",
+          "phonetic": "ihm-hIHntuhruhn-buhrEYEkh",
+          "french": "Im hinteren Bereich."
+        }
+      ]
+    },
+    {
+      "id": "rothenburg_ob_der_tauber_st_jamess_church_003",
+      "intent_en": "Can I climb the tower now",
+      "text_local": "Darf ich jetzt den Turm besteigen?",
+      "pronunciation": "dAHrf-ihkh-yEHtst-dehn-tUHuhm-buhshtEYEuhn",
+      "formality": "standard",
+      "cultural_note": "Church tower climbs are often restricted by weather, services, or daylight hours. Ask the Turmwärter for exact times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur während der Öffnungszeiten.",
+        "pronunciation": "nOOr-vEHruhnt-dehr-UHfnuhngstsEYEtuhn",
+        "translation_en": "Only during opening hours."
+      },
+      "responses": [
+        {
+          "english": "Only during opening hours.",
+          "phonetic": "nOOr-vEHruhnt-dehr-UHfnuhngstsEYEtuhn",
+          "french": "Nur während der Öffnungszeiten."
+        }
+      ]
+    },
+    {
+      "id": "rothenburg_ob_der_tauber_st_jamess_church_004",
+      "intent_en": "Where is the Twelve Apostles Altar",
+      "text_local": "Wo steht der Zwölfbotenaltar?",
+      "pronunciation": "vOH-shtEHt-dehr-tsvUHlfbohtEHnahltAHr",
+      "formality": "standard",
+      "cultural_note": "Altars in historic churches are often in side aisles for easier access during services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im linken Seitenschiff.",
+        "pronunciation": "ihm-lINGkuhn-zEYEtuhnshIHf",
+        "translation_en": "In the left aisle."
+      },
+      "responses": [
+        {
+          "english": "In the left aisle.",
+          "phonetic": "ihm-lINGkuhn-zEYEtuhnshIHf",
+          "french": "Im linken Seitenschiff."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "lübeck_travemünde_beachfront_promenade",
+  "name_en": "Travemünde Beachfront Promenade",
+  "name_local": "Travemünde Strandpromenade",
+  "icon": "map",
+  "lat": 53.9606313,
+  "lon": 10.8793256,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "lübeck_travemünde_beachfront_promenade_001",
+      "intent_en": "Hourly Strandkorb rental point",
+      "text_local": "Wo kann ich hier einen Strandkorb stundenweise mieten?",
+      "pronunciation": "vOH-kAHn-ihkh-hEEr-EYEnuhn-shtrAHntkawrp-shtUHnduhnvEYEzuh-mEEtuhn",
+      "formality": "casual",
+      "cultural_note": "Strandkörbe sind typisch deutsche Strandmöbel; die Vermietung erfolgt meist an festen Stationen entlang der Promenade.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Strandkorbverleih.",
+        "pronunciation": "ahm-shtrAHntkawrbflEYE",
+        "translation_en": "At the Strandkorb rental."
+      },
+      "responses": [
+        {
+          "english": "At the Strandkorb rental.",
+          "phonetic": "ahm-shtrAHntkawrbflEYE",
+          "french": "Am Strandkorbverleih."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_travemünde_beachfront_promenade_002",
+      "intent_en": "Fish rolls cash only here",
+      "text_local": "Kann ich Fischbrötchen hier auch mit Karte zahlen?",
+      "pronunciation": "kAHn-ihkh-fIHshbruhtkhuhn-hEEr-OWkh-miht-kAHrtuh-tsAHluhn",
+      "formality": "casual",
+      "cultural_note": "In deutschen Strandbuden und Imbissen sind Bargeldzahlungen für kleine Speisen oft üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur bar.",
+        "pronunciation": "nEYEnnOOr-bAHr",
+        "translation_en": "No, only cash."
+      },
+      "responses": [
+        {
+          "english": "No, only cash.",
+          "phonetic": "nEYEnnOOr-bAHr",
+          "french": "Nein, nur bar."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_travemünde_beachfront_promenade_003",
+      "intent_en": "Ferry ticket to Priwall at which machine",
+      "text_local": "Wo bekomme ich Fahrkarten für die Priwall-Fähre?",
+      "pronunciation": "vOH-EEpt-ehs-fAHrkahrtuhn-fuer-dee-prEEvahlfEHruh",
+      "formality": "casual",
+      "cultural_note": "Fährtickets werden oft an Automaten oder am Schalter verkauft; Priwall ist ein beliebtes Ausflugsziel.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Automaten am Anleger.",
+        "pronunciation": "deerEHkt-ahm-OWtohmAHtuhn-ahm-AHnlEHg",
+        "translation_en": "Right at the ticket machine at the pier."
+      },
+      "responses": [
+        {
+          "english": "Right at the ticket machine at the pier.",
+          "phonetic": "deerEHkt-ahm-OWtohmAHtuhn-ahm-AHnlEHg",
+          "french": "Direkt am Automaten am Anleger."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_travemünde_beachfront_promenade_004",
+      "intent_en": "Pay parking automatically or with app",
+      "text_local": "Kann ich die Parkgebühr auch mit der App bezahlen?",
+      "pronunciation": "kAHn-ihkh-dee-pAHrkehbUEr-OWkh-miht-dehr-AHp-buhtsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Deutschland verbreitet sich die mobile Parkgebührenzahlung zunehmend, besonders in Touristengebieten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit der Park-App.",
+        "pronunciation": "yAHmiht-dehr-pAHrkAHp",
+        "translation_en": "Yes, with the parking app."
+      },
+      "responses": [
+        {
+          "english": "Yes, with the parking app.",
+          "phonetic": "yAHmiht-dehr-pAHrkAHp",
+          "french": "Ja, mit der Park-App."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

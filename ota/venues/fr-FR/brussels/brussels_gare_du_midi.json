@@ -1,0 +1,115 @@
+{
+  "id": "brussels_gare_du_midi",
+  "name_en": "Gare du Midi / Brussels South Station",
+  "name_local": "Gare du Midi",
+  "icon": "tram",
+  "phrases": [
+    {
+      "id": "brussels_gm_001",
+      "intent_en": "Ask about Eurostar to London",
+      "text_local": "Où est le quai pour l'Eurostar vers Londres ?",
+      "pronunciation": "oo eh luh kay poor luh-yur-oh-STAR vair lon-DRUH",
+      "formality": "polite",
+      "cultural_note": "Eurostar departs from Platform 1. Direct service to London St Pancras takes 1 hour 50 minutes. Arrive 30 minutes before departure.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Eurostar platform is at level -1. Follow the signs.",
+          "phonetic": "luh KAY uhr-oh-STAR eh oh nee-VOH mwahn uhn. swee-VAY lay pah-NOH",
+          "french": "Le quai Eurostar est au niveau -1. Suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gm_002",
+      "intent_en": "Ask about Thalys high-speed trains",
+      "text_local": "Où sont les trains Thalys ?",
+      "pronunciation": "oo son lay tran tah-LEES",
+      "formality": "polite",
+      "cultural_note": "Thalys connects Brussels to Paris (1h 15m), Amsterdam (1h 55m), and Cologne. Tickets are cheaper booked in advance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Thalys trains depart from the central platforms. Check the departure screen.",
+          "phonetic": "lay trahn tah-LEES part day KAY sahn-TROH. vay-ree-fee-AY lay-KRAHN day day-PAR",
+          "french": "Les trains Thalys partent des quais centraux. Vérifiez l'écran des départs."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gm_003",
+      "intent_en": "Ask about the currency exchange office",
+      "text_local": "Où est le bureau de change ?",
+      "pronunciation": "oo eh luh buh-ROO duh shonzh",
+      "formality": "polite",
+      "cultural_note": "Change offices are in the main hall. Airport-style exchange rates are poor — use ATMs for better rates.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the main hall, near the ticket offices.",
+          "phonetic": "dahn luh OL prahn-see-PAL, preh day gee-SHAY",
+          "french": "Dans le hall principal, près des guichets."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gm_004",
+      "intent_en": "Ask about taxi stand location",
+      "text_local": "Où est la station de taxis ?",
+      "pronunciation": "oo eh lah stah-SYOHN duh tak-SEE",
+      "formality": "polite",
+      "cultural_note": "Taxis wait outside the main entrance on Avenue Fonsny. Uber is also available but may not be cheaper.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The taxi stand is just outside the main exit.",
+          "phonetic": "lah stah-SYON duh tak-SEE eh zhoost ah lah sor-TEE preen-see-PAL",
+          "french": "La station de taxis est juste à la sortie principale."
+        }
+      ]
+    },
+    {
+      "id": "brussels_gm_005",
+      "intent_en": "Ask about metro connection to center",
+      "text_local": "Comment aller au centre en métro ?",
+      "pronunciation": "koh-MON ah-LAY oh sontr on may-TROH",
+      "formality": "polite",
+      "cultural_note": "Metro lines 2, 3, and 6 connect Midi to central Brussels (e.g., Gare Centrale, De Brouckère). A single ticket costs €2.10.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "To get to the center by metro, take lines 2, 3, or 6. A ticket costs €2.10.",
+          "phonetic": "luh პრო-shan day-PAR eh byan-TOH, ruh-gar-DAY luh pah-NOH",
+          "french": "Pour aller au centre en métro, prenez les lignes 2, 3 ou 6. Un ticket coûte 2,10 euros."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "train station",
+      "word_local": "la gare",
+      "pronunciation": "lah gar"
+    },
+    {
+      "word_en": "platform / track",
+      "word_local": "le quai",
+      "pronunciation": "luh kay"
+    },
+    {
+      "word_en": "ticket office",
+      "word_local": "le guichet",
+      "pronunciation": "luh gee-SHAY"
+    },
+    {
+      "word_en": "high-speed train",
+      "word_local": "le train à grande vitesse",
+      "pronunciation": "luh tran ah grond vee-TES"
+    }
+  ]
+}

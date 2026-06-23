@@ -1,0 +1,115 @@
+{
+  "id": "lausanne_cathedrale",
+  "name_en": "Lausanne Cathedral",
+  "name_local": "Cathédrale de Lausanne",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "lausanne_cat_001",
+      "intent_en": "Ask if the tower is open to climb",
+      "text_local": "La tour est-elle ouverte pour monter ?",
+      "pronunciation": "lah TOOR eh-tel oo-VAIRT poor mon-TAY",
+      "formality": "polite",
+      "cultural_note": "The cathedral tower offers panoramic views of Lausanne, Lake Geneva, and the Alps. Climbing access varies by season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, but check the hours at the entrance.",
+          "phonetic": "wee, may vay-ree-fee-AY layz oh-REHR ah lahn-TRAY",
+          "french": "Oui, mais vérifiez les horaires à l'entrée."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_cat_002",
+      "intent_en": "Ask if entry to the cathedral is free",
+      "text_local": "L'entrée est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "Entry to the cathedral nave is free. The tower climb may have a small fee.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, entry to the cathedral is free. The tower costs extra.",
+          "phonetic": "wee, lahn-TRAY duh lah kah-tay-DRAL eh grah-TWEET. lah TOOR eh pay-AHNT",
+          "french": "Oui, l'entrée de la cathédrale est gratuite. La tour est payante."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_cat_003",
+      "intent_en": "Ask about the tower climb",
+      "text_local": "Peut-on monter dans la tour ?",
+      "pronunciation": "puh-TOHN mohn-TAY don lah TOOR",
+      "formality": "polite",
+      "cultural_note": "Visitors can climb the cathedral tower for panoramic views of Lausanne, Lake Geneva, and the Alps. The climb involves 150+ steps.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are over 150 steps. The view is magnificent.",
+          "phonetic": "wee, eel ee ah ploo duh sahn sank-AHNT MARSH. lah vyoo eh mah-nyee-FEEK",
+          "french": "Oui, il y a plus de cent cinquante marches. La vue est magnifique."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_cat_004",
+      "intent_en": "Ask about the opening hours",
+      "text_local": "Quelles sont les heures de visite ?",
+      "pronunciation": "kel son lay zuhr duh vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "The cathedral has regular visiting hours but may close during services.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "7am to 7pm. Closed during services.",
+          "phonetic": "duh set uhr ah dee-nuhf uhr. fair-MAY pahn-DAHN lay zoh-FEES",
+          "french": "De sept heures à dix-neuf heures. Fermé pendant les offices."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_cat_005",
+      "intent_en": "Ask if photos are allowed",
+      "text_local": "Les photos sont-elles autorisées ?",
+      "pronunciation": "lay foh-TOH son-tel oh-toh-ree-ZAY",
+      "formality": "polite",
+      "cultural_note": "Photography is allowed in the cathedral but flash is not permitted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, but without flash.",
+          "phonetic": "wee, may sahn FLASH",
+          "french": "Oui, mais sans flash."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "night watchman",
+      "word_local": "le guet",
+      "pronunciation": "luh gay"
+    },
+    {
+      "word_en": "Gothic style",
+      "word_local": "le style gothique",
+      "pronunciation": "luh steel goh-TEEK"
+    },
+    {
+      "word_en": "Reformation",
+      "word_local": "la Réforme",
+      "pronunciation": "lah ray-FORM"
+    }
+  ]
+}

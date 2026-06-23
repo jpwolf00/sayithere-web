@@ -1,0 +1,100 @@
+{
+  "id": "weimar_markt_square",
+  "name_en": "Markt Square",
+  "name_local": "Markt",
+  "icon": "map",
+  "lat": 50.7593041,
+  "lon": 8.7356425,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "weimar_markt_square_001",
+      "intent_en": "Where is parking zone edge?",
+      "text_local": "Wo endet die Parkzone?",
+      "pronunciation": "vOH-EHnduht-dee-pahrktsOHnuh",
+      "formality": "standard",
+      "cultural_note": "Parking meters in Weimar’s city center are typically located at the outer edges of pedestrian zones.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Rand des Platzes.",
+        "pronunciation": "ahm-rAHnt-dehs-plAHtsuhs",
+        "translation_en": "At the edge of the square."
+      },
+      "responses": [
+        {
+          "english": "At the edge of the square.",
+          "phonetic": "ahm-rAHnt-dehs-plAHtsuhs",
+          "french": "Am Rand des Platzes."
+        }
+      ]
+    },
+    {
+      "id": "weimar_markt_square_002",
+      "intent_en": "Are bikes allowed in the square center?",
+      "text_local": "Dürfen Fahrräder in die Mitte des Marktes?",
+      "pronunciation": "dUErfuhn-fAHrehd-ihn-dee-mIHtuh-dehs-mAHrktuhs",
+      "formality": "standard",
+      "cultural_note": "Bikes are generally prohibited in pedestrian zones in German city centers to ensure pedestrian safety.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur am Rand.",
+        "pronunciation": "nEYEnnOOr-ahm-rAHnt",
+        "translation_en": "No, only at the edge."
+      },
+      "responses": [
+        {
+          "english": "No, only at the edge.",
+          "phonetic": "nEYEnnOOr-ahm-rAHnt",
+          "french": "Nein, nur am Rand."
+        }
+      ]
+    },
+    {
+      "id": "weimar_markt_square_003",
+      "intent_en": "Where can I find Thuringian bratwurst nearby?",
+      "text_local": "Wo gibt es Thüringer Rostbratwurst hier?",
+      "pronunciation": "vOH-EEpt-ehs-tUEring-rAWstbrahtvOOrst-hEEr",
+      "formality": "casual",
+      "cultural_note": "Thuringian Rostbratwurst is a local specialty often served in traditional inns or market stalls in Weimar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Marktständen.",
+        "pronunciation": "ahn-dehn-mAHrktshtehnduhn",
+        "translation_en": "At the market stalls."
+      },
+      "responses": [
+        {
+          "english": "At the market stalls.",
+          "phonetic": "ahn-dehn-mAHrktshtehnduhn",
+          "french": "An den Marktständen."
+        }
+      ]
+    },
+    {
+      "id": "weimar_markt_square_004",
+      "intent_en": "Where is the Goethe fountain?",
+      "text_local": "Wo steht der Goethebrunnen?",
+      "pronunciation": "vOH-shtEHt-dehr-UHtehbrUHnuhn",
+      "formality": "standard",
+      "cultural_note": "The Goethe fountain is a central landmark in Weimar's Markt Square, often indicated by a small plaque or local guides.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter den Marktständen.",
+        "pronunciation": "hIHnt-dehn-mAHrktshtehnduhn",
+        "translation_en": "Behind the market stalls."
+      },
+      "responses": [
+        {
+          "english": "Behind the market stalls.",
+          "phonetic": "hIHnt-dehn-mAHrktshtehnduhn",
+          "french": "Hinter den Marktständen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

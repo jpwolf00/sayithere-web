@@ -1,0 +1,56 @@
+{
+  "id": "fethiye_fethiye_tuesday_market",
+  "name_en": "Fethiye Tuesday Market",
+  "name_local": "Fethiye Salı Pazari",
+  "icon": "cart",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_tuesday_market_001",
+      "intent_en": "Can I taste olive oil before buying?",
+      "text_local": "Satın almadan önce zeytinyağını tadabilir miyim?",
+      "pronunciation": "sahtOOn-AHmahdahn-UHndzheh-zehytihnyahoonOO-tahdahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Tasting is a standard practice at the olive oil stalls to demonstrate quality before purchase.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, zeytinyağı köşesinde tadım yapılıyor.",
+        "pronunciation": "ehvEHtzehytihnyahOO-kuhshehsihndEH-tahdOOm-yahpooOOyawr",
+        "translation_en": "Yes, tasting is done at the olive oil corner."
+      },
+      "responses": [
+        {
+          "english": "Yes, tasting is done at the olive oil corner.",
+          "phonetic": "ehvEHtzehytihnyahOO-kuhshehsihndEH-tahdOOm-yahpooOOyawr",
+          "french": "Evet, zeytinyağı köşesinde tadım yapılıyor."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_tuesday_market_002",
+      "intent_en": "Do you weigh vegetables by kilo here?",
+      "text_local": "Burada sebzeleri kilo ile tartıyor musunuz?",
+      "pronunciation": "bOOrahdah-sehbzehlehrIH-keeAW-EEleh-tahrtOOyawr-mOOsoonuhz",
+      "formality": "polite",
+      "cultural_note": "Produce is typically sold by weight. A designated person (terazici) often handles the scales, not the main vendor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, terazici tartıyor.",
+        "pronunciation": "ehvEHttehrahzeedzhIH-tahrtOOyawr",
+        "translation_en": "Yes, the weigher scales them."
+      },
+      "responses": [
+        {
+          "english": "Yes, the weigher scales them.",
+          "phonetic": "ehvEHttehrahzeedzhIH-tahrtOOyawr",
+          "french": "Evet, terazici tartıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

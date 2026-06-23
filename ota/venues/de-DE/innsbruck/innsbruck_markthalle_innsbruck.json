@@ -1,0 +1,78 @@
+{
+  "id": "innsbruck_markthalle_innsbruck",
+  "name_en": "Markthalle Innsbruck",
+  "name_local": "Markthalle Innsbruck",
+  "icon": "cart",
+  "lat": 47.267186,
+  "lon": 11.3895995,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "innsbruck_markthalle_innsbruck_001",
+      "intent_en": "Ask where the produce scales are",
+      "text_local": "Wo finde ich die Waagen für Obst und Gemüse?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-vAHuhn-fuer-OHpst-uhnt-uhmUEzuh",
+      "formality": "standard",
+      "cultural_note": "Waagen stehen oft bei den jeweiligen Ständen. Direkte Wegbeschreibung ist nicht möglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei den Obst- und Gemüseständen.",
+        "pronunciation": "beye-dehn-OHbst-uhnt-uhmUEzehshtEHnduhn",
+        "translation_en": "At the fruit and vegetable stalls."
+      },
+      "responses": [
+        {
+          "english": "At the fruit and vegetable stalls.",
+          "phonetic": "beye-dehn-OHbst-uhnt-uhmUEzehshtEHnduhn",
+          "french": "Bei den Obst- und Gemüseständen."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_markthalle_innsbruck_002",
+      "intent_en": "Ask where to validate parking ticket",
+      "text_local": "Wo kann ich mein Parkticket abstempeln?",
+      "pronunciation": "vOH-kAHn-ihkh-meyen-pAHrktihkuht-AHpshtEHmpuhln",
+      "formality": "standard",
+      "cultural_note": "Parkticket-Validierung erfolgt typischerweise am zentralen Infoschalter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Infoschalter.",
+        "pronunciation": "ahm-IHnfawshAHlt",
+        "translation_en": "At the info desk."
+      },
+      "responses": [
+        {
+          "english": "At the info desk.",
+          "phonetic": "ahm-IHnfawshAHlt",
+          "french": "Am Infoschalter."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_markthalle_innsbruck_003",
+      "intent_en": "Ask which stalls need market tokens",
+      "text_local": "Welche Stände nehmen Markenmünzen?",
+      "pronunciation": "vEHlkhuh-shtEHnduh-nEHmuhn-mAHrkuhnmUEntsuhn",
+      "formality": "standard",
+      "cultural_note": "Nicht alle Stände akzeptieren Markenmünzen. Frage am besten direkt beim Verkäufer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Einige Stände.",
+        "pronunciation": "EYEnihuh-shtEHnduh",
+        "translation_en": "Some stalls do."
+      },
+      "responses": [
+        {
+          "english": "Some stalls do.",
+          "phonetic": "EYEnihuh-shtEHnduh",
+          "french": "Einige Stände."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

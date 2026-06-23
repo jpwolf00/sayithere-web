@@ -1,0 +1,78 @@
+{
+  "id": "goreme_göreme_town_center",
+  "name_en": "Göreme Town Center",
+  "name_local": "Göreme Merkez",
+  "icon": "map",
+  "lat": 38.6435271,
+  "lon": 34.829613,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "goreme_göreme_town_center_001",
+      "intent_en": "Where can I find cave hotel reception?",
+      "text_local": "Mağara otel resepsiyonu nerede?",
+      "pronunciation": "mahrAH-ohtAHl-rehsehpseeyohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Cave hotel desk location is unverified; safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana yolun sağında.",
+        "pronunciation": "ahnAH-yohUHn-sahoondAH",
+        "translation_en": "On the right of the main road."
+      },
+      "responses": [
+        {
+          "english": "On the right of the main road.",
+          "phonetic": "ahnAH-yohUHn-sahoondAH",
+          "french": "Ana yolun sağında."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_town_center_002",
+      "intent_en": "Which way to otogar ticket window?",
+      "text_local": "Otogar bilet gişesi ne tarafta?",
+      "pronunciation": "ohtohgAHr-beelEHt-eeshehsIH-nEH-tahrahftAH",
+      "formality": "standard",
+      "cultural_note": "Otogar ticket window is unverified; safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte, sağda.",
+        "pronunciation": "eerihshtEHsahdAH",
+        "translation_en": "At the entrance, on the right."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, on the right.",
+          "phonetic": "eerihshtEHsahdAH",
+          "french": "Girişte, sağda."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_town_center_003",
+      "intent_en": "Is carpet haggling expected here?",
+      "text_local": "Burada halı pazarlığı beklenir mi?",
+      "pronunciation": "bOOrahdah-hahOO-pahzahrooooOO-behklehnIHr-mih",
+      "formality": "standard",
+      "cultural_note": "Haggling norm is unverified; directs to the relevant staff type.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, genelde pazarlık yapılır.",
+        "pronunciation": "ehvEHtehnahldEH-pahzahrOOk-yahpooOOr",
+        "translation_en": "Yes, haggling is usually done."
+      },
+      "responses": [
+        {
+          "english": "Yes, haggling is usually done.",
+          "phonetic": "ehvEHtehnahldEH-pahzahrOOk-yahpooOOr",
+          "french": "Evet, genelde pazarlık yapılır."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

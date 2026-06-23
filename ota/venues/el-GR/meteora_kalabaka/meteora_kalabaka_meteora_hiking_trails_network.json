@@ -1,0 +1,188 @@
+{
+  "id": "meteora_kalabaka_meteora_hiking_trails_network",
+  "name_en": "Meteora Hiking Trails Network",
+  "name_local": "Μονοπάτια Μετεώρων",
+  "icon": "leaf",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_meteora_hiking_trails_network_001",
+      "intent_en": "Is Trail 5 Rousanou open today?",
+      "text_local": "Είναι ανοιχτό σήμερα το μονοπάτι Ρόusanou;",
+      "pronunciation": "EEneh-AHneekhtOH-sEEmehrAH-toh-mOHnohpAHtee-rOHehnyOOzuhnOOehl",
+      "formality": "standard",
+      "cultural_note": "Τα μονοπάτια προς μοναστήρια έχουν συχνά μεταβαλλόμενο ωράριο λόγω καιρικών συνθηκών ή ιδιαιτεροτήτων λειτουργίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτό.",
+        "pronunciation": "nEHEEneh-AHneekhtOH",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "nEHEEneh-AHneekhtOH",
+          "french": "Ναι, είναι ανοιχτό."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_hiking_trails_network_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πόση ώρα διαρκεί η διαδρομή για Βαρλαάμ;",
+      "pronunciation": "pOHsee-OHrah-thEEahrEE-ee-thEEahthrohmEE-vEEtahehnAHlahmehl",
+      "formality": "standard",
+      "cultural_note": "Οι τοπικές ξεναγήσεις αναφέρουν συχνά εύρος χρόνου λόγω διαφορών φυσικής κατάστασης πεζοπόρων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "30-40 λεπτά από μονοπάτι 2.",
+        "pronunciation": "treeAHndah-mEEohn-sahrAHndah-lehptAH-ahpOH-mOHnohpAHtee-thEEoh",
+        "translation_en": "The route from Trail 2 takes about 30-40 minutes if you follow the signs to Varlaam Monastery. The steps just before the entrance are steep."
+      },
+      "responses": [
+        {
+          "english": "The route from Trail 2 takes about 30-40 minutes if you follow the signs to Varlaam Monastery. The steps just before the entrance are steep.",
+          "phonetic": "treeAHndah-mEEohn-sahrAHndah-lehptAH-ahpOH-mOHnohpAHtee-thEEoh",
+          "french": "30-40 λεπτά από μονοπάτι 2."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_hiking_trails_network_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να αγοράσω χάρτες διαδρομών πεζοπορίας;",
+      "pronunciation": "pOO-bohrOH-n-AHghohrAHsoh-khAHrtehz-thEEahthrohmOHm-bEHzohpohrEEahs",
+      "formality": "polite",
+      "cultural_note": "Συνήθως υπάρχουν μικρά περίπτερα κοντά στην είσοδο των μονοπατιών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο περίπτερο εισόδου των μονοπατιών.",
+        "pronunciation": "stoh-pehrEEptehrOH-eesOHthoo-tohn-mOHnohpAHteeOHn",
+        "translation_en": "At the trail entrance, at the small kiosk."
+      },
+      "responses": [
+        {
+          "english": "At the trail entrance, at the small kiosk.",
+          "phonetic": "stoh-pehrEEptehrOH-eesOHthoo-tohn-mOHnohpAHteeOHn",
+          "french": "Στο περίπτερο εισόδου των μονοπατιών."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_hiking_trails_network_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού πληρώνω την είσοδο των 3 € στα μοναστήρια;",
+      "pronunciation": "pOO-pleerOHnoh-teen-EEsohthOH-tohn-trEEah-ehvrOH-stah-mOHnahstEEreeAH",
+      "formality": "standard",
+      "cultural_note": "Στα μοναστήρια η είσοδος συνήθως πληρώνεται απευθείας στον υπάλληλο (μοναχός/μοναχή) που βρίσκεται στην είσοδο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο εκδοτήριο κάθε μοναστηριού.",
+        "pronunciation": "stoh-EHkthohtEEreeOH-kAHtheh-mOHnahstEEreeOO",
+        "translation_en": "At the ticket booth at the monastery entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket booth at the monastery entrance.",
+          "phonetic": "stoh-EHkthohtEEreeOH-kAHtheh-mOHnahstEEreeOO",
+          "french": "Στο εκδοτήριο κάθε μοναστηριού."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_hiking_trails_network_005",
+      "intent_en": "Which trail leads to Holy Trinity?",
+      "text_local": "Ποιο μονοπάτι οδηγεί στην Αγία Τριάδα;",
+      "pronunciation": "pEEah-mOHnohpAHtee-OHtheeyEE-steen-ahyEEah-treeAHthah",
+      "formality": "standard",
+      "cultural_note": "Οι πινακίδες στους χώρους των Μετεώρων χρησιμοποιούν συχνά τοπικούς όρους όπως 'Τριάδα' αντί για πλήρεις τίτλους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το μονοπάτι νούμερο τρία.",
+        "pronunciation": "toh-mOHnohpAHtee-nOOmehrOH-trEEah",
+        "translation_en": "Trail number three."
+      },
+      "responses": [
+        {
+          "english": "Trail number three.",
+          "phonetic": "toh-mOHnohpAHtee-nOOmehrOH-trEEah",
+          "french": "Το μονοπάτι νούμερο τρία."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_hiking_trails_network_006",
+      "intent_en": "Ask which trail reaches Holy Trinity viewpoint fastest",
+      "text_local": "Ποιο μονοπάτι φτάνει πιο γρήγορα στο σημείο θέασης Αγίας Τριάδας;",
+      "pronunciation": "pEEah-thEEahthrohmEE-ftAHnee-pkhOH-ghrEEghohrAH-stohn-AHyoh-treeAHthah",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνήθως αναφέρουν τον Απότομο μονοπάτι ως πιο άμεσο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το μονοπάτι από το μοναστήρι Βαρλαάμ.",
+        "pronunciation": "toh-mOHnohpAHtee-ahpOH-toh-mOHnahstEEree-vAHrlahAHm",
+        "translation_en": "Follow the signs for the Holy Trinity path."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs for the Holy Trinity path.",
+          "phonetic": "toh-mOHnohpAHtee-ahpOH-toh-mOHnahstEEree-vAHrlahAHm",
+          "french": "Το μονοπάτι από το μοναστήρι Βαρλαάμ."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_hiking_trails_network_007",
+      "intent_en": "Ask where guided tours for trails start from",
+      "text_local": "Πού ξεκινάνε οι ξεναγήσεις για τα μονοπάτια;",
+      "pronunciation": "pOO-ksEHeenAHneh-ee-ksEHnahyEEseez-yAH-tah-mOHnohpAHteeAH",
+      "formality": "standard",
+      "cultural_note": "Οι επίσημοι ξεναγοί εδρεύουν στο κέντρο πληροφόρησης της Καλαμπάκας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον ξεναγό στο πληροφοριακό κέντρο Καλαμπάκας.",
+        "pronunciation": "rohtEEsteh-stohng-gzEHnahghOH-stoh-plEErohfOHreeahkOH-EHdroh-kAHlahbAHkahs",
+        "translation_en": "Ask the guide at Kalabaka info center."
+      },
+      "responses": [
+        {
+          "english": "Ask the guide at Kalabaka info center.",
+          "phonetic": "rohtEEsteh-stohng-gzEHnahghOH-stoh-plEErohfOHreeahkOH-EHdroh-kAHlahbAHkahs",
+          "french": "Ρωτήστε στον ξεναγό στο πληροφοριακό κέντρο Καλαμπάκας."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_meteora_hiking_trails_network_008",
+      "intent_en": "Ask if Great Meteoron trail connects to Varlaam loop directly",
+      "text_local": "Η διαδρομή του Μεγάλου Μετεώρου συνδέεται με τον βρόχο του Βαρλαάμ;",
+      "pronunciation": "ee-thEEahthrohmEE-too-mehghAHloo-mEHtehOHroo-seenthEHehtEH-meh-tohn-vrOHkhoh-too-vAHrlahAHm",
+      "formality": "standard",
+      "cultural_note": "Οι μονοπάτια μεταξύ μονών δεν είναι πάντα ευδιάκριτα λόγω φυσικών χαρακτηριστικών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, συνδέεται στο μονοπάτι 1.",
+        "pronunciation": "nEHseenthEHehtEH-stoh-mOHnohpAHtee-EHnah",
+        "translation_en": "Hello, yes, follow the signs of trail 1 from the entrance of Great Meteoron Monastery towards trail 2."
+      },
+      "responses": [
+        {
+          "english": "Hello, yes, follow the signs of trail 1 from the entrance of Great Meteoron Monastery towards trail 2.",
+          "phonetic": "nEHseenthEHehtEH-stoh-mOHnohpAHtee-EHnah",
+          "french": "Ναι, συνδέεται στο μονοπάτι 1."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

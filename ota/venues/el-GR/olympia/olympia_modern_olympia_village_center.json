@@ -1,0 +1,122 @@
+{
+  "id": "olympia_modern_olympia_village_center",
+  "name_en": "Modern Olympia Village Center",
+  "name_local": "Κέντρο Σύγχρονης Ολυμπίας",
+  "icon": "map",
+  "lat": 37.6382503,
+  "lon": 21.630566,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "olympia_modern_olympia_village_center_001",
+      "intent_en": "Where is the guided tour kiosk",
+      "text_local": "Πού είναι το γκισέ των ξεναγήσεων;",
+      "pronunciation": "pOO-EEneh-toh-geesEH-ksEHnahghOHn",
+      "formality": "standard",
+      "cultural_note": "Ξεναγός refers to the official guide available for tours at the site entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο του χώρου.",
+        "pronunciation": "steen-EEsohthOH-too-khOHroo",
+        "translation_en": "At the entrance of the site."
+      },
+      "responses": [
+        {
+          "english": "At the entrance of the site.",
+          "phonetic": "steen-EEsohthOH-too-khOHroo",
+          "french": "Στην είσοδο του χώρου."
+        }
+      ]
+    },
+    {
+      "id": "olympia_modern_olympia_village_center_002",
+      "intent_en": "Where do I pay for village parking",
+      "text_local": "Πού πληρώνω το parking;",
+      "pronunciation": "pOO-pleerOHnoh-toh-ehnpAHkingehl",
+      "formality": "standard",
+      "cultural_note": "Parking payment may require staff assistance in the modern village area surrounding the ancient site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στη ρεσεψιόν του ξενοδοχείου.",
+        "pronunciation": "stee-rEHsehpseeOHn-doo-ksEHnohthohkhEEoo",
+        "translation_en": "At the hotel reception."
+      },
+      "responses": [
+        {
+          "english": "At the hotel reception.",
+          "phonetic": "stee-rEHsehpseeOHn-doo-ksEHnohthohkhEEoo",
+          "french": "Στη ρεσεψιόν του ξενοδοχείου."
+        }
+      ]
+    },
+    {
+      "id": "olympia_modern_olympia_village_center_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το ταμείο του μουσείου;",
+      "pronunciation": "pOO-EEneh-ee-tahmEEoh-too-moosEEoo",
+      "formality": "standard",
+      "cultural_note": "Ταμίας refers to the ticket cashier specifically at the museum.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στην είσοδο του Αρχαιολογικού Μουσείου.",
+        "pronunciation": "AHreestehrAH-steen-EEsohthOH-too-AHrkhehOHlohyeekOO-moosEEoo",
+        "translation_en": "The ticket office is next to the museum’s main entrance."
+      },
+      "responses": [
+        {
+          "english": "The ticket office is next to the museum’s main entrance.",
+          "phonetic": "AHreestehrAH-steen-EEsohthOH-too-AHrkhehOHlohyeekOO-moosEEoo",
+          "french": "Αριστερά στην είσοδο του Αρχαιολογικού Μουσείου."
+        }
+      ]
+    },
+    {
+      "id": "olympia_modern_olympia_village_center_004",
+      "intent_en": "Is the archaeological site ticket valid tomorrow",
+      "text_local": "Ισχύει η είσοδος αύριο;",
+      "pronunciation": "eeskhEEee-ee-EEsohthOHs-AHvreeOH",
+      "formality": "standard",
+      "cultural_note": "Site tickets are typically valid for a single day unless otherwise specified.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ισχύει.",
+        "pronunciation": "nEHeeskhEEee",
+        "translation_en": "Yes, it is valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is valid.",
+          "phonetic": "nEHeeskhEEee",
+          "french": "Ναι, ισχύει."
+        }
+      ]
+    },
+    {
+      "id": "olympia_modern_olympia_village_center_005",
+      "intent_en": "How do I get the combined site plus museum ticket",
+      "text_local": "Πού αγοράζω το συνδυαστικό εισιτήριο;",
+      "pronunciation": "pOO-AHghohrAHzoh-toh-sEEntheeAHsteekOH-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Combined tickets are typically purchased at the entrance of the archaeological site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο της Αρχαιολογικής Πύλης.",
+        "pronunciation": "stoh-tahmEEoh-tees-AHrkhehOHlohyeeEEs-pEElees",
+        "translation_en": "Hello, at the ticket office."
+      },
+      "responses": [
+        {
+          "english": "Hello, at the ticket office.",
+          "phonetic": "stoh-tahmEEoh-tees-AHrkhehOHlohyeeEEs-pEElees",
+          "french": "Στο ταμείο της Αρχαιολογικής Πύλης."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

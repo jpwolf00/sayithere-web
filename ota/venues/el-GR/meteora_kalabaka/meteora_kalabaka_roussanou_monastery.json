@@ -1,0 +1,232 @@
+{
+  "id": "meteora_kalabaka_roussanou_monastery",
+  "name_en": "Roussanou Monastery",
+  "name_local": "Μονή Ρουσάνου",
+  "icon": "building.columns",
+  "lat": 39.7216508,
+  "lon": 21.6322211,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_001",
+      "intent_en": "Where donation box near chapel?",
+      "text_local": "Υπάρχει κουτί δωρεών κοντά στην εκκλησία;",
+      "pronunciation": "eepAHrkhee-kootEE-thOHrehOHng-gohdAH-steen-EHkleesEEah",
+      "formality": "standard",
+      "cultural_note": "Donation boxes are commonly placed near chapels for visitors' contributions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο παρεκκλήσι.",
+        "pronunciation": "stoh-pAHrehklEEsee",
+        "translation_en": "At the chapel."
+      },
+      "responses": [
+        {
+          "english": "At the chapel.",
+          "phonetic": "stoh-pAHrehklEEsee",
+          "french": "Στο παρεκκλήσι."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_002",
+      "intent_en": "Can I buy souvenir icons inside?",
+      "text_local": "Μπορώ να αγοράσω αναμνηστικά εικονίδια μέσα;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-AHnahmnEEsteekAH-EEkohnEEthyah-mEHsah",
+      "formality": "standard",
+      "cultural_note": "Souvenir icons are traditional religious items often sold at monasteries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο κατάστημα.",
+        "pronunciation": "nEHstoh-kahtAHsteemAH",
+        "translation_en": "Yes, at the shop."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the shop.",
+          "phonetic": "nEHstoh-kahtAHsteemAH",
+          "french": "Ναι, στο κατάστημα."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_003",
+      "intent_en": "Ask how to buy souvenir icons",
+      "text_local": "Πώς μπορώ να αγοράσω εικόνες;",
+      "pronunciation": "pOHz-bohrOH-n-AHghohrAHsoh-eekOHnehs",
+      "formality": "standard",
+      "cultural_note": "Τα μοναστήρια συχνά προσφέρουν θρησκευτικά είδη ως ανάμνηση ή δώρο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο αναμνηστικό κατάστημα.",
+        "pronunciation": "stoh-AHnahmnEEsteekOH-kahtAHsteemAH",
+        "translation_en": "At the souvenir shop."
+      },
+      "responses": [
+        {
+          "english": "At the souvenir shop.",
+          "phonetic": "stoh-AHnahmnEEsteekOH-kahtAHsteemAH",
+          "french": "Στο αναμνηστικό κατάστημα."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πόσο είναι η είσοδος;",
+      "pronunciation": "pOHsoh-kAHnee-ee-EEsohthOHs",
+      "formality": "standard",
+      "cultural_note": "Τα μοναστήρια στη Μετέωρα συχνά έχουν μικρό αντίτιμο εισόδου, που συμβάλλει στη συντήρηση των χώρων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Τρία ευρώ στο εκδοτήριο εισιτηρίων.",
+        "pronunciation": "trEEah-ehvrOH-stoh-EHkthohtEEreeOH-EEseeteerEEohn",
+        "translation_en": "The entrance fee is 3 euros. You can pay to the nun at the ticket office, just before the entrance of the monastery."
+      },
+      "responses": [
+        {
+          "english": "The entrance fee is 3 euros. You can pay to the nun at the ticket office, just before the entrance of the monastery.",
+          "phonetic": "trEEah-ehvrOH-stoh-EHkthohtEEreeOH-EEseeteerEEohn",
+          "french": "Τρία ευρώ στο εκδοτήριο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Χρειάζεται άδεια για φωτογραφίες;",
+      "pronunciation": "pOHs-ehlEHngkhoh-ahn-khrkhAHzehtEH-AHthkhah-fOHtohghrAHfeesEEs",
+      "formality": "standard",
+      "cultural_note": "Photography rules may vary; staff can clarify current policies.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ρωτήστε τον φύλακα στην είσοδο.",
+        "pronunciation": "nEHrohtEEsteh-tohn-fEElahkAH-steen-EEsohthOH",
+        "translation_en": "Yes, ask at the entrance or the guard before taking photos."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask at the entrance or the guard before taking photos.",
+          "phonetic": "nEHrohtEEsteh-tohn-fEElahkAH-steen-EEsohthOH",
+          "french": "Ναι, ρωτήστε τον φύλακα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να νοικιάσω κατάλληλο ρουχισμό για την είσοδο;",
+      "pronunciation": "pOO-neeAHzohdEH-tah-tAHpeenAH-rOOkhah-steen-EEsohthOH",
+      "formality": "polite",
+      "cultural_note": "Modesty is highly valued in monastic settings; staff will provide appropriate garments.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο, από μοναχές.",
+        "pronunciation": "steen-EEsohthOHahpOH-mOHnahkhEHs",
+        "translation_en": "At the entrance, from the nuns."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, from the nuns.",
+          "phonetic": "steen-EEsohthOHahpOH-mOHnahkhEHs",
+          "french": "Στην είσοδο, από μοναχές."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να δανειστώ ένα φουλάρι;",
+      "pronunciation": "pOO-bohrOH-nah-neeAHsoh-tAHpeenEE-EHntheemahsEEah",
+      "formality": "polite",
+      "cultural_note": "Η ευγένεια και η διακριτικότητα αποτελούν κοινή πρακτική στους ιερούς χώρους. Οι επισκέπτες αναμένεται να ντύνονται με σεβασμό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στο εκδοτήριο εισιτηρίων.",
+        "pronunciation": "thEEplah-stoh-EHkthohtEEreeOH-EEseeteerEEohn",
+        "translation_en": "Next to the ticket office."
+      },
+      "responses": [
+        {
+          "english": "Next to the ticket office.",
+          "phonetic": "thEEplah-stoh-EHkthohtEEreeOH-EEseeteerEEohn",
+          "french": "Δίπλα στο εκδοτήριο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_008",
+      "intent_en": "Is convent garden accessible to visitors?",
+      "text_local": "Είναι προσβάσιμος ο κήπος της μονής στους επισκέπτες;",
+      "pronunciation": "EEneh-prohsvAHseemOHs-oh-EEpohs-teez-mohnEEs-stoos-EHpeesEHptehs",
+      "formality": "standard",
+      "cultural_note": "Monastery gardens are typically open to visitors for quiet reflection.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, από την αυλή της μονής.",
+        "pronunciation": "nEHahpOH-teen-ahvlEE-teez-mohnEEs",
+        "translation_en": "Yes, it is accessible."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is accessible.",
+          "phonetic": "nEHahpOH-teen-ahvlEE-teez-mohnEEs",
+          "french": "Ναι, από την αυλή της μονής."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_009",
+      "intent_en": "Ask if chapel photography is permitted",
+      "text_local": "Επιτρέπεται η φωτογράφιση στον ναό;",
+      "pronunciation": "EEneh-EHpeetrehptEE-ee-fOHtohghrAHfeesEE-steen-EHkleesEEah",
+      "formality": "standard",
+      "cultural_note": "Στις περισσότερες μονές απαγορεύονται οι φωτογραφίες στο εσωτερικό των ναών, εκτός αν αναφέρεται διαφορετικά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, μόνο έξω από τον ναό.",
+        "pronunciation": "OHkheemOHnoh-EHksoh-ahpOH-tohn-nahOH",
+        "translation_en": "No, it is prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, it is prohibited.",
+          "phonetic": "OHkheemOHnoh-EHksoh-ahpOH-tohn-nahOH",
+          "french": "Όχι, μόνο έξω από τον ναό."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_roussanou_monastery_010",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι ανοιχτοί οι κήποι;",
+      "pronunciation": "pOO-EEneh-AHneekhtEE-ee-EEpee",
+      "formality": "standard",
+      "cultural_note": "Οι κήποι αποτελούν μέρος της μοναστικής ζωής και προσφέρουν ηρεμία στους επισκέπτες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πίσω από το καθολικό, προς τον βράχο.",
+        "pronunciation": "pEEsoh-ahpOH-toh-kAHthohleekOHprOHs-tohn-vrAHkhoh",
+        "translation_en": "The gardens are open behind the main church, towards the rock. They are part of the monastery, but silence is required."
+      },
+      "responses": [
+        {
+          "english": "The gardens are open behind the main church, towards the rock. They are part of the monastery, but silence is required.",
+          "phonetic": "pEEsoh-ahpOH-toh-kAHthohleekOHprOHs-tohn-vrAHkhoh",
+          "french": "Πίσω από το καθολικό, προς τον βράχο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

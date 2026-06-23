@@ -1,0 +1,56 @@
+{
+  "id": "zell_am_see_apotheke_zum_heiligen_geist",
+  "name_en": "Apotheke zum Heiligen Geist",
+  "name_local": "Apotheke zum Heiligen Geist",
+  "icon": "info.circle",
+  "lat": 47.3207539,
+  "lon": 12.7970295,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "zell_am_see_apotheke_zum_heiligen_geist_001",
+      "intent_en": "Ask if pharmacy is currently dispensing prescriptions",
+      "text_local": "Darf ich hier meine Rezepte abholen?",
+      "pronunciation": "dAHrf-ihkh-hEEr-mEYEnuh-rehtsEHptuh-AHphOHluhn",
+      "formality": "casual",
+      "cultural_note": "Apotheken in Österreich dispensieren Rezepte typischerweise direkt am Counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_apotheke_zum_heiligen_geist_002",
+      "intent_en": "Ask how to reach Heiligen Geist fountain",
+      "text_local": "Wo finde ich den Heiligen-Geist-Brunnen?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-hEYElihuhnEYEstbrUHnuhn",
+      "formality": "standard",
+      "cultural_note": "Innenhof refers to the historical courtyard, a central landmark in this venue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie zum Innenhof.",
+        "pronunciation": "EHuhn-zee-tsuhm-IHnuhnhOHf",
+        "translation_en": "Go to the inner courtyard."
+      },
+      "responses": [
+        {
+          "english": "Go to the inner courtyard.",
+          "phonetic": "EHuhn-zee-tsuhm-IHnuhnhOHf",
+          "french": "Gehen Sie zum Innenhof."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

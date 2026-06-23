@@ -1,0 +1,122 @@
+{
+  "id": "pamukkale_denizli_teras_avm",
+  "name_en": "Denizli Teras AVM",
+  "name_local": "Denizli Teras AVM",
+  "icon": "bag",
+  "lat": 37.9200382,
+  "lon": 29.1217529,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "pamukkale_denizli_teras_avm_001",
+      "intent_en": "Is customer service desk open?",
+      "text_local": "Müşteri hizmetleri açık mı?",
+      "pronunciation": "muhshtehrIH-hihzmehtlehrIH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "It is common in Turkish malls for different service points to have different schedules; staff typically refer you to the main information desk for precise opening times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, açık.",
+        "pronunciation": "ehvEHtahtshOOk",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "ehvEHtahtshOOk",
+          "french": "Evet, açık."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_teras_avm_002",
+      "intent_en": "How to pay for parking?",
+      "text_local": "Otopark ödemesi nasıl yapılır?",
+      "pronunciation": "ohtohpAHrk-uhdehmehsIH-nahsOO-yahpooOOr",
+      "formality": "standard",
+      "cultural_note": "AVM otoparklarında çıkışta veya katlarda otomatik ödeme noktaları bulunur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otopark katlarındaki ödeme noktalarından.",
+        "pronunciation": "ohtohpAHrk-kahtahroondahkIH-uhdEHmeh-nawktahahroondAHn",
+        "translation_en": "At the payment points on the parking floors."
+      },
+      "responses": [
+        {
+          "english": "At the payment points on the parking floors.",
+          "phonetic": "ohtohpAHrk-kahtahroondahkIH-uhdEHmeh-nawktahahroondAHn",
+          "french": "Otopark katlarındaki ödeme noktalarından."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_teras_avm_003",
+      "intent_en": "Which floor has the cinema?",
+      "text_local": "Sinema hangi katta?",
+      "pronunciation": "seenEHmah-hahngIH-kahtAH",
+      "formality": "standard",
+      "cultural_note": "Turkish shopping malls typically use clear signage; staff often direct you to follow signs rather than specifying a floor number.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "En üst katta, asansörün karşısında.",
+        "pronunciation": "AHn-UHst-kahtAHahsahnsuhrUHn-kahrshoosoondAH",
+        "translation_en": "On the top floor, across from the elevator."
+      },
+      "responses": [
+        {
+          "english": "On the top floor, across from the elevator.",
+          "phonetic": "AHn-UHst-kahtAHahsahnsuhrUHn-kahrshoosoondAH",
+          "french": "En üst katta, asansörün karşısında."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_teras_avm_004",
+      "intent_en": "How to pay for parking?",
+      "text_local": "Otopark ödemesi nasıl yapılıyor?",
+      "pronunciation": "ohtohpAHrk-uhdehmehsIH-nahsOO-yahpooOOyawr",
+      "formality": "standard",
+      "cultural_note": "Turkish shopping malls commonly have automated payment kiosks on parking levels before exiting; cash and card are usually accepted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otopark katlarındaki ödeme makinelerini kullanın.",
+        "pronunciation": "ohtohpAHrk-kahtahroondahkIH-uhdEHmeh-mahkeenehlehreenIH-kUHahnoon",
+        "translation_en": "Use the payment machines on the parking floors."
+      },
+      "responses": [
+        {
+          "english": "Use the payment machines on the parking floors.",
+          "phonetic": "ohtohpAHrk-kahtahroondahkIH-uhdEHmeh-mahkeenehlehreenIH-kUHahnoon",
+          "french": "Otopark katlarındaki ödeme makinelerini kullanın."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_denizli_teras_avm_005",
+      "intent_en": "Where is the food court?",
+      "text_local": "Yemek katı nerede?",
+      "pronunciation": "yehmEHk-kahtOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "In multi-story Turkish malls, food courts are typically on upper floors; staff often reference elevators for clarity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yemek katına giden asansörleri kullanın.",
+        "pronunciation": "yehmEHk-kahtoonAH-eedAHn-ahsahnsuhrlehrIH-kUHahnoon",
+        "translation_en": "Use the elevators to the food court."
+      },
+      "responses": [
+        {
+          "english": "Use the elevators to the food court.",
+          "phonetic": "yehmEHk-kahtoonAH-eedAHn-ahsahnsuhrlehrIH-kUHahnoon",
+          "french": "Yemek katına giden asansörleri kullanın."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

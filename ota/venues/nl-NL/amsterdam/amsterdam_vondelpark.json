@@ -1,0 +1,56 @@
+{
+  "id": "amsterdam_vondelpark",
+  "name_en": "Vondelpark",
+  "name_local": "Vondelpark",
+  "icon": "leaf",
+  "lat": 52.3571974,
+  "lon": 4.864119,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "amsterdam_vondelpark_001",
+      "intent_en": "Get tickets for open-air theatre",
+      "text_local": "Can I buy open-air theatre tickets here?",
+      "pronunciation": "kAHn-EE-bUEee-OHpuhnEHr-tEHahtruh-tIHkehts-hEHruh",
+      "formality": "standard",
+      "cultural_note": "Openluchttheater tickets are typically sold at the venue’s temporary box office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de balie of online.",
+        "pronunciation": "behih-duh-bahlEE-awf-ehnNleyennl",
+        "translation_en": "At the desk or online."
+      },
+      "responses": [
+        {
+          "english": "At the desk or online.",
+          "phonetic": "behih-duh-bahlEE-awf-ehnNleyennl",
+          "french": "Bij de balie of online."
+        }
+      ]
+    },
+    {
+      "id": "amsterdam_vondelpark_002",
+      "intent_en": "Find Blauwe Theehuis for food",
+      "text_local": "Where can I find food at Blauwe Theehuis?",
+      "pronunciation": "vhIHruh-kAHn-EE-fIHnt-fOHt-AHt-blUHoo-uh-tEHhuhues",
+      "formality": "standard",
+      "cultural_note": "Blauwe Theehuis is a recognizable blue café at the northern edge of Vondelpark.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Daar boven aan het park.",
+        "pronunciation": "dAHr-bOHvuhn-ahn-huht-pAHrk",
+        "translation_en": "Up there at the top of the park."
+      },
+      "responses": [
+        {
+          "english": "Up there at the top of the park.",
+          "phonetic": "dAHr-bOHvuhn-ahn-huht-pAHrk",
+          "french": "Daar boven aan het park."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

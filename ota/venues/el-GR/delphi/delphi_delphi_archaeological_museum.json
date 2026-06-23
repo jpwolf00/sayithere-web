@@ -1,0 +1,78 @@
+{
+  "id": "delphi_delphi_archaeological_museum",
+  "name_en": "Delphi Archaeological Museum",
+  "name_local": "Αρχαιολογικό Μουσείο Δελφών",
+  "icon": "building.columns",
+  "lat": 38.5296676,
+  "lon": 22.3753017,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "delphi_delphi_archaeological_museum_001",
+      "intent_en": "Where is the audio guide rental desk?",
+      "text_local": "Πού είναι το τμήμα ενοικίασης ξεναγών;",
+      "pronunciation": "pOO-EEneh-toh-tmEEmah-EHneeEEahsEEs-ksEHnahghOHn",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι αναφέρουν συχνά τον χώρο ενοικίασης ξεναγών ως τμήμα πληροφοριών ή υπηρεσιών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στην είσοδο του μουσείου.",
+        "pronunciation": "AHreestehrAH-steen-EEsohthOH-too-moosEEoo",
+        "translation_en": "Ask at the information desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the information desk.",
+          "phonetic": "AHreestehrAH-steen-EEsohthOH-too-moosEEoo",
+          "french": "Αριστερά στην είσοδο του μουσείου."
+        }
+      ]
+    },
+    {
+      "id": "delphi_delphi_archaeological_museum_002",
+      "intent_en": "Can I photograph the marble sculptures?",
+      "text_local": "Μπορώ να φωτογραφίζω τους μαρμάρινους ανδριάντες;",
+      "pronunciation": "bohrOH-nah-fOHtohghrahfEEzoh-tooz-mahrmAHreenOOs-AHnthreeAHdehs",
+      "formality": "standard",
+      "cultural_note": "Οι κανόνες αφορούν κυρίως την αποφυγή φλας λόγω ευαισθησίας του μαρμάρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι με φλας.",
+        "pronunciation": "OHkhee-meh-flAHs",
+        "translation_en": "No flash photography."
+      },
+      "responses": [
+        {
+          "english": "No flash photography.",
+          "phonetic": "OHkhee-meh-flAHs",
+          "french": "Όχι με φλας."
+        }
+      ]
+    },
+    {
+      "id": "delphi_delphi_archaeological_museum_003",
+      "intent_en": "Can I use this ticket for the archaeological site too?",
+      "text_local": "Ισχύει αυτό το εισιτήριο για τον αρχαιολογικό χώρο;",
+      "pronunciation": "eeskhEEee-ahftOH-toh-EEseetEEreeOH-yAH-tohn-AHrkhehOHlohyeekOH-khOHroh",
+      "formality": "standard",
+      "cultural_note": "Ένα κοινό εισιτήριο ισχύει και για το μουσείο και τον αρχαιολογικό χώρο, σύμφωνα με τις τυπικές πρακτικές.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ισχύει.",
+        "pronunciation": "nEHeeskhEEee",
+        "translation_en": "Yes, it is valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is valid.",
+          "phonetic": "nEHeeskhEEee",
+          "french": "Ναι, ισχύει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_plzeň_tourist_information_center",
+  "name_en": "Plzeň Tourist Information Center",
+  "name_local": "Turistické informační centrum Plzeň",
+  "icon": "info.circle",
+  "lat": 49.935121,
+  "lon": 13.388822,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "plzeň_plzeň_tourist_information_center_001",
+      "intent_en": "Do maps require payment?",
+      "text_local": "Jsou mapy zpoplatněné?",
+      "pronunciation": "ysoh-mAHpee-spOHplahtnyEHneh",
+      "formality": "standard",
+      "cultural_note": "Basic city maps often have a small fee at Czech TICs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, stojí třicet korun.",
+        "pronunciation": "AHnohstOHyee-trEEtseht-kOHroon",
+        "translation_en": "Yes, they cost thirty crowns."
+      },
+      "responses": [
+        {
+          "english": "Yes, they cost thirty crowns.",
+          "phonetic": "AHnohstOHyee-trEEtseht-kOHroon",
+          "french": "Ano, stojí třicet korun."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_tourist_information_center_002",
+      "intent_en": "Where do I buy the city card?",
+      "text_local": "Kde si koupím Plzeňskou kartu?",
+      "pronunciation": "kdEH-see-kOHpeem-pLzehnyskoh-kAHrtoo",
+      "formality": "standard",
+      "cultural_note": "Staff will point to a specific counter rather than give verbal directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U přepážky vpravo, hned vedle vchodu.",
+        "pronunciation": "OO-prEHpahshkee-fprAHvohhnEHd-vEHdleh-fkhOHdoo",
+        "translation_en": "At the counter on the right, just next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the counter on the right, just next to the entrance.",
+          "phonetic": "OO-prEHpahshkee-fprAHvohhnEHd-vEHdleh-fkhOHdoo",
+          "french": "U přepážky vpravo, hned vedle vchodu."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_tourist_information_center_003",
+      "intent_en": "Where is the Škoda Works heritage info?",
+      "text_local": "Kde najdu informace o dědictví Škodových závodů?",
+      "pronunciation": "kdEH-nAHydoo-EEnfohrmAHtseh-OHehEEtstvee-shkOHdohveegh-zAHvohdoo",
+      "formality": "standard",
+      "cultural_note": "TICs often organize materials by theme in distinct shelf areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Brožury jsou vlevo, v rohu u okna.",
+        "pronunciation": "brOHzhooree-ysoh-vlEHvohv-rOHhoo-OO-OHknah",
+        "translation_en": "Brochures are on the left, in the corner by the window."
+      },
+      "responses": [
+        {
+          "english": "Brochures are on the left, in the corner by the window.",
+          "phonetic": "brOHzhooree-ysoh-vlEHvohv-rOHhoo-OO-OHknah",
+          "french": "Brožury jsou vlevo, v rohu u okna."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_plzeň_tourist_information_center_004",
+      "intent_en": "Can I book the guided tour here?",
+      "text_local": "Můžu si tady rezervovat prohlídku s průvodcem?",
+      "pronunciation": "mOOzhoo-see-tAHdee-rEHzehrvOHvaht-prOHhleetkoo-s-prOOvohttsehm",
+      "formality": "standard",
+      "cultural_note": "Czech tourist offices often confirm capability before asking for specifics.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, jaký termín preferujete?",
+        "pronunciation": "AHnohyAHkee-tEHrmeen-prEHfehrOOyehteh",
+        "translation_en": "Yes, which date do you prefer?"
+      },
+      "responses": [
+        {
+          "english": "Yes, which date do you prefer?",
+          "phonetic": "AHnohyAHkee-tEHrmeen-prEHfehrOOyehteh",
+          "french": "Ano, jaký termín preferujete?"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "cologne_rheinauhafen_waterfront",
+  "name_en": "Rheinauhafen Waterfront",
+  "name_local": "Kölner Rheinauhafen",
+  "icon": "map",
+  "lat": 50.9259783,
+  "lon": 6.9667882,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "cologne_rheinauhafen_waterfront_001",
+      "intent_en": "Is Hafenbasar restaurant open for lunch now?",
+      "text_local": "Hat das Hafenbasar jetzt Mittagstisch?",
+      "pronunciation": "haht-dahs-hAHfuhnbAHzahr-yEHtst-mihtAHkstihsh",
+      "formality": "standard",
+      "cultural_note": "In Germany, restaurants often display opening hours clearly, including lunch service times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis 14 Uhr.",
+        "pronunciation": "yAHbihs-fIHrtsehn-OOr",
+        "translation_en": "Yes, until 2 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 2 PM.",
+          "phonetic": "yAHbihs-fIHrtsehn-OOr",
+          "french": "Ja, bis 14 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "cologne_rheinauhafen_waterfront_002",
+      "intent_en": "Where can I pay for parking along Hafenstraße?",
+      "text_local": "Wo kann ich an der Hafenstraße parken bezahlen?",
+      "pronunciation": "vOH-kAHn-ihkh-ahn-dehr-hAHfuhnstrAHsuh-pAHrkuhn-buhtsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Germany, parking fees are typically paid at meters or via mobile apps; meters are marked clearly along streets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten gleich dort.",
+        "pronunciation": "ahm-OWtohmAHtuhn-glEYEkh-dAWrt",
+        "translation_en": "At the machine right over there."
+      },
+      "responses": [
+        {
+          "english": "At the machine right over there.",
+          "phonetic": "ahm-OWtohmAHtuhn-glEYEkh-dAWrt",
+          "french": "Am Automaten gleich dort."
+        }
+      ]
+    },
+    {
+      "id": "cologne_rheinauhafen_waterfront_003",
+      "intent_en": "How do I check in at KranhausPLUS security?",
+      "text_local": "Wie melde ich mich am Sicherheitsschalter an?",
+      "pronunciation": "vee-mEHlduh-ihkh-mihkh-ahm-zIHkhhEYEtskhahlt-AHn",
+      "formality": "standard",
+      "cultural_note": "In German office buildings, security is often handled at the reception desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Melden Sie sich am Empfang.",
+        "pronunciation": "mEHlduhn-zee-zihkh-ahm-ehmpfAHng",
+        "translation_en": "Check in at the reception."
+      },
+      "responses": [
+        {
+          "english": "Check in at the reception.",
+          "phonetic": "mEHlduhn-zee-zihkh-ahm-ehmpfAHng",
+          "french": "Melden Sie sich am Empfang."
+        }
+      ]
+    },
+    {
+      "id": "cologne_rheinauhafen_waterfront_004",
+      "intent_en": "Where is the marina harbor office?",
+      "text_local": "Wo ist das Hafenbüro der Marina?",
+      "pronunciation": "vOH-ihst-dahs-hAHfuhnbUEroh-dehr-mahrEEnah",
+      "formality": "standard",
+      "cultural_note": "In Germany, marina offices are typically marked with a blue 'Hafenbüro' sign and located near the docks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Kranhaus.",
+        "pronunciation": "deerEHkt-ahm-krAHnhows",
+        "translation_en": "Right at the Kranhaus."
+      },
+      "responses": [
+        {
+          "english": "Right at the Kranhaus.",
+          "phonetic": "deerEHkt-ahm-krAHnhows",
+          "french": "Direkt am Kranhaus."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

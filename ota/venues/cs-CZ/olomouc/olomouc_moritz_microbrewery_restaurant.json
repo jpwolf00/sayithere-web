@@ -1,0 +1,78 @@
+{
+  "id": "olomouc_moritz_microbrewery_restaurant",
+  "name_en": "Moritz Microbrewery Restaurant",
+  "name_local": "Pivovar Moritz",
+  "icon": "fork.knife",
+  "lat": 49.5907418,
+  "lon": 17.2499985,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "olomouc_moritz_microbrewery_restaurant_001",
+      "intent_en": "Do I pay at the table or counter",
+      "text_local": "Platí se u stolu nebo u pultu?",
+      "pronunciation": "plAHee-seh-OO-stOHloo-nEHboh-OO-pOOltoo",
+      "formality": "standard",
+      "cultural_note": "In Czech restaurants, table service and payment at the table is standard unless it's a self-service pub.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zaplatíte u stolu, obslouží vás číšník.",
+        "pronunciation": "zAHplahEEteh-OO-stOHlooOHpslohzhee-vAHs-tshEEshnyeek",
+        "translation_en": "You pay at the table, the waiter will serve you."
+      },
+      "responses": [
+        {
+          "english": "You pay at the table, the waiter will serve you.",
+          "phonetic": "zAHplahEEteh-OO-stOHlooOHpslohzhee-vAHs-tshEEshnyeek",
+          "french": "Zaplatíte u stolu, obslouží vás číšník."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_moritz_microbrewery_restaurant_002",
+      "intent_en": "Can I book the conference room for events",
+      "text_local": "Můžu si zarezervovat konferenční místnost na akci?",
+      "pronunciation": "mOOzhoo-see-zAHrehzEHrvohvaht-kOHnfehrEHntshnyee-mEEstnohst-nAHahktsee",
+      "formality": "standard",
+      "cultural_note": "Breweries with conference facilities typically direct booking inquiries to a central reception or events team.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, rezervace vyřizuje recepce.",
+        "pronunciation": "AHnohrEHzehrvAHtseh-vEEreezOOyeh-rEHtsehptseh",
+        "translation_en": "Yes, reception handles the bookings."
+      },
+      "responses": [
+        {
+          "english": "Yes, reception handles the bookings.",
+          "phonetic": "AHnohrEHzehrvAHtseh-vEEreezOOyeh-rEHtsehptseh",
+          "french": "Ano, rezervace vyřizuje recepce."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_moritz_microbrewery_restaurant_003",
+      "intent_en": "Can I buy M-Store products at the restaurant",
+      "text_local": "Můžu si tady v restauraci koupit produkty z M-Store?",
+      "pronunciation": "mOOzhoo-see-tAHdee-v-rEHstowrAHtsee-kOHpeet-prOHdooktee-s-EHmstOHreh",
+      "formality": "casual",
+      "cultural_note": "Czech microbreweries often have a separate shop for merchandise, but staff may confirm availability and direct you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, prodávají se u vchodu do obchodu.",
+        "pronunciation": "AHnohprOHdahvAHyee-seh-OO-fkhOHdoo-dOHohpkhOHdoo",
+        "translation_en": "Yes, they are sold at the store entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are sold at the store entrance.",
+          "phonetic": "AHnohprOHdahvAHyee-seh-OO-fkhOHdoo-dOHohpkhOHdoo",
+          "french": "Ano, prodávají se u vchodu do obchodu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,188 @@
+{
+  "id": "cappadocia_ürgüp_bus_terminal",
+  "name_en": "Ürgüp Bus Terminal",
+  "name_local": "Ürgüp Otogarı",
+  "icon": "tram",
+  "lat": 38.6386124,
+  "lon": 34.8455184,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "cappadocia_ürgüp_bus_terminal_001",
+      "intent_en": "Dolmuş fare to Ürgüp center?",
+      "text_local": "Ürgüp merkeze dolmuş ücreti ne kadar?",
+      "pronunciation": "uhrUHp-mehrkehzEH-dawmUHsh-uhdzhrehtIH-nEH-kahdAHr",
+      "formality": "standard",
+      "cultural_note": "Dolmuş fares are paid in cash directly to the driver and can vary; there is no fixed price board.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "On lira.",
+        "pronunciation": "AWn-leerAH",
+        "translation_en": "Ten lira."
+      },
+      "responses": [
+        {
+          "english": "Ten lira.",
+          "phonetic": "AWn-leerAH",
+          "french": "On lira."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_bus_terminal_002",
+      "intent_en": "Dolmuş fare to Ürgüp center?",
+      "text_local": "Ürgüp merkeze dolmuş kaç para?",
+      "pronunciation": "uhrUHp-mehrkehzEH-dawmUHsh-kAHtsh-pahrAH",
+      "formality": "standard",
+      "cultural_note": "Dolmuş fares can change and are often paid directly to the driver. Confirming the current fare is recommended.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "15 lira.",
+        "pronunciation": "OHnbEHsh-leerAH",
+        "translation_en": "15 lira."
+      },
+      "responses": [
+        {
+          "english": "15 lira.",
+          "phonetic": "OHnbEHsh-leerAH",
+          "french": "15 lira."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_bus_terminal_003",
+      "intent_en": "Next Nevşehir transfer bus time?",
+      "text_local": "Sonraki Nevşehir transferi ne zaman?",
+      "pronunciation": "sawnrahkIH-nehvshehhIHr-trahnsfehrIH-nEH-zahmAHn",
+      "formality": "standard",
+      "cultural_note": "Transfer bus schedules can be variable; it's always best to confirm times directly with the bus company's desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "On dakika sonra.",
+        "pronunciation": "AWn-dahkeekAH-sawnrAH",
+        "translation_en": "In ten minutes."
+      },
+      "responses": [
+        {
+          "english": "In ten minutes.",
+          "phonetic": "AWn-dahkeekAH-sawnrAH",
+          "french": "On dakika sonra."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_bus_terminal_004",
+      "intent_en": "Next Nevşehir transfer bus time?",
+      "text_local": "Sonraki Nevşehir transfer otobüsü ne zaman?",
+      "pronunciation": "sawnrahkIH-nehvshehhIHr-trahnsfEHr-ohtohbuesUH-nEH-zahmAHn",
+      "formality": "standard",
+      "cultural_note": "Transfer bus schedules can be irregular in small terminals; always best to confirm at the ticket window.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Saat başı bir kalkıyor.",
+        "pronunciation": "sahAHt-bahshOO-bihr-kahkOOyawr",
+        "translation_en": "One departs every hour."
+      },
+      "responses": [
+        {
+          "english": "One departs every hour.",
+          "phonetic": "sahAHt-bahshOO-bihr-kahkOOyawr",
+          "french": "Saat başı bir kalkıyor."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_bus_terminal_005",
+      "intent_en": "Which platform for Kayseri buses?",
+      "text_local": "Kayseri otobüsü hangi peronda?",
+      "pronunciation": "kAHysehrih-ohtohbuesUH-hahngIH-pehrawndAH",
+      "formality": "standard",
+      "cultural_note": "Turkish bus terminals can be chaotic; asking staff for the exact platform is the safest method.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peron iki.",
+        "pronunciation": "pehrAWn-eekIH",
+        "translation_en": "Platform two."
+      },
+      "responses": [
+        {
+          "english": "Platform two.",
+          "phonetic": "pehrAWn-eekIH",
+          "french": "Peron iki."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_bus_terminal_006",
+      "intent_en": "Where do I pay bagaj fee?",
+      "text_local": "Bagaj ücretini nerede ödeyeyim?",
+      "pronunciation": "bahgAHzh-uhdzhrehteenIH-nEHrehdeh-uhdehyehyIHm",
+      "formality": "standard",
+      "cultural_note": "Luggage fees in Turkish bus travel are often paid directly to the bus company or driver, but the exact point here is unverified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişede ödeyin.",
+        "pronunciation": "eeshehdEH-uhdehyIHn",
+        "translation_en": "Pay at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Pay at the ticket counter.",
+          "phonetic": "eeshehdEH-uhdehyIHn",
+          "french": "Gişede ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_bus_terminal_007",
+      "intent_en": "Is there a shared taxi service?",
+      "text_local": "Paylaşımlı taksi servisi var mı?",
+      "pronunciation": "awrtAHk-tahksIH-sehrveesIH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Shared taxi availability can be informal; the information desk is the best place to get a definitive answer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peron 3'te var.",
+        "pronunciation": "pehrAWn-UEtsh-tEH-vAHr",
+        "translation_en": "It is at platform 3."
+      },
+      "responses": [
+        {
+          "english": "It is at platform 3.",
+          "phonetic": "pehrAWn-UEtsh-tEH-vAHr",
+          "french": "Peron 3'te var."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_ürgüp_bus_terminal_008",
+      "intent_en": "Is there a shared taxi service?",
+      "text_local": "Paylaşımlı taksi servisi var mı?",
+      "pronunciation": "pahyAHshoomoo-tahksIH-sehrveesIH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Shared taxi availability is unconfirmed; negotiation is typically done directly with drivers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peron 1'den kalkıyor.",
+        "pronunciation": "pehrAWn-bEEr-dAHn-kahkOOyawr",
+        "translation_en": "It departs from platform 1."
+      },
+      "responses": [
+        {
+          "english": "It departs from platform 1.",
+          "phonetic": "pehrAWn-bEEr-dAHn-kahkOOyawr",
+          "french": "Peron 1'den kalkıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

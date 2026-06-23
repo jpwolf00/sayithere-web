@@ -1,0 +1,232 @@
+{
+  "id": "mykonos_fabrika_square",
+  "name_en": "Fabrika Square",
+  "name_local": "Πλατεία Φάμπρικα",
+  "icon": "map",
+  "lat": 37.4415182,
+  "lon": 25.3274187,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "mykonos_fabrika_square_001",
+      "intent_en": "Do I board buses at Fabrika?",
+      "text_local": "Επιβιβάζομαι στα λεωφορεία στη Φάμπρικα;",
+      "pronunciation": "EHpeeveevAHzohmEH-stah-lEHohfohrEEah-stee-fAHbreekAH",
+      "formality": "standard",
+      "cultural_note": "Fabrika bus station is a designated boarding point for multiple bus routes.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, εδώ.",
+        "pronunciation": "nEHehthOH",
+        "translation_en": "Yes, here."
+      },
+      "responses": [
+        {
+          "english": "Yes, here.",
+          "phonetic": "nEHehthOH",
+          "french": "Ναι, εδώ."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_002",
+      "intent_en": "Where is the south bus queue?",
+      "text_local": "Πού είναι η ουρά για το λεωφορείο προς νότο;",
+      "pronunciation": "pOO-EEneh-ee-oorAH-yAH-toh-lEHohfohrEEoh-prOHz-nOHtoh",
+      "formality": "standard",
+      "cultural_note": "Queues for buses are typically organized by destination and marked with clear signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο του σταθμού.",
+        "pronunciation": "steen-EEsohthOH-too-stahthmOO",
+        "translation_en": "At the station entrance."
+      },
+      "responses": [
+        {
+          "english": "At the station entrance.",
+          "phonetic": "steen-EEsohthOH-too-stahthmOO",
+          "french": "Στην είσοδο του σταθμού."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς επικυρώνω το εισιτήριο;",
+      "pronunciation": "pOHs-EHpeeeerOHnoh-toh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Η επικύρωση γίνεται συχνά από τον ελεγκτή κατά την επιβίβαση. Δεν υπάρχουν αυτόματες μηχανές επικύρωσης στη συγκεκριμένη περιοχή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο μηχάνημα μέσα στο λεωφορείο.",
+        "pronunciation": "stoh-meekhAHneemAH-mEHsah-stoh-lEHohfohrEEoh",
+        "translation_en": "You validate it on the bus, as soon as you board."
+      },
+      "responses": [
+        {
+          "english": "You validate it on the bus, as soon as you board.",
+          "phonetic": "stoh-meekhAHneemAH-mEHsah-stoh-lEHohfohrEEoh",
+          "french": "Στο μηχάνημα μέσα στο λεωφορείο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_004",
+      "intent_en": "Where is the SeaBus counter?",
+      "text_local": "Πού βρίσκεται το γκισέ του SeaBus;",
+      "pronunciation": "pOO-EEneh-oh-pAHnggohs-too-ehnsEE-bUHsehl",
+      "formality": "standard",
+      "cultural_note": "SeaBus counters are typically located near main transport hubs and are marked with clear signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στην κεντρική πλατεία.",
+        "pronunciation": "EEneh-steeng-gEHdreeEE-plahtEEah",
+        "translation_en": "It is in the main square."
+      },
+      "responses": [
+        {
+          "english": "It is in the main square.",
+          "phonetic": "EEneh-steeng-gEHdreeEE-plahtEEah",
+          "french": "Είναι στην κεντρική πλατεία."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_005",
+      "intent_en": "Ask where the south bus depot ticket desk is",
+      "text_local": "Πού είναι το ταμείο του Νότιου Σταθμού Λεωφορείων;",
+      "pronunciation": "pOO-EEneh-toh-tahmEEoh-too-nOHteeOO-stahthmOO-lEHohfohrEEohn",
+      "formality": "standard",
+      "cultural_note": "Οι στάσεις και γραφεία εισιτηρίων είναι συχνά σηματοδοτημένες. Δεν υπάρχει συγκεκριμένη τοποθεσία εντός της Πλατείας Φάμπρικα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Εκεί, δίπλα στην είσοδο.",
+        "pronunciation": "ehEEthEEplah-steen-EEsohthOH",
+        "translation_en": "There, next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "There, next to the entrance.",
+          "phonetic": "ehEEthEEplah-steen-EEsohthOH",
+          "french": "Εκεί, δίπλα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_006",
+      "intent_en": "Can I pay cash on the bus?",
+      "text_local": "Μπορώ να πληρώσω με μετρητά στο λεωφορείο;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-meh-mEHtreetAH-stoh-lEHohfohrEEoh",
+      "formality": "standard",
+      "cultural_note": "Cash payment is a common and accepted method directly to the bus driver in Greek public transport.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον οδηγό.",
+        "pronunciation": "nEHstohn-OHtheeghOH",
+        "translation_en": "Yes, to the driver."
+      },
+      "responses": [
+        {
+          "english": "Yes, to the driver.",
+          "phonetic": "nEHstohn-OHtheeghOH",
+          "french": "Ναι, στον οδηγό."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_007",
+      "intent_en": "Ask where to pay cash to the driver directly",
+      "text_local": "Πού πληρώνω τον οδηγό;",
+      "pronunciation": "pOO-pleerOHnoh-tohn-OHtheeghOH",
+      "formality": "standard",
+      "cultural_note": "Η πληρωμή γίνεται στον οδηγό κατά την επιβίβαση. Δεν υπάρχει ξεχωριστό σημείο πληρωμής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πληρώστε απευθείας στον οδηγό.",
+        "pronunciation": "pleerOHsteh-AHpehfthEEahs-stohn-OHtheeghOH",
+        "translation_en": "Pay directly to the driver."
+      },
+      "responses": [
+        {
+          "english": "Pay directly to the driver.",
+          "phonetic": "pleerOHsteh-AHpehfthEEahs-stohn-OHtheeghOH",
+          "french": "Πληρώστε απευθείας στον οδηγό."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_008",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πότε φεύγει το επόμενο λεωφορείο για Χώρα;",
+      "pronunciation": "pOHteh-fEHvyee-toh-ehpOHmehnOH-lEHohfohrEEoh-yAH-khOHrah",
+      "formality": "standard",
+      "cultural_note": "Τα δρομολόγια δεν ανακοινώνονται δημόσια. Ο οδηγός γνωρίζει τις ώρες αναχώρησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από τη στάση απέναντι σε λίγο.",
+        "pronunciation": "ahpOH-tee-stAHsee-ahpEHnahdEE-seh-lEEghoh",
+        "translation_en": "The next one for Chora leaves in a few minutes, from the stop across the street."
+      },
+      "responses": [
+        {
+          "english": "The next one for Chora leaves in a few minutes, from the stop across the street.",
+          "phonetic": "ahpOH-tee-stAHsee-ahpEHnahdEE-seh-lEEghoh",
+          "french": "Από τη στάση απέναντι σε λίγο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς να επικυρώσω το εισιτήριο;",
+      "pronunciation": "pOHz-nah-EHpeeeerOHsoh-toh-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Ticket validation is typically done verbally by staff upon boarding or inspection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο μηχάνημα μπροστά από την στάση.",
+        "pronunciation": "stoh-meekhAHneemAH-brohstAH-ahpOH-teen-stAHsee",
+        "translation_en": "You validate it at the machine before boarding."
+      },
+      "responses": [
+        {
+          "english": "You validate it at the machine before boarding.",
+          "phonetic": "stoh-meekhAHneemAH-brohstAH-ahpOH-teen-stAHsee",
+          "french": "Στο μηχάνημα μπροστά από την στάση."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_fabrika_square_010",
+      "intent_en": "Are tickets sold at Fabrika station?",
+      "text_local": "Πωλούνται εισιτήρια στο σταθμό Φάμπρικα;",
+      "pronunciation": "pohlOOdeh-EEseetEEreeAH-stoh-stahthmOH-fAHbreekAH",
+      "formality": "standard",
+      "cultural_note": "Fabrika bus station has designated ticket counters for purchasing tickets.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο.",
+        "pronunciation": "nEHstoh-tahmEEoh",
+        "translation_en": "Yes, at the ticket office."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket office.",
+          "phonetic": "nEHstoh-tahmEEoh",
+          "french": "Ναι, στο ταμείο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

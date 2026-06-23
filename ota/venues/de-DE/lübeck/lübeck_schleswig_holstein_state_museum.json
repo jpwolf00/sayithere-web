@@ -1,0 +1,100 @@
+{
+  "id": "lübeck_schleswig_holstein_state_museum",
+  "name_en": "Schleswig-Holstein State Museum",
+  "name_local": "Stiftung Schleswig-Holsteinische Landesmuseen",
+  "icon": "building.columns",
+  "lat": 53.866444,
+  "lon": 10.684738,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lübeck_schleswig_holstein_state_museum_001",
+      "intent_en": "Combined castle entry valid today",
+      "text_local": "Gilt die Kombi-Eintrittskarte heute?",
+      "pronunciation": "IHlt-dee-kAWmbeeEYEntrIHtskahrtuh-hAWuhtuh",
+      "formality": "standard",
+      "cultural_note": "Kombi-Tickets gelten oft nur am Kaufdatum, nicht für Folgetage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, für heute.",
+        "pronunciation": "yAHfuer-hAWuhtuh",
+        "translation_en": "Yes, for today."
+      },
+      "responses": [
+        {
+          "english": "Yes, for today.",
+          "phonetic": "yAHfuer-hAWuhtuh",
+          "french": "Ja, für heute."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_schleswig_holstein_state_museum_002",
+      "intent_en": "Audio guide deposit returned where",
+      "text_local": "Wo gebe ich den Audioguide zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-dehn-ehnAWdihUHuheyeddeh-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Audioguides werden meist zentral am Kassenbereich oder Ausgabeschalter zurückgegeben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the desk."
+      },
+      "responses": [
+        {
+          "english": "At the desk.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_schleswig_holstein_state_museum_003",
+      "intent_en": "Special exhibit surcharge at Stiftung desk",
+      "text_local": "Wie hoch ist der Aufpreis für die Sonderausstellung?",
+      "pronunciation": "vee-hOHkh-ihst-dehr-OWfprEYEs-fuer-dee-zAWndehrOWsshtuhlUHng",
+      "formality": "standard",
+      "cultural_note": "Sonderausstellungen haben oft separate Zuzahlungen, die am Schalter angegeben sind.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "3 Euro Aufpreis.",
+        "pronunciation": "drEYE-AWuhroh-OWfprEYEs",
+        "translation_en": "3 euros surcharge."
+      },
+      "responses": [
+        {
+          "english": "3 euros surcharge.",
+          "phonetic": "drEYE-AWuhroh-OWfprEYEs",
+          "french": "3 Euro Aufpreis."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_schleswig_holstein_state_museum_004",
+      "intent_en": "Barracks wing gift shop exit only",
+      "text_local": "Darf man hier nur rausgehen?",
+      "pronunciation": "dAHrf-mahn-hEEr-nOOr-rOWsehuhn",
+      "formality": "casual",
+      "cultural_note": "In historischen Gebäuden sind Ausgänge oft separat markiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Ausgang.",
+        "pronunciation": "nOOr-OWsAHng",
+        "translation_en": "Exit only."
+      },
+      "responses": [
+        {
+          "english": "Exit only.",
+          "phonetic": "nOOr-OWsAHng",
+          "french": "Nur Ausgang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

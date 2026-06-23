@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_zermatt_railway_station",
+  "name_en": "Zermatt Railway Station",
+  "name_local": "Bahnhof Zermatt",
+  "icon": "tram",
+  "lat": 46.0245732,
+  "lon": 7.7481294,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zermatt_zermatt_railway_station_001",
+      "intent_en": "Can I buy the ski pass at the station desk?",
+      "text_local": "Gibt es Skipässe am Schalter?",
+      "pronunciation": "EEpt-ehs-skEEpehsuh-ahm-shAHlt",
+      "formality": "standard",
+      "cultural_note": "In Swiss ski resorts, ski passes are often available at railway station counters, especially in Zermatt which is car-free and relies on public transport.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter möglich.",
+        "pronunciation": "yAHahm-shAHlt-mUHklihkh",
+        "translation_en": "Yes, possible at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, possible at the counter.",
+          "phonetic": "yAHahm-shAHlt-mUHklihkh",
+          "french": "Ja, am Schalter möglich."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_zermatt_railway_station_002",
+      "intent_en": "Where do I validate my Swiss Travel Pass?",
+      "text_local": "Wo kann ich meinen Swiss Travel Pass stempeln lassen?",
+      "pronunciation": "vOH-kAHn-ihkh-mEYEnuhn-svIHs-trAHvuhl-pAHs-shtEHmpuhln-lAHsuhn",
+      "formality": "standard",
+      "cultural_note": "Swiss Travel Pass validation is typically handled at dedicated ticket counters or information desks in Swiss train stations. Conductors usually do not validate passes en route.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Gleis beim Schaffner.",
+        "pronunciation": "deerEHkt-ahm-glEYEs-beyem-shAHfn",
+        "translation_en": "Right at the platform with the conductor."
+      },
+      "responses": [
+        {
+          "english": "Right at the platform with the conductor.",
+          "phonetic": "deerEHkt-ahm-glEYEs-beyem-shAHfn",
+          "french": "Direkt am Gleis beim Schaffner."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_zermatt_railway_station_003",
+      "intent_en": "When does the last train to Visp leave?",
+      "text_local": "Wann fährt der letzte Zug nach Visp?",
+      "pronunciation": "vAHn-fEHrt-dehr-lEHtstuh-tsOOk-nahkh-vIHsp",
+      "formality": "standard",
+      "cultural_note": "Swiss train schedules are highly precise and published in advance. The last direct connection to Visp from Zermatt is typically in the early evening.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "21:15 Uhr.",
+        "pronunciation": "EYEn-uhnttsvAHntsihkh-oor-fUEnftsehn-OOr",
+        "translation_en": "9:15 PM."
+      },
+      "responses": [
+        {
+          "english": "9:15 PM.",
+          "phonetic": "EYEn-uhnttsvAHntsihkh-oor-fUEnftsehn-OOr",
+          "french": "21:15 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_zermatt_railway_station_004",
+      "intent_en": "Where is the Gornergrat Railway terminus platform?",
+      "text_local": "Wo ist der Bahnsteig der Gornergrat-Bahn?",
+      "pronunciation": "vOH-EHnduht-dee-AWrnrAHtbAHn",
+      "formality": "standard",
+      "cultural_note": "In Swiss train stations, platforms for regional terminus lines are often clearly marked with the line name. Gornergrat Railway is a prominent local service, so directional signs are typically available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis drei.",
+        "pronunciation": "glEYEs-drEYE",
+        "translation_en": "Platform three."
+      },
+      "responses": [
+        {
+          "english": "Platform three.",
+          "phonetic": "glEYEs-drEYE",
+          "french": "Gleis drei."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

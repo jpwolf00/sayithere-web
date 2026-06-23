@@ -1,0 +1,100 @@
+{
+  "id": "hakone_hakone_yumoto_station",
+  "name_en": "Hakone-Yumoto Station",
+  "name_local": "箱根湯本駅",
+  "icon": "tram",
+  "lat": 35.2331952,
+  "lon": 139.1034651,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hakone_hakone_yumoto_station_001",
+      "intent_en": "Where is Hakone Freepass machine?",
+      "text_local": "はこねフリーパスのけんばいきはどこですか？",
+      "pronunciation": "hKohnEHooEEpsOOnohkEHbEEkEEhdOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "フリーパス専用機は窓口とは別の場所にあることが多い。",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いりぐちのちかく、ひだりがわです。",
+        "pronunciation": "EEeegOOteenOHteekKookhEEdEEgwdEHsoo",
+        "translation_en": "Near the entrance, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Near the entrance, on the left side.",
+          "phonetic": "EEeegOOteenOHteekKookhEEdEEgwdEHsoo",
+          "french": "いりぐちのちかく、ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_yumoto_station_002",
+      "intent_en": "Is the next Romancecar in 20 minutes?",
+      "text_local": "つぎのロマンスカーはにじゅっぷんごですか？",
+      "pronunciation": "tsOOgeenOHohmSOOkhNeedOOppoonggOHdehsOOk",
+      "formality": "standard",
+      "cultural_note": "時間厳守の鉄道文化のため、簡潔に肯定する。",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、にじゅっぷんごです。",
+        "pronunciation": "hEEnEEdooppOOnggohdEHsoo",
+        "translation_en": "Yes, in 20 minutes."
+      },
+      "responses": [
+        {
+          "english": "Yes, in 20 minutes.",
+          "phonetic": "hEEnEEdooppOOnggohdEHsoo",
+          "french": "はい、にじゅっぷんごです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_yumoto_station_003",
+      "intent_en": "Where are Tozan Line gates?",
+      "text_local": "とざんせんのかいさつはどこですか？",
+      "pronunciation": "tOHzSehnnOHkEEstsOOhdOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "箱根湯本駅では登山線ホームが上階にあるため、階段を案内するのが自然。",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいだんのぼって、みぎです。",
+        "pronunciation": "kEEdNnohbOHttehmEEgeedEHsoo",
+        "translation_en": "Up the stairs, on the right."
+      },
+      "responses": [
+        {
+          "english": "Up the stairs, on the right.",
+          "phonetic": "kEEdNnohbOHttehmEEgeedEHsoo",
+          "french": "かいだんのぼって、みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_yumoto_station_004",
+      "intent_en": "Where is Romancecar ticket counter?",
+      "text_local": "ロマンスカーのきっぷうりばはどこですか？",
+      "pronunciation": "OHmSookNohkEEppooooEEbhDohkOHdehsOOk",
+      "formality": "standard",
+      "cultural_note": "駅員は色や簡単な位置で案内することが多い。",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あおいカウンター、まっすぐどうぞ。",
+        "pronunciation": "OHEEkOOntmSsoogOOdohOOzoh",
+        "translation_en": "The blue counter, straight ahead please."
+      },
+      "responses": [
+        {
+          "english": "The blue counter, straight ahead please.",
+          "phonetic": "OHEEkOOntmSsoogOOdohOOzoh",
+          "french": "あおいカウンター、まっすぐどうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

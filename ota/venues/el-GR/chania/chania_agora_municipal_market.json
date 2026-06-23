@@ -1,0 +1,78 @@
+{
+  "id": "chania_agora_municipal_market",
+  "name_en": "Agora Municipal Market",
+  "name_local": "Αγορά Χανίων",
+  "icon": "cart",
+  "lat": 35.5144969,
+  "lon": 24.0202796,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "chania_agora_municipal_market_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτό το καφέ;",
+      "pronunciation": "toh-kAHfehnEEoh-AHneeksEH",
+      "formality": "standard",
+      "cultural_note": "Στον αγορά, η λειτουργία του καφενείου εξαρτάται συχνά από την παρουσία του καφετζή, καθώς δεν υπάρχουν μόνιμες πινακίδες λειτουργίας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτό τώρα.",
+        "pronunciation": "nEHEEneh-AHneekhtOH-tOHrah",
+        "translation_en": "Yes, it is open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open now.",
+          "phonetic": "nEHEEneh-AHneekhtOH-tOHrah",
+          "french": "Ναι, είναι ανοιχτό τώρα."
+        }
+      ]
+    },
+    {
+      "id": "chania_agora_municipal_market_002",
+      "intent_en": "How do I get bulk raki weighed?",
+      "text_local": "Πώς ζυγίζω χύμα ρακί;",
+      "pronunciation": "pOHs-kAHnoh-zEEyeesEE-khEEmah-rahEE",
+      "formality": "standard",
+      "cultural_note": "Η ζύγιση χύμα ρακί αποτελεί κοινή υπηρεσία στον αγορά, αλλά η ακριβής τοποθεσία μπορεί να μην είναι σαφής στους επισκέπτες. Οι υπάλληλοι γνωρίζουν τις διαδικασίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πήγαινε στο ζυγιστήριο δίπλα στην ιχθυόσκαλα.",
+        "pronunciation": "pEEyehnEH-stoh-zEEyeestEEreeOH-thEEplah-steen-EEkhtheeOHskahlAH",
+        "translation_en": "Go to the weighing station next to the fish hall."
+      },
+      "responses": [
+        {
+          "english": "Go to the weighing station next to the fish hall.",
+          "phonetic": "pEEyehnEH-stoh-zEEyeestEEreeOH-thEEplah-steen-EEkhtheeOHskahlAH",
+          "french": "Πήγαινε στο ζυγιστήριο δίπλα στην ιχθυόσκαλα."
+        }
+      ]
+    },
+    {
+      "id": "chania_agora_municipal_market_003",
+      "intent_en": "Do butcher counters weigh meat for me?",
+      "text_local": "Μου ζυγίζουν το κρέας οι κρεοπώλες;",
+      "pronunciation": "moo-zeeyEEzoon-doh-krEHahs-ee-krEHohpOHlehs",
+      "formality": "standard",
+      "cultural_note": "Στον αγορά, οι κρεοπώλες παρέχουν υπηρεσία ζύγισης κρέατος ως μέρος της παράδοσης πώλησης.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ζυγίζουν.",
+        "pronunciation": "nEHzeeyEEzoon",
+        "translation_en": "Yes, they weigh."
+      },
+      "responses": [
+        {
+          "english": "Yes, they weigh.",
+          "phonetic": "nEHzeeyEEzoon",
+          "french": "Ναι, ζυγίζουν."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

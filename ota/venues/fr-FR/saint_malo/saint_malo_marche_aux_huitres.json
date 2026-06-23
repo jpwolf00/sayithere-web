@@ -1,0 +1,118 @@
+{
+  "id": "saint_malo_marche_huitres",
+  "name_en": "Marché aux Huîtres",
+  "name_local": "Marché aux Huîtres",
+  "icon": "basket",
+  "lat": 48.646,
+  "lon": -1.99,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "saintmalo_huitres_001",
+      "intent_en": "Ask how much a dozen oysters costs",
+      "text_local": "Combien coûte la douzaine d'huîtres ?",
+      "pronunciation": "kom-BYAN KOOT lah doo-ZEN DWEE-truh",
+      "formality": "polite",
+      "cultural_note": "Oyster prices vary by size and season. The market offers oysters to eat on the spot or take away.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It depends on the size. Prices are posted there.",
+          "phonetic": "sah day-PAHN duh lah TAH-yuh. lay PREE son ah-fee-SHAY LAH",
+          "french": "Ça dépend de la taille. Les prix sont affichés là."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_huitres_002",
+      "intent_en": "Ask for a dozen oysters to eat here",
+      "text_local": "Une dozen d'huîtres à manger ici, s'il vous plaît.",
+      "pronunciation": "oon DOO-zahn WEE-truh ah mahn-ZHAY ee-SEE seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The market has stands where you can eat fresh oysters on the spot, typically with lemon and bread. They come with a small fork.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, with lemon and bread. Here you go.",
+          "phonetic": "wee byan soor, see say dee-spoh-nee-BL",
+          "french": "Oui, avec du citron et du pain. Voilà."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_huitres_003",
+      "intent_en": "Ask about the different sizes of oysters",
+      "text_local": "Quelles sont les différentes tailles d'huîtres ?",
+      "pronunciation": "kel son lay day-fay-RANT TAH-yuh WEE-truh",
+      "formality": "polite",
+      "cultural_note": "Oysters are graded by size: No. 1 (largest, 'pied de cheval'), No. 2 ('demi'), No. 3 ('numéro 3'), and No. 4 (smallest, 'brettve').",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From one to four. Two and three are the most common.",
+          "phonetic": "say ahn-vee-ROHN duh kee-loh-METR",
+          "french": "De un à quatre. Le deux et le trois sont les plus courants."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_huitres_004",
+      "intent_en": "Ask if the oysters are fresh today",
+      "text_local": "Les huîtres sont-elles fraîches aujourd'hui ?",
+      "pronunciation": "lay WEE-truh son-TEL FRESH oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Oysters are best in months with 'R' (September through April). In summer, they spawn and are less flavorful. Look for the 'R' rule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, they're fresh from today.",
+          "phonetic": "wee, el son byan fresh oh-zhoor-DWEE",
+          "french": "Oui, elles sont fraîches d'aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "saintmalo_huitres_005",
+      "intent_en": "Ask about pairing wine with oysters",
+      "text_local": "Quel vin thérapeut-on avec des huîtres ?",
+      "pronunciation": "kel van tay-ray-peh-TOH ah-vek day WEE-truh",
+      "formality": "polite",
+      "cultural_note": "The classic pairing is a crisp Muscadet or Chablis. For something different, try a dry cidre from Brittany with your oysters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "A nice cold Muscadet or a Breton cider.",
+          "phonetic": "wee byan soor, see say dee-spoh-nee-BL",
+          "french": "Un Muscadet bien frais ou un cidre breton."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "oyster",
+      "word_local": "l'huître",
+      "pronunciation": "LWEE-truh"
+    },
+    {
+      "word_en": "dozen",
+      "word_local": "la douzaine",
+      "pronunciation": "lah doo-ZEN"
+    },
+    {
+      "word_en": " oyster farm",
+      "word_local": "l'huître",
+      "pronunciation": "LWEE-truh"
+    },
+    {
+      "word_en": "tasting",
+      "word_local": "la degustation",
+      "pronunciation": "lah day-goos-tah-SYON"
+    }
+  ]
+}

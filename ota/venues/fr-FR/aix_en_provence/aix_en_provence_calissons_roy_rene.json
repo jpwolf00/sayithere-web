@@ -1,0 +1,115 @@
+{
+  "id": "aix_calissons_roy_rene",
+  "name_en": "Calissons du Roy René",
+  "name_local": "Calissons du Roy René",
+  "icon": "fork.knife",
+  "phrases": [
+    {
+      "id": "aix_calissons_001",
+      "intent_en": "Ask to try a calisson before buying",
+      "text_local": "Puis-je goûter un calisson avant d'en acheter ?",
+      "pronunciation": "pwee-ZHUH goo-TAY uhn kah-lee-SOHN ah-VAHN dahn ash-TAY",
+      "formality": "polite",
+      "cultural_note": "Calissons are the iconic sweet of Aix-en-Provence — almond paste and candied melon formed into an elongated diamond shape, coated with royal icing. Roy René is the most prestigious maker, with its workshop visible through a glass window in the Cours Mirabeau boutique.",
+      "responses": [
+        {
+          "english": "Yes, here, try this one.",
+          "phonetic": "wee, tuh-NAY, goo-TAY suh-LWEE-see",
+          "french": "Oui, tenez, goûtez celui-ci."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_calissons_002",
+      "intent_en": "Ask for a gift box of calissons",
+      "text_local": "Je voudrais une boîte de calissons pour offrir, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DREH oon BWAT duh kah-lee-SOHN poor oh-FREER, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Calissons come in elegant gift boxes at Roy René, making them the quintessential souvenir from Aix. The traditional variety uses Provence melon and almonds from the local AOC, though flavoured versions (lemon, pistachio, violet) are also made.",
+      "responses": [
+        {
+          "english": "What size? Twelve or twenty-four pieces?",
+          "phonetic": "kel TYE ? dooz oo vehn-KAH-truh PYES",
+          "french": "Quelle taille ? Douze ou vingt-quatre pièces ?"
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_calissons_003",
+      "intent_en": "Ask how long calissons stay fresh",
+      "text_local": "Combien de temps se conservent les calissons ?",
+      "pronunciation": "kohm-BYEHN duh TAHN suh kohn-SEHRV lay kah-lee-SOHN",
+      "formality": "polite",
+      "cultural_note": "Calissons are vacuum-packed for freshness and keep for several months, making them practical gifts for travellers.",
+      "responses": [
+        {
+          "english": "Several months in the packaging.",
+          "phonetic": "ploo-ZYUHR MWAH dahn lahm-bah-LAHZH",
+          "french": "Plusieurs mois dans l'emballage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_calissons_004",
+      "intent_en": "Ask if they can ship internationally",
+      "text_local": "Est-il possible d'envoyer une commande à l'étranger ?",
+      "pronunciation": "eh-TEEL poh-SEE-bluh dahn-vwah-YAY oon koh-MAHND ah lay-trahn-ZHAY",
+      "formality": "polite",
+      "cultural_note": "Roy René ships internationally and also sells online. The calissons are vacuum-packed for freshness and will keep for several months, making them practical gifts for travellers heading home.",
+      "responses": [
+        {
+          "english": "Yes, we ship internationally.",
+          "phonetic": "wee, ohn LEE-vruh ah lehn-ter-nah-syoh-NAL",
+          "french": "Oui, on livre à l'international."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "aix_calissons_005",
+      "intent_en": "Ask what makes a genuine Aix calisson different from imitations",
+      "text_local": "En quoi le vrai calisson d'Aix se distingue-t-il des imitations ?",
+      "pronunciation": "ahn KWAH luh VREH kah-lee-SOHN DEX suh dees-TEHN-gwuh TEEL dayz ee-mee-tah-SYOHN",
+      "formality": "polite",
+      "cultural_note": "Authentic Calisson d'Aix must contain a minimum of 35% Provence almonds and candied Provence melon, be produced in the Aix-en-Provence area, and carry the IGP (Indication Géographique Protégée) label. Generic calissons sold in supermarkets often use inferior ingredients.",
+      "responses": [
+        {
+          "english": "Look for the IGP label on the packaging.",
+          "phonetic": "shehr-SHAY luh lah-BEL ee-zhay-PAY soor lahm-bah-LAHZH",
+          "french": "Cherchez le label IGP sur l'emballage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Calisson (almond sweet)",
+      "word_local": "Le calisson",
+      "pronunciation": "luh kah-lee-SOHN"
+    },
+    {
+      "word_en": "Gift box",
+      "word_local": "La boîte cadeau",
+      "pronunciation": "lah BWAT kah-DOH"
+    },
+    {
+      "word_en": "Almond",
+      "word_local": "L'amande",
+      "pronunciation": "lah-MAHND"
+    },
+    {
+      "word_en": "Confectionery",
+      "word_local": "La confiserie",
+      "pronunciation": "lah kon-feez-REE"
+    }
+  ]
+}

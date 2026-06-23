@@ -1,0 +1,78 @@
+{
+  "id": "hakone_hakone_tourist_information_center",
+  "name_en": "Hakone Tourist Information Center",
+  "name_local": "箱根観光案内所",
+  "icon": "info.circle",
+  "lat": 35.2331952,
+  "lon": 139.05023325,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "hakone_hakone_tourist_information_center_001",
+      "intent_en": "Where do I book Pola Museum tour?",
+      "text_local": "ポーラびじゅつかんの ツアーよやくは どこですか？",
+      "pronunciation": "pOHohbEEdootsookNnoh-tsOOyOHykOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Tour bookings are often handled at a dedicated counter rather than the general information desk.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おくの ツアーカウンターへ どうぞ。",
+        "pronunciation": "ohkOOnoh-tsOOkOOntHeh-dohOOzoh",
+        "translation_en": "Please go to the tour counter at the back."
+      },
+      "responses": [
+        {
+          "english": "Please go to the tour counter at the back.",
+          "phonetic": "ohkOOnoh-tsOOkOOntHeh-dohOOzoh",
+          "french": "おくの ツアーカウンターへ どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_tourist_information_center_002",
+      "intent_en": "Where is the Freepass counter?",
+      "text_local": "フリーパスの うりばは どこですか？",
+      "pronunciation": "OOeepsOOnoh-OOeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often use window numbers for specific counters.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みぎがわの 3ばん まどぐちです。",
+        "pronunciation": "mEEgeegwNoh-sN-b-MDohgOOteedEHsoo",
+        "translation_en": "It's window number 3 on the right-hand side."
+      },
+      "responses": [
+        {
+          "english": "It's window number 3 on the right-hand side.",
+          "phonetic": "mEEgeegwNoh-sN-b-MDohgOOteedEHsoo",
+          "french": "みぎがわの 3ばん まどぐちです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_tourist_information_center_003",
+      "intent_en": "Is the Lake Ashi cruise included?",
+      "text_local": "あしのこの ゆうらんせんは ふくまれていますか？",
+      "pronunciation": "EEnohkOHnoh-yOOooSehH-OOkoomEHtEHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple, direct confirmation is common for pass inclusion questions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、のれますよ。",
+        "pronunciation": "hEEnOHehmsOOyoh",
+        "translation_en": "Yes, you can ride it."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can ride it.",
+          "phonetic": "hEEnOHehmsOOyoh",
+          "french": "はい、のれますよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

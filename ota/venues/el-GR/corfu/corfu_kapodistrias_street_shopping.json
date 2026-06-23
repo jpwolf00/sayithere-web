@@ -1,0 +1,78 @@
+{
+  "id": "corfu_kapodistrias_street_shopping",
+  "name_en": "Kapodistrias Street shopping",
+  "name_local": "Οδός Καποδίστρια",
+  "icon": "bag",
+  "lat": 39.591337,
+  "lon": 19.8596189,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "corfu_kapodistrias_street_shopping_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται ακριβώς ο ανδριάντας του Καποδίστρια;",
+      "pronunciation": "pOO-vrEEsehtEH-AHkreevOHs-oh-AHnthreeAHdahs-too-kAHpohthEEstreeAH",
+      "formality": "standard",
+      "cultural_note": "In Greece, public statues of historical figures are typically located in central squares or along pedestrian zones. Directing to an exact spot without clear signage is avoided to prevent misinformation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στην κεντρική πλατεία, κοντά στον πεζόδρομο.",
+        "pronunciation": "EEneh-steeng-gEHdreeEE-plahtEEahkohdAH-stohm-behzOHthrohmOH",
+        "translation_en": "It is in the central square, near the pedestrian street."
+      },
+      "responses": [
+        {
+          "english": "It is in the central square, near the pedestrian street.",
+          "phonetic": "EEneh-steeng-gEHdreeEE-plahtEEahkohdAH-stohm-behzOHthrohmOH",
+          "french": "Είναι στην κεντρική πλατεία, κοντά στον πεζόδρομο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_kapodistrias_street_shopping_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το πιο κοντινό ΑΤΜ;",
+      "pronunciation": "pOO-EEneh-toh-pkhOH-kOHdeenOH-AHlfahtAHfmEE",
+      "formality": "standard",
+      "cultural_note": "ATM locations in pedestrian zones are often near central points like squares or walkways. Exact placement without visible signage cannot be guaranteed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το πιο κοντινό είναι λίγο πιο κάτω, δίπλα στην πλατεία.",
+        "pronunciation": "toh-pkhOH-kOHdeenOH-EEneh-lEEghoh-pkhOH-kAHtohthEEplah-steem-blahtEEah",
+        "translation_en": "The nearest one is a little further down, next to the square."
+      },
+      "responses": [
+        {
+          "english": "The nearest one is a little further down, next to the square.",
+          "phonetic": "toh-pkhOH-kOHdeenOH-EEneh-lEEghoh-pkhOH-kAHtohthEEplah-steem-blahtEEah",
+          "french": "Το πιο κοντινό είναι λίγο πιο κάτω, δίπλα στην πλατεία."
+        }
+      ]
+    },
+    {
+      "id": "corfu_kapodistrias_street_shopping_003",
+      "intent_en": "Can I haggle at souvenir shops here?",
+      "text_local": "Μπορώ να κάνω παζάρι στα μαγαζιά με σουβενίρ;",
+      "pronunciation": "bohrOH-nah-kAHnoh-pahzAHree-stah-mAHghahzyAH-meh-sOOvehnEEr",
+      "formality": "standard",
+      "cultural_note": "In Greek markets, haggling is not standard practice unless explicitly offered by the seller. Customers are expected to inquire directly with the shop owner.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Συνήθως όχι.",
+        "pronunciation": "seenEEthohs-OHkhee",
+        "translation_en": "Usually not."
+      },
+      "responses": [
+        {
+          "english": "Usually not.",
+          "phonetic": "seenEEthohs-OHkhee",
+          "french": "Συνήθως όχι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

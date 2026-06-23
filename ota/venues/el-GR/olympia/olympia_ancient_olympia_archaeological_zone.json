@@ -1,0 +1,122 @@
+{
+  "id": "olympia_ancient_olympia_archaeological_zone",
+  "name_en": "Ancient Olympia Archaeological Zone",
+  "name_local": "Αρχαία Ολυμπία",
+  "icon": "map",
+  "lat": 37.6441431,
+  "lon": 21.6252773,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "olympia_ancient_olympia_archaeological_zone_001",
+      "intent_en": "Is the Philippeion currently fenced off",
+      "text_local": "Το Φιλιππαίο είναι περιφραγμένο;",
+      "pronunciation": "toh-fEE-eeOHtah-lAHmthah-eeOHtah-ehnsihrIHlihkpEH-sihrIHlihkpEH-sihrIHlihkAHehl-eeOHtah-tOHnohs-oh-EEneh-pEHreefrahghmEHnoh",
+      "formality": "standard",
+      "cultural_note": "Η κατάσταση της περίφραξης μπορεί να αλλάζει ανά εποχή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι περιφραγμένο προσωρινά.",
+        "pronunciation": "nEHEEneh-pEHreefrahghmEHnoh-prOHsohreenAH",
+        "translation_en": "Ask the archaeologist."
+      },
+      "responses": [
+        {
+          "english": "Ask the archaeologist.",
+          "phonetic": "nEHEEneh-pEHreefrahghmEHnoh-prOHsohreenAH",
+          "french": "Ναι, είναι περιφραγμένο προσωρινά."
+        }
+      ]
+    },
+    {
+      "id": "olympia_ancient_olympia_archaeological_zone_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να γεμίσω το μπουκάλι μου με νερό;",
+      "pronunciation": "pOO-bohrOH-nah-yehmEEsoh-toh-bookAHlee-moo",
+      "formality": "polite",
+      "cultural_note": "Τα σημεία πλήρωσης νερού δεν είναι πάντα ορατά στους επισκέπτες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις βρύσες πίσω από το Μουσείο.",
+        "pronunciation": "steez-vrEEsehs-pEEsoh-ahpOH-toh-moosEEoh",
+        "translation_en": "At the nearby canteen or at the taps near the restrooms. Follow the signs."
+      },
+      "responses": [
+        {
+          "english": "At the nearby canteen or at the taps near the restrooms. Follow the signs.",
+          "phonetic": "steez-vrEEsehs-pEEsoh-ahpOH-toh-moosEEoh",
+          "french": "Στις βρύσες πίσω από το Μουσείο."
+        }
+      ]
+    },
+    {
+      "id": "olympia_ancient_olympia_archaeological_zone_003",
+      "intent_en": "How do I validate my combo ticket",
+      "text_local": "Πώς επικυρώνεται το συνδυαστικό εισιτήριο;",
+      "pronunciation": "pOHs-EHpeeeerOHnehtEH-toh-sEEntheeAHsteekOH-EEseetEEreeOH",
+      "formality": "standard",
+      "cultural_note": "Τα συνδυαστικά εισιτήρια επικυρώνονται στους χώρους έκδοσης εισιτηρίων πριν την είσοδο στις αρχαιολογικές περιοχές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Επικυρώνεται στα εκδοτήρια.",
+        "pronunciation": "EHpeeeerOHnehtEH-stah-EHkthohtEEreeAH",
+        "translation_en": "Validate at the ticket booths."
+      },
+      "responses": [
+        {
+          "english": "Validate at the ticket booths.",
+          "phonetic": "EHpeeeerOHnehtEH-stah-EHkthohtEEreeAH",
+          "french": "Επικυρώνεται στα εκδοτήρια."
+        }
+      ]
+    },
+    {
+      "id": "olympia_ancient_olympia_archaeological_zone_004",
+      "intent_en": "Where do I return the audio guide",
+      "text_local": "Πού επιστρέφω τον οπτικοακουστικό οδηγό;",
+      "pronunciation": "pOO-EHpeestrEHfoh-tohng-gzehnAHyeesEE",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγήσεις συνήθως επιστρέφονται στον χώρο ενοικίασης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο εισόδου, δεξιά.",
+        "pronunciation": "stohm-bAHnggoh-eesOHthoothEHkseeAH",
+        "translation_en": "Ask the staff member."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member.",
+          "phonetic": "stohm-bAHnggoh-eesOHthoothEHkseeAH",
+          "french": "Στον πάγκο εισόδου, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "olympia_ancient_olympia_archaeological_zone_005",
+      "intent_en": "Where is the Krypte tunnel entrance",
+      "text_local": "Πού είναι η είσοδος της στοάς Κρύπτη;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHs-tees-stohAHs-krEEptee",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν την είσοδο της στοάς Κρύπτη μέσω του σταδίου λόγω της τοπογραφίας της περιοχής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετά το εργαστήριο Φειδία, δεξιά.",
+        "pronunciation": "mehtAH-toh-EHrghahstEEreeOH-feethEEahthEHkseeAH",
+        "translation_en": "Ask the archaeologist."
+      },
+      "responses": [
+        {
+          "english": "Ask the archaeologist.",
+          "phonetic": "mehtAH-toh-EHrghahstEEreeOH-feethEEahthEHkseeAH",
+          "french": "Μετά το εργαστήριο Φειδία, δεξιά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

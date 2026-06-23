@@ -1,0 +1,144 @@
+{
+  "id": "antalya_antalya_bus_terminal",
+  "name_en": "Antalya Bus Terminal",
+  "name_local": "Antalya Otogar",
+  "icon": "tram",
+  "lat": 36.9221838,
+  "lon": 30.666286,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "antalya_antalya_bus_terminal_001",
+      "intent_en": "Where is the luggage storage payment?",
+      "text_local": "Bagaj emanet ödemesi nerede?",
+      "pronunciation": "bahgAHzh-ehmahnEHt-uhdehmehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Payment point for luggage storage is not a fixed, signposted location; the porter or information desk can direct you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişelerin arkasında.",
+        "pronunciation": "eeshehlehrIHn-ahrkahsoondAH",
+        "translation_en": "Behind the ticket counters."
+      },
+      "responses": [
+        {
+          "english": "Behind the ticket counters.",
+          "phonetic": "eeshehlehrIHn-ahrkahsoondAH",
+          "french": "Gişelerin arkasında."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_bus_terminal_002",
+      "intent_en": "Is there a security check at entrance?",
+      "text_local": "Girişte güvenlik kontrolü var mı?",
+      "pronunciation": "eerihshtEH-uevahnlIHk-kawntrohlUH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Security checks are standard at the main building entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, ana terminal girişinde var.",
+        "pronunciation": "ehvEHtahnAH-tehrmeenAH-eereeshihndEH-vAHr",
+        "translation_en": "Yes, at the main terminal entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the main terminal entrance.",
+          "phonetic": "ehvEHtahnAH-tehrmeenAH-eereeshihndEH-vAHr",
+          "french": "Evet, ana terminal girişinde var."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_bus_terminal_003",
+      "intent_en": "Where do dolmus minibuses stop?",
+      "text_local": "Dolmuşlar nereden kalkıyor?",
+      "pronunciation": "dawmuhshAHr-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Dolmus stops have dedicated signage within the terminal area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otogarın önünden.",
+        "pronunciation": "ohtohgahrOOn-uhnuhndAHn",
+        "translation_en": "From the front of the bus station."
+      },
+      "responses": [
+        {
+          "english": "From the front of the bus station.",
+          "phonetic": "ohtohgahrOOn-uhnuhndAHn",
+          "french": "Otogarın önünden."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_bus_terminal_004",
+      "intent_en": "Which platform for my bus company?",
+      "text_local": "Firmamın otobüsü hangi perondan kalkıyor?",
+      "pronunciation": "fIHrmah-eetshIHn-hahngIH-pehrAWn",
+      "formality": "standard",
+      "cultural_note": "Platform assignments vary by company and departure; staff will redirect you to the specific company's ticket counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peron 3, karşıda.",
+        "pronunciation": "pehrAWn-UEtshkahrshoodAH",
+        "translation_en": "Platform 3, across from you."
+      },
+      "responses": [
+        {
+          "english": "Platform 3, across from you.",
+          "phonetic": "pehrAWn-UEtshkahrshoodAH",
+          "french": "Peron 3, karşıda."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_bus_terminal_005",
+      "intent_en": "Where do dolmus minibuses stop?",
+      "text_local": "Dolmuş minibüsleri nerede duruyor?",
+      "pronunciation": "dawmUHsh-meeneebuhslehrIH-nEHrehdeh-doorOOyawr",
+      "formality": "standard",
+      "cultural_note": "Dolmuş stops can be separate from intercity platforms; local signs may be confusing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Terminal çıkışında, sağ taraftalar.",
+        "pronunciation": "tehrmeenAH-tshookooshoondAHsAH-tahrahftahAHr",
+        "translation_en": "At the terminal exit, on the right side."
+      },
+      "responses": [
+        {
+          "english": "At the terminal exit, on the right side.",
+          "phonetic": "tehrmeenAH-tshookooshoondAHsAH-tahrahftahAHr",
+          "french": "Terminal çıkışında, sağ taraftalar."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_bus_terminal_006",
+      "intent_en": "Which platform for my bus company?",
+      "text_local": "Hangi peron firmamın otobüsü için?",
+      "pronunciation": "fihrmahmOOn-ohtohbuesUH-hahngIH-pehrawndAH",
+      "formality": "standard",
+      "cultural_note": "Bus companies have their own ticket counters; platform assignments can change.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Peron 5'ten kalkıyor.",
+        "pronunciation": "pehrAWn-bEHsh-tAHn-kahkOOyawr",
+        "translation_en": "It departs from platform 5."
+      },
+      "responses": [
+        {
+          "english": "It departs from platform 5.",
+          "phonetic": "pehrAWn-bEHsh-tAHn-kahkOOyawr",
+          "french": "Peron 5'ten kalkıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "honfleur_maisons_satie",
+  "name_en": "Maisons Satie (Erik Satie Museum)",
+  "name_local": "Les Maisons Satie",
+  "icon": "building.columns",
+  "lat": 49.4185,
+  "lon": 0.2309,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "honfleur_satie_001",
+      "intent_en": "Ask if this is the birthplace of composer Erik Satie",
+      "text_local": "Est-ce bien la maison natale du compositeur Erik Satie ?",
+      "pronunciation": "ess kuh byahn lah may-ZOHN nah-TAL doo kohm-poh-zee-TUR ay-reek sah-TEE",
+      "formality": "polite",
+      "cultural_note": "Erik Satie (1866–1925), composer of the Gymnopédies and Gnossiennes, was born in Honfleur. The Maisons Satie are a whimsical, immersive museum occupying his birth house, designed to evoke his eccentric and playful personality.",
+      "responses": [
+        {
+          "english": "Yes, it's here.",
+          "phonetic": "wee, seh ee-SEE",
+          "french": "Oui, c'est ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_satie_002",
+      "intent_en": "Ask how much the entry ticket costs",
+      "text_local": "Combien coûte le billet d'entrée ?",
+      "pronunciation": "kohm-BYEHN KOOT luh bee-YEH dahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The Maisons Satie is a modest museum with an immersive audio experience celebrating the composer Erik Satie.",
+      "responses": [
+        {
+          "english": "Seven euros per adult.",
+          "phonetic": "set uh-ROH par ah-DULT",
+          "french": "Sept euros par adulte."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_satie_003",
+      "intent_en": "Ask how long the visit takes",
+      "text_local": "Combien de temps dure la visite des Maisons Satie ?",
+      "pronunciation": "kohm-BYAHN duh tahn DOOR lah vee-ZEET day may-ZOHN sah-TEE",
+      "formality": "polite",
+      "cultural_note": "The self-guided audio-visual tour takes approximately 45 minutes to an hour. There is no prescribed route — you move at your own pace through the surreal installations. It is one of Honfleur's most original cultural experiences.",
+      "responses": [
+        {
+          "english": "About forty-five minutes.",
+          "phonetic": "ahn-vee-ROHN kah-rahnt-SEHNK mee-NOOT",
+          "french": "Environ quarante-cinq minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_satie_004",
+      "intent_en": "Buy a CD of Satie's music in the museum shop",
+      "text_local": "Est-ce qu'il y a des enregistrements de la musique de Satie à la boutique ?",
+      "pronunciation": "ess keel ee ah day ahn-ruh-zhees-TRUH-mahn duh lah moo-ZEEK duh sah-TEE ah lah boo-TEEK",
+      "formality": "polite",
+      "cultural_note": "The museum shop stocks recordings of Satie's piano music, books about his life, and quirky Satie-themed gifts. His Gymnopédies remain among the most recognised piano pieces in Western music.",
+      "responses": [
+        {
+          "english": "Yes, in the shop, downstairs.",
+          "phonetic": "wee, ah lah boo-TEEK, ahn BAH",
+          "french": "Oui, à la boutique, en bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_satie_005",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Est-ce qu'on peut prendre des photos à l'intérieur du musée ?",
+      "pronunciation": "ess kohn PUH PRAHN-druh day foh-TOH ah lahn-tay-RYUR doo moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "Photography policies vary room by room. The theatrical nature of the installations means some spaces have dim lighting and the headphone experience is more immersive if you focus on listening rather than photographing.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "composer",
+      "word_local": "le compositeur",
+      "pronunciation": "luh kohm-poh-zee-TUR"
+    },
+    {
+      "word_en": "birthplace",
+      "word_local": "la maison natale",
+      "pronunciation": "lah may-ZOHN nah-TAL"
+    },
+    {
+      "word_en": "headphones",
+      "word_local": "le casque audio",
+      "pronunciation": "luh KASK oh-dee-OH"
+    },
+    {
+      "word_en": "exhibition",
+      "word_local": "l'exposition",
+      "pronunciation": "lex-poh-zee-SYOHN"
+    }
+  ]
+}

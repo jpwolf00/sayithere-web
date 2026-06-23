@@ -1,0 +1,115 @@
+{
+  "id": "dijon_quartier_gare_hood",
+  "name_en": "Quartier de la Gare / Train Station Area",
+  "name_local": "Quartier de la Gare",
+  "icon": "tram",
+  "phrases": [
+    {
+      "id": "dijon_gare_001",
+      "intent_en": "Ask where the train station is",
+      "text_local": "Où se trouve la gare ?",
+      "pronunciation": "oo suh TROOV lah GAR",
+      "formality": "polite",
+      "cultural_note": "Dijon's train station (Gare de Dijon) is on the north side of the city, about a 10-minute walk from the historic center.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is located five minutes away on foot, straight ahead on this avenue.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Prenez le tramway ligne 1 (direction 'Quetigny Centre') et descendez à l'arrêt 'Darcy'."
+        }
+      ]
+    },
+    {
+      "id": "dijon_gare_002",
+      "intent_en": "Ask about getting to the wine region from here",
+      "text_local": "Comment aller dans la région viticole depuis ici ?",
+      "pronunciation": "koh-MAHN ah-LAY dan lah ray-ZHYON vee-tee-KOL duh-PWEE ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Burgundy wine region (Côte d'Or) is easily reached by train from Dijon. Beaune is 30 minutes away by TER regional train.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I advise you to rent a car, the vineyards are about 30 minutes south via highway A10.",
+          "phonetic": "voo poo-VAY ee ah-LAY ahn trahn, ahn vwah-TUR oo ah-VEK oon eks-kur-SYON",
+          "french": "Le tramway ligne 1 dessert les principaux sites touristiques en 10 minutes."
+        }
+      ]
+    },
+    {
+      "id": "dijon_gare_003",
+      "intent_en": "Ask if there's luggage storage at the station",
+      "text_local": "Y a-t-il une consigne à la gare ?",
+      "pronunciation": "ee ah-TEEL oon kohn-SEE-nyah lah GAR",
+      "formality": "polite",
+      "cultural_note": "The station has luggage storage (consigne) — useful for day trips to wine country. Prices are around €5-10 per piece per day.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there are automatic lockers on the ground floor, near exit B. Count about 6 euros for 24 hours.",
+          "phonetic": "wee, suh-LAH ruh-MON-tah oon pay-ree-OHD ahn-SYEN",
+          "french": "Oui, la gare dispose d'une consigne automatique. Les tarifs varient entre 5 et 10 euros par bagage et par jour, idéale pour vos excursions."
+        }
+      ]
+    },
+    {
+      "id": "dijon_gare_004",
+      "intent_en": "Ask about the tramway in the city",
+      "text_local": "Pouvez-vous me parler du tramway de la ville ?",
+      "pronunciation": "poo-VAY voo muh par-LAY doo tram-WAY duh lah VEEL",
+      "formality": "polite",
+      "cultural_note": "Dijon has a modern tramway (T1 and T2) that connects the station to the city center and beyond. It's the easiest way to get around.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Of course, the tramway serves the entire city center from 5:30 AM to 12:30 AM. A ticket costs €1.90 and can be purchased at the vending machines on the platforms.",
+          "phonetic": "",
+          "french": "Oui, bien sûr. Le tramway de Dijon a deux lignes, T1 et T2. Elles relient la gare au centre-ville et aux principaux quartiers résidentiels et universitaires."
+        }
+      ]
+    },
+    {
+      "id": "dijon_gare_005",
+      "intent_en": "Ask about parking near the station",
+      "text_local": "Où peut-on garer près de la gare ?",
+      "pronunciation": "oo puh-TOH gar-AY preh duh lah GAR",
+      "formality": "polite",
+      "cultural_note": "There's a large parking lot (Park & Ride) near the station with affordable daily rates. It's convenient if you're arriving by car.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There's a large parking lot (Park & Ride) near the station with affordable daily rates. It's convenient if you're arriving by car.",
+          "phonetic": "luh par-KING eh soo luh bah-tee-MAHN",
+          "french": "Il y a un grand parking (Park & Ride) près de la gare avec des tarifs journaliers abordables. C'est pratique si vous arrivez en voiture."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "train station",
+      "word_local": "la gare",
+      "pronunciation": "lah GAR"
+    },
+    {
+      "word_en": "tramway",
+      "word_local": "le tramway",
+      "pronunciation": "leh tram-WAY"
+    },
+    {
+      "word_en": "luggage storage",
+      "word_local": "la consigne",
+      "pronunciation": "lah kohn-SEE-nyah"
+    },
+    {
+      "word_en": "wine region",
+      "word_local": "la région viticole",
+      "pronunciation": "lah ray-ZHYON vee-tee-KOL"
+    }
+  ]
+}

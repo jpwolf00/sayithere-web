@@ -1,0 +1,100 @@
+{
+  "id": "kanazawa_omi_cho_market_sushi_restaurants",
+  "name_en": "Omi-cho Market Sushi Restaurants",
+  "name_local": "近江町市場寿し",
+  "icon": "fork.knife",
+  "lat": 36.5715978,
+  "lon": 136.6567617,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kanazawa_omi_cho_market_sushi_restaurants_001",
+      "intent_en": "Where is the ticket machine?",
+      "text_local": "けんばいき は どこですか？",
+      "pronunciation": "kEHbEEkee-h-DOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Ticket machines for ordering are common in casual sushi restaurants and are often placed at the entrance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みせの まえに あります。",
+        "pronunciation": "meesEHnoh-mEHnee-EEmSoo",
+        "translation_en": "It's in front of the shop."
+      },
+      "responses": [
+        {
+          "english": "It's in front of the shop.",
+          "phonetic": "meesEHnoh-mEHnee-EEmSoo",
+          "french": "みせの まえに あります。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_omi_cho_market_sushi_restaurants_002",
+      "intent_en": "Is nodoguro available today?",
+      "text_local": "きょう、のどぐろ ありますか？",
+      "pronunciation": "kOHoonOHdohgOOoh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Nodoguro (blackthroat seaperch) is a prized local fish in Kanazawa, but availability depends on the day's catch.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ありますよ。",
+        "pronunciation": "hEEEEmsOOyoh",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "hEEEEmsOOyoh",
+          "french": "はい、ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_omi_cho_market_sushi_restaurants_003",
+      "intent_en": "Do I pay before eating?",
+      "text_local": "さきに しはらい ですか？",
+      "pronunciation": "skEEnee-EEhEE-dehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many market stalls and casual restaurants in Japan require payment upfront, especially when ordering at a counter.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、さきに おねがいします。",
+        "pronunciation": "hEEskEEnee-OHnehgEEeemSoo",
+        "translation_en": "Yes, please pay first."
+      },
+      "responses": [
+        {
+          "english": "Yes, please pay first.",
+          "phonetic": "hEEskEEnee-OHnehgEEeemSoo",
+          "french": "はい、さきに おねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_omi_cho_market_sushi_restaurants_004",
+      "intent_en": "Cash only at this stall?",
+      "text_local": "ここは げんきん のみ ですか？",
+      "pronunciation": "kohkOHh-gEHngkee-nOHmee-dehsOOk",
+      "formality": "standard",
+      "cultural_note": "Individual stalls in Japanese markets often operate on a cash-only basis, even if the larger market has other options.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

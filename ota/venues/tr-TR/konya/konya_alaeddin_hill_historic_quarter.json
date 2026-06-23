@@ -1,0 +1,144 @@
+{
+  "id": "konya_alaeddin_hill_historic_quarter",
+  "name_en": "Alaeddin Hill historic quarter",
+  "name_local": "Alaeddin Tepesi Çevresi",
+  "icon": "map",
+  "lat": 37.8734281,
+  "lon": 32.4927857,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "konya_alaeddin_hill_historic_quarter_001",
+      "intent_en": "Where is Meram garden bus?",
+      "text_local": "Meram bahçelerine giden otobüs nereden kalkıyor?",
+      "pronunciation": "mehrAHm-bahhtshehlehreenEH-eedAHn-ohtohbUHs-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Local bus stops may change; staff have the latest info.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Terminalden, şehir merkezindeki duraktan.",
+        "pronunciation": "tehrmeenahdAHnshehhIHr-mehrkehzihndehkIH-doorahktAHn",
+        "translation_en": "From the terminal, at the city center stop."
+      },
+      "responses": [
+        {
+          "english": "From the terminal, at the city center stop.",
+          "phonetic": "tehrmeenahdAHnshehhIHr-mehrkehzihndehkIH-doorahktAHn",
+          "french": "Terminalden, şehir merkezindeki duraktan."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_hill_historic_quarter_002",
+      "intent_en": "Where to buy tea garden tokens?",
+      "text_local": "Çay bahçesi fişlerini nereden alabilirim?",
+      "pronunciation": "tshAHy-bahhtshehsIH-fihshlehreenIH-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Payment is often collected directly by the tea server.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tezgahtan alın.",
+        "pronunciation": "tehzgahhtAHn-ahOOn",
+        "translation_en": "Get them from the counter."
+      },
+      "responses": [
+        {
+          "english": "Get them from the counter.",
+          "phonetic": "tehzgahhtAHn-ahOOn",
+          "french": "Tezgahtan alın."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_hill_historic_quarter_003",
+      "intent_en": "Where to pay parking?",
+      "text_local": "Park ücretini nerede ödeyebilirim?",
+      "pronunciation": "pAHrk-uhdzhrehteenIH-nEHrehdeh-uhdehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Parking is scattered around the hill base; meters are nearby.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tepenin çevresindeki parkmetrelere bakın.",
+        "pronunciation": "tehpehnIHn-tshehvrehsihndehkIH-pahrkmehtrehlehrEH-bahkOOn",
+        "translation_en": "Look for the parking meters around the hill base."
+      },
+      "responses": [
+        {
+          "english": "Look for the parking meters around the hill base.",
+          "phonetic": "tehpehnIHn-tshehvrehsihndehkIH-pahrkmehtrehlehrEH-bahkOOn",
+          "french": "Tepenin çevresindeki parkmetrelere bakın."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_hill_historic_quarter_004",
+      "intent_en": "Where to buy tea garden tokens?",
+      "text_local": "Çay bahçesi için jeton nereden alınır?",
+      "pronunciation": "tshAHy-bahhtshehsIH-eetshIHn-zhehtAWn-nEHrehdahn-ahoonOOr",
+      "formality": "standard",
+      "cultural_note": "Payment for tea gardens is often handled directly by the tea server, not a separate token booth.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tepeye yakın bir büfede.",
+        "pronunciation": "tehpehyEH-yahkOOn-bihr-buefehdEH",
+        "translation_en": "At a kiosk near the top."
+      },
+      "responses": [
+        {
+          "english": "At a kiosk near the top.",
+          "phonetic": "tehpehyEH-yahkOOn-bihr-buefehdEH",
+          "french": "Tepeye yakın bir büfede."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_hill_historic_quarter_005",
+      "intent_en": "Where are the palace ruins?",
+      "text_local": "Saray kalıntıları nerede?",
+      "pronunciation": "sahltshuhkUH-sahrAHy-kahoontooahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Ruins may lack prominent signage; guided help is best.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Caminin hemen yanında.",
+        "pronunciation": "dzhahmeenIHn-hehmAHn-yahnoondAH",
+        "translation_en": "Right next to the mosque."
+      },
+      "responses": [
+        {
+          "english": "Right next to the mosque.",
+          "phonetic": "dzhahmeenIHn-hehmAHn-yahnoondAH",
+          "french": "Caminin hemen yanında."
+        }
+      ]
+    },
+    {
+      "id": "konya_alaeddin_hill_historic_quarter_006",
+      "intent_en": "Where are the palace ruins?",
+      "text_local": "Selçuklu sarayı kalıntıları nerede?",
+      "pronunciation": "sahltshuhkUH-sAHrahyoo-kahoontooahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location of the ruins on Alaeddin Hill is not fixed; asking locally is the best approach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Caminin arkasında, tepeye doğru.",
+        "pronunciation": "dzhahmeenIHn-ahrkahsoondAHtehpehyEH-dohrUH",
+        "translation_en": "Behind the mosque, towards the hill."
+      },
+      "responses": [
+        {
+          "english": "Behind the mosque, towards the hill.",
+          "phonetic": "dzhahmeenIHn-ahrkahsoondAHtehpehyEH-dohrUH",
+          "french": "Caminin arkasında, tepeye doğru."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

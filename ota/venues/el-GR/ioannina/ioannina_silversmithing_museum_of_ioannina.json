@@ -1,0 +1,100 @@
+{
+  "id": "ioannina_silversmithing_museum_of_ioannina",
+  "name_en": "Silversmithing Museum of Ioannina",
+  "name_local": "Μουσείο Αργυροτεχνίας Ιωαννίνων",
+  "icon": "building.columns",
+  "lat": 39.6701813,
+  "lon": 20.8606957,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ioannina_silversmithing_museum_of_ioannina_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Επιτρέπεται η φωτογράφιση;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-fOHtohghrAHfeesEE",
+      "formality": "standard",
+      "cultural_note": "Οι φύλακες are responsible for enforcing exhibition hall rules.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, χωρίς φλας στους εκθεσιακούς χώρους.",
+        "pronunciation": "nEHkhohrEEs-flAHs-stoos-EHkthehsyahkOOs-khOHroos",
+        "translation_en": "Yes, it is allowed without flash."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is allowed without flash.",
+          "phonetic": "nEHkhohrEEs-flAHs-stoos-EHkthehsyahkOOs-khOHroos",
+          "french": "Ναι, χωρίς φλας στους εκθεσιακούς χώρους."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_silversmithing_museum_of_ioannina_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς κλείνω ξενάγηση;",
+      "pronunciation": "pOHs-klEEnoh-ksehnAHyeesEE",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγοί are the staff responsible for guided tours in museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο ή στο γραφείο υποδοχής.",
+        "pronunciation": "stoh-tahmEEoh-ee-stoh-ghrahfEEoh-EEpohthohkhEEs",
+        "translation_en": "You can book it at the ticket desk or by phone."
+      },
+      "responses": [
+        {
+          "english": "You can book it at the ticket desk or by phone.",
+          "phonetic": "stoh-tahmEEoh-ee-stoh-ghrahfEEoh-EEpohthohkhEEs",
+          "french": "Στο ταμείο ή στο γραφείο υποδοχής."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_silversmithing_museum_of_ioannina_003",
+      "intent_en": "Can I buy silver replicas here?",
+      "text_local": "Πωλείται ασημένια αντικείμενα εδώ;",
+      "pronunciation": "pohlEEteh-AHseemEHny-AHdeeEEmehnAH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Αργυροχόος is the traditional silversmith, directly linked to workshop purchases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο αργυροχόο.",
+        "pronunciation": "nEHstoh-AHryeerohkhOHoh",
+        "translation_en": "Yes, at the silversmith."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the silversmith.",
+          "phonetic": "nEHstoh-AHryeerohkhOHoh",
+          "french": "Ναι, στο αργυροχόο."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_silversmithing_museum_of_ioannina_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το ταμείο;",
+      "pronunciation": "pOO-EEneh-toh-tahmEEoh",
+      "formality": "standard",
+      "cultural_note": "Ταμείο refers to the ticket/entrance desk, commonly understood in Greek museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στα δεξιά σας μπαίνοντας.",
+        "pronunciation": "stah-thEHkseeAH-sahz-bEHnohdAHs",
+        "translation_en": "The ticket desk is right at the entrance, on the right."
+      },
+      "responses": [
+        {
+          "english": "The ticket desk is right at the entrance, on the right.",
+          "phonetic": "stah-thEHkseeAH-sahz-bEHnohdAHs",
+          "french": "Στα δεξιά σας μπαίνοντας."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

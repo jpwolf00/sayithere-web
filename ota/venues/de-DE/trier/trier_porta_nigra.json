@@ -1,0 +1,100 @@
+{
+  "id": "trier_porta_nigra",
+  "name_en": "Porta Nigra",
+  "name_local": "Porta Nigra",
+  "icon": "building.columns",
+  "lat": 49.759659,
+  "lon": 6.6441651,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "trier_porta_nigra_001",
+      "intent_en": "Where is the Simeon shrine upper level access?",
+      "text_local": "Wo geht es zum Simeon-Schrein oben?",
+      "pronunciation": "vOH-EHt-ehs-tsuhm-zEEmehOHnshrEYEn-OHbuhn",
+      "formality": "standard",
+      "cultural_note": "In Trier wird der Simeon-Schrein oft als 'Simeon-Schrein oben' bezeichnet; Besucher erwarten eine Treppe oder einen Aufstieg.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zum Schrein führt die Treppe dort.",
+        "pronunciation": "tsuhm-shrEYEn-fUErt-dee-trEHpuh-dAWrt",
+        "translation_en": "The stairs lead to the shrine."
+      },
+      "responses": [
+        {
+          "english": "The stairs lead to the shrine.",
+          "phonetic": "tsuhm-shrEYEn-fUErt-dee-trEHpuh-dAWrt",
+          "french": "Zum Schrein führt die Treppe dort."
+        }
+      ]
+    },
+    {
+      "id": "trier_porta_nigra_002",
+      "intent_en": "How do I donate at the UNESCO box?",
+      "text_local": "Wie spende ich in die UNESCO-Spendendose?",
+      "pronunciation": "vee-shpEHnduh-ihkh-ihn-dee-UHnEHskohshpEHnduhndOHzuh",
+      "formality": "standard",
+      "cultural_note": "Münzspenden sind an UNESCO-Stätten in Deutschland üblich und werden als Zeichen der Wertschätzung angesehen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Werfen Sie Münzen ein.",
+        "pronunciation": "vEHrfuhn-zee-mUEntsuhn-EYEn",
+        "translation_en": "Drop in coins."
+      },
+      "responses": [
+        {
+          "english": "Drop in coins.",
+          "phonetic": "vEHrfuhn-zee-mUEntsuhn-EYEn",
+          "french": "Werfen Sie Münzen ein."
+        }
+      ]
+    },
+    {
+      "id": "trier_porta_nigra_003",
+      "intent_en": "Is the audio guide available in Japanese?",
+      "text_local": "Gibt es den Audioguide auf Japanisch?",
+      "pronunciation": "EEpt-ehs-dehn-ehnAWdihUHuheyeddeh-owf-yahpAHnihsh",
+      "formality": "standard",
+      "cultural_note": "Japanisch als Fremdsprache ist in touristischen Kontexten in Deutschland selten, wird aber an einigen UNESCO-Stätten angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Japanisch ist verfügbar.",
+        "pronunciation": "yahpAHnihsh-ihst-fehrfUEkbahr",
+        "translation_en": "Japanese available."
+      },
+      "responses": [
+        {
+          "english": "Japanese available.",
+          "phonetic": "yahpAHnihsh-ihst-fehrfUEkbahr",
+          "french": "Japanisch ist verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "trier_porta_nigra_004",
+      "intent_en": "Where can I buy the Roman city walls guidebook?",
+      "text_local": "Wo bekomme ich den Führer zu den römischen Stadtmauern?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-dehn-fUEr-tsoo-dehn-rUHmihshuhn-shtAHtmown",
+      "formality": "casual",
+      "cultural_note": "Führerbücher zu römischen Ruinen werden in Deutschland oft an Kassen oder Infostellen verkauft.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Eingang im Schalter.",
+        "pronunciation": "deerEHkt-ahm-EYEngAHng-ihm-shAHlt",
+        "translation_en": "Right at the entrance at the counter."
+      },
+      "responses": [
+        {
+          "english": "Right at the entrance at the counter.",
+          "phonetic": "deerEHkt-ahm-EYEngAHng-ihm-shAHlt",
+          "french": "Direkt am Eingang im Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

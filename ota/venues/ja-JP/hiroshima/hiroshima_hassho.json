@@ -1,0 +1,100 @@
+{
+  "id": "hiroshima_hassho",
+  "name_en": "Hassho",
+  "name_local": "八昌",
+  "icon": "fork.knife",
+  "lat": 34.389522,
+  "lon": 132.463753,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "hiroshima_hassho_001",
+      "intent_en": "Do you take cards?",
+      "text_local": "カードは つかえますか。",
+      "pronunciation": "kdOHh-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many older or smaller food shops in Japan are cash-only, so having cash ready is good practice.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "すみません、げんきんのみです。",
+        "pronunciation": "sOOmeemSehgEHngkeennOHmeedEHsoo",
+        "translation_en": "Sorry, cash only."
+      },
+      "responses": [
+        {
+          "english": "Sorry, cash only.",
+          "phonetic": "sOOmeemSehgEHngkeennOHmeedEHsoo",
+          "french": "すみません、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hassho_002",
+      "intent_en": "Where is the teppan counter?",
+      "text_local": "てっぱんの カウンターは どこですか。",
+      "pronunciation": "tehhpNnoh-kOOntH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The teppan counter is the main seating area where you can watch the chef cook directly on the griddle.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ、おくの カウンターせきです。",
+        "pronunciation": "mssOOgooohkOOnoh-kOOntSehkeedEHsoo",
+        "translation_en": "Straight ahead, at the counter seating in the back."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, at the counter seating in the back.",
+          "phonetic": "mssOOgooohkOOnoh-kOOntSehkeedEHsoo",
+          "french": "まっすぐ、おくの カウンターせきです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hassho_003",
+      "intent_en": "Is the wait long now?",
+      "text_local": "いま、まちじかんは ながいですか。",
+      "pronunciation": "EEmmTeedEEkH-nGEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often give a direct time estimate. A 20-minute wait is typical for a popular counter-only spot.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "にじゅっぷんぐらい まちます。",
+        "pronunciation": "nEEdooppOOnggooEE-mTeemSoo",
+        "translation_en": "It's about a 20-minute wait."
+      },
+      "responses": [
+        {
+          "english": "It's about a 20-minute wait.",
+          "phonetic": "nEEdooppOOnggooEE-mTeemSoo",
+          "french": "にじゅっぷんぐらい まちます。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hassho_004",
+      "intent_en": "Do I order before sitting?",
+      "text_local": "すわるまえに ちゅうもんですか。",
+      "pronunciation": "sOOwOOmEHnee-tOOoomOHndehsOOk",
+      "formality": "standard",
+      "cultural_note": "It's common in busy okonomiyaki shops to order at the counter before being seated so the chef can start cooking immediately.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、さきに ちゅうもんを どうぞ。",
+        "pronunciation": "hEEskEEnee-tOOoomohOH-dohOOzoh",
+        "translation_en": "Yes, please order first."
+      },
+      "responses": [
+        {
+          "english": "Yes, please order first.",
+          "phonetic": "hEEskEEnee-tOOoomohOH-dohOOzoh",
+          "french": "はい、さきに ちゅうもんを どうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

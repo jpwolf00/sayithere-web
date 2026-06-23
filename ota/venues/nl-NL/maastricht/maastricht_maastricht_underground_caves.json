@@ -1,0 +1,34 @@
+{
+  "id": "maastricht_maastricht_underground_caves",
+  "name_en": "Maastricht Underground Caves",
+  "name_local": "Grotten Noord",
+  "icon": "building.columns",
+  "lat": 50.8512438,
+  "lon": 5.6909768,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "maastricht_maastricht_underground_caves_001",
+      "intent_en": "Ask if walk-in entry is allowed today",
+      "text_local": "Mag je vandaag binnenlopen?",
+      "pronunciation": "mahkh-yuh-vahndAHkh-bIHnuhnlOHpuhn",
+      "formality": "casual",
+      "cultural_note": "Nederlandse bezoekers verwachten vaak een direct antwoord op toegankelijkheidsvragen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nee, alleen met reservering.",
+        "pronunciation": "nEHahlEHn-meht-rEHzuhrvIHring",
+        "translation_en": "No, only with booking."
+      },
+      "responses": [
+        {
+          "english": "No, only with booking.",
+          "phonetic": "nEHahlEHn-meht-rEHzuhrvIHring",
+          "french": "Nee, alleen met reservering."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

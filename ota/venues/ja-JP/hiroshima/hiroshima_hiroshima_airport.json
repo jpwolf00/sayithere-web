@@ -1,0 +1,100 @@
+{
+  "id": "hiroshima_hiroshima_airport",
+  "name_en": "Hiroshima Airport",
+  "name_local": "広島空港",
+  "icon": "tram",
+  "lat": 34.4374791,
+  "lon": 132.9195109,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hiroshima_hiroshima_airport_001",
+      "intent_en": "Where is domestic check-in?",
+      "text_local": "こくないせんの チェックインは どこですか",
+      "pronunciation": "kOHkoonEEsEHnnoh-tEHkkooeeH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Domestic check-in counters are typically on the left side of the terminal.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ひだりがわ、いっかいです。",
+        "pronunciation": "khEEdeegWEEkkeedEHsoo",
+        "translation_en": "On the left, first floor."
+      },
+      "responses": [
+        {
+          "english": "On the left, first floor.",
+          "phonetic": "khEEdeegWEEkkeedEHsoo",
+          "french": "ひだりがわ、いっかいです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_airport_002",
+      "intent_en": "Where is the airport bus ticket machine?",
+      "text_local": "くうこうバスの けんばいきは どこですか",
+      "pronunciation": "kOOookohOObsOOnoh-kEHbEEkEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Bus ticket machines are often on the same floor as the bus departure area.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "くうこうの いりぐちに あります。",
+        "pronunciation": "kOOookohOOnoh-EEeegootEEnee-EEmSoo",
+        "translation_en": "It's at the airport entrance."
+      },
+      "responses": [
+        {
+          "english": "It's at the airport entrance.",
+          "phonetic": "kOOookohOOnoh-EEeegootEEnee-EEmSoo",
+          "french": "くうこうの いりぐちに あります。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_airport_003",
+      "intent_en": "When does the next bus leave?",
+      "text_local": "つぎのバスは なんじに でますか",
+      "pronunciation": "tsOOgeenOHbsOOh-nDEEnee-dEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Bus departure times are given in a direct 24-hour format.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "10じ45ぷんです。",
+        "pronunciation": "dzOO-dEE-yohn-dzOOgoh-poondEHsoo",
+        "translation_en": "At 10:45."
+      },
+      "responses": [
+        {
+          "english": "At 10:45.",
+          "phonetic": "dzOO-dEE-yohn-dzOOgoh-poondEHsoo",
+          "french": "10じ45ぷんです。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_hiroshima_airport_004",
+      "intent_en": "Where is the rental car pickup?",
+      "text_local": "レンタカーの のりばは どこですか",
+      "pronunciation": "EHntkNoh-nOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Rental car pickup counters are often located across from the terminal.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みちの むかいがわに カウンターが あります。",
+        "pronunciation": "meetEEnoh-mOOkEEgwNee-kOOntG-EEmSoo",
+        "translation_en": "There's a counter across the street."
+      },
+      "responses": [
+        {
+          "english": "There's a counter across the street.",
+          "phonetic": "meetEEnoh-mOOkEEgwNee-kOOntG-EEmSoo",
+          "french": "みちの むかいがわに カウンターが あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

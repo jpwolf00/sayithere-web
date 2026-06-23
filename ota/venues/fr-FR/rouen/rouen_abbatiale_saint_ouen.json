@@ -1,0 +1,118 @@
+{
+  "id": "rouen_abbatiale_saint_ouen",
+  "name_en": "Abbey Church of Saint-Ouen",
+  "name_local": "Abbatiale Saint-Ouen de Rouen",
+  "icon": "building.columns.fill",
+  "lat": 49.4431,
+  "lon": 1.096,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "rouen_souen_001",
+      "intent_en": "Ask what time the church opens today",
+      "text_local": "À quelle heure ouvre l'église aujourd'hui ?",
+      "pronunciation": "ah kel UR OOV-ruh lay-GLEEZ oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Saint-Ouen has set visiting hours that may differ from regular service times.",
+      "responses": [
+        {
+          "english": "At ten o'clock.",
+          "phonetic": "ah DEE-ZUR",
+          "french": "À dix heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_souen_002",
+      "intent_en": "Ask if there are organ concerts scheduled",
+      "text_local": "Est-ce qu'il y a des concerts d'orgue prévus ?",
+      "pronunciation": "ess keel ee ah day kohn-SAIR DORG pray-VOO",
+      "formality": "polite",
+      "cultural_note": "Saint-Ouen has one of the finest organs in France. Concerts are held periodically.",
+      "responses": [
+        {
+          "english": "You need to check on the website.",
+          "phonetic": "eel foh vay-ree-FYAY soor luh SEET ahn-tair-NET",
+          "french": "Il faut vérifier sur le site internet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_souen_003",
+      "intent_en": "Ask if there is an entry fee",
+      "text_local": "L'entrée est payante ?",
+      "pronunciation": "lahn-TRAY eh pay-YAHNT",
+      "formality": "polite",
+      "cultural_note": "Most churches in France are free to enter.",
+      "responses": [
+        {
+          "english": "No, it is free.",
+          "phonetic": "nohn say grah-TWEE",
+          "french": "Non, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_souen_004",
+      "intent_en": "Ask if concerts are held here",
+      "text_local": "Y a-t-il des concerts ou récitals d'orgue dans cette abbatiale ?",
+      "pronunciation": "ee ah-TEEL day kohn-SAIR oo ray-see-TAL DOR-guh dahn set ah-bah-TYAL",
+      "formality": "polite",
+      "cultural_note": "Saint-Ouen regularly hosts organ recitals, choral concerts, and classical music performances. The acoustic quality of the vast Gothic interior makes it one of the finest concert venues in Normandy.",
+      "responses": [
+        {
+          "english": "You need to check the programme on the website.",
+          "phonetic": "eel foh vay-ree-FYAY luh proh-GRAM soor luh SEET",
+          "french": "Il faut vérifier le programme sur le site."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_souen_005",
+      "intent_en": "Ask about the adjoining gardens",
+      "text_local": "Les jardins autour de l'abbatiale sont-ils accessibles au public ?",
+      "pronunciation": "lay zhar-DAHN oh-TOOR duh lah-bah-TYAL sohn-teel ak-ses-EEBL oh poo-BLEEK",
+      "formality": "polite",
+      "cultural_note": "The formal French gardens surrounding Saint-Ouen are one of Rouen's most peaceful spots. They are freely accessible during daylight hours and offer a lovely view of the church's flying buttresses and flamboyant chevet.",
+      "responses": [
+        {
+          "english": "Yes, the gardens are open, through the side door.",
+          "phonetic": "wee lay zhar-DAHN sohn too-VAIR par lah PORT lah-tay-RAHL",
+          "french": "Oui, les jardins sont ouverts, par la porte latérale."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "nave",
+      "word_local": "la nef",
+      "pronunciation": "lah NEF"
+    },
+    {
+      "word_en": "organ",
+      "word_local": "l'orgue",
+      "pronunciation": "LOR-guh"
+    },
+    {
+      "word_en": "flying buttress",
+      "word_local": "l'arc-boutant",
+      "pronunciation": "lark-boo-TAHN"
+    },
+    {
+      "word_en": "abbey church",
+      "word_local": "l'abbatiale",
+      "pronunciation": "lah-bah-TYAL"
+    }
+  ]
+}

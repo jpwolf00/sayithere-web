@@ -1,0 +1,78 @@
+{
+  "id": "athens_larissa_station",
+  "name_en": "Larissa Station",
+  "name_local": "Σιδηροδρομικός Σταθμός Αθηνών Λαρίσης",
+  "icon": "tram",
+  "lat": 37.992072,
+  "lon": 23.720956,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "athens_larissa_station_001",
+      "intent_en": "Which platform goes to Thessaloniki trains",
+      "text_local": "Ποια πλατφόρμα είναι για τη Θεσσαλονίκη;",
+      "pronunciation": "pEEohs-sEEtheerOHthrohmeekOHs-stahthmOHs-pAHee-yAH-tee-thEHssahlohnEEee",
+      "formality": "standard",
+      "cultural_note": "Οι επιβάτες συνήθως αναζητούν πινακίδες ή οδηγίες για πλατφόρμες βόρεια Ελλάδας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Από την πλατφόρμα 1 ή 2.",
+        "pronunciation": "ahpOH-teem-blahtfOHrmah-EHnah-ee-thEEoh",
+        "translation_en": "From platform 1 or 2."
+      },
+      "responses": [
+        {
+          "english": "From platform 1 or 2.",
+          "phonetic": "ahpOH-teem-blahtfOHrmah-EHnah-ee-thEEoh",
+          "french": "Από την πλατφόρμα 1 ή 2."
+        }
+      ]
+    },
+    {
+      "id": "athens_larissa_station_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού επικυρώνω το εισιτήριο της προαστιακής;",
+      "pronunciation": "pOOehnvAHlihdAHehlohmEHghah-toh-EEseetEEreeOH-tees-prOHahstEEahEEs",
+      "formality": "standard",
+      "cultural_note": "Οι μηχανέςVALIDARION είναι συχνά κοντά στους χώρους εισιτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στα μηχανήματα επικύρωσης, δίπλα στις αποβάθρες.",
+        "pronunciation": "stah-mEEkhahnEEmahtAH-EHpeeEErohsEEsthEEplah-stees-AHpohvAHthrehs",
+        "translation_en": "At the validation machines, next to the platforms."
+      },
+      "responses": [
+        {
+          "english": "At the validation machines, next to the platforms.",
+          "phonetic": "stah-mEEkhahnEEmahtAH-EHpeeEErohsEEsthEEplah-stees-AHpohvAHthrehs",
+          "french": "Στα μηχανήματα επικύρωσης, δίπλα στις αποβάθρες."
+        }
+      ]
+    },
+    {
+      "id": "athens_larissa_station_003",
+      "intent_en": "How do I reach Metro from OSE hall",
+      "text_local": "Πώς πάω στο μετρό από τον χώρο των ΟΣΕ;",
+      "pronunciation": "pOHs-pAHoh-stoh-mehtrOH-ahpOH-tohn-khOHroh-tohn-OHmeekrOHnsEEghmahEHpseelOHn",
+      "formality": "standard",
+      "cultural_note": "Η σύνδεση μεταξύ ΟΣΕ και Μετρό γίνεται μέσω σήραγγας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από την έξοδο δεξιά, κατεβαίνετε κάτω.",
+        "pronunciation": "ahpOH-teen-EHksohthOH-thEHkseeAHkAHtehvEHnehtEH-kAHtoh",
+        "translation_en": "From the exit on the right, go down."
+      },
+      "responses": [
+        {
+          "english": "From the exit on the right, go down.",
+          "phonetic": "ahpOH-teen-EHksohthOH-thEHkseeAHkAHtehvEHnehtEH-kAHtoh",
+          "french": "Από την έξοδο δεξιά, κατεβαίνετε κάτω."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

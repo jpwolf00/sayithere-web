@@ -1,0 +1,118 @@
+{
+  "id": "msm_musee_mer_ecologie",
+  "name_en": "Museum of the Sea and Ecology",
+  "name_local": "Musée de la Mer et de l'Écologie",
+  "icon": "building.columns",
+  "lat": 48.6351,
+  "lon": -1.5108,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "msm_musee_001",
+      "intent_en": "Ask for two adult tickets",
+      "text_local": "Deux billets pour adultes, s'il vous plaît.",
+      "pronunciation": "duh bee-YAY poor ah-DULT seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The museum is housed in a historic building on the Grande Rue. Entry is separate from the abbey ticket. Combination passes are sometimes available — ask at the desk.",
+      "responses": [
+        {
+          "english": "Here you go, sixteen euros.",
+          "phonetic": "vwah-LAH SEZ uh-ROH",
+          "french": "Voilà, seize euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_musee_002",
+      "intent_en": "Ask about the bay ecosystem exhibit",
+      "text_local": "Où se trouve l'exposition sur l'écosystème de la baie ?",
+      "pronunciation": "oo suh TROOV lex-poh-zee-SYOHN soor lay-koh-sees-TEM duh lah BAY",
+      "formality": "polite",
+      "cultural_note": "The bay of Mont Saint-Michel is a UNESCO World Heritage site and one of France's most ecologically sensitive areas. The museum explains tidal dynamics, migratory birds, and sheep grazing on the salt marshes.",
+      "responses": [
+        {
+          "english": "At the back, in the second room.",
+          "phonetic": "oh FOHN dahn lah duh-ZYEM SAHL",
+          "french": "Au fond, dans la deuxième salle."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_musee_003",
+      "intent_en": "Ask about the pré-salé sheep display",
+      "text_local": "Pouvez-vous m'expliquer l'élevage des moutons de pré-salé ?",
+      "pronunciation": "poo-vay-VOO mex-plee-KAY lay-luh-VAHJ day moo-TOHN duh pray-sah-LAY",
+      "formality": "polite",
+      "cultural_note": "Salt-marsh lamb (agneau de pré-salé) from the bay is a celebrated local delicacy with AOC protection. The sheep graze on salt-rich grasses that give the meat a distinctive flavour.",
+      "responses": [
+        {
+          "english": "It is in the ground floor room.",
+          "phonetic": "say dahn lah SAHL doo ray-duh-shoh-SAY",
+          "french": "C'est dans la salle du rez-de-chaussée."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_musee_004",
+      "intent_en": "Ask if the museum has exhibits in English",
+      "text_local": "Est-ce qu'il y a des panneaux explicatifs en anglais ?",
+      "pronunciation": "ess keel ee ah day pah-NOH ex-plee-kah-TEEF ahn ahn-GLAY",
+      "formality": "polite",
+      "cultural_note": "Many Norman museums offer bilingual French–English panels, especially in attractions frequently visited by international tourists.",
+      "responses": [
+        {
+          "english": "Yes, most are bilingual.",
+          "phonetic": "wee lah ploo-PAR sohn bee-LAHNGG",
+          "french": "Oui, la plupart sont bilingues."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_musee_005",
+      "intent_en": "Ask how long a visit typically takes",
+      "text_local": "Combien de temps dure la visite en moyenne ?",
+      "pronunciation": "kohm-BYAHN duh tahn DOOR lah vee-ZEET ahn mwah-YEN",
+      "formality": "polite",
+      "cultural_note": "A thorough visit takes about 45 minutes to an hour. Given the proximity to the abbey, most visitors combine both on the same day — plan accordingly around the tide schedule.",
+      "responses": [
+        {
+          "english": "About forty-five minutes.",
+          "phonetic": "ahn-vee-ROHN kah-RAHNT-SAHNK mee-NOOT",
+          "french": "Environ quarante-cinq minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "sea",
+      "word_local": "la mer",
+      "pronunciation": "lah MAIR"
+    },
+    {
+      "word_en": "ecology",
+      "word_local": "l'écologie",
+      "pronunciation": "lay-koh-loh-ZHEE"
+    },
+    {
+      "word_en": "salt marsh",
+      "word_local": "le pré-salé",
+      "pronunciation": "luh pray-sah-LAY"
+    },
+    {
+      "word_en": "tides",
+      "word_local": "les marées",
+      "pronunciation": "lay mah-RAY"
+    }
+  ]
+}

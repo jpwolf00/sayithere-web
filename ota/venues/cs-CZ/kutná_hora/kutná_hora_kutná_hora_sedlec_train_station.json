@@ -1,0 +1,100 @@
+{
+  "id": "kutná_hora_kutná_hora_sedlec_train_station",
+  "name_en": "Kutná Hora-Sedlec train station",
+  "name_local": "Kutná Hora-Sedlec",
+  "icon": "tram",
+  "lat": 49.9576753,
+  "lon": 15.2903855,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kutná_hora_kutná_hora_sedlec_train_station_001",
+      "intent_en": "Where do I validate before boarding to Prague",
+      "text_local": "Kde si mám označit jízdenku před odjezdem do Prahy?",
+      "pronunciation": "kdEH-see-mahm-OHznahtsheet-yEEzdehngkoo-prEHdohdyEHzdehm-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Validation machines are on the platform, not in the station building, to prevent boarding without a validated ticket.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Žlutý stroj dole na nástupišti.",
+        "pronunciation": "zhlOOtee-strOHy-dOHleh-nah-nAHstoopEEshee",
+        "translation_en": "The yellow machine down on the platform."
+      },
+      "responses": [
+        {
+          "english": "The yellow machine down on the platform.",
+          "phonetic": "zhlOOtee-strOHy-dOHleh-nah-nAHstoopEEshee",
+          "french": "Žlutý stroj dole na nástupišti."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_kutná_hora_sedlec_train_station_002",
+      "intent_en": "Do I need a separate PID zone ticket",
+      "text_local": "Potřebuju zvláštní jízdenku pro PID pásmo?",
+      "pronunciation": "pOHtrehbOOyoo-zvlAHshtnyee-yEEzdehngkoo-prOHpeet-pAHsmoh",
+      "formality": "standard",
+      "cultural_note": "Conductors check both national and PID zone tickets. Not having one results in a fine on the spot.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, musíte mít platnou PID jízdenku.",
+        "pronunciation": "AHnohmOOseeteh-mEEt-plAHtnoh-pEHEEdEH-yEEzdehngkoo",
+        "translation_en": "Yes, you must have a valid PID ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, you must have a valid PID ticket.",
+          "phonetic": "AHnohmOOseeteh-mEEt-plAHtnoh-pEHEEdEH-yEEzdehngkoo",
+          "french": "Ano, musíte mít platnou PID jízdenku."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_kutná_hora_sedlec_train_station_003",
+      "intent_en": "Where is the underpass to town center",
+      "text_local": "Kde je podchod do centra?",
+      "pronunciation": "kdEH-yeh-pOHtkhohd-dOHtsehntrah",
+      "formality": "standard",
+      "cultural_note": "Small stations often have a single underpass connecting platforms, leading directly to the town-side exit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a pak hned vlevo.",
+        "pronunciation": "rOHvnyeh-ah-pAHk-hnEHd-vlEHvoh",
+        "translation_en": "Straight ahead and then immediately left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead and then immediately left.",
+          "phonetic": "rOHvnyeh-ah-pAHk-hnEHd-vlEHvoh",
+          "french": "Rovně a pak hned vlevo."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_kutná_hora_sedlec_train_station_004",
+      "intent_en": "When does the next train to main station leave",
+      "text_local": "Kdy jede další vlak na hlavní nádraží?",
+      "pronunciation": "kdEE-yEHdeh-dAHlshee-vlAHk-nAHhlahvnyee-nAHdrahzhee",
+      "formality": "standard",
+      "cultural_note": "Dispatchers often give the platform number along with the time, as small stations have only a few tracks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za osm minut z druhé koleje.",
+        "pronunciation": "zAHohsm-mEEnoot-s-drOOheh-kOHlehyeh",
+        "translation_en": "In eight minutes from platform two."
+      },
+      "responses": [
+        {
+          "english": "In eight minutes from platform two.",
+          "phonetic": "zAHohsm-mEEnoot-s-drOOheh-kOHlehyeh",
+          "french": "Za osm minut z druhé koleje."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

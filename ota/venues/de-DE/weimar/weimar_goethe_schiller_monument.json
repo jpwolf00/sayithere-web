@@ -1,0 +1,100 @@
+{
+  "id": "weimar_goethe_schiller_monument",
+  "name_en": "Goethe-Schiller Monument",
+  "name_local": "Goethe- und Schiller-Denkmal",
+  "icon": "building.columns",
+  "lat": 50.9793301,
+  "lon": 11.3297921,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "weimar_goethe_schiller_monument_001",
+      "intent_en": "Where is the theater box office?",
+      "text_local": "Wo ist die Theaterkasse?",
+      "pronunciation": "vOH-ihst-dee-tEHahtkAHsuh",
+      "formality": "standard",
+      "cultural_note": "Theater box office is likely near the Deutsches Nationaltheater building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich dort beim Theater.",
+        "pronunciation": "lEYEkh-dAWrt-beyem-tehAHt",
+        "translation_en": "Right by the theater."
+      },
+      "responses": [
+        {
+          "english": "Right by the theater.",
+          "phonetic": "lEYEkh-dAWrt-beyem-tehAHt",
+          "french": "Gleich dort beim Theater."
+        }
+      ]
+    },
+    {
+      "id": "weimar_goethe_schiller_monument_002",
+      "intent_en": "Why does Goethe hold a laurel wreath?",
+      "text_local": "Warum hält Goethe einen Lorbeerkranz?",
+      "pronunciation": "vahrUHm-hEHlt-UHtuh-EYEnuhn-lAWrbehrkrAHnts",
+      "formality": "standard",
+      "cultural_note": "Laurel wreaths traditionally represent artistic or poetic achievement.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Symbol für dichterischen Ruhm.",
+        "pronunciation": "zuembOHl-fuer-dIHkhtuhrIHshuhn-rOOm",
+        "translation_en": "Symbol of poetic fame."
+      },
+      "responses": [
+        {
+          "english": "Symbol of poetic fame.",
+          "phonetic": "zuembOHl-fuer-dIHkhtuhrIHshuhn-rOOm",
+          "french": "Symbol für dichterischen Ruhm."
+        }
+      ]
+    },
+    {
+      "id": "weimar_goethe_schiller_monument_003",
+      "intent_en": "Is entry to the monument free?",
+      "text_local": "Ist der Eintritt frei?",
+      "pronunciation": "ihst-dehr-EYEntrIHt-frEYE",
+      "formality": "standard",
+      "cultural_note": "Monuments are often publicly accessible without charge in Germany.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, kein Eintritt.",
+        "pronunciation": "yAHkEYEn-EYEntrIHt",
+        "translation_en": "Yes, no entry fee."
+      },
+      "responses": [
+        {
+          "english": "Yes, no entry fee.",
+          "phonetic": "yAHkEYEn-EYEntrIHt",
+          "french": "Ja, kein Eintritt."
+        }
+      ]
+    },
+    {
+      "id": "weimar_goethe_schiller_monument_004",
+      "intent_en": "Where can I buy a walking tour ticket?",
+      "text_local": "Wo gibt es Tickets für die Stadtführung?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-EYEnuh-fUEruhngskAHrtuh",
+      "formality": "standard",
+      "cultural_note": "Tickets are typically sold at the theater box office or tourist information.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Theaterkasse.",
+        "pronunciation": "ahn-dehr-tEHahtkAHsuh",
+        "translation_en": "At the theater box office."
+      },
+      "responses": [
+        {
+          "english": "At the theater box office.",
+          "phonetic": "ahn-dehr-tEHahtkAHsuh",
+          "french": "An der Theaterkasse."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

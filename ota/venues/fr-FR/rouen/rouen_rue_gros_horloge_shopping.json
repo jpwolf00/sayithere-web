@@ -1,0 +1,118 @@
+{
+  "id": "rouen_rue_gros_horloge_shopping",
+  "name_en": "Rue du Gros-Horloge (Shopping Street)",
+  "name_local": "Rue du Gros-Horloge",
+  "icon": "bag",
+  "lat": 49.4413,
+  "lon": 1.0915,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "rouen_rgh_001",
+      "intent_en": "Ask where to buy Norman cheese and cider",
+      "text_local": "Où puis-je acheter du fromage normand et du cidre dans cette rue ?",
+      "pronunciation": "oo PWEE-zhuh ash-TAY doo froh-MAHJ nor-MAHN ay doo SEE-druh dahn set ROO",
+      "formality": "polite",
+      "cultural_note": "Several delicatessens (épiceries fines) on and near the Rue du Gros-Horloge sell local Norman specialities — camembert, livarot, pont-l'évêque cheeses, and bottles of cidre bouché or Calvados.",
+      "responses": [
+        {
+          "english": "There is a cheese shop a bit further.",
+          "phonetic": "eel ee ah oon froh-mah-zhuh-REE uhn PUH ploo LWAHN",
+          "french": "Il y a une fromagerie un peu plus loin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_rgh_002",
+      "intent_en": "Ask if a shop does gift wrapping",
+      "text_local": "Pouvez-vous faire un paquet cadeau, s'il vous plaît ?",
+      "pronunciation": "poo-vay-VOO fair uhn pah-KAY kah-DOH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Gift wrapping (paquet cadeau) is commonly offered by independent boutiques in France, often without extra charge. Department stores and larger chains also provide gift wrapping services at a small cost.",
+      "responses": [
+        {
+          "english": "Yes, we do gift wrapping.",
+          "phonetic": "wee ohn fay lay pah-KAY kah-DOH",
+          "french": "Oui, on fait les paquets cadeaux."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_rgh_003",
+      "intent_en": "Ask if a price can be reduced",
+      "text_local": "Est-ce que vous pouvez faire un geste sur le prix ?",
+      "pronunciation": "ess kuh voo poo-VAY fair uhn ZHEST soor luh PREE",
+      "formality": "polite",
+      "cultural_note": "Haggling is not customary in French shops, but asking politely for a small discount — especially on multiple purchases or at the end of the day — is not offensive and sometimes yields results in independent boutiques.",
+      "responses": [
+        {
+          "english": "No, prices are fixed.",
+          "phonetic": "nohn lay PREE sohn FEEKS",
+          "french": "Non, les prix sont fixes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_rgh_004",
+      "intent_en": "Ask for a receipt",
+      "text_local": "Pourriez-vous me donner un reçu, s'il vous plaît ?",
+      "pronunciation": "poor-YAY-voo muh doh-NAY uhn ruh-SOO seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "French law requires a receipt to be offered for all purchases. It is essential for VAT refund claims (détaxe) if you are shopping as a non-EU visitor spending over the minimum threshold.",
+      "responses": [
+        {
+          "english": "Here you go.",
+          "phonetic": "vwah-LAH",
+          "french": "Voilà."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_rgh_005",
+      "intent_en": "Ask where the nearest ATM is",
+      "text_local": "Où se trouve le distributeur de billets le plus proche ?",
+      "pronunciation": "oo suh TROOV luh dees-tree-boo-TUR duh bee-YAY luh ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "While most French shops accept cards, a few smaller market stalls and independent boutiques on side streets are cash-only. Several bank branches with ATMs (distributeurs) are located along the Rue du Gros-Horloge.",
+      "responses": [
+        {
+          "english": "At the end of the street, on the left.",
+          "phonetic": "oh BOO duh lah ROO ah GOHSH",
+          "french": "Au bout de la rue, à gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "delicatessen",
+      "word_local": "l'épicerie fine",
+      "pronunciation": "lay-pee-suh-REE FEEN"
+    },
+    {
+      "word_en": "gift wrapping",
+      "word_local": "le paquet cadeau",
+      "pronunciation": "luh pah-KAY kah-DOH"
+    },
+    {
+      "word_en": "receipt",
+      "word_local": "le reçu",
+      "pronunciation": "luh ruh-SOO"
+    },
+    {
+      "word_en": "ATM",
+      "word_local": "le distributeur",
+      "pronunciation": "luh dees-tree-boo-TUR"
+    }
+  ]
+}

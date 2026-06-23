@@ -1,0 +1,144 @@
+{
+  "id": "würzburg_würzburg_residence",
+  "name_en": "Würzburg Residence",
+  "name_local": "Würzburger Residenz",
+  "icon": "building.columns",
+  "lat": 49.7928052,
+  "lon": 9.9391779,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "würzburg_würzburg_residence_001",
+      "intent_en": "Ask when Hofkirche chapel access is allowed",
+      "text_local": "Wann ist die Hofkirche zugänglich?",
+      "pronunciation": "vAHn-ihst-dee-hAWfkihrkhuh-tsOOehnglIHkh",
+      "formality": "standard",
+      "cultural_note": "Access times are typically standardized and posted at the chapel entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Während der Öffnungszeiten.",
+        "pronunciation": "vEHruhnt-dehr-UHfnuhngstsEYEtuhn",
+        "translation_en": "During opening hours."
+      },
+      "responses": [
+        {
+          "english": "During opening hours.",
+          "phonetic": "vEHruhnt-dehr-UHfnuhngstsEYEtuhn",
+          "french": "Während der Öffnungszeiten."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_residence_002",
+      "intent_en": "Ask if garden-only ticket option exists",
+      "text_local": "Gibt es Tickets nur für den Garten?",
+      "pronunciation": "EEpt-ehs-tIHkuhts-nOOr-fuer-dehn-AHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Garden-only tickets may require separate access; staff confirms availability.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_residence_003",
+      "intent_en": "Ask where the Spiegelkabinett is located",
+      "text_local": "Wo ist das Spiegelkabinett?",
+      "pronunciation": "vOH-ihst-dahs-shpEEuhlkAHbeenEHt",
+      "formality": "standard",
+      "cultural_note": "Directions are typically given by staff for restricted areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Südflügel, erste Etage.",
+        "pronunciation": "ihm-zUEtflueguhlEHrstuh-EHtahguh",
+        "translation_en": "In the south wing, first floor."
+      },
+      "responses": [
+        {
+          "english": "In the south wing, first floor.",
+          "phonetic": "ihm-zUEtflueguhlEHrstuh-EHtahguh",
+          "french": "Im Südflügel, erste Etage."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_residence_004",
+      "intent_en": "Ask if photos allowed in Treppenhaus",
+      "text_local": "Darf man im Treppenhaus fotografieren?",
+      "pronunciation": "dAHrf-mahn-ihm-trEHpuhnhOWs-fOHtohrahfEEruhn",
+      "formality": "standard",
+      "cultural_note": "Photography rules are strictly enforced in historic buildings; staff provides confirmation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein.",
+        "pronunciation": "nEYEn",
+        "translation_en": "No."
+      },
+      "responses": [
+        {
+          "english": "No.",
+          "phonetic": "nEYEn",
+          "french": "Nein."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_residence_005",
+      "intent_en": "Ask where Kaisersaal imperial hall is",
+      "text_local": "Wo ist der Kaisersaal?",
+      "pronunciation": "vOH-ihst-dehr-kEYEzzAHl",
+      "formality": "standard",
+      "cultural_note": "Upper-level halls like Kaisersaal often require staff guidance due to limited signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie die Treppe hoch.",
+        "pronunciation": "gEHuhn-zee-dee-trEHpuh-hOHkh",
+        "translation_en": "Go up the stairs."
+      },
+      "responses": [
+        {
+          "english": "Go up the stairs.",
+          "phonetic": "gEHuhn-zee-dee-trEHpuh-hOHkh",
+          "french": "Gehen Sie die Treppe hoch."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_residence_006",
+      "intent_en": "Ask how audio guide rental works",
+      "text_local": "Wie funktioniert die Audioguide-Ausleihe?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-dee-ehnAWdihUHuheyeddehOWslEYE-uh",
+      "formality": "standard",
+      "cultural_note": "Audio guides are typically rented at a dedicated counter with clear return instructions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter neben dem Eingang.",
+        "pronunciation": "ahm-shAHlt-nEHbuhn-dehm-EYEngAHng",
+        "translation_en": "At the counter next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the counter next to the entrance.",
+          "phonetic": "ahm-shAHlt-nEHbuhn-dehm-EYEngAHng",
+          "french": "Am Schalter neben dem Eingang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

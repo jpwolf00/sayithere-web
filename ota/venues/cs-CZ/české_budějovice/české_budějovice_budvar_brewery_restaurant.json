@@ -1,0 +1,122 @@
+{
+  "id": "české_budějovice_budvar_brewery_restaurant",
+  "name_en": "Budvar Brewery Restaurant",
+  "name_local": "Restaurace Budvar",
+  "icon": "fork.knife",
+  "lat": 48.9747357,
+  "lon": 14.474285,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "české_budějovice_budvar_brewery_restaurant_001",
+      "intent_en": "Ask if lager cellar has free tables",
+      "text_local": "Máte v ležáckém sklepě volné stoly?",
+      "pronunciation": "mAHteh-v-lEHzhahtskehm-sklEHpyeh-vOHlneh-stOHlee",
+      "formality": "standard",
+      "cultural_note": "The lager cellar is a popular area. A direct answer with a location cue is more helpful than a simple 'yes'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, vpravo vzadu jsou volné stoly.",
+        "pronunciation": "AHnohfprAHvoh-vzAHdoo-ysoh-vOHlneh-stOHlee",
+        "translation_en": "Yes, there are free tables on the right at the back."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are free tables on the right at the back.",
+          "phonetic": "AHnohfprAHvoh-vzAHdoo-ysoh-vOHlneh-stOHlee",
+          "french": "Ano, vpravo vzadu jsou volné stoly."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_budvar_brewery_restaurant_002",
+      "intent_en": "Ask where to buy museum tickets",
+      "text_local": "Kde se kupují lístky do muzea?",
+      "pronunciation": "kdEH-seh-kOOpooyee-lEEstkee-dOHmoozEHah",
+      "formality": "standard",
+      "cultural_note": "The museum is separate from the restaurant, so tickets are sold at its own dedicated cash desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vstupenky koupíte u pokladny vlevo.",
+        "pronunciation": "fstOOpehngkee-kOHpeeteh-OO-pOHklahdnee-vlEHvoh",
+        "translation_en": "You can buy tickets at the cash desk on the left."
+      },
+      "responses": [
+        {
+          "english": "You can buy tickets at the cash desk on the left.",
+          "phonetic": "fstOOpehngkee-kOHpeeteh-OO-pOHklahdnee-vlEHvoh",
+          "french": "Vstupenky koupíte u pokladny vlevo."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_budvar_brewery_restaurant_003",
+      "intent_en": "Ask how to get group discount",
+      "text_local": "Jak získáme skupinovou slevu?",
+      "pronunciation": "yAHk-zEEskahmeh-skOOpeenOHvoh-slEHvoo",
+      "formality": "standard",
+      "cultural_note": "Group discounts are common and usually require a minimum headcount, which is best communicated upfront.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Na skupinovou slevu stačí rezervace pro alespoň deset osob.",
+        "pronunciation": "nah-skOOpeenOHvoh-slEHvoo-stAHtshee-rEHzehrvAHtseh-prOHahlEHspohny-dEHseht-OHsohp",
+        "translation_en": "For a group discount, a reservation for at least ten people is enough."
+      },
+      "responses": [
+        {
+          "english": "For a group discount, a reservation for at least ten people is enough.",
+          "phonetic": "nah-skOOpeenOHvoh-slEHvoo-stAHtshee-rEHzehrvAHtseh-prOHahlEHspohny-dEHseht-OHsohp",
+          "french": "Na skupinovou slevu stačí rezervace pro alespoň deset osob."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_budvar_brewery_restaurant_004",
+      "intent_en": "Ask if tank beer costs extra",
+      "text_local": "Stojí tankové pivo víc?",
+      "pronunciation": "stOHyee-tAHngkohveh-pEEvoh-vEEts",
+      "formality": "standard",
+      "cultural_note": "Tank beer is considered a premium product and typically has a small surcharge over standard keg beer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, tankové pivo je o patnáct korun dražší.",
+        "pronunciation": "AHnohtAHngkohveh-pEEvoh-yeh-OHpahtnahtst-kOHroon-drAHshshee",
+        "translation_en": "Yes, tank beer is fifteen crowns more expensive."
+      },
+      "responses": [
+        {
+          "english": "Yes, tank beer is fifteen crowns more expensive.",
+          "phonetic": "AHnohtAHngkohveh-pEEvoh-yeh-OHpahtnahtst-kOHroon-drAHshshee",
+          "french": "Ano, tankové pivo je o patnáct korun dražší."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_budvar_brewery_restaurant_005",
+      "intent_en": "Ask how to book brewery tour",
+      "text_local": "Jak si můžu rezervovat prohlídku pivovaru?",
+      "pronunciation": "yAHk-see-mOOzhoo-rEHzehrvOHvaht-prOHhleetkoo-pEEvohvAHroo",
+      "formality": "standard",
+      "cultural_note": "For tours, it's common to book at a dedicated counter or with the tour guide directly, not necessarily at the main restaurant bar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rezervaci provedeme tady u pultu.",
+        "pronunciation": "rEHzehrvAHtsee-prOHvehdEHmeh-tAHdee-OO-pOOltoo",
+        "translation_en": "We'll make the reservation right here at the counter."
+      },
+      "responses": [
+        {
+          "english": "We'll make the reservation right here at the counter.",
+          "phonetic": "rEHzehrvAHtsee-prOHvehdEHmeh-tAHdee-OO-pOOltoo",
+          "french": "Rezervaci provedeme tady u pultu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

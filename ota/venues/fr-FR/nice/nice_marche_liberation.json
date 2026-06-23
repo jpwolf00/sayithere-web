@@ -1,0 +1,118 @@
+{
+  "id": "nice_marche_liberation",
+  "name_en": "Liberation Market",
+  "name_local": "Marché de la Libération",
+  "icon": "bag",
+  "lat": 43.7063,
+  "lon": 7.268,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "nice_liberation_001",
+      "intent_en": "Ask what days the Liberation market is open",
+      "text_local": "Quels jours le marché de la Libération est-il ouvert ?",
+      "pronunciation": "kel ZHOOR leh mar-SHAY deh lah lee-bay-rah-SYON eh-TEEL oo-VEHR",
+      "formality": "polite",
+      "cultural_note": "The Liberation market runs Tuesday through Sunday mornings — it's a neighbourhood food market frequented mainly by locals.",
+      "responses": [
+        {
+          "english": "Every day except Monday.",
+          "phonetic": "too lay ZHOOR sohf luh luhn-DEE",
+          "french": "Tous les jours sauf le lundi."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_liberation_002",
+      "intent_en": "Ask where the cheese stall is",
+      "text_local": "Où se trouve l'étal de fromages, s'il vous plaît ?",
+      "pronunciation": "oo seh TROOV lay-TAL deh fro-MAZH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The market features excellent local cheese vendors selling Banon, Brousse du Rove and other Provençal varieties.",
+      "responses": [
+        {
+          "english": "At the back of the market, on the right.",
+          "phonetic": "oh FOHN doo mar-SHAY ah DRWAHT",
+          "french": "Au fond du marché, à droite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_liberation_003",
+      "intent_en": "Ask for a sample of the local goat's cheese",
+      "text_local": "Puis-je goûter votre fromage de chèvre local, s'il vous plaît ?",
+      "pronunciation": "PWEE-zheh goo-TAY VOT-reh fro-MAZH deh SHEV-reh lo-KAL seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Brousse du Rove is a fresh goat's cheese unique to the area around Marseille and the Riviera — try it with honey.",
+      "responses": [
+        {
+          "english": "Yes, try this one.",
+          "phonetic": "wee goo-TAY suh-LWEE-SEE",
+          "french": "Oui, goûtez celui-ci."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_liberation_004",
+      "intent_en": "Ask if there is a stall selling fresh pasta",
+      "text_local": "Y a-t-il un stand proposant des pâtes fraîches sur ce marché ?",
+      "pronunciation": "ee ah-TEEL un STAND pro-po-ZAN day PAT FRESH soor seh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "Fresh pasta (notably raviolis niçois stuffed with chard and cheese) reflects Nice's Italian heritage.",
+      "responses": [
+        {
+          "english": "Yes, at the end of the aisle.",
+          "phonetic": "wee oh BOO duh lah-LAY",
+          "french": "Oui, au bout de l'allée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_liberation_005",
+      "intent_en": "Ask for a bag to carry the produce",
+      "text_local": "Auriez-vous un sac pour mes achats, s'il vous plaît ?",
+      "pronunciation": "oh-RYAY voo un SAK poor may za-SHA seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Bring your own reusable bag (tote / cabas) — vendors appreciate it and France limits single-use plastic bags.",
+      "responses": [
+        {
+          "english": "Here, a bag for you.",
+          "phonetic": "tuh-NAY vwah-LAH uhn SAK",
+          "french": "Tenez, voilà un sac."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "goat's cheese",
+      "word_local": "le fromage de chèvre",
+      "pronunciation": "leh fro-MAZH deh SHEV-reh"
+    },
+    {
+      "word_en": "fresh pasta",
+      "word_local": "les pâtes fraîches",
+      "pronunciation": "lay PAT FRESH"
+    },
+    {
+      "word_en": "market stall",
+      "word_local": "l'étal",
+      "pronunciation": "lay-TAL"
+    },
+    {
+      "word_en": "shopping bag",
+      "word_local": "le cabas",
+      "pronunciation": "leh kah-BAH"
+    }
+  ]
+}

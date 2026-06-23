@@ -1,0 +1,78 @@
+{
+  "id": "utrecht_oudegracht_canal_wharves",
+  "name_en": "Oudegracht canal wharves",
+  "name_local": "Oudegracht werfkelders",
+  "icon": "building.columns",
+  "lat": 52.0907006,
+  "lon": 5.1215634,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "utrecht_oudegracht_canal_wharves_001",
+      "intent_en": "Which side do I walk on wharf?",
+      "text_local": "Welke kant moet ik op op het werfpad?",
+      "pronunciation": "vEHlkuh-kAHnt-mOOt-ihk-awp-awp-huht-vEHrfpaht",
+      "formality": "standard",
+      "cultural_note": "A common rule on narrow wharf paths to avoid congestion, especially during peak hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Houd rechts aan.",
+        "pronunciation": "hUHuht-rEHkhts-AHn",
+        "translation_en": "Keep right."
+      },
+      "responses": [
+        {
+          "english": "Keep right.",
+          "phonetic": "hUHuht-rEHkhts-AHn",
+          "french": "Houd rechts aan."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_oudegracht_canal_wharves_002",
+      "intent_en": "Can I eat at canal-side restaurant?",
+      "text_local": "Mag ik hier in het restaurant eten?",
+      "pronunciation": "mahkh-ihk-hEEr-ihn-huht-rEHstuhuhrAHnt-EHtuhn",
+      "formality": "polite",
+      "cultural_note": "Canal-side restaurants in Utrecht often offer seating both indoors (cellar level) and outdoors (wharf level) depending on weather.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, binnen of buiten.",
+        "pronunciation": "yAHbIHnuhn-awf-bUHuetuhn",
+        "translation_en": "Yes, inside or outside."
+      },
+      "responses": [
+        {
+          "english": "Yes, inside or outside.",
+          "phonetic": "yAHbIHnuhn-awf-bUHuetuhn",
+          "french": "Ja, binnen of buiten."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_oudegracht_canal_wharves_003",
+      "intent_en": "How do I pay at cellar café?",
+      "text_local": "Hoe betaal je in het werfkelderscafé?",
+      "pronunciation": "hOO-buhtAHl-yuh-ihn-huht-vEHrfkehldEHrskahfEH",
+      "formality": "casual",
+      "cultural_note": "Payment is typically handled at a dedicated counter, often below street level, but staff will guide you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de kassa beneden.",
+        "pronunciation": "behih-duh-kAHsah-buhnEHduhn",
+        "translation_en": "At the counter downstairs."
+      },
+      "responses": [
+        {
+          "english": "At the counter downstairs.",
+          "phonetic": "behih-duh-kAHsah-buhnEHduhn",
+          "french": "Bij de kassa beneden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

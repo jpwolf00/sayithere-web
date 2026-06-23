@@ -1,0 +1,100 @@
+{
+  "id": "dresden_green_vault",
+  "name_en": "Green Vault",
+  "name_local": "Grünes Gewölbe",
+  "icon": "building.columns",
+  "lat": 51.0526212,
+  "lon": 13.7362897,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "dresden_green_vault_001",
+      "intent_en": "How does the security check work?",
+      "text_local": "Wie funktioniert die Sicherheitskontrolle?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-dee-zIHkhhEYEtskawntrAWluh",
+      "formality": "standard",
+      "cultural_note": "German museums typically require ID checks and bag scanning before entry.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ausweis vorzeigen, Taschen scannen.",
+        "pronunciation": "OWsvEYEs-fOHrtsEYEuhntAHshuhn-skAHnuhn",
+        "translation_en": "Show ID, bags will be scanned."
+      },
+      "responses": [
+        {
+          "english": "Show ID, bags will be scanned.",
+          "phonetic": "OWsvEYEs-fOHrtsEYEuhntAHshuhn-skAHnuhn",
+          "french": "Ausweis vorzeigen, Taschen scannen."
+        }
+      ]
+    },
+    {
+      "id": "dresden_green_vault_002",
+      "intent_en": "Where do I leave my bag?",
+      "text_local": "Wo kann ich meine Tasche abstellen?",
+      "pronunciation": "vOH-kAHn-ihkh-mEYEnuh-tAHshuh-AHpshtEHluhn",
+      "formality": "standard",
+      "cultural_note": "Most German museums provide lockers near the entrance for bag storage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Schließfächer am Eingang.",
+        "pronunciation": "shlEEsfehkh-ahm-EYEnAHng",
+        "translation_en": "Lockers at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Lockers at the entrance.",
+          "phonetic": "shlEEsfehkh-ahm-EYEnAHng",
+          "french": "Schließfächer am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "dresden_green_vault_003",
+      "intent_en": "Is the New Vault separate entry?",
+      "text_local": "Hat das Neue Grüne Gewölbe einen separaten Eingang?",
+      "pronunciation": "haht-dahs-nAWuhuh-rUEnuh-uhvUHlbuh-EYEnuhn-zEHpahrAHtuhn-EYEnAHng",
+      "formality": "standard",
+      "cultural_note": "German museums often have separate entrances for different exhibits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, eigener Eingang.",
+        "pronunciation": "yAHEYEuhn-EYEnAHng",
+        "translation_en": "Yes, separate entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, separate entrance.",
+          "phonetic": "yAHEYEuhn-EYEnAHng",
+          "french": "Ja, eigener Eingang."
+        }
+      ]
+    },
+    {
+      "id": "dresden_green_vault_004",
+      "intent_en": "Where is the Historic Vault ticket office?",
+      "text_local": "Wo ist die Kasse für das Historische Grüne Gewölbe?",
+      "pronunciation": "vOH-ihst-dee-kAHsuh-fuer-dahs-hihstOHrihshuh-rUEnuh-uhvUHlbuh",
+      "formality": "casual",
+      "cultural_note": "In German museums, ticket offices are often located at the main entrance or near the security check.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kasse im Dresdner Schloss.",
+        "pronunciation": "kAHsuh-ihm-drEHsdn-shlAWs",
+        "translation_en": "Cash desk in Dresden Castle."
+      },
+      "responses": [
+        {
+          "english": "Cash desk in Dresden Castle.",
+          "phonetic": "kAHsuh-ihm-drEHsdn-shlAWs",
+          "french": "Kasse im Dresdner Schloss."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

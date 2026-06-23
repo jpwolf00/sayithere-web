@@ -1,0 +1,122 @@
+{
+  "id": "prague_wenceslas_square",
+  "name_en": "Wenceslas Square",
+  "name_local": "Václavské náměstí",
+  "icon": "map",
+  "lat": 50.0815867,
+  "lon": 14.4271699,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "prague_wenceslas_square_001",
+      "intent_en": "Ask if cafe terraces charge table service fee",
+      "text_local": "Účtujete si za servis u stolku?",
+      "pronunciation": "OOtshtooyEHteh-see-zAHsehrvees-OO-stOHlkoo",
+      "formality": "standard",
+      "cultural_note": "Some terraces add a couvert or service fee, but it should be noted on the menu.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, k účtu připočítáváme deset procent.",
+        "pronunciation": "AHnohk-OOtshtoo-prEEpohtshEEtahvAHmeh-dEHseht-prOHtsehnt",
+        "translation_en": "Yes, we add ten percent to the bill."
+      },
+      "responses": [
+        {
+          "english": "Yes, we add ten percent to the bill.",
+          "phonetic": "AHnohk-OOtshtoo-prEEpohtshEEtahvAHmeh-dEHseht-prOHtsehnt",
+          "french": "Ano, k účtu připočítáváme deset procent."
+        }
+      ]
+    },
+    {
+      "id": "prague_wenceslas_square_002",
+      "intent_en": "Ask when the street food kiosks close",
+      "text_local": "Do kolika mají otevřeno stánky s občerstvením?",
+      "pronunciation": "dOHkohlEEkah-mAHyee-OHtehvrEHnoh-stAHngkee-s-OHptshehrstvEHnyeem",
+      "formality": "standard",
+      "cultural_note": "Closing times are flexible and depend on weather and crowd levels.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Většinou kolem jedenácté večer.",
+        "pronunciation": "vyEHtsheenoh-kOHlehm-yEHdehnAHtsteh-vEHtshehr",
+        "translation_en": "Usually around eleven in the evening."
+      },
+      "responses": [
+        {
+          "english": "Usually around eleven in the evening.",
+          "phonetic": "vyEHtsheenoh-kOHlehm-yEHdehnAHtsteh-vEHtshehr",
+          "french": "Většinou kolem jedenácté večer."
+        }
+      ]
+    },
+    {
+      "id": "prague_wenceslas_square_003",
+      "intent_en": "Ask where the Muzeum metro ticket machines are",
+      "text_local": "Kde jsou automaty na lístky na Muzeu?",
+      "pronunciation": "kdEH-ysoh-OWtohmAHtee-nAHleestkee-nAHmoozehuh",
+      "formality": "casual",
+      "cultural_note": "The Muzeum station vestibule is directly under the upper square end.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dole ve vestibulu, vpravo od eskalátorů.",
+        "pronunciation": "dOHleh-vEH-vEHseebOOloofprAHvoh-ohd-EHskahlAHtohroo",
+        "translation_en": "Down in the vestibule, to the right of the escalators."
+      },
+      "responses": [
+        {
+          "english": "Down in the vestibule, to the right of the escalators.",
+          "phonetic": "dOHleh-vEH-vEHseebOOloofprAHvoh-ohd-EHskahlAHtohroo",
+          "french": "Dole ve vestibulu, vpravo od eskalátorů."
+        }
+      ]
+    },
+    {
+      "id": "prague_wenceslas_square_004",
+      "intent_en": "Ask how the currency exchange booth calculates rates",
+      "text_local": "Jak počítáte směnný kurz?",
+      "pronunciation": "yAHk-pOHtsheetAHteh-smnyEHnee-kOOrs",
+      "formality": "standard",
+      "cultural_note": "Always check the final amount before handing over money, as commission structures vary widely.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dle denního kurzu plus naše provize.",
+        "pronunciation": "dlEHdehnyEEhoh-kOOrzoo-plOOs-nAHsheh-prOHveezeh",
+        "translation_en": "According to the daily rate plus our commission."
+      },
+      "responses": [
+        {
+          "english": "According to the daily rate plus our commission.",
+          "phonetic": "dlEHdehnyEEhoh-kOOrzoo-plOOs-nAHsheh-prOHveezeh",
+          "french": "Dle denního kurzu plus naše provize."
+        }
+      ]
+    },
+    {
+      "id": "prague_wenceslas_square_005",
+      "intent_en": "Ask if Lucerna Palace passage is open",
+      "text_local": "Je průchod Lucernou otevřený?",
+      "pronunciation": "yeh-prOOkhohd-lOOtsehrnoh-OHtehvrEHnee",
+      "formality": "standard",
+      "cultural_note": "The Lucerna passage is a semi-public arcade, accessible even when shops are closed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, pasáž je otevřená do půlnoci.",
+        "pronunciation": "AHnohpAHsahzh-yeh-OHtehvrEHnah-dOHpoolnOHtsee",
+        "translation_en": "Yes, the passage is open until midnight."
+      },
+      "responses": [
+        {
+          "english": "Yes, the passage is open until midnight.",
+          "phonetic": "AHnohpAHsahzh-yeh-OHtehvrEHnah-dOHpoolnOHtsee",
+          "french": "Ano, pasáž je otevřená do půlnoci."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

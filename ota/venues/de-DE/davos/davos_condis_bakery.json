@@ -1,0 +1,78 @@
+{
+  "id": "davos_condis_bakery",
+  "name_en": "Condis Bakery",
+  "name_local": "Conditorei Café Condis",
+  "icon": "fork.knife",
+  "lat": 46.796198,
+  "lon": 9.8236892,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "davos_condis_bakery_001",
+      "intent_en": "Where do I point for pastry selection?",
+      "text_local": "Wo ist die Auslage für Gebäck?",
+      "pronunciation": "vOH-tsEYEuh-ihkh-owf-dee-OWsvAHl",
+      "formality": "standard",
+      "cultural_note": "Bakeries typically have a visible glass display case for pastries, which is the primary selection point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Theke.",
+        "pronunciation": "ahn-dehr-tEHkuh",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahn-dehr-tEHkuh",
+          "french": "An der Theke."
+        }
+      ]
+    },
+    {
+      "id": "davos_condis_bakery_002",
+      "intent_en": "Do you have fresh cakes left today?",
+      "text_local": "Haben Sie heute noch frische Torten?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-nawkh-frIHshuh-tAWrtuhn",
+      "formality": "standard",
+      "cultural_note": "Customers expect bakeries to have freshly baked goods available throughout the day, but availability decreases towards closing time.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, wir haben welche.",
+        "pronunciation": "yAHveer-hAHbuhn-vEHlkhuh",
+        "translation_en": "Yes, we have some."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have some.",
+          "phonetic": "yAHveer-hAHbuhn-vEHlkhuh",
+          "french": "Ja, wir haben welche."
+        }
+      ]
+    },
+    {
+      "id": "davos_condis_bakery_003",
+      "intent_en": "Is eat-in seating full right now?",
+      "text_local": "Ist der Innenbereich voll?",
+      "pronunciation": "ihst-dehr-IHnuhnbuhrEYEkh-fAWl",
+      "formality": "standard",
+      "cultural_note": "Davos is a tourist destination, and seating may be limited during peak hours, especially in smaller cafés.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, leider.",
+        "pronunciation": "yAHlEYEd",
+        "translation_en": "Yes, unfortunately."
+      },
+      "responses": [
+        {
+          "english": "Yes, unfortunately.",
+          "phonetic": "yAHlEYEd",
+          "french": "Ja, leider."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

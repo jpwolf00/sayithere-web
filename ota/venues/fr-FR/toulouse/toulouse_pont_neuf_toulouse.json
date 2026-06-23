@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_pont_neuf",
+  "name_en": "Pont Neuf Toulouse",
+  "name_local": "Pont Neuf",
+  "icon": "building.2",
+  "lat": 43.6021,
+  "lon": 1.4374,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "toulouse_pontneuf_001",
+      "intent_en": "Ask for the best view of the pink city skyline from the bridge",
+      "text_local": "Quel côté du pont offre la meilleure vue sur la ville rose ?",
+      "pronunciation": "kel koh-TAY doo POHN OH-fruh lah may-YUR VYU soor lah VEEL ROHZ",
+      "formality": "polite",
+      "cultural_note": "Toulouse is nicknamed 'La Ville Rose' (The Pink City) because of its distinctive rose-pink terracotta brick used in most historic buildings.",
+      "responses": [
+        {
+          "english": "From the middle of the bridge, west side.",
+          "phonetic": "duh-PWEE luh mee-LYUH doo POHN koh-TAY WEST",
+          "french": "Depuis le milieu du pont, côté ouest."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_pontneuf_002",
+      "intent_en": "Ask where the river cruise departs from",
+      "text_local": "D'où part la croisière sur la Garonne ?",
+      "pronunciation": "DOO par lah krwah-ZYAIR soor lah gah-RON",
+      "formality": "polite",
+      "cultural_note": "River cruises on the Garonne depart from quays near the Pont Neuf.",
+      "responses": [
+        {
+          "english": "From the quay, just below the bridge.",
+          "phonetic": "doo KAY zhoost ahn BAH doo POHN",
+          "french": "Du quai, juste en bas du pont."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_pontneuf_003",
+      "intent_en": "Ask where the Hôtel-Dieu Saint-Jacques hospital museum is nearby",
+      "text_local": "Où se trouve le musée de l'Hôtel-Dieu Saint-Jacques à proximité ?",
+      "pronunciation": "oo suh TROOV luh myoo-ZAY duh loh-tel-DYUH san-ZHAK ah proks-ee-mee-TAY",
+      "formality": "polite",
+      "cultural_note": "The Hôtel-Dieu Saint-Jacques, a UNESCO-listed pilgrim hospital beside the bridge, now houses a history of medicine museum.",
+      "responses": [
+        {
+          "english": "Just on the other side of the bridge, to the right.",
+          "phonetic": "zhoost duh LOH-truh koh-TAY doo POHN ah DRWAHT",
+          "french": "Juste de l'autre côté du pont, à droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_pontneuf_004",
+      "intent_en": "Ask if the river cruise departs from near the bridge",
+      "text_local": "Est-ce que la croisière fluviale part de près du pont ?",
+      "pronunciation": "es-kuh lah krwah-ZYAIR flyoo-VYAL par duh pray doo POHN",
+      "formality": "polite",
+      "cultural_note": "River boat trips on the Garonne depart from the banks near Pont Neuf, offering views of the pink city from the water.",
+      "responses": [
+        {
+          "english": "Yes, departures are at the Quai de la Daurade.",
+          "phonetic": "wee lay day-PAR sohn toh KAY duh lah doh-RAHD",
+          "french": "Oui, les départs sont au quai de la Daurade."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_pontneuf_005",
+      "intent_en": "Ask where the best spot for a sunset photo is",
+      "text_local": "Où est le meilleur endroit pour photographier le coucher du soleil depuis le pont ?",
+      "pronunciation": "oo eh luh may-YUR ahn-DRWAH poor foh-toh-grah-FYAY luh koo-SHAY doo soh-LAY duh-PWEE luh POHN",
+      "formality": "polite",
+      "cultural_note": "Sunsets over the Garonne with the pink domes and spires of Toulouse in silhouette are spectacular from the Pont Neuf.",
+      "responses": [
+        {
+          "english": "From the Quai de la Daurade, facing the bridge.",
+          "phonetic": "duh-PWEE luh KAY duh lah doh-RAHD FAHSS oh POHN",
+          "french": "Depuis le quai de la Daurade, face au pont."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "the pink city",
+      "word_local": "la ville rose",
+      "pronunciation": "lah VEEL ROHZ"
+    },
+    {
+      "word_en": "bridge",
+      "word_local": "le pont",
+      "pronunciation": "luh POHN"
+    },
+    {
+      "word_en": "river",
+      "word_local": "le fleuve / la Garonne",
+      "pronunciation": "luh FLUHV / lah gah-RON"
+    },
+    {
+      "word_en": "river cruise",
+      "word_local": "la croisière fluviale",
+      "pronunciation": "lah krwah-ZYAIR flyoo-VYAL"
+    }
+  ]
+}

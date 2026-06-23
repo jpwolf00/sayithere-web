@@ -1,0 +1,100 @@
+{
+  "id": "kalambaka_pinios_river_riverside_promenade",
+  "name_en": "Pinios River riverside promenade",
+  "name_local": "Παραποτάμια Διαδρομή Πηνειού",
+  "icon": "leaf",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "kalambaka_pinios_river_riverside_promenade_001",
+      "intent_en": "Where is the best Meteora viewpoint",
+      "text_local": "Πού είναι το καλύτερο σημείο για θέα προς Μετέωρα;",
+      "pronunciation": "pOO-EEneh-toh-kahlEEtehrOH-seemEEoh-yAH-thEHah-prOHz-mehtEHohrAH",
+      "formality": "standard",
+      "cultural_note": "The 'Meteora Viewpoint' is a stable target mentioned in the venue context. The response provides a general directional cue based on the stable targets (riverside path, bridge).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον παραποτάμιο δρόμο προς Γέφυρα.",
+        "pronunciation": "stohm-bAHrahpohtAHmeeOH-thrOHmoh-prOHz-yEHfeerAH",
+        "translation_en": "On the riverside path towards the bridge."
+      },
+      "responses": [
+        {
+          "english": "On the riverside path towards the bridge.",
+          "phonetic": "stohm-bAHrahpohtAHmeeOH-thrOHmoh-prOHz-yEHfeerAH",
+          "french": "Στον παραποτάμιο δρόμο προς Γέφυρα."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_pinios_river_riverside_promenade_002",
+      "intent_en": "When does the boat to Meteora leave",
+      "text_local": "Πότε φεύγει το σκάφος για τα Μετέωρα;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-kAHrahvAHee-yAH-mehtEHohrAH",
+      "formality": "standard",
+      "cultural_note": "Boat rides are seasonal and schedules may vary. The response uses the safety prefix to avoid inventing unverified details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεν υπάρχει σκάφος. Πάρτε λεωφορείο από την πλατεία.",
+        "pronunciation": "thEHn-eepAHrkhee-skAHfohspAHrteh-lEHohfohrEEoh-ahpOH-teem-blahtEEah",
+        "translation_en": "There is no boat. Take the bus from the square."
+      },
+      "responses": [
+        {
+          "english": "There is no boat. Take the bus from the square.",
+          "phonetic": "thEHn-eepAHrkhee-skAHfohspAHrteh-lEHohfohrEEoh-ahpOH-teem-blahtEEah",
+          "french": "Δεν υπάρχει σκάφος. Πάρτε λεωφορείο από την πλατεία."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_pinios_river_riverside_promenade_003",
+      "intent_en": "How do I pay at the riverside cafeteria",
+      "text_local": "Πώς γίνεται η πληρωμή στην καφετέρια;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-plEErohmEE-steeng-gAHfehtEHreeAH",
+      "formality": "standard",
+      "cultural_note": "In Greece, small cafes often accept both cash and card, with staff handling payments directly. The response references the 'καφετζής' (café owner) from the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετρητά ή κάρτα στον καφετζή.",
+        "pronunciation": "mEHtreetAH-ee-kAHrtah-stohng-gAHfehdzEE",
+        "translation_en": "Cash or card to the café owner."
+      },
+      "responses": [
+        {
+          "english": "Cash or card to the café owner.",
+          "phonetic": "mEHtreetAH-ee-kAHrtah-stohng-gAHfehdzEE",
+          "french": "Μετρητά ή κάρτα στον καφετζή."
+        }
+      ]
+    },
+    {
+      "id": "kalambaka_pinios_river_riverside_promenade_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το σημείο ενοικίασης ποδηλάτων;",
+      "pronunciation": "pOO-EEneh-oh-EHneeahstEEs-pOHtheelAHtohn",
+      "formality": "standard",
+      "cultural_note": "In Greece, staffed rental points are common in parks and riverside areas. The response assumes the rental kiosk is staffed by the 'Ενοικιαστής ποδηλάτων' mentioned in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μπροστά από το καφέ του ποταμού.",
+        "pronunciation": "brohstAH-ahpOH-toh-kahfEH-too-pOHtahmOO",
+        "translation_en": "Next to the park, near the Kalambaka Bridge."
+      },
+      "responses": [
+        {
+          "english": "Next to the park, near the Kalambaka Bridge.",
+          "phonetic": "brohstAH-ahpOH-toh-kahfEH-too-pOHtahmOO",
+          "french": "Μπροστά από το καφέ του ποταμού."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

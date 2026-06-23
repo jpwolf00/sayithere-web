@@ -1,0 +1,122 @@
+{
+  "id": "hakone_hakone_ropeway",
+  "name_en": "Hakone Ropeway",
+  "name_local": "箱根ロープウェイ",
+  "icon": "tram",
+  "lat": 35.2445221,
+  "lon": 139.0059608,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hakone_hakone_ropeway_001",
+      "intent_en": "Where do I buy Hakone Freepass?",
+      "text_local": "はこねフリーパスは どこで かえますか？",
+      "pronunciation": "hKohnEHooEEpsOOh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often use 'あちらがわ' (over on that side) with a gesture rather than precise directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あちらがわの カウンターです。",
+        "pronunciation": "TeeGwNoh-kOOntdEHsoo",
+        "translation_en": "It's at the counter over there."
+      },
+      "responses": [
+        {
+          "english": "It's at the counter over there.",
+          "phonetic": "TeeGwNoh-kOOntdEHsoo",
+          "french": "あちらがわの カウンターです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_ropeway_002",
+      "intent_en": "Where is the pirate ship transfer dock?",
+      "text_local": "かいぞくせんの のりばは どこですか？",
+      "pronunciation": "kEEzOHkoosEHnnoh-nOHeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Directions are given from the ropeway station exit, referencing the lake as a landmark.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきを でて みずうみの ほうへ まっすぐ。",
+        "pronunciation": "ehkEEoh-dEHteh-mEEzoooomEEnoh-hohOOheh-mssOOgoo",
+        "translation_en": "Exit the station and go straight toward the lake."
+      },
+      "responses": [
+        {
+          "english": "Exit the station and go straight toward the lake.",
+          "phonetic": "ehkEEoh-dEHteh-mEEzoooomEEnoh-hohOOheh-mssOOgoo",
+          "french": "えきを でて みずうみの ほうへ まっすぐ。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_ropeway_003",
+      "intent_en": "Is the Mount Fuji view clear today?",
+      "text_local": "きょう ふじさんは みえますか？",
+      "pronunciation": "kOHoo-OOdeesH-mEEehmsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff often add 'きれいに' (beautifully/clearly) to affirm good visibility conditions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、きれいに みえていますよ。",
+        "pronunciation": "hEEkEEehEEnee-mEEehtEHeemsOOyoh",
+        "translation_en": "Yes, you can see it clearly."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can see it clearly.",
+          "phonetic": "hEEkEEehEEnee-mEEehtEHeemsOOyoh",
+          "french": "はい、きれいに みえていますよ。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_ropeway_004",
+      "intent_en": "How long to Owakudani from here?",
+      "text_local": "ここから おおわくだにまで どのくらい かかりますか？",
+      "pronunciation": "kOHkohk-OHOHwkOOdneemDeh-dOHnohkooEE-kKEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Station staff round travel times to the nearest 5 minutes for clarity.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "だいたい にじゅうごふん かかります。",
+        "pronunciation": "dEEtEE-nEEdoooogOHoo-kKeemSoo",
+        "translation_en": "It takes about 25 minutes."
+      },
+      "responses": [
+        {
+          "english": "It takes about 25 minutes.",
+          "phonetic": "dEEtEE-nEEdoooogOHoo-kKeemSoo",
+          "french": "だいたい にじゅうごふん かかります。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_ropeway_005",
+      "intent_en": "Where do I adjust fare for cable car?",
+      "text_local": "ケーブルカーの りょうきん せいさんは どこですか？",
+      "pronunciation": "kEHehbooookNoh-OHOOkee-sEHeesH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Fare adjustment is often done at a machine, not a counter; staff point out the ticket machine.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まどの まえの けんばいきで できますよ。",
+        "pronunciation": "mdOHnoh-mEHnoh-kEHbEEkEEdeh-dEHkeemsOOyoh",
+        "translation_en": "You can do it at the machine in front of the window."
+      },
+      "responses": [
+        {
+          "english": "You can do it at the machine in front of the window.",
+          "phonetic": "mdOHnoh-mEHnoh-kEHbEEkEEdeh-dEHkeemsOOyoh",
+          "french": "まどの まえの けんばいきで できますよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

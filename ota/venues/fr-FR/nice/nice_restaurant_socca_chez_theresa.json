@@ -1,0 +1,118 @@
+{
+  "id": "nice_restaurant_socca_theresa",
+  "name_en": "Chez Thérésa – Socca Stand",
+  "name_local": "Chez Thérésa",
+  "icon": "fork.knife",
+  "lat": 43.6965,
+  "lon": 7.2755,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "nice_theresa_001",
+      "intent_en": "Order a portion of socca",
+      "text_local": "Une part de socca, s'il vous plaît.",
+      "pronunciation": "oon PAR deh so-KAH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Chez Thérésa at Cours Saleya is one of Nice's most famous socca vendors — crowds gather when the pan comes out.",
+      "responses": [
+        {
+          "english": "Coming hot, two minutes.",
+          "phonetic": "sah ah-REEV SHOH duh mee-NOOT",
+          "french": "Ça arrive chaud, deux minutes."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_theresa_002",
+      "intent_en": "Ask if the socca is freshly made right now",
+      "text_local": "La socca vient-elle juste d'être préparée ?",
+      "pronunciation": "lah so-KAH vyan-TEL ZHOOST DET-reh pray-pah-RAY",
+      "formality": "polite",
+      "cultural_note": "Socca is best eaten the moment it comes out of the wood oven — crispy edges, soft centre, dusted with black pepper.",
+      "responses": [
+        {
+          "english": "Yes, it is fresh from the oven.",
+          "phonetic": "wee el SOR doo FOOR",
+          "french": "Oui, elle sort du four."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_theresa_003",
+      "intent_en": "Ask if they also serve pissaladière",
+      "text_local": "Servez-vous également la pissaladière ?",
+      "pronunciation": "sehr-VAY voo ay-gal-MAN lah pee-sah-lah-DYEHR",
+      "formality": "polite",
+      "cultural_note": "Pissaladière is a Niçois onion tart topped with anchovies and black olives — the local equivalent of pizza.",
+      "responses": [
+        {
+          "english": "Yes, we have some.",
+          "phonetic": "wee ohn ahn AH",
+          "french": "Oui, on en a."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_theresa_004",
+      "intent_en": "Ask what drink goes well with socca",
+      "text_local": "Quelle boisson accompagne bien la socca, selon vous ?",
+      "pronunciation": "KEL bwah-SON ah-kom-PAN-yeh BYAN lah so-KAH seh-LON voo",
+      "formality": "polite",
+      "cultural_note": "A glass of chilled Niçois Bellet rosé or a local beer pairs perfectly with hot socca on a sunny day.",
+      "responses": [
+        {
+          "english": "A nice cold rosé.",
+          "phonetic": "uhn roh-ZAY byahn FRAY",
+          "french": "Un rosé bien frais."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_theresa_005",
+      "intent_en": "Ask where to eat while standing at the market",
+      "text_local": "Où peut-on manger debout ici, sur le marché ?",
+      "pronunciation": "oo puh-TON man-ZHAY deh-BOO ee-SEE soor leh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "Socca is traditionally eaten standing up at the market, wrapped in paper — part of the authentic Niçois experience.",
+      "responses": [
+        {
+          "english": "Over there, there are high tables.",
+          "phonetic": "lah-BAH eel ee ah day TAHBL OHT",
+          "french": "Là-bas, il y a des tables hautes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "socca (chickpea flatbread)",
+      "word_local": "la socca",
+      "pronunciation": "lah so-KAH"
+    },
+    {
+      "word_en": "onion tart",
+      "word_local": "la pissaladière",
+      "pronunciation": "lah pee-sah-lah-DYEHR"
+    },
+    {
+      "word_en": "a portion / a slice",
+      "word_local": "une part",
+      "pronunciation": "oon PAR"
+    },
+    {
+      "word_en": "wood-fired oven",
+      "word_local": "le four à bois",
+      "pronunciation": "leh FOOR ah BWAH"
+    }
+  ]
+}

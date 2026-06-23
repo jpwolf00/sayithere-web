@@ -1,0 +1,122 @@
+{
+  "id": "munich_altstadt_lehel_historic_core",
+  "name_en": "Altstadt-Lehel Historic Core",
+  "name_local": "Altstadt-Lehel",
+  "icon": "map",
+  "lat": 48.1371436,
+  "lon": 11.5753989,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "munich_altstadt_lehel_historic_core_001",
+      "intent_en": "Where are parking garages nearby",
+      "text_local": "Wo gibt es Parkhäuser in der Nähe?",
+      "pronunciation": "vOH-EEpt-ehs-pAHrkhawuhz-ihn-dehr-nEHuh",
+      "formality": "standard",
+      "cultural_note": "Mehrere Parkhäuser rund um Altstadt-Lehel ausgeschildert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Richtung Altstadtring, unter der Straße.",
+        "pronunciation": "rIHkhtuhng-AHltstahtrINGUHnt-dehr-shtrAHsuh",
+        "translation_en": "Toward the Altstadtring, underground."
+      },
+      "responses": [
+        {
+          "english": "Toward the Altstadtring, underground.",
+          "phonetic": "rIHkhtuhng-AHltstahtrINGUHnt-dehr-shtrAHsuh",
+          "french": "Richtung Altstadtring, unter der Straße."
+        }
+      ]
+    },
+    {
+      "id": "munich_altstadt_lehel_historic_core_002",
+      "intent_en": "Is Hofbräuhaus seating self-service",
+      "text_local": "Gibt es im Hofbräuhaus Selbstbedienung?",
+      "pronunciation": "EEpt-ehs-ihm-hAWfbrawuhhOWs-zEHlpstbuhdEEnuhng",
+      "formality": "standard",
+      "cultural_note": "Gäste werden von Bedienungen an den Tischen betreut, keine Selbstbedienung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, Bedienung an den Tischen.",
+        "pronunciation": "nEYEnbuhdEEnuhng-ahn-dehn-tIHshuhn",
+        "translation_en": "No, service at the tables."
+      },
+      "responses": [
+        {
+          "english": "No, service at the tables.",
+          "phonetic": "nEYEnbuhdEEnuhng-ahn-dehn-tIHshuhn",
+          "french": "Nein, Bedienung an den Tischen."
+        }
+      ]
+    },
+    {
+      "id": "munich_altstadt_lehel_historic_core_003",
+      "intent_en": "Where is the Residenz palace entry",
+      "text_local": "Wo ist der Eingang zum Residenzschloss?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-rEHzeedEHntsshlaws",
+      "formality": "standard",
+      "cultural_note": "Hauptzugang über den Hof mit Ticketverkauf vor Ort.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Auf der linken Seite.",
+        "pronunciation": "owf-dehr-lINGkuhn-zEYEtuh",
+        "translation_en": "On the left side."
+      },
+      "responses": [
+        {
+          "english": "On the left side.",
+          "phonetic": "owf-dehr-lINGkuhn-zEYEtuh",
+          "french": "Auf der linken Seite."
+        }
+      ]
+    },
+    {
+      "id": "munich_altstadt_lehel_historic_core_004",
+      "intent_en": "Where is the Marienplatz tower elevator",
+      "text_local": "Wo ist der Aufzug am Marienplatz-Turm?",
+      "pronunciation": "vOH-ihst-dehr-OWftsOOk-ahm-mAHrihEHnplahtstUHuhm",
+      "formality": "standard",
+      "cultural_note": "Auskunftspersonen verweisen auf Schilder am Turm oder im Platzbereich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rechts am Turm, unten.",
+        "pronunciation": "rEHkhts-ahm-tUHuhmUHntuhn",
+        "translation_en": "To the right of the tower, down below."
+      },
+      "responses": [
+        {
+          "english": "To the right of the tower, down below.",
+          "phonetic": "rEHkhts-ahm-tUHuhmUHntuhn",
+          "french": "Rechts am Turm, unten."
+        }
+      ]
+    },
+    {
+      "id": "munich_altstadt_lehel_historic_core_005",
+      "intent_en": "Is the Viktualienmarkt cash only",
+      "text_local": "Wird am Viktualienmarkt nur bar bezahlt?",
+      "pronunciation": "vIHrt-ahm-vIHktooAHleenmAHrkt-nOOr-bAHr-buhtsAHlt",
+      "formality": "standard",
+      "cultural_note": "Marktstände bevorzugen Bargeld, Kreditkarten sind selten akzeptiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an den meisten Ständen.",
+        "pronunciation": "yAHahn-dehn-mEYEstuhn-shtEHnduhn",
+        "translation_en": "Yes, at most stalls."
+      },
+      "responses": [
+        {
+          "english": "Yes, at most stalls.",
+          "phonetic": "yAHahn-dehn-mEYEstuhn-shtEHnduhn",
+          "french": "Ja, an den meisten Ständen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

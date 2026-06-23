@@ -1,0 +1,122 @@
+{
+  "id": "füssen_gasthof_krone",
+  "name_en": "Gasthof Krone",
+  "name_local": "Gasthof Krone",
+  "icon": "fork.knife",
+  "lat": 47.5685853,
+  "lon": 10.7012485,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "füssen_gasthof_krone_001",
+      "intent_en": "Do I wait to be seated here?",
+      "text_local": "Muss ich auf Platzanweisung warten?",
+      "pronunciation": "mUHs-ihkh-owf-plAHtsahnvEYEzuhng-vAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Direktansprache durch Personal üblich; klare Anweisung zur Sitzplatzvergabe wird erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, warten Sie bitte.",
+        "pronunciation": "yAHvAHrtuhn-zee-bIHtuh",
+        "translation_en": "Yes, please wait."
+      },
+      "responses": [
+        {
+          "english": "Yes, please wait.",
+          "phonetic": "yAHvAHrtuhn-zee-bIHtuh",
+          "french": "Ja, warten Sie bitte."
+        }
+      ]
+    },
+    {
+      "id": "füssen_gasthof_krone_002",
+      "intent_en": "Is breakfast included in my room?",
+      "text_local": "Ist das Frühstück im Zimmerpreis enthalten?",
+      "pronunciation": "ihst-dahs-frUEshtuek-ihm-tsIHmprEYEs-ehnthAHltuhn",
+      "formality": "standard",
+      "cultural_note": "Frühstücksregelung wird typischerweise vor Ort an der Rezeption geklärt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, das Frühstück ist inklusive.",
+        "pronunciation": "yAHdahs-frUEshtuek-ihst-ihnkloozEEvuh",
+        "translation_en": "Yes, breakfast is included."
+      },
+      "responses": [
+        {
+          "english": "Yes, breakfast is included.",
+          "phonetic": "yAHdahs-frUEshtuek-ihst-ihnkloozEEvuh",
+          "french": "Ja, das Frühstück ist inklusive."
+        }
+      ]
+    },
+    {
+      "id": "füssen_gasthof_krone_003",
+      "intent_en": "Where do I deposit my room key?",
+      "text_local": "Wo gebe ich den Zimmerschlüssel ab?",
+      "pronunciation": "vOH-EHbuh-ihkh-dehn-tsIHmshlUEsuhl-AHp",
+      "formality": "standard",
+      "cultural_note": "Schlüsselabgabe erfolgt standardmäßig an der Rezeption.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Empfang.",
+        "pronunciation": "ahm-ehmpfAHng",
+        "translation_en": "At the reception."
+      },
+      "responses": [
+        {
+          "english": "At the reception.",
+          "phonetic": "ahm-ehmpfAHng",
+          "french": "Am Empfang."
+        }
+      ]
+    },
+    {
+      "id": "füssen_gasthof_krone_004",
+      "intent_en": "Do I pay at table or counter?",
+      "text_local": "Zahlt man hier am Tisch oder am Tresen?",
+      "pronunciation": "tsAHlt-mahn-hEEr-ahm-tIHsh-OHd-ahm-trEHzuhn",
+      "formality": "casual",
+      "cultural_note": "In deutschen Gasthäusern ist Tischzahlung bei Bedienung üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch.",
+        "pronunciation": "ahm-tIHsh",
+        "translation_en": "At the table."
+      },
+      "responses": [
+        {
+          "english": "At the table.",
+          "phonetic": "ahm-tIHsh",
+          "french": "Am Tisch."
+        }
+      ]
+    },
+    {
+      "id": "füssen_gasthof_krone_005",
+      "intent_en": "Can I get Kässpatzen tonight?",
+      "text_local": "Gibt es heute Abend Kässpatzen?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-AHbuhnt-kEHspahtsuhn",
+      "formality": "standard",
+      "cultural_note": "Kässpatzen sind ein klassisches Allgäuer Gericht, oft täglich verfügbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute auf der Karte.",
+        "pronunciation": "yAHhAWuhtuh-owf-dehr-kAHrtuh",
+        "translation_en": "Yes, on the menu today."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the menu today.",
+          "phonetic": "yAHhAWuhtuh-owf-dehr-kAHrtuh",
+          "french": "Ja, heute auf der Karte."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "nara_nakatanidou_mochi_shop",
+  "name_en": "Nakatanidou mochi shop",
+  "name_local": "中谷堂",
+  "icon": "fork.knife",
+  "lat": 34.68444444,
+  "lon": 135.812,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "nara_nakatanidou_mochi_shop_001",
+      "intent_en": "How do I choose box or piece?",
+      "text_local": "ばら と はこ、どう えらびますか？",
+      "pronunciation": "b-TOH-hKohdOHoo-EHbEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At the counter, you simply state the number you want. The staff will ask if you want them wrapped individually or in a box.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かずを いってください。 ばらで つつみます。",
+        "pronunciation": "kzOOoh-EEttehkOOdsEEbDeh-tsOOtsoomeemSoo",
+        "translation_en": "Tell me the quantity. I'll wrap them individually."
+      },
+      "responses": [
+        {
+          "english": "Tell me the quantity. I'll wrap them individually.",
+          "phonetic": "kzOOoh-EEttehkOOdsEEbDeh-tsOOtsoomeemSoo",
+          "french": "かずを いってください。 ばらで つつみます。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nakatanidou_mochi_shop_002",
+      "intent_en": "Is there seating to eat here?",
+      "text_local": "ここで たべるところは ありますか？",
+      "pronunciation": "kohkOHdeh-tBehOOtohkohOHh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many traditional sweet shops are small and do not have seating, so this is a very common exchange.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いえ、もちかえりだけです。",
+        "pronunciation": "EEehmOHteekEHEEdkehdEHsoo",
+        "translation_en": "No, it's take-away only."
+      },
+      "responses": [
+        {
+          "english": "No, it's take-away only.",
+          "phonetic": "EEehmOHteekEHEEdkehdEHsoo",
+          "french": "いえ、もちかえりだけです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nakatanidou_mochi_shop_003",
+      "intent_en": "Do you have kinako mochi now?",
+      "text_local": "きなこもち、いま ありますか？",
+      "pronunciation": "kEEnkohmOHteeEEm-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple affirmative is a common and direct way for shop staff to confirm an item is in stock.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ありますよ。",
+        "pronunciation": "hEEEEmsOOyoh",
+        "translation_en": "Yes, we do."
+      },
+      "responses": [
+        {
+          "english": "Yes, we do.",
+          "phonetic": "hEEEEmsOOyoh",
+          "french": "はい、ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nakatanidou_mochi_shop_004",
+      "intent_en": "When is the mochi-pounding show?",
+      "text_local": "もちつきショーは いつですか？",
+      "pronunciation": "mOHteetsOOkeeOHohh-EEtsoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "The mochi-tsuki show is a live performance. Times are often approximate and can start when a crowd gathers.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あと10分で はじめるよ。",
+        "pronunciation": "Toh-dzOO-dEH-hDeemehOOyoh",
+        "translation_en": "It starts in 10 minutes."
+      },
+      "responses": [
+        {
+          "english": "It starts in 10 minutes.",
+          "phonetic": "Toh-dzOO-dEH-hDeemehOOyoh",
+          "french": "あと10分で はじめるよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

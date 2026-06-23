@@ -1,0 +1,110 @@
+{
+  "id": "amboise_clos_luce",
+  "name_en": "Clos Lucé – Leonardo da Vinci's Home",
+  "name_local": "Château du Clos Lucé",
+  "icon": "house",
+  "phrases": [
+    {
+      "id": "amboise_luce_001",
+      "intent_en": "Ask where Leonardo da Vinci's bedroom is",
+      "text_local": "Où se trouve la chambre de Léonard de Vinci ?",
+      "pronunciation": "oo suh TROOV lah SHAHM-bruh duh lay-oh-NAR duh VAN-see",
+      "formality": "polite",
+      "cultural_note": "Leonardo spent the last three years of his life at Clos Lucé, invited by King François I. He died here in 1519.",
+      "responses": [
+        {
+          "english": "On the first floor, on the right.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH, soor lah DRWAHT",
+          "french": "Au premier étage, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_luce_002",
+      "intent_en": "Ask about the models of Leonardo's inventions",
+      "text_local": "Où sont exposées les maquettes des inventions de Léonard de Vinci ?",
+      "pronunciation": "oo son eks-poh-ZAY lay mah-KET day zan-von-SYON duh lay-oh-NAR duh VAN-see",
+      "formality": "polite",
+      "cultural_note": "The château displays 40 scale models of Leonardo's machines, reconstructed from his notebooks by IBM engineers in the 1980s.",
+      "responses": [
+        {
+          "english": "On the ground floor and in the park.",
+          "phonetic": "oh ray-duh-shoh-SAY ay dahn luh PARK",
+          "french": "Au rez-de-chaussée et dans le parc."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_luce_003",
+      "intent_en": "Ask how to get to the gardens",
+      "text_local": "Comment accède-t-on aux jardins ?",
+      "pronunciation": "koh-MAHN ak-SED-ton oh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "The park around Clos Lucé features large-scale reproductions of Leonardo's machines in a scenic garden setting.",
+      "responses": [
+        {
+          "english": "Through the exit at the back, on the left.",
+          "phonetic": "par lah sor-TEE oh FOHN, ah GOHSH",
+          "french": "Par la sortie au fond, à gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_luce_004",
+      "intent_en": "Ask if there is a combined ticket with the Château Royal",
+      "text_local": "Existe-t-il un billet combiné avec le Château Royal ?",
+      "pronunciation": "eg-ZEEST-teel uhn bee-YEH kohm-bee-NAY ah-VEK luh shah-TOH rwah-YAL",
+      "formality": "polite",
+      "cultural_note": "Combined tickets covering Clos Lucé and the Château Royal d'Amboise are available; ask at either ticket office.",
+      "responses": [
+        {
+          "english": "Yes, ask at the ticket office.",
+          "phonetic": "wee, duh-mahn-DAY oh ghee-SHEH",
+          "french": "Oui, demandez au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "amboise_luce_005",
+      "intent_en": "Ask what time the last entry is",
+      "text_local": "Jusqu'à quelle heure peut-on entrer ?",
+      "pronunciation": "zhoos-KAH kel UR puh-TON ahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "Clos Lucé is open year-round; closing times vary by season. The garden is illuminated on select evenings during summer.",
+      "responses": [
+        {
+          "english": "Last entry at 5 PM.",
+          "phonetic": "dehr-NYEHR ahn-TRAY ah dee-SET UHR",
+          "french": "Dernière entrée à dix-sept heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "scale model",
+      "word_local": "la maquette",
+      "pronunciation": "lah mah-KET"
+    },
+    {
+      "word_en": "invention",
+      "word_local": "l'invention",
+      "pronunciation": "lan-von-SYON"
+    },
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "luh zhar-DAN"
+    }
+  ]
+}

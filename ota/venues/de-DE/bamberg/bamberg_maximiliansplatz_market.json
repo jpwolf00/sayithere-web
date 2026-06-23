@@ -1,0 +1,100 @@
+{
+  "id": "bamberg_maximiliansplatz_market",
+  "name_en": "Maximiliansplatz Market",
+  "name_local": "Wochenmarkt Maximiliansplatz",
+  "icon": "cart",
+  "lat": 49.8907307,
+  "lon": 10.8825202,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "bamberg_maximiliansplatz_market_001",
+      "intent_en": "Do I weigh produce myself or staff does?",
+      "text_local": "Wird das Obst hier selbst gewogen?",
+      "pronunciation": "vIHrt-dahs-OHpst-hEEr-zEHlpst-uhvOHuhn",
+      "formality": "casual",
+      "cultural_note": "Self-service scales are common; staff rarely assists.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Selbst, an der Waage.",
+        "pronunciation": "zEHlpstahn-dehr-vAHuh",
+        "translation_en": "Self-service at the scale."
+      },
+      "responses": [
+        {
+          "english": "Self-service at the scale.",
+          "phonetic": "zEHlpstahn-dehr-vAHuh",
+          "french": "Selbst, an der Waage."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_maximiliansplatz_market_002",
+      "intent_en": "Where is the Käsestand cheese stall?",
+      "text_local": "Wo finde ich den Käsestand?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-kEHzehstAHnt",
+      "formality": "standard",
+      "cultural_note": "Vendors are typically arranged in rows; Käse often centrally located.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich hier, zwischen den Ständen.",
+        "pronunciation": "lEYEkh-hEErtsvIHshuhn-dehn-shtEHnduhn",
+        "translation_en": "Right here, between the stalls."
+      },
+      "responses": [
+        {
+          "english": "Right here, between the stalls.",
+          "phonetic": "lEYEkh-hEErtsvIHshuhn-dehn-shtEHnduhn",
+          "french": "Gleich hier, zwischen den Ständen."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_maximiliansplatz_market_003",
+      "intent_en": "Where can I get change for cash stalls?",
+      "text_local": "Wo kann ich Kleingeld für die Stände bekommen?",
+      "pronunciation": "vOH-kAHn-ihkh-EHlt-vEHksuhln",
+      "formality": "casual",
+      "cultural_note": "Change often available at larger stalls; staff may assist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Getränkestand gibt’s Wechselgeld.",
+        "pronunciation": "ahm-guhtrEHnkehstAHnt-gIHpts-vEHksuhlgEHlt",
+        "translation_en": "The drinks stall gives change."
+      },
+      "responses": [
+        {
+          "english": "The drinks stall gives change.",
+          "phonetic": "ahm-guhtrEHnkehstAHnt-gIHpts-vEHksuhlgEHlt",
+          "french": "Am Getränkestand gibt’s Wechselgeld."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_maximiliansplatz_market_004",
+      "intent_en": "Is there Pfand on market bottles?",
+      "text_local": "Gibt es Pfand auf Flaschen hier?",
+      "pronunciation": "EEpt-ehs-pfAHnt-owf-flAHshuhn-hEEr",
+      "formality": "casual",
+      "cultural_note": "Standard Pfand applies; vendors may display signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, 8 oder 15 Cent.",
+        "pronunciation": "yAHAHkht-OHd-fUEnftsehn-sEHnt",
+        "translation_en": "Yes, 8 or 15 cents."
+      },
+      "responses": [
+        {
+          "english": "Yes, 8 or 15 cents.",
+          "phonetic": "yAHAHkht-OHd-fUEnftsehn-sEHnt",
+          "french": "Ja, 8 oder 15 Cent."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

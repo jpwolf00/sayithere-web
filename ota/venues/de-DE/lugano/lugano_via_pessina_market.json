@@ -1,0 +1,78 @@
+{
+  "id": "lugano_via_pessina_market",
+  "name_en": "Via Pessina Market",
+  "name_local": "Mercato di Via Pessina",
+  "icon": "cart",
+  "lat": 46.1176476,
+  "lon": 8.893825,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "lugano_via_pessina_market_001",
+      "intent_en": "Is Samarate produce sold today?",
+      "text_local": "Wird heute Ware aus Samarate verkauft?",
+      "pronunciation": "vIHrt-hAWuhtuh-vAHruh-OWs-zAHmahrAHtuh-fehrkOWft",
+      "formality": "standard",
+      "cultural_note": "In Schweizer Märkten wird regionale Herkunft oft durch Schilder oder mündliche Auskunft bestätigt. 'Richtung Samarate' verweist auf den westlichen Teil des Marktes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bei den Ständen Richtung Samarate.",
+        "pronunciation": "yAHbeye-dehn-shtEHnduhn-rIHkhtuhng-zAHmahrAHtuh",
+        "translation_en": "Yes, at stands towards Samarate."
+      },
+      "responses": [
+        {
+          "english": "Yes, at stands towards Samarate.",
+          "phonetic": "yAHbeye-dehn-shtEHnduhn-rIHkhtuhng-zAHmahrAHtuh",
+          "french": "Ja, bei den Ständen Richtung Samarate."
+        }
+      ]
+    },
+    {
+      "id": "lugano_via_pessina_market_002",
+      "intent_en": "Do small vendors need exact cash?",
+      "text_local": "Brauchen kleine Händler exaktes Kleingeld?",
+      "pronunciation": "brOWkhuhn-klEYEnuh-hEHndl-EHksahktuhs-klEYEngehlt",
+      "formality": "standard",
+      "cultural_note": "In Schweizer Märkten ist Bargeld bei kleinen Händlern üblich, Wechselgeld oft begrenzt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, oft nur Bargeld.",
+        "pronunciation": "yAHAWft-nOOr-bAHrehlt",
+        "translation_en": "Yes, often only cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, often only cash.",
+          "phonetic": "yAHAWft-nOOr-bAHrehlt",
+          "french": "Ja, oft nur Bargeld."
+        }
+      ]
+    },
+    {
+      "id": "lugano_via_pessina_market_003",
+      "intent_en": "Where is the Prato Pessina entrance?",
+      "text_local": "Wo ist der Eingang zu Prato Pessina?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoo-prAHtoh-pEHseenAH",
+      "formality": "standard",
+      "cultural_note": "In Lugano ist der Marktzugang oft direkt an der Straße sichtbar. 'Gleich hier' impliziert Nähe zur Straßenfront.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich hier.",
+        "pronunciation": "lEYEkh-hEEr",
+        "translation_en": "Right here."
+      },
+      "responses": [
+        {
+          "english": "Right here.",
+          "phonetic": "lEYEkh-hEEr",
+          "french": "Gleich hier."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

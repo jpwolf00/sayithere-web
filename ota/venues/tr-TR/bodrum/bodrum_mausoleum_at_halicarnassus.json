@@ -1,0 +1,166 @@
+{
+  "id": "bodrum_mausoleum_at_halicarnassus",
+  "name_en": "Mausoleum at Halicarnassus",
+  "name_local": "Halikarnas Mozolesi",
+  "icon": "building.columns",
+  "lat": 37.0378827,
+  "lon": 27.4241455,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "bodrum_mausoleum_at_halicarnassus_001",
+      "intent_en": "How long to see the sculptural reliefs?",
+      "text_local": "Heykel kabartmalarını görmek ne kadar sürer?",
+      "pronunciation": "hehykAHl-kahbahrtmahahroonOO-uhrmEHk-nEH-kahdAHr-suerEHr",
+      "formality": "casual",
+      "cultural_note": "Viewing duration is unverified; staff can provide a realistic estimate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "On beş dakika yeterli.",
+        "pronunciation": "AWn-bEHsh-dahkeekAH-yehtehrlIH",
+        "translation_en": "Fifteen minutes is enough."
+      },
+      "responses": [
+        {
+          "english": "Fifteen minutes is enough.",
+          "phonetic": "AWn-bEHsh-dahkeekAH-yehtehrlIH",
+          "french": "On beş dakika yeterli."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_mausoleum_at_halicarnassus_002",
+      "intent_en": "Where is the Artemisia burial chamber?",
+      "text_local": "Artemisia'nın mezar odası nerede?",
+      "pronunciation": "ahrtehmeeseeahnOOn-mehzAHr-ohdahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Direct path to the burial chamber is unverified; asking staff is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Oda yok, tüm kalıntılar aynı alanda.",
+        "pronunciation": "ohdAH-yAWktUHm-kahoontooAHr-ahynOO-ahahndAH",
+        "translation_en": "There is no chamber, all the remains are in the same area."
+      },
+      "responses": [
+        {
+          "english": "There is no chamber, all the remains are in the same area.",
+          "phonetic": "ohdAH-yAWktUHm-kahoontooAHr-ahynOO-ahahndAH",
+          "french": "Oda yok, tüm kalıntılar aynı alanda."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_mausoleum_at_halicarnassus_003",
+      "intent_en": "Can I climb on the ancient stones?",
+      "text_local": "Antik taşların üzerine tırmanabilir miyim?",
+      "pronunciation": "ahntIHk-tahshahrOOn-uezehreenEH-toormahnahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Climbing is strictly prohibited to protect the fragile ruins.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, antik taşlara tırmanmak yasak.",
+        "pronunciation": "hahyOOrahntIHk-tahshahrAH-toormahnmAHk-yAHsahk",
+        "translation_en": "No, climbing on ancient stones is forbidden."
+      },
+      "responses": [
+        {
+          "english": "No, climbing on ancient stones is forbidden.",
+          "phonetic": "hahyOOrahntIHk-tahshahrAH-toormahnmAHk-yAHsahk",
+          "french": "Hayır, antik taşlara tırmanmak yasak."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_mausoleum_at_halicarnassus_004",
+      "intent_en": "How long to see the sculptural reliefs?",
+      "text_local": "Kabartmaları görmek ne kadar sürer?",
+      "pronunciation": "kahbahrtmahahrOO-uhrmEHk-nEH-kahdAHr-suerEHr",
+      "formality": "standard",
+      "cultural_note": "Safety prefix used because viewing duration is not specified in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yirmi dakika kadar.",
+        "pronunciation": "yihrmIH-dahkeekAH-kahdAHr",
+        "translation_en": "About twenty minutes."
+      },
+      "responses": [
+        {
+          "english": "About twenty minutes.",
+          "phonetic": "yihrmIH-dahkeekAH-kahdAHr",
+          "french": "Yirmi dakika kadar."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_mausoleum_at_halicarnassus_005",
+      "intent_en": "Can I climb on the ancient stones?",
+      "text_local": "Antik taşlara tırmanabilir miyim?",
+      "pronunciation": "ahntIHk-tahshahrAH-toormahnahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Response based on the venue context rule: 'No climbing on ancient stones'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, antik taşlara tırmanmak yasak.",
+        "pronunciation": "hahyOOrahntIHk-tahshahrAH-toormahnmAHk-yAHsahk",
+        "translation_en": "No, climbing on the ancient stones is forbidden."
+      },
+      "responses": [
+        {
+          "english": "No, climbing on the ancient stones is forbidden.",
+          "phonetic": "hahyOOrahntIHk-tahshahrAH-toormahnmAHk-yAHsahk",
+          "french": "Hayır, antik taşlara tırmanmak yasak."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_mausoleum_at_halicarnassus_006",
+      "intent_en": "Where is the gift shop after exit?",
+      "text_local": "Çıkıştan sonra hediyelik eşya dükkanı nerede?",
+      "pronunciation": "tshookooshtahkIH-hehdeeyehlIHk-ehshyAH-duekahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The gift shop's exact location is unverified; staff will direct you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Çıkışta, sağ tarafta hemen.",
+        "pronunciation": "tshookooshtAHsAH-tahrahftAH-hehmAHn",
+        "translation_en": "At the exit, immediately on the right."
+      },
+      "responses": [
+        {
+          "english": "At the exit, immediately on the right.",
+          "phonetic": "tshookooshtAHsAH-tahrahftAH-hehmAHn",
+          "french": "Çıkışta, sağ tarafta hemen."
+        }
+      ]
+    },
+    {
+      "id": "bodrum_mausoleum_at_halicarnassus_007",
+      "intent_en": "Is Museum Pass Turkey accepted here?",
+      "text_local": "Müze Kart Türkiye burada geçerli mi?",
+      "pronunciation": "mOOsehuhm-pAHss-tUHrkeeyeh-bOOrahdah-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Museum Pass acceptance is unverified; confirming with staff is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, geçerli.",
+        "pronunciation": "ehvEHtehtshehrlIH",
+        "translation_en": "Yes, it is accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is accepted.",
+          "phonetic": "ehvEHtehtshehrlIH",
+          "french": "Evet, geçerli."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

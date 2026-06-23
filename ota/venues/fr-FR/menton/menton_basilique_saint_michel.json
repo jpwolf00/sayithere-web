@@ -1,0 +1,110 @@
+{
+  "id": "menton_basilique_saint_michel",
+  "name_en": "Basilica of Saint Michael the Archangel",
+  "name_local": "Basilique Saint-Michel-Archange",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "michel_open",
+      "intent_en": "Is the basilica open today?",
+      "text_local": "Est-ce que la basilique est ouverte aujourd'hui ?",
+      "pronunciation": "es-kuh lah bah-ZEEK eh oo-VAIR-tuh oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Hours vary by season. The baroque façade visible from the sea is one of Menton's most iconic views.",
+      "responses": [
+        {
+          "english": "Yes, until 6 PM.",
+          "phonetic": "wee, zhoos-KAH deez-weet UHR",
+          "french": "Oui, jusqu'à dix-huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "michel_parvis",
+      "intent_en": "Can we go up to the forecourt for the viewpoint?",
+      "text_local": "On peut monter sur le parvis pour la vue ?",
+      "pronunciation": "on puh mon-TAY sur luh par-VEE poor lah vue",
+      "formality": "polite",
+      "cultural_note": "The forecourt is a popular photo stop above old town, especially in late afternoon light.",
+      "responses": [
+        {
+          "english": "Yes, go up the steps.",
+          "phonetic": "wee, mohn-TAY lay MARSH",
+          "french": "Oui, montez les marches."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "michel_messe",
+      "intent_en": "What time is Mass?",
+      "text_local": "À quelle heure est la messe ?",
+      "pronunciation": "ah kel UR eh lah MES",
+      "formality": "polite",
+      "cultural_note": "The basilica holds regular services. Visitors are welcome outside of service times.",
+      "responses": [
+        {
+          "english": "It's indicated at the entrance.",
+          "phonetic": "seh ehn-dee-KAY ah lahn-TRAY",
+          "french": "C'est indiqué à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_sm_men_x1",
+      "intent_en": "Ask if the church is open to visitors",
+      "text_local": "L'église est-elle ouverte aux visiteurs ?",
+      "pronunciation": "lay-GLEEZ ay-TEL oo-VAIR oh vee-zee-TUR",
+      "formality": "polite",
+      "cultural_note": "The Basilique Saint-Michel-Archange is the most important Baroque church on the French Riviera, its yellow and ochre façade dominating Menton's old town.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, except during services.",
+          "phonetic": "wee, sohf pahn-DAHN lay zoh-FEES.",
+          "french": "Oui, sauf pendant les offices."
+        }
+      ]
+    },
+    {
+      "id": "fr_sm_men_x2",
+      "intent_en": "Ask where the Cocteau museum nearby is",
+      "text_local": "Où se trouve le musée Jean Cocteau ?",
+      "pronunciation": "oo suh TROOV luh moo-ZAY zhahn kok-TOH",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the harbour, at the bottom of the old town.",
+          "phonetic": "soor luh POR, ahn bah duh lah VYAY veel.",
+          "french": "Sur le port, en bas de la vieille ville."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "church forecourt / square",
+      "word_local": "le parvis",
+      "pronunciation": "luh par-VEE"
+    },
+    {
+      "word_en": "bell tower",
+      "word_local": "le clocher",
+      "pronunciation": "luh kloh-SHAY"
+    },
+    {
+      "word_en": "baroque (architectural style)",
+      "word_local": "baroque",
+      "pronunciation": "bah-ROK"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "bern_bear_park",
+  "name_en": "Bear Park",
+  "name_local": "BärenPark",
+  "icon": "leaf",
+  "lat": 46.9476825,
+  "lon": 7.4591848,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "bern_bear_park_001",
+      "intent_en": "Where is Aare riverside enclosure",
+      "text_local": "Wo ist die Aare-Bärenanlage?",
+      "pronunciation": "vOH-ihst-dee-AHruhbEHruhnAHnlahuh",
+      "formality": "standard",
+      "cultural_note": "The Aare river is a central landmark in Bern; directions often reference its proximity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie zum Flussufer entlang der Aare.",
+        "pronunciation": "EHuhn-zee-tsuhm-flUHsoof-ehntlAHng-dehr-AHruh",
+        "translation_en": "Walk to the Aare riverside."
+      },
+      "responses": [
+        {
+          "english": "Walk to the Aare riverside.",
+          "phonetic": "EHuhn-zee-tsuhm-flUHsoof-ehntlAHng-dehr-AHruh",
+          "french": "Gehen Sie zum Flussufer entlang der Aare."
+        }
+      ]
+    },
+    {
+      "id": "bern_bear_park_002",
+      "intent_en": "Where is bear sleeping area viewing",
+      "text_local": "Wo ist der Aussichtspunkt für die schlafenden Bären?",
+      "pronunciation": "vOH-kAHn-mahn-dee-bEHruhn-rOOuhnt-zEHuhn",
+      "formality": "standard",
+      "cultural_note": "Swiss parks emphasize quiet zones near sensitive animal areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter dem Glas.",
+        "pronunciation": "hIHnt-dehm-glAHs",
+        "translation_en": "Behind the glass."
+      },
+      "responses": [
+        {
+          "english": "Behind the glass.",
+          "phonetic": "hIHnt-dehm-glAHs",
+          "french": "Hinter dem Glas."
+        }
+      ]
+    },
+    {
+      "id": "bern_bear_park_003",
+      "intent_en": "Where is old Bärengraben pit",
+      "text_local": "Wo ist der alte Bärengraben?",
+      "pronunciation": "vOH-ihst-dehr-AHltuh-bEHruhnrAHbuhn",
+      "formality": "standard",
+      "cultural_note": "Directions in Bern parks often rely on clear signage rather than micro-instructions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie hinunter zum Fluss.",
+        "pronunciation": "gEHuhn-zee-hihnUHnt-tsuhm-flUHs",
+        "translation_en": "Go down to the river."
+      },
+      "responses": [
+        {
+          "english": "Go down to the river.",
+          "phonetic": "gEHuhn-zee-hihnUHnt-tsuhm-flUHs",
+          "french": "Gehen Sie hinunter zum Fluss."
+        }
+      ]
+    },
+    {
+      "id": "bern_bear_park_004",
+      "intent_en": "Where is donation box at entrance",
+      "text_local": "Wo steht die Spendenbox?",
+      "pronunciation": "vOH-shtEHt-dee-shpEHnduhnbAWks",
+      "formality": "standard",
+      "cultural_note": "Donation boxes at Swiss attractions are typically placed prominently at entrances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Eingang steht eine Spendenbox.",
+        "pronunciation": "ahm-EYEnAHng-shtEHt-EYEnuh-shpEHnduhnbAWks",
+        "translation_en": "There is a donation box at the entrance."
+      },
+      "responses": [
+        {
+          "english": "There is a donation box at the entrance.",
+          "phonetic": "ahm-EYEnAHng-shtEHt-EYEnuh-shpEHnduhnbAWks",
+          "french": "Am Eingang steht eine Spendenbox."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

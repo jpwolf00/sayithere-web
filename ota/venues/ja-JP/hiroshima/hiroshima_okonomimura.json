@@ -1,0 +1,100 @@
+{
+  "id": "hiroshima_okonomimura",
+  "name_en": "Okonomimura",
+  "name_local": "お好み村",
+  "icon": "fork.knife",
+  "lat": 34.3912894,
+  "lon": 132.461894,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "hiroshima_okonomimura_001",
+      "intent_en": "Where is stall number I want",
+      "text_local": "そのばんごうの店はどこですか",
+      "pronunciation": "sOH-nOH-h-EHndzhAHpuhneezyahlEHtuh-kOH-ehndzhAHpuhneezyahlEHtuh-OO-nOH-ehntshEYEneezyahlEHtuh-h-TOH-ehndzhAHpuhneezyahlEHtuh-kOH-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-k",
+      "formality": "standard",
+      "cultural_note": "お好み村 has many similar stalls. Chefs are direct and use simple directions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ行って、左です。",
+        "pronunciation": "m-sOO-kOO-ehndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEHdEHsoo",
+        "translation_en": "Go straight, it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Go straight, it's on the left.",
+          "phonetic": "m-sOO-kOO-ehndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEHdEHsoo",
+          "french": "まっすぐ行って、左です。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_okonomimura_002",
+      "intent_en": "Is seating at counter only",
+      "text_local": "せきはカウンターだけですか",
+      "pronunciation": "sEHkeehKOOntdKehdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Many stalls in Okonomimura have only counter seats around the teppan.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "そうです。カウンターせきのみになります。",
+        "pronunciation": "sOHoodEHsookOOntSehkEEnohmEEneenEEmSoo",
+        "translation_en": "Yes. It's counter seating only."
+      },
+      "responses": [
+        {
+          "english": "Yes. It's counter seating only.",
+          "phonetic": "sOHoodEHsookOOntSehkEEnohmEEneenEEmSoo",
+          "french": "そうです。カウンターせきのみになります。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_okonomimura_003",
+      "intent_en": "Do I pay before or after cooking",
+      "text_local": "りょうりができる前と後、どっちではらいますか",
+      "pronunciation": "EE-OH-OO-EE-k-EHndzhAHpuhneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-kEE-OO-ehntshEYEneezyahlEHtuh-tOH-ehntshEYEneezyahlEHtuhdOHtteedEHhEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At okonomiyaki stalls, you typically pay at the counter after your meal.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "食べおわってから、ここではらってください。",
+        "pronunciation": "bEHohwTtehkKOHkohdEHhTtehkOOdsEE",
+        "translation_en": "Please pay here after you finish eating."
+      },
+      "responses": [
+        {
+          "english": "Please pay here after you finish eating.",
+          "phonetic": "bEHohwTtehkKOHkohdEHhTtehkOOdsEE",
+          "french": "食べおわってから、ここではらってください。"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima_okonomimura_004",
+      "intent_en": "How do I choose toppings by number",
+      "text_local": "トッピングは番号でどう選びますか",
+      "pronunciation": "tOH-khEE-ehndzhAHpuhneezyahlEHtuh-kOO-ehndzhAHpuhneezyahlEHtuh-h-EHntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-tOH-ehndzhAHpuhneezyahlEHtuh-OO-ehntshEYEneezyahlEHtuh-khEE-ehndzhAHpuhneezyahlEHtuh-m-SOO-k",
+      "formality": "standard",
+      "cultural_note": "Ordering by number is common. Pointing at the menu is also perfectly acceptable.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "番号を言ってください。",
+        "pronunciation": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-OH-ehntshEYEneezyahlEHtuh-tEH-kOO-t-EHndzhAHpuhneezyahlEHtuh-s-EE",
+        "translation_en": "Please say the number."
+      },
+      "responses": [
+        {
+          "english": "Please say the number.",
+          "phonetic": "ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-OH-ehntshEYEneezyahlEHtuh-tEH-kOO-t-EHndzhAHpuhneezyahlEHtuh-s-EE",
+          "french": "番号を言ってください。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

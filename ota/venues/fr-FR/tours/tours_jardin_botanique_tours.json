@@ -1,0 +1,110 @@
+{
+  "id": "tours_jardin_botanique",
+  "name_en": "Botanical Garden of Tours",
+  "name_local": "Jardin Botanique de Tours",
+  "icon": "leaf",
+  "phrases": [
+    {
+      "id": "tours_jardin_001",
+      "intent_en": "Ask where the greenhouse is located",
+      "text_local": "Où se trouve la serre du jardin botanique ?",
+      "pronunciation": "oo suh TROOV lah SAIR doo zhar-DAN boh-tah-NEEK",
+      "formality": "polite",
+      "cultural_note": "The Jardin Botanique de Tours has a 19th-century greenhouse featuring tropical and Mediterranean plant collections.",
+      "responses": [
+        {
+          "english": "At the back of the garden, on the left.",
+          "phonetic": "oh FOHN doo zhar-DAHN ah GOHSH",
+          "french": "Au fond du jardin, à gauche."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_jardin_002",
+      "intent_en": "Ask if the garden is free to enter",
+      "text_local": "L'entrée du jardin botanique est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY doo zhar-DAN boh-tah-NEEK ay-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The Jardin Botanique de Tours is free and open to the public year-round, though some sections may have restricted hours in winter.",
+      "responses": [
+        {
+          "english": "Yes, it is free.",
+          "phonetic": "wee say grah-TWEE",
+          "french": "Oui, c'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_jardin_003",
+      "intent_en": "Ask what plants are in bloom now",
+      "text_local": "Quelles plantes sont en fleur en ce moment ?",
+      "pronunciation": "kel PLAHNT son ahn FLUR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The garden features a rose collection, medicinal herb garden, and rare trees; seasonal blooms vary from spring roses to late-summer dahlias.",
+      "responses": [
+        {
+          "english": "The rose bushes are blooming right now.",
+          "phonetic": "lay roh-ZYAY sohn tahn FLUR ahn suh moh-MAHN",
+          "french": "Les rosiers sont en fleur en ce moment."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_jardin_004",
+      "intent_en": "Ask if there is a children's play area",
+      "text_local": "Y a-t-il un espace de jeu pour les enfants dans le jardin ?",
+      "pronunciation": "ee ah-TEEL un es-PASS duh ZHUH poor lay zahn-FAHN dahn luh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "The botanical garden is a popular family destination in Tours, with a small zoo and play area that children can enjoy alongside the plant collections.",
+      "responses": [
+        {
+          "english": "Yes, near the main entrance.",
+          "phonetic": "wee pray duh lahn-TRAY prahn-see-PAHL",
+          "french": "Oui, près de l'entrée principale."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_jardin_005",
+      "intent_en": "Ask if there are guided botanical walks",
+      "text_local": "Proposez-vous des visites guidées botaniques ?",
+      "pronunciation": "proh-poh-ZAY-voo day vee-ZEET gee-DAY boh-tah-NEEK",
+      "formality": "polite",
+      "cultural_note": "Guided botanical walks are occasionally offered by the city of Tours; the tourist office can provide current schedules.",
+      "responses": [
+        {
+          "english": "You need to check online.",
+          "phonetic": "eel foh vay-ree-FYAY ahn LEE-nyuh",
+          "french": "Il faut vérifier en ligne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "botanical garden",
+      "word_local": "le jardin botanique",
+      "pronunciation": "luh zhar-DAN boh-tah-NEEK"
+    },
+    {
+      "word_en": "greenhouse",
+      "word_local": "la serre",
+      "pronunciation": "lah SAIR"
+    },
+    {
+      "word_en": "in bloom",
+      "word_local": "en fleur",
+      "pronunciation": "ahn FLUR"
+    }
+  ]
+}

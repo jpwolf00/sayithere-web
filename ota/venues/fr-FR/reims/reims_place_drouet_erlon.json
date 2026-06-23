@@ -1,0 +1,115 @@
+{
+  "id": "reims_place_drouet_erlon",
+  "name_en": "Place Drouet d’ErIon",
+  "name_local": "Place Drouet d’Erlon",
+  "icon": "fork.knife",
+  "phrases": [
+    {
+      "id": "erlon_terrasse",
+      "intent_en": "Can we sit on the terrace?",
+      "text_local": "On peut s'installer en terrasse ?",
+      "pronunciation": "on puh san-stah-LAY on te-RASS",
+      "formality": "polite",
+      "cultural_note": "Terrace seating is popular in warm weather; service pace can be slower at peak times.",
+      "responses": [
+        {
+          "english": "Yes, have a seat.",
+          "phonetic": "wee ahn-stah-LAY-VOO",
+          "french": "Oui, installez-vous."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "erlon_menu",
+      "intent_en": "Do you have a lunch menu?",
+      "text_local": "Vous avez une formule déjeuner ?",
+      "pronunciation": "voo zah-VAY oon for-MUEL day-zhuh-NAY",
+      "formality": "polite",
+      "cultural_note": "Many brasseries offer a fixed-price lunch formula on weekdays.",
+      "responses": [
+        {
+          "english": "Yes, at fifteen euros.",
+          "phonetic": "wee ah KAHNZ uh-ROH",
+          "french": "Oui, à quinze euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "erlon_champagne",
+      "intent_en": "Could we have one glass of local champagne?",
+      "text_local": "On pourrait avoir une coupe de champagne local ?",
+      "pronunciation": "on poo-RAY ah-VWAR oon koop duh sham-PANY loh-KAL",
+      "formality": "polite",
+      "cultural_note": "Reims is a champagne city—\"une coupe\" usually means a glass served chilled.",
+      "responses": [
+        {
+          "english": "Right away.",
+          "phonetic": "too duh SWEET",
+          "french": "Tout de suite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "erlon_reservation",
+      "intent_en": "Do I need a reservation for tonight?",
+      "text_local": "Il faut réserver pour ce soir ?",
+      "pronunciation": "eel foh ray-zair-VAY poor suh swar",
+      "formality": "polite",
+      "cultural_note": "Evening spots near this square can fill up quickly on weekends.",
+      "responses": [
+        {
+          "english": "Yes, it is recommended on Saturday evening.",
+          "phonetic": "wee say pray-fay-RABL luh sam-DEE SWAHR",
+          "french": "Oui, c'est préférable le samedi soir."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "erlon_addition",
+      "intent_en": "Could I have the bill, please?",
+      "text_local": "L'addition, s'il vous plaît.",
+      "pronunciation": "lah-dee-SYON seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "In France, asking for the bill is normal—staff usually won't bring it automatically.",
+      "responses": [
+        {
+          "english": "Right away.",
+          "phonetic": "too duh SWEET",
+          "french": "Tout de suite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "terrace",
+      "word_local": "la terrasse",
+      "pronunciation": "lah te-RASS"
+    },
+    {
+      "word_en": "set menu",
+      "word_local": "la formule",
+      "pronunciation": "lah for-MUEL"
+    },
+    {
+      "word_en": "glass of champagne",
+      "word_local": "une coupe",
+      "pronunciation": "oon koop"
+    },
+    {
+      "word_en": "the bill",
+      "word_local": "l’addition",
+      "pronunciation": "lah-dee-SYON"
+    }
+  ]
+}

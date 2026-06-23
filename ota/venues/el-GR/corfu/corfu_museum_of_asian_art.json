@@ -1,0 +1,100 @@
+{
+  "id": "corfu_museum_of_asian_art",
+  "name_en": "Museum of Asian Art",
+  "name_local": "Μουσείο Ασιατικής Τέχνης Κέρκυρας",
+  "icon": "building.columns",
+  "lat": 39.6257762,
+  "lon": 19.9247816,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "corfu_museum_of_asian_art_001",
+      "intent_en": "Ask where the gift shop sells keepsakes",
+      "text_local": "Πού είναι το κατάστημα δώρων;",
+      "pronunciation": "pOO-EEneh-toh-kahtAHsteemAH-thOHrohn",
+      "formality": "standard",
+      "cultural_note": "Το κατάστημα βρίσκεται κοντά στην κύρια έξοδο του μουσείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην έξοδο του μουσείου.",
+        "pronunciation": "steen-EHksohthOH-too-moosEEoo",
+        "translation_en": "At the museum exit."
+      },
+      "responses": [
+        {
+          "english": "At the museum exit.",
+          "phonetic": "steen-EHksohthOH-too-moosEEoo",
+          "french": "Στην έξοδο του μουσείου."
+        }
+      ]
+    },
+    {
+      "id": "corfu_museum_of_asian_art_002",
+      "intent_en": "Ask where to leave donation",
+      "text_local": "Πού αφήνω δωρεά;",
+      "pronunciation": "pOO-ahfEEnoh-thOHrehAH",
+      "formality": "standard",
+      "cultural_note": "Η κάλπη βρίσκεται κοντά στην κύρια έξοδο του μουσείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην κάλπη κοντά στην έξοδο.",
+        "pronunciation": "steeng-gAHlpee-kohdAH-steen-EHksohthOH",
+        "translation_en": "At the donation box near the exit."
+      },
+      "responses": [
+        {
+          "english": "At the donation box near the exit.",
+          "phonetic": "steeng-gAHlpee-kohdAH-steen-EHksohthOH",
+          "french": "Στην κάλπη κοντά στην έξοδο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_museum_of_asian_art_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω τον οπτικοακουστικό οδηγό;",
+      "pronunciation": "pOHz-bohrOH-nah-pAHree-ksEHnahghOH",
+      "formality": "polite",
+      "cultural_note": "Τα ξενάγησης παρέχονται μέσω του προσωπικού στο ταμείο εισιτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από το ταμείο, μαζί με το εισιτήριο.",
+        "pronunciation": "ahpOH-toh-tahmEEohmahzEE-meh-toh-EEseetEEreeOH",
+        "translation_en": "At the ticket desk, together with the ticket."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk, together with the ticket.",
+          "phonetic": "ahpOH-toh-tahmEEohmahzEE-meh-toh-EEseetEEreeOH",
+          "french": "Από το ταμείο, μαζί με το εισιτήριο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_museum_of_asian_art_004",
+      "intent_en": "Ask if the combined Palace ticket includes this museum",
+      "text_local": "Η συλλογική είσοδος περιλαμβάνει το Μουσείο Ασιατικής Τέχνης;",
+      "pronunciation": "ee-sEElohyeeEE-EEsohthOHs-pEHreelahmvAHnee-toh-moosEEoh-AHsyahteeEEs-tEHkhnees",
+      "formality": "standard",
+      "cultural_note": "Η συλλογική εισιτήριο καλύπτει αρκετά μουσεία του νησιού, συμπεριλαμβανομένου αυτού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, περιλαμβάνει.",
+        "pronunciation": "nEHpEHreelahmvAHnee",
+        "translation_en": "Yes, it does."
+      },
+      "responses": [
+        {
+          "english": "Yes, it does.",
+          "phonetic": "nEHpEHreelahmvAHnee",
+          "french": "Ναι, περιλαμβάνει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

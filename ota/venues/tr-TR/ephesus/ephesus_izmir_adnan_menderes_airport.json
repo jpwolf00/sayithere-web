@@ -1,0 +1,166 @@
+{
+  "id": "ephesus_izmir_adnan_menderes_airport",
+  "name_en": "İzmir Adnan Menderes Airport",
+  "name_local": "İzmir Adnan Menderes Havalimanı",
+  "icon": "tram",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ephesus_izmir_adnan_menderes_airport_001",
+      "intent_en": "Where is Havaş shuttle desk?",
+      "text_local": "Havaş şehir servisi gişesi nerede?",
+      "pronunciation": "hahvAHsh-shehhIHr-sehrveesIH-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish airport staff often direct you to the central information desk for specific service locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İç hatlar çıkışında, sağ tarafta.",
+        "pronunciation": "IHtsh-hahtAHr-tshookooshoondAHsAH-tahrahftAH",
+        "translation_en": "At the domestic terminal exit, on the right."
+      },
+      "responses": [
+        {
+          "english": "At the domestic terminal exit, on the right.",
+          "phonetic": "IHtsh-hahtAHr-tshookooshoondAHsAH-tahrahftAH",
+          "french": "İç hatlar çıkışında, sağ tarafta."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_izmir_adnan_menderes_airport_002",
+      "intent_en": "Where to exchange currency?",
+      "text_local": "Nerede döviz bozdurabilirim?",
+      "pronunciation": "nEHrehdeh-dUHvihz-bawzdoorahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "It is common for exchange offices (döviz bürosu) to be located in the arrivals area of Turkish airports.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Varış salonundaki döviz bürosuna bakın.",
+        "pronunciation": "vahrOOsh-sahohnuhndahkIH-dUHvihz-buerohsoonAH-bahkOOn",
+        "translation_en": "Look for the exchange office at the arrivals hall."
+      },
+      "responses": [
+        {
+          "english": "Look for the exchange office at the arrivals hall.",
+          "phonetic": "vahrOOsh-sahohnuhndahkIH-dUHvihz-buerohsoonAH-bahkOOn",
+          "french": "Varış salonundaki döviz bürosuna bakın."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_izmir_adnan_menderes_airport_003",
+      "intent_en": "Where to exchange currency?",
+      "text_local": "Döviz bürosu nerede?",
+      "pronunciation": "dUHvihz-buerohsUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Currency exchange at Turkish airports is commonly found in the arrivals hall.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gelen yolcu katındaki döviz bürosuna bakın.",
+        "pronunciation": "ehlAHn-yawdzhUH-kahtoondahkIH-dUHvihz-buerohsoonAH-bahkOOn",
+        "translation_en": "Look for the exchange office at the arrivals level."
+      },
+      "responses": [
+        {
+          "english": "Look for the exchange office at the arrivals level.",
+          "phonetic": "ehlAHn-yawdzhUH-kahtoondahkIH-dUHvihz-buerohsoonAH-bahkOOn",
+          "french": "Gelen yolcu katındaki döviz bürosuna bakın."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_izmir_adnan_menderes_airport_004",
+      "intent_en": "Is baggage wrapping service open?",
+      "text_local": "Bagaj sarma hizmeti açık mı?",
+      "pronunciation": "bahgAHzh-sAHrmah-nahyAWn-hihzmehtIH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Service availability can change; the information desk has the most current status.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, açık. İç hatlar girişinde.",
+        "pronunciation": "ehvEHtahtshOOkIHtsh-hahtAHr-eereeshihndEH",
+        "translation_en": "Yes, it's open. At the domestic terminal entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open. At the domestic terminal entrance.",
+          "phonetic": "ehvEHtahtshOOkIHtsh-hahtAHr-eereeshihndEH",
+          "french": "Evet, açık. İç hatlar girişinde."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_izmir_adnan_menderes_airport_005",
+      "intent_en": "Is baggage wrapping service open?",
+      "text_local": "Bagaj sarma naylon servisi açık mı?",
+      "pronunciation": "bahgAHzh-sAHrmah-nahyAWn-sehrveesIH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Service hours can vary; a direct yes/no cannot be confirmed without current operational status from the venue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, girişte bulunuyor.",
+        "pronunciation": "ehvEHteerihshtEH-boooonOOyawr",
+        "translation_en": "Yes, it's located at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's located at the entrance.",
+          "phonetic": "ehvEHteerihshtEH-boooonOOyawr",
+          "french": "Evet, girişte bulunuyor."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_izmir_adnan_menderes_airport_006",
+      "intent_en": "Domestic or international terminal taxi?",
+      "text_local": "Taksi iç hatlar mı dış hatlar mı?",
+      "pronunciation": "tahksIH-doorahOO-IHtsh-hahtAHr-tehrmeenahlihndEH-mihdOOsh-hahtAHr-tehrmeenahlihndEH-mih",
+      "formality": "standard",
+      "cultural_note": "Since terminal-specific taxi stand locations are unverified, airport staff will give the safest answer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dış hatların çıkışında.",
+        "pronunciation": "dOOsh-hahtahrOOn-tshookooshoondAH",
+        "translation_en": "At the exit of the international terminal."
+      },
+      "responses": [
+        {
+          "english": "At the exit of the international terminal.",
+          "phonetic": "dOOsh-hahtahrOOn-tshookooshoondAH",
+          "french": "Dış hatların çıkışında."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_izmir_adnan_menderes_airport_007",
+      "intent_en": "When does next İZBAN depart?",
+      "text_local": "Sonraki İZBAN ne zaman kalkıyor?",
+      "pronunciation": "sawnrahkIH-ihzbAHn-trehnIH-nEH-zahmAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Live departure times are not a fixed fact; staff will refer you to the information desk or platform displays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "On beş dakika sonra.",
+        "pronunciation": "AWn-bEHsh-dahkeekAH-sawnrAH",
+        "translation_en": "In fifteen minutes."
+      },
+      "responses": [
+        {
+          "english": "In fifteen minutes.",
+          "phonetic": "AWn-bEHsh-dahkeekAH-sawnrAH",
+          "french": "On beş dakika sonra."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

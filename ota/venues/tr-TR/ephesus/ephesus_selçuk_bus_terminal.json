@@ -1,0 +1,56 @@
+{
+  "id": "ephesus_selçuk_bus_terminal",
+  "name_en": "Selçuk Bus Terminal",
+  "name_local": "Selçuk Otogar",
+  "icon": "tram",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ephesus_selçuk_bus_terminal_001",
+      "intent_en": "Where is Efes dolmuş stop?",
+      "text_local": "Efes dolmuş durağı nerede?",
+      "pronunciation": "ehfEHs-dawmUHsh-doorahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Dolmuş ve otobüs alanları aynı bölgededir; tabela takibi önerilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otogar çıkışında, sol tarafta.",
+        "pronunciation": "ohtohgAHr-tshookooshoondAHsAW-tahrahftAH",
+        "translation_en": "At the bus station exit, on the left side."
+      },
+      "responses": [
+        {
+          "english": "At the bus station exit, on the left side.",
+          "phonetic": "ohtohgAHr-tshookooshoondAHsAW-tahrahftAH",
+          "french": "Otogar çıkışında, sol tarafta."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selçuk_bus_terminal_002",
+      "intent_en": "Do I pay dolmuş on board?",
+      "text_local": "Dolmuş ücretini araçta mı ödüyorum?",
+      "pronunciation": "dawmUHsh-uhdzhrehteenIH-ahrahtshtAH-moo-uhdUEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Dolmuş ücreti genellikle araç içinde şoföre nakit olarak ödenir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, şoföre nakit ödeyin.",
+        "pronunciation": "ehvEHtshohfuhrEH-nahkIHt-uhdehyIHn",
+        "translation_en": "Yes, pay the driver in cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, pay the driver in cash.",
+          "phonetic": "ehvEHtshohfuhrEH-nahkIHt-uhdehyIHn",
+          "french": "Evet, şoföre nakit ödeyin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

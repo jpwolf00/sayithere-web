@@ -1,0 +1,118 @@
+{
+  "id": "nice_opera",
+  "name_en": "Nice Opera House",
+  "name_local": "Opéra de Nice",
+  "icon": "theatermasks",
+  "lat": 43.6962,
+  "lon": 7.2759,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "nice_opera_001",
+      "intent_en": "Ask what is showing this week at the opera",
+      "text_local": "Qu'est-ce qui est programmé cette semaine à l'opéra ?",
+      "pronunciation": "kes-SEE kee eh pro-gra-MAY SET seh-MEN ah lo-pay-RAH",
+      "formality": "polite",
+      "cultural_note": "The Opéra de Nice presents opera, ballet, and orchestral concerts throughout the season (October–June).",
+      "responses": [
+        {
+          "english": "It is posted at the entrance.",
+          "phonetic": "say tah-fee-SHAY ah lahn-TRAY",
+          "french": "C'est affiché à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_opera_002",
+      "intent_en": "Ask if any tickets are still available for tonight's performance",
+      "text_local": "Reste-t-il des places disponibles pour le spectacle de ce soir ?",
+      "pronunciation": "REST-teel day PLAS dees-po-NEEBL poor leh spek-TAKL deh seh SWAR",
+      "formality": "polite",
+      "cultural_note": "Last-minute tickets are sometimes available at reduced prices — always worth asking at the box office.",
+      "responses": [
+        {
+          "english": "You need to check online.",
+          "phonetic": "eel foh vay-ree-FYAY ahn LEE-nyuh",
+          "french": "Il faut vérifier en ligne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_opera_003",
+      "intent_en": "Ask for the best seats in the house",
+      "text_local": "Quelles sont les meilleures places dans la salle ?",
+      "pronunciation": "KEL son lay may-YUHR PLAS dan lah SAL",
+      "formality": "polite",
+      "cultural_note": "The Opera's ornate 19th-century auditorium has excellent acoustics throughout — the dress circle offers great views.",
+      "responses": [
+        {
+          "english": "The boxes in the first row.",
+          "phonetic": "lay LOZH oh pruh-MYAY RAHN",
+          "french": "Les loges au premier rang."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_opera_004",
+      "intent_en": "Ask what time the box office opens",
+      "text_local": "La billetterie ouvre-t-elle à quelle heure ?",
+      "pronunciation": "lah bee-yeh-TREE OO-vreh-TEL ah kel UHR",
+      "formality": "polite",
+      "cultural_note": "The box office is typically open from Tuesday to Saturday, and on performance days in the evening.",
+      "responses": [
+        {
+          "english": "From ten o'clock.",
+          "phonetic": "ah par-TEER duh DEE-ZUR",
+          "french": "À partir de dix heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_opera_005",
+      "intent_en": "Ask if there is a dress code for the evening",
+      "text_local": "Y a-t-il un code vestimentaire pour assister au spectacle du soir ?",
+      "pronunciation": "ee ah-TEEL un KOD ves-tee-man-TEHR poor ah-sees-TAY oh spek-TAKL doo SWAR",
+      "formality": "polite",
+      "cultural_note": "Smart casual is generally expected at the opera. Premieres and galas call for formal attire.",
+      "responses": [
+        {
+          "english": "Smart dress required.",
+          "phonetic": "tuh-NOO koh-REKT ex-ee-ZHAY",
+          "french": "Tenue correcte exigée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "performance",
+      "word_local": "le spectacle",
+      "pronunciation": "leh spek-TAKL"
+    },
+    {
+      "word_en": "box office",
+      "word_local": "la billetterie",
+      "pronunciation": "lah bee-yeh-TREE"
+    },
+    {
+      "word_en": "seat",
+      "word_local": "la place",
+      "pronunciation": "lah PLAS"
+    },
+    {
+      "word_en": "interval / intermission",
+      "word_local": "l'entracte",
+      "pronunciation": "lan-TRAKT"
+    }
+  ]
+}

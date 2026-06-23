@@ -1,0 +1,144 @@
+{
+  "id": "maastricht_bonnefanten_museum",
+  "name_en": "Bonnefanten Museum",
+  "name_local": "Bonnefantenmuseum",
+  "icon": "building.columns",
+  "lat": 50.8424797,
+  "lon": 5.701339,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "maastricht_bonnefanten_museum_001",
+      "intent_en": "How do I get the audio guide?",
+      "text_local": "Hoe huur ik een audiogids?",
+      "pronunciation": "hOO-hUEr-ihk-uhn-UHuhdeeOHghihts",
+      "formality": "standard",
+      "cultural_note": "Audiogidsen worden verhuurd bij een specifieke balie, zoals in de context vermeld.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de audiogidsbalie.",
+        "pronunciation": "behih-duh-UHuhdeeOHghihdzbahlEE",
+        "translation_en": "At the audio guide desk."
+      },
+      "responses": [
+        {
+          "english": "At the audio guide desk.",
+          "phonetic": "behih-duh-UHuhdeeOHghihdzbahlEE",
+          "french": "Bij de audiogidsbalie."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bonnefanten_museum_002",
+      "intent_en": "Pay at museum cafe",
+      "text_local": "Kan ik hier pinnen?",
+      "pronunciation": "kahn-ihk-hEEr-pIHnuhn",
+      "formality": "standard",
+      "cultural_note": "Dutch museums widely accept pin (Maestro) payments; cash is less common in cafes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, pin betalingen zijn mogelijk.",
+        "pronunciation": "yAHpIHn-buhtAHlinguhn-zehihn-mOHghuhluhk",
+        "translation_en": "Yes, pin payments accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, pin payments accepted.",
+          "phonetic": "yAHpIHn-buhtAHlinguhn-zehihn-mOHghuhluhk",
+          "french": "Ja, pin betalingen zijn mogelijk."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bonnefanten_museum_003",
+      "intent_en": "Use Museumkaart for entry",
+      "text_local": "Mag ik hier betalen met Museumkaart?",
+      "pronunciation": "mahkh-ihk-hEEr-buhtAHluhn-meht-mUEzuhmkAHrt",
+      "formality": "polite",
+      "cultural_note": "The Museumkaart is a common Dutch museum pass; staff will confirm acceptance without further elaboration.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Museumkaart wordt geaccepteerd.",
+        "pronunciation": "yAHmUEzuhmkAHrt-vawrt-ghuhAHksehptIHrt",
+        "translation_en": "Yes, Museumkaart accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, Museumkaart accepted.",
+          "phonetic": "yAHmUEzuhmkAHrt-vawrt-ghuhAHksehptIHrt",
+          "french": "Ja, Museumkaart wordt geaccepteerd."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bonnefanten_museum_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Is de Wiebengahal vandaag open?",
+      "pronunciation": "ihs-duh-vEEbuhngAHhahl-vahndAHkh-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "De Wiebengahal heeft mogelijk aangepaste openingstijden; controleer vooraf.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kijk op de website voor openingstijden van de Wiebengahal.",
+        "pronunciation": "kEHihk-awp-duh-ehnwEHbseyetnl-vawr-OHpuhningstEHihduhn-vahn-duh-vEEbuhngAHhahl",
+        "translation_en": "Check the website for Wiebengahal opening hours."
+      },
+      "responses": [
+        {
+          "english": "Check the website for Wiebengahal opening hours.",
+          "phonetic": "kEHihk-awp-duh-ehnwEHbseyetnl-vawr-OHpuhningstEHihduhn-vahn-duh-vEEbuhngAHhahl",
+          "french": "Kijk op de website voor openingstijden van de Wiebengahal."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bonnefanten_museum_005",
+      "intent_en": "Where is the Contemporary art wing?",
+      "text_local": "Waar is de vleugel voor hedendaagse kunst?",
+      "pronunciation": "vAHr-ihs-duh-vlUHghuhl-vawr-hEHduhndAHkhsuh-kNst",
+      "formality": "standard",
+      "cultural_note": "De hedendaagse kunstvleugel is een stabiele locatie, maar exacte route is niet gespecificeerd.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar hedendaagse kunst.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-hEHduhndAHkhsuh-kNst",
+        "translation_en": "Follow the signs to contemporary art."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to contemporary art.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-hEHduhndAHkhsuh-kNst",
+          "french": "Volg de borden naar hedendaagse kunst."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_bonnefanten_museum_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar is de ingang van de Aldo Rossi-kupola?",
+      "pronunciation": "vAHr-ihs-duh-IHnghAHng-vahn-duh-AHldoh-rAWseekuepOHlah",
+      "formality": "standard",
+      "cultural_note": "De Aldo Rossi-kupola is een opvallend kenmerk van het museum; borden wijzen de route.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar de kupola in het nieuwe gebouw.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-duh-kuepOHlah-ihn-huht-nEEwuh-ghuhbUHuh",
+        "translation_en": "Follow the signs to the cupola in the new building."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the cupola in the new building.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-duh-kuepOHlah-ihn-huht-nEEwuh-ghuhbUHuh",
+          "french": "Volg de borden naar de kupola in het nieuwe gebouw."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

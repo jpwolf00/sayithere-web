@@ -1,0 +1,100 @@
+{
+  "id": "sapporo_sapporo_ramen_yokocho",
+  "name_en": "Sapporo Ramen Yokocho",
+  "name_local": "札幌ラーメン横丁",
+  "icon": "fork.knife",
+  "lat": 43.0547804,
+  "lon": 141.3542925,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "sapporo_sapporo_ramen_yokocho_001",
+      "intent_en": "Does the machine give change?",
+      "text_local": "この きかいは おつりが でますか。",
+      "pronunciation": "kOHnoh-kEEkEEh-OHtsooEEg-dEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Ticket machines that don't give change are common. Use exact change or prepare to lose the difference.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、おつりは でません。",
+        "pronunciation": "EEehOHtsooEEh-dehmSeh",
+        "translation_en": "No, it doesn't give change."
+      },
+      "responses": [
+        {
+          "english": "No, it doesn't give change.",
+          "phonetic": "EEehOHtsooEEh-dehmSeh",
+          "french": "いいえ、おつりは でません。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_ramen_yokocho_002",
+      "intent_en": "How do I use the ticket machine?",
+      "text_local": "けんばいきの つかいかたを おしえてください。",
+      "pronunciation": "kEHbEEkEEnoh-tsOOkEEktOH-OHeeEHtehkOOdsEE",
+      "formality": "standard",
+      "cultural_note": "At ramen shops with ticket machines, you always pay first. Look for the slot for bills and coins.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "さきに おかねを いれて、ボタンを おしてください。",
+        "pronunciation": "skEEnee-OHknEHoh-eeEHtehbOHtOH-OHeetEHkoodsEE",
+        "translation_en": "Insert money first, then press the button."
+      },
+      "responses": [
+        {
+          "english": "Insert money first, then press the button.",
+          "phonetic": "skEEnee-OHknEHoh-eeEHtehbOHtOH-OHeetEHkoodsEE",
+          "french": "さきに おかねを いれて、ボタンを おしてください。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_ramen_yokocho_003",
+      "intent_en": "Where is Shin Ramen Yokocho?",
+      "text_local": "しんラーメンよこちょうは どこですか。",
+      "pronunciation": "EEnmEHyOHkohtohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "There are two main alleys here. They are very close to each other, so don't worry if you enter the wrong one first.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "すぐ となりです。ひだりがわに あります。",
+        "pronunciation": "sOOgoo-tOHneedEHsookhEEdEEgwNee-EEmSoo",
+        "translation_en": "It's right next door. On the left side."
+      },
+      "responses": [
+        {
+          "english": "It's right next door. On the left side.",
+          "phonetic": "sOOgoo-tOHneedEHsookhEEdEEgwNee-EEmSoo",
+          "french": "すぐ となりです。ひだりがわに あります。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_ramen_yokocho_004",
+      "intent_en": "Do you take credit cards?",
+      "text_local": "クレジットカードは つかえますか。",
+      "pronunciation": "kOOehdEEttohkdOHh-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small ramen shops in Japan are cash-only. It’s good to have plenty of coins and bills ready.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "すみません、げんきんのみです。",
+        "pronunciation": "sOOmeemSehgEHngkeennOHmeedEHsoo",
+        "translation_en": "Sorry, cash only."
+      },
+      "responses": [
+        {
+          "english": "Sorry, cash only.",
+          "phonetic": "sOOmeemSehgEHngkeennOHmeedEHsoo",
+          "french": "すみません、げんきんのみです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

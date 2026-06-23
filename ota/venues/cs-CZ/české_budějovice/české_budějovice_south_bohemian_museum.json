@@ -1,0 +1,122 @@
+{
+  "id": "české_budějovice_south_bohemian_museum",
+  "name_en": "South Bohemian Museum",
+  "name_local": "Jihočeské muzeum",
+  "icon": "building.columns",
+  "lat": 48.9725222,
+  "lon": 14.4766363,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "české_budějovice_south_bohemian_museum_001",
+      "intent_en": "Ask when last entry is",
+      "text_local": "Kdy je poslední vstup?",
+      "pronunciation": "kdEE-yeh-pOHslehdnyee-fstOOp",
+      "formality": "standard",
+      "cultural_note": "Last entry is typically 30 to 60 minutes before the official closing time. Providing a specific hour is the most direct and helpful answer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V 17 hodin.",
+        "pronunciation": "v-sEHdoomnahtst-hOHeen",
+        "translation_en": "At 5 p.m."
+      },
+      "responses": [
+        {
+          "english": "At 5 p.m.",
+          "phonetic": "v-sEHdoomnahtst-hOHeen",
+          "french": "V 17 hodin."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_south_bohemian_museum_002",
+      "intent_en": "Ask if Zátkův dům has lift access",
+      "text_local": "Má Zátkův dům výtah?",
+      "pronunciation": "mah-zAHtkoov-dOOm-vEEtahkh",
+      "formality": "standard",
+      "cultural_note": "Historic buildings like Zátkův dům often have a modern lift installed, but it might be small or tucked away from the main staircase.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, výtah je na konci chodby.",
+        "pronunciation": "AHnohvEEtahh-yeh-nAHkohntsee-khOHdbee",
+        "translation_en": "Yes, the lift is at the end of the corridor."
+      },
+      "responses": [
+        {
+          "english": "Yes, the lift is at the end of the corridor.",
+          "phonetic": "AHnohvEEtahh-yeh-nAHkohntsee-khOHdbee",
+          "french": "Ano, výtah je na konci chodby."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_south_bohemian_museum_003",
+      "intent_en": "Ask where numismatic collection is",
+      "text_local": "Kde najdu numismatickou sbírku?",
+      "pronunciation": "kdEH-nAHydoo-nOOmeesmAHteetskoh-zbEErkoo",
+      "formality": "standard",
+      "cultural_note": "Numismatic collections are typically displayed in secure glass cases, often in a dedicated, quieter section of a museum.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V prvním patře, vlevo od schodiště.",
+        "pronunciation": "v-pRvnyeem-pAHtrehvlEHvoh-OHtskhohEEsheh",
+        "translation_en": "On the first floor, to the left of the stairs."
+      },
+      "responses": [
+        {
+          "english": "On the first floor, to the left of the stairs.",
+          "phonetic": "v-pRvnyeem-pAHtrehvlEHvoh-OHtskhohEEsheh",
+          "french": "V prvním patře, vlevo od schodiště."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_south_bohemian_museum_004",
+      "intent_en": "Ask if special exhibit costs extra",
+      "text_local": "Stojí speciální výstava něco navíc?",
+      "pronunciation": "stOHyee-spEHtseeAHlnyee-vEEstahvah-nyEHtsoh-nAHveets",
+      "formality": "standard",
+      "cultural_note": "Czech museums often charge a separate fee for temporary exhibitions, paid in addition to the permanent collection ticket.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, k základnímu vstupnému je příplatek.",
+        "pronunciation": "AHnohk-zAHklahdnyEEmoo-fstOOpnehmoo-yeh-prEEplahtehk",
+        "translation_en": "Yes, there is a surcharge on top of the basic admission."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a surcharge on top of the basic admission.",
+          "phonetic": "AHnohk-zAHklahdnyEEmoo-fstOOpnehmoo-yeh-prEEplahtehk",
+          "french": "Ano, k základnímu vstupnému je příplatek."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_south_bohemian_museum_005",
+      "intent_en": "Ask if audio guide has English",
+      "text_local": "Je audiokomentář i v angličtině?",
+      "pronunciation": "yeh-OWdeeOHkohmEHntahr-ee-v-AHnggleetshEEnyeh",
+      "formality": "standard",
+      "cultural_note": "Major museums in Czech regional capitals almost always offer audio guides in English and German as a minimum standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, angličtinu máme.",
+        "pronunciation": "AHnohAHnggleetshEEnoo-mAHmeh",
+        "translation_en": "Yes, we have English."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have English.",
+          "phonetic": "AHnohAHnggleetshEEnoo-mAHmeh",
+          "french": "Ano, angličtinu máme."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

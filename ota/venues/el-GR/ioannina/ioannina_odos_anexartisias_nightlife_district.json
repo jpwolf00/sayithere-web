@@ -1,0 +1,188 @@
+{
+  "id": "ioannina_odos_anexartisias_nightlife_district",
+  "name_en": "Odos Anexartisias Nightlife District",
+  "name_local": "Οδός Ανεξαρτησίας",
+  "icon": "map",
+  "lat": 39.6639818,
+  "lon": 20.8522784,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "ioannina_odos_anexartisias_nightlife_district_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Τα καφενεία στο λιμάνι λειτουργούν αργά;",
+      "pronunciation": "tah-kAHfehnEEah-stoh-leemAHnee-lEEtoorghOOn-ahrghAH",
+      "formality": "standard",
+      "cultural_note": "Τα ωράρια λειτουργίας των καφενείων στο λιμάνι μπορεί να ποικίλουν. Δεν υπάρχουν τυποποιημένα ωράρια.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, συνήθως μένουν ανοιχτά μέχρι αργά.",
+        "pronunciation": "nEHseenEEthohz-mEHnoon-AHneekhtAH-mEHkhree-ahrghAH",
+        "translation_en": "Yes, they usually stay open until late."
+      },
+      "responses": [
+        {
+          "english": "Yes, they usually stay open until late.",
+          "phonetic": "nEHseenEEthohz-mEHnoon-AHneekhtAH-mEHkhree-ahrghAH",
+          "french": "Ναι, συνήθως μένουν ανοιχτά μέχρι αργά."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_odos_anexartisias_nightlife_district_002",
+      "intent_en": "Ask where bar street starts at night",
+      "text_local": "Πού αρχίζει η νυχτερινή ζωή στην Οδό Ανεξαρτησίας;",
+      "pronunciation": "pOO-ahrkhEEzee-ee-nEEkhtehreenEE-zohEE-steen-ohthOH-AHnehksAHrteesEEahs",
+      "formality": "standard",
+      "cultural_note": "Η νυχτερινή ζωή συγκεντρώνεται στις στενές οδούς της περιοχής χωρίς συγκεκριμένη αρχή ή τέλος. Οι επισκέπτες αναμένεται να ζητήσουν οδηγίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Η περιοχή με τα μπαράκια ξεκινά από την Κεντρική πλατεία.",
+        "pronunciation": "ee-pEHreeohkhEE-meh-tah-bahrAHah-ksEHeenAH-ahpOH-teeng-gEHdreeEE-plahtEEah",
+        "translation_en": "The area with the bars starts from the Central Square."
+      },
+      "responses": [
+        {
+          "english": "The area with the bars starts from the Central Square.",
+          "phonetic": "ee-pEHreeohkhEE-meh-tah-bahrAHah-ksEHeenAH-ahpOH-teeng-gEHdreeEE-plahtEEah",
+          "french": "Η περιοχή με τα μπαράκια ξεκινά από την Κεντρική πλατεία."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_odos_anexartisias_nightlife_district_003",
+      "intent_en": "Ask if bar entry requires minimum drink spend",
+      "text_local": "Υπάρχει ελάχιστη κατανάλωση για είσοδο στα μπαρ της περιοχής;",
+      "pronunciation": "eepAHrkhee-ehlAHkheestEE-khrEHohsEE-stoh-bAHr-kahtAH-teen-EEsohthOH",
+      "formality": "standard",
+      "cultural_note": "Η πολιτική ελάχιστης χρέωσης μπορεί να διαφέρει ανά χώρο. Δεν υπάρχει τυποποιημένη πρακτική.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συνήθως υπάρχει.",
+        "pronunciation": "nEHseenEEthohs-eepAHrkhee",
+        "translation_en": "Yes, there usually is."
+      },
+      "responses": [
+        {
+          "english": "Yes, there usually is.",
+          "phonetic": "nEHseenEEthohs-eepAHrkhee",
+          "french": "Ναι, συνήθως υπάρχει."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_odos_anexartisias_nightlife_district_004",
+      "intent_en": "Do I order at the bar before sitting down",
+      "text_local": "Πρέπει να παραγγείλω στο μπαρ πριν καθίσω;",
+      "pronunciation": "pAHoh-prOHtah-stoh-tahmEEoh-yAH-toh-lOHghahrEEahsmOH",
+      "formality": "standard",
+      "cultural_note": "Συνήθως η παραγγελία γίνεται στο τμήμα του μπαρ πριν την τοποθέτηση στο τραπέζι.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_odos_anexartisias_nightlife_district_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το ταμείο για εισιτήρια εκδηλώσεων;",
+      "pronunciation": "pOO-EEneh-toh-tahmEEoh-yAH-sEEnahvlEEehs",
+      "formality": "standard",
+      "cultural_note": "Τα ταμεία συναυλιών βρίσκονται στους χώρους εκδηλώσεων, αλλά η ακριβής θέση δεν προσδιορίζεται. Οι επισκέπτες πρέπει να ζητήσουν οδηγίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το ταμείο είναι στην είσοδο του χώρου εκδηλώσεων.",
+        "pronunciation": "toh-tahmEEoh-EEneh-steen-EEsohthOH-too-khOHroo-EHktheelOHsehOHn",
+        "translation_en": "The ticket office is at the entrance to the event venue."
+      },
+      "responses": [
+        {
+          "english": "The ticket office is at the entrance to the event venue.",
+          "phonetic": "toh-tahmEEoh-EEneh-steen-EEsohthOH-too-khOHroo-EHktheelOHsehOHn",
+          "french": "Το ταμείο είναι στην είσοδο του χώρου εκδηλώσεων."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_odos_anexartisias_nightlife_district_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει χρέωση εισόδου;",
+      "pronunciation": "eepAHrkhee-khrEHohsEE-eesOHthoo-stah-zOHdahnAH-mOOseekAH-EHdrah",
+      "formality": "standard",
+      "cultural_note": "Η χρέωση εισόδου μπορεί να διαφέρει ανά εκδήλωση ή χώρο. Δεν υπάρχει πάντα η ίδια πολιτική.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συνήθως υπάρχει είσοδος, ανάλογα με την εκδήλωση.",
+        "pronunciation": "nEHseenEEthohs-eepAHrkhee-EEsohthOHsahnAHlohghAH-meh-teen-ehkthEElohsEE",
+        "translation_en": "Yes, there is usually an entrance fee, depending on the event."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is usually an entrance fee, depending on the event.",
+          "phonetic": "nEHseenEEthohs-eepAHrkhee-EEsohthOHsahnAHlohghAH-meh-teen-ehkthEElohsEE",
+          "french": "Ναι, συνήθως υπάρχει είσοδος, ανάλογα με την εκδήλωση."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_odos_anexartisias_nightlife_district_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται η παλιά αγορά Μπουσουλόπουλου;",
+      "pronunciation": "pOO-vrEEsehtEH-ee-pahlyAH-AHghohrAH-bOOsoolOHpoolOO",
+      "formality": "standard",
+      "cultural_note": "Η παλιά αγορά αποτελεί χαρακτηριστικό σημείο της περιοχής, αλλά η ακριβής θέση δεν αναφέρεται με λεπτομέρειες. Οι οδηγίες δίνονται από τους υπαλλήλους επί τόπου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι κάτω στον κεντρικό δρόμο, λίγο μετά τα μπαράκια στενά Ανεξαρτησίας.",
+        "pronunciation": "EEneh-kAHtoh-stohng-gEHdreekOH-thrOHmohlEEghoh-mehtAH-tah-bahrAHah-stehnAH-AHnehksAHrteesEEahs",
+        "translation_en": "It is down the main road, a little after the Anexartisias bars alley."
+      },
+      "responses": [
+        {
+          "english": "It is down the main road, a little after the Anexartisias bars alley.",
+          "phonetic": "EEneh-kAHtoh-stohng-gEHdreekOH-thrOHmohlEEghoh-mehtAH-tah-bahrAHah-stehnAH-AHnehksAHrteesEEahs",
+          "french": "Είναι κάτω στον κεντρικό δρόμο, λίγο μετά τα μπαράκια στενά Ανεξαρτησίας."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_odos_anexartisias_nightlife_district_008",
+      "intent_en": "Where is the Anexartisias bar strip exactly",
+      "text_local": "Πού βρίσκονται ακριβώς τα μπαράκια της Ανεξαρτησίας;",
+      "pronunciation": "pOO-vrEEskohdEH-AHkreevOHs-tah-bahrAHah-tees-AHnehksAHrteesEEahs",
+      "formality": "standard",
+      "cultural_note": "Οι νυχτερινοί χώροι συγκεντρώνονται στη συγκεκριμένη περιοχή χωρίς συγκεκριμένη πινακίδα εισόδου. Οι επισκέπτες αναμένεται να ζητήσουν οδηγίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στα στενά πίσω από την Παλιά Αγορά.",
+        "pronunciation": "stah-stehnAH-pEEsoh-ahpOH-teem-bahlyAH-AHghohrAH",
+        "translation_en": "Around the Old Market of Bousoulopoulos, in the alleys."
+      },
+      "responses": [
+        {
+          "english": "Around the Old Market of Bousoulopoulos, in the alleys.",
+          "phonetic": "stah-stehnAH-pEEsoh-ahpOH-teem-bahlyAH-AHghohrAH",
+          "french": "Στα στενά πίσω από την Παλιά Αγορά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

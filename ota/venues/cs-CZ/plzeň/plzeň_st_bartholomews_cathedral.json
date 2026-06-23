@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_st_bartholomews_cathedral",
+  "name_en": "St. Bartholomew's Cathedral",
+  "name_local": "Katedrála svatého Bartoloměje",
+  "icon": "building.columns",
+  "lat": 49.7474802,
+  "lon": 13.3775119,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "plzeň_st_bartholomews_cathedral_001",
+      "intent_en": "Is there a mass in English?",
+      "text_local": "Je tu mše v angličtině?",
+      "pronunciation": "yeh-tOO-mshEH-v-AHnggleetshEEnyeh",
+      "formality": "standard",
+      "cultural_note": "Masses in historic cathedrals outside Prague are almost exclusively in Czech.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jen česky.",
+        "pronunciation": "nEHyEHn-tshEHskee",
+        "translation_en": "No, only in Czech."
+      },
+      "responses": [
+        {
+          "english": "No, only in Czech.",
+          "phonetic": "nEHyEHn-tshEHskee",
+          "french": "Ne, jen česky."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_st_bartholomews_cathedral_002",
+      "intent_en": "How do I donate for entry?",
+      "text_local": "Jak můžu přispět na vstup?",
+      "pronunciation": "yAHk-mOOzhoo-prEEspyeht-nAHfstoop",
+      "formality": "standard",
+      "cultural_note": "Many Czech churches request a voluntary donation via a box rather than a fixed ticket price.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Do kasičky u vchodu, děkujeme.",
+        "pronunciation": "dOHkahsEEtshkee-OO-fkhOHdooEHkooyEHmeh",
+        "translation_en": "Into the box by the entrance, thank you."
+      },
+      "responses": [
+        {
+          "english": "Into the box by the entrance, thank you.",
+          "phonetic": "dOHkahsEEtshkee-OO-fkhOHdooEHkooyEHmeh",
+          "french": "Do kasičky u vchodu, děkujeme."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_st_bartholomews_cathedral_003",
+      "intent_en": "Where is the national monument plaque?",
+      "text_local": "Kde je ta pamětní deska?",
+      "pronunciation": "kdEH-yeh-tAH-pAHmnyehtnyee-dEHskah",
+      "formality": "standard",
+      "cultural_note": "National cultural monument plaques are typically mounted on the exterior wall near the main door.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vpravo od hlavního vchodu.",
+        "pronunciation": "fprAHvoh-OHthlahvnyEEhoh-fkhOHdoo",
+        "translation_en": "To the right of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "To the right of the main entrance.",
+          "phonetic": "fprAHvoh-OHthlahvnyEEhoh-fkhOHdoo",
+          "french": "Vpravo od hlavního vchodu."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_st_bartholomews_cathedral_004",
+      "intent_en": "Where do I buy candles?",
+      "text_local": "Kde si můžu koupit svíčky?",
+      "pronunciation": "kdEH-see-mOOzhoo-kOHpeet-svEEtshkee",
+      "formality": "standard",
+      "cultural_note": "In Czech churches, candles are often sold from a small stand or box near a side altar, not a dedicated shop.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vzadu vlevo, u bočního oltáře.",
+        "pronunciation": "vzAHdoo-vlEHvohOO-bOHtshnyeehoh-OHltahreh",
+        "translation_en": "At the back on the left, by the side altar."
+      },
+      "responses": [
+        {
+          "english": "At the back on the left, by the side altar.",
+          "phonetic": "vzAHdoo-vlEHvohOO-bOHtshnyeehoh-OHltahreh",
+          "french": "Vzadu vlevo, u bočního oltáře."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

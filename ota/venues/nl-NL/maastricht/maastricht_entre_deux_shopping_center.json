@@ -1,0 +1,122 @@
+{
+  "id": "maastricht_entre_deux_shopping_center",
+  "name_en": "Entre Deux Shopping Center",
+  "name_local": "Entre Deux",
+  "icon": "bag",
+  "lat": 50.8505515,
+  "lon": 5.6896733,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "maastricht_entre_deux_shopping_center_001",
+      "intent_en": "Where do I pay for parking?",
+      "text_local": "Waar kan ik parkeren betalen?",
+      "pronunciation": "vAHr-kahn-ihk-pahrkIHruhn-buhtAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Nederland zijn parkeerautomaten vaak bij de uitgang van parkeergarages gepositioneerd.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Parkeerautomaat bij de uitgang.",
+        "pronunciation": "pAHrkihrUHuhtohmAHt-behih-duh-UHuetghAHng",
+        "translation_en": "Parking machine near the exit."
+      },
+      "responses": [
+        {
+          "english": "Parking machine near the exit.",
+          "phonetic": "pAHrkihrUHuhtohmAHt-behih-duh-UHuetghAHng",
+          "french": "Parkeerautomaat bij de uitgang."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_entre_deux_shopping_center_002",
+      "intent_en": "Where is the parking garage entrance?",
+      "text_local": "Waar is de ingang van de parkeergarage?",
+      "pronunciation": "vAHr-ihs-duh-IHnghAHng-vahn-duh-pAHrkihrghahrAHzhuh",
+      "formality": "standard",
+      "cultural_note": "In Nederland wordt 'parkeergarage' als standaard term gebruikt voor zowel ondergrondse als bovengrondse parkeerfaciliteiten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ingang parkeergarage bij de hoofdingang.",
+        "pronunciation": "IHnghAHng-pAHrkihrghahrAHzhuh-behih-duh-hOHvdingAHng",
+        "translation_en": "Entrance to parking garage at the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Entrance to parking garage at the main entrance.",
+          "phonetic": "IHnghAHng-pAHrkihrghahrAHzhuh-behih-duh-hOHvdingAHng",
+          "french": "Ingang parkeergarage bij de hoofdingang."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_entre_deux_shopping_center_003",
+      "intent_en": "Pay with mobile PIN",
+      "text_local": "Can I pay with mobile PIN?",
+      "pronunciation": "kAHn-EE-pAHy-vIHt-mOHbeeluh-pEHEEEHn",
+      "formality": "standard",
+      "cultural_note": "Mobile payments are increasingly common in Dutch retail, often processed at the register ('kassa').",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de kassa.",
+        "pronunciation": "yAHbehih-duh-kAHsah",
+        "translation_en": "Yes, at the register."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the register.",
+          "phonetic": "yAHbehih-duh-kAHsah",
+          "french": "Ja, bij de kassa."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_entre_deux_shopping_center_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Hoe gebruik ik de cadeaukaart bij de kassa?",
+      "pronunciation": "hOO-ghuhbrUHuek-ihk-duh-kahdOHkahrt-behih-duh-kAHsah",
+      "formality": "standard",
+      "cultural_note": "Cadeaukaarten worden elektronisch gescand bij het afrekenen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Houd de kaart tegen de scanner bij de kassa.",
+        "pronunciation": "hUHuh-tuh-kAHr-tEHghuhn-duh-skAHnuhr-behih-duh-kAHsah",
+        "translation_en": "Hold the card against the scanner at the register."
+      },
+      "responses": [
+        {
+          "english": "Hold the card against the scanner at the register.",
+          "phonetic": "hUHuh-tuh-kAHr-tEHghuhn-duh-skAHnuhr-behih-duh-kAHsah",
+          "french": "Houd de kaart tegen de scanner bij de kassa."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_entre_deux_shopping_center_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Is de foodcourt boven open?",
+      "pronunciation": "ihs-duh-fOHdkuhuhrt-bOHvuhn-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "De foodcourt op de bovenste verdieping is meestal geopend tijdens winkeltijden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, de foodcourt is geopend tot 21:00.",
+        "pronunciation": "yAHduh-fOHdkuhuhrt-ihs-ghuhOHpuhnd-tawt-EHnehntvIHntuhkh-nL-nL",
+        "translation_en": "Yes, the food court is open until 9 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, the food court is open until 9 PM.",
+          "phonetic": "yAHduh-fOHdkuhuhrt-ihs-ghuhOHpuhnd-tawt-EHnehntvIHntuhkh-nL-nL",
+          "french": "Ja, de foodcourt is geopend tot 21:00."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

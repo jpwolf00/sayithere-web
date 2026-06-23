@@ -1,0 +1,78 @@
+{
+  "id": "nara_nara_machi_koen_neighborhood",
+  "name_en": "Nara-machi Kōen neighborhood",
+  "name_local": "奈良町公園周辺",
+  "icon": "map",
+  "lat": 34.67844444,
+  "lon": 135.805,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "nara_nara_machi_koen_neighborhood_001",
+      "intent_en": "Where is the mochi pounding show?",
+      "text_local": "もちつきの じつえんは どこですか？",
+      "pronunciation": "mOHteetsookEEnoh-dEEtsooehH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Mochi pounding (mochitsuki) is a festive event often held outside shops. Pointing is acceptable but doing so with an open hand is more polite.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あの もちやの まえです。",
+        "pronunciation": "Noh-mOHteeyNoh-mEHdEHsoo",
+        "translation_en": "In front of that mochi shop."
+      },
+      "responses": [
+        {
+          "english": "In front of that mochi shop.",
+          "phonetic": "Noh-mOHteeyNoh-mEHdEHsoo",
+          "french": "あの もちやの まえです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_machi_koen_neighborhood_002",
+      "intent_en": "Do I need cash for street food?",
+      "text_local": "やたいで げんきんが いりますか？",
+      "pronunciation": "yTEEdeh-gehngkEEngg-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Small street food stalls (yatai) in traditional areas often do not accept credit cards, so carrying cash is essential.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_machi_koen_neighborhood_003",
+      "intent_en": "Where can I buy temple amulets?",
+      "text_local": "おまもりは どこで かえますか？",
+      "pronunciation": "OHmmohEEh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Amulets (omamori) are typically sold at a dedicated window or office (juyosho) within the temple grounds, not inside the main hall.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "てらの うけつけで どうぞ。",
+        "pronunciation": "tehNoh-OOkehtsookEHdeh-dohOOzoh",
+        "translation_en": "At the temple reception, please."
+      },
+      "responses": [
+        {
+          "english": "At the temple reception, please.",
+          "phonetic": "tehNoh-OOkehtsookEHdeh-dohOOzoh",
+          "french": "てらの うけつけで どうぞ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

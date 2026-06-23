@@ -1,0 +1,78 @@
+{
+  "id": "chania_chania_tourist_information_office",
+  "name_en": "Chania Tourist Information Office",
+  "name_local": "Γραφείο Τουριστικών Πληροφοριών Χανίων",
+  "icon": "info.circle",
+  "lat": 35.5120831,
+  "lon": 24.0191544,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "chania_chania_tourist_information_office_001",
+      "intent_en": "Where can I get the Lefka Ori hiking map?",
+      "text_local": "Πού βρίσκω τον χάρτη για Λευκά Όρη;",
+      "pronunciation": "pOO-vrEEskoh-tohn-khAHrtee-yAH-lehfkAH-OHree",
+      "formality": "standard",
+      "cultural_note": "Staff at the tourist information desk provide maps; no specific location mentioned.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο πληροφοριών.",
+        "pronunciation": "stohm-bAHnggoh-plEErohfOHreeOHn",
+        "translation_en": "At the information counter."
+      },
+      "responses": [
+        {
+          "english": "At the information counter.",
+          "phonetic": "stohm-bAHnggoh-plEErohfOHreeOHn",
+          "french": "Στον πάγκο πληροφοριών."
+        }
+      ]
+    },
+    {
+      "id": "chania_chania_tourist_information_office_002",
+      "intent_en": "How do I pay for the gorge permit?",
+      "text_local": "Πώς πληρώνω το εισιτήριο φαραγγιού;",
+      "pronunciation": "pOHs-pleerOHnoh-toh-EEseetEEreeOH-fAHrahnggeeOO",
+      "formality": "standard",
+      "cultural_note": "Payment methods are standard; no specific exclusions mentioned.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μετρητά ή κάρτα στο ταμείο.",
+        "pronunciation": "mEHtreetAH-ee-kAHrtah-stoh-tahmEEoh",
+        "translation_en": "Cash or card at the counter."
+      },
+      "responses": [
+        {
+          "english": "Cash or card at the counter.",
+          "phonetic": "mEHtreetAH-ee-kAHrtah-stoh-tahmEEoh",
+          "french": "Μετρητά ή κάρτα στο ταμείο."
+        }
+      ]
+    },
+    {
+      "id": "chania_chania_tourist_information_office_003",
+      "intent_en": "Do you sell Samaria Gorge permits here?",
+      "text_local": "Πωλείτε εισιτήρια για τις φαράγγι της Σαμαριάς;",
+      "pronunciation": "pohlEEteh-EEseetEEreeAH-yAH-tees-fahrAHnggee-tees-sAHmahreeAHs",
+      "formality": "standard",
+      "cultural_note": "Direct and concise answer expected; no elaboration needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, εδώ.",
+        "pronunciation": "nEHehthOH",
+        "translation_en": "Yes, here."
+      },
+      "responses": [
+        {
+          "english": "Yes, here.",
+          "phonetic": "nEHehthOH",
+          "french": "Ναι, εδώ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

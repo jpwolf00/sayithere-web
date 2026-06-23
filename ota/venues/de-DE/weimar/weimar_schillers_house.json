@@ -1,0 +1,100 @@
+{
+  "id": "weimar_schillers_house",
+  "name_en": "Schiller's House",
+  "name_local": "Schillers Wohnhaus",
+  "icon": "building.columns",
+  "lat": 50.9789644,
+  "lon": 11.327794,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "weimar_schillers_house_001",
+      "intent_en": "Where is the museum shop?",
+      "text_local": "Wo ist der Museumsshop?",
+      "pronunciation": "vOH-ihst-dehr-mOOzawuhmshOHp",
+      "formality": "standard",
+      "cultural_note": "German museum shops are often located near the entrance or ticket desk; staff guidance is standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt neben dem Eingang.",
+        "pronunciation": "deerEHkt-nEHbuhn-dehm-EYEngAHng",
+        "translation_en": "Right next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "Right next to the entrance.",
+          "phonetic": "deerEHkt-nEHbuhn-dehm-EYEngAHng",
+          "french": "Direkt neben dem Eingang."
+        }
+      ]
+    },
+    {
+      "id": "weimar_schillers_house_002",
+      "intent_en": "Is photography allowed in all rooms?",
+      "text_local": "Darf man überall fotografieren?",
+      "pronunciation": "dAHrf-mahn-UEbAHl-fOHtohrahfEEruhn",
+      "formality": "standard",
+      "cultural_note": "German museums often restrict photography in specific rooms; concise responses align with staff communication norms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, in einigen Räumen verboten.",
+        "pronunciation": "nEYEnihn-EYEnihuhn-rAWuhmuhn-fehrbOHtuhn",
+        "translation_en": "No, prohibited in some areas."
+      },
+      "responses": [
+        {
+          "english": "No, prohibited in some areas.",
+          "phonetic": "nEYEnihn-EYEnihuhn-rAWuhmuhn-fehrbOHtuhn",
+          "french": "Nein, in einigen Räumen verboten."
+        }
+      ]
+    },
+    {
+      "id": "weimar_schillers_house_003",
+      "intent_en": "Where is the kitchen?",
+      "text_local": "Wo ist die Küche?",
+      "pronunciation": "vOH-ihst-dee-kUEkhuh",
+      "formality": "standard",
+      "cultural_note": "Directions in German museums typically avoid micro-navigation; staff assistance is preferred for precise locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In Schillers Stube.",
+        "pronunciation": "ihn-shIHls-shtOObuh",
+        "translation_en": "In Schiller's room."
+      },
+      "responses": [
+        {
+          "english": "In Schiller's room.",
+          "phonetic": "ihn-shIHls-shtOObuh",
+          "french": "In Schillers Stube."
+        }
+      ]
+    },
+    {
+      "id": "weimar_schillers_house_004",
+      "intent_en": "Is the audio guide included?",
+      "text_local": "Ist der Audioguide inklusive?",
+      "pronunciation": "ihst-dehr-ehnAWdihUHuheyeddeh-ihnkloozEEvuh",
+      "formality": "standard",
+      "cultural_note": "Museum audio guides in Germany are typically rental-based; concise pricing answers are expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, gegen Gebühr.",
+        "pronunciation": "nEYEnEHuhn-uhbUEr",
+        "translation_en": "No, for a fee."
+      },
+      "responses": [
+        {
+          "english": "No, for a fee.",
+          "phonetic": "nEYEnEHuhn-uhbUEr",
+          "french": "Nein, gegen Gebühr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

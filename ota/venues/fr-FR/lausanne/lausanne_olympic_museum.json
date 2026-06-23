@@ -1,0 +1,115 @@
+{
+  "id": "lausanne_olympic_museum",
+  "name_en": "Olympic Museum",
+  "name_local": "Musée Olympique",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "lausanne_om_001",
+      "intent_en": "Ask about the ticket price",
+      "text_local": "Combien coûte l'entrée ?",
+      "pronunciation": "kom-BYAN koot lahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The Olympic Museum has standard and reduced entry fees. Family tickets are available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Twenty francs full price. There are discounts.",
+          "phonetic": "vant FRAHN plan tah-REEF. eel ee ah day ray-dook-SYON",
+          "french": "Vingt francs plein tarif. Il y a des réductions."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_om_002",
+      "intent_en": "Ask about the interactive exhibits",
+      "text_local": "Y a-t-il des expositions interactives ?",
+      "pronunciation": "ee-ah-TEEL day leks-poh-zee-SYOHN an-tay-rah-TEEK-tee-veh",
+      "formality": "polite",
+      "cultural_note": "The museum has hands-on exhibits: you can try archery, cycling, and rowing simulators. Great for families and sports enthusiasts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, on the second floor. Simulators and touch screens.",
+          "phonetic": "wee, oh duh-ZYEM ay-TAHZH. see-moo-lah-TUHR ay ay-KRAHN tak-TEEL",
+          "french": "Oui, au deuxième étage. Simulateurs et écrans tactiles."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_om_003",
+      "intent_en": "Ask about the Olympic torch collection",
+      "text_local": "Où est la collection des torches olympiques ?",
+      "pronunciation": "oo eh lah koh-lek-SYOHN day torsch oh-leem-PEEK",
+      "formality": "polite",
+      "cultural_note": "The museum displays torches from every modern Olympic Games since 1896 — one of the most impressive collections.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On the first floor, in the permanent gallery.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH, dahn lah gah-luh-REE pair-mah-NAHNT",
+          "french": "Au premier étage, dans la galerie permanente."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_om_004",
+      "intent_en": "Ask about the lakeside location",
+      "text_local": "Le musée est-il au bord du lac ?",
+      "pronunciation": "luh moo-ZAY eh-TEEL oh bor doo lak",
+      "formality": "polite",
+      "cultural_note": "The museum sits on the Ouchy waterfront with stunning Lake Geneva and Alpine views. The terrace café is a highlight.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The museum is by the lake, heading down toward Ouchy.",
+          "phonetic": "luh myoo-ZAY eh oh bor doo lak, ahn day-son-DAHN vair oo-SHEE",
+          "french": "Le musée est au bord du lac, en descendant vers Ouchy."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_om_005",
+      "intent_en": "Ask where the café or restaurant is",
+      "text_local": "Y a-t-il un café dans le musée ?",
+      "pronunciation": "ee ah-TEEL uhn kah-FAY dahn luh myoo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum has a terrace café with views over Lake Geneva. It's open during museum hours.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, on the terrace with a lake view.",
+          "phonetic": "wee, soor lah teh-RAHS ah-VEK vyoo soor luh LAK",
+          "french": "Oui, sur la terrasse avec vue sur le lac."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Olympic Museum",
+      "word_local": "le Musée Olympique",
+      "pronunciation": "luh moo-ZAY oh-leem-PEEK"
+    },
+    {
+      "word_en": "IOC / International Olympic Committee",
+      "word_local": "le CIO",
+      "pronunciation": "luh see-oh"
+    },
+    {
+      "word_en": "sports exhibit",
+      "word_local": "l'exposition sportive",
+      "pronunciation": "leks-poh-zee-SYOHN spor-TEEV"
+    },
+    {
+      "word_en": "torch",
+      "word_local": "la torche",
+      "pronunciation": "lah torsch"
+    }
+  ]
+}

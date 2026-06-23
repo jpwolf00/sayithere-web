@@ -1,0 +1,144 @@
+{
+  "id": "mayrhofen_zillergrund_nature_museum",
+  "name_en": "Zillergrund Nature Museum",
+  "name_local": "Naturmuseum Zillergrund",
+  "icon": "building.columns",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mayrhofen_zillergrund_nature_museum_001",
+      "intent_en": "Can I book a guided tour",
+      "text_local": "Kann ich eine Führung buchen?",
+      "pronunciation": "kAHn-ihkh-EYEnuh-fUEruhng-bOOkhuhn",
+      "formality": "standard",
+      "cultural_note": "Führungsanfragen werden direkt an das zuständige Personal weitergeleitet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nach Anfrage.",
+        "pronunciation": "yAHnahkh-AHnfrAHguh",
+        "translation_en": "Yes, by request."
+      },
+      "responses": [
+        {
+          "english": "Yes, by request.",
+          "phonetic": "yAHnahkh-AHnfrAHguh",
+          "french": "Ja, nach Anfrage."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillergrund_nature_museum_002",
+      "intent_en": "Must I be quiet in the nature hall",
+      "text_local": "Muss ich in der Naturausstellung leise sein?",
+      "pronunciation": "mUHs-ihkh-ihn-dehr-nAHtoorOWsshtuhlUHng-lEYEzuh-zeyen",
+      "formality": "standard",
+      "cultural_note": "Museen erwarten Rücksichtnahme in Ausstellungen — direkte Anweisung üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bitte Ruhe bewahren.",
+        "pronunciation": "bIHtuh-rOOuh-buhvAHruhn",
+        "translation_en": "Please keep quiet."
+      },
+      "responses": [
+        {
+          "english": "Please keep quiet.",
+          "phonetic": "bIHtuh-rOOuh-buhvAHruhn",
+          "french": "Bitte Ruhe bewahren."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillergrund_nature_museum_003",
+      "intent_en": "Where is the mineral collection",
+      "text_local": "Wo ist die Mineralien- und Fossiliensammlung?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-mEEnehrAHlee-uhn-uhnt-fAWseelEEnzahmlUHng",
+      "formality": "standard",
+      "cultural_note": "Antworten in Museen sind oft knapp und verweisen auf Schilder oder allgemeine Raumangaben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hauptraum links.",
+        "pronunciation": "ihm-hOWptrowm-lINGks",
+        "translation_en": "In the main hall on the left."
+      },
+      "responses": [
+        {
+          "english": "In the main hall on the left.",
+          "phonetic": "ihm-hOWptrowm-lINGks",
+          "french": "Im Hauptraum links."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillergrund_nature_museum_004",
+      "intent_en": "Where are the glacial mill exhibits",
+      "text_local": "Wo sind die Gletschermühlen ausgestellt?",
+      "pronunciation": "vOH-ihst-dee-lEHtshmUEluh-tsoo-zEHuhn",
+      "formality": "standard",
+      "cultural_note": "Antwort nutzt standardisierte Museums-Schilderungsformel für Attraktionen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich am Anfang der Ausstellung.",
+        "pronunciation": "glEYEkh-ahm-AHnfAHng-dehr-OWsshtEHluhng",
+        "translation_en": "Right at the beginning of the exhibition."
+      },
+      "responses": [
+        {
+          "english": "Right at the beginning of the exhibition.",
+          "phonetic": "glEYEkh-ahm-AHnfAHng-dehr-OWsshtEHluhng",
+          "french": "Gleich am Anfang der Ausstellung."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillergrund_nature_museum_005",
+      "intent_en": "Is the entrance by donation",
+      "text_local": "Ist der Eintritt frei oder spendenbasiert?",
+      "pronunciation": "ihst-dehr-EYEntrIHt-frEYE-OHd-shpEHnduhnbahzEErt",
+      "formality": "standard",
+      "cultural_note": "Direkte Antwort auf freiwillige Spenden erwartet — keine weiteren Erklärungen nötig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Spenden sind willkommen.",
+        "pronunciation": "shpEHnduhn-zihnt-vihlkAWmuhn",
+        "translation_en": "Donations are welcome."
+      },
+      "responses": [
+        {
+          "english": "Donations are welcome.",
+          "phonetic": "shpEHnduhn-zihnt-vihlkAWmuhn",
+          "french": "Spenden sind willkommen."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_zillergrund_nature_museum_006",
+      "intent_en": "When is the last bus ticket sale",
+      "text_local": "Wann kann ich das letzte Busticket kaufen?",
+      "pronunciation": "vAHn-ihst-dehr-lEHtstuh-bUHsfkOWf",
+      "formality": "standard",
+      "cultural_note": "Bus-Ticketverkauf erfolgt vor Ort an spezifischen Stellen (Schalter).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bustickets gibt es bis 17 Uhr.",
+        "pronunciation": "bUHstihkuhts-gEEpt-ehs-bihs-zEEptsehn-OOr",
+        "translation_en": "Bus tickets are available until 5 PM."
+      },
+      "responses": [
+        {
+          "english": "Bus tickets are available until 5 PM.",
+          "phonetic": "bUHstihkuhts-gEEpt-ehs-bihs-zEEptsehn-OOr",
+          "french": "Bustickets gibt es bis 17 Uhr."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

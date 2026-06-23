@@ -1,0 +1,100 @@
+{
+  "id": "mayrhofen_ahorn_cable_car",
+  "name_en": "Ahorn Cable Car",
+  "name_local": "Ahornbahn",
+  "icon": "building.columns",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "mayrhofen_ahorn_cable_car_001",
+      "intent_en": "Queue in numbered zone for summit",
+      "text_local": "Wo ist die Schlange für Zone 5?",
+      "pronunciation": "vOH-ihst-dee-shlAHnguh-fuer-tsOHnuh-fUEnf",
+      "formality": "standard",
+      "cultural_note": "Numbered loading zones are common in alpine cable car systems for efficient boarding.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt vor der Kabine.",
+        "pronunciation": "deerEHkt-fAWr-dehr-kahbEEnuh",
+        "translation_en": "Right in front of the cabin."
+      },
+      "responses": [
+        {
+          "english": "Right in front of the cabin.",
+          "phonetic": "deerEHkt-fAWr-dehr-kahbEEnuh",
+          "french": "Direkt vor der Kabine."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_ahorn_cable_car_002",
+      "intent_en": "Ski pass upgrade at summit station",
+      "text_local": "Wo kann ich mein Skipass upgraden?",
+      "pronunciation": "vOH-kAHn-ihkh-meyen-skEEpahs-UHprahduhn",
+      "formality": "standard",
+      "cultural_note": "Ticket upgrades at summit stations are handled at dedicated counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Oben an der Bergstation.",
+        "pronunciation": "OHbuhn-ahn-dehr-bEHrkstahtsyOHn",
+        "translation_en": "Upstairs at the summit station."
+      },
+      "responses": [
+        {
+          "english": "Upstairs at the summit station.",
+          "phonetic": "OHbuhn-ahn-dehr-bEHrkstahtsyOHn",
+          "french": "Oben an der Bergstation."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_ahorn_cable_car_003",
+      "intent_en": "Return ticket validation before boarding",
+      "text_local": "Muss ich mein Rückfahrticket stempeln lassen?",
+      "pronunciation": "mUHs-ihkh-meyen-rUEkfahrtIHkuht-shtEHmpuhln-lAHsuhn",
+      "formality": "standard",
+      "cultural_note": "Validation of return tickets is standard procedure in Austrian cable car systems.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Automaten.",
+        "pronunciation": "yAHahm-OWtohmAHtuhn",
+        "translation_en": "Yes, at the machine."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the machine.",
+          "phonetic": "yAHahm-OWtohmAHtuhn",
+          "french": "Ja, am Automaten."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_ahorn_cable_car_004",
+      "intent_en": "Zillertal Activcard at this ticket office",
+      "text_local": "Akzeptieren Sie die Zillertal Activcard hier?",
+      "pronunciation": "AHktsehptEEruhn-zee-dee-tsIHltAHl-AHktihvkAHrt-hEEr",
+      "formality": "casual",
+      "cultural_note": "Direct and concise answer expected in German-speaking alpine regions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

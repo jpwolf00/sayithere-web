@@ -1,0 +1,144 @@
+{
+  "id": "ankara_cermodern",
+  "name_en": "CerModern",
+  "name_local": "CerModern",
+  "icon": "building.columns",
+  "lat": 39.9317598,
+  "lon": 32.8502112,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ankara_cermodern_001",
+      "intent_en": "Is the sculpture garden open today?",
+      "text_local": "Heykel bahçesi bugün açık mı?",
+      "pronunciation": "hehykAHl-bahhtshehsIH-boogUHn-ahtshOOk-moo",
+      "formality": "casual",
+      "cultural_note": "Museum staff typically avoid making definitive claims about opening status and prefer to refer visitors to the information desk for current conditions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet açık.",
+        "pronunciation": "ehvEHt-ahtshOOk",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "ehvEHt-ahtshOOk",
+          "french": "Evet açık."
+        }
+      ]
+    },
+    {
+      "id": "ankara_cermodern_002",
+      "intent_en": "Where do I scan event tickets?",
+      "text_local": "Etkinlik biletleri nerede taranıyor?",
+      "pronunciation": "ehtkihnlIHk-beelehtlehrIH-nEHrehdeh-tahrahnOOyawr",
+      "formality": "standard",
+      "cultural_note": "In Turkish venues, ticket scanning is handled by a dedicated ticket clerk at the event entry point, not self-service kiosks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Etkinlik girişinde bilet görevlisine gösterin.",
+        "pronunciation": "ehtkihnlIHk-eereeshihndEH-beelEHt-uhrehvleeseenEH-uhstehrIHn",
+        "translation_en": "Show to the ticket clerk at the event entrance."
+      },
+      "responses": [
+        {
+          "english": "Show to the ticket clerk at the event entrance.",
+          "phonetic": "ehtkihnlIHk-eereeshihndEH-beelEHt-uhrehvleeseenEH-uhstehrIHn",
+          "french": "Etkinlik girişinde bilet görevlisine gösterin."
+        }
+      ]
+    },
+    {
+      "id": "ankara_cermodern_003",
+      "intent_en": "Where is the TCDD Cer Atölyeleri entrance?",
+      "text_local": "TCDD Cer Atölyeleri girişi nerede?",
+      "pronunciation": "tEHdzhEHdEHdEH-dzhEHr-ahtuhlyehlehrIH-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "In Turkish cultural venues, staff often direct complex location queries to the information desk rather than giving imprecise directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana binanın arkasında.",
+        "pronunciation": "ahnAH-beenahnOOn-ahrkahsoondAH",
+        "translation_en": "Behind the main building."
+      },
+      "responses": [
+        {
+          "english": "Behind the main building.",
+          "phonetic": "ahnAH-beenahnOOn-ahrkahsoondAH",
+          "french": "Ana binanın arkasında."
+        }
+      ]
+    },
+    {
+      "id": "ankara_cermodern_004",
+      "intent_en": "Where do I scan event tickets?",
+      "text_local": "Etkinlik biletlerini nerede okutuyorum?",
+      "pronunciation": "ehtkihnlIHk-beelehtlehreenIH-nEHrehdeh-ohkootOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "Instructions are terse and point to a staff member rather than a machine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Etkinlik girişinde görevliye gösterin.",
+        "pronunciation": "ehtkihnlIHk-eereeshihndEH-uhrehvleeyEH-uhstehrIHn",
+        "translation_en": "Show it to the attendant at the event entrance."
+      },
+      "responses": [
+        {
+          "english": "Show it to the attendant at the event entrance.",
+          "phonetic": "ehtkihnlIHk-eereeshihndEH-uhrehvleeyEH-uhstehrIHn",
+          "french": "Etkinlik girişinde görevliye gösterin."
+        }
+      ]
+    },
+    {
+      "id": "ankara_cermodern_005",
+      "intent_en": "Is membership available at the desk?",
+      "text_local": "Üyelik danışmada mevcut mu?",
+      "pronunciation": "ueyehlIHk-dahnOOshmahdah-mehvdzhUHt-muh",
+      "formality": "standard",
+      "cultural_note": "Turkish cultural venues typically have a dedicated membership desk for processing new memberships, separate from ticket sales.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, üyelik masasında mevcut.",
+        "pronunciation": "ehvEHtueyehlIHk-mahsahsoondAH-mehvdzhUHt",
+        "translation_en": "Yes, available at the membership desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, available at the membership desk.",
+          "phonetic": "ehvEHtueyehlIHk-mahsahsoondAH-mehvdzhUHt",
+          "french": "Evet, üyelik masasında mevcut."
+        }
+      ]
+    },
+    {
+      "id": "ankara_cermodern_006",
+      "intent_en": "Where is Cafe CerModern?",
+      "text_local": "Cafe CerModern nerede?",
+      "pronunciation": "dzhahfEH-dzhEHr-mohdEHrn-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "In large museum complexes with multiple connected spaces, staff prefer to direct visitors to the information desk rather than risk giving confusing directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zemin katta, girişin solunda.",
+        "pronunciation": "zehmIHn-kahtAHeereeshIHn-sohuhndAH",
+        "translation_en": "On the ground floor, to the left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, to the left of the entrance.",
+          "phonetic": "zehmIHn-kahtAHeereeshIHn-sohuhndAH",
+          "french": "Zemin katta, girişin solunda."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

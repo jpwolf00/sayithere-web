@@ -1,0 +1,78 @@
+{
+  "id": "linz_danube_promenade",
+  "name_en": "Danube Promenade",
+  "name_local": "Donauuferpromenade",
+  "icon": "leaf",
+  "lat": 48.3059078,
+  "lon": 14.286198,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "linz_danube_promenade_001",
+      "intent_en": "Where do tour guides meet groups",
+      "text_local": "Wo treffen sich die Reisegruppen mit ihren Guides?",
+      "pronunciation": "vOH-trEHfuhn-zihkh-dee-tOOrruhpuhn-miht-EEruhn-ehnEYEdzdeh",
+      "formality": "standard",
+      "cultural_note": "Tour groups commonly meet at recognizable landmarks or bridge accesses.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Donaukorso, beim Haupteingang.",
+        "pronunciation": "ahm-dOHnowkAWrzohbeyem-hOWptEYEngAHng",
+        "translation_en": "On the Danube promenade, at the main entrance."
+      },
+      "responses": [
+        {
+          "english": "On the Danube promenade, at the main entrance.",
+          "phonetic": "ahm-dOHnowkAWrzohbeyem-hOWptEYEngAHng",
+          "french": "Am Donaukorso, beim Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "linz_danube_promenade_002",
+      "intent_en": "Can I pay street vendors with card",
+      "text_local": "Kann man bei den Straßenhändlern mit Karte zahlen?",
+      "pronunciation": "kAHn-mahn-beye-dehn-shtrAHsuhnhEHndln-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Card acceptance at street vendors varies; cash is still common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meist bar, aber manche auch Karte.",
+        "pronunciation": "mEYEst-bAHrAHb-mAHnkhuh-OWkh-kAHrtuh",
+        "translation_en": "Cash mostly, but some accept card."
+      },
+      "responses": [
+        {
+          "english": "Cash mostly, but some accept card.",
+          "phonetic": "mEYEst-bAHrAHb-mAHnkhuh-OWkh-kAHrtuh",
+          "french": "Meist bar, aber manche auch Karte."
+        }
+      ]
+    },
+    {
+      "id": "linz_danube_promenade_003",
+      "intent_en": "Where are the river cruise ticket sellers",
+      "text_local": "Wo gibt es Tickets für die Donauschifffahrt?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fuer-dee-dOHnowshIHfahrt",
+      "formality": "casual",
+      "cultural_note": "Ticket counters are often centrally located near pedestrian bridges or major walkway accesses.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter dort vorne.",
+        "pronunciation": "ahm-shAHlt-dAWrt-fAWrnuh",
+        "translation_en": "At the ticket counter up ahead."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter up ahead.",
+          "phonetic": "ahm-shAHlt-dAWrt-fAWrnuh",
+          "french": "Am Schalter dort vorne."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

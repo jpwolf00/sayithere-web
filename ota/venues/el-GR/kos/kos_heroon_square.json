@@ -1,0 +1,210 @@
+{
+  "id": "kos_heroon_square",
+  "name_en": "Heroon Square",
+  "name_local": "Πλατεία Ηρώων",
+  "icon": "building.columns",
+  "lat": 37.764192,
+  "lon": 23.4802167,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kos_heroon_square_001",
+      "intent_en": "Ask where the memorial plaques begin",
+      "text_local": "Πού βρίσκονται οι επιγραφές του μνημείου;",
+      "pronunciation": "pOO-vrEEskohdEH-ee-EHpeeghrahfEHs-too-mneemEEoo",
+      "formality": "standard",
+      "cultural_note": "Οι επιγραφές τοποθετούνται παραδοσιακά στην κύρια όψη του μνημείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στη βάση του μνημείου.",
+        "pronunciation": "stee-vAHsee-too-mneemEEoo",
+        "translation_en": "At the base of the monument."
+      },
+      "responses": [
+        {
+          "english": "At the base of the monument.",
+          "phonetic": "stee-vAHsee-too-mneemEEoo",
+          "french": "Στη βάση του μνημείου."
+        }
+      ]
+    },
+    {
+      "id": "kos_heroon_square_002",
+      "intent_en": "Ask if climbing on monument is forbidden",
+      "text_local": "Είναι απαγορευμένη η ανάβασή μου στο μνημείο;",
+      "pronunciation": "EEneh-AHpahghOHrehvmEHnee-ee-ahnAHvahsEE-moo-stoh-mneemEEoh",
+      "formality": "standard",
+      "cultural_note": "Τα μνημεία τιμής αποτελούν σύμβολα σεβασμού και προστατεύονται από ζημιές.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, απαγορεύεται.",
+        "pronunciation": "nEHAHpahghohrEHvehtEH",
+        "translation_en": "Yes, climbing is forbidden."
+      },
+      "responses": [
+        {
+          "english": "Yes, climbing is forbidden.",
+          "phonetic": "nEHAHpahghohrEHvehtEH",
+          "french": "Ναι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "kos_heroon_square_003",
+      "intent_en": "Ask where paid parking is found nearby",
+      "text_local": "Πού υπάρχει πληρωμένο παρκάρισμα εδώ κοντά;",
+      "pronunciation": "pOO-eepAHrkhee-plEErohmEHnoh-pahrkAHreesmAH-ehthOH-kohdAH",
+      "formality": "standard",
+      "cultural_note": "Σε ελληνικές πόλεις, συχνά επιτρέπεται η στάθμευση επί των γειτονικών δρόμων έναντι αμοιβής.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις γύρω οδούς.",
+        "pronunciation": "steez-yEEroh-ohthOOs",
+        "translation_en": "On adjacent streets."
+      },
+      "responses": [
+        {
+          "english": "On adjacent streets.",
+          "phonetic": "steez-yEEroh-ohthOOs",
+          "french": "Στις γύρω οδούς."
+        }
+      ]
+    },
+    {
+      "id": "kos_heroon_square_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Τι ώρα ανοίγει η αρχαιολογική έκθεση;",
+      "pronunciation": "tEE-OHr-ahnEEyee-ee-AHrkhehOHlohyeeEE-EHkthehsEE",
+      "formality": "standard",
+      "cultural_note": "Τα ωράρια τοπικών εκθέσεων συχνά προσαρμόζονται εποχιακά ή λόγω περιορισμένων πόρων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον αρχαιολογικό χώρο, 8:00 π.μ.",
+        "pronunciation": "stohn-AHrkhehOHlohyeekOH-khOHrohohktOH-meethEHn-meethEHn-pEEmEE",
+        "translation_en": "The exhibition usually opens in the morning, but the hours may change due to events in the square. Follow the signs to the Monument to fallen heroes."
+      },
+      "responses": [
+        {
+          "english": "The exhibition usually opens in the morning, but the hours may change due to events in the square. Follow the signs to the Monument to fallen heroes.",
+          "phonetic": "stohn-AHrkhehOHlohyeekOH-khOHrohohktOH-meethEHn-meethEHn-pEEmEE",
+          "french": "Στον αρχαιολογικό χώρο, 8:00 π.μ."
+        }
+      ]
+    },
+    {
+      "id": "kos_heroon_square_005",
+      "intent_en": "Keep voices low at memorial",
+      "text_local": "Μπορώ να μιλάω δυνατά εδώ;",
+      "pronunciation": "bohrOH-nah-meelAHoh-thEEnahtAH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Η ελληνική κουλτούρα επιβάλλει σεβασμό σε μνημεία και δημόσιους χώρους μνήμης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, παρακαλώ.",
+        "pronunciation": "OHkheepAHrahkahlOH",
+        "translation_en": "No, please keep it quiet."
+      },
+      "responses": [
+        {
+          "english": "No, please keep it quiet.",
+          "phonetic": "OHkheepAHrahkahlOH",
+          "french": "Όχι, παρακαλώ."
+        }
+      ]
+    },
+    {
+      "id": "kos_heroon_square_006",
+      "intent_en": "Read memorial plaques closely",
+      "text_local": "Μπορώ να διαβάσω τις επιγραφές του μνημείου;",
+      "pronunciation": "bohrOH-nah-thEEahvAHsoh-tees-EHpeeghrahfEHs-too-mneemEEoo",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναμένεται να εκφράζουν σεβασμό κατά την ανάγνωση των επιγραφών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, χωρίς περιορισμούς.",
+        "pronunciation": "nEHkhohrEEs-pEHreeOHreesmOOs",
+        "translation_en": "Yes, no restrictions."
+      },
+      "responses": [
+        {
+          "english": "Yes, no restrictions.",
+          "phonetic": "nEHkhohrEEs-pEHreeOHreesmOOs",
+          "french": "Ναι, χωρίς περιορισμούς."
+        }
+      ]
+    },
+    {
+      "id": "kos_heroon_square_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει χώρος στάθμευσης πληρωμής κοντά στο Ηρώον;",
+      "pronunciation": "pOO-pleerOHnoh-toh-pahrkAHreesmAH-kohdAH-stoh-mneemEEoh",
+      "formality": "standard",
+      "cultural_note": "Η πληρωμή γίνεται πιθανώς επί τόπου χωρίς κεντρική υπηρεσία. Οι επισκέπτες προσαρμόζονται σε τοπικές πρακτικές.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στην οδό Μεγάλου Αλεξάνδρου.",
+        "pronunciation": "nEHsteen-ohthOH-mehghAHloo-AHlehksAHnthroo",
+        "translation_en": "Yes, there is paid parking on the adjacent streets, not right next to Heroon Square. Follow the signs for parking."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is paid parking on the adjacent streets, not right next to Heroon Square. Follow the signs for parking.",
+          "phonetic": "nEHsteen-ohthOH-mehghAHloo-AHlehksAHnthroo",
+          "french": "Ναι, στην οδό Μεγάλου Αλεξάνδρου."
+        }
+      ]
+    },
+    {
+      "id": "kos_heroon_square_008",
+      "intent_en": "Ask how to keep voice low at memorial",
+      "text_local": "Πώς κρατώ χαμηλή τη φωνή μου εδώ;",
+      "pronunciation": "pOHs-krahtOH-khAHmeelEE-tee-fohnEE-moo-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Η ελληνική κουλτούρα αποδίδει μεγάλη σημασία στον σεβασμό στους δημόσιους χώρους μνήμης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μιλήστε ήσυχα.",
+        "pronunciation": "meelEEsteh-EEseekhAH",
+        "translation_en": "Speak softly."
+      },
+      "responses": [
+        {
+          "english": "Speak softly.",
+          "phonetic": "meelEEsteh-EEseekhAH",
+          "french": "Μιλήστε ήσυχα."
+        }
+      ]
+    },
+    {
+      "id": "kos_heroon_square_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού πληρώνω στο καφέ;",
+      "pronunciation": "pOO-pleerOHnoh-stoh-kahfEH-yEEroh-ahpOH-teem-blahtEEah",
+      "formality": "standard",
+      "cultural_note": "Στα ελληνικά τοπικά ιδιοκτησίας, η πληρωμή γίνεται συνήθως στο ταμείο του καταστήματος.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο μπαρ, δίπλα στο σιντριβάνι.",
+        "pronunciation": "stoh-bAHrthEEplah-stoh-sEEdreevAHnee",
+        "translation_en": "You pay at the cafe's bar, next to the fountain."
+      },
+      "responses": [
+        {
+          "english": "You pay at the cafe's bar, next to the fountain.",
+          "phonetic": "stoh-bAHrthEEplah-stoh-sEEdreevAHnee",
+          "french": "Στο μπαρ, δίπλα στο σιντριβάνι."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

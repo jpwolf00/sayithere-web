@@ -1,0 +1,100 @@
+{
+  "id": "berlin_pergamon_museum",
+  "name_en": "Pergamon Museum",
+  "name_local": "Pergamonmuseum",
+  "icon": "building.columns",
+  "lat": 52.5209336,
+  "lon": 13.3956302,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "berlin_pergamon_museum_001",
+      "intent_en": "Where is Museum Island day pass sold",
+      "text_local": "Wo gibt es Tageskarten für die Museumsinsel?",
+      "pronunciation": "vOH-EEpt-ehs-tAHehskAHrtuhn-fuer-dee-mOOzawuhmzIHnzuhl",
+      "formality": "standard",
+      "cultural_note": "Centralized ticketing counters are standard for multi-museum passes in Berlin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hauptschalter.",
+        "pronunciation": "ahm-hOWptshahlt",
+        "translation_en": "At the main ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the main ticket counter.",
+          "phonetic": "ahm-hOWptshahlt",
+          "french": "Am Hauptschalter."
+        }
+      ]
+    },
+    {
+      "id": "berlin_pergamon_museum_002",
+      "intent_en": "When does North Wing reopen",
+      "text_local": "Wann öffnet der Nordflügel wieder?",
+      "pronunciation": "vAHn-UHfnuht-dehr-nAWrtflueuhl-vEEd",
+      "formality": "standard",
+      "cultural_note": "Partial reopening dates are prominently announced due to renovation transparency.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "2027.",
+        "pronunciation": "tsvEYE-tOWzuhnt-zEEbuhn-uhnttsvAHntsihkh",
+        "translation_en": "2027."
+      },
+      "responses": [
+        {
+          "english": "2027.",
+          "phonetic": "tsvEYE-tOWzuhnt-zEEbuhn-uhnttsvAHntsihkh",
+          "french": "2027."
+        }
+      ]
+    },
+    {
+      "id": "berlin_pergamon_museum_003",
+      "intent_en": "Where can I make donation during renovation",
+      "text_local": "Wo kann ich während der Sanierung spenden?",
+      "pronunciation": "vOH-kAHn-ihkh-vEHruhnt-dehr-zahnEEruhng-shpEHnduhn",
+      "formality": "standard",
+      "cultural_note": "Donation points are often placed near visitor services or ticket counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Infostand.",
+        "pronunciation": "ahm-IHnfawstAHnt",
+        "translation_en": "At the info desk."
+      },
+      "responses": [
+        {
+          "english": "At the info desk.",
+          "phonetic": "ahm-IHnfawstAHnt",
+          "french": "Am Infostand."
+        }
+      ]
+    },
+    {
+      "id": "berlin_pergamon_museum_004",
+      "intent_en": "How do I redirect to Bode Museum",
+      "text_local": "Wie komme ich zum Bode-Museum?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsuhm-bOHduhmoozEHuhm",
+      "formality": "casual",
+      "cultural_note": "Staff often redirect visitors to central counters for related services, especially during high visitor volume.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Das Bode-Museum ist auf der anderen Inselseite.",
+        "pronunciation": "dahs-bOHduhmoozEHuhm-ihst-owf-dehr-AHnduhruhn-IHnzuhlzEYEtuh",
+        "translation_en": "The Bode Museum is on the other side of the island."
+      },
+      "responses": [
+        {
+          "english": "The Bode Museum is on the other side of the island.",
+          "phonetic": "dahs-bOHduhmoozEHuhm-ihst-owf-dehr-AHnduhruhn-IHnzuhlzEYEtuh",
+          "french": "Das Bode-Museum ist auf der anderen Inselseite."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

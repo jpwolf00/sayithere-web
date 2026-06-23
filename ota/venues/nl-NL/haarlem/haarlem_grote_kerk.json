@@ -1,0 +1,100 @@
+{
+  "id": "haarlem_grote_kerk",
+  "name_en": "Grote Kerk",
+  "name_local": "Grote of Sint-Michaëlskerk",
+  "icon": "building.columns",
+  "lat": 52.3798,
+  "lon": 4.6345,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "haarlem_grote_kerk_001",
+      "intent_en": "Can I climb the tower",
+      "text_local": "Mag ik de toren beklimmen?",
+      "pronunciation": "mahkh-ihk-duh-tOHruhn-buhklIHmuhn",
+      "formality": "polite",
+      "cultural_note": "Tower climbs in Dutch churches often require advance tickets due to safety regulations, especially in historic structures.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tickets bij de balie.",
+        "pronunciation": "tIHkehts-behih-duh-bahlEE",
+        "translation_en": "Tickets at the desk."
+      },
+      "responses": [
+        {
+          "english": "Tickets at the desk.",
+          "phonetic": "tIHkehts-behih-duh-bahlEE",
+          "french": "Tickets bij de balie."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_grote_kerk_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar staat het Müller-orgel?",
+      "pronunciation": "vAHr-stAHt-huht-mLuhrawrghEHl",
+      "formality": "standard",
+      "cultural_note": "Het Müller-orgel bevindt zich aan de westzijde van de kerk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Achter in de kerk, links van het koor.",
+        "pronunciation": "AHkhtuhr-ihn-duh-kEHrklINGks-vahn-huht-kOHr",
+        "translation_en": "At the back of the church, left of the choir."
+      },
+      "responses": [
+        {
+          "english": "At the back of the church, left of the choir.",
+          "phonetic": "AHkhtuhr-ihn-duh-kEHrklINGks-vahn-huht-kOHr",
+          "french": "Achter in de kerk, links van het koor."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_grote_kerk_003",
+      "intent_en": "Should I be quiet now",
+      "text_local": "Moet ik nu stil zijn?",
+      "pronunciation": "mOOt-ihk-nUE-stIHl-zehihn",
+      "formality": "standard",
+      "cultural_note": "Silence is expected during religious services in Dutch churches, reflecting Protestant traditions of reverence.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tijdens de dienst.",
+        "pronunciation": "tEHihduhns-duh-dEEnst",
+        "translation_en": "During the service."
+      },
+      "responses": [
+        {
+          "english": "During the service.",
+          "phonetic": "tEHihduhns-duh-dEEnst",
+          "french": "Tijdens de dienst."
+        }
+      ]
+    },
+    {
+      "id": "haarlem_grote_kerk_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar ligt Frans Hals begraven?",
+      "pronunciation": "vAHr-lIHkht-frAHns-hAHls-buhghrAHvuhn",
+      "formality": "standard",
+      "cultural_note": "Frans Hals werd begraven in de Grote Kerk; een exact grafmonument is er niet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In de Grote Kerk, maar het graf is niet gemarkeerd.",
+        "pronunciation": "ihn-duh-ghrOHtuh-kEHrkmahr-huht-ghrAHf-ihs-nEEt-ghuhmahrkIHrt",
+        "translation_en": "In the Grote Kerk, but the grave is not marked."
+      },
+      "responses": [
+        {
+          "english": "In the Grote Kerk, but the grave is not marked.",
+          "phonetic": "ihn-duh-ghrOHtuh-kEHrkmahr-huht-ghrAHf-ihs-nEEt-ghuhmahrkIHrt",
+          "french": "In de Grote Kerk, maar het graf is niet gemarkeerd."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

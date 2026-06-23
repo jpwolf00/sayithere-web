@@ -1,0 +1,118 @@
+{
+  "id": "rouen_tour_jeanne_darc",
+  "name_en": "Tower of Joan of Arc (Keep)",
+  "name_local": "Tour Jeanne d'Arc",
+  "icon": "building.columns",
+  "lat": 49.4449,
+  "lon": 1.0918,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "rouen_tour_001",
+      "intent_en": "Ask what the entry fee is",
+      "text_local": "Quel est le tarif d'entrée ?",
+      "pronunciation": "kel eh luh tah-REEF dahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "The Tour Jeanne d'Arc is a small museum inside the medieval tower.",
+      "responses": [
+        {
+          "english": "It is indicated at the ticket desk.",
+          "phonetic": "say tahn-dee-KAY oh gee-SHAY",
+          "french": "C'est indiqué au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_tour_002",
+      "intent_en": "Ask about the small museum inside the tower",
+      "text_local": "Qu'est-ce que le petit musée à l'intérieur de la tour présente ?",
+      "pronunciation": "kess kuh luh puh-TEE moo-ZAY ah lahn-tay-RYUR duh lah TOOR pray-ZAHNT",
+      "formality": "polite",
+      "cultural_note": "The interior houses a modest but interesting display on Joan of Arc's trial, including documents and replicas of the original trial records. The spiral staircase leads to the top with views over the Rouen rooftops.",
+      "responses": [
+        {
+          "english": "Yes, it is on the ground floor.",
+          "phonetic": "wee say toh ray-duh-shoh-SAY",
+          "french": "Oui, c'est au rez-de-chaussée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_tour_003",
+      "intent_en": "Ask how many steps there are to the top",
+      "text_local": "Il y a combien de marches jusqu'en haut ?",
+      "pronunciation": "eel ee ah kohm-BYAHN duh MARSH zhoos-kahn OH",
+      "formality": "polite",
+      "cultural_note": "The tower is a spiral staircase climb with no elevator.",
+      "responses": [
+        {
+          "english": "About a hundred steps.",
+          "phonetic": "ahn-vee-ROHN SAHN MARSH",
+          "french": "Environ cent marches."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_tour_004",
+      "intent_en": "Ask what the entry fee is",
+      "text_local": "Quel est le tarif d'entrée pour visiter la tour ?",
+      "pronunciation": "kel eh luh tah-REEF dahn-TRAY poor vee-zee-TAY lah TOOR",
+      "formality": "polite",
+      "cultural_note": "Entry is inexpensive and the visit is short — about 30 minutes. Combination passes covering multiple Rouen museums may include the tower. Under-18s and EU citizens under 26 often enter for free.",
+      "responses": [
+        {
+          "english": "It is indicated at the ticket desk.",
+          "phonetic": "say tahn-dee-KAY oh gee-SHAY",
+          "french": "C'est indiqué au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_tour_005",
+      "intent_en": "Ask if the tower is safe to climb to the top",
+      "text_local": "Peut-on monter au sommet de la tour en toute sécurité ?",
+      "pronunciation": "puh-TOHN mohn-TAY oh sohm-MAY duh lah TOOR ahn TOOT say-koo-ree-TAY",
+      "formality": "polite",
+      "cultural_note": "The spiral staircase inside is original medieval stonework and can be narrow and steep. It is safe but not suitable for visitors with significant mobility limitations. The views from the top are worth the climb.",
+      "responses": [
+        {
+          "english": "Yes, but the staircase is narrow.",
+          "phonetic": "wee may less-kah-LYAY eh tay-TRWAH",
+          "french": "Oui, mais l'escalier est étroit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    },
+    {
+      "word_en": "keep / dungeon",
+      "word_local": "le donjon",
+      "pronunciation": "luh dohn-ZHOHN"
+    },
+    {
+      "word_en": "trial",
+      "word_local": "le procès",
+      "pronunciation": "luh proh-SAY"
+    },
+    {
+      "word_en": "spiral staircase",
+      "word_local": "l'escalier en colimaçon",
+      "pronunciation": "les-kal-YAY ahn koh-lee-mah-SOHN"
+    }
+  ]
+}

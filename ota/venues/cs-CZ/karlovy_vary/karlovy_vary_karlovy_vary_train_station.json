@@ -1,0 +1,122 @@
+{
+  "id": "karlovy_vary_karlovy_vary_train_station",
+  "name_en": "Karlovy Vary Train Station",
+  "name_local": "Karlovy Vary hlavní nádraží",
+  "icon": "tram",
+  "lat": 50.2306216,
+  "lon": 12.8701437,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "karlovy_vary_karlovy_vary_train_station_001",
+      "intent_en": "Where is the RegioJet counter?",
+      "text_local": "Kde je přepážka RegioJet?",
+      "pronunciation": "kdEH-yeh-prEHpahshkah-rEHgeeyoh-yEHt",
+      "formality": "standard",
+      "cultural_note": "RegioJet operates a separate counter, distinct from Czech Railways (ČD) ticket windows.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vlevo od hlavního vchodu, vedle pokladen.",
+        "pronunciation": "vlEHvoh-OHthlahvnyEEhoh-fkhOHdoovEHdleh-pOHklahdehn",
+        "translation_en": "To the left of the main entrance, next to the ticket offices."
+      },
+      "responses": [
+        {
+          "english": "To the left of the main entrance, next to the ticket offices.",
+          "phonetic": "vlEHvoh-OHthlahvnyEEhoh-fkhOHdoovEHdleh-pOHklahdehn",
+          "french": "Vlevo od hlavního vchodu, vedle pokladen."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_karlovy_vary_train_station_002",
+      "intent_en": "When does the Prague train leave?",
+      "text_local": "Kdy jede vlak do Prahy?",
+      "pronunciation": "kdEE-yEHdeh-vlAHk-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Dispatchers often combine departure time and platform number in a single, terse reply.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za deset minut z druhého nástupiště.",
+        "pronunciation": "zAHdehseht-mEEnoot-s-drOOhehhoh-nAHstoopEEsheh",
+        "translation_en": "In ten minutes from platform two."
+      },
+      "responses": [
+        {
+          "english": "In ten minutes from platform two.",
+          "phonetic": "zAHdehseht-mEEnoot-s-drOOhehhoh-nAHstoopEEsheh",
+          "french": "Za deset minut z druhého nástupiště."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_karlovy_vary_train_station_003",
+      "intent_en": "Where do I pay for luggage storage?",
+      "text_local": "Kde zaplatím za úschovnu zavazadel?",
+      "pronunciation": "kdEH-zAHplaheem-zAHooskhOHvnoo-zAHvahzAHdehl",
+      "formality": "standard",
+      "cultural_note": "Payment is typically made directly at the luggage storage counter, not at the main ticket office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U okénka úschovny, hned vedle vchodu.",
+        "pronunciation": "OO-OHkehngkah-OOskhohvneehnEHd-vEHdleh-fkhOHdoo",
+        "translation_en": "At the luggage storage window, right next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the luggage storage window, right next to the entrance.",
+          "phonetic": "OO-OHkehngkah-OOskhohvneehnEHd-vEHdleh-fkhOHdoo",
+          "french": "U okénka úschovny, hned vedle vchodu."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_karlovy_vary_train_station_004",
+      "intent_en": "Does the buffet take euros?",
+      "text_local": "Berete v bufetu eura?",
+      "pronunciation": "bEHrehteh-v-bOOfehtoo-EHuhrah",
+      "formality": "standard",
+      "cultural_note": "Small station buffets in Czechia often operate cash-only and may not accept foreign currency.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jenom koruny.",
+        "pronunciation": "nEHyEHnohm-kOHroonee",
+        "translation_en": "No, only crowns."
+      },
+      "responses": [
+        {
+          "english": "No, only crowns.",
+          "phonetic": "nEHyEHnohm-kOHroonee",
+          "french": "Ne, jenom koruny."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_karlovy_vary_train_station_005",
+      "intent_en": "How do I reach Platform 1?",
+      "text_local": "Jak se dostanu na první nástupiště?",
+      "pronunciation": "yAHk-seh-dOHstahnoo-nAHprvnyee-nAHstoopEEsheh",
+      "formality": "standard",
+      "cultural_note": "All platform access at this station is via the underpass, as there is no level crossing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Podchodem, schody jsou přímo naproti.",
+        "pronunciation": "pOHtkhohdehmskhOHdee-ysoh-prEEmoh-nAHprohee",
+        "translation_en": "Through the underpass, the stairs are straight ahead."
+      },
+      "responses": [
+        {
+          "english": "Through the underpass, the stairs are straight ahead.",
+          "phonetic": "pOHtkhohdehmskhOHdee-ysoh-prEEmoh-nAHprohee",
+          "french": "Podchodem, schody jsou přímo naproti."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

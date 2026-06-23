@@ -1,0 +1,100 @@
+{
+  "id": "české_budějovice_lišov_suburb_historic_area",
+  "name_en": "Lišov suburb historic area",
+  "name_local": "Lišov",
+  "icon": "map",
+  "lat": 48.9747357,
+  "lon": 14.474285,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "české_budějovice_lišov_suburb_historic_area_001",
+      "intent_en": "Ask where folk museum entrance is",
+      "text_local": "Kde je vstup do muzea lidové kultury?",
+      "pronunciation": "kdEH-yeh-fstOOb-dOHmoozEHah-lEEdohveh-kOOltooree",
+      "formality": "standard",
+      "cultural_note": "In villages, directions often use local landmarks like the chapel or prominent trees instead of street names.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vpravo za kaplí, u lip.",
+        "pronunciation": "fprAHvoh-zAHkahpleeOO-lEEp",
+        "translation_en": "On the right behind the chapel, by the linden trees."
+      },
+      "responses": [
+        {
+          "english": "On the right behind the chapel, by the linden trees.",
+          "phonetic": "fprAHvoh-zAHkahpleeOO-lEEp",
+          "french": "Vpravo za kaplí, u lip."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_lišov_suburb_historic_area_002",
+      "intent_en": "Ask how to book village guided tour",
+      "text_local": "Jak si mohu rezervovat komentovanou prohlídku obce?",
+      "pronunciation": "yAHk-see-mOHhoo-rEHzehrvOHvaht-kOHmehntOHvahnoh-prOHhleetkoo-OHptseh",
+      "formality": "standard",
+      "cultural_note": "In smaller Czech villages, guided tours are often arranged informally through the obecní úřad rather than a dedicated agency.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Stačí se domluvit na obecním úřadě.",
+        "pronunciation": "stAHtshee-seh-dOHmlooveet-nAHohbEHtsnyeem-OOraheh",
+        "translation_en": "Just arrange it at the municipal office."
+      },
+      "responses": [
+        {
+          "english": "Just arrange it at the municipal office.",
+          "phonetic": "stAHtshee-seh-dOHmlooveet-nAHohbEHtsnyeem-OOraheh",
+          "french": "Stačí se domluvit na obecním úřadě."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_lišov_suburb_historic_area_003",
+      "intent_en": "Ask where village parking is",
+      "text_local": "Kde je parkování u návsi?",
+      "pronunciation": "kdEH-yeh-pAHrkohvAHnyee-OO-nAHfsee",
+      "formality": "standard",
+      "cultural_note": "Parking for visitors in spread-out villages is often concentrated at a designated lot near a landmark like a pond rather than on the square itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Na kraji obce, u rybníka.",
+        "pronunciation": "nAHkrahyee-OHptsehOO-rEEbnyeekah",
+        "translation_en": "At the edge of the village, by the pond."
+      },
+      "responses": [
+        {
+          "english": "At the edge of the village, by the pond.",
+          "phonetic": "nAHkrahyee-OHptsehOO-rEEbnyeekah",
+          "french": "Na kraji obce, u rybníka."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_lišov_suburb_historic_area_004",
+      "intent_en": "Ask if chapel is open to visitors",
+      "text_local": "Je kaple svatého Václava přístupná návštěvníkům?",
+      "pronunciation": "yeh-kAHpleh-svAHtehhoh-vAHtslahvah-prEEstoopnah-nAHfshehvnyEEkoom",
+      "formality": "standard",
+      "cultural_note": "Small village chapels often remain open during daytime, though official hours may not be posted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, přes den bývá odemčeno.",
+        "pronunciation": "AHnohprEHz-dEHn-bEEvah-OHdehmtshEHnoh",
+        "translation_en": "Yes, it is usually unlocked during the day."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is usually unlocked during the day.",
+          "phonetic": "AHnohprEHz-dEHn-bEEvah-OHdehmtshEHnoh",
+          "french": "Ano, přes den bývá odemčeno."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "lausanne_ouchy",
+  "name_en": "Ouchy Waterfront",
+  "name_local": "Ouchy",
+  "icon": "leaf",
+  "phrases": [
+    {
+      "id": "lausanne_ou_001",
+      "intent_en": "Ask about the lakeside promenade",
+      "text_local": "Où est la promenade au bord du lac ?",
+      "pronunciation": "oo eh lah proh-muh-NAD oh bor doo lak",
+      "formality": "polite",
+      "cultural_note": "The Ouchy waterfront has a scenic lakeside promenade stretching several kilometers — perfect for walks, jogs, or rollerblading.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The promenade starts here and runs along the lake for several kilometers.",
+          "phonetic": "lah proh-muh-NAD koh-MAHNS ee-SEE ay lohnzh luh LAK soor plu-ZYUHR kee-loh-MEHTR",
+          "french": "La promenade commence ici et longe le lac sur plusieurs kilomètres."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ou_002",
+      "intent_en": "Ask where the ferry terminal is",
+      "text_local": "Où est le quai des bateaux ?",
+      "pronunciation": "oo eh luh KAY day bah-TOH",
+      "formality": "polite",
+      "cultural_note": "The CGN ferry terminal at Ouchy connects to Evian (France), Thonon, and other Lake Geneva towns.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The CGN pier is at the end of the promenade, near the château.",
+          "phonetic": "luh KAY say-zhay-EN eh oh BOO duh lah proh-muh-NAD, preh doo shah-TOH",
+          "french": "Le quai CGN est au bout de la promenade, près du château."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ou_003",
+      "intent_en": "Ask about the ferry to Evian",
+      "text_local": "Comment aller à Évian en ferry ?",
+      "pronunciation": "koh-MON ah-LAY ah ay-VYON on fer-EE",
+      "formality": "polite",
+      "cultural_note": "Passenger ferries cross to Evian (France) regularly — about 35 minutes each way. A great day trip with Swiss/French border views.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Check the schedule at the CGN counter on the quay.",
+          "phonetic": "kon-sool-TAY layz oh-REHR oh gee-SHAY say-zhay-EN soor luh KAY",
+          "french": "Consultez les horaires au guichet CGN sur le quai."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ou_004",
+      "intent_en": "Ask about the beach facilities",
+      "text_local": "Y a-t-il des installations de plage ?",
+      "pronunciation": "ee-ah-TEEL day zan-stah-lah-SYOHN duh plahzh",
+      "formality": "polite",
+      "cultural_note": "There's a small public beach at Ouchy with changing rooms and a diving board. The water is clean but can be cold (20°C max in summer).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there's a public beach with changing rooms and a diving board.",
+          "phonetic": "wee, eel ee ah oon plazh poo-BLEEK ah-VEK day kah-BEEN ay uhn plohn-ZHWAHR",
+          "french": "Oui, il y a une plage publique avec des cabines et un plongeoir."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ou_005",
+      "intent_en": "Ask about the metro/bus access",
+      "text_local": "Comment accéder à Ouchy en transports publics ?",
+      "pronunciation": "koh-MON aks-ay-DAY ah doo-SHEE on trahnz-POR poo-BEEK",
+      "formality": "polite",
+      "cultural_note": "Metro M1 goes directly to Ouchy from the central station (Gare). Buses also serve the waterfront area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Metro M2, stop Ouchy. Or bus 2 from the station.",
+          "phonetic": "may-TROH em DUH, ah-REH oo-SHEE. oo boos DUH duh-PWEE lah GAR",
+          "french": "Métro M2, arrêt Ouchy. Ou bus 2 depuis la gare."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "waterfront",
+      "word_local": "le bord du lac",
+      "pronunciation": "luh bor doo lak"
+    },
+    {
+      "word_en": "promenade",
+      "word_local": "la promenade",
+      "pronunciation": "lah proh-muh-NAD"
+    },
+    {
+      "word_en": "lake",
+      "word_local": "le lac",
+      "pronunciation": "luh lak"
+    },
+    {
+      "word_en": "ferry",
+      "word_local": "le ferry",
+      "pronunciation": "luh fer-EE"
+    }
+  ]
+}

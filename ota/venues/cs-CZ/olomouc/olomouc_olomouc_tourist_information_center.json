@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_olomouc_tourist_information_center",
+  "name_en": "Olomouc Tourist Information Center",
+  "name_local": "Turistické informační centrum Olomouc",
+  "icon": "info.circle",
+  "lat": 49.7016996,
+  "lon": 17.0760588,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "olomouc_olomouc_tourist_information_center_001",
+      "intent_en": "Do you sell tram tickets too?",
+      "text_local": "Prodáváte taky lístky na tramvaj?",
+      "pronunciation": "prOHdahvAHteh-tAHkee-lEEstkee-nAHtrahmvahy",
+      "formality": "standard",
+      "cultural_note": "A very brief affirmative is typical in busy service points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, prodáváme.",
+        "pronunciation": "AHnohprOHdahvAHmeh",
+        "translation_en": "Yes, we do."
+      },
+      "responses": [
+        {
+          "english": "Yes, we do.",
+          "phonetic": "AHnohprOHdahvAHmeh",
+          "french": "Ano, prodáváme."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_tourist_information_center_002",
+      "intent_en": "Where is the Dolní náměstí office?",
+      "text_local": "Kde je pobočka na Dolním náměstí?",
+      "pronunciation": "kdEH-yeh-pOHbohtshkah-nAHdohlnyeem-nAHmnyehsee",
+      "formality": "standard",
+      "cultural_note": "Locals often use landmarks like fountains for directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dolů z kopce, u kašen.",
+        "pronunciation": "dOHloo-s-kOHptsehOO-kAHshehn",
+        "translation_en": "Down the hill, by the fountains."
+      },
+      "responses": [
+        {
+          "english": "Down the hill, by the fountains.",
+          "phonetic": "dOHloo-s-kOHptsehOO-kAHshehn",
+          "french": "Dolů z kopce, u kašen."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_tourist_information_center_003",
+      "intent_en": "Where do I buy Olomouc Card?",
+      "text_local": "Kde si koupím Olomouc Card?",
+      "pronunciation": "kdEH-see-kOHpeem-OHlohmohts-tsAHrt",
+      "formality": "standard",
+      "cultural_note": "Czech service interactions are often direct and efficient.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tady u přepážky.",
+        "pronunciation": "tAHdee-OO-prEHpahshkee",
+        "translation_en": "Right here at the counter."
+      },
+      "responses": [
+        {
+          "english": "Right here at the counter.",
+          "phonetic": "tAHdee-OO-prEHpahshkee",
+          "french": "Tady u přepážky."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_tourist_information_center_004",
+      "intent_en": "Can I book guided tour here?",
+      "text_local": "Můžu si tu rezervovat komentovanou prohlídku města?",
+      "pronunciation": "mOOzhoo-see-tOO-rEHzehrvOHvaht-kOHmehntOHvahnoh-prOHhleetkoo-mnyEHstah",
+      "formality": "standard",
+      "cultural_note": "It's common to immediately proceed to scheduling details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, jaký termín preferujete?",
+        "pronunciation": "AHnohyAHkee-tEHrmeen-prEHfehrOOyehteh",
+        "translation_en": "Yes, what date do you prefer?"
+      },
+      "responses": [
+        {
+          "english": "Yes, what date do you prefer?",
+          "phonetic": "AHnohyAHkee-tEHrmeen-prEHfehrOOyehteh",
+          "french": "Ano, jaký termín preferujete?"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

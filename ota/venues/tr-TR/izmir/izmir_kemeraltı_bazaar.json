@@ -1,0 +1,144 @@
+{
+  "id": "izmir_kemeraltı_bazaar",
+  "name_en": "Kemeraltı Bazaar",
+  "name_local": "Kemeraltı Çarşısı",
+  "icon": "cart",
+  "lat": 38.4187368,
+  "lon": 27.1307472,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "izmir_kemeraltı_bazaar_001",
+      "intent_en": "Where are the Agora ruins?",
+      "text_local": "Smyrna Agora kalıntıları nerede?",
+      "pronunciation": "smyrnAH-ahgohrAH-kahoontooahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The Agora ruins are a listed target, but the venue context notes they 'interrupt the grid,' making their precise location within the bazaar complex ambiguous. Escalating to an information point is the safest guidance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana caddenin sonunda.",
+        "pronunciation": "ahnAH-dzhahdehnIHn-sohnuhndAH",
+        "translation_en": "At the end of the main street."
+      },
+      "responses": [
+        {
+          "english": "At the end of the main street.",
+          "phonetic": "ahnAH-dzhahdehnIHn-sohnuhndAH",
+          "french": "Ana caddenin sonunda."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_002",
+      "intent_en": "Do you take credit cards?",
+      "text_local": "Kredi kartı geçiyor mu?",
+      "pronunciation": "krehdIH-kahrtOO-ehtshEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Payment methods vary in the bazaar. Modern shops accept cards, while cash is preferred in the smaller hans.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana mağazalarda geçer.",
+        "pronunciation": "ahnAH-mahzahahrdAH-ehtshEHr",
+        "translation_en": "Credit cards at main stores."
+      },
+      "responses": [
+        {
+          "english": "Credit cards at main stores.",
+          "phonetic": "ahnAH-mahzahahrdAH-ehtshEHr",
+          "french": "Ana mağazalarda geçer."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_003",
+      "intent_en": "Where is Kızlarağası Hanı?",
+      "text_local": "Kızlarağası Hanı nerede?",
+      "pronunciation": "koozahrahsOO-hahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Kızlarağası Hanı is a stable target, but its exact position within the bazaar's complex layout is not specified, so a safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Anafartalar Caddesi'nde.",
+        "pronunciation": "ahnahfahrtahAHr-dzhahdehsihndEH",
+        "translation_en": "On Anafartalar Street."
+      },
+      "responses": [
+        {
+          "english": "On Anafartalar Street.",
+          "phonetic": "ahnahfahrtahAHr-dzhahdehsihndEH",
+          "french": "Anafartalar Caddesi'nde."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_004",
+      "intent_en": "Do you take credit cards?",
+      "text_local": "Kredi kartı geçerli mi?",
+      "pronunciation": "krehdIH-kahrtOO-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "In Kemeraltı, payment methods vary. Modern shops on main streets typically accept cards, while smaller stalls and traditional 'hans' often prefer cash.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana mağazalarda geçerli.",
+        "pronunciation": "ahnAH-mahzahahrdAH-ehtshehrlIH",
+        "translation_en": "Accepted at main stores."
+      },
+      "responses": [
+        {
+          "english": "Accepted at main stores.",
+          "phonetic": "ahnAH-mahzahahrdAH-ehtshehrlIH",
+          "french": "Ana mağazalarda geçerli."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_005",
+      "intent_en": "Can I try this spice?",
+      "text_local": "Bu baharattan tadabilir miyim?",
+      "pronunciation": "buh-bahhahrahtAHn-tahdahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Tasting is common when haggling at spice stalls, but a direct policy is not given, so a safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tadın.",
+        "pronunciation": "ehvEHttahdOOn",
+        "translation_en": "Yes, taste it."
+      },
+      "responses": [
+        {
+          "english": "Yes, taste it.",
+          "phonetic": "ehvEHttahdOOn",
+          "french": "Evet, tadın."
+        }
+      ]
+    },
+    {
+      "id": "izmir_kemeraltı_bazaar_006",
+      "intent_en": "Where are the Agora ruins?",
+      "text_local": "Smyrna Agorası nerede?",
+      "pronunciation": "ahgohrAH-kahoontooahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Smyrna Agora ruins are a stable target, but their exact location relative to the bazaar's streets is not provided, so a safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hisarönü Meydanı'nın arkasında.",
+        "pronunciation": "heesahruhnUH-mehydahnoonOOn-ahrkahsoondAH",
+        "translation_en": "Behind Hisarönü Square."
+      },
+      "responses": [
+        {
+          "english": "Behind Hisarönü Square.",
+          "phonetic": "heesahruhnUH-mehydahnoonOOn-ahrkahsoondAH",
+          "french": "Hisarönü Meydanı'nın arkasında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

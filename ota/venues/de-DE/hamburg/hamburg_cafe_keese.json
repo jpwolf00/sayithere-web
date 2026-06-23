@@ -1,0 +1,56 @@
+{
+  "id": "hamburg_cafe_keese",
+  "name_en": "Cafe Keese",
+  "name_local": "Café Keese",
+  "icon": "fork.knife",
+  "lat": 52.5120173,
+  "lon": 13.3165894,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "hamburg_cafe_keese_001",
+      "intent_en": "How do I pay for drinks",
+      "text_local": "Wie zahlt man an der Bar?",
+      "pronunciation": "vee-tsAHlt-mahn-ahn-dehr-bAHr",
+      "formality": "standard",
+      "cultural_note": "Direct verbal or gestural instruction is typical; no formal queue at bar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am besten bar oder mit Karte.",
+        "pronunciation": "ahm-bEHstuhn-bAHr-OHd-miht-kAHrtuh",
+        "translation_en": "Preferably cash or card."
+      },
+      "responses": [
+        {
+          "english": "Preferably cash or card.",
+          "phonetic": "ahm-bEHstuhn-bAHr-OHd-miht-kAHrtuh",
+          "french": "Am besten bar oder mit Karte."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_cafe_keese_002",
+      "intent_en": "Where is the queue for entry",
+      "text_local": "Wo bildet sich die Schlange?",
+      "pronunciation": "vOH-bIHlduht-zihkh-dee-shlAHnguh",
+      "formality": "standard",
+      "cultural_note": "Queue forms outside; no indoor line expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor der Tür.",
+        "pronunciation": "fAWr-dehr-tUEr",
+        "translation_en": "Outside the entrance."
+      },
+      "responses": [
+        {
+          "english": "Outside the entrance.",
+          "phonetic": "fAWr-dehr-tUEr",
+          "french": "Vor der Tür."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

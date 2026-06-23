@@ -1,0 +1,101 @@
+{
+  "id": "avignon_pont_avignon",
+  "name_en": "Pont d'Avignon",
+  "name_local": "Pont Saint-Bénézet",
+  "icon": "building.2",
+  "lat": 43.9609,
+  "lon": 4.8179,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "avignon_pont_001",
+      "intent_en": "Ask how much the ticket costs to walk on the bridge",
+      "text_local": "Combien coûte le billet pour le pont ?",
+      "pronunciation": "kom-BYAN koot luh bee-YAY poor luh PON",
+      "formality": "polite",
+      "cultural_note": "Walking on the Pont d'Avignon requires a ticket. A combined ticket with the Palais des Papes is available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Five euros. There's a combined ticket with the Palais des Papes.",
+          "phonetic": "sank uh-ROH. eel ee ah uhn bee-YAY kohm-bee-NAY ah-VEK luh pah-LAY day PAH-puh",
+          "french": "Cinq euros. Il y a un billet combiné avec le Palais des Papes."
+        }
+      ]
+    },
+    {
+      "id": "avignon_pont_002",
+      "intent_en": "Ask if there is an audio guide for the bridge",
+      "text_local": "Y a-t-il un audioguide pour la visite ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dee-oh-GEED poor lah vee-ZEET",
+      "formality": "polite",
+      "cultural_note": "An audio guide is available and included with the entry ticket. It explains the bridge's history in several languages.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's included in the ticket. Ask for it at the counter.",
+          "phonetic": "wee, say ahn-KLOO dahn luh bee-YAY. duh-mahn-DAY luh oh gee-SHAY",
+          "french": "Oui, c'est inclus dans le billet. Demandez-le au guichet."
+        }
+      ]
+    },
+    {
+      "id": "avignon_pont_003",
+      "intent_en": "Ask if you can walk on the bridge",
+      "text_local": "Peut-on marcher sur le pont ?",
+      "pronunciation": "puh-TON mar-SHAY soor leh PON",
+      "formality": "polite",
+      "cultural_note": "Yes! You can walk on the 4 remaining arches. There's a small chapel (Saint-Nicolas) on the bridge.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, absolutely.",
+          "phonetic": "wee, too tah FEHT",
+          "french": "Oui, tout à fait."
+        }
+      ]
+    },
+    {
+      "id": "avignon_pont_004",
+      "intent_en": "Ask about the opening hours of the bridge",
+      "text_local": "À quelle heure ouvre le pont ?",
+      "pronunciation": "ah kel uhr OOV-ruh luh PON",
+      "formality": "polite",
+      "cultural_note": "The bridge site has regular opening hours that vary by season. It closes earlier in winter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The hours are posted at the entrance. It depends on the season.",
+          "phonetic": "layz oh-REHR son ah-fee-SHAY ah lahn-TRAY. sah day-PAHN duh lah say-ZON",
+          "french": "Les horaires sont affichés à l'entrée. Ça dépend de la saison."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "bridge",
+      "word_local": "le pont",
+      "pronunciation": "leh PON"
+    },
+    {
+      "word_en": "arch",
+      "word_local": "l'arche",
+      "pronunciation": "LAR-shuh"
+    },
+    {
+      "word_en": "chapel",
+      "word_local": "la chapelle",
+      "pronunciation": "lah shah-PEL"
+    },
+    {
+      "word_en": "song",
+      "word_local": "la chanson",
+      "pronunciation": "lah shahn-SON"
+    }
+  ]
+}

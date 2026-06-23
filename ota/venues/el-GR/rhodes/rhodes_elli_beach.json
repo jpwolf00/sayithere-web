@@ -1,0 +1,78 @@
+{
+  "id": "rhodes_elli_beach",
+  "name_en": "Elli Beach",
+  "name_local": "Παραλία Έλλη",
+  "icon": "leaf",
+  "lat": 36.4555474,
+  "lon": 28.2217265,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "rhodes_elli_beach_001",
+      "intent_en": "Where do I pay my beach bar tab?",
+      "text_local": "Πού πληρώνω τον λογαριασμό του beach bar;",
+      "pronunciation": "pOO-pleerOHnoh-tohn-lOHghahrEEahsmOH-too-ehnbEEtsh-bAHehl",
+      "formality": "standard",
+      "cultural_note": "Ο λογαριασμός του beach bar πληρώνεται απευθείας στον πάγκο του μπάρμαν, ο οποίος βρίσκεται στη ζώνη του beach bar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο του μπαρ.",
+        "pronunciation": "stohm-bAHnggoh-too-bAHr",
+        "translation_en": "At the bar counter."
+      },
+      "responses": [
+        {
+          "english": "At the bar counter.",
+          "phonetic": "stohm-bAHnggoh-too-bAHr",
+          "french": "Στον πάγκο του μπαρ."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_elli_beach_002",
+      "intent_en": "Where do I rent sunbeds?",
+      "text_local": "Πού νοικιάζω ομπρέλες;",
+      "pronunciation": "pOO-neeAHzoh-ohbrEHlehs",
+      "formality": "standard",
+      "cultural_note": "Οι ομπρελές τοποθετούνται σε σειρές κατά μήκος της παραλίας. Οι επισκέπτες μπορούν να αναζητήσουν τον ομπρελίτη ή τον πάγκο ενοικίασης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις σειρές των ομπρελών.",
+        "pronunciation": "stees-seerEHs-tohn-OHbrehlOHn",
+        "translation_en": "By the umbrella rows."
+      },
+      "responses": [
+        {
+          "english": "By the umbrella rows.",
+          "phonetic": "stees-seerEHs-tohn-OHbrehlOHn",
+          "french": "Στις σειρές των ομπρελών."
+        }
+      ]
+    },
+    {
+      "id": "rhodes_elli_beach_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτό το ταμείο των θαλάσσιων σπορ;",
+      "pronunciation": "EEneh-AHneekhtOH-toh-ghrahfEEoh-tohn-thahlAHssyohn-spOHr",
+      "formality": "standard",
+      "cultural_note": "Το γραφείο θαλάσσιων σπορ είναι ένας πάγκος στον οποίο οι επισκέπτες μπορούν να αγοράσουν εισιτήρια για δραστηριότητες. Η λειτουργία του εξαρτάται από την εποχή και την παρουσία προσωπικού.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο κέντρο θαλάσσιων σπορ.",
+        "pronunciation": "nEHstoh-EHdroh-thahlAHssyohn-spOHr",
+        "translation_en": "Yes, it is open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open now.",
+          "phonetic": "nEHstoh-EHdroh-thahlAHssyohn-spOHr",
+          "french": "Ναι, στο κέντρο θαλάσσιων σπορ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

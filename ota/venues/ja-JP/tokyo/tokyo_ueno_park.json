@@ -1,0 +1,144 @@
+{
+  "id": "tokyo_ueno_park",
+  "name_en": "Ueno Park",
+  "name_local": "上野公園",
+  "icon": "leaf",
+  "lat": 35.7152915,
+  "lon": 139.7738278,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "tokyo_ueno_park_001",
+      "intent_en": "Ask where the Bentendo Temple is",
+      "text_local": "べんてんどうは どこですか？",
+      "pronunciation": "bEHntehndohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Bentendo is a hexagonal temple hall dedicated to Benzaiten, situated on an island accessible by a bridge.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "しのばずのいけの なかの しまに あります。",
+        "pronunciation": "EEnohbZoonOHeekEHnoh-nkNoh-eemNee-EEmSoo",
+        "translation_en": "It's on the island in Shinobazu Pond."
+      },
+      "responses": [
+        {
+          "english": "It's on the island in Shinobazu Pond.",
+          "phonetic": "EEnohbZoonOHeekEHnoh-nkNoh-eemNee-EEmSoo",
+          "french": "しのばずのいけの なかの しまに あります。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ueno_park_002",
+      "intent_en": "Ask how long the boat rental lasts",
+      "text_local": "ボートは なんぷん のれますか？",
+      "pronunciation": "bohohtOHh-nPoo-nOHehmsOOk",
+      "formality": "standard",
+      "cultural_note": "Boat rentals at Shinobazu Pond are typically for a set duration, with rowboats and swan boats available.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "さんじゅっぷんかん です。",
+        "pronunciation": "sDooppOOngk-dEHsoo",
+        "translation_en": "It's 30 minutes."
+      },
+      "responses": [
+        {
+          "english": "It's 30 minutes.",
+          "phonetic": "sDooppOOngk-dEHsoo",
+          "french": "さんじゅっぷんかん です。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ueno_park_003",
+      "intent_en": "Ask if parking requires exact change",
+      "text_local": "ちゅうしゃじょうは こまかいおかねが いりますか？",
+      "pronunciation": "tOOooDohOOh-kOHmkEEOHknEHg-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Modern parking meters in Tokyo parks often accept larger bills and IC cards, but it's wise to carry coins.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、おおきいの でも だいじょうぶです。",
+        "pronunciation": "EEehohohkEEnoh-dEHmoh-dEEdOHooboodEHsoo",
+        "translation_en": "No, large notes are also fine."
+      },
+      "responses": [
+        {
+          "english": "No, large notes are also fine.",
+          "phonetic": "EEehohohkEEnoh-dEHmoh-dEEdOHooboodEHsoo",
+          "french": "いいえ、おおきいの でも だいじょうぶです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ueno_park_004",
+      "intent_en": "Ask if food stalls are open today",
+      "text_local": "きょう、やたいは あいてますか？",
+      "pronunciation": "kOHooyTEEh-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Food stalls (yatai) are a major feature of Ueno Park during the hanami season, usually from late March to early April.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、さくらまつりの あいだは あいてます。",
+        "pronunciation": "hEEsKooMtsooEEnoh-EEdH-EEtehmSoo",
+        "translation_en": "Yes, they are open during the cherry blossom festival."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are open during the cherry blossom festival.",
+          "phonetic": "hEEsKooMtsooEEnoh-EEdH-EEtehmSoo",
+          "french": "はい、さくらまつりの あいだは あいてます。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ueno_park_005",
+      "intent_en": "Ask where the zoo entrance is",
+      "text_local": "どうぶつえんの いりぐちは どこですか？",
+      "pronunciation": "dOHoobOOtsooEHnnoh-EEeegootEEh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Ueno Zoo's main entrance is distinct from the general park gates, located near the western side.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、ひだりです。",
+        "pronunciation": "mssOOgoo-EEttehkhEEdeedEHsoo",
+        "translation_en": "Go straight, then it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Go straight, then it's on the left.",
+          "phonetic": "mssOOgoo-EEttehkhEEdeedEHsoo",
+          "french": "まっすぐ いって、ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ueno_park_006",
+      "intent_en": "Ask if the zoo has coin lockers",
+      "text_local": "どうぶつえんに コインロッカーは ありますか？",
+      "pronunciation": "dOHoobOOtsooEHnnee-kOHeenohkkH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Coin lockers are commonly available at major stations and attractions like Ueno Zoo for storing bags.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、いりぐちの ちかくに あります。",
+        "pronunciation": "hEEEEeegootEEnoh-tEEkkOOnee-EEmSoo",
+        "translation_en": "Yes, they are near the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are near the entrance.",
+          "phonetic": "hEEEEeegootEEnoh-tEEkkOOnee-EEmSoo",
+          "french": "はい、いりぐちの ちかくに あります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

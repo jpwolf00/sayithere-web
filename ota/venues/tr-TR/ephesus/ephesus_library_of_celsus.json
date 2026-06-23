@@ -1,0 +1,144 @@
+{
+  "id": "ephesus_library_of_celsus",
+  "name_en": "Library of Celsus",
+  "name_local": "Celsus Kütüphanesi",
+  "icon": "building.columns",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "ephesus_library_of_celsus_001",
+      "intent_en": "Must I stay behind ropes?",
+      "text_local": "Bariyer iplerinin arkasında durmak zorunda mıyım?",
+      "pronunciation": "bahreeyEHr-ihplehreenIHn-ahrkahsoondAH-duhrmAHk-zohruhndAH-mOOyoom",
+      "formality": "standard",
+      "cultural_note": "The venue context explicitly states the rule to stay behind barrier ropes at the facade.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, cephede bariyer iplerinin arkasında durun.",
+        "pronunciation": "ehvEHtdzhehphehdEH-bahreeyEHr-ihplehreenIHn-ahrkahsoondAH-doorUHn",
+        "translation_en": "Yes, stay behind the barrier ropes at the facade."
+      },
+      "responses": [
+        {
+          "english": "Yes, stay behind the barrier ropes at the facade.",
+          "phonetic": "ehvEHtdzhehphehdEH-bahreeyEHr-ihplehreenIHn-ahrkahsoondAH-doorUHn",
+          "french": "Evet, cephede bariyer iplerinin arkasında durun."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_library_of_celsus_002",
+      "intent_en": "Where is the Celsus crypt?",
+      "text_local": "Celsus'un mezar odası nerede?",
+      "pronunciation": "dzhahlsoosUHn-mehzAHr-ohdahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location of the crypt within the ruins is not specified in the venue context, so a referral to staff is the safest answer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Cephenin arkasında, bariyerin arkasında.",
+        "pronunciation": "dzhehphehnIHn-ahrkahsoondAHbahreeyehrIHn-ahrkahsoondAH",
+        "translation_en": "Behind the facade, behind the barrier."
+      },
+      "responses": [
+        {
+          "english": "Behind the facade, behind the barrier.",
+          "phonetic": "dzhehphehnIHn-ahrkahsoondAHbahreeyehrIHn-ahrkahsoondAH",
+          "french": "Cephenin arkasında, bariyerin arkasında."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_library_of_celsus_003",
+      "intent_en": "Does this ticket cover museum too?",
+      "text_local": "Bu bilet müzeyi de kapsıyor mu?",
+      "pronunciation": "buh-beelEHt-muezehyIH-deh-kahpsOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "The venue context confirms the museum is a separate entry, so a direct 'no' is appropriate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, Selçuk Efes Müzesi ayrı giriş.",
+        "pronunciation": "hahyOOrsahltshUHk-ehfEHs-muezehsIH-ahyrOO-eerIHsh",
+        "translation_en": "No, Selçuk Efes Müzesi is a separate entry."
+      },
+      "responses": [
+        {
+          "english": "No, Selçuk Efes Müzesi is a separate entry.",
+          "phonetic": "hahyOOrsahltshUHk-ehfEHs-muezehsIH-ahyrOO-eerIHsh",
+          "french": "Hayır, Selçuk Efes Müzesi ayrı giriş."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_library_of_celsus_004",
+      "intent_en": "Can I book a guided tour here?",
+      "text_local": "Burada rehberli tur rezervasyonu yapabilir miyim?",
+      "pronunciation": "bOOrahdah-rehhbehrlIH-tUHr-rehzehrvahsyohnUH-yahpahbeelIHr-mEEyihm",
+      "formality": "polite",
+      "cultural_note": "The context confirms guided tour booking is available at the gate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, kapıda rehberli tur rezervasyonu yapabilirsiniz.",
+        "pronunciation": "ehvEHtkahpoodAH-rehhbehrlIH-tUHr-rehzehrvahsyohnUH-yahpahbeelIHrseenihz",
+        "translation_en": "Yes, you can book a guided tour at the gate."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can book a guided tour at the gate.",
+          "phonetic": "ehvEHtkahpoodAH-rehhbehrlIH-tUHr-rehzehrvahsyohnUH-yahpahbeelIHrseenihz",
+          "french": "Evet, kapıda rehberli tur rezervasyonu yapabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_library_of_celsus_005",
+      "intent_en": "Can I book a guided tour here?",
+      "text_local": "Burada rehberli tur ayarlayabilir miyim?",
+      "pronunciation": "bOOrahdah-rehhbehrlIH-tUHr-ahyahrahyahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "The venue context confirms guided tour booking is available at the gate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, kapıda rehberli tur rezervasyonu yapılır.",
+        "pronunciation": "ehvEHtkahpoodAH-rehhbehrlIH-tUHr-rehzehrvahsyohnUH-yahpooOOr",
+        "translation_en": "Yes, guided tour booking is done at the gate."
+      },
+      "responses": [
+        {
+          "english": "Yes, guided tour booking is done at the gate.",
+          "phonetic": "ehvEHtkahpoodAH-rehhbehrlIH-tUHr-rehzehrvahsyohnUH-yahpooOOr",
+          "french": "Evet, kapıda rehberli tur rezervasyonu yapılır."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_library_of_celsus_006",
+      "intent_en": "Where is the Arete statue?",
+      "text_local": "Arete heykeli nerede?",
+      "pronunciation": "AHrehteh-hehykehlIH-nEHrehdeh",
+      "formality": "casual",
+      "cultural_note": "The Arete statue is identified as one of the four facade statues, but its exact position is not specified, so a referral is safest.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmaya sorun, cephedeki dört heykelden biri.",
+        "pronunciation": "dahnOOshmahyah-sohrUHndzhehphehdehkIH-dUHrt-hehykahldAHn-beerIH",
+        "translation_en": "Ask at information, it's one of the four statues on the facade."
+      },
+      "responses": [
+        {
+          "english": "Ask at information, it's one of the four statues on the facade.",
+          "phonetic": "dahnOOshmahyah-sohrUHndzhehphehdehkIH-dUHrt-hehykahldAHn-beerIH",
+          "french": "Danışmaya sorun, cephedeki dört heykelden biri."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

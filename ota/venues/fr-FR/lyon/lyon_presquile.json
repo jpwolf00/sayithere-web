@@ -1,0 +1,115 @@
+{
+  "id": "lyon_presquile",
+  "name_en": "The Presqu'île",
+  "name_local": "La Presqu'île",
+  "icon": "arrow.triangle.branch",
+  "phrases": [
+    {
+      "id": "lyon_presquile_001",
+      "intent_en": "Ask for the best shopping street on the Presqu'île",
+      "text_local": "Quelle est la meilleure rue pour faire du shopping ici ?",
+      "pronunciation": "kel eh lah meh-YOOR roo poor fair doo SHOH-ping ee-SEE",
+      "formality": "polite",
+      "cultural_note": "Rue de la République and Rue Victor Hugo are the main pedestrianised shopping streets of the Presqu'île. Between them lies the city's best concentration of boutiques, department stores, and restaurants.",
+      "responses": [
+        {
+          "english": "Rue de la République.",
+          "phonetic": "lah ROO duh lah ray-poo-BLEEK",
+          "french": "La rue de la République."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_presquile_002",
+      "intent_en": "Ask a shop assistant to help find a size",
+      "text_local": "Excusez-moi, auriez-vous ce modèle en taille 38 ?",
+      "pronunciation": "ex-koo-zay-MWAH, oh-ryay-VOO suh moh-DEL ahn TIE trahn-TEET",
+      "formality": "polite",
+      "cultural_note": "French clothing sizes differ from UK and US sizes. French 38 is roughly UK 10 / US 6 for women. Always check the size chart or ask for assistance.",
+      "responses": [
+        {
+          "english": "I'll check in the stockroom.",
+          "phonetic": "zhuh veh vay-ree-FYAY ahn ray-ZEHRV",
+          "french": "Je vais vérifier en réserve."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_presquile_003",
+      "intent_en": "Ask for a restaurant recommendation between Bellecour and Terreaux",
+      "text_local": "Pourriez-vous me recommander un restaurant dans ce secteur ?",
+      "pronunciation": "poo-ryay-VOO muh ruh-koh-mahn-DAY uhn res-toh-RAHN dahn suh sek-TUR",
+      "formality": "polite",
+      "cultural_note": "The streets between Place Bellecour and Place des Terreaux form Lyon's densest dining district. Rue Mercière is known as the restaurant street but tends toward tourist traps — side streets offer better value.",
+      "responses": [
+        {
+          "english": "Try Rue Mercière.",
+          "phonetic": "eh-seh-YAY lah ROO mehr-SYEHR",
+          "french": "Essayez la rue Mercière."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_presquile_004",
+      "intent_en": "Ask where the nearest pharmacy is",
+      "text_local": "Où est la pharmacie la plus proche, s'il vous plaît ?",
+      "pronunciation": "oo eh lah far-mah-SEE lah ploo PROSH, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "Pharmacies in France are identified by a green cross, often illuminated. They offer medical advice and basic healthcare without a prescription, making them the first port of call for minor ailments.",
+      "responses": [
+        {
+          "english": "At the corner of the street, over there.",
+          "phonetic": "oh KWEHN duh lah ROO, lah-BAH",
+          "french": "Au coin de la rue, là-bas."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_presquile_005",
+      "intent_en": "Ask about the view from the Saône riverbank",
+      "text_local": "Peut-on se promener le long de la Saône depuis ici ?",
+      "pronunciation": "puh-TOHN suh proh-muh-NAY luh LOHN duh lah SOH-nuh duh-PWEE ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The western bank of the Presqu'île along the Saône is a pleasant promenade, especially at dusk when the Vieux Lyon facades reflect in the water.",
+      "responses": [
+        {
+          "english": "Yes, it's very pretty from here.",
+          "phonetic": "wee, seh treh zhoh-LEE dee-SEE",
+          "french": "Oui, c'est très joli d'ici."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "peninsula",
+      "word_local": "la presqu'île",
+      "pronunciation": "lah presk-EEL"
+    },
+    {
+      "word_en": "clothing size",
+      "word_local": "la taille",
+      "pronunciation": "lah TIE"
+    },
+    {
+      "word_en": "pharmacy",
+      "word_local": "la pharmacie",
+      "pronunciation": "lah far-mah-SEE"
+    },
+    {
+      "word_en": "promenade / walk",
+      "word_local": "la promenade",
+      "pronunciation": "lah proh-muh-NAD"
+    }
+  ]
+}

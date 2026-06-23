@@ -1,0 +1,56 @@
+{
+  "id": "volendam_volendam_marken_express",
+  "name_en": "Volendam Marken Express",
+  "name_local": "Volendam Marken Express",
+  "icon": "tram",
+  "lat": 52.4963759,
+  "lon": 5.0682736,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "volendam_volendam_marken_express_001",
+      "intent_en": "Is there a group discount available?",
+      "text_local": "Is er korting voor groepen?",
+      "pronunciation": "ihs-uhr-kAWrting-vawr-ghrOOpuhn",
+      "formality": "standard",
+      "cultural_note": "Group discounts are typically discussed at the ticket sales point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vraag het bij de balie.",
+        "pronunciation": "yAHvrAHkh-huht-behih-duh-bahlEE",
+        "translation_en": "Yes, ask at the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask at the ticket booth.",
+          "phonetic": "yAHvrAHkh-huht-behih-duh-bahlEE",
+          "french": "Ja, vraag het bij de balie."
+        }
+      ]
+    },
+    {
+      "id": "volendam_volendam_marken_express_002",
+      "intent_en": "Do I pay extra for my bike?",
+      "text_local": "Moet ik extra betalen voor mijn fiets?",
+      "pronunciation": "mOOt-ihk-EHkstrah-buhtAHluhn-vawr-mehihn-fEEts",
+      "formality": "standard",
+      "cultural_note": "Bike fees are commonly handled at the ticket sales point by staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vraag het bij de balie.",
+        "pronunciation": "yAHvrAHkh-huht-behih-duh-bahlEE",
+        "translation_en": "Yes, ask at the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask at the ticket booth.",
+          "phonetic": "yAHvrAHkh-huht-behih-duh-bahlEE",
+          "french": "Ja, vraag het bij de balie."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

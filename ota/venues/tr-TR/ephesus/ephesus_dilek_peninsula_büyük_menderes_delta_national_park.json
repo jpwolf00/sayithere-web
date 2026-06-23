@@ -1,0 +1,78 @@
+{
+  "id": "ephesus_dilek_peninsula_büyük_menderes_delta_national_park",
+  "name_en": "Dilek Peninsula-Büyük Menderes Delta National Park",
+  "name_local": "Dilek Yarımadası-Büyük Menderes Deltası Milli Parkı",
+  "icon": "leaf",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "ephesus_dilek_peninsula_büyük_menderes_delta_national_park_001",
+      "intent_en": "Where is Mount Mycale trail?",
+      "text_local": "Samsun Dağı patikası nerede?",
+      "pronunciation": "sAHmsuhn-dahOO-pahteekahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Mount Mycale (Samsun Dağı) trails are separate from delta boardwalks; confirm access points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişten sonra sola sap.",
+        "pronunciation": "eerihshtAHn-sawnrAH-sOHah-sAHp",
+        "translation_en": "Turn left after the entrance."
+      },
+      "responses": [
+        {
+          "english": "Turn left after the entrance.",
+          "phonetic": "eerihshtAHn-sawnrAH-sOHah-sAHp",
+          "french": "Girişten sonra sola sap."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_dilek_peninsula_büyük_menderes_delta_national_park_002",
+      "intent_en": "Is Samos ferry running today?",
+      "text_local": "Samos vapuru bugün çalışıyor mu?",
+      "pronunciation": "sahmAWs-vahpoorUH-boogUHn-tshahooshOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Ferry to Samos is a summer service; confirm schedule with crew or at the port.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bugün sefer var.",
+        "pronunciation": "ehvEHtboogUHn-sehfEHr-vAHr",
+        "translation_en": "Yes, there is a ferry today."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a ferry today.",
+          "phonetic": "ehvEHtboogUHn-sehfEHr-vAHr",
+          "french": "Evet, bugün sefer var."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_dilek_peninsula_büyük_menderes_delta_national_park_003",
+      "intent_en": "How do I pay dolmuş fare?",
+      "text_local": "Dolmuş ücretini nasıl öderim?",
+      "pronunciation": "dawmUHsh-uhdzhrehteenIH-nahsOO-uhdEHrihm",
+      "formality": "standard",
+      "cultural_note": "Dolmuş fare payment is typically in cash to the driver; staff at the otogar can confirm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Şoföre nakit verin.",
+        "pronunciation": "shohfuhrEH-nahkIHt-vehrIHn",
+        "translation_en": "Give cash to the driver."
+      },
+      "responses": [
+        {
+          "english": "Give cash to the driver.",
+          "phonetic": "shohfuhrEH-nahkIHt-vehrIHn",
+          "french": "Şoföre nakit verin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

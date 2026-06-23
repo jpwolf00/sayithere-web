@@ -1,0 +1,100 @@
+{
+  "id": "české_budějovice_historic_city_center_and_old_town",
+  "name_en": "Historic City Center and Old Town",
+  "name_local": "Historické centrum a Staré Město",
+  "icon": "map",
+  "lat": 48.9747,
+  "lon": 14.4747,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "české_budějovice_historic_city_center_and_old_town_001",
+      "intent_en": "Ask when fountain light show starts",
+      "text_local": "V kolik začíná světelná show u kašny?",
+      "pronunciation": "v-kOHleek-zAHtsheenah-svyEHtehlnah-shOHv-OO-kAHshnee",
+      "formality": "standard",
+      "cultural_note": "Evening shows are seasonal; a short conditional answer is natural.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ve 21 hodin, pokud je hezky.",
+        "pronunciation": "vEH-dvAHtsehtyEHdehn-hOHeenpOHkood-yeh-hEHskee",
+        "translation_en": "At 9 pm, weather permitting."
+      },
+      "responses": [
+        {
+          "english": "At 9 pm, weather permitting.",
+          "phonetic": "vEH-dvAHtsehtyEHdehn-hOHeenpOHkood-yeh-hEHskee",
+          "french": "Ve 21 hodin, pokud je hezky."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_historic_city_center_and_old_town_002",
+      "intent_en": "Ask how to pay at market stalls",
+      "text_local": "Jak se dá platit u tržních stánků?",
+      "pronunciation": "yAHk-seh-dAH-plAHeet-OO-tRzhnyeekh-stAHngkoo",
+      "formality": "standard",
+      "cultural_note": "Market stalls often prefer cash; card acceptance varies by vendor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hotově, některé berou i kartu.",
+        "pronunciation": "hOHtohvyehnyEHktehreh-bEHroh-ee-kAHrtoo",
+        "translation_en": "Cash, some also take cards."
+      },
+      "responses": [
+        {
+          "english": "Cash, some also take cards.",
+          "phonetic": "hOHtohvyehnyEHktehreh-bEHroh-ee-kAHrtoo",
+          "french": "Hotově, některé berou i kartu."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_historic_city_center_and_old_town_003",
+      "intent_en": "Ask if cathedral tower is open now",
+      "text_local": "Je věž katedrály teď otevřená?",
+      "pronunciation": "yeh-vyEHsh-kAHtehdrAHlee-tEH-OHtehvrEHnah",
+      "formality": "standard",
+      "cultural_note": "Tower access often closes earlier than the cathedral itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, poslední vstup za dvacet minut.",
+        "pronunciation": "AHnohpOHslehdnyee-fstOOb-zAHdvahtseht-mEEnoot",
+        "translation_en": "Yes, last entry in twenty minutes."
+      },
+      "responses": [
+        {
+          "english": "Yes, last entry in twenty minutes.",
+          "phonetic": "AHnohpOHslehdnyee-fstOOb-zAHdvahtseht-mEEnoot",
+          "french": "Ano, poslední vstup za dvacet minut."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_historic_city_center_and_old_town_004",
+      "intent_en": "Ask where Černá věž ticket office is",
+      "text_local": "Kde je pokladna na Černou věž?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-nAHtshehrnoh-vyEHsh",
+      "formality": "standard",
+      "cultural_note": "The tower entrance is separate from the cathedral, not inside it.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vchod je z ulice, vedle katedrály.",
+        "pronunciation": "fkhOHd-yeh-s-OOleetsehvEHdleh-kAHtehdrAHlee",
+        "translation_en": "The entrance is from the street, next to the cathedral."
+      },
+      "responses": [
+        {
+          "english": "The entrance is from the street, next to the cathedral.",
+          "phonetic": "fkhOHd-yeh-s-OOleetsehvEHdleh-kAHtehdrAHlee",
+          "french": "Vchod je z ulice, vedle katedrály."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

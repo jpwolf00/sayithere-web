@@ -1,0 +1,100 @@
+{
+  "id": "fethiye_fethiye_fish_market",
+  "name_en": "Fethiye Fish Market",
+  "name_local": "Fethiye Balik Pazari",
+  "icon": "fork.knife",
+  "lat": 36.6221154,
+  "lon": 29.1153384,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "fethiye_fethiye_fish_market_001",
+      "intent_en": "Ask if meze tepsisi comes with bread",
+      "text_local": "Meze tepsisi ekmekle birlikte mi geliyor?",
+      "pronunciation": "mehzEH-tehpseesIH-ehkmEHkleh-bihrlihktEH-mih-ehlEEyawr",
+      "formality": "casual",
+      "cultural_note": "Bread is a staple of Turkish meze culture, but its inclusion with a specific tray can vary by restaurant.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, dahil.",
+        "pronunciation": "ehvEHtdahhIHl",
+        "translation_en": "Yes, it is included."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is included.",
+          "phonetic": "ehvEHtdahhIHl",
+          "french": "Evet, dahil."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_fish_market_002",
+      "intent_en": "Ask rakı by glass or only bottle",
+      "text_local": "Rakıyı kadehle mi satıyorsunuz yoksa sadece şişe mi?",
+      "pronunciation": "rahkOO-kahdEHhleh-mih-sahtooOOr-yAWksah-sahdEHdzheh-sheeshEH-mih",
+      "formality": "standard",
+      "cultural_note": "While rakı is often ordered by the bottle at a traditional rakı-balık meal, many meyhanes also offer it by the glass.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kadehle de var, şişe de.",
+        "pronunciation": "kahdEHhleh-deh-vAHrsheeshEH-deh",
+        "translation_en": "It's available by the glass and by the bottle."
+      },
+      "responses": [
+        {
+          "english": "It's available by the glass and by the bottle.",
+          "phonetic": "kahdEHhleh-deh-vAHrsheeshEH-deh",
+          "french": "Kadehle de var, şişe de."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_fish_market_003",
+      "intent_en": "Ask cooking fee per kilo at meyhane",
+      "text_local": "Fırında kilo başına pişirme ücreti ne kadar?",
+      "pronunciation": "mehyhahnehdEH-peeshIHrmeh-uhdzhrehtIH-keeAW-bahshoonAH-nEH-kahdAHr",
+      "formality": "standard",
+      "cultural_note": "Cooking fees are set by each restaurant individually and are not standardized across the market.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kilo başına 60 lira.",
+        "pronunciation": "keeAW-bahshoonAH-ahtmOOsh-leerAH",
+        "translation_en": "60 lira per kilo."
+      },
+      "responses": [
+        {
+          "english": "60 lira per kilo.",
+          "phonetic": "keeAW-bahshoonAH-ahtmOOsh-leerAH",
+          "french": "Kilo başına 60 lira."
+        }
+      ]
+    },
+    {
+      "id": "fethiye_fethiye_fish_market_004",
+      "intent_en": "Ask which stall has freshest çipura today",
+      "text_local": "Bugün en taze çipura hangi tezgahta?",
+      "pronunciation": "boogUHn-AHn-tahzEH-tsheepoorAH-hahngIH-tehzgahhtAH",
+      "formality": "standard",
+      "cultural_note": "Freshness at the market is dynamic; no single stall is permanently designated as having the freshest fish.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sondaki tezgahta.",
+        "pronunciation": "sawndahkIH-tehzgahhtAH",
+        "translation_en": "At the stall at the far end."
+      },
+      "responses": [
+        {
+          "english": "At the stall at the far end.",
+          "phonetic": "sawndahkIH-tehzgahhtAH",
+          "french": "Sondaki tezgahta."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "nara_nara_station",
+  "name_en": "Nara Station",
+  "name_local": "奈良駅",
+  "icon": "tram",
+  "lat": 34.68444444,
+  "lon": 135.798,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "nara_nara_station_001",
+      "intent_en": "How do I get a bus day pass?",
+      "text_local": "バスの いちにちじょうしゃけんは どこで かえますか。",
+      "pronunciation": "bsOOnoh-EEteenEEteedOHooKehH-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Nara Bus 1-Day Passes are often sold at ticket machines near the bus terminals outside the stations rather than inside the station building.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "バスのりばの そばの じどうはんばいきで どうぞ。",
+        "pronunciation": "bSoonOHeebNoh-sohbNoh-dEEdohOOhBeekEEdeh-dohOOzoh",
+        "translation_en": "At the vending machine near the bus stop."
+      },
+      "responses": [
+        {
+          "english": "At the vending machine near the bus stop.",
+          "phonetic": "bSoonOHeebNoh-sohbNoh-dEEdohOOhBeekEEdeh-dohOOzoh",
+          "french": "バスのりばの そばの じどうはんばいきで どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_station_002",
+      "intent_en": "Where is the Kintetsu connection?",
+      "text_local": "きんてつののりかえは どこですか。",
+      "pronunciation": "kEEntehtsOOnohnOHeekEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "JR Nara Station and Kintetsu Nara Station are separate buildings about a 5-minute walk apart. The east exit of JR station leads towards Kintetsu.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ひがしぐちを でて、まっすぐです。",
+        "pronunciation": "khEEgEEgootEEoh-dEHtehmSsoogoodEHsoo",
+        "translation_en": "Go out the east exit, straight ahead."
+      },
+      "responses": [
+        {
+          "english": "Go out the east exit, straight ahead.",
+          "phonetic": "khEEgEEgootEEoh-dEHtehmSsoogoodEHsoo",
+          "french": "ひがしぐちを でて、まっすぐです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_station_003",
+      "intent_en": "Where are large coin lockers?",
+      "text_local": "おおきいコインロッカーは どこですか。",
+      "pronunciation": "OHohkeekOHeenohkkH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Large coin lockers for suitcases are often located in specific areas of the station, sometimes tucked away near stairwells or restrooms.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かいだんの うらに ありますよ。",
+        "pronunciation": "kEEdNnoh-ooNee-EEmsOOyoh",
+        "translation_en": "They're behind the stairs."
+      },
+      "responses": [
+        {
+          "english": "They're behind the stairs.",
+          "phonetic": "kEEdNnoh-ooNee-EEmsOOyoh",
+          "french": "かいだんの うらに ありますよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

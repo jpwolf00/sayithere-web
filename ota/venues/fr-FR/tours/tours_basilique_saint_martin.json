@@ -1,0 +1,115 @@
+{
+  "id": "tours_basilique_saint_martin",
+  "name_en": "Basilica of Saint-Martin of Tours",
+  "name_local": "Basilique Saint-Martin de Tours",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "tours_martin_001",
+      "intent_en": "Ask where the tomb of Saint Martin is",
+      "text_local": "Où se trouve le tombeau de saint Martin ?",
+      "pronunciation": "oo suh TROOV luh tom-BOH duh san mar-TAN",
+      "formality": "polite",
+      "cultural_note": "Saint Martin was a 4th-century Roman soldier who became bishop of Tours and is a patron saint of France. His tomb in the crypt is a major pilgrimage destination.",
+      "responses": [
+        {
+          "english": "In the crypt, downstairs.",
+          "phonetic": "dahn lah KREEPT ahn BAH",
+          "french": "Dans la crypte, en bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_martin_002",
+      "intent_en": "Ask where the tomb of Saint Martin is",
+      "text_local": "Où se trouve le tombeau de Saint Martin ?",
+      "pronunciation": "oo suh TROOV luh tohm-BOH duh SAHN mar-TAHN",
+      "formality": "polite",
+      "cultural_note": "The tomb of Saint Martin is located in the crypt of the basilica.",
+      "responses": [
+        {
+          "english": "In the crypt, downstairs.",
+          "phonetic": "dahn lah KREEPT ahn BAH",
+          "french": "Dans la crypte, en bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_martin_003",
+      "intent_en": "Ask if the basilica is on the Camino de Santiago route",
+      "text_local": "Cette basilique est-elle sur le chemin de Saint-Jacques-de-Compostelle ?",
+      "pronunciation": "set bah-ZEEK ay-TEL soor luh shuh-MAN duh san-ZHAK duh kom-poh-STEL",
+      "formality": "polite",
+      "cultural_note": "Tours is the starting point of the Via Turonensis, one of the four main French routes of the Camino de Santiago. Pilgrims traditionally begin their journey at Saint Martin's tomb.",
+      "responses": [
+        {
+          "english": "Yes, it is a stop on the route.",
+          "phonetic": "wee say toon ay-TAP doo shuh-MAHN",
+          "french": "Oui, c'est une étape du chemin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_martin_004",
+      "intent_en": "Ask where the two surviving medieval towers are",
+      "text_local": "Où se trouvent les deux tours médiévales qui ont survécu ?",
+      "pronunciation": "oo suh TROOV lay DUH TOOR may-dee-ay-VAL kee on soor-vay-KOO",
+      "formality": "polite",
+      "cultural_note": "The Tour Charlemagne and the Tour de l'Horloge are the only surviving remnants of the original medieval basilica, visible in the surrounding streets.",
+      "responses": [
+        {
+          "english": "The Charlemagne Tower is right next to it.",
+          "phonetic": "lah TOOR shar-luh-MAH-nyuh eh ZHOOST ah koh-TAY",
+          "french": "La Tour Charlemagne est juste à côté."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_martin_005",
+      "intent_en": "Ask about opening times for the crypt",
+      "text_local": "Quels sont les horaires d'ouverture de la crypte ?",
+      "pronunciation": "kel son lay oh-RAIR doo-vair-TOOR duh lah KRIPT",
+      "formality": "polite",
+      "cultural_note": "The crypt containing Saint Martin's sarcophagus is the most visited part of the basilica and has its own entrance and visiting hours.",
+      "responses": [
+        {
+          "english": "The hours are posted at the entrance.",
+          "phonetic": "lay zoh-RAIR sohn tah-fee-SHAY ah lahn-TRAY",
+          "french": "Les horaires sont affichés à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "basilica",
+      "word_local": "la basilique",
+      "pronunciation": "lah bah-ZEEK"
+    },
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah KRIPT"
+    },
+    {
+      "word_en": "pilgrimage",
+      "word_local": "le pèlerinage",
+      "pronunciation": "luh pel-ree-NAZH"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    }
+  ]
+}

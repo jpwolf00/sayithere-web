@@ -1,0 +1,166 @@
+{
+  "id": "ankara_kocatepe_mosque",
+  "name_en": "Kocatepe Mosque",
+  "name_local": "Kocatepe Camii",
+  "icon": "building.columns",
+  "lat": 39.9167525,
+  "lon": 32.8606838,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "ankara_kocatepe_mosque_001",
+      "intent_en": "Where is the donation box?",
+      "text_local": "Bağış kutusu nerede?",
+      "pronunciation": "bahOOsh-kootoosUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "In Turkish mosques, donation boxes are often placed near exits or inside the prayer hall. As the exact location is unverified, directing to mosque staff (görevli) is culturally appropriate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin sağında.",
+        "pronunciation": "eereeshIHn-sahoondAH",
+        "translation_en": "On the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the right of the entrance.",
+          "phonetic": "eereeshIHn-sahoondAH",
+          "french": "Girişin sağında."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kocatepe_mosque_002",
+      "intent_en": "Can I enter the main prayer hall?",
+      "text_local": "Ana ibadethaneye girebilir miyim?",
+      "pronunciation": "ahnAH-eebahdEHt-sahohnoonAH-eerehbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Access to the main prayer hall can depend on prayer times and visitor dress code. As specific access rules are unverified, directing to a görevli is the most respectful and accurate approach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, namaz vakti dışında herkes girebilir.",
+        "pronunciation": "ehvEHtnahmAHz-vahktIH-dooshoondAH-hehrkEHs-eerehbeelIHr",
+        "translation_en": "Yes, everyone can enter except during prayer times."
+      },
+      "responses": [
+        {
+          "english": "Yes, everyone can enter except during prayer times.",
+          "phonetic": "ehvEHtnahmAHz-vahktIH-dooshoondAH-hehrkEHs-eerehbeelIHr",
+          "french": "Evet, namaz vakti dışında herkes girebilir."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kocatepe_mosque_003",
+      "intent_en": "Where is the gift shop?",
+      "text_local": "Hediyelik eşya dükkanı nerede?",
+      "pronunciation": "hehdeeyehlIHk-ehshyAH-duekahnOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The existence and location of a gift shop within Kocatepe Mosque is unverified. The visitor should ask a görevli for assistance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin sağında.",
+        "pronunciation": "eereeshIHn-sahoondAH",
+        "translation_en": "On the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the right of the entrance.",
+          "phonetic": "eereeshIHn-sahoondAH",
+          "french": "Girişin sağında."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kocatepe_mosque_004",
+      "intent_en": "Is the underground shop open now?",
+      "text_local": "Yeraltı dükkanı şu an açık mı?",
+      "pronunciation": "yEHr-ahtOO-duekahnOO-shuh-AHn-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "The operating status of the underground shop is unverified. It is safer to direct the visitor to ask a görevli for current information rather than giving a potentially incorrect answer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Açık, buyurun.",
+        "pronunciation": "ahtshOOkbooyoorUHn",
+        "translation_en": "Yes, it's open. Please come in."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open. Please come in.",
+          "phonetic": "ahtshOOkbooyoorUHn",
+          "french": "Açık, buyurun."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kocatepe_mosque_005",
+      "intent_en": "Is the underground shop open now?",
+      "text_local": "Yeraltındaki dükkan şimdi açık mı?",
+      "pronunciation": "yEHr-ahtoondahkIH-duekAHn-shihmdIH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Operating hours for shops within the complex can vary. A görevli can confirm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, açık şu an.",
+        "pronunciation": "ehvEHtahtshOOk-shuh-AHn",
+        "translation_en": "Yes, it is open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open now.",
+          "phonetic": "ehvEHtahtshOOk-shuh-AHn",
+          "french": "Evet, açık şu an."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kocatepe_mosque_006",
+      "intent_en": "Can I enter the main prayer hall?",
+      "text_local": "Ana ibadet salonuna girebilir miyim?",
+      "pronunciation": "ahnAH-eebahdEHt-ahahnoonAH-eerehbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Access to the main prayer hall for non-worshippers depends on prayer times. A görevli will inform you.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, namaz vakti değilse.",
+        "pronunciation": "ehvEHtnahmAHz-vahktIH-dEHyihlseh",
+        "translation_en": "Yes, if it's not prayer time."
+      },
+      "responses": [
+        {
+          "english": "Yes, if it's not prayer time.",
+          "phonetic": "ehvEHtnahmAHz-vahktIH-dEHyihlseh",
+          "french": "Evet, namaz vakti değilse."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kocatepe_mosque_007",
+      "intent_en": "Where do I park my car?",
+      "text_local": "Arabamı nereye park edebilirim?",
+      "pronunciation": "ahrahbahmOO-nEHrehyeh-pAHrk-ehdehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Parking details at the complex are unverified. The safest and most helpful response is to refer the driver to an official görevli or bekçi for guidance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Cami yanındaki otoparka girin.",
+        "pronunciation": "dzhahmIH-yahnoondahkIH-ohtohpahrkAH-eerIHn",
+        "translation_en": "Enter the parking lot next to the mosque."
+      },
+      "responses": [
+        {
+          "english": "Enter the parking lot next to the mosque.",
+          "phonetic": "dzhahmIH-yahnoondahkIH-ohtohpahrkAH-eerIHn",
+          "french": "Cami yanındaki otoparka girin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

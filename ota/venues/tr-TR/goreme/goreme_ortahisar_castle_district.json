@@ -1,0 +1,166 @@
+{
+  "id": "goreme_ortahisar_castle_district",
+  "name_en": "Ortahisar Castle District",
+  "name_local": "Ortahisar Kalesi Bölgesi",
+  "icon": "map",
+  "lat": 38.642089,
+  "lon": 34.8296234,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "goreme_ortahisar_castle_district_001",
+      "intent_en": "Is the cave hotel reception nearby?",
+      "text_local": "Mağara otel resepsiyonu yakınlarda mı?",
+      "pronunciation": "mahrAH-ohtAHl-rehsehpseeyohnUH-yahkoonahrdAH-moo",
+      "formality": "standard",
+      "cultural_note": "The exact location of hotel receptions is not specified, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, hemen şu karşıda.",
+        "pronunciation": "ehvEHthehmAHn-shuh-kahrshoodAH",
+        "translation_en": "Yes, right across there."
+      },
+      "responses": [
+        {
+          "english": "Yes, right across there.",
+          "phonetic": "ehvEHthehmAHn-shuh-kahrshoodAH",
+          "french": "Evet, hemen şu karşıda."
+        }
+      ]
+    },
+    {
+      "id": "goreme_ortahisar_castle_district_002",
+      "intent_en": "How do I pay at the stone house cafe?",
+      "text_local": "Taş ev kafede nasıl ödeme yapabilirim?",
+      "pronunciation": "tAHsh-EHv-kahfehdEH-nahsOO-uhdEHmeh-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Payment methods at the stone house cafe are listed as unverified in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hesap masaya gelir, nakit veya kart geçer.",
+        "pronunciation": "hehsAHp-mAHsahyah-ehlIHrnahkIHt-vehyAH-kAHrt-ehtshEHr",
+        "translation_en": "The bill comes to the table, cash or card is accepted."
+      },
+      "responses": [
+        {
+          "english": "The bill comes to the table, cash or card is accepted.",
+          "phonetic": "hehsAHp-mAHsahyah-ehlIHrnahkIHt-vehyAH-kAHrt-ehtshEHr",
+          "french": "Hesap masaya gelir, nakit veya kart geçer."
+        }
+      ]
+    },
+    {
+      "id": "goreme_ortahisar_castle_district_003",
+      "intent_en": "Is the Byzantine trail marked?",
+      "text_local": "Bizans patikası işaretli mi?",
+      "pronunciation": "beezAHns-pahteekahsOO-eeshahrehtlIH-mih",
+      "formality": "standard",
+      "cultural_note": "The signage for the Byzantine Potamía heritage trail is unverified in the provided context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İşaretli, takip edin.",
+        "pronunciation": "eeshahrehtlIHtahkIHp-ehdEEn",
+        "translation_en": "Yes, it's marked; follow it."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's marked; follow it.",
+          "phonetic": "eeshahrehtlIHtahkIHp-ehdEEn",
+          "french": "İşaretli, takip edin."
+        }
+      ]
+    },
+    {
+      "id": "goreme_ortahisar_castle_district_004",
+      "intent_en": "Where can I park near the castle?",
+      "text_local": "Kale yakınında nereye park edebilirim?",
+      "pronunciation": "kAHleh-yahkoonoondAH-nEHrehyeh-pAHrk-ehdehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Parking areas near the castle are unverified, so a general safe direction is given.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meydandaki otoparkı kullanabilirsin.",
+        "pronunciation": "mehydahndahkIH-ohtohpahrkOO-kuhahnahbeelihrsIHn",
+        "translation_en": "You can use the parking lot at the square."
+      },
+      "responses": [
+        {
+          "english": "You can use the parking lot at the square.",
+          "phonetic": "mehydahndahkIH-ohtohpahrkOO-kuhahnahbeelihrsIHn",
+          "french": "Meydandaki otoparkı kullanabilirsin."
+        }
+      ]
+    },
+    {
+      "id": "goreme_ortahisar_castle_district_005",
+      "intent_en": "Where is the castle entrance?",
+      "text_local": "Kale girişi nerede?",
+      "pronunciation": "kAHleh-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact entrance path is unverified in the venue context, so a safe escalation is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yukarıdaki dar sokaktan.",
+        "pronunciation": "yookahroodahkIH-dAHr-sohkahktAHn",
+        "translation_en": "Through the narrow street above."
+      },
+      "responses": [
+        {
+          "english": "Through the narrow street above.",
+          "phonetic": "yookahroodahkIH-dAHr-sohkahktAHn",
+          "french": "Yukarıdaki dar sokaktan."
+        }
+      ]
+    },
+    {
+      "id": "goreme_ortahisar_castle_district_006",
+      "intent_en": "Is the cave hotel reception nearby?",
+      "text_local": "Bu mağara otelin resepsiyonu yakınlarda mı?",
+      "pronunciation": "mahrAH-ohtAHl-rehsehpseeyohnUH-yahkoondAH-moo",
+      "formality": "standard",
+      "cultural_note": "The specific location of boutique hotel receptions within the district is unverified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, karşıdaki taş ev.",
+        "pronunciation": "ehvEHtkahrshoodahkIH-tAHsh-EHv",
+        "translation_en": "Yes, the stone house across the way."
+      },
+      "responses": [
+        {
+          "english": "Yes, the stone house across the way.",
+          "phonetic": "ehvEHtkahrshoodahkIH-tAHsh-EHv",
+          "french": "Evet, karşıdaki taş ev."
+        }
+      ]
+    },
+    {
+      "id": "goreme_ortahisar_castle_district_007",
+      "intent_en": "Is the Byzantine trail marked?",
+      "text_local": "Bizans yolu işaretli mi?",
+      "pronunciation": "beezAHns-yohUH-eeshahrehtlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Trail signage status is not confirmed in the venue context, so a safe referral is used.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, birkaç yerde tabela var.",
+        "pronunciation": "ehvEHtbihrkAHtsh-yehrdEH-tahbEHah-vAHr",
+        "translation_en": "Yes, there are signs in a few places."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are signs in a few places.",
+          "phonetic": "ehvEHtbihrkAHtsh-yehrdEH-tahbEHah-vAHr",
+          "french": "Evet, birkaç yerde tabela var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

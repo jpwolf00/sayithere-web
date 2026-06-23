@@ -1,0 +1,100 @@
+{
+  "id": "basel_chez_donati",
+  "name_en": "Chez Donati",
+  "name_local": "Chez Donati",
+  "icon": "fork.knife",
+  "lat": 47.5642081,
+  "lon": 7.5841104,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "basel_chez_donati_001",
+      "intent_en": "How do I reserve a table for tonight?",
+      "text_local": "Wie reserviere ich für heute Abend?",
+      "pronunciation": "vee-rEHzehrvEEruh-ihkh-fuer-hAWuhtuh-AHbuhnt",
+      "formality": "standard",
+      "cultural_note": "Reservations in Basel restaurants are often recommended for dinner, especially weekends.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rufen Sie vor 18 Uhr an.",
+        "pronunciation": "rOOfuhn-zee-fAWr-AHkhtsehn-OOr-AHn",
+        "translation_en": "Call before 6 PM."
+      },
+      "responses": [
+        {
+          "english": "Call before 6 PM.",
+          "phonetic": "rOOfuhn-zee-fAWr-AHkhtsehn-OOr-AHn",
+          "french": "Rufen Sie vor 18 Uhr an."
+        }
+      ]
+    },
+    {
+      "id": "basel_chez_donati_002",
+      "intent_en": "Where is the nearest tram stop after dinner?",
+      "text_local": "Wo ist die nächste Tramhaltestelle nach dem Essen?",
+      "pronunciation": "vOH-ihst-dee-nEHkhstuh-trAHmhahltEHshtehluh-nahkh-dehm-EHsuhn",
+      "formality": "standard",
+      "cultural_note": "Tram stops are typically marked clearly in Basel's old town. Common stops include Marktplatz or Barfüsserplatz.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie zur Markthalle.",
+        "pronunciation": "EHuhn-zee-tsoor-mAHrktahluh",
+        "translation_en": "Go to Markthalle tram stop."
+      },
+      "responses": [
+        {
+          "english": "Go to Markthalle tram stop.",
+          "phonetic": "EHuhn-zee-tsoor-mAHrktahluh",
+          "french": "Gehen Sie zur Markthalle."
+        }
+      ]
+    },
+    {
+      "id": "basel_chez_donati_003",
+      "intent_en": "Do I wait to be seated or seat myself?",
+      "text_local": "Warten wir uns zugewiesen oder setzen uns selbst?",
+      "pronunciation": "vAHrtuhn-veer-uhns-tsOOehvEEzuhn-OHd-zEHtsuhn-uhns-zEHlpst",
+      "formality": "standard",
+      "cultural_note": "In traditional Swiss restaurants, hosts typically seat guests. Standing at the entrance is common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Warten Sie bitte, wir führen Sie hin.",
+        "pronunciation": "vAHrtuhn-zee-bIHtuhveer-fUEruhn-zee-hIHn",
+        "translation_en": "Please wait, we will seat you."
+      },
+      "responses": [
+        {
+          "english": "Please wait, we will seat you.",
+          "phonetic": "vAHrtuhn-zee-bIHtuhveer-fUEruhn-zee-hIHn",
+          "french": "Warten Sie bitte, wir führen Sie hin."
+        }
+      ]
+    },
+    {
+      "id": "basel_chez_donati_004",
+      "intent_en": "Is card payment accepted here?",
+      "text_local": "Kann man hier mit Karte zahlen?",
+      "pronunciation": "kAHn-mahn-hEEr-miht-kAHrtuh-tsAHluhn",
+      "formality": "casual",
+      "cultural_note": "Card payment is widely accepted in Basel, but always ask to confirm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Karten werden akzeptiert.",
+        "pronunciation": "yAHkAHrtuhn-vEHrduhn-AHktsehptEErt",
+        "translation_en": "Yes, cards are accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, cards are accepted.",
+          "phonetic": "yAHkAHrtuhn-vEHrduhn-AHktsehptEErt",
+          "french": "Ja, Karten werden akzeptiert."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

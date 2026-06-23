@@ -1,0 +1,78 @@
+{
+  "id": "istanbul_beyoğlu_nightlife_district",
+  "name_en": "Beyoğlu nightlife district",
+  "name_local": "Beyoğlu",
+  "icon": "map",
+  "lat": 41.0284233,
+  "lon": 28.9736808,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "istanbul_beyoğlu_nightlife_district_001",
+      "intent_en": "Is live music free at this venue?",
+      "text_local": "Bu mekanda canlı müzik ücretsiz mi?",
+      "pronunciation": "buh-mehkahndAH-dzhahnOO-muezIHk-uhdzhrEHtsihz-mih",
+      "formality": "standard",
+      "cultural_note": "Cover charges for live music vary. The venue context mentions tickets but not a universal rule.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Genelde öyle, bilet gerekmez.",
+        "pronunciation": "ehnahldEH-UHylehbeelEHt-ehrehkmEHz",
+        "translation_en": "Generally not, no ticket needed."
+      },
+      "responses": [
+        {
+          "english": "Generally not, no ticket needed.",
+          "phonetic": "ehnahldEH-UHylehbeelEHt-ehrehkmEHz",
+          "french": "Genelde öyle, bilet gerekmez."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_beyoğlu_nightlife_district_002",
+      "intent_en": "Where is the nostalgic tram stop?",
+      "text_local": "Nostaljik tramvay durağı nerede?",
+      "pronunciation": "nawstahzhIHk-trahmvAHy-doorahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The nostalgic tram runs along İstiklal Avenue. Stops are marked but may be just a sign on the street.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İstiklal'in sonunda, Tünel'de.",
+        "pronunciation": "ihstihkahIHn-sohnuhndAHtuenahldEH",
+        "translation_en": "At the end of İstiklal, in Tünel."
+      },
+      "responses": [
+        {
+          "english": "At the end of İstiklal, in Tünel.",
+          "phonetic": "ihstihkahIHn-sohnuhndAHtuenahldEH",
+          "french": "İstiklal'in sonunda, Tünel'de."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_beyoğlu_nightlife_district_003",
+      "intent_en": "How do I buy tram tokens?",
+      "text_local": "İstiklal'deki bilet otomatından mı?",
+      "pronunciation": "trahmvAHy-zhehtohnoonUH-nahsOO-ahOOroom",
+      "formality": "standard",
+      "cultural_note": "Token purchase details are not specified in the venue context. Process may vary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, oradan.",
+        "pronunciation": "ehvEHtOHrahdahn",
+        "translation_en": "Yes, from there."
+      },
+      "responses": [
+        {
+          "english": "Yes, from there.",
+          "phonetic": "ehvEHtOHrahdahn",
+          "french": "Evet, oradan."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

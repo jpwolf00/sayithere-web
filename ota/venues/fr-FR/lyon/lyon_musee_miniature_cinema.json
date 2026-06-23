@@ -1,0 +1,115 @@
+{
+  "id": "lyon_musee_miniature_cinema",
+  "name_en": "Museum of Miniature and Cinema",
+  "name_local": "Musée Miniature et Cinéma",
+  "icon": "camera",
+  "phrases": [
+    {
+      "id": "lyon_miniature_001",
+      "intent_en": "Buy a family ticket for the museum",
+      "text_local": "Y a-t-il un tarif famille, s'il vous plaît ?",
+      "pronunciation": "ee ah-TEEL uhn tah-REEF fah-MEE, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The museum offers family tickets covering two adults and children. It is particularly popular with families and cinema enthusiasts for its extraordinary miniature worlds and film props.",
+      "responses": [
+        {
+          "english": "Thirty-two euros for four.",
+          "phonetic": "trahnt-DUH uh-ROH poor KAH-truh",
+          "french": "Trente-deux euros pour quatre."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_miniature_002",
+      "intent_en": "Ask if photos are allowed inside",
+      "text_local": "Peut-on prendre des photos à l'intérieur ?",
+      "pronunciation": "puh-TOHN PRAHN-druh day foh-TOH ah lehn-tay-RYUHR",
+      "formality": "polite",
+      "cultural_note": "Photography is generally allowed in the Musée Miniature et Cinéma, without flash.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_miniature_003",
+      "intent_en": "Ask how long the museum visit takes",
+      "text_local": "La visite dure combien de temps ?",
+      "pronunciation": "lah vee-ZEET DOOR kohm-BYEHN duh TAHN",
+      "formality": "polite",
+      "cultural_note": "The museum typically takes one to two hours to visit depending on interest level.",
+      "responses": [
+        {
+          "english": "About an hour and a half.",
+          "phonetic": "ahn-vee-ROHN oon UHR ay duh-MEE",
+          "french": "Environ une heure et demie."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_miniature_004",
+      "intent_en": "Ask whether photography is allowed inside",
+      "text_local": "Est-ce que les photos sont autorisées à l'intérieur ?",
+      "pronunciation": "es-kuh lay FOH-toh sohn oh-toh-ree-ZAY ah lan-tay-RYUR",
+      "formality": "polite",
+      "cultural_note": "Photography without flash is generally allowed throughout the museum. The miniature displays are extraordinarily photogenic — allow plenty of time to capture the detail.",
+      "responses": [
+        {
+          "english": "Yes, without flash.",
+          "phonetic": "wee, sahn FLASH",
+          "french": "Oui, sans flash."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_miniature_005",
+      "intent_en": "Ask for directions to the museum from Vieux Lyon",
+      "text_local": "Comment se rendre au musée depuis Vieux Lyon ?",
+      "pronunciation": "koh-MAHN suh RAHN-druh oh moo-ZAY duh-PWEE vyuh lyohn",
+      "formality": "polite",
+      "cultural_note": "The museum is located on Rue Saint-Jean in the heart of Vieux Lyon, making it a natural stop on any walking tour of the Renaissance district.",
+      "responses": [
+        {
+          "english": "Rue Saint-Jean, in Old Lyon.",
+          "phonetic": "ROO sant-ZHAHN, dahn luh vyuh LYOHN",
+          "french": "Rue Saint-Jean, dans le Vieux Lyon."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "miniature",
+      "word_local": "la miniature",
+      "pronunciation": "lah mee-nyah-TOOR"
+    },
+    {
+      "word_en": "film prop",
+      "word_local": "l'accessoire de cinéma",
+      "pronunciation": "lak-ses-WAHR duh see-nay-MAH"
+    },
+    {
+      "word_en": "special effects",
+      "word_local": "les effets spéciaux",
+      "pronunciation": "lay ay-FEH spay-SYOH"
+    },
+    {
+      "word_en": "diorama",
+      "word_local": "le diorama",
+      "pronunciation": "luh dyoh-rah-MAH"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "lübeck_holstentor_gate",
+  "name_en": "Holstentor Gate",
+  "name_local": "Holstentor",
+  "icon": "building.columns",
+  "lat": 53.8662729,
+  "lon": 10.6796841,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "lübeck_holstentor_gate_001",
+      "intent_en": "Is the rooftop viewing platform open today",
+      "text_local": "Ist die Aussichtsplattform offen?",
+      "pronunciation": "ihst-dee-OWszIHkhtsplahtfAWrm-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Rooftop access depends on weather conditions in historic towers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, wenn das Wetter es zulässt.",
+        "pronunciation": "yAHvEHn-dahs-vEHt-ehs-tsoolEHst",
+        "translation_en": "Yes, if weather permits."
+      },
+      "responses": [
+        {
+          "english": "Yes, if weather permits.",
+          "phonetic": "yAHvEHn-dahs-vEHt-ehs-tsoolEHst",
+          "french": "Ja, wenn das Wetter es zulässt."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_holstentor_gate_002",
+      "intent_en": "How do I rent an audio guide",
+      "text_local": "Wie leihe ich einen Audioguide?",
+      "pronunciation": "vee-lEYE-UH-ihkh-EYEnuhn-ehnAWdihUHuheyeddeh",
+      "formality": "standard",
+      "cultural_note": "Audio guides often require a deposit for rental in German museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pfand am Schalter.",
+        "pronunciation": "pfAHnt-ahm-shAHlt",
+        "translation_en": "Deposit at the counter."
+      },
+      "responses": [
+        {
+          "english": "Deposit at the counter.",
+          "phonetic": "pfAHnt-ahm-shAHlt",
+          "french": "Pfand am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_holstentor_gate_003",
+      "intent_en": "Can I buy a combined ticket with Marzipan museum",
+      "text_local": "Gibt es ein Kombi-Ticket?",
+      "pronunciation": "EEpt-ehs-eyen-kAWmbeetIHkuht",
+      "formality": "standard",
+      "cultural_note": "Combined tickets are common for closely located attractions in German cities.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_holstentor_gate_004",
+      "intent_en": "Where is the museum ticket counter",
+      "text_local": "Wo ist der Ticketschalter?",
+      "pronunciation": "vOH-ihst-dehr-tIHkehtshAHlt",
+      "formality": "standard",
+      "cultural_note": "Ticket counters are typically located at the main entrance of historic sites in Germany.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Holstentor, stadtseitig.",
+        "pronunciation": "ahm-hawlstEHntohrshtAHtzeyetIHkh",
+        "translation_en": "At the Holstentor, city side."
+      },
+      "responses": [
+        {
+          "english": "At the Holstentor, city side.",
+          "phonetic": "ahm-hawlstEHntohrshtAHtzeyetIHkh",
+          "french": "Am Holstentor, stadtseitig."
+        }
+      ]
+    },
+    {
+      "id": "lübeck_holstentor_gate_005",
+      "intent_en": "Which path leads to the Burgtor gate",
+      "text_local": "Welcher Weg geht zum Burgtor?",
+      "pronunciation": "vEHlkh-vEHk-EHt-tsuhm-bUHuhktohr",
+      "formality": "standard",
+      "cultural_note": "Altstadtstraße is the main route between Holstentor and Burgtor in Lübeck's old town.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Folge der Altstadtstraße.",
+        "pronunciation": "fAWluh-dehr-AHltstahtstrAHsuh",
+        "translation_en": "Follow the Altstadtstraße."
+      },
+      "responses": [
+        {
+          "english": "Follow the Altstadtstraße.",
+          "phonetic": "fAWluh-dehr-AHltstahtstrAHsuh",
+          "french": "Folge der Altstadtstraße."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

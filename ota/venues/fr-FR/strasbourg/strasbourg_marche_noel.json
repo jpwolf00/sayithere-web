@@ -1,0 +1,101 @@
+{
+  "id": "strasbourg_marche_noel",
+  "name_en": "Marché de Noël",
+  "name_local": "Marché de Noël",
+  "icon": "bag",
+  "lat": 48.5856,
+  "lon": 7.7514,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "strasbourg_noel_001",
+      "intent_en": "Ask about the best mulled wine",
+      "text_local": "Où peut-on trouver le meilleur vin chaud ?",
+      "pronunciation": "oo puh-TON troo-VAY leh may-YUHR van SHOH",
+      "formality": "polite",
+      "cultural_note": "Try 'glühwein' (mulled wine) at the market. It's spiced with cinnamon, clove, and sometimes vanilla. The best stands have their own recipes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try the stands near the cathedral, they're very good.",
+          "phonetic": "",
+          "french": "Essayez les stands près de la cathédrale, ils sont très bons."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_noel_002",
+      "intent_en": "Ask about the Christmas cookies",
+      "text_local": "Que sont les biscuits de Noël alsaciens ?",
+      "pronunciation": "keh son lay bee-SWEE duh noh-EL al-zah-SYAN",
+      "formality": "polite",
+      "cultural_note": "Try 'bredele' — traditional Alsace Christmas cookies. Every family has their own recipe passed down for generations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "They're bredele, small Alsatian Christmas cookies.",
+          "phonetic": "say tah day-SAHMBR, pahn-DAHN kah-truh suh-MEN",
+          "french": "Ce sont les bredele, des petits sablés alsaciens de Noël."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_noel_003",
+      "intent_en": "Ask what time the market opens and closes",
+      "text_local": "À quelles heures est ouvert le marché ?",
+      "pronunciation": "ah kelz UHR eh oo-VEHR luh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "The Christmas market has daily hours that may extend on weekends.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From 10 AM to 8 PM, later on weekends.",
+          "phonetic": "duh dee-ZUR ah vahn-TUR, plew TAR luh week-END",
+          "french": "De dix heures à vingt heures, plus tard le week-end."
+        }
+      ]
+    },
+    {
+      "id": "strasbourg_noel_004",
+      "intent_en": "Ask about opening dates",
+      "text_local": "Quelles sont les dates d'ouverture du Marché de Noël ?",
+      "pronunciation": "kel son lay dates doo-vair-TYOR doo mar-SHAY duh noh-EL",
+      "formality": "polite",
+      "cultural_note": "The market runs from late November to Christmas Eve. The main areas are Place Kléber, Place Broglie, and in front of the cathedral.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From late November until December 24th.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "De fin novembre jusqu'au vingt-quatre décembre."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Christmas market",
+      "word_local": "le Marché de Noël",
+      "pronunciation": "leh mar-SHAY duh noh-EL"
+    },
+    {
+      "word_en": "mulled wine",
+      "word_local": "le vin chaud",
+      "pronunciation": "leh van SHOH"
+    },
+    {
+      "word_en": "gingerbread",
+      "word_local": "le pain d'épices",
+      "pronunciation": "leh pan day-pees"
+    },
+    {
+      "word_en": "star",
+      "word_local": "l'étoile",
+      "pronunciation": "lay-TOY-luh"
+    }
+  ]
+}

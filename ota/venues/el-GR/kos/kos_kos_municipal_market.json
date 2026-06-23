@@ -1,0 +1,254 @@
+{
+  "id": "kos_kos_municipal_market",
+  "name_en": "Kos Municipal Market",
+  "name_local": "Δημοτική Αγορά Κω",
+  "icon": "cart",
+  "lat": 36.892915,
+  "lon": 27.2886092,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "kos_kos_municipal_market_001",
+      "intent_en": "Can I negotiate bulk prices for olives",
+      "text_local": "Μπορώ να διαπραγματευτώ τιμές για μεγάλες αγορές ελιών;",
+      "pronunciation": "bohrOH-nah-thEEahprAHghmahtehftOH-teemEHz-yAH-mehghAHlehs-AHghohrEHs-ehlyOHn",
+      "formality": "standard",
+      "cultural_note": "Στις περισσότερες περιπτώσεις, υπάρχει περιθώριο διαπραγμάτευσης για μεγάλες ποσότητες ελιών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο τμήμα ελιών.",
+        "pronunciation": "nEHstoh-tmEEmah-ehlyOHn",
+        "translation_en": "Yes, at the olive section."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the olive section.",
+          "phonetic": "nEHstoh-tmEEmah-ehlyOHn",
+          "french": "Ναι, στο τμήμα ελιών."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_002",
+      "intent_en": "Can you clean this fish",
+      "text_local": "Μπορείτε να καθαρίσετε αυτό το ψάρι;",
+      "pronunciation": "bohrEEteh-nah-kAHthahrEEsehtEH-ahftOH-toh-psAHree",
+      "formality": "polite",
+      "cultural_note": "Οι ψαράδες συχνά προσφέρουν δωρεάν καθαρισμό ψαριών κατά την αγορά τους.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, αφήστε το.",
+        "pronunciation": "nEHahfEEsteh-toh",
+        "translation_en": "Yes, leave it here."
+      },
+      "responses": [
+        {
+          "english": "Yes, leave it here.",
+          "phonetic": "nEHahfEEsteh-toh",
+          "french": "Ναι, αφήστε το."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Αυτό το περίπτερο δέχεται μόνο μετρητά;",
+      "pronunciation": "ahftOH-toh-pehrEEptehrOH-thEHkhehtEH-mOHnoh-mEHtreetAH",
+      "formality": "standard",
+      "cultural_note": "Πολλά περίπτερα στις αγορές δέχονται μόνο μετρητά, εκτός εάν αναφέρεται διαφορετικά.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόνο μετρητά στο περίπτερο.",
+        "pronunciation": "nEHmOHnoh-mEHtreetAH-stoh-pehrEEptehrOH",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "nEHmOHnoh-mEHtreetAH-stoh-pehrEEptehrOH",
+          "french": "Ναι, μόνο μετρητά στο περίπτερο."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_004",
+      "intent_en": "Which stall has fresh fish cleaning service",
+      "text_local": "Πού γίνεται ο καθαρισμός του ψαριού;",
+      "pronunciation": "poo-yEEnehtEH-oh-kAHthahreesmOHs-frEHskoo-psAHreeOO",
+      "formality": "standard",
+      "cultural_note": "Οι ψαράδες συχνά δείχνουν την περιοχή όπου γίνεται ο καθαρισμός, ενώ οι επισκέπτες μπορούν να παρακολουθήσουν τη διαδικασία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πίσω από τον πάγκο των ψαράδων.",
+        "pronunciation": "pEEsoh-ahpOH-tohm-bAHnggoh-tohm-bzahrAHthohn",
+        "translation_en": "Behind the fishmongers' counter."
+      },
+      "responses": [
+        {
+          "english": "Behind the fishmongers' counter.",
+          "phonetic": "pEEsoh-ahpOH-tohm-bAHnggoh-tohm-bzahrAHthohn",
+          "french": "Πίσω από τον πάγκο των ψαράδων."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_005",
+      "intent_en": "Do you weigh produce before paying",
+      "text_local": "Μετράτε το προϊόν πριν την πληρωμή;",
+      "pronunciation": "mehtrAHteh-toh-prohihOHm-brEEn-deem-blEErohmEE",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνηθίζουν να ζυγίζουν μόνοι τους τα προϊόντα και στη συνέχεια πληρώνουν ανάλογα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, βάλτε στο ζυγάρι.",
+        "pronunciation": "nEHvAHlteh-stoh-zeeghAHree",
+        "translation_en": "Yes, put it on the scale."
+      },
+      "responses": [
+        {
+          "english": "Yes, put it on the scale.",
+          "phonetic": "nEHvAHlteh-stoh-zeeghAHree",
+          "french": "Ναι, βάλτε στο ζυγάρι."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_006",
+      "intent_en": "Do you have fresh sea bream",
+      "text_local": "Έχετε φρέσκο λαβράκι;",
+      "pronunciation": "EHkhehtEH-frEHskoh-lahvrAHee",
+      "formality": "standard",
+      "cultural_note": "Το λαβράκι είναι ένα από τα πιο δημοφιλή είδη ψαριών στην αγορά, ανάλογα με την εποχή.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο ψαράδικο μπροστά.",
+        "pronunciation": "nEHstoh-psahrAHtheekOH-brohstAH",
+        "translation_en": "Yes, at the fish stall in front."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the fish stall in front.",
+          "phonetic": "nEHstoh-psahrAHtheekOH-brohstAH",
+          "french": "Ναι, στο ψαράδικο μπροστά."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει ελάχιστο ποσό για πληρωμή με κάρτα στο τμήμα ελιών;",
+      "pronunciation": "eepAHrkhee-ehlAHkheestOH-pohsOH-yAH-kAHrtah-stohn-EHlehOHnah",
+      "formality": "standard",
+      "cultural_note": "Στα περισσότερα περίπτερα προτιμάται η χρήση μετρητών, αλλά κάποιοι δέχονται κάρτες υπό προϋποθέσεις.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, πέντε ευρώ στο τμήμα ελιών.",
+        "pronunciation": "nEHpEHdeh-ehvrOH-stoh-tmEEmah-ehlyOHn",
+        "translation_en": "Yes, there is a minimum amount for card payment."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is a minimum amount for card payment.",
+          "phonetic": "nEHpEHdeh-ehvrOH-stoh-tmEEmah-ehlyOHn",
+          "french": "Ναι, πέντε ευρώ στο τμήμα ελιών."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_008",
+      "intent_en": "How do I weigh produce first",
+      "text_local": "Πώς ζυγίζω πρώτα το προϊόν;",
+      "pronunciation": "pOHz-zeeyEEzoh-prOHtah-toh-prohihOHn",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες χρησιμοποιούν συχνά τις κοινόχρηστες ζυγαριές στις γωνίες των πάγκων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πάρτε σακούλα και βάλτε στο ζυγάρι.",
+        "pronunciation": "pAHrteh-sahkOOlah-keh-vAHlteh-stoh-zeeghAHree",
+        "translation_en": "Take a bag and put it on the scale."
+      },
+      "responses": [
+        {
+          "english": "Take a bag and put it on the scale.",
+          "phonetic": "pAHrteh-sahkOOlah-keh-vAHlteh-stoh-zeeghAHree",
+          "french": "Πάρτε σακούλα και βάλτε στο ζυγάρι."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού γίνεται ο καθαρισμός ψαριών;",
+      "pronunciation": "pOO-yEEnehtEH-oh-kAHthahreesmOHz-psAHreeOHn",
+      "formality": "standard",
+      "cultural_note": "Οι πάγκοι των ψαράδων συχνά περιλαμβάνουν χώρο για καθαρισμό, ο οποίος είναι ανοιχτός στο κοινό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο των ψαράδων, δεξιά.",
+        "pronunciation": "stohm-bAHnggoh-tohm-bzahrAHthohnthEHkseeAH",
+        "translation_en": "At the back of the fish market, near the fishmongers' stall."
+      },
+      "responses": [
+        {
+          "english": "At the back of the fish market, near the fishmongers' stall.",
+          "phonetic": "stohm-bAHnggoh-tohm-bzahrAHthohnthEHkseeAH",
+          "french": "Στον πάγκο των ψαράδων, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_010",
+      "intent_en": "Where is the cheese counter",
+      "text_local": "Πού είναι ο πάγκος με τα τυριά;",
+      "pronunciation": "pOO-EEneh-oh-pAHnggohz-meh-tah-tEEreeAH",
+      "formality": "standard",
+      "cultural_note": "Ο πάγκος των τυριών βρίσκεται συχνά κοντά στην είσοδο ή σε εμφανές σημείο της αγοράς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο βάθος, δίπλα στους ψαράδες.",
+        "pronunciation": "stoh-vAHthohsthEEplah-stooz-psahrAHthehs",
+        "translation_en": "Hello, the cheese counter is at the back, next to the fishmongers and to the left of the greengrocer."
+      },
+      "responses": [
+        {
+          "english": "Hello, the cheese counter is at the back, next to the fishmongers and to the left of the greengrocer.",
+          "phonetic": "stoh-vAHthohsthEEplah-stooz-psahrAHthehs",
+          "french": "Στο βάθος, δίπλα στους ψαράδες."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_municipal_market_011",
+      "intent_en": "Is there a bulk olive discount",
+      "text_local": "Υπάρχει έκπτωση για μεγάλες αγορές ελιών;",
+      "pronunciation": "eepAHrkhee-EHkptohsEE-yAH-mehghAHlehs-AHghohrEHs-ehlyOHn",
+      "formality": "standard",
+      "cultural_note": "Συνήθως υπάρχει κάποια έκπτωση για μεγάλες ποσότητες, ανάλογα με τον πάγκο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, ζητήστε στον πωλητή ελιών.",
+        "pronunciation": "nEHzeetEEsteh-stohm-bOHleetEE-ehlyOHn",
+        "translation_en": "Yes, ask at the olive vendor."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask at the olive vendor.",
+          "phonetic": "nEHzeetEEsteh-stohm-bOHleetEE-ehlyOHn",
+          "french": "Ναι, ζητήστε στον πωλητή ελιών."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "heidelberg_zum_roten_ochsen",
+  "name_en": "Zum Roten Ochsen",
+  "name_local": "Zum Roten Ochsen",
+  "icon": "fork.knife",
+  "lat": 49.4127874,
+  "lon": 8.7134002,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "heidelberg_zum_roten_ochsen_001",
+      "intent_en": "How do I pay at the bar?",
+      "text_local": "Wie zahle ich an der Theke?",
+      "pronunciation": "vee-tsAHluh-ihkh-ahn-dehr-tEHkuh",
+      "formality": "standard",
+      "cultural_note": "Payment at the bar is common for smaller groups or quick visits; servers handle orders and bills.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zahlen Sie bar an der Theke.",
+        "pronunciation": "tsAHluhn-zee-bAHr-ahn-dehr-tEHkuh",
+        "translation_en": "Pay in cash at the bar."
+      },
+      "responses": [
+        {
+          "english": "Pay in cash at the bar.",
+          "phonetic": "tsAHluhn-zee-bAHr-ahn-dehr-tEHkuh",
+          "french": "Zahlen Sie bar an der Theke."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_zum_roten_ochsen_002",
+      "intent_en": "Is cash preferred here?",
+      "text_local": "Wird hier Bargeld bevorzugt?",
+      "pronunciation": "vIHrt-hEEr-bAHrehlt-buhfOHrtsOOkt",
+      "formality": "casual",
+      "cultural_note": "Tipping by rounding up the bill is customary in this traditional student venue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Bargeld ist üblich.",
+        "pronunciation": "yAHbAHrehlt-ihst-UEplihkh",
+        "translation_en": "Yes, cash is common."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash is common.",
+          "phonetic": "yAHbAHrehlt-ihst-UEplihkh",
+          "french": "Ja, Bargeld ist üblich."
+        }
+      ]
+    },
+    {
+      "id": "heidelberg_zum_roten_ochsen_003",
+      "intent_en": "Can I reserve a table for six tonight?",
+      "text_local": "Können Sie einen Tisch für sechs Personen heute Abend reservieren?",
+      "pronunciation": "kUHnuhn-zee-EYEnuhn-tIHsh-fuer-zEHks-pehrzOHnuhn-hAWuhtuh-AHbuhnt-rEHzehrvEEruhn",
+      "formality": "standard",
+      "cultural_note": "Reservations are typically made directly with the innkeeper or server; no advance booking systems are mentioned.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, für wie spät?",
+        "pronunciation": "yAHfuer-vee-shpEHt",
+        "translation_en": "Yes, for what time?"
+      },
+      "responses": [
+        {
+          "english": "Yes, for what time?",
+          "phonetic": "yAHfuer-vee-shpEHt",
+          "french": "Ja, für wie spät?"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

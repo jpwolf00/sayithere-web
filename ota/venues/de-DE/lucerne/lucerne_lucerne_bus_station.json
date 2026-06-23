@@ -1,0 +1,122 @@
+{
+  "id": "lucerne_lucerne_bus_station",
+  "name_en": "Lucerne bus station",
+  "name_local": "Busbahnhof Luzern",
+  "icon": "tram",
+  "lat": 47.0316738,
+  "lon": 8.4334478,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lucerne_lucerne_bus_station_001",
+      "intent_en": "Verkaufsstelle ticket desk open",
+      "text_local": "Verkaufsstelle geöffnet?",
+      "pronunciation": "fehrkowfsshtEHluh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Expect concise, direct confirmation from staff. Short answers are standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_bus_station_002",
+      "intent_en": "Pilatus Golden Round Trip ticket",
+      "text_local": "Pilatus Round Trip hier buchbar?",
+      "pronunciation": "pEElahtUHs-rOOnt-ehntrIHpdeh-hEEr-bOOkhbahr",
+      "formality": "casual",
+      "cultural_note": "Integrated mountain excursion fares are typically sold at info desks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Info-Schalter.",
+        "pronunciation": "yAHahm-IHnfohshAHlt",
+        "translation_en": "Yes, at the info counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the info counter.",
+          "phonetic": "yAHahm-IHnfohshAHlt",
+          "french": "Ja, am Info-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_bus_station_003",
+      "intent_en": "Schwanenplatz bus stop for Rigi",
+      "text_local": "Wie komme ich zur Bushaltestelle Schwanenplatz für den Rigi-Bus?",
+      "pronunciation": "zEEah-AHs-plAHkahs-pAHrah-rEEee-ahn-shvAHnuhnplAHts",
+      "formality": "casual",
+      "cultural_note": "Schwanenplatz is a named stop; signs guide to all routes including Rigi.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Haltestelle ist am See.",
+        "pronunciation": "dee-hAHltehshtEHluh-ihst-ahm-zEH",
+        "translation_en": "The stop is at the lake."
+      },
+      "responses": [
+        {
+          "english": "The stop is at the lake.",
+          "phonetic": "dee-hAHltehshtEHluh-ihst-ahm-zEH",
+          "french": "Die Haltestelle ist am See."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_bus_station_004",
+      "intent_en": "Seebrücke bus bay wheelchair access",
+      "text_local": "Rollstuhlgerechter Einstieg an Seebrücke?",
+      "pronunciation": "rAWlshtoolEHrehkht-EYEnshtEEk-ahn-zEHbruekuh",
+      "formality": "standard",
+      "cultural_note": "Swiss buses are typically low-floor for accessibility; staff confirm if needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Busse haben Niederflur.",
+        "pronunciation": "yAHbUHsuh-hAHbuhn-nEEdflOOr",
+        "translation_en": "Yes, buses have low floor."
+      },
+      "responses": [
+        {
+          "english": "Yes, buses have low floor.",
+          "phonetic": "yAHbUHsuh-hAHbuhn-nEEdflOOr",
+          "french": "Ja, Busse haben Niederflur."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_lucerne_bus_station_005",
+      "intent_en": "PostAuto bus pass to Weggis",
+      "text_local": "Wo kaufe ich PostAuto-Pass nach Weggis?",
+      "pronunciation": "vOH-kOWfuh-ihkh-pAWst-OWtohpAHs-nahkh-vEHihs",
+      "formality": "standard",
+      "cultural_note": "PostAuto is a regional bus operator; staff at dedicated desk handles passes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am PostAuto-Schalter.",
+        "pronunciation": "ahm-pAWst-OWtohshAHlt",
+        "translation_en": "At the PostAuto desk."
+      },
+      "responses": [
+        {
+          "english": "At the PostAuto desk.",
+          "phonetic": "ahm-pAWst-OWtohshAHlt",
+          "french": "Am PostAuto-Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

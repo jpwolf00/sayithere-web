@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_olomouc_central_bus_station",
+  "name_en": "Olomouc Central Bus Station",
+  "name_local": "Dopravní terminál Olomouc",
+  "icon": "tram",
+  "lat": 49.5940567,
+  "lon": 17.251143,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "olomouc_olomouc_central_bus_station_001",
+      "intent_en": "When does the last bus to Prague leave",
+      "text_local": "Kdy jede poslední autobus do Prahy?",
+      "pronunciation": "kdEE-yEHdeh-pOHslehdnyee-OWtohbooz-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Providing both the time and platform is standard, efficient practice for bus station staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ve 22:45 z nástupiště číslo dvě.",
+        "pronunciation": "vEH-dvAHtsehddvAH-tshtEEreetsehtpyEHt-s-nAHstoopEEsheh-tshEEsloh-dvyEH",
+        "translation_en": "At 22:45 from platform two."
+      },
+      "responses": [
+        {
+          "english": "At 22:45 from platform two.",
+          "phonetic": "vEH-dvAHtsehddvAH-tshtEEreetsehtpyEHt-s-nAHstoopEEsheh-tshEEsloh-dvyEH",
+          "french": "Ve 22:45 z nástupiště číslo dvě."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_central_bus_station_002",
+      "intent_en": "Where is platform five for regional buses",
+      "text_local": "Kde je nástupiště pět pro regionální autobusy?",
+      "pronunciation": "kdEH-yeh-nAHstoopEEsheh-pyEHt-proh-rEHgeeOHnahlnyee-OWtohbOOsee",
+      "formality": "standard",
+      "cultural_note": "Czech bus stations often use numbered platforms (nástupiště). Regional buses may depart from a separate section.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně, pak doleva na konec haly.",
+        "pronunciation": "rOHvnyehpAHk-dOHlehvah-nAHkohnehts-hAHlee",
+        "translation_en": "Straight, then left at the end of the hall."
+      },
+      "responses": [
+        {
+          "english": "Straight, then left at the end of the hall.",
+          "phonetic": "rOHvnyehpAHk-dOHlehvah-nAHkohnehts-hAHlee",
+          "french": "Rovně, pak doleva na konec haly."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_central_bus_station_003",
+      "intent_en": "Is there luggage storage at the station",
+      "text_local": "Je tu úschovna zavazadel?",
+      "pronunciation": "yeh-tOO-OOskhohvnah-zAHvahzAHdehl",
+      "formality": "standard",
+      "cultural_note": "A simple 'ano' (yes) with a location is more helpful than a bare confirmation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, vedle hlavního vchodu.",
+        "pronunciation": "AHnohvEHdleh-hlAHvnyeehoh-fkhOHdoo",
+        "translation_en": "Yes, next to the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, next to the main entrance.",
+          "phonetic": "AHnohvEHdleh-hlAHvnyeehoh-fkhOHdoo",
+          "french": "Ano, vedle hlavního vchodu."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_olomouc_central_bus_station_004",
+      "intent_en": "Where is the ticket machine for city buses",
+      "text_local": "Kde je automat na jízdenky na městské autobusy?",
+      "pronunciation": "kdEH-yeh-OWtohmaht-nAHyeezdEHngkee-nAHmnyehstskeh-OWtohbOOsee",
+      "formality": "standard",
+      "cultural_note": "City bus tickets are often bought from machines near the connecting tram stop outside the main terminal building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U východu na tramvajovou zastávku.",
+        "pronunciation": "OO-vEEkhohdoo-nah-trAHmvahyOHvoh-zAHstahfkoo",
+        "translation_en": "By the exit to the tram stop."
+      },
+      "responses": [
+        {
+          "english": "By the exit to the tram stop.",
+          "phonetic": "OO-vEEkhohdoo-nah-trAHmvahyOHvoh-zAHstahfkoo",
+          "french": "U východu na tramvajovou zastávku."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

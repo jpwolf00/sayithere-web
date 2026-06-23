@@ -1,0 +1,122 @@
+{
+  "id": "konya_aziziye_mosque_and_market_street",
+  "name_en": "Aziziye Mosque and market street",
+  "name_local": "Aziziye Camii ve Çarşısı",
+  "icon": "cart",
+  "lat": 37.872734,
+  "lon": 32.4924376,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "konya_aziziye_mosque_and_market_street_001",
+      "intent_en": "Is cash needed here?",
+      "text_local": "Burada nakit gerekli mi?",
+      "pronunciation": "bOOrahdah-nahkIHt-ehrehklIH-mih",
+      "formality": "standard",
+      "cultural_note": "Cash is essential for smaller vendors in the market.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Küçük satıcılar sadece nakit alır.",
+        "pronunciation": "kuetshUHk-sahtoodzhooAHr-sahdEHdzheh-nahkIHt-ahOOr",
+        "translation_en": "Small vendors only take cash."
+      },
+      "responses": [
+        {
+          "english": "Small vendors only take cash.",
+          "phonetic": "kuetshUHk-sahtoodzhooAHr-sahdEHdzheh-nahkIHt-ahOOr",
+          "french": "Küçük satıcılar sadece nakit alır."
+        }
+      ]
+    },
+    {
+      "id": "konya_aziziye_mosque_and_market_street_002",
+      "intent_en": "Do vendors bargain?",
+      "text_local": "Satıcılar pazarlık yapar mı?",
+      "pronunciation": "sahtoodzhooAHr-pahzahrOOk-yahpAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Gıda satıcılarında fiyatlar sabittir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tekstil ürünleri için pazarlık beklenir.",
+        "pronunciation": "tehkstIHl-ueruhnlehrIH-eetshIHn-pahzahrOOk-behklehnIHr",
+        "translation_en": "Bargaining expected for textiles."
+      },
+      "responses": [
+        {
+          "english": "Bargaining expected for textiles.",
+          "phonetic": "tehkstIHl-ueruhnlehrIH-eetshIHn-pahzahrOOk-behklehnIHr",
+          "french": "Tekstil ürünleri için pazarlık beklenir."
+        }
+      ]
+    },
+    {
+      "id": "konya_aziziye_mosque_and_market_street_003",
+      "intent_en": "Is cash needed here?",
+      "text_local": "Burada nakit para gerekli mi?",
+      "pronunciation": "bOOrahdah-nahkIHt-pahrAH-ehrehklIH-mih",
+      "formality": "standard",
+      "cultural_note": "Büyük dükkânlarda kart geçebilir, ancak açık tezgâhlar için nakit bulundurun.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Küçük satıcılar sadece nakit alır.",
+        "pronunciation": "kuetshUHk-sahtoodzhooAHr-sahdEHdzheh-nahkIHt-ahOOr",
+        "translation_en": "Cash only small vendors."
+      },
+      "responses": [
+        {
+          "english": "Cash only small vendors.",
+          "phonetic": "kuetshUHk-sahtoodzhooAHr-sahdEHdzheh-nahkIHt-ahOOr",
+          "french": "Küçük satıcılar sadece nakit alır."
+        }
+      ]
+    },
+    {
+      "id": "konya_aziziye_mosque_and_market_street_004",
+      "intent_en": "Where to pay for this item?",
+      "text_local": "Bu ürün için nereye ödeme yapacağım?",
+      "pronunciation": "buh-uerUHn-eetshIHn-nEHrehyeh-uhdEHmeh-yahpahdzhAHoom",
+      "formality": "standard",
+      "cultural_note": "Merkezi bir kasa yoktur; ödemeyi aldığınız satıcıya yapın.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Her tezgâhta ayrı ödeme alınır.",
+        "pronunciation": "hEHr-tehzahhtAH-ahyrOO-uhdEHmeh-ahoonOOr",
+        "translation_en": "Pay at individual stalls."
+      },
+      "responses": [
+        {
+          "english": "Pay at individual stalls.",
+          "phonetic": "hEHr-tehzahhtAH-ahyrOO-uhdEHmeh-ahoonOOr",
+          "french": "Her tezgâhta ayrı ödeme alınır."
+        }
+      ]
+    },
+    {
+      "id": "konya_aziziye_mosque_and_market_street_005",
+      "intent_en": "Where is the covered bazaar section?",
+      "text_local": "Kapalı çarşı bölümü nereye düşüyor?",
+      "pronunciation": "kahpahOO-tshahrshOO-bUHluemuh-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Market ve cami alanı geniştir; kapalı bölüm ana cadde dışında olabilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sağ tarafta, kemerli girişten.",
+        "pronunciation": "sAH-tahrahftAHkehmehrlIH-eerihshtAHn",
+        "translation_en": "On the right side, through the arched entrance."
+      },
+      "responses": [
+        {
+          "english": "On the right side, through the arched entrance.",
+          "phonetic": "sAH-tahrahftAHkehmehrlIH-eerihshtAHn",
+          "french": "Sağ tarafta, kemerli girişten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,144 @@
+{
+  "id": "würzburg_würzburg_bus_station",
+  "name_en": "Würzburg Bus Station",
+  "name_local": "ZOB Würzburg",
+  "icon": "tram",
+  "lat": 49.8013204,
+  "lon": 9.9342388,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "würzburg_würzburg_bus_station_001",
+      "intent_en": "Ask where the Fernbussteige for long-distance buses are",
+      "text_local": "Wo sind die Fernbussteige?",
+      "pronunciation": "vOH-zihnt-dee-fEHrnbuhsshtEYEuh",
+      "formality": "standard",
+      "cultural_note": "Directions rely on signage; no detailed micro-navigation expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, dann links.",
+        "pronunciation": "guhrAHdehOWsdahn-lINGks",
+        "translation_en": "Straight ahead, then left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, then left.",
+          "phonetic": "guhrAHdehOWsdahn-lINGks",
+          "french": "Geradeaus, dann links."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_bus_station_002",
+      "intent_en": "Ask where to buy tram tickets",
+      "text_local": "Wo kann ich Straßenbahn-Tickets kaufen?",
+      "pronunciation": "vOH-kAHn-ihkh-shtrAHsuhnbAHntIHkuhts-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Ticket purchase is typically at automated machines near entry.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Automaten am Eingang.",
+        "pronunciation": "OWtohmAHtuhn-ahm-EYEnAHng",
+        "translation_en": "Machines at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Machines at the entrance.",
+          "phonetic": "OWtohmAHtuhn-ahm-EYEnAHng",
+          "french": "Automaten am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_bus_station_003",
+      "intent_en": "Ask where the Regionalbussteige are",
+      "text_local": "Wo sind die Regionalbussteige?",
+      "pronunciation": "vOH-zihnt-dee-rEHihOHnahlbUHsshteyeuh",
+      "formality": "standard",
+      "cultural_note": "Directions rely on signage; no detailed micro-navigation expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links, direkt neben den Fernbussen.",
+        "pronunciation": "lINGksdeerEHkt-nEHbuhn-dehn-fEHrnbuhsuhn",
+        "translation_en": "On the left, right next to the long-distance buses."
+      },
+      "responses": [
+        {
+          "english": "On the left, right next to the long-distance buses.",
+          "phonetic": "lINGksdeerEHkt-nEHbuhn-dehn-fEHrnbuhsuhn",
+          "french": "Links, direkt neben den Fernbussen."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_bus_station_004",
+      "intent_en": "Ask when the next tram to Hauptbahnhof departs",
+      "text_local": "Wann fährt die nächste Straßenbahn zum Hauptbahnhof?",
+      "pronunciation": "vAHn-fEHrt-dee-nEHkhstuh-shtrAHsuhnbAHn-tsuhm-hOWptbAHnhohf",
+      "formality": "standard",
+      "cultural_note": "Departure times are usually displayed on digital boards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In 5 Minuten.",
+        "pronunciation": "ihn-fUEnf-meenOOtuhn",
+        "translation_en": "In 5 minutes."
+      },
+      "responses": [
+        {
+          "english": "In 5 minutes.",
+          "phonetic": "ihn-fUEnf-meenOOtuhn",
+          "french": "In 5 Minuten."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_bus_station_005",
+      "intent_en": "Ask how to validate a bus ticket",
+      "text_local": "Wie muss ich mein Busticket entwerten?",
+      "pronunciation": "vee-mUHs-ihkh-meyen-bUHstihkuht-ehntvEHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Validation is typically done on the bus itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Drücken Sie den Entwerter am Bus.",
+        "pronunciation": "drUEkuhn-zee-dehn-ehntvEHrt-ahm-bUHs",
+        "translation_en": "Press the validator inside the bus."
+      },
+      "responses": [
+        {
+          "english": "Press the validator inside the bus.",
+          "phonetic": "drUEkuhn-zee-dehn-ehntvEHrt-ahm-bUHs",
+          "french": "Drücken Sie den Entwerter am Bus."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_bus_station_006",
+      "intent_en": "Ask if BahnCard discount works on regional buses",
+      "text_local": "Gilt die BahnCard auch im Regionalbus?",
+      "pronunciation": "IHlt-dee-bAHn-kAHrt-OWkh-ihm-rEHihOHnahlbUHs",
+      "formality": "standard",
+      "cultural_note": "Discount is common but requires presentation of the card.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit gültigem Ausweis.",
+        "pronunciation": "yAHmiht-UEltihuhm-OWsvEYEs",
+        "translation_en": "Yes, with valid ID."
+      },
+      "responses": [
+        {
+          "english": "Yes, with valid ID.",
+          "phonetic": "yAHmiht-UEltihuhm-OWsvEYEs",
+          "french": "Ja, mit gültigem Ausweis."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

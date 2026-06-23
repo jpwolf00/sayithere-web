@@ -1,0 +1,100 @@
+{
+  "id": "istanbul_istanbul_tourist_information_office",
+  "name_en": "Istanbul Tourist Information Office",
+  "name_local": "İstanbul Turizm Danışma Bürosu",
+  "icon": "info.circle",
+  "lat": 41.0112983,
+  "lon": 28.9489707,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "istanbul_istanbul_tourist_information_office_001",
+      "intent_en": "How do I book a Bosphorus tour here?",
+      "text_local": "Burada Boğaz turu nasıl rezerve ederim?",
+      "pronunciation": "bOOrahdah-bohAHz-toorUH-nahsOO-rehzehrvEH-ehdEHrihm",
+      "formality": "standard",
+      "cultural_note": "Deposit is common for tour bookings in Turkey.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bilet görevlisine depozito ödeyip rezervasyon yaptırabilirsiniz.",
+        "pronunciation": "beelEHt-uhrehvleeseenEH-dehpohzeetAW-uhdehyIHp-rehzehrvahsyAWn-yahptoorahbeelIHrseenihz",
+        "translation_en": "You can pay a deposit to the ticket clerk and book."
+      },
+      "responses": [
+        {
+          "english": "You can pay a deposit to the ticket clerk and book.",
+          "phonetic": "beelEHt-uhrehvleeseenEH-dehpohzeetAW-uhdehyIHp-rehzehrvahsyAWn-yahptoorahbeelIHrseenihz",
+          "french": "Bilet görevlisine depozito ödeyip rezervasyon yaptırabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_istanbul_tourist_information_office_002",
+      "intent_en": "Where is the Sirkeci office?",
+      "text_local": "Sirkeci ofisi nerede?",
+      "pronunciation": "sihrkehdzhIH-ohfeesIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Offices are unverified and may be seasonal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Liman girişinde.",
+        "pronunciation": "leemAHn-eereeshihndEH",
+        "translation_en": "At the harbor entrance."
+      },
+      "responses": [
+        {
+          "english": "At the harbor entrance.",
+          "phonetic": "leemAHn-eereeshihndEH",
+          "french": "Liman girişinde."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_istanbul_tourist_information_office_003",
+      "intent_en": "Can I buy Museum Pass with cash?",
+      "text_local": "Museum Pass'ı nakit alabilir miyim?",
+      "pronunciation": "mOOsehuhm-pahssOO-nahkIHt-ahahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Turkish offices often accept both payment methods.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, nakit veya kartla alabilirsiniz.",
+        "pronunciation": "ehvEHtnahkIHt-vehyAH-kAHrtah-ahahbeelIHrseenihz",
+        "translation_en": "Yes, you can buy with cash or card."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can buy with cash or card.",
+          "phonetic": "ehvEHtnahkIHt-vehyAH-kAHrtah-ahahbeelIHrseenihz",
+          "french": "Evet, nakit veya kartla alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_istanbul_tourist_information_office_004",
+      "intent_en": "Is the İstanbul Kart in stock?",
+      "text_local": "İstanbul Kart stokta var mı?",
+      "pronunciation": "ihstAHnbuh-kAHrt-stawktAH-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Top-up service is commonly offered alongside sales.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, dolum da yapabiliriz.",
+        "pronunciation": "ehvEHtdOHuhm-dah-yahpahbeelEErihz",
+        "translation_en": "Yes, we can also top it up."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can also top it up.",
+          "phonetic": "ehvEHtdOHuhm-dah-yahpahbeelEErihz",
+          "french": "Evet, dolum da yapabiliriz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

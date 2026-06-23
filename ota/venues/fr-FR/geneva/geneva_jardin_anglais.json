@@ -1,0 +1,110 @@
+{
+  "id": "geneva_jardin_anglais",
+  "name_en": "English Garden (Flower Clock)",
+  "name_local": "Jardin Anglais",
+  "icon": "clock",
+  "phrases": [
+    {
+      "id": "geneva_ja_001",
+      "intent_en": "Ask where the flower clock is",
+      "text_local": "Où se trouve l'horloge fleurie ?",
+      "pronunciation": "oo suh TROOV lor-LOZH fluh-REE",
+      "formality": "polite",
+      "cultural_note": "The Horloge Fleurie (flower clock) has been a Geneva landmark since 1955. It sits at the lake's edge in the Jardin Anglais and has a five-metre diameter.",
+      "responses": [
+        {
+          "english": "By the lake, on the right.",
+          "phonetic": "oh BOR doo LAK, soor lah DRWAHT",
+          "french": "Au bord du lac, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_ja_002",
+      "intent_en": "Ask about the best time to photograph the flower clock",
+      "text_local": "Quelle est la meilleure heure pour photographier l'horloge fleurie ?",
+      "pronunciation": "kel eh lah meh-YUR UR poor foh-toh-grah-FYAY lor-LOZH fluh-REE",
+      "formality": "polite",
+      "cultural_note": "The clock is most photogenic in the morning with soft light and fewer crowds. The flowers are changed seasonally to maintain the display.",
+      "responses": [
+        {
+          "english": "In the morning, with the sun.",
+          "phonetic": "luh mah-TEHN, ah-VEK luh soh-LAY",
+          "french": "Le matin, avec le soleil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_ja_003",
+      "intent_en": "Ask if there are boat trips leaving from here",
+      "text_local": "Y a-t-il des promenades en bateau qui partent d'ici ?",
+      "pronunciation": "ee-ah-TEEL day prohm-NAD on bah-TOH kee PART dee-SEE",
+      "formality": "polite",
+      "cultural_note": "The CGN lake steamers depart from the nearby Jardin Anglais landing stage, offering cruises on Lake Geneva to Lausanne, Montreux and beyond.",
+      "responses": [
+        {
+          "english": "Yes, at the dock, right there.",
+          "phonetic": "wee, oh pohn-TOHN, zhoost LAH",
+          "french": "Oui, au ponton, juste là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_ja_004",
+      "intent_en": "Ask about picnicking in the garden",
+      "text_local": "Est-il possible de pique-niquer dans le jardin ?",
+      "pronunciation": "eh-TEEL poh-SEE-bluh duh peek-nee-KAY don luh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "The Jardin Anglais is a popular spot for picnics with views over the lake. The lawns are open to the public free of charge.",
+      "responses": [
+        {
+          "english": "Yes, it's allowed on the lawns.",
+          "phonetic": "wee, seh oh-toh-ree-ZAY soor lay puh-LOOZ",
+          "french": "Oui, c'est autorisé sur les pelouses."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_ja_005",
+      "intent_en": "Comment on the view of Mont Blanc",
+      "text_local": "Par temps clair, on aperçoit le Mont Blanc depuis ce jardin — c'est époustouflant !",
+      "pronunciation": "par TOHN KLAIR oh-nah-pair-SWAH luh mohn BLOHN duh-PWEE suh zhar-DAN — seh ay-poos-too-FLOHN",
+      "formality": "casual",
+      "cultural_note": "On clear days Mont Blanc is visible from the Jardin Anglais — a stunning backdrop that locals never tire of, even after years of living in Geneva.",
+      "responses": [
+        {
+          "english": "Yes, on a clear day you can see it well.",
+          "phonetic": "wee, par TAHN KLEHR ohn luh vwah BYEHN",
+          "french": "Oui, par temps clair on le voit bien."
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "flower clock",
+      "word_local": "l'horloge fleurie",
+      "pronunciation": "lor-LOZH fluh-REE"
+    },
+    {
+      "word_en": "garden",
+      "word_local": "le jardin",
+      "pronunciation": "luh zhar-DAN"
+    },
+    {
+      "word_en": "lake steamer",
+      "word_local": "le bateau à vapeur",
+      "pronunciation": "luh bah-TOH ah vah-PUR"
+    }
+  ]
+}

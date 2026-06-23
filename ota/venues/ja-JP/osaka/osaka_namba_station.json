@@ -1,0 +1,122 @@
+{
+  "id": "osaka_namba_station",
+  "name_en": "Namba Station",
+  "name_local": "難波駅",
+  "icon": "tram",
+  "lat": 34.6636625,
+  "lon": 135.5017751,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "osaka_namba_station_001",
+      "intent_en": "Where do I request a wrong ticket refund",
+      "text_local": "まちがえた きっぷの はらいもどしは どこで できますか？",
+      "pronunciation": "mTeegEHt-keeppOOnoh-hEEmohdohEEh-dohkOHdeh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Refunds for ticketing errors are almost always handled by staff inside the station office, not at the gates.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あそこの えきいんしつで うけつけてます。",
+        "pronunciation": "SohkOHnoh-EHkeeEEtsOOdeh-OOkehtsOOkehtehmSoo",
+        "translation_en": "We handle that at the station office over there."
+      },
+      "responses": [
+        {
+          "english": "We handle that at the station office over there.",
+          "phonetic": "SohkOHnoh-EHkeeEEtsOOdeh-OOkehtsOOkehtehmSoo",
+          "french": "あそこの えきいんしつで うけつけてます。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_namba_station_002",
+      "intent_en": "Where is the Kintetsu Nara Line gate",
+      "text_local": "きんてつならせんの かいさつは どこですか？",
+      "pronunciation": "kEEntehtsOOnsEHnnoh-kEEstsOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Namba's Kintetsu gates are on the B1 floor, distinct from the subway gates but physically adjacent.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき みぎがわ、 ちかてつの となりです。",
+        "pronunciation": "kOHnohsKee-mEEgeegWtEEktehtsOOnoh-tOHneedEHsoo",
+        "translation_en": "Straight ahead on the right, next to the subway."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead on the right, next to the subway.",
+          "phonetic": "kOHnohsKee-mEEgeegWtEEktehtsOOnoh-tOHneedEHsoo",
+          "french": "このさき みぎがわ、 ちかてつの となりです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_namba_station_003",
+      "intent_en": "Is the Hanshin transfer gate open now",
+      "text_local": "はんしんせんの のりかえぐちは いま あいてますか？",
+      "pronunciation": "hEEsEHnnoh-nOHeekEHgootEEh-EEm-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "The transfer gate between Kintetsu and Hanshin lines at Osaka-Namba is open during all operating hours, which is typically until midnight.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あいてますよ。",
+        "pronunciation": "hEEEEtEHmsOOyoh",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "hEEEEtEHmsOOyoh",
+          "french": "はい、あいてますよ。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_namba_station_004",
+      "intent_en": "How do I buy a Metro day pass here",
+      "text_local": "ちかてつの いちにちじょうしゃけんは どうやって かいますか？",
+      "pronunciation": "tEEktehtsOOnoh-EEteenEEteedOHooKehH-dOHooyTteh-kEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Osaka Metro day passes are sold at specific ticket machines with multilingual interfaces.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あおい けんばいきで、 えいかいわボタンを おして ください。",
+        "pronunciation": "OHee-kEHbEEkEEdehEHeekEEwBohtOH-ohEEteh-kOOdsEE",
+        "translation_en": "At the blue machine, please press the English button."
+      },
+      "responses": [
+        {
+          "english": "At the blue machine, please press the English button.",
+          "phonetic": "OHee-kEHbEEkEEdehEHeekEEwBohtOH-ohEEteh-kOOdsEE",
+          "french": "あおい けんばいきで、 えいかいわボタンを おして ください。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_namba_station_005",
+      "intent_en": "When is the next airport express to KIX",
+      "text_local": "かんくうへの つぎの とっきゅうは なんじですか？",
+      "pronunciation": "kNGkoooohEHnoh-tsoogEEnoh-tOHkkooOOh-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Nankai's Airport Express trains (rapi:t) have fixed departure times. Staff often just state the time.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "１４じ１５ふんです。",
+        "pronunciation": "dEE-oondEHsoo",
+        "translation_en": "It's at 2:15 PM."
+      },
+      "responses": [
+        {
+          "english": "It's at 2:15 PM.",
+          "phonetic": "dEE-oondEHsoo",
+          "french": "１４じ１５ふんです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

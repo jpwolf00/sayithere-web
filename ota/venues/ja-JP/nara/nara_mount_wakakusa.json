@@ -1,0 +1,100 @@
+{
+  "id": "nara_mount_wakakusa",
+  "name_en": "Mount Wakakusa",
+  "name_local": "若草山",
+  "icon": "leaf",
+  "lat": 34.68232311965644,
+  "lon": 135.80747487373415,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "nara_mount_wakakusa_001",
+      "intent_en": "Where do I pay for Nara Park parking?",
+      "text_local": "ならこうえんの ちゅうしゃりょうは どこで はらいますか？",
+      "pronunciation": "nKOHooEHnnoh-tOOooOHOOh-dohkOHdeh-hEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Parking in large public parks is usually paid at automated machines near the lot, not to a person.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ちゅうしゃじょうの せいさんきで はらってください。",
+        "pronunciation": "tOOooDohOOnoh-sEHeesngkEEdeh-hTtEHkoodsEE",
+        "translation_en": "Please pay at the machine in the parking lot."
+      },
+      "responses": [
+        {
+          "english": "Please pay at the machine in the parking lot.",
+          "phonetic": "tOOooDohOOnoh-sEHeesngkEEdeh-hTtEHkoodsEE",
+          "french": "ちゅうしゃじょうの せいさんきで はらってください。"
+        }
+      ]
+    },
+    {
+      "id": "nara_mount_wakakusa_002",
+      "intent_en": "Where is the Yamayaki viewing spot?",
+      "text_local": "やまやきの みえる ばしょは どこですか？",
+      "pronunciation": "yMykEEnoh-meeEHoo-bOHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "On the day of the festival, the best spots fill up hours in advance, so a terse reminder to arrive early is common.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ならこうえんの ひがしがわ、はやめに どうぞ。",
+        "pronunciation": "nKOHooEHnnoh-khEEgeegWhYmEHnee-dohOOzoh",
+        "translation_en": "East side of Nara Park, get there early."
+      },
+      "responses": [
+        {
+          "english": "East side of Nara Park, get there early.",
+          "phonetic": "nKOHooEHnnoh-khEEgeegWhYmEHnee-dohOOzoh",
+          "french": "ならこうえんの ひがしがわ、はやめに どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "nara_mount_wakakusa_003",
+      "intent_en": "How do I reach the 342m marker?",
+      "text_local": "342mの ひょうしきまで どう いけば いいですか？",
+      "pronunciation": "sNkhkOO-yohn-dzOOnee-nOH-khOHooEEkeemDeh-dOHoo-eekEHb-EEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "A gesture pointing up the trail accompanies this, indicating the summit marker is simply at the peak.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "このさき、ずっと のぼると てっぺんです。",
+        "pronunciation": "kOHnohsKeezOOttoh-nOHbohOOtoh-tEHhpehndEHsoo",
+        "translation_en": "It's at the top, if you keep going up from here."
+      },
+      "responses": [
+        {
+          "english": "It's at the top, if you keep going up from here.",
+          "phonetic": "kOHnohsKeezOOttoh-nOHbohOOtoh-tEHhpehndEHsoo",
+          "french": "このさき、ずっと のぼると てっぺんです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_mount_wakakusa_004",
+      "intent_en": "Is the trail open today?",
+      "text_local": "きょう、とざんどうは あいてますか？",
+      "pronunciation": "kOHootOHzndohOOh-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "The mountain has a fixed winter closure period, so a direct 'no' with a brief reason is natural.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、ふゆの あいだは しまってます。",
+        "pronunciation": "EEehooyOOnoh-EEdH-EEmttehmSoo",
+        "translation_en": "No, it's closed for the winter."
+      },
+      "responses": [
+        {
+          "english": "No, it's closed for the winter.",
+          "phonetic": "EEehooyOOnoh-EEdH-EEmttehmSoo",
+          "french": "いいえ、ふゆの あいだは しまってます。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

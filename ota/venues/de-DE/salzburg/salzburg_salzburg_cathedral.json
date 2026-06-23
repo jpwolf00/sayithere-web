@@ -1,0 +1,122 @@
+{
+  "id": "salzburg_salzburg_cathedral",
+  "name_en": "Salzburg Cathedral",
+  "name_local": "Salzburger Dom",
+  "icon": "building.columns",
+  "lat": 47.7978459,
+  "lon": 13.0466232,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "salzburg_salzburg_cathedral_001",
+      "intent_en": "Buy souvenir candles here",
+      "text_local": "Wo kann ich Kerzen kaufen?",
+      "pronunciation": "vOH-kAHn-ihkh-kEHrtsuhn-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Kerzenstände sind in Kirchen oft nahe dem Ausgang oder Eingangsbereich platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Ausgang links.",
+        "pronunciation": "ahm-OWsAHng-lINGks",
+        "translation_en": "Left at the exit."
+      },
+      "responses": [
+        {
+          "english": "Left at the exit.",
+          "phonetic": "ahm-OWsAHng-lINGks",
+          "french": "Am Ausgang links."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_salzburg_cathedral_002",
+      "intent_en": "Crypt tour donation available",
+      "text_local": "Kann man für die Krypta spenden?",
+      "pronunciation": "kAHn-mahn-fuer-dee-krUEptah-shpEHnduhn",
+      "formality": "standard",
+      "cultural_note": "Spendenboxen bei historischen Stätten sind oft dezent am Ausgang platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Ausgang.",
+        "pronunciation": "yAHahm-OWsAHng",
+        "translation_en": "Yes, at the exit."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the exit.",
+          "phonetic": "yAHahm-OWsAHng",
+          "french": "Ja, am Ausgang."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_salzburg_cathedral_003",
+      "intent_en": "See Mozart baptismal font",
+      "text_local": "Wo ist der Mozart-Taufstein?",
+      "pronunciation": "vOH-ihst-dehr-mOHtsahrttOWfshteyen",
+      "formality": "standard",
+      "cultural_note": "Taufsteine sind oft in separaten Kapellen oder markierten Bereichen ausgestellt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, im ersten Seitenaltar links.",
+        "pronunciation": "guhrAHdehOWsihm-EHrstuhn-zEYEtuhnahltAHr-lINGks",
+        "translation_en": "Straight ahead, in the first side altar on the left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, in the first side altar on the left.",
+          "phonetic": "guhrAHdehOWsihm-EHrstuhn-zEYEtuhnahltAHr-lINGks",
+          "french": "Geradeaus, im ersten Seitenaltar links."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_salzburg_cathedral_004",
+      "intent_en": "Saint Rupert altar location",
+      "text_local": "Wo steht der Rupertusaltar?",
+      "pronunciation": "vOH-shtEHt-dehr-rOOptOOzahltAHr",
+      "formality": "standard",
+      "cultural_note": "Historische Altäre sind in Kirchen meist zentral oder in markanten Bereichen wie Chor oder Seitenaltären platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Westchor des Doms.",
+        "pronunciation": "ihm-vEHstshohr-dehs-dOHms",
+        "translation_en": "In the west choir of the cathedral."
+      },
+      "responses": [
+        {
+          "english": "In the west choir of the cathedral.",
+          "phonetic": "ihm-vEHstshohr-dehs-dOHms",
+          "french": "Im Westchor des Doms."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_salzburg_cathedral_005",
+      "intent_en": "Tower climb ticket where",
+      "text_local": "Wo gibt es Tickets für den Turmaufstieg?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fuer-dehn-tUHuhmowfstEEk",
+      "formality": "standard",
+      "cultural_note": "An der Kathedrale wird Ticketverkauf oft zentral organisiert, nicht direkt am Turm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Dom.",
+        "pronunciation": "ahm-shAHlt-ihm-dOHm",
+        "translation_en": "At the counter in the cathedral."
+      },
+      "responses": [
+        {
+          "english": "At the counter in the cathedral.",
+          "phonetic": "ahm-shAHlt-ihm-dOHm",
+          "french": "Am Schalter im Dom."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

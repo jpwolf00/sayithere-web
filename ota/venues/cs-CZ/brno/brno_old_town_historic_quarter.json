@@ -1,0 +1,78 @@
+{
+  "id": "brno_old_town_historic_quarter",
+  "name_en": "Old Town historic quarter",
+  "name_local": "Staré Město",
+  "icon": "map",
+  "lat": 49.1902539,
+  "lon": 16.5943387,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "brno_old_town_historic_quarter_001",
+      "intent_en": "Which tram goes to Petrov Cathedral?",
+      "text_local": "Která tramvaj jede k Petrovu?",
+      "pronunciation": "ktEHrah-trAHmvahy-yEHdeh-k-pEHtrohvoo",
+      "formality": "standard",
+      "cultural_note": "Tram drivers may refer to the cathedral by the local name 'Petrov' rather than 'Katedrála svatého Petra a Pavla'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Čtyřka nebo dvanáctka, vystupte na zastávce Mendlovo náměstí.",
+        "pronunciation": "tshtEErkah-nEHboh-dvAHnahtstkahvEEstoopteh-nAHzahstAHftseh-mEHndlohvoh-nAHmnyehsee",
+        "translation_en": "Number four or twelve, get off at Mendlovo Square."
+      },
+      "responses": [
+        {
+          "english": "Number four or twelve, get off at Mendlovo Square.",
+          "phonetic": "tshtEErkah-nEHboh-dvAHnahtstkahvEEstoopteh-nAHzahstAHftseh-mEHndlohvoh-nAHmnyehsee",
+          "french": "Čtyřka nebo dvanáctka, vystupte na zastávce Mendlovo náměstí."
+        }
+      ]
+    },
+    {
+      "id": "brno_old_town_historic_quarter_002",
+      "intent_en": "Do market stalls here take cards?",
+      "text_local": "Berou tady na trhu karty?",
+      "pronunciation": "bEHroh-tAHdee-nAHtrhoo-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "Many smaller stalls at Zelný trh operate on a cash-only basis, so it is wise to have coins and smaller bills ready.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jen hotovost.",
+        "pronunciation": "nEHyEHn-hOHtohvohst",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "nEHyEHn-hOHtohvohst",
+          "french": "Ne, jen hotovost."
+        }
+      ]
+    },
+    {
+      "id": "brno_old_town_historic_quarter_003",
+      "intent_en": "How do I pay for parking by SMS?",
+      "text_local": "Jak zaplatím parkování přes SMS?",
+      "pronunciation": "yAHk-zAHplaheem-pAHrkohvAHnyee-prEHs-EHsEHmEHs",
+      "formality": "standard",
+      "cultural_note": "SMS parking payment is common in Brno's blue zones; you must send the message from a Czech phone number.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pošlete zprávu s SPZ na číslo na automatu.",
+        "pronunciation": "pOHshlehteh-sprAHvoo-s-EHspEHzEHt-nAHtsheesloh-nah-OWtohmAHtoo",
+        "translation_en": "Send a message with your license plate to the number on the machine."
+      },
+      "responses": [
+        {
+          "english": "Send a message with your license plate to the number on the machine.",
+          "phonetic": "pOHshlehteh-sprAHvoo-s-EHspEHzEHt-nAHtsheesloh-nah-OWtohmAHtoo",
+          "french": "Pošlete zprávu s SPZ na číslo na automatu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

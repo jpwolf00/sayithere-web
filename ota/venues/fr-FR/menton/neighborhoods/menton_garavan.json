@@ -1,0 +1,99 @@
+{
+  "id": "menton_garavan",
+  "name_en": "Garavan",
+  "name_local": "Garavan",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "garavan_jardin",
+      "intent_en": "Are there gardens to visit in this neighbourhood?",
+      "text_local": "Y a-t-il des jardins à visiter dans ce quartier ?",
+      "pronunciation": "ee-ah-TEEL day zhar-DAN ah vee-zee-TAY don suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Garavan is home to several Belle Époque villas and exotic gardens including Serre de la Madone and Val Rahmeh botanical garden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "garavan_frontiere",
+      "intent_en": "Is the Italian border far from here?",
+      "text_local": "La frontière italienne est loin d'ici ?",
+      "pronunciation": "lah fron-TYAIR ee-tah-LYEN eh LWAN dee-SEE",
+      "formality": "polite",
+      "cultural_note": "Garavan is the easternmost district of Menton, just 2km from the Italian border at Ventimiglia.",
+      "responses": [
+        {
+          "english": "From Garavan, the Italian border is only a 5-minute walk following the Promenade du Soleil towards Ventimiglia.",
+          "phonetic": "OO ay LA fron-TYAYR duh-PWEE ga-ra-VAHN",
+          "french": "Depuis Garavan, la frontière italienne est à seulement 5 minutes à pied en suivant la Promenade du Soleil vers Ventimiglia."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_gar_men_x1",
+      "intent_en": "Ask what Garavan is known for",
+      "text_local": "Pour quoi Garavan est-il connu ?",
+      "pronunciation": "poor kwah gar-ah-VAHN ay-TEEL koh-NOO",
+      "formality": "polite",
+      "cultural_note": "Garavan is Menton's easternmost neighbourhood, bordering Italy, known for its luxury villas, exotic gardens and mild microclimate.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "For its exotic gardens and Belle Époque villas.",
+          "phonetic": "poor say zhar-DAN eg-zoh-TEEK ay say vee-LAH bel ay-POK.",
+          "french": "Pour ses jardins exotiques et ses villas Belle Époque."
+        }
+      ]
+    },
+    {
+      "id": "fr_gar_men_x2",
+      "intent_en": "Ask how far the Italian border is from Garavan",
+      "text_local": "À quelle distance se trouve la frontière italienne ?",
+      "pronunciation": "ah kel dees-TAHNS suh TROOV lah fron-TYAIR ee-tah-LYEN",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Less than a kilometre, on foot from the station.",
+          "phonetic": "MWAN duhn kee-loh-MET, ah PYAY duh-PWEE lah gar.",
+          "french": "Moins d'un kilomètre, à pied depuis la gare."
+        }
+      ]
+    },
+    {
+      "id": "fr_gar_men_x3",
+      "intent_en": "Ask which train goes from Garavan station to Monaco",
+      "text_local": "Quel train part de Garavan vers Monaco ?",
+      "pronunciation": "kel TRAN par duh gar-ah-VAHN vair moh-nah-KOH",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The TER toward Nice, stopping at Monaco-Monte-Carlo.",
+          "phonetic": "luh tay-uh-RAIR dee-rek-SYON NEES, ah-RAY moh-nah-KOH mon-tuh-KAR-loh.",
+          "french": "Le TER direction Nice, arrêt Monaco-Monte-Carlo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "residential neighbourhood",
+      "word_local": "le quartier résidentiel",
+      "pronunciation": "luh kar-TYAY ray-zee-don-SYEL"
+    },
+    {
+      "word_en": "villa (large private house)",
+      "word_local": "la villa",
+      "pronunciation": "lah VEE-lah"
+    }
+  ]
+}

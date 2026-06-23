@@ -1,0 +1,95 @@
+{
+  "id": "rouen_neighborhood_rive_droite",
+  "name_en": "Right Bank (Rive Droite)",
+  "name_local": "Rive Droite de Rouen",
+  "icon": "building.2",
+  "lat": 49.443,
+  "lon": 1.08,
+  "radius_m": 800,
+  "phrases": [
+    {
+      "id": "rouen_rive_nb_001",
+      "intent_en": "Ask how to cross the Seine to the right bank on foot",
+      "text_local": "Comment puis-je traverser la Seine à pied pour rejoindre la Rive Droite ?",
+      "pronunciation": "koh-MAHN PWEE-zhuh trah-vair-SAY lah SEN ah PYAY poor ruh-ZHWAHN-druh lah REEV DRWAT",
+      "formality": "polite",
+      "cultural_note": "Several bridges cross the Seine between Rouen's banks. The Pont Boieldieu provides direct pedestrian access. The Rive Droite offers a calmer, more residential Rouen away from the main tourist circuit.",
+      "responses": [
+        {
+          "english": "Take the Jeanne d'Arc bridge right behind you.",
+          "phonetic": "kaw-MAHN pwee zhuh trah-vair-SAY lah SEEN ah PYAY poor ruh-ZHWAN-dr lah REEV DRWAT",
+          "french": "Prenez le pont Jeanne d'Arc juste derrière vous."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_rive_nb_002",
+      "intent_en": "Ask about the Sunday market in the Rive Droite area",
+      "text_local": "Y a-t-il un marché dominical dans ce quartier de la Rive Droite ?",
+      "pronunciation": "ee ah-TEEL uhn mar-SHAY doh-mee-nee-KAL dahn suh kar-TYAY duh lah REEV DRWAT",
+      "formality": "polite",
+      "cultural_note": "The Rive Droite hosts neighbourhood markets serving local residents rather than tourists. These are among the best places to experience everyday Rouen life and buy seasonal Norman produce at honest prices.",
+      "responses": [
+        {
+          "english": "The Sunday market is held at Place Saint-Marc.",
+          "phonetic": "OO suh TROOV luh MAR-shay dyoo dee-MAHNSH syoor lah REEV DRWAT",
+          "french": "Le marché du dimanche se tient place Saint-Marc."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_rive_nb_003",
+      "intent_en": "Ask for a restaurant recommendation away from tourist crowds",
+      "text_local": "Pouvez-vous recommander un restaurant fréquenté par les Rouennais plutôt que les touristes ?",
+      "pronunciation": "poo-vay-VOO ruh-koh-mahn-DAY uhn res-toh-RAHN fray-kahn-TAY par lay roo-ah-NAY ploo-TOH kuh lay too-REEST",
+      "formality": "polite",
+      "cultural_note": "Restaurants on the Rive Droite typically offer better value and more authentic Norman cuisine than those clustered around the cathedral. Rouennais locals often recommend the quayside brasseries near the Pont Guillaume-le-Conquérant.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "rouen_rive_nb_004",
+      "intent_en": "Ask about the Jardin des Plantes",
+      "text_local": "Le Jardin des Plantes de Rouen est-il ouvert au public aujourd'hui ?",
+      "pronunciation": "luh zhar-DAHN day PLAHNT duh roo-AHN eh-TEEL oo-VAIR oh poo-BLEEK oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Rouen's botanical garden, dating to the 17th century, is a peaceful escape on the Rive Droite. It features greenhouses, rose gardens, and ancient trees. Entry is free and it is popular with local families on weekends.",
+      "responses": [
+        {
+          "english": "It's that way, near the Seine.",
+          "phonetic": "OO ES / EH luh zhar-DAN duh PLAHNT",
+          "french": "C'est par là, près de la Seine."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "right bank",
+      "word_local": "la Rive Droite",
+      "pronunciation": "lah REEV DRWAT"
+    },
+    {
+      "word_en": "bridge",
+      "word_local": "le pont",
+      "pronunciation": "luh POHN"
+    },
+    {
+      "word_en": "neighbourhood",
+      "word_local": "le quartier",
+      "pronunciation": "luh kar-TYAY"
+    },
+    {
+      "word_en": "botanical garden",
+      "word_local": "le jardin des plantes",
+      "pronunciation": "luh zhar-DAHN day PLAHNT"
+    }
+  ]
+}

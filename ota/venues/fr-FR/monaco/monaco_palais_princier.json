@@ -1,0 +1,115 @@
+{
+  "id": "monaco_palais_princier",
+  "name_en": "Prince's Palace of Monaco",
+  "name_local": "Palais Princier de Monaco",
+  "icon": "crown",
+  "phrases": [
+    {
+      "id": "monaco_pp_001",
+      "intent_en": "Ask about changing of the guard times",
+      "text_local": "À quelle heure a lieu la relève de la garde ?",
+      "pronunciation": "ah kel UHR ah lee-OO lah ruh-LAYV duh lah GARD",
+      "formality": "polite",
+      "cultural_note": "The changing of the guard ceremony takes place every day at 11:55am on the Place du Palais. It's a popular photo opportunity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Every day at 11:55 AM, on the square.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "Tous les jours à onze heures cinquante-cinq, sur la place."
+        }
+      ]
+    },
+    {
+      "id": "monaco_pp_002",
+      "intent_en": "Ask about palace tour tickets",
+      "text_local": "Où peut-on acheter des billets pour la visite du palais ?",
+      "pronunciation": "oo puh-TOHN ah-shuh-TAY day bee-YAY poor lah vee-ZEET doo pah-LAY",
+      "formality": "polite",
+      "cultural_note": "Palace tours run daily except when the Prince is in residence. Tickets include access to the State Apartments and the Monaco Museum.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the ticket office on the square. Tours from April to October.",
+          "phonetic": "say VAHN-tur roh par pear-SOHN",
+          "french": "Au guichet sur la place. Visites d'avril à octobre."
+        }
+      ]
+    },
+    {
+      "id": "monaco_pp_003",
+      "intent_en": "Ask if photos are allowed inside",
+      "text_local": "Peut-on prendre des photos à l'intérieur du palais ?",
+      "pronunciation": "puh-TOHN PRAHN-druh day FOH-toh ah lan-tay-RYUHR doo pah-LAY",
+      "formality": "polite",
+      "cultural_note": "Photography rules vary by room in the palace. Always check with the guide or look for signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, photos are not allowed inside.",
+          "phonetic": "nohn, lay FOH-toh son an-tair-DEET ah lan-tay-RYUHR",
+          "french": "Non, les photos sont interdites à l'intérieur."
+        }
+      ]
+    },
+    {
+      "id": "monaco_pp_004",
+      "intent_en": "Ask about the view from the terraces",
+      "text_local": "Y a-t-il une belle vue depuis les terrasses ?",
+      "pronunciation": "ee-ah-TEEL un bel VOO duh-POO lay tah-RASS",
+      "formality": "polite",
+      "cultural_note": "The palace terraces offer panoramic views of Monaco's harbor and the French Riviera coastline — one of the best viewpoints in the Principality.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, go up the stairs to the right. Magnificent view.",
+          "phonetic": "wee, sur-TOO par tahn clair",
+          "french": "Oui, montez les escaliers à droite. Vue magnifique."
+        }
+      ]
+    },
+    {
+      "id": "monaco_pp_005",
+      "intent_en": "Ask about the Prince's car collection",
+      "text_local": "Peut-on voir la collection de voitures du Prince ?",
+      "pronunciation": "puh-TOHN vwar lah koh-lek-SYOHN duh vwah-TOOR doo PRANS",
+      "formality": "polite",
+      "cultural_note": "Prince Albert II's car collection is displayed at the Monaco Top Cars Collection museum near the Fontvieille district — featuring rare vintage models.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the Top Cars museum in Fontvieille, a fifteen-minute walk.",
+          "phonetic": "wee, lah koh-lek-SYON duh vwah-TUR suh vee-ZEET dahn les-PASS day-dee-AY doo pah-LAY",
+          "french": "Au musée Top Cars à Fontvieille, à quinze minutes à pied."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "palace",
+      "word_local": "le palais",
+      "pronunciation": "luh pah-LAY"
+    },
+    {
+      "word_en": "guard",
+      "word_local": "la garde",
+      "pronunciation": "lah GARD"
+    },
+    {
+      "word_en": "Prince",
+      "word_local": "le Prince",
+      "pronunciation": "luh PRANS"
+    },
+    {
+      "word_en": "terrace",
+      "word_local": "la terrasse",
+      "pronunciation": "lah tah-RASS"
+    }
+  ]
+}

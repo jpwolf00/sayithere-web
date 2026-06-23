@@ -1,0 +1,144 @@
+{
+  "id": "ankara_anıtkabir",
+  "name_en": "Anıtkabir",
+  "name_local": "Anıtkabir",
+  "icon": "building.columns",
+  "lat": 39.9267385,
+  "lon": 32.8365635,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "ankara_anıtkabir_001",
+      "intent_en": "Is the museum audio guide available?",
+      "text_local": "Sesli rehber var mı?",
+      "pronunciation": "muezEH-sehslIH-rehhbehrIH-muesahIHt-mih",
+      "formality": "standard",
+      "cultural_note": "Hizmetin durumu anlık değişebileceği için personel kısa ve net bir yönlendirme yapar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, girişte kiralanıyor.",
+        "pronunciation": "ehvEHteerihshtEH-keerahahnOOyawr",
+        "translation_en": "Yes, it's rented at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's rented at the entrance.",
+          "phonetic": "ehvEHteerihshtEH-keerahahnOOyawr",
+          "french": "Evet, girişte kiralanıyor."
+        }
+      ]
+    },
+    {
+      "id": "ankara_anıtkabir_002",
+      "intent_en": "Where do I leave bags at security?",
+      "text_local": "Güvenlik noktasındaki dolaplar nerede?",
+      "pronunciation": "uevahnlihktEH-tshahntahAHroomoo-nEHrehyeh-boorahkOOroom",
+      "formality": "standard",
+      "cultural_note": "Güvenlik noktasındaki bagaj prosedürleri için en doğru bilgiyi danışma verecektir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Giriş kapısının solunda.",
+        "pronunciation": "eerIHsh-kahpoosoonOOn-sohuhndAH",
+        "translation_en": "On the left of the entrance gate."
+      },
+      "responses": [
+        {
+          "english": "On the left of the entrance gate.",
+          "phonetic": "eerIHsh-kahpoosoonOOn-sohuhndAH",
+          "french": "Giriş kapısının solunda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_anıtkabir_003",
+      "intent_en": "Which way to Lion Road from here?",
+      "text_local": "Aslanlı Yol'a hangi yönden gidilir?",
+      "pronunciation": "bOOrahdahn-ahsahnOO-yohAH-nahsOO-eedeelIHr",
+      "formality": "standard",
+      "cultural_note": "Anıtkabir'deki yolların yönlendirmesi için resmi bir danışma noktasına başvurmak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana girişten dümdüz.",
+        "pronunciation": "ahnAH-eerihshtAHn-dUHmduhz",
+        "translation_en": "Straight ahead from the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead from the main entrance.",
+          "phonetic": "ahnAH-eerihshtAHn-dUHmduhz",
+          "french": "Ana girişten dümdüz."
+        }
+      ]
+    },
+    {
+      "id": "ankara_anıtkabir_004",
+      "intent_en": "Which way to Lion Road from here?",
+      "text_local": "Buradan Aslanlı Yol'a hangi yöne?",
+      "pronunciation": "bOOrahdahn-ahsahnOO-yohAH-hahngIH-yuhnEH",
+      "formality": "standard",
+      "cultural_note": "Anıtkabir'deki yolların kesin konumunu tarif etmek karmaşıktır; en doğru yönlendirme için danışmaya yönlendirilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana girişten dümdüz.",
+        "pronunciation": "ahnAH-eerihshtAHn-dUHmduhz",
+        "translation_en": "Straight ahead from the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead from the main entrance.",
+          "phonetic": "ahnAH-eerihshtAHn-dUHmduhz",
+          "french": "Ana girişten dümdüz."
+        }
+      ]
+    },
+    {
+      "id": "ankara_anıtkabir_005",
+      "intent_en": "Where do I leave bags at security?",
+      "text_local": "Güvenlikte çantaları nereye bırakıyorum?",
+      "pronunciation": "uevahnlihktEH-tshahntahahrOO-nEHrehyeh-boorahkOOyohruhm",
+      "formality": "standard",
+      "cultural_note": "Güvenlik noktasındaki işlemler için doğrudan oradaki görevliye yönlendirme yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Güvenlik noktasında görevliye teslim edin.",
+        "pronunciation": "uevahnlIHk-nawktahsoondAH-uhrehvleeyEH-tEHslihm-ehdEEn",
+        "translation_en": "Hand them to the officer at the security checkpoint."
+      },
+      "responses": [
+        {
+          "english": "Hand them to the officer at the security checkpoint.",
+          "phonetic": "uevahnlIHk-nawktahsoondAH-uhrehvleeyEH-tEHslihm-ehdEEn",
+          "french": "Güvenlik noktasında görevliye teslim edin."
+        }
+      ]
+    },
+    {
+      "id": "ankara_anıtkabir_006",
+      "intent_en": "Where is the Hall of Honor?",
+      "text_local": "Şeref Salonu nerede?",
+      "pronunciation": "shehrEHf-sahohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Anıtkabir geniş bir alan olduğu için, belirli bir noktanın tarifi ancak güvenlik veya rehber tarafından verilebilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Merdivenlerden yukarı, dümdüz.",
+        "pronunciation": "mehrdeevahnlehrdAHn-yookahrOOdUHmduhz",
+        "translation_en": "Up the stairs, straight ahead."
+      },
+      "responses": [
+        {
+          "english": "Up the stairs, straight ahead.",
+          "phonetic": "mehrdeevahnlehrdAHn-yookahrOOdUHmduhz",
+          "french": "Merdivenlerden yukarı, dümdüz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

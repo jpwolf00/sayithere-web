@@ -1,0 +1,100 @@
+{
+  "id": "zurich_niederdorf_old_town",
+  "name_en": "Niederdorf Old Town",
+  "name_local": "Niederdorf",
+  "icon": "map",
+  "lat": 47.3732977,
+  "lon": 8.5438091,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "zurich_niederdorf_old_town_001",
+      "intent_en": "Where do river cruises board on Limmatquai?",
+      "text_local": "Wo legen die Limmatquai-Schiffe ab?",
+      "pronunciation": "vOH-EHuhn-dee-shIHfuh-fawn-lIHmahtkvEYE-AHp",
+      "formality": "casual",
+      "cultural_note": "Signage at Limmatquai directs to boarding points for river cruises.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt vor dem Grossmünster.",
+        "pronunciation": "deerEHkt-fAWr-dehm-grAWsmuenst",
+        "translation_en": "Right in front of the Grossmünster."
+      },
+      "responses": [
+        {
+          "english": "Right in front of the Grossmünster.",
+          "phonetic": "deerEHkt-fAWr-dehm-grAWsmuenst",
+          "french": "Direkt vor dem Grossmünster."
+        }
+      ]
+    },
+    {
+      "id": "zurich_niederdorf_old_town_002",
+      "intent_en": "Which tram line serves Niederdorfstrasse?",
+      "text_local": "Welche Tram fährt nach Niederdorf?",
+      "pronunciation": "vEHlkhuh-trAHm-fEHrt-nahkh-nEEddAWrf",
+      "formality": "standard",
+      "cultural_note": "Niederdorf is served by multiple tram lines; routes are clearly displayed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Linie 2, 4, 15.",
+        "pronunciation": "lEEnee-uh-tsvEYEfEErfUEnftsehn",
+        "translation_en": "Lines 2, 4, 15."
+      },
+      "responses": [
+        {
+          "english": "Lines 2, 4, 15.",
+          "phonetic": "lEEnee-uh-tsvEYEfEErfUEnftsehn",
+          "french": "Linie 2, 4, 15."
+        }
+      ]
+    },
+    {
+      "id": "zurich_niederdorf_old_town_003",
+      "intent_en": "Can I split the bill at this restaurant?",
+      "text_local": "Kann man hier getrennt zahlen?",
+      "pronunciation": "kAHn-mahn-hEEr-uhtrEHnt-tsAHluhn",
+      "formality": "casual",
+      "cultural_note": "Split bills are common; ask explicitly at the cash desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Kasse.",
+        "pronunciation": "yAHahn-dehr-kAHsuh",
+        "translation_en": "Yes, at the cash desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the cash desk.",
+          "phonetic": "yAHahn-dehr-kAHsuh",
+          "french": "Ja, an der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "zurich_niederdorf_old_town_004",
+      "intent_en": "Where is the Grossmünster church from here?",
+      "text_local": "Wo ist das Grossmünster?",
+      "pronunciation": "vOH-ihst-dahs-rAWsmuenst",
+      "formality": "standard",
+      "cultural_note": "Directions often reference bridges and prominent landmarks rather than exact distances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus zur Brücke, dann links.",
+        "pronunciation": "uhrAHdehOWs-tsoor-brUEkuhdahn-lINGks",
+        "translation_en": "Straight to the bridge, then left."
+      },
+      "responses": [
+        {
+          "english": "Straight to the bridge, then left.",
+          "phonetic": "uhrAHdehOWs-tsoor-brUEkuhdahn-lINGks",
+          "french": "Geradeaus zur Brücke, dann links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ankara_tunali_hilmi_street",
+  "name_en": "Tunali Hilmi Street",
+  "name_local": "Tunalı Hilmi Caddesi",
+  "icon": "bag",
+  "lat": 39.9063106,
+  "lon": 32.8609281,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "ankara_tunali_hilmi_street_001",
+      "intent_en": "Where is 7th Street?",
+      "text_local": "7. Cadde nerede?",
+      "pronunciation": "yehdEEdzhahdEH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Esnaf tam konumu bilmiyorsa danışmaya yönlendirir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tunalı Hilmi Caddesi'nin sonunda, Tunalı Parkı'na doğru yürüyün.",
+        "pronunciation": "toonahOO-hihlmIH-dzhahdehseenIHn-sohnuhndAHtoonahOO-pahrkoonAH-dohrUH-yuerueyUHn",
+        "translation_en": "Walk toward Tunalı Parkı at the end of Tunalı Hilmi Street."
+      },
+      "responses": [
+        {
+          "english": "Walk toward Tunalı Parkı at the end of Tunalı Hilmi Street.",
+          "phonetic": "toonahOO-hihlmIH-dzhahdehseenIHn-sohnuhndAHtoonahOO-pahrkoonAH-dohrUH-yuerueyUHn",
+          "french": "Tunalı Hilmi Caddesi'nin sonunda, Tunalı Parkı'na doğru yürüyün."
+        }
+      ]
+    },
+    {
+      "id": "ankara_tunali_hilmi_street_002",
+      "intent_en": "Where can I top up my metro card?",
+      "text_local": "Metro kartımı nerede doldurabilirim?",
+      "pronunciation": "mehtrAW-kahrtOO-nEHrehdeh-dawdoorahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Metro kart dolumu için belirli bir nokta belirtilmemiş, danışma yönlendirmesi yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yedinci Cadde'deki bakkallardan yapabilirsiniz.",
+        "pronunciation": "yehdihndzhIH-dzhahdehdehkIH-bahkahahrdAHn-yahpahbeelIHrseenihz",
+        "translation_en": "You can do it at the grocery stores on 7th Street."
+      },
+      "responses": [
+        {
+          "english": "You can do it at the grocery stores on 7th Street.",
+          "phonetic": "yehdihndzhIH-dzhahdehdehkIH-bahkahahrdAHn-yahpahbeelIHrseenihz",
+          "french": "Yedinci Cadde'deki bakkallardan yapabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "ankara_tunali_hilmi_street_003",
+      "intent_en": "Where can I top up my metro card?",
+      "text_local": "Metro kartımı nerede doldurabilirim?",
+      "pronunciation": "mehtrAW-kAHrtoomoo-nEHrehdeh-dawdoorahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Ankara'da metro kart dolumu genelde istasyon girişlerinde yapılır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kızılay metro bağlantısında.",
+        "pronunciation": "koozooAHy-mehtrAW-bahahntoosoondAH",
+        "translation_en": "At the Kızılay metro connection."
+      },
+      "responses": [
+        {
+          "english": "At the Kızılay metro connection.",
+          "phonetic": "koozooAHy-mehtrAW-bahahntoosoondAH",
+          "french": "Kızılay metro bağlantısında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

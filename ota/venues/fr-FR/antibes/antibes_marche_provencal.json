@@ -1,0 +1,118 @@
+{
+  "id": "antibes_marche_provencal",
+  "name_en": "Provençal Market",
+  "name_local": "Marché Provençal",
+  "icon": "basket",
+  "lat": 43.6258,
+  "lon": 7.1098,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "antibes_marche_001",
+      "intent_en": "Ask what fruits are in season locally",
+      "text_local": "Quels fruits sont de saison actuellement ?",
+      "pronunciation": "kel FRWEE son duh say-ZON ak-tyoo-el-MAN",
+      "formality": "polite",
+      "cultural_note": "The Provence region produces delicious seasonal fruits: strawberries from Carros, peaches, melons from Cavaillon, and figs in late summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Right now, we have strawberries and melons.",
+          "phonetic": "ahn suh moh-MAHN, ohn ah day frez ay day muh-LOHN",
+          "french": "En ce moment, on a des fraises et des melons."
+        }
+      ]
+    },
+    {
+      "id": "antibes_marche_002",
+      "intent_en": "Ask for a sample of the local olive oil",
+      "text_local": "Puis-je avoir un échantillon de l'huile d'olive locale ?",
+      "pronunciation": "PWEE-zhuh ah-VWAHR un ay-kahn-TEE-yon duh LWEEL do-LEE-v lo-KAL",
+      "formality": "polite",
+      "cultural_note": "Provence produces excellent olive oils. The market vendors typically offer tastings — it's the best way to find your preferred flavor profile.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, try this one. It's locally produced.",
+          "phonetic": "wee, goo-TAY sel-SEE. say duh lah proh-dook-SYON lo-KAL",
+          "french": "Oui, goûtez celle-ci. C'est de la production locale."
+        }
+      ]
+    },
+    {
+      "id": "antibes_marche_003",
+      "intent_en": "Ask how much a kilogram of tomatoes costs",
+      "text_local": "Combien coûte un kilogramme de tomates ?",
+      "pronunciation": "kom-BYAN koot un kee-lo-gram duh toh-MAHT",
+      "formality": "polite",
+      "cultural_note": "Prices at Provençal markets are often per kilogram. Don't hesitate to bargain slightly at independent stalls, though it's not expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Four euros per kilo.",
+          "phonetic": "katr uh-ROH luh kee-LO",
+          "french": "Quatre euros le kilo."
+        }
+      ]
+    },
+    {
+      "id": "antibes_marche_004",
+      "intent_en": "Ask where the cheese vendor is",
+      "text_local": "Où est le stand de fromage, s'il vous plaît ?",
+      "pronunciation": "oo eh leh stand duh froh-MAHZH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The market features local cheeses: goat cheese from the region (chèvre), tome, and the famous Brillat-Savarin from Normandy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the back of the market, on the right.",
+          "phonetic": "oh fohn doo mar-SHAY, soor lah DRWAHT",
+          "french": "Au fond du marché, sur la droite."
+        }
+      ]
+    },
+    {
+      "id": "antibes_marche_005",
+      "intent_en": "Ask if they accept credit cards",
+      "text_local": "Acceptez-vous les cartes bancaires ?",
+      "pronunciation": "ak-sep-TAY voo lay kahrt banh-KAH",
+      "formality": "polite",
+      "cultural_note": "Small market vendors often prefer cash. Large markets may accept cards, but always ask before filling your basket.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, cash only here.",
+          "phonetic": "nohn, suhl-MAHN ahn es-PES ee-SEE",
+          "french": "Non, seulement en espèces ici."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "market",
+      "word_local": "le marché",
+      "pronunciation": "leh mar-SHAY"
+    },
+    {
+      "word_en": "fresh produce",
+      "word_local": "les produits frais",
+      "pronunciation": "lay pro-DWEE FREH"
+    },
+    {
+      "word_en": "olive oil",
+      "word_local": "l'huile d'olive",
+      "pronunciation": "LWEEL do-LEE-v"
+    },
+    {
+      "word_en": "local cheese",
+      "word_local": "le fromage local",
+      "pronunciation": "leh froh-MAHZH lo-KAL"
+    }
+  ]
+}

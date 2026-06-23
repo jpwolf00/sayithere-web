@@ -1,0 +1,188 @@
+{
+  "id": "ioannina_lake_pamvotida",
+  "name_en": "Lake Pamvotida",
+  "name_local": "Παμβώτιδα Λίμνη",
+  "icon": "leaf",
+  "lat": 39.6607361,
+  "lon": 20.893353,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "ioannina_lake_pamvotida_001",
+      "intent_en": "Is the boat service running in winter",
+      "text_local": "Λειτουργεί το καραβάκι το χειμώνα;",
+      "pronunciation": "lEEtooryEE-toh-kAHrahvAHee-toh-kheemOHnah",
+      "formality": "standard",
+      "cultural_note": "Winter boat service may vary; staff have the most accurate information.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, αλλά λιγότερα δρομολόγια.",
+        "pronunciation": "nEHahlAH-leeghOHtehrAH-thrOHmohlOHyah",
+        "translation_en": "Yes, but fewer routes."
+      },
+      "responses": [
+        {
+          "english": "Yes, but fewer routes.",
+          "phonetic": "nEHahlAH-leeghOHtehrAH-thrOHmohlOHyah",
+          "french": "Ναι, αλλά λιγότερα δρομολόγια."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_lake_pamvotida_002",
+      "intent_en": "Where is Perama town from the lake shore",
+      "text_local": "Πού βρίσκεται το Πέραμα από την ακτή;",
+      "pronunciation": "pOHs-pAHoh-prOHs-pEHrahm-ahpOH-tee-lEEmnee",
+      "formality": "standard",
+      "cultural_note": "Perama is located to the north of the lake; directional cues from the shore are reliable.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Προς τα βόρεια, λίγο πιο πάνω.",
+        "pronunciation": "prOHs-tah-vOHrkhahlEEghoh-pkhOH-pAHnoh",
+        "translation_en": "To the north, a bit further up."
+      },
+      "responses": [
+        {
+          "english": "To the north, a bit further up.",
+          "phonetic": "prOHs-tah-vOHrkhahlEEghoh-pkhOH-pAHnoh",
+          "french": "Προς τα βόρεια, λίγο πιο πάνω."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_lake_pamvotida_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω ψητό χέλι κοντά στο λιμάνι;",
+      "pronunciation": "pOO-bohrOH-nah-vrOH-pseetOH-khEHlee-kohdAH-stoh-leemAHnee",
+      "formality": "polite",
+      "cultural_note": "Taverna owners near the harbor prepare grilled eel; staff can direct.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις ταβέρνες δίπλα στην προκυμαία.",
+        "pronunciation": "stees-tahvEHrnehz-thEEplah-steem-brOHeemEHah",
+        "translation_en": "At the tavernas along the waterfront."
+      },
+      "responses": [
+        {
+          "english": "At the tavernas along the waterfront.",
+          "phonetic": "stees-tahvEHrnehz-thEEplah-steem-brOHeemEHah",
+          "french": "Στις ταβέρνες δίπλα στην προκυμαία."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_lake_pamvotida_004",
+      "intent_en": "Where can I park along National Road 6",
+      "text_local": "Πού να παρκάρω στη Λίμνη Παμβώτιδα;",
+      "pronunciation": "pOO-nah-pahrkAHroh-stee-lEEmnee-pahmvOHteethAH",
+      "formality": "standard",
+      "cultural_note": "Road 6 splits the northern half of the lake; parking is available along its lakeside sections.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πάρκινγκ κατά μήκος της Λεωφόρου 6.",
+        "pronunciation": "pAHreeng-kahtAH-mEEkohs-teez-lEHohfOHroo-EHksee",
+        "translation_en": "Park along Road 6."
+      },
+      "responses": [
+        {
+          "english": "Park along Road 6.",
+          "phonetic": "pAHreeng-kahtAH-mEEkohs-teez-lEHohfOHroo-EHksee",
+          "french": "Πάρκινγκ κατά μήκος της Λεωφόρου 6."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_lake_pamvotida_005",
+      "intent_en": "Is lakeside parking free after six pm?",
+      "text_local": "Το πάρκινγκ είναι δωρεάν μετά τις έξι το απόγευμα;",
+      "pronunciation": "toh-pAHreeng-EEneh-thOHrehAHn-mehtAH-tees-EHksee-toh-ahpOHyeemAH",
+      "formality": "standard",
+      "cultural_note": "Evening parking rules may depend on local regulations; staff confirm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Όχι, είναι επί πληρωμή.",
+        "pronunciation": "OHkheeEEneh-ehpEE-plEErohmEE",
+        "translation_en": "No, it is paid."
+      },
+      "responses": [
+        {
+          "english": "No, it is paid.",
+          "phonetic": "OHkheeEEneh-ehpEE-plEErohmEE",
+          "french": "Όχι, είναι επί πληρωμή."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_lake_pamvotida_006",
+      "intent_en": "Where is the boat kiosk to the island",
+      "text_local": "Πού είναι το εκδοτήριο για το Νησί Ιωαννίνων;",
+      "pronunciation": "pOO-EEneh-toh-EHkthohtEEreeOH-yAH-toh-neesEE-EEohahnEEnohn",
+      "formality": "standard",
+      "cultural_note": "Boat ticket kiosks are typically located at official boat ports with signage.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Εκδοτήριο στο λιμάνι.",
+        "pronunciation": "EHkthohtEEreeOH-stoh-leemAHnee",
+        "translation_en": "Ticket kiosk at the port."
+      },
+      "responses": [
+        {
+          "english": "Ticket kiosk at the port.",
+          "phonetic": "EHkthohtEEreeOH-stoh-leemAHnee",
+          "french": "Εκδοτήριο στο λιμάνι."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_lake_pamvotida_007",
+      "intent_en": "Where is boat ticket kiosk at Perama?",
+      "text_local": "Πού είναι το εκδοτήριο βαρκάδας στο Πέραμα;",
+      "pronunciation": "pOO-EEneh-toh-EHkthohtEEreeOH-vahrkAHthahs-stoh-pEHrahmAH",
+      "formality": "standard",
+      "cultural_note": "Small fishing ports like Perama have ticket kiosks near their berths.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Εκδοτήριο στο λιμάνι του Πέραματος.",
+        "pronunciation": "EHkthohtEEreeOH-stoh-leemAHnee-too-pEHrahmAHtohs",
+        "translation_en": "Ticket booth at Perama port."
+      },
+      "responses": [
+        {
+          "english": "Ticket booth at Perama port.",
+          "phonetic": "EHkthohtEEreeOH-stoh-leemAHnee-too-pEHrahmAHtohs",
+          "french": "Εκδοτήριο στο λιμάνι του Πέραματος."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_lake_pamvotida_008",
+      "intent_en": "How do I tip boat service crew?",
+      "text_local": "Πώς δίνω φιλοδώρημα στον καπετάνιο;",
+      "pronunciation": "pOHz-thEEnoh-fEElohthOHreemAH-stohng-gAHpehtAHnyoh",
+      "formality": "standard",
+      "cultural_note": "Tipping is informal; a tip jar is typically placed near the boat service area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο βάζο του πληρώματος.",
+        "pronunciation": "stoh-vAHzoh-too-pleerOHmahtOHs",
+        "translation_en": "Into the crew tip jar."
+      },
+      "responses": [
+        {
+          "english": "Into the crew tip jar.",
+          "phonetic": "stoh-vAHzoh-too-pleerOHmahtOHs",
+          "french": "Στο βάζο του πληρώματος."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

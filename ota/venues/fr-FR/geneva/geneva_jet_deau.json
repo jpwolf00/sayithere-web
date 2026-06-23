@@ -1,0 +1,115 @@
+{
+  "id": "geneva_jet_deau",
+  "name_en": "Jet d'Eau",
+  "name_local": "Jet d'Eau",
+  "icon": "drop.fill",
+  "phrases": [
+    {
+      "id": "geneva_jet_001",
+      "intent_en": "Ask when the fountain operates",
+      "text_local": "À quelle heure met-on le Jet d'Eau en marche ?",
+      "pronunciation": "ah kel UR meh-TOHN luh ZHEH DOH on MARSH",
+      "formality": "polite",
+      "cultural_note": "The Jet d'Eau shoots water 140 metres into the air. It operates daily from March to October and on special occasions in winter.",
+      "responses": [
+        {
+          "english": "From March to October, during the day.",
+          "phonetic": "duh MARS ah ok-TOBR, ahn zhoor-NAY",
+          "french": "De mars à octobre, en journée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_jet_002",
+      "intent_en": "Ask for the best viewpoint",
+      "text_local": "D'où peut-on voir le Jet d'Eau sous son meilleur angle ?",
+      "pronunciation": "DOO puh-TOHN vwar luh ZHEH DOH soo sohn meh-YEUR AHN-gluh",
+      "formality": "polite",
+      "cultural_note": "The fountain is visible from the Pont du Mont-Blanc and from the Bains des Pâquis pier, each offering a different perspective.",
+      "responses": [
+        {
+          "english": "From the Quai du Mont-Blanc.",
+          "phonetic": "duh-PWEE luh KEH doo mohn-BLAHN",
+          "french": "Depuis le quai du Mont-Blanc."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_jet_003",
+      "intent_en": "Ask if you can walk near the fountain",
+      "text_local": "Est-il possible de se promener sur la jetée près du Jet d'Eau ?",
+      "pronunciation": "eh-TEEL poh-SEE-bluh duh suh prohm-NAY sur lah zhuh-TAY preh doo ZHEH DOH",
+      "formality": "polite",
+      "cultural_note": "A narrow pier leads close to the fountain, but visitors should expect to get wet on windy days — it is considered part of the experience.",
+      "responses": [
+        {
+          "english": "Yes, but watch out for the spray.",
+          "phonetic": "wee, meh ah-tahn-SYOHN oh zay-klah-boo-SOOR",
+          "french": "Oui, mais attention aux éclaboussures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_jet_004",
+      "intent_en": "Say the spray is reaching you",
+      "text_local": "Les embruns nous atteignent — c'est rafraîchissant !",
+      "pronunciation": "lay ZOM-brun nooz ah-TEHN-yuh — seh rah-freh-shee-SOHN",
+      "formality": "casual",
+      "cultural_note": "On windy days the mist from the Jet d'Eau can drench bystanders on the Pont du Mont-Blanc, which Genevans find entirely normal.",
+      "responses": [
+        {
+          "english": "Yes, it gets wet when it's windy!",
+          "phonetic": "wee, sah MOO-yuh kahn eel ee ah doo VAHN",
+          "french": "Oui, ça mouille quand il y a du vent !"
+        }
+      ],
+      "speech_act": "statement",
+      "expects_reply": false
+    },
+    {
+      "id": "geneva_jet_005",
+      "intent_en": "Ask how high the fountain shoots",
+      "text_local": "Le jet d'eau monte à quelle hauteur ?",
+      "pronunciation": "luh ZHEH DOH mohnt ah kel oh-TUHR",
+      "formality": "polite",
+      "cultural_note": "The Jet d'Eau shoots water up to 140 metres, making it one of the tallest fountains in the world.",
+      "responses": [
+        {
+          "english": "A hundred and forty metres.",
+          "phonetic": "sahn kah-RAHNT MEH-truh",
+          "french": "Cent quarante mètres."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fountain / water jet",
+      "word_local": "le jet d'eau",
+      "pronunciation": "luh ZHEH DOH"
+    },
+    {
+      "word_en": "spray / sea-spray",
+      "word_local": "les embruns",
+      "pronunciation": "lay ZOM-brun"
+    },
+    {
+      "word_en": "pier / jetty",
+      "word_local": "la jetée",
+      "pronunciation": "lah zhuh-TAY"
+    },
+    {
+      "word_en": "lake",
+      "word_local": "le lac",
+      "pronunciation": "luh LAHK"
+    }
+  ]
+}

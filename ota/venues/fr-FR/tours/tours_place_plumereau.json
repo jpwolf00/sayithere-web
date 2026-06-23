@@ -1,0 +1,110 @@
+{
+  "id": "tours_place_plumereau",
+  "name_en": "Place Plumereau – Old Town Square",
+  "name_local": "Place Plumereau",
+  "icon": "building",
+  "phrases": [
+    {
+      "id": "tours_plum_001",
+      "intent_en": "Ask for a table on the terrace",
+      "text_local": "Avez-vous une table en terrasse, s'il vous plaît ?",
+      "pronunciation": "ah-VAY-voo oon TAB-luh ahn teh-RASS, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Place Plumereau, known locally as 'la Place Plume', is the social heart of Vieux-Tours. Its cafés and restaurants fill the square with terrasse seating in warm weather.",
+      "responses": [
+        {
+          "english": "Yes, have a seat.",
+          "phonetic": "wee ahn-stah-LAY-VOO",
+          "french": "Oui, installez-vous."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_plum_002",
+      "intent_en": "Ask for a recommendation for a good terrace café",
+      "text_local": "Vous pouvez me recommander un bon café en terrasse ?",
+      "pronunciation": "voo poo-VAY muh ruh-koh-mahn-DAY uhn bohn kah-FAY ahn tay-RASS",
+      "formality": "polite",
+      "cultural_note": "Place Plumereau is lined with café terraces in a beautiful medieval setting.",
+      "responses": [
+        {
+          "english": "All the cafés here have nice terraces.",
+          "phonetic": "too lay kah-FAY ee-SEE ohn duh BON tay-RASS",
+          "french": "Tous les cafés ici ont de bonnes terrasses."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_plum_003",
+      "intent_en": "Ask if the square is pedestrianised",
+      "text_local": "La place est-elle piétonne ?",
+      "pronunciation": "lah PLASS ay-TEL pyay-TON",
+      "formality": "polite",
+      "cultural_note": "Place Plumereau and the surrounding streets of Vieux-Tours are pedestrianised, making it one of the most pleasant areas to stroll in the city.",
+      "responses": [
+        {
+          "english": "Yes, the square is pedestrian.",
+          "phonetic": "wee lah PLAHSS eh pyay-TON",
+          "french": "Oui, la place est piétonne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_plum_004",
+      "intent_en": "Ask where I can find a local Touraine wine bar nearby",
+      "text_local": "Y a-t-il un bar à vins avec des vins de Touraine dans les environs ?",
+      "pronunciation": "ee ah-TEEL un BAR ah VAN ah-VEK day VAN duh too-REN dahn lay zahn-vee-RON",
+      "formality": "polite",
+      "cultural_note": "The streets behind Place Plumereau — Rue du Grand Marché and Rue de la Rôtisserie — are lined with wine bars specialising in Loire Valley appellations.",
+      "responses": [
+        {
+          "english": "There is one right on the corner.",
+          "phonetic": "eel ee ahn ah uhn ZHOOST oh KWAHN duh lah ROO",
+          "french": "Il y en a un juste au coin de la rue."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_plum_005",
+      "intent_en": "Ask if there is a street market on the square",
+      "text_local": "Y a-t-il un marché sur la place le matin ?",
+      "pronunciation": "ee ah-TEEL un mar-SHAY soor lah PLASS luh mah-TAN",
+      "formality": "polite",
+      "cultural_note": "A small morning market takes place near Place Plumereau on weekends. The main covered market, Les Halles de Tours, is a short walk away.",
+      "responses": [
+        {
+          "english": "The market is on Saturday morning.",
+          "phonetic": "luh mar-SHAY eh luh sam-DEE mah-TAHN",
+          "french": "Le marché est le samedi matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "terrace / outdoor seating",
+      "word_local": "la terrasse",
+      "pronunciation": "lah teh-RASS"
+    },
+    {
+      "word_en": "square",
+      "word_local": "la place",
+      "pronunciation": "lah PLASS"
+    },
+    {
+      "word_en": "pedestrian zone",
+      "word_local": "la zone piétonne",
+      "pronunciation": "lah ZON pyay-TON"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "naxos_axiotissa_restaurant",
+  "name_en": "Axiotissa Restaurant",
+  "name_local": "Αξιότισσα",
+  "icon": "fork.knife",
+  "lat": 37.0054374,
+  "lon": 25.3949726,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "naxos_axiotissa_restaurant_001",
+      "intent_en": "How to leave tip not on bill",
+      "text_local": "Πώς αφήνω το φιλοδώρημα;",
+      "pronunciation": "pOHs-ahfEEnoh-toh-fEElohthOHreemAH",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αφήνουν το φιλοδώρημα πάνω στο τραπέζι μέσα στην πιατέλα μετά το γεύμα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην πιατέλα.",
+        "pronunciation": "steem-bkhahtEHlah",
+        "translation_en": "In the dish."
+      },
+      "responses": [
+        {
+          "english": "In the dish.",
+          "phonetic": "steem-bkhahtEHlah",
+          "french": "Στην πιατέλα."
+        }
+      ]
+    },
+    {
+      "id": "naxos_axiotissa_restaurant_002",
+      "intent_en": "Must I choose carafe or bottle for Nemea wine",
+      "text_local": "Προτιμάτε καράφλι ή μπουκάλι για το κρασί Νεμέα;",
+      "pronunciation": "nah-pAHroh-kootAHlee-ee-bookAHlee-yAH-nehmEHah",
+      "formality": "standard",
+      "cultural_note": "Η επιλογή σερβιρίσματος (κουτάλα ή μπουκάλι) γίνεται ανάλογα με τις προτιμήσεις του πελάτη.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Καράφλι 250ml ή μπουκάλι 750ml.",
+        "pronunciation": "kahrAHflee-thahkOHah-pehnEEndah-ehnEHmEHlehl-ee-bookAHlee-EHptahkOHah-pehnEEndah-ehnEHmEHlehl",
+        "translation_en": "As you prefer."
+      },
+      "responses": [
+        {
+          "english": "As you prefer.",
+          "phonetic": "kahrAHflee-thahkOHah-pehnEEndah-ehnEHmEHlehl-ee-bookAHlee-EHptahkOHah-pehnEEndah-ehnEHmEHlehl",
+          "french": "Καράφλι 250ml ή μπουκάλι 750ml."
+        }
+      ]
+    },
+    {
+      "id": "naxos_axiotissa_restaurant_003",
+      "intent_en": "Where is wine cellar selection shown",
+      "text_local": "Πού είναι η λίστα κρασιών;",
+      "pronunciation": "pOO-thEEkhnee-teen-EHpeelohyEE-ehlAHreeOO",
+      "formality": "standard",
+      "cultural_note": "Ο σομελιέ ενημερώνει για τις επιλογές του κελάριού κρασιών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο μπαρ, δίπλα.",
+        "pronunciation": "stoh-bAHrthEEplah",
+        "translation_en": "At the bar, right next to it."
+      },
+      "responses": [
+        {
+          "english": "At the bar, right next to it.",
+          "phonetic": "stoh-bAHrthEEplah",
+          "french": "Στο μπαρ, δίπλα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

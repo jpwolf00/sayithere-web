@@ -1,0 +1,100 @@
+{
+  "id": "patras_panagia_pantanassa_municipal_market",
+  "name_en": "Panagia Pantanassa Municipal Market",
+  "name_local": "Αγορά Παντανάσσης",
+  "icon": "fork.knife",
+  "lat": 38.246242,
+  "lon": 21.7350847,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "patras_panagia_pantanassa_municipal_market_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το κοντινότερο φαρμακείο;",
+      "pronunciation": "pOO-EEneh-toh-kOHdeenOHtehrOH-fAHrmahEEoh",
+      "formality": "standard",
+      "cultural_note": "Τα φαρμακεία κοντά στην αγορά βρίσκονται εκτός του χώρου, η ακριβής θέση εξαρτάται από την περιοχή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά έξοδος, στην πλατεία Γεωργίου.",
+        "pronunciation": "AHreestehrAH-EHksohthOHssteem-blahtEEah-yohryEEoo",
+        "translation_en": "The nearest pharmacy is in the market square, left of the exit."
+      },
+      "responses": [
+        {
+          "english": "The nearest pharmacy is in the market square, left of the exit.",
+          "phonetic": "AHreestehrAH-EHksohthOHssteem-blahtEEah-yohryEEoo",
+          "french": "Αριστερά έξοδος, στην πλατεία Γεωργίου."
+        }
+      ]
+    },
+    {
+      "id": "patras_panagia_pantanassa_municipal_market_002",
+      "intent_en": "Where do I sit to eat",
+      "text_local": "Πού μπορώ να καθίσω να φάω;",
+      "pronunciation": "pOO-bohrOH-nah-kahthEEsoh-nah-fAHoh",
+      "formality": "polite",
+      "cultural_note": "Οι πάγκοι διαθέσιμοι για κατανάλωση βρίσκονται εντός του χώρου της αγοράς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στους πάγκους κατανάλωσης.",
+        "pronunciation": "stoos-pAHnggoos-kAHtahnAHlohsEEs",
+        "translation_en": "At the eating stalls."
+      },
+      "responses": [
+        {
+          "english": "At the eating stalls.",
+          "phonetic": "stoos-pAHnggoos-kAHtahnAHlohsEEs",
+          "french": "Στους πάγκους κατανάλωσης."
+        }
+      ]
+    },
+    {
+      "id": "patras_panagia_pantanassa_municipal_market_003",
+      "intent_en": "Is fresh fish available now",
+      "text_local": "Έχετε φρέσκο ψάρι;",
+      "pronunciation": "EHkhehtEH-frEHskoh-psAHree",
+      "formality": "standard",
+      "cultural_note": "Η διαθεσιμότητα φρέσκου ψαριού εξαρτάται από την ημερήσια παράδοση και εποχιακούς παράγοντες.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μόλις φτάσανε.",
+        "pronunciation": "nEHmOHlees-ftAHsahnEH",
+        "translation_en": "Yes, they just arrived."
+      },
+      "responses": [
+        {
+          "english": "Yes, they just arrived.",
+          "phonetic": "nEHmOHlees-ftAHsahnEH",
+          "french": "Ναι, μόλις φτάσανε."
+        }
+      ]
+    },
+    {
+      "id": "patras_panagia_pantanassa_municipal_market_004",
+      "intent_en": "How do I order at the counter",
+      "text_local": "Πώς παραγγέλνω;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh",
+      "formality": "standard",
+      "cultural_note": "Στην αγορά, η παραγγελία γίνεται απευθείας στον πάγκο πώλησης χωρίς ενδιάμεσα βήματα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πλησιάστε τον πάγκο και πείτε την παραγγελία σας.",
+        "pronunciation": "pleesyAHsteh-tohm-bAHnggoh-keh-pEEteh-teem-bAHrahnggehlEEah-sahs",
+        "translation_en": "Approach the counter and tell the staff member what you want."
+      },
+      "responses": [
+        {
+          "english": "Approach the counter and tell the staff member what you want.",
+          "phonetic": "pleesyAHsteh-tohm-bAHnggoh-keh-pEEteh-teem-bAHrahnggehlEEah-sahs",
+          "french": "Πλησιάστε τον πάγκο και πείτε την παραγγελία σας."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

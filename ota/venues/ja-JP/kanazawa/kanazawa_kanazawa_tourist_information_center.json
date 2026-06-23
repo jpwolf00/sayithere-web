@@ -1,0 +1,78 @@
+{
+  "id": "kanazawa_kanazawa_tourist_information_center",
+  "name_en": "Kanazawa Tourist Information Center",
+  "name_local": "金沢市観光案内所",
+  "icon": "info.circle",
+  "lat": 36.5664351,
+  "lon": 136.6536677,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "kanazawa_kanazawa_tourist_information_center_001",
+      "intent_en": "Where are Higashi Chaya maps?",
+      "text_local": "ひがしちゃやの まっぷは ありますか？",
+      "pronunciation": "khEEgEEtyNoh-mppOOh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Free area maps are typically placed on self-service racks in visitor centers. Staff will point to the rack rather than hand one over.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あちらの ぱんふれっとらっくに ございます。",
+        "pronunciation": "TeeNoh-pOOehttOHkkOOnee-gOHzeemSoo",
+        "translation_en": "They are on that pamphlet rack over there."
+      },
+      "responses": [
+        {
+          "english": "They are on that pamphlet rack over there.",
+          "phonetic": "TeeNoh-pOOehttOHkkOOnee-gOHzeemSoo",
+          "french": "あちらの ぱんふれっとらっくに ございます。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kanazawa_tourist_information_center_002",
+      "intent_en": "Where is Kenrokuen shuttle stop?",
+      "text_local": "けんろくえんの シャトルバスのりばは どこですか？",
+      "pronunciation": "kEHnohkooEHnnoh-TohOObsOOnoheebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Shuttle bus stops are often just outside major transport hubs. Staff give directions relative to the nearest exit.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "でぐちを でて、すぐ みぎです。",
+        "pronunciation": "dEHgootEEoh-dEHtehsOOgoo-mEEgeedEHsoo",
+        "translation_en": "Exit the building, and it's immediately on the right."
+      },
+      "responses": [
+        {
+          "english": "Exit the building, and it's immediately on the right.",
+          "phonetic": "dEHgootEEoh-dEHtehsOOgoo-mEEgeedEHsoo",
+          "french": "でぐちを でて、すぐ みぎです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kanazawa_tourist_information_center_003",
+      "intent_en": "Can I book tour here?",
+      "text_local": "ここで ツアーの よやくは できますか？",
+      "pronunciation": "kohkOHdeh-tsooNoh-yOHykOOh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "A tourist information center's core function is to assist with bookings. A direct affirmative and pointing to the service point is standard.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、こちらの カウンターで うけたまわります。",
+        "pronunciation": "hEEkOHteeNoh-kOOntDeh-OOkehtMwEEmSoo",
+        "translation_en": "Yes, we handle bookings at this counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, we handle bookings at this counter.",
+          "phonetic": "hEEkOHteeNoh-kOOntDeh-OOkehtMwEEmSoo",
+          "french": "はい、こちらの カウンターで うけたまわります。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

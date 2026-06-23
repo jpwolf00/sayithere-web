@@ -1,0 +1,100 @@
+{
+  "id": "pamukkale_pamukkale_local_market",
+  "name_en": "Pamukkale Local Market",
+  "name_local": "Pamukkale Pazarı",
+  "icon": "cart",
+  "lat": 37.780349,
+  "lon": 29.0980149,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "pamukkale_pamukkale_local_market_001",
+      "intent_en": "Is there a charge for plastic bags?",
+      "text_local": "Plastik poşetler için ücret alınıyor mu?",
+      "pronunciation": "pahstIHk-pohshehtlEHr-eetshIHn-uhdzhrEHt-ahoonOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Bu uygulama her tezgahta farklılık gösterebilir, satın almadan önce pazarcıya sormak adettendir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, genellikle küçük bir ücret alınır.",
+        "pronunciation": "ehvEHtehnahllIHkleh-kuetshUHk-bihr-uhdzhrEHt-ahoonOOr",
+        "translation_en": "Yes, usually a small fee is charged."
+      },
+      "responses": [
+        {
+          "english": "Yes, usually a small fee is charged.",
+          "phonetic": "ehvEHtehnahllIHkleh-kuetshUHk-bihr-uhdzhrEHt-ahoonOOr",
+          "french": "Evet, genellikle küçük bir ücret alınır."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_local_market_002",
+      "intent_en": "Where can I weigh produce on analog scales?",
+      "text_local": "Ürünleri analog terazide nerede tartabilirim?",
+      "pronunciation": "ueruhnlehrIH-ahnahAWg-tehrahzeedEH-nEHrehdeh-tahrtahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Analog terazi kullanan tezgahlar sabit bir konumda değildir, bu yüzden bir görevliye sormak en iyisidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Manavın arkasında.",
+        "pronunciation": "mahnahvOOn-ahrkahsoondAH",
+        "translation_en": "Behind the produce section."
+      },
+      "responses": [
+        {
+          "english": "Behind the produce section.",
+          "phonetic": "mahnahvOOn-ahrkahsoondAH",
+          "french": "Manavın arkasında."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_local_market_003",
+      "intent_en": "Where is the Denizli cotton textile section?",
+      "text_local": "Denizli pamuklu tekstil bölümü nerede?",
+      "pronunciation": "dehnIHzlih-pahmuhkUH-tehkstIHl-bUHluemuh-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Pazarda belirli bir bölüm işareti olmadığı için tezgah sahiplerine sormak en iyisidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sola dönün.",
+        "pronunciation": "sOHah-duhnUHn",
+        "translation_en": "Turn left."
+      },
+      "responses": [
+        {
+          "english": "Turn left.",
+          "phonetic": "sOHah-duhnUHn",
+          "french": "Sola dönün."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_pamukkale_local_market_004",
+      "intent_en": "Do you sell thermal mud soap here?",
+      "text_local": "Termal çamur sabunu satıyor musunuz?",
+      "pronunciation": "tehrmAH-tshahmUHr-sahboonUH-sahtOOyawr-mOOsoonuhz",
+      "formality": "polite",
+      "cultural_note": "Belirli bir sabun türünün varlığı tezgaha göre değişir, kesin cevap için satıcıya sorulmalıdır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, aktarlarda var.",
+        "pronunciation": "ehvEHtahktahrahrdAH-vAHr",
+        "translation_en": "Yes, they have it at the herbalist stalls."
+      },
+      "responses": [
+        {
+          "english": "Yes, they have it at the herbalist stalls.",
+          "phonetic": "ehvEHtahktahrahrdAH-vAHr",
+          "french": "Evet, aktarlarda var."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

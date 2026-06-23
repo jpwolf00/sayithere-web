@@ -1,0 +1,144 @@
+{
+  "id": "tokyo_haneda_airport",
+  "name_en": "Haneda Airport",
+  "name_local": "羽田空港",
+  "icon": "tram",
+  "lat": 35.5456924,
+  "lon": 139.7760994,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "tokyo_haneda_airport_001",
+      "intent_en": "Does Terminal Three have showers?",
+      "text_local": "だい3ターミナルに シャワーは ありますか？",
+      "pronunciation": "dEE-sN-tMeenOOnee-wH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Shower facilities in Japanese airports are typically well-maintained and may require a small fee, often found in departure lounges.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、セキュリティの さきに あります。",
+        "pronunciation": "hEEsEHkooeetEEnoh-skEEnee-EEmSoo",
+        "translation_en": "Yes, they are past security."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are past security.",
+          "phonetic": "hEEsEHkooeetEEnoh-skEEnee-EEmSoo",
+          "french": "はい、セキュリティの さきに あります。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_haneda_airport_002",
+      "intent_en": "When is the last Shinjuku bus?",
+      "text_local": "しんじゅくいきの さいしゅうバスは なんじですか？",
+      "pronunciation": "EEdOOkooeekEEnoh-sEEOOoobsOOh-nDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Last departure times can vary, but airport buses to major hubs like Shinjuku typically run until around midnight.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "こんやの さいしゅうは 23じ30ぷんです。",
+        "pronunciation": "kOHyNoh-sEEooOOh-nee-dzOOsn-dEE-sN-dzoo-poondEHsoo",
+        "translation_en": "The last one tonight is 11:30 PM."
+      },
+      "responses": [
+        {
+          "english": "The last one tonight is 11:30 PM.",
+          "phonetic": "kOHyNoh-sEEooOOh-nee-dzOOsn-dEE-sN-dzoo-poondEHsoo",
+          "french": "こんやの さいしゅうは 23じ30ぷんです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_haneda_airport_003",
+      "intent_en": "How do I pick up duty-free?",
+      "text_local": "めんぜいひんの うけとりかたを おしえてください。",
+      "pronunciation": "mEHzEHeekhEEnnoh-OOkehtOHeektOH-OHeeEHtehkOOdsEE",
+      "formality": "standard",
+      "cultural_note": "Duty-free items purchased in Japan are often handed over at a dedicated pick-up counter after security, not carried out of the store.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "パスポートと ひきかえけんを カウンターへ どうぞ。",
+        "pronunciation": "pSoopohohtOHtoh-khEEkeekEHkehOH-kOOntHeh-dohOOzoh",
+        "translation_en": "Please bring your passport and exchange voucher to the counter."
+      },
+      "responses": [
+        {
+          "english": "Please bring your passport and exchange voucher to the counter.",
+          "phonetic": "pSoopohohtOHtoh-khEEkeekEHkehOH-kOOntHeh-dohOOzoh",
+          "french": "パスポートと ひきかえけんを カウンターへ どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_haneda_airport_004",
+      "intent_en": "Can I recharge Suica at Terminal Three?",
+      "text_local": "だい3ターミナルで スイカに チャージできますか？",
+      "pronunciation": "dEE-sN-tMeenOOdeh-sOOeekNee-tDeedEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Suica recharge machines are ubiquitous in stations and airports, often found near ticket gates and accepting cash.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、かいさつまえの きかいで できます。",
+        "pronunciation": "hEEkEEsTsoomEHnoh-kEEkEEdeh-dEHkeemSoo",
+        "translation_en": "Yes, you can at the machines before the gates."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can at the machines before the gates.",
+          "phonetic": "hEEkEEsTsoomEHnoh-kEEkEEdeh-dEHkeemSoo",
+          "french": "はい、かいさつまえの きかいで できます。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_haneda_airport_005",
+      "intent_en": "Where is the limousine bus counter?",
+      "text_local": "リムジンバスの カウンターは どこですか？",
+      "pronunciation": "EEmoodEEbsOOnoh-kOOntH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Airport limousine bus counters are usually clearly marked and found in the arrival lobby, often near the exit doors.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いりぐちの すぐとなりです。",
+        "pronunciation": "EEeegootEEnoh-sOOgootOHneedEHsoo",
+        "translation_en": "It's right next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "It's right next to the entrance.",
+          "phonetic": "EEeegootEEnoh-sOOgootOHneedEHsoo",
+          "french": "いりぐちの すぐとなりです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_haneda_airport_006",
+      "intent_en": "Is security before immigration here?",
+      "text_local": "ここでは しゅつこくしんさの まえに セキュリティチェックが ありますか？",
+      "pronunciation": "kOHkohdEHh-OOtsookOHkooEEsNoh-mEHnee-sEHkooEEteetehkkOOg-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At Japanese airports, security screening for carry-on luggage typically happens immediately before the immigration counters for departing passengers.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、さいしょに セキュリティチェックです。",
+        "pronunciation": "hEEsEEOHnee-sEHkooEEteetEHkkoodEHsoo",
+        "translation_en": "Yes, the security check comes first."
+      },
+      "responses": [
+        {
+          "english": "Yes, the security check comes first.",
+          "phonetic": "hEEsEEOHnee-sEHkooEEteetEHkkoodEHsoo",
+          "french": "はい、さいしょに セキュリティチェックです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

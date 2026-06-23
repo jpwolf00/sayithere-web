@@ -1,0 +1,100 @@
+{
+  "id": "the_hague_scheveningen_beach",
+  "name_en": "Scheveningen Beach",
+  "name_local": "Scheveningse Strand",
+  "icon": "leaf",
+  "lat": 52.1118642,
+  "lon": 4.2815171,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "the_hague_scheveningen_beach_001",
+      "intent_en": "Can I pay card at the fish market",
+      "text_local": "Kan ik pinnen bij de vishandel?",
+      "pronunciation": "kahn-ihk-pIHnuhn-behih-duh-vIHshahndEHl",
+      "formality": "standard",
+      "cultural_note": "Fish markets in the harbour often operate on a cash-only basis.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meestal niet, contant graag.",
+        "pronunciation": "mEHstAHl-nEEtkawntAHnt-ghrAHkh",
+        "translation_en": "Usually not, cash please."
+      },
+      "responses": [
+        {
+          "english": "Usually not, cash please.",
+          "phonetic": "mEHstAHl-nEEtkawntAHnt-ghrAHkh",
+          "french": "Meestal niet, contant graag."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_scheveningen_beach_002",
+      "intent_en": "How do I rent a beach chair",
+      "text_local": "Hoe huur ik een strandbedje?",
+      "pronunciation": "hOO-hUEr-ihk-uhn-strAHndbehtyuh",
+      "formality": "casual",
+      "cultural_note": "Beach chair rentals are typically handled by dedicated rental staff in huts along the beach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de verhuurhut.",
+        "pronunciation": "behih-duh-vuhrhUErht",
+        "translation_en": "At the rental hut."
+      },
+      "responses": [
+        {
+          "english": "At the rental hut.",
+          "phonetic": "behih-duh-vuhrhUErht",
+          "french": "Bij de verhuurhut."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_scheveningen_beach_003",
+      "intent_en": "Where is the surf school meeting point",
+      "text_local": "Waar is het startpunt voor surfles?",
+      "pronunciation": "vAHr-ihs-huht-stAHrtpNt-vawr-srflEHs",
+      "formality": "standard",
+      "cultural_note": "Surf schools often coordinate with equipment renters on the beach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de verhuurder op het zand.",
+        "pronunciation": "behih-duh-vuhrhUErduhr-awp-huht-zAHnt",
+        "translation_en": "By the renter on the sand."
+      },
+      "responses": [
+        {
+          "english": "By the renter on the sand.",
+          "phonetic": "behih-duh-vuhrhUErduhr-awp-huht-zAHnt",
+          "french": "Bij de verhuurder op het zand."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_scheveningen_beach_004",
+      "intent_en": "Where is the pier entrance",
+      "text_local": "Waar is de ingang van de pier?",
+      "pronunciation": "vAHr-ihs-duh-IHnghAHng-vahn-duh-pEEr",
+      "formality": "standard",
+      "cultural_note": "Pier entrances are typically marked with clear signs near the boulevard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aan de boulevard, bij de borden.",
+        "pronunciation": "ahn-duh-bUHuhluhvAHrtbehih-duh-bAWrduhn",
+        "translation_en": "On the boulevard, near the signs."
+      },
+      "responses": [
+        {
+          "english": "On the boulevard, near the signs.",
+          "phonetic": "ahn-duh-bUHuhluhvAHrtbehih-duh-bAWrduhn",
+          "french": "Aan de boulevard, bij de borden."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

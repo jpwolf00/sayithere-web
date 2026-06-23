@@ -1,0 +1,122 @@
+{
+  "id": "basel_kunstmuseum_basel",
+  "name_en": "Kunstmuseum Basel",
+  "name_local": "Kunstmuseum Basel",
+  "icon": "building.columns",
+  "lat": 47.5539294,
+  "lon": 7.5944513,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "basel_kunstmuseum_basel_001",
+      "intent_en": "Where is the Amerbach Cabinet?",
+      "text_local": "Wo befindet sich das Amerbach-Kabinett?",
+      "pronunciation": "vOH-buhfIHnduht-zihkh-dahs-AHmbAHkhkAHbeenEHt",
+      "formality": "standard",
+      "cultural_note": "Das Amerbach-Kabinett ist die berühmte Sammlung des Museums und zentral im Hauptgebäude platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im historischen Hauptbau.",
+        "pronunciation": "ihm-hihstOHrihshuhn-hOWptbow",
+        "translation_en": "In the historic main building."
+      },
+      "responses": [
+        {
+          "english": "In the historic main building.",
+          "phonetic": "ihm-hihstOHrihshuhn-hOWptbow",
+          "french": "Im historischen Hauptbau."
+        }
+      ]
+    },
+    {
+      "id": "basel_kunstmuseum_basel_002",
+      "intent_en": "Can I pay at the museum shop with card?",
+      "text_local": "Kann man im Museumsshop mit Karte zahlen?",
+      "pronunciation": "kAHn-mahn-ihm-mOOzawuhmshOHp-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In Schweizer Museen sind Kartenzahlungen Standard, Bargeld ist seltener geworden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Karte wird akzeptiert.",
+        "pronunciation": "yAHkAHrtuh-vIHrt-AHktsehptEErt",
+        "translation_en": "Yes, cards are accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, cards are accepted.",
+          "phonetic": "yAHkAHrtuh-vIHrt-AHktsehptEErt",
+          "french": "Ja, Karte wird akzeptiert."
+        }
+      ]
+    },
+    {
+      "id": "basel_kunstmuseum_basel_003",
+      "intent_en": "Where do I rent an audio guide?",
+      "text_local": "Wo kann ich einen Audioguide ausleihen?",
+      "pronunciation": "vOH-kAHn-ihkh-EYEnuhn-ehnAWdihUHuheyeddeh-OWslEYE-uhn",
+      "formality": "standard",
+      "cultural_note": "Audioguides sind in Museen üblich und werden meist an einem dedicated Schalter angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Audioguide-Schalter.",
+        "pronunciation": "ahm-ehnAWdihUHuheyeddehshAHlt",
+        "translation_en": "At the audio guide counter."
+      },
+      "responses": [
+        {
+          "english": "At the audio guide counter.",
+          "phonetic": "ahm-ehnAWdihUHuheyeddehshAHlt",
+          "french": "Am Audioguide-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "basel_kunstmuseum_basel_004",
+      "intent_en": "Is there a surcharge for special exhibitions?",
+      "text_local": "Gibt es einen Aufpreis für Sonderausstellungen?",
+      "pronunciation": "EEpt-ehs-EYEnuhn-OWfprEYEs-fuer-zAWndehrOWsshtuhlUHnguhn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Museen sind Sonderausstellungen häufig gegen Aufpreis zugänglich, oft an der Kasse kommuniziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Sonderausstellungen kosten extra.",
+        "pronunciation": "yAHzAWndehrOWsshtuhlUHnguhn-kAWstuhn-EHkstrah",
+        "translation_en": "Yes, special exhibitions cost extra."
+      },
+      "responses": [
+        {
+          "english": "Yes, special exhibitions cost extra.",
+          "phonetic": "yAHzAWndehrOWsshtuhlUHnguhn-kAWstuhn-EHkstrah",
+          "french": "Ja, Sonderausstellungen kosten extra."
+        }
+      ]
+    },
+    {
+      "id": "basel_kunstmuseum_basel_005",
+      "intent_en": "Where is the Neubau entrance?",
+      "text_local": "Wo ist der Neubau-Eingang?",
+      "pronunciation": "vOH-ihst-dehr-nAWuhbowEYEnAHng",
+      "formality": "standard",
+      "cultural_note": "In Basel sind Gebäude oft nach Hauptingressen benannt, hier ist der Neubau der moderne Anbau des Museums.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Neubau-Eingang am St. Alban-Graben.",
+        "pronunciation": "nAWuhbowEYEnAHng-ahm-EHstEHahlbAHnrAHbuhn",
+        "translation_en": "New building entrance at St. Alban-Graben."
+      },
+      "responses": [
+        {
+          "english": "New building entrance at St. Alban-Graben.",
+          "phonetic": "nAWuhbowEYEnAHng-ahm-EHstEHahlbAHnrAHbuhn",
+          "french": "Neubau-Eingang am St. Alban-Graben."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

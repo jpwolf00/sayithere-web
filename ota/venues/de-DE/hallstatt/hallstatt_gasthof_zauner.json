@@ -1,0 +1,122 @@
+{
+  "id": "hallstatt_gasthof_zauner",
+  "name_en": "Gasthof Zauner",
+  "name_local": "Gasthof Zauner",
+  "icon": "fork.knife",
+  "lat": 47.5622886,
+  "lon": 13.648862,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "hallstatt_gasthof_zauner_001",
+      "intent_en": "Is the Zaunerstollen available today",
+      "text_local": "Haben Sie heute Zaunerstollen?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-tsOWnstAWluhn",
+      "formality": "standard",
+      "cultural_note": "Zaunerstollen ist ein saisonales Spezialität der Konditorei.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, frisch.",
+        "pronunciation": "yAHfrIHsh",
+        "translation_en": "Yes, fresh."
+      },
+      "responses": [
+        {
+          "english": "Yes, fresh.",
+          "phonetic": "yAHfrIHsh",
+          "french": "Ja, frisch."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_gasthof_zauner_002",
+      "intent_en": "Is the bill at table for Gasthof dining",
+      "text_local": "Wird der Tisch direkt abgerechnet?",
+      "pronunciation": "vIHrt-dehr-tIHsh-deerEHkt-AHpuhrEHkhnuht",
+      "formality": "standard",
+      "cultural_note": "Direkte Tischabrechnung ist in Gasthöfen Standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tisch.",
+        "pronunciation": "yAHahm-tIHsh",
+        "translation_en": "Yes, at the table."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the table.",
+          "phonetic": "yAHahm-tIHsh",
+          "french": "Ja, am Tisch."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_gasthof_zauner_003",
+      "intent_en": "Do I round up the tip at register",
+      "text_local": "Soll ich das Trinkgeld aufrunden?",
+      "pronunciation": "zAWl-ihkh-dahs-trINGkehlt-OWfrUHnduhn",
+      "formality": "standard",
+      "cultural_note": "Trinkgeld wird in Österreich oft aufgerundet oder als Prozentsatz gegeben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, gerne.",
+        "pronunciation": "yAHEHrnuh",
+        "translation_en": "Yes, please."
+      },
+      "responses": [
+        {
+          "english": "Yes, please.",
+          "phonetic": "yAHEHrnuh",
+          "french": "Ja, gerne."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_gasthof_zauner_004",
+      "intent_en": "Is the lake terrace seating reservable",
+      "text_local": "Kann man die Seeterrasse reservieren?",
+      "pronunciation": "kAHn-mahn-dee-zEHtrAHsuh-rEHzehrvEEruhn",
+      "formality": "standard",
+      "cultural_note": "Terassenplätze sind oft reservierbar, besonders im Sommer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tresen.",
+        "pronunciation": "yAHahm-trEHzuhn",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-trEHzuhn",
+          "french": "Ja, am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_gasthof_zauner_005",
+      "intent_en": "Where do I pay at the Konditorei counter",
+      "text_local": "Wo zahle ich an der Konditorei?",
+      "pronunciation": "vOH-tsAHluh-ihkh-ahn-dehr-kawndEEtohrEYE",
+      "formality": "standard",
+      "cultural_note": "Zahlung an der Theke ist üblich in Konditoreien.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Konditorei-Counter.",
+        "pronunciation": "ahm-kawndEEtohrEYEkOOnt",
+        "translation_en": "At the pastry shop counter."
+      },
+      "responses": [
+        {
+          "english": "At the pastry shop counter.",
+          "phonetic": "ahm-kawndEEtohrEYEkOOnt",
+          "french": "Am Konditorei-Counter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

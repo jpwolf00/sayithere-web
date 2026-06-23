@@ -1,0 +1,122 @@
+{
+  "id": "berlin_kaufhaus_des_westens",
+  "name_en": "Kaufhaus des Westens",
+  "name_local": "KaDeWe",
+  "icon": "bag",
+  "lat": 52.5015753,
+  "lon": 13.3410035,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "berlin_kaufhaus_des_westens_001",
+      "intent_en": "How do I find customer returns?",
+      "text_local": "Wo ist die Rückgabestelle?",
+      "pronunciation": "vOH-ihst-dee-rUEkahbuhshtEHluh",
+      "formality": "standard",
+      "cultural_note": "Rückgaben werden zentral über die Kundenberatung abgewickelt, oft in der Nähe der Eingänge.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kundenberatung im Erdgeschoss.",
+        "pronunciation": "kUHnduhnbuhrAHtuhng-ihm-ehrdEHshaws",
+        "translation_en": "Customer service on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "Customer service on the ground floor.",
+          "phonetic": "kUHnduhnbuhrAHtuhng-ihm-ehrdEHshaws",
+          "french": "Kundenberatung im Erdgeschoss."
+        }
+      ]
+    },
+    {
+      "id": "berlin_kaufhaus_des_westens_002",
+      "intent_en": "Where is the tax-free counter?",
+      "text_local": "Wo finde ich den Tax-Free-Schalter?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-tAHksehnfrEEdehshAHlt",
+      "formality": "standard",
+      "cultural_note": "Tax-Free-Schalter sind typischerweise zentral und gut ausgeschildert, oft in der Nähe der Kassenbereiche.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss am Schalter.",
+        "pronunciation": "ihm-ehrdEHshaws-ahm-shAHlt",
+        "translation_en": "On the ground floor at the counter."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor at the counter.",
+          "phonetic": "ihm-ehrdEHshaws-ahm-shAHlt",
+          "french": "Im Erdgeschoss am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "berlin_kaufhaus_des_westens_003",
+      "intent_en": "Is the gourmet floor open today?",
+      "text_local": "Hat die Feinschmeckeretage heute geöffnet?",
+      "pronunciation": "haht-dee-fEYEnshmEHkehrEHtahuh-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Die Feinschmeckeretage folgt den regulären Öffnungszeiten des KaDeWe und ist an allen Tagen geöffnet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, geöffnet.",
+        "pronunciation": "yAHuhUHfnuht",
+        "translation_en": "Yes, it's open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's open.",
+          "phonetic": "yAHuhUHfnuht",
+          "french": "Ja, geöffnet."
+        }
+      ]
+    },
+    {
+      "id": "berlin_kaufhaus_des_westens_004",
+      "intent_en": "Which floor is the food hall?",
+      "text_local": "Wo ist die Feinschmeckeretage?",
+      "pronunciation": "vOH-ihst-dee-fEYEnshmEHkehrEHtahuh",
+      "formality": "standard",
+      "cultural_note": "Die Feinschmeckeretage ist eine bekannte und zentral gelegene Gourmet-Ebene im KaDeWe.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "6. Stock.",
+        "pronunciation": "zEHksshtAWk",
+        "translation_en": "6th floor."
+      },
+      "responses": [
+        {
+          "english": "6th floor.",
+          "phonetic": "zEHksshtAWk",
+          "french": "6. Stock."
+        }
+      ]
+    },
+    {
+      "id": "berlin_kaufhaus_des_westens_005",
+      "intent_en": "Where do I wrap gifts?",
+      "text_local": "Wo gibt es Geschenkpapier und -verpackung?",
+      "pronunciation": "vOH-EEpt-ehs-uhshEHngkpahpEEr-uhnt-fehrpAHkuhng",
+      "formality": "standard",
+      "cultural_note": "Geschenkverpackung wird oft an zentralen Servicepunkten oder speziellen Stationen angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Servicebereich.",
+        "pronunciation": "ihm-zEHrveekEHbuhrEYEkh",
+        "translation_en": "At the service area."
+      },
+      "responses": [
+        {
+          "english": "At the service area.",
+          "phonetic": "ihm-zEHrveekEHbuhrEYEkh",
+          "french": "Im Servicebereich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

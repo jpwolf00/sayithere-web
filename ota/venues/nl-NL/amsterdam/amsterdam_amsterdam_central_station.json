@@ -1,0 +1,56 @@
+{
+  "id": "amsterdam_amsterdam_central_station",
+  "name_en": "Amsterdam Central Station",
+  "name_local": "Amsterdam Centraal",
+  "icon": "tram",
+  "lat": 52.378901,
+  "lon": 4.9005805,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "amsterdam_amsterdam_central_station_001",
+      "intent_en": "Ask if platform 15a and 15b share track",
+      "text_local": "Delen perron 15a en 15b hetzelfde spoor?",
+      "pronunciation": "dEHluhn-pehrrAWn-vEHihfteen-AH-ehn-vEHihfteen-bEH-hEHtzehlvduh-spOHr",
+      "formality": "standard",
+      "cultural_note": "Platform numbering is clear to locals; direct answers are expected without extra explanation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, zelfde spoor.",
+        "pronunciation": "yAHzEHlvduh-spOHr",
+        "translation_en": "Yes, same track."
+      },
+      "responses": [
+        {
+          "english": "Yes, same track.",
+          "phonetic": "yAHzEHlvduh-spOHr",
+          "french": "Ja, zelfde spoor."
+        }
+      ]
+    },
+    {
+      "id": "amsterdam_amsterdam_central_station_002",
+      "intent_en": "Ask when next train to Schiphol leaves",
+      "text_local": "Wanneer vertrekt de volgende trein naar Schiphol?",
+      "pronunciation": "vahnIHr-vuhrtrEHk-tuh-vAWlghuhnduh-trEHihn-nahr-skhIHphawl",
+      "formality": "standard",
+      "cultural_note": "Train departure info is often displayed on screens; staff may give relative timing if asked.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Over 10 minuten.",
+        "pronunciation": "OHvuhr-tEEn-mEEnuetuhn",
+        "translation_en": "In 10 minutes."
+      },
+      "responses": [
+        {
+          "english": "In 10 minutes.",
+          "phonetic": "OHvuhr-tEEn-mEEnuetuhn",
+          "french": "Over 10 minuten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

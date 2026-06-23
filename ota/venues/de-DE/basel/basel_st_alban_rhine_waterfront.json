@@ -1,0 +1,100 @@
+{
+  "id": "basel_st_alban_rhine_waterfront",
+  "name_en": "St. Alban Rhine waterfront",
+  "name_local": "St. Alban-Ufer",
+  "icon": "map",
+  "lat": 47.5532441,
+  "lon": 7.6032139,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "basel_st_alban_rhine_waterfront_001",
+      "intent_en": "Where is the old watermill structure?",
+      "text_local": "Wo steht die alte Wassermühle?",
+      "pronunciation": "vOH-shtEHt-dee-AHltuh-vAHsmUEluh",
+      "formality": "standard",
+      "cultural_note": "Open-air landmarks often lack precise addresses; directions refer to walking paths or landmarks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Rheinpromenadenweg.",
+        "pronunciation": "ahm-rEYEnprohmEHnahdEHnvehk",
+        "translation_en": "On the Rhine promenade path."
+      },
+      "responses": [
+        {
+          "english": "On the Rhine promenade path.",
+          "phonetic": "ahm-rEYEnprohmEHnahdEHnvehk",
+          "french": "Am Rheinpromenadenweg."
+        }
+      ]
+    },
+    {
+      "id": "basel_st_alban_rhine_waterfront_002",
+      "intent_en": "Where is the St. Alban-Tal church area?",
+      "text_local": "Wo ist der Bereich der St. Alban-Tal-Kirche?",
+      "pronunciation": "vOH-ihst-dehr-buhrEYEkh-dehr-EHstEHahlbAHntAHlkIHrkhuh",
+      "formality": "standard",
+      "cultural_note": "Directions in Swiss German contexts often reference historical or administrative subunits rather than precise street addresses.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im historischen Kern des Viertels.",
+        "pronunciation": "ihm-hihstOHrihshuhn-kEHrn-dehs-fEErtuhls",
+        "translation_en": "In the historic core of the quarter."
+      },
+      "responses": [
+        {
+          "english": "In the historic core of the quarter.",
+          "phonetic": "ihm-hihstOHrihshuhn-kEHrn-dehs-fEErtuhls",
+          "french": "Im historischen Kern des Viertels."
+        }
+      ]
+    },
+    {
+      "id": "basel_st_alban_rhine_waterfront_003",
+      "intent_en": "Is the Rhine promenade open at night?",
+      "text_local": "Ist der Rheinpromenadenweg nachts offen?",
+      "pronunciation": "ihst-dehr-rEYEnprohmEHnahdEHnvehk-nAHkhts-AWfuhn",
+      "formality": "standard",
+      "cultural_note": "Swiss public spaces like riverfront promenades typically do not close at night due to safety and accessibility norms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, rund um die Uhr zugänglich.",
+        "pronunciation": "yAHrUHnt-uhm-dee-OOr-tsOOehnglIHkh",
+        "translation_en": "Yes, accessible around the clock."
+      },
+      "responses": [
+        {
+          "english": "Yes, accessible around the clock.",
+          "phonetic": "yAHrUHnt-uhm-dee-OOr-tsOOehnglIHkh",
+          "french": "Ja, rund um die Uhr zugänglich."
+        }
+      ]
+    },
+    {
+      "id": "basel_st_alban_rhine_waterfront_004",
+      "intent_en": "Where is the Fähre St. Alban ferry?",
+      "text_local": "Wo ist die Fähre St. Alban?",
+      "pronunciation": "vOH-lEEkt-dee-fEHruh-EHstEHahlbAHn",
+      "formality": "standard",
+      "cultural_note": "Ferry docks in Swiss cities are often signposted along waterfront paths; exact micro-location is not specified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am unteren Rheinufer.",
+        "pronunciation": "ahm-UHntuhruhn-rEYEnoof",
+        "translation_en": "On the lower Rhine bank."
+      },
+      "responses": [
+        {
+          "english": "On the lower Rhine bank.",
+          "phonetic": "ahm-UHntuhruhn-rEYEnoof",
+          "french": "Am unteren Rheinufer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

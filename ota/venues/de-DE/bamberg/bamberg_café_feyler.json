@@ -1,0 +1,100 @@
+{
+  "id": "bamberg_café_feyler",
+  "name_en": "Café Feyler",
+  "name_local": "Café Feyler",
+  "icon": "fork.knife",
+  "lat": 49.8907307,
+  "lon": 10.8825202,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bamberg_café_feyler_001",
+      "intent_en": "Which tables are Stammtisch reserved?",
+      "text_local": "Welche Tische sind für den Stammtisch reserviert?",
+      "pronunciation": "vEHlkhuh-tIHshuh-zihnt-fuer-dehn-shtAHmtihsh-rEHzehrvEErt",
+      "formality": "standard",
+      "cultural_note": "Stammtisch tables are often marked or known to regulars; staff may gesture toward a section.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dort drüben.",
+        "pronunciation": "dAWrt-drUEbuhn",
+        "translation_en": "Over there."
+      },
+      "responses": [
+        {
+          "english": "Over there.",
+          "phonetic": "dAWrt-drUEbuhn",
+          "french": "Dort drüben."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_café_feyler_002",
+      "intent_en": "Do I pay at the bar or table?",
+      "text_local": "Zahlt man an der Theke oder am Tisch?",
+      "pronunciation": "tsAHlt-mahn-ahn-dehr-tEHkuh-OHd-ahm-tIHsh",
+      "formality": "standard",
+      "cultural_note": "Customers are expected to pay at the bar before or after seating in German traditional cafés.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Theke.",
+        "pronunciation": "ahn-dehr-tEHkuh",
+        "translation_en": "At the bar."
+      },
+      "responses": [
+        {
+          "english": "At the bar.",
+          "phonetic": "ahn-dehr-tEHkuh",
+          "french": "An der Theke."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_café_feyler_003",
+      "intent_en": "Is the Biergarten open today?",
+      "text_local": "Hat der Biergarten heute geöffnet?",
+      "pronunciation": "haht-dehr-bEErahrtuhn-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Biergartens in Bamberg are typically seasonal but often open year-round unless specified otherwise.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute geöffnet.",
+        "pronunciation": "yAHhAWuhtuh-uhUHfnuht",
+        "translation_en": "Yes, open today."
+      },
+      "responses": [
+        {
+          "english": "Yes, open today.",
+          "phonetic": "yAHhAWuhtuh-uhUHfnuht",
+          "french": "Ja, heute geöffnet."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_café_feyler_004",
+      "intent_en": "Can I order Brotzeit at the counter?",
+      "text_local": "Kann man Brotzeit an der Theke bestellen?",
+      "pronunciation": "kAHn-mahn-brAWtseyet-ahn-dehr-tEHkuh-buhshtEHluhn",
+      "formality": "standard",
+      "cultural_note": "Brotzeit is a traditional Bavarian cold meal often ordered at the counter for takeaway.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an der Theke.",
+        "pronunciation": "yAHahn-dehr-tEHkuh",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahn-dehr-tEHkuh",
+          "french": "Ja, an der Theke."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

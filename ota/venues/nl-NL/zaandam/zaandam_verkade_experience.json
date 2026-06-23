@@ -1,0 +1,56 @@
+{
+  "id": "zaandam_verkade_experience",
+  "name_en": "Verkade Experience",
+  "name_local": "Verkade Experience",
+  "icon": "building.columns",
+  "lat": 52.4424926,
+  "lon": 4.8298607,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zaandam_verkade_experience_001",
+      "intent_en": "Is the Tsar Peter House annex open",
+      "text_local": "Is het annex Tsar Peter House open?",
+      "pronunciation": "ihs-huht-AHnehks-tsAHr-pEHtuhr-hUHuhzuh-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "Openingstijden zijn meestal gelijk aan het hoofdgebouw.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, tot 17:00 uur.",
+        "pronunciation": "yAHtawt-zEHvuhntEEn-nL-nL-UEr",
+        "translation_en": "Yes, until 5 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 5 PM.",
+          "phonetic": "yAHtawt-zEHvuhntEEn-nL-nL-UEr",
+          "french": "Ja, tot 17:00 uur."
+        }
+      ]
+    },
+    {
+      "id": "zaandam_verkade_experience_002",
+      "intent_en": "Where can I buy Verkade souvenir tin",
+      "text_local": "Waar kan ik Verkade-souvenirblikjes kopen?",
+      "pronunciation": "vAHr-kahn-ihk-vuhrkAHduhsUHuhvuhnIHrblihkyuhs-kOHpuhn",
+      "formality": "casual",
+      "cultural_note": "Souvenirblikjes zijn bij de winkelmedewerker verkrijgbaar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de verkoopbalie in de winkel.",
+        "pronunciation": "behih-duh-vuhrkOHpbahlEE-ihn-duh-vINGkuhl",
+        "translation_en": "At the shop sales counter."
+      },
+      "responses": [
+        {
+          "english": "At the shop sales counter.",
+          "phonetic": "behih-duh-vuhrkOHpbahlEE-ihn-duh-vINGkuhl",
+          "french": "Bij de verkoopbalie in de winkel."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

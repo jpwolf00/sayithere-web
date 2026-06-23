@@ -1,0 +1,100 @@
+{
+  "id": "utrecht_domtoren",
+  "name_en": "Domtoren",
+  "name_local": "Domtoren",
+  "icon": "building.columns",
+  "lat": 52.0906531,
+  "lon": 5.1213086,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "utrecht_domtoren_001",
+      "intent_en": "How do I rent an audio guide?",
+      "text_local": "Hoe huur ik een audiotour?",
+      "pronunciation": "hOO-hUEr-ihk-uhn-UHuhdeeOHtoor",
+      "formality": "standard",
+      "cultural_note": "Audio guides are available at the main ticket counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de balie.",
+        "pronunciation": "vrAHkh-huht-behih-duh-bahlEE",
+        "translation_en": "Ask at the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the ticket desk.",
+          "phonetic": "vrAHkh-huht-behih-duh-bahlEE",
+          "french": "Vraag het bij de balie."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_domtoren_002",
+      "intent_en": "Where is ticket kiosk at Domplein",
+      "text_local": "Waar is de kassa?",
+      "pronunciation": "vAHr-ihs-duh-kAHsah",
+      "formality": "standard",
+      "cultural_note": "Dutch ticket counters ('kassa') are typically located at the base of attractions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de balie op Domplein.",
+        "pronunciation": "behih-duh-bahlEE-awp-dAWmplehihn",
+        "translation_en": "At the counter on Domplein."
+      },
+      "responses": [
+        {
+          "english": "At the counter on Domplein.",
+          "phonetic": "behih-duh-bahlEE-awp-dAWmplehihn",
+          "french": "Bij de balie op Domplein."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_domtoren_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Is het uitzichtdek open?",
+      "pronunciation": "ihs-huht-UHuetzIHkhtehk-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "Openingstijden van de Domtoren kunnen variëren; controleer vooraf online.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kijk op de website voor de actuele openingstijden.",
+        "pronunciation": "kEHihk-awp-duh-ehnwEHbseyetnl-vawr-duh-AHktueEHluh-OHpuhningstEHihduhn",
+        "translation_en": "Check the website for current opening hours."
+      },
+      "responses": [
+        {
+          "english": "Check the website for current opening hours.",
+          "phonetic": "kEHihk-awp-duh-ehnwEHbseyetnl-vawr-duh-AHktueEHluh-OHpuhningstEHihduhn",
+          "french": "Kijk op de website voor de actuele openingstijden."
+        }
+      ]
+    },
+    {
+      "id": "utrecht_domtoren_004",
+      "intent_en": "Must I stay with guided tour group",
+      "text_local": "Moet ik bij de gids blijven?",
+      "pronunciation": "mOOt-ihk-behih-duh-ghIHts-blEHihvuhn",
+      "formality": "standard",
+      "cultural_note": "Guided tours typically require staying with the group for safety.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, volg de gids.",
+        "pronunciation": "yAHvAWlkh-duh-ghIHts",
+        "translation_en": "Yes, follow the tour guide."
+      },
+      "responses": [
+        {
+          "english": "Yes, follow the tour guide.",
+          "phonetic": "yAHvAWlkh-duh-ghIHts",
+          "french": "Ja, volg de gids."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ioannina_frontzos_bakery",
+  "name_en": "Frontzos Bakery",
+  "name_local": "Αρτοποιείο Φρόντζος",
+  "icon": "fork.knife",
+  "lat": 39.6639818,
+  "lon": 20.8522784,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "ioannina_frontzos_bakery_001",
+      "intent_en": "Ask where to find exact change",
+      "text_local": "Πού βρίσκω ψιλά για το πρωινό;",
+      "pronunciation": "pOO-vrEEskoh-pseelAH-yAH-toh-prOHeenOH",
+      "formality": "standard",
+      "cultural_note": "Exact change is preferred during morning rushes to avoid delays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο πίσω.",
+        "pronunciation": "stoh-tahmEEoh-pEEsoh",
+        "translation_en": "At the cash register in the back."
+      },
+      "responses": [
+        {
+          "english": "At the cash register in the back.",
+          "phonetic": "stoh-tahmEEoh-pEEsoh",
+          "french": "Στο ταμείο πίσω."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_frontzos_bakery_002",
+      "intent_en": "Ask if the spanakopita is still warm",
+      "text_local": "Η σπανακόπιτα είναι ζεστή;",
+      "pronunciation": "ee-spAHnahkOHpeetAH-EEneh-zehstEE",
+      "formality": "standard",
+      "cultural_note": "Locals often ask about freshness of savory pastries like spanakopita in bakeries.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι φρέσκια.",
+        "pronunciation": "nEHEEneh-frEHsah",
+        "translation_en": "Yes, it's fresh."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's fresh.",
+          "phonetic": "nEHEEneh-frEHsah",
+          "french": "Ναι, είναι φρέσκια."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_frontzos_bakery_003",
+      "intent_en": "Ask how to order coffee with my bread",
+      "text_local": "Πώς παραγγέλνω καφέ με ψωμί;",
+      "pronunciation": "pOHs-pAHrahnggEHlnoh-kahfEH-meh-psohmEE",
+      "formality": "standard",
+      "cultural_note": "In traditional bakeries, ordering coffee with bread is done verbally at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πες στον πολιτή 'έναν καφέ και ένα κουλούρι' και θα στο ετοιμάσει.",
+        "pronunciation": "pEHs-stohm-bOHleetEE-EHnahng-gahfEH-keh-EHnah-koolOOree-keh-thah-stoh-EHteemAHsee",
+        "translation_en": "Tell the counter server 'a coffee and a koulouri' and they will prepare it for you."
+      },
+      "responses": [
+        {
+          "english": "Tell the counter server 'a coffee and a koulouri' and they will prepare it for you.",
+          "phonetic": "pEHs-stohm-bOHleetEE-EHnahng-gahfEH-keh-EHnah-koolOOree-keh-thah-stoh-EHteemAHsee",
+          "french": "Πες στον πολιτή 'έναν καφέ και ένα κουλούρι' και θα στο ετοιμάσει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

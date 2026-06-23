@@ -1,0 +1,100 @@
+{
+  "id": "liberec_cukrárna_křižík",
+  "name_en": "Cukrárna Křižík",
+  "name_local": "Cukrárna Křižík",
+  "icon": "fork.knife",
+  "lat": 50.7702648,
+  "lon": 15.0583947,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "liberec_cukrárna_křižík_001",
+      "intent_en": "Do you have větrníky today?",
+      "text_local": "Máte dneska větrníky?",
+      "pronunciation": "mAHteh-dnEHskah-vyEHtrnyEEkee",
+      "formality": "standard",
+      "cultural_note": "Staff often mention limited stock to manage expectations, as popular items like větrníky sell out fast.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, ještě pár jich zbývá.",
+        "pronunciation": "AHnohyEHsheh-pAHr-yEEgh-zbEEvah",
+        "translation_en": "Yes, there are still a few left."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are still a few left.",
+          "phonetic": "AHnohyEHsheh-pAHr-yEEgh-zbEEvah",
+          "french": "Ano, ještě pár jich zbývá."
+        }
+      ]
+    },
+    {
+      "id": "liberec_cukrárna_křižík_002",
+      "intent_en": "Do I pay at the counter first?",
+      "text_local": "Platí se nejdřív u pultu?",
+      "pronunciation": "plAHee-seh-nAYdreev-OO-pOOltoo",
+      "formality": "standard",
+      "cultural_note": "In many Czech cukrárnas, you pay before receiving your items, especially when selecting from a display case.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, nejdříve zaplaťte u pokladny.",
+        "pronunciation": "AHnohnAYdreeveh-zAHplahteh-OO-pOHklahdnee",
+        "translation_en": "Yes, pay at the cash register first."
+      },
+      "responses": [
+        {
+          "english": "Yes, pay at the cash register first.",
+          "phonetic": "AHnohnAYdreeveh-zAHplahteh-OO-pOHklahdnee",
+          "french": "Ano, nejdříve zaplaťte u pokladny."
+        }
+      ]
+    },
+    {
+      "id": "liberec_cukrárna_křižík_003",
+      "intent_en": "Is the liberecký medovník available now?",
+      "text_local": "Je teď k dispozici liberecký medovník?",
+      "pronunciation": "yeh-tEH-k-dEEspohzEEtsee-lEEbehrEHtskee-mEHdohvnyeek",
+      "formality": "standard",
+      "cultural_note": "Liberecký medovník is a regional specialty; confirming its availability directly is a standard and expected response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, liberecký medovník máme.",
+        "pronunciation": "AHnohlEEbehrEHtskee-mEHdohvnyeek-mAHmeh",
+        "translation_en": "Yes, we have liberecký medovník."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have liberecký medovník.",
+          "phonetic": "AHnohlEEbehrEHtskee-mEHdohvnyeek-mAHmeh",
+          "french": "Ano, liberecký medovník máme."
+        }
+      ]
+    },
+    {
+      "id": "liberec_cukrárna_křižík_004",
+      "intent_en": "How do I order a custom cake?",
+      "text_local": "Jak si můžu objednat dort na zakázku?",
+      "pronunciation": "yAHk-see-mOOzhoo-OHbyehdnahd-dOHrt-nAHzahkAHskoo",
+      "formality": "standard",
+      "cultural_note": "Czech bakeries often have a separate counter or area for custom orders to avoid blocking the main queue.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Objednávky přijímáme u zadního pultu, prosím.",
+        "pronunciation": "OHbyehdnAHfkee-prEEyeemAHmeh-OO-zAHdnyeehoh-pOOltooprOHseem",
+        "translation_en": "We take orders at the back counter, please."
+      },
+      "responses": [
+        {
+          "english": "We take orders at the back counter, please.",
+          "phonetic": "OHbyehdnAHfkee-prEEyeemAHmeh-OO-zAHdnyeehoh-pOOltooprOHseem",
+          "french": "Objednávky přijímáme u zadního pultu, prosím."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

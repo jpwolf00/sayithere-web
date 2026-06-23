@@ -1,0 +1,100 @@
+{
+  "id": "berlin_berlin_tourist_information_centre_at_brandenburg_gate",
+  "name_en": "Berlin Tourist Information Centre at Brandenburg Gate",
+  "name_local": "Berlin Tourist-Info am Brandenburger Tor",
+  "icon": "info.circle",
+  "lat": 52.5162699,
+  "lon": 13.3777034,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "berlin_berlin_tourist_information_centre_at_brandenburg_gate_001",
+      "intent_en": "Do you sell WelcomeCards with ABC zones?",
+      "text_local": "Haben Sie WelcomeCards mit ABC-Bereich?",
+      "pronunciation": "hAHbuhn-zee-vehlkOHmuh-kAHrts-miht-AHbEHtsEHbuhrEYEkh",
+      "formality": "standard",
+      "cultural_note": "WelcomeCards are sold at dedicated ticket counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Kartenverkauf.",
+        "pronunciation": "yAHahm-kAHrtuhnfkOWf",
+        "translation_en": "Yes, at ticket sales."
+      },
+      "responses": [
+        {
+          "english": "Yes, at ticket sales.",
+          "phonetic": "yAHahm-kAHrtuhnfkOWf",
+          "french": "Ja, am Kartenverkauf."
+        }
+      ]
+    },
+    {
+      "id": "berlin_berlin_tourist_information_centre_at_brandenburg_gate_002",
+      "intent_en": "Can I buy a museum pass here?",
+      "text_local": "Verkaufen Sie Museumspässe?",
+      "pronunciation": "fehrkOWfuhn-zee-mOOzawuhmspEHsuh",
+      "formality": "standard",
+      "cultural_note": "Staff may guide to ticket counter or kiosk for passes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "berlin_berlin_tourist_information_centre_at_brandenburg_gate_003",
+      "intent_en": "Where can I get transit maps?",
+      "text_local": "Wo gibt es Fahrpläne?",
+      "pronunciation": "vOH-EEpt-ehs-fAHrplehnuh",
+      "formality": "standard",
+      "cultural_note": "Transit maps are typically available at tourist info counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Infoschalter.",
+        "pronunciation": "ahm-IHnfawshAHlt",
+        "translation_en": "At the info counter."
+      },
+      "responses": [
+        {
+          "english": "At the info counter.",
+          "phonetic": "ahm-IHnfawshAHlt",
+          "french": "Am Infoschalter."
+        }
+      ]
+    },
+    {
+      "id": "berlin_berlin_tourist_information_centre_at_brandenburg_gate_004",
+      "intent_en": "How do I book Reichstag dome tickets?",
+      "text_local": "Wie buche ich Reichstagskuppeltickets?",
+      "pronunciation": "vee-bOOkhuh-ihkh-rEYEkstahkskUHpuhltIHkuhts",
+      "formality": "standard",
+      "cultural_note": "Reichstag tickets require mandatory advance booking.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Online oder am Schalter buchen.",
+        "pronunciation": "ehnNleyendeh-OHd-ahm-shAHlt-bOOkhuhn",
+        "translation_en": "Book online or at the counter."
+      },
+      "responses": [
+        {
+          "english": "Book online or at the counter.",
+          "phonetic": "ehnNleyendeh-OHd-ahm-shAHlt-bOOkhuhn",
+          "french": "Online oder am Schalter buchen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

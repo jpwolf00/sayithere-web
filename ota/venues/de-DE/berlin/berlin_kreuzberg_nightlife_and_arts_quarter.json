@@ -1,0 +1,100 @@
+{
+  "id": "berlin_kreuzberg_nightlife_and_arts_quarter",
+  "name_en": "Kreuzberg nightlife and arts quarter",
+  "name_local": "Berlin-Kreuzberg",
+  "icon": "map",
+  "lat": 52.496579,
+  "lon": 13.4376053,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "berlin_kreuzberg_nightlife_and_arts_quarter_001",
+      "intent_en": "Where can I find late-night Spätis?",
+      "text_local": "Wo finde ich nachts einen Späti?",
+      "pronunciation": "vOH-EEpt-ehs-nAHkhts-EYEnuhn-shpEHtee",
+      "formality": "standard",
+      "cultural_note": "Spätis sind oft bis Mitternacht oder länger geöffnet; beleuchtete Läden sind ein guter Hinweis.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Warschauer Straße.",
+        "pronunciation": "ahn-dehr-vAHrshow-shtrAHsuh",
+        "translation_en": "At Warschauer Straße."
+      },
+      "responses": [
+        {
+          "english": "At Warschauer Straße.",
+          "phonetic": "ahn-dehr-vAHrshow-shtrAHsuh",
+          "french": "An der Warschauer Straße."
+        }
+      ]
+    },
+    {
+      "id": "berlin_kreuzberg_nightlife_and_arts_quarter_002",
+      "intent_en": "Do clubs at Warschauer Straße take cash?",
+      "text_local": "Nehmen Clubs an der Warschauer Straße Bargeld?",
+      "pronunciation": "nEHmuhn-klOObs-ahn-dehr-vAHrshow-shtrAHsuh-bAHrehlt",
+      "formality": "standard",
+      "cultural_note": "In Berliner Clubs ist Bargeld oft erforderlich, besonders für Eintritt und Getränke.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ja, nur Barzahlung.",
+        "pronunciation": "yAHnOOr-bAHrtsahlUHng",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "yAHnOOr-bAHrtsahlUHng",
+          "french": "Ja, nur Barzahlung."
+        }
+      ]
+    },
+    {
+      "id": "berlin_kreuzberg_nightlife_and_arts_quarter_003",
+      "intent_en": "Is Görlitzer Park safe to cross at night?",
+      "text_local": "Ist der Görlitzer Park nachts sicher?",
+      "pronunciation": "ihst-dehr-UHrlihts-pAHrk-nAHkhts-zIHkh",
+      "formality": "standard",
+      "cultural_note": "Görlitzer Park ist nachts weniger beleuchtet; lokale Empfehlungen betonen, belebte Wege zu nutzen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meiden Sie dunkle Ecken.",
+        "pronunciation": "mEYEduhn-zee-dUHngkluh-EHkuhn",
+        "translation_en": "Avoid dark corners."
+      },
+      "responses": [
+        {
+          "english": "Avoid dark corners.",
+          "phonetic": "mEYEduhn-zee-dUHngkluh-EHkuhn",
+          "french": "Meiden Sie dunkle Ecken."
+        }
+      ]
+    },
+    {
+      "id": "berlin_kreuzberg_nightlife_and_arts_quarter_004",
+      "intent_en": "Where is the Oranienstraße bar strip?",
+      "text_local": "Wo ist die Oranienstraße?",
+      "pronunciation": "vOH-ihst-dee-OHrahnEE-uhnstrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Die Oranienstraße ist eine der bekanntesten Kneipenmeilen Berlins; die Antwort verweist auf die Straße selbst.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Einfach geradeaus.",
+        "pronunciation": "EYEnfAHkh-guhrAHdehOWs",
+        "translation_en": "Just straight ahead."
+      },
+      "responses": [
+        {
+          "english": "Just straight ahead.",
+          "phonetic": "EYEnfAHkh-guhrAHdehOWs",
+          "french": "Einfach geradeaus."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

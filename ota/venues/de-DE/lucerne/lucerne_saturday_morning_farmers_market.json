@@ -1,0 +1,100 @@
+{
+  "id": "lucerne_saturday_morning_farmers_market",
+  "name_en": "Saturday morning farmers market",
+  "name_local": "Wochenmarkt am Samstag",
+  "icon": "cart",
+  "lat": 47.052144,
+  "lon": 8.3058123,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "lucerne_saturday_morning_farmers_market_001",
+      "intent_en": "Ask how bottle deposit return works here",
+      "text_local": "Wie funktioniert Pfandrückgabe hier?",
+      "pronunciation": "vee-fuhngktsyOHnEErt-pfAHndruekAHbuh-hEEr",
+      "formality": "casual",
+      "cultural_note": "Deposit counters are usually staffed; check for signs if unclear.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Leere Flaschen am Pfandschalter.",
+        "pronunciation": "lEHruh-flAHshuhn-ahm-pfAHntshahlt",
+        "translation_en": "Return empty bottles at deposit counter."
+      },
+      "responses": [
+        {
+          "english": "Return empty bottles at deposit counter.",
+          "phonetic": "lEHruh-flAHshuhn-ahm-pfAHntshahlt",
+          "french": "Leere Flaschen am Pfandschalter."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_saturday_morning_farmers_market_002",
+      "intent_en": "Ask where flower vendors are located today",
+      "text_local": "Wo sind heute die Blumenstände?",
+      "pronunciation": "vOH-zihnt-hAWuhtuh-dee-blOOmuhnshtEHnduh",
+      "formality": "standard",
+      "cultural_note": "Flower stalls rotate weekly; signs are updated accordingly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links hinten, bei den Bäckereiständen.",
+        "pronunciation": "lINGks-hIHntuhnbeye-dehn-bEHkehrEYEshtehnduhn",
+        "translation_en": "Left at the back, near the bakery stalls."
+      },
+      "responses": [
+        {
+          "english": "Left at the back, near the bakery stalls.",
+          "phonetic": "lINGks-hIHntuhnbeye-dehn-bEHkehrEYEshtehnduhn",
+          "french": "Links hinten, bei den Bäckereiständen."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_saturday_morning_farmers_market_003",
+      "intent_en": "Ask if baked goods section has sourdough left",
+      "text_local": "Haben Sie noch Sauerteigbrot?",
+      "pronunciation": "hAHbuhn-zee-nawkh-zOWtEYEbroht",
+      "formality": "standard",
+      "cultural_note": "Sourdough is typically baked early; supplies may run out by midday.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, frisch vom Morgen.",
+        "pronunciation": "yAHfrIHsh-fawm-mAWruhn",
+        "translation_en": "Yes, fresh from this morning."
+      },
+      "responses": [
+        {
+          "english": "Yes, fresh from this morning.",
+          "phonetic": "yAHfrIHsh-fawm-mAWruhn",
+          "french": "Ja, frisch vom Morgen."
+        }
+      ]
+    },
+    {
+      "id": "lucerne_saturday_morning_farmers_market_004",
+      "intent_en": "Ask if farm stalls accept cash only",
+      "text_local": "Zahlen Bauernhöfe nur bar?",
+      "pronunciation": "tsAHluhn-bOWnhUHfuh-nOOr-bAHr",
+      "formality": "standard",
+      "cultural_note": "Farmers often prefer cash due to lower fees, but some may accept card near closing time.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, meist nur bar.",
+        "pronunciation": "yAHmEYEst-nOOr-bAHr",
+        "translation_en": "Yes, usually cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, usually cash only.",
+          "phonetic": "yAHmEYEst-nOOr-bAHr",
+          "french": "Ja, meist nur bar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "plzeň_lochotín_park_and_amphitheatre",
+  "name_en": "Lochotín Park and Amphitheatre",
+  "name_local": "Park a amfiteátr Lochotín",
+  "icon": "leaf",
+  "lat": 49.7477415,
+  "lon": 13.3775249,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "plzeň_lochotín_park_and_amphitheatre_001",
+      "intent_en": "Can I buy concert tickets here?",
+      "text_local": "Můžu si tady koupit lístky na koncert?",
+      "pronunciation": "mOOzhoo-see-tAHdee-kOHpeet-lEEstkee-nAHkohntsehrt",
+      "formality": "standard",
+      "cultural_note": "Pokladna is the standard term for a ticket booth or cashier's office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u pokladny vpravo od vchodu.",
+        "pronunciation": "AHnohOO-pOHklahdnee-fprAHvoh-OHdfkhohdoo",
+        "translation_en": "Yes, at the ticket booth to the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket booth to the right of the entrance.",
+          "phonetic": "AHnohOO-pOHklahdnee-fprAHvoh-OHdfkhohdoo",
+          "french": "Ano, u pokladny vpravo od vchodu."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_lochotín_park_and_amphitheatre_002",
+      "intent_en": "Are dogs allowed in amphitheatre?",
+      "text_local": "Mohou psi do amfiteátru?",
+      "pronunciation": "mOHhoh-psEE-doh-AHmfeetEHahtroo",
+      "formality": "standard",
+      "cultural_note": "A firm but polite 'Bohužel ne' (Unfortunately not) is common for rule enforcement.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bohužel ne, jen asistenční.",
+        "pronunciation": "bOHhoozhehl-nEHyEHn-AHseestEHntshnyee",
+        "translation_en": "Unfortunately not, only assistance dogs."
+      },
+      "responses": [
+        {
+          "english": "Unfortunately not, only assistance dogs.",
+          "phonetic": "bOHhoozhehl-nEHyEHn-AHseestEHntshnyee",
+          "french": "Bohužel ne, jen asistenční."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_lochotín_park_and_amphitheatre_003",
+      "intent_en": "Where is Lochotín spring?",
+      "text_local": "Kde je Lochotínský pramen?",
+      "pronunciation": "kdEH-yeh-lOHkhohEEnskee-prAHmehn",
+      "formality": "standard",
+      "cultural_note": "Many Czech parks have natural springs, often marked by a small structure like a gazebo.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dál do parku, u altánku.",
+        "pronunciation": "dAHl-dOHpahrkooOO-AHltahngkoo",
+        "translation_en": "Further into the park, by the gazebo."
+      },
+      "responses": [
+        {
+          "english": "Further into the park, by the gazebo.",
+          "phonetic": "dAHl-dOHpahrkooOO-AHltahngkoo",
+          "french": "Dál do parku, u altánku."
+        }
+      ]
+    },
+    {
+      "id": "plzeň_lochotín_park_and_amphitheatre_004",
+      "intent_en": "Where is Lochotín amphitheatre?",
+      "text_local": "Kde je amfiteátr Lochotín?",
+      "pronunciation": "kdEH-yeh-AHmfeetEHahtr-lOHkhoheen",
+      "formality": "standard",
+      "cultural_note": "Czechs often use a prominent landmark like a pond for directions in a park.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za rybníkem, po levé straně.",
+        "pronunciation": "zAHreebnyEEkehmpOHlehveh-strAHnyeh",
+        "translation_en": "Behind the pond, on the left side."
+      },
+      "responses": [
+        {
+          "english": "Behind the pond, on the left side.",
+          "phonetic": "zAHreebnyEEkehmpOHlehveh-strAHnyeh",
+          "french": "Za rybníkem, po levé straně."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

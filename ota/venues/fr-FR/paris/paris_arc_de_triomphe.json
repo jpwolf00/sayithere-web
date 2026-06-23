@@ -1,0 +1,118 @@
+{
+  "id": "paris_arc_de_triomphe",
+  "name_en": "Arc de Triomphe",
+  "name_local": "Arc de Triomphe",
+  "icon": "building.columns",
+  "lat": 48.8738,
+  "lon": 2.295,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "paris_arc_001",
+      "intent_en": "Ask where the underpass entrance is",
+      "text_local": "Où est le passage souterrain pour entrer ?",
+      "pronunciation": "oo eh leh pah-SAHZH soo-teh-RAIN poor on-TRAY",
+      "formality": "polite",
+      "cultural_note": "Use the underground passage—never cross the traffic circle at street level.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The underpass is on the other side of the avenue, on the right.",
+          "phonetic": "leh pah-SAHZH eh duh loh-TR koh-TAY duh lah-vay-NOO, sur lah drwaht",
+          "french": "Le passage est de l'autre côté de l'Avenue, sur la droite."
+        }
+      ]
+    },
+    {
+      "id": "paris_arc_002",
+      "intent_en": "Ask if the terrace is open",
+      "text_local": "La terrasse est ouverte maintenant ?",
+      "pronunciation": "lah teh-RASS eh oo-VAIRT man-tuh-NON",
+      "formality": "polite",
+      "cultural_note": "Terrace access can pause in bad weather or high wind.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it's open today. It depends on the wind too.",
+          "phonetic": "wee, el eh oo-VAIRT oh-ee. sah day-PAHN duh vahn oh-SEE",
+          "french": "Oui, elle est ouverte aujourd'hui. Ça dépend du vent aussi."
+        }
+      ]
+    },
+    {
+      "id": "paris_arc_003",
+      "intent_en": "Ask how many steps to the top",
+      "text_local": "Il y a combien de marches jusqu'en haut ?",
+      "pronunciation": "eel yah kom-BYAN duh marsh zhusk-on OH",
+      "formality": "polite",
+      "cultural_note": "Expect around 200 steps for the viewpoint if elevator access is limited.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are about 200 steps without the elevator.",
+          "phonetic": "eel yah on-VYEHR deux-SAHNZ marsh sahn la-san-SUHR",
+          "french": "Il y a environ 200 marches sans ascenseur."
+        }
+      ]
+    },
+    {
+      "id": "paris_arc_004",
+      "intent_en": "Ask about the flame ceremony time",
+      "text_local": "La cérémonie de la flamme est à quelle heure ?",
+      "pronunciation": "lah say-ray-moh-NEE duh lah flam eh tah kel UR",
+      "formality": "polite",
+      "cultural_note": "The eternal flame ceremony is a key daily ritual; arrive early for a good view.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The ceremony is at 6:30 PM every evening.",
+          "phonetic": "lah say-ray-moh-NEE eh tah sayz-oor sayk shah sohwahr",
+          "french": "La cérémonie est à 18h30 chaque soir."
+        }
+      ]
+    },
+    {
+      "id": "paris_arc_005",
+      "intent_en": "Ask which ticket line is faster",
+      "text_local": "Quelle file va le plus vite ?",
+      "pronunciation": "kel feel vah leh ploo veet",
+      "formality": "polite",
+      "cultural_note": "Online tickets usually reduce waiting, especially late afternoon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The line with online tickets is faster. Try that one.",
+          "phonetic": "lah feel ah-VEK bee-YAY on-LINE eh ploo rah-PEED. es-yay lah",
+          "french": "La file avec billet online est plus rapide. Essayez là."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "underpass",
+      "word_local": "le passage souterrain",
+      "pronunciation": "leh pah-SAHZH soo-teh-RAIN"
+    },
+    {
+      "word_en": "terrace",
+      "word_local": "la terrasse",
+      "pronunciation": "lah teh-RASS"
+    },
+    {
+      "word_en": "steps",
+      "word_local": "les marches",
+      "pronunciation": "lay marsh"
+    },
+    {
+      "word_en": "flame",
+      "word_local": "la flamme",
+      "pronunciation": "lah flam"
+    }
+  ]
+}

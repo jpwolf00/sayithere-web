@@ -1,0 +1,210 @@
+{
+  "id": "meteora_kalabaka_pharmacy_kouimtzidis",
+  "name_en": "Pharmacy Kouimtzidis",
+  "name_local": "Φαρμακείο Κουϊμτζίδης",
+  "icon": "info.circle",
+  "lat": 39.7070178,
+  "lon": 21.6279431,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_001",
+      "intent_en": "Are generic versions available for this?",
+      "text_local": "Υπάρχουν γενόσημα για αυτό;",
+      "pronunciation": "eepAHrkhoon-yehnOHseemAH-yAH-ahftOH",
+      "formality": "standard",
+      "cultural_note": "Τα γενόσημα φάρμακα είναι κοινή πρακτική στα ελληνικά φαρμακεία και συχνά προτείνονται για οικονομία.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχουν γενόσημα.",
+        "pronunciation": "nEHeepAHrkhoon-yehnOHseemAH",
+        "translation_en": "Yes, generics available."
+      },
+      "responses": [
+        {
+          "english": "Yes, generics available.",
+          "phonetic": "nEHeepAHrkhoon-yehnOHseemAH",
+          "french": "Ναι, υπάρχουν γενόσημα."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η είσοδος με το πράσινο σταυρό;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHz-meh-toh-prAHseenOH-stahvrOH",
+      "formality": "standard",
+      "cultural_note": "Το πράσινο σταυρό αποτελεί το σήμα αναγνώρισης του φαρμακείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακριβώς στην πρόσοψη, με τον πράσινο σταυρό.",
+        "pronunciation": "AHkreevOHs-steem-brOHsohpsEEmeh-tohm-brAHseenOH-stahvrOH",
+        "translation_en": "The entrance is at the front, where you see the green cross."
+      },
+      "responses": [
+        {
+          "english": "The entrance is at the front, where you see the green cross.",
+          "phonetic": "AHkreevOHs-steem-brOHsohpsEEmeh-tohm-brAHseenOH-stahvrOH",
+          "french": "Ακριβώς στην πρόσοψη, με τον πράσινο σταυρό."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_003",
+      "intent_en": "Where queue without number system?",
+      "text_local": "Πώς γίνεται η σειρά εδώ;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-seerAH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Είναι σύνηθες στα ελληνικά φαρμακεία να μην υπάρχουν αριθμοί σειράς. Οι πελάτες περιμένουν την σειρά τους βλέποντας τον υπάλληλο ή βάσει προτεραιότητας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Περιμένετε την σειρά σας.",
+        "pronunciation": "pEHreemEHnehtEH-teen-seerAH-sahs",
+        "translation_en": "Wait for your turn."
+      },
+      "responses": [
+        {
+          "english": "Wait for your turn.",
+          "phonetic": "pEHreemEHnehtEH-teen-seerAH-sahs",
+          "french": "Περιμένετε την σειρά σας."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού περιμένω τη σειρά μου;",
+      "pronunciation": "pOO-pEHreemEHnoh-tee-seerAH-moo",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες περιμένουν στη σειρά μπροστά από το φαρμακείο χωρίς αριθμό σειράς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο συνταγογράφησης, παρακαλώ.",
+        "pronunciation": "stohm-bAHnggoh-sEEdahghohghrAHfeesEEspAHrahkahlOH",
+        "translation_en": "Wait here in front of the counter."
+      },
+      "responses": [
+        {
+          "english": "Wait here in front of the counter.",
+          "phonetic": "stohm-bAHnggoh-sEEdahghohghrAHfeesEEspAHrahkahlOH",
+          "french": "Στον πάγκο συνταγογράφησης, παρακαλώ."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_005",
+      "intent_en": "Is φαρμακοποιός consult free today?",
+      "text_local": "Η συμβουλή του φαρμακοποιού είναι δωρεάν;",
+      "pronunciation": "ee-sEEmvoolEE-too-fAHrmahkOHpeeOO-EEneh-thOHrehAHn",
+      "formality": "standard",
+      "cultural_note": "Στις περισσότερες περιπτώσεις, η συμβουλή του φαρμακοποιού παρέχεται δωρεάν στους επισκέπτες του φαρμακείου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δωρεάν.",
+        "pronunciation": "nEHthOHrehAHn",
+        "translation_en": "Yes, free."
+      },
+      "responses": [
+        {
+          "english": "Yes, free.",
+          "phonetic": "nEHthOHrehAHn",
+          "french": "Ναι, δωρεάν."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_006",
+      "intent_en": "Can I get generic version?",
+      "text_local": "Έχετε γενόσημα φάρμακα;",
+      "pronunciation": "EHkhehtEH-yehnOHseemAH-fAHrmahkAH",
+      "formality": "standard",
+      "cultural_note": "Τα γενόσημα φάρμακα διατίθενται στο φαρμακείο μετά από ερώτηση στον υπάλληλο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, υπάρχουν.",
+        "pronunciation": "nEHeepAHrkhoon",
+        "translation_en": "Yes, there are."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are.",
+          "phonetic": "nEHeepAHrkhoon",
+          "french": "Ναι, υπάρχουν."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_007",
+      "intent_en": "Do you accept card payment?",
+      "text_local": "Δέχεστε κάρτα;",
+      "pronunciation": "thEHkhehstEH-kAHrtah",
+      "formality": "standard",
+      "cultural_note": "Η πληρωμή γίνεται στον πάγκο του φαρμακείου τόσο με μετρητά όσο και με κάρτα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, πληρώστε στον πάγκο.",
+        "pronunciation": "nEHpleerOHsteh-stohm-bAHnggoh",
+        "translation_en": "Yes, pay at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, pay at the counter.",
+          "phonetic": "nEHpleerOHsteh-stohm-bAHnggoh",
+          "french": "Ναι, πληρώστε στον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_008",
+      "intent_en": "Where get receipt with AMKA number?",
+      "text_local": "Πού παίρνω απόδειξη με ΑΜΚΑ;",
+      "pronunciation": "pOO-pEHrnoh-ahpOHtheeksEE-meh-AHmkah",
+      "formality": "standard",
+      "cultural_note": "Η έκδοση απόδειξης με ΑΜΚΑ γίνεται συνήθως στο ταμείο, αλλά η ακριβής διαδικασία μπορεί να ζητηθεί από τον υπάλληλο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο, δίπλα στην είσοδο.",
+        "pronunciation": "stoh-tahmEEohthEEplah-steen-EEsohthOH",
+        "translation_en": "At the register. Give AMKA to the pharmacist."
+      },
+      "responses": [
+        {
+          "english": "At the register. Give AMKA to the pharmacist.",
+          "phonetic": "stoh-tahmEEohthEEplah-steen-EEsohthOH",
+          "french": "Στο ταμείο, δίπλα στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_pharmacy_kouimtzidis_009",
+      "intent_en": "Do you accept card for prescription?",
+      "text_local": "Παίρνετε κάρτα για τη συνταγή;",
+      "pronunciation": "pEHrnehtEH-kAHrtah-yAH-tee-sEEdahyEE",
+      "formality": "standard",
+      "cultural_note": "Στα ελληνικά φαρμακεία η πληρωμή με κάρτα είναι συνηθισμένη, αλλά μπορεί να περιορίζεται ανάλογα με το ύψος του ποσού.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, δέχεται κάρτα.",
+        "pronunciation": "nEHthEHkhehtEH-kAHrtah",
+        "translation_en": "Yes, card accepted."
+      },
+      "responses": [
+        {
+          "english": "Yes, card accepted.",
+          "phonetic": "nEHthEHkhehtEH-kAHrtah",
+          "french": "Ναι, δέχεται κάρτα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

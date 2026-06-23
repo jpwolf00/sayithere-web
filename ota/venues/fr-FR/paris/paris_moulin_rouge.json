@@ -1,0 +1,108 @@
+{
+  "id": "venue_moulin_rouge",
+  "name_en": "Moulin Rouge",
+  "name_local": "Moulin Rouge",
+  "icon": "star.fill",
+  "phrases": [
+    {
+      "id": "venue_moulin_rouge_001",
+      "intent_en": "Ask about show tickets for tonight",
+      "text_local": "Est-ce qu'il reste des places pour le spectacle de ce soir ?",
+      "pronunciation": "ess keel REST day PLAHS poor luh spek-TAHKL duh suh SWAHR",
+      "formality": "polite",
+      "cultural_note": "The Moulin Rouge often sells out weeks ahead. Book online in advance. The 9 PM show is most popular; the 11 PM show is sometimes easier to get.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are seats left for tonight. The show starts at nine.",
+          "phonetic": "eel rest day plass poor suh swahr. luh spek-TAH-kluh koh-MAHNS ah vant ay oon uhr",
+          "french": "Il reste des places pour ce soir. Le spectacle commence à vingt et une heures."
+        }
+      ]
+    },
+    {
+      "id": "venue_moulin_rouge_002",
+      "intent_en": "Ask about the dinner-show package",
+      "text_local": "Quelle est la différence entre le dîner-spectacle et le spectacle seul ?",
+      "pronunciation": "kel eh lah dee-fay-RAHNSS ahntr luh dee-NAY spek-TAHKL ay luh spek-TAHKL SUHL",
+      "formality": "polite",
+      "cultural_note": "The dinner-show includes a French meal before the 9 PM revue. Show-only tickets (champagne included) are less expensive. Both see the same spectacular 'Féerie' show.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The dinner show starts at seven.",
+          "phonetic": "luh dee-NAY spek-TAH-kluh koh-MAHNS ah dee-NUHF uhr",
+          "french": "Le dîner-spectacle commence à dix-neuf heures."
+        }
+      ]
+    },
+    {
+      "id": "venue_moulin_rouge_003",
+      "intent_en": "Ask about the dress code",
+      "text_local": "Comment faut-il s'habiller pour le Moulin Rouge ?",
+      "pronunciation": "koh-MAHN foh-TEEL sah-bee-YAY poor luh moo-LAHN ROOZH",
+      "formality": "polite",
+      "cultural_note": "Smart elegant dress is required. No sportswear, shorts, or sneakers. Men should wear a jacket. Think 'Parisian night out' — it's part of the experience.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Elegant dress recommended. No shorts or sneakers.",
+          "phonetic": "tuh-NOO ay-lay-GAHNT ruh-koh-mahn-DAY. pah duh short nee duh bas-KET",
+          "french": "Tenue élégante recommandée. Pas de short ni de baskets."
+        }
+      ]
+    },
+    {
+      "id": "venue_moulin_rouge_004",
+      "intent_en": "Ask what time the show starts",
+      "text_local": "Le spectacle commence à quelle heure ?",
+      "pronunciation": "luh spek-TAHKL koh-MAHNSS ah kel UHR",
+      "formality": "standard",
+      "cultural_note": "There are typically two shows: 9 PM and 11 PM. Arrive 30 minutes early for seating. The show lasts about 2 hours with an intermission.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The show starts at eleven PM.",
+          "phonetic": "luh spek-TAH-kluh koh-MAHNS ah vant-trwaz uhr",
+          "french": "Le spectacle commence à vingt-trois heures."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Show/Revue",
+      "word_local": "Spectacle / Revue",
+      "pronunciation": "spek-TAHKL / ruh-VOO"
+    },
+    {
+      "word_en": "Dinner-show",
+      "word_local": "Dîner-spectacle",
+      "pronunciation": "dee-NAY spek-TAHKL"
+    },
+    {
+      "word_en": "Windmill",
+      "word_local": "Moulin",
+      "pronunciation": "moo-LAHN"
+    },
+    {
+      "word_en": "Can-can",
+      "word_local": "French cancan",
+      "pronunciation": "frehnch kahn-KAHN"
+    },
+    {
+      "word_en": "Champagne",
+      "word_local": "Champagne",
+      "pronunciation": "shahm-PAHN-yuh"
+    },
+    {
+      "word_en": "Seat",
+      "word_local": "Place",
+      "pronunciation": "plahs"
+    }
+  ]
+}

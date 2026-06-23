@@ -1,0 +1,118 @@
+{
+  "id": "dijon_rue_liberte",
+  "name_en": "Rue de la Liberté",
+  "name_local": "Rue de la Liberté",
+  "icon": "bag",
+  "lat": 47.323,
+  "lon": 5.035,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "dijon_rue_001",
+      "intent_en": "Ask where the main shopping street is",
+      "text_local": "Quelle est la principale rue commerçante ?",
+      "pronunciation": "kel eh lah prahn-SEE-pal roo ko-mair-SAHNT",
+      "formality": "polite",
+      "cultural_note": "Rue de la Liberté is the main shopping street in Dijon, connecting Place Darcy to the historic center.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's Rue de la Liberté, the one you're on.",
+          "phonetic": "say lah roo duh lah lee-bair-TAY, sel oo voo ZET",
+          "french": "C'est la rue de la Liberté, celle où vous êtes."
+        }
+      ]
+    },
+    {
+      "id": "dijon_rue_002",
+      "intent_en": "Ask where to find luxury boutiques",
+      "text_local": "Où sont les boutiques de luxe ?",
+      "pronunciation": "oo son lay boo-TEEK duh LOOKS",
+      "formality": "polite",
+      "cultural_note": "High-end shops line Rue de la Liberté and the adjacent Rue des Forges. For luxury brands, try the Golden Index.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Around Place François Rude, on this street.",
+          "phonetic": "oh-TOOR duh lah plahs frahn-SWAH ROOD, dahn set ROO",
+          "french": "Autour de la place François Rude, dans cette rue."
+        }
+      ]
+    },
+    {
+      "id": "dijon_rue_003",
+      "intent_en": "Ask where the nearest pharmacy is",
+      "text_local": "Où est la pharmacie la plus proche ?",
+      "pronunciation": "oo eh lah far-mah-SEE lah ploo PROHSH",
+      "formality": "polite",
+      "cultural_note": "Pharmacies in France display a green cross. There's one on nearly every major street in the city center.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Look for the green cross, there's one just over there.",
+          "phonetic": "shair-SHAY lah krwah VAIRT, eel ee ahn ah oon zhoost lah-BAH",
+          "french": "Cherchez la croix verte, il y en a une juste là-bas."
+        }
+      ]
+    },
+    {
+      "id": "dijon_rue_004",
+      "intent_en": "Ask about the opening hours for shops",
+      "text_local": "Quelles sont les heures d'ouverture des boutiques ?",
+      "pronunciation": "kel son layz UHR doo-vair-TYOR day boo-TEEK",
+      "formality": "polite",
+      "cultural_note": "Shops in Dijon typically open around 9am and close around 7pm, with a break for lunch between 12pm and 2pm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Shops in Dijon typically open around 9am and close around 7pm, with a lunch break between 12pm and 2pm.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "Les boutiques à Dijon ouvrent généralement vers 9h et ferment vers 19h, avec une pause déjeuner entre 12h et 14h."
+        }
+      ]
+    },
+    {
+      "id": "dijon_rue_005",
+      "intent_en": "Ask if there are any sales today",
+      "text_local": "Y a-t-il des soldes aujourd'hui ?",
+      "pronunciation": "ee ah-TEEL day SOHLD oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "French sales (soldes) are regulated — they happen twice yearly, in January and late June/early July. Outside these periods, prices are fixed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Sales are in January and July only.",
+          "phonetic": "lay SOHLD son ahn zhahn-VYAY ay ahn zhwee-YAY suhl-MAHN",
+          "french": "Les soldes sont en janvier et en juillet seulement."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "shopping street",
+      "word_local": "la rue commerçante",
+      "pronunciation": "lah roo ko-mair-SAHNT"
+    },
+    {
+      "word_en": "shop",
+      "word_local": "la boutique",
+      "pronunciation": "lah boo-TEEK"
+    },
+    {
+      "word_en": "sale",
+      "word_local": "les soldes",
+      "pronunciation": "lay SOHLD"
+    },
+    {
+      "word_en": "luxury",
+      "word_local": "le luxe",
+      "pronunciation": "leh LOOKS"
+    }
+  ]
+}

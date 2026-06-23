@@ -1,0 +1,122 @@
+{
+  "id": "cappadocia_zelve_open_air_museum",
+  "name_en": "Zelve Open-Air Museum",
+  "name_local": "Zelve Açık Hava Müzesi",
+  "icon": "building.columns",
+  "lat": 38.6386124,
+  "lon": 34.8455184,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "cappadocia_zelve_open_air_museum_001",
+      "intent_en": "Where do tunnel passages lead?",
+      "text_local": "Tünel geçitleri nereye çıkıyor?",
+      "pronunciation": "tuenAHl-ehtshihtlehrIH-nEHrehyeh-tshookOOyawr",
+      "formality": "standard",
+      "cultural_note": "Tüneller birbirine bağlı odalara ve avlulara açılır, detaylı bilgi için görevliye sormak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geçitler üçüncü vadiye çıkar.",
+        "pronunciation": "ehtshihtlEHr-uetshuhndzhUH-vahdeeyEH-tshookAHr",
+        "translation_en": "The passages lead to the third valley."
+      },
+      "responses": [
+        {
+          "english": "The passages lead to the third valley.",
+          "phonetic": "ehtshihtlEHr-uetshuhndzhUH-vahdeeyEH-tshookAHr",
+          "french": "Geçitler üçüncü vadiye çıkar."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_zelve_open_air_museum_002",
+      "intent_en": "Is the third valley currently open?",
+      "text_local": "Üçüncü vadi şu anda açık mı?",
+      "pronunciation": "uetshuhndzhUH-vahdIH-shuh-ahndAH-ahtshOOk-moo",
+      "formality": "standard",
+      "cultural_note": "Vadi erişimi hava koşullarına veya restorasyon çalışmalarına göre değişebilir; güncel durumu biletçiden öğrenin.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "O şimdi kapalı.",
+        "pronunciation": "aw-shihmdIH-kahpahOO",
+        "translation_en": "It is closed now."
+      },
+      "responses": [
+        {
+          "english": "It is closed now.",
+          "phonetic": "aw-shihmdIH-kahpahOO",
+          "french": "O şimdi kapalı."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_zelve_open_air_museum_003",
+      "intent_en": "How do I book a site guide?",
+      "text_local": "Rehber nasıl ayarlayabilirim?",
+      "pronunciation": "rehhbEHr-nahsOO-ahyahrahyahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Resmi rehberler genellikle müze girişinde bulunur, rezervasyon için danışma masasına başvurulur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişede sorun.",
+        "pronunciation": "eeshehdEH-sohrUHn",
+        "translation_en": "Ask at the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "Ask at the ticket booth.",
+          "phonetic": "eeshehdEH-sohrUHn",
+          "french": "Gişede sorun."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_zelve_open_air_museum_004",
+      "intent_en": "Where is the rock-cut mosque?",
+      "text_local": "Kaya oyma cami nerede?",
+      "pronunciation": "kahyAH-AWymah-dzhahmIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Zelve'deki yapılar vadilere yayılmıştır, kesin konum için görevliye danışmak en iyisidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana yoldan ayrılan patikada.",
+        "pronunciation": "ahnAH-yawdAHn-ahyrooAHn-pahteekahdAH",
+        "translation_en": "On the path branching off from the main road."
+      },
+      "responses": [
+        {
+          "english": "On the path branching off from the main road.",
+          "phonetic": "ahnAH-yawdAHn-ahyrooAHn-pahteekahdAH",
+          "french": "Ana yoldan ayrılan patikada."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_zelve_open_air_museum_005",
+      "intent_en": "Is Museum Pass valid today?",
+      "text_local": "Müzekart bugün geçerli mi?",
+      "pronunciation": "muezehkAHrt-boogUHn-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Müzekart geçerliliği değişkenlik gösterebilir, teyit için biletçiye danışılmalıdır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, geçerli.",
+        "pronunciation": "ehvEHtehtshehrlIH",
+        "translation_en": "Yes, it is valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is valid.",
+          "phonetic": "ehvEHtehtshehrlIH",
+          "french": "Evet, geçerli."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,188 @@
+{
+  "id": "hydra_kamini_fishing_village",
+  "name_en": "Kamini Fishing Village",
+  "name_local": "Καμίνι",
+  "icon": "map",
+  "lat": 37.3494349,
+  "lon": 23.4513802,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "hydra_kamini_fishing_village_001",
+      "intent_en": "Where is the church of Agios Nikolaos?",
+      "text_local": "Πού είναι η εκκλησία του Αγίου Νικολάου;",
+      "pronunciation": "pOO-EEneh-ee-EHkleesEEah-too-ahyEEoo-nEEkohlAHoo",
+      "formality": "standard",
+      "cultural_note": "Η εκκλησία του Αγίου Νικολάου αποτελεί ένα σημαντικό τοπικό σημείο αναφοράς, συχνά προσβάσιμο μέσω του βασικού μονοπατιού.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην πλατεία, στο λιμάνι.",
+        "pronunciation": "steem-blahtEEahstoh-leemAHnee",
+        "translation_en": "In the square, at the harbor."
+      },
+      "responses": [
+        {
+          "english": "In the square, at the harbor.",
+          "phonetic": "steem-blahtEEahstoh-leemAHnee",
+          "french": "Στην πλατεία, στο λιμάνι."
+        }
+      ]
+    },
+    {
+      "id": "hydra_kamini_fishing_village_002",
+      "intent_en": "Where is the coastal path to Hydra town?",
+      "text_local": "Πού είναι το μονοπάτι προς το Κάστρο;",
+      "pronunciation": "pOO-EEneh-toh-mOHnohpAHtee-prOHs-toh-kAHstroh",
+      "formality": "standard",
+      "cultural_note": "Οι ντόπιοι αναφέρουν συχνά το μονοπάτι αυτό ως 'το μονοπάτι προς το Κάστρο' λόγω της κατεύθυνσης προς την πόλη της Ύδρας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε το μονοπάτι κατά μήκος της ακροθαλασσιάς.",
+        "pronunciation": "AHkohloothEEsteh-toh-mOHnohpAHtee-kahtAH-mEEkohs-tees-AHkrohthAHlahssyAHs",
+        "translation_en": "Follow the coastal path along the shore."
+      },
+      "responses": [
+        {
+          "english": "Follow the coastal path along the shore.",
+          "phonetic": "AHkohloothEEsteh-toh-mOHnohpAHtee-kahtAH-mEEkohs-tees-AHkrohthAHlahssyAHs",
+          "french": "Ακολουθήστε το μονοπάτι κατά μήκος της ακροθαλασσιάς."
+        }
+      ]
+    },
+    {
+      "id": "hydra_kamini_fishing_village_003",
+      "intent_en": "Are sunbeds available on the rocks?",
+      "text_local": "Υπάρχουν ξαπλώστρες στους βράχους;",
+      "pronunciation": "eepAHrkhoong-gzahplOHstrehs-steez-vrAHkhoos",
+      "formality": "standard",
+      "cultural_note": "Στις βραχώδεις ακτές του Καμινιού, οι ξαπλώστρες συχνά διατίθενται μέσω των παραθαλάσσιων ταβερνών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "hydra_kamini_fishing_village_004",
+      "intent_en": "Where can I rent sunbeds on the rocks?",
+      "text_local": "Πού νοικιάζονται ξαπλώστρες στις βράχους;",
+      "pronunciation": "pOO-neeAHzohdEH-ksahplOHstrehs-steez-vrAHkhoos",
+      "formality": "standard",
+      "cultural_note": "Οι ξαπλώστρες στις βραχώδεις ακτές συνήθως διατίθενται μέσω των ταβερνών κατά μήκος της παραλίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στις παραθαλάσσιες ταβέρνες.",
+        "pronunciation": "rohtEEsteh-stees-pAHrahthahlAHssyehs-tahvEHrnehs",
+        "translation_en": "Ask at the seaside tavernas."
+      },
+      "responses": [
+        {
+          "english": "Ask at the seaside tavernas.",
+          "phonetic": "rohtEEsteh-stees-pAHrahthahlAHssyehs-tahvEHrnehs",
+          "french": "Ρωτήστε στις παραθαλάσσιες ταβέρνες."
+        }
+      ]
+    },
+    {
+      "id": "hydra_kamini_fishing_village_005",
+      "intent_en": "Is fresh fish priced by kilo at tavernas?",
+      "text_local": "Μπορώ να αγοράσω ψάρι με το κιλό στις ταβέρνες;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-psAHree-meh-toh-eelOH-stees-tahvEHrnehs",
+      "formality": "standard",
+      "cultural_note": "Στις ταβέρνες της περιοχής, το ψάρι συχνά πωλείται ανά κιλό, ιδίως όταν αγοράζεται απευθείας από τους ψαράδες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, συνήθως τιμούνται έτσι.",
+        "pronunciation": "nEHseenEEthohs-teemOOdeh-EHtsee",
+        "translation_en": "Yes, they are usually priced that way."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are usually priced that way.",
+          "phonetic": "nEHseenEEthohs-teemOOdeh-EHtsee",
+          "french": "Ναι, συνήθως τιμούνται έτσι."
+        }
+      ]
+    },
+    {
+      "id": "hydra_kamini_fishing_village_006",
+      "intent_en": "How do I ask to split our taverna bill?",
+      "text_local": "Μπορούμε να χωρίσουμε τον λογαριασμό;",
+      "pronunciation": "pOHz-lEHoh-nah-khohrEEsoomEH-tohn-lOHghahrEEahsmOH",
+      "formality": "standard",
+      "cultural_note": "Σε πολλές παραδοσιακές ταβέρνες, ο ιδιοκτήτης ή ο σερβιτόρος μπορεί να βοηθήσει στον χωρισμό του λογαριασμού.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, φυσικά.",
+        "pronunciation": "nEHfEEseekAH",
+        "translation_en": "Yes, certainly."
+      },
+      "responses": [
+        {
+          "english": "Yes, certainly.",
+          "phonetic": "nEHfEEseekAH",
+          "french": "Ναι, φυσικά."
+        }
+      ]
+    },
+    {
+      "id": "hydra_kamini_fishing_village_007",
+      "intent_en": "Which path leads to Hydra town from here?",
+      "text_local": "Ποιο μονοπάτι πάει στην Ύδρα;",
+      "pronunciation": "pEEoh-mOHnohpAHtee-pAHee-steen-EEthrah",
+      "formality": "standard",
+      "cultural_note": "Το κύριο μονοπάτι προς την πόλη της Ύδρας ακολουθεί την ακτογραμμή, με σταθερή κλίση προς τα πάνω.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε το μονοπάτι κατά μήκος της θάλασσας.",
+        "pronunciation": "AHkohloothEEsteh-toh-mOHnohpAHtee-kahtAH-mEEkohs-tees-thAHlahssAHs",
+        "translation_en": "Follow the seaside path."
+      },
+      "responses": [
+        {
+          "english": "Follow the seaside path.",
+          "phonetic": "AHkohloothEEsteh-toh-mOHnohpAHtee-kahtAH-mEEkohs-tees-thAHlahssAHs",
+          "french": "Ακολουθήστε το μονοπάτι κατά μήκος της θάλασσας."
+        }
+      ]
+    },
+    {
+      "id": "hydra_kamini_fishing_village_008",
+      "intent_en": "Can I book a water taxi back to port?",
+      "text_local": "Μπορώ να κλείσω βαρκάκι για το λιμάνι;",
+      "pronunciation": "bohrOH-nah-klEEsoh-vahrkAHee-yAH-toh-leemAHnee",
+      "formality": "standard",
+      "cultural_note": "Οι ψαράδες του Καμινιού συχνά προσφέρουν υπηρεσίες βαρκακιού προς το λιμάνι της Ύδρας, χωρίς προηγούμενη κράτηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον ψαρά.",
+        "pronunciation": "nEHstohm-bzahrAH",
+        "translation_en": "Yes, ask the fisherman."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the fisherman.",
+          "phonetic": "nEHstohm-bzahrAH",
+          "french": "Ναι, στον ψαρά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

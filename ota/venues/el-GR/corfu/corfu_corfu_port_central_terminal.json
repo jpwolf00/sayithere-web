@@ -1,0 +1,56 @@
+{
+  "id": "corfu_corfu_port_central_terminal",
+  "name_en": "Corfu Port Central Terminal",
+  "name_local": "Λιμάνι Κέρκυρας",
+  "icon": "tram",
+  "lat": 39.6295031,
+  "lon": 19.9010723,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "corfu_corfu_port_central_terminal_001",
+      "intent_en": "How do I check in my vehicle?",
+      "text_local": "Πώς κάνω check in το όχημά μου;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-EEpohvohlEE-too-ohkhEEmahtOHs",
+      "formality": "standard",
+      "cultural_note": "Η διαδικασία ελέγχου οχήματος γίνεται υπό την επίβλεψη του 'συνοδηγού ελέγχου' (traffic coordinator), ο οποίος παρέχει οδηγίες στους επιβάτες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από τη λωρίδα ελέγχου οχημάτων.",
+        "pronunciation": "ahpOH-tee-lohrEEthah-ehlEHngkhoo-OHkheemAHtohn",
+        "translation_en": "From the vehicle check-in lane."
+      },
+      "responses": [
+        {
+          "english": "From the vehicle check-in lane.",
+          "phonetic": "ahpOH-tee-lohrEEthah-ehlEHngkhoo-OHkheemAHtohn",
+          "french": "Από τη λωρίδα ελέγχου οχημάτων."
+        }
+      ]
+    },
+    {
+      "id": "corfu_corfu_port_central_terminal_002",
+      "intent_en": "Where is the ANEK Lines counter?",
+      "text_local": "Πού βρίσκεται το γραφείο των ΑΝΕΚ;",
+      "pronunciation": "pOO-vrEEsehtEH-toh-ghrahfEEoh-tohn-AHnehk",
+      "formality": "standard",
+      "cultural_note": "Οι επιβάτες αναγνωρίζουν εύκολα τα γραφεία των ΑΝΕΚ Lines από τις συγκεκριμένες πινακίδες εντός του λιμένα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κτίριο του λιμενικού ταμείου.",
+        "pronunciation": "stoh-ktEEreeOH-too-lEEmehneekOO-tahmEEoo",
+        "translation_en": "In the harbor master's building."
+      },
+      "responses": [
+        {
+          "english": "In the harbor master's building.",
+          "phonetic": "stoh-ktEEreeOH-too-lEEmehneekOO-tahmEEoo",
+          "french": "Στο κτίριο του λιμενικού ταμείου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

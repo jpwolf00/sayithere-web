@@ -1,0 +1,122 @@
+{
+  "id": "berlin_berlin_hauptbahnhof",
+  "name_en": "Berlin Hauptbahnhof",
+  "name_local": "Berlin Hauptbahnhof",
+  "icon": "tram",
+  "lat": 52.5246361,
+  "lon": 13.369861,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "berlin_berlin_hauptbahnhof_001",
+      "intent_en": "Is the U5 connection open?",
+      "text_local": "Fährt die U5?",
+      "pronunciation": "fEHrt-dee-OO-fUEnf",
+      "formality": "standard",
+      "cultural_note": "U5 connection status is critical for onward travel.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "berlin_berlin_hauptbahnhof_002",
+      "intent_en": "Which platform for S7 to Potsdam?",
+      "text_local": "Wo fährt die S7 nach Potsdam ab?",
+      "pronunciation": "vOH-fEHrt-dee-EHs-zEEbuhn-nahkh-pAWtsdahm-AHp",
+      "formality": "standard",
+      "cultural_note": "Platforms are not numbered sequentially; travelers rely on display boards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleise 1–4.",
+        "pronunciation": "lEYEzuh-EYEns-fEEr",
+        "translation_en": "Tracks 1–4."
+      },
+      "responses": [
+        {
+          "english": "Tracks 1–4.",
+          "phonetic": "lEYEzuh-EYEns-fEEr",
+          "french": "Gleise 1–4."
+        }
+      ]
+    },
+    {
+      "id": "berlin_berlin_hauptbahnhof_003",
+      "intent_en": "Where are luggage lockers?",
+      "text_local": "Wo gibt es Schließfächer?",
+      "pronunciation": "vOH-EEpt-ehs-shlEEsfehkh",
+      "formality": "standard",
+      "cultural_note": "Common in German stations; often on lower or ground floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Untergeschoss.",
+        "pronunciation": "ihm-UHntuhshAWs",
+        "translation_en": "On the lower level."
+      },
+      "responses": [
+        {
+          "english": "On the lower level.",
+          "phonetic": "ihm-UHntuhshAWs",
+          "french": "Im Untergeschoss."
+        }
+      ]
+    },
+    {
+      "id": "berlin_berlin_hauptbahnhof_004",
+      "intent_en": "Where is the DB ticket counter?",
+      "text_local": "Wo ist der DB-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-dEHbEHshAHlt",
+      "formality": "standard",
+      "cultural_note": "Most international travelers expect a dedicated counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Reisezentrum.",
+        "pronunciation": "ihm-rEYEzehtsEHntruhm",
+        "translation_en": "At the Reisezentrum."
+      },
+      "responses": [
+        {
+          "english": "At the Reisezentrum.",
+          "phonetic": "ihm-rEYEzehtsEHntruhm",
+          "french": "Im Reisezentrum."
+        }
+      ]
+    },
+    {
+      "id": "berlin_berlin_hauptbahnhof_005",
+      "intent_en": "How do I validate my ticket?",
+      "text_local": "Wie entwerten?",
+      "pronunciation": "vee-ehntvEHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Validation is mandatory before boarding S-Bahn.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten.",
+        "pronunciation": "ahm-OWtohmAHtuhn",
+        "translation_en": "At the machine."
+      },
+      "responses": [
+        {
+          "english": "At the machine.",
+          "phonetic": "ahm-OWtohmAHtuhn",
+          "french": "Am Automaten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

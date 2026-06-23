@@ -1,0 +1,100 @@
+{
+  "id": "český_krumlov_český_krumlov_railway_station",
+  "name_en": "Český Krumlov Railway Station",
+  "name_local": "Železniční stanice Český Krumlov",
+  "icon": "tram",
+  "lat": 48.8220956,
+  "lon": 14.3172215,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "český_krumlov_český_krumlov_railway_station_001",
+      "intent_en": "How to validate app ticket at machine",
+      "text_local": "Jak ověřit jízdenku z aplikace v automatu?",
+      "pronunciation": "yAHk-OHvyehreet-yEEzdehngkoo-s-AHpleekAHtseh-v-OWtohmAHtoo",
+      "formality": "standard",
+      "cultural_note": "ČD app tickets are validated by scanning the on-screen QR code at designated yellow validators.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Načtěte QR kód u žlutého automatu.",
+        "pronunciation": "nAHtshehteh-kvEHEHr-kOHd-OO-zhlOOtehhoh-OWtohmAHtoo",
+        "translation_en": "Scan the QR code at the yellow machine."
+      },
+      "responses": [
+        {
+          "english": "Scan the QR code at the yellow machine.",
+          "phonetic": "nAHtshehteh-kvEHEHr-kOHd-OO-zhlOOtehhoh-OWtohmAHtoo",
+          "french": "Načtěte QR kód u žlutého automatu."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_český_krumlov_railway_station_002",
+      "intent_en": "Where to pay luggage storage",
+      "text_local": "Kde zaplatím úschovnu zavazadel?",
+      "pronunciation": "kdEH-zAHplaheem-OOskhohvnoo-zAHvahzAHdehl",
+      "formality": "standard",
+      "cultural_note": "Smaller stations like Český Krumlov often handle luggage payment at a specific ticket window.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U pokladny číslo tři.",
+        "pronunciation": "OO-pOHklahdnee-tshEEsloh-trEE",
+        "translation_en": "At ticket counter number three."
+      },
+      "responses": [
+        {
+          "english": "At ticket counter number three.",
+          "phonetic": "OO-pOHklahdnee-tshEEsloh-trEE",
+          "french": "U pokladny číslo tři."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_český_krumlov_railway_station_003",
+      "intent_en": "Where is platform two for České Budějovice",
+      "text_local": "Kde je druhé nástupiště na České Budějovice?",
+      "pronunciation": "kdEH-yeh-drOOheh-nAHstoopEEsheh-nAHtshehskeh-bOOehyOHveetseh",
+      "formality": "standard",
+      "cultural_note": "Platform dispatchers often give quick underpass directions rather than pointing vaguely.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Podchodem, pak doprava po schodech.",
+        "pronunciation": "pOHtkhohdehmpAHk-dOHprahvah-pOHskhohdehkh",
+        "translation_en": "Through the underpass, then right up the stairs."
+      },
+      "responses": [
+        {
+          "english": "Through the underpass, then right up the stairs.",
+          "phonetic": "pOHtkhohdehmpAHk-dOHprahvah-pOHskhohdehkh",
+          "french": "Podchodem, pak doprava po schodech."
+        }
+      ]
+    },
+    {
+      "id": "český_krumlov_český_krumlov_railway_station_004",
+      "intent_en": "When does next train to Linz depart",
+      "text_local": "Kdy jede další vlak do Lince?",
+      "pronunciation": "kdEE-yEHdeh-dAHlshee-vlAHk-dOHleentseh",
+      "formality": "standard",
+      "cultural_note": "Staff often combine the time with the platform number in one short answer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za dvacet minut, třetí kolej.",
+        "pronunciation": "zAHdvahtseht-mEEnoottrEHee-kOHlay",
+        "translation_en": "In twenty minutes, track three."
+      },
+      "responses": [
+        {
+          "english": "In twenty minutes, track three.",
+          "phonetic": "zAHdvahtseht-mEEnoottrEHee-kOHlay",
+          "french": "Za dvacet minut, třetí kolej."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

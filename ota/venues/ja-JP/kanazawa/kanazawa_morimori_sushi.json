@@ -1,0 +1,100 @@
+{
+  "id": "kanazawa_morimori_sushi",
+  "name_en": "Morimori Sushi",
+  "name_local": "もりもり寿し",
+  "icon": "fork.knife",
+  "lat": 36.5594041,
+  "lon": 136.6514426,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "kanazawa_morimori_sushi_001",
+      "intent_en": "Is Omicho fish available now?",
+      "text_local": "きょう、おうみちょうの さかなは ありますか。",
+      "pronunciation": "kOHooOHoomEEtohOOnoh-sKnH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Shops near Omicho Market often feature daily catches. A simple 'yes' is common when seasonal items are in stock.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ありますよ。",
+        "pronunciation": "hEEEEmsOOyoh",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "hEEEEmsOOyoh",
+          "french": "はい、ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_morimori_sushi_002",
+      "intent_en": "Can I get takeout bento?",
+      "text_local": "もちかえりの べんとうは できますか。",
+      "pronunciation": "mOHteekEHEEnoh-bEHntohOOh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Takeout is common at sushi shops. Staff may direct you to a specific counter rather than the main dining area.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、カウンターで うけつけています。",
+        "pronunciation": "hEEkOOntDeh-OOkehtsOOkehtEHeemSoo",
+        "translation_en": "Yes, we take orders at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, we take orders at the counter.",
+          "phonetic": "hEEkOOntDeh-OOkehtsOOkehtEHeemSoo",
+          "french": "はい、カウンターで うけつけています。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_morimori_sushi_003",
+      "intent_en": "How do I use ticket machine?",
+      "text_local": "チケットきかいの つかいかたを おしえてください。",
+      "pronunciation": "tEEkehttOHkeekEEnoh-tsOOkEEktOH-OHeeEHtehkOOdsEE",
+      "formality": "standard",
+      "cultural_note": "Many kaitenzushi shops use ticket machines at the entrance. You choose items, pay, and hand the ticket to staff.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "メニューをえらんで、おかねをいれてください。",
+        "pronunciation": "mEHnooooOHehNdehOHknEHohEEehtEHkoodsEE",
+        "translation_en": "Select your menu and insert money."
+      },
+      "responses": [
+        {
+          "english": "Select your menu and insert money.",
+          "phonetic": "mEHnooooOHehNdehOHknEHohEEehtEHkoodsEE",
+          "french": "メニューをえらんで、おかねをいれてください。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_morimori_sushi_004",
+      "intent_en": "Do you count plates for bill?",
+      "text_local": "おかいけいは おさらを かぞえるのですか。",
+      "pronunciation": "OHkEEkehEEh-OHsOH-kZohEHoonOHdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Conveyor belt sushi bills are often calculated by counting stacked plates, with different colors indicating different prices.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、おさらの いろで かぞえます。",
+        "pronunciation": "hEEOHsNoh-eeOHdeh-kZohehmSoo",
+        "translation_en": "Yes, we count by plate color."
+      },
+      "responses": [
+        {
+          "english": "Yes, we count by plate color.",
+          "phonetic": "hEEOHsNoh-eeOHdeh-kZohehmSoo",
+          "french": "はい、おさらの いろで かぞえます。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

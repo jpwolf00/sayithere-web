@@ -1,0 +1,78 @@
+{
+  "id": "ephesus_selim_usta_çöp_şiş",
+  "name_en": "Selim Usta Çöp Şiş",
+  "name_local": "Selim Usta Çöp Şiş",
+  "icon": "fork.knife",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "ephesus_selim_usta_çöp_şiş_001",
+      "intent_en": "Do I pay at the counter after?",
+      "text_local": "Yemekten sonra kasada mı ödüyorum?",
+      "pronunciation": "yehmehktAHn-sawnrAH-kAHsahdah-moo-uhdUEyohruhm",
+      "formality": "standard",
+      "cultural_note": "Türk esnaf lokantalarında genelde yemek sonrası ödeme yaygındır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, kasaya gidin.",
+        "pronunciation": "ehvEHtkAHsahyah-eedIHn",
+        "translation_en": "Yes, go to the cashier."
+      },
+      "responses": [
+        {
+          "english": "Yes, go to the cashier.",
+          "phonetic": "ehvEHtkAHsahyah-eedIHn",
+          "french": "Evet, kasaya gidin."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selim_usta_çöp_şiş_002",
+      "intent_en": "Is chicken skewer still available?",
+      "text_local": "Tavuk şiş kaldı mı?",
+      "pronunciation": "tahvUHk-shIHsh-kahdOO-moo",
+      "formality": "standard",
+      "cultural_note": "Günlük stok durumu değişkendir, teyit için personele sormak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, var. Ustaya söyleyin.",
+        "pronunciation": "ehvEHtvAHruhstahyAH-suhylehyIHn",
+        "translation_en": "Yes, it's available. Tell the master grill cook."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's available. Tell the master grill cook.",
+          "phonetic": "ehvEHtvAHruhstahyAH-suhylehyIHn",
+          "french": "Evet, var. Ustaya söyleyin."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_selim_usta_çöp_şiş_003",
+      "intent_en": "Do I order at the grill?",
+      "text_local": "Mangalda mı sipariş veriyorum?",
+      "pronunciation": "mahngahdAH-moo-seepahrIHsh-vehrEEyohruhm",
+      "formality": "casual",
+      "cultural_note": "Çoğu çöp şiş lokantasında sipariş doğrudan mangal başındaki ustaya verilir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, ustaya söyleyin.",
+        "pronunciation": "ehvEHtuhstahyAH-suhylehyIHn",
+        "translation_en": "Yes, tell the master cook."
+      },
+      "responses": [
+        {
+          "english": "Yes, tell the master cook.",
+          "phonetic": "ehvEHtuhstahyAH-suhylehyIHn",
+          "french": "Evet, ustaya söyleyin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

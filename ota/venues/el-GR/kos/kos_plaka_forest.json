@@ -1,0 +1,166 @@
+{
+  "id": "kos_plaka_forest",
+  "name_en": "Plaka Forest",
+  "name_local": "Δάσος Πλάκας",
+  "icon": "leaf",
+  "lat": 36.7869226,
+  "lon": 27.0662773,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "kos_plaka_forest_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι σηματοδοτημένες οι ζώνες αναρρίχησης εδώ;",
+      "pronunciation": "ee-zOHnehs-AHnahrEEkheesEEs-EEneh-sEEmahtOHthohteemEHnehs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναζητούν σαφή σήματα για περιορισμούς ασφαλείας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μετά την είσοδο δεξιά πινακίδες.",
+        "pronunciation": "nEHmehtAH-teen-EEsohthOH-thEHkseeAH-pEEnahEEthehs",
+        "translation_en": "Yes, the climbing zones are marked with special signs near Plaka Litochorou beach. Follow the trails towards the Thermaic Gulf shore."
+      },
+      "responses": [
+        {
+          "english": "Yes, the climbing zones are marked with special signs near Plaka Litochorou beach. Follow the trails towards the Thermaic Gulf shore.",
+          "phonetic": "nEHmehtAH-teen-EEsohthOH-thEHkseeAH-pEEnahEEthehs",
+          "french": "Ναι, μετά την είσοδο δεξιά πινακίδες."
+        }
+      ]
+    },
+    {
+      "id": "kos_plaka_forest_002",
+      "intent_en": "Which trail leads to Mount Olympus base?",
+      "text_local": "Ποιο μονοπάτι οδηγεί στη βάση του Ολύμπου;",
+      "pronunciation": "pEEoh-mOHnohpAHtee-OHtheeyEE-stee-vAHsee-too-ohlEEboo",
+      "formality": "standard",
+      "cultural_note": "Χρειάζεται σαφής οδηγία χωρίς ακριβείς τοποθεσίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το μονοπάτι Ε4 ξεκινά από τον χώρο στάθμευσης της παραλίας.",
+        "pronunciation": "toh-mOHnohpAHtee-EHpseelOHn-tEHsehrAH-ksEHeenAH-ahpOH-tohn-khOHroh-stAHthmehfsEEs-tees-pAHrahlEEahs",
+        "translation_en": "The E4 trail starts from the parking area of the beach."
+      },
+      "responses": [
+        {
+          "english": "The E4 trail starts from the parking area of the beach.",
+          "phonetic": "toh-mOHnohpAHtee-EHpseelOHn-tEHsehrAH-ksEHeenAH-ahpOH-tohn-khOHroh-stAHthmehfsEEs-tees-pAHrahlEEahs",
+          "french": "Το μονοπάτι Ε4 ξεκινά από τον χώρο στάθμευσης της παραλίας."
+        }
+      ]
+    },
+    {
+      "id": "kos_plaka_forest_003",
+      "intent_en": "Where does the marked trail to the beach start",
+      "text_local": "Πού ξεκινάει το μονοπάτι για την παραλία;",
+      "pronunciation": "pOO-ksEHeenAHee-toh-sEEmahtOHthohteemEHnoh-mOHnohpAHtee-prOHs-teem-bAHrahlEEah",
+      "formality": "standard",
+      "cultural_note": "Οι χρήστες αναμένουν σαφή σήματα κατεύθυνσης χωρίς ακριβείς τοποθεσίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην είσοδο, μετά το πάρκινγκ.",
+        "pronunciation": "thEEplah-steen-EEsohthOHmehtAH-toh-pAHreeng",
+        "translation_en": "The trail starts next to the parking area, near the forest entrance."
+      },
+      "responses": [
+        {
+          "english": "The trail starts next to the parking area, near the forest entrance.",
+          "phonetic": "thEEplah-steen-EEsohthOHmehtAH-toh-pAHreeng",
+          "french": "Δίπλα στην είσοδο, μετά το πάρκινγκ."
+        }
+      ]
+    },
+    {
+      "id": "kos_plaka_forest_004",
+      "intent_en": "Is there a permit for Olympus trail access",
+      "text_local": "Χρειάζεται άδεια για τα μονοπάτια του Ολύμπου;",
+      "pronunciation": "khrkhAHzehtEH-EHnggreesEE-yAH-toh-mOHnohpAHtee-too-ohlEEboo",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνήθως αναζητούν πληροφορίες για επίσημα έγγραφα πριν την ανάβαση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο γραφείο του δασαρχείου.",
+        "pronunciation": "nEHstoh-ghrahfEEoh-too-thAHsahrkhEEoo",
+        "translation_en": "Yes, ask the mountain guide."
+      },
+      "responses": [
+        {
+          "english": "Yes, ask the mountain guide.",
+          "phonetic": "nEHstoh-ghrahfEEoh-too-thAHsahrkhEEoo",
+          "french": "Ναι, στο γραφείο του δασαρχείου."
+        }
+      ]
+    },
+    {
+      "id": "kos_plaka_forest_005",
+      "intent_en": "Where is the closest parking to the forest",
+      "text_local": "Πού είναι το κοντινότερο πάρκινγκ για το δάσος Πλάκα;",
+      "pronunciation": "pOO-EEneh-toh-kOHdeenOHtehrOH-pAHreeng-yAH-toh-thAHsohs-plAHkah",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνήθως αναζητούν σημεία πληροφόρησης κοντά στην είσοδο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στην παραλία Πλάκα, ανατολικά.",
+        "pronunciation": "thEEplah-steem-bAHrahlEEah-plAHkahAHnahtOHleekAH",
+        "translation_en": "The parking is next to Plaka Litochorou beach, east of the village. Follow the coastal road eastwards."
+      },
+      "responses": [
+        {
+          "english": "The parking is next to Plaka Litochorou beach, east of the village. Follow the coastal road eastwards.",
+          "phonetic": "thEEplah-steem-bAHrahlEEah-plAHkahAHnahtOHleekAH",
+          "french": "Δίπλα στην παραλία Πλάκα, ανατολικά."
+        }
+      ]
+    },
+    {
+      "id": "kos_plaka_forest_006",
+      "intent_en": "Where do I pay parking at Plaka beach?",
+      "text_local": "Πού πληρώνω την parking στο Πλάκα παραλία;",
+      "pronunciation": "pOO-pleerOHnoh-teen-ehnpAHkingehl-stoh-plAHkah-pAHrahlEEah",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναμένουν σημεία πληρωμής κοντά στην είσοδο της παραλίας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον υπάλληλο της παραλίας εδώ.",
+        "pronunciation": "stohn-eepAHleelOH-tees-pAHrahlEEahs-ehthOH",
+        "translation_en": "At the beach attendant here."
+      },
+      "responses": [
+        {
+          "english": "At the beach attendant here.",
+          "phonetic": "stohn-eepAHleelOH-tees-pAHrahlEEahs-ehthOH",
+          "french": "Στον υπάλληλο της παραλίας εδώ."
+        }
+      ]
+    },
+    {
+      "id": "kos_plaka_forest_007",
+      "intent_en": "How do I report lost trail markers?",
+      "text_local": "Πώς αναφέρεται ένα χαμένο σήμα μονοπατιού;",
+      "pronunciation": "pOHs-AHnahfEHrehtEH-EHnah-khahmEHnoh-sEEmah-mOHnohpAHteeOO",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες αναζητούν άμεση λύση για προβλήματα σήμανσης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον οδηγό βουνού εδώ.",
+        "pronunciation": "stohn-OHtheeghOH-voonOO-ehthOH",
+        "translation_en": "Tell the mountain guide here."
+      },
+      "responses": [
+        {
+          "english": "Tell the mountain guide here.",
+          "phonetic": "stohn-OHtheeghOH-voonOO-ehthOH",
+          "french": "Στον οδηγό βουνού εδώ."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

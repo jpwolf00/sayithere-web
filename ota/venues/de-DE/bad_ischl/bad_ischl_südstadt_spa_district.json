@@ -1,0 +1,100 @@
+{
+  "id": "bad_ischl_südstadt_spa_district",
+  "name_en": "Südstadt Spa District",
+  "name_local": "Südstadt Bad Ischl",
+  "icon": "map",
+  "lat": 47.7126335,
+  "lon": 13.6250936,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "bad_ischl_südstadt_spa_district_001",
+      "intent_en": "Where is the Kaiser Therms entrance?",
+      "text_local": "Wo ist der Eingang zu den Kaiser Thermen?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsoo-dehn-kEYEz-tEHrmuhn",
+      "formality": "standard",
+      "cultural_note": "In Austrian spa districts, entrance details are typically provided at staffed counters rather than via signage alone.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, hinter dem Kurverwalter.",
+        "pronunciation": "guhrAHdehOWshIHnt-dehm-kUHuhfvAHlt",
+        "translation_en": "Straight ahead, behind the spa admin."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, behind the spa admin.",
+          "phonetic": "guhrAHdehOWshIHnt-dehm-kUHuhfvAHlt",
+          "french": "Geradeaus, hinter dem Kurverwalter."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_südstadt_spa_district_002",
+      "intent_en": "How do I refill my thermal water bottle?",
+      "text_local": "Wo kann ich meine Thermalwasserflasche auffüllen?",
+      "pronunciation": "vOH-kAHn-ihkh-mEYEnuh-tEHrmahlvAHsflAHshuh-OWffUEluhn",
+      "formality": "standard",
+      "cultural_note": "Thermal water refill stations are public facilities and often located near parks or spa areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Zapfstationen im Park.",
+        "pronunciation": "ahn-dehn-tsAHpfstahtsyOHnuhn-ihm-pAHrk",
+        "translation_en": "At refill stations in the park."
+      },
+      "responses": [
+        {
+          "english": "At refill stations in the park.",
+          "phonetic": "ahn-dehn-tsAHpfstahtsyOHnuhn-ihm-pAHrk",
+          "french": "An den Zapfstationen im Park."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_südstadt_spa_district_003",
+      "intent_en": "Is the Café Leopold discount with guest card?",
+      "text_local": "Gibt es im Café Leopold Rabatt mit Gästekarte?",
+      "pronunciation": "EEpt-ehs-ihm-kahfEH-lEHohpAWlt-rAHbaht-miht-EHstehkAHrtuh",
+      "formality": "standard",
+      "cultural_note": "Guest card discounts are common in Austrian spas and associated businesses, but confirmation is required at point of service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit Gästekarte.",
+        "pronunciation": "yAHmiht-EHstehkAHrtuh",
+        "translation_en": "Yes, with guest card."
+      },
+      "responses": [
+        {
+          "english": "Yes, with guest card.",
+          "phonetic": "yAHmiht-EHstehkAHrtuh",
+          "french": "Ja, mit Gästekarte."
+        }
+      ]
+    },
+    {
+      "id": "bad_ischl_südstadt_spa_district_004",
+      "intent_en": "Where can I park near Josefsbrunn?",
+      "text_local": "Wo kann ich bei Josefsbrunn parken?",
+      "pronunciation": "vOH-kAHn-ihkh-beye-yOHzehfsbrUHn-pAHrkuhn",
+      "formality": "standard",
+      "cultural_note": "Parking zones in Austrian spa towns are often split by area; Josefsbrunn’s zones may be marked separately.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An den Parkzonen Josefsbrunns.",
+        "pronunciation": "ahn-dehn-pahrktsOHnuhn-yOHzehfsbrUHns",
+        "translation_en": "In the parking zones at Josefsbrunn."
+      },
+      "responses": [
+        {
+          "english": "In the parking zones at Josefsbrunn.",
+          "phonetic": "ahn-dehn-pahrktsOHnuhn-yOHzehfsbrUHns",
+          "french": "An den Parkzonen Josefsbrunns."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

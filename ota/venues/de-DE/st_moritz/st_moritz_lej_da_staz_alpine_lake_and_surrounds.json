@@ -1,0 +1,78 @@
+{
+  "id": "st_moritz_lej_da_staz_alpine_lake_and_surrounds",
+  "name_en": "Lej da Staz Alpine Lake and Surrounds",
+  "name_local": "Lej da Staz",
+  "icon": "leaf",
+  "lat": 46.4972323,
+  "lon": 9.8712873,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "st_moritz_lej_da_staz_alpine_lake_and_surrounds_001",
+      "intent_en": "Where do I buy a RhB train ticket?",
+      "text_local": "Wo kaufe ich ein RhB-Ticket?",
+      "pronunciation": "vOH-kOWfuh-ihkh-eyen-EHrhAH-bEHtIHkuht",
+      "formality": "standard",
+      "cultural_note": "Tickets are sold at the RhB station counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten am Bahnhof Staz.",
+        "pronunciation": "ahm-OWtohmAHtuhn-ahm-bAHnhohf-shtAHts",
+        "translation_en": "At the ticket machine at Staz station."
+      },
+      "responses": [
+        {
+          "english": "At the ticket machine at Staz station.",
+          "phonetic": "ahm-OWtohmAHtuhn-ahm-bAHnhohf-shtAHts",
+          "french": "Am Automaten am Bahnhof Staz."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_lej_da_staz_alpine_lake_and_surrounds_002",
+      "intent_en": "Where is the nearest RhB train platform?",
+      "text_local": "Wo ist der nächste RhB-Bahnsteig?",
+      "pronunciation": "vOH-ihst-dehr-EHrhAH-bEHbAHnsteyek",
+      "formality": "standard",
+      "cultural_note": "RhB platforms are marked at the station entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus zum Bahnhof Staz.",
+        "pronunciation": "guhrAHdehOWs-tsuhm-bAHnhohf-shtAHts",
+        "translation_en": "Straight ahead to Staz station."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead to Staz station.",
+          "phonetic": "guhrAHdehOWs-tsuhm-bAHnhohf-shtAHts",
+          "french": "Geradeaus zum Bahnhof Staz."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_lej_da_staz_alpine_lake_and_surrounds_003",
+      "intent_en": "Is fishing permitted here?",
+      "text_local": "Darf man hier angeln?",
+      "pronunciation": "dAHrf-mahn-hEEr-AHnEHln",
+      "formality": "casual",
+      "cultural_note": "Fishing requires a permit; local staff can provide or verify.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit einem Angelschein.",
+        "pronunciation": "yAHmiht-EYEnuhm-AHngEHlsheyen",
+        "translation_en": "Yes, with a fishing license."
+      },
+      "responses": [
+        {
+          "english": "Yes, with a fishing license.",
+          "phonetic": "yAHmiht-EYEnuhm-AHngEHlsheyen",
+          "french": "Ja, mit einem Angelschein."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

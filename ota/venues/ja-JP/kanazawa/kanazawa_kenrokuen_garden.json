@@ -1,0 +1,78 @@
+{
+  "id": "kanazawa_kenrokuen_garden",
+  "name_en": "Kenrokuen Garden",
+  "name_local": "兼六園",
+  "icon": "leaf",
+  "lat": 36.5643513,
+  "lon": 136.6620537,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "kanazawa_kenrokuen_garden_001",
+      "intent_en": "Where to buy yukitsuri tickets?",
+      "text_local": "ゆきつりの きっぷは どこで かえますか？",
+      "pronunciation": "yOOkeetsooEEnoh-keeppOOh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Yukitsuri are the iconic rope structures set up to protect trees from heavy snow; special illumination events may require separate tickets.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おもてもんの きっぷうりばです。",
+        "pronunciation": "OHmohtehmOHnnoh-kEEppooooEEbdEHsoo",
+        "translation_en": "At the main gate ticket booth."
+      },
+      "responses": [
+        {
+          "english": "At the main gate ticket booth.",
+          "phonetic": "OHmohtehmOHnnoh-kEEppooooEEbdEHsoo",
+          "french": "おもてもんの きっぷうりばです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kenrokuen_garden_002",
+      "intent_en": "Is there tea house rest stop?",
+      "text_local": "ちゃしつの きゅうけいじょは ありますか？",
+      "pronunciation": "tEEtsOOnoh-kOOookEHeedOHh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "The tea house often serves matcha and traditional sweets, providing a rest spot with views of the garden.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、しちふくじんやまの ちかくです。",
+        "pronunciation": "hEEEEteeOOkoodEEymNoh-tEEkkoodEHsoo",
+        "translation_en": "Yes, it's near Shichifukujin-yama."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's near Shichifukujin-yama.",
+          "phonetic": "hEEEEteeOOkoodEEymNoh-tEEkkoodEHsoo",
+          "french": "はい、しちふくじんやまの ちかくです。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa_kenrokuen_garden_003",
+      "intent_en": "Where is Kotoji-toro Lantern?",
+      "text_local": "ことじとうろうは どこですか？",
+      "pronunciation": "kOHtohdEEtohOOohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The Kotoji-toro is a famous two-legged stone lantern; staff often refer to its location relative to the main pond.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "かすみがいけの きたがわです。",
+        "pronunciation": "kSoomEEgeekEHnoh-kEEtgWdEHsoo",
+        "translation_en": "It's on the north side of Kasumigaike Pond."
+      },
+      "responses": [
+        {
+          "english": "It's on the north side of Kasumigaike Pond.",
+          "phonetic": "kSoomEEgeekEHnoh-kEEtgWdEHsoo",
+          "french": "かすみがいけの きたがわです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

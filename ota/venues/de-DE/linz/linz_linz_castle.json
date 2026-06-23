@@ -1,0 +1,78 @@
+{
+  "id": "linz_linz_castle",
+  "name_en": "Linz Castle",
+  "name_local": "Schloss Linz",
+  "icon": "building.columns",
+  "lat": 50.5841637,
+  "lon": 7.300117,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "linz_linz_castle_001",
+      "intent_en": "Where are the Rhine river views?",
+      "text_local": "Wo sieht man den Rhein?",
+      "pronunciation": "vOH-zEEt-mahn-dehn-rEYEn",
+      "formality": "standard",
+      "cultural_note": "Burgen haben oft erhöhte Aussichtspunkte mit Flussblick.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Von der Burgmauer.",
+        "pronunciation": "fawn-dehr-bUHuhmow",
+        "translation_en": "From the castle wall."
+      },
+      "responses": [
+        {
+          "english": "From the castle wall.",
+          "phonetic": "fawn-dehr-bUHuhmow",
+          "french": "Von der Burgmauer."
+        }
+      ]
+    },
+    {
+      "id": "linz_linz_castle_002",
+      "intent_en": "Is the arched gateway wheelchair accessible?",
+      "text_local": "Ist der Torbogen rollstuhlgerecht?",
+      "pronunciation": "ihst-dehr-tawrbOHuhn-rAWlshtoolEHrehkht",
+      "formality": "standard",
+      "cultural_note": "Barrierefreiheit in historischen Gebäuden wird zunehmend umgesetzt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "linz_linz_castle_003",
+      "intent_en": "Where is the Heinrich von Virneburg hall?",
+      "text_local": "Wo ist der Heinrich-von-Virneburg-Saal?",
+      "pronunciation": "vOH-ihst-dehr-hEYEnrihkhfawnvIHrnehbUHuhkzAHl",
+      "formality": "standard",
+      "cultural_note": "Historische Säle in Schlössern haben oft zentrale Lage im Hauptbau.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hauptgebäude.",
+        "pronunciation": "ihm-hOWptuhbAWuhduh",
+        "translation_en": "In the main building."
+      },
+      "responses": [
+        {
+          "english": "In the main building.",
+          "phonetic": "ihm-hOWptuhbAWuhduh",
+          "french": "Im Hauptgebäude."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

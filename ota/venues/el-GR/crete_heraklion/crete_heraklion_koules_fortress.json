@@ -1,0 +1,232 @@
+{
+  "id": "crete_heraklion_koules_fortress",
+  "name_en": "Koules Fortress",
+  "name_local": "Κούλες",
+  "icon": "building.columns",
+  "lat": 35.3428096,
+  "lon": 25.1343019,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "crete_heraklion_koules_fortress_001",
+      "intent_en": "How do I buy guided tour tickets?",
+      "text_local": "Πώς αγοράζω εισιτήρια ξεναγού;",
+      "pronunciation": "pOHs-AHghohrAHzoh-EEseetEEreeAH-ksEHnahghOO",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι εδώ είναι εξοικειωμένοι με τις οργανωμένες ξεναγήσεις.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο εκδοτήριο εισιτηρίων.",
+        "pronunciation": "stoh-EHkthohtEEreeOH-EEseeteerEEohn",
+        "translation_en": "At the ticket booth."
+      },
+      "responses": [
+        {
+          "english": "At the ticket booth.",
+          "phonetic": "stoh-EHkthohtEEreeOH-EEseeteerEEohn",
+          "french": "Στο εκδοτήριο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_002",
+      "intent_en": "Is the arsenal room open now?",
+      "text_local": "Είναι ανοιχτό το οπλοστάσιο τώρα;",
+      "pronunciation": "EEneh-AHneekhtOH-toh-OHplohstAHsyoh-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Η πρόσβαση στο οπλοστάσιο εξαρτάται συχνά από την εποπτεία του φύλακα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτό.",
+        "pronunciation": "nEHEEneh-AHneekhtOH",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "nEHEEneh-AHneekhtOH",
+          "french": "Ναι, είναι ανοιχτό."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_003",
+      "intent_en": "How do I join the guided tour?",
+      "text_local": "Πώς συμμετέχω στη ξενάγηση;",
+      "pronunciation": "pOHs-sEEmehtEHkhoh-stee-ksehnAHyeesEE",
+      "formality": "standard",
+      "cultural_note": "Οι ξεναγήσεις ξεκινούν μετά την πληρωμή στο σημεία πληροφόρησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο, με τον ξεναγό.",
+        "pronunciation": "steen-EEsohthOHmeh-tohng-gzEHnahghOH",
+        "translation_en": "At the entrance, with the guide."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, with the guide.",
+          "phonetic": "steen-EEsohthOHmeh-tohng-gzEHnahghOH",
+          "french": "Στην είσοδο, με τον ξεναγό."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_004",
+      "intent_en": "Where is the ticket booth?",
+      "text_local": "Πού είναι το εκδοτήριο εισιτηρίων;",
+      "pronunciation": "pOO-EEneh-toh-EHkthohtEEreeOH-EEseeteerEEohn",
+      "formality": "standard",
+      "cultural_note": "Το εκδοτήριο εισιτηρίων βρίσκεται συνήθως κοντά στην κύρια είσοδο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην κύρια είσοδο.",
+        "pronunciation": "steeng-gEEreeAH-EEsohthOH",
+        "translation_en": "At the main entrance."
+      },
+      "responses": [
+        {
+          "english": "At the main entrance.",
+          "phonetic": "steeng-gEEreeAH-EEsohthOH",
+          "french": "Στην κύρια είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_005",
+      "intent_en": "How long is the rampart walk?",
+      "text_local": "Πόση ώρα διαρκεί η βόλτα στα τείχη;",
+      "pronunciation": "pOHsee-OHrah-thEEahrEE-ee-vOHltah-stah-tEEkhee",
+      "formality": "standard",
+      "cultural_note": "Η διάρκεια αναφέρεται συχνά από τους ξεναγούς.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μισή ώρα περίπου.",
+        "pronunciation": "meesEE-OHrah-pehrEEpoo",
+        "translation_en": "About half an hour."
+      },
+      "responses": [
+        {
+          "english": "About half an hour.",
+          "phonetic": "meesEE-OHrah-pehrEEpoo",
+          "french": "Μισή ώρα περίπου."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_006",
+      "intent_en": "Is flash photography allowed inside?",
+      "text_local": "Επιτρέπεται η λήψη με φλας μέσα;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-lEEpsee-meh-flAHz-mEHsah",
+      "formality": "standard",
+      "cultural_note": "Απαγόρευση φλας αναφέρεται συχνά στους κανόνες του χώρου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, it is not allowed."
+      },
+      "responses": [
+        {
+          "english": "No, it is not allowed.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_007",
+      "intent_en": "Where is the port parking area?",
+      "text_local": "Πού είναι το parking του λιμανιού;",
+      "pronunciation": "pOO-EEneh-toh-ehnpAHkingehl-too-lEEmahnyOO",
+      "formality": "standard",
+      "cultural_note": "Το parking αναφέρεται συχνά ως προσβάσιμο μέσω των πινακίδων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πίσω από το φρούριο, δίπλα στο λιμάνι.",
+        "pronunciation": "pEEsoh-ahpOH-toh-frOOreeOHthEEplah-stoh-leemAHnee",
+        "translation_en": "Behind the fortress, next to the port."
+      },
+      "responses": [
+        {
+          "english": "Behind the fortress, next to the port.",
+          "phonetic": "pEEsoh-ahpOH-toh-frOOreeOHthEEplah-stoh-leemAHnee",
+          "french": "Πίσω από το φρούριο, δίπλα στο λιμάνι."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_008",
+      "intent_en": "Is the rampart walk included?",
+      "text_local": "Είναι δωρεάν η βόλτα στα τείχη;",
+      "pronunciation": "EEneh-thOHrehAHn-ee-vOHltah-stah-tEEkhee",
+      "formality": "standard",
+      "cultural_note": "Η προσθήκη της βόλτας στα τείχη αναφέρεται συνήθως στο εισιτήριο εισόδου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, περιλαμβάνεται στο εισιτήριο.",
+        "pronunciation": "nEHpEHreelahmvAHnehtEH-stoh-EEseetEEreeOH",
+        "translation_en": "Yes, included in the ticket."
+      },
+      "responses": [
+        {
+          "english": "Yes, included in the ticket.",
+          "phonetic": "nEHpEHreelahmvAHnehtEH-stoh-EEseetEEreeOH",
+          "french": "Ναι, περιλαμβάνεται στο εισιτήριο."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_009",
+      "intent_en": "Is there parking near the old port entrance?",
+      "text_local": "Υπάρχει parking κοντά στην παλιά είσοδο του λιμανιού;",
+      "pronunciation": "eepAHrkhee-ehnpAHkingehl-kohdAH-steem-bahlyAH-EEsohthOH-too-lEEmahnyOO",
+      "formality": "standard",
+      "cultural_note": "Το parking αναφέρεται συχνά ως διαθέσιμο στους επισκέπτες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στην περιοχή του λιμανιού.",
+        "pronunciation": "nEHsteem-bEHreeohkhEE-too-lEEmahnyOO",
+        "translation_en": "Yes, in the port area."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the port area.",
+          "phonetic": "nEHsteem-bEHreeohkhEE-too-lEEmahnyOO",
+          "french": "Ναι, στην περιοχή του λιμανιού."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_koules_fortress_010",
+      "intent_en": "Which way to the upper ramparts?",
+      "text_local": "Πού είναι τα πάνω τείχη;",
+      "pronunciation": "pOO-EEneh-ee-pAHnoh-pehrEEpahtEE",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες χρησιμοποιούν συχνά τις πινακίδες ως οδηγό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από τη σκάλα δεξιά.",
+        "pronunciation": "ahpOH-tee-skAHlah-thEHkseeAH",
+        "translation_en": "From the stairs on the right."
+      },
+      "responses": [
+        {
+          "english": "From the stairs on the right.",
+          "phonetic": "ahpOH-tee-skAHlah-thEHkseeAH",
+          "french": "Από τη σκάλα δεξιά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

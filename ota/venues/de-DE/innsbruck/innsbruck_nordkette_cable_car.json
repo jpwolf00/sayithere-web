@@ -1,0 +1,100 @@
+{
+  "id": "innsbruck_nordkette_cable_car",
+  "name_en": "Nordkette Cable Car",
+  "name_local": "Nordkettenbahnen",
+  "icon": "leaf",
+  "lat": 48.0228978,
+  "lon": 7.8255159,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "innsbruck_nordkette_cable_car_001",
+      "intent_en": "Ask how to reach Karwendel viewpoint",
+      "text_local": "Wie erreiche ich den Karwendel-Aussichtspunkt?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsuhm-kAHrvehnduhlOWszIHkhtspuhngkt",
+      "formality": "standard",
+      "cultural_note": "Signage is standard in alpine regions; locals expect travelers to follow posted trail signs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Oben von der Hafelekarstation.",
+        "pronunciation": "OHbuhn-fawn-dehr-hAHfuhlEHkahrstahtsyOHn",
+        "translation_en": "From the Hafelekar station at the top."
+      },
+      "responses": [
+        {
+          "english": "From the Hafelekar station at the top.",
+          "phonetic": "OHbuhn-fawn-dehr-hAHfuhlEHkahrstahtsyOHn",
+          "french": "Oben von der Hafelekarstation."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_nordkette_cable_car_002",
+      "intent_en": "Ask if ski pass works at Seegrube",
+      "text_local": "Gilt der Skipass auch in der Seegrube?",
+      "pronunciation": "IHlt-dehr-skEEpahs-OWkh-ihn-dehr-zEHroobuh",
+      "formality": "standard",
+      "cultural_note": "Standard ski passes in the region cover interconnected lift systems; locals expect a straightforward confirmation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, überall in der Nordkette.",
+        "pronunciation": "yAHUEbAHl-ihn-dehr-nAWrtkehtuh",
+        "translation_en": "Yes, everywhere in Nordkette."
+      },
+      "responses": [
+        {
+          "english": "Yes, everywhere in Nordkette.",
+          "phonetic": "yAHUEbAHl-ihn-dehr-nAWrtkehtuh",
+          "french": "Ja, überall in der Nordkette."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_nordkette_cable_car_003",
+      "intent_en": "Ask where Hafelekar summit snacks accept cash",
+      "text_local": "Akzeptiert die Hütte am Hafelekar Bargeld?",
+      "pronunciation": "AHktsehptEErt-dee-hUEtuh-ahm-hAHfuhlEHkahr-bAHrehlt",
+      "formality": "standard",
+      "cultural_note": "Mountain huts in Austria commonly accept cash; travelers expect a direct answer without additional explanation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Gipfel.",
+        "pronunciation": "yAHahm-IHpfuhl",
+        "translation_en": "Yes, at the summit."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the summit.",
+          "phonetic": "yAHahm-IHpfuhl",
+          "french": "Ja, am Gipfel."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_nordkette_cable_car_004",
+      "intent_en": "Ask where to buy Hungerburgbahn tickets",
+      "text_local": "Wo bekomme ich Hungerburgbahn-Tickets?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-hUHngbUHuhbahntIHkuhts",
+      "formality": "casual",
+      "cultural_note": "Tickets are typically sold at dedicated counters; staff expect travelers to ask specifically for the ticket office.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter Hungerburgbahn-Bahnhof.",
+        "pronunciation": "ahm-shAHlt-hUHngbUHuhbahnbAHnhohf",
+        "translation_en": "At the Hungerburgbahn station counter."
+      },
+      "responses": [
+        {
+          "english": "At the Hungerburgbahn station counter.",
+          "phonetic": "ahm-shAHlt-hUHngbUHuhbahnbAHnhohf",
+          "french": "Am Schalter Hungerburgbahn-Bahnhof."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

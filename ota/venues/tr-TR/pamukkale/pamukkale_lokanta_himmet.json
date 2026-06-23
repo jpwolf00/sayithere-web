@@ -1,0 +1,78 @@
+{
+  "id": "pamukkale_lokanta_himmet",
+  "name_en": "Lokanta Himmet",
+  "name_local": "Lokanta Himmet",
+  "icon": "fork.knife",
+  "lat": 37.9200382,
+  "lon": 29.1217529,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "pamukkale_lokanta_himmet_001",
+      "intent_en": "Where to pay after eating?",
+      "text_local": "Yemekten sonra nereye ödeme yapılıyor?",
+      "pronunciation": "yehmehktAHn-sawnrAH-nEHrehyeh-uhdEHmeh-yahpooOOyawr",
+      "formality": "standard",
+      "cultural_note": "Payment is made at the counter after the meal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kasada ödeyin.",
+        "pronunciation": "kAHsahdah-uhdehyIHn",
+        "translation_en": "Pay at the cashier."
+      },
+      "responses": [
+        {
+          "english": "Pay at the cashier.",
+          "phonetic": "kAHsahdah-uhdehyIHn",
+          "french": "Kasada ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_lokanta_himmet_002",
+      "intent_en": "Is daily stew available now?",
+      "text_local": "Günlük güveç şu an var mı?",
+      "pronunciation": "uhnlUHk-uevEHtsh-shuh-AHn-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Daily stew availability is not verified in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Var, tezgahta görün.",
+        "pronunciation": "vAHrtehzgahhtAH-uhrUHn",
+        "translation_en": "Yes, see it at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, see it at the counter.",
+          "phonetic": "vAHrtehzgahhtAH-uhrUHn",
+          "french": "Var, tezgahta görün."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_lokanta_himmet_003",
+      "intent_en": "Is terrace travertine view open?",
+      "text_local": "Traverten manzaralı teras açık mı?",
+      "pronunciation": "trahvehrtAHn-mahnzAHrahoo-tehrAHs-ahtshOOk-moo",
+      "formality": "casual",
+      "cultural_note": "Terrace opening status is not verified in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, bu akşam açık.",
+        "pronunciation": "ehvEHtbuh-ahkshAHm-ahtshOOk",
+        "translation_en": "Yes, it is open this evening."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open this evening.",
+          "phonetic": "ehvEHtbuh-ahkshAHm-ahtshOOk",
+          "french": "Evet, bu akşam açık."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

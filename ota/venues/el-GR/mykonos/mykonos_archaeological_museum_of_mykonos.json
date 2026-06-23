@@ -1,0 +1,232 @@
+{
+  "id": "mykonos_archaeological_museum_of_mykonos",
+  "name_en": "Archaeological Museum of Mykonos",
+  "name_local": "Αρχαιολογικό Μουσείο Μυκόνου",
+  "icon": "building.columns",
+  "lat": 37.4009892,
+  "lon": 25.2692701,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_001",
+      "intent_en": "Ask if flash photography is allowed",
+      "text_local": "Επιτρέπεται η χρήση φλας;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-khrEEsee-flAHs",
+      "formality": "standard",
+      "cultural_note": "Απαγόρευση φωτογράφισης με φλας είναι κοινή πρακτική στα ελληνικά αρχαιολογικά μουσεία για την προστασία των εκθεμάτων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι φλας.",
+        "pronunciation": "OHkhee-flAHs",
+        "translation_en": "No flash photography."
+      },
+      "responses": [
+        {
+          "english": "No flash photography.",
+          "phonetic": "OHkhee-flAHs",
+          "french": "Όχι φλας."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να νοικιάσω τον οπτικοακουστικό οδηγό;",
+      "pronunciation": "pOO-neeAHzoh-ksEHnahghOH",
+      "formality": "polite",
+      "cultural_note": "Οι ξεναγοί συχνά βρίσκονται κοντά στην είσοδο ή στους κύριους εκθεσιακούς χώρους για άμεση εξυπηρέτηση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο υποδοχής, αριστερά.",
+        "pronunciation": "stohm-bAHnggoh-EEpohthohkhEEsAHreestehrAH",
+        "translation_en": "At the museum entrance you will find the audio guide for rent."
+      },
+      "responses": [
+        {
+          "english": "At the museum entrance you will find the audio guide for rent.",
+          "phonetic": "stohm-bAHnggoh-EEpohthohkhEEsAHreestehrAH",
+          "french": "Στον πάγκο υποδοχής, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_003",
+      "intent_en": "Is flash photography allowed inside?",
+      "text_local": "Επιτρέπεται η φλας μέσα;",
+      "pronunciation": "EHpeetrEHpehtEH-ee-flAHz-mEHsah",
+      "formality": "standard",
+      "cultural_note": "Museums in Greece commonly prohibit flash photography to protect artifacts.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, απαγορεύεται.",
+        "pronunciation": "OHkheeAHpahghohrEHvehtEH",
+        "translation_en": "No, it is prohibited."
+      },
+      "responses": [
+        {
+          "english": "No, it is prohibited.",
+          "phonetic": "OHkheeAHpahghohrEHvehtEH",
+          "french": "Όχι, απαγορεύεται."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η αίθουσα Κυκλαδικής κεραμικής;",
+      "pronunciation": "pOO-EEneh-ee-EHthoosAH-kAHpahehnihklAHdihkehl-EHrahmeeEEs",
+      "formality": "standard",
+      "cultural_note": "Exhibit rooms are usually signposted to guide visitors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δίπλα στον πίθο, στο αρχικό κτήριο.",
+        "pronunciation": "thEEplah-stohm-bEEthohstoh-AHrkheekOH-ktEEreeOH",
+        "translation_en": "The Cycladic pottery room is in the original neoclassical building, next to the Mykonos vase (pithos)."
+      },
+      "responses": [
+        {
+          "english": "The Cycladic pottery room is in the original neoclassical building, next to the Mykonos vase (pithos).",
+          "phonetic": "thEEplah-stohm-bEEthohstoh-AHrkheekOH-ktEEreeOH",
+          "french": "Δίπλα στον πίθο, στο αρχικό κτήριο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_005",
+      "intent_en": "Can I buy a combined pass here?",
+      "text_local": "Μπορώ να αγοράσω συνδυαστική εισιτήριο εδώ;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-sEEntheeAHsteeEE-EEseetEEreeOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Cashiers are expected to handle ticket sales, including combined passes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο ταμείο της εισόδου.",
+        "pronunciation": "nEHstoh-tahmEEoh-tees-eesOHthoo",
+        "translation_en": "Yes, at the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket desk.",
+          "phonetic": "nEHstoh-tahmEEoh-tees-eesOHthoo",
+          "french": "Ναι, στο ταμείο της εισόδου."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_006",
+      "intent_en": "Where is the Mykonos vase?",
+      "text_local": "Πού βρίσκεται ο πίθος από τη Μύκονο;",
+      "pronunciation": "pOO-vrEEsehtEH-oh-pEEthohs-ahpOH-tee-mEEkohnOH",
+      "formality": "standard",
+      "cultural_note": "Guards are typically stationed near exhibits for visitor assistance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον κεντρικό εκθεσιακό χώρο, δεξιά.",
+        "pronunciation": "stohng-gEHdreekOH-EHkthehsyahkOH-khOHrohthEHkseeAH",
+        "translation_en": "Ask the staff member"
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member",
+          "phonetic": "stohng-gEHdreekOH-EHkthehsyahkOH-khOHrohthEHkseeAH",
+          "french": "Στον κεντρικό εκθεσιακό χώρο, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_007",
+      "intent_en": "Is the gift shop past the exit?",
+      "text_local": "Το κατάστημα δώρων είναι μετά την έξοδο;",
+      "pronunciation": "toh-kahtAHsteemAH-thOHrohn-EEneh-mehtAH-teen-EHksohthOH",
+      "formality": "standard",
+      "cultural_note": "Gift shops are typically located near museum exits for convenience.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μετά την έξοδο.",
+        "pronunciation": "nEHmehtAH-teen-EHksohthOH",
+        "translation_en": "Yes, past the exit."
+      },
+      "responses": [
+        {
+          "english": "Yes, past the exit.",
+          "phonetic": "nEHmehtAH-teen-EHksohthOH",
+          "french": "Ναι, μετά την έξοδο."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_008",
+      "intent_en": "Ask when the museum closes tomorrow",
+      "text_local": "Τι ώρα κλείνει το μουσείο αύριο;",
+      "pronunciation": "tEE-OHrah-klEEnee-AHvreeOH",
+      "formality": "standard",
+      "cultural_note": "Οι ώρες λειτουργίας μπορεί να αλλάζουν ανάλογα με την εποχή, επομένως οι επισκέπτες ενθαρρύνονται να ελέγξουν επί τόπου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις 20:00 αύριο το μουσείο κλείνει.",
+        "pronunciation": "stees-EEkohsEE-meethEHn-meethEHn-AHvreeOH-toh-moosEEoh-klEEnee",
+        "translation_en": "Ask the staff member."
+      },
+      "responses": [
+        {
+          "english": "Ask the staff member.",
+          "phonetic": "stees-EEkohsEE-meethEHn-meethEHn-AHvreeOH-toh-moosEEoh-klEEnee",
+          "french": "Στις 20:00 αύριο το μουσείο κλείνει."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_009",
+      "intent_en": "How do I rent an audio guide?",
+      "text_local": "Πώς νοικιάζω ξεναγό;",
+      "pronunciation": "pOHz-neeAHzoh-ksEHnahghOH",
+      "formality": "standard",
+      "cultural_note": "Information desks typically handle audio guide rentals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην πληροφορία.",
+        "pronunciation": "steem-blEErohfohrEEah",
+        "translation_en": "At the information desk."
+      },
+      "responses": [
+        {
+          "english": "At the information desk.",
+          "phonetic": "steem-blEErohfohrEEah",
+          "french": "Στην πληροφορία."
+        }
+      ]
+    },
+    {
+      "id": "mykonos_archaeological_museum_of_mykonos_010",
+      "intent_en": "Ask where the Cycladic pottery room is",
+      "text_local": "Πού είναι η αίθουσα της Κυκλαδικής κεραμικής;",
+      "pronunciation": "pOO-EEneh-ee-EHthoosAH-EHrahmeeEEs-eeklAHthohn",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συνήθως ακολουθούν τις πινακίδες για τους μόνιμους εκθεσιακούς χώρους, καθώς αυτά είναι εμφανή στους κύριους διαδρόμους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πρώτο όροφο, αριστερά.",
+        "pronunciation": "stohm-brOHtoh-OHrohfOHAHreestehrAH",
+        "translation_en": "On the first floor, to the left."
+      },
+      "responses": [
+        {
+          "english": "On the first floor, to the left.",
+          "phonetic": "stohm-brOHtoh-OHrohfOHAHreestehrAH",
+          "french": "Στον πρώτο όροφο, αριστερά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

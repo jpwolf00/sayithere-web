@@ -1,0 +1,100 @@
+{
+  "id": "prague_national_museum",
+  "name_en": "National Museum",
+  "name_local": "Národní muzeum",
+  "icon": "building.columns",
+  "lat": 50.078919,
+  "lon": 14.4309678,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "prague_national_museum_001",
+      "intent_en": "Is the cloakroom mandatory for my backpack",
+      "text_local": "Je šatna povinná pro můj batoh?",
+      "pronunciation": "yeh-shAHtnah-pOHveenah-prOHmooy-bAHtohkh",
+      "formality": "standard",
+      "cultural_note": "Staff are strict about mandatory cloakroom rules for security.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, velká zavazadla musí být v šatně.",
+        "pronunciation": "AHnohvEHlkah-zAHvahzAHdlah-mOOsee-beet-v-shAHtnyeh",
+        "translation_en": "Yes, large bags must be in the cloakroom."
+      },
+      "responses": [
+        {
+          "english": "Yes, large bags must be in the cloakroom.",
+          "phonetic": "AHnohvEHlkah-zAHvahzAHdlah-mOOsee-beet-v-shAHtnyeh",
+          "french": "Ano, velká zavazadla musí být v šatně."
+        }
+      ]
+    },
+    {
+      "id": "prague_national_museum_002",
+      "intent_en": "Where is the combined ticket desk in New Building",
+      "text_local": "Kde je pokladna na kombinované lístky v Nové budově?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-nah-kOHmbeenOHvahneh-lEEstkee-v-nOHveh-bOOdohvyeh",
+      "formality": "standard",
+      "cultural_note": "Czech staff often use short, direct directions without greetings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vlevo od vstupních turniketů.",
+        "pronunciation": "vlEHvoh-OHdfstoopnyeekh-tOOrnyeekEHtoo",
+        "translation_en": "To the left of the entrance turnstiles."
+      },
+      "responses": [
+        {
+          "english": "To the left of the entrance turnstiles.",
+          "phonetic": "vlEHvoh-OHdfstoopnyeekh-tOOrnyeekEHtoo",
+          "french": "Vlevo od vstupních turniketů."
+        }
+      ]
+    },
+    {
+      "id": "prague_national_museum_003",
+      "intent_en": "Is the Historic Building open today",
+      "text_local": "Je dneska otevřená Historická budova?",
+      "pronunciation": "yeh-dnEHskah-OHtehvrEHnah-hEEstohrEEtskah-bOOdohvah",
+      "formality": "standard",
+      "cultural_note": "Czechs often specify closing time when confirming opening status.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, dneska je otevřeno do osmnácti hodin.",
+        "pronunciation": "AHnohdnEHskah-yeh-OHtehvrEHnoh-dOHohsmnAHtsee-hOHeen",
+        "translation_en": "Yes, today it's open until 6 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, today it's open until 6 PM.",
+          "phonetic": "AHnohdnEHskah-yeh-OHtehvrEHnoh-dOHohsmnAHtsee-hOHeen",
+          "french": "Ano, dneska je otevřeno do osmnácti hodin."
+        }
+      ]
+    },
+    {
+      "id": "prague_national_museum_004",
+      "intent_en": "Where is the audio guide rental at entrance",
+      "text_local": "Kde si můžu půjčit audioprůvodce u vchodu?",
+      "pronunciation": "kdEH-see-mOOzhoo-pOOytsheet-OWdeeOHproovOHttseh-OO-fkhOHdoo",
+      "formality": "standard",
+      "cultural_note": "Audio guides are typically rented near the main information point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned za informačním pultem napravo.",
+        "pronunciation": "hnEHd-zah-EEnfohrmAHtshnyeem-pOOltehm-nAHprahvoh",
+        "translation_en": "Right behind the information desk on the right."
+      },
+      "responses": [
+        {
+          "english": "Right behind the information desk on the right.",
+          "phonetic": "hnEHd-zah-EEnfohrmAHtshnyeem-pOOltehm-nAHprahvoh",
+          "french": "Hned za informačním pultem napravo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

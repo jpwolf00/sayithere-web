@@ -1,0 +1,56 @@
+{
+  "id": "amsterdam_jordaan_district",
+  "name_en": "Jordaan District",
+  "name_local": "Jordaan",
+  "icon": "map",
+  "lat": 52.3754157,
+  "lon": 4.8810958,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "amsterdam_jordaan_district_001",
+      "intent_en": "Ask if brown café rounds up bill",
+      "text_local": "Rond je de rekening af in een bruin café?",
+      "pronunciation": "rAWnt-yuh-duh-rEHkuhnING-AHf-ihn-uhn-brUHuen-kahfEH",
+      "formality": "casual",
+      "cultural_note": "In traditional Dutch brown cafés (bruine kroegen), rounding up the bill is a common and socially accepted practice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, dat mag.",
+        "pronunciation": "yAHdAHt-mahkh",
+        "translation_en": "Yes, that’s allowed."
+      },
+      "responses": [
+        {
+          "english": "Yes, that’s allowed.",
+          "phonetic": "yAHdAHt-mahkh",
+          "french": "Ja, dat mag."
+        }
+      ]
+    },
+    {
+      "id": "amsterdam_jordaan_district_002",
+      "intent_en": "Ask how Jordaan boat tour boards",
+      "text_local": "Hoe board ik voor de rondvaart?",
+      "pronunciation": "hOO-bOHahrt-ihk-vawr-duh-rAWndvahrt",
+      "formality": "standard",
+      "cultural_note": "Jordaan canal tours typically depart from quayside boarding points along the main canals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aan de kade.",
+        "pronunciation": "ahn-duh-kAHduh",
+        "translation_en": "At the quay."
+      },
+      "responses": [
+        {
+          "english": "At the quay.",
+          "phonetic": "ahn-duh-kAHduh",
+          "french": "Aan de kade."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

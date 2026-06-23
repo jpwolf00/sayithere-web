@@ -1,0 +1,100 @@
+{
+  "id": "weimar_german_national_theater",
+  "name_en": "German National Theater",
+  "name_local": "Deutsches Nationaltheater und Staatskapelle Weimar",
+  "icon": "building.columns",
+  "lat": 50.9796309,
+  "lon": 11.3247582,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "weimar_german_national_theater_001",
+      "intent_en": "Which venue is the studio stage?",
+      "text_local": "Welche Bühne ist das Studiotheater?",
+      "pronunciation": "vOH-ihst-dehr-shIHlhOWs",
+      "formality": "standard",
+      "cultural_note": "Schillerhaus is a separate building from the main theater, dedicated to studio performances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Das Schillerhaus ist das Studiotheater.",
+        "pronunciation": "dahs-shIHlhOWs-ihst-dahs-shtOOdihOHtehAHt",
+        "translation_en": "The Schillerhaus is the studio theater."
+      },
+      "responses": [
+        {
+          "english": "The Schillerhaus is the studio theater.",
+          "phonetic": "dahs-shIHlhOWs-ihst-dahs-shtOOdihOHtehAHt",
+          "french": "Das Schillerhaus ist das Studiotheater."
+        }
+      ]
+    },
+    {
+      "id": "weimar_german_national_theater_002",
+      "intent_en": "Where is the evening box office?",
+      "text_local": "Wo ist die Abendkasse?",
+      "pronunciation": "vOH-ihst-dee-AHbuhntkAHsuh",
+      "formality": "standard",
+      "cultural_note": "Evening box office is typically located near the main entrance for last-minute ticket sales.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Abendkasse vor dem Großen Haus.",
+        "pronunciation": "AHbuhntkAHsuh-fAWr-dehm-rOHsuhn-hOWs",
+        "translation_en": "Evening box office in front of the main stage."
+      },
+      "responses": [
+        {
+          "english": "Evening box office in front of the main stage.",
+          "phonetic": "AHbuhntkAHsuh-fAWr-dehm-rOHsuhn-hOWs",
+          "french": "Abendkasse vor dem Großen Haus."
+        }
+      ]
+    },
+    {
+      "id": "weimar_german_national_theater_003",
+      "intent_en": "How do I book season tickets?",
+      "text_local": "Wie buche ich Abonnements?",
+      "pronunciation": "vee-bOOkhuh-ihkh-AHbawnehmEHnts",
+      "formality": "standard",
+      "cultural_note": "Season tickets (Abonnements) are typically sold at the box office or via the official website.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Online oder am Schalter.",
+        "pronunciation": "ehnNleyendeh-OHd-ahm-shAHlt",
+        "translation_en": "Online or at the box office."
+      },
+      "responses": [
+        {
+          "english": "Online or at the box office.",
+          "phonetic": "ehnNleyendeh-OHd-ahm-shAHlt",
+          "french": "Online oder am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "weimar_german_national_theater_004",
+      "intent_en": "Are student discounts available here?",
+      "text_local": "Gibt es hier Studentenermäßigungen?",
+      "pronunciation": "EEpt-ehs-hEEr-shtOOduhntEHnmEHsihUHnguhn",
+      "formality": "casual",
+      "cultural_note": "Student discounts are a standard offering at cultural institutions in Germany and require presentation of a valid student ID.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit gültigem Ausweis.",
+        "pronunciation": "yAHmiht-UEltihuhm-OWsvEYEs",
+        "translation_en": "Yes, with valid ID."
+      },
+      "responses": [
+        {
+          "english": "Yes, with valid ID.",
+          "phonetic": "yAHmiht-UEltihuhm-OWsvEYEs",
+          "french": "Ja, mit gültigem Ausweis."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

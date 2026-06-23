@@ -1,0 +1,56 @@
+{
+  "id": "krems_krems_old_town",
+  "name_en": "Krems Old Town",
+  "name_local": "Krems Altstadt",
+  "icon": "map",
+  "lat": 48.4098202,
+  "lon": 15.5964907,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "krems_krems_old_town_001",
+      "intent_en": "Ask where the Steiner Tor is",
+      "text_local": "Wo ist das Steiner Tor?",
+      "pronunciation": "vOH-ihst-dahs-shtEYEn-tOHr",
+      "formality": "standard",
+      "cultural_note": "In Krems wird das Steiner Tor oft als zentraler Orientierungspunkt genannt und ist über die Hauptstraßen sichtbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Das Steiner Tor ist im Zentrum.",
+        "pronunciation": "dahs-shtEYEn-tOHr-ihst-ihm-tsEHntruhm",
+        "translation_en": "The Steiner Tor is in the center."
+      },
+      "responses": [
+        {
+          "english": "The Steiner Tor is in the center.",
+          "phonetic": "dahs-shtEYEn-tOHr-ihst-ihm-tsEHntruhm",
+          "french": "Das Steiner Tor ist im Zentrum."
+        }
+      ]
+    },
+    {
+      "id": "krems_krems_old_town_002",
+      "intent_en": "Ask how to reach Donaupromenade",
+      "text_local": "Wie komme ich zur Donaupromenade?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoor-dOHnowprOHmuhnAHduh",
+      "formality": "casual",
+      "cultural_note": "Die Donaupromenade ist eine beliebte Route entlang der Donau, oft mit Hinweisschildern in der Altstadt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Donaupromenade liegt flussabwärts.",
+        "pronunciation": "dee-dOHnowprOHmuhnAHduh-lEEkt-flUHsahbvEHrts",
+        "translation_en": "The Donaupromenade is downstream."
+      },
+      "responses": [
+        {
+          "english": "The Donaupromenade is downstream.",
+          "phonetic": "dee-dOHnowprOHmuhnAHduh-lEEkt-flUHsahbvEHrts",
+          "french": "Die Donaupromenade liegt flussabwärts."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

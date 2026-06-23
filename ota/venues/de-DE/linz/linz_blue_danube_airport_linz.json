@@ -1,0 +1,122 @@
+{
+  "id": "linz_blue_danube_airport_linz",
+  "name_en": "Blue Danube Airport Linz",
+  "name_local": "Flughafen Linz",
+  "icon": "tram",
+  "lat": 48.236375,
+  "lon": 14.1877134,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "linz_blue_danube_airport_linz_001",
+      "intent_en": "Where is the Blue Danube Lounge",
+      "text_local": "Wo ist die Blue Danube Lounge?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-ehnblOOdeh-dAHnoobuh-lOOnguh",
+      "formality": "standard",
+      "cultural_note": "In kleinen Flughäfen sind Schilder oft auf Deutsch, daher wird dies als angemessene Antwort erwartet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Terminal 1, im ersten Stock.",
+        "pronunciation": "ihm-ehntMihnuhldeh-EYEnsihm-EHrstuhn-shtAWk",
+        "translation_en": "In Terminal 1, on the first floor."
+      },
+      "responses": [
+        {
+          "english": "In Terminal 1, on the first floor.",
+          "phonetic": "ihm-ehntMihnuhldeh-EYEnsihm-EHrstuhn-shtAWk",
+          "french": "Im Terminal 1, im ersten Stock."
+        }
+      ]
+    },
+    {
+      "id": "linz_blue_danube_airport_linz_002",
+      "intent_en": "Where are check-in counters one to ten",
+      "text_local": "Wo sind die Check-in-Schalter 1 bis 10?",
+      "pronunciation": "vOH-zihnt-dee-khEHkihnshAHlt-EYEns-bihs-tsEHn",
+      "formality": "standard",
+      "cultural_note": "Reisende erwarten eine klare, präzise Antwort ohne zusätzliche Erklärungen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Terminal 1, Abflughalle.",
+        "pronunciation": "ihm-ehntMihnuhldeh-EYEnsAHpflOOhahluh",
+        "translation_en": "In Terminal 1 departure hall."
+      },
+      "responses": [
+        {
+          "english": "In Terminal 1 departure hall.",
+          "phonetic": "ihm-ehntMihnuhldeh-EYEnsAHpflOOhahluh",
+          "french": "Im Terminal 1, Abflughalle."
+        }
+      ]
+    },
+    {
+      "id": "linz_blue_danube_airport_linz_003",
+      "intent_en": "Is the security fee paid here",
+      "text_local": "Wird die Sicherheitsgebühr hier bezahlt?",
+      "pronunciation": "vIHrt-dee-zIHkhhEYEtsehbUEr-hEEr-buhtsAHlt",
+      "formality": "casual",
+      "cultural_note": "Direkt und ohne Umschweife beantworten, da Reisende eine klare Bestätigung erwarten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Security-Check.",
+        "pronunciation": "yAHahm-ehnsihkyOO-UHrihteedehkhEHk",
+        "translation_en": "Yes, at the security checkpoint."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the security checkpoint.",
+          "phonetic": "yAHahm-ehnsihkyOO-UHrihteedehkhEHk",
+          "french": "Ja, am Security-Check."
+        }
+      ]
+    },
+    {
+      "id": "linz_blue_danube_airport_linz_004",
+      "intent_en": "Where are car rental desks",
+      "text_local": "Wo sind die Autovermietungen?",
+      "pronunciation": "vOH-zihnt-dee-OWtohvmEEtuhnguhn",
+      "formality": "standard",
+      "cultural_note": "Reisende erwarten eine klare Angabe des Bereichs, nicht detaillierte Wegebeschreibungen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Ankunftsbereich der Abflughalle.",
+        "pronunciation": "ihm-AHnkUHnftsbuhrEYEkh-dehr-AHpflOOhahluh",
+        "translation_en": "In the arrivals hall."
+      },
+      "responses": [
+        {
+          "english": "In the arrivals hall.",
+          "phonetic": "ihm-AHnkUHnftsbuhrEYEkh-dehr-AHpflOOhahluh",
+          "french": "Im Ankunftsbereich der Abflughalle."
+        }
+      ]
+    },
+    {
+      "id": "linz_blue_danube_airport_linz_005",
+      "intent_en": "Is parking machine at P1 working",
+      "text_local": "Funktioniert der Parkautomat bei P1?",
+      "pronunciation": "fuhngktsyOHnEErt-dehr-pAHrkowtohmAHt-beye-pEH-EYEns",
+      "formality": "standard",
+      "cultural_note": "Antwort bleibt vage, da exakte Funktionsprüfung nicht möglich ist; Service-Staff-Escalation ist sicherer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, der funktioniert.",
+        "pronunciation": "yAHdehr-fuhngktsyOHnEErt",
+        "translation_en": "Yes, it works."
+      },
+      "responses": [
+        {
+          "english": "Yes, it works.",
+          "phonetic": "yAHdehr-fuhngktsyOHnEErt",
+          "french": "Ja, der funktioniert."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

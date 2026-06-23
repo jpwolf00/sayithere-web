@@ -1,0 +1,188 @@
+{
+  "id": "pamukkale_hierapolis_archaeology_museum",
+  "name_en": "Hierapolis Archaeology Museum",
+  "name_local": "Hierapolis Arkeoloji Müzesi",
+  "icon": "building.columns",
+  "lat": 37.924948,
+  "lon": 29.1245633,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "pamukkale_hierapolis_archaeology_museum_001",
+      "intent_en": "Where is Laodicea collection?",
+      "text_local": "Laodikeia koleksiyonu nerede?",
+      "pronunciation": "ahohdeekeheeAH-kohlehkseeyohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Museum collections are often spread across different halls of the Roman Bath building; staff can direct you to the specific section.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Arka salonda, sağda.",
+        "pronunciation": "ahrkAH-sahawndAHsahdAH",
+        "translation_en": "In the back hall, on the right."
+      },
+      "responses": [
+        {
+          "english": "In the back hall, on the right.",
+          "phonetic": "ahrkAH-sahawndAHsahdAH",
+          "french": "Arka salonda, sağda."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_archaeology_museum_002",
+      "intent_en": "Is audio guide available?",
+      "text_local": "Sesli rehber var mı?",
+      "pronunciation": "sehslIH-rehhbEHr-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Audio guides may be limited; arriving early can help secure one.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, sesli rehber kiralama mevcuttur.",
+        "pronunciation": "ehvEHtsehslIH-rehhbEHr-keerAHahmah-mehvdzhootUHr",
+        "translation_en": "Yes, audio guide rental is available."
+      },
+      "responses": [
+        {
+          "english": "Yes, audio guide rental is available.",
+          "phonetic": "ehvEHtsehslIH-rehhbEHr-keerAHahmah-mehvdzhootUHr",
+          "french": "Evet, sesli rehber kiralama mevcuttur."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_archaeology_museum_003",
+      "intent_en": "Is site ticket valid here?",
+      "text_local": "Hierapolis giriş bileti burada geçerli mi?",
+      "pronunciation": "heeehrahpohlIHs-eerIHsh-beelehtIH-bOOrahdah-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Combined tickets are common at Turkish archaeological sites; always confirm with the ticket officer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, müze girişi için geçerlidir.",
+        "pronunciation": "ehvEHtmuezEH-eereeshIH-eetshIHn-ehtshehrlEEdihr",
+        "translation_en": "Yes, it is valid for museum entry."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is valid for museum entry.",
+          "phonetic": "ehvEHtmuezEH-eereeshIH-eetshIHn-ehtshehrlEEdihr",
+          "french": "Evet, müze girişi için geçerlidir."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_archaeology_museum_004",
+      "intent_en": "Where to buy local crafts?",
+      "text_local": "Yöresel el sanatları ürünlerini nereden alabilirim?",
+      "pronunciation": "yuhrehsAHl-AHl-sahnahtahrOO-ueruhnlehreenIH-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Museum shops in Turkey are the standard place for crafts and souvenirs; specific placement within the venue is best confirmed on site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Müze mağazasına bakın.",
+        "pronunciation": "muezEH-mahzahsoonAH-bahkOOn",
+        "translation_en": "Check the museum shop."
+      },
+      "responses": [
+        {
+          "english": "Check the museum shop.",
+          "phonetic": "muezEH-mahzahsoonAH-bahkOOn",
+          "french": "Müze mağazasına bakın."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_archaeology_museum_005",
+      "intent_en": "Is site ticket valid here?",
+      "text_local": "Hierapolis alan giriş bileti burada geçerli mi?",
+      "pronunciation": "heeehrahpohlIHs-ahAHn-eerIHsh-beelehtIH-bOOrahdah-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Turkish museums often have separate ticketing from archaeological sites; combined tickets are common but not guaranteed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, geçerli.",
+        "pronunciation": "ehvEHtehtshehrlIH",
+        "translation_en": "Yes, it is valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is valid.",
+          "phonetic": "ehvEHtehtshehrlIH",
+          "french": "Evet, geçerli."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_archaeology_museum_006",
+      "intent_en": "Where is Laodicea collection?",
+      "text_local": "Laodikya koleksiyonu nerede?",
+      "pronunciation": "ahohdihkyAH-kohlehkseeyohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Museum layouts can change; attendants are the best source for specific collection locations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Müzenin üst katında.",
+        "pronunciation": "muezehnIHn-UHst-kahtoondAH",
+        "translation_en": "Upstairs in the museum."
+      },
+      "responses": [
+        {
+          "english": "Upstairs in the museum.",
+          "phonetic": "muezehnIHn-UHst-kahtoondAH",
+          "french": "Müzenin üst katında."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_archaeology_museum_007",
+      "intent_en": "Is audio guide available?",
+      "text_local": "Sesli rehber var mı?",
+      "pronunciation": "sehslIH-rehhbEHr-keerahahnahbeelEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Audio guides at Turkish museums may be limited in quantity or language options; it's best to inquire at the desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Var, girişten alabilirsiniz.",
+        "pronunciation": "vAHreerihshtAHn-ahahbeelIHrseenihz",
+        "translation_en": "Yes, you can get it at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can get it at the entrance.",
+          "phonetic": "vAHreerihshtAHn-ahahbeelIHrseenihz",
+          "french": "Var, girişten alabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_hierapolis_archaeology_museum_008",
+      "intent_en": "Where to buy local crafts?",
+      "text_local": "Yerel el sanatlarını nereden satın alabilirim?",
+      "pronunciation": "yehrAHl-AHl-sahnahtahroonOO-nEHrehdahn-sahtOOn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Museum shops are the official point for local crafts, supporting site preservation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Müze dükkanına gidin.",
+        "pronunciation": "muezEH-duekahnoonAH-eedIHn",
+        "translation_en": "Go to the museum shop."
+      },
+      "responses": [
+        {
+          "english": "Go to the museum shop.",
+          "phonetic": "muezEH-duekahnoonAH-eedIHn",
+          "french": "Müze dükkanına gidin."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,99 @@
+{
+  "id": "reims_boulingrin",
+  "name_en": "Boulingrin Market District",
+  "name_local": "Boulingrin",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "boulingrin_marche",
+      "intent_en": "When is the Boulingrin market?",
+      "text_local": "Le marché du Boulingrin, c'est quand ?",
+      "pronunciation": "luh mar-SHAY dew boo-lan-GRAN, say KON",
+      "formality": "polite",
+      "cultural_note": "The Marché du Boulingrin is held Saturday mornings in and around the famous Art Deco covered market hall — one of the finest in France.",
+      "responses": [
+        {
+          "english": "It is held every Wednesday and Saturday morning, from 7 am to 2 pm.",
+          "phonetic": "KAHN tah-LYUH luh MAR-shay dyoo boo-lan-GRAN",
+          "french": "Il se tient tous les mercredis et samedis matin, de 7h à 14h."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "boulingrin_halle",
+      "intent_en": "Is the market hall a listed historic monument?",
+      "text_local": "La halle est classée monument historique ?",
+      "pronunciation": "lah AL eh klas-SAY moh-new-MON ees-toh-REEK",
+      "formality": "polite",
+      "cultural_note": "The Halle du Boulingrin (1929) is an Art Deco masterpiece — a vast concrete shell structure listed as a historic monument. Worth visiting even when the market isn't on.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "fr_boul_rei_x1",
+      "intent_en": "Ask what the Boulingrin covered market is",
+      "text_local": "Qu'est-ce que le marché couvert du Boulingrin ?",
+      "pronunciation": "kes kuh luh mar-SHAY koo-VAIR doo boo-lan-GRAN",
+      "formality": "polite",
+      "cultural_note": "The Boulingrin market hall is a masterpiece of Art Deco architecture built in 1929, its vast reinforced-concrete vault spanning 70 metres.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's an Art Deco market listed as a historic monument.",
+          "phonetic": "say tuhn mar-SHAY ar day-KOH klah-SAY moh-noo-MAHN ees-toh-REEK.",
+          "french": "C'est un marché Art Déco classé monument historique."
+        }
+      ]
+    },
+    {
+      "id": "fr_boul_rei_x2",
+      "intent_en": "Ask on which days the market is open",
+      "text_local": "Le marché est ouvert quels jours ?",
+      "pronunciation": "luh mar-SHAY ay too-VAIR kel ZHOOR",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Wednesday, Friday and Saturday mornings.",
+          "phonetic": "luh mair-KRUH-dee, vahn-DRUH-dee ay sam-DEE mah-TAN.",
+          "french": "Le mercredi, vendredi et samedi matin."
+        }
+      ]
+    },
+    {
+      "id": "fr_boul_rei_x3",
+      "intent_en": "Ask where the nearest tram stop is",
+      "text_local": "Où se trouve l'arrêt de tramway le plus proche ?",
+      "pronunciation": "oo suh TROOV lah-RAY duh TRAM-way luh ploo PROSH",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Boulingrin, on line A, right opposite.",
+          "phonetic": "boo-lan-GRAN, soor lah LEEN-yuh AH, zhoos tahn FAHS.",
+          "french": "Boulingrin, sur la ligne A, juste en face."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "covered market hall",
+      "word_local": "la halle",
+      "pronunciation": "lah AL"
+    },
+    {
+      "word_en": "Art Deco (architectural style of the 1920s–30s)",
+      "word_local": "Art Déco",
+      "pronunciation": "ar day-KOH"
+    }
+  ]
+}

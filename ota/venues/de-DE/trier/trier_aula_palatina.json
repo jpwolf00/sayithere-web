@@ -1,0 +1,78 @@
+{
+  "id": "trier_aula_palatina",
+  "name_en": "Aula Palatina",
+  "name_local": "Konstantinbasilika",
+  "icon": "building.columns",
+  "lat": 49.7555842,
+  "lon": 6.6458618,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "trier_aula_palatina_001",
+      "intent_en": "Where is the Porta Nigra from here?",
+      "text_local": "Wo ist die Porta Nigra?",
+      "pronunciation": "vOH-ihst-dee-pAWrtah-nIHrah",
+      "formality": "standard",
+      "cultural_note": "Die Porta Nigra ist ein bekanntes römisches Monument in Trier und etwa 5 Gehminuten entfernt. Eine genaue Wegbeschreibung kann am Infoschalter erfragt werden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie geradeaus zum Ausgang.",
+        "pronunciation": "gEHuhn-zee-guhrAHdehOWs-tsuhm-OWsgAHng",
+        "translation_en": "Go straight ahead to the exit."
+      },
+      "responses": [
+        {
+          "english": "Go straight ahead to the exit.",
+          "phonetic": "gEHuhn-zee-guhrAHdehOWs-tsuhm-OWsgAHng",
+          "french": "Gehen Sie geradeaus zum Ausgang."
+        }
+      ]
+    },
+    {
+      "id": "trier_aula_palatina_002",
+      "intent_en": "Where is the main entrance?",
+      "text_local": "Wo ist der Haupteingang?",
+      "pronunciation": "vOH-ihst-dehr-hOWptEYEnAHng",
+      "formality": "standard",
+      "cultural_note": "In Deutschland wird der Haupteingang einer Kirche oft als zentraler Zugang genutzt. Besucher werden direkt dorthin geleitet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Haupteingang ist auf der rechten Seite.",
+        "pronunciation": "dehr-hOWptEYEngAHng-ihst-owf-dehr-rEHkhtuhn-zEYEtuh",
+        "translation_en": "The main entrance is on the right side."
+      },
+      "responses": [
+        {
+          "english": "The main entrance is on the right side.",
+          "phonetic": "dehr-hOWptEYEngAHng-ihst-owf-dehr-rEHkhtuhn-zEYEtuh",
+          "french": "Der Haupteingang ist auf der rechten Seite."
+        }
+      ]
+    },
+    {
+      "id": "trier_aula_palatina_003",
+      "intent_en": "Is there a donation box?",
+      "text_local": "Gibt es einen Spendenkasten?",
+      "pronunciation": "EEpt-ehs-EYEnuhn-shpEHnduhnkAHstuhn",
+      "formality": "standard",
+      "cultural_note": "In deutschen Kirchen ist die Spende für Erhalt und Wartung üblich. Der Kasten ist meist gut sichtbar platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Eingangsbereich.",
+        "pronunciation": "yAHihm-EYEnAHngsbuhrEYEkh",
+        "translation_en": "Yes, in the entrance area."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the entrance area.",
+          "phonetic": "yAHihm-EYEnAHngsbuhrEYEkh",
+          "french": "Ja, im Eingangsbereich."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

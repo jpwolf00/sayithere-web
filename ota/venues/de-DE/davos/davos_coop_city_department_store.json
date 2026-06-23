@@ -1,0 +1,122 @@
+{
+  "id": "davos_coop_city_department_store",
+  "name_en": "Coop City Department Store",
+  "name_local": "Coop City Davos",
+  "icon": "bag",
+  "lat": 46.796198,
+  "lon": 9.8236892,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "davos_coop_city_department_store_001",
+      "intent_en": "Where is the Coop Restaurant seating area?",
+      "text_local": "Wo ist der Sitzbereich vom Coop Restaurant?",
+      "pronunciation": "vOH-ihst-dehr-zIHtsbuhrEYEkh-fawm-kOHp-rEHstohrAH",
+      "formality": "standard",
+      "cultural_note": "Signage guide is culturally appropriate for Swiss retail environments.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im ersten Stock, links.",
+        "pronunciation": "ihm-EHrstuhn-shtAWklINGks",
+        "translation_en": "On the first floor, to the left."
+      },
+      "responses": [
+        {
+          "english": "On the first floor, to the left.",
+          "phonetic": "ihm-EHrstuhn-shtAWklINGks",
+          "french": "Im ersten Stock, links."
+        }
+      ]
+    },
+    {
+      "id": "davos_coop_city_department_store_002",
+      "intent_en": "Is Migros branch still inside?",
+      "text_local": "Gibt es die Migros-Filiale hier noch?",
+      "pronunciation": "EEpt-ehs-dee-mIHrohsfEEleeAHluh-hEEr-nawkh",
+      "formality": "casual",
+      "cultural_note": "Brief, factual confirmation expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Erdgeschoss.",
+        "pronunciation": "yAHihm-ehrdEHshaws",
+        "translation_en": "Yes, on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the ground floor.",
+          "phonetic": "yAHihm-ehrdEHshaws",
+          "french": "Ja, im Erdgeschoss."
+        }
+      ]
+    },
+    {
+      "id": "davos_coop_city_department_store_003",
+      "intent_en": "Is mobile payment accepted at checkout?",
+      "text_local": "Wird Mobile Payment an der Kasse akzeptiert?",
+      "pronunciation": "vIHrt-mohbEEluh-pehihmEHnt-ahn-dehr-kAHsuh-AHktsehptEErt",
+      "formality": "standard",
+      "cultural_note": "Clear, direct confirmation expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an allen Kassen.",
+        "pronunciation": "yAHahn-AHluhn-kAHsuhn",
+        "translation_en": "Yes, at all checkouts."
+      },
+      "responses": [
+        {
+          "english": "Yes, at all checkouts.",
+          "phonetic": "yAHahn-AHluhn-kAHsuhn",
+          "french": "Ja, an allen Kassen."
+        }
+      ]
+    },
+    {
+      "id": "davos_coop_city_department_store_004",
+      "intent_en": "How do I register for Supercard here?",
+      "text_local": "Wie kann ich hier die Supercard registrieren?",
+      "pronunciation": "vee-kAHn-ihkh-hEEr-dee-zOOpkAHrt-rEHihstrEEruhn",
+      "formality": "casual",
+      "cultural_note": "Staff will direct to the correct counter without unnecessary elaboration.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Supercard-Schalter.",
+        "pronunciation": "ahm-zOOpkAHrtshAHlt",
+        "translation_en": "At the Supercard desk."
+      },
+      "responses": [
+        {
+          "english": "At the Supercard desk.",
+          "phonetic": "ahm-zOOpkAHrtshAHlt",
+          "french": "Am Supercard-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "davos_coop_city_department_store_005",
+      "intent_en": "Where is customer service for returns?",
+      "text_local": "Wo ist der Kundendienst für Rückgaben?",
+      "pronunciation": "vOH-ihst-dehr-kUHnduhndEEnst-fuer-rUEkahbuhn",
+      "formality": "standard",
+      "cultural_note": "Direct, professional, and concise staff response expected.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter für Rückgaben.",
+        "pronunciation": "ahm-shAHlt-fuer-rUEkahbuhn",
+        "translation_en": "At the returns counter."
+      },
+      "responses": [
+        {
+          "english": "At the returns counter.",
+          "phonetic": "ahm-shAHlt-fuer-rUEkahbuhn",
+          "french": "Am Schalter für Rückgaben."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

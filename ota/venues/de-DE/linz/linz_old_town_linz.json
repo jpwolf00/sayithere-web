@@ -1,0 +1,78 @@
+{
+  "id": "linz_old_town_linz",
+  "name_en": "Old Town Linz",
+  "name_local": "Altstadt Linz",
+  "icon": "map",
+  "lat": 50.5653422,
+  "lon": 7.2811878,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "linz_old_town_linz_001",
+      "intent_en": "Where do I board the Nibelungenbrücke tram?",
+      "text_local": "Wo fährt die Straßenbahn an der Nibelungenbrücke ab?",
+      "pronunciation": "vOH-fEHrt-dee-shtrAHsuhnbAHn-ahn-dehr-nEEbuhlUHnguhnbrUEkuh-AHp",
+      "formality": "standard",
+      "cultural_note": "Tram stops are typically marked; no micro-location precision assumed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt an der Haltestelle Nibelungenbrücke.",
+        "pronunciation": "deerEHkt-ahn-dehr-hAHltehshtEHluh-nEEbuhlUHnguhnbrUEkuh",
+        "translation_en": "Right at the Nibelungenbrücke stop."
+      },
+      "responses": [
+        {
+          "english": "Right at the Nibelungenbrücke stop.",
+          "phonetic": "deerEHkt-ahn-dehr-hAHltehshtEHluh-nEEbuhlUHnguhnbrUEkuh",
+          "french": "Direkt an der Haltestelle Nibelungenbrücke."
+        }
+      ]
+    },
+    {
+      "id": "linz_old_town_linz_002",
+      "intent_en": "How do I buy MuseumsQuartier tickets here?",
+      "text_local": "Wo bekomme ich Tickets fürs MuseumsQuartier?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-tIHkuhts-fUErs-moozEHuhms-kvahrtEEr",
+      "formality": "casual",
+      "cultural_note": "Assumes ticketing service is centrally located; no micro-directions given.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Informationsbüro am Hauptplatz.",
+        "pronunciation": "ihm-IHnfawrmahtsyOHnsbuerOH-ahm-hOWptplahts",
+        "translation_en": "At the information office on the main square."
+      },
+      "responses": [
+        {
+          "english": "At the information office on the main square.",
+          "phonetic": "ihm-IHnfawrmahtsyOHnsbuerOH-ahm-hOWptplahts",
+          "french": "Im Informationsbüro am Hauptplatz."
+        }
+      ]
+    },
+    {
+      "id": "linz_old_town_linz_003",
+      "intent_en": "Where is the Alter Dom from Hauptplatz?",
+      "text_local": "Wo ist der Alte Dom von Hauptplatz?",
+      "pronunciation": "vOH-ihst-dehr-AHltuh-dOHm-fawn-hOWptplahts",
+      "formality": "standard",
+      "cultural_note": "Directions assume pedestrian perspective; left/right may vary based on approach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich hier, linker Hand.",
+        "pronunciation": "lEYEkh-hEErlINGk-hAHnt",
+        "translation_en": "Right here, to the left."
+      },
+      "responses": [
+        {
+          "english": "Right here, to the left.",
+          "phonetic": "lEYEkh-hEErlINGk-hAHnt",
+          "french": "Gleich hier, linker Hand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

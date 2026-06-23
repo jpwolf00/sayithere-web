@@ -1,0 +1,122 @@
+{
+  "id": "české_budějovice_české_budějovice_bus_station",
+  "name_en": "České Budějovice Bus Station",
+  "name_local": "Autobusové nádraží České Budějovice",
+  "icon": "tram",
+  "lat": 48.9729152,
+  "lon": 14.4872941,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "české_budějovice_české_budějovice_bus_station_001",
+      "intent_en": "Where to buy MHD tram tickets",
+      "text_local": "Kde koupím lístek na tramvaj MHD?",
+      "pronunciation": "kdEH-kOHpeem-lEEstehk-nAHtrahmvahy-EHmhAHdEH",
+      "formality": "standard",
+      "cultural_note": "MHD stops have distinctive yellow ticket machines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U žlutého automatu přímo na zastávce.",
+        "pronunciation": "OO-zhlOOtehhoh-OWtohmAHtoo-prEEmoh-nAHzahstAHftseh",
+        "translation_en": "At the yellow machine right at the stop."
+      },
+      "responses": [
+        {
+          "english": "At the yellow machine right at the stop.",
+          "phonetic": "OO-zhlOOtehhoh-OWtohmAHtoo-prEEmoh-nAHzahstAHftseh",
+          "french": "U žlutého automatu přímo na zastávce."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_české_budějovice_bus_station_002",
+      "intent_en": "How to validate the ticket",
+      "text_local": "Jak si mám označit jízdenku?",
+      "pronunciation": "yAHk-see-mahm-OHznahtsheet-yEEzdehngkoo",
+      "formality": "standard",
+      "cultural_note": "Validation is mandatory immediately upon entering the vehicle.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned po nástupu, dovnitř do strojku.",
+        "pronunciation": "hnEHt-pOHnahstOOpoodOHvnyeetr-dOHstrohykoo",
+        "translation_en": "Right after boarding, inside the machine."
+      },
+      "responses": [
+        {
+          "english": "Right after boarding, inside the machine.",
+          "phonetic": "hnEHt-pOHnahstOOpoodOHvnyeetr-dOHstrohykoo",
+          "french": "Hned po nástupu, dovnitř do strojku."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_české_budějovice_bus_station_003",
+      "intent_en": "When does the next FlixBus to Prague depart",
+      "text_local": "Kdy jede další FlixBus do Prahy?",
+      "pronunciation": "kdEE-yEHdeh-dAHlshee-flEEkz-bOOz-dOHprahhee",
+      "formality": "standard",
+      "cultural_note": "Platform numbers are often called out with departure times.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za dvacet minut od nástupiště sedm.",
+        "pronunciation": "zAHdvahtseht-mEEnoot-ohd-nAHstoopEEsheh-sEHdm",
+        "translation_en": "In twenty minutes from platform seven."
+      },
+      "responses": [
+        {
+          "english": "In twenty minutes from platform seven.",
+          "phonetic": "zAHdvahtseht-mEEnoot-ohd-nAHstoopEEsheh-sEHdm",
+          "french": "Za dvacet minut od nástupiště sedm."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_české_budějovice_bus_station_004",
+      "intent_en": "Where is the RegioJet waiting room",
+      "text_local": "Kde je čekárna RegioJet?",
+      "pronunciation": "kdEH-yeh-tshEHkahrnah-rEHgeeyoh-yEHt",
+      "formality": "standard",
+      "cultural_note": "Czech stations often use color cues for private waiting rooms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vpravo za pokladnami, žluté dveře.",
+        "pronunciation": "fprAHvoh-zah-pOHklahdnAHmeezhlOOteh-dvEHreh",
+        "translation_en": "On the right past the ticket counters, yellow door."
+      },
+      "responses": [
+        {
+          "english": "On the right past the ticket counters, yellow door.",
+          "phonetic": "fprAHvoh-zah-pOHklahdnAHmeezhlOOteh-dvEHreh",
+          "french": "Vpravo za pokladnami, žluté dveře."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_české_budějovice_bus_station_005",
+      "intent_en": "Is there wheelchair access to platforms",
+      "text_local": "Je na nástupiště bezbariérový přístup?",
+      "pronunciation": "yeh-nah-nAHstoopEEsheh-bEHzbahrEEehrOHvee-prEEstoop",
+      "formality": "standard",
+      "cultural_note": "Major transport hubs in Czechia are generally accessible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, hlavní nástupiště jsou bez schodů.",
+        "pronunciation": "AHnohhlAHvnyee-nAHstoopEEsheh-ysoh-bEHsskhohdoo",
+        "translation_en": "Yes, the main platforms are without stairs."
+      },
+      "responses": [
+        {
+          "english": "Yes, the main platforms are without stairs.",
+          "phonetic": "AHnohhlAHvnyee-nAHstoopEEsheh-ysoh-bEHsskhohdoo",
+          "french": "Ano, hlavní nástupiště jsou bez schodů."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

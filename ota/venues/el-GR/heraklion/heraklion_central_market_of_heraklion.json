@@ -1,0 +1,122 @@
+{
+  "id": "heraklion_central_market_of_heraklion",
+  "name_en": "Central Market of Heraklion",
+  "name_local": "Αγορά Ηρακλείου",
+  "icon": "cart",
+  "lat": 35.3379385,
+  "lon": 25.133253,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "heraklion_central_market_of_heraklion_001",
+      "intent_en": "Ask when fresh fish arrives from boats",
+      "text_local": "Πότε φτάνει το φρέσκο ψάρι;",
+      "pronunciation": "pOHteh-ftAHnee-frEHskoh-psAHree",
+      "formality": "standard",
+      "cultural_note": "Fresh fish deliveries are typically daily and occur early in the morning, aligning with fishing schedules.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πρωί.",
+        "pronunciation": "prohEE",
+        "translation_en": "Morning."
+      },
+      "responses": [
+        {
+          "english": "Morning.",
+          "phonetic": "prohEE",
+          "french": "Πρωί."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_central_market_of_heraklion_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού ζυγίζω τις ελιές;",
+      "pronunciation": "pOHz-zeeyEEzoh-mOHnohz-moo-tees-ehlyEHs",
+      "formality": "standard",
+      "cultural_note": "Self-service scales are often near produce stalls; staff may assist in setting them up.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στη ζυγαριά δίπλα στα μπαχαρικά.",
+        "pronunciation": "stee-zEEghahreeAH-thEEplah-stah-bAHkhahreekAH",
+        "translation_en": "At the scale next to the spices."
+      },
+      "responses": [
+        {
+          "english": "At the scale next to the spices.",
+          "phonetic": "stee-zEEghahreeAH-thEEplah-stah-bAHkhahreekAH",
+          "french": "Στη ζυγαριά δίπλα στα μπαχαρικά."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_central_market_of_heraklion_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η γωνιά μεζέδων;",
+      "pronunciation": "pOO-kAHthehtEH-kAHpeeOHz-yAH-mehzEHthehs",
+      "formality": "standard",
+      "cultural_note": "Meze corners are informal; seating may be limited or provided at the vendor’s discretion.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Πίσω, δίπλα στα βαρέλια με ρακή.",
+        "pronunciation": "pEEsohthEEplah-stah-vahrEHlyah-meh-rahEE",
+        "translation_en": "It's in the back, next to the raki barrels."
+      },
+      "responses": [
+        {
+          "english": "It's in the back, next to the raki barrels.",
+          "phonetic": "pEEsohthEEplah-stah-vahrEHlyah-meh-rahEE",
+          "french": "Πίσω, δίπλα στα βαρέλια με ρακή."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_central_market_of_heraklion_004",
+      "intent_en": "Ask where the fish cleaning station is",
+      "text_local": "Πού καθαρίζουν τα ψάρια;",
+      "pronunciation": "pOO-kAHthahrEEzoon-dah-psAHreeAH",
+      "formality": "standard",
+      "cultural_note": "Fish cleaning is typically handled by staff at the fishmonger counter (Bakaliaro). Customers may or may not participate; the vendor may prefer handling it themselves for hygiene.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο του ψαρά.",
+        "pronunciation": "stohm-bAHnggoh-too-psahrAH",
+        "translation_en": "At the fishmonger's counter."
+      },
+      "responses": [
+        {
+          "english": "At the fishmonger's counter.",
+          "phonetic": "stohm-bAHnggoh-too-psahrAH",
+          "french": "Στον πάγκο του ψαρά."
+        }
+      ]
+    },
+    {
+      "id": "heraklion_central_market_of_heraklion_005",
+      "intent_en": "Ask if raki barrels accept card payment",
+      "text_local": "Δέχονται κάρτα στα βαρέλια με ρακή;",
+      "pronunciation": "toh-rahEE-thEHkhehtEH-kAHrtah",
+      "formality": "standard",
+      "cultural_note": "Raki is typically sold in bulk from barrels; small vendors often accept cash only due to informal settings.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Μόνο μετρητά.",
+        "pronunciation": "mOHnoh-mEHtreetAH",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "mOHnoh-mEHtreetAH",
+          "french": "Μόνο μετρητά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

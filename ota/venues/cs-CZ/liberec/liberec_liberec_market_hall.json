@@ -1,0 +1,100 @@
+{
+  "id": "liberec_liberec_market_hall",
+  "name_en": "Liberec Market Hall",
+  "name_local": "Liberecká tržnice",
+  "icon": "cart",
+  "lat": 50.7702648,
+  "lon": 15.0583947,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "liberec_liberec_market_hall_001",
+      "intent_en": "Where is the flower market section?",
+      "text_local": "Kde je oddělení s květinami?",
+      "pronunciation": "kdEH-yeh-OHdehlEHnyee-s-kvyEHeenAHmee",
+      "formality": "standard",
+      "cultural_note": "Flower sections in Czech market halls are often near a side entrance for easy loading and fresh air.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Pravým vchodem a pak hned doprava.",
+        "pronunciation": "prAHveem-fkhOHdehm-ah-pAHk-hnEHd-dOHprahvah",
+        "translation_en": "Through the right entrance and then immediately right."
+      },
+      "responses": [
+        {
+          "english": "Through the right entrance and then immediately right.",
+          "phonetic": "prAHveem-fkhOHdehm-ah-pAHk-hnEHd-dOHprahvah",
+          "french": "Pravým vchodem a pak hned doprava."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_market_hall_002",
+      "intent_en": "Where are the local cheese vendors?",
+      "text_local": "Kde najdu prodejce místních sýrů?",
+      "pronunciation": "kdEH-nAHydoo-prOHdaytseh-mEEstnyeekh-sEEroo",
+      "formality": "standard",
+      "cultural_note": "Many Czech markets group specialty vendors together; cheese is often near other fresh goods.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V levé hale, vzadu u pekaře.",
+        "pronunciation": "v-lEHveh-hAHlehvzAHdoo-OO-pEHkahreh",
+        "translation_en": "In the left hall, at the back near the baker."
+      },
+      "responses": [
+        {
+          "english": "In the left hall, at the back near the baker.",
+          "phonetic": "v-lEHveh-hAHlehvzAHdoo-OO-pEHkahreh",
+          "french": "V levé hale, vzadu u pekaře."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_market_hall_003",
+      "intent_en": "Do I weigh produce before the stall?",
+      "text_local": "Mám si ovoce a zeleninu zvážit sám, než přijdu k pultu?",
+      "pronunciation": "mahm-see-OHvohtseh-ah-zEHlehnyEEnoo-zvAHzheet-sAHmnEHsh-prEEydoo-k-pOOltoo",
+      "formality": "standard",
+      "cultural_note": "At many Czech markets, customers use a communal scale first so the vendor can price items quickly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, váha je hned vedle stánku.",
+        "pronunciation": "AHnohvAHhah-yeh-hnEHd-vEHdleh-stAHngkoo",
+        "translation_en": "Yes, the scale is right next to the stall."
+      },
+      "responses": [
+        {
+          "english": "Yes, the scale is right next to the stall.",
+          "phonetic": "AHnohvAHhah-yeh-hnEHd-vEHdleh-stAHngkoo",
+          "french": "Ano, váha je hned vedle stánku."
+        }
+      ]
+    },
+    {
+      "id": "liberec_liberec_market_hall_004",
+      "intent_en": "Is this stall cash-only?",
+      "text_local": "Dá se u vás platit kartou?",
+      "pronunciation": "dAH-seh-OO-vAHs-plAHeet-kAHrtoh",
+      "formality": "standard",
+      "cultural_note": "Small market stalls in the Czech Republic often operate cash-only, while permanent shops accept cards.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jen hotovost.",
+        "pronunciation": "nEHyEHn-hOHtohvohst",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "nEHyEHn-hOHtohvohst",
+          "french": "Ne, jen hotovost."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

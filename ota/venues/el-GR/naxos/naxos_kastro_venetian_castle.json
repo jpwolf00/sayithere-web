@@ -1,0 +1,100 @@
+{
+  "id": "naxos_kastro_venetian_castle",
+  "name_en": "Kastro Venetian Castle",
+  "name_local": "Κάστρο Νάξου",
+  "icon": "building.columns",
+  "lat": 37.1056255,
+  "lon": 25.3771232,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "naxos_kastro_venetian_castle_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού πληρώνω στο εστιατόριο;",
+      "pronunciation": "pOO-pleerOHnoh-stoh-EHsteeahtOHreeOH-mEHsah-stoh-kAHstroh",
+      "formality": "standard",
+      "cultural_note": "Οι υπάλληλοι του εστιατορίου βρίσκονται στο χώρο εξυπηρέτησης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο ταμείο δίπλα στην έξοδο.",
+        "pronunciation": "stoh-tahmEEoh-thEEplah-steen-EHksohthOH",
+        "translation_en": "You pay at the cash desk or service counter of the restaurant."
+      },
+      "responses": [
+        {
+          "english": "You pay at the cash desk or service counter of the restaurant.",
+          "phonetic": "stoh-tahmEEoh-thEEplah-steen-EHksohthOH",
+          "french": "Στο ταμείο δίπλα στην έξοδο."
+        }
+      ]
+    },
+    {
+      "id": "naxos_kastro_venetian_castle_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι το κατάστημα με τα αναμνηστικά εδώ γύρω;",
+      "pronunciation": "pOO-EEneh-toh-kahtAHsteemAH-meh-t-AHnahmnEEsteekAH-stoos-pAHlehOOz-thrOHmoos",
+      "formality": "standard",
+      "cultural_note": "Οι μικροπωλητές βρίσκονται διάσπαρτοι στους παλαιούς δρόμους του Κάστρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μπροστά στην είσοδο του κάστρου, δεξιά.",
+        "pronunciation": "brohstAH-steen-EEsohthOH-too-kAHstroothEHkseeAH",
+        "translation_en": "There is a small shop near the entrance of the castle, across from a kafenion."
+      },
+      "responses": [
+        {
+          "english": "There is a small shop near the entrance of the castle, across from a kafenion.",
+          "phonetic": "brohstAH-steen-EEsohthOH-too-kAHstroothEHkseeAH",
+          "french": "Μπροστά στην είσοδο του κάστρου, δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "naxos_kastro_venetian_castle_003",
+      "intent_en": "Is Sanudo tower accessible without fee",
+      "text_local": "Η είσοδος στον Πύργο Σανούδου είναι δωρεάν;",
+      "pronunciation": "oh-pEErghohs-sahnOOthoo-EHkhee-thOHrehAHn-EEsohthOH",
+      "formality": "standard",
+      "cultural_note": "Δεν υπάρχει επίσημη πληροφορία για το τέλος εισόδου του πύργου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, με το εισιτήριο του κάστρου.",
+        "pronunciation": "nEHmeh-toh-EEseetEEreeOH-too-kAHstroo",
+        "translation_en": "Yes, it is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is free.",
+          "phonetic": "nEHmeh-toh-EEseetEEreeOH-too-kAHstroo",
+          "french": "Ναι, με το εισιτήριο του κάστρου."
+        }
+      ]
+    },
+    {
+      "id": "naxos_kastro_venetian_castle_004",
+      "intent_en": "Which path stays marked through residential areas",
+      "text_local": "Ποιο μονοπάτι παραμένει σημαδεμένο ανάμεσα στα σπίτια;",
+      "pronunciation": "pOO-EEneh-ee-sEEmahthehmEHnee-thEEahthrohmEE-stoos-kAHteeeemEHnooz-thrOHmoos",
+      "formality": "standard",
+      "cultural_note": "Οι σημασίες αποτελούν σημαντικό οδηγό στις κατοικημένες περιοχές του Κάστρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακολουθήστε τα μπλε βέλη.",
+        "pronunciation": "AHkohloothEEsteh-tah-blEH-vEHlee",
+        "translation_en": "Follow the blue arrows."
+      },
+      "responses": [
+        {
+          "english": "Follow the blue arrows.",
+          "phonetic": "AHkohloothEEsteh-tah-blEH-vEHlee",
+          "french": "Ακολουθήστε τα μπλε βέλη."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

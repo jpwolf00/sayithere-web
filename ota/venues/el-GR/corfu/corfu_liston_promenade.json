@@ -1,0 +1,100 @@
+{
+  "id": "corfu_liston_promenade",
+  "name_en": "Liston Promenade",
+  "name_local": "Λιστόν",
+  "icon": "leaf",
+  "lat": 39.6244576,
+  "lon": 19.9239583,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "corfu_liston_promenade_001",
+      "intent_en": "Do I pay before sitting at cafes?",
+      "text_local": "Πληρώνω πριν καθίσω στα καφενεία;",
+      "pronunciation": "pleerOHnoh-prEEng-gahthEEsoh-stah-kAHfehnEEah",
+      "formality": "standard",
+      "cultural_note": "Συνήθεια στον Λιστόν. Οι σέρβιροι περισυνέλεγαν αμέσως.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στον υπάλληλο.",
+        "pronunciation": "nEHstohn-eepAHleelOH",
+        "translation_en": "Yes, to the waiter."
+      },
+      "responses": [
+        {
+          "english": "Yes, to the waiter.",
+          "phonetic": "nEHstohn-eepAHleelOH",
+          "french": "Ναι, στον υπάλληλο."
+        }
+      ]
+    },
+    {
+      "id": "corfu_liston_promenade_002",
+      "intent_en": "Where is Maitland Monument from here?",
+      "text_local": "Πού είναι το Μνημείο Maitland;",
+      "pronunciation": "pOO-EEneh-toh-mneemEEoh-mEEehnAYtluhndehl-ahpOH-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Στην Πλατεία Σπιανάδα. Οι υπάλληλοι μπορούν να καθοδηγήσουν.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στην άκρη της Εσπλανάδας.",
+        "pronunciation": "EEneh-steen-AHkree-tees-EHsplahnAHthahs",
+        "translation_en": "It's at the edge of the Esplanade."
+      },
+      "responses": [
+        {
+          "english": "It's at the edge of the Esplanade.",
+          "phonetic": "EEneh-steen-AHkree-tees-EHsplahnAHthahs",
+          "french": "Είναι στην άκρη της Εσπλανάδας."
+        }
+      ]
+    },
+    {
+      "id": "corfu_liston_promenade_003",
+      "intent_en": "Is the Old Fortress view clear today?",
+      "text_local": "Φαίνεται καθαρά το Παλιό Φρούριο σήμερα;",
+      "pronunciation": "fEHnehtEH-sEEmehrAH-ee-thEHah-prOHs-toh-pahlyOH-frOOreeOH",
+      "formality": "standard",
+      "cultural_note": "Εξαρτάται από τις καιρικές συνθήκες. Οι υπάλληλοι μπορούν να αναφέρουν.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, η θέα είναι καθαρή.",
+        "pronunciation": "nEHee-thEHah-EEneh-kAHthahrEE",
+        "translation_en": "Yes, the view is clear."
+      },
+      "responses": [
+        {
+          "english": "Yes, the view is clear.",
+          "phonetic": "nEHee-thEHah-EEneh-kAHthahrEE",
+          "french": "Ναι, η θέα είναι καθαρή."
+        }
+      ]
+    },
+    {
+      "id": "corfu_liston_promenade_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού μπορώ να βρω λικέρ κουκουάτου;",
+      "pronunciation": "pOO-bohrOH-nah-vrOH-leeEHr-kOOkooAHtoo",
+      "formality": "polite",
+      "cultural_note": "Ο Pshilas πωλεί λικέρκουκουατού στον Λιστόν.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στα μαγαζιά του Λιστόν, κοντά στην αρχή της στοάς.",
+        "pronunciation": "stah-mAHghahzyAH-too-leestOHnkohdAH-steen-ahrkhEE-tees-stohAHs",
+        "translation_en": "At the shops on the Liston, near the start of the arcade."
+      },
+      "responses": [
+        {
+          "english": "At the shops on the Liston, near the start of the arcade.",
+          "phonetic": "stah-mAHghahzyAH-too-leestOHnkohdAH-steen-ahrkhEE-tees-stohAHs",
+          "french": "Στα μαγαζιά του Λιστόν, κοντά στην αρχή της στοάς."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

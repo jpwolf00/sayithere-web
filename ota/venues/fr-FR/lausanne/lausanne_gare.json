@@ -1,0 +1,115 @@
+{
+  "id": "lausanne_gare",
+  "name_en": "Lausanne Railway Station",
+  "name_local": "Gare de Lausanne",
+  "icon": "tram",
+  "phrases": [
+    {
+      "id": "lausanne_ga_001",
+      "intent_en": "Ask about the metro connection",
+      "text_local": "Comment aller au centre en métro ?",
+      "pronunciation": "koh-MON ah-LAY oh sontr on may-TROH",
+      "formality": "polite",
+      "cultural_note": "Metro M1 connects the station to Ouchy and the Flon. It's part of the m1 network — a unique rack railway system.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take the M2 toward Ouchy-Olympique. The center is two stops.",
+          "phonetic": "pruh-NAY luh em DUH dee-rek-SYON oo-SHEE oh-lam-PEEK. luh SAHN-truh eh ah duz ah-REH",
+          "french": "Prenez le M2 direction Ouchy-Olympique. Le centre est à deux arrêts."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ga_002",
+      "intent_en": "Ask about trains to Geneva Airport",
+      "text_local": "Comment aller à l'aéroport de Genève ?",
+      "pronunciation": "koh-MON ah-LAY ah lah-ay-roh-POR duh zheh-NEV",
+      "formality": "polite",
+      "cultural_note": "to Geneva Airport (Gare) take about 50 minutes. Trains run every 15 minutes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The train departs from around platform 5. Check the departure screen.",
+          "phonetic": "luh TRAHN par doo KAY SANK ahn-vee-ROHN. vay-ree-fee-AY lay-KRAHN day day-PAR",
+          "french": "Le train part du quai cinq environ. Vérifiez l'écran des départs."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ga_003",
+      "intent_en": "Ask about trains to Montreux",
+      "text_local": "Comment aller à Montreux ?",
+      "pronunciation": "koh-MON ah-LAY ah mon-TROO",
+      "formality": "polite",
+      "cultural_note": "The GoldenPass scenic train to Montreux and the Riviera (Vevey, Montreux) departs from Lausanne. The route is spectacular.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Regional train, twenty minutes. Check the platform on the screen.",
+          "phonetic": "trahn ray-zhoh-NAL, vant mee-NOOT. vay-ree-fee-AY luh KAY soor lay-KRAHN",
+          "french": "Train régional, vingt minutes. Vérifiez le quai sur l'écran."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ga_004",
+      "intent_en": "Ask about Swiss precision reputation",
+      "text_local": "Les trains sont-ils ponctuels ?",
+      "pronunciation": "lay tran son-teel ponk-TWEL",
+      "formality": "polite",
+      "cultural_note": "Swiss trains are world-famous for punctuality. Lausanne is a major hub — expect minimal delays and clean, efficient service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, delays are very rare here.",
+          "phonetic": "wee, lay ruh-TAR son treh RAR ee-SEE",
+          "french": "Oui, les retards sont très rares ici."
+        }
+      ]
+    },
+    {
+      "id": "lausanne_ga_005",
+      "intent_en": "Ask about luggage storage",
+      "text_local": "Y a-t-il une consigne à bagages ?",
+      "pronunciation": "ee-ah-TEEL un kon-SEEN ah bah-GAHZH",
+      "formality": "polite",
+      "cultural_note": "The station has luggage lockers (consignes automatiques). Use coins or a Swiss Half Fare Card for access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the lockers are near the platforms. Pay by card or coins.",
+          "phonetic": "wee, lay kon-SEEN-yuh son preh day KAY. pay-YAY par kart oo pyess",
+          "french": "Oui, les consignes sont près des quais. Payez par carte ou pièces."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "train station",
+      "word_local": "la gare",
+      "pronunciation": "lah gar"
+    },
+    {
+      "word_en": "metro / railway",
+      "word_local": "le métro",
+      "pronunciation": "luh may-TROH"
+    },
+    {
+      "word_en": "ticket",
+      "word_local": "le billet",
+      "pronunciation": "luh bee-YAY"
+    },
+    {
+      "word_en": "platform",
+      "word_local": "le quai",
+      "pronunciation": "luh kay"
+    }
+  ]
+}

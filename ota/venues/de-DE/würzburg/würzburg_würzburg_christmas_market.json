@@ -1,0 +1,122 @@
+{
+  "id": "würzburg_würzburg_christmas_market",
+  "name_en": "Würzburg Christmas Market",
+  "name_local": "Würzburger Weihnachtsmarkt",
+  "icon": "cart",
+  "lat": 49.7780356,
+  "lon": 9.9434769,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "würzburg_würzburg_christmas_market_001",
+      "intent_en": "Ask if Reibekuchen are still available",
+      "text_local": "Gibt es noch Reibekuchen?",
+      "pronunciation": "EEpt-ehs-nawkh-rEYEbehkUHkhuhn",
+      "formality": "standard",
+      "cultural_note": "Reibekuchen (potato pancakes) are a popular street food at German Christmas markets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Stand.",
+        "pronunciation": "yAHahm-shtAHnt",
+        "translation_en": "Yes, at the stall."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the stall.",
+          "phonetic": "yAHahm-shtAHnt",
+          "french": "Ja, am Stand."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_christmas_market_002",
+      "intent_en": "Ask if decorations stall accepts cash only",
+      "text_local": "Nimmt der Schmuckstand nur Bargeld?",
+      "pronunciation": "nIHmt-dehr-shmUHkstahnt-nOOr-bAHrehlt",
+      "formality": "standard",
+      "cultural_note": "German Christmas markets often emphasize cash transactions, especially for small vendors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Bargeld.",
+        "pronunciation": "nOOr-bAHrehlt",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHrehlt",
+          "french": "Nur Bargeld."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_christmas_market_003",
+      "intent_en": "Ask where the Falkenhaus market building is",
+      "text_local": "Wo finde ich das Falkenhaus?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dahs-fAHlkuhnhOWs",
+      "formality": "standard",
+      "cultural_note": "Falkenhaus is a historic building prominently located in the market area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Es ist direkt am Markt.",
+        "pronunciation": "ehsihst-deerEHkt-ahm-mAHrkt",
+        "translation_en": "It is directly at the market."
+      },
+      "responses": [
+        {
+          "english": "It is directly at the market.",
+          "phonetic": "ehsihst-deerEHkt-ahm-mAHrkt",
+          "french": "Es ist direkt am Markt."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_christmas_market_004",
+      "intent_en": "Ask where to buy festival souvenir mug",
+      "text_local": "Wo kann ich einen Marktbecher kaufen?",
+      "pronunciation": "vOH-kAHn-ihkh-EYEnuhn-mAHrktbehkh-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Souvenir mugs are typically sold at drink stalls or dedicated souvenir booths.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie am Glühweinstand nach.",
+        "pronunciation": "frAHuhn-zee-ahm-lUEveyenstAHnt-nAHkh",
+        "translation_en": "Ask at the Glühwein stand."
+      },
+      "responses": [
+        {
+          "english": "Ask at the Glühwein stand.",
+          "phonetic": "frAHuhn-zee-ahm-lUEveyenstAHnt-nAHkh",
+          "french": "Fragen Sie am Glühweinstand nach."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_würzburg_christmas_market_005",
+      "intent_en": "Ask where to return Glühwein mug for Pfand refund",
+      "text_local": "Wo gebe ich meinen Glühweinbecher zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-mEYEnuhn-lUEveyenbEHkh-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Pfand (deposit) is common for festival mugs; staff will explain the refund process.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Glühweinstand.",
+        "pronunciation": "ahm-lUEveyenstAHnt",
+        "translation_en": "At the Glühwein stand."
+      },
+      "responses": [
+        {
+          "english": "At the Glühwein stand.",
+          "phonetic": "ahm-lUEveyenstAHnt",
+          "french": "Am Glühweinstand."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

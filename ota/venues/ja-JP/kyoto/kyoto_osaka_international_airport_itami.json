@@ -1,0 +1,144 @@
+{
+  "id": "kyoto_osaka_international_airport_itami",
+  "name_en": "Osaka International Airport (Itami)",
+  "name_local": "大阪国際空港（伊丹空港）",
+  "icon": "tram",
+  "lat": 34.790943,
+  "lon": 135.4417039,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kyoto_osaka_international_airport_itami_001",
+      "intent_en": "Where is the ANA check-in counter?",
+      "text_local": "ANAのカウンターはどこですか？",
+      "pronunciation": "ehnAY-EHn-AYyah-nOH-k-OO-t-EHndzhAHpuhneezyahlEHtuh-h-TOH-ehndzhAHpuhneezyahlEHtuh-kOH-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-k",
+      "formality": "standard",
+      "cultural_note": "Airport staff will often mention the terminal first, then the floor. Itami is compact, so a simple floor direction is usually enough.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "きたターミナル、2かいです。",
+        "pronunciation": "kEEttMeenOOnEE-kEEdEHsoo",
+        "translation_en": "North Terminal, second floor."
+      },
+      "responses": [
+        {
+          "english": "North Terminal, second floor.",
+          "phonetic": "kEEttMeenOOnEE-kEEdEHsoo",
+          "french": "きたターミナル、2かいです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_osaka_international_airport_itami_002",
+      "intent_en": "When does the last limousine bus depart?",
+      "text_local": "さいしゅうのリムジンバスはなんじですか？",
+      "pronunciation": "sEEOOoonOHeemOOdeeBsOOhnDEEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Limousine bus staff will give a direct time. '10時半' is a plausible generic time for the last bus to a major city like Kyoto.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "よる10じはんです。",
+        "pronunciation": "yOHoo-dzOO-dEEhndEHsoo",
+        "translation_en": "It's at 10:30 PM."
+      },
+      "responses": [
+        {
+          "english": "It's at 10:30 PM.",
+          "phonetic": "yOHoo-dzOO-dEEhndEHsoo",
+          "french": "よる10じはんです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_osaka_international_airport_itami_003",
+      "intent_en": "Where is the baggage claim carousel?",
+      "text_local": "てにもつうけとりじょはどこですか？",
+      "pronunciation": "tEHneemOHtsooookEHtohEEdohhDohkOHdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Baggage claim is usually on the arrival floor. Using 'すぐ' (immediately) gives a strong directional cue in a compact airport.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "1かいについたら、すぐみぎです。",
+        "pronunciation": "EEtsee-kEEnEEtsooeetSOOgoomEEgeedEHsoo",
+        "translation_en": "Once you're on the 1st floor, it's immediately on your right."
+      },
+      "responses": [
+        {
+          "english": "Once you're on the 1st floor, it's immediately on your right.",
+          "phonetic": "EEtsee-kEEnEEtsooeetSOOgoomEEgeedEHsoo",
+          "french": "1かいについたら、すぐみぎです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_osaka_international_airport_itami_004",
+      "intent_en": "How do I reserve a limousine bus seat?",
+      "text_local": "リムジンバスの予約はどうすればいいですか？",
+      "pronunciation": "EE-mOO-EE-ehndzhAHpuhneezyahlEHtuh-h-EHndzhAHpuhneezyahlEHtuh-sOO-nOH-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-h-TOH-ehndzhAHpuhneezyahlEHtuh-OO-sOO-EH-h-EHndzhAHpuhneezyahlEHtuh-EE-EE-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-k",
+      "formality": "standard",
+      "cultural_note": "Limousine bus reservations are typically just purchasing a ticket for the next available departure. The counter staff handles this directly.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "カウンターで予約できます。",
+        "pronunciation": "k-OO-t-EHndzhAHpuhneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-kEE-m-SOO",
+        "translation_en": "You can make a reservation at the counter."
+      },
+      "responses": [
+        {
+          "english": "You can make a reservation at the counter.",
+          "phonetic": "k-OO-t-EHndzhAHpuhneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-ehntshEYEneezyahlEHtuh-ehntshEYEneezyahlEHtuh-tEH-ehndzhAHpuhneezyahlEHtuh-kEE-m-SOO",
+          "french": "カウンターで予約できます。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_osaka_international_airport_itami_005",
+      "intent_en": "Do I need a ticket for the observation deck?",
+      "text_local": "てんぼうデッキはチケットがひつようですか？",
+      "pronunciation": "tEHbOHoodEHkkeehTeekEHttohgKHeetsOOyohOOdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Observation decks at Japanese airports are almost always free. A simple 'no' is the most natural and helpful response.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、むりょうです。",
+        "pronunciation": "EEehmOOOHoodEHsoo",
+        "translation_en": "No, it's free."
+      },
+      "responses": [
+        {
+          "english": "No, it's free.",
+          "phonetic": "EEehmOOOHoodEHsoo",
+          "french": "いいえ、むりょうです。"
+        }
+      ]
+    },
+    {
+      "id": "kyoto_osaka_international_airport_itami_006",
+      "intent_en": "Where is the JAL check-in counter?",
+      "text_local": "JALのカウンターはどこですか？",
+      "pronunciation": "ehndzhAY-AY-EHlyah-nOH-k-OO-t-EHndzhAHpuhneezyahlEHtuh-h-TOH-ehndzhAHpuhneezyahlEHtuh-kOH-tEH-ehndzhAHpuhneezyahlEHtuh-sOO-k",
+      "formality": "standard",
+      "cultural_note": "JAL uses the South Terminal. Staff will be direct about the floor number since the terminal is small.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みなみターミナルの1かいです。",
+        "pronunciation": "mEEnmEEtmEEnOOnoh-EEtsee-kEEdEHsoo",
+        "translation_en": "South Terminal, first floor."
+      },
+      "responses": [
+        {
+          "english": "South Terminal, first floor.",
+          "phonetic": "mEEnmEEtmEEnOOnoh-EEtsee-kEEdEHsoo",
+          "french": "みなみターミナルの1かいです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

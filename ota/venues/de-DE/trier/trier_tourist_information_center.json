@@ -1,0 +1,100 @@
+{
+  "id": "trier_tourist_information_center",
+  "name_en": "Tourist Information Center",
+  "name_local": "Tourist-Information Trier",
+  "icon": "info.circle",
+  "lat": 49.759659,
+  "lon": 6.6441651,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "trier_tourist_information_center_001",
+      "intent_en": "Where are the UNESCO World Heritage maps?",
+      "text_local": "Wo sind die UNESCO-Welterbe-Karten?",
+      "pronunciation": "vOH-zihnt-dee-UHnEHskohvEHltbuhkAHrtuhn",
+      "formality": "standard",
+      "cultural_note": "In Deutschland sind Schilder und Wegweiser standardisiert. Die Antwort nutzt das sichere Muster für Zielvorgaben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Neben dem Eingang.",
+        "pronunciation": "nEHbuhn-dehm-EYEngAHng",
+        "translation_en": "Next to the entrance."
+      },
+      "responses": [
+        {
+          "english": "Next to the entrance.",
+          "phonetic": "nEHbuhn-dehm-EYEngAHng",
+          "french": "Neben dem Eingang."
+        }
+      ]
+    },
+    {
+      "id": "trier_tourist_information_center_002",
+      "intent_en": "Is the city walking tour available this afternoon?",
+      "text_local": "Gibt es die Stadtführung heute Nachmittag?",
+      "pronunciation": "EEpt-ehs-dee-shtAHtfuerUHng-hAWuhtuh-nAHkhmihtAHk",
+      "formality": "standard",
+      "cultural_note": "In Deutschland werden Tourangebote oft zeitnah bestätigt. Präzise Antwort ohne Umschweife.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute Nachmittag.",
+        "pronunciation": "yAHhAWuhtuh-nAHkhmihtAHk",
+        "translation_en": "Yes, this afternoon."
+      },
+      "responses": [
+        {
+          "english": "Yes, this afternoon.",
+          "phonetic": "yAHhAWuhtuh-nAHkhmihtAHk",
+          "french": "Ja, heute Nachmittag."
+        }
+      ]
+    },
+    {
+      "id": "trier_tourist_information_center_003",
+      "intent_en": "Where do I buy the Trier Card at counter?",
+      "text_local": "Wo kaufe ich die Trier Card?",
+      "pronunciation": "vOH-kOWfuh-ihkh-dee-trEEr-kAHrt",
+      "formality": "standard",
+      "cultural_note": "In Deutschland wird 'Schalter' für Verkaufs- und Servicepunkte verwendet. Direkte Antwort ohne Gesprächsfloskeln.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "trier_tourist_information_center_004",
+      "intent_en": "Do I need a number when it's busy?",
+      "text_local": "Brauche ich eine Nummer?",
+      "pronunciation": "brOWkhuh-ihkh-EYEnuh-nUHm",
+      "formality": "standard",
+      "cultural_note": "In deutschen Behörden oder Serviceeinrichtungen wird bei Überlastung oft ein Nummerngsystem genutzt. Klare, kurze Antwort.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nehmen Sie eine Nummer.",
+        "pronunciation": "yAHnEHmuhn-zee-EYEnuh-nUHm",
+        "translation_en": "Yes, take a number."
+      },
+      "responses": [
+        {
+          "english": "Yes, take a number.",
+          "phonetic": "yAHnEHmuhn-zee-EYEnuh-nUHm",
+          "french": "Ja, nehmen Sie eine Nummer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

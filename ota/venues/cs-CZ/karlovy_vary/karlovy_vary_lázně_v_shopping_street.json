@@ -1,0 +1,56 @@
+{
+  "id": "karlovy_vary_lázně_v_shopping_street",
+  "name_en": "Lázně V Shopping Street",
+  "name_local": "Třída T. G. Masaryka",
+  "icon": "bag",
+  "lat": 50.2302,
+  "lon": 12.8726,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "karlovy_vary_lázně_v_shopping_street_001",
+      "intent_en": "Where is the nearest colonnade entrance?",
+      "text_local": "Kudy se dostanu na kolonádu?",
+      "pronunciation": "kOOdee-seh-dOHstahnoo-nah-kOHlohnAHdoo",
+      "formality": "standard",
+      "cultural_note": "Karlovy Vary's colonnades are often accessed through shopping arcades; directions use landmarks like 'podloubí' (arcade).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rovně a první vlevo pod podloubím.",
+        "pronunciation": "rOHvnyeh-ah-pRvnyee-vlEHvoh-pOHtpohdlOHbeem",
+        "translation_en": "Straight and first left under the arcade."
+      },
+      "responses": [
+        {
+          "english": "Straight and first left under the arcade.",
+          "phonetic": "rOHvnyeh-ah-pRvnyee-vlEHvoh-pOHtpohdlOHbeem",
+          "french": "Rovně a první vlevo pod podloubím."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_lázně_v_shopping_street_002",
+      "intent_en": "Do cafes charge for terrace seating?",
+      "text_local": "Platí se za posezení na terase?",
+      "pronunciation": "plAHee-seh-zah-pOHsehzEHnyee-nAHtehrAHseh",
+      "formality": "standard",
+      "cultural_note": "A small terrace surcharge is common in Czech spa towns, often a flat fee per person.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, deset korun k účtu.",
+        "pronunciation": "AHnohdEHseht-kOHroon-k-OOtshtoo",
+        "translation_en": "Yes, ten crowns added to the bill."
+      },
+      "responses": [
+        {
+          "english": "Yes, ten crowns added to the bill.",
+          "phonetic": "AHnohdEHseht-kOHroon-k-OOtshtoo",
+          "french": "Ano, deset korun k účtu."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

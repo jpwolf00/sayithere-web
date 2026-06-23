@@ -1,0 +1,122 @@
+{
+  "id": "groningen_groningen_central_station",
+  "name_en": "Groningen Central Station",
+  "name_local": "Station Groningen",
+  "icon": "tram",
+  "lat": 53.2127,
+  "lon": 5.6731,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "groningen_groningen_central_station_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Hoe laad ik mijn OV-chipkaart op?",
+      "pronunciation": "hOO-lAHt-ihk-mehihn-OHfEHtshIHpkahrt-AWp",
+      "formality": "standard",
+      "cultural_note": "Oplaadautomaten staan verspreid door het station; je kunt ook contactloos opwaarderen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de oplaadautomaten in de stationshal.",
+        "pronunciation": "behih-duh-AWplAHduhuhtohmAHtuhn-ihn-duh-stAHshawnshAHl",
+        "translation_en": "At the top-up machines in the station hall."
+      },
+      "responses": [
+        {
+          "english": "At the top-up machines in the station hall.",
+          "phonetic": "behih-duh-AWplAHduhuhtohmAHtuhn-ihn-duh-stAHshawnshAHl",
+          "french": "Bij de oplaadautomaten in de stationshal."
+        }
+      ]
+    },
+    {
+      "id": "groningen_groningen_central_station_002",
+      "intent_en": "Where is the main entrance",
+      "text_local": "Waar is de hoofdingang?",
+      "pronunciation": "vAHr-ihs-duh-hOHvdingAHng",
+      "formality": "standard",
+      "cultural_note": "The main entrance is commonly marked and accessible from the station square, Stationsplein.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij Stationsplein.",
+        "pronunciation": "behih-stAHshawnsplEHihn",
+        "translation_en": "At Stationsplein."
+      },
+      "responses": [
+        {
+          "english": "At Stationsplein.",
+          "phonetic": "behih-stAHshawnsplEHihn",
+          "french": "Bij Stationsplein."
+        }
+      ]
+    },
+    {
+      "id": "groningen_groningen_central_station_003",
+      "intent_en": "Where is the OV-fiets desk",
+      "text_local": "Waar is de OV-fietsbalie?",
+      "pronunciation": "vAHr-ihs-duh-OHfEHfEEtzbahlEE",
+      "formality": "standard",
+      "cultural_note": "OV-fiets is a common bike-sharing service in Dutch train stations, typically located near the main entrance for easy access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de hoofdingang.",
+        "pronunciation": "behih-duh-hOHvdingAHng",
+        "translation_en": "At the main entrance."
+      },
+      "responses": [
+        {
+          "english": "At the main entrance.",
+          "phonetic": "behih-duh-hOHvdingAHng",
+          "french": "Bij de hoofdingang."
+        }
+      ]
+    },
+    {
+      "id": "groningen_groningen_central_station_004",
+      "intent_en": "Can I rent a locker",
+      "text_local": "Mag ik een locker huren?",
+      "pronunciation": "mahkh-ihk-uhn-lAWkuhr-hUEruhn",
+      "formality": "polite",
+      "cultural_note": "Locker rental is a common service at Dutch train stations, often available via automated machines.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de kluisautomaten.",
+        "pronunciation": "yAHbehih-duh-klUHuezuhuhtohmAHtuhn",
+        "translation_en": "Yes, at the lockers."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the lockers.",
+          "phonetic": "yAHbehih-duh-klUHuezuhuhtohmAHtuhn",
+          "french": "Ja, bij de kluisautomaten."
+        }
+      ]
+    },
+    {
+      "id": "groningen_groningen_central_station_005",
+      "intent_en": "Which platform for Leeuwarden train",
+      "text_local": "Welk spoor voor de trein naar Leeuwarden?",
+      "pronunciation": "vEHlk-spOHr-vawr-duh-trEHihn-nahr-lEHuhahrduhn",
+      "formality": "standard",
+      "cultural_note": "Departure boards typically show platform numbers for regional trains like those to Leeuwarden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Spoor 2, vertrek staat op de borden bij de hoofdingang.",
+        "pronunciation": "spOHr-tvEHvuhrtrEHk-stAHt-awp-duh-bAWrduhn-behih-duh-hOHvdingAHng",
+        "translation_en": "Platform 2, departure is shown on the boards at the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Platform 2, departure is shown on the boards at the main entrance.",
+          "phonetic": "spOHr-tvEHvuhrtrEHk-stAHt-awp-duh-bAWrduhn-behih-duh-hOHvdingAHng",
+          "french": "Spoor 2, vertrek staat op de borden bij de hoofdingang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

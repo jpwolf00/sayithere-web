@@ -1,0 +1,210 @@
+{
+  "id": "meteora_kalabaka_ktel_trikala_bus_station",
+  "name_en": "KTEL Trikala Bus Station",
+  "name_local": "ΚΤΕΛ Τρικάλων",
+  "icon": "tram",
+  "lat": 39.7055319,
+  "lon": 21.6231064,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_001",
+      "intent_en": "Can I buy a return ticket now?",
+      "text_local": "Μπορώ να αγοράσω εισιτήριο επιστροφής τώρα;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-EEseetEEreeOH-EHpeestrohfEEs-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Return tickets are typically sold at the same ticket counter (Εισπράκτορας) as single tickets, without requiring advanced booking.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στον εισπράκτορα.",
+        "pronunciation": "nEHstohn-eesprAHktohrAH",
+        "translation_en": "Yes, at the ticket seller."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket seller.",
+          "phonetic": "nEHstohn-eesprAHktohrAH",
+          "french": "Ναι, στον εισπράκτορα."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_002",
+      "intent_en": "Where is the platform for Meteora buses",
+      "text_local": "Πού είναι η αποβάθρα για Μετέωρα;",
+      "pronunciation": "pOO-EEneh-ee-AHpohvAHthrah-tohn-lEHohfohrEEohn-yAH-mehtEHohrAH",
+      "formality": "standard",
+      "cultural_note": "Οι αποβάθρες συχνά υποδεικνύονται με μεγάλες πινακίδες πάνω από τις πύλες εξόδου προς τους προορισμούς.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά το εκδοτήριο εισιτηρίων.",
+        "pronunciation": "AHreestehrAH-mehtAH-toh-EHkthohtEEreeOH-EEseeteerEEohn",
+        "translation_en": "Follow the signs to Meteora."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to Meteora.",
+          "phonetic": "AHreestehrAH-mehtAH-toh-EHkthohtEEreeOH-EEseeteerEEohn",
+          "french": "Αριστερά μετά το εκδοτήριο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_003",
+      "intent_en": "Which platform is the Kalabaka bus?",
+      "text_local": "Πού είναι η αποβάθρα για Καλάμπακα;",
+      "pronunciation": "pOO-EEneh-ee-AHpohvAHthrah-yAH-kahlAHbahkAH",
+      "formality": "standard",
+      "cultural_note": "In Greek bus stations, platforms for specific destinations are typically indicated by signage with the city/region name rather than platform numbers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Η αποβάθρα 3.",
+        "pronunciation": "ee-AHpohvAHthrah-trEEah",
+        "translation_en": "Platform 3."
+      },
+      "responses": [
+        {
+          "english": "Platform 3.",
+          "phonetic": "ee-AHpohvAHthrah-trEEah",
+          "french": "Η αποβάθρα 3."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_004",
+      "intent_en": "When does the next Athens bus depart",
+      "text_local": "Πότε φεύγει το επόμενο λεωφορείο για Αθήνα;",
+      "pronunciation": "pOHteh-AHnahkhohrEE-toh-ehpOHmehnOH-lEHohfohrEEoh-yAH-ahthEEnah",
+      "formality": "standard",
+      "cultural_note": "Η ερώτηση αυτή αναφέρεται στους δρομολόγια της γραμμής Αθήνας, τα οποία συνήθως αναγράφονται στον πίνακα ανακοινώσεων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις 10 το πρωί.",
+        "pronunciation": "stees-thEHkah-toh-prohEE",
+        "translation_en": "At 10 in the morning."
+      },
+      "responses": [
+        {
+          "english": "At 10 in the morning.",
+          "phonetic": "stees-thEHkah-toh-prohEE",
+          "french": "Στις 10 το πρωί."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Υπάρχει χώρος αποθήκευσης αποσκευών;",
+      "pronunciation": "eepAHrkhee-khOHrohs-AHpohthEEehfsEEs-AHpohsehvOHn",
+      "formality": "standard",
+      "cultural_note": "Luggage storage facilities in Greek bus stations are not standard and are typically managed by staff discretion rather than a dedicated service area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο εκδοτήριο εισιτηρίων.",
+        "pronunciation": "nEHstoh-EHkthohtEEreeOH-EEseeteerEEohn",
+        "translation_en": "Yes, there is usually luggage storage at the station; ask at the ticket office."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is usually luggage storage at the station; ask at the ticket office.",
+          "phonetic": "nEHstoh-EHkthohtEEreeOH-EEseeteerEEohn",
+          "french": "Ναι, στο εκδοτήριο εισιτηρίων."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_006",
+      "intent_en": "Where can I store my luggage",
+      "text_local": "Πού μπορώ να αφήσω τις αποσκευές μου;",
+      "pronunciation": "pOO-bohrOH-n-ahfEEsoh-tees-AHpohsehvEHz-moo",
+      "formality": "polite",
+      "cultural_note": "Συνήθως υπάρχει ειδικός χώρος κοντά στους φορτοεκφορτωτές για προσωρινή φύλαξη αποσκευών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αφήστε τις στον φορτοεκφορτωτή.",
+        "pronunciation": "ahfEEsteh-tees-stohn-fOHrtohEHkfohrtohtEE",
+        "translation_en": "Leave them with the loader."
+      },
+      "responses": [
+        {
+          "english": "Leave them with the loader.",
+          "phonetic": "ahfEEsteh-tees-stohn-fOHrtohEHkfohrtohtEE",
+          "french": "Αφήστε τις στον φορτοεκφορτωτή."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_007",
+      "intent_en": "What time is the next Meteora bus?",
+      "text_local": "Τι ώρα φεύγει το επόμενο λεωφορείο για Μετέωρα;",
+      "pronunciation": "tEE-OHrah-fEHvyee-toh-ehpOHmehnOH-lEHohfohrEEoh-yAH-mehtEHohrAH",
+      "formality": "standard",
+      "cultural_note": "Departure times for specific routes are typically managed by the dispatcher (Γραμματέας) rather than being prominently displayed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις 11:30 το πρωί.",
+        "pronunciation": "stees-EHnthehkAH-treeAHndah-toh-prohEE",
+        "translation_en": "At 11:30 in the morning."
+      },
+      "responses": [
+        {
+          "english": "At 11:30 in the morning.",
+          "phonetic": "stees-EHnthehkAH-treeAHndah-toh-prohEE",
+          "french": "Στις 11:30 το πρωί."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_008",
+      "intent_en": "Are there seats left on the Larissa bus",
+      "text_local": "Υπάρχουν ακόμη θέσεις στο λεωφορείο για Λάρισα;",
+      "pronunciation": "eepAHrkhoon-ahkOHmee-thEHsees-stoh-lEHohfohrEEoh-yAH-lAHreesAH",
+      "formality": "standard",
+      "cultural_note": "Η διαθεσιμότητα θέσεων ανακοινώνεται συνήθως από τον υπάλληλο στο γραφείο εισιτηρίων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχουν αρκετές.",
+        "pronunciation": "nEHeepAHrkhoon-AHrehtEHs",
+        "translation_en": "Yes, there are plenty."
+      },
+      "responses": [
+        {
+          "english": "Yes, there are plenty.",
+          "phonetic": "nEHeepAHrkhoon-AHrehtEHs",
+          "french": "Ναι, υπάρχουν αρκετές."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_ktel_trikala_bus_station_009",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς επικυρώνω το εισιτήριο μου;",
+      "pronunciation": "pOHs-EHpeeeerOHnoh-teen-EEseetEEreeOH-moo",
+      "formality": "standard",
+      "cultural_note": "Η επικύρωση γίνεται συνήθως από τον οδηγό κατά την επιβίβαση.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον έλεγχο πριν την αποβάθρα.",
+        "pronunciation": "stohn-EHlehngkhOH-prEEn-deen-AHpohvAHthrah",
+        "translation_en": "Give the ticket to the driver when you board."
+      },
+      "responses": [
+        {
+          "english": "Give the ticket to the driver when you board.",
+          "phonetic": "stohn-EHlehngkhOH-prEEn-deen-AHpohvAHthrah",
+          "french": "Στον έλεγχο πριν την αποβάθρα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

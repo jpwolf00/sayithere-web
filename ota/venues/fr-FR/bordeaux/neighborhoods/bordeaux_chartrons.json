@@ -1,0 +1,100 @@
+{
+  "id": "bordeaux_neighbourhood_chartrons",
+  "name_en": "Chartrons Quarter",
+  "name_local": "Quartier des Chartrons",
+  "icon": "building.2",
+  "lat": 44.8527,
+  "lon": -0.5703,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "bordeaux_chartrons_nbhd_001",
+      "intent_en": "Ask a wine shop if they offer cellar tours",
+      "text_local": "Proposez-vous des visites de cave ?",
+      "pronunciation": "proh-poh-ZAY-voo day vee-ZEET duh KAV",
+      "formality": "polite",
+      "cultural_note": "The Chartrons was the historic trading district of foreign wine merchants; several châis (wine warehouses) survive and some offer visits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "bordeaux_chartrons_nbhd_002",
+      "intent_en": "Ask where the vintage market takes place on weekends",
+      "text_local": "Où se déroule le marché vintage le week-end dans ce quartier ?",
+      "pronunciation": "oo suh day-ROOL luh mar-SHAY vin-TAZH luh WEE-kend dahn suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "The Chartrons hosts a well-known vintage and brocante market on weekends along the quays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "bordeaux_chartrons_nbhd_003",
+      "intent_en": "Ask if the café serves local canelés",
+      "text_local": "Est-ce que vous servez des canelés bordelais ?",
+      "pronunciation": "es-kuh voo sair-VAY day kah-nuh-LAY bor-duh-LAY",
+      "formality": "polite",
+      "cultural_note": "Canelés are Bordeaux's iconic caramelised rum-and-vanilla pastries; every good café and bakery in the city should have them.",
+      "responses": [
+        {
+          "english": "Yes, of course, we have canelés.",
+          "phonetic": "bawn-ZHOOR, voo SERV duh KAHN-lay bor-duh-LAY",
+          "french": "Oui, bien sûr, nous avons des canelés."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_chartrons_nbhd_004",
+      "intent_en": "Ask a gallery owner about the artwork on display",
+      "text_local": "Pourriez-vous me parler de l'œuvre exposée ici ?",
+      "pronunciation": "poo-RYAY-voo muh par-LAY duh LUH-vruh ex-poh-ZAY ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Chartrons has evolved into a hub for contemporary art galleries alongside its antique dealers.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "bordeaux_chartrons_nbhd_005",
+      "intent_en": "Ask where the nearest tram stop is",
+      "text_local": "Où se trouve l'arrêt de tram le plus proche, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV lah-RAY duh TRAM luh plyoo PROSH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Tram line B runs through the Chartrons along the Garonne quays, making it easy to reach the city centre.",
+      "responses": [
+        {
+          "english": "Hello, the nearest tram stop is on the quays, line B.",
+          "phonetic": "OO suh TROOV la-RAY duh TRAHM luh PLEW PLEWS PROSH",
+          "french": "Bonjour, l'arrêt de tram le plus proche est sur les quais, ligne B."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "wine cellar / warehouse",
+      "word_local": "la cave / le chai",
+      "pronunciation": "lah KAV / luh SHAY"
+    },
+    {
+      "word_en": "canelé (Bordeaux pastry)",
+      "word_local": "le canelé",
+      "pronunciation": "luh kah-nuh-LAY"
+    },
+    {
+      "word_en": "vintage / second-hand market",
+      "word_local": "le marché vintage / la brocante",
+      "pronunciation": "luh mar-SHAY vin-TAZH / lah broh-KAHNT"
+    },
+    {
+      "word_en": "artwork",
+      "word_local": "l'œuvre",
+      "pronunciation": "LUH-vruh"
+    }
+  ]
+}

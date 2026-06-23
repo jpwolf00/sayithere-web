@@ -1,0 +1,100 @@
+{
+  "id": "bern_zytglogge",
+  "name_en": "Zytglogge",
+  "name_local": "Zytglogge",
+  "icon": "building.columns",
+  "lat": 46.9479474,
+  "lon": 7.4477951,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "bern_zytglogge_001",
+      "intent_en": "When should I arrive before clock show",
+      "text_local": "Wann muss ich vor der Uhrshow ankommen?",
+      "pronunciation": "vAHn-mUHs-ihkh-fAWr-dehr-OOrshohf-AHnkAWmuhn",
+      "formality": "casual",
+      "cultural_note": "Die Show startet zur vollen Stunde, Platz früh sichern.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "10 Minuten vorher.",
+        "pronunciation": "tsEHn-meenOOtuhn-fohrhEHr",
+        "translation_en": "10 minutes early."
+      },
+      "responses": [
+        {
+          "english": "10 minutes early.",
+          "phonetic": "tsEHn-meenOOtuhn-fohrhEHr",
+          "french": "10 Minuten vorher."
+        }
+      ]
+    },
+    {
+      "id": "bern_zytglogge_002",
+      "intent_en": "Where to stand for complete clock face view",
+      "text_local": "Wo sehe ich die ganze Uhr am besten?",
+      "pronunciation": "vOH-zEHuh-ihkh-dee-AHntsuh-OOr-ahm-bEHstuhn",
+      "formality": "standard",
+      "cultural_note": "Mehr Platz für Fotos von unten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor der Plattform am Zytglogge.",
+        "pronunciation": "fAWr-dehr-plAHtfawrm-ahm-tsUEtlawuh",
+        "translation_en": "In front of the platform at Zytglogge."
+      },
+      "responses": [
+        {
+          "english": "In front of the platform at Zytglogge.",
+          "phonetic": "fAWr-dehr-plAHtfawrm-ahm-tsUEtlawuh",
+          "french": "Vor der Plattform am Zytglogge."
+        }
+      ]
+    },
+    {
+      "id": "bern_zytglogge_003",
+      "intent_en": "Where to queue for tower tour tickets",
+      "text_local": "Wo gibt es Tickets für die Zytglogge-Turmführung?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fuer-dee-tsUEtlawuhtUHuhmfuerUHng",
+      "formality": "standard",
+      "cultural_note": "Direkt am Turm oder im Tourismusbüro der Stadt Bern möglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter vor Ort.",
+        "pronunciation": "ahm-shAHlt-fAWr-AWrt",
+        "translation_en": "At the counter on-site."
+      },
+      "responses": [
+        {
+          "english": "At the counter on-site.",
+          "phonetic": "ahm-shAHlt-fAWr-AWrt",
+          "french": "Am Schalter vor Ort."
+        }
+      ]
+    },
+    {
+      "id": "bern_zytglogge_004",
+      "intent_en": "Does seasonal schedule affect tower interior access",
+      "text_local": "Gibt es im Winter weniger Zugang?",
+      "pronunciation": "EEpt-ehs-ihm-vIHnt-vEHnih-tsOOahng",
+      "formality": "standard",
+      "cultural_note": "Im Sommer meist täglich, im Winter nach Wetter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Winter eingeschränkt.",
+        "pronunciation": "yAHihm-vIHnt-EYEnuhshrEHngkt",
+        "translation_en": "Yes, limited in winter."
+      },
+      "responses": [
+        {
+          "english": "Yes, limited in winter.",
+          "phonetic": "yAHihm-vIHnt-EYEnuhshrEHngkt",
+          "french": "Ja, im Winter eingeschränkt."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

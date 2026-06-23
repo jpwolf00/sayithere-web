@@ -1,0 +1,100 @@
+{
+  "id": "vienna_st_stephens_cathedral",
+  "name_en": "St. Stephen's Cathedral",
+  "name_local": "Stephansdom",
+  "icon": "building.columns",
+  "lat": 48.2084923,
+  "lon": 16.3731269,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "vienna_st_stephens_cathedral_001",
+      "intent_en": "Where is the Pummerin bell?",
+      "text_local": "Wo hängt die Pummerin-Glocke?",
+      "pronunciation": "vOH-hEHngt-dee-pUHmuhrIHnlAWkuh",
+      "formality": "standard",
+      "cultural_note": "Die Pummerin ist eine der bekanntesten Glocken Wiens und hängt im Nordturm des Stephansdoms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Nordturm.",
+        "pronunciation": "ihm-nAWrtuhuhm",
+        "translation_en": "In the North Tower."
+      },
+      "responses": [
+        {
+          "english": "In the North Tower.",
+          "phonetic": "ihm-nAWrtuhuhm",
+          "french": "Im Nordturm."
+        }
+      ]
+    },
+    {
+      "id": "vienna_st_stephens_cathedral_002",
+      "intent_en": "Where do I get an audio guide?",
+      "text_local": "Wo bekomme ich einen Audioguide?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-EYEnuhn-ehnAWdihUHuheyeddeh",
+      "formality": "casual",
+      "cultural_note": "Audioguides werden typischerweise am Hauptschalter oder Ticketverkauf angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Kassenbereich.",
+        "pronunciation": "ihm-kAHsuhnbuhrEYEkh",
+        "translation_en": "At the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "At the ticket counter.",
+          "phonetic": "ihm-kAHsuhnbuhrEYEkh",
+          "french": "Im Kassenbereich."
+        }
+      ]
+    },
+    {
+      "id": "vienna_st_stephens_cathedral_003",
+      "intent_en": "Can I enter the crypt without a tour?",
+      "text_local": "Darf ich die Krypta allein besichtigen?",
+      "pronunciation": "dAHrf-ihkh-dee-krUEptah-ahlEYEn-buhzIHkhtihuhn",
+      "formality": "standard",
+      "cultural_note": "Die Krypta kann unabhängig von Führungen besichtigt werden, sofern sie geöffnet ist.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ohne Führung.",
+        "pronunciation": "yAHOHnuh-fUEruhng",
+        "translation_en": "Yes, without a tour."
+      },
+      "responses": [
+        {
+          "english": "Yes, without a tour.",
+          "phonetic": "yAHOHnuh-fUEruhng",
+          "french": "Ja, ohne Führung."
+        }
+      ]
+    },
+    {
+      "id": "vienna_st_stephens_cathedral_004",
+      "intent_en": "Where do I buy tower admission tickets?",
+      "text_local": "Wo gibt es Tickets für den Südturm?",
+      "pronunciation": "vOH-EEpt-ehs-tIHkuhts-fuer-dehn-zUEtuhuhm",
+      "formality": "standard",
+      "cultural_note": "Tickets für Türme werden typischerweise an einem zentralen Schalter verkauft, nicht direkt am Turm.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "rouen_panorama_xxl",
+  "name_en": "Panorama XXL",
+  "name_local": "Panorama XXL",
+  "icon": "building.columns",
+  "lat": 49.4436,
+  "lon": 1.104,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "rouen_pxxl_001",
+      "intent_en": "Ask what time the next showing starts",
+      "text_local": "À quelle heure commence la prochaine séance ?",
+      "pronunciation": "ah kel UR koh-MAHNSS lah proh-SHEN say-AHNSS",
+      "formality": "polite",
+      "cultural_note": "Panorama XXL is an immersive panoramic experience.",
+      "responses": [
+        {
+          "english": "The next showing is in twenty minutes.",
+          "phonetic": "lah proh-SHEN say-AHNSS eh dahn VAHN mee-NOOT",
+          "french": "La prochaine séance est dans vingt minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_pxxl_002",
+      "intent_en": "Buy tickets in advance online",
+      "text_local": "Est-ce qu'on peut réserver des billets en ligne à l'avance ?",
+      "pronunciation": "ess kohn PUH ray-zair-VAY day bee-YAY ahn LEEN-yuh ah lah-VAHNS",
+      "formality": "polite",
+      "cultural_note": "Online booking is available and recommended for summer weekends when queues can be long. The experience inside lasts about 45 minutes and is particularly popular with families and school groups.",
+      "responses": [
+        {
+          "english": "Yes, on the website.",
+          "phonetic": "wee soor luh SEET ahn-tair-NET",
+          "french": "Oui, sur le site internet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_pxxl_003",
+      "intent_en": "Ask about accessibility for visitors with reduced mobility",
+      "text_local": "Le Panorama XXL est-il accessible aux personnes à mobilité réduite ?",
+      "pronunciation": "luh pah-noh-RAH-mah ex-ex-EL eh-TEEL ak-ses-EEBL oh pair-SON ah moh-bee-lee-TAY ray-DWEET",
+      "formality": "polite",
+      "cultural_note": "The building is fully accessible, with a lift to the viewing platform and ramps throughout. The immersive format means the experience is equally rich at ground level.",
+      "responses": [
+        {
+          "english": "Yes, there is an elevator.",
+          "phonetic": "wee eel ee ah uhn ah-sahn-SUR",
+          "french": "Oui, il y a un ascenseur."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_pxxl_004",
+      "intent_en": "Ask if there is a café on site",
+      "text_local": "Est-ce qu'il y a un café sur place ?",
+      "pronunciation": "ess keel ee ah uhn kah-FAY soor PLAHSS",
+      "formality": "polite",
+      "cultural_note": "Many cultural venues in Rouen have small cafés.",
+      "responses": [
+        {
+          "english": "Yes, on the ground floor.",
+          "phonetic": "wee oh ray-duh-shoh-SAY",
+          "french": "Oui, au rez-de-chaussée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_pxxl_005",
+      "intent_en": "Ask whether there is a café on site",
+      "text_local": "Y a-t-il un café ou un espace de restauration dans le bâtiment ?",
+      "pronunciation": "ee ah-TEEL uhn kah-FAY oo uhn es-PAHSS duh res-toh-rah-SYOHN dahn luh bah-tee-MAHN",
+      "formality": "polite",
+      "cultural_note": "Panorama XXL has a small refreshments area in the lobby. Given its location slightly east of the historic centre, it makes sense to combine a visit with the nearby Île Lacroix for a riverside walk.",
+      "responses": [
+        {
+          "english": "Yes, on the ground floor.",
+          "phonetic": "wee oh ray-duh-shoh-SAY",
+          "french": "Oui, au rez-de-chaussée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "panorama",
+      "word_local": "le panorama",
+      "pronunciation": "luh pah-noh-RAH-mah"
+    },
+    {
+      "word_en": "immersive",
+      "word_local": "immersif / immersive",
+      "pronunciation": "ee-mair-SEEF / ee-mair-SEEV"
+    },
+    {
+      "word_en": "exhibition",
+      "word_local": "l'exposition",
+      "pronunciation": "lex-poh-zee-SYOHN"
+    },
+    {
+      "word_en": "cylinder",
+      "word_local": "le cylindre",
+      "pronunciation": "luh see-LAHN-druh"
+    }
+  ]
+}

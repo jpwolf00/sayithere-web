@@ -1,0 +1,100 @@
+{
+  "id": "ankara_ulus_historic_quarter",
+  "name_en": "Ulus Historic Quarter",
+  "name_local": "Ulus",
+  "icon": "map",
+  "lat": 39.9443517,
+  "lon": 32.8579116,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "ankara_ulus_historic_quarter_001",
+      "intent_en": "Where is the Roman Baths ticket booth?",
+      "text_local": "Roma Hamamı gişesi nerede?",
+      "pronunciation": "rOHmah-hahmahmOO-eeshehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Açık alanlardaki müze yapılarında gişenin tam konumu değişken olabilir, görevliye sormak en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişin hemen solunda.",
+        "pronunciation": "eereeshIHn-hehmAHn-sohuhndAH",
+        "translation_en": "Immediately to the left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "Immediately to the left of the entrance.",
+          "phonetic": "eereeshIHn-hehmAHn-sohuhndAH",
+          "french": "Girişin hemen solunda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ulus_historic_quarter_002",
+      "intent_en": "Where is Julian Column?",
+      "text_local": "Julianus Sütunu nerede?",
+      "pronunciation": "zhooleeAHn-suetoonUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Sütun modern yollar arasında kaldığı için tam yer tarifi zordur; en güncel bilgi için danışma noktasına başvurun.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Caddenin sonunda.",
+        "pronunciation": "dzhahdehnIHn-sohnuhndAH",
+        "translation_en": "At the end of the street."
+      },
+      "responses": [
+        {
+          "english": "At the end of the street.",
+          "phonetic": "dzhahdehnIHn-sohnuhndAH",
+          "french": "Caddenin sonunda."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ulus_historic_quarter_003",
+      "intent_en": "Where is Ankara Castle?",
+      "text_local": "Ankara Kalesi nerede?",
+      "pronunciation": "AHnkahrah-kahlehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Ulus'ta yön tarifleri için resmi olmayan noktalara güvenmek yerine danışma masasına sormak daha güvenilirdir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ana caddeden yukarı çıkın.",
+        "pronunciation": "ahnAH-dzhahdehdAHn-yookahrOO-tshookOOn",
+        "translation_en": "Go up the main street."
+      },
+      "responses": [
+        {
+          "english": "Go up the main street.",
+          "phonetic": "ahnAH-dzhahdehdAHn-yookahrOO-tshookOOn",
+          "french": "Ana caddeden yukarı çıkın."
+        }
+      ]
+    },
+    {
+      "id": "ankara_ulus_historic_quarter_004",
+      "intent_en": "Where is the Ankara Synagogue?",
+      "text_local": "Ankara Sinagogu nerede?",
+      "pronunciation": "AHnkahrah-seenahgohgUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Sinagogun açık olduğu günler değişkendir; ziyaret öncesi bilgi almak için danışma masasına sormak en iyisidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Biraz ileride, sağda.",
+        "pronunciation": "beerAHz-eelehreedEHsahdAH",
+        "translation_en": "A bit further, on the right."
+      },
+      "responses": [
+        {
+          "english": "A bit further, on the right.",
+          "phonetic": "beerAHz-eelehreedEHsahdAH",
+          "french": "Biraz ileride, sağda."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

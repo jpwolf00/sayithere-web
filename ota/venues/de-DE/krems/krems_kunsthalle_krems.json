@@ -1,0 +1,78 @@
+{
+  "id": "krems_kunsthalle_krems",
+  "name_en": "Kunsthalle Krems",
+  "name_local": "Kunsthalle Krems",
+  "icon": "building.columns",
+  "lat": 48.4047144,
+  "lon": 15.5871235,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "krems_kunsthalle_krems_001",
+      "intent_en": "Ask where the Danube view terrace is",
+      "text_local": "Wo ist die Donau-Aussichtsterrasse?",
+      "pronunciation": "vOH-ihst-dee-dOHnowOWszIHkhtstrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Terrasse ist ein markanter Außenbereich mit Sicht auf die Donau.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Terrasse ist oben.",
+        "pronunciation": "dee-tEHrahsuh-ihst-OHbuhn",
+        "translation_en": "The terrace is upstairs."
+      },
+      "responses": [
+        {
+          "english": "The terrace is upstairs.",
+          "phonetic": "dee-tEHrahsuh-ihst-OHbuhn",
+          "french": "Die Terrasse ist oben."
+        }
+      ]
+    },
+    {
+      "id": "krems_kunsthalle_krems_002",
+      "intent_en": "Ask where the Minoritenkirche ticket desk is",
+      "text_local": "Wo ist die Kasse für die Minoritenkirche?",
+      "pronunciation": "vOH-ihst-dee-kAHsuh-fuer-dee-mEEnohrEEtuhnkIHrkhuh",
+      "formality": "standard",
+      "cultural_note": "Direkt an der Kasse im Kirchenbereich üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Eingang.",
+        "pronunciation": "deerEHkt-ahm-EYEngAHng",
+        "translation_en": "Right at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Right at the entrance.",
+          "phonetic": "deerEHkt-ahm-EYEngAHng",
+          "french": "Direkt am Eingang."
+        }
+      ]
+    },
+    {
+      "id": "krems_kunsthalle_krems_003",
+      "intent_en": "Ask where the Forum Frohner collection is",
+      "text_local": "Wo befindet sich die Sammlung Forum Frohner?",
+      "pronunciation": "vOH-buhfIHnduht-zihkh-dee-zAHmluhng-fOHruhm-frOHn",
+      "formality": "standard",
+      "cultural_note": "Forum Frohner ist ein eigenständiger Standort der Kunstmeile Krems.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im separaten Gebäude Forum Frohner.",
+        "pronunciation": "ihm-zEHpahrAHtuhn-uhbAWuhduh-fOHruhm-frOHn",
+        "translation_en": "In the separate Forum Frohner building."
+      },
+      "responses": [
+        {
+          "english": "In the separate Forum Frohner building.",
+          "phonetic": "ihm-zEHpahrAHtuhn-uhbAWuhduh-fOHruhm-frOHn",
+          "french": "Im separaten Gebäude Forum Frohner."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

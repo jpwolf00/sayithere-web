@@ -1,0 +1,78 @@
+{
+  "id": "krems_krems_bus_station",
+  "name_en": "Krems Bus Station",
+  "name_local": "Busbahnhof Krems",
+  "icon": "tram",
+  "lat": 48.4108382,
+  "lon": 15.6003717,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "krems_krems_bus_station_001",
+      "intent_en": "Ask where the waiting hall is",
+      "text_local": "Wo ist die Wartehalle?",
+      "pronunciation": "vOH-ihst-dee-vAHrtehAHluh",
+      "formality": "standard",
+      "cultural_note": "Waiting halls in Austrian bus stations are typically centrally located and well-signposted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus, die erste Tür links.",
+        "pronunciation": "guhrAHdehOWsdee-EHrstuh-tUEr-lINGks",
+        "translation_en": "Straight ahead, the first door on the left."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, the first door on the left.",
+          "phonetic": "guhrAHdehOWsdee-EHrstuh-tUEr-lINGks",
+          "french": "Geradeaus, die erste Tür links."
+        }
+      ]
+    },
+    {
+      "id": "krems_krems_bus_station_002",
+      "intent_en": "Ask when next bus to Vienna departs",
+      "text_local": "Wann fährt der nächste Bus nach Wien?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-bUHs-nahkh-vEEn",
+      "formality": "standard",
+      "cultural_note": "In Austria, some regional buses depart from specific platforms marked with letters rather than numbers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In ungefähr zehn Minuten.",
+        "pronunciation": "ihn-UHnguhfEHr-tsEHn-meenOOtuhn",
+        "translation_en": "In about ten minutes."
+      },
+      "responses": [
+        {
+          "english": "In about ten minutes.",
+          "phonetic": "ihn-UHnguhfEHr-tsEHn-meenOOtuhn",
+          "french": "In ungefähr zehn Minuten."
+        }
+      ]
+    },
+    {
+      "id": "krems_krems_bus_station_003",
+      "intent_en": "Ask which platform for Wachau valley buses",
+      "text_local": "Wo fahren die Wachau-Busse ab?",
+      "pronunciation": "vOH-fAHruhn-dee-vAHkhowbUHsuh-AHp",
+      "formality": "standard",
+      "cultural_note": "In Austrian transport hubs, platforms for regional buses are often indicated by specific route names rather than numbers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bahnsteig A.",
+        "pronunciation": "bAHnsteyek-AH",
+        "translation_en": "Platform A."
+      },
+      "responses": [
+        {
+          "english": "Platform A.",
+          "phonetic": "bAHnsteyek-AH",
+          "french": "Bahnsteig A."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

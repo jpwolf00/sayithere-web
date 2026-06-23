@@ -1,0 +1,100 @@
+{
+  "id": "lugano_manor_department_store",
+  "name_en": "Manor Department Store",
+  "name_local": "Grande Magazzino Manor",
+  "icon": "bag",
+  "lat": 46.0049951,
+  "lon": 8.9504496,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "lugano_manor_department_store_001",
+      "intent_en": "Ask where the Swiss watch counter is",
+      "text_local": "Wo finde ich die Schweizer Uhren?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-shvEYEts-OOruhn",
+      "formality": "standard",
+      "cultural_note": "Luxury watch sections in Swiss department stores are often grouped with high-end beauty or accessory counters.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss, neben dem Schmuck.",
+        "pronunciation": "ihm-ehrdgEHshawsnEHbuhn-dehm-shmUHk",
+        "translation_en": "On the ground floor, next to the jewelry."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, next to the jewelry.",
+          "phonetic": "ihm-ehrdgEHshawsnEHbuhn-dehm-shmUHk",
+          "french": "Im Erdgeschoss, neben dem Schmuck."
+        }
+      ]
+    },
+    {
+      "id": "lugano_manor_department_store_002",
+      "intent_en": "Ask if euro is accepted at register",
+      "text_local": "Wird hier Euro akzeptiert?",
+      "pronunciation": "vIHrt-hEEr-AWuhroh-AHktsehptEErt",
+      "formality": "casual",
+      "cultural_note": "Swiss retailers often accept euros but give change in Swiss francs unless the customer explicitly requests otherwise.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "lugano_manor_department_store_003",
+      "intent_en": "Ask where the tax-free desk is",
+      "text_local": "Wo finde ich den Tax-Free-Schalter?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-tAHksehnfrEEdehshAHlt",
+      "formality": "standard",
+      "cultural_note": "Tax-Free-Schalter are typically located near the main exit or customer service desk in Swiss department stores.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss, hinter der Kasse.",
+        "pronunciation": "ihm-ehrdgEHshawshIHnt-dehr-kAHsuh",
+        "translation_en": "On the ground floor, behind the cash register."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, behind the cash register.",
+          "phonetic": "ihm-ehrdgEHshawshIHnt-dehr-kAHsuh",
+          "french": "Im Erdgeschoss, hinter der Kasse."
+        }
+      ]
+    },
+    {
+      "id": "lugano_manor_department_store_004",
+      "intent_en": "Ask if loyalty card gives instant discount",
+      "text_local": "Gibt es Rabatt mit der Kundenkarte?",
+      "pronunciation": "EEpt-ehs-rAHbaht-miht-dehr-kUHnduhnkAHrtuh",
+      "formality": "standard",
+      "cultural_note": "Swiss loyalty programs like Manor Card typically apply instant discounts at checkout rather than later redemption.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, sofort an der Kasse.",
+        "pronunciation": "yAHzohfAWrt-ahn-dehr-kAHsuh",
+        "translation_en": "Yes, immediately at checkout."
+      },
+      "responses": [
+        {
+          "english": "Yes, immediately at checkout.",
+          "phonetic": "yAHzohfAWrt-ahn-dehr-kAHsuh",
+          "french": "Ja, sofort an der Kasse."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

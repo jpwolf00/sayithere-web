@@ -1,0 +1,144 @@
+{
+  "id": "tokyo_ameya_yokocho_market",
+  "name_en": "Ameya-Yokocho Market",
+  "name_local": "アメヤ横丁",
+  "icon": "cart",
+  "lat": 35.7100592,
+  "lon": 139.7745428,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "tokyo_ameya_yokocho_market_001",
+      "intent_en": "Are coin lockers near the market?",
+      "text_local": "ちかくに コインロッカーは ありますか？",
+      "pronunciation": "tEEkkOOnee-kOHeenohkkH-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Coin lockers are plentiful inside Ueno Station, just a minute's walk from the market entrance.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきの なかに たくさん あります。",
+        "pronunciation": "ehkEEnoh-nkNee-tkOOs-EEmSoo",
+        "translation_en": "There are many inside the station."
+      },
+      "responses": [
+        {
+          "english": "There are many inside the station.",
+          "phonetic": "ehkEEnoh-nkNee-tkOOs-EEmSoo",
+          "french": "えきの なかに たくさん あります。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ameya_yokocho_market_002",
+      "intent_en": "Do stalls accept credit cards?",
+      "text_local": "カードは つかえますか？",
+      "pronunciation": "kdOHh-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small stalls in Ameya-Yokocho are cash-only, so it's wise to carry yen.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "すみません、げんきんのみです。",
+        "pronunciation": "sOOmeemSehgEHngkeennOHmeedEHsoo",
+        "translation_en": "Sorry, cash only."
+      },
+      "responses": [
+        {
+          "english": "Sorry, cash only.",
+          "phonetic": "sOOmeemSehgEHngkeennOHmeedEHsoo",
+          "french": "すみません、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ameya_yokocho_market_003",
+      "intent_en": "Are bulk snack boxes available?",
+      "text_local": "おかしの ばらうり ありますか？",
+      "pronunciation": "OHkEEnoh-bOOEE-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Bulk snack boxes are a specialty of the market, often sold as 'toku-dai' (extra-large) packs.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、たくさん ありますよ。",
+        "pronunciation": "hEEtkOOs-EEmsOOyoh",
+        "translation_en": "Yes, we have a lot."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have a lot.",
+          "phonetic": "hEEtkOOs-EEmsOOyoh",
+          "french": "はい、たくさん ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ameya_yokocho_market_004",
+      "intent_en": "How does tax-free shopping work?",
+      "text_local": "めんぜいは どうすれば いいですか？",
+      "pronunciation": "mEHzehEEh-dOHoosooEHb-EEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Tax-free shopping is handled at specific counters in larger shops, not at every stall. Have your passport ready.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "パスポートを みせて、カウンターで てつづきを どうぞ。",
+        "pronunciation": "pSoopohohtOHoh-meesEHtehkOOntDeh-tEHtsoozookEEoh-dohOOzoh",
+        "translation_en": "Show your passport, and please do the procedure at the counter."
+      },
+      "responses": [
+        {
+          "english": "Show your passport, and please do the procedure at the counter.",
+          "phonetic": "pSoopohohtOHoh-meesEHtehkOOntDeh-tEHtsoozookEEoh-dohOOzoh",
+          "french": "パスポートを みせて、カウンターで てつづきを どうぞ。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ameya_yokocho_market_005",
+      "intent_en": "Where are the candy shops?",
+      "text_local": "あめやさんは どこですか？",
+      "pronunciation": "MehySH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The market's name literally comes from 'ameya' (candy shops), which are clustered along the main strip.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、みぎがわに あります。",
+        "pronunciation": "mssOOgoo-EEttehmEEgeegwNee-EEmSoo",
+        "translation_en": "Go straight, they're on the right side."
+      },
+      "responses": [
+        {
+          "english": "Go straight, they're on the right side.",
+          "phonetic": "mssOOgoo-EEttehmEEgeegwNee-EEmSoo",
+          "french": "まっすぐ いって、みぎがわに あります。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo_ameya_yokocho_market_006",
+      "intent_en": "Is haggling allowed at clothing stalls?",
+      "text_local": "ふくやさんで ねぎりは できますか？",
+      "pronunciation": "OOkooysNdeh-nEHgeeEEh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Haggling is sometimes acceptable at independent clothing stalls here, but always start politely and don't push too hard.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ええ、すこしなら だいじょうぶですよ。",
+        "pronunciation": "EHehsOOkoheen-DEEdOHoobOOdehsOOyoh",
+        "translation_en": "Yes, a little bit is okay."
+      },
+      "responses": [
+        {
+          "english": "Yes, a little bit is okay.",
+          "phonetic": "EHehsOOkoheen-DEEdOHoobOOdehsOOyoh",
+          "french": "ええ、すこしなら だいじょうぶですよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

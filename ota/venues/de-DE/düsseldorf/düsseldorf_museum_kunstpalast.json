@@ -1,0 +1,122 @@
+{
+  "id": "düsseldorf_museum_kunstpalast",
+  "name_en": "Museum Kunstpalast",
+  "name_local": "Museum Kunstpalast",
+  "icon": "building.columns",
+  "lat": 51.234998,
+  "lon": 6.7731045,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "düsseldorf_museum_kunstpalast_001",
+      "intent_en": "Can I rent an audio guide?",
+      "text_local": "Kann ich einen Audioguide ausleihen?",
+      "pronunciation": "kAHn-ihkh-EYEnuhn-ehnAWdihUHuheyeddeh-OWslEYE-uhn",
+      "formality": "standard",
+      "cultural_note": "Brief, direct confirmation; staff register avoids excessive politeness.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_museum_kunstpalast_002",
+      "intent_en": "How do I reach the Neue Galerie?",
+      "text_local": "Wie komme ich zur Neuen Galerie?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoor-nAWuhuhn-AHlehrEE",
+      "formality": "casual",
+      "cultural_note": "Generic staff escalation preferred over uncertain directional details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "die Treppe hoch, dann links.",
+        "pronunciation": "dee-trEHpuh-hOHkhdahn-lINGks",
+        "translation_en": "up the stairs, then left."
+      },
+      "responses": [
+        {
+          "english": "up the stairs, then left.",
+          "phonetic": "dee-trEHpuh-hOHkhdahn-lINGks",
+          "french": "die Treppe hoch, dann links."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_museum_kunstpalast_003",
+      "intent_en": "Is the cafe near the shop?",
+      "text_local": "Ist das Café in der Nähe des Shops?",
+      "pronunciation": "ihst-dahs-kahfEH-ihn-dehr-nEHuh-dehs-ehnshPsdeh",
+      "formality": "standard",
+      "cultural_note": "Brief confirmation with grounded floor reference; avoids over-precision.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Erdgeschoss.",
+        "pronunciation": "yAHihm-ehrdEHshaws",
+        "translation_en": "Yes, on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the ground floor.",
+          "phonetic": "yAHihm-ehrdEHshaws",
+          "french": "Ja, im Erdgeschoss."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_museum_kunstpalast_004",
+      "intent_en": "Where is the Rubens-Saal located?",
+      "text_local": "Wo finde ich den Rubens-Saal?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-rOObuhnszAHl",
+      "formality": "standard",
+      "cultural_note": "Visitors expect precise guidance; generic staff escalation is preferred over uncertain micro-directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Rubens-Saal ist im Erdgeschoss.",
+        "pronunciation": "dehr-rOObuhnszAHl-ihst-ihm-ehrdgEHshaws",
+        "translation_en": "The Rubens-Saal is on the ground floor."
+      },
+      "responses": [
+        {
+          "english": "The Rubens-Saal is on the ground floor.",
+          "phonetic": "dehr-rOObuhnszAHl-ihst-ihm-ehrdgEHshaws",
+          "french": "Der Rubens-Saal ist im Erdgeschoss."
+        }
+      ]
+    },
+    {
+      "id": "düsseldorf_museum_kunstpalast_005",
+      "intent_en": "Where do I pay for coat check?",
+      "text_local": "Wo bezahle ich für die Garderobe?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-fuer-dee-AHrdehrOHbuh",
+      "formality": "standard",
+      "cultural_note": "Payment location is tied to a staffed service point; avoids guessing exact placement.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter mit Ticket.",
+        "pronunciation": "ahm-shAHlt-miht-tIHkuht",
+        "translation_en": "At the counter with your ticket."
+      },
+      "responses": [
+        {
+          "english": "At the counter with your ticket.",
+          "phonetic": "ahm-shAHlt-miht-tIHkuht",
+          "french": "Am Schalter mit Ticket."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

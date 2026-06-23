@@ -1,0 +1,100 @@
+{
+  "id": "cologne_aachener_weiher_park",
+  "name_en": "Aachener Weiher Park",
+  "name_local": "Aachener Weiher",
+  "icon": "leaf",
+  "lat": 50.9352556,
+  "lon": 6.927625,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "cologne_aachener_weiher_park_001",
+      "intent_en": "Where is the Parkrun Saturday start line",
+      "text_local": "Wo beginnt der Parkrun samstags?",
+      "pronunciation": "vOH-buhIHnt-dehr-pAHrkroon-zAHmstahks",
+      "formality": "standard",
+      "cultural_note": "Samstags startet der Parkrun in Köln meist am Universitätsstraße-Eingang des Aachener Weihers. Die genaue Position kann sich ändern, daher wird die Antwort bewusst allgemein gehalten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Universitätsstraße-Eingang.",
+        "pronunciation": "ahm-OOneevEHrzeetEHtsshtrAHsuhEYEnAHng",
+        "translation_en": "At the Universitätsstraße entrance."
+      },
+      "responses": [
+        {
+          "english": "At the Universitätsstraße entrance.",
+          "phonetic": "ahm-OOneevEHrzeetEHtsshtrAHsuhEYEnAHng",
+          "french": "Am Universitätsstraße-Eingang."
+        }
+      ]
+    },
+    {
+      "id": "cologne_aachener_weiher_park_002",
+      "intent_en": "Where does the Scheidweilerstraße corner path lead",
+      "text_local": "Wohin führt der Weg an der Ecke Scheidweilerstraße?",
+      "pronunciation": "vohhEEn-fUErt-dehr-vEHk-ahn-dehr-EHkuh-shEYEdveyelstrAHsuh",
+      "formality": "casual",
+      "cultural_note": "Der Fußweg an der Ecke Scheidweilerstraße führt in den Aachener Weiher Park und zum Teich. Die genaue Route kann variieren, daher wird eine allgemein gehaltene Antwort gegeben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zum Park und zum Teich.",
+        "pronunciation": "tsuhm-pAHrk-uhnt-tsuhm-tEYEkh",
+        "translation_en": "To the park and the pond."
+      },
+      "responses": [
+        {
+          "english": "To the park and the pond.",
+          "phonetic": "tsuhm-pAHrk-uhnt-tsuhm-tEYEkh",
+          "french": "Zum Park und zum Teich."
+        }
+      ]
+    },
+    {
+      "id": "cologne_aachener_weiher_park_003",
+      "intent_en": "Is parking free on Universitätsstraße evenings",
+      "text_local": "Ist das Parken abends an der Universitätsstraße kostenlos?",
+      "pronunciation": "ihst-pAHrkuhn-ahn-dehr-OOneevEHrzeetEHtsshtrAHsuh-AHbuhnts-rAHtihs",
+      "formality": "standard",
+      "cultural_note": "Die Parkgebühren an der Universitätsstraße variieren je nach Beschilderung und Tageszeit. Eine pauschale Antwort ist nicht möglich; die Automaten vor Ort zeigen die aktuellen Tarife an.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ab 18 Uhr ist es frei.",
+        "pronunciation": "yAHahp-AHkhtsehn-OOr-ihst-ehs-frEYE",
+        "translation_en": "Yes, it's free after 6 p.m."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's free after 6 p.m.",
+          "phonetic": "yAHahp-AHkhtsehn-OOr-ihst-ehs-frEYE",
+          "french": "Ja, ab 18 Uhr ist es frei."
+        }
+      ]
+    },
+    {
+      "id": "cologne_aachener_weiher_park_004",
+      "intent_en": "Is Museum of East Asian Art near pond entrance",
+      "text_local": "Liegt das Museum für Ostasiatische Kunst nahe dem Teichzugang?",
+      "pronunciation": "lEEkt-dahs-moozEHuhm-fuer-AWstahzeeAHtihshuh-kUHnst-nAHuh-dehm-tEYEkhtsooAHng",
+      "formality": "standard",
+      "cultural_note": "Das Museum für Ostasiatische Kunst liegt nicht direkt im Parkgelände. Besucher müssen das Museum separat aufsuchen; eine Verbindung zum Aachener Weiher besteht nur über öffentliche Straßen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, das Museum liegt getrennt vom Park.",
+        "pronunciation": "nEYEndahs-moozEHuhm-lEEkt-uhtrEHnt-fawm-pAHrk",
+        "translation_en": "No, the museum is separate from the park."
+      },
+      "responses": [
+        {
+          "english": "No, the museum is separate from the park.",
+          "phonetic": "nEYEndahs-moozEHuhm-lEEkt-uhtrEHnt-fawm-pAHrk",
+          "french": "Nein, das Museum liegt getrennt vom Park."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

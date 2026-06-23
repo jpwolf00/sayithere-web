@@ -1,0 +1,100 @@
+{
+  "id": "bern_bern_hauptbahnhof",
+  "name_en": "Bern Hauptbahnhof",
+  "name_local": "Bern Hauptbahnhof",
+  "icon": "tram",
+  "lat": 46.948777,
+  "lon": 7.4388081,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "bern_bern_hauptbahnhof_001",
+      "intent_en": "Where is SBB ticket counter",
+      "text_local": "Wo finde ich den SBB-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-EHsbEHbEHshAHlt",
+      "formality": "standard",
+      "cultural_note": "In Swiss transport hubs, major ticket counters like SBB are typically centrally located and clearly signed with 'SBB' or 'Billettschalter'. Staff expect concise location requests.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hauptgeschoss rechts.",
+        "pronunciation": "ihm-hOWptguhshAWs-rEHkhts",
+        "translation_en": "On the main floor to the right."
+      },
+      "responses": [
+        {
+          "english": "On the main floor to the right.",
+          "phonetic": "ihm-hOWptguhshAWs-rEHkhts",
+          "french": "Im Hauptgeschoss rechts."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_hauptbahnhof_002",
+      "intent_en": "Where is rooftop terrace access",
+      "text_local": "Wie komme ich zur Dachterrasse?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoor-dAHkhtrAHsuh",
+      "formality": "casual",
+      "cultural_note": "Swiss stations use clear signage for rooftop access. Staff expect sign-following as a safe default when micro-location is unknown.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Dachterrasse ist oben über die Aufzüge erreichbar.",
+        "pronunciation": "dee-dAHkhtrAHsuh-ihst-OHbuhn-UEb-dee-OWftsUEguh-ehrrEYEkhbahr",
+        "translation_en": "The rooftop terrace is accessible upstairs via the elevators."
+      },
+      "responses": [
+        {
+          "english": "The rooftop terrace is accessible upstairs via the elevators.",
+          "phonetic": "dee-dAHkhtrAHsuh-ihst-OHbuhn-UEb-dee-OWftsUEguh-ehrrEYEkhbahr",
+          "french": "Die Dachterrasse ist oben über die Aufzüge erreichbar."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_hauptbahnhof_003",
+      "intent_en": "When do platforms 12 and 13 close",
+      "text_local": "Wann schließen die Gleise 12 und 13?",
+      "pronunciation": "vAHn-shlEEsuhn-dee-lEYEzuh-tsvUHlf-uhnt-drEYEtsehn",
+      "formality": "standard",
+      "cultural_note": "Platform closures are dynamic and depend on train schedules. Staff defer to real-time display or counter for precise info.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Gleise schließen um Mitternacht.",
+        "pronunciation": "dee-glEYEzuh-shlEEsuhn-uhm-mIHtnAHkht",
+        "translation_en": "The platforms close at midnight."
+      },
+      "responses": [
+        {
+          "english": "The platforms close at midnight.",
+          "phonetic": "dee-glEYEzuh-shlEEsuhn-uhm-mIHtnAHkht",
+          "french": "Die Gleise schließen um Mitternacht."
+        }
+      ]
+    },
+    {
+      "id": "bern_bern_hauptbahnhof_004",
+      "intent_en": "Where do I buy BLS regional pass",
+      "text_local": "Wo bekomme ich einen BLS-Regionalpass?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-EYEnuhn-bEHEHlEHsrEHihOHnahlpAHs",
+      "formality": "casual",
+      "cultural_note": "BLS regional passes are sold at dedicated BLS counters or designated desks marked 'BLS'. Staff expect clear intent-based routing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Fragen Sie am BLS-Schalter nach.",
+        "pronunciation": "frAHuhn-zee-ahm-bEHEHlEHsshAHlt-nAHkh",
+        "translation_en": "Ask at the BLS ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Ask at the BLS ticket counter.",
+          "phonetic": "frAHuhn-zee-ahm-bEHEHlEHsshAHlt-nAHkh",
+          "french": "Fragen Sie am BLS-Schalter nach."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

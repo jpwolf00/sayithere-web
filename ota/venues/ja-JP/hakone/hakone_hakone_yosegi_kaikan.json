@@ -1,0 +1,78 @@
+{
+  "id": "hakone_hakone_yosegi_kaikan",
+  "name_en": "Hakone Yosegi Kaikan",
+  "name_local": "箱根寄木会館",
+  "icon": "cart",
+  "lat": 35.2130027,
+  "lon": 139.0630871,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "hakone_hakone_yosegi_kaikan_001",
+      "intent_en": "Can I watch craftsman working now?",
+      "text_local": "いま、しょくにんの さぎょうを みられますか？",
+      "pronunciation": "EEmOHkoonEEnnoh-sGohOOoh-mEEEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Yosegi craftsmen sometimes do live demonstrations. A simple yes/no with a direction is typical.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、あちらで さぎょうちゅうです。",
+        "pronunciation": "hEETeeDeh-sGohOOtoooodEHsoo",
+        "translation_en": "Yes, they are working over there."
+      },
+      "responses": [
+        {
+          "english": "Yes, they are working over there.",
+          "phonetic": "hEETeeDeh-sGohOOtoooodEHsoo",
+          "french": "はい、あちらで さぎょうちゅうです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_yosegi_kaikan_002",
+      "intent_en": "Where is the yosegi craft stall?",
+      "text_local": "よせぎの こうげいひんは どこですか？",
+      "pronunciation": "yOHsehgEEnoh-kOHoogEHeekheeH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In a market, stalls are often referred to by their position (front/back, left/right) rather than a stall number.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "おくの ひだりがわです。",
+        "pronunciation": "ohkOOnoh-khEEdEEgwdEHsoo",
+        "translation_en": "It's on the left side at the back."
+      },
+      "responses": [
+        {
+          "english": "It's on the left side at the back.",
+          "phonetic": "ohkOOnoh-khEEdEEgwdEHsoo",
+          "french": "おくの ひだりがわです。"
+        }
+      ]
+    },
+    {
+      "id": "hakone_hakone_yosegi_kaikan_003",
+      "intent_en": "Where is the demonstration workshop?",
+      "text_local": "じっきょう こうぼうは どこですか？",
+      "pronunciation": "deekkOHoo-kOHoobohOOh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Workshop areas are often at the end of a hall or on a specific side of the building.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "みぎての つきあたりです。",
+        "pronunciation": "mEEgeetEHnoh-tsOOkeeTeedEHsoo",
+        "translation_en": "It's at the end on the right-hand side."
+      },
+      "responses": [
+        {
+          "english": "It's at the end on the right-hand side.",
+          "phonetic": "mEEgeetEHnoh-tsOOkeeTeedEHsoo",
+          "french": "みぎての つきあたりです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

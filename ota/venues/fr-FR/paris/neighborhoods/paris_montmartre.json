@@ -1,0 +1,152 @@
+{
+  "id": "hood_montmartre",
+  "name_en": "Montmartre",
+  "name_local": "Montmartre",
+  "icon": "paintbrush.fill",
+  "phrases": [
+    {
+      "id": "hood_montmartre_001",
+      "intent_en": "Politely decline a portrait artist",
+      "text_local": "Non merci, je ne souhaite pas de portrait.",
+      "pronunciation": "nohn mair-SEE, zhuh nuh swet PAH duh por-TREH",
+      "formality": "polite",
+      "cultural_note": "Place du Tertre artists can be pushy. A polite but firm refusal works. If you do sit for a portrait, agree on the price beforehand — it can easily be 30-80 euros.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Alright, no problem. Have a nice day!",
+          "phonetic": "dah-KOR, pah duh proh-BLEM. bun zhoor-NAY",
+          "french": "D'accord, pas de problème. Bonne journée !"
+        }
+      ]
+    },
+    {
+      "id": "hood_montmartre_002",
+      "intent_en": "Ask about the Montmartre vineyard",
+      "text_local": "Où est le vignoble de Montmartre ?",
+      "pronunciation": "oo eh luh veen-YOH-bluh duh mohn-MARTR",
+      "formality": "standard",
+      "cultural_note": "The Clos Montmartre vineyard on Rue des Saules is Paris's last working vineyard. The grape harvest festival (Fête des Vendanges) in October is a lively neighborhood celebration.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is on Rue des Saules, going down the hill.",
+          "phonetic": "seh soor lah roo day SOHL, ahn duh-sahn-DAHN lah koh-LEEN",
+          "french": "C'est sur la Rue des Saules, en descendant la colline."
+        }
+      ]
+    },
+    {
+      "id": "hood_montmartre_003",
+      "intent_en": "Ask for a café recommendation away from tourist traps",
+      "text_local": "Vous connaissez un bon café pas trop touristique ?",
+      "pronunciation": "voo koh-neh-SAY uhn bohn kah-FAY pah troh too-rees-TEEK",
+      "formality": "casual",
+      "cultural_note": "Avoid the overpriced cafés on Place du Tertre. Walk a few blocks to Rue Lepic or Rue des Abbesses for authentic, reasonably priced spots where locals actually go.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go to Rue des Abbesses, it is more local.",
+          "phonetic": "ah-LAY soor lah roo dayz ah-BESS, seh ploo loh-KAL",
+          "french": "Allez sur la Rue des Abbesses, c'est plus local."
+        }
+      ]
+    },
+    {
+      "id": "hood_montmartre_004",
+      "intent_en": "Ask about the Wall of Love",
+      "text_local": "Où est le Mur des Je t'aime ?",
+      "pronunciation": "oo eh luh MOOR day zhuh TEM",
+      "formality": "standard",
+      "cultural_note": "Le Mur des Je t'aime (Wall of Love) is in the small Jehan Rictus garden in Place des Abbesses. It displays 'I love you' in over 300 languages.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is in the Jehan Rictus garden, Place des Abbesses.",
+          "phonetic": "seh dahn luh skwar zhuh-AHN reek-TOOS, plass dayz ah-BESS",
+          "french": "C'est dans le square Jehan Rictus, Place des Abbesses."
+        }
+      ]
+    },
+    {
+      "id": "hood_montmartre_005",
+      "intent_en": "Warn about the bracelet scam",
+      "text_local": "Attention aux arnaques avec les bracelets !",
+      "pronunciation": "ah-tahn-SYOHN ohz ar-NAHK ah-VEK lay brah-SLEH",
+      "formality": "casual",
+      "cultural_note": "A common scam near Sacré-Cœur: someone ties a friendship bracelet on your wrist, then demands payment. Keep your hands in your pockets and walk past firmly saying 'Non!'",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Thanks for the advice, I will be careful.",
+          "phonetic": "mehr-SEE doo kohn-SAY, zhuh fuh-RAY ah-tahn-SYOHN",
+          "french": "Merci du conseil, je ferai attention."
+        }
+      ]
+    },
+    {
+      "id": "hood_montmartre_006",
+      "intent_en": "Ask about the Amélie film locations",
+      "text_local": "Où est le café du film Amélie ?",
+      "pronunciation": "oo eh luh kah-FAY doo FEELM ah-may-LEE",
+      "formality": "casual",
+      "cultural_note": "The Café des Deux Moulins (15 Rue Lepic) was the café in the film Amélie. It's a working café — you can have coffee and crème brûlée there.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is the Café des Deux Moulins, at 15 Rue Lepic.",
+          "phonetic": "seh luh kah-FAY day duh moo-LAHN, oh kanz roo luh-PEEK",
+          "french": "C'est le Café des Deux Moulins, au quinze Rue Lepic."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Artist",
+      "word_local": "Artiste",
+      "pronunciation": "ar-TEEST"
+    },
+    {
+      "word_en": "Portrait",
+      "word_local": "Portrait",
+      "pronunciation": "por-TREH"
+    },
+    {
+      "word_en": "Vineyard",
+      "word_local": "Vignoble",
+      "pronunciation": "veen-YOH-bluh"
+    },
+    {
+      "word_en": "Steep street",
+      "word_local": "Rue en pente",
+      "pronunciation": "roo ahn PAHNT"
+    },
+    {
+      "word_en": "Scam",
+      "word_local": "Arnaque",
+      "pronunciation": "ar-NAHK"
+    },
+    {
+      "word_en": "Tourist trap",
+      "word_local": "Piège à touristes",
+      "pronunciation": "pyehzh ah too-REEST"
+    },
+    {
+      "word_en": "Hilltop",
+      "word_local": "Butte",
+      "pronunciation": "boot"
+    },
+    {
+      "word_en": "Cabaret",
+      "word_local": "Cabaret",
+      "pronunciation": "kah-bah-REH"
+    }
+  ]
+}

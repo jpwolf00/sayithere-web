@@ -1,0 +1,118 @@
+{
+  "id": "quebec_city_plaines_abraham",
+  "name_en": "Plains of Abraham",
+  "name_local": "Plaines d'Abraham",
+  "icon": "leaf",
+  "lat": 46.8044,
+  "lon": -71.22,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "qc_pa_001",
+      "intent_en": "Ask if the park is free to enter",
+      "text_local": "L'accès au parc est gratuit ?",
+      "pronunciation": "lak-SEH oh PARK eh grah-TWEE",
+      "formality": "polite",
+      "cultural_note": "The Plains of Abraham is a large urban park open to all. Only the museum inside charges admission.",
+      "responses": [
+        {
+          "english": "Yes, the park is free access.",
+          "phonetic": "wee luh PARK eh tahn ak-SEH LEE-bruh",
+          "french": "Oui, le parc est en accès libre."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pa_002",
+      "intent_en": "Ask where the Musée des Plaines d'Abraham is",
+      "text_local": "Le musée des Plaines d'Abraham, c'est par là ?",
+      "pronunciation": "luh moo-ZAY day PLEN dah-brah-AHIM say par LAH",
+      "formality": "neutral",
+      "cultural_note": "The Musée du Parc des Champs-de-Bataille (Battlefields Park Museum) in the Martello towers tells the story of the battle with interactive exhibits.",
+      "responses": [
+        {
+          "english": "The museum is at the end of the park, that way.",
+          "phonetic": "luh moo-ZAY eh toh BOO doo PARK par LAH",
+          "french": "Le musée est au bout du parc, par là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pa_003",
+      "intent_en": "Ask if the park is free to enter",
+      "text_local": "Le parc, c'est gratuit d'y accéder ?",
+      "pronunciation": "luh PARK say gra-TWEE dee ak-say-DAY",
+      "formality": "neutral",
+      "cultural_note": "The Plains of Abraham are a free public park year-round. The Museum and some activities have fees. In summer the park hosts major concerts.",
+      "responses": [
+        {
+          "english": "Yes, the park is free access.",
+          "phonetic": "wee luh PARK eh tahn ak-SEH LEE-bruh",
+          "french": "Oui, le parc est en accès libre."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pa_004",
+      "intent_en": "Ask about skiing or snowshoeing in winter",
+      "text_local": "Est-ce qu'on peut faire du ski de fond ou de la raquette ici en hiver ?",
+      "pronunciation": "ess-KON puh FAIR doo SKEE duh FON oo duh lah rah-KET ee-SEE ahn ee-VAIR",
+      "formality": "polite",
+      "cultural_note": "The Plains are transformed into a winter playground with cross-country skiing, snowshoeing, and ice skating on groomed trails.",
+      "responses": [
+        {
+          "english": "Yes, rentals are at the park chalet.",
+          "phonetic": "wee lah loh-kah-SYOHN eh toh shah-LAY doo PARK",
+          "french": "Oui, la location est au chalet du parc."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pa_005",
+      "intent_en": "Ask where to find the Martello towers",
+      "text_local": "Les tours Martello, elles sont situées où exactement ?",
+      "pronunciation": "lay TOOR mar-TEL-oh el son see-too-AY oo ex-ak-tuh-MAH",
+      "formality": "polite",
+      "cultural_note": "Four Martello towers were built in the early 1800s as British defensive structures. Two remain on the Plains and are open for tours in summer.",
+      "responses": [
+        {
+          "english": "Follow the trail to the south.",
+          "phonetic": "swee-VAY luh sahn-TYAY vair luh SOOD",
+          "french": "Suivez le sentier vers le sud."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "battle",
+      "word_local": "la bataille",
+      "pronunciation": "lah bah-TAY"
+    },
+    {
+      "word_en": "cross-country skiing",
+      "word_local": "le ski de fond",
+      "pronunciation": "luh SKEE duh FON"
+    },
+    {
+      "word_en": "snowshoeing",
+      "word_local": "la raquette (à neige)",
+      "pronunciation": "lah rah-KET ah NAYJ"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    }
+  ]
+}

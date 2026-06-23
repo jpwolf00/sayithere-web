@@ -1,0 +1,166 @@
+{
+  "id": "konya_sille_historic_village",
+  "name_en": "Sille historic village",
+  "name_local": "Sille Mahallesi",
+  "icon": "map",
+  "lat": 37.872734,
+  "lon": 32.4924376,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "konya_sille_historic_village_001",
+      "intent_en": "Where are the Sufi Trail markers?",
+      "text_local": "Sufi Yolu işaretleri nerede?",
+      "pronunciation": "soofIH-yohUH-eeshahrehtlehrIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Trail markers in an open neighborhood area are best confirmed locally.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Taş evlerin başında.",
+        "pronunciation": "tAHsh-ehvlehrIHn-bahshoondAH",
+        "translation_en": "At the beginning of the stone houses."
+      },
+      "responses": [
+        {
+          "english": "At the beginning of the stone houses.",
+          "phonetic": "tAHsh-ehvlehrIHn-bahshoondAH",
+          "french": "Taş evlerin başında."
+        }
+      ]
+    },
+    {
+      "id": "konya_sille_historic_village_002",
+      "intent_en": "Is there parking at the village edge?",
+      "text_local": "Köyün kenarında otopark var mı?",
+      "pronunciation": "kuhyUHn-kehnahroondAH-ohtohpAHrk-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Parking fee is unverified; the attendant is the best source.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, girişte var.",
+        "pronunciation": "ehvEHteerihshtEH-vAHr",
+        "translation_en": "Yes, there is at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is at the entrance.",
+          "phonetic": "ehvEHteerihshtEH-vAHr",
+          "french": "Evet, girişte var."
+        }
+      ]
+    },
+    {
+      "id": "konya_sille_historic_village_003",
+      "intent_en": "Where are the stone houses?",
+      "text_local": "Sille taş evler nerede?",
+      "pronunciation": "sIHlleh-tAHsh-ehvlEHr-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The stable target is the former Greek village quarter; exact lanes are unverified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmaya sorun, eski Rum mahallesi civarındadır.",
+        "pronunciation": "dahnOOshmahyah-sohrUHnehskIH-rUHm-mahhahlehsIH-dzheevahroondAHdoor",
+        "translation_en": "Ask at information, they are around the former Greek quarter."
+      },
+      "responses": [
+        {
+          "english": "Ask at information, they are around the former Greek quarter.",
+          "phonetic": "dahnOOshmahyah-sohrUHnehskIH-rUHm-mahhahlehsIH-dzheevahroondAHdoor",
+          "french": "Danışmaya sorun, eski Rum mahallesi civarındadır."
+        }
+      ]
+    },
+    {
+      "id": "konya_sille_historic_village_004",
+      "intent_en": "Do I need cash for tea gardens?",
+      "text_local": "Çay bahçeleri için nakit gerekli mi?",
+      "pronunciation": "tshAHy-bahhtshehlehrIH-eetshIHn-nahkIHt-ehrehklIH-mih",
+      "formality": "standard",
+      "cultural_note": "Payment method is unverified; asking the tea server (çaycı) is the most direct approach.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, eski köyde nakit gerekli, ATM yok.",
+        "pronunciation": "ehvEHtehskIH-kuhydEH-nahkIHt-ehrehklIHAHtEHmEH-yAWk",
+        "translation_en": "Yes, cash is needed in the old village, there is no ATM."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash is needed in the old village, there is no ATM.",
+          "phonetic": "ehvEHtehskIH-kuhydEH-nahkIHt-ehrehklIHAHtEHmEH-yAWk",
+          "french": "Evet, eski köyde nakit gerekli, ATM yok."
+        }
+      ]
+    },
+    {
+      "id": "konya_sille_historic_village_005",
+      "intent_en": "Is there parking at the village edge?",
+      "text_local": "Köy kenarında otopark var mı?",
+      "pronunciation": "kUHy-kehnahroondAH-ohtohpAHrk-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "A direct yes/no is avoided as the parking fee situation is unverified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte var.",
+        "pronunciation": "eerihshtEH-vAHr",
+        "translation_en": "There is at the entrance."
+      },
+      "responses": [
+        {
+          "english": "There is at the entrance.",
+          "phonetic": "eerihshtEH-vAHr",
+          "french": "Girişte var."
+        }
+      ]
+    },
+    {
+      "id": "konya_sille_historic_village_006",
+      "intent_en": "Where are the stone houses?",
+      "text_local": "Taş evler nerede?",
+      "pronunciation": "tAHsh-ehvlEHr-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Stone houses are a general feature of the village; their specific location is unverified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Yokuş yukarı, sağda.",
+        "pronunciation": "yohkUHsh-yookahrOOsahdAH",
+        "translation_en": "Uphill, on the right."
+      },
+      "responses": [
+        {
+          "english": "Uphill, on the right.",
+          "phonetic": "yohkUHsh-yookahrOOsahdAH",
+          "french": "Yokuş yukarı, sağda."
+        }
+      ]
+    },
+    {
+      "id": "konya_sille_historic_village_007",
+      "intent_en": "Where is Aya Elena Church?",
+      "text_local": "Aya Elena Kilisesi nerede?",
+      "pronunciation": "ahyAH-ehlehnAH-keeleesehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Staff at unverified locations may be referred to by their role, like bekçi (keeper).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sokaktan yukarı, sağda.",
+        "pronunciation": "sohkahktAHn-yookahrOOsahdAH",
+        "translation_en": "Up the street, on the right."
+      },
+      "responses": [
+        {
+          "english": "Up the street, on the right.",
+          "phonetic": "sohkahktAHn-yookahrOOsahdAH",
+          "french": "Sokaktan yukarı, sağda."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

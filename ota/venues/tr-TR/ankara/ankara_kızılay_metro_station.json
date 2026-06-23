@@ -1,0 +1,188 @@
+{
+  "id": "ankara_kızılay_metro_station",
+  "name_en": "Kızılay Metro Station",
+  "name_local": "Kızılay Metro İstasyonu",
+  "icon": "tram",
+  "lat": 39.9207759,
+  "lon": 32.8540497,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ankara_kızılay_metro_station_001",
+      "intent_en": "Where do I reload my AnkaraKart?",
+      "text_local": "AnkaraKartımı nerede yükleyebilirim?",
+      "pronunciation": "AHnkahrah-kAHrtoomoo-nEHrehdeh-yuhklehyehbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "AnkaraKart is the city's contactless transport card; kiosks are self-service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki AnkaraKart yükleme kiosklarından.",
+        "pronunciation": "eerihshtehkIH-AHnkahrah-kAHrt-yUHklehmeh-keeawskahroondAHn",
+        "translation_en": "At the AnkaraKart reload kiosks at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the AnkaraKart reload kiosks at the entrance.",
+          "phonetic": "eerihshtehkIH-AHnkahrah-kAHrt-yUHklehmeh-keeawskahroondAHn",
+          "french": "Girişteki AnkaraKart yükleme kiosklarından."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kızılay_metro_station_002",
+      "intent_en": "Which platform for M2 line?",
+      "text_local": "M2 hattı için hangi peron?",
+      "pronunciation": "mEH-eeEE-hahtOO-pehrohnUH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Metro stations in Ankara use clear signage for different lines.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "2. perona inin.",
+        "pronunciation": "eeEE-pehrohnAH-eenEEn",
+        "translation_en": "Go down to platform 2."
+      },
+      "responses": [
+        {
+          "english": "Go down to platform 2.",
+          "phonetic": "eeEE-pehrohnAH-eenEEn",
+          "french": "2. perona inin."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kızılay_metro_station_003",
+      "intent_en": "Where do I reload my AnkaraKart?",
+      "text_local": "AnkaraKartımı nerede doldurabilirim?",
+      "pronunciation": "AHnkahrah-kAHrtoomoo-nEHrehdeh-dawdoorahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "AnkaraKart is the contactless smart card for public transport in Ankara.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "AnkaraKart yükleme kioskları girişte.",
+        "pronunciation": "AHnkahrah-kAHrt-yUHklehmeh-keeawskahrOO-eerihshtEH",
+        "translation_en": "AnkaraKart reload kiosks at the entrance."
+      },
+      "responses": [
+        {
+          "english": "AnkaraKart reload kiosks at the entrance.",
+          "phonetic": "AHnkahrah-kAHrt-yUHklehmeh-keeawskahrOO-eerihshtEH",
+          "french": "AnkaraKart yükleme kioskları girişte."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kızılay_metro_station_004",
+      "intent_en": "When does the last train leave?",
+      "text_local": "Son tren ne zaman kalkıyor?",
+      "pronunciation": "sAWn-trAHn-nEH-zahmAHn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "Exact departure times change; staff or posted timetables are the most reliable source.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gece yarısı on ikiyi çeyrek geçe.",
+        "pronunciation": "EHdzheh-yahroosOO-AWn-eekeeyIH-tshehyrEHk-EHtsheh",
+        "translation_en": "At quarter past twelve midnight."
+      },
+      "responses": [
+        {
+          "english": "At quarter past twelve midnight.",
+          "phonetic": "EHdzheh-yahroosOO-AWn-eekeeyIH-tshehyrEHk-EHtsheh",
+          "french": "Gece yarısı on ikiyi çeyrek geçe."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kızılay_metro_station_005",
+      "intent_en": "Where do I tap my card at turnstile?",
+      "text_local": "Turnikede kartımı nereye okutmalıyım?",
+      "pronunciation": "tuhrneekehdEH-kAHrtoomoo-nEHrehyeh-ohkuhtmahOOyoom",
+      "formality": "standard",
+      "cultural_note": "The reader is typically a flat, circular sensor on top of the turnstile.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Turnike giriş noktasındaki okuyucuya.",
+        "pronunciation": "tuhrneekEH-eerIHsh-nawktahsoondahkIH-ohkooyoodzhooyAH",
+        "translation_en": "On the reader at the turnstile entry point."
+      },
+      "responses": [
+        {
+          "english": "On the reader at the turnstile entry point.",
+          "phonetic": "tuhrneekEH-eerIHsh-nawktahsoondahkIH-ohkooyoodzhooyAH",
+          "french": "Turnike giriş noktasındaki okuyucuya."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kızılay_metro_station_006",
+      "intent_en": "Which platform for M2 line?",
+      "text_local": "Kızılay'da M2 hattı hangi perondan kalkıyor?",
+      "pronunciation": "mEH-eeEE-hahtOO-eetshIHn-hahngIH-pehrAWn",
+      "formality": "standard",
+      "cultural_note": "The M2 line serves the Çayyolu direction in Ankara.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aşağı in, Peron 2'de.",
+        "pronunciation": "ahshahOO-IHnpehrAWn-eeEE-dEH",
+        "translation_en": "Go down, it's on platform 2."
+      },
+      "responses": [
+        {
+          "english": "Go down, it's on platform 2.",
+          "phonetic": "ahshahOO-IHnpehrAWn-eeEE-dEH",
+          "french": "Aşağı in, Peron 2'de."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kızılay_metro_station_007",
+      "intent_en": "Where do I tap my card at turnstile?",
+      "text_local": "Kartımı turnikede nereye okutmalıyım?",
+      "pronunciation": "kAHrtoomoo-tuhrneekehdEH-nEHrehyeh-ohkuhtmahOOyoom",
+      "formality": "standard",
+      "cultural_note": "Tap your AnkaraKart on the circular reader at the top of the turnstile to enter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Turnike giriş noktasındaki okuyucuya dokundurun.",
+        "pronunciation": "tuhrneekEH-eerIHsh-nawktahsoondahkIH-ohkooyoodzhooyAH-dohkUHndooruhn",
+        "translation_en": "Tap on the reader at the turnstile entry point."
+      },
+      "responses": [
+        {
+          "english": "Tap on the reader at the turnstile entry point.",
+          "phonetic": "tuhrneekEH-eerIHsh-nawktahsoondahkIH-ohkooyoodzhooyAH-dohkUHndooruhn",
+          "french": "Turnike giriş noktasındaki okuyucuya dokundurun."
+        }
+      ]
+    },
+    {
+      "id": "ankara_kızılay_metro_station_008",
+      "intent_en": "Where is the customer service desk?",
+      "text_local": "Müşteri hizmetleri masası nerede?",
+      "pronunciation": "muhshtehrIH-hihzmehtlehrIH-mahsahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The exact location of the desk within the station is not specified; asking staff is best.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte, sağda.",
+        "pronunciation": "eerihshtEHsahdAH",
+        "translation_en": "At the entrance, on the right."
+      },
+      "responses": [
+        {
+          "english": "At the entrance, on the right.",
+          "phonetic": "eerihshtEHsahdAH",
+          "french": "Girişte, sağda."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

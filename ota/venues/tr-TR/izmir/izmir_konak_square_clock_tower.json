@@ -1,0 +1,188 @@
+{
+  "id": "izmir_konak_square_clock_tower",
+  "name_en": "Konak Square Clock Tower",
+  "name_local": "Konak Saat Kulesi",
+  "icon": "building.columns",
+  "lat": 38.4192537,
+  "lon": 27.128469,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "izmir_konak_square_clock_tower_001",
+      "intent_en": "Which way to Atatürk Avenue?",
+      "text_local": "Atatürk Caddesi'ne hangi yöne?",
+      "pronunciation": "ahtahtUHrk-dzhahdehseenEH-hahngIH-yuhnEH",
+      "formality": "standard",
+      "cultural_note": "Atatürk Avenue is a stable target but its direction from the square is not specified in the context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Caddeye karşıdan karşıya geçin.",
+        "pronunciation": "dzhahdehyEH-kahrshoodAHn-kahrshooyAH-ehtshIHn",
+        "translation_en": "Cross the street to the avenue."
+      },
+      "responses": [
+        {
+          "english": "Cross the street to the avenue.",
+          "phonetic": "dzhahdehyEH-kahrshoodAHn-kahrshooyAH-ehtshIHn",
+          "french": "Caddeye karşıdan karşıya geçin."
+        }
+      ]
+    },
+    {
+      "id": "izmir_konak_square_clock_tower_002",
+      "intent_en": "Which way to Atatürk Avenue?",
+      "text_local": "Atatürk Caddesi'ne hangi yöne gideceğim?",
+      "pronunciation": "ahtahtUHrk-dzhahdehseenEH-hahngIH-yuhnEH-eedehdzhEHyihm",
+      "formality": "standard",
+      "cultural_note": "Caddenin yönü bağlamda doğrulanmadığı için güvenli yanıt verilmiştir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meydanın sol tarafından devam edin.",
+        "pronunciation": "mehydahnOOn-sAW-tahrahfoondAHn-dehvAHm-ehdEEn",
+        "translation_en": "Continue from the left side of the square."
+      },
+      "responses": [
+        {
+          "english": "Continue from the left side of the square.",
+          "phonetic": "mehydahnOOn-sAW-tahrahfoondAHn-dehvAHm-ehdEEn",
+          "french": "Meydanın sol tarafından devam edin."
+        }
+      ]
+    },
+    {
+      "id": "izmir_konak_square_clock_tower_003",
+      "intent_en": "Where is Vali Konağı building?",
+      "text_local": "Vali Konağı binası nerede?",
+      "pronunciation": "vahlIH-kohnahOO-beenahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Vali Konağı'nın meydanda olduğu bağlamda belirtilmiştir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Konak Meydanı'nda.",
+        "pronunciation": "kohnAHk-mehydahnoondAH",
+        "translation_en": "At Konak Square."
+      },
+      "responses": [
+        {
+          "english": "At Konak Square.",
+          "phonetic": "kohnAHk-mehydahnoondAH",
+          "french": "Konak Meydanı'nda."
+        }
+      ]
+    },
+    {
+      "id": "izmir_konak_square_clock_tower_004",
+      "intent_en": "Where is the ferry pier?",
+      "text_local": "Feribot iskelesi nerede?",
+      "pronunciation": "fehreebAWt-ihskehlehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "İskelenin tam konumu bağlamda doğrulanmadığı için güvenli yanıt verilmiştir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Karşıda, deniz kenarında.",
+        "pronunciation": "kahrshoodAHdEHnihz-kehnahroondAH",
+        "translation_en": "On the opposite side, by the seaside."
+      },
+      "responses": [
+        {
+          "english": "On the opposite side, by the seaside.",
+          "phonetic": "kahrshoodAHdEHnihz-kehnahroondAH",
+          "french": "Karşıda, deniz kenarında."
+        }
+      ]
+    },
+    {
+      "id": "izmir_konak_square_clock_tower_005",
+      "intent_en": "Where to find a taxi?",
+      "text_local": "Taksi durağı nerede?",
+      "pronunciation": "tahksIH-doorahOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Taksi durağının meydan yakınında olduğu belirtilmiş, kesin konum verilmemiştir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meydanın yakınında.",
+        "pronunciation": "mehydahnOOn-yahkoonoondAH",
+        "translation_en": "Near the square."
+      },
+      "responses": [
+        {
+          "english": "Near the square.",
+          "phonetic": "mehydahnOOn-yahkoonoondAH",
+          "french": "Meydanın yakınında."
+        }
+      ]
+    },
+    {
+      "id": "izmir_konak_square_clock_tower_006",
+      "intent_en": "Where to top up İzmirim Kart?",
+      "text_local": "İzmirim Kart dolumu nerede yapılır?",
+      "pronunciation": "IHzmeerihm-kAHrt-dOHoomuh-nEHrehdeh-yahpooOOr",
+      "formality": "standard",
+      "cultural_note": "İzmirim Kart top-up is listed as unverified. No grounded location can be given.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İskelenin yanındaki büfede.",
+        "pronunciation": "ihskEHlehnihn-yahnoondahkIH-buefehdEH",
+        "translation_en": "At the kiosk next to the pier."
+      },
+      "responses": [
+        {
+          "english": "At the kiosk next to the pier.",
+          "phonetic": "ihskEHlehnihn-yahnoondahkIH-buefehdEH",
+          "french": "İskelenin yanındaki büfede."
+        }
+      ]
+    },
+    {
+      "id": "izmir_konak_square_clock_tower_007",
+      "intent_en": "Where to top up İzmirim Kart?",
+      "text_local": "İzmirim Kart'ı nerede doldurabilirim?",
+      "pronunciation": "IHzmeerihm-kahrtAH-nEHrehdeh-yUHklehmeh-yahpahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "Dolum noktasının yeri doğrulanmadığı için güvenli yanıt verilmiştir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İskeledeki otomatta.",
+        "pronunciation": "ihskehlehdehkIH-ohtohmahtAH",
+        "translation_en": "At the machine on the pier."
+      },
+      "responses": [
+        {
+          "english": "At the machine on the pier.",
+          "phonetic": "ihskehlehdehkIH-ohtohmahtAH",
+          "french": "İskeledeki otomatta."
+        }
+      ]
+    },
+    {
+      "id": "izmir_konak_square_clock_tower_008",
+      "intent_en": "Where to find a taxi?",
+      "text_local": "Taksiyi nerede bulurum?",
+      "pronunciation": "tahksIH-nEHrehdahn-booahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "A taxi queue is listed as unverified, so a precise location cannot be confirmed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Meydanın kenarında.",
+        "pronunciation": "mehydahnOOn-kehnahroondAH",
+        "translation_en": "At the edge of the square."
+      },
+      "responses": [
+        {
+          "english": "At the edge of the square.",
+          "phonetic": "mehydahnOOn-kehnahroondAH",
+          "french": "Meydanın kenarında."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

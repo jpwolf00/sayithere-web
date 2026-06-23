@@ -1,0 +1,78 @@
+{
+  "id": "kutná_hora_st_barbaras_church",
+  "name_en": "St. Barbara's Church",
+  "name_local": "Chrám svaté Barbory",
+  "icon": "building.columns",
+  "lat": 49.9449289,
+  "lon": 15.2636465,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "kutná_hora_st_barbaras_church_001",
+      "intent_en": "Where are the mining-themed frescoes",
+      "text_local": "Kde jsou fresky s hornickou tematikou?",
+      "pronunciation": "kdEH-ysoh-frEHskee-s-hOHrnyeetskoh-tEHmahtEEkoh",
+      "formality": "standard",
+      "cultural_note": "Czechs often use landmarks like 'side chapels' rather than compass directions. 'Po levé straně' (on the left side) is the most natural way to give indoor directions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V bočních kaplích po levé straně.",
+        "pronunciation": "v-bOHtshnyeekh-kAHpleekh-pOHlehveh-strAHnyeh",
+        "translation_en": "In the side chapels on the left."
+      },
+      "responses": [
+        {
+          "english": "In the side chapels on the left.",
+          "phonetic": "v-bOHtshnyeekh-kAHpleekh-pOHlehveh-strAHnyeh",
+          "french": "V bočních kaplích po levé straně."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_st_barbaras_church_002",
+      "intent_en": "Where do I get the audio guide",
+      "text_local": "Kde si můžu půjčit audio průvodce?",
+      "pronunciation": "kdEH-see-mOOzhoo-pOOytsheet-OWdeeoh-prOOvohttseh",
+      "formality": "standard",
+      "cultural_note": "In Czech churches and attractions, the pokladna (ticket desk) almost always handles audio guide rentals. 'Hned' (right/immediately) is commonly used for precise proximity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U pokladny, hned u vchodu.",
+        "pronunciation": "OO-pOHklahdneehnEHd-OO-fkhOHdoo",
+        "translation_en": "At the ticket desk, right by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the ticket desk, right by the entrance.",
+          "phonetic": "OO-pOHklahdneehnEHd-OO-fkhOHdoo",
+          "french": "U pokladny, hned u vchodu."
+        }
+      ]
+    },
+    {
+      "id": "kutná_hora_st_barbaras_church_003",
+      "intent_en": "Is photography permitted in the Gothic nave",
+      "text_local": "Můžu fotit v gotické lodi?",
+      "pronunciation": "mOOzhoo-fOHeet-v-gOHteetskeh-lOHee",
+      "formality": "standard",
+      "cultural_note": "Many Czech historic interiors allow photography but strictly prohibit flash to protect artwork. 'Jen bez blesku' is the standard, terse response from staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, ale jen bez blesku.",
+        "pronunciation": "AHnohAHleh-yEHn-bEHzblehskoo",
+        "translation_en": "Yes, but only without flash."
+      },
+      "responses": [
+        {
+          "english": "Yes, but only without flash.",
+          "phonetic": "AHnohAHleh-yEHn-bEHzblehskoo",
+          "french": "Ano, ale jen bez blesku."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

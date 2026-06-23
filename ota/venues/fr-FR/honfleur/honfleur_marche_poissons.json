@@ -1,0 +1,118 @@
+{
+  "id": "honfleur_marche_poissons",
+  "name_en": "Fish Market",
+  "name_local": "Marché aux poissons de Honfleur",
+  "icon": "fork.knife",
+  "lat": 49.4186,
+  "lon": 0.234,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "honfleur_marche_001",
+      "intent_en": "Ask what fish is freshest today",
+      "text_local": "Quel poisson est le plus frais aujourd'hui ?",
+      "pronunciation": "kel pwah-SOHN eh luh ploo FRAY oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Honfleur's fish market receives catches from local boats working the Seine estuary and English Channel. The catch varies daily — sole, turbot, sea bass (bar), and shrimp (crevettes grises) are local specialities.",
+      "responses": [
+        {
+          "english": "The sole is very fresh today.",
+          "phonetic": "lah SOHL eh treh FRESH oh-zhoor-DWEE",
+          "french": "La sole est très fraîche aujourd'hui."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_marche_002",
+      "intent_en": "Ask for a small portion of grey shrimps",
+      "text_local": "Je voudrais une portion de crevettes grises, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY oon por-SYOHN duh kruh-VET GREEZ seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Grey shrimps (crevettes grises) from the Norman coast are tiny, intensely flavoured, and eaten cold — often with bread, butter, and a squeeze of lemon. They are sold in small cups and eaten on the quayside by locals and tourists alike.",
+      "responses": [
+        {
+          "english": "Here you go. Six euros.",
+          "phonetic": "vwah-LAH. seez uh-ROH",
+          "french": "Voilà. Six euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_marche_003",
+      "intent_en": "Ask the fishmonger to clean and fillet a fish",
+      "text_local": "Pourriez-vous vider et lever les filets de ce poisson, s'il vous plaît ?",
+      "pronunciation": "poor-YAY-voo vee-DAY ay luh-VAY lay fee-LAY duh suh pwah-SOHN seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "French fishmongers (poissonniers) will fillet and clean fish for you at no extra charge. This service is standard practice and highly valued — it takes skill and a good knife.",
+      "responses": [
+        {
+          "english": "Yes, I'll prepare it for you.",
+          "phonetic": "wee, zhuh voo luh pray-PAR",
+          "french": "Oui, je vous le prépare."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_marche_004",
+      "intent_en": "Ask what time the market closes",
+      "text_local": "À quelle heure ferme le marché aux poissons ?",
+      "pronunciation": "ah kel UR FAIRM luh mar-SHAY oh pwah-SOHN",
+      "formality": "polite",
+      "cultural_note": "The fish market is typically busiest in the morning between 7am and 1pm. Stock sells out quickly — arriving after noon means limited choice. Saturdays tend to be the largest market days in Honfleur.",
+      "responses": [
+        {
+          "english": "At 1 PM.",
+          "phonetic": "ah TREHZ UHR",
+          "french": "À treize heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "honfleur_marche_005",
+      "intent_en": "Ask for a recommendation for cooking sole",
+      "text_local": "Comment vous conseillez-vous de préparer la sole normande à la maison ?",
+      "pronunciation": "koh-MAHN voo kohn-SAY-yay-VOO duh pray-pah-RAY lah SOL nor-MAHND ah lah may-ZOHN",
+      "formality": "polite",
+      "cultural_note": "Sole normande is classically prepared à la meunière — dusted in flour, sautéed in butter, and finished with lemon and parsley. Many fishmongers are happy to give cooking advice. Buying fish from the source in Honfleur is a memorable experience.",
+      "responses": [
+        {
+          "english": "In butter, with a bit of lemon.",
+          "phonetic": "oh BUHR, ah-VEK uhn puh duh see-TROHN",
+          "french": "Au beurre, avec un peu de citron."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "fish",
+      "word_local": "le poisson",
+      "pronunciation": "luh pwah-SOHN"
+    },
+    {
+      "word_en": "grey shrimps",
+      "word_local": "les crevettes grises",
+      "pronunciation": "lay kruh-VET GREEZ"
+    },
+    {
+      "word_en": "sole (fish)",
+      "word_local": "la sole",
+      "pronunciation": "lah SOL"
+    },
+    {
+      "word_en": "fishmonger",
+      "word_local": "le poissonnier",
+      "pronunciation": "luh pwah-soh-NYAY"
+    }
+  ]
+}

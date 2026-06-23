@@ -1,0 +1,100 @@
+{
+  "id": "bamberg_schlenkerla_tavern",
+  "name_en": "Schlenkerla Tavern",
+  "name_local": "Schlenkerla",
+  "icon": "fork.knife",
+  "lat": 49.8916874,
+  "lon": 10.8850088,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "bamberg_schlenkerla_tavern_001",
+      "intent_en": "Do I wait to be seated or sit down?",
+      "text_local": "Warte ich auf Platz oder setze mich?",
+      "pronunciation": "vAHrtuh-ihkh-owf-plAHts-OHd-zEHtsuh-mihkh",
+      "formality": "standard",
+      "cultural_note": "Gäste werden vom Personal an Tische geleitet; Selbstsetzen ist unüblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sie werden platziert.",
+        "pronunciation": "zee-vEHrduhn-plahtsEErt",
+        "translation_en": "You will be seated."
+      },
+      "responses": [
+        {
+          "english": "You will be seated.",
+          "phonetic": "zee-vEHrduhn-plahtsEErt",
+          "french": "Sie werden platziert."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_schlenkerla_tavern_002",
+      "intent_en": "Do I pay cash at bar for beer?",
+      "text_local": "Zahlt man Bier bar in bar?",
+      "pronunciation": "tsAHlt-mahn-bEEr-bAHr-ihn-bAHr",
+      "formality": "standard",
+      "cultural_note": "Bier wird direkt an der Theke bezahlt, kein Tischservice für Getränke.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, nur Barzahlung.",
+        "pronunciation": "yAHnOOr-bAHrtsahlUHng",
+        "translation_en": "Yes, cash only at bar."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only at bar.",
+          "phonetic": "yAHnOOr-bAHrtsahlUHng",
+          "french": "Ja, nur Barzahlung."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_schlenkerla_tavern_003",
+      "intent_en": "Where are the oakwood casks stored?",
+      "text_local": "Wo stehen die Eichenholzfässer?",
+      "pronunciation": "vOH-shtEHuhn-dee-EYEkhuhnhAWltsfehs",
+      "formality": "standard",
+      "cultural_note": "Fässer sind zentral im Gastraum oder an der Theke aufgestellt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Theke oder in der Nähe.",
+        "pronunciation": "ahn-dehr-tEHkuh-OHd-ihn-dehr-nEHuh",
+        "translation_en": "At or near the bar."
+      },
+      "responses": [
+        {
+          "english": "At or near the bar.",
+          "phonetic": "ahn-dehr-tEHkuh-OHd-ihn-dehr-nEHuh",
+          "french": "An der Theke oder in der Nähe."
+        }
+      ]
+    },
+    {
+      "id": "bamberg_schlenkerla_tavern_004",
+      "intent_en": "Is oakwood cask beer available today?",
+      "text_local": "Ist Fass vom Eichenholz verfügbar?",
+      "pronunciation": "ihst-fAHs-fawm-EYEkhuhnhAWlts-fehrfUEkbahr",
+      "formality": "standard",
+      "cultural_note": "Fässer aus Eichenholz sind typisch für Schlenkerla und oft präsent.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute verfügbar.",
+        "pronunciation": "yAHhAWuhtuh-fehrfUEkbahr",
+        "translation_en": "Yes, available today."
+      },
+      "responses": [
+        {
+          "english": "Yes, available today.",
+          "phonetic": "yAHhAWuhtuh-fehrfUEkbahr",
+          "french": "Ja, heute verfügbar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

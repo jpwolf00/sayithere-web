@@ -1,0 +1,100 @@
+{
+  "id": "dresden_frauenkirche",
+  "name_en": "Frauenkirche",
+  "name_local": "Frauenkirche",
+  "icon": "building.columns",
+  "lat": 51.051957,
+  "lon": 13.7416198,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "dresden_frauenkirche_001",
+      "intent_en": "Can I see the original organ?",
+      "text_local": "Darf ich die originale Orgel sehen?",
+      "pronunciation": "dAHrf-ihkh-dee-OHriheenAHluh-AWruhl-zEHuhn",
+      "formality": "standard",
+      "cultural_note": "The organ is a central feature of the Frauenkirche; its visibility is often tied to guided tours or gallery access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, auf der Galerieebene.",
+        "pronunciation": "yAHowf-dehr-AHlehrEEehbuhnuh",
+        "translation_en": "Yes, on the gallery level."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the gallery level.",
+          "phonetic": "yAHowf-dehr-AHlehrEEehbuhnuh",
+          "french": "Ja, auf der Galerieebene."
+        }
+      ]
+    },
+    {
+      "id": "dresden_frauenkirche_002",
+      "intent_en": "Where is the Fürstliche Loge?",
+      "text_local": "Wo befindet sich die Fürstliche Loge?",
+      "pronunciation": "vOH-buhfIHnduht-zihkh-dee-fUErstlihkhuh-lOHuh",
+      "formality": "standard",
+      "cultural_note": "The princely lodge is a historic feature; staff guidance is typically required due to its elevated position and limited visibility.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Fürstliche Loge ist links vom Altar.",
+        "pronunciation": "dee-fUErstlihkhuh-lOHguh-ihst-lINGks-fawm-ahltAHr",
+        "translation_en": "The princely lodge is to the left of the altar."
+      },
+      "responses": [
+        {
+          "english": "The princely lodge is to the left of the altar.",
+          "phonetic": "dee-fUErstlihkhuh-lOHguh-ihst-lINGks-fawm-ahltAHr",
+          "french": "Die Fürstliche Loge ist links vom Altar."
+        }
+      ]
+    },
+    {
+      "id": "dresden_frauenkirche_003",
+      "intent_en": "Where is the dome gallery entrance?",
+      "text_local": "Wo geht es zur Kuppelgalerie?",
+      "pronunciation": "vOH-EHt-ehs-tsoor-kUHpuhlAHlehrEE",
+      "formality": "standard",
+      "cultural_note": "Directions may assume familiarity with the church layout; visitors often expect a clear path to the dome ascent.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Treppenaufgang links vorne.",
+        "pronunciation": "trEHpuhnOWfahng-lINGks-fAWrnuh",
+        "translation_en": "Staircase to the left at the front."
+      },
+      "responses": [
+        {
+          "english": "Staircase to the left at the front.",
+          "phonetic": "trEHpuhnOWfahng-lINGks-fAWrnuh",
+          "french": "Treppenaufgang links vorne."
+        }
+      ]
+    },
+    {
+      "id": "dresden_frauenkirche_004",
+      "intent_en": "Is church entry free or paid?",
+      "text_local": "Ist der Eintritt ins Kirchenschiff kostenpflichtig?",
+      "pronunciation": "ihst-dehr-EYEntrIHt-ihns-kIHrkhuhnshIHf-kAWstuhnpflIHkhtihkh",
+      "formality": "casual",
+      "cultural_note": "Churches in Germany often rely on voluntary donations; explicit pricing for basic entry is uncommon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kostenlos, Spenden willkommen.",
+        "pronunciation": "kAWstuhnlOHsshpEHnduhn-vihlkAWmuhn",
+        "translation_en": "Free, donations welcome."
+      },
+      "responses": [
+        {
+          "english": "Free, donations welcome.",
+          "phonetic": "kAWstuhnlOHsshpEHnduhn-vihlkAWmuhn",
+          "french": "Kostenlos, Spenden willkommen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,108 @@
+{
+  "id": "venue_marche_enfants_rouges",
+  "name_en": "Marché des Enfants Rouges",
+  "name_local": "Marché des Enfants Rouges",
+  "icon": "basket.fill",
+  "phrases": [
+    {
+      "id": "venue_marche_001",
+      "intent_en": "Ask what the market's specialty is",
+      "text_local": "Qu'est-ce qu'il faut goûter absolument ici ?",
+      "pronunciation": "kess keel FOH goo-TAY ahb-soh-loo-MAHN ee-SEE",
+      "formality": "casual",
+      "cultural_note": "This is Paris's oldest covered market (1615). The Moroccan couscous stand and the Japanese bento stall are legendary. Come hungry — portions are generous.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "We are known for the prepared dishes. There is everything.",
+          "phonetic": "ohn eh koh-NOO poor lay plah kwee-zee-NAY. eel ee ah duh too",
+          "french": "On est connus pour les plats cuisinés. Il y a de tout."
+        }
+      ]
+    },
+    {
+      "id": "venue_marche_002",
+      "intent_en": "Ask to taste something before buying",
+      "text_local": "Est-ce que je peux goûter ?",
+      "pronunciation": "ess kuh zhuh puh goo-TAY",
+      "formality": "polite",
+      "cultural_note": "Most vendors are happy to offer a taste, especially cheese and charcuterie stalls. Always ask first — just pointing and asking 'goûter?' with a smile works too.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, taste it, please go ahead.",
+          "phonetic": "wee, goo-TAY, zhuh vooz ahn pree",
+          "french": "Oui, goûtez, je vous en prie."
+        }
+      ]
+    },
+    {
+      "id": "venue_marche_003",
+      "intent_en": "Order food at a stand",
+      "text_local": "Je vais prendre le couscous royal, s'il vous plaît.",
+      "pronunciation": "zhuh vay PRAHNDR luh koos-KOOS rwah-YAL, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The couscous stand often has a line — it's worth the wait. 'Royal' means it comes with multiple meats (lamb, chicken, merguez). Grab a seat at the communal tables.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Do you want to eat here or take away?",
+          "phonetic": "voo voo-LAY mahn-ZHAY soor plass oo ahm-por-TAY",
+          "french": "Vous voulez manger sur place ou emporter ?"
+        }
+      ]
+    },
+    {
+      "id": "venue_marche_004",
+      "intent_en": "Ask about the market's opening hours",
+      "text_local": "Le marché est ouvert jusqu'à quelle heure ?",
+      "pronunciation": "luh mar-SHAY eh oo-VEHR zhoos-KAH kel UHR",
+      "formality": "standard",
+      "cultural_note": "Open Tuesday-Saturday 8:30 AM-8:30 PM, Sunday until 5 PM. Closed Monday. Lunchtime (12-2 PM) is the busiest — come at 11:30 for the best seating.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "We are open Tuesday to Sunday, eight thirty to eight thirty.",
+          "phonetic": "ohn eh oo-VEHR doo mar-DEE oh dee-MAHNSH, duh weet uhr trahnt ah vant uhr trahnt",
+          "french": "On est ouvert du mardi au dimanche, de huit heures trente à vingt heures trente."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Market",
+      "word_local": "Marché",
+      "pronunciation": "mar-SHAY"
+    },
+    {
+      "word_en": "To taste",
+      "word_local": "Goûter",
+      "pronunciation": "goo-TAY"
+    },
+    {
+      "word_en": "Food stall",
+      "word_local": "Stand / Étal",
+      "pronunciation": "stahnd / ay-TAL"
+    },
+    {
+      "word_en": "Couscous",
+      "word_local": "Couscous",
+      "pronunciation": "koos-KOOS"
+    },
+    {
+      "word_en": "Cheese",
+      "word_local": "Fromage",
+      "pronunciation": "froh-MAHZH"
+    },
+    {
+      "word_en": "Organic",
+      "word_local": "Bio",
+      "pronunciation": "bee-OH"
+    }
+  ]
+}

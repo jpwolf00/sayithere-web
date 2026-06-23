@@ -1,0 +1,135 @@
+{
+  "id": "msm_mere_poulard",
+  "name_en": "Restaurant La Mère Poulard",
+  "name_local": "Restaurant La Mère Poulard",
+  "icon": "fork.knife",
+  "lat": 48.6354,
+  "lon": -1.5116,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "msm_poulard_001",
+      "intent_en": "Reserve a table for two",
+      "text_local": "Je voudrais réserver une table pour deux personnes, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY ray-zair-VAY oon TABL poor duh pair-SON seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "La Mère Poulard is one of France's most iconic restaurants, famous since 1888 for its fluffy omelettes cooked over an open wood fire in large copper pans. Reservations are strongly advised in high season.",
+      "responses": [
+        {
+          "english": "You need to reserve. Tonight at eight?",
+          "phonetic": "eel foh ray-zair-VAY suh SWAHR ah VAHN UR",
+          "french": "Il faut réserver. Ce soir à vingt heures ?"
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_poulard_002",
+      "intent_en": "Order the famous omelette",
+      "text_local": "Je vais prendre l'omelette de la Mère Poulard, s'il vous plaît.",
+      "pronunciation": "zhuh vay PRAHN-druh lom-LET duh lah mair poo-LAR seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The omelette is beaten vigorously by hand and cooked in a long-handled pan over a fire — the theatrical preparation is part of the experience. It is light and soufflé-like, unlike a standard French omelette.",
+      "responses": [
+        {
+          "english": "Very good choice.",
+          "phonetic": "tray bohn SHWAH",
+          "french": "Très bon choix."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_poulard_003",
+      "intent_en": "Ask about the prix-fixe lunch menu",
+      "text_local": "Quel est le menu du déjeuner aujourd'hui ?",
+      "pronunciation": "kel eh luh muh-NOO doo day-zhuh-NAY oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "A set lunch menu (menu du déjeuner) is often better value than ordering à la carte. It typically includes a starter, the omelette, and dessert. Prices at La Mère Poulard are high — this is a luxury experience.",
+      "responses": [
+        {
+          "english": "The set menu is forty-five euros.",
+          "phonetic": "luh muh-NOO eh tah kah-RAHNT-SAHNK uh-ROH",
+          "french": "Le menu est à quarante-cinq euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_poulard_004",
+      "intent_en": "Ask for a wine recommendation with the meal",
+      "text_local": "Quel vin recommandez-vous pour accompagner l'omelette ?",
+      "pronunciation": "kel VAHN ruh-koh-mahn-DAY-voo poor ah-kohm-pah-NYAY lom-LET",
+      "formality": "polite",
+      "cultural_note": "A light white Burgundy or a dry Muscadet from the Loire Valley pairs well with the omelette. The restaurant also offers Norman cidre brut as a local alternative to wine.",
+      "responses": [
+        {
+          "english": "A Muscadet pairs very well.",
+          "phonetic": "uhn moos-kah-DAY suh mah-REE tray BYAHN",
+          "french": "Un muscadet se marie très bien."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_poulard_005",
+      "intent_en": "Ask for the bill",
+      "text_local": "L'addition, s'il vous plaît.",
+      "pronunciation": "lah-dee-SYOHN seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Service is included (service compris) in French restaurants by law, but leaving a few euros as an additional tip for excellent service is appreciated. Do not leave change on the table — hand it to the server.",
+      "responses": [
+        {
+          "english": "Right away.",
+          "phonetic": "too duh SWEET",
+          "french": "Tout de suite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_poulard_006",
+      "intent_en": "Ask if the biscuits are available to buy as gifts",
+      "text_local": "Est-ce qu'on peut acheter vos biscuits pour les offrir en cadeau ?",
+      "pronunciation": "ess kohn PUH ash-TAY voh bees-KWEE poor lay oh-FREE ahn kah-DOH",
+      "formality": "polite",
+      "cultural_note": "La Mère Poulard is also famous for its buttery shortbread biscuits sold in distinctive vintage tins — one of the most popular edible souvenirs from Mont Saint-Michel.",
+      "responses": [
+        {
+          "english": "Yes, the tins are near the register.",
+          "phonetic": "wee lay BWAHT sohn pray duh lah KESS",
+          "french": "Oui, les boîtes sont près de la caisse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "omelette",
+      "word_local": "l'omelette",
+      "pronunciation": "lom-LET"
+    },
+    {
+      "word_en": "reservation",
+      "word_local": "la réservation",
+      "pronunciation": "lah ray-zair-vah-SYOHN"
+    },
+    {
+      "word_en": "the bill",
+      "word_local": "l'addition",
+      "pronunciation": "lah-dee-SYOHN"
+    },
+    {
+      "word_en": "biscuits / cookies",
+      "word_local": "les biscuits",
+      "pronunciation": "lay bees-KWEE"
+    }
+  ]
+}

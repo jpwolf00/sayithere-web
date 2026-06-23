@@ -1,0 +1,115 @@
+{
+  "id": "lyon_opera_de_lyon",
+  "name_en": "Lyon Opera House",
+  "name_local": "Opéra de Lyon",
+  "icon": "music.note",
+  "phrases": [
+    {
+      "id": "lyon_opera_001",
+      "intent_en": "Ask what is showing this season",
+      "text_local": "Qu'est-ce qui est programmé cette saison à l'opéra ?",
+      "pronunciation": "kes-kee eh proh-grah-MAY set say-ZOHN ah loh-pay-RAH",
+      "formality": "polite",
+      "cultural_note": "The Opéra de Lyon is one of France's most respected opera houses, known for adventurous programming and its ballet company. The season runs from September to June.",
+      "responses": [
+        {
+          "english": "Check the programme at reception.",
+          "phonetic": "vay-ree-FYAY luh proh-GRAM ah lah-KUHY",
+          "french": "Vérifiez le programme à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_opera_002",
+      "intent_en": "Ask about the dress code for the evening",
+      "text_local": "Y a-t-il une tenue vestimentaire recommandée pour ce soir ?",
+      "pronunciation": "ee ah-TEEL oon tuh-NOO ves-tee-mahn-TAIR ruh-koh-mahn-DAY poor suh SWAR",
+      "formality": "polite",
+      "cultural_note": "Smart dress is traditional at the opera but rarely enforced. Evening performances tend to attract a more formally dressed crowd than matinees.",
+      "responses": [
+        {
+          "english": "Smart dress required.",
+          "phonetic": "tuh-NOO koh-REKT eg-zee-ZHAY",
+          "french": "Tenue correcte exigée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_opera_003",
+      "intent_en": "Ask where to collect reserved tickets",
+      "text_local": "Où puis-je retirer les billets que j'ai réservés ?",
+      "pronunciation": "oo pwee-zhuh ruh-tee-RAY lay bee-YEH kuh zhay ray-ZAIR-vay",
+      "formality": "polite",
+      "cultural_note": "The box office (billetterie) is on the ground floor near the main entrance. Arrive at least 30 minutes before the performance to collect tickets and find your seat.",
+      "responses": [
+        {
+          "english": "At the box office, with your reference.",
+          "phonetic": "oh ghee-SHEH, ah-VEK voh-truh ray-fay-RAHNS",
+          "french": "Au guichet, avec votre référence."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_opera_004",
+      "intent_en": "Ask if there are student tickets available",
+      "text_local": "Y a-t-il des places à tarif étudiant ?",
+      "pronunciation": "ee ah-TEEL day PLAHS ah tah-REEF ay-too-DYAHN",
+      "formality": "polite",
+      "cultural_note": "The Opéra de Lyon offers reduced-price tickets for students and young people.",
+      "responses": [
+        {
+          "english": "Yes, with a student card.",
+          "phonetic": "wee, ah-VEK oon kart ay-too-DYAHNT",
+          "french": "Oui, avec une carte étudiante."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "lyon_opera_005",
+      "intent_en": "Order a drink at the interval",
+      "text_local": "Un verre de champagne, s'il vous plaît, pour l'entracte.",
+      "pronunciation": "uhn VAIR duh shahm-PAN-yuh, seel voo PLEH, poor lahn-TRAKT",
+      "formality": "polite",
+      "cultural_note": "Pre-ordering interval drinks is common at French opera houses. Ask the bar staff to prepare your order so it is ready when the curtain falls for the entracte (interval).",
+      "responses": [
+        {
+          "english": "A glass of white wine, please.",
+          "phonetic": "uhn VEHR duh VEHN BLAHN, seel voo PLEH",
+          "french": "Un verre de vin blanc, s'il vous plaît."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "opera house",
+      "word_local": "l'opéra",
+      "pronunciation": "loh-pay-RAH"
+    },
+    {
+      "word_en": "interval",
+      "word_local": "l'entracte",
+      "pronunciation": "lahn-TRAKT"
+    },
+    {
+      "word_en": "box office",
+      "word_local": "la billetterie",
+      "pronunciation": "lah bee-yet-REE"
+    },
+    {
+      "word_en": "season programme",
+      "word_local": "la programmation",
+      "pronunciation": "lah proh-grah-mah-SYOHN"
+    }
+  ]
+}

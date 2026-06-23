@@ -1,0 +1,97 @@
+{
+  "id": "genoa_via_garibaldi",
+  "name_en": "Via Garibaldi",
+  "name_local": "Via Garibaldi (Strada Nuova)",
+  "icon": "building.columns",
+  "lat": 44.4112562,
+  "lon": 8.932325,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "genoa_via_garibaldi_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, dove inizia Via Garibaldi, per favore?",
+      "pronunciation": "SKOO-zee, DOH-veh in-EE-tsa vee-ah gah-ree-BAL-dee, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Straight for two blocks.",
+          "phonetic": "DREET-toh PEHR DOO-eh ee-soh-LAH-tee",
+          "french": "Dritto per due isolati."
+        }
+      ]
+    },
+    {
+      "id": "genoa_via_garibaldi_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Dove si comprano i biglietti?",
+      "pronunciation": "DOH-veh see KOHM-prah-noh ee bee-LYEHT-tee",
+      "formality": "standard",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the entrance of each museum.",
+          "phonetic": "ahll-'eenj-REH-ssoh DEE OHJ-nee moo-SEH-oh",
+          "french": "All'ingresso di ogni museo."
+        }
+      ]
+    },
+    {
+      "id": "genoa_via_garibaldi_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, c'è l'ascensore?",
+      "pronunciation": "bwohn-JOHR-noh cheh lah-shehn-SEH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, it is located inside.",
+          "phonetic": "SÌ SEE TROH-vah ahll-'een-TEHR-noh",
+          "french": "Sì, si trova all'interno."
+        }
+      ]
+    },
+    {
+      "id": "it_vg2_ge_x1",
+      "intent_en": "Ask how many palaces are on the street",
+      "text_local": "Scusi, quanti palazzi ci sono in Via Garibaldi?",
+      "pronunciation": "SKOO-zee, KWAN-tee pah-LAHT-tsee chee SOH-noh een VEE-ah gah-ree-BAL-dee?",
+      "formality": "polite",
+      "cultural_note": "Via Garibaldi, known as the Strada Nuova, has 12 palaces listed as a UNESCO World Heritage Site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Twelve palaces, all UNESCO World Heritage.",
+          "phonetic": "DOH-dee-chee pah-LAHT-tsee, TOOT-tee pah-tree-MOH-nyoh OO-neh-skoh.",
+          "french": "Dodici palazzi, tutti patrimonio UNESCO."
+        }
+      ]
+    },
+    {
+      "id": "it_vg2_ge_x2",
+      "intent_en": "Ask where to buy a combined museum ticket",
+      "text_local": "Buongiorno, dove si compra il biglietto combinato per i musei di Via Garibaldi?",
+      "pronunciation": "bwohn-JOHR-noh, DOH-veh see KOM-prah eel beel-YET-toh kom-bee-NAH-toh per ee moo-ZEH-ee dee VEE-ah gah-ree-BAL-dee?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At the ticket desk of Palazzo Rosso at number eleven.",
+          "phonetic": "AL-lah KAS-sah dee pah-LAHT-tsoh ROS-soh al noo-MEH-roh OON-dee-chee.",
+          "french": "Alla cassa di Palazzo Rosso al numero undici."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

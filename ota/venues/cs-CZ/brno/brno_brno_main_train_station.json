@@ -1,0 +1,78 @@
+{
+  "id": "brno_brno_main_train_station",
+  "name_en": "Brno Main Train Station",
+  "name_local": "Brno hlavní nádraží",
+  "icon": "tram",
+  "lat": 49.1911221,
+  "lon": 16.6131116,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "brno_brno_main_train_station_001",
+      "intent_en": "When does the next train to Vienna leave?",
+      "text_local": "V kolik jede další vlak do Vídně?",
+      "pronunciation": "v-kOHleek-yEHdeh-dAHlshee-vlAHk-dOHveednyeh",
+      "formality": "standard",
+      "cultural_note": "Czech station staff give time in 24-hour format and often volunteer the platform number.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V 10:42 z druhého nástupiště.",
+        "pronunciation": "v-dEHseht-tshtEEreetsehddvAH-s-drOOhehhoh-nAHstoopEEsheh",
+        "translation_en": "At 10:42 from platform two."
+      },
+      "responses": [
+        {
+          "english": "At 10:42 from platform two.",
+          "phonetic": "v-dEHseht-tshtEEreetsehddvAH-s-drOOhehhoh-nAHstoopEEsheh",
+          "french": "V 10:42 z druhého nástupiště."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_main_train_station_002",
+      "intent_en": "Where is the historic building entrance?",
+      "text_local": "Kde je vchod do historické budovy?",
+      "pronunciation": "kdEH-yeh-fkhOHd-doh-hEEstohrEEtskeh-bOOdohvee",
+      "formality": "standard",
+      "cultural_note": "The old building is directly accessible from the main hall; locals often just call it 'stará budova'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hlavní vchod přímo před vámi.",
+        "pronunciation": "hlAHvnyee-fkhOHt-prEEmoh-prEHdvahmee",
+        "translation_en": "The main entrance right in front of you."
+      },
+      "responses": [
+        {
+          "english": "The main entrance right in front of you.",
+          "phonetic": "hlAHvnyee-fkhOHt-prEEmoh-prEHdvahmee",
+          "french": "Hlavní vchod přímo před vámi."
+        }
+      ]
+    },
+    {
+      "id": "brno_brno_main_train_station_003",
+      "intent_en": "Where is platform three?",
+      "text_local": "Kde je třetí nástupiště?",
+      "pronunciation": "kdEH-yeh-trEHee-nAHstoopEEsheh",
+      "formality": "standard",
+      "cultural_note": "Staff often use 'podchod' (underpass) as the main reference point for platform access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Podchodem, pak doleva po schodech.",
+        "pronunciation": "pOHtkhohdehmpAHk-dOHlehvah-pOHskhohdehkh",
+        "translation_en": "Through the underpass, then left up the stairs."
+      },
+      "responses": [
+        {
+          "english": "Through the underpass, then left up the stairs.",
+          "phonetic": "pOHtkhohdehmpAHk-dOHlehvah-pOHskhohdehkh",
+          "french": "Podchodem, pak doleva po schodech."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

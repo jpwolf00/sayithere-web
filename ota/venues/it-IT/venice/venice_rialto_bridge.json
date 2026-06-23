@@ -1,0 +1,97 @@
+{
+  "id": "venice_rialto_bridge",
+  "name_en": "Rialto Bridge",
+  "name_local": "Ponte di Rialto",
+  "icon": "building.columns",
+  "lat": 45.4380507,
+  "lon": 12.3359346,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "venice_rialto_bridge_03",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, come si arriva al lato di San Polo, per favore?",
+      "pronunciation": "SKOO-zee, KOH-meh see ar-REE-vah al LAH-toh dee san POH-loh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Go down the stairs and turn right.",
+          "phonetic": "SHEHN-dah LEH SKAH-leh EH JEE-ree AH DEH-strah",
+          "french": "Scenda le scale e giri a destra."
+        }
+      ]
+    },
+    {
+      "id": "venice_rialto_bridge_05",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, dov'è la fermata del vaporetto Rialto, per favore?",
+      "pronunciation": "SKOO-zee, doh-VEH lah fer-MAH-tah del vah-po-RET-toh ry-AL-toh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Along the Grand Canal, both sides.",
+          "phonetic": "LOON-goh EEL KAH-nahl GRAHN-deh ehnt-RAHM-beh LEH SPOHN-deh",
+          "french": "Lungo il Canal Grande, entrambe le sponde."
+        }
+      ]
+    },
+    {
+      "id": "it_rial_ve_x1",
+      "intent_en": "Ask when the Rialto Bridge was built",
+      "text_local": "Scusi, quando è stato costruito il Ponte di Rialto?",
+      "pronunciation": "SKOO-zee, KWAN-doh eh STAH-toh kos-TWEE-toh eel PON-teh dee RYAH-ltoh?",
+      "formality": "polite",
+      "cultural_note": "The current stone Rialto Bridge was completed in 1591, replacing a series of timber bridges that had stood since the 13th century.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In 1591, designed by Antonio da Ponte.",
+          "phonetic": "nel meel-CHEEN-kweh-CHEN-toh-noh-VAN-tah-OO-noh, soo proh-JET-toh dee an-TOH-nyoh dah PON-teh.",
+          "french": "Nel 1591, su progetto di Antonio da Ponte."
+        }
+      ]
+    },
+    {
+      "id": "it_rial_ve_x2",
+      "intent_en": "Ask where the market stalls are on the bridge",
+      "text_local": "Scusi, dove si trovano i negozi sul Ponte di Rialto?",
+      "pronunciation": "SKOO-zee, DOH-veh see troh-VAH-noh ee neh-GOH-tsee sool PON-teh dee RYAH-ltoh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On both sides of the bridge, under the arches.",
+          "phonetic": "soo en-TRAM-bee ee LAH-tee del PON-teh, SOT-toh leh ar-KAH-teh.",
+          "french": "Su entrambi i lati del ponte, sotto le arcate."
+        }
+      ]
+    },
+    {
+      "id": "it_rial_ve_x3",
+      "intent_en": "Ask where to get the best view of the bridge from the water",
+      "text_local": "Scusi, da dove si fotografa meglio il Ponte di Rialto?",
+      "pronunciation": "SKOO-zee, dah DOH-veh see foh-toh-GRAH-fah MEL-lyoh eel PON-teh dee RYAH-ltoh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "From the Grand Canal, on vaporetto line one.",
+          "phonetic": "dal kah-NAH-leh GRAN-deh, een vah-poh-RET-toh LEE-neh-ah OO-noh.",
+          "french": "Dal Canal Grande, in vaporetto linea uno."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

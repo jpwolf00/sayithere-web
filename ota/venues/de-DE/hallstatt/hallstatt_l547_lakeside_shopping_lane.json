@@ -1,0 +1,78 @@
+{
+  "id": "hallstatt_l547_lakeside_shopping_lane",
+  "name_en": "L547 Lakeside Shopping Lane",
+  "name_local": "L547 (Seestraße)",
+  "icon": "bag",
+  "lat": 47.557403,
+  "lon": 13.6468842,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "hallstatt_l547_lakeside_shopping_lane_001",
+      "intent_en": "Ask if small shops accept only cash",
+      "text_local": "Nehmen kleine Läden nur Bargeld?",
+      "pronunciation": "nEHmuhn-klEYEnuh-lEHduhn-nOOr-bAHrehlt",
+      "formality": "standard",
+      "cultural_note": "Many small retail shops in rural/small-town Austria prefer cash due to fees and low turnover.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ja, meistens.",
+        "pronunciation": "yAHmEYEstuhns",
+        "translation_en": "Yes, usually."
+      },
+      "responses": [
+        {
+          "english": "Yes, usually.",
+          "phonetic": "yAHmEYEstuhns",
+          "french": "Ja, meistens."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_l547_lakeside_shopping_lane_002",
+      "intent_en": "Ask where the Drogerie self-checkout is",
+      "text_local": "Wo ist die Selbstbedienung bei Müller?",
+      "pronunciation": "vOH-ihst-dee-zEHlpstbuhdEEnuhng-beye-mUEl",
+      "formality": "standard",
+      "cultural_note": "Müller is a well-known German drugstore chain; self-checkout is often near the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Eingangsbereich.",
+        "pronunciation": "ihm-EYEnAHngsbuhrEYEkh",
+        "translation_en": "At the entrance area."
+      },
+      "responses": [
+        {
+          "english": "At the entrance area.",
+          "phonetic": "ihm-EYEnAHngsbuhrEYEkh",
+          "french": "Im Eingangsbereich."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_l547_lakeside_shopping_lane_003",
+      "intent_en": "Ask where boat rental is on Seestraße",
+      "text_local": "Wo finde ich den Bootsverleih auf der Seestraße?",
+      "pronunciation": "vOH-EEpt-ehs-bOHtsflEYE-hEEr",
+      "formality": "standard",
+      "cultural_note": "Lakeside paths in Hallstatt often have visible rental stations with signage in German.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Anlegestelle ist am Seeufer.",
+        "pronunciation": "dee-AHnlEHgehshtEHluh-ihst-ahm-zEHoof",
+        "translation_en": "The dock is at the lake shore."
+      },
+      "responses": [
+        {
+          "english": "The dock is at the lake shore.",
+          "phonetic": "dee-AHnlEHgehshtEHluh-ihst-ahm-zEHoof",
+          "french": "Die Anlegestelle ist am Seeufer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

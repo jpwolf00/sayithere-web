@@ -1,0 +1,144 @@
+{
+  "id": "maastricht_maastricht_aachen_airport",
+  "name_en": "Maastricht Aachen Airport",
+  "name_local": "Maastricht Aachen Airport",
+  "icon": "tram",
+  "lat": 50.9124991,
+  "lon": 5.7713205,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "maastricht_maastricht_aachen_airport_001",
+      "intent_en": "Where do I get wheelchair assistance",
+      "text_local": "Waar kan ik rolstoelassistentie krijgen?",
+      "pronunciation": "vAHr-kahn-ihk-rAWlstoolAHsihstEHntsee-krEHihghuhn",
+      "formality": "standard",
+      "cultural_note": "Airports provide wheelchair assistance upon request, typically coordinated at the check-in or information desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vraag het bij de balie.",
+        "pronunciation": "vrAHkh-huht-behih-duh-bahlEE",
+        "translation_en": "Ask at the information desk."
+      },
+      "responses": [
+        {
+          "english": "Ask at the information desk.",
+          "phonetic": "vrAHkh-huht-behih-duh-bahlEE",
+          "french": "Vraag het bij de balie."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_maastricht_aachen_airport_002",
+      "intent_en": "Where is the cargo shipping desk?",
+      "text_local": "Waar is de cargo shipping desk?",
+      "pronunciation": "vAHr-ihs-duh-kAHrghoh-shIHping-dEHsk",
+      "formality": "standard",
+      "cultural_note": "Dutch travelers expect clear signage to cargo operations; cargo terminal is seen as a separate area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar cargo terminal.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-kAHrghoh-tEHrmeenAHl",
+        "translation_en": "Follow the signs to cargo terminal."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to cargo terminal.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-kAHrghoh-tEHrmeenAHl",
+          "french": "Volg de borden naar cargo terminal."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_maastricht_aachen_airport_003",
+      "intent_en": "Is the duty-free shop past security",
+      "text_local": "Is de duty-free winkel na de controle?",
+      "pronunciation": "ihs-duh-dUEteefrEH-vINGkuhl-nah-duh-kawntrOHluh",
+      "formality": "standard",
+      "cultural_note": "Duty-free shops are typically located in the departure lounge, post-security, as a standard airport feature.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, na de veiligheidscontrole.",
+        "pronunciation": "yAHnah-duh-vEHihlihkhhEHihdskawntrOHluh",
+        "translation_en": "Yes, after security screening."
+      },
+      "responses": [
+        {
+          "english": "Yes, after security screening.",
+          "phonetic": "yAHnah-duh-vEHihlihkhhEHihdskawntrOHluh",
+          "french": "Ja, na de veiligheidscontrole."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_maastricht_aachen_airport_004",
+      "intent_en": "When does the next bus to Maastricht leave",
+      "text_local": "Wanneer vertrekt de volgende bus naar Maastricht?",
+      "pronunciation": "vahnIHr-vuhrtrEHk-tuh-vAWlghuhnduh-bS-nahr-mAHstrihkht",
+      "formality": "standard",
+      "cultural_note": "Airports often have frequent bus services to nearby cities, with departure times posted or announced.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Binnen 15 minuten.",
+        "pronunciation": "bIHnuhn-vEHihfteen-mEEnuetuhn",
+        "translation_en": "Within 15 minutes."
+      },
+      "responses": [
+        {
+          "english": "Within 15 minutes.",
+          "phonetic": "bIHnuhn-vEHihfteen-mEEnuetuhn",
+          "french": "Binnen 15 minuten."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_maastricht_aachen_airport_005",
+      "intent_en": "Tourist phrase",
+      "text_local": "Hoe betaal ik parkeren?",
+      "pronunciation": "hOO-buhtAHl-ihk-pahrkIHruhn",
+      "formality": "standard",
+      "cultural_note": "Parkeren wordt betaald bij de automaat voor vertrek; contant is niet mogelijk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Aan de automaat bij de uitgang, pin of contactloos.",
+        "pronunciation": "ahn-duh-UHuhtohmAHt-behih-duh-UHuetghAHngpIHn-awf-kAWntahktlOHs",
+        "translation_en": "At the machine at the exit, by card or contactless."
+      },
+      "responses": [
+        {
+          "english": "At the machine at the exit, by card or contactless.",
+          "phonetic": "ahn-duh-UHuhtohmAHt-behih-duh-UHuetghAHngpIHn-awf-kAWntahktlOHs",
+          "french": "Aan de automaat bij de uitgang, pin of contactloos."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_maastricht_aachen_airport_006",
+      "intent_en": "Is the passenger terminal check-in open?",
+      "text_local": "Is de check-in in de terminal open?",
+      "pronunciation": "ihs-duh-tshEHkihn-ihn-duh-tEHrmeenAHl-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "Dutch travelers value concise opening hours info; assumes standard operational hours unless specified.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, de check-in is open zolang er vluchten zijn.",
+        "pronunciation": "yAHduh-tshEHkihn-ihs-OHpuhn-zohlAHng-uhr-vlKHtuhn-zehihn",
+        "translation_en": "Yes, the check-in is open as long as there are flights."
+      },
+      "responses": [
+        {
+          "english": "Yes, the check-in is open as long as there are flights.",
+          "phonetic": "yAHduh-tshEHkihn-ihs-OHpuhn-zohlAHng-uhr-vlKHtuhn-zehihn",
+          "french": "Ja, de check-in is open zolang er vluchten zijn."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

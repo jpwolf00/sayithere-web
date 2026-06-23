@@ -1,0 +1,100 @@
+{
+  "id": "krems_krems_train_station",
+  "name_en": "Krems Train Station",
+  "name_local": "Bahnhof Krems",
+  "icon": "tram",
+  "lat": 48.4091182,
+  "lon": 15.6048323,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "krems_krems_train_station_001",
+      "intent_en": "Ask where the taxi stand is",
+      "text_local": "Wo ist der Taxi-Stand?",
+      "pronunciation": "vOH-ihst-dehr-tAHkseeshtAHnt",
+      "formality": "standard",
+      "cultural_note": "Taxi-Stände sind in deutschen Bahnhöfen standardmäßig außerhalb des Haupteingangs lokalisiert. Direkte Lagehinweise sind üblich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Bahnhof.",
+        "pronunciation": "fAWr-dehm-bAHnhohf",
+        "translation_en": "In front of the station."
+      },
+      "responses": [
+        {
+          "english": "In front of the station.",
+          "phonetic": "fAWr-dehm-bAHnhohf",
+          "french": "Vor dem Bahnhof."
+        }
+      ]
+    },
+    {
+      "id": "krems_krems_train_station_002",
+      "intent_en": "Ask when the ÖBB counter opens",
+      "text_local": "Wann öffnet der ÖBB-Schalter?",
+      "pronunciation": "vAHn-UHfnuht-dehr-UHbEHbEHshAHlt",
+      "formality": "standard",
+      "cultural_note": "ÖBB-Schalter haben in regionalen Bahnhöfen oft eingeschränkte Öffnungszeiten. Reisende erwarten präzise Zeitangaben ohne weitere Erklärungen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ab 8 Uhr.",
+        "pronunciation": "ahp-AHkht-OOr",
+        "translation_en": "From 8 AM."
+      },
+      "responses": [
+        {
+          "english": "From 8 AM.",
+          "phonetic": "ahp-AHkht-OOr",
+          "french": "Ab 8 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "krems_krems_train_station_003",
+      "intent_en": "Ask which platform for Wachau trains",
+      "text_local": "Wo fährt der Wachau-Zug ab?",
+      "pronunciation": "vOH-fEHrt-dehr-vAHkhowtsOOk-AHp",
+      "formality": "standard",
+      "cultural_note": "Deutsche Bahnsteigansagen sind kurz und präzise. Reisende erwarten direkte Plattformhinweise ohne überflüssige Höflichkeit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bahnsteig 1.",
+        "pronunciation": "bAHnsteyek-EYEns",
+        "translation_en": "Platform 1."
+      },
+      "responses": [
+        {
+          "english": "Platform 1.",
+          "phonetic": "bAHnsteyek-EYEns",
+          "french": "Bahnsteig 1."
+        }
+      ]
+    },
+    {
+      "id": "krems_krems_train_station_004",
+      "intent_en": "Ask where to find bicycle parking",
+      "text_local": "Wo ist die Fahrradabstellanlage?",
+      "pronunciation": "vOH-ihst-dee-fAHrahdAHpshtehlAHnlahuh",
+      "formality": "standard",
+      "cultural_note": "In deutschen Bahnhöfen sind Fahrradabstellanlagen meist gut ausgeschildert, aber die exakte Position wird nicht immer verbal mitgeteilt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links neben Bahnsteig 1.",
+        "pronunciation": "lINGks-nEHbuhn-bAHnsteyek-EYEns",
+        "translation_en": "Left next to platform 1."
+      },
+      "responses": [
+        {
+          "english": "Left next to platform 1.",
+          "phonetic": "lINGks-nEHbuhn-bAHnsteyek-EYEns",
+          "french": "Links neben Bahnsteig 1."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

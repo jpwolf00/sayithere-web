@@ -1,0 +1,106 @@
+{
+  "id": "montreal_neighborhood_plateau_mont_royal",
+  "name_en": "Plateau Mont-Royal",
+  "name_local": "Le Plateau-Mont-Royal",
+  "icon": "building.2",
+  "lat": 45.5225,
+  "lon": -73.5814,
+  "radius_m": 700,
+  "phrases": [
+    {
+      "id": "mtl_plateau_001",
+      "intent_en": "Ask for a recommendation for a local brunch spot",
+      "text_local": "Tu connais un bon endroit pour bruncher dans le coin ?",
+      "pronunciation": "too ko-NEH un bon on-DWAH poor bron-SHAY dahn luh KWAN",
+      "formality": "informal",
+      "cultural_note": "Brunch culture is huge on the Plateau. Expect lineups at popular spots on weekends. Many are cash-only and do not take reservations.",
+      "responses": [
+        {
+          "english": "Yes, try Le Petit Déjeuner or Ma Poule Mouillée.",
+          "phonetic": "voo koh-neh-SAY uhn BON ahn-DRWAH poor BRUN-chuh(dahng) luh KWAN",
+          "french": "Oui, essayez Le Petit Déjeuner ou Ma Poule Mouillée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_plateau_002",
+      "intent_en": "Comment on the beautiful exterior staircases",
+      "text_local": "Ces escaliers extérieurs, c'est vraiment unique !",
+      "pronunciation": "say zes-kah-lee-YAY ex-tay-ree-UR say vreh-MAH oo-NEEK",
+      "formality": "neutral",
+      "cultural_note": "The exterior spiral staircases on Plateau duplexes and triplexes are a Montréal architectural signature, freeing up interior space.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "mtl_plateau_003",
+      "intent_en": "Ask where to find a good local beer",
+      "text_local": "Où c'est qu'on peut trouver une bonne bière locale ?",
+      "pronunciation": "oo say KON puh troo-VAY OON bon bee-AIR lo-KAHL",
+      "formality": "informal",
+      "cultural_note": "The Plateau has several excellent craft beer bars (bars à bière) featuring Québec microbreweries like Dieu du Ciel, Unibroue, and Boréale.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "mtl_plateau_004",
+      "intent_en": "Ask if the street has any live music tonight",
+      "text_local": "Y'a-tu de la musique live quelque part ce soir par ici ?",
+      "pronunciation": "yah-TOO duh lah moo-ZEEK LYV kel-kuh PAR suh SWAHR par ee-SEE",
+      "formality": "informal",
+      "cultural_note": "The Plateau has a vibrant live music scene centred around Rue Saint-Denis and Avenue du Mont-Royal. Many bars have live acts on weekends.",
+      "responses": [
+        {
+          "english": "Yes, there is live music on Saint-Denis street tonight.",
+          "phonetic": "ES suh kee GREK uh duh lah myoo-ZEEK (live) suh SWAR dah(n) SET ROO",
+          "french": "Oui, il y a de la musique live rue Saint-Denis ce soir."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_plateau_005",
+      "intent_en": "Ask how to get to Avenue du Mont-Royal",
+      "text_local": "C'est comment pour se rendre sur l'avenue du Mont-Royal ?",
+      "pronunciation": "say ko-MAH poor suh RAHN-druh soor lah-vuh-NOO doo mon-roh-AHL",
+      "formality": "neutral",
+      "cultural_note": "Avenue du Mont-Royal is the Plateau's main commercial artery, lined with cafés, boutiques, vintage shops, and restaurants.",
+      "responses": [
+        {
+          "english": "Continue straight until Avenue du Mont-Royal.",
+          "phonetic": "kaw-MAHN suh RON-druh ah lahv-NEW dyoo MON rwa-YAL",
+          "french": "Continuez tout droit jusqu'à l'avenue du Mont-Royal."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "brunch",
+      "word_local": "le brunch",
+      "pronunciation": "luh BRONSH"
+    },
+    {
+      "word_en": "exterior staircase",
+      "word_local": "l'escalier extérieur",
+      "pronunciation": "les-kah-lee-YAY ex-tay-ree-UR"
+    },
+    {
+      "word_en": "craft beer",
+      "word_local": "la bière artisanale / la bière microbrassée",
+      "pronunciation": "lah bee-AIR ar-tee-zah-NAHL"
+    },
+    {
+      "word_en": "duplex / triplex",
+      "word_local": "le duplex / le triplex",
+      "pronunciation": "luh doo-PLEX / luh tree-PLEX"
+    }
+  ]
+}

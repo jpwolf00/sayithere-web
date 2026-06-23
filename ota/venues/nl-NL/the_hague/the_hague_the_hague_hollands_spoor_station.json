@@ -1,0 +1,144 @@
+{
+  "id": "the_hague_the_hague_hollands_spoor_station",
+  "name_en": "The Hague Hollands Spoor Station",
+  "name_local": "Den Haag HS",
+  "icon": "tram",
+  "lat": 52.0701372,
+  "lon": 4.3222758,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "the_hague_the_hague_hollands_spoor_station_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Waar is de afdeling gevonden voorwerpen?",
+      "pronunciation": "vAHr-ihs-duh-AHfdEHling-ghuhvAWnduhn-vAWrvehrpuhn",
+      "formality": "standard",
+      "cultural_note": "Gevonden voorwerpen worden afgehandeld via de NS Servicebalie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de NS Servicebalie in de stationshal.",
+        "pronunciation": "behih-duh-EHnEH-sVuhsbahlEE-ihn-duh-stAHshawnshAHl",
+        "translation_en": "At the NS Service desk in the station hall."
+      },
+      "responses": [
+        {
+          "english": "At the NS Service desk in the station hall.",
+          "phonetic": "behih-duh-EHnEH-sVuhsbahlEE-ihn-duh-stAHshawnshAHl",
+          "french": "Bij de NS Servicebalie in de stationshal."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_hollands_spoor_station_002",
+      "intent_en": "When does the next international train leave",
+      "text_local": "Wanneer vertrekt de volgende internationale trein?",
+      "pronunciation": "vahnIHr-vuhrtrEHk-tuh-vAWlghuhnduh-IHntuhrnAHshohnAHluh-trEHihn",
+      "formality": "standard",
+      "cultural_note": "Times are typically displayed on digital boards in Dutch format (HH:MM).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Over 12 minuten.",
+        "pronunciation": "OHvuhr-tvAHlf-mEEnuetuhn",
+        "translation_en": "In 12 minutes."
+      },
+      "responses": [
+        {
+          "english": "In 12 minutes.",
+          "phonetic": "OHvuhr-tvAHlf-mEEnuetuhn",
+          "french": "Over 12 minuten."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_hollands_spoor_station_003",
+      "intent_en": "Is platform 1 for trains to Centraal",
+      "text_local": "Gaat perron 1 naar Centraal?",
+      "pronunciation": "ghAHt-pehrrAWn-EHn-nahr-sehntrAHl",
+      "formality": "standard",
+      "cultural_note": "Platform assignments can change; staff are the most reliable source for real-time information.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Vraag het bij de conducteur.",
+        "pronunciation": "vrAHkh-huht-behih-duh-kAWndktUHr",
+        "translation_en": "Ask the NS conductor."
+      },
+      "responses": [
+        {
+          "english": "Ask the NS conductor.",
+          "phonetic": "vrAHkh-huht-behih-duh-kAWndktUHr",
+          "french": "Vraag het bij de conducteur."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_hollands_spoor_station_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Wanneer vertrekt de volgende trein naar Brussel?",
+      "pronunciation": "vahnIHr-vuhrtrEHk-tuh-vAWlghuhnduh-trEHihn-nahr-brSuhl",
+      "formality": "standard",
+      "cultural_note": "Internationale treinen naar Brussel hebben eigen vertrekborden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kijk op de internationale vertrekborden.",
+        "pronunciation": "kEHihk-awp-duh-IHntuhrnAHshohnAHluh-vuhrtrEHkbawrduhn",
+        "translation_en": "Check the international departure boards."
+      },
+      "responses": [
+        {
+          "english": "Check the international departure boards.",
+          "phonetic": "kEHihk-awp-duh-IHntuhrnAHshohnAHluh-vuhrtrEHkbawrduhn",
+          "french": "Kijk op de internationale vertrekborden."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_hollands_spoor_station_005",
+      "intent_en": "Where is international ticket desk",
+      "text_local": "Waar is het internationaal loket?",
+      "pronunciation": "vAHr-ihs-huht-IHntuhrnAHshohnAHl-lohkEHt",
+      "formality": "standard",
+      "cultural_note": "International ticket desks are typically signposted in Dutch train stations, often near the main entrance or platform 1.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Volg de borden naar de centrale hal, links van de OV-fiets.",
+        "pronunciation": "vAWlkh-duh-bAWrduhn-nahr-duh-sehntrAHluh-hAHllINGks-vahn-duh-OHfEHfEEts",
+        "translation_en": "Follow the signs to the central hall, left of the OV-fiets rental."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the central hall, left of the OV-fiets rental.",
+          "phonetic": "vAWlkh-duh-bAWrduhn-nahr-duh-sehntrAHluh-hAHllINGks-vahn-duh-OHfEHfEEts",
+          "french": "Volg de borden naar de centrale hal, links van de OV-fiets."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_hollands_spoor_station_006",
+      "intent_en": "How do I activate OV-fiets rental",
+      "text_local": "Hoe activeer ik OV-fiets huur?",
+      "pronunciation": "hOO-AHkteevIHr-ihk-OHfEHfEEts-hUEr",
+      "formality": "standard",
+      "cultural_note": "OV-fiets rentals in Dutch stations require activation via the OV-chipkaart, a standard travel card.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Scan de OV-chipkaart bij de fiets.",
+        "pronunciation": "skEHn-duh-OHfEHtshIHpkahrt-behih-duh-fEEts",
+        "translation_en": "Scan your OV-chipkaart at the bike."
+      },
+      "responses": [
+        {
+          "english": "Scan your OV-chipkaart at the bike.",
+          "phonetic": "skEHn-duh-OHfEHtshIHpkahrt-behih-duh-fEEts",
+          "french": "Scan de OV-chipkaart bij de fiets."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

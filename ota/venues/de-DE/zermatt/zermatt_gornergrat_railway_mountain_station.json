@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_gornergrat_railway_mountain_station",
+  "name_en": "Gornergrat Railway Mountain Station",
+  "name_local": "Gornergrat Bahn Bergstation",
+  "icon": "tram",
+  "lat": 46.0212076,
+  "lon": 7.749254,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "zermatt_gornergrat_railway_mountain_station_001",
+      "intent_en": "Where is the Kulmhotel reception",
+      "text_local": "Wo ist die Rezeption vom Kulmhotel?",
+      "pronunciation": "vOH-ihst-dee-rEHtsehptsyOHn-fawm-kUHlmhohtuhl",
+      "formality": "standard",
+      "cultural_note": "Reception is inside the main hotel building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Hotel selbst, nach der Treppe.",
+        "pronunciation": "ihm-hOHtuhl-zEHlpstnahkh-dehr-trEHpuh",
+        "translation_en": "In the hotel itself, after the stairs."
+      },
+      "responses": [
+        {
+          "english": "In the hotel itself, after the stairs.",
+          "phonetic": "ihm-hOHtuhl-zEHlpstnahkh-dehr-trEHpuh",
+          "french": "Im Hotel selbst, nach der Treppe."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_gornergrat_railway_mountain_station_002",
+      "intent_en": "When is the next train down",
+      "text_local": "Wann fährt der nächste Zug hinunter?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-tsOOk-hihnUHnt",
+      "formality": "casual",
+      "cultural_note": "Trains run at fixed intervals; provide exact departure time.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "12:45 Uhr.",
+        "pronunciation": "tsvUHlf-oor-fUEnf-uhntfIHrtsihkh-OOr",
+        "translation_en": "12:45."
+      },
+      "responses": [
+        {
+          "english": "12:45.",
+          "phonetic": "tsvUHlf-oor-fUEnf-uhntfIHrtsihkh-OOr",
+          "french": "12:45 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_gornergrat_railway_mountain_station_003",
+      "intent_en": "Do I yield to hikers on this trail",
+      "text_local": "Muss ich absteigenden Wanderern ausweichen?",
+      "pronunciation": "mUHs-ihkh-AHpshtEYEuhnduhn-vAHndehrn-OWsvEYEkhuhn",
+      "formality": "standard",
+      "cultural_note": "Standard hiking etiquette on descending trails.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, weichen Sie aus.",
+        "pronunciation": "yAHvEYEkhuhn-zee-OWs",
+        "translation_en": "Yes, yield to them."
+      },
+      "responses": [
+        {
+          "english": "Yes, yield to them.",
+          "phonetic": "yAHvEYEkhuhn-zee-OWs",
+          "french": "Ja, weichen Sie aus."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_gornergrat_railway_mountain_station_004",
+      "intent_en": "Where is the Matterhorn viewpoint",
+      "text_local": "Wo ist der Matterhorn-Aussichtspunkt?",
+      "pronunciation": "vOH-ihst-dehr-mAHthAWrnOWszIHkhtspuhngkt",
+      "formality": "standard",
+      "cultural_note": "Signposted with 'Matterhorn' and 'Aussicht' in German.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Plattform ist draußen rechts.",
+        "pronunciation": "dee-plAHtfawrm-ihst-drOWsuhn-rEHkhts",
+        "translation_en": "The platform is outside to the right."
+      },
+      "responses": [
+        {
+          "english": "The platform is outside to the right.",
+          "phonetic": "dee-plAHtfawrm-ihst-drOWsuhn-rEHkhts",
+          "french": "Die Plattform ist draußen rechts."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,152 @@
+{
+  "id": "hood_oberkampf",
+  "name_en": "Oberkampf",
+  "name_local": "Oberkampf",
+  "icon": "wineglass.fill",
+  "phrases": [
+    {
+      "id": "hood_oberkampf_001",
+      "intent_en": "Ask for a local bar recommendation in the neighborhood",
+      "text_local": "Pouvez-vous me recommander un bar sympa dans le quartier ?",
+      "pronunciation": "poo-VAY voo muh reh-koh-mahn-DAY uhn bar sim-PAH dahn luh kar-TYAY",
+      "formality": "casual",
+      "cultural_note": "Oberkampf is one of Paris's best nightlife neighborhoods. Rue Oberkampf and Rue de la Roquette are the main strips, lined with bars, restaurants, and concert venues. The neighborhood is popular with Parisians in their 20s and 30s — less touristy than the Marais and more authentic in feel.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are good bars on Rue Oberkampf and Rue Jean-Pierre Timbaud.",
+          "phonetic": "eel ee ah duh bohn bar soor lah roo oh-behr-KAHMPF ay lah roo zhahn pyehr tahm-BOH",
+          "french": "Il y a de bons bars sur la Rue Oberkampf et la Rue Jean-Pierre Timbaud."
+        }
+      ]
+    },
+    {
+      "id": "hood_oberkampf_002",
+      "intent_en": "Ask what time bars in the area typically close",
+      "text_local": "À quelle heure ferment généralement les bars du quartier ?",
+      "pronunciation": "ah kel UR ferme zhay-nay-ral-MAHN lay bar doo kar-TYAY",
+      "formality": "casual",
+      "cultural_note": "French bars are licensed until 2am on most nights. After 2am, the action shifts to clubs and late-night venues. Café Charbon and Nouveau Casino (a concert venue attached to a bar) on Rue Oberkampf are landmark institutions in the neighborhood.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Most close around two in the morning.",
+          "phonetic": "lah ploo-PAR fehrm vehr duh zuhr doo mah-TAN",
+          "french": "La plupart ferment vers deux heures du matin."
+        }
+      ]
+    },
+    {
+      "id": "hood_oberkampf_003",
+      "intent_en": "Ask for a table outside on the terrace",
+      "text_local": "Vous avez une table en terrasse de libre ?",
+      "pronunciation": "voo zah-VAY oon TAH-bluh ahn teh-RAHS duh LEE-bruh",
+      "formality": "casual",
+      "cultural_note": "Parisians prize outdoor terrace seating (terrasse) passionately — even in cool weather with heaters. In summer, the terraces along Rue Oberkampf are packed from early evening. In French café culture, once you have a table, there is no pressure to leave — take your time.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there is space on the terrace. Have a seat.",
+          "phonetic": "wee, eel rest duh lah plass ahn teh-RASS. ahn-stah-LAY voo",
+          "french": "Oui, il reste de la place en terrasse. Installez-vous."
+        }
+      ]
+    },
+    {
+      "id": "hood_oberkampf_004",
+      "intent_en": "Order a round of drinks for the group",
+      "text_local": "Une tournée pour tout le monde, s'il vous plaît !",
+      "pronunciation": "oon toor-NAY poor too luh MOHND, seel voo PLEH",
+      "formality": "casual",
+      "cultural_note": "Une tournée is buying a round of drinks for everyone at the table — a very common gesture in French social settings. The person who offers is called the host of the 'tournée'. Draft beer ('pression') and kir (white wine with blackcurrant liqueur) are classic choices.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I will bring that right away.",
+          "phonetic": "zhuh vooz ah-PORT sah too duh sweet",
+          "french": "Je vous apporte ça tout de suite."
+        }
+      ]
+    },
+    {
+      "id": "hood_oberkampf_005",
+      "intent_en": "Ask if there is live music tonight",
+      "text_local": "Est-ce qu'il y a de la musique live ce soir ?",
+      "pronunciation": "ess keel ee ah duh lah moo-ZEEK LIV suh SWAR",
+      "formality": "casual",
+      "cultural_note": "Oberkampf has several venues combining bar and live music: Nouveau Casino hosts indie and electronic concerts, La Maroquinerie (nearby in the 20th arr) is a respected mid-size venue. Check venue websites or Resident Advisor for current listings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there is a concert tonight starting at nine.",
+          "phonetic": "wee, eel ee ah uhn kohn-SEHR suh swahr ah par-TEER duh vant ay oon uhr",
+          "french": "Oui, il y a un concert ce soir à partir de vingt et une heures."
+        }
+      ]
+    },
+    {
+      "id": "hood_oberkampf_006",
+      "intent_en": "Ask for directions to the nearest métro",
+      "text_local": "C'est loin d'ici, le métro Oberkampf ?",
+      "pronunciation": "seh lwahn dee-SEE, luh may-TROH oh-ber-KAHMPF",
+      "formality": "casual",
+      "cultural_note": "Métro Oberkampf (Lines 5 and 9) is in the heart of the neighborhood. Parmentier (Line 3) and Filles du Calvaire (Line 8) are also nearby. The neighborhood straddles the 11th arrondissement, one of the most densely populated and liveable parts of Paris.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Oberkampf station is two minutes away, straight ahead.",
+          "phonetic": "lah stah-SYOHN oh-behr-KAHMPF eh tah duh mee-NOOT, too drwah",
+          "french": "La station Oberkampf est à deux minutes, tout droit."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Neighborhood",
+      "word_local": "Quartier",
+      "pronunciation": "kar-TYAY"
+    },
+    {
+      "word_en": "Bar",
+      "word_local": "Bar",
+      "pronunciation": "bar"
+    },
+    {
+      "word_en": "Terrace",
+      "word_local": "Terrasse",
+      "pronunciation": "teh-RAHS"
+    },
+    {
+      "word_en": "Round of drinks",
+      "word_local": "Tournée",
+      "pronunciation": "toor-NAY"
+    },
+    {
+      "word_en": "Draft beer",
+      "word_local": "Pression",
+      "pronunciation": "preh-SYOHN"
+    },
+    {
+      "word_en": "Nightlife",
+      "word_local": "Vie nocturne",
+      "pronunciation": "vee nok-TOORN"
+    },
+    {
+      "word_en": "Concert venue",
+      "word_local": "Salle de concert",
+      "pronunciation": "sal duh kohn-SEHR"
+    },
+    {
+      "word_en": "Live music",
+      "word_local": "Musique live",
+      "pronunciation": "moo-ZEEK LIV"
+    }
+  ]
+}

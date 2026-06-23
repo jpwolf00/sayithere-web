@@ -1,0 +1,100 @@
+{
+  "id": "dresden_zwinger_palace",
+  "name_en": "Zwinger Palace",
+  "name_local": "Der Dresdner Zwinger",
+  "icon": "building.columns",
+  "lat": 51.0493286,
+  "lon": 13.7381437,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "dresden_zwinger_palace_001",
+      "intent_en": "Where is the Semper Gallery ticket desk?",
+      "text_local": "Wo ist der Schalter für die Semper Galerie?",
+      "pronunciation": "vOH-ihst-dehr-shAHlt-fuer-dee-zEHmp-AHlehrEE",
+      "formality": "standard",
+      "cultural_note": "Visitors expect a clear reference to the Semper Building, which is separate from the Zwinger wings.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kartenverkauf im Semperbau.",
+        "pronunciation": "kAHrtuhnfkOWf-ihm-zEHmpbOW",
+        "translation_en": "Ticket counter in the Semper Building."
+      },
+      "responses": [
+        {
+          "english": "Ticket counter in the Semper Building.",
+          "phonetic": "kAHrtuhnfkOWf-ihm-zEHmpbOW",
+          "french": "Kartenverkauf im Semperbau."
+        }
+      ]
+    },
+    {
+      "id": "dresden_zwinger_palace_002",
+      "intent_en": "Is audio guide rental at French Pavilion?",
+      "text_local": "Kann man Audioguides im Französischen Pavillon mieten?",
+      "pronunciation": "kAHn-mahn-ehnAWdihUHuheyedzdeh-ihm-frahntsUHzihshuhn-pAHvihlOHn-mEEtuhn",
+      "formality": "standard",
+      "cultural_note": "Audio guide rentals are typically centralized at ticketing points rather than pavilion-specific.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Kartenverkauf.",
+        "pronunciation": "yAHahm-kAHrtuhnfkOWf",
+        "translation_en": "Yes, at the ticket counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the ticket counter.",
+          "phonetic": "yAHahm-kAHrtuhnfkOWf",
+          "french": "Ja, am Kartenverkauf."
+        }
+      ]
+    },
+    {
+      "id": "dresden_zwinger_palace_003",
+      "intent_en": "Is the Crown Gate museum shop open?",
+      "text_local": "Hat der Museumsshop am Kronentor geöffnet?",
+      "pronunciation": "haht-dehr-mOOzawuhmshOHp-ahm-krohnEHntohr-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Germans often ask about opening hours explicitly; 'während den Öffnungszeiten' is a common phrasing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, während den Öffnungszeiten.",
+        "pronunciation": "yAHvEHruhnt-dehn-UHfnuhngstsEYEtuhn",
+        "translation_en": "Yes, during opening hours."
+      },
+      "responses": [
+        {
+          "english": "Yes, during opening hours.",
+          "phonetic": "yAHvEHruhnt-dehn-UHfnuhngstsEYEtuhn",
+          "french": "Ja, während den Öffnungszeiten."
+        }
+      ]
+    },
+    {
+      "id": "dresden_zwinger_palace_004",
+      "intent_en": "Where is the Nymphaeum entrance?",
+      "text_local": "Wo ist der Eingang zum Nymphäum?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-nuemfEHuhm",
+      "formality": "standard",
+      "cultural_note": "The Nymphaeum is a specific wing; directions are typically routed to staff due to its enclosed garden setting.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleich beim Kronentor links.",
+        "pronunciation": "glEYEkh-beyem-krohnEHntohr-lINGks",
+        "translation_en": "Just left of the Crown Gate."
+      },
+      "responses": [
+        {
+          "english": "Just left of the Crown Gate.",
+          "phonetic": "glEYEkh-beyem-krohnEHntohr-lINGks",
+          "french": "Gleich beim Kronentor links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,144 @@
+{
+  "id": "naxos_naxos_bus_station_ktel",
+  "name_en": "Naxos Bus Station (KTEL)",
+  "name_local": "ΚΤΕΛ Νάξου",
+  "icon": "tram",
+  "lat": 37.1079047,
+  "lon": 25.3743716,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "naxos_naxos_bus_station_ktel_001",
+      "intent_en": "How do I pay for extra luggage?",
+      "text_local": "Πώς πληρώνω για επιπλέον αποσκευή;",
+      "pronunciation": "pOHs-pleerOHnoh-yAH-EHpeeplEHohn-AHpohsehvEE",
+      "formality": "standard",
+      "cultural_note": "The term 'Ταμίας' (ticket seller) is the standard staff title for ticket counters in Greek transport contexts. Directing to staff is culturally expected for fee-related questions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ρωτήστε στον Ταμία.",
+        "pronunciation": "rohtEEsteh-stohn-dahmEEah",
+        "translation_en": "Ask at the ticket seller."
+      },
+      "responses": [
+        {
+          "english": "Ask at the ticket seller.",
+          "phonetic": "rohtEEsteh-stohn-dahmEEah",
+          "french": "Ρωτήστε στον Ταμία."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_bus_station_ktel_002",
+      "intent_en": "Where is the bay for Agios Prokopios?",
+      "text_local": "Πού είναι η αποβάθρα για τον Άγιο Προκόπιο;",
+      "pronunciation": "pOO-EEneh-ee-AHpohvAHthrah-yAH-tohn-AHyoh-prohkOHpkhoh",
+      "formality": "standard",
+      "cultural_note": "Bus bays in Greek transport hubs like KTEL are typically signposted by destination. The phrase 'αποβάθρα' (bay/platform) is standard for bus departure points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά έξω από τον σταθμό, αποβάθρα 3.",
+        "pronunciation": "AHreestehrAH-EHksoh-ahpOH-tohn-stahthmOHAHpohvAHthrah-trEEah",
+        "translation_en": "Follow the signs to Agios Prokopios."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to Agios Prokopios.",
+          "phonetic": "AHreestehrAH-EHksoh-ahpOH-tohn-stahthmOHAHpohvAHthrah-trEEah",
+          "french": "Αριστερά έξω από τον σταθμό, αποβάθρα 3."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_bus_station_ktel_003",
+      "intent_en": "Can I buy tickets on board?",
+      "text_local": "Μπορώ να αγοράσω εισιτήριο μέσα στο λεωφορείο;",
+      "pronunciation": "bohrOH-n-AHghohrAHsoh-EEseetEEreeOH-stohn-OHtheeghOH",
+      "formality": "standard",
+      "cultural_note": "The term 'Οδηγός' (driver) is the standard title for bus drivers in Greece. This is the only staff point where on-board ticket purchase may be possible.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, αλλά μόνο αν υπάρχει διαθεσιμότητα.",
+        "pronunciation": "nEHahlAH-mOHnoh-ahn-eepAHrkhee-thEEahthEHseemOHteetAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEHahlAH-mOHnoh-ahn-eepAHrkhee-thEEahthEHseemOHteetAH",
+          "french": "Ναι, αλλά μόνο αν υπάρχει διαθεσιμότητα."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_bus_station_ktel_004",
+      "intent_en": "Is there an ATM near here?",
+      "text_local": "Υπάρχει ΑΤΜ εδώ κοντά;",
+      "pronunciation": "eepAHrkhee-AHlfahtAHfmEE-ehthOH-kohdAH",
+      "formality": "standard",
+      "cultural_note": "In Greek transport hubs, ATMs are often not on-site but nearby. The 'Πληροφορίες' (info desk) is a standard staff point for such queries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην είσοδο της Χώρας, αριστερά.",
+        "pronunciation": "steen-EEsohthOH-tees-khOHrahsAHreestehrAH",
+        "translation_en": "At the entrance to Chora, on the left."
+      },
+      "responses": [
+        {
+          "english": "At the entrance to Chora, on the left.",
+          "phonetic": "steen-EEsohthOH-tees-khOHrahsAHreestehrAH",
+          "french": "Στην είσοδο της Χώρας, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_bus_station_ktel_005",
+      "intent_en": "Where is the ticket counter?",
+      "text_local": "Πού είναι ο εκδοτήριο εισιτηρίων;",
+      "pronunciation": "pOO-EEneh-oh-EHkthohtEEreeOH-EEseeteerEEohn",
+      "formality": "standard",
+      "cultural_note": "In Greece, 'εκδοτήριο εισιτηρίων' is the standard term for ticket counter, and 'χώρος αναχωρήσεων' (departure area) is a clear, signposted section.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Εκδοτήριο στο χώρο αναχωρήσεων.",
+        "pronunciation": "EHkthohtEEreeOH-stoh-khOHroh-AHnahkhohrEEsehOHn",
+        "translation_en": "Ticket counter at departure area."
+      },
+      "responses": [
+        {
+          "english": "Ticket counter at departure area.",
+          "phonetic": "EHkthohtEEreeOH-stoh-khOHroh-AHnahkhohrEEsehOHn",
+          "french": "Εκδοτήριο στο χώρο αναχωρήσεων."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_bus_station_ktel_006",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πάει τώρα το λεωφορείο για το αεροδρόμιο;",
+      "pronunciation": "pEE-AHlfah-tOHnohs-EHpseelOHn-eeOHtah-ehntshEYEneezehllEHtuh-toh-AHehrohthrOHmeeOH",
+      "formality": "standard",
+      "cultural_note": "In Greece, schedules for buses like X96 are often unstaffed or vary; directing to staff is the only reliable source. The phrase 'πάει今' is a colloquial way to ask if it's running now.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, από την αποβάθρα 3 τώρα.",
+        "pronunciation": "nEHahpOH-teen-AHpohvAHthrah-trEEah-tOHrah",
+        "translation_en": "Yes, it leaves in a few minutes."
+      },
+      "responses": [
+        {
+          "english": "Yes, it leaves in a few minutes.",
+          "phonetic": "nEHahpOH-teen-AHpohvAHthrah-trEEah-tOHrah",
+          "french": "Ναι, από την αποβάθρα 3 τώρα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

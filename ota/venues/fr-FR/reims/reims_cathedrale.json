@@ -1,0 +1,115 @@
+{
+  "id": "reims_cathedrale",
+  "name_en": "Reims Cathedral (Notre-Dame de Reims)",
+  "name_local": "Cathédrale Notre-Dame de Reims",
+  "icon": "building.columns.fill",
+  "phrases": [
+    {
+      "id": "cathedrale_entree",
+      "intent_en": "Is entry to the cathedral free today?",
+      "text_local": "L'entrée de la cathédrale est gratuite aujourd'hui ?",
+      "pronunciation": "lon-TRAY duh lah kah-tay-DRAL eh grah-TWEET oh-zhoor-DWEE",
+      "formality": "polite",
+      "cultural_note": "Main cathedral entry is usually free; tower/roof access is separate when available.",
+      "responses": [
+        {
+          "english": "Yes, entry is free.",
+          "phonetic": "wee lahn-TRAY eh grah-TWEET",
+          "french": "Oui, l'entrée est gratuite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cathedrale_sacres",
+      "intent_en": "Where do I book a guided tour of the cathedral?",
+      "text_local": "Où est-ce qu'on réserve une visite guidée de la cathédrale ?",
+      "pronunciation": "oo ess kohn ray-ZAIRV oon vee-ZEET gee-DAY duh lah kah-tay-DRAHL",
+      "formality": "polite",
+      "cultural_note": "Guided tours of the cathedral are available in several languages.",
+      "responses": [
+        {
+          "english": "At the welcome desk, inside.",
+          "phonetic": "ah lah-KUY ah lahn-tay-RYUR",
+          "french": "À l'accueil, à l'intérieur."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cathedrale_vitraux",
+      "intent_en": "Where are the Chagall stained-glass windows?",
+      "text_local": "Où sont les vitraux de Chagall ?",
+      "pronunciation": "oo son lay vee-TROH duh shah-GAL",
+      "formality": "polite",
+      "cultural_note": "The Chagall windows are a highlight for many visitors—best seen with natural daylight.",
+      "responses": [
+        {
+          "english": "In the apse, at the back.",
+          "phonetic": "dahn luh shuh-VAY oh FOHN",
+          "french": "Dans le chevet, au fond."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cathedrale_visite",
+      "intent_en": "How long does a full visit usually take?",
+      "text_local": "La visite complète dure combien de temps ?",
+      "pronunciation": "lah vee-ZEET kom-PLET dur kom-BYAN duh tahn",
+      "formality": "polite",
+      "cultural_note": "Most visitors spend 45–75 minutes depending on pace and photo stops.",
+      "responses": [
+        {
+          "english": "About one hour.",
+          "phonetic": "ahn-vee-ROHN oon UR",
+          "french": "Environ une heure."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "cathedrale_tours",
+      "intent_en": "Where do I book tower access?",
+      "text_local": "Où puis-je réserver l'accès aux tours ?",
+      "pronunciation": "oo pwee-zh ray-zair-VAY lak-SAY oh toor",
+      "formality": "polite",
+      "cultural_note": "Tower access is separate and can require advance booking depending on season.",
+      "responses": [
+        {
+          "english": "At the ticket desk, at the entrance.",
+          "phonetic": "oh gee-SHAY ah lahn-TRAY",
+          "french": "Au guichet, à l'entrée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "stained-glass windows",
+      "word_local": "les vitraux",
+      "pronunciation": "lay vee-TROH"
+    },
+    {
+      "word_en": "coronation",
+      "word_local": "le sacre",
+      "pronunciation": "luh SAH-kruh"
+    },
+    {
+      "word_en": "nave",
+      "word_local": "la nef",
+      "pronunciation": "lah NEF"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "cologne_cologne_bonn_airport",
+  "name_en": "Cologne Bonn Airport",
+  "name_local": "Flughafen Köln/Bonn",
+  "icon": "tram",
+  "lat": 50.8677818,
+  "lon": 7.138961,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "cologne_cologne_bonn_airport_001",
+      "intent_en": "Where do I pay for long parking",
+      "text_local": "Wo zahle ich Langzeitparkplatz?",
+      "pronunciation": "vOH-tsAHluh-ihkh-lAHngtsEYEtpAHrkplahts",
+      "formality": "standard",
+      "cultural_note": "Parking payment is typically near exits; 'Zahlstationen' is a standard term in German transport contexts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zahlstationen an Wahner Heide.",
+        "pronunciation": "tsAHlstahtsyOHnuhn-ahn-vAHn-hEYEduh",
+        "translation_en": "Payment stations at Wahner Heide exit."
+      },
+      "responses": [
+        {
+          "english": "Payment stations at Wahner Heide exit.",
+          "phonetic": "tsAHlstahtsyOHnuhn-ahn-vAHn-hEYEduh",
+          "french": "Zahlstationen an Wahner Heide."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_bonn_airport_002",
+      "intent_en": "When does the night bus to Cologne leave",
+      "text_local": "Wann fährt der Nachtbus nach Köln?",
+      "pronunciation": "vAHn-fEHrt-dehr-nAHkhtbuhs-nahkh-kUHln",
+      "formality": "standard",
+      "cultural_note": "Night bus schedules may vary; staff at information desks provide real-time updates.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ab Haltestelle Terminal 1, um 23:15 Uhr.",
+        "pronunciation": "ahp-hAHltehshtEHluh-ehntMihnuhldeh-EYEnsuhm-drEYE-uhnttsvAHntsihkh-oor-fUEnftsehn-OOr",
+        "translation_en": "From Terminal 1 stop, at 11:15 PM."
+      },
+      "responses": [
+        {
+          "english": "From Terminal 1 stop, at 11:15 PM.",
+          "phonetic": "ahp-hAHltehshtEHluh-ehntMihnuhldeh-EYEnsuhm-drEYE-uhnttsvAHntsihkh-oor-fUEnftsehn-OOr",
+          "french": "Ab Haltestelle Terminal 1, um 23:15 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_bonn_airport_003",
+      "intent_en": "Where is the S-Bahn train platform",
+      "text_local": "Wo ist der S-Bahnsteig nach Köln Hbf?",
+      "pronunciation": "vOH-ihst-dehr-EHsbAHnsteyek-nahkh-kUHln-hAHbEHEHf",
+      "formality": "standard",
+      "cultural_note": "Directions rely on standardized airport signage; travelers typically understand 'S-Bahn' without explanation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Unten, Bahnsteig 1.",
+        "pronunciation": "UHntuhnbAHnsteyek-EYEns",
+        "translation_en": "Downstairs, platform 1."
+      },
+      "responses": [
+        {
+          "english": "Downstairs, platform 1.",
+          "phonetic": "UHntuhnbAHnsteyek-EYEns",
+          "french": "Unten, Bahnsteig 1."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_bonn_airport_004",
+      "intent_en": "How do I validate my train ticket",
+      "text_local": "Wie entwerte ich mein Ticket?",
+      "pronunciation": "vee-ehntvEHrtuhn-ihkh-meyen-tIHkuht",
+      "formality": "standard",
+      "cultural_note": "Ticket validation machines may not be prominently located; staff at counters provide guidance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Da drüben am Automaten auf dem Bahnsteig.",
+        "pronunciation": "dah-drUEbuhn-ahm-OWtohmAHtuhn-owf-dehm-bAHnsteyek",
+        "translation_en": "Over there at the machine on the platform."
+      },
+      "responses": [
+        {
+          "english": "Over there at the machine on the platform.",
+          "phonetic": "dah-drUEbuhn-ahm-OWtohmAHtuhn-owf-dehm-bAHnsteyek",
+          "french": "Da drüben am Automaten auf dem Bahnsteig."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_bonn_airport_005",
+      "intent_en": "How do I reach Terminal Two",
+      "text_local": "Wie komme ich zu Terminal 2?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsoo-ehntMihnuhldeh-tsvEYE",
+      "formality": "casual",
+      "cultural_note": "Terminal transitions often use clear signage; 'follow the signs' aligns with German airport directional language.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Links halten und dann geradeaus.",
+        "pronunciation": "lINGks-hAHltuhn-uhnt-dahn-guhrAHdehOWs",
+        "translation_en": "Keep left and then straight ahead."
+      },
+      "responses": [
+        {
+          "english": "Keep left and then straight ahead.",
+          "phonetic": "lINGks-hAHltuhn-uhnt-dahn-guhrAHdehOWs",
+          "french": "Links halten und dann geradeaus."
+        }
+      ]
+    },
+    {
+      "id": "cologne_cologne_bonn_airport_006",
+      "intent_en": "Can minors fly alone with Eurowings",
+      "text_local": "Dürfen Minderjährige allein mit Eurowings fliegen?",
+      "pronunciation": "dUErfuhn-mIHndyEHrihuh-ahlEYEn-miht-AWuhrohvINGs-flEEuhn",
+      "formality": "standard",
+      "cultural_note": "German aviation policies are strictly enforced; concise confirmation aligns with staff communication.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, ab zwölf Jahren.",
+        "pronunciation": "yAHahp-tsvUHlf-yAHruhn",
+        "translation_en": "Yes, from twelve years old."
+      },
+      "responses": [
+        {
+          "english": "Yes, from twelve years old.",
+          "phonetic": "yAHahp-tsvUHlf-yAHruhn",
+          "french": "Ja, ab zwölf Jahren."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "freiburg_freiburg_main_station",
+  "name_en": "Freiburg Main Station",
+  "name_local": "Freiburg Hauptbahnhof",
+  "icon": "tram",
+  "lat": 47.9982505,
+  "lon": 7.8423399,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "freiburg_freiburg_main_station_001",
+      "intent_en": "Where is the Baden-Württemberg-Ticket machine?",
+      "text_local": "Wo finde ich den Baden-Württemberg-Ticket-Automaten?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-bAHduhnvUErtuhmbEHrtIHkuhtOWtohmAHtuhn",
+      "formality": "standard",
+      "cultural_note": "Ticket machines are typically grouped near main entrances or central areas.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Draußen, vor dem Haupteingang.",
+        "pronunciation": "drOWsuhnfAWr-dehm-hOWptEYEngAHng",
+        "translation_en": "Outside, in front of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Outside, in front of the main entrance.",
+          "phonetic": "drOWsuhnfAWr-dehm-hOWptEYEngAHng",
+          "french": "Draußen, vor dem Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_main_station_002",
+      "intent_en": "Which platform for Breisgau S-Bahn?",
+      "text_local": "Auf welchem Gleis fährt die Breisgau S-Bahn ab?",
+      "pronunciation": "vOH-fEHrt-dee-brEYEsow-EHsbAHn-AHp",
+      "formality": "standard",
+      "cultural_note": "Breisgau S-Bahn platforms are usually centrally located in the station.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 5.",
+        "pronunciation": "glEYEs-fUEnf",
+        "translation_en": "Platform 5."
+      },
+      "responses": [
+        {
+          "english": "Platform 5.",
+          "phonetic": "glEYEs-fUEnf",
+          "french": "Gleis 5."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_main_station_003",
+      "intent_en": "Can I buy a Regio-Card here?",
+      "text_local": "Gibt es hier die Regio-Card zu kaufen?",
+      "pronunciation": "EEpt-ehs-hEEr-dee-rEHihOHkAHrt-tsoo-kOWfuhn",
+      "formality": "casual",
+      "cultural_note": "Regio-Cards can be purchased at main train stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_main_station_004",
+      "intent_en": "Where do I pay for parking?",
+      "text_local": "Wo bezahle ich das Parken?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-dahs-pAHrkuhn",
+      "formality": "standard",
+      "cultural_note": "Parking payment machines are typically located near the parking area exits.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten am Parkplatz.",
+        "pronunciation": "ahm-OWtohmAHtuhn-ahm-pAHrkplahts",
+        "translation_en": "At the machine at the parking lot."
+      },
+      "responses": [
+        {
+          "english": "At the machine at the parking lot.",
+          "phonetic": "ahm-OWtohmAHtuhn-ahm-pAHrkplahts",
+          "french": "Am Automaten am Parkplatz."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_freiburg_main_station_005",
+      "intent_en": "Where is the Reisezentrum counter?",
+      "text_local": "Wo ist das DB Reisezentrum?",
+      "pronunciation": "vOH-ihst-dahs-dEHbEH-rEYEzehtsEHntruhm",
+      "formality": "standard",
+      "cultural_note": "Reisezentrum counters are standard at German main stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Bahnhof, am Schalter.",
+        "pronunciation": "ihm-bAHnhohfahm-shAHlt",
+        "translation_en": "In the station, at the counter."
+      },
+      "responses": [
+        {
+          "english": "In the station, at the counter.",
+          "phonetic": "ihm-bAHnhohfahm-shAHlt",
+          "french": "Im Bahnhof, am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

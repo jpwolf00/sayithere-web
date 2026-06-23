@@ -1,0 +1,118 @@
+{
+  "id": "dijon_maille",
+  "name_en": "Maille Mustard Shop",
+  "name_local": "Moutarderie Maille",
+  "icon": "bag",
+  "lat": 47.323,
+  "lon": 5.038,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "dijon_maille_001",
+      "intent_en": "Ask about the opening hours of the shop",
+      "text_local": "Quels sont les horaires d'ouverture ?",
+      "pronunciation": "kel son layz oh-REHR doo-vair-TOOR",
+      "formality": "polite",
+      "cultural_note": "The Maille boutique has regular shop hours and sometimes opens Sundays in tourist season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "10am to 7pm, Monday to Saturday.",
+          "phonetic": "duh dee zuhr ah dee-nuhf uhr, doo luhn-DEE oh sahm-DEE",
+          "french": "De dix heures à dix-neuf heures, du lundi au samedi."
+        }
+      ]
+    },
+    {
+      "id": "dijon_maille_002",
+      "intent_en": "Ask for a tasting of different mustards",
+      "text_local": "Puis-je goûter différentes moutardes ?",
+      "pronunciation": "PWEE-zhuh goo-TAY day-fay-RANT moo-TARD",
+      "formality": "polite",
+      "cultural_note": "The shop offers tastings of their many varieties. Don't miss the old-style wholegrain and the raspberry mustard.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, tasting is free. Try several varieties.",
+          "phonetic": "wee, lah day-goos-tah-SYON eh grah-TWEET. eh-say-YAY plu-ZYUHR vah-ree-ay-TAY",
+          "french": "Oui, la dégustation est gratuite. Essayez plusieurs variétés."
+        }
+      ]
+    },
+    {
+      "id": "dijon_maille_003",
+      "intent_en": "Ask if they ship internationally",
+      "text_local": "Expédiez-vous à l'international ?",
+      "pronunciation": "ek-spay-dee-AY voo ah lan-tair-nah-syoh-NAL",
+      "formality": "polite",
+      "cultural_note": "Maille ships worldwide. They have an online store but the shop prices are often better, and you can try before you buy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, you can order online or ask in the shop.",
+          "phonetic": "wee, voo poo-VAY koh-mahn-DAY ahn leen oo duh-mahn-DAY ahn boo-TEEK",
+          "french": "Oui, vous pouvez commander en ligne ou demander en boutique."
+        }
+      ]
+    },
+    {
+      "id": "dijon_maille_004",
+      "intent_en": "Ask what the difference is between mustards",
+      "text_local": "Quelle est la différence entre les différentes moutardes ?",
+      "pronunciation": "kel eh lah day-fay-RANS an-tray lay day-fay-RANT moo-TARD",
+      "formality": "polite",
+      "cultural_note": "Traditional Dijon mustard uses white wine and verjuice. Flavored varieties add ingredients like fig, raspberry, or tarragon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The difference comes from the ingredients and the taste: some are stronger, others milder or more flavored.",
+          "phonetic": "lah dee-fay-RAHNS vee-AHN dayz ahn-gray-dee-AHN ay doo goo: sair-TEN son ploo fort, DOHTR ploo doos oo par-fyoo-MAY",
+          "french": "La différence vient des ingrédients et du goût : certaines sont plus fortes, d'autres plus douces ou parfumées."
+        }
+      ]
+    },
+    {
+      "id": "dijon_maille_005",
+      "intent_en": "Ask for a gift box recommendation",
+      "text_local": "Pouvez-vous me recommander une boîtecadeau ?",
+      "pronunciation": "poo-VAY voo muh ruh-ko-mahn-DAY oon bwat-kah-DOH",
+      "formality": "polite",
+      "cultural_note": "Maille offers beautiful gift sets with multiple mustard varieties, vinegars, and oils. They're perfect for food-loving friends.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I recommend a gift box with several mustards so you can try different flavors.",
+          "phonetic": "zhuh voo ruh-koh-MAHND uhn koh-FRAY ah-VEK plu-ZYUR moo-TARD poor goo-TAY dee-fay-RAHNT sah-VEUR",
+          "french": "Je vous recommande un coffret avec plusieurs moutardes pour goûter différentes saveurs."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "mustard",
+      "word_local": "la moutarde",
+      "pronunciation": "lah moo-TARD"
+    },
+    {
+      "word_en": "vinegar",
+      "word_local": "le vinaigre",
+      "pronunciation": "leh vee-NAY-gruh"
+    },
+    {
+      "word_en": "tasting",
+      "word_local": "la degustation",
+      "pronunciation": "lah day-goos-tah-SYON"
+    },
+    {
+      "word_en": "gift box",
+      "word_local": "la boîtecadeau",
+      "pronunciation": "lah bwat-kah-DOH"
+    }
+  ]
+}

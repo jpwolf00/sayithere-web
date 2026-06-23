@@ -1,0 +1,166 @@
+{
+  "id": "meteora_kalabaka_restaurant_meteora",
+  "name_en": "Restaurant Meteora",
+  "name_local": "Εστιατόριο Μετέωρα",
+  "icon": "fork.knife",
+  "lat": 39.7067046,
+  "lon": 21.6234827,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "meteora_kalabaka_restaurant_meteora_001",
+      "intent_en": "Ask about dress code requirements",
+      "text_local": "Ποια είναι η ενδυματολογική πολιτική;",
+      "pronunciation": "peeAH-EEneh-ee-EHntheemAHtohlOHyeeEE-pOHleeteeEE",
+      "formality": "standard",
+      "cultural_note": "Smart casual is the expected dress code for upscale dining in Greece.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Απαιτείται smart casual, χωρίς τζιν ή αθλητικά παπούτσια.",
+        "pronunciation": "AHpehtEEteh-ehnsmAHt-kAHzhoouhlehlkhohrEEs-dzEEn-ee-AHthleeteekAH-pahpOOtseeAH",
+        "translation_en": "Smart casual is required, no jeans or sneakers."
+      },
+      "responses": [
+        {
+          "english": "Smart casual is required, no jeans or sneakers.",
+          "phonetic": "AHpehtEEteh-ehnsmAHt-kAHzhoouhlehlkhohrEEs-dzEEn-ee-AHthleeteekAH-pahpOOtseeAH",
+          "french": "Απαιτείται smart casual, χωρίς τζιν ή αθλητικά παπούτσια."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_restaurant_meteora_002",
+      "intent_en": "Ask if tipping is expected",
+      "text_local": "Πρέπει να αφήσω φιλοδώρημα;",
+      "pronunciation": "prEHpee-n-ahfEEsoh-fEElohthOHreemAH",
+      "formality": "standard",
+      "cultural_note": "Tipping 18-20% is a standard practice in high-end Greek restaurants.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "18-20% αναμένεται.",
+        "pronunciation": "thEHkahohktOH-mEEohn-EEkohsEE-tEEsehkahtOH-AHnahmEHnehtEH",
+        "translation_en": "18-20% expected."
+      },
+      "responses": [
+        {
+          "english": "18-20% expected.",
+          "phonetic": "thEHkahohktOH-mEEohn-EEkohsEE-tEEsehkahtOH-AHnahmEHnehtEH",
+          "french": "18-20% αναμένεται."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_restaurant_meteora_003",
+      "intent_en": "Is smart casual dress enforced?",
+      "text_local": "Υπάρχει υποχρεωτική ενδυματολογική πολιτική smart casual;",
+      "pronunciation": "eepAHrkhee-EEpohkhrEHohteeEE-EHntheemAHtohlOHyeeEE-pOHleeteeEE-ehnsmAHt-kAHzhoouhlehl",
+      "formality": "standard",
+      "cultural_note": "Greek fine-dining venues often emphasize dress codes to maintain ambiance and exclusivity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, smart casual.",
+        "pronunciation": "nEHehnsmAHt-kAHzhoouhlehl",
+        "translation_en": "Yes, smart casual."
+      },
+      "responses": [
+        {
+          "english": "Yes, smart casual.",
+          "phonetic": "nEHehnsmAHt-kAHzhoouhlehl",
+          "french": "Ναι, smart casual."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_restaurant_meteora_004",
+      "intent_en": "Ask if wine pairing is available",
+      "text_local": "Υπάρχει συνοδεία κρασιών;",
+      "pronunciation": "eepAHrkhee-sEEnohthEEah-krahsyOHn",
+      "formality": "standard",
+      "cultural_note": "Wine pairings are a standard premium service at Michelin-starred restaurants.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, είναι διαθέσιμη με επιπλέον χρέωση.",
+        "pronunciation": "nEHEEneh-thEEahthEHseemEE-meh-EHpeeplEHohn-khrEHohsEE",
+        "translation_en": "Yes, it is available for an additional charge."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is available for an additional charge.",
+          "phonetic": "nEHEEneh-thEEahthEHseemEE-meh-EHpeeplEHohn-khrEHohsEE",
+          "french": "Ναι, είναι διαθέσιμη με επιπλέον χρέωση."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_restaurant_meteora_005",
+      "intent_en": "Is Jordan Kahn still chef here?",
+      "text_local": "Ο Τζόρνταν Καν είναι ακόμα σεφ εδώ;",
+      "pronunciation": "oh-dzOHrdahng-gAHn-EEneh-ahkOHmah-sEHf-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Greek customers often inquire directly about the chef’s presence to confirm authenticity of the dining experience.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, ο Τζόρνταν Καν είναι ο σεφ.",
+        "pronunciation": "nEHoh-dzOHrdahng-gAHn-EEneh-oh-sEHf",
+        "translation_en": "Yes, Jordan Kahn is the chef."
+      },
+      "responses": [
+        {
+          "english": "Yes, Jordan Kahn is the chef.",
+          "phonetic": "nEHoh-dzOHrdahng-gAHn-EEneh-oh-sEHf",
+          "french": "Ναι, ο Τζόρνταν Καν είναι ο σεφ."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_restaurant_meteora_006",
+      "intent_en": "What time must I arrive?",
+      "text_local": "Πότε πρέπει να φτάσω;",
+      "pronunciation": "pOHteh-prEHpee-nah-ftAHsoh",
+      "formality": "standard",
+      "cultural_note": "Punctuality is highly valued in Greek fine dining; reservation times are adhered to strictly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δέκα λεπτά πριν την κράτηση.",
+        "pronunciation": "thEHkah-lehptAH-prEEn-deeng-grAHteesEE",
+        "translation_en": "At your reservation time."
+      },
+      "responses": [
+        {
+          "english": "At your reservation time.",
+          "phonetic": "thEHkah-lehptAH-prEEn-deeng-grAHteesEE",
+          "french": "Δέκα λεπτά πριν την κράτηση."
+        }
+      ]
+    },
+    {
+      "id": "meteora_kalabaka_restaurant_meteora_007",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η κύρια είσοδος;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHz-meh-toh-thEHmah-tees-prOHihstohrEEahs",
+      "formality": "standard",
+      "cultural_note": "Customers may seek thematic cues; staff guidance ensures alignment with the venue’s design identity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ακριβώς μπροστά, δίπλα στη στάση λεωφορείου.",
+        "pronunciation": "AHkreevOHz-brohstAHthEEplah-stee-stAHsee-lEHohfohrEEoo",
+        "translation_en": "The main entrance is at the front of the restaurant, near the bus stop and the road to Meteora."
+      },
+      "responses": [
+        {
+          "english": "The main entrance is at the front of the restaurant, near the bus stop and the road to Meteora.",
+          "phonetic": "AHkreevOHz-brohstAHthEEplah-stee-stAHsee-lEHohfohrEEoo",
+          "french": "Ακριβώς μπροστά, δίπλα στη στάση λεωφορείου."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

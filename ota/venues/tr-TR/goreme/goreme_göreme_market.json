@@ -1,0 +1,232 @@
+{
+  "id": "goreme_göreme_market",
+  "name_en": "Göreme Market",
+  "name_local": "Göreme Pazarı",
+  "icon": "cart",
+  "lat": 38.642089,
+  "lon": 34.8296234,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "goreme_göreme_market_001",
+      "intent_en": "Where is parking payment?",
+      "text_local": "Park ödemesi nerede?",
+      "pronunciation": "pAHrk-uhdehmehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Payment is usually made directly to an attendant rather than a machine.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki park görevlisine ödeyin.",
+        "pronunciation": "eerihshtehkIH-pAHrk-uhrehvleeseenEH-uhdehyIHn",
+        "translation_en": "Pay the parking attendant at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Pay the parking attendant at the entrance.",
+          "phonetic": "eerihshtehkIH-pAHrk-uhrehvleeseenEH-uhdehyIHn",
+          "french": "Girişteki park görevlisine ödeyin."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_002",
+      "intent_en": "Can I taste before buying bulk?",
+      "text_local": "Toptan almadan önce tadına bakabilir miyim?",
+      "pronunciation": "tawptAHn-AHmahdahn-UHndzheh-tahdoonAH-bahkahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Tadım politikası satıcıya bağlıdır. 'Pazarcı' doğrudan bağlamdaki 'Pazarci (market vendor)' hedefinden alınmıştır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Tadabilirsiniz, sorun yok.",
+        "pronunciation": "tahdahbeelIHrseenihzsohrUHn-yAWk",
+        "translation_en": "You can taste, no problem."
+      },
+      "responses": [
+        {
+          "english": "You can taste, no problem.",
+          "phonetic": "tahdahbeelIHrseenihzsohrUHn-yAWk",
+          "french": "Tadabilirsiniz, sorun yok."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_003",
+      "intent_en": "Do vendors prefer cash?",
+      "text_local": "Satıcılar nakit tercih eder mi?",
+      "pronunciation": "sahtoodzhooAHr-nahkIHt-tehrdzhIHh-ehdEHr-mih",
+      "formality": "standard",
+      "cultural_note": "Cash is still king in many Turkish markets, so it's best to have small bills ready.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, çoğu bölüm sadece nakit.",
+        "pronunciation": "ehvEHttshohUH-bUHluhm-sahdEHdzheh-nahkIHt",
+        "translation_en": "Yes, most sections are cash-only."
+      },
+      "responses": [
+        {
+          "english": "Yes, most sections are cash-only.",
+          "phonetic": "ehvEHttshohUH-bUHluhm-sahdEHdzheh-nahkIHt",
+          "french": "Evet, çoğu bölüm sadece nakit."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_004",
+      "intent_en": "Can I taste before buying bulk?",
+      "text_local": "Toptan almadan önce tadabilir miyim?",
+      "pronunciation": "tawptAHn-AHmahdahn-UHndzheh-tahdahbeelIHr-mEEyihm",
+      "formality": "standard",
+      "cultural_note": "Tasting is a common part of the haggling process in Turkish markets, especially for dried goods.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Elbette, tadına bakabilirsiniz.",
+        "pronunciation": "ahlbehtEHtahdoonAH-bahkahbeelIHrseenihz",
+        "translation_en": "Of course, you can taste it."
+      },
+      "responses": [
+        {
+          "english": "Of course, you can taste it.",
+          "phonetic": "ahlbehtEHtahdoonAH-bahkahbeelIHrseenihz",
+          "french": "Elbette, tadına bakabilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_005",
+      "intent_en": "Do you weigh in front of me?",
+      "text_local": "Tartıyı önümde yapar mısınız?",
+      "pronunciation": "tahrtooyOO-UHnuhmdeh-yahpAHr-mOOsoonooz",
+      "formality": "standard",
+      "cultural_note": "Transparency in weighing is a sign of a trustworthy vendor.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tartıyı görebilirsiniz.",
+        "pronunciation": "ehvEHttahrtooyOO-uhrehbeelIHrseenihz",
+        "translation_en": "Yes, you can see the scale."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can see the scale.",
+          "phonetic": "ehvEHttahrtooyOO-uhrehbeelIHrseenihz",
+          "french": "Evet, tartıyı görebilirsiniz."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_006",
+      "intent_en": "Where is parking payment?",
+      "text_local": "Otopark ödemesi nerede?",
+      "pronunciation": "ohtohpAHrk-uhdehmehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Yanıt, mekan bağlamındaki 'Parking attendant (Parking attendant)' ve 'Paying for parking at entrance' görevlerinden türetilmiştir. Giriş dışında bir konum belirtilmez.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki görevliye ödeme yapın.",
+        "pronunciation": "eerihshtehkIH-uhrehvleeyEH-uhdEHmeh-yahpOOn",
+        "translation_en": "Pay the attendant at the entrance."
+      },
+      "responses": [
+        {
+          "english": "Pay the attendant at the entrance.",
+          "phonetic": "eerihshtehkIH-uhrehvleeyEH-uhdEHmeh-yahpOOn",
+          "french": "Girişteki görevliye ödeme yapın."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_007",
+      "intent_en": "Where are the dried apricot sellers?",
+      "text_local": "Kuru kayısı satıcıları nerede?",
+      "pronunciation": "koorUH-kahyoosOO-sahtoodzhooahrOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish markets often have fluid layouts. Vendors appreciate it when you ask around.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Toplu satış yapanlar arkada.",
+        "pronunciation": "tawpUH-sahtOOsh-yahpahnAHr-ahrkahdAH",
+        "translation_en": "The ones selling in bulk are at the back."
+      },
+      "responses": [
+        {
+          "english": "The ones selling in bulk are at the back.",
+          "phonetic": "tawpUH-sahtOOsh-yahpahnAHr-ahrkahdAH",
+          "french": "Toplu satış yapanlar arkada."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_008",
+      "intent_en": "Where are the dried apricot sellers?",
+      "text_local": "Kuru kayısı satanlar nerede?",
+      "pronunciation": "koorUH-kahyoosOO-sahtahnAHr-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Göreme Pazarı'nda sabit tezgah yoktur, yerleşim günlük değişir. Bu nedenle net bir yön tarifi vermek yerine danışmaya yönlendirmek en doğrusudur.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişte sol tarafta.",
+        "pronunciation": "eerihshtEH-sAW-tahrahftAH",
+        "translation_en": "On the left side at the entrance."
+      },
+      "responses": [
+        {
+          "english": "On the left side at the entrance.",
+          "phonetic": "eerihshtEH-sAW-tahrahftAH",
+          "french": "Girişte sol tarafta."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_009",
+      "intent_en": "Do you weigh in front of me?",
+      "text_local": "Tartıyı benim önümde mi yapıyorsunuz?",
+      "pronunciation": "tahrtooyOO-behnIHm-UHnuhmdeh-mih-yahpOOyawrsoonuhz",
+      "formality": "standard",
+      "cultural_note": "Tartım şeffaflığı her pazarcıda farklılık gösterebilir. 'Pazarcı' doğrudan bağlamdaki 'Pazarci (market vendor)' hedefinden alınmıştır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet.",
+        "pronunciation": "ehvEHt",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "ehvEHt",
+          "french": "Evet."
+        }
+      ]
+    },
+    {
+      "id": "goreme_göreme_market_010",
+      "intent_en": "Do vendors prefer cash?",
+      "text_local": "Satıcılar nakit tercih ediyor mu?",
+      "pronunciation": "sahtoodzhooAHr-nahkIHt-tehrdzhIHh-ehdEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Yanıt, mekan bağlamındaki 'Cash-only sections mixed in' ve 'Cash exchange with vendors' detaylarına dayanır. 'Çoğu' ifadesi, tüm satıcılar için kesin konuşmaktan kaçınmak için kullanılmıştır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, çoğu sadece nakit alır.",
+        "pronunciation": "ehvEHttshohUH-sahdEHdzheh-nahkIHt-ahOOr",
+        "translation_en": "Yes, most only take cash."
+      },
+      "responses": [
+        {
+          "english": "Yes, most only take cash.",
+          "phonetic": "ehvEHttshohUH-sahdEHdzheh-nahkIHt-ahOOr",
+          "french": "Evet, çoğu sadece nakit alır."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,110 @@
+{
+  "id": "geneva_parc_des_bastions",
+  "name_en": "Parc des Bastions (Reformation Wall)",
+  "name_local": "Parc des Bastions",
+  "icon": "tree",
+  "phrases": [
+    {
+      "id": "geneva_pb_001",
+      "intent_en": "Ask where the Reformation Wall is",
+      "text_local": "Où se trouve le Mur des Réformateurs dans ce parc ?",
+      "pronunciation": "oo suh TROOV luh MOOR day ray-for-mah-TUR don suh PARK",
+      "formality": "polite",
+      "cultural_note": "The Mur des Réformateurs (Reformation Wall), built in 1909, is 100 metres long and depicts the key figures of the Protestant Reformation including Calvin, Farel, Bèze and Knox.",
+      "responses": [
+        {
+          "english": "In the centre of the park, you can't miss it.",
+          "phonetic": "oh SAHN-truh doo PARK, voo nuh poo-VAY pah luh rah-TAY",
+          "french": "Au centre du parc, vous ne pouvez pas le rater."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_pb_002",
+      "intent_en": "Ask about the giant chess boards in the park",
+      "text_local": "Les échiquier géants du parc sont-ils accessibles à tous ?",
+      "pronunciation": "lay zay-shee-KYAY zhay-YOHN doo PARK sohn-TEEL ahk-ses-EE-bluh ah TOO",
+      "formality": "polite",
+      "cultural_note": "The Parc des Bastions is famous for its giant outdoor chess boards, where locals and visitors of all ages come to play. Chess pieces and boards are freely available.",
+      "responses": [
+        {
+          "english": "Over there, near the wall. It's free.",
+          "phonetic": "lah-BAH, preh doo MOOR. seh grah-TWEE",
+          "french": "Là-bas, près du mur. C'est gratuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_pb_003",
+      "intent_en": "Ask where to find the giant chess boards in the park",
+      "text_local": "Où sont les grands échiquiers dans le parc ?",
+      "pronunciation": "oo sohn lay grahn zay-shee-KYAY dahn luh PARK",
+      "formality": "polite",
+      "cultural_note": "The Parc des Bastions has oversized chess boards where locals play year-round. Pieces are available to borrow.",
+      "responses": [
+        {
+          "english": "Right there, next to the wall.",
+          "phonetic": "zhoost LAH, ah koh-TAY doo MOOR",
+          "french": "Juste là, à côté du mur."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_pb_004",
+      "intent_en": "Ask if the park is suitable for a picnic",
+      "text_local": "Ce parc est-il agréable pour un pique-nique ?",
+      "pronunciation": "suh PARK eh-TEEL ah-gray-AH-bluh poor un peek-NEEK",
+      "formality": "polite",
+      "cultural_note": "The Parc des Bastions, with its shaded promenades and lawns near the University of Geneva, is a favourite lunchtime spot for students and office workers.",
+      "responses": [
+        {
+          "english": "Yes, it's perfect for a picnic.",
+          "phonetic": "wee, seh par-FEH poor uhn peek-NEEK",
+          "french": "Oui, c'est parfait pour un pique-nique."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "geneva_pb_005",
+      "intent_en": "Ask how to get to the park from the Old Town",
+      "text_local": "Comment se rendre au Parc des Bastions depuis la Vieille Ville ?",
+      "pronunciation": "koh-MOHN suh ROHN-druh oh PARK day bah-TYOHN duh-PWEE lah VYAY VEEL",
+      "formality": "polite",
+      "cultural_note": "The Parc des Bastions sits directly below the Old Town; it can be reached via the Promenade des Bastions, a short walk from the Place de Neuve.",
+      "responses": [
+        {
+          "english": "Go down the ramp, it's below.",
+          "phonetic": "deh-sahn-DAY lah RAHMP, seh ahn BAH",
+          "french": "Descendez la rampe, c'est en bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Reformation Wall",
+      "word_local": "le Mur des Réformateurs",
+      "pronunciation": "luh MOOR day ray-for-mah-TUR"
+    },
+    {
+      "word_en": "park",
+      "word_local": "le parc",
+      "pronunciation": "luh PARK"
+    },
+    {
+      "word_en": "chess",
+      "word_local": "les échecs",
+      "pronunciation": "lay zay-SHEK"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "liberec_pivovar_falkenštejn",
+  "name_en": "Pivovar Falkenštejn",
+  "name_local": "Pivovar Falkenštejn",
+  "icon": "fork.knife",
+  "lat": 50.7702648,
+  "lon": 15.0583947,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "liberec_pivovar_falkenštejn_001",
+      "intent_en": "Where do I pay for drinks at the bar",
+      "text_local": "Kde zaplatím za pití na baru?",
+      "pronunciation": "kdEH-zAHplaheem-zAHpeeee-nAHbahroo",
+      "formality": "standard",
+      "cultural_note": "In many Czech pubs, you pay the bartender directly at the tap when ordering drinks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Přímo u výčepu, vlevo od vchodu.",
+        "pronunciation": "prEEmoh-OO-vEEtshehpoovlEHvoh-OHdfkhohdoo",
+        "translation_en": "Right at the taproom, left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "Right at the taproom, left of the entrance.",
+          "phonetic": "prEEmoh-OO-vEEtshehpoovlEHvoh-OHdfkhohdoo",
+          "french": "Přímo u výčepu, vlevo od vchodu."
+        }
+      ]
+    },
+    {
+      "id": "liberec_pivovar_falkenštejn_002",
+      "intent_en": "Is the beer garden open tonight",
+      "text_local": "Je dnes večer otevřená pivní zahrádka?",
+      "pronunciation": "yeh-dnEHs-vEHtshehr-OHtehvrEHnah-pEEvnyee-zAHhrahtkah",
+      "formality": "standard",
+      "cultural_note": "Beer gardens may close early due to weather or low season, even in summer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, dnes večer je zavřená.",
+        "pronunciation": "nEHdnEHs-vEHtshehr-yeh-zAHvrehnah",
+        "translation_en": "No, it's closed this evening."
+      },
+      "responses": [
+        {
+          "english": "No, it's closed this evening.",
+          "phonetic": "nEHdnEHs-vEHtshehr-yeh-zAHvrehnah",
+          "french": "Ne, dnes večer je zavřená."
+        }
+      ]
+    },
+    {
+      "id": "liberec_pivovar_falkenštejn_003",
+      "intent_en": "How do I order food at my table",
+      "text_local": "Jak si můžu objednat jídlo ke stolu?",
+      "pronunciation": "yAHk-see-mOOzhoo-OHbyehdnaht-yEEdloh-kEH-stOHloo",
+      "formality": "standard",
+      "cultural_note": "In Czech pubs, table service is standard for food; you don't order at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Obsluha k vám přijde, stačí chvilku počkat.",
+        "pronunciation": "OHpsloohah-k-vAHm-prEEydehstAHtshee-khvEElkoo-pOHtshkaht",
+        "translation_en": "The server will come to you, just wait a moment."
+      },
+      "responses": [
+        {
+          "english": "The server will come to you, just wait a moment.",
+          "phonetic": "OHpsloohah-k-vAHm-prEEydehstAHtshee-khvEElkoo-pOHtshkaht",
+          "french": "Obsluha k vám přijde, stačí chvilku počkat."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

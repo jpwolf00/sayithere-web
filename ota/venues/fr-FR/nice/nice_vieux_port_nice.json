@@ -1,0 +1,118 @@
+{
+  "id": "nice_vieux_port",
+  "name_en": "Nice Old Port",
+  "name_local": "Port Lympia",
+  "icon": "figure.walk",
+  "lat": 43.6948,
+  "lon": 7.2843,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "nice_port_001",
+      "intent_en": "Ask where to catch the ferry to Corsica",
+      "text_local": "Où puis-je embarquer sur le ferry à destination de la Corse ?",
+      "pronunciation": "oo PWEE-zheh am-bar-KAY soor leh FEH-ree ah des-tee-nah-SYON deh lah KORS",
+      "formality": "polite",
+      "cultural_note": "Regular ferries depart Nice for Bastia and Ajaccio in Corsica. The journey takes about 5–7 hours overnight.",
+      "responses": [
+        {
+          "english": "The terminal is at the end of the quay.",
+          "phonetic": "luh tair-mee-NAHL eh toh BOO doo KAY",
+          "french": "Le terminal est au bout du quai."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_port_002",
+      "intent_en": "Ask what the fishing boats are selling",
+      "text_local": "Que vendent les pêcheurs depuis leurs bateaux ce matin ?",
+      "pronunciation": "keh VAN-dan lay pay-SHUHR deh-PWEE luhr bah-TOH seh mah-TAN",
+      "formality": "polite",
+      "cultural_note": "Local fishermen still sell their daily catch directly from the boat on the quayside — very early morning only.",
+      "responses": [
+        {
+          "english": "Fresh fish, caught this morning.",
+          "phonetic": "doo pwah-SOHN FRAY pay-SHAY suh mah-TAHN",
+          "french": "Du poisson frais, pêché ce matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_port_003",
+      "intent_en": "Ask if boat tours of the bay are available from the port",
+      "text_local": "Des excursions en bateau dans la baie sont-elles proposées depuis le port ?",
+      "pronunciation": "day zek-skoor-SYON an bah-TOH dan lah BAY son-TEL pro-po-ZAY deh-PWEE leh POR",
+      "formality": "polite",
+      "cultural_note": "Several operators offer bay cruises and boat trips to Monaco and Antibes from the old port.",
+      "responses": [
+        {
+          "english": "Yes, departures are from the main quay.",
+          "phonetic": "wee lay day-PAR sohn toh KAY prahn-see-PAHL",
+          "french": "Oui, les départs sont au quai principal."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_port_004",
+      "intent_en": "Ask for a table at a portside restaurant with a view of the boats",
+      "text_local": "Auriez-vous une table avec vue sur les bateaux, s'il vous plaît ?",
+      "pronunciation": "oh-RYAY voo oon TAB-leh ah-VEK vyoo soor lay bah-TOH seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The quais surrounding Port Lympia are lined with restaurants — Quai Lunel on the south side has the best views.",
+      "responses": [
+        {
+          "english": "There are terrace seats over there.",
+          "phonetic": "eel ee ah day PLAHSS ahn tay-RASS lah-BAH",
+          "french": "Il y a des places en terrasse, là-bas."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_port_005",
+      "intent_en": "Ask what time the port market opens",
+      "text_local": "À quelle heure commence le marché du port ?",
+      "pronunciation": "ah kel UHR ko-MANS leh mar-SHAY doo POR",
+      "formality": "polite",
+      "cultural_note": "A small morning market near the port sells fresh fish and local produce — best visited before 9am.",
+      "responses": [
+        {
+          "english": "From six in the morning.",
+          "phonetic": "day SEE-ZUR doo mah-TAHN",
+          "french": "Dès six heures du matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "port / harbour",
+      "word_local": "le port",
+      "pronunciation": "leh POR"
+    },
+    {
+      "word_en": "ferry",
+      "word_local": "le ferry",
+      "pronunciation": "leh FEH-ree"
+    },
+    {
+      "word_en": "fishing boat",
+      "word_local": "le bateau de pêche",
+      "pronunciation": "leh bah-TOH deh PESH"
+    },
+    {
+      "word_en": "quayside",
+      "word_local": "le quai",
+      "pronunciation": "leh KAY"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "füssen_füssen_train_station",
+  "name_en": "Füssen Train Station",
+  "name_local": "Bahnhof Füssen",
+  "icon": "tram",
+  "lat": 47.5702695,
+  "lon": 10.6979466,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "füssen_füssen_train_station_001",
+      "intent_en": "Which platform for Füssen trains?",
+      "text_local": "Von welchem Gleis fahren Füssen-Züge?",
+      "pronunciation": "fawn-vEHlkhuhm-lEYEs-fAHruhn-fUEsuhntsUEuh",
+      "formality": "standard",
+      "cultural_note": "Füssen ist ein Endbahnhof; alle Züge starten von Gleis 1.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 1.",
+        "pronunciation": "lEYEs-EYEns",
+        "translation_en": "Platform 1."
+      },
+      "responses": [
+        {
+          "english": "Platform 1.",
+          "phonetic": "lEYEs-EYEns",
+          "french": "Gleis 1."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_train_station_002",
+      "intent_en": "Where is the DB information counter?",
+      "text_local": "Wo ist der DB-Infostand?",
+      "pronunciation": "vOH-ihst-dehr-dEHbEHIHnfawstAHnt",
+      "formality": "standard",
+      "cultural_note": "DB Reisezentrum ist der zentrale Informationspunkt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am DB Reisezentrum.",
+        "pronunciation": "ahm-dEHbEH-rEYEzehtsEHntruhm",
+        "translation_en": "At the DB Reisezentrum."
+      },
+      "responses": [
+        {
+          "english": "At the DB Reisezentrum.",
+          "phonetic": "ahm-dEHbEH-rEYEzehtsEHntruhm",
+          "french": "Am DB Reisezentrum."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_train_station_003",
+      "intent_en": "When does the Neuschwanstein bus leave?",
+      "text_local": "Wann fährt der Neuschwanstein-Bus?",
+      "pronunciation": "vAHn-fEHrt-dehr-nAWuhshvahnshtEYEnbUHs",
+      "formality": "standard",
+      "cultural_note": "Abfahrtszeiten sind oft am Bus-Transfer-Schalter einsehbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Bus fährt stündlich.",
+        "pronunciation": "dehr-bUHs-fEHrt-shtUEntlihkh",
+        "translation_en": "The bus runs hourly."
+      },
+      "responses": [
+        {
+          "english": "The bus runs hourly.",
+          "phonetic": "dehr-bUHs-fEHrt-shtUEntlihkh",
+          "french": "Der Bus fährt stündlich."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_train_station_004",
+      "intent_en": "Do I validate tickets before boarding?",
+      "text_local": "Muss ich Tickets vor dem Einsteigen entwerten?",
+      "pronunciation": "mUHs-ihkh-tIHkuhts-fAWr-dehm-EYEnshtEYEuhn-ehntvEHrtuhn",
+      "formality": "standard",
+      "cultural_note": "Ticketvalidierung ist in Deutschland üblich vor Fahrtantritt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, vor dem Einsteigen.",
+        "pronunciation": "yAHfAWr-dehm-EYEnshtEYEuhn",
+        "translation_en": "Yes, before boarding."
+      },
+      "responses": [
+        {
+          "english": "Yes, before boarding.",
+          "phonetic": "yAHfAWr-dehm-EYEnshtEYEuhn",
+          "french": "Ja, vor dem Einsteigen."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_train_station_005",
+      "intent_en": "Is there a bus combo to the castle?",
+      "text_local": "Gibt es Bus-Kombi-Tickets zum Schloss?",
+      "pronunciation": "EEpt-ehs-bUHskAWmbeetIHkuhts-tsuhm-shlAWs",
+      "formality": "standard",
+      "cultural_note": "Kombi-Tickets sind oft am Bus-Transfer-Schalter erhältlich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "füssen_füssen_train_station_006",
+      "intent_en": "Where is the Bayern-Ticket machine?",
+      "text_local": "Wo ist der Bayern-Ticket-Automat?",
+      "pronunciation": "vOH-ihst-dehr-bEYEntIHkuhtOWtohmAHt",
+      "formality": "standard",
+      "cultural_note": "Automaten für Bayern-Ticket sind oft bei DB-Automaten zu finden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei den DB-Automaten.",
+        "pronunciation": "beye-dehn-dEHbEHOWtohmAHtuhn",
+        "translation_en": "At the DB ticket machines."
+      },
+      "responses": [
+        {
+          "english": "At the DB ticket machines.",
+          "phonetic": "beye-dehn-dEHbEHOWtohmAHtuhn",
+          "french": "Bei den DB-Automaten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

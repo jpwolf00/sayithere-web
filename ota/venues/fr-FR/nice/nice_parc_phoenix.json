@@ -1,0 +1,118 @@
+{
+  "id": "nice_parc_phoenix",
+  "name_en": "Parc Phoenix",
+  "name_local": "Parc Phoenix",
+  "icon": "leaf",
+  "lat": 43.6649,
+  "lon": 7.2148,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "nice_phoenix_001",
+      "intent_en": "Ask if the tropical greenhouse is included in the entry ticket",
+      "text_local": "La grande serre tropicale est-elle comprise dans le billet d'entrée ?",
+      "pronunciation": "lah GRAND sehr tro-pee-KAL eh-TEL kom-PREEZ dan leh bee-YAY dan-TRAY",
+      "formality": "polite",
+      "cultural_note": "Parc Phoenix features one of Europe's largest tropical greenhouses — 7,000 square metres housing exotic plants and animals.",
+      "responses": [
+        {
+          "english": "Yes, it is included in the ticket.",
+          "phonetic": "wee say tahn-KLOO dahn luh bee-YAY",
+          "french": "Oui, c'est inclus dans le billet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_phoenix_002",
+      "intent_en": "Ask where the butterfly garden is",
+      "text_local": "Où se trouve le jardin des papillons dans le parc ?",
+      "pronunciation": "oo seh TROOV leh zhar-DAN day pah-pee-YON dan leh PARK",
+      "formality": "polite",
+      "cultural_note": "The butterfly house is a highlight for children — hundreds of tropical butterflies fly freely around visitors.",
+      "responses": [
+        {
+          "english": "In the large greenhouse, at the back.",
+          "phonetic": "dahn lah GRAHND SAIR oh FOHN",
+          "french": "Dans la grande serre, au fond."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_phoenix_003",
+      "intent_en": "Ask if there are picnic areas in the park",
+      "text_local": "Y a-t-il des espaces de pique-nique autorisés dans le parc ?",
+      "pronunciation": "ee ah-TEEL day zes-PAS deh peek-NEEK oh-to-ree-ZAY dan leh PARK",
+      "formality": "polite",
+      "cultural_note": "Parc Phoenix has lovely lawns ideal for picnics. It's a popular spot for families and is easily reached by tram Line 2.",
+      "responses": [
+        {
+          "english": "Yes, near the lake.",
+          "phonetic": "wee pray doo LAK",
+          "french": "Oui, près du lac."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_phoenix_004",
+      "intent_en": "Ask about the flamingo lake",
+      "text_local": "Le lac aux flamants roses est-il visible depuis l'entrée principale ?",
+      "pronunciation": "leh LAK oh flah-MAN ROHZ eh-TEEL vee-ZEEBL deh-PWEE lan-TRAY pran-see-PAL",
+      "formality": "polite",
+      "cultural_note": "A flock of pink flamingos lives in the park's central lake — one of the first things you see on arrival.",
+      "responses": [
+        {
+          "english": "The flamingos are around the central lake.",
+          "phonetic": "lay flah-MAHN sohn toh-TOOR doo LAK sahn-TRAHL",
+          "french": "Les flamants sont autour du lac central."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_phoenix_005",
+      "intent_en": "Ask what time the park closes",
+      "text_local": "À quelle heure ferme le parc, s'il vous plaît ?",
+      "pronunciation": "ah kel UHR FEHRM leh PARK seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Opening hours vary seasonally. The park typically closes earlier in winter — always check before visiting.",
+      "responses": [
+        {
+          "english": "At six o'clock.",
+          "phonetic": "ah dee-ZWEET UR",
+          "french": "À dix-huit heures."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "botanical garden",
+      "word_local": "le jardin botanique",
+      "pronunciation": "leh zhar-DAN bo-tah-NEEK"
+    },
+    {
+      "word_en": "greenhouse",
+      "word_local": "la serre",
+      "pronunciation": "lah SEHR"
+    },
+    {
+      "word_en": "flamingo",
+      "word_local": "le flamant rose",
+      "pronunciation": "leh flah-MAN ROHZ"
+    },
+    {
+      "word_en": "butterfly",
+      "word_local": "le papillon",
+      "pronunciation": "leh pah-pee-YON"
+    }
+  ]
+}

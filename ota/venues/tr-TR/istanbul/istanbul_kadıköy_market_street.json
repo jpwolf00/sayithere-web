@@ -1,0 +1,78 @@
+{
+  "id": "istanbul_kadıköy_market_street",
+  "name_en": "Kadıköy Market Street",
+  "name_local": "Kadıköy Çarşısı",
+  "icon": "bag",
+  "lat": 40.9901007,
+  "lon": 29.0233545,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "istanbul_kadıköy_market_street_001",
+      "intent_en": "Do stalls accept credit cards?",
+      "text_local": "Tezgahlar kredi kartı kabul ediyor mu?",
+      "pronunciation": "tehzgahhAHr-krehdIH-kahrtOO-kahbUH-ehdEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Pazar stalls are explicitly noted as cash-only in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sadece nakit, pazarcıya sorun.",
+        "pronunciation": "sahdEHdzheh-nahkIHtpahzahrdzhooyAH-sohrUHn",
+        "translation_en": "Cash only, ask the market vendor."
+      },
+      "responses": [
+        {
+          "english": "Cash only, ask the market vendor.",
+          "phonetic": "sahdEHdzheh-nahkIHtpahzahrdzhooyAH-sohrUHn",
+          "french": "Sadece nakit, pazarcıya sorun."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_kadıköy_market_street_002",
+      "intent_en": "Where is the fish auction?",
+      "text_local": "Balık mezadı nerede?",
+      "pronunciation": "bahOOk-mehzahdOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The fish auction occurs at the morning market, but its exact location is not specified. The fishmonger (Balıkçı) is the appropriate contact.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Sabah yedide, rıhtımda.",
+        "pronunciation": "sahbAHh-yehdeedEHrOOhtoomdah",
+        "translation_en": "At seven in the morning, at the quay."
+      },
+      "responses": [
+        {
+          "english": "At seven in the morning, at the quay.",
+          "phonetic": "sahbAHh-yehdeedEHrOOhtoomdah",
+          "french": "Sabah yedide, rıhtımda."
+        }
+      ]
+    },
+    {
+      "id": "istanbul_kadıköy_market_street_003",
+      "intent_en": "How does the bakkal credit system work?",
+      "text_local": "Bakkal kredi sistemi nasıl işliyor?",
+      "pronunciation": "bahkAH-krehdIH-sihstehmIH-nahsOO-ihshlEEyawr",
+      "formality": "standard",
+      "cultural_note": "The credit system is a local practice by grocers (Bakkallar). Specifics are not detailed in the context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bakkal defterine yazdırıyorsunuz.",
+        "pronunciation": "bahkAH-dehftehreenEH-yahzdoorOOyawrsoonuhz",
+        "translation_en": "You have them write it in the grocer's notebook."
+      },
+      "responses": [
+        {
+          "english": "You have them write it in the grocer's notebook.",
+          "phonetic": "bahkAH-dehftehreenEH-yahzdoorOOyawrsoonuhz",
+          "french": "Bakkal defterine yazdırıyorsunuz."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

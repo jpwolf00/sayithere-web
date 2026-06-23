@@ -1,0 +1,78 @@
+{
+  "id": "liberec_north_bohemian_museum",
+  "name_en": "North Bohemian Museum",
+  "name_local": "Severočeské muzeum v Liberci",
+  "icon": "building.columns",
+  "lat": 50.7747337,
+  "lon": 15.0686325,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "liberec_north_bohemian_museum_001",
+      "intent_en": "Where do I book a guided tour",
+      "text_local": "Kde si můžu rezervovat prohlídku s průvodcem?",
+      "pronunciation": "kdEH-see-mOOzhoo-rEHzehrvOHvaht-prOHhleetkoo-s-prOOvohttsehm",
+      "formality": "standard",
+      "cultural_note": "Guided tours are often booked at the main ticket counter in Czech museums; it's uncommon to have a separate desk.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Rezervace u pokladny, vpravo od vchodu.",
+        "pronunciation": "rEHzehrvAHtseh-OO-pOHklahdneefprAHvoh-OHdfkhohdoo",
+        "translation_en": "Bookings at the ticket desk, to the right of the entrance."
+      },
+      "responses": [
+        {
+          "english": "Bookings at the ticket desk, to the right of the entrance.",
+          "phonetic": "rEHzehrvAHtseh-OO-pOHklahdneefprAHvoh-OHdfkhohdoo",
+          "french": "Rezervace u pokladny, vpravo od vchodu."
+        }
+      ]
+    },
+    {
+      "id": "liberec_north_bohemian_museum_002",
+      "intent_en": "Where is the gift shop with local crafts",
+      "text_local": "Kde najdu obchod se suvenýry a místními výrobky?",
+      "pronunciation": "kdEH-nAHydoo-OHpkhoht-seh-sOOvehnEEree-ah-mEEstnyeemee-vEErohpkee",
+      "formality": "standard",
+      "cultural_note": "Museum shops in the Czech Republic often feature regional crafts; they are typically located near the exit or on the ground floor.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Po schodech dolů, v přízemí vlevo.",
+        "pronunciation": "pOHskhohdehgh-dOHloov-prEEzehmee-vlEHvoh",
+        "translation_en": "Down the stairs, on the ground floor to the left."
+      },
+      "responses": [
+        {
+          "english": "Down the stairs, on the ground floor to the left.",
+          "phonetic": "pOHskhohdehgh-dOHloov-prEEzehmee-vlEHvoh",
+          "french": "Po schodech dolů, v přízemí vlevo."
+        }
+      ]
+    },
+    {
+      "id": "liberec_north_bohemian_museum_003",
+      "intent_en": "Is flash photography allowed in glass galleries",
+      "text_local": "Můžu v expozici skla fotit s bleskem?",
+      "pronunciation": "mOOzhoo-v-EHkspohzEEtsee-sklAH-fOHeet-s-blEHskehm",
+      "formality": "standard",
+      "cultural_note": "Czech museums almost universally prohibit flash photography to protect light-sensitive materials like glass and textiles.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, blesk je tu zakázaný.",
+        "pronunciation": "nEHblEHsk-yeh-tOO-zAHkahzAHnee",
+        "translation_en": "No, flash is forbidden here."
+      },
+      "responses": [
+        {
+          "english": "No, flash is forbidden here.",
+          "phonetic": "nEHblEHsk-yeh-tOO-zAHkahzAHnee",
+          "french": "Ne, blesk je tu zakázaný."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

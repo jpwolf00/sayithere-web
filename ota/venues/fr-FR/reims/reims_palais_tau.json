@@ -1,0 +1,110 @@
+{
+  "id": "reims_palais_tau",
+  "name_en": "Palais du Tau",
+  "name_local": "Palais du Tau",
+  "icon": "building.columns",
+  "phrases": [
+    {
+      "id": "tau_billet",
+      "intent_en": "One ticket for the Palais du Tau, please.",
+      "text_local": "Un billet pour le Palais du Tau, s'il vous plaît.",
+      "pronunciation": "un bee-YEH poor luh pah-LAY dew TOH, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Palais du Tau was the Archbishop's palace and where kings feasted after their coronation. Now a museum with original cathedral sculptures and coronation treasures.",
+      "responses": [
+        {
+          "english": "Eight euros.",
+          "phonetic": "WEET uh-ROH",
+          "french": "Huit euros."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "tau_talisman",
+      "intent_en": "Where is the talisman of Charlemagne?",
+      "text_local": "Où est le talisman de Charlemagne ?",
+      "pronunciation": "oo eh luh tah-lees-MON duh shar-luh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The museum holds the famous Talisman of Charlemagne — a reliquary pendant said to have contained a fragment of the True Cross, worn around his neck.",
+      "responses": [
+        {
+          "english": "In the treasury room, on the first floor.",
+          "phonetic": "dahn lah SAHL doo tray-ZOR oh pruh-MYAY ay-TAHZH",
+          "french": "Dans la salle du trésor, au premier étage."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tau_tours",
+      "intent_en": "Can we book the tower visit here?",
+      "text_local": "On peut réserver la visite des tours ici ?",
+      "pronunciation": "on puh ray-zair-VAY lah vee-ZEET day TOOR ee-SEE",
+      "formality": "polite",
+      "cultural_note": "Tower visits to the cathedral are organised through the Palais du Tau. Book here or in advance online.",
+      "responses": [
+        {
+          "english": "No, it is at the cathedral ticket desk.",
+          "phonetic": "nohn say toh gee-SHAY duh lah kah-tay-DRAHL",
+          "french": "Non, c'est au guichet de la cathédrale."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_tau_rei_x1",
+      "intent_en": "Ask where the royal coronation treasures are displayed",
+      "text_local": "Où sont exposés les trésors royaux du sacre ?",
+      "pronunciation": "oo son eks-poh-ZAY lay tray-ZOR rwah-YOH doo SAHKR",
+      "formality": "polite",
+      "cultural_note": "The Palais du Tau, former residence of the Archbishops of Reims, holds the coronation regalia and tapestries used during French royal coronations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "In the Salle du Tau, on the ground floor.",
+          "phonetic": "dahn lah SAL doo TOH, oh ray-duh-shoh-SAY.",
+          "french": "Dans la salle du Tau, au rez-de-chaussée."
+        }
+      ]
+    },
+    {
+      "id": "fr_tau_rei_x2",
+      "intent_en": "Ask if entry is included with a cathedral ticket",
+      "text_local": "Le Palais du Tau est-il compris avec le billet de la cathédrale ?",
+      "pronunciation": "luh pah-LAY doo TOH ay-TEEL com-PREE ah-VEK luh bee-YAY duh lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, it's a separate ticket.",
+          "phonetic": "non, say tuhn bee-YAY say-pah-RAY.",
+          "french": "Non, c'est un billet séparé."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "treasury (collection of precious objects)",
+      "word_local": "le trésor",
+      "pronunciation": "luh tray-ZOR"
+    },
+    {
+      "word_en": "reliquary (container for holy relics)",
+      "word_local": "le reliquaire",
+      "pronunciation": "luh ruh-lee-KAIR"
+    },
+    {
+      "word_en": "banquet hall",
+      "word_local": "la salle du festin",
+      "pronunciation": "lah SAL dew fes-TAN"
+    }
+  ]
+}

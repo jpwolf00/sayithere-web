@@ -1,0 +1,106 @@
+{
+  "id": "bordeaux_neighbourhood_saint_michel",
+  "name_en": "Saint-Michel Quarter",
+  "name_local": "Quartier Saint-Michel",
+  "icon": "building.2",
+  "lat": 44.8311,
+  "lon": -0.564,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "bordeaux_stmichelnbhd_001",
+      "intent_en": "Ask where to find authentic Moroccan pastries nearby",
+      "text_local": "Où puis-je trouver de véritables pâtisseries marocaines dans ce quartier ?",
+      "pronunciation": "oo PWEE-zhuh troo-VAY duh vay-ree-TABL pah-tee-suh-REE mah-roh-KEN dahn suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "Saint-Michel is Bordeaux's most diverse and lively neighbourhood, with a strong North African community and vibrant street food scene.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "bordeaux_stmichelnbhd_002",
+      "intent_en": "Ask what time the Sunday market starts",
+      "text_local": "À quelle heure commence le marché du dimanche ici ?",
+      "pronunciation": "ah kel ur koh-MAHNS luh mar-SHAY doo dee-MAHNSH ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The Sunday market around the Basilique Saint-Michel is one of the most colourful in Bordeaux, with produce, antiques, and ethnic foods.",
+      "responses": [
+        {
+          "english": "Hello, the Saint-Michel market starts at eight o'clock.",
+          "phonetic": "bawn-ZHOOR ah KEL UR koh-MAHNS luh MAR-shuh dyoo dee-MAHNSH",
+          "french": "Bonjour, le marché de Saint-Michel commence à huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stmichelnbhd_003",
+      "intent_en": "Ask for a table for lunch at a neighbourhood bistro",
+      "text_local": "Avez-vous une table libre pour le déjeuner ?",
+      "pronunciation": "ah-VAY-voo yoon TAB-luh LEE-bruh poor luh day-zhuh-NAY",
+      "formality": "polite",
+      "cultural_note": "Saint-Michel has affordable neighbourhood bistros and ethnic restaurants offering excellent value compared to the tourist centre.",
+      "responses": [
+        {
+          "english": "Yes, follow me, I will seat you.",
+          "phonetic": "bawn-ZHOOR AH-vay voo een TAH-bl poor luh day-zhuh-NAY",
+          "french": "Oui, suivez-moi, je vais vous installer."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_stmichelnbhd_004",
+      "intent_en": "Ask if the area is safe to walk around at night",
+      "text_local": "Est-ce que ce quartier est sûr pour se promener le soir ?",
+      "pronunciation": "es-kuh suh kar-TYAY eh SYR poor suh proh-muh-NAY luh SWAHR",
+      "formality": "polite",
+      "cultural_note": "Saint-Michel is generally lively at night; like any urban area, it pays to stay aware of your surroundings on quieter streets.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "bordeaux_stmichelnbhd_005",
+      "intent_en": "Ask a vendor if they sell Bordeaux-style canelés",
+      "text_local": "Est-ce que vous vendez des canelés bordelais traditionnels ?",
+      "pronunciation": "es-kuh voo vahn-DAY day kah-nuh-LAY bor-duh-LAY trah-dee-syoh-NEL",
+      "formality": "polite",
+      "cultural_note": "You can find excellent artisan canelés in the boulangeries of Saint-Michel, often at lower prices than tourist-area shops.",
+      "responses": [
+        {
+          "english": "Yes, they are fresh out of the oven.",
+          "phonetic": "bawn-ZHOOR, vahn-DAY voo duh kahn-lay bor-duh-LAY",
+          "french": "Oui, ils sont frais sortis du four."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "pastry shop",
+      "word_local": "la pâtisserie",
+      "pronunciation": "lah pah-tee-suh-REE"
+    },
+    {
+      "word_en": "bistro",
+      "word_local": "le bistrot",
+      "pronunciation": "luh bees-TROH"
+    },
+    {
+      "word_en": "neighbourhood",
+      "word_local": "le quartier",
+      "pronunciation": "luh kar-TYAY"
+    },
+    {
+      "word_en": "traditional",
+      "word_local": "traditionnel",
+      "pronunciation": "trah-dee-syoh-NEL"
+    }
+  ]
+}

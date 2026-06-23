@@ -1,0 +1,113 @@
+{
+  "id": "msm_grande_rue",
+  "name_en": "Grande Rue",
+  "name_local": "La Grande Rue",
+  "icon": "bag",
+  "lat": 48.6355,
+  "lon": -1.5114,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "msm_grande_rue_001",
+      "intent_en": "Ask for directions to the abbey entrance from the main street",
+      "text_local": "Par où monte-t-on vers l'entrée de l'abbaye ?",
+      "pronunciation": "par oo MOHNT-tohn vair lahn-TRAY duh lab-BAY-ee",
+      "formality": "polite",
+      "cultural_note": "The Grande Rue is the single main street climbing through the village to the abbey. It is lined with souvenir shops, crêperies and restaurants — the entrance staircase is at the top.",
+      "responses": [
+        {
+          "english": "Straight ahead, climb to the top.",
+          "phonetic": "too DRWAH mohn-TAY zhoos-kahn OH",
+          "french": "Tout droit, montez jusqu'en haut."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_grande_rue_002",
+      "intent_en": "Buy a jar of local salted butter caramel",
+      "text_local": "Avez-vous du caramel au beurre salé de Normandie ?",
+      "pronunciation": "ah-vay-VOO doo kah-rah-MEL oh BUR sah-LAY duh nor-mahn-DEE",
+      "formality": "polite",
+      "cultural_note": "Salted butter caramel is a Normandy speciality. Shops on the Grande Rue sell it in jars — an excellent and practical edible souvenir.",
+      "responses": [
+        {
+          "english": "Yes, the jars are on the shelf.",
+          "phonetic": "wee lay POH sohn soor lay-tah-ZHAIR",
+          "french": "Oui, les pots sont sur l'étagère."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_grande_rue_003",
+      "intent_en": "Ask how long the climb to the abbey takes",
+      "text_local": "Combien de temps faut-il pour monter jusqu'à l'abbaye à pied ?",
+      "pronunciation": "kohm-BYAHN duh tahn foh-TEEL poor mohn-TAY zhoos-kah lab-BAY-ee ah PYAY",
+      "formality": "polite",
+      "cultural_note": "The climb from the main gate to the abbey entrance takes roughly 15–20 minutes on foot. The Grande Rue can be very crowded in summer — start early in the morning.",
+      "responses": [
+        {
+          "english": "About twenty minutes on foot.",
+          "phonetic": "ahn-vee-ROHN VAHN mee-NOOT ah PYAY",
+          "french": "Environ vingt minutes à pied."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_grande_rue_004",
+      "intent_en": "Ask if a shop sells local Norman products",
+      "text_local": "Est-ce que vous vendez des produits régionaux normands ?",
+      "pronunciation": "ess kuh voo vahn-DAY day proh-DWEE ray-zhyoh-NOH nor-MAHN",
+      "formality": "polite",
+      "cultural_note": "Look for Calvados apple brandy, cidre normand, and camembert alongside the caramel. Many shops on the Grande Rue specialise in regional Norman food products.",
+      "responses": [
+        {
+          "english": "Yes, we have cider and Camembert.",
+          "phonetic": "wee ohn ah doo SEE-druh ay doo kah-mahm-BAIR",
+          "french": "Oui, on a du cidre et du camembert."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_grande_rue_005",
+      "intent_en": "Ask a shopkeeper for a bag",
+      "text_local": "Pourriez-vous me donner un sac, s'il vous plaît ?",
+      "pronunciation": "poor-YAY-voo muh doh-NAY uhn SAK seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Single-use plastic bags are banned in France. Shops typically offer paper bags or ask you to bring your own reusable tote.",
+      "responses": [
+        {
+          "english": "Here, a paper bag.",
+          "phonetic": "tuh-NAY vwah-LAH uhn SAK ahn pah-PYAY",
+          "french": "Tenez, voilà un sac en papier."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "main street",
+      "word_local": "la Grande Rue",
+      "pronunciation": "lah GRAHN-druh ROO"
+    },
+    {
+      "word_en": "salted butter",
+      "word_local": "le beurre salé",
+      "pronunciation": "luh BUR sah-LAY"
+    },
+    {
+      "word_en": "souvenir",
+      "word_local": "le souvenir",
+      "pronunciation": "luh soov-NEER"
+    }
+  ]
+}

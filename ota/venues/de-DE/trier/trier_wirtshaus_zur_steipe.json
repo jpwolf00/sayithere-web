@@ -1,0 +1,100 @@
+{
+  "id": "trier_wirtshaus_zur_steipe",
+  "name_en": "Wirtshaus zur Steipe",
+  "name_local": "Wirtshaus zur Steipe",
+  "icon": "fork.knife",
+  "lat": 49.759659,
+  "lon": 6.6441651,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "trier_wirtshaus_zur_steipe_001",
+      "intent_en": "Is the Handkäse mit Musik available tonight?",
+      "text_local": "Gibt es heute Abend Handkäse mit Musik?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-AHbuhnt-hAHntkEHzuh-miht-moozEEk",
+      "formality": "standard",
+      "cultural_note": "Speisekarten werden in Restaurants oft kurzfristig angepasst; 'auf der Karte' ist ein natürlicher Hinweis.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute auf der Karte.",
+        "pronunciation": "yAHhAWuhtuh-owf-dehr-kAHrtuh",
+        "translation_en": "Yes, on the menu today."
+      },
+      "responses": [
+        {
+          "english": "Yes, on the menu today.",
+          "phonetic": "yAHhAWuhtuh-owf-dehr-kAHrtuh",
+          "french": "Ja, heute auf der Karte."
+        }
+      ]
+    },
+    {
+      "id": "trier_wirtshaus_zur_steipe_002",
+      "intent_en": "Where is the Treveri-Wein served?",
+      "text_local": "Wo wird der Treveri-Wein ausgeschenkt?",
+      "pronunciation": "vOH-vIHrt-dehr-trEHvehrEEvEYEn-OWsuhshEHngkt",
+      "formality": "standard",
+      "cultural_note": "Weinausschank ist ein etablierter Begriff für Weinverkaufsstellen in deutschen Gasthäusern.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Weinausschank.",
+        "pronunciation": "ahm-vEYEnowskhAHngk",
+        "translation_en": "At the wine counter."
+      },
+      "responses": [
+        {
+          "english": "At the wine counter.",
+          "phonetic": "ahm-vEYEnowskhAHngk",
+          "french": "Am Weinausschank."
+        }
+      ]
+    },
+    {
+      "id": "trier_wirtshaus_zur_steipe_003",
+      "intent_en": "Where is the Ratskeller seating from entrance?",
+      "text_local": "Wo ist der Ratskeller-Sitzbereich vom Eingang?",
+      "pronunciation": "vOH-ihst-dehr-rahtskEHlzIHtsbuhrEYEkh-fawm-EYEnAHng",
+      "formality": "standard",
+      "cultural_note": "Gäste erwarten oft eine klare Richtungshilfe; 'Untergeschoss' ist ein etablierter Begriff im deutschsprachigen Raum.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Untergeschoss.",
+        "pronunciation": "ihm-UHntuhshAWs",
+        "translation_en": "In the basement."
+      },
+      "responses": [
+        {
+          "english": "In the basement.",
+          "phonetic": "ihm-UHntuhshAWs",
+          "french": "Im Untergeschoss."
+        }
+      ]
+    },
+    {
+      "id": "trier_wirtshaus_zur_steipe_004",
+      "intent_en": "Do I pay at the bar for drinks only?",
+      "text_local": "Zahlt man für Getränke nur an der Bar?",
+      "pronunciation": "tsAHlt-mahn-fuer-uhtrEHngkuh-nOOr-ahn-dehr-bAHr",
+      "formality": "standard",
+      "cultural_note": "In deutschen Gasthäusern ist es üblich, Getränke direkt an der Bar zu zahlen; Kellner bringen Rechnung später.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Getränke an der Bar.",
+        "pronunciation": "yAHuhtrEHngkuh-ahn-dehr-bAHr",
+        "translation_en": "Yes, drinks at the bar."
+      },
+      "responses": [
+        {
+          "english": "Yes, drinks at the bar.",
+          "phonetic": "yAHuhtrEHngkuh-ahn-dehr-bAHr",
+          "french": "Ja, Getränke an der Bar."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

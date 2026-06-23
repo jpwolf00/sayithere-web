@@ -1,0 +1,100 @@
+{
+  "id": "interlaken_bäckerei_konditorei_schaller",
+  "name_en": "Bäckerei Konditorei Schaller",
+  "name_local": "Bäckerei Konditorei Schaller",
+  "icon": "fork.knife",
+  "lat": 46.6855231,
+  "lon": 7.8585139,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "interlaken_bäckerei_konditorei_schaller_001",
+      "intent_en": "Ask where Konditorei cake counter is",
+      "text_local": "Wo finde ich die Kuchenauswahl?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-kUHkhuhnOWsvahl",
+      "formality": "standard",
+      "cultural_note": "Direct customers to the dedicated pastry area without over-explaining.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Konditorei-Bereich.",
+        "pronunciation": "ihm-kawndEEtohrEYEbuhrEYEkh",
+        "translation_en": "In the cake section."
+      },
+      "responses": [
+        {
+          "english": "In the cake section.",
+          "phonetic": "ihm-kawndEEtohrEYEbuhrEYEkh",
+          "french": "Im Konditorei-Bereich."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_bäckerei_konditorei_schaller_002",
+      "intent_en": "Ask if Stammkunden stamp card still valid",
+      "text_local": "Gilt meine Stempelkarte noch?",
+      "pronunciation": "IHlt-mEYEnuh-shtEHmpuhlkAHrtuh-nawkh",
+      "formality": "standard",
+      "cultural_note": "Loyalty programs are treated matter-of-factly; staff confirms validity without extra emphasis.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, gültig.",
+        "pronunciation": "yAHUEltihkh",
+        "translation_en": "Yes, valid."
+      },
+      "responses": [
+        {
+          "english": "Yes, valid.",
+          "phonetic": "yAHUEltihkh",
+          "french": "Ja, gültig."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_bäckerei_konditorei_schaller_003",
+      "intent_en": "Ask if Mürbteigkuchen is available now",
+      "text_local": "Haben Sie heute Mürbteigkuchen?",
+      "pronunciation": "hAHbuhn-zee-hAWuhtuh-mUErpteyekkUHkhuhn",
+      "formality": "standard",
+      "cultural_note": "Customers expect clear confirmation of fresh daily specials.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Konditorei-Bereich.",
+        "pronunciation": "yAHihm-kawndEEtohrEYEbuhrEYEkh",
+        "translation_en": "Yes, in the cake section."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the cake section.",
+          "phonetic": "yAHihm-kawndEEtohrEYEbuhrEYEkh",
+          "french": "Ja, im Konditorei-Bereich."
+        }
+      ]
+    },
+    {
+      "id": "interlaken_bäckerei_konditorei_schaller_004",
+      "intent_en": "Ask where to pay for coffee at counter",
+      "text_local": "Wo zahle ich meinen Kaffee?",
+      "pronunciation": "vOH-tsAHluh-ihkh-mEYEnuhn-kAHfeh",
+      "formality": "standard",
+      "cultural_note": "Payment is expected to be quick and straightforward at the point of service.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen.",
+        "pronunciation": "ahm-trEHzuhn",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-trEHzuhn",
+          "french": "Am Tresen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

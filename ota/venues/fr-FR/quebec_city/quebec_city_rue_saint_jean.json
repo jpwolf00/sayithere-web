@@ -1,0 +1,118 @@
+{
+  "id": "quebec_city_rue_saint_jean",
+  "name_en": "Rue Saint-Jean",
+  "name_local": "Rue Saint-Jean",
+  "icon": "bag",
+  "lat": 46.8131,
+  "lon": -71.2145,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "qc_rsj_001",
+      "intent_en": "Ask for a good place to eat on Saint-Jean",
+      "text_local": "Quel restaurant recommandez-vous sur la rue Saint-Jean ?",
+      "pronunciation": "kel res-toh-RAH ruh-ko-mon-DAY voo soor lah ROO san-ZHAH",
+      "formality": "polite",
+      "cultural_note": "Rue Saint-Jean is one of Québec City's liveliest streets with restaurants, bars, and shops both inside and outside the old city walls.",
+      "responses": [
+        {
+          "english": "There are good restaurants a bit further.",
+          "phonetic": "eel ee ah duh bohn res-toh-RAHN uhn PUH ploo LWAHN",
+          "french": "Il y a de bons restaurants un peu plus loin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_rsj_002",
+      "intent_en": "Ask where the Saint-Jean Gate is",
+      "text_local": "La Porte Saint-Jean, c'est encore loin d'ici ?",
+      "pronunciation": "lah PORT san-ZHAH say ahn-KOR LWAH dee-SEE",
+      "formality": "neutral",
+      "cultural_note": "The Porte Saint-Jean is one of the original city gates in the fortification walls and a key landmark dividing the old walled city from the Saint-Jean-Baptiste neighbourhood.",
+      "responses": [
+        {
+          "english": "The gate is at the end of the street, to the west.",
+          "phonetic": "lah PORT eh toh BOO duh lah ROO vair LWEST",
+          "french": "La porte est au bout de la rue, vers l'ouest."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_rsj_003",
+      "intent_en": "Ask for a recommendation for Québécois food",
+      "text_local": "Où est-ce qu'on mange de la vraie cuisine québécoise par ici ?",
+      "pronunciation": "oo ess-KON mahnje duh lah VREH kwee-ZEEN kay-bay-KWAHZ par ee-SEE",
+      "formality": "informal",
+      "cultural_note": "Look for restaurants serving tourtière (meat pie), soupe aux pois (pea soup), cipaille, and sugar pie — traditional Québec dishes.",
+      "responses": [
+        {
+          "english": "Try the tourtière or the poutine.",
+          "phonetic": "eh-say-YAY lah toor-TYAIR oo lah poo-TEEN",
+          "french": "Essayez la tourtière ou la poutine."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_rsj_004",
+      "intent_en": "Ask if there are any live music bars nearby",
+      "text_local": "Y'a-tu des bars avec de la musique live dans le coin ?",
+      "pronunciation": "yah-TOO day BAR ah-VEK duh lah moo-ZEEK LYV dahn luh KWAN",
+      "formality": "informal",
+      "cultural_note": "Rue Saint-Jean's bar scene is lively, especially around the Saint-Jean-Baptiste area outside the walls which has a more local, student atmosphere.",
+      "responses": [
+        {
+          "english": "Yes, there are several on the street.",
+          "phonetic": "wee eel ee ahn ah ploo-ZYUR soor lah ROO",
+          "french": "Oui, il y en a plusieurs sur la rue."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_rsj_005",
+      "intent_en": "Ask a shopkeeper if they have something in a different size",
+      "text_local": "Avez-vous ça dans une autre grandeur ?",
+      "pronunciation": "ah-VAY voo sah dahn OON ohtr grahn-DUR",
+      "formality": "polite",
+      "cultural_note": "'Grandeur' (size) is the Québécois word for clothing size, vs. 'taille' used in France. Shopkeepers will immediately understand and appreciate this.",
+      "responses": [
+        {
+          "english": "I will check in the back.",
+          "phonetic": "zhuh vay vay-ree-FYAY ahn ah-RYAIR",
+          "french": "Je vais vérifier en arrière."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "city gate",
+      "word_local": "la porte (de ville)",
+      "pronunciation": "lah PORT duh VEEL"
+    },
+    {
+      "word_en": "meat pie",
+      "word_local": "la tourtière",
+      "pronunciation": "lah toor-tee-YAIR"
+    },
+    {
+      "word_en": "size (clothing, Québécois)",
+      "word_local": "la grandeur",
+      "pronunciation": "lah grahn-DUR"
+    },
+    {
+      "word_en": "Québécois cuisine",
+      "word_local": "la cuisine québécoise",
+      "pronunciation": "lah kwee-ZEEN kay-bay-KWAHZ"
+    }
+  ]
+}

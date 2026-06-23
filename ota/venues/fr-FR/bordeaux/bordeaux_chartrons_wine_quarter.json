@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_chartrons_wine",
+  "name_en": "Chartrons Wine Quarter & Antiques",
+  "name_local": "Les Chartrons",
+  "icon": "bag",
+  "lat": 44.8527,
+  "lon": -0.5703,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "bordeaux_chartrons_001",
+      "intent_en": "Ask a wine merchant for a bottle suitable as a gift",
+      "text_local": "Pourriez-vous me conseiller un vin de Bordeaux pour l'offrir en cadeau ?",
+      "pronunciation": "poo-RYAY-voo muh kohn-say-YAY un VAN duh bor-DOH poor loh-FREER ahn kah-DOH",
+      "formality": "polite",
+      "cultural_note": "The Chartrons district was historically home to Dutch and Irish wine merchants; it remains the heart of Bordeaux's wine négociant trade.",
+      "responses": [
+        {
+          "english": "I recommend a Saint-Émilion.",
+          "phonetic": "zhuh voo kohn-SAY uhn sant-ay-mee-LYOHN",
+          "french": "Je vous conseille un Saint-Émilion."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_chartrons_002",
+      "intent_en": "Ask the price of a particular bottle of Saint-Émilion",
+      "text_local": "Quel est le prix de cette bouteille de Saint-Émilion ?",
+      "pronunciation": "kel eh luh PREE duh set boo-TAY duh san-tay-mee-LYOHN",
+      "formality": "polite",
+      "cultural_note": "Saint-Émilion is one of Bordeaux's most celebrated appellations, producing predominantly Merlot-based wines.",
+      "responses": [
+        {
+          "english": "Thirty-five euros.",
+          "phonetic": "trahnt-SEHNK uh-ROH",
+          "french": "Trente-cinq euros."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_chartrons_003",
+      "intent_en": "Ask if the antique dealer accepts offers on the price",
+      "text_local": "Est-ce que vous acceptez les négociations sur le prix ?",
+      "pronunciation": "es-kuh voo-ZAK-sep-TAY lay nay-goh-SYAH-SYON soor luh PREE",
+      "formality": "polite",
+      "cultural_note": "The Chartrons is lined with antique shops and galleries, especially along the Rue Notre-Dame, where gentle bargaining is sometimes accepted.",
+      "responses": [
+        {
+          "english": "Make me an offer.",
+          "phonetic": "fet-MWAH oon OHFR",
+          "french": "Faites-moi une offre."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_chartrons_004",
+      "intent_en": "Ask if they can ship wine purchases to the UK or US",
+      "text_local": "Est-ce que vous pouvez expédier des vins à l'étranger ?",
+      "pronunciation": "es-kuh voo poo-VAY ex-pay-DYAY day VAN ah lay-TRAHN-zhay",
+      "formality": "polite",
+      "cultural_note": "Several wine merchants in the Chartrons specialise in international shipping; rules on duty and import limits vary by country.",
+      "responses": [
+        {
+          "english": "Yes, we can ship.",
+          "phonetic": "wee, ohn puh eks-pay-DYAY",
+          "french": "Oui, on peut expédier."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_chartrons_005",
+      "intent_en": "Ask where the Sunday organic market is held",
+      "text_local": "Où se tient le marché bio du dimanche dans ce quartier ?",
+      "pronunciation": "oo suh TYAN luh mar-SHAY BYOH doo dee-MAHNSH dahn suh kar-TYAY",
+      "formality": "polite",
+      "cultural_note": "A popular Sunday organic market runs along the quais in the Chartrons area, attracting locals and visitors alike.",
+      "responses": [
+        {
+          "english": "On the quays, Sunday morning.",
+          "phonetic": "soor lay KEH, luh dee-MAHNSH mah-TEHN",
+          "french": "Sur les quais, le dimanche matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "wine merchant",
+      "word_local": "le marchand de vin",
+      "pronunciation": "luh mar-SHAHN duh VAN"
+    },
+    {
+      "word_en": "bottle",
+      "word_local": "la bouteille",
+      "pronunciation": "lah boo-TAY"
+    },
+    {
+      "word_en": "antique dealer",
+      "word_local": "l'antiquaire",
+      "pronunciation": "lahn-tee-KAIR"
+    },
+    {
+      "word_en": "neighbourhood / district",
+      "word_local": "le quartier",
+      "pronunciation": "luh kar-TYAY"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "nara_nara_park",
+  "name_en": "Nara Park",
+  "name_local": "奈良公園",
+  "icon": "leaf",
+  "lat": 34.68868708068712,
+  "lon": 135.8000502525317,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "nara_nara_park_001",
+      "intent_en": "Where do I pay for parking?",
+      "text_local": "ちゅうしゃりょうは どこで はらいますか？",
+      "pronunciation": "tOOooOHOOh-dohkOHdeh-hEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many parking areas have automated payment machines rather than staffed booths.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "でぐちの せいさんきで はらってください。",
+        "pronunciation": "dEHgootEEnoh-sEHeesngkEEdeh-hTtEHkoodsEE",
+        "translation_en": "Please pay at the payment machine at the exit."
+      },
+      "responses": [
+        {
+          "english": "Please pay at the payment machine at the exit.",
+          "phonetic": "dEHgootEEnoh-sEHeesngkEEdeh-hTtEHkoodsEE",
+          "french": "でぐちの せいさんきで はらってください。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_park_002",
+      "intent_en": "Where are deer cracker vendors?",
+      "text_local": "しかせんべいの うりばは どこですか？",
+      "pronunciation": "EEksEHbehEEnoh-OOeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Deer crackers are sold by uniformed vendors at small carts, not shops.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あそこ、おてらの ちかくに いますよ。",
+        "pronunciation": "sOHkohOHtehNoh-tEEkkOOnee-EEmsOOyoh",
+        "translation_en": "Over there, near the temple."
+      },
+      "responses": [
+        {
+          "english": "Over there, near the temple.",
+          "phonetic": "sOHkohOHtehNoh-tEEkkOOnee-EEmsOOyoh",
+          "french": "あそこ、おてらの ちかくに いますよ。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_park_003",
+      "intent_en": "Is Mount Wakakusa trail open?",
+      "text_local": "わかくさやまの のぼりみちは あいてますか？",
+      "pronunciation": "wKkOOsymNoh-nOHbohEEmeetEEh-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Trail access can be closed during winter or for conservation. A simple yes/no is a plausible daily answer.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、きょうは だいじょうぶですよ。",
+        "pronunciation": "hEEkohOOh-dEEdOHoobOOdehsOOyoh",
+        "translation_en": "Yes, it's fine today."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's fine today.",
+          "phonetic": "hEEkohOOh-dEEdOHoobOOdehsOOyoh",
+          "french": "はい、きょうは だいじょうぶですよ。"
+        }
+      ]
+    },
+    {
+      "id": "nara_nara_park_004",
+      "intent_en": "Where is the museum ticket office?",
+      "text_local": "はくぶつかんの チケットうりばは どこですか？",
+      "pronunciation": "hKoobOOtsookNnoh-tEEkehttOHooeebH-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "The ticket counter is usually inside the main entrance lobby.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いりぐちを はいって、すぐ みぎです。",
+        "pronunciation": "EEeegootEEoh-hEEttehsOOgoo-mEEgeedEHsoo",
+        "translation_en": "Go in the entrance, and it's immediately on the right."
+      },
+      "responses": [
+        {
+          "english": "Go in the entrance, and it's immediately on the right.",
+          "phonetic": "EEeegootEEoh-hEEttehsOOgoo-mEEgeedEHsoo",
+          "french": "いりぐちを はいって、すぐ みぎです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

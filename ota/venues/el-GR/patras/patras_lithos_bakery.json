@@ -1,0 +1,122 @@
+{
+  "id": "patras_lithos_bakery",
+  "name_en": "Lithos Bakery",
+  "name_local": "Αρτοποιείο Λίθος",
+  "icon": "fork.knife",
+  "lat": 38.246242,
+  "lon": 21.7350847,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "patras_lithos_bakery_001",
+      "intent_en": "Weigh-and-pay for koulouria how?",
+      "text_local": "Πώς ζυγίζω κουλούρια;",
+      "pronunciation": "pOHz-zeeyEEzoh-koolOOreeAH",
+      "formality": "standard",
+      "cultural_note": "Koulouria are small, ring-shaped breads often sold by weight in Greek bakeries. Customers typically select and weigh them directly at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον πάγκο.",
+        "pronunciation": "stohm-bAHnggoh",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "stohm-bAHnggoh",
+          "french": "Στον πάγκο."
+        }
+      ]
+    },
+    {
+      "id": "patras_lithos_bakery_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού περιμένω για ψωμί ή γλυκά;",
+      "pronunciation": "pOO-pEHreemEHnoh-yAH-psohmEE-ee-ghleekAH",
+      "formality": "standard",
+      "cultural_note": "In Greek bakeries, queues are typically organized by the type of item customers intend to purchase, e.g., bread or pastries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ψωμί: σειρά φούρνου. Γλυκά: βιτρίνα δεξιά.",
+        "pronunciation": "psohmEEseerAH-fOOrnooghleekAHveetrEEnah-thEHkseeAH",
+        "translation_en": "For bread, queue in front of the oven. For pastries, queue at the display case with koulouria and baklava."
+      },
+      "responses": [
+        {
+          "english": "For bread, queue in front of the oven. For pastries, queue at the display case with koulouria and baklava.",
+          "phonetic": "psohmEEseerAH-fOOrnooghleekAHveetrEEnah-thEHkseeAH",
+          "french": "Ψωμί: σειρά φούρνου. Γλυκά: βιτρίνα δεξιά."
+        }
+      ]
+    },
+    {
+      "id": "patras_lithos_bakery_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η σπανακόπιτα;",
+      "pronunciation": "pOO-EEneh-ee-spAHnahkOHpeetAH",
+      "formality": "standard",
+      "cultural_note": "In small bakeries, savory pastries like spanakopita are typically kept behind the main counter. Customers often need to ask staff for access.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά στην προθήκη, δίπλα στα κουλούρια.",
+        "pronunciation": "AHreestehrAH-steem-brohthEEeethEEplah-stah-koolOOreeAH",
+        "translation_en": "In the display case by the oven."
+      },
+      "responses": [
+        {
+          "english": "In the display case by the oven.",
+          "phonetic": "AHreestehrAH-steem-brohthEEeethEEplah-stah-koolOOreeAH",
+          "french": "Αριστερά στην προθήκη, δίπλα στα κουλούρια."
+        }
+      ]
+    },
+    {
+      "id": "patras_lithos_bakery_004",
+      "intent_en": "Exact change preferred for coffee bundle?",
+      "text_local": "Χρειάζεται ψιλά για τον καφέ;",
+      "pronunciation": "khrkhAHzehtEH-pseelAH-yAH-tohng-gahfEH",
+      "formality": "standard",
+      "cultural_note": "Bakeries in Greece often prefer exact change in the morning due to high customer traffic and limited time for transactions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι.",
+        "pronunciation": "nEH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEH",
+          "french": "Ναι."
+        }
+      ]
+    },
+    {
+      "id": "patras_lithos_bakery_005",
+      "intent_en": "Tsoureki available this morning?",
+      "text_local": "Υπάρχει τσουρέκι σήμερα;",
+      "pronunciation": "eepAHrkhee-tsoorEHee-sEEmehrAH",
+      "formality": "standard",
+      "cultural_note": "Tsoureki is a traditional Easter sweet bread, but it is commonly sold year-round in Greek bakeries as a festive treat.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει.",
+        "pronunciation": "nEHeepAHrkhee",
+        "translation_en": "Yes, available."
+      },
+      "responses": [
+        {
+          "english": "Yes, available.",
+          "phonetic": "nEHeepAHrkhee",
+          "french": "Ναι, υπάρχει."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

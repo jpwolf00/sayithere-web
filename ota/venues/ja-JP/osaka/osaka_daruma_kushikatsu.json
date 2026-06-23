@@ -1,0 +1,100 @@
+{
+  "id": "osaka_daruma_kushikatsu",
+  "name_en": "Daruma Kushikatsu",
+  "name_local": "だるま 串カツ",
+  "icon": "fork.knife",
+  "lat": 34.7031496,
+  "lon": 135.496246,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "osaka_daruma_kushikatsu_001",
+      "intent_en": "Is this branch cash-only?",
+      "text_local": "ここは げんきんのみ ですか？",
+      "pronunciation": "kohkOHh-gEHngkeennOHmee-dehsOOk",
+      "formality": "standard",
+      "cultural_note": "Some older branches in Osaka remain cash-only, so it's good to have bills ready.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_daruma_kushikatsu_002",
+      "intent_en": "Do I order set meals first?",
+      "text_local": "ていしょくは さいしょに ちゅうもん しますか？",
+      "pronunciation": "tEHeeohkOOh-sEEOHnee-tooOOmoh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At busy kushikatsu counters, set meals are often ordered upfront to keep the flow smooth.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、さいしょに おねがいします。",
+        "pronunciation": "hEEsEEOHnee-OHnehgEEeemSoo",
+        "translation_en": "Yes, please order them first."
+      },
+      "responses": [
+        {
+          "english": "Yes, please order them first.",
+          "phonetic": "hEEsEEOHnee-OHnehgEEeemSoo",
+          "french": "はい、さいしょに おねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_daruma_kushikatsu_003",
+      "intent_en": "How do I get a queue ticket?",
+      "text_local": "せいりけんは どうやって とりますか？",
+      "pronunciation": "sEHeeEEkehH-dOHooyTteh-tOHeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Queue ticket machines are common outside popular restaurants; the staff will call your number.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "そとの きかいで とってください。",
+        "pronunciation": "sohtOHnoh-kEEkEEdeh-tOHttehkOOdsEE",
+        "translation_en": "Please get one from the machine outside."
+      },
+      "responses": [
+        {
+          "english": "Please get one from the machine outside.",
+          "phonetic": "sohtOHnoh-kEEkEEdeh-tOHttehkOOdsEE",
+          "french": "そとの きかいで とってください。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_daruma_kushikatsu_004",
+      "intent_en": "Do I pay before leaving?",
+      "text_local": "でるまえに しはらいますか？",
+      "pronunciation": "dEHoomEHnee-EEhEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "At counter-style kushikatsu, you usually settle the bill at the counter before exiting.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、でるまえに おねがいします。",
+        "pronunciation": "hEEdEHoomEHnee-OHnehgEEeemSoo",
+        "translation_en": "Yes, please pay before you leave."
+      },
+      "responses": [
+        {
+          "english": "Yes, please pay before you leave.",
+          "phonetic": "hEEdEHoomEHnee-OHnehgEEeemSoo",
+          "french": "はい、でるまえに おねがいします。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

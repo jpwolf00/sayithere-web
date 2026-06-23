@@ -1,0 +1,56 @@
+{
+  "id": "maastricht_sint_pietersberg_hill_and_viewpoint",
+  "name_en": "Sint-Pietersberg hill and viewpoint",
+  "name_local": "Sint-Pietersberg",
+  "icon": "leaf",
+  "lat": 50.8268747,
+  "lon": 5.6874837,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "maastricht_sint_pietersberg_hill_and_viewpoint_001",
+      "intent_en": "Is Fort Sint-Pieter open today",
+      "text_local": "Is Fort Sint-Pieter vandaag open?",
+      "pronunciation": "ihs-fAWrt-sIHntpEEtuhr-vahndAHkh-OHpuhn",
+      "formality": "standard",
+      "cultural_note": "Opening hours may vary by season; locals often check ahead.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, tot 17 uur.",
+        "pronunciation": "yAHtawt-zEHvuhntEEn-UEr",
+        "translation_en": "Yes, until 5 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 5 PM.",
+          "phonetic": "yAHtawt-zEHvuhntEEn-UEr",
+          "french": "Ja, tot 17 uur."
+        }
+      ]
+    },
+    {
+      "id": "maastricht_sint_pietersberg_hill_and_viewpoint_002",
+      "intent_en": "Must I stay on marked paths",
+      "text_local": "Moet ik op de gemarkeerde paden blijven?",
+      "pronunciation": "mOOt-ihk-awp-duh-ghuhmahrkIHrduh-pAHduhn-blEHihvuhn",
+      "formality": "standard",
+      "cultural_note": "Safety and preservation rules are strictly enforced on marked paths.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, altijd.",
+        "pronunciation": "yAHAHltehiht",
+        "translation_en": "Yes, always."
+      },
+      "responses": [
+        {
+          "english": "Yes, always.",
+          "phonetic": "yAHAHltehiht",
+          "french": "Ja, altijd."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

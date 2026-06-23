@@ -1,0 +1,122 @@
+{
+  "id": "hamburg_hamburg_central_station",
+  "name_en": "Hamburg Central Station",
+  "name_local": "Hamburg Hauptbahnhof",
+  "icon": "tram",
+  "lat": 53.5531993,
+  "lon": 10.0064364,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "hamburg_hamburg_central_station_001",
+      "intent_en": "When is the next train to Ohlsdorf",
+      "text_local": "Wann fährt der nächste Zug nach Ohlsdorf?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-tsOOk-nahkh-OHlsdawrf",
+      "formality": "standard",
+      "cultural_note": "Departure times for regional trains like connections to Ohlsdorf are typically available at DB Information counters or digital displays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die nächste S1 fährt in fünf Minuten.",
+        "pronunciation": "dee-nEHkhstuh-EHs-EYEns-fEHrt-ihn-fUEnf-meenOOtuhn",
+        "translation_en": "The next S1 leaves in five minutes."
+      },
+      "responses": [
+        {
+          "english": "The next S1 leaves in five minutes.",
+          "phonetic": "dee-nEHkhstuh-EHs-EYEns-fEHrt-ihn-fUEnf-meenOOtuhn",
+          "french": "Die nächste S1 fährt in fünf Minuten."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_hamburg_central_station_002",
+      "intent_en": "How do I pay for left luggage",
+      "text_local": "Wie bezahle ich die Gepäckaufbewahrung?",
+      "pronunciation": "vee-buhtsAHluh-ihkh-dee-uhpEHkowfbEHvahrUHng",
+      "formality": "standard",
+      "cultural_note": "Left luggage lockers at German train stations typically have payment machines nearby or accept cards at the counter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Automaten oder Schalter.",
+        "pronunciation": "ahm-OWtohmAHtuhn-OHd-shAHlt",
+        "translation_en": "At the machine or counter."
+      },
+      "responses": [
+        {
+          "english": "At the machine or counter.",
+          "phonetic": "ahm-OWtohmAHtuhn-OHd-shAHlt",
+          "french": "Am Automaten oder Schalter."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_hamburg_central_station_003",
+      "intent_en": "Where is the BahnCard verification point",
+      "text_local": "Wo ist die BahnCard-Prüfung?",
+      "pronunciation": "vOH-ihst-dee-bAHn-kAHrtprUEfuhng",
+      "formality": "standard",
+      "cultural_note": "BahnCard verification is typically handled at DB Information (Reisezentrum) counters in major train stations.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Reisezentrum oder Schalter.",
+        "pronunciation": "ahm-rEYEzehtsEHntruhm-OHd-shAHlt",
+        "translation_en": "At the travel center or counter."
+      },
+      "responses": [
+        {
+          "english": "At the travel center or counter.",
+          "phonetic": "ahm-rEYEzehtsEHntruhm-OHd-shAHlt",
+          "french": "Am Reisezentrum oder Schalter."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_hamburg_central_station_004",
+      "intent_en": "Where are the DB ticket machines",
+      "text_local": "Wo sind die DB-Ticketautomaten?",
+      "pronunciation": "vOH-zihnt-dee-dEHbEHtIHkehtOWtohmAHtuhn",
+      "formality": "standard",
+      "cultural_note": "Ticket machines at German train stations are typically grouped near the entrance or central hall and are red.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt im Haupteingang.",
+        "pronunciation": "deerEHkt-ihm-hOWptEYEngAHng",
+        "translation_en": "Directly at the main entrance."
+      },
+      "responses": [
+        {
+          "english": "Directly at the main entrance.",
+          "phonetic": "deerEHkt-ihm-hOWptEYEngAHng",
+          "french": "Direkt im Haupteingang."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_hamburg_central_station_005",
+      "intent_en": "How do I get to the S1 airport line",
+      "text_local": "Wie komme ich zur S1 Richtung Flughafen?",
+      "pronunciation": "vOH-ihst-dee-EHs-EYEns-nahkh-dehm-flOOhahfuhn",
+      "formality": "casual",
+      "cultural_note": "S-Bahn platforms at Hamburg Hauptbahnhof are signposted with clear directions to major lines like S1.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gleis 1, der Zug fährt in fünf Minuten.",
+        "pronunciation": "glEYEs-EYEnsdehr-tsOOk-fEHrt-ihn-fUEnf-meenOOtuhn",
+        "translation_en": "Platform 1, the train leaves in five minutes."
+      },
+      "responses": [
+        {
+          "english": "Platform 1, the train leaves in five minutes.",
+          "phonetic": "glEYEs-EYEnsdehr-tsOOk-fEHrt-ihn-fUEnf-meenOOtuhn",
+          "french": "Gleis 1, der Zug fährt in fünf Minuten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

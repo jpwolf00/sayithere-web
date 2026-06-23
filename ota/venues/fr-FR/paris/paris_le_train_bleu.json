@@ -1,0 +1,135 @@
+{
+  "id": "venue_le_train_bleu",
+  "name_en": "Le Train Bleu Restaurant",
+  "name_local": "Le Train Bleu",
+  "icon": "train.side.front.car",
+  "phrases": [
+    {
+      "id": "venue_le_train_bleu_001",
+      "intent_en": "Ask if a reservation is required",
+      "text_local": "Faut-il absolument réserver une table à l'avance ?",
+      "pronunciation": "foh-TEEL ab-soh-loo-MAHN ray-zur-VAY oon TAH-bluh ah lah-VAHNS",
+      "formality": "polite",
+      "cultural_note": "Le Train Bleu is the iconic restaurant inside Gare de Lyon, open since 1901. Reservations are strongly recommended, especially for lunch and weekends. Walk-ins may be possible for the bar area. The restaurant is worth visiting even if you're not catching a train.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, I recommend booking, especially on weekends.",
+          "phonetic": "wee, zhuh kohn-SAY duh ray-zehr-VAY, soor-TOO luh wee-KEND",
+          "french": "Oui, je conseille de réserver, surtout le weekend."
+        }
+      ]
+    },
+    {
+      "id": "venue_le_train_bleu_002",
+      "intent_en": "Request a window seat overlooking the platforms",
+      "text_local": "Serait-il possible d'avoir une table côté fenêtre avec vue sur les quais ?",
+      "pronunciation": "suh-REH-teel poh-SEE-bluh dah-VWAR oon TAH-bluh koh-TAY fuh-NE-truh ah-VEK voo soor lay KEH",
+      "formality": "polite",
+      "cultural_note": "The restaurant has magnificent Belle Époque décor — gilded ceilings, frescoes of destinations served by trains from Lyon station (Nice, Marseille, Genève), and heavy velvet drapes. A window table is the best spot for both the food and the spectacle of the trains below.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I will check if a window table is available.",
+          "phonetic": "zhuh vay vwahr see oon tah-bluh koh-TAY fuh-NEH-truh eh dees-poh-NEE-bluh",
+          "french": "Je vais voir si une table côté fenêtre est disponible."
+        }
+      ]
+    },
+    {
+      "id": "venue_le_train_bleu_003",
+      "intent_en": "Ask how much the set lunch menu costs",
+      "text_local": "C'est combien le menu du midi ?",
+      "pronunciation": "seh kohm-BYEHN luh muh-NOO doo mee-DEE",
+      "formality": "polite",
+      "cultural_note": "The set lunch menu is generally more affordable than ordering à la carte. It typically includes a starter, main, and dessert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The daily menu is forty-five euros.",
+          "phonetic": "luh muh-NOO doo zhoor eh tah kah-RAHNT sank uh-ROH",
+          "french": "Le menu du jour est à quarante-cinq euros."
+        }
+      ]
+    },
+    {
+      "id": "venue_le_train_bleu_004",
+      "intent_en": "Order the set lunch menu",
+      "text_local": "Nous allons prendre le menu du déjeuner, s'il vous plaît.",
+      "pronunciation": "noo zah-LOHN PRAHN-druh luh muh-NOO doo day-ZHUH-nay, seel voo PLEH",
+      "formality": "polite",
+      "cultural_note": "The set lunch menu (menu du déjeuner) offers the best value for experiencing Le Train Bleu without the full à la carte expense. Classic French dishes like sole meunière, duck confit, and crème brûlée appear regularly. The wine list focuses on Burgundy and Rhône valley.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The lunch menu is thirty-eight euros.",
+          "phonetic": "luh muh-NOO doo mee-DEE eh tah trahnt-weet uh-ROH",
+          "french": "Le menu du midi est à trente-huit euros."
+        }
+      ]
+    },
+    {
+      "id": "venue_le_train_bleu_005",
+      "intent_en": "Ask for the bar area if you just want a drink",
+      "text_local": "Peut-on juste prendre un verre au bar sans réservation ?",
+      "pronunciation": "puh-TOHN zhooste PRAHN-druh uhn VEHR oh bar sahn ray-zur-VAH-syohn",
+      "formality": "standard",
+      "cultural_note": "The bar area of Le Train Bleu does not require a reservation and is a wonderful place to have a glass of wine or cocktail while waiting for your train. Regular travelers passing through Gare de Lyon often stop here — it is one of the world's great station bars.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The bar is at the entrance, on your right.",
+          "phonetic": "luh bar eh tah lan-TRAY, soor votr drwaht",
+          "french": "Le bar est à l'entrée, sur votre droite."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Platform",
+      "word_local": "Quai",
+      "pronunciation": "KEH"
+    },
+    {
+      "word_en": "Train station",
+      "word_local": "Gare",
+      "pronunciation": "gar"
+    },
+    {
+      "word_en": "Fresco / Mural",
+      "word_local": "Fresque",
+      "pronunciation": "fresk"
+    },
+    {
+      "word_en": "Set menu",
+      "word_local": "Menu",
+      "pronunciation": "muh-NOO"
+    },
+    {
+      "word_en": "Reservation",
+      "word_local": "Réservation",
+      "pronunciation": "ray-zur-vah-SYOHN"
+    },
+    {
+      "word_en": "Gilded",
+      "word_local": "Doré",
+      "pronunciation": "doh-RAY"
+    },
+    {
+      "word_en": "Window table",
+      "word_local": "Table côté fenêtre",
+      "pronunciation": "TAH-bluh koh-TAY fuh-NE-truh"
+    },
+    {
+      "word_en": "Classic French cuisine",
+      "word_local": "Cuisine française classique",
+      "pronunciation": "kwee-ZEEN frahn-SEZ klah-SEEK"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "trier_konstantinbasilika_bus_stop",
+  "name_en": "Konstantinbasilika Bus Stop",
+  "name_local": "H Konstantinbasilika",
+  "icon": "tram",
+  "lat": 49.759659,
+  "lon": 6.6441651,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "trier_konstantinbasilika_bus_stop_001",
+      "intent_en": "Does the Deutschland-Ticket work here?",
+      "text_local": "Gilt das Deutschland-Ticket hier?",
+      "pronunciation": "IHlt-dahs-dAWuhtshlahnttIHkuht-hEEr",
+      "formality": "casual",
+      "cultural_note": "Deutschland-Ticket is valid nationwide in RNN buses.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "trier_konstantinbasilika_bus_stop_002",
+      "intent_en": "Which zone is this in?",
+      "text_local": "In welcher Zone bin ich hier?",
+      "pronunciation": "ihn-vEHlkh-tsOHnuh-bihn-ihkh-hEEr",
+      "formality": "casual",
+      "cultural_note": "RNN uses fixed zone numbers; Trier city center is Zone 100.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Zone 100.",
+        "pronunciation": "tsOHnuh-EYEnhUHndt",
+        "translation_en": "Zone 100."
+      },
+      "responses": [
+        {
+          "english": "Zone 100.",
+          "phonetic": "tsOHnuh-EYEnhUHndt",
+          "french": "Zone 100."
+        }
+      ]
+    },
+    {
+      "id": "trier_konstantinbasilika_bus_stop_003",
+      "intent_en": "Where is the bicycle parking?",
+      "text_local": "Wo ist der Fahrradstellplatz?",
+      "pronunciation": "vOH-shtEHt-dehr-fAHrahtshtEHlplahts",
+      "formality": "standard",
+      "cultural_note": "Generic directional cue; exact placement not specified in venue data.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Geradeaus am Radweg.",
+        "pronunciation": "guhrAHdehOWs-ahm-rAHdvehk",
+        "translation_en": "Straight ahead on the bike path."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead on the bike path.",
+          "phonetic": "guhrAHdehOWs-ahm-rAHdvehk",
+          "french": "Geradeaus am Radweg."
+        }
+      ]
+    },
+    {
+      "id": "trier_konstantinbasilika_bus_stop_004",
+      "intent_en": "Where do I validate my ticket?",
+      "text_local": "Wo validiere ich die Fahrkarte?",
+      "pronunciation": "vOH-vAHleedEEruh-ihkh-dee-fAHrkahrtuh",
+      "formality": "standard",
+      "cultural_note": "Validation is done immediately upon boarding; no separate machines at stop.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Bus vorne.",
+        "pronunciation": "ihm-bUHs-fAWrnuh",
+        "translation_en": "In the front of the bus."
+      },
+      "responses": [
+        {
+          "english": "In the front of the bus.",
+          "phonetic": "ihm-bUHs-fAWrnuh",
+          "french": "Im Bus vorne."
+        }
+      ]
+    },
+    {
+      "id": "trier_konstantinbasilika_bus_stop_005",
+      "intent_en": "Is this stop barrier-free?",
+      "text_local": "Ist die Haltestelle barrierefrei?",
+      "pronunciation": "ihst-dee-hAHltehshtEHluh-bAHrihEHrehfrEYE",
+      "formality": "standard",
+      "cultural_note": "H-Schild indicates barrier-free access; standard infrastructure.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, mit H-Schild.",
+        "pronunciation": "yAHmiht-hAHshIHlt",
+        "translation_en": "Yes, marked with H-sign."
+      },
+      "responses": [
+        {
+          "english": "Yes, marked with H-sign.",
+          "phonetic": "yAHmiht-hAHshIHlt",
+          "french": "Ja, mit H-Schild."
+        }
+      ]
+    },
+    {
+      "id": "trier_konstantinbasilika_bus_stop_006",
+      "intent_en": "When is the next bus to center?",
+      "text_local": "Wann fährt der nächste Bus in die Innenstadt?",
+      "pronunciation": "vAHn-fEHrt-dehr-nEHkhstuh-bUHs-ihn-dee-IHnuhnstAHt",
+      "formality": "standard",
+      "cultural_note": "Departure times are typically displayed on the shelter or via app; no live countdown.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "In 5 Minuten.",
+        "pronunciation": "ihn-fUEnf-meenOOtuhn",
+        "translation_en": "In 5 minutes."
+      },
+      "responses": [
+        {
+          "english": "In 5 minutes.",
+          "phonetic": "ihn-fUEnf-meenOOtuhn",
+          "french": "In 5 Minuten."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

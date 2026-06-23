@@ -1,0 +1,100 @@
+{
+  "id": "zell_am_see_sporthaus_schuster",
+  "name_en": "Sporthaus Schuster",
+  "name_local": "Sporthaus Schuster",
+  "icon": "bag",
+  "lat": 47.3239636,
+  "lon": 12.7963165,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zell_am_see_sporthaus_schuster_001",
+      "intent_en": "Where do I return rental equipment?",
+      "text_local": "Wo gebe ich Leihausrüstung zurück?",
+      "pronunciation": "vOH-EHbuh-ihkh-lEYEhowsrUEstuhng-tsoorUEk",
+      "formality": "standard",
+      "cultural_note": "Staff may point to the rental desk or signage marked 'Verleih'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Verleihschalter.",
+        "pronunciation": "ahm-fehrlEYEhshahlt",
+        "translation_en": "At the rental counter."
+      },
+      "responses": [
+        {
+          "english": "At the rental counter.",
+          "phonetic": "ahm-fehrlEYEhshahlt",
+          "french": "Am Verleihschalter."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_sporthaus_schuster_002",
+      "intent_en": "Where is the Hermann Buhl gear section?",
+      "text_local": "Wo ist die Hermann-Buhl-Ausrüstung?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-hEHrmahnbOOlOWsrUEstuhng",
+      "formality": "standard",
+      "cultural_note": "Staff may gesture toward the gear wall or direct to the section name.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im oberen Stockwerk.",
+        "pronunciation": "ihm-OHbuhruhn-shtAWkvehrk",
+        "translation_en": "On the upper floor."
+      },
+      "responses": [
+        {
+          "english": "On the upper floor.",
+          "phonetic": "ihm-OHbuhruhn-shtAWkvehrk",
+          "french": "Im oberen Stockwerk."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_sporthaus_schuster_003",
+      "intent_en": "Is the Nanga Parbat display item for sale?",
+      "text_local": "Wird das Nanga-Parbat-Exponat verkauft?",
+      "pronunciation": "vIHrt-dahs-nAHngahpahrbAHtEHkspohnAHt-fehrkOWft",
+      "formality": "standard",
+      "cultural_note": "Answer may include pricing or stock confirmation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Verkauf.",
+        "pronunciation": "yAHihm-fehrkOWf",
+        "translation_en": "Yes, for sale."
+      },
+      "responses": [
+        {
+          "english": "Yes, for sale.",
+          "phonetic": "yAHihm-fehrkOWf",
+          "french": "Ja, im Verkauf."
+        }
+      ]
+    },
+    {
+      "id": "zell_am_see_sporthaus_schuster_004",
+      "intent_en": "Is the seasonal ski wax service available now?",
+      "text_local": "Gibt es jetzt Wachs-Service?",
+      "pronunciation": "EEpt-ehs-yEHtst-vAHkhsehnsVihsdeh",
+      "formality": "standard",
+      "cultural_note": "Answer may include waiting time or additional fee.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Skimonteur.",
+        "pronunciation": "yAHahm-skEEmawntUHr",
+        "translation_en": "Yes, at ski tech counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at ski tech counter.",
+          "phonetic": "yAHahm-skEEmawntUHr",
+          "french": "Ja, am Skimonteur."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

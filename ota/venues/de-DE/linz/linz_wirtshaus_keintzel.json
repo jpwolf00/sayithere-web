@@ -1,0 +1,100 @@
+{
+  "id": "linz_wirtshaus_keintzel",
+  "name_en": "Wirtshaus Keintzel",
+  "name_local": "Wirtshaus Keintzel",
+  "icon": "fork.knife",
+  "lat": 48.3059078,
+  "lon": 14.286198,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "linz_wirtshaus_keintzel_001",
+      "intent_en": "Where is the Oberbayern-Saal",
+      "text_local": "Wo finde ich den Oberbayern-Saal?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-OHbbEYEnzAHl",
+      "formality": "standard",
+      "cultural_note": "Spezielle Säle sind oft durch Personal an der Haupttheke erreichbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie die Treppe hoch.",
+        "pronunciation": "gEHuhn-zee-dee-trEHpuh-hOHkh",
+        "translation_en": "Go up the stairs."
+      },
+      "responses": [
+        {
+          "english": "Go up the stairs.",
+          "phonetic": "gEHuhn-zee-dee-trEHpuh-hOHkh",
+          "french": "Gehen Sie die Treppe hoch."
+        }
+      ]
+    },
+    {
+      "id": "linz_wirtshaus_keintzel_002",
+      "intent_en": "Where do I pay the bill",
+      "text_local": "Wo kann ich die Rechnung begleichen?",
+      "pronunciation": "vOH-kAHn-ihkh-dee-rEHkhnuhng-buhlEYEkhuhn",
+      "formality": "standard",
+      "cultural_note": "In Wirtshäusern ist Barzahlung an der Theke üblich, aber Tischservice wird oft angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tisch oder an der Theke.",
+        "pronunciation": "ahm-tIHsh-OHd-ahn-dehr-tEHkuh",
+        "translation_en": "At the table or at the counter."
+      },
+      "responses": [
+        {
+          "english": "At the table or at the counter.",
+          "phonetic": "ahm-tIHsh-OHd-ahn-dehr-tEHkuh",
+          "french": "Am Tisch oder an der Theke."
+        }
+      ]
+    },
+    {
+      "id": "linz_wirtshaus_keintzel_003",
+      "intent_en": "Is the Biergarten self-service",
+      "text_local": "Ist der Biergarten Selbstbedienung?",
+      "pronunciation": "ihst-dehr-bEErahrtuhn-zEHlpstbuhdEEnuhng",
+      "formality": "standard",
+      "cultural_note": "In oberösterreichischen Biergärten ist Selbstbedienung an Getränkeständen verbreitet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Biergarten.",
+        "pronunciation": "yAHihm-bEErahrtuhn",
+        "translation_en": "Yes, at the beer garden."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the beer garden.",
+          "phonetic": "yAHihm-bEErahrtuhn",
+          "french": "Ja, im Biergarten."
+        }
+      ]
+    },
+    {
+      "id": "linz_wirtshaus_keintzel_004",
+      "intent_en": "Do you have Keintzel-Bräu dark beer",
+      "text_local": "Haben Sie Keintzel-Bräu Dunkel?",
+      "pronunciation": "hAHbuhn-zee-kEYEntsuhlbrAWuh-dUHnkuhl",
+      "formality": "casual",
+      "cultural_note": "Hausbiere werden meist als Fass- oder Flaschenware angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Fass oder im Krug.",
+        "pronunciation": "yAHahm-fAHs-OHd-ihm-krOOk",
+        "translation_en": "Yes, on tap or in a mug."
+      },
+      "responses": [
+        {
+          "english": "Yes, on tap or in a mug.",
+          "phonetic": "yAHahm-fAHs-OHd-ihm-krOOk",
+          "french": "Ja, am Fass oder im Krug."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

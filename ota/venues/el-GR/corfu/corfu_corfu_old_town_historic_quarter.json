@@ -1,0 +1,78 @@
+{
+  "id": "corfu_corfu_old_town_historic_quarter",
+  "name_en": "Corfu Old Town historic quarter",
+  "name_local": "Παλιά Πόλη Κέρκυρας",
+  "icon": "map",
+  "lat": 39.6234759,
+  "lon": 19.9224589,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "corfu_corfu_old_town_historic_quarter_001",
+      "intent_en": "Do I pay at Liston cafe table or counter?",
+      "text_local": "Πληρώνω στο τραπέζι ή στο πάγκο στο Λιστόν;",
+      "pronunciation": "pleerOHnoh-stoh-trahpEHzee-ee-stoh-pAHnggoh-stoh-leestOHn",
+      "formality": "standard",
+      "cultural_note": "Στις Λιστόν (Liston Arcade) οι καφετζήδες (kafetzides) εξυπηρετούν απευθείας στους πάγκους.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Στο τραπέζι.",
+        "pronunciation": "stoh-trahpEHzee",
+        "translation_en": "At the table."
+      },
+      "responses": [
+        {
+          "english": "At the table.",
+          "phonetic": "stoh-trahpEHzee",
+          "french": "Στο τραπέζι."
+        }
+      ]
+    },
+    {
+      "id": "corfu_corfu_old_town_historic_quarter_002",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς πληρώνω το πάρκινγκ στα όρια της Παλιάς Πόλης;",
+      "pronunciation": "pOHs-pleerOHnoh-tohm-bAHreeng-stah-OHreeAH-tees-pahlyAHs-pOHlees",
+      "formality": "standard",
+      "cultural_note": "Η Δημοτική αστυνομία (municipal police) επιβλέπει τις ζώνες παρκινγκ εκτός ιστορικού κέντρου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο παρκόμετρο ή με SMS, ανάλογα τη ζώνη.",
+        "pronunciation": "stoh-pahrkOHmehtrOH-ee-meh-ehnEHs-EHm-EHsehlahnAHlohghAH-tee-zOHnee",
+        "translation_en": "At the parking meter or by SMS, depending on the zone."
+      },
+      "responses": [
+        {
+          "english": "At the parking meter or by SMS, depending on the zone.",
+          "phonetic": "stoh-pahrkOHmehtrOH-ee-meh-ehnEHs-EHm-EHsehlahnAHlohghAH-tee-zOHnee",
+          "french": "Στο παρκόμετρο ή με SMS, ανάλογα τη ζώνη."
+        }
+      ]
+    },
+    {
+      "id": "corfu_corfu_old_town_historic_quarter_003",
+      "intent_en": "Where can I buy church candles?",
+      "text_local": "Πού αγοράζω κεριά για την εκκλησία;",
+      "pronunciation": "pOO-AHghohrAHzoh-EHreeAH-yAH-teen-EHkleesEEah",
+      "formality": "standard",
+      "cultural_note": "Οι κηροπήγες τοποθετούνται υπό την επίβλεψη του Ναοφύλακα (naofyylakas) στον Ναό.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στον Άγιο Σπυρίδωνα, έξω από την εκκλησία.",
+        "pronunciation": "stohn-AHyoh-speerEEthohnAHEHksoh-ahpOH-teen-EHkleesEEah",
+        "translation_en": "At St. Spyridon's, outside the church."
+      },
+      "responses": [
+        {
+          "english": "At St. Spyridon's, outside the church.",
+          "phonetic": "stohn-AHyoh-speerEEthohnAHEHksoh-ahpOH-teen-EHkleesEEah",
+          "french": "Στον Άγιο Σπυρίδωνα, έξω από την εκκλησία."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

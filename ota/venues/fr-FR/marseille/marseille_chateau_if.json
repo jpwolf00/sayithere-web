@@ -1,0 +1,101 @@
+{
+  "id": "marseille_chateau_if",
+  "name_en": "Château d'If",
+  "name_local": "Château d'If",
+  "icon": "building.columns.fill",
+  "lat": 43.3275,
+  "lon": 5.3423,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "marseille_if_001",
+      "intent_en": "Ask about the ferry schedule",
+      "text_local": "À quelle heure part le prochain ferry pour l'île d'If ?",
+      "pronunciation": "ah kel UHR PAR leh proh-SHAN FEH-REE poor leel deef",
+      "formality": "polite",
+      "cultural_note": "Ferries depart every 30 minutes from the Vieux-Port. The crossing takes about 15 minutes. In summer, book ahead.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The schedule is posted at the Vieux-Port ticket office.",
+          "phonetic": "wee, may ruh-gar-DAY layz oh-REHR ah-fee-SHAY oh-zhoor-DWEE",
+          "french": "Les horaires sont affichés au guichet du Vieux-Port."
+        }
+      ]
+    },
+    {
+      "id": "marseille_if_002",
+      "intent_en": "Ask about the prison cells",
+      "text_local": "Où sont les cellules de la prison ?",
+      "pronunciation": "oo son lay suh-LOO duh lah pree-ZON",
+      "formality": "polite",
+      "cultural_note": "The island served as a prison from 1524 to 1890. Its most famous prisoner was Edmond Dantès in Alexandre Dumas' novel.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Upstairs, inside the château. Follow the signs.",
+          "phonetic": "",
+          "french": "En haut, à l'intérieur du château. Suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "marseille_if_003",
+      "intent_en": "Ask about the ticket price",
+      "text_local": "Combien coûte l'entrée du château ?",
+      "pronunciation": "kom-BYAN KOOT lahn-TRAY doo shah-TOH",
+      "formality": "polite",
+      "cultural_note": "There is an entrance fee for Château d'If. Discounts may be available for children and EU residents under 26.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's indicated at the ticket office, over there.",
+          "phonetic": "say an-dee-KAY oh gee-SHAY, lah-BAH",
+          "french": "C'est indiqué au guichet, là-bas."
+        }
+      ]
+    },
+    {
+      "id": "marseille_if_004",
+      "intent_en": "Ask about the walk to the fortress top",
+      "text_local": "La montée au sommet est-elle difficile ?",
+      "pronunciation": "lah mon-DAY oh so-MAN eh-tel dee-fee-SEEL",
+      "formality": "polite",
+      "cultural_note": "The walk to the top is steep but short (5 minutes). Wear comfortable shoes — there's a great viewpoint at the summit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It's steep but short, about five minutes.",
+          "phonetic": "",
+          "french": "C'est raide mais court, environ cinq minutes."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "island",
+      "word_local": "l'île",
+      "pronunciation": "leel"
+    },
+    {
+      "word_en": "prison",
+      "word_local": "la prison",
+      "pronunciation": "lah pree-ZON"
+    },
+    {
+      "word_en": "ferry",
+      "word_local": "le ferry",
+      "pronunciation": "leh FEH-ree"
+    },
+    {
+      "word_en": "cell",
+      "word_local": "la cellule",
+      "pronunciation": "lah suh-LOO"
+    }
+  ]
+}

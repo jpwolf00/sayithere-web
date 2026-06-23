@@ -1,0 +1,118 @@
+{
+  "id": "paris_sainte_chapelle",
+  "name_en": "Sainte-Chapelle",
+  "name_local": "Sainte-Chapelle",
+  "icon": "building.columns",
+  "lat": 48.8554,
+  "lon": 2.345,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "paris_sc_001",
+      "intent_en": "Ask if this ticket includes Conciergerie",
+      "text_local": "Ce billet inclut aussi la Conciergerie ?",
+      "pronunciation": "suh bee-YAY an-KLOO oh-SEE lah kon-syehr-zhuh-REE",
+      "formality": "polite",
+      "cultural_note": "Many visitors use the combo ticket for Sainte-Chapelle + Conciergerie.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, this ticket includes both sites. You have a combined ticket.",
+          "phonetic": "wee, say bee-YAY an-KLOO lay duh sees. voo ah-VAY uhn bee-YAY kom-bee-NAY",
+          "french": "Oui, ce billet inclut les deux sites. Vous avez un billet combiné."
+        }
+      ]
+    },
+    {
+      "id": "paris_sc_002",
+      "intent_en": "Ask where security screening starts",
+      "text_local": "Le contrôle de sécurité commence où ?",
+      "pronunciation": "leh kon-TROHL duh say-kew-ree-TAY koh-MONS oo",
+      "formality": "polite",
+      "cultural_note": "Security lines can build quickly; small bags help speed entry.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The security check is at the entrance, on the left.",
+          "phonetic": "leh kon-TROHL eh tah lan-TRAY, sur lah gohsh",
+          "french": "Le contrôle est à l'entrée, sur la gauche."
+        }
+      ]
+    },
+    {
+      "id": "paris_sc_003",
+      "intent_en": "Ask where the upper chapel stairs are",
+      "text_local": "Les escaliers pour la chapelle haute sont où ?",
+      "pronunciation": "layz es-kah-lee-YAY poor lah shah-PEL OHT son oo",
+      "formality": "polite",
+      "cultural_note": "The stained-glass upper chapel is the highlight and requires stairs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The stairs are at the back, on the right after the lower chapel.",
+          "phonetic": "layz es-kah-lee-YAY son oh fon, ah drwaht ah-PRAY lah shah-PEL bas",
+          "french": "Les escaliers sont au fond, à droite après la Chapelle basse."
+        }
+      ]
+    },
+    {
+      "id": "paris_sc_004",
+      "intent_en": "Ask the best time for light through windows",
+      "text_local": "Quelle heure est meilleure pour la lumière dans les vitraux ?",
+      "pronunciation": "kel UR eh may-YUHR poor lah loo-MYEHR dahn lay vee-TROH",
+      "formality": "polite",
+      "cultural_note": "Morning to late afternoon often gives the strongest stained-glass effect.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The best time is late afternoon, around 3-4 PM.",
+          "phonetic": "leh may-YUHR moh-MON say on fan dah-PRAY mee-dee, vair trayz-oor sayz-oor",
+          "french": "Le meilleur moment c'est en fin d'après-midi, vers 15h-16h."
+        }
+      ]
+    },
+    {
+      "id": "paris_sc_005",
+      "intent_en": "Ask if re-entry is allowed with same ticket",
+      "text_local": "On peut ressortir et revenir avec le même billet ?",
+      "pronunciation": "on puh ruh-sor-TEER ay ruh-vuh-NEER ah-VEK leh mem bee-YAY",
+      "formality": "polite",
+      "cultural_note": "Re-entry policies vary; confirm before exiting.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, the ticket is single-use. You cannot re-enter.",
+          "phonetic": "non, leh bee-YAY eh ah oo-ZAZH oo-NEEK. voo nuh poo-VAY pah ruh-sor-TEER",
+          "french": "Non, le billet est à usage unique. Vous ne pouvez pas ressortir."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "stained glass",
+      "word_local": "les vitraux",
+      "pronunciation": "lay vee-TROH"
+    },
+    {
+      "word_en": "upper chapel",
+      "word_local": "la chapelle haute",
+      "pronunciation": "lah shah-PEL OHT"
+    },
+    {
+      "word_en": "combined ticket",
+      "word_local": "le billet combiné",
+      "pronunciation": "leh bee-YAY kom-bee-NAY"
+    },
+    {
+      "word_en": "security screening",
+      "word_local": "le contrôle de sécurité",
+      "pronunciation": "leh kon-TROHL duh say-kew-ree-TAY"
+    }
+  ]
+}

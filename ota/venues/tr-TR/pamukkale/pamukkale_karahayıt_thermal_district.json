@@ -1,0 +1,122 @@
+{
+  "id": "pamukkale_karahayıt_thermal_district",
+  "name_en": "Karahayıt Thermal District",
+  "name_local": "Karahayıt Kaplıca Bölgesi",
+  "icon": "map",
+  "lat": 37.9650994,
+  "lon": 29.106576,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "pamukkale_karahayıt_thermal_district_001",
+      "intent_en": "Where is Kızılcasular Girişi?",
+      "text_local": "Kızılcasular Girişi nerede?",
+      "pronunciation": "koozoodzhahsooAHr-eereeshIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Turkish thermal districts can be sprawling. Always ask locally.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kaplıca Caddesi üzerinde.",
+        "pronunciation": "kahpoodzhAH-dzhahdehsIH-uezehrihndEH",
+        "translation_en": "It's on Kaplıca Street."
+      },
+      "responses": [
+        {
+          "english": "It's on Kaplıca Street.",
+          "phonetic": "kahpoodzhAH-dzhahdehsIH-uezehrihndEH",
+          "french": "Kaplıca Caddesi üzerinde."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_karahayıt_thermal_district_002",
+      "intent_en": "Is private thermal cabin available?",
+      "text_local": "Özel termal kabin var mı?",
+      "pronunciation": "uhzAHl-tehrmAH-kahbIHn-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Amenities like private cabins vary between hotels in the district.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bazı otellerde var.",
+        "pronunciation": "bahzOO-ohtahllehrdEH-vAHr",
+        "translation_en": "Some hotels have them."
+      },
+      "responses": [
+        {
+          "english": "Some hotels have them.",
+          "phonetic": "bahzOO-ohtahllehrdEH-vAHr",
+          "french": "Bazı otellerde var."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_karahayıt_thermal_district_003",
+      "intent_en": "Where to catch minibus to Pamukkale?",
+      "text_local": "Pamukkale minibüsü nereden kalkıyor?",
+      "pronunciation": "pahmookAHleh-meeneebuesUH-nEHrehdahn-kahkOOyawr",
+      "formality": "standard",
+      "cultural_note": "In Turkish neighborhoods, minibus stops can be informal. A local can point you to the nearest one.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kaplıca Caddesi'nden geçer.",
+        "pronunciation": "kahpoodzhAH-dzhahdehsihndAHn-ehtshEHr",
+        "translation_en": "It passes from Kaplıca Caddesi."
+      },
+      "responses": [
+        {
+          "english": "It passes from Kaplıca Caddesi.",
+          "phonetic": "kahpoodzhAH-dzhahdehsihndAHn-ehtshEHr",
+          "french": "Kaplıca Caddesi'nden geçer."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_karahayıt_thermal_district_004",
+      "intent_en": "Where for thermal mud treatment?",
+      "text_local": "Termal çamur tedavisi nerede?",
+      "pronunciation": "tehrmAH-tshahmUHr-tehdahveesIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Mud treatment locations can be within specific hotel spas. Asking general staff is a safe first step.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Otel termal bölümünde.",
+        "pronunciation": "ohtAHl-tehrmAH-buhluemuhndEH",
+        "translation_en": "In the hotel thermal section."
+      },
+      "responses": [
+        {
+          "english": "In the hotel thermal section.",
+          "phonetic": "ohtAHl-tehrmAH-buhluemuhndEH",
+          "french": "Otel termal bölümünde."
+        }
+      ]
+    },
+    {
+      "id": "pamukkale_karahayıt_thermal_district_005",
+      "intent_en": "Where for thermal mud treatment?",
+      "text_local": "Termal çamur tedavisi nerede yapılıyor?",
+      "pronunciation": "tehrmAH-tshahmUHr-tehdahveesIH-nEHrehdeh-yahpooOOyawr",
+      "formality": "standard",
+      "cultural_note": "Treatments are offered at various hotels, not a single central location.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kaplıca Caddesi'ndeki çoğu otelde.",
+        "pronunciation": "kahpoodzhAH-dzhahdehsihndehkIH-tshohUH-ohtahldEH",
+        "translation_en": "At most hotels on Kaplıca Street."
+      },
+      "responses": [
+        {
+          "english": "At most hotels on Kaplıca Street.",
+          "phonetic": "kahpoodzhAH-dzhahdehsihndehkIH-tshohUH-ohtahldEH",
+          "french": "Kaplıca Caddesi'ndeki çoğu otelde."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

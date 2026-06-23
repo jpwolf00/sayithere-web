@@ -1,0 +1,100 @@
+{
+  "id": "lugano_swissminiatur",
+  "name_en": "Swissminiatur",
+  "name_local": "Swissminiatur",
+  "icon": "building.columns",
+  "lat": 45.9536228,
+  "lon": 8.9507548,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lugano_swissminiatur_001",
+      "intent_en": "Is the miniature train running now?",
+      "text_local": "Fährt die Miniaturbahn gerade?",
+      "pronunciation": "fEHrt-dee-mEEneeAHtuhuhbAHn-uhrAHduh",
+      "formality": "standard",
+      "cultural_note": "Kurze Ja/Nein-Fragen werden in der Schweiz oft mit klaren Bestätigungen oder Verweisen auf Aushänge beantwortet.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, jetzt in Betrieb.",
+        "pronunciation": "yAHyEHtst-ihn-buhtrEEp",
+        "translation_en": "Yes, running now."
+      },
+      "responses": [
+        {
+          "english": "Yes, running now.",
+          "phonetic": "yAHyEHtst-ihn-buhtrEEp",
+          "french": "Ja, jetzt in Betrieb."
+        }
+      ]
+    },
+    {
+      "id": "lugano_swissminiatur_002",
+      "intent_en": "Where is the causeway ticket booth?",
+      "text_local": "Wo ist der Schalter für die causeway Tickets?",
+      "pronunciation": "vOH-ihst-dehr-shAHlt-fuer-dee-kOWzehvEHih-tIHkuhts",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz werden Tickets oft an separaten Schaltern verkauft, nicht direkt am Eingang.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Beim Eingang Melide.",
+        "pronunciation": "beyem-EYEnAHng-mehlEEduh",
+        "translation_en": "At the Melide entrance."
+      },
+      "responses": [
+        {
+          "english": "At the Melide entrance.",
+          "phonetic": "beyem-EYEnAHng-mehlEEduh",
+          "french": "Beim Eingang Melide."
+        }
+      ]
+    },
+    {
+      "id": "lugano_swissminiatur_003",
+      "intent_en": "Where is the cafeteria?",
+      "text_local": "Wo ist die Cafeteria?",
+      "pronunciation": "vOH-ihst-dee-kAHfehtEHreeAH",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz sind Servicepunkte wie Cafeterias oft zentral markiert oder werden über Hauptschalter vermittelt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hinter dem Eingang links.",
+        "pronunciation": "hIHnt-dehm-EYEngAHng-lINGks",
+        "translation_en": "Behind the entrance on the left."
+      },
+      "responses": [
+        {
+          "english": "Behind the entrance on the left.",
+          "phonetic": "hIHnt-dehm-EYEngAHng-lINGks",
+          "french": "Hinter dem Eingang links."
+        }
+      ]
+    },
+    {
+      "id": "lugano_swissminiatur_004",
+      "intent_en": "Can I buy a Bissone model?",
+      "text_local": "Gibt es das Modell Bissone zu kaufen?",
+      "pronunciation": "EEpt-ehs-dahs-mohdEHl-bihsOHnuh-tsoo-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "Souvenirmodelle werden in der Schweiz oft exklusiv im Park-Shop angeboten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Souvenirladen.",
+        "pronunciation": "yAHihm-zOOvehnIHrlahduhn",
+        "translation_en": "Yes, in the gift shop."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the gift shop.",
+          "phonetic": "yAHihm-zOOvehnIHrlahduhn",
+          "french": "Ja, im Souvenirladen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "würzburg_cafe_michael",
+  "name_en": "Cafe Michael",
+  "name_local": "Café Michael",
+  "icon": "fork.knife",
+  "lat": 49.7780356,
+  "lon": 9.9434769,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "würzburg_cafe_michael_001",
+      "intent_en": "Ask if hotel front desk handles check-in here",
+      "text_local": "Gibt es hier Check-in?",
+      "pronunciation": "EEpt-ehs-hEEr-khEHkIHn",
+      "formality": "casual",
+      "cultural_note": "Check-in services typically handled at front desk in German hotels.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Empfang.",
+        "pronunciation": "yAHahm-ehmpfAHng",
+        "translation_en": "Yes, at the reception."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the reception.",
+          "phonetic": "yAHahm-ehmpfAHng",
+          "french": "Ja, am Empfang."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_cafe_michael_002",
+      "intent_en": "Ask where the ballroom is located inside",
+      "text_local": "Wo ist der Ballsaal?",
+      "pronunciation": "vOH-ihst-dehr-bahlzAHl",
+      "formality": "standard",
+      "cultural_note": "Ballroom location often on upper floors in historic venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im ersten Stock.",
+        "pronunciation": "ihm-EHrstuhn-shtAWk",
+        "translation_en": "On the first floor."
+      },
+      "responses": [
+        {
+          "english": "On the first floor.",
+          "phonetic": "ihm-EHrstuhn-shtAWk",
+          "french": "Im ersten Stock."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_cafe_michael_003",
+      "intent_en": "Ask when Edison Theatre performances run",
+      "text_local": "Wann finden Vorstellungen statt?",
+      "pronunciation": "vAHn-fIHnduhn-fOHrshtEHluhnguhn-shtAHt",
+      "formality": "standard",
+      "cultural_note": "Theatre performances in Germany typically start in the evening, around 8 PM.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Abends, meist 20 Uhr.",
+        "pronunciation": "AHbuhntsmEYEst-tsvAHntsihkh-OOr",
+        "translation_en": "Evenings, usually 8 PM."
+      },
+      "responses": [
+        {
+          "english": "Evenings, usually 8 PM.",
+          "phonetic": "AHbuhntsmEYEst-tsvAHntsihkh-OOr",
+          "french": "Abends, meist 20 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_cafe_michael_004",
+      "intent_en": "Ask if Rum House bar is still operating",
+      "text_local": "Betreibt die Rum Bar noch?",
+      "pronunciation": "buhtrEYEpt-dee-rUHm-bAHr-nawkh",
+      "formality": "standard",
+      "cultural_note": "Direct inquiry about bar operations common in German-speaking venues.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, die ist noch offen.",
+        "pronunciation": "yAHdee-ihst-nawkh-AWfuhn",
+        "translation_en": "Yes, it's still open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's still open.",
+          "phonetic": "yAHdee-ihst-nawkh-AWfuhn",
+          "french": "Ja, die ist noch offen."
+        }
+      ]
+    },
+    {
+      "id": "würzburg_cafe_michael_005",
+      "intent_en": "Ask if Arena Theatre still hosts events",
+      "text_local": "Finden im Arena-Theater noch Veranstaltungen statt?",
+      "pronunciation": "fIHnduhn-ihm-AHruhnAHtehAHt-nawkh-fehrAHnshtAHltuhnguhn-shtAHt",
+      "formality": "standard",
+      "cultural_note": "Historic theatres in Germany often retain event schedules despite name changes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, regelmäßig.",
+        "pronunciation": "yAHrEHuhlmEHsihkh",
+        "translation_en": "Yes, regularly."
+      },
+      "responses": [
+        {
+          "english": "Yes, regularly.",
+          "phonetic": "yAHrEHuhlmEHsihkh",
+          "french": "Ja, regelmäßig."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

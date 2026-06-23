@@ -1,0 +1,210 @@
+{
+  "id": "kos_kos_international_airport_hippocrates",
+  "name_en": "Kos International Airport Hippocrates",
+  "name_local": "Κρατικός Αερολιμένας Κω Ιπποκράτης",
+  "icon": "tram",
+  "lat": 36.7954557,
+  "lon": 27.0884901,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "kos_kos_international_airport_hippocrates_001",
+      "intent_en": "How early should I queue for peak summer flights",
+      "text_local": "Πόσο νωρίς πρέπει να φτάσω για πτήσεις την καλοκαιρινή περίοδο;",
+      "pronunciation": "pOHsoh-nohrEEs-prEHpee-nah-vrEEskohmEH-steen-oorAH",
+      "formality": "standard",
+      "cultural_note": "Οι ουρές κορυφώνονται τους θερινούς μήνες, αλλά η ακριβής ώρα εξαρτάται από τις οδηγίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Τρεις ώρες πριν την αναχώρηση.",
+        "pronunciation": "trEEs-OHrehs-prEEn-deen-AHnahkhOHreesEE",
+        "translation_en": "Hello, it is recommended to arrive 2 hours earlier."
+      },
+      "responses": [
+        {
+          "english": "Hello, it is recommended to arrive 2 hours earlier.",
+          "phonetic": "trEEs-OHrehs-prEEn-deen-AHnahkhOHreesEE",
+          "french": "Τρεις ώρες πριν την αναχώρηση."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_international_airport_hippocrates_002",
+      "intent_en": "Which exit for Fraport AG taxi pickup",
+      "text_local": "Ποια έξοδος για ταξί Fraport AG;",
+      "pronunciation": "pEEah-EHksohthOHz-yAH-ehntAHkseeehl-tees-ehnfrAHpawt-AY-dzhEEehl",
+      "formality": "standard",
+      "cultural_note": "Τα ταξί βρίσκονται εκτός του κεντρικού κτιρίου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Έξοδος αφίξεων, μετά το μνημείο Ιπποκράτη.",
+        "pronunciation": "EHksohthOHs-ahfEEksehOHnmehtAH-toh-mneemEEoh-EEpohkrAHtee",
+        "translation_en": "Follow the signs to the arrivals exit, next to the Hippocrates statue."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs to the arrivals exit, next to the Hippocrates statue.",
+          "phonetic": "EHksohthOHs-ahfEEksehOHnmehtAH-toh-mneemEEoh-EEpohkrAHtee",
+          "french": "Έξοδος αφίξεων, μετά το μνημείο Ιπποκράτη."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_international_airport_hippocrates_003",
+      "intent_en": "Where is the duty-free shop after security",
+      "text_local": "Πού είναι το duty-free μετά τον έλεγχο;",
+      "pronunciation": "pOO-EEneh-toh-ehndyOOteefrEEehl-mehtAH-tees-ahsfAHlyehs",
+      "formality": "standard",
+      "cultural_note": "Το duty-free βρίσκεται στην περιορισμένη ζώνη μετά τις ελέγχους ασφαλείας.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά τον τελωνειακό έλεγχο.",
+        "pronunciation": "AHreestehrAH-mehtAH-tohn-dEHlohnyahkOH-EHlehngkhOH",
+        "translation_en": "Left after the customs check."
+      },
+      "responses": [
+        {
+          "english": "Left after the customs check.",
+          "phonetic": "AHreestehrAH-mehtAH-tohn-dEHlohnyahkOH-EHlehngkhOH",
+          "french": "Αριστερά μετά τον τελωνειακό έλεγχο."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_international_airport_hippocrates_004",
+      "intent_en": "Do I queue now for peak summer flight",
+      "text_local": "Πρέπει να κάνω ουρά τώρα;",
+      "pronunciation": "prEHpee-nah-pEHreemEHnoh-tOHrah-steen-oorAH",
+      "formality": "standard",
+      "cultural_note": "Η ανάγκη για ουρά εξαρτάται από την κίνηση την ώρα.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, μπροστά στα check-in της Aegean.",
+        "pronunciation": "nEHbrohstAH-stah-ehntshEHkihnehl-tees-ehneedzhEE-UHnehl",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "nEHbrohstAH-stah-ehntshEHkihnehl-tees-ehneedzhEE-UHnehl",
+          "french": "Ναι, μπροστά στα check-in της Aegean."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_international_airport_hippocrates_005",
+      "intent_en": "Which charter counter for my airline",
+      "text_local": "Ποιο counter για charter πτήσεις;",
+      "pronunciation": "pEEoh-ehnkOWntuhehl-yAH-teen-AHehrOHpohreeEE-moo-EHtehrEEah",
+      "formality": "standard",
+      "cultural_note": "Οι counters check-in για charter βρίσκονται συγκεντρωμένα ανά εταιρεία.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Στην αριστερή πλευρά.",
+        "pronunciation": "steen-AHreestehrEE-plehvrAH",
+        "translation_en": "On the left side."
+      },
+      "responses": [
+        {
+          "english": "On the left side.",
+          "phonetic": "steen-AHreestehrEE-plehvrAH",
+          "french": "Στην αριστερή πλευρά."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_international_airport_hippocrates_006",
+      "intent_en": "Where is the charter check-in counter",
+      "text_local": "Πού είναι οι counters check-in για charter;",
+      "pronunciation": "pOO-EEneh-ee-ehnkOWntuhz-tshEHkihnehl-yAH-ehntshAHtuhehl",
+      "formality": "standard",
+      "cultural_note": "Οι επιβάτες των charter πτήσεων χρησιμοποιούν ξεχωριστές περιοχές check-in.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στο κέντρο του αεροδρομίου.",
+        "pronunciation": "stoh-EHdroh-too-AHehrOHthrohmEEoo",
+        "translation_en": "In the center of the airport."
+      },
+      "responses": [
+        {
+          "english": "In the center of the airport.",
+          "phonetic": "stoh-EHdroh-too-AHehrOHthrohmEEoo",
+          "french": "Στο κέντρο του αεροδρομίου."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_international_airport_hippocrates_007",
+      "intent_en": "Do I need printed voucher at charter desk",
+      "text_local": "Χρειάζεται έντυπο voucher στο charter desk;",
+      "pronunciation": "khrkhAHzehtEH-EHdeepOH-ehnvOWtshuhehl-stoh-ehntshAHtuh-dEHskehl",
+      "formality": "standard",
+      "cultural_note": "Οι εταιρείες συχνά ζητούν έγγραφα για την επιβίβαση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχετε έτοιμο.",
+        "pronunciation": "nEHEHkhehtEH-EHteemOH",
+        "translation_en": "Yes, have it ready."
+      },
+      "responses": [
+        {
+          "english": "Yes, have it ready.",
+          "phonetic": "nEHEHkhehtEH-EHteemOH",
+          "french": "Ναι, έχετε έτοιμο."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_international_airport_hippocrates_008",
+      "intent_en": "Where is Hippocrates statue in terminal",
+      "text_local": "Πού είναι το άγαλμα του Ιπποκράτη;",
+      "pronunciation": "pOO-EEneh-toh-AHghahlmAH-too-EEpohkrAHtee",
+      "formality": "standard",
+      "cultural_note": "Το άγαλμα αποτελεί έναν από τους ορόσημους του αεροδρομίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην αίθουσα αφίξεων, αριστερά.",
+        "pronunciation": "steen-EHthoos-ahfEEksehOHnAHreestehrAH",
+        "translation_en": "In the arrivals hall, on the left."
+      },
+      "responses": [
+        {
+          "english": "In the arrivals hall, on the left.",
+          "phonetic": "steen-EHthoos-ahfEEksehOHnAHreestehrAH",
+          "french": "Στην αίθουσα αφίξεων, αριστερά."
+        }
+      ]
+    },
+    {
+      "id": "kos_kos_international_airport_hippocrates_009",
+      "intent_en": "Do I need printed vouchers for charter check-in",
+      "text_local": "Χρειάζονται έντυπα voucher για check-in;",
+      "pronunciation": "khrkhAHzohdEH-EHdeepAH-ehnvOWtshuhehl-yAH-ehntshEHkIHnehl",
+      "formality": "standard",
+      "cultural_note": "Οι αεροπορικές εταιρείες συχνά ζητούν έντυπα έγγραφα πριν την αναχώρηση.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, έχετε έτοιμα.",
+        "pronunciation": "nEHEHkhehtEH-EHteemAH",
+        "translation_en": "Yes, have ready."
+      },
+      "responses": [
+        {
+          "english": "Yes, have ready.",
+          "phonetic": "nEHEHkhehtEH-EHteemAH",
+          "french": "Ναι, έχετε έτοιμα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

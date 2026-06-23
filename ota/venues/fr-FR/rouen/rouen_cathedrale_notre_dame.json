@@ -1,0 +1,135 @@
+{
+  "id": "rouen_cathedrale_notre_dame",
+  "name_en": "Rouen Cathedral (Notre-Dame)",
+  "name_local": "Cathédrale Notre-Dame de Rouen",
+  "icon": "building.columns.fill",
+  "lat": 49.4396,
+  "lon": 1.0944,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "rouen_cath_001",
+      "intent_en": "Ask what time the cathedral opens",
+      "text_local": "À quelle heure ouvre la cathédrale ?",
+      "pronunciation": "ah kel UR OOV-ruh lah kah-tay-DRAHL",
+      "formality": "polite",
+      "cultural_note": "Rouen Cathedral is free to enter and usually opens early in the morning.",
+      "responses": [
+        {
+          "english": "At eight in the morning.",
+          "phonetic": "ah WEET UR luh mah-TAHN",
+          "french": "À huit heures le matin."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_cath_002",
+      "intent_en": "Ask to see the Tombs of the Dukes of Normandy",
+      "text_local": "Où se trouvent les tombeaux des ducs de Normandie dans la cathédrale ?",
+      "pronunciation": "oo suh TROOV lay tohm-BOH day dook duh nor-mahn-DEE dahn lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The cathedral houses the heart of Richard the Lionheart and the tomb of Rollo, the first Duke of Normandy. These are among the most significant medieval royal relics in France.",
+      "responses": [
+        {
+          "english": "In the chapel, to the right of the choir.",
+          "phonetic": "dahn lah shah-PEL ah DRWAHT doo KUR",
+          "french": "Dans la chapelle, à droite du chœur."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_cath_003",
+      "intent_en": "Ask about visiting the crypt",
+      "text_local": "Est-ce qu'il est possible de visiter la crypte de la cathédrale ?",
+      "pronunciation": "ess keel eh poh-SEEBL duh vee-zee-TAY lah KREEPT duh lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The Romanesque crypt contains remains of the earlier cathedral and medieval episcopal palace. Access may require a guided tour — check at the entrance desk.",
+      "responses": [
+        {
+          "english": "You need to ask at reception.",
+          "phonetic": "eel foh duh-mahn-DAY ah lah-KUY",
+          "french": "Il faut demander à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_cath_004",
+      "intent_en": "Ask if a guided tour is available",
+      "text_local": "Est-ce qu'il y a une visite guidée disponible ?",
+      "pronunciation": "ess keel ee ah oon vee-ZEET gee-DAY dees-poh-NEEBL",
+      "formality": "polite",
+      "cultural_note": "The Rouen tourism office organizes guided tours of the cathedral.",
+      "responses": [
+        {
+          "english": "Yes, ask at the tourism office.",
+          "phonetic": "wee rahn-sen-YAY-voo ah loh-FEESS duh too-REEZM",
+          "french": "Oui, renseignez-vous à l'office de tourisme."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_cath_005",
+      "intent_en": "Ask what time the cathedral opens",
+      "text_local": "À quelle heure ouvre la cathédrale le matin ?",
+      "pronunciation": "ah kel UR OO-vruh lah kah-tay-DRAL luh mah-TAHN",
+      "formality": "polite",
+      "cultural_note": "The cathedral is free to enter. It typically opens at 8am on weekdays and has varied hours on Sundays due to mass schedules. The light inside changes dramatically throughout the day.",
+      "responses": [
+        {
+          "english": "At eight o'clock.",
+          "phonetic": "ah WEET UR",
+          "french": "À huit heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_cath_006",
+      "intent_en": "Ask what time the evening light show starts",
+      "text_local": "À quelle heure commence le spectacle de lumière ce soir ?",
+      "pronunciation": "ah kel UR koh-MAHNSS luh spek-TAKL duh loo-MYAIR suh SWAHR",
+      "formality": "polite",
+      "cultural_note": "The cathedral facade light show runs during summer evenings and is free.",
+      "responses": [
+        {
+          "english": "At nightfall, around ten o'clock.",
+          "phonetic": "ah lah tohm-BAY duh lah NWEE vair vahn-DUH-ZUR",
+          "french": "À la tombée de la nuit, vers vingt-deux heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "cathedral",
+      "word_local": "la cathédrale",
+      "pronunciation": "lah kah-tay-DRAL"
+    },
+    {
+      "word_en": "stained glass",
+      "word_local": "le vitrail / les vitraux",
+      "pronunciation": "luh vee-TRY / lay vee-TROH"
+    },
+    {
+      "word_en": "crypt",
+      "word_local": "la crypte",
+      "pronunciation": "lah KREEPT"
+    },
+    {
+      "word_en": "tomb",
+      "word_local": "le tombeau",
+      "pronunciation": "luh tohm-BOH"
+    }
+  ]
+}

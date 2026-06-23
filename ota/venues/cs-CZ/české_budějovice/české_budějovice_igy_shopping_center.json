@@ -1,0 +1,122 @@
+{
+  "id": "české_budějovice_igy_shopping_center",
+  "name_en": "IGY Shopping Center",
+  "name_local": "Obchodní centrum IGY",
+  "icon": "bag",
+  "lat": 48.9747357,
+  "lon": 14.474285,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "české_budějovice_igy_shopping_center_001",
+      "intent_en": "Ask if gift cards expire",
+      "text_local": "Mají dárkové karty IGY datum spotřeby?",
+      "pronunciation": "mAHyee-dAHrkohveh-kAHrtee-EEgEHEEpseelohn-dAHtoom-spOHtrehbee",
+      "formality": "casual",
+      "cultural_note": "Czech gift cards typically have a set validity period from activation, stated clearly.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Platí dvanáct měsíců od aktivace.",
+        "pronunciation": "plAHee-dvAHnahtst-mnyEHseetsoo-ohd-AHkteevAHtseh",
+        "translation_en": "Valid for twelve months from activation."
+      },
+      "responses": [
+        {
+          "english": "Valid for twelve months from activation.",
+          "phonetic": "plAHee-dvAHnahtst-mnyEHseetsoo-ohd-AHkteevAHtseh",
+          "french": "Platí dvanáct měsíců od aktivace."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_igy_shopping_center_002",
+      "intent_en": "Ask how food court card works",
+      "text_local": "Jak funguje karta do food courtu?",
+      "pronunciation": "yAHk-fOOnggooyeh-kAHrtah-dOHfohoht-tsOHrtoo",
+      "formality": "standard",
+      "cultural_note": "Prepaid cards are common in Czech food courts; 'dobít' means to top up or recharge.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dobijete ji a pak platíte u stánků.",
+        "pronunciation": "dOHbeeyEHteh-yEE-ah-pAHk-plAHeeteh-OO-stAHngkoo",
+        "translation_en": "You top it up and then pay at the stalls."
+      },
+      "responses": [
+        {
+          "english": "You top it up and then pay at the stalls.",
+          "phonetic": "dOHbeeyEHteh-yEE-ah-pAHk-plAHeeteh-OO-stAHngkoo",
+          "french": "Dobijete ji a pak platíte u stánků."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_igy_shopping_center_003",
+      "intent_en": "Ask if parking validation still works",
+      "text_local": "Funguje ještě validace parkovacího lístku?",
+      "pronunciation": "fOOnggooyeh-yEHsheh-vAHleedAHtseh-pAHrkohvAHtseehoh-lEEstkoo",
+      "formality": "standard",
+      "cultural_note": "A simple 'Ano' (Yes) followed by the location is the standard direct answer in Czech service interactions.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u automatu u výtahů.",
+        "pronunciation": "AHnohOO-OWtohmAHtoo-OO-vEEtahhoo",
+        "translation_en": "Yes, at the machine by the elevators."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the machine by the elevators.",
+          "phonetic": "AHnohOO-OWtohmAHtoo-OO-vEEtahhoo",
+          "french": "Ano, u automatu u výtahů."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_igy_shopping_center_004",
+      "intent_en": "Ask where Albert supermarket is",
+      "text_local": "Kde je tady supermarket Albert?",
+      "pronunciation": "kdEH-yeh-tAHdee-sOOpehrmAHrkeht-AHlbehrt",
+      "formality": "standard",
+      "cultural_note": "Czech shopping centers often use 'přízemí' for the ground floor, distinct from 'první patro' which is the first floor above ground.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V přízemí, vlevo od hlavního vchodu.",
+        "pronunciation": "v-prEEzehmeevlEHvoh-OHthlahvnyEEhoh-fkhOHdoo",
+        "translation_en": "On the ground floor, to the left of the main entrance."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, to the left of the main entrance.",
+          "phonetic": "v-prEEzehmeevlEHvoh-OHthlahvnyEEhoh-fkhOHdoo",
+          "french": "V přízemí, vlevo od hlavního vchodu."
+        }
+      ]
+    },
+    {
+      "id": "české_budějovice_igy_shopping_center_005",
+      "intent_en": "Ask where CineStar ticket counter is",
+      "text_local": "Kde je pokladna kina CineStar?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-kEEnah-tsEEneh-stAHr",
+      "formality": "standard",
+      "cultural_note": "Czech directions often use 'úplně' (completely/all the way) for emphasis at the end of a hallway.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nahoře po eskalátorech, úplně vpravo.",
+        "pronunciation": "nAHhohreh-poh-EHskahlAHtohrehkhOOplnyeh-fprAHvoh",
+        "translation_en": "Upstairs by the escalators, all the way to the right."
+      },
+      "responses": [
+        {
+          "english": "Upstairs by the escalators, all the way to the right.",
+          "phonetic": "nAHhohreh-poh-EHskahlAHtohrehkhOOplnyeh-fprAHvoh",
+          "french": "Nahoře po eskalátorech, úplně vpravo."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

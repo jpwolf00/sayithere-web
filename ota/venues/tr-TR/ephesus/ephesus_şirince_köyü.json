@@ -1,0 +1,100 @@
+{
+  "id": "ephesus_şirince_köyü",
+  "name_en": "Şirince Köyü",
+  "name_local": "Şirince Köyü",
+  "icon": "fork.knife",
+  "lat": 37.9404456,
+  "lon": 27.3393194,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "ephesus_şirince_köyü_001",
+      "intent_en": "Ask if they accept credit cards at cellar",
+      "text_local": "Mahzende kredi kartı geçerli mi?",
+      "pronunciation": "mahhzahndEH-krehdIH-kahrtOO-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Payment methods are not listed in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bazı mahzenler kabul ediyor, genelde nakit bulundurun.",
+        "pronunciation": "bahzOO-mahhzahnlEHr-kahbUH-ehdEEyawrehnahldEH-nahkIHt-booUHndooruhn",
+        "translation_en": "Some cellars accept it, generally keep cash on hand."
+      },
+      "responses": [
+        {
+          "english": "Some cellars accept it, generally keep cash on hand.",
+          "phonetic": "bahzOO-mahhzahnlEHr-kahbUH-ehdEEyawrehnahldEH-nahkIHt-booUHndooruhn",
+          "french": "Bazı mahzenler kabul ediyor, genelde nakit bulundurun."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_şirince_köyü_002",
+      "intent_en": "Ask where to sit for olive grove view",
+      "text_local": "Zeytinlik manzaralı oturma yeri nerede?",
+      "pronunciation": "zehytihnlIHk-mahnzAHrahoo-ohtUHrmah-yehrIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "No specific terrace or seating area is listed in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Terasta.",
+        "pronunciation": "tehrahstAH",
+        "translation_en": "On the terrace."
+      },
+      "responses": [
+        {
+          "english": "On the terrace.",
+          "phonetic": "tehrahstAH",
+          "french": "Terasta."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_şirince_köyü_003",
+      "intent_en": "Ask which wine to pair with goat cheese",
+      "text_local": "Keçi peyniri ile hangi şarabı eşleştirmeliyim?",
+      "pronunciation": "kehtshIH-pehyneerIH-EEleh-hahngIH-shahrahbOO-ehshlehshtihrmehlEEyihm",
+      "formality": "standard",
+      "cultural_note": "Venue context does not list specific pairings; defaulting to safety prefix.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Şarapçıya sorun, Keçi peyniri ile beyaz şarap önerir.",
+        "pronunciation": "shahrahptshooyAH-sohrUHnkehtshIH-pehyneerIH-EEleh-behyAHz-shahrAHp-uhnehrIHr",
+        "translation_en": "Ask the winemaker, they recommend white wine with goat cheese."
+      },
+      "responses": [
+        {
+          "english": "Ask the winemaker, they recommend white wine with goat cheese.",
+          "phonetic": "shahrahptshooyAH-sohrUHnkehtshIH-pehyneerIH-EEleh-behyAHz-shahrAHp-uhnehrIHr",
+          "french": "Şarapçıya sorun, Keçi peyniri ile beyaz şarap önerir."
+        }
+      ]
+    },
+    {
+      "id": "ephesus_şirince_köyü_004",
+      "intent_en": "Ask if breakfast gözleme is made fresh now",
+      "text_local": "Kahvaltı gözlemesi şimdi taze yapılıyor mu?",
+      "pronunciation": "kahhvahtOO-uhzlehmehsIH-shihmdIH-tahzEH-yahpooOOyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Fresh preparation details are not listed in the venue context.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, tezgahta taze yapılıyor.",
+        "pronunciation": "ehvEHttehzgahhtAH-tahzEH-yahpooOOyawr",
+        "translation_en": "Yes, it is made fresh at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is made fresh at the counter.",
+          "phonetic": "ehvEHttehzgahhtAH-tahzEH-yahpooOOyawr",
+          "french": "Evet, tezgahta taze yapılıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

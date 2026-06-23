@@ -1,0 +1,78 @@
+{
+  "id": "osaka_shinsekai_retro_district",
+  "name_en": "Shinsekai retro district",
+  "name_local": "新世界",
+  "icon": "map",
+  "lat": 34.6520901,
+  "lon": 135.5061908,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "osaka_shinsekai_retro_district_001",
+      "intent_en": "Is the Janjan Yokocho alley open now",
+      "text_local": "じゃんじゃんよこちょうは いま あいてますか。",
+      "pronunciation": "dDYOHkohtohOOh-EEm-EEtEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "A yatai vendor might answer for the whole alley's general state.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ええ、みせは だいたい あいてますよ。",
+        "pronunciation": "EHehmeesEHh-dEEtEE-EEtEHmsOOyoh",
+        "translation_en": "Yes, the shops are mostly open."
+      },
+      "responses": [
+        {
+          "english": "Yes, the shops are mostly open.",
+          "phonetic": "EHehmeesEHh-dEEtEE-EEtEHmsOOyoh",
+          "french": "ええ、みせは だいたい あいてますよ。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shinsekai_retro_district_002",
+      "intent_en": "Where is the Billiken statue",
+      "text_local": "ビリケンぞうは どこに ありますか。",
+      "pronunciation": "bEEeekEHzohOOh-dohkOHnee-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "The Billiken statue is a famous symbol located on the observation deck.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "つうてんかくの てっぺんです。",
+        "pronunciation": "tsOOootehngkkOOnoh-tEHhpehndEHsoo",
+        "translation_en": "At the top of Tsutenkaku."
+      },
+      "responses": [
+        {
+          "english": "At the top of Tsutenkaku.",
+          "phonetic": "tsOOootehngkkOOnoh-tEHhpehndEHsoo",
+          "french": "つうてんかくの てっぺんです。"
+        }
+      ]
+    },
+    {
+      "id": "osaka_shinsekai_retro_district_003",
+      "intent_en": "Where do I buy Tsutenkaku tower tickets",
+      "text_local": "つうてんかくの チケットは どこで かえますか。",
+      "pronunciation": "tsOOootehngkkOOnoh-tEEkehttOHh-dohkOHdeh-kEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Staff in Osaka often use casual phrasing like 'だよ' with tourists in busy areas.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "ちか1かいの カウンターだよ。",
+        "pronunciation": "tEEk-EEtsee-kEEnoh-kOOntdYOH",
+        "translation_en": "At the counter on the first basement floor."
+      },
+      "responses": [
+        {
+          "english": "At the counter on the first basement floor.",
+          "phonetic": "tEEk-EEtsee-kEEnoh-kOOntdYOH",
+          "french": "ちか1かいの カウンターだよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

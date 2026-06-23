@@ -1,0 +1,118 @@
+{
+  "id": "toulouse_couvent_jacobins",
+  "name_en": "Convent of the Jacobins",
+  "name_local": "Couvent des Jacobins",
+  "icon": "building.columns",
+  "lat": 43.604,
+  "lon": 1.4388,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "toulouse_jacobins_001",
+      "intent_en": "Ask what the entry fee is for the convent",
+      "text_local": "Quel est le tarif d'entrée du couvent ?",
+      "pronunciation": "kel eh luh tah-REEF dahn-TRAY doo koo-VAHN",
+      "formality": "polite",
+      "cultural_note": "The Couvent des Jacobins charges a modest entry fee.",
+      "responses": [
+        {
+          "english": "It is indicated at the ticket desk.",
+          "phonetic": "say tahn-dee-KAY oh gee-SHAY",
+          "french": "C'est indiqué au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_jacobins_002",
+      "intent_en": "Ask if the relics of Saint Thomas Aquinas are here",
+      "text_local": "Est-ce que les reliques de Saint Thomas d'Aquin sont conservées ici ?",
+      "pronunciation": "es-kuh lay ruh-LEEK duh san toh-MAH dah-KAN son kohn-sair-VAY ee-SEE",
+      "formality": "polite",
+      "cultural_note": "The relics of Saint Thomas Aquinas have rested in the Jacobins church since 1369, under the high altar.",
+      "responses": [
+        {
+          "english": "Yes, under the main altar.",
+          "phonetic": "wee soo loh-TEL prahn-see-PAHL",
+          "french": "Oui, sous l'autel principal."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_jacobins_003",
+      "intent_en": "Ask if there is a cloister garden to visit",
+      "text_local": "Y a-t-il un jardin du cloître ouvert aux visiteurs ?",
+      "pronunciation": "ee-ah-TEEL un zhar-DAN doo KLWAH-truh oo-VAIR oh vee-zee-TUR",
+      "formality": "polite",
+      "cultural_note": "The Jacobins' Gothic cloister with its elegant twin columns is one of the most photographed cloisters in France.",
+      "responses": [
+        {
+          "english": "Yes, the cloister is accessible with the ticket.",
+          "phonetic": "wee luh KLWAT-ruh eh tak-ses-EEBL ah-VEK luh bee-YAY",
+          "french": "Oui, le cloître est accessible avec le billet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_jacobins_004",
+      "intent_en": "Ask if concerts are held in the nave",
+      "text_local": "Est-ce que des concerts ont lieu dans la nef du couvent ?",
+      "pronunciation": "es-kuh day kohn-SAIR ohn LYUH dahn lah NEF doo koo-VAHN",
+      "formality": "polite",
+      "cultural_note": "The Piano aux Jacobins festival, held every September, brings world-class pianists to perform in the extraordinary acoustic of the nave.",
+      "responses": [
+        {
+          "english": "You need to check the programme on the website.",
+          "phonetic": "eel foh vay-ree-FYAY luh proh-GRAM soor luh SEET",
+          "french": "Il faut vérifier le programme sur le site."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "toulouse_jacobins_005",
+      "intent_en": "Ask where to buy tickets for the Piano aux Jacobins festival",
+      "text_local": "Où peut-on acheter des billets pour le festival Piano aux Jacobins ?",
+      "pronunciation": "oo puh-TON ash-TAY day bee-YAY poor luh fes-tee-VAL pyah-NOH oh zhah-koh-BAN",
+      "formality": "polite",
+      "cultural_note": "Tickets for Piano aux Jacobins sell quickly; it is advisable to book online well in advance of the September festival.",
+      "responses": [
+        {
+          "english": "At the convent ticket desk or online.",
+          "phonetic": "oh gee-SHAY doo koo-VAHN oo ahn LEE-nyuh",
+          "french": "Au guichet du couvent ou en ligne."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "vault (architectural)",
+      "word_local": "la voûte",
+      "pronunciation": "lah VOOT"
+    },
+    {
+      "word_en": "cloister",
+      "word_local": "le cloître",
+      "pronunciation": "luh KLWAH-truh"
+    },
+    {
+      "word_en": "nave (of a church)",
+      "word_local": "la nef",
+      "pronunciation": "lah NEF"
+    },
+    {
+      "word_en": "festival",
+      "word_local": "le festival",
+      "pronunciation": "luh fes-tee-VAL"
+    }
+  ]
+}

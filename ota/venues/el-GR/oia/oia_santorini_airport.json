@@ -1,0 +1,100 @@
+{
+  "id": "oia_santorini_airport",
+  "name_en": "Santorini Airport",
+  "name_local": "Κρατικός Αερολιμένας Σαντορίνης",
+  "icon": "tram",
+  "lat": 36.3996623,
+  "lon": 25.4767089,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "oia_santorini_airport_001",
+      "intent_en": "Can I get boarding pass verified here?",
+      "text_local": "Μπορώ να επιβεβαιώσω την κάρτα επιβίβασης εδώ;",
+      "pronunciation": "bohrOH-nah-ehlEHghksoh-teeng-gAHrtah-EHpeevEEvahsEEs-ehthOH",
+      "formality": "standard",
+      "cultural_note": "Ο έλεγχος κάρτας επιβίβασης πραγματοποιείται αποκλειστικά από τους υπαλλήλους ελέγχου εντός του αεροδρομίου, σύμφωνα με τις οδηγίες επιβίβασης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο γκισέ check-in.",
+        "pronunciation": "nEHstoh-geesEH-ehntshEHkIHnehl",
+        "translation_en": "Yes, at the check-in counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the check-in counter.",
+          "phonetic": "nEHstoh-geesEH-ehntshEHkIHnehl",
+          "french": "Ναι, στο γκισέ check-in."
+        }
+      ]
+    },
+    {
+      "id": "oia_santorini_airport_002",
+      "intent_en": "How do I find baggage claim carousel?",
+      "text_local": "Πού είναι η ζώνη παραλαβής αποσκευών;",
+      "pronunciation": "pOO-EEneh-ee-zOHnee-pAHrahlahvEEs-AHpohsehvOHn",
+      "formality": "standard",
+      "cultural_note": "Η ζώνη παραλαβής αποσκευών αποτελεί σταθερό τμήμα του αεροδρομίου, προσβάσιμο μέσω κοινών οδηγιών σήμανσης.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μπροστά σας, μετά τον έλεγχο.",
+        "pronunciation": "brohstAH-sahsmehtAH-tohn-EHlehngkhOH",
+        "translation_en": "In front of you, after the checkpoint."
+      },
+      "responses": [
+        {
+          "english": "In front of you, after the checkpoint.",
+          "phonetic": "brohstAH-sahsmehtAH-tohn-EHlehngkhOH",
+          "french": "Μπροστά σας, μετά τον έλεγχο."
+        }
+      ]
+    },
+    {
+      "id": "oia_santorini_airport_003",
+      "intent_en": "Where is the Aegean check-in counter?",
+      "text_local": "Πού είναι το check-in της Aegean;",
+      "pronunciation": "pOO-EEneh-ee-ehnkOWntuhehl-tees-ehneedzhEE-UHnehl",
+      "formality": "standard",
+      "cultural_note": "Επισημαίνεται ότι η υπηρεσία check-in αναφέρεται αποκλειστικά στις πύλες επιβίβασης των αεροπορικών εταιρειών εντός του αεροδρομίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Αριστερά μετά την είσοδο, στο βάθος.",
+        "pronunciation": "AHreestehrAH-mehtAH-teen-EEsohthOHstoh-vAHthohs",
+        "translation_en": "Follow the signs for Aegean check-in."
+      },
+      "responses": [
+        {
+          "english": "Follow the signs for Aegean check-in.",
+          "phonetic": "AHreestehrAH-mehtAH-teen-EEsohthOHstoh-vAHthohs",
+          "french": "Αριστερά μετά την είσοδο, στο βάθος."
+        }
+      ]
+    },
+    {
+      "id": "oia_santorini_airport_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Είναι ανοιχτός ο έλεγχος ασφαλείας;",
+      "pronunciation": "EEneh-AHneekhtOHs-oh-EHlehngkhOHs-AHsfahlEEahs-tOHrah",
+      "formality": "standard",
+      "cultural_note": "Η ερώτηση αφορά αποκλειστικά τον έλεγχο ασφαλείας εντός του αεροδρομίου, όπου η λειτουργία του εξαρτάται από ωράριο πτήσεων.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτός τώρα.",
+        "pronunciation": "nEHEEneh-AHneekhtOHs-tOHrah",
+        "translation_en": "Yes, it is open now."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open now.",
+          "phonetic": "nEHEEneh-AHneekhtOHs-tOHrah",
+          "french": "Ναι, είναι ανοιχτός τώρα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

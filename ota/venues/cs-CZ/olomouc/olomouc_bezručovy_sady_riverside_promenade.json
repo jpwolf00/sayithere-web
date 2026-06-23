@@ -1,0 +1,100 @@
+{
+  "id": "olomouc_bezručovy_sady_riverside_promenade",
+  "name_en": "Bezručovy sady Riverside Promenade",
+  "name_local": "Bezručovy sady",
+  "icon": "map",
+  "lat": 49.5925049,
+  "lon": 17.2558551,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "olomouc_bezručovy_sady_riverside_promenade_001",
+      "intent_en": "Where is the Flora exhibition ticket booth",
+      "text_local": "Kde jsou pokladny na Floru?",
+      "pronunciation": "kdEH-ysoh-pOHklahdnee-nAHflohroo",
+      "formality": "standard",
+      "cultural_note": "Flora Olomouc is a major horticultural exhibition. Ticket booths are usually at the main entrance, not inside the park itself.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U hlavního vchodu do výstaviště.",
+        "pronunciation": "OO-hlAHvnyeehoh-fkhOHdoo-doh-vEEstahvEEsheh",
+        "translation_en": "At the main entrance to the exhibition grounds."
+      },
+      "responses": [
+        {
+          "english": "At the main entrance to the exhibition grounds.",
+          "phonetic": "OO-hlAHvnyeehoh-fkhOHdoo-doh-vEEstahvEEsheh",
+          "french": "U hlavního vchodu do výstaviště."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_bezručovy_sady_riverside_promenade_002",
+      "intent_en": "Is the Lafayette statue in this park",
+      "text_local": "Je socha Lafayetta v tomhle parku?",
+      "pronunciation": "yeh-sOHkhah-lAHfahEEehtah-v-tOHmhleh-pAHrkoo",
+      "formality": "standard",
+      "cultural_note": "The Lafayette statue is a notable landmark near the river, blending American and French revolutionary history with the local scenery.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, u nábřeží Moravy.",
+        "pronunciation": "AHnohOO-nAHbrehzhee-mOHrahvee",
+        "translation_en": "Yes, by the Morava embankment."
+      },
+      "responses": [
+        {
+          "english": "Yes, by the Morava embankment.",
+          "phonetic": "AHnohOO-nAHbrehzhee-mOHrahvee",
+          "french": "Ano, u nábřeží Moravy."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_bezručovy_sady_riverside_promenade_003",
+      "intent_en": "Where can I pay for parking nearby",
+      "text_local": "Kde můžu zaplatit za parkování?",
+      "pronunciation": "kdEH-mOOzhoo-zAHplaheet-zah-pAHrkohvAHnyee",
+      "formality": "standard",
+      "cultural_note": "Parking in the area uses street meters. The main adjacent street is třída Svobody, a common place to find them.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Automat je na třídě Svobody.",
+        "pronunciation": "OWtohmaht-yeh-nAHtreeeh-svOHbohdee",
+        "translation_en": "The meter is on třída Svobody."
+      },
+      "responses": [
+        {
+          "english": "The meter is on třída Svobody.",
+          "phonetic": "OWtohmaht-yeh-nAHtreeeh-svOHbohdee",
+          "french": "Automat je na třídě Svobody."
+        }
+      ]
+    },
+    {
+      "id": "olomouc_bezručovy_sady_riverside_promenade_004",
+      "intent_en": "Where are the city walls remains",
+      "text_local": "Kde najdu zbytky hradeb?",
+      "pronunciation": "kdEH-nAHydoo-zbEEtkee-hrAHdehp",
+      "formality": "standard",
+      "cultural_note": "The remains of the city walls are a historical feature connecting to the park area near Hradská brána.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za Hradskou branou, podél parku.",
+        "pronunciation": "zAHhrahtskoh-brAHnohpOHdehl-pAHrkoo",
+        "translation_en": "Behind the Castle Gate, along the park."
+      },
+      "responses": [
+        {
+          "english": "Behind the Castle Gate, along the park.",
+          "phonetic": "zAHhrahtskoh-brAHnohpOHdehl-pAHrkoo",
+          "french": "Za Hradskou branou, podél parku."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

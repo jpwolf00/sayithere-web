@@ -1,0 +1,78 @@
+{
+  "id": "zermatt_bäckerei_fuchs",
+  "name_en": "Bäckerei Fuchs",
+  "name_local": "Bäckerei Fuchs",
+  "icon": "fork.knife",
+  "lat": 46.0224439,
+  "lon": 7.7506989,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "zermatt_bäckerei_fuchs_001",
+      "intent_en": "Is the Nussgipfel still available",
+      "text_local": "Haben Sie noch Nussgipfel?",
+      "pronunciation": "hAHbuhn-zee-nawkh-nUHsihpfuhl",
+      "formality": "standard",
+      "cultural_note": "Nussgipfel is a classic Swiss pastry often available in bakeries; availability may vary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, im Angebot.",
+        "pronunciation": "yAHihm-AHnuhbOHt",
+        "translation_en": "Yes, in the display case."
+      },
+      "responses": [
+        {
+          "english": "Yes, in the display case.",
+          "phonetic": "yAHihm-AHnuhbOHt",
+          "french": "Ja, im Angebot."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_bäckerei_fuchs_002",
+      "intent_en": "Where do I pay for custom cake order",
+      "text_local": "Wo bezahle ich den Bestellkuchen?",
+      "pronunciation": "vOH-buhtsAHluh-ihkh-dehn-buhshtEHlkuhkhuhn",
+      "formality": "standard",
+      "cultural_note": "Custom cake orders are handled and paid for at the main counter like other purchases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Tresen.",
+        "pronunciation": "ahm-trEHzuhn",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-trEHzuhn",
+          "french": "Am Tresen."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_bäckerei_fuchs_003",
+      "intent_en": "Do I order at counter before sitting",
+      "text_local": "Bestellt man hier erst am Tresen?",
+      "pronunciation": "buhshtEHlt-mahn-hEEr-EHrst-ahm-trEHzuhn",
+      "formality": "casual",
+      "cultural_note": "Customers are expected to order and pay at the counter before sitting in this traditional bakery.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tresen.",
+        "pronunciation": "yAHahm-trEHzuhn",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-trEHzuhn",
+          "french": "Ja, am Tresen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

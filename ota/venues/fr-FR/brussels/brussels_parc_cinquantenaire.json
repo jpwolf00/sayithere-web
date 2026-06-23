@@ -1,0 +1,98 @@
+{
+  "id": "brussels_parc_cinquantenaire",
+  "name_en": "Parc du Cinquantenaire",
+  "name_local": "Parc du Cinquantenaire",
+  "icon": "leaf",
+  "phrases": [
+    {
+      "id": "brussels_pc_001",
+      "intent_en": "Ask if the park is free to enter",
+      "text_local": "L'entrée du parc est-elle gratuite ?",
+      "pronunciation": "lahn-TRAY doo park eh-TEL grah-TWEET",
+      "formality": "polite",
+      "cultural_note": "The park itself is free and open to the public. The museums inside have separate entry fees.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, the park is free and open every day.",
+          "phonetic": "wee, luh park eh grah-TWEE ay oo-VAIR too lay ZHOOR",
+          "french": "Oui, le parc est gratuit et ouvert tous les jours."
+        }
+      ]
+    },
+    {
+      "id": "brussels_pc_002",
+      "intent_en": "Ask about the museums nearby",
+      "text_local": "Y a-t-il des musées près du parc ?",
+      "pronunciation": "ee-ah-TEEL day moo-ZAY preh doo park",
+      "formality": "polite",
+      "cultural_note": "The parc houses three major museums: the Royal Museum of Armed Forces, the Autoworld (classic cars), and the Museum of the Far East.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, three museums around the park. Tickets are separate.",
+          "phonetic": "wee, trwah myoo-ZAY oh-TOOR doo park. lay bee-YAY son say-pah-RAY",
+          "french": "Oui, trois musées autour du parc. Les billets sont séparés."
+        }
+      ]
+    },
+    {
+      "id": "brussels_pc_003",
+      "intent_en": "Ask about Sunday activities",
+      "text_local": "Que se passe-t-il le dimanche au parc ?",
+      "pronunciation": "kuh suh pahs-TEEL luh dee-MONSH oh park",
+      "formality": "polite",
+      "cultural_note": "Sundays are popular — families play games on the lawns, inline skaters practice, and food trucks gather near the arch.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "On Sundays, families, picnics, and food trucks near the arch.",
+          "phonetic": "luh dee-MAHNSH, fah-MEE, peek-NEEK ay food truk preh duh lark",
+          "french": "Le dimanche, familles, pique-niques et food trucks près de l'arc."
+        }
+      ]
+    },
+    {
+      "id": "brussels_pc_004",
+      "intent_en": "Ask about the underground metro station",
+      "text_local": "Quelle est la station de métro la plus proche ?",
+      "pronunciation": "kel eh lah stah-SYOHN duh may-TROH lah ploo prosh",
+      "formality": "polite",
+      "cultural_note": "The parc is accessible via Metro 1 or 5 at the 'Merode' station. The Royal Museum of Armed Forces has its own metro entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Mérode station, lines 1 and 5. Five minutes on foot.",
+          "phonetic": "stah-SYON may-ROD, leen-yuh UHN ay SANK. ah sank mee-NOOT ah pyay",
+          "french": "Station Mérode, lignes un et cinq. À cinq minutes à pied."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "park",
+      "word_local": "le parc",
+      "pronunciation": "luh park"
+    },
+    {
+      "word_en": "triumphal arch",
+      "word_local": "l'arc de triomphe",
+      "pronunciation": "lark duh tree-OMF"
+    },
+    {
+      "word_en": "museum complex",
+      "word_local": "le complexe muséal",
+      "pronunciation": "luh kom-PLEKS moo-zay-AL"
+    },
+    {
+      "word_en": "lawn / grass",
+      "word_local": "la pelouse",
+      "pronunciation": "lah puh-LOOZ"
+    }
+  ]
+}

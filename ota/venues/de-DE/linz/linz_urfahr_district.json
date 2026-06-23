@@ -1,0 +1,100 @@
+{
+  "id": "linz_urfahr_district",
+  "name_en": "Urfahr District",
+  "name_local": "Urfahr",
+  "icon": "map",
+  "lat": 48.3121835,
+  "lon": 14.2841875,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "linz_urfahr_district_001",
+      "intent_en": "Is the Ars Electronica Center open tonight?",
+      "text_local": "Ist das Ars Electronica Center heute Abend geöffnet?",
+      "pronunciation": "ihst-dahs-AHrs-EHlehktrOHneekAH-sEHnt-hAWuhtuh-AHbuhnt-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Öffnungszeiten werden oft in Schaukästen oder online angezeigt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bis 23 Uhr.",
+        "pronunciation": "yAHbihs-drEYE-uhnttsvAHntsihkh-OOr",
+        "translation_en": "Yes, until 11 PM."
+      },
+      "responses": [
+        {
+          "english": "Yes, until 11 PM.",
+          "phonetic": "yAHbihs-drEYE-uhnttsvAHntsihkh-OOr",
+          "french": "Ja, bis 23 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "linz_urfahr_district_002",
+      "intent_en": "Where is the Nibelungenbrücke bridge to Ars Electronica?",
+      "text_local": "Wie komme ich zur Nibelungenbrücke, um zum Ars Electronica Center zu gelangen?",
+      "pronunciation": "vOH-ihst-dee-nEEbuhlUHnguhnbrUEkuh-tsuhm-AHrs-EHlehktrOHneekAH-sEHnt",
+      "formality": "casual",
+      "cultural_note": "Brücke ist eine wichtige Fußgängerquerung; Schilder sind meist gut sichtbar.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie geradeaus, dann links.",
+        "pronunciation": "gEHuhn-zee-guhrAHdehOWsdahn-lINGks",
+        "translation_en": "Go straight ahead, then left."
+      },
+      "responses": [
+        {
+          "english": "Go straight ahead, then left.",
+          "phonetic": "gEHuhn-zee-guhrAHdehOWsdahn-lINGks",
+          "french": "Gehen Sie geradeaus, dann links."
+        }
+      ]
+    },
+    {
+      "id": "linz_urfahr_district_003",
+      "intent_en": "How do I reach Donaupark from here?",
+      "text_local": "Wie komme ich zum Donaupark?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsuhm-dOHnowpAHrk",
+      "formality": "casual",
+      "cultural_note": "Donaupark ist ein großes Gelände; exakte Position variiert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Einfach die Donau entlang.",
+        "pronunciation": "EYEnfAHkh-dee-dOHnow-ehntlAHng",
+        "translation_en": "Just along the Danube."
+      },
+      "responses": [
+        {
+          "english": "Just along the Danube.",
+          "phonetic": "EYEnfAHkh-dee-dOHnow-ehntlAHng",
+          "french": "Einfach die Donau entlang."
+        }
+      ]
+    },
+    {
+      "id": "linz_urfahr_district_004",
+      "intent_en": "Where are parking ticket machines near Lentos?",
+      "text_local": "Wo sind Parkautomaten in der Nähe vom Lentos?",
+      "pronunciation": "vOH-zihnt-pAHrkowtohmAHtuhn-ihn-dehr-nEHuh-fawm-lEHntohs",
+      "formality": "standard",
+      "cultural_note": "Parkautomaten sind meist an den Zufahrten oder am Rand des Parkplatzes.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Direkt am Donaupark entlang.",
+        "pronunciation": "deerEHkt-ahm-dOHnowpAHrk-ehntlAHng",
+        "translation_en": "Straight along the Donaupark."
+      },
+      "responses": [
+        {
+          "english": "Straight along the Donaupark.",
+          "phonetic": "deerEHkt-ahm-dOHnowpAHrk-ehntlAHng",
+          "french": "Direkt am Donaupark entlang."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

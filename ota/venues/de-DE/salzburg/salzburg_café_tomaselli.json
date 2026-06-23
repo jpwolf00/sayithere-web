@@ -1,0 +1,122 @@
+{
+  "id": "salzburg_café_tomaselli",
+  "name_en": "Café Tomaselli",
+  "name_local": "Café Tomaselli",
+  "icon": "fork.knife",
+  "lat": 47.7992203,
+  "lon": 13.0448825,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "salzburg_café_tomaselli_001",
+      "intent_en": "Can I seat myself at free table",
+      "text_local": "Darf ich mich setzen?",
+      "pronunciation": "dAHrf-ihkh-mihkh-zEHtsuhn",
+      "formality": "standard",
+      "cultural_note": "Self-seating is common in traditional coffee houses unless the venue is particularly busy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, setzen Sie sich.",
+        "pronunciation": "yAHzEHtsuhn-zee-zihkh",
+        "translation_en": "Yes, seat yourself."
+      },
+      "responses": [
+        {
+          "english": "Yes, seat yourself.",
+          "phonetic": "yAHzEHtsuhn-zee-zihkh",
+          "french": "Ja, setzen Sie sich."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_café_tomaselli_002",
+      "intent_en": "Do I need cash for payment",
+      "text_local": "Kann ich mit Karte zahlen?",
+      "pronunciation": "kAHn-ihkh-miht-kAHrtuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "Cash is commonly preferred in traditional Austrian establishments, though card payments may be accepted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bar bevorzugt.",
+        "pronunciation": "bAHr-buhfOHrtsOOkt",
+        "translation_en": "Cash preferred."
+      },
+      "responses": [
+        {
+          "english": "Cash preferred.",
+          "phonetic": "bAHr-buhfOHrtsOOkt",
+          "french": "Bar bevorzugt."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_café_tomaselli_003",
+      "intent_en": "Must I share table when crowded",
+      "text_local": "Muss ich Tisch teilen?",
+      "pronunciation": "mUHs-ihkh-tIHsh-tEYEluhn",
+      "formality": "standard",
+      "cultural_note": "Sharing tables is customary in busy traditional coffee houses to accommodate all guests.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, wenn voll.",
+        "pronunciation": "yAHvEHn-fAWl",
+        "translation_en": "Yes, if crowded."
+      },
+      "responses": [
+        {
+          "english": "Yes, if crowded.",
+          "phonetic": "yAHvEHn-fAWl",
+          "french": "Ja, wenn voll."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_café_tomaselli_004",
+      "intent_en": "Do I pay at the counter inside",
+      "text_local": "Wo zahlt man?",
+      "pronunciation": "vOH-tsAHlt-mahn",
+      "formality": "standard",
+      "cultural_note": "In Austrian coffee houses, payment at the counter is standard unless table service is specifically requested.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Drinnen am Schalter.",
+        "pronunciation": "drIHnuhn-ahm-shAHlt",
+        "translation_en": "Inside at the counter."
+      },
+      "responses": [
+        {
+          "english": "Inside at the counter.",
+          "phonetic": "drIHnuhn-ahm-shAHlt",
+          "french": "Drinnen am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "salzburg_café_tomaselli_005",
+      "intent_en": "Is the original Tomaselli torte available",
+      "text_local": "Haben Sie Original Tomaselli torte?",
+      "pronunciation": "hAHbuhn-zee-OHriheenAHl-tOHmahzEHlee-tAWrtuh",
+      "formality": "standard",
+      "cultural_note": "The Original Tomaselli torte is a signature dessert of the café and typically always available.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tresen.",
+        "pronunciation": "yAHahm-trEHzuhn",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-trEHzuhn",
+          "french": "Ja, am Tresen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "hallstatt_hallstatt_ossuary_chapel_bone_house",
+  "name_en": "Hallstatt Ossuary Chapel (Bone House)",
+  "name_local": "Karner (Beinhaus)",
+  "icon": "building.columns",
+  "lat": 47.5347939,
+  "lon": 13.5988875,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "hallstatt_hallstatt_ossuary_chapel_bone_house_001",
+      "intent_en": "Ask if photography is allowed inside",
+      "text_local": "Darf ich drinnen fotografieren?",
+      "pronunciation": "dAHrf-ihkh-drIHnuhn-fOHtohrahfEEruhn",
+      "formality": "standard",
+      "cultural_note": "Many ossuaries restrict photography to respect the sacred space.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bitte nicht.",
+        "pronunciation": "bIHtuh-nIHkht",
+        "translation_en": "No photos please."
+      },
+      "responses": [
+        {
+          "english": "No photos please.",
+          "phonetic": "bIHtuh-nIHkht",
+          "french": "Bitte nicht."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ossuary_chapel_bone_house_002",
+      "intent_en": "Ask where to leave a donation",
+      "text_local": "Wo ist der Opferstock?",
+      "pronunciation": "vOH-ihst-dehr-AWpfstAWk",
+      "formality": "standard",
+      "cultural_note": "Opferstock is the local term for donation box.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Beinhaus.",
+        "pronunciation": "ihm-buhIHnhows",
+        "translation_en": "Inside the Bone House."
+      },
+      "responses": [
+        {
+          "english": "Inside the Bone House.",
+          "phonetic": "ihm-buhIHnhows",
+          "french": "Im Beinhaus."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ossuary_chapel_bone_house_003",
+      "intent_en": "Ask if entry accepts credit cards",
+      "text_local": "Wird hier Karte akzeptiert?",
+      "pronunciation": "vIHrt-hEEr-kAHrtuh-AHktsehptEErt",
+      "formality": "casual",
+      "cultural_note": "Cash preference is common in rural Austrian heritage sites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nur Barzahlung möglich.",
+        "pronunciation": "nOOr-bAHrtsahlUHng-mUHklihkh",
+        "translation_en": "Cash only."
+      },
+      "responses": [
+        {
+          "english": "Cash only.",
+          "phonetic": "nOOr-bAHrtsahlUHng-mUHklihkh",
+          "french": "Nur Barzahlung möglich."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ossuary_chapel_bone_house_004",
+      "intent_en": "Ask if combined church ossuary ticket exists",
+      "text_local": "Gibt es ein Kombi-Ticket für Kirche und Beinhaus?",
+      "pronunciation": "EEpt-ehs-eyen-kAWmbeetIHkuht-fuer-kIHrkhuh-uhnt-buhIHnhows",
+      "formality": "standard",
+      "cultural_note": "Combined tickets are typical for closely linked heritage sites.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_hallstatt_ossuary_chapel_bone_house_005",
+      "intent_en": "Ask where the painted skulls are displayed",
+      "text_local": "Wo sind die bemalten Schädel ausgestellt?",
+      "pronunciation": "vOH-zihnt-dee-buhmAHlltuhn-shEHduhl-OWsuhshtEHlt",
+      "formality": "standard",
+      "cultural_note": "Beinhaus is the local term for the ossuary; visitors are directed to the chapel.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Beinhaus.",
+        "pronunciation": "ihm-buhIHnhows",
+        "translation_en": "In the Bone House."
+      },
+      "responses": [
+        {
+          "english": "In the Bone House.",
+          "phonetic": "ihm-buhIHnhows",
+          "french": "Im Beinhaus."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

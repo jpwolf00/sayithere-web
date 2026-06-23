@@ -1,0 +1,122 @@
+{
+  "id": "st_moritz_hauser_restaurant_and_stübli",
+  "name_en": "Hauser Restaurant and Stübli",
+  "name_local": "Restaurant Hauser",
+  "icon": "fork.knife",
+  "lat": 46.4978958,
+  "lon": 9.8392428,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "st_moritz_hauser_restaurant_and_stübli_001",
+      "intent_en": "Do I stir fondue clockwise?",
+      "text_local": "Streicht man Fondue im Uhrzeigersinn?",
+      "pronunciation": "shtrEYEkht-mahn-fawndUE-ihm-OOrtseyezIHn",
+      "formality": "casual",
+      "cultural_note": "Swiss tradition dictates stirring fondue counterclockwise to avoid tangling the bread.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, gegen den Uhrzeigersinn.",
+        "pronunciation": "nEYEnEHuhn-dehn-OOrtseyezIHn",
+        "translation_en": "No, counterclockwise."
+      },
+      "responses": [
+        {
+          "english": "No, counterclockwise.",
+          "phonetic": "nEYEnEHuhn-dehn-OOrtseyezIHn",
+          "french": "Nein, gegen den Uhrzeigersinn."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_hauser_restaurant_and_stübli_002",
+      "intent_en": "Is fondue available for one person?",
+      "text_local": "Gibt es Fondue für eine Person?",
+      "pronunciation": "EEpt-ehs-fawndUE-fuer-EYEnuh-pehrzOHn",
+      "formality": "casual",
+      "cultural_note": "Cheese fondue is traditionally shared; solo orders are uncommon.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Mindestens zwei Personen.",
+        "pronunciation": "mIHnduhstuhns-tsvEYE-pehrzOHnuhn",
+        "translation_en": "Minimum two persons."
+      },
+      "responses": [
+        {
+          "english": "Minimum two persons.",
+          "phonetic": "mIHnduhstuhns-tsvEYE-pehrzOHnuhn",
+          "french": "Mindestens zwei Personen."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_hauser_restaurant_and_stübli_003",
+      "intent_en": "Can I reserve a Stübli table?",
+      "text_local": "Kann ich einen Stübli-Tisch reservieren?",
+      "pronunciation": "kAHn-ihkh-EYEnuhn-shtUEbleetIHsh-rEHzehrvEEruhn",
+      "formality": "standard",
+      "cultural_note": "Reservations are accepted for the Stübli dining area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Schalter.",
+        "pronunciation": "yAHahm-shAHlt",
+        "translation_en": "Yes, at the desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the desk.",
+          "phonetic": "yAHahm-shAHlt",
+          "french": "Ja, am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_hauser_restaurant_and_stübli_004",
+      "intent_en": "Where is the Stübli dining room?",
+      "text_local": "Wo ist das Stübli?",
+      "pronunciation": "vOH-ihst-dahs-shtUEblee",
+      "formality": "standard",
+      "cultural_note": "The Stübli is accessed via a separate entrance near the main street.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Eingang hinter der Hauptstraße.",
+        "pronunciation": "EYEnAHng-hIHnt-dehr-hOWptstrAHsuh",
+        "translation_en": "Entrance off main street."
+      },
+      "responses": [
+        {
+          "english": "Entrance off main street.",
+          "phonetic": "EYEnAHng-hIHnt-dehr-hOWptstrAHsuh",
+          "french": "Eingang hinter der Hauptstraße."
+        }
+      ]
+    },
+    {
+      "id": "st_moritz_hauser_restaurant_and_stübli_005",
+      "intent_en": "Where do I pay as a hotel guest?",
+      "text_local": "Wo zahle ich als Hotelgast?",
+      "pronunciation": "vOH-tsAHluh-ihkh-ahls-hOHtuhlAHst",
+      "formality": "standard",
+      "cultural_note": "Hotel guests are billed via the reception desk upon checkout.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Rezeption.",
+        "pronunciation": "ahn-dehr-rEHtsehptsyOHn",
+        "translation_en": "At reception."
+      },
+      "responses": [
+        {
+          "english": "At reception.",
+          "phonetic": "ahn-dehr-rEHtsehptsyOHn",
+          "french": "An der Rezeption."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

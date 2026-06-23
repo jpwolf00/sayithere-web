@@ -1,0 +1,100 @@
+{
+  "id": "cappadocia_pasabag_monks_valley",
+  "name_en": "Pasabag Monks Valley",
+  "name_local": "Paşabağı Vadisi",
+  "icon": "building.columns",
+  "lat": 38.6386124,
+  "lon": 34.8455184,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "cappadocia_pasabag_monks_valley_001",
+      "intent_en": "Where is St. Simeon's hermit cell?",
+      "text_local": "Aziz Simeon'un inziva hücresi nerede?",
+      "pronunciation": "AHzihz-seemehohnUHn-ihnzeevAH-huhdzhrehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "The hermit cell is a known target but its exact trailhead may not be signposted; asking locally is safer.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Patikayı takip edin, sağda göreceksiniz.",
+        "pronunciation": "pahteekahyOO-tahkIHp-ehdEEnsahdAH-uhrehdzhEHkseenihz",
+        "translation_en": "Follow the path, you'll see it on the right."
+      },
+      "responses": [
+        {
+          "english": "Follow the path, you'll see it on the right.",
+          "phonetic": "pahteekahyOO-tahkIHp-ehdEEnsahdAH-uhrehdzhEHkseenihz",
+          "french": "Patikayı takip edin, sağda göreceksiniz."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_pasabag_monks_valley_002",
+      "intent_en": "Can I enter the monk dwellings inside?",
+      "text_local": "Keşiş konutlarının içine girebilir miyim?",
+      "pronunciation": "kehshIHsh-kohnuhtahroonOOn-eetsheenEH-eereelehbeelEEyawr-muh",
+      "formality": "standard",
+      "cultural_note": "Access to rock-cut dwellings can vary; it's best to check with the muhtar or a rehber on site.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Birkaçı açık, girebilirsin.",
+        "pronunciation": "bihrkahtshOO-ahtshOOkeerehbeelihrsIHn",
+        "translation_en": "A few are open, you can go in."
+      },
+      "responses": [
+        {
+          "english": "A few are open, you can go in.",
+          "phonetic": "bihrkahtshOO-ahtshOOkeerehbeelihrsIHn",
+          "french": "Birkaçı açık, girebilirsin."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_pasabag_monks_valley_003",
+      "intent_en": "Is Museum Pass accepted here?",
+      "text_local": "Müzekart burada geçerli mi?",
+      "pronunciation": "muezehkAHrt-bOOrahdah-ehtshehrlIH-mih",
+      "formality": "standard",
+      "cultural_note": "Museum card acceptance is inconsistent per the venue context; it's best to verify at the entrance.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hayır, maalesef geçmiyor.",
+        "pronunciation": "hahyOOrmahahlehsEHf-ehtshmEEyawr",
+        "translation_en": "No, unfortunately it's not accepted."
+      },
+      "responses": [
+        {
+          "english": "No, unfortunately it's not accepted.",
+          "phonetic": "hahyOOrmahahlehsEHf-ehtshmEEyawr",
+          "french": "Hayır, maalesef geçmiyor."
+        }
+      ]
+    },
+    {
+      "id": "cappadocia_pasabag_monks_valley_004",
+      "intent_en": "Where is the Çavuşin ridge viewpoint?",
+      "text_local": "Çavuşin sırtı seyir noktası nerede?",
+      "pronunciation": "tshahvooshIHn-soortOO-sehyIHr-nawktahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Ridge access is listed as unclear in the venue context; a local guide or muhtar can provide the safest route.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Patikayı takip edin, yukarıda kalıyor.",
+        "pronunciation": "pahteekahyOO-tahkIHp-ehdEEnyookahroodAH-kahOOyawr",
+        "translation_en": "Follow the trail, it's up above."
+      },
+      "responses": [
+        {
+          "english": "Follow the trail, it's up above.",
+          "phonetic": "pahteekahyOO-tahkIHp-ehdEEnyookahroodAH-kahOOyawr",
+          "french": "Patikayı takip edin, yukarıda kalıyor."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

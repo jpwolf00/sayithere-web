@@ -1,0 +1,100 @@
+{
+  "id": "davos_davos_tourist_information_center",
+  "name_en": "Davos Tourist Information Center",
+  "name_local": "Tourismus Davos Klosters",
+  "icon": "info.circle",
+  "lat": 46.796198,
+  "lon": 9.8236892,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "davos_davos_tourist_information_center_001",
+      "intent_en": "Is WEF event registration done here",
+      "text_local": "Wird hier die WEF-Registrierung durchgeführt?",
+      "pronunciation": "vIHrt-hEEr-dee-vEHEHEHfrEHihstrEEruhng-dUHuhkhuhfUErt",
+      "formality": "casual",
+      "cultural_note": "Die WEF-Registrierung erfolgt in der Regel direkt in den WEF-Bereichen. Die Touristeninformation kann bei Fragen weiterhelfen oder die richtige Anlaufstelle nennen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, am WEF-Schalter.",
+        "pronunciation": "nEYEnahm-vEHEHEHfshAHlt",
+        "translation_en": "No, at the WEF counter."
+      },
+      "responses": [
+        {
+          "english": "No, at the WEF counter.",
+          "phonetic": "nEYEnahm-vEHEHEHfshAHlt",
+          "french": "Nein, am WEF-Schalter."
+        }
+      ]
+    },
+    {
+      "id": "davos_davos_tourist_information_center_002",
+      "intent_en": "How do I reach Congress Centre",
+      "text_local": "Wie komme ich zum Kongresszentrum?",
+      "pronunciation": "vee-kAWmuh-ihkh-tsuhm-kawngrEHstsuhntrUHm",
+      "formality": "casual",
+      "cultural_note": "Das Kongresszentrum Davos ist ein zentrales Veranstaltungsgebäude und gut ausgeschildert. In Schweizer Tourismusorten sind Schilder oft mehrsprachig.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gehen Sie die Promenade hinauf.",
+        "pronunciation": "gEHuhn-zee-dee-prohmEHnahduh-hihnOWf",
+        "translation_en": "Go up the Promenade."
+      },
+      "responses": [
+        {
+          "english": "Go up the Promenade.",
+          "phonetic": "gEHuhn-zee-dee-prohmEHnahduh-hihnOWf",
+          "french": "Gehen Sie die Promenade hinauf."
+        }
+      ]
+    },
+    {
+      "id": "davos_davos_tourist_information_center_003",
+      "intent_en": "Where can I pay tourism tax",
+      "text_local": "Wo kann ich die Tourismusabgabe zahlen?",
+      "pronunciation": "vOH-kAHn-ihkh-dee-tOOrihsmOOzahbAHbuh-tsAHluhn",
+      "formality": "standard",
+      "cultural_note": "In der Schweiz wird die Tourismusabgabe oft direkt bei der Unterkunft oder an offiziellen Schaltern erhoben. Die Touristeninformation ist eine verlässliche Anlaufstelle für Fragen dazu.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter der Touristeninformation.",
+        "pronunciation": "ahm-shAHlt-dehr-tOOrihstEHnihnfAWrmahtsyOHn",
+        "translation_en": "At the tourism information counter."
+      },
+      "responses": [
+        {
+          "english": "At the tourism information counter.",
+          "phonetic": "ahm-shAHlt-dehr-tOOrihstEHnihnfAWrmahtsyOHn",
+          "french": "Am Schalter der Touristeninformation."
+        }
+      ]
+    },
+    {
+      "id": "davos_davos_tourist_information_center_004",
+      "intent_en": "Do you sell daily Davos ski passes",
+      "text_local": "Verkaufen Sie Tages-Skikarten für Davos?",
+      "pronunciation": "fehrkOWfuhn-zee-tAHuhsskEEkahrtuhn-fuer-dAHvohs",
+      "formality": "standard",
+      "cultural_note": "Tages-Skikarten sind an den Hauptskigebieten Davos (z.B. Parsenn) oder an den offiziellen Ticketschaltern erhältlich. Die Touristeninformation vermittelt auch bei Fragen zu Skigebieten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, hier am Schalter.",
+        "pronunciation": "yAHhEEr-ahm-shAHlt",
+        "translation_en": "Yes, at this counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at this counter.",
+          "phonetic": "yAHhEEr-ahm-shAHlt",
+          "french": "Ja, hier am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

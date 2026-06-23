@@ -1,0 +1,115 @@
+{
+  "id": "brussels_delirium_cafe",
+  "name_en": "Delirium Café",
+  "name_local": "Delirium Café",
+  "icon": "wineglass",
+  "phrases": [
+    {
+      "id": "brussels_dc_001",
+      "intent_en": "Ask about the beer selection",
+      "text_local": "Combien de bières y a-t-il au menu ?",
+      "pronunciation": "kom-BYAN duh byair ee-ah-TEEL oh muh-NOO",
+      "formality": "polite",
+      "cultural_note": "Delirium holds the world record with over 2,000 beer varieties. From Belgian tripels to Japanese rice beers — every style is represented.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Over two thousand different beers on the menu.",
+          "phonetic": "ploo duh duh MEEL byehr dee-fay-RAHNT oh muh-NOO",
+          "french": "Plus de deux mille bières différentes au menu."
+        }
+      ]
+    },
+    {
+      "id": "brussels_dc_002",
+      "intent_en": "Ask about the 'Delirium Night'",
+      "text_local": "Qu'est-ce que c'est 'Delirium Night' ?",
+      "pronunciation": "kes-kuh say deh-lee-RYOM nyt",
+      "formality": "polite",
+      "cultural_note": "Delirium Night happens every Thursday — the bar stays open until 4am with special events and themed drinks.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Every Thursday evening, until 4am.",
+          "phonetic": "say too lay zhuh-DEE swahr, zhoos-kah katr uhr doo mah-TAN",
+          "french": "C'est tous les jeudis soir, jusqu'à quatre heures du matin."
+        }
+      ]
+    },
+    {
+      "id": "brussels_dc_003",
+      "intent_en": "Ask for a recommendation",
+      "text_local": "Pouvez-vous me recommander une bière typique ?",
+      "pronunciation": "poo-VAY-voo muh ruh-koh-mohn-DAY un byair tee-PEEK",
+      "formality": "polite",
+      "cultural_note": "Staff are knowledgeable. Ask for something local like a Trappist Rochefort, or a seasonal lambic from Cantillon.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I recommend a trappist beer like Rochefort 10, or a seasonal lambic from Cantillon.",
+          "phonetic": "zhuh ray-ko-MAHN-duh luh spay-see-ah-lee-TAY loh-KAL, say tek-seh-LAHN",
+          "french": "Je recommande une bière trappiste comme la Rochefort 10, ou une lambic de saison de Cantillon."
+        }
+      ]
+    },
+    {
+      "id": "brussels_dc_004",
+      "intent_en": "Ask about the beer garden",
+      "text_local": "Y a-t-il une terrasse extérieur ?",
+      "pronunciation": "ee-ah-TEEL un tah-RASS ek-stay-RYOR",
+      "formality": "polite",
+      "cultural_note": "There's a small courtyard behind the bar. In summer, it's a great spot to enjoy a beer away from the crowd.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, there's a small courtyard out back. Nice in summer.",
+          "phonetic": "wee, eel ee ah oon puh-TEET koor deh-RYEHR. ah-gray-AHBL ahn ay-TAY",
+          "french": "Oui, il y a une petite cour derrière. Agréable en été."
+        }
+      ]
+    },
+    {
+      "id": "brussels_dc_005",
+      "intent_en": "Ask about the beer prices",
+      "text_local": "Quel est le prix d'une bière ?",
+      "pronunciation": "kel eh luh pree doon byair",
+      "formality": "polite",
+      "cultural_note": "Prices range from €3 for standard drafts to €30+ for rare vintage bottles. The most expensive are the older Trappists.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Between three and ten euros depending on the beer.",
+          "phonetic": "ahn-truh TRWAH ay dee zuhr-OH suh-LON lah BYEHR",
+          "french": "Entre trois et dix euros selon la bière."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "beer menu",
+      "word_local": "la carte des bières",
+      "pronunciation": "lah kart day byair"
+    },
+    {
+      "word_en": "Trappist beer",
+      "word_local": "la bière trappiste",
+      "pronunciation": "lah byair trah-PEEST"
+    },
+    {
+      "word_en": "draft beer",
+      "word_local": "la bière pression",
+      "pronunciation": "lah byair preh-SYOHN"
+    },
+    {
+      "word_en": "happy hour",
+      "word_local": "l'heure du bonheur",
+      "pronunciation": "lur doo boh-NUR"
+    }
+  ]
+}

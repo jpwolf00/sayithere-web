@@ -1,0 +1,118 @@
+{
+  "id": "avignon_palais_des_papes",
+  "name_en": "Palais des Papes",
+  "name_local": "Palais des Papes",
+  "icon": "crown",
+  "lat": 43.9493,
+  "lon": 4.8075,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "avignon_papes_001",
+      "intent_en": "Ask where the ticket office is",
+      "text_local": "Où est la billetterie ?",
+      "pronunciation": "oo eh lah bee-yet-REE",
+      "formality": "polite",
+      "cultural_note": "The Palais des Papes is the largest Gothic palace in the world. Tickets can be bought at the entrance or online.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Right opposite, under the arcades.",
+          "phonetic": "zhoost ahn fahs, soo layz ar-KAD",
+          "french": "Juste en face, sous les arcades."
+        }
+      ]
+    },
+    {
+      "id": "avignon_papes_002",
+      "intent_en": "Ask about visiting the private rooms",
+      "text_local": "Peut-on visiter les chambres privées ?",
+      "pronunciation": "puh-TON vee-zee-TAY lay shahm-bruh pray-VAY",
+      "formality": "polite",
+      "cultural_note": "The private papal rooms (Chambres Sacrées) require a separate ticket. They contain rare 14th-century frescoes by Simone Martini.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, with an extra ticket. Ask at the ticket office.",
+          "phonetic": "wee, ah-VEK uhn bee-YAY soo-play-mahn-TAIR. duh-mahn-DAY ah lah bee-yet-REE",
+          "french": "Oui, avec un billet supplémentaire. Demandez à la billetterie."
+        }
+      ]
+    },
+    {
+      "id": "avignon_papes_003",
+      "intent_en": "Ask if an audio guide is available",
+      "text_local": "Y a-t-il un audioguide ?",
+      "pronunciation": "ee ah-TEEL uhn oh-dee-oh-GEED",
+      "formality": "polite",
+      "cultural_note": "The palace offers audio guides in multiple languages, including English, to help navigate the vast rooms and halls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, in several languages. It's included in the ticket.",
+          "phonetic": "wee, ahn plu-ZYUHR lahng. say ahn-KLOO dahn luh bee-YAY",
+          "french": "Oui, en plusieurs langues. C'est inclus dans le billet."
+        }
+      ]
+    },
+    {
+      "id": "avignon_papes_004",
+      "intent_en": "Ask about the view from the tower",
+      "text_local": "La tour offre-t-elle une vue sur le Rhône ?",
+      "pronunciation": "lah TOOR oh-fruh-tel oon VOO soor leh ROHN",
+      "formality": "polite",
+      "cultural_note": "Yes, you can climb to the tower for panoramic views of Avignon, the Rhône, and the surrounding countryside.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, especially on clear days. Go up the staircase on the right.",
+          "phonetic": "wee, sur-TOO par tahn KLEHR. mon-TAY par les-kah-LYAY ah DRWAHT",
+          "french": "Oui, surtout par temps clair. Montez par l'escalier à droite."
+        }
+      ]
+    },
+    {
+      "id": "avignon_papes_005",
+      "intent_en": "Ask about the last entry time",
+      "text_local": "À quelle heure est la dernière entrée ?",
+      "pronunciation": "ah kel uhr eh lah dair-NYAIR ahn-TRAY",
+      "formality": "polite",
+      "cultural_note": "Last entry is typically one hour before closing. Check the posted schedule as hours vary by season.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Last entry is one hour before closing. Check the posted schedule.",
+          "phonetic": "lah dair-NYAIR ahn-TRAY eh oon uhr ah-VAHN lah fair-muh-TOOR",
+          "french": "La dernière entrée est une heure avant la fermeture. Vérifiez l'horaire affiché."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "palace",
+      "word_local": "le palais",
+      "pronunciation": "leh pah-LAY"
+    },
+    {
+      "word_en": "pope",
+      "word_local": "le pape",
+      "pronunciation": "leh PAH-puh"
+    },
+    {
+      "word_en": "fresco",
+      "word_local": "le fresco",
+      "pronunciation": "leh FRES-koh"
+    },
+    {
+      "word_en": "tower",
+      "word_local": "la tour",
+      "pronunciation": "lah TOOR"
+    }
+  ]
+}

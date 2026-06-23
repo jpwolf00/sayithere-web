@@ -1,0 +1,122 @@
+{
+  "id": "prague_palladium_shopping_center",
+  "name_en": "Palladium Shopping Center",
+  "name_local": "Palladium",
+  "icon": "bag",
+  "lat": 50.089427,
+  "lon": 14.429638,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "prague_palladium_shopping_center_001",
+      "intent_en": "Ask when the gift card desk closes",
+      "text_local": "V kolik zavírá prodejna dárkových karet?",
+      "pronunciation": "v-kOHleek-zAHveerah-prOHdaynah-dAHrkohveekh-kAHreht",
+      "formality": "standard",
+      "cultural_note": "Czech uses 24-hour time officially, but in speech 've 20 hodin' (at 20 hours) is common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dnes ve 20 hodin.",
+        "pronunciation": "dnEHs-vEH-dvAHtseht-hOHeen",
+        "translation_en": "Today at 8 p.m."
+      },
+      "responses": [
+        {
+          "english": "Today at 8 p.m.",
+          "phonetic": "dnEHs-vEH-dvAHtseht-hOHeen",
+          "french": "Dnes ve 20 hodin."
+        }
+      ]
+    },
+    {
+      "id": "prague_palladium_shopping_center_002",
+      "intent_en": "Ask how the food court prepaid card works",
+      "text_local": "Jak funguje ta karta do food courtu?",
+      "pronunciation": "yAHk-fOOnggooyeh-tAH-kAHrtah-dOHfohoht-tsOHrtoo",
+      "formality": "standard",
+      "cultural_note": "Prepaid cards for food courts are common in Czech malls; 'nabijete' (you charge/top up) is the key verb.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nabijete ji na pokladně a pak platíte.",
+        "pronunciation": "nAHbeeyEHteh-yEE-nAHpohklAHdnyeh-ah-pAHk-plAHeeteh",
+        "translation_en": "You top it up at the cash desk, then pay."
+      },
+      "responses": [
+        {
+          "english": "You top it up at the cash desk, then pay.",
+          "phonetic": "nAHbeeyEHteh-yEE-nAHpohklAHdnyeh-ah-pAHk-plAHeeteh",
+          "french": "Nabijete ji na pokladně a pak platíte."
+        }
+      ]
+    },
+    {
+      "id": "prague_palladium_shopping_center_003",
+      "intent_en": "Ask where the Cinema City ticket counter is",
+      "text_local": "Kde je pokladna Cinema City?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-tsEEnehmah-tsEEtee",
+      "formality": "casual",
+      "cultural_note": "Czech directions often use 'nahoře' (upstairs) and 'vpravo/vlevo' (right/left) relative to escalators.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nahoře v patře, úplně vpravo.",
+        "pronunciation": "nAHhohreh-v-pAHtrehOOplnyeh-fprAHvoh",
+        "translation_en": "Upstairs, all the way to the right."
+      },
+      "responses": [
+        {
+          "english": "Upstairs, all the way to the right.",
+          "phonetic": "nAHhohreh-v-pAHtrehOOplnyeh-fprAHvoh",
+          "french": "Nahoře v patře, úplně vpravo."
+        }
+      ]
+    },
+    {
+      "id": "prague_palladium_shopping_center_004",
+      "intent_en": "Ask if parking validation is available",
+      "text_local": "Dá se tady validovat parkování?",
+      "pronunciation": "dAH-seh-tAHdee-vAHleedOHvaht-pAHrkohvAHnyee",
+      "formality": "standard",
+      "cultural_note": "Parking validation ('validace parkování') usually happens at machines before returning to the car.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, automaty jsou u výtahů.",
+        "pronunciation": "AHnohOWtohmAHtee-ysoh-OO-vEEtahhoo",
+        "translation_en": "Yes, the machines are by the elevators."
+      },
+      "responses": [
+        {
+          "english": "Yes, the machines are by the elevators.",
+          "phonetic": "AHnohOWtohmAHtee-ysoh-OO-vEEtahhoo",
+          "french": "Ano, automaty jsou u výtahů."
+        }
+      ]
+    },
+    {
+      "id": "prague_palladium_shopping_center_005",
+      "intent_en": "Ask where the tax refund desk is",
+      "text_local": "Kde najdu přepážku pro vrácení daně?",
+      "pronunciation": "kdEH-nAHydoo-prEHpahshkoo-prOHvrahtsEHnyee-dAHnyeh",
+      "formality": "standard",
+      "cultural_note": "Tax refund desks ('vrácení daně') are typically near information or currency exchange points.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "V přízemí, vedle hlavní informační přepážky.",
+        "pronunciation": "v-prEEzehmeevEHdleh-hlAHvnyee-EEnfohrmAHtshnyee-prEHpahshkee",
+        "translation_en": "On the ground floor, next to the main information desk."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor, next to the main information desk.",
+          "phonetic": "v-prEEzehmeevEHdleh-hlAHvnyee-EEnfohrmAHtshnyee-prEHpahshkee",
+          "french": "V přízemí, vedle hlavní informační přepážky."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

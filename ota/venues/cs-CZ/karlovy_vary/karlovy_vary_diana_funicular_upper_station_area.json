@@ -1,0 +1,122 @@
+{
+  "id": "karlovy_vary_diana_funicular_upper_station_area",
+  "name_en": "Diana Funicular Upper Station Area",
+  "name_local": "Diana - rozhledna",
+  "icon": "map",
+  "lat": 50.2190445,
+  "lon": 12.8721531,
+  "radius_m": 1000,
+  "phrases": [
+    {
+      "id": "karlovy_vary_diana_funicular_upper_station_area_001",
+      "intent_en": "Is the Hotel Diana restaurant open now?",
+      "text_local": "Je restaurace Hotelu Diana teď otevřená?",
+      "pronunciation": "yeh-rEHstowrAHtseh-hOHtehloo-dEEyahnah-tEH-OHtehvrEHnah",
+      "formality": "standard",
+      "cultural_note": "A direct 'ano' (yes) is a standard, polite confirmation from staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ano, máme otevřeno.",
+        "pronunciation": "AHnohmAHmeh-OHtehvrEHnoh",
+        "translation_en": "Yes, we are open."
+      },
+      "responses": [
+        {
+          "english": "Yes, we are open.",
+          "phonetic": "AHnohmAHmeh-OHtehvrEHnoh",
+          "french": "Ano, máme otevřeno."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_diana_funicular_upper_station_area_002",
+      "intent_en": "How do I pay for parking at upper lot?",
+      "text_local": "Jak zaplatím parkovné na horním parkovišti?",
+      "pronunciation": "yAHk-zAHplaheem-pAHrkohvneh-nAHhohrnyeem-pAHrkohvEEshee",
+      "formality": "standard",
+      "cultural_note": "Many Czech parking lots use automated machines that accept both cards and coins.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kartou nebo mincemi v automatu.",
+        "pronunciation": "kAHrtoh-nEHboh-mEEntsehmee-v-OWtohmAHtoo",
+        "translation_en": "By card or coins at the machine."
+      },
+      "responses": [
+        {
+          "english": "By card or coins at the machine.",
+          "phonetic": "kAHrtoh-nEHboh-mEEntsehmee-v-OWtohmAHtoo",
+          "french": "Kartou nebo mincemi v automatu."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_diana_funicular_upper_station_area_003",
+      "intent_en": "Where is the Diana Tower ticket booth?",
+      "text_local": "Kde je pokladna na rozhlednu Diana?",
+      "pronunciation": "kdEH-yeh-pOHklahdnah-nAHrohshlEHdnoo-dEEyahnah",
+      "formality": "standard",
+      "cultural_note": "Czech directional cues often use landmarks like 'u paty věže' (at the tower's base).",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Hned u paty věže, vlevo od vchodu.",
+        "pronunciation": "hnEHd-OO-pAHtee-vyEHzhehvlEHvoh-OHdfkhohdoo",
+        "translation_en": "Right at the base of the tower, left of the entrance."
+      },
+      "responses": [
+        {
+          "english": "Right at the base of the tower, left of the entrance.",
+          "phonetic": "hnEHd-OO-pAHtee-vyEHzhehvlEHvoh-OHdfkhohdoo",
+          "french": "Hned u paty věže, vlevo od vchodu."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_diana_funicular_upper_station_area_004",
+      "intent_en": "When does the last funicular depart?",
+      "text_local": "Kdy jede poslední lanovka dolů?",
+      "pronunciation": "kdEE-yEHdeh-pOHslehdnyee-lAHnohfkah-dOHloo",
+      "formality": "standard",
+      "cultural_note": "Times are given in 24-hour format verbally. A simple time is a natural staff response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Dnes v 18:30.",
+        "pronunciation": "dnEHs-v-OHsoomnahtst-trEEtseht",
+        "translation_en": "Today at 6:30 PM."
+      },
+      "responses": [
+        {
+          "english": "Today at 6:30 PM.",
+          "phonetic": "dnEHs-v-OHsoomnahtst-trEEtseht",
+          "french": "Dnes v 18:30."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_diana_funicular_upper_station_area_005",
+      "intent_en": "Where is Jelení skok viewpoint?",
+      "text_local": "Kde je vyhlídka Jelení skok?",
+      "pronunciation": "kdEH-yeh-vEEhleetkah-yEHlehnyee-skOHk",
+      "formality": "standard",
+      "cultural_note": "Czech hiking trails are marked with colored symbols; 'červená značka' (red mark) is a standard reference.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Po červené značce asi 10 minut.",
+        "pronunciation": "pOHtshehrvEHneh-znAHtshtseh-AHsee-dEHseht-mEEnoot",
+        "translation_en": "Follow the red trail marks, about 10 minutes."
+      },
+      "responses": [
+        {
+          "english": "Follow the red trail marks, about 10 minutes.",
+          "phonetic": "pOHtshehrvEHneh-znAHtshtseh-AHsee-dEHseht-mEEnoot",
+          "french": "Po červené značce asi 10 minut."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

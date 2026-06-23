@@ -1,0 +1,118 @@
+{
+  "id": "nice_aeroport",
+  "name_en": "Nice Côte d'Azur Airport",
+  "name_local": "Aéroport Nice Côte d'Azur",
+  "icon": "airplane",
+  "lat": 43.6584,
+  "lon": 7.2159,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "nice_aeroport_001",
+      "intent_en": "Ask where to catch the tram into the city centre",
+      "text_local": "Où puis-je prendre le tramway pour rejoindre le centre-ville ?",
+      "pronunciation": "oo PWEE-zheh PRAN-dreh leh tram-WAY poor reh-ZHWAN-dreh leh SAN-treh-VEEL",
+      "formality": "polite",
+      "cultural_note": "Tram Line 2 connects both airport terminals to the city centre in about 30 minutes — much cheaper than a taxi.",
+      "responses": [
+        {
+          "english": "The tram stop is at the terminal exit.",
+          "phonetic": "lah-RAY doo TRAM eh tah lah sor-TEE doo tair-mee-NAHL",
+          "french": "L'arrêt du tram est à la sortie du terminal."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_aeroport_002",
+      "intent_en": "Ask which terminal handles international flights",
+      "text_local": "Quel terminal est dédié aux vols internationaux ?",
+      "pronunciation": "kel tehr-mee-NAL eh day-dee-AY oh VOL an-tehr-na-syo-NOH",
+      "formality": "polite",
+      "cultural_note": "Nice airport has two terminals: Terminal 1 for international flights and Terminal 2 for domestic and some European routes.",
+      "responses": [
+        {
+          "english": "Terminal one.",
+          "phonetic": "luh tair-mee-NAHL UHN",
+          "french": "Le terminal un."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_aeroport_003",
+      "intent_en": "Ask where to find a taxi to Cannes",
+      "text_local": "Où puis-je trouver un taxi pour me rendre à Cannes ?",
+      "pronunciation": "oo PWEE-zheh troo-VAY un tak-SEE poor meh RAN-dreh ah KAN",
+      "formality": "polite",
+      "cultural_note": "Taxis to Cannes cost around €80–100 and take 30–40 minutes depending on traffic. Agree on a price before departing.",
+      "responses": [
+        {
+          "english": "The taxi queue is in front of the terminal.",
+          "phonetic": "lah FEEL duh tak-SEE eh duh-VAHN luh tair-mee-NAHL",
+          "french": "La file de taxis est devant le terminal."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_aeroport_004",
+      "intent_en": "Ask if there is a currency exchange desk",
+      "text_local": "Y a-t-il un bureau de change dans l'aéroport ?",
+      "pronunciation": "ee ah-TEEL un byoo-ROH deh SHANZH dan lay-ro-POR",
+      "formality": "polite",
+      "cultural_note": "Airport exchange desks offer poor rates. Use a bank ATM (distributeur) for much better euro exchange.",
+      "responses": [
+        {
+          "english": "Yes, at terminal one, past security.",
+          "phonetic": "wee oh tair-mee-NAHL UHN ah-PRAY lah say-koo-ree-TAY",
+          "french": "Oui, au terminal un, après la sécurité."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_aeroport_005",
+      "intent_en": "Ask where to pick up a rental car",
+      "text_local": "Où se trouve le service de location de voitures ?",
+      "pronunciation": "oo seh TROOV leh sehr-VEES deh lo-kah-SYON deh vwah-TOOR",
+      "formality": "polite",
+      "cultural_note": "Car rental desks are in the arrivals halls of both terminals. A car is ideal for exploring the Riviera hinterland.",
+      "responses": [
+        {
+          "english": "Follow the car rental signs.",
+          "phonetic": "swee-VAY lay pah-NOH loh-kah-SYOHN duh vwah-TOOR",
+          "french": "Suivez les panneaux Location de voitures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "arrivals",
+      "word_local": "les arrivées",
+      "pronunciation": "lay za-ree-VAY"
+    },
+    {
+      "word_en": "departures",
+      "word_local": "les départs",
+      "pronunciation": "lay day-PAR"
+    },
+    {
+      "word_en": "car rental",
+      "word_local": "la location de voitures",
+      "pronunciation": "lah lo-kah-SYON deh vwah-TOOR"
+    },
+    {
+      "word_en": "terminal",
+      "word_local": "le terminal",
+      "pronunciation": "leh tehr-mee-NAL"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "menton_jardin_serre_madone",
+  "name_en": "Serre de la Madone Garden",
+  "name_local": "Jardin Serre de la Madone",
+  "icon": "leaf",
+  "phrases": [
+    {
+      "id": "serre_billet",
+      "intent_en": "I would like to visit the garden, please.",
+      "text_local": "Je voudrais visiter le jardin, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY vee-zee-TAY luh zhar-DAN, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Created by Lawrence Johnston (who also made Hidcote in England), Serre de la Madone is one of the finest gardens on the Riviera. Booking ahead is recommended.",
+      "responses": [
+        {
+          "english": "Six euros. Enjoy your visit.",
+          "phonetic": "seez uh-ROH. bon vee-ZEET",
+          "french": "Six euros. Bonne visite."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "serre_guide",
+      "intent_en": "Is there a guided tour?",
+      "text_local": "Est-ce qu'il y a une visite guidée ?",
+      "pronunciation": "es-keel ee-AH ewn vee-ZEET ghee-DAY",
+      "formality": "polite",
+      "cultural_note": "Guided tours are available and highly recommended — the garden's history and plant collection are fascinating.",
+      "responses": [
+        {
+          "english": "Yes, Sundays at 2 PM.",
+          "phonetic": "wee, luh dee-MAHNSH ah kah-TORZ UHR",
+          "french": "Oui, le dimanche à quatorze heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "serre_plantes",
+      "intent_en": "Which plants are in bloom right now?",
+      "text_local": "Quelles plantes sont en fleur en ce moment ?",
+      "pronunciation": "kel PLONT son on FLUR on suh moh-MON",
+      "formality": "polite",
+      "cultural_note": "The garden has year-round interest but spring (March–May) is spectacular for wisteria, roses, and rare perennials.",
+      "responses": [
+        {
+          "english": "The camellias and citrus right now.",
+          "phonetic": "lay kah-may-LYAH ay layz ah-GROOM ahn suh moh-MAHN",
+          "french": "Les camélias et les agrumes en ce moment."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "fr_jard_men_x1",
+      "intent_en": "Ask if the garden requires advance booking",
+      "text_local": "Faut-il réserver à l'avance pour visiter le jardin ?",
+      "pronunciation": "foh-TEEL ray-zur-VAY ah lah-VAHNS poor vee-zee-TAY luh zhar-DAN",
+      "formality": "polite",
+      "cultural_note": "The Jardin Serre de la Madone was created by Lawrence Johnston, who also designed Hidcote; it is one of the finest botanic gardens on the Riviera.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, booking is required.",
+          "phonetic": "wee, lah ray-zur-vah-SYON ay oh-blee-gah-TWAR.",
+          "french": "Oui, la réservation est obligatoire."
+        }
+      ]
+    },
+    {
+      "id": "fr_jard_men_x2",
+      "intent_en": "Ask what is in bloom at this time of year",
+      "text_local": "Qu'est-ce qui est en fleur en ce moment ?",
+      "pronunciation": "kes kee ay tahn FLUR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Ask at reception, it changes each month.",
+          "phonetic": "rahn-sen-YAY-voo ah lah-KUY, sah shahnzh shahk MWAH.",
+          "french": "Renseignez-vous à l'accueil, ça change chaque mois."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "greenhouse",
+      "word_local": "la serre",
+      "pronunciation": "lah SAIR"
+    },
+    {
+      "word_en": "in bloom",
+      "word_local": "en fleur",
+      "pronunciation": "on FLUR"
+    },
+    {
+      "word_en": "gardener",
+      "word_local": "le jardinier",
+      "pronunciation": "luh zhar-dee-NYAY"
+    }
+  ]
+}

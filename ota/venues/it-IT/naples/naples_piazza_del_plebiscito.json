@@ -1,0 +1,97 @@
+{
+  "id": "naples_piazza_plebiscito",
+  "name_en": "Piazza del Plebiscito",
+  "name_local": "Piazza del Plebiscito",
+  "icon": "building.columns",
+  "lat": 40.835856,
+  "lon": 14.2485654,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "naples_piazza_plebiscito_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, dov'è l'ingresso della Basilica, per favore?",
+      "pronunciation": "SKOO-zee, doh-VEH leen-GRES-so del-la bah-ZEE-lee-kah, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Opposite the Palace.",
+          "phonetic": "DEE FROHN-teh AHL pah-LAHTS-tsoh",
+          "french": "Di fronte al Palazzo."
+        }
+      ]
+    },
+    {
+      "id": "naples_piazza_plebiscito_003",
+      "intent_en": "Tourist phrase",
+      "text_local": "Buongiorno, si possono fare foto, per favore?",
+      "pronunciation": "bwohn-JOHR-noh, see POSS-oh-noh FAH-reh FOH-toh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "No, it is forbidden.",
+          "phonetic": "NOH È vee-eh-TAH-toh",
+          "french": "No, è vietato."
+        }
+      ]
+    },
+    {
+      "id": "naples_piazza_plebiscito_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Scusi, dov'è il Palazzo Reale, per favore?",
+      "pronunciation": "SKOO-zee, doh-VEH eel pa-LAT-soh reh-AH-leh, per fah-VOH-reh",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is here, on the square.",
+          "phonetic": "È KW-ee SOOL-lah pee-AHTS-tsah",
+          "french": "È qui, sulla piazza."
+        }
+      ]
+    },
+    {
+      "id": "it_pleb_na_x1",
+      "intent_en": "Ask when the Palazzo Reale opens",
+      "text_local": "Scusi, a che ora apre il Palazzo Reale?",
+      "pronunciation": "SKOO-zee, ah keh OH-rah AH-preh eel pah-LAHT-tsoh reh-AH-leh?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "At nine, except Tuesday when it's closed.",
+          "phonetic": "AL-leh NOH-veh, TRAN-neh eel mar-TEH-dee keh eh KYOO-zoh.",
+          "french": "Alle nove, tranne il martedì che è chiuso."
+        }
+      ]
+    },
+    {
+      "id": "it_pleb_na_x2",
+      "intent_en": "Ask if the square hosts events",
+      "text_local": "Buongiorno, si svolgono eventi in piazza?",
+      "pronunciation": "bwohn-JOHR-noh, see SVOL-goh-noh eh-VEN-tee een PYAHT-tsah?",
+      "formality": "polite",
+      "cultural_note": "",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, concerts and festivals throughout the year.",
+          "phonetic": "see, kon-CHER-tee eh FES-teh doo-RAN-teh TOOT-toh LAN-noh.",
+          "french": "Sì, concerti e feste durante tutto l'anno."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

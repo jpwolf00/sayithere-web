@@ -1,0 +1,100 @@
+{
+  "id": "athens_national_gardens",
+  "name_en": "National Gardens",
+  "name_local": "Εθνικός Κήπος",
+  "icon": "leaf",
+  "lat": 37.9735816,
+  "lon": 23.7377926,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "athens_national_gardens_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού είναι η πύλη του Ζαππείου;",
+      "pronunciation": "pOO-EEneh-ee-EEsohthOHz-yAH-EHktheelOHsees-stoh-zAHpkhoh",
+      "formality": "standard",
+      "cultural_note": "Staff at the Zappeion gate are responsible for directing visitors to event entrances.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δεξιά, δίπλα στο καφέ.",
+        "pronunciation": "thEHkseeAHthEEplah-stoh-kahfEH",
+        "translation_en": "To the right, next to the cafe."
+      },
+      "responses": [
+        {
+          "english": "To the right, next to the cafe.",
+          "phonetic": "thEHkseeAHthEEplah-stoh-kahfEH",
+          "french": "Δεξιά, δίπλα στο καφέ."
+        }
+      ]
+    },
+    {
+      "id": "athens_national_gardens_002",
+      "intent_en": "How do I keep quiet near Parliament side",
+      "text_local": "Πώς να μιλάω χαμηλόφωνα κοντά στη Βουλή;",
+      "pronunciation": "pOHz-nah-meelAHoh-khAHmeelOHfohnAH-kohdAH-stee-voolEE",
+      "formality": "standard",
+      "cultural_note": "Visitors are advised to maintain low voices near the Parliament building.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μιλήστε ψιθυριστά.",
+        "pronunciation": "meelEEsteh-psEEtheereestAH",
+        "translation_en": "Speak in a whisper."
+      },
+      "responses": [
+        {
+          "english": "Speak in a whisper.",
+          "phonetic": "meelEEsteh-psEEtheereestAH",
+          "french": "Μιλήστε ψιθυριστά."
+        }
+      ]
+    },
+    {
+      "id": "athens_national_gardens_003",
+      "intent_en": "Is garden cafe serving snacks now",
+      "text_local": "Σερβίρεται τώρα καφέ ή σνακ στον κήπο;",
+      "pronunciation": "sehrvEErehtEH-tOHrah-kahfEH-ee-snAHk-stohng-gEEpoh",
+      "formality": "standard",
+      "cultural_note": "The garden cafe operates during park hours and serves light refreshments.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, τώρα.",
+        "pronunciation": "nEHtOHrah",
+        "translation_en": "Yes, now."
+      },
+      "responses": [
+        {
+          "english": "Yes, now.",
+          "phonetic": "nEHtOHrah",
+          "french": "Ναι, τώρα."
+        }
+      ]
+    },
+    {
+      "id": "athens_national_gardens_004",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πού βρίσκεται το άγαλμα του Καποδίστρια;",
+      "pronunciation": "pOO-vrEEsehtEH-toh-mneemEEoh-too-kAHpohthEEstreeAH",
+      "formality": "standard",
+      "cultural_note": "The bust of Ioannis Kapodistrias is a notable landmark within the gardens.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Το άγαλμα είναι μέσα στον Εθνικό Κήπο, κοντά στο κέντρο.",
+        "pronunciation": "toh-AHghahlmAH-EEneh-mEHsah-stohn-EHthneekOH-EEpohkohdAH-stoh-EHdroh",
+        "translation_en": "The statue is inside the National Garden, near the center."
+      },
+      "responses": [
+        {
+          "english": "The statue is inside the National Garden, near the center.",
+          "phonetic": "toh-AHghahlmAH-EEneh-mEHsah-stohn-EHthneekOH-EEpohkohdAH-stoh-EHdroh",
+          "french": "Το άγαλμα είναι μέσα στον Εθνικό Κήπο, κοντά στο κέντρο."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

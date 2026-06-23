@@ -1,0 +1,100 @@
+{
+  "id": "fukuoka_yanagibashi_rengo_market",
+  "name_en": "Yanagibashi Rengo Market",
+  "name_local": "柳橋連合市場",
+  "icon": "cart",
+  "lat": 33.5830623,
+  "lon": 130.4085274,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "fukuoka_yanagibashi_rengo_market_001",
+      "intent_en": "Where is the fugu stall?",
+      "text_local": "ふぐの おみせは どこですか？",
+      "pronunciation": "oogOOnoh-OHmeesEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "In Fukuoka markets, fugu stalls are often grouped together for safety and licensing reasons.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まっすぐ いって、みぎがわです。",
+        "pronunciation": "mssOOgoo-EEttehmEEgeegWdEHsoo",
+        "translation_en": "Straight ahead, on the right side."
+      },
+      "responses": [
+        {
+          "english": "Straight ahead, on the right side.",
+          "phonetic": "mssOOgoo-EEttehmEEgeegWdEHsoo",
+          "french": "まっすぐ いって、みぎがわです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_yanagibashi_rengo_market_002",
+      "intent_en": "Where is the Hakata ramen stand?",
+      "text_local": "はかたラーメンの おみせは どこですか？",
+      "pronunciation": "hKtMEHnnoh-OHmeesEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Ramen stands in markets often have very limited counter seating, so you may need to wait.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あの はしらを まがって、ひだりです。",
+        "pronunciation": "Noh-hEEOH-mgTtehkhEEdeedEHsoo",
+        "translation_en": "Turn at that pillar, it's on the left."
+      },
+      "responses": [
+        {
+          "english": "Turn at that pillar, it's on the left.",
+          "phonetic": "Noh-hEEOH-mgTtehkhEEdeedEHsoo",
+          "french": "あの はしらを まがって、ひだりです。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_yanagibashi_rengo_market_003",
+      "intent_en": "Can I taste before buying?",
+      "text_local": "ためしに たべてみても いいですか？",
+      "pronunciation": "tMehEEnee-tBehtEHmeetEHmoh-EEdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Sampling is common, especially for mentaiko and fish cakes, but be polite and only take a small piece.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、どうぞ。ちょっとだけね。",
+        "pronunciation": "hEEdohOOzohtOHttohdkEHneh",
+        "translation_en": "Yes, go ahead. Just a little, okay?"
+      },
+      "responses": [
+        {
+          "english": "Yes, go ahead. Just a little, okay?",
+          "phonetic": "hEEdohOOzohtOHttohdkEHneh",
+          "french": "はい、どうぞ。ちょっとだけね。"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka_yanagibashi_rengo_market_004",
+      "intent_en": "Is the wholesale auction open to visitors?",
+      "text_local": "せりの けんぶつは できますか？",
+      "pronunciation": "sehEEnoh-kEHbootsOOh-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "Wholesale auction areas are typically restricted to licensed buyers and staff for safety and business reasons.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "いいえ、かんけいしゃいがい はいれません。",
+        "pronunciation": "EEehkNGkehEEeegEE-hEEehmSeh",
+        "translation_en": "No, only authorized personnel can enter."
+      },
+      "responses": [
+        {
+          "english": "No, only authorized personnel can enter.",
+          "phonetic": "EEehkNGkehEEeegEE-hEEehmSeh",
+          "french": "いいえ、かんけいしゃいがい はいれません。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

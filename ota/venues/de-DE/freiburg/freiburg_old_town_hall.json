@@ -1,0 +1,122 @@
+{
+  "id": "freiburg_old_town_hall",
+  "name_en": "Old Town Hall",
+  "name_local": "Altes Rathaus",
+  "icon": "building.columns",
+  "lat": 47.9963893,
+  "lon": 7.8492073,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "freiburg_old_town_hall_001",
+      "intent_en": "Where is the Martinsbrunnen fountain nearby",
+      "text_local": "Wo steht der Martinsbrunnen in der Nähe?",
+      "pronunciation": "vOH-shtEHt-dehr-mAHrtihnsbrUHnuhn-ihn-dehr-nEHuh",
+      "formality": "standard",
+      "cultural_note": "Der Martinsbrunnen ist ein zentraler Brunnen auf dem Platz vor dem Rathaus.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Vor dem Alten Rathaus.",
+        "pronunciation": "fAWr-dehm-AHltuhn-rAHtows",
+        "translation_en": "In front of the Old Town Hall."
+      },
+      "responses": [
+        {
+          "english": "In front of the Old Town Hall.",
+          "phonetic": "fAWr-dehm-AHltuhn-rAHtows",
+          "french": "Vor dem Alten Rathaus."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_old_town_hall_002",
+      "intent_en": "Where is the Kaisersaal hall entrance",
+      "text_local": "Wo ist der Eingang zum Kaisersaal?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-kEYEzzAHl",
+      "formality": "standard",
+      "cultural_note": "Repräsentationssäle in Rathäusern haben oft nur einen kontrollierten Zugang über den Schalter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im Erdgeschoss links.",
+        "pronunciation": "ihm-ehrdgEHshaws-lINGks",
+        "translation_en": "On the ground floor to the left."
+      },
+      "responses": [
+        {
+          "english": "On the ground floor to the left.",
+          "phonetic": "ihm-ehrdgEHshaws-lINGks",
+          "french": "Im Erdgeschoss links."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_old_town_hall_003",
+      "intent_en": "Is the Erasmus balcony accessible",
+      "text_local": "Ist der Erasmusbalkon zugänglich?",
+      "pronunciation": "ihst-dehr-ehrAHsmuhsbAHlkohn-tsOOehnglIHkh",
+      "formality": "standard",
+      "cultural_note": "Öffentliche Bereiche wie Balkone sind in historischen Rathäusern oft frei zugänglich.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, frei zugänglich.",
+        "pronunciation": "yAHfrEYE-tsOOehnglIHkh",
+        "translation_en": "Yes, freely accessible."
+      },
+      "responses": [
+        {
+          "english": "Yes, freely accessible.",
+          "phonetic": "yAHfrEYE-tsOOehnglIHkh",
+          "french": "Ja, frei zugänglich."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_old_town_hall_004",
+      "intent_en": "Where is the Rathausturm tower climb start",
+      "text_local": "Wo beginnt der Aufstieg zum Rathausturm?",
+      "pronunciation": "vOH-buhIHnt-dehr-OWfshtEEk-tsuhm-rAHtowstUHuhm",
+      "formality": "standard",
+      "cultural_note": "Der Turmeinstieg ist oft bei einer kleinen, unscheinbaren Tür im Innenhof versteckt.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Eingang ist im Innenhof.",
+        "pronunciation": "dehr-EYEngAHng-ihst-ihm-IHnuhnhOHf",
+        "translation_en": "The entrance is in the inner courtyard."
+      },
+      "responses": [
+        {
+          "english": "The entrance is in the inner courtyard.",
+          "phonetic": "dehr-EYEngAHng-ihst-ihm-IHnuhnhOHf",
+          "french": "Der Eingang ist im Innenhof."
+        }
+      ]
+    },
+    {
+      "id": "freiburg_old_town_hall_005",
+      "intent_en": "Where is the Historisches Museum entrance",
+      "text_local": "Wo ist der Eingang zum Historischen Museum?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-hihstOHrihshuhn-moozEHuhm",
+      "formality": "casual",
+      "cultural_note": "Historische Museen in Deutschland haben oft separate Eingänge, manchmal im Innenhof großer Rathäuser.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Eingang im Innenhof.",
+        "pronunciation": "EYEnAHng-ihm-IHnuhnhOHf",
+        "translation_en": "Entrance in the inner courtyard."
+      },
+      "responses": [
+        {
+          "english": "Entrance in the inner courtyard.",
+          "phonetic": "EYEnAHng-ihm-IHnuhnhOHf",
+          "french": "Eingang im Innenhof."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

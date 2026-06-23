@@ -1,0 +1,166 @@
+{
+  "id": "antalya_antalya_markantalya_shopping_center",
+  "name_en": "Antalya MarkAntalya Shopping Center",
+  "name_local": "MarkAntalya",
+  "icon": "bag",
+  "lat": 36.8929234,
+  "lon": 30.7040381,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "antalya_antalya_markantalya_shopping_center_001",
+      "intent_en": "Where can I buy a gift card?",
+      "text_local": "Hediye kartı almak istiyorum. Nereden temin edebilirim?",
+      "pronunciation": "hehdeeyEH-kahrtOO-nEHrehdahn-ahahbeelEErihm",
+      "formality": "polite",
+      "cultural_note": "Hediye kartı satış noktasının yeri teyit edilmediği için güvenli yönlendirme yapılmıştır.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Gişede satılıyor.",
+        "pronunciation": "eeshehdEH-sahtooOOyawr",
+        "translation_en": "They sell them at the counter."
+      },
+      "responses": [
+        {
+          "english": "They sell them at the counter.",
+          "phonetic": "eeshehdEH-sahtooOOyawr",
+          "french": "Gişede satılıyor."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_markantalya_shopping_center_002",
+      "intent_en": "Which floor is the food court on?",
+      "text_local": "Yemek katı hangi katta?",
+      "pronunciation": "yehmEHk-kahtOO-hahngIH-kahtAH",
+      "formality": "standard",
+      "cultural_note": "MarkAntalya'nın kat planı doğrulanmadığı için yemek katının tam katı danışmadan öğrenilmelidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "İkinci katta.",
+        "pronunciation": "eekihndzhIH-kahtAH",
+        "translation_en": "On the second floor."
+      },
+      "responses": [
+        {
+          "english": "On the second floor.",
+          "phonetic": "eekihndzhIH-kahtAH",
+          "french": "İkinci katta."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_markantalya_shopping_center_003",
+      "intent_en": "Where is the underground parking payment?",
+      "text_local": "Otopark ödeme nereden yapılıyor?",
+      "pronunciation": "yehrahtOO-ohtohpahrkOO-uhdEHmeh-nawktahsOO-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Ödeme makinelerinin yeri teyit edilmediği için güvenli yönlendirme yapılmıştır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki makinelerden.",
+        "pronunciation": "eerihshtehkIH-mahkeenehlehrdAHn",
+        "translation_en": "From the machines at the entrance."
+      },
+      "responses": [
+        {
+          "english": "From the machines at the entrance.",
+          "phonetic": "eerihshtehkIH-mahkeenehlehrdAHn",
+          "french": "Girişteki makinelerden."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_markantalya_shopping_center_004",
+      "intent_en": "Is there an information desk here?",
+      "text_local": "Burada danışma masası var mı?",
+      "pronunciation": "bOOrahdah-dahnOOshmah-mahsahsOO-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Danışma masası hizmeti mekân bağlamında listelendiği için doğrulanmıştır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, danışma mevcut.",
+        "pronunciation": "ehvEHtdahnOOshmah-mehvdzhUHt",
+        "translation_en": "Yes, an information desk is available."
+      },
+      "responses": [
+        {
+          "english": "Yes, an information desk is available.",
+          "phonetic": "ehvEHtdahnOOshmah-mehvdzhUHt",
+          "french": "Evet, danışma mevcut."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_markantalya_shopping_center_005",
+      "intent_en": "Where can I buy a gift card?",
+      "text_local": "Hediye kartı için gişe nerede?",
+      "pronunciation": "hehdeeyEH-kahrtoonOO-nEHrehdahn-ahahbeelEErihm",
+      "formality": "standard",
+      "cultural_note": "AVM'lerde hediye kartı satış noktaları değişiklik gösterebilir; en güncel bilgi danışmadadır.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Danışmanın yanında.",
+        "pronunciation": "dahnOOshmahnoon-yahnoondAH",
+        "translation_en": "Next to the information desk."
+      },
+      "responses": [
+        {
+          "english": "Next to the information desk.",
+          "phonetic": "dahnOOshmahnoon-yahnoondAH",
+          "french": "Danışmanın yanında."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_markantalya_shopping_center_006",
+      "intent_en": "Where is the underground parking payment?",
+      "text_local": "Otopark ücreti ödeme yeri nerede?",
+      "pronunciation": "yehrahtOO-ohtohpAHrk-uhdehmehsIH-nEHrehdeh",
+      "formality": "standard",
+      "cultural_note": "Türk alışveriş merkezlerinde otopark ödeme noktaları genellikle çıkışlara yakındır ancak tam yer danışmadan teyit edilmelidir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Girişteki makinelerde.",
+        "pronunciation": "eerihshtehkIH-mahkeenehlehrdEH",
+        "translation_en": "At the machines at the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the machines at the entrance.",
+          "phonetic": "eerihshtehkIH-mahkeenehlehrdEH",
+          "french": "Girişteki makinelerde."
+        }
+      ]
+    },
+    {
+      "id": "antalya_antalya_markantalya_shopping_center_007",
+      "intent_en": "Is there an information desk here?",
+      "text_local": "Burada danışma var mı?",
+      "pronunciation": "bOOrahdah-dahnOOshmah-vAHr-moo",
+      "formality": "standard",
+      "cultural_note": "Danışma masası Türk AVM'lerinde standart bir hizmettir; doğrudan ve net yanıt beklenir.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Evet, danışma mevcut.",
+        "pronunciation": "ehvEHtdahnOOshmah-mehvdzhUHt",
+        "translation_en": "Yes, there is an information desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is an information desk.",
+          "phonetic": "ehvEHtdahnOOshmah-mehvdzhUHt",
+          "french": "Evet, danışma mevcut."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

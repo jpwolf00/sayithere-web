@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_cite_du_vin",
+  "name_en": "Cité du Vin",
+  "name_local": "La Cité du Vin",
+  "icon": "building.columns",
+  "lat": 44.8629,
+  "lon": -0.5499,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "bordeaux_citvin_001",
+      "intent_en": "Buy two tickets for the wine museum",
+      "text_local": "Je voudrais deux billets pour la Cité du Vin, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY duh bee-YAY poor lah see-TAY doo VAN seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Admission includes an audio guide in your language and a wine tasting at the Belvédère on the 8th floor.",
+      "responses": [
+        {
+          "english": "Thirty-two euros for two.",
+          "phonetic": "trahnt-DUH uh-ROH poor DUH",
+          "french": "Trente-deux euros pour deux."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_citvin_002",
+      "intent_en": "Ask which wine regions are covered in the permanent exhibition",
+      "text_local": "Quelles régions viticoles sont couvertes dans l'exposition permanente ?",
+      "pronunciation": "kel ray-ZHYON vee-tee-KOL son koo-VERT dahn lex-poh-ZEE-SYON pair-mah-NAHNT",
+      "formality": "polite",
+      "cultural_note": "The museum covers wine cultures from around the world, not just Bordeaux.",
+      "responses": [
+        {
+          "english": "It's indicated in the tour route.",
+          "phonetic": "seh ehn-dee-KAY dahn luh par-KOOR",
+          "french": "C'est indiqué dans le parcours."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_citvin_003",
+      "intent_en": "Ask for a recommendation for a Bordeaux wine to buy",
+      "text_local": "Pourriez-vous me recommander un vin de Bordeaux à emporter ?",
+      "pronunciation": "poo-RYAY-voo muh ruh-koh-mahn-DAY un VAN duh bor-DOH ah ahm-por-TAY",
+      "formality": "polite",
+      "cultural_note": "The Cité du Vin's shop stocks wines from all of Bordeaux's appellations, including lesser-known ones.",
+      "responses": [
+        {
+          "english": "Try the Médoc or the Saint-Émilion.",
+          "phonetic": "goo-TAY luh may-DOK oo luh sant-ay-mee-LYOHN",
+          "french": "Goûtez le Médoc ou le Saint-Émilion."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_citvin_004",
+      "intent_en": "Ask where the belvedere tasting terrace is",
+      "text_local": "Où se trouve le Belvédère pour la dégustation, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV luh bel-vay-DAIR poor lah day-goos-TAH-SYON seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Belvédère on the 8th floor offers a panoramic view of Bordeaux and a complimentary tasting of one wine.",
+      "responses": [
+        {
+          "english": "On the top floor.",
+          "phonetic": "oh dehr-NYAY ay-TAHZH",
+          "french": "Au dernier étage."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_citvin_005",
+      "intent_en": "Ask if audio guides are available in English",
+      "text_local": "Est-ce qu'il y a des audioguides disponibles en anglais ?",
+      "pronunciation": "es-keel-YAH day oh-dyoh-GHEED dees-poh-NEEBL ahn ahn-GLAY",
+      "formality": "polite",
+      "cultural_note": "Audio guides are available in many languages; ask at the ticket desk if unsure.",
+      "responses": [
+        {
+          "english": "Yes, at reception.",
+          "phonetic": "wee, ah lah-KUHY",
+          "french": "Oui, à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "wine tasting",
+      "word_local": "la dégustation",
+      "pronunciation": "lah day-goos-TAH-SYON"
+    },
+    {
+      "word_en": "wine-growing / viticultural",
+      "word_local": "viticole",
+      "pronunciation": "vee-tee-KOL"
+    },
+    {
+      "word_en": "appellation",
+      "word_local": "l'appellation",
+      "pronunciation": "lah-pel-LAH-SYON"
+    },
+    {
+      "word_en": "panoramic viewpoint",
+      "word_local": "le belvédère",
+      "pronunciation": "luh bel-vay-DAIR"
+    }
+  ]
+}

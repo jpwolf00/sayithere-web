@@ -1,0 +1,78 @@
+{
+  "id": "hallstatt_mühlbach_waterfall_promenade",
+  "name_en": "Mühlbach Waterfall Promenade",
+  "name_local": "Mühlbachwasserfall",
+  "icon": "leaf",
+  "lat": 47.5347939,
+  "lon": 13.5988875,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "hallstatt_mühlbach_waterfall_promenade_001",
+      "intent_en": "Ask if Gosausee parking is metered",
+      "text_local": "Ist der Parkplatz am Gosausee gebührenpflichtig?",
+      "pronunciation": "ihst-dehr-pAHrkplahts-ahm-OHzowzEH-uhbUEruhnpflIHkhtihkh",
+      "formality": "standard",
+      "cultural_note": "In Österreich sind Parkplätze an beliebten Touristenzielen häufig gebührenpflichtig, oft mit Automaten oder Parkscheiben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, Parkeinrichtungen sind gebührenpflichtig.",
+        "pronunciation": "yAHpAHrkeyenrIHkhtuhnguhn-zihnt-uhbUEruhnpflIHkhtihkh",
+        "translation_en": "Yes, parking is metered."
+      },
+      "responses": [
+        {
+          "english": "Yes, parking is metered.",
+          "phonetic": "yAHpAHrkeyenrIHkhtuhnguhn-zihnt-uhbUEruhnpflIHkhtihkh",
+          "french": "Ja, Parkeinrichtungen sind gebührenpflichtig."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_mühlbach_waterfall_promenade_002",
+      "intent_en": "Ask where the Mühlbach waterfall path starts",
+      "text_local": "Wo beginnt der Weg zum Mühlbachwasserfall?",
+      "pronunciation": "vOH-buhIHnt-dehr-vEHk-tsuhm-mUElbahkhvAHsfAHl",
+      "formality": "standard",
+      "cultural_note": "In Österreich werden Wanderwege oft am Parkplatz oder an Beschilderungen markiert. Besucher folgen meist der Beschilderung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Parkplatz L547.",
+        "pronunciation": "ahm-pAHrkplahts-EHl-fUEnfhUHndt-zEEbuhn-uhntfIHrtsihkh",
+        "translation_en": "At the L547 parking lot."
+      },
+      "responses": [
+        {
+          "english": "At the L547 parking lot.",
+          "phonetic": "ahm-pAHrkplahts-EHl-fUEnfhUHndt-zEEbuhn-uhntfIHrtsihkh",
+          "french": "Am Parkplatz L547."
+        }
+      ]
+    },
+    {
+      "id": "hallstatt_mühlbach_waterfall_promenade_003",
+      "intent_en": "Ask where Salzwelten trail connects from here",
+      "text_local": "Wo schließt der Salzwelten-Weg hier an?",
+      "pronunciation": "vOH-EHt-ehs-tsoor-zAHltsvuhltuhn",
+      "formality": "casual",
+      "cultural_note": "Salzwelten ist ein bekannter Touristenmagnet; Mitarbeiter kennen die Anbindung an lokale Wanderwege.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Oben bei der Abzweigung.",
+        "pronunciation": "OHbuhn-beye-dehr-AHptsvEYEguhng",
+        "translation_en": "Up at the junction."
+      },
+      "responses": [
+        {
+          "english": "Up at the junction.",
+          "phonetic": "OHbuhn-beye-dehr-AHptsvEYEguhng",
+          "french": "Oben bei der Abzweigung."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

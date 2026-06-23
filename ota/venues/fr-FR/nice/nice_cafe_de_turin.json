@@ -1,0 +1,118 @@
+{
+  "id": "nice_cafe_de_turin",
+  "name_en": "Café de Turin",
+  "name_local": "Café de Turin",
+  "icon": "fork.knife",
+  "lat": 43.6985,
+  "lon": 7.2787,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "nice_turin_001",
+      "intent_en": "Order a dozen oysters and a glass of white wine",
+      "text_local": "Une douzaine d'huîtres et un verre de vin blanc, s'il vous plaît.",
+      "pronunciation": "oon doo-ZEN dwee-TREH ay un VEHR deh van BLAN seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Café de Turin has been serving fresh seafood on Place Garibaldi since 1908 — one of Nice's most iconic brasseries.",
+      "responses": [
+        {
+          "english": "Very well. A platter is coming.",
+          "phonetic": "tray BYAHN uhn plah-TOH ah-REEV",
+          "french": "Très bien. Un plateau arrive."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_turin_002",
+      "intent_en": "Ask if the shellfish is delivered fresh that morning",
+      "text_local": "Les coquillages sont-ils livrés frais ce matin ?",
+      "pronunciation": "lay ko-kee-YAZH son-TEEL lee-VRAY FREH seh mah-TAN",
+      "formality": "polite",
+      "cultural_note": "Freshness is the house pride at Café de Turin. Expect oysters from Arcachon or Normandy, sea urchins in season.",
+      "responses": [
+        {
+          "english": "Yes, every market day.",
+          "phonetic": "wee too lay ZHOOR doo mar-SHAY",
+          "french": "Oui, tous les jours du marché."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_turin_003",
+      "intent_en": "Ask how to eat sea urchins properly",
+      "text_local": "Pourriez-vous m'expliquer comment déguster les oursins ?",
+      "pronunciation": "poo-RYAY voo mek-splee-KAY kuh-MAN day-gyoo-STAY lay zoor-SAN",
+      "formality": "polite",
+      "cultural_note": "Sea urchins (oursins) are a Niçois delicacy — eaten fresh with a squeeze of lemon and a small spoon.",
+      "responses": [
+        {
+          "english": "With the small spoon, like this.",
+          "phonetic": "ah-VEK lah puh-TEET kwee-YAIR kohm SAH",
+          "french": "Avec la petite cuillère, comme ça."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_turin_004",
+      "intent_en": "Ask for a table on the outdoor terrace",
+      "text_local": "Auriez-vous une table en terrasse, s'il vous plaît ?",
+      "pronunciation": "oh-RYAY voo oon TAB-leh an teh-RAS seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The terrace facing Place Garibaldi is a prime spot for people-watching while enjoying plateaux de fruits de mer.",
+      "responses": [
+        {
+          "english": "Yes, there is space outside.",
+          "phonetic": "wee eel ee ah duh lah PLAHSS duh-OR",
+          "french": "Oui, il y a de la place dehors."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_turin_005",
+      "intent_en": "Ask for the seafood platter for two",
+      "text_local": "Nous prendrions le plateau de fruits de mer pour deux, s'il vous plaît.",
+      "pronunciation": "noo pran-DRYON leh plah-TOH deh frwee deh MEHR poor duh seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The grande plateau de fruits de mer is an impressive tower of oysters, langoustines, crab and clams — allow time to enjoy it.",
+      "responses": [
+        {
+          "english": "For two, it is the large platter.",
+          "phonetic": "poor DUH say luh GRAHN plah-TOH",
+          "french": "Pour deux, c'est le grand plateau."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "oysters",
+      "word_local": "les huîtres",
+      "pronunciation": "lay ZWEE-treh"
+    },
+    {
+      "word_en": "sea urchins",
+      "word_local": "les oursins",
+      "pronunciation": "lay zoor-SAN"
+    },
+    {
+      "word_en": "seafood platter",
+      "word_local": "le plateau de fruits de mer",
+      "pronunciation": "leh plah-TOH deh frwee deh MEHR"
+    },
+    {
+      "word_en": "shellfish",
+      "word_local": "les coquillages",
+      "pronunciation": "lay ko-kee-YAZH"
+    }
+  ]
+}

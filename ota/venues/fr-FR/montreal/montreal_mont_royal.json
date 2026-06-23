@@ -1,0 +1,118 @@
+{
+  "id": "montreal_mont_royal",
+  "name_en": "Mount Royal Park",
+  "name_local": "Parc du Mont-Royal",
+  "icon": "leaf",
+  "lat": 45.5048,
+  "lon": -73.5877,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "mtl_mr_001",
+      "intent_en": "Ask how to get to the lookout",
+      "text_local": "C'est par où pour monter au belvédère ?",
+      "pronunciation": "say par OO poor mon-TAY oh bel-vay-DAIR",
+      "formality": "neutral",
+      "cultural_note": "The Kondiaronk Belvedere offers a stunning panoramic view of Montréal. The climb takes about 20 minutes on foot from the parking area.",
+      "responses": [
+        {
+          "english": "Take the main trail, twenty minutes.",
+          "phonetic": "pruh-NAY luh sahn-TYAY prahn-see-PAHL VAHN mee-NOOT",
+          "french": "Prenez le sentier principal, vingt minutes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mr_002",
+      "intent_en": "Ask if the cross is lit at night",
+      "text_local": "Est-ce que la croix est illuminée le soir ?",
+      "pronunciation": "ess-KUH lah KWAH ay ee-loo-mee-NAY luh SWAHR",
+      "formality": "neutral",
+      "cultural_note": "The illuminated cross atop the mountain is a Montréal landmark, visible from much of the city. It's lit every evening.",
+      "responses": [
+        {
+          "english": "Yes, it is lit up in the evening.",
+          "phonetic": "wee el eh tee-loo-mee-NAY luh SWAHR",
+          "french": "Oui, elle est illuminée le soir."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mr_003",
+      "intent_en": "Ask where to rent a pedal boat or skis",
+      "text_local": "Où est-ce qu'on peut louer de l'équipement ?",
+      "pronunciation": "oo ess-KON puh loo-AY duh lay-keep-MAH",
+      "formality": "neutral",
+      "cultural_note": "The chalet offers equipment rentals seasonally — pedal boats and canoes in summer, cross-country ski equipment in winter.",
+      "responses": [
+        {
+          "english": "At Beaver Lake, near the chalet.",
+          "phonetic": "oh LAK day kas-TOR pray doo shah-LAY",
+          "french": "Au lac des Castors, près du chalet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mr_004",
+      "intent_en": "Ask if dogs are allowed on the trails",
+      "text_local": "Les chiens sont-ils acceptés dans les sentiers ?",
+      "pronunciation": "lay shee-YAN son-TEEL ak-sep-TAY dah lay son-tee-YAY",
+      "formality": "polite",
+      "cultural_note": "Dogs are welcome but must be leashed. The park is very popular with locals walking their dogs year-round.",
+      "responses": [
+        {
+          "english": "Yes, on a leash.",
+          "phonetic": "wee ahn LESS",
+          "french": "Oui, en laisse."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "mtl_mr_005",
+      "intent_en": "Ask what time the park closes",
+      "text_local": "Le parc ferme à quelle heure ?",
+      "pronunciation": "luh PARK fairm ah kel UR",
+      "formality": "neutral",
+      "cultural_note": "The park is technically open 24 hours but facilities like the chalet close in the evening. Tam-tams drum circle happens Sundays in summer.",
+      "responses": [
+        {
+          "english": "The park closes at midnight.",
+          "phonetic": "luh PARK FERM ah mee-NWEE",
+          "french": "Le parc ferme à minuit."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "lookout / belvedere",
+      "word_local": "le belvédère",
+      "pronunciation": "luh bel-vay-DAIR"
+    },
+    {
+      "word_en": "trail / path",
+      "word_local": "le sentier",
+      "pronunciation": "luh son-tee-YAY"
+    },
+    {
+      "word_en": "cross",
+      "word_local": "la croix",
+      "pronunciation": "lah KWAH"
+    },
+    {
+      "word_en": "chalet / lodge",
+      "word_local": "le chalet",
+      "pronunciation": "luh sha-LAY"
+    }
+  ]
+}

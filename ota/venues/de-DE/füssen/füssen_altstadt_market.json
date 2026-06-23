@@ -1,0 +1,100 @@
+{
+  "id": "füssen_altstadt_market",
+  "name_en": "Altstadt Market",
+  "name_local": "Altstadtmarkt Füssen",
+  "icon": "cart",
+  "lat": 47.5675998,
+  "lon": 10.6993217,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "füssen_altstadt_market_001",
+      "intent_en": "Where is the Christmas market token booth?",
+      "text_local": "Wo ist der Verkaufsstand für Weihnachtsmarkt-Tokens?",
+      "pronunciation": "vOH-ihst-dehr-fehrkOWfsshtahnt-fuer-vEYEhnahkhtsmAHrkttOHkuhns",
+      "formality": "standard",
+      "cultural_note": "Der Marktverwalter organisiert saisonale Stände und kann Auskunft geben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Neben dem Marktbrunnen.",
+        "pronunciation": "nEHbuhn-dehm-mAHrktbruhnuhn",
+        "translation_en": "Next to the market fountain."
+      },
+      "responses": [
+        {
+          "english": "Next to the market fountain.",
+          "phonetic": "nEHbuhn-dehm-mAHrktbruhnuhn",
+          "french": "Neben dem Marktbrunnen."
+        }
+      ]
+    },
+    {
+      "id": "füssen_altstadt_market_002",
+      "intent_en": "Which stall has fresh farm cheese?",
+      "text_local": "Welcher Stand hat frischen Bauernkäse?",
+      "pronunciation": "vOH-EEpt-ehs-frIHshuhn-kEHzuh-fawn-dehn-bOWn",
+      "formality": "standard",
+      "cultural_note": "Der Käsemeister ist eine offiziell benannte Rolle auf dem Markt und kennt die aktuellen Stände.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am dritten Stand links.",
+        "pronunciation": "ahm-drIHtuhn-shtAHnt-lINGks",
+        "translation_en": "At the third stall on the left."
+      },
+      "responses": [
+        {
+          "english": "At the third stall on the left.",
+          "phonetic": "ahm-drIHtuhn-shtAHnt-lINGks",
+          "french": "Am dritten Stand links."
+        }
+      ]
+    },
+    {
+      "id": "füssen_altstadt_market_003",
+      "intent_en": "Do vendors accept credit cards here?",
+      "text_local": "Akzeptieren die Händler hier Kartenzahlung?",
+      "pronunciation": "AHktsehptEEruhn-dee-hEHndl-hEEr-kAHrtuhntsAHluhng",
+      "formality": "casual",
+      "cultural_note": "Bargeld ist auf deutschen Wochenmärkten üblich, Kartenzahlung selten.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nein, nur Barzahlung möglich.",
+        "pronunciation": "nEYEnnOOr-bAHrtsahlUHng-mUHklihkh",
+        "translation_en": "No, only cash accepted."
+      },
+      "responses": [
+        {
+          "english": "No, only cash accepted.",
+          "phonetic": "nEYEnnOOr-bAHrtsahlUHng-mUHklihkh",
+          "french": "Nein, nur Barzahlung möglich."
+        }
+      ]
+    },
+    {
+      "id": "füssen_altstadt_market_004",
+      "intent_en": "Is there parking at the ring road?",
+      "text_local": "Gibt es Parkplätze an der Ringstraße?",
+      "pronunciation": "EEpt-ehs-pAHrkplehtsuh-ahn-dehr-rINGstrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Deutsche Ringstraßen haben oft Parkuhren mit begrenzter Zeit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, an Parkuhren entlang der Ringstraße.",
+        "pronunciation": "yAHahn-pAHrkooruhn-ehntlAHng-dehr-rINGstrAHsuh",
+        "translation_en": "Yes, at parking meters along the ring road."
+      },
+      "responses": [
+        {
+          "english": "Yes, at parking meters along the ring road.",
+          "phonetic": "yAHahn-pAHrkooruhn-ehntlAHng-dehr-rINGstrAHsuh",
+          "french": "Ja, an Parkuhren entlang der Ringstraße."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "innsbruck_innsbruck_cathedral",
+  "name_en": "Innsbruck Cathedral",
+  "name_local": "Dom zu St. Jakob",
+  "icon": "building.columns",
+  "lat": 47.2693643,
+  "lon": 11.3942128,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "innsbruck_innsbruck_cathedral_001",
+      "intent_en": "Where is the Cathedral Treasury",
+      "text_local": "Wo finde ich den Domschatz?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dehn-dAWmshahts",
+      "formality": "standard",
+      "cultural_note": "In Tiroler Kirchen wird der Domschatz oft in einem Seitenschiff oder einer Seitenkapelle ausgestellt. Exakte Mikro-Lokalisierung wird vermieden.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Im linken Seitenschiff.",
+        "pronunciation": "ihm-lINGkuhn-zEYEtuhnshIHf",
+        "translation_en": "In the left aisle."
+      },
+      "responses": [
+        {
+          "english": "In the left aisle.",
+          "phonetic": "ihm-lINGkuhn-zEYEtuhnshIHf",
+          "french": "Im linken Seitenschiff."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_innsbruck_cathedral_002",
+      "intent_en": "Are candles for sale now",
+      "text_local": "Gibt es hier Kerzen zu kaufen?",
+      "pronunciation": "EEpt-ehs-hEEr-kEHrtsuhn-tsoo-kOWfuhn",
+      "formality": "casual",
+      "cultural_note": "In österreichischen Kirchen sind Kerzenverkaufsstellen oft am Ausgang oder bei einem Opferstock platziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Ausgang.",
+        "pronunciation": "yAHahm-OWsAHng",
+        "translation_en": "Yes, at the exit."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the exit.",
+          "phonetic": "yAHahm-OWsAHng",
+          "french": "Ja, am Ausgang."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_innsbruck_cathedral_003",
+      "intent_en": "Can I buy guided tour tickets here",
+      "text_local": "Kann man hier Führungen buchen?",
+      "pronunciation": "kAHn-mahn-hEEr-fUEruhnguhn-bOOkhuhn",
+      "formality": "casual",
+      "cultural_note": "Führungstickets werden in touristischen Kirchen oft am Infostand oder bei der Kasse angeboten. Exakte Position ist nicht gegeben.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Infostand.",
+        "pronunciation": "yAHahm-IHnfawstAHnt",
+        "translation_en": "Yes, at the info desk."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the info desk.",
+          "phonetic": "yAHahm-IHnfawstAHnt",
+          "french": "Ja, am Infostand."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_innsbruck_cathedral_004",
+      "intent_en": "Where is the Canova cenotaph",
+      "text_local": "Wo steht das Canova-Grabmal?",
+      "pronunciation": "vOH-shtEHt-dahs-kAHnohvAHrAHbmahl",
+      "formality": "standard",
+      "cultural_note": "Das Canova-Grabmal ist ein bekanntes Kunstwerk in Innsbrucker Kirchen und steht oft zentral oder unter markanten architektonischen Elementen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Unter der Kuppel.",
+        "pronunciation": "UHnt-dehr-kUHpuhl",
+        "translation_en": "Under the dome."
+      },
+      "responses": [
+        {
+          "english": "Under the dome.",
+          "phonetic": "UHnt-dehr-kUHpuhl",
+          "french": "Unter der Kuppel."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_innsbruck_cathedral_005",
+      "intent_en": "When is silence required during services",
+      "text_local": "Wann herrscht Stille während der Messe?",
+      "pronunciation": "vAHn-hEHrsht-shtIHluh-vEHruhnt-dehr-mEHsuh",
+      "formality": "standard",
+      "cultural_note": "In katholischen Kirchen ist Stille während bestimmter Momente der Messe üblich. Die genaue Zeit wird nicht immer explizit kommuniziert.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Während der Wandlung.",
+        "pronunciation": "vEHruhnt-dehr-vAHndluhng",
+        "translation_en": "During consecration."
+      },
+      "responses": [
+        {
+          "english": "During consecration.",
+          "phonetic": "vEHruhnt-dehr-vAHndluhng",
+          "french": "Während der Wandlung."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

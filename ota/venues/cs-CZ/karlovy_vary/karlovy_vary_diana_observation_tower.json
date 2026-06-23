@@ -1,0 +1,100 @@
+{
+  "id": "karlovy_vary_diana_observation_tower",
+  "name_en": "Diana Observation Tower",
+  "name_local": "Rozhledna Diana",
+  "icon": "leaf",
+  "lat": 50.2189819,
+  "lon": 12.8722638,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "karlovy_vary_diana_observation_tower_001",
+      "intent_en": "How do I validate my funicular ticket?",
+      "text_local": "Jak si mám označit jízdenku na lanovku?",
+      "pronunciation": "yAHk-see-mahm-OHznahtsheet-yEEzdehngkoo-nAHlahnOHfkoo",
+      "formality": "standard",
+      "cultural_note": "Funicular validation is often at the turnstile gate. The instruction is practical and assumes the traveler has a ticket with a barcode.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "U turniketu přiložte čárový kód ke čtečce.",
+        "pronunciation": "OO-tOOrnyeekEHtoo-prEElohshteh-tshAHrohvee-kOHt-kEH-tshtEHtshtseh",
+        "translation_en": "At the turnstile, place the barcode on the reader."
+      },
+      "responses": [
+        {
+          "english": "At the turnstile, place the barcode on the reader.",
+          "phonetic": "OO-tOOrnyeekEHtoo-prEElohshteh-tshAHrohvee-kOHt-kEH-tshtEHtshtseh",
+          "french": "U turniketu přiložte čárový kód ke čtečce."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_diana_observation_tower_002",
+      "intent_en": "Where is the Butterfly House entrance?",
+      "text_local": "Kde je vstup do Motýlího domu?",
+      "pronunciation": "kdEH-yeh-fstOOp-doh-mOHteelEEhoh-dOHmoo",
+      "formality": "standard",
+      "cultural_note": "Czech directional answers are typically terse and use landmarks. 'Za rozhlednou' (behind the lookout tower) is a common reference point here.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Za rozhlednou, po schodech dolů vpravo.",
+        "pronunciation": "zAHrohshlEHdnohpOHskhohdehgh-dOHloo-fprAHvoh",
+        "translation_en": "Behind the tower, down the stairs on the right."
+      },
+      "responses": [
+        {
+          "english": "Behind the tower, down the stairs on the right.",
+          "phonetic": "zAHrohshlEHdnohpOHskhohdehgh-dOHloo-fprAHvoh",
+          "french": "Za rozhlednou, po schodech dolů vpravo."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_diana_observation_tower_003",
+      "intent_en": "Where is the Miniature Park?",
+      "text_local": "Kde je Park miniatur?",
+      "pronunciation": "kdEH-yeh-pAHrk-mEEneeAHtoor",
+      "formality": "standard",
+      "cultural_note": "Attractions on Diana hill are spread out. Directions often reference other known landmarks like the Butterfly House rather than giving street names.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Kousek od motýlího domu, po pěšině vlevo.",
+        "pronunciation": "kOHsehk-ohd-mOHteelEEhoh-dOHmoopOHpyehshEEnyeh-vlEHvoh",
+        "translation_en": "A short walk from the Butterfly House, left on the path."
+      },
+      "responses": [
+        {
+          "english": "A short walk from the Butterfly House, left on the path.",
+          "phonetic": "kOHsehk-ohd-mOHteelEEhoh-dOHmoopOHpyehshEEnyeh-vlEHvoh",
+          "french": "Kousek od motýlího domu, po pěšině vlevo."
+        }
+      ]
+    },
+    {
+      "id": "karlovy_vary_diana_observation_tower_004",
+      "intent_en": "Does the snack bar take cards?",
+      "text_local": "Berete v bufetu karty?",
+      "pronunciation": "bEHrehteh-v-bOOfehtoo-kAHrtee",
+      "formality": "casual",
+      "cultural_note": "Many small snack bars and stalls in Czech tourist areas are cash-only. The response is blunt and direct, which is typical for service staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ne, jen hotovost.",
+        "pronunciation": "nEHyEHn-hOHtohvohst",
+        "translation_en": "No, cash only."
+      },
+      "responses": [
+        {
+          "english": "No, cash only.",
+          "phonetic": "nEHyEHn-hOHtohvohst",
+          "french": "Ne, jen hotovost."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

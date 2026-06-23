@@ -1,0 +1,100 @@
+{
+  "id": "hamburg_elbphilharmonie",
+  "name_en": "Elbphilharmonie",
+  "name_local": "Elbphilharmonie",
+  "icon": "building.columns",
+  "lat": 53.5412917,
+  "lon": 9.9842058,
+  "radius_m": 250,
+  "phrases": [
+    {
+      "id": "hamburg_elbphilharmonie_001",
+      "intent_en": "How do I get Plaza tickets",
+      "text_local": "Wo bekomme ich Plaza-Tickets?",
+      "pronunciation": "vOH-buhkAWmuh-ihkh-plAHtsahtIHkuhts",
+      "formality": "casual",
+      "cultural_note": "Plaza-Tickets sind kostenlos, aber zeitlich begrenzt. Deutsche Besucher erwarten eine kurze Warteschlange oder Reservierung.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter im Foyer.",
+        "pronunciation": "ahm-shAHlt-ihm-fawyEH",
+        "translation_en": "At the desk in the foyer."
+      },
+      "responses": [
+        {
+          "english": "At the desk in the foyer.",
+          "phonetic": "ahm-shAHlt-ihm-fawyEH",
+          "french": "Am Schalter im Foyer."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_elbphilharmonie_002",
+      "intent_en": "Where is Kaistudios located",
+      "text_local": "Wo finde ich die Kaistudios?",
+      "pronunciation": "vOH-fIHnduh-ihkh-dee-kEYEstoodIHohs",
+      "formality": "standard",
+      "cultural_note": "Besucher erwarten eine klare Wegweisung durch das Gebäude.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Kaistudios sind im alten Kaispeicher A.",
+        "pronunciation": "dee-kEYEstoodIHohs-zihnt-ihm-AHltuhn-kEYEshpeyekh-AH",
+        "translation_en": "The Kaistudios are in the old Kaispeicher A."
+      },
+      "responses": [
+        {
+          "english": "The Kaistudios are in the old Kaispeicher A.",
+          "phonetic": "dee-kEYEstoodIHohs-zihnt-ihm-AHltuhn-kEYEshpeyekh-AH",
+          "french": "Die Kaistudios sind im alten Kaispeicher A."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_elbphilharmonie_003",
+      "intent_en": "When are guided tours available",
+      "text_local": "Wann finden Führungen statt?",
+      "pronunciation": "vAHn-fIHnduhn-fUEruhnguhn-shtAHt",
+      "formality": "standard",
+      "cultural_note": "Deutsche Besucher erwarten präzise Zeitangaben oder eine Angabe zur Buchungspflicht.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Täglich, Uhrzeiten am Schalter.",
+        "pronunciation": "tEHklihkhOOrtseyetuhn-ahm-shAHlt",
+        "translation_en": "Daily, times at the desk."
+      },
+      "responses": [
+        {
+          "english": "Daily, times at the desk.",
+          "phonetic": "tEHklihkhOOrtseyetuhn-ahm-shAHlt",
+          "french": "Täglich, Uhrzeiten am Schalter."
+        }
+      ]
+    },
+    {
+      "id": "hamburg_elbphilharmonie_004",
+      "intent_en": "Where is the Großer Saal entrance",
+      "text_local": "Wo ist der Eingang zum Großen Saal?",
+      "pronunciation": "vOH-ihst-dehr-EYEnAHng-tsuhm-rOHsuhn-zAHl",
+      "formality": "standard",
+      "cultural_note": "Besucher erwarten eine klare Beschilderung oder Personal in der Nähe des Eingangs.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Der Eingang ist vorne links.",
+        "pronunciation": "dehr-EYEngAHng-ihst-fAWrnuh-lINGks",
+        "translation_en": "The entrance is at the front left."
+      },
+      "responses": [
+        {
+          "english": "The entrance is at the front left.",
+          "phonetic": "dehr-EYEngAHng-ihst-fAWrnuh-lINGks",
+          "french": "Der Eingang ist vorne links."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

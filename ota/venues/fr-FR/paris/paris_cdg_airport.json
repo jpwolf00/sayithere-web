@@ -1,0 +1,152 @@
+{
+  "id": "venue_cdg_airport",
+  "name_en": "Charles de Gaulle Airport",
+  "name_local": "Aéroport Charles de Gaulle",
+  "icon": "airplane",
+  "phrases": [
+    {
+      "id": "venue_cdg_001",
+      "intent_en": "Ask how to get to another terminal",
+      "text_local": "Comment aller au terminal 2E ?",
+      "pronunciation": "koh-MAHN ah-LAY oh tehr-mee-NAL duh UH",
+      "formality": "standard",
+      "cultural_note": "The free CDGVAL shuttle train connects all terminals. It runs every 4 minutes. Terminal 2 has sub-terminals (2A-2G) connected by walkways and buses.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Take the CDGVAL shuttle, it is free between terminals.",
+          "phonetic": "pruh-NAY lah nah-VET see-day-zhay-VAL, seh grah-TWEET ahn-truh lay tehr-mee-NOH",
+          "french": "Prenez la navette CDGVAL, c'est gratuit entre les terminaux."
+        }
+      ]
+    },
+    {
+      "id": "venue_cdg_002",
+      "intent_en": "Ask where to catch the RER B to Paris",
+      "text_local": "Où est la gare RER B pour aller à Paris ?",
+      "pronunciation": "oo eh lah GAHR air-uh-AIR BEH poor ah-LAY ah pah-REE",
+      "formality": "standard",
+      "cultural_note": "The RER B station is at Terminal 2 (between 2C/D and 2E/F) and Terminal 3. The train to central Paris takes about 35 minutes and costs around 11 euros.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The RER B is downstairs, follow the signs for 'Paris by train'.",
+          "phonetic": "luh ehr-uh-EHR bay eh tahn bah, swee-VAY lay pah-NOH pah-REE par luh trahn",
+          "french": "Le RER B est en bas, suivez les panneaux 'Paris par le train'."
+        }
+      ]
+    },
+    {
+      "id": "venue_cdg_003",
+      "intent_en": "Ask where to find a taxi",
+      "text_local": "Où est la station de taxis ?",
+      "pronunciation": "oo eh lah stah-SYOHN duh tahk-SEE",
+      "formality": "standard",
+      "cultural_note": "Official taxis are at marked stands outside arrivals. Fixed fare to Paris: 55 euros (Right Bank) or 62 euros (Left Bank). Never accept rides from people soliciting inside the terminal.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Taxis are at the exit, follow the signs.",
+          "phonetic": "lay tahk-SEE sohn tah lah sor-TEE, swee-VAY lay pah-NOH",
+          "french": "Les taxis sont à la sortie, suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "venue_cdg_004",
+      "intent_en": "Ask where passport control is",
+      "text_local": "Où est le contrôle des passeports ?",
+      "pronunciation": "oo eh luh kohn-TROHL day pahs-POR",
+      "formality": "standard",
+      "cultural_note": "EU passport holders can use the automated gates. Non-EU travelers use the staffed lanes. If you have a connecting flight, check if you need to go through passport control.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Passport control is after disembarkation, follow the signs.",
+          "phonetic": "luh kohn-TROHL day pahs-POR eh tah-PREH luh day-bark-MAHN, swee-VAY lay pah-NOH",
+          "french": "Le contrôle des passeports est après le débarquement, suivez les panneaux."
+        }
+      ]
+    },
+    {
+      "id": "venue_cdg_005",
+      "intent_en": "Ask where to get a SIM card or WiFi",
+      "text_local": "Où acheter une carte SIM prépayée ?",
+      "pronunciation": "oo ahsh-TAY oon KART seem pray-pay-YAY",
+      "formality": "standard",
+      "cultural_note": "SIM card shops are in the arrivals area. Free WiFi is available throughout CDG (network: WIFI-AIRPORT). Consider buying a SIM for data during your Paris stay.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "There are SIM card shops in the terminal, after customs.",
+          "phonetic": "eel ee ah day boo-TEEK duh kart seem dahn luh tehr-mee-NAL, ah-PREH lah dwahn",
+          "french": "Il y a des boutiques de cartes SIM dans le terminal, après la douane."
+        }
+      ]
+    },
+    {
+      "id": "venue_cdg_006",
+      "intent_en": "Ask about the Roissybus to Opéra",
+      "text_local": "Où prendre le Roissybus pour Opéra ?",
+      "pronunciation": "oo PRAHNDR luh rwah-see-BOOS poor oh-pay-RAH",
+      "formality": "standard",
+      "cultural_note": "The Roissybus runs directly to Opéra Garnier in central Paris. It costs about 16 euros and takes 60-75 minutes depending on traffic. Stops at all terminals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "The Roissybus leaves from the terminal exit, every fifteen minutes.",
+          "phonetic": "luh rwah-SEE-boos par duh lah sor-TEE doo tehr-mee-NAL, toot lay kanz mee-NOOT",
+          "french": "Le Roissybus part de la sortie du terminal, toutes les quinze minutes."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "Airport",
+      "word_local": "Aéroport",
+      "pronunciation": "ah-ay-roh-POR"
+    },
+    {
+      "word_en": "Terminal",
+      "word_local": "Terminal",
+      "pronunciation": "tehr-mee-NAL"
+    },
+    {
+      "word_en": "Arrivals",
+      "word_local": "Arrivées",
+      "pronunciation": "ah-ree-VAY"
+    },
+    {
+      "word_en": "Departures",
+      "word_local": "Départs",
+      "pronunciation": "day-PAR"
+    },
+    {
+      "word_en": "Customs",
+      "word_local": "Douane",
+      "pronunciation": "doo-AHN"
+    },
+    {
+      "word_en": "Shuttle",
+      "word_local": "Navette",
+      "pronunciation": "nah-VET"
+    },
+    {
+      "word_en": "Prepaid SIM",
+      "word_local": "Carte SIM prépayée",
+      "pronunciation": "kart seem pray-pay-YAY"
+    },
+    {
+      "word_en": "Taxi stand",
+      "word_local": "Station de taxis",
+      "pronunciation": "stah-SYOHN duh tahk-SEE"
+    }
+  ]
+}

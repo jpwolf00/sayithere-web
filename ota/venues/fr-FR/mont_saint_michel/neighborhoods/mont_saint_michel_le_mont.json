@@ -1,0 +1,101 @@
+{
+  "id": "msm_neighborhood_le_mont",
+  "name_en": "Le Mont (The Island Village)",
+  "name_local": "Le Mont-Saint-Michel",
+  "icon": "building.2",
+  "lat": 48.6355,
+  "lon": -1.5115,
+  "radius_m": 600,
+  "phrases": [
+    {
+      "id": "msm_mont_nb_001",
+      "intent_en": "Ask where to park and take the shuttle",
+      "text_local": "Où dois-je garer ma voiture pour prendre la navette vers le Mont ?",
+      "pronunciation": "oo DWAH-zhuh gah-RAY mah vwah-TOOR poor PRAHN-druh lah nah-VET vair luh MOHN",
+      "formality": "polite",
+      "cultural_note": "Private cars can no longer drive to the mount. Park in the designated car parks several kilometres away and board the free shuttle bus (navette gratuite) or walk the 3.5km causeway on foot.",
+      "responses": [
+        {
+          "english": "Park at the visitor parking lots on the mainland, the free shuttle leaves from there.",
+          "phonetic": "OO DWAZH GARE MA VWA-TYUR POOR PRAHNDR LA NA-VET VEHR LUH MOHN",
+          "french": "Garez-vous aux parkings visiteurs sur le continent, la navette gratuite part de là."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_mont_nb_002",
+      "intent_en": "Ask for hotel recommendations on the mount",
+      "text_local": "Pouvez-vous me recommander un hôtel sur le Mont lui-même ?",
+      "pronunciation": "poo-vay-VOO muh ruh-koh-mahn-DAY uhn oh-TEL soor luh MOHN lwee-MEM",
+      "formality": "polite",
+      "cultural_note": "Only a handful of small hotels exist on the mount itself, making them coveted for the experience of the island after day-trippers leave. Book months in advance for summer stays.",
+      "responses": [
+        {
+          "english": "There are very few hotels on the Mount, like Auberge Saint Pierre. I advise booking several months in advance.",
+          "phonetic": "POO-vuh-voo muh ruh-kuh-mahn-DAY uhn oh-TEL syoor luh MOHN lwee-MEM",
+          "french": "Il y a très peu d'hôtels sur le Mont, comme l'Auberge Saint Pierre. Je vous conseille de réserver plusieurs mois à l'avance."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_mont_nb_003",
+      "intent_en": "Ask what time the mount gets quieter in the evening",
+      "text_local": "À partir de quelle heure le Mont se vide-t-il des touristes ?",
+      "pronunciation": "ah par-TEER duh kel UR luh MOHN suh VEED-teel day too-REEST",
+      "formality": "polite",
+      "cultural_note": "Most day visitors leave by late afternoon. The island becomes magical after 6pm — fewer crowds, golden light on the abbey, and the sound of the incoming tide. Staying overnight is highly recommended.",
+      "responses": [
+        {
+          "english": "Early morning or late evening, it is calmer.",
+          "phonetic": "KAHN tay luh may-YUR moh-MAHN poor vee-zee-TAY",
+          "french": "Tôt le matin ou tard le soir, c'est plus calme."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "msm_mont_nb_004",
+      "intent_en": "Ask about the guided evening tour",
+      "text_local": "Y a-t-il une visite guidée du Mont le soir ?",
+      "pronunciation": "ee ah-TEEL oon vee-ZEET ghee-DAY doo MOHN luh SWAHR",
+      "formality": "polite",
+      "cultural_note": "Guided evening tours of the mount and abbey are offered seasonally, sometimes with special lighting. They provide access to areas closed during the day and a dramatically different atmosphere.",
+      "responses": [
+        {
+          "english": "No, guided tours stop in the late afternoon.",
+          "phonetic": "ee ah-TEEL oon vee-ZEET gee-DAY dyoo MON luh SWAR",
+          "french": "Non, les visites guidées s'arrêtent en fin d'après-midi."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "shuttle bus",
+      "word_local": "la navette",
+      "pronunciation": "lah nah-VET"
+    },
+    {
+      "word_en": "car park",
+      "word_local": "le parking",
+      "pronunciation": "luh par-KEENG"
+    },
+    {
+      "word_en": "causeway",
+      "word_local": "la digue",
+      "pronunciation": "lah DEEG"
+    },
+    {
+      "word_en": "the mount",
+      "word_local": "le Mont",
+      "pronunciation": "luh MOHN"
+    }
+  ]
+}

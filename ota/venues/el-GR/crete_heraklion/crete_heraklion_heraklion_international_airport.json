@@ -1,0 +1,188 @@
+{
+  "id": "crete_heraklion_heraklion_international_airport",
+  "name_en": "Heraklion International Airport",
+  "name_local": "Διεθνές Αεροδρόμιο «Νίκος Καζαντζάκης»",
+  "icon": "tram",
+  "lat": 35.337058,
+  "lon": 25.180972,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "crete_heraklion_heraklion_international_airport_001",
+      "intent_en": "Tourist phrase",
+      "text_local": "Πώς επικυρώνω το voucher μεταφοράς;",
+      "pronunciation": "pOHs-EHpeeeerOHnoh-toh-ehnvOWtshuhehl-mEHtahfohrAHs",
+      "formality": "standard",
+      "cultural_note": "Τα vouchers μεταφοράς προς θέρετρα είναι κοινά στην Κρήτη. Οι ταξιδιώτες συχνά αναζητούν σαφείς οδηγίες για την επικύρωσή τους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δείξτε το voucher στο γκισέ μεταφορών.",
+        "pronunciation": "thEEksteh-toh-ehnvOWtshuhehl-stoh-geesEH-mEHtahfohrOHn",
+        "translation_en": "Show the voucher at the transport desk."
+      },
+      "responses": [
+        {
+          "english": "Show the voucher at the transport desk.",
+          "phonetic": "thEEksteh-toh-ehnvOWtshuhehl-stoh-geesEH-mEHtahfohrOHn",
+          "french": "Δείξτε το voucher στο γκισέ μεταφορών."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_international_airport_002",
+      "intent_en": "Where is the Nikos Kazantzakis statue display",
+      "text_local": "Πού είναι η προτομή του Νίκου Καζαντζάκη;",
+      "pronunciation": "pOO-EEneh-ee-prOHtohmEE-too-nEEkoo-kAHzahdzAHee",
+      "formality": "standard",
+      "cultural_note": "Οι ταξιδιώτες συνήθως αναγνωρίζουν τη μνημείο από την ονομασία του αεροδρομίου. Η αναφορά στο μνημείο γίνεται συχνά ως 'το μνημείο' στις οδηγίες.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Η προτομή βρίσκεται στον χώρο αφίξεων, δίπλα στις γραμμές παραλαβής αποσκευών.",
+        "pronunciation": "ee-prOHtohmEE-vrEEsehtEH-stohn-khOHroh-ahfEEksehOHnthEEplah-steez-ghrahmEHs-pAHrahlahvEEs-AHpohsehvOHn",
+        "translation_en": "The statue is in the arrivals area, next to the baggage claim carousels."
+      },
+      "responses": [
+        {
+          "english": "The statue is in the arrivals area, next to the baggage claim carousels.",
+          "phonetic": "ee-prOHtohmEE-vrEEsehtEH-stohn-khOHroh-ahfEEksehOHnthEEplah-steez-ghrahmEHs-pAHrahlahvEEs-AHpohsehvOHn",
+          "french": "Η προτομή βρίσκεται στον χώρο αφίξεων, δίπλα στις γραμμές παραλαβής αποσκευών."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_international_airport_003",
+      "intent_en": "Where is the car rental desk?",
+      "text_local": "Πού είναι το γραφείο ενοικίασης αυτοκινήτων;",
+      "pronunciation": "pOO-EEneh-toh-ghrahfEEoh-EHneeEEahsEEs-AHftoheenEEtohn",
+      "formality": "standard",
+      "cultural_note": "Οι ταξιδιώτες αναζητούν συχνά το γραφείο ενοικίασης αυτοκινήτων κατά την άφιξή τους για να οργανώσουν τις μετακινήσεις τους.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Είναι στον χώρο αφίξεων.",
+        "pronunciation": "EEneh-stohn-khOHroh-ahfEEksehOHn",
+        "translation_en": "It is in the arrivals area."
+      },
+      "responses": [
+        {
+          "english": "It is in the arrivals area.",
+          "phonetic": "EEneh-stohn-khOHroh-ahfEEksehOHn",
+          "french": "Είναι στον χώρο αφίξεων."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_international_airport_004",
+      "intent_en": "Can I pay excess baggage here",
+      "text_local": "Μπορώ να πληρώσω εδώ υπέρβαρες αποσκευές;",
+      "pronunciation": "bohrOH-nah-pleerOHsoh-ehthOH-eepEHrvahrEHs-AHpohsehvEHs",
+      "formality": "standard",
+      "cultural_note": "Οι ταξιδιώτες συχνά έχουν ερωτήσεις σχετικά με τις υπερβαρές αποσκευές κατά την άφιξη ή αναχώρηση. Η απάντηση πρέπει να είναι άμεση και κατανοητή.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, στο γκισέ υπερβαρών.",
+        "pronunciation": "nEHstoh-geesEH-EEpehrvahrOHn",
+        "translation_en": "Yes, at the excess baggage counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the excess baggage counter.",
+          "phonetic": "nEHstoh-geesEH-EEpehrvahrOHn",
+          "french": "Ναι, στο γκισέ υπερβαρών."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_international_airport_005",
+      "intent_en": "How do I reach the car rental payment desk",
+      "text_local": "Πού είναι το γκισέ πληρωμής ενοικίασης αυτοκινήτων;",
+      "pronunciation": "pOO-EEneh-toh-tahmEEoh-EHneeEEahsEEs-AHftoheenEEtohn",
+      "formality": "standard",
+      "cultural_note": "Η ενοικίαση αυτοκινήτων είναι μια κοινή υπηρεσία στα αεροδρόμια και οι ταξιδιώτες αναμένουν σαφείς οδηγίες προς τον χώρο.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην αίθουσα αφίξεων.",
+        "pronunciation": "steen-EHthoos-ahfEEksehOHn",
+        "translation_en": "In the arrivals hall."
+      },
+      "responses": [
+        {
+          "english": "In the arrivals hall.",
+          "phonetic": "steen-EHthoos-ahfEEksehOHn",
+          "french": "Στην αίθουσα αφίξεων."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_international_airport_006",
+      "intent_en": "Is duty-free sold for domestic flights?",
+      "text_local": "Πωλείται duty-free σε εσωτερικές πτήσεις;",
+      "pronunciation": "pohlEEteh-ehndyOOteefrEEehl-seh-EHsohtEHreeEHs-ptEEsees",
+      "formality": "standard",
+      "cultural_note": "Οι ταξιδιώτες συχνά ελέγχουν τους περιορισμούς στο duty-free, ειδικά όταν ταξιδεύουν εντός Ελλάδας.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Όχι, μόνο για διεθνείς.",
+        "pronunciation": "OHkheemOHnoh-yAH-thEEehthnEEs",
+        "translation_en": "No, only for international."
+      },
+      "responses": [
+        {
+          "english": "No, only for international.",
+          "phonetic": "OHkheemOHnoh-yAH-thEEehthnEEs",
+          "french": "Όχι, μόνο για διεθνείς."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_international_airport_007",
+      "intent_en": "How do I use my resort transfer voucher?",
+      "text_local": "Πώς λειτουργεί το voucher μεταφοράς;",
+      "pronunciation": "pOHz-lEEtooryEE-toh-ehnvOWtshuhehl-mEHtahfohrAHs",
+      "formality": "standard",
+      "cultural_note": "Τα vouchers μεταφοράς προς θέρετρα χρησιμοποιούνται συχνότερα κατά την αναχώρηση από το αεροδρόμιο. Οι οδηγοί αναμένουν να τους επιδειχθούν.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Δείξτε το στον οδηγό.",
+        "pronunciation": "thEEksteh-toh-stohn-OHtheeghOH",
+        "translation_en": "Show it to the driver."
+      },
+      "responses": [
+        {
+          "english": "Show it to the driver.",
+          "phonetic": "thEEksteh-toh-stohn-OHtheeghOH",
+          "french": "Δείξτε το στον οδηγό."
+        }
+      ]
+    },
+    {
+      "id": "crete_heraklion_heraklion_international_airport_008",
+      "intent_en": "When does the Athens flight depart?",
+      "text_local": "Τι ώρα αναχωρεί η πτήση για Αθήνα;",
+      "pronunciation": "tEE-OHr-AHnahkhohrEE-ee-ptEEsee-yAH-ahthEEnah",
+      "formality": "standard",
+      "cultural_note": "Οι πτήσεις προς την Αθήνα είναι συχνές. Οι ταξιδιώτες ελέγχουν τις ώρες αναχώρησης στις οθόνες του αεροδρομίου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στις 10:30 το πρωί.",
+        "pronunciation": "stees-thEHkah-treeAHndah-toh-prohEE",
+        "translation_en": "At 10:30 in the morning."
+      },
+      "responses": [
+        {
+          "english": "At 10:30 in the morning.",
+          "phonetic": "stees-thEHkah-treeAHndah-toh-prohEE",
+          "french": "Στις 10:30 το πρωί."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

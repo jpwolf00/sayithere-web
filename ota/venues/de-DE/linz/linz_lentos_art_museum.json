@@ -1,0 +1,100 @@
+{
+  "id": "linz_lentos_art_museum",
+  "name_en": "Lentos Art Museum",
+  "name_local": "Lentos Kunstmuseum",
+  "icon": "building.columns",
+  "lat": 48.3085988,
+  "lon": 14.2888948,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "linz_lentos_art_museum_001",
+      "intent_en": "Where is the Danube terrace entrance?",
+      "text_local": "Wo ist der Zugang zur Donauterrasse?",
+      "pronunciation": "vOH-ihst-dehr-tsOOahng-tsoor-dOHnowtrAHsuh",
+      "formality": "standard",
+      "cultural_note": "Do not invent left/right directions; Danube-side orientation is a stable landmark.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Donauufer.",
+        "pronunciation": "ahm-dOHnowOOf",
+        "translation_en": "By the Danube bank."
+      },
+      "responses": [
+        {
+          "english": "By the Danube bank.",
+          "phonetic": "ahm-dOHnowOOf",
+          "french": "Am Donauufer."
+        }
+      ]
+    },
+    {
+      "id": "linz_lentos_art_museum_002",
+      "intent_en": "Where do I pay special exhibition surcharge?",
+      "text_local": "Wo zahle ich den Aufpreis für die Sonderausstellung?",
+      "pronunciation": "vOH-tsAHluh-ihkh-dehn-OWfprEYEs-fuer-dee-zAWndehrOWsshtuhlUHng",
+      "formality": "standard",
+      "cultural_note": "Generic escalation preferred over invented micro-location details.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Hauptschalter.",
+        "pronunciation": "ahm-hOWptshahlt",
+        "translation_en": "At the main counter."
+      },
+      "responses": [
+        {
+          "english": "At the main counter.",
+          "phonetic": "ahm-hOWptshahlt",
+          "french": "Am Hauptschalter."
+        }
+      ]
+    },
+    {
+      "id": "linz_lentos_art_museum_003",
+      "intent_en": "How do I rent the audio guide?",
+      "text_local": "Wie bekomme ich den Audioguide?",
+      "pronunciation": "vee-lEYE-UH-ihkh-dehn-ehnAWdihUHuheyeddeh-OWs",
+      "formality": "casual",
+      "cultural_note": "Exact location of audio guide rental not specified; route to supported staff point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "An der Kasse ausleihen.",
+        "pronunciation": "ahn-dehr-kAHsuh-OWslEYE-uhn",
+        "translation_en": "Borrow it at the ticket desk."
+      },
+      "responses": [
+        {
+          "english": "Borrow it at the ticket desk.",
+          "phonetic": "ahn-dehr-kAHsuh-OWslEYE-uhn",
+          "french": "An der Kasse ausleihen."
+        }
+      ]
+    },
+    {
+      "id": "linz_lentos_art_museum_004",
+      "intent_en": "Is the Neue Galerie collection open today?",
+      "text_local": "Hat die Neue Galerie heute geöffnet?",
+      "pronunciation": "haht-dee-nAWuhuh-AHlehrEE-hAWuhtuh-uhUHfnuht",
+      "formality": "standard",
+      "cultural_note": "Assume the collection follows general museum opening hours unless otherwise noted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute geöffnet.",
+        "pronunciation": "yAHhAWuhtuh-uhUHfnuht",
+        "translation_en": "Yes, open today."
+      },
+      "responses": [
+        {
+          "english": "Yes, open today.",
+          "phonetic": "yAHhAWuhtuh-uhUHfnuht",
+          "french": "Ja, heute geöffnet."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

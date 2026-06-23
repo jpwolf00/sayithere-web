@@ -1,0 +1,100 @@
+{
+  "id": "innsbruck_café_munding",
+  "name_en": "Café Munding",
+  "name_local": "Café Munding",
+  "icon": "fork.knife",
+  "lat": 47.267205,
+  "lon": 11.3926324,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "innsbruck_café_munding_001",
+      "intent_en": "Can I sit outside now?",
+      "text_local": "Darf man draußen sitzen?",
+      "pronunciation": "dAHrf-mahn-drOWsuhn-zIHtsuhn",
+      "formality": "standard",
+      "cultural_note": "In Tirol wird Outdoor-Sitzplatz oft selbstverständlich angeboten, sofern Wetter und Platz es zulassen.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, draußen ist frei.",
+        "pronunciation": "yAHdrOWsuhn-ihst-frEYE",
+        "translation_en": "Yes, outdoors is free."
+      },
+      "responses": [
+        {
+          "english": "Yes, outdoors is free.",
+          "phonetic": "yAHdrOWsuhn-ihst-frEYE",
+          "french": "Ja, draußen ist frei."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_café_munding_002",
+      "intent_en": "Is Tyrolean apple strudel available today?",
+      "text_local": "Gibt es heute Apfelstrudel?",
+      "pronunciation": "EEpt-ehs-hAWuhtuh-AHpfuhlstrOOduhl",
+      "formality": "standard",
+      "cultural_note": "Apfelstrudel ist ein klassisches Tiroler Dessert und in traditionellen Cafés meist täglich im Angebot.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute verfügbar.",
+        "pronunciation": "yAHhAWuhtuh-fehrfUEkbahr",
+        "translation_en": "Yes, available today."
+      },
+      "responses": [
+        {
+          "english": "Yes, available today.",
+          "phonetic": "yAHhAWuhtuh-fehrfUEkbahr",
+          "french": "Ja, heute verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_café_munding_003",
+      "intent_en": "Can I use my card here?",
+      "text_local": "Kann man hier kartenzahlen?",
+      "pronunciation": "kAHn-mahn-hEEr-kAHrtuhntsAHluhn",
+      "formality": "casual",
+      "cultural_note": "In Innsbrucker Cafés ist Kartenzahlung zunehmend verbreitet, Barkasse bleibt aber Standard.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, wir nehmen Karte.",
+        "pronunciation": "yAHveer-nEHmuhn-kAHrtuh",
+        "translation_en": "Yes, we accept card."
+      },
+      "responses": [
+        {
+          "english": "Yes, we accept card.",
+          "phonetic": "yAHveer-nEHmuhn-kAHrtuh",
+          "french": "Ja, wir nehmen Karte."
+        }
+      ]
+    },
+    {
+      "id": "innsbruck_café_munding_004",
+      "intent_en": "Do I pay at the counter here?",
+      "text_local": "Zahlt man hier am Tresen?",
+      "pronunciation": "tsAHlt-mahn-hEEr-ahm-trEHzuhn",
+      "formality": "casual",
+      "cultural_note": "In österreichischen Cafés ist Barzahlung am Tresen üblich, Trinkgeld in der Spendendose erwünscht.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, am Tresen.",
+        "pronunciation": "yAHahm-trEHzuhn",
+        "translation_en": "Yes, at the counter."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the counter.",
+          "phonetic": "yAHahm-trEHzuhn",
+          "french": "Ja, am Tresen."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

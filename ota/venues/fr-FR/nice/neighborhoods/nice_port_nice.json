@@ -1,0 +1,106 @@
+{
+  "id": "nice_neighborhood_port",
+  "name_en": "Nice Port Area",
+  "name_local": "Quartier du Port",
+  "icon": "building.2",
+  "lat": 43.696,
+  "lon": 7.2855,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "nice_nbhd_port_001",
+      "intent_en": "Ask what the neighbourhood is like in the evening",
+      "text_local": "Quelle est l'ambiance du quartier du port le soir ?",
+      "pronunciation": "KEL eh lam-BYANSS doo kar-TYAY doo POR leh SWAR",
+      "formality": "polite",
+      "cultural_note": "The Port area has a relaxed neighbourhood feel — less touristy than Vieux-Nice, with good local restaurants around Place Garibaldi.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "nice_nbhd_port_002",
+      "intent_en": "Ask where to buy ferry tickets to Corsica",
+      "text_local": "Où puis-je acheter des billets de ferry pour la Corse ?",
+      "pronunciation": "oo PWEE-zheh ash-TAY day bee-YAY deh FEH-ree poor lah KORS",
+      "formality": "polite",
+      "cultural_note": "Ferry companies Corsica Ferries and La Méridionale have offices near Port Lympia. Book in advance in summer.",
+      "responses": [
+        {
+          "english": "At the main ticket office, right at the port entrance.",
+          "phonetic": "OO pwee zhuh ah-SHTAY day bee-YAY duh feh-REE poor lah KORS",
+          "french": "Au guichet principal, juste à l'entrée du port."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_port_003",
+      "intent_en": "Ask if there are good seafood restaurants near the port",
+      "text_local": "Y a-t-il de bons restaurants de fruits de mer près du port ?",
+      "pronunciation": "ee ah-TEEL deh BON res-to-RAN deh frwee deh MEHR preh doo POR",
+      "formality": "polite",
+      "cultural_note": "The quais around Port Lympia are lined with seafood restaurants — generally better value than those on Cours Saleya.",
+      "responses": [
+        {
+          "english": "Yes, there are excellent ones on the port quays.",
+          "phonetic": "ES suh keel YA duh BON RES-toh-rahnt duh FRWEE duh MAIR PRAY dyu POR",
+          "french": "Oui, il y en a d'excellents sur les quais du port."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "nice_nbhd_port_004",
+      "intent_en": "Ask about the colourful houses on the hillside above the port",
+      "text_local": "Comment s'appelle ce quartier aux maisons colorées au-dessus du port ?",
+      "pronunciation": "kuh-MAN sah-PEL seh kar-TYAY oh may-ZON ko-lo-RAY oh-deh-SOO doo POR",
+      "formality": "polite",
+      "cultural_note": "The hillside neighbourhood of Mont Boron rises above the port with splendid Riviera villas and sea views.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": []
+    },
+    {
+      "id": "nice_nbhd_port_005",
+      "intent_en": "Ask how to walk from the port to Vieux-Nice",
+      "text_local": "Comment se rendre à pied du port au Vieux-Nice ?",
+      "pronunciation": "kuh-MAN seh RAN-dreh ah PYAY doo POR oh vyuh-NEES",
+      "formality": "polite",
+      "cultural_note": "Vieux-Nice is a 10-minute walk west from Port Lympia, with the option of climbing up through Castle Hill park.",
+      "responses": [
+        {
+          "english": "Cross the port and go up Rue Cassini.",
+          "phonetic": "kaw-MAHN suh RAHN-druh ah PYAY dyoo poor oh VYUH nees",
+          "french": "Traversez le port et remontez la rue Cassini."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "harbour area",
+      "word_local": "le quartier du port",
+      "pronunciation": "leh kar-TYAY doo POR"
+    },
+    {
+      "word_en": "ferry company",
+      "word_local": "la compagnie de ferry",
+      "pronunciation": "lah kom-pah-NYEE deh FEH-ree"
+    },
+    {
+      "word_en": "hillside",
+      "word_local": "le flanc de colline",
+      "pronunciation": "leh FLAN deh ko-LEEN"
+    },
+    {
+      "word_en": "quayside",
+      "word_local": "les quais",
+      "pronunciation": "lay KAY"
+    }
+  ]
+}

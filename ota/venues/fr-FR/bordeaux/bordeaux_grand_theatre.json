@@ -1,0 +1,118 @@
+{
+  "id": "bordeaux_grand_theatre",
+  "name_en": "Grand Théâtre de Bordeaux",
+  "name_local": "Grand Théâtre de Bordeaux",
+  "icon": "theatermasks",
+  "lat": 44.8434,
+  "lon": -0.574,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "bordeaux_grandtheatre_001",
+      "intent_en": "Buy two seats for tonight's opera performance",
+      "text_local": "Je voudrais acheter deux places pour le spectacle ce soir, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY ash-TAY duh PLASS poor luh spek-TAKL suh SWAHR seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The Grand Théâtre, built in 1780 by Victor Louis, was the model for the Paris Opéra Garnier.",
+      "responses": [
+        {
+          "english": "There are seats left in the orchestra.",
+          "phonetic": "eel REST day PLAHS ah lor-KESTR",
+          "french": "Il reste des places à l'orchestre."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_grandtheatre_002",
+      "intent_en": "Ask if guided tours of the theatre are available",
+      "text_local": "Est-ce qu'il y a des visites guidées du théâtre ?",
+      "pronunciation": "es-keel-YAH day vee-ZEET ghee-DAY doo tay-AH-truh",
+      "formality": "polite",
+      "cultural_note": "Guided tours of the Grand Théâtre are available and include the main auditorium, foyer, and grand staircase.",
+      "responses": [
+        {
+          "english": "Yes, every day at 2 PM.",
+          "phonetic": "wee, too lay ZHOOR ah kah-TORZ UHR",
+          "french": "Oui, tous les jours à quatorze heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_grandtheatre_003",
+      "intent_en": "Ask where to collect pre-booked tickets",
+      "text_local": "Où puis-je retirer mes billets réservés à l'avance ?",
+      "pronunciation": "oo PWEE-zhuh ruh-tee-RAY may bee-YAY ray-zair-VAY ah lah-VAHNS",
+      "formality": "polite",
+      "cultural_note": "The box office is on the ground floor; arrive early as queues can form before curtain time.",
+      "responses": [
+        {
+          "english": "At the box office, with your reference.",
+          "phonetic": "oh ghee-SHEH, ah-VEK voh-truh ray-fay-RAHNS",
+          "french": "Au guichet, avec votre référence."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_grandtheatre_004",
+      "intent_en": "Ask if there is a dress code for the evening performance",
+      "text_local": "Y a-t-il un code vestimentaire pour la représentation ce soir ?",
+      "pronunciation": "ee-ah-TEEL un kod ves-tee-mahn-TAIR poor lah ruh-pray-zahn-TAH-SYON suh SWAHR",
+      "formality": "polite",
+      "cultural_note": "Smart dress is expected at the Grand Théâtre, though strict formal wear is not always required.",
+      "responses": [
+        {
+          "english": "Smart dress required.",
+          "phonetic": "tuh-NOO koh-REKT eg-zee-ZHAY",
+          "french": "Tenue correcte exigée."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "bordeaux_grandtheatre_005",
+      "intent_en": "Ask for a programme for the current season",
+      "text_local": "Pourriez-vous me donner le programme de la saison en cours ?",
+      "pronunciation": "poo-RYAY-voo muh doh-NAY luh proh-GRAM duh lah say-ZOHN ahn KOOR",
+      "formality": "polite",
+      "cultural_note": "The Opéra National de Bordeaux presents opera, ballet, and orchestral concerts throughout the season.",
+      "responses": [
+        {
+          "english": "Here's the season programme.",
+          "phonetic": "vwah-SEE luh proh-GRAM duh lah seh-ZOHN",
+          "french": "Voici le programme de la saison."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "performance / show",
+      "word_local": "le spectacle",
+      "pronunciation": "luh spek-TAKL"
+    },
+    {
+      "word_en": "seat / ticket",
+      "word_local": "la place",
+      "pronunciation": "lah PLASS"
+    },
+    {
+      "word_en": "season",
+      "word_local": "la saison",
+      "pronunciation": "lah say-ZOHN"
+    },
+    {
+      "word_en": "box office",
+      "word_local": "le guichet",
+      "pronunciation": "luh ghee-SHAY"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "quebec_city_place_royale",
+  "name_en": "Place Royale",
+  "name_local": "Place Royale",
+  "icon": "building.2",
+  "lat": 46.8122,
+  "lon": -71.2053,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "qc_pr_001",
+      "intent_en": "Ask where the interpretation centre is",
+      "text_local": "Où se trouve le centre d'interprétation ?",
+      "pronunciation": "oo suh TROOV luh SAHN-truh dahn-tair-pray-tah-SYOHN",
+      "formality": "polite",
+      "cultural_note": "The interpretation centre near Place Royale provides context about the founding of New France.",
+      "responses": [
+        {
+          "english": "Right across, on the other side.",
+          "phonetic": "zhoost ahn FAHSS duh LOH-truh koh-TAY",
+          "french": "Juste en face, de l'autre côté."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pr_002",
+      "intent_en": "Ask where the interpretation centre is",
+      "text_local": "Le centre d'interprétation de Place Royale, c'est par où ?",
+      "pronunciation": "luh SAHN-truh dan-tair-pray-tah-SYON duh PLASS rwah-YAHL say par OO",
+      "formality": "polite",
+      "cultural_note": "The Interpretation Centre tells the story of 400 years of French-Canadian urban life and has bilingual interactive exhibits inside a beautifully restored building.",
+      "responses": [
+        {
+          "english": "Right across, on the other side.",
+          "phonetic": "zhoost ahn FAHSS duh LOH-truh koh-TAY",
+          "french": "Juste en face, de l'autre côté."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pr_003",
+      "intent_en": "Ask for a photo with a historical character actor",
+      "text_local": "Est-ce que je peux avoir une photo avec vous ?",
+      "pronunciation": "ess-KUH zhuh puh ah-VWAHR OON fo-TOH ah-VEK VOO",
+      "formality": "polite",
+      "cultural_note": "In summer, costumed historical interpreters portray early French settlers and gladly pose for photos. A charming and educational encounter.",
+      "responses": [
+        {
+          "english": "You need to ask them directly.",
+          "phonetic": "eel foh lur duh-mahn-DAY dee-rek-tuh-MAHN",
+          "french": "Il faut leur demander directement."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pr_004",
+      "intent_en": "Ask where to find authentic Québec artisan goods",
+      "text_local": "Y'a des boutiques d'artisanat québécois dans le coin ?",
+      "pronunciation": "yah day boo-TEEK dar-tee-zah-NAH kay-bay-KWAH dahn luh KWAN",
+      "formality": "informal",
+      "cultural_note": "The streets around Place Royale have galleries and shops selling local crafts, Inuit art, and handmade goods. Look for the Conseil des métiers d'art label.",
+      "responses": [
+        {
+          "english": "There are shops on Petit-Champlain Street.",
+          "phonetic": "eel ee ah day boo-TEEK ROO doo puh-TEE shahm-PLAHN",
+          "french": "Il y a des boutiques rue du Petit-Champlain."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "qc_pr_005",
+      "intent_en": "Ask about the Lévis ferry from nearby",
+      "text_local": "La traverse pour Lévis, c'est encore loin d'ici ?",
+      "pronunciation": "lah trah-VAIRSS poor lay-VEE say ahn-KOR LWAH dee-SEE",
+      "formality": "neutral",
+      "cultural_note": "The Lévis-Québec ferry departs from just below Place Royale and offers one of the best views of Château Frontenac for a minimal fare.",
+      "responses": [
+        {
+          "english": "The dock is at the bottom of the hill.",
+          "phonetic": "luh KAY eh tahn BAH duh lah KOHT",
+          "french": "Le quai est en bas de la côte."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "birthplace / cradle",
+      "word_local": "le berceau",
+      "pronunciation": "luh bair-SOH"
+    },
+    {
+      "word_en": "craftwork / artisan goods",
+      "word_local": "l'artisanat",
+      "pronunciation": "lar-tee-zah-NAH"
+    },
+    {
+      "word_en": "ferry",
+      "word_local": "la traverse",
+      "pronunciation": "lah trah-VAIRSS"
+    },
+    {
+      "word_en": "historical site",
+      "word_local": "le site historique",
+      "pronunciation": "luh SEET ees-to-REEK"
+    }
+  ]
+}

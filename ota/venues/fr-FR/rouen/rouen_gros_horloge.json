@@ -1,0 +1,118 @@
+{
+  "id": "rouen_gros_horloge",
+  "name_en": "Great Clock (Gros-Horloge)",
+  "name_local": "Le Gros-Horloge",
+  "icon": "building.columns",
+  "lat": 49.4404,
+  "lon": 1.0922,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "rouen_horloge_001",
+      "intent_en": "Ask for a ticket to climb the belfry",
+      "text_local": "Je voudrais un billet pour monter dans le beffroi du Gros-Horloge.",
+      "pronunciation": "zhuh voo-DRAY uhn bee-YAY poor mohn-TAY dahn luh beh-FRWAH doo groh-or-LOHJ",
+      "formality": "polite",
+      "cultural_note": "The Gros-Horloge belfry can be climbed for panoramic views over the half-timbered rooftops of Rouen. The ticket also includes access to the clock mechanism room and a small horological museum.",
+      "responses": [
+        {
+          "english": "At the ticket desk, at the base of the tower.",
+          "phonetic": "oh gee-SHAY ahn BAH duh lah TOOR",
+          "french": "Au guichet, en bas de la tour."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_horloge_002",
+      "intent_en": "Ask how much the belfry ticket costs",
+      "text_local": "C'est combien le billet pour le beffroi ?",
+      "pronunciation": "say kohm-BYAHN luh bee-YAY poor luh beh-FRWAH",
+      "formality": "polite",
+      "cultural_note": "The belfry visit gives access to the clock mechanism and a panoramic view.",
+      "responses": [
+        {
+          "english": "It is indicated at the ticket desk.",
+          "phonetic": "say tahn-dee-KAY oh gee-SHAY",
+          "french": "C'est indiqué au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_horloge_003",
+      "intent_en": "Ask what time the belfry closes",
+      "text_local": "À quelle heure ferme le beffroi ?",
+      "pronunciation": "ah kel UR FERM luh beh-FRWAH",
+      "formality": "polite",
+      "cultural_note": "The Gros-Horloge belfry has seasonal hours.",
+      "responses": [
+        {
+          "english": "At six, last entry at five thirty.",
+          "phonetic": "ah dee-ZWEET UR dair-NYAIR ahn-TRAY ah dee-SET UR TRAHNT",
+          "french": "À dix-huit heures, dernière entrée à dix-sept heures trente."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_horloge_004",
+      "intent_en": "Ask about the street for photographs",
+      "text_local": "De quel côté de l'arche vaut-il mieux se placer pour photographier l'horloge ?",
+      "pronunciation": "duh kel koh-TAY duh lARSH voh-teel MYUH suh plah-SAY poor foh-toh-grah-FYAY lor-LOHJ",
+      "formality": "polite",
+      "cultural_note": "The Rue du Gros-Horloge is pedestrianised and lined with colourful half-timbered buildings. The best photographic angle is from the east (cathedral side), catching the clock face in morning light.",
+      "responses": [
+        {
+          "english": "From the street, below.",
+          "phonetic": "duh-PWEE lah ROO ahn kohn-truh-BAH",
+          "french": "Depuis la rue, en contrebas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_horloge_005",
+      "intent_en": "Ask about guided tours",
+      "text_local": "Y a-t-il des visites guidées du Gros-Horloge en anglais ?",
+      "pronunciation": "ee ah-TEEL day vee-ZEET ghee-DAY doo groh-or-LOHJ ahn ahn-GLAY",
+      "formality": "polite",
+      "cultural_note": "Guided tours in English are available on certain days during high season. The guides explain both the clock's mechanism and the surrounding medieval streetscape. Check the tourist office for the current schedule.",
+      "responses": [
+        {
+          "english": "Yes, ask at the ticket desk.",
+          "phonetic": "wee rahn-sen-YAY-voo oh gee-SHAY",
+          "french": "Oui, renseignez-vous au guichet."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "clock",
+      "word_local": "l'horloge",
+      "pronunciation": "lor-LOHJ"
+    },
+    {
+      "word_en": "belfry",
+      "word_local": "le beffroi",
+      "pronunciation": "luh beh-FRWAH"
+    },
+    {
+      "word_en": "clock face",
+      "word_local": "le cadran",
+      "pronunciation": "luh kah-DRAHN"
+    },
+    {
+      "word_en": "half-timbered",
+      "word_local": "à colombages",
+      "pronunciation": "ah koh-lohn-BAHJ"
+    }
+  ]
+}

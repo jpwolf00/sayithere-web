@@ -1,0 +1,100 @@
+{
+  "id": "naxos_naxos_tourist_information_office",
+  "name_en": "Naxos Tourist Information Office",
+  "name_local": "Γραφείο Τουριστικών Πληροφοριών Νάξου",
+  "icon": "info.circle",
+  "lat": 37.0600105,
+  "lon": 25.4707567,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "naxos_naxos_tourist_information_office_001",
+      "intent_en": "How do I book a guided tour?",
+      "text_local": "Πώς κλείνω μια ξενάγηση;",
+      "pronunciation": "pOHs-klEEnoh-ksehnAHyeesEE",
+      "formality": "standard",
+      "cultural_note": "Οι κρατήσεις ξεναγήσεων γίνονται από τους υπαλλήλους του γραφείου πληροφοριών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Κλείνεται εδώ στην υποδοχή.",
+        "pronunciation": "klEEnehtEH-ehthOH-steen-EEpohthohkhEE",
+        "translation_en": "It is booked here at the reception."
+      },
+      "responses": [
+        {
+          "english": "It is booked here at the reception.",
+          "phonetic": "klEEnehtEH-ehthOH-steen-EEpohthohkhEE",
+          "french": "Κλείνεται εδώ στην υποδοχή."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_tourist_information_office_002",
+      "intent_en": "Is the Apiranthos bus running today?",
+      "text_local": "Τρέχει σήμερα το λεωφορείο για την Απείρανθο;",
+      "pronunciation": "trEHkhee-sEEmehrAH-toh-lEHohfohrEEoh-yAH-teen-ahpEErahnthOH",
+      "formality": "standard",
+      "cultural_note": "Οι ώρες των λεωφορείων για την Απείρανθο αναφέρονται ως 'Apiranthos bus times' και διαχειρίζονται από συγκεκριμένο υπάλληλο.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, τρέχει κανονικά.",
+        "pronunciation": "nEHtrEHkhee-kAHnohneekAH",
+        "translation_en": "Yes, it's running normally."
+      },
+      "responses": [
+        {
+          "english": "Yes, it's running normally.",
+          "phonetic": "nEHtrEHkhee-kAHnohneekAH",
+          "french": "Ναι, τρέχει κανονικά."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_tourist_information_office_003",
+      "intent_en": "Where can I buy bus tickets?",
+      "text_local": "Πού μπορώ να αγοράσω εισιτήρια λεωφορείου;",
+      "pronunciation": "pOO-bohrOH-n-AHghohrAHsoh-EEseetEEreeAH-lEHohfohrEEoo",
+      "formality": "polite",
+      "cultural_note": "Οι υπάλληλοι αναφέρονται ως 'ypallilos touristikou grafiou' στο πλαίσιο του γραφείου πληροφοριών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Από τον ίδιο τον οδηγό.",
+        "pronunciation": "ahpOH-tohn-EEtheeOH-tohn-OHtheeghOH",
+        "translation_en": "From the driver himself."
+      },
+      "responses": [
+        {
+          "english": "From the driver himself.",
+          "phonetic": "ahpOH-tohn-EEtheeOH-tohn-OHtheeghOH",
+          "french": "Από τον ίδιο τον οδηγό."
+        }
+      ]
+    },
+    {
+      "id": "naxos_naxos_tourist_information_office_004",
+      "intent_en": "Do you have Temple of Demeter leaflets?",
+      "text_local": "Έχετε φυλλάδια για τον Ναό της Δήμητρας;",
+      "pronunciation": "EHkhehtEH-feelAHthyah-yAH-tohn-nahOH-teez-thEEmeetrAHs",
+      "formality": "standard",
+      "cultural_note": "Τα φυλλάδια αναφέρονται ως 'Temple of Demeter leaflet' και αποτελούν σταθερό στόχο του γραφείου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, στο τραπέζι δεξιά.",
+        "pronunciation": "nEHstoh-trahpEHzee-thEHkseeAH",
+        "translation_en": "Hello, yes."
+      },
+      "responses": [
+        {
+          "english": "Hello, yes.",
+          "phonetic": "nEHstoh-trahpEHzee-thEHkseeAH",
+          "french": "Ναι, στο τραπέζι δεξιά."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

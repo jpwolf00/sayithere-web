@@ -1,0 +1,100 @@
+{
+  "id": "zermatt_sonnematten_alpine_panorama_trail",
+  "name_en": "Sonnematten Alpine Panorama Trail",
+  "name_local": "Sonnematten Panoramaweg",
+  "icon": "leaf",
+  "lat": 46.0212076,
+  "lon": 7.749254,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "zermatt_sonnematten_alpine_panorama_trail_001",
+      "intent_en": "Where does the trail cross Findelbach stream",
+      "text_local": "Wo überquert der Weg den Findelbach?",
+      "pronunciation": "vOH-UEbkvEHrt-dehr-vEHk-dehn-fIHnduhlbAHkh",
+      "formality": "standard",
+      "cultural_note": "Streams are often marked by small bridges or stepping stones; locals refer to the path by the stream's name.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Findelbach-Steig.",
+        "pronunciation": "ahm-fIHnduhlbAHkhshtEYEk",
+        "translation_en": "At the Findelbach stream trail."
+      },
+      "responses": [
+        {
+          "english": "At the Findelbach stream trail.",
+          "phonetic": "ahm-fIHnduhlbAHkhshtEYEk",
+          "french": "Am Findelbach-Steig."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_sonnematten_alpine_panorama_trail_002",
+      "intent_en": "Is the Sunnegga-Blauherd cable car running today",
+      "text_local": "Fährt die Sunnegga-Blauherd-Bahn heute?",
+      "pronunciation": "fEHrt-dee-zuhnEHahblOWhtbAHn-hAWuhtuh",
+      "formality": "standard",
+      "cultural_note": "Cable car operations depend on weather; staff at the valley station confirm daily status.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, heute in Betrieb.",
+        "pronunciation": "yAHhAWuhtuh-ihn-buhtrEEp",
+        "translation_en": "Yes, running today."
+      },
+      "responses": [
+        {
+          "english": "Yes, running today.",
+          "phonetic": "yAHhAWuhtuh-ihn-buhtrEEp",
+          "french": "Ja, heute in Betrieb."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_sonnematten_alpine_panorama_trail_003",
+      "intent_en": "How do I combine this with Gornergrat railway",
+      "text_local": "Wie kombiniere ich das mit der Gornergratbahn?",
+      "pronunciation": "vee-kAWmbeenEEruh-ihkh-dahs-miht-dehr-AWrnrAHtbahn",
+      "formality": "standard",
+      "cultural_note": "Ticket integration is managed at service points; exact routing is not publicly signposted.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Die Bahn fährt oberhalb vom Weg.",
+        "pronunciation": "dee-bAHn-fEHrt-OHbhAHlp-fawm-vEHk",
+        "translation_en": "The railway runs above the trail."
+      },
+      "responses": [
+        {
+          "english": "The railway runs above the trail.",
+          "phonetic": "dee-bAHn-fEHrt-OHbhAHlp-fawm-vEHk",
+          "french": "Die Bahn fährt oberhalb vom Weg."
+        }
+      ]
+    },
+    {
+      "id": "zermatt_sonnematten_alpine_panorama_trail_004",
+      "intent_en": "Where is the best Alpine meadow loop start",
+      "text_local": "Wo beginnt die beste Almwiesen-Runde?",
+      "pronunciation": "vOH-buhIHnt-dee-bEHstuh-AHlmveezuhnrUHnduh",
+      "formality": "standard",
+      "cultural_note": "Sunnegga is a well-known starting point for alpine meadow loops; locals use it as a landmark.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bei Sunnegga.",
+        "pronunciation": "beye-zuhnEHah",
+        "translation_en": "At Sunnegga."
+      },
+      "responses": [
+        {
+          "english": "At Sunnegga.",
+          "phonetic": "beye-zuhnEHah",
+          "french": "Bei Sunnegga."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

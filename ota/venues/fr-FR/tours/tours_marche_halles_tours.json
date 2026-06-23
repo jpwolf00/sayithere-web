@@ -1,0 +1,115 @@
+{
+  "id": "tours_marche_halles",
+  "name_en": "Les Halles – Covered Market of Tours",
+  "name_local": "Marché des Halles de Tours",
+  "icon": "basket",
+  "phrases": [
+    {
+      "id": "tours_halles_001",
+      "intent_en": "Ask where the charcuterie stalls are",
+      "text_local": "Où se trouvent les stands de charcuterie ?",
+      "pronunciation": "oo suh TROOV lay STAHN duh shar-koo-tuh-REE",
+      "formality": "polite",
+      "cultural_note": "Les Halles de Tours is one of the finest covered markets in the Loire Valley. Touraine rillettes — slow-cooked pork spread — are a must-try regional speciality.",
+      "responses": [
+        {
+          "english": "At the back of the market, on the right.",
+          "phonetic": "oh FOHN doo mar-SHAY soor lah DRWAHT",
+          "french": "Au fond du marché, sur la droite."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_halles_002",
+      "intent_en": "Ask if they sell rillettes de Tours",
+      "text_local": "Vendez-vous des rillettes de Tours ?",
+      "pronunciation": "vahn-DAY-voo day ree-YET duh TOOR",
+      "formality": "polite",
+      "cultural_note": "Rillettes de Tours (chunky, lightly spiced pork rillettes) differ from the smoother rillettes du Mans. They have IGP (protected geographical indication) status.",
+      "responses": [
+        {
+          "english": "Yes, at the charcutier over there.",
+          "phonetic": "wee shay luh shar-koo-TYAY lah-BAH",
+          "french": "Oui, chez le charcutier là-bas."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_halles_003",
+      "intent_en": "Ask what time the market closes",
+      "text_local": "À quelle heure ferme le marché ?",
+      "pronunciation": "ah kel UR FAIRM luh mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "Les Halles de Tours is open Tuesday through Sunday mornings. It closes at lunchtime, so visit early for the best selection.",
+      "responses": [
+        {
+          "english": "At one o'clock.",
+          "phonetic": "ah TREZ UR",
+          "french": "À treize heures."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_halles_004",
+      "intent_en": "Ask where to find fresh Loire Valley mushrooms",
+      "text_local": "Où puis-je trouver des champignons de la région ?",
+      "pronunciation": "oo PWEE-zhuh troo-VAY day shahm-peen-YON duh lah ray-ZHYON",
+      "formality": "polite",
+      "cultural_note": "The Loire Valley is the largest mushroom-growing region in France. Button mushrooms (champignons de Paris), shiitake, and oyster mushrooms are cultivated in the region's tuffeau caves.",
+      "responses": [
+        {
+          "english": "At the greengrocer, in the middle of the market.",
+          "phonetic": "shay luh mah-ray-SHAY oh mee-LYUH doo mar-SHAY",
+          "french": "Chez le maraîcher, au milieu du marché."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "tours_halles_005",
+      "intent_en": "Ask a vendor about the seasonal fruit",
+      "text_local": "Quels sont les fruits de saison en ce moment ?",
+      "pronunciation": "kel son lay FRWEE duh say-ZOHN ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The Loire Valley produces excellent pears (Poire de Tours), plums, and strawberries. Seasonal availability changes each month.",
+      "responses": [
+        {
+          "english": "The strawberries are excellent right now.",
+          "phonetic": "lay FREZ sohn tek-say-LAHNT ahn suh moh-MAHN",
+          "french": "Les fraises sont excellentes en ce moment."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "covered market",
+      "word_local": "les halles",
+      "pronunciation": "lay AL"
+    },
+    {
+      "word_en": "rillettes",
+      "word_local": "les rillettes",
+      "pronunciation": "lay ree-YET"
+    },
+    {
+      "word_en": "mushroom",
+      "word_local": "le champignon",
+      "pronunciation": "luh shahm-peen-YON"
+    },
+    {
+      "word_en": "seasonal",
+      "word_local": "de saison",
+      "pronunciation": "duh say-ZOHN"
+    }
+  ]
+}

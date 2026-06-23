@@ -1,0 +1,118 @@
+{
+  "id": "rouen_musee_beaux_arts",
+  "name_en": "Museum of Fine Arts",
+  "name_local": "Musée des Beaux-Arts de Rouen",
+  "icon": "building.columns",
+  "lat": 49.4441,
+  "lon": 1.0951,
+  "radius_m": 120,
+  "phrases": [
+    {
+      "id": "rouen_mba_001",
+      "intent_en": "Ask where the Monet cathedral paintings are displayed",
+      "text_local": "Où se trouve la salle consacrée aux tableaux de Monet représentant la cathédrale ?",
+      "pronunciation": "oo suh TROOV lah SAL kohn-sah-KRAY oh tah-BLOH duh moh-NAY ruh-pray-zahn-TAHN lah kah-tay-DRAL",
+      "formality": "polite",
+      "cultural_note": "The museum owns several of Monet's Cathedral series paintings. They are among the highlights of the permanent collection and demonstrate his revolutionary exploration of light and atmosphere.",
+      "responses": [
+        {
+          "english": "First floor, Impressionist room.",
+          "phonetic": "oh pruh-MYAY ay-TAHZH SAHL day zam-pray-syoh-NEEST",
+          "french": "Au premier étage, salle des Impressionnistes."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_mba_002",
+      "intent_en": "Ask whether there is a current temporary exhibition",
+      "text_local": "Y a-t-il une exposition temporaire en ce moment ?",
+      "pronunciation": "ee ah-TEEL oon ex-poh-zee-SYOHN tahm-poh-RAIR ahn suh moh-MAHN",
+      "formality": "polite",
+      "cultural_note": "The Musée des Beaux-Arts de Rouen is one of France's largest regional art museums, with a collection spanning the 15th to 20th centuries. Its temporary exhibitions are often of national importance.",
+      "responses": [
+        {
+          "english": "Yes, it is posted at reception.",
+          "phonetic": "wee say tah-fee-SHAY ah lah-KUY",
+          "french": "Oui, c'est affiché à l'accueil."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_mba_003",
+      "intent_en": "Ask if there is a student discount",
+      "text_local": "Il y a un tarif étudiant ?",
+      "pronunciation": "eel ee ah uhn tah-REEF ay-too-DYAHN",
+      "formality": "polite",
+      "cultural_note": "Most French museums offer reduced rates for students under 26.",
+      "responses": [
+        {
+          "english": "Yes, with your student card.",
+          "phonetic": "wee ah-VEK VOH-truh KART day-too-DYAHN",
+          "french": "Oui, avec votre carte d'étudiant."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_mba_004",
+      "intent_en": "Ask for a museum map",
+      "text_local": "Pourriez-vous me donner un plan du musée, s'il vous plaît ?",
+      "pronunciation": "poor-YAY-voo muh doh-NAY uhn PLAHN doo moo-ZAY seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "The museum is large and spread across multiple floors. A free floor plan is available at the entrance in several languages. The highlights room (les chefs-d'œuvre) is a good starting point.",
+      "responses": [
+        {
+          "english": "Yes, pick one up at reception.",
+          "phonetic": "wee pruh-NAY zahn uhn ah lah-KUY",
+          "french": "Oui, prenez-en un à l'accueil."
+        }
+      ],
+      "speech_act": "request",
+      "expects_reply": true
+    },
+    {
+      "id": "rouen_mba_005",
+      "intent_en": "Ask about the museum shop",
+      "text_local": "Est-ce qu'il y a une librairie-boutique dans le musée ?",
+      "pronunciation": "ess keel ee ah oon lee-brai-REE-boo-TEEK dahn luh moo-ZAY",
+      "formality": "polite",
+      "cultural_note": "The museum shop stocks quality art books, prints of the Monet cathedral series, and postcards. It is open during museum hours and accessible without a museum ticket.",
+      "responses": [
+        {
+          "english": "On the ground floor, near the exit.",
+          "phonetic": "oh ray-duh-shoh-SAY pray duh lah sor-TEE",
+          "french": "Au rez-de-chaussée, près de la sortie."
+        }
+      ],
+      "speech_act": "question",
+      "expects_reply": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "painting",
+      "word_local": "le tableau",
+      "pronunciation": "luh tah-BLOH"
+    },
+    {
+      "word_en": "permanent collection",
+      "word_local": "la collection permanente",
+      "pronunciation": "lah koh-lek-SYOHN pair-mah-NAHNT"
+    },
+    {
+      "word_en": "temporary exhibition",
+      "word_local": "l'exposition temporaire",
+      "pronunciation": "lex-poh-zee-SYOHN tahm-poh-RAIR"
+    },
+    {
+      "word_en": "masterpiece",
+      "word_local": "le chef-d'œuvre",
+      "pronunciation": "luh shef-DUV-ruh"
+    }
+  ]
+}

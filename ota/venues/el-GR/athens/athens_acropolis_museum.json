@@ -1,0 +1,78 @@
+{
+  "id": "athens_acropolis_museum",
+  "name_en": "Acropolis Museum",
+  "name_local": "Μουσείο Ακρόπολης",
+  "icon": "building.columns",
+  "lat": 37.9685331,
+  "lon": 23.7284706,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "athens_acropolis_museum_001",
+      "intent_en": "Does the cafe need a museum ticket",
+      "text_local": "Χρειάζεται εισιτήριο μουσείου για το cafe;",
+      "pronunciation": "khrkhAHzehtEH-EEseetEEreeOH-moosEEoo-yAH-toh-ehnkAHfayehl",
+      "formality": "standard",
+      "cultural_note": "Η απαίτηση εισιτηρίου για υπηρεσίες εντός μουσείων αποτελεί συχνή ερώτηση επισκεπτών.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, απαιτείται εισιτήριο μουσείου.",
+        "pronunciation": "nEHAHpehtEEteh-EEseetEEreeOH-moosEEoo",
+        "translation_en": "Yes, it does."
+      },
+      "responses": [
+        {
+          "english": "Yes, it does.",
+          "phonetic": "nEHAHpehtEEteh-EEseetEEreeOH-moosEEoo",
+          "french": "Ναι, απαιτείται εισιτήριο μουσείου."
+        }
+      ]
+    },
+    {
+      "id": "athens_acropolis_museum_002",
+      "intent_en": "Is there wheelchair access to the Caryatids display",
+      "text_local": "Υπάρχει πρόσβαση με αναπηρικό καροτσάκι στις Καρυάτιδες;",
+      "pronunciation": "eepAHrkhee-prOHsvahsEE-meh-AHnahpEEreekOH-kAHrohtsAHee-stees-kAHreeAHteethEHs",
+      "formality": "standard",
+      "cultural_note": "Η πρόσβαση ατόμων με κινητικές δυσκολίες αποτελεί συχνή ερώτηση λόγω του μεγάλου αριθμού επισκεπτών.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ναι, υπάρχει.",
+        "pronunciation": "nEHeepAHrkhee",
+        "translation_en": "Yes, there is."
+      },
+      "responses": [
+        {
+          "english": "Yes, there is.",
+          "phonetic": "nEHeepAHrkhee",
+          "french": "Ναι, υπάρχει."
+        }
+      ]
+    },
+    {
+      "id": "athens_acropolis_museum_003",
+      "intent_en": "Is the glass floor section open now",
+      "text_local": "Είναι ανοιχτή η περιοχή με το γυάλινο πάτωμα;",
+      "pronunciation": "EEneh-AHneekhtEE-ee-pEHreeohkhEE-meh-toh-yAHleenOH-pAHtohmAH",
+      "formality": "standard",
+      "cultural_note": "Οι επισκέπτες συχνά αναζητούν επιβεβαίωση για ανοιχτές περιοχές λόγω εύκολου ελέγχου.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, είναι ανοιχτή.",
+        "pronunciation": "nEHEEneh-AHneekhtEE",
+        "translation_en": "Yes, it is open."
+      },
+      "responses": [
+        {
+          "english": "Yes, it is open.",
+          "phonetic": "nEHEEneh-AHneekhtEE",
+          "french": "Ναι, είναι ανοιχτή."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

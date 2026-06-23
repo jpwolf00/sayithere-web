@@ -1,0 +1,56 @@
+{
+  "id": "the_hague_the_hague_market",
+  "name_en": "The Hague Market",
+  "name_local": "Haagse Markt",
+  "icon": "cart",
+  "lat": 52.064398,
+  "lon": 4.2993206,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "the_hague_the_hague_market_001",
+      "intent_en": "Where is the nearest ATM inside",
+      "text_local": "Waar is de dichtstbijzijnde pinautomaat hierbinnen?",
+      "pronunciation": "vAHr-ihs-duh-dIHkhtstbehihzEHihnduh-pEEnuhuhtohmAHt-hEErbihnuhn",
+      "formality": "standard",
+      "cultural_note": "ATMs are located at main entrances; not many inside the market area.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bij de Herman Costerstraat-ingang.",
+        "pronunciation": "behih-duh-hEHrmAHn-kAWstuhrstrAHtIHnghAHng",
+        "translation_en": "At the Herman Costerstraat entrance."
+      },
+      "responses": [
+        {
+          "english": "At the Herman Costerstraat entrance.",
+          "phonetic": "behih-duh-hEHrmAHn-kAWstuhrstrAHtIHnghAHng",
+          "french": "Bij de Herman Costerstraat-ingang."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_the_hague_market_002",
+      "intent_en": "Do you have fresh mango today",
+      "text_local": "Hebt u vandaag verse mango?",
+      "pronunciation": "hehpt-ue-vahndAHkh-vuhrsEH-mAHngoh",
+      "formality": "standard",
+      "cultural_note": "Fresh produce availability varies per day; greengrocers often have seasonal fruit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja, bij de groenteboer.",
+        "pronunciation": "yAHbehih-duh-ghrOOntuhbOOr",
+        "translation_en": "Yes, at the greengrocer."
+      },
+      "responses": [
+        {
+          "english": "Yes, at the greengrocer.",
+          "phonetic": "yAHbehih-duh-ghrOOntuhbOOr",
+          "french": "Ja, bij de groenteboer."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "the_hague_escher_in_the_palace",
+  "name_en": "Escher in The Palace",
+  "name_local": "Escher in Het Paleis",
+  "icon": "building.columns",
+  "lat": 52.0834161,
+  "lon": 4.3142554,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "the_hague_escher_in_the_palace_001",
+      "intent_en": "When does the last entry start",
+      "text_local": "Wanneer is de laatste toegang?",
+      "pronunciation": "vahnIHr-ihs-duh-lAHtstuh-tOOghAHng",
+      "formality": "standard",
+      "cultural_note": "Dutch museums often close doors at closing time without exception.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "30 minuten voor sluiting.",
+        "pronunciation": "dEHrtuhkh-mEEnuetuhn-vawr-slUHueting",
+        "translation_en": "30 minutes before closing."
+      },
+      "responses": [
+        {
+          "english": "30 minutes before closing.",
+          "phonetic": "dEHrtuhkh-mEEnuetuhn-vawr-slUHueting",
+          "french": "30 minuten voor sluiting."
+        }
+      ]
+    },
+    {
+      "id": "the_hague_escher_in_the_palace_002",
+      "intent_en": "Is flash allowed for Relativity display",
+      "text_local": "Mag ik flitsen bij Relativiteit?",
+      "pronunciation": "mahkh-ihk-flIHtsuhn-behih-rEHlahtEEveetEHiht",
+      "formality": "polite",
+      "cultural_note": "Dutch museums enforce strict no-flash policies to protect art.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Nee, geen flits.",
+        "pronunciation": "nEHghEHn-flIHts",
+        "translation_en": "No flash allowed."
+      },
+      "responses": [
+        {
+          "english": "No flash allowed.",
+          "phonetic": "nEHghEHn-flIHts",
+          "french": "Nee, geen flits."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ioannina_ioannina_archaeological_museum",
+  "name_en": "Ioannina Archaeological Museum",
+  "name_local": "Αρχαιολογικό Μουσείο Ιωαννίνων",
+  "icon": "building.columns",
+  "lat": 39.6666537,
+  "lon": 20.8560337,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "ioannina_ioannina_archaeological_museum_001",
+      "intent_en": "Ask how to donate at the museum",
+      "text_local": "Πώς γίνεται η δωρεά στο μουσείο;",
+      "pronunciation": "pOHz-yEEnehtEH-ee-thOHrehAH-stoh-moosEEoh",
+      "formality": "standard",
+      "cultural_note": "Οι δωρεές σε μουσεία είναι συχνή πρακτική στην Ελλάδα.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Στην κάλπη δωρεών στην είσοδο.",
+        "pronunciation": "steeng-gAHlpee-thOHrehOHn-steen-EEsohthOH",
+        "translation_en": "At the donation box by the entrance."
+      },
+      "responses": [
+        {
+          "english": "At the donation box by the entrance.",
+          "phonetic": "steeng-gAHlpee-thOHrehOHn-steen-EEsohthOH",
+          "french": "Στην κάλπη δωρεών στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_archaeological_museum_002",
+      "intent_en": "Ask when the next audio guide is free",
+      "text_local": "Πότε ελευθερώνεται ο επόμενος ξεναγός;",
+      "pronunciation": "pOHteh-EHlehfthehrOHnehtEH-oh-ehpOHmehnOHs-ksEHnahghOHs",
+      "formality": "standard",
+      "cultural_note": "Τα ξεναγικά μέσα συχνά ελέγχονται από το προσωπικό του ταμείου.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Σε μισή ώρα περίπου.",
+        "pronunciation": "seh-meesEE-OHrah-pehrEEpoo",
+        "translation_en": "In about half an hour."
+      },
+      "responses": [
+        {
+          "english": "In about half an hour.",
+          "phonetic": "seh-meesEE-OHrah-pehrEEpoo",
+          "french": "Σε μισή ώρα περίπου."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_archaeological_museum_003",
+      "intent_en": "Ask where the ticket booth is",
+      "text_local": "Πού είναι το ταμείο;",
+      "pronunciation": "pOO-EEneh-toh-tahmEEoh",
+      "formality": "standard",
+      "cultural_note": "Ταμεία συνήθως βρίσκονται κοντά στην είσοδο των μουσείων.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Μπροστά στην είσοδο.",
+        "pronunciation": "brohstAH-steen-EEsohthOH",
+        "translation_en": "In front of the entrance."
+      },
+      "responses": [
+        {
+          "english": "In front of the entrance.",
+          "phonetic": "brohstAH-steen-EEsohthOH",
+          "french": "Μπροστά στην είσοδο."
+        }
+      ]
+    },
+    {
+      "id": "ioannina_ioannina_archaeological_museum_004",
+      "intent_en": "Ask if castle tickets include this museum",
+      "text_local": "Τα εισιτήρια του κάστρου συμπεριλαμβάνουν αυτό το μουσείο;",
+      "pronunciation": "tah-EEseetEEreeAH-too-kAHstroo-sEEbehrEElahmvAHnoon-ahftOH-toh-moosEEoh",
+      "formality": "standard",
+      "cultural_note": "Τα περισσότερα ιστορικά κάστρα στην Ελλάδα έχουν ενοποιημένα εισιτήρια για όλα τα μουσεία τους.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "Ναι, περιλαμβάνουν όλα.",
+        "pronunciation": "nEHpEHreelahmvAHnoon-OHlah",
+        "translation_en": "Yes, they include all."
+      },
+      "responses": [
+        {
+          "english": "Yes, they include all.",
+          "phonetic": "nEHpEHreelahmvAHnoon-OHlah",
+          "french": "Ναι, περιλαμβάνουν όλα."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

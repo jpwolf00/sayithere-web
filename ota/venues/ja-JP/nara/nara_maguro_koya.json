@@ -1,0 +1,100 @@
+{
+  "id": "nara_maguro_koya",
+  "name_en": "Maguro Koya",
+  "name_local": "まぐろ小屋",
+  "icon": "fork.knife",
+  "lat": 34.68232311965644,
+  "lon": 135.80252512626586,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "nara_maguro_koya_001",
+      "intent_en": "How do I order at the counter?",
+      "text_local": "ここで どうやって ちゅうもん しますか？",
+      "pronunciation": "kohkOHdeh-dOHooyTteh-tooOOmoh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Many small eateries use a ticket machine system, so pointing to it is a common way to explain.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "まず、ここで きっぷを かって ください。",
+        "pronunciation": "mZookohkOHdeh-keeppOOoh-kTteh-kOOdsEE",
+        "translation_en": "First, please buy a ticket here."
+      },
+      "responses": [
+        {
+          "english": "First, please buy a ticket here.",
+          "phonetic": "mZookohkOHdeh-keeppOOoh-kTteh-kOOdsEE",
+          "french": "まず、ここで きっぷを かって ください。"
+        }
+      ]
+    },
+    {
+      "id": "nara_maguro_koya_002",
+      "intent_en": "Do you have otoro today?",
+      "text_local": "きょう、おおとろ ありますか？",
+      "pronunciation": "kOHooohohtOHoh-EEmsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple, direct confirmation is natural here.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、ありますよ。",
+        "pronunciation": "hEEEEmsOOyoh",
+        "translation_en": "Yes, we have it."
+      },
+      "responses": [
+        {
+          "english": "Yes, we have it.",
+          "phonetic": "hEEEEmsOOyoh",
+          "french": "はい、ありますよ。"
+        }
+      ]
+    },
+    {
+      "id": "nara_maguro_koya_003",
+      "intent_en": "Is this cash only?",
+      "text_local": "ここは げんきん だけですか？",
+      "pronunciation": "kohkOHh-gEHngkee-dKehdehsOOk",
+      "formality": "standard",
+      "cultural_note": "A direct confirmation is typical for this common question.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、げんきんのみです。",
+        "pronunciation": "hEEgEHngkeennOHmeedEHsoo",
+        "translation_en": "Yes, cash only."
+      },
+      "responses": [
+        {
+          "english": "Yes, cash only.",
+          "phonetic": "hEEgEHngkeennOHmeedEHsoo",
+          "french": "はい、げんきんのみです。"
+        }
+      ]
+    },
+    {
+      "id": "nara_maguro_koya_004",
+      "intent_en": "Can I get toro-aburi seared?",
+      "text_local": "とろあぶり できますか？",
+      "pronunciation": "tOHohbOOee-dEHkeemsOOk",
+      "formality": "standard",
+      "cultural_note": "A simple positive reply is natural when confirming a standard preparation method.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、できますよ。",
+        "pronunciation": "hEEdEHkeemsOOyoh",
+        "translation_en": "Yes, we can do that."
+      },
+      "responses": [
+        {
+          "english": "Yes, we can do that.",
+          "phonetic": "hEEdEHkeemsOOyoh",
+          "french": "はい、できますよ。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

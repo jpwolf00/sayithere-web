@@ -1,0 +1,122 @@
+{
+  "id": "mayrhofen_sport_nenner",
+  "name_en": "Sport Nenner",
+  "name_local": "Sport Nenner",
+  "icon": "bag",
+  "lat": 47.6256934,
+  "lon": 9.8511156,
+  "radius_m": 75,
+  "phrases": [
+    {
+      "id": "mayrhofen_sport_nenner_001",
+      "intent_en": "Can I buy the Zillertal Activcard here",
+      "text_local": "Kann ich die Zillertal Activcard kaufen?",
+      "pronunciation": "kAHn-ihkh-dee-tsIHltAHl-AHktihvkAHrt-kOWfuhn",
+      "formality": "standard",
+      "cultural_note": "\"Ja\" is sufficient; staff may add details like 'Am Schalter' if needed.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Ja.",
+        "pronunciation": "yAH",
+        "translation_en": "Yes."
+      },
+      "responses": [
+        {
+          "english": "Yes.",
+          "phonetic": "yAH",
+          "french": "Ja."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_sport_nenner_002",
+      "intent_en": "When must skis be returned by",
+      "text_local": "Bis wann müssen die Ski zurück sein?",
+      "pronunciation": "bihs-vAHn-mUEsuhn-dee-shEE-tsoorUEk-zeyen",
+      "formality": "standard",
+      "cultural_note": "German-speaking staff prefer 24-hour time; '17 Uhr' is idiomatic.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Bis 17 Uhr.",
+        "pronunciation": "bihs-zEEptsehn-OOr",
+        "translation_en": "By 5 PM."
+      },
+      "responses": [
+        {
+          "english": "By 5 PM.",
+          "phonetic": "bihs-zEEptsehn-OOr",
+          "french": "Bis 17 Uhr."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_sport_nenner_003",
+      "intent_en": "How long does boot fitting take",
+      "text_local": "Wie lange dauert die Schuhanpassung?",
+      "pronunciation": "vee-lAHnguh-dOWt-dee-shOOahnpAHsuhng",
+      "formality": "standard",
+      "cultural_note": "Boot fitting is a standard service in Alpine ski resorts; staff expect brief, precise answers.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "20 Minuten.",
+        "pronunciation": "tsvAHntsihkh-meenOOtuhn",
+        "translation_en": "20 minutes."
+      },
+      "responses": [
+        {
+          "english": "20 minutes.",
+          "phonetic": "tsvAHntsihkh-meenOOtuhn",
+          "french": "20 Minuten."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_sport_nenner_004",
+      "intent_en": "Where is the boot fitting area",
+      "text_local": "Wo ist der Schuhanpassungsbereich?",
+      "pronunciation": "vOH-ihst-dehr-shOOahnpAHsuhngsbuhrEYEkh",
+      "formality": "standard",
+      "cultural_note": "Boot fitting is often grouped with rental services; staff expect 'Schuhcounter' as a reference.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schuhcounter.",
+        "pronunciation": "ahm-shOOkoont",
+        "translation_en": "At the boot counter."
+      },
+      "responses": [
+        {
+          "english": "At the boot counter.",
+          "phonetic": "ahm-shOOkoont",
+          "french": "Am Schuhcounter."
+        }
+      ]
+    },
+    {
+      "id": "mayrhofen_sport_nenner_005",
+      "intent_en": "Where is the ski deposit counter",
+      "text_local": "Wo ist der Ski-Ablage-Schalter?",
+      "pronunciation": "vOH-ihst-dehr-shEEAHplAHuhshAHlt",
+      "formality": "standard",
+      "cultural_note": "In Austria, ski deposit counters are often integrated into rental services; staff expect direct reference to 'Schalter'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "likely_response": {
+        "local": "Am Schalter.",
+        "pronunciation": "ahm-shAHlt",
+        "translation_en": "At the counter."
+      },
+      "responses": [
+        {
+          "english": "At the counter.",
+          "phonetic": "ahm-shAHlt",
+          "french": "Am Schalter."
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

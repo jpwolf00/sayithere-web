@@ -1,0 +1,101 @@
+{
+  "id": "avignon_les_halles",
+  "name_en": "Les Halles d'Avignon",
+  "name_local": "Les Halles",
+  "icon": "basket",
+  "lat": 43.9463,
+  "lon": 4.8051,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "avignon_halles_001",
+      "intent_en": "Ask about the market hours",
+      "text_local": "Quelles sont les heures d'ouverture ?",
+      "pronunciation": "kel son layz UHR doo-vair-TYOR",
+      "formality": "polite",
+      "cultural_note": "Les Halles is open every morning from 6am to 1pm. It's closed on Sundays and Mondays.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Mornings only, until 1:30pm.",
+          "phonetic": "luh mah-TAN suhl-MAHN, zhoos-kah trez uhr trahnt",
+          "french": "Le matin seulement, jusqu'à treize heures trente."
+        }
+      ]
+    },
+    {
+      "id": "avignon_halles_002",
+      "intent_en": "Ask about local products",
+      "text_local": "Quels produits locaux recommandé-vous ?",
+      "pronunciation": "kel proh-DWEE lo-KAL reh-ko-man-DAY voo",
+      "formality": "polite",
+      "cultural_note": "Try the local olives, olive oil, herbs de Provence, and the famous Avignon chocolates.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I recommend the olives, olive oil, herbs de Provence, and Avignon chocolates.",
+          "phonetic": "oh-zhoor-DWEE, on ah sur-TOO day pro-DWEE duh say-ZON",
+          "french": "Je recommande les olives, l'huile d'olive, les herbes de Provence et les chocolats d'Avignon."
+        }
+      ]
+    },
+    {
+      "id": "avignon_halles_003",
+      "intent_en": "Ask for a taste of olive oil",
+      "text_local": "Puis-je goûter l'huile d'olive ?",
+      "pronunciation": "pwee-zhuh goo-TAY lweel doh-LEEV",
+      "formality": "polite",
+      "cultural_note": "Many vendors offer samples. Provence produces excellent olive oils — look for the AOC label.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, help yourself. Try this one.",
+          "phonetic": "wee, sair-VAY voo. goo-TAY sel-SEE",
+          "french": "Oui, servez-vous. Goûtez celle-ci."
+        }
+      ]
+    },
+    {
+      "id": "avignon_halles_004",
+      "intent_en": "Ask about the best cheese",
+      "text_local": "Quel est le meilleur fromage du marché ?",
+      "pronunciation": "kel eh leh may-YUHR from-AHJ doo mar-SHAY",
+      "formality": "polite",
+      "cultural_note": "Try the local chèvres (goat cheeses) from the region. The market has excellent fromageries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Try the fresh goat cheese, at the stand over there.",
+          "phonetic": "eh-say-YAY luh shev-ruh FREH, oh stahnd lah-BAH",
+          "french": "Essayez le chèvre frais, au stand là-bas."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "market",
+      "word_local": "les halles",
+      "pronunciation": "lay AL"
+    },
+    {
+      "word_en": "olive oil",
+      "word_local": "l'huile d'olive",
+      "pronunciation": "lweel doh-LEEV"
+    },
+    {
+      "word_en": "cheese",
+      "word_local": "le fromage",
+      "pronunciation": "leh from-AHJ"
+    },
+    {
+      "word_en": "produce",
+      "word_local": "les produits",
+      "pronunciation": "lay proh-DWEE"
+    }
+  ]
+}

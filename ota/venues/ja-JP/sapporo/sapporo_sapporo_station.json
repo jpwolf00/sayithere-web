@@ -1,0 +1,144 @@
+{
+  "id": "sapporo_sapporo_station",
+  "name_en": "Sapporo Station",
+  "name_local": "札幌駅",
+  "icon": "tram",
+  "lat": 43.0686555,
+  "lon": 141.350787,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "sapporo_sapporo_station_001",
+      "intent_en": "Does Suica work on city buses?",
+      "text_local": "しえいバスで スイカは つかえますか？",
+      "pronunciation": "EEehEEbsOOdeh-sOOeekH-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "IC cards are generally accepted on city buses nationwide.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、 だいじょうぶです。",
+        "pronunciation": "hEEdEEdOHooboodEHsoo",
+        "translation_en": "Yes, that's fine."
+      },
+      "responses": [
+        {
+          "english": "Yes, that's fine.",
+          "phonetic": "hEEdEEdOHooboodEHsoo",
+          "french": "はい、 だいじょうぶです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_station_002",
+      "intent_en": "Does the Green Car need extra pay?",
+      "text_local": "グリーンしゃは べつりょうきんが いりますか？",
+      "pronunciation": "gOOeeH-bEHtsooOHookEEngg-EEeemsOOk",
+      "formality": "standard",
+      "cultural_note": "A Green Car ticket must be purchased before boarding to avoid a surcharge.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、 グリーンけんが ひつようです。",
+        "pronunciation": "hEEgOOeengkEHngg-khEEtsooyOHoodEHsoo",
+        "translation_en": "Yes, a Green ticket is necessary."
+      },
+      "responses": [
+        {
+          "english": "Yes, a Green ticket is necessary.",
+          "phonetic": "hEEgOOeengkEHngg-khEEtsooyOHoodEHsoo",
+          "french": "はい、 グリーンけんが ひつようです。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_station_003",
+      "intent_en": "When is the last airport train?",
+      "text_local": "さいしゅうの くうこうれっしゃは いつですか？",
+      "pronunciation": "sEEooOOnoh-kOOookohOOehH-EEtsoodehsOOk",
+      "formality": "standard",
+      "cultural_note": "Japanese train times are precise; 22:53 means exactly 10:53 PM.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "22じ53ぷん です。",
+        "pronunciation": "nee-dzOOnee-dEE-goh-dzOOsn-pOO-dEHsoo",
+        "translation_en": "It is 10:53 p.m."
+      },
+      "responses": [
+        {
+          "english": "It is 10:53 p.m.",
+          "phonetic": "nee-dzOOnee-dEE-goh-dzOOsn-pOO-dEHsoo",
+          "french": "22じ53ぷん です。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_station_004",
+      "intent_en": "How do I reserve express seats?",
+      "text_local": "していせきの よやくは どうやりますか？",
+      "pronunciation": "EEtehEEsehkEEnoh-yOHykOOh-dOHooyEEmsOOk",
+      "formality": "standard",
+      "cultural_note": "Reservation machines have an English menu option in the top corner.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "えきの よやくきで できます。",
+        "pronunciation": "ehkEEnoh-yOHykookEEdeh-dEHkeemSoo",
+        "translation_en": "You can do it at the reservation machine."
+      },
+      "responses": [
+        {
+          "english": "You can do it at the reservation machine.",
+          "phonetic": "ehkEEnoh-yOHykookEEdeh-dEHkeemSoo",
+          "french": "えきの よやくきで できます。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_station_005",
+      "intent_en": "Do coin lockers take IC cards?",
+      "text_local": "コインロッカーで アイシーカードは つかえますか？",
+      "pronunciation": "kOHeenohkkDeh-EEEEkdOHh-tsOOkEHmsOOk",
+      "formality": "standard",
+      "cultural_note": "Modern lockers in major stations often support Suica and other IC cards.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "はい、 つかえます。",
+        "pronunciation": "hEEtsOOkehmSoo",
+        "translation_en": "Yes, you can use it."
+      },
+      "responses": [
+        {
+          "english": "Yes, you can use it.",
+          "phonetic": "hEEtsOOkehmSoo",
+          "french": "はい、 つかえます。"
+        }
+      ]
+    },
+    {
+      "id": "sapporo_sapporo_station_006",
+      "intent_en": "Where is the JR Pass exchange?",
+      "text_local": "JRパスの ひきかえは どこですか？",
+      "pronunciation": "ehndzhAY-AHyah-h-EHndzhAHpuhneezyahlEHtuh-sOO-nOH-khEEkeekEHh-dOHkohdehsOOk",
+      "formality": "standard",
+      "cultural_note": "Station staff often point with an open hand rather than a single finger.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "likely_response": {
+        "local": "あの みどりのまどぐち、 となりです。",
+        "pronunciation": "Noh-mEEdohEEnohmDohgOOteetOHneedEHsoo",
+        "translation_en": "That ticket office, next to it."
+      },
+      "responses": [
+        {
+          "english": "That ticket office, next to it.",
+          "phonetic": "Noh-mEEdohEEnohmDohgOOteetOHneedEHsoo",
+          "french": "あの みどりのまどぐち、 となりです。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": []
+}

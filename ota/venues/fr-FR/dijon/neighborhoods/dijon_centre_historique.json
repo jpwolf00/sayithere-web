@@ -1,0 +1,115 @@
+{
+  "id": "dijon_centre_historique_hood",
+  "name_en": "Centre Historique / Historic Center",
+  "name_local": "Centre historique de Dijon",
+  "icon": "building.2",
+  "phrases": [
+    {
+      "id": "dijon_centre_001",
+      "intent_en": "Ask where the famous owl sculpture is",
+      "text_local": "Où se trouve la chouette sculptée ?",
+      "pronunciation": "oo suh TROOV lah shoo-WET skool-TAY",
+      "formality": "polite",
+      "cultural_note": "La Chouette (the owl) is a small carved owl on the Palais des Ducs. Touching it is said to bring good luck — look for the worn spot from thousands of visitors.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "It is located at Place de la Libération, right in front of you.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Le Palais des Ducs est au cœur du centre historique, près de la place de la Libération."
+        }
+      ]
+    },
+    {
+      "id": "dijon_centre_002",
+      "intent_en": "Ask about the free sites in the old town",
+      "text_local": "Y a-t-il des sites gratuits à visiter dans le centre-ville ?",
+      "pronunciation": "ee ah-TEEL day SEET grah-TWEE ah vee-zee-TAY dan luh san-treh-VEEL",
+      "formality": "polite",
+      "cultural_note": "The historic center has many free attractions: the owl, the cathedral, walking the preserved medieval streets, and the Place de la Libération.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Yes, of course. The cathedral and public gardens are free, open every day until 6 PM.",
+          "phonetic": "wee, suh-LAH ruh-MON-tah oon pay-ree-OHD ahn-SYEN",
+          "french": "Oui, plusieurs sites sont gratuits : la chouette sculptée sur la façade de Notre-Dame, la cathédrale Saint-Bénigne, et la balade dans les ruelles médiévales."
+        }
+      ]
+    },
+    {
+      "id": "dijon_centre_003",
+      "intent_en": "Ask about the pedestrian streets",
+      "text_local": "Quelles sont les rues piétonnes ?",
+      "pronunciation": "kel son lay roo pyay-TON",
+      "formality": "polite",
+      "cultural_note": "The historic center is largely pedestrianized. The main shopping street is Rue de la Liberté, connecting to Place Darcy.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Rue de la République and Place du Marché are pedestrian streets all day.",
+          "phonetic": "",
+          "french": "Les principales rues piétonnes sont la Rue de la Liberté et celles autour de la Place François Rude. Le centre historique est presque entièrement piéton."
+        }
+      ]
+    },
+    {
+      "id": "dijon_centre_004",
+      "intent_en": "Ask where to find the best view of the old town",
+      "text_local": "Où peut-on avoir la meilleure vue sur le vieux Dijon ?",
+      "pronunciation": "oo puh-TOH ah-VWAHR lah may-YUR VYOO soor luh vyoo dee-ZHON",
+      "formality": "polite",
+      "cultural_note": "The best view is from the top of Tour Philippe le Bon in the Palais des Ducs — a 46-meter climb but worth it for the panoramic city views.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "I recommend the Tour Philippe le Bon for a panoramic view; entry costs €5 and it is open until 6 pm.",
+          "phonetic": "say par lah, zhoost oh boo duh lah roo",
+          "french": "Montez en haut de la Tour Philippe le Bon dans le Palais des Ducs : 46 mètres d'escaliers pour une vue panoramique sur Dijon."
+        }
+      ]
+    },
+    {
+      "id": "dijon_centre_005",
+      "intent_en": "Ask about the medieval architecture in the center",
+      "text_local": "Pouvez-vous me parler de l'architecture médiévale du centre ?",
+      "pronunciation": "poo-VAY voo muh par-LAY duh lar-kee-tek-troo may-deh-VAL doo san-TREH",
+      "formality": "polite",
+      "cultural_note": "Dijon's old town features well-preserved medieval timber-framed houses, especially on Rue des Forges and around Place du Bareuzai.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "english": "Certainly, don't miss the cathedral and the half-timbered houses on Merciers Street. We offer a guided tour at 2 PM for 15 euros.",
+          "phonetic": "wee, suh-LAH ruh-MON-tah oon pay-ree-OHD ahn-SYEN",
+          "french": "Oui, Dijon possède de nombreuses maisons à colombages médiévales, notamment dans la Rue des Forges et autour de la Place du Bareuzai. Elles datent du Moyen Âge."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word_en": "historic center",
+      "word_local": "le centre historique",
+      "pronunciation": "leh san-treh ees-toh-REEK"
+    },
+    {
+      "word_en": "owl",
+      "word_local": "la chouette",
+      "pronunciation": "lah shoo-WET"
+    },
+    {
+      "word_en": "pedestrian street",
+      "word_local": "la rue pietonne",
+      "pronunciation": "lah roo pyay-TON"
+    },
+    {
+      "word_en": "medieval",
+      "word_local": "médiéval",
+      "pronunciation": "may-deh-VAL"
+    }
+  ]
+}
