@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SayItHere — Phrases for Travelers</title>
-  <meta name="description" content="The right words, right where you are. SayItHere detects nearby places and gives you the perfect phrase — in French, Italian, Spanish, German, or Portuguese.">
+  <meta name="description" content="The right words, right where you are. SayItHere detects nearby places and gives you the perfect phrase — in French, Italian, Spanish, German, Portuguese, Turkish, Czech, Dutch, Greek, or Japanese.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,300&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -125,7 +125,7 @@
       50% { transform: translateY(-8px); }
     }
 
-    .app-icon svg { width: 72px; height: 72px; }
+    .app-icon img { width: 120px; height: 120px; border-radius: 27px; display: block; }
 
     .hero h1 {
       font-family: 'Fraunces', serif;
@@ -488,8 +488,51 @@
       transform: translateY(0);
     }
 
+    /* ── SCREENSHOTS ── */
+    .screens {
+      background: var(--gradient);
+      padding: 100px 24px 110px;
+      overflow: hidden;
+    }
+    .screens .section-label { color: rgba(255,255,255,0.85); }
+    .screens .section-title { color: #fff; margin-bottom: 56px; }
+    .screens-row {
+      display: flex;
+      gap: 28px;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    .screen { width: 240px; flex: 0 0 auto; }
+    .screen img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 28px;
+      background: #000;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.14);
+    }
+    .screen p {
+      text-align: center;
+      color: rgba(255,255,255,0.92);
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-top: 18px;
+    }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 600px) {
+      .screens-row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 12px;
+      }
+      .screen { scroll-snap-align: center; }
       nav { padding: 16px 20px; }
       footer { padding: 24px 20px; flex-direction: column; text-align: center; }
       .footer-right { justify-content: center; }
@@ -512,18 +555,7 @@
 
     <!-- App Icon -->
     <div class="app-icon">
-      <svg viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <!-- Speech bubble body -->
-        <ellipse cx="37" cy="30" rx="26" ry="20" fill="white"/>
-        <polygon points="20,46 14,57 30,48" fill="white"/>
-        <!-- Location pin -->
-        <circle cx="37" cy="27" r="7" fill="#2D3A8C" opacity="0.9"/>
-        <path d="M37 34 C37 34 30 42 30 46" stroke="#2D3A8C" stroke-width="0" fill="none"/>
-        <!-- Pin point -->
-        <path d="M33 33 Q37 40 41 33" fill="#2D3A8C" opacity="0.9"/>
-        <!-- Inner dot -->
-        <circle cx="37" cy="27" r="3" fill="white"/>
-      </svg>
+      <img src="appicon.png" alt="SayItHere app icon" width="120" height="120">
     </div>
 
     <h1>SayItHere</h1>
@@ -535,7 +567,12 @@
       <span class="hero-flag">🇪🇸</span>
       <span class="hero-flag">🇩🇪</span>
       <span class="hero-flag">🇵🇹</span>
-      <span class="hero-flags-label">Five languages</span>
+      <span class="hero-flag">🇹🇷</span>
+      <span class="hero-flag">🇨🇿</span>
+      <span class="hero-flag">🇳🇱</span>
+      <span class="hero-flag">🇬🇷</span>
+      <span class="hero-flag">🇯🇵</span>
+      <span class="hero-flags-label">Ten languages</span>
     </div>
 
     <a href="#" class="btn-store">
@@ -573,10 +610,35 @@
     </div>
   </section>
 
+  <!-- SCREENSHOTS -->
+  <section class="screens">
+    <p class="section-label reveal">A look inside</p>
+    <h2 class="section-title reveal">See it in action</h2>
+
+    <div class="screens-row">
+      <div class="screen reveal">
+        <img src="screens/01-onboarding-languages.png" alt="SayItHere onboarding — choosing from ten languages">
+        <p>Choose from ten languages</p>
+      </div>
+      <div class="screen reveal" style="transition-delay:0.08s">
+        <img src="screens/02-practice-list.png" alt="SayItHere Practice tab — phrases grouped by place">
+        <p>Browse phrases by place</p>
+      </div>
+      <div class="screen reveal" style="transition-delay:0.16s">
+        <img src="screens/03-scenario-detail.png" alt="SayItHere phrase cards with pronunciation and playback">
+        <p>Hear every phrase spoken</p>
+      </div>
+      <div class="screen reveal" style="transition-delay:0.24s">
+        <img src="screens/05-saved.png" alt="SayItHere Saved tab — favorites and recent scenarios">
+        <p>Save the ones you need</p>
+      </div>
+    </div>
+  </section>
+
   <!-- LANGUAGES -->
   <section class="languages">
     <p class="section-label reveal">Languages</p>
-    <h2 class="section-title reveal">Five languages,<br><em style="font-style:italic; font-weight:300;">perfectly prepared</em></h2>
+    <h2 class="section-title reveal">Ten languages,<br><em style="font-style:italic; font-weight:300;">perfectly prepared</em></h2>
 
     <div class="languages-grid">
       <div class="lang-card reveal">
@@ -604,6 +666,31 @@
         <span class="lang-flag-large">🇵🇹</span>
         <h3>Portuguese</h3>
         <p>Portugal & the Algarve coast</p>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.40s">
+        <span class="lang-flag-large">🇹🇷</span>
+        <h3>Turkish</h3>
+        <p>Istanbul, Cappadocia & the Turquoise Coast</p>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.48s">
+        <span class="lang-flag-large">🇨🇿</span>
+        <h3>Czech</h3>
+        <p>Prague & the towns of Bohemia</p>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.56s">
+        <span class="lang-flag-large">🇳🇱</span>
+        <h3>Dutch</h3>
+        <p>Amsterdam & across the Netherlands</p>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.64s">
+        <span class="lang-flag-large">🇬🇷</span>
+        <h3>Greek</h3>
+        <p>Athens & the Greek islands</p>
+      </div>
+      <div class="lang-card reveal" style="transition-delay:0.72s">
+        <span class="lang-flag-large">🇯🇵</span>
+        <h3>Japanese</h3>
+        <p>Tokyo, Kyoto & beyond</p>
       </div>
     </div>
   </section>
