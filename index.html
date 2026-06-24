@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SayItHere — Phrases for Travelers</title>
-  <meta name="description" content="SayItHere detects nearby places and gives you the perfect phrases — in 10 languages, for every travel moment. No typing. No translating. Just speak.">
+  <meta name="description" content="The travel phrasebook that tells you what to say — and what they'll say back. Location-aware phrases in 10 languages, with pronunciation, cultural notes, and expected responses.">
   <meta property="og:title" content="SayItHere — The right words, right where you are.">
-  <meta property="og:description" content="Location-aware travel phrases in 10 languages. Walk into a café in Paris — SayItHere already knows what you need to say.">
+  <meta property="og:description" content="The travel phrasebook that tells you what to say — and what they'll say back. Location-aware phrases in 10 languages with expected responses.">
   <meta property="og:image" content="appicon.png">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="SayItHere — Phrases for Travelers">
-  <meta name="twitter:description" content="Location-aware travel phrases in 10 languages. No typing, no translating — just speak.">
+  <meta name="twitter:description" content="The travel phrasebook that tells you what to say — and what they'll say back. 5,000+ phrases in 10 languages.">
   <link rel="icon" href="appicon.png">
   <link rel="apple-touch-icon" href="appicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -674,47 +674,145 @@
       line-height: 1.7;
     }
 
-    /* ── FAQ ── */
-    .faq {
+
+    /* ── CONVERSATION ANIMATION ── */
+    .conversation-demo {
       background: var(--white);
       padding: 100px 24px;
     }
-    .faq-list {
-      max-width: 640px;
+    .conv-flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      max-width: 960px;
       margin: 0 auto;
+      flex-wrap: wrap;
     }
-    .faq-item {
-      border-bottom: 1px solid var(--border);
+    .conv-step {
+      flex: 0 1 280px;
+      text-align: center;
     }
-    .faq-item summary {
-      padding: 20px 0;
-      font-size: 1rem;
+    .conv-phone {
+      width: 200px;
+      margin: 0 auto 16px;
+      background: #1a1a2e;
+      border-radius: 28px;
+      padding: 6px;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+    }
+    .conv-phone img { width: 100%; display: block; border-radius: 22px; }
+    .conv-step h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.1rem;
       font-weight: 500;
       color: var(--text);
-      cursor: pointer;
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      margin-bottom: 6px;
     }
-    .faq-item summary::-webkit-details-marker { display: none; }
-    .faq-item summary::after {
-      content: '+';
-      font-size: 1.4rem;
-      color: var(--indigo);
-      font-weight: 300;
-      transition: transform 0.2s;
-    }
-    .faq-item[open] summary::after {
-      transform: rotate(45deg);
-    }
-    .faq-answer {
-      padding: 0 0 20px;
-      font-size: 0.9rem;
-      line-height: 1.7;
+    .conv-step p {
+      font-size: 0.85rem;
       color: var(--muted);
+      line-height: 1.5;
+      max-width: 240px;
+      margin: 0 auto;
+    }
+    .conv-arrow {
+      font-size: 1.8rem;
+      color: var(--indigo);
+      opacity: 0.3;
+      flex: 0 0 auto;
     }
 
+    /* Animated chat bubbles */
+    .conv-chat {
+      max-width: 480px;
+      margin: 48px auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .conv-bubble {
+      padding: 18px 24px;
+      border-radius: 20px;
+      font-size: 1rem;
+      line-height: 1.5;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+      position: relative;
+    }
+    .conv-bubble.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .conv-bubble-you {
+      background: var(--gradient);
+      color: white;
+      align-self: flex-end;
+      border-bottom-right-radius: 6px;
+      max-width: 380px;
+    }
+    .conv-bubble-them {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      align-self: flex-start;
+      border-bottom-left-radius: 6px;
+      max-width: 380px;
+    }
+    .conv-bubble-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      opacity: 0.7;
+      margin-bottom: 4px;
+    }
+    .conv-bubble-text {
+      font-family: 'Fraunces', serif;
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .conv-bubble-pron {
+      font-size: 0.8rem;
+      font-style: italic;
+      opacity: 0.8;
+    }
+    .conv-understand {
+      text-align: center;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+      margin-top: 24px;
+    }
+    .conv-understand.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .conv-understand-icon {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #10B981 0%, #34D399 100%);
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 12px;
+      font-size: 1.6rem;
+      box-shadow: 0 8px 24px rgba(16,185,129,0.3);
+    }
+    .conv-understand h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .conv-understand p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      max-width: 400px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
     /* ── FINAL CTA ── */
     .final-cta {
       background: var(--gradient);
@@ -785,6 +883,8 @@
       .steps { grid-template-columns: 1fr; gap: 40px; }
       .steps::before { display: none; }
       .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+      .conv-flow { flex-direction: column; }
+      .conv-arrow { transform: rotate(90deg); }
     }
     @media (max-width: 600px) {
       .screens-row {
@@ -829,7 +929,7 @@
     </div>
 
     <h1>The right words, right where you are.</h1>
-    <p class="hero-sub">SayItHere detects nearby places and gives you the perfect phrases — in 10 languages, for every travel moment. No typing. No translating. Just speak.</p>
+    <p class="hero-sub">The travel phrasebook that tells you what to say — and what they'll say back. Location-aware phrases in 10 languages, with pronunciation, cultural notes, and expected responses.</p>
     <p class="hero-note">Free · iPhone · Works offline</p>
 
     <!-- TODO: Replace href with App Store URL when approved -->
@@ -902,8 +1002,8 @@
 
   <!-- EXAMPLE PHRASE -->
   <section class="example-phrase">
-    <p class="section-label reveal">A closer look</p>
-    <h2 class="section-title reveal">Not just a phrase.<br><em style="font-style:italic; font-weight:300;">A conversation.</em></h2>
+    <p class="section-label reveal">The full conversation</p>
+    <h2 class="section-title reveal">Know what to say.<br><em style="font-style:italic; font-weight:300;">Know what to expect back.</em></h2>
 
     <div class="phrase-demo reveal">
       <div class="phrase-demo-header">
@@ -1111,36 +1211,53 @@
     </p>
   </section>
 
-  <!-- FAQ -->
-  <section class="faq">
-    <p class="section-label reveal">Questions</p>
-    <h2 class="section-title reveal">Good questions</h2>
+  <!-- CONVERSATION ANIMATION -->
+  <section class="conversation-demo">
+    <p class="section-label reveal">How a conversation works</p>
+    <h2 class="section-title reveal">The phrasebook that<br><em style="font-style:italic; font-weight:300;">listens back</em></h2>
 
-    <div class="faq-list">
-      <details class="faq-item reveal">
-        <summary>When does SayItHere launch?</summary>
-        <p class="faq-answer">SayItHere is launching this week on the App Store for iPhone, pending Apple's final approval. It's free to download.</p>
-      </details>
-      <details class="faq-item reveal">
-        <summary>Does it work offline?</summary>
-        <p class="faq-answer">Yes. Once your language is loaded, everything — phrases, pronunciation guides, audio playback — works completely offline. No data plan required abroad.</p>
-      </details>
-      <details class="faq-item reveal">
-        <summary>How is this different from Google Translate?</summary>
-        <p class="faq-answer">Google Translate is built for typing sentences and getting translations back. SayItHere is built for moments — it knows where you are and gives you curated, culturally-aware phrases you can use instantly. No typing, no awkward phrasing, no wondering what the response means.</p>
-      </details>
-      <details class="faq-item reveal">
-        <summary>Which languages are available?</summary>
-        <p class="faq-answer">French, Italian, Spanish, German, Portuguese, Turkish, Czech, Dutch, Greek, and Japanese — with more on the way.</p>
-      </details>
-      <details class="faq-item reveal">
-        <summary>Do I need an account?</summary>
-        <p class="faq-answer">No account, no sign-up, no email. Open the app, choose your language, and start speaking.</p>
-      </details>
-      <details class="faq-item reveal">
-        <summary>Is my data really private?</summary>
-        <p class="faq-answer">Completely. SayItHere works entirely on your device. Your location is never transmitted. No analytics, no tracking, no data collection — ever.</p>
-      </details>
+    <div class="conv-flow reveal">
+      <div class="conv-step">
+        <div class="conv-phone">
+          <img src="screens/02-practice-list.png" alt="Browse scenarios">
+        </div>
+        <h3>Browse</h3>
+        <p>Scenarios organized by place — café, pharmacy, train station</p>
+      </div>
+      <div class="conv-arrow">→</div>
+      <div class="conv-step">
+        <div class="conv-phone">
+          <img src="screens/03-scenario-detail.png" alt="Choose a phrase">
+        </div>
+        <h3>Choose</h3>
+        <p>Tap any phrase to hear it spoken and read the pronunciation</p>
+      </div>
+      <div class="conv-arrow">→</div>
+      <div class="conv-step">
+        <div class="conv-phone">
+          <img src="screens/05-saved.png" alt="Save responses">
+        </div>
+        <h3>Understand</h3>
+        <p>Know what they'll say back — with pronunciation and meaning</p>
+      </div>
+    </div>
+
+    <div class="conv-chat" id="convChat">
+      <div class="conv-bubble conv-bubble-you" data-delay="0">
+        <div class="conv-bubble-label">You say</div>
+        <div class="conv-bubble-text">Excusez-moi, vous parlez anglais ?</div>
+        <div class="conv-bubble-pron">ex-koo-ZAY mwah, voo par-LAY ahn-GLEH</div>
+      </div>
+      <div class="conv-bubble conv-bubble-them" data-delay="1200">
+        <div class="conv-bubble-label">They respond</div>
+        <div class="conv-bubble-text">Oui, je parle un peu anglais.</div>
+        <div class="conv-bubble-pron">wee, zhuh PARL uhn PUH ahn-GLEH</div>
+      </div>
+      <div class="conv-understand" data-delay="2400">
+        <div class="conv-understand-icon">✓</div>
+        <h3>You understand.</h3>
+        <p>They speak a little English. You can switch to English — or keep trying French. Either way, you know where you stand.</p>
+      </div>
     </div>
   </section>
 
@@ -1205,6 +1322,24 @@
     }, { threshold: 0.3 });
     const statsSection = document.querySelector('.stats');
     if (statsSection) statsObserver.observe(statsSection);
+
+    // Conversation animation
+    const convChat = document.getElementById('convChat');
+    if (convChat) {
+      const convObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const bubbles = convChat.querySelectorAll('[data-delay]');
+            bubbles.forEach(el => {
+              const delay = parseInt(el.dataset.delay);
+              setTimeout(() => el.classList.add('visible'), delay);
+            });
+            convObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.3 });
+      convObserver.observe(convChat);
+    }
   </script>
 
 </body>
