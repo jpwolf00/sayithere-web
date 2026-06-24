@@ -4,7 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SayItHere — Phrases for Travelers</title>
-  <meta name="description" content="The right words, right where you are. SayItHere detects nearby places and gives you the perfect phrase — in French, Italian, Spanish, German, Portuguese, Turkish, Czech, Dutch, Greek, or Japanese.">
+  <meta name="description" content="SayItHere detects nearby places and gives you the perfect phrases — in 10 languages, for every travel moment. No typing. No translating. Just speak.">
+  <meta property="og:title" content="SayItHere — The right words, right where you are.">
+  <meta property="og:description" content="Location-aware travel phrases in 10 languages. Walk into a café in Paris — SayItHere already knows what you need to say.">
+  <meta property="og:image" content="appicon.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SayItHere — Phrases for Travelers">
+  <meta name="twitter:description" content="Location-aware travel phrases in 10 languages. No typing, no translating — just speak.">
+  <link rel="icon" href="appicon.png">
+  <link rel="apple-touch-icon" href="appicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,300&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -20,6 +29,8 @@
       --surface: #F8F8FC;
       --white: #ffffff;
       --border: rgba(99,102,241,0.12);
+      --dark: #0F0F1E;
+      --accent: #F59E0B;
     }
 
     html { scroll-behavior: smooth; }
@@ -41,6 +52,17 @@
       -webkit-backdrop-filter: blur(24px);
       background: rgba(30, 30, 60, 0.35);
       border-bottom: 1px solid rgba(255,255,255,0.08);
+      transition: background 0.3s, border-color 0.3s;
+    }
+    nav.scrolled {
+      background: rgba(248, 248, 252, 0.92);
+      border-bottom: 1px solid var(--border);
+    }
+    nav.scrolled .nav-logo { color: var(--text); }
+    nav.scrolled .nav-cta {
+      background: var(--gradient);
+      color: white;
+      border: none;
     }
 
     .nav-logo {
@@ -76,8 +98,6 @@
       position: relative;
       overflow: hidden;
     }
-
-    /* Subtle noise texture overlay */
     .hero::before {
       content: '';
       position: absolute; inset: 0;
@@ -85,8 +105,6 @@
       opacity: 0.4;
       pointer-events: none;
     }
-
-    /* Glowing orbs */
     .hero::after {
       content: '';
       position: absolute;
@@ -95,7 +113,6 @@
       bottom: -200px; right: -100px;
       pointer-events: none;
     }
-
     .hero-orb {
       position: absolute;
       width: 400px; height: 400px;
@@ -104,79 +121,41 @@
       pointer-events: none;
     }
 
-    /* App Icon */
     .app-icon {
-      width: 120px; height: 120px;
-      border-radius: 27px;
-      background: linear-gradient(145deg, #5B9BFF 0%, #7B73FF 50%, #9B72FF 100%);
-      display: flex; align-items: center; justify-content: center;
-      margin: 0 auto 32px;
-      box-shadow:
-        0 0 0 1px rgba(255,255,255,0.2),
-        0 20px 60px rgba(0,0,0,0.3),
-        0 0 80px rgba(139,92,246,0.4);
-      position: relative;
-      z-index: 1;
-      animation: float 6s ease-in-out infinite;
+      width: 80px; height: 80px;
+      border-radius: 20px;
+      margin: 0 auto 24px;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.2), 0 12px 40px rgba(0,0,0,0.25), 0 0 60px rgba(139,92,246,0.35);
+      position: relative; z-index: 1;
     }
-
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-    }
-
-    .app-icon img { width: 120px; height: 120px; border-radius: 27px; display: block; }
+    .app-icon img { width: 80px; height: 80px; border-radius: 20px; display: block; }
 
     .hero h1 {
       font-family: 'Fraunces', serif;
-      font-size: clamp(3rem, 8vw, 5.5rem);
+      font-size: clamp(2.8rem, 7vw, 5rem);
       font-weight: 700;
       color: white;
       letter-spacing: -0.03em;
       line-height: 1;
       margin-bottom: 20px;
       position: relative; z-index: 1;
-      animation: fadeUp 0.8s ease both;
     }
-
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(24px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
     .hero-sub {
-      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      font-size: clamp(1.1rem, 2.5vw, 1.35rem);
       color: rgba(255,255,255,0.8);
       font-weight: 300;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
       letter-spacing: 0.01em;
+      max-width: 600px;
       position: relative; z-index: 1;
-      animation: fadeUp 0.8s 0.1s ease both;
+      line-height: 1.6;
     }
 
-    .hero-flags {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
+    .hero-note {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.5);
       margin-bottom: 48px;
       position: relative; z-index: 1;
-      animation: fadeUp 0.8s 0.2s ease both;
-    }
-
-    .hero-flag {
-      font-size: 1.6rem;
-      line-height: 1;
-      filter: drop-shadow(0 2px 6px rgba(0,0,0,0.2));
-      transition: transform 0.2s;
-    }
-
-    .hero-flags-label {
-      font-family: 'Fraunces', serif;
-      font-style: italic;
-      font-size: 0.95rem;
-      color: rgba(255,255,255,0.5);
-      margin-left: 4px;
     }
 
     .btn-store {
@@ -191,13 +170,49 @@
       box-shadow: 0 8px 32px rgba(0,0,0,0.2);
       transition: transform 0.2s, box-shadow 0.2s;
       position: relative; z-index: 1;
-      animation: fadeUp 0.8s 0.3s ease both;
     }
     .btn-store:hover {
       transform: translateY(-2px);
       box-shadow: 0 12px 40px rgba(0,0,0,0.25);
     }
     .btn-store svg { width: 22px; height: 22px; }
+
+    /* Phone mockup in hero */
+    .hero-phone {
+      position: relative;
+      margin-top: 64px;
+      z-index: 1;
+      animation: float 6s ease-in-out infinite;
+    }
+    .phone-frame {
+      width: 280px;
+      margin: 0 auto;
+      background: #1a1a2e;
+      border-radius: 42px;
+      padding: 10px;
+      box-shadow: 0 0 0 2px rgba(255,255,255,0.08), 0 40px 80px rgba(0,0,0,0.35), 0 20px 40px rgba(99,102,241,0.2);
+      position: relative;
+      overflow: hidden;
+    }
+    .phone-notch {
+      position: absolute;
+      top: 10px; left: 50%;
+      transform: translateX(-50%);
+      width: 100px; height: 26px;
+      background: #1a1a2e;
+      border-radius: 0 0 18px 18px;
+      z-index: 2;
+    }
+    .phone-frame img { width: 100%; display: block; border-radius: 32px; }
+    .phone-glow {
+      position: absolute;
+      bottom: -40px; left: 50%;
+      transform: translateX(-50%);
+      width: 200px; height: 60px;
+      background: radial-gradient(ellipse, rgba(139,92,246,0.3) 0%, transparent 70%);
+      filter: blur(20px);
+      z-index: -1;
+    }
 
     .hero-scroll {
       position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
@@ -206,26 +221,23 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       display: flex; flex-direction: column; align-items: center; gap: 8px;
-      animation: fadeUp 1s 0.6s ease both;
     }
-
     .scroll-line {
       width: 1px; height: 32px;
       background: linear-gradient(to bottom, rgba(255,255,255,0.4), transparent);
       animation: scrollPulse 2s ease-in-out infinite;
     }
 
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
     @keyframes scrollPulse {
       0%, 100% { opacity: 0.4; }
       50% { opacity: 1; }
     }
 
-    /* ── FEATURES ── */
-    .features {
-      background: white;
-      padding: 100px 24px;
-    }
-
+    /* ── SECTIONS COMMON ── */
     .section-label {
       text-align: center;
       font-size: 0.75rem;
@@ -235,7 +247,6 @@
       color: var(--indigo);
       margin-bottom: 16px;
     }
-
     .section-title {
       font-family: 'Fraunces', serif;
       font-size: clamp(2rem, 4vw, 3rem);
@@ -247,237 +258,6 @@
       line-height: 1.15;
     }
 
-    .features-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 24px;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-
-    .feature-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 36px 32px;
-      transition: transform 0.25s, box-shadow 0.25s;
-    }
-
-    .feature-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 20px 60px rgba(99,102,241,0.1);
-    }
-
-    .feature-icon {
-      width: 52px; height: 52px;
-      border-radius: 14px;
-      background: var(--gradient);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.4rem;
-      margin-bottom: 20px;
-    }
-
-    .feature-card h3 {
-      font-family: 'Fraunces', serif;
-      font-size: 1.3rem;
-      font-weight: 500;
-      letter-spacing: -0.02em;
-      margin-bottom: 10px;
-      color: var(--text);
-    }
-
-    .feature-card p {
-      font-size: 0.95rem;
-      line-height: 1.65;
-      color: var(--muted);
-    }
-
-    /* ── LANGUAGES ── */
-    .languages {
-      background: var(--surface);
-      padding: 100px 24px;
-    }
-
-    .languages-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 20px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .lang-card {
-      background: white;
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 32px 20px 28px;
-      text-align: center;
-      transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
-      cursor: default;
-    }
-
-    .lang-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 20px 60px rgba(99,102,241,0.1);
-      border-color: rgba(99,102,241,0.3);
-    }
-
-    .lang-flag-large {
-      font-size: 2.8rem;
-      line-height: 1;
-      display: block;
-      margin-bottom: 14px;
-      filter: drop-shadow(0 2px 6px rgba(0,0,0,0.12));
-    }
-
-    .lang-card h3 {
-      font-family: 'Fraunces', serif;
-      font-size: 1.15rem;
-      font-weight: 500;
-      letter-spacing: -0.01em;
-      color: var(--text);
-      margin-bottom: 6px;
-    }
-
-    .lang-card p {
-      font-size: 0.8rem;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-
-    .lang-badge {
-      display: inline-block;
-      margin-top: 14px;
-      background: linear-gradient(135deg, rgba(99,102,241,0.1) 0%, rgba(139,92,246,0.1) 100%);
-      color: var(--indigo);
-      font-size: 0.7rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 4px 10px;
-      border-radius: 100px;
-      border: 1px solid rgba(99,102,241,0.15);
-    }
-
-    /* ── SCENARIOS ── */
-    .scenarios {
-      padding: 100px 24px;
-      background: white;
-    }
-
-    .scenarios-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-      gap: 16px;
-      max-width: 860px;
-      margin: 0 auto;
-    }
-
-    .scenario-pill {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 20px 12px;
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      gap: 10px;
-      text-align: center;
-      transition: border-color 0.2s, box-shadow 0.2s;
-      cursor: default;
-    }
-
-    .scenario-pill:hover {
-      border-color: var(--indigo);
-      box-shadow: 0 4px 20px rgba(99,102,241,0.1);
-    }
-
-    .scenario-emoji { font-size: 1.6rem; line-height: 1; }
-
-    .scenario-pill span:last-child {
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: var(--text);
-      letter-spacing: 0.01em;
-    }
-
-    /* ── PRIVACY ── */
-    .privacy {
-      background: #0F0F1E;
-      padding: 100px 24px;
-      text-align: center;
-    }
-
-    .privacy .section-label { color: rgba(139,92,246,0.8); }
-
-    .privacy .section-title { color: white; margin-bottom: 48px; }
-
-    .privacy-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 24px;
-      max-width: 800px;
-      margin: 0 auto 48px;
-    }
-
-    .privacy-item {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 16px;
-      padding: 28px 20px;
-    }
-
-    .privacy-item .privacy-icon {
-      font-size: 1.8rem;
-      margin-bottom: 12px;
-      display: block;
-    }
-
-    .privacy-item p {
-      font-size: 0.875rem;
-      color: rgba(255,255,255,0.55);
-      line-height: 1.6;
-    }
-
-    .privacy-note {
-      font-size: 0.875rem;
-      color: rgba(255,255,255,0.35);
-      max-width: 480px;
-      margin: 0 auto;
-      line-height: 1.7;
-    }
-
-    /* ── FOOTER ── */
-    footer {
-      background: #0F0F1E;
-      border-top: 1px solid rgba(255,255,255,0.06);
-      padding: 32px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 16px;
-    }
-
-    .footer-left {
-      font-family: 'Fraunces', serif;
-      font-size: 1.1rem;
-      font-weight: 500;
-      color: rgba(255,255,255,0.4);
-    }
-
-    .footer-right {
-      display: flex; gap: 24px; align-items: center;
-    }
-
-    .footer-right a {
-      font-size: 0.875rem;
-      color: rgba(255,255,255,0.35);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .footer-right a:hover { color: rgba(255,255,255,0.7); }
-
-    /* ── SCROLL ANIMATIONS ── */
     .reveal {
       opacity: 0;
       transform: translateY(20px);
@@ -488,14 +268,246 @@
       transform: translateY(0);
     }
 
-    /* ── SCREENSHOTS ── */
-    .screens {
+    /* ── HOW IT WORKS ── */
+    .how-it-works {
+      background: var(--white);
+      padding: 100px 24px;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 48px;
+      max-width: 960px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .steps::before {
+      content: '';
+      position: absolute;
+      top: 36px; left: 20%; right: 20%;
+      height: 2px;
+      background: linear-gradient(90deg, var(--blue), var(--purple));
+      opacity: 0.2;
+      z-index: 0;
+    }
+    .step {
+      text-align: center;
+      position: relative; z-index: 1;
+    }
+    .step-number {
+      width: 72px; height: 72px;
+      border-radius: 50%;
       background: var(--gradient);
-      padding: 100px 24px 110px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+      color: white;
+      font-family: 'Fraunces', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(99,102,241,0.25);
+    }
+    .step h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+    .step p {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--muted);
+      max-width: 280px;
+      margin: 0 auto;
+    }
+
+    /* ── FEATURES ── */
+    .features {
+      background: var(--surface);
+      padding: 100px 24px;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .feature-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px 32px;
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .feature-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 60px rgba(99,102,241,0.1);
+    }
+    .feature-icon {
+      width: 52px; height: 52px;
+      border-radius: 14px;
+      background: var(--gradient);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+    }
+    .feature-card h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.3rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+    .feature-card p {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--muted);
+    }
+
+    /* ── EXAMPLE PHRASE ── */
+    .example-phrase {
+      background: var(--white);
+      padding: 100px 24px;
+    }
+    .phrase-demo {
+      max-width: 560px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(99,102,241,0.08);
+    }
+    .phrase-demo-header {
+      background: var(--gradient);
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .phrase-demo-body { padding: 28px 24px 32px; }
+    .phrase-intent {
+      font-size: 0.8rem;
+      color: var(--indigo);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .phrase-text {
+      font-family: 'Fraunces', serif;
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: var(--text);
+      letter-spacing: -0.01em;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .phrase-pron {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    .phrase-cultural {
+      background: rgba(99,102,241,0.06);
+      border-left: 3px solid var(--indigo);
+      border-radius: 0 12px 12px 0;
+      padding: 14px 18px;
+      font-size: 0.85rem;
+      color: var(--text);
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .phrase-cultural strong {
+      display: block;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--indigo);
+      margin-bottom: 4px;
+    }
+    .responses-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .response-item {
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .response-item:last-child { border-bottom: none; }
+    .response-local {
+      font-weight: 500;
+      font-size: 0.95rem;
+      color: var(--text);
+      display: block;
+      margin-bottom: 2px;
+    }
+    .response-pron {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-style: italic;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .response-en {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: block;
+    }
+
+    /* ── STATS ── */
+    .stats {
+      background: var(--gradient);
+      padding: 80px 24px;
+      position: relative;
       overflow: hidden;
     }
-    .screens .section-label { color: rgba(255,255,255,0.85); }
-    .screens .section-title { color: #fff; margin-bottom: 56px; }
+    .stats::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      opacity: 0.3;
+      pointer-events: none;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      max-width: 900px;
+      margin: 0 auto;
+      position: relative; z-index: 1;
+    }
+    .stat-item { text-align: center; }
+    .stat-number {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 700;
+      color: white;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat-label {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.7);
+      font-weight: 400;
+    }
+
+    /* ── SCREENSHOTS ── */
+    .screens {
+      background: var(--surface);
+      padding: 100px 24px;
+      overflow: hidden;
+    }
     .screens-row {
       display: flex;
       gap: 28px;
@@ -505,24 +517,275 @@
       max-width: 1120px;
       margin: 0 auto;
     }
-    .screen { width: 240px; flex: 0 0 auto; }
-    .screen img {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 28px;
-      background: #000;
-      box-shadow: 0 24px 60px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.14);
-    }
-    .screen p {
+    .screen {
+      width: 220px; flex: 0 0 auto;
       text-align: center;
-      color: rgba(255,255,255,0.92);
-      font-size: 0.9rem;
+    }
+    .screen-frame {
+      width: 200px;
+      margin: 0 auto 18px;
+      background: #1a1a2e;
+      border-radius: 32px;
+      padding: 8px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.15), 0 0 0 1px rgba(255,255,255,0.06);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .screen-frame:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 28px 60px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.1);
+    }
+    .screen-frame img { width: 100%; display: block; border-radius: 24px; }
+    .screen p {
+      color: var(--muted);
+      font-size: 0.85rem;
       font-weight: 500;
-      margin-top: 18px;
     }
 
+    /* ── LANGUAGES ── */
+    .languages {
+      background: var(--white);
+      padding: 100px 24px;
+    }
+    .languages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .lang-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px 20px 28px;
+      text-align: center;
+      transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+      cursor: default;
+    }
+    .lang-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 60px rgba(99,102,241,0.1);
+      border-color: rgba(99,102,241,0.3);
+    }
+    .lang-flag-large {
+      font-size: 2.8rem;
+      line-height: 1;
+      display: block;
+      margin-bottom: 14px;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,0.12));
+    }
+    .lang-card h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .lang-card .lang-desc {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .lang-cities {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--indigo);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: rgba(99,102,241,0.06);
+      padding: 4px 10px;
+      border-radius: 100px;
+    }
+
+    /* ── SCENARIOS ── */
+    .scenarios {
+      padding: 100px 24px;
+      background: var(--surface);
+    }
+    .scenarios-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 16px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .scenario-pill {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 12px;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 10px;
+      text-align: center;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      cursor: default;
+    }
+    .scenario-pill:hover {
+      border-color: var(--indigo);
+      box-shadow: 0 4px 20px rgba(99,102,241,0.1);
+    }
+    .scenario-emoji { font-size: 1.6rem; line-height: 1; }
+    .scenario-pill span:last-child {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    /* ── PRIVACY ── */
+    .privacy {
+      background: var(--dark);
+      padding: 100px 24px;
+      text-align: center;
+    }
+    .privacy .section-label { color: rgba(139,92,246,0.8); }
+    .privacy .section-title { color: white; margin-bottom: 48px; }
+    .privacy-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      max-width: 800px;
+      margin: 0 auto 48px;
+    }
+    .privacy-item {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 28px 20px;
+    }
+    .privacy-item .privacy-icon {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .privacy-item p {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.6;
+    }
+    .privacy-note {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.35);
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    /* ── FAQ ── */
+    .faq {
+      background: var(--white);
+      padding: 100px 24px;
+    }
+    .faq-list {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+    .faq-item summary {
+      padding: 20px 0;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after {
+      content: '+';
+      font-size: 1.4rem;
+      color: var(--indigo);
+      font-weight: 300;
+      transition: transform 0.2s;
+    }
+    .faq-item[open] summary::after {
+      transform: rotate(45deg);
+    }
+    .faq-answer {
+      padding: 0 0 20px;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    /* ── FINAL CTA ── */
+    .final-cta {
+      background: var(--gradient);
+      padding: 100px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .final-cta::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      opacity: 0.3;
+      pointer-events: none;
+    }
+    .final-cta h2 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 500;
+      color: white;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      position: relative; z-index: 1;
+    }
+    .final-cta p {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 32px;
+      position: relative; z-index: 1;
+    }
+    .final-cta .btn-store {
+      position: relative; z-index: 1;
+    }
+    .final-cta .hero-note {
+      margin-bottom: 0;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--dark);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 32px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-left {
+      font-family: 'Fraunces', serif;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.4);
+    }
+    .footer-right {
+      display: flex; gap: 24px; align-items: center;
+    }
+    .footer-right a {
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.35);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-right a:hover { color: rgba(255,255,255,0.7); }
+
     /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .steps { grid-template-columns: 1fr; gap: 40px; }
+      .steps::before { display: none; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    }
     @media (max-width: 600px) {
       .screens-row {
         flex-wrap: nowrap;
@@ -532,12 +795,20 @@
         -webkit-overflow-scrolling: touch;
         padding-bottom: 12px;
       }
-      .screen { scroll-snap-align: center; }
+      .screen { scroll-snap-align: center; flex: 0 0 200px; }
       nav { padding: 16px 20px; }
       footer { padding: 24px 20px; flex-direction: column; text-align: center; }
       .footer-right { justify-content: center; }
       .scenarios-grid { grid-template-columns: repeat(3, 1fr); }
       .languages-grid { grid-template-columns: repeat(2, 1fr); }
+      .features-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
     }
   </style>
 </head>
@@ -546,39 +817,34 @@
   <!-- NAV -->
   <nav>
     <a href="/" class="nav-logo">SayItHere</a>
-    <a href="#" class="nav-cta">Download Free</a>
+    <!-- TODO: Replace href with App Store URL when approved -->
+    <a href="#download" class="nav-cta">Get the App</a>
   </nav>
 
   <!-- HERO -->
   <section class="hero">
     <div class="hero-orb"></div>
-
-    <!-- App Icon -->
     <div class="app-icon">
-      <img src="appicon.png" alt="SayItHere app icon" width="120" height="120">
+      <img src="appicon.png" alt="SayItHere app icon" width="80" height="80">
     </div>
 
-    <h1>SayItHere</h1>
-    <p class="hero-sub">The right words, right where you are.</p>
+    <h1>The right words, right where you are.</h1>
+    <p class="hero-sub">SayItHere detects nearby places and gives you the perfect phrases — in 10 languages, for every travel moment. No typing. No translating. Just speak.</p>
+    <p class="hero-note">Free · iPhone · Works offline</p>
 
-    <div class="hero-flags">
-      <span class="hero-flag">🇫🇷</span>
-      <span class="hero-flag">🇮🇹</span>
-      <span class="hero-flag">🇪🇸</span>
-      <span class="hero-flag">🇩🇪</span>
-      <span class="hero-flag">🇵🇹</span>
-      <span class="hero-flag">🇹🇷</span>
-      <span class="hero-flag">🇨🇿</span>
-      <span class="hero-flag">🇳🇱</span>
-      <span class="hero-flag">🇬🇷</span>
-      <span class="hero-flag">🇯🇵</span>
-      <span class="hero-flags-label">Ten languages</span>
-    </div>
-
-    <a href="#" class="btn-store">
+    <!-- TODO: Replace href with App Store URL when approved -->
+    <a href="#download" class="btn-store" id="download">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
       Download on the App Store
     </a>
+
+    <div class="hero-phone">
+      <div class="phone-frame">
+        <div class="phone-notch"></div>
+        <img src="screens/03-scenario-detail.png" alt="SayItHere phrase cards at a Paris café">
+      </div>
+      <div class="phone-glow"></div>
+    </div>
 
     <div class="hero-scroll">
       <div class="scroll-line"></div>
@@ -586,26 +852,112 @@
     </div>
   </section>
 
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works">
+    <p class="section-label reveal">How it works</p>
+    <h2 class="section-title reveal">Three steps. Zero friction.</h2>
+
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-number">1</div>
+        <h3>Arrive</h3>
+        <p>Walk into a café, restaurant, or pharmacy. SayItHere senses where you are — no check-ins, no searches.</p>
+      </div>
+      <div class="step reveal" style="transition-delay:0.1s">
+        <div class="step-number">2</div>
+        <h3>Phrases appear</h3>
+        <p>The exact phrases you need are already on screen. Ordering, asking for help, paying — organized by what you're trying to do.</p>
+      </div>
+      <div class="step reveal" style="transition-delay:0.2s">
+        <div class="step-number">3</div>
+        <h3>Speak</h3>
+        <p>Tap to hear native pronunciation. Check the cultural note. Know what to expect back. You're ready.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- FEATURES -->
   <section class="features">
-    <p class="section-label reveal">How it works</p>
-    <h2 class="section-title reveal">Built for the moment<br><em style="font-style:italic; font-weight:300;">you need it most</em></h2>
+    <p class="section-label reveal">Features</p>
+    <h2 class="section-title reveal">Built for travelers,<br><em style="font-style:italic; font-weight:300;">not tourists</em></h2>
 
     <div class="features-grid">
       <div class="feature-card reveal">
         <div class="feature-icon">📍</div>
         <h3>Live Mode</h3>
-        <p>SayItHere detects nearby places — a café, restaurant, hotel, pharmacy — and instantly surfaces the phrases you need. No searching required.</p>
+        <p>Walk up. Phrases appear. SayItHere uses on-device location to detect nearby places — cafés, restaurants, hotels, pharmacies, train stations — and instantly surfaces the phrases you need. No searching, no menus, no typing.</p>
       </div>
       <div class="feature-card reveal" style="transition-delay:0.1s">
         <div class="feature-icon">📖</div>
         <h3>Practice Mode</h3>
-        <p>Browse all scenarios before your trip. Tap any phrase to hear it spoken aloud in your chosen language, or use Slow mode to build confidence at your own pace.</p>
+        <p>Browse every scenario before your trip. Tap any phrase to hear it spoken aloud. Switch to Slow mode to nail the pronunciation. Save the ones you know you'll need. Arrive ready.</p>
       </div>
       <div class="feature-card reveal" style="transition-delay:0.2s">
         <div class="feature-icon">⌚</div>
         <h3>Lock Screen Widget</h3>
-        <p>A new phrase on your Lock Screen throughout the day. Your travel language stays fresh without even opening the app.</p>
+        <p>A new phrase on your Lock Screen throughout the day. Your travel language stays fresh in your mind — without ever opening the app. Tap through to hear it spoken.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXAMPLE PHRASE -->
+  <section class="example-phrase">
+    <p class="section-label reveal">A closer look</p>
+    <h2 class="section-title reveal">Not just a phrase.<br><em style="font-style:italic; font-weight:300;">A conversation.</em></h2>
+
+    <div class="phrase-demo reveal">
+      <div class="phrase-demo-header">
+        <span>☕ At a café in Paris</span>
+        <span>🇫🇷 French</span>
+      </div>
+      <div class="phrase-demo-body">
+        <p class="phrase-intent">Ask if someone speaks English</p>
+        <p class="phrase-text">Excusez-moi, vous parlez anglais ?</p>
+        <p class="phrase-pron">ex-koo-ZAY mwah, voo par-LAY ahn-GLEH</p>
+
+        <div class="phrase-cultural">
+          <strong>Cultural note</strong>
+          Always start with "Excusez-moi". Many French people speak some English but appreciate you trying French first.
+        </div>
+
+        <p class="responses-label">You might hear back</p>
+        <div class="response-item">
+          <span class="response-local">Oui, je parle un peu anglais.</span>
+          <span class="response-pron">wee, zhuh PARL uhn PUH ahn-GLEH</span>
+          <span class="response-en">Yes, I speak a little English.</span>
+        </div>
+        <div class="response-item">
+          <span class="response-local">Désolé, je ne parle pas anglais.</span>
+          <span class="response-pron">day-zoh-LAY, zhuh nuh PARL pah ahn-GLEH</span>
+          <span class="response-en">Sorry, I don't speak English.</span>
+        </div>
+        <div class="response-item">
+          <span class="response-local">Un peu, qu'est-ce que vous voulez ?</span>
+          <span class="response-pron">uhn PUH, kess kuh voo voo-LAY</span>
+          <span class="response-en">A little — what do you need?</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-number" data-count="10">0</div>
+        <div class="stat-label">Languages</div>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.08s">
+        <div class="stat-number" data-count="176" data-suffix="+">0</div>
+        <div class="stat-label">Cities with local phrases</div>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.16s">
+        <div class="stat-number" data-count="5000" data-suffix="+">0</div>
+        <div class="stat-label">Curated phrases</div>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:0.24s">
+        <div class="stat-number" data-count="12">0</div>
+        <div class="stat-label">Everyday place types</div>
       </div>
     </div>
   </section>
@@ -613,24 +965,32 @@
   <!-- SCREENSHOTS -->
   <section class="screens">
     <p class="section-label reveal">A look inside</p>
-    <h2 class="section-title reveal">See it in action</h2>
+    <h2 class="section-title reveal">Designed for the moment</h2>
 
     <div class="screens-row">
       <div class="screen reveal">
-        <img src="screens/01-onboarding-languages.png" alt="SayItHere onboarding — choosing from ten languages">
-        <p>Choose from ten languages</p>
+        <div class="screen-frame">
+          <img src="screens/01-onboarding-languages.png" alt="Choose your language" loading="lazy">
+        </div>
+        <p>Choose your language</p>
       </div>
       <div class="screen reveal" style="transition-delay:0.08s">
-        <img src="screens/02-practice-list.png" alt="SayItHere Practice tab — phrases grouped by place">
-        <p>Browse phrases by place</p>
+        <div class="screen-frame">
+          <img src="screens/02-practice-list.png" alt="Browse by place" loading="lazy">
+        </div>
+        <p>Browse by place</p>
       </div>
       <div class="screen reveal" style="transition-delay:0.16s">
-        <img src="screens/03-scenario-detail.png" alt="SayItHere phrase cards with pronunciation and playback">
-        <p>Hear every phrase spoken</p>
+        <div class="screen-frame">
+          <img src="screens/03-scenario-detail.png" alt="Hear every phrase" loading="lazy">
+        </div>
+        <p>Hear every phrase</p>
       </div>
       <div class="screen reveal" style="transition-delay:0.24s">
-        <img src="screens/05-saved.png" alt="SayItHere Saved tab — favorites and recent scenarios">
-        <p>Save the ones you need</p>
+        <div class="screen-frame">
+          <img src="screens/05-saved.png" alt="Save what you need" loading="lazy">
+        </div>
+        <p>Save what you need</p>
       </div>
     </div>
   </section>
@@ -638,59 +998,68 @@
   <!-- LANGUAGES -->
   <section class="languages">
     <p class="section-label reveal">Languages</p>
-    <h2 class="section-title reveal">Ten languages,<br><em style="font-style:italic; font-weight:300;">perfectly prepared</em></h2>
+    <h2 class="section-title reveal">Ten languages.<br><em style="font-style:italic; font-weight:300;">One app.</em></h2>
 
     <div class="languages-grid">
       <div class="lang-card reveal">
         <span class="lang-flag-large">🇫🇷</span>
         <h3>French</h3>
-        <p>France & French-speaking destinations</p>
-        <span class="lang-badge">Most Complete</span>
+        <p class="lang-desc">France &amp; French-speaking Europe</p>
+        <span class="lang-cities">27 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.08s">
+      <div class="lang-card reveal" style="transition-delay:0.05s">
         <span class="lang-flag-large">🇮🇹</span>
         <h3>Italian</h3>
-        <p>Italy — from Rome to the Italian Lakes</p>
+        <p class="lang-desc">Italy, from Rome to the Lakes</p>
+        <span class="lang-cities">16 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.16s">
+      <div class="lang-card reveal" style="transition-delay:0.10s">
         <span class="lang-flag-large">🇪🇸</span>
         <h3>Spanish</h3>
-        <p>Spain — cities, coasts & rural towns</p>
+        <p class="lang-desc">Spain, cities &amp; coasts</p>
+        <span class="lang-cities">22 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.24s">
+      <div class="lang-card reveal" style="transition-delay:0.15s">
         <span class="lang-flag-large">🇩🇪</span>
         <h3>German</h3>
-        <p>Germany, Austria & Switzerland</p>
+        <p class="lang-desc">Germany, Austria &amp; Switzerland</p>
+        <span class="lang-cities">35 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.32s">
+      <div class="lang-card reveal" style="transition-delay:0.20s">
         <span class="lang-flag-large">🇵🇹</span>
         <h3>Portuguese</h3>
-        <p>Portugal & the Algarve coast</p>
+        <p class="lang-desc">Portugal &amp; the Algarve</p>
+        <span class="lang-cities">15 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.40s">
+      <div class="lang-card reveal" style="transition-delay:0.25s">
         <span class="lang-flag-large">🇹🇷</span>
         <h3>Turkish</h3>
-        <p>Istanbul, Cappadocia & the Turquoise Coast</p>
+        <p class="lang-desc">Istanbul &amp; the Turquoise Coast</p>
+        <span class="lang-cities">11 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.48s">
+      <div class="lang-card reveal" style="transition-delay:0.30s">
         <span class="lang-flag-large">🇨🇿</span>
         <h3>Czech</h3>
-        <p>Prague & the towns of Bohemia</p>
+        <p class="lang-desc">Prague &amp; Bohemia</p>
+        <span class="lang-cities">9 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.56s">
+      <div class="lang-card reveal" style="transition-delay:0.35s">
         <span class="lang-flag-large">🇳🇱</span>
         <h3>Dutch</h3>
-        <p>Amsterdam & across the Netherlands</p>
+        <p class="lang-desc">Amsterdam &amp; the Netherlands</p>
+        <span class="lang-cities">12 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.64s">
+      <div class="lang-card reveal" style="transition-delay:0.40s">
         <span class="lang-flag-large">🇬🇷</span>
         <h3>Greek</h3>
-        <p>Athens & the Greek islands</p>
+        <p class="lang-desc">Athens &amp; the islands</p>
+        <span class="lang-cities">20 cities</span>
       </div>
-      <div class="lang-card reveal" style="transition-delay:0.72s">
+      <div class="lang-card reveal" style="transition-delay:0.45s">
         <span class="lang-flag-large">🇯🇵</span>
         <h3>Japanese</h3>
-        <p>Tokyo, Kyoto & beyond</p>
+        <p class="lang-desc">Tokyo, Kyoto &amp; beyond</p>
+        <span class="lang-cities">9 cities</span>
       </div>
     </div>
   </section>
@@ -742,13 +1111,57 @@
     </p>
   </section>
 
+  <!-- FAQ -->
+  <section class="faq">
+    <p class="section-label reveal">Questions</p>
+    <h2 class="section-title reveal">Good questions</h2>
+
+    <div class="faq-list">
+      <details class="faq-item reveal">
+        <summary>When does SayItHere launch?</summary>
+        <p class="faq-answer">SayItHere is launching this week on the App Store for iPhone, pending Apple's final approval. It's free to download.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Does it work offline?</summary>
+        <p class="faq-answer">Yes. Once your language is loaded, everything — phrases, pronunciation guides, audio playback — works completely offline. No data plan required abroad.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>How is this different from Google Translate?</summary>
+        <p class="faq-answer">Google Translate is built for typing sentences and getting translations back. SayItHere is built for moments — it knows where you are and gives you curated, culturally-aware phrases you can use instantly. No typing, no awkward phrasing, no wondering what the response means.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Which languages are available?</summary>
+        <p class="faq-answer">French, Italian, Spanish, German, Portuguese, Turkish, Czech, Dutch, Greek, and Japanese — with more on the way.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Do I need an account?</summary>
+        <p class="faq-answer">No account, no sign-up, no email. Open the app, choose your language, and start speaking.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Is my data really private?</summary>
+        <p class="faq-answer">Completely. SayItHere works entirely on your device. Your location is never transmitted. No analytics, no tracking, no data collection — ever.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <h2>Ready to travel with confidence?</h2>
+    <p>Download SayItHere and have the right words wherever you go.</p>
+    <!-- TODO: Replace href with App Store URL when approved -->
+    <a href="#download" class="btn-store">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Download on the App Store
+    </a>
+    <p class="hero-note" style="margin-top:12px">Free · iPhone · Works offline</p>
+  </section>
+
   <!-- FOOTER -->
   <footer>
     <div class="footer-left">SayItHere</div>
     <div class="footer-right">
       <a href="/privacy.html">Privacy Policy</a>
       <a href="mailto:support@sayithere.app">Support</a>
-      <a href="https://sayithere.app" style="color:rgba(255,255,255,0.2); font-size:0.8rem;">sayithere.app</a>
     </div>
   </footer>
 
@@ -756,13 +1169,42 @@
     // Scroll reveal
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(el => {
-        if (el.isIntersecting) {
-          el.target.classList.add('visible');
-        }
+        if (el.isIntersecting) el.target.classList.add('visible');
       });
     }, { threshold: 0.15 });
-
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Nav scroll effect
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Stats count-up
+    function animateCount(el, target, suffix) {
+      const duration = 1500;
+      const start = performance.now();
+      function update(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.floor(eased * target).toLocaleString() + suffix;
+        if (progress < 1) requestAnimationFrame(update);
+      }
+      requestAnimationFrame(update);
+    }
+
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          document.querySelectorAll('[data-count]').forEach(el => {
+            animateCount(el, parseInt(el.dataset.count), el.dataset.suffix || '');
+          });
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    const statsSection = document.querySelector('.stats');
+    if (statsSection) statsObserver.observe(statsSection);
   </script>
 
 </body>
