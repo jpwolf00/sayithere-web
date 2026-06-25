@@ -136,7 +136,7 @@
 
     <div class="section highlight">
       <h2>The short version</h2>
-      <p>SayItHere has no accounts, no analytics, and no tracking. We do not collect, store, or share any personal data. The app makes two kinds of network requests: an anonymous location lookup to find nearby places (Live Mode only), and downloads of phrase content from GitHub to stay current. No personally identifiable information is included in either request. That's the extent of network activity.</p>
+      <p>SayItHere has no accounts, no analytics, and no tracking. We do not collect, store, or share any personal data. The app makes two kinds of network requests: an anonymous location lookup to find nearby places (Live Mode only), and downloads of phrase content from GitHub to stay current. An anonymous flag may also sync via your private iCloud to preserve your access across devices. No personally identifiable information is involved in any of these.</p>
     </div>
 
     <div class="section">
@@ -180,12 +180,23 @@
 
     <div class="section">
       <h2>Data stored on your device</h2>
-      <p>SayItHere stores the following information locally on your device only, using iOS standard storage. This data never leaves your phone:</p>
+      <p>SayItHere stores the following information locally on your device, using iOS standard storage:</p>
       <ul>
         <li>Your saved favourite phrases</li>
         <li>Your recently viewed scenarios</li>
         <li>Your app settings (voice preference, speech speed)</li>
         <li>A cached copy of phrase data for offline use</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>iCloud sync</h2>
+      <p>SayItHere uses Apple's iCloud Key-Value Storage to sync an anonymous entitlement flag across your devices. This flag records whether you installed the app during the free launch period, so your access is preserved if you reinstall or switch to a new iPhone.</p>
+      <ul>
+        <li>The flag is a single true/false value — no names, identifiers, or usage data</li>
+        <li>It is stored in your own private iCloud account, not on our servers</li>
+        <li>We cannot read it, access it, or link it to you in any way</li>
+        <li>You can disable iCloud sync in iOS Settings → Apple Account → iCloud → SayItHere</li>
       </ul>
     </div>
 
