@@ -502,6 +502,64 @@
       font-weight: 400;
     }
 
+    /* ── VENUES ── */
+    .venues {
+      background: var(--white);
+      padding: 100px 24px;
+    }
+    .venues-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .venue-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px 24px;
+      transition: transform 0.25s, box-shadow 0.25s;
+    }
+    .venue-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 60px rgba(99,102,241,0.1);
+    }
+    .venue-flag {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .venue-card h3 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+    .venue-location {
+      font-size: 0.8rem;
+      color: var(--indigo);
+      font-weight: 500;
+      margin-bottom: 14px;
+    }
+    .venue-phrase {
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+    .venue-phrase em {
+      font-style: italic;
+      color: var(--muted);
+    }
+    .venue-note {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.5;
+      padding-top: 10px;
+      border-top: 1px solid var(--border);
+    }
     /* ── SCREENSHOTS ── */
     .screens {
       background: var(--surface);
@@ -900,6 +958,7 @@
       footer { padding: 24px 20px; flex-direction: column; text-align: center; }
       .footer-right { justify-content: center; }
       .scenarios-grid { grid-template-columns: repeat(3, 1fr); }
+      .venues-grid { grid-template-columns: 1fr; }
       .languages-grid { grid-template-columns: repeat(2, 1fr); }
       .features-grid { grid-template-columns: 1fr; }
     }
@@ -1011,30 +1070,25 @@
         <span>🇫🇷 French</span>
       </div>
       <div class="phrase-demo-body">
-        <p class="phrase-intent">Ask if someone speaks English</p>
-        <p class="phrase-text">Excusez-moi, vous parlez anglais ?</p>
-        <p class="phrase-pron">ex-koo-ZAY mwah, voo par-LAY ahn-GLEH</p>
+        <p class="phrase-intent">Order a coffee and a croissant</p>
+        <p class="phrase-text">Bonjour, un café et un croissant, s'il vous plaît.</p>
+        <p class="phrase-pron">bohn-ZHOOR, uhn kah-FAY ay uhn krwah-SAHN, seel voo PLEH</p>
 
         <div class="phrase-cultural">
           <strong>Cultural note</strong>
-          Always start with "Excusez-moi". Many French people speak some English but appreciate you trying French first.
+          In France, always say "Bonjour" when you enter a café or shop — it's considered rude not to greet. "Un café" means a small espresso; ask for "un café allongé" if you want a longer coffee.
         </div>
 
         <p class="responses-label">You might hear back</p>
         <div class="response-item">
-          <span class="response-local">Oui, je parle un peu anglais.</span>
-          <span class="response-pron">wee, zhuh PARL uhn PUH ahn-GLEH</span>
-          <span class="response-en">Yes, I speak a little English.</span>
+          <span class="response-local">Un café et un croissant, très bien.</span>
+          <span class="response-pron">uhn kah-FAY ay uhn krwah-SAHN, treh byahn</span>
+          <span class="response-en">A coffee and a croissant, very well.</span>
         </div>
         <div class="response-item">
-          <span class="response-local">Désolé, je ne parle pas anglais.</span>
-          <span class="response-pron">day-zoh-LAY, zhuh nuh PARL pah ahn-GLEH</span>
-          <span class="response-en">Sorry, I don't speak English.</span>
-        </div>
-        <div class="response-item">
-          <span class="response-local">Un peu, qu'est-ce que vous voulez ?</span>
-          <span class="response-pron">uhn PUH, kess kuh voo voo-LAY</span>
-          <span class="response-en">A little — what do you need?</span>
+          <span class="response-local">Vous prenez ça sur place ou à emporter ?</span>
+          <span class="response-pron">voo pruh-NAY sah soor PLASS oo ah ahm-por-TAY</span>
+          <span class="response-en">For here or to go?</span>
         </div>
       </div>
     </div>
@@ -1058,6 +1112,43 @@
       <div class="stat-item reveal" style="transition-delay:0.24s">
         <div class="stat-number" data-count="12">0</div>
         <div class="stat-label">Everyday place types</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VENUES -->
+  <section class="venues">
+    <p class="section-label reveal">Venue-specific content</p>
+    <h2 class="section-title reveal">Not just a phrasebook.<br><em style="font-style:italic; font-weight:300;">A local guide.</em></h2>
+
+    <div class="venues-grid">
+      <div class="venue-card reveal">
+        <span class="venue-flag">🇫🇷</span>
+        <h3>Café de Flore</h3>
+        <p class="venue-location">Paris, France</p>
+        <p class="venue-phrase">"Bonjour, un chocolat chaud, s'il vous plaît."</p>
+        <p class="venue-note">Café de Flore is famous for its thick, rich hot chocolate, made with real melted chocolate — not cocoa powder. It arrives with a small jug of extra hot chocolate on the side.</p>
+      </div>
+      <div class="venue-card reveal" style="transition-delay:0.08s">
+        <span class="venue-flag">🇯🇵</span>
+        <h3>Senso-ji Temple</h3>
+        <p class="venue-location">Tokyo, Japan</p>
+        <p class="venue-phrase">"おまもりは どこで かえますか？"</p>
+        <p class="venue-note"><em>Where do I buy omamori charms?</em> — おまもり is the general term for protective charms and amulets sold at temples and shrines.</p>
+      </div>
+      <div class="venue-card reveal" style="transition-delay:0.16s">
+        <span class="venue-flag">🇹🇷</span>
+        <h3>Grand Bazaar</h3>
+        <p class="venue-location">Istanbul, Turkey</p>
+        <p class="venue-phrase">"Halı dükkanında pazarlık bekleniyor mu?"</p>
+        <p class="venue-note"><em>Is haggling expected at carpet shops?</em> — Haggling is part of the experience at the Grand Bazaar. Start at about half the asking price.</p>
+      </div>
+      <div class="venue-card reveal" style="transition-delay:0.24s">
+        <span class="venue-flag">🇨🇿</span>
+        <h3>Café Savoy</h3>
+        <p class="venue-location">Prague, Czech Republic</p>
+        <p class="venue-phrase">"Je ten stůl u okna s výhledem na zrcadlo volný?"</p>
+        <p class="venue-note"><em>Is the window table with mirror view free?</em> — Tables by the large mirror are popular, but staff will indicate if one is available.</p>
       </div>
     </div>
   </section>
@@ -1245,18 +1336,18 @@
     <div class="conv-chat" id="convChat">
       <div class="conv-bubble conv-bubble-you" data-delay="0">
         <div class="conv-bubble-label">You say</div>
-        <div class="conv-bubble-text">Excusez-moi, vous parlez anglais ?</div>
-        <div class="conv-bubble-pron">ex-koo-ZAY mwah, voo par-LAY ahn-GLEH</div>
+        <div class="conv-bubble-text">Bonjour, un café et un croissant, s'il vous plaît.</div>
+        <div class="conv-bubble-pron">bohn-ZHOOR, uhn kah-FAY ay uhn krwah-SAHN, seel voo PLEH</div>
       </div>
       <div class="conv-bubble conv-bubble-them" data-delay="1200">
         <div class="conv-bubble-label">They respond</div>
-        <div class="conv-bubble-text">Oui, je parle un peu anglais.</div>
-        <div class="conv-bubble-pron">wee, zhuh PARL uhn PUH ahn-GLEH</div>
+        <div class="conv-bubble-text">Un café et un croissant, très bien.</div>
+        <div class="conv-bubble-pron">uhn kah-FAY ay uhn krwah-SAHN, treh byahn</div>
       </div>
       <div class="conv-understand" data-delay="2400">
         <div class="conv-understand-icon">✓</div>
         <h3>You understand.</h3>
-        <p>They speak a little English. You can switch to English — or keep trying French. Either way, you know where you stand.</p>
+        <p>Your order is confirmed. You know exactly what's happening — no guessing, no awkwardness. Just a normal café moment.</p>
       </div>
     </div>
   </section>
