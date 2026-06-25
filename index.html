@@ -72,6 +72,16 @@
       color: white;
       letter-spacing: -0.02em;
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .nav-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 8px;
+      display: block;
+      flex-shrink: 0;
     }
 
     .nav-cta {
@@ -985,7 +995,10 @@
 
   <!-- NAV -->
   <nav>
-    <a href="/" class="nav-logo">SayItHere</a>
+    <a href="/" class="nav-logo">
+      <img src="appicon.png" alt="SayItHere" class="nav-icon">
+      SayItHere
+    </a>
     <!-- TODO: Replace href with App Store URL when approved -->
     <a href="#download" class="nav-cta">Get the App</a>
   </nav>
@@ -993,9 +1006,6 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-orb"></div>
-    <div class="app-icon">
-      <img src="appicon.png" alt="SayItHere app icon" width="80" height="80">
-    </div>
 
     <h1>The right words, right where you are.</h1>
     <p class="hero-sub">Most phrasebooks stop at what to say. SayItHere shows you both sides of the conversation — location-aware phrases in 10 languages, with native pronunciation and the responses you'd otherwise have no idea how to handle.</p>
