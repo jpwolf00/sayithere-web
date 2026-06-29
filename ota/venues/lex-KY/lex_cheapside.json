@@ -1,0 +1,105 @@
+{
+  "id": "lex_cheapside",
+  "name_en": "Cheapside Park",
+  "name_local": "Parc de Cheapside",
+  "icon": "sun.max.fill",
+  "lat": 38.0470,
+  "lon": -84.4988,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "lex_cheapside_001",
+      "intent_en": "Comment that the weather is beautiful",
+      "text_local": "Il fait vraiment beau aujourd'hui !",
+      "pronunciation": "eel fay vray-MON boh oh-zhoor-DWEE",
+      "formality": "casual",
+      "cultural_note": "Commenting on nice weather ('Il fait beau') is one of the most universal French conversation starters. Unlike in English where 'beautiful weather' can sound stiff, the French use it constantly and genuinely.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_cheapside_002",
+      "intent_en": "Say you're meeting friends here",
+      "text_local": "Je retrouve des amis ici.",
+      "pronunciation": "juh ruh-TROOV day za-MEE ee-SEE",
+      "formality": "casual",
+      "cultural_note": "The verb 'retrouver' (to meet up with, to find again) is more precise than 'rencontrer' (to meet for the first time). Using it correctly signals you know your French verbs.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_cheapside_003",
+      "intent_en": "Ask about upcoming events in the park",
+      "text_local": "Est-ce qu'il y a des événements prévus ici prochainement ?",
+      "pronunciation": "ess keel ee ah day zay-VEN-mon pray-VOO ee-SEE pro-shen-MON",
+      "formality": "polite",
+      "cultural_note": "Cheapside Park hosts farmers markets, concerts, and community events. French parks ('parcs') also play a major social role — the question translates perfectly to any public square in France.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, il y a un marché fermier samedi matin.",
+          "english": "Yes, there's a farmers market Saturday morning.",
+          "phonetic": "wee, eel ee ah un mar-SHAY fair-MYAY sam-DEE ma-TAN"
+        },
+        {
+          "french": "Il y a un concert gratuit ce soir.",
+          "english": "There's a free concert this evening.",
+          "phonetic": "eel ee ah un kon-SAIR gra-TWEE suh SWAR"
+        }
+      ]
+    },
+    {
+      "id": "lex_cheapside_004",
+      "intent_en": "Comment on the lively atmosphere",
+      "text_local": "Quelle ambiance animée ! J'adore cette place.",
+      "pronunciation": "kel om-BYONS ah-nee-MAY ! jha-DOR set PLAS",
+      "formality": "casual",
+      "cultural_note": "'Ambiance' is a word French gave to English — using it in French feels perfectly natural. 'Place' in French means a public square, which is exactly what Cheapside Park functions as.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_cheapside_005",
+      "intent_en": "Greet a stranger sitting on a bench",
+      "text_local": "Bonjour ! Belle journée, n'est-ce pas ?",
+      "pronunciation": "bon-ZHOOR ! bel zhoor-NAY, ness-PAH",
+      "formality": "casual",
+      "cultural_note": "Greeting strangers in public with 'Bonjour' is considered polite and normal in France, even in cities. Adding 'n'est-ce pas ?' (isn't it?) invites a small friendly exchange without being intrusive.",
+      "speech_act": "exclamation",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bonjour ! Oui, c'est magnifique aujourd'hui.",
+          "english": "Hello! Yes, it's wonderful today.",
+          "phonetic": "bon-ZHOOR ! wee, say mah-nyee-FEEK oh-zhoor-DWEE"
+        },
+        {
+          "french": "Bonjour ! En effet, il fait un temps superbe.",
+          "english": "Hello! Indeed, the weather is superb.",
+          "phonetic": "bon-ZHOOR ! on nay-FAY, eel fay un ton soo-PERB"
+        }
+      ]
+    },
+    {
+      "id": "lex_cheapside_006",
+      "intent_en": "Ask if there is a farmers market nearby",
+      "text_local": "Y a-t-il un marché fermier dans le coin ?",
+      "pronunciation": "ee ah-TEEL un mar-SHAY fair-MYAY don luh KWAN",
+      "formality": "casual",
+      "cultural_note": "Farmers markets ('marchés fermiers') are central to French food culture. Asking about one shows genuine interest in local produce and connects you to a shared French-American love of fresh, local food.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, le marché a lieu ici le samedi matin.",
+          "english": "Yes, the market takes place here on Saturday morning.",
+          "phonetic": "wee, luh mar-SHAY ah lyuh ee-SEE luh sam-DEE ma-TAN"
+        }
+      ]
+    }
+  ]
+}

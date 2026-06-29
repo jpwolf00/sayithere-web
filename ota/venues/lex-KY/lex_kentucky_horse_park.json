@@ -1,0 +1,122 @@
+{
+  "id": "lex_kentucky_horse_park",
+  "name_en": "Kentucky Horse Park",
+  "name_local": "Parc Équestre du Kentucky",
+  "icon": "figure.equestrian.sports",
+  "lat": 38.1322,
+  "lon": -84.4973,
+  "radius_m": 500,
+  "phrases": [
+    {
+      "id": "lex_kentucky_horse_park_001",
+      "intent_en": "Ask about the next show time",
+      "text_local": "À quelle heure commence le prochain spectacle équestre ?",
+      "pronunciation": "ah kel UR koh-MAHNS luh pro-SHAN spek-TAK-luh ay-KEST-ruh ?",
+      "formality": "polite",
+      "cultural_note": "Equestrian sports ('les sports équestres') are hugely popular in France — France is one of the top equestrian nations in the world, and horses carry real cultural weight.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Le prochain spectacle commence à quatorze heures trente.",
+          "english": "The next show starts at two-thirty.",
+          "phonetic": "luh pro-SHAN spek-TAK-luh koh-MAHNS ah kah-TORZ UR TRAHNT."
+        },
+        {
+          "french": "Il y a un spectacle toutes les deux heures.",
+          "english": "There's a show every two hours.",
+          "phonetic": "eel ee ah un spek-TAK-luh toot lay duh ZUR."
+        }
+      ]
+    },
+    {
+      "id": "lex_kentucky_horse_park_002",
+      "intent_en": "Compliment a horse",
+      "text_local": "Quel beau cheval ! Il est magnifique.",
+      "pronunciation": "kel BOH shuh-VAL ! eel ay mah-nyee-FEEK.",
+      "formality": "casual",
+      "cultural_note": "Horses ('les chevaux') hold an almost sacred place in Kentucky culture, much as they do in Normandy, France — famous for its own thoroughbred breeding. This common ground is a great conversation starter.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_kentucky_horse_park_003",
+      "intent_en": "Ask the breed of a horse",
+      "text_local": "Quelle est la race de ce cheval ?",
+      "pronunciation": "kel ay lah RASS duh suh shuh-VAL ?",
+      "formality": "polite",
+      "cultural_note": "Horse breeds are discussed with the same seriousness as wine appellations in Kentucky and Normandy alike. Knowing a few breed names in French — 'Pur-sang' (thoroughbred), 'Arabe' (Arabian) — will impress enthusiasts.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "C'est un Pur-sang américain, une race connue dans le monde entier.",
+          "english": "It's an American Thoroughbred, a breed known around the world.",
+          "phonetic": "say tun poor-SAHN ah-may-ree-KAN, oon RASS koh-NOO dahn luh MOND ahn-TYAY."
+        },
+        {
+          "french": "C'est un Quarter Horse. Très populaire ici au Kentucky.",
+          "english": "It's a Quarter Horse. Very popular here in Kentucky.",
+          "phonetic": "say tun KWAHR-tur HORS. tray po-poo-LAIR ee-SEE oh ken-TUH-kee."
+        }
+      ]
+    },
+    {
+      "id": "lex_kentucky_horse_park_004",
+      "intent_en": "Buy a ticket at the entrance",
+      "text_local": "Je voudrais un billet adulte, s'il vous plaît. C'est combien ?",
+      "pronunciation": "zhuh voo-DRAY un bee-YAY ah-DOOLT, seel voo PLAY. say komb-YAN ?",
+      "formality": "polite",
+      "cultural_note": "In France, admission tickets are 'des billets' — the same word used for train and concert tickets. Asking the price upfront ('c'est combien ?') is perfectly normal and not considered rude.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Le billet adulte est à vingt dollars. Avec accès à tous les spectacles.",
+          "english": "The adult ticket is twenty dollars. It includes access to all shows.",
+          "phonetic": "luh bee-YAY ah-DOOLT ay ah van DOL-ar. ah-VEK ak-SAY ah too lay spek-TAK-luh."
+        }
+      ]
+    },
+    {
+      "id": "lex_kentucky_horse_park_005",
+      "intent_en": "Ask where the Hall of Champions is",
+      "text_local": "Excusez-moi, où se trouve le Hall des Champions ?",
+      "pronunciation": "ex-KYOO-zay mwah, oo suh TROOV luh HOL day shahm-PYOHN ?",
+      "formality": "polite",
+      "cultural_note": "'Les Champions' is the same word in French — horse racing legends like Secretariat and Seattle Slew are as revered in French racing circles as in American ones.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Continuez tout droit, c'est le grand bâtiment sur votre droite.",
+          "english": "Keep going straight, it's the large building on your right.",
+          "phonetic": "kohn-tee-NYOO-ay too DRWAH, say luh grahn bat-ee-MAHN soor votr DRWAHT."
+        }
+      ]
+    },
+    {
+      "id": "lex_kentucky_horse_park_006",
+      "intent_en": "Ask about the Parade of Breeds",
+      "text_local": "Est-ce qu'il y a un défilé de races aujourd'hui ?",
+      "pronunciation": "ess keel ee ah un day-fee-LAY duh RASS oh-zhoor-DWEE ?",
+      "formality": "polite",
+      "cultural_note": "The Parade of Breeds is a uniquely American tradition, but the French term 'défilé' (parade or procession) is elegant — it's the same word used for fashion shows in Paris.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, le défilé commence à onze heures au manège principal.",
+          "english": "Yes, the parade starts at eleven o'clock at the main arena.",
+          "phonetic": "WEE, luh day-fee-LAY koh-MAHNS ah OHZ UR oh mah-NEZH pran-see-PAL."
+        },
+        {
+          "french": "Il n'y a pas de défilé aujourd'hui, mais il y en a demain matin.",
+          "english": "There's no parade today, but there is one tomorrow morning.",
+          "phonetic": "eel nyah pah duh day-fee-LAY oh-zhoor-DWEE, may eel ee ahn ah duh-MAN mah-TAN."
+        }
+      ]
+    }
+  ]
+}

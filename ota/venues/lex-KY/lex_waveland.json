@@ -1,0 +1,105 @@
+{
+  "id": "lex_waveland",
+  "name_en": "Waveland State Historic Site",
+  "name_local": "Domaine historique de Waveland",
+  "icon": "building.columns",
+  "lat": 38.0024,
+  "lon": -84.5205,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lex_waveland_001",
+      "intent_en": "Ask when the tours start",
+      "text_local": "À quelle heure commencent les visites guidées ?",
+      "pronunciation": "ah kel EUR koh-MONS lay vee-ZEET gee-DAY",
+      "formality": "polite",
+      "cultural_note": "Guided tours ('visites guidées') are the standard way to experience historic sites in France. Asking this question shows you're engaged and prepared to learn.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Les visites commencent à dix heures et à deux heures.",
+          "english": "Tours start at ten o'clock and at two o'clock.",
+          "phonetic": "lay vee-ZEET koh-MONS ah dee-ZEUR ay ah duh-ZEUR"
+        },
+        {
+          "french": "La prochaine visite est dans vingt minutes.",
+          "english": "The next tour is in twenty minutes.",
+          "phonetic": "lah pro-SHEN vee-ZEET ay don VAN mee-NOOT"
+        }
+      ]
+    },
+    {
+      "id": "lex_waveland_002",
+      "intent_en": "Comment that the house is magnificent",
+      "text_local": "Cette maison est vraiment magnifique !",
+      "pronunciation": "set may-ZON ay vray-MON mah-nyee-FEEK",
+      "formality": "casual",
+      "cultural_note": "Antebellum estates like Waveland share architectural echoes with French colonial Louisiana and the grand estates of southern France — French visitors often notice these parallels.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_waveland_003",
+      "intent_en": "Ask about the history of the estate",
+      "text_local": "Pouvez-vous me parler de l'histoire de ce domaine ?",
+      "pronunciation": "poo-VAY-voo muh par-LAY duh lee-STWAR duh suh doh-MEN",
+      "formality": "polite",
+      "cultural_note": "The word 'domaine' gives any estate a refined, French-countryside feel. Waveland was built in 1847 — asking about its history invites a rich story about antebellum Kentucky life.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Ce domaine date de 1847 et appartenait à la famille Bryan.",
+          "english": "This estate dates from 1847 and belonged to the Bryan family.",
+          "phonetic": "suh doh-MEN dat duh meel-weet-SONG-ka-RONT-set ay ah-par-tuh-NAY ah lah fa-MEEY bree-AN"
+        },
+        {
+          "french": "C'est l'un des meilleurs exemples d'architecture grecque du Kentucky.",
+          "english": "It's one of the finest examples of Greek Revival architecture in Kentucky.",
+          "phonetic": "say lun day may-YEUR eg-ZOM-pluh dar-shee-tek-TOOR GREK doo ken-TAH-kee"
+        }
+      ]
+    },
+    {
+      "id": "lex_waveland_004",
+      "intent_en": "Ask about Kentucky's French connections — Lafayette visited",
+      "text_local": "Est-il vrai que le marquis de Lafayette a visité le Kentucky ?",
+      "pronunciation": "ay-TEEL vray kuh luh mar-KEE duh lah-fay-ET ah vee-zee-TAY luh ken-TAH-kee",
+      "formality": "polite",
+      "cultural_note": "Lafayette toured the United States in 1825 and passed through Kentucky, where he was celebrated as a hero of American independence. It's a genuine and fascinating French-American connection.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, Lafayette a traversé le Kentucky lors de sa tournée américaine en 1825.",
+          "english": "Yes, Lafayette passed through Kentucky during his American tour in 1825.",
+          "phonetic": "wee, lah-fay-ET ah tra-ver-SAY luh ken-TAH-kee lor duh sah toor-NAY ah-may-ree-KEN on meel-weet-SONG-VAN-SAN"
+        }
+      ]
+    },
+    {
+      "id": "lex_waveland_005",
+      "intent_en": "Say you'd like a guided tour",
+      "text_local": "Je souhaiterais faire une visite guidée, s'il vous plaît.",
+      "pronunciation": "juh swet-RAY fair oon vee-ZEET gee-DAY, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "'Je souhaiterais' (I would like to) is a very polished, formal way to make a request — a step above 'je voudrais'. It's the kind of phrasing that earns immediate respect from French-speaking hosts.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr, la prochaine visite commence dans dix minutes.",
+          "english": "Of course, the next tour begins in ten minutes.",
+          "phonetic": "byan SOOR, lah pro-SHEN vee-ZEET koh-MONS don dee mee-NOOT"
+        },
+        {
+          "french": "Veuillez vous inscrire ici.",
+          "english": "Please sign up here.",
+          "phonetic": "vuh-YAY voo zan-SKREER ee-SEE"
+        }
+      ]
+    }
+  ]
+}

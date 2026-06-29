@@ -1,0 +1,95 @@
+{
+  "id": "lex_transylvania",
+  "name_en": "Transylvania University",
+  "name_local": "Université de Transylvanie",
+  "icon": "graduationcap.fill",
+  "lat": 38.0497,
+  "lon": -84.4964,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lex_transylvania_001",
+      "intent_en": "Ask for directions to Old Morrison, the main building",
+      "text_local": "Excusez-moi, pouvez-vous m'indiquer le bâtiment Old Morrison ?",
+      "pronunciation": "ex-KYOO-zay mwah, poo-VAY voo man-dee-KAY luh bat-ee-MAHN old MOR-ee-sun ?",
+      "formality": "polite",
+      "cultural_note": "Old Morrison was built in the Greek Revival style popular in the early American republic — a style heavily influenced by French and European classical architecture ideals.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Vous ne pouvez pas le manquer — c'est le grand bâtiment à colonnes blanches au centre du campus.",
+          "english": "You can't miss it — it's the large building with white columns in the center of campus.",
+          "phonetic": "voo nuh poo-VAY pah luh mahn-KAY — say luh grahn bat-ee-MAHN ah koh-LOHN BLANSH oh sahn-truh doo kahm-POOS."
+        }
+      ]
+    },
+    {
+      "id": "lex_transylvania_002",
+      "intent_en": "Say the campus is beautiful",
+      "text_local": "Ce campus est vraiment superbe. L'architecture est magnifique.",
+      "pronunciation": "suh kahm-POOS ay vray-MAHN soo-PAIRB. lar-shee-tek-TOOR ay mah-nyee-FEEK.",
+      "formality": "casual",
+      "cultural_note": "Americans often overlook the fact that many early American universities were deliberately designed in styles inspired by European — including French — classical traditions.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_transylvania_003",
+      "intent_en": "Mention you are just visiting the campus",
+      "text_local": "Je suis juste en visite. C'est la première fois que je vois ce campus.",
+      "pronunciation": "zhuh swee zhoos ahn vee-ZEET. say lah pruh-MYAIR fwah kuh zhuh VWAH suh kahm-POOS.",
+      "formality": "casual",
+      "cultural_note": "Campus visits are a relaxed, open affair at American universities — very different from many French grandes écoles, which have more restricted access. Mentioning you're a first-time visitor is always a friendly opener.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_transylvania_004",
+      "intent_en": "Ask about the university's history",
+      "text_local": "Quelle est l'histoire de cette université ? Elle semble très ancienne.",
+      "pronunciation": "kel ay lees-TWAHR duh set oo-nee-vair-see-TAY ? el sah-MBLUH tray ahn-SYEN.",
+      "formality": "polite",
+      "cultural_note": "Asking about history ('l'histoire') is a deeply French instinct — France has a strong culture of historical consciousness. Showing this curiosity will be warmly received on any old campus.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "C'est l'une des plus vieilles universités des États-Unis, fondée en 1780.",
+          "english": "It's one of the oldest universities in the United States, founded in 1780.",
+          "phonetic": "say loon day ploo VYAY oo-nee-vair-see-TAY day zay-tah-ZOO-nee, fohn-DAY ahn mil-SET-sahn-kah-TRE."
+        }
+      ]
+    },
+    {
+      "id": "lex_transylvania_005",
+      "intent_en": "Comment that it's the oldest college west of the Alleghenies",
+      "text_local": "Je viens de lire que c'est le plus vieux collège à l'ouest des Appalaches. C'est impressionnant !",
+      "pronunciation": "zhuh VYAN duh LEER kuh say luh ploo VYUH koh-LEZH ah loo-AY day zah-pah-LASH. say tan-press-yoh-NAHN !",
+      "formality": "casual",
+      "cultural_note": "Founded in 1780, Transylvania predates most of American civilization west of the East Coast. Framing this as a discovery ('je viens de lire' — I just read) makes for natural, enthusiastic conversation.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_transylvania_006",
+      "intent_en": "Ask if there is a campus café or bookshop",
+      "text_local": "Est-ce qu'il y a un café ou une librairie sur le campus ?",
+      "pronunciation": "ess-keel ee ah un kah-FAY oo oon lee-brai-REE soor luh kahm-POOS ?",
+      "formality": "polite",
+      "cultural_note": "'Une librairie' in French is a bookshop — not a library (which is 'une bibliothèque'). This is one of the most common and entertaining false friends for English speakers learning French.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, il y a un café et une librairie universitaire dans le bâtiment d'accueil.",
+          "english": "Yes, there's a café and a university bookshop in the welcome building.",
+          "phonetic": "WEE, eel ee ah un kah-FAY ay oon lee-brai-REE oo-nee-vair-see-TAIR dahn luh bat-ee-MAHN dah-KWHY."
+        }
+      ]
+    }
+  ]
+}

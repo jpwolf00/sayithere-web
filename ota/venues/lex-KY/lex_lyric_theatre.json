@@ -1,0 +1,105 @@
+{
+  "id": "lex_lyric_theatre",
+  "name_en": "Lyric Theatre & Cultural Arts Center",
+  "name_local": "Théâtre Lyric",
+  "icon": "theatermasks.fill",
+  "lat": 38.0533,
+  "lon": -84.4919,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "lex_lyric_theatre_001",
+      "intent_en": "Ask what's showing tonight",
+      "text_local": "Qu'est-ce qu'il y a au programme ce soir ?",
+      "pronunciation": "kess keel ee ah oh pro-GRAM suh SWAR",
+      "formality": "casual",
+      "cultural_note": "Asking about the programme is the standard way to find out what's on at any French venue. The word 'programme' covers concerts, films, and performances — it's used everywhere.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Ce soir, il y a un spectacle de jazz.",
+          "english": "Tonight there's a jazz show.",
+          "phonetic": "suh SWAR, eel ee ah un spek-TAK-luh duh JAZZ"
+        },
+        {
+          "french": "Nous avons une pièce de théâtre à vingt heures.",
+          "english": "We have a theatre piece at eight o'clock.",
+          "phonetic": "noo ZAH-von oon PYAS duh tay-AH-truh ah van-TEUR"
+        }
+      ]
+    },
+    {
+      "id": "lex_lyric_theatre_002",
+      "intent_en": "Buy a ticket at the box office",
+      "text_local": "Je voudrais acheter un billet, s'il vous plaît.",
+      "pronunciation": "juh voo-DRAY ash-TAY un bee-YAY, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "At French theatres, the box office ('billetterie') often closes shortly before the performance. Buying early is wise. A single ticket is 'un billet' — the same word used for train tickets.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr. Vous préférez l'orchestre ou le balcon ?",
+          "english": "Of course. Do you prefer the orchestra or the balcony?",
+          "phonetic": "byan SOOR. voo pray-fay-RAY lor-KES-truh oo luh bal-KON"
+        },
+        {
+          "french": "Il reste encore quelques places.",
+          "english": "There are still a few seats left.",
+          "phonetic": "eel rest on-KOR kel-kuh PLAS"
+        }
+      ]
+    },
+    {
+      "id": "lex_lyric_theatre_003",
+      "intent_en": "Say you love live music",
+      "text_local": "J'adore la musique en direct !",
+      "pronunciation": "jha-DOR lah moo-ZEEK on dee-REK",
+      "formality": "casual",
+      "cultural_note": "'En direct' means live (as in happening right now, not recorded). French music culture is rich — from jazz clubs in Paris to summer festivals, live music is a deeply shared passion.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_lyric_theatre_004",
+      "intent_en": "Ask where the bar is",
+      "text_local": "Où se trouve le bar, s'il vous plaît ?",
+      "pronunciation": "oo suh TROOV luh BAR, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Theatre bars ('bars de théâtre') in France serve wine and champagne during intermission ('l'entracte'). The intermission drink is a cherished ritual — asking about the bar is perfectly natural.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Le bar est au rez-de-chaussée, à droite.",
+          "english": "The bar is on the ground floor, to the right.",
+          "phonetic": "luh BAR ay oh ray-duh-SHOH-say, ah DRWAT"
+        }
+      ]
+    },
+    {
+      "id": "lex_lyric_theatre_005",
+      "intent_en": "Comment on the beautiful old building",
+      "text_local": "Ce bâtiment est magnifique. Il doit avoir beaucoup d'histoire.",
+      "pronunciation": "suh bah-tee-MON ay mah-nyee-FEEK. eel dwah ah-VWAR boh-KOO dee-STWAR",
+      "formality": "casual",
+      "cultural_note": "The Lyric Theatre, built in 1948, was a cultural hub for Lexington's African American community. The French deeply value architectural heritage ('patrimoine') and this phrase honors both the building and its story.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_lyric_theatre_006",
+      "intent_en": "Say it was a great show after the performance",
+      "text_local": "C'était un spectacle formidable, bravo !",
+      "pronunciation": "say-TAY un spek-TAK-luh for-mee-DAB-luh, bra-VOH",
+      "formality": "casual",
+      "cultural_note": "'Bravo' is used in French exactly as in English — it's an Italian word that both languages borrowed. Shouting 'bravo' at the end of a French performance is enthusiastically appropriate.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    }
+  ]
+}

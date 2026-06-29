@@ -1,0 +1,106 @@
+{
+  "id": "lex_three_chimneys",
+  "name_en": "Three Chimneys Farm",
+  "name_local": "Haras de Three Chimneys",
+  "icon": "star.fill",
+  "lat": 38.0503,
+  "lon": -84.6100,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "lex_three_chimneys_001",
+      "intent_en": "Comment on the beautiful bluegrass landscape",
+      "text_local": "Quel paysage magnifique ! L'herbe bleue est vraiment extraordinaire.",
+      "pronunciation": "kel pay-ee-ZAHJ mah-nyee-FEEK ! lair-buh BLUH ay vray-MON ex-tra-or-dee-NAIR",
+      "formality": "casual",
+      "cultural_note": "Kentucky bluegrass ('l'herbe bleue') is famous worldwide. The rolling green pastures of the Bluegrass Region genuinely resemble the Normandy and Haras du Pin horse country of northern France — French visitors are often struck by the similarity.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_three_chimneys_002",
+      "intent_en": "Say you came specifically to see the horses",
+      "text_local": "Je suis venu ici exprès pour voir les chevaux.",
+      "pronunciation": "juh swee vuh-NOO ee-SEE ex-PRAY poor VWAR lay shuh-VOH",
+      "formality": "casual",
+      "cultural_note": "Kentucky and Normandy (home of Haras du Pin, the 'Versailles of horses') share a deep horse-breeding culture. Saying you came for the horses signals a shared passion that resonates deeply in French equestrian culture.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_three_chimneys_003",
+      "intent_en": "Ask about the farm's famous stallions",
+      "text_local": "Pouvez-vous me parler des étalons célèbres élevés ici ?",
+      "pronunciation": "poo-VAY-voo muh par-LAY day zay-ta-LON say-LEB-ruh ay-luh-VAY ee-SEE",
+      "formality": "polite",
+      "cultural_note": "Three Chimneys is famous for standing stallions including champions descended from secretariat. 'Étalon' (stallion) is a word French gave to horse-racing English — using it in French closes the circle beautifully.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Nous avons eu l'honneur d'élever certains des plus grands champions du monde.",
+          "english": "We have had the honor of breeding some of the greatest champions in the world.",
+          "phonetic": "noo za-VON ooh lo-NEUR day-luh-VAY sair-TAN day ploo gron SHOM-pyon doo MOND"
+        }
+      ]
+    },
+    {
+      "id": "lex_three_chimneys_004",
+      "intent_en": "Ask if tours of the farm are available",
+      "text_local": "Est-il possible de visiter le haras ? Y a-t-il des visites organisées ?",
+      "pronunciation": "ay-TEEL po-SEE-bluh duh vee-zee-TAY luh ah-RAH ? ee ah-TEEL day vee-ZEET or-gah-nee-ZAY",
+      "formality": "polite",
+      "cultural_note": "'Haras' is the French word for a stud farm or horse breeding estate — the same word used for the famous Haras Nationaux of France. Using it here immediately elevates the conversation and shows cultural awareness.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, des visites guidées sont proposées le matin sur réservation.",
+          "english": "Yes, guided tours are offered in the morning by reservation.",
+          "phonetic": "wee, day vee-ZEET gee-DAY son pro-po-ZAY luh ma-TAN soor ray-zair-va-SYON"
+        },
+        {
+          "french": "Nous organisons des visites privées pour les groupes.",
+          "english": "We organize private tours for groups.",
+          "phonetic": "noo zor-gah-nee-ZON day vee-ZEET pree-VAY poor lay GROOP"
+        }
+      ]
+    },
+    {
+      "id": "lex_three_chimneys_005",
+      "intent_en": "Say Kentucky looks just like Normandy",
+      "text_local": "Ce paysage me rappelle la Normandie. C'est frappant comme ressemblance !",
+      "pronunciation": "suh pay-ee-ZAHJ muh ra-PEL lah nor-mon-DEE. say fra-PON kom ruh-som-BLON",
+      "formality": "casual",
+      "cultural_note": "The comparison is historically apt — both Normandy and the Kentucky Bluegrass Region have rich soils, rolling hills, and world-class horse-breeding traditions. French visitors to Kentucky genuinely make this observation.",
+      "speech_act": "exclamation",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "C'est vrai ! Beaucoup de visiteurs français font la même remarque.",
+          "english": "That's true! Many French visitors make the same observation.",
+          "phonetic": "say VRAY ! boh-KOO duh vee-zee-TEUR fron-SAY fon lah MEM ruh-MARK"
+        }
+      ]
+    },
+    {
+      "id": "lex_three_chimneys_006",
+      "intent_en": "Ask what breed of horses are raised here",
+      "text_local": "Quelle race de chevaux est-ce qu'on élève ici ?",
+      "pronunciation": "kel RASS duh shuh-VOH ess kon ay-LEV ee-SEE",
+      "formality": "casual",
+      "cultural_note": "Thoroughbreds ('pur-sangs') dominate Kentucky horse country. The French word 'pur-sang' (pure blood) is what gave the English language the word 'thoroughbred' — another deep linguistic connection between France and Kentucky horse culture.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Nous élevons exclusivement des pur-sangs anglais.",
+          "english": "We breed exclusively English Thoroughbreds.",
+          "phonetic": "noo ZAY-luh-von ex-kloo-zeev-MON day poor-SON on-GLAY"
+        }
+      ]
+    }
+  ]
+}

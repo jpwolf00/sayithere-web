@@ -1,0 +1,89 @@
+{
+  "id": "lex_uk_campus",
+  "name_en": "University of Kentucky Campus",
+  "name_local": "Campus de l'Université du Kentucky",
+  "icon": "graduationcap.fill",
+  "lat": 38.0304,
+  "lon": -84.5037,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "lex_uk_campus_001",
+      "intent_en": "Ask how to get to the library",
+      "text_local": "Pardon, comment puis-je aller à la bibliothèque ?",
+      "pronunciation": "par-DON, koh-MON pwee-juh ah-LAY ah lah beeb-lee-oh-TEK",
+      "formality": "polite",
+      "cultural_note": "University libraries ('bibliothèques universitaires') in France are central to student life. The word 'bibliothèque' — long but essential — is worth learning. UK's William T. Young Library is one of the largest academic libraries in the South.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Allez tout droit et tournez à gauche après le bâtiment principal.",
+          "english": "Go straight ahead and turn left after the main building.",
+          "phonetic": "ah-LAY too DRWAH ay toor-NAY ah GOHSH ah-PRAY luh bah-tee-MON pran-see-PAL"
+        },
+        {
+          "french": "La bibliothèque est à dix minutes à pied.",
+          "english": "The library is ten minutes on foot.",
+          "phonetic": "lah beeb-lee-oh-TEK ay tah dee mee-NOOT ah PYAY"
+        }
+      ]
+    },
+    {
+      "id": "lex_uk_campus_002",
+      "intent_en": "Say you're visiting the campus",
+      "text_local": "Je visite le campus aujourd'hui. C'est très impressionnant.",
+      "pronunciation": "juh vee-ZEET luh KOM-poos oh-zhoor-DWEE. say tray an-press-yo-NON",
+      "formality": "casual",
+      "cultural_note": "French universities ('universités') don't typically have American-style campuses — they tend to be integrated into city fabric. Visiting a large American campus like UK is often genuinely striking for French visitors.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_uk_campus_003",
+      "intent_en": "Ask about the French department",
+      "text_local": "Excusez-moi, où se trouve le département de français ?",
+      "pronunciation": "ex-kyoo-ZAY-mwah, oo suh TROOV luh day-par-tuh-MON duh fron-SAY",
+      "formality": "polite",
+      "cultural_note": "UK's Department of Modern and Classical Languages, Literatures, and Cultures is home to French studies. Asking for the French department on a US campus in French is a fun, self-referential moment.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Le département de français se trouve dans le bâtiment des langues modernes.",
+          "english": "The French department is in the modern languages building.",
+          "phonetic": "luh day-par-tuh-MON duh fron-SAY suh TROOV don luh bah-tee-MON day LONG mo-DERN"
+        }
+      ]
+    },
+    {
+      "id": "lex_uk_campus_004",
+      "intent_en": "Comment that the campus is beautiful",
+      "text_local": "Ce campus est magnifique, surtout au printemps !",
+      "pronunciation": "suh KOM-poos ay mah-nyee-FEEK, soor-TOO oh pran-TON",
+      "formality": "casual",
+      "cultural_note": "UK's campus is known for its dogwood and redbud trees in spring. French universities are often housed in historic urban buildings — the green, open American campus style genuinely impresses French visitors.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_uk_campus_005",
+      "intent_en": "Say you'd like to study French here",
+      "text_local": "J'aimerais étudier le français ici un jour.",
+      "pronunciation": "jhem-RAY ay-too-DYAY luh fron-SAY ee-SEE un ZHOOR",
+      "formality": "casual",
+      "cultural_note": "'J'aimerais' (I would like / I would love to) expresses a warm, genuine wish. Using it about learning French creates a charming moment — especially if you're already speaking French to say it.",
+      "speech_act": "statement",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "C'est une excellente idée ! Le programme de français est très réputé.",
+          "english": "That's an excellent idea! The French program is very well regarded.",
+          "phonetic": "say toon ex-el-ONT ee-DAY ! luh pro-GRAM duh fron-SAY ay tray ray-poo-TAY"
+        }
+      ]
+    }
+  ]
+}

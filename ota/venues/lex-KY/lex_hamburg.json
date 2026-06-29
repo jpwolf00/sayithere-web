@@ -1,0 +1,117 @@
+{
+  "id": "lex_hamburg",
+  "name_en": "Hamburg Pavilion",
+  "name_local": "Centre commercial de Hamburg",
+  "icon": "bag.fill",
+  "lat": 38.0140,
+  "lon": -84.4300,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "lex_hamburg_001",
+      "intent_en": "Ask where a specific store is",
+      "text_local": "Excusez-moi, pouvez-vous me dire où se trouve cette boutique ?",
+      "pronunciation": "ex-kyoo-ZAY-mwah, poo-VAY-voo muh DEER oo suh TROOV set boo-TEEK",
+      "formality": "polite",
+      "cultural_note": "'Boutique' in French refers to any small or specialty shop — it's the everyday word, not a fancy one. French shopping centers ('centres commerciaux') are structured similarly to American malls.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Elle est au premier étage, près de l'entrée principale.",
+          "english": "It's on the first floor, near the main entrance.",
+          "phonetic": "el ay oh pruh-MYAY ay-TAHJ, pray duh lon-TRAY pran-see-PAL"
+        },
+        {
+          "french": "Continuez tout droit et c'est sur votre gauche.",
+          "english": "Go straight ahead and it's on your left.",
+          "phonetic": "kon-tee-NYOO-ay too DRWAH ay say soor vo-truh GOHSH"
+        }
+      ]
+    },
+    {
+      "id": "lex_hamburg_002",
+      "intent_en": "Ask if something is on sale",
+      "text_local": "Est-ce que cet article est en solde ?",
+      "pronunciation": "ess kuh set ar-TEEK ay on SOLD",
+      "formality": "polite",
+      "cultural_note": "France has two official sale periods ('les soldes') each year — winter and summer — regulated by law. Outside those periods, asking about discounts ('réductions') is also common.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, il est réduit de trente pour cent.",
+          "english": "Yes, it's thirty percent off.",
+          "phonetic": "wee, eel ay ray-DWEE duh TRONT poor SON"
+        },
+        {
+          "french": "Non, mais nous avons une promotion cette semaine.",
+          "english": "No, but we have a promotion this week.",
+          "phonetic": "non, may noo ZAH-von oon pro-mo-SYON set suh-MEN"
+        }
+      ]
+    },
+    {
+      "id": "lex_hamburg_003",
+      "intent_en": "Return an item",
+      "text_local": "Je voudrais retourner cet article. J'ai le reçu.",
+      "pronunciation": "juh voo-DRAY ruh-toor-NAY set ar-TEEK. jhay luh ruh-SOO",
+      "formality": "polite",
+      "cultural_note": "Return policies ('politiques de retour') in France are more restrictive than in the US — having your receipt ('reçu') ready is essential. Mentioning it proactively smooths the process considerably.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr. Vous souhaitez un remboursement ou un échange ?",
+          "english": "Of course. Would you like a refund or an exchange?",
+          "phonetic": "byan SOOR. voo swet-TAY un rom-boors-MON oo un ay-SHONJ"
+        }
+      ]
+    },
+    {
+      "id": "lex_hamburg_004",
+      "intent_en": "Ask for a gift receipt",
+      "text_local": "Pourriez-vous me faire un ticket cadeau, s'il vous plaît ?",
+      "pronunciation": "poo-RYAY-voo muh FAIR un tee-KAY kah-DOH, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "A gift receipt ('ticket cadeau') shows the item but not the price — the concept exists in France exactly as in the US. Asking with 'pourriez-vous' (could you) is the courteous register for retail requests.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr, je vous l'imprime tout de suite.",
+          "english": "Of course, I'll print it for you right away.",
+          "phonetic": "byan SOOR, juh voo lam-PREEM too duh SWEET"
+        }
+      ]
+    },
+    {
+      "id": "lex_hamburg_005",
+      "intent_en": "Tell a store employee you're just browsing",
+      "text_local": "Je regarde seulement, merci.",
+      "pronunciation": "juh ruh-GARD sool-MON, mair-SEE",
+      "formality": "casual",
+      "cultural_note": "In French shops, staff often greet you and offer help — 'Je regarde seulement' is the perfect polite way to decline without being rude. It's shorter and more natural than 'Je fais juste du lèche-vitrine'.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_hamburg_006",
+      "intent_en": "Ask if they accept credit cards",
+      "text_local": "Acceptez-vous les cartes bancaires ?",
+      "pronunciation": "ak-sep-TAY-voo lay KART bon-KAIR",
+      "formality": "polite",
+      "cultural_note": "In France, 'carte bancaire' (bank card) is the generic term for any debit or credit card. Chip-and-PIN ('puce et code') has been standard in France since the 1990s — far longer than in the US.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, nous acceptons Visa, Mastercard et American Express.",
+          "english": "Yes, we accept Visa, Mastercard, and American Express.",
+          "phonetic": "wee, noo zak-sep-TON VEE-zah, mas-ter-KARD ay ah-may-ree-KAN ex-PRESS"
+        }
+      ]
+    }
+  ]
+}

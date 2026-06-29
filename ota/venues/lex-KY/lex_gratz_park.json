@@ -1,0 +1,88 @@
+{
+  "id": "lex_gratz_park",
+  "name_en": "Gratz Park",
+  "name_local": "Parc Gratz",
+  "icon": "tree.fill",
+  "lat": 38.0486,
+  "lon": -84.4963,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "lex_gratz_park_001",
+      "intent_en": "Say the park is charming",
+      "text_local": "Ce parc est vraiment charmant.",
+      "pronunciation": "suh PARK ay vray-MON shar-MON",
+      "formality": "casual",
+      "cultural_note": "'Charmant' is one of the most versatile compliments in French — it conveys warmth and refined taste without being over the top. French people use it for places, people, and gestures alike.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_gratz_park_002",
+      "intent_en": "Comment on the historic houses surrounding the park",
+      "text_local": "Ces vieilles maisons autour du parc sont absolument splendides.",
+      "pronunciation": "say VYAY may-ZON oh-TOOR doo PARK son tab-soh-LOO-mon splon-DEED",
+      "formality": "casual",
+      "cultural_note": "Gratz Park is surrounded by some of Lexington's oldest Federal-style homes. The appreciation of historic urban architecture is deeply embedded in French culture — this phrase would feel right at home in any French city.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_gratz_park_003",
+      "intent_en": "Ask someone on a bench for directions to Main Street",
+      "text_local": "Pardon, pourriez-vous m'indiquer le chemin vers Main Street ?",
+      "pronunciation": "par-DON, poo-RYAY-voo man-dee-KAY luh shuh-MAN vair MAYN street",
+      "formality": "polite",
+      "cultural_note": "Starting with 'Pardon' before asking for directions is essential French politeness. It softens the interruption and signals respect — skipping it can come across as abrupt.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Continuez tout droit, puis tournez à gauche.",
+          "english": "Go straight ahead, then turn left.",
+          "phonetic": "kon-tee-NYOO-ay too DRWAH, pwee toor-NAY ah GOHSH"
+        },
+        {
+          "french": "C'est à deux minutes à pied d'ici.",
+          "english": "It's two minutes on foot from here.",
+          "phonetic": "say tah duh mee-NOOT ah PYAY dee-SEE"
+        }
+      ]
+    },
+    {
+      "id": "lex_gratz_park_004",
+      "intent_en": "Say you're just out for a stroll",
+      "text_local": "Je me promène simplement.",
+      "pronunciation": "juh muh pro-MEN sam-PLUH-mon",
+      "formality": "casual",
+      "cultural_note": "The 'promenade' — a leisurely stroll with no particular destination — is a beloved French tradition. Saying you're just strolling is a totally valid and respected activity in French culture.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_gratz_park_005",
+      "intent_en": "Compliment someone's dog",
+      "text_local": "Oh, qu'il est mignon votre chien !",
+      "pronunciation": "oh, keel ay mee-NYON vo-truh SHYAN",
+      "formality": "casual",
+      "cultural_note": "Dogs ('chiens') are deeply woven into French public life — they're welcome in cafés, shops, and parks. Complimenting someone's dog is a reliable and warm conversation opener in France.",
+      "speech_act": "exclamation",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Merci ! Il s'appelle Gaston.",
+          "english": "Thank you! His name is Gaston.",
+          "phonetic": "mair-SEE ! eel sah-PEL gas-TON"
+        },
+        {
+          "french": "Merci beaucoup, il est très câlin.",
+          "english": "Thank you very much, he's very cuddly.",
+          "phonetic": "mair-SEE boh-KOO, eel ay tray kah-LAN"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "lex_rupp_arena",
+  "name_en": "Rupp Arena",
+  "name_local": "Salle Rupp",
+  "icon": "basketball.fill",
+  "lat": 38.0472,
+  "lon": -84.4981,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lex_rupp_arena_001",
+      "intent_en": "Ask where section 112 is",
+      "text_local": "Excusez-moi, pouvez-vous m'indiquer la section cent douze ?",
+      "pronunciation": "ex-KYOO-zay mwah, poo-VAY voo man-dee-KAY lah sek-SYON sahn DOOZ ?",
+      "formality": "polite",
+      "cultural_note": "French uses a 24-style number system — 112 is 'cent douze' (one hundred twelve). Worth practicing large numbers before attending a big event!",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "La section cent douze est au niveau inférieur, à votre gauche.",
+          "english": "Section 112 is on the lower level, to your left.",
+          "phonetic": "lah sek-SYON sahn DOOZ ay oh nee-VOH an-fay-RYUR, ah votr GOHSH."
+        },
+        {
+          "french": "Suivez les panneaux rouges.",
+          "english": "Follow the red signs.",
+          "phonetic": "swee-VAY lay pah-NOH ROOZH."
+        }
+      ]
+    },
+    {
+      "id": "lex_rupp_arena_002",
+      "intent_en": "Order a pretzel at the concession stand",
+      "text_local": "Un bretzel, s'il vous plaît. Avec de la moutarde ?",
+      "pronunciation": "un bret-ZEL, seel voo PLAY. ah-VEK duh lah moo-TARD ?",
+      "formality": "polite",
+      "cultural_note": "The pretzel is a beloved snack in Alsace, the French region bordering Germany — so it's not entirely un-French to crave one at a game.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, on a de la moutarde. Ça fait quatre dollars.",
+          "english": "Yes, we have mustard. That's four dollars.",
+          "phonetic": "WEE, on ah duh lah moo-TARD. sah fay KAT-ruh dol-AR."
+        },
+        {
+          "french": "Désolé, il n'y en a plus. On a des nachos.",
+          "english": "Sorry, we're out. We have nachos.",
+          "phonetic": "day-zo-LAY, eel nyahn ah PLOO. on ah day NAH-chos."
+        }
+      ]
+    },
+    {
+      "id": "lex_rupp_arena_003",
+      "intent_en": "Cheer 'Let's go Cats!'",
+      "text_local": "Allez les Cats ! Allez Kentucky !",
+      "pronunciation": "ah-LAY lay CATS ! ah-LAY ken-TUH-kee !",
+      "formality": "casual",
+      "cultural_note": "Kentucky basketball is a religion in Lexington — locals will warmly appreciate any visitor joining in the cheer, in any language.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_rupp_arena_004",
+      "intent_en": "Ask about halftime",
+      "text_local": "C'est bientôt la mi-temps ?",
+      "pronunciation": "say byan-TOH lah mee-TAHN ?",
+      "formality": "casual",
+      "cultural_note": "'Mi-temps' literally means 'half-time' and is used in all French team sports. It's also used figuratively — 'je suis à la mi-temps de ma carrière' means 'I'm at the midpoint of my career.'",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, encore cinq minutes.",
+          "english": "Yes, five more minutes.",
+          "phonetic": "WEE, ahn-KOR sank mee-NOOT."
+        },
+        {
+          "french": "La mi-temps commence dans deux minutes.",
+          "english": "Halftime starts in two minutes.",
+          "phonetic": "lah mee-TAHN koh-MAHNS dahn duh mee-NOOT."
+        }
+      ]
+    },
+    {
+      "id": "lex_rupp_arena_005",
+      "intent_en": "Comment on a great play",
+      "text_local": "Quelle action ! C'était vraiment impressionnant !",
+      "pronunciation": "kel ak-SYON ! say-TAY vray-MAHN an-press-yoh-NAHN !",
+      "formality": "casual",
+      "cultural_note": "French sports commentary loves dramatic superlatives — 'impressionnant,' 'spectaculaire,' 'incroyable' are all staples. Lean into the enthusiasm.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_rupp_arena_006",
+      "intent_en": "Politely ask someone in front of you to sit down",
+      "text_local": "Excusez-moi, pourriez-vous vous asseoir ? Je ne vois rien.",
+      "pronunciation": "ex-KYOO-zay mwah, poor-YAY voo vooz ah-SWAHR ? zhuh nuh vwah RYEN.",
+      "formality": "polite",
+      "cultural_note": "The conditional 'pourriez-vous' (could you) is the polite way to make a request in French — much softer than the imperative 'asseyez-vous' (sit down), which could sound rude.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oh, pardon ! Bien sûr.",
+          "english": "Oh, sorry! Of course.",
+          "phonetic": "oh, par-DOHN ! byan SOOR."
+        },
+        {
+          "french": "Excusez-moi, je suis tellement emballé !",
+          "english": "Sorry, I'm just so excited!",
+          "phonetic": "ex-KYOO-zay mwah, zhuh swee tel-MAHN ahn-bah-LAY !"
+        }
+      ]
+    }
+  ]
+}

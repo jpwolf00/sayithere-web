@@ -1,0 +1,132 @@
+{
+  "id": "lex_good_foods",
+  "name_en": "Good Foods Co-op",
+  "name_local": "Good Foods Co-op",
+  "icon": "cart.fill",
+  "lat": 38.0314,
+  "lon": -84.4745,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lex_good_foods_001",
+      "intent_en": "Ask where the cheese counter is",
+      "text_local": "Excusez-moi, où se trouve le rayon fromage, s'il vous plaît ?",
+      "pronunciation": "ex-kyoo-ZAY-mwah, oo suh TROOV luh ray-YON froh-MAHJ, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "French speakers take cheese very seriously — asking for the fromage counter signals real culinary interest and will often earn an enthusiastic response.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Le rayon fromage est au fond, à gauche.",
+          "english": "The cheese counter is at the back, on the left.",
+          "phonetic": "luh ray-YON froh-MAHJ ay oh FON, ah GOHSH"
+        },
+        {
+          "french": "Suivez-moi, je vais vous montrer.",
+          "english": "Follow me, I'll show you.",
+          "phonetic": "swee-VAY-mwah, juh vay voo mon-TRAY"
+        }
+      ]
+    },
+    {
+      "id": "lex_good_foods_002",
+      "intent_en": "Ask if something is organic",
+      "text_local": "Est-ce que ce produit est biologique ?",
+      "pronunciation": "ess kuh suh pro-DWEE ay bee-oh-loh-ZHEEK",
+      "formality": "polite",
+      "cultural_note": "The word 'biologique' (or just 'bio') is the standard French term for organic. The 'bio' label in France is regulated under the EU organic certification — French shoppers use it casually.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, c'est certifié bio.",
+          "english": "Yes, it's certified organic.",
+          "phonetic": "wee, say sair-tee-FYAY bee-OH"
+        },
+        {
+          "french": "Non, mais c'est cultivé localement.",
+          "english": "No, but it's locally grown.",
+          "phonetic": "non, may say kool-tee-VAY lo-kal-MON"
+        }
+      ]
+    },
+    {
+      "id": "lex_good_foods_003",
+      "intent_en": "Order a sandwich at the deli counter",
+      "text_local": "Je voudrais un sandwich au jambon et au fromage, s'il vous plaît.",
+      "pronunciation": "juh voo-DRAY un SOND-weech oh jhom-BON ay oh froh-MAHJ, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "At a French deli counter (charcuterie), it is polite to greet the staff before ordering. 'Je voudrais' (I would like) is preferred over 'Je veux' (I want), which sounds abrupt.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr. Vous voulez quel pain ?",
+          "english": "Of course. What bread would you like?",
+          "phonetic": "byan SOOR. voo voo-LAY kel PAN"
+        },
+        {
+          "french": "Avec moutarde ou mayonnaise ?",
+          "english": "With mustard or mayonnaise?",
+          "phonetic": "ah-VEK moo-TARD oo my-oh-NEZ"
+        }
+      ]
+    },
+    {
+      "id": "lex_good_foods_004",
+      "intent_en": "Ask about local Kentucky products",
+      "text_local": "Avez-vous des produits locaux du Kentucky ?",
+      "pronunciation": "ah-VAY-voo day pro-DWEE lo-KOH doo ken-TAH-kee",
+      "formality": "polite",
+      "cultural_note": "Co-ops in France ('coopératives') strongly emphasize local sourcing ('circuits courts'). Asking about local products fits right into this shared value and usually sparks a proud response from staff.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, nous avons du miel et des confitures locales.",
+          "english": "Yes, we have local honey and jams.",
+          "phonetic": "wee, noo ZAH-von doo myel ay day kon-fee-TOOR lo-KAL"
+        },
+        {
+          "french": "Regardez ce rayon — tout vient de la région.",
+          "english": "Look at this shelf — everything comes from the region.",
+          "phonetic": "ruh-gar-DAY suh ray-YON — too vyan duh lah ray-ZHYON"
+        }
+      ]
+    },
+    {
+      "id": "lex_good_foods_005",
+      "intent_en": "Ask the price of an item",
+      "text_local": "Combien coûte ceci, s'il vous plaît ?",
+      "pronunciation": "kom-BYAN koot suh-SEE, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "In French markets, prices are usually posted, but asking is perfectly normal. Pointing at the item while asking is acceptable and helps avoid ambiguity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Ça coûte quatre dollars cinquante.",
+          "english": "It costs four dollars fifty.",
+          "phonetic": "sah koot KAH-truh doh-LAR san-KONT"
+        },
+        {
+          "french": "Le prix est affiché sur l'étiquette.",
+          "english": "The price is shown on the label.",
+          "phonetic": "luh pree ay ta-fee-SHAY soor lay-tee-KET"
+        }
+      ]
+    },
+    {
+      "id": "lex_good_foods_006",
+      "intent_en": "Compliment the selection",
+      "text_local": "Vous avez un très beau choix de produits !",
+      "pronunciation": "voo za-VAY un tray boh SHWAH duh pro-DWEE",
+      "formality": "casual",
+      "cultural_note": "Complimenting a shop's selection is warmly received in France and builds rapport. French shopkeepers take pride in curating quality products and appreciate customers who notice.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    }
+  ]
+}

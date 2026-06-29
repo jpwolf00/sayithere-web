@@ -1,0 +1,101 @@
+{
+  "id": "lex_legacy_trail",
+  "name_en": "Legacy Trail",
+  "name_local": "Piste Legacy",
+  "icon": "figure.walk",
+  "lat": 38.0174,
+  "lon": -84.4450,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lex_legacy_trail_001",
+      "intent_en": "Say what a lovely trail this is",
+      "text_local": "Quelle belle piste ! C'est vraiment agréable de se promener ici.",
+      "pronunciation": "kel bel PEEST ! say vray-MON ah-gray-AH-bluh duh suh pro-muh-NAY ee-SEE",
+      "formality": "casual",
+      "cultural_note": "France has an excellent network of long-distance trails ('Grandes Randonnées'). French walkers and cyclists are passionate about greenways — complimenting a trail feels natural and genuine.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_legacy_trail_002",
+      "intent_en": "Ask how far it is to the next trailhead",
+      "text_local": "Combien de kilomètres jusqu'au prochain point de départ ?",
+      "pronunciation": "kom-BYAN duh kee-lo-MET zhoos-KOH pro-SHAN pwan duh day-PAR",
+      "formality": "casual",
+      "cultural_note": "France uses kilometers exclusively — asking distances in 'kilomètres' is the natural French approach. The Legacy Trail is about 13 miles long; practicing this question prepares you for cycling in the French countryside.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Il y a environ cinq kilomètres jusqu'au prochain accès.",
+          "english": "It's about five kilometers to the next access point.",
+          "phonetic": "eel ee ah on-vee-RON SAN kee-lo-MET zhoos-KOH pro-SHAN ak-SAY"
+        }
+      ]
+    },
+    {
+      "id": "lex_legacy_trail_003",
+      "intent_en": "Compliment someone's bicycle",
+      "text_local": "Beau vélo ! C'est un modèle récent ?",
+      "pronunciation": "boh VAY-lo ! say tun mo-DEL ray-SON",
+      "formality": "casual",
+      "cultural_note": "Cycling culture is huge in France — from the Tour de France to everyday city riding. Complimenting someone's bike ('vélo') is a natural conversation starter among cyclists anywhere in the French-speaking world.",
+      "speech_act": "exclamation",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Merci ! Oui, je viens de l'acheter ce printemps.",
+          "english": "Thanks! Yes, I just bought it this spring.",
+          "phonetic": "mair-SEE ! wee, juh vyan duh lash-TAY suh pran-TON"
+        }
+      ]
+    },
+    {
+      "id": "lex_legacy_trail_004",
+      "intent_en": "Say you love cycling",
+      "text_local": "J'adore faire du vélo, surtout sur des pistes comme celle-ci !",
+      "pronunciation": "jha-DOR fair doo VAY-lo, soor-TOO soor day PEEST kom sel-SEE",
+      "formality": "casual",
+      "cultural_note": "'Faire du vélo' (to go cycling / to ride a bike) is the standard French expression. France has over 50,000 km of cycling routes — expressing a love of cycling will always find an enthusiastic audience.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_legacy_trail_005",
+      "intent_en": "Ask if dogs are allowed on the trail",
+      "text_local": "Est-ce que les chiens sont autorisés sur cette piste ?",
+      "pronunciation": "ess kuh lay SHYAN son toh-toh-ree-ZAY soor set PEEST",
+      "formality": "polite",
+      "cultural_note": "Dogs are welcome on most French trails and paths. France has one of the highest rates of dog ownership in Europe, and French trail culture is very dog-friendly — this question will feel completely at home.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, les chiens sont les bienvenus, mais en laisse.",
+          "english": "Yes, dogs are welcome, but on a leash.",
+          "phonetic": "wee, lay SHYAN son lay byan-vuh-NOO, may on LESS"
+        }
+      ]
+    },
+    {
+      "id": "lex_legacy_trail_006",
+      "intent_en": "Ask if there is a water fountain nearby",
+      "text_local": "Est-ce qu'il y a une fontaine d'eau potable par ici ?",
+      "pronunciation": "ess keel ee ah oon fon-TEN doh po-TA-bluh par ee-SEE",
+      "formality": "casual",
+      "cultural_note": "Public drinking fountains ('fontaines d'eau potable') are common in French parks and along bike paths. Asking for 'eau potable' (drinking water) is very practical trail vocabulary.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, il y en a une à cinq cents mètres devant vous.",
+          "english": "Yes, there's one five hundred meters ahead of you.",
+          "phonetic": "wee, eel ee on ah oon ah SAN son MET-ruh duh-VON voo"
+        }
+      ]
+    }
+  ]
+}

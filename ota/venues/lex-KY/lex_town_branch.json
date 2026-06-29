@@ -1,0 +1,101 @@
+{
+  "id": "lex_town_branch",
+  "name_en": "Town Branch Distillery",
+  "name_local": "Distillerie Town Branch",
+  "icon": "wineglass.fill",
+  "lat": 38.0529,
+  "lon": -84.5031,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lex_town_branch_001",
+      "intent_en": "Ask to join a distillery tour",
+      "text_local": "Bonjour, je voudrais participer à la visite de la distillerie.",
+      "pronunciation": "bohn-ZHOOR, zhuh voo-DRAY par-tee-see-PAY ah lah vee-ZEET duh lah dees-tee-luh-REE.",
+      "formality": "polite",
+      "cultural_note": "France has its own great distilling traditions — Cognac, Armagnac, Calvados. A French speaker will feel right at home talking about distillation ('la distillation') and aging ('le vieillissement').",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr ! La prochaine visite commence dans quinze minutes. Ça fait quinze dollars.",
+          "english": "Of course! The next tour starts in fifteen minutes. That's fifteen dollars.",
+          "phonetic": "byan SOOR ! lah pro-SHEN vee-ZEET koh-MAHNS dahn KANZ mee-NOOT. sah fay KANZ dol-AR."
+        },
+        {
+          "french": "Je vais vous inscrire. Votre prénom ?",
+          "english": "I'll sign you up. Your first name?",
+          "phonetic": "zhuh vay vooz an-SKREER. votr pray-NOHN ?"
+        }
+      ]
+    },
+    {
+      "id": "lex_town_branch_002",
+      "intent_en": "Ask about the bourbon-making process",
+      "text_local": "Comment est fabriqué le bourbon ? Quelle est la différence avec le whisky ?",
+      "pronunciation": "koh-MAHN ay fah-bree-KAY luh BUR-bohn ? kel ay lah dee-fay-RAHNS ah-VEK luh WEES-kee ?",
+      "formality": "casual",
+      "cultural_note": "Bourbon must by law be made from at least 51% corn and aged in new charred oak barrels — unlike Scotch whisky. This is a great way to show curiosity and start a real conversation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Le bourbon doit être distillé à partir d'au moins cinquante et un pourcent de maïs, et vieilli en fûts de chêne neufs.",
+          "english": "Bourbon must be distilled from at least 51% corn and aged in new oak barrels.",
+          "phonetic": "luh BUR-bohn dwah ay-truh dees-tee-LAY ah par-TEER doh MWAHN sank-TAHNT ay UN poor-SAHN duh mah-EES, ay vee-YAY-ee ahn FOO duh SHEN NUF."
+        }
+      ]
+    },
+    {
+      "id": "lex_town_branch_003",
+      "intent_en": "Order a bourbon tasting",
+      "text_local": "Je voudrais faire une dégustation de bourbon, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY fair oon day-goos-tah-SYON duh BUR-bohn, seel voo PLAY.",
+      "formality": "polite",
+      "cultural_note": "Using 'une dégustation' for bourbon — rather than just 'un tasting' — shows you're applying French sensory appreciation ('l'art de la dégustation') to an American spirit. Distillers love it.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Avec plaisir ! On vous propose trois expressions : le single malt, le rye et notre cuvée spéciale.",
+          "english": "With pleasure! We offer three expressions: the single malt, the rye, and our special cuvée.",
+          "phonetic": "ah-VEK play-ZEER ! on voo pro-POZ TRWAH ex-press-YOHN : luh SAN-gul MOLT, luh RY ay notr koo-VAY spay-SYAL."
+        }
+      ]
+    },
+    {
+      "id": "lex_town_branch_004",
+      "intent_en": "Ask about the barrel aging process",
+      "text_local": "Combien de temps le bourbon vieillit-il en fût ?",
+      "pronunciation": "komb-YAN duh TAHN luh BUR-bohn vyay-YEE-teel ahn FOO ?",
+      "formality": "polite",
+      "cultural_note": "Barrel aging ('le vieillissement en fût') is a concept deeply familiar to French wine and Cognac culture. This question signals a genuine connoisseur mindset.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "En général, entre quatre et huit ans. Mais certains bourbons vieillissent plus de vingt ans.",
+          "english": "Generally, between four and eight years. But some bourbons age for more than twenty years.",
+          "phonetic": "ahn zhay-nay-RAL, ahn-truh KAT-ruh ay WEET ahn. may sair-TAN BUR-bohn vyay-YEES ploo duh VAN ahn."
+        }
+      ]
+    },
+    {
+      "id": "lex_town_branch_005",
+      "intent_en": "Buy a bottle as a gift",
+      "text_local": "Je cherche une bouteille à offrir en cadeau. Qu'est-ce que vous recommandez ?",
+      "pronunciation": "zhuh shairsh oon boo-TAY ah oh-FREER ahn kah-DOH. kes-KUH voo ruh-koh-mahn-DAY ?",
+      "formality": "polite",
+      "cultural_note": "Bringing back a local spirit as a gift ('un cadeau') is a wonderful tradition. A Kentucky bourbon from a craft distillery is a genuinely impressive and personal gift for a French host.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Pour offrir, je vous conseillerais notre édition limitée — elle est présentée dans un très beau coffret.",
+          "english": "For a gift, I'd recommend our limited edition — it comes in a beautiful gift box.",
+          "phonetic": "poor oh-FREER, zhuh voo kohn-say-yuh-RAY notr ay-dee-SYON lee-mee-TAY — el ay pray-zahn-TAY dahn zun tray BOH kof-RAY."
+        }
+      ]
+    }
+  ]
+}

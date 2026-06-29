@@ -1,0 +1,100 @@
+{
+  "id": "lex_fayette_courthouse",
+  "name_en": "Fayette County Courthouse",
+  "name_local": "Palais de justice du comté de Fayette",
+  "icon": "building.columns.fill",
+  "lat": 38.0469,
+  "lon": -84.4991,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lex_fayette_courthouse_001",
+      "intent_en": "Ask where a specific office is",
+      "text_local": "Excusez-moi, où se trouve le bureau des permis ?",
+      "pronunciation": "ex-kyoo-ZAY-mwah, oo suh TROOV luh boo-ROH day pair-MEE",
+      "formality": "polite",
+      "cultural_note": "French civic buildings ('bâtiments administratifs') are organized similarly to American ones. Using 'bureau' (office) is correct and natural — French bureaucracy is famously detailed, so clear questions are valued.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "C'est au deuxième étage, couloir B.",
+          "english": "It's on the second floor, corridor B.",
+          "phonetic": "say oh duh-ZYEM ay-TAHJ, koo-LWAR BAY"
+        },
+        {
+          "french": "Prenez l'ascenseur et tournez à droite.",
+          "english": "Take the elevator and turn right.",
+          "phonetic": "pruh-NAY lah-son-SEUR ay toor-NAY ah DRWAT"
+        }
+      ]
+    },
+    {
+      "id": "lex_fayette_courthouse_002",
+      "intent_en": "Say you have an appointment",
+      "text_local": "Bonjour, j'ai rendez-vous à dix heures.",
+      "pronunciation": "bon-ZHOOR, jhay ron-DAY-voo ah dee-ZEUR",
+      "formality": "polite",
+      "cultural_note": "'Rendez-vous' — a French word adopted wholesale into English — means both a meeting and an appointment. Using it in its original French context feels perfectly natural and slightly elegant.",
+      "speech_act": "statement",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Très bien. Puis-je voir votre pièce d'identité ?",
+          "english": "Very good. May I see your ID?",
+          "phonetic": "tray BYAN. pwee-juh VWAR vo-truh PYAS dee-don-tee-TAY"
+        },
+        {
+          "french": "Veuillez vous asseoir, on va vous appeler.",
+          "english": "Please have a seat, someone will call you.",
+          "phonetic": "vuh-YAY voo zah-SWAR, on vah voo zah-puh-LAY"
+        }
+      ]
+    },
+    {
+      "id": "lex_fayette_courthouse_003",
+      "intent_en": "Ask about parking nearby",
+      "text_local": "Y a-t-il un parking à proximité ?",
+      "pronunciation": "ee ah-TEEL un PAR-keeng ah prox-ee-mee-TAY",
+      "formality": "polite",
+      "cultural_note": "The French word 'parking' (borrowed from English) is universal and understood everywhere. Asking about parking near government buildings is a very practical, common exchange in any French city.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, il y a un parking public à deux pâtés de maisons.",
+          "english": "Yes, there's a public parking lot two blocks away.",
+          "phonetic": "wee, eel ee ah un PAR-keeng poob-LEEK ah duh pah-TAY duh may-ZON"
+        }
+      ]
+    },
+    {
+      "id": "lex_fayette_courthouse_004",
+      "intent_en": "Comment that the building is historic",
+      "text_local": "Ce bâtiment est vraiment impressionnant. Il doit dater du XIXe siècle.",
+      "pronunciation": "suh bah-tee-MON ay vray-MON an-press-yo-NON. eel dwah dah-TAY doo DEZ-nuh-VEM SYEK-luh",
+      "formality": "casual",
+      "cultural_note": "The French have a strong culture of architectural heritage ('patrimoine architectural'). Remarking on a building's age and grandeur is a natural and appreciated observation — it shows you're paying attention.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_fayette_courthouse_005",
+      "intent_en": "Ask for directions to the clerk's office",
+      "text_local": "Pourriez-vous m'indiquer le bureau de l'officier d'état civil, s'il vous plaît ?",
+      "pronunciation": "poo-RYAY-voo man-dee-KAY luh boo-ROH duh lo-fees-YAY day-TAH see-VEEL, seel voo PLAY",
+      "formality": "formal",
+      "cultural_note": "'L'état civil' in France handles birth, marriage, and death records — the equivalent of a county clerk's office. The phrasing is formal because civic offices in France respond well to formal register.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Le bureau de l'état civil est au rez-de-chaussée, porte numéro trois.",
+          "english": "The civil registry office is on the ground floor, door number three.",
+          "phonetic": "luh boo-ROH duh lay-TAH see-VEEL ay oh ray-duh-SHOH-say, PORT noo-may-ROH TRWAH"
+        }
+      ]
+    }
+  ]
+}

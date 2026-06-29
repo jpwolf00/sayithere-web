@@ -1,0 +1,121 @@
+{
+  "id": "lex_kroger_field",
+  "name_en": "Kroger Field",
+  "name_local": "Stade Kroger",
+  "icon": "sportscourt.fill",
+  "lat": 38.0234,
+  "lon": -84.5052,
+  "radius_m": 300,
+  "phrases": [
+    {
+      "id": "lex_kroger_field_001",
+      "intent_en": "Cheer for the Kentucky Wildcats",
+      "text_local": "Allez les Wildcats ! On va gagner !",
+      "pronunciation": "ah-LAY lay WILD-cats ! on va gah-NYAY !",
+      "formality": "casual",
+      "cultural_note": "French fans cheer with 'Allez !' the way English speakers say 'Go!' — it literally means 'Go on!' and is used for any sport.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_kroger_field_002",
+      "intent_en": "Ask for directions to my seats",
+      "text_local": "Excusez-moi, pouvez-vous m'indiquer où se trouvent les places section vingt-deux ?",
+      "pronunciation": "ex-KYOO-zay mwah, poo-VAY voo man-dee-KAY oo se troov lay PLASS sek-SYON van-duh ?",
+      "formality": "polite",
+      "cultural_note": "Always open with 'Excusez-moi' when asking a stranger for help — skipping it can seem abrupt in French culture.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, c'est par là, au deuxième niveau.",
+          "english": "Yes, it's that way, on the second level.",
+          "phonetic": "WEE, say par LAH, oh duh-ZYEM nee-VOH."
+        },
+        {
+          "french": "Continuez tout droit et prenez l'escalier à droite.",
+          "english": "Keep going straight and take the stairway on the right.",
+          "phonetic": "con-tee-NYOO-ay too DRWAH ay pruh-NAY less-kah-LYAY ah DRWAHT."
+        }
+      ]
+    },
+    {
+      "id": "lex_kroger_field_003",
+      "intent_en": "Order food at the concession stand",
+      "text_local": "Je voudrais un hot-dog et une bière, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY un HOT-dog ay oon BYAIR, seel voo PLAY.",
+      "formality": "polite",
+      "cultural_note": "The phrase 's'il vous plaît' (please) is essential — using it instantly marks you as polite to any French speaker.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr ! Ça fait huit dollars cinquante.",
+          "english": "Of course! That'll be eight dollars fifty.",
+          "phonetic": "byan SOOR ! sah fay WEET dol-AR san-KANT."
+        },
+        {
+          "french": "Vous voulez de la moutarde ou du ketchup ?",
+          "english": "Would you like mustard or ketchup?",
+          "phonetic": "voo voo-LAY duh lah moo-TARD oo doo KET-chup ?"
+        }
+      ]
+    },
+    {
+      "id": "lex_kroger_field_004",
+      "intent_en": "Ask what the score is",
+      "text_local": "C'est quoi le score en ce moment ?",
+      "pronunciation": "say KWAH luh SKOR ahn suh moh-MAHN ?",
+      "formality": "casual",
+      "cultural_note": "American football is still fairly niche in France, so explaining 'le football américain' versus 'le foot' (soccer) is always a fun conversation starter.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "On mène vingt et un à quatorze !",
+          "english": "We're winning twenty-one to fourteen!",
+          "phonetic": "on MEN van-tay-UN ah kah-TORZ !"
+        },
+        {
+          "french": "C'est à égalité, quatorze partout.",
+          "english": "It's tied, fourteen all.",
+          "phonetic": "say ah ay-gah-lee-TAY, kah-TORZ par-TOO."
+        }
+      ]
+    },
+    {
+      "id": "lex_kroger_field_005",
+      "intent_en": "Ask where the restrooms are",
+      "text_local": "Pardon, où sont les toilettes, s'il vous plaît ?",
+      "pronunciation": "par-DOHN, oo sohn lay twah-LET, seel voo PLAY ?",
+      "formality": "polite",
+      "cultural_note": "'Les toilettes' is the standard term in French — saying 'la salle de bains' (bathroom) for a public restroom sounds odd, as it refers to a room with a bathtub.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "C'est au bout du couloir, à gauche.",
+          "english": "It's at the end of the hallway, on the left.",
+          "phonetic": "say oh BOO doo koo-LWAHR, ah GOHSH."
+        },
+        {
+          "french": "Descendez les escaliers, c'est en bas.",
+          "english": "Go down the stairs, it's down below.",
+          "phonetic": "day-sahn-DAY lay zess-kah-LYAY, say ahn BAH."
+        }
+      ]
+    },
+    {
+      "id": "lex_kroger_field_006",
+      "intent_en": "Celebrate a touchdown",
+      "text_local": "Incroyable ! Quel touché magnifique !",
+      "pronunciation": "an-krwah-YAH-bluh ! kel too-SHAY mah-nyee-FEEK !",
+      "formality": "casual",
+      "cultural_note": "In French, the English word 'touchdown' is borrowed as 'touché' — coincidentally the same word as the fencing term, which often gets a laugh.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    }
+  ]
+}

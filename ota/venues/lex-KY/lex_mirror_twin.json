@@ -1,0 +1,111 @@
+{
+  "id": "lex_mirror_twin",
+  "name_en": "Mirror Twin Brewing",
+  "name_local": "Mirror Twin Brewing",
+  "icon": "mug.fill",
+  "lat": 38.0551,
+  "lon": -84.4850,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lex_mirror_twin_001",
+      "intent_en": "Order a local IPA",
+      "text_local": "Je voudrais une IPA locale, s'il vous plaît.",
+      "pronunciation": "zhuh voo-DRAY oon ee-pay-AH loh-KAL, seel voo PLAY.",
+      "formality": "polite",
+      "cultural_note": "Craft beer ('la bière artisanale') has exploded in France over the last decade. Mentioning that a beer is 'locale' (local) is a great conversation opener with any French brewer or beer lover.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr ! Notre IPA maison est très houblonnée. Vous voulez la goûter d'abord ?",
+          "english": "Of course! Our house IPA is very hoppy. Would you like to try it first?",
+          "phonetic": "byan SOOR ! notr ee-pay-AH may-ZOHN ay tray oo-bloh-NAY. voo voo-LAY lah goo-TAY dah-BOR ?"
+        },
+        {
+          "french": "On en a deux en ce moment. Laquelle vous tente ?",
+          "english": "We have two right now. Which one appeals to you?",
+          "phonetic": "on ahn ah DUH ahn suh moh-MAHN. lah-KEL voo TAHNT ?"
+        }
+      ]
+    },
+    {
+      "id": "lex_mirror_twin_002",
+      "intent_en": "Ask what's on tap",
+      "text_local": "Qu'est-ce que vous avez à la pression en ce moment ?",
+      "pronunciation": "kes-KUH vooz ah-VAY ah lah press-YOHN ahn suh moh-MAHN ?",
+      "formality": "polite",
+      "cultural_note": "'À la pression' means 'on draft' (literally 'under pressure'). In France, ordering 'un demi' (a half-pint of draft lager) is the classic café move.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "On a une pale ale, deux IPA, une stout et une saison en ce moment.",
+          "english": "We have a pale ale, two IPAs, a stout and a saison right now.",
+          "phonetic": "on ah oon PAL al, duh ee-pay-AH, oon STOWT ay oon say-ZOHN ahn suh moh-MAHN."
+        }
+      ]
+    },
+    {
+      "id": "lex_mirror_twin_003",
+      "intent_en": "Compliment the beer",
+      "text_local": "Cette bière est vraiment délicieuse. Compliments au brasseur !",
+      "pronunciation": "set BYAIR ay vray-MAHN day-lee-SYUHZ. kom-plee-MAHN oh brah-SUR !",
+      "formality": "casual",
+      "cultural_note": "Complimenting the 'brasseur' (brewer) directly is always appreciated at a craft brewery. French culture values artisanal craftsmanship highly.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_mirror_twin_004",
+      "intent_en": "Ask for a tasting flight",
+      "text_local": "Est-ce que vous proposez une dégustation ? J'aimerais goûter plusieurs bières.",
+      "pronunciation": "ess-KUH voo pro-poh-ZAY oon day-goos-tah-SYON ? zhay-muh-RAY goo-TAY ploo-ZYUR BYAIR.",
+      "formality": "polite",
+      "cultural_note": "'Une dégustation' is used for tastings of wine, cheese, or beer — it implies a thoughtful, sensory experience rather than just drinking. It's a word that elevates the occasion.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui ! On propose une dégustation de cinq bières, vous choisissez lesquelles.",
+          "english": "Yes! We offer a flight of five beers — you choose which ones.",
+          "phonetic": "WEE ! on pro-POZ oon day-goos-tah-SYON duh SANK BYAIR, voo shwah-zee-SAY lay-KEL."
+        }
+      ]
+    },
+    {
+      "id": "lex_mirror_twin_005",
+      "intent_en": "Ask about the food menu",
+      "text_local": "Est-ce que vous servez à manger ici ?",
+      "pronunciation": "ess-KUH voo sair-VAY ah mahn-ZHAY ee-SEE ?",
+      "formality": "polite",
+      "cultural_note": "In France, drinking without eating ('boire sans manger') is frowned upon socially — asking about food shows cultural awareness and good manners.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "On a des planches de charcuterie et quelques snacks. Le menu est là.",
+          "english": "We have charcuterie boards and a few snacks. The menu is right there.",
+          "phonetic": "on ah day PLANSH duh shar-koo-tuh-REE ay kel-KUH SNAKS. luh muh-NOO ay LAH."
+        },
+        {
+          "french": "Non, mais on peut commander des pizzas d'à côté.",
+          "english": "No, but we can order pizzas from next door.",
+          "phonetic": "NOHN, may on puh koh-mahn-DAY day PEET-zah dah koh-TAY."
+        }
+      ]
+    },
+    {
+      "id": "lex_mirror_twin_006",
+      "intent_en": "Say cheers with your glass raised",
+      "text_local": "À la vôtre ! Santé !",
+      "pronunciation": "ah lah VOTR ! sahn-TAY !",
+      "formality": "casual",
+      "cultural_note": "'Santé !' (health!) is the everyday toast. 'À la vôtre !' (to yours!) is slightly more formal and old-fashioned — using both together is perfectly charming. Always make eye contact when clinking glasses in France.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "lex_le_deauville",
+  "name_en": "Le Deauville",
+  "name_local": "Le Deauville",
+  "icon": "fork.knife",
+  "lat": 38.0461,
+  "lon": -84.4980,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "lex_le_deauville_001",
+      "intent_en": "Make a dinner reservation",
+      "text_local": "Bonjour, je voudrais réserver une table pour deux personnes, samedi soir à vingt heures.",
+      "pronunciation": "bohn-ZHOOR, zhuh voo-DRAY ray-zair-VAY oon TAH-bluh poor duh pair-SON, sahm-DEE swahr ah van-TURE.",
+      "formality": "formal",
+      "cultural_note": "Dinner reservations in France are taken seriously — showing up without one, especially on weekends, is considered poor planning. 8 PM ('vingt heures') is a typical dinner start time in France.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr, monsieur. À quel nom, s'il vous plaît ?",
+          "english": "Of course, sir. Under what name, please?",
+          "phonetic": "byan SOOR, muh-SYUH. ah kel NOHN, seel voo PLAY ?"
+        },
+        {
+          "french": "Je suis désolé, nous sommes complets samedi soir. Dimanche vous conviendrait-il ?",
+          "english": "I'm sorry, we're fully booked Saturday evening. Would Sunday work for you?",
+          "phonetic": "zhuh swee day-zo-LAY, noo som kom-PLAY sahm-DEE swahr. dee-MAHNSH voo kohn-VYAN-dray-teel ?"
+        }
+      ]
+    },
+    {
+      "id": "lex_le_deauville_002",
+      "intent_en": "Order the duck dish",
+      "text_local": "Je vais prendre le canard, s'il vous plaît.",
+      "pronunciation": "zhuh vay PRAHN-druh luh kah-NAR, seel voo PLAY.",
+      "formality": "polite",
+      "cultural_note": "Duck ('le canard') is iconic in French cuisine — from duck confit to magret de canard. Ordering it in a French-inspired restaurant signals that you know your classics.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Excellent choix ! Vous le voulez rosé ou bien cuit ?",
+          "english": "Excellent choice! Would you like it medium or well done?",
+          "phonetic": "ex-seh-LAHN SHWAH ! voo luh voo-LAY ro-ZAY oo byan KWEE ?"
+        },
+        {
+          "french": "Le canard est accompagné d'une purée de céleri-rave ce soir.",
+          "english": "The duck comes with a celeriac purée this evening.",
+          "phonetic": "luh kah-NAR ay tah-koh-pah-NYAY doon poo-RAY duh say-luh-REE rav suh SWAHR."
+        }
+      ]
+    },
+    {
+      "id": "lex_le_deauville_003",
+      "intent_en": "Ask for a wine recommendation",
+      "text_local": "Pourriez-vous nous recommander un vin pour accompagner le canard ?",
+      "pronunciation": "poor-YAY voo noo ruh-koh-mahn-DAY un VAN poor ah-koh-pah-NYAY luh kah-NAR ?",
+      "formality": "formal",
+      "cultural_note": "Asking for a wine pairing recommendation ('un accord mets-vins') is second nature in France. The server will appreciate the question and likely explain the choice.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Je vous conseillerais un Pinot Noir de Bourgogne. Il se marie parfaitement avec le canard.",
+          "english": "I would recommend a Burgundy Pinot Noir. It pairs perfectly with duck.",
+          "phonetic": "zhuh voo kohn-say-yuh-RAY un pee-NOH NWAHR duh boor-GON-yuh. eel suh mah-REE par-fay-MAHN ah-VEK luh kah-NAR."
+        }
+      ]
+    },
+    {
+      "id": "lex_le_deauville_004",
+      "intent_en": "Compliment the chef",
+      "text_local": "C'était absolument délicieux. Pourriez-vous transmettre mes compliments au chef ?",
+      "pronunciation": "say-TAY ahb-so-loo-MAHN day-lee-SYUH. poor-YAY voo trahn-MET-ruh may kom-plee-MAHN oh SHEF ?",
+      "formality": "formal",
+      "cultural_note": "Sending compliments to the chef ('les compliments au chef') is a deeply appreciated gesture in France — it honors the artistry of cooking, which is taken very seriously.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Avec plaisir, merci. Ça lui fera très plaisir.",
+          "english": "With pleasure, thank you. That will make him very happy.",
+          "phonetic": "ah-VEK play-ZEER, mair-SEE. sah lwee fuh-RAH tray play-ZEER."
+        }
+      ]
+    },
+    {
+      "id": "lex_le_deauville_005",
+      "intent_en": "Ask for the bill",
+      "text_local": "L'addition, s'il vous plaît.",
+      "pronunciation": "lah-dee-SYON, seel voo PLAY.",
+      "formality": "polite",
+      "cultural_note": "In France, the bill is never brought until you ask — leaving it on the table unsolicited would be considered rude, as it implies the server wants you to leave. Always ask for 'l'addition.'",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Tout de suite, monsieur.",
+          "english": "Right away, sir.",
+          "phonetic": "toot SWEET, muh-SYUH."
+        },
+        {
+          "french": "Je vous l'apporte dans un instant.",
+          "english": "I'll bring it to you in a moment.",
+          "phonetic": "zhuh voo lah-PORT dahn zun an-STAHN."
+        }
+      ]
+    },
+    {
+      "id": "lex_le_deauville_006",
+      "intent_en": "Ask if the dessert is homemade",
+      "text_local": "Est-ce que les desserts sont faits maison ?",
+      "pronunciation": "ess-KUH lay day-SAIR sohn fay may-ZOHN ?",
+      "formality": "polite",
+      "cultural_note": "'Fait maison' (homemade) is a quality label in French restaurants — since 2014, French law requires restaurants to display whether dishes are homemade. It's a legitimate and savvy question to ask.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Absolument ! Notre tarte tatin et notre crème brûlée sont entièrement faites maison.",
+          "english": "Absolutely! Our tarte tatin and crème brûlée are entirely homemade.",
+          "phonetic": "ahb-so-loo-MAHN ! notr TART tah-TAN ay notr KREM broo-LAY sohn ahn-tyair-MAHN fay may-ZOHN."
+        }
+      ]
+    }
+  ]
+}

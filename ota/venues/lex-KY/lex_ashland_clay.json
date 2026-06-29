@@ -1,0 +1,100 @@
+{
+  "id": "lex_ashland_clay",
+  "name_en": "Ashland, The Henry Clay Estate",
+  "name_local": "Le Domaine Henry Clay",
+  "icon": "building.columns",
+  "lat": 38.0354,
+  "lon": -84.4822,
+  "radius_m": 150,
+  "phrases": [
+    {
+      "id": "lex_ashland_clay_001",
+      "intent_en": "Ask when the tours start",
+      "text_local": "À quelle heure commencent les visites guidées ?",
+      "pronunciation": "ah kel UR koh-MAHNS lay vee-ZEET ghee-DAY ?",
+      "formality": "polite",
+      "cultural_note": "Guided historical tours ('visites guidées') are a beloved French pastime — France has thousands of classified historic monuments, and the French take heritage tourism very seriously.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Les visites guidées commencent à dix heures et à quatorze heures.",
+          "english": "Guided tours start at ten o'clock and at two o'clock.",
+          "phonetic": "lay vee-ZEET ghee-DAY koh-MAHNS ah deez UR ay ah kah-TORZ UR."
+        },
+        {
+          "french": "La prochaine visite est dans vingt minutes.",
+          "english": "The next tour is in twenty minutes.",
+          "phonetic": "lah pro-SHEN vee-ZEET ay dahn van mee-NOOT."
+        }
+      ]
+    },
+    {
+      "id": "lex_ashland_clay_002",
+      "intent_en": "Say the estate is beautiful",
+      "text_local": "Ce domaine est vraiment magnifique. Quelle splendeur !",
+      "pronunciation": "suh doh-MEN ay vray-MAHN mah-nyee-FEEK. kel splahn-DUR !",
+      "formality": "casual",
+      "cultural_note": "'Un domaine' in French often refers to a wine estate, but it beautifully fits a grand historic property like this. The word carries a sense of aristocratic elegance.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_ashland_clay_003",
+      "intent_en": "Ask about Henry Clay's connection to France",
+      "text_local": "Est-ce qu'Henry Clay avait des liens avec la France ?",
+      "pronunciation": "ess-KUH ON-ree CLAY ah-VAY day LYAN ah-VEK lah FRAHNS ?",
+      "formality": "polite",
+      "cultural_note": "Henry Clay negotiated with French diplomats during the early republic and was deeply influenced by French Enlightenment thought. This makes for a genuinely interesting historical conversation.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, Henry Clay était fasciné par la politique française et admirait Napoléon.",
+          "english": "Yes, Henry Clay was fascinated by French politics and admired Napoleon.",
+          "phonetic": "WEE, ON-ree CLAY ay-TAY fah-see-NAY par lah poh-lee-TEEK frahn-SEZ ay ah-mee-RAY nah-poh-lay-OHN."
+        }
+      ]
+    },
+    {
+      "id": "lex_ashland_clay_004",
+      "intent_en": "Comment on the beautiful gardens",
+      "text_local": "Les jardins sont superbes. Est-ce qu'ils sont d'époque ?",
+      "pronunciation": "lay zhar-DAN sohn soo-PAIRB. ess-KEEL sohn day-POK ?",
+      "formality": "polite",
+      "cultural_note": "Formal gardens ('les jardins à la française') were a hallmark of French design influence worldwide. Asking if gardens are original ('d'époque') shows genuine historical curiosity.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Les jardins ont été restaurés selon les plans d'origine du dix-neuvième siècle.",
+          "english": "The gardens were restored according to the original nineteenth-century plans.",
+          "phonetic": "lay zhar-DAN ohn ay-tay res-toh-RAY suh-LOHN lay PLAN doh-ree-ZHEEN doo deez-NUV-yem SYEKL."
+        }
+      ]
+    },
+    {
+      "id": "lex_ashland_clay_005",
+      "intent_en": "Ask for a guided tour",
+      "text_local": "Je souhaiterais faire la visite guidée. Comment puis-je réserver ?",
+      "pronunciation": "zhuh swet-uh-RAY fair lah vee-ZEET ghee-DAY. koh-MAHN pwee-zhuh ray-zair-VAY ?",
+      "formality": "formal",
+      "cultural_note": "Using 'je souhaiterais' (I would like / I wish to) instead of 'je veux' (I want) is a mark of polished French — it's the phrasing used when you want to sound cultured and considerate.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Vous pouvez acheter votre billet à l'accueil, juste à l'entrée.",
+          "english": "You can buy your ticket at the welcome desk, just at the entrance.",
+          "phonetic": "voo poo-VAY ah-shuh-TAY votr bee-YAY ah lah-KWHY, zhoos ah lahn-TRAY."
+        },
+        {
+          "french": "La prochaine visite guidée part dans dix minutes.",
+          "english": "The next guided tour leaves in ten minutes.",
+          "phonetic": "lah pro-SHEN vee-ZEET ghee-DAY par dahn dee mee-NOOT."
+        }
+      ]
+    }
+  ]
+}

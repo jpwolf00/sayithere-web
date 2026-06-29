@@ -1,0 +1,112 @@
+{
+  "id": "lex_keeneland",
+  "name_en": "Keeneland Race Course",
+  "name_local": "Keeneland",
+  "icon": "trophy.fill",
+  "lat": 38.0443,
+  "lon": -84.5989,
+  "radius_m": 400,
+  "phrases": [
+    {
+      "id": "lex_keen_001",
+      "intent_en": "Cheer your horse at the start",
+      "text_local": "Et ils sont partis ! Allez, allez !",
+      "pronunciation": "ay eel son par-TEE! ah-LAY, ah-LAY!",
+      "formality": "casual",
+      "cultural_note": "'Et ils sont partis !' (And they're off!) is the classic French racing cry. Keeneland's French-influenced thoroughbred tradition makes this especially fitting.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_keen_002",
+      "intent_en": "Place a bet at the window",
+      "text_local": "Un pari gagnant sur le numéro trois, s'il vous plaît.",
+      "pronunciation": "un pah-REE gah-NYON soor luh new-may-ROH TWAH, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "A 'gagnant' bet means you're picking a horse to win outright. At French racecourses (Chantilly, Longchamp), betting windows look much like Keeneland's.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Voilà votre ticket. Bonne chance !",
+          "english": "Here is your ticket. Good luck!",
+          "phonetic": "vwah-LAH voh-truh tee-KAY. bon SHONS"
+        }
+      ]
+    },
+    {
+      "id": "lex_keen_003",
+      "intent_en": "Ask what time the next race is",
+      "text_local": "À quelle heure part la prochaine course ?",
+      "pronunciation": "ah kel uhr par lah pro-SHEN koors",
+      "formality": "polite",
+      "cultural_note": "French racing uses 'course' for race, 'partant' for runner. The question structure 'à quelle heure' is one of the most useful time-asking phrases.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "La prochaine course est dans vingt minutes.",
+          "english": "The next race is in twenty minutes.",
+          "phonetic": "lah pro-SHEN koors eh don van mee-NEWT"
+        }
+      ]
+    },
+    {
+      "id": "lex_keen_004",
+      "intent_en": "Admire a horse in the paddock",
+      "text_local": "Quel beau cheval ! Regardez comme il est fort.",
+      "pronunciation": "kel boh shuh-VAL! ruh-gar-DAY kom eel ay for",
+      "formality": "casual",
+      "cultural_note": "The paddock ('le paddock') is where horses are saddled before a race — same word in French and English. Admiring horses is universal at any racecourse.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_keen_005",
+      "intent_en": "Celebrate winning a bet",
+      "text_local": "On a gagné ! C'est incroyable !",
+      "pronunciation": "on ah gah-NYAY! say tan-krwah-YAH-bluh",
+      "formality": "casual",
+      "cultural_note": "'On a gagné' uses 'on' (we/one) — the informal collective pronoun French people use constantly instead of 'nous'.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_keen_006",
+      "intent_en": "Ask about the odds on a horse",
+      "text_local": "Quelle est la cote du numéro sept ?",
+      "pronunciation": "kel ay lah kot dew new-may-ROH set",
+      "formality": "polite",
+      "cultural_note": "'La cote' means the odds in French horse racing. France's premier racing publication is called 'Paris Turf'.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Il est à cinq contre un.",
+          "english": "He's at five to one.",
+          "phonetic": "eel ay ah sank kon-truh UN"
+        }
+      ]
+    },
+    {
+      "id": "lex_keen_007",
+      "intent_en": "Order bourbon at the track",
+      "text_local": "Un bourbon avec des glaçons, s'il vous plaît.",
+      "pronunciation": "un boor-BON ah-vek day glah-SON, seel voo PLAY",
+      "formality": "polite",
+      "cultural_note": "Keeneland is known for its mint juleps, but bourbon is king in Kentucky. 'Des glaçons' means ice cubes — a phrase useful across France too.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr. Voilà !",
+          "english": "Of course. Here you go!",
+          "phonetic": "byan SEWR. vwah-LAH"
+        }
+      ]
+    }
+  ]
+}

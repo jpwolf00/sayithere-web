@@ -1,0 +1,99 @@
+{
+  "id": "lex_opera_house",
+  "name_en": "Lexington Opera House",
+  "name_local": "L'Opéra de Lexington",
+  "icon": "music.note.house.fill",
+  "lat": 38.0469,
+  "lon": -84.4974,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "lex_opera_house_001",
+      "intent_en": "Ask an usher where your seats are",
+      "text_local": "Excusez-moi, pouvez-vous m'indiquer mes places ? J'ai les billets rang G, sièges quinze et seize.",
+      "pronunciation": "ex-KYOO-zay mwah, poo-VAY voo man-dee-KAY may PLASS ? zhay lay bee-YAY RAHN zhay, SYEZH KANZ ay SEZ.",
+      "formality": "polite",
+      "cultural_note": "At French theaters and opera houses, ushers ('les ouvreuses') traditionally escort you to your seat and expect a small tip — a charming tradition that dates back centuries.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Suivez-moi, je vous accompagne à vos places.",
+          "english": "Follow me, I'll accompany you to your seats.",
+          "phonetic": "swee-VAY mwah, zhuh vooz ah-koh-PAHN-yuh ah voh PLASS."
+        },
+        {
+          "french": "C'est dans la corbeille, au premier balcon à gauche.",
+          "english": "It's in the dress circle, on the first balcony to the left.",
+          "phonetic": "say dahn lah kor-BAY, oh pruh-MYAY bal-KOHN ah GOHSH."
+        }
+      ]
+    },
+    {
+      "id": "lex_opera_house_002",
+      "intent_en": "Tell someone you love opera",
+      "text_local": "J'adore l'opéra. C'est une passion depuis mon enfance.",
+      "pronunciation": "zhah-DOR loh-pay-RAH. say toon pah-SYON duh-PWEE mohn ahn-FAHNS.",
+      "formality": "casual",
+      "cultural_note": "Opera is woven deeply into French culture — Bizet, Berlioz, and Massenet are national treasures. Expressing a love of opera will immediately endear you to French speakers.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_opera_house_003",
+      "intent_en": "Order a glass of champagne at intermission",
+      "text_local": "Une coupe de champagne, s'il vous plaît.",
+      "pronunciation": "oon KOOP duh shahm-PAH-nyuh, seel voo PLAY.",
+      "formality": "polite",
+      "cultural_note": "At the opera, you order 'une coupe' (a coupe glass) of champagne — not 'un verre' (a regular glass). The distinction marks you as someone who knows their way around a theater foyer.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr. Vous préférez du brut ou du demi-sec ?",
+          "english": "Of course. Do you prefer brut or demi-sec?",
+          "phonetic": "byan SOOR. voo pray-fay-RAY doo BROOT oo doo duh-mee-SEK ?"
+        },
+        {
+          "french": "Voilà, une coupe de champagne. Bonne soirée !",
+          "english": "Here you are, a glass of champagne. Enjoy your evening!",
+          "phonetic": "vwah-LAH, oon KOOP duh shahm-PAH-nyuh. bon swah-RAY !"
+        }
+      ]
+    },
+    {
+      "id": "lex_opera_house_004",
+      "intent_en": "Compliment a performance after the show",
+      "text_local": "C'était une représentation extraordinaire. Le ténor était époustouflant !",
+      "pronunciation": "say-TAY oon ruh-pray-zan-tah-SYON ex-trah-or-dee-NAIR. luh tay-NOR ay-TAY ay-poos-too-FLAHN !",
+      "formality": "formal",
+      "cultural_note": "'Époustouflant' (breathtaking / astounding) is a wonderfully expressive French word — using it will delight any Francophile and signal that you truly felt the performance.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_opera_house_005",
+      "intent_en": "Ask about upcoming shows",
+      "text_local": "Qu'est-ce qui est au programme les prochaines semaines ?",
+      "pronunciation": "kes-KUH ee ay oh pro-GRAM lay pro-SHEN suh-MEN ?",
+      "formality": "polite",
+      "cultural_note": "'Au programme' (on the program) is the standard French phrase for what's showing — used for theater, cinema, concerts, and TV. It's a versatile phrase worth knowing.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Le mois prochain, nous avons La Traviata et un concert de musique de chambre.",
+          "english": "Next month we have La Traviata and a chamber music concert.",
+          "phonetic": "luh mwah pro-SHAN, nooz ah-VOHN lah trah-vyah-TAH ay un kohn-SAIR duh moo-ZEEK duh SHAHM-bruh."
+        },
+        {
+          "french": "Le programme complet est disponible à l'accueil.",
+          "english": "The full program is available at the front desk.",
+          "phonetic": "luh pro-GRAM kohm-PLAY ay dees-po-NEE-bluh ah lah-KWHY."
+        }
+      ]
+    }
+  ]
+}

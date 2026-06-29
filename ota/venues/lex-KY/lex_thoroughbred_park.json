@@ -1,0 +1,94 @@
+{
+  "id": "lex_thoroughbred_park",
+  "name_en": "Thoroughbred Park",
+  "name_local": "Parc des Pur-Sangs",
+  "icon": "star.fill",
+  "lat": 38.0455,
+  "lon": -84.4949,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lex_thoroughbred_park_001",
+      "intent_en": "Comment on the beautiful horse statues",
+      "text_local": "Ces statues de chevaux sont magnifiques ! Elles sont tellement réalistes.",
+      "pronunciation": "say stah-TOO duh shuh-VOH sohn mah-nyee-FEEK ! el sohn tel-MAHN ray-ah-LEEST.",
+      "formality": "casual",
+      "cultural_note": "Bronze equestrian statues ('les statues équestres') are a proud tradition across Europe and the Americas. Lexington's life-sized racing statues are genuinely striking — this is an authentic reaction.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_thoroughbred_park_002",
+      "intent_en": "Ask someone to take a photo of you",
+      "text_local": "Excusez-moi, pourriez-vous prendre une photo de moi devant les statues ?",
+      "pronunciation": "ex-KYOO-zay mwah, poor-YAY voo PRAHN-druh oon FOH-toh duh mwah duh-VAHN lay stah-TOO ?",
+      "formality": "polite",
+      "cultural_note": "The French take photos ('des photos') very seriously — composition, framing, and light all matter. Asking nicely and showing the shot afterward to say 'merci, elle est parfaite !' is good etiquette.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr, avec plaisir ! Souriez !",
+          "english": "Of course, with pleasure! Smile!",
+          "phonetic": "byan SOOR, ah-VEK play-ZEER ! soo-ree-AY !"
+        },
+        {
+          "french": "Je prends plusieurs photos pour vous assurer un bon résultat.",
+          "english": "I'll take a few photos to make sure you get a good one.",
+          "phonetic": "zhuh prahn ploo-ZYUR FOH-toh poor voo ah-soo-RAY un bohn ray-zool-TAH."
+        }
+      ]
+    },
+    {
+      "id": "lex_thoroughbred_park_003",
+      "intent_en": "Ask a passerby about the history of Lexington's horse culture",
+      "text_local": "Pardon, pouvez-vous me parler un peu de la culture équestre de Lexington ?",
+      "pronunciation": "par-DOHN, poo-VAY voo muh par-LAY un puh duh lah kool-TOOR ay-KEST-ruh duh LEX-ing-tun ?",
+      "formality": "polite",
+      "cultural_note": "Lexingtonians are immensely proud of their horse heritage. Asking about it is an instant conversation starter — locals love to share stories about Bluegrass Country and its famous farms.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Avec plaisir ! Lexington est la capitale mondiale de l'élevage de chevaux de course.",
+          "english": "With pleasure! Lexington is the world capital of thoroughbred horse breeding.",
+          "phonetic": "ah-VEK play-ZEER ! LEX-ing-tun ay lah kah-pee-TAL mohn-DYAL duh lay-luh-VAZH duh shuh-VOH duh KOORS."
+        },
+        {
+          "french": "La région du Bluegrass est idéale pour élever des chevaux — l'herbe est riche en minéraux.",
+          "english": "The Bluegrass region is ideal for raising horses — the grass is rich in minerals.",
+          "phonetic": "lah ray-ZHYON doo BLOO-grass ay ee-day-AL poor ay-luh-VAY day shuh-VOH — lair-buh ay REESH ahn mee-nay-ROH."
+        }
+      ]
+    },
+    {
+      "id": "lex_thoroughbred_park_004",
+      "intent_en": "Tell someone you're visiting from France",
+      "text_local": "Je viens de France — c'est ma première visite à Lexington. La ville me plaît beaucoup !",
+      "pronunciation": "zhuh VYAN duh FRAHNS — say mah pruh-MYAIR vee-ZEET ah LEX-ing-tun. lah VEEL muh PLAY bo-KOO !",
+      "formality": "casual",
+      "cultural_note": "Saying you're from France ('Je viens de France') will often spark genuine enthusiasm from Lexington locals — especially around horses, as Normandy is famous for its own thoroughbred industry and connections to Kentucky.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_thoroughbred_park_005",
+      "intent_en": "Ask what the statues represent",
+      "text_local": "Que représentent ces statues exactement ?",
+      "pronunciation": "kuh ruh-pray-ZAHNT say stah-TOO ex-ak-tuh-MAHN ?",
+      "formality": "casual",
+      "cultural_note": "The statues at Thoroughbred Park depict racehorses in full gallop, celebrating Lexington's identity as the 'Horse Capital of the World.' Asking about public art ('l'art public') is a very French thing to do.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Ces statues représentent des chevaux de course au galop — c'est un hommage à l'héritage équestre de Lexington.",
+          "english": "These statues depict racehorses at full gallop — they're a tribute to Lexington's equestrian heritage.",
+          "phonetic": "say stah-TOO ruh-pray-ZAHNT day shuh-VOH duh KOORS oh gah-LOH — say tun oh-MAZH ah lay-ray-TAZH ay-KEST-ruh duh LEX-ing-tun."
+        }
+      ]
+    }
+  ]
+}

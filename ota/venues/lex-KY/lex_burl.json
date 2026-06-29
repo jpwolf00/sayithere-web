@@ -1,0 +1,111 @@
+{
+  "id": "lex_burl",
+  "name_en": "Burl",
+  "name_local": "Burl",
+  "icon": "music.mic",
+  "lat": 38.0517,
+  "lon": -84.4866,
+  "radius_m": 80,
+  "phrases": [
+    {
+      "id": "lex_burl_001",
+      "intent_en": "Ask who's playing tonight",
+      "text_local": "Qui joue ce soir ?",
+      "pronunciation": "kee ZHOO suh SWAR",
+      "formality": "casual",
+      "cultural_note": "A short, punchy question perfectly suited for a loud venue. French speakers at concerts and clubs use this exact phrasing — it's natural and gets straight to the point.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Ce soir, c'est un groupe de blues local.",
+          "english": "Tonight it's a local blues band.",
+          "phonetic": "suh SWAR, say un GROOP duh BLOO lo-KAL"
+        },
+        {
+          "french": "Il y a deux groupes ce soir — le premier commence à neuf heures.",
+          "english": "There are two bands tonight — the first starts at nine.",
+          "phonetic": "eel ee ah duh GROOP suh SWAR — luh pruh-MYAY koh-MONS ah nuh-VEUR"
+        }
+      ]
+    },
+    {
+      "id": "lex_burl_002",
+      "intent_en": "Order a cocktail at the bar",
+      "text_local": "Je voudrais un cocktail, s'il vous plaît. Qu'est-ce que vous recommandez ?",
+      "pronunciation": "juh voo-DRAY un KOK-tel, seel voo PLAY. kess kuh voo ruh-koh-mon-DAY",
+      "formality": "casual",
+      "cultural_note": "Asking for a recommendation ('Qu'est-ce que vous recommandez ?') is a smart move at any bar or restaurant in France — it shows trust in the staff and often leads to discovering something excellent.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Je vous recommande notre spécialité maison.",
+          "english": "I recommend our house specialty.",
+          "phonetic": "juh voo ruh-koh-MON no-truh spay-syah-lee-TAY may-ZON"
+        },
+        {
+          "french": "Le gin tonic est très populaire ce soir.",
+          "english": "The gin and tonic is very popular tonight.",
+          "phonetic": "luh JHEEN TO-neek ay tray po-poo-LAIR suh SWAR"
+        }
+      ]
+    },
+    {
+      "id": "lex_burl_003",
+      "intent_en": "Say the band is great",
+      "text_local": "Ce groupe est vraiment excellent !",
+      "pronunciation": "suh GROOP ay vray-MON ex-el-ON",
+      "formality": "casual",
+      "cultural_note": "'Excellent' in French is a strong compliment — sharper and more precise than 'bien'. At a concert, you can also use 'génial' (awesome) or 'incroyable' (incredible) for even more enthusiasm.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_burl_004",
+      "intent_en": "Ask how late the venue stays open",
+      "text_local": "Jusqu'à quelle heure êtes-vous ouverts ?",
+      "pronunciation": "jhoos-KAH kel EUR et-VOO zoo-VAIR",
+      "formality": "casual",
+      "cultural_note": "French bars and music venues often stay open later than American ones. Asking closing time ('jusqu'à quelle heure') is a practical and common question — especially if you're enjoying the night.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Nous fermons à deux heures du matin.",
+          "english": "We close at two in the morning.",
+          "phonetic": "noo fair-MON ah duh-ZEUR doo ma-TAN"
+        }
+      ]
+    },
+    {
+      "id": "lex_burl_005",
+      "intent_en": "Ask for a menu",
+      "text_local": "Est-ce que vous avez une carte, s'il vous plaît ?",
+      "pronunciation": "ess kuh voo ZAH-vay oon KART, seel voo PLAY",
+      "formality": "casual",
+      "cultural_note": "In France, 'la carte' is the menu (as opposed to 'le menu' which means the fixed-price meal). Asking for 'la carte' at a bar means you want to see the drinks list — very natural usage.",
+      "speech_act": "request",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bien sûr, voilà notre carte des boissons.",
+          "english": "Of course, here's our drinks menu.",
+          "phonetic": "byan SOOR, vwah-LAH no-truh KART day bwah-SON"
+        }
+      ]
+    },
+    {
+      "id": "lex_burl_006",
+      "intent_en": "Compliment the atmosphere of the venue",
+      "text_local": "Quelle super ambiance ici ! J'aime beaucoup cet endroit.",
+      "pronunciation": "kel SOO-pair om-BYONS ee-SEE ! jhem boh-KOO set on-DRWAH",
+      "formality": "casual",
+      "cultural_note": "'Ambiance' is a word the English language borrowed from French — hearing it used in its original language feels authentic. 'Endroit' (place/spot) is a casual, affectionate way to refer to a venue.",
+      "speech_act": "exclamation",
+      "expects_reply": false,
+      "responses": []
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "lex_home_rachels_run",
+  "name_en": "Home",
+  "name_local": "Chez Nous",
+  "icon": "house.fill",
+  "lat": 38.0295,
+  "lon": -84.4422,
+  "radius_m": 100,
+  "phrases": [
+    {
+      "id": "lex_home_001",
+      "intent_en": "Announce you're home",
+      "text_local": "Je suis rentré !",
+      "pronunciation": "zhuh swee ron-TRAY",
+      "formality": "casual",
+      "cultural_note": "A classic French arrival greeting — casual and warm. Add 'e' at the end if you're a woman: 'rentrée'.",
+      "speech_act": "statement",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bienvenue à la maison !",
+          "english": "Welcome home!",
+          "phonetic": "byan-vuh-NEW ah lah may-ZON"
+        }
+      ]
+    },
+    {
+      "id": "lex_home_002",
+      "intent_en": "Say dinner smells amazing",
+      "text_local": "Ça sent vraiment bon ! Qu'est-ce qu'on mange ce soir ?",
+      "pronunciation": "sah son vray-MON bon! kess-kon manzh suh SWAHR",
+      "formality": "casual",
+      "cultural_note": "Complimenting the cook is always welcome. This phrase combines a compliment with a question — very natural French.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "J'ai fait des lasagnes.",
+          "english": "I made lasagna.",
+          "phonetic": "zhay fay day lah-ZAHN-yuh"
+        }
+      ]
+    },
+    {
+      "id": "lex_home_003",
+      "intent_en": "Call your pet to come",
+      "text_local": "Viens ici ! Allez, viens !",
+      "pronunciation": "vyan ee-SEE! ah-LAY, vyan!",
+      "formality": "casual",
+      "cultural_note": "French pet commands are simple and direct: 'viens' (come), 'assis' (sit), 'reste' (stay), 'couché' (lie down). Pets respond to tone as much as words.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_home_004",
+      "intent_en": "Ask where someone is",
+      "text_local": "Où est-elle ? Je ne la vois pas.",
+      "pronunciation": "oo eh-TEL? zhuh nuh lah vwah PAH",
+      "formality": "casual",
+      "cultural_note": "'Je ne la vois pas' (I don't see her) uses the direct object pronoun 'la' — a great everyday structure. Use 'il' and 'le' for a male subject.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Elle est dans le jardin, je crois.",
+          "english": "She's in the garden, I think.",
+          "phonetic": "el eh don luh zhar-DAN, zhuh KRWAH"
+        }
+      ]
+    },
+    {
+      "id": "lex_home_005",
+      "intent_en": "Say it's time for the dog's walk",
+      "text_local": "C'est l'heure de promener le chien !",
+      "pronunciation": "say luhr duh prom-NAY luh SHYAN",
+      "formality": "casual",
+      "cultural_note": "'Promener le chien' (walk the dog) is the go-to French phrase. You can also say 'sortir le chien' — either is perfectly natural.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_home_006",
+      "intent_en": "Share that you had a great day",
+      "text_local": "J'ai eu une excellente journée. Et toi ?",
+      "pronunciation": "zhay ew un ex-uh-LONT zhoor-NAY. ay TWAH?",
+      "formality": "casual",
+      "cultural_note": "Sharing your day with 'Et toi ?' (And you?) invites the conversation back. A very French social habit.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Moi aussi, ça s'est bien passé !",
+          "english": "Me too, it went well!",
+          "phonetic": "mwah oh-SEE, sah say byan pah-SAY"
+        }
+      ]
+    },
+    {
+      "id": "lex_home_007",
+      "intent_en": "Ask if someone wants wine",
+      "text_local": "Tu veux un verre de vin ?",
+      "pronunciation": "tew vuh uh vair duh van",
+      "formality": "casual",
+      "cultural_note": "'Un verre de vin' is the most natural everyday way to offer wine casually at home.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, volontiers ! Merci.",
+          "english": "Yes, gladly! Thank you.",
+          "phonetic": "wee, voh-lon-TYAY! mehr-SEE"
+        }
+      ]
+    },
+    {
+      "id": "lex_home_008",
+      "intent_en": "Tell the dogs to settle down",
+      "text_local": "Couchez-vous ! Soyez sages !",
+      "pronunciation": "koo-SHAY voo! swah-YAY sazh",
+      "formality": "casual",
+      "cultural_note": "'Couché' means lie down for a dog. 'Sages' means well-behaved or calm. Both are great everyday command words.",
+      "speech_act": "command",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_home_009",
+      "intent_en": "Suggest drinking wine on the outdoor deck",
+      "text_local": "On boit un verre de vin sur la terrasse ?",
+      "pronunciation": "on bwah un vair duh van sewr lah teh-RASS",
+      "formality": "casual",
+      "cultural_note": "'Sur la terrasse' is a very natural phrase for enjoying a drink outside. 'On boit... ?' sounds relaxed and inclusive, like 'Shall we have...?'",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Bonne idée, allons dehors.",
+          "english": "Good idea, let's go outside.",
+          "phonetic": "bun ay-DEE, ah-LON duh-OR"
+        }
+      ]
+    },
+    {
+      "id": "lex_home_010",
+      "intent_en": "Suggest pizza for dinner",
+      "text_local": "On prend une pizza pour le dîner ?",
+      "pronunciation": "on pron un PEET-zah poor luh dee-NAY",
+      "formality": "casual",
+      "cultural_note": "'On prend...' is a common colloquial way to suggest getting food together. 'Pour le dîner' keeps it clearly about dinner.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, ça me dit bien !",
+          "english": "Yes, that sounds great to me!",
+          "phonetic": "wee, sah muh dee byan"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "lex_woodland_park",
+  "name_en": "Woodland Park",
+  "name_local": "Parc Woodland",
+  "icon": "tree.fill",
+  "lat": 38.0228,
+  "lon": -84.4682,
+  "radius_m": 200,
+  "phrases": [
+    {
+      "id": "lex_woodland_park_001",
+      "intent_en": "Say the park is lovely",
+      "text_local": "Ce parc est vraiment charmant. J'adore l'atmosphère tranquille.",
+      "pronunciation": "suh PARK ay vray-MAHN shar-MAHN. zhah-DOR laht-moss-FAIR trahn-KEEL.",
+      "formality": "casual",
+      "cultural_note": "The French concept of 'la flânerie' — leisurely strolling without a destination — was elevated to an art form by nineteenth-century Parisian poets. Woodland Park is perfect for it.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_woodland_park_002",
+      "intent_en": "Ask about the walking trail",
+      "text_local": "Est-ce qu'il y a un sentier de promenade dans ce parc ?",
+      "pronunciation": "ess-keel ee ah un sahn-TYAY duh prom-NAHD dahn suh PARK ?",
+      "formality": "polite",
+      "cultural_note": "Walking paths in French parks are called 'sentiers' or 'allées.' The word 'promenade' (walk/stroll) is of French origin and is used in English too — a lovely linguistic connection to share.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Oui, il y a un sentier qui fait le tour du parc, environ deux kilomètres.",
+          "english": "Yes, there's a trail that goes all the way around the park, about two kilometers.",
+          "phonetic": "WEE, eel ee ah un sahn-TYAY kee fay luh TOOR doo PARK, ahn-vee-ROHN duh kee-loh-MET-ruh."
+        },
+        {
+          "french": "Le sentier commence juste derrière le terrain de jeux.",
+          "english": "The trail starts just behind the playground.",
+          "phonetic": "luh sahn-TYAY koh-MAHNS zhoos duh-RYAIR luh tair-AN duh ZHU."
+        }
+      ]
+    },
+    {
+      "id": "lex_woodland_park_003",
+      "intent_en": "Comment on the weather",
+      "text_local": "Quel beau temps aujourd'hui ! Il fait vraiment doux.",
+      "pronunciation": "kel BOH TAHN oh-zhoor-DWEE ! eel fay vray-MAHN DOO.",
+      "formality": "casual",
+      "cultural_note": "Talking about the weather ('parler de la météo') is a universally safe conversation topic in France, just as in the US. 'Il fait doux' (it's mild) is a particularly lovely expression.",
+      "speech_act": "statement",
+      "expects_reply": false,
+      "responses": []
+    },
+    {
+      "id": "lex_woodland_park_004",
+      "intent_en": "Greet a neighbor walking their dog",
+      "text_local": "Bonjour ! Votre chien est adorable. Comment s'appelle-t-il ?",
+      "pronunciation": "bohn-ZHOOR ! votr SHYAN ay ah-doh-RAH-bluh. koh-MAHN sah-PEL-teel ?",
+      "formality": "casual",
+      "cultural_note": "The French are famously devoted to their dogs ('les chiens') — France has one of the highest rates of dog ownership in Europe. Complimenting someone's dog is an instant social lubricant.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Merci ! Il s'appelle Milo. Il adore se promener ici.",
+          "english": "Thank you! His name is Milo. He loves walking here.",
+          "phonetic": "mair-SEE ! eel sah-PEL MEE-loh. eel ah-DOR suh pro-muh-NAY ee-SEE."
+        },
+        {
+          "french": "Oh, vous êtes trop gentil ! Elle s'appelle Luna.",
+          "english": "Oh, you're too kind! Her name is Luna.",
+          "phonetic": "oh, vooz et troh zhahn-TEE ! el sah-PEL LOO-nah."
+        }
+      ]
+    },
+    {
+      "id": "lex_woodland_park_005",
+      "intent_en": "Tell someone you're going for a picnic",
+      "text_local": "On va faire un pique-nique dans le parc. Vous avez des recommandations pour un bon endroit ?",
+      "pronunciation": "on vah fair un peek-NEEK dahn luh PARK. vooz ah-VAY day ruh-koh-mahn-dah-SYON poor un bohn ahn-DRWAH ?",
+      "formality": "casual",
+      "cultural_note": "'Le pique-nique' is actually a French word that English borrowed! French culture elevates the picnic to an art form — a proper one includes cheese, wine, and a proper tablecloth. Even in Kentucky.",
+      "speech_act": "question",
+      "expects_reply": true,
+      "responses": [
+        {
+          "french": "Il y a un coin d'herbe à l'ombre près du lac — c'est parfait pour un pique-nique.",
+          "english": "There's a shady grassy spot near the pond — it's perfect for a picnic.",
+          "phonetic": "eel ee ah un KWAN dairb ah LOHM-bruh pray doo LAK — say par-FAY poor un peek-NEEK."
+        }
+      ]
+    }
+  ]
+}
